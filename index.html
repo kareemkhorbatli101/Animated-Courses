@@ -90,7 +90,9 @@ header .spacer{flex:1}
 #load .nums{color:var(--muted);font-size:12.5px;font-variant-numeric:tabular-nums}
 #load .stall{color:var(--accent);font-size:12.5px;min-height:1.2em}
 #load .err{color:var(--danger)}
+#load .btns{display:flex;gap:9px}
 #load button{background:var(--accent);color:var(--onAccent);border:0;border-radius:7px;padding:7px 15px;font-weight:600;cursor:pointer}
+#load button.ghost{background:var(--surface2);color:var(--text);border:1px solid var(--border);font-weight:500}
 
 /* ---- controls ----------------------------------------------------------------------------- */
 #bar{display:flex;align-items:center;gap:11px;padding:11px 15px;border-bottom:1px solid var(--border)}
@@ -142,7 +144,13 @@ header .spacer{flex:1}
         <div class="bar" id="loadbar"><i></i></div>
         <div class="nums" id="loadnums"></div>
         <div class="stall" id="loadstall"></div>
-        <button id="loadretry" hidden>Retry</button>
+        <div class="btns">
+          <!-- Cancel is always available while loading. A person who cannot wait should be able to
+               stop, not close the tab - and waiting for as long as they like is equally valid, so
+               nothing here ever times out on their behalf. -->
+          <button id="loadcancel" class="ghost" hidden>Cancel download</button>
+          <button id="loadretry" hidden>Retry</button>
+        </div>
       </div>
     </div>
 
@@ -167,6 +175,10 @@ header .spacer{flex:1}
 
 <script src="player/three.min.js"></script>
 <script src="player/GLTFLoader.js"></script>
+<!-- No meshopt decoder here. Compressed geometry was measured (10.79x) and NOT adopted: it is lossy,
+     and the owner's requirement is that the browser and the MP4 renderer load byte-identical assets.
+     A <script> tag for a file this site does not publish is a 404 on every visit, which is exactly the
+     kind of console noise that trains a reader to ignore the console. -->
 <script src="player/fetcher.js"></script>
 <script src="player/overlay.js"></script>
 <script src="player/music.js"></script>

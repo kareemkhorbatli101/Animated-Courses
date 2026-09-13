@@ -114,7 +114,7 @@
   var fcourse = $('fcourse'), fvideo = $('fvideo'), fclear = $('fclear');
   var axcat = $('axcat'), axspeech = $('axspeech'), axsub1 = $('axsub1'), axsub2 = $('axsub2');
   var loadEl = $('load'), loadWhat = $('loadwhat'), loadBar = $('loadbar'), loadNums = $('loadnums'),
-      loadStall = $('loadstall'), loadRetry = $('loadretry');
+      loadStall = $('loadstall'), loadRetry = $('loadretry'), loadCancel = $('loadcancel');
   var playBtn = $('play'), scrub = $('scrub'), timeEl = $('time'), poster = $('poster');
 
   var CAT = null, COURSES = [], current = null, size = 'default';
@@ -264,19 +264,32 @@
   // ================================================================= loading, with honest feedback
   var loadT0 = 0, loadTimer = null, lastProgress = 0, rate = [];
   function loadShow(what) {
+    cancelled = false; aborter = null;
     loadT0 = Date.now(); lastProgress = Date.now(); rate = [];
     loadWhat.textContent = what; loadNums.textContent = ''; loadStall.textContent = '';
-    loadRetry.hidden = true; loadBar.classList.add('indet');
+    loadRetry.hidden = true; loadCancel.hidden = false; loadBar.classList.add('indet');
     loadBar.firstChild.style.width = '0%';
     loadEl.classList.add('on');
     clearInterval(loadTimer);
     loadTimer = setInterval(tick, 1000);        // updated every second, as asked
   }
-  function loadHide() { loadEl.classList.remove('on'); clearInterval(loadTimer); loadTimer = null; }
+  function loadHide() {
+    loadEl.classList.remove('on'); clearInterval(loadTimer); loadTimer = null;
+    loadCancel.hidden = true;
+  }
   function loadFail(msg) {
     loadBar.classList.remove('indet');
     loadWhat.innerHTML = '<span class="err">' + esc(msg) + '</span>';
-    loadRetry.hidden = false; clearInterval(loadTimer);
+    loadRetry.hidden = false; loadCancel.hidden = true; clearInterval(loadTimer);
+  }
+  // Cancelling is a CHOICE, not a fault. It reads as one: no red, no apology, and the same button
+  // that stopped it offers to start again.
+  function loadCancelled() {
+    loadBar.classList.remove('indet');
+    loadWhat.textContent = 'Download cancelled — ' + mb(got) +
+      (total ? ' of ' + mb(total) : '') + ' had arrived.';
+    loadNums.textContent = ''; loadStall.textContent = '';
+    loadRetry.hidden = false; loadCancel.hidden = true; clearInterval(loadTimer);
   }
 
   var got = 0, total = 0, doneFiles = 0, totalFiles = 0, curName = '';
@@ -294,11 +307,22 @@
       if (r > 0 && got > total * 0.05) parts.push('about ' + mmss((total - got) / r) + ' left');
       loadNums.textContent = parts.join('  ·  ');
     }
-    // A STALL IS NAMED. Slow and broken look identical without this, and that is why people leave.
+    // SLOW IS NOT STALLED, and the page must not confuse them.
+    //
+    // The first version measured progress per COMPLETED FILE. On a 4.6 MB model at the 34 KB/s this
+    // connection sometimes gives, that is 134 SECONDS of silence - during which the page showed a
+    // warning about a download that was working perfectly. Progress is now counted in BYTES as they
+    // arrive, so "quiet" means genuinely nothing moving, not "a big file is in flight".
     var quiet = Date.now() - lastProgress;
-    loadStall.textContent = quiet > 6000
-      ? 'still waiting for ' + (curName || 'the next file') + '… (' + mmss(quiet / 1000) + ')'
-      : '';
+    if (quiet > 20000) {
+      loadStall.textContent = 'nothing has arrived for ' + mmss(quiet / 1000) +
+        '. It may still be working — you can keep waiting, or cancel.';
+    } else if (rollingRate() > 0 && rollingRate() < 60 * 1024) {
+      loadStall.textContent = 'This is a slow connection. It is still downloading — ' +
+        'you can wait as long as you like, or cancel.';
+    } else {
+      loadStall.textContent = '';
+    }
   }
   function estTotalMs() { var r = rollingRate(); return r > 0 ? (total - got) / r * 1000 : 1e9; }
   function rollingRate() {          // bytes/sec over the last few seconds, not the average since start
@@ -354,6 +378,50 @@
     return {address: r.address, sha: r.sha, bytes: r.bytes, rel: rel, kind: rel};
   }
 
+  // ---- one file, streamed, cancellable, checksum-verified ----------------------------------------
+  var cancelled = false, aborter = null;
+
+  function streamOne(manifest, rel, alreadyGot) {
+    var r = rec(manifest, rel);
+    var url = r.address;
+    aborter = ('AbortController' in window) ? new AbortController() : null;
+    return fetch(url, aborter ? {signal: aborter.signal} : {}).then(function (resp) {
+      if (!resp.ok) throw new Error(rel + ' -> HTTP ' + resp.status);
+      // A body without a reader (very old browsers) still works; it just cannot report mid-file.
+      if (!resp.body || !resp.body.getReader) return resp.arrayBuffer();
+      var reader = resp.body.getReader();
+      var chunks = [], got = 0;
+      return (function pump() {
+        return reader.read().then(function (res) {
+          if (cancelled) { try { reader.cancel(); } catch (e) {} throw new Error('__cancelled'); }
+          if (res.done) {
+            var out = new Uint8Array(got), at = 0;
+            for (var i = 0; i < chunks.length; i++) { out.set(chunks[i], at); at += chunks[i].length; }
+            return out.buffer;
+          }
+          chunks.push(res.value);
+          got += res.value.length;
+          progressed(alreadyGot + got, curName);    // <- every chunk, not every file
+          return pump();
+        });
+      })();
+    }).then(function (buf) {
+      // The address is the hash, so verifying is not optional politeness - it is what makes a blob
+      // safe to cache forever. It costs 0.05 s on 4.6 MB, measured.
+      if (!window.crypto || !crypto.subtle) return buf;
+      return crypto.subtle.digest('SHA-256', buf).then(function (d) {
+        var hex = Array.prototype.map.call(new Uint8Array(d), function (b) {
+          return ('0' + b.toString(16)).slice(-2);
+        }).join('').slice(0, 16);
+        if (r.sha && hex !== r.sha) {
+          throw new Error('checksum mismatch for ' + r.address + ': got ' + hex +
+                          ', manifest says ' + r.sha);
+        }
+        return buf;
+      });
+    });
+  }
+
   function loadLesson(v) {
     loadShow('Loading ' + titleOf(v, S.lang.catalogue).text);
     got = 0; total = 0; doneFiles = 0; totalFiles = 0;
@@ -395,13 +463,22 @@
       total = rels.reduce(function (n, r2) { return n + (manifest.files[r2] || {}).bytes || 0; }, 0);
       tick();
 
+      // Fetched in SHOT order, one at a time, with progress counted in BYTES AS THEY ARRIVE.
+      //
+      // Why not fetcher.get(): it returns one promise per file and says nothing until the file is
+      // complete. That is what made a 134-second download look like a hang. This streams the body and
+      // reports every chunk, so the bar moves continuously even on a 34 KB/s link - and it is
+      // cancellable, because a person who cannot wait should be able to stop rather than close the tab.
       var buffers = {}, acc = 0;
       var chain = Promise.resolve();
       rels.forEach(function (r2) {
         chain = chain.then(function () {
+          if (cancelled) throw new Error('__cancelled');
           curName = r2.split('/').pop();
-          return fetcher.get(rec(manifest, r2)).then(function (buf) {
-            buffers[r2] = buf; doneFiles++; acc += (manifest.files[r2] || {}).bytes || 0;
+          return streamOne(manifest, r2, acc).then(function (buf) {
+            buffers[r2] = buf;
+            doneFiles++;
+            acc += buf.byteLength;
             progressed(acc, curName);
           });
         });
@@ -412,7 +489,13 @@
         return mount({manifest: manifest, scene: scene, buffers: buffers, timeline: tl});
       });
     }).catch(function (e) {
-      loadFail(String(e && e.message || e));
+      var msg = String((e && e.message) || e);
+      // Cancelling is not a failure, and slowness is not an error. Only a real fault gets red text.
+      if (msg === '__cancelled' || (e && e.name === 'AbortError')) {
+        loadCancelled();
+      } else {
+        loadFail(msg);
+      }
     });
   }
 
@@ -545,6 +628,11 @@
     if (part && part.overlay) { part.overlay.setShow(S.lang.subtitles); part.overlay.render(lastT); }
   };
   loadRetry.onclick = function () { if (current) loadLesson(current.video); };
+  loadCancel.onclick = function () {
+    cancelled = true;
+    if (aborter) { try { aborter.abort(); } catch (e) {} }
+    loadCancelled();
+  };
 
   // ================================================================= boot
   fetch('catalogue.json', {cache: 'no-store'}).then(function (r) { return r.json(); })
