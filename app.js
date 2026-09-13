@@ -572,7 +572,6 @@
     var speech = null;
     if ((scene.speech || []).length && typeof SpeechAudio !== 'undefined') {
       speech = new SpeechAudio(scene.speech, fetcher, pack.manifest);
-      speech.prefetch(0, 25);
     }
     // load()'s third argument is an onReady CALLBACK, not the timeline. Passing the timeline there is
     // what made the first build draw a perfectly sized, perfectly black canvas: the models never loaded
@@ -580,6 +579,18 @@
     // nobody was reading. The gate that caught it reads the PIXELS.
     return new Promise(function (resolve) {
       player.load(scene, pack.buffers, resolve);
+    }).then(function () {
+      // THE VOICE IS PART OF LOADING, not something that happens after it.
+      //
+      // Measured on the live site: at the moment Play became enabled, SpeechAudio held ZERO decoded
+      // buffers. playFrom() then had to fetch them itself, so pressing Play gave 4.5 to 7.5 seconds of
+      // silence - and on one lesson, none at all within fifteen. The page had declared itself ready
+      // while the thing a language lesson is FOR had not been downloaded.
+      //
+      // It is about 0.2 MB. Waiting for it costs a moment on a load already measured in minutes, and it
+      // is the difference between pressing Play and hearing the lesson.
+      loadWhat.textContent = 'Loading the voice…';
+      return speech ? speech.prefetch(0, 45).catch(function () { return null; }) : null;
     }).then(function () {
       var ds = [renderer.domElement.width, renderer.domElement.height];
       ov.layout(ds[0], ds[1]);
