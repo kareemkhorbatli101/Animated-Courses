@@ -406,10 +406,7 @@
           });
         });
       });
-      return chain.then(function () {
-        return fetch(base.replace(/[^/]*\/$/, '') + '', {method: 'HEAD'}).catch(function () {})
-          .then(function () { return buffers; });
-      });
+      return chain.then(function () { return buffers; });
     }).then(function (buffers) {
       return fetcher.json(rec(manifest, 'timeline.json')).then(function (tl) {
         return mount({manifest: manifest, scene: scene, buffers: buffers, timeline: tl});
