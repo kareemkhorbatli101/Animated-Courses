@@ -146,6 +146,12 @@
     var items=[{rel:setRel, kind:'set'}];
     for(var j=0;j<S.actors.length;j++) items.push({rel:S.actors[j].model_glb, kind:'actor', idx:j});
     var loader=new THREE.GLTFLoader(), remaining=items.length;
+    // v27.36: EXT_meshopt_compression, for the site's smaller encoding. GLTFLoader already understands
+    // the extension and cannot decode without a decoder, and compressed assets mark it REQUIRED - so an
+    // asset that needs one and does not get one FAILS to parse, loudly, rather than drawing an empty
+    // scene. Guarded, so a site that publishes only exact geometry behaves exactly as before and this
+    // line is a no-op.
+    if (typeof MeshoptDecoder !== 'undefined' && loader.setMeshoptDecoder) loader.setMeshoptDecoder(MeshoptDecoder);
     function done(){ if(--remaining===0){ self._finish(S); if(onReady) onReady(); } }
     items.forEach(function(item){
       var buf=buffers[item.rel];

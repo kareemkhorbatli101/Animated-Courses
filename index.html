@@ -189,10 +189,14 @@ header .spacer{flex:1}
 
 <script src="player/three.min.js"></script>
 <script src="player/GLTFLoader.js"></script>
-<!-- No meshopt decoder here. Compressed geometry was measured (10.79x) and NOT adopted: it is lossy,
-     and the owner's requirement is that the browser and the MP4 renderer load byte-identical assets.
-     A <script> tag for a file this site does not publish is a 404 on every visit, which is exactly the
-     kind of console noise that trains a reader to ignore the console. -->
+<!-- The meshopt decoder. Required by the smaller interactive encoding, which is published BESIDE the
+     exact bytes rather than instead of them - so choosing "Interactive" still gets geometry that is
+     byte-identical to what the MP4 was rendered from.
+     It is loaded unconditionally because the site always publishes it: making the tag conditional is
+     how it came to be missing while compressed assets were being served, and the symptom was a scene
+     that rendered without its models. That failure was at least LOUD - compressed assets mark the
+     extension REQUIRED, so GLTFLoader refuses them rather than drawing a half-scene silently. -->
+<script src="player/meshopt_decoder.js"></script>
 <script src="player/fetcher.js"></script>
 <script src="player/overlay.js"></script>
 <script src="player/music.js"></script>

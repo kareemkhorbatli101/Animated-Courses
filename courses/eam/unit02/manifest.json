@@ -10,25 +10,45 @@
    "sha": "28cd69fc944b8f25",
    "bytes": 392212,
    "address": "lib/28cd69fc944b8f25.glb",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "meshopt": {
+    "address": "lib/4dd3bf096455ae65.glb",
+    "sha": "4dd3bf096455ae65",
+    "bytes": 73304
+   }
   },
   "assets/workshop_set_noceil_merged.glb": {
    "sha": "d12b10f72f91f24a",
    "bytes": 388548,
    "address": "lib/d12b10f72f91f24a.glb",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "meshopt": {
+    "address": "lib/953176b52f7bd275.glb",
+    "sha": "953176b52f7bd275",
+    "bytes": 71900
+   }
   },
   "assets/maher_a85314610c.glb": {
    "sha": "193306ed32007426",
    "bytes": 4645824,
    "address": "lib/193306ed32007426.glb",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "meshopt": {
+    "address": "lib/4c464e6a15d75854.glb",
+    "sha": "4c464e6a15d75854",
+    "bytes": 440756
+   }
   },
   "assets/nabil_44f002d761.glb": {
    "sha": "de4c7518b00a457e",
    "bytes": 4629672,
    "address": "lib/de4c7518b00a457e.glb",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "meshopt": {
+    "address": "lib/b616a7c103c1204d.glb",
+    "sha": "b616a7c103c1204d",
+    "bytes": 435332
+   }
   },
   "lines/2570ad177193ce70.mp3": {
    "sha": "94fa4775c88ba4bf",
@@ -102,25 +122,29 @@
   {
    "id": "maher",
    "encodings": {
-    "exact": "193306ed32007426"
+    "exact": "193306ed32007426",
+    "meshopt": "4c464e6a15d75854"
    }
   },
   {
    "id": "nabil",
    "encodings": {
-    "exact": "de4c7518b00a457e"
+    "exact": "de4c7518b00a457e",
+    "meshopt": "b616a7c103c1204d"
    }
   },
   {
    "id": "workshop_set_merged",
    "encodings": {
-    "exact": "28cd69fc944b8f25"
+    "exact": "28cd69fc944b8f25",
+    "meshopt": "4dd3bf096455ae65"
    }
   },
   {
    "id": "workshop_set_noceil_merged",
    "encodings": {
-    "exact": "d12b10f72f91f24a"
+    "exact": "d12b10f72f91f24a",
+    "meshopt": "953176b52f7bd275"
    }
   }
  ]

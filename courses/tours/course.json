@@ -38,6 +38,8 @@
     "en": 46.96
    },
    "bytes": 10379396,
+   "meshopt": true,
+   "meshoptBytes": 1344432,
    "files": 16,
    "badgePhoto": true,
    "defaults": {

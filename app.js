@@ -133,7 +133,7 @@
   function modeAvailable(m, v, mp4index) {
     if (m.format === 'interactive') {
       if (m.encoding === 'compressed') {
-        return (v.encodings && v.encodings.meshopt)
+        return v.meshopt
           ? {ok: true}
           : {ok: false, why: 'not published in the smaller encoding yet'};
       }
@@ -323,7 +323,9 @@
     var anyOk = false;
     MODES.forEach(function (m) {
       var a = modeAvailable(m, v, current.mp4);
-      var bytes = a.rec ? a.rec.bytes : (m.id === 'interactive.exact' ? v.bytes : null);
+      var bytes = a.rec ? a.rec.bytes
+        : (m.id === 'interactive.exact' ? v.bytes
+          : (m.id === 'interactive.compressed' ? v.meshoptBytes : null));
       var o = document.createElement('option');
       o.value = m.id;
       o.textContent = m.label + (bytes ? '  —  ' + mb(bytes) : '  —  unavailable');
@@ -489,6 +491,15 @@
   function rec(manifest, rel) {
     var r = manifest.files[rel];
     if (!r) throw new Error('the manifest does not list ' + rel);
+    // The chosen ENCODING decides which bytes are fetched. Resolution degrades TOWARDS exactness and
+    // never away from it: if a compressed sibling is missing, the exact one is used, because a caller
+    // who ends up with the guaranteed bytes has lost nothing. The reverse - quietly serving lossy
+    // geometry to someone who asked for the exact file - is the substitution this project refuses.
+    var m = MODES.filter(function (x) { return x.id === S.mode; })[0];
+    if (m && m.encoding === 'compressed' && r.meshopt) {
+      return {address: r.meshopt.address, sha: r.meshopt.sha, bytes: r.meshopt.bytes,
+              rel: rel, kind: rel};
+    }
     return {address: r.address, sha: r.sha, bytes: r.bytes, rel: rel, kind: rel};
   }
 
@@ -499,7 +510,7 @@
   // bytes - so a blob can be kept forever with no revalidation, and that is the entire reason the second
   // lesson of a course is nearly free. Relying on HTTP cache headers instead would make the property
   // depend on how the host is configured; the Cache API makes it a property of the page.
-  var CACHE = 'animatedeverything/lib/1';
+  var CACHE = 'animatedeverything/lib/2';   // the address space changed with lib/
   function cacheOpen() {
     if (!window.caches) return Promise.resolve(null);
     return caches.open(CACHE).catch(function () { return null; });
