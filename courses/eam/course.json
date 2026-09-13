@@ -37,8 +37,72 @@
    "duration": {
     "en": 45.75
    },
-   "bytes": 46092879,
-   "files": 23,
+   "bytes": 14939587,
+   "files": 16,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   }
+  },
+  {
+   "id": "unit02",
+   "order": 2,
+   "title": {
+    "en": "Unit 2 — Tools and the Service Bay",
+    "ar": "الوحدة ٢ — الأدوات وقسم الصيانة"
+   },
+   "description": {
+    "en": "Maher and Nabil name the tools of the bay and how each one is used.",
+    "ar": "ماهر ونبيل يسميان أدوات القسم وكيفية استخدام كل منها."
+   },
+   "dir": "courses/eam/unit02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 42.31
+   },
+   "bytes": 10309634,
+   "files": 14,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   }
+  },
+  {
+   "id": "unit03",
+   "order": 3,
+   "title": {
+    "en": "Unit 3 — Routine Maintenance",
+    "ar": "الوحدة ٣ — الصيانة الدورية"
+   },
+   "description": {
+    "en": "Nabil walks Tarek through a routine service, step by step.",
+    "ar": "نبيل يشرح لطارق خطوات الصيانة الدورية واحدة تلو الأخرى."
+   },
+   "dir": "courses/eam/unit03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 51.55
+   },
+   "bytes": 10340592,
+   "files": 14,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",

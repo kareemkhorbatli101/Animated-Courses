@@ -1,9 +1,9 @@
 {
  "schema": "bundle/2",
- "engine": "27.26.0",
- "fingerprint": "5c2e69499aaf5872",
- "title": "EAM Unit 1 - Introduction to the Vehicle and the Service Department",
- "duration": 45.75,
+ "engine": "27.32.0",
+ "fingerprint": "7b651ad978682b1d",
+ "title": "EAM Unit 3 - Tools and Safe Working in the Bay",
+ "duration": 51.55,
  "set": "workshop",
  "files": {
   "assets/workshop_set_merged.glb": {
@@ -18,64 +18,52 @@
    "address": "lib/d12b10f72f91f24a.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "assets/maher_93c5ceca89.glb": {
-   "sha": "193306ed32007426",
-   "bytes": 4645824,
-   "address": "lib/193306ed32007426.glb",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
-  },
-  "assets/nabil_c43837bdac.glb": {
+  "assets/nabil_44f002d761.glb": {
    "sha": "de4c7518b00a457e",
    "bytes": 4629672,
    "address": "lib/de4c7518b00a457e.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "assets/tarek_d7664524b0.glb": {
+  "assets/tarek_7364b8eaee.glb": {
    "sha": "0b729fc1e25fc0fb",
    "bytes": 4615556,
    "address": "lib/0b729fc1e25fc0fb.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "lines/6db4a4a8f3346247.mp3": {
-   "sha": "37f4afba220a7f94",
-   "bytes": 22896,
-   "address": "lib/37f4afba220a7f94.mp3",
+  "lines/05a6d8d3fbb4952f.mp3": {
+   "sha": "3cbe2b82b2500219",
+   "bytes": 48960,
+   "address": "lib/3cbe2b82b2500219.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "lines/6e6a554e64673f10.mp3": {
-   "sha": "7d8c000e707259e7",
-   "bytes": 26928,
-   "address": "lib/7d8c000e707259e7.mp3",
+  "lines/34484257bd5b8977.mp3": {
+   "sha": "8eb47c7e78887453",
+   "bytes": 10656,
+   "address": "lib/8eb47c7e78887453.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "lines/830346376dd5b717.mp3": {
-   "sha": "c73753ee055dc780",
-   "bytes": 21168,
-   "address": "lib/c73753ee055dc780.mp3",
+  "lines/428db0bedf2b8fda.mp3": {
+   "sha": "cb02507bc22b4f63",
+   "bytes": 41616,
+   "address": "lib/cb02507bc22b4f63.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "lines/843eda6ce8bc1ed4.mp3": {
-   "sha": "9479aba70168d3ed",
-   "bytes": 27792,
-   "address": "lib/9479aba70168d3ed.mp3",
+  "lines/45ca2556c16e8c49.mp3": {
+   "sha": "86660e7d47fb722d",
+   "bytes": 51840,
+   "address": "lib/86660e7d47fb722d.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "lines/869228648f58b442.mp3": {
-   "sha": "475e6c036d8f484c",
-   "bytes": 27792,
-   "address": "lib/475e6c036d8f484c.mp3",
+  "lines/51a015b6f8667af3.mp3": {
+   "sha": "66ded292d4c74ed3",
+   "bytes": 12096,
+   "address": "lib/66ded292d4c74ed3.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "lines/ac06b9d823cfa3b4.mp3": {
-   "sha": "b48cc9ea35462f48",
-   "bytes": 30096,
-   "address": "lib/b48cc9ea35462f48.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
-  },
-  "lines/bc7c9108dafeea80.mp3": {
-   "sha": "03b7571d60e665a5",
-   "bytes": 32832,
-   "address": "lib/03b7571d60e665a5.mp3",
+  "lines/9aa15842dca0db3d.mp3": {
+   "sha": "aafaf495a343e1a3",
+   "bytes": 67104,
+   "address": "lib/aafaf495a343e1a3.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
   "lines/d4ed987e2dd9f0cc.mp3": {
@@ -85,15 +73,15 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
   "scene.json": {
-   "sha": "ebc99ecd2452a820",
-   "bytes": 31020,
-   "address": "lib/ebc99ecd2452a820.json",
+   "sha": "6730704f387f5406",
+   "bytes": 34524,
+   "address": "lib/6730704f387f5406.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
   "timeline.json": {
-   "sha": "4031b8925eca1760",
-   "bytes": 2481,
-   "address": "lib/4031b8925eca1760.json",
+   "sha": "7216aed59be19d5a",
+   "bytes": 3038,
+   "address": "lib/7216aed59be19d5a.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
   "assets/badge.png": {
@@ -111,12 +99,6 @@
  },
  "served_from": "lib/",
  "assets": [
-  {
-   "id": "maher",
-   "encodings": {
-    "exact": "193306ed32007426"
-   }
-  },
   {
    "id": "nabil",
    "encodings": {

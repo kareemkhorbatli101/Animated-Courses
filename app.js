@@ -381,9 +381,42 @@
   // ---- one file, streamed, cancellable, checksum-verified ----------------------------------------
   var cancelled = false, aborter = null;
 
+  // The persistent store. A content address is IMMUTABLE by construction - the name is the hash of the
+  // bytes - so a blob can be kept forever with no revalidation, and that is the entire reason the second
+  // lesson of a course is nearly free. Relying on HTTP cache headers instead would make the property
+  // depend on how the host is configured; the Cache API makes it a property of the page.
+  var CACHE = 'animatedeverything/lib/1';
+  function cacheOpen() {
+    if (!window.caches) return Promise.resolve(null);
+    return caches.open(CACHE).catch(function () { return null; });
+  }
+
   function streamOne(manifest, rel, alreadyGot) {
     var r = rec(manifest, rel);
     var url = r.address;
+    return cacheOpen().then(function (cache) {
+      if (!cache) return null;
+      return cache.match(url).then(function (hit) {
+        return hit ? hit.arrayBuffer() : null;
+      }).catch(function () { return null; });
+    }).then(function (cached) {
+      if (cached) {
+        // Counted as progress so the bar still moves, and named so a cached lesson is visibly cached.
+        progressed(alreadyGot + cached.byteLength, curName);
+        return cached;
+      }
+      return fetchOne(r, url, alreadyGot).then(function (buf) {
+        return cacheOpen().then(function (cache) {
+          if (cache) {
+            try { cache.put(url, new Response(buf.slice(0))); } catch (e) { /* best effort */ }
+          }
+          return buf;
+        });
+      });
+    });
+  }
+
+  function fetchOne(r, url, alreadyGot) {
     aborter = ('AbortController' in window) ? new AbortController() : null;
     return fetch(url, aborter ? {signal: aborter.signal} : {}).then(function (resp) {
       if (!resp.ok) throw new Error(rel + ' -> HTTP ' + resp.status);
@@ -423,6 +456,18 @@
   }
 
   function loadLesson(v) {
+    // The PREVIOUS lesson stops being playable the instant a new one is asked for. Without this the
+    // Play button stayed enabled across the swap, so a person could press Play on a lesson that was
+    // half-replaced - and an automated check waiting for "Play is enabled" returned instantly and then
+    // measured the OLD scene. Found by the cold-cache run, which is the only thing that looks.
+    pause();
+    playBtn.disabled = true;
+    part = null;
+    window.__part = null;
+    window.__scene = null;
+    dur = 0;
+    timeEl.textContent = '0:00';
+    scrub.value = 0;
     loadShow('Loading ' + titleOf(v, S.lang.catalogue).text);
     got = 0; total = 0; doneFiles = 0; totalFiles = 0;
     var base = v.dir + '/';
