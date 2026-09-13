@@ -1,0 +1,12 @@
+# Every file here is CONTENT-ADDRESSED: its name is the hash of its bytes, and the player refuses any
+# file whose bytes do not hash to the name it asked for. That check is the whole reason a blob can be
+# cached forever without revalidation - so anything that rewrites bytes in transit breaks the store.
+#
+# Git's end-of-line conversion is exactly such a rewrite. It turned a 2329-byte timeline.json with CRLF
+# into 2240 bytes with LF, and the player correctly refused it: "checksum mismatch for
+# blobs/f8f4cce3ae608dd2.json: got f56186529e120134". The file was intact on disk and intact on the
+# server; it was intact differently.
+#
+# So: NO conversion, for anything, ever. `-text` tells git to treat every path as binary - store the
+# bytes it was given and hand back exactly those bytes.
+* -text

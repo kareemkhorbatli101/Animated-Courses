@@ -120,12 +120,6 @@
    "address": "blobs/b4509c0d9429d577.mp3",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
   },
-  "preview.html": {
-   "sha": "a2cbaea6e7ead38e",
-   "bytes": 17594485,
-   "address": "blobs/a2cbaea6e7ead38e.html",
-   "licence": "LIKENESS-NOT-FOR-DISTRIBUTION (derived from a photograph of a real person)"
-  },
   "scene.json": {
    "sha": "39c76df0c58cf7aa",
    "bytes": 34058,
