@@ -1,0 +1,155 @@
+{
+ "schema": "timeline/1",
+ "duration": 46.96,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.6,
+    "dur": 4.704,
+    "en": "Welcome to Barada Auto Service, a full car-repair garage.",
+    "ar": "مرحباً بكم في بردى لخدمة السيارات، كراج متكامل لإصلاح السيارات."
+   },
+   {
+    "start": 5.654,
+    "dur": 5.424,
+    "en": "At reception, the service advisor greets each customer and opens a job card.",
+    "ar": "عند الاستقبال، يرحّب مستشار الصيانة بكل زبون ويفتح بطاقة عمل."
+   },
+   {
+    "start": 11.428,
+    "dur": 4.008,
+    "en": "In the first bay, a mechanic works on an open engine.",
+    "ar": "في المرأب الأول، يعمل ميكانيكي على محرّك مفتوح."
+   },
+   {
+    "start": 15.786,
+    "dur": 4.512,
+    "en": "A diagnostic scanner reads the fault codes from the car's computer.",
+    "ar": "يقرأ جهاز التشخيص رموز الأعطال من حاسوب السيارة."
+   },
+   {
+    "start": 20.648,
+    "dur": 4.848,
+    "en": "Nearby, a battery is tested with a multimeter to check its voltage.",
+    "ar": "وبالقرب منه، تُفحص البطارية بجهاز الملتيمتر للتحقق من جهدها."
+   },
+   {
+    "start": 25.846,
+    "dur": 5.304,
+    "en": "The main bay has a two-post lift that raises a car so the mechanic can work underneath.",
+    "ar": "في المرأب الرئيسي رافعة ذات عمودين ترفع السيارة ليعمل الميكانيكي تحتها."
+   },
+   {
+    "start": 31.5,
+    "dur": 5.112,
+    "en": "Along the back wall are the workbench, the tool chests, and stacked tyres.",
+    "ar": "على طول الجدار الخلفي طاولة العمل وصناديق العدّة والإطارات المكدّسة."
+   },
+   {
+    "start": 36.962,
+    "dur": 4.104,
+    "en": "A customer's car waits in the corner, ready for its turn.",
+    "ar": "سيارة زبون تنتظر في الزاوية، جاهزة لدورها."
+   },
+   {
+    "start": 41.416,
+    "dur": 4.392,
+    "en": "Everything here keeps cars safe, clean, and running well.",
+    "ar": "كل شيء هنا يُبقي السيارات آمنة ونظيفة وتعمل جيداً."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "at": "2.639",
+    "hold": "2.00",
+    "label": "service",
+    "ar": "صيانة",
+    "emoji": "🔧"
+   },
+   {
+    "lemma": "garage",
+    "at": "5.033",
+    "hold": "2.00",
+    "label": "garage",
+    "ar": "كراج",
+    "emoji": "🛠️"
+   },
+   {
+    "lemma": "customer",
+    "at": "9.149",
+    "hold": "2.00",
+    "label": "customer",
+    "ar": "زبون",
+    "emoji": "👤"
+   },
+   {
+    "lemma": "workshop",
+    "at": "12.497",
+    "hold": "2.00",
+    "label": "workshop / bay",
+    "ar": "ورشة",
+    "emoji": "🛠️"
+   },
+   {
+    "lemma": "engine",
+    "at": "15.210",
+    "hold": "2.00",
+    "label": "engine",
+    "ar": "محرك",
+    "emoji": "⚙️"
+   },
+   {
+    "lemma": "defect",
+    "at": "18.036",
+    "hold": "2.00",
+    "label": "defect",
+    "ar": "عيب",
+    "emoji": "⚠️"
+   },
+   {
+    "lemma": "battery",
+    "at": "21.424",
+    "hold": "2.00",
+    "label": "battery",
+    "ar": "بطارية",
+    "emoji": "🔋"
+   },
+   {
+    "lemma": "gauge",
+    "at": "25.225",
+    "hold": "2.00",
+    "label": "gauge",
+    "ar": "قياس / ضغط",
+    "emoji": "🌡️"
+   },
+   {
+    "lemma": "toolboard",
+    "at": "34.674",
+    "hold": "2.00",
+    "label": "tools",
+    "ar": "لوحة العدّة",
+    "emoji": "🧰"
+   },
+   {
+    "lemma": "safety",
+    "at": "42.837",
+    "hold": "2.00",
+    "label": "safety",
+    "ar": "سلامة",
+    "emoji": "🦺"
+   }
+  ]
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

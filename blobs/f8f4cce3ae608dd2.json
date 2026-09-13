@@ -1,0 +1,90 @@
+{
+ "schema": "timeline/1",
+ "duration": 49.38,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 4.608,
+    "en": "Good morning, Khaled. Welcome to Cham Furniture.",
+    "ar": "صباح الخير يا خالد. أهلاً بك في مفروشات الشام."
+   },
+   {
+    "start": 6.388,
+    "dur": 4.488,
+    "en": "Nice to meet you. Are you familiar with a workshop?",
+    "ar": "سعيد بلقائك. هل لديك خبرة في الورشة؟"
+   },
+   {
+    "start": 12.206,
+    "dur": 3.888,
+    "en": "A little. I helped my uncle before.",
+    "ar": "قليلاً. ساعدت عمّي من قبل."
+   },
+   {
+    "start": 17.424,
+    "dur": 4.392,
+    "en": "Good. This week, you are watching and learning.",
+    "ar": "جيد. هذا الأسبوع، ستراقب وتتعلّم."
+   },
+   {
+    "start": 23.146,
+    "dur": 4.656,
+    "en": "Always wear your goggles near the machines, and keep your area clean.",
+    "ar": "ارتدِ النظارات الواقية دائماً قرب الآلات، وحافظ على نظافة مكانك."
+   },
+   {
+    "start": 29.132,
+    "dur": 2.376,
+    "en": "Yes, Ustaz.",
+    "ar": "نعم يا أستاذ."
+   },
+   {
+    "start": 32.838,
+    "dur": 4.992,
+    "en": "If you are not sure, ask us. We work as a team here.",
+    "ar": "إن لم تكن متأكداً، اسألنا. نحن نعمل كفريق هنا."
+   },
+   {
+    "start": 39.16,
+    "dur": 3.816,
+    "en": "Thank you. I am happy to be here.",
+    "ar": "شكراً. أنا سعيد بوجودي هنا."
+   },
+   {
+    "start": 44.306,
+    "dur": 3.048,
+    "en": "Good, Rana will show you the showroom now.",
+    "ar": "جيد — ستريك رنا صالة العرض الآن."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "goggles",
+    "at": "24.621",
+    "hold": "2.00",
+    "label": "goggles",
+    "ar": "نَظّارات واقية"
+   },
+   {
+    "lemma": "team",
+    "at": "37.944",
+    "hold": "2.00",
+    "label": "team",
+    "ar": "فريق عمل",
+    "emoji": "🤝"
+   }
+  ]
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

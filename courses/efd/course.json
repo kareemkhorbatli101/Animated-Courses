@@ -1,0 +1,51 @@
+{
+ "schema": "course/1",
+ "id": "efd",
+ "order": 2,
+ "title": {
+  "en": "Furniture Design",
+  "ar": "تصميم الأثاث"
+ },
+ "description": {
+  "en": "English for the furniture workshop: materials, measurements and the language of the trade.",
+  "ar": "الإنجليزية في ورشة الأثاث: المواد والقياسات ولغة المهنة."
+ },
+ "catalogueVariants": [
+  "en",
+  "ar"
+ ],
+ "videos": [
+  {
+   "id": "unit01",
+   "order": 1,
+   "title": {
+    "en": "Unit 1 — Introduction to Furniture Design",
+    "ar": "الوحدة ١ — مقدمة في تصميم الأثاث"
+   },
+   "description": {
+    "en": "Sami and Khaled open the workshop and name what is in it.",
+    "ar": "سامي وخالد يفتتحان الورشة ويسميان ما فيها."
+   },
+   "dir": "courses/efd/unit01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 49.38
+   },
+   "bytes": 45689595,
+   "files": 24,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   }
+  }
+ ]
+}

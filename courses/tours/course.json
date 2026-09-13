@@ -1,0 +1,51 @@
+{
+ "schema": "course/1",
+ "id": "tours",
+ "order": 3,
+ "title": {
+  "en": "Workshop Tours",
+  "ar": "جولات في الورشة"
+ },
+ "description": {
+  "en": "Walk-through tours of the places these courses are set in.",
+  "ar": "جولات في الأماكن التي تدور فيها هذه الدورات."
+ },
+ "catalogueVariants": [
+  "en",
+  "ar"
+ ],
+ "videos": [
+  {
+   "id": "garage",
+   "order": 1,
+   "title": {
+    "en": "Barada Auto Service — Garage Tour",
+    "ar": "بردى لخدمة السيارات — جولة في المرآب"
+   },
+   "description": {
+    "en": "A tour of the garage, its bays and its equipment.",
+    "ar": "جولة في المرآب وأقسامه ومعداته."
+   },
+   "dir": "courses/tours/garage",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 46.96
+   },
+   "bytes": 49342678,
+   "files": 22,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   }
+  }
+ ]
+}

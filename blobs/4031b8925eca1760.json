@@ -1,0 +1,101 @@
+{
+ "schema": "timeline/1",
+ "duration": 45.75,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 4.632,
+    "en": "Good morning, Tarek. Welcome to Cham Motors.",
+    "ar": "صباح الخير يا طارق. أهلاً بك في شام موتورز."
+   },
+   {
+    "start": 6.412,
+    "dur": 4.632,
+    "en": "Nice to meet you. Have you worked in a garage before?",
+    "ar": "سعيد بلقائك. هل عملت في كراج من قبل؟"
+   },
+   {
+    "start": 12.374,
+    "dur": 3.528,
+    "en": "A little. I helped my uncle.",
+    "ar": "قليلاً. ساعدت عمّي."
+   },
+   {
+    "start": 17.232,
+    "dur": 4.488,
+    "en": "Good. This week, you watch Nabil and learn.",
+    "ar": "جيد. هذا الأسبوع، تراقب نبيل وتتعلّم."
+   },
+   {
+    "start": 23.05,
+    "dur": 5.472,
+    "en": "Always wear your safety glasses and gloves in the workshop, and keep your area clean.",
+    "ar": "ارتدِ نظارات السلامة والقفازات دائماً في الورشة، وحافظ على نظافة مكانك."
+   },
+   {
+    "start": 29.852,
+    "dur": 2.376,
+    "en": "Yes, Ustaz.",
+    "ar": "نعم يا أستاذ."
+   },
+   {
+    "start": 33.558,
+    "dur": 5.016,
+    "en": "If you are not sure, ask us. We work as a team here.",
+    "ar": "إن لم تكن متأكداً، اسألنا. نحن نعمل كفريق هنا."
+   },
+   {
+    "start": 39.904,
+    "dur": 3.816,
+    "en": "Thank you. I am happy to be here.",
+    "ar": "شكراً. أنا سعيد بوجودي هنا."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "garage",
+    "at": "5.463",
+    "hold": "2.00",
+    "label": "garage",
+    "ar": "كراج",
+    "emoji": "🛠️"
+   },
+   {
+    "lemma": "goggles",
+    "at": "24.410",
+    "hold": "2.00",
+    "label": "safety glasses",
+    "ar": "نظارات السلامة",
+    "emoji": "🥽"
+   },
+   {
+    "lemma": "workshop",
+    "at": "27.051",
+    "hold": "2.00",
+    "label": "workshop / bay",
+    "ar": "ورشة",
+    "emoji": "🛠️"
+   },
+   {
+    "lemma": "team",
+    "at": "38.684",
+    "hold": "2.00",
+    "label": "team",
+    "ar": "فريق",
+    "emoji": "🤝"
+   }
+  ]
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

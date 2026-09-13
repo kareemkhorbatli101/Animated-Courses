@@ -1,0 +1,51 @@
+{
+ "schema": "course/1",
+ "id": "eam",
+ "order": 1,
+ "title": {
+  "en": "Auto Maintenance",
+  "ar": "صيانة السيارات"
+ },
+ "description": {
+  "en": "English for the workshop: the vehicle, the service department, and the people who work there.",
+  "ar": "الإنجليزية في الورشة: المركبة وقسم الخدمة والعاملون فيه."
+ },
+ "catalogueVariants": [
+  "en",
+  "ar"
+ ],
+ "videos": [
+  {
+   "id": "unit01",
+   "order": 1,
+   "title": {
+    "en": "Unit 1 — Introduction to the Vehicle",
+    "ar": "الوحدة ١ — مقدمة عن المركبة"
+   },
+   "description": {
+    "en": "Maher welcomes Tarek to Cham Motors and introduces the service department.",
+    "ar": "ماهر يرحب بطارق في شام موتورز ويعرّفه على قسم الخدمة."
+   },
+   "dir": "courses/eam/unit01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 45.75
+   },
+   "bytes": 46092879,
+   "files": 23,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   }
+  }
+ ]
+}
