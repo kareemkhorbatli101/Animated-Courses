@@ -85,6 +85,64 @@
     return out;
   }
 
+  // ================================================================= the four display modes
+  //
+  // Two independent choices - FORMAT (mp4 | interactive) and ENCODING (exact | compressed) - and one
+  // rule the owner set, which is what makes them coherent:
+  //
+  //   In MP4 mode the Speech and Subtitle selectors CHOOSE THE FILE. They do not stop meaning something
+  //   because a finished video has its languages baked in; they select WHICH finished video. A
+  //   combination nobody rendered is refused BY NAME and never replaced by a neighbouring file.
+  //
+  // Availability is computed the same way in both formats - ask the index, offer what exists, say why
+  // the rest is missing. The interactive index simply happens to be fuller. The control shows the SIZE
+  // rather than an adjective, because "Quality" would imply the exact file is better and push everyone
+  // toward the slowest option.
+  var MODES = [
+    {id: 'interactive.exact', format: 'interactive', encoding: 'exact', label: 'Interactive'},
+    {id: 'interactive.compressed', format: 'interactive', encoding: 'compressed',
+     label: 'Interactive, smaller'},
+    {id: 'mp4.exact', format: 'mp4', encoding: 'exact', label: 'Video'},
+    {id: 'mp4.compressed', format: 'mp4', encoding: 'compressed', label: 'Video, smaller'}
+  ];
+
+  function variantKey(speech, subs) {
+    var s = (subs || []).filter(Boolean).slice().sort();
+    return speech + '.' + (s.length ? s.join('+') : 'none');
+  }
+
+  // The ONE resolver. Returns {rec} or {why} - never a nearest match, never a fallback to the default
+  // language. Someone who asked for Arabic and silently got English would have no way to know.
+  function resolveMp4(index, speech, subs, encoding) {
+    if (!index || !index.combinations) return {why: 'this lesson has no video file'};
+    var key = variantKey(speech, subs);
+    var byKey = index.combinations[key];
+    if (!byKey) {
+      return {why: 'No video has been made for ' + langName(speech) + ' speech with ' +
+                   ((subs && subs.length) ? subs.map(langName).join(' + ') + ' subtitles'
+                                          : 'no subtitles') + '.'};
+    }
+    var rec = byKey[encoding];
+    if (!rec) {
+      return {why: 'That combination exists, but not in the smaller encoding — only ' +
+                   Object.keys(byKey).join(', ') + '.'};
+    }
+    return {rec: rec};
+  }
+
+  function modeAvailable(m, v, mp4index) {
+    if (m.format === 'interactive') {
+      if (m.encoding === 'compressed') {
+        return (v.encodings && v.encodings.meshopt)
+          ? {ok: true}
+          : {ok: false, why: 'not published in the smaller encoding yet'};
+      }
+      return {ok: true};
+    }
+    var r = resolveMp4(mp4index, S.lang.speech, S.lang.subtitles, m.encoding);
+    return r.rec ? {ok: true, rec: r.rec} : {ok: false, why: r.why};
+  }
+
   // ================================================================= size modes
   function sizeReduce(state, action) {
     if (action === 'escape') return 'default';
@@ -95,7 +153,8 @@
 
   // ================================================================= browser state: ONE versioned key
   var SKEY = 'animatedeverything:state', SVER = 1;
-  var S = {v: SVER, expanded: [], resume: {}, lang: {catalogue: 'en', speech: 'en', subtitles: ['en']}};
+  var S = {v: SVER, expanded: [], resume: {}, mode: 'interactive.exact',
+           lang: {catalogue: 'en', speech: 'en', subtitles: ['en']}};
   try {
     var raw = JSON.parse(localStorage.getItem(SKEY) || 'null');
     // An unrecognised version is DISCARDED, not hopefully migrated. Nothing here is irreplaceable.
@@ -116,6 +175,7 @@
   var loadEl = $('load'), loadWhat = $('loadwhat'), loadBar = $('loadbar'), loadNums = $('loadnums'),
       loadStall = $('loadstall'), loadRetry = $('loadretry'), loadCancel = $('loadcancel');
   var playBtn = $('play'), scrub = $('scrub'), timeEl = $('time'), poster = $('poster');
+  var axmode = $('axmode'), dl = $('dl'), vid = $('vid');
 
   var CAT = null, COURSES = [], current = null, size = 'default';
 
@@ -254,6 +314,45 @@
     });
   }
 
+  // The mode control. Every option carries its SIZE; unavailable ones are disabled and say why, which
+  // is the same rule the speech menu uses - one behaviour to learn, not two.
+  function syncModes() {
+    var v = current && current.video;
+    if (!v) { axmode.innerHTML = ''; dl.hidden = true; return; }
+    axmode.innerHTML = '';
+    var anyOk = false;
+    MODES.forEach(function (m) {
+      var a = modeAvailable(m, v, current.mp4);
+      var bytes = a.rec ? a.rec.bytes : (m.id === 'interactive.exact' ? v.bytes : null);
+      var o = document.createElement('option');
+      o.value = m.id;
+      o.textContent = m.label + (bytes ? '  —  ' + mb(bytes) : '  —  unavailable');
+      o.disabled = !a.ok;
+      if (!a.ok) o.title = a.why || '';
+      if (m.id === S.mode && a.ok) { o.selected = true; anyOk = true; }
+      axmode.appendChild(o);
+    });
+    if (!anyOk) {
+      // The chosen mode is not available for THIS lesson in THIS combination. Fall back to the one mode
+      // that always exists, and say so - rather than leaving a control pointing at nothing.
+      S.mode = 'interactive.exact';
+      save();
+      Array.prototype.forEach.call(axmode.options, function (o) {
+        o.selected = (o.value === S.mode);
+      });
+    }
+    var m = MODES.filter(function (x) { return x.id === S.mode; })[0] || MODES[0];
+    var a = modeAvailable(m, v, current.mp4);
+    if (m.format === 'mp4' && a.rec) {
+      dl.hidden = false;
+      dl.href = a.rec.address;
+      dl.setAttribute('download', (titleOf(v, 'en').text + '.mp4').replace(/[\\/:*?"<>|]/g, '-'));
+      dl.textContent = 'Download ' + mb(a.rec.bytes);
+    } else {
+      dl.hidden = true;
+    }
+  }
+
   function subtitleChoice() {
     var a = axsub1.value, b = axsub2.value, out = [];
     if (a) out.push(a);
@@ -339,6 +438,12 @@
 
   // ================================================================= opening a video
   function open_video(c, v) {
+    // The PREVIOUS lesson stops being playable SYNCHRONOUSLY, with the click - not when some fetch
+    // resolves. Introducing the mp4.json lookup made the load path asynchronous and quietly brought
+    // back a defect already fixed once: Play stayed enabled from the lesson before, so a person could
+    // press it on a lesson that was no longer loaded, and an automated wait returned instantly on a
+    // stale button. Whatever else happens later, this happens now.
+    teardown();
     current = {course: c, courseId: c.id, video: v};
     if (S.expanded.indexOf(c.id) < 0) S.expanded.push(c.id);
     // A speech variant this lesson lacks is never silently substituted: fall to what it HAS.
@@ -349,8 +454,17 @@
     save(); syncAxes(); render(); describe();
     history.replaceState(null, '', '?c=' + encodeURIComponent(c.id) + '&v=' + encodeURIComponent(v.id) +
       '&speech=' + encodeURIComponent(S.lang.speech) +
-      '&subs=' + encodeURIComponent(S.lang.subtitles.join(',')));
-    loadLesson(v);
+      '&subs=' + encodeURIComponent(S.lang.subtitles.join(',')) +
+      '&mode=' + encodeURIComponent(S.mode));
+    // The MP4 index for THIS lesson, so the mode control knows what exists before it is drawn. A lesson
+    // with no MP4 at all is not an error: the index is simply absent and those modes say so.
+    fetch(v.dir + '/mp4.json').then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; })
+      .then(function (idx) {
+        if (!current || current.video !== v) return;   // the person moved on while this was in flight
+        current.mp4 = idx;
+        applyMode();
+      });
   }
 
   function describe() {
@@ -455,11 +569,63 @@
     });
   }
 
-  function loadLesson(v) {
-    // The PREVIOUS lesson stops being playable the instant a new one is asked for. Without this the
-    // Play button stayed enabled across the swap, so a person could press Play on a lesson that was
-    // half-replaced - and an automated check waiting for "Play is enabled" returned instantly and then
-    // measured the OLD scene. Found by the cold-cache run, which is the only thing that looks.
+  // ---- MP4 mode: a finished video, played in the page and downloadable ---------------------------
+  function showMp4(rec) {
+    pause();
+    if (part) { part = null; window.__part = null; }
+    vid.classList.add('on');
+    vid.hidden = false;
+    poster.style.display = 'none';
+    // The video element IS the transport in this mode: it has its own clock, its own buffering and its
+    // own controls. Driving it from the page's scrubber would be a second authority on time.
+    playBtn.disabled = true;
+    scrub.disabled = true;
+    vid.src = rec.address;
+    vid.load();
+    loadShow('Loading the video…');
+    vid.oncanplay = function () {
+      loadHide();
+      timeEl.textContent = '0:00 / ' + mmss(rec.dur || 0);
+    };
+    vid.onerror = function () {
+      loadFail('the browser could not play this file (' +
+               ((vid.error && vid.error.message) || 'decode error') + ')');
+    };
+    vid.ontimeupdate = function () {
+      timeEl.textContent = mmss(vid.currentTime) + ' / ' + mmss(vid.duration || rec.dur || 0);
+    };
+  }
+
+  function hideMp4() {
+    vid.classList.remove('on');
+    vid.hidden = true;
+    try { vid.pause(); } catch (e) {}
+    vid.removeAttribute('src');
+    scrub.disabled = false;
+  }
+
+  function applyMode() {
+    var v = current && current.video;
+    if (!v) return;
+    var m = MODES.filter(function (x) { return x.id === S.mode; })[0] || MODES[0];
+    var a = modeAvailable(m, v, current.mp4);
+    syncModes();
+    if (!a.ok) {
+      hideMp4();
+      loadFail(a.why || 'that combination is not available');
+      return;
+    }
+    if (m.format === 'mp4') {
+      showMp4(a.rec);
+    } else {
+      hideMp4();
+      loadLesson(v);
+    }
+  }
+
+  // Everything that must stop being true the moment another lesson, or another mode, is chosen.
+  // Called synchronously from both, so no asynchronous step can leave a stale control behind.
+  function teardown() {
     pause();
     playBtn.disabled = true;
     part = null;
@@ -468,6 +634,10 @@
     dur = 0;
     timeEl.textContent = '0:00';
     scrub.value = 0;
+  }
+
+  function loadLesson(v) {
+    teardown();
     loadShow('Loading ' + titleOf(v, S.lang.catalogue).text);
     got = 0; total = 0; doneFiles = 0; totalFiles = 0;
     var base = v.dir + '/';
@@ -687,13 +857,22 @@
   axcat.onchange = function () { S.lang.catalogue = axcat.value; save(); render(); if (current) describe(); };
   axspeech.onchange = function () {
     S.lang.speech = axspeech.value; save();
-    if (current) loadLesson(current.video);    // a different spoken variant is a different audio index
+    // In interactive mode a different spoken variant is a different audio index; in MP4 mode it is a
+    // different FILE. One handler, because the selector means the same thing in both.
+    if (current) applyMode();
   };
   axsub1.onchange = axsub2.onchange = function () {
     S.lang.subtitles = subtitleChoice(); save();
-    if (part && part.overlay) { part.overlay.setShow(S.lang.subtitles); part.overlay.render(lastT); }
+    var m = MODES.filter(function (x) { return x.id === S.mode; })[0] || MODES[0];
+    if (m.format === 'mp4') {
+      applyMode();               // the subtitles are IN the picture, so this selects another file
+    } else if (part && part.overlay) {
+      part.overlay.setShow(S.lang.subtitles); part.overlay.render(lastT);
+      syncModes();               // ...and it changes which MP4 combinations are reachable
+    }
   };
-  loadRetry.onclick = function () { if (current) loadLesson(current.video); };
+  axmode.onchange = function () { S.mode = axmode.value; save(); applyMode(); };
+  loadRetry.onclick = function () { if (current) applyMode(); };
   loadCancel.onclick = function () {
     cancelled = true;
     if (aborter) { try { aborter.abort(); } catch (e) {} }

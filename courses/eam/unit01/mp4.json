@@ -1,0 +1,85 @@
+{
+ "combinations": {
+  "en.ar+en": {
+   "compressed": {
+    "address": "lib/2cacf4a2103f16e4.mp4",
+    "bytes": 1906279,
+    "dur": 45.8,
+    "faststart": true,
+    "h": 1080,
+    "psnr_frame": 46.503299,
+    "psnr_strip": 44.209505,
+    "sha": "2cacf4a2103f16e4",
+    "w": 1920
+   },
+   "exact": {
+    "address": "lib/fae868c88e3e8c59.mp4",
+    "bytes": 3980538,
+    "dur": 45.8,
+    "faststart": false,
+    "h": 1080,
+    "psnr_frame": null,
+    "psnr_strip": null,
+    "sha": "fae868c88e3e8c59",
+    "w": 1920
+   }
+  },
+  "en.en": {
+   "compressed": {
+    "address": "lib/d717364ee4004ef5.mp4",
+    "bytes": 2583297,
+    "dur": 45.73,
+    "faststart": true,
+    "h": 1080,
+    "psnr_frame": 46.413398,
+    "psnr_strip": 44.929312,
+    "sha": "d717364ee4004ef5",
+    "w": 1920
+   },
+   "exact": {
+    "address": "lib/0dfb5e80601e761a.mp4",
+    "bytes": 6239168,
+    "dur": 45.73,
+    "faststart": true,
+    "h": 1080,
+    "psnr_frame": null,
+    "psnr_strip": null,
+    "sha": "0dfb5e80601e761a",
+    "w": 1920
+   }
+  },
+  "en.none": {
+   "compressed": {
+    "address": "lib/070e061dadaa7c07.mp4",
+    "bytes": 2499174,
+    "dur": 45.73,
+    "faststart": true,
+    "h": 1080,
+    "psnr_frame": 47.323884,
+    "psnr_strip": 49.201948,
+    "sha": "070e061dadaa7c07",
+    "w": 1920
+   },
+   "exact": {
+    "address": "lib/8e47a17f3fa814c1.mp4",
+    "bytes": 6004515,
+    "dur": 45.73,
+    "faststart": true,
+    "h": 1080,
+    "psnr_frame": null,
+    "psnr_strip": null,
+    "sha": "8e47a17f3fa814c1",
+    "w": 1920
+   }
+  }
+ },
+ "encoder": {
+  "codec": "libx264",
+  "crf": "30",
+  "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev",
+  "libavcodec": "libavcodec     61. 19.100",
+  "movflags": "+faststart",
+  "preset": "slow"
+ },
+ "schema": "mp4index/1"
+}

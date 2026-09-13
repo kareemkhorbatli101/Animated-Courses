@@ -76,6 +76,12 @@ header .spacer{flex:1}
 #app.full #stagewrap{max-height:100vh;height:100vh}
 #stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 #stage canvas{max-width:100%;max-height:100%;display:block}
+#vid{position:absolute;inset:0;width:100%;height:100%;background:#000;display:none}
+#vid.on{display:block}
+.dl{display:inline-block;padding:6px 12px;border-radius:7px;border:1px solid var(--border);background:var(--surface2);color:var(--text);text-decoration:none;font-size:12.5px}
+.dl:hover{border-color:var(--accent);color:var(--accent)}
+#axmode{min-width:230px}
+#axmode option:disabled{color:var(--muted)}
 #overlay{position:absolute;inset:0;pointer-events:none}
 #poster{position:absolute;inset:0;background:#000 center/contain no-repeat;opacity:.45}
 
@@ -138,6 +144,9 @@ header .spacer{flex:1}
     <div id="stagewrap">
       <div id="poster"></div>
       <div id="stage"></div>
+      <!-- The MP4 modes play here. A finished video needs no WebGL, which is the whole point of
+           offering it: it plays where the interactive mode cannot. -->
+      <video id="vid" hidden controls preload="metadata" playsinline></video>
       <div id="overlay"></div>
       <div id="load">
         <div class="what" id="loadwhat">Loading</div>
@@ -166,6 +175,11 @@ header .spacer{flex:1}
       <div class="axis"><label for="axcat">Catalogue</label><select id="axcat"></select></div>
       <div class="axis"><label for="axspeech">Speech</label><select id="axspeech"></select></div>
       <div class="axis"><label for="axsub1">Subtitles</label><select id="axsub1"></select><select id="axsub2"></select></div>
+      <!-- The two mode selectors, to the right of Subtitles. They carry the SIZE rather than an
+           adjective: "Quality" would imply the exact file is better and push everyone toward the
+           slowest option, and "Format" is jargon. The number is the trade-off, stated. -->
+      <div class="axis"><label for="axmode">Watch as</label><select id="axmode"></select></div>
+      <div class="axis"><a id="dl" class="dl" hidden download>Download</a></div>
     </div>
 
     <div id="about"></div>

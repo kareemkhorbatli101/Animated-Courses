@@ -1,0 +1,37 @@
+{
+ "combinations": {
+  "en.ar+en": {
+   "compressed": {
+    "address": "lib/22d4e7b047146597.mp4",
+    "bytes": 1504228,
+    "dur": 42.33,
+    "faststart": true,
+    "h": 1080,
+    "psnr_frame": 46.722794,
+    "psnr_strip": 44.182972,
+    "sha": "22d4e7b047146597",
+    "w": 1920
+   },
+   "exact": {
+    "address": "lib/d52e2b6691e13f55.mp4",
+    "bytes": 2997947,
+    "dur": 42.33,
+    "faststart": false,
+    "h": 1080,
+    "psnr_frame": null,
+    "psnr_strip": null,
+    "sha": "d52e2b6691e13f55",
+    "w": 1920
+   }
+  }
+ },
+ "encoder": {
+  "codec": "libx264",
+  "crf": "30",
+  "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev",
+  "libavcodec": "libavcodec     61. 19.100",
+  "movflags": "+faststart",
+  "preset": "slow"
+ },
+ "schema": "mp4index/1"
+}
