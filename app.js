@@ -623,13 +623,23 @@
     if (!part) return;
     playing = true; playBtn.textContent = 'Pause';
     base0 = dur ? (scrub.value / 1000) * dur : 0; t0 = performance.now();
+    // THE VOICE. This page created SpeechAudio, prefetched its lines, and then never told it to play -
+    // so every lesson ran silently, and nothing noticed because the checks asserted that pixels changed
+    // and the clock advanced. Neither of those is sound. boot.js had it right: the spoken lines start
+    // WITH the clock, each scheduled at its declared offset, so the timing is the spec's rather than an
+    // accumulation of when things happened to finish decoding.
+    if (part.speech) part.speech.playFrom(base0);
     raf = requestAnimationFrame(loop);
   }
   function pause() {
     playing = false; playBtn.textContent = 'Play';
+    if (part && part.speech) part.speech.stop();
     if (raf) cancelAnimationFrame(raf);
   }
   playBtn.onclick = function () { playing ? pause() : play(); };
+  // Dragging the scrubber STOPS the voice. Without this, seeking leaves the previously scheduled lines
+  // playing at their old times, so the picture jumps and the audio carries on from where it was - the
+  // two drift apart and never recover.
   scrub.oninput = function () { pause(); seek(dur * scrub.value / 1000); };
 
   // ================================================================= size modes
