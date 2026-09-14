@@ -1214,7 +1214,7 @@
 
   function padBind(cv) {
     var held = false, held0 = false, lastX = 0, lastY = 0, jx = 0, jy = 0,
-        timer = null, id = null;
+        timer = null, id = null, needRebuild = false;
     function diam() { return cv.getBoundingClientRect().width || 1; }
     function pos(e) {
       var r = cv.getBoundingClientRect();
@@ -1224,7 +1224,7 @@
       var cam = authoredCam();
       if (!cam || !camEnsure()) return;
       if (!held0) { camPush(); held0 = true; }
-      if (camView.mode === 'director') { camSetMode('ride'); camRender(); }
+      if (camView.mode === 'director') { camSetMode('ride'); needRebuild = true; }
       camView.drag(S.cam.stop, dx, dy, camSens(), cam, camFov(), !!S.cam.orbit);
       camApply();
     }
@@ -1263,6 +1263,10 @@
       if (camView) camView.endStroke();
       if (timer) { clearInterval(timer); timer = null; }
       camRemember();
+      syncUrl();          // the link carries the view a person just made
+      // NO REBUILD MID-STROKE: the first touch switches director -> ride, and rebuilding there
+      // detaches the canvas under the finger. Deferred to here.
+      if (needRebuild) { needRebuild = false; camRender(); }
     }
     cv.addEventListener('pointerup', up);
     cv.addEventListener('pointercancel', up);
@@ -1309,7 +1313,7 @@
     else if (field === 'pitch') camView.pitch = Math.max(-83, Math.min(83, v)) * Math.PI / 180;
     else if (field === 'zoom') camView.zoom = Math.max(0.4, Math.min(3, v));
     else camView.roll = Math.max(-30, Math.min(30, v));
-    camApply(); camRemember();
+    camApply(); camRemember(); syncUrl();
   }
 
   function buildCamPanel(host, idPrefix) {
