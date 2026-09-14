@@ -10,7 +10,8 @@
     "psnr_frame": 46.503299,
     "psnr_strip": 44.209505,
     "sha": "2cacf4a2103f16e4",
-    "w": 1920
+    "w": 1920,
+    "wire": 1906279
    },
    "exact": {
     "address": "lib/fae868c88e3e8c59.mp4",
@@ -21,7 +22,8 @@
     "psnr_frame": null,
     "psnr_strip": null,
     "sha": "fae868c88e3e8c59",
-    "w": 1920
+    "w": 1920,
+    "wire": 3980538
    }
   },
   "en.en": {
@@ -34,7 +36,8 @@
     "psnr_frame": 46.413398,
     "psnr_strip": 44.929312,
     "sha": "d717364ee4004ef5",
-    "w": 1920
+    "w": 1920,
+    "wire": 2583297
    },
    "exact": {
     "address": "lib/0dfb5e80601e761a.mp4",
@@ -45,7 +48,8 @@
     "psnr_frame": null,
     "psnr_strip": null,
     "sha": "0dfb5e80601e761a",
-    "w": 1920
+    "w": 1920,
+    "wire": 6239168
    }
   },
   "en.none": {
@@ -58,7 +62,8 @@
     "psnr_frame": 47.323884,
     "psnr_strip": 49.201948,
     "sha": "070e061dadaa7c07",
-    "w": 1920
+    "w": 1920,
+    "wire": 2499174
    },
    "exact": {
     "address": "lib/8e47a17f3fa814c1.mp4",
@@ -69,7 +74,8 @@
     "psnr_frame": null,
     "psnr_strip": null,
     "sha": "8e47a17f3fa814c1",
-    "w": 1920
+    "w": 1920,
+    "wire": 6004515
    }
   }
  },

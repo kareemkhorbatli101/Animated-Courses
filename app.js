@@ -162,6 +162,12 @@
   } catch (e) { /* private mode, or a corrupt value: start fresh */ }
   function save() { try { localStorage.setItem(SKEY, JSON.stringify(S)); } catch (e) {} }
 
+  // How far ahead the spoken lines are fetched before a lesson is declared ready. It is a lesson's
+  // length rather than a tuning knob: the voice is what a language lesson is FOR, so all of it is
+  // loaded before Play is offered. Named once because the progress denominator has to ask the same
+  // question the prefetch answers.
+  var VOICE_AHEAD = 45;
+
   // ================================================================= feedback thresholds
   // The LENGTH of the wait decides which feedback is honest (v4 s5c).
   var T_FLOW = 1000, T_ATTENTION = 10000;
@@ -181,6 +187,37 @@
 
   function mmss(t) { t = Math.max(0, t | 0); return (t / 60 | 0) + ':' + ('0' + (t % 60)).slice(-2); }
   function mb(b) { return (b / 1e6).toFixed(1) + ' MB'; }
+
+  // ================================================================= sizes shown to a person
+  //
+  // A SIZE ON SCREEN IS A DOWNLOAD SIZE, ALWAYS. The host gzips models and JSON and does not touch
+  // audio or video, so a lesson's bytes on disk are about 2.2x what the link actually carries. The MP4
+  // figures were already correct - video is not compressed further - so labelling the interactive modes
+  // in disk bytes put two units in one menu and made the smaller encoding look like an 8.8x saving
+  // where the wire says 5.8x. It flattered the very choice it was asking a person to make.
+  //
+  // The disk figures are still right for what they are FOR: the content address hashes them, and the
+  // progress bar divides by them because a gzipped response decodes to its disk size. Those consumers
+  // deliberately keep asking for disk. This one asks for wire.
+  //
+  // wireOf(record, diskKey, wireKey) falls back to disk when a publish predates the wire fields, so an
+  // older site degrades to the previous behaviour instead of to a blank - and says which it used.
+  function wireOf(rec, diskKey, wireKey) {
+    if (!rec) return {bytes: null, exact: false};
+    var w = rec[wireKey];
+    if (typeof w === 'number' && w > 0) return {bytes: w, exact: true};
+    var d = rec[diskKey];
+    return {bytes: (typeof d === 'number' ? d : null), exact: false};
+  }
+
+  // The ONE formatter every label goes through. It marks a fallback in the DOM rather than rendering a
+  // disk figure that is indistinguishable from a wire one - an approximation that cannot be told from a
+  // measurement is the defect this whole change is about.
+  function sizeLabel(rec, diskKey, wireKey) {
+    var r = wireOf(rec, diskKey, wireKey);
+    if (r.bytes === null) return '';
+    return (r.exact ? '' : '~') + mb(r.bytes);
+  }
 
   // ================================================================= the tree
   function render() {
@@ -256,7 +293,8 @@
           // BIDI ISOLATION. '0:45 · 46.1 MB' inside an RTL tree renders as 'MB 46.1 · 0:45' without it:
           // the neutral separators take the container's direction and the run order flips. This is the
           // exact defect v4 §3.2 predicted, and it duly appeared on the first Arabic screenshot.
-          '<bdi class="vmeta" dir="ltr">' + mmss(dur) + ' · ' + mb(v.bytes) + '</bdi>';
+          '<bdi class="vmeta" dir="ltr">' + mmss(dur) + ' · ' +
+          sizeLabel(v, 'bytes', 'wireBytes') + '</bdi>';
         vrow.onclick = function () { open_video(c, v); };
         vs.appendChild(vrow);
       });
@@ -323,12 +361,15 @@
     var anyOk = false;
     MODES.forEach(function (m) {
       var a = modeAvailable(m, v, current.mp4);
-      var bytes = a.rec ? a.rec.bytes
-        : (m.id === 'interactive.exact' ? v.bytes
-          : (m.id === 'interactive.compressed' ? v.meshoptBytes : null));
+      // All four options in ONE unit. The mp4 record carries its own wire field; the two interactive
+      // options read the lesson's two totals.
+      var size = a.rec ? sizeLabel(a.rec, 'bytes', 'wire')
+        : (m.id === 'interactive.exact' ? sizeLabel(v, 'bytes', 'wireBytes')
+          : (m.id === 'interactive.compressed'
+             ? sizeLabel(v, 'meshoptBytes', 'meshoptWireBytes') : ''));
       var o = document.createElement('option');
       o.value = m.id;
-      o.textContent = m.label + (bytes ? '  —  ' + mb(bytes) : '  —  unavailable');
+      o.textContent = m.label + (size ? '  —  ' + size : '  —  unavailable');
       o.disabled = !a.ok;
       if (!a.ok) o.title = a.why || '';
       if (m.id === S.mode && a.ok) { o.selected = true; anyOk = true; }
@@ -349,7 +390,7 @@
       dl.hidden = false;
       dl.href = a.rec.address;
       dl.setAttribute('download', (titleOf(v, 'en').text + '.mp4').replace(/[\\/:*?"<>|]/g, '-'));
-      dl.textContent = 'Download ' + mb(a.rec.bytes);
+      dl.textContent = 'Download ' + sizeLabel(a.rec, 'bytes', 'wire');
     } else {
       dl.hidden = true;
     }
@@ -393,6 +434,16 @@
     loadRetry.hidden = false; loadCancel.hidden = true; clearInterval(loadTimer);
   }
 
+  // THE BAR IS IN DISK BYTES, AND MUST STAY THAT WAY.
+  //
+  // `got` counts bytes as the stream yields them, and a fetch stream yields DECODED bytes - gzip is
+  // undone before the page sees a chunk. So the denominator has to be the decoded size, which is the
+  // disk size in the manifest. Converting it to wire bytes to "match the labels" would divide a
+  // decoded numerator by a compressed denominator and finish the bar at about 220%.
+  //
+  // This is the trap the address-completeness rule names: when a key gains a dimension, every consumer
+  // must take up the new one DELIBERATELY, asking for the one it means. Two label consumers want wire.
+  // This one wants disk. gates/surface_honesty.py fails if this line ever reads a wire field.
   var got = 0, total = 0, doneFiles = 0, totalFiles = 0, curName = '';
   function tick() {
     var el = Date.now() - loadT0;
@@ -438,6 +489,40 @@
     tick();
   }
 
+  // ================================================================= the address bar
+  //
+  // THE URL DESCRIBES WHAT IS ON SCREEN NOW, not what was on screen when the lesson was opened.
+  //
+  // It used to be written in exactly one place - inside open_video - and the four selectors changed
+  // state without touching it. So the address bar was a snapshot of one instant: choose Arabic
+  // subtitles, copy the link, send it, and the recipient got English. The sender never saw it, because
+  // their own stored state supplied what the URL had failed to carry. Only the RECIPIENT saw the
+  // defect, which is why it survived every test run in a single browser profile.
+  //
+  // And `mode` was written here and never read at boot - a parameter that travelled and did nothing.
+  //
+  // URL_PARAMS is the shared contract between this writer and the reader at boot. The two ends are
+  // compared by a check that enumerates them, so the next write-only parameter is caught by
+  // construction rather than by someone remembering to look.
+  var URL_PARAMS = ['c', 'v', 'speech', 'subs', 'mode'];
+
+  function urlState() {
+    if (!current) return null;
+    return {c: current.course.id, v: current.video.id, speech: S.lang.speech,
+            subs: (S.lang.subtitles || []).join(','), mode: S.mode};
+  }
+
+  function syncUrl() {
+    var st = urlState();
+    if (!st) return;                       // nothing open: the URL is not ours to rewrite
+    var q = URL_PARAMS.map(function (k) {
+      return encodeURIComponent(k) + '=' + encodeURIComponent(st[k]);
+    }).join('&');
+    // replaceState, never pushState: a selector change is not a place to go Back to, and four of them
+    // would otherwise bury the page the person actually arrived from.
+    history.replaceState(null, '', '?' + q);
+  }
+
   // ================================================================= opening a video
   function open_video(c, v) {
     // The PREVIOUS lesson stops being playable SYNCHRONOUSLY, with the click - not when some fetch
@@ -452,12 +537,14 @@
     if ((v.speech || []).indexOf(S.lang.speech) < 0) S.lang.speech = (v.speech || ['en'])[0];
     var subs = v.subtitles || [];
     S.lang.subtitles = (S.lang.subtitles || []).filter(function (x) { return subs.indexOf(x) >= 0; });
-    if (!S.lang.subtitles.length && subs.length) S.lang.subtitles = [subs[0]];
+    // Falling back to the first available track is right when a person's chosen LANGUAGE is missing
+    // here - it is wrong when they chose None on purpose. Those two arrive at this line identically
+    // (an empty list), so without subsNone a deliberate "no subtitles" was silently overruled, and a
+    // link carrying subs= opened with English. Same defect as the stale URL, one layer down: state the
+    // page could not tell apart from a default.
+    if (!S.lang.subtitles.length && subs.length && !S.lang.subsNone) S.lang.subtitles = [subs[0]];
     save(); syncAxes(); render(); describe();
-    history.replaceState(null, '', '?c=' + encodeURIComponent(c.id) + '&v=' + encodeURIComponent(v.id) +
-      '&speech=' + encodeURIComponent(S.lang.speech) +
-      '&subs=' + encodeURIComponent(S.lang.subtitles.join(',')) +
-      '&mode=' + encodeURIComponent(S.mode));
+    syncUrl();
     // The MP4 index for THIS lesson, so the mode control knows what exists before it is drawn. A lesson
     // with no MP4 at all is not an error: the index is simply absent and those modes say so.
     fetch(v.dir + '/mp4.json').then(function (r) { return r.ok ? r.json() : null; })
@@ -478,7 +565,7 @@
       '<p class="desc" dir="auto">' + esc(titleOf(c, variant).text) + ' · ' +
       esc(descOf(c, variant)) + '</p>';
     $('about').setAttribute('dir', d);
-    $('note').textContent = v.files + ' files · ' + mb(v.bytes) +
+    $('note').textContent = v.files + ' files · ' + sizeLabel(v, 'bytes', 'wireBytes') +
       ' · spoken in ' + (v.speech || []).map(langName).join(', ') +
       ' · subtitles available in ' + (v.subtitles || []).map(langName).join(', ');
   }
@@ -685,8 +772,26 @@
       if (scene.set && scene.set.noceil_glb) rels.push(scene.set.noceil_glb);
       (scene.actors || []).forEach(function (a2) { rels.push(a2.model_glb); });
       rels = rels.filter(function (x, i, arr) { return x && arr.indexOf(x) === i; });
-      totalFiles = rels.length;
-      total = rels.reduce(function (n, r2) { return n + (manifest.files[r2] || {}).bytes || 0; }, 0);
+      // THE DENOMINATOR COUNTS EVERYTHING THE PAGE WAITS FOR, and the voice is one of those things.
+      //
+      // It used to count geometry only. The bar therefore reached 100%, the byte counter stopped, and
+      // the page then downloaded and decoded the spoken lines - about 0.2 MB of work behind a bar that
+      // said there was none left. The words underneath were honest ("Loading the voice..."); the bar
+      // was not, and a full bar that is still working is the same kind of statement as a size label in
+      // the wrong unit.
+      // ONE predicate, shared with the prefetch below. Counting every line here while the prefetch
+      // fetched only those starting inside its horizon would leave the bar permanently short of 100% -
+      // a denominator and a numerator answering different questions, which is how the bar came to be
+      // wrong in the first place.
+      var voiceRels = (scene.speech || [])
+        .filter(function (ln) { return (ln.start || 0) <= VOICE_AHEAD; })
+        .map(function (ln) { return 'lines/' + ln.key + '.mp3'; })
+        .filter(function (x, i, arr) { return arr.indexOf(x) === i; });
+      totalFiles = rels.length + voiceRels.length;
+      var weigh = function (r2) { return (manifest.files[r2] || {}).bytes || 0; };
+      // Disk bytes on BOTH sides of the division - see the note on `got` above.
+      total = rels.reduce(function (n, r2) { return n + weigh(r2); }, 0) +
+              voiceRels.reduce(function (n, r2) { return n + weigh(r2); }, 0);
       tick();
 
       // Fetched in SHOT order, one at a time, with progress counted in BYTES AS THEY ARRIVE.
@@ -771,7 +876,12 @@
       // It is about 0.2 MB. Waiting for it costs a moment on a load already measured in minutes, and it
       // is the difference between pressing Play and hearing the lesson.
       loadWhat.textContent = 'Loading the voice…';
-      return speech ? speech.prefetch(0, 45).catch(function () { return null; }) : null;
+      // Each line reports itself as it lands, so the bar keeps moving through this phase instead of
+      // sitting at a number that claimed the work was over.
+      return speech ? speech.prefetch(0, VOICE_AHEAD, function (bytes) {
+        doneFiles++;
+        progressed(got + bytes, 'the voice');
+      }).catch(function () { return null; }) : null;
     }).then(function () {
       var ds = [renderer.domElement.width, renderer.domElement.height];
       ov.layout(ds[0], ds[1]);
@@ -866,14 +976,21 @@
   fvideo.oninput = render;
   fclear.onclick = function () { fcourse.value = ''; fvideo.value = ''; render(); };
   axcat.onchange = function () { S.lang.catalogue = axcat.value; save(); render(); if (current) describe(); };
+  // Each of these four changes something the URL describes, so each of them ends by saying so. That is
+  // the whole fix for the stale address bar: the writer is called wherever the state moves, not once
+  // at the beginning.
   axspeech.onchange = function () {
-    S.lang.speech = axspeech.value; save();
+    S.lang.speech = axspeech.value; save(); syncUrl();
     // In interactive mode a different spoken variant is a different audio index; in MP4 mode it is a
     // different FILE. One handler, because the selector means the same thing in both.
     if (current) applyMode();
   };
   axsub1.onchange = axsub2.onchange = function () {
-    S.lang.subtitles = subtitleChoice(); save();
+    S.lang.subtitles = subtitleChoice();
+    // Choosing None is a CHOICE and is remembered as one, so that opening the next lesson - or a link
+    // to this one - does not helpfully put the subtitles back.
+    S.lang.subsNone = S.lang.subtitles.length === 0;
+    save(); syncUrl();
     var m = MODES.filter(function (x) { return x.id === S.mode; })[0] || MODES[0];
     if (m.format === 'mp4') {
       applyMode();               // the subtitles are IN the picture, so this selects another file
@@ -882,7 +999,7 @@
       syncModes();               // ...and it changes which MP4 combinations are reachable
     }
   };
-  axmode.onchange = function () { S.mode = axmode.value; save(); applyMode(); };
+  axmode.onchange = function () { S.mode = axmode.value; save(); syncUrl(); applyMode(); };
   loadRetry.onclick = function () { if (current) applyMode(); };
   loadCancel.onclick = function () {
     cancelled = true;
@@ -906,7 +1023,19 @@
       // A shareable URL is the source of truth for what opens.
       var q = new URLSearchParams(location.search);
       if (q.get('speech')) S.lang.speech = q.get('speech');
-      if (q.get('subs') != null) S.lang.subtitles = q.get('subs') ? q.get('subs').split(',') : [];
+      if (q.get('subs') != null) {
+        S.lang.subtitles = q.get('subs') ? q.get('subs').split(',') : [];
+        // PRESENT-BUT-EMPTY is a statement ("no subtitles"), ABSENT is silence. The link has to be
+        // able to say the first one, or a sender who turned subtitles off cannot share that.
+        S.lang.subsNone = S.lang.subtitles.length === 0;
+      }
+      // The URL WINS over stored state when both speak, because a link is something a person just
+      // acted on and storage is something they did days ago. An unknown mode is ignored here rather
+      // than guessed at; a mode this lesson cannot offer falls through to the fallback syncModes
+      // already performs, so that rule has one implementation and not two.
+      if (q.get('mode') && MODES.some(function (m) { return m.id === q.get('mode'); })) {
+        S.mode = q.get('mode');
+      }
       var c = courses.filter(function (x) { return x.id === q.get('c'); })[0];
       var v = c && (c.videos || []).filter(function (x) { return x.id === q.get('v'); })[0];
       if (c && v) open_video(c, v);

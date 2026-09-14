@@ -40,6 +40,8 @@
    "bytes": 14519558,
    "meshopt": true,
    "meshoptBytes": 1681966,
+   "wireBytes": 6615028,
+   "meshoptWireBytes": 999665,
    "files": 17,
    "badgePhoto": true,
    "defaults": {

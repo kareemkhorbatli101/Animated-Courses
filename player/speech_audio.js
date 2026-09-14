@@ -70,13 +70,26 @@
 
   // Fetch the lines that start within `ahead` seconds of t. Lazy on purpose: a lesson should start
   // playing before all of its audio has arrived.
-  SpeechAudio.prototype.prefetch = function (t, ahead) {
+  SpeechAudio.prototype.prefetch = function (t, ahead, onLine) {
     var self = this, want = [];
     ahead = ahead === undefined ? 20 : ahead;
     this.lines.forEach(function (l) {
       if (l.start + l.dur >= t && l.start <= t + ahead) want.push(l);
     });
-    return Promise.all(want.map(function (l) { return self.load(l); }));
+    // onLine, when given, is called with the BYTES of each line that actually had to be fetched. The
+    // page uses it to keep the download bar moving through the voice, which it previously could not
+    // account for at all. A line already in memory reports nothing, so a second prefetch over the same
+    // lines cannot inflate anyone's total.
+    return Promise.all(want.map(function (l) {
+      var had = !!self.buffers[l.key];
+      return self.load(l).then(function (ab) {
+        if (onLine && !had) {
+          var r = self.recordFor(l);
+          onLine((r && r.bytes) || 0, l.key);
+        }
+        return ab;
+      });
+    }));
   };
 
   SpeechAudio.prototype.stop = function () {

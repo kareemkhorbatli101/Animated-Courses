@@ -11,10 +11,12 @@
    "bytes": 392212,
    "address": "lib/28cd69fc944b8f25.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 59374,
    "meshopt": {
     "address": "lib/4dd3bf096455ae65.glb",
     "sha": "4dd3bf096455ae65",
-    "bytes": 73304
+    "bytes": 73304,
+    "wire": 19112
    }
   },
   "assets/workshop_set_noceil_merged.glb": {
@@ -22,10 +24,12 @@
    "bytes": 388548,
    "address": "lib/d12b10f72f91f24a.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 58978,
    "meshopt": {
     "address": "lib/953176b52f7bd275.glb",
     "sha": "953176b52f7bd275",
-    "bytes": 71900
+    "bytes": 71900,
+    "wire": 18824
    }
   },
   "assets/maher_a85314610c.glb": {
@@ -33,10 +37,12 @@
    "bytes": 4645824,
    "address": "lib/193306ed32007426.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 2122476,
    "meshopt": {
     "address": "lib/4c464e6a15d75854.glb",
     "sha": "4c464e6a15d75854",
-    "bytes": 440756
+    "bytes": 440756,
+    "wire": 244031
    }
   },
   "assets/nabil_44f002d761.glb": {
@@ -44,71 +50,83 @@
    "bytes": 4629672,
    "address": "lib/de4c7518b00a457e.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 2086980,
    "meshopt": {
     "address": "lib/b616a7c103c1204d.glb",
     "sha": "b616a7c103c1204d",
-    "bytes": 435332
+    "bytes": 435332,
+    "wire": 238730
    }
   },
   "lines/2570ad177193ce70.mp3": {
    "sha": "94fa4775c88ba4bf",
    "bytes": 14256,
    "address": "lib/94fa4775c88ba4bf.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 14256
   },
   "lines/4bf28fcf2647e9e5.mp3": {
    "sha": "95b4267a6974f3ad",
    "bytes": 34416,
    "address": "lib/95b4267a6974f3ad.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 34416
   },
   "lines/4e96a4ce43688aed.mp3": {
    "sha": "adbe3820e8b87728",
    "bytes": 37728,
    "address": "lib/adbe3820e8b87728.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 37728
   },
   "lines/58035d6986b4551d.mp3": {
    "sha": "edb2fbf4bdd0e48e",
    "bytes": 39600,
    "address": "lib/edb2fbf4bdd0e48e.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 39600
   },
   "lines/a74b978d93eb4ff0.mp3": {
    "sha": "6e1ef63da888dfb1",
    "bytes": 24192,
    "address": "lib/6e1ef63da888dfb1.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 24192
   },
   "lines/d94f24de0e87ac65.mp3": {
    "sha": "02d9aa92baad8a7f",
    "bytes": 20016,
    "address": "lib/02d9aa92baad8a7f.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 20016
   },
   "lines/ee52dcfad698ba37.mp3": {
    "sha": "7c0c5a1a299afa35",
    "bytes": 20880,
    "address": "lib/7c0c5a1a299afa35.mp3",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 20880
   },
   "scene.json": {
    "sha": "cf50f2a1bf9ab1df",
    "bytes": 28991,
    "address": "lib/cf50f2a1bf9ab1df.json",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 4364
   },
   "timeline.json": {
    "sha": "6136b309f377e473",
    "bytes": 2785,
    "address": "lib/6136b309f377e473.json",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)"
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 1098
   },
   "assets/badge.png": {
    "sha": "da40c81cc68ed91e",
    "bytes": 30514,
    "address": "lib/da40c81cc68ed91e.png",
-   "licence": "LIKENESS-NOT-FOR-DISTRIBUTION (derived from a photograph of a real person)"
+   "licence": "LIKENESS-NOT-FOR-DISTRIBUTION (derived from a photograph of a real person)",
+   "wire": 30514
   }
  },
  "badge": {

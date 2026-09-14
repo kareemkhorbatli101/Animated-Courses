@@ -40,6 +40,8 @@
    "bytes": 14939587,
    "meshopt": true,
    "meshoptBytes": 1726331,
+   "wireBytes": 6670110,
+   "meshoptWireBytes": 1000832,
    "files": 16,
    "badgePhoto": true,
    "defaults": {
@@ -75,6 +77,8 @@
    "bytes": 10309634,
    "meshopt": true,
    "meshoptBytes": 1274670,
+   "wireBytes": 4554872,
+   "meshoptWireBytes": 747761,
    "files": 14,
    "badgePhoto": true,
    "defaults": {
@@ -110,6 +114,8 @@
    "bytes": 10340592,
    "meshopt": true,
    "meshoptBytes": 1332404,
+   "wireBytes": 4590981,
+   "meshoptWireBytes": 800148,
    "files": 14,
    "badgePhoto": true,
    "defaults": {

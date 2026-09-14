@@ -10,7 +10,8 @@
     "psnr_frame": 46.722794,
     "psnr_strip": 44.182972,
     "sha": "22d4e7b047146597",
-    "w": 1920
+    "w": 1920,
+    "wire": 1504228
    },
    "exact": {
     "address": "lib/d52e2b6691e13f55.mp4",
@@ -21,7 +22,8 @@
     "psnr_frame": null,
     "psnr_strip": null,
     "sha": "d52e2b6691e13f55",
-    "w": 1920
+    "w": 1920,
+    "wire": 2997947
    }
   }
  },
