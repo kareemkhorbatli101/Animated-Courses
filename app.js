@@ -1096,9 +1096,12 @@
 
   // A LINK WINS over a stored view, because a link is something the person just acted on. Otherwise
   // the stored scopes apply in their precedence: this moment, then this lesson, then this room.
+  var camArrived = null, camArrivedUsed = false;
+  try { camArrived = new URLSearchParams(location.search).get('cam') || null; } catch (e) {}
   function camRestore() {
     if (typeof CameraView === 'undefined') return;
-    var q = new URLSearchParams(location.search), enc = q.get('cam');
+    var enc = camArrivedUsed ? null : camArrived;
+    camArrivedUsed = true;
     var from = null;
     if (enc) from = CameraView.decode(enc);
     if (!from) { var st = camStore(); if (st) from = CameraView.decode(st.enc); }
