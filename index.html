@@ -57,6 +57,28 @@ header .spacer{flex:1}
 #browse[dir=rtl]{border-right:0;border-left:1px solid var(--border)}
 #main{display:flex;flex-direction:column;min-width:0;overflow-y:auto}
 
+/* ---- the script -----------------------------------------------------------------------------
+   TRACK A STANDS ALONE. The dialogue with speaker names, timings and both languages is a render of
+   data the scene already holds - no model, no Ollama, nothing to install. It is also mode-independent:
+   it reads the lesson's own scene file, so it works while watching the MP4 as well. */
+#script{display:none;border-top:1px solid var(--border);background:var(--surface);padding:10px 15px}
+#script.on{display:block}
+#script h3{margin:0 0 8px;font-size:13px;color:var(--muted);font-weight:600;
+           display:flex;align-items:center;gap:10px}
+#script h3 button{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+                  border-radius:6px;padding:3px 9px;font-size:11.5px;cursor:pointer}
+#scriptbody{max-height:280px;overflow-y:auto}
+.sline{display:grid;grid-template-columns:52px 84px 1fr;gap:10px;padding:5px 6px;border-radius:6px;
+       cursor:pointer;align-items:start}
+.sline:hover{background:var(--surface2)}
+.sline.now{background:#1D2530;box-shadow:inset 2px 0 0 var(--accent)}
+.sline .t{color:var(--muted);font-size:11.5px;font-variant-numeric:tabular-nums;padding-top:2px}
+.sline .who{color:var(--accent);font-size:12.5px;font-weight:600}
+.sline .who i{display:block;color:var(--muted);font-weight:400;font-size:10.5px;font-style:normal}
+.sline .say{font-size:13px;line-height:1.45}
+.sline .say span{display:block}
+.sline .say .alt{color:var(--muted);font-size:12.5px}
+
 /* ---- the camera surfaces ------------------------------------------------------------------
    ONE state, several views of it. Neither the rail panel, the floating panel, nor either tab
    owns the camera: all of them render it and all of them send edits to the same place. That is
@@ -256,6 +278,7 @@ header .spacer{flex:1}
       <button id="play" disabled>Play</button>
       <input id="scrub" type="range" min="0" max="1000" value="0" step="1" aria-label="Position">
       <span id="time">0:00</span>
+      <button class="ghost" id="bscript" aria-pressed="false" title="Show the script (s)">Script</button>
       <button class="ghost" id="btheatre" aria-pressed="false" title="Theatre mode (t)">Theatre</button>
       <button class="ghost" id="bfull" aria-pressed="false" title="Full page (f)">Full page</button>
     </div>
@@ -277,6 +300,7 @@ header .spacer{flex:1}
       </div>
     </div>
 
+    <div id="script"><h3>Script <button id="scriptcopy">Copy</button><span id="scriptnote"></span></h3><div id="scriptbody"></div></div>
     <div id="about"></div>
     <div id="note"></div>
   </main>

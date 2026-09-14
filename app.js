@@ -548,6 +548,7 @@
     if (!S.lang.subtitles.length && subs.length && !S.lang.subsNone) S.lang.subtitles = [subs[0]];
     save(); syncAxes(); render(); describe();
     syncUrl();
+    try { setScript(!!S.script); } catch (e) {}
     // The MP4 index for THIS lesson, so the mode control knows what exists before it is drawn. A lesson
     // with no MP4 at all is not an error: the index is simply absent and those modes say so.
     fetch(v.dir + '/mp4.json').then(function (r) { return r.ok ? r.json() : null; })
@@ -914,6 +915,7 @@
     t = Math.max(0, Math.min(dur || 0, t)); lastT = t;
     try { part.player.seek(t); } catch (e) {}
     if (part.overlay && part.overlay.render) part.overlay.render(t);
+    try { markScript(t); } catch (e) {}
     timeEl.textContent = mmss(t) + ' / ' + mmss(dur);
     scrub.value = dur ? Math.round(1000 * t / dur) : 0;
     if (current) { S.resume[current.courseId + '/' + current.video.id] = t; save(); }
@@ -968,6 +970,7 @@
     }
     if (e.key === 'Escape') setSize(sizeReduce(size, 'escape'));
     else if (e.key === 't') setSize(sizeReduce(size, 'toggle_theatre'));
+    else if (e.key === 's') setScript(!S.script);
     else if (e.key === 'f') setSize(sizeReduce(size, 'toggle_full'));
     else if (e.key === '/') { e.preventDefault(); fcourse.focus(); }
     else if (e.key === ' ' && part) { e.preventDefault(); playing ? pause() : play(); }
@@ -993,6 +996,7 @@
   };
   axsub1.onchange = axsub2.onchange = function () {
     S.lang.subtitles = subtitleChoice();
+    try { if (S.script) renderScript(); } catch (e) {}
     // Choosing None is a CHOICE and is remembered as one, so that opening the next lesson - or a link
     // to this one - does not helpfully put the subtitles back.
     S.lang.subsNone = S.lang.subtitles.length === 0;
@@ -1565,6 +1569,171 @@
       else if (e.key === 'ArrowDown') { setSplit((S.cam.split || 300) - 16); e.preventDefault(); }
     });
   })();
+
+  // ================================================================= the script
+  //
+  // TRACK A STANDS ALONE, and this is the proof: the lesson's dialogue with speaker names, timings and
+  // both languages, rendered from data the scene already holds. No model, no Ollama, nothing to install.
+  //
+  // It is also MODE-INDEPENDENT. The interactive load path fetches scene.json anyway, but the MP4 modes
+  // do not - so the script fetches the lesson's own scene file itself. A student watching the video
+  // gets the script too, which is the point.
+  //
+  // DETERMINISTIC BY CONSTRUCTION: the lines come out in time order, each rendered by one formatter, so
+  // the same lesson always produces the same text. The language shown is the SUBTITLE choice already on
+  // the page - one setting, not a second one to keep in step.
+  var scriptLines = null, scriptFor = null, scriptNow = -1;
+
+  function mmssShort(t) {
+    var m = Math.floor(t / 60), s = Math.floor(t % 60);
+    return m + ':' + (s < 10 ? '0' : '') + s;
+  }
+  // A presentable name, not a raw id. 'maher' is data; 'Maher' is what a person reads.
+  function speakerName(id) {
+    return String(id || '').split(/[_\s-]+/).filter(Boolean)
+      .map(function (w) { return w.charAt(0).toUpperCase() + w.slice(1); }).join(' ');
+  }
+  // 'en-GB-RyanNeural' -> 'en-GB'. The accent is already on every line; showing it costs nothing and
+  // tells a learner which English they are hearing.
+  function accentOf(voice) {
+    var p = String(voice || '').split('-');
+    return p.length >= 2 ? p[0] + '-' + p[1] : '';
+  }
+
+  function scriptLangs() {
+    // The subtitle selectors are the language choice. If a student has turned subtitles off entirely we
+    // still have to show something, so fall back to the lesson's first available language.
+    var want = (S.lang.subtitles || []).slice();
+    if (!want.length && current && current.video) want = (current.video.subtitles || ['en']).slice(0, 1);
+    return want;
+  }
+
+  function renderScript() {
+    var host = $('scriptbody');
+    host.innerHTML = '';
+    if (!scriptLines) {
+      host.appendChild(el('div', 'padnote', 'Loading the script…'));
+      return;
+    }
+    if (!scriptLines.length) {
+      host.appendChild(el('div', 'padnote', 'This lesson has no dialogue.'));
+      return;
+    }
+    var langs = scriptLangs();
+    scriptLines.forEach(function (ln, i) {
+      var row = el('div', 'sline');
+      row.setAttribute('role', 'button');
+      row.tabIndex = 0;
+      row.appendChild(el('div', 't', mmssShort(ln.start)));
+      var who = el('div', 'who', speakerName(ln.actor));
+      var acc = accentOf(ln.voice);
+      if (acc) who.appendChild(el('i', null, acc));
+      row.appendChild(who);
+      var say = el('div', 'say');
+      langs.forEach(function (lg, k) {
+        var t = (ln.text || {})[lg];
+        if (!t) return;
+        var e = el('span', k ? 'alt' : null, t);
+        e.setAttribute('dir', 'auto');            // Arabic reads right-to-left; let the browser decide
+        say.appendChild(e);
+      });
+      row.appendChild(say);
+      var go = function () {
+        pause();
+        seek(ln.start + 0.01);
+        scrub.value = dur ? Math.round((ln.start / dur) * 1000) : 0;
+        markScript(ln.start);
+      };
+      row.onclick = go;
+      row.onkeydown = function (e2) {
+        if (e2.key === 'Enter' || e2.key === ' ') { go(); e2.preventDefault(); }
+      };
+      host.appendChild(row);
+    });
+    $('scriptnote').textContent = '  ' + scriptLines.length + ' lines · from the lesson itself, '
+      + 'no assistant involved';
+    $('scriptnote').style.cssText = 'font-weight:400;font-size:11.5px;color:var(--muted)';
+    markScript(lastT);
+  }
+
+  // The line under the playhead. Marked, never auto-scrolled away from a person's reading position
+  // unless it has actually left the box.
+  function markScript(t) {
+    if (!scriptLines || !scriptLines.length) return;
+    var idx = -1;
+    for (var i = 0; i < scriptLines.length; i++) {
+      if (scriptLines[i].start <= t + 1e-6) idx = i; else break;
+    }
+    if (idx === scriptNow) return;
+    scriptNow = idx;
+    var rows = $('scriptbody').children;
+    for (var k = 0; k < rows.length; k++) rows[k].classList.toggle('now', k === idx);
+    if (idx >= 0 && rows[idx]) {
+      var box = $('scriptbody'), r = rows[idx];
+      if (r.offsetTop < box.scrollTop || r.offsetTop + r.offsetHeight > box.scrollTop + box.clientHeight) {
+        box.scrollTop = r.offsetTop - box.clientHeight / 3;
+      }
+    }
+  }
+
+  function loadScript() {
+    if (!current) return;
+    var key = current.courseId + '/' + current.video.id;
+    if (scriptFor === key) { renderScript(); return; }
+    scriptFor = key; scriptLines = null; scriptNow = -1;
+    renderScript();
+    // Its OWN fetches, so the script does not depend on the interactive player having loaded.
+    //
+    // TWO files, because the published bundle SPLITS them: scene.json holds what is SHOWN (actor,
+    // start, text) and audio/<variant>.json holds what is HEARD (voice, duration). The accent therefore
+    // follows the SPOKEN variant, which is right - an Arabic-spoken version of a lesson would carry
+    // Arabic voices and the script should say so.
+    var lang = S.lang.speech || 'en';
+    Promise.all([
+      fetch(current.video.dir + '/scene.json').then(function (r) { return r.json(); }),
+      fetch(current.video.dir + '/audio/' + lang + '.json')
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .catch(function () { return null; })
+    ]).then(function (both) {
+        var sc = both[0], au = both[1];
+        if (scriptFor !== key) return;                      // the person moved on
+        var voices = (au && au.lines) || {};
+        scriptLines = (sc.speech || []).slice().sort(function (a, b) { return a.start - b.start; })
+          .map(function (l) {
+            var v = voices[l.id] || {};
+            return {start: l.start, actor: l.actor, voice: v.voice || l.voice || '',
+                    text: l.text || {}};
+          });
+        renderScript();
+      })
+      .catch(function (e) {
+        if (scriptFor !== key) return;
+        $('scriptbody').innerHTML = '';
+        $('scriptbody').appendChild(el('div', 'padnote',
+          'The script could not be loaded: ' + String((e && e.message) || e)));
+      });
+  }
+
+  function scriptText() {
+    var langs = scriptLangs();
+    return (scriptLines || []).map(function (ln) {
+      var t = langs.map(function (lg) { return (ln.text || {})[lg]; }).filter(Boolean).join('\n        ');
+      return mmssShort(ln.start) + '  ' + speakerName(ln.actor) + ': ' + t;
+    }).join('\n');
+  }
+
+  function setScript(on) {
+    S.script = !!on; save();
+    $('script').classList.toggle('on', S.script);
+    $('bscript').setAttribute('aria-pressed', S.script ? 'true' : 'false');
+    if (S.script) loadScript();
+  }
+  $('bscript').onclick = function () { setScript(!S.script); };
+  $('scriptcopy').onclick = function () {
+    try { navigator.clipboard.writeText(scriptText()); } catch (e) { /* no clipboard */ }
+    $('scriptcopy').textContent = 'Copied';
+    setTimeout(function () { $('scriptcopy').textContent = 'Copy'; }, 1200);
+  };
 
   // ================================================================= boot
   fetch('catalogue.json', {cache: 'no-store'}).then(function (r) { return r.json(); })
