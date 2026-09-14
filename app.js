@@ -504,12 +504,15 @@
   // URL_PARAMS is the shared contract between this writer and the reader at boot. The two ends are
   // compared by a check that enumerates them, so the next write-only parameter is caught by
   // construction rather than by someone remembering to look.
-  var URL_PARAMS = ['c', 'v', 'speech', 'subs', 'mode'];
+  // 'cam' is written and read by the same pair as every other parameter, so the symmetry check
+  // that guards against a write-only parameter covers it too.
+  var URL_PARAMS = ['c', 'v', 'speech', 'subs', 'mode', 'cam'];
 
   function urlState() {
     if (!current) return null;
     return {c: current.course.id, v: current.video.id, speech: S.lang.speech,
-            subs: (S.lang.subtitles || []).join(','), mode: S.mode};
+            subs: (S.lang.subtitles || []).join(','), mode: S.mode,
+            cam: (S.cam && S.cam.on && camView) ? camView.encode() : ''};
   }
 
   function syncUrl() {
@@ -892,6 +895,9 @@
       poster.style.display = 'none';
       loadHide();
       playBtn.disabled = false;
+      // The viewer's camera, if this person asked for one. A stored view for this lesson, this
+      // room or this moment is applied here, in that precedence.
+      try { camRestore(); camAttach(); camRender(); camAvail(); } catch (e) {}
       seek(0);
       return part;
     });
@@ -999,13 +1005,559 @@
       syncModes();               // ...and it changes which MP4 combinations are reachable
     }
   };
-  axmode.onchange = function () { S.mode = axmode.value; save(); syncUrl(); applyMode(); };
+  axmode.onchange = function () {
+    S.mode = axmode.value; save(); syncUrl(); applyMode();
+    try { camAvail(); camRender(); } catch (e) {}
+  };
   loadRetry.onclick = function () { if (current) applyMode(); };
   loadCancel.onclick = function () {
     cancelled = true;
     if (aborter) { try { aborter.abort(); } catch (e) {} }
     loadCancelled();
   };
+
+  // ================================================================= the viewer's camera
+  //
+  // ONE STATE, SEVERAL VIEWS OF IT. The rail panel, the floating panel and the two tabs inside each all
+  // render the same CameraView and send every edit to the same place. None of them owns the camera. That
+  // is the rule that makes drive() the single interpreter and tools/wire.py the single wire model, and
+  // the seam where two copies of one truth are allowed to exist is where this project keeps finding bugs.
+  //
+  // The authored camera is untouched: the view is applied inside ScenePlayer.seek(), strictly AFTER
+  // drive(), and with no view the picture is identical to the MP4's by construction.
+  var CAM_STOPS = [
+    ['LR', 'Left / Right', 'across the screen, flattened to the floor'],
+    ['IO', 'In / Out', 'into the screen, flattened to the floor'],
+    ['LR&IO', 'Left/Right and In/Out', 'both floor directions in one stroke'],
+    ['UD', 'Up / Down', 'true world-up, whatever the tilt'],
+    ['Aim', 'Camera orientation', 'turn and tilt; orbit pins the subject']
+  ];
+  var CAM_MODES = [['director', 'Director'], ['ride', 'Ride along'], ['free', 'Free look']];
+  // Tab 1's rows, in the SAME words as Tab 2's stops. Two vocabularies for one state is the same class
+  // of defect as two panels showing different numbers.
+  var CAM_ROWS = [
+    ['WHERE IT IS', [['off0', 'Left / right', 'm', 0.1], ['off2', 'In / out', 'm', 0.1],
+                     ['off1', 'Up / down', 'm', 0.1]]],
+    ['WHAT IT LOOKS AT', [['yaw', 'Left / right', 'deg', 1], ['pitch', 'Up / down', 'deg', 1]]],
+    ['LENS', [['zoom', 'Zoom', 'x', 0.05], ['roll', 'Roll', 'deg', 1]]]
+  ];
+  var camView = null, camPads = [];
+
+  function camDefaults() {
+    return {on: false, tab: 'pad', stop: 'LR&IO', behav: 'touchpad', mode: 'director',
+            sens: {move: 4.0, turn: 90}, split: 300, scope: 'lesson', views: {}};
+  }
+  if (!S.cam) S.cam = camDefaults();
+  if (!S.cam.views) S.cam.views = {};
+  if (!S.cam.sens) S.cam.sens = {move: 4.0, turn: 90};
+
+  function camSens() {
+    // Stated in the unit a person cares about: one sweep across the circle = N metres, or N degrees when
+    // aiming. The pad hands `drag` fractions of a diameter, so this IS the conversion.
+    return {move: S.cam.sens.move, turn: S.cam.sens.turn * Math.PI / 180};
+  }
+  function authoredCam() {
+    if (!part || !window.__scene || typeof window.__drive !== 'function') return null;
+    try { return window.__drive(part.player.sc, lastT).camera; } catch (e) { return null; }
+  }
+  function camFov() { return (window.__scene && window.__scene.camera && window.__scene.camera.fov) || 38; }
+
+  // ---- scope: which view applies here, and where a saved one is kept -----------------------------
+  function shotIndexAt(t) {
+    var sh = (window.__scene && window.__scene.shots) || [];
+    var i = -1;
+    for (var k = 0; k < sh.length; k++) { if (sh[k].at <= t + 1e-6) i = k; else break; }
+    return i;
+  }
+  function camKeys() {
+    if (!current) return {};
+    var lesson = current.courseId + '/' + current.video.id;
+    var room = (window.__scene && window.__scene.set && window.__scene.set.name) || '';
+    return {shot: 'shot:' + lesson + '#' + shotIndexAt(lastT), lesson: 'lesson:' + lesson,
+            room: room ? 'room:' + room : null};
+  }
+  function camStore() {
+    // Precedence is shot > lesson > room > director, and it is applied in that order here rather than
+    // being asserted somewhere and implemented differently.
+    var k = camKeys(), v = S.cam.views;
+    var key = (k.shot && v[k.shot]) ? k.shot :
+              ((k.lesson && v[k.lesson]) ? k.lesson : ((k.room && v[k.room]) ? k.room : null));
+    return key ? {key: key, enc: v[key]} : null;
+  }
+  function camRemember() {
+    if (!camView || !current) return;
+    var k = camKeys();
+    var key = S.cam.scope === 'shot' ? k.shot : (S.cam.scope === 'room' ? k.room : k.lesson);
+    if (!key) return;
+    var enc = camView.encode();
+    if (enc) S.cam.views[key] = enc; else delete S.cam.views[key];
+    save();
+  }
+
+  // A LINK WINS over a stored view, because a link is something the person just acted on. Otherwise
+  // the stored scopes apply in their precedence: this moment, then this lesson, then this room.
+  function camRestore() {
+    if (typeof CameraView === 'undefined') return;
+    var q = new URLSearchParams(location.search), enc = q.get('cam');
+    var from = null;
+    if (enc) from = CameraView.decode(enc);
+    if (!from) { var st = camStore(); if (st) from = CameraView.decode(st.enc); }
+    if (from) { camView = from; S.cam.mode = from.mode; S.cam.on = true; }
+    else if (camView) { camView.reset(); S.cam.mode = 'director'; }
+    var cb = $('camon'); if (cb) cb.checked = !!S.cam.on;
+  }
+
+  var camUndo = [], camRedo = [], CAM_UNDO_MAX = 30;
+  function camPush() {
+    if (!camView) return;
+    var e = camView.encode();
+    if (camUndo.length && camUndo[camUndo.length - 1] === e) return;
+    camUndo.push(e);
+    if (camUndo.length > CAM_UNDO_MAX) camUndo.shift();
+    camRedo.length = 0;
+  }
+  function camUndoStep(stack, other) {
+    if (!stack.length || !camView) return;
+    other.push(camView.encode());
+    var e = stack.pop();
+    var v = e ? CameraView.decode(e) : new CameraView();
+    camView = v || new CameraView();
+    S.cam.mode = camView.mode;
+    camApply(); camRender(); camRemember();
+  }
+
+  function camEnsure() {
+    if (!camView && typeof CameraView !== 'undefined') camView = new CameraView();
+    return camView;
+  }
+  function camAttach() {
+    if (!part || !part.player || typeof part.player.setView !== 'function') return;
+    part.player.setView(S.cam.on ? camEnsure() : null);
+  }
+  var camFields = [];
+  function camApply() {
+    camAttach();
+    seek(lastT);                 // re-runs drive() at the same t and re-renders: no second loop
+    camSync();                   // VALUES ONLY - never structure; see camSync
+  }
+  // camApply must NOT rebuild the DOM. Rebuilding during a drag detaches the very canvas being dragged:
+  // its getBoundingClientRect() goes to zero, the pad divides pixel deltas by 1 instead of by the
+  // diameter, and the camera flies a thousand times too far. Measured: a 0.3-sweep drag produced an
+  // offset of 1190 m instead of 1.2 m. A structural change rebuilds; a value change syncs.
+  //
+  // It also keeps every surface honest: each field in BOTH panels is refreshed from the one state, so
+  // the rail panel and the floating panel cannot show different numbers.
+  function camSync() {
+    camFields.forEach(function (f) {
+      if (document.activeElement !== f.inp) f.inp.value = f.get().toFixed(f.dp);
+    });
+    camPads.forEach(function (cv) { if (cv.isConnected) padDraw(cv); });
+    var live = camLiveText();
+    Array.prototype.forEach.call(document.querySelectorAll('.padlive'), function (e) {
+      e.textContent = live;
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.camsay'), camSayInto);
+  }
+  function camLiveText() {
+    if (!camEnsure()) return '';
+    return (S.cam.stop === 'Aim'
+      ? ('turn ' + camNum('yaw').toFixed(0) + ' deg')
+      : (S.cam.stop + ' ' + camNum(S.cam.stop === 'UD' ? 'off1'
+          : (S.cam.stop === 'IO' ? 'off2' : 'off0')).toFixed(2) + ' m')) + '   (live axis only)';
+  }
+
+  // ---- the pad ---------------------------------------------------------------------------------
+  function padDraw(cv) {
+    var g = cv.getContext('2d');
+    var w = cv.width, h = cv.height, R = Math.min(w, h) / 2 - 2, cx = w / 2, cy = h / 2;
+    g.clearRect(0, 0, w, h);
+    g.fillStyle = '#10151B'; g.beginPath(); g.arc(cx, cy, R, 0, 6.2832); g.fill();
+    var stop = S.cam.stop, floor = (stop !== 'UD' && stop !== 'Aim');
+    if (floor) {
+      // A FAINT FLOOR GRID means floor movement. Its ABSENCE means the lift. That is what tells IO from
+      // UD - both are vertical drags - and it replaced a trapezoid that meant "depth", which would now
+      // mislead because UD is height.
+      g.strokeStyle = '#1B2530'; g.lineWidth = 1;
+      for (var o = -R; o <= R; o += Math.max(12, R / 6)) {
+        var hh = Math.sqrt(Math.max(0, R * R - o * o));
+        if (hh < 6) continue;
+        g.beginPath(); g.moveTo(cx - hh, cy + o); g.lineTo(cx + hh, cy + o); g.stroke();
+        g.beginPath(); g.moveTo(cx + o, cy - hh); g.lineTo(cx + o, cy + hh); g.stroke();
+      }
+    }
+    g.strokeStyle = '#4A5F74'; g.lineWidth = 1.4;
+    if (stop === 'LR') { g.strokeRect(cx - R + 10, cy - R * 0.3, (R - 10) * 2, R * 0.6); }
+    else if (stop === 'IO') { g.strokeRect(cx - R * 0.3, cy - R + 10, R * 0.6, (R - 10) * 2); }
+    else if (stop === 'UD') {
+      g.beginPath(); g.moveTo(cx, cy - R + 16); g.lineTo(cx, cy + R - 16); g.stroke();
+      [-1, 1].forEach(function (s) {
+        g.beginPath(); g.moveTo(cx, cy + s * (R - 12));
+        g.lineTo(cx - 7, cy + s * (R - 26)); g.lineTo(cx + 7, cy + s * (R - 26)); g.closePath();
+        g.fillStyle = '#4A5F74'; g.fill();
+      });
+    } else {
+      g.beginPath(); g.moveTo(cx - R + 14, cy); g.lineTo(cx + R - 14, cy); g.stroke();
+      g.beginPath(); g.moveTo(cx, cy - R + 14); g.lineTo(cx, cy + R - 14); g.stroke();
+      if (stop === 'Aim') {
+        g.beginPath(); g.arc(cx, cy + R * 0.2, R * 0.7, 3.34, 6.08); g.stroke();
+        if (S.cam.orbit) {
+          g.fillStyle = '#E8B418'; g.beginPath(); g.arc(cx, cy, 5, 0, 6.2832); g.fill();
+        }
+      }
+    }
+    if (S.cam.behav === 'joystick') {
+      g.strokeStyle = '#E8B418'; g.lineWidth = 1;
+      g.beginPath(); g.arc(cx, cy, R - 6, 0, 6.2832); g.stroke();
+      g.strokeStyle = '#2A323C'; g.beginPath(); g.arc(cx, cy, R * 0.16, 0, 6.2832); g.stroke();
+    }
+  }
+
+  function padBind(cv) {
+    var held = false, held0 = false, lastX = 0, lastY = 0, jx = 0, jy = 0,
+        timer = null, id = null;
+    function diam() { return cv.getBoundingClientRect().width || 1; }
+    function pos(e) {
+      var r = cv.getBoundingClientRect();
+      return [e.clientX - r.left - r.width / 2, e.clientY - r.top - r.height / 2];
+    }
+    function step(dx, dy) {
+      var cam = authoredCam();
+      if (!cam || !camEnsure()) return;
+      if (!held0) { camPush(); held0 = true; }
+      if (camView.mode === 'director') { camSetMode('ride'); camRender(); }
+      camView.drag(S.cam.stop, dx, dy, camSens(), cam, camFov(), !!S.cam.orbit);
+      camApply();
+    }
+    cv.addEventListener('pointerdown', function (e) {
+      held = true; id = e.pointerId; cv.setPointerCapture(id);
+      var p = pos(e); lastX = p[0]; lastY = p[1]; jx = p[0]; jy = p[1];
+      // Fix the drag axis now, so a straight stroke stays straight instead of curving round the subject.
+      var c0 = authoredCam();
+      if (c0 && camEnsure()) camView.beginStroke(c0, camFov());
+      if (S.cam.behav === 'joystick' && !timer) {
+        // JOYSTICK: distance from centre is SPEED, and it keeps moving while held. A dead zone at the
+        // centre stops a shaky hand drifting.
+        timer = setInterval(function () {
+          var d = diam() / 2, r = Math.sqrt(jx * jx + jy * jy) / d;
+          if (r < 0.16) return;
+          step((jx / d) * 0.035, (jy / d) * 0.035);
+        }, 33);
+      }
+      e.preventDefault();
+    });
+    cv.addEventListener('pointermove', function (e) {
+      if (!held) return;
+      var p = pos(e);
+      if (S.cam.behav === 'joystick') { jx = p[0]; jy = p[1]; }
+      else {
+        // TOUCHPAD (the default): the camera moves by the distance travelled WHILE THE BUTTON IS HELD.
+        // Release and it stays exactly where it is; move the mouse back with the button up and press
+        // again to carry on - the clutch, which is what lets a small circle cross a large room.
+        step((p[0] - lastX) / diam(), (p[1] - lastY) / diam());
+        lastX = p[0]; lastY = p[1];
+      }
+      e.preventDefault();
+    });
+    function up() {
+      held = false; held0 = false;
+      if (camView) camView.endStroke();
+      if (timer) { clearInterval(timer); timer = null; }
+      camRemember();
+    }
+    cv.addEventListener('pointerup', up);
+    cv.addEventListener('pointercancel', up);
+    cv.addEventListener('lostpointercapture', up);
+    cv.tabIndex = 0;
+    cv.addEventListener('keydown', function (e) {
+      var k = {ArrowLeft: [-0.08, 0], ArrowRight: [0.08, 0], ArrowUp: [0, -0.08],
+               ArrowDown: [0, 0.08]}[e.key];
+      if (!k) return;
+      step(k[0], k[1]); camRemember(); e.preventDefault();
+    });
+  }
+
+  // ---- rendering both surfaces from the one state -----------------------------------------------
+  function el(tag, cls, txt) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (txt != null) e.textContent = txt;
+    return e;
+  }
+  function camSetMode(m) {
+    var cam = authoredCam();
+    if (camEnsure() && cam) camView.setMode(m, cam);
+    S.cam.mode = m; save();
+  }
+  function camNum(field) {
+    if (!camEnsure()) return 0;
+    if (field === 'off0') return camView.off[0];
+    if (field === 'off1') return camView.off[1];
+    if (field === 'off2') return camView.off[2];
+    if (field === 'yaw') return camView.yaw * 180 / Math.PI;
+    if (field === 'pitch') return camView.pitch * 180 / Math.PI;
+    if (field === 'zoom') return camView.zoom;
+    return camView.roll;
+  }
+  function camSet(field, v) {
+    if (!camEnsure()) return;
+    camPush();
+    if (camView.mode === 'director') camSetMode('ride');
+    if (field === 'off0') camView.off[0] = v;
+    else if (field === 'off1') camView.off[1] = v;
+    else if (field === 'off2') camView.off[2] = v;
+    else if (field === 'yaw') camView.yaw = v * Math.PI / 180;
+    else if (field === 'pitch') camView.pitch = Math.max(-83, Math.min(83, v)) * Math.PI / 180;
+    else if (field === 'zoom') camView.zoom = Math.max(0.4, Math.min(3, v));
+    else camView.roll = Math.max(-30, Math.min(30, v));
+    camApply(); camRemember();
+  }
+
+  function buildCamPanel(host, idPrefix) {
+    host.innerHTML = '';
+    var head = el('div', 'camhead');
+    head.appendChild(el('b', null, 'Camera'));
+    var rst = el('button', null, 'Reset');
+    rst.onclick = function () {
+      if (!camEnsure()) return;
+      camPush();
+      camView.reset(); S.cam.mode = 'director';
+      camApply(); camRender(); camRemember();
+    };
+    head.appendChild(rst);
+    host.appendChild(head);
+
+    var seg = el('div', 'seg');
+    CAM_MODES.forEach(function (m) {
+      var b = el('button', null, m[1]);
+      b.setAttribute('aria-pressed', (camEnsure() && camView.mode === m[0]) ? 'true' : 'false');
+      b.onclick = function () { camSetMode(m[0]); camApply(); camRender(); camRemember(); };
+      seg.appendChild(b);
+    });
+    host.appendChild(seg);
+    host.appendChild(el('div', 'padnote', 'the camera you are driving - shared by both tabs'));
+
+    var tabs = el('div', 'camtabs');
+    [['numbers', 'Numbers'], ['pad', 'Pad']].forEach(function (t) {
+      var b = el('button', null, t[1]);
+      b.setAttribute('aria-selected', S.cam.tab === t[0] ? 'true' : 'false');
+      b.onclick = function () { S.cam.tab = t[0]; save(); camRender(); };
+      tabs.appendChild(b);
+    });
+    host.appendChild(tabs);
+
+    if (S.cam.tab === 'pad') {
+      var stops = el('div', 'stops');
+      CAM_STOPS.forEach(function (st) {
+        var b = el('button', null, st[0]);
+        b.title = st[1];
+        b.setAttribute('aria-pressed', S.cam.stop === st[0] ? 'true' : 'false');
+        b.setAttribute('aria-label', st[1]);
+        b.onclick = function () { S.cam.stop = st[0]; save(); camRender(); };
+        stops.appendChild(b);
+      });
+      host.appendChild(stops);
+      // THE CAPTION, always visible. LR and UD read instantly; IO does not - and a tooltip does not
+      // exist on touch and is not reliably announced to a screen reader.
+      var cur = CAM_STOPS.filter(function (x) { return x[0] === S.cam.stop; })[0] || CAM_STOPS[0];
+      host.appendChild(el('div', 'padcap', cur[1]));
+      host.appendChild(el('div', 'padnote', cur[2]));
+
+      var behav = el('div', 'behav');
+      if (S.cam.stop === 'Aim') {
+        [['place', 'in place'], ['orbit', 'orbit']].forEach(function (o) {
+          var b = el('button', null, o[1]);
+          b.setAttribute('aria-pressed', ((o[0] === 'orbit') === !!S.cam.orbit) ? 'true' : 'false');
+          b.onclick = function () { S.cam.orbit = (o[0] === 'orbit'); save(); camRender(); };
+          behav.appendChild(b);
+        });
+      }
+      [['touchpad', 'touchpad'], ['joystick', 'joystick']].forEach(function (o) {
+        var b = el('button', null, o[1]);
+        b.setAttribute('aria-pressed', S.cam.behav === o[0] ? 'true' : 'false');
+        b.onclick = function () { S.cam.behav = o[0]; save(); camRender(); };
+        behav.appendChild(b);
+      });
+      host.appendChild(behav);
+
+      var wrap = el('div', 'padwrap');
+      var cv = document.createElement('canvas');
+      cv.id = idPrefix + 'pad';
+      cv.width = 240; cv.height = 240;
+      cv.setAttribute('role', 'application');
+      cv.setAttribute('aria-label', 'Camera pad: ' + cur[1]);
+      wrap.appendChild(cv);
+      host.appendChild(wrap);
+      padDraw(cv); padBind(cv); camPads.push(cv);
+
+      host.appendChild(el('div', 'padnote padlive', camLiveText()));
+
+      [['Zoom', 'zoom', 'x', 0.05], ['Roll', 'roll', 'deg', 1],
+       ['Sensitivity', 'sens', S.cam.stop === 'Aim' ? 'deg/sweep' : 'm/sweep', 0.5]]
+        .forEach(function (r) { host.appendChild(camRowEl(r[0], r[1], r[2], r[3])); });
+      host.appendChild(el('div', 'padnote',
+        S.cam.stop === 'Aim'
+          ? ('one sweep across the circle = ' + S.cam.sens.turn.toFixed(0) + ' deg')
+          : ('one sweep across the circle = ' + S.cam.sens.move.toFixed(1) + ' m')));
+    } else {
+      CAM_ROWS.forEach(function (grp) {
+        var lbl = grp[0];
+        if (lbl === 'WHERE IT IS' && camEnsure() && camView.mode === 'ride') lbl += '  (offset)';
+        host.appendChild(el('div', 'camsect', lbl));
+        grp[1].forEach(function (r) { host.appendChild(camRowEl(r[1], r[0], r[2], r[3])); });
+      });
+    }
+
+    var foot = el('div', 'camfoot');
+    foot.appendChild(el('span', 'padnote', 'Remember for'));
+    var sel = document.createElement('select');
+    [['shot', 'This moment'], ['lesson', 'This lesson'], ['room', 'This room']].forEach(function (o) {
+      var op = document.createElement('option');
+      op.value = o[0]; op.textContent = o[1];
+      if (S.cam.scope === o[0]) op.selected = true;
+      sel.appendChild(op);
+    });
+    sel.onchange = function () { S.cam.scope = sel.value; save(); camRemember(); };
+    foot.appendChild(sel);
+    var un = el('button', null, 'Undo');
+    un.onclick = function () { camUndoStep(camUndo, camRedo); };
+    un.disabled = !camUndo.length;
+    un.setAttribute('aria-label', 'Undo the last camera change');
+    foot.appendChild(un);
+    var re = el('button', null, 'Redo');
+    re.onclick = function () { camUndoStep(camRedo, camUndo); };
+    re.disabled = !camRedo.length;
+    foot.appendChild(re);
+    var cp = el('button', null, 'Copy link');
+    cp.onclick = function () {
+      syncUrl();
+      try { navigator.clipboard.writeText(location.href); } catch (e) { /* no clipboard: the URL is there */ }
+      cp.textContent = 'Copied'; setTimeout(function () { cp.textContent = 'Copy link'; }, 1200);
+    };
+    foot.appendChild(cp);
+    host.appendChild(foot);
+
+    var say = el('div', 'camsay', '');
+    say.id = idPrefix + 'say';
+    say.style.fontSize = '11.5px'; say.style.marginTop = '6px';
+    camSayInto(say);
+    host.appendChild(say);
+  }
+
+  // Whether this is still the director's view, written into an existing node so it can be refreshed
+  // without rebuilding the panel - see camSync.
+  function camSayInto(say) {
+    say.innerHTML = '';
+    if (camEnsure() && !camView.isDirector()) {
+      say.appendChild(document.createTextNode('This is your view, not the director\'s.'));
+      say.style.color = 'var(--accent)';
+      var back = el('button', null, 'Back to the director');
+      back.style.cssText = 'background:none;border:0;color:var(--accent);cursor:pointer;' +
+                           'text-decoration:underline;font:inherit;padding:0 0 0 4px';
+      back.onclick = function () {
+        camPush(); camView.reset(); S.cam.mode = 'director'; camApply(); camRender(); camRemember();
+      };
+      say.appendChild(back);
+    } else {
+      say.textContent = 'The director\'s view - identical to the video.';
+      say.style.color = 'var(--muted)';
+    }
+  }
+
+  function camRowEl(label, field, unit, step) {
+    var row = el('div', 'camrow');
+    row.appendChild(el('label', null, label));
+    var get = function () { return field === 'sens'
+      ? (S.cam.stop === 'Aim' ? S.cam.sens.turn : S.cam.sens.move) : camNum(field); };
+    var put = function (v) {
+      if (field === 'sens') {
+        if (S.cam.stop === 'Aim') S.cam.sens.turn = Math.max(5, Math.min(360, v));
+        else S.cam.sens.move = Math.max(0.25, Math.min(20, v));
+        save(); camRender();
+      } else camSet(field, v);
+    };
+    var ro = (field !== 'sens') && camEnsure() && camView.mode === 'director';
+    var minus = el('button', null, '−');
+    var inp = document.createElement('input');
+    var plus = el('button', null, '+');
+    inp.type = 'text';
+    inp.value = get().toFixed(step < 1 ? 2 : 0);
+    inp.readOnly = !!ro;
+    inp.setAttribute('aria-label', label + (unit ? ' in ' + unit : ''));
+    minus.onclick = function () { put(get() - step); };
+    plus.onclick = function () { put(get() + step); };
+    minus.setAttribute('aria-label', 'decrease ' + label);
+    plus.setAttribute('aria-label', 'increase ' + label);
+    inp.onchange = function () {
+      var v = parseFloat(inp.value);
+      // A non-numeric entry is REJECTED without moving the camera, and an empty field restores what was
+      // there rather than zeroing it.
+      if (!isFinite(v)) { inp.value = get().toFixed(step < 1 ? 2 : 0); return; }
+      put(v);
+    };
+    inp.onkeydown = function (e) {
+      if (e.key === 'ArrowUp') { put(get() + step); e.preventDefault(); }
+      else if (e.key === 'ArrowDown') { put(get() - step); e.preventDefault(); }
+    };
+    camFields.push({inp: inp, get: get, dp: step < 1 ? 2 : 0});
+    row.appendChild(minus); row.appendChild(inp); row.appendChild(plus);
+    row.appendChild(el('span', 'u', unit));
+    return row;
+  }
+
+  function camRender() {
+    camPads = []; camFields = [];
+    var railHost = $('railcam'), floatHost = $('campanel');
+    var on = !!S.cam.on && !!current;
+    var interactive = !vid.classList.contains('on');
+    $('browse').classList.toggle('hascam', on && interactive);
+    if (on && interactive) buildCamPanel(railHost, 'rail'); else railHost.innerHTML = '';
+    if (on && interactive && S.cam.floating) {
+      floatHost.hidden = false; floatHost.classList.add('on');
+      buildCamPanel(floatHost, 'float');
+    } else {
+      floatHost.hidden = true; floatHost.classList.remove('on'); floatHost.innerHTML = '';
+    }
+    document.documentElement.style.setProperty('--camh', (S.cam.split || 300) + 'px');
+  }
+
+  // ---- the checkbox, the splitter -----------------------------------------------------------------
+  var camon = $('camon'), camonlab = $('camonlab');
+  camon.checked = !!S.cam.on;
+  camon.onchange = function () {
+    S.cam.on = camon.checked;
+    // Unchecking HIDES the panel and KEEPS the view: turning a control panel off should not move the
+    // camera. Re-checking brings back what you had.
+    save(); camApply(); camRender();
+  };
+  function camAvail() {
+    var mp4 = vid.classList.contains('on');
+    camonlab.setAttribute('aria-disabled', mp4 ? 'true' : 'false');
+    camon.disabled = mp4;
+    camonlab.title = mp4 ? 'A finished video has no camera - choose an Interactive mode' : '';
+  }
+
+  (function () {
+    var sp = $('railsplit'), dragging = false;
+    function setSplit(px) {
+      S.cam.split = Math.max(160, Math.min(window.innerHeight - 260, px));
+      document.documentElement.style.setProperty('--camh', S.cam.split + 'px');
+      save();
+    }
+    sp.addEventListener('pointerdown', function (e) {
+      dragging = true; sp.setPointerCapture(e.pointerId); e.preventDefault();
+    });
+    sp.addEventListener('pointermove', function (e) {
+      if (!dragging) return;
+      var r = $('browse').getBoundingClientRect();
+      setSplit(r.bottom - e.clientY);
+    });
+    sp.addEventListener('pointerup', function () { dragging = false; });
+    sp.addEventListener('dblclick', function () { setSplit(300); });
+    sp.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowUp') { setSplit((S.cam.split || 300) + 16); e.preventDefault(); }
+      else if (e.key === 'ArrowDown') { setSplit((S.cam.split || 300) - 16); e.preventDefault(); }
+    });
+  })();
 
   // ================================================================= boot
   fetch('catalogue.json', {cache: 'no-store'}).then(function (r) { return r.json(); })
@@ -1036,6 +1588,7 @@
       if (q.get('mode') && MODES.some(function (m) { return m.id === q.get('mode'); })) {
         S.mode = q.get('mode');
       }
+      if (q.get('cam')) S.cam.on = true;     // read here; camRestore() decodes it at mount
       var c = courses.filter(function (x) { return x.id === q.get('c'); })[0];
       var v = c && (c.videos || []).filter(function (x) { return x.id === q.get('v'); })[0];
       if (c && v) open_video(c, v);

@@ -131,6 +131,9 @@
 
   // ---- the player ----
   function ScenePlayer(THREE, renderer){
+    // `view` starts NULL, so a freshly constructed player renders the director's camera and nothing else.
+    // A page opts in; the scene never can.
+    this.view=null;
     this.THREE=THREE; this.renderer=renderer; this.mixers=[]; this.roots=[]; this.scene=null; this.camera=null;
     this.sc=null; this.clock=null; this.curClip=[];
   }
@@ -205,10 +208,32 @@
       // v27.22 (P2): the interpreter's clip phase, so this matches Prime's restarted mixer exactly.
       this.mixers[i].mixer.setTime(Math.max(0, st.clip_t === undefined ? t : st.clip_t));
     }
-    this.camera.position.set(fr.camera.pos[0],fr.camera.pos[1],fr.camera.pos[2]);
-    this.camera.lookAt(fr.camera.target[0],fr.camera.target[1],fr.camera.target[2]);
+    // THE VIEWER'S CAMERA, APPLIED AFTER drive() AND NOWHERE ELSE.
+    //
+    // drive() above is untouched: it returns the AUTHORED camera, which is what the MP4 was rendered
+    // from and what gate_bundle_parity compares. `this.view` - when a page has set one - lays a
+    // per-viewer view over the top. With no view, or with the view still the director's, `apply()`
+    // returns drive()'s camera unchanged and the picture is identical by construction.
+    //
+    // The rule runs BACKWARDS here on purpose: what both renderers must agree on belongs in drive()'s
+    // output, so the one thing they must NOT share belongs exactly here instead. Putting the viewer's
+    // camera in drive() would leave parity passing while comparing nothing.
+    var cam = fr.camera;
+    if(this.view){
+      cam = this.view.apply(fr.camera, this.sc.fov);
+      var f = cam.fov > 0 ? primeFovToThree(cam.fov) : this.camera.fov;
+      if(Math.abs(this.camera.fov - f) > 1e-6){ this.camera.fov = f; this.camera.updateProjectionMatrix(); }
+    }
+    this.camera.position.set(cam.pos[0],cam.pos[1],cam.pos[2]);
+    this.camera.lookAt(cam.target[0],cam.target[1],cam.target[2]);
+    // Roll is the one degree of freedom no authored shot has - the player aims with lookAt and a default
+    // up vector, so the horizon is always level. A viewer may tilt it; the authored camera never does.
+    if(this.view && this.view.roll) this.camera.rotateZ(this.view.roll * Math.PI / 180);
     if(this.renderer) this.renderer.render(this.scene, this.camera);
   };
+
+  // The viewer's view, or null for the director's. Set by the page; never by the scene, never by drive().
+  ScenePlayer.prototype.setView = function(v){ this.view = v || null; return this; };
 
   global.ScenePlayer = ScenePlayer;
   global.__drive = drive;   // exposed for tests

@@ -38,9 +38,90 @@ header .spacer{flex:1}
 #app.theatre #browse{display:none}
 #app.full #browse,#app.full header{display:none}
 
-#browse{background:var(--surface);border-right:1px solid var(--border);overflow-y:auto;padding:12px}
+/* THE RAIL IS A COLUMN, not one scrolling block: filters, the tree, a splitter, the camera area.
+   The tree takes what is left (1fr) and scrolls on its own, so the camera area can be given
+   height without the tree collapsing to nothing. */
+#browse{background:var(--surface);border-right:1px solid var(--border);padding:12px;
+        display:grid;grid-template-rows:auto minmax(120px,1fr);gap:0;min-height:0;overflow:hidden}
+#browse.hascam{grid-template-rows:auto minmax(120px,1fr) auto var(--camh,300px)}
+#tree{overflow-y:auto;min-height:0}
+#railsplit{height:10px;margin:6px -12px 2px;cursor:row-resize;display:none;
+           align-items:center;justify-content:center;border-top:1px solid var(--border)}
+#browse.hascam #railsplit{display:flex}
+#railsplit i{display:block;width:44px;height:4px;border-radius:3px;background:var(--surface2);
+             border:1px solid var(--border)}
+#railsplit:hover i,#railsplit:focus-visible i{background:var(--accent);border-color:var(--accent)}
+#railsplit:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+#railcam{overflow-y:auto;min-height:0;display:none}
+#browse.hascam #railcam{display:block}
 #browse[dir=rtl]{border-right:0;border-left:1px solid var(--border)}
 #main{display:flex;flex-direction:column;min-width:0;overflow-y:auto}
+
+/* ---- the camera surfaces ------------------------------------------------------------------
+   ONE state, several views of it. Neither the rail panel, the floating panel, nor either tab
+   owns the camera: all of them render it and all of them send edits to the same place. That is
+   the rule that makes drive() the single interpreter and tools/wire.py the single wire model.
+   Everything here is ENGLISH, like every other control on the page, whatever the catalogue. */
+.campanel{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:10px}
+#campanel{position:absolute;right:14px;top:84px;width:284px;z-index:6;display:none;
+          box-shadow:0 10px 30px rgba(0,0,0,.45)}
+#campanel.on{display:block}
+.camhead{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.camhead b{font-size:13.5px;flex:1}
+.camhead button{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:2px 4px}
+.camhead .x{color:var(--muted)}
+.seg{display:flex;gap:5px;margin-bottom:8px;flex-wrap:wrap}
+.seg button{flex:0 0 auto;background:var(--surface2);color:var(--text);border:1px solid var(--border);
+            border-radius:6px;padding:4px 9px;font-size:12px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--onAccent);border-color:var(--accent);
+                               font-weight:600}
+.camtabs{display:flex;gap:5px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.camtabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);
+                padding:5px 10px;cursor:pointer;font-size:12.5px}
+.camtabs button[aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent)}
+.camsect{color:var(--muted);font-size:10.5px;letter-spacing:.06em;margin:8px 0 4px}
+.camrow{display:grid;grid-template-columns:1fr auto auto auto auto;align-items:center;gap:4px;
+        margin-bottom:4px}
+.camrow label{font-size:12px;color:var(--muted)}
+.camrow button{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+               border-radius:5px;width:24px;height:24px;cursor:pointer;line-height:1}
+.camrow input{width:58px;padding:3px 5px;border-radius:5px;border:1px solid var(--border);
+              background:#10151B;color:var(--text);font-size:12px;text-align:right}
+.camrow input[readonly]{color:var(--muted);border-color:#2A323C}
+.camrow .u{font-size:10.5px;color:var(--muted);width:22px}
+/* the pad */
+.padwrap{position:relative;margin:6px 0 4px}
+#campad,#railpad{width:100%;aspect-ratio:1/1;border-radius:50%;background:#10151B;
+                 border:1px solid var(--border);touch-action:none;cursor:grab;display:block}
+#campad:active,#railpad:active{cursor:grabbing}
+.padnote{font-size:11px;color:var(--muted);margin:2px 0 6px}
+.padcap{font-size:12px;color:var(--accent);margin-bottom:4px}
+.stops{display:flex;gap:3px;margin-bottom:4px}
+.stops button{flex:1;background:#10151B;border:1px solid var(--border);color:var(--muted);
+              border-radius:6px;padding:4px 2px;font-size:11.5px;cursor:pointer}
+.stops button[aria-pressed=true]{background:var(--accent);color:var(--onAccent);font-weight:650}
+.behav{display:flex;gap:4px;align-items:center;justify-content:flex-end;margin-bottom:4px}
+.behav button{background:#10151B;border:1px solid var(--border);color:var(--muted);border-radius:11px;
+              padding:3px 10px;font-size:11px;cursor:pointer}
+.behav button[aria-pressed=true]{background:var(--accent);color:var(--onAccent)}
+.camfoot{display:flex;gap:6px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.camfoot select{background:#10151B;border:1px solid var(--border);color:var(--text);border-radius:6px;
+                padding:3px 6px;font-size:11.5px}
+.camfoot button{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+                border-radius:6px;padding:4px 9px;font-size:11.5px;cursor:pointer}
+#camsay{font-size:11.5px;color:var(--accent);margin-top:6px}
+/* the checkbox, in the axes row */
+.axis.chk{display:flex;align-items:flex-end}
+.axis.chk label{display:flex;align-items:center;gap:6px;cursor:pointer;font-size:12.5px;
+                padding:7px 10px;border:1px solid var(--border);border-radius:7px;
+                background:var(--surface2)}
+.axis.chk input{accent-color:var(--accent);width:15px;height:15px}
+.axis.chk label[aria-disabled=true]{opacity:.45;cursor:not-allowed}
+/* Download is HIDDEN in the interactive modes, so its slot is RESERVED - otherwise the checkbox
+   to its right would slide sideways every time the mode changed. */
+.axis.dlslot{min-width:132px}
+/* Download and the checkbox are ONE wrapping unit, so the row may fold but never between them. */
+.dlgroup{display:flex;align-items:flex-end;gap:16px}
 
 /* ---- filters ------------------------------------------------------------------------------ */
 .filters{display:grid;gap:8px;margin-bottom:12px}
@@ -138,6 +219,11 @@ header .spacer{flex:1}
       <button class="clear" id="fclear" hidden>Clear filters</button>
     </div>
     <div id="tree"></div>
+    <!-- Drag to trade height between the tree and the camera area. Both keep a minimum, so
+         neither can be crushed to nothing, and each scrolls on its own. -->
+    <div id="railsplit" role="separator" aria-orientation="horizontal" tabindex="0"
+         aria-label="Resize the course list and the camera controls"><i></i></div>
+    <div id="railcam"></div>
   </aside>
 
   <main id="main">
@@ -148,6 +234,9 @@ header .spacer{flex:1}
            offering it: it plays where the interactive mode cannot. -->
       <video id="vid" hidden controls preload="metadata" playsinline></video>
       <div id="overlay"></div>
+      <!-- The floating surface. Theatre and full page hide the rail, which is exactly when
+           someone wants to look closely - so this is the only surface in those modes. -->
+      <div id="campanel" class="campanel" hidden></div>
       <div id="load">
         <div class="what" id="loadwhat">Loading</div>
         <div class="bar" id="loadbar"><i></i></div>
@@ -179,7 +268,13 @@ header .spacer{flex:1}
            adjective: "Quality" would imply the exact file is better and push everyone toward the
            slowest option, and "Format" is jargon. The number is the trade-off, stated. -->
       <div class="axis"><label for="axmode">Watch as</label><select id="axmode"></select></div>
-      <div class="axis"><a id="dl" class="dl" hidden download>Download</a></div>
+      <div class="dlgroup">
+        <div class="axis dlslot"><a id="dl" class="dl" hidden download>Download</a></div>
+        <!-- To the RIGHT of Download, off by default. Unchecked means ABSENT, not greyed -
+             nobody should tab into a feature they never asked for. -->
+        <div class="axis chk"><label id="camonlab" for="camon">
+          <input type="checkbox" id="camon"> Camera controls</label></div>
+      </div>
     </div>
 
     <div id="about"></div>
@@ -201,6 +296,9 @@ header .spacer{flex:1}
 <script src="player/overlay.js"></script>
 <script src="player/music.js"></script>
 <script src="player/speech_audio.js"></script>
+<!-- The viewer's camera: a view laid over the authored one, applied after drive() and never
+     inside it. Inert until a page sets a view, so it changes nothing for a page that does not. -->
+<script src="player/camera_view.js"></script>
 <script src="player/scene_player.js"></script>
 <script src="app.js"></script>
 </body></html>
