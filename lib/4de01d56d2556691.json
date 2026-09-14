@@ -65,80 +65,80 @@
   "cards": [
    {
     "lemma": "service",
-    "at": "2.639",
-    "hold": "2.00",
+    "at": 2.639,
+    "hold": 2.0,
     "label": "service",
     "ar": "صيانة",
     "emoji": "🔧"
    },
    {
     "lemma": "garage",
-    "at": "5.033",
-    "hold": "2.00",
+    "at": 5.033,
+    "hold": 2.0,
     "label": "garage",
     "ar": "كراج",
     "emoji": "🛠️"
    },
    {
     "lemma": "customer",
-    "at": "9.149",
-    "hold": "2.00",
+    "at": 9.149,
+    "hold": 2.0,
     "label": "customer",
     "ar": "زبون",
     "emoji": "👤"
    },
    {
     "lemma": "workshop",
-    "at": "12.497",
-    "hold": "2.00",
+    "at": 12.497,
+    "hold": 2.0,
     "label": "workshop / bay",
     "ar": "ورشة",
     "emoji": "🛠️"
    },
    {
     "lemma": "engine",
-    "at": "15.210",
-    "hold": "2.00",
+    "at": 15.21,
+    "hold": 2.0,
     "label": "engine",
     "ar": "محرك",
     "emoji": "⚙️"
    },
    {
     "lemma": "defect",
-    "at": "18.036",
-    "hold": "2.00",
+    "at": 18.036,
+    "hold": 2.0,
     "label": "defect",
     "ar": "عيب",
     "emoji": "⚠️"
    },
    {
     "lemma": "battery",
-    "at": "21.424",
-    "hold": "2.00",
+    "at": 21.424,
+    "hold": 2.0,
     "label": "battery",
     "ar": "بطارية",
     "emoji": "🔋"
    },
    {
     "lemma": "gauge",
-    "at": "25.225",
-    "hold": "2.00",
+    "at": 25.225,
+    "hold": 2.0,
     "label": "gauge",
     "ar": "قياس / ضغط",
     "emoji": "🌡️"
    },
    {
     "lemma": "toolboard",
-    "at": "34.674",
-    "hold": "2.00",
+    "at": 34.674,
+    "hold": 2.0,
     "label": "tools",
     "ar": "لوحة العدّة",
     "emoji": "🧰"
    },
    {
     "lemma": "safety",
-    "at": "42.837",
-    "hold": "2.00",
+    "at": 42.837,
+    "hold": 2.0,
     "label": "safety",
     "ar": "سلامة",
     "emoji": "🦺"

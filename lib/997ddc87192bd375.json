@@ -1,7 +1,7 @@
 {
  "schema": "scene/2",
- "engine": "27.26.0",
- "fingerprint": "5c2e69499aaf5872",
+ "engine": "27.37.0",
+ "fingerprint": "1a302617ec9cb3ba",
  "title": "Barada Auto Service - Garage Tour",
  "duration": 46.96,
  "size": [
@@ -208,7 +208,7 @@
  "actors": [
   {
    "id": "maher",
-   "model_glb": "assets/maher_93c5ceca89.glb",
+   "model_glb": "assets/maher_a85314610c.glb",
    "pos": [
     -4.6,
     0.0,
@@ -232,7 +232,7 @@
   },
   {
    "id": "nabil",
-   "model_glb": "assets/nabil_c43837bdac.glb",
+   "model_glb": "assets/nabil_44f002d761.glb",
    "pos": [
     5.7,
     0.0,
@@ -2237,80 +2237,80 @@
    "cards": [
     {
      "lemma": "service",
-     "at": "2.639",
-     "hold": "2.00",
+     "at": 2.639,
+     "hold": 2.0,
      "label": "service",
      "ar": "صيانة",
      "emoji": "🔧"
     },
     {
      "lemma": "garage",
-     "at": "5.033",
-     "hold": "2.00",
+     "at": 5.033,
+     "hold": 2.0,
      "label": "garage",
      "ar": "كراج",
      "emoji": "🛠️"
     },
     {
      "lemma": "customer",
-     "at": "9.149",
-     "hold": "2.00",
+     "at": 9.149,
+     "hold": 2.0,
      "label": "customer",
      "ar": "زبون",
      "emoji": "👤"
     },
     {
      "lemma": "workshop",
-     "at": "12.497",
-     "hold": "2.00",
+     "at": 12.497,
+     "hold": 2.0,
      "label": "workshop / bay",
      "ar": "ورشة",
      "emoji": "🛠️"
     },
     {
      "lemma": "engine",
-     "at": "15.210",
-     "hold": "2.00",
+     "at": 15.21,
+     "hold": 2.0,
      "label": "engine",
      "ar": "محرك",
      "emoji": "⚙️"
     },
     {
      "lemma": "defect",
-     "at": "18.036",
-     "hold": "2.00",
+     "at": 18.036,
+     "hold": 2.0,
      "label": "defect",
      "ar": "عيب",
      "emoji": "⚠️"
     },
     {
      "lemma": "battery",
-     "at": "21.424",
-     "hold": "2.00",
+     "at": 21.424,
+     "hold": 2.0,
      "label": "battery",
      "ar": "بطارية",
      "emoji": "🔋"
     },
     {
      "lemma": "gauge",
-     "at": "25.225",
-     "hold": "2.00",
+     "at": 25.225,
+     "hold": 2.0,
      "label": "gauge",
      "ar": "قياس / ضغط",
      "emoji": "🌡️"
     },
     {
      "lemma": "toolboard",
-     "at": "34.674",
-     "hold": "2.00",
+     "at": 34.674,
+     "hold": 2.0,
      "label": "tools",
      "ar": "لوحة العدّة",
      "emoji": "🧰"
     },
     {
      "lemma": "safety",
-     "at": "42.837",
-     "hold": "2.00",
+     "at": 42.837,
+     "hold": 2.0,
      "label": "safety",
      "ar": "سلامة",
      "emoji": "🦺"

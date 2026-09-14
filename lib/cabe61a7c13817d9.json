@@ -1,7 +1,7 @@
 {
  "schema": "scene/2",
- "engine": "27.26.0",
- "fingerprint": "5c2e69499aaf5872",
+ "engine": "27.37.0",
+ "fingerprint": "1a302617ec9cb3ba",
  "title": "EAM Unit 1 - Introduction to the Vehicle and the Service Department",
  "duration": 45.75,
  "size": [
@@ -188,7 +188,7 @@
  "actors": [
   {
    "id": "maher",
-   "model_glb": "assets/maher_93c5ceca89.glb",
+   "model_glb": "assets/maher_a85314610c.glb",
    "pos": [
     -1.55,
     0.0,
@@ -610,7 +610,7 @@
   },
   {
    "id": "nabil",
-   "model_glb": "assets/nabil_c43837bdac.glb",
+   "model_glb": "assets/nabil_44f002d761.glb",
    "pos": [
     1.1,
     0.0,
@@ -916,7 +916,7 @@
   },
   {
    "id": "tarek",
-   "model_glb": "assets/tarek_d7664524b0.glb",
+   "model_glb": "assets/tarek_7364b8eaee.glb",
    "pos": [
     -0.8,
     0.0,
@@ -2350,32 +2350,32 @@
    "cards": [
     {
      "lemma": "garage",
-     "at": "5.463",
-     "hold": "2.00",
+     "at": 5.463,
+     "hold": 2.0,
      "label": "garage",
      "ar": "كراج",
      "emoji": "🛠️"
     },
     {
      "lemma": "goggles",
-     "at": "24.410",
-     "hold": "2.00",
+     "at": 24.41,
+     "hold": 2.0,
      "label": "safety glasses",
      "ar": "نظارات السلامة",
      "emoji": "🥽"
     },
     {
      "lemma": "workshop",
-     "at": "27.051",
-     "hold": "2.00",
+     "at": 27.051,
+     "hold": 2.0,
      "label": "workshop / bay",
      "ar": "ورشة",
      "emoji": "🛠️"
     },
     {
      "lemma": "team",
-     "at": "38.684",
-     "hold": "2.00",
+     "at": 38.684,
+     "hold": 2.0,
      "label": "team",
      "ar": "فريق",
      "emoji": "🤝"

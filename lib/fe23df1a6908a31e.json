@@ -59,32 +59,32 @@
   "cards": [
    {
     "lemma": "garage",
-    "at": "5.463",
-    "hold": "2.00",
+    "at": 5.463,
+    "hold": 2.0,
     "label": "garage",
     "ar": "كراج",
     "emoji": "🛠️"
    },
    {
     "lemma": "goggles",
-    "at": "24.410",
-    "hold": "2.00",
+    "at": 24.41,
+    "hold": 2.0,
     "label": "safety glasses",
     "ar": "نظارات السلامة",
     "emoji": "🥽"
    },
    {
     "lemma": "workshop",
-    "at": "27.051",
-    "hold": "2.00",
+    "at": 27.051,
+    "hold": 2.0,
     "label": "workshop / bay",
     "ar": "ورشة",
     "emoji": "🛠️"
    },
    {
     "lemma": "team",
-    "at": "38.684",
-    "hold": "2.00",
+    "at": 38.684,
+    "hold": 2.0,
     "label": "team",
     "ar": "فريق",
     "emoji": "🤝"
