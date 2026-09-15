@@ -190,6 +190,19 @@
       if (self.model && !ms.some(function (m) { return m.name === self.model; })) {
         self.model = null; self._readyModel = null;
       }
+      // PICK A DEFAULT, from measurement rather than from taste (tools/model_bench.py). Both candidates
+      // answer 8/8 in English on questions whose answers are true by construction. They differ where it
+      // matters for a bilingual lesson: asked in Arabic, qwen2.5 stays close to the facts while
+      // llama3.2 produced incoherent Arabic. llama3.2 is the faster of the two (about 2.6 s an answer
+      // against 4.7 s, and a far shorter first load on a 6 GB card), so it is the fallback rather than
+      // the first choice. Anything else installed is used in preference to nothing.
+      if (!self.model) {
+        var order = ['qwen2.5:7b-instruct', 'qwen2.5:7b', 'llama3.2:3b'];
+        for (var i = 0; i < order.length && !self.model; i++) {
+          if (ms.some(function (m) { return m.name === order[i]; })) self.model = order[i];
+        }
+        if (!self.model) self.model = ms[0].name;
+      }
       self._set(self._readyModel === self.model && self.model ? 'ready' : 'listed');
       return self.snapshot();
     }, function (e) {

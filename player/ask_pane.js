@@ -272,15 +272,34 @@
   AskPane.prototype.system = function () {
     var say = this.sayLang;
     var lang = say.indexOf('ar') === 0 ? 'Arabic' : (say.indexOf('fr') === 0 ? 'French' : 'English');
-    return [
+    var parts = [
       'You answer questions about a 3D language-lesson video.',
       this.action === 'general' ? 'No lesson facts are attached to this question.'
         : 'FACTS below are measured from the lesson itself and are true. Use them and nothing else for '
           + 'anything about the room, the objects, their sizes, colours, positions or who is where. '
-          + 'If the FACTS do not answer the question, say so plainly rather than guessing.',
-      'Answer in ' + lang + '.',
-      'Be brief: a few sentences unless asked for more.'
-    ].join(' ');
+          + 'If the FACTS do not answer the question, say so plainly rather than guessing.'
+    ];
+    // ANSWERING IN A SECOND LANGUAGE COSTS ACCURACY, and it is not a small effect. Measured on
+    // qwen2.5:7b with the same facts and the same question: in English it said the cabinets are red and
+    // there are four cars, both right; asked for Arabic it said grey and five - fluent, confident and
+    // wrong on both. A wrong answer that reads well is worse for a learner than one that reads badly.
+    //
+    // Making it settle the answer in English FIRST and then translate only that fixed the count and
+    // stopped it changing the colour. So the instruction differs by language on purpose.
+    if (lang === 'English') {
+      parts.push('Answer in English.');
+    } else {
+      // The models reliably show their working here rather than suppressing it, so the format is
+      // SPECIFIED instead of fought. It is also the better answer for a language lesson: the learner
+      // sees both, and the read-aloud speaks only the half they chose (see say()).
+      parts.push('FIRST work out the answer in English from the FACTS. THEN translate it. '
+                 + 'Reply with exactly two lines and no other text:\n'
+                 + 'EN: <the English answer>\n'
+                 + lang.toUpperCase() + ': <the same answer in ' + lang + '>\n'
+                 + 'Do not change any number, colour, measurement or name while translating.');
+    }
+    parts.push('Be brief: a few sentences unless asked for more.');
+    return parts.join(' ');
   };
 
   AskPane.prototype.send = function () {
@@ -367,8 +386,24 @@
     r.start();
   };
 
+  // Only the chosen language is spoken. A bilingual answer is shown in full because a learner benefits
+  // from seeing both, but reading the English aloud to someone who asked for Arabic would defeat the
+  // point of choosing.
+  AskPane.prototype.spoken = function (text) {
+    var say = this.sayLang;
+    var lang = say.indexOf('ar') === 0 ? 'ARABIC' : (say.indexOf('fr') === 0 ? 'FRENCH' : 'ENGLISH');
+    var lines = String(text || '').split('\n');
+    for (var i = 0; i < lines.length; i++) {
+      var m = lines[i].match(/^\s*([A-Z]+)\s*:\s*(.*)$/);
+      if (m && m[1] === lang) return m[2].trim();
+      if (m && lang === 'ENGLISH' && m[1] === 'EN') return m[2].trim();
+    }
+    return String(text || '').trim();
+  };
+
   AskPane.prototype.say = function (text) {
     if (!root.speechSynthesis || !text) return;
+    text = this.spoken(text);
     var u = new SpeechSynthesisUtterance(text);
     u.lang = this.sayLang;
     // Prefer a voice that actually matches the chosen accent; fall back to the language, then to
