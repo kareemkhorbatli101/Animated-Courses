@@ -65,7 +65,8 @@
     this.busy = false;
     this.build();
     var self = this;
-    this.agent.on(function (s) { self.renderState(s); });
+    var first = this.agent;
+    this.agent.on(function (s) { if (self.agent === first) self.renderState(s); });
     this.refresh();
   }
 
@@ -221,7 +222,11 @@
       this.stateLine.textContent = String((e && e.message) || e);
       return;
     }
-    this.agent.on(function (st) { self.renderState(st); });
+    // A SNAPSHOT FROM A PROVIDER WE HAVE LEFT MUST NOT PAINT THE PANE. The old agent's listener is
+    // still attached to it and still fires - measured on the live site, where switching to the browser
+    // model showed 'no local model' and Ollama's own message, because Ollama emitted last.
+    var mine = this.agent;
+    this.agent.on(function (st) { if (self.agent === mine) self.renderState(st); });
     this._want = null;                       // force the model list to be rebuilt for the new provider
     this.refresh();
   };

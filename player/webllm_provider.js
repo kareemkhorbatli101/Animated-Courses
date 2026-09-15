@@ -84,6 +84,11 @@
   function WebLLMProvider(opts) {
     this.name = 'webllm';
     this.label = 'In this browser (no install)';
+    // NEVER 'remote'. That flag exists for Ollama, which a page served from the internet cannot reach
+    // (K.1). A model inside the page has no server and no origin problem, so inheriting the flag would
+    // show 'the AI needs the page opened from your own computer' about the one provider for which that
+    // is false - measured on the live site, where exactly that happened.
+    this.remote = false;
     this.runtimeUrl = (opts && opts.runtime) || RUNTIME;
     this.engines = {};                 // model id -> a loaded engine
     this.installed = {};               // model id -> true once it has answered
