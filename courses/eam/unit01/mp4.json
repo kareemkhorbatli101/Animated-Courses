@@ -2,80 +2,80 @@
  "combinations": {
   "en.ar+en": {
    "compressed": {
-    "address": "lib/2cacf4a2103f16e4.mp4",
-    "bytes": 1906279,
-    "dur": 45.8,
+    "address": "lib/413ca7906d758af1.mp4",
+    "bytes": 2467095,
+    "dur": 45.73,
     "faststart": true,
     "h": 1080,
-    "psnr_frame": 46.503299,
-    "psnr_strip": 44.209505,
-    "sha": "2cacf4a2103f16e4",
+    "psnr_frame": 46.257752,
+    "psnr_strip": 43.280466,
+    "sha": "413ca7906d758af1",
     "w": 1920,
-    "wire": 1906279
+    "wire": 2467095
    },
    "exact": {
-    "address": "lib/fae868c88e3e8c59.mp4",
-    "bytes": 3980538,
-    "dur": 45.8,
-    "faststart": false,
+    "address": "lib/bbc06b0d08461178.mp4",
+    "bytes": 5848766,
+    "dur": 45.73,
+    "faststart": true,
     "h": 1080,
     "psnr_frame": null,
     "psnr_strip": null,
-    "sha": "fae868c88e3e8c59",
+    "sha": "bbc06b0d08461178",
     "w": 1920,
-    "wire": 3980538
+    "wire": 5848766
    }
   },
   "en.en": {
    "compressed": {
-    "address": "lib/d717364ee4004ef5.mp4",
-    "bytes": 2583297,
+    "address": "lib/7fc016e24392f87c.mp4",
+    "bytes": 2425097,
     "dur": 45.73,
     "faststart": true,
     "h": 1080,
-    "psnr_frame": 46.413398,
-    "psnr_strip": 44.929312,
-    "sha": "d717364ee4004ef5",
+    "psnr_frame": 46.93329,
+    "psnr_strip": 45.063333,
+    "sha": "7fc016e24392f87c",
     "w": 1920,
-    "wire": 2583297
+    "wire": 2425097
    },
    "exact": {
-    "address": "lib/0dfb5e80601e761a.mp4",
-    "bytes": 6239168,
+    "address": "lib/8b27a0d88952e54b.mp4",
+    "bytes": 5772423,
     "dur": 45.73,
     "faststart": true,
     "h": 1080,
     "psnr_frame": null,
     "psnr_strip": null,
-    "sha": "0dfb5e80601e761a",
+    "sha": "8b27a0d88952e54b",
     "w": 1920,
-    "wire": 6239168
+    "wire": 5772423
    }
   },
   "en.none": {
    "compressed": {
-    "address": "lib/070e061dadaa7c07.mp4",
-    "bytes": 2499174,
+    "address": "lib/7f7814160a3bfa61.mp4",
+    "bytes": 2351715,
     "dur": 45.73,
     "faststart": true,
     "h": 1080,
-    "psnr_frame": 47.323884,
-    "psnr_strip": 49.201948,
-    "sha": "070e061dadaa7c07",
+    "psnr_frame": 48.075403,
+    "psnr_strip": 49.995511,
+    "sha": "7f7814160a3bfa61",
     "w": 1920,
-    "wire": 2499174
+    "wire": 2351715
    },
    "exact": {
-    "address": "lib/8e47a17f3fa814c1.mp4",
-    "bytes": 6004515,
+    "address": "lib/ac188d96ee800d60.mp4",
+    "bytes": 5575537,
     "dur": 45.73,
     "faststart": true,
     "h": 1080,
     "psnr_frame": null,
     "psnr_strip": null,
-    "sha": "8e47a17f3fa814c1",
+    "sha": "ac188d96ee800d60",
     "w": 1920,
-    "wire": 6004515
+    "wire": 5575537
    }
   }
  },

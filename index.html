@@ -33,19 +33,37 @@ header .credit{color:var(--muted);font-size:12.5px}
 header .spacer{flex:1}
 
 /* ---- layout ------------------------------------------------------------------------------- */
-#app{display:grid;grid-template-columns:var(--rail) 1fr;height:calc(100% - 53px)}
+/* TWO DRAGGABLE COLUMNS. The widths are stored state, clamped on drag, on LOAD and on window
+   RESIZE - a rail dragged to 600 px on a wide monitor must not be restored at 600 px on a laptop. */
+#app{display:grid;grid-template-columns:var(--rail) var(--hx,6px) 1fr;height:calc(100% - 53px)}
+.hsplit{background:var(--surface2);cursor:col-resize;position:relative}
+.hsplit:hover,.hsplit:focus-visible{background:var(--accent)}
+.hsplit:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+.hsplit::after{content:'';position:absolute;top:50%;left:50%;width:2px;height:28px;
+               transform:translate(-50%,-50%);border-radius:2px;background:var(--border)}
+.hsplit:hover::after{background:var(--onAccent)}
 /* THE ASK PANE IS A THIRD COLUMN, not an overlay: it must be able to sit open beside the video
    while the lesson plays, the same way the rail does. Absent until asked for. */
-#app.hasask{grid-template-columns:var(--rail) 1fr var(--askw,380px)}
-#app.theatre.hasask{grid-template-columns:0 1fr var(--askw,380px)}
-#app.theatre{grid-template-columns:0 1fr}
-#app.theatre #browse{display:none}
-#app.full #browse,#app.full header{display:none}
+#app.hasask{grid-template-columns:var(--rail) var(--hx,6px) 1fr var(--hx,6px) var(--askw,380px)}
+#app.theatre.hasask{grid-template-columns:0 0 1fr var(--hx,6px) var(--askw,380px)}
+#app.theatre{grid-template-columns:0 0 1fr}
+/* NEVER display:none A GRID CHILD WHOSE COLUMNS ARE POSITIONAL. Removing it from the grid shifts
+   every later child one column left: below 1100px the rail was display:none, so the STAGE landed in
+   the 0-width column and the Ask pane took the 1fr. Measured - stage 0 px in a 1000 px window - and it
+   predates this work; nothing checked the stage's width, only the pane's. Collapsed, not removed. */
+.collapsed{width:0;padding:0!important;border:0!important;overflow:hidden;pointer-events:none}
+#app.theatre #railsplitx,#app.theatre #browse{width:0;padding:0;border:0;
+                                             overflow:hidden;pointer-events:none}
+#app.full header{display:none}
+#app.full #browse,#app.full #railsplitx{width:0;padding:0;border:0;
+                                        overflow:hidden;pointer-events:none}
 
 /* THE RAIL IS A COLUMN, not one scrolling block: filters, the tree, a splitter, the camera area.
    The tree takes what is left (1fr) and scrolls on its own, so the camera area can be given
    height without the tree collapsing to nothing. */
-#browse{background:var(--surface);border-right:1px solid var(--border);padding:12px;
+/* The unit labels, the + buttons and the pad all finished 12px from the border, and the circle is
+   the largest object in the rail so it is what the eye lands on. One constant, used once. */
+#browse{background:var(--surface);border-right:1px solid var(--border);padding:var(--railinset,18px);
         display:grid;grid-template-rows:auto minmax(120px,1fr);gap:0;min-height:0;overflow:hidden}
 #browse.hascam{grid-template-rows:auto minmax(120px,1fr) auto var(--camh,300px)}
 #tree{overflow-y:auto;min-height:0}
@@ -114,10 +132,14 @@ header .spacer{flex:1}
 .camrow input{width:58px;padding:3px 5px;border-radius:5px;border:1px solid var(--border);
               background:#10151B;color:var(--text);font-size:12px;text-align:right}
 .camrow input[readonly]{color:var(--muted);border-color:#2A323C}
-.camrow .u{font-size:10.5px;color:var(--muted);width:22px}
+.camrow .u{font-size:10.5px;color:var(--muted);width:26px}
 /* the pad */
 .padwrap{position:relative;margin:6px 0 4px}
-#campad,#railpad{width:100%;aspect-ratio:1/1;border-radius:50%;background:#10151B;
+/* 90% of what it was. The pad hands drag() FRACTIONS OF A DIAMETER, and the panel's own words are
+   'one sweep across the circle = 4.0 m', so a smaller circle keeps that promise exactly: what changes
+   is metres per PIXEL, which is the correct behaviour of a smaller control. */
+#campad,#railpad{width:90%;margin:0 auto;display:block;aspect-ratio:1/1;border-radius:50%;
+                 background:#10151B;
                  border:1px solid var(--border);touch-action:none;cursor:grab;display:block}
 #campad:active,#railpad:active{cursor:grabbing}
 .padnote{font-size:11px;color:var(--muted);margin:2px 0 6px}
@@ -228,15 +250,23 @@ header .spacer{flex:1}
 /* ---- the Ask pane -----------------------------------------------------------------------------
    Deliberately the same furniture as the left rail: one surface, one border, the same tokens. It is
    part of the page, not a widget bolted to it. */
-#ask{background:var(--surface);border-left:1px solid var(--border);padding:10px;display:none;
-     grid-template-rows:auto auto auto auto minmax(var(--logmin,220px),1fr) auto;
-     gap:8px;min-height:0;overflow:hidden}
+/* THREE ZONES, NOT SEVEN ROWS. The pane had seven children and six row definitions, so the
+   composer fell into an implicit seventh row and the 1fr never reached the log: measured at a 900 px
+   window the log sat at its 220 px MINIMUM while the composer took 418 px - 46% of the pane - and
+   overflow:hidden then removed the Send button with no scrollbar to hint anything was missing.
+   Three children, three rows, and the LOG is the only 1fr. */
+#ask{background:var(--surface);border-left:1px solid var(--border);padding:var(--paneinset,16px);
+     display:none;grid-template-rows:auto minmax(var(--logmin,200px),1fr) auto;
+     gap:10px;min-height:0;overflow:hidden}
+.asktop{display:grid;gap:8px;min-width:0}
 #app.hasask #ask{display:grid}
 .askhead{display:flex;align-items:center;gap:8px}
-.askhead .prov{max-width:120px;flex:none}
+/* A FIXED CAP DOES NOT STRETCH. Every control here was capped, so widening the pane would have
+   grown empty space around controls that sat still. Each is now a MINIMUM plus a share. */
+.askhead .prov{flex:1 1 0;min-width:76px}
 .dlmodel{width:100%;justify-content:center;background:var(--accent);color:var(--onAccent);
          border-color:var(--accent);font-weight:600}
-.askhead .modelsel{flex:1;min-width:0;background:var(--surface2);color:var(--text);
+.askhead .modelsel{flex:2 1 0;min-width:0;text-overflow:ellipsis;background:var(--surface2);color:var(--text);
                    border:1px solid var(--border);border-radius:6px;padding:5px 6px;font-size:12.5px}
 /* The dot is a function of the SELECTED model, never of the server. Selecting a model that has not
    answered turns it off - that was a real defect, not a hypothetical one. */
@@ -260,8 +290,8 @@ header .spacer{flex:1}
 /* THE LOG DOES NOT SQUEEZE. Its row was minmax(80px,1fr), so as the rows around it grew a reader
    ended up peering at two lines through a slot. It now keeps a real minimum and SCROLLS, and the
    pane itself never outgrows the viewport. */
-.asklog{overflow-y:auto;min-height:var(--logmin,220px);display:flex;flex-direction:column;
-        gap:8px;padding-right:2px}
+.asklog{overflow-y:auto;min-height:0;display:flex;flex-direction:column;gap:8px;padding-right:2px}
+.logempty{margin:auto;color:var(--muted);font-size:12.5px;text-align:center;opacity:.8}
 .turn .ibtn.expand{margin-top:6px;padding:2px 7px;font-size:12px;line-height:1.3}
 /* ---- the expand modal ------------------------------------------------------------------- */
 .modalback{position:fixed;inset:0;background:rgba(6,8,12,.72);display:flex;align-items:center;
@@ -286,23 +316,34 @@ header .spacer{flex:1}
         border:1px solid var(--border);border-radius:6px;padding:7px;margin:6px 0 0;
         max-height:220px;overflow:auto}
 .askform{display:grid;gap:6px}
+/* The box wraps what is typed into it and resizes vertically, but only within a stated band, so
+   dragging it taller takes room from the LOG and can never push Send out of the pane. */
 .askinput{width:100%;background:var(--surface2);color:var(--text);border:1px solid var(--border);
-          border-radius:6px;padding:7px;font-size:13px;resize:vertical}
-.askrow{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+          border-radius:6px;padding:7px;font-size:13px;resize:vertical;
+          min-height:56px;max-height:240px;overflow-wrap:anywhere;word-break:break-word}
+/* ONE ROW, NEVER WRAPPING. Seven controls in a 372 px row wrapped onto four lines and made the
+   composer 418 px tall, which is what pushed Send below the pane's clipping edge. */
+.askrow{display:flex;align-items:center;gap:5px;flex-wrap:nowrap;min-width:0}
+.askrow .ibtn{flex:none}
+.langleg{display:flex;gap:14px;font-size:10.5px;color:var(--muted);align-items:center}
+.langleg i{font-style:normal;opacity:.85}
 .askrow .grow{flex:1}
 .langsel{background:var(--surface2);color:var(--text);border:1px solid var(--border);
-         border-radius:6px;padding:4px 5px;font-size:11.5px;max-width:132px}
+         border-radius:6px;padding:4px 5px;font-size:11.5px;flex:1 1 0;min-width:0;
+         text-overflow:ellipsis}
 /* A NARROW WINDOW MUST NOT SILENTLY SWALLOW THE PANE. The first version hid it outright below
    1100px, so ticking the box did nothing visible at all and the feature looked absent rather than
    unavailable - which is the exact complaint it produced. Something a person just switched on has to
    appear. So the LEFT rail yields instead: the lesson list is a few clicks away, the pane the viewer
    just asked for is not. */
-@media (max-width:1100px){#app.hasask{grid-template-columns:0 1fr var(--askw,340px)}
-                          #app.hasask #browse{display:none}}
-@media (max-width:760px){#app.hasask{grid-template-columns:0 1fr}
+@media (max-width:1100px){#app.hasask{grid-template-columns:0 0 1fr var(--hx,6px) var(--askw,340px)}
+                          #app.hasask #browse,#app.hasask #railsplitx{
+                              width:0;padding:0;border:0;overflow:hidden;
+                              pointer-events:none}}
+@media (max-width:760px){#app.hasask{grid-template-columns:0 0 1fr 0 0}
                          #app.hasask #ask{position:fixed;inset:53px 0 0 auto;width:min(92vw,360px);
                                           z-index:40;box-shadow:-8px 0 24px rgba(0,0,0,.45)}}
-@media (max-width:820px){#app{grid-template-columns:1fr;height:auto}#browse{border-right:0;border-bottom:1px solid var(--border)}}
+@media (max-width:820px){#app{grid-template-columns:1fr;height:auto}.hsplit{width:0;padding:0;border:0;overflow:hidden;pointer-events:none}#browse{border-right:0;border-bottom:1px solid var(--border)}}
 </style>
 </head><body>
 
@@ -329,6 +370,11 @@ header .spacer{flex:1}
          aria-label="Resize the course list and the camera controls"><i></i></div>
     <div id="railcam"></div>
   </aside>
+
+  <!-- THE COLUMN HANDLES. Grid columns, not overlays, so dragging changes a CSS variable and nothing
+       is rebuilt - the camera panel already taught what rebuilding mid-drag costs. -->
+  <div id="railsplitx" class="hsplit" role="separator" aria-orientation="vertical" tabindex="0"
+       aria-label="Resize the course panel — drag, or use the left and right arrow keys"></div>
 
   <main id="main">
     <div id="stagewrap">
@@ -391,6 +437,8 @@ header .spacer{flex:1}
     <div id="note"></div>
   </main>
 
+  <div id="asksplitx" class="hsplit" role="separator" aria-orientation="vertical" tabindex="0"
+       aria-label="Resize the Ask panel — drag, or use the left and right arrow keys"></div>
   <aside id="ask" aria-label="Ask about this lesson"></aside>
 </div>
 

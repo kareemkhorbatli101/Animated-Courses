@@ -38,10 +38,10 @@
     "en": 46.96
    },
    "bytes": 10737054,
-   "meshopt": false,
-   "meshoptBytes": 10737054,
+   "meshopt": true,
+   "meshoptBytes": 1351206,
    "wireBytes": 4626113,
-   "meshoptWireBytes": 4626113,
+   "meshoptWireBytes": 813718,
    "files": 17,
    "badgePhoto": true,
    "defaults": {

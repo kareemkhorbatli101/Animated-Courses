@@ -932,8 +932,22 @@
   }
   function play() {
     if (!part) return;
+    // A LESSON WITH NO DURATION CANNOT BE PLAYED, and used to fail silently: base0 is 0, and the loop's
+    // `t >= dur` is 0 >= 0 on its very first tick, so it paused before drawing anything.
+    if (!dur) {
+      // Named, not silent. loadstall is the element the page already uses to say why something is
+      // not happening, so this joins the existing convention rather than inventing a second one.
+      var n = $('loadstall');
+      if (n) n.textContent = 'This lesson has no duration, so it cannot be played.';
+      return;
+    }
+    // PLAY AT THE END REPLAYS. base0 came from the scrubber, which sits at 1000 when the lesson has
+    // finished - so base0 === dur and the loop paused immediately, which is why the button appeared
+    // to do nothing at all. A resume from the middle is still a resume; only the end restarts.
+    var at = (scrub.value / 1000) * dur;
+    if (at >= dur - 0.05) { at = 0; scrub.value = 0; seek(0); }
     playing = true; playBtn.textContent = 'Pause';
-    base0 = dur ? (scrub.value / 1000) * dur : 0; t0 = performance.now();
+    base0 = at; t0 = performance.now();
     // THE VOICE. This page created SpeechAudio, prefetched its lines, and then never told it to play -
     // so every lesson ran silently, and nothing noticed because the checks asserted that pixels changed
     // and the clock advanced. Neither of those is sound. boot.js had it right: the spoken lines start
@@ -1176,6 +1190,11 @@
 
   // ---- the pad ---------------------------------------------------------------------------------
   function padDraw(cv) {
+    // THE BACKING STORE FOLLOWS THE BOX. padDraw reads cv.width - the canvas's own pixels, not its CSS
+    // size - so a rail that can be dragged wider would otherwise leave a small bitmap stretched across
+    // a larger circle, still reporting the old radius to every hit test.
+    var want = Math.max(1, Math.round(cv.clientWidth || cv.width));
+    if (cv.width !== want || cv.height !== want) { cv.width = want; cv.height = want; }
     var g = cv.getContext('2d');
     var w = cv.width, h = cv.height, R = Math.min(w, h) / 2 - 2, cx = w / 2, cy = h / 2;
     g.clearRect(0, 0, w, h);
@@ -1623,6 +1642,94 @@
       save(); askApply();
     };
   }
+
+
+  // ================================================================= the column handles (v27.40)
+  //
+  // Widths are STORED STATE, clamped in three places: on drag, on load, and on window resize. The third
+  // is the one that is easy to miss - a rail dragged to 600 px on a wide monitor, stored, and reopened
+  // on a 1280 px laptop would otherwise come back at 600 px and leave almost no stage.
+  //
+  // Dragging sets a CSS VARIABLE and nothing else. It does not rebuild either pane: the camera panel
+  // already taught what rebuilding mid-drag costs, when a detached canvas reported width 0 and the
+  // camera flew a thousand times too far.
+  var LAY = {rail: {min: 220, max: 620, varName: '--rail', el: 'railsplitx', def: 340},
+             ask: {min: 300, max: 640, varName: '--askw', el: 'asksplitx', def: 380}};
+
+  function layClamp(which, px) {
+    var c = LAY[which];
+    // The STAGE keeps a minimum whatever the two stored widths say, so no combination can crush it.
+    var room = window.innerWidth - 360;
+    return Math.max(c.min, Math.min(c.max, Math.min(px, Math.max(c.min, room))));
+  }
+
+  // REDRAW THE PADS AFTER A WIDTH CHANGE. padDraw reads cv.width - the backing store - and camSync()
+  // only runs on camera changes, so a resized rail left a 271-pixel bitmap stretched across a 327-pixel
+  // circle, still reporting the old radius to every hit test. Measured, immediately after a drag.
+  // This is a VALUE redraw, not a structural rebuild, so it does not break the rule that cost 1190 m.
+  function layRepaint() {
+    try {
+      if (typeof camPads !== 'undefined' && camPads && camPads.length) {
+        camPads.forEach(function (cv) { if (cv.isConnected) padDraw(cv); });
+      }
+    } catch (e) { /* the camera panel may not be built yet */ }
+  }
+
+  function layApply() {
+    if (!S.layout) S.layout = {};
+    ['rail', 'ask'].forEach(function (w) {
+      var c = LAY[w];
+      var v = layClamp(w, S.layout[w] || c.def);
+      S.layout[w] = v;
+      document.documentElement.style.setProperty(c.varName, v + 'px');
+    });
+    layRepaint();
+  }
+
+  function layBind(which) {
+    var c = LAY[which], node = $(c.el);
+    if (!node) return;
+    var drag = null;
+    node.addEventListener('pointerdown', function (e) {
+      drag = {x: e.clientX, w: S.layout[which] || c.def};
+      // Capture is an optimisation, not a requirement: it throws when there is no active pointer with
+      // that id, which a synthetic event and some touch stacks both produce. The drag works without it.
+      try { node.setPointerCapture(e.pointerId); } catch (x) { /* no active pointer */ }
+      e.preventDefault();
+    });
+    node.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      // the ask pane grows when dragged LEFT; the rail grows when dragged right
+      var dx = (e.clientX - drag.x) * (which === 'ask' ? -1 : 1);
+      S.layout[which] = layClamp(which, drag.w + dx);
+      document.documentElement.style.setProperty(c.varName, S.layout[which] + 'px');
+      layRepaint();
+    });
+    var end = function (e) {
+      if (!drag) return;
+      drag = null;
+      try { node.releasePointerCapture(e.pointerId); } catch (x) { /* already released */ }
+      save();
+    };
+    node.addEventListener('pointerup', end);
+    node.addEventListener('pointercancel', end);
+    node.addEventListener('keydown', function (e) {
+      var step = e.shiftKey ? 40 : 12;
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+      var dir = (e.key === 'ArrowRight' ? 1 : -1) * (which === 'ask' ? -1 : 1);
+      S.layout[which] = layClamp(which, (S.layout[which] || c.def) + dir * step);
+      document.documentElement.style.setProperty(c.varName, S.layout[which] + 'px');
+      layRepaint();
+      save();
+      e.preventDefault();
+    });
+  }
+
+  layApply();
+  layBind('rail');
+  layBind('ask');
+  // RE-CLAMP ON RESIZE, not only on drag. This is the check v5 did not have.
+  window.addEventListener('resize', function () { layApply(); });
 
   // ---- the checkbox, the splitter -----------------------------------------------------------------
   var camon = $('camon'), camonlab = $('camonlab');

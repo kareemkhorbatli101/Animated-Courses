@@ -39,6 +39,11 @@
     { id: 'fr-FR', label: 'French' }
   ];
 
+  function mmss(sec) {
+    var m = Math.floor(sec / 60), x = Math.floor(sec % 60);
+    return m + 'm ' + (x < 10 ? '0' : '') + x + 's';
+  }
+
   function el(tag, cls, text) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -74,6 +79,10 @@
     var self = this, h = this.host;
     h.innerHTML = '';
 
+    // THREE CHILDREN, THREE ROWS. Everything above the log lives in one block, so the pane's
+    // children and its grid rows can never drift apart again - which is what put the composer in an
+    // implicit seventh row and left the 1fr with the wrong element.
+    var top = el('div', 'asktop');
     var head = el('div', 'askhead');
     this.dot = el('i', 'dot');
     head.appendChild(this.dot);
@@ -110,15 +119,14 @@
     this.dlBtn.textContent = 'Download model';
     this.dlBtn.style.display = 'none';
     this.dlBtn.onclick = function () { self.downloadModel(); };
-    h.appendChild(this.dlBtn);
-    h.appendChild(head);
+    top.appendChild(head);
 
     this.stateLine = el('div', 'askstate');
-    h.appendChild(this.stateLine);
+    top.appendChild(this.stateLine);
 
     this.setupBox = el('div', 'setup');
     this.setupBox.style.display = 'none';
-    h.appendChild(this.setupBox);
+    top.appendChild(this.setupBox);
 
     var acts = el('div', 'askacts');
     this.actBtns = {};
@@ -129,9 +137,15 @@
       acts.appendChild(b);
       self.actBtns[a.id] = b;
     });
-    h.appendChild(acts);
+    top.appendChild(this.dlBtn);
+    top.appendChild(acts);
+    h.appendChild(top);
 
     this.log = el('div', 'asklog');
+    // FINDABLE WHEN EMPTY, which is exactly when a person needs to find it. Removed by the first
+    // answer rather than left behind it.
+    this.empty = el('div', 'logempty', 'Answers will appear here.');
+    this.log.appendChild(this.empty);
     h.appendChild(this.log);
 
     var form = el('div', 'askform');
@@ -147,7 +161,11 @@
     this.micBtn = iconBtn('🎤', 'Speak your question instead of typing');
     this.micBtn.onclick = function () { self.toggleMic(); };
     row.appendChild(this.micBtn);
-    this.askLangSel = this.langSelect(ASK_LANGS, this.askLang, 'Language you will speak in');
+    // TWO DIFFERENT CONTROLS, TOLD APART AT A GLANCE. They were two identical grey boxes whose
+    // only difference was a tooltip. A microphone for what you SPEAK, a speaker for what it ANSWERS
+    // in, plus a legend in words underneath - the icons alone would still be a guess.
+    row.appendChild(el('i', 'lgicon', '\uD83C\uDFA4'));
+    this.askLangSel = this.langSelect(ASK_LANGS, this.askLang, 'The language YOU will speak in');
     this.askLangSel.onchange = function () { self.askLang = self.askLangSel.value; };
     row.appendChild(this.askLangSel);
 
@@ -157,7 +175,9 @@
     this.speakBtn = iconBtn('🔊', 'Read the answer aloud (choose the answer language first)');
     this.speakBtn.onclick = function () { self.speakBack = !self.speakBack; self.syncSpeak(); };
     row.appendChild(this.speakBtn);
-    this.sayLangSel = this.langSelect(SAY_LANGS, this.sayLang, 'Language and accent of the spoken answer');
+    row.appendChild(el('i', 'lgicon', '\uD83D\uDD0A'));
+    this.sayLangSel = this.langSelect(SAY_LANGS, this.sayLang,
+                                      'The language and accent the ANSWER is given in');
     this.sayLangSel.onchange = function () { self.sayLang = self.sayLangSel.value; };
     row.appendChild(this.sayLangSel);
 
@@ -169,6 +189,14 @@
     this.stopBtn.onclick = function () { self.agent.stop(); };
     row.appendChild(this.stopBtn);
     form.appendChild(row);
+    var leg = el('div', 'langleg');
+    var l1 = el('span', null, ' what you speak');
+    l1.insertBefore(el('i', null, '\uD83C\uDFA4'), l1.firstChild);
+    var l2 = el('span', null, ' what it answers in');
+    l2.insertBefore(el('i', null, '\uD83D\uDD0A'), l2.firstChild);
+    leg.appendChild(l1);
+    leg.appendChild(l2);
+    form.appendChild(leg);
     h.appendChild(form);
 
     this.setAction('video');
@@ -240,18 +268,44 @@
     this.dlBtn.disabled = true;
     var entry = (this.list || []).filter(function (m) { return m.name === id; })[0] || {};
     this.stateLine.textContent = 'Downloading ' + (entry.label || id) + ' (' + (entry.size || '?') + ')…';
+    // MEGABYTES HAVE TO BE DERIVED. WebLLM's progress report carries {progress, timeElapsed, text}
+    // and NO byte fields on this version, so `pr.loaded` is always 0 and a byte readout would sit at
+    // zero for ever. They come from the size the CATALOGUE promised before the click, and are labelled
+    // approximate, because presenting a derived number as a reported one is the same dishonesty as the
+    // disk-versus-wire byte labels in v27.36.
+    var t0 = Date.now(), prog = 0, done = false;
+    var paint = function () {
+      if (done) return;
+      var secs = (Date.now() - t0) / 1000;
+      var total = entry.bytes || 0;
+      var got = total * prog;
+      var rate = secs > 1 ? got / secs : 0;
+      self.stateLine.textContent =
+        'Downloading ' + (entry.label || id) + ' — ~' + Math.round(got / 1e6) + ' of '
+        + Math.round(total / 1e6) + ' MB · ' + Math.round(prog * 100) + '% · '
+        + mmss(secs) + (rate > 0 ? ' · ' + (rate / 1e6).toFixed(1) + ' MB/s' : '');
+    };
+    // A ONE-SECOND TICKER, independent of the callbacks: chunks arrive seconds apart and a frozen
+    // readout during a nine-minute download is indistinguishable from a hang.
+    this._tick = setInterval(paint, 1000);
+    var stopTick = function () {
+      done = true;
+      if (self._tick) { clearInterval(self._tick); self._tick = null; }
+    };
+    paint();
     this.agent.provider.load(id, function (pr) {
-      var pct = Math.round((pr.progress || 0) * 100);
-      var got = pr.loaded ? (Math.round(pr.loaded / 1e6) + ' of ' + Math.round((pr.total || 0) / 1e6)
-                             + ' MB') : (pr.text || '');
-      self.stateLine.textContent = 'Downloading ' + (entry.label || id) + ' — ' + pct + '% ' + got;
+      prog = pr.progress || prog;
+      paint();
     }).then(function () {
+      stopTick();
       self.dlBtn.disabled = false;
       self.stateLine.textContent = (entry.label || id) + ' is ready on this device.';
       self.refresh();
     }, function (e) {
       // A FAILED DOWNLOAD LEAVES NO HALF-MODEL CLAIMING TO BE USABLE - the provider only records a
-      // model as installed once an engine exists.
+      // model as installed once an engine exists - and the ticker STOPS, because a counter still
+      // climbing against a dead transfer is worse than no counter.
+      stopTick();
       self.dlBtn.disabled = false;
       self.stateLine.textContent = 'Could not load it: ' + String((e && e.message) || e);
     });
@@ -550,6 +604,7 @@
 
   AskPane.prototype.addTurn = function (who, text) {
     var wasAtBottom = this.atBottom();
+    if (this.empty && this.empty.parentNode) this.empty.parentNode.removeChild(this.empty);
     var t = el('div', 'turn ' + who);
     if (text) t.appendChild(el('div', 'body', text));
     this.log.appendChild(t);

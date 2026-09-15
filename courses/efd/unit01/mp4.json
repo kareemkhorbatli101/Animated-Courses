@@ -2,28 +2,28 @@
  "combinations": {
   "en.ar+en": {
    "compressed": {
-    "address": "lib/8f8c26ea03a98ef9.mp4",
-    "bytes": 2293031,
-    "dur": 49.4,
+    "address": "lib/36fafe252c09595e.mp4",
+    "bytes": 2950030,
+    "dur": 49.37,
     "faststart": true,
     "h": 1080,
-    "psnr_frame": 47.062042,
-    "psnr_strip": 44.320581,
-    "sha": "8f8c26ea03a98ef9",
+    "psnr_frame": 46.528231,
+    "psnr_strip": 43.421708,
+    "sha": "36fafe252c09595e",
     "w": 1920,
-    "wire": 2293031
+    "wire": 2950030
    },
    "exact": {
-    "address": "lib/e6ae8717275e12c0.mp4",
-    "bytes": 5419753,
-    "dur": 49.4,
-    "faststart": false,
+    "address": "lib/49cf69d15632ef55.mp4",
+    "bytes": 7626555,
+    "dur": 49.37,
+    "faststart": true,
     "h": 1080,
     "psnr_frame": null,
     "psnr_strip": null,
-    "sha": "e6ae8717275e12c0",
+    "sha": "49cf69d15632ef55",
     "w": 1920,
-    "wire": 5419753
+    "wire": 7626555
    }
   }
  },
