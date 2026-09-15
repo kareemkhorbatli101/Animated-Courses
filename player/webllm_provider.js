@@ -148,7 +148,11 @@
           size: human(m.bytes), eta: eta(m.bytes),
           installed: !!self.installed[m.id],
           usable: !needsF16 && fits !== false,
-          fits: needsF16 ? false : fits,
+          // TWO DIFFERENT REFUSALS, KEPT APART. Collapsing them into `fits` made the pane label an
+          // f16 model 'WILL NOT FIT' when it fits perfectly well and simply needs a feature this
+          // adapter lacks - a true refusal given for a false reason, which is worse than no reason.
+          needsF16: needsF16,
+          fits: fits,
           // BOTH NUMBERS, always. "It will not fit" without saying what the limit is leaves a person
           // with nothing to act on.
           why: needsF16

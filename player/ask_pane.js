@@ -288,10 +288,11 @@
         if (m.installed) bits.push('ready');
         else if (m.eta) bits.push('~' + m.eta);
         if (m.score) bits.push('scores ' + m.score);
-        if (m.fits === false) bits.push('WILL NOT FIT');
+        if (m.needsF16) bits.push('NEEDS shader-f16');
+        else if (m.fits === false) bits.push('TOO BIG FOR THIS BROWSER');
         var o = el('option', null, bits.join(' · '));
         o.value = m.name;
-        if (m.fits === false) o.disabled = true;
+        if (m.fits === false || m.needsF16) o.disabled = true;
         self.modelSel.appendChild(o);
       });
     }
@@ -336,7 +337,8 @@
     // A SELECTED MODEL IS ENOUGH TO TRY. Asking is itself the proof of a working model, so gating Send
     // on a prior successful connection only removes the one action that could recover from a failure.
     var sel = (s.models || []).filter(function (m) { return m.name === s.model; })[0];
-    var needsDownload = this.provider === 'webllm' && sel && !sel.installed && sel.fits !== false;
+    var needsDownload = this.provider === 'webllm' && sel && !sel.installed
+                     && sel.fits !== false && !sel.needsF16;
     this.dlBtn.style.display = needsDownload ? '' : 'none';
     if (needsDownload) {
       this.dlBtn.textContent = 'Download ' + (sel.label || sel.name) + ' (' + sel.size + ')';
