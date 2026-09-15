@@ -54,8 +54,9 @@
 
   function AskPane(host, ctx) {
     this.host = host;
-    this.ctx = ctx;                      // { scene(), index(), cameraAt(t), time(), scriptText() }
-    this.agent = A.create('ollama');
+    this.ctx = ctx;                      // { scene(), index(), cameraAt(t), time(), transcript(), rosterText() }
+    this.provider = (ctx && ctx.provider) || 'ollama';
+    this.agent = A.create(this.provider);
     this.action = 'video';
     this.askLang = 'en-GB';
     this.sayLang = 'en-GB';
@@ -75,6 +76,19 @@
     var head = el('div', 'askhead');
     this.dot = el('i', 'dot');
     head.appendChild(this.dot);
+    // WHERE THE MODEL RUNS. Two providers, one seam. Ollama is faster and bigger but cannot be reached
+    // from the published URL (RESIDUALS K.1); a model in the browser is weaker but works everywhere,
+    // because there is no server for the browser to refuse to talk to.
+    this.provSel = el('select', 'langsel prov');
+    this.provSel.title = 'Where the model runs';
+    [['ollama', 'On this computer'], ['webllm', 'In this browser']].forEach(function (pr) {
+      var o = el('option', null, pr[1]);
+      o.value = pr[0];
+      self.provSel.appendChild(o);
+    });
+    this.provSel.value = this.provider;
+    this.provSel.onchange = function () { self.setProvider(self.provSel.value); };
+    head.appendChild(this.provSel);
     this.modelSel = el('select', 'modelsel');
     this.modelSel.title = 'Choose which local model answers';
     this.modelSel.onchange = function () {
@@ -83,9 +97,19 @@
       self.agent.connect();
     };
     head.appendChild(this.modelSel);
-    var re = iconBtn('⟳', 'Look again for local models');
+    var re = iconBtn('⟳', 'Look again for models');
     re.onclick = function () { self.refresh(); };
     head.appendChild(re);
+    // NOTHING DOWNLOADS WITHOUT THIS BEING PRESSED. It appears only when the selected model is not
+    // already on this device, and its label carries the SIZE so the cost is visible before the click.
+    this.dlBtn = el('button', 'ibtn dlmodel');
+    // A tooltip from the start, not only once it is shown: a control with no title fails the pane's
+    // own English-tooltip rule the moment it exists, whether or not anyone can see it yet.
+    this.dlBtn.title = 'Download the selected model into this browser, once, from a public CDN';
+    this.dlBtn.textContent = 'Download model';
+    this.dlBtn.style.display = 'none';
+    this.dlBtn.onclick = function () { self.downloadModel(); };
+    h.appendChild(this.dlBtn);
     h.appendChild(head);
 
     this.stateLine = el('div', 'askstate');
@@ -176,7 +200,65 @@
     this.speakBtn.setAttribute('aria-pressed', this.speakBack ? 'true' : 'false');
   };
 
-  AskPane.prototype.refresh = function () { return this.agent.probe(); };
+  // CONNECT ON OPENING, not only when the dropdown changes. The first version connected from
+  // modelSel.onchange alone, so a pane opened normally listed the models, selected one, and then sat
+  // there grey for ever - and Send was disabled until connected, which made it a deadlock with no way
+  // out except picking a DIFFERENT model. The gate had not caught it because the harness called
+  // select() and connect() by hand and so never took the path a person takes.
+  /* Switching provider is a fresh agent: a model list, a readiness state and a connection all belong to
+   * the provider that produced them, and carrying any of them across would be the same class of defect
+   * as the green dot that survived a model change. */
+  AskPane.prototype.setProvider = function (kind) {
+    var self = this;
+    if (kind === this.provider) return;
+    try {
+      this.agent.stop();
+    } catch (e) { /* nothing in flight */ }
+    this.provider = kind;
+    try {
+      this.agent = A.create(kind);
+    } catch (e) {
+      this.stateLine.textContent = String((e && e.message) || e);
+      return;
+    }
+    this.agent.on(function (st) { self.renderState(st); });
+    this._want = null;                       // force the model list to be rebuilt for the new provider
+    this.refresh();
+  };
+
+  /* The download. Progress is shown in bytes against the size that was promised, because a percentage
+   * with no denominator tells a person nothing about whether to wait. */
+  AskPane.prototype.downloadModel = function () {
+    var self = this;
+    var id = this.modelSel.value;
+    if (!id) return;
+    this.dlBtn.disabled = true;
+    var entry = (this.list || []).filter(function (m) { return m.name === id; })[0] || {};
+    this.stateLine.textContent = 'Downloading ' + (entry.label || id) + ' (' + (entry.size || '?') + ')…';
+    this.agent.provider.load(id, function (pr) {
+      var pct = Math.round((pr.progress || 0) * 100);
+      var got = pr.loaded ? (Math.round(pr.loaded / 1e6) + ' of ' + Math.round((pr.total || 0) / 1e6)
+                             + ' MB') : (pr.text || '');
+      self.stateLine.textContent = 'Downloading ' + (entry.label || id) + ' — ' + pct + '% ' + got;
+    }).then(function () {
+      self.dlBtn.disabled = false;
+      self.stateLine.textContent = (entry.label || id) + ' is ready on this device.';
+      self.refresh();
+    }, function (e) {
+      // A FAILED DOWNLOAD LEAVES NO HALF-MODEL CLAIMING TO BE USABLE - the provider only records a
+      // model as installed once an engine exists.
+      self.dlBtn.disabled = false;
+      self.stateLine.textContent = 'Could not load it: ' + String((e && e.message) || e);
+    });
+  };
+
+  AskPane.prototype.refresh = function () {
+    var self = this;
+    return this.agent.probe().then(function (s) {
+      if (s.model && !s.connected) return self.agent.connect();
+      return s;
+    });
+  };
 
   AskPane.prototype.renderState = function (s) {
     var self = this;
@@ -193,8 +275,18 @@
         this.modelSel.appendChild(o);
       }
       s.models.forEach(function (m) {
-        var o = el('option', null, m.name + (m.bytes ? '  (' + (m.bytes / 1e9).toFixed(1) + ' GB)' : ''));
+        // THE COST IS IN THE LABEL, before anything is fetched: size, and how long it may take. A
+        // model that cannot fit this browser's storage says so here rather than failing later.
+        var bits = [m.label || m.name];
+        if (m.size) bits.push(m.size);
+        else if (m.bytes) bits.push((m.bytes / 1e9).toFixed(1) + ' GB');
+        if (m.installed) bits.push('ready');
+        else if (m.eta) bits.push('~' + m.eta);
+        if (m.score) bits.push('scores ' + m.score);
+        if (m.fits === false) bits.push('WILL NOT FIT');
+        var o = el('option', null, bits.join(' · '));
         o.value = m.name;
+        if (m.fits === false) o.disabled = true;
         self.modelSel.appendChild(o);
       });
     }
@@ -236,7 +328,18 @@
         this.setupBox.appendChild(a);
       }
     }
-    this.sendBtn.disabled = !s.connected || this.busy;
+    // A SELECTED MODEL IS ENOUGH TO TRY. Asking is itself the proof of a working model, so gating Send
+    // on a prior successful connection only removes the one action that could recover from a failure.
+    var sel = (s.models || []).filter(function (m) { return m.name === s.model; })[0];
+    var needsDownload = this.provider === 'webllm' && sel && !sel.installed && sel.fits !== false;
+    this.dlBtn.style.display = needsDownload ? '' : 'none';
+    if (needsDownload) {
+      this.dlBtn.textContent = 'Download ' + (sel.label || sel.name) + ' (' + sel.size + ')';
+      this.dlBtn.title = sel.licence + ' — about ' + sel.eta + ' on this connection. '
+                       + 'Downloaded once and kept on this device.';
+    }
+    if (sel && sel.why && !s.connected) this.stateLine.textContent = sel.why;
+    this.sendBtn.disabled = !s.model || this.busy;
     this.stopBtn.disabled = !this.busy;
   };
 
@@ -248,22 +351,32 @@
     if (this.action === 'general') return '';
     var idx = this.ctx.index && this.ctx.index();
     var scene = this.ctx.scene && this.ctx.scene();
-    if (!idx) return '';
+    // THE ROOM AND THE CONVERSATION ARE INDEPENDENT FACTS. An early `if (!idx) return ''` meant a
+    // lesson whose index had not arrived - or whose bundle predates the index entirely - sent NOTHING,
+    // transcript included. Measured: the grounding came back empty with a perfectly good transcript
+    // sitting in memory. Each source is added if it is there; only having none of them is empty.
     var parts = [];
     if (this.action === 'frame') {
       var t = this.ctx.time ? this.ctx.time() : 0;
       var cam = this.ctx.cameraAt ? this.ctx.cameraAt(t) : null;
       parts.push('At ' + t.toFixed(2) + ' seconds into the lesson:');
-      if (cam) {
+      if (idx && cam) {
         parts.push(D.shotLine(idx, cam, (scene && scene.camera && scene.camera.fov) || 38.0));
         if (scene) parts.push(D.actorsLine(scene, idx, cam));
       }
-      parts.push(D.worldProse(idx));
+      if (idx) parts.push(D.worldProse(idx));
     } else {
-      parts.push(D.worldProse(idx));
-      if (this.ctx.scriptText) {
-        var sc = this.ctx.scriptText();
-        if (sc) parts.push('\n\nThe lesson\'s script:\n' + sc);
+      if (idx) parts.push(D.worldProse(idx));
+      // WHO SAYS WHAT, IN ORDER - the thing that makes "reconstruct the conversation" answerable. It
+      // is built from the lesson's own scene, so it no longer depends on the Script pane having been
+      // opened; that dependency is exactly how an empty script came to be sent with nothing saying so.
+      if (this.ctx.rosterText) {
+        var ros = this.ctx.rosterText();
+        if (ros) parts.push(ros);
+      }
+      if (this.ctx.transcript) {
+        var tr = this.ctx.transcript();
+        if (tr) parts.push('\n\n' + tr);
       }
     }
     return parts.filter(Boolean).join(' ');
@@ -320,10 +433,18 @@
     if (ground) this.addGroundingToggle(bubble, ground);
     var body = el('div', 'body');
     bubble.appendChild(body);
+    var exp = iconBtn('⤢', 'Open this answer in a larger window, with a copy button');
+    exp.className = 'ibtn expand';
+    exp.onclick = function () { self.openModal(body.textContent, exp); };
+    bubble.appendChild(exp);
 
     this.agent.ask({
       prompt: prompt, system: this.system(),
-      onToken: function (tk) { body.textContent += tk; self.log.scrollTop = self.log.scrollHeight; }
+      onToken: function (tk) {
+        var wasAtBottom = self.atBottom();
+        body.textContent += tk;
+        self.follow(wasAtBottom);       // resumes on its own once the reader returns to the bottom
+      }
     }).then(function (r) {
       self.busy = false;
       self.sendBtn.disabled = false;
@@ -337,11 +458,95 @@
     });
   };
 
+  // ---------------------------------------------------------------- the log follows, it does not yank
+  // STICK TO THE BOTTOM ONLY IF ALREADY THERE. A log that scrolls itself down while someone is reading
+  // an older answer is fighting them, and the reader loses every time because the model keeps writing.
+  var STICK_PX = 40;                     // how close to the bottom still counts as "at the bottom"
+
+  AskPane.prototype.atBottom = function () {
+    var l = this.log;
+    return (l.scrollHeight - l.scrollTop - l.clientHeight) <= STICK_PX;
+  };
+
+  AskPane.prototype.follow = function (wasAtBottom) {
+    if (wasAtBottom) this.log.scrollTop = this.log.scrollHeight;
+  };
+
+  // ---------------------------------------------------------------- expand into a modal
+  AskPane.prototype.openModal = function (text, opener) {
+    var self = this;
+    var back = el('div', 'modalback');
+    var box = el('div', 'modal');
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', 'The full answer');
+    box.appendChild(el('h4', null, 'Answer'));
+    var body = el('div', 'mbody', text);
+    box.appendChild(body);
+    var foot = el('div', 'mfoot');
+    var copy = el('button', 'ibtn', 'Copy');
+    copy.title = 'Copy this answer to the clipboard';
+    copy.onclick = function () {
+      var done = function () {
+        copy.textContent = 'Copied';
+        setTimeout(function () { copy.textContent = 'Copy'; }, 1400);
+      };
+      try {
+        navigator.clipboard.writeText(text).then(done, function () { self.copyFallback(text, done); });
+      } catch (e) { self.copyFallback(text, done); }
+    };
+    var close = el('button', 'ibtn', 'Close');
+    close.title = 'Close (Escape)';
+    foot.appendChild(copy);
+    foot.appendChild(close);
+    box.appendChild(foot);
+    back.appendChild(box);
+
+    function shut() {
+      document.removeEventListener('keydown', onKey, true);
+      if (back.parentNode) back.parentNode.removeChild(back);
+      // The keyboard must not be stranded: focus goes back to the control that opened this.
+      if (opener && opener.focus) opener.focus();
+    }
+    function onKey(e) {
+      if (e.key === 'Escape') { shut(); e.preventDefault(); return; }
+      if (e.key !== 'Tab') return;
+      // Tab stays inside. A modal that lets focus wander behind it is a defect even when it looks right.
+      var f = box.querySelectorAll('button, [href], textarea, select, [tabindex]:not([tabindex="-1"])');
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { last.focus(); e.preventDefault(); }
+      else if (!e.shiftKey && document.activeElement === last) { first.focus(); e.preventDefault(); }
+    }
+    close.onclick = shut;
+    back.onclick = function (e) { if (e.target === back) shut(); };
+    document.addEventListener('keydown', onKey, true);
+    document.body.appendChild(back);
+    copy.focus();
+    this._modal = {back: back, text: text, close: shut};
+    return back;
+  };
+
+  AskPane.prototype.copyFallback = function (text, done) {
+    // navigator.clipboard needs a secure context; a plain http:// page is not one.
+    try {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;left:-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      done();
+    } catch (e) { /* nothing more we can offer; the text is on screen to select */ }
+  };
+
   AskPane.prototype.addTurn = function (who, text) {
+    var wasAtBottom = this.atBottom();
     var t = el('div', 'turn ' + who);
     if (text) t.appendChild(el('div', 'body', text));
     this.log.appendChild(t);
-    this.log.scrollTop = this.log.scrollHeight;
+    this.follow(wasAtBottom);
     return t;
   };
 

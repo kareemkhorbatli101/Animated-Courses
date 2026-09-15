@@ -1541,13 +1541,13 @@
   //
   // The index travels inside the bundle (scene.set.objects), so it is fetched from the lesson's own
   // folder exactly like scene.json - no second source of truth and nothing to keep in step by hand.
-  var askPane = null, askIndex = null, askIndexFor = null;
+  var askPane = null, askIndex = null, askScene = null, askIndexFor = null;
 
   function askLoadIndex() {
     if (!current) return;
     var key = current.courseId + '/' + current.video.id;
     if (askIndexFor === key) return;
-    askIndexFor = key; askIndex = null;
+    askIndexFor = key; askIndex = null; askScene = null;
     // THE DECLARED PATH IS NOT THE URL. scene.set.objects says 'assets/<set>.objects.json', which is
     // what the BUNDLE contains; the published site serves every file at its content address and maps
     // the two in manifest.json. Fetching the declared path directly works perfectly from a bundle
@@ -1560,6 +1560,10 @@
     ]).then(function (both) {
       if (askIndexFor !== key) return null;
       var man = both[0], sc = both[1];
+      // THE SCENE IS KEPT, not just mined for the index. The transcript is built from it here, so
+      // 'Ask about the video' no longer depends on the SCRIPT PANE having been opened - which is how
+      // it came to be sending an empty script to anyone who had not opened that pane first.
+      askScene = sc;
       var rel = sc && sc.set && sc.set.objects;
       // A lesson whose bundle predates the index simply has none. Say so; do not invent one.
       if (!rel) return null;
@@ -1584,7 +1588,17 @@
       // never a copy, and never the viewer's own overridden view, because a question about "this shot"
       // is a question about the lesson, not about where this particular viewer has dragged the camera.
       cameraAt: function () { return authoredCam(); },
-      scriptText: function () { try { return scriptText(); } catch (e) { return ''; } }
+      // Built from the lesson's OWN scene, never from another pane's state.
+      transcript: function () {
+        try {
+          return (askScene && window.Transcript) ? window.Transcript.transcriptText(askScene) : '';
+        } catch (e) { return ''; }
+      },
+      rosterText: function () {
+        try {
+          return (askScene && window.Transcript) ? window.Transcript.rosterText(askScene) : '';
+        } catch (e) { return ''; }
+      }
     };
   }
 

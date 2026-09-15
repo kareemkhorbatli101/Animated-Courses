@@ -148,6 +148,34 @@
 
   // Camera-dependent statements appear ONLY when a camera is given, and stay in their own sentences, so
   // text produced without one can never carry a claim that depends on one.
+  // HOW MANY OF EACH KIND. All three browser models answered "15" to "how many cars?", reading it off
+  // "holds 15 named objects" - the only number in the paragraph. The count they needed was never stated,
+  // so the fault was the grounding's. A small model cannot infer a count by scanning fifteen sentences
+  // for a shared noun; it can read one that says it.
+  function countsLine(index) {
+    var order = [], counts = {};
+    index.objects.slice().sort(function (a, b) {
+      return a.name < b.name ? -1 : (a.name > b.name ? 1 : 0);
+    }).forEach(function (o) {
+      var parts = String(o.name).split('_');
+      var base = (parts.length > 1 && /^\d+$/.test(parts[parts.length - 1]))
+        ? parts.slice(0, -1).join('_') : o.name;
+      if (!(base in counts)) { order.push(base); counts[base] = 0; }
+      counts[base]++;
+    });
+    var many = [], once = [];
+    order.forEach(function (b) {
+      if (counts[b] > 1) many.push(counts[b] + ' ' + label(b) + 's');
+      else once.push(label(b));
+    });
+    if (many.length && once.length) {
+      return 'The room contains ' + many.join(', ') + ', and one each of ' + join(once) + '.';
+    }
+    if (many.length) return 'The room contains ' + join(many) + '.';
+    if (once.length) return 'The room contains one each of ' + join(once) + '.';
+    return '';
+  }
+
   function worldProse(index, scene, cam, fov) {
     var objs = index.objects.slice().sort(function (a, b) {
       return a.name < b.name ? -1 : (a.name > b.name ? 1 : 0);
@@ -156,7 +184,7 @@
     var xs = ex.x || [0, 0], zs = ex.z || [0, 0];
     var head = 'The ' + label(index.set) + ' is about ' + m(xs[1] - xs[0]) + ' across and '
                + m(zs[1] - zs[0]) + ' deep, and holds ' + objs.length + ' named objects.';
-    var parts = [head].concat(objs.map(objectLine));
+    var parts = [head, countsLine(index)].concat(objs.map(objectLine));
     if (scene && cam) parts.push(actorsLine(scene, index, cam));
     if (cam && fov) parts.push(shotLine(index, cam, fov));
     return parts.filter(function (p) { return p; }).join(' ');
@@ -165,6 +193,7 @@
   root.Describe = {
     EDGE: EDGE, CLASS_NOUN: CLASS_NOUN,
     m: m, join: join, article: article, label: label, cap: cap, noun: noun, where: where,
+    countsLine: countsLine,
     objectLine: objectLine, relationLine: relationLine, inShot: inShot, shotLine: shotLine,
     actorsLine: actorsLine, worldProse: worldProse
   };

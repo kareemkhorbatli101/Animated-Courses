@@ -197,7 +197,14 @@
       // against 4.7 s, and a far shorter first load on a 6 GB card), so it is the fallback rather than
       // the first choice. Anything else installed is used in preference to nothing.
       if (!self.model) {
-        var order = ['qwen2.5:7b-instruct', 'qwen2.5:7b', 'llama3.2:3b'];
+        // SPEED WINS THE DEFAULT, and it was chosen the wrong way round first. qwen2.5:7b answers
+        // better in Arabic, so it led - but it is 4.7 GB going into a 6 GB card and its first load
+        // takes about 110 seconds, during which a newly opened pane sits there saying nothing useful
+        // and looks broken. Measured, that is exactly how it looked. Both models score 8/8 in English
+        // on questions whose answers are true by construction, and the English line is the
+        // authoritative one anyway (RESIDUALS K.2), so the fast model leads and qwen is one click
+        // away for anyone who wants the better Arabic.
+        var order = ['llama3.2:3b', 'llama3.2', 'qwen2.5:7b-instruct', 'qwen2.5:7b'];
         for (var i = 0; i < order.length && !self.model; i++) {
           if (ms.some(function (m) { return m.name === order[i]; })) self.model = order[i];
         }
@@ -228,7 +235,9 @@
   Agent.prototype.connect = function () {
     var self = this;
     if (!this.model) return Promise.resolve(this.snapshot());
-    this._set('busy', 'contacting ' + this.model);
+    // Say that the FIRST use is slow. A silent wait of a minute is indistinguishable from a hang, and
+    // that is the complaint this whole path produced.
+    this._set('busy', 'starting ' + this.model + ' - the first answer can take a minute');
     return this.provider.ask({ model: this.model, prompt: 'Reply with the single word: ready.',
                                maxTokens: 8, temperature: 0 })
       .then(function (r) {
@@ -263,11 +272,21 @@
 
   Agent.prototype.stop = function () { if (this._inflight && this._inflight.cancel) this._inflight.cancel(); };
 
+  // TWO PROVIDERS, ONE SEAM. The pane speaks probe/models/select/ask/stop and never learns which one it
+  // is talking to - which is the whole point of the seam and why adding the browser model was not a
+  // rewrite. 'ollama' is faster and bigger but localhost-only (RESIDUALS K.1); 'webllm' is weaker but
+  // works from the published URL, because a model inside the page has no server to be blocked from.
   root.Agent = {
     STATES: STATES,
+    PROVIDERS: ['ollama', 'webllm'],
     create: function (kind, opts) {
-      if (kind && kind !== 'ollama') throw new Error('Unknown provider: ' + kind);
-      return new Agent(new OllamaProvider(opts));
+      kind = kind || 'ollama';
+      if (kind === 'ollama') return new Agent(new OllamaProvider(opts));
+      if (kind === 'webllm') {
+        if (!root.WebLLMProvider) throw new Error('player/webllm_provider.js is not loaded');
+        return new Agent(new root.WebLLMProvider(opts));
+      }
+      throw new Error('Unknown provider: ' + kind);
     },
     _Ollama: OllamaProvider, _Agent: Agent
   };
