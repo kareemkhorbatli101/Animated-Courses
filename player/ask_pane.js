@@ -205,21 +205,36 @@
       : s.state === 'busy' ? (s.reason || 'Working…')
       : s.state === 'error' ? ('Could not use this model: ' + s.reason)
       : s.state === 'listed' ? 'Choose a model to connect'
-      : 'No model running on this computer';
+      : (s.remote ? 'The AI needs the page to be opened from your own computer'
+                  : 'No model running on this computer');
     this.stateLine.textContent = msg;
 
     var needSetup = (s.state === 'absent');
     this.setupBox.style.display = needSetup ? '' : 'none';
     if (needSetup && !this.setupBox.childElementCount) {
-      this.setupBox.appendChild(el('p', null, s.setup.why));
-      var ol = el('ol');
-      s.setup.steps.forEach(function (t) { ol.appendChild(el('li', null, t)); });
-      this.setupBox.appendChild(ol);
-      var a = el('a', null, 'Get Ollama (free, ollama.com)');
-      a.href = s.setup.site;
-      a.target = '_blank';
-      a.rel = 'noopener';
-      this.setupBox.appendChild(a);
+      if (s.remote) {
+        // THE HONEST MESSAGE. This page was served from the internet, and the browser forbids it from
+        // reaching a server on the viewer's own machine. Telling them to install Ollama would be a lie
+        // by omission: they can install it and it still will not work from this address.
+        this.setupBox.appendChild(el('p', null,
+          'This page was opened from the internet, and your browser does not allow a web page served '
+          + 'this way to talk to a program running on your own computer. That is a browser rule, not a '
+          + 'setting you have got wrong.'));
+        this.setupBox.appendChild(el('p', null,
+          'The AI works when the same page is opened from a copy on your machine - for example through '
+          + 'a local web server, or the Download button below. Everything else on this page works '
+          + 'normally here.'));
+      } else {
+        this.setupBox.appendChild(el('p', null, s.setup.why));
+        var ol = el('ol');
+        s.setup.steps.forEach(function (t) { ol.appendChild(el('li', null, t)); });
+        this.setupBox.appendChild(ol);
+        var a = el('a', null, 'Get Ollama (free, ollama.com)');
+        a.href = s.setup.site;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        this.setupBox.appendChild(a);
+      }
     }
     this.sendBtn.disabled = !s.connected || this.busy;
     this.stopBtn.disabled = !this.busy;

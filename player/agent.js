@@ -41,9 +41,26 @@
       why: 'The AI answers are produced by a model running on your own computer. Nothing is sent to us '
          + 'or to anyone else, and this page never downloads a model on your behalf.',
       steps: ['Install Ollama from ollama.com/download',
-              'Open a terminal and run:  ollama pull qwen2.5:7b-instruct',
+              'Open a terminal and run:  ollama pull llama3.2:3b',
               'Reload this page']
     };
+    // A PAGE SERVED FROM THE INTERNET CANNOT REACH YOUR OWN COMPUTER, and the reason is the browser,
+    // not this project. Chrome's Private Network Access rules require the local server to answer with
+    // 'Access-Control-Allow-Private-Network: true' before a public origin may talk to localhost.
+    // Ollama does not send that header and we cannot make it - it is their server, on the user's
+    // machine. Measured: the preflight returns 204 with 'Access-Control-Allow-Origin: *' and no
+    // private-network header, and the fetch fails anyway.
+    //
+    // This must be SAID, not swallowed into a generic "no model found". Someone who has installed
+    // Ollama and opened the published link would otherwise conclude the feature is broken, when in
+    // fact it works perfectly from a local copy of the same page.
+    this.remote = !this._isLocal();
+  }
+
+  OllamaProvider.prototype._isLocal = function () {
+    var h = (root.location && root.location.hostname) || '';
+    var p = (root.location && root.location.protocol) || '';
+    return p === 'file:' || h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '';
   }
 
   OllamaProvider.prototype._json = function (path, init, timeoutMs) {
@@ -154,7 +171,10 @@
       // The ONLY thing the indicator may use. It is a function of the SELECTED model, so switching
       // models cannot leave a stale green behind.
       connected: this.state === 'ready' && !!this.model && this._readyModel === this.model,
-      setup: this.provider.setup
+      setup: this.provider.setup,
+      // true when the page came from the internet, so a failure to reach localhost is EXPECTED and
+      // must be explained as such rather than blamed on the person's setup.
+      remote: !!this.provider.remote
     };
   };
 
