@@ -37,12 +37,12 @@
    "duration": {
     "en": 46.96
    },
-   "bytes": 10730222,
-   "meshopt": true,
-   "meshoptBytes": 1344374,
-   "wireBytes": 4624897,
-   "meshoptWireBytes": 812502,
-   "files": 16,
+   "bytes": 10737054,
+   "meshopt": false,
+   "meshoptBytes": 10737054,
+   "wireBytes": 4626113,
+   "meshoptWireBytes": 4626113,
+   "files": 17,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",

@@ -1,75 +1,45 @@
 {
  "schema": "bundle/2",
- "engine": "27.26.0",
- "fingerprint": "5c2e69499aaf5872",
+ "engine": "27.37.0",
+ "fingerprint": "9a36aed3478015d6",
  "title": "EFD Unit 1 - Introduction to Furniture and Design",
  "duration": 49.38,
  "set": "furniture_office",
  "files": {
   "assets/furniture_office_set_merged.glb": {
-   "sha": "5c8d15ef85b77931",
-   "bytes": 173720,
-   "address": "lib/5c8d15ef85b77931.glb",
+   "sha": "31775d571dffc5bb",
+   "bytes": 215604,
+   "address": "lib/31775d571dffc5bb.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 27101,
-   "meshopt": {
-    "address": "lib/6016b34a063ebad1.glb",
-    "sha": "6016b34a063ebad1",
-    "bytes": 42088,
-    "wire": 10902
-   }
+   "wire": 26538
   },
   "assets/furniture_office_set_noceil_merged.glb": {
-   "sha": "9d2ef7af4476b76d",
-   "bytes": 170004,
-   "address": "lib/9d2ef7af4476b76d.glb",
+   "sha": "39e6700c0267ab8c",
+   "bytes": 210448,
+   "address": "lib/39e6700c0267ab8c.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 26819,
-   "meshopt": {
-    "address": "lib/a7be8233cf2e8873.glb",
-    "sha": "a7be8233cf2e8873",
-    "bytes": 40696,
-    "wire": 10693
-   }
+   "wire": 26106
   },
-  "assets/nour_711c83dbce.glb": {
+  "assets/nour_08e35f47b2.glb": {
    "sha": "c7612b96c9b0941f",
    "bytes": 4625608,
    "address": "lib/c7612b96c9b0941f.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2104993,
-   "meshopt": {
-    "address": "lib/8436d5df4f7f342a.glb",
-    "sha": "8436d5df4f7f342a",
-    "bytes": 440332,
-    "wire": 243107
-   }
+   "wire": 2104993
   },
-  "assets/sami_fe66686a4e.glb": {
+  "assets/sami_cd9cc4e3b9.glb": {
    "sha": "f2d96d7869e77f3d",
    "bytes": 4622284,
    "address": "lib/f2d96d7869e77f3d.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2096745,
-   "meshopt": {
-    "address": "lib/67d3269817cebdc9.glb",
-    "sha": "67d3269817cebdc9",
-    "bytes": 435608,
-    "wire": 239230
-   }
+   "wire": 2096745
   },
-  "assets/khaled_04d2b79423.glb": {
+  "assets/khaled_3e7bc5b077.glb": {
    "sha": "5ca94452a6afcbbf",
    "bytes": 4644112,
    "address": "lib/5ca94452a6afcbbf.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2105443,
-   "meshopt": {
-    "address": "lib/4e1ad260a1778e23.glb",
-    "sha": "4e1ad260a1778e23",
-    "bytes": 439412,
-    "wire": 241806
-   }
+   "wire": 2105443
   },
   "lines/3bfc971c314885e2.mp3": {
    "sha": "ff89bb55cb0e4be0",
@@ -134,19 +104,26 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 18288
   },
-  "scene.json": {
-   "sha": "035d2600aab87cfa",
-   "bytes": 33403,
-   "address": "lib/035d2600aab87cfa.json",
+  "assets/furniture_office.objects.json": {
+   "sha": "0182b46e1d02be25",
+   "bytes": 5948,
+   "address": "lib/0182b46e1d02be25.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 4758
+   "wire": 1039
+  },
+  "scene.json": {
+   "sha": "4fc46e894a46d1cc",
+   "bytes": 33447,
+   "address": "lib/4fc46e894a46d1cc.json",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 4769
   },
   "timeline.json": {
-   "sha": "f8f4cce3ae608dd2",
-   "bytes": 2329,
-   "address": "lib/f8f4cce3ae608dd2.json",
+   "sha": "3b84e0e1f7542de0",
+   "bytes": 2319,
+   "address": "lib/3b84e0e1f7542de0.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 1071
+   "wire": 1070
   },
   "assets/badge.png": {
    "sha": "da40c81cc68ed91e",
@@ -167,36 +144,31 @@
   {
    "id": "furniture_office_set_merged",
    "encodings": {
-    "exact": "5c8d15ef85b77931",
-    "meshopt": "6016b34a063ebad1"
+    "exact": "31775d571dffc5bb"
    }
   },
   {
    "id": "furniture_office_set_noceil_merged",
    "encodings": {
-    "exact": "9d2ef7af4476b76d",
-    "meshopt": "a7be8233cf2e8873"
+    "exact": "39e6700c0267ab8c"
    }
   },
   {
    "id": "khaled",
    "encodings": {
-    "exact": "5ca94452a6afcbbf",
-    "meshopt": "4e1ad260a1778e23"
+    "exact": "5ca94452a6afcbbf"
    }
   },
   {
    "id": "nour",
    "encodings": {
-    "exact": "c7612b96c9b0941f",
-    "meshopt": "8436d5df4f7f342a"
+    "exact": "c7612b96c9b0941f"
    }
   },
   {
    "id": "sami",
    "encodings": {
-    "exact": "f2d96d7869e77f3d",
-    "meshopt": "67d3269817cebdc9"
+    "exact": "f2d96d7869e77f3d"
    }
   }
  ]

@@ -37,12 +37,12 @@
    "duration": {
     "en": 45.75
    },
-   "bytes": 15290473,
-   "meshopt": true,
-   "meshoptBytes": 1726333,
-   "wireBytes": 6675739,
-   "meshoptWireBytes": 1001177,
-   "files": 16,
+   "bytes": 15297305,
+   "meshopt": false,
+   "meshoptBytes": 15297305,
+   "wireBytes": 6676958,
+   "meshoptWireBytes": 6676958,
+   "files": 17,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -74,12 +74,12 @@
    "duration": {
     "en": 42.31
    },
-   "bytes": 10660562,
-   "meshopt": true,
-   "meshoptBytes": 1274714,
-   "wireBytes": 4560513,
-   "meshoptWireBytes": 748118,
-   "files": 14,
+   "bytes": 10667394,
+   "meshopt": false,
+   "meshoptBytes": 10667394,
+   "wireBytes": 4561729,
+   "meshoptWireBytes": 4561729,
+   "files": 15,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -111,12 +111,12 @@
    "duration": {
     "en": 51.55
    },
-   "bytes": 10691520,
-   "meshopt": true,
-   "meshoptBytes": 1332448,
-   "wireBytes": 4596621,
-   "meshoptWireBytes": 800504,
-   "files": 14,
+   "bytes": 10698352,
+   "meshopt": false,
+   "meshoptBytes": 10698352,
+   "wireBytes": 4597839,
+   "meshoptWireBytes": 4597839,
+   "files": 15,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",

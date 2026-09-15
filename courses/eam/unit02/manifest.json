@@ -1,7 +1,7 @@
 {
  "schema": "bundle/2",
  "engine": "27.37.0",
- "fingerprint": "1a302617ec9cb3ba",
+ "fingerprint": "9a36aed3478015d6",
  "title": "EAM Unit 2 - Under the Bonnet — Systems and Fluids",
  "duration": 42.31,
  "set": "workshop",
@@ -11,52 +11,28 @@
    "bytes": 568348,
    "address": "lib/5351bbbe3154f369.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 62192,
-   "meshopt": {
-    "address": "lib/8b7a39c58b1695ce.glb",
-    "sha": "8b7a39c58b1695ce",
-    "bytes": 73324,
-    "wire": 19290
-   }
+   "wire": 62192
   },
   "assets/workshop_set_noceil_merged.glb": {
    "sha": "94c35e8eeb931ead",
    "bytes": 563340,
    "address": "lib/94c35e8eeb931ead.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 61801,
-   "meshopt": {
-    "address": "lib/8ed88bd3ec8b9369.glb",
-    "sha": "8ed88bd3ec8b9369",
-    "bytes": 71924,
-    "wire": 19003
-   }
+   "wire": 61801
   },
   "assets/maher_a85314610c.glb": {
    "sha": "193306ed32007426",
    "bytes": 4645824,
    "address": "lib/193306ed32007426.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2122476,
-   "meshopt": {
-    "address": "lib/4c464e6a15d75854.glb",
-    "sha": "4c464e6a15d75854",
-    "bytes": 440756,
-    "wire": 244031
-   }
+   "wire": 2122476
   },
   "assets/nabil_44f002d761.glb": {
    "sha": "de4c7518b00a457e",
    "bytes": 4629672,
    "address": "lib/de4c7518b00a457e.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2086980,
-   "meshopt": {
-    "address": "lib/b616a7c103c1204d.glb",
-    "sha": "b616a7c103c1204d",
-    "bytes": 435332,
-    "wire": 238730
-   }
+   "wire": 2086980
   },
   "lines/2570ad177193ce70.mp3": {
    "sha": "94fa4775c88ba4bf",
@@ -107,12 +83,19 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 20880
   },
-  "scene.json": {
-   "sha": "e868b397fb26ba4d",
-   "bytes": 28991,
-   "address": "lib/e868b397fb26ba4d.json",
+  "assets/workshop.objects.json": {
+   "sha": "206533f0599ad504",
+   "bytes": 6786,
+   "address": "lib/206533f0599ad504.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 4364
+   "wire": 1202
+  },
+  "scene.json": {
+   "sha": "03ed20b887cb043c",
+   "bytes": 29037,
+   "address": "lib/03ed20b887cb043c.json",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 4378
   },
   "timeline.json": {
    "sha": "6136b309f377e473",
@@ -140,29 +123,25 @@
   {
    "id": "maher",
    "encodings": {
-    "exact": "193306ed32007426",
-    "meshopt": "4c464e6a15d75854"
+    "exact": "193306ed32007426"
    }
   },
   {
    "id": "nabil",
    "encodings": {
-    "exact": "de4c7518b00a457e",
-    "meshopt": "b616a7c103c1204d"
+    "exact": "de4c7518b00a457e"
    }
   },
   {
    "id": "workshop_set_merged",
    "encodings": {
-    "exact": "5351bbbe3154f369",
-    "meshopt": "8b7a39c58b1695ce"
+    "exact": "5351bbbe3154f369"
    }
   },
   {
    "id": "workshop_set_noceil_merged",
    "encodings": {
-    "exact": "94c35e8eeb931ead",
-    "meshopt": "8ed88bd3ec8b9369"
+    "exact": "94c35e8eeb931ead"
    }
   }
  ]

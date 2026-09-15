@@ -899,6 +899,7 @@
       // The viewer's camera, if this person asked for one. A stored view for this lesson, this
       // room or this moment is applied here, in that precedence.
       try { camRestore(); camAttach(); camRender(); camAvail(); } catch (e) {}
+      try { askApply(); } catch (e) {}
       seek(0);
       return part;
     });
@@ -1529,6 +1530,84 @@
       floatHost.hidden = true; floatHost.classList.remove('on'); floatHost.innerHTML = '';
     }
     document.documentElement.style.setProperty('--camh', (S.cam.split || 300) + 'px');
+  }
+
+
+  // ================================================================= the Ask pane (v27.38)
+  //
+  // The pane itself lives in player/ask_pane.js. This is only the WIRING: the checkbox, and the context
+  // object that hands it MEASURED facts. Everything the model is ever told passes through here, so there
+  // is exactly one place to look to see what a question can possibly carry.
+  //
+  // The index travels inside the bundle (scene.set.objects), so it is fetched from the lesson's own
+  // folder exactly like scene.json - no second source of truth and nothing to keep in step by hand.
+  var askPane = null, askIndex = null, askIndexFor = null;
+
+  function askLoadIndex() {
+    if (!current) return;
+    var key = current.courseId + '/' + current.video.id;
+    if (askIndexFor === key) return;
+    askIndexFor = key; askIndex = null;
+    // THE DECLARED PATH IS NOT THE URL. scene.set.objects says 'assets/<set>.objects.json', which is
+    // what the BUNDLE contains; the published site serves every file at its content address and maps
+    // the two in manifest.json. Fetching the declared path directly works perfectly from a bundle
+    // folder on Live Server and is a 404 on the live site - which is precisely the defect class the
+    // surface-honesty work exists to catch, so it is resolved here the way every other asset is.
+    var base = current.video.dir + '/';
+    Promise.all([
+      fetch(base + 'manifest.json', {cache: 'no-store'}).then(function (r) { return r.json(); }),
+      fetch(base + 'scene.json').then(function (r) { return r.json(); })
+    ]).then(function (both) {
+      if (askIndexFor !== key) return null;
+      var man = both[0], sc = both[1];
+      var rel = sc && sc.set && sc.set.objects;
+      // A lesson whose bundle predates the index simply has none. Say so; do not invent one.
+      if (!rel) return null;
+      var r = (man.files || {})[rel];
+      // A content address is relative to the SITE ROOT ('lib/<sha>.json'), which is why the page's own
+      // Fetcher is constructed with base:''. Only the un-published fallback - a bundle folder served
+      // directly - is relative to the lesson.
+      var url = (r && r.address) ? r.address : (base + rel);
+      return fetch(url).then(function (x) {
+        if (!x.ok) throw new Error('index -> HTTP ' + x.status);
+        return x.json();
+      }).then(function (ix) { if (askIndexFor === key) askIndex = ix; });
+    }).catch(function () { if (askIndexFor === key) askIndex = null; });
+  }
+
+  function askContext() {
+    return {
+      scene: function () { return window.__scene || null; },
+      index: function () { return askIndex; },
+      time: function () { return lastT; },
+      // The camera the DIRECTOR chose at this instant, from the same interpreter the renderer uses -
+      // never a copy, and never the viewer's own overridden view, because a question about "this shot"
+      // is a question about the lesson, not about where this particular viewer has dragged the camera.
+      cameraAt: function () { return authoredCam(); },
+      scriptText: function () { try { return scriptText(); } catch (e) { return ''; } }
+    };
+  }
+
+  function askApply() {
+    var app = $('app');
+    app.classList.toggle('hasask', !!S.ask);
+    if (S.ask && !askPane && window.AskPane) {
+      askPane = new window.AskPane($('ask'), askContext());
+      // The REAL instance, not a test double and not a second one built for the gate. A harness that
+      // constructs its own object proves only that the object works; it never exercises the path the
+      // person actually takes, which is how a capability can vanish while every check still passes.
+      window.__askPaneRef = askPane;
+    }
+    if (S.ask) askLoadIndex();
+  }
+
+  var askon = $('askon');
+  if (askon) {
+    askon.checked = !!S.ask;
+    askon.onchange = function () {
+      S.ask = askon.checked;
+      save(); askApply();
+    };
   }
 
   // ---- the checkbox, the splitter -----------------------------------------------------------------

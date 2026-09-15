@@ -1,7 +1,7 @@
 {
  "schema": "scene/2",
  "engine": "27.37.0",
- "fingerprint": "1a302617ec9cb3ba",
+ "fingerprint": "9a36aed3478015d6",
  "title": "EAM Unit 2 - Under the Bonnet — Systems and Fluids",
  "duration": 42.31,
  "size": [
@@ -11,7 +11,8 @@
  "set": {
   "name": "workshop",
   "glb": "assets/workshop_set_merged.glb",
-  "noceil_glb": "assets/workshop_set_noceil_merged.glb"
+  "noceil_glb": "assets/workshop_set_noceil_merged.glb",
+  "objects": "assets/workshop.objects.json"
  },
  "lighting": {
   "shadows": true,

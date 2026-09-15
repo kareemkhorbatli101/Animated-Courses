@@ -1,7 +1,7 @@
 {
  "schema": "bundle/2",
  "engine": "27.37.0",
- "fingerprint": "1a302617ec9cb3ba",
+ "fingerprint": "9a36aed3478015d6",
  "title": "EAM Unit 3 - Tools and Safe Working in the Bay",
  "duration": 51.55,
  "set": "workshop",
@@ -11,52 +11,28 @@
    "bytes": 568348,
    "address": "lib/5351bbbe3154f369.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 62192,
-   "meshopt": {
-    "address": "lib/8b7a39c58b1695ce.glb",
-    "sha": "8b7a39c58b1695ce",
-    "bytes": 73324,
-    "wire": 19290
-   }
+   "wire": 62192
   },
   "assets/workshop_set_noceil_merged.glb": {
    "sha": "94c35e8eeb931ead",
    "bytes": 563340,
    "address": "lib/94c35e8eeb931ead.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 61801,
-   "meshopt": {
-    "address": "lib/8ed88bd3ec8b9369.glb",
-    "sha": "8ed88bd3ec8b9369",
-    "bytes": 71924,
-    "wire": 19003
-   }
+   "wire": 61801
   },
   "assets/nabil_44f002d761.glb": {
    "sha": "de4c7518b00a457e",
    "bytes": 4629672,
    "address": "lib/de4c7518b00a457e.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2086980,
-   "meshopt": {
-    "address": "lib/b616a7c103c1204d.glb",
-    "sha": "b616a7c103c1204d",
-    "bytes": 435332,
-    "wire": 238730
-   }
+   "wire": 2086980
   },
   "assets/tarek_7364b8eaee.glb": {
    "sha": "0b729fc1e25fc0fb",
    "bytes": 4615556,
    "address": "lib/0b729fc1e25fc0fb.glb",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 2102484,
-   "meshopt": {
-    "address": "lib/970417547f153baa.glb",
-    "sha": "970417547f153baa",
-    "bytes": 437264,
-    "wire": 240317
-   }
+   "wire": 2102484
   },
   "lines/05a6d8d3fbb4952f.mp3": {
    "sha": "3cbe2b82b2500219",
@@ -107,12 +83,19 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "wire": 14256
   },
-  "scene.json": {
-   "sha": "9895f8d206e8f73e",
-   "bytes": 34524,
-   "address": "lib/9895f8d206e8f73e.json",
+  "assets/workshop.objects.json": {
+   "sha": "206533f0599ad504",
+   "bytes": 6786,
+   "address": "lib/206533f0599ad504.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 4886
+   "wire": 1202
+  },
+  "scene.json": {
+   "sha": "4474d9bc4c911f82",
+   "bytes": 34570,
+   "address": "lib/4474d9bc4c911f82.json",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "wire": 4902
   },
   "timeline.json": {
    "sha": "7216aed59be19d5a",
@@ -140,29 +123,25 @@
   {
    "id": "nabil",
    "encodings": {
-    "exact": "de4c7518b00a457e",
-    "meshopt": "b616a7c103c1204d"
+    "exact": "de4c7518b00a457e"
    }
   },
   {
    "id": "tarek",
    "encodings": {
-    "exact": "0b729fc1e25fc0fb",
-    "meshopt": "970417547f153baa"
+    "exact": "0b729fc1e25fc0fb"
    }
   },
   {
    "id": "workshop_set_merged",
    "encodings": {
-    "exact": "5351bbbe3154f369",
-    "meshopt": "8b7a39c58b1695ce"
+    "exact": "5351bbbe3154f369"
    }
   },
   {
    "id": "workshop_set_noceil_merged",
    "encodings": {
-    "exact": "94c35e8eeb931ead",
-    "meshopt": "8ed88bd3ec8b9369"
+    "exact": "94c35e8eeb931ead"
    }
   }
  ]

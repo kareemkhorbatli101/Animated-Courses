@@ -65,15 +65,15 @@
   "cards": [
    {
     "lemma": "goggles",
-    "at": "24.621",
-    "hold": "2.00",
+    "at": 24.621,
+    "hold": 2.0,
     "label": "goggles",
     "ar": "نَظّارات واقية"
    },
    {
     "lemma": "team",
-    "at": "37.944",
-    "hold": "2.00",
+    "at": 37.944,
+    "hold": 2.0,
     "label": "team",
     "ar": "فريق عمل",
     "emoji": "🤝"
