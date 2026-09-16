@@ -78,6 +78,16 @@
   function distance(a, b) { return len(sub(a, b)); }
   function near(a, b, limit) { return distance(a, b) <= (limit === undefined ? NEXT_TO : limit); }
 
+  // WHERE A POINT LANDS IN THE PICTURE. [x, y, depth, half] or null if it is behind the camera.
+  // x and y run -1..+1 to the frame's edges; `half` is the half-height of the frame in metres at that
+  // depth, which is what turns a real height into a fraction of the screen. Mirrors spatial.screen.
+  function screen(point, cam, fovDeg, aspect) {
+    var c = toCamera(point, cam);
+    if (c[2] <= 0.01) return null;
+    var half = Math.tan((fovDeg * Math.PI / 180.0) / 2.0) * c[2];
+    return [c[0] / (half * (aspect || 16.0 / 9.0)), c[1] / half, c[2], half];
+  }
+
   function relate(a, b, cam) {
     return {
       side: side(a, b, cam), depth: depth(a, b, cam), height: height(a, b),
@@ -118,6 +128,6 @@
   root.Spatial = {
     WORLD_UP: WORLD_UP, DEAD_BAND: DEAD_BAND, NEXT_TO: NEXT_TO, OPPOSITE: OPPOSITE,
     r: r, basis: basis, toCamera: toCamera, side: side, depth: depth, height: height,
-    distance: distance, near: near, relate: relate, inView: inView
+    distance: distance, near: near, relate: relate, inView: inView, screen: screen
   };
 })(typeof window !== 'undefined' ? window : globalThis);

@@ -181,6 +181,22 @@
     this.sayLangSel.onchange = function () { self.sayLang = self.sayLangSel.value; };
     row.appendChild(this.sayLangSel);
 
+    // SEND FULL DETAIL. Unticked, the frame prompt carries only what is in the picture and a count
+    // of what is not; ticked, it carries every object with its coordinates and the whole conversation.
+    // It is opt-in because small browser models degrade as the prompt grows, and small browser models
+    // are the ones that answered both of the questions that produced this control wrongly.
+    var dwrap = el('label', 'askdetail');
+    this.detailBox = el('input');
+    this.detailBox.type = 'checkbox';
+    dwrap.title = 'Ask about the current frame: also send every object in the room with its '
+                + 'coordinates, not only the ones in shot. A longer prompt - small models answer '
+                + 'shorter prompts better.';
+    dwrap.appendChild(this.detailBox);
+    this.detailLabel = el('span', null, 'full detail');
+    dwrap.appendChild(this.detailLabel);
+    this.detailWrap = dwrap;
+    row.appendChild(dwrap);
+
     this.sendBtn = iconBtn('➤', 'Send the question (Ctrl+Enter)', 'primary');
     this.sendBtn.onclick = function () { self.send(); };
     row.appendChild(this.sendBtn);
@@ -222,6 +238,20 @@
     ACTIONS.forEach(function (a) { self.actBtns[a.id].classList.toggle('on', a.id === id); });
     this.input.placeholder = id === 'frame' ? 'Ask about what is on screen right now…'
       : (id === 'general' ? 'Ask anything…' : 'Ask about this lesson…');
+    // THE DETAIL TOGGLE BELONGS TO THE FRAME. It adds the objects that are NOT in shot, which is a
+    // question only frame mode can be asked - "Ask about the video" already describes the whole room
+    // and carries the whole conversation. A control that is present and silently does nothing is
+    // worse than one that says which mode it is for, so it is disabled and says so.
+    if (this.detailWrap) {
+      var on = (id === 'frame');
+      this.detailBox.disabled = !on;
+      this.detailWrap.classList.toggle('off', !on);
+      this.detailWrap.title = on
+        ? ('Also send every object in the room with its coordinates, not only the ones in shot. '
+           + 'A longer prompt - small models answer shorter prompts better.')
+        : 'Only used by “Ask about the current frame”. This mode already sends the whole '
+          + 'room and the whole conversation.';
+    }
   };
 
   AskPane.prototype.syncSpeak = function () {
@@ -400,7 +430,10 @@
                        + 'Downloaded once and kept on this device.';
     }
     if (sel && sel.why && !s.connected) this.stateLine.textContent = sel.why;
-    this.sendBtn.disabled = !s.model || this.busy;
+    // SEND IS NOT GATED ON A MODEL ANY MORE. The router answers counts, positions and "can I see"
+    // from the index alone, so a page with no model loaded is still useful - and Send greyed out was
+    // previously the only thing the pane could say about that.
+    this.sendBtn.disabled = this.busy;
     this.stopBtn.disabled = !this.busy;
   };
 
@@ -417,30 +450,74 @@
     // transcript included. Measured: the grounding came back empty with a perfectly good transcript
     // sitting in memory. Each source is added if it is there; only having none of them is empty.
     var parts = [];
+    var detail = !!(this.detailBox && this.detailBox.checked);
     if (this.action === 'frame') {
       var t = this.ctx.time ? this.ctx.time() : 0;
       var cam = this.ctx.cameraAt ? this.ctx.cameraAt(t) : null;
-      parts.push('At ' + t.toFixed(2) + ' seconds into the lesson:');
+      var fov = (scene && scene.camera && scene.camera.fov) || 38.0;
+      parts.push(D.scopeLine(true));
+      // THE FRAME, SEPARATED FROM THE ROOM. This used to be a timestamp, one shot sentence and then
+      // the WHOLE ROOM appended unmarked - measured, the shot line was 5% of the prompt and the room
+      // 85%, with eleven of fifteen objects not in the picture described in the same confident voice.
+      // A model asked "can I see a car" answered no while a car filled the centre of the frame, which
+      // was a fair reading of what it was sent.
       if (idx && cam) {
-        parts.push(D.shotLine(idx, cam, (scene && scene.camera && scene.camera.fov) || 38.0));
-        if (scene) parts.push(D.actorsLine(scene, idx, cam));
+        parts.push(D.frameBlock(idx, scene, cam, fov, t, 16.0 / 9.0, detail));
+      } else if (idx) {
+        parts.push(D.worldProse(idx));
       }
-      if (idx) parts.push(D.worldProse(idx));
     } else {
+      // WHAT THESE FACTS COVER, said rather than left to be inferred. The first wrong answer was to
+      // a question about "the first frame" asked here, where there is no frame, no camera and no
+      // clock - and the model answered it instead of saying so.
+      parts.push(D.scopeLine(false));
       if (idx) parts.push(D.worldProse(idx));
       // WHO SAYS WHAT, IN ORDER - the thing that makes "reconstruct the conversation" answerable. It
-      // is built from the lesson's own scene, so it no longer depends on the Script pane having been
+      // is built from the lesson's OWN scene, so it no longer depends on the Script pane having been
       // opened; that dependency is exactly how an empty script came to be sent with nothing saying so.
       if (this.ctx.rosterText) {
         var ros = this.ctx.rosterText();
         if (ros) parts.push(ros);
       }
+      // THE TRANSCRIPT STAYS, ALWAYS. v27.42 briefly put it behind the detail toggle, because it is
+      // a third of this prompt and mentions "car" twice in eight turns - bulk competing with the room
+      // facts on a counting question. That reasoning is sound about SIZE and wrong about the PRODUCT:
+      // "Ask about the video" exists so a learner can ask about what was said and reconstruct the
+      // conversation, and a mode that answers "tick a box first" does not do that. gates/
+      // transcript_check.py encodes the requirement and caught the removal. Size is not a reason to
+      // withdraw a feature; if this prompt must shrink, it shrinks somewhere the learner did not ask
+      // for. See RESIDUALS R.1c.
       if (this.ctx.transcript) {
         var tr = this.ctx.transcript();
         if (tr) parts.push('\n\n' + tr);
       }
     }
     return parts.filter(Boolean).join(' ');
+  };
+
+  /* ---------------------------------------------------------------- the deterministic router
+   * ASK THE INDEX BEFORE ASKING THE MODEL. Both questions that produced this were lookups: a count
+   * over in_view() and a membership test on in_shot(). Answering them here is exact, instant and
+   * works with no model loaded at all - and a 0.5B model got both wrong.
+   * Returns a string, or null when the question is not one the index can settle.
+   */
+  AskPane.prototype.routed = function (q) {
+    if (this.action === 'general') return null;
+    if (!root.Answer) return null;
+    var idx = this.ctx.index && this.ctx.index();
+    var scene = this.ctx.scene && this.ctx.scene();
+    if (!idx) return null;
+    var t = this.ctx.time ? this.ctx.time() : 0;
+    var cam = (this.action === 'frame' && this.ctx.cameraAt) ? this.ctx.cameraAt(t) : null;
+    // World mode still gets the camera, because a question can ASK about the frame from either mode
+    // - "how many cars does the first frame have" was typed here - and Answer.scopeOf() decides.
+    if (!cam && this.ctx.cameraAt) cam = this.ctx.cameraAt(t);
+    var fov = (scene && scene.camera && scene.camera.fov) || 38.0;
+    try {
+      var pair = root.Answer.answer(q, idx, scene, cam, fov, t,
+                                    this.action === 'frame' ? 'frame' : 'room');
+      return pair && pair[0] ? pair[0] : null;
+    } catch (e) { return null; }
   };
 
   AskPane.prototype.system = function () {
@@ -484,6 +561,56 @@
     this.sendBtn.disabled = true;
     this.stopBtn.disabled = false;
     this.input.value = '';
+
+    // THE ROUTER FIRST. A question the index can settle is settled here, exactly, in under a
+    // millisecond, whether or not a model is loaded - and the model is never asked. The two questions
+    // this was built for were both of that kind, and both were answered wrongly by a model that had
+    // the right facts in front of it.
+    var direct = this.routed(q);
+    if (direct) {
+      this.addTurn('you', q);
+      var dbub = this.addTurn('ai', '');
+      // THE FACTS ARE STILL SHOWN. A routed answer has no prompt, because no model was asked - but it
+      // is not fact-free, and this pane's whole point is that the measurements behind an answer are
+      // one click away. Shipping the router without this quietly made the MOST trustworthy answers
+      // the only uninspectable ones, which is precisely backwards. Caught by ask_pane_check.
+      var dground = this.grounding();
+      this.lastGrounding = dground;
+      if (dground) this.addGroundingToggle(dbub, dground, true);
+      var dbody = el('div', 'body', direct);
+      dbub.appendChild(dbody);
+      // SAY WHERE THE ANSWER CAME FROM. An answer with no model behind it is a stronger claim, not a
+      // weaker one, and the person is entitled to know which kind they are reading.
+      var mark = el('div', 'measured', 'Measured from the lesson - answered without the model.');
+      dbub.appendChild(mark);
+      var dexp = iconBtn('⤢', 'Open this answer in a larger window, with a copy button');
+      dexp.className = 'ibtn expand';
+      dexp.onclick = function () { self.openModal(dbody.textContent, dexp); };
+      dbub.appendChild(dexp);
+      this.busy = false;
+      this.sendBtn.disabled = false;
+      this.stopBtn.disabled = true;
+      this.follow(true);
+      if (this.speakBack) this.say(direct);
+      return;
+    }
+
+    // NO MODEL CHOSEN. The agent's own snapshot is the authority - there is no ready() on the seam,
+    // and inventing one here would be a second answer to a question the agent already answers.
+    var snap = (this.agent && this.agent.snapshot) ? this.agent.snapshot() : null;
+    if (!snap || !snap.model) {
+      this.addTurn('you', q);
+      var nb = this.addTurn('ai', '');
+      nb.appendChild(el('div', 'body',
+        'That question needs the language model, and none is loaded yet. Questions about how many '
+        + 'things there are, where they are, what colour they are and who is on screen are answered '
+        + 'from the lesson itself and need no model - try one of those, or choose a model above.'));
+      this.busy = false;
+      this.sendBtn.disabled = false;
+      this.stopBtn.disabled = true;
+      this.follow(true);
+      return;
+    }
 
     var ground = this.grounding();
     this.lastGrounding = ground;
@@ -612,9 +739,14 @@
     return t;
   };
 
-  AskPane.prototype.addGroundingToggle = function (bubble, ground) {
-    var b = el('button', 'ghost', 'what the model was told');
-    b.title = 'Show the measured facts sent with this question';
+  AskPane.prototype.addGroundingToggle = function (bubble, ground, routed) {
+    // THE LABEL MUST BE TRUE OF THIS ANSWER. "what the model was told" is a lie on a routed answer,
+    // where no model was told anything - and a caption that misdescribes its own contents is the
+    // same class of defect as a grounding that misdescribes the room.
+    var b = el('button', 'ghost', routed ? 'the facts this was measured from'
+                                         : 'what the model was told');
+    b.title = routed ? 'Show the measured facts this answer was computed from'
+                     : 'Show the measured facts sent with this question';
     var pre = el('pre', 'ground', ground);
     pre.style.display = 'none';
     b.onclick = function () { pre.style.display = pre.style.display === 'none' ? '' : 'none'; };
