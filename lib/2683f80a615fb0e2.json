@@ -1,0 +1,92 @@
+{
+ "schema": "timeline/1",
+ "duration": 83.771,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.208,
+    "en": "Now let us check. Answer in the quiet, then I will tell you.",
+    "ar": "الآن لنتحقّق. أجب في الصمت، ثمّ سأخبرك."
+   },
+   {
+    "start": 6.958,
+    "dur": 2.28,
+    "en": "What does the battery do?",
+    "ar": "ماذا تفعل البطارية؟"
+   },
+   {
+    "start": 13.709,
+    "dur": 3.408,
+    "en": "It stores electricity to start the car.",
+    "ar": "تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 18.417,
+    "dur": 2.352,
+    "en": "Where does a mechanic work?",
+    "ar": "أين يعمل الميكانيكي؟"
+   },
+   {
+    "start": 25.357,
+    "dur": 1.992,
+    "en": "In the workshop.",
+    "ar": "في الورشة."
+   },
+   {
+    "start": 28.649,
+    "dur": 2.136,
+    "en": "What is a job card?",
+    "ar": "ما هي بطاقة العمل؟"
+   },
+   {
+    "start": 34.903,
+    "dur": 2.88,
+    "en": "A paper that lists the work to do.",
+    "ar": "ورقة تذكر العمل المطلوب."
+   },
+   {
+    "start": 39.083,
+    "dur": 5.328,
+    "en": "Fill the gap. The blank stores electricity to start the car.",
+    "ar": "املأ الفراغ. الـــ تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 50.94,
+    "dur": 5.328,
+    "en": "The battery. The battery stores electricity to start the car.",
+    "ar": "البطارية. البطارية تخزّن الكهرباء."
+   },
+   {
+    "start": 57.568,
+    "dur": 5.4,
+    "en": "And this one. The service advisor writes a blank for each car.",
+    "ar": "وهذا. مستشار الخدمة يكتب الـــ لكلّ سيارة."
+   },
+   {
+    "start": 69.615,
+    "dur": 5.928,
+    "en": "A job card. The service advisor writes a job card for each car.",
+    "ar": "بطاقة عمل. مستشار الخدمة يكتب بطاقة عمل لكلّ سيارة."
+   },
+   {
+    "start": 76.843,
+    "dur": 5.328,
+    "en": "Good work. Say each word once more before you go into the bay.",
+    "ar": "عمل جيّد. قل كلّ كلمة مرّة أخرى قبل أن تدخل الورشة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": []
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

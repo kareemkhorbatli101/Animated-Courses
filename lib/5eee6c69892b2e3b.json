@@ -1,0 +1,98 @@
+{
+ "schema": "timeline/1",
+ "duration": 73.443,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 5.088,
+    "en": "Before you listen. What does a service advisor ask a customer first?",
+    "ar": "قبل الاستماع. ماذا يسأل مستشار الخدمة الزبون أوّلاً؟"
+   },
+   {
+    "start": 12.538,
+    "dur": 3.096,
+    "en": "How can I help you. Listen for it.",
+    "ar": "كيف يمكنني مساعدتك. استمع إليها."
+   },
+   {
+    "start": 16.934,
+    "dur": 4.44,
+    "en": "Good morning, welcome to Cham Motors. How can I help you?",
+    "ar": "صباح الخير، أهلاً بك في شام موتورز. كيف يمكنني مساعدتك؟"
+   },
+   {
+    "start": 22.674,
+    "dur": 2.52,
+    "en": "My car needs a service.",
+    "ar": "سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 26.494,
+    "dur": 2.832,
+    "en": "Of course. What is the problem?",
+    "ar": "بالطبع. ما المشكلة؟"
+   },
+   {
+    "start": 30.626,
+    "dur": 4.008,
+    "en": "It is making a noise, and the service is due.",
+    "ar": "تصدر صوتاً، وموعد الصيانة حان."
+   },
+   {
+    "start": 35.934,
+    "dur": 4.296,
+    "en": "I will write a job card. Can you leave the car with us today?",
+    "ar": "سأكتب بطاقة عمل. هل يمكنك ترك السيارة عندنا اليوم؟"
+   },
+   {
+    "start": 41.53,
+    "dur": 3.408,
+    "en": "Yes. When will it be ready?",
+    "ar": "نعم. متى ستكون جاهزة؟"
+   },
+   {
+    "start": 46.238,
+    "dur": 3.048,
+    "en": "This afternoon. We will call you.",
+    "ar": "بعد الظهر. سنتّصل بك."
+   },
+   {
+    "start": 50.586,
+    "dur": 1.872,
+    "en": "What does his car need?",
+    "ar": "ماذا تحتاج سيارته؟"
+   },
+   {
+    "start": 56.811,
+    "dur": 4.032,
+    "en": "A service. He said, my car needs a service.",
+    "ar": "صيانة. قال: سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 62.143,
+    "dur": 1.944,
+    "en": "When will the car be ready?",
+    "ar": "متى ستكون السيارة جاهزة؟"
+   },
+   {
+    "start": 68.675,
+    "dur": 3.168,
+    "en": "This afternoon. Rana will call him.",
+    "ar": "بعد الظهر. رانا ستتّصل به."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": []
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

@@ -9,6 +9,11 @@
  ],
  "courses": [
   {
+   "id": "eam-b1",
+   "order": 0,
+   "dir": "courses/eam-b1"
+  },
+  {
    "id": "eam",
    "order": 1,
    "dir": "courses/eam"

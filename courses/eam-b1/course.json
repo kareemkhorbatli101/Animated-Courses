@@ -1,0 +1,204 @@
+{
+ "schema": "course/1",
+ "id": "eam-b1",
+ "order": 0,
+ "title": {
+  "en": "Auto Maintenance Book 1",
+  "ar": "صيانة السيارات — الكتاب ١"
+ },
+ "description": {
+  "en": "The coursebook, unit by unit and part by part. Each video teaches one part and asks you a question before it answers it.",
+  "ar": "الكتاب وحدة بوحدة."
+ },
+ "catalogueVariants": [
+  "en",
+  "ar"
+ ],
+ "videos": [
+  {
+   "id": "u01v01",
+   "order": 1,
+   "title": {
+    "en": "Unit 1 · Warm Up",
+    "ar": "الوحدة ١ · Warm Up"
+   },
+   "description": {
+    "en": "Activates prior knowledge and PRE-TEACHES the unit's 10 glossary words.",
+    "ar": "من كتاب صيانة السيارات ١"
+   },
+   "dir": "courses/eam-b1/u01v01",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 101.98
+   },
+   "bytes": 2250915,
+   "meshopt": true,
+   "meshoptBytes": 779575,
+   "wireBytes": 729605,
+   "meshoptWireBytes": 538933,
+   "files": 23,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v02",
+   "order": 2,
+   "title": {
+    "en": "Unit 1 · Car and Service Terms",
+    "ar": "الوحدة ١ · Car and Service Terms"
+   },
+   "description": {
+    "en": "The unit's core nouns - the things themselves.",
+    "ar": "من كتاب صيانة السيارات ١"
+   },
+   "dir": "courses/eam-b1/u01v02",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 71.86
+   },
+   "bytes": 2082759,
+   "meshopt": true,
+   "meshoptBytes": 611419,
+   "wireBytes": 578810,
+   "meshoptWireBytes": 388138,
+   "files": 18,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v04",
+   "order": 3,
+   "title": {
+    "en": "Unit 1 · Check What You Know",
+    "ar": "الوحدة ١ · Check What You Know"
+   },
+   "description": {
+    "en": "Retrieval of the unit's vocabulary.",
+    "ar": "من كتاب صيانة السيارات ١"
+   },
+   "dir": "courses/eam-b1/u01v04",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 83.77
+   },
+   "bytes": 2105800,
+   "meshopt": true,
+   "meshoptBytes": 634460,
+   "wireBytes": 598577,
+   "meshoptWireBytes": 407905,
+   "files": 20,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v08",
+   "order": 4,
+   "title": {
+    "en": "Unit 1 · A Mechanic Talks About His Work",
+    "ar": "الوحدة ١ · A Mechanic Talks About His Work"
+   },
+   "description": {
+    "en": "A Mechanic Talks About His Work - listening for gist and for detail.",
+    "ar": "من كتاب صيانة السيارات ١"
+   },
+   "dir": "courses/eam-b1/u01v08",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 91.88
+   },
+   "bytes": 2172169,
+   "meshopt": true,
+   "meshoptBytes": 700949,
+   "wireBytes": 660123,
+   "meshoptWireBytes": 469171,
+   "files": 19,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v09",
+   "order": 5,
+   "title": {
+    "en": "Unit 1 · At Reception",
+    "ar": "الوحدة ١ · At Reception"
+   },
+   "description": {
+    "en": "At Reception - listening inside a transactional exchange.",
+    "ar": "من كتاب صيانة السيارات ١"
+   },
+   "dir": "courses/eam-b1/u01v09",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 73.44
+   },
+   "bytes": 2092294,
+   "meshopt": true,
+   "meshoptBytes": 611834,
+   "wireBytes": 578945,
+   "meshoptWireBytes": 385637,
+   "files": 21,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en"
+    ]
+   },
+   "mp4": []
+  }
+ ]
+}
