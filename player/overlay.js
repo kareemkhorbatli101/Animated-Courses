@@ -223,10 +223,24 @@
     // part to part by the page, so a choice made on one lesson could name a language the next lesson does
     // not have - or omit one it does - and nothing reconciled the two. An empty intersection falls back to
     // every declared language: showing no subtitles is never the answer to a mismatched preference.
-    var want = (Array.isArray(codes) ? codes : String(codes).split(','))
-      .map(function (s) { return String(s).trim(); })
-      .filter(function (s) { return s && declared.indexOf(s) >= 0; });
-    this.show = want.length ? want : declared.slice();
+    //
+    // v28.3 (step 0b): an EXPLICIT empty choice means NONE. The page's two Subtitles selectors hand over [] when both
+    // say "None" (site/app.js subtitleChoice: "[] means NONE, said explicitly"), and the fallback above turned that
+    // [] into every declared language - measured on the live site: None + None still showed English and Arabic.
+    // The two rules are now separate:
+    //   null / undefined           no preference            -> every declared language
+    //   [] or ''                   the viewer chose None    -> no subtitles
+    //   non-empty, no intersection a preference from another lesson that does not fit this one -> every declared
+    //   non-empty, some intersection                        -> exactly the intersection
+    if (codes === null || codes === undefined) {
+      this.show = declared.slice();
+    } else {
+      var asked = (Array.isArray(codes) ? codes : String(codes).split(','))
+        .map(function (s) { return String(s).trim(); })
+        .filter(function (s) { return s; });
+      var want = asked.filter(function (s) { return declared.indexOf(s) >= 0; });
+      this.show = !asked.length ? [] : (want.length ? want : declared.slice());
+    }
     this.render(this._t || 0);
     return this.show;
   };
