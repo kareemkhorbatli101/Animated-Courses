@@ -99,7 +99,7 @@
  "actors": [
   {
    "id": "maher",
-   "model_glb": "assets/maher_07e007972e.glb",
+   "model_glb": "assets/maher_e31d87ac2f.glb",
    "pos": [
     -6.5,
     0.0,
@@ -3863,7 +3863,7 @@
   },
   {
    "id": "tarek",
-   "model_glb": "assets/tarek_a4892618ae.glb",
+   "model_glb": "assets/tarek_4655c68c35.glb",
    "pos": [
     -8.5,
     0.0,
@@ -6536,115 +6536,59 @@
   "vocab": {
    "cards": [
     {
-     "lemma": "tool_cabinet",
-     "label": "tool cabinet",
-     "ar": "خزانة العُدّة",
-     "at": 0.225,
-     "hold": 3.0
-    },
-    {
-     "lemma": "spanner",
-     "label": "spanner",
-     "ar": "مفتاح الربط",
-     "at": 3.525,
-     "hold": 3.0
-    },
-    {
-     "lemma": "service",
-     "label": "service",
-     "ar": "الصيانة",
-     "at": 9.128,
-     "hold": 3.0
-    },
-    {
      "lemma": "workshop",
      "label": "workshop",
      "ar": "الورشة",
-     "at": 14.04,
-     "hold": 3.0
+     "at": 16.515,
+     "hold": 2.5
     },
     {
      "lemma": "mechanic",
      "label": "mechanic",
      "ar": "الميكانيكي",
-     "at": 20.241,
-     "hold": 3.0
-    },
-    {
-     "lemma": "repair",
-     "label": "repair",
-     "ar": "الإصلاح",
-     "at": 23.52,
-     "hold": 3.0
+     "at": 19.065,
+     "hold": 2.49
     },
     {
      "lemma": "service_bay",
      "label": "service bay",
      "ar": "موقع الصيانة",
-     "at": 28.604,
+     "at": 26.819,
      "hold": 3.0
     },
     {
      "lemma": "car",
      "label": "car",
      "ar": "السيارة",
-     "at": 31.9,
-     "hold": 3.0
+     "at": 31.488,
+     "hold": 11.62
     },
     {
-     "lemma": "radiator",
-     "label": "radiator",
-     "ar": "الراديتير",
-     "at": 37.018,
+     "lemma": "engine",
+     "label": "engine",
+     "ar": "المحرّك",
+     "at": 43.153,
+     "hold": 14.62
+    },
+    {
+     "lemma": "battery",
+     "label": "battery",
+     "ar": "البطارية",
+     "at": 57.828,
      "hold": 3.0
     },
     {
      "lemma": "engine",
      "label": "engine",
      "ar": "المحرّك",
-     "at": 43.419,
-     "hold": 3.0
-    },
-    {
-     "lemma": "trolley_jack",
-     "label": "trolley jack",
-     "ar": "رافعة متحرّكة",
-     "at": 46.675,
-     "hold": 3.0
-    },
-    {
-     "lemma": "boot",
-     "label": "boot",
-     "ar": "صندوق السيارة",
-     "at": 52.339,
-     "hold": 3.0
-    },
-    {
-     "lemma": "battery",
-     "label": "battery",
-     "ar": "البطارية",
-     "at": 58.075,
-     "hold": 3.0
-    },
-    {
-     "lemma": "air_filter",
-     "label": "air filter",
-     "ar": "فلتر الهواء",
-     "at": 61.325,
-     "hold": 3.0
-    },
-    {
-     "lemma": "tyre",
-     "label": "tyre",
-     "ar": "الإطار",
-     "at": 67.254,
-     "hold": 3.0
+     "at": 63.863,
+     "hold": 9.12
     },
     {
      "lemma": "bonnet",
      "label": "bonnet",
      "ar": "غطاء المحرّك",
-     "at": 73.277,
+     "at": 73.036,
      "hold": 3.0
     }
    ],

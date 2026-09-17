@@ -82,38 +82,11 @@
  "vocab": {
   "cards": [
    {
-    "lemma": "tool_cabinet",
-    "label": "tool cabinet",
-    "ar": "خزانة العُدّة",
-    "at": 0.225,
-    "hold": 3.0,
-    "img": "assets/vocab/tool_cabinet.png",
-    "sha": "1ff45d6627d691fa"
-   },
-   {
-    "lemma": "spanner",
-    "label": "spanner",
-    "ar": "مفتاح الربط",
-    "at": 3.525,
-    "hold": 3.0,
-    "img": "assets/vocab/spanner.png",
-    "sha": "7f8e98d03b81b560"
-   },
-   {
-    "lemma": "service",
-    "label": "service",
-    "ar": "الصيانة",
-    "at": 9.128,
-    "hold": 3.0,
-    "img": "assets/vocab/service.png",
-    "sha": "366d5661b81e47e1"
-   },
-   {
     "lemma": "workshop",
     "label": "workshop",
     "ar": "الورشة",
-    "at": 14.04,
-    "hold": 3.0,
+    "at": 16.515,
+    "hold": 2.5,
     "img": "assets/vocab/workshop.png",
     "sha": "a7d519035ff3897f"
    },
@@ -121,25 +94,16 @@
     "lemma": "mechanic",
     "label": "mechanic",
     "ar": "الميكانيكي",
-    "at": 20.241,
-    "hold": 3.0,
+    "at": 19.065,
+    "hold": 2.49,
     "img": "assets/vocab/mechanic.png",
     "sha": "9e09184379d56ff2"
-   },
-   {
-    "lemma": "repair",
-    "label": "repair",
-    "ar": "الإصلاح",
-    "at": 23.52,
-    "hold": 3.0,
-    "img": "assets/vocab/repair.png",
-    "sha": "f77399bae217eb52"
    },
    {
     "lemma": "service_bay",
     "label": "service bay",
     "ar": "موقع الصيانة",
-    "at": 28.604,
+    "at": 26.819,
     "hold": 3.0,
     "img": "assets/vocab/service_bay.png",
     "sha": "a7d519035ff3897f"
@@ -148,79 +112,43 @@
     "lemma": "car",
     "label": "car",
     "ar": "السيارة",
-    "at": 31.9,
-    "hold": 3.0,
+    "at": 31.488,
+    "hold": 11.62,
     "img": "assets/vocab/car.png",
     "sha": "10f6c2910c4a4c2d"
-   },
-   {
-    "lemma": "radiator",
-    "label": "radiator",
-    "ar": "الراديتير",
-    "at": 37.018,
-    "hold": 3.0,
-    "img": "assets/vocab/radiator.png",
-    "sha": "8b9bc7911cfb2e98"
    },
    {
     "lemma": "engine",
     "label": "engine",
     "ar": "المحرّك",
-    "at": 43.419,
-    "hold": 3.0,
+    "at": 43.153,
+    "hold": 14.62,
     "img": "assets/vocab/engine.png",
     "sha": "84d7dba66691c830"
-   },
-   {
-    "lemma": "trolley_jack",
-    "label": "trolley jack",
-    "ar": "رافعة متحرّكة",
-    "at": 46.675,
-    "hold": 3.0,
-    "img": "assets/vocab/trolley_jack.png",
-    "sha": "0db6f010e535fde9"
-   },
-   {
-    "lemma": "boot",
-    "label": "boot",
-    "ar": "صندوق السيارة",
-    "at": 52.339,
-    "hold": 3.0,
-    "img": "assets/vocab/boot.png",
-    "sha": "07a57bd665859dd3"
    },
    {
     "lemma": "battery",
     "label": "battery",
     "ar": "البطارية",
-    "at": 58.075,
+    "at": 57.828,
     "hold": 3.0,
     "img": "assets/vocab/battery.png",
     "sha": "f96345f059556fab"
    },
    {
-    "lemma": "air_filter",
-    "label": "air filter",
-    "ar": "فلتر الهواء",
-    "at": 61.325,
-    "hold": 3.0,
-    "img": "assets/vocab/air_filter.png",
-    "sha": "6acdbf950f7f5db5"
-   },
-   {
-    "lemma": "tyre",
-    "label": "tyre",
-    "ar": "الإطار",
-    "at": 67.254,
-    "hold": 3.0,
-    "img": "assets/vocab/tyre.png",
-    "sha": "73576b115a0c94ee"
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 63.863,
+    "hold": 9.12,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
    },
    {
     "lemma": "bonnet",
     "label": "bonnet",
     "ar": "غطاء المحرّك",
-    "at": 73.277,
+    "at": 73.036,
     "hold": 3.0,
     "img": "assets/vocab/bonnet.png",
     "sha": "4361b875178db196"

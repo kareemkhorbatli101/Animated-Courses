@@ -1,6 +1,6 @@
 {
  "schema": "timeline/1",
- "duration": 80.041,
+ "duration": 109.011,
  "subtitles": {
   "enabled": true,
   "langs": "en,ar",
@@ -94,34 +94,103 @@
     "dur": 3.168,
     "en": "This afternoon. Rana will call him.",
     "ar": "بعد الظهر. رانا ستتّصل به."
+   },
+   {
+    "start": 78.791,
+    "dur": 6.096,
+    "en": "Now, six words for talking to customers. Look at each thing before I say its name.",
+    "ar": "الآن، ستّ كلمات للتحدّث مع الزبائن. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 85.237,
+    "dur": 3.768,
+    "en": "This is reception. Customers come here first.",
+    "ar": "هذا الاستقبال. يأتي الزبائن إلى هنا أوّلاً."
+   },
+   {
+    "start": 89.355,
+    "dur": 3.312,
+    "en": "This is the service desk. I work here.",
+    "ar": "هذا مكتب الخدمة. أعمل هنا."
+   },
+   {
+    "start": 93.017,
+    "dur": 3.024,
+    "en": "An appointment is a time to bring your car in.",
+    "ar": "الموعد هو وقت لإحضار سيارتك."
+   },
+   {
+    "start": 96.391,
+    "dur": 3.48,
+    "en": "When you book in a car, we write down its details.",
+    "ar": "عند تسجيل السيارة، نكتب بياناتها."
+   },
+   {
+    "start": 100.221,
+    "dur": 3.84,
+    "en": "An estimate tells the customer the price before the work.",
+    "ar": "تقدير التكلفة يُخبر الزبون بالسعر قبل العمل."
+   },
+   {
+    "start": 104.411,
+    "dur": 3.0,
+    "en": "An invoice shows the price after the work.",
+    "ar": "الفاتورة تُظهر السعر بعد العمل."
    }
   ]
  },
  "vocab": {
   "cards": [
    {
-    "lemma": "ready_time",
-    "label": "ready time",
-    "ar": "موعد الجاهزية",
-    "at": 0.225,
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 35.06,
     "hold": 3.0,
-    "img": "assets/vocab/ready_time.png",
-    "sha": "141740bc2a42d26f"
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
    },
    {
-    "lemma": "collect",
-    "label": "collect",
-    "ar": "استلام السيارة",
-    "at": 3.525,
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 45.282,
     "hold": 3.0,
-    "img": "assets/vocab/collect.png",
-    "sha": "ecb08a4d1e122408"
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 56.984,
+    "hold": 7.32,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 64.359,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 67.466,
+    "hold": 7.76,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
    },
    {
     "lemma": "reception",
     "label": "reception",
     "ar": "الاستقبال",
-    "at": 8.464,
+    "at": 83.9,
     "hold": 3.0,
     "img": "assets/vocab/reception.png",
     "sha": "7179e793cf131515"
@@ -130,118 +199,46 @@
     "lemma": "service_desk",
     "label": "service desk",
     "ar": "مكتب الخدمة",
-    "at": 12.661,
+    "at": 88.143,
     "hold": 3.0,
     "img": "assets/vocab/service_desk.png",
     "sha": "7179e793cf131515"
    },
    {
-    "lemma": "car",
-    "label": "car",
-    "ar": "السيارة",
-    "at": 15.916,
+    "lemma": "appointment",
+    "label": "appointment",
+    "ar": "الموعد",
+    "at": 91.367,
     "hold": 3.0,
-    "img": "assets/vocab/car.png",
-    "sha": "10f6c2910c4a4c2d"
-   },
-   {
-    "lemma": "service",
-    "label": "service",
-    "ar": "الصيانة",
-    "at": 19.211,
-    "hold": 3.0,
-    "img": "assets/vocab/service.png",
-    "sha": "366d5661b81e47e1"
-   },
-   {
-    "lemma": "symptom",
-    "label": "symptom",
-    "ar": "العَرَض",
-    "at": 22.486,
-    "hold": 3.0,
-    "img": "assets/vocab/symptom.png",
-    "sha": "83c130222a3c3cc1"
-   },
-   {
-    "lemma": "invoice",
-    "label": "invoice",
-    "ar": "الفاتورة",
-    "at": 25.775,
-    "hold": 3.0,
-    "img": "assets/vocab/invoice.png",
-    "sha": "d22bd792df275fcd"
-   },
-   {
-    "lemma": "estimate",
-    "label": "estimate",
-    "ar": "تقدير التكلفة",
-    "at": 29.025,
-    "hold": 3.0,
-    "img": "assets/vocab/estimate.png",
-    "sha": "714d0bdf966af482"
-   },
-   {
-    "lemma": "courtesy_car",
-    "label": "courtesy car",
-    "ar": "سيارة بديلة",
-    "at": 32.275,
-    "hold": 3.0,
-    "img": "assets/vocab/courtesy_car.png",
-    "sha": "1c6de8b7804558e5"
-   },
-   {
-    "lemma": "hand_over",
-    "label": "hand over",
-    "ar": "تسليم السيارة",
-    "at": 35.575,
-    "hold": 3.0,
-    "img": "assets/vocab/hand_over.png",
-    "sha": "452ca425c9f9da7d"
-   },
-   {
-    "lemma": "customer_relations",
-    "label": "customer care",
-    "ar": "خدمة العملاء",
-    "at": 38.875,
-    "hold": 3.0,
-    "img": "assets/vocab/customer_relations.png",
-    "sha": "5ca408e0c915dbc7"
-   },
-   {
-    "lemma": "service_schedule",
-    "label": "service schedule",
-    "ar": "جدول الصيانة",
-    "at": 42.175,
-    "hold": 3.0,
-    "img": "assets/vocab/service_schedule.png",
-    "sha": "2d2e49bb481cfe09"
-   },
-   {
-    "lemma": "job_card",
-    "label": "job card",
-    "ar": "بطاقة العمل",
-    "at": 47.238,
-    "hold": 3.0,
-    "img": "assets/vocab/job_card.png",
-    "sha": "d22539fe17716c6e"
+    "img": "assets/vocab/appointment.png",
+    "sha": "6a66f529e24b13fa"
    },
    {
     "lemma": "book_in",
     "label": "book in",
     "ar": "تسجيل السيارة",
-    "at": 60.106,
+    "at": 94.941,
     "hold": 3.0,
     "img": "assets/vocab/book_in.png",
     "sha": "e90e401e15e64918"
    },
    {
-    "lemma": "appointment",
-    "label": "appointment",
-    "ar": "الموعد",
-    "at": 70.785,
+    "lemma": "estimate",
+    "label": "estimate",
+    "ar": "تقدير التكلفة",
+    "at": 98.634,
     "hold": 3.0,
-    "img": "assets/vocab/appointment.png",
-    "sha": "6a66f529e24b13fa"
+    "img": "assets/vocab/estimate.png",
+    "sha": "714d0bdf966af482"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 102.774,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
    }
   ],
   "x": 0.988,

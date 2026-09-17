@@ -1,6 +1,6 @@
 {
  "schema": "timeline/1",
- "duration": 102.525,
+ "duration": 138.383,
  "subtitles": {
   "enabled": true,
   "langs": "en,ar",
@@ -82,142 +82,112 @@
     "dur": 4.104,
     "en": "False. He works with Tarek today.",
     "ar": "خطأ. هو يعمل مع طارق اليوم."
+   },
+   {
+    "start": 101.275,
+    "dur": 6.432,
+    "en": "Now, six more words from my work. Look at each thing before I say its name.",
+    "ar": "الآن، ستّ كلمات أخرى من عملي. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 108.057,
+    "dur": 4.68,
+    "en": "This is engine oil. I change it every few months.",
+    "ar": "هذا زيت المحرّك. أغيّره كلّ بضعة أشهر."
+   },
+   {
+    "start": 113.087,
+    "dur": 4.32,
+    "en": "This is the dipstick. It shows the oil level.",
+    "ar": "هذا مقياس الزيت. يُظهر مستوى الزيت."
+   },
+   {
+    "start": 117.757,
+    "dur": 4.68,
+    "en": "This is a spanner. I use it to turn nuts and bolts.",
+    "ar": "هذا مفتاح الربط. أستخدمه لفكّ الصواميل والبراغي وشدّها."
+   },
+   {
+    "start": 122.787,
+    "dur": 4.176,
+    "en": "This is a trolley jack. It lifts the car.",
+    "ar": "هذه رافعة متحرّكة. ترفع السيارة."
+   },
+   {
+    "start": 127.313,
+    "dur": 4.368,
+    "en": "These are gloves. They keep my hands safe.",
+    "ar": "هذه القفّازات. تحمي يديّ."
+   },
+   {
+    "start": 132.031,
+    "dur": 4.752,
+    "en": "These are safety glasses. They protect my eyes.",
+    "ar": "هذه نظّارات الأمان. تحمي عينيّ."
    }
   ]
  },
  "vocab": {
   "cards": [
    {
-    "lemma": "gloves",
-    "label": "gloves",
-    "ar": "القفّازات",
-    "at": 0.225,
-    "hold": 3.0,
-    "img": "assets/vocab/gloves.png",
-    "sha": "7e9b0fa176462612"
-   },
-   {
-    "lemma": "safety_glasses",
-    "label": "safety glasses",
-    "ar": "نظّارات الأمان",
-    "at": 3.525,
-    "hold": 3.0,
-    "img": "assets/vocab/safety_glasses.png",
-    "sha": "e11552af89bf43e9"
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 17.411,
+    "hold": 14.35,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
    },
    {
     "lemma": "mechanic",
     "label": "mechanic",
     "ar": "الميكانيكي",
-    "at": 8.615,
-    "hold": 3.0,
+    "at": 38.245,
+    "hold": 2.93,
     "img": "assets/vocab/mechanic.png",
     "sha": "9e09184379d56ff2"
-   },
-   {
-    "lemma": "ppe",
-    "label": "PPE",
-    "ar": "معدّات الوقاية",
-    "at": 11.875,
-    "hold": 3.0,
-    "img": "assets/vocab/ppe.png",
-    "sha": "c7a87e39e6a8f14f"
-   },
-   {
-    "lemma": "trolley_jack",
-    "label": "trolley jack",
-    "ar": "رافعة متحرّكة",
-    "at": 15.125,
-    "hold": 3.0,
-    "img": "assets/vocab/trolley_jack.png",
-    "sha": "0db6f010e535fde9"
-   },
-   {
-    "lemma": "job_card",
-    "label": "job card",
-    "ar": "بطاقة العمل",
-    "at": 21.294,
-    "hold": 3.0,
-    "img": "assets/vocab/job_card.png",
-    "sha": "d22539fe17716c6e"
-   },
-   {
-    "lemma": "engine",
-    "label": "engine",
-    "ar": "المحرّك",
-    "at": 24.555,
-    "hold": 3.0,
-    "img": "assets/vocab/engine.png",
-    "sha": "84d7dba66691c830"
-   },
-   {
-    "lemma": "oil_change",
-    "label": "oil change",
-    "ar": "تغيير الزيت",
-    "at": 27.806,
-    "hold": 3.0,
-    "img": "assets/vocab/oil_change.png",
-    "sha": "ef87261552807fc0"
-   },
-   {
-    "lemma": "inspect",
-    "label": "inspect",
-    "ar": "الفحص",
-    "at": 31.075,
-    "hold": 3.0,
-    "img": "assets/vocab/inspect.png",
-    "sha": "48aa3f95e274fe57"
    },
    {
     "lemma": "service",
     "label": "service",
     "ar": "الصيانة",
-    "at": 42.881,
+    "at": 41.226,
     "hold": 3.0,
     "img": "assets/vocab/service.png",
     "sha": "366d5661b81e47e1"
    },
    {
-    "lemma": "repair",
-    "label": "repair",
-    "ar": "الإصلاح",
-    "at": 46.163,
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 44.789,
     "hold": 3.0,
-    "img": "assets/vocab/repair.png",
-    "sha": "f77399bae217eb52"
-   },
-   {
-    "lemma": "car",
-    "label": "car",
-    "ar": "السيارة",
-    "at": 49.432,
-    "hold": 3.0,
-    "img": "assets/vocab/car.png",
-    "sha": "10f6c2910c4a4c2d"
-   },
-   {
-    "lemma": "engine_oil",
-    "label": "engine oil",
-    "ar": "زيت المحرّك",
-    "at": 59.802,
-    "hold": 3.0,
-    "img": "assets/vocab/engine_oil.png",
-    "sha": "dce7d814c38db1ab"
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
    },
    {
     "lemma": "workshop",
     "label": "workshop",
     "ar": "الورشة",
-    "at": 67.479,
-    "hold": 3.0,
+    "at": 64.996,
+    "hold": 3.67,
     "img": "assets/vocab/workshop.png",
     "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 106.657,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
    },
    {
     "lemma": "dipstick",
     "label": "dipstick",
     "ar": "مقياس الزيت",
-    "at": 75.934,
+    "at": 111.837,
     "hold": 3.0,
     "img": "assets/vocab/dipstick.png",
     "sha": "05c99e421c3d063a"
@@ -226,10 +196,37 @@
     "lemma": "spanner",
     "label": "spanner",
     "ar": "مفتاح الربط",
-    "at": 91.98,
+    "at": 116.445,
     "hold": 3.0,
     "img": "assets/vocab/spanner.png",
     "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 121.462,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 125.938,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 130.669,
+    "hold": 3.0,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
    }
   ],
   "x": 0.988,

@@ -75,12 +75,12 @@
    "duration": {
     "en": 80.9
    },
-   "bytes": 8772847,
+   "bytes": 8640906,
    "meshopt": true,
-   "meshoptBytes": 1733127,
-   "wireBytes": 4637791,
-   "meshoptWireBytes": 1257757,
-   "files": 36,
+   "meshoptBytes": 1590338,
+   "wireBytes": 4480994,
+   "meshoptWireBytes": 1115718,
+   "files": 27,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -113,12 +113,12 @@
    "duration": {
     "en": 92.88
    },
-   "bytes": 8809611,
+   "bytes": 8640421,
    "meshopt": true,
-   "meshoptBytes": 1769891,
-   "wireBytes": 4668525,
-   "meshoptWireBytes": 1288491,
-   "files": 38,
+   "meshoptBytes": 1589853,
+   "wireBytes": 4474125,
+   "meshoptWireBytes": 1108849,
+   "files": 27,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -149,14 +149,14 @@
     "ar"
    ],
    "duration": {
-    "en": 102.53
+    "en": 138.38
    },
-   "bytes": 8871993,
+   "bytes": 9021081,
    "meshopt": true,
-   "meshoptBytes": 1828537,
-   "wireBytes": 4693416,
-   "meshoptWireBytes": 1333954,
-   "files": 37,
+   "meshoptBytes": 1973801,
+   "wireBytes": 4797277,
+   "meshoptWireBytes": 1437187,
+   "files": 38,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -187,13 +187,13 @@
     "ar"
    ],
    "duration": {
-    "en": 80.04
+    "en": 109.01
    },
-   "bytes": 8824504,
+   "bytes": 8897438,
    "meshopt": true,
-   "meshoptBytes": 1760016,
-   "wireBytes": 4640065,
-   "meshoptWireBytes": 1280172,
+   "meshoptBytes": 1832950,
+   "wireBytes": 4679660,
+   "meshoptWireBytes": 1319750,
    "files": 39,
    "badgePhoto": true,
    "defaults": {

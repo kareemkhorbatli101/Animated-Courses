@@ -30,6 +30,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "scene.json"
   },
+  "0588b5bf5373296a": {
+   "bytes": 125193,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "scene.json"
+  },
   "05c99e421c3d063a": {
    "bytes": 3987,
    "engine": "27.37.0",
@@ -78,6 +84,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/6244525ca7947613.mp3"
   },
+  "0adec3f5dd6af5ba": {
+   "bytes": 412028,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "assets/aboud_414c58aa1e.glb (meshopt)"
+  },
   "0b729fc1e25fc0fb": {
    "bytes": 4615556,
    "engine": "27.37.0",
@@ -95,12 +107,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/acf78915f7ea8fb6.mp3"
-  },
-  "0eb29bc45cdc430b": {
-   "bytes": 3378344,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/aboud_84d4ec6275.glb"
   },
   "10f6c2910c4a4c2d": {
    "bytes": 17057,
@@ -120,12 +126,6 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/257297b07144bc73.mp3"
   },
-  "141740bc2a42d26f": {
-   "bytes": 18749,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/ready_time.png"
-  },
   "149666bc0b899fd7": {
    "bytes": 33464,
    "engine": "27.37.0",
@@ -137,12 +137,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/1515612f75e92b6e.mp3"
-  },
-  "177a142a910df529": {
-   "bytes": 3384536,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/maher_07e007972e.glb"
   },
   "193306ed32007426": {
    "bytes": 4645824,
@@ -156,11 +150,11 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/7872ff0d11526e88.mp3"
   },
-  "1c6de8b7804558e5": {
-   "bytes": 16731,
+  "1d9184702edcc107": {
+   "bytes": 36576,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/courtesy_car.png"
+   "source": "lines/64787ab5bec06641.mp3"
   },
   "1e5ec4e7986499af": {
    "bytes": 33984,
@@ -174,11 +168,11 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/a030038854ac4122.mp3"
   },
-  "1ff45d6627d691fa": {
-   "bytes": 18388,
+  "1f710b180a79f0d8": {
+   "bytes": 28080,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/tool_cabinet.png"
+   "source": "lines/c823c983086140e5.mp3"
   },
   "206533f0599ad504": {
    "bytes": 6786,
@@ -210,12 +204,6 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/60c4494d24e52cbc.mp3"
   },
-  "2d2e49bb481cfe09": {
-   "bytes": 18432,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/service_schedule.png"
-  },
   "2e7d8dc2035bbb8e": {
    "bytes": 40464,
    "engine": "27.37.0",
@@ -240,6 +228,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/furniture_office_set_merged.glb"
   },
+  "345bef78581b16ce": {
+   "bytes": 90632,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "scene.json"
+  },
   "34a6728bc90a6203": {
    "bytes": 22896,
    "engine": "27.37.0",
@@ -251,12 +245,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/vocab/service.png"
-  },
-  "372d9995b539dc57": {
-   "bytes": 412028,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/aboud_84d4ec6275.glb (meshopt)"
   },
   "37f4afba220a7f94": {
    "bytes": 22896,
@@ -294,6 +282,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/b7ed52b03a02f878.mp3"
   },
+  "3f7323fab22b8e14": {
+   "bytes": 149426,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "scene.json"
+  },
   "3f867b4e9b756691": {
    "bytes": 33264,
    "engine": "27.37.0",
@@ -324,12 +318,6 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "scene.json"
   },
-  "452ca425c9f9da7d": {
-   "bytes": 15766,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/hand_over.png"
-  },
   "4596fa00849ba900": {
    "bytes": 12816,
    "engine": "27.37.0",
@@ -348,29 +336,23 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/869228648f58b442.mp3"
   },
-  "48aa3f95e274fe57": {
-   "bytes": 16766,
+  "4a1f9727572e1ae7": {
+   "bytes": 28080,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/inspect.png"
-  },
-  "48c7ea891d731abe": {
-   "bytes": 85166,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "scene.json"
-  },
-  "4aed429eca369ef7": {
-   "bytes": 104528,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "scene.json"
+   "source": "lines/2d40e3a725156bb1.mp3"
   },
   "4c464e6a15d75854": {
    "bytes": 440756,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/maher_a85314610c.glb (meshopt)"
+  },
+  "4ca8a0c8181baf9a": {
+   "bytes": 7074,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "timeline.json"
   },
   "4de01d56d2556691": {
    "bytes": 4069,
@@ -384,29 +366,23 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/khaled_3e7bc5b077.glb (meshopt)"
   },
-  "521e113e8ccde8d9": {
-   "bytes": 6522,
+  "5086e2bc793a02e1": {
+   "bytes": 25920,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/29a1788336360a56.mp3"
+  },
+  "5105e8a875821e1a": {
+   "bytes": 4752,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "timeline.json"
-  },
-  "52a2e6bd2df9bc0f": {
-   "bytes": 413256,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/tarek_a4892618ae.glb (meshopt)"
   },
   "5351bbbe3154f369": {
    "bytes": 568348,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/workshop_set_merged.glb"
-  },
-  "54e2bcd9e4a8b285": {
-   "bytes": 17235,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/report.png"
   },
   "5646c9f53f438765": {
    "bytes": 411016,
@@ -431,18 +407,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/69c222619003f9ce.mp3"
-  },
-  "5c38fc34e826c9f6": {
-   "bytes": 3378568,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/tarek_a4892618ae.glb"
-  },
-  "5ca408e0c915dbc7": {
-   "bytes": 17237,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/customer_relations.png"
   },
   "5ca94452a6afcbbf": {
    "bytes": 4644112,
@@ -473,18 +437,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/22bae2a49937a6c0.mp3"
-  },
-  "63acebc6180719af": {
-   "bytes": 412540,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/nabil_da7c433277.glb (meshopt)"
-  },
-  "63b8854cf3f2025a": {
-   "bytes": 6412,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "timeline.json"
   },
   "6494808b88f3e117": {
    "bytes": 3406488,
@@ -552,12 +504,6 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/vocab/appointment.png"
   },
-  "6acdbf950f7f5db5": {
-   "bytes": 14640,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/air_filter.png"
-  },
   "6b0589c6f89b3bf9": {
    "bytes": 31968,
    "engine": "27.37.0",
@@ -576,11 +522,29 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "scene.json"
   },
+  "6f3b7f616be14f33": {
+   "bytes": 7054,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "timeline.json"
+  },
+  "6f6deace359ce6a8": {
+   "bytes": 19872,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/376ac64535348c14.mp3"
+  },
   "703f7005e691c070": {
    "bytes": 29952,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/d8f5d954418e4951.mp3"
+  },
+  "70a753e60243187d": {
+   "bytes": 5071,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "timeline.json"
   },
   "714d0bdf966af482": {
    "bytes": 17945,
@@ -599,12 +563,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "timeline.json"
-  },
-  "73576b115a0c94ee": {
-   "bytes": 12223,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/tyre.png"
   },
   "75c69a56b861c198": {
    "bytes": 26208,
@@ -690,17 +648,17 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/481e44575148a0af.mp3"
   },
-  "83c130222a3c3cc1": {
-   "bytes": 19637,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/symptom.png"
-  },
   "83d1fb44689bd148": {
    "bytes": 27072,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/d986a5df7aedf381.mp3"
+  },
+  "83e25289f813f5db": {
+   "bytes": 18000,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/70191cd8869e805b.mp3"
   },
   "8436d5df4f7f342a": {
    "bytes": 440332,
@@ -732,12 +690,6 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/f3118c95565b1d8a.mp3"
   },
-  "895968a51484c4f4": {
-   "bytes": 3385096,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/nabil_da7c433277.glb"
-  },
   "89fdc69d35987975": {
    "bytes": 39168,
    "engine": "27.37.0",
@@ -767,12 +719,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/workshop_set_noceil_merged.glb (meshopt)"
-  },
-  "92889d0f05268b3f": {
-   "bytes": 415716,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/maher_07e007972e.glb (meshopt)"
   },
   "931530120a181f55": {
    "bytes": 14400,
@@ -822,29 +768,41 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/tarek_7364b8eaee.glb (meshopt)"
   },
+  "9713cbbafbdfb40b": {
+   "bytes": 84034,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "scene.json"
+  },
   "97a1c08d605c820b": {
    "bytes": 26352,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/451f341c3d8e37e3.mp3"
   },
-  "9b1c862986c314d6": {
-   "bytes": 17220,
+  "992b964024db17a3": {
+   "bytes": 38592,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/voltage.png"
+   "source": "lines/17679c4d01bfca75.mp3"
+  },
+  "9bc481e1bd95e2f7": {
+   "bytes": 25056,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/e6ba84dcdaf3db0f.mp3"
+  },
+  "9c39a842051d2a04": {
+   "bytes": 18144,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/3082b38d2a0c0fda.mp3"
   },
   "9e09184379d56ff2": {
    "bytes": 12518,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/vocab/mechanic.png"
-  },
-  "a17dc9af8a9e2f4f": {
-   "bytes": 15051,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/meter.png"
   },
   "a7d519035ff3897f": {
    "bytes": 18035,
@@ -857,6 +815,12 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/9aa15842dca0db3d.mp3"
+  },
+  "ad45b046ce4b6626": {
+   "bytes": 3378344,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "assets/aboud_414c58aa1e.glb"
   },
   "adbe3820e8b87728": {
    "bytes": 37728,
@@ -906,6 +870,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/nabil_44f002d761.glb (meshopt)"
   },
+  "b6b5ad86051a6d06": {
+   "bytes": 26208,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/1d36bc75aa47b000.mp3"
+  },
   "b78165f9bd0925ce": {
    "bytes": 32544,
    "engine": "27.37.0",
@@ -930,6 +900,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/bd6e626955f61742_workshop.objects.json"
   },
+  "bd9939bcb64fd4c9": {
+   "bytes": 28512,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/6ba75c12336cc38a.mp3"
+  },
   "c1005c40c9c5c050": {
    "bytes": 26928,
    "engine": "27.37.0",
@@ -941,12 +917,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "timeline.json"
-  },
-  "c21c07f23e949a72": {
-   "bytes": 91622,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "scene.json"
   },
   "c2fd64f64cc9a610": {
    "bytes": 31248,
@@ -984,11 +954,17 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/nour_08e35f47b2.glb"
   },
-  "c7a87e39e6a8f14f": {
-   "bytes": 17863,
+  "c7f2d7c0acc67c6c": {
+   "bytes": 20880,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/ppe.png"
+   "source": "lines/48e0e834ba660652.mp3"
+  },
+  "c839b9298b45b23f": {
+   "bytes": 23040,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/28cfbbafa3e6fbe3.mp3"
   },
   "c9388a457c36b5d7": {
    "bytes": 27648,
@@ -1002,6 +978,12 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/428db0bedf2b8fda.mp3"
   },
+  "cc4d820cf1f6b4c5": {
+   "bytes": 22608,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "lines/6585c1474620f54d.mp3"
+  },
   "ce2daf76a2bc76c9": {
    "bytes": 25776,
    "engine": "27.37.0",
@@ -1013,12 +995,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/92aaea3c5116b127.mp3"
-  },
-  "cf31dcea6d8ce665": {
-   "bytes": 6789,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "timeline.json"
   },
   "cf7cfc5cbc8bff8c": {
    "bytes": 32387,
@@ -1080,11 +1056,23 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/f4c4b5839c8453fa.mp3"
   },
+  "e0938cb647425fe1": {
+   "bytes": 3385088,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "assets/nabil_75461a8c0d.glb"
+  },
   "e11552af89bf43e9": {
    "bytes": 14245,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/vocab/safety_glasses.png"
+  },
+  "e1647864bf84cd37": {
+   "bytes": 412532,
+   "engine": "27.37.0",
+   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
+   "source": "assets/nabil_75461a8c0d.glb (meshopt)"
   },
   "e26acd2cfdcf017c": {
    "bytes": 37584,
@@ -1128,12 +1116,6 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/6b5a935a39305f58.mp3"
   },
-  "ecb08a4d1e122408": {
-   "bytes": 16745,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/collect.png"
-  },
   "edb2fbf4bdd0e48e": {
    "bytes": 39600,
    "engine": "27.37.0",
@@ -1145,18 +1127,6 @@
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/furniture_office_set_noceil_merged.glb (meshopt)"
-  },
-  "ef87261552807fc0": {
-   "bytes": 17812,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/oil_change.png"
-  },
-  "ef95f033a0c8faef": {
-   "bytes": 88367,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "scene.json"
   },
   "f03ca33dbf7db1b1": {
    "bytes": 23328,
@@ -1176,23 +1146,11 @@
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "lines/b2d40dde52ad566f.mp3"
   },
-  "f2b50059cdd2c87a": {
-   "bytes": 6587,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "timeline.json"
-  },
   "f2d96d7869e77f3d": {
    "bytes": 4622284,
    "engine": "27.37.0",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
    "source": "assets/sami_cd9cc4e3b9.glb"
-  },
-  "f77399bae217eb52": {
-   "bytes": 17107,
-   "engine": "27.37.0",
-   "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "source": "assets/vocab/repair.png"
   },
   "f85a55bd02dffe2e": {
    "bytes": 34053,
