@@ -15,6 +15,23 @@
 (function (global) {
   'use strict';
 
+  // v28.1 THE VOICE IS SCHEDULED CONTINUOUSLY, NOT ONCE.
+  //
+  // Measured on the live site before this: pressing Play on the Warm Up scheduled 8 of its 17 lines - the
+  // ones already downloaded - and nothing fetched or scheduled again until the next Play. The voice stopped
+  // at 46.5 s while the picture ran on; sliding back and pressing Play fetched the next stretch, so it
+  // "came back". And a Play then Pause while lines were still downloading scheduled 4 lines AFTER the
+  // pause: a voice playing over a paused lesson, doubled by the next Play.
+  //
+  // Now a playback is a GENERATION. While it lasts, a pump fetches FETCH_AHEAD seconds ahead and schedules
+  // every line inside SCHEDULE_AHEAD that this generation has not scheduled yet, each against the lesson
+  // clock read AT THAT MOMENT. stop() ends the generation, and every asynchronous step checks it before
+  // scheduling anything, so nothing can start after a pause.
+  var FETCH_AHEAD = 30;       // seconds of voice kept downloaded ahead of the playhead
+  var SCHEDULE_AHEAD = 8;     // seconds of voice handed to the audio clock ahead of the playhead
+  var PUMP_MS = 250;
+  var RETRY_MS = [400, 1200]; // network failures only; a checksum failure is final
+
   function SpeechAudio(lines, fetcher, manifest) {
     this.lines = (lines || []).slice().sort(function (a, b) { return a.start - b.start; });
     this.fetcher = fetcher;
@@ -22,6 +39,12 @@
     this.buffers = {};        // key -> AudioBuffer
     this.ctx = null;
     this.playing = [];
+    this.gen = 0;             // current playback generation; 0 = stopped
+    this.scheduled = {};      // line index -> true, for the current generation
+    this.failed = {};         // key -> message, for lines that could not be fetched at all
+    this._inflight = {};      // key -> Promise, so a pump never fetches the same line twice at once
+    this._timer = null;
+    this._clock = null;       // () -> lesson seconds now
   }
 
   SpeechAudio.prototype._context = function () {
@@ -42,19 +65,39 @@
     return {address: r.address, sha: r.sha, bytes: r.bytes, rel: rel, kind: 'a spoken line'};
   };
 
+  // A network or HTTP failure may be transient and is retried; a checksum mismatch or a refused consent is
+  // a fact about the bytes or the person, and retrying would only repeat it.
+  function retryable(err) {
+    var m = String(err && err.message || err);
+    return !(err && err.needsConsent) && m.indexOf('checksum mismatch') < 0;
+  }
+
+  // Resolves to the decoded line, or null if it could not be had. It NEVER rejects: one line that cannot be
+  // fetched used to reject the whole prefetch, and playFrom then scheduled nothing - the entire lesson
+  // silent over one bad request. The failure is still REPORTED (__speechError, and this.failed).
   SpeechAudio.prototype.load = function (line) {
     var self = this;
     if (this.buffers[line.key]) return Promise.resolve(this.buffers[line.key]);
+    if (this._inflight[line.key]) return this._inflight[line.key];
     var rec = this.recordFor(line);
     if (!rec) return Promise.resolve(null);
-    return this.fetcher.get(rec).catch(function (err) {
-      // A line that fails its checksum must be REPORTED, not quietly missing. A player that silently
-      // drops a corrupted line plays a lesson with a gap where a sentence should be, which is the same
-      // class of failure E3 removed from the renderer: a missing input degrading instead of failing.
-      global.__speechError = true;
-      global.__speechErrorMessage = String(err && err.message || err);
-      throw err;
-    }).then(function (buf) {
+    function attempt(k) {
+      return self.fetcher.get(rec).catch(function (err) {
+        if (k < RETRY_MS.length && retryable(err)) {
+          return new Promise(function (res) { setTimeout(res, RETRY_MS[k]); })
+            .then(function () { return attempt(k + 1); });
+        }
+        // A line that fails its checksum must be REPORTED, not quietly missing. A player that silently
+        // drops a corrupted line plays a lesson with a gap where a sentence should be, which is the same
+        // class of failure E3 removed from the renderer: a missing input degrading instead of failing.
+        global.__speechError = true;
+        global.__speechErrorMessage = String(err && err.message || err);
+        self.failed[line.key] = global.__speechErrorMessage;
+        return null;
+      });
+    }
+    var p = attempt(0).then(function (buf) {
+      if (!buf) return null;
       var ctx = self._context();
       if (!ctx) return null;
       return new Promise(function (resolve) {
@@ -63,9 +106,17 @@
         ctx.decodeAudioData(buf.slice(0), function (ab) {
           self.buffers[line.key] = ab;
           resolve(ab);
-        }, function () { resolve(null); });
+        }, function () {
+          global.__speechError = true;
+          global.__speechErrorMessage = 'could not decode the spoken line ' + line.key;
+          self.failed[line.key] = global.__speechErrorMessage;
+          resolve(null);
+        });
       });
     });
+    this._inflight[line.key] = p;
+    p.then(function () { delete self._inflight[line.key]; });
+    return p;
   };
 
   // Fetch the lines that start within `ahead` seconds of t. Lazy on purpose: a lesson should start
@@ -101,46 +152,84 @@
     return isFinite(db) ? Math.pow(10, db / 20) : 1;
   }
 
+  // Ends the current generation: every scheduled source stops, the pump stops, and any fetch or resume
+  // still in flight finds its generation gone and schedules nothing.
   SpeechAudio.prototype.stop = function () {
+    this.gen++;
+    this._active = false;
+    if (this._timer) { clearInterval(this._timer); this._timer = null; }
     this.playing.forEach(function (s) { try { s.stop(); } catch (e) { /* already ended */ } });
     this.playing = [];
+    this.scheduled = {};
   };
 
-  // Start playing from lesson time t. Every line still to come is scheduled at its DECLARED offset, so
-  // the timing is the spec's and not an accumulation of when things happened to be decoded.
-  SpeechAudio.prototype.playFrom = function (t) {
+  // One pump: fetch ahead, then hand every due line to the audio clock. Safe to call at any rate - a line
+  // is scheduled at most once per generation, and a line already over is marked done without sound.
+  SpeechAudio.prototype._pump = function (gen) {
+    var self = this, ctx = this.ctx;
+    if (gen !== this.gen || !this._active || !ctx) return 0;
+    var now = this._clock();
+    var n = 0;
+    this.lines.forEach(function (l, i) {
+      if (self.scheduled[i] || self.failed[l.key]) return;
+      var end = l.start + (l.dur || 0);
+      if (end < now) { self.scheduled[i] = true; return; }                 // already over
+      if (l.start > now + FETCH_AHEAD) return;
+      var ab = self.buffers[l.key];
+      if (!ab) { self.load(l); return; }                                    // not here yet: fetch, next pump
+      if (l.start > now + SCHEDULE_AHEAD) return;
+      var when = l.start - now, offset = 0;
+      if (when < 0) {                                                       // under way: begin part-way in
+        offset = -when; when = 0;
+        if (offset >= ab.duration) { self.scheduled[i] = true; return; }
+      }
+      var src = ctx.createBufferSource();
+      src.buffer = ab;
+      var g = lineGain(l);
+      if (g !== 1 && ctx.createGain) {
+        var gn = ctx.createGain();
+        gn.gain.value = g;
+        src.connect(gn);
+        gn.connect(ctx.destination);
+      } else {
+        src.connect(ctx.destination);
+      }
+      src.__line = i;
+      src.start(ctx.currentTime + when, offset);
+      self.playing.push(src);
+      self.scheduled[i] = true;
+      n++;
+    });
+    return n;
+  };
+
+  // Start playing from lesson time t. `clock`, when given, returns the lesson time NOW - the page's own
+  // picture clock - so each line is placed against the picture as it is when the line is scheduled, and a
+  // slow fetch can never delay the voice relative to the picture. Without it, the clock runs from the call.
+  // Returns (a promise of) how many lines the first pump after the initial fetch scheduled.
+  SpeechAudio.prototype.playFrom = function (t, clock) {
     var self = this, ctx = this._context();
     if (!ctx) return Promise.resolve(0);
-    if (ctx.state === 'suspended') ctx.resume();
     this.stop();
-    return this.prefetch(t, 30).then(function () {
-      var t0 = ctx.currentTime, n = 0;
-      self.lines.forEach(function (l) {
-        var ab = self.buffers[l.key];
-        if (!ab) return;
-        var when = l.start - t;
-        var offset = 0;
-        if (when < 0) {                       // already started: begin part-way in
-          offset = -when;
-          when = 0;
-          if (offset >= ab.duration) return;  // already finished
-        }
-        var src = ctx.createBufferSource();
-        src.buffer = ab;
-        var g = lineGain(l);
-        if (g !== 1 && ctx.createGain) {
-          var gn = ctx.createGain();
-          gn.gain.value = g;
-          src.connect(gn);
-          gn.connect(ctx.destination);
-        } else {
-          src.connect(ctx.destination);
-        }
-        src.start(t0 + when, offset);
-        self.playing.push(src);
-        n++;
+    var gen = this.gen;
+    var t0 = (global.performance && performance.now) ? performance.now() : Date.now();
+    this._clock = clock || function () {
+      var p = (global.performance && performance.now) ? performance.now() : Date.now();
+      return t + (p - t0) / 1000;
+    };
+    this._active = true;
+    // A suspended context has a frozen currentTime; scheduling against it would bunch every line together
+    // the moment it resumes. Wait for it.
+    var ready = (ctx.state === 'suspended' && ctx.resume) ? ctx.resume() : Promise.resolve();
+    return Promise.resolve(ready).then(function () {
+      if (gen !== self.gen) return 0;
+      self._pump(gen);
+      self._timer = setInterval(function () { self._pump(gen); }, PUMP_MS);
+      return self.prefetch(self._clock(), SCHEDULE_AHEAD).then(function () {
+        if (gen !== self.gen) return 0;
+        self._pump(gen);
+        return self.playing.length;
       });
-      return n;
     });
   };
 

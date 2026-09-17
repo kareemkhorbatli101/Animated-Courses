@@ -109,7 +109,7 @@
  "actors": [
   {
    "id": "maher",
-   "model_glb": "assets/maher_07e007972e.glb",
+   "model_glb": "assets/maher_e31d87ac2f.glb",
    "pos": [
     -6.5,
     0.0,
@@ -6050,7 +6050,7 @@
   },
   {
    "id": "tarek",
-   "model_glb": "assets/tarek_a4892618ae.glb",
+   "model_glb": "assets/tarek_4655c68c35.glb",
    "pos": [
     -8.5,
     0.0,
@@ -9156,115 +9156,94 @@
   "vocab": {
    "cards": [
     {
-     "lemma": "tyre",
-     "label": "tyre",
-     "ar": "الإطار",
-     "at": 0.225,
-     "hold": 3.0
-    },
-    {
-     "lemma": "engine_oil",
-     "label": "engine oil",
-     "ar": "زيت المحرّك",
-     "at": 3.525,
-     "hold": 3.0
-    },
-    {
      "lemma": "workshop",
      "label": "workshop",
      "ar": "الورشة",
-     "at": 10.074,
-     "hold": 3.0
-    },
-    {
-     "lemma": "car",
-     "label": "car",
-     "ar": "السيارة",
-     "at": 13.647,
-     "hold": 3.0
-    },
-    {
-     "lemma": "coolant",
-     "label": "coolant",
-     "ar": "سائل التبريد",
-     "at": 16.925,
+     "at": 15.547,
      "hold": 3.0
     },
     {
      "lemma": "engine",
      "label": "engine",
      "ar": "المحرّك",
-     "at": 26.382,
+     "at": 24.123,
      "hold": 3.0
     },
     {
      "lemma": "battery",
      "label": "battery",
      "ar": "البطارية",
-     "at": 30.927,
+     "at": 28.831,
      "hold": 3.0
     },
     {
      "lemma": "radiator",
      "label": "radiator",
      "ar": "الراديتير",
-     "at": 36.925,
+     "at": 34.712,
      "hold": 3.0
     },
     {
      "lemma": "bonnet",
      "label": "bonnet",
      "ar": "غطاء المحرّك",
-     "at": 41.993,
+     "at": 39.839,
      "hold": 3.0
     },
     {
      "lemma": "boot",
      "label": "boot",
      "ar": "صندوق السيارة",
-     "at": 47.348,
+     "at": 45.31,
      "hold": 3.0
     },
     {
      "lemma": "job_card",
      "label": "job card",
      "ar": "بطاقة العمل",
-     "at": 51.079,
+     "at": 48.996,
      "hold": 3.0
     },
     {
-     "lemma": "service",
-     "label": "service",
-     "ar": "الصيانة",
-     "at": 54.37,
-     "hold": 3.0
-    },
-    {
-     "lemma": "reception",
-     "label": "reception",
-     "ar": "الاستقبال",
-     "at": 61.29,
-     "hold": 3.0
+     "lemma": "car",
+     "label": "car",
+     "ar": "السيارة",
+     "at": 56.062,
+     "hold": 11.31
     },
     {
      "lemma": "mechanic",
      "label": "mechanic",
      "ar": "الميكانيكي",
-     "at": 67.478,
+     "at": 67.425,
      "hold": 3.0
     },
     {
-     "lemma": "service_bay",
-     "label": "service bay",
-     "ar": "موقع الصيانة",
-     "at": 77.115,
+     "lemma": "car",
+     "label": "car",
+     "ar": "السيارة",
+     "at": 70.902,
+     "hold": 11.95
+    },
+    {
+     "lemma": "service",
+     "label": "service",
+     "ar": "الصيانة",
+     "at": 82.898,
      "hold": 3.0
     },
     {
-     "lemma": "spanner",
-     "label": "spanner",
-     "ar": "مفتاح الربط",
-     "at": 90.644,
+     "lemma": "job_card",
+     "label": "job card",
+     "ar": "بطاقة العمل",
+     "at": 87.019,
+     "hold": 10.94
+    },
+    {
+     "lemma": "engine",
+     "label": "engine",
+     "ar": "المحرّك",
+     "at": 99.154,
      "hold": 3.0
     }
    ],

@@ -1068,7 +1068,11 @@
     // and the clock advanced. Neither of those is sound. boot.js had it right: the spoken lines start
     // WITH the clock, each scheduled at its declared offset, so the timing is the spec's rather than an
     // accumulation of when things happened to finish decoding.
-    if (part.speech) part.speech.playFrom(base0);
+    // v28.1: handed the PICTURE clock, so every line is placed against the frame as it is when that line
+    // is scheduled - the voice keeps being fetched and scheduled for as long as the lesson plays.
+    if (part.speech) part.speech.playFrom(base0, function () {
+      return base0 + (performance.now() - t0) / 1000;
+    });
     raf = requestAnimationFrame(loop);
   }
   function pause() {
@@ -1080,7 +1084,13 @@
   // Dragging the scrubber STOPS the voice. Without this, seeking leaves the previously scheduled lines
   // playing at their old times, so the picture jumps and the audio carries on from where it was - the
   // two drift apart and never recover.
-  scrub.oninput = function () { pause(); seek(dur * scrub.value / 1000); };
+  // v28.1: and it WARMS the voice at the new position. A line under way at the seek point used to be fetched
+  // only once Play was pressed, and on a busy or slow device it could arrive after its own end - the player
+  // then correctly skips it, and the first sentence after a seek was lost.
+  scrub.oninput = function () {
+    pause(); seek(dur * scrub.value / 1000);
+    if (part && part.speech) part.speech.prefetch(dur * scrub.value / 1000, 8);
+  };
 
   // ================================================================= size modes
   function setSize(s) {

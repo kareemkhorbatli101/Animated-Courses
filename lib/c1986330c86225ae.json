@@ -112,55 +112,19 @@
  "vocab": {
   "cards": [
    {
-    "lemma": "tyre",
-    "label": "tyre",
-    "ar": "الإطار",
-    "at": 0.225,
-    "hold": 3.0,
-    "img": "assets/vocab/tyre.png",
-    "sha": "73576b115a0c94ee"
-   },
-   {
-    "lemma": "engine_oil",
-    "label": "engine oil",
-    "ar": "زيت المحرّك",
-    "at": 3.525,
-    "hold": 3.0,
-    "img": "assets/vocab/engine_oil.png",
-    "sha": "dce7d814c38db1ab"
-   },
-   {
     "lemma": "workshop",
     "label": "workshop",
     "ar": "الورشة",
-    "at": 10.074,
+    "at": 15.547,
     "hold": 3.0,
     "img": "assets/vocab/workshop.png",
     "sha": "a7d519035ff3897f"
    },
    {
-    "lemma": "car",
-    "label": "car",
-    "ar": "السيارة",
-    "at": 13.647,
-    "hold": 3.0,
-    "img": "assets/vocab/car.png",
-    "sha": "10f6c2910c4a4c2d"
-   },
-   {
-    "lemma": "coolant",
-    "label": "coolant",
-    "ar": "سائل التبريد",
-    "at": 16.925,
-    "hold": 3.0,
-    "img": "assets/vocab/coolant.png",
-    "sha": "fa04e3dee6ee45c5"
-   },
-   {
     "lemma": "engine",
     "label": "engine",
     "ar": "المحرّك",
-    "at": 26.382,
+    "at": 24.123,
     "hold": 3.0,
     "img": "assets/vocab/engine.png",
     "sha": "84d7dba66691c830"
@@ -169,7 +133,7 @@
     "lemma": "battery",
     "label": "battery",
     "ar": "البطارية",
-    "at": 30.927,
+    "at": 28.831,
     "hold": 3.0,
     "img": "assets/vocab/battery.png",
     "sha": "f96345f059556fab"
@@ -178,7 +142,7 @@
     "lemma": "radiator",
     "label": "radiator",
     "ar": "الراديتير",
-    "at": 36.925,
+    "at": 34.712,
     "hold": 3.0,
     "img": "assets/vocab/radiator.png",
     "sha": "8b9bc7911cfb2e98"
@@ -187,7 +151,7 @@
     "lemma": "bonnet",
     "label": "bonnet",
     "ar": "غطاء المحرّك",
-    "at": 41.993,
+    "at": 39.839,
     "hold": 3.0,
     "img": "assets/vocab/bonnet.png",
     "sha": "4361b875178db196"
@@ -196,7 +160,7 @@
     "lemma": "boot",
     "label": "boot",
     "ar": "صندوق السيارة",
-    "at": 47.348,
+    "at": 45.31,
     "hold": 3.0,
     "img": "assets/vocab/boot.png",
     "sha": "07a57bd665859dd3"
@@ -205,55 +169,64 @@
     "lemma": "job_card",
     "label": "job card",
     "ar": "بطاقة العمل",
-    "at": 51.079,
+    "at": 48.996,
     "hold": 3.0,
     "img": "assets/vocab/job_card.png",
     "sha": "d22539fe17716c6e"
    },
    {
-    "lemma": "service",
-    "label": "service",
-    "ar": "الصيانة",
-    "at": 54.37,
-    "hold": 3.0,
-    "img": "assets/vocab/service.png",
-    "sha": "366d5661b81e47e1"
-   },
-   {
-    "lemma": "reception",
-    "label": "reception",
-    "ar": "الاستقبال",
-    "at": 61.29,
-    "hold": 3.0,
-    "img": "assets/vocab/reception.png",
-    "sha": "7179e793cf131515"
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 56.062,
+    "hold": 11.31,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
    },
    {
     "lemma": "mechanic",
     "label": "mechanic",
     "ar": "الميكانيكي",
-    "at": 67.478,
+    "at": 67.425,
     "hold": 3.0,
     "img": "assets/vocab/mechanic.png",
     "sha": "9e09184379d56ff2"
    },
    {
-    "lemma": "service_bay",
-    "label": "service bay",
-    "ar": "موقع الصيانة",
-    "at": 77.115,
-    "hold": 3.0,
-    "img": "assets/vocab/service_bay.png",
-    "sha": "a7d519035ff3897f"
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 70.902,
+    "hold": 11.95,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
    },
    {
-    "lemma": "spanner",
-    "label": "spanner",
-    "ar": "مفتاح الربط",
-    "at": 90.644,
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 82.898,
     "hold": 3.0,
-    "img": "assets/vocab/spanner.png",
-    "sha": "7f8e98d03b81b560"
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 87.019,
+    "hold": 10.94,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 99.154,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
    }
   ],
   "x": 0.988,
