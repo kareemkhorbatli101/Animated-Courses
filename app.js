@@ -1144,8 +1144,13 @@
     var m = MODES.filter(function (x) { return x.id === S.mode; })[0] || MODES[0];
     if (m.format === 'mp4') {
       applyMode();               // the subtitles are IN the picture, so this selects another file
-    } else if (part && part.overlay) {
-      part.overlay.setShow(S.lang.subtitles); part.overlay.render(lastT);
+    } else if (earlyOv && earlyOv.overlay) {
+      // v28.3: THE OVERLAY ON SCREEN NOW, not only the one a finished mount holds. The badge, the cards and the
+      // subtitles are drawn before the 3D arrives (earlyOverlay), and this handler asked for `part` - which exists only
+      // once every model has streamed and the voice has decoded. Measured on the live site: choosing None during a
+      // load did nothing at all until the lesson finished, and then took effect. Same object either way (mount keeps
+      // the early overlay), so this is simply the one that is certainly there.
+      earlyOv.overlay.setShow(S.lang.subtitles); earlyOv.overlay.render(lastT);
       syncModes();               // ...and it changes which MP4 combinations are reachable
     }
   };
