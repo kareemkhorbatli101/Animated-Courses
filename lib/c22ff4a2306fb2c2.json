@@ -1,0 +1,270 @@
+{
+ "schema": "timeline/1",
+ "duration": 105.498,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.744,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 1, Introduction to the Vehicle.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.544,
+    "dur": 6.528,
+    "en": "This is the Warm Up. You will meet the workshop and learn the names of the main parts of a car.",
+    "ar": "هذا هو التمهيد. ستتعرّف على الورشة وتتعلّم أسماء الأجزاء الرئيسية في السيارة."
+   },
+   {
+    "start": 14.422,
+    "dur": 4.512,
+    "en": "Welcome to Cham Motors. This is our workshop.",
+    "ar": "أهلاً بك في شام موتورز. هذه ورشتنا."
+   },
+   {
+    "start": 19.284,
+    "dur": 5.664,
+    "en": "Today you will learn ten words. Look at each thing before I say its name.",
+    "ar": "اليوم ستتعلّم عشر كلمات. انظر إلى كلّ شيء قبل أن أقول اسمه."
+   },
+   {
+    "start": 25.298,
+    "dur": 4.32,
+    "en": "This is the engine. It makes the car move.",
+    "ar": "هذا المحرّك. هو يجعل السيارة تتحرّك."
+   },
+   {
+    "start": 29.968,
+    "dur": 5.544,
+    "en": "This is the battery. It stores electricity to start the car.",
+    "ar": "هذه البطارية. تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 35.862,
+    "dur": 4.752,
+    "en": "This is the radiator. It keeps the engine cool.",
+    "ar": "هذا الراديتير. يبقي المحرّك بارداً."
+   },
+   {
+    "start": 40.964,
+    "dur": 5.208,
+    "en": "This is the bonnet. In American English, we say hood.",
+    "ar": "هذا غطاء المحرّك. في الإنجليزية الأمريكية نقول hood."
+   },
+   {
+    "start": 46.522,
+    "dur": 3.336,
+    "en": "This is the boot, at the back of the car.",
+    "ar": "هذا صندوق السيارة، في الخلف."
+   },
+   {
+    "start": 50.208,
+    "dur": 5.616,
+    "en": "This is the job card. The service advisor writes it for every car.",
+    "ar": "هذه بطاقة العمل. يكتبها مستشار الخدمة لكلّ سيارة."
+   },
+   {
+    "start": 56.174,
+    "dur": 5.016,
+    "en": "A person who repairs and checks cars. What is the word?",
+    "ar": "شخص يصلح ويفحص السيارات. ما الكلمة؟"
+   },
+   {
+    "start": 67.425,
+    "dur": 4.752,
+    "en": "A mechanic. A mechanic repairs and checks cars.",
+    "ar": "ميكانيكي. الميكانيكي يصلح ويفحص السيارات."
+   },
+   {
+    "start": 72.527,
+    "dur": 4.488,
+    "en": "The car comes in for this every year. What is it?",
+    "ar": "تأتي السيارة من أجله كلّ سنة. ما هو؟"
+   },
+   {
+    "start": 82.898,
+    "dur": 4.896,
+    "en": "A service. The car comes in for a service every year.",
+    "ar": "صيانة. تأتي السيارة للصيانة كلّ سنة."
+   },
+   {
+    "start": 88.144,
+    "dur": 2.4,
+    "en": "Who writes the job card?",
+    "ar": "من يكتب بطاقة العمل؟"
+   },
+   {
+    "start": 94.956,
+    "dur": 3.336,
+    "en": "The service advisor writes the job card.",
+    "ar": "مستشار الخدمة يكتب بطاقة العمل."
+   },
+   {
+    "start": 98.642,
+    "dur": 5.256,
+    "en": "Good. Today, find the engine and the battery on one car.",
+    "ar": "جيّد. اليوم، جد المحرّك والبطارية على سيارة واحدة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "tyre",
+    "label": "tyre",
+    "ar": "الإطار",
+    "at": 0.225,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre.png",
+    "sha": "73576b115a0c94ee"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 3.525,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 10.074,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 13.647,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "coolant",
+    "label": "coolant",
+    "ar": "سائل التبريد",
+    "at": 16.925,
+    "hold": 3.0,
+    "img": "assets/vocab/coolant.png",
+    "sha": "fa04e3dee6ee45c5"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 26.382,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 30.927,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 36.925,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "bonnet",
+    "label": "bonnet",
+    "ar": "غطاء المحرّك",
+    "at": 41.993,
+    "hold": 3.0,
+    "img": "assets/vocab/bonnet.png",
+    "sha": "4361b875178db196"
+   },
+   {
+    "lemma": "boot",
+    "label": "boot",
+    "ar": "صندوق السيارة",
+    "at": 47.348,
+    "hold": 3.0,
+    "img": "assets/vocab/boot.png",
+    "sha": "07a57bd665859dd3"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 51.079,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 54.37,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 61.29,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 67.478,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "service_bay",
+    "label": "service bay",
+    "ar": "موقع الصيانة",
+    "at": 77.115,
+    "hold": 3.0,
+    "img": "assets/vocab/service_bay.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 90.644,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

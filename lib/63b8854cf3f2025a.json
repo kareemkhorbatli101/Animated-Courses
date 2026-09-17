@@ -1,0 +1,240 @@
+{
+ "schema": "timeline/1",
+ "duration": 80.9,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.744,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 1, Introduction to the Vehicle.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.544,
+    "dur": 7.296,
+    "en": "This is Part 1, Car and Service Terms. You will name the parts of a car and the places in a workshop.",
+    "ar": "هذا الجزء الأوّل، مصطلحات السيارة والخدمة. ستسمّي أجزاء السيارة والأماكن في الورشة."
+   },
+   {
+    "start": 15.19,
+    "dur": 4.704,
+    "en": "Part one. The words for the things in this workshop.",
+    "ar": "الجزء الأوّل. كلمات الأشياء في هذه الورشة."
+   },
+   {
+    "start": 20.244,
+    "dur": 4.032,
+    "en": "A mechanic is the person who repairs and services cars.",
+    "ar": "الميكانيكي هو الشخص الذي يصلح ويصون السيارات."
+   },
+   {
+    "start": 24.626,
+    "dur": 3.48,
+    "en": "The workshop is the place where the mechanic works.",
+    "ar": "الورشة هي المكان الذي يعمل فيه الميكانيكي."
+   },
+   {
+    "start": 28.456,
+    "dur": 3.432,
+    "en": "The service bay is where one car is worked on.",
+    "ar": "موقع الصيانة هو المكان الذي تُصلح فيه سيارة واحدة."
+   },
+   {
+    "start": 32.238,
+    "dur": 4.68,
+    "en": "Look at the front of the car. What is this part called?",
+    "ar": "انظر إلى مقدّمة السيارة. ما اسم هذا الجزء؟"
+   },
+   {
+    "start": 43.153,
+    "dur": 4.368,
+    "en": "The engine. The engine makes the car move.",
+    "ar": "المحرّك. المحرّك يجعل السيارة تتحرّك."
+   },
+   {
+    "start": 47.871,
+    "dur": 4.368,
+    "en": "And this one, beside the engine. What is it?",
+    "ar": "وهذا، بجانب المحرّك. ما هو؟"
+   },
+   {
+    "start": 57.828,
+    "dur": 5.16,
+    "en": "The battery. It stores electricity to start the car.",
+    "ar": "البطارية. تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 63.338,
+    "dur": 3.816,
+    "en": "Ustaz, what do we call the cover over the engine?",
+    "ar": "أستاذ، ماذا نسمّي الغطاء فوق المحرّك؟"
+   },
+   {
+    "start": 73.036,
+    "dur": 6.264,
+    "en": "The bonnet. In American English they say hood. Both are correct.",
+    "ar": "غطاء المحرّك. في الإنجليزية الأمريكية يقولون hood. كلاهما صحيح."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "tool_cabinet",
+    "label": "tool cabinet",
+    "ar": "خزانة العُدّة",
+    "at": 0.225,
+    "hold": 3.0,
+    "img": "assets/vocab/tool_cabinet.png",
+    "sha": "1ff45d6627d691fa"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 3.525,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 9.128,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 14.04,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 20.241,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "repair",
+    "label": "repair",
+    "ar": "الإصلاح",
+    "at": 23.52,
+    "hold": 3.0,
+    "img": "assets/vocab/repair.png",
+    "sha": "f77399bae217eb52"
+   },
+   {
+    "lemma": "service_bay",
+    "label": "service bay",
+    "ar": "موقع الصيانة",
+    "at": 28.604,
+    "hold": 3.0,
+    "img": "assets/vocab/service_bay.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 31.9,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 37.018,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 43.419,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 46.675,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "boot",
+    "label": "boot",
+    "ar": "صندوق السيارة",
+    "at": 52.339,
+    "hold": 3.0,
+    "img": "assets/vocab/boot.png",
+    "sha": "07a57bd665859dd3"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 58.075,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "air_filter",
+    "label": "air filter",
+    "ar": "فلتر الهواء",
+    "at": 61.325,
+    "hold": 3.0,
+    "img": "assets/vocab/air_filter.png",
+    "sha": "6acdbf950f7f5db5"
+   },
+   {
+    "lemma": "tyre",
+    "label": "tyre",
+    "ar": "الإطار",
+    "at": 67.254,
+    "hold": 3.0,
+    "img": "assets/vocab/tyre.png",
+    "sha": "73576b115a0c94ee"
+   },
+   {
+    "lemma": "bonnet",
+    "label": "bonnet",
+    "ar": "غطاء المحرّك",
+    "at": 73.277,
+    "hold": 3.0,
+    "img": "assets/vocab/bonnet.png",
+    "sha": "4361b875178db196"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

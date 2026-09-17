@@ -20,6 +20,15 @@
   // The strip's own inner geometry, from the compositor. These are not look decisions the player is
   // making - they are the compositor's layout, restated so the two agree. The gate compares them.
   var BOX_TOP = 18, BOX_BOTTOM = 8, BOX_MARGIN = 40, LINE_RATIO = 1.18;
+  // v28: the vocabulary card's inner geometry, restated from engine/compositor.make_card for the same
+  // reason as the strip's above - the MP4 draws the card from these, so the page must too, or the same
+  // lesson shows two different cards. Native size 340x412; everything below scales with the declared width.
+  var CARD_W = 340, CARD_H = 412, CARD_R = 24, CARD_EDGE = 3, CARD_TILE = 300, CARD_PAD = 20,
+      TILE_R = 14, EN_ROW = 10, AR_ROW = 54, EN_MAX = 34, AR_MAX = 30,
+      CARD_FILL = [14, 14, 18], CARD_ALPHA = 0.824, CARD_LINE = [255, 210, 120], CARD_LINE_A = 0.92,
+      TILE_FILL = [245, 244, 240], EN_COL = [255, 249, 240], AR_COL = [255, 224, 150],
+      // the compositor's pre-v28 placement, used when a lesson declares none: (W - 340 - 45, 55)
+      CARD_RIGHT_GAP = 45, CARD_TOP = 55;
 
   function num(v, d) { var n = parseFloat(v); return isFinite(n) ? n : d; }
 
@@ -70,6 +79,55 @@
     this.badgeEl.style.position = 'absolute';
     this.badgeEl.style.display = 'none';
     h.appendChild(this.badgeEl);
+
+    // v28: THE VOCABULARY CARD. overlay.js described cards in its header from v27.24 and never drew one,
+    // so every lesson on the site showed none - while the MP4 of the same lesson had them. One card
+    // element, reused: cards never overlap in time, and a pool would be a second place to get that wrong.
+    this.cardEl = document.createElement('div');
+    this.cardEl.className = 'ov-card';
+    this.cardEl.style.position = 'absolute';
+    this.cardEl.style.display = 'none';
+    this.cardEl.style.boxSizing = 'border-box';
+    this.cardEl.style.textAlign = 'center';
+    this.cardImg = document.createElement('img');
+    this.cardImg.style.display = 'block';
+    this.cardImg.style.objectFit = 'contain';
+    this.cardEn = document.createElement('div');
+    this.cardAr = document.createElement('div');
+    this.cardAr.setAttribute('dir', 'rtl');
+    this.cardTile = document.createElement('div');
+    this.cardTile.style.position = 'absolute';
+    this.cardTile.style.display = 'flex';
+    this.cardTile.style.alignItems = 'center';
+    this.cardTile.style.justifyContent = 'center';
+    this.cardTile.appendChild(this.cardImg);
+    [this.cardEn, this.cardAr].forEach(function (el) {
+      el.style.position = 'absolute'; el.style.left = '0'; el.style.right = '0';
+      el.style.whiteSpace = 'nowrap'; el.style.overflow = 'hidden';
+    });
+    this.cardEl.appendChild(this.cardTile);
+    this.cardEl.appendChild(this.cardEn);
+    this.cardEl.appendChild(this.cardAr);
+    h.appendChild(this.cardEl);
+    this.cardSrc = {};          // lemma/img -> object URL, supplied by the page
+    this._cardShown = null;
+  };
+
+  // The page fetches each card's picture (verified against its hash, like every other file) and hands the
+  // URLs over. Keyed by the card's img path, which is what the timeline names.
+  Overlay.prototype.setCardSrcs = function (map) {
+    this.cardSrc = map || {};
+    this._cardShown = null;
+    this.render(this._t || 0);
+  };
+
+  Overlay.prototype.cardAt = function (t) {
+    var cards = ((this.timeline.vocab || {}).cards) || [];
+    for (var i = 0; i < cards.length; i++) {
+      var c = cards[i], at = num(c.at, 0), hold = num(c.hold, 1.35);
+      if (t >= at && t < at + hold) return c;
+    }
+    return null;
   };
 
   // The frame the overlay is drawn over. Everything is expressed as a FRACTION of it, so the same
@@ -102,30 +160,73 @@
     this.box.style.maxWidth = ((W - BOX_MARGIN * k)) + 'px';
     this.box.style.minHeight = (Math.max(0, this.stripH - (BOX_TOP + BOX_BOTTOM) * k)) + 'px';
 
-    var b = this.timeline.badge || {};
+    // v28: the badge is positioned from the SCENE's declared placement, which exists from the moment the
+    // scene does. It used to require `timeline.badge.img` as well, so an overlay laid out before the
+    // timeline had arrived never positioned the badge at all.
     var pl = this.scene.badgePlacement || {};
-    if (b.img) {
-      this.badgeEl.style.left = (num(pl.x, 0.016) * W) + 'px';
-      this.badgeEl.style.top = (num(pl.y, 0.016) * H) + 'px';
-      this.badgeEl.style.width = (num(pl.width, 0.205) * W) + 'px';
-      this.badgeEl.style.zIndex = String(num(pl.layer, 9));
-      this.badgeEl.style.display = 'block';
-    }
+    this.badgeEl.style.left = (num(pl.x, 0.016) * W) + 'px';
+    this.badgeEl.style.top = (num(pl.y, 0.016) * H) + 'px';
+    this.badgeEl.style.width = (num(pl.width, 0.205) * W) + 'px';
+    this.badgeEl.style.zIndex = String(num(pl.layer, 9));
+    if (this.badgeEl.src) this.badgeEl.style.display = 'block';
+
+    // v28: the card, at the declared placement. x is the card's RIGHT edge; without a declaration this is
+    // the compositor's pre-v28 constant, (W - 340 - 45, 55) at native size.
+    var authW = (this.scene.size && this.scene.size[0]) || 1920;
+    var v = this.timeline.vocab || {};
+    var cw = (v.width !== undefined) ? num(v.width, CARD_W / authW) * W : CARD_W * k;
+    var ks = cw / CARD_W;                                   // card scale: every inner size follows it
+    var ch = CARD_H * ks;
+    var right = (v.x !== undefined) ? num(v.x, 1) * W : W - CARD_RIGHT_GAP * k;
+    var top = (v.y !== undefined) ? num(v.y, 0) * H : CARD_TOP * k;
+    var ce = this.cardEl.style;
+    ce.left = (right - cw) + 'px'; ce.top = top + 'px';
+    ce.width = cw + 'px'; ce.height = ch + 'px';
+    ce.zIndex = String(num(v.layer, 9));
+    ce.borderRadius = (CARD_R * ks) + 'px';
+    ce.border = (CARD_EDGE * ks) + 'px solid rgba(' + CARD_LINE.join(',') + ',' + CARD_LINE_A + ')';
+    ce.background = 'rgba(' + CARD_FILL.join(',') + ',' + CARD_ALPHA + ')';
+    var ts = this.cardTile.style, tile = CARD_TILE * ks;
+    ts.left = ((CARD_W - CARD_TILE) / 2 * ks - CARD_EDGE * ks) + 'px';
+    ts.top = (CARD_PAD * ks - CARD_EDGE * ks) + 'px';
+    ts.width = tile + 'px'; ts.height = tile + 'px';
+    ts.borderRadius = (TILE_R * ks) + 'px';
+    ts.background = 'rgb(' + TILE_FILL.join(',') + ')';
+    this.cardImg.style.maxWidth = (tile - 8 * ks) + 'px';
+    this.cardImg.style.maxHeight = (tile - 8 * ks) + 'px';
+    var en = this.cardEn.style, ar = this.cardAr.style;
+    en.top = ((CARD_PAD + CARD_TILE + EN_ROW) * ks - CARD_EDGE * ks) + 'px';
+    en.fontSize = (EN_MAX * ks) + 'px';
+    en.lineHeight = (EN_MAX * ks * LINE_RATIO) + 'px';
+    en.color = 'rgb(' + EN_COL.join(',') + ')';
+    en.fontWeight = 'bold';
+    ar.top = ((CARD_PAD + CARD_TILE + AR_ROW) * ks - CARD_EDGE * ks) + 'px';
+    ar.fontSize = (AR_MAX * ks) + 'px';
+    ar.lineHeight = (AR_MAX * ks * LINE_RATIO) + 'px';
+    ar.color = 'rgb(' + AR_COL.join(',') + ')';
+    ar.fontWeight = 'bold';
+
     this.render(this._t || 0);
     return this;
   };
 
   Overlay.prototype.setBadgeSrc = function (src) {
-    this.badgeEl.src = src;
+    this.badgeEl.src = src || '';
     this.badgeEl.style.display = src ? 'block' : 'none';
   };
 
   // Which languages are DISPLAYED. Changing this re-renders text only - no 3D frame is touched, which is
   // the whole point of the overlay being DOM.
   Overlay.prototype.setShow = function (codes) {
-    this.show = (Array.isArray(codes) ? codes : String(codes).split(','))
+    var declared = this.langs;
+    // v28: a viewer's choice may only NARROW within what THIS lesson declares. The choice is carried from
+    // part to part by the page, so a choice made on one lesson could name a language the next lesson does
+    // not have - or omit one it does - and nothing reconciled the two. An empty intersection falls back to
+    // every declared language: showing no subtitles is never the answer to a mismatched preference.
+    var want = (Array.isArray(codes) ? codes : String(codes).split(','))
       .map(function (s) { return String(s).trim(); })
-      .filter(function (s) { return s; });
+      .filter(function (s) { return s && declared.indexOf(s) >= 0; });
+    this.show = want.length ? want : declared.slice();
     this.render(this._t || 0);
     return this.show;
   };
@@ -133,13 +234,32 @@
   Overlay.prototype.cueAt = function (t) {
     for (var i = 0; i < this.lines.length; i++) {
       var s = this.lines[i];
-      if (t >= s.start && t < s.start + s.dur) return s;
+      // v28: `subHold` - an <ask> question stays readable through its own pause, as it does in the MP4
+      // (engine/compositor honours subHold). Here it died with the audio, so on the site the learner was
+      // asked to answer a question that had already vanished.
+      var end = s.start + Math.max(s.dur, num(s.subHold, 0));
+      if (t >= s.start && t < end) return s;
     }
     return null;
   };
 
+  Overlay.prototype.renderCard = function (t) {
+    var c = this.cardAt(t);
+    if (!c) { this.cardEl.style.display = 'none'; this._cardShown = null; return; }
+    var src = this.cardSrc[c.img];
+    if (!src) { this.cardEl.style.display = 'none'; return; }    // picture not fetched yet
+    if (this._cardShown !== c) {
+      this.cardImg.src = src;
+      this.cardEn.textContent = c.label || c.lemma || '';
+      this.cardAr.textContent = c.ar || '';
+      this._cardShown = c;
+    }
+    this.cardEl.style.display = 'block';
+  };
+
   Overlay.prototype.render = function (t) {
     this._t = t;
+    this.renderCard(t);
     var c = this.cfg, k = this.k || 1;
     if (!c || !(c.enabled === undefined ? true : c.enabled)) {
       this.strip.style.display = 'none';
@@ -156,7 +276,9 @@
       var L = langCfg[code] || {};
       var size = num(L.size, 44) * k;
       var col = hex(L.color, [255, 249, 240]);
-      var dir = String(L.dir || 'ltr');
+      // v28: a right-to-left script defaults to rtl. Declared `dir` still wins. Defaulting Arabic to ltr put
+      // the reading order and the punctuation on the wrong side.
+      var dir = String(L.dir || (/^(ar|fa|ur|he)$/.test(code) ? 'rtl' : 'ltr'));
       html += '<div dir="' + dir + '" data-lang="' + code + '" style="' +
         'font-size:' + size + 'px;' +
         'line-height:' + Math.round(size * LINE_RATIO) + 'px;' +
@@ -187,6 +309,8 @@
     out.strip = rect(this.strip);
     out.box = rect(this.box);
     out.badge = rect(this.badgeEl);
+    out.card = rect(this.cardEl);
+    out.cardText = out.card ? {en: this.cardEn.textContent, ar: this.cardAr.textContent} : null;
     out.langs = [];
     var kids = this.box.children;
     for (var i = 0; i < kids.length; i++) {

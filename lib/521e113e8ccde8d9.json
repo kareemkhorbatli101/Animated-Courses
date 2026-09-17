@@ -1,0 +1,252 @@
+{
+ "schema": "timeline/1",
+ "duration": 92.883,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.744,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 1, Introduction to the Vehicle.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.544,
+    "dur": 7.368,
+    "en": "This is Part 1, Check What You Know. You will answer questions about the new words, then check your answers.",
+    "ar": "هذا الجزء الأوّل، تحقّق ممّا تعرفه. ستجيب عن أسئلة حول الكلمات الجديدة، ثمّ تتحقّق من إجاباتك."
+   },
+   {
+    "start": 15.262,
+    "dur": 5.208,
+    "en": "Now let us check. Answer in the quiet, then I will tell you.",
+    "ar": "الآن لنتحقّق. أجب في الصمت، ثمّ سأخبرك."
+   },
+   {
+    "start": 20.82,
+    "dur": 2.28,
+    "en": "What does the battery do?",
+    "ar": "ماذا تفعل البطارية؟"
+   },
+   {
+    "start": 27.571,
+    "dur": 3.408,
+    "en": "It stores electricity to start the car.",
+    "ar": "تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 31.329,
+    "dur": 2.352,
+    "en": "Where does a mechanic work?",
+    "ar": "أين يعمل الميكانيكي؟"
+   },
+   {
+    "start": 38.269,
+    "dur": 1.992,
+    "en": "In the workshop.",
+    "ar": "في الورشة."
+   },
+   {
+    "start": 40.611,
+    "dur": 2.136,
+    "en": "What is a job card?",
+    "ar": "ما هي بطاقة العمل؟"
+   },
+   {
+    "start": 46.865,
+    "dur": 2.88,
+    "en": "A paper that lists the work to do.",
+    "ar": "ورقة تذكر العمل المطلوب."
+   },
+   {
+    "start": 50.095,
+    "dur": 5.328,
+    "en": "Fill the gap. The blank stores electricity to start the car.",
+    "ar": "املأ الفراغ. الـــ تخزّن الكهرباء لتشغيل السيارة."
+   },
+   {
+    "start": 61.952,
+    "dur": 5.328,
+    "en": "The battery. The battery stores electricity to start the car.",
+    "ar": "البطارية. البطارية تخزّن الكهرباء."
+   },
+   {
+    "start": 67.63,
+    "dur": 5.4,
+    "en": "And this one. The service advisor writes a blank for each car.",
+    "ar": "وهذا. مستشار الخدمة يكتب الـــ لكلّ سيارة."
+   },
+   {
+    "start": 79.677,
+    "dur": 5.928,
+    "en": "A job card. The service advisor writes a job card for each car.",
+    "ar": "بطاقة عمل. مستشار الخدمة يكتب بطاقة عمل لكلّ سيارة."
+   },
+   {
+    "start": 85.955,
+    "dur": 5.328,
+    "en": "Good work. Say each word once more before you go into the bay.",
+    "ar": "عمل جيّد. قل كلّ كلمة مرّة أخرى قبل أن تدخل الورشة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 0.225,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "bonnet",
+    "label": "bonnet",
+    "ar": "غطاء المحرّك",
+    "at": 3.525,
+    "hold": 3.0,
+    "img": "assets/vocab/bonnet.png",
+    "sha": "4361b875178db196"
+   },
+   {
+    "lemma": "boot",
+    "label": "boot",
+    "ar": "صندوق السيارة",
+    "at": 6.825,
+    "hold": 3.0,
+    "img": "assets/vocab/boot.png",
+    "sha": "07a57bd665859dd3"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "الفحص",
+    "at": 10.075,
+    "hold": 3.0,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "meter",
+    "label": "meter",
+    "ar": "جهاز القياس",
+    "at": 13.325,
+    "hold": 3.0,
+    "img": "assets/vocab/meter.png",
+    "sha": "a17dc9af8a9e2f4f"
+   },
+   {
+    "lemma": "report",
+    "label": "report",
+    "ar": "التقرير",
+    "at": 16.575,
+    "hold": 3.0,
+    "img": "assets/vocab/report.png",
+    "sha": "54e2bcd9e4a8b285"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 21.947,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 30.479,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 33.761,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 38.99,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 42.285,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "voltage",
+    "label": "voltage",
+    "ar": "الجهد الكهربائي",
+    "at": 55.523,
+    "hold": 3.0,
+    "img": "assets/vocab/voltage.png",
+    "sha": "9b1c862986c314d6"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 58.823,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 69.048,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "service_bay",
+    "label": "service bay",
+    "ar": "موقع الصيانة",
+    "at": 73.13,
+    "hold": 3.0,
+    "img": "assets/vocab/service_bay.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 76.43,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

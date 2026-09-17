@@ -47,7 +47,8 @@
    "defaults": {
     "speech": "en",
     "subtitles": [
-     "en"
+     "en",
+     "ar"
     ]
    },
    "mp4": []

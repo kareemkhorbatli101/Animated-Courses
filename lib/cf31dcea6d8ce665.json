@@ -1,0 +1,258 @@
+{
+ "schema": "timeline/1",
+ "duration": 80.041,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.528,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 1, Introduction to the Vehicle.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.328,
+    "dur": 7.92,
+    "en": "This is Part 3, At Reception. You will listen to a customer bring his car to the service desk, then answer questions.",
+    "ar": "هذا الجزء الثالث، في الاستقبال. ستستمع إلى زبون يُحضر سيارته إلى مكتب الخدمة، ثمّ تجيب عن الأسئلة."
+   },
+   {
+    "start": 15.598,
+    "dur": 5.088,
+    "en": "Before you listen. What does a service advisor ask a customer first?",
+    "ar": "قبل الاستماع. ماذا يسأل مستشار الخدمة الزبون أوّلاً؟"
+   },
+   {
+    "start": 27.686,
+    "dur": 3.096,
+    "en": "How can I help you. Listen for it.",
+    "ar": "كيف يمكنني مساعدتك. استمع إليها."
+   },
+   {
+    "start": 31.132,
+    "dur": 4.44,
+    "en": "Good morning, welcome to Cham Motors. How can I help you?",
+    "ar": "صباح الخير، أهلاً بك في شام موتورز. كيف يمكنني مساعدتك؟"
+   },
+   {
+    "start": 35.922,
+    "dur": 2.52,
+    "en": "My car needs a service.",
+    "ar": "سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 38.792,
+    "dur": 2.832,
+    "en": "Of course. What is the problem?",
+    "ar": "بالطبع. ما المشكلة؟"
+   },
+   {
+    "start": 41.974,
+    "dur": 4.008,
+    "en": "It is making a noise, and the service is due.",
+    "ar": "تصدر صوتاً، وموعد الصيانة حان."
+   },
+   {
+    "start": 46.332,
+    "dur": 4.296,
+    "en": "I will write a job card. Can you leave the car with us today?",
+    "ar": "سأكتب بطاقة عمل. هل يمكنك ترك السيارة عندنا اليوم؟"
+   },
+   {
+    "start": 50.978,
+    "dur": 3.408,
+    "en": "Yes. When will it be ready?",
+    "ar": "نعم. متى ستكون جاهزة؟"
+   },
+   {
+    "start": 54.736,
+    "dur": 3.048,
+    "en": "This afternoon. We will call you.",
+    "ar": "بعد الظهر. سنتّصل بك."
+   },
+   {
+    "start": 58.134,
+    "dur": 1.872,
+    "en": "What does his car need?",
+    "ar": "ماذا تحتاج سيارته؟"
+   },
+   {
+    "start": 64.359,
+    "dur": 4.032,
+    "en": "A service. He said, my car needs a service.",
+    "ar": "صيانة. قال: سيارتي تحتاج إلى صيانة."
+   },
+   {
+    "start": 68.741,
+    "dur": 1.944,
+    "en": "When will the car be ready?",
+    "ar": "متى ستكون السيارة جاهزة؟"
+   },
+   {
+    "start": 75.273,
+    "dur": 3.168,
+    "en": "This afternoon. Rana will call him.",
+    "ar": "بعد الظهر. رانا ستتّصل به."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "ready_time",
+    "label": "ready time",
+    "ar": "موعد الجاهزية",
+    "at": 0.225,
+    "hold": 3.0,
+    "img": "assets/vocab/ready_time.png",
+    "sha": "141740bc2a42d26f"
+   },
+   {
+    "lemma": "collect",
+    "label": "collect",
+    "ar": "استلام السيارة",
+    "at": 3.525,
+    "hold": 3.0,
+    "img": "assets/vocab/collect.png",
+    "sha": "ecb08a4d1e122408"
+   },
+   {
+    "lemma": "reception",
+    "label": "reception",
+    "ar": "الاستقبال",
+    "at": 8.464,
+    "hold": 3.0,
+    "img": "assets/vocab/reception.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "service_desk",
+    "label": "service desk",
+    "ar": "مكتب الخدمة",
+    "at": 12.661,
+    "hold": 3.0,
+    "img": "assets/vocab/service_desk.png",
+    "sha": "7179e793cf131515"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 15.916,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 19.211,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "symptom",
+    "label": "symptom",
+    "ar": "العَرَض",
+    "at": 22.486,
+    "hold": 3.0,
+    "img": "assets/vocab/symptom.png",
+    "sha": "83c130222a3c3cc1"
+   },
+   {
+    "lemma": "invoice",
+    "label": "invoice",
+    "ar": "الفاتورة",
+    "at": 25.775,
+    "hold": 3.0,
+    "img": "assets/vocab/invoice.png",
+    "sha": "d22bd792df275fcd"
+   },
+   {
+    "lemma": "estimate",
+    "label": "estimate",
+    "ar": "تقدير التكلفة",
+    "at": 29.025,
+    "hold": 3.0,
+    "img": "assets/vocab/estimate.png",
+    "sha": "714d0bdf966af482"
+   },
+   {
+    "lemma": "courtesy_car",
+    "label": "courtesy car",
+    "ar": "سيارة بديلة",
+    "at": 32.275,
+    "hold": 3.0,
+    "img": "assets/vocab/courtesy_car.png",
+    "sha": "1c6de8b7804558e5"
+   },
+   {
+    "lemma": "hand_over",
+    "label": "hand over",
+    "ar": "تسليم السيارة",
+    "at": 35.575,
+    "hold": 3.0,
+    "img": "assets/vocab/hand_over.png",
+    "sha": "452ca425c9f9da7d"
+   },
+   {
+    "lemma": "customer_relations",
+    "label": "customer care",
+    "ar": "خدمة العملاء",
+    "at": 38.875,
+    "hold": 3.0,
+    "img": "assets/vocab/customer_relations.png",
+    "sha": "5ca408e0c915dbc7"
+   },
+   {
+    "lemma": "service_schedule",
+    "label": "service schedule",
+    "ar": "جدول الصيانة",
+    "at": 42.175,
+    "hold": 3.0,
+    "img": "assets/vocab/service_schedule.png",
+    "sha": "2d2e49bb481cfe09"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 47.238,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "book_in",
+    "label": "book in",
+    "ar": "تسجيل السيارة",
+    "at": 60.106,
+    "hold": 3.0,
+    "img": "assets/vocab/book_in.png",
+    "sha": "e90e401e15e64918"
+   },
+   {
+    "lemma": "appointment",
+    "label": "appointment",
+    "ar": "الموعد",
+    "at": 70.785,
+    "hold": 3.0,
+    "img": "assets/vocab/appointment.png",
+    "sha": "6a66f529e24b13fa"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

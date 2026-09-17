@@ -92,6 +92,15 @@
     }));
   };
 
+  // v28: a line's declared gain, as a linear factor. The MP4's mixer (make_video._build_audio_timeline)
+  // has applied `gainDb` per clip since v14; this page ignored it, so a lesson levelled in the spec still
+  // played every voice at whatever level its synthesiser produced - and one speaker in a dialogue ran
+  // 5.5 dB under the other, which is what a listener hears as that voice dropping out.
+  function lineGain(l) {
+    var db = parseFloat(l.gainDb);
+    return isFinite(db) ? Math.pow(10, db / 20) : 1;
+  }
+
   SpeechAudio.prototype.stop = function () {
     this.playing.forEach(function (s) { try { s.stop(); } catch (e) { /* already ended */ } });
     this.playing = [];
@@ -118,7 +127,15 @@
         }
         var src = ctx.createBufferSource();
         src.buffer = ab;
-        src.connect(ctx.destination);
+        var g = lineGain(l);
+        if (g !== 1 && ctx.createGain) {
+          var gn = ctx.createGain();
+          gn.gain.value = g;
+          src.connect(gn);
+          gn.connect(ctx.destination);
+        } else {
+          src.connect(ctx.destination);
+        }
         src.start(t0 + when, offset);
         self.playing.push(src);
         n++;
@@ -141,9 +158,10 @@
       var step = ab.sampleRate / sr;
       var base = Math.round(l.start * sr);
       var len = Math.min(Math.round(ab.duration * sr), n - base);
+      var g = lineGain(l);                      // v28: the same gain the live path applies
       for (var k = 0; k < len; k++) {
         if (base + k < 0) continue;
-        out[base + k] += ch[Math.min(ch.length - 1, Math.round(k * step))];
+        out[base + k] += g * ch[Math.min(ch.length - 1, Math.round(k * step))];
       }
     }
     return {sampleRate: sr, data: out};

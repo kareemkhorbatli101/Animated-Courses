@@ -1,0 +1,246 @@
+{
+ "schema": "timeline/1",
+ "duration": 102.525,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 6.648,
+    "en": "Welcome to Auto Maintenance, Book 1. This is Unit 1, Introduction to the Vehicle.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل. هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.448,
+    "dur": 9.0,
+    "en": "This is Part 3, A Mechanic Talks About His Work. You will listen to a mechanic describe his day, then answer true or false.",
+    "ar": "هذا الجزء الثالث، ميكانيكي يتحدّث عن عمله. ستستمع إلى ميكانيكي يصف يومه، ثمّ تجيب بصح أو خطأ."
+   },
+   {
+    "start": 16.798,
+    "dur": 7.008,
+    "en": "Before you listen. What does a mechanic do first: read the job card, or start the engine?",
+    "ar": "قبل الاستماع. ماذا يفعل الميكانيكي أوّلاً؟"
+   },
+   {
+    "start": 31.806,
+    "dur": 5.064,
+    "en": "He reads the job card first. Listen, and you will hear it.",
+    "ar": "يقرأ بطاقة العمل أوّلاً. استمع، وستسمع ذلك."
+   },
+   {
+    "start": 37.22,
+    "dur": 5.256,
+    "en": "Hello, my name is Nabil. I am a mechanic at Cham Motors.",
+    "ar": "مرحباً، اسمي نبيل. أنا ميكانيكي في شام موتورز."
+   },
+   {
+    "start": 42.826,
+    "dur": 5.544,
+    "en": "I service and repair cars. First, I read the job card.",
+    "ar": "أقوم بصيانة السيارات وإصلاحها. أوّلاً، أقرأ بطاقة العمل."
+   },
+   {
+    "start": 48.72,
+    "dur": 6.048,
+    "en": "Right now, I am changing the oil. Tarek is working with me today.",
+    "ar": "الآن، أنا أغيّر الزيت. طارق يعمل معي اليوم."
+   },
+   {
+    "start": 55.118,
+    "dur": 4.584,
+    "en": "True or False. Nabil works in a bakery.",
+    "ar": "صح أم خطأ؟ نبيل يعمل في مخبز."
+   },
+   {
+    "start": 64.996,
+    "dur": 5.376,
+    "en": "False. Nabil works in a workshop, at Cham Motors.",
+    "ar": "خطأ. نبيل يعمل في ورشة، في شام موتورز."
+   },
+   {
+    "start": 70.722,
+    "dur": 5.112,
+    "en": "True or False. Nabil is changing the oil right now.",
+    "ar": "صح أم خطأ؟ نبيل يغيّر الزيت الآن."
+   },
+   {
+    "start": 81.834,
+    "dur": 5.424,
+    "en": "True. He said, right now, I am changing the oil.",
+    "ar": "صح. قال: الآن، أنا أغيّر الزيت."
+   },
+   {
+    "start": 87.608,
+    "dur": 4.272,
+    "en": "True or False. Nabil works alone.",
+    "ar": "صح أم خطأ؟ نبيل يعمل وحده."
+   },
+   {
+    "start": 96.821,
+    "dur": 4.104,
+    "en": "False. He works with Tarek today.",
+    "ar": "خطأ. هو يعمل مع طارق اليوم."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "gloves",
+    "label": "gloves",
+    "ar": "القفّازات",
+    "at": 0.225,
+    "hold": 3.0,
+    "img": "assets/vocab/gloves.png",
+    "sha": "7e9b0fa176462612"
+   },
+   {
+    "lemma": "safety_glasses",
+    "label": "safety glasses",
+    "ar": "نظّارات الأمان",
+    "at": 3.525,
+    "hold": 3.0,
+    "img": "assets/vocab/safety_glasses.png",
+    "sha": "e11552af89bf43e9"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 8.615,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "ppe",
+    "label": "PPE",
+    "ar": "معدّات الوقاية",
+    "at": 11.875,
+    "hold": 3.0,
+    "img": "assets/vocab/ppe.png",
+    "sha": "c7a87e39e6a8f14f"
+   },
+   {
+    "lemma": "trolley_jack",
+    "label": "trolley jack",
+    "ar": "رافعة متحرّكة",
+    "at": 15.125,
+    "hold": 3.0,
+    "img": "assets/vocab/trolley_jack.png",
+    "sha": "0db6f010e535fde9"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 21.294,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 24.555,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "oil_change",
+    "label": "oil change",
+    "ar": "تغيير الزيت",
+    "at": 27.806,
+    "hold": 3.0,
+    "img": "assets/vocab/oil_change.png",
+    "sha": "ef87261552807fc0"
+   },
+   {
+    "lemma": "inspect",
+    "label": "inspect",
+    "ar": "الفحص",
+    "at": 31.075,
+    "hold": 3.0,
+    "img": "assets/vocab/inspect.png",
+    "sha": "48aa3f95e274fe57"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 42.881,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "repair",
+    "label": "repair",
+    "ar": "الإصلاح",
+    "at": 46.163,
+    "hold": 3.0,
+    "img": "assets/vocab/repair.png",
+    "sha": "f77399bae217eb52"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 49.432,
+    "hold": 3.0,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   },
+   {
+    "lemma": "engine_oil",
+    "label": "engine oil",
+    "ar": "زيت المحرّك",
+    "at": 59.802,
+    "hold": 3.0,
+    "img": "assets/vocab/engine_oil.png",
+    "sha": "dce7d814c38db1ab"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 67.479,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "dipstick",
+    "label": "dipstick",
+    "ar": "مقياس الزيت",
+    "at": 75.934,
+    "hold": 3.0,
+    "img": "assets/vocab/dipstick.png",
+    "sha": "05c99e421c3d063a"
+   },
+   {
+    "lemma": "spanner",
+    "label": "spanner",
+    "ar": "مفتاح الربط",
+    "at": 91.98,
+    "hold": 3.0,
+    "img": "assets/vocab/spanner.png",
+    "sha": "7f8e98d03b81b560"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

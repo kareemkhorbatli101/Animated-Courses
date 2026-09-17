@@ -152,9 +152,15 @@
   }
 
   // ================================================================= browser state: ONE versioned key
-  var SKEY = 'animatedeverything:state', SVER = 1;
+  // SVER 2 (v28): the subtitle default changed from ['en'] to "every language the lesson declares", and
+  // version 1 states carry the OLD default written into storage as if a person had chosen it. Keeping them
+  // would leave every earlier visitor - the owner included - on English-only subtitles indefinitely, which
+  // is exactly the defect being fixed. A version-1 state is therefore discarded, as the rule below says.
+  var SKEY = 'animatedeverything:state', SVER = 2;
+  // subtitles: null = NOT CHOSEN - show every language this lesson declares. The owner's standing rule is
+  // English speech with subtitles in BOTH languages, so both is the default and a narrower set is a choice.
   var S = {v: SVER, expanded: [], resume: {}, mode: 'interactive.exact',
-           lang: {catalogue: 'en', speech: 'en', subtitles: ['en']}};
+           lang: {catalogue: 'en', speech: 'en', subtitles: null}};
   try {
     var raw = JSON.parse(localStorage.getItem(SKEY) || 'null');
     // An unrecognised version is DISCARDED, not hopefully migrated. Nothing here is irreplaceable.
@@ -281,7 +287,7 @@
 
       var vs = document.createElement('div');
       vs.className = 'videos';
-      row.videos.forEach(function (v) {
+      function videoRow(v) {
         var vt = titleOf(v, variant);
         var vrow = document.createElement('button');
         vrow.className = 'vrow' + (current && current.video.id === v.id &&
@@ -296,10 +302,61 @@
           '<bdi class="vmeta" dir="ltr">' + mmss(dur) + ' · ' +
           sizeLabel(v, 'bytes', 'wireBytes') + '</bdi>';
         vrow.onclick = function () { open_video(c, v); };
-        vs.appendChild(vrow);
-      });
+        return vrow;
+      }
+      // v28: BOOK -> UNIT -> PART -> VIDEO, when the course declares units (course/2). Each level folds, and
+      // its open state is remembered under a path key ("eam-b1/u01/p1") beside the course keys. A branch
+      // with no video left after filtering is not drawn - an empty "Part 3" row would be a dead end.
+      var shown = {};
+      row.videos.forEach(function (v) { shown[v.id] = v; });
+      if (c.units && c.units.length) {
+        ordered(c.units).forEach(function (u) {
+          var parts = ordered(u.parts || []).map(function (p) {
+            return {p: p, vids: (p.videos || []).map(function (id) { return shown[id]; })
+                                                .filter(Boolean)};
+          }).filter(function (x) { return x.vids.length; });
+          if (!parts.length) return;
+          vs.appendChild(branch(c.id + '/' + u.id, titleOf(u, variant).text, 'urow',
+                                parts.reduce(function (a, x) { return a + x.vids.length; }, 0),
+                                function (host) {
+            parts.forEach(function (x) {
+              host.appendChild(branch(c.id + '/' + u.id + '/' + x.p.id, titleOf(x.p, variant).text,
+                                      'prow', x.vids.length, function (h2) {
+                x.vids.forEach(function (v) { h2.appendChild(videoRow(v)); });
+              }, x.vids));
+            });
+          }, [].concat.apply([], parts.map(function (x) { return x.vids; }))));
+        });
+      } else {
+        row.videos.forEach(function (v) { vs.appendChild(videoRow(v)); });
+      }
       wrap.appendChild(vs);
       tree.appendChild(wrap);
+
+      function branch(key, label, cls, count, fillFn, vids) {
+        var holds = current && current.courseId === c.id &&
+                    vids.some(function (v) { return v.id === current.video.id; });
+        var isOpen = row.expanded || holds || S.expanded.indexOf(key) >= 0;
+        var box = document.createElement('div');
+        box.className = (cls === 'urow' ? 'unit' : 'part') + (isOpen ? ' open' : '');
+        var b = document.createElement('button');
+        b.className = cls;
+        b.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        b.innerHTML = '<span class="tw">▶</span><span class="ctitle" dir="auto">' + esc(label) +
+                      '</span><span class="count">' + count + '</span>';
+        b.onclick = function () {
+          var i = S.expanded.indexOf(key);
+          if (i >= 0) S.expanded.splice(i, 1); else S.expanded.push(key);
+          save(); render();
+        };
+        box.appendChild(b);
+        var inner = document.createElement('div');
+        inner.className = 'kids';
+        inner.hidden = !isOpen;
+        fillFn(inner);
+        box.appendChild(inner);
+        return box;
+      }
     });
   }
 
@@ -404,10 +461,15 @@
   }
 
   // ================================================================= loading, with honest feedback
-  var loadT0 = 0, loadTimer = null, lastProgress = 0, rate = [];
+  // loadShown: this load has ALREADY displayed a percentage. v28 found the bar freezing: the mode is chosen
+  // from max(elapsed, estimated remaining), and near the end of a load that finishes in just under ten
+  // seconds the estimate collapses while elapsed is still 9 s - so a bar that had been counting up flipped
+  // back to 'indeterminate', stopped being drawn, and sat at 92% through the whole voice phase. A
+  // percentage the page has shown is a promise to keep counting; it may start late, never stop early.
+  var loadT0 = 0, loadTimer = null, lastProgress = 0, rate = [], loadShown = false;
   function loadShow(what) {
     cancelled = false; aborter = null;
-    loadT0 = Date.now(); lastProgress = Date.now(); rate = [];
+    loadT0 = Date.now(); lastProgress = Date.now(); rate = []; loadShown = false;
     loadWhat.textContent = what; loadNums.textContent = ''; loadStall.textContent = '';
     loadRetry.hidden = true; loadCancel.hidden = false; loadBar.classList.add('indet');
     loadBar.firstChild.style.width = '0%';
@@ -448,7 +510,8 @@
   function tick() {
     var el = Date.now() - loadT0;
     var mode = feedbackFor(Math.max(el, total ? estTotalMs() : 0));
-    if (mode === 'determinate' && total) {
+    if (mode === 'determinate') loadShown = true;
+    if ((mode === 'determinate' || loadShown) && total) {
       loadBar.classList.remove('indet');
       loadBar.firstChild.style.width = Math.min(100, 100 * got / total).toFixed(1) + '%';
       var parts = [mb(got) + ' of ' + mb(total),
@@ -539,13 +602,18 @@
     // A speech variant this lesson lacks is never silently substituted: fall to what it HAS.
     if ((v.speech || []).indexOf(S.lang.speech) < 0) S.lang.speech = (v.speech || ['en'])[0];
     var subs = v.subtitles || [];
+    var wasChosen = Array.isArray(S.lang.subtitles);
     S.lang.subtitles = (S.lang.subtitles || []).filter(function (x) { return subs.indexOf(x) >= 0; });
+    // v28: never chosen -> EVERY declared language (both, for this course).
+    if (!wasChosen && !S.lang.subsNone) S.lang.subtitles = subs.slice();
     // Falling back to the first available track is right when a person's chosen LANGUAGE is missing
     // here - it is wrong when they chose None on purpose. Those two arrive at this line identically
     // (an empty list), so without subsNone a deliberate "no subtitles" was silently overruled, and a
     // link carrying subs= opened with English. Same defect as the stale URL, one layer down: state the
     // page could not tell apart from a default.
-    if (!S.lang.subtitles.length && subs.length && !S.lang.subsNone) S.lang.subtitles = [subs[0]];
+    // v28: a chosen language this lesson lacks falls back to ALL of its languages, not the first - the
+    // first was English, so the fallback itself was a route to English-only subtitles.
+    if (!S.lang.subtitles.length && subs.length && !S.lang.subsNone) S.lang.subtitles = subs.slice();
     save(); syncAxes(); render(); describe();
     syncUrl();
     try { setScript(!!S.script); } catch (e) {}
@@ -738,6 +806,47 @@
     scrub.value = 0;
   }
 
+  // v28: the badge, the subtitles and the keyword cards, drawn BEFORE the 3D arrives.
+  //
+  // Measured on the live site before this: the badge <img> existed with an EMPTY src and zero height after
+  // four minutes. Two causes, both here. mount() was only ever handed a pack WITHOUT a badge URL - nothing on
+  // this page fetched the badge image at all - so `if (pack.badgeUrl)` was never true. And the timeline, the
+  // overlay layout and the badge all waited until every model had streamed and the voice had decoded, so on
+  // a slow link nothing but a progress bar was on screen for minutes. Now the small things come first.
+  function earlyOverlay(manifest, scene) {
+    return fetcher.json(rec(manifest, 'timeline.json')).then(function (tl) {
+      var jobs = [], urls = {badge: null, cards: {}};
+      function img(rel) {
+        return fetcher.get(rec(manifest, rel)).then(function (buf) {
+          return URL.createObjectURL(new Blob([buf], {type: 'image/png'}));
+        });
+      }
+      var b = (tl.badge || {}).img;
+      if (b && manifest.files[b]) jobs.push(img(b).then(function (u) { urls.badge = u; }));
+      (((tl.vocab || {}).cards) || []).forEach(function (c) {
+        if (!c.img || !manifest.files[c.img] || c.img in urls.cards) return;
+        urls.cards[c.img] = null;
+        // a card whose picture fails is not drawn; it never takes the badge or the lesson with it
+        jobs.push(img(c.img).then(function (u) { urls.cards[c.img] = u; },
+                                  function () { delete urls.cards[c.img]; }));
+      });
+      return Promise.all(jobs).then(function () {
+        var ov = new Overlay($('overlay'), scene, tl);
+        ov.setShow(subtitleChoice());
+        var aspect = ((scene.size && scene.size[0]) || 1920) / ((scene.size && scene.size[1]) || 1080);
+        var w = $('stagewrap').clientWidth, h = $('stagewrap').clientHeight;
+        var ww = Math.min(w, h * aspect);
+        ov.layout(Math.round(ww), Math.round(ww / aspect));
+        if (urls.badge) ov.setBadgeSrc(urls.badge);
+        ov.setCardSrcs(urls.cards);
+        ov.render(0);
+        window.__overlay = ov;
+        return {timeline: tl, overlay: ov};
+      });
+    });
+  }
+
+  var earlyOv = null;
   function loadLesson(v) {
     teardown();
     loadShow('Loading ' + titleOf(v, S.lang.catalogue).text);
@@ -769,6 +878,11 @@
       // A missing entry is a NAMED failure, never a silently closed mouth.
       if (missing.length) throw new Error('the ' + langName(audio.variant) +
         ' audio index is missing ' + missing.length + ' line(s): ' + missing.slice(0, 3).join(', '));
+      // v28: THE OVERLAY FIRST - before a single byte of geometry. It is a few kilobytes, and it carries
+      // the owner's name and phone number, which must be on screen whatever happens to the 3D.
+      return earlyOverlay(manifest, scene);
+    }).then(function (pre) {
+      earlyOv = pre;
 
       // Fetch in SHOT order - the opening shot needs one actor and the set, not nine models.
       var rels = [];
@@ -820,9 +934,8 @@
       });
       return chain.then(function () { return buffers; });
     }).then(function (buffers) {
-      return fetcher.json(rec(manifest, 'timeline.json')).then(function (tl) {
-        return mount({manifest: manifest, scene: scene, buffers: buffers, timeline: tl});
-      });
+      return mount({manifest: manifest, scene: scene, buffers: buffers, timeline: earlyOv.timeline,
+                    overlay: earlyOv.overlay});
     }).catch(function (e) {
       var msg = String((e && e.message) || e);
       // Cancelling is not a failure, and slowness is not an error. Only a real fault gets red text.
@@ -854,7 +967,9 @@
     }
     sizeCanvas(aspect);
     var player = new ScenePlayer(THREE, renderer);
-    var ov = new Overlay($('overlay'), scene, pack.timeline || {});
+    // v28: the overlay built in earlyOverlay() - badge, cards and subtitles already on screen - is kept, not
+    // replaced; building a second one here would blank the badge again for the rest of the load.
+    var ov = pack.overlay || new Overlay($('overlay'), scene, pack.timeline || {});
     // The overlay's own API: setShow takes the language codes to display, render(t) draws the cue.
     ov.setShow(subtitleChoice());
     // The spoken audio, per line, each verified against its own hash (P6). It reads scene.speech, which
@@ -1804,7 +1919,7 @@
     // The subtitle selectors are the language choice. If a student has turned subtitles off entirely we
     // still have to show something, so fall back to the lesson's first available language.
     var want = (S.lang.subtitles || []).slice();
-    if (!want.length && current && current.video) want = (current.video.subtitles || ['en']).slice(0, 1);
+    if (!want.length && current && current.video) want = (current.video.subtitles || ['en']).slice();
     return want;
   }
 

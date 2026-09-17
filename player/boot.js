@@ -64,13 +64,26 @@
         return fetcher.getMany(rels.map(function (rel) { return recOf(manifest, rel); }))
           .then(function (buffers) {
             return fetcher.json(recOf(manifest, 'timeline.json')).then(function (timeline) {
-              var pack = {manifest: manifest, scene: scene, buffers: buffers, timeline: timeline};
+              var pack = {manifest: manifest, scene: scene, buffers: buffers, timeline: timeline,
+                          cardUrls: {}};
+              // v28: the badge AND every vocabulary card picture, fetched together and each verified
+              // against its own hash by the fetcher. A card whose picture cannot be fetched is left out
+              // of the map and simply not drawn - it never takes the badge or the lesson down with it.
+              var jobs = [];
               var bimg = (timeline.badge || {}).img;
-              if (!bimg || !manifest.files[bimg]) return pack;
-              return fetcher.get(recOf(manifest, bimg)).then(function (buf) {
-                pack.badgeUrl = URL.createObjectURL(new Blob([buf], {type: 'image/png'}));
-                return pack;
+              if (bimg && manifest.files[bimg]) {
+                jobs.push(fetcher.get(recOf(manifest, bimg)).then(function (buf) {
+                  pack.badgeUrl = URL.createObjectURL(new Blob([buf], {type: 'image/png'}));
+                }));
+              }
+              (((timeline.vocab || {}).cards) || []).forEach(function (c) {
+                if (!c.img || !manifest.files[c.img] || pack.cardUrls[c.img]) return;
+                pack.cardUrls[c.img] = null;
+                jobs.push(fetcher.get(recOf(manifest, c.img)).then(function (buf) {
+                  pack.cardUrls[c.img] = URL.createObjectURL(new Blob([buf], {type: 'image/png'}));
+                }, function () { delete pack.cardUrls[c.img]; }));
               });
+              return Promise.all(jobs).then(function () { return pack; });
             });
           });
       });
@@ -129,14 +142,25 @@
     // arrive - a second or more on a slow connection - and then flipped. The choice belongs to the
     // person, so it applies the moment there is an overlay to apply it to.
     if (chosenLangs) ov.setShow(chosenLangs);
+    // v28: THE OVERLAY DOES NOT WAIT FOR THE 3D. The badge, the subtitles and the cards used to be laid
+    // out inside player.load()'s completion callback, and seek() returned before drawing them while the
+    // models were still arriving. So a slow connection, a large moulded cast or a model that failed to
+    // parse left the page with no attribution, no subtitles in EITHER language and no cards - measured on
+    // the live site as a badge <img> with an empty src and zero height after four minutes. The owner's
+    // name and phone number are the one thing that must be on screen whatever else happens, and the
+    // subtitles are the lesson; neither has anything to do with whether a mesh has loaded.
+    ov.layout(ds[0], ds[1]);
+    if (pack.badgeUrl) ov.setBadgeSrc(pack.badgeUrl);
+    if (pack.cardUrls) ov.setCardSrcs(pack.cardUrls);
+    wireLangs(ov);
     var ready = false;
     var part = {
       scene: scene, player: player, overlay: ov, duration: scene.duration,
       seek: function (t) {
         window.__lastLocalT = t;
+        ov.render(t);                 // always - see above
         if (!ready) return;
         player.seek(t);
-        ov.render(t);
       },
       teardown: function () { ov.host.innerHTML = ''; }
     };
@@ -154,13 +178,9 @@
     }
     player.load(scene, pack.buffers, function () {
       ready = true;
-      ov.layout(ds[0], ds[1]);
-      if (pack.badgeUrl) ov.setBadgeSrc(pack.badgeUrl);
-      // the language selector belongs to the PAGE, not to a part, so it keeps the viewer's choice
-      // across a join instead of resetting at every new bundle
-      wireLangs(ov);
       part.seek(window.__lastLocalT || 0);
     });
+    ov.render(window.__lastLocalT || 0);
     window.__player = player;
     window.__overlay = ov;
     window.__part = part;
@@ -168,9 +188,14 @@
   }
 
   var chosenLangs = null;
+  // The language selector belongs to the PAGE, so the viewer's choice carries across parts. v28: but its
+  // OPTIONS belong to the lesson - it used to be built once, from the first lesson, and never again, so a
+  // later lesson with different languages offered the first lesson's. It is rebuilt whenever the declared
+  // set changes, and the choice is re-applied through setShow, which narrows it to what is declared.
   function wireLangs(ov) {
     if (!langSel) return;
-    if (langSel.dataset.wired === '1') return;
+    var sig = ov.langs.join(',');
+    if (langSel.dataset.wired === sig) { langSel.value = ov.show.join(','); return; }
     langSel.innerHTML = '';
     ov.langs.forEach(function (code) {
       var o = document.createElement('option');
@@ -185,7 +210,7 @@
       chosenLangs = langSel.value;
       if (window.__overlay) window.__overlay.setShow(chosenLangs);
     };
-    langSel.dataset.wired = '1';
+    langSel.dataset.wired = sig;
   }
 
   // ---- the transport: play, scrub, clock -------------------------------------------------------

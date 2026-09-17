@@ -183,12 +183,18 @@ header .spacer{flex:1}
 .crow{display:flex;align-items:center;gap:8px;width:100%;padding:8px 9px;border-radius:7px;background:none;border:0;cursor:pointer;text-align:start}
 .crow:hover{background:var(--surface2)}
 .tw{color:var(--muted);font-size:11px;width:11px;flex:none;transition:transform .12s}
-.course.open .tw{transform:rotate(90deg)}
-[dir=rtl] .course.open .tw{transform:rotate(-90deg)}
+.course.open>.crow .tw{transform:rotate(90deg)}
+[dir=rtl] .course.open>.crow .tw{transform:rotate(-90deg)}
 .ctitle{font-weight:600;flex:1;min-width:0}
 .count{color:var(--muted);font-size:12px;flex:none}
 .videos{display:none;margin:2px 0 8px 0;padding-inline-start:19px;border-inline-start:1px solid var(--border)}
 .course.open .videos{display:block}
+.urow,.prow{display:flex;align-items:center;gap:8px;width:100%;padding:6px 9px;border-radius:7px;background:none;border:0;cursor:pointer;text-align:start}
+.urow{font-weight:600}
+.urow:hover,.prow:hover{background:var(--surface2)}
+.unit.open>.urow .tw,.part.open>.prow .tw{transform:rotate(90deg)}
+[dir=rtl] .unit.open>.urow .tw,[dir=rtl] .part.open>.prow .tw{transform:rotate(-90deg)}
+.kids{margin:2px 0 4px 0;padding-inline-start:16px;border-inline-start:1px solid var(--border)}
 .vrow{display:flex;align-items:center;gap:9px;width:100%;padding:7px 9px;border-radius:7px;background:none;border:0;cursor:pointer;text-align:start}
 .vrow:hover{background:var(--surface2)}
 .vrow.active{background:var(--surface2);box-shadow:inset 3px 0 0 var(--accent)}

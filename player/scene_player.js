@@ -43,16 +43,27 @@
   // sample rather than interpolation precisely so the two languages cannot disagree: the envelope is
   // already a 25 Hz RMS, and two interpolators would have to match to the last bit for parity to hold.
   var JAW_GAIN=0.9;
-  function jawAt(mouth,t){
+  // v28: see interp._chan_at - ONE lookup shared by the jaw and both viseme channels, so the browser
+  // cannot read `wide` by a different rule from the one it reads `env` by.
+  function chanAt(mouth,t,key,gain){
     if(!mouth||!mouth.length) return 0.0;
     for(var k=0;k<mouth.length;k++){ var sg=mouth[k];
       if(sg.start<=t && t<sg.start+sg.dur){
-        var env=sg.env; if(!env||!env.length) return 0.0;
+        var ch=sg[key]; if(!ch||!ch.length) return 0.0;
         var i=Math.floor((t-sg.start)/sg.hop);
-        if(i<0) i=0; if(i>=env.length) i=env.length-1;
-        return JAW_GAIN*env[i];
+        if(i<0) i=0; if(i>=ch.length) i=ch.length-1;
+        return gain*ch[i];
       } }
     return 0.0;
+  }
+  function jawAt(mouth,t){ return chanAt(mouth,t,'env',JAW_GAIN); }
+  // v28: see interp.viseme_at - gated on the jaw, so no shape is held through a silence.
+  var VIS_GAIN=0.55;
+  function visemeAt(mouth,t){
+    var openNow=chanAt(mouth,t,'env',1.0);
+    if(openNow<=0.0) return [0.0,0.0];
+    return [VIS_GAIN*openNow*chanAt(mouth,t,'wide',1.0),
+            VIS_GAIN*openNow*chanAt(mouth,t,'round',1.0)];
   }
 
   function drive(sc,t){
@@ -90,7 +101,9 @@
       // see interp.drive: a looping Talk clip fights the measured envelope, so the envelope wins
       if(jaw>0.0 && clip==="Talk") clip="Idle";
       var clipT = t - clipSince;
-      out.push({pos:pos, face:face, clip:clip, jaw:jaw, clip_t: clipT>0.0?clipT:0.0});
+      var vz = visemeAt(a.mouth,t);
+      out.push({pos:pos, face:face, clip:clip, jaw:jaw, wide:vz[0], round:vz[1],
+                clip_t: clipT>0.0?clipT:0.0});
     }
     var cp,ct;
     if(sc.camera_mode==="group"){
@@ -144,7 +157,7 @@
     var shadows = addLights(THREE, scene, S.lighting);
     if(shadows && this.renderer){ this.renderer.shadowMap.enabled=true; this.renderer.shadowMap.type=THREE.PCFSoftShadowMap; }
     var setRel = (shadows && S.set.noceil_glb) ? S.set.noceil_glb : (S.set.glb || S.set.noceil_glb);
-    this.mixers=[]; this.roots=[]; this.curClip=[];
+    this.mixers=[]; this.roots=[]; this.curClip=[]; this._mm=[];   // _mm: a new lesson's actors, not the last one's
     for(var i=0;i<S.actors.length;i++){ this.mixers.push(null); this.roots.push(null); this.curClip.push(null); }
     var items=[{rel:setRel, kind:'set'}];
     for(var j=0;j<S.actors.length;j++) items.push({rel:S.actors[j].model_glb, kind:'actor', idx:j});
@@ -194,6 +207,28 @@
               group:groupOf(S.actors), fov:S.camera.fov };
     this.camera=new THREE.PerspectiveCamera(primeFovToThree(S.camera.fov), (S.size?S.size[0]/S.size[1]:16/9), 0.05, 500);
   };
+  // v28: every mesh on actor i that carries a mouth morph, found once per actor and then reused. Walking
+  // the scene graph per frame would be the kind of cost that is invisible on one actor and not on five.
+  ScenePlayer.prototype._mouthMeshes = function(i){
+    this._mm = this._mm || [];
+    if(this._mm[i] !== undefined) return this._mm[i];
+    var out=[], root=this.roots[i];
+    if(root) root.traverse(function(o){
+      var d=o.morphTargetDictionary;
+      if(d && o.morphTargetInfluences && d.jawOpen !== undefined) out.push(o);
+    });
+    this._mm[i]=out;
+    return out;
+  };
+  ScenePlayer.prototype._setMouth = function(i, jaw, wide, rnd){
+    var ms=this._mouthMeshes(i);
+    for(var k=0;k<ms.length;k++){
+      var o=ms[k], d=o.morphTargetDictionary, w=o.morphTargetInfluences;
+      w[d.jawOpen]=jaw;
+      if(d.mouthWide!==undefined) w[d.mouthWide]=wide;     // absent on pre-v28 heads: jaw alone,
+      if(d.mouthRound!==undefined) w[d.mouthRound]=rnd;    // exactly as those heads always drove
+    }
+  };
   ScenePlayer.prototype._setClip = function(i, want){
     var m=this.mixers[i]; if(want===m.cur) return;
     var cl=null; for(var k=0;k<m.clips.length;k++){ if(m.clips[k].name===want){ cl=m.clips[k]; break; } }
@@ -207,6 +242,15 @@
       this._setClip(i, st.clip);
       // v27.22 (P2): the interpreter's clip phase, so this matches Prime's restarted mixer exactly.
       this.mixers[i].mixer.setTime(Math.max(0, st.clip_t === undefined ? t : st.clip_t));
+      // v28: THE MOUTH. drive() has returned `jaw` since v27.21 and this loop never applied it: the
+      // value was computed for every actor on every frame and then dropped, so the published player's
+      // characters spoke with their mouths shut while the MP4 of the same lesson moved them. The parity
+      // gate could not see it because it compares drive()'s OUTPUT, and the output was right.
+      //
+      // Applied AFTER mixer.setTime, because the baked Idle clip animates the same morph weights (the
+      // blink) and would otherwise overwrite the jaw on the next frame. Only the mouth targets are
+      // written, so the clip still owns the blink.
+      this._setMouth(i, st.jaw || 0, st.wide || 0, st.round || 0);
     }
     // THE VIEWER'S CAMERA, APPLIED AFTER drive() AND NOWHERE ELSE.
     //
