@@ -13,7 +13,9 @@
 (function (root) {
   'use strict';
 
-  var D = root.Describe, A = root.Agent;
+  // v28.3: the agent module is read when it is USED, not when this file loads: a host that hands over its own
+  // assistant never loads agent.js at all (PNE-08, AI-03).
+  var D = root.Describe;
 
   // ---- the three actions. A dropdown was removed on purpose: three buttons, visible, no hunting.
   var ACTIONS = [
@@ -57,11 +59,21 @@
     return b;
   }
 
+  // v28.3 (component): WHO ANSWERS is the host's call. ctx may carry
+  //   agent        an object implementing the Agent seam (the host's own assistant, or a provider it wrapped)
+  //   agentLabel   how to name it: "Provided by <label>"
+  //   permissions  function -> {ownAgent, modelDownload, localNetwork}: may this pane use its OWN models?
+  //   request      function(name, details) -> Promise<bool>: ask the host at the moment of need
+  //   modalRoot    where the answer dialog is attached (a shadow root's container, not the document)
+  // With none of these (our site before v28.3, and any page that builds the pane directly) it behaves exactly as it did.
   function AskPane(host, ctx) {
     this.host = host;
     this.ctx = ctx;                      // { scene(), index(), cameraAt(t), time(), transcript(), rosterText() }
-    this.provider = (ctx && ctx.provider) || 'ollama';
-    this.agent = A.create(this.provider);
+    this.hostAgent = (ctx && ctx.agent) || null;
+    this.hostLabel = (ctx && ctx.agentLabel) || 'this page';
+    var kinds = this.ownKinds();
+    this.provider = this.hostAgent ? 'host' : ((ctx && ctx.provider) || kinds[0] || 'ollama');
+    this.agent = this.hostAgent ? this.hostAgent : root.Agent.create(this.provider);
     this.action = 'video';
     this.askLang = 'en-GB';
     this.sayLang = 'en-GB';
@@ -74,6 +86,41 @@
     this.agent.on(function (s) { if (self.agent === first) self.renderState(s); });
     this.refresh();
   }
+
+  AskPane.prototype.perms = function () {
+    var p = (this.ctx && typeof this.ctx.permissions === 'function') ? this.ctx.permissions() : null;
+    return p || {ownAgent: true, modelDownload: true, localNetwork: true};
+  };
+  // The page's own models this pane may offer: none without ownAgent (unless the host can be ASKED at the moment of
+  // need), no Ollama without localNetwork.
+  AskPane.prototype.ownKinds = function () {
+    var p = this.perms(), ask = !!(this.ctx && this.ctx.request);
+    if (!p.ownAgent && !ask) return [];
+    var out = [];
+    if (p.localNetwork || (ask && !p.ownAgent)) out.push('ollama');
+    out.push('webllm');
+    return out;
+  };
+  AskPane.prototype.fillProviders = function () {
+    var self = this, sel = this.provSel;
+    sel.innerHTML = '';
+    if (this.hostAgent) {
+      var o = el('option', null, 'Provided by ' + this.hostLabel);
+      o.value = 'host';
+      sel.appendChild(o);
+    }
+    var names = {ollama: 'On this computer', webllm: 'In this browser'};
+    this.ownKinds().forEach(function (k) {
+      var o2 = el('option', null, names[k]);
+      o2.value = k;
+      sel.appendChild(o2);
+    });
+    sel.value = this.provider;
+    // one choice is not a choice: a pane that can only use the host's assistant says so, and cannot be switched
+    sel.disabled = sel.options.length < 2;
+    sel.title = this.hostAgent && sel.options.length < 2 ? ('Answers come from ' + this.hostLabel)
+                                                        : 'Where the model runs';
+  };
 
   AskPane.prototype.build = function () {
     var self = this, h = this.host;
@@ -91,12 +138,7 @@
     // because there is no server for the browser to refuse to talk to.
     this.provSel = el('select', 'langsel prov');
     this.provSel.title = 'Where the model runs';
-    [['ollama', 'On this computer'], ['webllm', 'In this browser']].forEach(function (pr) {
-      var o = el('option', null, pr[1]);
-      o.value = pr[0];
-      self.provSel.appendChild(o);
-    });
-    this.provSel.value = this.provider;
+    this.fillProviders();
     this.provSel.onchange = function () { self.setProvider(self.provSel.value); };
     head.appendChild(this.provSel);
     this.modelSel = el('select', 'modelsel');
@@ -112,13 +154,16 @@
     head.appendChild(re);
     // NOTHING DOWNLOADS WITHOUT THIS BEING PRESSED. It appears only when the selected model is not
     // already on this device, and its label carries the SIZE so the cost is visible before the click.
-    this.dlBtn = el('button', 'ibtn dlmodel');
+    // v28.3: with modelDownload withheld by the host, the button never exists (PRM-04).
+    this.dlBtn = this.perms().modelDownload ? el('button', 'ibtn dlmodel') : null;
+    if (this.dlBtn) {
     // A tooltip from the start, not only once it is shown: a control with no title fails the pane's
     // own English-tooltip rule the moment it exists, whether or not anyone can see it yet.
     this.dlBtn.title = 'Download the selected model into this browser, once, from a public CDN';
     this.dlBtn.textContent = 'Download model';
     this.dlBtn.style.display = 'none';
     this.dlBtn.onclick = function () { self.downloadModel(); };
+    }
     top.appendChild(head);
 
     this.stateLine = el('div', 'askstate');
@@ -137,7 +182,7 @@
       acts.appendChild(b);
       self.actBtns[a.id] = b;
     });
-    top.appendChild(this.dlBtn);
+    if (this.dlBtn) top.appendChild(this.dlBtn);
     top.appendChild(acts);
     h.appendChild(top);
 
@@ -267,15 +312,24 @@
   /* Switching provider is a fresh agent: a model list, a readiness state and a connection all belong to
    * the provider that produced them, and carrying any of them across would be the same class of defect
    * as the green dot that survived a model change. */
-  AskPane.prototype.setProvider = function (kind) {
+  AskPane.prototype.setProvider = function (kind, noAsk) {
     var self = this;
     if (kind === this.provider) return;
+    // v28.3: an OWN model is used only with the host's permission - asked at this moment when the host can be asked.
+    if (kind !== 'host' && !noAsk && this.ctx && this.ctx.request) {
+      var prev = this.provider;
+      Promise.resolve(this.ctx.request('ownAgent', {provider: kind})).then(function (ok) {
+        if (ok) self.setProvider(kind, true);
+        else { self.provSel.value = prev; self.stateLine.textContent = 'Not permitted by this page'; }
+      }, function () { self.provSel.value = prev; self.stateLine.textContent = 'Not permitted by this page'; });
+      return;
+    }
     try {
       this.agent.stop();
     } catch (e) { /* nothing in flight */ }
     this.provider = kind;
     try {
-      this.agent = A.create(kind);
+      this.agent = kind === 'host' ? this.hostAgent : root.Agent.create(kind);
     } catch (e) {
       this.stateLine.textContent = String((e && e.message) || e);
       return;
@@ -291,10 +345,50 @@
 
   /* The download. Progress is shown in bytes against the size that was promised, because a percentage
    * with no denominator tells a person nothing about whether to wait. */
+  // v28.3: the host may withdraw permission at any time; an own model's answer in flight is stopped.
+  AskPane.prototype.permissionsChanged = function () {
+    // an agent built from a provider the host handed over is the component's OWN: withdrawing ownAgent stops it,
+    // in flight and for the future (PRM-07)
+    if (this.ctx && this.ctx.agentIsOwn && !this.perms().ownAgent) {
+      try { this.agent.stop(); } catch (e) { /* nothing in flight */ }
+      this.hostAgent = null;
+      this.stateLine.textContent = 'Not permitted by this page';
+      this.fillProviders();
+      return;
+    }
+    if (this.provider !== 'host' && this.ownKinds().indexOf(this.provider) < 0) {
+      try { this.agent.stop(); } catch (e) { /* nothing in flight */ }
+      if (this.hostAgent) this.setProvider('host', true);
+      else this.stateLine.textContent = 'Not permitted by this page';
+    }
+    if (!this.perms().modelDownload && this.dlBtn) {
+      if (this.dlBtn.parentNode) this.dlBtn.parentNode.removeChild(this.dlBtn);
+      this.dlBtn = null;
+    }
+    this.fillProviders();
+  };
+
+  AskPane.prototype.dispose = function () {
+    try { this.agent.stop(); } catch (e) { /* nothing in flight */ }
+    if (this._tick) { clearInterval(this._tick); this._tick = null; }
+    if (this._rec) { try { this._rec.stop(); } catch (e) {} this._rec = null; }
+    if (this._modal) { try { this._modal.close(); } catch (e) {} }
+    this.host.innerHTML = '';
+  };
+
   AskPane.prototype.downloadModel = function () {
     var self = this;
     var id = this.modelSel.value;
-    if (!id) return;
+    if (!id || !this.dlBtn) return;
+    if (this.ctx && this.ctx.request && !this._dlAsked) {
+      var entry0 = (this.list || []).filter(function (m) { return m.name === id; })[0] || {};
+      Promise.resolve(this.ctx.request('modelDownload', {model: id, bytes: entry0.bytes || 0})).then(function (ok) {
+        if (!ok) { self.stateLine.textContent = 'Not permitted by this page'; return; }
+        self._dlAsked = true;
+        try { self.downloadModel(); } finally { self._dlAsked = false; }
+      });
+      return;
+    }
     this.dlBtn.disabled = true;
     var entry = (this.list || []).filter(function (m) { return m.name === id; })[0] || {};
     this.stateLine.textContent = 'Downloading ' + (entry.label || id) + ' (' + (entry.size || '?') + ')…';
@@ -422,8 +516,8 @@
     // on a prior successful connection only removes the one action that could recover from a failure.
     var sel = (s.models || []).filter(function (m) { return m.name === s.model; })[0];
     var needsDownload = this.provider === 'webllm' && sel && !sel.installed
-                     && sel.fits !== false && !sel.needsF16;
-    this.dlBtn.style.display = needsDownload ? '' : 'none';
+                     && sel.fits !== false && !sel.needsF16 && !!this.dlBtn;
+    if (this.dlBtn) this.dlBtn.style.display = needsDownload ? '' : 'none';
     if (needsDownload) {
       this.dlBtn.textContent = 'Download ' + (sel.label || sel.name) + ' (' + sel.size + ')';
       this.dlBtn.title = sel.licence + ' — about ' + sel.eta + ' on this connection. '
@@ -471,6 +565,9 @@
       // a question about "the first frame" asked here, where there is no frame, no camera and no
       // clock - and the model answered it instead of saying so.
       parts.push(D.scopeLine(false));
+      // v28.3: WHICH LESSON, said. A question about "this lesson" was answered from facts that never named it - so a
+      // host's assistant, which may serve many lessons, could not tell which one it was being asked about.
+      if (scene && scene.title) parts.push('This lesson is titled "' + scene.title + '".');
       if (idx) parts.push(D.worldProse(idx));
       // WHO SAYS WHAT, IN ORDER - the thing that makes "reconstruct the conversation" answerable. It
       // is built from the lesson's OWN scene, so it no longer depends on the Script pane having been
@@ -615,6 +712,8 @@
     var ground = this.grounding();
     this.lastGrounding = ground;
     var prompt = ground ? ('FACTS:\n' + ground + '\n\nQUESTION: ' + q) : q;
+    // v28.3: an assistant that does not honour the system prompt still gets the facts; its answers say so.
+    var hostIgnoresSystem = this.provider === 'host' && snap && snap.honoursSystem === false;
 
     this.addTurn('you', q);
     var bubble = this.addTurn('ai', '');
@@ -625,6 +724,7 @@
     exp.className = 'ibtn expand';
     exp.onclick = function () { self.openModal(body.textContent, exp); };
     bubble.appendChild(exp);
+    if (hostIgnoresSystem) bubble.appendChild(el('div', 'measured', 'Host assistant, facts supplied'));
 
     this.agent.ask({
       prompt: prompt, system: this.system(),
@@ -690,8 +790,15 @@
     box.appendChild(foot);
     back.appendChild(box);
 
+    // v28.3: inside a component the dialog belongs to the component's own root, so its styles apply and nothing is
+    // added to the host page's document (MNT-05); focus is read where it really is.
+    var rootNode = this.host.getRootNode ? this.host.getRootNode() : document;
+    var inShadow = !!(rootNode && rootNode !== document && rootNode.host);
+    var keys = inShadow ? rootNode : document;
+    var mountAt = inShadow ? ((this.ctx && this.ctx.modalRoot) || rootNode) : document.body;
+    var active = function () { return inShadow ? rootNode.activeElement : document.activeElement; };
     function shut() {
-      document.removeEventListener('keydown', onKey, true);
+      keys.removeEventListener('keydown', onKey, true);
       if (back.parentNode) back.parentNode.removeChild(back);
       // The keyboard must not be stranded: focus goes back to the control that opened this.
       if (opener && opener.focus) opener.focus();
@@ -703,13 +810,13 @@
       var f = box.querySelectorAll('button, [href], textarea, select, [tabindex]:not([tabindex="-1"])');
       if (!f.length) return;
       var first = f[0], last = f[f.length - 1];
-      if (e.shiftKey && document.activeElement === first) { last.focus(); e.preventDefault(); }
-      else if (!e.shiftKey && document.activeElement === last) { first.focus(); e.preventDefault(); }
+      if (e.shiftKey && active() === first) { last.focus(); e.preventDefault(); }
+      else if (!e.shiftKey && active() === last) { first.focus(); e.preventDefault(); }
     }
     close.onclick = shut;
     back.onclick = function (e) { if (e.target === back) shut(); };
-    document.addEventListener('keydown', onKey, true);
-    document.body.appendChild(back);
+    keys.addEventListener('keydown', onKey, true);
+    mountAt.appendChild(back);
     copy.focus();
     this._modal = {back: back, text: text, close: shut};
     return back;
@@ -717,14 +824,21 @@
 
   AskPane.prototype.copyFallback = function (text, done) {
     // navigator.clipboard needs a secure context; a plain http:// page is not one.
+    // v28.3: THE KEYBOARD IS NOT LEFT STRANDED. Selecting a hidden textarea moves focus out of the dialog, and
+    // removing it left focus on the body - so the next Escape went nowhere and the dialog could only be closed with
+    // the mouse. Focus goes back where it was.
+    var rootNode = this.host.getRootNode ? this.host.getRootNode() : document;
+    var prev = (rootNode && rootNode.activeElement) || document.activeElement;
     try {
       var ta = document.createElement('textarea');
       ta.value = text;
       ta.style.cssText = 'position:fixed;left:-9999px';
-      document.body.appendChild(ta);
+      var at = (this._modal && this._modal.back && this._modal.back.parentNode) || document.body;
+      at.appendChild(ta);
       ta.select();
       document.execCommand('copy');
-      document.body.removeChild(ta);
+      at.removeChild(ta);
+      if (prev && prev.focus) prev.focus();
       done();
     } catch (e) { /* nothing more we can offer; the text is on screen to select */ }
   };

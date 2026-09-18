@@ -252,5 +252,26 @@
     }
    ]
   }
- ]
+ ],
+ "slots": [
+  {
+   "id": "greeting",
+   "tier": "overlay",
+   "kind": "text",
+   "template": "Hi {user.firstName}",
+   "at": "0",
+   "dur": "3.5",
+   "show": "on-play-from-start",
+   "x": "0.25",
+   "y": "0.02",
+   "width": "0.60",
+   "size": "46",
+   "color": "#FFF9F0",
+   "box": "solid",
+   "privacy": "personal",
+   "requires": "user.firstName",
+   "missing": "omit"
+  }
+ ],
+ "slotsVersion": "cedd0ddd7277eedc"
 }

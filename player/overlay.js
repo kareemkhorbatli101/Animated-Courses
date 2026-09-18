@@ -300,7 +300,10 @@
         'font-family:' + (L.family || 'inherit') + ';' +
         'white-space:pre-wrap;">' + escapeHtml(txt) + '</div>';
     }
-    if (!html) { this.strip.style.display = 'none'; return; }
+    // v28.3: with nothing to show, the box is EMPTIED as well as hidden. A hidden strip that still held the last
+    // cue's rows meant "no subtitles" was true to the eye and false in the DOM - and a reader or a check that asks
+    // the page what it is showing got the old answer.
+    if (!html) { this.box.innerHTML = ''; this.strip.style.display = 'none'; return; }
     this.box.innerHTML = html;
     this.strip.style.display = 'block';
   };

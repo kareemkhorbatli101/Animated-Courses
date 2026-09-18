@@ -29,6 +29,10 @@
   // scheduling anything, so nothing can start after a pause.
   var FETCH_AHEAD = 30;       // seconds of voice kept downloaded ahead of the playhead
   var SCHEDULE_AHEAD = 8;     // seconds of voice handed to the audio clock ahead of the playhead
+  // v28.3: while the page is HIDDEN, a hidden player keeps playing (owner, v3) - and a background tab's timers are
+  // throttled, so the pump may run once a second or less. Handing the audio clock 30 s at a time (never more than is
+  // fetched) keeps the voice on time through that. Each line still starts once: the generation and `scheduled` hold.
+  var SCHEDULE_AHEAD_HIDDEN = 30;
   var PUMP_MS = 250;
   var RETRY_MS = [400, 1200]; // network failures only; a checksum failure is final
 
@@ -45,12 +49,58 @@
     this._inflight = {};      // key -> Promise, so a pump never fetches the same line twice at once
     this._timer = null;
     this._clock = null;       // () -> lesson seconds now
+    // v28.3: ONE master gain per instance. Every line goes through it and only it reaches the speakers, so a host can
+    // silence this player without stopping it (02 §9.2). Before, each line connected straight to the destination.
+    this.master = null;
+    this._out = 1;
+    this.onError = null;      // function(message): a failure reported to the owner of this instance
   }
+
+  SpeechAudio.prototype._fail = function (key, message) {
+    this.failed[key] = message;
+    if (!global.__AP_NO_HOOKS) {
+      global.__speechError = true;
+      global.__speechErrorMessage = message;
+    }
+    if (this.onError) { try { this.onError(message); } catch (e) { /* the owner's handler must not break the voice */ } }
+  };
+
+  SpeechAudio.prototype.scheduleAhead = function () {
+    var hidden = global.document && global.document.visibilityState === 'hidden';
+    return hidden ? Math.min(SCHEDULE_AHEAD_HIDDEN, FETCH_AHEAD) : SCHEDULE_AHEAD;
+  };
+
+  // Mute (0), or a volume: ramped over ~30 ms so it never clicks. The clock, the pump and the schedule are untouched,
+  // so unmuting is heard from where the current line has got to.
+  SpeechAudio.prototype.setOutputGain = function (v) {
+    this._out = Math.max(0, Math.min(1, +v || 0));
+    if (this.master && this.ctx) {
+      try {
+        this.master.gain.cancelScheduledValues(this.ctx.currentTime);
+        this.master.gain.setTargetAtTime(this._out, this.ctx.currentTime, 0.01);
+      } catch (e) { this.master.gain.value = this._out; }
+    }
+    return this._out;
+  };
+
+  SpeechAudio.prototype.dispose = function () {
+    this.stop();
+    this.buffers = {};
+    this._inflight = {};
+    if (this.ctx && this.ctx.close) { try { this.ctx.close(); } catch (e) { /* already closed */ } }
+    this.ctx = null;
+    this.master = null;
+  };
 
   SpeechAudio.prototype._context = function () {
     if (!this.ctx) {
       var AC = global.AudioContext || global.webkitAudioContext;
       this.ctx = AC ? new AC() : null;
+      if (this.ctx && this.ctx.createGain) {
+        this.master = this.ctx.createGain();
+        this.master.gain.value = this._out;
+        this.master.connect(this.ctx.destination);
+      }
     }
     return this.ctx;
   };
@@ -90,9 +140,7 @@
         // A line that fails its checksum must be REPORTED, not quietly missing. A player that silently
         // drops a corrupted line plays a lesson with a gap where a sentence should be, which is the same
         // class of failure E3 removed from the renderer: a missing input degrading instead of failing.
-        global.__speechError = true;
-        global.__speechErrorMessage = String(err && err.message || err);
-        self.failed[line.key] = global.__speechErrorMessage;
+        self._fail(line.key, String(err && err.message || err));
         return null;
       });
     }
@@ -107,9 +155,7 @@
           self.buffers[line.key] = ab;
           resolve(ab);
         }, function () {
-          global.__speechError = true;
-          global.__speechErrorMessage = 'could not decode the spoken line ' + line.key;
-          self.failed[line.key] = global.__speechErrorMessage;
+          self._fail(line.key, 'could not decode the spoken line ' + line.key);
           resolve(null);
         });
       });
@@ -169,7 +215,7 @@
     var self = this, ctx = this.ctx;
     if (gen !== this.gen || !this._active || !ctx) return 0;
     var now = this._clock();
-    var n = 0;
+    var n = 0, ahead = this.scheduleAhead(), out = this.master || ctx.destination;
     this.lines.forEach(function (l, i) {
       if (self.scheduled[i] || self.failed[l.key]) return;
       var end = l.start + (l.dur || 0);
@@ -177,7 +223,7 @@
       if (l.start > now + FETCH_AHEAD) return;
       var ab = self.buffers[l.key];
       if (!ab) { self.load(l); return; }                                    // not here yet: fetch, next pump
-      if (l.start > now + SCHEDULE_AHEAD) return;
+      if (l.start > now + ahead) return;
       var when = l.start - now, offset = 0;
       if (when < 0) {                                                       // under way: begin part-way in
         offset = -when; when = 0;
@@ -190,9 +236,9 @@
         var gn = ctx.createGain();
         gn.gain.value = g;
         src.connect(gn);
-        gn.connect(ctx.destination);
+        gn.connect(out);
       } else {
-        src.connect(ctx.destination);
+        src.connect(out);
       }
       src.__line = i;
       src.start(ctx.currentTime + when, offset);
@@ -225,7 +271,7 @@
       if (gen !== self.gen) return 0;
       self._pump(gen);
       self._timer = setInterval(function () { self._pump(gen); }, PUMP_MS);
-      return self.prefetch(self._clock(), SCHEDULE_AHEAD).then(function () {
+      return self.prefetch(self._clock(), self.scheduleAhead()).then(function () {
         if (gen !== self.gen) return 0;
         self._pump(gen);
         return self.playing.length;

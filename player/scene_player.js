@@ -168,6 +168,28 @@
     // scene. Guarded, so a site that publishes only exact geometry behaves exactly as before and this
     // line is a no-op.
     if (typeof MeshoptDecoder !== 'undefined' && loader.setMeshoptDecoder) loader.setMeshoptDecoder(MeshoptDecoder);
+    // v28.3: THE GPU DENORMALISES skinWeight, THE RAYCASTER DOES NOT.
+    // In the compressed (meshopt) encoding the skin weights arrive as a NORMALIZED Uint8 attribute: WebGL divides
+    // them by 255 on the way into the shader, so the character is DRAWN correctly - measured, the two encodings'
+    // pictures differ by 0.18/255 mean, 0.045 % of pixels over 20. three.js's CPU path (boneTransform, used by
+    // Mesh.raycast) reads the attribute raw, so every skinned vertex is thrown about 1000x away from where it is
+    // drawn - vertex 0 of the body landed at world (-1637, 390, 180) instead of (-6.42, 1.53, 0.71). The
+    // consequence was invisible until something asked the CPU where a surface is: a click on a character in
+    // "Interactive, smaller" passed straight THROUGH them and selected whatever stood behind - the ray's first
+    // three hits were the car at 4.75/4.83/5.39 m instead of the person at 2.85/2.89/3.07 m.
+    // So: hold the weights as the plain floats the GPU already uses. Identical numbers, so the picture does not
+    // change; the raycaster now agrees with it. The exact encoding ships Float32 weights already and is untouched.
+    function denormaliseSkinWeights(root){
+      root.traverse(function(o){
+        if(!o.isSkinnedMesh || !o.geometry) return;
+        var a=o.geometry.attributes.skinWeight;
+        if(!a || !a.normalized || !a.array || a.array instanceof Float32Array) return;
+        var d=(a.array instanceof Uint8Array)?255:(a.array instanceof Uint16Array)?65535:1;
+        var f=new Float32Array(a.array.length);
+        for(var i=0;i<f.length;i++) f[i]=a.array[i]/d;
+        o.geometry.setAttribute('skinWeight', new THREE.BufferAttribute(f, a.itemSize, false));
+      });
+    }
     function done(){ if(--remaining===0){ self._finish(S); if(onReady) onReady(); } }
     items.forEach(function(item){
       var buf=buffers[item.rel];
@@ -176,12 +198,13 @@
           g.scene.traverse(function(o){ if(o.isMesh){ o.castShadow=shadows; o.receiveShadow=shadows; } });
           scene.add(g.scene);
         } else {
-          var root=g.scene; if(shadows) root.traverse(function(o){ if(o.isMesh) o.castShadow=true; });
+          var root=g.scene; denormaliseSkinWeights(root);
+          if(shadows) root.traverse(function(o){ if(o.isMesh) o.castShadow=true; });
           scene.add(root); self.roots[item.idx]=root;
           self.mixers[item.idx]={ mixer:new THREE.AnimationMixer(root), clips:g.animations||[], cur:null };
         }
         done();
-      }, function(err){ global.__err=String(err&&err.message||err); done(); });
+      }, function(err){ self.error=String(err&&err.message||err); if(!global.__AP_NO_HOOKS) global.__err=self.error; done(); });
     });
     return this;
   };
@@ -280,5 +303,9 @@
   ScenePlayer.prototype.setView = function(v){ this.view = v || null; return this; };
 
   global.ScenePlayer = ScenePlayer;
-  global.__drive = drive;   // exposed for tests
+  // v28.3: the interpreter is reachable from the module (ScenePlayer.drive) for the component, which exposes it to no
+  // one. The window hook stays for every page that has always had it (bundles, gates, our site), and is withheld only
+  // when the component loaded this file for a page that did not ask for hooks (02 §10.0, BND-01).
+  ScenePlayer.drive = drive;
+  if (!global.__AP_NO_HOOKS) global.__drive = drive;   // exposed for tests
 })(typeof window!=="undefined"?window:this);

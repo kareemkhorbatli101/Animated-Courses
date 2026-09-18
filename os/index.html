@@ -1,0 +1,117 @@
+<!doctype html>
+<!--
+  WEB OS LIVE (v28.3, package web_os_live_player v5, 06): a desktop for animated lessons and other apps.
+
+  Published at <site>/os/. Each "with video player" window mounts the lesson player COMPONENT
+  (player/animated_player.js) through its public API only: the shell hands it the user as customisation values,
+  the OS assistant as a per-window lease, and a policy for who is heard; the player reports what was selected,
+  and the Inspector shows it. Nothing here reaches inside a player (A8).
+
+  No logon: the user is self-declared and kept in this browser (localStorage), or in a cookie scoped to this folder
+  only when asked, so it never rides along on lesson requests.
+-->
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Web OS Live</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="os.css">
+</head><body>
+<div id="os">
+  <aside id="dock" aria-label="Web OS Live control pane">
+    <header class="brand"><b>Web OS</b> Live <span class="ver">preview</span></header>
+
+    <section class="card" id="sec-user" aria-labelledby="h-user">
+      <h2 id="h-user">You</h2>
+      <label>User ID <input id="u-id" autocomplete="off" spellcheck="false" maxlength="40" placeholder="e.g. u-1024"></label>
+      <div class="two">
+        <label>First name <input id="u-first" dir="auto" maxlength="60"></label>
+        <label>Last name <input id="u-last" dir="auto" maxlength="60"></label>
+      </div>
+      <label class="chk"><input type="checkbox" id="u-cookie"> Remember in a cookie (this site path only)</label>
+      <label class="chk"><input type="checkbox" id="u-greet" checked> Greet me by name when a video starts</label>
+      <div class="row"><button id="u-save" class="primary">Save</button><button id="u-clear" class="ghost">Clear</button>
+        <span id="u-note" class="note" role="status"></span></div>
+    </section>
+
+    <section class="card" id="sec-ai" aria-labelledby="h-ai">
+      <h2 id="h-ai">Assistant <span id="ai-dot" class="dot" title="not connected"></span></h2>
+      <label>Where the model runs
+        <select id="ai-prov"><option value="">None: players get no assistant</option>
+          <option value="ollama">On this computer (Ollama)</option>
+          <option value="webllm">In this browser</option></select></label>
+      <label>Model <select id="ai-model" disabled><option>—</option></select></label>
+      <div class="row"><button id="ai-connect" disabled>Connect</button>
+        <label class="chk"><input type="checkbox" id="ai-own"> Players may also use their own</label></div>
+      <button id="ai-rehand" class="wide" title="Give every open player window the assistant chosen above">Re-connect open windows</button>
+      <div id="ai-state" class="note" role="status">No assistant selected. Nothing is contacted until you choose.</div>
+    </section>
+
+    <section class="card" id="sec-win" aria-labelledby="h-win">
+      <h2 id="h-win">Windows</h2>
+      <label class="chk"><input type="checkbox" id="w-player" checked> With a video player</label>
+      <label class="chk" title="Only the active window is heard; other playing windows keep running with their speaker off (v5)"><input type="checkbox" id="w-audiofocus" checked> Audio follows focus</label>
+      <!-- The list is the published catalogue's (os.js). Until it arrives this says so: the option that used to sit
+           here named a lesson by a title that was not its own, so the dock offered "Warm Up" and the window it opened
+           renamed itself "Workshop Words" the moment the player was ready. -->
+      <label>Lesson <select id="w-lesson"><option value="">Lessons are loading…</option></select></label>
+      <button id="w-new" class="primary wide">＋ New Window</button>
+      <div class="arrange" role="group" aria-label="Arrange windows">
+        <button data-arr="cascade" title="Cascade: stack windows diagonally">⧉ Cascade</button>
+        <button data-arr="tileH" title="Tile side by side">▥ Side by side</button>
+        <button data-arr="tileV" title="Tile stacked">▤ Stacked</button>
+        <button data-arr="grid" title="Tile in a grid">▦ Grid</button>
+        <button data-arr="minAll" title="Minimise all">▁ Minimise all</button>
+        <button data-arr="restoreAll" title="Restore all">▢ Restore all</button>
+      </div>
+      <ul id="w-list" class="tasks" aria-label="Open windows"></ul>
+    </section>
+  </aside>
+
+  <main id="desk" aria-label="Desktop"></main>
+
+  <aside id="inspector" aria-label="Selection inspector">
+    <header><h2>Inspector</h2><span id="i-win" class="note">no window focused</span>
+      <button id="i-toggle" class="ghost" title="Hide the inspector">⟩</button></header>
+    <div id="i-body"><p class="note">Select an object in a lesson window. Its full description appears here.</p></div>
+  </aside>
+</div>
+
+<template id="tpl-win">
+  <section class="win" role="dialog" aria-modal="false">
+    <div class="bar">
+      <span class="ico" aria-hidden="true">▣</span>
+      <span class="title"></span>
+      <span class="pctl" hidden>
+        <button data-c="play" title="Play / pause">▶</button>
+        <span class="sep"></span>
+        <button data-t="strips.play" title="Show/hide the play strip">⏯</button>
+        <button data-t="strips.controls" title="Show/hide the controls strip">☷</button>
+        <button data-t="panes.nav" title="Show/hide the course navigation">☰</button>
+        <button data-t="panes.script" title="Show/hide the script">≡</button>
+        <button data-t="panes.info" title="Show/hide the lesson info">ⓘ</button>
+        <button data-t="panes.camera" title="Show/hide the camera controls">🎥</button>
+        <button data-t="panes.ai" title="Show/hide the assistant">✦</button>
+        <button data-c="select" title="Selection mode: click an object in the picture">⌖</button>
+        <button data-c="audible" title="Hear this window too, even when it is not the active one (v5)" aria-pressed="false">🔈</button>
+        <select data-c="subs" title="Subtitles"><option value="en,ar">EN+AR</option><option value="en">EN</option>
+          <option value="ar">AR</option><option value="">Off</option></select>
+      </span>
+      <span class="grow"></span>
+      <button class="wbtn" data-w="min" title="Minimise">–</button>
+      <button class="wbtn" data-w="max" title="Maximise / restore">□</button>
+      <button class="wbtn close" data-w="close" title="Close">✕</button>
+    </div>
+    <div class="body"></div>
+    <div class="grip" aria-hidden="true"></div>
+  </section>
+</template>
+
+<script>
+  // Where the player and lessons come from: the site this shell is published in (its parent folder) by default; any
+  // mirror with ?base= (06 §6).
+  window.OS_BASE = new URLSearchParams(location.search).get('base') || new URL('../', location.href).href;
+  if (window.OS_BASE.slice(-1) !== '/') window.OS_BASE += '/';
+  document.write('<script src="' + window.OS_BASE + 'player/animated_player.js"><\/script>');
+</script>
+<script src="os.js"></script>
+</body></html>
