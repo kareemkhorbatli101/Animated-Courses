@@ -92,8 +92,46 @@
    "mp4": []
   },
   {
-   "id": "u01v04",
+   "id": "u01v03",
    "order": 3,
+   "title": {
+    "en": "Pronunciation",
+    "ar": "النطق"
+   },
+   "description": {
+    "en": "Syllables and word stress for six words from the unit.",
+    "ar": "المقاطع والنبر في ستّ كلمات من الوحدة."
+   },
+   "dir": "courses/eam-b1/u01v03",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 116.22
+   },
+   "bytes": 8771774,
+   "meshopt": true,
+   "meshoptBytes": 1721206,
+   "wireBytes": 4580587,
+   "meshoptWireBytes": 1215311,
+   "files": 31,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v04",
+   "order": 4,
    "title": {
     "en": "Check What You Know",
     "ar": "تحقّق ممّا تعرفه"
@@ -130,8 +168,46 @@
    "mp4": []
   },
   {
+   "id": "u01v06",
+   "order": 6,
+   "title": {
+    "en": "Every Day, or Now?",
+    "ar": "كلّ يوم، أم الآن؟"
+   },
+   "description": {
+    "en": "Present simple and present continuous: the book's practice items.",
+    "ar": "المضارع البسيط والمضارع المستمر: تمارين الكتاب."
+   },
+   "dir": "courses/eam-b1/u01v06",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 161.92
+   },
+   "bytes": 8887845,
+   "meshopt": true,
+   "meshoptBytes": 1837277,
+   "wireBytes": 4670449,
+   "meshoptWireBytes": 1305173,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
    "id": "u01v08",
-   "order": 4,
+   "order": 8,
    "title": {
     "en": "A Mechanic Talks About His Work",
     "ar": "ميكانيكي يتحدّث عن عمله"
@@ -169,7 +245,7 @@
   },
   {
    "id": "u01v09",
-   "order": 5,
+   "order": 9,
    "title": {
     "en": "At Reception",
     "ar": "في الاستقبال"
@@ -195,6 +271,158 @@
    "wireBytes": 4679660,
    "meshoptWireBytes": 1319750,
    "files": 39,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v10",
+   "order": 10,
+   "title": {
+    "en": "A Day at Cham Motors",
+    "ar": "يوم في شام موتورز"
+   },
+   "description": {
+    "en": "Extended listening: what each person is doing now.",
+    "ar": "استماع مطوّل: ما يفعله كلّ شخص الآن."
+   },
+   "dir": "courses/eam-b1/u01v10",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 138.1
+   },
+   "bytes": 8910939,
+   "meshopt": true,
+   "meshoptBytes": 1860371,
+   "wireBytes": 4692752,
+   "meshoptWireBytes": 1327476,
+   "files": 40,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v12",
+   "order": 12,
+   "title": {
+    "en": "At the Service Desk: Your Turn",
+    "ar": "في مكتب الخدمة: دورك"
+   },
+   "description": {
+    "en": "You play the customer; then a short talk about a car you know.",
+    "ar": "أنت الزبون؛ ثمّ حديث قصير عن سيارة تعرفها."
+   },
+   "dir": "courses/eam-b1/u01v12",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 180.06
+   },
+   "bytes": 9208500,
+   "meshopt": true,
+   "meshoptBytes": 2157932,
+   "wireBytes": 4941675,
+   "meshoptWireBytes": 1576399,
+   "files": 48,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v13",
+   "order": 13,
+   "title": {
+    "en": "What Is a Service Department?",
+    "ar": "ما هو قسم الصيانة؟"
+   },
+   "description": {
+    "en": "The reading text, read aloud over the places it describes.",
+    "ar": "نصّ القراءة، يُقرأ فوق الأماكن التي يصفها."
+   },
+   "dir": "courses/eam-b1/u01v13",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 143.95
+   },
+   "bytes": 8940035,
+   "meshopt": true,
+   "meshoptBytes": 1889467,
+   "wireBytes": 4757124,
+   "meshoptWireBytes": 1391848,
+   "files": 40,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v20",
+   "order": 20,
+   "title": {
+    "en": "Spiral Review",
+    "ar": "المراجعة الحلزونية"
+   },
+   "description": {
+    "en": "Every Unit 1 word asked once, with the book's gap-fills.",
+    "ar": "كلّ كلمات الوحدة الأولى، مع تمارين الفراغات من الكتاب."
+   },
+   "dir": "courses/eam-b1/u01v20",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 176.61
+   },
+   "bytes": 9077225,
+   "meshopt": true,
+   "meshoptBytes": 2026657,
+   "wireBytes": 4843392,
+   "meshoptWireBytes": 1478116,
+   "files": 47,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -235,7 +463,19 @@
      },
      "videos": [
       "u01v02",
+      "u01v03",
       "u01v04"
+     ]
+    },
+    {
+     "id": "p2",
+     "order": 2,
+     "title": {
+      "en": "Part 2 — Grammar",
+      "ar": "الجزء ٢ — القواعد"
+     },
+     "videos": [
+      "u01v06"
      ]
     },
     {
@@ -247,7 +487,41 @@
      },
      "videos": [
       "u01v08",
-      "u01v09"
+      "u01v09",
+      "u01v10"
+     ]
+    },
+    {
+     "id": "p4",
+     "order": 4,
+     "title": {
+      "en": "Part 4 — Speaking",
+      "ar": "الجزء ٤ — المحادثة"
+     },
+     "videos": [
+      "u01v12"
+     ]
+    },
+    {
+     "id": "p5",
+     "order": 5,
+     "title": {
+      "en": "Part 5 — Reading",
+      "ar": "الجزء ٥ — القراءة"
+     },
+     "videos": [
+      "u01v13"
+     ]
+    },
+    {
+     "id": "p10",
+     "order": 10,
+     "title": {
+      "en": "Part 10 — Review",
+      "ar": "الجزء ١٠ — المراجعة"
+     },
+     "videos": [
+      "u01v20"
      ]
     }
    ]

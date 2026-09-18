@@ -1,0 +1,255 @@
+{
+ "schema": "timeline/1",
+ "duration": 143.952,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.792,
+    "en": "This is Part 5, What Is a Service Department?",
+    "ar": "هذا الجزء الخامس، ما هو قسم الصيانة؟"
+   },
+   {
+    "start": 12.132,
+    "dur": 4.728,
+    "en": "Listen and read. Watch what each sentence is about.",
+    "ar": "استمع واقرأ. شاهد ما تتحدّث عنه كلّ جملة."
+   },
+   {
+    "start": 17.21,
+    "dur": 5.352,
+    "en": "Before you read. What three areas does a service department have?",
+    "ar": "قبل أن تقرأ. ما المناطق الثلاث في قسم الصيانة؟"
+   },
+   {
+    "start": 29.386,
+    "dur": 3.336,
+    "en": "Now listen and read, and check your ideas.",
+    "ar": "الآن استمع واقرأ، وتحقّق من أفكارك."
+   },
+   {
+    "start": 33.072,
+    "dur": 3.216,
+    "en": "A service department looks after cars.",
+    "ar": "قسم الصيانة يعتني بالسيارات."
+   },
+   {
+    "start": 36.638,
+    "dur": 5.52,
+    "en": "It has three main areas: reception, the workshop, and the parts store.",
+    "ar": "فيه ثلاث مناطق رئيسية: الاستقبال، والورشة، ومخزن القطع."
+   },
+   {
+    "start": 42.508,
+    "dur": 3.648,
+    "en": "First, the customer brings the car to reception,",
+    "ar": "أوّلاً، يُحضر الزبون السيارة إلى الاستقبال،"
+   },
+   {
+    "start": 46.506,
+    "dur": 3.456,
+    "en": "and the service advisor writes a job card.",
+    "ar": "ويكتب مستشار الخدمة بطاقة عمل."
+   },
+   {
+    "start": 50.312,
+    "dur": 2.904,
+    "en": "The job card lists the work to do.",
+    "ar": "بطاقة العمل تذكر العمل المطلوب."
+   },
+   {
+    "start": 53.566,
+    "dur": 2.88,
+    "en": "Then the car goes into the workshop.",
+    "ar": "ثمّ تدخل السيارة إلى الورشة."
+   },
+   {
+    "start": 56.796,
+    "dur": 3.84,
+    "en": "There, a mechanic checks the car and does the service:",
+    "ar": "هناك، يفحص الميكانيكي السيارة ويقوم بالصيانة:"
+   },
+   {
+    "start": 60.986,
+    "dur": 4.632,
+    "en": "he changes the oil, checks the brakes, and looks at the tyres.",
+    "ar": "يغيّر الزيت، ويفحص الفرامل، وينظر إلى الإطارات."
+   },
+   {
+    "start": 65.968,
+    "dur": 3.12,
+    "en": "Today, many cars have a computer,",
+    "ar": "اليوم، في سيارات كثيرة حاسوب،"
+   },
+   {
+    "start": 69.438,
+    "dur": 4.728,
+    "en": "so a technician often uses a diagnostic machine to find faults.",
+    "ar": "لذلك يستخدم الفنّي غالباً جهاز تشخيص لإيجاد الأعطال."
+   },
+   {
+    "start": 74.516,
+    "dur": 4.344,
+    "en": "When the work is finished, the car is checked again and cleaned.",
+    "ar": "عندما ينتهي العمل، تُفحص السيارة مرّة أخرى وتُنظَّف."
+   },
+   {
+    "start": 79.21,
+    "dur": 4.896,
+    "en": "Finally, the service advisor calls the customer, and the car is ready.",
+    "ar": "أخيراً، يتّصل مستشار الخدمة بالزبون، وتكون السيارة جاهزة."
+   },
+   {
+    "start": 84.456,
+    "dur": 4.2,
+    "en": "A good service department is clean, safe, and honest,",
+    "ar": "قسم الصيانة الجيّد نظيف وآمن وأمين،"
+   },
+   {
+    "start": 89.006,
+    "dur": 3.432,
+    "en": "and it looks after every customer's car with care.",
+    "ar": "ويعتني بسيارة كلّ زبون بعناية."
+   },
+   {
+    "start": 92.788,
+    "dur": 2.544,
+    "en": "Now answer three questions.",
+    "ar": "الآن أجب عن ثلاثة أسئلة."
+   },
+   {
+    "start": 95.682,
+    "dur": 7.32,
+    "en": "Here is an example. What does a service department do? It looks after cars.",
+    "ar": "هذا مثال. ماذا يفعل قسم الصيانة؟ إنّه يعتني بالسيارات."
+   },
+   {
+    "start": 103.352,
+    "dur": 2.952,
+    "en": "What does the service advisor write?",
+    "ar": "ماذا يكتب مستشار الخدمة؟"
+   },
+   {
+    "start": 111.421,
+    "dur": 4.944,
+    "en": "A job card. The service advisor writes a job card.",
+    "ar": "بطاقة عمل. مستشار الخدمة يكتب بطاقة عمل."
+   },
+   {
+    "start": 116.715,
+    "dur": 3.648,
+    "en": "Who uses a diagnostic machine to find faults?",
+    "ar": "من يستخدم جهاز التشخيص لإيجاد الأعطال؟"
+   },
+   {
+    "start": 126.01,
+    "dur": 5.232,
+    "en": "A technician. A technician uses a diagnostic machine.",
+    "ar": "الفنّي. الفنّي يستخدم جهاز التشخيص."
+   },
+   {
+    "start": 131.592,
+    "dur": 2.808,
+    "en": "What is a good service department?",
+    "ar": "ما هو قسم الصيانة الجيّد؟"
+   },
+   {
+    "start": 139.4,
+    "dur": 2.952,
+    "en": "Clean, safe, and honest.",
+    "ar": "نظيف وآمن وأمين."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 18.485,
+    "hold": 10.85,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 31.422,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 37.55,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 46.393,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 55.571,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 111.421,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 130.517,
+    "hold": 8.83,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

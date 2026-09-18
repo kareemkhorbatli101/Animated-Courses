@@ -1,0 +1,306 @@
+{
+ "schema": "timeline/1",
+ "duration": 176.61,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.144,
+    "en": "This is Part 10, Spiral Review.",
+    "ar": "هذا الجزء العاشر، المراجعة الحلزونية."
+   },
+   {
+    "start": 11.484,
+    "dur": 3.576,
+    "en": "Answer each question in the quiet, then listen.",
+    "ar": "أجب عن كلّ سؤال في الصمت، ثمّ استمع."
+   },
+   {
+    "start": 15.41,
+    "dur": 6.168,
+    "en": "Here is an example. The person who repairs and services cars is a mechanic.",
+    "ar": "هذا مثال. الشخص الذي يصلح السيارات ويصونها هو الميكانيكي."
+   },
+   {
+    "start": 21.928,
+    "dur": 3.936,
+    "en": "The paper that lists the work to do on a car is a blank.",
+    "ar": "الورقة التي تذكر العمل المطلوب على السيارة هي ماذا؟"
+   },
+   {
+    "start": 32.158,
+    "dur": 5.232,
+    "en": "A job card. The paper that lists the work is a job card.",
+    "ar": "بطاقة العمل. الورقة التي تذكر العمل هي بطاقة العمل."
+   },
+   {
+    "start": 37.74,
+    "dur": 4.296,
+    "en": "The part that stores electricity to start the car is the blank.",
+    "ar": "الجزء الذي يخزّن الكهرباء لتشغيل السيارة هو ماذا؟"
+   },
+   {
+    "start": 48.742,
+    "dur": 4.608,
+    "en": "The battery. The battery stores electricity.",
+    "ar": "البطارية. البطارية تخزّن الكهرباء."
+   },
+   {
+    "start": 53.7,
+    "dur": 3.168,
+    "en": "The place where a mechanic works is the blank.",
+    "ar": "المكان الذي يعمل فيه الميكانيكي هو ماذا؟"
+   },
+   {
+    "start": 62.574,
+    "dur": 4.488,
+    "en": "The workshop. A mechanic works in the workshop.",
+    "ar": "الورشة. الميكانيكي يعمل في الورشة."
+   },
+   {
+    "start": 67.412,
+    "dur": 4.848,
+    "en": "Nabil is changing the oil now. Which tense is this?",
+    "ar": "نبيل يغيّر الزيت الآن. أيّ زمن هذا؟"
+   },
+   {
+    "start": 78.26,
+    "dur": 4.536,
+    "en": "The present continuous. He is doing it now.",
+    "ar": "المضارع المستمر. إنّه يفعله الآن."
+   },
+   {
+    "start": 83.146,
+    "dur": 5.232,
+    "en": "The garage services cars every day. Which tense is this?",
+    "ar": "الكراج يصون السيارات كلّ يوم. أيّ زمن هذا؟"
+   },
+   {
+    "start": 94.672,
+    "dur": 4.32,
+    "en": "The present simple. It happens every day.",
+    "ar": "المضارع البسيط. يحدث كلّ يوم."
+   },
+   {
+    "start": 99.342,
+    "dur": 3.888,
+    "en": "Now, quick! Name each thing.",
+    "ar": "الآن، بسرعة! سمِّ كلّ شيء."
+   },
+   {
+    "start": 103.58,
+    "dur": 2.256,
+    "en": "What is this part called?",
+    "ar": "ما اسم هذا الجزء؟"
+   },
+   {
+    "start": 110.307,
+    "dur": 3.96,
+    "en": "The engine. It makes the car move.",
+    "ar": "المحرّك. إنّه يحرّك السيارة."
+   },
+   {
+    "start": 114.617,
+    "dur": 1.992,
+    "en": "And what is this?",
+    "ar": "وما هذا؟"
+   },
+   {
+    "start": 120.609,
+    "dur": 4.368,
+    "en": "The radiator. It keeps the engine cool.",
+    "ar": "الراديتير. إنّه يُبقي المحرّك بارداً."
+   },
+   {
+    "start": 125.327,
+    "dur": 2.4,
+    "en": "What do we call this cover?",
+    "ar": "ماذا نسمّي هذا الغطاء؟"
+   },
+   {
+    "start": 132.315,
+    "dur": 4.44,
+    "en": "The bonnet. In American English, the hood.",
+    "ar": "غطاء المحرّك. بالإنجليزية الأمريكية: الهود."
+   },
+   {
+    "start": 137.105,
+    "dur": 2.64,
+    "en": "What is at the back of the car?",
+    "ar": "ماذا يوجد في مؤخّرة السيارة؟"
+   },
+   {
+    "start": 144.569,
+    "dur": 4.104,
+    "en": "The boot. It is the space for bags.",
+    "ar": "صندوق السيارة. إنّه مكان الحقائب."
+   },
+   {
+    "start": 149.023,
+    "dur": 3.12,
+    "en": "Where do we work on a car in the workshop?",
+    "ar": "أين نعمل على السيارة في الورشة؟"
+   },
+   {
+    "start": 157.613,
+    "dur": 2.208,
+    "en": "In the service bay.",
+    "ar": "في موقع الصيانة."
+   },
+   {
+    "start": 160.171,
+    "dur": 3.0,
+    "en": "What does every car need once a year?",
+    "ar": "ماذا تحتاج كلّ سيارة مرّة في السنة؟"
+   },
+   {
+    "start": 168.348,
+    "dur": 1.8,
+    "en": "A service.",
+    "ar": "الصيانة."
+   },
+   {
+    "start": 170.498,
+    "dur": 4.512,
+    "en": "Well done. You know the ten words of Unit 1.",
+    "ar": "أحسنت. أنت تعرف كلمات الوحدة الأولى العشر."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 18.198,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 32.158,
+    "hold": 3.0,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 48.742,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 52.575,
+    "hold": 9.95,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 62.574,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 110.307,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 120.609,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "bonnet",
+    "label": "bonnet",
+    "ar": "غطاء المحرّك",
+    "at": 132.315,
+    "hold": 3.0,
+    "img": "assets/vocab/bonnet.png",
+    "sha": "4361b875178db196"
+   },
+   {
+    "lemma": "boot",
+    "label": "boot",
+    "ar": "صندوق السيارة",
+    "at": 144.569,
+    "hold": 3.0,
+    "img": "assets/vocab/boot.png",
+    "sha": "07a57bd665859dd3"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 148.773,
+    "hold": 8.79,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service_bay",
+    "label": "service bay",
+    "ar": "موقع الصيانة",
+    "at": 157.613,
+    "hold": 3.0,
+    "img": "assets/vocab/service_bay.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 168.348,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}

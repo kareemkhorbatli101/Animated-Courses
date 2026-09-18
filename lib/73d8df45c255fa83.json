@@ -1,0 +1,189 @@
+{
+ "schema": "timeline/1",
+ "duration": 161.924,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.12,
+    "en": "This is Part 2, Grammar Practice.",
+    "ar": "هذا الجزء الثاني، تمرين القواعد."
+   },
+   {
+    "start": 11.46,
+    "dur": 4.728,
+    "en": "Every day, or now? Say the verb in the quiet.",
+    "ar": "كلّ يوم، أم الآن؟ قل الفعل في الصمت."
+   },
+   {
+    "start": 16.538,
+    "dur": 5.184,
+    "en": "Here is an example. Nabil usually works in the morning.",
+    "ar": "هذا مثال. نبيل يعمل عادةً في الصباح."
+   },
+   {
+    "start": 22.072,
+    "dur": 4.608,
+    "en": "Usually means every day. So we say works.",
+    "ar": "«عادةً» تعني كلّ يوم. لذلك نقول works."
+   },
+   {
+    "start": 27.03,
+    "dur": 5.184,
+    "en": "Tarek ____ (check) the tyres every day.",
+    "ar": "طارق ____ الإطارات كلّ يوم. الفعل: يفحص (check)."
+   },
+   {
+    "start": 38.332,
+    "dur": 2.88,
+    "en": "Tarek checks the tyres every day.",
+    "ar": "طارق يفحص الإطارات كلّ يوم."
+   },
+   {
+    "start": 41.562,
+    "dur": 6.384,
+    "en": "Look! He ____ (change) the oil right now.",
+    "ar": "انظر! هو ____ الزيت الآن. الفعل: يغيّر (change)."
+   },
+   {
+    "start": 54.181,
+    "dur": 4.104,
+    "en": "Look! He is changing the oil right now.",
+    "ar": "انظر! إنّه يغيّر الزيت الآن."
+   },
+   {
+    "start": 58.635,
+    "dur": 5.088,
+    "en": "The garage ____ (open) at eight o'clock.",
+    "ar": "الكراج ____ في الساعة الثامنة. الفعل: يفتح (open)."
+   },
+   {
+    "start": 69.9,
+    "dur": 2.784,
+    "en": "The garage opens at eight o'clock.",
+    "ar": "الكراج يفتح في الساعة الثامنة."
+   },
+   {
+    "start": 73.034,
+    "dur": 5.736,
+    "en": "Today, Lina ____ (find) a fault in the engine.",
+    "ar": "اليوم، لينا ____ عطلاً في المحرّك. الفعل: تجد (find)."
+   },
+   {
+    "start": 85.299,
+    "dur": 3.552,
+    "en": "Today, Lina is finding a fault in the engine.",
+    "ar": "اليوم، لينا تبحث عن عطل في المحرّك."
+   },
+   {
+    "start": 89.201,
+    "dur": 3.072,
+    "en": "Now choose: every day, or now?",
+    "ar": "الآن اختر: كلّ يوم، أم الآن؟"
+   },
+   {
+    "start": 92.623,
+    "dur": 5.784,
+    "en": "Right now, Tarek ____ (watches / is watching) Nabil.",
+    "ar": "الآن، طارق (يشاهد / يشاهد الآن) نبيل. أيّهما صحيح؟"
+   },
+   {
+    "start": 105.172,
+    "dur": 3.216,
+    "en": "Right now, Tarek is watching Nabil.",
+    "ar": "الآن، طارق يشاهد نبيل."
+   },
+   {
+    "start": 108.738,
+    "dur": 5.616,
+    "en": "Lina usually ____ (starts / is starting) at eight.",
+    "ar": "لينا عادةً (تبدأ / تبدأ الآن) في الثامنة. أيّهما صحيح؟"
+   },
+   {
+    "start": 121.001,
+    "dur": 2.76,
+    "en": "Lina usually starts at eight.",
+    "ar": "لينا تبدأ عادةً في الثامنة."
+   },
+   {
+    "start": 124.111,
+    "dur": 7.056,
+    "en": "Listen! The engine ____ (makes / is making) a strange noise.",
+    "ar": "استمع! المحرّك (يُصدر / يُصدر الآن) صوتاً غريباً. أيّهما صحيح؟"
+   },
+   {
+    "start": 138.402,
+    "dur": 4.512,
+    "en": "Listen! The engine is making a strange noise.",
+    "ar": "استمع! المحرّك يُصدر صوتاً غريباً."
+   },
+   {
+    "start": 143.264,
+    "dur": 6.264,
+    "en": "The garage ____ (services / is servicing) many cars every week.",
+    "ar": "الكراج (يصون / يصون الآن) سيارات كثيرة كلّ أسبوع. أيّهما صحيح؟"
+   },
+   {
+    "start": 156.94,
+    "dur": 3.384,
+    "en": "The garage services many cars every week.",
+    "ar": "الكراج يصون سيارات كثيرة كلّ أسبوع."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 73.546,
+    "hold": 15.12,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 123.936,
+    "hold": 17.47,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "car",
+    "label": "car",
+    "ar": "السيارة",
+    "at": 144.027,
+    "hold": 15.91,
+    "img": "assets/vocab/car.png",
+    "sha": "10f6c2910c4a4c2d"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ }
+}
