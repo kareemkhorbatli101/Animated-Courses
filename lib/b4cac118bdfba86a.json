@@ -1,0 +1,889 @@
+{
+ "schema": "timeline/1",
+ "duration": 125.685,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 5.112,
+    "en": "This is Part 7, the Management File. It is optional.",
+    "ar": "هذا الجزء السابع، ملفّ الإدارة. إنّه اختياري."
+   },
+   {
+    "start": 13.452,
+    "dur": 3.552,
+    "en": "Put the steps in order, then listen to a briefing.",
+    "ar": "رتّب الخطوات، ثمّ استمع إلى إحاطة."
+   },
+   {
+    "start": 17.354,
+    "dur": 3.96,
+    "en": "A manager's first day with a new worker has five steps.",
+    "ar": "لليوم الأوّل للمدير مع عامل جديد خمس خطوات."
+   },
+   {
+    "start": 21.664,
+    "dur": 4.752,
+    "en": "Here is an example. Saying welcome is step one.",
+    "ar": "هذا مثال. الترحيب هو الخطوة الأولى."
+   },
+   {
+    "start": 26.766,
+    "dur": 2.784,
+    "en": "Put the other four steps in order.",
+    "ar": "رتّب الخطوات الأربع الأخرى."
+   },
+   {
+    "start": 34.55,
+    "dur": 5.376,
+    "en": "Introduce the team, show the workshop, give the safety rules, then a small task.",
+    "ar": "عرّفه على الفريق، أرِه الورشة، أعطِه قواعد الأمان، ثمّ مهمّة صغيرة."
+   },
+   {
+    "start": 40.276,
+    "dur": 3.648,
+    "en": "Number one. Say welcome.",
+    "ar": "رقم واحد. رحّب."
+   },
+   {
+    "start": 44.274,
+    "dur": 4.056,
+    "en": "Number two. Introduce the team.",
+    "ar": "رقم اثنان. عرّفه على الفريق."
+   },
+   {
+    "start": 48.68,
+    "dur": 3.864,
+    "en": "Number three. Show the workshop.",
+    "ar": "رقم ثلاثة. أرِه الورشة."
+   },
+   {
+    "start": 52.894,
+    "dur": 4.128,
+    "en": "Number four. Give the safety rules.",
+    "ar": "رقم أربعة. أعطِه قواعد الأمان."
+   },
+   {
+    "start": 57.372,
+    "dur": 4.44,
+    "en": "Number five. Give the first small task.",
+    "ar": "رقم خمسة. أعطِه المهمّة الصغيرة الأولى."
+   },
+   {
+    "start": 62.162,
+    "dur": 4.68,
+    "en": "Now a briefing: Nabil is the foreman, and Tarek is the apprentice.",
+    "ar": "الآن إحاطة: نبيل رئيس العمّال، وطارق المتدرّب."
+   },
+   {
+    "start": 67.192,
+    "dur": 5.976,
+    "en": "Welcome, Tarek. First, always wear your safety glasses.",
+    "ar": "أهلاً يا طارق. أوّلاً، ارتدِ نظّارات الأمان دائماً."
+   },
+   {
+    "start": 73.518,
+    "dur": 2.424,
+    "en": "OK, Ustaz.",
+    "ar": "حسناً يا أستاذ."
+   },
+   {
+    "start": 76.292,
+    "dur": 4.368,
+    "en": "Keep your area clean, and ask me before you use a machine.",
+    "ar": "حافظ على مكانك نظيفاً، واسألني قبل أن تستخدم آلة."
+   },
+   {
+    "start": 81.01,
+    "dur": 3.648,
+    "en": "Yes. What do I do first?",
+    "ar": "نعم. ماذا أفعل أوّلاً؟"
+   },
+   {
+    "start": 85.008,
+    "dur": 2.616,
+    "en": "Today, watch me and learn.",
+    "ar": "اليوم، شاهدني وتعلّم."
+   },
+   {
+    "start": 87.974,
+    "dur": 2.328,
+    "en": "Now, a harder one.",
+    "ar": "الآن، واحدة أصعب."
+   },
+   {
+    "start": 90.652,
+    "dur": 6.264,
+    "en": "The apprentice wants to work under a car alone on day one. Say no, politely.",
+    "ar": "المتدرّب يريد العمل تحت سيارة وحده في اليوم الأوّل. قل لا بلطف."
+   },
+   {
+    "start": 104.387,
+    "dur": 5.88,
+    "en": "You can say: Not today, Tarek. It is not safe alone on day one.",
+    "ar": "يمكنك أن تقول: ليس اليوم يا طارق. ليس آمناً وحدك في اليوم الأوّل."
+   },
+   {
+    "start": 110.617,
+    "dur": 5.304,
+    "en": "Last, you are Maher. Write a short welcome note to Tarek.",
+    "ar": "أخيراً، أنت ماهر. اكتب رسالة ترحيب قصيرة إلى طارق."
+   },
+   {
+    "start": 116.271,
+    "dur": 3.84,
+    "en": "Give his plan for the first week, and one safety rule.",
+    "ar": "اكتب خطّته للأسبوع الأوّل، وقاعدة أمان واحدة."
+   },
+   {
+    "start": 120.461,
+    "dur": 3.624,
+    "en": "Pause the video, and write fifty to eighty words.",
+    "ar": "أوقف الفيديو، واكتب من خمسين إلى ثمانين كلمة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 34.55,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "mixed",
+   "at": 21.464,
+   "end": 40.026,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.52248
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 21.464,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The first day",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 21.464,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "اليوم الأوّل",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 21.664,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Say welcome to the new worker. ",
+       null
+      ],
+      [
+       "1",
+       "hl"
+      ]
+     ]
+    },
+    {
+     "at": 21.664,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "رحّب بالعامل الجديد.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Show the new worker the workshop.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أرِ العامل الجديد الورشة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.56793,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Give the safety rules.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.60633,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أعطِ قواعد الأمان.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.64907,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Introduce the team.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.68748,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "عرّفه على الفريق.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.73022,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Give the first small task.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 26.766,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.76863,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أعطِ المهمّة الصغيرة الأولى.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "order",
+   "at": 40.076,
+   "end": 62.812,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.52248
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 40.076,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "In order",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 40.076,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "بالترتيب",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 40.276,
+     "lang": "en",
+     "align": "left",
+     "x": 0.57225,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "1.",
+     "runs": [
+      [
+       "Say welcome to the new worker.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 40.276,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "رحّب بالعامل الجديد.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 44.274,
+     "lang": "en",
+     "align": "left",
+     "x": 0.57225,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "2.",
+     "runs": [
+      [
+       "Introduce the team.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 44.274,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "عرّفه على الفريق.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 48.68,
+     "lang": "en",
+     "align": "left",
+     "x": 0.57225,
+     "y": 0.56793,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "3.",
+     "runs": [
+      [
+       "Show the new worker the workshop.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 48.68,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.60633,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أرِ العامل الجديد الورشة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.894,
+     "lang": "en",
+     "align": "left",
+     "x": 0.57225,
+     "y": 0.64907,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "4.",
+     "runs": [
+      [
+       "Give the safety rules.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 52.894,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.68748,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أعطِ قواعد الأمان.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 57.372,
+     "lang": "en",
+     "align": "left",
+     "x": 0.57225,
+     "y": 0.73022,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "5.",
+     "runs": [
+      [
+       "Give the first small task.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 57.372,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.76863,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أعطِ المهمّة الصغيرة الأولى.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

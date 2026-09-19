@@ -1,0 +1,802 @@
+{
+ "schema": "timeline/1",
+ "duration": 177.113,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 3.288,
+    "en": "This is Part 10, Can-Do and Glossary.",
+    "ar": "هذا الجزء العاشر، أستطيع، والمسرد."
+   },
+   {
+    "start": 11.628,
+    "dur": 2.664,
+    "en": "Check each thing you can do now.",
+    "ar": "تحقّق من كلّ شيء تستطيع فعله الآن."
+   },
+   {
+    "start": 14.642,
+    "dur": 3.456,
+    "en": "Here are the five Can-Do statements of Unit 1.",
+    "ar": "هذه هي عبارات «أستطيع» الخمس للوحدة الأولى."
+   },
+   {
+    "start": 18.448,
+    "dur": 2.928,
+    "en": "I can name the main parts of a car,",
+    "ar": "أستطيع تسمية أجزاء السيارة الرئيسية،"
+   },
+   {
+    "start": 21.726,
+    "dur": 3.12,
+    "en": "and the people in a service department.",
+    "ar": "والعاملين في قسم الصيانة."
+   },
+   {
+    "start": 25.196,
+    "dur": 4.416,
+    "en": "For example: the engine, and a service advisor at reception.",
+    "ar": "مثال: المحرّك، ومستشار الخدمة في الاستقبال."
+   },
+   {
+    "start": 29.962,
+    "dur": 5.136,
+    "en": "I can use the present simple for routines and the present continuous for now.",
+    "ar": "أستطيع استخدام المضارع البسيط للعادات والمضارع المستمر للآن."
+   },
+   {
+    "start": 35.448,
+    "dur": 6.12,
+    "en": "For example: Nabil services cars. Right now, he is changing the oil.",
+    "ar": "مثال: نبيل يصون السيارات. الآن، إنّه يغيّر الزيت."
+   },
+   {
+    "start": 41.918,
+    "dur": 5.208,
+    "en": "I can understand a short talk between a mechanic, an advisor, and a customer.",
+    "ar": "أستطيع فهم حديث قصير بين ميكانيكي ومستشار وزبون."
+   },
+   {
+    "start": 47.476,
+    "dur": 4.968,
+    "en": "For example: the customer's car needs a service, and it is making a noise.",
+    "ar": "مثال: سيارة الزبون تحتاج صيانة، وتُصدر صوتاً."
+   },
+   {
+    "start": 52.794,
+    "dur": 4.152,
+    "en": "I can describe a car or a job in fifty to seventy words.",
+    "ar": "أستطيع وصف سيارة أو عمل في خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 57.296,
+    "dur": 5.592,
+    "en": "For example: I am a mechanic. Every day, I service cars.",
+    "ar": "مثال: أنا ميكانيكي. كلّ يوم، أصون السيارات."
+   },
+   {
+    "start": 63.238,
+    "dur": 5.592,
+    "en": "I can welcome and brief a new worker. This one is for practitioners.",
+    "ar": "أستطيع الترحيب بعامل جديد وإعطاءه التعليمات. هذه للممارسين."
+   },
+   {
+    "start": 69.18,
+    "dur": 5.784,
+    "en": "For example: Welcome to the team. Always wear your safety glasses.",
+    "ar": "مثال: أهلاً بك في الفريق. ارتدِ نظّارات الأمان دائماً."
+   },
+   {
+    "start": 75.314,
+    "dur": 3.792,
+    "en": "Now, the ten words of Unit 1, one last time.",
+    "ar": "الآن، كلمات الوحدة الأولى العشر، مرّة أخيرة."
+   },
+   {
+    "start": 79.456,
+    "dur": 1.848,
+    "en": "What is this?",
+    "ar": "ما هذا؟"
+   },
+   {
+    "start": 85.304,
+    "dur": 1.776,
+    "en": "The engine.",
+    "ar": "المحرّك."
+   },
+   {
+    "start": 87.43,
+    "dur": 1.656,
+    "en": "And this?",
+    "ar": "وهذا؟"
+   },
+   {
+    "start": 93.086,
+    "dur": 1.848,
+    "en": "The battery.",
+    "ar": "البطارية."
+   },
+   {
+    "start": 95.284,
+    "dur": 1.824,
+    "en": "And this part?",
+    "ar": "وهذا الجزء؟"
+   },
+   {
+    "start": 101.108,
+    "dur": 1.968,
+    "en": "The radiator.",
+    "ar": "الراديتير."
+   },
+   {
+    "start": 103.426,
+    "dur": 2.376,
+    "en": "What is this cover called?",
+    "ar": "ما اسم هذا الغطاء؟"
+   },
+   {
+    "start": 110.332,
+    "dur": 1.752,
+    "en": "The bonnet.",
+    "ar": "غطاء المحرّك."
+   },
+   {
+    "start": 112.434,
+    "dur": 2.328,
+    "en": "And the space at the back?",
+    "ar": "والمكان في الخلف؟"
+   },
+   {
+    "start": 119.291,
+    "dur": 1.656,
+    "en": "The boot.",
+    "ar": "صندوق السيارة."
+   },
+   {
+    "start": 121.297,
+    "dur": 2.424,
+    "en": "What is this paper called?",
+    "ar": "ما اسم هذه الورقة؟"
+   },
+   {
+    "start": 128.251,
+    "dur": 1.92,
+    "en": "The job card.",
+    "ar": "بطاقة العمل."
+   },
+   {
+    "start": 130.521,
+    "dur": 3.12,
+    "en": "Where do we work on a car in the workshop?",
+    "ar": "أين نعمل على السيارة في الورشة؟"
+   },
+   {
+    "start": 139.111,
+    "dur": 2.208,
+    "en": "In the service bay.",
+    "ar": "في موقع الصيانة."
+   },
+   {
+    "start": 141.669,
+    "dur": 2.904,
+    "en": "Who repairs and services cars?",
+    "ar": "من يصلح السيارات ويصونها؟"
+   },
+   {
+    "start": 149.338,
+    "dur": 1.824,
+    "en": "A mechanic.",
+    "ar": "الميكانيكي."
+   },
+   {
+    "start": 151.512,
+    "dur": 3.0,
+    "en": "What does every car need once a year?",
+    "ar": "ماذا تحتاج كلّ سيارة مرّة في السنة؟"
+   },
+   {
+    "start": 159.688,
+    "dur": 1.8,
+    "en": "A service.",
+    "ar": "الصيانة."
+   },
+   {
+    "start": 161.838,
+    "dur": 2.352,
+    "en": "Where does a mechanic work?",
+    "ar": "أين يعمل الميكانيكي؟"
+   },
+   {
+    "start": 168.779,
+    "dur": 1.992,
+    "en": "In the workshop.",
+    "ar": "في الورشة."
+   },
+   {
+    "start": 171.121,
+    "dur": 4.392,
+    "en": "Well done. That is the end of Unit 1.",
+    "ar": "أحسنت. هذه نهاية الوحدة الأولى."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 20.939,
+    "hold": 3.0,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 24.396,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 42.068,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 85.304,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "battery",
+    "label": "battery",
+    "ar": "البطارية",
+    "at": 93.086,
+    "hold": 3.0,
+    "img": "assets/vocab/battery.png",
+    "sha": "f96345f059556fab"
+   },
+   {
+    "lemma": "radiator",
+    "label": "radiator",
+    "ar": "الراديتير",
+    "at": 101.108,
+    "hold": 3.0,
+    "img": "assets/vocab/radiator.png",
+    "sha": "8b9bc7911cfb2e98"
+   },
+   {
+    "lemma": "bonnet",
+    "label": "bonnet",
+    "ar": "غطاء المحرّك",
+    "at": 110.332,
+    "hold": 3.0,
+    "img": "assets/vocab/bonnet.png",
+    "sha": "4361b875178db196"
+   },
+   {
+    "lemma": "boot",
+    "label": "boot",
+    "ar": "صندوق السيارة",
+    "at": 119.291,
+    "hold": 3.0,
+    "img": "assets/vocab/boot.png",
+    "sha": "07a57bd665859dd3"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 128.251,
+    "hold": 1.97,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 130.271,
+    "hold": 8.79,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "service_bay",
+    "label": "service bay",
+    "ar": "موقع الصيانة",
+    "at": 139.111,
+    "hold": 3.0,
+    "img": "assets/vocab/service_bay.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 149.338,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 159.688,
+    "hold": 0.86,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 160.601,
+    "hold": 8.13,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 168.779,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "cando",
+   "at": 14.442,
+   "end": 75.964,
+   "layer": 7,
+   "rect": [
+    0.51042,
+    0.3,
+    0.46,
+    0.53785
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02074,
+   "prefixX": 0.52292,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 14.442,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Can-Do",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 14.442,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.36289,
+     "size": 0.02222,
+     "lh": 0.02711,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أستطيع",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 25.196,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.39741,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "tick",
+     "runs": [
+      [
+       "I can name the main parts of a car and the people in a",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 25.196,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.42904,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "service department.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 25.196,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.46067,
+     "size": 0.02222,
+     "lh": 0.02711,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أستطيع تسمية أجزاء السيارة الرئيسية والعاملين في قسم الصيانة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 35.448,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.49519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "tick",
+     "runs": [
+      [
+       "I can use the present simple for routines and the present",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 35.448,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.52681,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "continuous for now.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 35.448,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.55844,
+     "size": 0.02222,
+     "lh": 0.02711,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أستطيع استخدام المضارع البسيط للعادات والمضارع المستمر للآن.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 47.476,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.59296,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "tick",
+     "runs": [
+      [
+       "I can understand a short talk between a mechanic, an",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 47.476,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.62459,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "advisor, and a customer.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 47.476,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.65622,
+     "size": 0.02222,
+     "lh": 0.02711,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أستطيع فهم حديث قصير بين ميكانيكي ومستشار وزبون.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 57.296,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.69074,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "tick",
+     "runs": [
+      [
+       "I can describe a car or a job in 50 to 70 words.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 57.296,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.72237,
+     "size": 0.02222,
+     "lh": 0.02711,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أستطيع وصف سيارة أو عمل في 50 إلى 70 كلمة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 69.18,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54115,
+     "y": 0.75689,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": "tick",
+     "runs": [
+      [
+       "I can welcome and brief a new worker (Practitioner).",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 69.18,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.78852,
+     "size": 0.02222,
+     "lh": 0.02711,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أستطيع الترحيب بعامل جديد وإعطاءه التعليمات (للممارسين).",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

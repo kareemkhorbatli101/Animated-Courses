@@ -1,7 +1,7 @@
 {
  "schema": "bundle/2",
- "engine": "27.37.0",
- "fingerprint": "c47604985535cf21",
+ "engine": "28.5.0",
+ "fingerprint": "b5572172a4e8bccd",
  "title": "EAM Book 1 · Unit 1 · Part 5 · What Is a Service Department?",
  "duration": 143.952,
  "set": "workshop",
@@ -262,11 +262,11 @@
    "wire": 1639
   },
   "scene.json": {
-   "sha": "ab817fffb06ddbe5",
-   "bytes": 108642,
-   "address": "lib/ab817fffb06ddbe5.json",
+   "sha": "ef42f7755a370109",
+   "bytes": 109019,
+   "address": "lib/ef42f7755a370109.json",
    "licence": "project-generated (derived from CC0/MIT bases; see engine/licences.py)",
-   "wire": 13007
+   "wire": 13045
   },
   "timeline.json": {
    "sha": "b98c1d669670cd28",

@@ -1,0 +1,801 @@
+{
+ "schema": "timeline/1",
+ "duration": 165.589,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 5.856,
+    "en": "This is Part 9, Syria in Focus. It is for practitioners.",
+    "ar": "هذا الجزء التاسع، سوريا في التركيز. إنّه للممارسين."
+   },
+   {
+    "start": 14.196,
+    "dur": 3.216,
+    "en": "A young mechanic opens her own workshop.",
+    "ar": "ميكانيكية شابّة تفتح ورشتها الخاصّة."
+   },
+   {
+    "start": 17.762,
+    "dur": 5.616,
+    "en": "Before you read. What problems can a young mechanic have in Damascus?",
+    "ar": "قبل أن تقرأ. ما المشكلات التي قد يواجهها ميكانيكي شاب في دمشق؟"
+   },
+   {
+    "start": 30.437,
+    "dur": 4.272,
+    "en": "Money, rent and tools. Listen for them.",
+    "ar": "المال والإيجار والأدوات. استمع إليها."
+   },
+   {
+    "start": 35.059,
+    "dur": 2.616,
+    "en": "Lina studied to be a mechanic,",
+    "ar": "درست لينا لتصبح ميكانيكية،"
+   },
+   {
+    "start": 38.025,
+    "dur": 3.912,
+    "en": "and she wanted to open her own workshop in Damascus.",
+    "ar": "وأرادت أن تفتح ورشتها الخاصّة في دمشق."
+   },
+   {
+    "start": 42.287,
+    "dur": 3.096,
+    "en": "She had good skills but only a little money.",
+    "ar": "كانت لديها مهارات جيّدة لكن القليل من المال فقط."
+   },
+   {
+    "start": 45.733,
+    "dur": 4.776,
+    "en": "Rent for a big garage was expensive, and new tools cost a lot.",
+    "ar": "كان إيجار كراج كبير غالياً، والأدوات الجديدة تكلّف كثيراً."
+   },
+   {
+    "start": 50.859,
+    "dur": 2.544,
+    "en": "So Lina started small.",
+    "ar": "لذلك بدأت لينا صغيرة."
+   },
+   {
+    "start": 53.753,
+    "dur": 3.72,
+    "en": "She rented one bay and bought good second-hand tools.",
+    "ar": "استأجرت موقعاً واحداً واشترت أدوات مستعملة جيّدة."
+   },
+   {
+    "start": 57.823,
+    "dur": 2.904,
+    "en": "She worked hard and did honest work,",
+    "ar": "عملت بجدّ وقامت بعمل أمين،"
+   },
+   {
+    "start": 61.077,
+    "dur": 3.744,
+    "en": "and she always explained the problem to the customer clearly.",
+    "ar": "وكانت دائماً تشرح المشكلة للزبون بوضوح."
+   },
+   {
+    "start": 65.171,
+    "dur": 4.416,
+    "en": "Slowly, drivers came back, and they told their friends.",
+    "ar": "ببطء، عاد السائقون، وأخبروا أصدقاءهم."
+   },
+   {
+    "start": 69.937,
+    "dur": 5.328,
+    "en": "After one year, Lina was ready to rent a bigger workshop and hire one helper.",
+    "ar": "بعد سنة، كانت لينا مستعدّة لاستئجار ورشة أكبر وتوظيف مساعد واحد."
+   },
+   {
+    "start": 75.615,
+    "dur": 1.824,
+    "en": "She says:",
+    "ar": "تقول:"
+   },
+   {
+    "start": 77.789,
+    "dur": 4.392,
+    "en": "In Syria, people trust a mechanic who is honest and careful.",
+    "ar": "في سوريا، يثق الناس بالميكانيكي الأمين والحريص."
+   },
+   {
+    "start": 82.531,
+    "dur": 6.672,
+    "en": "Here is an example. What did Lina want to open? Her own workshop.",
+    "ar": "هذا مثال. ماذا أرادت لينا أن تفتح؟ ورشتها الخاصّة."
+   },
+   {
+    "start": 89.553,
+    "dur": 2.784,
+    "en": "What two problems did Lina have?",
+    "ar": "ما المشكلتان اللتان واجهتهما لينا؟"
+   },
+   {
+    "start": 97.219,
+    "dur": 6.384,
+    "en": "Little money. Rent was expensive. New tools cost a lot.",
+    "ar": "مال قليل. كان الإيجار غالياً. الأدوات الجديدة تكلّف كثيراً."
+   },
+   {
+    "start": 103.953,
+    "dur": 1.992,
+    "en": "How did she start?",
+    "ar": "كيف بدأت؟"
+   },
+   {
+    "start": 110.004,
+    "dur": 3.72,
+    "en": "She rented one bay and bought good second-hand tools.",
+    "ar": "استأجرت موقعاً واحداً واشترت أدوات مستعملة جيّدة."
+   },
+   {
+    "start": 114.074,
+    "dur": 2.664,
+    "en": "Why did customers come back?",
+    "ar": "لماذا عاد الزبائن؟"
+   },
+   {
+    "start": 121.385,
+    "dur": 3.6,
+    "en": "She did honest work and explained the problem clearly.",
+    "ar": "قامت بعمل أمين وشرحت المشكلة بوضوح."
+   },
+   {
+    "start": 125.335,
+    "dur": 4.728,
+    "en": "Now Lina has a little more money. What should she do?",
+    "ar": "الآن لدى لينا مال أكثر قليلاً. ماذا يجب أن تفعل؟"
+   },
+   {
+    "start": 130.413,
+    "dur": 4.584,
+    "en": "A new diagnostic machine finds faults fast, but it costs a lot.",
+    "ar": "جهاز تشخيص جديد يجد الأعطال بسرعة، لكنّه يكلّف كثيراً."
+   },
+   {
+    "start": 135.347,
+    "dur": 4.224,
+    "en": "A bigger workshop means more cars, but the rent is higher.",
+    "ar": "ورشة أكبر تعني سيارات أكثر، لكنّ الإيجار أعلى."
+   },
+   {
+    "start": 139.921,
+    "dur": 4.2,
+    "en": "One helper means more work done, and Lina can teach someone.",
+    "ar": "مساعد واحد يعني عملاً أكثر، ويمكن للينا أن تعلّم أحداً."
+   },
+   {
+    "start": 144.471,
+    "dur": 4.44,
+    "en": "What do you think Lina should do? Use the frame.",
+    "ar": "ماذا تعتقد أن على لينا أن تفعل؟ استخدم العبارات."
+   },
+   {
+    "start": 154.735,
+    "dur": 4.584,
+    "en": "One answer: she should hire a helper, because she can do more work.",
+    "ar": "جواب واحد: يجب أن توظّف مساعداً، لأنّها تستطيع القيام بعمل أكثر."
+   },
+   {
+    "start": 159.669,
+    "dur": 4.32,
+    "en": "Your answer can be different. Give your reasons.",
+    "ar": "جوابك يمكن أن يكون مختلفاً. أعطِ أسبابك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 19.087,
+    "hold": 11.3,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 34.309,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 37.762,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "choices",
+   "at": 125.135,
+   "end": 144.221,
+   "layer": 7,
+   "rect": [
+    0.03021,
+    0.15926,
+    0.44,
+    0.33307
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.04271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 125.135,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.18148,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "What should Lina do?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 125.135,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.22215,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ماذا تفعل لينا؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 130.413,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.2615,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "a) a new diagnostic machine: ",
+       null
+      ],
+      [
+       "fast",
+       "hl"
+      ],
+      [
+       ", but it costs a lot",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 130.413,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.29539,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "جهاز تشخيص جديد: سريع، لكنّه يكلّف كثيراً",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 135.347,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.33474,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "b) a bigger workshop: ",
+       null
+      ],
+      [
+       "more cars",
+       "hl"
+      ],
+      [
+       ", but higher rent",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 135.347,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.36863,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ورشة أكبر: سيارات أكثر، لكنّ الإيجار أعلى",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 139.921,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.40798,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "c) one helper: ",
+       null
+      ],
+      [
+       "more work done",
+       "hl"
+      ],
+      [
+       ", and she can teach",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 139.921,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.44187,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "مساعد واحد: عمل أكثر، ويمكنها أن تعلّم",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "frame",
+   "at": 144.271,
+   "end": 164.989,
+   "layer": 7,
+   "rect": [
+    0.03021,
+    0.15926,
+    0.44,
+    0.33307
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.04271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 144.271,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.18148,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Answer frame",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.271,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.22215,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "عبارات الجواب",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.471,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.2615,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "I think Lina should ... because ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.471,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.29539,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أعتقد أنّ على لينا أن ... لأنّ ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.471,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.33474,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Also, ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.471,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.36863,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أيضاً، ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.471,
+     "lang": "en",
+     "align": "left",
+     "x": 0.04271,
+     "y": 0.40798,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "This is better than ... because ...",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 144.471,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.45771,
+     "y": 0.44187,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "هذا أفضل من ... لأنّ ...",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

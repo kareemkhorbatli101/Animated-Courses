@@ -1,0 +1,538 @@
+{
+ "schema": "timeline/1",
+ "duration": 162.501,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 5.112,
+    "en": "This is Part 7, the Management File. It is optional.",
+    "ar": "هذا الجزء السابع، ملفّ الإدارة. إنّه اختياري."
+   },
+   {
+    "start": 13.452,
+    "dur": 3.0,
+    "en": "A manager welcomes a new apprentice.",
+    "ar": "مدير يرحّب بمتدرّب جديد."
+   },
+   {
+    "start": 16.802,
+    "dur": 3.096,
+    "en": "First, four things a manager says.",
+    "ar": "أوّلاً، أربعة أشياء يقولها المدير."
+   },
+   {
+    "start": 20.248,
+    "dur": 4.104,
+    "en": "Welcome to the team. What is it for?",
+    "ar": "أهلاً بك في الفريق. ما الغرض منها؟"
+   },
+   {
+    "start": 29.47,
+    "dur": 2.256,
+    "en": "Greeting a new worker.",
+    "ar": "الترحيب بعامل جديد."
+   },
+   {
+    "start": 32.076,
+    "dur": 4.488,
+    "en": "Let me show you the workshop. What is it for?",
+    "ar": "دعني أريك الورشة. ما الغرض منها؟"
+   },
+   {
+    "start": 42.211,
+    "dur": 2.376,
+    "en": "Showing someone around.",
+    "ar": "أخذ شخص في جولة."
+   },
+   {
+    "start": 44.937,
+    "dur": 4.704,
+    "en": "Always wear your safety glasses. What is it for?",
+    "ar": "ارتدِ نظّارات الأمان دائماً. ما الغرض منها؟"
+   },
+   {
+    "start": 55.464,
+    "dur": 2.28,
+    "en": "Giving a safety rule.",
+    "ar": "إعطاء قاعدة أمان."
+   },
+   {
+    "start": 58.094,
+    "dur": 4.488,
+    "en": "Ask me if you are not sure. What is it for?",
+    "ar": "اسألني إذا لم تكن متأكّداً. ما الغرض منها؟"
+   },
+   {
+    "start": 68.112,
+    "dur": 2.52,
+    "en": "Offering help and support.",
+    "ar": "عرض المساعدة والدعم."
+   },
+   {
+    "start": 70.982,
+    "dur": 5.04,
+    "en": "Before you listen. What does a manager say on the first day?",
+    "ar": "قبل أن تستمع. ماذا يقول المدير في اليوم الأوّل؟"
+   },
+   {
+    "start": 82.551,
+    "dur": 3.696,
+    "en": "He welcomes the new worker and gives the safety rules.",
+    "ar": "يرحّب بالعامل الجديد ويعطي قواعد الأمان."
+   },
+   {
+    "start": 86.597,
+    "dur": 4.632,
+    "en": "Good morning, Tarek. Welcome to Cham Motors.",
+    "ar": "صباح الخير يا طارق. أهلاً بك في شام موتورز."
+   },
+   {
+    "start": 91.579,
+    "dur": 4.632,
+    "en": "Nice to meet you. Have you worked in a garage before?",
+    "ar": "تشرّفنا. هل عملت في كراج من قبل؟"
+   },
+   {
+    "start": 96.561,
+    "dur": 3.528,
+    "en": "A little. I helped my uncle.",
+    "ar": "قليلاً. ساعدت عمّي."
+   },
+   {
+    "start": 100.439,
+    "dur": 4.488,
+    "en": "Good. This week, you watch Nabil and learn.",
+    "ar": "جيّد. هذا الأسبوع، تشاهد نبيل وتتعلّم."
+   },
+   {
+    "start": 105.277,
+    "dur": 3.888,
+    "en": "Always wear your safety glasses and gloves in the workshop,",
+    "ar": "ارتدِ دائماً نظّارات الأمان والقفّازات في الورشة،"
+   },
+   {
+    "start": 109.515,
+    "dur": 2.568,
+    "en": "and keep your area clean.",
+    "ar": "وحافظ على مكانك نظيفاً."
+   },
+   {
+    "start": 112.433,
+    "dur": 2.376,
+    "en": "Yes, Ustaz.",
+    "ar": "نعم يا أستاذ."
+   },
+   {
+    "start": 115.159,
+    "dur": 5.016,
+    "en": "If you are not sure, ask us. We work as a team here.",
+    "ar": "إذا لم تكن متأكّداً، اسألنا. نعمل هنا كفريق."
+   },
+   {
+    "start": 120.525,
+    "dur": 3.816,
+    "en": "Thank you. I am happy to be here.",
+    "ar": "شكراً. أنا سعيد بوجودي هنا."
+   },
+   {
+    "start": 124.691,
+    "dur": 2.544,
+    "en": "Now answer three questions.",
+    "ar": "الآن أجب عن ثلاثة أسئلة."
+   },
+   {
+    "start": 127.585,
+    "dur": 2.616,
+    "en": "What is Tarek doing this week?",
+    "ar": "ماذا يفعل طارق هذا الأسبوع؟"
+   },
+   {
+    "start": 134.966,
+    "dur": 2.832,
+    "en": "He is watching Nabil and learning.",
+    "ar": "إنّه يشاهد نبيل ويتعلّم."
+   },
+   {
+    "start": 138.148,
+    "dur": 2.832,
+    "en": "What safety rule does Nabil give?",
+    "ar": "ما قاعدة الأمان التي يعطيها نبيل؟"
+   },
+   {
+    "start": 145.921,
+    "dur": 4.344,
+    "en": "Always wear safety glasses and gloves, and keep the area clean.",
+    "ar": "ارتدِ دائماً نظّارات الأمان والقفّازات، وحافظ على المكان نظيفاً."
+   },
+   {
+    "start": 150.615,
+    "dur": 3.024,
+    "en": "What should Tarek do if he is not sure?",
+    "ar": "ماذا يجب أن يفعل طارق إذا لم يكن متأكّداً؟"
+   },
+   {
+    "start": 158.933,
+    "dur": 1.968,
+    "en": "Ask the team.",
+    "ar": "أن يسأل الفريق."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 31.238,
+    "hold": 10.92,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 105.74,
+    "hold": 3.0,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "phrases",
+   "at": 16.602,
+   "end": 125.341,
+   "layer": 7,
+   "rect": [
+    0.56979,
+    0.3,
+    0.4,
+    0.44133
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.58229,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 16.602,
+     "lang": "en",
+     "align": "left",
+     "x": 0.58229,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A manager says",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.602,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95729,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "يقول المدير",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "en",
+     "align": "left",
+     "x": 0.58229,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Welcome to the team.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95729,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أهلاً بك في الفريق.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "en",
+     "align": "left",
+     "x": 0.58229,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Let me show you the workshop.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95729,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "دعني أريك الورشة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "en",
+     "align": "left",
+     "x": 0.58229,
+     "y": 0.56793,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Always wear your safety glasses.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95729,
+     "y": 0.60633,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ارتدِ نظّارات الأمان دائماً.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "en",
+     "align": "left",
+     "x": 0.58229,
+     "y": 0.64907,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Ask me if you are not sure.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 16.802,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95729,
+     "y": 0.68748,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "اسألني إذا لم تكن متأكّداً.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

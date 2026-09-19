@@ -33,13 +33,15 @@
 
   function turns(scene) {
     var sp = ((scene || {}).speech || []).slice();
-    var named = sp.some(function (s) { return !!s.actor; });
+    var named = sp.some(function (s) { return !!(s.actor || s.speaker); });
     var voices = {};
     sp.forEach(function (s) { voices[s.voice || ''] = 1; });
     var nVoices = Object.keys(voices).length;
     var out = sp.map(function (s) {
       var actor = s.actor || '', who;
       if (actor) who = displayName(actor);
+      // v28.4: a voice with no one on the stage that the lesson NAMES - engine/transcript.py makes the same call
+      else if (s.speaker) who = String(s.speaker);
       else if (!named && nVoices <= 1) who = NARRATOR;
       else who = UNATTRIBUTED;
       var text = {};

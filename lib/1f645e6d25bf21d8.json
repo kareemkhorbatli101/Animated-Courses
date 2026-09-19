@@ -1,0 +1,650 @@
+{
+ "schema": "timeline/1",
+ "duration": 116.122,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 2.688,
+    "en": "This is Part 6, Writing.",
+    "ar": "هذا الجزء السادس، الكتابة."
+   },
+   {
+    "start": 11.028,
+    "dur": 2.568,
+    "en": "Watch what each sentence does.",
+    "ar": "شاهد ما تفعله كلّ جملة."
+   },
+   {
+    "start": 13.946,
+    "dur": 3.936,
+    "en": "Part 6 asks you to describe your job, or a car.",
+    "ar": "الجزء السادس يطلب منك أن تصف عملك أو سيارة."
+   },
+   {
+    "start": 18.232,
+    "dur": 2.856,
+    "en": "Use fifty to seventy words.",
+    "ar": "استخدم من خمسين إلى سبعين كلمة."
+   },
+   {
+    "start": 21.438,
+    "dur": 3.168,
+    "en": "Here is a model I wrote from the book's plan.",
+    "ar": "هذا نموذج كتبته من خطّة الكتاب."
+   },
+   {
+    "start": 24.956,
+    "dur": 2.88,
+    "en": "I am a mechanic at Cham Motors.",
+    "ar": "أنا ميكانيكي في شام موتورز."
+   },
+   {
+    "start": 28.186,
+    "dur": 2.76,
+    "en": "The first sentence says who I am.",
+    "ar": "الجملة الأولى تقول من أنا."
+   },
+   {
+    "start": 31.296,
+    "dur": 3.408,
+    "en": "Every day, I service five or six cars.",
+    "ar": "كلّ يوم، أصون خمس أو ستّ سيارات."
+   },
+   {
+    "start": 35.054,
+    "dur": 4.92,
+    "en": "Every day, I service cars. Which tense is this?",
+    "ar": "كلّ يوم، أصون السيارات. أيّ زمن هذا؟"
+   },
+   {
+    "start": 45.739,
+    "dur": 4.152,
+    "en": "The present simple. It is a routine.",
+    "ar": "المضارع البسيط. إنّه عمل يومي."
+   },
+   {
+    "start": 50.241,
+    "dur": 2.832,
+    "en": "First, I read the job card.",
+    "ar": "أوّلاً، أقرأ بطاقة العمل."
+   },
+   {
+    "start": 53.423,
+    "dur": 3.792,
+    "en": "Then I check the engine, the battery and the tyres.",
+    "ar": "ثمّ أفحص المحرّك والبطارية والإطارات."
+   },
+   {
+    "start": 57.565,
+    "dur": 3.12,
+    "en": "First and then put the steps in order.",
+    "ar": "«أوّلاً» و«ثمّ» ترتّبان الخطوات."
+   },
+   {
+    "start": 61.035,
+    "dur": 3.744,
+    "en": "Right now, I am changing the oil in a small car.",
+    "ar": "الآن، أغيّر الزيت في سيارة صغيرة."
+   },
+   {
+    "start": 65.129,
+    "dur": 5.064,
+    "en": "Right now, I am changing the oil. Which tense is this?",
+    "ar": "الآن، أغيّر الزيت. أيّ زمن هذا؟"
+   },
+   {
+    "start": 76.369,
+    "dur": 4.656,
+    "en": "The present continuous. It is happening now.",
+    "ar": "المضارع المستمر. يحدث الآن."
+   },
+   {
+    "start": 81.375,
+    "dur": 3.528,
+    "en": "I like my job because I help people every day.",
+    "ar": "أحبّ عملي لأنّي أساعد الناس كلّ يوم."
+   },
+   {
+    "start": 85.253,
+    "dur": 2.376,
+    "en": "Which word gives the reason?",
+    "ar": "أيّ كلمة تعطي السبب؟"
+   },
+   {
+    "start": 92.276,
+    "dur": 1.728,
+    "en": "Because.",
+    "ar": "لأنّ (because)."
+   },
+   {
+    "start": 94.354,
+    "dur": 4.728,
+    "en": "That is fifty-one words, with one routine and one sentence about now.",
+    "ar": "هذه إحدى وخمسون كلمة، فيها عمل يومي وجملة عن الآن."
+   },
+   {
+    "start": 99.432,
+    "dur": 2.184,
+    "en": "Now it is your turn.",
+    "ar": "الآن دورك."
+   },
+   {
+    "start": 101.966,
+    "dur": 3.84,
+    "en": "Pause the video, and write about your job or a car.",
+    "ar": "أوقف الفيديو، واكتب عن عملك أو عن سيارة."
+   },
+   {
+    "start": 106.156,
+    "dur": 3.0,
+    "en": "The book has three more tasks for you.",
+    "ar": "في الكتاب ثلاث مهامّ أخرى لك."
+   },
+   {
+    "start": 109.506,
+    "dur": 5.016,
+    "en": "Why good servicing matters, a note to the mechanic, and a car in your family.",
+    "ar": "لماذا الصيانة الجيّدة مهمّة، ورسالة إلى الميكانيكي، وسيارة في عائلتك."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 23.569,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 49.616,
+    "hold": 2.66,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "engine",
+    "label": "engine",
+    "ar": "المحرّك",
+    "at": 52.323,
+    "hold": 3.0,
+    "img": "assets/vocab/engine.png",
+    "sha": "84d7dba66691c830"
+   },
+   {
+    "lemma": "mechanic",
+    "label": "mechanic",
+    "ar": "الميكانيكي",
+    "at": 109.781,
+    "hold": 3.0,
+    "img": "assets/vocab/mechanic.png",
+    "sha": "9e09184379d56ff2"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "model",
+   "at": 24.756,
+   "end": 100.082,
+   "layer": 7,
+   "rect": [
+    0.51042,
+    0.3,
+    0.46,
+    0.53057
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.52292,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 24.756,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A model (51 words)",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 24.756,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.36289,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "نموذج (51 كلمة)",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 24.956,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.39854,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Who I am:",
+       "hl"
+      ],
+      [
+       " I am a mechanic at Cham Motors.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 24.956,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.43243,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "من أنا: أنا ميكانيكي في شام موتورز.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 31.296,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.46807,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Every day:",
+       "hl"
+      ],
+      [
+       " I ",
+       null
+      ],
+      [
+       "service",
+       "routine"
+      ],
+      [
+       " five or six cars.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 31.296,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.50196,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "كلّ يوم: أصون خمس أو ستّ سيارات.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 50.241,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.53761,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "First:",
+       "hl"
+      ],
+      [
+       " I read the job card.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 50.241,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.5715,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "أوّلاً: أقرأ بطاقة العمل.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 53.423,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.60715,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Then:",
+       "hl"
+      ],
+      [
+       " I check the engine, the battery and the tyres.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 53.423,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.64104,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ثمّ: أفحص المحرّك والبطارية والإطارات.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 61.035,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.67669,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Now:",
+       "hl"
+      ],
+      [
+       " I ",
+       null
+      ],
+      [
+       "am changing",
+       "now"
+      ],
+      [
+       " the oil in a small car.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 61.035,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.71057,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الآن: أغيّر الزيت في سيارة صغيرة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 81.375,
+     "lang": "en",
+     "align": "left",
+     "x": 0.52292,
+     "y": 0.74622,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A reason:",
+       "hl"
+      ],
+      [
+       " I like my job because I help people.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 81.375,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95792,
+     "y": 0.78011,
+     "size": 0.02315,
+     "lh": 0.02824,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "سبب: أحبّ عملي لأنّي أساعد الناس.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

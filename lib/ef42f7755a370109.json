@@ -1,7 +1,7 @@
 {
  "schema": "scene/2",
- "engine": "27.37.0",
- "fingerprint": "c47604985535cf21",
+ "engine": "28.5.0",
+ "fingerprint": "b5572172a4e8bccd",
  "title": "EAM Book 1 · Unit 1 · Part 5 · What Is a Service Department?",
  "duration": 143.952,
  "size": [
@@ -5638,6 +5638,7 @@
    ],
    "bytes": 19296,
    "gainDb": -0.38,
+   "speaker": "Narrator",
    "sha": "de1ec8a22fae3c2d"
   },
   {
@@ -5792,6 +5793,7 @@
    ],
    "bytes": 33120,
    "gainDb": -1.91,
+   "speaker": "Narrator",
    "sha": "3eb678777b77cfbe"
   },
   {
@@ -5899,6 +5901,7 @@
    ],
    "bytes": 21888,
    "gainDb": -1.58,
+   "speaker": "Narrator",
    "sha": "4c0e11cabb1223de"
   },
   {
@@ -6001,6 +6004,7 @@
    ],
    "bytes": 20736,
    "gainDb": -1.09,
+   "speaker": "Narrator",
    "sha": "28b1274eff92ac49"
   },
   {
@@ -6089,6 +6093,7 @@
    ],
    "bytes": 17424,
    "gainDb": -2.04,
+   "speaker": "Narrator",
    "sha": "fc23cf5e3eba8b0f"
   },
   {
@@ -6177,6 +6182,7 @@
    ],
    "bytes": 17280,
    "gainDb": -1.21,
+   "speaker": "Narrator",
    "sha": "6d23a64e8949d263"
   },
   {
@@ -6289,6 +6295,7 @@
    ],
    "bytes": 23040,
    "gainDb": -0.91,
+   "speaker": "Narrator",
    "sha": "66df918c3056ba13"
   },
   {
@@ -6420,6 +6427,7 @@
    ],
    "bytes": 27792,
    "gainDb": -0.78,
+   "speaker": "Narrator",
    "sha": "07217109d15b86df"
   },
   {
@@ -6514,6 +6522,7 @@
    ],
    "bytes": 18720,
    "gainDb": -1.0,
+   "speaker": "Narrator",
    "sha": "0c08a5ba2418658d"
   },
   {
@@ -6648,6 +6657,7 @@
    ],
    "bytes": 28368,
    "gainDb": -1.27,
+   "speaker": "Narrator",
    "sha": "7e3326b42cc98699"
   },
   {
@@ -6772,6 +6782,7 @@
    ],
    "bytes": 26064,
    "gainDb": -1.54,
+   "speaker": "Narrator",
    "sha": "2cc61036a0d466c9"
   },
   {
@@ -6910,6 +6921,7 @@
    ],
    "bytes": 29376,
    "gainDb": -1.33,
+   "speaker": "Narrator",
    "sha": "a27a91a4cf5d4537"
   },
   {
@@ -7031,6 +7043,7 @@
    ],
    "bytes": 25200,
    "gainDb": -1.24,
+   "speaker": "Narrator",
    "sha": "bc55a0c2c354c7d4"
   },
   {
@@ -7132,6 +7145,7 @@
    ],
    "bytes": 20592,
    "gainDb": -1.14,
+   "speaker": "Narrator",
    "sha": "03541682883ab201"
   },
   {

@@ -168,6 +168,44 @@
    "mp4": []
   },
   {
+   "id": "u01v05",
+   "order": 5,
+   "title": {
+    "en": "Notice the Verbs",
+    "ar": "لاحظ الأفعال"
+   },
+   "description": {
+    "en": "Every day, or now? Notice the difference before the rule.",
+    "ar": "كلّ يوم، أم الآن؟ لاحظ الفرق قبل القاعدة."
+   },
+   "dir": "courses/eam-b1/u01v05",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 101.98
+   },
+   "bytes": 8746062,
+   "meshopt": true,
+   "meshoptBytes": 1698782,
+   "wireBytes": 4535083,
+   "meshoptWireBytes": 1174993,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
    "id": "u01v06",
    "order": 6,
    "title": {
@@ -195,6 +233,44 @@
    "wireBytes": 4670449,
    "meshoptWireBytes": 1305173,
    "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v07",
+   "order": 7,
+   "title": {
+    "en": "Grammar Review",
+    "ar": "مراجعة القواعد"
+   },
+   "description": {
+    "en": "Find the mistake, then choose the correct sentence.",
+    "ar": "جد الخطأ، ثمّ اختر الجملة الصحيحة."
+   },
+   "dir": "courses/eam-b1/u01v07",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 139.11
+   },
+   "bytes": 8860472,
+   "meshopt": true,
+   "meshoptBytes": 1809904,
+   "wireBytes": 4630324,
+   "meshoptWireBytes": 1265048,
+   "files": 35,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -320,6 +396,44 @@
    "mp4": []
   },
   {
+   "id": "u01v11",
+   "order": 11,
+   "title": {
+    "en": "At the Service Desk",
+    "ar": "في مكتب الخدمة"
+   },
+   "description": {
+    "en": "The reception conversation, then your turn, line by line.",
+    "ar": "حوار الاستقبال، ثمّ دورك سطراً سطراً."
+   },
+   "dir": "courses/eam-b1/u01v11",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 125.16
+   },
+   "bytes": 8722279,
+   "meshopt": true,
+   "meshoptBytes": 1657791,
+   "wireBytes": 4492969,
+   "meshoptWireBytes": 1133059,
+   "files": 33,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
    "id": "u01v12",
    "order": 12,
    "title": {
@@ -379,12 +493,240 @@
    "duration": {
     "en": 143.95
    },
-   "bytes": 8940035,
+   "bytes": 8940412,
    "meshopt": true,
-   "meshoptBytes": 1889467,
-   "wireBytes": 4757124,
-   "meshoptWireBytes": 1391848,
+   "meshoptBytes": 1889844,
+   "wireBytes": 4757162,
+   "meshoptWireBytes": 1391886,
    "files": 40,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v14",
+   "order": 14,
+   "title": {
+    "en": "Words in Context, and Cars in Syria",
+    "ar": "الكلمات في سياقها، والسيارات في سوريا"
+   },
+   "description": {
+    "en": "Match the words, then true or false.",
+    "ar": "طابِق الكلمات، ثمّ صحيح أم خطأ."
+   },
+   "dir": "courses/eam-b1/u01v14",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 169.91
+   },
+   "bytes": 8994374,
+   "meshopt": true,
+   "meshoptBytes": 1943806,
+   "wireBytes": 4745381,
+   "meshoptWireBytes": 1380105,
+   "files": 38,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v15",
+   "order": 15,
+   "title": {
+    "en": "How a Short Text Is Built",
+    "ar": "كيف يُبنى نصّ قصير"
+   },
+   "description": {
+    "en": "A model taken apart sentence by sentence, then your turn.",
+    "ar": "نموذج يُشرح جملةً جملة، ثمّ دورك."
+   },
+   "dir": "courses/eam-b1/u01v15",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 116.12
+   },
+   "bytes": 8821379,
+   "meshopt": true,
+   "meshoptBytes": 1770811,
+   "wireBytes": 4612723,
+   "meshoptWireBytes": 1247447,
+   "files": 37,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v16",
+   "order": 16,
+   "title": {
+    "en": "Welcoming a New Apprentice",
+    "ar": "الترحيب بمتدرّب جديد"
+   },
+   "description": {
+    "en": "Optional: what a manager says on the first day.",
+    "ar": "اختياري: ما يقوله المدير في اليوم الأوّل."
+   },
+   "dir": "courses/eam-b1/u01v16",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 162.5
+   },
+   "bytes": 8923910,
+   "meshopt": true,
+   "meshoptBytes": 1873342,
+   "wireBytes": 4700480,
+   "meshoptWireBytes": 1335204,
+   "files": 40,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v17",
+   "order": 17,
+   "title": {
+    "en": "The First Day, Step by Step",
+    "ar": "اليوم الأوّل خطوة بخطوة"
+   },
+   "description": {
+    "en": "Optional: the steps in order, and a briefing.",
+    "ar": "اختياري: الخطوات بالترتيب، وإحاطة."
+   },
+   "dir": "courses/eam-b1/u01v17",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 125.69
+   },
+   "bytes": 8882072,
+   "meshopt": true,
+   "meshoptBytes": 1831504,
+   "wireBytes": 4665967,
+   "meshoptWireBytes": 1300691,
+   "files": 34,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v18",
+   "order": 18,
+   "title": {
+    "en": "A Small Garage Grows",
+    "ar": "كراج صغير يكبر"
+   },
+   "description": {
+    "en": "Optional: a case study, then your opinion.",
+    "ar": "اختياري: دراسة حالة، ثمّ رأيك."
+   },
+   "dir": "courses/eam-b1/u01v18",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 206.69
+   },
+   "bytes": 9196983,
+   "meshopt": true,
+   "meshoptBytes": 2146415,
+   "wireBytes": 4950224,
+   "meshoptWireBytes": 1584948,
+   "files": 49,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v19",
+   "order": 19,
+   "title": {
+    "en": "A Young Mechanic Opens a Workshop",
+    "ar": "ميكانيكية شابّة تفتح ورشة"
+   },
+   "description": {
+    "en": "Optional: Lina's garage in Damascus, and a decision with no single right answer.",
+    "ar": "اختياري: كراج لينا في دمشق، وقرار ليس له جواب صحيح واحد."
+   },
+   "dir": "courses/eam-b1/u01v19",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 165.59
+   },
+   "bytes": 8889433,
+   "meshopt": true,
+   "meshoptBytes": 1985053,
+   "wireBytes": 4821900,
+   "meshoptWireBytes": 1458950,
+   "files": 42,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -423,6 +765,44 @@
    "wireBytes": 4843392,
    "meshoptWireBytes": 1478116,
    "files": 47,
+   "badgePhoto": true,
+   "defaults": {
+    "speech": "en",
+    "subtitles": [
+     "en",
+     "ar"
+    ]
+   },
+   "mp4": []
+  },
+  {
+   "id": "u01v21",
+   "order": 21,
+   "title": {
+    "en": "Can-Do and Glossary",
+    "ar": "أستطيع، والمسرد"
+   },
+   "description": {
+    "en": "Check what you can do, and name the ten words.",
+    "ar": "تحقّق ممّا تستطيع فعله، وسمِّ الكلمات العشر."
+   },
+   "dir": "courses/eam-b1/u01v21",
+   "speech": [
+    "en"
+   ],
+   "subtitles": [
+    "en",
+    "ar"
+   ],
+   "duration": {
+    "en": 177.11
+   },
+   "bytes": 9171141,
+   "meshopt": true,
+   "meshoptBytes": 2120573,
+   "wireBytes": 4912755,
+   "meshoptWireBytes": 1547479,
+   "files": 56,
    "badgePhoto": true,
    "defaults": {
     "speech": "en",
@@ -475,7 +855,9 @@
       "ar": "الجزء ٢ — القواعد"
      },
      "videos": [
-      "u01v06"
+      "u01v05",
+      "u01v06",
+      "u01v07"
      ]
     },
     {
@@ -499,6 +881,7 @@
       "ar": "الجزء ٤ — المحادثة"
      },
      "videos": [
+      "u01v11",
       "u01v12"
      ]
     },
@@ -510,7 +893,53 @@
       "ar": "الجزء ٥ — القراءة"
      },
      "videos": [
-      "u01v13"
+      "u01v13",
+      "u01v14"
+     ]
+    },
+    {
+     "id": "p6",
+     "order": 6,
+     "title": {
+      "en": "Part 6 — Writing",
+      "ar": "الجزء ٦ — الكتابة"
+     },
+     "videos": [
+      "u01v15"
+     ]
+    },
+    {
+     "id": "p7",
+     "order": 7,
+     "title": {
+      "en": "Part 7 — Management File",
+      "ar": "الجزء ٧ — ملفّ الإدارة"
+     },
+     "videos": [
+      "u01v16",
+      "u01v17"
+     ]
+    },
+    {
+     "id": "p8",
+     "order": 8,
+     "title": {
+      "en": "Part 8 — Case Study",
+      "ar": "الجزء ٨ — دراسة حالة"
+     },
+     "videos": [
+      "u01v18"
+     ]
+    },
+    {
+     "id": "p9",
+     "order": 9,
+     "title": {
+      "en": "Part 9 — Syria in Focus",
+      "ar": "الجزء ٩ — سوريا في التركيز"
+     },
+     "videos": [
+      "u01v19"
      ]
     },
     {
@@ -521,7 +950,8 @@
       "ar": "الجزء ١٠ — المراجعة"
      },
      "videos": [
-      "u01v20"
+      "u01v20",
+      "u01v21"
      ]
     }
    ]

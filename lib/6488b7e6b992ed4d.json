@@ -1,0 +1,1639 @@
+{
+ "schema": "timeline/1",
+ "duration": 169.913,
+ "subtitles": {
+  "enabled": true,
+  "langs": "en,ar",
+  "cues": [
+   {
+    "start": 0.45,
+    "dur": 3.216,
+    "en": "Welcome to Auto Maintenance, Book 1.",
+    "ar": "أهلاً بكم في صيانة السيارات، الكتاب الأوّل."
+   },
+   {
+    "start": 4.016,
+    "dur": 3.624,
+    "en": "This is Unit 1, Introduction to the Vehicle.",
+    "ar": "هذه الوحدة الأولى، مقدّمة إلى المركبة."
+   },
+   {
+    "start": 7.99,
+    "dur": 2.76,
+    "en": "This is Part 5, Reading.",
+    "ar": "هذا الجزء الخامس، القراءة."
+   },
+   {
+    "start": 11.1,
+    "dur": 3.408,
+    "en": "Match the words, then say true or false.",
+    "ar": "طابِق الكلمات، ثمّ قل صحيح أم خطأ."
+   },
+   {
+    "start": 14.858,
+    "dur": 3.912,
+    "en": "First, match four words from the reading with their meanings.",
+    "ar": "أوّلاً، طابِق أربع كلمات من القراءة مع معانيها."
+   },
+   {
+    "start": 19.12,
+    "dur": 3.624,
+    "en": "Service. Which meaning is it?",
+    "ar": "Service. أيّ معنى هو؟"
+   },
+   {
+    "start": 27.45,
+    "dur": 3.552,
+    "en": "E. The regular check and care a car needs.",
+    "ar": "هـ. الفحص والعناية المنتظمة التي تحتاجها السيارة."
+   },
+   {
+    "start": 31.352,
+    "dur": 3.72,
+    "en": "Job card. Which meaning is it?",
+    "ar": "Job card. أيّ معنى هو؟"
+   },
+   {
+    "start": 39.837,
+    "dur": 3.168,
+    "en": "B. The paper that lists the work to do.",
+    "ar": "ب. الورقة التي تذكر العمل المطلوب."
+   },
+   {
+    "start": 43.355,
+    "dur": 3.624,
+    "en": "Workshop. Which meaning is it?",
+    "ar": "Workshop. أيّ معنى هو؟"
+   },
+   {
+    "start": 51.743,
+    "dur": 3.336,
+    "en": "A. The room where mechanics work on cars.",
+    "ar": "أ. المكان الذي يعمل فيه الميكانيكيون على السيارات."
+   },
+   {
+    "start": 55.429,
+    "dur": 4.2,
+    "en": "Diagnostic machine. Which meaning is it?",
+    "ar": "Diagnostic machine. أيّ معنى هو؟"
+   },
+   {
+    "start": 64.982,
+    "dur": 2.928,
+    "en": "D. A computer that finds faults.",
+    "ar": "د. حاسوب يجد الأعطال."
+   },
+   {
+    "start": 68.26,
+    "dur": 4.032,
+    "en": "One meaning is not needed. Which one?",
+    "ar": "معنى واحد غير مطلوب. أيّ واحد؟"
+   },
+   {
+    "start": 77.469,
+    "dur": 2.928,
+    "en": "C. A mirror for seeing behind.",
+    "ar": "ج. مرآة للرؤية إلى الخلف."
+   },
+   {
+    "start": 80.747,
+    "dur": 2.544,
+    "en": "Here are the words in the text.",
+    "ar": "هذه هي الكلمات في النصّ."
+   },
+   {
+    "start": 83.641,
+    "dur": 2.568,
+    "en": "Now, Cars in Syria.",
+    "ar": "الآن، السيارات في سوريا."
+   },
+   {
+    "start": 86.559,
+    "dur": 5.592,
+    "en": "Before you read. Why do people in Syria keep cars for many years?",
+    "ar": "قبل أن تقرأ. لماذا يحتفظ الناس في سوريا بسياراتهم سنوات طويلة؟"
+   },
+   {
+    "start": 98.974,
+    "dur": 3.36,
+    "en": "New cars are expensive and hard to import.",
+    "ar": "السيارات الجديدة غالية وصعبة الاستيراد."
+   },
+   {
+    "start": 102.684,
+    "dur": 6.984,
+    "en": "Here is an example. People in Syria keep cars for many years. True.",
+    "ar": "هذا مثال. الناس في سوريا يحتفظون بسياراتهم سنوات طويلة. صحيح."
+   },
+   {
+    "start": 110.018,
+    "dur": 5.592,
+    "en": "New cars are cheap and easy to import in Syria. True or false?",
+    "ar": "السيارات الجديدة رخيصة وسهلة الاستيراد في سوريا. صحيح أم خطأ؟"
+   },
+   {
+    "start": 122.257,
+    "dur": 5.208,
+    "en": "That is false. New cars are expensive and hard to import.",
+    "ar": "هذا خطأ. السيارات الجديدة غالية وصعبة الاستيراد."
+   },
+   {
+    "start": 127.815,
+    "dur": 5.544,
+    "en": "Dusty roads mean cars need regular servicing. True or false?",
+    "ar": "الطرق المغبرّة تعني أنّ السيارات تحتاج صيانة منتظمة. صحيح أم خطأ؟"
+   },
+   {
+    "start": 139.889,
+    "dur": 5.664,
+    "en": "True. Roads can be rough and dusty, so cars need regular servicing.",
+    "ar": "صحيح. الطرق وعرة ومغبرّة، لذلك تحتاج السيارات صيانة منتظمة."
+   },
+   {
+    "start": 145.903,
+    "dur": 5.304,
+    "en": "Old cars can still run well with good care. True or false?",
+    "ar": "السيارات القديمة تعمل جيّداً مع العناية. صحيح أم خطأ؟"
+   },
+   {
+    "start": 157.619,
+    "dur": 5.28,
+    "en": "True. Some cars in Syria are very old but still run well.",
+    "ar": "صحيح. بعض السيارات في سوريا قديمة جدّاً لكنّها تعمل جيّداً."
+   },
+   {
+    "start": 163.249,
+    "dur": 5.064,
+    "en": "Well done. Good care keeps a car running for many years.",
+    "ar": "أحسنت. العناية الجيّدة تُبقي السيارة تعمل سنوات طويلة."
+   }
+  ]
+ },
+ "vocab": {
+  "cards": [
+   {
+    "lemma": "service",
+    "label": "service",
+    "ar": "الصيانة",
+    "at": 17.32,
+    "hold": 10.08,
+    "img": "assets/vocab/service.png",
+    "sha": "366d5661b81e47e1"
+   },
+   {
+    "lemma": "job_card",
+    "label": "job card",
+    "ar": "بطاقة العمل",
+    "at": 29.552,
+    "hold": 10.23,
+    "img": "assets/vocab/job_card.png",
+    "sha": "d22539fe17716c6e"
+   },
+   {
+    "lemma": "workshop",
+    "label": "workshop",
+    "ar": "الورشة",
+    "at": 41.555,
+    "hold": 10.14,
+    "img": "assets/vocab/workshop.png",
+    "sha": "a7d519035ff3897f"
+   }
+  ],
+  "x": 0.988,
+  "y": 0.02,
+  "width": 0.118
+ },
+ "badge": {
+  "id": "local",
+  "img": "assets/badge.png",
+  "name": "Mohamad Khorbatli",
+  "phone": "+963-955785033",
+  "contains_photo": true
+ },
+ "boards": [
+  {
+   "id": "meanings",
+   "at": 18.92,
+   "end": 80.497,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.48633
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 18.92,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Meanings",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 18.92,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "المعاني",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40337,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "a) the room where mechanics work on cars",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.43726,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "المكان الذي يعمل فيه الميكانيكيون",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.47774,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "b) the paper that lists the work to do",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.51163,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الورقة التي تذكر العمل المطلوب",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.55211,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "c) a mirror for seeing behind",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.586,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "مرآة للرؤية إلى الخلف",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.62648,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "d) a computer that finds faults",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.66037,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "حاسوب يجد الأعطال",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.70085,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "e) the regular check and care a car needs",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 19.12,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.73474,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الفحص والعناية المنتظمة للسيارة",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "intext",
+   "at": 80.547,
+   "end": 84.291,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.41196
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02222,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 80.547,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "In the text",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.547,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "في النصّ",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40337,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The mechanic does the ",
+       null
+      ],
+      [
+       "service",
+       "hl"
+      ],
+      [
+       ".",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.43726,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الميكانيكي يقوم بالصيانة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.47774,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "The service advisor writes a ",
+       null
+      ],
+      [
+       "job card",
+       "hl"
+      ],
+      [
+       ".",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.51163,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "مستشار الخدمة يكتب بطاقة عمل.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.55211,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Then the car goes into the ",
+       null
+      ],
+      [
+       "workshop",
+       "hl"
+      ],
+      [
+       ".",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.586,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "ثمّ تدخل السيارة إلى الورشة.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.62648,
+     "size": 0.02778,
+     "lh": 0.03389,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "A technician uses a ",
+       null
+      ],
+      [
+       "diagnostic machine",
+       "hl"
+      ],
+      [
+       ".",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 80.747,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.66037,
+     "size": 0.02407,
+     "lh": 0.02937,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الفنّي يستخدم جهاز التشخيص.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "tf1",
+   "at": 109.818,
+   "end": 127.565,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.27904
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 109.818,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "True or false?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 109.818,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحيح أم خطأ؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 110.018,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "1. New cars are cheap and easy to import.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 110.018,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "السيارات الجديدة رخيصة وسهلة الاستيراد في سوريا..",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 122.257,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "New cars are expensive and hard to import.",
+       "hl"
+      ]
+     ]
+    },
+    {
+     "at": 122.257,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "هذا خطأ. السيارات الجديدة غالية وصعبة الاستيراد.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "tf2",
+   "at": 127.615,
+   "end": 145.652,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.34907
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 127.615,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "True or false?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 127.615,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحيح أم خطأ؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 127.815,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "2. Dusty roads mean cars need regular servicing.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 127.815,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "الطرق المغبرّة تعني أنّ السيارات تحتاج صيانة منتظمة..",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 139.889,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Roads can be ",
+       null
+      ],
+      [
+       "rough and dusty",
+       "hl"
+      ],
+      [
+       ", so cars need",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 139.889,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.52519,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "regular servicing",
+       "hl"
+      ],
+      [
+       ".",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 139.889,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.56359,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحيح. الطرق وعرة ومغبرّة، لذلك تحتاج السيارات صيانة",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 139.889,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.59522,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "منتظمة.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  },
+  {
+   "id": "tf3",
+   "at": 145.703,
+   "end": 163.899,
+   "layer": 7,
+   "rect": [
+    0.53021,
+    0.3,
+    0.44,
+    0.27904
+   ],
+   "radius": 0.01667,
+   "edgeWidth": 0.00278,
+   "fill": [
+    14,
+    14,
+    18
+   ],
+   "opacity": 0.88,
+   "edge": [
+    255,
+    210,
+    120
+   ],
+   "font": "Arial, Helvetica, sans-serif",
+   "arFont": "Tahoma, 'Noto Naskh Arabic', sans-serif",
+   "markWidth": 0.00278,
+   "tick": [
+    [
+     0.1,
+     0.55
+    ],
+    [
+     0.4,
+     0.85
+    ],
+    [
+     0.92,
+     0.12
+    ]
+   ],
+   "tickBox": 0.02519,
+   "prefixX": 0.54271,
+   "marks": {
+    "routine": {
+     "shape": "underline",
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "band": null
+    },
+    "now": {
+     "shape": "box",
+     "color": [
+      120,
+      220,
+      255
+     ],
+     "band": null
+    },
+    "strike": {
+     "shape": "strike",
+     "color": [
+      189,
+      189,
+      189
+     ],
+     "band": null
+    },
+    "fix": {
+     "shape": "double",
+     "color": [
+      156,
+      239,
+      156
+     ],
+     "band": null
+    },
+    "hl": {
+     "shape": "band",
+     "color": [
+      20,
+      20,
+      20
+     ],
+     "band": [
+      255,
+      210,
+      120
+     ]
+    }
+   },
+   "lines": [
+    {
+     "at": 145.703,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.32222,
+     "size": 0.03333,
+     "lh": 0.04067,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "True or false?",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 145.703,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.36289,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      210,
+      120
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحيح أم خطأ؟",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 145.903,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.40563,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "3. Old cars can still run well with good care.",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 145.903,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.44404,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "السيارات القديمة تعمل جيّداً مع العناية..",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 157.619,
+     "lang": "en",
+     "align": "left",
+     "x": 0.54271,
+     "y": 0.48678,
+     "size": 0.03148,
+     "lh": 0.03841,
+     "color": [
+      255,
+      249,
+      240
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "Some cars are ",
+       null
+      ],
+      [
+       "very old but still run well",
+       "hl"
+      ],
+      [
+       ".",
+       null
+      ]
+     ]
+    },
+    {
+     "at": 157.619,
+     "lang": "ar",
+     "align": "right",
+     "x": 0.95771,
+     "y": 0.52519,
+     "size": 0.02593,
+     "lh": 0.03163,
+     "color": [
+      255,
+      224,
+      150
+     ],
+     "prefix": null,
+     "runs": [
+      [
+       "صحيح. بعض السيارات في سوريا قديمة جدّاً لكنّها تعمل جيّداً.",
+       null
+      ]
+     ]
+    }
+   ],
+   "bars": []
+  }
+ ]
+}

@@ -111,6 +111,136 @@
     h.appendChild(this.cardEl);
     this.cardSrc = {};          // lemma/img -> object URL, supplied by the page
     this._cardShown = null;
+
+    // v28.4: THE TEXT BOARD (engine/board.py). It arrives RESOLVED in timeline.boards - every line's text,
+    // position, size and colour, placed once by the engine with the compositor's own fonts - so this draws what it
+    // is told and wraps nothing: the line breaks on the page are the MP4's by construction.
+    this.boardEl = document.createElement('div');
+    this.boardEl.className = 'ov-board';
+    this.boardEl.style.position = 'absolute';
+    this.boardEl.style.display = 'none';
+    this.boardEl.style.boxSizing = 'border-box';
+    h.appendChild(this.boardEl);
+    this._boardShown = null;
+    this._boardKids = [];
+  };
+
+  Overlay.prototype.boardAt = function (t) {
+    var bs = this.timeline.boards || [];
+    for (var i = 0; i < bs.length; i++) {
+      if (t >= bs[i].at && t < bs[i].end) return bs[i];
+    }
+    return null;
+  };
+
+  function rgb(c) { return 'rgb(' + c.join(',') + ')'; }
+
+  // One board, laid out at the current display size. Every number is the board's own, in frame fractions.
+  Overlay.prototype._buildBoard = function (b) {
+    var W = this.W || 0, H = this.H || 0, e = this.boardEl, s = e.style, r = b.rect;
+    var bw = b.edgeWidth * H, mw = b.markWidth * H, kids = [];
+    e.innerHTML = '';
+    s.left = (r[0] * W) + 'px'; s.top = (r[1] * H) + 'px';
+    s.width = (r[2] * W) + 'px'; s.height = (r[3] * H) + 'px';
+    s.zIndex = String(b.layer);
+    s.borderRadius = (b.radius * H) + 'px';
+    s.border = bw + 'px solid ' + rgb(b.edge);
+    s.background = 'rgba(' + b.fill.join(',') + ',' + b.opacity + ')';
+    // children are placed from the panel's inner (padding) edge, i.e. inside its border
+    function X(fx) { return (fx - r[0]) * W - bw; }
+    function Y(fy) { return (fy - r[1]) * H - bw; }
+    b.lines.forEach(function (L) {
+      var d = document.createElement('div'), ds = d.style;
+      ds.position = 'absolute';
+      ds.whiteSpace = 'pre';
+      ds.top = Y(L.y) + 'px';
+      ds.fontSize = (L.size * H) + 'px';
+      ds.lineHeight = (L.lh * H) + 'px';
+      ds.fontWeight = 'bold';
+      ds.fontFamily = L.lang === 'ar' ? b.arFont : b.font;
+      ds.color = rgb(L.color);
+      if (L.align === 'right') {
+        d.setAttribute('dir', 'rtl');
+        ds.right = ((r[0] + r[2] - L.x) * W - bw) + 'px';
+      } else {
+        ds.left = X(L.x) + 'px';
+      }
+      L.runs.forEach(function (run) {
+        var sp = document.createElement('span'), ss = sp.style, m = run[1] ? b.marks[run[1]] : null;
+        sp.textContent = run[0];
+        if (m) {
+          ss.color = rgb(m.color);
+          if (m.shape === 'underline' || m.shape === 'double') {
+            ss.textDecorationLine = 'underline';
+            ss.textDecorationStyle = m.shape === 'double' ? 'double' : 'solid';
+            ss.textDecorationThickness = mw + 'px';
+            ss.textDecorationColor = rgb(m.color);
+            ss.textUnderlineOffset = mw + 'px';
+          } else if (m.shape === 'strike') {
+            ss.textDecorationLine = 'line-through';
+            ss.textDecorationThickness = mw + 'px';
+            ss.textDecorationColor = rgb(m.color);
+          } else if (m.shape === 'box') {
+            ss.outline = mw + 'px solid ' + rgb(m.color);
+            ss.outlineOffset = mw + 'px';
+          } else if (m.shape === 'band') {
+            ss.backgroundColor = rgb(m.band);
+          }
+        }
+        d.appendChild(sp);
+      });
+      d.setAttribute('data-line', L.lang);
+      e.appendChild(d);
+      kids.push({el: d, at: L.at});
+      if (L.prefix === 'tick') {
+        var ns = 'http://www.w3.org/2000/svg', box = b.tickBox * H;
+        var sv = document.createElementNS(ns, 'svg'), pl = document.createElementNS(ns, 'polyline');
+        sv.setAttribute('width', box); sv.setAttribute('height', box);
+        sv.style.position = 'absolute';
+        sv.style.left = X(b.prefixX) + 'px';
+        sv.style.top = (Y(L.y) + (L.lh * H - box) / 2) + 'px';
+        pl.setAttribute('points', b.tick.map(function (p) { return (p[0] * box) + ',' + (p[1] * box); }).join(' '));
+        pl.setAttribute('fill', 'none');
+        pl.setAttribute('stroke', rgb(b.marks.fix.color));
+        pl.setAttribute('stroke-width', mw + 1);
+        sv.appendChild(pl);
+        e.appendChild(sv);
+        kids.push({el: sv, at: L.at});
+      } else if (L.prefix) {
+        var pd = d.cloneNode(false);
+        pd.removeAttribute('data-line');
+        pd.style.left = X(b.prefixX) + 'px';
+        pd.textContent = L.prefix;
+        e.appendChild(pd);
+        kids.push({el: pd, at: L.at});
+      }
+    });
+    b.bars.forEach(function (B) {
+      var t = document.createElement('div'), f = document.createElement('div');
+      t.style.position = 'absolute'; t.style.boxSizing = 'border-box';
+      t.style.left = X(B.x) + 'px'; t.style.top = Y(B.y) + 'px';
+      t.style.width = (B.track * W) + 'px'; t.style.height = (B.h * H) + 'px';
+      t.style.border = mw + 'px solid ' + rgb(B.color);
+      f.style.position = 'absolute';
+      f.style.left = X(B.x) + 'px'; f.style.top = Y(B.y) + 'px';
+      f.style.width = (B.w * W) + 'px'; f.style.height = (B.h * H) + 'px';
+      f.style.backgroundColor = rgb(B.color);
+      e.appendChild(t); e.appendChild(f);
+      kids.push({el: t, at: B.at}); kids.push({el: f, at: B.at});
+    });
+    this._boardKids = kids;
+    this._boardShown = b; this._boardW = W; this._boardH = H;
+  };
+
+  Overlay.prototype.renderBoard = function (t) {
+    var b = this.boardAt(t);
+    if (!b) { this.boardEl.style.display = 'none'; this._boardShown = null; return; }
+    if (this._boardShown !== b || this._boardW !== this.W || this._boardH !== this.H) this._buildBoard(b);
+    for (var i = 0; i < this._boardKids.length; i++) {
+      var k = this._boardKids[i];
+      k.el.style.display = t >= k.at ? 'block' : 'none';
+    }
+    this.boardEl.style.display = 'block';
   };
 
   // The page fetches each card's picture (verified against its hash, like every other file) and hands the
@@ -274,6 +404,7 @@
   Overlay.prototype.render = function (t) {
     this._t = t;
     this.renderCard(t);
+    this.renderBoard(t);
     var c = this.cfg, k = this.k || 1;
     if (!c || !(c.enabled === undefined ? true : c.enabled)) {
       this.strip.style.display = 'none';
@@ -328,6 +459,17 @@
     out.badge = rect(this.badgeEl);
     out.card = rect(this.cardEl);
     out.cardText = out.card ? {en: this.cardEn.textContent, ar: this.cardAr.textContent} : null;
+    // v28.4: the board and every line it shows - what the parity check compares against the resolved layout
+    out.board = rect(this.boardEl);
+    out.boardLines = [];
+    if (out.board) {
+      var ls = this.boardEl.querySelectorAll('[data-line]');
+      for (var j = 0; j < ls.length; j++) {
+        var lr = rect(ls[j]);
+        if (lr) out.boardLines.push({text: ls[j].textContent, lang: ls[j].getAttribute('data-line'),
+                                     x: lr.x, y: lr.y, w: lr.w, h: lr.h});
+      }
+    }
     out.langs = [];
     var kids = this.box.children;
     for (var i = 0; i < kids.length; i++) {
