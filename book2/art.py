@@ -242,4 +242,14 @@ def render(svg_body, w, h, bg=CREAM):
                         '--screenshot=' + out, 'file://' + src],
                        capture_output=True, timeout=120)
         os.unlink(src)
+        # Flat vector art uses only a few thousand colours, almost all of them
+        # anti-aliasing. A 256-colour palette is visually identical and about
+        # 60% smaller, which matters for a book with 223 illustrations.
+        try:
+            from PIL import Image
+            im = Image.open(out).convert('RGB')
+            im.quantize(colors=256, method=Image.MEDIANCUT,
+                        dither=Image.NONE).save(out, 'PNG', optimize=True)
+        except Exception:
+            pass
     return open(out, 'rb').read(), w, h
