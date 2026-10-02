@@ -129,7 +129,8 @@ HANDOUT = dict(
           'sensor': ('The company sells one product, so the unit is the natural cost object.', ''),
           'indirect': ('You cannot trace a supervisor to one unit, so you allocate.', ''),
           'direct': ('The same cost is direct to a bigger cost object.',
-                     'Thinking a cost has one fixed classification for ever.')}),
+                     'Thinking a cost has one fixed classification for ever.')},
+         ['driver', 'centre', 'unit', 'variable']),
 
         ('prose', 'One more word before you classify anything. The activity that makes '
                   'a cost move is its cost driver: machine hours drive the power bill, '
@@ -162,7 +163,8 @@ HANDOUT = dict(
           'not': ('Fixed total is flat inside the relevant range.', ''),
           'falls': ('More units share the same total, so each carries less.',
                     'This single sentence is the cause of nearly every absorption '
-                    'costing trap in Part 1.')}),
+                    'costing trap in Part 1.')},
+         ['rises', 'per hour', 'constant', 'always']),
 
         ('h3', 'The table the exam tests more than any other'),
         ('table', ['', 'As activity RISES, the total is…', 'As activity RISES, the amount per unit is…'],
@@ -210,7 +212,8 @@ HANDOUT = dict(
           'indirect': ('It serves the whole factory, so it must be allocated.', ''),
           'independent': ('All four combinations exist.',
                           'Treating "direct" as a synonym for "variable" — the single '
-                          'most common vocabulary error in this topic.')}),
+                          'most common vocabulary error in this topic.')},
+         ['traceable', 'behavioural', 'mixed', 'arbitrary']),
 
         ('task', 'Exercise 1E',
          'Write one example of each combination from the Grandview list above. All four '
@@ -242,7 +245,8 @@ HANDOUT = dict(
           'fixed manufacturing overhead': (
               'This is the only disputed cost, and every difference in income between '
               'the two methods comes from it.',
-              'If you remember one sentence from Handout 1, make it this one.')}),
+              'If you remember one sentence from Handout 1, make it this one.')},
+         ['expense', 'cash', 'conversion', 'variable manufacturing overhead']),
 
         ('fig', 'spine',
          [('Raw Materials', 'materials bought and stored', '#2B6CB0'),

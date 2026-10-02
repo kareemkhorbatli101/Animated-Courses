@@ -113,7 +113,8 @@ HANDOUT = dict(
           'materials': ('Materials only, which is what makes it "super-variable".', ''),
           'labour': ('Labour is treated as fixed in the short run.',
                      'Candidates assume labour must be a product cost because it is '
-                     'direct. Under throughput costing it is not.')}),
+                     'direct. Under throughput costing it is not.')},
+         ['period', 'traceable', 'overhead', 'warehouse', 'prime']),
 
         ('fig', 'ladder',
          [('Direct materials', '$%d' % S1.dm, 1, 1, 1),
@@ -181,7 +182,8 @@ HANDOUT = dict(
           'contribution': ('Sales less ALL variable costs.', ''),
           'material': ('Materials only.', ''),
           'sold': ('Production equal to sales means no change in inventory, so no fixed '
-                   'overhead moves.', 'Thinking the methods always differ. They do not.')}),
+                   'overhead moves.', 'Thinking the methods always differ. They do not.')},
+         ['throughput', 'function', 'net', 'produced', 'labour']),
 
         ('h3', 'The three shapes, side by side'),
         ('table', ['Absorption costing', 'Variable costing', 'Throughput costing'],
@@ -234,7 +236,8 @@ HANDOUT = dict(
                          'Students sometimes think variable costing is "not allowed". '
                          'It is not allowed in PUBLISHED statements. That is all.'),
           'internal reporting': ('Both sets of numbers, for two different '
-                                'audiences.', '')}),
+                                'audiences.', '')},
+         ['forbidden', 'actual', 'theoretical', 'optional']),
 
         ('task', 'Exercise 2G',
          'Tick the method each statement describes. One tick per row.'),

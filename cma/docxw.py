@@ -649,6 +649,24 @@ class _CMA:
                             % (INDIGO_D, ''.join(ps)), body))
         self.blank()
 
+    def bank(self, words, note):
+        """The word bank above a fill exercise.
+
+        Built from the exercise's own answers plus the author's distractors, so
+        it can never omit a word the student needs, and the distractors are the
+        wrong choices the exam would actually offer.
+        """
+        line = '     '.join(words)
+        ps = [para([run('WORD BANK', b=True, color=INDIGO_D, sz=15)],
+                   '<w:spacing w:after="40"/>'),
+              para([run(line, b=True, sz=20)],
+                   '<w:spacing w:after="50" w:line="280" w:lineRule="auto"/>'),
+              para([run(note, i=True, sz=17, color=GREY)])]
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
+                         '<w:tr><w:tc>%s%s</w:tc></w:tr></w:tbl>'
+                         % (tblpr(PERI, 4), tcpr(CREAM, 150), ''.join(ps)))
+        self.blank()
+
     def three_ways(self, rows):
         """Same idea at R1, R2 and R3, for the register bridge exercise."""
         head = '<w:tr>%s</w:tr>' % ''.join(

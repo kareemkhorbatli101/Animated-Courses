@@ -46,8 +46,15 @@ class Builder:
     def _task(self, label, instruction):
         self.d.task(label, instruction)
 
-    def _fill(self, reg, text, whys=None):
-        whys = whys or {}
+    def _fill(self, reg, text, whys=None, extras=None):
+        whys, extras = whys or {}, extras or []
+        from blanks import answers as _ans
+        got = _ans(text)
+        words = sorted(set(got) | set(extras), key=lambda w: w.lower())
+        note = 'Not every word is used.' if extras else ''
+        if len(got) != len(set(got)):
+            note += ('  ' if note else '') + 'A word may be used more than once.'
+        self.d.bank(words, note or 'Use each word once.')
         parts = self.bl.parse(text)
         for p in parts:
             if p[0] == 'b':

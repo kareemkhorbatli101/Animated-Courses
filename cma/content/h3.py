@@ -161,7 +161,8 @@ HANDOUT = dict(
                           'are none.'),
           'period': ('A capacity cost belongs to the period that bought the capacity.', ''),
           'next': ('It waits in inventory until those units are sold.',
-                   'Saying the cost is "saved" or "avoided". It is only postponed.')}),
+                   'Saying the cost is "saved" or "avoided". It is only postponed.')},
+         ['differently', 'current', 'previous', 'partly']),
 
         ('prose', 'Two pieces of vocabulary before the bridge. A period in which '
                   'production is greater than sales is an inventory build, and the fixed '
@@ -212,7 +213,8 @@ HANDOUT = dict(
           'expensed': ('Timing, not amount. This is the single most important sentence '
                        'in the topic.',
                        'Believing absorption costing "creates" profit. It moves it '
-                       'between periods.')}),
+                       'between periods.')},
+         ['level', 'falls', 'equal', 'deferred', 'closing balance']),
 
         ('fig', 'fork', 'Compare units PRODUCED with units SOLD',
          [('Production is GREATER than sales', 'Absorption income is HIGHER', '6D3F7E'),

@@ -84,6 +84,14 @@ def check_handout(H, seen_terms, bad):
             if reg == 'R3' and n < 5:
                 say('exam-register teaching text appears in handout %d, before the '
                     'student has met the idea at R1 and R2' % n)
+            extras = b[4] if len(b) > 4 else []
+            if len(extras) < 3:
+                say('a fill block offers only %d distractors in its word bank; a bank '
+                    'with no wrong answers in it is a crutch, not an exercise'
+                    % len(extras))
+            for e in extras:
+                if e in a:
+                    say('%r is both an answer and a distractor in the same bank' % e)
             if not a:
                 say('a fill block has no blanks at all')
             for ans in a:

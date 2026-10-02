@@ -211,7 +211,8 @@ HANDOUT = dict(
           'over-applied': ('Applied is greater than actual.', ''),
           'Sold': ('Permitted when the amount is immaterial; otherwise prorate.',
                    'Forgetting that a material balance must be split between work in '
-                   'process, finished goods and cost of goods sold.')}),
+                   'process, finished goods and cost of goods sold.')},
+         ['Expense', 'Payable', 'under-applied', 'Inventory']),
 
         ('part', 'Part 2 · The same month under variable costing', 'three entries change'),
 
@@ -238,7 +239,8 @@ HANDOUT = dict(
                        'A very common exam point: variable costing systems do not report '
                        'a production volume variance.'),
           'unchanged': ('The first six entries are identical under both methods.', ''),
-          'produced': ('All %s units carry it, not just those sold.' % num(P), '')}),
+          'produced': ('All %s units carry it, not just those sold.' % num(P), '')},
+         ['Finished Goods', 'spending', 'identical', 'applied']),
 
         ('part', 'Part 3 · Proving the difference from the ledger', 'the Section D payoff'),
 
@@ -273,7 +275,8 @@ HANDOUT = dict(
           'prorated': ('Spread across all three accounts holding applied overhead.', ''),
           'understates': ('Inventory is left carrying too little cost.',
                           'Assuming proration always increases income. It depends '
-                          'entirely on whether the balance is over- or under-applied.')}),
+                          'entirely on whether the balance is over- or under-applied.')},
+         ['material', 'written off', 'overstates', 'audited']),
 
         ('task', 'Exercise 5G',
          'An under-applied balance of $90,000 is to be prorated. Complete the table.'),

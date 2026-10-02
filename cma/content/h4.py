@@ -153,7 +153,8 @@ HANDOUT = dict(
           'below': ('Absorption income is LOWER in a drawdown year.', ''),
           'cancel': ('Every deferral eventually reverses.',
                      'Believing absorption costing produces more profit in total. It '
-                     'produces a different PATTERN of profit.')}),
+                     'produces a different PATTERN of profit.')},
+         ['written off', 'avoided', 'different', 'above', 'accumulate']),
 
         ('task', 'Exercise 4D',
          'Complete the summary. This is the table the chairman needs.'),
@@ -194,7 +195,8 @@ HANDOUT = dict(
           'favourable': ('More overhead applied than budgeted.',
                          '"Favourable" here does not mean good. It means over-applied, '
                          'which happened because the plant built stock nobody ordered.'),
-          'unfavourable': ('Less applied than budgeted, because capacity was idle.', '')}),
+          'unfavourable': ('Less applied than budgeted, because capacity was idle.', '')},
+         ['less', 'spending', 'sales', 'budget', 'nil']),
 
         ('prose', 'An unfavourable volume variance has a plain-language meaning worth '
                   'holding on to: it is the accounting trace of idle capacity. Grandview '

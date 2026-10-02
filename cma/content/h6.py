@@ -156,7 +156,8 @@ HANDOUT = dict(
           'favourable': ('Favourable because output exceeded the denominator volume.',
                          'Reading "favourable" as "good". Here it is produced by making '
                          'things nobody wants.'),
-          'passed': ('The bonus is earned on a number, and the number moved.', '')}),
+          'passed': ('The bonus is earned on a number, and the number moved.', '')},
+         ['produced', 'factory', 'ledger', 'unfavourable', 'missed']),
 
         ('part', 'Part 2 · Solving for the target', 'the numerical entry item'),
 
@@ -192,7 +193,8 @@ HANDOUT = dict(
           'obsolescence': ('Unsold stock can become worthless.', ''),
           'calculated': ('The measure ignores every cost of the behaviour it rewards.',
                          'This sentence is the answer to most Level C questions on this '
-                         'topic.')}),
+                         'topic.')},
+         ['saving', 'fixed', 'spoilage', 'reported', 'gain']),
 
         ('fig', 'scale',
          'What the bonus measure sees',
@@ -268,7 +270,8 @@ HANDOUT = dict(
                         'never the correct first step.'),
           'supervisor': ('Immediate supervisor first, unless they are involved.',
                          'Going outside the organisation first. External disclosure is '
-                         'the last resort, not the first.')}),
+                         'the last resort, not the first.')},
+         ['Competence', 'Confidentiality', 'negligence', 'concealed', 'auditor']),
 
         ('task', 'Exercise 6G',
          'Match each fact with the standard it most directly engages.'),
@@ -395,8 +398,8 @@ HANDOUT = dict(
          'cash; item 6 is wrong because the treatment is explicitly compliant.'),
 
         ('h3', 'Item 6 of 7 · Fill in the blank'),
-        ('task', 'Complete the sentence using one of: HIGHER, LOWER, UNCHANGED.',
-         'Each word may be used more than once.'),
+        ('task', 'Item 6', 'Complete the sentence from the word bank. On the real '
+                            'exam each space is a drop-down list.'),
         ('fill', 'R3',
          'Compared with producing to demand, producing to capacity leaves absorption '
          'costing operating income {HIGHER}, variable costing operating income '
@@ -406,7 +409,8 @@ HANDOUT = dict(
           'UNCHANGED': ('No additional units were sold.', ''),
           'LOWER': ('Cash is spent making units nobody has ordered.',
                     'Candidates mark cash UNCHANGED because the income statement did not '
-                    'show the outflow.')}),
+                    'show the outflow.')},
+         ['NIL', 'NEGATIVE', 'DEFERRED']),
 
         ('h3', 'Item 7 of 7 · List selection'),
         ('prose', 'The plant accountant has concluded that the quarterly report, as '
