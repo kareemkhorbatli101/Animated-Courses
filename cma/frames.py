@@ -732,6 +732,43 @@ def threshold(title, bars, line_value, line_label):
     return render(''.join(g), W, h, PAPER)
 
 
+def ranked(title, rows, note='', scale_note=''):
+    """An ordered list of amounts, drawn as bars in the order they are given.
+
+    rows: [(label, amount_number, amount_text, colour)]
+
+    Section A orders things constantly: a balance sheet by liquidity, an equity
+    section by where the money came from, a cash flow statement by activity. The
+    order is the teaching point, so the bar length carries the size and the
+    position carries the rank.
+    """
+    n = len(rows)
+    top = 92 if not scale_note else 112
+    rh = 44
+    nlines = wrap(note, W - 120, 16) if note else []
+    h = top + n * rh + (26 + 22 * len(nlines) if note else 20)
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(T(W / 2, 46, title, 22, INDIGO_D, bold=True))
+    if scale_note:
+        g.append(T(W / 2, 76, scale_note, 15, GREY))
+    lw = max(tw(r[0], 15) for r in rows) + 26
+    lw = min(lw, 330)
+    x0 = 40 + lw
+    amt = 128                                   # the money column on the right
+    bar = W - 40 - amt - x0
+    biggest = max(abs(r[1]) for r in rows) or 1
+    for i, (label, value, text, c) in enumerate(rows):
+        y = top + i * rh
+        g.append(T(40, y + 26, label, _fit(label, lw - 14, 15), INK, anchor='start'))
+        w = max(3, bar * abs(value) / biggest)
+        g.append(R(x0, y + 10, w, 24, _col(c), rx=4))
+        g.append(T(W - 40, y + 27, text, 16, _col(c), bold=True, anchor='end'))
+    if note:
+        for j, ln in enumerate(nlines):
+            g.append(T(W / 2, h - 18 - 22 * (len(nlines) - 1 - j), ln, 16, GREY))
+    return render(''.join(g), W, int(h), PAPER)
+
+
 # ------------------------------------------------------------------ legend --
 def legend():
     """The colour system, stated once at the front of the book.

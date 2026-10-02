@@ -216,9 +216,11 @@ def check_handout(H, seen_terms, bad):
             # weight. Capitals are the tempting substitute and the wrong one:
             # a shouted sentence is slower to read in a second language and
             # says nothing about why the remark matters. Short all-caps labels
-            # inside diagrams and statement rows are headings, not sentences,
-            # and stay allowed.
-            if SHOUT.search(x):
+            # inside diagrams and statement rows are headings, not sentences.
+            # The discriminator is lowercase: a run of capitals sitting inside
+            # ordinary prose is shouting; a string that is capitals throughout
+            # is a label, and labels are how statements are headed.
+            if SHOUT.search(x) and any(c.islower() for c in x):
                 say('a sentence is set in capitals: %r — use a colour-coded '
                     'note instead' % SHOUT.search(x).group(0)[:60])
     if nmcq < 7:
