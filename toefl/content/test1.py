@@ -119,8 +119,8 @@ TEST = dict(
                      'language. The cerebellum coordi----- movement and balance, while the '
                      'brainstem controls vital functions l--- breathing and heart rate. These '
                      'parts dev---- at different speeds, and the regions that handle '
-                     'long-term plan---- are among the l--- to finish. Together they enable the '
-                     'brain to perform its various ta---.',
+                     'long term plan---- are among the l--- to finish. Together they enable the '
+                     'brain to perform its various tasks.',
             gap_ans=['sible', 'ions', 'ole', 'rt', 'ch', 'nates', 'ike', 'elop', 'ning', 'ast'],
             docs=[
                 ('social', 'Priya Raman', '@priya_learns', [

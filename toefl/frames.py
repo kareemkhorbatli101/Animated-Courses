@@ -12,7 +12,7 @@ def _rule(y, x0=0, x1=W, col=RULE, sw=2):
 
 
 # ---------------------------------------------------------------- covers ----
-def cover_front(volume, units, strap):
+def cover_front(volume, units, strap, level='B1'):
     h = 1270
     g = [R(0, 0, W, h, INDIGO)]
     g.append(R(0, 0, W, 300, INDIGO_D))
@@ -37,7 +37,7 @@ def cover_front(volume, units, strap):
     g.append(R(70, 860, W - 140, 2, '#4a4f90'))
     for k, line in enumerate(strap):
         g.append(T(W / 2, 910 + k * 36, line, 23, PERI_L))
-    g.append(T(W / 2, 1110, 'CEFR B1', 30, PAPER, bold=True))
+    g.append(T(W / 2, 1110, 'CEFR %s' % level, 30, PAPER, bold=True))
     g.append(T(W / 2, 1150, 'Student’s Book', 24, PERI_L))
     g.append(T(W / 2, 1222, 'Three cycles a skill · every 2026 task type, three times a unit', 18, '#9a9edd'))
     return render(''.join(g), W, h, INDIGO)
@@ -495,4 +495,52 @@ def map_strip(volume, rows):
         g.append(T(560, y, gram, 15, INK, anchor='start'))
         g.append(T(760, y, words, 15, GREY, anchor='start'))
         y += 46
+    return render(''.join(g), W, h, PAPER)
+
+
+# ------------------------------------------------------------ B2 figures ----
+def family_tree(head_word, forms):
+    """Word family: the head word, its forms, and what each one is.
+
+    forms is a list of (form, part of speech, a short use).
+    """
+    h = 150 + len(forms) * 72
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(T(44, 52, 'Word family', 22, GREY, anchor='start'))
+    g.append(T(44, 94, head_word, 38, INDIGO, bold=True, anchor='start'))
+    g.append(L(44, 112, 44 + tw(head_word, 38, True), 112, PERI, 4))
+    x0 = 70
+    for i, (form, pos, use) in enumerate(forms):
+        y = 150 + i * 72
+        g.append(L(x0, y - 36, x0, y + 18, RULE, 2))
+        g.append(L(x0, y + 18, x0 + 26, y + 18, RULE, 2))
+        g.append(C(x0 + 26, y + 18, 5, PERI))
+        g.append(T(x0 + 44, y + 25, form, 24, INDIGO_D, bold=True, anchor='start'))
+        g.append(T(x0 + 44 + tw(form, 24, True) + 16, y + 25, pos, 18, GREY, anchor='start'))
+        g.append(T(x0 + 44, y + 52, use, 19, INK, anchor='start'))
+    return render(''.join(g), W, h, PAPER)
+
+
+def hedge_scale(rows):
+    """How far a writer commits: expressions laid out from certain to doubtful.
+
+    rows is a list of (expression, gloss), strongest claim first.
+    """
+    h = 196 + len(rows) * 58
+    g = [R(0, 0, W, h, PAPER)]
+    g.append(T(W / 2, 48, 'How far does the writer commit?', 26, INDIGO, bold=True))
+    g.append(T(W / 2, 80, 'The same claim, held at five different strengths', 19, GREY))
+    steps = [('certain', GREEN), ('likely', TEAL), ('possible', AMBER), ('doubtful', '#d7793f'), ('denied', RED)]
+    bw = (W - 140) / float(len(steps))
+    for i, (lab, col) in enumerate(steps):
+        x = 70 + i * bw
+        g.append(R(x, 110, bw - 8, 40, col, rx=6))
+        g.append(T(x + (bw - 8) / 2, 137, lab, 18, PAPER, bold=True))
+    g.append(L(70, 170, W - 70, 170, RULE, 2))
+    gx = 88 + max(tw(e, 22, True) for e, _ in rows) + 28
+    for i, (expr, gloss) in enumerate(rows):
+        y = 200 + i * 58
+        g.append(R(70, y, W - 140, 46, SOFT, rx=8))
+        g.append(T(88, y + 30, expr, 22, INDIGO_D, bold=True, anchor='start'))
+        g.append(T(gx, y + 30, gloss, 19, INK, anchor='start'))
     return render(''.join(g), W, h, PAPER)

@@ -7,7 +7,8 @@ sys.path.insert(0, HERE)
 import frames as F
 from docxw import Doc, INDIGO, INDIGO_D, BLUE, AMBER, TEAL, PLUM, GREY, GREEN, RED, PERI
 
-VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2)}
+VOLS = {1: dict(units=range(1, 11), test=1), 2: dict(units=range(11, 21), test=2),
+        3: dict(units=range(21, 31), test=3), 4: dict(units=range(31, 41), test=4)}
 
 SKILL_TASK = {
     'r1': ('reading', 1, 'Complete the Words'),
@@ -67,21 +68,8 @@ def _dock(d, spec):
 
 
 # ------------------------------------------------------------- the unit -----
-def render_unit(d, U):
-    n, title = U['n'], U['title']
-    sp = Spread()
-    key = {}            # section -> list of (number, answer, why)
 
-    # ---- page 1: opener -----------------------------------------------------
-    d.unit_title('Unit %d · %s' % (n, title))
-    d.strapline('TOEFL iBT® Preparation Course 2026 · Volume %d' % U['vol'])
-    d.cefr('CEFR B1  ·  Grammar: %s  ·  Word field: %s' % (U['grammar'], U['field']))
-    d.figure(*F.unit_opener(n, title, U['subs'], U['icons']))
-    d.cando_box(U['candos'])
-    d.body_p(U['opener_line'])
-    d.page_break_section()
-
-    # ---- page 2: vocabulary -------------------------------------------------
+def _vocab_b1(d, U):
     d.partbar('Vocabulary 1 · Academic', '24 words from the Academic Word List')
     d.body_p('These twenty-four words come back through the whole unit, and again in the '
              'review. Cover the right-hand column and test yourself.')
@@ -94,6 +82,52 @@ def render_unit(d, U):
     d.wordlist(U['campus'], 2, AMBER)
     d.wordbank('Words you will meet again:', U['again'], PERI)
     d.page_break_section()
+
+
+def _vocab_b2(d, U):
+    """B2: 18 word families, 10 collocations, 5 stance expressions, 3 nuance pairs."""
+    d.partbar('Vocabulary 1 · Academic word families', '18 families, not 18 words')
+    d.body_p('At B2 the word on its own is not enough. Each entry below is a family: learn '
+             'the noun, the verb and the adjective together, because the test will use '
+             'whichever one the sentence needs.')
+    d.wordlist(U['acad'], 2, INDIGO)
+    d.figure(*F.family_tree(U['family'][0], U['family'][1]))
+    d.ex('Exercise A   Work in pairs. Ask and answer.')
+    d.items(U['vocab_talk'])
+    d.partbar('Vocabulary 2 · Collocation', '10 partnerships that actually occur', 'reading')
+    d.body_p('A word is known when you know what it goes with. These ten are the partners '
+             'this unit\u2019s texts use; the wrong partner is what marks an answer as translated.')
+    d.wordlist(U['collocs'], 2, AMBER)
+    d.partbar('Vocabulary 3 · Stance and hedging', 'How far the writer commits', 'writing')
+    d.body_p('Every one of these says the same thing at a different strength. Reading, you '
+             'must notice which was chosen. Writing, you must choose.')
+    d.figure(*F.hedge_scale(U['stance']))
+    d.h3('Two words that look alike', PLUM)
+    d.wordlist(U['nuance'], 1, PLUM)
+    d.wordbank('Words you will meet again:', U['again'], PERI)
+    d.page_break_section()
+
+
+def render_unit(d, U):
+    n, title = U['n'], U['title']
+    sp = Spread()
+    key = {}            # section -> list of (number, answer, why)
+
+    # ---- page 1: opener -----------------------------------------------------
+    d.unit_title('Unit %d · %s' % (n, title))
+    d.strapline('TOEFL iBT® Preparation Course 2026 · Volume %d' % U['vol'])
+    d.cefr('CEFR %s  ·  Grammar: %s  ·  Word field: %s'
+           % (U.get('level', 'B1'), U['grammar'], U['field']))
+    d.figure(*F.unit_opener(n, title, U['subs'], U['icons']))
+    d.cando_box(U['candos'])
+    d.body_p(U['opener_line'])
+    d.page_break_section()
+
+    # ---- page 2: vocabulary -------------------------------------------------
+    if U.get('level') == 'B2':
+        _vocab_b2(d, U)
+    else:
+        _vocab_b1(d, U)
 
     # ---- pages 3-5: reading -------------------------------------------------
     for tag in ('r1', 'r2', 'r3'):
@@ -208,6 +242,12 @@ def render_unit(d, U):
         d.body_p(ln)
     d.h3('Why it works', PLUM)
     d.bullets(w2['notes'])
+    if U.get('level') == 'B2' and w2.get('bandpair'):
+        bp = w2['bandpair']
+        d.h3('Two answers, one band apart', PLUM)
+        d.body_p('Both answer the three bullet points. One would score in the middle band '
+                 'and one near the top. Read them side by side before you write your own.')
+        d.bandpair(bp['mid'], bp['top'], bp['diffs'])
     d.ex('Now write your own. 7 minutes.', 'writing')
     d.lines(8)
     d.page_break_section()
@@ -243,6 +283,14 @@ def render_unit(d, U):
     key['gram'] = kg
     d.h3('How this is tested in Build a Sentence', PLUM)
     d.body_p(gr['bas'])
+    if U.get('level') == 'B2' and U.get('fault'):
+        ft = U['fault']
+        d.partbar('Find the fault', '%d errors, drawn from this unit and the two before' % len(ft['faults']), 'writing')
+        d.body_p('Every error below is one a B2 writer makes after learning the rule. Mark '
+                 'what is wrong, then check. Knowing the rule and noticing the breach are '
+                 'two different skills, and only the second one is tested.')
+        d.faultline(ft['text'], ft['faults'])
+        key['fault'] = [(i, r, why) for i, (w_, r, why) in enumerate(ft['faults'], 1)]
     d.page_break_section()
 
     # ---- page 16: review ----------------------------------------------------
@@ -266,25 +314,39 @@ def render_unit(d, U):
 
 # ------------------------------------------------------------ front matter --
 def front_matter(d, vol, units):
+    lvl = units[0].get('level', 'B1')
     strap = ['Reading · Listening · Speaking · Writing',
              'Every task type in the 2026 test, three times a unit']
-    d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']), strap), cover=True)
+    d.figure(*F.cover_front(vol, 'Units %d–%d' % (units[0]['n'], units[-1]['n']), strap, lvl),
+             cover=True)
     d.page_break_section(zero=True)
 
     d.unit_title('TOEFL iBT® Preparation Course 2026')
-    d.strapline('Volume %d · Units %d–%d · CEFR B1'
-                % (vol, units[0]['n'], units[-1]['n']))
+    d.strapline('Volume %d · Units %d–%d · CEFR %s'
+                % (vol, units[0]['n'], units[-1]['n'], lvl))
     d.cefr('Student’s Book with Practice Test %d' % vol)
     d.blank()
-    d.body_p('This course prepares B1 learners for the TOEFL iBT® test as it has been '
+    d.body_p('This course prepares %s learners for the TOEFL iBT® test as it has been '
              'since 21 January 2026. Every task name, item count and timing in this book '
-             'follows the official ETS practice test for that form.')
-    d.body_p('Twenty units, ten in each volume. Each unit takes one topic from the test — '
-             'American History, Astronomy, Public Health — and runs it through all four '
-             'skills, three times, on three different sub-topics.')
+             'follows the official ETS practice test for that form.' % lvl)
+    if lvl == 'B2':
+        d.body_p('Forty units across four volumes. Volumes 1 and 2 take a B1 learner through '
+                 'every task in the test; Volumes 3 and 4, of which this is one, take the '
+                 'same tasks to B2. The passages are not longer here. They are denser, which '
+                 'is what the real test does to you as your score rises.')
+        d.body_p('One thing is assumed rather than taught. Volumes 1 and 2 carried a strand '
+                 'of campus and everyday vocabulary — enrolment, tutorial, reading week — '
+                 'because the Listening conversations turn on it. This volume spends those '
+                 'pages on collocation and stance instead. If you have come straight to '
+                 'Volume 3, read the Volumes 1–2 glossary once before you start.')
+    else:
+        d.body_p('Twenty units, ten in each volume. Each unit takes one topic from the test — '
+                 'American History, Astronomy, Public Health — and runs it through all four '
+                 'skills, three times, on three different sub-topics.')
     d.blank()
     d.keyline('Series', 'TOEFL iBT® Preparation Course 2026')
-    d.keyline('Level', 'CEFR B1 (targeting a steady 3.0–4.0 band)')
+    d.keyline('Level', 'CEFR %s (targeting a steady %s band)'
+              % (lvl, '4.5–5.5' if lvl == 'B2' else '3.0–4.0'))
     d.keyline('Components', 'Student’s Book · Audio · Interview video')
     d.keyline('This volume', 'Units %d–%d, Practice Test %d, answer key, audio scripts, glossary'
               % (units[0]['n'], units[-1]['n'], vol))
@@ -527,16 +589,19 @@ def audio_scripts(d, vol, units, T):
 
 
 def glossary(d, vol, units):
-    d.unit_title('Glossary')
-    d.strapline('Volume %d · 360 words with B1 definitions' % vol)
-    d.cefr('The number after each word is the unit where it is first taught.')
-    d.page_break_section()
+    lvl = units[0].get('level', 'B1')
     allw = []
     for u in units:
         for w, g in u['acad']:
             allw.append((w, g, u['n'], 'A'))
-        for w, g in u['campus']:
+        # B1 volumes gloss campus words; B2 volumes have none and gloss the
+        # collocations instead, which is where the new meaning sits at that level
+        for w, g in u.get('campus', []) + list(u.get('collocs', [])):
             allw.append((w, g, u['n'], 'C'))
+    d.unit_title('Glossary')
+    d.strapline('Volume %d · %d entries with %s definitions' % (vol, len(allw), lvl))
+    d.cefr('The number after each word is the unit where it is first taught.')
+    d.page_break_section()
     allw.sort(key=lambda r: r[0].lower())
     letter = ''
     buf = []
@@ -579,9 +644,10 @@ def build(vol, out):
         units.append(mod.UNIT)
     T = importlib.import_module('content.test%d' % cfg['test']).TEST
 
+    lvl = units[0].get('level', 'B1')
     d = Doc('TOEFL iBT Preparation Course 2026 · Volume %d' % vol,
-            'CEFR B1 · Units %d–%d · Practice Test %d'
-            % (units[0]['n'], units[-1]['n'], vol))
+            'CEFR %s · Units %d–%d · Practice Test %d'
+            % (lvl, units[0]['n'], units[-1]['n'], cfg['test']))
     front_matter(d, vol, units)
     ukeys = {}
     for u in units:
@@ -591,27 +657,39 @@ def build(vol, out):
     audio_scripts(d, vol, units, T)
     glossary(d, vol, units)
     grammar_reference(d, vol, units)
-    d.figure(*F.cover_back(vol, CFG_BLURB, CFG_BULLETS,
+    d.figure(*F.cover_back(vol, BLURB[lvl], BULLETS[lvl],
                            ['%d  %s' % (u['n'], u['title']) for u in units]), cover=True)
     d.save(out)
     return out, len(d.images)
 
 
-CFG_BLURB = [
+BLURB = {'B1': [
     'A complete preparation course for the TOEFL iBT® test as it has been since',
     '21 January 2026, written for learners at CEFR B1 — the level most students',
     'actually sit it at, and the level no other course is written for.',
-]
-CFG_BULLETS = [
+], 'B2': [
+    'The second half of a complete preparation course for the TOEFL iBT® test as',
+    'it has been since 21 January 2026. Volumes 3 and 4 carry a learner who has',
+    'the B1 foundations up to CEFR B2 — the level a competitive score needs.',
+]}
+BULLETS = {'B1': [
     'Every 2026 task type, three times in every unit',
     'Three cycles a skill, on three different sub-topics',
     '480 Academic Word List items and 240 campus words, glossed at B1',
     'A grammar syllabus built around what Build a Sentence really tests',
     'A full practice test in each volume, with an answer key that explains',
-]
+], 'B2': [
+    'Every 2026 task type, three times in every unit, at B2 density',
+    '360 further Academic Word List items, 200 collocations, 50 stance markers',
+    'A grammar syllabus of the twenty structures that separate B1 from B2',
+    'Find the Fault and a banded answer pair in every unit',
+    'Two more full practice tests, with an answer key that explains',
+]}
 
 if __name__ == '__main__':
     v = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    o = sys.argv[2] if len(sys.argv) > 2 else '/home/user/Animated-Courses/TOEFL_2026_B1_Volume_%d.docx' % v
+    _lv = 'B2' if v >= 3 else 'B1'
+    o = sys.argv[2] if len(sys.argv) > 2 else (
+        '/home/user/Animated-Courses/TOEFL_2026_%s_Volume_%d.docx' % (_lv, v))
     path, nimg = build(v, o)
     print('wrote', path, os.path.getsize(path), 'bytes,', nimg, 'images')

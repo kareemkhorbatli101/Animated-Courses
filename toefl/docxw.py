@@ -324,6 +324,32 @@ class Doc:
         self.blank()
 
     # ---------- answer key ----------
+    def faultline(self, text, faults):
+        """Find the Fault: the text with numbered markers, then the corrections."""
+        self.body.append(para([run(text, sz=21)],
+                              '<w:spacing w:before="40" w:after="120"/>'
+                              '<w:ind w:left="200" w:right="200"/>'
+                              '<w:pBdr><w:left w:val="single" w:sz="18" w:space="8" w:color="%s"/></w:pBdr>'
+                              % PLUM))
+        rows = [[str(i), w, r, why] for i, (w, r, why) in enumerate(faults, 1)]
+        self.table(['#', 'As written', 'As it should be', 'Why'], rows, PLUM, [6, 24, 24, 46])
+
+    def bandpair(self, mid, top, diffs):
+        """Two answers one band apart, side by side, with the difference named."""
+        head = '<w:tr>' + ''.join(
+            '<w:tc>%s%s</w:tc>' % (tcpr(c, 90), para([run(h, b=True, color='FFFFFF', sz=19)]))
+            for h, c in (('A middle-band answer', GREY), ('A top-band answer', PLUM))) + '</w:tr>'
+        cells = []
+        for lines, col in ((mid, None), (top, SOFT)):
+            ps = ''.join(para([run(l, sz=19)], '<w:spacing w:after="60"/>') for l in lines)
+            cells.append('<w:tc>%s%s</w:tc>' % (tcpr(col, 90), ps))
+        body = '<w:tr>' + ''.join(cells) + '</w:tr>'
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="50"/><w:gridCol w:w="50"/>'
+                         '</w:tblGrid>%s%s</w:tbl>' % (tblpr(RULE), head, body))
+        self.blank()
+        self.h3('What the top answer does that the other does not', PLUM)
+        self.bullets(diffs)
+
     def keybar(self, t):
         self.body.append(para([run('  ' + t, b=True, color='FFFFFF', sz=28)],
                               '<w:shd w:fill="%s" w:val="clear"/><w:spacing w:after="80" w:before="200"/>' % INDIGO))
