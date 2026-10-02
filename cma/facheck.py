@@ -4,7 +4,8 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M, A, F, I, L, D, P, S, T, LS, W, EQ, DC, CO, IF, SB, PE
+from fadata import (N, M, A, F, I, L, D, P, S, T, LS, W, EQ, DC, CO, IF, SB,
+                    PE, TV, BD, EP, CH, FX)
 
 
 def check(bad):
@@ -240,6 +241,95 @@ def check(bad):
        PE.net_interest, (PE.dbo - PE.plan_assets) * PE.discount_rate)
 
     eq('discontinued operations, net of tax', DC.net, 150_000)
+
+    # ---- Volumes 13 to 17 ---------------------------------------------------
+    # Volume 13 is the volume that should have come first. Its factors have to
+    # reproduce the two lease present values Volume 7 already printed, or the
+    # book that teaches present value contradicts the book that used it.
+    eq('the annuity factor reproduces the finance lease present value',
+       LS.fin_payments * TV.pva(LS.fin_n, LS.fin_rate), LS.fin_pv)
+    eq('the annuity factor reproduces the operating lease present value',
+       LS.op_payments * TV.pva(LS.op_n, LS.op_rate), LS.op_pv)
+    eq('solving for the rate recovers the lease rate',
+       round(TV.solve_rate(LS.fin_pv, LS.fin_payments, LS.fin_n), 6),
+       LS.fin_rate)
+    eq('solving for the term recovers the lease term',
+       TV.solve_n(LS.op_pv, LS.op_payments, LS.op_rate), LS.op_n)
+    eq('a present value and its future value are the same money',
+       TV.single_pv * TV.fv(TV.single_n), TV.single_sum)
+    if TV.pvad(TV.horizon) <= TV.pva(TV.horizon):
+        bad.append('arithmetic: the annuity due is no longer worth more than '
+                   'the ordinary annuity, so Handout 2 has no subject')
+
+    # Volume 14's existing bond is solved from Volume 1, not invented, and the
+    # two new bonds are a matched pair whose schedules must mirror each other
+    # and both land on the face exactly.
+    eq('the serial bond coupon explains Volume 1 interest expense',
+       BD.serial_face * BD.serial_coupon_rate, N.interest)
+    eq('the serial bond instalment is the debt Volume 1 repaid',
+       BD.serial_instalment, N.debt_repaid)
+    eq('the discount and the premium are equal and opposite',
+       BD.discount, BD.premium)
+    for _label, _cr in (('discount', BD.discount_coupon),
+                        ('premium', BD.premium_coupon)):
+        _rows = BD.schedule(_cr)
+        for _y, _op, _i, _c, _a, _cl in _rows:
+            if _op + _i - _c != _cl:
+                bad.append('arithmetic: %s bond schedule year %d does not tie '
+                           'as printed' % (_label, _y))
+        if _rows[-1][5] != BD.face:
+            bad.append('arithmetic: the %s bond does not reach par by '
+                       'maturity (%s)' % (_label, _rows[-1][5]))
+    if BD.schedule(BD.discount_coupon)[0][5] <= BD.discount_price:
+        bad.append('arithmetic: the discount bond carrying amount no longer '
+                   'rises toward par, so the contrast with the premium has '
+                   'gone')
+    if BD.schedule(BD.premium_coupon)[0][5] >= BD.premium_price:
+        bad.append('arithmetic: the premium bond carrying amount no longer '
+                   'falls toward par')
+    if not BD.suit_low < BD.suit_ifrs < BD.suit_high:
+        bad.append('arithmetic: the midpoint of the lawsuit range is outside '
+                   'the range')
+
+    # Volume 15's share count falls out of Volume 8's own movements.
+    eq('the closing share count matches the equity volume',
+       EP.closing_outstanding, EQ.shares - (EQ.buy_back_shares
+                                            - EQ.reissue_a_shares
+                                            - EQ.reissue_b_shares))
+    eq('the shares issued match Volume 1', EP.issued, N.shares_issued)
+    eq('the opening share count is Volume 1 par value',
+       EP.opening, N.common_stock_py / N.par)
+    eq('the treasury stock method credits only the incremental shares',
+       EP.option_incremental,
+       EP.options - EP.options * EP.option_strike / EP.average_price)
+    if EP.diluted >= EP.basic:
+        bad.append('arithmetic: diluted EPS is no longer below basic, so the '
+                   'dilution exercise demonstrates nothing')
+    if EP.anti_incremental_eps <= EP.basic:
+        bad.append('arithmetic: the antidilutive security has become dilutive, '
+                   'so Handout 3 has no counter-example')
+
+    # Volume 16 builds the worksheet behind figures Volume 12 already prints.
+    eq('the pension worksheet closes on the cost Volume 12 reports',
+       PE.service_cost + PE.interest_cost - PE.expected_asset_return
+       + PE.gaap_amortisation, PE.gaap_cost)
+    eq('the remeasurement is the gap between expected and actual return',
+       PE.remeasurement, PE.expected_asset_return - PE.actual_return)
+    eq('the funded status is plan assets less the obligation',
+       PE.funded_status_closing, PE.assets_closing - PE.dbo_closing)
+
+    # Volume 17 works on figures Volumes 4, 5 and 10 established.
+    eq('the change in principle is Volume 4 FIFO against weighted average',
+       CH.principle_pretax, I.fifo_closing - I.wa_closing)
+    eq('the change in estimate starts from Volume 5 carrying amount',
+       CH.estimate_carrying, D.cost - sum(D.sl[:CH.elapsed]))
+    eq('the translated balance sheet balances',
+       FX.net_assets, FX.contributed + FX.income + FX.cta)
+    eq('the translated net assets are the subsidiary at the closing rate',
+       FX.net_assets, CO.net_assets_fv * FX.closing)
+    if FX.cta >= 0:
+        bad.append('arithmetic: the translation adjustment is no longer a '
+                   'loss, so Handout 3 loses the direction it explains')
 
     eq('non-controlling interest at fair value', CO.nci, 240_000)
     eq('goodwill on the acquisition', CO.goodwill, 200_000)

@@ -138,3 +138,44 @@ for _k, _code, _c1, _c2, _cso, _hs, _intro in _FA:
             % (OUT, _code.replace(' ', ''),
                _c1.replace(',', '').replace(' ', '_').replace('-', '_')),
         intro=_intro, arith=_fa_arith, company='Northwind Components'))
+
+
+# ------------------------------------------------- the intermediate bridge --
+# Volumes 13 to 17 finish intermediate accounting. They are not Section A, so
+# they carry their own filename prefix and each cover names its real home: a
+# Part 2 section where the CMA has one, and an honest note where it does not.
+_BRIDGE = [
+    ('fa13', 'Volume 13', 'The Time Value', 'of Money',
+     'Assumed by Part 2 E.2 and B.2 · taught nowhere',
+     list(range(1, 4)),
+     'Three handouts, one answer key. Read this before Volume 7: that volume '
+     'builds a lease schedule from a present value this one teaches you to '
+     'compute.'),
+    ('fa14', 'Volume 14', 'Long-Term Debt', 'and Contingent Liabilities',
+     'Part 2 Section B.2 Long-term financial management', list(range(1, 7)),
+     'Six handouts, one answer key. The CMA wants a bond valued; intermediate '
+     'accounting wants it accounted for. This volume does both, and says which '
+     'is which.'),
+    ('fa15', 'Volume 15', 'Earnings', 'Per Share',
+     'Part 2 Section A.2 Financial ratios · market', list(range(1, 4)),
+     'Three handouts, one answer key. One line of the Learning Outcome '
+     'Statements, and a whole chapter of intermediate accounting behind it.'),
+    ('fa16', 'Volume 16', 'Pensions and Other', 'Post-Employment Benefits',
+     'Outside the CMA · intermediate accounting only', list(range(1, 4)),
+     'Three handouts, one answer key. No CMA section asks for this. It is here '
+     'because a course in intermediate accounting without it is not one.'),
+    ('fa17', 'Volume 17', 'Changes, Errors', 'and Special Issues',
+     'Part 2 Section A.4 Special issues', list(range(1, 5)),
+     'Four handouts, one answer key. What to do when the numbers you already '
+     'published turn out to be the wrong numbers.'),
+]
+
+for _k, _code, _c1, _c2, _cso, _hs, _intro in _BRIDGE:
+    _add(SetSpec(
+        key=_k, code=_code, title=(_c1 + ' ' + _c2),
+        cover1=_c1, cover2=_c2, cso=_cso, handouts=_hs,
+        modpat='content.%s_h%%d' % _k,
+        out='%sCMA_Bridge_%s_%s.docx'
+            % (OUT, _code.replace(' ', ''),
+               _c1.replace(',', '').replace(' ', '_').replace('-', '_')),
+        intro=_intro, arith=_fa_arith, company='Northwind Components'))

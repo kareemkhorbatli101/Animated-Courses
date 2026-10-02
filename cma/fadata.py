@@ -1026,10 +1026,21 @@ class Cons:
     price = 960_000
     net_assets_fv = 1_000_000
 
+    # The subsidiary's own statements. Volume 10 Handout 2 held these as module
+    # constants; Volume 17 translates the same company, so they live here and
+    # both volumes read one set of figures.
+    sub_assets = 1_600_000
+    sub_revenue = 900_000
+    sub_profit = 120_000
+
     intercompany_sales = 150_000
     intercompany_cost = 90_000
     still_in_inventory = 60_000
     intercompany_balance = 45_000
+
+    @property
+    def sub_liabilities(self):
+        return self.sub_assets - self.net_assets_fv
 
     @property
     def implied_total(self):
@@ -1124,9 +1135,37 @@ class Pens:
     discount_rate = 0.06
     expected_return = 0.08
     service_cost = 180_000
-    remeasurement = 50_000         # actuarial loss arising in the year
     past_service_cost = 60_000
     remaining_service = 10
+
+    # Volume 16 builds the two roll-forwards behind the figures above.
+    benefits_paid = 120_000
+    contributions = 200_000
+    actual_return = 110_000
+
+    @property
+    def remeasurement(self):
+        """The asset half of the remeasurement: expected less actual return.
+
+        Volume 12 Handout 1 had this as a typed-in $50,000. It is the gap
+        between the $160,000 management expected and the $110,000 the plan
+        earned, so it is derived here and the two volumes cannot disagree.
+        """
+        return self.expected_asset_return - self.actual_return
+
+    @property
+    def dbo_closing(self):
+        return (self.dbo + self.service_cost + self.interest_cost
+                + self.past_service_cost - self.benefits_paid)
+
+    @property
+    def assets_closing(self):
+        return (self.plan_assets + self.actual_return + self.contributions
+                - self.benefits_paid)
+
+    @property
+    def funded_status_closing(self):
+        return self.assets_closing - self.dbo_closing
 
     @property
     def funded_status(self):
@@ -1171,10 +1210,348 @@ class Pens:
                 - self.plan_assets * self.discount_rate)
 
 
+class Tvm:
+    """Volume 13: the factors every later volume has been using untaught.
+
+    Nothing here is typed in. The factors are computed, and the checker asserts
+    that they reproduce the two lease present values Volume 7 already printed.
+    """
+    rate = 0.08
+    horizon = 6
+    single_sum = 100_000
+    single_n = 5
+
+    def pv(self, n, r=None):
+        """What one dollar received in n periods is worth now."""
+        return (1 + (self.rate if r is None else r)) ** -n
+
+    def fv(self, n, r=None):
+        return (1 + (self.rate if r is None else r)) ** n
+
+    def pva(self, n, r=None):
+        """An ordinary annuity: the first payment one period from now."""
+        r = self.rate if r is None else r
+        return (1 - (1 + r) ** -n) / r
+
+    def pvad(self, n, r=None):
+        """An annuity due: the first payment now, so one period less of
+        discounting on every one of them."""
+        return self.pva(n, r) * (1 + (self.rate if r is None else r))
+
+    def fva(self, n, r=None):
+        r = self.rate if r is None else r
+        return ((1 + r) ** n - 1) / r
+
+    @property
+    def single_pv(self):
+        return self.single_sum * self.pv(self.single_n)
+
+    def solve_rate(self, pv, payment, n, lo=0.0001, hi=1.0):
+        """The rate that discounts n payments back to pv, by bisection."""
+        for _ in range(200):
+            mid = (lo + hi) / 2
+            if payment * self.pva(n, mid) > pv:
+                lo = mid
+            else:
+                hi = mid
+        return (lo + hi) / 2
+
+    def solve_n(self, pv, payment, r=None):
+        """How many payments it takes, where the answer is a whole number."""
+        r = self.rate if r is None else r
+        n = 1
+        while n < 600:
+            if abs(payment * self.pva(n, r) - pv) < 1:
+                return n
+            n += 1
+        return 0
+
+
+class Bond:
+    """Volume 14: the bond Northwind already has, and two it issues next.
+
+    The existing debt is solved for rather than invented: Volume 1 reports
+    $1,500,000 of debt at the start of the year, $90,000 of interest expense
+    and $150,000 repaid, which is a serial bond at par with a 6% coupon. The
+    two new bonds are a matched pair - same face, same term, same market rate,
+    coupons 2% either side of it - so the discount and the premium come out
+    equal and the two schedules are mirror images.
+    """
+    face = 1_000_000
+    n = 5
+    market = 0.08
+    discount_coupon = 0.06
+    premium_coupon = 0.10
+    tax_rate = 0.25
+
+    # the existing serial bond, from Volume 1
+    serial_face = 1_500_000
+    serial_instalment = 150_000
+
+    # retirement, three years in, at 102
+    retire_year = 3
+    retire_price = 1.02
+
+    @property
+    def serial_coupon_rate(self):
+        """Solved from Volume 1: $90,000 of interest on $1,500,000."""
+        return NW.interest / self.serial_face
+
+    def price(self, coupon_rate):
+        f = Tvm()
+        return (self.face * coupon_rate * f.pva(self.n, self.market)
+                + self.face * f.pv(self.n, self.market))
+
+    @property
+    def discount_price(self):
+        return self.price(self.discount_coupon)
+
+    @property
+    def premium_price(self):
+        return self.price(self.premium_coupon)
+
+    @property
+    def discount(self):
+        return self.face - self.discount_price
+
+    @property
+    def premium(self):
+        return self.premium_price - self.face
+
+    def schedule(self, coupon_rate):
+        """(year, opening, interest, coupon, amortisation, closing), rounded.
+
+        The final year's amortisation absorbs the rounding so the carrying
+        amount lands on the face exactly, which is the check a student runs.
+        """
+        rows = []
+        b = round(self.price(coupon_rate))
+        cash = round(self.face * coupon_rate)
+        for y in range(1, self.n + 1):
+            if y == self.n:
+                # The last year's interest is the plug that lands the carrying
+                # amount on the face. Rounding each year independently leaves a
+                # dollar or two, and a schedule that misses par by $2 is the
+                # error a student is marked down for.
+                i = self.face - b + cash
+            else:
+                i = round(b * self.market)
+            cl = b + i - cash
+            rows.append((y, b, i, cash, i - cash, cl))
+            b = cl
+        return rows
+
+    @property
+    def retire_carrying(self):
+        return self.schedule(self.discount_coupon)[self.retire_year - 1][5]
+
+    @property
+    def retire_cash(self):
+        return self.face * self.retire_price
+
+    @property
+    def retire_loss(self):
+        return self.retire_cash - self.retire_carrying
+
+    # the contingency, which no CMA section asks for
+    suit_low = 200_000
+    suit_high = 600_000
+
+    @property
+    def suit_gaap(self):
+        """No point in the range is a better estimate, so the low end."""
+        return self.suit_low
+
+    @property
+    def suit_ifrs(self):
+        """IFRS takes the midpoint of a continuous range."""
+        return (self.suit_low + self.suit_high) / 2
+
+
+class Eps:
+    """Volume 15: the share count falls out of Volume 8's own movements.
+
+    Nothing is invented except the four dates, and the weighted average must
+    reconcile to the shares Volume 8 issued, bought back and reissued.
+    """
+    opening = 280_000           # Volume 1: $280,000 of $1 par at 1 January
+    issued, issued_month = 20_000, 4        # 1 April
+    bought, bought_month = 10_000, 7        # 1 July
+    reissued, reissued_month = 7_000, 10    # 1 October
+
+    options, option_strike, average_price = 30_000, 6, 9
+    convertible_shares = 40_000
+    tax_rate = 0.25
+
+    # the security chosen to be antidilutive
+    anti_preferred_dividend = 90_000
+    anti_preferred_shares = 20_000
+
+    def _weight(self, month):
+        return (13 - month) / 12.0
+
+    @property
+    def waso(self):
+        return (self.opening
+                + self.issued * self._weight(self.issued_month)
+                - self.bought * self._weight(self.bought_month)
+                + self.reissued * self._weight(self.reissued_month))
+
+    @property
+    def closing_outstanding(self):
+        return self.opening + self.issued - self.bought + self.reissued
+
+    @property
+    def basic(self):
+        return NW().net_income / self.waso
+
+    @property
+    def option_proceeds(self):
+        return self.options * self.option_strike
+
+    @property
+    def option_repurchased(self):
+        return self.option_proceeds / self.average_price
+
+    @property
+    def option_incremental(self):
+        return self.options - self.option_repurchased
+
+    @property
+    def convertible_interest(self):
+        """Year one interest on the Volume 14 discount bond."""
+        return Bond().schedule(Bond.discount_coupon)[0][2]
+
+    @property
+    def convertible_addback(self):
+        return self.convertible_interest * (1 - self.tax_rate)
+
+    @property
+    def convertible_incremental_eps(self):
+        return self.convertible_addback / self.convertible_shares
+
+    @property
+    def diluted(self):
+        return ((NW().net_income + self.convertible_addback)
+                / (self.waso + self.option_incremental
+                   + self.convertible_shares))
+
+    @property
+    def anti_incremental_eps(self):
+        return self.anti_preferred_dividend / self.anti_preferred_shares
+
+
+class Chg:
+    """Volume 17: a change in principle, a change in estimate, an error.
+
+    Each one is worked on a figure an earlier volume established, so nothing
+    here is a fresh scenario: the principle change is Volume 4's own inventory,
+    the estimate change is Volume 5's own machine, and the error is depreciation
+    omitted from it.
+    """
+    tax_rate = 0.25
+
+    # a change in principle: FIFO to weighted average, on Volume 4's figures
+    @property
+    def principle_old(self):
+        return Inv().fifo_closing
+
+    @property
+    def principle_new(self):
+        return Inv().wa_closing
+
+    @property
+    def principle_pretax(self):
+        return self.principle_old - self.principle_new
+
+    @property
+    def principle_net(self):
+        return self.principle_pretax * (1 - self.tax_rate)
+
+    # a change in estimate: Volume 5's machine, revised after two years
+    elapsed = 2
+    new_remaining_life = 5
+    new_residual = 20_000
+
+    @property
+    def estimate_accumulated(self):
+        return sum(Dep().sl[:self.elapsed])
+
+    @property
+    def estimate_carrying(self):
+        return Dep().cost - self.estimate_accumulated
+
+    @property
+    def estimate_new_charge(self):
+        return ((self.estimate_carrying - self.new_residual)
+                / self.new_remaining_life)
+
+    # an error: a year of depreciation omitted, which does not counterbalance
+    error_pretax = 40_000
+
+    @property
+    def error_net(self):
+        return self.error_pretax * (1 - self.tax_rate)
+
+
+class Fx:
+    """Volume 17 Handout 3: Volume 10's subsidiary, re-domiciled.
+
+    Under the current rate method the translation adjustment is a plug, and the
+    checker asserts it is the plug that makes the translated balance sheet
+    balance - which is the only thing that makes the figure meaningful.
+    """
+    # Held as hundredths and divided last. 1_600_000 * 1.15 is
+    # 1839999.9999999998 in binary, and a translated balance sheet that does
+    # not balance to the cent teaches the student to distrust the method.
+    _historical, _average, _closing = 125, 120, 115
+
+    @property
+    def historical(self):
+        return self._historical / 100
+
+    @property
+    def average(self):
+        return self._average / 100
+
+    @property
+    def closing(self):
+        return self._closing / 100
+
+    @property
+    def assets(self):
+        return Cons.sub_assets * self._closing / 100
+
+    @property
+    def liabilities(self):
+        return ((Cons.sub_assets - Cons.net_assets_fv) * self._closing) / 100
+
+    @property
+    def net_assets(self):
+        return self.assets - self.liabilities
+
+    @property
+    def contributed(self):
+        return Cons.net_assets_fv * self._historical / 100
+
+    @property
+    def income(self):
+        return Cons.sub_profit * self._average / 100
+
+    @property
+    def cta(self):
+        return self.net_assets - self.contributed - self.income
+
+
 T = Tax()
 LS = Lease()
 SB = Sbp()
 PE = Pens()
+TV = Tvm()
+BD = Bond()
+EP = Eps()
+CH = Chg()
+FX = Fx()
 W = Warranty()
 RF = Refi()
 EQ = Eq()
