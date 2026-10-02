@@ -591,3 +591,175 @@ Every volume passes the structural, language and arithmetic checks on every
 build, and `facheck.py` recomputes roughly ninety identities each time — so a
 contradiction between any two of the twelve books is a bug in the data layer
 rather than a judgement call.
+
+---
+
+## Part 8 · Volumes 13 to 17, specified
+
+The remainder of intermediate accounting, anchored to the CMA wherever the CMA
+has an anchor to offer — which, as the investigation below shows, is less often
+than expected.
+
+### What the investigation found
+
+The question "where does the CMA cover this?" was put to the Learning Outcome
+Statements directly rather than answered from memory. The six gap topics fall
+into three groups, and the grouping decides how much of each to build:
+
+| Gap topic | CMA home | What the CMA asks for | Intermediate wants more? |
+|---|---|---|---|
+| Earnings per share | **Part 2 A.2(u)** | "calculate and interpret basic and diluted EPS" | Yes — the whole mechanics |
+| Accounting changes and errors | **Part 2 A.4(c)** | adjust statements for principles, estimates, errors; ratio impact | Yes — retrospective vs prospective |
+| Foreign currency translation | **Part 2 A.4(a)** | functional currency, historical vs current rate, translation gains | Yes — the translation itself |
+| Bonds and long-term debt | **Part 2 B.2(c,d,e,f,o)** | features, valuation, duration, refinancing, convertibles | Yes — *all* of the issuer accounting |
+| Time value of money | **assumed, never taught** — Part 2 E.2 and B.2(e) apply it | nothing | Yes — the toolkit chapter |
+| Pensions | **nothing** | nothing | Entirely intermediate |
+| Contingencies | **nothing** | nothing | Entirely intermediate |
+
+Two findings are worth stating plainly, because they change what is worth
+building:
+
+**"Pension," "defined benefit" and "post-retirement" appear zero times in the
+entire Learning Outcome Statements**, across both parts and all twelve sections.
+The only occurrence of "contingency" is contingency *planning* in Part 1 Section
+B. These two topics are built for the curriculum, not for the exam, and are
+marked so a candidate revising for an exam can skip them without wondering what
+they have missed.
+
+**The CMA wants bonds valued, not accounted for.** Part 2 B.2 asks the candidate
+to describe a bond's features, value it by discounted cash flow, understand
+duration, and evaluate refinancing. It never asks for a discount amortisation
+schedule or a retirement entry. Intermediate accounting asks for little else.
+Volume 14 therefore has two halves with different justifications, and says so.
+
+### Departures from Part 7, recorded
+
+**The reading order and the numbering now diverge.** Volume 13 teaches present
+value, and Volume 7 Handout 6 already builds a lease amortisation schedule from
+a present value the student has never been taught to compute. That is a genuine
+hole in the delivered set. Renumbering would break twelve published books, so
+the numbering stays append-only and each new volume carries a reading-order note
+on its cover: **13 before 7; 14, 15, 16, 17 after 12.**
+
+**The series name has to change.** Volumes 1 to 12 build to
+`CMA_P1_SectionA_*`, which these are not. They become `CMA_Bridge_Volume13_*`
+and so on, and each cover names its real home — *CMA Part 2, Section A.2* or
+*Beyond the CMA: intermediate accounting* — so a candidate always knows which
+exam, if any, is asking.
+
+**Volume 14 absorbs contingencies**, which has no CMA home at all, because it is
+the liabilities volume and a student who has done Volume 7's warranty provision
+is one handout away from the recognition thresholds.
+
+**The estimate was wrong and is revised up.** The figure given before this
+investigation was 15 handouts. Reading Part 2 added duration and convertibles
+(B.2(f),(o)), the earnings-quality material (A.4(b),(d),(e)) and contingencies.
+19 handouts, not 15.
+
+### The volumes
+
+| Volume | Handouts | Home | Exam value |
+|--------|---------:|------|------------|
+| 13 · The Time Value of Money | 3 | assumed by Part 2 E.2, B.2(e) | prerequisite |
+| 14 · Long-Term Debt and Contingent Liabilities | 6 | Part 2 B.2; contingencies nowhere | high / none |
+| 15 · Earnings Per Share | 3 | Part 2 A.2(u) | high |
+| 16 · Pensions and Post-Employment Benefits | 3 | **nowhere in the CMA** | none |
+| 17 · Changes, Errors and Special Issues | 4 | Part 2 A.4(a)–(e) | high |
+| **Total** | **19** | | |
+
+At the 13 pages a handout measured in Part 5, roughly **250 pages**. With the
+twelve delivered volumes that is about **990 pages across 75 handouts**, and
+intermediate accounting is then covered but for segment reporting and subsequent
+events, which no CMA section asks for and which no course teaches as a chapter.
+
+### The handouts
+
+**Volume 13 — The Time Value of Money** · read before Volume 7
+1. Why a Dollar Moves: Present Value and Future Value
+2. Annuities: Ordinary, Due, and the Factor a Table Gives You
+3. Solving for the Missing One: Rate, Term, Payment — Part 2 E.2, B.2(e)
+
+**Volume 14 — Long-Term Debt and Contingent Liabilities**
+1. What a Bond Promises: Par, Coupon, Indenture, Covenants — B.2(c)
+2. Issued at a Discount, at a Premium, at Par — *intermediate only*
+3. The Effective Interest Method, Period by Period — *intermediate only*
+4. Valuing a Bond, and What Moves Its Price — B.2(e), B.2(f) duration
+5. Retirement, Refinancing, Convertibles and Warrants — B.2(d), B.2(o)
+6. Contingencies: Probable, Reasonably Possible, Remote — *outside the CMA*
+
+**Volume 15 — Earnings Per Share** · Part 2 A.2(u)
+1. Basic EPS and the Weighted Average Share Count
+2. Dilution: Options, Warrants and the Treasury Stock Method
+3. Convertibles, the If-Converted Method, and Antidilution
+
+**Volume 16 — Pensions and Post-Employment Benefits** · *outside the CMA*
+1. The Promise, the Obligation and the Plan Assets
+2. The Five Components of Net Periodic Pension Cost
+3. Funded Status on the Balance Sheet, and What Goes to OCI
+
+**Volume 17 — Changes, Errors and Special Issues** · Part 2 A.4
+1. Changes in Principle and Changes in Estimate — A.4(c)
+2. Correcting an Error and Restating the Comparatives — A.4(c)
+3. Functional Currency and Translating a Foreign Subsidiary — A.4(a)
+4. Earnings Quality: What the Numbers Do Not Say — A.4(b), (d), (e)
+
+### How the data layer extends
+
+The test every volume in Part 6 had to pass was whether its figures could be
+*derived* from an earlier volume rather than asserted beside it. All five of
+these pass it, and the hooks already exist in `fadata.py`:
+
+- **Volume 13** derives the annuity factors and the checker asserts they
+  reproduce Volume 7's two lease present values exactly — $239,563 at 8% over
+  five years and $103,084 at 8% over three. The volume that should have come
+  first then proves the volume that came seventh.
+- **Volume 14** decomposes the long-term debt Volume 1 already reports:
+  $1,200,000 non-current plus $150,000 current, $90,000 of interest expense and
+  $150,000 repaid in the year. The bond's coupon plus its discount amortisation
+  must equal that $90,000, and its carrying amount must equal that $1,350,000.
+  The figures are not chosen here; they are solved for, the way Volume 7's
+  deferred tax decomposition was.
+- **Volume 15** has the richest hook in the set. Volume 8 already issued 20,000
+  shares mid-year, bought back 10,000, reissued 7,000, declared a 10% and a 30%
+  stock dividend and ran a 2-for-1 split. That is a complete weighted-average
+  share exercise with nothing invented, and Volume 9's discontinued operation
+  supplies the three-line EPS presentation the exam asks for: continuing,
+  discontinued, total.
+- **Volume 16** builds the worksheet behind figures Volume 12 already prints.
+  Its net periodic pension cost must come to the $170,000 Volume 12 Handout 1
+  reports under US GAAP, so the GAAP/IFRS contrast already delivered becomes the
+  payoff of this volume rather than a student's first encounter with a pension.
+- **Volume 17** works its change in principle on Volume 4's own goods available
+  for sale, its change in estimate on Volume 5's own asset and useful life, and
+  its foreign subsidiary is Volume 10's Lakeside Controls, re-domiciled. Nothing
+  new is introduced except an exchange rate.
+
+### What the checker will guard
+
+Arithmetic identities as before, plus the teaching contrasts, which are the
+figures an edit is most likely to flatten:
+
+- The annuity-due factor must exceed the ordinary-annuity factor, or Volume 13
+  Handout 2 has no subject.
+- A discount bond's carrying amount must rise toward par across the schedule and
+  a premium bond's must fall, or Volume 14's central contrast collapses.
+- Diluted EPS must come out below basic EPS, and the security chosen to
+  demonstrate antidilution must actually be antidilutive — two separate
+  assertions, because a careless rate change breaks them independently.
+- The restated comparative in Volume 17 must differ from the figure originally
+  reported, or the restatement exercise is teaching nothing.
+
+### What this plan does not solve
+
+Three things are known gaps in the delivered set and none of these five volumes
+fixes them. They are recorded here so the decision is explicit rather than
+deferred:
+
+- **No cumulative mock exam.** Seventeen volumes would carry roughly 530 exam
+  questions in per-volume batches and no timed paper anywhere. That is the thing
+  a candidate wants most in the last month.
+- **No cross-volume index or combined glossary.** Over 400 glossary entries,
+  each findable only in the volume that taught it.
+- **Nothing has been taught from any of this.** Every pedagogical claim in Parts
+  4 through 8 remains a design hypothesis. Teaching Volume 1 to a class answers
+  more questions than Volume 13 would.
