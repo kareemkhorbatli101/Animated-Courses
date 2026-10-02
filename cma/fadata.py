@@ -799,7 +799,7 @@ class Lease:
     fin_asset_life = 6
 
     op_payments, op_n = 40_000, 3
-    op_pv = 103_000
+    op_rate = 0.08
     op_asset_life = 40
     op_fair_value = 900_000
 
@@ -857,6 +857,38 @@ class Lease:
     @property
     def fin_liability_y1(self):
         return self.fin_pv + self.fin_interest_y1 - self.fin_payments
+
+    @property
+    def op_pv(self):
+        """Derived like the finance lease, so Volume 12's schedule closes.
+
+        Volume 12 Handout 4 reports this same lease under the IFRS single
+        model, which needs an amortisation schedule the rounded $103,000 would
+        not have closed.
+        """
+        f = (1 - (1 + self.op_rate) ** -self.op_n) / self.op_rate
+        return self.op_payments * f
+
+    @property
+    def op_schedule(self):
+        """(year, opening, interest, payment, closing), rounded for printing."""
+        rows, b = [], self.op_pv
+        for y in range(1, self.op_n + 1):
+            i = b * self.op_rate
+            rows.append((y, round(b), round(i), self.op_payments,
+                         round(b + i - self.op_payments)))
+            b = b + i - self.op_payments
+        return rows
+
+    def op_amort(self, year):
+        each = round(round(self.op_pv) / self.op_n)
+        if year < self.op_n:
+            return each
+        return round(self.op_pv) - each * (self.op_n - 1)
+
+    def op_ifrs_cost(self, year):
+        """Interest plus amortisation: what IFRS reports on this lease."""
+        return self.op_schedule[year - 1][2] + self.op_amort(year)
 
     @property
     def op_total_payments(self):
@@ -1049,8 +1081,100 @@ class Ifrs:
         return max(0, Imp.b_carrying - self.b_recoverable_ifrs)
 
 
+class Sbp:
+    """Volume 12: one graded-vesting option award, two expense patterns.
+
+    The numbers are chosen so that both patterns total the same grant-date
+    fair value and every yearly charge is a whole number: a tranche of
+    $90,000 gives $90,000, $45,000 and $30,000 in year one under IFRS.
+    """
+    options = 90_000
+    fair_value = 3
+    tranches = 3
+    remaining_service = 10          # for the past service cost comparison
+
+    @property
+    def total_cost(self):
+        return self.options * self.fair_value
+
+    @property
+    def per_tranche(self):
+        return self.total_cost / self.tranches
+
+    def gaap_charge(self, year):
+        """Straight-line over the whole award, permitted for a service
+        condition only."""
+        return self.total_cost / self.tranches
+
+    def ifrs_charge(self, year):
+        """Each tranche over its own vesting period, so the charge falls."""
+        return sum(self.per_tranche / t
+                   for t in range(1, self.tranches + 1) if t >= year)
+
+
+class Pens:
+    """Volume 12: one defined benefit plan, measured two ways.
+
+    The whole of the difference between the two net costs is the plan assets
+    multiplied by the gap between the expected return and the discount rate,
+    which is the identity the checker asserts.
+    """
+    dbo = 2_400_000
+    plan_assets = 2_000_000
+    discount_rate = 0.06
+    expected_return = 0.08
+    service_cost = 180_000
+    remeasurement = 50_000         # actuarial loss arising in the year
+    past_service_cost = 60_000
+    remaining_service = 10
+
+    @property
+    def funded_status(self):
+        """Negative: the plan is underfunded by this much."""
+        return self.plan_assets - self.dbo
+
+    @property
+    def net_liability(self):
+        return self.dbo - self.plan_assets
+
+    @property
+    def interest_cost(self):
+        return self.dbo * self.discount_rate
+
+    @property
+    def expected_asset_return(self):
+        return self.plan_assets * self.expected_return
+
+    @property
+    def gaap_amortisation(self):
+        return self.past_service_cost / self.remaining_service
+
+    @property
+    def gaap_cost(self):
+        return (self.service_cost + self.interest_cost
+                - self.expected_asset_return + self.gaap_amortisation)
+
+    @property
+    def net_interest(self):
+        return self.net_liability * self.discount_rate
+
+    @property
+    def ifrs_cost(self):
+        return (self.service_cost + self.net_interest
+                + self.past_service_cost)
+
+    @property
+    def asset_rate_gap(self):
+        # The subtraction goes last: plan_assets * (0.08 - 0.06) returns
+        # 40000.00000000001, which is a figure no answer key can print.
+        return (self.plan_assets * self.expected_return
+                - self.plan_assets * self.discount_rate)
+
+
 T = Tax()
 LS = Lease()
+SB = Sbp()
+PE = Pens()
 W = Warranty()
 RF = Refi()
 EQ = Eq()

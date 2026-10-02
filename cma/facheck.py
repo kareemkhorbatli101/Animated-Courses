@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M, A, F, I, L, D, P, S, T, LS, W, EQ, DC, CO, IF
+from fadata import N, M, A, F, I, L, D, P, S, T, LS, W, EQ, DC, CO, IF, SB, PE
 
 
 def check(bad):
@@ -183,6 +183,25 @@ def check(bad):
     eq('the operating lease cost is the payments spread evenly',
        LS.op_cost_y1 * LS.op_n, LS.op_total_payments)
 
+    # Volume 12 Handout 4 reports the same lease under the IFRS single model,
+    # so that schedule has to close too and both models must spend the payments.
+    for _y, _op, _i, _pay, _cl in LS.op_schedule:
+        if _op + _i - _pay != _cl:
+            bad.append('arithmetic: operating lease schedule year %d does not '
+                       'tie as printed' % _y)
+    if LS.op_schedule[-1][4] != 0:
+        bad.append('arithmetic: the operating lease liability is not settled '
+                   'by the last payment (%s left)' % LS.op_schedule[-1][4])
+    eq('the single-model amortisation totals the right-of-use asset',
+       sum(LS.op_amort(y) for y in range(1, LS.op_n + 1)),
+       round(LS.op_pv))
+    eq('the single model spends the same payments as the dual model',
+       sum(LS.op_ifrs_cost(y) for y in range(1, LS.op_n + 1)),
+       LS.op_total_payments)
+    if LS.op_ifrs_cost(1) <= LS.op_cost_y1:
+        bad.append('arithmetic: the single model no longer front-loads this '
+                   'lease, so the Volume 12 contrast has gone')
+
     # A small stock dividend is capitalised at market and a large one at par, so
     # the two charges must differ; if they ever agree the example has lost its
     # point.
@@ -199,6 +218,26 @@ def check(bad):
     if EQ.reissue_b_deficit > EQ.reissue_a_apic:
         bad.append('arithmetic: the second reissue would exhaust the paid-in '
                    'capital from the first, which the handout says it does not')
+
+    # Volume 12 Handout 1: both expense patterns must spend the same grant-date
+    # fair value, IFRS must front-load it, and the whole gap between the two
+    # pension costs must be the plan assets at the difference between the two
+    # rates, plus the past service cost each framework treats differently.
+    eq('the straight-line option charges total the grant-date fair value',
+       sum(SB.gaap_charge(y) for y in range(1, SB.tranches + 1)),
+       SB.total_cost)
+    eq('the accelerated option charges total the same fair value',
+       sum(SB.ifrs_charge(y) for y in range(1, SB.tranches + 1)),
+       SB.total_cost)
+    if SB.ifrs_charge(1) <= SB.gaap_charge(1):
+        bad.append('arithmetic: the tranche-by-tranche charge no longer '
+                   'front-loads, so the share-based payment contrast has gone')
+    eq('the two pension costs differ by the asset rate gap and the past '
+       'service cost',
+       PE.ifrs_cost - PE.gaap_cost,
+       PE.asset_rate_gap + PE.past_service_cost - PE.gaap_amortisation)
+    eq('the net interest is the discount rate on the net liability',
+       PE.net_interest, (PE.dbo - PE.plan_assets) * PE.discount_rate)
 
     eq('discontinued operations, net of tax', DC.net, 150_000)
 

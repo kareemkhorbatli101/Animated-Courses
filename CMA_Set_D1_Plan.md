@@ -486,3 +486,108 @@ that a small stock dividend costs more than a large one, that the second
 treasury reissue does not exhaust the paid-in capital from the first — it says
 so, because those are the figures an edit is most likely to flatten by
 accident.
+
+---
+
+## Part 7 · Built: Volumes 7 to 12
+
+Produced against Part 6. Northwind Components carries through all twelve
+volumes, and the second half draws its figures from the first rather than
+restating them.
+
+| Volume | Handouts | Figures | Blanks | Questions | Terms |
+|--------|---------:|--------:|-------:|----------:|------:|
+| 7 · Liabilities, Taxes and Leases | 6 | 35 | 48 | 42 | 32 |
+| 8 · Equity Transactions | 3 | 19 | 28 | 21 | 15 |
+| 9 · Income Measurement | 3 | 20 | 32 | 21 | 15 |
+| 10 · Consolidated Statements | 3 | 19 | 31 | 21 | 18 |
+| 11 · Integrated Reporting | 3 | 20 | 24 | 21 | 18 |
+| 12 · US GAAP and IFRS | 5 | 33 | 44 | 35 | 28 |
+| **Total** | **23** | **146** | **207** | **161** | **126** |
+
+At the 13 pages a handout Part 5 measured, that is roughly **300 pages**, for
+a Section A total of about **740 pages across 56 handouts**. The page figure is
+an estimate at the measured rate; the other five columns are counted from the
+build.
+
+### What the second half took from the first
+
+The plan's test of whether these volumes hang together was whether a figure
+could be *derived* from an earlier volume rather than asserted beside it.
+Every one of the six found something:
+
+- **Volume 7** takes the single $160,000 deferred tax liability on Volume 1's
+  balance sheet apart instead of restating it. A gross liability of $186,500,
+  less deferred tax assets of $26,500 on the Handout 1 warranty provision and
+  the Volume 3 credit loss allowance, nets back to it; and the year's $32,000
+  movement splits into the $24,000 inside income tax expense and the $8,000
+  charged to other comprehensive income.
+- **Volume 8** reconciles the equity section Volume 1 reported, from $280,000
+  of common stock to $300,000 and from $934,000 of retained earnings to
+  $1,274,000, with the share issue the one transaction landing in two columns.
+- **Volume 9** closes the loop on comprehensive income: the $32,000 pre-tax
+  gain less $8,000 of tax is the $24,000 movement in accumulated other
+  comprehensive income, the gap between $510,000 of net income and $534,000 of
+  comprehensive income, and the same $8,000 Volume 7 traced through the
+  deferred tax liability.
+- **Volume 10** turns on one identity, drawn as a figure and reused under each
+  consolidation method: consideration plus non-controlling interest equals
+  identifiable net assets plus goodwill, $1,200,000 both sides.
+- **Volume 11** has no arithmetic, so it anchors the other way. Each of the six
+  capitals is named against something the first ten volumes established, and
+  the three with no figure anywhere in the course — human, social and natural —
+  are the point of the volume.
+- **Volume 12** reuses Volume 5's production line B unchanged. The checker
+  asserts it carries no loss under US GAAP and a $60,000 loss under IFRS, so
+  the comparison cannot quietly collapse into agreement.
+
+### Two data-layer repairs the work forced
+
+Both were found by the checker, not by reading:
+
+**The lease present values were wrong.** A tidy $240,000 for the finance lease
+left $643 of liability outstanding after the fifth payment, which is exactly
+the error a student loses a mark for. Both present values are now derived from
+the annuity factor — $239,563 and $103,084 — so every schedule closes at nil
+and every printed row ties to the dollar. Straight-line amortisation takes its
+rounding in the final year, because five charges of $47,913 add to $2 more than
+the asset recognised.
+
+**Two float artefacts.** The non-controlling interest returned
+239999.99999999994, because `1 - 0.8` is not `0.2` in binary; it is now implied
+value less consideration. The pension asset rate gap returned
+40000.00000000001 for the same reason. Neither figure could have been printed
+in an answer key.
+
+### The checker rules this half added
+
+Each one came from a real defect in a written handout:
+
+- A fill block's word bank may not contain its own answer. Volume 7 Handout 2
+  had the statutory charge as one blank's answer and another blank's
+  distractor, because the two permanent differences cancel.
+- `taccounts` takes a short journal reference plus a legend, not a description
+  per posting. Passing descriptions fused seven label pairs on top of each
+  other, and the figure audit caught every one.
+- A glossed term must appear in the handout in the exact form it is glossed.
+  Nine terms were caught: *outstanding shares* used only as a column heading,
+  *component of an entity* written as *component of the entity*, *uniform
+  accounting policies* appearing only inside `{braces}`, and six more.
+- Terms are glossed where they are first *used*, not where they are most at
+  home. *Deferred tax liability* moved to Volume 7 Handout 2, *deferred tax
+  asset* to Handout 3, *straight-line basis* to Handout 5, and Volume 11's
+  *outlook* was reworded out of Handout 1 so Handout 3 could teach it.
+- `threshold` labels its bars with a dollar sign, so a figure comparing
+  percentages against the 75% and 90% lease tests is drawn with `ranked`.
+
+### Where the whole of Section A now stands
+
+Twelve volumes, 56 handouts, 350 figures, 564 blanks, 392 exam questions and
+319 glossary entries, each with its Arabic equivalent and the place it
+misleads. The glossary figure is the sum of the twelve per-volume counts: a
+term glossed in one volume may be glossed again in another, because each
+volume has to stand on its own.
+Every volume passes the structural, language and arithmetic checks on every
+build, and `facheck.py` recomputes roughly ninety identities each time — so a
+contradiction between any two of the twelve books is a bug in the data layer
+rather than a judgement call.
