@@ -562,6 +562,115 @@ class Lcm:
                     lcm=min(cost, market), lcnrv=min(cost, ceiling))
 
 
+class Dep:
+    """The packing machine Volume 5 depreciates four different ways.
+
+    One asset, one life, four methods. Each schedule is generated rather than
+    typed, so no method's column can fail to add to the depreciable amount.
+    """
+    name = 'packing machine'
+    cost = 500_000
+    residual = 50_000
+    life = 5
+    total_units = 900_000
+    units = [240_000, 210_000, 180_000, 150_000, 120_000]
+
+    @property
+    def depreciable(self):
+        return self.cost - self.residual
+
+    # ---- straight line -----------------------------------------------------
+    @property
+    def sl(self):
+        return [self.depreciable / self.life] * self.life
+
+    # ---- double declining balance, capped at the residual value ------------
+    @property
+    def ddb(self):
+        rate, nbv, out = 2.0 / self.life, self.cost, []
+        for _y in range(self.life):
+            charge = min(nbv * rate, nbv - self.residual)
+            out.append(max(0.0, charge))
+            nbv -= out[-1]
+        return out
+
+    # ---- sum of the years' digits ------------------------------------------
+    @property
+    def syd_total(self):
+        return self.life * (self.life + 1) / 2
+
+    @property
+    def syd(self):
+        return [self.depreciable * (self.life - y) / self.syd_total
+                for y in range(self.life)]
+
+    # ---- units of production -----------------------------------------------
+    @property
+    def unit_rate(self):
+        return self.depreciable / self.total_units
+
+    @property
+    def uop(self):
+        return [u * self.unit_rate for u in self.units]
+
+    def schedule(self, method):
+        """Year, charge, accumulated, carrying amount."""
+        rows, acc = [], 0.0
+        for y, charge in enumerate(method, start=1):
+            acc += charge
+            rows.append((y, charge, acc, self.cost - acc))
+        return rows
+
+
+class Imp:
+    """Two production lines, and a reporting unit, for Volume 5 Handouts 4-5."""
+    # line A fails the recoverability test; line B passes it
+    a_carrying = 800_000
+    a_undiscounted = 750_000
+    a_fair_value = 620_000
+
+    b_carrying = 800_000
+    b_undiscounted = 850_000
+    b_fair_value = 700_000
+
+    # the reporting unit that carries goodwill
+    unit_carrying = 2_400_000
+    unit_fair_value = 2_150_000
+    goodwill_carrying = 300_000
+
+    # a finite-life intangible
+    list_cost = 250_000
+    list_life = 10
+
+    @property
+    def a_impaired(self):
+        return self.a_undiscounted < self.a_carrying
+
+    @property
+    def a_loss(self):
+        return self.a_carrying - self.a_fair_value if self.a_impaired else 0
+
+    @property
+    def b_impaired(self):
+        return self.b_undiscounted < self.b_carrying
+
+    @property
+    def b_loss(self):
+        return self.b_carrying - self.b_fair_value if self.b_impaired else 0
+
+    @property
+    def goodwill_loss(self):
+        """Limited to the goodwill carried, which is the one cap that bites."""
+        gap = max(0, self.unit_carrying - self.unit_fair_value)
+        return min(gap, self.goodwill_carrying)
+
+    @property
+    def list_amortisation(self):
+        return self.list_cost / self.list_life
+
+
+D = Dep()
+P = Imp()
 I = Inv()
 L = Lcm()
 A = Aging()

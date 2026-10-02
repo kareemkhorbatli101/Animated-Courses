@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M, A, F, I, L
+from fadata import N, M, A, F, I, L, D, P
 
 
 def check(bad):
@@ -92,6 +92,22 @@ def check(bad):
         if _r['lcm'] > _r['cost'] or _r['lcnrv'] > _r['cost']:
             bad.append('arithmetic: %s is written UP, which neither rule permits'
                        % _r['name'])
+
+    # ---- the Volume 5 asset and impairments --------------------------------
+    for _name, _m in (('straight line', D.sl), ('double declining', D.ddb),
+                      ('sum of the years', D.syd), ('units of production', D.uop)):
+        # Whatever the pattern, every method writes off the same depreciable
+        # amount over the same life and stops at the residual value.
+        eq('%s depreciates the whole amount' % _name, sum(_m), D.depreciable)
+        if min(_m) < -0.005:
+            bad.append('arithmetic: %s charges a negative amount' % _name)
+        _last = D.schedule(_m)[-1][3]
+        eq('%s ends at the residual value' % _name, _last, D.residual)
+    eq('units of production uses every unit', sum(D.units), D.total_units)
+    eq('line A is impaired', P.a_loss, 180_000)
+    eq('line B is not impaired', P.b_loss, 0)
+    eq('goodwill impairment', P.goodwill_loss, 250_000)
+    eq('intangible amortisation', P.list_amortisation, N.amortisation)
 
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',
