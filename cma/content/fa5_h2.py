@@ -60,11 +60,11 @@ HANDOUT = dict(
     subtitle='The method that reports the lowest profit in year 1 reports the '
              'highest in year 5. Over five years it makes no difference at all, '
              'except to tax.',
-    register='R2 throughout, closing at R3',
+    register='R2 throughout',
 
     lang=dict(
-        register='R2 textbook English, rising to R3 for the final passage, which '
-                 'compares the methods the way an exam frames it.',
+        register='R2 textbook English throughout. The comparison in Part 4 is '
+                 'the one an exam asks for.',
         collocations=['charge depreciation against profit',
                       'reduce the carrying amount',
                       'defer tax into a later year',
@@ -282,7 +282,7 @@ HANDOUT = dict(
           'amount.',
           'The last blank is the comparison a reader cannot make without knowing '
           'which method was used.']),
-        ('fill', 'R3',
+        ('fill', 'R2',
          ['Over the five years both methods charge %s. The cumulative difference '
           'in reported profit is therefore {nil}, and the carrying amount at the '
           'end is %s under both.' % (money(D.depreciable), money(D.residual)),

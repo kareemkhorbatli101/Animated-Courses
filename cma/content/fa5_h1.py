@@ -393,7 +393,7 @@ HANDOUT = dict(
          ['Eight years, the physical life',
           'Four years, the period the company expects to use them',
           'Either, at the company’s choice',
-          'Eight years, with an adjustment on disposal'],
+          'Eight years, with an adjustment when they are sold'],
          1, 'Level C',
          'Useful life means useful to this entity. (A) is the common error and it '
          'understates the annual charge by half. (C) treats a measurement '
