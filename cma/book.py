@@ -166,11 +166,11 @@ def render_handout(d, H):
     d.cefr('%s · %s · %s' % (SPEC.code, SPEC.title, H['register']))
     lg = H['lang']
     d.langbox(lg['register'], lg['collocations'], lg['pairs'], lg['nots'])
-    d.h3('What you will be able to do when this handout is finished')
-    # The objectives list is not printed. 373 bullets across 75 handouts
-    # told a student what they were about to be told, and the exercise
-    # prompts carry the same information where it is actually needed.
+    # The objectives list is not printed in the terse format. 373 bullets
+    # across 75 handouts told a student what they were about to be told, and
+    # the exercise prompts carry the same information where it is needed.
     if not SPEC.terse:
+        d.h3('What you will be able to do when this handout is finished')
         d.bullets(H['objectives'])
     d.blank()
     for blk in H['blocks']:

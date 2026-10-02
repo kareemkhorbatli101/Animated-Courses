@@ -156,6 +156,17 @@ _add(SetSpec(
           'blanks ask for meanings rather than for figures.',
     arith=_fa_arith, company='Northwind Components', terse=True))
 
+_add(SetSpec(
+    key='v5n', code='Volume 5', title='Long-Lived Assets',
+    cover1='Depreciation', cover2='and the Four Methods',
+    cso='Section A.2 \u00b7 2026 format sample', handouts=[1],
+    modpat='content.n5_h%d',
+    out=OUT + 'CMA_NewFormat_Volume5_Handout1.docx',
+    intro='One handout, rebuilt. Five schedules, sixty cells to complete, '
+          'and not one figure printed in the prose that a table then asks '
+          'for. The case gives three estimates; everything else is derived.',
+    arith=_fa_arith, company='Northwind Components', terse=True))
+
 # ------------------------------------------------- the intermediate bridge --
 # Volumes 13 to 17 finish intermediate accounting. They are not Section A, so
 # they carry their own filename prefix and each cover names its real home: a
