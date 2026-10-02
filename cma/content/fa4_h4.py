@@ -210,7 +210,7 @@ HANDOUT = dict(
 
         ('prose', 'FIFO reports %s more gross margin than LIFO on identical '
                   'trading. That extra amount did not come from selling better. It '
-                  'came from holding goods while their replacement cost rose.'
+                  'came from holding goods while the cost of buying them again rose.'
                   % money(I.lifo_reserve), 'R2'),
         ('prose', 'The question a reader should ask is whether the margin could be '
                   'repeated. Northwind must replace the units it sold, and '
@@ -253,7 +253,7 @@ HANDOUT = dict(
           'LIFO': ('An argument about the income statement only.',
                    'Students treat LIFO as better overall. It improves one '
                    'statement by damaging the other.'),
-          'phantom': ('Not repeatable, because replacement costs more.', '')},
+          'phantom': ('Not repeatable, because buying again costs more.', '')},
          ['operating', 'reduce', 'FIFO']),
         ('fig', 'scale',
          'WHAT FIFO PUTS IN GROSS MARGIN',
@@ -361,7 +361,7 @@ HANDOUT = dict(
                    money(I.gross_margin(I.lifo_closing)),
                    money(I.lifo_reserve)),
          ['An operating efficiency gain',
-          'A holding gain, arising from the rise in replacement cost rather than '
+          'A holding gain, arising from the rise in buying prices rather than '
           'from trading',
           'An error in one of the two computations',
           'A tax saving'],

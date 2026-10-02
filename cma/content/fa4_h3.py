@@ -389,7 +389,8 @@ HANDOUT = dict(
          1, 'Level B',
          'Conformity ties the tax election to the reporting treatment, which is '
          'why a company cannot take the tax benefit and still report a FIFO '
-         'profit. (A) describes consistency and (D) a disclosure requirement '
+         'profit. (A) describes applying a method the same way each year, and '
+         '(D) a disclosure requirement '
          '— both real rules, neither of them this one.'),
 
         ('mcq', 'A LIFO liquidation occurs when:',
@@ -401,7 +402,7 @@ HANDOUT = dict(
          1, 'Level B',
          'Quantities decide whether a liquidation happens; prices only decide how '
          'large its effect is. (A) is the most commonly chosen wrong answer. (C) '
-         'is a change in accounting principle, a different topic entirely.'),
+         'is a change of method, which Handout 8 deals with.'),
 
         ('mcq', 'In %s Northwind sells %s units and purchases only %s. The %s '
                 'units drawn from old layers would have cost $%d each to replace '
@@ -439,7 +440,7 @@ HANDOUT = dict(
     ],
 
     key_extra=[
-        ('h3', 'Exercise 3B · the completed restatement'),
+        ('h3', 'Exercise 3B · restated to a FIFO basis'),
         ('table', _CONVH,
          [['Closing inventory %s' % money(I.lifo_closing),
            'Add the reserve of %s' % money(I.lifo_reserve),
