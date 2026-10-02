@@ -10,7 +10,7 @@ content files.
 
 class SetSpec:
     def __init__(self, key, code, title, cover1, cover2, cso, handouts,
-                 modpat, out, intro, arith=None, company=''):
+                 modpat, out, intro, arith=None, company='', terse=False):
         self.key = key              # 'd1', 'fa1', ... — the command-line name
         self.code = code            # 'Set D1' — printed on the cover and headers
         self.title = title          # 'Absorption and Variable Costing'
@@ -23,6 +23,7 @@ class SetSpec:
         self.intro = intro          # the sentence under the title page heading
         self.arith = arith          # callable(bad): recompute this Set's figures
         self.company = company      # the running scenario, named on the title page
+        self.terse = terse          # the 2026 format: no printed objectives list
 
     @property
     def n(self):
@@ -139,6 +140,21 @@ for _k, _code, _c1, _c2, _cso, _hs, _intro in _FA:
                _c1.replace(',', '').replace(' ', '_').replace('-', '_')),
         intro=_intro, arith=_fa_arith, company='Northwind Components'))
 
+
+
+# --------------------------------------------------- the 2026 format sample --
+# Volume 1 Handout 1, rebuilt. Separate key and separate file so the delivered
+# books are untouched while the format is judged.
+_add(SetSpec(
+    key='v1n', code='Volume 1', title='The Framework and the Statements',
+    cover1='The Framework', cover2='and the Statements',
+    cso='Section A.1 \u00b7 2026 format sample', handouts=[1],
+    modpat='content.n1_h%d',
+    out=OUT + 'CMA_NewFormat_Volume1_Handout1.docx',
+    intro='One handout, rebuilt. The case is given in English and in full '
+          'Arabic, every calculation table carries a worked row, and the '
+          'blanks ask for meanings rather than for figures.',
+    arith=_fa_arith, company='Northwind Components', terse=True))
 
 # ------------------------------------------------- the intermediate bridge --
 # Volumes 13 to 17 finish intermediate accounting. They are not Section A, so

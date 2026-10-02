@@ -352,6 +352,97 @@ class Doc:
                          % (tblpr(RULE), gcol, ''.join(out)))
         self.blank()
 
+    # ---- the 2026 format ------------------------------------------------
+    # Three renderers replace the furniture the first format carried. The
+    # diagnosis they answer, measured across the 75 handouts built so far:
+    # 373 objective bullets nobody reads, 132 answer grids stacked under a
+    # table that already had answer space, 47 tables whose figures were
+    # printed in the prose above them, and 110 of 138 tables made of numbers
+    # with no column saying what the numbers mean.
+
+    def case(self, title, en, ar):
+        """The case, in English and then in full Arabic.
+
+        The learners know this material in Arabic and are examined in English.
+        Putting the situation in both means the reading effort goes into the
+        accounting rather than into the story.
+        """
+        ps = [para([run(title, b=True, color=INDIGO, sz=22)],
+                   '<w:spacing w:after="70"/>')]
+        for l in en:
+            ps.append(para([run(l, sz=21)],
+                           '<w:spacing w:after="80" w:line="290" w:lineRule="auto"/>'))
+        ps.append(para([run('\u0627\u0644\u062d\u0627\u0644\u0629 \u0628\u0627\u0644\u0639\u0631\u0628\u064a\u0629', b=True, color=INDIGO, sz=20)],
+                       '<w:bidi/><w:jc w:val="right"/><w:spacing w:before="140" w:after="60"/>'
+                       '<w:pBdr><w:top w:val="single" w:sz="6" w:space="8" w:color="%s"/></w:pBdr>'
+                       % PERI))
+        for l in ar:
+            ps.append(para([arun(l, sz=21)],
+                           '<w:bidi/><w:jc w:val="right"/>'
+                           '<w:spacing w:after="80" w:line="300" w:lineRule="auto"/>'))
+        cell = '<w:tc>%s%s</w:tc>' % (tcpr(SOFT, 170), ''.join(ps))
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
+                         '<w:tr>%s</w:tr></w:tbl>' % (tblpr(PERI, 4), cell))
+        self.blank()
+
+    def prompt(self, label, instruction, first=''):
+        """One line to open an exercise, in place of a three-row panel.
+
+        The old panel restated an objective the handout had already listed and
+        then gave a HOW TO START hint that, 47 times out of 138, contained the
+        figure the exercise went on to ask for.
+        """
+        self.body.append(para(
+            [run(label + '   ', b=True, color=INDIGO, sz=22),
+             run(instruction, b=True, sz=21)],
+            '<w:spacing w:before="230" w:after="%d"/>'
+            '<w:pBdr><w:top w:val="single" w:sz="12" w:space="7" w:color="%s"/></w:pBdr>'
+            % (40 if first else 110, INDIGO)))
+        if first:
+            self.body.append(para([run('First move:  ', b=True, color=GREY, sz=17),
+                                   run(first, sz=17, color=GREY)],
+                                  '<w:spacing w:after="110"/>'))
+
+    def worked(self, headers, rows, accent=INDIGO, widths=None, note=''):
+        """A table whose first rows are worked and whose rest are to be done.
+
+        rows: [(cells, kind)] with kind 'w' for a row printed as a worked
+        example and 'd' for a row the student completes. A blank cell in a
+        'd' row is drawn as a ruled box rather than as a run of underscores,
+        which is what the first format put in the content files by hand.
+        """
+        n = len(headers)
+        widths = widths or [100 // n] * n
+        gcol = ''.join('<w:gridCol w:w="%d"/>' % w for w in widths)
+        out = ['<w:tr>' + ''.join(
+            '<w:tc>%s%s</w:tc>' % (tcpr(accent, 90),
+                                   para([run(h, b=True, color='FFFFFF', sz=18)]))
+            for h in headers) + '</w:tr>']
+        for cells, kind in rows:
+            tcs = ''
+            for i, c in enumerate(cells):
+                c = '' if c is None else str(c)
+                if kind == 'w':
+                    r = run(c, sz=19, b=(i > 0), color=INDIGO_D if i > 0 else None)
+                    tcs += '<w:tc>%s%s</w:tc>' % (tcpr('EFF0FB', 90), para([r]))
+                elif c:
+                    tcs += '<w:tc>%s%s</w:tc>' % (tcpr(None, 90),
+                                                  para([run(c, sz=19)]))
+                else:
+                    # an empty cell in a student row: a box to write in
+                    tcs += ('<w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" '
+                            'w:sz="6" w:color="%s"/></w:tcBorders><w:tcMar>'
+                            '<w:top w:type="dxa" w:w="150"/>'
+                            '<w:bottom w:type="dxa" w:w="150"/></w:tcMar></w:tcPr>%s</w:tc>'
+                            % (PERI, para([run(' ', sz=19)])))
+            out.append('<w:tr>%s</w:tr>' % tcs)
+        self.body.append('<w:tbl>%s<w:tblGrid>%s</w:tblGrid>%s</w:tbl>'
+                         % (tblpr(RULE), gcol, ''.join(out)))
+        if note:
+            self.body.append(para([run(note, sz=17, color=GREY)],
+                                  '<w:spacing w:before="60" w:after="60"/>'))
+        self.blank()
+
     def cando_box(self, statements):
         cells = [para([run('By the end of this unit I can…', b=True, color=INDIGO, sz=22)],
                       '<w:spacing w:after="40"/>')]

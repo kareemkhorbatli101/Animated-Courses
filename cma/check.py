@@ -79,7 +79,7 @@ def check_handout(H, seen_terms, bad):
     # at least one visual.
     spans, cur = [], None
     for b in H['blocks']:
-        if b[0] == 'task':
+        if b[0] in ('task', 'prompt'):
             if cur is not None:
                 spans.append(cur)
             cur = [b, []]
@@ -92,6 +92,18 @@ def check_handout(H, seen_terms, bad):
     if cur is not None:
         spans.append(cur)
     for t, rest in spans:
+        if t[0] == 'prompt':
+            # The 2026 format opens an exercise with one line and an optional
+            # first move, in place of the three-row panel whose HOW TO START
+            # hint kept printing the figure the exercise went on to ask for.
+            if not 3 <= len(t) <= 4:
+                say('prompt %r is not (label, instruction[, first move])'
+                    % (t[1] if len(t) > 1 else '?'))
+            elif len(t[2]) < 15:
+                say('exercise %s has no real instruction' % t[1])
+            if not any(x[0] == 'fig' for x in rest):
+                say('exercise %s has no visual' % t[1])
+            continue
         if len(t) != 6:
             say('exercise %r is not (label, objective, instruction, needs, steps)'
                 % (t[1] if len(t) > 1 else '?'))
@@ -137,6 +149,11 @@ def check_handout(H, seen_terms, bad):
             if not a:
                 say('a fill block has no blanks at all')
             for ans in a:
+                if SPEC.terse and MONEY.match(ans.strip()) or (
+                        SPEC.terse and re.match(r'^[\d,.]+%?$', ans.strip())):
+                    say('blank %r asks for a figure; in this format a blank '
+                        'asks for a meaning and the figures go in a table'
+                        % ans)
                 if not ans.strip():
                     say('an empty blank')
                 if len(ans) > 34:
@@ -182,6 +199,17 @@ def check_handout(H, seen_terms, bad):
                 if a and a not in heads[1:]:
                     say('classification answer %r is not one of the columns %r'
                         % (a, heads[1:]))
+        elif kind == 'worked':
+            heads, rows = b[1], b[2]
+            if not any(k == 'w' for _c, k in rows):
+                say('a worked table has no worked row; the whole point of the '
+                    'format is that the first row is done for the student')
+            for cells, k in rows:
+                if len(cells) != len(heads):
+                    say('a worked row has %d cells against %d headers'
+                        % (len(cells), len(heads)))
+                if k not in ('w', 'd'):
+                    say('a worked table row has kind %r, not w or d' % k)
         elif kind == 'table':
             heads, rows = b[1], b[2]
             for r in rows:

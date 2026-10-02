@@ -32,6 +32,16 @@ class Builder:
         kind, rest = b[0], b[1:]
         getattr(self, '_' + kind)(*rest)
 
+    # ---- the 2026 format ------------------------------------------------
+    def _case(self, title, en, ar):
+        self.d.case(title, en, ar)
+
+    def _prompt(self, label, instruction, first=''):
+        self.d.prompt(label, instruction, first)
+
+    def _worked(self, headers, rows, accent=INDIGO, widths=None, note=''):
+        self.d.worked(headers, rows, accent, widths, note)
+
     def _h3(self, text, color=INDIGO):
         self.d.h3(text, color)
 
@@ -157,7 +167,11 @@ def render_handout(d, H):
     lg = H['lang']
     d.langbox(lg['register'], lg['collocations'], lg['pairs'], lg['nots'])
     d.h3('What you will be able to do when this handout is finished')
-    d.bullets(H['objectives'])
+    # The objectives list is not printed. 373 bullets across 75 handouts
+    # told a student what they were about to be told, and the exercise
+    # prompts carry the same information where it is actually needed.
+    if not SPEC.terse:
+        d.bullets(H['objectives'])
     d.blank()
     for blk in H['blocks']:
         b.block(blk)
