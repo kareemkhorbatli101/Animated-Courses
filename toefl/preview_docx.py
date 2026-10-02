@@ -20,6 +20,10 @@ def runs_html(el, rels, z):
         if rpr is not None:
             if rpr.find('{%s}b' % W) is not None: st.append('font-weight:700')
             if rpr.find('{%s}i' % W) is not None: st.append('font-style:italic')
+            if rpr.find('{%s}u' % W) is not None: st.append('text-decoration:underline')
+            va = rpr.find('{%s}vertAlign' % W)
+            if va is not None and va.get('{%s}val' % W) == 'superscript':
+                st.append('vertical-align:super')
             c = rpr.find('{%s}color' % W)
             if c is not None: st.append('color:#' + c.get('{%s}val' % W))
             s = rpr.find('{%s}sz' % W)
@@ -77,8 +81,16 @@ def tbl_html(t, rels, z):
             cells.append('<td style="background:%s;border:1px solid #bbcbd2;padding:6px 9px;'
                          'vertical-align:top">%s</td>' % (bg, body))
         rows.append('<tr>%s</tr>' % ''.join(cells))
-    return ('<table style="width:100%%;border-collapse:collapse;margin:8px 0">%s</table>'
-            % ''.join(rows))
+    # honour w:tblGrid so fixed-layout forms preview the way Word lays them out
+    cols = [int(c.get('{%s}w' % W) or 0) for c in t.findall('{%s}tblGrid/{%s}gridCol' % (W, W))]
+    fixed = t.find('{%s}tblPr/{%s}tblLayout' % (W, W)) is not None
+    cg = ''
+    if cols and sum(cols):
+        tot = sum(cols)
+        cg = '<colgroup>%s</colgroup>' % ''.join(
+            '<col style="width:%.2f%%">' % (100.0 * c / tot) for c in cols)
+    return ('<table style="width:100%%;border-collapse:collapse;margin:8px 0%s">%s%s</table>'
+            % (';table-layout:fixed' if fixed else '', cg, ''.join(rows)))
 
 
 def main(path, out, limit=None, skip=0):
