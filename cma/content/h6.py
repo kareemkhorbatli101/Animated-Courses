@@ -118,8 +118,16 @@ HANDOUT = dict(
         ('part', 'Part 1 · What the two options report', 'the same sales, two incomes'),
 
         ('task', 'Exercise 6A',
+         'Show that absorption income moves and variable costing income does not, when only production changes.',
          'Complete both columns. Sales are %s units in BOTH cases — only production '
-         'differs.' % num(S3.sold)),
+         'differs.' % num(S3.sold),
+         ['Handout 4 Exercise 4F for the long-form absorption calculation'],
+         ['Fill the two columns in parallel, row by row, not one column at a time.', 'Sales are the same in both columns. Only the production volume variance differs.', 'Do the last two rows last, and look at them together.']),
+        ('fig', 'threshold', 'One decision, two reported incomes',
+         [('Produce 30,000  absorption', 710000, '#6D3F7E'),
+          ('Produce 45,000  absorption', 935000, '#6D3F7E'),
+          ('Either way  variable costing', 710000, '#1F7A6A')],
+         890000, 'bonus threshold $890,000'),
         ('table', ['', 'Produce %s (to demand)' % num(PLAN),
                    'Produce %s (to capacity)' % num(PUSH)],
          [['Units produced', '', ''],
@@ -137,20 +145,35 @@ HANDOUT = dict(
                   'Variable costing income does not move at all, because not one extra '
                   'unit was sold.' % money(S3.swing)),
 
-        ('task', 'Exercise 6B', 'Read and complete.'),
+        ('task', 'Exercise 6B',
+         'Describe in words how building stock moves fixed overhead off the income statement.',
+         'Read and complete.',
+         ['Exercise 6A'],
+         ['Blank 1 is what did NOT happen, and it is the whole point.', 'Blank 2 is a place, not an account name.', 'Blank 3 is a direction word and blank 4 is the result.']),
+        ('fig', 'taccounts',
+         [('Finished Goods  produce 30,000', [('made', '1,530,000')],
+           [('sold', '1,530,000')], '#1F7A6A'),
+          ('Finished Goods  produce 45,000', [('made', '2,295,000')],
+           [('sold', '1,530,000')], '#6D3F7E')],
+         'The right-hand account keeps $765,000 — and $225,000 of that is fixed overhead '
+         'that never reached the income statement.',
+         2,
+         [('made', 'units completed at the $51 standard cost'),
+          ('sold', '30,000 units sold at $51 each')]),
         ('fill', 'R2',
-         'Making %s units instead of %s changes nothing a customer can see. No extra '
-         'unit is {sold}, no extra cash comes in, and the variable costing income is '
-         'unchanged at %s. What changes is where the fixed overhead sits. At the higher '
-         'output the standard rate of $%d is applied to %s more units, so %s of fixed '
-         'overhead is attached to goods that stay in the {warehouse} instead of being '
-         'charged against this quarter. The production volume variance moves from %s '
-         'unfavourable to %s {favourable}, a swing of exactly the same %s. Reported '
-         'absorption income therefore rises to %s and the bonus threshold of %s is '
-         '{passed}.'
-         % (num(PUSH), num(PLAN), money(OI_VAR), S3.rate, num(S3.excess_units),
-            money(S3.swing), money(abs(VV_PLAN)), money(VV_PUSH), money(S3.swing),
-            money(OI_PUSH), money(S3.bonus_threshold)),
+         ['Making %s units instead of %s changes nothing a customer can see. No extra '
+          'unit is {sold}, no extra cash comes in, and the variable costing income is '
+          'unchanged at %s.' % (num(PUSH), num(PLAN), money(OI_VAR)),
+          'What changes is where the fixed overhead sits. At the higher output the '
+          'standard rate of $%d is applied to %s more units, so %s of fixed overhead is '
+          'attached to goods that stay in the {warehouse} instead of being charged '
+          'against this quarter.'
+          % (S3.rate, num(S3.excess_units), money(S3.swing)),
+          'The production volume variance moves from %s unfavourable to %s {favourable}, '
+          'a swing of exactly the same %s.'
+          % (money(abs(VV_PLAN)), money(VV_PUSH), money(S3.swing)),
+          'Reported absorption income therefore rises to %s, and the bonus threshold of '
+          '%s is {passed}.' % (money(OI_PUSH), money(S3.bonus_threshold))],
          {'sold': ('Sales are identical in the two options.', ''),
           'warehouse': ('The cost moves to the balance sheet.', ''),
           'favourable': ('Favourable because output exceeded the denominator volume.',
@@ -162,9 +185,19 @@ HANDOUT = dict(
         ('part', 'Part 2 · Solving for the target', 'the numerical entry item'),
 
         ('task', 'Exercise 6C',
+         'Solve for the production level that reaches a stated income target, as a numerical entry item.',
          'The exam asks this as a numerical entry item, with no options. Find the '
          'minimum production in units at which the plant exactly reaches the bonus '
-         'threshold of %s. Show your working in the space.' % money(S3.bonus_threshold)),
+         'threshold of %s. Show your working in the space.' % money(S3.bonus_threshold),
+         ['Exercise 6A', 'Handout 4 Exercise 4F'],
+         ['Write absorption income as a fixed amount plus the volume variance. Sales are given, so the fixed amount is known.', 'Standard gross margin less selling and administrative cost gives that fixed amount.', 'Then solve the variance for the output that produces it, and add the denominator volume.']),
+        ('fig', 'formula', 'Solve it backwards',
+         [('Target income', '$890,000', '#44506B'),
+          ('\u2212', '', None),
+          ('Income before the variance', 'gross margin less S&A', '#44506B'),
+          ('=', '', None),
+          ('Variance needed', 'then \u00f7 $15 and add 36,000', '#6D3F7E')],
+         'Every solve-for-output question in this topic has this shape.'),
         ('rules', 5),
 
         ('tip', 'Set it up as: income = (a fixed amount) + (the volume variance). The '
@@ -174,20 +207,36 @@ HANDOUT = dict(
 
         ('part', 'Part 3 · What the income statement does not show', 'the real cost'),
 
-        ('task', 'Exercise 6D', 'Read and complete.'),
+        ('task', 'Exercise 6D',
+         'Name the costs of building unwanted stock that never appear on the income statement.',
+         'Read and complete.',
+         ['Exercise 6A', 'Exercise 6C'],
+         ['Blank 1 is what the income rise really is, and it is not a gain.', 'Blank 2 completes a fixed phrase about cash locked up.', 'The last blank explains why the incentive exists at all.']),
+        ('fig', 'scale',
+         'What the bonus measure SEES',
+         ['Absorption operating income rises by $225,000',
+          'A favourable production volume variance of $135,000',
+          'Closing inventory rises by $765,000',
+          'Every figure correctly stated under GAAP'],
+         'What the bonus measure IGNORES',
+         ['Not one additional unit sold',
+          '$540,000 of cash tied up in unsold goods',
+          'About $34,425 a quarter to hold the stock',
+          'Obsolescence risk carried into next year',
+          'The whole increase reverses when the units are sold']),
         ('fill', 'R2',
-         'The %s rise in reported income is not a gain. It is a {transfer} of cost out of '
-         'this quarter and into a later one, and it will reverse the moment those units '
-         'are sold or written off. Meanwhile the decision has real costs that appear '
-         'nowhere on the income statement. Building %s units consumes %s of cash in '
-         'variable manufacturing cost alone, which is {working} capital the company '
-         'cannot use for anything else. Holding them costs roughly %s for the quarter in '
-         'storage, insurance and the capital charge, and every month they sit there they '
-         'carry a risk of {obsolescence} if the design changes. None of these amounts is '
-         'deducted in arriving at the figure on which the bonus is {calculated}, which is '
-         'the whole reason the incentive exists.'
-         % (money(S3.swing), num(S3.excess_units), money(S3.cash_tied_up),
-            money(S3.carrying_cost)),
+         ['The %s rise in reported income is not a gain. It is a {transfer} of cost out '
+          'of this quarter and into a later one, and it reverses the moment those units '
+          'are sold or written off.' % money(S3.swing),
+          'Meanwhile the decision has real costs that appear nowhere on the income '
+          'statement. Building %s units consumes %s of cash in variable manufacturing '
+          'cost alone, which is {working} capital the company cannot use for anything '
+          'else.' % (num(S3.excess_units), money(S3.cash_tied_up)),
+          'Holding them costs roughly %s for the quarter in storage, insurance and the '
+          'capital charge. Every month they sit there they carry a risk of '
+          '{obsolescence} if the design changes.' % money(S3.carrying_cost),
+          'None of these amounts is deducted in arriving at the figure on which the '
+          'bonus is {calculated}. That is the whole reason the incentive exists.'],
          {'transfer': ('Timing, not creation.', ''),
           'working': ('Cash locked in inventory.', ''),
           'obsolescence': ('Unsold stock can become worthless.', ''),
@@ -211,9 +260,21 @@ HANDOUT = dict(
           'The cost reverses when the units are finally sold']),
 
         ('task', 'Exercise 6E',
+         'Work a multiple-select item, where three statements are true and three are designed to look true.',
          'Tick every statement that is TRUE of the decision to produce %s units. More '
          'than one is true — this is how the exam’s multiple-select items work.'
-         % num(PUSH)),
+         % num(PUSH),
+         ['Exercise 6A', 'Exercise 6D'],
+         ['Treat each statement as a separate true-or-false question. Do not look for a pattern.', 'Statement 3 is about CASH, which the income statement does not show.', 'Statement 8 is the one most candidates miss. Think about both halves of the ratio.']),
+        ('fig', 'matrix', 'Income is only one of the things that moved',
+         ['Absorption income', 'Variable income', 'Cash', 'Inventory',
+          'Return on investment'],
+         ['Direction', 'Why'],
+         [['UP $225,000', 'fixed overhead deferred into stock'],
+          ['UNCHANGED', 'no extra unit was sold'],
+          ['DOWN $540,000', 'materials, labour and variable overhead were paid for'],
+          ['UP $765,000', '15,000 units at the $51 standard cost'],
+          ['EITHER WAY', 'income rose, and so did the investment base']]),
         ('sortgrid', ['Statement', 'True', 'False'],
          ['Absorption costing operating income increases.',
           'Variable costing operating income increases.',
@@ -243,23 +304,41 @@ HANDOUT = dict(
 
         ('part', 'Part 4 · The ethics', 'the IMA Statement of Ethical Professional Practice'),
 
-        ('task', 'Exercise 6F', 'Read and complete.'),
+        ('task', 'Exercise 6F',
+         'Apply the IMA Statement of Ethical Professional Practice to a decision that breaks no accounting rule.',
+         'Read and complete.',
+         ['Exercise 6D'],
+         ['Blank 1 is what this is NOT. The accounting is correct throughout.', 'Blanks 2 and 3 are two of the four standards. Learn all four by name.', 'The last blank is the FIRST step in the resolution process, and it is not an external one.']),
+        ('fig', 'buckets', 'The four standards of the IMA Statement',
+         [('COMPETENCE', '2B6CB0', ['Maintain your expertise',
+                                    'Perform duties in accordance with the law',
+                                    'Provide decision support that is accurate']),
+          ('CONFIDENTIALITY', '44506B', ['Keep information confidential',
+                                         'Do not use it for personal advantage', '']),
+          ('INTEGRITY', '6D3F7E', ['Avoid conflicts of interest',
+                                   'Refrain from conduct that prejudices your duties',
+                                   'Abstain from discrediting the profession']),
+          ('CREDIBILITY', '1F7A6A', ['Communicate fairly and objectively',
+                                     'Disclose all relevant information',
+                                     'Disclose delays or deficiencies'])],
+         'Questions give you a fact and ask which standard it engages.'),
         ('fill', 'R3',
-         'Nothing Ms Hourani proposes is unlawful and nothing misstates the accounts, so '
-         'the question is not one of {fraud}. It is a question about the IMA Statement of '
-         'Ethical Professional Practice, which binds the plant accountant whatever the '
-         'plant manager decides. The standard of {Integrity} requires a member to refrain '
-         'from conduct that would prejudice carrying out duties ethically, and to abstain '
-         'from engaging in any activity that might discredit the profession. The standard '
-         'of {Credibility} requires that information be communicated fairly and '
-         'objectively, and that all information reasonably expected to influence an '
-         'intended user’s understanding be {disclosed}. An accountant who prepares the '
-         'report without drawing attention to the %s of overhead deferred by a production '
-         'decision taken for its reporting effect has not met that second standard. The '
-         'resolution process in the Statement is to discuss the matter first with the '
-         'immediate {supervisor}, except where that person is involved, in which case the '
-         'matter goes to the next higher level.'
-         % money(S3.swing),
+         ['Nothing Ms Hourani proposes is unlawful and nothing misstates the accounts, '
+          'so the question is not one of {fraud}. It is a question about the IMA '
+          'Statement of Ethical Professional Practice, which binds the plant accountant '
+          'whatever the plant manager decides.',
+          'The standard of {Integrity} requires a member to refrain from conduct that '
+          'would prejudice carrying out duties ethically, and to abstain from any '
+          'activity that might discredit the profession.',
+          'The standard of {Credibility} requires that information be communicated '
+          'fairly and objectively, and that all information reasonably expected to '
+          'influence an intended user’s understanding be {disclosed}.',
+          'An accountant who prepares the report without drawing attention to the %s of '
+          'overhead deferred by a production decision taken for its reporting effect has '
+          'not met that second standard.' % money(S3.swing),
+          'The resolution process in the Statement is to discuss the matter first with '
+          'the immediate {supervisor}, except where that person is involved, in which '
+          'case the matter goes to the next higher level.'],
          {'fraud': ('The accounting is correct. That is what makes it hard.',
                     'Treating every ethics question as a fraud question. Most CMA ethics '
                     'items are about disclosure and objectivity, not falsification.'),
@@ -274,7 +353,21 @@ HANDOUT = dict(
          ['Competence', 'Confidentiality', 'negligence', 'concealed', 'auditor']),
 
         ('task', 'Exercise 6G',
-         'Match each fact with the standard it most directly engages.'),
+         'Attach a specific fact to the specific ethical standard it engages.',
+         'Match each fact with the standard it most directly engages.',
+         ['Exercise 6F'],
+         ['Read the four standards first, then the four facts.', 'Ask what each fact is really about: knowing, keeping quiet, behaving, or telling.', 'Only one of the four is about information leaving the company.']),
+        ('fig', 'anatomy',
+         'According to the IMA Statement of Ethical Professional Practice, which action '
+         'should the accountant take FIRST?',
+         [('take FIRST', 'the order matters; later steps are also correct actions',
+           'C0483F'),
+          ('the accountant', 'the member bound by the Statement, not the manager',
+           '2B6CB0'),
+          ('should', 'this is an obligation question, not a permission question',
+           '6D3F7E')],
+         'When a question says FIRST, three of the four options are usually things you '
+         'may eventually do.'),
         ('match',
          ['Preparing a report that omits the effect of the production decision',
           'Accepting the bonus while knowing how the income was produced',
@@ -288,7 +381,19 @@ HANDOUT = dict(
         ('part', 'Part 5 · The cure', 'how companies remove the incentive'),
 
         ('task', 'Exercise 6H',
-         'Match each remedy with what it does to the incentive.'),
+         'Match each remedy for the overproduction incentive to the mechanism by which it works.',
+         'Match each remedy with what it does to the incentive.',
+         ['Exercise 6D', 'Exercise 6E'],
+         ['Read the five mechanisms first. Each names what it changes.', 'Two of the five remove the incentive completely. Find those two first.', 'The exam wants the mechanism, not just the name of the remedy.']),
+        ('fig', 'fork', 'Four ways to break the link between production and reward',
+         [('Measure the manager on variable costing income',
+           'Fixed overhead never enters stock, so the incentive disappears', '#1F7A6A'),
+          ('Charge the segment for capital employed',
+           'The cash locked in stock becomes visible inside the measure', '#2B6CB0'),
+          ('Base the bonus on units SOLD',
+           'Production volume stops affecting the reward at all', '#6D3F7E'),
+          ('Cap inventory as a condition of the bonus',
+           'The incentive survives but its reach is limited', '#C9762E')]),
         ('match',
          ['Evaluate the manager on variable costing income',
           'Charge the segment for capital employed (residual income)',
@@ -335,7 +440,7 @@ HANDOUT = dict(
                   'entry, multiple select, fill in the blank, drag and drop, and list '
                   'selection. There is no credit for explaining your reasoning. The '
                   'answer is either right or it is not. What follows is one complete case '
-                  'in that shape.', None, True),
+                  'in that shape.', None),
 
         ('scene', 'CASE 1 · Riverside Plant · read before answering items 1 to 7', [
             'Riverside is one of three plants operated by Grandview Instruments and is '
@@ -398,8 +503,17 @@ HANDOUT = dict(
          'cash; item 6 is wrong because the treatment is explicitly compliant.'),
 
         ('h3', 'Item 6 of 7 · Fill in the blank'),
-        ('task', 'Item 6', 'Complete the sentence from the word bank. On the real '
-                            'exam each space is a drop-down list.'),
+        ('task', 'Item 6',
+         'Complete a fill-in-the-blank case item, where each space is a drop-down list on the real exam.',
+         'Complete the sentence from the word bank. On the real '
+                            'exam each space is a drop-down list.',
+         ['The case scenario above', 'Exercise 6A'],
+         ['Four spaces, three possible words. One word is used twice.', 'Three of the four follow from the two income figures you have already computed.', 'The fourth is about cash, which neither income statement shows.']),
+        ('fig', 'buckets', 'Four measures, three answers',
+         [('HIGHER', '6D3F7E', ['absorption operating income', 'closing inventory']),
+          ('UNCHANGED', '44506B', ['variable costing operating income', '']),
+          ('LOWER', '1F7A6A', ['cash generated from operations', ''])],
+         'Decide each one on its own. Nothing says the four answers must differ.'),
         ('fill', 'R3',
          'Compared with producing to demand, producing to capacity leaves absorption '
          'costing operating income {HIGHER}, variable costing operating income '

@@ -18,6 +18,8 @@ from data import S1, S2, S3
 
 HS = [1, 2, 3, 4, 5, 6]
 MONEY = re.compile(r'^\(?\$([\d,]+)(?:\.(\d+))?\)?$')
+# Four or more consecutive capitalised words: a sentence, not a label.
+SHOUT = re.compile(r'(?:\b[A-Z][A-Z]{2,}\b[ ,]+){3,}\b[A-Z][A-Z]{2,}\b')
 
 
 def cash(s):
@@ -70,6 +72,39 @@ def check_handout(H, seen_terms, bad):
         if not H['lang'].get(k):
             say('language focus has no %s' % k)
 
+    # ---- every exercise is scaffolded and illustrated ---------------
+    # An exercise runs from its task panel to the next task or part heading.
+    # It must carry an objective, the things it depends on, a first move, and
+    # at least one visual.
+    spans, cur = [], None
+    for b in H['blocks']:
+        if b[0] == 'task':
+            if cur is not None:
+                spans.append(cur)
+            cur = [b, []]
+        elif b[0] == 'part':
+            if cur is not None:
+                spans.append(cur)
+            cur = None
+        elif cur is not None:
+            cur[1].append(b)
+    if cur is not None:
+        spans.append(cur)
+    for t, rest in spans:
+        if len(t) != 6:
+            say('exercise %r is not (label, objective, instruction, needs, steps)'
+                % (t[1] if len(t) > 1 else '?'))
+            continue
+        _lab, obj, instr, needs, steps = t[1], t[2], t[3], t[4], t[5]
+        if len(obj) < 25:
+            say('exercise %s has no real objective' % _lab)
+        if not needs:
+            say('exercise %s does not say what it depends on' % _lab)
+        if len(steps) < 1:
+            say('exercise %s gives the student no way in' % _lab)
+        if not any(x[0] == 'fig' for x in rest):
+            say('exercise %s has no visual' % _lab)
+
     # ---- structure --------------------------------------------------
     nblank = nmcq = 0
     for b in H['blocks']:
@@ -77,7 +112,9 @@ def check_handout(H, seen_terms, bad):
         if kind == 'fill':
             reg, text = b[1], b[2]
             whys = b[3] if len(b) > 3 else {}
-            a = answers(text)
+            paras = [text] if isinstance(text, str) else list(text)
+            text = ' '.join(paras)
+            a = [x for t in paras for x in answers(t)]
             nblank += len(a)
             if reg not in ('R1', 'R2', 'R3'):
                 say('a fill block has register %r' % reg)
@@ -102,6 +139,10 @@ def check_handout(H, seen_terms, bad):
                 if ans not in whys:
                     say('blank %r has no explanation in the key' % ans)
             # the completed page must read as prose
+            for _t in paras:
+                if len(plain(_t).split()) > 95:
+                    say('a paragraph of %d words is too long to read comfortably; '
+                        'break it' % len(plain(_t).split()))
             full = plain(text)
             if '  ' in full or ' ,' in full or ' .' in full:
                 say('completed text does not read cleanly: %r'
@@ -146,6 +187,17 @@ def check_handout(H, seen_terms, bad):
             for row in b[2]:
                 if len(row) != 4:
                     say('a statement row is not (label, level, value, style)')
+        elif kind == 'fig' and b[1] == 'taccounts':
+            # The legend gives red and green to variance direction and to the
+            # trap panels. A ledger account is neither, so an account header
+            # drawn in one of those colours tells the student something the
+            # legend does not mean. Account headers come from the costing-system
+            # and where-a-cost-sits palettes only.
+            for acct in b[2]:
+                c = (acct[3] or '').lstrip('#').upper()
+                if c in ('C0483F', '2E8B62'):
+                    say('T-account %r is drawn in a variance colour; account '
+                        'headers use the costing-system palette' % acct[0])
         elif kind == 'journal':
             for ref, nar, lines in b[1]:
                 dr = sum(cash(d) or 0 for _a, _l, d, _c in lines)
@@ -155,6 +207,19 @@ def check_handout(H, seen_terms, bad):
                         say('entry %s does not balance: debits %s, credits %s'
                             % (ref, dr, cr))
 
+    for b in H['blocks'] + H.get('key_extra', []):
+        for x in _flatten(b):
+            if '\u2003' in x:
+                say('a hard space leaked into the text')
+            # The book sets no italics, so emphasis is carried by colour and
+            # weight. Capitals are the tempting substitute and the wrong one:
+            # a shouted sentence is slower to read in a second language and
+            # says nothing about why the remark matters. Short all-caps labels
+            # inside diagrams and statement rows are headings, not sentences,
+            # and stay allowed.
+            if SHOUT.search(x):
+                say('a sentence is set in capitals: %r — use a colour-coded '
+                    'note instead' % SHOUT.search(x).group(0)[:60])
     if nmcq < 7:
         say('only %d exam questions' % nmcq)
     if nblank < 8:
@@ -177,6 +242,62 @@ def check_handout(H, seen_terms, bad):
         if not any('؀' <= c <= 'ۿ' for c in ar):
             say('the Arabic column for "%s" contains no Arabic' % term)
     return nblank, nmcq
+
+
+def check_figures(bad):
+    """Draw every figure and measure its text against the canvas.
+
+    A label that runs past the edge of a figure is invisible in the .docx and
+    silently costs the student a word or a whole number. It cannot be caught by
+    reading the source and is easy to miss by eye, so it is measured: each text
+    element is laid out exactly as the renderer lays it out, and its extent is
+    compared with the page it is drawn on.
+    """
+    import artbase, frames as F
+    seen = []
+    real = artbase.T
+
+    def spy(x, y, s, size=20, fill=artbase.NAVY, bold=False, anchor='middle',
+            italic=False):
+        w = artbase.tw(str(s), size, bold)
+        left = x - w / 2 if anchor == 'middle' else (x - w if anchor == 'end' else x)
+        seen.append((left, left + w, y, size, str(s)))
+        return real(x, y, s, size, fill, bold, anchor, italic)
+
+    artbase.T = F.T = spy
+    try:
+        jobs = [('legend', F.legend, ())]
+        for n in HS:
+            H = importlib.import_module('content.h%d' % n).HANDOUT
+            for b in H['blocks']:
+                if isinstance(b, tuple) and b and b[0] == 'fig':
+                    jobs.append(('H%d %s' % (n, b[1]), F.__dict__[b[1]], b[2:]))
+        for where, fn_, args in jobs:
+            seen.clear()
+            try:
+                fn_(*args)
+            except Exception as e:
+                bad.append('%s: the figure could not be drawn (%s)' % (where, e))
+                continue
+            for lo, hi, _y, _sz, text in seen:
+                if lo < 2 or hi > F.W - 2:
+                    bad.append('%s: %r is drawn outside the figure (%d..%d of %d)'
+                               % (where, text[:48], lo, hi, F.W))
+            # Two labels sharing a baseline and overlapping horizontally print
+            # on top of each other. Nothing runs off the page, so the bounds
+            # test above says nothing, and the reader sees two words fused.
+            rows = {}
+            for lo, hi, y, sz, text in seen:
+                if text.strip():
+                    rows.setdefault(round(y / 6), []).append((lo, hi, sz, text))
+            for items in rows.values():
+                items.sort()
+                for (l1, r1, s1, t1), (l2, r2, s2, t2) in zip(items, items[1:]):
+                    if r1 - l2 > 1.0:
+                        bad.append('%s: %r and %r are drawn on top of each '
+                                   'other' % (where, t1[:34], t2[:34]))
+    finally:
+        artbase.T = F.T = real
 
 
 def check_arithmetic(bad):
@@ -252,6 +373,7 @@ def main():
                        % (term, first))
 
     check_arithmetic(bad)
+    check_figures(bad)
 
     if bad:
         print('\n'.join(bad))

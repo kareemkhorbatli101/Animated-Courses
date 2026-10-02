@@ -102,8 +102,16 @@ HANDOUT = dict(
         ('part', 'Part 1 · Follow the units', 'inventory in units'),
 
         ('task', 'Exercise 4A',
+         'Track inventory in units across three years, where each year opens where the last one closed.',
          'Complete the inventory record. Closing inventory in one year is opening '
-         'inventory in the next — fill the table across, not down.'),
+         'inventory in the next — fill the table across, not down.',
+         ['Handout 3 Exercise 3E for the direction rule'],
+         ['Fill the table ACROSS, not down. Year 2 opens with whatever Year 1 closed with.', 'Opening plus produced less sold gives closing. Four rows, one subtraction.', 'The last row, the change, is what every later calculation uses.']),
+        ('fig', 'timeline', 'Three years, one warehouse',
+         [('Year 1  made 50,000  sold 40,000', 'stock rises from 0 to 10,000', '#6D3F7E'),
+          ('Year 2  made 40,000  sold 40,000', 'stock stays at 10,000', '#6B7280'),
+          ('Year 3  made 30,000  sold 40,000', 'stock falls from 10,000 to 0', '#1F7A6A')],
+         'Sales are identical in all three years. Only production moves.'),
         ('table', ['', _Y[0], _Y[1], _Y[2]],
          [['Opening inventory (units)', '', '', ''],
           ['add Units produced', '', '', ''],
@@ -121,8 +129,14 @@ HANDOUT = dict(
         ('part', 'Part 2 · Follow the money', 'the difference, year by year'),
 
         ('task', 'Exercise 4B',
+         'Compute the difference between the two incomes for each year and for the three years together.',
          'Complete the reconciliation for each year. Use the change in units from '
-         'Exercise 4A and the rate of $%d.' % S2.rate),
+         'Exercise 4A and the rate of $%d.' % S2.rate,
+         ['Exercise 4A for the change in units', 'the $15 standard rate'],
+         ['Use the reconciliation from Handout 3: start at variable costing income.', 'Only one of the middle two rows has a figure in any given year.', 'Add the three years across. The total of the middle rows should be nil.']),
+        ('fig', 'bridge', 'Year 1', 1120000,
+         [('Fixed overhead deferred into closing stock', 150000)],
+         'Year 1 absorption', 1270000),
         ('table', ['', _Y[0], _Y[1], _Y[2], 'Three years'],
          [['Variable costing operating income', '', '', '', ''],
           ['Fixed overhead deferred into closing inventory', '', '', '', ''],
@@ -131,20 +145,35 @@ HANDOUT = dict(
           ['Absorption costing operating income', '', '', '', '']],
          '353A7C', [36, 16, 16, 16, 16]),
 
-        ('task', 'Exercise 4C', 'Read and complete.'),
+        ('task', 'Exercise 4C',
+         'Say in words what happened to the fixed overhead in each of the three years.',
+         'Read and complete.',
+         ['Exercise 4B'],
+         ['Blank 1 and blank 3 are opposites and describe the two directions.', 'Blank 5 is about the three years taken together, so the answer is about netting off.']),
+        ('fig', 'taccounts',
+         [('Finished Goods  Year 1', [('made', '2,550,000')], [('sold', '2,040,000')],
+           '#6D3F7E'),
+          ('Finished Goods  Year 3', [('opening', '510,000'), ('made', '1,530,000')],
+           [('sold', '2,040,000')], '#1F7A6A')],
+         'Year 1 leaves $510,000 in the warehouse. Year 3 takes exactly that back out.',
+         2,
+         [('made', 'units completed at the $51 standard cost'),
+          ('sold', '40,000 units sold at $51 each'),
+          ('opening', '10,000 units carried in from Year 2')]),
         ('fill', 'R2',
-         'In Year 1 the plant produced %s units more than it sold, so %s of fixed '
-         'overhead was {deferred} into closing inventory and absorption income exceeded '
-         'variable costing income by that amount. In Year 2 production and sales were '
-         'equal, inventory did not move, and the two incomes were {identical}. In Year 3 '
-         'the plant produced %s units fewer than it sold, so the overhead deferred in '
-         'Year 1 was {released} into cost of goods sold, and absorption income fell '
-         '{below} variable costing income by the same %s. Across the three years taken '
-         'together, inventory began at zero and ended at zero, so the amounts deferred '
-         'and released {cancel}, and both methods report cumulative income of %s.'
-         % (num(S2.produced[0] - S2.sold[0]), money(_diff[0]),
-            num(S2.sold[2] - S2.produced[2]), money(abs(_diff[2])),
-            money(sum(_var))),
+         ['In Year 1 the plant produced %s units more than it sold. %s of fixed overhead '
+          'was {deferred} into closing inventory, and absorption income exceeded '
+          'variable costing income by that amount.'
+          % (num(S2.produced[0] - S2.sold[0]), money(_diff[0])),
+          'In Year 2 production and sales were equal, inventory did not move, and the '
+          'two incomes were {identical}.',
+          'In Year 3 the plant produced %s units fewer than it sold. The overhead '
+          'deferred in Year 1 was {released} into cost of goods sold, and absorption '
+          'income fell {below} variable costing income by the same %s.'
+          % (num(S2.sold[2] - S2.produced[2]), money(abs(_diff[2]))),
+          'Across the three years taken together, inventory began at zero and ended at '
+          'zero. The amounts deferred and released {cancel}, and both methods report '
+          'cumulative income of %s.' % money(sum(_var))],
          {'deferred': ('Held in an asset account instead of being expensed.', ''),
           'identical': ('No movement in inventory, no difference.', ''),
           'released': ('The Year 1 cost arrives on the Year 3 income statement.',
@@ -157,7 +186,15 @@ HANDOUT = dict(
          ['written off', 'avoided', 'different', 'above', 'accumulate']),
 
         ('task', 'Exercise 4D',
-         'Complete the summary. This is the table the chairman needs.'),
+         'Produce the summary table the board actually needs, showing flat sales against moving profit.',
+         'Complete the summary. This is the table the chairman needs.',
+         ['Exercise 4B'],
+         ['Copy the two income rows from Exercise 4B.', 'Then look at the first two rows and the last two together.', 'The point of the table is the contrast between a flat row and a moving one.']),
+        ('fig', 'threshold', 'Flat sales, moving profit',
+         [('Year 1 absorption', 1270000, '#6D3F7E'),
+          ('Year 2 absorption', 1120000, '#6D3F7E'),
+          ('Year 3 absorption', 970000, '#6D3F7E')],
+         1120000, 'variable costing income — the same every year'),
         ('table', ['', _Y[0], _Y[1], _Y[2], 'Total'],
          [['Units sold', num(S2.sold[0]), num(S2.sold[1]), num(S2.sold[2]),
            num(sum(S2.sold))],
@@ -169,23 +206,37 @@ HANDOUT = dict(
 
         ('part', 'Part 3 · The same money, seen from Section C', 'the production volume variance'),
 
-        ('task', 'Exercise 4E', 'Read and complete.'),
+        ('task', 'Exercise 4E',
+         'Recognise the production volume variance as the same fixed overhead seen from the performance management side.',
+         'Read and complete.',
+         ['Exercise 4B', 'the denominator volume of 40,000 units'],
+         ['The variance compares production with the DENOMINATOR, never with sales.', 'Blank 4 and blank 5 are the two directions. Work out one and the other follows.', 'Then compare your two variance figures with the two deferral figures in 4B.']),
+        ('fig', 'formula', 'Two names for one movement of overhead',
+         [('Production volume variance', '(actual output \u2212 denominator) \u00d7 rate',
+           '#6D3F7E'),
+          ('=', '', None),
+          ('Fixed overhead deferred or released', 'change in inventory \u00d7 rate',
+           '#1F7A6A')],
+         'They are equal here because sales equal the denominator volume. Handout 6 shows '
+         'a case where they are not.'),
         ('fill', 'R2',
-         'There is a second way to look at exactly the same fixed overhead, and the exam '
-         'tests it in the performance management section rather than the cost management '
-         'section. Because fixed overhead is applied to units at a standard rate, a '
-         'plant that produces more than the denominator volume applies {more} overhead '
-         'than was budgeted, and a plant that produces less applies less. The difference '
-         'is the production volume {variance}, and it equals the standard rate '
-         'multiplied by the difference between actual production and the '
-         '{denominator} volume. In Year 1 Grandview produced %s units against a '
-         'denominator of %s, so the volume variance was %s {favourable}. In Year 3 it '
-         'produced %s units and the variance was %s {unfavourable}. Notice that these '
-         'are the same amounts as the deferral and the release. They are not two '
-         'separate effects; they are one movement of fixed overhead described in two '
-         'vocabularies.'
-         % (num(S2.produced[0]), num(S2.denominator), money(abs(_vv[0])),
-            num(S2.produced[2]), money(abs(_vv[2]))),
+         ['There is a second way to look at exactly the same fixed overhead. The exam '
+          'tests it in the performance management section rather than in cost '
+          'management.',
+          'Because fixed overhead is applied to units at a standard rate, a plant that '
+          'produces more than the denominator volume applies {more} overhead than was '
+          'budgeted, and a plant that produces less applies less.',
+          'The difference is the production volume {variance}. It equals the standard '
+          'rate multiplied by the difference between actual production and the '
+          '{denominator} volume.',
+          'In Year 1 Grandview produced %s units against a denominator of %s, so the '
+          'volume variance was %s {favourable}. In Year 3 it produced %s units and the '
+          'variance was %s {unfavourable}.'
+          % (num(S2.produced[0]), num(S2.denominator), money(abs(_vv[0])),
+             num(S2.produced[2]), money(abs(_vv[2]))),
+          'These are the same amounts as the deferral and the release. They are not two '
+          'separate effects. They are one movement of fixed overhead described in two '
+          'vocabularies.'],
          {'more': ('More overhead is charged to production than was budgeted.', ''),
           'variance': ('The technical name. Also called the denominator variance or the '
                        'capacity variance.', ''),
@@ -215,7 +266,20 @@ HANDOUT = dict(
                   % (money(abs(_vv[0])), num(S2.produced[0] - S2.sold[0]))),
 
         ('task', 'Exercise 4F',
-         'Complete. The two routes must give the same answer — that is the check.'),
+         'Build absorption income the long way and prove it agrees with the reconciliation.',
+         'Complete. The two routes must give the same answer — that is the check.',
+         ['Exercise 4B', 'Exercise 4E'],
+         ['Standard gross margin is units SOLD times the $39 margin per unit. It is the same in all three years.', 'Add a favourable variance; subtract an unfavourable one.', 'Your answer must match Exercise 4B exactly. If it does not, check the sign.']),
+        ('fig', 'formula', 'Absorption income, built the long way',
+         [('Standard gross margin', 'units sold \u00d7 $39', '#44506B'),
+          ('\u00b1', '', None),
+          ('Production volume variance', 'favourable adds, unfavourable subtracts',
+           '#6D3F7E'),
+          ('\u2212', '', None),
+          ('Selling and administrative', 'variable and fixed', '#C9762E'),
+          ('=', '', None),
+          ('Operating income', '', '#1F7A6A')],
+         'Two routes, one answer. Disagreement is almost always the variance sign.'),
         ('table', ['Absorption income, built the long way', _Y[0], _Y[1], _Y[2]],
          [['Standard gross margin (units sold × $%d)' % (S2.price - S2.std_abs_unit),
            '', '', ''],
@@ -248,7 +312,27 @@ HANDOUT = dict(
              'sales match production.' % (num(S2.produced[1]), num(S2.denominator))),
         ]),
 
-        ('task', 'Exercise 4G', 'The same fact, three registers.'),
+        ('task', 'Exercise 4G',
+         'Recognise the multi-period pattern and the volume variance in exam English.',
+         'The same fact, three registers.',
+         ['Exercise 4C', 'Exercise 4E'],
+         ['Cover the right-hand column and predict the exam wording.', 'Row 3 is about what CAUSES a favourable variance, which is a different question from what it means.']),
+        ('fig', 'register',
+         [('Making more than you sell pushes profit into this year.',
+           'An inventory build defers fixed overhead and increases current period '
+           'absorption income.',
+           'A company that increases inventory during a period would report, under '
+           'absorption costing, operating income that is:'),
+          ('The two methods even out in the end.',
+           'Cumulative operating income is identical under the two methods where opening '
+           'and closing inventories are equal.',
+           'Over a three-year period during which inventory returned to its original '
+           'level, total operating income under absorption costing would be:'),
+          ('Making more than planned gives a favourable volume variance.',
+           'The production volume variance is favourable when actual output exceeds the '
+           'denominator volume.',
+           'A favourable production volume variance would MOST likely result from:')],
+         'Row 1 appears on almost every paper in some form.'),
         ('three_ways', [
             ('Making more than you sell pushes profit into this year.',
              'An inventory build defers fixed overhead and increases current period '

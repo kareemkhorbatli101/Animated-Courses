@@ -43,24 +43,31 @@ class Builder:
     def _scene(self, title, lines):
         self.d.scene(lines, title)
 
-    def _task(self, label, instruction):
-        self.d.task(label, instruction)
+    def _task(self, label, objective, instruction, needs, steps):
+        self.d.task(label, objective, instruction, needs, steps)
 
     def _fill(self, reg, text, whys=None, extras=None):
+        """text is one paragraph, or a list of them sharing one word bank.
+
+        Long explanations are broken into short paragraphs so the page stays
+        readable; the blanks keep numbering straight through.
+        """
         whys, extras = whys or {}, extras or []
+        paras = [text] if isinstance(text, str) else list(text)
         from blanks import answers as _ans
-        got = _ans(text)
+        got = [a for t in paras for a in _ans(t)]
         words = sorted(set(got) | set(extras), key=lambda w: w.lower())
         note = 'Not every word is used.' if extras else ''
         if len(got) != len(set(got)):
             note += ('  ' if note else '') + 'A word may be used more than once.'
         self.d.bank(words, note or 'Use each word once.')
-        parts = self.bl.parse(text)
-        for p in parts:
-            if p[0] == 'b':
-                why, trap = whys.get(p[2], ('', ''))
-                self.key.append((p[1], p[2], why, trap))
-        self.d.fill(parts, reg=reg)
+        for i, t in enumerate(paras):
+            parts = self.bl.parse(t)
+            for p in parts:
+                if p[0] == 'b':
+                    why, trap = whys.get(p[2], ('', ''))
+                    self.key.append((p[1], p[2], why, trap))
+            self.d.fill(parts, reg=reg if i == 0 else None)
 
     def _bullets(self, seq):
         self.d.bullets(seq)
@@ -136,6 +143,10 @@ class Builder:
 def render_handout(d, H):
     b = Builder(d)
     b.bl = Blanks()
+    # The right-hand side pairs the handout with its own page number, so a
+    # student holding a loose sheet can say exactly which page they are on.
+    hdr = d.header('Handout %d \u00b7 %s' % (H['n'], H['title']),
+                   'Handout %d' % H['n'])
     d.unit_title('Handout %d · %s' % (H['n'], H['title']))
     d.strapline(H['subtitle'])
     d.cefr('Set D1 · Absorption and Variable Costing · %s' % H['register'])
@@ -146,11 +157,12 @@ def render_handout(d, H):
     d.blank()
     for blk in H['blocks']:
         b.block(blk)
-    d.page_break_section()
+    d.page_break_section(hdr=hdr, restart=True)
     return b
 
 
 def render_key(d, built):
+    hdr = d.header('Answer Key \u00b7 Handouts 1 to 6', 'Answer Key')
     d.unit_title('Answer Key')
     d.strapline('Set D1 · Handouts 1 to 6')
     d.cefr('Every answer carries the reason for it and the mistake it defeats.')
@@ -180,7 +192,7 @@ def render_key(d, built):
                 d.table(*rest)
             elif kind == 'bullets':
                 d.bullets(*rest)
-        d.page_break_section()
+        d.page_break_section(hdr=hdr)
 
 
 def build(out):
@@ -216,6 +228,7 @@ def front_matter(d, hs):
     d.h3('The six handouts')
     d.table(['#', 'Handout', 'What it gives you'],
             [[str(h['n']), h['title'], h['subtitle']] for h in hs], INDIGO, [6, 32, 62])
+    d.figure(*F.legend())
     d.h3('How to read the markers')
     d.table(['Marker', 'Meaning'],
             [['R1', 'Teaching English. Short sentences. This is where a new idea arrives.'],
@@ -223,10 +236,12 @@ def front_matter(d, hs):
              ['R3', 'Exam English. Exactly how the CMA exam phrases it, traps included.'],
              ['Numbered rule', 'A space you fill in. The number matches the answer key.'],
              ['Red table', 'A trap. Read it twice.']], GREY, [14, 86])
-    d.page_break_section()
+    d.page_break_section(hdr=d.header('Set D1 \u00b7 how to use these handouts',
+                                      'Absorption and Variable Costing'), restart=True)
 
 
 def glossary(d, hs):
+    hdr = d.header('Glossary \u00b7 Set D1', 'Glossary')
     d.unit_title('Glossary')
     d.strapline('Every term in Set D1, with the Arabic equivalent and the places it misleads')
     d.cefr('The third column is for recognition only. In the exam room you work in English.')
@@ -236,7 +251,7 @@ def glossary(d, hs):
         rows += list(h.get('terms', []))
     rows.sort(key=lambda r: r[0].lower())
     d.glossary_rows(rows)
-    d.page_break_section()
+    d.page_break_section(hdr=hdr, restart=True)
 
 
 if __name__ == '__main__':

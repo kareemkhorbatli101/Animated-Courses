@@ -126,8 +126,19 @@ HANDOUT = dict(
         ('part', 'Part 1 · The absorption costing statement', 'gross margin format'),
 
         ('task', 'Exercise 3A',
+         'Prepare an absorption costing income statement in the format the exam marks.',
          'Complete the statement. Work down the page and do not skip the inventory '
-         'section — it is where the whole topic lives.'),
+         'section — it is where the whole topic lives.',
+         ['Handout 2 Exercise 2B for the $48 unit cost', 'the data table above'],
+         ['Sales first: units SOLD times price. Never units produced.', 'Then the inventory section: opening plus manufactured gives available; less closing gives cost of goods sold.', 'Closing inventory is valued at $48, which carries $12 of fixed overhead per unit.']),
+        ('fig', 'taccounts',
+         [('Finished Goods  (absorption costing)',
+           [('made', '2,400,000')], [('sold', '2,016,000')], '#6D3F7E')],
+         'What stays behind is 8,000 units at $48 — and $96,000 of that is fixed '
+         'overhead which has not reached the income statement.',
+         1,
+         [('made', '50,000 units completed at $48 each'),
+          ('sold', '42,000 units sold at $48 each')]),
         ('stmt', 'Grandview Instruments · absorption costing · income statement',
          _hollow(_ABS_ROWS), A),
 
@@ -140,22 +151,47 @@ HANDOUT = dict(
         ('part', 'Part 2 · The variable costing statement', 'contribution margin format'),
 
         ('task', 'Exercise 3B',
+         'Prepare a variable costing income statement, with the lines in the order the exam expects.',
          'Complete the statement. The order of the lines is not a matter of taste — the '
-         'exam marks the format.'),
+         'exam marks the format.',
+         ['Exercise 3A', 'Handout 2 Exercise 2D for the contribution margin format'],
+         ['Deduct EVERY variable cost before the subtotal, including variable selling cost.', 'Then deduct the fixed costs as one block below the contribution margin.', 'There is no gross margin line on this statement. If you have written one, the format is wrong.']),
+        ('fig', 'taccounts',
+         [('Finished Goods  (variable costing)',
+           [('made', '1,800,000')], [('sold', '1,512,000')], '#1F7A6A')],
+         'The same 8,000 units, now valued at $36. The $96,000 of fixed overhead went '
+         'straight to the income statement instead.',
+         1,
+         [('made', '50,000 units completed at $36 each'),
+          ('sold', '42,000 units sold at $36 each')]),
         ('stmt', 'Grandview Instruments · variable costing · income statement',
          _hollow(_VAR_ROWS), V),
 
-        ('task', 'Exercise 3C', 'Read and complete.'),
+        ('task', 'Exercise 3C',
+         'Explain in words why the two statements differ, and name the only cost responsible.',
+         'Read and complete.',
+         ['Exercise 3A', 'Exercise 3B'],
+         ['Compare your two statements line by line and mark every line that is the same.', 'Only one item will be left. That is the answer to blank 2 and blank 3.']),
+        ('fig', 'buckets', 'Where the %s of fixed overhead ended up'
+         % '$600,000',
+         [('ABSORPTION  — split in two', '6D3F7E',
+           ['$504,000 charged against this month', 'inside cost of goods sold',
+            '$96,000 held in the warehouse', 'inside closing inventory']),
+          ('VARIABLE  — all in one place', '1F7A6A',
+           ['$600,000 charged against this month', 'as a cost of the period',
+            'nothing held back', 'closing inventory carries none of it'])],
+         'Same spending. Two different places for it to sit.'),
         ('fill', 'R2',
-         'The two statements are built from the same transactions, so the difference '
-         'between them cannot be caused by sales, by variable costs or by selling '
-         'expenses, all of which are treated {identically}. The only item treated '
-         'differently is fixed manufacturing overhead. Under variable costing the whole '
-         '%s is deducted in the month, because it is a cost of the {period}. Under '
-         'absorption costing it is attached to the units produced at $%d each, so the '
-         '%s units still in the warehouse carry %s of it into the {next} period. That '
-         'amount is the entire difference between the two operating incomes.'
-         % (money(S1.fmoh), S1.fmoh_rate, num(S1.end_inv), money(S1.fmoh_deferred)),
+         ['The two statements are built from the same transactions. The difference '
+          'between them cannot be caused by sales, by variable costs or by selling '
+          'expenses, all of which are treated {identically}.',
+          'The only item treated differently is fixed manufacturing overhead. Under '
+          'variable costing the whole %s is deducted in the month, because it is a cost '
+          'of the {period}.' % money(S1.fmoh),
+          'Under absorption costing it is attached to the units produced at $%d each, so '
+          'the %s units still in the warehouse carry %s of it into the {next} period. '
+          'That amount is the entire difference between the two operating incomes.'
+          % (S1.fmoh_rate, num(S1.end_inv), money(S1.fmoh_deferred))],
          {'identically': ('Every other line is the same in substance.',
                           'Candidates hunt for differences in the selling costs. There '
                           'are none.'),
@@ -182,26 +218,43 @@ HANDOUT = dict(
          'Absorption costing operating income', S1.abs_oi),
 
         ('task', 'Exercise 3D',
+         'Produce the difference between the two incomes in one line, without preparing either statement.',
          'Complete the reconciliation. This is the calculation the exam actually wants; '
-         'the two full statements are the long way round.'),
+         'the two full statements are the long way round.',
+         ['Exercise 3C', 'the bridge diagram above'],
+         ['Start from the variable costing income, because it never moves with inventory.', 'Add the fixed overhead in CLOSING inventory, then take off the fixed overhead in OPENING inventory.', 'Here opening inventory is nil, so only one line does any work.']),
+        ('fig', 'formula', 'The reconciliation, as four blocks',
+         [('Variable costing income', 'the stable figure', '#1F7A6A'),
+          ('+', '', None),
+          ('Fixed overhead in CLOSING stock', 'cost held back', '#6D3F7E'),
+          ('\u2212', '', None),
+          ('Fixed overhead in OPENING stock', 'cost released', '#C9762E'),
+          ('=', '', None),
+          ('Absorption income', 'the moving figure', '#6D3F7E')],
+         'Learn this line. It answers more exam questions than both statements together.'),
         ('table', ['Reconciliation', 'Units', 'Rate', 'Amount'],
          [['Variable costing operating income', '', '', ''],
           ['add Fixed overhead in closing inventory', '', '', ''],
           ['less Fixed overhead in opening inventory', '', '', ''],
           ['Absorption costing operating income', '', '', '']], '353A7C', [46, 16, 16, 22]),
 
-        ('task', 'Exercise 3E', 'Read and complete. Learn this paragraph.'),
+        ('task', 'Exercise 3E',
+         'State the direction rule for all three relationships between production and sales, and the cumulative result.',
+         'Read and complete. Learn this paragraph.',
+         ['Exercise 3D'],
+         ['The first blank is about the CHANGE in inventory, not its level.', 'Blanks 3 and 4 are opposites. Work out one and the other follows.', 'The final blank is about timing, and it is the sentence to memorise.']),
         ('fill', 'R2',
-         'The difference between the two operating incomes equals the fixed '
-         'manufacturing overhead rate multiplied by the {change} in inventory in units. '
-         'When production exceeds sales, inventory {rises}, fixed overhead is carried '
-         'forward, and absorption income is {higher}. When sales exceed production, '
-         'inventory falls, fixed overhead deferred in an earlier period is released into '
-         'cost of goods sold, and absorption income is {lower}. When production equals '
-         'sales, no fixed overhead moves and the two incomes are the {same}. Over the '
-         'life of the business, or over any run of periods that begins and ends with the '
-         'same inventory, the two methods report exactly the same total income, because '
-         'every cost is eventually {expensed}.',
+         ['The difference between the two operating incomes equals the fixed '
+          'manufacturing overhead rate multiplied by the {change} in inventory in units.',
+          'When production exceeds sales, inventory {rises}, fixed overhead is carried '
+          'forward, and absorption income is {higher}.',
+          'When sales exceed production, inventory falls, fixed overhead deferred in an '
+          'earlier period is released into cost of goods sold, and absorption income is '
+          '{lower}. When production equals sales, no fixed overhead moves and the two '
+          'incomes are the {same}.',
+          'Over the life of the business, or over any run of periods that begins and '
+          'ends with the same inventory, the two methods report exactly the same total '
+          'income, because every cost is eventually {expensed}.'],
          {'change': ('The CHANGE in units, not the level.',
                      'Using closing inventory instead of the movement. If opening '
                      'inventory is not zero, that is wrong.'),
@@ -222,8 +275,16 @@ HANDOUT = dict(
           ('Production is LESS than sales', 'Absorption income is LOWER', '1F7A6A')]),
 
         ('task', 'Exercise 3F',
+         'Apply the direction rule to three independent cases at speed.',
          'Three independent cases, each with a fixed overhead rate of $10 per unit. '
-         'Complete the table.'),
+         'Complete the table.',
+         ['Exercise 3E', 'the fork diagram above'],
+         ['Compute the change in units first for all three cases, before any money.', 'Multiply by $10 and the amount is done.', 'The sign tells you which method is higher. Write the method name, not a tick.']),
+        ('fig', 'timeline', 'Three cases, one rule',
+         [('Case A  made 20,000  sold 18,000', 'inventory RISES by 2,000 \u2192 absorption higher', '#6D3F7E'),
+          ('Case B  made 20,000  sold 20,000', 'inventory UNCHANGED \u2192 the two are equal', '#6B7280'),
+          ('Case C  made 20,000  sold 23,000', 'inventory FALLS by 3,000 \u2192 absorption lower', '#1F7A6A')],
+         'The rate is $10 in every case, so the only thing you are deciding is direction.'),
         ('table', ['Case', 'Produced', 'Sold', 'Change in units',
                    'Difference in operating income', 'Which is higher?'],
          [['A', '20,000', '18,000', '', '', ''],
@@ -251,7 +312,27 @@ HANDOUT = dict(
              'Only the pattern differs.'),
         ]),
 
-        ('task', 'Exercise 3G', 'The same fact, three registers.'),
+        ('task', 'Exercise 3G',
+         'Recognise the direction rule and the reconciliation formula in exam English.',
+         'The same fact, three registers.',
+         ['Exercise 3E', 'Exercise 3D'],
+         ['Cover the right-hand column and predict the exam wording.', 'Row 3 uses "cumulative", which is the word that signals the three-year question.']),
+        ('fig', 'register',
+         [('Making more than you sell makes absorption profit bigger.',
+           'When production exceeds sales, absorption costing operating income exceeds '
+           'variable costing operating income.',
+           'In a period in which production exceeded sales, operating income under '
+           'absorption costing as compared with variable costing would be:'),
+          ('The gap is the rate times the change in stock.',
+           'The difference in operating income equals the fixed overhead application '
+           'rate multiplied by the change in inventory units.',
+           'The difference between the two operating income figures is best explained by:'),
+          ('In the long run both methods give the same total profit.',
+           'Over a period in which opening and closing inventories are equal, cumulative '
+           'operating income is identical under both methods.',
+           'Which of the following statements regarding cumulative income under the two '
+           'methods is correct?')],
+         'Row 2 is the one that appears most often, in almost those words.'),
         ('three_ways', [
             ('Making more than you sell makes absorption profit bigger.',
              'When production exceeds sales, absorption costing operating income exceeds '

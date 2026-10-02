@@ -92,18 +92,24 @@ HANDOUT = dict(
 
         ('part', 'Part 1 · Where each method draws the line', 'the inventoriable decision'),
 
-        ('task', 'Exercise 2A', 'Read and complete.'),
+        ('task', 'Exercise 2A',
+         'State where each of the three methods draws the line between a cost that enters inventory and a cost that is expensed now.',
+         'Read and complete.',
+         ['Handout 1, Exercise 1F'],
+         ['Read the ladder diagram below the exercise before you write anything.', 'Three of the blanks are the names of cost groups. Two are the names of methods.', 'The last blank is the one that makes throughput costing feel wrong the first time.']),
         ('fill', 'R1',
-         'All three methods agree about selling and administrative cost: it is never '
-         '{inventoriable}, under any method, and it is charged to the period in which it '
-         'is incurred. They disagree only about costs incurred inside the '
-         '{factory}. Absorption costing treats every manufacturing cost as a product '
-         'cost, both variable and {fixed}. Variable costing treats only the '
-         '{variable} manufacturing costs as product costs, and charges fixed factory '
-         'overhead to the period as a capacity cost. Throughput costing goes further '
-         'still and treats only direct {materials} as a product cost, on the argument '
-         'that in the short run everything else, including {labour}, is a cost of '
-         'keeping the factory open rather than a cost of making one more unit.',
+         ['All three methods agree about selling and administrative cost: it is never '
+          '{inventoriable}, under any method, and it is charged to the period in which '
+          'it is incurred.',
+          'They disagree only about costs incurred inside the {factory}. Absorption '
+          'costing treats every manufacturing cost as a product cost, both variable and '
+          '{fixed}.',
+          'Variable costing treats only the {variable} manufacturing costs as product '
+          'costs, and charges fixed factory overhead to the period as a capacity cost.',
+          'Throughput costing goes further still. It treats only direct {materials} as a '
+          'product cost, on the argument that in the short run everything else, '
+          'including {labour}, is a cost of keeping the factory open rather than a cost '
+          'of making one more unit.'],
          {'inventoriable': ('No method puts selling cost into stock.', ''),
           'factory': ('The dispute is entirely about manufacturing cost.', ''),
           'fixed': ('This is the defining feature of absorption costing.', ''),
@@ -127,8 +133,22 @@ HANDOUT = dict(
         ('part', 'Part 2 · Building the unit cost', 'three columns, one set of data'),
 
         ('task', 'Exercise 2B',
+         'Build the unit product cost under all three methods from one set of data.',
          'Complete the table. The fixed overhead rate is the month’s fixed factory '
-         'overhead divided by the units produced.'),
+         'overhead divided by the units produced.',
+         ['Exercise 2A', 'the scenario data table above'],
+         ['Fill the absorption column downwards first. It has every row.', 'The fixed overhead rate is $600,000 divided by the units produced.', 'Then cross out the rows the other two methods do not use.']),
+        ('fig', 'stacks', 'What each method puts inside one unit',
+         [('Absorption', [('DM', 18, '#2B6CB0', True), ('DL', 12, '#1F7A6A', True),
+                          ('VOH', 6, '#C9762E', True), ('FOH', 12, '#6D3F7E', True)],
+           '#6D3F7E'),
+          ('Variable', [('DM', 18, '#2B6CB0', True), ('DL', 12, '#1F7A6A', True),
+                        ('VOH', 6, '#C9762E', True), ('FOH', 12, '#6D3F7E', False)],
+           '#1F7A6A'),
+          ('Throughput', [('DM', 18, '#2B6CB0', True), ('DL', 12, '#1F7A6A', False),
+                          ('VOH', 6, '#C9762E', False), ('FOH', 12, '#6D3F7E', False)],
+           '#C9762E')],
+         'A solid block is in inventory. A hollow block was expensed this period.'),
         ('table', ['Per unit', 'Absorption', 'Variable', 'Throughput'],
          [['Direct materials', '$%d' % S1.dm, '$%d' % S1.dm, '$%d' % S1.dm],
           ['Direct labour', '', '', '—'],
@@ -138,8 +158,17 @@ HANDOUT = dict(
           ['Unit product cost', '', '', '']], A, [40, 20, 20, 20]),
 
         ('task', 'Exercise 2C',
+         'Value the same closing inventory three ways and see the size of the gap.',
          'Now value the closing inventory. The plant made %s units and sold %s.'
-         % (num(S1.produced), num(S1.sold))),
+         % (num(S1.produced), num(S1.sold)),
+         ['Exercise 2B', 'units produced and units sold'],
+         ['Closing inventory in units is production less sales. Write that number first.', 'Then multiply by each of the three unit costs in turn.', 'Check: the three answers should be in the order absorption, variable, throughput, largest first.']),
+        ('fig', 'buckets', 'The same 8,000 units, valued three ways',
+         [('ABSORPTION  $48', '6D3F7E', ['materials', 'labour', 'variable overhead',
+                                         'FIXED overhead']),
+          ('VARIABLE  $36', '1F7A6A', ['materials', 'labour', 'variable overhead', '']),
+          ('THROUGHPUT  $18', 'C9762E', ['materials', '', '', ''])],
+         'Every row a method leaves out has already been charged against this period.'),
         ('table', ['', 'Units', '× unit cost', '= closing inventory'],
          [['Absorption costing', '', '', ''],
           ['Variable costing', '', '', ''],
@@ -161,20 +190,31 @@ HANDOUT = dict(
 
         ('part', 'Part 3 · Three shapes of income statement', 'the margin lines'),
 
-        ('task', 'Exercise 2D', 'Read and complete.'),
+        ('task', 'Exercise 2D',
+         'Name the three margin lines and say which costs are above each one.',
+         'Read and complete.',
+         ['Exercise 2A', 'Exercise 2B'],
+         ['Each method has its own subtotal. Learn the subtotal and the format follows.', 'The word behaviour in blank 2 is the structural difference, not a style choice.', 'The last blank is a condition, not a cost.']),
+        ('fig', 'formula', 'The three subtotals, and what each one has taken off',
+         [('Sales', 'the same under all three', '#44506B'),
+          ('\u2212', '', None),
+          ('Cost of goods sold', 'DM + DL + VOH + FIXED overhead', '#6D3F7E'),
+          ('=', '', None),
+          ('GROSS MARGIN', 'the absorption subtotal', '#6D3F7E')],
+         'Change what you subtract and you change the name of the subtotal.'),
         ('fill', 'R2',
-         'Each method brings its own income statement format with it, and the exam '
-         'expects you to produce the right shape without being told. The absorption '
-         'statement deducts cost of goods sold from sales to arrive at '
-         '{gross} margin, and then deducts all selling and administrative expenses. '
-         'The variable costing statement separates costs by {behaviour} rather than by '
-         'function: it deducts every variable cost, including variable selling cost, to '
-         'arrive at {contribution} margin, and then deducts the fixed costs as a block. '
-         'The throughput statement deducts only direct {material} cost from sales to '
-         'arrive at throughput contribution, and treats everything else as an operating '
-         'expense of the period. Notice that the three statements will report three '
-         'different operating incomes whenever the units produced differ from the units '
-         '{sold}, and exactly the same operating income when they are equal.',
+         ['Each method brings its own income statement format with it, and the exam '
+          'expects you to produce the right shape without being told.',
+          'The absorption statement deducts cost of goods sold from sales to arrive at '
+          '{gross} margin, and then deducts all selling and administrative expenses.',
+          'The variable costing statement separates costs by {behaviour} rather than by '
+          'function. It deducts every variable cost, including variable selling cost, to '
+          'arrive at {contribution} margin, and then deducts the fixed costs as a block.',
+          'The throughput statement deducts only direct {material} cost from sales, and '
+          'treats everything else as an operating expense of the period.',
+          'The three statements report three different operating incomes whenever the '
+          'units produced differ from the units {sold}, and exactly the same operating '
+          'income when they are equal.'],
          {'gross': ('Gross margin is the absorption subtotal.', ''),
           'behaviour': ('By behaviour, not by function. This is the structural difference.',
                         'Writing an absorption statement and calling it variable costing '
@@ -200,7 +240,17 @@ HANDOUT = dict(
           ['', '= OPERATING INCOME', '']], A, [34, 33, 33]),
 
         ('task', 'Exercise 2E',
-         'Match each subtotal with what it is actually useful for. Write the letter.'),
+         'Attach each subtotal to the decision it is actually able to answer.',
+         'Match each subtotal with what it is actually useful for. Write the letter.',
+         ['Exercise 2D'],
+         ['Read the four uses first, before the four subtotals.', 'Ask which costs each decision can ignore. That names the subtotal.', 'Only one of the four is about reporting outside the company.']),
+        ('fig', 'matrix', 'Each subtotal answers one kind of question',
+         ['Short-run decision', 'Bottleneck decision', 'External report'],
+         ['Which subtotal?', 'Why that one'],
+         [['Contribution margin', 'fixed cost is irrelevant in the short run'],
+          ['Throughput contribution', 'everything but materials is fixed at a bottleneck'],
+          ['Gross margin', 'the standards require full manufacturing cost']],
+         'The subtotals are not three ways of saying the same thing.'),
         ('match',
          ['Gross margin', 'Contribution margin', 'Throughput contribution',
           'Operating income'],
@@ -215,19 +265,32 @@ HANDOUT = dict(
 
         ('part', 'Part 4 · Which method, and who says so', 'the rules behind the choice'),
 
-        ('task', 'Exercise 2F', 'Read and complete.'),
+        ('task', 'Exercise 2F',
+         'State which method the accounting standards require, and on what basis fixed overhead must be absorbed.',
+         'Read and complete.',
+         ['Exercise 2A'],
+         ['Two of the blanks are about permission and two are about the audience.', 'The word in blank 2 is the one the standards actually use. It is not "actual".', 'Nothing here says variable costing is improper. Read carefully.']),
+        ('fig', 'buckets', 'Who the numbers are for',
+         [('EXTERNAL REPORTING', '6D3F7E',
+           ['Shareholders, lenders, the tax authority', 'Absorption costing REQUIRED',
+            'Fixed overhead absorbed on NORMAL capacity', 'Variable costing not permitted']),
+          ('INTERNAL REPORTING', '1F7A6A',
+           ['Managers inside the business', 'Variable costing normal and legitimate',
+            'Contribution margin for decisions', 'No standard applies'])],
+         'Most companies prepare both. They are not alternatives; they are audiences.'),
         ('fill', 'R2',
-         'The choice between the methods is not free. For external reporting and for '
-         'tax, absorption costing is {required}, because the accounting '
-         'standards treat fixed production overhead as part of the cost of bringing '
-         'inventory to its present location and condition. The standards add an '
-         'important condition: fixed overhead must be absorbed on the basis of '
-         '{normal} capacity rather than actual output, so that a month of unusually low '
-         'production does not inflate the value of the units that were made. Variable '
-         'costing is not permitted for external reporting, but it is entirely '
-         '{legitimate} inside the business, and most companies that use absorption '
-         'costing for external reporting also prepare variable costing figures for '
-         '{internal reporting}.',
+         ['The choice between the methods is not free. For external reporting and for '
+          'tax, absorption costing is {required}, because the accounting standards treat '
+          'fixed production overhead as part of the cost of bringing inventory to its '
+          'present location and condition.',
+          'The standards add an important condition. Fixed overhead must be absorbed on '
+          'the basis of {normal} capacity rather than actual output, so that a month of '
+          'unusually low production does not inflate the value of the units that were '
+          'made.',
+          'Variable costing is not permitted for external reporting, but it is entirely '
+          '{legitimate} inside the business. Most companies that use absorption costing '
+          'for external reporting also prepare variable costing figures for '
+          '{internal reporting}.'],
          {'required': ('GAAP and IFRS both require it; so does the tax code.', ''),
           'normal': ('Normal capacity, not actual production.',
                      'Candidates assume actual output is always the denominator. '
@@ -240,7 +303,15 @@ HANDOUT = dict(
          ['forbidden', 'actual', 'theoretical', 'optional']),
 
         ('task', 'Exercise 2G',
-         'Tick the method each statement describes. One tick per row.'),
+         'Identify a method from a description of what it does, as the exam states it.',
+         'Tick the method each statement describes. One tick per row.',
+         ['Everything in this handout'],
+         ['Rows 3 and 7 follow from the stack diagram: more cost in, higher inventory value.', 'Row 6 is a vocabulary question, not an accounting one.', 'Row 8 asks about tax, which follows the external reporting rule.']),
+        ('fig', 'stacks', 'Height of the stack decides the inventory value',
+         [('Absorption', [('inventoriable', 48, '#6D3F7E', True)], '#6D3F7E'),
+          ('Variable', [('inventoriable', 36, '#1F7A6A', True)], '#1F7A6A'),
+          ('Throughput', [('inventoriable', 18, '#C9762E', True)], '#C9762E')],
+         'Highest unit cost gives the highest closing inventory. Lowest gives the lowest.'),
         ('sortgrid', ['Statement', 'Absorption', 'Variable', 'Throughput'],
          ['Required by GAAP and IFRS for published financial statements',
           'Treats fixed factory overhead as a cost of the period',
@@ -255,7 +326,23 @@ HANDOUT = dict(
          'Rows 3 and 7 follow from the ladder: the more cost a method puts into '
          'inventory, the higher the inventory value.'),
 
-        ('task', 'Exercise 2H', 'The same fact, three registers. Read across.'),
+        ('task', 'Exercise 2H',
+         'Recognise the three methods in exam English, including the old names.',
+         'The same fact, three registers. Read across.',
+         ['The whole handout'],
+         ['Cover the right-hand column and predict the exam wording.', 'Then find your own words inside the exam sentence.', 'Pay attention to row 3: a question about permitted use is a different question from one about correct method.']),
+        ('fig', 'register',
+         [('Throughput costing puts only materials in the product cost.',
+           'Under throughput costing, direct materials constitute the only inventoriable cost.',
+           'Under throughput costing, the inventoriable cost per unit would be:'),
+          ('Variable costing takes off all the variable costs first.',
+           'Contribution margin is determined by deducting all variable costs, whether '
+           'manufacturing or selling, from sales revenue.',
+           'In arriving at contribution margin, which of the following is deducted?'),
+          ('You must use absorption costing for the published accounts.',
+           'Absorption costing is mandated for external financial reporting purposes.',
+           'A company may use variable costing for which of the following purposes?')],
+         'The third column is what you will actually be given.'),
         ('three_ways', [
             ('Throughput costing puts only materials in the product cost.',
              'Under throughput costing, direct materials constitute the only '

@@ -50,8 +50,8 @@ _ABS_ENTRIES = [
     ('J6', 'Variable overhead applied to production, %s units × $%d.' % (num(P), VOH),
      [('Work in Process Inventory', 0, _m(VAR_OH), ''),
       ('Variable Manufacturing Overhead Applied', 1, '', _m(VAR_OH))]),
-    ('J7', 'Fixed overhead applied to production, %s units × $%d. THIS ENTRY EXISTS '
-           'ONLY UNDER ABSORPTION COSTING.' % (num(P), S2.rate),
+    ('J7', ('Fixed overhead applied to production, %s units × $%d.' % (num(P), S2.rate),
+            'This entry exists only under absorption costing.'),
      [('Work in Process Inventory', 0, _m(FIX_APP), ''),
       ('Fixed Manufacturing Overhead Applied', 1, '', _m(FIX_APP))]),
     ('J8', '%s units completed and transferred, at $%d each.' % (num(P), ABS_UNIT),
@@ -72,8 +72,8 @@ _ABS_ENTRIES = [
 ]
 
 _VAR_ENTRIES = [
-    ('J7v', 'Fixed factory overhead taken straight to expense. UNDER VARIABLE COSTING '
-            'THERE IS NO APPLICATION ENTRY AT ALL.',
+    ('J7v', ('Fixed factory overhead taken straight to expense.',
+             'Under variable costing there is no application entry at all.'),
      [('Fixed Manufacturing Overhead Expense', 0, _m(FIX_ACT), ''),
       ('Fixed Manufacturing Overhead Control', 1, '', _m(FIX_ACT))]),
     ('J8v', '%s units completed and transferred, at $%d each.' % (num(P), VAR_UNIT),
@@ -183,24 +183,52 @@ HANDOUT = dict(
         ('part', 'Part 1 · Absorption costing, posted in full', 'eleven entries'),
 
         ('task', 'Exercise 5A',
+         'Post a full manufacturing month under absorption costing, including the entry that closes the overhead accounts.',
          'Complete every entry. Put each amount in the debit or the credit column — the '
          'account name tells you which. Entry J11 has three lines and is the one to '
-         'think hardest about.'),
+         'think hardest about.',
+         ['The figures table above', 'Handout 4 for the $15 rate and the denominator volume'],
+         ['Work in order. Every entry has a debit line first and a credit line indented under it.', 'J7 is the entry that only absorption costing makes. Mark it.', 'J11 has three lines because two accounts are being closed against each other and the difference has to go somewhere.']),
+        ('fig', 'taccounts',
+         [('Work in Process', [('J2', '900,000'), ('J3', '600,000'), ('J6', '300,000'),
+                               ('J7', '750,000')], [('J8', '2,550,000')], '#6D3F7E'),
+          ('Finished Goods', [('J8', '2,550,000')], [('J10', '2,040,000')], '#1F7A6A'),
+          ('Fixed Overhead Control', [('J5', '600,000')], [('J11', '600,000')], '#44506B'),
+          ('Fixed Overhead Applied', [('J11', '750,000')], [('J7', '750,000')], '#C9762E')],
+         'Post your entries here as well. Finished Goods should be left holding $510,000.',
+         2,
+         [('J2', 'materials issued'), ('J3', 'direct labour'),
+          ('J6', 'variable overhead applied'), ('J7', 'fixed overhead applied'),
+          ('J8', 'units completed'), ('J10', 'units sold'),
+          ('J5', 'fixed overhead incurred'), ('J11', 'overhead accounts closed')]),
         ('journal', _blank_entries(_ABS_ENTRIES)),
 
-        ('task', 'Exercise 5B', 'Read and complete.'),
+        ('task', 'Exercise 5B',
+         'Separate the control account from the applied account, and dispose of the difference between them.',
+         'Read and complete.',
+         ['Exercise 5A, entries J5, J7 and J11'],
+         ['Two accounts, two different numbers. One holds what was spent, one holds what was charged to production.', 'Applied is the standard rate times units PRODUCED, never units sold.', 'The difference between them has a name and a destination. Both are blanks.']),
+        ('fig', 'formula', 'Why there are two fixed overhead accounts',
+         [('CONTROL', 'what the company actually spent: $600,000', '#44506B'),
+          ('vs', '', None),
+          ('APPLIED', 'standard rate \u00d7 units produced: $750,000', '#C9762E'),
+          ('=', '', None),
+          ('$150,000 OVER-applied', 'closed to cost of goods sold', '#2E8B62')],
+         'If the two were always equal there would be no reason to keep them apart.'),
         ('fill', 'R2',
-         'Two separate things happen to fixed overhead in this ledger, and keeping them '
-         'apart is what the entries are for. The actual cost incurred is debited to the '
-         'Fixed Manufacturing Overhead {Control} account, which records what the company '
-         'really spent. A quite different amount is credited to the Fixed Manufacturing '
-         'Overhead {Applied} account, calculated as the standard rate of $%d multiplied '
-         'by the %s units actually {produced}. In Year 1 the applied amount of %s '
-         'exceeded the actual amount of %s, so overhead was {over-applied} by %s. When '
-         'the two accounts are closed against each other, that balance is credited to '
-         'Cost of Goods {Sold}, which reduces the expense and increases reported income '
-         'by exactly the amount of the favourable production volume variance.'
-         % (S2.rate, num(P), money(FIX_APP), money(FIX_ACT), money(VOLVAR)),
+         ['Two separate things happen to fixed overhead in this ledger, and keeping them '
+          'apart is what the entries are for.',
+          'The actual cost incurred is debited to the Fixed Manufacturing Overhead '
+          '{Control} account, which records what the company really spent.',
+          'A quite different amount is credited to the Fixed Manufacturing Overhead '
+          '{Applied} account, calculated as the standard rate of $%d multiplied by the '
+          '%s units actually {produced}.' % (S2.rate, num(P)),
+          'In Year 1 the applied amount of %s exceeded the actual amount of %s, so '
+          'overhead was {over-applied} by %s.'
+          % (money(FIX_APP), money(FIX_ACT), money(VOLVAR)),
+          'When the two accounts are closed against each other, that balance is credited '
+          'to Cost of Goods {Sold}. It reduces the expense and increases reported income '
+          'by exactly the amount of the favourable production volume variance.'],
          {'Control': ('Actual costs only.',
                       'Debiting applied amounts to the control account, which destroys '
                       'the comparison the two accounts exist to make.'),
@@ -217,23 +245,49 @@ HANDOUT = dict(
         ('part', 'Part 2 · The same month under variable costing', 'three entries change'),
 
         ('task', 'Exercise 5C',
+         'Post the same month under variable costing and find the entry that disappears altogether.',
          'Only three entries differ. Complete them, then write in the box below which '
-         'absorption entry has no variable costing equivalent at all.'),
+         'absorption entry has no variable costing equivalent at all.',
+         ['Exercise 5A'],
+         ['Only three entries change. J1 to J6 are identical under both methods.', 'The transfer to finished goods falls because the unit cost falls from $51 to $36.', 'Write the missing entry number on the ruled lines underneath.']),
+        ('fig', 'taccounts',
+         [('Work in Process  (variable)', [('J2', '900,000'), ('J3', '600,000'),
+                                           ('J6', '300,000')],
+           [('J8v', '1,800,000')], '#1F7A6A'),
+          ('Fixed Overhead Expense', [('J7v', '600,000')], [], '#1F7A6A')],
+         'No fixed overhead enters Work in Process, so there is nothing to apply and '
+         'nothing to close.',
+         2,
+         [('J2', 'materials issued'), ('J3', 'direct labour'),
+          ('J6', 'variable overhead applied'), ('J8v', 'units completed at $36'),
+          ('J7v', 'fixed overhead straight to expense')]),
         ('journal', _blank_entries(_VAR_ENTRIES)),
         ('rules', 2),
 
-        ('task', 'Exercise 5D', 'Read and complete.'),
+        ('task', 'Exercise 5D',
+         'State what variable costing does NOT have: no application, no balance, no volume variance.',
+         'Read and complete.',
+         ['Exercise 5C'],
+         ['Blank 1 is an account name in two words.', 'Blank 2 is the thing that cannot exist if nothing is applied.', 'Blank 3 is about which entries stay the same, and the answer is most of them.']),
+        ('fig', 'buckets', 'What each method needs in the ledger',
+         [('ABSORPTION needs', '6D3F7E',
+           ['a control account', 'an applied account', 'an application entry',
+            'a closing entry', 'a volume variance']),
+          ('VARIABLE needs', '1F7A6A',
+           ['a control account', 'one expense entry', '', '', ''])],
+         'Three fewer moving parts, and no variance to misread.'),
         ('fill', 'R2',
-         'Under variable costing, fixed factory overhead never enters Work in '
-         '{Process}, so it never reaches Finished Goods and never sits in inventory. '
-         'There is therefore no application entry and no over- or under-applied balance '
-         'for fixed overhead, which also means there is no production volume '
-         '{variance} to report. The whole %s is charged to the period as an expense in a '
-         'single entry. Entries J1 to J6 are {unchanged}, because they deal with '
-         'materials, labour and variable overhead, which both methods treat the same '
-         'way. The transfer to finished goods falls from %s to %s, a difference of '
-         'exactly the fixed overhead applied to the %s units {produced}.'
-         % (money(FIX_ACT), money(FG_ABS), money(FG_VAR), num(P)),
+         ['Under variable costing, fixed factory overhead never enters Work in '
+          '{Process}. It never reaches Finished Goods and never sits in inventory.',
+          'There is therefore no application entry and no over- or under-applied balance '
+          'for fixed overhead, which also means there is no production volume {variance} '
+          'to report. The whole %s is charged to the period in a single entry.'
+          % money(FIX_ACT),
+          'Entries J1 to J6 are {unchanged}, because they deal with materials, labour and '
+          'variable overhead, which both methods treat the same way.',
+          'The transfer to finished goods falls from %s to %s, a difference of exactly '
+          'the fixed overhead applied to the %s units {produced}.'
+          % (money(FG_ABS), money(FG_VAR), num(P))],
          {'Process': ('It is never capitalised at all.', ''),
           'variance': ('No application means no volume variance.',
                        'A very common exam point: variable costing systems do not report '
@@ -245,8 +299,14 @@ HANDOUT = dict(
         ('part', 'Part 3 · Proving the difference from the ledger', 'the Section D payoff'),
 
         ('task', 'Exercise 5E',
+         'Prove the difference between the two incomes from the ledger alone, without the reconciliation formula.',
          'Add up what each method actually charged against this year’s income, and '
-         'compare.'),
+         'compare.',
+         ['Exercise 5A', 'Exercise 5C'],
+         ['Add up everything each method charged against this year’s income.', 'Under absorption that is cost of goods sold LESS the favourable variance closed to it.', 'Under variable it is cost of goods sold PLUS the whole fixed overhead.']),
+        ('fig', 'bridge', 'Charged against Year 1 income', 1890000,
+         [('Fixed overhead variable costing charged and absorption did not', 150000)],
+         'Variable costing charged', 2040000),
         ('table', ['Charged against Year 1 income', 'Absorption costing', 'Variable costing'],
          [['Cost of goods sold', '', ''],
           ['Fixed manufacturing overhead expensed directly', '', ''],
@@ -261,16 +321,30 @@ HANDOUT = dict(
 
         ('part', 'Part 4 · Disposing of the balance', 'write off or prorate'),
 
-        ('task', 'Exercise 5F', 'Read and complete.'),
+        ('task', 'Exercise 5F',
+         'Decide when an over- or under-applied balance may be written off and when it must be spread.',
+         'Read and complete.',
+         ['Exercise 5B'],
+         ['The test is materiality, and it is the first blank.', 'The second blank is the technical verb for spreading a balance across accounts.', 'The third blank is a direction word: which way does inventory go if you write the whole balance off?']),
+        ('fig', 'fork', 'What to do with the leftover balance',
+         [('Is the over- or under-applied balance material?',
+           'NO \u2192 close the whole amount to Cost of Goods Sold', '#2B6CB0'),
+          ('Is the over- or under-applied balance material?',
+           'YES \u2192 prorate across WIP, Finished Goods and Cost of Goods Sold',
+           '#C9762E'),
+          ('Why does it matter?',
+           'Writing a large balance off distorts both inventory and this year\u2019s expense',
+           '#6D3F7E')]),
         ('fill', 'R2',
-         'An over- or under-applied balance must be removed at the year end. If the '
-         'amount is {immaterial}, the whole balance may be closed to cost of goods sold, '
-         'which is what entry J11 did. If the amount is material, the standards require '
-         'it to be {prorated} across the accounts that contain the applied overhead: '
-         'work in process, finished goods and cost of goods sold, in proportion to the '
-         'overhead in each. Proration matters because writing a large under-applied '
-         'balance off to cost of goods sold {understates} inventory on the balance sheet '
-         'and overstates the expense for the year.',
+         ['An over- or under-applied balance must be removed at the year end.',
+          'If the amount is {immaterial}, the whole balance may be closed to cost of '
+          'goods sold, which is what entry J11 did.',
+          'If the amount is material, the standards require it to be {prorated} across '
+          'the accounts that contain the applied overhead: work in process, finished '
+          'goods and cost of goods sold, in proportion to the overhead in each.',
+          'Proration matters because writing a large under-applied balance off to cost '
+          'of goods sold {understates} inventory on the balance sheet and overstates the '
+          'expense for the year.'],
          {'immaterial': ('Materiality is the test, not convenience.', ''),
           'prorated': ('Spread across all three accounts holding applied overhead.', ''),
           'understates': ('Inventory is left carrying too little cost.',
@@ -279,7 +353,16 @@ HANDOUT = dict(
          ['material', 'written off', 'overstates', 'audited']),
 
         ('task', 'Exercise 5G',
-         'An under-applied balance of $90,000 is to be prorated. Complete the table.'),
+         'Prorate a material under-applied balance across the three accounts that hold applied overhead.',
+         'An under-applied balance of $90,000 is to be prorated. Complete the table.',
+         ['Exercise 5F'],
+         ['Work out each account’s share of the $600,000 of applied overhead first.', 'Those three percentages must add to 100.', 'Then apply each percentage to the $90,000. Check that your three answers add back to $90,000.']),
+        ('fig', 'buckets', 'Proration follows the applied overhead, not the balance',
+         [('Work in Process  10%', '6D3F7E', ['$60,000 of applied overhead']),
+          ('Finished Goods  30%', '1F7A6A', ['$180,000 of applied overhead']),
+          ('Cost of Goods Sold  60%', 'C9762E', ['$360,000 of applied overhead'])],
+         'The $90,000 is split in the same proportions as the overhead already sitting '
+         'in each account.'),
         ('table', ['Account', 'Applied overhead in the account', '%', 'Share of $90,000'],
          [['Work in Process', '$60,000', '', ''],
           ['Finished Goods', '$180,000', '', ''],
@@ -309,7 +392,28 @@ HANDOUT = dict(
              'Only if the balance is immaterial. A material balance is prorated.'),
         ]),
 
-        ('task', 'Exercise 5H', 'The same fact, three registers.'),
+        ('task', 'Exercise 5H',
+         'Recognise ledger vocabulary in exam English, where the question names an account rather than a method.',
+         'The same fact, three registers.',
+         ['The whole handout'],
+         ['Cover the right-hand column and predict the exam wording.', 'Row 2 is about the EFFECT of an entry, which is how the exam usually asks.']),
+        ('fig', 'register',
+         [('Fixed overhead never goes into stock under variable costing.',
+           'Under variable costing, fixed manufacturing overhead is not capitalised into '
+           'work in process or finished goods.',
+           'Under variable costing, the journal entry to record fixed manufacturing '
+           'overhead would include a debit to:'),
+          ('If you applied more than you spent, take it off cost of goods sold.',
+           'An over-applied overhead balance closed to cost of goods sold reduces that '
+           'expense and increases operating income.',
+           'The entry to close an over-applied overhead balance to cost of goods sold '
+           'would have the effect of:'),
+          ('Big leftover balances have to be split three ways.',
+           'A material over- or under-applied balance is prorated among work in process, '
+           'finished goods and cost of goods sold.',
+           'Which of the following is required when the under-applied overhead balance '
+           'is material?')],
+         'The exam names the ACCOUNT. You have to supply the method.'),
         ('three_ways', [
             ('Fixed overhead never goes into stock under variable costing.',
              'Under variable costing, fixed manufacturing overhead is not capitalised '

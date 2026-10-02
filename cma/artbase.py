@@ -31,13 +31,56 @@ F = 'DejaVu Sans'
 _W_REG, _W_BOLD = 0.545, 0.585
 
 
+_FONTDIR = '/usr/share/fonts/truetype/dejavu'
+_FACE = {}
+
+
+def _face(size, bold):
+    """The real DejaVu face the renderer will use, cached per size."""
+    key = (int(size), bool(bold))
+    if key not in _FACE:
+        try:
+            from PIL import ImageFont
+            name = 'DejaVuSans-Bold.ttf' if bold else 'DejaVuSans.ttf'
+            _FACE[key] = ImageFont.truetype(os.path.join(_FONTDIR, name), int(size))
+        except Exception:
+            _FACE[key] = None
+    return _FACE[key]
+
+
 def tw(text, size, bold=False):
-    return len(text) * size * (_W_BOLD if bold else _W_REG)
+    """Width of a string, measured rather than estimated.
+
+    A per-character average is wrong in both directions at once: it is generous
+    for 'i' and 'l' and mean for digits and capitals, which is exactly the text
+    this book is full of. Underestimating is the dangerous half, because it lets
+    two labels be laid out touching and reports them as fitting. Measure the
+    real glyphs where the font is available, and keep the old average as the
+    fallback so nothing depends on a font being installed.
+    """
+    f = _face(size, bold)
+    if f is not None:
+        try:
+            return f.getlength(str(text))
+        except Exception:
+            pass
+    return len(str(text)) * size * (_W_BOLD if bold else _W_REG)
 
 
 def wrap(text, width_px, size, bold=False):
     per = max(4, int(width_px / (size * (_W_BOLD if bold else _W_REG))))
     return textwrap.wrap(text, per) or ['']
+
+
+def col(c):
+    """Accept a colour with or without its hash. Content files write both."""
+    if isinstance(c, str) and len(c) == 6 and not c.startswith('#'):
+        try:
+            int(c, 16)
+            return '#' + c
+        except ValueError:
+            pass
+    return c
 
 
 def T(x, y, s, size=20, fill=NAVY, bold=False, anchor='middle', italic=False):
@@ -51,8 +94,8 @@ def T(x, y, s, size=20, fill=NAVY, bold=False, anchor='middle', italic=False):
 
 def R(x, y, w, h, fill='none', stroke=None, sw=2, rx=0):
     return ('<rect x="%g" y="%g" width="%g" height="%g" rx="%g" fill="%s"%s/>'
-            % (x, y, w, h, rx, fill,
-               ' stroke="%s" stroke-width="%g"' % (stroke, sw) if stroke else ''))
+            % (x, y, w, h, rx, col(fill),
+               ' stroke="%s" stroke-width="%g"' % (col(stroke), sw) if stroke else ''))
 
 
 def C(cx, cy, r, fill, stroke=None, sw=2):
@@ -62,7 +105,7 @@ def C(cx, cy, r, fill, stroke=None, sw=2):
 
 def L(x1, y1, x2, y2, stroke, sw=2):
     return '<line x1="%g" y1="%g" x2="%g" y2="%g" stroke="%s" stroke-width="%g"/>' % (
-        x1, y1, x2, y2, stroke, sw)
+        x1, y1, x2, y2, col(stroke), sw)
 
 
 # ---- people -----------------------------------------------------------------

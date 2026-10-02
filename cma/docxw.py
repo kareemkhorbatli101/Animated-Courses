@@ -21,7 +21,7 @@ NS = ('xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCa
       'xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"')
 
 SECT_N = ('<w:sectPr><w:pgSz w:w="11906" w:h="16838" w:orient="portrait"/>'
-          '<w:pgMar w:top="900" w:right="1000" w:bottom="900" w:left="1000" '
+          '<w:pgMar w:top="1180" w:right="1000" w:bottom="900" w:left="1000" '
           'w:header="708" w:footer="708" w:gutter="0"/><w:pgNumType/>'
           '<w:docGrid w:linePitch="360"/></w:sectPr>')
 SECT_0 = ('<w:sectPr><w:pgSz w:w="11906" w:h="16838" w:orient="portrait"/>'
@@ -70,7 +70,7 @@ def run(text, b=False, i=False, color=None, sz=21, mono=False, u=False):
     if b:
         rpr += '<w:b/><w:bCs/>'
     if i:
-        rpr += '<w:i/><w:iCs/>'
+        raise ValueError('this book sets no italics; use colour, weight or size')
     if u:
         rpr += '<w:u w:val="single"/>'
     if color:
@@ -78,6 +78,22 @@ def run(text, b=False, i=False, color=None, sz=21, mono=False, u=False):
     rpr += '<w:sz w:val="%d"/><w:szCs w:val="%d"/>' % (sz, sz)
     return ('<w:r><w:rPr>%s</w:rPr><w:t xml:space="preserve">%s</w:t></w:r>'
             % (rpr, esc(text)))
+
+
+def _hdr_tblpr():
+    return ('<w:tblPr><w:tblW w:type="pct" w:w="100%"/>'
+            '<w:tblBorders><w:bottom w:val="single" w:color="DFE3EE" w:sz="8"/>'
+            '</w:tblBorders></w:tblPr>')
+
+
+def _reorder_sect(sect, hdr, restart):
+    """Rebuild a sectPr with the header reference in the order the schema wants."""
+    inner = sect[len('<w:sectPr>'):-len('</w:sectPr>')]
+    inner = inner.replace('<w:pgNumType/>', '')
+    inner = inner.replace('<w:headerReference w:type="default" r:id="%s"/>' % hdr, '')
+    inner = inner.replace('<w:pgNumType w:start="1"/>', '')
+    return ('<w:sectPr><w:headerReference w:type="default" r:id="%s"/>%s%s</w:sectPr>'
+            % (hdr, inner, '<w:pgNumType w:start="1"/>' if restart else '<w:pgNumType/>'))
 
 
 def para(runs, ppr=''):
@@ -88,6 +104,7 @@ class Doc:
     def __init__(self, title='TOEFL iBT Preparation Course', subject=''):
         self.body = []
         self.images = []
+        self.headers = []
         self._seen = {}
         self._rid = 0
         self.title = title
@@ -134,7 +151,7 @@ class Doc:
         else:
             self.body.append(para([drawing], '<w:spacing w:after="40" w:before="90"/><w:jc w:val="center"/>'))
         if caption:
-            self.body.append(para([run(caption, i=True, color=GREY, sz=17)],
+            self.body.append(para([run(caption, color=GREY, sz=17)],
                                   '<w:spacing w:after="130"/><w:jc w:val="center"/>'))
 
     # ---------- headings and text ----------
@@ -143,7 +160,7 @@ class Doc:
                               '<w:spacing w:after="20" w:before="60"/>'))
 
     def strapline(self, t):
-        self.body.append(para([run(t, i=True, color=INDIGO_D, sz=22)],
+        self.body.append(para([run(t, color=INDIGO_D, sz=22)],
                               '<w:spacing w:after="8"/>'))
 
     def cefr(self, t):
@@ -164,7 +181,7 @@ class Doc:
         self.body.append(para([run(t, sz=sz, i=i)], '<w:spacing w:after="60"/>'))
 
     def ex(self, t, skill=None):
-        self.body.append(para([run(t, b=True, i=True, color=SKILLC.get(skill, INDIGO), sz=21)],
+        self.body.append(para([run(t, b=True, color=SKILLC.get(skill, INDIGO), sz=21)],
                               '<w:spacing w:after="40" w:before="100"/>'))
 
     def item(self, label, text, ind=200):
@@ -189,8 +206,42 @@ class Doc:
     def blank(self):
         self.body.append('<w:p/>')
 
-    def page_break_section(self, zero=False):
-        self.body.append('<w:p><w:pPr>%s</w:pPr></w:p>' % (SECT_0 if zero else SECT_N))
+    def header(self, left, right=''):
+        """Create a running header part and return its relationship id.
+
+        The right-hand side carries a PAGE field, and the section that uses the
+        header restarts numbering, so each handout is paginated from 1.
+        """
+        n = len(self.headers) + 1
+        rid = 'rIdHdr%d' % n
+        cells = ('<w:tc>%s%s</w:tc><w:tc>%s%s</w:tc>'
+                 % (tcpr(None, 0, 72),
+                    para([run(left, b=True, color=INDIGO_D, sz=16)]),
+                    tcpr(None, 0, 28),
+                    '<w:p><w:pPr><w:jc w:val="right"/></w:pPr>'
+                    + run(right + ' \u2014 Page ', color=GREY, sz=16).replace('<w:p>', '')
+                    + '<w:fldSimple w:instr=" PAGE ">%s</w:fldSimple></w:p>'
+                    % run('1', b=True, color=INDIGO_D, sz=16)))
+        hdr = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+               '<w:hdr %s><w:tbl>%s<w:tblGrid><w:gridCol w:w="7400"/>'
+               '<w:gridCol w:w="2000"/></w:tblGrid><w:tr>%s</w:tr></w:tbl>'
+               '<w:p><w:pPr><w:spacing w:after="0"/></w:pPr></w:p></w:hdr>'
+               % (NS, _hdr_tblpr(), cells))
+        self.headers.append((rid, hdr))
+        return rid
+
+    def page_break_section(self, zero=False, hdr=None, restart=False):
+        sect = SECT_0 if zero else SECT_N
+        if hdr:
+            sect = sect.replace(
+                '<w:pgNumType/>',
+                '<w:headerReference w:type="default" r:id="%s"/>'
+                '<w:pgNumType w:start="1"/>' % hdr) if restart else sect.replace(
+                '<w:pgNumType/>',
+                '<w:headerReference w:type="default" r:id="%s"/><w:pgNumType/>' % hdr)
+            # the header reference must precede pgSz in a sectPr
+            sect = _reorder_sect(sect, hdr, restart)
+        self.body.append('<w:p><w:pPr>%s</w:pPr></w:p>' % sect)
 
     # ---------- exam furniture ----------
     def mcq(self, n, stem, options):
@@ -217,7 +268,7 @@ class Doc:
             cells.append(para([run(p, sz=21)],
                               '<w:spacing w:after="110" w:line="300" w:lineRule="auto"/>'))
         if words:
-            cells.append(para([run('[%d words]' % words, i=True, color=GREY, sz=17)],
+            cells.append(para([run('[%d words]' % words, color=GREY, sz=17)],
                               '<w:jc w:val="right"/>'))
         self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
                          '<w:tr><w:tc>%s%s</w:tc></w:tr></w:tbl>'
@@ -226,7 +277,7 @@ class Doc:
 
     def script(self, turns, label=None):
         if label:
-            self.body.append(para([run(label, b=True, i=True, color=AMBER, sz=20)],
+            self.body.append(para([run(label, b=True, color=AMBER, sz=20)],
                                   '<w:spacing w:after="40" w:before="80"/>'))
         for sp, t in turns:
             self.body.append(para([run(sp + ': ', b=True, color=AMBER, sz=20), run(t, sz=20)],
@@ -393,9 +444,12 @@ class Doc:
 
     # ---------- output ----------
     def save(self, path):
+        tail = SECT_N
+        if self.headers:
+            tail = _reorder_sect(SECT_N, self.headers[-1][0], False)
         doc = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
                '<w:document %s><w:body>%s%s</w:body></w:document>'
-               % (NS, ''.join(self.body), SECT_N))
+               % (NS, ''.join(self.body), tail))
         rels = ['<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
                 '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">']
         for name, target in (('styles', 'styles.xml'), ('numbering', 'numbering.xml'),
@@ -405,6 +459,10 @@ class Doc:
         for rid, fn, _ in self.images:
             rels.append('<Relationship Id="%s" Target="media/%s" Type="http://schemas.openxmlformats.org/'
                         'officeDocument/2006/relationships/image"/>' % (rid, fn))
+        for i, (rid, _h) in enumerate(self.headers, 1):
+            rels.append('<Relationship Id="%s" Target="header%d.xml" '
+                        'Type="http://schemas.openxmlformats.org/officeDocument/2006/'
+                        'relationships/header"/>' % (rid, i))
         rels.append('</Relationships>')
 
         ct = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
@@ -418,7 +476,10 @@ class Doc:
               '<Override ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml" PartName="/word/fontTable.xml"/>'
               '<Override ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml" PartName="/word/settings.xml"/>'
               '<Override ContentType="application/vnd.openxmlformats-package.core-properties+xml" PartName="/docProps/core.xml"/>'
-              '</Types>')
+              + ''.join('<Override ContentType="application/vnd.openxmlformats-officedocument.'
+                        'wordprocessingml.header+xml" PartName="/word/header%d.xml"/>' % i
+                        for i in range(1, len(self.headers) + 1))
+              + '</Types>')
 
         root_rels = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
                      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
@@ -449,6 +510,8 @@ class Doc:
             z.writestr('word/document.xml', doc)
             z.writestr('word/_rels/document.xml.rels', ''.join(rels))
             z.writestr('word/settings.xml', settings)
+            for i, (_rid, hdr) in enumerate(self.headers, 1):
+                z.writestr('word/header%d.xml' % i, hdr)
             for part in ('styles.xml', 'numbering.xml', 'fontTable.xml'):
                 z.writestr('word/' + part, open(os.path.join(SKEL, part), 'rb').read())
             for _, fn, data in self.images:
@@ -461,9 +524,26 @@ class Doc:
 # =====================================================================
 # Semantic colours. The three costing methods keep the same hue everywhere
 # in the set, so a student can find the absorption column by colour alone.
+# ---------------------------------------------------------------- colour --
+# Colour carries meaning in this book and the meaning never changes. The legend
+# at the front states the whole system; everything below is that system.
+#
+#   method            absorption plum · variable teal · throughput amber
+#   where a cost sits held in inventory plum · charged to the period teal
+#   ledger side       debit blue · credit rust
+#   variance          favourable green · unfavourable red
+#   pedagogy          trap red · watch amber · answer key green · given data slate
 ABS, VAR, THR = PLUM, TEAL, AMBER
+ABS_L, VAR_L, THR_L = 'EFE6F3', 'E2F0ED', 'FAEDDD'     # tints for fills
+HELD, CHARGED = PLUM, TEAL                              # inventory vs income statement
+DEBIT, CREDIT = '2B6CB0', 'B2531F'                      # left side, right side
+DEBIT_L, CREDIT_L = 'E7EFF8', 'F8EAE1'
+FAV, UNFAV = '2E8B62', 'C0483F'                         # variance direction
+GIVEN = '44506B'                                        # data you are handed
 TRAP, GOOD = RED, GREEN
+WATCH = AMBER
 REGC = {'R1': GREEN, 'R2': BLUE, 'R3': PLUM}
+REGN = {'R1': 'teaching English', 'R2': 'textbook English', 'R3': 'exam English'}
 
 
 def arun(text, sz=21, b=False, color=None):
@@ -531,13 +611,36 @@ class _CMA:
                          '<w:tr>%s</w:tr></w:tbl>' % (tblpr(PERI, 4), cell))
         self.blank()
 
-    def task(self, label, instruction):
-        """The instruction line that opens an exercise."""
+    def task(self, label, objective, instruction, needs, steps):
+        """The panel that opens every exercise.
+
+        A student should never start an exercise without knowing what it is
+        for, what it depends on, and what the first move looks like. Those
+        three things go here, above the work, every time.
+        """
         self.body.append(para(
-            [run(label + '   ', b=True, color=PAPERLESS_ACCENT, sz=21),
-             run(instruction, sz=21)],
-            '<w:spacing w:before="200" w:after="90"/>'
-            '<w:pBdr><w:top w:val="single" w:sz="10" w:space="6" w:color="%s"/></w:pBdr>' % RULE))
+            [run(label + '   ', b=True, color=INDIGO, sz=22),
+             run(instruction, b=True, sz=21)],
+            '<w:spacing w:before="230" w:after="80"/>'
+            '<w:pBdr><w:top w:val="single" w:sz="12" w:space="7" w:color="%s"/></w:pBdr>'
+            % INDIGO))
+        rows = [('OBJECTIVE', objective, INDIGO_D),
+                ('YOU WILL NEED', ' \u00b7 '.join(needs), GREY)]
+        trs = []
+        for k, v, col in rows:
+            trs.append('<w:tr><w:tc>%s%s</w:tc><w:tc>%s%s</w:tc></w:tr>'
+                       % (tcpr(SOFT, 80, 22), para([run(k, b=True, color=col, sz=15)]),
+                          tcpr(None, 80, 78), para([run(v, sz=18)])))
+        body = ''.join(para([run('\u2022  ', color=INDIGO, sz=18), run(t, sz=18)],
+                            '<w:spacing w:after="30"/>') for t in steps)
+        trs.append('<w:tr><w:tc>%s%s</w:tc><w:tc>%s%s</w:tc></w:tr>'
+                   % (tcpr(SOFT, 80, 22),
+                      para([run('HOW TO START', b=True, color=INDIGO_D, sz=15)]),
+                      tcpr(None, 80, 78), body))
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="2070"/>'
+                         '<w:gridCol w:w="7330"/></w:tblGrid>%s</w:tbl>'
+                         % (tblpr(RULE, 4, fixed=True), ''.join(trs)))
+        self.blank()
 
     # ---- write-in furniture ----------------------------------------
     def rule_lines(self, n=3, ind=200, width=8600):
@@ -603,9 +706,16 @@ class _CMA:
     def journal(self, entries, accent=INDIGO):
         """Journal entry frames. entries: (ref, narrative, [(account, indent, dr, cr)])"""
         for ref, narrative, lines in entries:
-            self.body.append(para(
-                [run(ref + '  ', b=True, color=accent, sz=19), run(narrative, i=True, sz=19)],
-                '<w:spacing w:before="140" w:after="60"/>'))
+            # A narrative may be plain text, or (text, note) where the note is the
+            # thing the student must not miss. The note is carried by weight and
+            # colour, never by capitals: shouting is hard for a second-language
+            # reader and tells them nothing about what kind of remark it is.
+            text, note = (narrative, '') if isinstance(narrative, str) else narrative
+            runs = [run(ref + '  ', b=True, color=accent, sz=19),
+                    run(text, color=GREY, sz=19)]
+            if note:
+                runs.append(run('  ' + note, b=True, color=WATCH, sz=19))
+            self.body.append(para(runs, '<w:spacing w:before="140" w:after="60"/>'))
             jw = (56, 22, 22)
             head = '<w:tr>%s</w:tr>' % ''.join(
                 '<w:tc>%s%s</w:tc>' % (tcpr(SOFT, 80, jw[i]),
@@ -656,12 +766,19 @@ class _CMA:
         it can never omit a word the student needs, and the distractors are the
         wrong choices the exam would actually offer.
         """
-        line = '     '.join(words)
+        # Several answers are two words long ('per unit', 'cost object'), so the
+        # entries are separated rather than merely spaced: without a divider a
+        # student cannot tell where one choice ends and the next begins, which
+        # is the whole job of a word bank.
+        rs = []
+        for i, w in enumerate(words):
+            if i:
+                rs.append(run('   \u00b7   ', color=PERI, sz=20, b=True))
+            rs.append(run(w, b=True, sz=20))
         ps = [para([run('WORD BANK', b=True, color=INDIGO_D, sz=15)],
                    '<w:spacing w:after="40"/>'),
-              para([run(line, b=True, sz=20)],
-                   '<w:spacing w:after="50" w:line="280" w:lineRule="auto"/>'),
-              para([run(note, i=True, sz=17, color=GREY)])]
+              para(rs, '<w:spacing w:after="50" w:line="280" w:lineRule="auto"/>'),
+              para([run(note, sz=17, color=GREY)])]
         self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
                          '<w:tr><w:tc>%s%s</w:tc></w:tr></w:tbl>'
                          % (tblpr(PERI, 4), tcpr(CREAM, 150), ''.join(ps)))
@@ -685,7 +802,7 @@ class _CMA:
 
     def decoder(self, stem):
         """Stem Decoder: pull a question apart before answering it."""
-        self.body.append(para([run(stem, i=True, sz=20)],
+        self.body.append(para([run(stem, sz=20)],
                               '<w:spacing w:before="60" w:after="120"/>'
                               '<w:ind w:left="200" w:right="200"/>'
                               '<w:pBdr><w:left w:val="single" w:sz="18" w:space="8" '
@@ -732,7 +849,8 @@ class _CMA:
         trs = [head]
         for a, b_, c in rows:
             trs.append('<w:tr>%s</w:tr>' % ''.join(
-                '<w:tc>%s%s</w:tc>' % (tcpr(f, 85), para([run(t, sz=18, i=(f is not None))]))
+                '<w:tc>%s%s</w:tc>' % (tcpr(f, 85),
+                                       para([run(t, sz=18, color=TRAP if f else INK)]))
                 for t, f in ((a, None), (b_, CREAM), (c, None))))
         self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="30"/><w:gridCol w:w="33"/>'
                          '<w:gridCol w:w="37"/></w:tblGrid>%s</w:tbl>'
