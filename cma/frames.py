@@ -247,7 +247,10 @@ def scale(left_title, left_items, right_title, right_items):
 
 
 # ------------------------------------------------------------------- cover ---
-def cover():
+def cover(setcode='Set D1', line1='Absorption Costing', line2='and Variable Costing',
+          cso='Section D.1 Measurement Concepts', nhand='Six',
+          blurb=('Six handouts you complete by hand, and one answer key',
+                 'Every blank, table and diagram builds the summary you revise from')):
     h = 1270
     g = [R(0, 0, W, h, INDIGO)]
     g.append(R(0, 0, W, 320, INDIGO_D))
@@ -255,11 +258,11 @@ def cover():
         g.append(R(W / 2 - 134 + i * 70, 84, 54, 10, col, rx=5))
     g.append(T(W / 2, 196, 'CMA PART 1', 46, PAPER, bold=True))
     g.append(T(W / 2, 246, 'FINANCIAL PLANNING, PERFORMANCE AND ANALYTICS', 18, '#b9bdf0'))
-    g.append(T(W / 2, 400, 'Set D1', 34, PAPER))
+    g.append(T(W / 2, 400, setcode, 34, PAPER))
     g.append(R(W / 2 - 150, 430, 300, 4, '#8186EF'))
-    g.append(T(W / 2, 510, 'Absorption Costing', 50, PAPER, bold=True))
-    g.append(T(W / 2, 566, 'and Variable Costing', 50, PAPER, bold=True))
-    g.append(T(W / 2, 640, 'Section D.1 Measurement Concepts', 21, '#b9bdf0'))
+    g.append(T(W / 2, 510, line1, _fit(line1, W - 120, 50, True), PAPER, bold=True))
+    g.append(T(W / 2, 566, line2, _fit(line2, W - 120, 50, True), PAPER, bold=True))
+    g.append(T(W / 2, 640, cso, _fit(cso, W - 100, 21), '#b9bdf0'))
     bx, bw, gap = 64, 190, 14
     plates = [('WRITE IT', ABS), ('SEE IT', VAR), ('WORK IT', THR), ('SIT IT', GREEN)]
     for i, (name, col) in enumerate(plates):
@@ -267,10 +270,8 @@ def cover():
         g.append(R(x, 720, bw, 96, col, rx=12))
         g.append(T(x + bw / 2, 776, name, 21, PAPER, bold=True))
     g.append(R(70, 880, W - 140, 2, '#4a4f90'))
-    for k, line in enumerate([
-            'Six handouts you complete by hand, and one answer key',
-            'Every blank, table and diagram builds the summary you revise from']):
-        g.append(T(W / 2, 930 + k * 34, line, 20, '#b9bdf0'))
+    for k, line in enumerate(blurb):
+        g.append(T(W / 2, 930 + k * 34, line, _fit(line, W - 110, 20), '#b9bdf0'))
     g.append(T(W / 2, 1066, 'Written for the 2026 exam', 26, PAPER, bold=True))
     g.append(T(W / 2, 1104, 'Case-Based Questions, not essays', 20, '#b9bdf0'))
     g.append(T(W / 2, 1210, 'Student copy  ·  write in this book', 17, '#9a9edd'))
@@ -382,7 +383,8 @@ def workplace(title, actors, props, caption=''):
     calendar, scale, container, drum, sack, crane, building, clock, tick, cross.
     """
     propband = 118 if props else 0
-    h = 76 + propband + 196 + (50 if caption else 16)
+    clines = wrap(caption, W - 120, 16) if caption else []
+    h = 76 + propband + 196 + (26 + 22 * len(clines) if caption else 16)
     g = [R(0, 0, W, h, PAPER)]
     g.append(R(0, 0, W, 58, INDIGO_D))
     g.append(T(W / 2, 37, title, 21, PAPER, bold=True))
@@ -405,7 +407,9 @@ def workplace(title, actors, props, caption=''):
         for k, line in enumerate(wrap(role, span - 20, 14)):
             g.append(T(cx, ground + 52 + k * 18, line, 14, col))
     if caption:
-        g.append(T(W / 2, h - 16, caption, 16, INDIGO_D, bold=True))
+        for j, ln in enumerate(clines):
+            g.append(T(W / 2, h - 16 - 22 * (len(clines) - 1 - j), ln, 16,
+                       INDIGO_D, bold=True))
     return render(''.join(g), W, int(h), PAPER)
 
 

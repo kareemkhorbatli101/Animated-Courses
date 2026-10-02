@@ -14,9 +14,10 @@ import sys, os, re, importlib
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from blanks import answers, plain, stripped
-from data import S1, S2, S3
+from sets import SETS
 
-HS = [1, 2, 3, 4, 5, 6]
+SPEC = None    # the Set under test; set by main()
+HS = []        # its handout numbers
 MONEY = re.compile(r'^\(?\$([\d,]+)(?:\.(\d+))?\)?$')
 # Four or more consecutive capitalised words: a sentence, not a label.
 SHOUT = re.compile(r'(?:\b[A-Z][A-Z]{2,}\b[ ,]+){3,}\b[A-Z][A-Z]{2,}\b')
@@ -268,7 +269,7 @@ def check_figures(bad):
     try:
         jobs = [('legend', F.legend, ())]
         for n in HS:
-            H = importlib.import_module('content.h%d' % n).HANDOUT
+            H = importlib.import_module(SPEC.modpat % n).HANDOUT
             for b in H['blocks']:
                 if isinstance(b, tuple) and b and b[0] == 'fig':
                     jobs.append(('H%d %s' % (n, b[1]), F.__dict__[b[1]], b[2:]))
@@ -301,7 +302,8 @@ def check_figures(bad):
 
 
 def check_arithmetic(bad):
-    """Recompute everything the handouts assert."""
+    """Recompute everything Set D1's handouts assert."""
+    from data import S1, S2, S3
     def eq(label, a, b_):
         if abs(a - b_) > 0.005:
             bad.append('arithmetic: %s — %s against %s' % (label, a, b_))
@@ -346,9 +348,15 @@ def check_arithmetic(bad):
     eq('H5 volume variance', h5.VOLVAR, (h5.P - S2.denominator) * S2.rate)
 
 
-def main():
+def main(key='d1'):
+    global SPEC, HS
+    if key not in SETS:
+        print('unknown set %r; known: %s' % (key, ', '.join(sorted(SETS))))
+        return 2
+    SPEC = SETS[key]
+    HS = SPEC.handouts
     bad, seen = [], {}
-    mods = [importlib.import_module('content.h%d' % n) for n in HS]
+    mods = [importlib.import_module(SPEC.modpat % n) for n in HS]
     totals = [0, 0]
     bodies = {}
     for m in mods:
@@ -372,18 +380,19 @@ def main():
             bad.append('"%s" is glossed in handout %d but never used there'
                        % (term, first))
 
-    check_arithmetic(bad)
+    # Each Set recomputes its own figures; the generic rules above are shared.
+    (SPEC.arith or (lambda _b: None))(bad)
     check_figures(bad)
 
     if bad:
         print('\n'.join(bad))
         print('\n%d problem(s)' % len(bad))
         return 1
-    print('Set D1: all checks pass')
+    print('%s: all checks pass' % SPEC.code)
     print('  %d handouts, %d glossary terms, %d blanks, %d exam questions'
           % (len(HS), len(seen), totals[0], totals[1]))
     return 0
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else 'd1'))

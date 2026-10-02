@@ -1,0 +1,115 @@
+# -*- coding: utf-8 -*-
+"""The registry of handout sets.
+
+One Set is one book: a run of handouts, an answer key serving all of them, and
+a glossary. Everything that differs between Sets lives here, so book.py and
+check.py stay the generic machinery and a new Set is a data entry plus its
+content files.
+"""
+
+
+class SetSpec:
+    def __init__(self, key, code, title, cover1, cover2, cso, handouts,
+                 modpat, out, intro, arith=None, company=''):
+        self.key = key              # 'd1', 'fa1', ... — the command-line name
+        self.code = code            # 'Set D1' — printed on the cover and headers
+        self.title = title          # 'Absorption and Variable Costing'
+        self.cover1 = cover1        # the two big cover lines
+        self.cover2 = cover2
+        self.cso = cso              # the CSO reference this Set answers
+        self.handouts = handouts    # [1, 2, 3, ...]
+        self.modpat = modpat        # 'content.h%d'
+        self.out = out              # output .docx filename
+        self.intro = intro          # the sentence under the title page heading
+        self.arith = arith          # callable(bad): recompute this Set's figures
+        self.company = company      # the running scenario, named on the title page
+
+    @property
+    def n(self):
+        return len(self.handouts)
+
+    @property
+    def nword(self):
+        return {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six',
+                7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten'}.get(self.n, str(self.n))
+
+    def cover_args(self):
+        return dict(setcode=self.code, line1=self.cover1, line2=self.cover2,
+                    cso=self.cso, nhand=self.nword,
+                    blurb=('%s handouts you complete by hand, and one answer key'
+                           % self.nword,
+                           'Every blank, table and diagram builds the summary '
+                           'you revise from'))
+
+
+OUT = '/home/user/Animated-Courses/'
+
+SETS = {}
+
+
+def _add(s):
+    SETS[s.key] = s
+    return s
+
+
+def _d1_arith(bad):
+    import check
+    check.check_arithmetic(bad)
+
+
+_add(SetSpec(
+    key='d1', code='Set D1', title='Absorption and Variable Costing',
+    cover1='Absorption Costing', cover2='and Variable Costing',
+    cso='Section D.1 Measurement Concepts',
+    handouts=[1, 2, 3, 4, 5, 6], modpat='content.h%d',
+    out=OUT + 'CMA_P1_SetD1_Absorption_vs_Variable.docx',
+    intro='Six handouts, one answer key. Section D.1 Measurement Concepts, with '
+          'the Section C and Section A links the exam actually tests.',
+    arith=_d1_arith, company='Grandview Instruments'))
+
+# ---------------------------------------------------------------- Section A --
+# The financial accounting volumes. One company, Northwind Components, carried
+# through all of them, so a student meets the same balance sheet in Volume 1
+# that they later write the inventory note for in Volume 4.
+
+def _fa_arith(bad):
+    import facheck
+    facheck.check(bad)
+
+
+_FA = [
+    ('fa1', 'Volume 1', 'The Framework', 'and the Statements',
+     'Section A.1 Financial Statements', list(range(1, 10)),
+     'Nine handouts, one answer key. The four statements, how a transaction '
+     'moves through all of them, and what each one cannot tell you.'),
+    ('fa2', 'Volume 2', 'Revenue', 'Recognition',
+     'Section A.2 Revenue Recognition', list(range(1, 5)),
+     'Four handouts, one answer key. The five steps, worked on contracts the '
+     'exam actually sets, and the matching principle underneath them.'),
+    ('fa3', 'Volume 3', 'Receivables', 'and Credit Losses',
+     'Section A.2 Asset Valuation — Receivables', list(range(1, 4)),
+     'Three handouts, one answer key. When a receivable is recognised, what it '
+     'is carried at, and what changes when it is sold.'),
+    ('fa4', 'Volume 4', 'Inventory', 'and Cost Flow',
+     'Section A.2 Asset Valuation — Inventory', list(range(1, 9)),
+     'Eight handouts, one answer key. The densest block in Section A: what '
+     'belongs in inventory, which cost flow assumption, and what each one does '
+     'to income and to assets.'),
+    ('fa5', 'Volume 5', 'Long-Lived Assets', 'and Impairment',
+     'Section A.2 Asset Valuation — Long-Lived Assets', list(range(1, 7)),
+     'Six handouts, one answer key. Depreciation methods and what each does to '
+     'the statements, impairment, intangibles and goodwill, and disposal.'),
+    ('fa6', 'Volume 6', 'Investments', 'in Debt and Equity',
+     'Section A.2 Asset Valuation — Securities', list(range(1, 4)),
+     'Three handouts, one answer key. Classification first, because every '
+     'measurement question in this volume follows from it.'),
+]
+
+for _k, _code, _c1, _c2, _cso, _hs, _intro in _FA:
+    _add(SetSpec(
+        key=_k, code=_code, title=(_c1 + ' ' + _c2).replace('and ', ''),
+        cover1=_c1, cover2=_c2, cso=_cso, handouts=_hs,
+        modpat='content.%s_h%%d' % _k,
+        out='%sCMA_P1_SectionA_%s_%s.docx'
+            % (OUT, _code.replace(' ', ''), _c1.replace(' ', '_').replace('-', '_')),
+        intro=_intro, arith=_fa_arith, company='Northwind Components'))

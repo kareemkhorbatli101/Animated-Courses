@@ -14,8 +14,9 @@ import docxw as D
 from docxw import Doc, INDIGO, INDIGO_D, GREY, RULE, SOFT, PERI, ABS, VAR, THR, TRAP, GOOD
 from blanks import Blanks, plain
 import frames as F
+from sets import SETS
 
-HANDOUTS = [1, 2, 3, 4, 5, 6]
+SPEC = None    # set by build(); see sets.py
 
 
 class Builder:
@@ -149,7 +150,7 @@ def render_handout(d, H):
                    'Handout %d' % H['n'])
     d.unit_title('Handout %d · %s' % (H['n'], H['title']))
     d.strapline(H['subtitle'])
-    d.cefr('Set D1 · Absorption and Variable Costing · %s' % H['register'])
+    d.cefr('%s · %s · %s' % (SPEC.code, SPEC.title, H['register']))
     lg = H['lang']
     d.langbox(lg['register'], lg['collocations'], lg['pairs'], lg['nots'])
     d.h3('What you will be able to do when this handout is finished')
@@ -162,9 +163,10 @@ def render_handout(d, H):
 
 
 def render_key(d, built):
-    hdr = d.header('Answer Key \u00b7 Handouts 1 to 6', 'Answer Key')
+    span = 'Handouts 1 to %d' % SPEC.n
+    hdr = d.header('Answer Key \u00b7 ' + span, 'Answer Key')
     d.unit_title('Answer Key')
-    d.strapline('Set D1 · Handouts 1 to 6')
+    d.strapline('%s · %s' % (SPEC.code, span))
     d.cefr('Every answer carries the reason for it and the mistake it defeats.')
     d.page_break_section()
     for H, b in built:
@@ -195,10 +197,14 @@ def render_key(d, built):
         d.page_break_section(hdr=hdr)
 
 
-def build(out):
-    d = Doc('CMA Part 1 · Set D1 · Absorption and Variable Costing',
+def build(out=None, spec=None):
+    global SPEC
+    if spec is not None:
+        SPEC = spec
+    out = out or SPEC.out
+    d = Doc('CMA Part 1 · %s · %s' % (SPEC.code, SPEC.title),
             'Interactive handouts with answer key')
-    mods = [importlib.import_module('content.h%d' % n) for n in HANDOUTS]
+    mods = [importlib.import_module(SPEC.modpat % n) for n in SPEC.handouts]
     for m in mods:
         importlib.reload(m)
     front_matter(d, [m.HANDOUT for m in mods])
@@ -213,19 +219,18 @@ def build(out):
 
 
 def front_matter(d, hs):
-    d.figure(*F.cover(), cover=True)
+    d.figure(*F.cover(**SPEC.cover_args()), cover=True)
     d.page_break_section(zero=True)
-    d.unit_title('CMA Part 1 · Set D1')
-    d.strapline('Absorption costing and variable costing')
-    d.cefr('Six handouts, one answer key. Section D.1 Measurement Concepts, with '
-           'the Section C and Section A links the exam actually tests.')
+    d.unit_title('CMA Part 1 · %s' % SPEC.code)
+    d.strapline(SPEC.title)
+    d.cefr(SPEC.intro)
     d.body_p('These handouts are not notes to read. You write them. The words you '
              'supply are the summary, so a finished handout is a page you can revise '
              'from, in your own handwriting.')
     d.body_p('Work in pen. Do not look at the key until the whole handout is done — '
              'the key is written to explain the mistake, and you only get that '
              'benefit if you have made it first.')
-    d.h3('The six handouts')
+    d.h3('The %s handouts' % SPEC.nword.lower())
     d.table(['#', 'Handout', 'What it gives you'],
             [[str(h['n']), h['title'], h['subtitle']] for h in hs], INDIGO, [6, 32, 62])
     d.figure(*F.legend())
@@ -236,14 +241,15 @@ def front_matter(d, hs):
              ['R3', 'Exam English. Exactly how the CMA exam phrases it, traps included.'],
              ['Numbered rule', 'A space you fill in. The number matches the answer key.'],
              ['Red table', 'A trap. Read it twice.']], GREY, [14, 86])
-    d.page_break_section(hdr=d.header('Set D1 \u00b7 how to use these handouts',
-                                      'Absorption and Variable Costing'), restart=True)
+    d.page_break_section(hdr=d.header('%s \u00b7 how to use these handouts' % SPEC.code,
+                                      SPEC.title), restart=True)
 
 
 def glossary(d, hs):
-    hdr = d.header('Glossary \u00b7 Set D1', 'Glossary')
+    hdr = d.header('Glossary \u00b7 %s' % SPEC.code, 'Glossary')
     d.unit_title('Glossary')
-    d.strapline('Every term in Set D1, with the Arabic equivalent and the places it misleads')
+    d.strapline('Every term in %s, with the Arabic equivalent and the places it '
+                'misleads' % SPEC.code)
     d.cefr('The third column is for recognition only. In the exam room you work in English.')
     d.page_break_section()
     rows = []
@@ -255,9 +261,11 @@ def glossary(d, hs):
 
 
 if __name__ == '__main__':
-    o = sys.argv[1] if len(sys.argv) > 1 else \
-        '/home/user/Animated-Courses/CMA_P1_SetD1_Absorption_vs_Variable.docx'
-    path, nimg, built = build(o)
+    key = sys.argv[1] if len(sys.argv) > 1 else 'd1'
+    if key not in SETS:
+        sys.exit('unknown set %r; known: %s' % (key, ', '.join(sorted(SETS))))
+    spec = SETS[key]
+    path, nimg, built = build(sys.argv[2] if len(sys.argv) > 2 else None, spec)
     blanks = sum(b.bl.n for _, b in built)
     mcqs = sum(len(b.mcq) for _, b in built)
     print('wrote %s  %d bytes  %d figures  %d blanks  %d exam questions'

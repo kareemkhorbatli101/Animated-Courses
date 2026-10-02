@@ -263,9 +263,17 @@ def icon(name, x, y, s=1.0):
         ln(28, 12, 28, 46, GREY, 3); ln(12, 18, 44, 18, GREY, 3); ln(18, 46, 38, 46, GREY, 3)
         pp('M%g %g l%g 0 l%g %g z' % (x+6*s, y+30*s, 20*s, -10*s, -12*s), BLUE)
         pp('M%g %g l%g 0 l%g %g z' % (x+30*s, y+30*s, 20*s, -10*s, -12*s), ORANGE)
-    else:                       # fallback box
-        rr(14, 14, 28, 28, BLUE, 4)
+    else:
+        # A silent fallback box is worse than a crash: the page still renders,
+        # and a prop that was meant to set the scene becomes a blue square that
+        # says nothing. Name the icon that does not exist.
+        raise ValueError('no such icon: %r (see ICONS for the list)' % name)
     return ''.join(g)
+
+
+ICONS = ('bag', 'beam', 'iron', 'drum', 'sack', 'container', 'ship', 'truck',
+         'crane', 'factory', 'shop', 'shelf', 'bank', 'doc', 'stamp', 'money',
+         'calendar', 'globe', 'building', 'tick', 'cross', 'clock', 'scale')
 
 
 # ---- renderer ---------------------------------------------------------------
