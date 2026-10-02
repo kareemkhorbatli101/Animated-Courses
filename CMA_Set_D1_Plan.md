@@ -394,9 +394,95 @@ on every build of every volume, so a figure cannot drift between books:
 A student who finds a contradiction between two volumes has found a bug in the
 data layer, not a judgement call.
 
-### Volumes 7 to 12
+---
 
-Unbuilt, and specified in Part 4: liabilities, taxes and leases; equity;
-income measurement; consolidated statements; integrated reporting; US GAAP
-against IFRS. 22 handouts, and on the rate actually achieved, roughly 290
-pages.
+## Part 6 · Volumes 7 to 12, specified
+
+The second half of Section A. Three decisions were taken before writing, and
+each one is a departure from Part 4 worth recording.
+
+**The numbering is fixed.** The six built volumes already refer their readers
+forward to *Volume 10* for consolidation and *Volume 12* for the IFRS
+differences — eight references in all. Renumbering to tidy a thin volume would
+break those in books already delivered, so the plan's numbering stands.
+
+**Volume 8 grows from 2 handouts to 3.** Part 4 gave equity two handouts,
+because A.2(v) and A.2(w) are two statements. Two handouts is a pamphlet, not
+a book. A.2(v) asks the student to *identify transactions that affect paid-in
+capital*, and treasury stock is squarely one of them, so it earns a handout of
+its own rather than a paragraph. 23 handouts in total, not 22.
+
+**A.2(bb) is already done.** Part 4 listed the gain or loss on disposal under
+income measurement; it was written into Volume 5, where the asset being
+disposed of lives. Volume 9 covers the remaining four statements.
+
+| Volume | Handouts | Learning outcome statements |
+|--------|---------:|------------------------------|
+| 7 · Liabilities, Taxes and Leases | 6 | A.2 o, p, q, r, s, t, u |
+| 8 · Equity Transactions | 3 | A.2 v, w |
+| 9 · Income Measurement | 3 | A.2 aa, cc, dd, ee |
+| 10 · Consolidated Statements | 3 | A.1 h, i, j, k |
+| 11 · Integrated Reporting | 3 | A.1 l, m, n, o, p |
+| 12 · US GAAP and IFRS | 5 | A.2 ff (i)–(vi) |
+| **Total** | **23** | |
+
+### The handouts
+
+**Volume 7 — Liabilities, Taxes and Leases**
+1. Two Liability Questions: Refinancing and Warranties — A.2 o, p
+2. Why Tax Expense Is Not the Tax Bill — A.2 q
+3. Temporary Differences and Permanent Differences — A.2 s
+4. Deferred Tax Assets and Deferred Tax Liabilities — A.2 r
+5. Operating Leases and Finance Leases: the Distinction — A.2 t
+6. Where Each Lease Lands on the Statements — A.2 u
+
+**Volume 8 — Equity Transactions**
+1. Paid-In Capital or Retained Earnings? — A.2 v
+2. Buying Your Own Shares Back — A.2 v
+3. Small Dividends, Large Dividends and Splits — A.2 w
+
+**Volume 9 — Income Measurement**
+1. Gains, Losses and How Expenses Are Recognised — A.2 aa, cc
+2. Comprehensive Income — A.2 dd
+3. Discontinued Operations — A.2 ee
+
+**Volume 10 — Consolidated Statements**
+1. What Consolidation Is, and the Two Models — A.1 h, i
+2. Full, Proportionate and Equity Consolidation — A.1 j
+3. What Gets Eliminated — A.1 k
+
+**Volume 11 — Integrated Reporting**
+1. Integrated Reporting and Integrated Thinking — A.1 l, m
+2. The Six Capitals and the Value Creation Process — A.1 n
+3. The Eight Elements, and What Adoption Costs — A.1 o, p
+
+**Volume 12 — US GAAP and IFRS**
+1. Expense Recognition: Share-Based Payments and Employee Benefits — ff(i)
+2. Intangibles: Development Costs and Revaluation — ff(ii)
+3. Inventories: Costing, Valuation and Write-Downs — ff(iii)
+4. Leases: the Lessee's Two Models — ff(iv)
+5. Long-Lived Assets and Impairment: Revaluation and Reversal — ff(v), ff(vi)
+
+### How the data layer extends
+
+Northwind continues, and the new figures are derived from what the first six
+volumes already established rather than asserted beside them:
+
+- **Deferred tax** is forced out of the gap between book depreciation of
+  $250,000 and tax depreciation of $346,000. The result must equal the
+  $24,000 Volume 1 charged, and the rate reconciliation must close on the
+  $170,000 tax expense Volume 1 reported. The two permanent differences are
+  chosen to cancel, so they teach the idea without disturbing the total.
+- **The warranty provision** is a rate on the sales Volume 1 recorded.
+- **The consolidation** checks that consideration plus the non-controlling
+  interest equals net assets plus goodwill — the identity that makes the whole
+  acquisition schedule hang together.
+- **Volume 12's impairment contrast** reuses Volume 5's line B unchanged: the
+  checker asserts that it carries no loss under US GAAP and does carry one
+  under IFRS, so the comparison cannot quietly collapse into agreement.
+
+Where a check guards a *teaching* contrast rather than an arithmetic identity —
+that a small stock dividend costs more than a large one, that the second
+treasury reissue does not exhaust the paid-in capital from the first — it says
+so, because those are the figures an edit is most likely to flatten by
+accident.

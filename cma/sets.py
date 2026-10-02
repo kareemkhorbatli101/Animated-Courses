@@ -103,6 +103,30 @@ _FA = [
      'Section A.2 Asset Valuation — Securities', list(range(1, 4)),
      'Three handouts, one answer key. Classification first, because every '
      'measurement question in this volume follows from it.'),
+    ('fa7', 'Volume 7', 'Liabilities, Taxes', 'and Leases',
+     'Section A.2 Liabilities, Income Taxes and Leases', list(range(1, 7)),
+     'Six handouts, one answer key. Two liability questions, the whole of '
+     'deferred tax, and the two kinds of lease.'),
+    ('fa8', 'Volume 8', 'Equity', 'Transactions',
+     'Section A.2 Equity Transactions', list(range(1, 4)),
+     'Three handouts, one answer key. What moves paid-in capital, what moves '
+     'retained earnings, and why a stock dividend is neither.'),
+    ('fa9', 'Volume 9', 'Income', 'Measurement',
+     'Section A.2 Income Measurement', list(range(1, 4)),
+     'Three handouts, one answer key. Gains and losses, expense recognition, '
+     'comprehensive income and discontinued operations.'),
+    ('fa10', 'Volume 10', 'Consolidated', 'Statements',
+     'Section A.1 Consolidated Financial Statements', list(range(1, 4)),
+     'Three handouts, one answer key. When one company reports another as part '
+     'of itself, and what has to disappear when it does.'),
+    ('fa11', 'Volume 11', 'Integrated', 'Reporting',
+     'Section A.1 Integrated Reporting', list(range(1, 4)),
+     'Three handouts, one answer key. A report that explains how a company '
+     'creates value, and the six capitals it creates it from.'),
+    ('fa12', 'Volume 12', 'US GAAP', 'and IFRS',
+     'Section A.2 GAAP and IFRS Differences', list(range(1, 6)),
+     'Five handouts, one answer key. The six named differences, each worked '
+     'against a volume you have already completed.'),
 ]
 
 for _k, _code, _c1, _c2, _cso, _hs, _intro in _FA:

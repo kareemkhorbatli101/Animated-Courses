@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M, A, F, I, L, D, P, S
+from fadata import N, M, A, F, I, L, D, P, S, T, LS, W, EQ, DC, CO, IF
 
 
 def check(bad):
@@ -123,6 +123,63 @@ def check(bad):
     eq('equity method carrying amount', S.assoc_carrying, 642_000)
     eq('share of associate income', S.assoc_share_income, 60_000)
     eq('share of associate dividends', S.assoc_share_dividends, 18_000)
+
+    # ---- Volumes 7 to 12 ---------------------------------------------------
+    # The deferred tax Volume 7 derives has to be the one Volume 1 reported, and
+    # the reconciliation has to close on the tax charge already in the accounts.
+    eq('deferred tax from depreciation', T.deferred_from_depreciation,
+       N.deferred_tax_pl)
+    eq('the tax reconciliation closes on the reported charge',
+       T.reconcile(N.pretax), N.tax)
+    eq('the permanent differences cancel', T.fine, T.municipal_interest)
+
+    eq('warranty provision rolls forward',
+       W.opening + W.charge - W.claims, W.closing)
+    eq('the warranty charge is a rate on the year\u2019s sales',
+       W.charge, N.sales * W.rate)
+
+    eq('finance lease year one cost',
+       LS.fin_interest_y1 + LS.fin_amortisation_y1, LS.fin_total_y1)
+    eq('finance lease liability after one payment',
+       LS.fin_pv + LS.fin_interest_y1 - LS.fin_payments, LS.fin_liability_y1)
+    if LS.fin_term_share < 0.75:
+        bad.append('arithmetic: the finance lease no longer meets the term test')
+    if LS.op_pv > 0.9 * LS.op_fair_value:
+        bad.append('arithmetic: the operating lease would fail the value test')
+
+    # A small stock dividend is capitalised at market and a large one at par, so
+    # the two charges must differ; if they ever agree the example has lost its
+    # point.
+    eq('small stock dividend splits between par and paid-in capital',
+       EQ.small_par + EQ.small_apic, EQ.small_charge)
+    if EQ.small_charge <= EQ.large_charge:
+        bad.append('arithmetic: the small dividend no longer costs more than '
+                   'the large one, so the contrast has gone')
+    eq('a split changes neither the par total nor equity',
+       EQ.split_shares * EQ.split_par, EQ.shares * EQ.par)
+    eq('treasury reissued above cost credits paid-in capital',
+       EQ.reissue_a_apic, EQ.reissue_a_shares
+       * (EQ.reissue_a_price - EQ.buy_back_price))
+    if EQ.reissue_b_deficit > EQ.reissue_a_apic:
+        bad.append('arithmetic: the second reissue would exhaust the paid-in '
+                   'capital from the first, which the handout says it does not')
+
+    eq('discontinued operations, net of tax', DC.net, 150_000)
+
+    eq('non-controlling interest at fair value', CO.nci, 240_000)
+    eq('goodwill on the acquisition', CO.goodwill, 200_000)
+    eq('consideration plus NCI equals net assets plus goodwill',
+       CO.price + CO.nci, CO.net_assets_fv + CO.goodwill)
+    eq('unrealised intercompany profit', CO.unrealised_profit, 24_000)
+
+    eq('development costs expensed under IFRS',
+       IF.dev_expensed_ifrs, IF.dev_spend - IF.dev_capitalisable)
+    # Line B is the contrast the whole impairment comparison rests on: no loss
+    # under US GAAP, a loss under IFRS, on identical facts.
+    eq('line B is not impaired under US GAAP', P.b_loss, 0)
+    if IF.b_loss_ifrs <= 0:
+        bad.append('arithmetic: line B is no longer impaired under IFRS, so the '
+                   'GAAP and IFRS contrast has gone')
 
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',

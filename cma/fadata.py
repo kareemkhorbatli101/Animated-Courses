@@ -733,6 +733,258 @@ class Sec:
                 - self.assoc_share_dividends)
 
 
+class Tax:
+    """Volume 7: the deferred tax that Volume 1's balance sheet already carries.
+
+    The movement is split the way the statements split it - part through income
+    tax expense, part through other comprehensive income - and the permanent
+    differences are chosen to cancel, so the reconciliation closes on the tax
+    charge Volume 1 reported.
+    """
+    rate = 0.25
+    book_depreciation = 250_000
+    tax_depreciation = 346_000
+    fine = 20_000                  # not deductible
+    municipal_interest = 20_000    # not taxable
+
+    @property
+    def temporary_difference(self):
+        return self.tax_depreciation - self.book_depreciation
+
+    @property
+    def deferred_from_depreciation(self):
+        return self.temporary_difference * self.rate
+
+    def reconcile(self, pretax):
+        """Statutory charge, adjusted for the two permanent differences."""
+        return (pretax * self.rate
+                + self.fine * self.rate
+                - self.municipal_interest * self.rate)
+
+
+class Lease:
+    """Volume 7: one finance lease and one operating lease."""
+    fin_payments, fin_n, fin_rate = 60_000, 5, 0.08
+    fin_pv = 240_000
+    fin_asset_life = 6
+
+    op_payments, op_n = 40_000, 3
+    op_pv = 103_000
+    op_asset_life = 40
+    op_fair_value = 900_000
+
+    @property
+    def fin_interest_y1(self):
+        return self.fin_pv * self.fin_rate
+
+    @property
+    def fin_amortisation_y1(self):
+        return self.fin_pv / self.fin_n
+
+    @property
+    def fin_total_y1(self):
+        return self.fin_interest_y1 + self.fin_amortisation_y1
+
+    @property
+    def fin_liability_y1(self):
+        return self.fin_pv + self.fin_interest_y1 - self.fin_payments
+
+    @property
+    def op_total_payments(self):
+        return self.op_payments * self.op_n
+
+    @property
+    def op_cost_y1(self):
+        """One straight-line lease cost, whatever the payment pattern."""
+        return self.op_total_payments / self.op_n
+
+    @property
+    def fin_term_share(self):
+        return self.fin_n / self.fin_asset_life
+
+
+class Warranty:
+    """Volume 7: an assurance warranty provision that rolls forward."""
+    rate = 0.02
+    opening = 40_000
+    claims = 71_000
+
+    @property
+    def charge(self):
+        return NW.sales * self.rate
+
+    @property
+    def closing(self):
+        return self.opening + self.charge - self.claims
+
+
+class Refi:
+    """Volume 7: short-term debt expected to be refinanced."""
+    note = 400_000
+    refinanced_full = 400_000
+    refinanced_part = 250_000
+
+    @property
+    def current_if_part(self):
+        return self.note - self.refinanced_part
+
+
+class Eq:
+    """Volume 8: treasury stock, stock dividends and a split."""
+    shares = 300_000
+    par = 1
+    market = 9
+
+    buy_back_shares, buy_back_price = 10_000, 9
+    reissue_a_shares, reissue_a_price = 4_000, 12
+    reissue_b_shares, reissue_b_price = 3_000, 7
+
+    small_pct, large_pct = 0.10, 0.30
+    split = 2
+
+    @property
+    def treasury_cost(self):
+        return self.buy_back_shares * self.buy_back_price
+
+    @property
+    def reissue_a_proceeds(self):
+        return self.reissue_a_shares * self.reissue_a_price
+
+    @property
+    def reissue_a_apic(self):
+        return self.reissue_a_shares * (self.reissue_a_price
+                                        - self.buy_back_price)
+
+    @property
+    def reissue_b_proceeds(self):
+        return self.reissue_b_shares * self.reissue_b_price
+
+    @property
+    def reissue_b_deficit(self):
+        return self.reissue_b_shares * (self.buy_back_price
+                                        - self.reissue_b_price)
+
+    @property
+    def small_shares(self):
+        return self.shares * self.small_pct
+
+    @property
+    def small_charge(self):
+        """A small stock dividend is capitalised at market value."""
+        return self.small_shares * self.market
+
+    @property
+    def small_par(self):
+        return self.small_shares * self.par
+
+    @property
+    def small_apic(self):
+        return self.small_charge - self.small_par
+
+    @property
+    def large_shares(self):
+        return self.shares * self.large_pct
+
+    @property
+    def large_charge(self):
+        """A large stock dividend is capitalised at par."""
+        return self.large_shares * self.par
+
+    @property
+    def split_shares(self):
+        return self.shares * self.split
+
+    @property
+    def split_par(self):
+        return self.par / self.split
+
+
+class Disc:
+    """Volume 9: a discontinued component."""
+    operating_loss = 80_000
+    disposal_loss = 120_000
+    rate = 0.25
+
+    @property
+    def pretax(self):
+        return self.operating_loss + self.disposal_loss
+
+    @property
+    def tax_benefit(self):
+        return self.pretax * self.rate
+
+    @property
+    def net(self):
+        return self.pretax - self.tax_benefit
+
+
+class Cons:
+    """Volume 10: Northwind acquires 80% of Lakeside Controls."""
+    sub = 'Lakeside Controls'
+    stake = 0.80
+    price = 960_000
+    net_assets_fv = 1_000_000
+
+    intercompany_sales = 150_000
+    intercompany_cost = 90_000
+    still_in_inventory = 60_000
+    intercompany_balance = 45_000
+
+    @property
+    def implied_total(self):
+        return self.price / self.stake
+
+    @property
+    def nci(self):
+        return self.implied_total * (1 - self.stake)
+
+    @property
+    def goodwill(self):
+        return self.implied_total - self.net_assets_fv
+
+    @property
+    def margin_rate(self):
+        return (self.intercompany_sales - self.intercompany_cost) \
+            / self.intercompany_sales
+
+    @property
+    def unrealised_profit(self):
+        return self.still_in_inventory * self.margin_rate
+
+
+class Ifrs:
+    """Volume 12: the figures each named difference turns on."""
+    dev_spend = 400_000
+    dev_capitalisable = 240_000      # meets the IFRS criteria
+
+    # the impairment contrast, using Volume 5's line B
+    b_value_in_use = 740_000
+
+    @property
+    def dev_expensed_gaap(self):
+        return self.dev_spend
+
+    @property
+    def dev_expensed_ifrs(self):
+        return self.dev_spend - self.dev_capitalisable
+
+    @property
+    def b_recoverable_ifrs(self):
+        return max(Imp.b_fair_value, self.b_value_in_use)
+
+    @property
+    def b_loss_ifrs(self):
+        return max(0, Imp.b_carrying - self.b_recoverable_ifrs)
+
+
+T = Tax()
+LS = Lease()
+W = Warranty()
+RF = Refi()
+EQ = Eq()
+DC = Disc()
+CO = Cons()
+IF = Ifrs()
 S = Sec()
 D = Dep()
 P = Imp()
