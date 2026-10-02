@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M, A, F
+from fadata import N, M, A, F, I, L
 
 
 def check(bad):
@@ -63,6 +63,35 @@ def check(bad):
     eq('cash from the factor', F.cash_now, 276_000)
     eq('loss without recourse', F.loss_without_recourse, 9_000)
     eq('loss with recourse', F.loss_with_recourse, 17_000)
+
+    # ---- the Volume 4 inventory line ---------------------------------------
+    eq('goods available for sale', I.cost_available, 552_000)
+    eq('weighted average unit cost', I.wa_unit, 46)
+    eq('FIFO closing inventory', I.fifo_closing, 179_000)
+    eq('LIFO closing inventory', I.lifo_closing, 146_000)
+    eq('weighted average closing inventory', I.wa_closing, 161_000)
+    for _lbl, _cl in (('FIFO', I.fifo_closing), ('LIFO', I.lifo_closing),
+                      ('weighted average', I.wa_closing)):
+        # Whatever the method, cost of goods sold and closing inventory have to
+        # exhaust the same pool of goods available for sale.
+        eq('%s splits goods available' % _lbl,
+           I.cogs(_cl) + _cl, I.cost_available)
+    eq('the LIFO reserve is the gap between the two closing figures',
+       I.lifo_reserve, I.fifo_closing - I.lifo_closing)
+    eq('LIFO defers tax by the reserve at the tax rate',
+       I.tax(I.fifo_closing) - I.tax(I.lifo_closing),
+       I.lifo_reserve * I.tax_rate)
+    eq('year two LIFO cost of sales', I.y2_lifo_cogs, 198_000)
+    eq('the liquidation inflates profit', I.y2_liquidation_effect, 26_000)
+
+    for _i in range(len(L.items)):
+        _r = L.row(_i)
+        if not _r['floor'] <= _r['market'] <= _r['ceiling']:
+            bad.append('arithmetic: %s market %s is outside the floor and ceiling'
+                       % (_r['name'], _r['market']))
+        if _r['lcm'] > _r['cost'] or _r['lcnrv'] > _r['cost']:
+            bad.append('arithmetic: %s is written UP, which neither rule permits'
+                       % _r['name'])
 
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',

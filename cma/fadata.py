@@ -421,6 +421,149 @@ class Factor:
         return self.sold - self.fee
 
 
+class Inv:
+    """The NW-40 controller line, worked through the whole of Volume 4.
+
+    One product, four cost layers, one year. Every method's answer is derived
+    from the layers, so FIFO, LIFO and weighted average cannot disagree with
+    the goods available they all start from.
+    """
+    name = 'NW-40 flow controller'
+    layers = [('Opening inventory, 1 January', 2_000, 40),
+              ('Purchased in February', 3_000, 44),
+              ('Purchased in June', 4_000, 46),
+              ('Purchased in October', 3_000, 52)]
+    sold_units = 8_500
+    price = 75
+    tax_rate = 0.25
+
+    @property
+    def units_available(self):
+        return sum(u for _d, u, _c in self.layers)
+
+    @property
+    def cost_available(self):
+        return sum(u * c for _d, u, c in self.layers)
+
+    @property
+    def closing_units(self):
+        return self.units_available - self.sold_units
+
+    @property
+    def wa_unit(self):
+        return self.cost_available / self.units_available
+
+    # ---- the three closing inventory figures -------------------------------
+    @property
+    def fifo_closing(self):
+        """Newest layers survive."""
+        left, total = self.closing_units, 0
+        for _d, u, c in reversed(self.layers):
+            take = min(left, u)
+            total += take * c
+            left -= take
+        return total
+
+    @property
+    def lifo_closing(self):
+        """Oldest layers survive."""
+        left, total = self.closing_units, 0
+        for _d, u, c in self.layers:
+            take = min(left, u)
+            total += take * c
+            left -= take
+        return total
+
+    @property
+    def wa_closing(self):
+        return self.closing_units * self.wa_unit
+
+    def cogs(self, closing):
+        return self.cost_available - closing
+
+    @property
+    def sales(self):
+        return self.sold_units * self.price
+
+    def gross_margin(self, closing):
+        return self.sales - self.cogs(closing)
+
+    def tax(self, closing):
+        return self.gross_margin(closing) * self.tax_rate
+
+    @property
+    def lifo_reserve(self):
+        """What LIFO keeps off the balance sheet."""
+        return self.fifo_closing - self.lifo_closing
+
+    # ---- the following year, where the old layers are eaten into -----------
+    y2_purchased_units = 2_000
+    y2_purchased_cost = 56
+    y2_sold_units = 4_000
+
+    @property
+    def y2_lifo_cogs(self):
+        need, total = self.y2_sold_units, 0
+        for u, c in self._y2_order():
+            take = min(need, u)
+            total += take * c
+            need -= take
+            if not need:
+                break
+        return total
+
+    def _y2_order(self):
+        """Newest cost first: this year's purchase, then the surviving layers
+        from newest to oldest."""
+        order = [(self.y2_purchased_units, self.y2_purchased_cost)]
+        left, kept = self.closing_units, []
+        for _d, u, c in self.layers:
+            take = min(left, u)
+            if take:
+                kept.append((take, c))
+            left -= take
+        return order + kept[::-1]
+
+    @property
+    def y2_liquidation_units(self):
+        return max(0, self.y2_sold_units - self.y2_purchased_units)
+
+    @property
+    def y2_liquidation_effect(self):
+        """Profit inflated because old, cheap layers reached cost of sales."""
+        need, old = self.y2_liquidation_units, 0
+        for u, c in self._y2_order()[1:]:
+            take = min(need, u)
+            old += take * c
+            need -= take
+            if not need:
+                break
+        return self.y2_liquidation_units * self.y2_purchased_cost - old
+
+
+class Lcm:
+    """Four items that separate the market rule from the net realisable rule."""
+    normal_profit_rate = 0.10
+    items = [
+        # name, cost, replacement cost, selling price, cost to sell
+        ('A \u00b7 standard housing', 100, 90, 105, 10),
+        ('B \u00b7 obsolete sensor', 100, 80, 105, 10),
+        ('C \u00b7 damaged batch', 100, 98, 100, 8),
+        ('D \u00b7 scarce controller', 100, 110, 135, 15),
+    ]
+
+    def row(self, i):
+        name, cost, repl, price, sell = self.items[i]
+        ceiling = price - sell
+        floor = ceiling - price * self.normal_profit_rate
+        market = min(max(repl, floor), ceiling)
+        return dict(name=name, cost=cost, repl=repl, price=price, sell=sell,
+                    ceiling=ceiling, floor=floor, market=market,
+                    lcm=min(cost, market), lcnrv=min(cost, ceiling))
+
+
+I = Inv()
+L = Lcm()
 A = Aging()
 F = Factor()
 M = Meridian()
