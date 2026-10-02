@@ -119,7 +119,11 @@ def check_handout(H, seen_terms, bad):
             nblank += len(a)
             if reg not in ('R1', 'R2', 'R3'):
                 say('a fill block has register %r' % reg)
-            if reg == 'R3' and n < 5:
+            # Exam register may not arrive in the first half of a set: the
+            # student meets an idea at R1 or R2 first. The threshold scales with
+            # the set, because a four-handout volume reaches its second half
+            # sooner than a nine-handout one.
+            if reg == 'R3' and n < (len(HS) + 1) // 2:
                 say('exam-register teaching text appears in handout %d, before the '
                     'student has met the idea at R1 and R2' % n)
             extras = b[4] if len(b) > 4 else []

@@ -237,7 +237,8 @@ def scale(left_title, left_items, right_title, right_items):
             ((left_title, left_items, VAR, 30), (right_title, right_items, ABS, W / 2 + 10))):
         bw = W / 2 - 40
         g.append(R(x0, 36, bw, 42, col, rx=7))
-        g.append(T(x0 + bw / 2, 63, title, 18, PAPER, bold=True))
+        g.append(T(x0 + bw / 2, 63, title, _fit(title, bw - 20, 18, True),
+                   PAPER, bold=True))
         for k, it in enumerate(items):
             y = 100 + k * 34
             g.append(C(x0 + 16, y - 5, 4, col))

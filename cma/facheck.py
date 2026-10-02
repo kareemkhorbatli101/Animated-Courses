@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N
+from fadata import N, M
 
 
 def check(bad):
@@ -44,6 +44,18 @@ def check(bad):
 
     # ---- the trial balance the statements are built from ------------------
     eq('trial balance balances', N.tb_debits, N.tb_credits)
+
+    # ---- the Volume 2 contract --------------------------------------------
+    eq('transaction price', M.price, 540_000)
+    eq('allocation sums to the transaction price',
+       M.alloc_goods + M.alloc_install + M.alloc_support, M.price)
+    eq('goods allocation', M.alloc_goods, 378_000)
+    eq('installation allocation', M.alloc_install, 81_000)
+    eq('support allocation', M.alloc_support, 81_000)
+    eq('support earned by the year end', M.support_earned, 6_750)
+    eq('revenue recognised on the contract', M.recognised, 465_750)
+    eq('contract liability at the year end', M.contract_liability, 74_250)
+    eq('the discount is spread, not dropped', M.discount, 60_000)
 
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',

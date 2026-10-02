@@ -302,4 +302,67 @@ class NW:
         return sum(v for _a, v in self.trial_balance()[1])
 
 
+class Meridian:
+    """The contract Volume 2 works, from step 1 through to the year-end balance.
+
+    One contract with three promises, a discount that has to be spread, and a
+    rebate that has to be estimated. Every figure below is derived from the
+    standalone selling prices, so an allocation cannot drift from its total.
+    """
+    customer = 'Meridian Water Systems'
+    units = 1_200
+    stated_price = 560_000
+    expected_rebate = 20_000            # most likely amount
+
+    ssp_goods = 420_000                 # standalone selling prices
+    ssp_install = 90_000
+    ssp_support = 90_000
+
+    support_months = 24
+    months_elapsed = 2                  # support began 1 November
+
+    @property
+    def price(self):
+        """Step 3: the transaction price, after variable consideration."""
+        return self.stated_price - self.expected_rebate
+
+    @property
+    def ssp_total(self):
+        return self.ssp_goods + self.ssp_install + self.ssp_support
+
+    @property
+    def discount(self):
+        return self.ssp_total - self.price
+
+    def _alloc(self, ssp):
+        return self.price * ssp / self.ssp_total
+
+    @property
+    def alloc_goods(self):
+        return self._alloc(self.ssp_goods)
+
+    @property
+    def alloc_install(self):
+        return self._alloc(self.ssp_install)
+
+    @property
+    def alloc_support(self):
+        return self._alloc(self.ssp_support)
+
+    @property
+    def support_earned(self):
+        """Over time: the months that have actually elapsed."""
+        return self.alloc_support * self.months_elapsed / self.support_months
+
+    @property
+    def recognised(self):
+        return self.alloc_goods + self.alloc_install + self.support_earned
+
+    @property
+    def contract_liability(self):
+        """Support paid for and not yet delivered."""
+        return self.alloc_support - self.support_earned
+
+
+M = Meridian()
 N = NW()
