@@ -68,6 +68,11 @@ HANDOUT = dict(
          'معاملة غير نقدية',
          'Kept out of the statement itself and disclosed separately, so that the '
          'statement still reports only cash.'),
+        ('disclosure',
+         'Information given in the notes rather than as a figure in a statement.',
+         'الإفصاح',
+         'Disclosed is not the same as recognised. A disclosed item changes no '
+         'total and no ratio built on a total.'),
         ('indirect method',
          'Presenting operating cash flow by starting at net income and adjusting '
          'it.', 'الطريقة غير المباشرة',

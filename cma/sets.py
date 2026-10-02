@@ -107,7 +107,7 @@ _FA = [
 
 for _k, _code, _c1, _c2, _cso, _hs, _intro in _FA:
     _add(SetSpec(
-        key=_k, code=_code, title=(_c1 + ' ' + _c2).replace('and ', ''),
+        key=_k, code=_code, title=(_c1 + ' ' + _c2),
         cover1=_c1, cover2=_c2, cso=_cso, handouts=_hs,
         modpat='content.%s_h%%d' % _k,
         out='%sCMA_P1_SectionA_%s_%s.docx'

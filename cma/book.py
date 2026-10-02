@@ -118,7 +118,10 @@ class Builder:
         self.d.rule_lines(n)
 
     def _answers(self, nums):
-        self.d.answer_grid(nums)
+        # An int means "this many numbered boxes", which is how a content file
+        # almost always wants it; a list lets a handout label them itself.
+        self.d.answer_grid(list(range(1, nums + 1)) if isinstance(nums, int)
+                           else nums)
 
     def _fig(self, name, *args, **kw):
         self.d.figure(*getattr(F, name)(*args, **kw))

@@ -254,4 +254,52 @@ class NW:
         return self.shares_issued * (self.issue_price - self.par)
 
 
+    # ---- the trial balance Handout 7 builds the statements from -------------
+    def trial_balance(self):
+        """Every account, with its balance on the side it naturally sits.
+
+        Retained earnings appears at its OPENING balance and the dividend as a
+        separate debit, which is how a trial balance is actually drawn before
+        the books are closed.
+        """
+        dr = [('Cash', self.cash),
+              ('Accounts receivable', self.ar_gross),
+              ('Inventory', self.inventory),
+              ('Prepaid expenses', self.prepaid),
+              ('Investments in debt securities', self.afs),
+              ('Property, plant and equipment, at cost', self.ppe_gross),
+              ('Intangible assets', self.intangibles),
+              ('Goodwill', self.goodwill),
+              ('Cost of goods sold', self.cogs),
+              ('Selling expenses', self.selling),
+              ('Administrative expenses', self.admin),
+              ('Depreciation and amortisation', self.dep_amort),
+              ('Interest expense', self.interest),
+              ('Income tax expense', self.tax),
+              ('Dividends declared', self.dividends)]
+        cr = [('Allowance for credit losses', self.allowance),
+              ('Accumulated depreciation', self.accum_dep),
+              ('Accounts payable', self.ap),
+              ('Accrued liabilities', self.accrued),
+              ('Income taxes payable', self.taxes_payable),
+              ('Current portion of long-term debt', self.ltd_current),
+              ('Long-term debt', self.ltd),
+              ('Deferred tax liability', self.dtl),
+              ('Common stock, $1 par', self.common_stock),
+              ('Additional paid-in capital', self.apic),
+              ('Retained earnings, at 1 January', self.retained_py),
+              ('Accumulated other comprehensive income', self.aoci),
+              ('Sales revenue', self.sales),
+              ('Gain on disposal of equipment', self.gain_disposal)]
+        return dr, cr
+
+    @property
+    def tb_debits(self):
+        return sum(v for _a, v in self.trial_balance()[0])
+
+    @property
+    def tb_credits(self):
+        return sum(v for _a, v in self.trial_balance()[1])
+
+
 N = NW()

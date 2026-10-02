@@ -42,6 +42,9 @@ def check(bad):
     eq('net cash used in investing', N.cfi, -393_000)
     eq('net cash used in financing', N.cff, -180_000)
 
+    # ---- the trial balance the statements are built from ------------------
+    eq('trial balance balances', N.tb_debits, N.tb_credits)
+
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',
        N.ppe_gross_py + N.ppe_purchased - N.disposal_cost, N.ppe_gross)

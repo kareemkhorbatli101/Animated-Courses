@@ -563,7 +563,8 @@ def matrix(title, rowhead, colhead, cells, note=''):
     """A 2 x 2 (or n x m) grid for cross-classification."""
     nr, nc = len(rowhead), len(colhead)
     cw, ch = (W - 240) / nc, 92
-    h = 150 + nr * ch + (46 if note else 14)
+    nlines = wrap(note, W - 150, 16) if note else []
+    h = 150 + nr * ch + (24 + 22 * len(nlines) if note else 14)
     g = [R(0, 0, W, h, PAPER)]
     g.append(T(W / 2, 40, title, 22, INDIGO_D, bold=True))
     for j, chd in enumerate(colhead):
@@ -588,7 +589,8 @@ def matrix(title, rowhead, colhead, cells, note=''):
                 g.append(L(x + 16, y + (ch - 12) / 2 + 6, x + cw - 28,
                            y + (ch - 12) / 2 + 6, RULE, 1.4))
     if note:
-        g.append(T(W / 2, h - 18, note, 16, GREY))
+        for j, ln in enumerate(nlines):
+            g.append(T(W / 2, h - 18 - 22 * (len(nlines) - 1 - j), ln, 16, GREY))
     return render(''.join(g), W, int(h), PAPER)
 
 

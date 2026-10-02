@@ -87,7 +87,7 @@ HANDOUT = dict(
          'The quality that lets a user set one company against another, or one year '
          'against the next.', 'القابلية للمقارنة',
          'Comparability does not mean identical methods. It means the methods used '
-         'are disclosed.'),
+         'are stated openly.'),
     ],
 
     blocks=[
@@ -304,7 +304,7 @@ HANDOUT = dict(
           'What the reports can do is make themselves usable. Figures are presented '
           'for two years side by side, so that a reader sees a {trend} rather than a '
           'single point. Methods are applied the same way from one year to the next, '
-          'and the methods used are disclosed, which is what gives the statements '
+          'and the methods used are stated openly, which is what gives the statements '
           'their {comparability}.'],
          {'satisfy': ('A general purpose report is a compromise by design.', ''),
           'common': ('The framework’s own word. It does not say "the needs of '
@@ -312,7 +312,7 @@ HANDOUT = dict(
                      'Students assume the statements are built for shareholders, so '
                      'they misread what the limitations are.'),
           'trend': ('One year alone cannot show direction.', ''),
-          'comparability': ('Disclosure of method, not uniformity of method.', '')},
+          'comparability': ('Stating the method, not using the same method.', '')},
          ['average', 'agreement', 'estimate']),
         ('fig', 'scale',
          'THE LENDER', ['wants certainty of repayment', 'reads the downside first',
@@ -376,14 +376,15 @@ HANDOUT = dict(
                 'The answer is:'
                 % (money(N.net_income), Y, money(N.cash - N.cash_py)),
          ['The balance sheet, because it reports both figures',
-          'The statement of changes in equity, because it reconciles equity',
+          'The statement of changes in equity, because it explains the equity '
+          'movement',
           'The statement of cash flows, because it reconciles income to cash',
           'The income statement, because it reports the net income figure'],
          2, 'Level B',
          'Reconciling profit to cash is exactly what the indirect-method operating '
          'section does. (A) reports both numbers but explains neither. (B) '
-         'reconciles the owners’ claim, not cash. (D) is one end of the '
-         'reconciliation, not the bridge between the ends.'),
+         'explains the owners’ claim, not cash. (D) is one end of the '
+         'comparison, not the bridge between the ends.'),
 
         ('mcq', 'Which of the following best describes the stewardship objective of '
                 'general purpose financial reporting?',
@@ -412,12 +413,12 @@ HANDOUT = dict(
                 'accounting methods. A user wants to compare them. Which feature of '
                 'general purpose financial reporting makes that comparison possible?',
          ['The requirement that both companies report the same net income',
-          'The requirement that the methods applied be disclosed',
+          'The requirement that the methods applied be stated openly',
           'The requirement that both companies use identical methods',
           'The requirement that both be audited by the same firm'],
          1, 'Level C',
          'Comparability does not require identical methods. It requires that the '
-         'methods used be disclosed, so a user can adjust for the difference or at '
+         'methods used be stated, so a user can adjust for the difference or at '
          'least understand it. (A) and (C) describe uniformity, which the framework '
          'does not require. (D) is unrelated to comparability.'),
 
