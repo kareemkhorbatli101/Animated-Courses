@@ -761,17 +761,86 @@ class Tax:
                 + self.fine * self.rate
                 - self.municipal_interest * self.rate)
 
+    # The balance sheet in Volume 1 carries one net deferred tax liability of
+    # $160,000. Handout 4 takes it apart, so the cumulative taxable difference
+    # is stated and the two deductible ones are read off balances the student
+    # already has: the warranty provision from Handout 1 and the allowance for
+    # credit losses from Volume 3. Netting them has to give Volume 1's figure.
+    cumulative_taxable_difference = 746_000
+
+    @property
+    def gross_dtl(self):
+        return self.cumulative_taxable_difference * self.rate
+
+    @property
+    def dta_warranty(self):
+        return Warranty.opening + NW.sales * Warranty.rate - Warranty.claims
+
+    @property
+    def dta_allowance(self):
+        return NW.allowance
+
+    @property
+    def gross_dta(self):
+        return (self.dta_warranty + self.dta_allowance) * self.rate
+
+    @property
+    def net_dtl(self):
+        return self.gross_dtl - self.gross_dta
+
+    @property
+    def dtl_movement(self):
+        return NW.dtl - NW.dtl_py
+
 
 class Lease:
     """Volume 7: one finance lease and one operating lease."""
     fin_payments, fin_n, fin_rate = 60_000, 5, 0.08
-    fin_pv = 240_000
     fin_asset_life = 6
 
     op_payments, op_n = 40_000, 3
     op_pv = 103_000
     op_asset_life = 40
     op_fair_value = 900_000
+
+    @property
+    def fin_pv(self):
+        """The present value of the five payments, not a typed-in figure.
+
+        Rounding the annuity to a tidy $240,000 left $643 of liability
+        outstanding after the last payment, which is exactly the error a
+        student would be marked down for. Deriving it means the schedule in
+        Handout 6 closes at nil, and every row of it ties to the dollar.
+        """
+        f = (1 - (1 + self.fin_rate) ** -self.fin_n) / self.fin_rate
+        return self.fin_payments * f
+
+    @property
+    def fin_schedule(self):
+        """(year, opening, interest, payment, closing), rounded for printing."""
+        rows, b = [], self.fin_pv
+        for y in range(1, self.fin_n + 1):
+            i = b * self.fin_rate
+            rows.append((y, round(b), round(i), self.fin_payments,
+                         round(b + i - self.fin_payments)))
+            b = b + i - self.fin_payments
+        return rows
+
+    def fin_amort(self, year):
+        """Straight-line amortisation, with the last year taking the rounding.
+
+        Printing round(pv / n) five times adds to $2 more than the asset cost,
+        which is the kind of error a student spots and an answer key cannot
+        afford.
+        """
+        each = round(round(self.fin_pv) / self.fin_n)
+        if year < self.fin_n:
+            return each
+        return round(self.fin_pv) - each * (self.fin_n - 1)
+
+    def fin_cost(self, year):
+        """Interest for the year plus the amortisation charge."""
+        return self.fin_schedule[year - 1][2] + self.fin_amort(year)
 
     @property
     def fin_interest_y1(self):
@@ -807,7 +876,7 @@ class Warranty:
     """Volume 7: an assurance warranty provision that rolls forward."""
     rate = 0.02
     opening = 40_000
-    claims = 71_000
+    claims = 76_000
 
     @property
     def charge(self):

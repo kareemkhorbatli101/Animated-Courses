@@ -135,5 +135,6 @@ for _k, _code, _c1, _c2, _cso, _hs, _intro in _FA:
         cover1=_c1, cover2=_c2, cso=_cso, handouts=_hs,
         modpat='content.%s_h%%d' % _k,
         out='%sCMA_P1_SectionA_%s_%s.docx'
-            % (OUT, _code.replace(' ', ''), _c1.replace(' ', '_').replace('-', '_')),
+            % (OUT, _code.replace(' ', ''),
+               _c1.replace(',', '').replace(' ', '_').replace('-', '_')),
         intro=_intro, arith=_fa_arith, company='Northwind Components'))

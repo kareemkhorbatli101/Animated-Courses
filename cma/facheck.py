@@ -138,6 +138,19 @@ def check(bad):
     eq('the warranty charge is a rate on the year\u2019s sales',
        W.charge, N.sales * W.rate)
 
+    # Handout 4 takes Volume 1's single net deferred tax liability apart, so the
+    # gross components must net back to it, the two deductible components must
+    # be balances the student already holds, and the year's movement must be the
+    # income-statement half plus the OCI half.
+    eq('the gross deferred tax balances net to the reported liability',
+       T.net_dtl, N.dtl)
+    eq('the warranty component is the provision from Handout 1',
+       T.dta_warranty, W.closing)
+    eq('the allowance component is the balance from Volume 3',
+       T.dta_allowance, N.allowance)
+    eq('the deferred tax liability movement splits between income and OCI',
+       T.dtl_movement, N.deferred_tax_pl + N.deferred_tax_oci)
+
     eq('finance lease year one cost',
        LS.fin_interest_y1 + LS.fin_amortisation_y1, LS.fin_total_y1)
     eq('finance lease liability after one payment',
@@ -146,6 +159,29 @@ def check(bad):
         bad.append('arithmetic: the finance lease no longer meets the term test')
     if LS.op_pv > 0.9 * LS.op_fair_value:
         bad.append('arithmetic: the operating lease would fail the value test')
+
+    # Handout 6 prints the whole amortisation schedule, so every printed row has
+    # to tie in the figures the student sees and the last payment has to settle
+    # the liability exactly. A rounded present value fails both.
+    for _y, _op, _i, _pay, _cl in LS.fin_schedule:
+        if _op + _i - _pay != _cl:
+            bad.append('arithmetic: lease schedule year %d does not tie as '
+                       'printed' % _y)
+    if LS.fin_schedule[-1][4] != 0:
+        bad.append('arithmetic: the lease liability is not settled by the last '
+                   'payment (%s left)' % LS.fin_schedule[-1][4])
+    eq('the amortisation charges add to the right-of-use asset',
+       sum(LS.fin_amort(y) for y in range(1, LS.fin_n + 1)),
+       round(LS.fin_pv))
+    eq('total finance lease cost equals the payments made',
+       sum(LS.fin_cost(y) for y in range(1, LS.fin_n + 1)),
+       LS.fin_payments * LS.fin_n)
+    if LS.fin_cost(1) <= LS.fin_cost(LS.fin_n):
+        bad.append('arithmetic: the finance lease cost is no longer '
+                   'front-loaded, so the contrast with the operating lease has '
+                   'gone')
+    eq('the operating lease cost is the payments spread evenly',
+       LS.op_cost_y1 * LS.op_n, LS.op_total_payments)
 
     # A small stock dividend is capitalised at market and a large one at par, so
     # the two charges must differ; if they ever agree the example has lost its
