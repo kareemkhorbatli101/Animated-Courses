@@ -364,5 +364,64 @@ class Meridian:
         return self.alloc_support - self.support_earned
 
 
+class Aging:
+    """The schedule behind Northwind's allowance, Volume 3 Handout 2.
+
+    The buckets add to gross receivables and the estimate adds to the allowance
+    on the balance sheet, so the schedule cannot disagree with Volume 1.
+    """
+    buckets = [('Not yet due', 425_000, 0.01),
+               ('1 to 30 days past due', 225_000, 0.05),
+               ('31 to 90 days past due', 70_000, 0.15),
+               ('More than 90 days past due', 40_000, 0.50)]
+
+    @property
+    def gross(self):
+        return sum(v for _n, v, _r in self.buckets)
+
+    @property
+    def required(self):
+        return sum(v * r for _n, v, r in self.buckets)
+
+    def row(self, i):
+        name, amount, rate = self.buckets[i]
+        return name, amount, rate, amount * rate
+
+
+class Factor:
+    """The receivable sale worked in Volume 3 Handout 3."""
+    sold = 300_000
+    fee_rate = 0.03
+    holdback_rate = 0.05
+    recourse_obligation = 8_000
+
+    @property
+    def fee(self):
+        return self.sold * self.fee_rate
+
+    @property
+    def holdback(self):
+        return self.sold * self.holdback_rate
+
+    @property
+    def cash_now(self):
+        return self.sold - self.fee - self.holdback
+
+    @property
+    def loss_without_recourse(self):
+        return self.fee
+
+    @property
+    def loss_with_recourse(self):
+        return self.fee + self.recourse_obligation
+
+    @property
+    def borrowing_liability(self):
+        """If the transfer fails the sale test, it is a secured borrowing."""
+        return self.sold - self.fee
+
+
+A = Aging()
+F = Factor()
 M = Meridian()
 N = NW()

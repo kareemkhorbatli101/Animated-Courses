@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M
+from fadata import N, M, A, F
 
 
 def check(bad):
@@ -56,6 +56,13 @@ def check(bad):
     eq('revenue recognised on the contract', M.recognised, 465_750)
     eq('contract liability at the year end', M.contract_liability, 74_250)
     eq('the discount is spread, not dropped', M.discount, 60_000)
+
+    # ---- the Volume 3 aging schedule and receivable sale -------------------
+    eq('aging buckets add to gross receivables', A.gross, N.ar_gross)
+    eq('aging estimate equals the allowance', A.required, N.allowance)
+    eq('cash from the factor', F.cash_now, 276_000)
+    eq('loss without recourse', F.loss_without_recourse, 9_000)
+    eq('loss with recourse', F.loss_with_recourse, 17_000)
 
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',
