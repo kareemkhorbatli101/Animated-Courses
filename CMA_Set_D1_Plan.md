@@ -763,3 +763,101 @@ deferred:
 - **Nothing has been taught from any of this.** Every pedagogical claim in Parts
   4 through 8 remains a design hypothesis. Teaching Volume 1 to a class answers
   more questions than Volume 13 would.
+
+---
+
+## Part 9 · Built: Volumes 13 to 17
+
+Produced against Part 8. Nineteen handouts, and every one of the five volumes
+derives from a volume already delivered.
+
+| Volume | Handouts | Figures | Blanks | Questions | Terms |
+|--------|---------:|--------:|-------:|----------:|------:|
+| 13 · The Time Value of Money | 3 | 18 | 24 | 21 | 15 |
+| 14 · Long-Term Debt and Contingent Liabilities | 6 | 34 | 50 | 42 | 31 |
+| 15 · Earnings Per Share | 3 | 19 | 25 | 21 | 13 |
+| 16 · Pensions and Other Post-Employment Benefits | 3 | 19 | 26 | 21 | 12 |
+| 17 · Changes, Errors and Special Issues | 4 | 26 | 32 | 28 | 21 |
+| **Total** | **19** | **116** | **157** | **133** | **92** |
+
+Section A and the bridge together: **17 volumes, 75 handouts, 466 figures, 721
+blanks, 525 exam questions, 411 glossary entries**, and roughly 975 pages at
+the rate Part 5 measured.
+
+### What each volume took from the ones before it
+
+The test Part 6 set — that a figure must be *derived* from an earlier volume
+rather than asserted beside it — was applied to all five. The results:
+
+- **Volume 13** closes the hole Part 8 recorded. Its annuity factors reproduce
+  both of Volume 7's lease present values exactly, $239,563 at 8% over five
+  years and $103,084 over three, and solving the relationship backwards
+  recovers the 8% rate and the three-year term from the schedule alone. The
+  volume that should have come first now verifies the volume that came seventh.
+- **Volume 14** solves its bond out of Volume 1 instead of inventing one.
+  $90,000 of interest on $1,500,000 outstanding is a 6% serial bond repaying
+  $150,000 a year, which is precisely what that balance sheet reports. The two
+  new bonds are a matched pair whose coupons sit 2% either side of the market,
+  so the discount and the premium are both $79,854 and the schedules are exact
+  mirrors that land on par to the dollar.
+- **Volume 15** has the richest hook of the five. Volume 8 already issued
+  20,000 shares, bought back 10,000, reissued 7,000, declared a 10% and a 30%
+  stock dividend and ran a 2-for-1 split. Four dates were the only thing added,
+  and the weighted average of 291,750 shares falls out.
+- **Volume 16** builds the worksheet behind figures Volume 12 printed and never
+  derived. Its net periodic pension cost comes to the $170,000 that volume
+  reported under US GAAP, so the GAAP/IFRS contrast already delivered becomes
+  this volume's payoff rather than a student's first encounter with a pension.
+- **Volume 17** works its change in principle on Volume 4's own closing
+  inventory ($179,000 FIFO against $161,000 weighted average), its change in
+  estimate on Volume 5's own machine, and its translation on Volume 10's own
+  subsidiary. Nothing was introduced but three exchange rates.
+
+### The connection nobody planned
+
+The present value of the discount bond's coupons in Volume 14 is **$239,563**:
+five payments of $60,000 at 8%. That is the same arithmetic as Volume 7's
+finance lease and Volume 13's annuity, because it is the same payment, the same
+term and the same rate. A bond is an annuity plus a single sum, and by the time
+a student reaches it they have computed the annuity twice. The handout says so
+rather than letting the coincidence pass.
+
+### What the checker gained
+
+Twenty-four new identities, and five of them guard teaching contrasts rather
+than arithmetic:
+
+- The annuity due factor must exceed the ordinary one, or Volume 13 Handout 2
+  has no subject.
+- Both bond schedules must tie row by row *as printed* and reach par exactly;
+  the discount bond's carrying amount must rise toward par and the premium
+  bond's must fall.
+- Diluted EPS must come out below basic, and the security chosen to demonstrate
+  antidilution must actually be antidilutive — two assertions, because a
+  careless edit breaks them independently.
+- The translated balance sheet must balance, which is the only thing that makes
+  a cumulative translation adjustment meaningful at all.
+
+### Three data-layer repairs the work forced
+
+- **The pension remeasurement is now derived.** Volume 12 had it as a typed-in
+  $50,000. It is the gap between the $160,000 management expected on the fund
+  and the $110,000 it earned, so the two volumes can no longer disagree.
+- **The translated figures carried float tails.** $1,600,000 × 1.15 returns
+  1839999.9999999998 in binary, and a translated balance sheet that misses by a
+  fraction of a cent teaches a student to distrust the method. The rates are
+  held as hundredths and divided last.
+- **Volume 10's subsidiary moved into the data layer.** Its assets, revenue and
+  profit were module constants inside Handout 2; Volume 17 translates the same
+  company, so both volumes now read one set of figures.
+
+### What is still not done
+
+Unchanged from Part 8, and worth repeating because none of it got easier:
+
+- **No cumulative mock exam.** 525 questions in per-volume batches and no timed
+  paper anywhere.
+- **No cross-volume index or combined glossary.** 411 entries, each findable
+  only in the volume that taught it.
+- **Nothing has been taught from any of this.** Seventeen volumes, and every
+  pedagogical claim in Parts 4 through 9 is still a design hypothesis.
