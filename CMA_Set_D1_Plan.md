@@ -344,3 +344,59 @@ Volume 4 (Inventory) is the densest block in Section A and the strongest second
 test of the toolchain after D1: seven statements, nearly all computational,
 including a Level C *recommend*. Volume 1 is the alternative, on the argument
 that it is the foundation everything else refers back to.
+
+---
+
+## Part 5 · Built: Volumes 1 to 6
+
+Produced against the plan in Part 4. Northwind Components carries through all
+six, and every volume's figures are derived from one data layer and verified
+against the statements Volume 1 builds.
+
+| Volume | Handouts | Pages | Figures | Blanks | Questions |
+|--------|---------:|------:|--------:|-------:|----------:|
+| 1 · The Framework and the Statements | 9 | 127 | 54 | 92 | 63 |
+| 2 · Revenue Recognition | 4 | 54 | 25 | 36 | 28 |
+| 3 · Receivables and Credit Losses | 3 | 39 | 20 | 29 | 21 |
+| 4 · Inventory and Cost Flow | 8 | 104 | 49 | 88 | 56 |
+| 5 · Long-Lived Assets and Impairment | 6 | 78 | 38 | 73 | 42 |
+| 6 · Investments in Debt and Equity | 3 | 39 | 18 | 39 | 21 |
+| **Total** | **33** | **441** | **204** | **357** | **231** |
+
+Plus 155 glossary terms, each with its Arabic equivalent and the place it
+misleads.
+
+### What the figures say against the estimate
+
+Part 4 estimated roughly one handout per learning outcome statement at about
+19 pages each. The 33 handouts delivered average **13 pages**, not 19. The
+estimate was drawn from Set D1, whose topic is a single subtle distinction
+worked from six angles; most Section A statements are narrower than that, and
+the conceptual ones much narrower. The remaining 22 handouts should be
+estimated at the rate actually achieved rather than at D1's.
+
+### The thing that made it hold together
+
+One company, one year, one data layer. `facheck.py` recomputes every identity
+on every build of every volume, so a figure cannot drift between books:
+
+- The balance sheet balances in both years, the roll-forwards close, and the
+  cash flow statement lands on the cash balance.
+- The Volume 3 aging schedule adds to Volume 1's gross receivables and its
+  estimate equals Volume 1's allowance.
+- Each Volume 4 cost flow assumption splits the same goods available for sale,
+  and the tax LIFO defers equals the reserve at the tax rate.
+- Every Volume 5 depreciation method writes off the whole depreciable amount
+  and ends exactly at the residual value.
+- The Volume 6 portfolio's unrealised gain is the one Volume 1 took to other
+  comprehensive income.
+
+A student who finds a contradiction between two volumes has found a bug in the
+data layer, not a judgement call.
+
+### Volumes 7 to 12
+
+Unbuilt, and specified in Part 4: liabilities, taxes and leases; equity;
+income measurement; consolidated statements; integrated reporting; US GAAP
+against IFRS. 22 handouts, and on the rate actually achieved, roughly 290
+pages.
