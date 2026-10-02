@@ -669,6 +669,71 @@ class Imp:
         return self.list_cost / self.list_life
 
 
+class Sec:
+    """The securities Volume 6 works.
+
+    The available-for-sale portfolio ties to Northwind's balance sheet: its
+    three holdings add to the amortised cost the company reached after the
+    year's purchases, and its unrealised gain is the one taken to other
+    comprehensive income in Volume 1.
+    """
+    afs = [('Harbour Authority 4.2% 20X9', 150_000, 164_000),
+           ('Meridian Utilities 3.8% 20Y1', 128_000, 142_000),
+           ('State Transit 5.0% 20X8', 80_000, 84_000)]
+
+    # one holding of each other debt classification, for the contrast
+    trading_cost, trading_fv = 100_000, 108_000
+    htm_cost, htm_fv = 110_000, 118_000
+
+    # equity holdings
+    small_name, small_stake = 'Delta Pumps', 0.05
+    small_cost, small_fv = 90_000, 97_000
+
+    assoc_name, assoc_stake = 'Riverbend Valves', 0.30
+    assoc_cost = 600_000
+    assoc_net_income = 200_000
+    assoc_dividends = 60_000
+
+    @property
+    def afs_cost(self):
+        return sum(c for _n, c, _f in self.afs)
+
+    @property
+    def afs_fair_value(self):
+        return sum(f for _n, _c, f in self.afs)
+
+    @property
+    def afs_unrealised(self):
+        return self.afs_fair_value - self.afs_cost
+
+    @property
+    def trading_gain(self):
+        return self.trading_fv - self.trading_cost
+
+    @property
+    def htm_carrying(self):
+        """Amortised cost. Fair value is disclosed and never recognised."""
+        return self.htm_cost
+
+    @property
+    def small_gain(self):
+        return self.small_fv - self.small_cost
+
+    @property
+    def assoc_share_income(self):
+        return self.assoc_net_income * self.assoc_stake
+
+    @property
+    def assoc_share_dividends(self):
+        return self.assoc_dividends * self.assoc_stake
+
+    @property
+    def assoc_carrying(self):
+        return (self.assoc_cost + self.assoc_share_income
+                - self.assoc_share_dividends)
+
+
+S = Sec()
 D = Dep()
 P = Imp()
 I = Inv()

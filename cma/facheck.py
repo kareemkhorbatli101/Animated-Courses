@@ -4,7 +4,7 @@
 This runs on every build of every Section A volume. A figure that drifts in
 one volume is caught in all of them, because they all read the same company.
 """
-from fadata import N, M, A, F, I, L, D, P
+from fadata import N, M, A, F, I, L, D, P, S
 
 
 def check(bad):
@@ -108,6 +108,21 @@ def check(bad):
     eq('line B is not impaired', P.b_loss, 0)
     eq('goodwill impairment', P.goodwill_loss, 250_000)
     eq('intangible amortisation', P.list_amortisation, N.amortisation)
+
+    # ---- the Volume 6 securities -------------------------------------------
+    # The portfolio has to tie to the balance sheet Volume 1 built: its cost is
+    # what Northwind held after the year's purchases, and its unrealised gain is
+    # the one that reached other comprehensive income.
+    eq('available-for-sale portfolio at cost', S.afs_cost,
+       N.afs_py + N.afs_purchased)
+    eq('available-for-sale portfolio at fair value', S.afs_fair_value, N.afs)
+    eq('the portfolio unrealised gain is the one taken to OCI',
+       S.afs_unrealised, N.afs_gain_pretax)
+    eq('held-to-maturity is carried at amortised cost', S.htm_carrying,
+       S.htm_cost)
+    eq('equity method carrying amount', S.assoc_carrying, 642_000)
+    eq('share of associate income', S.assoc_share_income, 60_000)
+    eq('share of associate dividends', S.assoc_share_dividends, 18_000)
 
     # ---- the supporting roll-forwards -------------------------------------
     eq('PP&E at cost',
