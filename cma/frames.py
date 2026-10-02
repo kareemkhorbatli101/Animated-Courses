@@ -568,11 +568,15 @@ def matrix(title, rowhead, colhead, cells, note=''):
     g.append(T(W / 2, 40, title, 22, INDIGO_D, bold=True))
     for j, chd in enumerate(colhead):
         g.append(R(210 + j * cw, 70, cw - 12, 38, INDIGO, rx=6))
-        g.append(T(210 + j * cw + (cw - 12) / 2, 95, chd, 16, PAPER, bold=True))
+        g.append(T(210 + j * cw + (cw - 12) / 2, 95, chd,
+                   _fit(chd, cw - 26, 16, True), PAPER, bold=True))
     for i, rhd in enumerate(rowhead):
         y = 120 + i * ch
         g.append(R(30, y, 168, ch - 12, SOFT, RULE, 1.4, rx=6))
-        g.append(T(114, y + (ch - 12) / 2 + 5, rhd, 16, INDIGO_D, bold=True))
+        rl = wrap(rhd, 150, 15, True)[:3]
+        for k, line in enumerate(rl):
+            g.append(T(114, y + (ch - 12) / 2 - 9 * (len(rl) - 1) + k * 19 + 5,
+                       line, _fit(line, 152, 15, True), INDIGO_D, bold=True))
         for j in range(nc):
             x = 210 + j * cw
             g.append(R(x, y, cw - 12, ch - 12, PAPER, RULE, 1.6, rx=6))

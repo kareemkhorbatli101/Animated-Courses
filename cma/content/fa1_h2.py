@@ -124,6 +124,25 @@ HANDOUT = dict(
          'علاوة إصدار',
          'Par value is an arbitrary legal figure. The split between common stock '
          'and this account has no economic meaning at all.'),
+        ('retained earnings',
+         'Profits earned since the company began, less everything paid out as '
+         'dividends.', 'الأرباح المحتجزة',
+         'Not a pile of cash. It is a claim, and the cash it represents has long '
+         'since been spent on inventory, equipment and everything else.'),
+        ('dividend',
+         'A distribution of profit to the shareholders.', 'توزيعات الأرباح',
+         'A dividend is never an expense. It is a payment to owners, so it reduces '
+         'retained earnings and never touches the income statement.'),
+        ('par value',
+         'A nominal legal amount attached to each share.', 'القيمة الاسمية',
+         'Arbitrary, and usually tiny. Its only effect is to decide how much of '
+         'what shareholders pay sits in common stock rather than in additional '
+         'paid-in capital.'),
+        ('contributed capital',
+         'The total the shareholders paid in: common stock plus additional paid-in '
+         'capital.', 'رأس المال المدفوع',
+         'Contributed capital and retained earnings answer different questions: '
+         'what was put in, and what was earned and kept.'),
         ('liquidity',
          'How quickly an item can be turned into cash.', 'السيولة',
          'The ordering of a balance sheet is an ordering by liquidity, which is '

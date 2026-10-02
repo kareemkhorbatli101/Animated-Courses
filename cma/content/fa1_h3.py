@@ -320,8 +320,8 @@ HANDOUT = dict(
           'comprehensive': ('The second half of the year’s result.', ''),
           'accumulated': ('The balance sheet line from Handout 2.', ''),
           'net': ('Net of tax, which is why the reported figure is smaller.',
-                  'Students report the pre-tax gain and break the roll-forward of '
-                  'the accumulated line.')},
+                  'Students report the pre-tax gain, and the accumulated '
+                  'balance then fails to close.')},
          ['realised', 'operating', 'gross']),
         ('stmt', '%s · Statement of Comprehensive Income for the year ended '
                  '31 December %s' % (N.name, Y), _ci(), SCE),
