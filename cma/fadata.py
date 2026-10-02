@@ -1005,7 +1005,10 @@ class Cons:
 
     @property
     def nci(self):
-        return self.implied_total * (1 - self.stake)
+        # implied_total * (1 - stake) leaves a float artefact, because 1 - 0.8
+        # is not 0.2 in binary. The NCI is the part of the implied value the
+        # parent did not buy, so take the subtraction the words describe.
+        return self.implied_total - self.price
 
     @property
     def goodwill(self):
