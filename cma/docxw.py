@@ -634,6 +634,7 @@ GIVEN = '44506B'                                        # data you are handed
 TRAP, GOOD = RED, GREEN
 WATCH = AMBER
 REGC = {'R1': GREEN, 'R2': BLUE, 'R3': PLUM}
+ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi']
 REGN = {'R1': 'teaching English', 'R2': 'textbook English', 'R3': 'exam English'}
 
 
@@ -948,7 +949,7 @@ class _CMA:
                          % (tblpr(RULE, 4), ''.join(trs)))
         self.blank()
 
-    def match(self, left, right, accent=INDIGO):
+    def match(self, left, right, accent=INDIGO, note=''):
         """Matching: numbered items on the left, lettered options on the right."""
         rows = max(len(left), len(right))
         head = '<w:tr>%s</w:tr>' % ''.join(
@@ -972,6 +973,12 @@ class _CMA:
         self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="5"/><w:gridCol w:w="37"/>'
                          '<w:gridCol w:w="10"/><w:gridCol w:w="5"/><w:gridCol w:w="43"/>'
                          '</w:tblGrid>%s</w:tbl>' % (tblpr(RULE, 4), ''.join(trs)))
+        if note:
+            # Whether an option may be used twice is part of the task, and a
+            # student who assumes one-to-one can finish the last two rows by
+            # elimination. The note has to be on the page, not only in the key.
+            self.body.append(para([run(note, sz=17, color=GREY)],
+                                  '<w:spacing w:before="60" w:after="60"/>'))
         self.blank()
 
     def sortgrid(self, headers, items, accent=INDIGO):
@@ -1004,6 +1011,170 @@ class _CMA:
         for i, o in enumerate(options):
             self.body.append(para([run('(%s)  ' % 'ABCD'[i], color=GREY, sz=19), run(o, sz=19)],
                                   '<w:ind w:left="340"/><w:spacing w:after="30"/>'))
+
+    # ---- the item-only format -------------------------------------------
+    # Nothing on an item-only page explains anything. The five renderers below
+    # are what is needed to carry a whole handout as questions: material to
+    # interrogate, scaffolding that is itself a choice, an item that asks for
+    # the reason as well as the answer, an item that asks what went wrong, and
+    # a checkpoint between parts.
+
+    def stim(self, label, title, rows, accent=PLUM, ar=None):
+        """Material for an item set: the data the items interrogate.
+
+        The one element on an item-only page that is not a question. It is
+        evidence, not exposition: a list of readers, an extract of a statement,
+        a set of figures. It states no rule and draws no conclusion, so every
+        conclusion on the page has to be reached by answering something.
+        """
+        ps = [para([run(label, b=True, color='FFFFFF', sz=15)],
+                   '<w:spacing w:after="0"/>')]
+        head = ('<w:tr><w:tc>%s%s</w:tc></w:tr>'
+                % (tcpr(accent, 70), ''.join(ps)))
+        body = [para([run(title, b=True, color=accent, sz=20)],
+                     '<w:spacing w:after="70"/>')]
+        for r in rows:
+            if isinstance(r, str):
+                body.append(para([run(r, sz=19)],
+                                 '<w:spacing w:after="50" w:line="280" '
+                                 'w:lineRule="auto"/>'))
+            else:
+                body.append(para([run(r[0] + '   ', b=True, sz=19),
+                                  run(r[1], sz=19)],
+                                 '<w:ind w:left="200" w:hanging="200"/>'
+                                 '<w:spacing w:after="40"/>'))
+        if ar:
+            # The learners know this material in Arabic and are examined in
+            # English. The material is the one thing on the page that is not a
+            # question, so it is the one thing worth giving twice: the reading
+            # effort then goes into the items rather than into the situation.
+            body.append(para([run('\u0627\u0644\u0645\u0627\u062f\u0629 '
+                                  '\u0628\u0627\u0644\u0639\u0631\u0628\u064a\u0629',
+                                  b=True, color=accent, sz=18)],
+                             '<w:bidi/><w:jc w:val="right"/>'
+                             '<w:spacing w:before="130" w:after="50"/>'
+                             '<w:pBdr><w:top w:val="single" w:sz="6" w:space="7" '
+                             'w:color="%s"/></w:pBdr>' % accent))
+            for r in ar:
+                if isinstance(r, str):
+                    body.append(para([arun(r, sz=19)],
+                                     '<w:bidi/><w:jc w:val="right"/>'
+                                     '<w:spacing w:after="50" w:line="300" '
+                                     'w:lineRule="auto"/>'))
+                else:
+                    body.append(para([arun(r[0] + '   ', b=True, sz=19),
+                                      arun(r[1], sz=19)],
+                                     '<w:bidi/><w:jc w:val="right"/>'
+                                     '<w:spacing w:after="40" w:line="300" '
+                                     'w:lineRule="auto"/>'))
+        cell = '<w:tr><w:tc>%s%s</w:tc></w:tr>' % (tcpr(SOFT, 150), ''.join(body))
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
+                         '%s%s</w:tbl>' % (tblpr(accent, 4), head, cell))
+        self.blank()
+
+    def step(self, n, question, options, accent=TEAL):
+        """Scaffolding as an item: the decision that has to be made first.
+
+        In the format this replaces, the same thing was a grey First move line
+        that told the student what to do and, often, what the answer was. Here
+        the first move is a choice with wrong options in it, so a student who
+        would have gone the wrong way finds out by going it.
+        """
+        self.body.append(para(
+            [run('STEP %s' % n, b=True, color='FFFFFF', sz=15),
+             run('    ', sz=15), run(question, b=True, sz=19)],
+            '<w:spacing w:before="140" w:after="40"/><w:ind w:left="120"/>'
+            '<w:shd w:fill="%s" w:val="clear"/>' % accent))
+        rs = []
+        for i, o in enumerate(options):
+            if i:
+                rs.append(run('      ', sz=18))
+            rs.append(run('(%s) ' % 'abcd'[i], b=True, color=accent, sz=18))
+            rs.append(run(o, sz=18))
+        self.body.append(para(rs, '<w:ind w:left="320"/>'
+                              '<w:spacing w:after="100" w:line="270" '
+                              'w:lineRule="auto"/>'))
+
+    def tier(self, n, stem, options, reasons, accent=INDIGO):
+        """A two-tier item: the answer, and then the reason for it.
+
+        A student who picks the right answer for the wrong reason is caught by
+        the second tier, which is the point of having one. On a four-option
+        item alone a guess is right once in four times and reads exactly like
+        knowing; on a two-tier item the two tiers have to agree.
+        """
+        self.body.append(para(
+            [run('%d.' % n, b=True, color=accent, sz=19),
+             run('   ', sz=19), run(stem, b=True, sz=19)],
+            '<w:spacing w:before="190" w:after="50"/>'
+            '<w:pBdr><w:top w:val="single" w:sz="6" w:space="6" w:color="%s"/>'
+            '</w:pBdr>' % RULE))
+        self.body.append(para([run('the answer', b=True, color=GREY, sz=16)],
+                              '<w:ind w:left="320"/><w:spacing w:after="20"/>'))
+        for i, o in enumerate(options):
+            self.body.append(para([run('(%s)  ' % 'ABCD'[i], color=GREY, sz=18),
+                                   run(o, sz=18)],
+                                  '<w:ind w:left="460"/><w:spacing w:after="20"/>'))
+        self.body.append(para([run('because', b=True, color=GREY, sz=16)],
+                              '<w:ind w:left="320"/>'
+                              '<w:spacing w:before="70" w:after="20"/>'))
+        for i, r in enumerate(reasons):
+            self.body.append(para([run('(%s)  ' % ROMAN[i], color=GREY, sz=18),
+                                   run(r, sz=18)],
+                                  '<w:ind w:left="460"/><w:spacing w:after="20"/>'))
+        self.body.append(para(
+            [run('answer ', color=GREY, sz=18), run('      ', u=True, sz=18),
+             run('     because ', color=GREY, sz=18), run('      ', u=True, sz=18),
+             run('     both tiers must agree', color=GREY, sz=16)],
+            '<w:ind w:left="460"/><w:spacing w:before="60" w:after="60"/>'))
+
+    def diag(self, n, title, shown, options, accent=RED):
+        """A piece of wrong work, and four candidate diagnoses.
+
+        The hardest item on the page. The student is not asked for the answer
+        but for the name of the error, which cannot be reached by recognising
+        a figure, and the three wrong diagnoses are errors that are real but
+        are not the one in front of them.
+        """
+        self.body.append(para(
+            [run('%d.' % n, b=True, color=accent, sz=19), run('   ', sz=19),
+             run(title, b=True, sz=19)],
+            '<w:spacing w:before="190" w:after="60"/>'))
+        ps = []
+        for l in shown:
+            ps.append(para([run(l, sz=18, mono=True)],
+                           '<w:spacing w:after="30"/>'))
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
+                         '<w:tr><w:tc>%s%s</w:tc></w:tr></w:tbl>'
+                         % (tblpr(CREAM, 4), tcpr(CREAM, 130), ''.join(ps)))
+        self.body.append(para([run('What is wrong with it?', b=True,
+                                   color=accent, sz=18)],
+                              '<w:spacing w:before="90" w:after="30"/>'))
+        for i, o in enumerate(options):
+            self.body.append(para([run('(%s)  ' % 'ABCD'[i], color=GREY, sz=18),
+                                   run(o, sz=18)],
+                                  '<w:ind w:left="340"/><w:spacing w:after="20"/>'))
+
+    def gate(self, span, score, redo, key_at=''):
+        """A checkpoint between parts, and the condition for going on.
+
+        Programmed instruction's one durable finding was the value of marking
+        an answer at once; its failure was frames so small that the student
+        never held a whole problem. The gate keeps the first and the terminal
+        parts of this handout restore the second.
+        """
+        rs = [run('CHECK   ', b=True, color='FFFFFF', sz=16),
+              run('items %s' % span, b=True, color='FFFFFF', sz=18)]
+        if key_at:
+            rs.append(run('   \u00b7   key: %s' % key_at, color='FFFFFF', sz=16))
+        # A gate with no pass mark is the cold open's, where there is nothing
+        # to mark yet: the instruction stands on its own.
+        rs.append(run('   \u00b7   fewer than %s right: ' % score if score
+                      else '   \u00b7   ', color='FFFFFF', sz=16))
+        rs.append(run(redo, b=True, color='FFFFFF', sz=16))
+        self.body.append(para(rs, '<w:spacing w:before="160" w:after="150"/>'
+                              '<w:ind w:left="140" w:right="140"/>'
+                              '<w:shd w:fill="%s" w:val="clear"/>' % INDIGO_D))
 
     # ---- key furniture ----------------------------------------------
     def keytable(self, rows, accent=GREEN):

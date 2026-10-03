@@ -10,7 +10,8 @@ content files.
 
 class SetSpec:
     def __init__(self, key, code, title, cover1, cover2, cso, handouts,
-                 modpat, out, intro, arith=None, company='', terse=False):
+                 modpat, out, intro, arith=None, company='', terse=False,
+                 itemonly=False):
         self.key = key              # 'd1', 'fa1', ... — the command-line name
         self.code = code            # 'Set D1' — printed on the cover and headers
         self.title = title          # 'Absorption and Variable Costing'
@@ -24,6 +25,13 @@ class SetSpec:
         self.arith = arith          # callable(bad): recompute this Set's figures
         self.company = company      # the running scenario, named on the title page
         self.terse = terse          # the 2026 format: no printed objectives list
+        # The item-only format: nothing on the page explains anything.
+        # Every element is a question, including the scaffolding, and the
+        # only thing that is not a question is the material the questions
+        # interrogate. Implies terse.
+        self.itemonly = itemonly
+        if itemonly:
+            self.terse = True
 
     @property
     def n(self):
@@ -166,6 +174,23 @@ _add(SetSpec(
           'and not one figure printed in the prose that a table then asks '
           'for. The case gives three estimates; everything else is derived.',
     arith=_fa_arith, company='Northwind Components', terse=True))
+
+# ------------------------------------------------- the item-only format ------
+# Handout 1 again, with the exposition removed rather than shortened. Nothing
+# on the page explains anything: the scaffolding is a question, the contrasts
+# are questions, the material is evidence, and the objectives list is replaced
+# by six items the student answers before and after.
+_add(SetSpec(
+    key='v1i', code='Volume 1', title='The Framework and the Statements',
+    cover1='Ninety-Two Decisions', cover2='and Nothing to Read',
+    cso='Section A.1 \u00b7 item-only format', handouts=[1],
+    modpat='content.i1_h%d',
+    out=OUT + 'CMA_ItemOnly_Volume1_Handout1.docx',
+    intro='One handout, built entirely out of questions. Every element is a '
+          'multiple choice, a blank or a match, including the scaffolding, '
+          'and the only element that is not a question is the material the '
+          'questions are asked about.',
+    arith=_fa_arith, company='Northwind Components', itemonly=True))
 
 # ------------------------------------------------- the intermediate bridge --
 # Volumes 13 to 17 finish intermediate accounting. They are not Section A, so

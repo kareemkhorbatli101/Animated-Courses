@@ -210,6 +210,62 @@ def check_handout(H, seen_terms, bad):
                         % (len(cells), len(heads)))
                 if k not in ('w', 'd'):
                     say('a worked table row has kind %r, not w or d' % k)
+        elif kind == 'step':
+            q, opts, ai, why = b[1], b[2], b[3], b[4]
+            if not 2 <= len(opts) <= 4:
+                say('step %r has %d options' % (q[:40], len(opts)))
+            if not 0 <= ai < len(opts):
+                say('step %r has answer index %r' % (q[:40], ai))
+            if len(why) < 60:
+                say('step %r has no real explanation' % q[:40])
+            # A step is scaffolding turned into a question. Scaffolding with
+            # only right answers in it is the grey first-move line again, in
+            # a box: the student reads the one option and is told what to do.
+            if len(opts) < 3:
+                say('step %r offers fewer than three options; scaffolding '
+                    'with no wrong way in it is a hint, not an item' % q[:40])
+        elif kind == 'tier':
+            stem, opts, reasons, ai, ri, why = b[1], b[2], b[3], b[4], b[5], b[6]
+            nmcq += 1
+            if len(opts) != 4:
+                say('two-tier item %r has %d answers' % (stem[:40], len(opts)))
+            if not 3 <= len(reasons) <= 5:
+                say('two-tier item %r has %d reasons' % (stem[:40], len(reasons)))
+            if not 0 <= ai < len(opts):
+                say('two-tier item %r has answer index %r' % (stem[:40], ai))
+            if not 0 <= ri < len(reasons):
+                say('two-tier item %r has reason index %r' % (stem[:40], ri))
+            if len(why) < 60:
+                say('two-tier item %r has no real explanation' % stem[:40])
+        elif kind == 'diag':
+            title, shown, opts, ai, why = b[1], b[2], b[3], b[4], b[5]
+            nmcq += 1
+            if len(opts) != 4:
+                say('diagnosis item %r has %d options' % (title[:40], len(opts)))
+            if not 0 <= ai <= 3:
+                say('diagnosis item %r has answer index %r' % (title[:40], ai))
+            if len(why) < 60:
+                say('diagnosis item %r has no real explanation' % title[:40])
+            if not [l for l in shown if l.strip()]:
+                say('diagnosis item %r shows the student no work' % title[:40])
+        elif kind == 'stim':
+            label, title, rows = b[1], b[2], b[3]
+            if not label.isupper():
+                say('material block %r is not labelled in capitals' % label)
+            if not rows:
+                say('material block %s is empty' % label)
+            # The material is the one element on an item-only page that is not
+            # a question, so it is the one element that could smuggle teaching
+            # back in. It states facts about the company and nothing else.
+            for r in rows:
+                t = r if isinstance(r, str) else ' '.join(r)
+                for giveaway in ('which means', 'therefore', 'so the answer',
+                                 'remember that', 'note that', 'in other '
+                                 'words'):
+                    if giveaway in t.lower():
+                        say('material %s draws a conclusion (%r); material '
+                            'states facts and the items draw the conclusions'
+                            % (label, giveaway))
         elif kind == 'table':
             heads, rows = b[1], b[2]
             for r in rows:
@@ -255,6 +311,72 @@ def check_handout(H, seen_terms, bad):
             if SHOUT.search(x) and any(c.islower() for c in x):
                 say('a sentence is set in capitals: %r — use a colour-coded '
                     'note instead' % SHOUT.search(x).group(0)[:60])
+    # ---- the item-only format ---------------------------------------
+    # Enforced structurally rather than by eye: in this format a block that
+    # explains something cannot be added to a handout without the build
+    # failing, which is the only way a rule like this survives 75 handouts.
+    if getattr(SPEC, 'itemonly', False):
+        EXPOSITION = {'prose': 'a paragraph of teaching text',
+                      'case': 'a narrative case',
+                      'three_ways': 'the same idea restated at three '
+                                    'registers',
+                      'traps': 'a table of what candidates assume',
+                      'scene': 'a narrated scene',
+                      'tip': 'an adaptive tip',
+                      'watch': 'a watch-out panel',
+                      'bullets': 'a list of statements',
+                      'gloss': 'a glossary panel',
+                      'stmt': 'a completed statement',
+                      'journal': 'completed journal entries',
+                      'decoder': 'a stem decoder'}
+        for b in H['blocks']:
+            if b[0] in EXPOSITION:
+                say('block %r is %s; in the item-only format every element '
+                    'is a question and the only element that is not is the '
+                    'material' % (b[0], EXPOSITION[b[0]]))
+        kinds = [b[0] for b in H['blocks']]
+        if 'gate' not in kinds:
+            say('an item-only handout with no CHECK bar: a student has no '
+                'point at which to mark what they have done')
+        if 'stim' not in kinds:
+            say('an item-only handout with no material: the items have '
+                'nothing to be asked about')
+        if 'step' not in kinds:
+            say('an item-only handout with no step: the scaffolding has '
+                'been dropped rather than converted')
+        # The cold open is the substitute for the objectives list, so it has
+        # to be there and it has to come back. The same stems, twice.
+        stems = [b[1] for b in H['blocks'] if b[0] == 'mcq']
+        twice = [t for t in set(stems) if stems.count(t) == 2]
+        if len(twice) < 4:
+            say('only %d items are asked twice; the cold open replaces the '
+                'objectives list and only works if the same questions come '
+                'back verbatim' % len(twice))
+        # Every wrong option worth printing means something. A misread map
+        # that names the answer's own letter is a bug, not a diagnosis.
+        for b in H['blocks']:
+            if b[0] in ('mcq', 'tier', 'diag') and len(b) > 6:
+                mis = b[-1]
+                if not isinstance(mis, dict):
+                    continue
+                if b[0] == 'mcq':
+                    opts, ai = b[2], b[3]
+                elif b[0] == 'tier':
+                    opts, ai = b[2], b[4]
+                else:
+                    opts, ai = b[3], b[4]
+                for L in mis:
+                    if L not in 'ABCD'[:len(opts)]:
+                        say('a misread map names option %r, which does not '
+                            'exist' % L)
+                    elif 'ABCD'.index(L) == ai and b[0] != 'tier':
+                        say('a misread map explains option %r, which is the '
+                            'answer' % L)
+                        # On a two-tier item the answer's own letter is a
+                        # legitimate entry: a student can reach the right
+                        # answer by the wrong reason, and saying so is the
+                        # only reason the second tier is there.
+
     if nmcq < 7:
         say('only %d exam questions' % nmcq)
     if nblank < 8:
