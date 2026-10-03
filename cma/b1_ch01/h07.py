@@ -43,7 +43,7 @@ _TA = ['a liability', 'a liability']
 
 HANDOUT = dict(
     n=7, book='CMA Part 1 · Section A · Chapter 1', source='1.3',
-    title='Orontes in February: entries and effects',
+    title='Deferrals and accruals: entries and effects',
     covers=['1.3-h'],
     pages=[
 

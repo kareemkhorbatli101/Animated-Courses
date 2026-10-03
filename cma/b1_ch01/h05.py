@@ -48,7 +48,7 @@ _TOTA = ['850', '1,530', '2,300', '300']
 
 HANDOUT = dict(
     n=5, book='CMA Part 1 · Section A · Chapter 1', source='1.3',
-    title='Orontes in January: the six journal entries',
+    title='Double entry: recording six transactions',
     covers=['1.3-e', '1.3-g', '1.3-k'],
     pages=[
 

@@ -112,7 +112,7 @@ _TLA = ['50', '1,800', '2,230']
 
 HANDOUT = dict(
     n=11, book='CMA Part 1 · Section A · Chapter 1', source='1.6',
-    title='Reading a trial balance: Barada Wholesale',
+    title='Reading a trial balance',
     covers=['1.6-e', '1.6-g', 'C'],
     pages=[
 

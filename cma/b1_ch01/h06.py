@@ -51,7 +51,7 @@ _MISA = ['the cash is revenue', 'it is financing',
 
 HANDOUT = dict(
     n=6, book='CMA Part 1 · Section A · Chapter 1', source='1.3',
-    title='Orontes in January: the effect on the statements',
+    title='The effect of a transaction on the four statements',
     covers=['1.3-f', '1.3-g', '1.3-i'],
     pages=[
 

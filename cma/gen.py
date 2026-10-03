@@ -658,25 +658,71 @@ def pack(pool, target=0.74, pages=4, hi=78):
     return hs
 
 
+def short_subject(title):
+    """The chapter's subject, short enough to sit in front of a qualifier.
+
+    Taken as written, so 'Inventory I' keeps its numeral: lower-casing it
+    turned the title into 'Inventory i: exam practice'.
+    """
+    return re.sub(r'^(The|A)\s+', '', title.split(':')[0].strip())
+
+
 def titles_for(d, hs):
-    """A handout is named after what its own exercises came from."""
-    names = []
-    for i, h in enumerate(hs, 1):
-        secs = sorted({c.split(':')[1] for p in h for x in p
-                       for c in x['covers'] if c.startswith('cloze:')})
+    """Name a handout after the concept it practises.
+
+    The first version named the source location instead — 'Section 10.2',
+    'The practice set', 'The tables and figures' — which tells a student
+    holding one loose sheet nothing about what is on it. The book's own
+    section headings are the concepts, and they were being thrown away along
+    with the section numbers.
+    """
+    secs = {x['no']: x['title'] for x in d['sections']}
+    subj = short_subject(d['title'])
+    names, used, usedkeys = [], set(), []
+    for h in hs:
+        got = sorted({c.split(':')[1] for p in h for x in p
+                      for c in x['covers'] if c.startswith('cloze:')})
         kinds = collections.Counter(x['t'] for p in h for x in p)
-        if secs:
-            nm = 'Sections %s' % ', '.join(secs) if len(secs) > 1 \
-                else 'Section %s' % secs[0]
-        elif kinds.get('T5'):
-            nm = 'The tables and figures'
-        elif kinds.get('T1', 0) >= 2:
-            nm = 'The practice set'
-        elif kinds.get('T4'):
-            nm = 'The terms and the contrasts'
+        if got:
+            heads = []
+            for g in got:
+                if g not in secs:
+                    continue
+                hd = secs[g]
+                m = re.match(r'^\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x)\)\s+(.+)$',
+                             hd)
+                if m:
+                    hd = '%s: %s' % (subj, m.group(1)[0].lower()
+                                     + m.group(1)[1:])
+                heads.append(hd)
+            nm = ' \u00b7 '.join(heads) if heads else ''
+            if len(nm) > 72:
+                nm = ('%s \u00b7 and %d more section%s'
+                      % (heads[0], len(heads) - 1,
+                         '' if len(heads) == 2 else 's'))
         else:
-            nm = 'Review'
-        names.append('%s · part %d' % (nm, i) if nm in names else nm)
+            nm = ''
+        if not nm:
+            if kinds.get('T5') or kinds.get('T6'):
+                nm = '%s: the figures and the schedules' % subj
+            elif kinds.get('T1', 0) >= 2:
+                nm = '%s: exam practice' % subj
+            elif kinds.get('T4'):
+                nm = '%s: the terms and the contrasts' % subj
+            else:
+                nm = '%s: review' % subj
+        key = tuple(got) or (nm,)
+        seen = sum(1 for k2 in usedkeys if set(k2) & set(key))
+        if seen and got:
+            nm = '%s \u00b7 part %d' % (nm, seen + 1)
+        base = nm
+        k = 2
+        while nm in used:
+            nm = '%s \u00b7 part %d' % (base, k)
+            k += 1
+        used.add(nm)
+        usedkeys.append(key)
+        names.append(nm)
     return names
 
 
