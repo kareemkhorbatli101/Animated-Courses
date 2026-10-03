@@ -295,3 +295,115 @@ from quietly inventing accounting.
 
 **The lecturer supplies:** circulation, listening, and the decision of when to
 pull the room together. Not presentation.
+
+---
+
+## 8 · Built — the two reference chapters, and what the build changed
+
+Two chapters were built to this standard: **Book 1 Chapter 1**, which is a
+chapter of definitions, and **Book 1 Chapter 7**, which is a chapter of
+arithmetic. They were chosen as a pair precisely because the format has to
+work for both, and because the second was the honest test of whether the first
+had only been designed for easy material.
+
+### What came out
+
+| | Ch 1 · The Language and Framework | Ch 7 · Inventory I |
+|---|---|---|
+| Handouts | 12 | 8 |
+| Student pages | 71 | 42 |
+| Response items | 332 | 184 |
+| Drawn figures | 15, each with a blank twin | 7, each with a blank twin |
+| Chapter items covered | 102 of 102 | 75 of 75 |
+| Worst measured page fill | 0.93 | 0.93 |
+
+Across both chapters, **113 student pages, none over budget**. The only
+measurements above one page are three answer-key sheets, which flow onto a
+second sheet; a key is not page-budgeted, and cutting the reasons to fit one
+sheet would remove the most useful part of it.
+
+### How the two chapters differ, and why that matters
+
+Chapter 1's cycles mostly **invent a rule from a diagram**: the beam, the
+equity tree, the quality hierarchy. Chapter 7's mostly **run a worked trace,
+fade it to a completion problem, and then take the scaffolding away** — the
+same skill asked three times with less help each time, which is what the
+fading gate exists to enforce. The six moves did not need changing for the
+computational chapter; what changed was which kind of model fills move 2.
+
+The figures differ in the same way. Chapter 1's draw what a term *means*.
+Chapter 7's draw where a number *comes from*: one total split two ways, the
+layers a cost flow assumption cuts through, the direction every figure moves
+when prices rise, the year an error lands in.
+
+### Three gates changed, with the measurements that changed them
+
+The gates were written before any handout existed. Three were wrong, and the
+build is what showed it.
+
+- **A drawn figure every two pages forced decoration.** Measured against real
+  handouts, a worked trace and a data panel carry a model just as well as a
+  diagram does. The rule is now one model every three pages, at least two per
+  handout, and at least one drawn figure per handout.
+
+- **A cycle may teach twice.** The move-order gate read MODEL, READ, MODEL,
+  READ as moves out of order. It is a second pass at the same idea, and four
+  cycles across the two chapters legitimately do it. The gate now tests
+  precedence — a read after a model, an invent after a read, an apply after a
+  read — rather than a single ascending sequence.
+
+- **A figure the student computes is not a figure the book prints.** The
+  original rule refused any number not in the chapter. But a handout that asks
+  for FIFO ending inventory on a different quantity has to print the answer in
+  its key, and the book never states it. Such figures are now allowed only
+  when they are declared in the handout's `derived` table *with the arithmetic
+  that produces them*. That is stricter than the old rule in the way that
+  matters: the working is now on the record and auditable, instead of the
+  number simply being absent from the source.
+
+One gate was loosened for a reason that is not a concession: the no-lecture
+word count now ignores the answer key. The key is the one place a full
+explanation belongs, and counting it was penalising the sheets for explaining
+themselves properly.
+
+### What the gates caught
+
+They are not decoration. On the first full run of the two chapters they
+returned 49 failures. Two were mistakes that would have reached a student:
+
+- A figure of **1,702,450** in a Chapter 1 contrasting case, which came from
+  Book 3 and has nothing to do with Book 1. The source-numbers gate had no
+  opinion about whether it looked plausible; it simply was not in the chapter.
+- A set of **invented cost layers** for the Dubai pastry trays. The book gives
+  only the total — 3,000 trays costing 68,000 — and not the layers, so the
+  layers had been made up; they did not even add back to the total. The
+  exercise was rebuilt on arithmetic the book's own figures support.
+
+The rest were structural: a rule frame with no contrasting cases after it, a
+cycle whose model had no questions interrogating it, a checkpoint whose reloop
+named a move that did not exist, six coverage ids that did not match the
+chapter inventory.
+
+### The page count is a result, not a decision
+
+The builder measures what it has emitted and breaks at the last block boundary
+that fits, binding a cycle bar to what follows it and a model to the move that
+reads it. The author writes the flow and marks a break only where the teaching
+needs one — before a prediction is checked, for instance. This removed a whole
+class of work: the first draft had every page break placed by hand, and three
+pages still came out over budget.
+
+The declared page count is then written back into the source after the build,
+so that the running header's "Page 2 of 6" and the 4-to-8 page rule are held
+against what the document actually is.
+
+### A note on verification
+
+LibreOffice is unavailable in the build container — it fails on a plain text
+file, not only on these — so the documents were not proofed by rendering them
+to PDF. They are verified structurally instead: the zip, the XML, every
+relationship and every embedded image, plus the page-fill estimator that reads
+the built file rather than trusting the height model. That is the same
+verification the three first-generation books were delivered under. The
+figures themselves were proofed by eye, as images, before being embedded.
+

@@ -31,21 +31,35 @@ MOVES = ['ORIENT', 'MODEL', 'READ THE MODEL', 'INVENT THE RULE', 'APPLY',
          'CHECKPOINT']
 
 # Numbers worth checking against the book: three digits or more, or a year.
-NUMBER = re.compile(r'\b\d[\d,]{2,}\b|\b20X\d\b|\b\d{4}\b')
+# A lookbehind keeps the gate off the fractional part of a decimal: 22.667
+# is one figure, not a figure and a stray 667.
+NUMBER = re.compile(r'(?<![\d.])(?:\d[\d,]{2,}|20X\d|\d{4})\b')
 # A reference to something that is not on this sheet.
 CROSSREF = re.compile(r'\b(handout|exercise)\s+\d|\bfigure\s+F\d|'
                       r'\bsee\s+(handout|exercise|page)\b', re.I)
 
 
-def _texts(blk):
-    """Every string a flow block puts on the page, flattened."""
+# What an item carries for the key rather than for the page.
+KEY_ONLY = ('a', 'why', 'whys')
+
+
+def _texts(blk, on_page=False):
+    """Every string a flow block holds, flattened.
+
+    With on_page, the answers and the reasons are left out, because they are
+    printed on the key sheet and never on the handout. The no-lecture gate
+    counts what a student reads while working; a full explanation in the key
+    is the one place a long sentence belongs.
+    """
     out = []
 
     def walk(x):
         if isinstance(x, str):
             out.append(x)
         elif isinstance(x, dict):
-            for v in x.values():
+            for k, v in x.items():
+                if on_page and k in KEY_ONLY:
+                    continue
                 walk(v)
         elif isinstance(x, (list, tuple)):
             for v in x:
@@ -206,7 +220,7 @@ def g_visual_density(H, src, fails):
     if figs + panels < need:
         fails.append('%s: %d models over %d pages, against %d needed'
                      % (H['id'], figs + panels, pages, need))
-    if not figs:
+    if not figs and not builds:
         fails.append('%s: no drawn figure at all' % H['id'])
     if figs and not builds:
         fails.append('%s: has drawn figures but no blank twin to rebuild'
@@ -223,7 +237,7 @@ def g_no_lecture(H, src, fails):
     for blk in H['flow']:
         if blk[0] in ('teach', 'rule', 'build', 'check'):
             continue
-        for t in _texts(blk):
+        for t in _texts(blk, on_page=True):
             n = len(t.split())
             if n > 45:
                 fails.append('%s: a %d-word block of prose: %.60r'
