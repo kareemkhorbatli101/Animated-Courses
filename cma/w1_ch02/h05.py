@@ -15,152 +15,109 @@ HANDOUT = {'id': '2.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Limitations and links to the other statements', 'cycle A'],
-            ['Account and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.1?',
-             'o': ['Purpose and structure of the balance sheet',
-                   'Classifying debt',
-                   'Current and noncurrent items',
-                   'Other presentation matters'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the balance '
-                    'sheet” as section 2.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.2?',
-             'o': ['Classifying debt',
-                   'Other presentation matters',
-                   'Current and noncurrent items',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Current and noncurrent items” as '
-                    'section 2.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.3?',
-             'o': ['Purpose and structure of the balance sheet',
-                   'Classifying debt',
-                   'Other presentation matters',
-                   'Current and noncurrent items'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying debt” as section 2.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.4?',
-             'o': ['Current and noncurrent items',
-                   'Purpose and structure of the balance sheet',
-                   'Other presentation matters',
-                   'Classifying debt'],
-             'a': 'C',
-             'why': 'The book numbers “Other presentation matters” as '
-                    'section 2.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.5?',
-             'o': ['Current and noncurrent items',
-                   'Classifying debt',
-                   'Limitations and links to the other statements',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Limitations and links to the other '
-                    'statements” as section 2.5.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Prepaid rent?',
-             'o': ['Equity',
-                   'Noncurrent asset',
-                   'Current liability',
-                   'Current asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Current asset as the '
-                    'category of Prepaid rent.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Land?',
-             'o': ['Current liability',
-                   'Current asset',
-                   'Equity',
-                   'Noncurrent asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Noncurrent asset as the '
-                    'category of Land.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Allowance for '
-                  'credit losses?',
-             'o': ['Current asset',
-                   'Current liability',
-                   'Equity',
-                   'Noncurrent asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives Current asset as the '
-                    'category of Allowance for credit losses.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Equity',
-                   'Current liability',
-                   'Noncurrent asset',
-                   'Current asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Additional paid-in '
-                  'capital?',
-             'o': ['Current asset',
-                   'Current liability',
-                   'Noncurrent asset',
-                   'Equity'],
-             'a': 'D',
-             'why': 'The book’s own table gives Equity as the category of '
-                    'Additional paid-in capital.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Cash set '
-                  'aside in a sinking fund to repay bonds in 2029?',
-             'o': ['________', 'Noncurrent asset', 'Current asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives Noncurrent asset as the '
-                    'classification of Cash set aside in a sinking fund to '
-                    'repay bonds in 2029.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Date vinegar '
-                  'that Orontes ages for 18 months before sale?',
-             'o': ['________', 'Noncurrent asset', 'Current asset'],
-             'a': 'C',
-             'why': 'The book’s own table gives Current asset as the '
-                    'classification of Date vinegar that Orontes ages for 18 '
-                    'months before sale.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Cash '
-                  'surrender value of an executive life insurance policy?',
-             'o': ['Current asset', '________', 'Noncurrent asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Cash surrender value of an executive '
-                    'life insurance policy.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Bank loan due '
-                  'on demand; the bank has never asked for repayment?',
-             'o': ['Current asset', '________', 'Noncurrent asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Bank loan due on demand; the bank has '
-                    'never asked for repayment.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Deferred tax '
-                  'asset from warranty costs expected to reverse next year?',
-             'o': ['Current asset', 'Noncurrent asset', '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Deferred tax asset from warranty '
-                    'costs expected to reverse next year.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Customer '
-                  'deposits for orders to be delivered next month?',
-             'o': ['Current asset', '________', 'Noncurrent asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Customer deposits for orders to be '
-                    'delivered next month.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Limitations and links to the other statements',
+             'a figure to read · Account / memo (USD 000)',
+             'Which of these did this cycle settle?'],
+            ['The words this section uses precisely',
+             'Account · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['The balance sheet is useful, but it is not a ',
+                       11,
+                       ' of the company. Most assets are at ',
+                       12,
+                       ' cost, not current value: ',
+                       11,
+                       ' land and buildings are shown at what they cost '
+                       'years ago. Many amounts depend on estimates, such as '
+                       'the allowance for credit losses and useful lives.'],
+             'bank': ['valuation',
+                      "Orontes's",
+                      'callable debt',
+                      'historical',
+                      'operating cycle'],
+             'a': "valuation · historical · Orontes's",
+             'one': True,
+             'why': 'The book writes: “The balance sheet is useful, but it '
+                    'is not a valuation of the company. Most assets are at '
+                    "historical cost, not current value: Orontes's land and "
+                    'buildings are shown at what they cost years ago. Many '
+                    'amounts depend on estimates, such as the allowance for '
+                    'credit losses and useful lives.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Finally, the balance sheet shows one day. A company '
+                       'can improve its year-end picture, for example by '
+                       'delaying payments to ',
+                       11,
+                       ' for a few days. Readers ',
+                       11,
+                       ' compare several dates and read the other ',
+                       12,
+                       ' too.'],
+             'bank': ['callable debt',
+                      'therefore',
+                      'suppliers',
+                      'operating cycle',
+                      'statements'],
+             'a': 'suppliers · therefore · statements',
+             'one': True,
+             'why': 'The book writes: “Finally, the balance sheet shows one '
+                    'day. A company can improve its year-end picture, for '
+                    'example by delaying payments to suppliers for a few '
+                    'days. Readers therefore compare several dates and read '
+                    'the other statements too.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['The net change in cash in the statement of cash '
+                       'flows explains the change in the ',
+                       15,
+                       ' cash. Other ',
+                       15,
+                       ' income works the same way. Total ',
+                       15,
+                       ' equity is a book amount.'],
+             'bank': ['callable debt',
+                      'operating cycle',
+                      'balance-sheet',
+                      'comprehensive',
+                      "stockholders'"],
+             'a': "balance-sheet · comprehensive · stockholders'",
+             'one': True,
+             'why': 'The book writes: “The net change in cash in the '
+                    'statement of cash flows explains the change in the '
+                    'balance-sheet cash. Other comprehensive income works '
+                    "the same way. Total stockholders' equity is a book "
+                    'amount.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['operating cycle', ''],
+              ['subsequent events', ''],
+              ['restricted cash', ''],
+              ['refinancing', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Limitations and links to the other statements'),
           ('move',

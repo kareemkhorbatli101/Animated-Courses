@@ -7,8 +7,6 @@ HANDOUT = {'id': '6.1',
  'title': 'Recognizing and measuring receivables',
  'sub': 'section 6.1 of the book',
  'covers': ['sec:6.1',
-            'p:P6-08',
-            'p:P6-09',
             'p:P6-01',
             'p:P6-02',
             'p:P6-04',
@@ -27,112 +25,121 @@ HANDOUT = {'id': '6.1',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Recognizing and measuring receivables', 'cycle A'],
-            ['Item and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Under ASU 2025-05, a practical expedient lets companies '
-                  'assume current conditions will not change when they '
-                  'forecast losses on current receivables. How should a CMA '
-                  'candidate treat it in 2026?',
-             'o': ['As the main CECL rule',
-                   'As a rule that applies only to IFRS companies',
-                   'As a replacement for the aging method',
-                   'As a watch item that is not yet tested'],
-             'a': 'D',
-             'why': 'It is effective for annual periods beginning after '
-                    'December 15, 2025; under the one-year rule it is not '
-                    'yet tested. A is wrong: It is an optional '
-                    'simplification and is not yet testable. B is wrong: It '
-                    'is a U.S. GAAP update.',
-             'src': 'P6-08'},
-            {'t': 'MCQ',
-             'q': 'Receivables are transferred with recourse. They are '
-                  'legally isolated, the factor may pledge them, and the '
-                  'seller has no repurchase right or duty. How is the '
-                  'transfer recorded?',
-             'o': ['As a secured borrowing, because there is recourse',
-                   'As a sale, with no liability',
-                   'As a sale, with a recourse liability at fair value',
-                   'As a pledge of receivables'],
-             'a': 'C',
-             'why': 'All three sale conditions are met; recourse adds a '
-                    'liability to the sale. A is wrong: Recourse alone does '
-                    'not make the transfer a borrowing. B is wrong: The '
-                    'recourse obligation must be recorded.',
-             'src': 'P6-09'},
-            {'t': 'MCQ',
-             'q': 'Which transfer does the book pair with “Sale”?',
-             'o': ['T3', 'T1', 'T4'],
-             'a': 'B',
-             'why': 'The book’s own table pairs T1 with “Sale”.'},
-            {'t': 'MCQ',
-             'q': 'Which transfer does the book pair with “Secured '
-                  'borrowing”?',
-             'o': ['T3', 'T1', 'T2'],
-             'a': 'A',
-             'why': 'The book’s own table pairs T3 with “Secured '
-                    'borrowing”.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for 1–60 days past due?',
-             'o': ['80,000 × 8% = 6,400',
-                   '40,000 × 25% = 10,000',
-                   '3,600 + 6,400 + 10,000 = 20,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 80,000 × 8% = 6,400 as the '
-                    'answer of 1–60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Over 60 days past '
-                  'due?',
-             'o': ['80,000 × 8% = 6,400',
-                   '40,000 × 25% = 10,000',
-                   '3,600 + 6,400 + 10,000 = 20,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 40,000 × 25% = 10,000 as the '
-                    'answer of Over 60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Required allowance?',
-             'o': ['40,000 × 25% = 10,000',
-                   '3,600 + 6,400 + 10,000 = 20,000',
-                   '80,000 × 8% = 6,400'],
-             'a': 'B',
-             'why': 'The book’s own table gives 3,600 + 6,400 + 10,000 = '
-                    '20,000 as the answer of Required allowance.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of T1 as “Sale”.',
-             'a': 'T',
-             'why': 'The book pairs T1 with “Sale”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of T2 as “Secured borrowing”.',
-             'a': 'F',
-             'why': 'The book pairs T2 with “Sale”, not with “Secured '
-                    'borrowing”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of T3 as “Secured borrowing”.',
-             'a': 'T',
-             'why': 'The book pairs T3 with “Secured borrowing”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of 1–60 days past due as '
-                  '“80,000 × 8% = 6,400”.',
-             'a': 'T',
-             'why': 'The book pairs 1–60 days past due with “80,000 × 8% = '
-                    '6,400”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Over 60 days past due as '
-                  '“80,000 × 8% = 6,400”.',
-             'a': 'F',
-             'why': 'The book pairs Over 60 days past due with “40,000 × 25% '
-                    '= 10,000”, not with “80,000 × 8% = 6,400”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Required allowance as “3,600 '
-                  '+ 6,400 + 10,000 = 20,000”.',
-             'a': 'T',
-             'why': 'The book pairs Required allowance with “3,600 + 6,400 + '
-                    '10,000 = 20,000”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Recognizing and measuring receivables',
+             'a figure to read · Transfer · Age of receivable',
+             'Under CECL, when does a company first recognize expected '
+             'credit losses on a trade receivable?'],
+            ['The words this section uses precisely',
+             'Item · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['A company records an account ',
+                       12,
+                       ' when its right to be paid is ',
+                       15,
+                       ': only the passage of time is needed before payment '
+                       'is due. This usually happens when it delivers the '
+                       'goods or services and ',
+                       11,
+                       ' control (Chapter 11). If the company still has to '
+                       'do something else before it can bill, for example '
+                       'finish a second delivery, it has a contract asset, '
+                       'not a receivable.'],
+             'bank': ['secured borrowing',
+                      'transfers',
+                      'unconditional',
+                      'notes receivable',
+                      'receivable'],
+             'a': 'receivable · unconditional · transfers',
+             'one': True,
+             'why': 'The book writes: “A company records an account '
+                    'receivable when its right to be paid is unconditional: '
+                    'only the passage of time is needed before payment is '
+                    'due. This usually happens when it delivers the goods or '
+                    'services and transfers control (Chapter 11). If the '
+                    'company still has to do something else before it can '
+                    'bill, for example finish a second delivery, it has a '
+                    'contract asset, not a receivable.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Some older ',
+                       11,
+                       ' still use the gross and net methods. Under the '
+                       'gross method, the company records the full invoice '
+                       'and records a sales discount only when a customer '
+                       'pays early. Under the net method, it records the '
+                       'sale net of the discount, and records sales ',
+                       11,
+                       ' ',
+                       11,
+                       ' when a customer pays late.'],
+             'bank': ['discounts',
+                      'secured borrowing',
+                      'notes receivable',
+                      'questions',
+                      'forfeited'],
+             'a': 'questions · discounts · forfeited',
+             'one': True,
+             'why': 'The book writes: “Some older questions still use the '
+                    'gross and net methods. Under the gross method, the '
+                    'company records the full invoice and records a sales '
+                    'discount only when a customer pays early. Under the net '
+                    'method, it records the sale net of the discount, and '
+                    'records sales discounts forfeited when a customer pays '
+                    'late.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['The ',
+                       11,
+                       ' is then ',
+                       11,
+                       ' to interest revenue over the life of the note. ',
+                       12,
+                       ': only time must pass before payment. Contract '
+                       'asset: the company must still perform.'],
+             'bank': ['secured borrowing',
+                      'notes receivable',
+                      'amortized',
+                      'discount',
+                      'Receivable'],
+             'a': 'discount · amortized · Receivable',
+             'one': True,
+             'why': 'The book writes: “The discount is then amortized to '
+                    'interest revenue over the life of the note. Receivable: '
+                    'only time must pass before payment. Contract asset: the '
+                    'company must still perform.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['accounts receivable', ''],
+              ['aging schedule', ''],
+              ['factoring', ''],
+              ['contract asset', ''],
+              ['amortized cost', ''],
+              ['factor', ''],
+              ['pledging', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Recognizing and measuring receivables'),
           ('move',

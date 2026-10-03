@@ -18,101 +18,109 @@ HANDOUT = {'id': '2.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Other presentation matters', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which likelihood of the loss does the book pair with '
-                  '“Accrue a liability and a loss (best estimate; if no best '
-                  'estimate, the minimum of the range)”?',
-             'o': ['Probable',
-                   'Remote',
-                   'Gain contingency',
-                   'Reasonably possible'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Probable with “Accrue a '
-                    'liability and a loss (best estimate; if no best '
-                    'estimate, the minimum of the range)”.'},
-            {'t': 'MCQ',
-             'q': 'Which likelihood of the loss does the book pair with “No '
-                  'accrual”?',
-             'o': ['Reasonably possible', 'Gain contingency', 'Probable'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Reasonably possible with “No '
-                    'accrual”.'},
-            {'t': 'MCQ',
-             'q': 'Which likelihood of the loss does the book pair with '
-                  '“Never recognized before it is realized”?',
-             'o': ['Reasonably possible',
-                   'Gain contingency',
-                   'Remote',
-                   'Probable'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Gain contingency with “Never '
-                    'recognized before it is realized”.'},
-            {'t': 'MCQ',
-             'q': 'Which disclosure does the book give for Probable?',
-             'o': ['No disclosure (except guarantees)',
-                   'Accrue and disclose',
-                   'Disclose carefully, without misleading',
-                   'Disclose the nature and an estimate (or say it cannot be '
-                   'estimated)'],
-             'a': 'B',
-             'why': 'The book’s own table gives Accrue and disclose as the '
-                    'disclosure of Probable.'},
-            {'t': 'MCQ',
-             'q': 'Which disclosure does the book give for Reasonably '
-                  'possible?',
-             'o': ['Disclose carefully, without misleading',
-                   'Disclose the nature and an estimate (or say it cannot be '
-                   'estimated)',
-                   'Accrue and disclose',
-                   'No disclosure (except guarantees)'],
-             'a': 'B',
-             'why': 'The book’s own table gives Disclose the nature and an '
-                    'estimate (or say it cannot be estimated) as the '
-                    'disclosure of Reasonably possible.'},
-            {'t': 'MCQ',
-             'q': 'Which disclosure does the book give for Remote?',
-             'o': ['No disclosure (except guarantees)',
-                   'Disclose carefully, without misleading',
-                   'Accrue and disclose',
-                   'Disclose the nature and an estimate (or say it cannot be '
-                   'estimated)'],
-             'a': 'A',
-             'why': 'The book’s own table gives No disclosure (except '
-                    'guarantees) as the disclosure of Remote.'},
-            {'t': 'MCQ',
-             'q': 'Which disclosure does the book give for Gain contingency?',
-             'o': ['Disclose the nature and an estimate (or say it cannot be '
-                   'estimated)',
-                   'Disclose carefully, without misleading',
-                   'Accrue and disclose',
-                   'No disclosure (except guarantees)'],
-             'a': 'B',
-             'why': 'The book’s own table gives Disclose carefully, without '
-                    'misleading as the disclosure of Gain contingency.'},
-            {'t': 'TF',
-             'q': 'The book gives the disclosure of Probable as “Accrue and '
-                  'disclose”.',
-             'a': 'T',
-             'why': 'The book pairs Probable with “Accrue and disclose”.'},
-            {'t': 'TF',
-             'q': 'The book gives the disclosure of Reasonably possible as '
-                  '“Accrue and disclose”.',
-             'a': 'F',
-             'why': 'The book pairs Reasonably possible with “Disclose the '
-                    'nature and an estimate (or say it cannot be '
-                    'estimated)”, not with “Accrue and disclose”.'},
-            {'t': 'TF',
-             'q': 'The book gives the disclosure of Remote as “No disclosure '
-                  '(except guarantees)”.',
-             'a': 'T',
-             'why': 'The book pairs Remote with “No disclosure (except '
-                    'guarantees)”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Other presentation matters',
+             'a figure to read · Likelihood of the loss · the book’s own '
+             'rule, gapped',
+             "Orontes's retained earnings were $4,375,000 on January 1, "
+             '2025. Net income was $2,969,100, OCI was $(1,125), and '
+             'dividends declared were $450,000. What are retained earnings '
+             'at December 31, 2025 (whole USD)?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['A few more rules decide what appears on the ',
+                       15,
+                       ' and how. All deferred tax assets and liabilities '
+                       'are noncurrent. A ',
+                       18,
+                       ' is an existing situation that may cause a loss, '
+                       'such as a lawsuit.'],
+             'bank': ['subsequent events',
+                      'solvency',
+                      'loss contingency',
+                      'balance sheet'],
+             'a': 'balance sheet · loss contingency',
+             'one': True,
+             'why': 'The book writes: “A few more rules decide what appears '
+                    'on the balance sheet and how. All deferred tax assets '
+                    'and liabilities are noncurrent. A loss contingency is '
+                    'an existing situation that may cause a loss, such as a '
+                    'lawsuit.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Gain contingencies are never recorded before they '
+                       'are realized. ',
+                       19,
+                       ' happen after the ',
+                       15,
+                       ' date but before the statements are issued. If an '
+                       'event gives more information about a condition that '
+                       'already existed at year-end, the company adjusts the '
+                       'statements.'],
+             'bank': ['Subsequent events',
+                      'balance sheet',
+                      'liquidity',
+                      'solvency'],
+             'a': 'Subsequent events · balance sheet',
+             'one': True,
+             'why': 'The book writes: “Gain contingencies are never recorded '
+                    'before they are realized. Subsequent events happen '
+                    'after the balance sheet date but before the statements '
+                    'are issued. If an event gives more information about a '
+                    'condition that already existed at year-end, the company '
+                    'adjusts the statements.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['If it is only reasonably possible, the company '
+                       'discloses it in a note. If it is remote, the company '
+                       'does nothing. Gain contingencies are never recorded '
+                       'before they are realized. ',
+                       19,
+                       ' happen after the ',
+                       15,
+                       ' date but before the statements are issued.'],
+             'bank': ['balance sheet',
+                      'solvency',
+                      'Subsequent events',
+                      'liquidity'],
+             'a': 'Subsequent events · balance sheet',
+             'one': True,
+             'why': 'The book writes: “If it is only reasonably possible, '
+                    'the company discloses it in a note. If it is remote, '
+                    'the company does nothing. Gain contingencies are never '
+                    'recorded before they are realized. Subsequent events '
+                    'happen after the balance sheet date but before the '
+                    'statements are issued.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['current liabilities', ''],
+              ['loss contingency', ''],
+              ['current ratio', ''],
+              ['subjective acceleration clause', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Other presentation matters'),
           ('move',
@@ -197,6 +205,37 @@ HANDOUT = {'id': '2.4',
                     'nature and an estimate (or say it cannot be '
                     'estimated)”, not with “Disclose carefully, without '
                     'misleading”.'}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['',
+             19,
+             ' happen after the ',
+             15,
+             ' date but before the statements are issued.']],
+           ['liquidity',
+            'Subsequent events',
+            'balance sheet',
+            'loss contingency'],
+           'Subsequent events happen after the balance sheet date but before '
+           'the statements are issued.',
+           'Subsequent events · balance sheet'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Probable',
+             ['Recognition (if reasonably estimable): Accrue a liability and '
+              'a loss (best estimate; if no best estimate, the minimum of '
+              'the range)']),
+            ('Remote',
+             ['Recognition (if reasonably estimable): No accrual'])],
+           'Only the facts above differ. What is the disclosure of Probable?',
+           ['Accrue and disclose',
+            'Disclose carefully, without misleading',
+            'No disclosure (except guarantees)'],
+           'A',
+           'The book gives Accrue and disclose as the disclosure of '
+           'Probable.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

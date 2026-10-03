@@ -7,8 +7,6 @@ HANDOUT = {'id': '1.2',
  'title': 'The building blocks: elements and the accounting equation',
  'sub': 'section 1.2 of the book',
  'covers': ['sec:1.2',
-            'p:P13',
-            'p:P14',
             'p:P07',
             'p:P08',
             'p:P09',
@@ -32,141 +30,134 @@ HANDOUT = {'id': '1.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
             ['The building blocks: elements and the accounting equation',
-             'cycle A'],
-            ['Row and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which statement explains why retained earnings changed '
-                  'during the year?',
-             'o': ['The statement of changes in equity',
-                   'The balance sheet',
-                   'The statement of cash flows',
-                   'The income statement'],
-             'a': 'A',
-             'why': 'The statement of changes in equity shows beginning '
-                    'retained earnings, net income, dividends and ending '
-                    'retained earnings. B is wrong: The balance sheet shows '
-                    'only the ending balance at one date. C is wrong: The '
-                    'statement of cash flows explains cash, not equity.',
-             'src': 'P13'},
-            {'t': 'MCQ',
-             'q': 'Net income for the period flows directly into:',
-             'o': ['the cash balance on the balance sheet.',
-                   'retained earnings in the statement of changes in equity.',
-                   'total liabilities.',
-                   'common stock.'],
-             'a': 'B',
-             'why': 'Net income is closed into retained earnings. A is '
-                    'wrong: Net income is not cash. The statement of cash '
-                    'flows explains the cash balance. C is wrong: Net income '
-                    'belongs to the owners, so it goes to equity, not '
-                    'liabilities.',
-             'src': 'P14'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Prepaid rent?',
-             'o': ['Expense', 'Liability', 'Asset', 'Equity'],
-             'a': 'C',
-             'why': 'The book’s own table gives Asset as the category of '
-                    'Prepaid rent.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Land?',
-             'o': ['Expense', 'Asset', 'Contra-asset', 'Liability'],
-             'a': 'B',
-             'why': 'The book’s own table gives Asset as the category of '
-                    'Land.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Asset', 'Equity', 'Contra-asset', 'Liability'],
-             'a': 'D',
-             'why': 'The book’s own table gives Liability as the category of '
-                    'Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Additional paid-in '
-                  'capital?',
-             'o': ['Expense', 'Liability', 'Revenue', 'Equity'],
-             'a': 'D',
-             'why': 'The book’s own table gives Equity as the category of '
-                    'Additional paid-in capital.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Sales revenue?',
-             'o': ['Revenue', 'Contra-asset', 'Liability', 'Expense'],
-             'a': 'A',
-             'why': 'The book’s own table gives Revenue as the category of '
-                    'Sales revenue.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Interest expense?',
-             'o': ['Expense', 'Asset', 'Liability', 'Contra-asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives Expense as the category of '
-                    'Interest expense.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Allowance for '
-                  'credit losses?',
-             'o': ['Contra-asset', 'Liability', 'Equity', 'Asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives Contra-asset as the category '
-                    'of Allowance for credit losses.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Accumulated '
-                  'depreciation?',
-             'o': ['Asset', 'Equity', 'Liability', 'Contra-asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Contra-asset as the category '
-                    'of Accumulated depreciation.'},
-            {'t': 'MCQ',
-             'q': 'Which row does the book pair with “A Dubai hotel group '
-                  'paid cash in advance for pastries that Orontes will '
-                  'deliver in March.”?',
-             'o': ['6', '5', '4'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 4 with “A Dubai hotel group '
-                    'paid cash in advance for pastries that Orontes will '
-                    'deliver in March.”.'},
-            {'t': 'MCQ',
-             'q': 'Which row does the book pair with “Paid the dividend '
-                  'declared on January 31.”?',
-             'o': ['6', '4', '5'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 5 with “Paid the dividend '
-                    'declared on January 31.”.'},
-            {'t': 'MCQ',
-             'q': 'Which row does the book pair with “Recorded one month of '
-                  'interest on the bank note. Orontes has not paid it yet.”?',
-             'o': ['5', '6', '4'],
-             'a': 'B',
-             'why': 'The book’s own table pairs 6 with “Recorded one month '
-                    'of interest on the bank note. Orontes has not paid it '
-                    'yet.”.'},
-            {'t': 'MCQ',
-             'q': 'Which journal entry does the book give for 4?',
-             'o': ['Dr Dividends payable 50; Cr Cash 50',
-                   'Dr Interest expense 4; Cr Interest payable 4',
-                   'Dr Cash 60; Cr Contract liability (unearned revenue) 60'],
-             'a': 'C',
-             'why': 'The book’s own table gives Dr Cash 60; Cr Contract '
-                    'liability (unearned revenue) 60 as the journal entry of '
-                    '4.'},
-            {'t': 'MCQ',
-             'q': 'Which journal entry does the book give for 5?',
-             'o': ['Dr Dividends payable 50; Cr Cash 50',
-                   'Dr Cash 60; Cr Contract liability (unearned revenue) 60',
-                   'Dr Interest expense 4; Cr Interest payable 4'],
-             'a': 'A',
-             'why': 'The book’s own table gives Dr Dividends payable 50; Cr '
-                    'Cash 50 as the journal entry of 5.'},
-            {'t': 'MCQ',
-             'q': 'Which journal entry does the book give for 6?',
-             'o': ['Dr Dividends payable 50; Cr Cash 50',
-                   'Dr Cash 60; Cr Contract liability (unearned revenue) 60',
-                   'Dr Interest expense 4; Cr Interest payable 4'],
-             'a': 'C',
-             'why': 'The book’s own table gives Dr Interest expense 4; Cr '
-                    'Interest payable 4 as the journal entry of 6.'}]),
+             'a figure to read · Account',
+             'Which item is an expense?'],
+            ['The words this section uses precisely',
+             'Row · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['Three of them describe the ',
+                       15,
+                       ' at one date. An ',
+                       11,
+                       ' is a present right of an entity to an economic '
+                       'benefit. Examples: cash, ',
+                       21,
+                       ', ',
+                       11,
+                       ' and equipment. A ',
+                       11,
+                       ' is a present obligation of an entity to transfer an '
+                       'economic benefit.'],
+             'bank': ['balance sheet',
+                      'inventory',
+                      'revenue',
+                      'asset',
+                      'dividend',
+                      'accounts receivable',
+                      'liability'],
+             'a': 'balance sheet · asset · accounts receivable · inventory · '
+                  'liability',
+             'one': True,
+             'why': 'The book writes: “Three of them describe the balance '
+                    'sheet at one date. An asset is a present right of an '
+                    'entity to an economic benefit. Examples: cash, accounts '
+                    'receivable, inventory and equipment. A liability is a '
+                    'present obligation of an entity to transfer an economic '
+                    'benefit.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Contributed capital is what owners paid in: ',
+                       14,
+                       ' at its ',
+                       11,
+                       ', plus ',
+                       28,
+                       ' (APIC). ',
+                       19,
+                       ' (RE) are the past ',
+                       12,
+                       ' that the company kept instead of paying it out as '
+                       'dividends.'],
+             'bank': ['revenue',
+                      'dividend',
+                      'additional paid-in capital',
+                      'par value',
+                      'net income',
+                      'Retained earnings',
+                      'common stock'],
+             'a': 'common stock · par value · additional paid-in capital · '
+                  'Retained earnings · net income',
+             'one': True,
+             'why': 'The book writes: “Contributed capital is what owners '
+                    'paid in: common stock at its par value, plus additional '
+                    'paid-in capital (APIC). Retained earnings (RE) are the '
+                    'past net income that the company kept instead of paying '
+                    'it out as dividends.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['',
+                       11,
+                       's and gains increase ',
+                       19,
+                       '. ',
+                       11,
+                       's also decrease it, but a dividend is not an ',
+                       11,
+                       '. It is a distribution to owners, so it never '
+                       'appears in the ',
+                       18,
+                       '. IFRS also uses the word income for both revenue '
+                       'and gains, while U.S.'],
+             'bank': ['Dividend',
+                      'retained earnings',
+                      'expense',
+                      'Revenue',
+                      'accounts receivable',
+                      'income statement',
+                      'cost of goods sold'],
+             'a': 'Revenue · retained earnings · Dividend · expense · income '
+                  'statement',
+             'one': True,
+             'why': 'The book writes: “Revenues and gains increase retained '
+                    'earnings. Dividends also decrease it, but a dividend is '
+                    'not an expense. It is a distribution to owners, so it '
+                    'never appears in the income statement. IFRS also uses '
+                    'the word income for both revenue and gains, while '
+                    'U.S.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['primary users', ''],
+              ['retained earnings', ''],
+              ['matching principle', ''],
+              ['materiality', ''],
+              ['common stock', ''],
+              ['T-account', ''],
+              ['accounts payable', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle',
            'A',

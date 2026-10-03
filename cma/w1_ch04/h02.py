@@ -7,8 +7,6 @@ HANDOUT = {'id': '4.2',
  'title': 'Issuing and buying back shares',
  'sub': 'section 4.2 of the book',
  'covers': ['sec:4.2',
-            'p:P4-13',
-            'p:P4-14',
             'p:P4-07',
             'p:P4-08',
             'p:P4-09',
@@ -23,101 +21,132 @@ HANDOUT = {'id': '4.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Issuing and buying back shares', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A company reissues treasury shares for more than their '
-                  'cost. The excess is:',
-             'o': ['credited to APIC–treasury stock',
-                   'reported as a gain in net income',
-                   'credited to retained earnings',
-                   'reported in OCI'],
-             'a': 'A',
-             'why': "Transactions in a company's own shares never create "
-                    'income. B is wrong: No gains are recorded on a '
-                    "company's own shares. C is wrong: Retained earnings are "
-                    'not credited for treasury transactions.',
-             'src': 'P4-13'},
-            {'t': 'MCQ',
-             'q': 'What is the effect of buying treasury stock for cash?',
-             'o': ['Total equity does not change',
-                   'Retained earnings decrease',
-                   'Total assets increase',
-                   'Total equity decreases; retained earnings do not change'],
-             'a': 'D',
-             'why': 'Cash falls and equity falls by the same amount through '
-                    'treasury stock. A is wrong: Treasury stock reduces '
-                    'equity. B is wrong: The purchase is recorded in '
-                    'treasury stock, not retained earnings.',
-             'src': 'P4-14'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for APIC–treasury '
-                  'stock?',
-             'o': ['Current liability',
-                   'Deduction from equity',
-                   'Contributed capital',
-                   'Earned capital'],
-             'a': 'C',
-             'why': 'The book’s own table gives Contributed capital as the '
-                    'category of APIC–treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Retained earnings?',
-             'o': ['Deduction from equity',
-                   'Contributed capital',
-                   'Current liability',
-                   'Earned capital'],
-             'a': 'D',
-             'why': 'The book’s own table gives Earned capital as the '
-                    'category of Retained earnings.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Treasury stock?',
-             'o': ['Contributed capital',
-                   'Current liability',
-                   'Earned capital',
-                   'Deduction from equity'],
-             'a': 'D',
-             'why': 'The book’s own table gives Deduction from equity as the '
-                    'category of Treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Earned capital',
-                   'Deduction from equity',
-                   'Contributed capital',
-                   'Current liability'],
-             'a': 'D',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Common stock?',
-             'o': ['Current liability',
-                   'Contributed capital',
-                   'Deduction from equity',
-                   'Earned capital'],
-             'a': 'B',
-             'why': 'The book’s own table gives Contributed capital as the '
-                    'category of Common stock.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of APIC–treasury stock as '
-                  '“Contributed capital”.',
-             'a': 'T',
-             'why': 'The book pairs APIC–treasury stock with “Contributed '
-                    'capital”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Retained earnings as '
-                  '“Deduction from equity”.',
-             'a': 'F',
-             'why': 'The book pairs Retained earnings with “Earned capital”, '
-                    'not with “Deduction from equity”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Treasury stock as '
-                  '“Deduction from equity”.',
-             'a': 'T',
-             'why': 'The book pairs Treasury stock with “Deduction from '
-                    'equity”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Issuing and buying back shares',
+             'a figure to read · Account',
+             'A company declares a stock dividend on December 20 and '
+             'distributes the shares on January 10. How does it present the '
+             'stock dividend distributable at December 31?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       17,
+                       ' is recorded in the same way, in its own account. A '
+                       'company may buy back its own shares and hold them '
+                       'as ',
+                       16,
+                       '. Under the ',
+                       13,
+                       ', treasury stock is recorded at the price paid and '
+                       'deducted from equity. Shares held as treasury stock '
+                       'are ',
+                       15,
+                       ' but not ',
+                       20,
+                       ': they receive no dividends and have no votes.'],
+             'bank': ['treasury stock',
+                      'stock split',
+                      'issued shares',
+                      'declaration date',
+                      'outstanding shares',
+                      'Preferred stock',
+                      'cost method'],
+             'a': 'Preferred stock · treasury stock · cost method · issued '
+                  'shares · outstanding shares',
+             'one': True,
+             'why': 'The book writes: “Preferred stock is recorded in the '
+                    'same way, in its own account. A company may buy back '
+                    'its own shares and hold them as treasury stock. Under '
+                    'the cost method, treasury stock is recorded at the '
+                    'price paid and deducted from equity. Shares held as '
+                    'treasury stock are issued shares but not outstanding '
+                    'shares: they receive no dividends and have no votes.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Shares held as ',
+                       16,
+                       ' are ',
+                       15,
+                       ' but not ',
+                       20,
+                       ': they receive no dividends and have no votes. A '
+                       'company never records a gain or loss on its own '
+                       'shares in net income. Treasury stock under the ',
+                       13,
+                       ': buy back, reissue or retire.'],
+             'bank': ['declaration date',
+                      'treasury stock',
+                      'cost method',
+                      'issued shares',
+                      'preferred stock',
+                      'outstanding shares'],
+             'a': 'treasury stock · issued shares · outstanding shares · '
+                  'cost method',
+             'one': True,
+             'why': 'The book writes: “Shares held as treasury stock are '
+                    'issued shares but not outstanding shares: they receive '
+                    'no dividends and have no votes. A company never records '
+                    'a gain or loss on its own shares in net income. '
+                    'Treasury stock under the cost method: buy back, reissue '
+                    'or retire.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A company may buy back its own shares and hold them '
+                       'as ',
+                       16,
+                       '. Under the ',
+                       13,
+                       ', treasury stock is recorded at the price paid and '
+                       'deducted from equity. Shares held as treasury stock '
+                       'are ',
+                       15,
+                       ' but not ',
+                       20,
+                       ': they receive no dividends and have no votes.'],
+             'bank': ['declaration date',
+                      'preferred stock',
+                      'treasury stock',
+                      'issued shares',
+                      'outstanding shares',
+                      'cost method'],
+             'a': 'treasury stock · cost method · issued shares · '
+                  'outstanding shares',
+             'one': True,
+             'why': 'The book writes: “A company may buy back its own shares '
+                    'and hold them as treasury stock. Under the cost method, '
+                    'treasury stock is recorded at the price paid and '
+                    'deducted from equity. Shares held as treasury stock are '
+                    'issued shares but not outstanding shares: they receive '
+                    'no dividends and have no votes.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['contributed capital', ''],
+              ['appropriated retained earnings', ''],
+              ['declaration date', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Issuing and buying back shares'),
           ('move',

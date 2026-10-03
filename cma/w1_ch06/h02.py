@@ -3,12 +3,10 @@
 
 HANDOUT = {'id': '6.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 7,
  'title': 'The allowance for credit losses',
  'sub': 'section 6.2 of the book',
  'covers': ['sec:6.2',
-            'p:P6-14',
-            'p:P6-15',
             'p:P6-08',
             'p:P6-09',
             'p:P6-10',
@@ -27,135 +25,123 @@ HANDOUT = {'id': '6.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['The allowance for credit losses', 'cycle A'],
-            ['Age of receivable and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Receivables are factored with substantial recourse. The '
-                  'transfer meets the three ASC 860 conditions. Which '
-                  'statement is MOST likely correct?',
-             'o': ['Both frameworks treat it as a borrowing.',
-                   'U.S. GAAP treats it as a sale; IFRS 9 may treat it as a '
-                   'borrowing.',
-                   'Both frameworks treat it as a sale with no liability.',
-                   'IFRS treats it as a sale; U.S. GAAP treats it as a '
-                   'borrowing.'],
-             'a': 'B',
-             'why': 'IFRS 9 focuses on risks and rewards; substantial '
-                    'recourse often keeps the risk with the seller. A is '
-                    'wrong: Under U.S. GAAP the ASC 860 conditions decide, '
-                    'and they are met. C is wrong: A U.S. GAAP sale with '
-                    'recourse records a recourse liability.',
-             'src': 'P6-14'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 1). Where is the allowance for '
-                  'credit losses reported?',
-             'o': ['As a liability',
-                   'As an expense',
-                   'As a contra-asset, deducted from accounts receivable',
-                   'As a reduction of equity'],
-             'a': 'C',
-             'why': 'It reduces receivables to the amount expected to be '
-                    'collected. A is wrong: It is a contra-asset, not a '
-                    'liability. B is wrong: The expense is a separate '
-                    'account; the allowance is the balance sheet total.',
-             'src': 'P6-15'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Current?',
-             'o': ['20,000', '30,000', '660,000', '400,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 400,000 as the amount of '
-                    'Current.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for 1–30 days past due?',
-             'o': ['60,000', '20,000', '30,000', '150,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 150,000 as the amount of '
-                    '1–30 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for 31–60 days past due?',
-             'o': ['30,000', '60,000', '660,000', '150,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 60,000 as the amount of '
-                    '31–60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for 61–90 days past due?',
-             'o': ['400,000', '60,000', '30,000', '20,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 30,000 as the amount of '
-                    '61–90 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Over 90 days past '
-                  'due?',
-             'o': ['660,000', '60,000', '20,000', '400,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 20,000 as the amount of Over '
-                    '90 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Total?',
-             'o': ['30,000', '60,000', '660,000', '400,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 660,000 as the amount of '
-                    'Total.'},
-            {'t': 'MCQ',
-             'q': 'Which expected loss rate does the book give for 31–60 '
-                  'days past due?',
-             'o': ['60%', '1%', '10%', '25%'],
-             'a': 'C',
-             'why': 'The book’s own table gives 10% as the expected loss '
-                    'rate of 31–60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which expected loss rate does the book give for 61–90 '
-                  'days past due?',
-             'o': ['3%', '60%', '1%', '25%'],
-             'a': 'D',
-             'why': 'The book’s own table gives 25% as the expected loss '
-                    'rate of 61–90 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which expected loss rate does the book give for Over 90 '
-                  'days past due?',
-             'o': ['60%', '10%', '25%', '3%'],
-             'a': 'A',
-             'why': 'The book’s own table gives 60% as the expected loss '
-                    'rate of Over 90 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which required allowance does the book give for Current?',
-             'o': ['12,000', '34,000', '4,500', '4,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 4,000 as the required '
-                    'allowance of Current.'},
-            {'t': 'MCQ',
-             'q': 'Which required allowance does the book give for 1–30 days '
-                  'past due?',
-             'o': ['4,500', '12,000', '7,500', '6,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 4,500 as the required '
-                    'allowance of 1–30 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which required allowance does the book give for 31–60 '
-                  'days past due?',
-             'o': ['7,500', '6,000', '34,000', '4,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 6,000 as the required '
-                    'allowance of 31–60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which required allowance does the book give for 61–90 '
-                  'days past due?',
-             'o': ['7,500', '4,000', '34,000', '12,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 7,500 as the required '
-                    'allowance of 61–90 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which required allowance does the book give for Over 90 '
-                  'days past due?',
-             'o': ['6,000', '12,000', '4,000', '34,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 12,000 as the required '
-                    'allowance of Over 90 days past due.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The allowance for credit losses',
+             'a figure to read · Age of receivable · the book’s own rule, '
+             'gapped',
+             'Under ASU 2025-05, a practical expedient lets companies assume '
+             'current conditions will not change when they forecast losses '
+             'on current receivables. How should a CMA candidate treat it in '
+             '2026?'],
+            ['The words this section uses precisely',
+             'Age of receivable · The English the exam uses, and what it '
+             'translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       29,
+                       ' T-account: the expense is the plug that reaches the '
+                       "required balance. When a customer's balance is "
+                       'clearly uncollectible, the company records a ',
+                       11,
+                       ': debit the allowance and credit ',
+                       21,
+                       '.'],
+             'bank': ['notes receivable',
+                      'accounts receivable',
+                      'Allowance for credit losses',
+                      'amortized cost',
+                      'write-off'],
+             'a': 'Allowance for credit losses · write-off · accounts '
+                  'receivable',
+             'one': True,
+             'why': 'The book writes: “Allowance for credit losses '
+                    'T-account: the expense is the plug that reaches the '
+                    "required balance. When a customer's balance is clearly "
+                    'uncollectible, the company records a write-off: debit '
+                    'the allowance and credit accounts receivable.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The ',
+                       11,
+                       ' changes neither net income nor net receivables, '
+                       'because the expense was already recorded when the '
+                       'allowance was built. If the customer later pays, the '
+                       'company records a ',
+                       11,
+                       ': it first reinstates the receivable (debit ',
+                       21,
+                       ', credit allowance) and then records the cash '
+                       'collection.'],
+             'bank': ['recovery',
+                      'write-off',
+                      'notes receivable',
+                      'amortized cost',
+                      'accounts receivable'],
+             'a': 'write-off · recovery · accounts receivable',
+             'one': True,
+             'why': 'The book writes: “The write-off changes neither net '
+                    'income nor net receivables, because the expense was '
+                    'already recorded when the allowance was built. If the '
+                    'customer later pays, the company records a recovery: it '
+                    'first reinstates the receivable (debit accounts '
+                    'receivable, credit allowance) and then records the cash '
+                    'collection.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['GAAP answer, always write ',
+                       29,
+                       ', never provision for doubtful debts or reserve for '
+                       'bad debts. The aging gives the required ENDING '
+                       'allowance, not the expense. Expense = required '
+                       'balance − unadjusted credit balance, or required '
+                       'balance + unadjusted debit balance. A ',
+                       11,
+                       ' does not change net income or net receivables.'],
+             'bank': ['amortized cost',
+                      'write-off',
+                      'notes receivable',
+                      'allowance for credit losses'],
+             'a': 'allowance for credit losses · write-off',
+             'one': True,
+             'why': 'The book writes: “GAAP answer, always write allowance '
+                    'for credit losses, never provision for doubtful debts '
+                    'or reserve for bad debts. The aging gives the required '
+                    'ENDING allowance, not the expense. Expense = required '
+                    'balance − unadjusted credit balance, or required '
+                    'balance + unadjusted debit balance. A write-off does '
+                    'not change net income or net receivables.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['allowance for credit losses', ''],
+              ['credit loss expense', ''],
+              ['recourse', ''],
+              ['cash discount', ''],
+              ['recovery', ''],
+              ['recourse liability', ''],
+              ['effective control', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'The allowance for credit losses'),
           ('move',
@@ -239,6 +225,34 @@ HANDOUT = {'id': '6.2',
                    'Over 90 days past due: 20,000 · 60% · 12,000',
                    'Total: 660,000 ·  · 34,000'],
              'whys': ['', '', '', '', '']}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [["When a customer's balance is clearly uncollectible, the "
+             'company records a ',
+             11,
+             ': debit the allowance and credit ',
+             21,
+             '.']],
+           ['write-off',
+            'credit loss expense',
+            'aging schedule',
+            'accounts receivable'],
+           "When a customer's balance is clearly uncollectible, the company "
+           'records a write-off: debit the allowance and credit accounts '
+           'receivable.',
+           'write-off · accounts receivable'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Current', ['Amount: 400,000', 'Expected loss rate: 1%']),
+            ('1–30 days past due',
+             ['Amount: 150,000', 'Expected loss rate: 3%'])],
+           'Only the facts above differ. What is the required allowance of '
+           'Current?',
+           ['6,000', '4,000', '7,500', '4,500'],
+           'B',
+           'The book gives 4,000 as the required allowance of Current.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

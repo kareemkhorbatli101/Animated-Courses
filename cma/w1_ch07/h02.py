@@ -7,8 +7,6 @@ HANDOUT = {'id': '7.2',
  'title': 'Which costs belong in inventory?',
  'sub': 'section 7.2 of the book',
  'covers': ['sec:7.2',
-            'p:P7-13',
-            'p:P7-14',
             'p:P7-07',
             'p:P7-08',
             'p:P7-09',
@@ -26,151 +24,129 @@ HANDOUT = {'id': '7.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Which costs belong in inventory?', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'The tax rate is 25%. Ending inventory was overstated by '
-                  '40. By how much is net income overstated in that year?',
-             'o': ['10', '30', '40', '50'],
-             'a': 'B',
-             'why': 'After-tax effect = pretax error × (1 − tax rate). A is '
-                    'wrong: This is the tax effect only. C is wrong: This is '
-                    'the pretax effect.',
-             'src': 'P7-13'},
-            {'t': 'MCQ',
-             'q': 'Ending inventory for 2026 is understated by 15. Inventory '
-                  'for 2025 was correct. What is the effect on 2026 cost of '
-                  'goods sold?',
-             'o': ['Understated by 15',
-                   'No effect',
-                   'Overstated by 15',
-                   'Overstated by 30'],
-             'a': 'C',
-             'why': 'COGS = beginning inventory + purchases − ending '
-                    'inventory, so low ending inventory raises COGS. A is '
-                    'wrong: This reverses the direction. B is wrong: Ending '
-                    'inventory directly changes COGS.',
-             'src': 'P7-14'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Invoice price?',
-             'o': ['250', '20,000', '22,000', '900'],
-             'a': 'B',
-             'why': 'The book’s own table gives 20,000 as the amount of '
-                    'Invoice price.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Purchase discount '
-                  'taken?',
-             'o': ['250', '22,000', '(400)', '900'],
-             'a': 'C',
-             'why': 'The book’s own table gives (400) as the amount of '
-                    'Purchase discount taken.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Freight-in from the '
-                  'port to Amman?',
-             'o': ['1,200', '300', '700', '250'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,200 as the amount of '
-                    'Freight-in from the port to Amman.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Import duty (not '
-                  'refundable)?',
-             'o': ['900', '250', '(400)', '20,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 900 as the amount of Import '
-                    'duty (not refundable).'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Insurance while the '
-                  'bottles are in transit?',
-             'o': ['20,000', '22,000', '300', '(400)'],
-             'a': 'C',
-             'why': 'The book’s own table gives 300 as the amount of '
-                    'Insurance while the bottles are in transit.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Freight-out when '
-                  'filled bottles go to customers?',
-             'o': ['22,000', '20,000', '300', '700'],
-             'a': 'D',
-             'why': 'The book’s own table gives 700 as the amount of '
-                    'Freight-out when filled bottles go to customers.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Storage of finished '
-                  'olive oil?',
-             'o': ['1,200', '900', '250', '(400)'],
-             'a': 'C',
-             'why': 'The book’s own table gives 250 as the amount of Storage '
-                    'of finished olive oil.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Cost of the bottles '
-                  'in inventory?',
-             'o': ['(400)', '300', '1,200', '22,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 22,000 as the amount of Cost '
-                    'of the bottles in inventory.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Invoice '
-                  'price?',
-             'o': ['Yes',
-                   'Yes (reduces cost)',
-                   'No: selling expense',
-                   'No: period cost'],
-             'a': 'A',
-             'why': 'The book’s own table gives Yes as the inventory cost? '
-                    'of Invoice price.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Purchase '
-                  'discount taken?',
-             'o': ['Yes',
-                   'No: period cost',
-                   'Yes (reduces cost)',
-                   'No: selling expense'],
-             'a': 'C',
-             'why': 'The book’s own table gives Yes (reduces cost) as the '
-                    'inventory cost? of Purchase discount taken.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Freight-in '
-                  'from the port to Amman?',
-             'o': ['No: selling expense',
-                   'Yes (reduces cost)',
-                   'No: period cost',
-                   'Yes'],
-             'a': 'D',
-             'why': 'The book’s own table gives Yes as the inventory cost? '
-                    'of Freight-in from the port to Amman.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Import duty '
-                  '(not refundable)?',
-             'o': ['Yes (reduces cost)',
-                   'No: selling expense',
-                   'Yes',
-                   'No: period cost'],
-             'a': 'C',
-             'why': 'The book’s own table gives Yes as the inventory cost? '
-                    'of Import duty (not refundable).'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Insurance '
-                  'while the bottles are in transit?',
-             'o': ['No: period cost',
-                   'Yes (reduces cost)',
-                   'No: selling expense',
-                   'Yes'],
-             'a': 'D',
-             'why': 'The book’s own table gives Yes as the inventory cost? '
-                    'of Insurance while the bottles are in transit.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Freight-out '
-                  'when filled bottles go to customers?',
-             'o': ['No: period cost',
-                   'No: selling expense',
-                   'Yes',
-                   'Yes (reduces cost)'],
-             'a': 'B',
-             'why': 'The book’s own table gives No: selling expense as the '
-                    'inventory cost? of Freight-out when filled bottles go '
-                    'to customers.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Which costs belong in inventory?',
+             'a figure to read · Item · the book’s own rule, gapped',
+             'Specific identification is MOST appropriate for:'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['These are inventoriable costs: they stay in ',
+                       11,
+                       ' as an asset, and they become ',
+                       20,
+                       ' when the goods are sold. Other costs are period '
+                       'costs: they are expenses in the period in which they '
+                       'occur. For goods that are bought, cost includes the '
+                       'purchase price, ',
+                       12,
+                       ', import duties, non-refundable taxes and handling, '
+                       'less trade discounts and any ',
+                       19,
+                       ' taken for early payment.'],
+             'bank': ['cost of goods sold',
+                      'purchase discount',
+                      'abnormal waste',
+                      'FOB shipping point',
+                      'freight-in',
+                      'inventory'],
+             'a': 'inventory · cost of goods sold · freight-in · purchase '
+                  'discount',
+             'one': True,
+             'why': 'The book writes: “These are inventoriable costs: they '
+                    'stay in inventory as an asset, and they become cost of '
+                    'goods sold when the goods are sold. Other costs are '
+                    'period costs: they are expenses in the period in which '
+                    'they occur. For goods that are bought, cost includes '
+                    'the purchase price, freight-in, import duties, '
+                    'non-refundable taxes and handling, less trade discounts '
+                    'and any purchase discount taken for early payment.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['In the same way, ',
+                       16,
+                       ' (unusual spoilage, idle time or extra freight) is '
+                       'an expense, not ',
+                       11,
+                       ' cost. ',
+                       13,
+                       's include ',
+                       13,
+                       ' to customers, sales commissions, advertising, '
+                       'general and administrative costs, and the storage of '
+                       'finished goods. Interest on inventory that is '
+                       'produced routinely is also a period cost.'],
+             'bank': ['FOB shipping point',
+                      'Period cost',
+                      'inventory',
+                      'freight-out',
+                      'normal capacity',
+                      'abnormal waste'],
+             'a': 'abnormal waste · inventory · Period cost · freight-out',
+             'one': True,
+             'why': 'The book writes: “In the same way, abnormal waste '
+                    '(unusual spoilage, idle time or extra freight) is an '
+                    'expense, not inventory cost. Period costs include '
+                    'freight-out to customers, sales commissions, '
+                    'advertising, general and administrative costs, and the '
+                    'storage of finished goods. Interest on inventory that '
+                    'is produced routinely is also a period cost.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['',
+                       13,
+                       's include ',
+                       13,
+                       ' to customers, sales commissions, advertising, '
+                       'general and administrative costs, and the storage of '
+                       'finished goods. Interest on ',
+                       11,
+                       ' that is produced routinely is also a period cost. '
+                       'Inventoriable costs versus period costs.'],
+             'bank': ['FOB shipping point',
+                      'abnormal waste',
+                      'freight-out',
+                      'Period cost',
+                      'inventory'],
+             'a': 'Period cost · freight-out · inventory',
+             'one': True,
+             'why': 'The book writes: “Period costs include freight-out to '
+                    'customers, sales commissions, advertising, general and '
+                    'administrative costs, and the storage of finished '
+                    'goods. Interest on inventory that is produced routinely '
+                    'is also a period cost. Inventoriable costs versus '
+                    'period costs.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['cost of goods sold', ''],
+              ['periodic inventory system', ''],
+              ['FOB shipping point', ''],
+              ['physical count', ''],
+              ['abnormal waste', ''],
+              ['moving average', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Which costs belong in inventory?'),
           ('move',
@@ -239,6 +215,35 @@ HANDOUT = {'id': '7.2',
              'a': 'F',
              'why': 'The book pairs Purchase discount taken with “Yes '
                     '(reduces cost)”, not with “Yes”.'}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['These are inventoriable costs: they stay in ',
+             11,
+             ' as an asset, and they become ',
+             20,
+             ' when the goods are sold.']],
+           ['inventory',
+            'inventoriable cost',
+            'cost of goods sold',
+            'LIFO reserve'],
+           'These are inventoriable costs: they stay in inventory as an '
+           'asset, and they become cost of goods sold when the goods are '
+           'sold.',
+           'inventory · cost of goods sold'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Invoice price', ['Amount: 20,000']),
+            ('Purchase discount taken', ['Amount: (400)'])],
+           'Only the facts above differ. What is the inventory cost? of '
+           'Invoice price?',
+           ['Yes',
+            'No: selling expense',
+            'Yes (reduces cost)',
+            'No: period cost'],
+           'A',
+           'The book gives Yes as the inventory cost? of Invoice price.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

@@ -18,152 +18,100 @@ HANDOUT = {'id': '5.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['The direct method and required disclosures', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.1?',
-             'o': ['Purpose and structure of the statement of cash flows',
-                   'The direct method and required disclosures',
-                   'The indirect method',
-                   'Classifying cash flows'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the '
-                    'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'Purpose and structure of the statement of cash flows',
-                   'The indirect method'],
-             'a': 'A',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['Classifying cash flows',
-                   'The indirect method',
-                   'Purpose and structure of the statement of cash flows',
-                   'The direct method and required disclosures'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.4?',
-             'o': ['The indirect method',
-                   'The direct method and required disclosures',
-                   'Purpose and structure of the statement of cash flows',
-                   'Classifying cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The direct method and required '
-                    'disclosures” as section 5.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.5?',
-             'o': ['The indirect method',
-                   'Classifying cash flows',
-                   'Limitations and links between the four statements',
-                   'Purpose and structure of the statement of cash flows'],
-             'a': 'C',
-             'why': 'The book numbers “Limitations and links between the '
-                    'four statements” as section 5.5.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ['Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities.",
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Financing: a transaction with owners.'],
-             'a': 'C',
-             'why': 'The book’s own table gives Operating (U.S. GAAP gives '
-                    'no choice). as the answer of Interest paid on a bank '
-                    'loan.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Selling Jordan Glass '
-                  'shares?',
-             'o': ["Investing: another company's securities.",
-                   'Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.'],
-             'a': 'A',
-             'why': "The book’s own table gives Investing: another company's "
-                    'securities. as the answer of Selling Jordan Glass '
-                    'shares.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Land for a long-term '
-                  'note?',
-             'o': ['Financing: a transaction with owners.',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities.",
-                   'Operating (U.S. GAAP gives no choice).'],
-             'a': 'B',
-             'why': 'The book’s own table gives Noncash investing and '
-                    'financing activity: disclosed, not in the body. as the '
-                    'answer of Land for a long-term note.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Buying back own '
-                  'shares?',
-             'o': ['Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities."],
-             'a': 'A',
-             'why': 'The book’s own table gives Financing: a transaction '
-                    'with owners. as the answer of Buying back own shares.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash paid to buy a '
-                  'delivery truck?',
-             'o': ['Investing', '________', 'Financing'],
-             'a': 'A',
-             'why': 'The book’s own table gives Investing as the activity of '
-                    'Cash paid to buy a delivery truck.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash dividends paid '
-                  'to shareholders?',
-             'o': ['________', 'Financing', 'Investing'],
-             'a': 'B',
-             'why': 'The book’s own table gives Financing as the activity of '
-                    'Cash dividends paid to shareholders.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ['Investing', '________', 'Financing'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Interest paid on a bank loan.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash received from '
-                  'selling Jordan Glass shares?',
-             'o': ['________', 'Financing', 'Investing'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Cash received from selling Jordan Glass shares.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Land acquired by '
-                  'issuing a long-term note (no cash)?',
-             'o': ['Financing', 'Investing', '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Land acquired by issuing a long-term note (no cash).'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash paid to buy '
-                  "back the company's own shares?",
-             'o': ['________', 'Investing', 'Financing'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    "Cash paid to buy back the company's own shares."},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Lawsuit settlement '
-                  'paid?',
-             'o': ['Investing', 'Financing', 'Operating'],
-             'a': 'C',
-             'why': 'The book’s own table gives Operating as the category of '
-                    'Lawsuit settlement paid.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The direct method and required disclosures',
+             'a figure to read · Orontes, 2025, direct method (whole USD)',
+             'Two companies make the same interest payments. One reports '
+             'under U.S. GAAP, the other under IFRS and classifies interest '
+             'as financing. Which limitation does this show?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['The direct method shows the main classes of ',
+                       11,
+                       ' receipts and payments, such as cash from ',
+                       11,
+                       ' and cash paid to suppliers. The FASB ',
+                       12,
+                       ' it, but few companies use it.'],
+             'bank': ['investing activities',
+                      'encourages',
+                      'operating',
+                      'customers',
+                      'direct method'],
+             'a': 'operating · customers · encourages',
+             'one': True,
+             'why': 'The book writes: “The direct method shows the main '
+                    'classes of operating receipts and payments, such as '
+                    'cash from customers and cash paid to suppliers. The '
+                    'FASB encourages it, but few companies use it.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['A company that uses it must still show the ',
+                       16,
+                       ' of net income to ',
+                       11,
+                       ' cash flow. Cash from customers is sales adjusted '
+                       'for the change in ',
+                       13,
+                       ' and customer deposits.'],
+             'bank': ['reconciliation',
+                      'investing activities',
+                      'direct method',
+                      'receivables',
+                      'operating'],
+             'a': 'reconciliation · operating · receivables',
+             'one': True,
+             'why': 'The book writes: “A company that uses it must still '
+                    'show the reconciliation of net income to operating cash '
+                    'flow. Cash from customers is sales adjusted for the '
+                    'change in receivables and customer deposits.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A company using the ',
+                       11,
+                       ' method must ',
+                       11,
+                       ' ',
+                       11,
+                       ' paid and income taxes paid. SC5-8 A company uses '
+                       'the indirect method.'],
+             'bank': ['indirect',
+                      'disclose',
+                      'investing activities',
+                      'interest',
+                      'direct method'],
+             'a': 'indirect · disclose · interest',
+             'one': True,
+             'why': 'The book writes: “A company using the indirect method '
+                    'must disclose interest paid and income taxes paid. '
+                    'SC5-8 A company uses the indirect method.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['investing activities', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'The direct method and required disclosures'),
           ('move',

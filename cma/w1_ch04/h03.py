@@ -7,8 +7,6 @@ HANDOUT = {'id': '4.3',
  'title': 'Dividends, stock dividends and stock splits',
  'sub': 'section 4.3 of the book',
  'covers': ['sec:4.3',
-            'p:P4-19',
-            'p:P4-20',
             'p:P4-13',
             'p:P4-14',
             'p:P4-15',
@@ -23,169 +21,117 @@ HANDOUT = {'id': '4.3',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Dividends, stock dividends and stock splits', 'cycle A'],
-            ['Suppose: Orontes, 8,100,000 shares and what goes with it',
-             'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A company has issued 1,000,000 shares, of which 100,000 '
-                  'are held in treasury. It declares a 10% stock dividend. '
-                  'How many new shares does it issue?',
-             'o': ['10,000', '90,000', '100,000', '110,000'],
-             'a': 'B',
-             'why': 'Stock dividends are based on outstanding shares. A is '
-                    'wrong: This applies the rate to the treasury shares '
-                    'only. C is wrong: This includes the treasury shares.',
-             'src': 'P4-19'},
-            {'t': 'MCQ',
-             'q': "Which transaction reduces total stockholders' equity?",
-             'o': ['Declaring and issuing a small stock dividend',
-                   'Declaring a cash dividend',
-                   'Carrying out a 3-for-1 stock split',
-                   'Appropriating retained earnings for a new plant'],
-             'a': 'B',
-             'why': 'A cash dividend creates a liability, so equity falls. A '
-                    'is wrong: A stock dividend moves amounts within equity. '
-                    'C is wrong: A split changes only the number of shares.',
-             'src': 'P4-20'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “Amount declared”?',
-             'o': ['Scrip dividend',
-                   'Small stock dividend (below about 20–25%)',
-                   'Cash dividend',
-                   'Large stock dividend (above about 20–25%)'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Cash dividend with “Amount '
-                    'declared”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “Fair value of the '
-                  'asset (gain or loss on remeasurement first)”?',
-             'o': ['Liquidating dividend',
-                   'Large stock dividend (above about 20–25%)',
-                   'Cash dividend',
-                   'Property dividend'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Property dividend with “Fair '
-                    'value of the asset (gain or loss on remeasurement '
-                    'first)”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “Face value of the '
-                  'note”?',
-             'o': ['Small stock dividend (below about 20–25%)',
-                   'Scrip dividend',
-                   'Property dividend',
-                   'Stock split'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Scrip dividend with “Face '
-                    'value of the note”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “Amount beyond '
-                  'retained earnings”?',
-             'o': ['Large stock dividend (above about 20–25%)',
-                   'Liquidating dividend',
-                   'Small stock dividend (below about 20–25%)',
-                   'Cash dividend'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Liquidating dividend with '
-                    '“Amount beyond retained earnings”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “Fair value of the '
-                  'shares”?',
-             'o': ['Scrip dividend',
-                   'Large stock dividend (above about 20–25%)',
-                   'Small stock dividend (below about 20–25%)',
-                   'Cash dividend'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Small stock dividend (below '
-                    'about 20–25%) with “Fair value of the shares”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “Par value of the '
-                  'shares”?',
-             'o': ['Scrip dividend',
-                   'Cash dividend',
-                   'Large stock dividend (above about 20–25%)',
-                   'Small stock dividend (below about 20–25%)'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Large stock dividend (above '
-                    'about 20–25%) with “Par value of the shares”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “No entry; par per '
-                  'share falls”?',
-             'o': ['Large stock dividend (above about 20–25%)',
-                   'Stock split',
-                   'Property dividend',
-                   'Scrip dividend'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Stock split with “No entry; '
-                    'par per share falls”.'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for Cash '
-                  'dividend?',
-             'o': ['No change',
-                   'No change for that part; APIC decreases',
-                   'Decreases'],
-             'a': 'C',
-             'why': 'The book’s own table gives Decreases as the retained '
-                    'earnings of Cash dividend.'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for Property '
-                  'dividend?',
-             'o': ['No change',
-                   'No change for that part; APIC decreases',
-                   'Decreases'],
-             'a': 'C',
-             'why': 'The book’s own table gives Decreases as the retained '
-                    'earnings of Property dividend.'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for Scrip '
-                  'dividend?',
-             'o': ['No change for that part; APIC decreases',
-                   'Decreases',
-                   'No change'],
-             'a': 'B',
-             'why': 'The book’s own table gives Decreases as the retained '
-                    'earnings of Scrip dividend.'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for '
-                  'Liquidating dividend?',
-             'o': ['No change',
-                   'Decreases',
-                   'No change for that part; APIC decreases'],
-             'a': 'C',
-             'why': 'The book’s own table gives No change for that part; '
-                    'APIC decreases as the retained earnings of Liquidating '
-                    'dividend.'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for Small '
-                  'stock dividend (below about 20–25%)?',
-             'o': ['No change for that part; APIC decreases',
-                   'No change',
-                   'Decreases'],
-             'a': 'C',
-             'why': 'The book’s own table gives Decreases as the retained '
-                    'earnings of Small stock dividend (below about 20–25%).'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for Large '
-                  'stock dividend (above about 20–25%)?',
-             'o': ['No change for that part; APIC decreases',
-                   'No change',
-                   'Decreases'],
-             'a': 'C',
-             'why': 'The book’s own table gives Decreases as the retained '
-                    'earnings of Large stock dividend (above about 20–25%).'},
-            {'t': 'MCQ',
-             'q': 'Which retained earnings does the book give for Stock '
-                  'split?',
-             'o': ['No change for that part; APIC decreases',
-                   'Decreases',
-                   'No change'],
-             'a': 'C',
-             'why': 'The book’s own table gives No change as the retained '
-                    'earnings of Stock split.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Dividends, stock dividends and stock splits',
+             'a figure to read · Type · the book’s own rule, gapped',
+             'A company reissues treasury shares for more than their cost. '
+             'The excess is:'],
+            ['The words this section uses precisely',
+             'Suppose: Orontes, 8,100,000 shares · The English the exam '
+             'uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['On the ',
+                       18,
+                       ' the company debits retained earnings and credits '
+                       'dividends payable, a current liability. On the ',
+                       16,
+                       ' no entry is made; it only decides who is paid. On '
+                       'the payment date the liability is paid. A ',
+                       19,
+                       ' is paid with a noncash asset.'],
+             'bank': ['prior-period adjustment',
+                      'date of record',
+                      'property dividend',
+                      'declaration date',
+                      'outstanding shares'],
+             'a': 'declaration date · date of record · property dividend',
+             'one': True,
+             'why': 'The book writes: “On the declaration date the company '
+                    'debits retained earnings and credits dividends payable, '
+                    'a current liability. On the date of record no entry is '
+                    'made; it only decides who is paid. On the payment date '
+                    'the liability is paid. A property dividend is paid with '
+                    'a noncash asset.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['A ',
+                       22,
+                       ' returns ',
+                       21,
+                       ', so it reduces APIC rather than retained earnings. '
+                       'A ',
+                       16,
+                       ' gives shareholders more shares instead of cash. For '
+                       'a small stock dividend, below about 20% to 25% of '
+                       'the ',
+                       20,
+                       ', the company moves the fair value of the new shares '
+                       'from retained earnings to common stock and APIC.'],
+             'bank': ['stock dividend',
+                      'outstanding shares',
+                      'cost method',
+                      'prior-period adjustment',
+                      'liquidating dividend',
+                      'contributed capital'],
+             'a': 'liquidating dividend · contributed capital · stock '
+                  'dividend · outstanding shares',
+             'one': True,
+             'why': 'The book writes: “A liquidating dividend returns '
+                    'contributed capital, so it reduces APIC rather than '
+                    'retained earnings. A stock dividend gives shareholders '
+                    'more shares instead of cash. For a small stock '
+                    'dividend, below about 20% to 25% of the outstanding '
+                    'shares, the company moves the fair value of the new '
+                    'shares from retained earnings to common stock and '
+                    'APIC.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A ',
+                       13,
+                       ' increases the number of shares and reduces the par '
+                       'value per share in proportion. Total equity never '
+                       'changes: only the labels inside equity move. Small ',
+                       16,
+                       ' at fair value; large stock dividend at par.'],
+             'bank': ['stock dividend',
+                      'prior-period adjustment',
+                      'outstanding shares',
+                      'stock split'],
+             'a': 'stock split · stock dividend',
+             'one': True,
+             'why': 'The book writes: “A stock split increases the number of '
+                    'shares and reduces the par value per share in '
+                    'proportion. Total equity never changes: only the labels '
+                    'inside equity move. Small stock dividend at fair value; '
+                    'large stock dividend at par.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['outstanding shares', ''],
+              ['prior-period adjustment', ''],
+              ['date of record', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Dividends, stock dividends and stock splits'),
           ('move',
@@ -287,6 +233,40 @@ HANDOUT = {'id': '4.3',
              'a': 'F',
              'why': 'The book pairs Property dividend with “Decreases”, not '
                     'with “No change”.'}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['A ',
+             22,
+             ' returns ',
+             21,
+             ', so it reduces APIC rather than retained earnings.']],
+           ['prior-period adjustment',
+            'issued shares',
+            'liquidating dividend',
+            'contributed capital'],
+           'A liquidating dividend returns contributed capital, so it '
+           'reduces APIC rather than retained earnings.',
+           'liquidating dividend · contributed capital'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Cash dividend',
+             ['Measured at: Amount declared',
+              'Retained earnings: Decreases']),
+            ('Property dividend',
+             ['Measured at: Fair value of the asset (gain or loss on '
+              'remeasurement first)',
+              'Retained earnings: Decreases'])],
+           'Only the facts above differ. What is the total equity of Cash '
+           'dividend?',
+           ['Decreases (a note payable arises)',
+            'No change',
+            'Decreases (a liability arises)',
+            'Decreases'],
+           'C',
+           'The book gives Decreases (a liability arises) as the total '
+           'equity of Cash dividend.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

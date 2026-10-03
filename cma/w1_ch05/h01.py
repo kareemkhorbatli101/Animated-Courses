@@ -7,8 +7,6 @@ HANDOUT = {'id': '5.1',
  'title': 'Purpose and structure of the statement of cash flows',
  'sub': 'section 5.1 of the book',
  'covers': ['sec:5.1',
-            'p:P5-07',
-            'p:P5-08',
             'p:P5-01',
             'p:P5-02',
             'p:P5-03',
@@ -22,110 +20,119 @@ HANDOUT = {'id': '5.1',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
             ['Purpose and structure of the statement of cash flows',
-             'cycle A'],
-            ['Item and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A company moves $500,000 from its operating bank account '
-                  'into a restricted account set aside to repay a bond. How '
-                  'is this shown in the statement of cash flows?',
-             'o': ['As an investing outflow',
-                   'It is not a cash flow, because restricted cash is '
-                   'included in the total',
-                   'As a financing outflow',
-                   'As an operating outflow'],
-             'a': 'B',
-             'why': 'Transfers between cash and restricted cash are not cash '
-                    'flows. A is wrong: The statement explains cash and '
-                    'restricted cash together. C is wrong: No bond has been '
-                    'repaid yet.',
-             'src': 'P5-07'},
-            {'t': 'MCQ',
-             'q': 'An IFRS company reports interest paid in financing '
-                  'activities. How would the same payment be classified '
-                  'under U.S. GAAP?',
-             'o': ['Operating',
-                   'Financing',
-                   'Investing',
-                   'Either operating or financing'],
-             'a': 'A',
-             'why': 'U.S. GAAP fixes interest paid in operating. B is wrong: '
-                    'Financing is an IAS 7 option only. C is wrong: Interest '
-                    'paid is never investing.',
-             'src': 'P5-08'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ['Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   "Investing: another company's securities.",
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Operating (U.S. GAAP gives '
-                    'no choice). as the answer of Interest paid on a bank '
-                    'loan.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Selling Jordan Glass '
-                  'shares?',
-             'o': ['Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   "Investing: another company's securities.",
-                   'Financing: a transaction with owners.'],
-             'a': 'C',
-             'why': "The book’s own table gives Investing: another company's "
-                    'securities. as the answer of Selling Jordan Glass '
-                    'shares.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Land for a long-term '
-                  'note?',
-             'o': ['Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities."],
-             'a': 'C',
-             'why': 'The book’s own table gives Noncash investing and '
-                    'financing activity: disclosed, not in the body. as the '
-                    'answer of Land for a long-term note.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Buying back own '
-                  'shares?',
-             'o': ['Operating (U.S. GAAP gives no choice).',
-                   'Financing: a transaction with owners.',
-                   "Investing: another company's securities.",
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Financing: a transaction '
-                    'with owners. as the answer of Buying back own shares.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Interest paid on a bank loan '
-                  'as “Operating (U.S. GAAP gives no choice).”.',
-             'a': 'T',
-             'why': 'The book pairs Interest paid on a bank loan with '
-                    '“Operating (U.S. GAAP gives no choice).”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Selling Jordan Glass shares '
-                  'as “Operating (U.S. GAAP gives no choice).”.',
-             'a': 'F',
-             'why': 'The book pairs Selling Jordan Glass shares with '
-                    "“Investing: another company's securities.”, not with "
-                    '“Operating (U.S. GAAP gives no choice).”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Land for a long-term note as '
-                  '“Noncash investing and financing activity: disclosed, not '
-                  'in the body.”.',
-             'a': 'T',
-             'why': 'The book pairs Land for a long-term note with “Noncash '
-                    'investing and financing activity: disclosed, not in the '
-                    'body.”.'}]),
+             'a figure to read · Orontes Foods Inc., year ended December 31, '
+             '2025',
+             "A lender wants to know whether a company's operations produce "
+             'enough cash to repay a loan. Which section is MOST useful?'],
+            ['The words this section uses precisely',
+             'Item · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['The ',
+                       25,
+                       " reports a company's cash receipts and cash payments "
+                       'for a period. It helps them judge whether the '
+                       'company can produce cash, pay its debts and '
+                       'dividends, and fund its growth without new '
+                       'financing. The statement explains the change in '
+                       'cash, ',
+                       18,
+                       ' and restricted cash together.'],
+             'bank': ['indirect method',
+                      'statement of cash flows',
+                      'operating activities',
+                      'cash equivalents'],
+             'a': 'statement of cash flows · cash equivalents',
+             'one': True,
+             'why': 'The book writes: “The statement of cash flows reports a '
+                    "company's cash receipts and cash payments for a period. "
+                    'It helps them judge whether the company can produce '
+                    'cash, pay its debts and dividends, and fund its growth '
+                    'without new financing. The statement explains the '
+                    'change in cash, cash equivalents and restricted cash '
+                    'together.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['',
+                       18,
+                       ' are short-term, highly liquid investments with an '
+                       'original maturity to the holder of three months or '
+                       'less. Moving money between these categories is not a '
+                       'cash flow. Cash flows are grouped into ',
+                       22,
+                       ', ',
+                       22,
+                       ' and ',
+                       22,
+                       '.'],
+             'bank': ['operating activities',
+                      'statement of cash flows',
+                      'financing activities',
+                      'investing activities',
+                      'Cash equivalents',
+                      'indirect method'],
+             'a': 'Cash equivalents · operating activities · investing '
+                  'activities · financing activities',
+             'one': True,
+             'why': 'The book writes: “Cash equivalents are short-term, '
+                    'highly liquid investments with an original maturity to '
+                    'the holder of three months or less. Moving money '
+                    'between these categories is not a cash flow. Cash flows '
+                    'are grouped into operating activities, investing '
+                    'activities and financing activities.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Moving money between these categories is not a cash '
+                       'flow. Cash flows are grouped into ',
+                       22,
+                       ', ',
+                       22,
+                       ' and ',
+                       22,
+                       '. Strong operating cash is a good sign, but a reader '
+                       'should also ask where the cash went.'],
+             'bank': ['statement of cash flows',
+                      'financing activities',
+                      'cash equivalents',
+                      'operating activities',
+                      'investing activities'],
+             'a': 'operating activities · investing activities · financing '
+                  'activities',
+             'one': True,
+             'why': 'The book writes: “Moving money between these categories '
+                    'is not a cash flow. Cash flows are grouped into '
+                    'operating activities, investing activities and '
+                    'financing activities. Strong operating cash is a good '
+                    'sign, but a reader should also ask where the cash '
+                    'went.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['statement of cash flows', ''],
+              ['indirect method', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle',
            'A',

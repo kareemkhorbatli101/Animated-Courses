@@ -56,171 +56,108 @@ HANDOUT = {'id': '7.6',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now. They come from every part of the '
-           'chapter, in no particular order.',
-           [['This handout settles', 'where it is answered'],
-            ['every section of the chapter, shuffled', 'cycle A'],
-            ['the chapter’s own case set', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'On December 28, a supplier in Türkiye ships glass bottles '
-                  'to Orontes, FOB shipping point. They arrive on January 4. '
-                  'Who includes the bottles in inventory at December 31?',
-             'o': ['The supplier, the seller',
-                   'Neither company until the bottles arrive',
-                   'Both companies, half each',
-                   'Orontes, the buyer'],
-             'a': 'D',
-             'why': 'Under FOB shipping point, control passes to the buyer '
-                    'when the goods leave the seller. A is wrong: The seller '
-                    'keeps goods in transit only under FOB destination. B is '
-                    'wrong: Someone always controls the goods; in transit '
-                    'they belong to the buyer here.',
-             'src': 'SC7-1'},
-            {'t': 'MCQ',
-             'q': 'Barada Wholesale holds cartons of Orontes tahini on '
-                  'consignment and sells them for a commission. Which '
-                  'statement is correct at year-end?',
-             'o': ['Orontes includes the cartons in inventory; Barada does '
-                   'not.',
-                   'Barada includes the cartons because they are in its '
-                   'warehouse.',
-                   'Both companies include the cartons.',
-                   'Neither company includes the cartons until they are '
-                   'sold.'],
-             'a': 'A',
-             'why': 'Orontes is the consignor and still owns the goods. '
-                    'Barada, the consignee, never includes them. B is wrong: '
-                    'Location does not decide; ownership and control do. C '
-                    'is wrong: Goods cannot be in two inventories.',
-             'src': 'SC7-2'},
-            {'t': 'MCQ',
-             'q': 'Which cost is included in the cost of inventory?',
-             'o': ['Freight-out to customers',
-                   'Sales commissions',
-                   'Freight-in on purchased goods',
-                   'Storage of finished goods'],
-             'a': 'C',
-             'why': 'Freight-in brings the goods to their present location, '
-                    'so it is part of cost. A is wrong: Freight-out is a '
-                    'selling expense. B is wrong: Commissions are selling '
-                    'expenses.',
-             'src': 'SC7-3'},
-            {'t': 'MCQ',
-             'q': 'Use the glass-bottle example in Section 7.2. What is the '
-                  'cost of the bottles in inventory (whole USD)?',
-             'o': ['20,800', '22,000', '22,400', '22,950'],
-             'a': 'B',
-             'why': 'Invoice less the discount taken, plus freight-in, '
-                    'import duty and transit insurance. A is wrong: This '
-                    'leaves out freight-in, which is part of cost. C is '
-                    'wrong: This ignores the purchase discount taken.',
-             'src': 'SC7-4'},
-            {'t': 'MCQ',
-             'q': 'Under LIFO, ending inventory consists of:',
-             'o': ['the newest costs.',
-                   'an average of all costs.',
-                   'the actual cost of each unit still on hand.',
-                   'the oldest costs.'],
-             'a': 'D',
-             'why': 'LIFO sends the newest costs to cost of goods sold, so '
-                    'the oldest costs stay in inventory. A is wrong: The '
-                    'newest costs stay in inventory under FIFO. B is wrong: '
-                    'That is the average method.',
-             'src': 'SC7-5'},
-            {'t': 'MCQ',
-             'q': 'What is the weighted-average cost per case of olive oil '
-                  'in the Orontes example?',
-             'o': ['$40.00', '$45.50', '$46.50', '$50.00'],
-             'a': 'C',
-             'why': 'Cost of goods available divided by units available. A '
-                    'is wrong: This is the oldest unit cost. B is wrong: '
-                    'This is a simple average of the four unit prices. It '
-                    'ignores the number of units in each layer.',
-             'src': 'SC7-6'},
-            {'t': 'MCQ',
-             'q': 'Prices are rising. Which method gives the highest net '
-                  'income?',
-             'o': ['FIFO',
-                   'LIFO',
-                   'Weighted average',
-                   'All methods give the same net income.'],
-             'a': 'A',
-             'why': 'FIFO puts the oldest, cheapest costs into cost of goods '
-                    'sold, so income is highest. B is wrong: LIFO gives the '
-                    'lowest income when prices rise. C is wrong: The average '
-                    'falls between FIFO and LIFO.',
-             'src': 'SC7-7'},
-            {'t': 'MCQ',
-             'q': 'A company reports LIFO cost of goods sold of 500,000. Its '
-                  'LIFO reserve increased from 30,000 to 45,000 during the '
-                  'year. What would cost of goods sold be under FIFO?',
-             'o': ['455,000', '485,000', '515,000', '545,000'],
-             'a': 'B',
-             'why': 'FIFO COGS = LIFO COGS − increase in the LIFO reserve = '
-                    '500,000 − 15,000. A is wrong: This subtracts the ending '
-                    'reserve instead of the change in the reserve. C is '
-                    'wrong: This adds the increase instead of subtracting '
-                    'it.',
-             'src': 'SC7-8'},
-            {'t': 'MCQ',
-             'q': 'Ending inventory for 2025 was understated. What are the '
-                  'effects on net income?',
-             'o': ['2025 overstated; 2026 understated',
-                   '2025 understated; 2026 no effect',
-                   'No effect in either year',
-                   '2025 understated; 2026 overstated'],
-             'a': 'D',
-             'why': 'Low ending inventory makes 2025 COGS too high. It also '
-                    'makes 2026 beginning inventory too low, so 2026 COGS is '
-                    'too low. A is wrong: These are the effects of an '
-                    'overstated ending inventory. B is wrong: The error '
-                    'carries into next year through beginning inventory.',
-             'src': 'SC7-9'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.1?',
-             'o': ['Effects on income, taxes and assets',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions',
-                   'Which costs belong in inventory?'],
-             'a': 'B',
-             'why': 'The book numbers “Which goods belong in inventory?” as '
-                    'section 7.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.2?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'C',
-             'why': 'The book numbers “Which costs belong in inventory?” as '
-                    'section 7.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.3?',
-             'o': ['Effects on income, taxes and assets',
-                   'Cost flow assumptions',
-                   'Which costs belong in inventory?',
-                   'Which goods belong in inventory?'],
-             'a': 'B',
-             'why': 'The book numbers “Cost flow assumptions” as section '
-                    '7.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.4?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'D',
-             'why': 'The book numbers “Effects on income, taxes and assets” '
-                    'as section 7.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.5?',
-             'o': ['Which costs belong in inventory?',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions',
-                   'Inventory errors'],
-             'a': 'D',
-             'why': 'The book numbers “Inventory errors” as section 7.5.'}]),
+           'Three summaries of this chapter, in the book’s own words, with '
+           'words taken out. Read all three first: together they are the '
+           'whole chapter. Then fill the gaps.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The whole chapter, in order',
+             'a figure to read',
+             'On December 28, a supplier in Türkiye ships glass bottles to '
+             'Orontes, FOB shipping point. They arrive on January 4. Who '
+             'includes the bottles in inventory at December 31?'],
+            ['The chapter’s case set',
+             'The chapter’s case set, item by item',
+             'What has to be settled before any figure in a case set is '
+             'worked out?'],
+            ['The words it uses precisely',
+             'inventory · cost of goods sold · goods available for sale · '
+             'FIFO (first-in, first-out) · LIFO (last-in, first-out) · '
+             'weighted-average cost',
+             'matching, at the end of cycle B']],
+           [{'t': 'FILL',
+             'q': 'Where the chapter starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['Under ',
+                       17,
+                       ', the seller keeps control until the goods arrive, '
+                       'so the seller includes them. In a ',
+                       13,
+                       ', the ',
+                       11,
+                       ' (the owner) gives goods to a ',
+                       11,
+                       ', who sells them for a commission. The goods stay in '
+                       "the consignor's ",
+                       11,
+                       '.'],
+             'bank': ['FOB destination',
+                      'inventory',
+                      'consignee',
+                      'consignment',
+                      'inventoriable cost',
+                      'consignor',
+                      'goods available for sale'],
+             'a': 'FOB destination · consignment · consignor · consignee · '
+                  'inventory',
+             'one': True,
+             'why': 'The book writes: “Under FOB destination, the seller '
+                    'keeps control until the goods arrive, so the seller '
+                    'includes them. In a consignment, the consignor (the '
+                    'owner) gives goods to a consignee, who sells them for a '
+                    "commission. The goods stay in the consignor's "
+                    'inventory.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['In a ',
+                       27,
+                       ', the company counts the goods at year-end and '
+                       'calculates ',
+                       20,
+                       ' for the whole period. In a ',
+                       28,
+                       ', it updates inventory and cost of goods sold after '
+                       'every purchase and every sale.'],
+             'bank': ['inventoriable cost',
+                      'cost of goods sold',
+                      'goods available for sale',
+                      'perpetual inventory system',
+                      'periodic inventory system'],
+             'a': 'periodic inventory system · cost of goods sold · '
+                  'perpetual inventory system',
+             'one': True,
+             'why': 'The book writes: “In a periodic inventory system, the '
+                    'company counts the goods at year-end and calculates '
+                    'cost of goods sold for the whole period. In a perpetual '
+                    'inventory system, it updates inventory and cost of '
+                    'goods sold after every purchase and every sale.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['So FIFO gives the lowest ',
+                       20,
+                       ', the highest ',
+                       14,
+                       ', the highest income tax and the highest ending ',
+                       11,
+                       '. When prices are falling, all these relationships '
+                       'reverse. Effects of FIFO, weighted average and LIFO '
+                       'when prices are rising.'],
+             'bank': ['goods available for sale',
+                      'inventory',
+                      'gross profit',
+                      'inventoriable cost',
+                      'cost of goods sold'],
+             'a': 'cost of goods sold · gross profit · inventory',
+             'one': True,
+             'why': 'The book writes: “So FIFO gives the lowest cost of '
+                    'goods sold, the highest gross profit, the highest '
+                    'income tax and the highest ending inventory. When '
+                    'prices are falling, all these relationships reverse. '
+                    'Effects of FIFO, weighted average and LIFO when prices '
+                    'are rising.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),

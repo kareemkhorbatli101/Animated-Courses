@@ -7,8 +7,6 @@ HANDOUT = {'id': '7.1',
  'title': 'Which goods belong in inventory?',
  'sub': 'section 7.1 of the book',
  'covers': ['sec:7.1',
-            'p:P7-07',
-            'p:P7-08',
             'p:P7-01',
             'p:P7-02',
             'p:P7-03',
@@ -26,110 +24,127 @@ HANDOUT = {'id': '7.1',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Which goods belong in inventory?', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Specific identification is MOST appropriate for:',
-             'o': ['unique, high-value items such as cars.',
-                   'large volumes of identical glass bottles.',
-                   'any items when prices are rising.',
-                   'perishable food products.'],
-             'a': 'A',
-             'why': 'It tracks the cost of each individual item, which is '
-                    'practical only for distinct items. B is wrong: '
-                    'Identical items are interchangeable; tracking each one '
-                    'is costly and allows manipulation. C is wrong: Price '
-                    'trends do not decide when specific identification fits.',
-             'src': 'P7-07'},
-            {'t': 'MCQ',
-             'q': 'Prices are falling. Which method gives the highest gross '
-                  'profit?',
-             'o': ['FIFO',
-                   'Weighted average',
-                   'LIFO',
-                   'All methods give the same gross profit.'],
-             'a': 'C',
-             'why': 'With falling prices, LIFO puts the newest, lowest costs '
-                    'into cost of goods sold. A is wrong: FIFO gives the '
-                    'highest profit only when prices rise. B is wrong: The '
-                    'average is always between FIFO and LIFO.',
-             'src': 'P7-08'},
-            {'t': 'MCQ',
-             'q': 'Which memo item does the book pair with “Subtract from '
-                  'the count”?',
-             'o': ['M3 (held for a Beirut producer)',
-                   'M2 (FOB destination, sold)',
-                   'M1 (FOB shipping point, bought)',
-                   'M4 (at a Doha consignee)'],
-             'a': 'A',
-             'why': 'The book’s own table pairs M3 (held for a Beirut '
-                    'producer) with “Subtract from the count”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of M1 (FOB shipping point, '
-                  'bought) as “Add to the count”.',
-             'a': 'T',
-             'why': 'The book pairs M1 (FOB shipping point, bought) with '
-                    '“Add to the count”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of M2 (FOB destination, sold) '
-                  'as “Subtract from the count”.',
-             'a': 'F',
-             'why': 'The book pairs M2 (FOB destination, sold) with “Add to '
-                    'the count”, not with “Subtract from the count”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of M3 (held for a Beirut '
-                  'producer) as “Subtract from the count”.',
-             'a': 'T',
-             'why': 'The book pairs M3 (held for a Beirut producer) with '
-                    '“Subtract from the count”.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.1?',
-             'o': ['Effects on income, taxes and assets',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions',
-                   'Which costs belong in inventory?'],
-             'a': 'B',
-             'why': 'The book numbers “Which goods belong in inventory?” as '
-                    'section 7.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.2?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'C',
-             'why': 'The book numbers “Which costs belong in inventory?” as '
-                    'section 7.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.3?',
-             'o': ['Effects on income, taxes and assets',
-                   'Cost flow assumptions',
-                   'Which costs belong in inventory?',
-                   'Which goods belong in inventory?'],
-             'a': 'B',
-             'why': 'The book numbers “Cost flow assumptions” as section '
-                    '7.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.4?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'D',
-             'why': 'The book numbers “Effects on income, taxes and assets” '
-                    'as section 7.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.5?',
-             'o': ['Which costs belong in inventory?',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions',
-                   'Inventory errors'],
-             'a': 'D',
-             'why': 'The book numbers “Inventory errors” as section 7.5.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Which goods belong in inventory?',
+             'a figure to read · Memo item',
+             'A seller ships goods on December 30, FOB destination. The '
+             'goods arrive on January 2. At December 31, the goods should '
+             'be:'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['Under ',
+                       17,
+                       ', the seller keeps control until the goods arrive, '
+                       'so the seller includes them. In a ',
+                       13,
+                       ', the ',
+                       11,
+                       ' (the owner) gives goods to a ',
+                       11,
+                       ', who sells them for a commission. The goods stay in '
+                       "the consignor's ",
+                       11,
+                       '.'],
+             'bank': ['consignee',
+                      'inventory',
+                      'periodic inventory system',
+                      'consignment',
+                      'weighted-average cost',
+                      'consignor',
+                      'FOB destination'],
+             'a': 'FOB destination · consignment · consignor · consignee · '
+                  'inventory',
+             'one': True,
+             'why': 'The book writes: “Under FOB destination, the seller '
+                    'keeps control until the goods arrive, so the seller '
+                    'includes them. In a consignment, the consignor (the '
+                    'owner) gives goods to a consignee, who sells them for a '
+                    "commission. The goods stay in the consignor's "
+                    'inventory.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['In a bill-and-hold sale, the seller keeps the goods '
+                       'in its ',
+                       11,
+                       ' unless strict conditions show that the buyer '
+                       'already controls them. ',
+                       20,
+                       ': the BUYER includes ',
+                       18,
+                       '. ',
+                       17,
+                       ': the SELLER includes them.'],
+             'bank': ['weighted-average cost',
+                      'inventory',
+                      'periodic inventory system',
+                      'FOB shipping point',
+                      'FOB destination',
+                      'goods in transit'],
+             'a': 'inventory · FOB shipping point · goods in transit · FOB '
+                  'destination',
+             'one': True,
+             'why': 'The book writes: “In a bill-and-hold sale, the seller '
+                    'keeps the goods in its inventory unless strict '
+                    'conditions show that the buyer already controls them. '
+                    'FOB shipping point: the BUYER includes goods in '
+                    'transit. FOB destination: the SELLER includes them.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Arabic: البضاعة بالأمانة is ',
+                       13,
+                       '; the owner is the ',
+                       11,
+                       ' (المُرسِل) and the seller in the shop is the ',
+                       11,
+                       ' (المُرسَل إليه). SC7-1 On December 28, a supplier '
+                       'in Türkiye ships glass bottles to Orontes, ',
+                       20,
+                       '.'],
+             'bank': ['consignee',
+                      'periodic inventory system',
+                      'FOB shipping point',
+                      'consignor',
+                      'consignment',
+                      'weighted-average cost'],
+             'a': 'consignment · consignor · consignee · FOB shipping point',
+             'one': True,
+             'why': 'The book writes: “Arabic: البضاعة بالأمانة is '
+                    'consignment; the owner is the consignor (المُرسِل) and '
+                    'the seller in the shop is the consignee (المُرسَل '
+                    'إليه). SC7-1 On December 28, a supplier in Türkiye '
+                    'ships glass bottles to Orontes, FOB shipping point.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['inventory', ''],
+              ['weighted-average cost', ''],
+              ['goods in transit', ''],
+              ['consignee', ''],
+              ['normal capacity', ''],
+              ['specific identification', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Which goods belong in inventory?'),
           ('move',

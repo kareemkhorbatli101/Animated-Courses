@@ -16,151 +16,116 @@ HANDOUT = {'id': '4.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Limitations and links to the other statements', 'cycle A'],
-            ['Account and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.1?',
-             'o': ['Dividends, stock dividends and stock splits',
-                   'Retained earnings',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity'],
-             'a': 'D',
-             'why': 'The book numbers “Components of equity and the '
-                    'statement of changes in equity” as section 4.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.2?',
-             'o': ['Components of equity and the statement of changes in '
-                   'equity',
-                   'Retained earnings',
-                   'Dividends, stock dividends and stock splits',
-                   'Issuing and buying back shares'],
-             'a': 'D',
-             'why': 'The book numbers “Issuing and buying back shares” as '
-                    'section 4.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.3?',
-             'o': ['Retained earnings',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity',
-                   'Dividends, stock dividends and stock splits'],
-             'a': 'D',
-             'why': 'The book numbers “Dividends, stock dividends and stock '
-                    'splits” as section 4.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.4?',
-             'o': ['Retained earnings',
-                   'Dividends, stock dividends and stock splits',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity'],
-             'a': 'A',
-             'why': 'The book numbers “Retained earnings” as section 4.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.5?',
-             'o': ['Issuing and buying back shares',
-                   'Limitations and links to the other statements',
-                   'Components of equity and the statement of changes in '
-                   'equity',
-                   'Dividends, stock dividends and stock splits'],
-             'a': 'B',
-             'why': 'The book numbers “Limitations and links to the other '
-                    'statements” as section 4.5.'},
-            {'t': 'MCQ',
-             'q': 'Which total equity does the book give for Declare a cash '
-                  'dividend?',
-             'o': ['________', 'No change', 'Decreases'],
-             'a': 'C',
-             'why': 'The book’s own table gives Decreases as the total '
-                    'equity of Declare a cash dividend.'},
-            {'t': 'MCQ',
-             'q': 'Which total equity does the book give for Declare and '
-                  'issue a small stock dividend?',
-             'o': ['Decreases', '________', 'No change'],
-             'a': 'C',
-             'why': 'The book’s own table gives No change as the total '
-                    'equity of Declare and issue a small stock dividend.'},
-            {'t': 'MCQ',
-             'q': 'Which total equity does the book give for Carry out a '
-                  '2-for-1 stock split?',
-             'o': ['No change', 'Decreases', '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the total equity '
-                    'of Carry out a 2-for-1 stock split.'},
-            {'t': 'MCQ',
-             'q': 'Which total equity does the book give for Buy treasury '
-                  'stock?',
-             'o': ['No change', '________', 'Decreases'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the total equity '
-                    'of Buy treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which total equity does the book give for Reissue '
-                  'treasury stock above cost?',
-             'o': ['Decreases', '________', 'No change'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the total equity '
-                    'of Reissue treasury stock above cost.'},
-            {'t': 'MCQ',
-             'q': 'Which total equity does the book give for Correct a '
-                  'prior-year error that overstated expenses?',
-             'o': ['No change', 'Decreases', '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the total equity '
-                    'of Correct a prior-year error that overstated '
-                    'expenses.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for APIC–treasury '
-                  'stock?',
-             'o': ['Contributed capital',
-                   'Deduction from equity',
-                   'Current liability',
-                   'Earned capital'],
-             'a': 'A',
-             'why': 'The book’s own table gives Contributed capital as the '
-                    'category of APIC–treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Retained earnings?',
-             'o': ['Contributed capital',
-                   'Deduction from equity',
-                   'Earned capital',
-                   'Current liability'],
-             'a': 'C',
-             'why': 'The book’s own table gives Earned capital as the '
-                    'category of Retained earnings.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Treasury stock?',
-             'o': ['Earned capital',
-                   'Contributed capital',
-                   'Deduction from equity',
-                   'Current liability'],
-             'a': 'C',
-             'why': 'The book’s own table gives Deduction from equity as the '
-                    'category of Treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Contributed capital',
-                   'Earned capital',
-                   'Current liability',
-                   'Deduction from equity'],
-             'a': 'C',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Common stock?',
-             'o': ['Deduction from equity',
-                   'Earned capital',
-                   'Contributed capital',
-                   'Current liability'],
-             'a': 'C',
-             'why': 'The book’s own table gives Contributed capital as the '
-                    'category of Common stock.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Limitations and links to the other statements',
+             'a figure to read · Balance / event (USD 000 unless stated)',
+             'Under IFRS, how is a stock dividend (bonus issue) of 10% '
+             'measured?'],
+            ['The words this section uses precisely',
+             'Account · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       16,
+                       " is shown at the price paid, not at today's share "
+                       'price. Legal capital rules also differ from state to '
+                       'state, so equity does not show exactly how much a '
+                       'company may legally distribute. The ',
+                       32,
+                       ' takes net income and OCI from the statement of '
+                       'comprehensive income, and dividends and share issues '
+                       "from the company's owner transactions."],
+             'bank': ['contributed capital',
+                      'liquidating dividend',
+                      'statement of changes in equity',
+                      'Treasury stock'],
+             'a': 'Treasury stock · statement of changes in equity',
+             'one': True,
+             'why': 'The book writes: “Treasury stock is shown at the price '
+                    "paid, not at today's share price. Legal capital rules "
+                    'also differ from state to state, so equity does not '
+                    'show exactly how much a company may legally distribute. '
+                    'The statement of changes in equity takes net income and '
+                    'OCI from the statement of comprehensive income, and '
+                    "dividends and share issues from the company's owner "
+                    'transactions.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['',
+                       11,
+                       ' stock is shown at the price paid, not at ',
+                       11,
+                       ' share price. Legal capital rules also differ from '
+                       'state to state, so equity does not show exactly how '
+                       'much a company may legally ',
+                       12,
+                       '.'],
+             'bank': ['contributed capital',
+                      'distribute',
+                      'liquidating dividend',
+                      "today's",
+                      'Treasury'],
+             'a': "Treasury · today's · distribute",
+             'one': True,
+             'why': 'The book writes: “Treasury stock is shown at the price '
+                    "paid, not at today's share price. Legal capital rules "
+                    'also differ from state to state, so equity does not '
+                    'show exactly how much a company may legally '
+                    'distribute.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['The ',
+                       11,
+                       ' of changes in equity takes net income and OCI from '
+                       'the statement of ',
+                       15,
+                       ' income, and dividends and share issues from the '
+                       "company's owner ",
+                       14,
+                       '. Its closing balances are the equity section of the '
+                       'balance sheet. Chapter 5 shows how the cash parts of '
+                       'these transactions appear in the financing section.'],
+             'bank': ['comprehensive',
+                      'contributed capital',
+                      'transactions',
+                      'liquidating dividend',
+                      'statement'],
+             'a': 'statement · comprehensive · transactions',
+             'one': True,
+             'why': 'The book writes: “The statement of changes in equity '
+                    'takes net income and OCI from the statement of '
+                    'comprehensive income, and dividends and share issues '
+                    "from the company's owner transactions. Its closing "
+                    'balances are the equity section of the balance sheet. '
+                    'Chapter 5 shows how the cash parts of these '
+                    'transactions appear in the financing section.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['stock dividend', ''],
+              ['issued shares', ''],
+              ['liquidating dividend', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Limitations and links to the other statements'),
           ('move',

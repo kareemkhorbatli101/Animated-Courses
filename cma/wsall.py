@@ -58,6 +58,16 @@ def run(bk, chapters):
         bad += ['layout(key): ' + x for x in wslint.lint(kp)]
         over = [round(x, 2) for x in fills if x > 0.95]
         bad += ['page fill %.2f is over the 0.95 ceiling' % x for x in over]
+        # Page one is the preview, and it has to be a full page: a half-empty
+        # opening sheet wastes the session's best moment, and a spilt one
+        # pushes the first cycle onto page three.
+        i = 0
+        for H, _c in keys:
+            if not 0.60 <= fills[i] <= 0.95:
+                bad.append('%s: page one is %.2f full; the preview page has '
+                           'to sit between 0.60 and 0.95'
+                           % (H['id'], fills[i]))
+            i += H['pages']
         rows.append((n, len(keys), sum(first), sum(c.i for _H, c in keys),
                      max(fills), over, bad))
     return rows

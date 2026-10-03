@@ -37,112 +37,118 @@ HANDOUT = {'id': '4.6',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now. They come from every part of the '
-           'chapter, in no particular order.',
-           [['This handout settles', 'where it is answered'],
-            ['every section of the chapter, shuffled', 'cycle A'],
-            ['the chapter’s own case set', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A company declares a 5% stock dividend. It is measured '
-                  'at:',
-             'o': ['the par value of the new shares',
-                   'zero, because no assets leave the company',
-                   'the fair value of the new shares',
-                   'the book value per share'],
-             'a': 'C',
-             'why': 'A small stock dividend is measured at fair value. A is '
-                    'wrong: Par value is used for large stock dividends. B '
-                    'is wrong: No entry is made only for a stock split.',
-             'src': 'SC4-5'},
-            {'t': 'MCQ',
-             'q': 'In 2026 a company finds that it overstated its 2024 '
-                  'depreciation expense. How does it correct the error?',
-             'o': ['It reports a gain in 2026 net income',
-                   'It reduces 2026 depreciation expense',
-                   'It records the correction in OCI',
-                   'It restates prior years and increases opening retained '
-                   'earnings, net of tax'],
-             'a': 'D',
-             'why': 'Error corrections are prior-period adjustments to '
-                    'opening retained earnings. A is wrong: Errors are not '
-                    'corrected through current net income. B is wrong: This '
-                    'would misstate 2026 as well.',
-             'src': 'SC4-7'},
-            {'t': 'MCQ',
-             'q': "An IFRS company reports a 'translation reserve'. Where "
-                  'would this amount appear in U.S. GAAP equity?',
-             'o': ['Retained earnings',
-                   'Accumulated other comprehensive income',
-                   'Additional paid-in capital',
-                   'Appropriated retained earnings'],
-             'a': 'B',
-             'why': 'Foreign-currency translation adjustments are OCI items. '
-                    'A is wrong: Not every reserve is retained earnings. C '
-                    'is wrong: APIC comes from owners, not from translation.',
-             'src': 'SC4-8'},
-            {'t': 'MCQ',
-             'q': "Why is Orontes's total equity much lower than the market "
-                  'value of its shares?',
-             'o': ['Equity is measured at fair value each year',
-                   'Treasury stock is shown at market value',
-                   'Equity includes only contributed capital',
-                   'Most assets are at historical cost and internally built '
-                   'intangibles are not recorded'],
-             'a': 'D',
-             'why': 'Book value is not a valuation. A is wrong: Equity is '
-                    'not remeasured to fair value. B is wrong: Treasury '
-                    'stock is shown at cost.',
-             'src': 'SC4-9'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.1?',
-             'o': ['Dividends, stock dividends and stock splits',
-                   'Retained earnings',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity'],
-             'a': 'D',
-             'why': 'The book numbers “Components of equity and the '
-                    'statement of changes in equity” as section 4.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.2?',
-             'o': ['Components of equity and the statement of changes in '
-                   'equity',
-                   'Retained earnings',
-                   'Dividends, stock dividends and stock splits',
-                   'Issuing and buying back shares'],
-             'a': 'D',
-             'why': 'The book numbers “Issuing and buying back shares” as '
-                    'section 4.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.3?',
-             'o': ['Retained earnings',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity',
-                   'Dividends, stock dividends and stock splits'],
-             'a': 'D',
-             'why': 'The book numbers “Dividends, stock dividends and stock '
-                    'splits” as section 4.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.4?',
-             'o': ['Retained earnings',
-                   'Dividends, stock dividends and stock splits',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity'],
-             'a': 'A',
-             'why': 'The book numbers “Retained earnings” as section 4.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.5?',
-             'o': ['Issuing and buying back shares',
-                   'Limitations and links to the other statements',
-                   'Components of equity and the statement of changes in '
-                   'equity',
-                   'Dividends, stock dividends and stock splits'],
-             'a': 'B',
-             'why': 'The book numbers “Limitations and links to the other '
-                    'statements” as section 4.5.'}]),
+           'Three summaries of this chapter, in the book’s own words, with '
+           'words taken out. Read all three first: together they are the '
+           'whole chapter. Then fill the gaps.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The whole chapter, in order',
+             'a figure to read',
+             'A company declares a 5% stock dividend. It is measured at:'],
+            ['The chapter’s case set',
+             'The chapter’s case set, item by item · Suppose: Orontes, '
+             '8,100,000 shares',
+             'What has to be settled before any figure in a case set is '
+             'worked out?'],
+            ['The words it uses precisely',
+             'statement of changes in equity · contributed capital · '
+             'outstanding shares · treasury stock · stock dividend · stock '
+             'split',
+             'matching, at the end of cycle B']],
+           [{'t': 'FILL',
+             'q': 'Where the chapter starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       17,
+                       ' is recorded in the same way, in its own account. A '
+                       'company may buy back its own shares and hold them '
+                       'as ',
+                       16,
+                       '. Under the ',
+                       13,
+                       ', treasury stock is recorded at the price paid and '
+                       'deducted from equity. Shares held as treasury stock '
+                       'are ',
+                       15,
+                       ' but not ',
+                       20,
+                       ': they receive no dividends and have no votes.'],
+             'bank': ['issued shares',
+                      'Preferred stock',
+                      'declaration date',
+                      'outstanding shares',
+                      'cost method',
+                      'treasury stock',
+                      'property dividend'],
+             'a': 'Preferred stock · treasury stock · cost method · issued '
+                  'shares · outstanding shares',
+             'one': True,
+             'why': 'The book writes: “Preferred stock is recorded in the '
+                    'same way, in its own account. A company may buy back '
+                    'its own shares and hold them as treasury stock. Under '
+                    'the cost method, treasury stock is recorded at the '
+                    'price paid and deducted from equity. Shares held as '
+                    'treasury stock are issued shares but not outstanding '
+                    'shares: they receive no dividends and have no votes.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['A ',
+                       22,
+                       ' returns ',
+                       21,
+                       ', so it reduces APIC rather than retained earnings. '
+                       'A ',
+                       16,
+                       ' gives shareholders more shares instead of cash. For '
+                       'a small stock dividend, below about 20% to 25% of '
+                       'the ',
+                       20,
+                       ', the company moves the fair value of the new shares '
+                       'from retained earnings to common stock and APIC.'],
+             'bank': ['contributed capital',
+                      'cost method',
+                      'outstanding shares',
+                      'issued shares',
+                      'liquidating dividend',
+                      'stock dividend'],
+             'a': 'liquidating dividend · contributed capital · stock '
+                  'dividend · outstanding shares',
+             'one': True,
+             'why': 'The book writes: “A liquidating dividend returns '
+                    'contributed capital, so it reduces APIC rather than '
+                    'retained earnings. A stock dividend gives shareholders '
+                    'more shares instead of cash. For a small stock '
+                    'dividend, below about 20% to 25% of the outstanding '
+                    'shares, the company moves the fair value of the new '
+                    'shares from retained earnings to common stock and '
+                    'APIC.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['SC4-5 A company declares a 5% ',
+                       16,
+                       '. Retained earnings are the profits a company has '
+                       'kept since it began, less the dividends it has '
+                       'declared. A board may set part of retained earnings '
+                       'aside, for example for a new plant. These ',
+                       32,
+                       ' stay within equity; no costs are ever charged to '
+                       'them.'],
+             'bank': ['cost method',
+                      'stock dividend',
+                      'appropriated retained earnings',
+                      'issued shares'],
+             'a': 'stock dividend · appropriated retained earnings',
+             'one': True,
+             'why': 'The book writes: “SC4-5 A company declares a 5% stock '
+                    'dividend. Retained earnings are the profits a company '
+                    'has kept since it began, less the dividends it has '
+                    'declared. A board may set part of retained earnings '
+                    'aside, for example for a new plant. These appropriated '
+                    'retained earnings stay within equity; no costs are ever '
+                    'charged to them.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),

@@ -24,91 +24,113 @@ HANDOUT = {'id': '1.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Who writes the rules? U.S. GAAP and IFRS', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which ● IFRS does the book give for balance sheet?',
-             'o': ['statement of profit or loss',
-                   'trade receivables',
-                   'share capital (ordinary shares)',
-                   'statement of financial position'],
-             'a': 'D',
-             'why': 'The book’s own table gives statement of financial '
-                    'position as the ● IFRS of balance sheet.'},
-            {'t': 'MCQ',
-             'q': 'Which ● IFRS does the book give for income statement?',
-             'o': ['statement of profit or loss',
-                   'trade receivables',
-                   'share premium',
-                   'share capital (ordinary shares)'],
-             'a': 'A',
-             'why': 'The book’s own table gives statement of profit or loss '
-                    'as the ● IFRS of income statement.'},
-            {'t': 'MCQ',
-             'q': 'Which ● IFRS does the book give for common stock?',
-             'o': ['share capital (ordinary shares)',
-                   'statement of financial position',
-                   'statement of profit or loss',
-                   'share premium'],
-             'a': 'A',
-             'why': 'The book’s own table gives share capital (ordinary '
-                    'shares) as the ● IFRS of common stock.'},
-            {'t': 'MCQ',
-             'q': 'Which ● IFRS does the book give for additional paid-in '
-                  'capital?',
-             'o': ['share premium',
-                   'profit',
-                   'statement of financial position',
-                   'share capital (ordinary shares)'],
-             'a': 'A',
-             'why': 'The book’s own table gives share premium as the ● IFRS '
-                    'of additional paid-in capital.'},
-            {'t': 'MCQ',
-             'q': 'Which ● IFRS does the book give for accounts receivable?',
-             'o': ['statement of financial position',
-                   'share premium',
-                   'trade receivables',
-                   'profit'],
-             'a': 'C',
-             'why': 'The book’s own table gives trade receivables as the ● '
-                    'IFRS of accounts receivable.'},
-            {'t': 'MCQ',
-             'q': 'Which ● IFRS does the book give for net income?',
-             'o': ['share capital (ordinary shares)',
-                   'trade receivables',
-                   'profit',
-                   'statement of profit or loss'],
-             'a': 'C',
-             'why': 'The book’s own table gives profit as the ● IFRS of net '
-                    'income.'},
-            {'t': 'MCQ',
-             'q': 'Which organization writes U.S. GAAP?',
-             'o': ['The FASB', 'The SEC', 'The PCAOB', 'The IASB'],
-             'a': 'A',
-             'why': 'The FASB writes U.S. GAAP and keeps it in the '
-                    'Accounting Standards Codification. B is wrong: The SEC '
-                    'has legal authority, but it recognizes the FASB as the '
-                    'standard setter. C is wrong: The PCAOB sets auditing '
-                    'standards, not accounting standards.',
-             'src': 'SC5-1'},
-            {'t': 'MCQ',
-             'q': 'The IFRS term share premium has the same meaning as the '
-                  'U.S. GAAP term:',
-             'o': ['retained earnings',
-                   'common stock',
-                   'net income',
-                   'additional paid-in capital'],
-             'a': 'D',
-             'why': 'Share premium is the amount received for shares above '
-                    'their par value: additional paid-in capital. A is '
-                    'wrong: Retained earnings come from past profits, not '
-                    'from selling shares. B is wrong: Common stock holds '
-                    'only the par value of the shares.',
-             'src': 'SC5-2'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Who writes the rules? U.S. GAAP and IFRS',
+             'a figure to read · ■ U.S. GAAP (used on the exam)',
+             'Which organization writes U.S. GAAP?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['In the United States, the accounting rules are '
+                       'called ',
+                       11,
+                       ' (generally accepted accounting principles). The ',
+                       11,
+                       ' (Financial Accounting Standards Board) writes them. '
+                       'The FASB is a private, independent organization.'],
+             'bank': ['FASB',
+                      'U.S. GAAP',
+                      'relevance',
+                      'accumulated depreciation'],
+             'a': 'U.S. GAAP · FASB',
+             'one': True,
+             'why': 'The book writes: “In the United States, the accounting '
+                    'rules are called U.S. GAAP (generally accepted '
+                    'accounting principles). The FASB (Financial Accounting '
+                    'Standards Board) writes them. The FASB is a private, '
+                    'independent organization.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The PCAOB sets auditing standards, not accounting '
+                       'standards. Outside the United States, many countries '
+                       'use ',
+                       11,
+                       ' (International Financial Reporting Standards). The ',
+                       11,
+                       ' (International Accounting Standards Board) issues '
+                       'them, under the IFRS Foundation.'],
+             'bank': ['accumulated depreciation',
+                      'IFRS',
+                      'IASB',
+                      'relevance'],
+             'a': 'IFRS · IASB',
+             'one': True,
+             'why': 'The book writes: “The PCAOB sets auditing standards, '
+                    'not accounting standards. Outside the United States, '
+                    'many countries use IFRS (International Financial '
+                    'Reporting Standards). The IASB (International '
+                    'Accounting Standards Board) issues them, under the IFRS '
+                    'Foundation.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Who writes the rules: SEC, ',
+                       11,
+                       ' and the ASC for ',
+                       11,
+                       '; ',
+                       11,
+                       ' Foundation and ',
+                       11,
+                       ' for IFRS. However, Section A also asks about the '
+                       'main differences between U.S. If you learned '
+                       'accounting under IFRS, this is good news: most '
+                       'concepts are the same.'],
+             'bank': ['U.S. GAAP',
+                      'relevance',
+                      'accumulated depreciation',
+                      'IASB',
+                      'IFRS',
+                      'FASB'],
+             'a': 'FASB · U.S. GAAP · IFRS · IASB',
+             'one': True,
+             'why': 'The book writes: “Who writes the rules: SEC, FASB and '
+                    'the ASC for U.S. GAAP; IFRS Foundation and IASB for '
+                    'IFRS. However, Section A also asks about the main '
+                    'differences between U.S. If you learned accounting '
+                    'under IFRS, this is good news: most concepts are the '
+                    'same.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['equity', ''],
+              ['debit', ''],
+              ['general-purpose financial statements', ''],
+              ['gain', ''],
+              ['double-entry system', ''],
+              ['accumulated depreciation', ''],
+              ['notes payable', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Who writes the rules? U.S. GAAP and IFRS'),
           ('move',

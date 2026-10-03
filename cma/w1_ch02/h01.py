@@ -7,8 +7,6 @@ HANDOUT = {'id': '2.1',
  'title': 'Purpose and structure of the balance sheet',
  'sub': 'section 2.1 of the book',
  'covers': ['sec:2.1',
-            'p:P2-07',
-            'p:P2-08',
             'p:P2-01',
             'p:P2-02',
             'p:P2-03',
@@ -25,106 +23,118 @@ HANDOUT = {'id': '2.1',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Purpose and structure of the balance sheet', 'cycle A'],
-            ['Account and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Early in 2026, Orontes pays $500,000 of accounts payable '
-                  'in cash. What happens to its working capital and its '
-                  'current ratio of 3.31?',
-             'o': ['Both fall',
-                   'Working capital falls; the current ratio does not change',
-                   'Working capital does not change; the current ratio rises '
-                   'to 3.62',
-                   'Neither changes'],
-             'a': 'C',
-             'why': 'Current assets and current liabilities fall by the same '
-                    'amount; with a ratio above 1, the ratio rises. A is '
-                    'wrong: Working capital is unchanged because both sides '
-                    'fall equally. B is wrong: Working capital is the '
-                    'difference, which does not change; the ratio does.',
-             'src': 'P2-07'},
-            {'t': 'MCQ',
-             'q': 'A company with a current ratio of 0.8 borrows cash on a '
-                  '90-day note. What is the effect on the current ratio?',
-             'o': ['It increases',
-                   'It decreases',
-                   'It does not change',
-                   'It cannot be determined'],
-             'a': 'A',
-             'why': 'Adding the same amount to both terms moves a ratio '
-                    'below 1 toward 1. B is wrong: A ratio falls only if it '
-                    'starts above 1. C is wrong: Equal changes leave working '
-                    'capital, not the ratio, unchanged.',
-             'src': 'P2-08'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Prepaid rent?',
-             'o': ['Equity',
-                   'Current asset',
-                   'Current liability',
-                   'Noncurrent asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives Current asset as the '
-                    'category of Prepaid rent.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Land?',
-             'o': ['Equity',
-                   'Current asset',
-                   'Current liability',
-                   'Noncurrent asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Noncurrent asset as the '
-                    'category of Land.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Allowance for '
-                  'credit losses?',
-             'o': ['Equity',
-                   'Noncurrent asset',
-                   'Current asset',
-                   'Current liability'],
-             'a': 'C',
-             'why': 'The book’s own table gives Current asset as the '
-                    'category of Allowance for credit losses.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Noncurrent asset',
-                   'Equity',
-                   'Current liability',
-                   'Current asset'],
-             'a': 'C',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Additional paid-in '
-                  'capital?',
-             'o': ['Noncurrent asset',
-                   'Equity',
-                   'Current asset',
-                   'Current liability'],
-             'a': 'B',
-             'why': 'The book’s own table gives Equity as the category of '
-                    'Additional paid-in capital.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Prepaid rent as “Current '
-                  'asset”.',
-             'a': 'T',
-             'why': 'The book pairs Prepaid rent with “Current asset”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Land as “Current '
-                  'liability”.',
-             'a': 'F',
-             'why': 'The book pairs Land with “Noncurrent asset”, not with '
-                    '“Current liability”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Allowance for credit '
-                  'losses as “Current asset”.',
-             'a': 'T',
-             'why': 'The book pairs Allowance for credit losses with '
-                    '“Current asset”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Purpose and structure of the balance sheet',
+             'a figure to read · Orontes Foods Inc. (whole USD)',
+             'Which question does the balance sheet help users answer MOST '
+             'directly?'],
+            ['The words this section uses precisely',
+             'Account · The English the exam uses, and what it translates · '
+             'Orontes Foods Inc. (whole USD)',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['The ',
+                       15,
+                       " reports a company's assets, liabilities and equity "
+                       'at one point in time. It answers three questions for '
+                       'investors and lenders. Can the company pay its bills '
+                       'in the coming months? This is ',
+                       11,
+                       '. Can it pay all its debts over time? This is ',
+                       11,
+                       '.'],
+             'bank': ['solvency',
+                      'working capital',
+                      'current assets',
+                      'balance sheet',
+                      'liquidity'],
+             'a': 'balance sheet · liquidity · solvency',
+             'one': True,
+             'why': "The book writes: “The balance sheet reports a company's "
+                    'assets, liabilities and equity at one point in time. It '
+                    'answers three questions for investors and lenders. Can '
+                    'the company pay its bills in the coming months? This is '
+                    'liquidity. Can it pay all its debts over time? This is '
+                    'solvency.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Some companies, such as banks, list items in order '
+                       'of ',
+                       11,
+                       ' instead, without a current subtotal. All the '
+                       'amounts come from the same records as the earlier '
+                       'chapters on receivables, inventory, investments and '
+                       'long-lived assets. For example, the equity-method '
+                       'investments include Jordan Glass Co. ',
+                       16,
+                       ' come first, from cash down to assets held for '
+                       'sale.'],
+             'bank': ['Current assets',
+                      'working capital',
+                      'solvency',
+                      'liquidity'],
+             'a': 'liquidity · Current assets',
+             'one': True,
+             'why': 'The book writes: “Some companies, such as banks, list '
+                    'items in order of liquidity instead, without a current '
+                    'subtotal. All the amounts come from the same records as '
+                    'the earlier chapters on receivables, inventory, '
+                    'investments and long-lived assets. For example, the '
+                    'equity-method investments include Jordan Glass Co. '
+                    'Current assets come first, from cash down to assets '
+                    'held for sale.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Can the company pay its bills in the coming months? '
+                       'This is ',
+                       11,
+                       '. Can it pay all its debts over time? This is ',
+                       11,
+                       '. Can it raise cash or change its plans if something '
+                       'unexpected happens? This is ',
+                       23,
+                       '.'],
+             'bank': ['liquidity',
+                      'current assets',
+                      'financial flexibility',
+                      'solvency',
+                      'working capital'],
+             'a': 'liquidity · solvency · financial flexibility',
+             'one': True,
+             'why': 'The book writes: “Can the company pay its bills in the '
+                    'coming months? This is liquidity. Can it pay all its '
+                    'debts over time? This is solvency. Can it raise cash or '
+                    'change its plans if something unexpected happens? This '
+                    'is financial flexibility.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['balance sheet', ''],
+              ['working capital', ''],
+              ['liquidity', ''],
+              ['covenant', ''],
+              ['right of setoff', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Purpose and structure of the balance sheet'),
           ('move',

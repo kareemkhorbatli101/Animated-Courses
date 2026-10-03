@@ -185,7 +185,7 @@ class WS(object):
         self.body.append(para(rs, '<w:spacing w:before="36" w:after="36"/>'
                                   '<w:ind w:left="%d"/>' % ind))
 
-    def wordbank(self, words, label='choose from'):
+    def bankrow(self, words, label='choose from'):
         self.body.append(para(
             [run(label + ':  ', color=GREY, sz=16),
              run('   ·   '.join(words), b=True, color=INDIGO, sz=16)],
@@ -517,6 +517,19 @@ class WS(object):
         self.blank()
 
 
-class WDoc(Doc, WS):
-    """A Doc that also knows the Workshop blocks."""
-    pass
+class WDoc(WS, Doc):
+    """A Doc that also knows the Workshop blocks.
+
+    WS comes first so that a Workshop block always wins. It used not to, and
+    `Doc.wordbank(label, words)` quietly answered a call meant for the
+    Workshop one; the build failed on the argument count, but a collision
+    with compatible arguments would have rendered the wrong block in silence.
+    The check below refuses that at import time.
+    """
+
+
+_SHARED = sorted(set(vars(WS)) & set(vars(Doc)) - {'__module__', '__doc__',
+                                                   '__dict__', '__weakref__'})
+if _SHARED:
+    raise ImportError('these names are defined on both WS and Doc, so one '
+                      'silently shadows the other: %s' % ', '.join(_SHARED))

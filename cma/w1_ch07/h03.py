@@ -23,109 +23,121 @@ HANDOUT = {'id': '7.3',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Cost flow assumptions', 'cycle A'],
-            ['Method and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which method does the book pair with “100,000”?',
-             'o': ['Average (weighted / moving)', 'LIFO', 'FIFO'],
-             'a': 'C',
-             'why': 'The book’s own table pairs FIFO with “100,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “84,000”?',
-             'o': ['LIFO', 'Average (weighted / moving)', 'FIFO'],
-             'a': 'A',
-             'why': 'The book’s own table pairs LIFO with “84,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “93,000”?',
-             'o': ['LIFO', 'FIFO', 'Average (weighted / moving)'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Average (weighted / moving) '
-                    'with “93,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “272,000”?',
-             'o': ['FIFO', 'LIFO', 'Average (weighted / moving)'],
-             'a': 'A',
-             'why': 'The book’s own table pairs FIFO with “272,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “288,000”?',
-             'o': ['FIFO', 'LIFO', 'Average (weighted / moving)'],
-             'a': 'B',
-             'why': 'The book’s own table pairs LIFO with “288,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “279,000”?',
-             'o': ['LIFO', 'Average (weighted / moving)', 'FIFO'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Average (weighted / moving) '
-                    'with “279,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “97,633”?',
-             'o': ['LIFO', 'Average (weighted / moving)', 'FIFO'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Average (weighted / moving) '
-                    'with “97,633”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “274,367”?',
-             'o': ['Average (weighted / moving)', 'FIFO', 'LIFO'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Average (weighted / moving) '
-                    'with “274,367”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “the newest costs: '
-                  '2,000 × $50”?',
-             'o': ['FIFO', 'LIFO', 'Weighted average'],
-             'a': 'A',
-             'why': 'The book’s own table pairs FIFO with “the newest costs: '
-                    '2,000 × $50”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “the oldest costs: '
-                  '1,000 × $40 + 1,000 × $44”?',
-             'o': ['Weighted average', 'LIFO', 'FIFO'],
-             'a': 'B',
-             'why': 'The book’s own table pairs LIFO with “the oldest costs: '
-                    '1,000 × $40 + 1,000 × $44”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “2,000 × $46.50 (= '
-                  '372,000 ÷ 8,000)”?',
-             'o': ['Weighted average', 'LIFO', 'FIFO'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Weighted average with “2,000 '
-                    '× $46.50 (= 372,000 ÷ 8,000)”.'},
-            {'t': 'MCQ',
-             'q': 'Which ending inventory does the book give for FIFO?',
-             'o': ['93,000', '84,000', '100,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 100,000 as the ending '
-                    'inventory of FIFO.'},
-            {'t': 'MCQ',
-             'q': 'Which ending inventory does the book give for LIFO?',
-             'o': ['84,000', '100,000', '93,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 84,000 as the ending '
-                    'inventory of LIFO.'},
-            {'t': 'MCQ',
-             'q': 'Which ending inventory does the book give for Weighted '
-                  'average?',
-             'o': ['93,000', '84,000', '100,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 93,000 as the ending '
-                    'inventory of Weighted average.'},
-            {'t': 'MCQ',
-             'q': 'Which cost of goods sold does the book give for FIFO?',
-             'o': ['272,000', '288,000', '279,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 272,000 as the cost of goods '
-                    'sold of FIFO.'},
-            {'t': 'MCQ',
-             'q': 'Which cost of goods sold does the book give for LIFO?',
-             'o': ['272,000', '288,000', '279,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 288,000 as the cost of goods '
-                    'sold of LIFO.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Cost flow assumptions',
+             'a figure to read · Method · the book’s own rule, gapped',
+             'The tax rate is 25%. Ending inventory was overstated by 40. By '
+             'how much is net income overstated in that year?'],
+            ['The words this section uses precisely',
+             'Method · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['When a company sells some units and keeps others, it '
+                       'must decide which costs go to ',
+                       20,
+                       ' and which stay in ending ',
+                       11,
+                       '. This decision is a ',
+                       22,
+                       '. It does not need to match the physical flow of the '
+                       'goods. ',
+                       25,
+                       ' tracks the actual cost of each item.'],
+             'bank': ['cost of goods sold',
+                      'moving average',
+                      'Specific identification',
+                      'cost flow assumption',
+                      'consignee',
+                      'inventory'],
+             'a': 'cost of goods sold · inventory · cost flow assumption · '
+                  'Specific identification',
+             'one': True,
+             'why': 'The book writes: “When a company sells some units and '
+                    'keeps others, it must decide which costs go to cost of '
+                    'goods sold and which stay in ending inventory. This '
+                    'decision is a cost flow assumption. It does not need to '
+                    'match the physical flow of the goods. Specific '
+                    'identification tracks the actual cost of each item.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['In a ',
+                       27,
+                       ', the company counts the goods at year-end and '
+                       'calculates ',
+                       20,
+                       ' for the whole period. In a ',
+                       28,
+                       ', it updates inventory and cost of goods sold after '
+                       'every purchase and every sale.'],
+             'bank': ['cost of goods sold',
+                      'consignee',
+                      'periodic inventory system',
+                      'perpetual inventory system',
+                      'moving average'],
+             'a': 'periodic inventory system · cost of goods sold · '
+                  'perpetual inventory system',
+             'one': True,
+             'why': 'The book writes: “In a periodic inventory system, the '
+                    'company counts the goods at year-end and calculates '
+                    'cost of goods sold for the whole period. In a perpetual '
+                    'inventory system, it updates inventory and cost of '
+                    'goods sold after every purchase and every sale.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Then check that ',
+                       20,
+                       ' plus ending ',
+                       11,
+                       ' equals the cost of goods available. Faded example: '
+                       'periodic LIFO for Dubai pastry trays; the learner '
+                       'completes the dashed boxes. IAS 2 allows FIFO and '
+                       'the weighted average, and it requires ',
+                       25,
+                       ' for items that are not interchangeable.'],
+             'bank': ['moving average',
+                      'inventory',
+                      'cost of goods sold',
+                      'consignee',
+                      'specific identification'],
+             'a': 'cost of goods sold · inventory · specific identification',
+             'one': True,
+             'why': 'The book writes: “Then check that cost of goods sold '
+                    'plus ending inventory equals the cost of goods '
+                    'available. Faded example: periodic LIFO for Dubai '
+                    'pastry trays; the learner completes the dashed boxes. '
+                    'IAS 2 allows FIFO and the weighted average, and it '
+                    'requires specific identification for items that are not '
+                    'interchangeable.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['goods available for sale', ''],
+              ['perpetual inventory system', ''],
+              ['FOB destination', ''],
+              ['freight-in', ''],
+              ['inventoriable cost', ''],
+              ['LIFO liquidation', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Cost flow assumptions'),
           ('move',
@@ -198,6 +210,37 @@ HANDOUT = {'id': '7.3',
                    'Average (weighted / moving): 93,000 · 279,000 · 97,633 · '
                    '274,367'],
              'whys': ['', '']}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['In a ',
+             27,
+             ', the company counts the goods at year-end and calculates ',
+             20,
+             ' for the whole period.']],
+           ['consignee',
+            'periodic inventory system',
+            'cost of goods sold',
+            'freight-in'],
+           'In a periodic inventory system, the company counts the goods at '
+           'year-end and calculates cost of goods sold for the whole period.',
+           'periodic inventory system · cost of goods sold'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('FIFO',
+             ['Periodic: ending inventory: 100,000',
+              'Periodic: COGS: 272,000',
+              'Perpetual: ending inventory: 100,000']),
+            ('LIFO',
+             ['Periodic: ending inventory: 84,000',
+              'Periodic: COGS: 288,000',
+              'Perpetual: ending inventory: 93,000'])],
+           'Only the facts above differ. What is the perpetual: cogs of '
+           'FIFO?',
+           ['274,367', '279,000', '272,000'],
+           'C',
+           'The book gives 272,000 as the perpetual: cogs of FIFO.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

@@ -28,155 +28,120 @@ HANDOUT = {'id': '1.3',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Double entry: debits and credits', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which question it answers does the book give for Balance '
-                  'sheet?',
-             'o': ['What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'How did the company perform?',
-                   'Why did each equity account change?',
-                   'Where did cash come from, and where did it go?'],
-             'a': 'A',
-             'why': 'The book’s own table gives What does the company have '
-                    "and owe, and what is the owners' claim? as the question "
-                    'it answers of Balance sheet.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for Income '
-                  'statement?',
-             'o': ['How did the company perform?',
-                   'Why did each equity account change?',
-                   'Where did cash come from, and where did it go?',
-                   'What does the company have and owe, and what is the '
-                   "owners' claim?"],
-             'a': 'A',
-             'why': 'The book’s own table gives How did the company perform? '
-                    'as the question it answers of Income statement.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for '
-                  'Statement of changes in equity?',
-             'o': ['What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'Where did cash come from, and where did it go?',
-                   'How did the company perform?',
-                   'Why did each equity account change?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Why did each equity account '
-                    'change? as the question it answers of Statement of '
-                    'changes in equity.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for '
-                  'Statement of cash flows?',
-             'o': ['Where did cash come from, and where did it go?',
-                   'How did the company perform?',
-                   'What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'Why did each equity account change?'],
-             'a': 'A',
-             'why': 'The book’s own table gives Where did cash come from, '
-                    'and where did it go? as the question it answers of '
-                    'Statement of cash flows.'},
-            {'t': 'MCQ',
-             'q': 'Which statement does the book pair with “at a date”?',
-             'o': ['Balance sheet',
-                   'Statement of changes in equity',
-                   'Income statement',
-                   'Statement of cash flows'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Balance sheet with “at a '
-                    'date”.'},
-            {'t': 'MCQ',
-             'q': 'Which account normally has a credit balance?',
-             'o': ['Prepaid rent',
-                   'Accumulated depreciation',
-                   'Cost of goods sold',
-                   'Dividends declared'],
-             'a': 'B',
-             'why': 'Accumulated depreciation is a contra-asset account, so '
-                    'it has the opposite (credit) balance to assets. A is '
-                    'wrong: Prepaid rent is an asset, so its normal balance '
-                    'is a debit. C is wrong: Cost of goods sold is an '
-                    'expense, so its normal balance is a debit.',
-             'src': 'SC3-1'},
-            {'t': 'MCQ',
-             'q': 'Orontes buys a bottling line for 1,200 in cash. Which '
-                  'journal entry is correct?',
-             'o': ['Debit Cash 1,200; credit Equipment 1,200',
-                   'Debit Equipment expense 1,200; credit Cash 1,200',
-                   'Debit Equipment 1,200; credit Notes payable 1,200',
-                   'Debit Equipment 1,200; credit Cash 1,200'],
-             'a': 'D',
-             'why': 'One asset increases (debit Equipment) and another asset '
-                    'decreases (credit Cash). A is wrong: The sides are '
-                    'reversed: this entry would increase cash and decrease '
-                    'equipment. B is wrong: The bottling line is an asset, '
-                    'not an expense of this period.',
-             'src': 'SC3-2'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.1?',
-             'o': ['The accrual basis and the matching principle',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Double entry: debits and credits',
-                   'Who uses financial statements, and why?'],
-             'a': 'D',
-             'why': 'The book numbers “Who uses financial statements, and '
-                    'why?” as section 1.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.2?',
-             'o': ['Double entry: debits and credits',
-                   'The accrual basis and the matching principle',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Who uses financial statements, and why?'],
-             'a': 'C',
-             'why': 'The book numbers “The building blocks: elements and the '
-                    'accounting equation” as section 1.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.3?',
-             'o': ['Who uses financial statements, and why?',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Double entry: debits and credits',
-                   'The accrual basis and the matching principle'],
-             'a': 'C',
-             'why': 'The book numbers “Double entry: debits and credits” as '
-                    'section 1.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.4?',
-             'o': ['The building blocks: elements and the accounting '
-                   'equation',
-                   'The accrual basis and the matching principle',
-                   'Who uses financial statements, and why?',
-                   'Double entry: debits and credits'],
-             'a': 'B',
-             'why': 'The book numbers “The accrual basis and the matching '
-                    'principle” as section 1.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.5?',
-             'o': ['Double entry: debits and credits',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Who writes the rules? U.S. GAAP and IFRS',
-                   'Who uses financial statements, and why?'],
-             'a': 'C',
-             'why': 'The book numbers “Who writes the rules? U.S. GAAP and '
-                    'IFRS” as section 1.5.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.6?',
-             'o': ['The building blocks: elements and the accounting '
-                   'equation',
-                   'Double entry: debits and credits',
-                   'Who uses financial statements, and why?',
-                   'A first look at the four statements'],
-             'a': 'D',
-             'why': 'The book numbers “A first look at the four statements” '
-                    'as section 1.6.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Double entry: debits and credits',
+             'a figure to read · Statement · the book’s own rule, gapped',
+             'Which account normally has a credit balance?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['Accounts on the left side of the equation (assets, '
+                       'expenses and dividends) increase with a ',
+                       11,
+                       '. Accounts on the right side (liabilities, ',
+                       11,
+                       ' and revenues) increase with a ',
+                       11,
+                       '. A ',
+                       16,
+                       ' reduces a related account, so it has the opposite ',
+                       16,
+                       '.'],
+             'bank': ['balance sheet',
+                      'contra account',
+                      'credit',
+                      'normal balance',
+                      'debit',
+                      'income statement',
+                      'equity'],
+             'a': 'debit · equity · credit · contra account · normal balance',
+             'one': True,
+             'why': 'The book writes: “Accounts on the left side of the '
+                    'equation (assets, expenses and dividends) increase with '
+                    'a debit. Accounts on the right side (liabilities, '
+                    'equity and revenues) increase with a credit. A contra '
+                    'account reduces a related account, so it has the '
+                    'opposite normal balance.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Orontes records ',
+                       11,
+                       ' when it delivers the goods, not when the customer '
+                       'pays. Row 6 reduces ',
+                       19,
+                       ' by 50 and creates a ',
+                       11,
+                       '. No cash moves until February, and ',
+                       12,
+                       ' does not change. It reduces retained earnings, not '
+                       'net income.'],
+             'bank': ['net income',
+                      'retained earnings',
+                      'revenue',
+                      'balance sheet',
+                      'liability',
+                      'debit'],
+             'a': 'revenue · retained earnings · liability · net income',
+             'one': True,
+             'why': 'The book writes: “Orontes records revenue when it '
+                    'delivers the goods, not when the customer pays. Row 6 '
+                    'reduces retained earnings by 50 and creates a '
+                    'liability. No cash moves until February, and net income '
+                    'does not change. It reduces retained earnings, not net '
+                    'income.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['One ',
+                       11,
+                       ' (cash) becomes another asset (equipment). The cost '
+                       'becomes an ',
+                       11,
+                       ' later, through depreciation. Feb 3: Paid a supplier '
+                       'for olives bought on ',
+                       11,
+                       ' in January. Feb 8: Collected part of the January '
+                       'receivable from GreenBasket Supermarkets.'],
+             'bank': ['credit', 'balance sheet', 'debit', 'expense', 'asset'],
+             'a': 'asset · expense · credit',
+             'one': True,
+             'why': 'The book writes: “One asset (cash) becomes another '
+                    'asset (equipment). The cost becomes an expense later, '
+                    'through depreciation. Feb 3: Paid a supplier for olives '
+                    'bought on credit in January. Feb 8: Collected part of '
+                    'the January receivable from GreenBasket '
+                    'Supermarkets.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['asset', ''],
+              ['dividend', ''],
+              ['U.S. GAAP', ''],
+              ['recognize', ''],
+              ['additional paid-in capital', ''],
+              ['trial balance', ''],
+              ['inventory', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Double entry: debits and credits'),
           ('move',
@@ -277,6 +242,32 @@ HANDOUT = {'id': '1.3',
                    'for a period: Income statement, Statement of changes in '
                    'equity, Statement of cash flows'],
              'whys': ['', '']}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['The ', 29, ' reduces ', 21, ' in the same way (Chapter 6).']],
+           ['revenue',
+            'allowance for credit losses',
+            'U.S. GAAP',
+            'accounts receivable'],
+           'The allowance for credit losses reduces accounts receivable in '
+           'the same way (Chapter 6).',
+           'allowance for credit losses · accounts receivable'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Balance sheet',
+             ['Question it answers: What does the company have and owe, and '
+              "what is the owners' claim?",
+              'Time: at a date']),
+            ('Income statement',
+             ['Question it answers: How did the company perform?',
+              'Time: for a period'])],
+           'Only the facts above differ. What is the chapter of Balance '
+           'sheet?',
+           ['2', '5', '3', '4'],
+           'A',
+           'The book gives 2 as the chapter of Balance sheet.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

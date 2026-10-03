@@ -7,8 +7,6 @@ HANDOUT = {'id': '2.3',
  'title': 'Classifying debt',
  'sub': 'section 2.3 of the book',
  'covers': ['sec:2.3',
-            'p:P2-20',
-            'p:P2-21',
             'p:P2-14',
             'p:P2-15',
             'p:P2-16',
@@ -24,162 +22,114 @@ HANDOUT = {'id': '2.3',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Classifying debt', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': "Orontes's retained earnings were $4,375,000 on January 1, "
-                  '2025. Net income was $2,969,100, OCI was $(1,125), and '
-                  'dividends declared were $450,000. What are retained '
-                  'earnings at December 31, 2025 (whole USD)?',
-             'o': ['6,892,975', '6,894,100', '7,294,100', '7,344,100'],
-             'a': 'B',
-             'why': 'Opening + net income − dividends declared. OCI goes to '
-                    'AOCI, not retained earnings. A is wrong: This puts OCI '
-                    'into retained earnings. C is wrong: This deducts only '
-                    'the dividends paid, not those declared.',
-             'src': 'P2-20'},
-            {'t': 'MCQ',
-             'q': 'Company X owes Company Y $50,000, and Company Y owes '
-                  'Company X $30,000 on a separate contract. There is no '
-                  'legal right of setoff. How does Company X present these '
-                  'amounts?',
-             'o': ['A net payable of $20,000',
-                   'A net receivable of $20,000',
-                   'A receivable of $30,000 and a payable of $50,000',
-                   'Only a note disclosure'],
-             'a': 'C',
-             'why': 'Without a right of setoff, assets and liabilities are '
-                    'shown gross. A is wrong: Netting needs a legal right of '
-                    'setoff. B is wrong: Netting needs a right of setoff, '
-                    'and the sign is also wrong.',
-             'src': 'P2-21'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.1?',
-             'o': ['Purpose and structure of the balance sheet',
-                   'Classifying debt',
-                   'Current and noncurrent items',
-                   'Other presentation matters'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the balance '
-                    'sheet” as section 2.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.2?',
-             'o': ['Classifying debt',
-                   'Other presentation matters',
-                   'Current and noncurrent items',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Current and noncurrent items” as '
-                    'section 2.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.3?',
-             'o': ['Purpose and structure of the balance sheet',
-                   'Classifying debt',
-                   'Other presentation matters',
-                   'Current and noncurrent items'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying debt” as section 2.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.4?',
-             'o': ['Current and noncurrent items',
-                   'Purpose and structure of the balance sheet',
-                   'Other presentation matters',
-                   'Classifying debt'],
-             'a': 'C',
-             'why': 'The book numbers “Other presentation matters” as '
-                    'section 2.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.5?',
-             'o': ['Current and noncurrent items',
-                   'Classifying debt',
-                   'Limitations and links to the other statements',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Limitations and links to the other '
-                    'statements” as section 2.5.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Prepaid rent?',
-             'o': ['Noncurrent asset',
-                   'Equity',
-                   'Current liability',
-                   'Current asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Current asset as the '
-                    'category of Prepaid rent.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Land?',
-             'o': ['Equity',
-                   'Current liability',
-                   'Noncurrent asset',
-                   'Current asset'],
-             'a': 'C',
-             'why': 'The book’s own table gives Noncurrent asset as the '
-                    'category of Land.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Allowance for '
-                  'credit losses?',
-             'o': ['Current liability',
-                   'Equity',
-                   'Noncurrent asset',
-                   'Current asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Current asset as the '
-                    'category of Allowance for credit losses.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Current asset',
-                   'Noncurrent asset',
-                   'Equity',
-                   'Current liability'],
-             'a': 'D',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Additional paid-in '
-                  'capital?',
-             'o': ['Noncurrent asset',
-                   'Current asset',
-                   'Equity',
-                   'Current liability'],
-             'a': 'C',
-             'why': 'The book’s own table gives Equity as the category of '
-                    'Additional paid-in capital.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Cash set '
-                  'aside in a sinking fund to repay bonds in 2029?',
-             'o': ['________', 'Noncurrent asset', 'Current asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives Noncurrent asset as the '
-                    'classification of Cash set aside in a sinking fund to '
-                    'repay bonds in 2029.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Date vinegar '
-                  'that Orontes ages for 18 months before sale?',
-             'o': ['________', 'Noncurrent asset', 'Current asset'],
-             'a': 'C',
-             'why': 'The book’s own table gives Current asset as the '
-                    'classification of Date vinegar that Orontes ages for 18 '
-                    'months before sale.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Cash '
-                  'surrender value of an executive life insurance policy?',
-             'o': ['Noncurrent asset', '________', 'Current asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Cash surrender value of an executive '
-                    'life insurance policy.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Bank loan due '
-                  'on demand; the bank has never asked for repayment?',
-             'o': ['________', 'Current asset', 'Noncurrent asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Bank loan due on demand; the bank has '
-                    'never asked for repayment.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Classifying debt',
+             'a figure to read · Situation at the reporting date',
+             'A loss from a lawsuit is probable. Lawyers estimate it at '
+             'between $40,000 and $100,000, with no amount more likely than '
+             'another. Under U.S. GAAP the company accrues:'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['If a company breaks a ',
+                       11,
+                       ', the lender may be able to demand repayment at '
+                       'once. Such ',
+                       15,
+                       ' is current, even if the company does not expect the '
+                       'lender to act. It stays noncurrent only if, before '
+                       'the statements are issued, the lender gives a ',
+                       11,
+                       ' for more than one year, or a ',
+                       14,
+                       ' exists and the company will probably cure the '
+                       'violation within it.'],
+             'bank': ['grace period',
+                      'subsequent events',
+                      'callable debt',
+                      'covenant',
+                      'solvency',
+                      'waiver'],
+             'a': 'covenant · callable debt · waiver · grace period',
+             'one': True,
+             'why': 'The book writes: “If a company breaks a covenant, the '
+                    'lender may be able to demand repayment at once. Such '
+                    'callable debt is current, even if the company does not '
+                    'expect the lender to act. It stays noncurrent only if, '
+                    'before the statements are issued, the lender gives a '
+                    'waiver for more than one year, or a grace period exists '
+                    'and the company will probably cure the violation within '
+                    'it.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Decision tree for classifying debt as current or '
+                       'noncurrent under U.S. IAS 1 asks one question: at '
+                       'the reporting date, does the company have a right to '
+                       'defer settlement for at least twelve months? A ',
+                       11,
+                       ' or ',
+                       13,
+                       ' obtained after the reporting date does not count.'],
+             'bank': ['solvency',
+                      'subsequent events',
+                      'refinancing',
+                      'waiver'],
+             'a': 'waiver · refinancing',
+             'one': True,
+             'why': 'The book writes: “Decision tree for classifying debt as '
+                    'current or noncurrent under U.S. IAS 1 asks one '
+                    'question: at the reporting date, does the company have '
+                    'a right to defer settlement for at least twelve months? '
+                    'A waiver or refinancing obtained after the reporting '
+                    'date does not count.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['SC2-5 A five-year loan is repaid in equal annual '
+                       'installments. SC2-6 At December 31 a company breaks '
+                       'a loan ',
+                       11,
+                       ', so the loan is payable on demand. On January 15, '
+                       'before the statements are issued, the bank gives an '
+                       '18-month ',
+                       11,
+                       '.'],
+             'bank': ['waiver', 'covenant', 'solvency', 'subsequent events'],
+             'a': 'covenant · waiver',
+             'one': True,
+             'why': 'The book writes: “SC2-5 A five-year loan is repaid in '
+                    'equal annual installments. SC2-6 At December 31 a '
+                    'company breaks a loan covenant, so the loan is payable '
+                    'on demand. On January 15, before the statements are '
+                    'issued, the bank gives an 18-month waiver.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['current assets', ''],
+              ['callable debt', ''],
+              ['financial flexibility', ''],
+              ['grace period', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Classifying debt'),
           ('move',

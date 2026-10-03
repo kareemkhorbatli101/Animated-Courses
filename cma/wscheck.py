@@ -253,7 +253,13 @@ def g_no_lecture(H, src, fails):
     for blk in H['flow']:
         if blk[0] in ('teach', 'rule', 'build', 'check'):
             continue
-        for t in _texts(blk, on_page=True):
+        texts = _texts(blk, on_page=True)
+        if blk[0] == 'preview':
+            # A preview summary is a passage with its words taken out: the
+            # student writes into it rather than reading past it, so its
+            # length is work, not a lecture. Its DIRECTIONS are still capped.
+            texts = _texts(blk[:3], on_page=True)
+        for t in texts:
             n = len(t.split())
             if n > 45:
                 fails.append('%s: a %d-word block of prose: %.60r'
@@ -355,15 +361,30 @@ def g_preview(H, src, fails):
     if len(flow) < 2 or flow[1][0] != 'page':
         fails.append('%s: the preview does not end the page' % H['id'])
     items = flow[0][4] if len(flow[0]) > 4 else []
-    if len(items) < 4:
-        fails.append('%s: the preview offers only %d items, too few to fill '
-                     'a page' % (H['id'], len(items)))
+    if len(items) != 3:
+        fails.append('%s: the preview has %d questions, not three'
+                     % (H['id'], len(items)))
     for it in items:
-        if it['t'] not in ('MCQ', 'TF'):
-            fails.append('%s: a preview item is a %s; the preview is answered '
-                         'before anything has been taught, so it has to be '
-                         'multiple choice or true/false'
-                         % (H['id'], it['t']))
+        if it['t'] != 'FILL':
+            fails.append('%s: a preview question is a %s; page one is three '
+                         'gapped sentences' % (H['id'], it['t']))
+            continue
+        gaps = sum(1 for x in it.get('parts', []) if isinstance(x, int))
+        bank = it.get('bank') or []
+        if gaps < 2:
+            fails.append('%s: a preview sentence has only %d gap'
+                         % (H['id'], gaps))
+        if len(bank) <= gaps:
+            fails.append('%s: a word list with %d words for %d gaps can be '
+                         'filled by counting' % (H['id'], len(bank), gaps))
+        if len(set(x.lower() for x in bank)) != len(bank):
+            fails.append('%s: a word list repeats a word, so one gap has two '
+                         'defensible answers' % H['id'])
+    # the route map has to describe the handout, not just name it
+    rows = flow[0][3] if len(flow[0]) > 3 else []
+    if len(rows) < 3:
+        fails.append('%s: the preview panel has %d rows; it is meant to be a '
+                     'route map of the handout' % (H['id'], len(rows)))
 
 
 def g_fading(H, src, fails):

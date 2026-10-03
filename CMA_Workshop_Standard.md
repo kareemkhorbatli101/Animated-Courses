@@ -561,3 +561,97 @@ map where a section has no table of its own.
   the sheet does not show, which is the one thing these gates exist to
   prevent. A tenth page is still a failure.
 
+---
+
+## 10 · Third revision — page one becomes three gapped summaries
+
+Page one was ten multiple-choice questions. It is now **three fill-in-the-gaps
+summaries**, and the page around them is built to be a real route map of the
+handout rather than a warm-up.
+
+### Why summaries rather than sentences
+
+The first attempt gapped three *individual* sentences pulled from different
+parts of the section. That is a quiz, not a preview: three disconnected facts
+tell a student nothing about the shape of the session. Each question is now a
+**passage** — two to four of the book's consecutive sentences — taken from a
+different stretch of the section, labelled *where the section starts*, *what it
+settles in the middle*, *where it ends*. Read in order, the three of them are
+the whole handout.
+
+The wording stays the book's throughout. Nothing is paraphrased, because a
+student filling a gap should be writing the word the book uses, and the key
+prints the passage in full for them to check against.
+
+### What else is on page one
+
+| Block | What it is for |
+|---|---|
+| **Route map** | one row per cycle: what it settles, what you will be given to read, and the checkpoint question in full. Built **from the handout's own blocks after they exist**, so it cannot drift from what follows it |
+| **Words this handout uses precisely** | the handout's glossary slice, with a tick column. Nothing here is marked: a student ticks what they could already use in a sentence, which shows them their own gaps and shows the room's to whoever is circulating |
+| **The three gapped summaries** | the only scored work on the page |
+| **How every cycle on this sheet works** | the six moves in a line each. Printed when the page has room for it |
+
+Measured across all 41 handouts: **mean page-one fill 0.79, lowest 0.63,
+highest 0.89, none over.**
+
+### Gates added or changed
+
+- **page one is three FILL questions** — not two, not four, and not of any
+  other kind;
+- **every gapped passage has at least two gaps**, and its word list holds
+  **more words than gaps** with no word repeated, so it cannot be filled by
+  counting and no gap has two defensible answers;
+- **the route map has at least three rows**, so it describes the handout
+  rather than naming it;
+- **page one measures between 0.60 and 0.95 of a page** — enforced against the
+  built document, not estimated;
+- **the no-lecture cap no longer counts a gapped passage.** A summary a student
+  writes into is work, not reading. Its *directions* are still capped at 45
+  words, and shortening them was one of the fixes this revision needed;
+- **a sentence that sends the reader to a figure** — *"Look at the lower part
+  of Figure F01-03"* — is navigation, not content, and never reaches a summary;
+- **the book's box labels are stripped.** A passage beginning *"EXAM TRAP Who
+  is a primary user?"* reads as a mistake on a handout, because the label is
+  the book's furniture rather than part of the sentence. So is a table cell:
+  a summary sentence must start with a capital and end with a full stop.
+
+### A bug this revision exposed
+
+The Workshop blocks are mixed into the document class as `WDoc(Doc, WS)`. `Doc`
+already had a `wordbank` method with a different signature, so **`Doc.wordbank`
+was silently answering calls meant for the Workshop one**. Here it failed loudly
+on the argument count, but a collision with compatible arguments would have
+rendered the wrong block in silence for as long as nobody looked.
+
+The mixin order is now `WDoc(WS, Doc)`, the Workshop method is renamed, and
+**the module refuses to import if any name is defined on both classes.**
+
+A second bug came out of the same reading: the flow list inside the generator
+was called `body`, and `_i, head, body = main` — unpacking a table — rebound
+that name. The appends still went to the right list because another variable
+held the reference, so nothing failed; the route map just silently read a
+table's rows instead of the handout and came out empty. The list is now called
+`blocks`.
+
+### The seven chapters, rebuilt
+
+| Ch | Handouts | Pages | Scored items |
+|---|---|---|---|
+| 1 | 7 | 41 | 183 |
+| 2 | 6 | 38 | 152 |
+| 3 | 6 | 33 | 137 |
+| 4 | 6 | 34 | 142 |
+| 5 | 6 | 33 | 136 |
+| 6 | 4 | 24 | 118 |
+| 7 | 6 | 32 | 161 |
+| | **41** | **235** | **1,029** |
+
+Worst page fill 0.92. Every gate passes, and all fifteen documents pass the
+layout lint.
+
+The item count falls from 1,225 because page one now carries three questions
+instead of ten. That is the intended trade: ten cold multiple-choice questions
+measured what a student happened to know, while three gapped summaries make
+them read the shape of the session before they start it.
+

@@ -17,141 +17,112 @@ HANDOUT = {'id': '7.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Effects on income, taxes and assets', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.1?',
-             'o': ['Effects on income, taxes and assets',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions',
-                   'Which costs belong in inventory?'],
-             'a': 'B',
-             'why': 'The book numbers “Which goods belong in inventory?” as '
-                    'section 7.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.2?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'C',
-             'why': 'The book numbers “Which costs belong in inventory?” as '
-                    'section 7.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.3?',
-             'o': ['Effects on income, taxes and assets',
-                   'Cost flow assumptions',
-                   'Which costs belong in inventory?',
-                   'Which goods belong in inventory?'],
-             'a': 'B',
-             'why': 'The book numbers “Cost flow assumptions” as section '
-                    '7.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.4?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'D',
-             'why': 'The book numbers “Effects on income, taxes and assets” '
-                    'as section 7.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.5?',
-             'o': ['Which costs belong in inventory?',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions',
-                   'Inventory errors'],
-             'a': 'D',
-             'why': 'The book numbers “Inventory errors” as section 7.5.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Invoice price?',
-             'o': ['22,000', '1,200', '700', '20,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 20,000 as the amount of '
-                    'Invoice price.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Purchase discount '
-                  'taken?',
-             'o': ['(400)', '22,000', '250', '700'],
-             'a': 'A',
-             'why': 'The book’s own table gives (400) as the amount of '
-                    'Purchase discount taken.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Freight-in from the '
-                  'port to Amman?',
-             'o': ['20,000', '700', '1,200', '250'],
-             'a': 'C',
-             'why': 'The book’s own table gives 1,200 as the amount of '
-                    'Freight-in from the port to Amman.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Import duty (not '
-                  'refundable)?',
-             'o': ['22,000', '900', '1,200', '(400)'],
-             'a': 'B',
-             'why': 'The book’s own table gives 900 as the amount of Import '
-                    'duty (not refundable).'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Insurance while the '
-                  'bottles are in transit?',
-             'o': ['22,000', '1,200', '300', '(400)'],
-             'a': 'C',
-             'why': 'The book’s own table gives 300 as the amount of '
-                    'Insurance while the bottles are in transit.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Freight-out when '
-                  'filled bottles go to customers?',
-             'o': ['250', '900', '20,000', '700'],
-             'a': 'D',
-             'why': 'The book’s own table gives 700 as the amount of '
-                    'Freight-out when filled bottles go to customers.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Storage of finished '
-                  'olive oil?',
-             'o': ['1,200', '250', '22,000', '300'],
-             'a': 'B',
-             'why': 'The book’s own table gives 250 as the amount of Storage '
-                    'of finished olive oil.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Cost of the bottles '
-                  'in inventory?',
-             'o': ['1,200', '700', '(400)', '22,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 22,000 as the amount of Cost '
-                    'of the bottles in inventory.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Invoice '
-                  'price?',
-             'o': ['Yes (reduces cost)',
-                   'Yes',
-                   'No: selling expense',
-                   'No: period cost'],
-             'a': 'B',
-             'why': 'The book’s own table gives Yes as the inventory cost? '
-                    'of Invoice price.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Purchase '
-                  'discount taken?',
-             'o': ['Yes',
-                   'No: selling expense',
-                   'Yes (reduces cost)',
-                   'No: period cost'],
-             'a': 'C',
-             'why': 'The book’s own table gives Yes (reduces cost) as the '
-                    'inventory cost? of Purchase discount taken.'},
-            {'t': 'MCQ',
-             'q': 'Which inventory cost? does the book give for Freight-in '
-                  'from the port to Amman?',
-             'o': ['No: period cost',
-                   'No: selling expense',
-                   'Yes (reduces cost)',
-                   'Yes'],
-             'a': 'D',
-             'why': 'The book’s own table gives Yes as the inventory cost? '
-                    'of Freight-in from the port to Amman.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Effects on income, taxes and assets',
+             'a figure to read',
+             'Which of these did this cycle settle?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['When prices are rising, the methods give very '
+                       'different results. FIFO puts the old, cheaper costs '
+                       'into ',
+                       20,
+                       '. So FIFO gives the lowest cost of goods sold, the '
+                       'highest ',
+                       14,
+                       ', the highest income tax and the highest ending ',
+                       11,
+                       '.'],
+             'bank': ['freight-in',
+                      'cost of goods sold',
+                      'physical count',
+                      'gross profit',
+                      'inventory'],
+             'a': 'cost of goods sold · gross profit · inventory',
+             'one': True,
+             'why': 'The book writes: “When prices are rising, the methods '
+                    'give very different results. FIFO puts the old, cheaper '
+                    'costs into cost of goods sold. So FIFO gives the lowest '
+                    'cost of goods sold, the highest gross profit, the '
+                    'highest income tax and the highest ending inventory.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['An analyst can convert LIFO results to FIFO with two '
+                       'relationships. FIFO ',
+                       11,
+                       ' equals LIFO inventory plus the ',
+                       14,
+                       '. FIFO ',
+                       20,
+                       ' equals LIFO cost of goods sold minus the increase '
+                       'in the LIFO reserve during the year.'],
+             'bank': ['physical count',
+                      'cost of goods sold',
+                      'LIFO reserve',
+                      'freight-in',
+                      'inventory'],
+             'a': 'inventory · LIFO reserve · cost of goods sold',
+             'one': True,
+             'why': 'The book writes: “An analyst can convert LIFO results '
+                    'to FIFO with two relationships. FIFO inventory equals '
+                    'LIFO inventory plus the LIFO reserve. FIFO cost of '
+                    'goods sold equals LIFO cost of goods sold minus the '
+                    'increase in the LIFO reserve during the year.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A company that uses LIFO for its tax return must '
+                       'also use LIFO in its financial statements. To get '
+                       'FIFO ',
+                       20,
+                       ', SUBTRACT the increase in the ',
+                       14,
+                       ' from LIFO cost of goods sold. In rising prices, '
+                       'LIFO gives LOWER income and LOWER taxes, not '
+                       'higher.'],
+             'bank': ['freight-in',
+                      'physical count',
+                      'cost of goods sold',
+                      'LIFO reserve'],
+             'a': 'cost of goods sold · LIFO reserve',
+             'one': True,
+             'why': 'The book writes: “A company that uses LIFO for its tax '
+                    'return must also use LIFO in its financial statements. '
+                    'To get FIFO cost of goods sold, SUBTRACT the increase '
+                    'in the LIFO reserve from LIFO cost of goods sold. In '
+                    'rising prices, LIFO gives LOWER income and LOWER taxes, '
+                    'not higher.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['FIFO (first-in, first-out)', ''],
+              ['LIFO reserve', ''],
+              ['consignment', ''],
+              ['freight-out', ''],
+              ['period cost', ''],
+              ['LIFO conformity rule', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Effects on income, taxes and assets'),
           ('move',

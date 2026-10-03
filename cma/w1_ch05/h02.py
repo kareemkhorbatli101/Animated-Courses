@@ -7,8 +7,6 @@ HANDOUT = {'id': '5.2',
  'title': 'Classifying cash flows',
  'sub': 'section 5.2 of the book',
  'covers': ['sec:5.2',
-            'p:P5-13',
-            'p:P5-14',
             'p:P5-07',
             'p:P5-08',
             'p:P5-09',
@@ -22,161 +20,110 @@ HANDOUT = {'id': '5.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Classifying cash flows', 'cycle A'],
-            ['Transaction (U.S. GAAP) and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': "Orontes's dividends payable rose by $400,000 in 2025. How "
-                  'does this affect net cash from operating activities?',
-             'o': ['It is added as an increase in a liability',
-                   'It has no effect, because dividends are a financing item',
-                   'It is subtracted',
-                   'It is added to investing'],
-             'a': 'B',
-             'why': 'Only operating working capital is adjusted in operating '
-                    'activities. A is wrong: Dividends payable is not an '
-                    'operating liability. C is wrong: It does not belong in '
-                    'operating at all.',
-             'src': 'P5-13'},
-            {'t': 'MCQ',
-             'q': 'Under U.S. GAAP, the indirect method begins with:',
-             'o': ['operating income',
-                   'income before income taxes',
-                   'net income',
-                   'comprehensive income'],
-             'a': 'C',
-             'why': 'The reconciliation starts from net income. A is wrong: '
-                    'Starting from operating profit is the amended IAS 7 '
-                    'approach. B is wrong: Taxes must be included, so start '
-                    'after tax.',
-             'src': 'P5-14'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating”?',
-             'o': ['Dividends paid',
-                   'Indirect method starts from',
-                   'Interest paid'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Interest paid with '
-                    '“Operating”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Financing”?',
-             'o': ['Interest paid',
-                   'Dividends paid',
-                   'Interest received',
-                   'Income taxes paid'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Dividends paid with '
-                    '“Financing”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Net income”?',
-             'o': ['Dividends received',
-                   'Dividends paid',
-                   'Income taxes paid',
-                   'Indirect method starts from'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Indirect method starts from '
-                    'with “Net income”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating or '
-                  'financing”?',
-             'o': ['Interest received',
-                   'Interest paid',
-                   'Dividends received',
-                   'Indirect method starts from'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Interest paid with '
-                    '“Operating or financing”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating or '
-                  'investing”?',
-             'o': ['Indirect method starts from',
-                   'Income taxes paid',
-                   'Interest paid',
-                   'Interest received'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Interest received with '
-                    '“Operating or investing”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating, '
-                  'unless tied to investing or financing”?',
-             'o': ['Interest paid',
-                   'Dividends received',
-                   'Interest received',
-                   'Income taxes paid'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Income taxes paid with '
-                    '“Operating, unless tied to investing or financing”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Profit or loss”?',
-             'o': ['Dividends received',
-                   'Interest received',
-                   'Indirect method starts from',
-                   'Dividends paid'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Indirect method starts from '
-                    'with “Profit or loss”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Follows the '
-                  'category of the expense; often financing”?',
-             'o': ['Interest paid',
-                   'Dividends received',
-                   'Income taxes paid',
-                   'Dividends paid'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Interest paid with “Follows '
-                    'the category of the expense; often financing”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Often '
-                  'investing”?',
-             'o': ['Interest paid',
-                   'Dividends paid',
-                   'Income taxes paid',
-                   'Interest received'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Interest received with '
-                    '“Often investing”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating profit '
-                  'or loss”?',
-             'o': ['Indirect method starts from',
-                   'Dividends received',
-                   'Interest paid',
-                   'Dividends paid'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Indirect method starts from '
-                    'with “Operating profit or loss”.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash paid to buy a '
-                  'delivery truck?',
-             'o': ['Financing', '________', 'Investing'],
-             'a': 'C',
-             'why': 'The book’s own table gives Investing as the activity of '
-                    'Cash paid to buy a delivery truck.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash dividends paid '
-                  'to shareholders?',
-             'o': ['Financing', '________', 'Investing'],
-             'a': 'A',
-             'why': 'The book’s own table gives Financing as the activity of '
-                    'Cash dividends paid to shareholders.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ['Investing', 'Financing', '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Interest paid on a bank loan.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash received from '
-                  'selling Jordan Glass shares?',
-             'o': ['Financing', '________', 'Investing'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Cash received from selling Jordan Glass shares.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Classifying cash flows',
+             'a figure to read · Cash flow · Orontes Foods Inc., year ended '
+             'December 31, 2025',
+             'A company moves $500,000 from its operating bank account into '
+             'a restricted account set aside to repay a bond. How is this '
+             'shown in the statement of cash flows?'],
+            ['The words this section uses precisely',
+             'Transaction (U.S. GAAP) · The English the exam uses, and what '
+             'it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       22,
+                       ' are the main revenue activities: cash from '
+                       'customers and cash paid to suppliers and employees. '
+                       'Anything that is not investing or financing is also '
+                       'operating. ',
+                       22,
+                       ' are with owners and lenders.'],
+             'bank': ['statement of cash flows',
+                      'direct method',
+                      'Financing activities',
+                      'Operating activities'],
+             'a': 'Operating activities · Financing activities',
+             'one': True,
+             'why': 'The book writes: “Operating activities are the main '
+                    'revenue activities: cash from customers and cash paid '
+                    'to suppliers and employees. Anything that is not '
+                    'investing or financing is also operating. Financing '
+                    'activities are with owners and lenders.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['GAAP fixes four items that students often get wrong. '
+                       'Interest paid, interest received, ',
+                       11,
+                       ' received and income taxes are all ',
+                       11,
+                       '. ',
+                       13,
+                       ' interest, dividends and taxes: U.S.'],
+             'bank': ['dividends',
+                      'statement of cash flows',
+                      'direct method',
+                      'operating',
+                      'Classifying'],
+             'a': 'dividends · operating · Classifying',
+             'one': True,
+             'why': 'The book writes: “GAAP fixes four items that students '
+                    'often get wrong. Interest paid, interest received, '
+                    'dividends received and income taxes are all operating. '
+                    'Classifying interest, dividends and taxes: U.S.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['These noncash ',
+                       11,
+                       ' and ',
+                       11,
+                       ' ',
+                       12,
+                       ' are not shown in the body of the statement. Under '
+                       'IAS 7 today, interest paid can be operating or '
+                       'financing, and interest and dividends received can '
+                       'be operating or investing. Interest paid is '
+                       'operating, not financing, under U.S.'],
+             'bank': ['statement of cash flows',
+                      'financing',
+                      'activities',
+                      'direct method',
+                      'investing'],
+             'a': 'investing · financing · activities',
+             'one': True,
+             'why': 'The book writes: “These noncash investing and financing '
+                    'activities are not shown in the body of the statement. '
+                    'Under IAS 7 today, interest paid can be operating or '
+                    'financing, and interest and dividends received can be '
+                    'operating or investing. Interest paid is operating, not '
+                    'financing, under U.S.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['cash equivalents', ''],
+              ['direct method', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Classifying cash flows'),
           ('move',

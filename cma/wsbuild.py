@@ -44,9 +44,18 @@ def render_item(d, c, it):
         d.tf(n, it['q'])
         return [n]
     if t == 'FILL':
+        # A gapped sentence is one question, however many gaps it holds, so
+        # it takes one number and the key prints all its words together.
+        if it.get('one'):
+            n = c.take(it['a'], it.get('why', ''))
+            d.q(n, it['q'], after=10)
+            if it.get('bank'):
+                d.bankrow(it['bank'])
+            d.blanks(it['parts'])
+            return [n]
         ns = c.cells(it['a'], it.get('whys'))
         if it.get('bank'):
-            d.wordbank(it['bank'])
+            d.bankrow(it['bank'])
         d.blanks(it['parts'])
         return ns
     if t == 'GRID':
@@ -196,25 +205,40 @@ PREVIEW_MIN = 4
 
 
 def render_preview(d, c, blk, before):
+    """Page one: a route map, the words, three gapped summaries, and the
+    shape of a cycle. Everything on it previews the handout; nothing on it
+    is new content.
+
+    The three questions are never dropped to make room — they are the
+    point of the page. The furniture after them is, so a thin section still
+    gets a page that fills rather than one that spills.
+    """
     start = len(d.body)
     d.previewbar(blk[1], blk[2])
     if blk[3]:
-        d.datapanel('What this handout settles', blk[3])
+        d.datapanel('What this handout settles, cycle by cycle', blk[3])
     used = before + sum(_height(x) for x in d.body[start:])
-    limit = PAGE_H * PREVIEW_FILL
-    kept = 0
+    extras = blk[5] if len(blk) > 5 else []
+    # the words strip comes before the questions, because it is what a
+    # student checks themselves against while reading them
+    for title, rows in extras[:1]:
+        a = len(d.body)
+        d.datapanel(title, rows)
+        used += sum(_height(x) for x in d.body[a:])
     for it in blk[4]:
         a = len(d.body)
-        mk = c.mark()
         render_item(d, c, it)
+        used += sum(_height(x) for x in d.body[a:])
+    limit = PAGE_H * PREVIEW_FILL
+    for title, rows in extras[1:]:
+        a = len(d.body)
+        d.datapanel(title, rows)
         h = sum(_height(x) for x in d.body[a:])
-        if kept >= PREVIEW_MIN and used + h > limit:
+        if used + h > limit:
             del d.body[a:]
-            c.reset(mk)
             break
         used += h
-        kept += 1
-    return kept
+    return len(blk[4])
 
 
 # A table taller than a page cannot be moved anywhere that fits, so it is

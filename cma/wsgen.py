@@ -33,6 +33,42 @@ BIGNUM = re.compile(r'\b\d[\d,]{2,}\b')
 # Words that make a stem point outside itself.
 DEICTIC = re.compile(r'\b(above|below|the panel|the figure|the table|'
                      r'the five|the four|the three|earlier|previous)\b', re.I)
+FIGREF = re.compile(r'\bFigure\s+(F\d\d-\d\d)')
+# An item that says "use the facts in P2-11" cannot stand on its own page.
+ITEMREF = re.compile(r'\b(?:P\d{1,2}-\d{2}|P\d{2}|SC\d{1,3}-\d{1,2}|'
+                     r'C\d{1,3}-\d)\b')
+# The book marks its boxes with a shouted label on the same line as the text.
+BOXLABEL = re.compile(
+    r'^(EXAM TRAP|LANGUAGE FOCUS|SECTION CHECK|TERM BRIDGE|IFRS CONTRAST|'
+    r'FALSE-FRIEND ALERT|WHAT YOU ALREADY KNOW|WORKED EXAMPLE|YOUR TURN|'
+    r'\u25cf|\u25a0)\s*', re.I)
+
+
+def sentences(text):
+    """The book's sentences, with its box labels and headings taken off.
+
+    A passage that begins "EXAM TRAP Who is a primary user?" reads as a
+    mistake on a handout, because the label belongs to the book's furniture
+    rather than to the sentence.
+    """
+    out = []
+    for raw in re.split(r'(?<=[.])\s+|\n', text):
+        x = clean(raw)
+        while BOXLABEL.match(x):
+            x = BOXLABEL.sub('', x, count=1).strip()
+        if not x or x.isupper():
+            continue
+        # A cell of a table is not a sentence. Requiring a capital at the
+        # start and a full stop at the end keeps fragments such as "explain
+        # the item in the notes to the statements" out of a summary.
+        if not x[0].isupper() or not x.endswith('.'):
+            continue
+        # "Look at the lower part of Figure F01-03" is navigation, and a
+        # summary that contains it points off its own page.
+        if FIGREF.search(x):
+            continue
+        out.append(x)
+    return out
 
 
 def shuffled(seq, seed):
@@ -144,10 +180,6 @@ def allocate_tables(d):
 
 
 # ---------------------------------------------------------------- items
-FIGREF = re.compile(r'\bFigure\s+(F\d\d-\d\d)')
-# An item that says "use the facts in P2-11" cannot stand on its own page.
-ITEMREF = re.compile(r'\b(?:P\d{1,2}-\d{2}|P\d{2}|SC\d{1,3}-\d{1,2}|'
-                     r'C\d{1,3}-\d)\b')
 
 
 def figtables(bk, n):
@@ -432,14 +464,41 @@ no any each every one two three four five its his her their our your my
 company companies book chapter section figure example'''.split())
 
 
-def rule_from(text, terms, seed):
-    """A sentence the book itself writes, with its key words taken out."""
-    best = None
-    for sent in re.split(r'(?<=[.])\s+', text):
-        s = clean(sent)
+def _cloze(sent, hits, seed, bank_extra):
+    """Turn one of the book's sentences into a gapped sentence."""
+    parts, words, pos = [], [], 0
+    for t in sorted(hits, key=lambda t: sent.lower().find(t.lower())):
+        i = sent.lower().find(t.lower())
+        if i < pos:
+            continue
+        parts.append(sent[pos:i])
+        parts.append(max(11, len(t) + 2))
+        words.append(sent[i:i + len(t)])
+        pos = i + len(t)
+    parts.append(sent[pos:])
+    if len(words) < 2:
+        return None
+    # The bank holds more words than there are gaps, so a student cannot
+    # fill it by counting. The spare words are the chapter's own terms.
+    spare = [w for w in bank_extra
+             if w.lower() not in {x.lower() for x in words}][:2]
+    bank = shuffled(words + spare, seed)
+    return dict(parts=parts, words=words, bank=bank, book=sent,
+                a=' \u00b7 '.join(words))
+
+
+def cloze_candidates(text, terms, seed):
+    """Every sentence in a section that can carry a gapped question.
+
+    The book's own sentences are the only ones used, so a completed gap is
+    the book's wording rather than a paraphrase of it, and the key can print
+    the sentence in full for the student to check against.
+    """
+    out = []
+    for s in sentences(text):
         if not 60 <= len(s) <= 190 or BIGNUM.search(s):
             continue
-        if s.endswith(('?', ':')) or s.startswith(('Figure', 'See')):
+        if s.endswith(('?', ':')) or s.startswith(('Figure', 'See', 'Use')):
             continue
         hits = [t for t in terms
                 if len(t) > 3 and re.search(r'\b%s\b' % re.escape(t), s,
@@ -447,28 +506,153 @@ def rule_from(text, terms, seed):
         hits = sorted(set(hits), key=len, reverse=True)[:3]
         if len(hits) < 2:
             continue
-        score = len(hits) * 100 - abs(len(s) - 120)
-        if best is None or score > best[0]:
-            best = (score, s, hits)
-    if not best:
-        return None
-    _sc, sent, hits = best
-    parts, words, pos = [], [], 0
-    for t in sorted(hits, key=lambda t: sent.lower().find(t.lower())):
-        i = sent.lower().find(t.lower())
-        if i < pos:
+        out.append((len(hits) * 100 - abs(len(s) - 125), s, hits))
+    out.sort(key=lambda t: -t[0])
+    return out
+
+
+def cloze_items(text, terms, seed, k=3, skip=()):
+    """k gapped questions, from k different sentences."""
+    spare = shuffled([t for t in terms if 3 < len(t) < 26], seed + 5)
+    out, used = [], set(skip)
+    for _sc, sent, hits in cloze_candidates(text, terms, seed):
+        if sent in used:
             continue
-        parts.append(sent[pos:i])
-        parts.append(max(10, len(t) + 2))
-        words.append(sent[i:i + len(t)])
-        pos = i + len(t)
-    parts.append(sent[pos:])
-    if len(words) < 2:
-        return None
-    return dict(lead='Complete the book’s own sentence. Every missing '
-                     'word is in the list.',
-                skeleton=[parts], words=shuffled(words, seed),
-                book=sent, a=' · '.join(words))
+        c = _cloze(sent, hits, seed + len(out), spare)
+        if not c:
+            continue
+        used.add(sent)
+        out.append(dict(
+            t='FILL',
+            q='Fill every gap. The list holds more words than there are '
+              'gaps, so one or two of them are not used.',
+            parts=c['parts'], bank=c['bank'], a=c['a'], one=True,
+            why='The book writes: \u201c%s\u201d' % c['book']))
+        if len(out) >= k:
+            break
+    return out
+
+
+def _longwords(window, used, n=3):
+    """A passage gapped on its own longest distinctive words.
+
+    The last resort, for a chapter whose glossary is too thin to supply
+    three gaps. The words are still the book's; they are chosen by length
+    and by not being ordinary English rather than by being in a term list.
+    """
+    for span in (3, 2, 4, 1):
+        for i in range(len(window)):
+            if i + span > len(window):
+                continue
+            passage = ' '.join(window[i:i + span])
+            if passage in used or not 80 <= len(passage) <= 440:
+                continue
+            cand = []
+            for w in re.findall(r"[A-Za-z][A-Za-z\-']{5,}", passage):
+                if w.lower() in STOP or w in cand:
+                    continue
+                cand.append(w)
+            if len(cand) < 2:
+                continue
+            hits = sorted(cand, key=len, reverse=True)[:n]
+            return (0, passage, hits)
+    return None
+
+
+def summary_fills(text, terms, seed, k=3, labels=None, maxgaps=5):
+    """Three gapped SUMMARIES of what the handout will settle.
+
+    Not three stray sentences. Each one is a short passage — two or three
+    of the book's own consecutive sentences — taken from a different
+    stretch of the section, so that reading all three in order is a preview
+    of the whole handout rather than three disconnected facts.
+
+    The wording stays the book's. Nothing is paraphrased, because a student
+    filling a gap should be writing the word the book uses, and the key can
+    then print the passage in full for them to check against.
+    """
+    sents = [x for x in sentences(text)
+             if 40 <= len(x) <= 210 and not BIGNUM.search(x)
+             and not x.endswith(('?', ':'))
+             and not x.startswith(('Figure', 'See', 'Use', 'Answers'))]
+    if len(sents) < k:
+        return []
+    spare = shuffled([t for t in terms if 3 < len(t) < 26], seed + 5)
+    # one passage from each third of the section, in the book's own order
+    used = set()
+
+    def best_in(window, minhits):
+        best = None
+        for i in range(len(window)):
+            for span in (3, 4, 2):
+                if i + span > len(window):
+                    continue
+                passage = ' '.join(window[i:i + span])
+                if passage in used or not 110 <= len(passage) <= 420:
+                    continue
+                hits = [t for t in terms
+                        if len(t) > 3 and re.search(
+                            r'\b%s\b' % re.escape(t), passage, re.I)]
+                hits = sorted(set(hits), key=len, reverse=True)[:maxgaps]
+                if len(hits) < minhits:
+                    continue
+                score = len(hits) * 100 - abs(len(passage) - 250)
+                if best is None or score > best[0]:
+                    best = (score, passage, hits)
+        return best
+
+    out = []
+    size = max(1, len(sents) // k)
+    for b in range(k):
+        lo = b * size
+        hi = len(sents) if b == k - 1 else min(len(sents), (b + 1) * size)
+        # Its own third first; then the rest of the section, so that a thin
+        # third still yields a summary rather than a repeat of another one.
+        # Try the richest source first and fall back in order. A passage
+        # that yields only one gap is not a summary question, so the chain
+        # keeps going rather than giving up on this third of the section.
+        c = None
+        for got in (best_in(sents[lo:hi], 3), best_in(sents[lo:hi], 2),
+                    best_in(sents, 3), best_in(sents, 2),
+                    best_in(sents[lo:hi], 1), best_in(sents, 1),
+                    _longwords(sents[lo:hi] or sents, used),
+                    _longwords(sents, used)):
+            if not got:
+                continue
+            _sc, passage, hits = got
+            cand = _cloze(passage, hits, seed + b, spare)
+            if cand and len(cand['words']) >= 2:
+                c = cand
+                break
+        if not c:
+            continue
+        passage = c['book']
+        used.add(passage)
+        lab = (labels or [])[b] if labels and b < len(labels) else ''
+        out.append(dict(
+            t='FILL',
+            q=(lab + ' ' if lab else '')
+              + 'Fill every gap. The list holds more words than there are '
+                'gaps, so one or two of them are not used.',
+            parts=c['parts'], bank=c['bank'], a=c['a'], one=True,
+            why='The book writes: \u201c%s\u201d' % c['book']))
+    return out
+
+
+def rule_from(text, terms, seed, skip=()):
+    """A sentence the book itself writes, with its key words taken out."""
+    spare = shuffled([t for t in terms if 3 < len(t) < 26], seed + 5)
+    for _sc, sent, hits in cloze_candidates(text, terms, seed):
+        if sent in skip:
+            continue
+        c = _cloze(sent, hits, seed, spare)
+        if not c:
+            continue
+        return dict(lead='Complete the book\u2019s own sentence. The list '
+                         'holds more words than there are gaps.',
+                    skeleton=[c['parts']], words=c['bank'],
+                    book=c['book'], a=c['a'])
+    return None
 
 
 # ---------------------------------------------------------------- figures
@@ -541,8 +725,79 @@ def _preview(title, note, rows, items):
     return ('preview', title, note, rows, items)
 
 
+HOWITWORKS = [
+    ['How a cycle works', 'what you do'],
+    ['MODEL', 'read the figure or the table before you answer anything'],
+    ['READ THE MODEL', 'every answer is printed on the same page'],
+    ['INVENT THE RULE', 'write the rule yourself, then compare with the book'],
+    ['APPLY', 'no help on this move'],
+    ['CHECKPOINT', 'mark it yourself; if you miss it, the sheet says what to '
+                   'redo'],
+]
+
+
+def watchwords(terms):
+    """The handout's vocabulary, as a self-check rather than a question.
+
+    Nothing here is marked. A student ticks what they can already use, which
+    tells them where their own gaps are before the session starts, and tells
+    the person circulating where the room's gaps are.
+    """
+    rows = [['Words this handout uses precisely',
+             'tick it if you could already use it in a sentence']]
+    for e, _a in terms[:7]:
+        rows.append([e, ''])
+    return rows
+
+
+def routemap(blocks, terms):
+    """A table that describes the handout it opens, cycle by cycle.
+
+    The preview page has to be a real preview, not a warm-up: a student
+    should be able to read this one table and know what the session will
+    settle, what they will be given to read, and how they will know whether
+    they have got it. So it is built from the handout’s own blocks after
+    they exist, rather than written in advance and left to drift.
+    """
+    rows = [['In this handout', 'What you will read', 'How you check it']]
+    cur = None
+    for blk in blocks:
+        if blk[0] == 'cycle':
+            cur = {'t': blk[2], 'model': [], 'check': ''}
+            rows.append(cur)
+        elif cur is None:
+            continue
+        elif blk[0] == 'fig':
+            cur['model'].append('a figure to read')
+        elif blk[0] == 'panel':
+            cur['model'].append(clean(blk[1]).split(' \u2014 ')[0])
+        elif blk[0] == 'trace':
+            cur['model'].append('a worked trace')
+        elif blk[0] == 'rule':
+            cur['model'].append('the book\u2019s own rule, gapped')
+        elif blk[0] == 'check' and not cur['check']:
+            cur['check'] = clean(blk[1])
+    out = [rows[0]]
+    for r in rows[1:]:
+        if not isinstance(r, dict):
+            continue
+        seen, mod = set(), []
+        for m in r['model']:
+            if m.lower() not in seen:
+                seen.add(m.lower())
+                mod.append(m)
+        out.append([r['t'], ' \u00b7 '.join(mod[:3]) or 'the section itself',
+                    r['check'] or 'a checkpoint you mark yourself'])
+    if terms and not any('word' in str(r[0]).lower() for r in out[1:]):
+        out.append(['The words it uses precisely',
+                    ' \u00b7 '.join(e for e, _a in terms[:6]),
+                    'matching, at the end of cycle B'])
+    return out
+
+
 def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
-             secnav=None, figs=None, allt=None):
+             secnav=None, figs=None, allt=None, allterms=None,
+             extrafill=None):
     """One handout: a preview page, one or two cycles, and a close."""
     no, stitle = sec['no'], clean(sec['title'])
     flow = []
@@ -590,70 +845,11 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
     main = tbls[0] if tbls else None
     second = tbls[1] if len(tbls) > 1 else None
 
-    # ---- page 1: the preview
-    # The preview has to fill page one, so it offers far more items than it
-    # will use; the builder measures and stops when the page is full.
-    pv = list(extra_mcq[:3])
-    for m in extra_mcq[:3]:
-        if m.get('src'):
-            covers.append(('sc:' if m['src'].startswith('SC') else 'p:')
-                          + m['src'])
-    for ti, (_i, head, body) in enumerate(tbls[:3]):
-        for ci in range(1, len(head)):
-            for k in range(len(body)):
-                sd = seed + 7 * ti + 3 * ci + k
-                m = mcq_from_col(head, body, k, ci, sd) \
-                    or mcq_from_row(head, body, k, ci, sd)
-                if m:
-                    pv.append(m)
-    for k, (_i, head, body) in enumerate(tbls[:2]):
-        for r in range(min(3, len(body))):
-            t = tf_from_row(head, body, r, len(head) - 1, seed + 90 + r,
-                            truth=(r % 2 == 0))
-            if t:
-                pv.append(t)
-    if not tbls:
-        pv.extend(secnav or [])
-    pv += scm[:2]
-    # The preview prints no extracts, so an item that needs one cannot go in
-    # it. And it has to be long enough to fill a page, so when the section's
-    # own tables are thin it falls back on the chapter's own navigation.
-    seen, out = set(), []
-    for m in pv:
-        if not m or m['q'] in seen or FIGREF.search(m['q']):
-            continue
-        seen.add(m['q'])
-        out.append(m)
-    if len(out) < 8:
-        for m in (secnav or []):
-            if m['q'] not in seen:
-                seen.add(m['q'])
-                out.append(m)
-    if len(out) < 8:
-        for ti, (_i, head, body) in enumerate(allt or []):
-            for ci in range(1, len(head)):
-                for k in range(len(body)):
-                    m = mcq_from_col(head, body, k, ci,
-                                     seed + 700 + 11 * ti + 3 * ci + k)
-                    if m and m['q'] not in seen:
-                        seen.add(m['q'])
-                        out.append(m)
-    pv = out[:16]
-    prows = [['This handout settles', 'where it is answered']]
-    prows.append([stitle, 'cycle A'])
-    if second:
-        prows.append([clean(second[1][0]) + ' and what goes with it',
-                      'cycle B'])
-    prows.append(['and you mark your own answers', 'at every checkpoint'])
-    flow.append(_preview(
-        'Before you start',
-        'Answer every one of these now, from what you already know or by '
-        'guessing. You are not expected to get them right: you are about to '
-        'be shown where each answer comes from.',
-        prows, pv))
-    flow.append(('page',))
+    # ---- page one is composed last, once the cycles are known
+    blocks = []
 
     # ---- cycle A
+    flow = blocks
     flow.append(('cycle', 'A', stitle))
     flow.append(('move', 'ORIENT',
                  'One claim. Decide now; you will check it in a moment.'))
@@ -711,7 +907,11 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
                 'to apply it.')]))
 
     # ---- invent the rule, which must be followed by contrasting cases
-    rule = rule_from(sec['text'], [e for e, _a in terms], seed + 13)
+    termbank = [e for e, _a in (allterms or [])]
+    ruleskip = set()
+    rule = rule_from(sec['text'], [e for e, _a in terms] + termbank, seed + 13)
+    if rule:
+        ruleskip.add(rule['book'])
     con = contrast_from(*main[1:], seed=seed + 14) if main else None
     if rule and con:
         flow.append(('move', 'INVENT THE RULE', ''))
@@ -833,10 +1033,30 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
                  clean(sec['text'].split('\n')[1] if '\n' in sec['text']
                        else sec['text'])[:360]))
 
+    # ---- page one, composed from the handout it introduces
+    labels = ['Where the section starts \u2014',
+              'What it settles in the middle \u2014',
+              'Where it ends \u2014']
+    fills = summary_fills(sec['text'], [e for e, _a in terms] + termbank,
+                          seed + 21, k=3, labels=labels)
+    if len(fills) < 3:
+        fills += [f for f in cloze_items(
+            sec['text'], [e for e, _a in terms] + termbank, seed + 21,
+            k=3 - len(fills), skip=ruleskip)]
+    while len(fills) < 3 and extrafill:
+        fills.append(extrafill.pop(0))
+    page1 = [('preview', 'Before you start',
+              'Three summaries of this handout, in the book\u2019s own '
+              'words. Read all three first: together they are the whole '
+              'session. Then fill the gaps, guessing where you have to.',
+              routemap(blocks, terms), fills[:3],
+              [('Words this handout uses precisely', watchwords(terms)),
+               ('How every cycle on this sheet works', HOWITWORKS)]),
+             ('page',)]
     return dict(id='%d.%d' % (n, idx), n=idx, pages=0,
                 title=stitle, sub='section %s of the book' % no,
                 covers=covers, skills=[('read%d' % idx, 3)],
-                derived=derived, flow=flow)
+                derived=derived, flow=page1 + blocks)
 
 
 def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
@@ -849,18 +1069,17 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
             covers.append(('sc:' if m['src'].startswith('SC') else 'p:')
                           + m['src'])
     covers.extend('term:' + e.lower() for e, _a in terms)
-    pv = [m for m in pm[:10] if not FIGREF.search(m['q'])]
-    for m in (navitems or []):
-        pv.append(m)
-    prows = [['This handout settles', 'where it is answered'],
-             ['every section of the chapter, shuffled', 'cycle A'],
-             ['the chapter’s own case set', 'cycle B'],
-             ['and you mark your own answers', 'at every checkpoint']]
-    flow.append(('preview', 'Before you start',
-                 'Answer every one of these now. They come from every part '
-                 'of the chapter, in no particular order.', prows, pv))
-    flow.append(('page',))
-
+    pv = summary_fills(
+        ' '.join(x['text'] for x in d['sections']),
+        [e for e, _a in terms], seed + 44, k=3,
+        labels=['Where the chapter starts \u2014',
+                'What it settles in the middle \u2014',
+                'Where it ends \u2014'])
+    if len(pv) < 3:
+        pv += cloze_items(' '.join(x['text'] for x in d['sections']),
+                          [e for e, _a in terms], seed + 44, k=3 - len(pv))
+    blocks = []
+    flow = blocks
     flow.append(('cycle', 'A', 'The whole chapter, in order'))
     flow.append(('move', 'ORIENT', ''))
     flow.append(('items', [dict(
@@ -970,7 +1189,14 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
     return dict(id='%d.%d' % (n, idx), n=idx, pages=0,
                 title='The whole chapter', sub='every section, shuffled, and '
                 'the chapter’s own case set',
-                covers=covers, skills=[('review', 0)], derived={}, flow=flow)
+                covers=covers, skills=[('review', 0)], derived={},
+                flow=[('preview', 'Before you start',
+                       'Three summaries of this chapter, in the book’s '
+                       'own words, with words taken out. Read all three '
+                       'first: together they are the whole chapter. Then '
+                       'fill the gaps.',
+                       routemap(blocks, terms), pv[:3]),
+                      ('page',)] + blocks)
 
 
 def secnav(d, seed):
@@ -1026,6 +1252,11 @@ def build_chapter(bk, n, hand_figs=None, seed=None):
             return False
         return True
     allcat = [t for s in d['sections'] for t in alloc[s['no']]]
+    # A section that cannot give three sentences of its own borrows from the
+    # chapter's opening, which is where the book states its headline rules.
+    spare_fill = cloze_items(
+        ' '.join(x['text'] for x in d['sections']),
+        [e for e, _a in terms], seed + 99, k=8)
     pbank = [m for m in (mcq_from_bank(it, ans, None)
                          for it in d['p']) if m]
     pbank = [m for m in pbank if usable_item(m, 'p')]
@@ -1060,7 +1291,8 @@ def build_chapter(bk, n, hand_figs=None, seed=None):
         used_sc.update(m['src'] for m in scm[:4] if m.get('src'))
         handouts.append(assemble(n, idx, sec, tbls, figname, scm, take,
                                  tslice, seed + si * 31, extra,
-                                 secnav(d, seed), ftabs, allcat))
+                                 secnav(d, seed), ftabs, allcat, terms,
+                                 list(spare_fill)))
     allsc = [m for m in (mcq_from_bank(it, ans, None) for it in d['sc']) if m]
     allsc = [m for m in allsc if usable_item(m, 'sc')]
     leftover = [m for m in allsc if m.get('src') not in used_sc]

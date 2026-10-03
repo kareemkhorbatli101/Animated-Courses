@@ -17,164 +17,113 @@ HANDOUT = {'id': '3.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Comprehensive income', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; reclassified to '
-                  'net income on sale”?',
-             'o': ['Pension gains, losses and prior service cost',
-                   'Changes in fair value of equity securities',
-                   'Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)',
-                   'Revaluation of PP&E'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Unrealized gains and losses '
-                    'on debt securities (AFS / FVOCI) with “OCI; '
-                    'reclassified to net income on sale”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Net income (no OCI '
-                  'option)”?',
-             'o': ['Pension gains, losses and prior service cost',
-                   'Effective part of cash-flow hedges',
-                   'Changes in fair value of equity securities',
-                   'Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Changes in fair value of '
-                    'equity securities with “Net income (no OCI option)”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; reclassified '
-                  'when the foreign operation is sold”?',
-             'o': ['Effective part of cash-flow hedges',
-                   'Foreign-currency translation adjustments',
-                   'Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)',
-                   'Pension gains, losses and prior service cost'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Foreign-currency translation '
-                    'adjustments with “OCI; reclassified when the foreign '
-                    'operation is sold”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; amortized into '
-                  'net income later”?',
-             'o': ['Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)',
-                   'Pension gains, losses and prior service cost',
-                   'Revaluation of PP&E',
-                   'Effective part of cash-flow hedges'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Pension gains, losses and '
-                    'prior service cost with “OCI; amortized into net income '
-                    'later”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; reclassified '
-                  'when the hedged item affects income”?',
-             'o': ['Foreign-currency translation adjustments',
-                   'Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)',
-                   'Effective part of cash-flow hedges',
-                   'Changes in fair value of equity securities'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Effective part of cash-flow '
-                    'hedges with “OCI; reclassified when the hedged item '
-                    'affects income”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Not allowed”?',
-             'o': ['Foreign-currency translation adjustments',
-                   'Revaluation of PP&E',
-                   'Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)',
-                   'Pension gains, losses and prior service cost'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Revaluation of PP&E with '
-                    '“Not allowed”.'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for Unrealized gains and '
-                  'losses on debt securities (AFS / FVOCI)?',
-             'o': ['Net income, or OCI by election (never reclassified)',
-                   'OCI; reclassified on sale',
-                   'OCI; never reclassified',
-                   'Revaluation surplus in OCI; never reclassified'],
-             'a': 'B',
-             'why': 'The book’s own table gives OCI; reclassified on sale as '
-                    'the IFRS of Unrealized gains and losses on debt '
-                    'securities (AFS / FVOCI).'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for Changes in fair value '
-                  'of equity securities?',
-             'o': ['OCI; reclassified on sale',
-                   'Same',
-                   'Net income, or OCI by election (never reclassified)',
-                   'OCI; never reclassified'],
-             'a': 'C',
-             'why': 'The book’s own table gives Net income, or OCI by '
-                    'election (never reclassified) as the IFRS of Changes in '
-                    'fair value of equity securities.'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for Foreign-currency '
-                  'translation adjustments?',
-             'o': ['OCI; never reclassified',
-                   'Same',
-                   'Revaluation surplus in OCI; never reclassified',
-                   'OCI; reclassified on sale'],
-             'a': 'B',
-             'why': 'The book’s own table gives Same as the IFRS of '
-                    'Foreign-currency translation adjustments.'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for Pension gains, losses '
-                  'and prior service cost?',
-             'o': ['Same',
-                   'OCI; never reclassified',
-                   'Net income, or OCI by election (never reclassified)',
-                   'OCI; reclassified on sale'],
-             'a': 'B',
-             'why': 'The book’s own table gives OCI; never reclassified as '
-                    'the IFRS of Pension gains, losses and prior service '
-                    'cost.'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for Effective part of '
-                  'cash-flow hedges?',
-             'o': ['Net income, or OCI by election (never reclassified)',
-                   'Same',
-                   'Revaluation surplus in OCI; never reclassified',
-                   'OCI; reclassified on sale'],
-             'a': 'B',
-             'why': 'The book’s own table gives Same as the IFRS of '
-                    'Effective part of cash-flow hedges.'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for Revaluation of PP&E?',
-             'o': ['OCI; never reclassified',
-                   'Net income, or OCI by election (never reclassified)',
-                   'Revaluation surplus in OCI; never reclassified',
-                   'OCI; reclassified on sale'],
-             'a': 'C',
-             'why': 'The book’s own table gives Revaluation surplus in OCI; '
-                    'never reclassified as the IFRS of Revaluation of PP&E.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS of Unrealized gains and losses on '
-                  'debt securities (AFS / FVOCI) as “OCI; reclassified on '
-                  'sale”.',
-             'a': 'T',
-             'why': 'The book pairs Unrealized gains and losses on debt '
-                    'securities (AFS / FVOCI) with “OCI; reclassified on '
-                    'sale”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS of Changes in fair value of '
-                  'equity securities as “OCI; never reclassified”.',
-             'a': 'F',
-             'why': 'The book pairs Changes in fair value of equity '
-                    'securities with “Net income, or OCI by election (never '
-                    'reclassified)”, not with “OCI; never reclassified”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS of Foreign-currency translation '
-                  'adjustments as “Same”.',
-             'a': 'T',
-             'why': 'The book pairs Foreign-currency translation adjustments '
-                    'with “Same”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Comprehensive income',
+             'a figure to read · Item · Orontes Foods Inc., year ended '
+             'December 31, 2025',
+             'An IFRS company revalues its land upward. How is the increase '
+             'reported?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['OCI builds a balance in equity called accumulated '
+                       'other ',
+                       22,
+                       ' (AOCI). When an item is realized, for example when '
+                       'Orontes sells an AFS security, the gain or loss '
+                       'moves from AOCI into net income. This ',
+                       29,
+                       ' stops the same gain being counted twice.'],
+             'bank': ['reclassification adjustment',
+                      'comprehensive income',
+                      'component of an entity',
+                      'other income and expense'],
+             'a': 'comprehensive income · reclassification adjustment',
+             'one': True,
+             'why': 'The book writes: “OCI builds a balance in equity called '
+                    'accumulated other comprehensive income (AOCI). When an '
+                    'item is realized, for example when Orontes sells an AFS '
+                    'security, the gain or loss moves from AOCI into net '
+                    'income. This reclassification adjustment stops the same '
+                    'gain being counted twice.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Showing OCI only in the statement of changes in '
+                       'equity is not allowed. OCI builds a balance in '
+                       'equity called accumulated other ',
+                       22,
+                       ' (AOCI). When an item is realized, for example when '
+                       'Orontes sells an AFS security, the gain or loss '
+                       'moves from AOCI into net income. This ',
+                       29,
+                       ' stops the same gain being counted twice.'],
+             'bank': ['other income and expense',
+                      'component of an entity',
+                      'reclassification adjustment',
+                      'comprehensive income'],
+             'a': 'comprehensive income · reclassification adjustment',
+             'one': True,
+             'why': 'The book writes: “Showing OCI only in the statement of '
+                    'changes in equity is not allowed. OCI builds a balance '
+                    'in equity called accumulated other comprehensive income '
+                    '(AOCI). When an item is realized, for example when '
+                    'Orontes sells an AFS security, the gain or loss moves '
+                    'from AOCI into net income. This reclassification '
+                    'adjustment stops the same gain being counted twice.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['This ',
+                       29,
+                       ' stops the same gain being counted twice. Under '
+                       'IFRS, a revaluation surplus on PP&E, fair value '
+                       'changes on equity investments elected to OCI, and '
+                       'pension remeasurements stay in OCI forever. GAAP '
+                       'does not allow PP&E revaluation, and it reclassifies '
+                       'its OCI items to net income later. ',
+                       22,
+                       " adds this year's OCI, not the AOCI balance."],
+             'bank': ['reclassification adjustment',
+                      'Comprehensive income',
+                      'component of an entity',
+                      'other income and expense'],
+             'a': 'reclassification adjustment · Comprehensive income',
+             'one': True,
+             'why': 'The book writes: “This reclassification adjustment '
+                    'stops the same gain being counted twice. Under IFRS, a '
+                    'revaluation surplus on PP&E, fair value changes on '
+                    'equity investments elected to OCI, and pension '
+                    'remeasurements stay in OCI forever. GAAP does not allow '
+                    'PP&E revaluation, and it reclassifies its OCI items to '
+                    "net income later. Comprehensive income adds this year's "
+                    'OCI, not the AOCI balance.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['income from continuing operations', ''],
+              ['earnings per share (EPS)', ''],
+              ['strategic shift', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Comprehensive income'),
           ('move',

@@ -7,8 +7,6 @@ HANDOUT = {'id': '1.1',
  'title': 'Who uses financial statements, and why?',
  'sub': 'section 1.1 of the book',
  'covers': ['sec:1.1',
-            'p:P07',
-            'p:P08',
             'p:P01',
             'p:P02',
             'p:P03',
@@ -32,189 +30,126 @@ HANDOUT = {'id': '1.1',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Who uses financial statements, and why?', 'cycle A'],
-            ['Verb and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A company has assets of 900 and liabilities of 350. It '
-                  'then borrows 100 in cash and declares and pays a cash '
-                  'dividend of 40. What is total equity after these '
-                  'transactions?',
-             'o': ['450', '510', '550', '610'],
-             'a': 'B',
-             'why': 'Equity starts at 550 (900 − 350). Borrowing does not '
-                    'change equity. The dividend reduces it by 40, so equity '
-                    'is 510. A is wrong: This is total liabilities after the '
-                    'loan (350 + 100), not equity. C is wrong: This ignores '
-                    'the dividend, which reduces retained earnings.',
-             'src': 'P07'},
-            {'t': 'MCQ',
-             'q': 'Which account normally has a debit balance?',
-             'o': ['Accounts payable',
-                   'Sales revenue',
-                   'Prepaid rent',
-                   'Additional paid-in capital'],
-             'a': 'C',
-             'why': 'Prepaid rent is an asset, and assets have debit '
-                    'balances. A is wrong: Accounts payable is a liability, '
-                    'with a credit balance. B is wrong: Revenue increases '
-                    'equity, so it has a credit balance.',
-             'src': 'P08'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Investors '
-                  '(shareholders) — PRIMARY?',
-             'o': ['Lend, renew or stop a loan',
-                   'Plan and control operations',
-                   'Buy, hold or sell shares',
-                   'Tax, oversight, statistics'],
-             'a': 'C',
-             'why': 'The book’s own table gives Buy, hold or sell shares as '
-                    'the decision of Investors (shareholders) — PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Lenders (banks, '
-                  'bondholders) — PRIMARY?',
-             'o': ['Stay, negotiate pay',
-                   'Sign long-term contracts',
-                   'Tax, oversight, statistics',
-                   'Lend, renew or stop a loan'],
-             'a': 'D',
-             'why': 'The book’s own table gives Lend, renew or stop a loan '
-                    'as the decision of Lenders (banks, bondholders) — '
-                    'PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Other creditors '
-                  '(suppliers) — PRIMARY?',
-             'o': ['Sell on credit, set credit terms',
-                   'Sign long-term contracts',
-                   'Lend, renew or stop a loan',
-                   'Plan and control operations'],
-             'a': 'A',
-             'why': 'The book’s own table gives Sell on credit, set credit '
-                    'terms as the decision of Other creditors (suppliers) — '
-                    'PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Employees and '
-                  'unions?',
-             'o': ['Lend, renew or stop a loan',
-                   'Sell on credit, set credit terms',
-                   'Buy, hold or sell shares',
-                   'Stay, negotiate pay'],
-             'a': 'D',
-             'why': 'The book’s own table gives Stay, negotiate pay as the '
-                    'decision of Employees and unions.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Customers?',
-             'o': ['Tax, oversight, statistics',
-                   'Lend, renew or stop a loan',
-                   'Sign long-term contracts',
-                   'Sell on credit, set credit terms'],
-             'a': 'C',
-             'why': 'The book’s own table gives Sign long-term contracts as '
-                    'the decision of Customers.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Governments and '
-                  'regulators?',
-             'o': ['Sign long-term contracts',
-                   'Stay, negotiate pay',
-                   'Buy, hold or sell shares',
-                   'Tax, oversight, statistics'],
-             'a': 'D',
-             'why': 'The book’s own table gives Tax, oversight, statistics '
-                    'as the decision of Governments and regulators.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Managers '
-                  '(internal)?',
-             'o': ['Lend, renew or stop a loan',
-                   'Stay, negotiate pay',
-                   'Sign long-term contracts',
-                   'Plan and control operations'],
-             'a': 'D',
-             'why': 'The book’s own table gives Plan and control operations '
-                    'as the decision of Managers (internal).'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Investors '
-                  '(shareholders) — PRIMARY?',
-             'o': ['Will the company pay its bills when due?',
-                   'Is the company stable and profitable?',
-                   'Can the company pay interest and repay the principal on '
-                   'time?',
-                   'Will the company create future cash flows and returns?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Will the company create '
-                    'future cash flows and returns? as the key question of '
-                    'Investors (shareholders) — PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Lenders (banks, '
-                  'bondholders) — PRIMARY?',
-             'o': ['Does the company follow the rules and pay its taxes?',
-                   'Will the company pay its bills when due?',
-                   'Can the company pay interest and repay the principal on '
-                   'time?',
-                   'Is the company stable and profitable?'],
-             'a': 'C',
-             'why': 'The book’s own table gives Can the company pay interest '
-                    'and repay the principal on time? as the key question of '
-                    'Lenders (banks, bondholders) — PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Other creditors '
-                  '(suppliers) — PRIMARY?',
-             'o': ['Does the company follow the rules and pay its taxes?',
-                   'Will the company continue to supply us?',
-                   'Will the company create future cash flows and returns?',
-                   'Will the company pay its bills when due?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Will the company pay its '
-                    'bills when due? as the key question of Other creditors '
-                    '(suppliers) — PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Employees and '
-                  'unions?',
-             'o': ['Can the company pay interest and repay the principal on '
-                   'time?',
-                   'Will the company continue to supply us?',
-                   'Does the company follow the rules and pay its taxes?',
-                   'Is the company stable and profitable?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Is the company stable and '
-                    'profitable? as the key question of Employees and '
-                    'unions.'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Customers?',
-             'o': ['Can the company pay interest and repay the principal on '
-                   'time?',
-                   'Will the company continue to supply us?',
-                   'Is the company stable and profitable?',
-                   'Will the company pay its bills when due?'],
-             'a': 'B',
-             'why': 'The book’s own table gives Will the company continue to '
-                    'supply us? as the key question of Customers.'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Governments and '
-                  'regulators?',
-             'o': ['Is the company stable and profitable?',
-                   'Can the company pay interest and repay the principal on '
-                   'time?',
-                   'Not a primary user: can use internal reports',
-                   'Does the company follow the rules and pay its taxes?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Does the company follow the '
-                    'rules and pay its taxes? as the key question of '
-                    'Governments and regulators.'},
-            {'t': 'MCQ',
-             'q': 'Which key question does the book give for Managers '
-                  '(internal)?',
-             'o': ['Is the company stable and profitable?',
-                   'Does the company follow the rules and pay its taxes?',
-                   'Will the company continue to supply us?',
-                   'Not a primary user: can use internal reports'],
-             'a': 'D',
-             'why': 'The book’s own table gives Not a primary user: can use '
-                    'internal reports as the key question of Managers '
-                    '(internal).'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Who uses financial statements, and why?',
+             'a figure to read · User · the book’s own rule, gapped',
+             'Which group is a primary user of general-purpose financial '
+             'statements?'],
+            ['The words this section uses precisely',
+             'Verb · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       22,
+                       ' summarize these facts in a standard form for people '
+                       'outside the company. The four main statements are '
+                       'the ',
+                       15,
+                       ', the ',
+                       18,
+                       ', the ',
+                       32,
+                       ' and the ',
+                       25,
+                       '.'],
+             'bank': ['matching principle',
+                      'income statement',
+                      'Financial statements',
+                      'cost of goods sold',
+                      'statement of cash flows',
+                      'statement of changes in equity',
+                      'balance sheet'],
+             'a': 'Financial statements · balance sheet · income statement · '
+                  'statement of changes in equity · statement of cash flows',
+             'one': True,
+             'why': 'The book writes: “Financial statements summarize these '
+                    'facts in a standard form for people outside the '
+                    'company. The four main statements are the balance '
+                    'sheet, the income statement, the statement of changes '
+                    'in equity and the statement of cash flows.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['How did the company perform in the period? The ',
+                       18,
+                       ' answers this. Where did cash come from, and where '
+                       'did it go? The ',
+                       25,
+                       ' answers this. The ',
+                       22,
+                       ' lists the qualities of useful information. ',
+                       11,
+                       ' means the information can make a difference to a '
+                       'decision.'],
+             'bank': ['conceptual framework',
+                      'cost of goods sold',
+                      'statement of cash flows',
+                      'Relevance',
+                      'income statement',
+                      'matching principle'],
+             'a': 'income statement · statement of cash flows · conceptual '
+                  'framework · Relevance',
+             'one': True,
+             'why': 'The book writes: “How did the company perform in the '
+                    'period? The income statement answers this. Where did '
+                    'cash come from, and where did it go? The statement of '
+                    'cash flows answers this. The conceptual framework lists '
+                    'the qualities of useful information. Relevance means '
+                    'the information can make a difference to a decision.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Managers are users, but not ',
+                       15,
+                       ' of general-purpose statements. Also remember: ',
+                       11,
+                       ' and ',
+                       25,
+                       ' are the two fundamental qualities. Comparability, '
+                       'verifiability, timeliness and understandability are '
+                       'only enhancing qualities.'],
+             'bank': ['matching principle',
+                      'faithful representation',
+                      'relevance',
+                      'primary users',
+                      'cost of goods sold'],
+             'a': 'primary users · relevance · faithful representation',
+             'one': True,
+             'why': 'The book writes: “Managers are users, but not primary '
+                    'users of general-purpose statements. Also remember: '
+                    'relevance and faithful representation are the two '
+                    'fundamental qualities. Comparability, verifiability, '
+                    'timeliness and understandability are only enhancing '
+                    'qualities.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['financial statements', ''],
+              ['expense', ''],
+              ['accrual basis', ''],
+              ['faithful representation', ''],
+              ['net income', ''],
+              ['journal entry', ''],
+              ['accounts receivable', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Who uses financial statements, and why?'),
           ('move',
@@ -322,6 +257,45 @@ HANDOUT = {'id': '1.1',
              'why': 'The book pairs Lenders (banks, bondholders) — PRIMARY '
                     'with “Cash flows, balance sheet”, not with “Income '
                     'statement, cash flows, balance sheet”.'}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['The four main statements are the balance sheet, the ',
+             18,
+             ', the ',
+             32,
+             ' and the ',
+             25,
+             '.']],
+           ['journal entry',
+            'statement of changes in equity',
+            'statement of cash flows',
+            'income statement',
+            'cost of goods sold'],
+           'The four main statements are the balance sheet, the income '
+           'statement, the statement of changes in equity and the statement '
+           'of cash flows.',
+           'income statement · statement of changes in equity · statement of '
+           'cash flows'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Lenders (banks, bondholders) — PRIMARY',
+             ['Decision: Lend, renew or stop a loan',
+              'Key question: Can the company pay interest and repay the '
+              'principal on time?']),
+            ('Employees and unions',
+             ['Decision: Stay, negotiate pay',
+              'Key question: Is the company stable and profitable?'])],
+           'Only the facts above differ. What is the statements used most of '
+           'Lenders (banks, bondholders) — PRIMARY?',
+           ['Balance sheet, income statement',
+            'Cash flows, balance sheet',
+            'All statements and notes',
+            'Income statement'],
+           'B',
+           'The book gives Cash flows, balance sheet as the statements used '
+           'most of Lenders (banks, bondholders) — PRIMARY.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

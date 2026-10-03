@@ -18,168 +18,101 @@ HANDOUT = {'id': '5.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Limitations and links between the four statements', 'cycle A'],
-            ['Cash flow and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Why do users need a statement of cash flows when they '
-                  'already have an income statement?',
-             'o': ['Because the income statement ignores revenue',
-                   'Because the statement of cash flows shows the market '
-                   'value of assets',
-                   'Because net income is not the same as cash generated',
-                   'Because cash flows are measured at fair value'],
-             'a': 'C',
-             'why': 'Accrual profit and cash can differ greatly. A is wrong: '
-                    'The income statement reports revenue. B is wrong: No '
-                    'statement shows the market value of the company.',
-             'src': 'SC5-1'},
-            {'t': 'MCQ',
-             'q': 'On December 1 a company buys a Treasury bill that matures '
-                  'in five months, on April 30. At December 31 it has two '
-                  'months left to maturity. Is it a cash equivalent?',
-             'o': ['Yes, because it matures within three months of the '
-                   'year-end',
-                   'Yes, because all Treasury bills are cash equivalents',
-                   'No, because only bank deposits are cash equivalents',
-                   'No, because its original maturity to the company was '
-                   'more than three months'],
-             'a': 'D',
-             'why': 'The test uses original maturity to the holder, not '
-                    'remaining maturity. A is wrong: Remaining maturity at '
-                    'year-end is not the test. B is wrong: Maturity decides, '
-                    'not the type of security.',
-             'src': 'SC5-2'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.1?',
-             'o': ['Purpose and structure of the statement of cash flows',
-                   'The direct method and required disclosures',
-                   'The indirect method',
-                   'Classifying cash flows'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the '
-                    'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'Purpose and structure of the statement of cash flows',
-                   'The indirect method'],
-             'a': 'A',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['Classifying cash flows',
-                   'The indirect method',
-                   'Purpose and structure of the statement of cash flows',
-                   'The direct method and required disclosures'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.4?',
-             'o': ['The indirect method',
-                   'The direct method and required disclosures',
-                   'Purpose and structure of the statement of cash flows',
-                   'Classifying cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The direct method and required '
-                    'disclosures” as section 5.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.5?',
-             'o': ['The indirect method',
-                   'Classifying cash flows',
-                   'Limitations and links between the four statements',
-                   'Purpose and structure of the statement of cash flows'],
-             'a': 'C',
-             'why': 'The book numbers “Limitations and links between the '
-                    'four statements” as section 5.5.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ['Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities.",
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Financing: a transaction with owners.'],
-             'a': 'C',
-             'why': 'The book’s own table gives Operating (U.S. GAAP gives '
-                    'no choice). as the answer of Interest paid on a bank '
-                    'loan.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Selling Jordan Glass '
-                  'shares?',
-             'o': ['Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   "Investing: another company's securities.",
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.'],
-             'a': 'C',
-             'why': "The book’s own table gives Investing: another company's "
-                    'securities. as the answer of Selling Jordan Glass '
-                    'shares.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Land for a long-term '
-                  'note?',
-             'o': ['Operating (U.S. GAAP gives no choice).',
-                   "Investing: another company's securities.",
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   'Financing: a transaction with owners.'],
-             'a': 'C',
-             'why': 'The book’s own table gives Noncash investing and '
-                    'financing activity: disclosed, not in the body. as the '
-                    'answer of Land for a long-term note.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Buying back own '
-                  'shares?',
-             'o': ['Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities.",
-                   'Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).'],
-             'a': 'C',
-             'why': 'The book’s own table gives Financing: a transaction '
-                    'with owners. as the answer of Buying back own shares.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash paid to buy a '
-                  'delivery truck?',
-             'o': ['________', 'Financing', 'Investing'],
-             'a': 'C',
-             'why': 'The book’s own table gives Investing as the activity of '
-                    'Cash paid to buy a delivery truck.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash dividends paid '
-                  'to shareholders?',
-             'o': ['Financing', 'Investing', '________'],
-             'a': 'A',
-             'why': 'The book’s own table gives Financing as the activity of '
-                    'Cash dividends paid to shareholders.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ['Financing', '________', 'Investing'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Interest paid on a bank loan.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Cash received from '
-                  'selling Jordan Glass shares?',
-             'o': ['________', 'Investing', 'Financing'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Cash received from selling Jordan Glass shares.'},
-            {'t': 'MCQ',
-             'q': 'Which activity does the book give for Land acquired by '
-                  'issuing a long-term note (no cash)?',
-             'o': ['Investing', '________', 'Financing'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the activity of '
-                    'Land acquired by issuing a long-term note (no cash).'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Limitations and links between the four statements',
+             'a figure to read · Barada Wholesale (USD 000)',
+             'Why do users need a statement of cash flows when they already '
+             'have an income statement?'],
+            ['The words this section uses precisely',
+             'Cash flow · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['It is only a proposal; the definition of ',
+                       18,
+                       ' does not change. French tableau de financement is '
+                       'an older funds statement based on working capital, '
+                       'not a ',
+                       25,
+                       '. The IFRS term is tableau des flux de trésorerie.'],
+             'bank': ['statement of cash flows',
+                      'cash equivalents',
+                      'indirect method',
+                      'financing activities'],
+             'a': 'cash equivalents · statement of cash flows',
+             'one': True,
+             'why': 'The book writes: “It is only a proposal; the definition '
+                    'of cash equivalents does not change. French tableau de '
+                    'financement is an older funds statement based on '
+                    'working capital, not a statement of cash flows. The '
+                    'IFRS term is tableau des flux de trésorerie.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['That is the amount in the financing section. It is '
+                       'only a proposal; the definition of ',
+                       18,
+                       ' does not change. French tableau de financement is '
+                       'an older funds statement based on working capital, '
+                       'not a ',
+                       25,
+                       '.'],
+             'bank': ['financing activities',
+                      'statement of cash flows',
+                      'cash equivalents',
+                      'indirect method'],
+             'a': 'cash equivalents · statement of cash flows',
+             'one': True,
+             'why': 'The book writes: “That is the amount in the financing '
+                    'section. It is only a proposal; the definition of cash '
+                    'equivalents does not change. French tableau de '
+                    'financement is an older funds statement based on '
+                    'working capital, not a statement of cash flows.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['That is the amount in the financing section. It is '
+                       'only a proposal; the definition of ',
+                       18,
+                       ' does not change. French tableau de financement is '
+                       'an older funds statement based on working capital, '
+                       'not a ',
+                       25,
+                       '. The IFRS term is tableau des flux de trésorerie.'],
+             'bank': ['cash equivalents',
+                      'financing activities',
+                      'indirect method',
+                      'statement of cash flows'],
+             'a': 'cash equivalents · statement of cash flows',
+             'one': True,
+             'why': 'The book writes: “That is the amount in the financing '
+                    'section. It is only a proposal; the definition of cash '
+                    'equivalents does not change. French tableau de '
+                    'financement is an older funds statement based on '
+                    'working capital, not a statement of cash flows. The '
+                    'IFRS term is tableau des flux de trésorerie.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['financing activities', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Limitations and links between the four statements'),
           ('move',

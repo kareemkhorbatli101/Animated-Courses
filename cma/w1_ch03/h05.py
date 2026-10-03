@@ -14,146 +14,111 @@ HANDOUT = {'id': '3.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Limitations and links to the other statements', 'cycle A'],
-            ['Item and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.1?',
-             'o': ['Purpose and structure of the income statement',
-                   'Building the multi-step income statement',
-                   'Comprehensive income',
-                   'Unusual items and discontinued operations'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the income '
-                    'statement” as section 3.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.2?',
-             'o': ['Comprehensive income',
-                   'Purpose and structure of the income statement',
-                   'Building the multi-step income statement',
-                   'Unusual items and discontinued operations'],
-             'a': 'C',
-             'why': 'The book numbers “Building the multi-step income '
-                    'statement” as section 3.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.3?',
-             'o': ['Purpose and structure of the income statement',
-                   'Comprehensive income',
-                   'Unusual items and discontinued operations',
-                   'Building the multi-step income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Unusual items and discontinued '
-                    'operations” as section 3.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.4?',
-             'o': ['Building the multi-step income statement',
-                   'Comprehensive income',
-                   'Purpose and structure of the income statement',
-                   'Unusual items and discontinued operations'],
-             'a': 'B',
-             'why': 'The book numbers “Comprehensive income” as section '
-                    '3.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.5?',
-             'o': ['Limitations and links to the other statements',
-                   'Building the multi-step income statement',
-                   'Unusual items and discontinued operations',
-                   'Purpose and structure of the income statement'],
-             'a': 'A',
-             'why': 'The book numbers “Limitations and links to the other '
-                    'statements” as section 3.5.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Fire loss?',
-             'o': ['Discontinued operations',
-                   'Other income and expense',
-                   'Operating expenses'],
-             'a': 'C',
-             'why': 'The book’s own table gives Operating expenses as the '
-                    'category of Fire loss.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Lawsuit settlement?',
-             'o': ['Operating expenses',
-                   'Discontinued operations',
-                   'Other income and expense'],
-             'a': 'A',
-             'why': 'The book’s own table gives Operating expenses as the '
-                    'category of Lawsuit settlement.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Interest expense?',
-             'o': ['Discontinued operations',
-                   'Other income and expense',
-                   'Operating expenses'],
-             'a': 'B',
-             'why': 'The book’s own table gives Other income and expense as '
-                    'the category of Interest expense.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Gain on sale of '
-                  'equipment?',
-             'o': ['Other income and expense',
-                   'Operating expenses',
-                   'Discontinued operations'],
-             'a': 'A',
-             'why': 'The book’s own table gives Other income and expense as '
-                    'the category of Gain on sale of equipment.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Loss on sale of the '
-                  'division?',
-             'o': ['Discontinued operations',
-                   'Other income and expense',
-                   'Operating expenses'],
-             'a': 'A',
-             'why': 'The book’s own table gives Discontinued operations as '
-                    'the category of Loss on sale of the division.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Operating income?',
-             'o': ['1,240 − 520 − 300 = 420',
-                   '420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 ÷ 3,100 = 40%'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,240 − 520 − 300 = 420 as '
-                    'the answer of Operating income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Net income?',
-             'o': ['420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 − 520 − 300 = 420',
-                   '1,240 ÷ 3,100 = 40%'],
-             'a': 'A',
-             'why': 'The book’s own table gives 420 − 90 = 330, the same as '
-                    'in Chapter 1 as the answer of Net income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Gross profit '
-                  'percentage?',
-             'o': ['420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 − 520 − 300 = 420',
-                   '1,240 ÷ 3,100 = 40%'],
-             'a': 'C',
-             'why': 'The book’s own table gives 1,240 ÷ 3,100 = 40% as the '
-                    'answer of Gross profit percentage.'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss from '
-                  'operations of the frozen-foods business?',
-             'o': ['(420,000)', '(600,000)', '(180,000)'],
-             'a': 'A',
-             'why': 'The book’s own table gives (420,000) as the before tax '
-                    'of Loss from operations of the frozen-foods business.'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss on disposal '
-                  'of the business?',
-             'o': ['(180,000)', '(420,000)', '(600,000)'],
-             'a': 'A',
-             'why': 'The book’s own table gives (180,000) as the before tax '
-                    'of Loss on disposal of the business.'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss from '
-                  'discontinued operations?',
-             'o': ['(180,000)', '(600,000)', '(420,000)'],
-             'a': 'B',
-             'why': 'The book’s own table gives (600,000) as the before tax '
-                    'of Loss from discontinued operations.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Limitations and links to the other statements',
+             'a figure to read · Item / memo (USD 000)',
+             'Which of these did this cycle settle?'],
+            ['The words this section uses precisely',
+             'Item · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['Net income depends on many ',
+                       11,
+                       ': useful lives, credit losses, ',
+                       12,
+                       ' tests and warranty costs. ',
+                       11,
+                       ' companies also choose different methods, such as '
+                       'FIFO or LIFO for inventory. Two similar companies '
+                       'can therefore report different profits from the same '
+                       'activity.'],
+             'bank': ['impairment',
+                      'income statement',
+                      'estimates',
+                      'Different',
+                      'other income and expense'],
+             'a': 'estimates · impairment · Different',
+             'one': True,
+             'why': 'The book writes: “Net income depends on many estimates: '
+                    'useful lives, credit losses, impairment tests and '
+                    'warranty costs. Different companies also choose '
+                    'different methods, such as FIFO or LIFO for inventory. '
+                    'Two similar companies can therefore report different '
+                    'profits from the same activity.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Managers can influence results by timing sales or ',
+                       15,
+                       ' costs, such as research or ',
+                       13,
+                       ', near the year-end. Most ',
+                       13,
+                       ', net income is not cash. Accrual accounting records '
+                       'revenue when it is earned and expenses when they are '
+                       'incurred.'],
+             'bank': ['other income and expense',
+                      'discretionary',
+                      'advertising',
+                      'income statement',
+                      'importantly'],
+             'a': 'discretionary · advertising · importantly',
+             'one': True,
+             'why': 'The book writes: “Managers can influence results by '
+                    'timing sales or discretionary costs, such as research '
+                    'or advertising, near the year-end. Most importantly, '
+                    'net income is not cash. Accrual accounting records '
+                    'revenue when it is earned and expenses when they are '
+                    'incurred.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['The face of the ',
+                       11,
+                       ' does not change. IFRS 18 replaces IAS 1 and adds '
+                       'required ',
+                       11,
+                       ', including operating profit. French résultat means '
+                       'profit, not result in general, and résultat ',
+                       14,
+                       ' is not a U.S.'],
+             'bank': ['other income and expense',
+                      'subtotals',
+                      'exceptionnel',
+                      'income statement',
+                      'statement'],
+             'a': 'statement · subtotals · exceptionnel',
+             'one': True,
+             'why': 'The book writes: “The face of the statement does not '
+                    'change. IFRS 18 replaces IAS 1 and adds required '
+                    'subtotals, including operating profit. French résultat '
+                    'means profit, not result in general, and résultat '
+                    'exceptionnel is not a U.S.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['discontinued operation', ''],
+              ['single-step income statement', ''],
+              ['intraperiod tax allocation', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Limitations and links to the other statements'),
           ('move',

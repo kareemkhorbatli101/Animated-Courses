@@ -17,93 +17,107 @@ HANDOUT = {'id': '7.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Inventory errors', 'cycle A'],
-            ['Memo item and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which answer does the book give for COGS, line 2: 1,200 × '
-                  '$22?',
-             'o': ['$10,000',
-                   '$6,600 + $10,000 = $16,600',
-                   '$26,400',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.'],
-             'a': 'C',
-             'why': 'The book’s own table gives $26,400 as the answer of '
-                    'COGS, line 2: 1,200 × $22.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Ending inventory, '
-                  'line 1: 300 × $22?',
-             'o': ['$25,000 + $26,400 = $51,400',
-                   '$26,400',
-                   '$6,600',
-                   '$6,600 + $10,000 = $16,600'],
-             'a': 'C',
-             'why': 'The book’s own table gives $6,600 as the answer of '
-                    'Ending inventory, line 1: 300 × $22.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Ending inventory, '
-                  'line 2: 500 × $20?',
-             'o': ['$26,400',
-                   '$25,000 + $26,400 = $51,400',
-                   '$6,600 + $10,000 = $16,600',
-                   '$10,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives $10,000 as the answer of '
-                    'Ending inventory, line 2: 500 × $20.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Total COGS?',
-             'o': ['$6,600 + $10,000 = $16,600',
-                   '$25,000 + $26,400 = $51,400',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.',
-                   '$6,600'],
-             'a': 'B',
-             'why': 'The book’s own table gives $25,000 + $26,400 = $51,400 '
-                    'as the answer of Total COGS.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Total ending '
-                  'inventory?',
-             'o': ['$6,600 + $10,000 = $16,600',
-                   '$6,600',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.',
-                   '$10,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives $6,600 + $10,000 = $16,600 '
-                    'as the answer of Total ending inventory.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Check?',
-             'o': ['$26,400',
-                   '$25,000 + $26,400 = $51,400',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.',
-                   '$10,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives $51,400 + $16,600 = $68,000, '
-                    'the cost of goods available. as the answer of Check.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of COGS, line 2: 1,200 × $22 as '
-                  '“$26,400”.',
-             'a': 'T',
-             'why': 'The book pairs COGS, line 2: 1,200 × $22 with '
-                    '“$26,400”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Ending inventory, line 1: '
-                  '300 × $22 as “$6,600 + $10,000 = $16,600”.',
-             'a': 'F',
-             'why': 'The book pairs Ending inventory, line 1: 300 × $22 with '
-                    '“$6,600”, not with “$6,600 + $10,000 = $16,600”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Ending inventory, line 2: '
-                  '500 × $20 as “$10,000”.',
-             'a': 'T',
-             'why': 'The book pairs Ending inventory, line 2: 500 × $20 with '
-                    '“$10,000”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Inventory errors',
+             'a figure to read · Item',
+             'Which of these did this cycle settle?'],
+            ['The words this section uses precisely',
+             'Memo item · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['If ending ',
+                       11,
+                       ' is wrong, ',
+                       20,
+                       " is wrong in the same year. And because this year's "
+                       "ending inventory is next year's beginning inventory, "
+                       'the error moves into the next year too. Cost of '
+                       'goods sold was understated by 40, so pretax income '
+                       'was overstated by 40.'],
+             'bank': ['cost of goods sold',
+                      'purchase discount',
+                      'inventory',
+                      'gross profit'],
+             'a': 'inventory · cost of goods sold',
+             'one': True,
+             'why': 'The book writes: “If ending inventory is wrong, cost of '
+                    'goods sold is wrong in the same year. And because this '
+                    "year's ending inventory is next year's beginning "
+                    'inventory, the error moves into the next year too. Cost '
+                    'of goods sold was understated by 40, so pretax income '
+                    'was overstated by 40.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Errors in purchases work in a similar way. Row 3 is '
+                       'a classic exam item: when a purchase is left out of '
+                       'both purchases and the count, ',
+                       20,
+                       ' and income are still correct, but ',
+                       11,
+                       ' and accounts payable are both understated.'],
+             'bank': ['purchase discount',
+                      'inventory',
+                      'gross profit',
+                      'cost of goods sold'],
+             'a': 'cost of goods sold · inventory',
+             'one': True,
+             'why': 'The book writes: “Errors in purchases work in a similar '
+                    'way. Row 3 is a classic exam item: when a purchase is '
+                    'left out of both purchases and the count, cost of goods '
+                    'sold and income are still correct, but inventory and '
+                    'accounts payable are both understated.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['In a question, find the direction for the first '
+                       'year, then reverse it for the second year. SC7-10 A '
+                       'purchase on account at year-end was not recorded, '
+                       'and the goods were not included in the ',
+                       16,
+                       '. Net income is overstated; ',
+                       11,
+                       ' is correct.'],
+             'bank': ['inventory',
+                      'gross profit',
+                      'purchase discount',
+                      'physical count'],
+             'a': 'physical count · inventory',
+             'one': True,
+             'why': 'The book writes: “In a question, find the direction for '
+                    'the first year, then reverse it for the second year. '
+                    'SC7-10 A purchase on account at year-end was not '
+                    'recorded, and the goods were not included in the '
+                    'physical count. Net income is overstated; inventory is '
+                    'correct.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['LIFO (last-in, first-out)', ''],
+              ['counterbalancing error', ''],
+              ['consignor', ''],
+              ['purchase discount', ''],
+              ['cost flow assumption', ''],
+              ['gross profit', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Inventory errors'),
           ('move',

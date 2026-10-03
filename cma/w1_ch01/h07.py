@@ -70,72 +70,114 @@ HANDOUT = {'id': '1.7',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now. They come from every part of the '
-           'chapter, in no particular order.',
-           [['This handout settles', 'where it is answered'],
-            ['every section of the chapter, shuffled', 'cycle A'],
-            ['the chapter’s own case set', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.1?',
-             'o': ['The accrual basis and the matching principle',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Double entry: debits and credits',
-                   'Who uses financial statements, and why?'],
-             'a': 'D',
-             'why': 'The book numbers “Who uses financial statements, and '
-                    'why?” as section 1.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.2?',
-             'o': ['Double entry: debits and credits',
-                   'The accrual basis and the matching principle',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Who uses financial statements, and why?'],
-             'a': 'C',
-             'why': 'The book numbers “The building blocks: elements and the '
-                    'accounting equation” as section 1.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.3?',
-             'o': ['Who uses financial statements, and why?',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Double entry: debits and credits',
-                   'The accrual basis and the matching principle'],
-             'a': 'C',
-             'why': 'The book numbers “Double entry: debits and credits” as '
-                    'section 1.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.4?',
-             'o': ['The building blocks: elements and the accounting '
-                   'equation',
-                   'The accrual basis and the matching principle',
-                   'Who uses financial statements, and why?',
-                   'Double entry: debits and credits'],
-             'a': 'B',
-             'why': 'The book numbers “The accrual basis and the matching '
-                    'principle” as section 1.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.5?',
-             'o': ['Double entry: debits and credits',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Who writes the rules? U.S. GAAP and IFRS',
-                   'Who uses financial statements, and why?'],
-             'a': 'C',
-             'why': 'The book numbers “Who writes the rules? U.S. GAAP and '
-                    'IFRS” as section 1.5.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.6?',
-             'o': ['The building blocks: elements and the accounting '
-                   'equation',
-                   'Double entry: debits and credits',
-                   'Who uses financial statements, and why?',
-                   'A first look at the four statements'],
-             'a': 'D',
-             'why': 'The book numbers “A first look at the four statements” '
-                    'as section 1.6.'}]),
+           'Three summaries of this chapter, in the book’s own words, with '
+           'words taken out. Read all three first: together they are the '
+           'whole chapter. Then fill the gaps.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The whole chapter, in order',
+             'a figure to read',
+             'Which part of the chapter does a question about definitions '
+             'belong to?'],
+            ['The chapter’s case set',
+             'The chapter’s case set, item by item',
+             'What has to be settled before any figure in a case set is '
+             'worked out?'],
+            ['The words it uses precisely',
+             'financial statements · primary users · asset · liability · '
+             'equity · revenue',
+             'matching, at the end of cycle B']],
+           [{'t': 'FILL',
+             'q': 'Where the chapter starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       11,
+                       's and gains increase ',
+                       19,
+                       '. ',
+                       11,
+                       's also decrease it, but a dividend is not an ',
+                       11,
+                       '. It is a distribution to owners, so it never '
+                       'appears in the ',
+                       18,
+                       '. IFRS also uses the word income for both revenue '
+                       'and gains, while U.S.'],
+             'bank': ['recognize',
+                      'retained earnings',
+                      'Revenue',
+                      'Dividend',
+                      'liability',
+                      'income statement',
+                      'expense'],
+             'a': 'Revenue · retained earnings · Dividend · expense · income '
+                  'statement',
+             'one': True,
+             'why': 'The book writes: “Revenues and gains increase retained '
+                    'earnings. Dividends also decrease it, but a dividend is '
+                    'not an expense. It is a distribution to owners, so it '
+                    'never appears in the income statement. IFRS also uses '
+                    'the word income for both revenue and gains, while '
+                    'U.S.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Accounts on the left side of the equation (assets, '
+                       'expenses and dividends) increase with a ',
+                       11,
+                       '. Accounts on the right side (liabilities, ',
+                       11,
+                       ' and revenues) increase with a ',
+                       11,
+                       '. A ',
+                       16,
+                       ' reduces a related account, so it has the opposite ',
+                       16,
+                       '.'],
+             'bank': ['debit',
+                      'contra account',
+                      'recognize',
+                      'equity',
+                      'liability',
+                      'credit',
+                      'normal balance'],
+             'a': 'debit · equity · credit · contra account · normal balance',
+             'one': True,
+             'why': 'The book writes: “Accounts on the left side of the '
+                    'equation (assets, expenses and dividends) increase with '
+                    'a debit. Accounts on the right side (liabilities, '
+                    'equity and revenues) increase with a credit. A contra '
+                    'account reduces a related account, so it has the '
+                    'opposite normal balance.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A ',
+                       17,
+                       ' is an ',
+                       11,
+                       ': the company has paid for a future benefit. A '
+                       'contract ',
+                       11,
+                       ' (unearned ',
+                       11,
+                       ') is a liability: the company must still deliver the '
+                       'goods or services. Cash received in advance is a '
+                       'liability, not revenue.'],
+             'bank': ['recognize',
+                      'balance sheet',
+                      'liability',
+                      'asset',
+                      'revenue',
+                      'prepaid expense'],
+             'a': 'prepaid expense · asset · liability · revenue',
+             'one': True,
+             'why': 'The book writes: “A prepaid expense is an asset: the '
+                    'company has paid for a future benefit. A contract '
+                    'liability (unearned revenue) is a liability: the '
+                    'company must still deliver the goods or services. Cash '
+                    'received in advance is a liability, not revenue.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),

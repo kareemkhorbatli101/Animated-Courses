@@ -22,111 +22,109 @@ HANDOUT = {'id': '1.6',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['A first look at the four statements', 'cycle A'],
-            ['Account and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which debit does the book give for Cash?',
-             'o': ['9,750', '300', '936', '1,050'],
-             'a': 'D',
-             'why': 'The book’s own table gives 1,050 as the debit of Cash.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Accounts receivable?',
-             'o': ['420', '300', '936', '90'],
-             'a': 'B',
-             'why': 'The book’s own table gives 300 as the debit of Accounts '
-                    'receivable.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Inventory?',
-             'o': ['1,050', '50', '24', '420'],
-             'a': 'D',
-             'why': 'The book’s own table gives 420 as the debit of '
-                    'Inventory.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Land?',
-             'o': ['520', '300', '936', '9,750'],
-             'a': 'C',
-             'why': 'The book’s own table gives 936 as the debit of Land.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Equipment?',
-             'o': ['520', '936', '90', '4,200'],
-             'a': 'D',
-             'why': 'The book’s own table gives 4,200 as the debit of '
-                    'Equipment.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Cost of goods sold?',
-             'o': ['4,200', '9,750', '50', '1,860'],
-             'a': 'D',
-             'why': 'The book’s own table gives 1,860 as the debit of Cost '
-                    'of goods sold.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Wages expense?',
-             'o': ['90', '420', '1,860', '520'],
-             'a': 'D',
-             'why': 'The book’s own table gives 520 as the debit of Wages '
-                    'expense.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Depreciation expense?',
-             'o': ['1,050', '4,200', '24', '300'],
-             'a': 'D',
-             'why': 'The book’s own table gives 300 as the debit of '
-                    'Depreciation expense.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Totals?',
-             'o': ['90', '420', '4,200', '9,750'],
-             'a': 'D',
-             'why': 'The book’s own table gives 9,750 as the debit of '
-                    'Totals.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Accumulated '
-                  'depreciation?',
-             'o': ['900', '9,750', '20', '1,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 900 as the credit of '
-                    'Accumulated depreciation.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Accounts payable?',
-             'o': ['380', '1,000', '900', '600'],
-             'a': 'A',
-             'why': 'The book’s own table gives 380 as the credit of '
-                    'Accounts payable.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Notes payable '
-                  '(long-term)?',
-             'o': ['1,800', '380', '20', '1,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,800 as the credit of Notes '
-                    'payable (long-term).'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Common stock?',
-             'o': ['20', '600', '900', '3,100'],
-             'a': 'B',
-             'why': 'The book’s own table gives 600 as the credit of Common '
-                    'stock.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Additional paid-in '
-                  'capital?',
-             'o': ['50', '1,900', '9,750', '3,100'],
-             'a': 'B',
-             'why': 'The book’s own table gives 1,900 as the credit of '
-                    'Additional paid-in capital.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Retained earnings, '
-                  'January 1?',
-             'o': ['20', '600', '1,900', '1,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 1,000 as the credit of '
-                    'Retained earnings, January 1.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Sales revenue?',
-             'o': ['20', '380', '1,000', '3,100'],
-             'a': 'D',
-             'why': 'The book’s own table gives 3,100 as the credit of Sales '
-                    'revenue.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['A first look at the four statements',
+             'a figure to read · Account',
+             'Which statement reports amounts at a single date?'],
+            ['The words this section uses precisely',
+             'Account · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['Each statement answers a different question for '
+                       'users. Chapters 2 to 5 study each statement in '
+                       'detail. ',
+                       12,
+                       ' flows into ',
+                       19,
+                       ', and the net change in cash explains the cash '
+                       'balance on the ',
+                       15,
+                       '.'],
+             'bank': ['trial balance',
+                      'retained earnings',
+                      'balance sheet',
+                      'cost of goods sold',
+                      'Net income'],
+             'a': 'Net income · retained earnings · balance sheet',
+             'one': True,
+             'why': 'The book writes: “Each statement answers a different '
+                    'question for users. Chapters 2 to 5 study each '
+                    'statement in detail. Net income flows into retained '
+                    'earnings, and the net change in cash explains the cash '
+                    'balance on the balance sheet.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['How the four statements connect through ',
+                       12,
+                       ', ',
+                       19,
+                       ' and cash. You can see both links in the January '
+                       'transactions of Orontes. The ',
+                       11,
+                       ' declared was 50, so retained earnings rose by 30.'],
+             'bank': ['dividend',
+                      'retained earnings',
+                      'cost of goods sold',
+                      'net income',
+                      'trial balance'],
+             'a': 'net income · retained earnings · dividend',
+             'one': True,
+             'why': 'The book writes: “How the four statements connect '
+                    'through net income, retained earnings and cash. You can '
+                    'see both links in the January transactions of Orontes. '
+                    'The dividend declared was 50, so retained earnings rose '
+                    'by 30.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Notice that ',
+                       12,
+                       ' and the change in cash are very different numbers. '
+                       'Before you leave this chapter, practise reading a ',
+                       15,
+                       '. A trial balance lists every account balance and '
+                       'checks that total debits equal total credits.'],
+             'bank': ['net income',
+                      'relevance',
+                      'cost of goods sold',
+                      'trial balance'],
+             'a': 'net income · trial balance',
+             'one': True,
+             'why': 'The book writes: “Notice that net income and the change '
+                    'in cash are very different numbers. Before you leave '
+                    'this chapter, practise reading a trial balance. A trial '
+                    'balance lists every account balance and checks that '
+                    'total debits equal total credits.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['revenue', ''],
+              ['credit', ''],
+              ['relevance', ''],
+              ['loss', ''],
+              ['normal balance', ''],
+              ['allowance for credit losses', ''],
+              ['cash basis', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'A first look at the four statements'),
           ('move',

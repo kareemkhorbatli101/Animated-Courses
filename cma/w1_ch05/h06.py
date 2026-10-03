@@ -30,119 +30,102 @@ HANDOUT = {'id': '5.6',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now. They come from every part of the '
-           'chapter, in no particular order.',
-           [['This handout settles', 'where it is answered'],
-            ['every section of the chapter, shuffled', 'cycle A'],
-            ['the chapter’s own case set', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Under the indirect method, how does Orontes treat the '
-                  '384,000 increase in net accounts receivable?',
-             'o': ['Adds it to net income',
-                   'Shows it in investing activities',
-                   'Subtracts it from net income',
-                   'Ignores it'],
-             'a': 'C',
-             'why': 'Revenue was recorded but not yet collected. A is wrong: '
-                    'An increase in an operating asset is subtracted. B is '
-                    'wrong: Trade receivables are operating.',
-             'src': 'SC5-5'},
-            {'t': 'MCQ',
-             'q': 'A company sells equipment with a carrying amount of '
-                  '$40,000 for $55,000. How is the sale shown under the '
-                  'indirect method?',
-             'o': ['Add $15,000 in operating; show $55,000 in investing',
-                   'Subtract the $15,000 gain in operating; show $55,000 in '
-                   'investing',
-                   'Show $15,000 in investing only',
-                   'Show $55,000 in operating'],
-             'a': 'B',
-             'why': 'The gain is removed from operating; the full proceeds '
-                    'are investing. A is wrong: A gain is subtracted, not '
-                    'added. C is wrong: Investing shows the full proceeds, '
-                    'not the gain.',
-             'src': 'SC5-6'},
-            {'t': 'MCQ',
-             'q': "A company's sales were $500,000, all on credit. Accounts "
-                  'receivable increased by $40,000. How much cash was '
-                  'received from customers?',
-             'o': ['$40,000', '$460,000', '$500,000', '$540,000'],
-             'a': 'B',
-             'why': 'Part of the sales has not yet been collected. A is '
-                    'wrong: This is only the change in receivables. C is '
-                    'wrong: Sales are not all collected in cash.',
-             'src': 'SC5-7'},
-            {'t': 'MCQ',
-             'q': 'A company uses the indirect method. Which amounts must it '
-                  'disclose?',
-             'o': ['Interest paid and income taxes paid',
-                   'Cash received from customers',
-                   'Cash paid to suppliers',
-                   'Gross profit in cash terms'],
-             'a': 'A',
-             'why': 'These are required supplemental disclosures under the '
-                    'indirect method. B is wrong: This is part of the direct '
-                    'method, not a required disclosure. C is wrong: This is '
-                    'part of the direct method.',
-             'src': 'SC5-8'},
-            {'t': 'MCQ',
-             'q': 'How can a company increase its operating cash flow at '
-                  'year-end without improving its business?',
-             'o': ['By recording more depreciation',
-                   'By issuing new shares',
-                   'By revaluing its land',
-                   'By delaying payments to suppliers until January'],
-             'a': 'D',
-             'why': 'Timing of payments shifts operating cash between years. '
-                    'A is wrong: Depreciation is noncash; it does not change '
-                    'cash flow. B is wrong: Share issues are financing '
-                    'inflows.',
-             'src': 'SC5-9'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.1?',
-             'o': ['Purpose and structure of the statement of cash flows',
-                   'The direct method and required disclosures',
-                   'The indirect method',
-                   'Classifying cash flows'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the '
-                    'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'Purpose and structure of the statement of cash flows',
-                   'The indirect method'],
-             'a': 'A',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['Classifying cash flows',
-                   'The indirect method',
-                   'Purpose and structure of the statement of cash flows',
-                   'The direct method and required disclosures'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.4?',
-             'o': ['The indirect method',
-                   'The direct method and required disclosures',
-                   'Purpose and structure of the statement of cash flows',
-                   'Classifying cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The direct method and required '
-                    'disclosures” as section 5.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.5?',
-             'o': ['The indirect method',
-                   'Classifying cash flows',
-                   'Limitations and links between the four statements',
-                   'Purpose and structure of the statement of cash flows'],
-             'a': 'C',
-             'why': 'The book numbers “Limitations and links between the '
-                    'four statements” as section 5.5.'}]),
+           'Three summaries of this chapter, in the book’s own words, with '
+           'words taken out. Read all three first: together they are the '
+           'whole chapter. Then fill the gaps.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The whole chapter, in order',
+             'a figure to read',
+             'Under the indirect method, how does Orontes treat the 384,000 '
+             'increase in net accounts receivable?'],
+            ['The chapter’s case set',
+             'The chapter’s case set, item by item',
+             'What has to be settled before any figure in a case set is '
+             'worked out?'],
+            ['The words it uses precisely',
+             'statement of cash flows · cash equivalents · operating '
+             'activities · investing activities · financing activities · '
+             'indirect method',
+             'matching, at the end of cycle B']],
+           [{'t': 'FILL',
+             'q': 'Where the chapter starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       18,
+                       ' are short-term, highly liquid investments with an '
+                       'original maturity to the holder of three months or '
+                       'less. Moving money between these categories is not a '
+                       'cash flow. Cash flows are grouped into ',
+                       22,
+                       ', ',
+                       22,
+                       ' and ',
+                       22,
+                       '.'],
+             'bank': ['direct method',
+                      'operating activities',
+                      'Cash equivalents',
+                      'investing activities',
+                      'indirect method',
+                      'financing activities'],
+             'a': 'Cash equivalents · operating activities · investing '
+                  'activities · financing activities',
+             'one': True,
+             'why': 'The book writes: “Cash equivalents are short-term, '
+                    'highly liquid investments with an original maturity to '
+                    'the holder of three months or less. Moving money '
+                    'between these categories is not a cash flow. Cash flows '
+                    'are grouped into operating activities, investing '
+                    'activities and financing activities.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Moving money between these categories is not a cash '
+                       'flow. Cash flows are grouped into ',
+                       22,
+                       ', ',
+                       22,
+                       ' and ',
+                       22,
+                       '. Strong operating cash is a good sign, but a reader '
+                       'should also ask where the cash went.'],
+             'bank': ['direct method',
+                      'investing activities',
+                      'cash equivalents',
+                      'financing activities',
+                      'operating activities'],
+             'a': 'operating activities · investing activities · financing '
+                  'activities',
+             'one': True,
+             'why': 'The book writes: “Moving money between these categories '
+                    'is not a cash flow. Cash flows are grouped into '
+                    'operating activities, investing activities and '
+                    'financing activities. Strong operating cash is a good '
+                    'sign, but a reader should also ask where the cash '
+                    'went.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['It is only a proposal; the definition of ',
+                       18,
+                       ' does not change. French tableau de financement is '
+                       'an older funds statement based on working capital, '
+                       'not a ',
+                       25,
+                       '. The IFRS term is tableau des flux de trésorerie.'],
+             'bank': ['operating activities',
+                      'statement of cash flows',
+                      'cash equivalents',
+                      'financing activities'],
+             'a': 'cash equivalents · statement of cash flows',
+             'one': True,
+             'why': 'The book writes: “It is only a proposal; the definition '
+                    'of cash equivalents does not change. French tableau de '
+                    'financement is an older funds statement based on '
+                    'working capital, not a statement of cash flows. The '
+                    'IFRS term is tableau des flux de trésorerie.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),

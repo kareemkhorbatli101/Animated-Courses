@@ -39,121 +39,109 @@ HANDOUT = {'id': '3.6',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now. They come from every part of the '
-           'chapter, in no particular order.',
-           [['This handout settles', 'where it is answered'],
-            ['every section of the chapter, shuffled', 'cycle A'],
-            ['the chapter’s own case set', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': "A company's warehouse is destroyed by an earthquake, "
-                  'which is rare in its area. Under current U.S. GAAP the '
-                  'loss is shown:',
-             'o': ['as a separate line in continuing operations, before tax',
-                   'as an extraordinary item, net of tax',
-                   'in discontinued operations',
-                   'in OCI'],
-             'a': 'A',
-             'why': 'Extraordinary items were removed in 2015; unusual or '
-                    'infrequent items stay in continuing operations. B is '
-                    'wrong: Extraordinary items no longer exist. C is wrong: '
-                    'No component was sold or abandoned.',
-             'src': 'SC3-5'},
-            {'t': 'MCQ',
-             'q': 'Which disposal is MOST likely to be a discontinued '
-                  'operation?',
-             'o': ['A retailer closes one of its 200 stores',
-                   'A food company sells its whole beverages division, one '
-                   'of its three main lines of business',
-                   'A factory sells an old production machine',
-                   'A company stops selling one small product in a large '
-                   'range'],
-             'a': 'B',
-             'why': 'Leaving a major line of business is a strategic shift '
-                    'with a major effect. A is wrong: One store out of many '
-                    'is not a strategic shift. C is wrong: Selling one asset '
-                    'gives a gain or loss, not a discontinued operation.',
-             'src': 'SC3-6'},
-            {'t': 'MCQ',
-             'q': "Use Section 3.4. What is Orontes's comprehensive income "
-                  'for 2025 (whole USD)?',
-             'o': ['2,967,600', '2,967,975', '2,969,100', '2,971,975'],
-             'a': 'B',
-             'why': 'Net income of $2,969,100 minus the OCI loss of $1,125, '
-                    'net of tax. A is wrong: This uses the OCI loss before '
-                    'tax. C is wrong: This is net income only; OCI is '
-                    'missing.',
-             'src': 'SC3-7'},
-            {'t': 'MCQ',
-             'q': 'Under U.S. GAAP, which item is reported in OCI?',
-             'o': ['An unrealized gain on equity securities',
-                   'A revaluation increase on land',
-                   'An unrealized loss on available-for-sale debt securities',
-                   'A gain on the sale of equipment'],
-             'a': 'C',
-             'why': 'AFS debt securities are measured at fair value with '
-                    'changes in OCI. A is wrong: Equity securities changes '
-                    'go to net income. B is wrong: U.S. GAAP does not allow '
-                    'upward revaluation of land.',
-             'src': 'SC3-8'},
-            {'t': 'MCQ',
-             'q': 'Why can two similar companies report different net income '
-                  'for the same activity?',
-             'o': ['The income statement uses current market values',
-                   'Net income equals cash received',
-                   'They may use different estimates and accounting methods',
-                   'U.S. GAAP requires one layout'],
-             'a': 'C',
-             'why': 'Estimates (useful lives) and methods (FIFO or LIFO) '
-                    'reduce comparability. A is wrong: Most amounts are '
-                    'based on historical cost. B is wrong: Net income is an '
-                    'accrual measure, not cash.',
-             'src': 'SC3-9'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.1?',
-             'o': ['Purpose and structure of the income statement',
-                   'Building the multi-step income statement',
-                   'Comprehensive income',
-                   'Unusual items and discontinued operations'],
-             'a': 'A',
-             'why': 'The book numbers “Purpose and structure of the income '
-                    'statement” as section 3.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.2?',
-             'o': ['Comprehensive income',
-                   'Purpose and structure of the income statement',
-                   'Building the multi-step income statement',
-                   'Unusual items and discontinued operations'],
-             'a': 'C',
-             'why': 'The book numbers “Building the multi-step income '
-                    'statement” as section 3.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.3?',
-             'o': ['Purpose and structure of the income statement',
-                   'Comprehensive income',
-                   'Unusual items and discontinued operations',
-                   'Building the multi-step income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Unusual items and discontinued '
-                    'operations” as section 3.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.4?',
-             'o': ['Building the multi-step income statement',
-                   'Comprehensive income',
-                   'Purpose and structure of the income statement',
-                   'Unusual items and discontinued operations'],
-             'a': 'B',
-             'why': 'The book numbers “Comprehensive income” as section '
-                    '3.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.5?',
-             'o': ['Limitations and links to the other statements',
-                   'Building the multi-step income statement',
-                   'Unusual items and discontinued operations',
-                   'Purpose and structure of the income statement'],
-             'a': 'A',
-             'why': 'The book numbers “Limitations and links to the other '
-                    'statements” as section 3.5.'}]),
+           'Three summaries of this chapter, in the book’s own words, with '
+           'words taken out. Read all three first: together they are the '
+           'whole chapter. Then fill the gaps.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The whole chapter, in order',
+             'a figure to read',
+             "A company's warehouse is destroyed by an earthquake, which is "
+             'rare in its area. Under current U.S. GAAP the loss is shown:'],
+            ['The chapter’s case set',
+             'The chapter’s case set, item by item',
+             'What has to be settled before any figure in a case set is '
+             'worked out?'],
+            ['The words it uses precisely',
+             'income statement · multi-step income statement · operating '
+             'income · income from continuing operations · discontinued '
+             'operation · unusual or infrequent item',
+             'matching, at the end of cycle B']],
+           [{'t': 'FILL',
+             'q': 'Where the chapter starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['A ',
+                       29,
+                       ' shows subtotals: gross profit, ',
+                       18,
+                       ' and income before income taxes. A ',
+                       30,
+                       ' adds all revenues and gains, deducts all expenses '
+                       'and losses, and reaches net income in one step.'],
+             'bank': ['operating income',
+                      'comprehensive income',
+                      'multi-step income statement',
+                      'single-step income statement',
+                      'strategic shift'],
+             'a': 'multi-step income statement · operating income · '
+                  'single-step income statement',
+             'one': True,
+             'why': 'The book writes: “A multi-step income statement shows '
+                    'subtotals: gross profit, operating income and income '
+                    'before income taxes. A single-step income statement '
+                    'adds all revenues and gains, deducts all expenses and '
+                    'losses, and reaches net income in one step.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The results of a ',
+                       24,
+                       ', including any gain or loss on disposal, appear '
+                       'below ',
+                       35,
+                       ', net of their own tax. This is called ',
+                       28,
+                       '. Ask the questions in order: OCI first, then '
+                       'discontinued operations, then unusual items, and '
+                       'finally main activities or ',
+                       26,
+                       '. Decision chart: where does an item go in the ',
+                       18,
+                       '?.'],
+             'bank': ['discontinued operation',
+                      'other income and expense',
+                      'income from continuing operations',
+                      'comprehensive income',
+                      'operating income',
+                      'income statement',
+                      'intraperiod tax allocation'],
+             'a': 'discontinued operation · income from continuing '
+                  'operations · intraperiod tax allocation · other income '
+                  'and expense · income statement',
+             'one': True,
+             'why': 'The book writes: “The results of a discontinued '
+                    'operation, including any gain or loss on disposal, '
+                    'appear below income from continuing operations, net of '
+                    'their own tax. This is called intraperiod tax '
+                    'allocation. Ask the questions in order: OCI first, then '
+                    'discontinued operations, then unusual items, and '
+                    'finally main activities or other income and expense. '
+                    'Decision chart: where does an item go in the income '
+                    'statement?.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['OCI builds a balance in equity called accumulated '
+                       'other ',
+                       22,
+                       ' (AOCI). When an item is realized, for example when '
+                       'Orontes sells an AFS security, the gain or loss '
+                       'moves from AOCI into net income. This ',
+                       29,
+                       ' stops the same gain being counted twice.'],
+             'bank': ['reclassification adjustment',
+                      'strategic shift',
+                      'operating income',
+                      'comprehensive income'],
+             'a': 'comprehensive income · reclassification adjustment',
+             'one': True,
+             'why': 'The book writes: “OCI builds a balance in equity called '
+                    'accumulated other comprehensive income (AOCI). When an '
+                    'item is realized, for example when Orontes sells an AFS '
+                    'security, the gain or loss moves from AOCI into net '
+                    'income. This reclassification adjustment stops the same '
+                    'gain being counted twice.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),

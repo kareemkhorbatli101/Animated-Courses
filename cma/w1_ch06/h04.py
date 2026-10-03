@@ -43,111 +43,100 @@ HANDOUT = {'id': '6.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now. They come from every part of the '
-           'chapter, in no particular order.',
-           [['This handout settles', 'where it is answered'],
-            ['every section of the chapter, shuffled', 'cycle A'],
-            ['the chapter’s own case set', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Orontes has delivered the first of two shipments under '
-                  'one contract. It can bill the customer only after the '
-                  'second shipment. What should Orontes record for the first '
-                  'shipment?',
-             'o': ['A contract asset',
-                   'An account receivable',
-                   'Nothing until it can bill',
-                   'Unearned revenue'],
-             'a': 'A',
-             'why': 'Orontes has performed, but its right to payment still '
-                    'depends on the second shipment, not only on time. B is '
-                    'wrong: A receivable needs an unconditional right to '
-                    'payment. C is wrong: Orontes has transferred control of '
-                    'the first shipment, so it records something now.',
-             'src': 'SC6-1'},
-            {'t': 'MCQ',
-             'q': 'A trade receivable is due in 60 days. At what amount is '
-                  'it recorded?',
-             'o': ['Its present value using a market interest rate',
-                   'The invoice amount, with discounts recorded only when '
-                   'taken',
-                   'The transaction price, reduced for expected discounts '
-                   'and returns',
-                   'The invoice amount less expected credit losses, recorded '
-                   'as one net number'],
-             'a': 'C',
-             'why': 'Receivables are recorded at the transaction price; '
-                    'expected discounts and returns are variable '
-                    'consideration. Short-term receivables are not '
-                    'discounted. A is wrong: Receivables due within one year '
-                    'are not discounted. B is wrong: That is the older gross '
-                    'method; expected discounts are variable consideration '
-                    'today.',
-             'src': 'SC6-2'},
-            {'t': 'MCQ',
-             'q': 'The aging shows that the allowance for credit losses '
-                  'should be 20,000. Before adjustment, the allowance has a '
-                  'debit balance of 3,000. What is the credit loss expense?',
-             'o': ['3,000', '17,000', '20,000', '23,000'],
-             'a': 'D',
-             'why': 'The allowance must move from a 3,000 debit to a 20,000 '
-                    'credit, so the expense is 23,000. A is wrong: This is '
-                    'only the existing debit balance. B is wrong: This '
-                    'subtracts a debit balance instead of adding it.',
-             'src': 'SC6-3'},
-            {'t': 'MCQ',
-             'q': 'Under the allowance method, Orontes writes off a '
-                  "customer's balance of 4,000. What is the effect?",
-             'o': ['Net income decreases by 4,000',
-                   'No effect on net income or on net receivables',
-                   'Net receivables decrease by 4,000',
-                   'Total assets decrease by 4,000'],
-             'a': 'B',
-             'why': 'Both accounts receivable and the allowance decrease by '
-                    '4,000, so the net amount is unchanged. The expense was '
-                    'recorded earlier. A is wrong: The expense was recorded '
-                    'when the allowance was set up. C is wrong: Receivables '
-                    'and the allowance fall by the same amount.',
-             'src': 'SC6-4'},
-            {'t': 'MCQ',
-             'q': 'Orontes transfers receivables to a bank but must buy them '
-                  'back before they mature. How should Orontes account for '
-                  'the transfer?',
-             'o': ['As a sale with recourse',
-                   'As a sale without recourse',
-                   'As a contract asset',
-                   'As a secured borrowing'],
-             'a': 'D',
-             'why': 'The repurchase duty means Orontes keeps effective '
-                    'control, so the sale conditions fail. A is wrong: '
-                    'Effective control prevents sale accounting whatever the '
-                    'recourse terms. B is wrong: The transfer fails the '
-                    'effective-control condition.',
-             'src': 'SC6-5'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 6.1?',
-             'o': ['The allowance for credit losses',
-                   'Recognizing and measuring receivables',
-                   'Transferring receivables: sale or secured borrowing?'],
-             'a': 'B',
-             'why': 'The book numbers “Recognizing and measuring '
-                    'receivables” as section 6.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 6.2?',
-             'o': ['Transferring receivables: sale or secured borrowing?',
-                   'Recognizing and measuring receivables',
-                   'The allowance for credit losses'],
-             'a': 'C',
-             'why': 'The book numbers “The allowance for credit losses” as '
-                    'section 6.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 6.3?',
-             'o': ['Recognizing and measuring receivables',
-                   'Transferring receivables: sale or secured borrowing?',
-                   'The allowance for credit losses'],
-             'a': 'B',
-             'why': 'The book numbers “Transferring receivables: sale or '
-                    'secured borrowing?” as section 6.3.'}]),
+           'Three summaries of this chapter, in the book’s own words, with '
+           'words taken out. Read all three first: together they are the '
+           'whole chapter. Then fill the gaps.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The whole chapter, in order',
+             'a figure to read',
+             'Orontes has delivered the first of two shipments under one '
+             'contract. It can bill the customer only after the second '
+             'shipment. What should Orontes record for the first shipment?'],
+            ['The chapter’s case set',
+             'The chapter’s case set, item by item',
+             'What has to be settled before any figure in a case set is '
+             'worked out?'],
+            ['The words it uses precisely',
+             'accounts receivable · allowance for credit losses · current '
+             'expected credit losses (CECL) · aging schedule · credit loss '
+             'expense · write-off',
+             'matching, at the end of cycle B']],
+           [{'t': 'FILL',
+             'q': 'Where the chapter starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['The receivables stay on the balance sheet, marked as '
+                       'pledged. Loss on a sale = carrying amount − (cash + '
+                       'due from ',
+                       11,
+                       ' − ',
+                       20,
+                       '). Effects of one transfer as a sale without '
+                       'recourse, a sale with recourse, or a ',
+                       19,
+                       '.'],
+             'bank': ['factor',
+                      'recourse liability',
+                      'secured borrowing',
+                      'write-off',
+                      'factoring'],
+             'a': 'factor · recourse liability · secured borrowing',
+             'one': True,
+             'why': 'The book writes: “The receivables stay on the balance '
+                    'sheet, marked as pledged. Loss on a sale = carrying '
+                    'amount − (cash + due from factor − recourse liability). '
+                    'Effects of one transfer as a sale without recourse, a '
+                    'sale with recourse, or a secured borrowing.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['',
+                       29,
+                       ' T-account: the expense is the plug that reaches the '
+                       "required balance. When a customer's balance is "
+                       'clearly uncollectible, the company records a ',
+                       11,
+                       ': debit the allowance and credit ',
+                       21,
+                       '.'],
+             'bank': ['factoring',
+                      'accounts receivable',
+                      'Allowance for credit losses',
+                      'pledging',
+                      'write-off'],
+             'a': 'Allowance for credit losses · write-off · accounts '
+                  'receivable',
+             'one': True,
+             'why': 'The book writes: “Allowance for credit losses '
+                    'T-account: the expense is the plug that reaches the '
+                    "required balance. When a customer's balance is clearly "
+                    'uncollectible, the company records a write-off: debit '
+                    'the allowance and credit accounts receivable.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Loss on a sale = carrying amount − (cash + due from ',
+                       11,
+                       ' − ',
+                       20,
+                       '). Effects of one transfer as a sale without '
+                       'recourse, a sale with recourse, or a ',
+                       19,
+                       '. The balance sheet effect is the main reason '
+                       'companies care.'],
+             'bank': ['recourse liability',
+                      'factor',
+                      'factoring',
+                      'write-off',
+                      'secured borrowing'],
+             'a': 'factor · recourse liability · secured borrowing',
+             'one': True,
+             'why': 'The book writes: “Loss on a sale = carrying amount − '
+                    '(cash + due from factor − recourse liability). Effects '
+                    'of one transfer as a sale without recourse, a sale with '
+                    'recourse, or a secured borrowing. The balance sheet '
+                    'effect is the main reason companies care.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),

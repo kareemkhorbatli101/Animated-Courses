@@ -7,7 +7,6 @@ HANDOUT = {'id': '4.4',
  'title': 'Retained earnings',
  'sub': 'section 4.4 of the book',
  'covers': ['sec:4.4',
-            'p:P4-26',
             'sc:SC4-4',
             'sc:SC4-5',
             'p:P4-19',
@@ -27,104 +26,119 @@ HANDOUT = {'id': '4.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Retained earnings', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Under IFRS, how is a stock dividend (bonus issue) of 10% '
-                  'measured?',
-             'o': ['Always at fair value',
-                   'Always at par, like a U.S. large stock dividend',
-                   'IFRS has no small/large rule; practice varies by local '
-                   'law',
-                   'It is recorded as an expense'],
-             'a': 'C',
-             'why': 'The small/large distinction is U.S. GAAP only. A is '
-                    'wrong: IFRS does not require fair value for bonus '
-                    'issues. B is wrong: IFRS has no rule that fixes par.',
-             'src': 'P4-26'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for 2-for-1 stock split?',
-             'o': ['Retained earnings: no change. Total equity: decreases by '
-                   'the cost.',
-                   'Retained earnings: no change. Total equity: no change '
-                   '(no entry is made).',
-                   'Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Retained earnings: no '
-                    'change. Total equity: no change (no entry is made). as '
-                    'the answer of 2-for-1 stock split.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Buy treasury stock?',
-             'o': ['Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.',
-                   'Retained earnings: no change. Total equity: decreases by '
-                   'the cost.',
-                   'Retained earnings: no change. Total equity: no change '
-                   '(no entry is made).'],
-             'a': 'B',
-             'why': 'The book’s own table gives Retained earnings: no '
-                    'change. Total equity: decreases by the cost. as the '
-                    'answer of Buy treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Correct an error that '
-                  'overstated expenses?',
-             'o': ['Retained earnings: no change. Total equity: decreases by '
-                   'the cost.',
-                   'Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.',
-                   'Retained earnings: no change. Total equity: no change '
-                   '(no entry is made).'],
-             'a': 'B',
-             'why': 'The book’s own table gives Retained earnings: opening '
-                    'balance increases, net of tax. Total equity: increases. '
-                    'as the answer of Correct an error that overstated '
-                    'expenses.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of 2-for-1 stock split as '
-                  '“Retained earnings: no change. Total equity: no change '
-                  '(no entry is made).”.',
-             'a': 'T',
-             'why': 'The book pairs 2-for-1 stock split with “Retained '
-                    'earnings: no change. Total equity: no change (no entry '
-                    'is made).”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Buy treasury stock as '
-                  '“Retained earnings: opening balance increases, net of '
-                  'tax. Total equity: increases.”.',
-             'a': 'F',
-             'why': 'The book pairs Buy treasury stock with “Retained '
-                    'earnings: no change. Total equity: decreases by the '
-                    'cost.”, not with “Retained earnings: opening balance '
-                    'increases, net of tax. Total equity: increases.”.'},
-            {'t': 'MCQ',
-             'q': 'What is the main purpose of the statement of changes in '
-                  'equity?',
-             'o': ["To show the market value of the company's shares",
-                   'To show cash received from owners only',
-                   'To explain why each part of equity changed during the '
-                   'period',
-                   'To report revenues and expenses'],
-             'a': 'C',
-             'why': 'It reconciles the opening and closing balance of each '
-                    'equity account. A is wrong: Equity is a book amount, '
-                    'not a market value. B is wrong: It includes noncash '
-                    'changes such as net income and stock dividends.',
-             'src': 'SC4-1'},
-            {'t': 'MCQ',
-             'q': 'Orontes issues 100,000 shares of $1 par common stock for '
-                  '$1,500,000 in cash. What is credited to additional '
-                  'paid-in capital (whole USD)?',
-             'o': ['0', '100,000', '1,400,000', '1,500,000'],
-             'a': 'C',
-             'why': 'Cash minus par value: $1,500,000 − $100,000. A is '
-                    'wrong: Shares sold above par create APIC. B is wrong: '
-                    'This is the par value, which goes to common stock.',
-             'src': 'SC4-3'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Retained earnings',
+             'a figure to read · Item',
+             'What is the main purpose of the statement of changes in '
+             'equity?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['These ',
+                       32,
+                       ' stay within equity; no costs are ever charged to '
+                       'them. If a company finds an error in earlier '
+                       'financial statements, it does not correct it through '
+                       "this year's net income. It makes a ",
+                       25,
+                       ': it restates the earlier years and adjusts the '
+                       'opening balance of retained earnings, net of tax.'],
+             'bank': ['treasury stock',
+                      'prior-period adjustment',
+                      'appropriated retained earnings',
+                      'date of record'],
+             'a': 'appropriated retained earnings · prior-period adjustment',
+             'one': True,
+             'why': 'The book writes: “These appropriated retained earnings '
+                    'stay within equity; no costs are ever charged to them. '
+                    'If a company finds an error in earlier financial '
+                    "statements, it does not correct it through this year's "
+                    'net income. It makes a prior-period adjustment: it '
+                    'restates the earlier years and adjusts the opening '
+                    'balance of retained earnings, net of tax.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['These ',
+                       32,
+                       ' stay within equity; no costs are ever charged to '
+                       'them. If a company finds an error in earlier '
+                       'financial statements, it does not correct it through '
+                       "this year's net income. It makes a ",
+                       25,
+                       ': it restates the earlier years and adjusts the '
+                       'opening balance of retained earnings, net of tax. '
+                       'Retained earnings may also be restricted by law or '
+                       'by loan covenants.'],
+             'bank': ['date of record',
+                      'appropriated retained earnings',
+                      'prior-period adjustment',
+                      'treasury stock'],
+             'a': 'appropriated retained earnings · prior-period adjustment',
+             'one': True,
+             'why': 'The book writes: “These appropriated retained earnings '
+                    'stay within equity; no costs are ever charged to them. '
+                    'If a company finds an error in earlier financial '
+                    "statements, it does not correct it through this year's "
+                    'net income. It makes a prior-period adjustment: it '
+                    'restates the earlier years and adjusts the opening '
+                    'balance of retained earnings, net of tax. Retained '
+                    'earnings may also be restricted by law or by loan '
+                    'covenants.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A board may set part of retained earnings aside, for '
+                       'example for a new plant. These ',
+                       32,
+                       ' stay within equity; no costs are ever charged to '
+                       'them. If a company finds an error in earlier '
+                       'financial statements, it does not correct it through '
+                       "this year's net income. It makes a ",
+                       25,
+                       ': it restates the earlier years and adjusts the '
+                       'opening balance of retained earnings, net of tax.'],
+             'bank': ['prior-period adjustment',
+                      'appropriated retained earnings',
+                      'treasury stock',
+                      'date of record'],
+             'a': 'appropriated retained earnings · prior-period adjustment',
+             'one': True,
+             'why': 'The book writes: “A board may set part of retained '
+                    'earnings aside, for example for a new plant. These '
+                    'appropriated retained earnings stay within equity; no '
+                    'costs are ever charged to them. If a company finds an '
+                    'error in earlier financial statements, it does not '
+                    "correct it through this year's net income. It makes a "
+                    'prior-period adjustment: it restates the earlier years '
+                    'and adjusts the opening balance of retained earnings, '
+                    'net of tax.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['treasury stock', ''],
+              ['preferred stock', ''],
+              ['property dividend', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Retained earnings'),
           ('move',

@@ -7,8 +7,6 @@ HANDOUT = {'id': '2.2',
  'title': 'Current and noncurrent items',
  'sub': 'section 2.2 of the book',
  'covers': ['sec:2.2',
-            'p:P2-14',
-            'p:P2-15',
             'sc:SC2-3',
             'sc:SC2-4',
             'p:P2-07',
@@ -29,181 +27,125 @@ HANDOUT = {'id': '2.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Current and noncurrent items', 'cycle A'],
-            ['Item and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A loss from a lawsuit is probable. Lawyers estimate it at '
-                  'between $40,000 and $100,000, with no amount more likely '
-                  'than another. Under U.S. GAAP the company accrues:',
-             'o': ['$70,000',
-                   '$100,000',
-                   'nothing, and discloses the range',
-                   '$40,000 and discloses the possible additional loss'],
-             'a': 'D',
-             'why': 'With no best estimate in the range, U.S. GAAP accrues '
-                    'the minimum. A is wrong: The midpoint is the IFRS '
-                    'approach. B is wrong: The maximum is not required.',
-             'src': 'P2-14'},
-            {'t': 'MCQ',
-             'q': 'On January 20, before the statements are issued, a '
-                  'customer that owed $80,000 at December 31 goes bankrupt. '
-                  'Its finances had been getting worse for months. What does '
-                  'the company do?',
-             'o': ['Adjusts the year-end allowance for credit losses',
-                   'Discloses the event only',
-                   'Records the loss next year',
-                   'Does nothing'],
-             'a': 'A',
-             'why': "The condition, the customer's weak finances, existed at "
-                    'year-end, so it is a recognized event. B is wrong: '
-                    'Disclosure only is for conditions that arose after '
-                    'year-end. C is wrong: The loss belongs to the year in '
-                    'which the condition existed.',
-             'src': 'P2-15'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Cash set '
-                  'aside in a sinking fund to repay bonds in 2029?',
-             'o': ['________', 'Noncurrent asset', 'Current asset'],
-             'a': 'B',
-             'why': 'The book’s own table gives Noncurrent asset as the '
-                    'classification of Cash set aside in a sinking fund to '
-                    'repay bonds in 2029.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Date vinegar '
-                  'that Orontes ages for 18 months before sale?',
-             'o': ['Noncurrent asset', '________', 'Current asset'],
-             'a': 'C',
-             'why': 'The book’s own table gives Current asset as the '
-                    'classification of Date vinegar that Orontes ages for 18 '
-                    'months before sale.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Cash '
-                  'surrender value of an executive life insurance policy?',
-             'o': ['________', 'Current asset', 'Noncurrent asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Cash surrender value of an executive '
-                    'life insurance policy.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Bank loan due '
-                  'on demand; the bank has never asked for repayment?',
-             'o': ['________', 'Noncurrent asset', 'Current asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Bank loan due on demand; the bank has '
-                    'never asked for repayment.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Deferred tax '
-                  'asset from warranty costs expected to reverse next year?',
-             'o': ['________', 'Current asset', 'Noncurrent asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Deferred tax asset from warranty '
-                    'costs expected to reverse next year.'},
-            {'t': 'MCQ',
-             'q': 'Which classification does the book give for Customer '
-                  'deposits for orders to be delivered next month?',
-             'o': ['________', 'Current asset', 'Noncurrent asset'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the '
-                    'classification of Customer deposits for orders to be '
-                    'delivered next month.'},
-            {'t': 'MCQ',
-             'q': 'Which reason does the book give for Cash set aside in a '
-                  'sinking fund to repay bonds in 2029?',
-             'o': ['Restricted for a noncurrent purpose',
-                   'The operating cycle is longer than one year, so the '
-                   'cycle applies',
-                   '________'],
-             'a': 'A',
-             'why': 'The book’s own table gives Restricted for a noncurrent '
-                    'purpose as the reason of Cash set aside in a sinking '
-                    'fund to repay bonds in 2029.'},
-            {'t': 'MCQ',
-             'q': 'Which reason does the book give for Date vinegar that '
-                  'Orontes ages for 18 months before sale?',
-             'o': ['The operating cycle is longer than one year, so the '
-                   'cycle applies',
-                   '________',
-                   'Restricted for a noncurrent purpose'],
-             'a': 'A',
-             'why': 'The book’s own table gives The operating cycle is '
-                    'longer than one year, so the cycle applies as the '
-                    'reason of Date vinegar that Orontes ages for 18 months '
-                    'before sale.'},
-            {'t': 'MCQ',
-             'q': 'Which reason does the book give for Cash surrender value '
-                  'of an executive life insurance policy?',
-             'o': ['________',
-                   'The operating cycle is longer than one year, so the '
-                   'cycle applies',
-                   'Restricted for a noncurrent purpose'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the reason of '
-                    'Cash surrender value of an executive life insurance '
-                    'policy.'},
-            {'t': 'MCQ',
-             'q': 'Which reason does the book give for Bank loan due on '
-                  'demand; the bank has never asked for repayment?',
-             'o': ['________',
-                   'Restricted for a noncurrent purpose',
-                   'The operating cycle is longer than one year, so the '
-                   'cycle applies'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the reason of '
-                    'Bank loan due on demand; the bank has never asked for '
-                    'repayment.'},
-            {'t': 'MCQ',
-             'q': 'Which reason does the book give for Deferred tax asset '
-                  'from warranty costs expected to reverse next year?',
-             'o': ['________',
-                   'Restricted for a noncurrent purpose',
-                   'The operating cycle is longer than one year, so the '
-                   'cycle applies'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the reason of '
-                    'Deferred tax asset from warranty costs expected to '
-                    'reverse next year.'},
-            {'t': 'MCQ',
-             'q': 'Which reason does the book give for Customer deposits for '
-                  'orders to be delivered next month?',
-             'o': ['Restricted for a noncurrent purpose',
-                   'The operating cycle is longer than one year, so the '
-                   'cycle applies',
-                   '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the reason of '
-                    'Customer deposits for orders to be delivered next '
-                    'month.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Noncurrent asset: it '
-                  'is not expected to be turned into cash in the operating '
-                  'cycle.”?',
-             'o': ['Cash surrender value',
-                   'Deferred tax asset',
-                   'Loan due on demand',
-                   'Customer deposits'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Cash surrender value with '
-                    '“Noncurrent asset: it is not expected to be turned into '
-                    'cash in the operating cycle.”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Current liability: '
-                  "debt due on demand is current, whatever the bank's "
-                  'expected behaviour.”?',
-             'o': ['Customer deposits',
-                   'Deferred tax asset',
-                   'Loan due on demand',
-                   'Cash surrender value'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Loan due on demand with '
-                    '“Current liability: debt due on demand is current, '
-                    "whatever the bank's expected behaviour.”."}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Current and noncurrent items',
+             'a figure to read · Item · the book’s own rule, gapped',
+             'A lender wants to know if Orontes can pay the bills that fall '
+             'due in the next few months. Which quality is the lender '
+             'assessing?'],
+            ['The words this section uses precisely',
+             'Item · The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['The ',
+                       17,
+                       ' is the average time from buying materials to '
+                       'collecting cash from customers. ',
+                       21,
+                       ' are obligations the company expects to settle by '
+                       'using ',
+                       16,
+                       ' or by creating other current liabilities.'],
+             'bank': ['Current liabilities',
+                      'current assets',
+                      'operating cycle',
+                      'grace period',
+                      'solvency'],
+             'a': 'operating cycle · Current liabilities · current assets',
+             'one': True,
+             'why': 'The book writes: “The operating cycle is the average '
+                    'time from buying materials to collecting cash from '
+                    'customers. Current liabilities are obligations the '
+                    'company expects to settle by using current assets or by '
+                    'creating other current liabilities.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['On the liability side, ',
+                       35,
+                       ' is current, because that part of the principal is '
+                       'due within a year. Two measures come directly from '
+                       'these totals. ',
+                       17,
+                       ' is ',
+                       16,
+                       ' minus ',
+                       21,
+                       '. The ',
+                       15,
+                       ' is current assets divided by current liabilities.'],
+             'bank': ['current ratio',
+                      'solvency',
+                      'current assets',
+                      'current liabilities',
+                      'current portion of long-term debt',
+                      'grace period',
+                      'Working capital'],
+             'a': 'current portion of long-term debt · Working capital · '
+                  'current assets · current liabilities · current ratio',
+             'one': True,
+             'why': 'The book writes: “On the liability side, current '
+                    'portion of long-term debt is current, because that part '
+                    'of the principal is due within a year. Two measures '
+                    'come directly from these totals. Working capital is '
+                    'current assets minus current liabilities. The current '
+                    'ratio is current assets divided by current '
+                    'liabilities.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Paying a supplier in cash reduces ',
+                       16,
+                       ' and ',
+                       21,
+                       ' by the same amount: ',
+                       17,
+                       ' does not change, but the ',
+                       15,
+                       ' changes. Reclassifying debt from current to '
+                       'noncurrent increases working capital and the current '
+                       'ratio.'],
+             'bank': ['solvency',
+                      'working capital',
+                      'current assets',
+                      'current ratio',
+                      'grace period',
+                      'current liabilities'],
+             'a': 'current assets · current liabilities · working capital · '
+                  'current ratio',
+             'one': True,
+             'why': 'The book writes: “Paying a supplier in cash reduces '
+                    'current assets and current liabilities by the same '
+                    'amount: working capital does not change, but the '
+                    'current ratio changes. Reclassifying debt from current '
+                    'to noncurrent increases working capital and the current '
+                    'ratio.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['classified balance sheet', ''],
+              ['current portion of long-term debt', ''],
+              ['solvency', ''],
+              ['waiver', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Current and noncurrent items'),
           ('move',
@@ -296,6 +238,41 @@ HANDOUT = {'id': '2.2',
                     'months before sale with “The operating cycle is longer '
                     'than one year, so the cycle applies”, not with '
                     '“________”.'}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['Paying a supplier in cash reduces ',
+             16,
+             ' and ',
+             21,
+             ' by the same amount: ',
+             17,
+             ' does not change, but the current ratio changes.']],
+           ['working capital',
+            'grace period',
+            'current assets',
+            'current liabilities',
+            'classified balance sheet'],
+           'Paying a supplier in cash reduces current assets and current '
+           'liabilities by the same amount: working capital does not change, '
+           'but the current ratio changes.',
+           'current assets · current liabilities · working capital'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Cash set aside in a sinking fund to repay bonds in 2029',
+             ['Classification: Noncurrent asset']),
+            ('Cash surrender value of an executive life insurance policy',
+             ['Classification: ________'])],
+           'Only the facts above differ. What is the reason of Cash set '
+           'aside in a sinking fund to repay bonds in 2029?',
+           ['Restricted for a noncurrent purpose',
+            '________',
+            'both of them',
+            'neither of them'],
+           'A',
+           'The book gives Restricted for a noncurrent purpose as the reason '
+           'of Cash set aside in a sinking fund to repay bonds in 2029.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

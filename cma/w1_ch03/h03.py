@@ -7,7 +7,6 @@ HANDOUT = {'id': '3.3',
  'title': 'Unusual items and discontinued operations',
  'sub': 'section 3.3 of the book',
  'covers': ['sec:3.3',
-            'p:P3-20',
             'sc:SC3-3',
             'sc:SC3-4',
             'p:P3-13',
@@ -27,114 +26,138 @@ HANDOUT = {'id': '3.3',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Unusual items and discontinued operations', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'An IFRS company revalues its land upward. How is the '
-                  'increase reported?',
-             'o': ['As a gain in profit or loss',
-                   'In OCI, reclassified to profit when the land is sold',
-                   'In OCI as a revaluation surplus, never reclassified to '
-                   'profit',
-                   'It is not recognized under IFRS'],
-             'a': 'C',
-             'why': 'IAS 16 revaluation increases go to OCI and are not '
-                    'recycled. A is wrong: Revaluation increases go to OCI, '
-                    'unless they reverse an earlier loss. B is wrong: '
-                    'Revaluation surplus is never recycled under IFRS.',
-             'src': 'P3-20'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss from '
-                  'operations of the frozen-foods business?',
-             'o': ['(600,000)', '(180,000)', '(420,000)'],
-             'a': 'C',
-             'why': 'The book’s own table gives (420,000) as the before tax '
-                    'of Loss from operations of the frozen-foods business.'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss on disposal '
-                  'of the business?',
-             'o': ['(420,000)', '(180,000)', '(600,000)'],
-             'a': 'B',
-             'why': 'The book’s own table gives (180,000) as the before tax '
-                    'of Loss on disposal of the business.'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss from '
-                  'discontinued operations?',
-             'o': ['(600,000)', '(420,000)', '(180,000)'],
-             'a': 'A',
-             'why': 'The book’s own table gives (600,000) as the before tax '
-                    'of Loss from discontinued operations.'},
-            {'t': 'MCQ',
-             'q': 'Which tax benefit does the book give for Loss from '
-                  'operations of the frozen-foods business?',
-             'o': ['45,000', '105,000', '150,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 105,000 as the tax benefit '
-                    'of Loss from operations of the frozen-foods business.'},
-            {'t': 'MCQ',
-             'q': 'Which tax benefit does the book give for Loss on disposal '
-                  'of the business?',
-             'o': ['45,000', '105,000', '150,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 45,000 as the tax benefit of '
-                    'Loss on disposal of the business.'},
-            {'t': 'MCQ',
-             'q': 'Which tax benefit does the book give for Loss from '
-                  'discontinued operations?',
-             'o': ['45,000', '105,000', '150,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 150,000 as the tax benefit '
-                    'of Loss from discontinued operations.'},
-            {'t': 'MCQ',
-             'q': 'Which net of tax does the book give for Loss from '
-                  'operations of the frozen-foods business?',
-             'o': ['(315,000)', '(450,000)', '(135,000)'],
-             'a': 'A',
-             'why': 'The book’s own table gives (315,000) as the net of tax '
-                    'of Loss from operations of the frozen-foods business.'},
-            {'t': 'MCQ',
-             'q': 'Which net of tax does the book give for Loss on disposal '
-                  'of the business?',
-             'o': ['(135,000)', '(450,000)', '(315,000)'],
-             'a': 'A',
-             'why': 'The book’s own table gives (135,000) as the net of tax '
-                    'of Loss on disposal of the business.'},
-            {'t': 'MCQ',
-             'q': 'Which net of tax does the book give for Loss from '
-                  'discontinued operations?',
-             'o': ['(315,000)', '(450,000)', '(135,000)'],
-             'a': 'B',
-             'why': 'The book’s own table gives (450,000) as the net of tax '
-                    'of Loss from discontinued operations.'},
-            {'t': 'MCQ',
-             'q': "Which statement reports a company's performance over a "
-                  'period of time?',
-             'o': ['The balance sheet',
-                   'The income statement',
-                   'The notes on accounting policies',
-                   'The statement of financial position'],
-             'a': 'B',
-             'why': 'The income statement covers a period; the balance sheet '
-                    'is at one date. A is wrong: The balance sheet shows one '
-                    'date, not a period. C is wrong: The notes explain the '
-                    'statements; they do not report performance.',
-             'src': 'SC3-1'},
-            {'t': 'MCQ',
-             'q': 'A company changes from a multi-step to a single-step '
-                  'income statement. What happens to net income?',
-             'o': ['It does not change',
-                   'It increases, because gains are added to revenues',
-                   'It decreases, because tax is deducted twice',
-                   'It cannot be determined without the balance sheet'],
-             'a': 'A',
-             'why': 'Only the grouping changes; the same items are included. '
-                    'B is wrong: Gains are included in both layouts. C is '
-                    'wrong: Tax is deducted once in both layouts.',
-             'src': 'SC3-2'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Unusual items and discontinued operations',
+             'a figure to read · Suppose: Orontes, 2026 (whole USD) · the '
+             'book’s own rule, gapped',
+             "Which statement reports a company's performance over a period "
+             'of time?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['An ',
+                       28,
+                       ', such as a large fire loss, is shown as a separate '
+                       'line within continuing operations, before tax. A ',
+                       24,
+                       ' is a ',
+                       24,
+                       ' that the company has sold, has classified as held '
+                       'for sale, or has abandoned. The disposal must also '
+                       'be a ',
+                       17,
+                       ' with a major effect on the company.'],
+             'bank': ['strategic shift',
+                      'function of expense',
+                      'component of an entity',
+                      'discontinued operation',
+                      'other income and expense',
+                      'unusual or infrequent item'],
+             'a': 'unusual or infrequent item · discontinued operation · '
+                  'component of an entity · strategic shift',
+             'one': True,
+             'why': 'The book writes: “An unusual or infrequent item, such '
+                    'as a large fire loss, is shown as a separate line '
+                    'within continuing operations, before tax. A '
+                    'discontinued operation is a component of an entity that '
+                    'the company has sold, has classified as held for sale, '
+                    'or has abandoned. The disposal must also be a strategic '
+                    'shift with a major effect on the company.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The results of a ',
+                       24,
+                       ', including any gain or loss on disposal, appear '
+                       'below ',
+                       35,
+                       ', net of their own tax. This is called ',
+                       28,
+                       '. Ask the questions in order: OCI first, then '
+                       'discontinued operations, then unusual items, and '
+                       'finally main activities or ',
+                       26,
+                       '. Decision chart: where does an item go in the ',
+                       18,
+                       '?.'],
+             'bank': ['income from continuing operations',
+                      'other income and expense',
+                      'discontinued operation',
+                      'intraperiod tax allocation',
+                      'income statement',
+                      'strategic shift',
+                      'component of an entity'],
+             'a': 'discontinued operation · income from continuing '
+                  'operations · intraperiod tax allocation · other income '
+                  'and expense · income statement',
+             'one': True,
+             'why': 'The book writes: “The results of a discontinued '
+                    'operation, including any gain or loss on disposal, '
+                    'appear below income from continuing operations, net of '
+                    'their own tax. This is called intraperiod tax '
+                    'allocation. Ask the questions in order: OCI first, then '
+                    'discontinued operations, then unusual items, and '
+                    'finally main activities or other income and expense. '
+                    'Decision chart: where does an item go in the income '
+                    'statement?.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['The results of a ',
+                       24,
+                       ', including any gain or loss on disposal, appear '
+                       'below ',
+                       35,
+                       ', net of their own tax. This is called ',
+                       28,
+                       '. Ask the questions in order: OCI first, then '
+                       'discontinued operations, then unusual items, and '
+                       'finally main activities or ',
+                       26,
+                       '.'],
+             'bank': ['component of an entity',
+                      'other income and expense',
+                      'income from continuing operations',
+                      'discontinued operation',
+                      'intraperiod tax allocation',
+                      'strategic shift'],
+             'a': 'discontinued operation · income from continuing '
+                  'operations · intraperiod tax allocation · other income '
+                  'and expense',
+             'one': True,
+             'why': 'The book writes: “The results of a discontinued '
+                    'operation, including any gain or loss on disposal, '
+                    'appear below income from continuing operations, net of '
+                    'their own tax. This is called intraperiod tax '
+                    'allocation. Ask the questions in order: OCI first, then '
+                    'discontinued operations, then unusual items, and '
+                    'finally main activities or other income and expense.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['operating income', ''],
+              ['accumulated other comprehensive income (AOCI)', ''],
+              ['component of an entity', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Unusual items and discontinued operations'),
           ('move',
@@ -193,6 +216,36 @@ HANDOUT = {'id': '3.3',
              'a': 'C',
              'why': 'The book’s own table gives (600,000) as the before tax '
                     'of Loss from discontinued operations.'}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['A ',
+             24,
+             ' is a ',
+             24,
+             ' that the company has sold, has classified as held for sale, '
+             'or has abandoned.']],
+           ['other income and expense',
+            'component of an entity',
+            'strategic shift',
+            'discontinued operation'],
+           'A discontinued operation is a component of an entity that the '
+           'company has sold, has classified as held for sale, or has '
+           'abandoned.',
+           'discontinued operation · component of an entity'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Loss from operations of the frozen-foods business',
+             ['Before tax: (420,000)', 'Tax benefit: 105,000']),
+            ('Loss on disposal of the business',
+             ['Before tax: (180,000)', 'Tax benefit: 45,000'])],
+           'Only the facts above differ. What is the net of tax of Loss from '
+           'operations of the frozen-foods business?',
+           ['(315,000)', '(135,000)', '(450,000)'],
+           'A',
+           'The book gives (315,000) as the net of tax of Loss from '
+           'operations of the frozen-foods business.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

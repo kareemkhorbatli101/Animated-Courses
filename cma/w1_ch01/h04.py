@@ -3,7 +3,7 @@
 
 HANDOUT = {'id': '1.4',
  'n': 4,
- 'pages': 5,
+ 'pages': 6,
  'title': 'The accrual basis and the matching principle',
  'sub': 'section 1.4 of the book',
  'covers': ['sec:1.4',
@@ -24,161 +24,125 @@ HANDOUT = {'id': '1.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['The accrual basis and the matching principle', 'cycle A'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'Which what happens does the book give for Prepaid expense '
-                  '(deferral)?',
-             'o': ['Cash is received before the revenue is earned.',
-                   'Cash is paid before the expense is incurred.',
-                   'Revenue is earned before cash is received or billed.',
-                   'The expense is incurred before cash is paid.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Cash is paid before the '
-                    'expense is incurred. as the what happens of Prepaid '
-                    'expense (deferral).'},
-            {'t': 'MCQ',
-             'q': 'Which what happens does the book give for Contract '
-                  'liability, or unearned revenue (deferral)?',
-             'o': ['Cash is paid before the expense is incurred.',
-                   'The expense is incurred before cash is paid.',
-                   'Cash is received before the revenue is earned.',
-                   'Revenue is earned before cash is received or billed.'],
-             'a': 'C',
-             'why': 'The book’s own table gives Cash is received before the '
-                    'revenue is earned. as the what happens of Contract '
-                    'liability, or unearned revenue (deferral).'},
-            {'t': 'MCQ',
-             'q': 'Which what happens does the book give for Accrued '
-                  'expense?',
-             'o': ['Revenue is earned before cash is received or billed.',
-                   'Cash is received before the revenue is earned.',
-                   'The expense is incurred before cash is paid.',
-                   'Cash is paid before the expense is incurred.'],
-             'a': 'C',
-             'why': 'The book’s own table gives The expense is incurred '
-                    'before cash is paid. as the what happens of Accrued '
-                    'expense.'},
-            {'t': 'MCQ',
-             'q': 'Which what happens does the book give for Accrued '
-                  'revenue?',
-             'o': ['Cash is paid before the expense is incurred.',
-                   'The expense is incurred before cash is paid.',
-                   'Cash is received before the revenue is earned.',
-                   'Revenue is earned before cash is received or billed.'],
-             'a': 'D',
-             'why': 'The book’s own table gives Revenue is earned before '
-                    'cash is received or billed. as the what happens of '
-                    'Accrued revenue.'},
-            {'t': 'MCQ',
-             'q': 'Which orontes example does the book give for Prepaid '
-                  'expense (deferral)?',
-             'o': ['Hotel pays in advance (February, row 4)',
-                   'Studied in Chapter 11',
-                   'Interest owed on the bank note (February, row 6)',
-                   'Rent paid in advance (February, row 3)'],
-             'a': 'D',
-             'why': 'The book’s own table gives Rent paid in advance '
-                    '(February, row 3) as the orontes example of Prepaid '
-                    'expense (deferral).'},
-            {'t': 'MCQ',
-             'q': 'Which orontes example does the book give for Contract '
-                  'liability, or unearned revenue (deferral)?',
-             'o': ['Rent paid in advance (February, row 3)',
-                   'Interest owed on the bank note (February, row 6)',
-                   'Studied in Chapter 11',
-                   'Hotel pays in advance (February, row 4)'],
-             'a': 'D',
-             'why': 'The book’s own table gives Hotel pays in advance '
-                    '(February, row 4) as the orontes example of Contract '
-                    'liability, or unearned revenue (deferral).'},
-            {'t': 'MCQ',
-             'q': 'Which orontes example does the book give for Accrued '
-                  'expense?',
-             'o': ['Hotel pays in advance (February, row 4)',
-                   'Studied in Chapter 11',
-                   'Interest owed on the bank note (February, row 6)',
-                   'Rent paid in advance (February, row 3)'],
-             'a': 'C',
-             'why': 'The book’s own table gives Interest owed on the bank '
-                    'note (February, row 6) as the orontes example of '
-                    'Accrued expense.'},
-            {'t': 'MCQ',
-             'q': 'Which orontes example does the book give for Accrued '
-                  'revenue?',
-             'o': ['Studied in Chapter 11',
-                   'Rent paid in advance (February, row 3)',
-                   'Hotel pays in advance (February, row 4)',
-                   'Interest owed on the bank note (February, row 6)'],
-             'a': 'A',
-             'why': 'The book’s own table gives Studied in Chapter 11 as the '
-                    'orontes example of Accrued revenue.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “an asset”?',
-             'o': ['Prepaid expense (deferral)',
-                   'Accrued expense',
-                   'Contract liability, or unearned revenue (deferral)'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Prepaid expense (deferral) '
-                    'with “an asset”.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book pair with “a liability”?',
-             'o': ['Contract liability, or unearned revenue (deferral)',
-                   'Accrued revenue',
-                   'Prepaid expense (deferral)'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Contract liability, or '
-                    'unearned revenue (deferral) with “a liability”.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Prepaid expense (deferral) '
-                  'as “an asset”.',
-             'a': 'T',
-             'why': 'The book pairs Prepaid expense (deferral) with “an '
-                    'asset”.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Contract liability, or '
-                  'unearned revenue (deferral) as “an asset”.',
-             'a': 'F',
-             'why': 'The book pairs Contract liability, or unearned revenue '
-                    '(deferral) with “a liability”, not with “an asset”.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Accrued expense as “a '
-                  'liability”.',
-             'a': 'T',
-             'why': 'The book pairs Accrued expense with “a liability”.'},
-            {'t': 'MCQ',
-             'q': 'On December 28, a customer pays Orontes 60 for goods that '
-                  'Orontes will deliver in January. What does Orontes report '
-                  'at December 31?',
-             'o': ['A liability of 60',
-                   'Revenue of 60',
-                   'An asset of 60 and revenue of 60',
-                   'Nothing until the goods are delivered'],
-             'a': 'A',
-             'why': 'Cash increases, and Orontes owes the customer the '
-                    'goods. This is a contract liability (unearned revenue). '
-                    'B is wrong: Revenue is not earned until the goods are '
-                    'delivered in January. C is wrong: The cash asset is '
-                    'correct, but the credit is a liability, not revenue.',
-             'src': 'SC4-1'},
-            {'t': 'MCQ',
-             'q': 'Which cost is matched to revenue by cause and effect?',
-             'o': ['Depreciation of the Amman bottling line',
-                   'Advertising for a new product',
-                   'Cost of goods sold',
-                   'Rent for the head office'],
-             'a': 'C',
-             'why': 'Cost of goods sold links directly to each sale, so it '
-                    'is recorded with the sales revenue. A is wrong: '
-                    'Depreciation uses systematic and rational allocation '
-                    'over the years of use. B is wrong: Advertising has no '
-                    'clear link to specific revenue, so it is recognized '
-                    'immediately.',
-             'src': 'SC4-2'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['The accrual basis and the matching principle',
+             'a figure to read · Type · the book’s own rule, gapped',
+             'On December 28, a customer pays Orontes 60 for goods that '
+             'Orontes will deliver in January. What does Orontes report at '
+             'December 31?'],
+            ['The words this section uses precisely',
+             'The English the exam uses, and what it translates',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['When should a company record ',
+                       11,
+                       's and expenses? ',
+                       11,
+                       ' ',
+                       22,
+                       ' use the ',
+                       15,
+                       '. Under the accrual basis, a company records revenue '
+                       'when it earns it, that is, when it delivers the '
+                       'goods or services. It records expenses when it '
+                       'incurs them.'],
+             'bank': ['U.S. GAAP',
+                      'faithful representation',
+                      'accrual basis',
+                      'contra account',
+                      'revenue',
+                      'financial statements'],
+             'a': 'revenue · U.S. GAAP · financial statements · accrual '
+                  'basis',
+             'one': True,
+             'why': 'The book writes: “When should a company record revenues '
+                    'and expenses? U.S. GAAP financial statements use the '
+                    'accrual basis. Under the accrual basis, a company '
+                    'records revenue when it earns it, that is, when it '
+                    'delivers the goods or services. It records expenses '
+                    'when it incurs them.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The ',
+                       20,
+                       ' says: record expenses in the same period as the ',
+                       11,
+                       's they help to produce. ',
+                       20,
+                       ' is the classic example: Orontes records it at the '
+                       'same time as the sales revenue. Some costs help many '
+                       'periods, such as a bottling line.'],
+             'bank': ['Cost of goods sold',
+                      'matching principle',
+                      'revenue',
+                      'faithful representation',
+                      'contra account'],
+             'a': 'matching principle · revenue · Cost of goods sold',
+             'one': True,
+             'why': 'The book writes: “The matching principle says: record '
+                    'expenses in the same period as the revenues they help '
+                    'to produce. Cost of goods sold is the classic example: '
+                    'Orontes records it at the same time as the sales '
+                    'revenue. Some costs help many periods, such as a '
+                    'bottling line.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A ',
+                       17,
+                       ' is an ',
+                       11,
+                       ': the company has paid for a future benefit. A '
+                       'contract ',
+                       11,
+                       ' (unearned ',
+                       11,
+                       ') is a liability: the company must still deliver the '
+                       'goods or services. Cash received in advance is a '
+                       'liability, not revenue.'],
+             'bank': ['prepaid expense',
+                      'asset',
+                      'contra account',
+                      'revenue',
+                      'faithful representation',
+                      'liability'],
+             'a': 'prepaid expense · asset · liability · revenue',
+             'one': True,
+             'why': 'The book writes: “A prepaid expense is an asset: the '
+                    'company has paid for a future benefit. A contract '
+                    'liability (unearned revenue) is a liability: the '
+                    'company must still deliver the goods or services. Cash '
+                    'received in advance is a liability, not revenue.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['liability', ''],
+              ['accounting equation', ''],
+              ['IFRS', ''],
+              ['disclose', ''],
+              ['par value', ''],
+              ['contra account', ''],
+              ['cost of goods sold', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'The accrual basis and the matching principle'),
           ('move',
@@ -286,6 +250,33 @@ HANDOUT = {'id': '1.4',
                    '(deferral), Accrued expense',
                    'an asset: Prepaid expense (deferral), Accrued revenue'],
              'whys': ['', '']}]),
+          ('move', 'INVENT THE RULE', ''),
+          ('rule',
+           'Complete the book’s own sentence. The list holds more words than '
+           'there are gaps.',
+           [['A ',
+             17,
+             ' is an ',
+             11,
+             ': the company has paid for a future benefit.']],
+           ['prepaid expense', 'cost of goods sold', 'gain', 'asset'],
+           'A prepaid expense is an asset: the company has paid for a future '
+           'benefit.',
+           'prepaid expense · asset'),
+          ('contrast',
+           'Two of the book’s own cases, side by side',
+           [('Prepaid expense (deferral)',
+             ['What happens: Cash is paid before the expense is incurred.',
+              'Orontes example: Rent paid in advance (February, row 3)']),
+            ('Contract liability, or unearned revenue (deferral)',
+             ['What happens: Cash is received before the revenue is earned.',
+              'Orontes example: Hotel pays in advance (February, row 4)'])],
+           'Only the facts above differ. What is the creates of Prepaid '
+           'expense (deferral)?',
+           ['an asset', 'a liability', 'both of them', 'neither of them'],
+           'A',
+           'The book gives an asset as the creates of Prepaid expense '
+           '(deferral).'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',

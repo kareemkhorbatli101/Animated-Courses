@@ -7,8 +7,6 @@ HANDOUT = {'id': '3.2',
  'title': 'Building the multi-step income statement',
  'sub': 'section 3.2 of the book',
  'covers': ['sec:3.2',
-            'p:P3-13',
-            'p:P3-14',
             'p:P3-07',
             'p:P3-08',
             'p:P3-09',
@@ -24,79 +22,110 @@ HANDOUT = {'id': '3.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Answer every one of these now, from what you already know or by '
-           'guessing. You are not expected to get them right: you are about '
-           'to be shown where each answer comes from.',
-           [['This handout settles', 'where it is answered'],
-            ['Building the multi-step income statement', 'cycle A'],
-            ['Item and what goes with it', 'cycle B'],
-            ['and you mark your own answers', 'at every checkpoint']],
-           [{'t': 'MCQ',
-             'q': 'A company reports net income of $500,000. Its OCI for the '
-                  'year is a gain of $40,000 after tax. AOCI was $100,000 at '
-                  'the start of the year. What is comprehensive income?',
-             'o': ['$500,000', '$540,000', '$600,000', '$640,000'],
-             'a': 'B',
-             'why': "Net income plus this year's OCI. A is wrong: This "
-                    'leaves out OCI. C is wrong: This adds the opening AOCI '
-                    "instead of this year's OCI.",
-             'src': 'P3-13'},
-            {'t': 'MCQ',
-             'q': 'Where may a U.S. company report OCI?',
-             'o': ['Only in the statement of changes in equity',
-                   'In one continuous statement of comprehensive income, or '
-                   'in a separate statement right after the income statement',
-                   'Only in the notes',
-                   'Inside operating income'],
-             'a': 'B',
-             'why': 'ASU 2011-05 requires one or two statements. A is wrong: '
-                    'Showing OCI only in equity is no longer allowed. C is '
-                    'wrong: OCI must be on the face of a statement.',
-             'src': 'P3-14'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Operating income?',
-             'o': ['1,240 − 520 − 300 = 420',
-                   '420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 ÷ 3,100 = 40%'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,240 − 520 − 300 = 420 as '
-                    'the answer of Operating income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Net income?',
-             'o': ['1,240 − 520 − 300 = 420',
-                   '1,240 ÷ 3,100 = 40%',
-                   '420 − 90 = 330, the same as in Chapter 1'],
-             'a': 'C',
-             'why': 'The book’s own table gives 420 − 90 = 330, the same as '
-                    'in Chapter 1 as the answer of Net income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Gross profit '
-                  'percentage?',
-             'o': ['1,240 ÷ 3,100 = 40%',
-                   '420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 − 520 − 300 = 420'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,240 ÷ 3,100 = 40% as the '
-                    'answer of Gross profit percentage.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Operating income as “1,240 − '
-                  '520 − 300 = 420”.',
-             'a': 'T',
-             'why': 'The book pairs Operating income with “1,240 − 520 − 300 '
-                    '= 420”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Net income as “1,240 − 520 − '
-                  '300 = 420”.',
-             'a': 'F',
-             'why': 'The book pairs Net income with “420 − 90 = 330, the '
-                    'same as in Chapter 1”, not with “1,240 − 520 − 300 = '
-                    '420”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Gross profit percentage as '
-                  '“1,240 ÷ 3,100 = 40%”.',
-             'a': 'T',
-             'why': 'The book pairs Gross profit percentage with “1,240 ÷ '
-                    '3,100 = 40%”.'}]),
+           'Three summaries of this handout, in the book’s own words. Read '
+           'all three first: together they are the whole session. Then fill '
+           'the gaps, guessing where you have to.',
+           [['In this handout', 'What you will read', 'How you check it'],
+            ['Building the multi-step income statement',
+             'a figure to read · Barada Wholesale, year ended December 31, '
+             '2025 (',
+             'Under U.S. GAAP, which presentation of operating expenses is '
+             'required?'],
+            ['The words this section uses precisely',
+             'Item · The English the exam uses, and what it translates · '
+             'Suppose: Orontes, 2026 (whole USD)',
+             'What is the safest way to settle a disagreement about an '
+             'answer on this sheet?']],
+           [{'t': 'FILL',
+             'q': 'Where the section starts — Fill every gap. The list holds '
+                  'more words than there are gaps, so one or two of them are '
+                  'not used.',
+             'parts': ['',
+                       18,
+                       ' is gross profit minus operating expenses: selling, '
+                       'general and administrative expenses, research and '
+                       'development, credit losses and impairments. Interest '
+                       'and income tax are never operating expenses. ',
+                       26,
+                       ' follows operating income.'],
+             'bank': ['Operating income',
+                      'Other income and expense',
+                      'comprehensive income',
+                      'discontinued operation'],
+             'a': 'Operating income · Other income and expense',
+             'one': True,
+             'why': 'The book writes: “Operating income is gross profit '
+                    'minus operating expenses: selling, general and '
+                    'administrative expenses, research and development, '
+                    'credit losses and impairments. Interest and income tax '
+                    'are never operating expenses. Other income and expense '
+                    'follows operating income.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Interest and income tax are never operating '
+                       'expenses. ',
+                       26,
+                       ' follows ',
+                       18,
+                       '. It contains interest, investment income and gains '
+                       'and losses. A gain or loss comes from a peripheral '
+                       'or incidental transaction, and it is shown net.'],
+             'bank': ['operating income',
+                      'comprehensive income',
+                      'discontinued operation',
+                      'Other income and expense'],
+             'a': 'Other income and expense · operating income',
+             'one': True,
+             'why': 'The book writes: “Interest and income tax are never '
+                    'operating expenses. Other income and expense follows '
+                    'operating income. It contains interest, investment '
+                    'income and gains and losses. A gain or loss comes from '
+                    'a peripheral or incidental transaction, and it is shown '
+                    'net.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['',
+                       26,
+                       ' follows ',
+                       18,
+                       '. It contains interest, investment income and gains '
+                       'and losses. A gain or loss comes from a peripheral '
+                       'or incidental transaction, and it is shown net. '
+                       'Income tax expense is then deducted from income '
+                       'before income taxes.'],
+             'bank': ['comprehensive income',
+                      'Other income and expense',
+                      'operating income',
+                      'discontinued operation'],
+             'a': 'Other income and expense · operating income',
+             'one': True,
+             'why': 'The book writes: “Other income and expense follows '
+                    'operating income. It contains interest, investment '
+                    'income and gains and losses. A gain or loss comes from '
+                    'a peripheral or incidental transaction, and it is shown '
+                    'net. Income tax expense is then deducted from income '
+                    'before income taxes.”'}],
+           [('Words this handout uses precisely',
+             [['Words this handout uses precisely',
+               'tick it if you could already use it in a sentence'],
+              ['multi-step income statement', ''],
+              ['comprehensive income', ''],
+              ['function of expense', ''],
+              ['reclassification adjustment', '']]),
+            ('How every cycle on this sheet works',
+             [['How a cycle works', 'what you do'],
+              ['MODEL',
+               'read the figure or the table before you answer anything'],
+              ['READ THE MODEL', 'every answer is printed on the same page'],
+              ['INVENT THE RULE',
+               'write the rule yourself, then compare with the book'],
+              ['APPLY', 'no help on this move'],
+              ['CHECKPOINT',
+               'mark it yourself; if you miss it, the sheet says what to '
+               'redo']])]),
           ('page',),
           ('cycle', 'A', 'Building the multi-step income statement'),
           ('move',
