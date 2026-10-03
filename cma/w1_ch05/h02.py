@@ -3,17 +3,14 @@
 
 HANDOUT = {'id': '5.2',
  'n': 2,
- 'pages': 7,
+ 'pages': 5,
  'title': 'Classifying cash flows',
  'sub': 'section 5.2 of the book',
  'covers': ['sec:5.2',
-            'p:P5-07',
-            'p:P5-08',
-            'p:P5-09',
-            'p:P5-10',
-            'sc:P5-07',
-            'p:P5-11',
-            'p:P5-12',
+            'p:P5-02',
+            'p:P5-17',
+            'p:P5-18',
+            'p:P5-19',
             'term:cash equivalents',
             'term:direct method'],
  'skills': [('read2', 3)],
@@ -25,89 +22,85 @@ HANDOUT = {'id': '5.2',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Classifying cash flows',
-             'a figure to read · Cash flow · Orontes Foods Inc., year ended '
-             'December 31, 2025',
-             'A company moves $500,000 from its operating bank account into '
-             'a restricted account set aside to repay a bond. How is this '
-             'shown in the statement of cash flows?'],
+             'a figure to read · Cash flow',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Transaction (U.S. GAAP) · The English the exam uses, and what '
-             'it translates',
+             'a figure to read · Transaction (U.S. GAAP) · The English the '
+             'exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       22,
-                       ' are the main revenue activities: cash from '
-                       'customers and cash paid to suppliers and employees. '
-                       'Anything that is not investing or financing is also '
+             'parts': ['Anything that is not investing or financing is also '
                        'operating. ',
                        22,
-                       ' are with owners and lenders.'],
+                       ' involve long-term assets and other ',
+                       12,
+                       ' securities: Orontes paid $3,000,000 for equipment '
+                       'and $1,200,000 for its Jordan Glass shares.'],
              'bank': ['statement of cash flows',
                       'direct method',
-                      'Financing activities',
-                      'Operating activities'],
-             'a': 'Operating activities · Financing activities',
+                      "companies'",
+                      'Investing activities'],
+             'a': "Investing activities · companies'",
              'one': True,
-             'why': 'The book writes: “Operating activities are the main '
-                    'revenue activities: cash from customers and cash paid '
-                    'to suppliers and employees. Anything that is not '
-                    'investing or financing is also operating. Financing '
-                    'activities are with owners and lenders.”'},
+             'why': 'The book writes: “Anything that is not investing or '
+                    'financing is also operating. Investing activities '
+                    "involve long-term assets and other companies' "
+                    'securities: Orontes paid $3,000,000 for equipment and '
+                    '$1,200,000 for its Jordan Glass shares.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['GAAP fixes four items that students often get wrong. '
-                       'Interest paid, interest received, ',
+             'parts': ['Interest paid, interest received, ',
                        11,
                        ' received and income taxes are all ',
                        11,
-                       '. ',
-                       13,
-                       ' interest, dividends and taxes: U.S.'],
+                       '. Only dividends paid are financing. Some investing '
+                       'and financing ',
+                       14,
+                       ' involve no cash at all, such as buying land by '
+                       'issuing shares or a note.'],
              'bank': ['dividends',
                       'statement of cash flows',
                       'direct method',
                       'operating',
-                      'Classifying'],
-             'a': 'dividends · operating · Classifying',
+                      'transactions'],
+             'a': 'dividends · operating · transactions',
              'one': True,
-             'why': 'The book writes: “GAAP fixes four items that students '
-                    'often get wrong. Interest paid, interest received, '
+             'why': 'The book writes: “Interest paid, interest received, '
                     'dividends received and income taxes are all operating. '
-                    'Classifying interest, dividends and taxes: U.S.”'},
+                    'Only dividends paid are financing. Some investing and '
+                    'financing transactions involve no cash at all, such as '
+                    'buying land by issuing shares or a note.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['These noncash ',
+             'parts': ['Under IAS 7 today, interest paid can be ',
                        11,
-                       ' and ',
+                       ' or ',
                        11,
-                       ' ',
+                       ', and interest and dividends received can be '
+                       'operating or investing. The ',
                        12,
-                       ' are not shown in the body of the statement. Under '
-                       'IAS 7 today, interest paid can be operating or '
-                       'financing, and interest and dividends received can '
-                       'be operating or investing. Interest paid is '
-                       'operating, not financing, under U.S.'],
+                       ' that come with IFRS 18 remove some choices from '
+                       '2027, but they are not testable before about January '
+                       '2028.'],
              'bank': ['statement of cash flows',
                       'financing',
-                      'activities',
+                      'amendments',
                       'direct method',
-                      'investing'],
-             'a': 'investing · financing · activities',
+                      'operating'],
+             'a': 'operating · financing · amendments',
              'one': True,
-             'why': 'The book writes: “These noncash investing and financing '
-                    'activities are not shown in the body of the statement. '
-                    'Under IAS 7 today, interest paid can be operating or '
-                    'financing, and interest and dividends received can be '
-                    'operating or investing. Interest paid is operating, not '
-                    'financing, under U.S.”'}],
+             'why': 'The book writes: “Under IAS 7 today, interest paid can '
+                    'be operating or financing, and interest and dividends '
+                    'received can be operating or investing. The amendments '
+                    'that come with IFRS 18 remove some choices from 2027, '
+                    'but they are not testable before about January 2028.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -131,10 +124,11 @@ HANDOUT = {'id': '5.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP (fixed) of Interest paid as '
-                  '“Operating”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Interest paid with “Operating”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -180,49 +174,9 @@ HANDOUT = {'id': '5.2',
              'a': 'A',
              'why': 'The book’s own table pairs Interest paid with '
                     '“Operating”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating”?',
-             'o': ['Dividends paid',
-                   'Indirect method starts from',
-                   'Interest received'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Interest received with '
-                    '“Operating”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Operating”?',
-             'o': ['Indirect method starts from',
-                   'Dividends paid',
-                   'Dividends received'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Dividends received with '
-                    '“Operating”.'},
-            {'t': 'MCQ',
-             'q': 'Which cash flow does the book pair with “Financing”?',
-             'o': ['Dividends paid',
-                   'Income taxes paid',
-                   'Dividends received',
-                   'Indirect method starts from'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Dividends paid with '
-                    '“Financing”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IAS 7 with IFRS 18 (from 2027) of '
-                  'Interest paid as “Follows the category of the expense; '
-                  'often financing”.',
-             'a': 'T',
-             'why': 'The book pairs Interest paid with “Follows the category '
-                    'of the expense; often financing”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IAS 7 with IFRS 18 (from 2027) of '
-                  'Interest received as “Follows the category of the '
-                  'expense; often financing”.',
-             'a': 'F',
-             'why': 'The book pairs Interest received with “Often '
-                    'investing”, not with “Follows the category of the '
-                    'expense; often financing”.'},
             {'t': 'SORT',
-             'q': 'Write each one under its u.s. gaap (fixed). Every item '
-                  'belongs to exactly one group.',
+             'q': 'Write each one under the heading it belongs to. Every '
+                  'item belongs to exactly one group.',
              'regions': ['Financing', 'Net income', 'Operating'],
              'items': ['Interest paid',
                        'Interest received',
@@ -238,122 +192,73 @@ HANDOUT = {'id': '5.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company moves $500,000 from its operating bank account '
-                  'into a restricted account set aside to repay a bond. How '
-                  'is this shown in the statement of cash flows?',
-             'o': ['As an investing outflow',
-                   'It is not a cash flow, because restricted cash is '
-                   'included in the total',
-                   'As a financing outflow',
-                   'As an operating outflow'],
+             'q': 'Use Figures F05-02 and F05-03. What is the MAIN reason '
+                  "Orontes's operating cash flow is higher than its net "
+                  'income?',
+             'o': ['Orontes collected more than it sold',
+                   'Depreciation and impairments reduced net income but used '
+                   'no cash',
+                   'The bank note increased operating cash',
+                   'Dividends paid were added back'],
              'a': 'B',
-             'why': 'Transfers between cash and restricted cash are not cash '
-                    'flows. A is wrong: The statement explains cash and '
-                    'restricted cash together. C is wrong: No bond has been '
-                    'repaid yet.',
-             'src': 'P5-07'},
+             'why': 'Noncash expenses of $4,924,000 explain most of the '
+                    'difference. A is wrong: Receivables rose, which reduced '
+                    'operating cash. C is wrong: Borrowing is a financing '
+                    'inflow.',
+             'src': 'P5-02'},
             {'t': 'MCQ',
-             'q': 'An IFRS company reports interest paid in financing '
-                  'activities. How would the same payment be classified '
-                  'under U.S. GAAP?',
-             'o': ['Operating',
-                   'Financing',
-                   'Investing',
-                   'Either operating or financing'],
-             'a': 'A',
-             'why': 'U.S. GAAP fixes interest paid in operating. B is wrong: '
-                    'Financing is an IAS 7 option only. C is wrong: Interest '
-                    'paid is never investing.',
-             'src': 'P5-08'},
+             'q': 'Which is a limitation of the statement of cash flows?',
+             'o': ['It is prepared on the accrual basis',
+                   'Important noncash investing and financing deals appear '
+                   'only in the notes',
+                   'It ignores cash paid for interest',
+                   'It shows only noncash items'],
+             'a': 'B',
+             'why': 'A building bought with a mortgage never appears in the '
+                    'body. A is wrong: It is a cash-basis statement. C is '
+                    'wrong: Interest paid is included in operating.',
+             'src': 'P5-17'},
             {'t': 'MCQ',
-             'q': 'Which item appears in the investing section of a U.S. '
-                  'statement of cash flows?',
-             'o': ["Cash paid to buy back the company's own shares",
-                   'Interest received on a loan to a customer',
-                   'Cash received from issuing bonds',
-                   'Cash paid to buy shares of another company, held as an '
-                   'available-for-sale investment'],
+             'q': 'Why is operating cash flow not a good measure of '
+                  'profitability?',
+             'o': ['It includes too many estimates',
+                   'It is measured at fair value',
+                   'It excludes cash from customers',
+                   'It ignores accruals, so it can be high in a year with '
+                   'poor profits, or low in a good year'],
              'a': 'D',
-             'why': "Buying other companies' securities (not trading) is "
-                    'investing. A is wrong: Buying back own shares is '
-                    'financing. B is wrong: Interest received is operating.',
-             'src': 'P5-09'}]),
-          ('panel',
-           'Orontes Foods Inc., year ended December 31, 2025 — the extract '
-           'for the question that follows',
-           [['Orontes Foods Inc., year ended December 31, 2025', '2025'],
-            ['Cash flows from operating activities', ''],
-            ['Net income', '2,969,100'],
-            ['Adjustments to reconcile net income to net cash from operating '
-             'activities:',
-             ''],
-            ['Depreciation', '2,100,000'],
-            ['Impairment losses', '2,724,000'],
-            ['Equity-method income', '(177,000)'],
-            ['Dividends from equity-method investees', '70,000'],
-            ['Gain on sale of equipment', '(3,000)'],
-            ['Unrealized gains on securities', '(4,000)'],
-            ['Deferred income taxes', '100,000'],
-            ['Increase in accounts receivable, net', '(384,000)'],
-            ['Increase in inventory', '(150,000)'],
-            ['Increase in prepaid expenses', '(24,000)'],
-            ['Increase in accounts payable', '150,000'],
-            ['Increase in accrued liabilities', '50,000'],
-            ['Increase in income taxes payable', '50,000'],
-            ['Increase in contract liabilities', '60,000'],
-            ['Net cash provided by operating activities', '7,531,100'],
-            ['Cash flows from investing activities', ''],
-            ['Purchases of property, plant and equipment', '(3,000,000)'],
-            ['Proceeds from sale of equipment', '21,000'],
-            ['Investment in Jordan Glass Co.', '(1,200,000)'],
-            ['Net cash used in investing activities', '(4,179,000)'],
-            ['Cash flows from financing activities', ''],
-            ['Issuance of common stock', '1,500,000'],
-            ['Proceeds from bank note', '800,000'],
-            ['Repayment of long-term debt', '(400,000)'],
-            ['Dividends paid', '(50,000)'],
-            ['Net cash provided by financing activities', '1,850,000'],
-            ['Net increase in cash', '5,202,100'],
-            ['Cash, January 1, 2025', '2,100,000'],
-            ['Cash, December 31, 2025', '7,302,100'],
-            ['Supplemental disclosures', ''],
-            ['Interest paid', '390,000'],
-            ['Income taxes paid', '839,700'],
-            ['Noncash investing and financing activities', 'none']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  "Orontes's net cash provided by operating activities for "
-                  '2025 (whole USD)?',
-             'o': ['4,807,100', '7,531,100', '7,708,100', '8,299,100'],
-             'a': 'B',
-             'why': 'Net income adjusted for noncash items, gains, '
-                    'equity-method items and working capital. A is wrong: '
-                    'This forgets to add back the impairment losses. C is '
-                    'wrong: This leaves equity-method income in operating '
-                    'cash flow.',
-             'src': 'P5-10'}]),
+             'why': 'Profitability is measured on the accrual basis. A is '
+                    'wrong: Cash flows involve few estimates. B is wrong: '
+                    'Cash flows are not fair values.',
+             'src': 'P5-18'},
+            {'t': 'MCQ',
+             'q': 'Two companies make the same interest payments. One '
+                  'reports under U.S. GAAP, the other under IFRS and '
+                  'classifies interest as financing. Which limitation does '
+                  'this show?',
+             'o': ['Classification differences reduce comparability',
+                   'Cash flows depend on estimates',
+                   'Noncash items are omitted',
+                   'The statement uses historical cost'],
+             'a': 'A',
+             'why': 'The same payment can land in different sections. B is '
+                    'wrong: No estimate is involved. C is wrong: Interest '
+                    'paid is a cash flow.',
+             'src': 'P5-19'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company moves $500,000 from its operating bank account into a '
-           'restricted account set aside to repay a bond. How is this shown '
-           'in the statement of cash flows?',
-           ['As an investing outflow',
-            'It is not a cash flow, because restricted cash is included in '
-            'the total',
-            'As a financing outflow',
-            'As an operating outflow'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Transfers between cash and restricted cash are not cash flows. A '
-           'is wrong: The statement explains cash and restricted cash '
-           'together. C is wrong: No bond has been repaid yet.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -364,6 +269,7 @@ HANDOUT = {'id': '5.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Transaction (U.S. GAAP) — the book’s own table',
            [['Transaction (U.S. GAAP)', 'Activity'],
@@ -407,29 +313,15 @@ HANDOUT = {'id': '5.2',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company reports net income of $200,000, depreciation of '
-                  '$50,000 and a gain on sale of equipment of $10,000. '
-                  'Accounts receivable rose by $30,000 and accounts payable '
-                  'fell by $5,000. What is net cash from operating '
-                  'activities?',
-             'o': ['$205,000', '$215,000', '$225,000', '$265,000'],
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
              'a': 'A',
-             'why': '200,000 + 50,000 − 10,000 − 30,000 − 5,000. B is wrong: '
-                    'This adds the decrease in payables. C is wrong: This '
-                    'adds the gain instead of subtracting it.',
-             'src': 'P5-11'},
-            {'t': 'MCQ',
-             'q': 'How is an increase in a deferred tax liability treated '
-                  'under the indirect method?',
-             'o': ['It is added to net income',
-                   'It is subtracted from net income',
-                   'It is a financing inflow',
-                   'It is ignored'],
-             'a': 'A',
-             'why': 'Deferred tax expense reduced net income but was not '
-                    'paid in cash. B is wrong: Noncash expenses are added '
-                    'back. C is wrong: Deferred taxes are not financing.',
-             'src': 'P5-12'}]),
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -7,6 +7,7 @@ HANDOUT = {'id': '17.5',
  'title': '(v) Long-lived assets',
  'sub': 'section 17.5 of the book',
  'covers': ['sec:17.5',
+            'p:P17-15',
             'term:recoverable amount',
             'term:research and development (r&d)'],
  'skills': [('read5', 3)],
@@ -28,8 +29,8 @@ HANDOUT = {'id': '17.5',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['GAAP carries property, plant and equipment at cost '
-                       'less depreciation. IAS 16 also allows the ',
+             'parts': ['U.S. GAAP carries property, plant and equipment at '
+                       'cost less depreciation. IAS 16 also allows the ',
                        19,
                        ' for a whole class of assets: the assets are carried '
                        'at fair value, and increases go to a ',
@@ -41,7 +42,7 @@ HANDOUT = {'id': '17.5',
                       'revaluation surplus'],
              'a': 'revaluation model · revaluation surplus',
              'one': True,
-             'why': 'The book writes: “GAAP carries property, plant and '
+             'why': 'The book writes: “U.S. GAAP carries property, plant and '
                     'equipment at cost less depreciation. IAS 16 also allows '
                     'the revaluation model for a whole class of assets: the '
                     'assets are carried at fair value, and increases go to a '
@@ -50,55 +51,45 @@ HANDOUT = {'id': '17.5',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['IAS 16 also allows the ',
+             'parts': ['Under U.S. GAAP it stays at cost. Under IFRS, if ',
+                       11,
+                       ' chose the ',
                        19,
-                       ' for a whole class of assets: the assets are carried '
-                       'at fair value, and increases go to a ',
-                       21,
-                       ' in OCI. IFRS requires ',
-                       24,
-                       ' for significant parts with different lives; U.S.'],
-             'bank': ['revaluation surplus',
-                      'development costs',
+                       ', it would show the land at fair value and a surplus '
+                       'of $600,000 in OCI.'],
+             'bank': ['Orontes',
                       'revaluation model',
-                      'component depreciation',
+                      'development costs',
                       'defined benefit plan'],
-             'a': 'revaluation model · revaluation surplus · component '
-                  'depreciation',
+             'a': 'Orontes · revaluation model',
              'one': True,
-             'why': 'The book writes: “IAS 16 also allows the revaluation '
-                    'model for a whole class of assets: the assets are '
-                    'carried at fair value, and increases go to a '
-                    'revaluation surplus in OCI. IFRS requires component '
-                    'depreciation for significant parts with different '
-                    'lives; U.S.”'},
+             'why': 'The book writes: “Under U.S. GAAP it stays at cost. '
+                    'Under IFRS, if Orontes chose the revaluation model, it '
+                    'would show the land at fair value and a surplus of '
+                    '$600,000 in OCI.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['GAAP carries property, plant and equipment at cost '
-                       'less depreciation. IAS 16 also allows the ',
-                       19,
-                       ' for a whole class of assets: the assets are carried '
-                       'at fair value, and increases go to a ',
-                       21,
-                       ' in OCI. IFRS requires ',
+             'parts': ['IFRS requires ',
                        24,
-                       ' for significant parts with different lives; U.S.'],
-             'bank': ['revaluation surplus',
-                      'revaluation model',
-                      'defined benefit plan',
-                      'development costs',
-                      'component depreciation'],
-             'a': 'revaluation model · revaluation surplus · component '
-                  'depreciation',
+                       ' for significant parts with different lives; U.S. '
+                       'GAAP allows but does not require it. Both frameworks '
+                       'capitalize borrowing costs on assets under ',
+                       14,
+                       ', but IFRS deducts income earned on specific '
+                       'borrowings.'],
+             'bank': ['defined benefit plan',
+                      'component depreciation',
+                      'construction',
+                      'development costs'],
+             'a': 'component depreciation · construction',
              'one': True,
-             'why': 'The book writes: “GAAP carries property, plant and '
-                    'equipment at cost less depreciation. IAS 16 also allows '
-                    'the revaluation model for a whole class of assets: the '
-                    'assets are carried at fair value, and increases go to a '
-                    'revaluation surplus in OCI. IFRS requires component '
-                    'depreciation for significant parts with different '
-                    'lives; U.S.”'}],
+             'why': 'The book writes: “IFRS requires component depreciation '
+                    'for significant parts with different lives; U.S. GAAP '
+                    'allows but does not require it. Both frameworks '
+                    'capitalize borrowing costs on assets under '
+                    'construction, but IFRS deducts income earned on '
+                    'specific borrowings.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -122,12 +113,11 @@ HANDOUT = {'id': '17.5',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP (ASC 360, 835) of Land in '
-                  'Amman: cost 2,000,000, fair value 2,600,000 as “Stays at '
-                  '2,000,000”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Land in Amman: cost 2,000,000, fair '
-                    'value 2,600,000 with “Stays at 2,000,000”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f5'),
           ('panel',
@@ -162,53 +152,7 @@ HANDOUT = {'id': '17.5',
              'a': 'C',
              'why': 'The book’s own table pairs Land in Amman: cost '
                     '2,000,000, fair value 2,600,000 with “Stays at '
-                    '2,000,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Allowed, not '
-                  'required”?',
-             'o': ['Land in Amman: cost 2,000,000, fair value 2,600,000',
-                   'Investment property',
-                   'Borrowing costs on a new plant',
-                   'Component depreciation'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Component depreciation with '
-                    '“Allowed, not required”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “When events suggest '
-                  'a change”?',
-             'o': ['Review of lives and residual values',
-                   'Borrowing costs on a new plant',
-                   'Investment property',
-                   'Component depreciation'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Review of lives and residual '
-                    'values with “When events suggest a change”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Capitalized; '
-                  'investment income generally not offset”?',
-             'o': ['Component depreciation',
-                   'Land in Amman: cost 2,000,000, fair value 2,600,000',
-                   'Borrowing costs on a new plant',
-                   'Review of lives and residual values'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Borrowing costs on a new '
-                    'plant with “Capitalized; investment income generally '
-                    'not offset”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS (IAS 16, 23, 40) of Land in '
-                  'Amman: cost 2,000,000, fair value 2,600,000 as '
-                  '“Revaluation model: 2,600,000; surplus 600,000 in OCI”.',
-             'a': 'T',
-             'why': 'The book pairs Land in Amman: cost 2,000,000, fair '
-                    'value 2,600,000 with “Revaluation model: 2,600,000; '
-                    'surplus 600,000 in OCI”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS (IAS 16, 23, 40) of Component '
-                  'depreciation as “At least every year”.',
-             'a': 'F',
-             'why': 'The book pairs Component depreciation with “Required '
-                    'for significant parts”, not with “At least every '
-                    'year”.'}]),
+                    '2,000,000”.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -243,11 +187,18 @@ HANDOUT = {'id': '17.5',
            '16, 23, 40) of Component depreciation.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': "What is the IFRS equivalent of a U.S. 'asset group' in "
+                  'impairment testing?',
+             'o': ['A reporting unit',
+                   'A cash-generating unit',
+                   'A disposal group',
+                   'A component of an entity'],
+             'a': 'B',
+             'why': 'IAS 36 tests assets in cash-generating units. A is '
+                    'wrong: A reporting unit is the U.S. goodwill level. C '
+                    'is wrong: A disposal group is for assets held for sale.',
+             'src': 'P17-15'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -287,12 +238,21 @@ HANDOUT = {'id': '17.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each topic. '
+                  'Every one is used once.',
+             'left': ['Land in Amman: cost 2,000,000, fair value 2,600,000',
+                      'Component depreciation',
+                      'Review of lives and residual values',
+                      'Borrowing costs on a new plant',
+                      'Investment property'],
+             'right': ['Stays at 2,000,000',
+                       'Capitalized; investment income generally not offset',
+                       'No separate category: cost model',
+                       'Allowed, not required',
+                       'When events suggest a change'],
+             'a': ['A', 'D', 'E', 'B', 'C'],
+             'whys': ['', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

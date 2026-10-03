@@ -28,8 +28,16 @@ def f5(blank=False):
     return cardset(blank=blank, **{'title': 'Item', 'cards': [('P', ['Asset: Pastry line, Dubai', 'Facts: Demand for the product fell sharply in 2025.', 'Amounts (USD 000): carrying 500; undiscounted cash flows 450; fair value 380']), ('W', ['Asset: Warehouse, Amman', 'Facts: Local property prices fell.', 'Amounts (USD 000): carrying 1,000; undiscounted cash flows 1,300; fair value 900']), ('B', ["Asset: Brand 'Orontes Gold' (indefinite life)", 'Facts: Annual test.', 'Amounts (USD 000): carrying 300; fair value 260']), ('G', ['Asset: Goodwill, Gulf beverages reporting unit', 'Facts: Unit carrying amount includes the goodwill.', 'Amounts (USD 000): carrying 2,000; goodwill included 150; fair value 1,700']), ('V', ['Asset: Delivery van (held for sale)', 'Facts: Management has committed to sell it within one year.', 'Amounts (USD 000): carrying 60; fair value 50; cost to sell 4'])], 'sub': 'Asset · Facts · Amounts (USD 000)'})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Asset — Category', 'steps': [('P', ''), ('W', ''), ('B', ''), ('G', ''), ('V', '')]})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Asset — Category', 'steps': [('P', 'Two steps: recoverability, then fair value'), ('W', 'Two steps: recoverability, then fair value'), ('B', 'One step: carrying amount vs fair value'), ('G', 'Single-step goodwill test'), ('V', 'Lower of carrying amount and fair value less cost to sell')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 10 at a glance', 'nodes': [('The cost of property, plant and equipment', 'section 10.1'), ('Depreciation methods and their effects', 'section 10.2'), ('Recommending a depreciation method', 'section 10.3'), ('Disposal of fixed assets', 'section 10.4'), ('Impairment of long-lived assets, intangibles and goodwill', 'section 10.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'frev': frev, 'chmap': chmap}

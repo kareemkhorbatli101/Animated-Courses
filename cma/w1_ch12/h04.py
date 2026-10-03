@@ -3,13 +3,11 @@
 
 HANDOUT = {'id': '12.4',
  'n': 4,
- 'pages': 5,
+ 'pages': 4,
  'title': 'IFRS and covenants',
  'sub': 'section 12.4 of the book',
  'covers': ['sec:12.4',
-            'p:P12-19',
-            'p:P12-20',
-            'sc:P12-19',
+            'p:P12-07',
             'term:assurance-type warranty',
             'term:payroll taxes'],
  'skills': [('read4', 3)],
@@ -22,9 +20,7 @@ HANDOUT = {'id': '12.4',
            [['In this handout', 'What you will read', 'How you check it'],
             ['IFRS and covenants',
              'a figure to read · Situation',
-             'A warranty has an assurance element and a service element, but '
-             'they cannot reasonably be accounted for separately. The '
-             'company:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -37,63 +33,73 @@ HANDOUT = {'id': '12.4',
                        11,
                        ' A, C and D above, an IFRS company would show the '
                        'whole ',
-                       12,
-                       ' paper as ',
-                       11,
-                       '.'],
-             'bank': ['assurance-type warranty',
-                      'commercial',
+                       18,
+                       ' as current. Covenants follow the same logic.'],
+             'bank': ['short-term obligation',
                       'scenarios',
-                      'short-term obligation',
-                      'current'],
-             'a': 'scenarios · commercial · current',
+                      'commercial paper',
+                      'assurance-type warranty'],
+             'a': 'scenarios · commercial paper',
              'one': True,
              'why': 'The book writes: “In scenarios A, C and D above, an '
                     'IFRS company would show the whole commercial paper as '
-                    'current.”'},
+                    'current. Covenants follow the same logic.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
              'parts': ['Under IFRS, only ',
                        11,
-                       ' that must be met on or before the ',
-                       11,
-                       ' date affect ',
+                       ' that must be met on or before the reporting date '
+                       'affect ',
                        16,
-                       '; future covenants are disclosed.'],
-             'bank': ['reporting',
-                      'assurance-type warranty',
+                       '; future covenants are disclosed. The IAS 1 ',
+                       12,
+                       ' on classification and covenants apply from January '
+                       '1, 2024, and are testable now as IFRS contrasts.'],
+             'bank': ['assurance-type warranty',
+                      'classification',
                       'covenants',
                       'short-term obligation',
-                      'classification'],
-             'a': 'covenants · reporting · classification',
+                      'amendments'],
+             'a': 'covenants · classification · amendments',
              'one': True,
              'why': 'The book writes: “Under IFRS, only covenants that must '
                     'be met on or before the reporting date affect '
-                    'classification; future covenants are disclosed.”'},
+                    'classification; future covenants are disclosed. The IAS '
+                    '1 amendments on classification and covenants apply from '
+                    'January 1, 2024, and are testable now as IFRS '
+                    'contrasts.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       16,
-                       ', ',
-                       11,
-                       ' and warranty costs: U.S. They confirm that ',
-                       14,
-                       ' intention to refinance does not matter; only rights '
-                       'at the reporting date do.'],
-             'bank': ['assurance-type warranty',
-                      "management's",
-                      'short-term obligation',
-                      'covenants',
-                      'Classification'],
-             'a': "Classification · covenants · management's",
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Situation” settles these: for '
+                       'Refinancing agreed after the reporting date, before '
+                       'issuance it is ',
+                       30,
+                       ', for Waiver of a covenant breach received after the '
+                       'reporting date it is ',
+                       51,
+                       ' and for Covenants tested after the reporting date '
+                       'it is ',
+                       52,
+                       '.'],
+             'bank': ['Accrue if probable (likely) and estimable',
+                      'Consider only violations at the balance sheet date',
+                      'Noncurrent if the waiver lasts more than one year',
+                      'Can make the debt noncurrent'],
              'one': True,
-             'why': 'The book writes: “Classification, covenants and '
-                    "warranty costs: U.S. They confirm that management's "
-                    'intention to refinance does not matter; only rights at '
-                    'the reporting date do.”'}],
+             'a': 'Can make the debt noncurrent · Noncurrent if the waiver '
+                  'lasts more than one year · Consider only violations at '
+                  'the balance sheet date',
+             'why': 'From the book’s own table “Situation”: The book’s own '
+                    'table “Situation” settles these: for Refinancing agreed '
+                    'after the reporting date, before issuance it is Can '
+                    'make the debt noncurrent and for Waiver of a covenant '
+                    'breach received after the reporting date it is '
+                    'Noncurrent if the waiver lasts more than one year and '
+                    'for Covenants tested after the reporting date it is '
+                    'Consider only violations at the balance sheet date.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -117,13 +123,11 @@ HANDOUT = {'id': '12.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP of Refinancing agreed after '
-                  'the reporting date, before issuance as “Can make the debt '
-                  'noncurrent”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Refinancing agreed after the reporting '
-                    'date, before issuance with “Can make the debt '
-                    'noncurrent”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -156,84 +160,37 @@ HANDOUT = {'id': '12.4',
              'a': 'C',
              'why': 'The book’s own table pairs Refinancing agreed after the '
                     'reporting date, before issuance with “Can make the debt '
-                    'noncurrent”.'},
-            {'t': 'MCQ',
-             'q': 'Which situation does the book pair with “Consider only '
-                  'violations at the balance sheet date”?',
-             'o': ['Warranty cost',
-                   'Covenants tested after the reporting date',
-                   'Refinancing agreed after the reporting date, before '
-                   'issuance'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Covenants tested after the '
-                    'reporting date with “Consider only violations at the '
-                    'balance sheet date”.'},
-            {'t': 'MCQ',
-             'q': 'Which situation does the book pair with “Accrue if '
-                  'probable (likely) and estimable”?',
-             'o': ['Covenants tested after the reporting date',
-                   'Warranty cost',
-                   'Refinancing agreed after the reporting date, before '
-                   'issuance'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Warranty cost with “Accrue '
-                    'if probable (likely) and estimable”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS (IAS 1, IAS 37) of Refinancing '
-                  'agreed after the reporting date, before issuance as “Does '
-                  'not change classification (current)”.',
-             'a': 'T',
-             'why': 'The book pairs Refinancing agreed after the reporting '
-                    'date, before issuance with “Does not change '
-                    'classification (current)”.'}]),
+                    'noncurrent”.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A warranty has an assurance element and a service '
-                  'element, but they cannot reasonably be accounted for '
-                  'separately. The company:',
-             'o': ['treats the whole warranty as one performance obligation',
-                   'accrues the whole warranty as a cost',
-                   'ignores the service element',
-                   'discloses the warranty only'],
-             'a': 'A',
-             'why': 'ASC 606 treats an inseparable combination as a single '
-                    'obligation. B is wrong: The service element cannot be '
-                    'treated only as a cost. C is wrong: The service element '
-                    'must be accounted for.',
-             'src': 'P12-19'},
-            {'t': 'MCQ',
-             'q': 'Under IAS 37, when does an IFRS company recognize a '
-                  'warranty provision?',
-             'o': ['Only when the outflow is virtually certain',
-                   'When an outflow is more likely than not and can be '
-                   'estimated reliably',
-                   'Only when repairs are made',
-                   'Never; warranties are disclosed only'],
-             'a': 'B',
-             'why': "IAS 37 uses a lower threshold than the U.S. 'probable'. "
-                    'A is wrong: Virtual certainty is the test for '
-                    'contingent assets. C is wrong: This is a cash basis.',
-             'src': 'P12-20'}]),
+             'q': 'To show short-term debt as noncurrent under U.S. GAAP, a '
+                  'company needs:',
+             'o': ['only intent to refinance',
+                   'a verbal promise from its bank',
+                   'a history of always refinancing',
+                   'intent to refinance long-term and demonstrated ability '
+                   'before the statements are issued'],
+             'a': 'D',
+             'why': 'Both intent and demonstrated ability are required. A is '
+                    'wrong: Intent alone is not enough. B is wrong: Ability '
+                    'must be demonstrated by refinancing or a qualifying '
+                    'agreement.',
+             'src': 'P12-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A warranty has an assurance element and a service element, but '
-           'they cannot reasonably be accounted for separately. The company:',
-           ['treats the whole warranty as one performance obligation',
-            'accrues the whole warranty as a cost',
-            'ignores the service element',
-            'discloses the warranty only'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'ASC 606 treats an inseparable combination as a single '
-           'obligation. B is wrong: The service element cannot be treated '
-           'only as a cost. C is wrong: The service element must be '
-           'accounted for.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -259,12 +216,21 @@ HANDOUT = {'id': '12.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each '
+                  'situation. Every one is used once.',
+             'left': ['Refinancing agreed after the reporting date, before '
+                      'issuance',
+                      'Waiver of a covenant breach received after the '
+                      'reporting date',
+                      'Covenants tested after the reporting date',
+                      'Warranty cost'],
+             'right': ['Accrue if probable (likely) and estimable',
+                       'Consider only violations at the balance sheet date',
+                       'Can make the debt noncurrent',
+                       'Noncurrent if the waiver lasts more than one year'],
+             'a': ['C', 'D', 'B', 'A'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

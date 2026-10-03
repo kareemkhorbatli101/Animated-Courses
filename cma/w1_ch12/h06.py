@@ -3,10 +3,17 @@
 
 HANDOUT = {'id': '12.6',
  'n': 6,
- 'pages': 7,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P12-11',
+            'p:P12-12',
+            'p:P12-13',
+            'p:P12-14',
+            'p:P12-15',
+            'p:P12-16',
+            'p:P12-19',
             'sc:SC12-6',
             'sc:SC12-7',
             'sc:SC12-8',
@@ -38,11 +45,12 @@ HANDOUT = {'id': '12.6',
             ['The whole chapter, in order',
              'a figure to read · Suppose: Orontes, commercial paper of '
              '3,000,000',
-             'Use the extract, scenario C. How much of the commercial paper '
-             'is shown as noncurrent (whole USD)?'],
+             "A company's year ends on December 31 and its statements are "
+             'issued on March 5. It issues long-term bonds on March 20 to '
+             'repay a note due in June. How is the note classified at '
+             'December 31?'],
             ['The chapter’s case set',
-             'The chapter’s case set, item by item · Suppose: Orontes, '
-             'commercial paper of 3,000,000',
+             'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
              'worked out?'],
             ['The words it uses precisely',
@@ -54,79 +62,80 @@ HANDOUT = {'id': '12.6',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['They are recorded as ',
-                       19,
-                       ', not as revenue. ',
-                       22,
-                       ', such as earned vacation, are accrued when '
-                       'employees have already worked for them, the rights '
-                       'vest or accumulate, and payment is probable. SC12-4 '
-                       'Employees of a company earn two days of vacation '
-                       'each month.'],
-             'bank': ['Compensated absences',
+             'parts': ['Customer deposits are contract ',
+                       13,
+                       ', as Chapter 11 showed: they become revenue when '
+                       'Orontes delivers. Cash dividends become a liability '
+                       'on the ',
+                       13,
+                       ' date. A stock dividend ',
+                       15,
+                       ' is not a liability, because no assets will be '
+                       'paid.'],
+             'bank': ['declaration',
                       'sales tax payable',
-                      'withholding',
-                      'commercial paper'],
-             'a': 'sales tax payable · Compensated absences',
+                      'commercial paper',
+                      'liabilities',
+                      'distributable'],
+             'a': 'liabilities · declaration · distributable',
              'one': True,
-             'why': 'The book writes: “They are recorded as sales tax '
-                    'payable, not as revenue. Compensated absences, such as '
-                    'earned vacation, are accrued when employees have '
-                    'already worked for them, the rights vest or accumulate, '
-                    'and payment is probable. SC12-4 Employees of a company '
-                    'earn two days of vacation each month.”'},
+             'why': 'The book writes: “Customer deposits are contract '
+                    'liabilities, as Chapter 11 showed: they become revenue '
+                    'when Orontes delivers. Cash dividends become a '
+                    'liability on the declaration date. A stock dividend '
+                    'distributable is not a liability, because no assets '
+                    'will be paid.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['An ',
-                       25,
-                       ' only promises that a product will work as agreed. '
-                       'It is not a separate performance obligation. The '
-                       'company estimates the repair cost at the time of '
-                       'sale, records warranty expense and a ',
-                       20,
-                       ', and reduces the liability as repairs are made. A ',
-                       23,
-                       ' gives the customer an extra service, such as '
-                       'extended cover.'],
+             'parts': ['The ',
+                       12,
+                       ' amount cannot exceed the amount ',
+                       12,
+                       ' or available. Debt repaid with current assets '
+                       'before the new financing is obtained stays current. '
+                       'Refinanced debt moves to noncurrent ',
+                       13,
+                       ', never to equity, even when shares are issued.'],
              'bank': ['sales tax payable',
-                      'warranty liability',
+                      'refinanced',
                       'commercial paper',
-                      'service-type warranty',
-                      'assurance-type warranty'],
-             'a': 'assurance-type warranty · warranty liability · '
-                  'service-type warranty',
+                      'liabilities',
+                      'noncurrent'],
+             'a': 'noncurrent · refinanced · liabilities',
              'one': True,
-             'why': 'The book writes: “An assurance-type warranty only '
-                    'promises that a product will work as agreed. It is not '
-                    'a separate performance obligation. The company '
-                    'estimates the repair cost at the time of sale, records '
-                    'warranty expense and a warranty liability, and reduces '
-                    'the liability as repairs are made. A service-type '
-                    'warranty gives the customer an extra service, such as '
-                    'extended cover.”'},
+             'why': 'The book writes: “The noncurrent amount cannot exceed '
+                    'the amount refinanced or available. Debt repaid with '
+                    'current assets before the new financing is obtained '
+                    'stays current. Refinanced debt moves to noncurrent '
+                    'liabilities, never to equity, even when shares are '
+                    'issued.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The company estimates the repair cost at the time of '
-                       'sale, records warranty expense and a ',
-                       20,
-                       ', and reduces the liability as repairs are made. A ',
-                       23,
-                       ' gives the customer an extra service, such as '
-                       'extended cover.'],
-             'bank': ['commercial paper',
-                      'sales tax payable',
-                      'warranty liability',
-                      'service-type warranty'],
-             'a': 'warranty liability · service-type warranty',
+             'parts': ['Under IFRS, only ',
+                       11,
+                       ' that must be met on or before the reporting date '
+                       'affect ',
+                       16,
+                       '; future covenants are disclosed. The IAS 1 ',
+                       12,
+                       ' on classification and covenants apply from January '
+                       '1, 2024, and are testable now as IFRS contrasts.'],
+             'bank': ['amendments',
+                      'commercial paper',
+                      'covenants',
+                      'classification',
+                      'sales tax payable'],
+             'a': 'covenants · classification · amendments',
              'one': True,
-             'why': 'The book writes: “The company estimates the repair cost '
-                    'at the time of sale, records warranty expense and a '
-                    'warranty liability, and reduces the liability as '
-                    'repairs are made. A service-type warranty gives the '
-                    'customer an extra service, such as extended cover.”'}]),
+             'why': 'The book writes: “Under IFRS, only covenants that must '
+                    'be met on or before the reporting date affect '
+                    'classification; future covenants are disclosed. The IAS '
+                    '1 amendments on classification and covenants apply from '
+                    'January 1, 2024, and are testable now as IFRS '
+                    'contrasts.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -139,6 +148,7 @@ HANDOUT = {'id': '12.6',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -150,24 +160,6 @@ HANDOUT = {'id': '12.6',
              'a': 'C',
              'why': 'The book numbers “What makes a liability current” as '
                     'section 12.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.2?',
-             'o': ['IFRS and covenants',
-                   'What makes a liability current',
-                   'Payroll, taxes collected and compensated absences',
-                   'Short-term debt expected to be refinanced'],
-             'a': 'C',
-             'why': 'The book numbers “Payroll, taxes collected and '
-                    'compensated absences” as section 12.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.3?',
-             'o': ['What makes a liability current',
-                   'IFRS and covenants',
-                   'Payroll, taxes collected and compensated absences',
-                   'Short-term debt expected to be refinanced'],
-             'a': 'D',
-             'why': 'The book numbers “Short-term debt expected to be '
-                    'refinanced” as section 12.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -180,6 +172,48 @@ HANDOUT = {'id': '12.6',
              'a': ['A', 'B', 'C', 'D', 'E'],
              'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company sells a separately priced two-year extended '
+                  'warranty. It records the cash received as:',
+             'o': ['revenue at the sale',
+                   'a reduction of warranty expense',
+                   'a contract liability, recognized as revenue over two '
+                   'years',
+                   'a warranty liability for expected repairs'],
+             'a': 'C',
+             'why': 'A separately sold warranty is a service-type '
+                    'performance obligation. A is wrong: The service has not '
+                    'yet been provided. B is wrong: It is revenue, not a '
+                    'cost reduction.',
+             'src': 'P12-15'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company sold products for $800,000 with a one-year '
+                  'assurance warranty. It expects repairs of 3% of sales and '
+                  'spent $9,000 on repairs this year. What is the year-end '
+                  'warranty liability?',
+             'o': ['$0', '$9,000', '$15,000', '$24,000'],
+             'a': 'C',
+             'why': 'Accrual of $24,000 minus $9,000 of repairs. A is wrong: '
+                    'Future repairs are still expected. B is wrong: This is '
+                    'the repairs already made.',
+             'src': 'P12-16'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A warranty has an assurance element and a service '
+                  'element, but they cannot reasonably be accounted for '
+                  'separately. The company:',
+             'o': ['treats the whole warranty as one performance obligation',
+                   'accrues the whole warranty as a cost',
+                   'ignores the service element',
+                   'discloses the warranty only'],
+             'a': 'A',
+             'why': 'ASC 606 treats an inseparable combination as a single '
+                    'obligation. B is wrong: The service element cannot be '
+                    'treated only as a cost. C is wrong: The service element '
+                    'must be accounted for.',
+             'src': 'P12-19'}]),
           ('panel',
            'Suppose: Orontes, commercial paper of 3,000,000 — the extract '
            'for the question that follows',
@@ -247,20 +281,6 @@ HANDOUT = {'id': '12.6',
            ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Use the extract, scenario A, but Orontes reports under '
-                  'IFRS. How is the commercial paper classified at December '
-                  '31, 2026?',
-             'o': ['Noncurrent',
-                   'Half current, half noncurrent',
-                   'Equity',
-                   'Current'],
-             'a': 'D',
-             'why': 'IAS 1 looks only at the right to defer at the reporting '
-                    'date. A is wrong: This is the U.S. GAAP answer. B is '
-                    'wrong: There is no split under these facts.',
-             'src': 'SC12-7'}]),
-          ('items',
-           [{'t': 'MCQ',
              'q': 'A one-year warranty that a product will work as agreed '
                   'is:',
              'o': ['a service-type warranty; revenue is deferred',
@@ -278,44 +298,18 @@ HANDOUT = {'id': '12.6',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
-          ('panel',
-           'Suppose: Orontes, commercial paper of 3,000,000 — the extract '
-           'for the question that follows',
-           [['Suppose: Orontes, commercial paper of 3,000,000 ',
-             'Noncurrent (U.S. GAAP)',
-             'Current (U.S. GAAP)'],
-            ['A. Issues 5-year bonds on February 10 and uses the cash to '
-             'repay the paper at maturity',
-             '3,000,000',
-             '0'],
-            ['B. Repays the paper with cash on January 15, then issues bonds '
-             'on February 10',
-             '0',
-             '3,000,000'],
-            ['C. Issues shares on February 10 for 2,400,000 to repay the '
-             'paper',
-             '2,400,000',
-             '600,000'],
-            ['D. Signs a qualifying agreement on February 1 to borrow 80% of '
-             'inventory; inventory will not fall below 3,125,000',
-             '2,500,000',
-             '500,000'],
-            ["E. Same as D, but the lender may cancel if it sees a 'material "
-             "adverse change'",
-             '0',
-             '3,000,000']],
-           ''),
           ('check',
-           'Use the extract, scenario C. How much of the commercial paper is '
-           'shown as noncurrent (whole USD)?',
-           ['0', '600,000', '2,400,000', '3,000,000'],
-           'C',
+           "A company's year ends on December 31 and its statements are "
+           'issued on March 5. It issues long-term bonds on March 20 to '
+           'repay a note due in June. How is the note classified at December '
+           '31?',
+           ['Equity', 'Current', 'Split in proportion'],
+           'B',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'The share proceeds demonstrate ability up to that amount. A is '
-           'wrong: Equity issued to refinance can support noncurrent '
-           'classification. B is wrong: This is the part that stays '
-           'current.'),
+           'The refinancing happened after the statements were issued. A is '
+           'wrong: Ability must be shown before issuance. B is wrong: '
+           'Nothing supports noncurrent classification at issuance.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -343,146 +337,43 @@ HANDOUT = {'id': '12.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C12-1 ask for?',
-             'o': ['If the agreement in M1 allowed the bank to cancel after '
-                   "any 'material ",
-                   'Classify each item at December 31, 2027. (On the exam '
-                   'screen you would',
-                   'Enter the warranty liability at December 31, 2027.',
-                   "Enter Barada's total current liabilities at December 31, "
-                   '2027.'],
-             'a': 'B',
-             'why': 'The book states item C12-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C12-2 ask for?',
-             'o': ["Enter Barada's total current liabilities at December 31, "
-                   '2027.',
-                   'Enter the warranty liability at December 31, 2027.',
-                   'Enter the noncurrent part of the bank loan.',
-                   'Enter the 2027 revenue from the service plans.'],
-             'a': 'C',
-             'why': 'The book states item C12-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C12-3 ask for?',
-             'o': ['Enter the 2027 revenue from the service plans.',
-                   'Enter the noncurrent part of the bank loan.',
-                   "Enter Barada's total current liabilities at December 31, "
-                   '2027.',
-                   'Enter the warranty liability at December 31, 2027.'],
-             'a': 'D',
-             'why': 'The book states item C12-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C12-4 ask for?',
-             'o': ["Enter Barada's total current liabilities at December 31, "
-                   '2027.',
-                   'Enter the noncurrent part of the bank loan.',
-                   'Enter the 2027 revenue from the service plans.',
-                   'Enter the warranty liability at December 31, 2027.'],
-             'a': 'C',
-             'why': 'The book states item C12-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C12-5 ask for?',
-             'o': ['If the agreement in M1 allowed the bank to cancel after '
-                   "any 'material ",
-                   'Enter the warranty liability at December 31, 2027.',
-                   'Classify each item at December 31, 2027. (On the exam '
-                   'screen you would',
-                   "Enter Barada's total current liabilities at December 31, "
-                   '2027.'],
-             'a': 'D',
-             'why': 'The book states item C12-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C12-6 ask for?',
-             'o': ['If the agreement in M1 allowed the bank to cancel after '
-                   "any 'material ",
-                   'Enter the warranty liability at December 31, 2027.',
-                   'Classify each item at December 31, 2027. (On the exam '
-                   'screen you would',
-                   "Enter Barada's total current liabilities at December 31, "
-                   '2027.'],
-             'a': 'A',
-             'why': 'The book states item C12-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter the noncurrent part of the bank loan.',
+                      'If the agreement in M1 allowed the bank to cancel '
+                      "after any 'material adverse change', the bank loan "
+                      'would be: [select]',
+                      "Enter Barada's total current liabilities at December "
+                      '31, 2027.',
+                      'Enter the 2027 revenue from the service plans.',
+                      'Classify each item at December 31, 2027. (On the exam '
+                      'screen you would drag each item into a box.)',
+                      'Enter the warranty liability at December 31, 2027.'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['B', 'F', 'E', 'D', 'A', 'C'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('panel',
-           'Suppose: Orontes, commercial paper of 3,000,000 — the extract '
-           'for the question that follows',
-           [['Suppose: Orontes, commercial paper of 3,000,000 ',
-             'Noncurrent (U.S. GAAP)',
-             'Current (U.S. GAAP)'],
-            ['A. Issues 5-year bonds on February 10 and uses the cash to '
-             'repay the paper at maturity',
-             '3,000,000',
-             '0'],
-            ['B. Repays the paper with cash on January 15, then issues bonds '
-             'on February 10',
-             '0',
-             '3,000,000'],
-            ['C. Issues shares on February 10 for 2,400,000 to repay the '
-             'paper',
-             '2,400,000',
-             '600,000'],
-            ['D. Signs a qualifying agreement on February 1 to borrow 80% of '
-             'inventory; inventory will not fall below 3,125,000',
-             '2,500,000',
-             '500,000'],
-            ["E. Same as D, but the lender may cancel if it sees a 'material "
-             "adverse change'",
-             '0',
-             '3,000,000']],
-           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Use the extract, scenario C. How much of the commercial '
-                  'paper is shown as noncurrent (whole USD)?',
-             'o': ['0', '600,000', '2,400,000', '3,000,000'],
-             'a': 'C',
-             'why': 'The share proceeds demonstrate ability up to that '
-                    'amount. A is wrong: Equity issued to refinance can '
-                    'support noncurrent classification. B is wrong: This is '
-                    'the part that stays current.',
-             'src': 'SC12-6'}]),
-          ('panel',
-           'Suppose: Orontes, commercial paper of 3,000,000 — the extract '
-           'for the question that follows',
-           [['Suppose: Orontes, commercial paper of 3,000,000 ',
-             'Noncurrent (U.S. GAAP)',
-             'Current (U.S. GAAP)'],
-            ['A. Issues 5-year bonds on February 10 and uses the cash to '
-             'repay the paper at maturity',
-             '3,000,000',
-             '0'],
-            ['B. Repays the paper with cash on January 15, then issues bonds '
-             'on February 10',
-             '0',
-             '3,000,000'],
-            ['C. Issues shares on February 10 for 2,400,000 to repay the '
-             'paper',
-             '2,400,000',
-             '600,000'],
-            ['D. Signs a qualifying agreement on February 1 to borrow 80% of '
-             'inventory; inventory will not fall below 3,125,000',
-             '2,500,000',
-             '500,000'],
-            ["E. Same as D, but the lender may cancel if it sees a 'material "
-             "adverse change'",
-             '0',
-             '3,000,000']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Use the extract, scenario A, but Orontes reports under '
-                  'IFRS. How is the commercial paper classified at December '
-                  '31, 2026?',
-             'o': ['Noncurrent',
-                   'Half current, half noncurrent',
-                   'Equity',
-                   'Current'],
-             'a': 'D',
-             'why': 'IAS 1 looks only at the right to defer at the reporting '
-                    'date. A is wrong: This is the U.S. GAAP answer. B is '
-                    'wrong: There is no split under these facts.',
-             'src': 'SC12-7'}]),
+             'q': 'When short-term debt is excluded from current liabilities '
+                  'because of refinancing, the company must disclose:',
+             'o': ['a description of the financing agreement and the terms '
+                   'of the new obligation',
+                   'nothing, because the debt is noncurrent',
+                   'only the interest rate',
+                   "the bank's credit rating"],
+             'a': 'A',
+             'why': 'ASC 470 requires this disclosure. B is wrong: '
+                    'Disclosure is required. C is wrong: The disclosure is '
+                    'broader.',
+             'src': 'P12-12'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

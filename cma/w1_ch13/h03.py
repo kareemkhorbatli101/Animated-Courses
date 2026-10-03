@@ -7,16 +7,11 @@ HANDOUT = {'id': '13.3',
  'title': 'Measuring current and deferred taxes',
  'sub': 'section 13.3 of the book',
  'covers': ['sec:13.3',
-            'sc:SC13-3',
             'sc:SC13-4',
-            'p:P13-13',
-            'p:P13-14',
-            'p:P13-15',
-            'p:P13-16',
-            'sc:SC13-1',
+            'p:P13-04',
+            'sc:SC13-3',
             'sc:SC13-2',
-            'p:P13-17',
-            'p:P13-18',
+            'sc:SC13-2',
             'sc:SC13-1',
             'sc:SC13-2',
             'term:permanent difference',
@@ -31,57 +26,41 @@ HANDOUT = {'id': '13.3',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Measuring current and deferred taxes',
-             'a figure to read · Suppose: Orontes, 2026 (whole USD) · the '
-             'book’s own rule, gapped',
-             'What is the purpose of interperiod tax allocation?'],
+             'a figure to read · Suppose: Orontes, 2026 (whole USD) · '
+             'Orontes Foods Inc., 2025 (whole USD)',
+             'The extract for this question is printed with it. What is '
+             "Orontes's deferred tax expense for 2025 (whole USD)?"],
             ['The words this section uses precisely',
              'Suppose: Orontes, 2026 (whole USD) · The English the exam '
-             'uses, and what it translates · Orontes Foods Inc., 2025 (whole '
-             'USD)',
+             'uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Current tax is ',
+             'parts': ['U.S. GAAP uses the balance sheet approach. Current '
+                       'tax is ',
                        16,
                        ' times the tax rate. Deferred tax liabilities and '
                        'assets are the temporary differences times the ',
                        18,
                        ' that will apply when they reverse.'],
-             'bank': ['enacted tax rate',
-                      'tax basis',
-                      'valuation allowance',
-                      'taxable income'],
+             'bank': ['valuation allowance',
+                      'taxable income',
+                      'enacted tax rate',
+                      'tax basis'],
              'a': 'taxable income · enacted tax rate',
              'one': True,
-             'why': 'The book writes: “Current tax is taxable income times '
-                    'the tax rate. Deferred tax liabilities and assets are '
-                    'the temporary differences times the enacted tax rate '
-                    'that will apply when they reverse.”'},
+             'why': 'The book writes: “U.S. GAAP uses the balance sheet '
+                    'approach. Current tax is taxable income times the tax '
+                    'rate. Deferred tax liabilities and assets are the '
+                    'temporary differences times the enacted tax rate that '
+                    'will apply when they reverse.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['',
-                       22,
-                       ' is the change in the net ',
-                       24,
-                       ' during the year. Deferred taxes follow from the '
-                       'same differences.'],
-             'bank': ['Deferred tax expense',
-                      'tax basis',
-                      'valuation allowance',
-                      'deferred tax liability'],
-             'a': 'Deferred tax expense · deferred tax liability',
-             'one': True,
-             'why': 'The book writes: “Deferred tax expense is the change in '
-                    'the net deferred tax liability during the year. '
-                    'Deferred taxes follow from the same differences.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['Current tax is ',
                        16,
                        ' times the tax rate. Deferred tax liabilities and '
@@ -92,12 +71,12 @@ HANDOUT = {'id': '13.3',
                        ' is the change in the net ',
                        24,
                        ' during the year.'],
-             'bank': ['enacted tax rate',
+             'bank': ['Deferred tax expense',
                       'tax basis',
+                      'deferred tax liability',
+                      'enacted tax rate',
                       'valuation allowance',
-                      'taxable income',
-                      'Deferred tax expense',
-                      'deferred tax liability'],
+                      'taxable income'],
              'a': 'taxable income · enacted tax rate · Deferred tax expense '
                   '· deferred tax liability',
              'one': True,
@@ -106,7 +85,26 @@ HANDOUT = {'id': '13.3',
                     'the temporary differences times the enacted tax rate '
                     'that will apply when they reverse. Deferred tax expense '
                     'is the change in the net deferred tax liability during '
-                    'the year.”'}],
+                    'the year.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Deferred taxes follow from the same differences. The '
+                       'equipment creates a ',
+                       24,
+                       ' of $150,000, and the warranty a ',
+                       20,
+                       ' of $9,500.'],
+             'bank': ['deferred tax liability',
+                      'tax basis',
+                      'valuation allowance',
+                      'deferred tax asset'],
+             'a': 'deferred tax liability · deferred tax asset',
+             'one': True,
+             'why': 'The book writes: “Deferred taxes follow from the same '
+                    'differences. The equipment creates a deferred tax '
+                    'liability of $150,000, and the warranty a deferred tax '
+                    'asset of $9,500.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -171,62 +169,15 @@ HANDOUT = {'id': '13.3',
              'why': 'The book’s own table gives 357,000 as the amount of '
                     'Current tax expense.'},
             {'t': 'MCQ',
-             'q': 'Which amount does the book give for Deferred tax '
-                  'liability created: 25% × 600,000?',
-             'o': ['150,000', '357,000', '(9,500)', '140,500'],
-             'a': 'A',
-             'why': 'The book’s own table gives 150,000 as the amount of '
-                    'Deferred tax liability created: 25% × 600,000.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Deferred tax asset '
-                  'created: 25% × 38,000?',
-             'o': ['150,000', '(9,500)', '357,000', '140,500'],
-             'a': 'B',
-             'why': 'The book’s own table gives (9,500) as the amount of '
-                    'Deferred tax asset created: 25% × 38,000.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Deferred tax expense?',
-             'o': ['150,000', '357,000', '(9,500)', '140,500'],
-             'a': 'D',
-             'why': 'The book’s own table gives 140,500 as the amount of '
-                    'Deferred tax expense.'}]),
-          ('move', 'INVENT THE RULE', ''),
-          ('rule',
-           'Complete the book’s own sentence. The list holds more words than '
-           'there are gaps.',
-           [['', 22, ' is the change in the net ', 24, ' during the year.']],
-           ['Deferred tax expense',
-            'deferred tax liability',
-            'tax basis',
-            'permanent difference'],
-           'Deferred tax expense is the change in the net deferred tax '
-           'liability during the year.',
-           'Deferred tax expense · deferred tax liability'),
-          ('contrast',
-           'Two of the book’s own cases, side by side',
-           [('Total income tax expense', ['Amount: 497,500']),
-            ('Tax at the statutory rate: 25% × 2,000,000',
-             ['Amount: 500,000'])],
-           'Only the facts above differ. What is the % of pretax income of '
-           'Total income tax expense?',
-           ['0.125%', '25.000%', '-0.250%', '24.875%'],
-           'D',
-           'The book gives 24.875% as the % of pretax income of Total income '
-           'tax expense.'),
+             'q': 'Which % of pretax income does the book give for Total '
+                  'income tax expense?',
+             'o': ['-0.250%', '25.000%', '24.875%', '0.125%'],
+             'a': 'C',
+             'why': 'The book’s own table gives 24.875% as the % of pretax '
+                    'income of Total income tax expense.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item is a permanent difference?',
-             'o': ['Accelerated tax depreciation',
-                   'Interest on tax-exempt municipal bonds',
-                   'An accrued warranty expense',
-                   'Rent received in advance'],
-             'a': 'B',
-             'why': 'It is never taxable, so it never reverses. A is wrong: '
-                    "Depreciation differences reverse over the asset's life. "
-                    'C is wrong: The warranty becomes deductible when paid.',
-             'src': 'SC13-3'},
-            {'t': 'MCQ',
              'q': 'A company deducts depreciation faster for tax than for '
                   'books. This creates:',
              'o': ['a deferred tax asset',
@@ -239,74 +190,61 @@ HANDOUT = {'id': '13.3',
                     "The difference reverses over the asset's life.",
              'src': 'SC13-4'},
             {'t': 'MCQ',
-             'q': 'Which evidence MOST suggests that a valuation allowance '
-                  'is needed?',
-             'o': ['Cumulative losses in recent years',
-                   'A long record of profits',
-                   'Large deferred tax liabilities reversing in the same '
-                   'years',
-                   'A signed contract that will produce taxable profits'],
-             'a': 'A',
-             'why': 'Recent cumulative losses are strong negative evidence. '
-                    'B is wrong: Profits support realization. C is wrong: '
-                    'Reversing DTLs are a source of taxable income.',
-             'src': 'P13-13'},
-            {'t': 'MCQ',
-             'q': 'A U.S. company has a federal tax loss in 2026. Under '
-                  'current law it can:',
-             'o': ['carry it back two years for a refund',
-                   'carry the loss forward without a time limit, using it '
-                   'against up to 80% of future taxable income each year',
-                   'carry it forward for 20 years only',
-                   'deduct it only in 2027'],
+             'q': 'A law signed on July 4 cuts the tax rate from next year. '
+                  'When does the company record the effect on its deferred '
+                  'tax balances?',
+             'o': ['Next year, when the new rate applies',
+                   'In the period that includes July 4',
+                   'Over the years the differences reverse',
+                   'Never; only current tax changes'],
              'a': 'B',
-             'why': 'Post-2017 federal NOLs have no carryback and an 80% '
-                    'limit. A is wrong: Carrybacks were removed for most '
-                    'companies. C is wrong: The 20-year limit applied to '
-                    'older losses.',
-             'src': 'P13-14'},
+             'why': 'The enactment date decides the period. A is wrong: The '
+                    'effective date is not the trigger. C is wrong: The '
+                    'effect is recorded at once, not spread.',
+             'src': 'P13-04'},
             {'t': 'MCQ',
-             'q': 'A company has a deferred tax liability in the United '
-                  'States and a deferred tax asset in France. How are they '
-                  'presented?',
-             'o': ['As one net amount',
-                   'As current items',
-                   'Only in the notes',
-                   'Separately: they are in different tax jurisdictions'],
-             'a': 'D',
-             'why': 'Offsetting is allowed only within one jurisdiction. A '
-                    'is wrong: Different jurisdictions cannot be netted. B '
-                    'is wrong: Deferred taxes are noncurrent.',
-             'src': 'P13-15'},
-            {'t': 'MCQ',
-             'q': "A company's DTL of $200,000 (at 25%) relates to "
-                  'differences that reverse after a new enacted rate of 21% '
-                  'takes effect. What is the DTL?',
-             'o': ['$42,000', '$168,000', '$200,000', '$232,000'],
+             'q': 'Which item is a permanent difference?',
+             'o': ['Accelerated tax depreciation',
+                   'Interest on tax-exempt municipal bonds',
+                   'An accrued warranty expense',
+                   'Rent received in advance'],
              'a': 'B',
-             'why': 'Difference of $800,000 × 21%. A is wrong: This is only '
-                    'the 21% rate applied to the old DTL. C is wrong: The '
-                    'enacted rate at reversal must be used.',
-             'src': 'P13-16'}]),
+             'why': 'It is never taxable, so it never reverses. A is wrong: '
+                    "Depreciation differences reverse over the asset's life. "
+                    'C is wrong: The warranty becomes deductible when paid.',
+             'src': 'SC13-3'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
+          ('panel',
+           'Orontes Foods Inc., 2025 (whole USD) — the extract for the '
+           'question that follows',
+           [['Orontes Foods Inc., 2025 (whole USD)', 'Amount'],
+            ['Income before income taxes', '3,958,800'],
+            ['Income tax expense (25% combined federal and state rate)',
+             '989,700'],
+            ['Current tax expense (taxes on 2025 taxable income)', '889,700'],
+            ['Deferred tax expense (25% of the 400,000 increase in net '
+             'taxable temporary differences)',
+             '100,000'],
+            ['Income taxes paid in cash (Chapter 5)', '839,700'],
+            ['Deferred tax liability, January 1, 2025', '900,000'],
+            ['Deferred tax liability, December 31, 2025 (after the 375 tax '
+             'effect of the OCI loss)',
+             '999,625']],
+           ''),
           ('check',
-           'What is the purpose of interperiod tax allocation?',
-           ['To report only the tax paid in cash',
-            'To make taxable income equal book income',
-            'To spread tax expense evenly over five years',
-            'To recognize the tax effects of transactions in the same '
-            'periods as the transactions'],
-           'D',
+           'The extract for this question is printed with it. What is '
+           "Orontes's deferred tax expense for 2025 (whole USD)?",
+           ['100,000', '400,000', '989,700', '999,625'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'Deferred taxes match tax expense to the period of the related '
-           'income. A is wrong: Cash taxes ignore timing differences. B is '
-           'wrong: The two incomes still differ; deferred taxes account for '
-           'it.'),
+           '25% of the 400,000 increase in net taxable temporary '
+           'differences. B is wrong: This is the difference itself, before '
+           'applying the rate. C is wrong: This is total tax expense.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -365,47 +303,45 @@ HANDOUT = {'id': '13.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'An IFRS company expects to use only $60,000 of a '
-                  'potential $100,000 deferred tax asset. Under IAS 12 it '
-                  'reports:',
-             'o': ['a $100,000 asset and a $40,000 allowance',
-                   'no deferred tax asset',
-                   'a deferred tax asset of $60,000',
-                   'a $100,000 asset'],
-             'a': 'C',
-             'why': 'IAS 12 recognizes only the probable amount. A is wrong: '
-                    'This is the U.S. GAAP presentation. B is wrong: The '
-                    'probable part is recognized.',
-             'src': 'P13-17'},
+             'q': 'A company has a deferred tax asset of $100,000. It is '
+                  'more likely than not that only $60,000 will be realized. '
+                  'It reports:',
+             'o': ['a $60,000 asset with no allowance account',
+                   'a $100,000 asset with no allowance',
+                   'a $40,000 liability',
+                   'the $100,000 asset and a $40,000 valuation allowance'],
+             'a': 'D',
+             'why': 'U.S. GAAP records the full DTA and a separate '
+                    'allowance. A is wrong: This is the IFRS net approach. B '
+                    'is wrong: An allowance is needed for the part not '
+                    'expected to be realized.',
+             'src': 'SC13-8'},
             {'t': 'MCQ',
-             'q': 'How does a U.S. company account for the Pillar Two global '
-                  'minimum top-up tax?',
-             'o': ['By recording a deferred tax liability',
-                   'As a current cost in the period, with no deferred taxes',
-                   'By remeasuring all deferred taxes at 15%',
-                   'As OCI'],
-             'a': 'B',
-             'why': 'It is treated like an alternative minimum tax. A is '
-                    'wrong: No deferred taxes are recorded for it. C is '
-                    'wrong: Existing deferred taxes are not remeasured.',
-             'src': 'P13-18'}]),
-          ('panel',
-           'Orontes Foods Inc., 2025 (whole USD) — the extract for the '
-           'question that follows',
-           [['Orontes Foods Inc., 2025 (whole USD)', 'Amount'],
-            ['Income before income taxes', '3,958,800'],
-            ['Income tax expense (25% combined federal and state rate)',
-             '989,700'],
-            ['Current tax expense (taxes on 2025 taxable income)', '889,700'],
-            ['Deferred tax expense (25% of the 400,000 increase in net '
-             'taxable temporary differences)',
-             '100,000'],
-            ['Income taxes paid in cash (Chapter 5)', '839,700'],
-            ['Deferred tax liability, January 1, 2025', '900,000'],
-            ['Deferred tax liability, December 31, 2025 (after the 375 tax '
-             'effect of the OCI loss)',
-             '999,625']],
-           ''),
+             'q': 'A tax rate cut has been announced by the government but '
+                  'not yet signed into law. Under IFRS it is substantively '
+                  'enacted. Which rate does a U.S. GAAP company use?',
+             'o': ['The announced rate',
+                   'An average of the two',
+                   'The rate the company expects',
+                   'The current enacted rate'],
+             'a': 'D',
+             'why': 'U.S. GAAP uses enacted rates only. A is wrong: '
+                    'Substantively enacted is an IFRS concept. B is wrong: '
+                    'There is no averaging.',
+             'src': 'SC13-9'},
+            {'t': 'MCQ',
+             'q': 'What is the purpose of interperiod tax allocation?',
+             'o': ['To report only the tax paid in cash',
+                   'To make taxable income equal book income',
+                   'To spread tax expense evenly over five years',
+                   'To recognize the tax effects of transactions in the same '
+                   'periods as the transactions'],
+             'a': 'D',
+             'why': 'Deferred taxes match tax expense to the period of the '
+                    'related income. A is wrong: Cash taxes ignore timing '
+                    'differences. B is wrong: The two incomes still differ; '
+                    'deferred taxes account for it.',
+             'src': 'SC13-1'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'The extract for this question is printed with it. What is '
@@ -417,6 +353,56 @@ HANDOUT = {'id': '13.3',
                     'before applying the rate. C is wrong: This is total tax '
                     'expense.',
              'src': 'SC13-2'}]),
+          ('panel',
+           'Suppose: Orontes, 2026 (whole USD) — the extract for the '
+           'question that follows',
+           [['Suppose: Orontes, 2026 (whole USD)', 'Amount'],
+            ['Income before income taxes (book)', '2,000,000'],
+            ['Less: tax-exempt municipal interest (permanent)', '(20,000)'],
+            ['Add: fine, not deductible (permanent)', '10,000'],
+            ['Less: tax depreciation 900,000 above book depreciation 300,000 '
+             '(temporary)',
+             '(600,000)'],
+            ['Add: warranty expense 60,000 not yet deductible; repairs paid '
+             '22,000 (temporary)',
+             '38,000'],
+            ['Taxable income', '1,428,000'],
+            ['Current tax expense at 25%', '357,000']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What is '
+                  "Orontes's 2026 taxable income (whole USD)?",
+             'o': ['357,000', '1,428,000', '1,990,000', '2,000,000'],
+             'a': 'B',
+             'why': 'Pretax income adjusted for the permanent and temporary '
+                    'differences. A is wrong: This is the current tax, not '
+                    'taxable income. C is wrong: This ignores the temporary '
+                    'differences.',
+             'src': 'SC13-5'}]),
+          ('panel',
+           'Suppose: Orontes, 2026 (whole USD) — the extract for the '
+           'question that follows',
+           [['Suppose: Orontes, 2026 (whole USD)',
+             'Amount',
+             '% of pretax income'],
+            ['Current tax expense', '357,000', ''],
+            ['Deferred tax liability created: 25% × 600,000', '150,000', ''],
+            ['Deferred tax asset created: 25% × 38,000', '(9,500)', ''],
+            ['Deferred tax expense', '140,500', ''],
+            ['Total income tax expense', '497,500', '24.875%'],
+            ['Rate reconciliation (ASU 2023-09 style)', '', ''],
+            ['Tax at the statutory rate: 25% × 2,000,000',
+             '500,000',
+             '25.000%'],
+            ['Nontaxable or nondeductible items: municipal interest',
+             '(5,000)',
+             '-0.250%'],
+            ['Nontaxable or nondeductible items: fine', '2,500', '0.125%'],
+            ['Income tax expense and effective tax rate',
+             '497,500',
+             '24.875%']],
+           ''),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

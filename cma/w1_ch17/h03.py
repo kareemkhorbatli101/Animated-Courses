@@ -7,11 +7,8 @@ HANDOUT = {'id': '17.3',
  'title': '(iii) Inventories',
  'sub': 'section 17.3 of the book',
  'covers': ['sec:17.3',
-            'p:P17-13',
-            'p:P17-14',
-            'p:P17-15',
+            'p:P17-08',
             'p:P17-16',
-            'sc:P17-13',
             'term:development costs',
             'term:graded vesting',
             'term:fair value less costs of disposal'],
@@ -25,9 +22,7 @@ HANDOUT = {'id': '17.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['(iii) Inventories',
              'a figure to read · Item',
-             'An asset has a carrying amount of $500,000, fair value less '
-             'costs of disposal of $420,000 and value in use of $460,000. '
-             'What is the IFRS impairment loss?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -36,8 +31,8 @@ HANDOUT = {'id': '17.3',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['GAAP allows it, and companies that use LIFO for tax '
-                       'must also use it in their ',
+             'parts': ['U.S. GAAP allows it, and companies that use LIFO for '
+                       'tax must also use it in their ',
                        11,
                        ' ',
                        12,
@@ -53,18 +48,18 @@ HANDOUT = {'id': '17.3',
                       'value in use'],
              'a': 'financial · statements · frameworks',
              'one': True,
-             'why': 'The book writes: “GAAP allows it, and companies that '
-                    'use LIFO for tax must also use it in their financial '
-                    'statements. Chapter 7 showed how LIFO changes cost of '
-                    'goods sold when prices rise. Both frameworks write '
-                    'inventory down when its value falls below cost.”'},
+             'why': 'The book writes: “U.S. GAAP allows it, and companies '
+                    'that use LIFO for tax must also use it in their '
+                    'financial statements. Chapter 7 showed how LIFO changes '
+                    'cost of goods sold when prices rise. Both frameworks '
+                    'write inventory down when its value falls below cost.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
              'parts': ['IAS 2 uses the lower of cost and NRV for all ',
                        11,
-                       '. GAAP uses lower of cost and NRV for FIFO and '
+                       '. U.S. GAAP uses lower of cost and NRV for FIFO and '
                        'average cost, but lower of cost or market for LIFO '
                        'and the retail method. The key ',
                        12,
@@ -79,29 +74,36 @@ HANDOUT = {'id': '17.3',
              'a': 'inventory · difference · recovers',
              'one': True,
              'why': 'The book writes: “IAS 2 uses the lower of cost and NRV '
-                    'for all inventory. GAAP uses lower of cost and NRV for '
-                    'FIFO and average cost, but lower of cost or market for '
-                    'LIFO and the retail method. The key difference comes '
-                    'when value recovers.”'},
+                    'for all inventory. U.S. GAAP uses lower of cost and NRV '
+                    'for FIFO and average cost, but lower of cost or market '
+                    'for LIFO and the retail method. The key difference '
+                    'comes when value recovers.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
              'parts': ['IFRS reverses the ',
                        12,
-                       ', but never above the original cost. ',
+                       ', but never above the original cost. French stocks '
+                       'means ',
                        11,
-                       ' write-down and recovery: IFRS reverses, U.S. French '
-                       'stocks means inventory, not shares.'],
-             'bank': ['value in use',
+                       ', not shares. French dépréciation des stocks is a '
+                       'write-down, not ',
+                       14,
+                       '. In U.S. terms, a write-down reduces the inventory '
+                       'itself; do not call it a provision or a reserve.'],
+             'bank': ['recoverability test',
+                      'value in use',
                       'write-down',
-                      'recoverability test',
-                      'Inventory'],
-             'a': 'write-down · Inventory',
+                      'depreciation',
+                      'inventory'],
+             'a': 'write-down · inventory · depreciation',
              'one': True,
              'why': 'The book writes: “IFRS reverses the write-down, but '
-                    'never above the original cost. Inventory write-down and '
-                    'recovery: IFRS reverses, U.S. French stocks means '
-                    'inventory, not shares.”'}],
+                    'never above the original cost. French stocks means '
+                    'inventory, not shares. French dépréciation des stocks '
+                    'is a write-down, not depreciation. In U.S. terms, a '
+                    'write-down reduces the inventory itself; do not call it '
+                    'a provision or a reserve.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -154,70 +156,21 @@ HANDOUT = {'id': '17.3',
                    '(iv) Leases: the lessee'],
              'a': 'A',
              'why': 'The book numbers “(ii) Intangible assets” as section '
-                    '17.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.3?',
-             'o': ['(iii) Inventories',
-                   '(vi) Impairment',
-                   '(ii) Intangible assets',
-                   '(v) Long-lived assets'],
-             'a': 'A',
-             'why': 'The book numbers “(iii) Inventories” as section 17.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.4?',
-             'o': ['(v) Long-lived assets',
-                   '(ii) Intangible assets',
-                   '(iii) Inventories',
-                   '(iv) Leases: the lessee'],
-             'a': 'D',
-             'why': 'The book numbers “(iv) Leases: the lessee” as section '
-                    '17.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.5?',
-             'o': ['(ii) Intangible assets',
-                   '(iii) Inventories',
-                   '(v) Long-lived assets',
-                   '(iv) Leases: the lessee'],
-             'a': 'C',
-             'why': 'The book numbers “(v) Long-lived assets” as section '
-                    '17.5.'}]),
+                    '17.2.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'An asset has a carrying amount of $500,000, fair value '
-                  'less costs of disposal of $420,000 and value in use of '
-                  '$460,000. What is the IFRS impairment loss?',
-             'o': ['$0', '$40,000', '$60,000', '$80,000'],
+             'q': "A lessee's payments rise each year with the CPI. After a "
+                  'CPI increase, under IFRS 16 the lessee:',
+             'o': ['expenses the increase with no remeasurement',
+                   'remeasures the lease liability',
+                   'reclassifies the lease',
+                   'records a gain'],
              'a': 'B',
-             'why': 'Recoverable amount is the higher amount, $460,000. A is '
-                    'wrong: IFRS has no undiscounted screen. C is wrong: '
-                    'This uses an average.',
-             'src': 'P17-13'},
-            {'t': 'MCQ',
-             'q': 'Goodwill was impaired last year. This year the '
-                  'cash-generating unit recovers. Under IFRS, the goodwill '
-                  'impairment is:',
-             'o': ['reversed in full',
-                   'reversed up to original cost',
-                   'reversed through OCI',
-                   'never reversed'],
-             'a': 'D',
-             'why': 'IAS 36 prohibits reversal of goodwill impairment. A is '
-                    'wrong: Goodwill impairments are never reversed. B is '
-                    'wrong: No reversal is allowed for goodwill.',
-             'src': 'P17-14'},
-            {'t': 'MCQ',
-             'q': "What is the IFRS equivalent of a U.S. 'asset group' in "
-                  'impairment testing?',
-             'o': ['A reporting unit',
-                   'A cash-generating unit',
-                   'A disposal group',
-                   'A component of an entity'],
-             'a': 'B',
-             'why': 'IAS 36 tests assets in cash-generating units. A is '
-                    'wrong: A reporting unit is the U.S. goodwill level. C '
-                    'is wrong: A disposal group is for assets held for sale.',
-             'src': 'P17-15'},
+             'why': 'IFRS 16 remeasures for index changes; ASC 842 does not. '
+                    'A is wrong: This is the U.S. GAAP treatment. C is '
+                    'wrong: Classification is not affected.',
+             'src': 'P17-08'},
             {'t': 'MCQ',
              'q': 'Which pair shows a correct difference?',
              'o': ['U.S.: research and development expensed; IFRS: '
@@ -236,16 +189,14 @@ HANDOUT = {'id': '17.3',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'An asset has a carrying amount of $500,000, fair value less '
-           'costs of disposal of $420,000 and value in use of $460,000. What '
-           'is the IFRS impairment loss?',
-           ['$0', '$40,000', '$60,000', '$80,000'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Recoverable amount is the higher amount, $460,000. A is wrong: '
-           'IFRS has no undiscounted screen. C is wrong: This uses an '
-           'average.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -273,12 +224,16 @@ HANDOUT = {'id': '17.3',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

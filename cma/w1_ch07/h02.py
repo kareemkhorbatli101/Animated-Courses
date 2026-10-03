@@ -7,13 +7,9 @@ HANDOUT = {'id': '7.2',
  'title': 'Which costs belong in inventory?',
  'sub': 'section 7.2 of the book',
  'covers': ['sec:7.2',
-            'p:P7-07',
-            'p:P7-08',
-            'p:P7-09',
-            'p:P7-10',
-            'sc:P7-07',
-            'p:P7-11',
-            'p:P7-12',
+            'p:P7-03',
+            'p:P7-13',
+            'p:P7-14',
             'term:cost of goods sold',
             'term:periodic inventory system',
             'term:fob shipping point',
@@ -30,7 +26,7 @@ HANDOUT = {'id': '7.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Which costs belong in inventory?',
              'a figure to read · Item · the book’s own rule, gapped',
-             'Specific identification is MOST appropriate for:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -39,36 +35,27 @@ HANDOUT = {'id': '7.2',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['These are inventoriable costs: they stay in ',
-                       11,
-                       ' as an asset, and they become ',
-                       20,
-                       ' when the goods are sold. Other costs are period '
-                       'costs: they are expenses in the period in which they '
-                       'occur. For goods that are bought, cost includes the '
+             'parts': ['For goods that are bought, cost includes the '
                        'purchase price, ',
                        12,
                        ', import duties, non-refundable taxes and handling, '
                        'less trade discounts and any ',
                        19,
-                       ' taken for early payment.'],
-             'bank': ['cost of goods sold',
-                      'purchase discount',
-                      'abnormal waste',
+                       ' taken for early payment. For goods that are made, '
+                       'cost also includes direct labor and production '
+                       'overhead.'],
+             'bank': ['abnormal waste',
                       'FOB shipping point',
-                      'freight-in',
-                      'inventory'],
-             'a': 'inventory · cost of goods sold · freight-in · purchase '
-                  'discount',
+                      'purchase discount',
+                      'freight-in'],
+             'a': 'freight-in · purchase discount',
              'one': True,
-             'why': 'The book writes: “These are inventoriable costs: they '
-                    'stay in inventory as an asset, and they become cost of '
-                    'goods sold when the goods are sold. Other costs are '
-                    'period costs: they are expenses in the period in which '
-                    'they occur. For goods that are bought, cost includes '
-                    'the purchase price, freight-in, import duties, '
+             'why': 'The book writes: “For goods that are bought, cost '
+                    'includes the purchase price, freight-in, import duties, '
                     'non-refundable taxes and handling, less trade discounts '
-                    'and any purchase discount taken for early payment.”'},
+                    'and any purchase discount taken for early payment. For '
+                    'goods that are made, cost also includes direct labor '
+                    'and production overhead.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -104,29 +91,28 @@ HANDOUT = {'id': '7.2',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       13,
-                       's include ',
-                       13,
-                       ' to customers, sales commissions, advertising, '
-                       'general and administrative costs, and the storage of '
-                       'finished goods. Interest on ',
+             'parts': ['Other costs are shown below (whole dollars). The two '
+                       'costs at the bottom of the table happen after the '
+                       'goods are ready for use. They do not bring the '
+                       'bottles to their present ',
                        11,
-                       ' that is produced routinely is also a period cost. '
-                       'Inventoriable costs versus period costs.'],
+                       ' and ',
+                       11,
+                       ', so they are ',
+                       11,
+                       '.'],
              'bank': ['FOB shipping point',
                       'abnormal waste',
-                      'freight-out',
-                      'Period cost',
-                      'inventory'],
-             'a': 'Period cost · freight-out · inventory',
+                      'location',
+                      'condition',
+                      'expenses'],
+             'a': 'condition · location · expenses',
              'one': True,
-             'why': 'The book writes: “Period costs include freight-out to '
-                    'customers, sales commissions, advertising, general and '
-                    'administrative costs, and the storage of finished '
-                    'goods. Interest on inventory that is produced routinely '
-                    'is also a period cost. Inventoriable costs versus '
-                    'period costs.”'}],
+             'why': 'The book writes: “Other costs are shown below (whole '
+                    'dollars). The two costs at the bottom of the table '
+                    'happen after the goods are ready for use. They do not '
+                    'bring the bottles to their present condition and '
+                    'location, so they are expenses.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -154,9 +140,11 @@ HANDOUT = {'id': '7.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the amount of Invoice price as “20,000”.',
+             'q': 'The book gives the amount of Cost of the bottles in '
+                  'inventory as “22,000”.',
              'a': 'T',
-             'why': 'The book pairs Invoice price with “20,000”.'}]),
+             'why': 'The book pairs Cost of the bottles in inventory with '
+                    '“22,000”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'cost_split'),
           ('panel',
@@ -183,38 +171,12 @@ HANDOUT = {'id': '7.2',
              'a': 'C',
              'why': 'The book’s own table gives 20,000 as the amount of '
                     'Invoice price.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Purchase discount '
-                  'taken?',
-             'o': ['20,000', '22,000', '1,200', '(400)'],
-             'a': 'D',
-             'why': 'The book’s own table gives (400) as the amount of '
-                    'Purchase discount taken.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Freight-in from the '
-                  'port to Amman?',
-             'o': ['20,000', '22,000', '(400)', '1,200'],
-             'a': 'D',
-             'why': 'The book’s own table gives 1,200 as the amount of '
-                    'Freight-in from the port to Amman.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Import duty (not '
-                  'refundable)?',
-             'o': ['300', '700', '900', '250'],
-             'a': 'C',
-             'why': 'The book’s own table gives 900 as the amount of Import '
-                    'duty (not refundable).'},
-            {'t': 'TF',
-             'q': 'The book gives the inventory cost? of Invoice price as '
-                  '“Yes”.',
-             'a': 'T',
-             'why': 'The book pairs Invoice price with “Yes”.'},
             {'t': 'TF',
              'q': 'The book gives the inventory cost? of Purchase discount '
-                  'taken as “Yes”.',
-             'a': 'F',
+                  'taken as “Yes (reduces cost)”.',
+             'a': 'T',
              'why': 'The book pairs Purchase discount taken with “Yes '
-                    '(reduces cost)”, not with “Yes”.'}]),
+                    '(reduces cost)”.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -247,73 +209,54 @@ HANDOUT = {'id': '7.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Specific identification is MOST appropriate for:',
-             'o': ['unique, high-value items such as cars.',
-                   'large volumes of identical glass bottles.',
-                   'any items when prices are rising.',
-                   'perishable food products.'],
-             'a': 'A',
-             'why': 'It tracks the cost of each individual item, which is '
-                    'practical only for distinct items. B is wrong: '
-                    'Identical items are interchangeable; tracking each one '
-                    'is costly and allows manipulation. C is wrong: Price '
-                    'trends do not decide when specific identification fits.',
-             'src': 'P7-07'},
-            {'t': 'MCQ',
-             'q': 'Prices are falling. Which method gives the highest gross '
-                  'profit?',
-             'o': ['FIFO',
-                   'Weighted average',
-                   'LIFO',
-                   'All methods give the same gross profit.'],
-             'a': 'C',
-             'why': 'With falling prices, LIFO puts the newest, lowest costs '
-                    'into cost of goods sold. A is wrong: FIFO gives the '
-                    'highest profit only when prices rise. B is wrong: The '
-                    'average is always between FIFO and LIFO.',
-             'src': 'P7-08'},
-            {'t': 'MCQ',
-             'q': 'What is the Orontes LIFO reserve for olive oil at the end '
-                  'of 2025 (whole USD)?',
-             'o': ['4,000', '7,000', '9,000', '16,000'],
+             'q': 'Which item is a period cost for Orontes?',
+             'o': ['Import duties on sesame seeds',
+                   'Freight-in on glass bottles',
+                   'Wages of bottling-line workers',
+                   'Advertising for a new tahini brand'],
              'a': 'D',
-             'why': 'FIFO inventory minus LIFO inventory. A is wrong: This '
-                    'is the tax saving, not the reserve. B is wrong: This '
-                    'compares FIFO with the weighted average, not with LIFO.',
-             'src': 'P7-09'},
+             'why': 'Advertising is a selling cost, expensed when incurred. '
+                    'A is wrong: Duties bring materials to their location, '
+                    'so they are inventory cost. B is wrong: Freight-in is '
+                    'inventory cost.',
+             'src': 'P7-03'},
             {'t': 'MCQ',
-             'q': 'Prices are rising, and a LIFO company sells more units '
-                  'than it buys, so old layers are liquidated. What is the '
-                  'effect in that year?',
-             'o': ['Gross profit decreases.',
-                   'Gross profit increases.',
-                   'There is no effect, because costs are historical.',
-                   'A loss arises that must be deferred.'],
+             'q': 'The tax rate is 25%. Ending inventory was overstated by '
+                  '40. By how much is net income overstated in that year?',
+             'o': ['10', '30', '40', '50'],
              'a': 'B',
-             'why': 'Old, low costs flow into cost of goods sold, so gross '
-                    'profit rises for that year. A is wrong: Low old costs '
-                    'reduce cost of goods sold. C is wrong: The old costs '
-                    'are much lower than current costs, so income changes.',
-             'src': 'P7-10'}]),
+             'why': 'After-tax effect = pretax error × (1 − tax rate). A is '
+                    'wrong: This is the tax effect only. C is wrong: This is '
+                    'the pretax effect.',
+             'src': 'P7-13'},
+            {'t': 'MCQ',
+             'q': 'Ending inventory for 2026 is understated by 15. Inventory '
+                  'for 2025 was correct. What is the effect on 2026 cost of '
+                  'goods sold?',
+             'o': ['Understated by 15',
+                   'No effect',
+                   'Overstated by 15',
+                   'Overstated by 30'],
+             'a': 'C',
+             'why': 'COGS = beginning inventory + purchases − ending '
+                    'inventory, so low ending inventory raises COGS. A is '
+                    'wrong: This reverses the direction. B is wrong: Ending '
+                    'inventory directly changes COGS.',
+             'src': 'P7-14'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Specific identification is MOST appropriate for:',
-           ['unique, high-value items such as cars.',
-            'large volumes of identical glass bottles.',
-            'any items when prices are rising.',
-            'perishable food products.'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'It tracks the cost of each individual item, which is practical '
-           'only for distinct items. B is wrong: Identical items are '
-           'interchangeable; tracking each one is costly and allows '
-           'manipulation. C is wrong: Price trends do not decide when '
-           'specific identification fits.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -356,35 +299,12 @@ HANDOUT = {'id': '7.2',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The LIFO conformity rule requires that:',
-             'o': ['a company using LIFO for its U.S. tax return also uses '
-                   'LIFO in its financial statements.',
-                   'companies reporting under IFRS use LIFO.',
-                   'a company using LIFO applies it to every inventory in '
-                   'every country.',
-                   'a company using LIFO for its financial statements uses '
-                   'FIFO for tax.'],
-             'a': 'A',
-             'why': 'It is a U.S. tax rule that links the tax method to the '
-                    'financial statements. B is wrong: IFRS prohibits LIFO. '
-                    'C is wrong: The rule links tax and book methods; it '
-                    'does not force one method everywhere.',
-             'src': 'P7-11'},
-            {'t': 'MCQ',
-             'q': 'Orontes overstated its 2025 ending inventory by 40 (USD '
-                  '000). Ignoring taxes, what is the effect on retained '
-                  'earnings at the end of 2026?',
-             'o': ['Overstated by 40',
-                   'No effect',
-                   'Understated by 40',
-                   'Overstated by 80'],
-             'a': 'B',
-             'why': 'The error overstates 2025 income and understates 2026 '
-                    'income by the same amount, so it counterbalances. A is '
-                    'wrong: This is the effect at the end of 2025, not 2026. '
-                    'C is wrong: Only 2026 income is understated; the '
-                    'cumulative effect is zero.',
-             'src': 'P7-12'}]),
+             'q': 'Which amount does the book give for Cost of the bottles '
+                  'in inventory?',
+             'o': ['(400)', '20,000', '1,200', '22,000'],
+             'a': 'D',
+             'why': 'The book’s own table gives 22,000 as the amount of Cost '
+                    'of the bottles in inventory.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

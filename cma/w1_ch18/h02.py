@@ -3,17 +3,11 @@
 
 HANDOUT = {'id': '18.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 4,
  'title': 'The primary purpose',
  'sub': 'section 18.2 of the book',
  'covers': ['sec:18.2',
-            'p:P18-07',
-            'p:P18-08',
-            'p:P18-09',
-            'p:P18-10',
-            'sc:P18-07',
-            'p:P18-11',
-            'p:P18-12',
+            'p:P18-02',
             'term:integrated report',
             'term:content elements',
             'term:natural capital'],
@@ -27,8 +21,7 @@ HANDOUT = {'id': '18.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The primary purpose',
              'a figure to read · Report · the book’s own rule, gapped',
-             "Orontes's secret recipe for flavoured olive oil is an example "
-             'of:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -59,50 +52,50 @@ HANDOUT = {'id': '18.2',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['In the United States, ',
-                       22,
-                       ' is voluntary; U.S. The primary audience is '
-                       'providers of ',
-                       19,
-                       ", not 'all stakeholders'. All stakeholders benefit, "
-                       'but the Framework names investors and lenders first. '
-                       "SC18-4 Orontes's draft integrated report says it is "
-                       "written 'mainly for our employees'."],
-             'bank': ['financial capital',
-                      'natural capital',
+             'parts': ['Other ',
+                       14,
+                       ' also benefit: employees, customers, suppliers, ',
+                       13,
+                       ', regulators and ',
+                       14,
+                       '. They are not the primary audience, but the report '
+                       "is useful to anyone interested in the company's "
+                       'ability to create value.'],
+             'bank': ['natural capital',
+                      'policymakers',
                       'human capital',
-                      'integrated reporting'],
-             'a': 'integrated reporting · financial capital',
+                      'communities',
+                      'stakeholders'],
+             'a': 'stakeholders · communities · policymakers',
              'one': True,
-             'why': 'The book writes: “In the United States, integrated '
-                    'reporting is voluntary; U.S. The primary audience is '
-                    "providers of financial capital, not 'all stakeholders'. "
-                    'All stakeholders benefit, but the Framework names '
-                    "investors and lenders first. SC18-4 Orontes's draft "
-                    "integrated report says it is written 'mainly for our "
-                    "employees'.”"},
+             'why': 'The book writes: “Other stakeholders also benefit: '
+                    'employees, customers, suppliers, communities, '
+                    'regulators and policymakers. They are not the primary '
+                    'audience, but the report is useful to anyone interested '
+                    "in the company's ability to create value.”"},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The primary audience is providers of ',
+             'parts': ['In the United States, ',
+                       22,
+                       ' is voluntary; U.S. GAAP and the SEC do not require '
+                       'it. The primary audience is providers of ',
                        19,
                        ", not 'all stakeholders'. All stakeholders benefit, "
-                       'but the Framework names investors and lenders first. '
-                       "SC18-4 Orontes's draft ",
-                       19,
-                       " says it is written 'mainly for our employees'."],
-             'bank': ['financial capital',
+                       'but the Framework names investors and lenders '
+                       'first.'],
+             'bank': ['integrated reporting',
                       'human capital',
-                      'integrated report',
+                      'financial capital',
                       'natural capital'],
-             'a': 'financial capital · integrated report',
+             'a': 'integrated reporting · financial capital',
              'one': True,
-             'why': 'The book writes: “The primary audience is providers of '
+             'why': 'The book writes: “In the United States, integrated '
+                    'reporting is voluntary; U.S. GAAP and the SEC do not '
+                    'require it. The primary audience is providers of '
                     "financial capital, not 'all stakeholders'. All "
                     'stakeholders benefit, but the Framework names investors '
-                    "and lenders first. SC18-4 Orontes's draft integrated "
-                    "report says it is written 'mainly for our "
-                    "employees'.”"}],
+                    'and lenders first.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -127,11 +120,11 @@ HANDOUT = {'id': '18.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the primary audience of Financial '
-                  'statements (U.S. GAAP) as “Investors and creditors”.',
+             'q': 'The book gives the primary audience of Sustainability '
+                  'disclosures (IFRS S1 and S2) as “Investors”.',
              'a': 'T',
-             'why': 'The book pairs Financial statements (U.S. GAAP) with '
-                    '“Investors and creditors”.'}]),
+             'why': 'The book pairs Sustainability disclosures (IFRS S1 and '
+                    'S2) with “Investors”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -159,62 +152,13 @@ HANDOUT = {'id': '18.2',
            'READ THE MODEL',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which primary audience does the book give for Financial '
-                  'statements (U.S. GAAP)?',
-             'o': ['Investors and creditors',
-                   'Investors',
-                   'Providers of financial capital, then other stakeholders'],
-             'a': 'A',
-             'why': 'The book’s own table gives Investors and creditors as '
-                    'the primary audience of Financial statements (U.S. '
-                    'GAAP).'},
-            {'t': 'MCQ',
-             'q': 'Which primary audience does the book give for '
-                  "Management's discussion and analysis (MD&A)?",
-             'o': ['Investors',
-                   'Investors and creditors',
-                   'Providers of financial capital, then other stakeholders'],
-             'a': 'A',
-             'why': 'The book’s own table gives Investors as the primary '
-                    "audience of Management's discussion and analysis "
-                    '(MD&A).'},
-            {'t': 'MCQ',
-             'q': 'Which report does the book pair with “Providers of '
-                  'financial capital, then other stakeholders”?',
-             'o': ["Management's discussion and analysis (MD&A)",
-                   'Sustainability disclosures (IFRS S1 and S2)',
-                   'Financial statements (U.S. GAAP)',
-                   'Integrated report (<IR> Framework)'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Integrated report (<IR> '
-                    'Framework) with “Providers of financial capital, then '
-                    'other stakeholders”.'},
-            {'t': 'MCQ',
-             'q': 'Which primary audience does the book give for '
-                  'Sustainability disclosures (IFRS S1 and S2)?',
-             'o': ['Investors and creditors',
-                   'Providers of financial capital, then other stakeholders',
-                   'Investors'],
-             'a': 'C',
-             'why': 'The book’s own table gives Investors as the primary '
-                    'audience of Sustainability disclosures (IFRS S1 and '
-                    'S2).'},
-            {'t': 'TF',
-             'q': 'The book gives the Required for Orontes? of Financial '
-                  'statements (U.S. GAAP) as “Yes: required for an SEC '
-                  'registrant”.',
+           [{'t': 'TF',
+             'q': "The book gives the focus of Management's discussion and "
+                  'analysis (MD&A) as “Explains results, liquidity and '
+                  'risks”.',
              'a': 'T',
-             'why': 'The book pairs Financial statements (U.S. GAAP) with '
-                    '“Yes: required for an SEC registrant”.'},
-            {'t': 'TF',
-             'q': "The book gives the Required for Orontes? of Management's "
-                  'discussion and analysis (MD&A) as “Yes: required for an '
-                  'SEC registrant”.',
-             'a': 'F',
              'why': "The book pairs Management's discussion and analysis "
-                    '(MD&A) with “Yes: SEC requirement”, not with “Yes: '
-                    'required for an SEC registrant”.'}]),
+                    '(MD&A) with “Explains results, liquidity and risks”.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -254,91 +198,33 @@ HANDOUT = {'id': '18.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': "Orontes's secret recipe for flavoured olive oil is an "
-                  'example of:',
-             'o': ['Intellectual capital',
-                   'Manufactured capital',
-                   'Human capital',
-                   'Financial capital'],
-             'a': 'A',
-             'why': 'Knowledge-based intangibles are intellectual capital. B '
-                    'is wrong: Manufactured capital is physical. C is wrong: '
-                    "Human capital is people's skills, not documented "
-                    'know-how.',
-             'src': 'P18-07'},
-            {'t': 'MCQ',
-             'q': 'In the worked example, which capital falls when Orontes '
-                  'pays for the irrigation system?',
-             'o': ['Natural capital',
-                   'Human capital',
-                   'Intellectual capital',
-                   'Financial capital'],
-             'a': 'D',
-             'why': 'The payment uses funds. A is wrong: Natural capital is '
-                    'preserved by lower water use. B is wrong: Training '
-                    'raises human capital.',
-             'src': 'P18-08'},
-            {'t': 'MCQ',
-             'q': 'Must a company use exactly the six capital categories in '
-                  'its integrated report?',
-             'o': ['Yes; all six headings are mandatory',
-                   'Yes, but only for listed companies',
-                   'No; capitals are not part of the Framework',
-                   'No; the categories are a checklist, but it should '
-                   'consider all the capitals it uses or affects'],
-             'a': 'D',
-             'why': 'The Framework does not require the six headings. A is '
-                    'wrong: The categories are not mandatory. B is wrong: No '
-                    'listing rule applies.',
-             'src': 'P18-10'}]),
-          ('panel',
-           'Capital — the extract for the question that follows',
-           [['Capital', 'Orontes examples (2027)', 'Possible measure'],
-            ['Financial',
-             'Equity and bank loans (Part I)',
-             'Cash flow from operations'],
-            ['Manufactured',
-             'Presses, bottling lines, cold stores',
-             'Plant capacity'],
-            ['Intellectual',
-             'Recipes, brand, new sparkling-juice line',
-             'Share of sales from new products'],
-            ['Human', '1,850 employees', '20 training hours per employee'],
-            ['Social and relationship',
-             '2,400 farmers in grower cooperatives; supermarket customers',
-             'Farmer contracts renewed'],
-            ['Natural',
-             'Olive groves, water, energy',
-             'Water 900,000 m3; renewable electricity 30%']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  "Orontes's training per employee in 2027?",
-             'o': ['37,000 hours', '1,850 hours', '20 hours', '2 hours'],
-             'a': 'C',
-             'why': '37,000 hours ÷ 1,850 employees. A is wrong: This is the '
-                    'total, not per employee. B is wrong: This is the number '
-                    'of employees.',
-             'src': 'P18-09'}]),
+             'q': 'Which guiding principle is Orontes applying when it links '
+                  'its irrigation spending to water use and to grower '
+                  'yields?',
+             'o': ['Conciseness',
+                   'Connectivity of information',
+                   'Consistency and comparability',
+                   'Reliability and completeness'],
+             'a': 'B',
+             'why': 'Connectivity shows how capitals, strategy and '
+                    'performance are linked. A is wrong: Conciseness is '
+                    'about length and clarity. C is wrong: Consistency is '
+                    'about using the same basis over time.',
+             'src': 'P18-02'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "Orontes's secret recipe for flavoured olive oil is an example "
-           'of:',
-           ['Intellectual capital',
-            'Manufactured capital',
-            'Human capital',
-            'Financial capital'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Knowledge-based intangibles are intellectual capital. B is '
-           'wrong: Manufactured capital is physical. C is wrong: Human '
-           "capital is people's skills, not documented know-how."),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -364,30 +250,6 @@ HANDOUT = {'id': '18.2',
              'a': 'T',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': "'How does the board oversee water risk?' is answered by "
-                  'which content element?',
-             'o': ['Performance', 'Governance', 'Business model', 'Outlook'],
-             'a': 'B',
-             'why': 'Governance explains oversight and how it supports value '
-                    'creation. A is wrong: Performance reports results. C is '
-                    'wrong: The business model explains how value is '
-                    'created.',
-             'src': 'P18-11'},
-            {'t': 'MCQ',
-             'q': 'Which content element explains how the company decided '
-                  'what to include and how it measured it?',
-             'o': ['Basis of preparation and presentation',
-                   'Strategy and resource allocation',
-                   'Risks and opportunities',
-                   'Organizational overview and external environment'],
-             'a': 'A',
-             'why': 'This element covers the materiality process and '
-                    'measurement methods. B is wrong: Strategy is about '
-                    'direction and resources. C is wrong: This element '
-                    'covers what could help or harm value creation.',
-             'src': 'P18-12'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

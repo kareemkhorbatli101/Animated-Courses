@@ -7,6 +7,13 @@ HANDOUT = {'id': '9.5',
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P9-05',
+            'p:P9-08',
+            'p:P9-09',
+            'p:P9-10',
+            'p:P9-11',
+            'p:P9-12',
+            'p:P9-13',
             'sc:SC9-1',
             'sc:SC9-2',
             'sc:SC9-3',
@@ -48,8 +55,8 @@ HANDOUT = {'id': '9.5',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'Orontes buys a bond and plans to sell it if interest rates '
-             'fall or if it needs cash. How should it classify the bond?'],
+             'Orontes sells its AFS bond at the end of 2026. Which amount '
+             'goes to net income as a realized gain (whole USD)?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -63,68 +70,64 @@ HANDOUT = {'id': '9.5',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       20,
-                       ' are bought and held mainly to sell in the near '
-                       'term. ',
-                       35,
-                       ' are securities the company has the positive intent '
-                       'and the ability to hold until they mature. ',
-                       37,
-                       ' are all other debt securities. Decision tree for '
-                       'classifying a ',
+             'parts': ['A bond is bought at a ',
+                       14,
+                       ' when its stated interest rate is higher than the '
+                       'market rate, and at a ',
                        15,
-                       ' as trading, held-to-maturity or '
-                       'available-for-sale.'],
+                       ' when it is lower. Under the ',
+                       27,
+                       ', interest revenue for each year is the carrying '
+                       'amount at the start of the year multiplied by the '
+                       'market rate at purchase.'],
              'bank': ['investee',
-                      'Available-for-sale (AFS) securities',
-                      'Trading securities',
-                      'Held-to-maturity (HTM) securities',
-                      'debt security',
-                      'effective-interest method'],
-             'a': 'Trading securities · Held-to-maturity (HTM) securities · '
-                  'Available-for-sale (AFS) securities · debt security',
+                      'effective-interest method',
+                      'bond premium',
+                      'bond discount',
+                      'trading securities'],
+             'a': 'bond premium · bond discount · effective-interest method',
              'one': True,
-             'why': 'The book writes: “Trading securities are bought and '
-                    'held mainly to sell in the near term. Held-to-maturity '
-                    '(HTM) securities are securities the company has the '
-                    'positive intent and the ability to hold until they '
-                    'mature. Available-for-sale (AFS) securities are all '
-                    'other debt securities. Decision tree for classifying a '
-                    'debt security as trading, held-to-maturity or '
-                    'available-for-sale.”'},
+             'why': 'The book writes: “A bond is bought at a bond premium '
+                    'when its stated interest rate is higher than the market '
+                    'rate, and at a bond discount when it is lower. Under '
+                    'the effective-interest method, interest revenue for '
+                    'each year is the carrying amount at the start of the '
+                    'year multiplied by the market rate at purchase.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['When Orontes sells the bond, the realized gain or '
-                       'loss moves to net income through a ',
-                       29,
-                       ', sometimes called recycling. Timeline of an '
-                       'available-for-sale bond: OCI while held, recycled to '
-                       'net income on sale. Accumulated OCI for the bond '
-                       'returns to zero, so the gain is never counted twice. '
-                       'Transfers between categories are made at ',
+             'parts': ['The credit part is recorded in an ',
+                       11,
+                       ' through net income. The rest of the decline goes to '
+                       'OCI. An AFS bond has an ',
+                       11,
+                       ' cost of $50,000 and a ',
                        12,
-                       '.'],
-             'bank': ['trading securities',
-                      'investee',
+                       ' of $44,000. The allowance can never be larger than '
+                       'amortized cost minus fair value: $6,000.'],
+             'bank': ['amortized',
                       'fair value',
-                      'reclassification adjustment'],
-             'a': 'reclassification adjustment · fair value',
+                      'investee',
+                      'trading securities',
+                      'allowance'],
+             'a': 'allowance · amortized · fair value',
              'one': True,
-             'why': 'The book writes: “When Orontes sells the bond, the '
-                    'realized gain or loss moves to net income through a '
-                    'reclassification adjustment, sometimes called '
-                    'recycling. Timeline of an available-for-sale bond: OCI '
-                    'while held, recycled to net income on sale. Accumulated '
-                    'OCI for the bond returns to zero, so the gain is never '
-                    'counted twice. Transfers between categories are made at '
-                    'fair value.”'},
+             'why': 'The book writes: “The credit part is recorded in an '
+                    'allowance through net income. The rest of the decline '
+                    'goes to OCI. An AFS bond has an amortized cost of '
+                    '$50,000 and a fair value of $44,000. The allowance can '
+                    'never be larger than amortized cost minus fair value: '
+                    '$6,000.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['And when an investor first gains ',
+             'parts': ['Losses reduce the investment only to zero, unless '
+                       'the investor has guaranteed the ',
+                       11,
+                       "'s debts. Profits on sales between the two companies "
+                       'are eliminated until the goods are sold to '
+                       'outsiders. And when an investor first gains ',
                        23,
                        ', it starts the ',
                        15,
@@ -132,18 +135,23 @@ HANDOUT = {'id': '9.5',
                        'investor may also elect the ',
                        19,
                        ' for an equity-method investment.'],
-             'bank': ['trading securities',
-                      'fair value option',
-                      'significant influence',
+             'bank': ['fair value option',
+                      'equity method',
                       'investee',
-                      'equity method'],
-             'a': 'significant influence · equity method · fair value option',
+                      'effective-interest method',
+                      'trading securities',
+                      'significant influence'],
+             'a': 'investee · significant influence · equity method · fair '
+                  'value option',
              'one': True,
-             'why': 'The book writes: “And when an investor first gains '
-                    'significant influence, it starts the equity method from '
-                    'that date; it does not restate prior years. An investor '
-                    'may also elect the fair value option for an '
-                    'equity-method investment.”'}]),
+             'why': 'The book writes: “Losses reduce the investment only to '
+                    "zero, unless the investor has guaranteed the investee's "
+                    'debts. Profits on sales between the two companies are '
+                    'eliminated until the goods are sold to outsiders. And '
+                    'when an investor first gains significant influence, it '
+                    'starts the equity method from that date; it does not '
+                    'restate prior years. An investor may also elect the '
+                    'fair value option for an equity-method investment.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -156,6 +164,7 @@ HANDOUT = {'id': '9.5',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -167,24 +176,6 @@ HANDOUT = {'id': '9.5',
              'a': 'D',
              'why': 'The book numbers “Three categories of debt securities” '
                     'as section 9.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 9.2?',
-             'o': ['Three categories of debt securities',
-                   'Equity securities and the equity method',
-                   'Measuring debt securities',
-                   'Credit losses on debt securities'],
-             'a': 'C',
-             'why': 'The book numbers “Measuring debt securities” as section '
-                    '9.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 9.3?',
-             'o': ['Equity securities and the equity method',
-                   'Credit losses on debt securities',
-                   'Measuring debt securities',
-                   'Three categories of debt securities'],
-             'a': 'B',
-             'why': 'The book numbers “Credit losses on debt securities” as '
-                    'section 9.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -196,6 +187,173 @@ HANDOUT = {'id': '9.5',
              'a': ['A', 'B', 'C', 'D'],
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Use the Jordan Glass example. What is the investment '
+                  'balance at December 31, 2025 (whole USD)?',
+             'o': ['1,287,000', '1,290,000', '1,347,000', '1,637,000'],
+             'a': 'A',
+             'why': 'Cost + share of income − extra depreciation − '
+                    'dividends. B is wrong: This forgets the extra '
+                    'depreciation. C is wrong: This does not deduct the '
+                    'dividends received.',
+             'src': 'P9-11'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Under the equity method, the part of the basis difference '
+                  'assigned to goodwill is:',
+             'o': ['amortized over ten years.',
+                   'expensed immediately.',
+                   "added to the investor's own goodwill account.",
+                   'not amortized.'],
+             'a': 'D',
+             'why': 'Equity-method goodwill is part of the investment and is '
+                    'not amortized. A is wrong: Amortization of goodwill is '
+                    'a private-company option for acquired goodwill, not an '
+                    'equity-method rule. B is wrong: It is part of the cost '
+                    'of the investment.',
+             'src': 'P9-12'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'An investor first gains significant influence by buying '
+                  'more shares. How does it apply the equity method?',
+             'o': ['Retroactively, restating all prior years',
+                   'Only from the next fiscal year',
+                   'It keeps fair value through net income',
+                   'From the date it gains influence, with no restatement of '
+                   'prior years'],
+             'a': 'D',
+             'why': 'Since ASU 2016-07 the change is applied prospectively. '
+                    'A is wrong: Retroactive restatement was removed by ASU '
+                    '2016-07. B is wrong: It starts on the date influence is '
+                    'obtained.',
+             'src': 'P9-13'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes buys a bond and plans to sell it if interest '
+                  'rates fall or if it needs cash. How should it classify '
+                  'the bond?',
+             'o': ['Held-to-maturity',
+                   'Trading',
+                   'Available-for-sale',
+                   'Equity method'],
+             'a': 'C',
+             'why': 'It is not bought to trade in the near term, and the '
+                    'possible sales rule out HTM. A is wrong: Selling in '
+                    'response to rates or cash needs shows no positive '
+                    'intent to hold. B is wrong: Trading needs the purpose '
+                    'of selling in the near term.',
+             'src': 'SC9-1'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which securities can be classified as held-to-maturity?',
+             'o': ['Debt securities only',
+                   'Equity securities only',
+                   'Both debt and equity securities',
+                   'Any security with a fixed maturity date or a dividend'],
+             'a': 'A',
+             'why': 'Only debt securities have a maturity; shares never '
+                    'qualify. B is wrong: Shares have no maturity date. C is '
+                    'wrong: Equity securities never use the HTM category.',
+             'src': 'SC9-2'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Use the Orontes bond. What is interest revenue for 2025 '
+                  '(whole USD)?',
+             'o': ['864', '5,000', '5,136', '6,000'],
+             'a': 'C',
+             'why': 'Beginning carrying amount × market rate. A is wrong: '
+                    'This is the premium amortization. B is wrong: This '
+                    'applies the market rate to face value instead of the '
+                    'carrying amount.',
+             'src': 'SC9-3'}]),
+          ('pair',
+           'Compare every answer with your partner first.',
+           'name the section each question belongs to. Most disagreements '
+           'turn out to be about the section, not the answer.'),
+          ('check',
+           'Orontes sells its AFS bond at the end of 2026. Which amount goes '
+           'to net income as a realized gain (whole USD)?',
+           ['0', '548', '859', '1,407'],
+           'B',
+           'go back to the MODEL move of cycle A and find the section this '
+           'question belongs to.',
+           'Sale price minus amortized cost; the accumulated OCI is '
+           'reclassified. A is wrong: The gain is realized on the sale and '
+           'goes to net income. C is wrong: This is the 2025 unrealized '
+           'loss.'),
+          ('cycle', 'B', 'The chapter’s case set'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'In a case question, the exhibit has to be read and '
+                  'adjusted before any figure is worked out.',
+             'a': 'T',
+             'why': 'Every later answer depends on the adjusted exhibit.'}]),
+          ('move', 'MODEL', ''),
+          ('panel',
+           'The chapter’s case set, item by item',
+           [['Item', 'What it asks'],
+            ['C9-1',
+             'Match each investment to its category. (On the exam screen you '
+             'would drag each one into a box.)'],
+            ['C9-2',
+             'Enter the total unrealized holding gain (or loss) reported in '
+             '2025 NET INCOME for investments A to D.'],
+            ['C9-3',
+             'Enter the amount reported in 2025 OTHER COMPREHENSIVE INCOME '
+             '(show a loss in parentheses).'],
+            ['C9-4',
+             'Enter the carrying amount of investment E at December 31, '
+             '2025.'],
+            ['C9-5',
+             'Enter the equity-method income from investment E for 2025.'],
+            ['C9-6',
+             'In 2026 Orontes sells bond C at its December 31, 2025 fair '
+             'value. The loss in accumulated OCI: [select]']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter the equity-method income from investment E for '
+                      '2025.',
+                      'In 2026 Orontes sells bond C at its December 31, 2025 '
+                      'fair value. The loss in accumulated OCI: [select]',
+                      'Enter the total unrealized holding gain (or loss) '
+                      'reported in 2025 NET INCOME for investments A to D.',
+                      'Enter the carrying amount of investment E at December '
+                      '31, 2025.',
+                      'Match each investment to its category. (On the exam '
+                      'screen you would drag each one into a box.)',
+                      'Enter the amount reported in 2025 OTHER COMPREHENSIVE '
+                      'INCOME (show a loss in parentheses).'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['E', 'F', 'B', 'D', 'A', 'C'],
+             'whys': ['', '', '', '', '', '']}]),
+          ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'At year-end, the fair value of an available-for-sale bond '
+                  'is below its amortized cost. There is no credit loss. '
+                  'Where is the decline reported?',
+             'o': ['In net income',
+                   'Nowhere; AFS stays at amortized cost',
+                   'Directly in retained earnings',
+                   'In other comprehensive income'],
+             'a': 'D',
+             'why': 'AFS unrealized gains and losses go to OCI. A is wrong: '
+                    'Net income is for trading securities and shares. B is '
+                    'wrong: AFS is measured at fair value; HTM stays at '
+                    'amortized cost.',
+             'src': 'SC9-4'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'Use Case B of the fair-value floor example. What '
@@ -237,157 +395,6 @@ HANDOUT = {'id': '9.5',
                     'has no OCI option for shares. C is wrong: Listed shares '
                     'have a readily determinable fair value.',
              'src': 'SC9-7'}]),
-          ('pair',
-           'Compare every answer with your partner first.',
-           'name the section each question belongs to. Most disagreements '
-           'turn out to be about the section, not the answer.'),
-          ('check',
-           'Orontes buys a bond and plans to sell it if interest rates fall '
-           'or if it needs cash. How should it classify the bond?',
-           ['Held-to-maturity',
-            'Trading',
-            'Available-for-sale',
-            'Equity method'],
-           'C',
-           'go back to the MODEL move of cycle A and find the section this '
-           'question belongs to.',
-           'It is not bought to trade in the near term, and the possible '
-           'sales rule out HTM. A is wrong: Selling in response to rates or '
-           'cash needs shows no positive intent to hold. B is wrong: Trading '
-           'needs the purpose of selling in the near term.'),
-          ('cycle', 'B', 'The chapter’s case set'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'In a case question, the exhibit has to be read and '
-                  'adjusted before any figure is worked out.',
-             'a': 'T',
-             'why': 'Every later answer depends on the adjusted exhibit.'}]),
-          ('move', 'MODEL', ''),
-          ('panel',
-           'The chapter’s case set, item by item',
-           [['Item', 'What it asks'],
-            ['C9-1',
-             'Match each investment to its category. (On the exam screen you '
-             'would drag each one into a box.)'],
-            ['C9-2',
-             'Enter the total unrealized holding gain (or loss) reported in '
-             '2025 NET INCOME for investments A to D.'],
-            ['C9-3',
-             'Enter the amount reported in 2025 OTHER COMPREHENSIVE INCOME '
-             '(show a loss in parentheses).'],
-            ['C9-4',
-             'Enter the carrying amount of investment E at December 31, '
-             '2025.'],
-            ['C9-5',
-             'Enter the equity-method income from investment E for 2025.'],
-            ['C9-6',
-             'In 2026 Orontes sells bond C at its December 31, 2025 fair '
-             'value. The loss in accumulated OCI: [select]']],
-           ''),
-          ('move', 'READ THE MODEL', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C9-1 ask for?',
-             'o': ['In 2026 Orontes sells bond C at its December 31, 2025 '
-                   'fair value. The ',
-                   'Enter the total unrealized holding gain (or loss) '
-                   'reported in 2025 NET',
-                   'Match each investment to its category. (On the exam '
-                   'screen you would d',
-                   'Enter the amount reported in 2025 OTHER COMPREHENSIVE '
-                   'INCOME (show a l'],
-             'a': 'C',
-             'why': 'The book states item C9-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C9-2 ask for?',
-             'o': ['Enter the total unrealized holding gain (or loss) '
-                   'reported in 2025 NET',
-                   'In 2026 Orontes sells bond C at its December 31, 2025 '
-                   'fair value. The ',
-                   'Match each investment to its category. (On the exam '
-                   'screen you would d',
-                   'Enter the amount reported in 2025 OTHER COMPREHENSIVE '
-                   'INCOME (show a l'],
-             'a': 'A',
-             'why': 'The book states item C9-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C9-3 ask for?',
-             'o': ['In 2026 Orontes sells bond C at its December 31, 2025 '
-                   'fair value. The ',
-                   'Enter the amount reported in 2025 OTHER COMPREHENSIVE '
-                   'INCOME (show a l',
-                   'Match each investment to its category. (On the exam '
-                   'screen you would d',
-                   'Enter the total unrealized holding gain (or loss) '
-                   'reported in 2025 NET'],
-             'a': 'B',
-             'why': 'The book states item C9-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C9-4 ask for?',
-             'o': ['Enter the total unrealized holding gain (or loss) '
-                   'reported in 2025 NET',
-                   'Enter the equity-method income from investment E for '
-                   '2025.',
-                   'Enter the carrying amount of investment E at December '
-                   '31, 2025.',
-                   'Match each investment to its category. (On the exam '
-                   'screen you would d'],
-             'a': 'C',
-             'why': 'The book states item C9-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C9-5 ask for?',
-             'o': ['Enter the equity-method income from investment E for '
-                   '2025.',
-                   'Enter the carrying amount of investment E at December '
-                   '31, 2025.',
-                   'Enter the total unrealized holding gain (or loss) '
-                   'reported in 2025 NET',
-                   'Match each investment to its category. (On the exam '
-                   'screen you would d'],
-             'a': 'A',
-             'why': 'The book states item C9-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C9-6 ask for?',
-             'o': ['Enter the total unrealized holding gain (or loss) '
-                   'reported in 2025 NET',
-                   'Enter the amount reported in 2025 OTHER COMPREHENSIVE '
-                   'INCOME (show a l',
-                   'In 2026 Orontes sells bond C at its December 31, 2025 '
-                   'fair value. The ',
-                   'Match each investment to its category. (On the exam '
-                   'screen you would d'],
-             'a': 'C',
-             'why': 'The book states item C9-6 in those words.'}]),
-          ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Orontes buys a bond and plans to sell it if interest '
-                  'rates fall or if it needs cash. How should it classify '
-                  'the bond?',
-             'o': ['Held-to-maturity',
-                   'Trading',
-                   'Available-for-sale',
-                   'Equity method'],
-             'a': 'C',
-             'why': 'It is not bought to trade in the near term, and the '
-                    'possible sales rule out HTM. A is wrong: Selling in '
-                    'response to rates or cash needs shows no positive '
-                    'intent to hold. B is wrong: Trading needs the purpose '
-                    'of selling in the near term.',
-             'src': 'SC9-1'}]),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which securities can be classified as held-to-maturity?',
-             'o': ['Debt securities only',
-                   'Equity securities only',
-                   'Both debt and equity securities',
-                   'Any security with a fixed maturity date or a dividend'],
-             'a': 'A',
-             'why': 'Only debt securities have a maturity; shares never '
-                    'qualify. B is wrong: Shares have no maturity date. C is '
-                    'wrong: Equity securities never use the HTM category.',
-             'src': 'SC9-2'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

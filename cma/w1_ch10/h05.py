@@ -23,7 +23,8 @@ HANDOUT = {'id': '10.5',
              'a figure to read · Item',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Asset · The English the exam uses, and what it translates',
+             'a figure to read · Asset · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -84,28 +85,31 @@ HANDOUT = {'id': '10.5',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['IAS 36 uses one step: compare the ',
-                       17,
-                       ' with the recoverable amount, which is the higher of '
-                       'fair value less costs of disposal and value in use '
-                       '(a discounted amount). IFRS allows the reversal of ',
-                       12,
-                       ' losses on assets other than ',
+             'parts': ['No reversals for assets held and used, '
+                       'indefinite-lived intangibles or ',
                        11,
-                       '.'],
+                       '. ',
+                       15,
+                       ': gains only up to earlier losses. Stop depreciating '
+                       'an asset once it is held for sale. Arabic texts use '
+                       'three words for ',
+                       12,
+                       ': الهبوط في القيمة (SOCPA), انخفاض القيمة (Gulf and '
+                       'Levant practice) and الاضمحلال (Egypt).'],
              'bank': ['commercial substance',
                       'capital expenditure',
+                      'impairment',
                       'goodwill',
-                      'carrying amount',
-                      'impairment'],
-             'a': 'carrying amount · impairment · goodwill',
+                      'Held for sale'],
+             'a': 'goodwill · Held for sale · impairment',
              'one': True,
-             'why': 'The book writes: “IAS 36 uses one step: compare the '
-                    'carrying amount with the recoverable amount, which is '
-                    'the higher of fair value less costs of disposal and '
-                    'value in use (a discounted amount). IFRS allows the '
-                    'reversal of impairment losses on assets other than '
-                    'goodwill.”'}],
+             'why': 'The book writes: “No reversals for assets held and '
+                    'used, indefinite-lived intangibles or goodwill. Held '
+                    'for sale: gains only up to earlier losses. Stop '
+                    'depreciating an asset once it is held for sale. Arabic '
+                    'texts use three words for impairment: الهبوط في القيمة '
+                    '(SOCPA), انخفاض القيمة (Gulf and Levant practice) and '
+                    'الاضمحلال (Egypt).”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -133,9 +137,11 @@ HANDOUT = {'id': '10.5',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the asset of P as “Pastry line, Dubai”.',
+             'q': 'The book gives the asset of V as “Delivery van (held for '
+                  'sale)”.',
              'a': 'T',
-             'why': 'The book pairs P with “Pastry line, Dubai”.'}]),
+             'why': 'The book pairs V with “Delivery van (held for '
+                    'sale)”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f5'),
           ('panel',
@@ -174,54 +180,8 @@ HANDOUT = {'id': '10.5',
                    'Delivery van (held for sale)'],
              'a': 'C',
              'why': 'The book’s own table gives Pastry line, Dubai as the '
-                    'asset of P.'},
-            {'t': 'MCQ',
-             'q': 'Which asset does the book give for W?',
-             'o': ['Delivery van (held for sale)',
-                   'Pastry line, Dubai',
-                   'Warehouse, Amman',
-                   "Brand 'Orontes Gold' (indefinite life)"],
-             'a': 'C',
-             'why': 'The book’s own table gives Warehouse, Amman as the '
-                    'asset of W.'},
-            {'t': 'MCQ',
-             'q': 'Which asset does the book give for B?',
-             'o': ['Delivery van (held for sale)',
-                   'Goodwill, Gulf beverages reporting unit',
-                   "Brand 'Orontes Gold' (indefinite life)",
-                   'Pastry line, Dubai'],
-             'a': 'C',
-             'why': "The book’s own table gives Brand 'Orontes Gold' "
-                    '(indefinite life) as the asset of B.'},
-            {'t': 'MCQ',
-             'q': 'Which asset does the book give for G?',
-             'o': ['Goodwill, Gulf beverages reporting unit',
-                   'Pastry line, Dubai',
-                   'Delivery van (held for sale)',
-                   "Brand 'Orontes Gold' (indefinite life)"],
-             'a': 'A',
-             'why': 'The book’s own table gives Goodwill, Gulf beverages '
-                    'reporting unit as the asset of G.'},
-            {'t': 'TF',
-             'q': 'The book gives the Amounts (USD 000) of P as “carrying '
-                  '500; undiscounted cash flows 450; fair value 380”.',
-             'a': 'T',
-             'why': 'The book pairs P with “carrying 500; undiscounted cash '
-                    'flows 450; fair value 380”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Amounts (USD 000) of W as “carrying '
-                  '60; fair value 50; cost to sell 4”.',
-             'a': 'F',
-             'why': 'The book pairs W with “carrying 1,000; undiscounted '
-                    'cash flows 1,300; fair value 900”, not with “carrying '
-                    '60; fair value 50; cost to sell 4”.'}]),
+                    'asset of P.'}]),
           ('move', 'APPLY', 'No help on this move.'),
-          ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -246,6 +206,7 @@ HANDOUT = {'id': '10.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Asset — the book’s own table',
            [['Asset', 'Category'],
@@ -280,12 +241,17 @@ HANDOUT = {'id': '10.5',
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching asset beside each item. '
+                  'Every one is used once.',
+             'left': ['P', 'W', 'B', 'G', 'V'],
+             'right': ["Brand 'Orontes Gold' (indefinite life)",
+                       'Warehouse, Amman',
+                       'Delivery van (held for sale)',
+                       'Goodwill, Gulf beverages reporting unit',
+                       'Pastry line, Dubai'],
+             'a': ['E', 'B', 'A', 'D', 'C'],
+             'whys': ['', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

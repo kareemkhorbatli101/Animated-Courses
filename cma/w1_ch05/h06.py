@@ -7,6 +7,16 @@ HANDOUT = {'id': '5.6',
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P5-09',
+            'p:P5-10',
+            'p:P5-11',
+            'p:P5-13',
+            'p:P5-15',
+            'p:P5-16',
+            'p:P5-20',
+            'p:P5-21',
+            'p:P5-22',
+            'p:P5-24',
             'sc:SC5-5',
             'sc:SC5-6',
             'sc:SC5-7',
@@ -36,8 +46,8 @@ HANDOUT = {'id': '5.6',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'Under the indirect method, how does Orontes treat the 384,000 '
-             'increase in net accounts receivable?'],
+             'Which item appears in the investing section of a U.S. '
+             'statement of cash flows?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -51,37 +61,6 @@ HANDOUT = {'id': '5.6',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       18,
-                       ' are short-term, highly liquid investments with an '
-                       'original maturity to the holder of three months or '
-                       'less. Moving money between these categories is not a '
-                       'cash flow. Cash flows are grouped into ',
-                       22,
-                       ', ',
-                       22,
-                       ' and ',
-                       22,
-                       '.'],
-             'bank': ['direct method',
-                      'operating activities',
-                      'Cash equivalents',
-                      'investing activities',
-                      'indirect method',
-                      'financing activities'],
-             'a': 'Cash equivalents · operating activities · investing '
-                  'activities · financing activities',
-             'one': True,
-             'why': 'The book writes: “Cash equivalents are short-term, '
-                    'highly liquid investments with an original maturity to '
-                    'the holder of three months or less. Moving money '
-                    'between these categories is not a cash flow. Cash flows '
-                    'are grouped into operating activities, investing '
-                    'activities and financing activities.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
              'parts': ['Moving money between these categories is not a cash '
                        'flow. Cash flows are grouped into ',
                        22,
@@ -89,43 +68,75 @@ HANDOUT = {'id': '5.6',
                        22,
                        ' and ',
                        22,
-                       '. Strong operating cash is a good sign, but a reader '
-                       'should also ask where the cash went.'],
-             'bank': ['direct method',
+                       '. Operating activities provided $7,531,100, '
+                       'investing used $4,179,000, and financing provided '
+                       '$1,850,000.'],
+             'bank': ['operating activities',
                       'investing activities',
-                      'cash equivalents',
                       'financing activities',
-                      'operating activities'],
+                      'cash equivalents',
+                      'direct method'],
              'a': 'operating activities · investing activities · financing '
                   'activities',
              'one': True,
              'why': 'The book writes: “Moving money between these categories '
                     'is not a cash flow. Cash flows are grouped into '
                     'operating activities, investing activities and '
-                    'financing activities. Strong operating cash is a good '
-                    'sign, but a reader should also ask where the cash '
-                    'went.”'},
+                    'financing activities. Operating activities provided '
+                    '$7,531,100, investing used $4,179,000, and financing '
+                    'provided $1,850,000.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Under IAS 7 today, interest paid can be ',
+                       11,
+                       ' or ',
+                       11,
+                       ', and interest and dividends received can be '
+                       'operating or investing. The ',
+                       12,
+                       ' that come with IFRS 18 remove some choices from '
+                       '2027, but they are not testable before about January '
+                       '2028.'],
+             'bank': ['financing activities',
+                      'financing',
+                      'operating activities',
+                      'amendments',
+                      'operating'],
+             'a': 'operating · financing · amendments',
+             'one': True,
+             'why': 'The book writes: “Under IAS 7 today, interest paid can '
+                    'be operating or financing, and interest and dividends '
+                    'received can be operating or investing. The amendments '
+                    'that come with IFRS 18 remove some choices from 2027, '
+                    'but they are not testable before about January 2028.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['It is only a proposal; the definition of ',
-                       18,
-                       ' does not change. French tableau de financement is '
-                       'an older funds statement based on working capital, '
-                       'not a ',
-                       25,
-                       '. The IFRS term is tableau des flux de trésorerie.'],
-             'bank': ['operating activities',
-                      'statement of cash flows',
-                      'cash equivalents',
-                      'financing activities'],
-             'a': 'cash equivalents · statement of cash flows',
+             'parts': ['Cash flows are harder to manage than profits, but '
+                       'not ',
+                       12,
+                       '. A company can raise ',
+                       11,
+                       ' cash near year-end by delaying payments to '
+                       'suppliers or by selling ',
+                       13,
+                       '. The statement also shows only one year, and it is '
+                       'not a measure of profit.'],
+             'bank': ['impossible',
+                      'financing activities',
+                      'operating activities',
+                      'operating',
+                      'receivables'],
+             'a': 'impossible · operating · receivables',
              'one': True,
-             'why': 'The book writes: “It is only a proposal; the definition '
-                    'of cash equivalents does not change. French tableau de '
-                    'financement is an older funds statement based on '
-                    'working capital, not a statement of cash flows. The '
-                    'IFRS term is tableau des flux de trésorerie.”'}]),
+             'why': 'The book writes: “Cash flows are harder to manage than '
+                    'profits, but not impossible. A company can raise '
+                    'operating cash near year-end by delaying payments to '
+                    'suppliers or by selling receivables. The statement also '
+                    'shows only one year, and it is not a measure of '
+                    'profit.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -149,23 +160,6 @@ HANDOUT = {'id': '5.6',
              'a': 'C',
              'why': 'The book numbers “Purpose and structure of the '
                     'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Limitations and links between the four statements',
-                   'Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'The indirect method'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['Limitations and links between the four statements',
-                   'The indirect method',
-                   'The direct method and required disclosures',
-                   'Classifying cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -180,35 +174,101 @@ HANDOUT = {'id': '5.6',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'How can a company increase its operating cash flow at '
-                  'year-end without improving its business?',
-             'o': ['By recording more depreciation',
-                   'By issuing new shares',
-                   'By revaluing its land',
-                   'By delaying payments to suppliers until January'],
+             'q': "Orontes's current income tax expense was $889,700, and "
+                  'income taxes payable rose by $50,000. How much income tax '
+                  'did Orontes pay in 2025 (whole USD)?',
+             'o': ['839,700', '889,700', '939,700', '989,700'],
+             'a': 'A',
+             'why': 'Part of the current tax was still unpaid at year-end. B '
+                    'is wrong: This ignores the unpaid amount. C is wrong: '
+                    'An increase in taxes payable means less was paid.',
+             'src': 'P5-15'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company reports a loss of $12,000 on the sale of a '
+                  'delivery van, for which it received $30,000. How is this '
+                  'shown?',
+             'o': ['Add $12,000 in operating; show $30,000 in investing',
+                   'Subtract $12,000 in operating; show $30,000 in investing',
+                   'Show $42,000 in investing',
+                   'Show $18,000 in investing'],
+             'a': 'A',
+             'why': 'Add back the noncash loss; show the actual proceeds in '
+                    'investing. B is wrong: A loss is added back, not '
+                    'subtracted. C is wrong: Investing shows the cash '
+                    'received.',
+             'src': 'P5-16'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company stops replacing its old machines. What is the '
+                  'likely short-term effect on its statement of cash flows?',
+             'o': ['Operating cash flow falls immediately',
+                   'Financing inflows rise',
+                   'Investing outflows fall, so total cash looks strong even '
+                   'though the future may be weaker',
+                   'Nothing changes'],
+             'a': 'C',
+             'why': 'One year of cash flows can hide underinvestment. A is '
+                    'wrong: Operations are not directly affected at first. B '
+                    'is wrong: No financing is involved.',
+             'src': 'P5-20'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes declared dividends of $450,000 in 2025, and '
+                  'dividends payable rose by $400,000. What are dividends '
+                  'paid in the financing section (whole USD)?',
+             'o': ['50,000', '400,000', '450,000', '850,000'],
+             'a': 'A',
+             'why': 'Declared minus the increase in the unpaid amount. B is '
+                    'wrong: This is only the unpaid part. C is wrong: This '
+                    'uses dividends declared, not paid.',
+             'src': 'P5-21'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "Orontes's net accounts receivable rose by $384,000 on its "
+                  'balance sheet. Where does this change appear?',
+             'o': ['As an investing outflow',
+                   'In the statement of changes in equity',
+                   'Nowhere; balance sheet changes are not used',
+                   'As a deduction in operating activities (indirect '
+                   'method)'],
              'a': 'D',
-             'why': 'Timing of payments shifts operating cash between years. '
-                    'A is wrong: Depreciation is noncash; it does not change '
-                    'cash flow. B is wrong: Share issues are financing '
-                    'inflows.',
-             'src': 'SC5-9'}]),
+             'why': 'Balance sheet changes in operating items drive the '
+                    'indirect method. A is wrong: Trade receivables are '
+                    'operating. B is wrong: Receivables are not an equity '
+                    'account.',
+             'src': 'P5-22'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company using the direct method must also:',
+             'o': ['present a reconciliation of net income to operating cash '
+                   'flow',
+                   'stop disclosing noncash activities',
+                   'classify interest paid as financing',
+                   'present an income statement by nature'],
+             'a': 'A',
+             'why': 'The reconciliation is still required. B is wrong: '
+                    'Noncash disclosures are always required. C is wrong: '
+                    'Interest paid stays operating.',
+             'src': 'P5-24'}]),
           ('pair',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
           ('check',
-           'Under the indirect method, how does Orontes treat the 384,000 '
-           'increase in net accounts receivable?',
-           ['Adds it to net income',
-            'Shows it in investing activities',
-            'Subtracts it from net income',
-            'Ignores it'],
-           'C',
+           'Which item appears in the investing section of a U.S. statement '
+           'of cash flows?',
+           ["Cash paid to buy back the company's own shares",
+            'Interest received on a loan to a customer',
+            'Cash received from issuing bonds',
+            'Cash paid to buy shares of another company, held as an '
+            'available-for-sale investment'],
+           'D',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'Revenue was recorded but not yet collected. A is wrong: An '
-           'increase in an operating asset is subtracted. B is wrong: Trade '
-           'receivables are operating.'),
+           "Buying other companies' securities (not trading) is investing. A "
+           'is wrong: Buying back own shares is financing. B is wrong: '
+           'Interest received is operating.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -239,77 +299,29 @@ HANDOUT = {'id': '5.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C5-1 ask for?',
-             'o': ["Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po',
-                   'Classify each 2026 cash flow. (On the exam screen you '
-                   'would drag each ',
-                   'Where does Barada show the 2026 dividend declared on '
-                   'December 15 and p',
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind'],
-             'a': 'B',
-             'why': 'The book states item C5-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C5-2 ask for?',
-             'o': ['Classify each 2026 cash flow. (On the exam screen you '
-                   'would drag each ',
-                   'Where does Barada show the 2026 dividend declared on '
-                   'December 15 and p',
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind',
-                   "Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po'],
-             'a': 'C',
-             'why': 'The book states item C5-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C5-3 ask for?',
-             'o': ["Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po',
-                   "Enter Barada's net cash from investing activities for "
-                   '2026.',
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind',
-                   'Classify each 2026 cash flow. (On the exam screen you '
-                   'would drag each '],
-             'a': 'B',
-             'why': 'The book states item C5-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C5-4 ask for?',
-             'o': ['Classify each 2026 cash flow. (On the exam screen you '
-                   'would drag each ',
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind',
-                   'Where does Barada show the 2026 dividend declared on '
-                   'December 15 and p',
-                   "Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po'],
-             'a': 'D',
-             'why': 'The book states item C5-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C5-5 ask for?',
-             'o': ["Enter Barada's net cash from investing activities for "
-                   '2026.',
-                   'Classify each 2026 cash flow. (On the exam screen you '
-                   'would drag each ',
-                   "Enter Barada's cash at December 31, 2026.",
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind'],
-             'a': 'C',
-             'why': 'The book states item C5-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C5-6 ask for?',
-             'o': ['Where does Barada show the 2026 dividend declared on '
-                   'December 15 and p',
-                   'Classify each 2026 cash flow. (On the exam screen you '
-                   'would drag each ',
-                   "Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po',
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind'],
-             'a': 'A',
-             'why': 'The book states item C5-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Where does Barada show the 2026 dividend declared on '
+                      'December 15 and payable in January 2027? [select]',
+                      'Classify each 2026 cash flow. (On the exam screen you '
+                      'would drag each item into a box.)',
+                      "Enter Barada's net cash used in financing activities "
+                      'for 2026 (as a positive number).',
+                      "Enter Barada's net cash from investing activities for "
+                      '2026.',
+                      "Enter Barada's net cash provided by operating "
+                      'activities for 2026 (indirect method).',
+                      "Enter Barada's cash at December 31, 2026."],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['F', 'A', 'D', 'C', 'B', 'E'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
@@ -340,6 +352,31 @@ HANDOUT = {'id': '5.6',
                     'added. C is wrong: Investing shows the full proceeds, '
                     'not the gain.',
              'src': 'SC5-6'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "A company's sales were $500,000, all on credit. Accounts "
+                  'receivable increased by $40,000. How much cash was '
+                  'received from customers?',
+             'o': ['$40,000', '$460,000', '$500,000', '$540,000'],
+             'a': 'B',
+             'why': 'Part of the sales has not yet been collected. A is '
+                    'wrong: This is only the change in receivables. C is '
+                    'wrong: Sales are not all collected in cash.',
+             'src': 'SC5-7'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company uses the indirect method. Which amounts must it '
+                  'disclose?',
+             'o': ['Interest paid and income taxes paid',
+                   'Cash received from customers',
+                   'Cash paid to suppliers',
+                   'Gross profit in cash terms'],
+             'a': 'A',
+             'why': 'These are required supplemental disclosures under the '
+                    'indirect method. B is wrong: This is part of the direct '
+                    'method, not a required disclosure. C is wrong: This is '
+                    'part of the direct method.',
+             'src': 'SC5-8'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

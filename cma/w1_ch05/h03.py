@@ -3,17 +3,11 @@
 
 HANDOUT = {'id': '5.3',
  'n': 3,
- 'pages': 5,
+ 'pages': 4,
  'title': 'The indirect method',
  'sub': 'section 5.3 of the book',
  'covers': ['sec:5.3',
-            'p:P5-13',
-            'p:P5-14',
-            'p:P5-15',
-            'p:P5-16',
-            'sc:P5-13',
-            'p:P5-17',
-            'p:P5-18',
+            'p:P5-04',
             'term:operating activities',
             'term:noncash investing and financing activities'],
  'skills': [('read3', 3)],
@@ -26,8 +20,7 @@ HANDOUT = {'id': '5.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The indirect method',
              'a figure to read · Cash flow',
-             "Orontes's dividends payable rose by $400,000 in 2025. How does "
-             'this affect net cash from operating activities?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -36,9 +29,8 @@ HANDOUT = {'id': '5.3',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['It starts with net income and removes everything '
-                       'that is not an operating cash flow. First, add back '
-                       'noncash expenses and losses, such as ',
+             'parts': ['First, add back noncash expenses and losses, such '
+                       'as ',
                        14,
                        ', ',
                        13,
@@ -54,52 +46,48 @@ HANDOUT = {'id': '5.3',
                       'operating activities'],
              'a': 'depreciation · impairments · liabilities',
              'one': True,
-             'why': 'The book writes: “It starts with net income and removes '
-                    'everything that is not an operating cash flow. First, '
-                    'add back noncash expenses and losses, such as '
-                    'depreciation, impairments and an increase in deferred '
-                    'tax liabilities. Second, remove gains and losses on '
-                    'investing and financing items; the cash from those '
-                    'sales belongs in investing.”'},
+             'why': 'The book writes: “First, add back noncash expenses and '
+                    'losses, such as depreciation, impairments and an '
+                    'increase in deferred tax liabilities. Second, remove '
+                    'gains and losses on investing and financing items; the '
+                    'cash from those sales belongs in investing.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Also subtract ',
-                       15,
-                       ' income, which is not cash, and add the dividends '
-                       'received from the investee. Third, adjust for '
-                       'changes in current operating assets and ',
+             'parts': ['Third, adjust for changes in current operating '
+                       'assets and ',
                        13,
                        ' from the balance sheet. When ',
                        13,
                        ' rise, the company has recorded revenue it has not '
-                       'yet collected, so the increase is subtracted.'],
-             'bank': ['receivables',
-                      'equity-method',
-                      'cash equivalents',
+                       'yet collected, so the increase is ',
+                       12,
+                       '. Start with net income: $2,969,100.'],
+             'bank': ['subtracted',
                       'liabilities',
+                      'cash equivalents',
+                      'receivables',
                       'operating activities'],
-             'a': 'equity-method · liabilities · receivables',
+             'a': 'liabilities · receivables · subtracted',
              'one': True,
-             'why': 'The book writes: “Also subtract equity-method income, '
-                    'which is not cash, and add the dividends received from '
-                    'the investee. Third, adjust for changes in current '
+             'why': 'The book writes: “Third, adjust for changes in current '
                     'operating assets and liabilities from the balance '
                     'sheet. When receivables rise, the company has recorded '
                     'revenue it has not yet collected, so the increase is '
-                    'subtracted.”'},
+                    'subtracted. Start with net income: $2,969,100.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Sign rules for the indirect method, with Orontes '
-                       'examples. Start from net income, never from ',
+             'parts': ['Start from net income, never from ',
                        11,
                        ' income. ',
                        11,
                        ' payable and notes payable are ',
                        11,
-                       ' items.'],
+                       ' items. Do not include their changes in working '
+                       'capital. Show the full proceeds of a sale in '
+                       'investing, and remove the gain from operating.'],
              'bank': ['cash equivalents',
                       'operating',
                       'operating activities',
@@ -107,10 +95,11 @@ HANDOUT = {'id': '5.3',
                       'financing'],
              'a': 'operating · Dividends · financing',
              'one': True,
-             'why': 'The book writes: “Sign rules for the indirect method, '
-                    'with Orontes examples. Start from net income, never '
-                    'from operating income. Dividends payable and notes '
-                    'payable are financing items.”'}],
+             'why': 'The book writes: “Start from net income, never from '
+                    'operating income. Dividends payable and notes payable '
+                    'are financing items. Do not include their changes in '
+                    'working capital. Show the full proceeds of a sale in '
+                    'investing, and remove the gain from operating.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -134,11 +123,10 @@ HANDOUT = {'id': '5.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of Lawsuit settlement paid as '
-                  '“Operating”.',
+             'q': 'The book gives the category of Dividend paid as '
+                  '“Financing”.',
              'a': 'T',
-             'why': 'The book pairs Lawsuit settlement paid with '
-                    '“Operating”.'}]),
+             'why': 'The book pairs Dividend paid with “Financing”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -161,38 +149,6 @@ HANDOUT = {'id': '5.3',
              'a': 'C',
              'why': 'The book’s own table gives Operating as the category of '
                     'Lawsuit settlement paid.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Proceeds from sale '
-                  'of the division?',
-             'o': ['Investing', 'Operating', 'Financing'],
-             'a': 'A',
-             'why': 'The book’s own table gives Investing as the category of '
-                    'Proceeds from sale of the division.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Treasury stock '
-                  'bought?',
-             'o': ['Operating', 'Financing', 'Investing'],
-             'a': 'B',
-             'why': 'The book’s own table gives Financing as the category of '
-                    'Treasury stock bought.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Interest paid?',
-             'o': ['Operating', 'Financing', 'Investing'],
-             'a': 'A',
-             'why': 'The book’s own table gives Operating as the category of '
-                    'Interest paid.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Lawsuit settlement paid as '
-                  '“Operating”.',
-             'a': 'T',
-             'why': 'The book pairs Lawsuit settlement paid with '
-                    '“Operating”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Proceeds from sale of the '
-                  'division as “Operating”.',
-             'a': 'F',
-             'why': 'The book pairs Proceeds from sale of the division with '
-                    '“Investing”, not with “Operating”.'},
             {'t': 'SORT',
              'q': 'Write each one under its category. Every item belongs to '
                   'exactly one group.',
@@ -209,72 +165,32 @@ HANDOUT = {'id': '5.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': "Orontes's dividends payable rose by $400,000 in 2025. How "
-                  'does this affect net cash from operating activities?',
-             'o': ['It is added as an increase in a liability',
-                   'It has no effect, because dividends are a financing item',
-                   'It is subtracted',
-                   'It is added to investing'],
-             'a': 'B',
-             'why': 'Only operating working capital is adjusted in operating '
-                    'activities. A is wrong: Dividends payable is not an '
-                    'operating liability. C is wrong: It does not belong in '
-                    'operating at all.',
-             'src': 'P5-13'},
-            {'t': 'MCQ',
-             'q': 'Under U.S. GAAP, the indirect method begins with:',
-             'o': ['operating income',
-                   'income before income taxes',
-                   'net income',
-                   'comprehensive income'],
+             'q': 'Which question can the statement of cash flows answer '
+                  'that the balance sheet alone cannot?',
+             'o': ['What were total assets at year-end?',
+                   'What is the par value of the shares?',
+                   'How did the company pay for its new equipment this year?',
+                   'What is the allowance for credit losses?'],
              'a': 'C',
-             'why': 'The reconciliation starts from net income. A is wrong: '
-                    'Starting from operating profit is the amended IAS 7 '
-                    'approach. B is wrong: Taxes must be included, so start '
-                    'after tax.',
-             'src': 'P5-14'},
-            {'t': 'MCQ',
-             'q': "Orontes's current income tax expense was $889,700, and "
-                  'income taxes payable rose by $50,000. How much income tax '
-                  'did Orontes pay in 2025 (whole USD)?',
-             'o': ['839,700', '889,700', '939,700', '989,700'],
-             'a': 'A',
-             'why': 'Part of the current tax was still unpaid at year-end. B '
-                    'is wrong: This ignores the unpaid amount. C is wrong: '
-                    'An increase in taxes payable means less was paid.',
-             'src': 'P5-15'},
-            {'t': 'MCQ',
-             'q': 'A company reports a loss of $12,000 on the sale of a '
-                  'delivery van, for which it received $30,000. How is this '
-                  'shown?',
-             'o': ['Add $12,000 in operating; show $30,000 in investing',
-                   'Subtract $12,000 in operating; show $30,000 in investing',
-                   'Show $42,000 in investing',
-                   'Show $18,000 in investing'],
-             'a': 'A',
-             'why': 'Add back the noncash loss; show the actual proceeds in '
-                    'investing. B is wrong: A loss is added back, not '
-                    'subtracted. C is wrong: Investing shows the cash '
-                    'received.',
-             'src': 'P5-16'}]),
+             'why': 'The cash flow statement shows the sources and uses of '
+                    'cash during the year. A is wrong: The balance sheet '
+                    'shows total assets. B is wrong: Par value is shown in '
+                    'equity.',
+             'src': 'P5-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "Orontes's dividends payable rose by $400,000 in 2025. How does "
-           'this affect net cash from operating activities?',
-           ['It is added as an increase in a liability',
-            'It has no effect, because dividends are a financing item',
-            'It is subtracted',
-            'It is added to investing'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Only operating working capital is adjusted in operating '
-           'activities. A is wrong: Dividends payable is not an operating '
-           'liability. C is wrong: It does not belong in operating at all.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -302,30 +218,15 @@ HANDOUT = {'id': '5.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which is a limitation of the statement of cash flows?',
-             'o': ['It is prepared on the accrual basis',
-                   'Important noncash investing and financing deals appear '
-                   'only in the notes',
-                   'It ignores cash paid for interest',
-                   'It shows only noncash items'],
-             'a': 'B',
-             'why': 'A building bought with a mortgage never appears in the '
-                    'body. A is wrong: It is a cash-basis statement. C is '
-                    'wrong: Interest paid is included in operating.',
-             'src': 'P5-17'},
-            {'t': 'MCQ',
-             'q': 'Why is operating cash flow not a good measure of '
-                  'profitability?',
-             'o': ['It includes too many estimates',
-                   'It is measured at fair value',
-                   'It excludes cash from customers',
-                   'It ignores accruals, so it can be high in a year with '
-                   'poor profits, or low in a good year'],
-             'a': 'D',
-             'why': 'Profitability is measured on the accrual basis. A is '
-                    'wrong: Cash flows involve few estimates. B is wrong: '
-                    'Cash flows are not fair values.',
-             'src': 'P5-18'}]),
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -67,63 +67,65 @@ HANDOUT = {'id': '10.6',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['SC10-2 Use the ',
-                       22,
-                       ' example in Section 10.1. Depreciation spreads the ',
+             'parts': ['Depreciation spreads the ',
                        18,
                        ', cost minus ',
                        15,
                        ', over the ',
                        13,
-                       ' in a systematic and rational way. ',
+                       ' in a systematic and rational way. Four methods '
+                       'appear on the exam. ',
                        22,
                        ': the same amount each year, depreciable base ÷ '
-                       'useful life.'],
-             'bank': ['useful life',
+                       'useful life. ',
+                       33,
+                       ': twice the straight-line rate, applied to the '
+                       'beginning book value.'],
+             'bank': ['Straight-line method',
                       'amortization',
-                      'Straight-line method',
-                      'depreciable base',
-                      'capitalized interest',
+                      'Double-declining-balance method',
                       'salvage value',
+                      'depreciable base',
+                      'useful life',
                       'impairment'],
-             'a': 'capitalized interest · depreciable base · salvage value · '
-                  'useful life · Straight-line method',
+             'a': 'depreciable base · salvage value · useful life · '
+                  'Straight-line method · Double-declining-balance method',
              'one': True,
-             'why': 'The book writes: “SC10-2 Use the capitalized interest '
-                    'example in Section 10.1. Depreciation spreads the '
-                    'depreciable base, cost minus salvage value, over the '
-                    'useful life in a systematic and rational way. '
-                    'Straight-line method: the same amount each year, '
-                    'depreciable base ÷ useful life.”'},
+             'why': 'The book writes: “Depreciation spreads the depreciable '
+                    'base, cost minus salvage value, over the useful life in '
+                    'a systematic and rational way. Four methods appear on '
+                    'the exam. Straight-line method: the same amount each '
+                    'year, depreciable base ÷ useful life. '
+                    'Double-declining-balance method: twice the '
+                    'straight-line rate, applied to the beginning book '
+                    'value.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['An ',
-                       12,
-                       " occurs when a company cannot recover an asset's ",
-                       17,
-                       '. GAAP uses different tests for different assets. '
-                       'The company tests an ',
+             'parts': ['D. ',
                        13,
-                       ' (the lowest level with its own cash flows) only '
-                       'when indicators suggest a problem, such as a sharp '
-                       'fall in market price, physical damage or continuing '
-                       'losses.'],
+                       ' methods raise early income. When a company sells or '
+                       'scraps an asset, it first records ',
+                       14,
+                       ' up to the date of disposal. Then it removes the '
+                       'cost and the accumulated depreciation and compares '
+                       'the proceeds with the ',
+                       17,
+                       '.'],
              'bank': ['amortization',
-                      'impairment',
-                      'carrying amount',
+                      'Accelerated',
+                      'depreciation',
                       'useful life',
-                      'asset group'],
-             'a': 'impairment · carrying amount · asset group',
+                      'carrying amount'],
+             'a': 'Accelerated · depreciation · carrying amount',
              'one': True,
-             'why': 'The book writes: “An impairment occurs when a company '
-                    "cannot recover an asset's carrying amount. GAAP uses "
-                    'different tests for different assets. The company tests '
-                    'an asset group (the lowest level with its own cash '
-                    'flows) only when indicators suggest a problem, such as '
-                    'a sharp fall in market price, physical damage or '
-                    'continuing losses.”'},
+             'why': 'The book writes: “D. Accelerated methods raise early '
+                    'income. When a company sells or scraps an asset, it '
+                    'first records depreciation up to the date of disposal. '
+                    'Then it removes the cost and the accumulated '
+                    'depreciation and compares the proceeds with the '
+                    'carrying amount.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -166,6 +168,7 @@ HANDOUT = {'id': '10.6',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -178,24 +181,6 @@ HANDOUT = {'id': '10.6',
              'a': 'A',
              'why': 'The book numbers “The cost of property, plant and '
                     'equipment” as section 10.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 10.2?',
-             'o': ['Depreciation methods and their effects',
-                   'Disposal of fixed assets',
-                   'The cost of property, plant and equipment',
-                   'Recommending a depreciation method'],
-             'a': 'A',
-             'why': 'The book numbers “Depreciation methods and their '
-                    'effects” as section 10.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 10.3?',
-             'o': ['Depreciation methods and their effects',
-                   'The cost of property, plant and equipment',
-                   'Recommending a depreciation method',
-                   'Disposal of fixed assets'],
-             'a': 'C',
-             'why': 'The book numbers “Recommending a depreciation method” '
-                    'as section 10.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -267,82 +252,29 @@ HANDOUT = {'id': '10.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C10-1 ask for?',
-             'o': ['In 2026 the fair value of the pastry line recovers to '
-                   'its old carrying',
-                   'Enter the impairment loss for the pastry line (P).',
-                   'Match each asset to the test that applies. (On the exam '
-                   'screen you wou',
-                   'Enter the total impairment and held-for-sale losses for '
-                   'all five asset'],
-             'a': 'C',
-             'why': 'The book states item C10-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C10-2 ask for?',
-             'o': ['Enter the impairment loss for the pastry line (P).',
-                   'Match each asset to the test that applies. (On the exam '
-                   'screen you wou',
-                   'Enter the goodwill impairment loss (G).',
-                   'Enter the impairment loss for the warehouse (W).'],
-             'a': 'A',
-             'why': 'The book states item C10-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C10-3 ask for?',
-             'o': ['Match each asset to the test that applies. (On the exam '
-                   'screen you wou',
-                   'Enter the impairment loss for the pastry line (P).',
-                   'Enter the goodwill impairment loss (G).',
-                   'Enter the impairment loss for the warehouse (W).'],
-             'a': 'D',
-             'why': 'The book states item C10-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C10-4 ask for?',
-             'o': ['Enter the impairment loss for the warehouse (W).',
-                   'Enter the goodwill impairment loss (G).',
-                   'Match each asset to the test that applies. (On the exam '
-                   'screen you wou',
-                   'Enter the impairment loss for the pastry line (P).'],
-             'a': 'B',
-             'why': 'The book states item C10-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C10-5 ask for?',
-             'o': ['Match each asset to the test that applies. (On the exam '
-                   'screen you wou',
-                   'In 2026 the fair value of the pastry line recovers to '
-                   'its old carrying',
-                   'Enter the impairment loss for the pastry line (P).',
-                   'Enter the total impairment and held-for-sale losses for '
-                   'all five asset'],
-             'a': 'D',
-             'why': 'The book states item C10-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C10-6 ask for?',
-             'o': ['Enter the total impairment and held-for-sale losses for '
-                   'all five asset',
-                   'Match each asset to the test that applies. (On the exam '
-                   'screen you wou',
-                   'Enter the impairment loss for the pastry line (P).',
-                   'In 2026 the fair value of the pastry line recovers to '
-                   'its old carrying'],
-             'a': 'D',
-             'why': 'The book states item C10-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter the total impairment and held-for-sale losses '
+                      'for all five assets.',
+                      'In 2026 the fair value of the pastry line recovers to '
+                      'its old carrying amount. Under U.S. GAAP, the 2025 '
+                      'loss: [select]',
+                      'Enter the goodwill impairment loss (G).',
+                      'Enter the impairment loss for the warehouse (W).',
+                      'Match each asset to the test that applies. (On the '
+                      'exam screen you would drag each asset into a box.)',
+                      'Enter the impairment loss for the pastry line (P).'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['E', 'F', 'D', 'C', 'A', 'B'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'A delivery truck wears out mainly with kilometres driven, '
-                  'and the number of kilometres changes a lot from year to '
-                  'year. Which method BEST matches its use?',
-             'o': ['Straight-line',
-                   'Double-declining balance',
-                   'Units of production',
-                   "Sum-of-the-years'-digits"],
-             'a': 'C',
-             'why': 'Expense follows the actual kilometres driven. A is '
-                    'wrong: Straight-line assumes even use each year. B is '
-                    'wrong: An accelerated method assumes more benefit '
-                    'early, not benefit linked to use.',
-             'src': 'SC10-5'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'Which reason BEST supports an accelerated method for a '

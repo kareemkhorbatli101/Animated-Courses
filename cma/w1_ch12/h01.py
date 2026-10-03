@@ -7,13 +7,13 @@ HANDOUT = {'id': '12.1',
  'title': 'What makes a liability current',
  'sub': 'section 12.1 of the book',
  'covers': ['sec:12.1',
+            'p:P12-03',
             'p:P12-01',
             'p:P12-02',
-            'p:P12-03',
             'p:P12-04',
-            'sc:P12-01',
-            'p:P12-05',
-            'p:P12-06',
+            'sc:P12-03',
+            'p:P12-08',
+            'p:P12-10',
             'term:current liabilities',
             'term:warranty liability',
             'term:commercial paper'],
@@ -28,64 +28,39 @@ HANDOUT = {'id': '12.1',
             ['What makes a liability current',
              'a figure to read · Orontes, December 31, 2025 (Chapter 2) · '
              'Suppose: Barada, one month in 2027',
-             'Which item is NOT a current liability?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Current ',
-                       13,
-                       ' are ',
-                       13,
-                       ' that a company expects to settle by using current '
-                       'assets or by ',
+             'parts': ['Because the time is short, they are not ',
+                       12,
+                       ' to present value. ',
                        11,
-                       ' other current liabilities, normally within one '
-                       'year. They are measured at the amount to be paid.'],
-             'bank': ['creating',
-                      'obligations',
-                      'short-term obligation',
+                       ' deposits are contract ',
+                       13,
+                       ', as Chapter 11 showed: they become revenue when '
+                       'Orontes delivers.'],
+             'bank': ['short-term obligation',
+                      'compensated absences',
                       'liabilities',
-                      'compensated absences'],
-             'a': 'liabilities · obligations · creating',
+                      'discounted',
+                      'Customer'],
+             'a': 'discounted · Customer · liabilities',
              'one': True,
-             'why': 'The book writes: “Current liabilities are obligations '
-                    'that a company expects to settle by using current '
-                    'assets or by creating other current liabilities, '
-                    'normally within one year. They are measured at the '
-                    'amount to be paid.”'},
+             'why': 'The book writes: “Because the time is short, they are '
+                    'not discounted to present value. Customer deposits are '
+                    'contract liabilities, as Chapter 11 showed: they become '
+                    'revenue when Orontes delivers.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Because the time is short, they are not ',
-                       12,
-                       ' to present value. Accounts payable and accruals '
-                       'arise from ',
-                       12,
-                       '; ',
-                       11,
-                       ' payable and the current portion of long-term debt '
-                       'arise from financing.'],
-             'bank': ['short-term obligation',
-                      'compensated absences',
-                      'dividends',
-                      'discounted',
-                      'operations'],
-             'a': 'discounted · operations · dividends',
-             'one': True,
-             'why': 'The book writes: “Because the time is short, they are '
-                    'not discounted to present value. Accounts payable and '
-                    'accruals arise from operations; dividends payable and '
-                    'the current portion of long-term debt arise from '
-                    'financing.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['Customer deposits are contract ',
                        13,
                        ', as Chapter 11 showed: they become revenue when '
@@ -96,10 +71,10 @@ HANDOUT = {'id': '12.1',
                        15,
                        ' is not a liability, because no assets will be '
                        'paid.'],
-             'bank': ['liabilities',
-                      'short-term obligation',
-                      'distributable',
+             'bank': ['distributable',
                       'declaration',
+                      'short-term obligation',
+                      'liabilities',
                       'compensated absences'],
              'a': 'liabilities · declaration · distributable',
              'one': True,
@@ -108,7 +83,39 @@ HANDOUT = {'id': '12.1',
                     'when Orontes delivers. Cash dividends become a '
                     'liability on the declaration date. A stock dividend '
                     'distributable is not a liability, because no assets '
-                    'will be paid.”'}],
+                    'will be paid.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Orontes, December 31, 2025 '
+                       '(Chapter 2)” settles these: for Accounts payable it '
+                       'is ',
+                       50,
+                       ', for Income taxes payable it is ',
+                       26,
+                       ', for Contract liabilities it is ',
+                       44,
+                       ' and for Dividends payable it is ',
+                       39,
+                       '.'],
+             'bank': ['Principal due within one year',
+                      'Customer payments received before delivery',
+                      'Cash dividends declared, not yet paid',
+                      'Amounts owed to suppliers for goods and services',
+                      'Current tax not yet paid'],
+             'one': True,
+             'a': 'Amounts owed to suppliers for goods and services · '
+                  'Current tax not yet paid · Customer payments received '
+                  'before delivery · Cash dividends declared, not yet paid',
+             'why': 'From the book’s own table “Orontes, December 31, 2025 '
+                    '(Chapter 2)”: The book’s own table “Orontes, December '
+                    '31, 2025 (Chapter 2)” settles these: for Accounts '
+                    'payable it is Amounts owed to suppliers for goods and '
+                    'services and for Income taxes payable it is Current tax '
+                    'not yet paid and for Contract liabilities it is '
+                    'Customer payments received before delivery and for '
+                    'Dividends payable it is Cash dividends declared, not '
+                    'yet paid.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -175,34 +182,7 @@ HANDOUT = {'id': '12.1',
                    'Short-term debt expected to be refinanced'],
              'a': 'A',
              'why': 'The book numbers “What makes a liability current” as '
-                    'section 12.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.2?',
-             'o': ['Payroll, taxes collected and compensated absences',
-                   'IFRS and covenants',
-                   'What makes a liability current',
-                   'Short-term debt expected to be refinanced'],
-             'a': 'A',
-             'why': 'The book numbers “Payroll, taxes collected and '
-                    'compensated absences” as section 12.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.3?',
-             'o': ['What makes a liability current',
-                   'Payroll, taxes collected and compensated absences',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants'],
-             'a': 'C',
-             'why': 'The book numbers “Short-term debt expected to be '
-                    'refinanced” as section 12.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.4?',
-             'o': ['Warranties',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants',
-                   'What makes a liability current'],
-             'a': 'C',
-             'why': 'The book numbers “IFRS and covenants” as section '
-                    '12.4.'}]),
+                    'section 12.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -274,17 +254,15 @@ HANDOUT = {'id': '12.1',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which item is NOT a current liability?',
-           ['A cash dividend payable',
-            'A stock dividend distributable',
-            'Sales tax payable',
-            "Customer deposits for next month's orders"],
-           'B',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'No assets will be paid for a stock dividend. A is wrong: A '
-           'declared cash dividend is a liability. C is wrong: Tax collected '
-           'is owed to the government.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -295,6 +273,7 @@ HANDOUT = {'id': '12.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -312,64 +291,92 @@ HANDOUT = {'id': '12.1',
             ['commercial paper', 'الأوراق التجارية']],
            ''),
           ('move', 'READ THE MODEL', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which category does the book give for Bank loan?',
-             'o': ['Noncurrent liability',
-                   'Split between current and noncurrent',
-                   'Current liability'],
-             'a': 'B',
-             'why': 'The book’s own table gives Split between current and '
-                    'noncurrent as the category of Bank loan.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Note payable due '
-                  '2029?',
-             'o': ['Current liability',
-                   'Noncurrent liability',
-                   'Split between current and noncurrent'],
-             'a': 'B',
-             'why': 'The book’s own table gives Noncurrent liability as the '
-                    'category of Note payable due 2029.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Warranty liability '
-                  '(M2)?',
-             'o': ['Current liability',
-                   'Split between current and noncurrent',
-                   'Noncurrent liability'],
-             'a': 'A',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Warranty liability (M2).'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company pays a sick day only if the employee is '
-                  'actually sick; unused days are lost. At year-end, the '
-                  'company:',
-             'o': ['need not accrue the unused sick days',
-                   'must accrue all unused sick days',
-                   'discloses a contingent liability',
-                   'records a reserve in equity'],
-             'a': 'A',
-             'why': 'Nonvesting, nonaccumulating sick pay need not be '
-                    'accrued. B is wrong: Only rights that vest or '
-                    'accumulate must be accrued. C is wrong: It is not a '
-                    'contingency to disclose.',
-             'src': 'P12-05'},
+             'q': 'Which liability can never be reclassified as noncurrent '
+                  'under the refinancing rule?',
+             'o': ['A short-term bank loan',
+                   'Commercial paper',
+                   'Trade accounts payable',
+                   'A current maturity of long-term debt'],
+             'a': 'C',
+             'why': 'The rule does not apply to trade payables and accruals '
+                    'in the operating cycle. A is wrong: Bank loans can '
+                    'qualify. B is wrong: Commercial paper can qualify.',
+             'src': 'P12-10'},
             {'t': 'MCQ',
-             'q': "A state's unclaimed-property law requires a retailer to "
-                  'hand over the value of gift cards that are never used. '
-                  'For these cards, the retailer:',
-             'o': ['recognizes breakage revenue as cards expire',
-                   'recognizes revenue when the cards are sold',
-                   'records a reserve in equity',
-                   'keeps a liability until it pays the state; it does not '
-                   'recognize breakage revenue'],
+             'q': 'Which factor suggests that a warranty that cannot be '
+                  'bought separately is service-type?',
+             'o': ['The law requires it',
+                   'It covers the product for much longer than defects '
+                   'normally appear',
+                   'It only repairs defects present at delivery',
+                   'It lasts 90 days'],
+             'a': 'B',
+             'why': 'Long coverage suggests an extra service. A is wrong: '
+                    'Legal requirements suggest assurance. C is wrong: '
+                    'Repairing existing defects is assurance.',
+             'src': 'P12-17'},
+            {'t': 'MCQ',
+             'q': 'In which year is the expense for an assurance-type '
+                  'warranty recognized?',
+             'o': ['The year of the sale',
+                   'The year repairs are paid',
+                   'The year the warranty ends',
+                   'Spread evenly over the warranty period'],
+             'a': 'A',
+             'why': 'Matching: the cost belongs to the revenue it supports. '
+                    'B is wrong: This is a cash basis. C is wrong: The '
+                    'obligation exists from the sale.',
+             'src': 'P12-18'}]),
+          ('panel',
+           'Suppose: Orontes, commercial paper of 3,000,000 — the extract '
+           'for the question that follows',
+           [['Suppose: Orontes, commercial paper of 3,000,000 ',
+             'Noncurrent (U.S. GAAP)',
+             'Current (U.S. GAAP)'],
+            ['A. Issues 5-year bonds on February 10 and uses the cash to '
+             'repay the paper at maturity',
+             '3,000,000',
+             '0'],
+            ['B. Repays the paper with cash on January 15, then issues bonds '
+             'on February 10',
+             '0',
+             '3,000,000'],
+            ['C. Issues shares on February 10 for 2,400,000 to repay the '
+             'paper',
+             '2,400,000',
+             '600,000'],
+            ['D. Signs a qualifying agreement on February 1 to borrow 80% of '
+             'inventory; inventory will not fall below 3,125,000',
+             '2,500,000',
+             '500,000'],
+            ["E. Same as D, but the lender may cancel if it sees a 'material "
+             "adverse change'",
+             '0',
+             '3,000,000']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Use the extract, scenario D. How much of the commercial '
+                  'paper is noncurrent (whole USD)?',
+             'o': ['2,500,000', '3,125,000', '3,000,000'],
+             'a': 'A',
+             'why': '80% of the minimum inventory of $3,125,000. A is wrong: '
+                    'This is the part that stays current. C is wrong: The '
+                    'noncurrent amount is limited to what is available.',
+             'src': 'P12-08'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What is '
+                  "Barada's total payroll cost for the month (whole USD)?",
+             'o': ['9,600', '33,200', '40,000', '42,800'],
              'a': 'D',
-             'why': 'Amounts owed to the state are not breakage; they remain '
-                    'a liability. A is wrong: Breakage is recognized only '
-                    'for amounts the retailer expects to keep. B is wrong: '
-                    'Gift cards are contract liabilities until used.',
-             'src': 'P12-06'}]),
+             'why': "Gross wages plus the employer's social security. A is "
+                    'wrong: This is the amount owed to the authorities. B is '
+                    'wrong: Net pay is only what employees receive.',
+             'src': 'P12-03'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

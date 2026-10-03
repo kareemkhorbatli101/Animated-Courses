@@ -3,17 +3,14 @@
 
 HANDOUT = {'id': '8.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Lower of cost or market',
  'sub': 'section 8.2 of the book',
  'covers': ['sec:8.2',
-            'p:P8-09',
-            'p:P8-10',
-            'p:P8-11',
-            'p:P8-12',
-            'sc:P8-09',
-            'p:P8-13',
-            'p:P8-14',
+            'p:P8-04',
+            'p:P8-15',
+            'p:P8-16',
+            'p:P8-17',
             'term:lower of cost and net realizable value (lcnrv)',
             'term:cost-to-retail ratio',
             'term:normal profit margin',
@@ -28,7 +25,7 @@ HANDOUT = {'id': '8.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Lower of cost or market',
              'a figure to read · Item',
-             'The gross profit method is acceptable for:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -37,30 +34,29 @@ HANDOUT = {'id': '8.2',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['It cannot be higher than a ',
+             'parts': ['Under LCM, market starts with ',
+                       18,
+                       ': the current cost to buy or make the item again. It '
+                       'cannot be higher than a ',
                        11,
                        ' equal to NRV, and it cannot be lower than a ',
                        11,
                        ' equal to NRV minus a ',
                        22,
-                       '. First, find market: take the middle value of ',
-                       18,
-                       ', the ceiling and the floor. Second, compare market '
-                       'with cost and take the lower.'],
-             'bank': ['floor',
+                       '.'],
+             'bank': ['ceiling',
                       'markup',
-                      'replacement cost',
                       'normal profit margin',
+                      'floor',
                       'write-down',
-                      'ceiling'],
-             'a': 'ceiling · floor · normal profit margin · replacement cost',
+                      'replacement cost'],
+             'a': 'replacement cost · ceiling · floor · normal profit margin',
              'one': True,
-             'why': 'The book writes: “It cannot be higher than a ceiling '
-                    'equal to NRV, and it cannot be lower than a floor equal '
-                    'to NRV minus a normal profit margin. First, find '
-                    'market: take the middle value of replacement cost, the '
-                    'ceiling and the floor. Second, compare market with cost '
-                    'and take the lower.”'},
+             'why': 'The book writes: “Under LCM, market starts with '
+                    'replacement cost: the current cost to buy or make the '
+                    'item again. It cannot be higher than a ceiling equal to '
+                    'NRV, and it cannot be lower than a floor equal to NRV '
+                    'minus a normal profit margin.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -142,11 +138,11 @@ HANDOUT = {'id': '8.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the answer of Goods available at retail as '
-                  '“150,000 − 6,000 = 144,000”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Goods available at retail with “150,000 '
-                    '− 6,000 = 144,000”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -161,59 +157,7 @@ HANDOUT = {'id': '8.2',
            'READ THE MODEL',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Goods available at '
-                  'retail?',
-             'o': ['144,000 − 120,000 = 24,000',
-                   '150,000 − 6,000 = 144,000',
-                   '90,000 ÷ 150,000 = 0.60',
-                   '24,000 × 0.60 = $14,400'],
-             'a': 'B',
-             'why': 'The book’s own table gives 150,000 − 6,000 = 144,000 as '
-                    'the answer of Goods available at retail.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Ending inventory at '
-                  'retail?',
-             'o': ['144,000 − 120,000 = 24,000',
-                   '90,000 ÷ 150,000 = 0.60',
-                   '24,000 × 0.60 = $14,400',
-                   '150,000 − 6,000 = 144,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 144,000 − 120,000 = 24,000 '
-                    'as the answer of Ending inventory at retail.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Conventional ratio?',
-             'o': ['150,000 − 6,000 = 144,000',
-                   '90,000 ÷ 150,000 = 0.60',
-                   '24,000 × 0.60 = $14,400',
-                   '144,000 − 120,000 = 24,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 90,000 ÷ 150,000 = 0.60 as '
-                    'the answer of Conventional ratio.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Ending inventory at '
-                  'cost?',
-             'o': ['144,000 − 120,000 = 24,000',
-                   '24,000 × 0.60 = $14,400',
-                   '90,000 ÷ 150,000 = 0.60',
-                   '150,000 − 6,000 = 144,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 24,000 × 0.60 = $14,400 as '
-                    'the answer of Ending inventory at cost.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Goods available at retail as '
-                  '“150,000 − 6,000 = 144,000”.',
-             'a': 'T',
-             'why': 'The book pairs Goods available at retail with “150,000 '
-                    '− 6,000 = 144,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Ending inventory at retail '
-                  'as “24,000 × 0.60 = $14,400”.',
-             'a': 'F',
-             'why': 'The book pairs Ending inventory at retail with “144,000 '
-                    '− 120,000 = 24,000”, not with “24,000 × 0.60 = '
-                    '$14,400”.'},
-            {'t': 'SORT',
+           [{'t': 'SORT',
              'q': 'Write each one under its answer. Every item belongs to '
                   'exactly one group.',
              'regions': ['144,000 − 120,000 = 24,000',
@@ -232,73 +176,70 @@ HANDOUT = {'id': '8.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The gross profit method is acceptable for:',
-             'o': ['interim reports and estimating casualty losses.',
-                   'annual financial statements under U.S. GAAP.',
-                   'replacing the year-end physical count.',
-                   'tax returns only.'],
+             'q': 'Under U.S. GAAP, a company wrote inventory down at the '
+                  'end of 2025. In 2026, the selling price recovers. What '
+                  'should the company do?',
+             'o': ['Nothing; the write-down is not reversed.',
+                   'Reverse the write-down, up to the original amount.',
+                   'Reverse the write-down through OCI.',
+                   'Reverse the write-down only if the recovery happens '
+                   'within one year.'],
              'a': 'A',
-             'why': 'It gives estimates, which are acceptable only where '
-                    'estimates are allowed. B is wrong: Annual statements '
-                    'need a physical count or a cost method. C is wrong: It '
-                    'can check a count but not replace it.',
-             'src': 'P8-09'},
+             'why': 'The write-down created a new cost basis; U.S. GAAP '
+                    'prohibits reversal in later years. B is wrong: This is '
+                    'the IAS 2 rule. C is wrong: There is no OCI treatment '
+                    'for inventory.',
+             'src': 'P8-04'},
             {'t': 'MCQ',
-             'q': 'Orontes signed a firm, non-cancellable contract to buy '
-                  'sesame seeds next year at a fixed price. At year-end, the '
-                  'market price is well below the contract price. What '
-                  'should Orontes do?',
-             'o': ['Recognize the loss when the seeds arrive.',
-                   'Disclose the contract only.',
-                   'Recognize the expected loss now.',
-                   'Record the difference as an asset.'],
+             'q': 'Spiral review (Chapter 7). A FIFO company moves from a '
+                  'periodic to a perpetual system. What happens to cost of '
+                  'goods sold?',
+             'o': ['It increases.',
+                   'It decreases.',
+                   'It does not change.',
+                   'It depends on the timing of sales.'],
              'a': 'C',
-             'why': 'Losses on firm, non-cancellable purchase commitments '
-                    'are recognized in the current period. A is wrong: The '
-                    'loss already exists at year-end. B is wrong: Disclosure '
-                    'alone is not enough for an expected loss.',
-             'src': 'P8-10'},
+             'why': 'FIFO gives the same result under both systems. A is '
+                    'wrong: Only LIFO and average results can change with '
+                    'the system. B is wrong: Only LIFO and average results '
+                    'can change with the system.',
+             'src': 'P8-15'},
             {'t': 'MCQ',
-             'q': 'When prices are rising, which statement about FIFO is '
-                  'TRUE?',
-             'o': ['Taxes are lower than under LIFO.',
-                   'Current costs are matched with current revenues.',
-                   'Ending inventory is close to current cost.',
-                   'It is not allowed under IFRS.'],
-             'a': 'C',
-             'why': 'FIFO leaves the newest costs in ending inventory. A is '
-                    'wrong: FIFO gives higher taxes when prices rise. B is '
-                    'wrong: That is the LIFO argument.',
-             'src': 'P8-11'},
+             'q': 'Spiral review (Chapter 7). Ending inventory for 2025 is '
+                  'overstated. What is the effect on 2025 cost of goods '
+                  'sold?',
+             'o': ['Understated', 'No effect', 'Overstated'],
+             'a': 'A',
+             'why': 'Higher ending inventory means lower cost of goods sold. '
+                    'B is wrong: This reverses the direction. C is wrong: '
+                    'Ending inventory directly changes cost of goods sold.',
+             'src': 'P8-16'},
             {'t': 'MCQ',
-             'q': 'Which is a disadvantage of LIFO?',
-             'o': ['Income includes large holding gains when prices rise.',
-                   'Taxes are higher when prices rise.',
-                   'It cannot be used for U.S. tax returns.',
-                   'The balance sheet can show inventory at very old costs.'],
-             'a': 'D',
-             'why': 'Old LIFO layers can stay in inventory for many years. A '
-                    'is wrong: That describes FIFO. B is wrong: LIFO lowers '
-                    'taxes when prices rise.',
-             'src': 'P8-12'}]),
+             'q': 'Which statement about IAS 2 is TRUE?',
+             'o': ['LIFO inventory uses the lower of cost or market.',
+                   'A write-down is reversed when NRV recovers, up to the '
+                   'original write-down.',
+                   'The retail method must use LCM.',
+                   'Write-downs are recorded in other comprehensive income.'],
+             'a': 'B',
+             'why': 'IAS 2 requires the reversal, limited to the original '
+                    'write-down. A is wrong: IAS 2 does not allow LIFO. C is '
+                    'wrong: IAS 2 has no LCM test; all inventory uses LCNRV.',
+             'src': 'P8-17'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'The gross profit method is acceptable for:',
-           ['interim reports and estimating casualty losses.',
-            'annual financial statements under U.S. GAAP.',
-            'replacing the year-end physical count.',
-            'tax returns only.'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'It gives estimates, which are acceptable only where estimates '
-           'are allowed. B is wrong: Annual statements need a physical count '
-           'or a cost method. C is wrong: It can check a count but not '
-           'replace it.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -335,38 +276,19 @@ HANDOUT = {'id': '8.2',
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'A company sells custom-built industrial ovens, each with '
-                  'a different cost. Which method should it recommend?',
-             'o': ['LIFO',
-                   'Specific identification',
-                   'Weighted average',
-                   'The retail inventory method'],
-             'a': 'B',
-             'why': 'Each oven is unique and valuable, so the actual cost of '
-                    'each unit can be tracked. A is wrong: LIFO suits '
-                    'interchangeable goods, not unique items. C is wrong: '
-                    'Averaging unique costs would distort the cost of each '
-                    'sale.',
-             'src': 'P8-13'},
-            {'t': 'MCQ',
-             'q': 'A U.S. subsidiary reports under U.S. GAAP, but its parent '
-                  'prepares IFRS group statements. The parent wants one '
-                  'method for group reporting. Which recommendation fits '
-                  'best?',
-             'o': ['FIFO or weighted average, so the same records work for '
-                   'the IFRS group statements',
-                   'LIFO, because the subsidiary reports under U.S. GAAP',
-                   'LIFO for the subsidiary and the retail method for the '
-                   'group',
-                   'Specific identification, to avoid the IFRS rules'],
-             'a': 'A',
-             'why': 'The group cannot use LIFO under IFRS, so a non-LIFO '
-                    'method avoids two sets of records. B is wrong: LIFO '
-                    'would need to be reversed for the IFRS group '
-                    'statements. C is wrong: This adds complexity and still '
-                    'uses LIFO.',
-             'src': 'P8-14'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Goods available at retail',
+                      'Ending inventory at retail',
+                      'Conventional ratio',
+                      'Ending inventory at cost'],
+             'right': ['90,000 ÷ 150,000 = 0.60',
+                       '150,000 − 6,000 = 144,000',
+                       '144,000 − 120,000 = 24,000',
+                       '24,000 × 0.60 = $14,400'],
+             'a': ['B', 'C', 'A', 'D'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

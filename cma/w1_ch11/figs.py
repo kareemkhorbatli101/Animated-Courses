@@ -12,8 +12,16 @@ def f1(blank=False):
     return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Monthly juice deliveries', ''), ('Staff training', ''), ('Volume rebate (M1)', ''), ('Menu listing fee (M2)', ''), ('Delivery by Orontes trucks (M3)', '')]})
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Monthly juice deliveries', 'Performance obligation'), ('Staff training', 'Performance obligation'), ('Volume rebate (M1)', 'Reduces the transaction price'), ('Menu listing fee (M2)', 'Reduces the transaction price'), ('Delivery by Orontes trucks (M3)', 'Fulfillment cost')]})
+
+
 def f2(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Revenue and the core principle', 'section 11.1'), ('Steps 1 and 2: the contract and its performance obligations', 'you are here · section 11.2'), ('Steps 3 and 4: the transaction price and its allocation', 'section 11.3'), ('Step 5: recognizing revenue over time or at a point in time', 'section 11.4'), ('Special situations', 'section 11.5'), ('Matching, contract costs and IFRS differences', 'section 11.6')], 'sub': 'each section uses what the one before it settled'})
+
+
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Revenue recognized', '(1,000 − 50) × $20 = 19,000'), ('Refund liability', '50 × $20 = 1,000'), ('Asset: right to recover products', '50 × $12 = 600, shown separately from the refund liability'), ('Cost of goods sold', '(1,000 − 50) × $12 = 11,400')]})
 
 
 def f3(blank=False):
@@ -32,8 +40,16 @@ def f6(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Revenue and the core principle', 'section 11.1'), ('Steps 1 and 2: the contract and its performance obligations', 'section 11.2'), ('Steps 3 and 4: the transaction price and its allocation', 'section 11.3'), ('Step 5: recognizing revenue over time or at a point in time', 'section 11.4'), ('Special situations', 'section 11.5'), ('Matching, contract costs and IFRS differences', 'you are here · section 11.6')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f6b(blank=False):
+    return cardset(blank=blank, **{'title': 'Topic', 'cards': [("Collectibility threshold ('probable')", ['U.S. GAAP (ASC 606): Likely (a high threshold)', 'IFRS 15: More likely than not']), ('Shipping after control passes', ['U.S. GAAP (ASC 606): May elect to treat as a fulfillment cost', 'IFRS 15: No election; may be an obligation']), ('Sales taxes collected', ['U.S. GAAP (ASC 606): May elect to exclude all', 'IFRS 15: Judge each tax: principal or agent']), ('Impairment of capitalized contract costs', ['U.S. GAAP (ASC 606): Never reversed', 'IFRS 15: Reversed (limited)']), ('License renewals', ['U.S. GAAP (ASC 606): Revenue when the renewal period begins', 'IFRS 15: Policy choice']), ('Onerous contracts', ['U.S. GAAP (ASC 606): No general rule', 'IFRS 15: IAS 37 provision'])], 'sub': 'U.S. GAAP (ASC 606) · IFRS 15'})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Monthly juice deliveries', ''), ('Staff training', ''), ('Volume rebate (M1)', ''), ('Menu listing fee (M2)', ''), ('Delivery by Orontes trucks (M3)', '')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 11 at a glance', 'nodes': [('Revenue and the core principle', 'section 11.1'), ('Steps 1 and 2: the contract and its performance obligations', 'section 11.2'), ('Steps 3 and 4: the transaction price and its allocation', 'section 11.3'), ('Step 5: recognizing revenue over time or at a point in time', 'section 11.4'), ('Special situations', 'section 11.5'), ('Matching, contract costs and IFRS differences', 'section 11.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'f6b': f6b, 'frev': frev, 'chmap': chmap}

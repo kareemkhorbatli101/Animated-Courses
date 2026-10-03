@@ -7,6 +7,7 @@ HANDOUT = {'id': '1.6',
  'title': 'A first look at the four statements',
  'sub': 'section 1.6 of the book',
  'covers': ['sec:1.6',
+            'p:P06',
             'sc:SC6-1',
             'sc:SC6-1',
             'term:revenue',
@@ -30,7 +31,8 @@ HANDOUT = {'id': '1.6',
              'a figure to read · Account',
              'Which statement reports amounts at a single date?'],
             ['The words this section uses precisely',
-             'Account · The English the exam uses, and what it translates',
+             'a figure to read · Account · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -39,7 +41,7 @@ HANDOUT = {'id': '1.6',
                   'not used.',
              'parts': ['Each statement answers a different question for '
                        'users. Chapters 2 to 5 study each statement in '
-                       'detail. ',
+                       'detail. The four statements are linked. ',
                        12,
                        ' flows into ',
                        19,
@@ -56,54 +58,64 @@ HANDOUT = {'id': '1.6',
              'one': True,
              'why': 'The book writes: “Each statement answers a different '
                     'question for users. Chapters 2 to 5 study each '
-                    'statement in detail. Net income flows into retained '
-                    'earnings, and the net change in cash explains the cash '
-                    'balance on the balance sheet.”'},
+                    'statement in detail. The four statements are linked. '
+                    'Net income flows into retained earnings, and the net '
+                    'change in cash explains the cash balance on the balance '
+                    'sheet.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['How the four statements connect through ',
-                       12,
-                       ', ',
-                       19,
-                       ' and cash. You can see both links in the January '
-                       'transactions of Orontes. The ',
+             'parts': ['The ',
                        11,
-                       ' declared was 50, so retained earnings rose by 30.'],
-             'bank': ['dividend',
+                       ' declared was 50, so ',
+                       19,
+                       ' rose by 30. Cash rose by 1,060: an operating '
+                       'outflow of 40, an investing outflow of 1,200 and a '
+                       'financing inflow of 2,300. Notice that ',
+                       12,
+                       ' and the change in cash are very different numbers. '
+                       'This is the ',
+                       15,
+                       ' at work.'],
+             'bank': ['accrual basis',
                       'retained earnings',
-                      'cost of goods sold',
                       'net income',
-                      'trial balance'],
-             'a': 'net income · retained earnings · dividend',
+                      'trial balance',
+                      'dividend',
+                      'cost of goods sold'],
+             'a': 'dividend · retained earnings · net income · accrual basis',
              'one': True,
-             'why': 'The book writes: “How the four statements connect '
-                    'through net income, retained earnings and cash. You can '
-                    'see both links in the January transactions of Orontes. '
-                    'The dividend declared was 50, so retained earnings rose '
-                    'by 30.”'},
+             'why': 'The book writes: “The dividend declared was 50, so '
+                    'retained earnings rose by 30. Cash rose by 1,060: an '
+                    'operating outflow of 40, an investing outflow of 1,200 '
+                    'and a financing inflow of 2,300. Notice that net income '
+                    'and the change in cash are very different numbers. This '
+                    'is the accrual basis at work.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Notice that ',
-                       12,
-                       ' and the change in cash are very different numbers. '
-                       'Before you leave this chapter, practise reading a ',
+             'parts': ['A ',
                        15,
-                       '. A trial balance lists every account balance and '
-                       'checks that total debits equal total credits.'],
-             'bank': ['net income',
-                      'relevance',
+                       ' lists every account balance and checks that total '
+                       'debits equal total credits. You will use it in the '
+                       'section check below and in the ',
+                       11,
+                       ' set. MOST likely or BEST ',
+                       11,
+                       ': more than one option may be partly true.'],
+             'bank': ['relevance',
                       'cost of goods sold',
-                      'trial balance'],
-             'a': 'net income · trial balance',
+                      'trial balance',
+                      'describes',
+                      'practice'],
+             'a': 'trial balance · practice · describes',
              'one': True,
-             'why': 'The book writes: “Notice that net income and the change '
-                    'in cash are very different numbers. Before you leave '
-                    'this chapter, practise reading a trial balance. A trial '
-                    'balance lists every account balance and checks that '
-                    'total debits equal total credits.”'}],
+             'why': 'The book writes: “A trial balance lists every account '
+                    'balance and checks that total debits equal total '
+                    'credits. You will use it in the section check below and '
+                    'in the practice set. MOST likely or BEST describes: '
+                    'more than one option may be partly true.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -132,9 +144,11 @@ HANDOUT = {'id': '1.6',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the debit of Cash as “1,050”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Cash with “1,050”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'articulation'),
           ('panel',
@@ -167,36 +181,25 @@ HANDOUT = {'id': '1.6',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which debit does the book give for Cash?',
-             'o': ['4,200', '1,860', '1,050', '9,750'],
-             'a': 'C',
-             'why': 'The book’s own table gives 1,050 as the debit of Cash.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Accounts receivable?',
-             'o': ['420', '300', '520', '936'],
-             'a': 'B',
-             'why': 'The book’s own table gives 300 as the debit of Accounts '
-                    'receivable.'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Inventory?',
-             'o': ['936', '520', '300', '420'],
-             'a': 'D',
-             'why': 'The book’s own table gives 420 as the debit of '
-                    'Inventory.'}]),
+             'q': 'Which account does the book pair with “1,050”?',
+             'o': ['Cash', 'Inventory', 'Prepaid rent', 'Equipment'],
+             'a': 'A',
+             'why': 'The book’s own table pairs Cash with “1,050”.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which statement reports amounts at a single date?',
-             'o': ['The income statement',
-                   'The balance sheet',
-                   'The statement of changes in equity',
-                   'The statement of cash flows'],
-             'a': 'B',
-             'why': 'The balance sheet shows position at one date. The other '
-                    'statements cover a period. A is wrong: The income '
-                    'statement covers a period. C is wrong: The statement of '
-                    'changes in equity covers a period.',
-             'src': 'SC6-1'}]),
+             'q': 'Which transaction changes total assets but does NOT '
+                  'change total equity?',
+             'o': ['Borrowing cash from a bank',
+                   'Paying wages in cash',
+                   'Selling goods on credit at a profit',
+                   'Buying equipment for cash'],
+             'a': 'A',
+             'why': 'Assets and liabilities both increase. Equity does not '
+                    'change. B is wrong: Wages are an expense, so equity '
+                    '(retained earnings) also decreases. C is wrong: A '
+                    'profitable sale increases equity through net income.',
+             'src': 'P06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -225,6 +228,7 @@ HANDOUT = {'id': '1.6',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f6b'),
           ('panel',
            'Account — the book’s own table',
            [['Account', 'Category'],
@@ -270,13 +274,6 @@ HANDOUT = {'id': '1.6',
              'a': ['D', 'F', 'B', 'E', 'C', 'A'],
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

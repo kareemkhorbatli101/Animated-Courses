@@ -7,6 +7,7 @@ HANDOUT = {'id': '7.4',
  'title': 'Effects on income, taxes and assets',
  'sub': 'section 7.4 of the book',
  'covers': ['sec:7.4',
+            'p:P7-06',
             'term:fifo (first-in, first-out)',
             'term:lifo reserve',
             'term:consignment',
@@ -82,27 +83,29 @@ HANDOUT = {'id': '7.4',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['A company that uses LIFO for its tax return must '
-                       'also use LIFO in its financial statements. To get '
-                       'FIFO ',
+             'parts': ['To get FIFO ',
                        20,
                        ', SUBTRACT the increase in the ',
                        14,
                        ' from LIFO cost of goods sold. In rising prices, '
-                       'LIFO gives LOWER income and LOWER taxes, not '
-                       'higher.'],
-             'bank': ['freight-in',
-                      'physical count',
+                       'LIFO gives LOWER income and LOWER taxes, not higher. '
+                       'A ',
+                       18,
+                       ' raises income once. Do not treat it as a better '
+                       'business.'],
+             'bank': ['LIFO liquidation',
+                      'freight-in',
                       'cost of goods sold',
-                      'LIFO reserve'],
-             'a': 'cost of goods sold · LIFO reserve',
+                      'LIFO reserve',
+                      'physical count'],
+             'a': 'cost of goods sold · LIFO reserve · LIFO liquidation',
              'one': True,
-             'why': 'The book writes: “A company that uses LIFO for its tax '
-                    'return must also use LIFO in its financial statements. '
-                    'To get FIFO cost of goods sold, SUBTRACT the increase '
-                    'in the LIFO reserve from LIFO cost of goods sold. In '
-                    'rising prices, LIFO gives LOWER income and LOWER taxes, '
-                    'not higher.”'}],
+             'why': 'The book writes: “To get FIFO cost of goods sold, '
+                    'SUBTRACT the increase in the LIFO reserve from LIFO '
+                    'cost of goods sold. In rising prices, LIFO gives LOWER '
+                    'income and LOWER taxes, not higher. A LIFO liquidation '
+                    'raises income once. Do not treat it as a better '
+                    'business.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -149,41 +152,21 @@ HANDOUT = {'id': '7.4',
                    'Which costs belong in inventory?'],
              'a': 'B',
              'why': 'The book numbers “Which goods belong in inventory?” as '
-                    'section 7.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.2?',
-             'o': ['Effects on income, taxes and assets',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Cost flow assumptions'],
-             'a': 'C',
-             'why': 'The book numbers “Which costs belong in inventory?” as '
-                    'section 7.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.3?',
-             'o': ['Which costs belong in inventory?',
-                   'Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Inventory errors'],
-             'a': 'B',
-             'why': 'The book numbers “Cost flow assumptions” as section '
-                    '7.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.4?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'D',
-             'why': 'The book numbers “Effects on income, taxes and assets” '
-                    'as section 7.4.'}]),
+                    'section 7.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Beginning inventory was 100 units at $10. The company '
+                  'bought 200 units at $12 and then 100 units at $15. It '
+                  'sold 250 units. Using periodic LIFO, what is ending '
+                  'inventory?',
+             'o': ['1,600', '1,838', '2,100', '3,300'],
+             'a': 'A',
+             'why': '150 units remain at the oldest costs: 100 × $10 + 50 × '
+                    '$12 = 1,600. B is wrong: This uses the weighted average '
+                    '($12.25 × 150, rounded). C is wrong: This uses the '
+                    'newest costs (FIFO).',
+             'src': 'P7-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -239,12 +222,16 @@ HANDOUT = {'id': '7.4',
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which English term does the exam use for “الوارد أولاً '
+                  'يُصرف أولاً”?',
+             'o': ['FIFO (first-in, first-out)',
+                   'consignment',
+                   'LIFO reserve',
+                   'LIFO conformity rule'],
+             'a': 'A',
+             'why': 'The glossary on this page pairs “الوارد أولاً يُصرف '
+                    'أولاً” with FIFO (first-in, first-out).'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

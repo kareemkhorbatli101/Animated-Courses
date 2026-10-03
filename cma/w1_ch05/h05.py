@@ -9,7 +9,8 @@ HANDOUT = {'id': '5.5',
  'covers': ['sec:5.5',
             'sc:SC5-3',
             'sc:SC5-4',
-            'sc:SC5-1',
+            'p:P5-07',
+            'sc:SC5-2',
             'sc:SC5-2',
             'sc:SC5-1',
             'sc:SC5-2',
@@ -24,80 +25,92 @@ HANDOUT = {'id': '5.5',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Limitations and links between the four statements',
              'a figure to read · Barada Wholesale (USD 000)',
-             'Why do users need a statement of cash flows when they already '
-             'have an income statement?'],
+             'On December 1 a company buys a Treasury bill that matures in '
+             'five months, on April 30. At December 31 it has two months '
+             'left to maturity. Is it a cash equivalent?'],
             ['The words this section uses precisely',
-             'Cash flow · The English the exam uses, and what it translates',
+             'a figure to read · Cash flow · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['It is only a proposal; the definition of ',
-                       18,
-                       ' does not change. French tableau de financement is '
-                       'an older funds statement based on working capital, '
-                       'not a ',
-                       25,
-                       '. The IFRS term is tableau des flux de trésorerie.'],
-             'bank': ['statement of cash flows',
-                      'cash equivalents',
-                      'indirect method',
-                      'financing activities'],
-             'a': 'cash equivalents · statement of cash flows',
+             'parts': ['Cash flows are harder to manage than profits, but '
+                       'not ',
+                       12,
+                       '. A company can raise ',
+                       11,
+                       ' cash near year-end by delaying payments to '
+                       'suppliers or by selling ',
+                       13,
+                       '. The statement also shows only one year, and it is '
+                       'not a measure of profit.'],
+             'bank': ['indirect method',
+                      'impossible',
+                      'financing activities',
+                      'operating',
+                      'receivables'],
+             'a': 'impossible · operating · receivables',
              'one': True,
-             'why': 'The book writes: “It is only a proposal; the definition '
-                    'of cash equivalents does not change. French tableau de '
-                    'financement is an older funds statement based on '
-                    'working capital, not a statement of cash flows. The '
-                    'IFRS term is tableau des flux de trésorerie.”'},
+             'why': 'The book writes: “Cash flows are harder to manage than '
+                    'profits, but not impossible. A company can raise '
+                    'operating cash near year-end by delaying payments to '
+                    'suppliers or by selling receivables. The statement also '
+                    'shows only one year, and it is not a measure of '
+                    'profit.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['That is the amount in the financing section. It is '
-                       'only a proposal; the definition of ',
-                       18,
-                       ' does not change. French tableau de financement is '
-                       'an older funds statement based on working capital, '
-                       'not a ',
-                       25,
-                       '.'],
-             'bank': ['financing activities',
-                      'statement of cash flows',
-                      'cash equivalents',
-                      'indirect method'],
-             'a': 'cash equivalents · statement of cash flows',
+             'parts': ['A company that stops ',
+                       11,
+                       ' will show strong cash flow for a while, even if its '
+                       'future is weak. The links also help you find amounts '
+                       'that are not given. Orontes ',
+                       11,
+                       ' ',
+                       11,
+                       ' of $450,000, but dividends payable rose by '
+                       '$400,000, so dividends paid were only $50,000.'],
+             'bank': ['indirect method',
+                      'dividends',
+                      'declared',
+                      'investing',
+                      'financing activities'],
+             'a': 'investing · declared · dividends',
              'one': True,
-             'why': 'The book writes: “That is the amount in the financing '
-                    'section. It is only a proposal; the definition of cash '
-                    'equivalents does not change. French tableau de '
-                    'financement is an older funds statement based on '
-                    'working capital, not a statement of cash flows.”'},
+             'why': 'The book writes: “A company that stops investing will '
+                    'show strong cash flow for a while, even if its future '
+                    'is weak. The links also help you find amounts that are '
+                    'not given. Orontes declared dividends of $450,000, but '
+                    'dividends payable rose by $400,000, so dividends paid '
+                    'were only $50,000.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['That is the amount in the financing section. It is '
-                       'only a proposal; the definition of ',
-                       18,
-                       ' does not change. French tableau de financement is '
-                       'an older funds statement based on working capital, '
-                       'not a ',
+             'parts': ['French tableau de ',
+                       13,
+                       ' is an older funds ',
+                       11,
+                       ' based on working capital, not a ',
                        25,
-                       '. The IFRS term is tableau des flux de trésorerie.'],
-             'bank': ['cash equivalents',
-                      'financing activities',
+                       '. The IFRS term is tableau des flux de trésorerie. '
+                       'Arabic قائمة التدفقات النقدية is the correct term '
+                       'for this statement.'],
+             'bank': ['financement',
                       'indirect method',
-                      'statement of cash flows'],
-             'a': 'cash equivalents · statement of cash flows',
+                      'statement of cash flows',
+                      'financing activities',
+                      'statement'],
+             'a': 'financement · statement · statement of cash flows',
              'one': True,
-             'why': 'The book writes: “That is the amount in the financing '
-                    'section. It is only a proposal; the definition of cash '
-                    'equivalents does not change. French tableau de '
-                    'financement is an older funds statement based on '
-                    'working capital, not a statement of cash flows. The '
-                    'IFRS term is tableau des flux de trésorerie.”'}],
+             'why': 'The book writes: “French tableau de financement is an '
+                    'older funds statement based on working capital, not a '
+                    'statement of cash flows. The IFRS term is tableau des '
+                    'flux de trésorerie. Arabic قائمة التدفقات النقدية is '
+                    'the correct term for this statement.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -168,33 +181,7 @@ HANDOUT = {'id': '5.5',
                    'Limitations and links between the four statements'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the '
-                    'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Classifying cash flows',
-                   'Limitations and links between the four statements',
-                   'The indirect method',
-                   'The direct method and required disclosures'],
-             'a': 'A',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['The direct method and required disclosures',
-                   'The indirect method',
-                   'Classifying cash flows',
-                   'Limitations and links between the four statements'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.4?',
-             'o': ['Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'Limitations and links between the four statements',
-                   'Purpose and structure of the statement of cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The direct method and required '
-                    'disclosures” as section 5.4.'}]),
+                    'statement of cash flows” as section 5.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -224,26 +211,42 @@ HANDOUT = {'id': '5.5',
                     'not shown in the body. B is wrong: No cash moved, so no '
                     'cash flows are shown. C is wrong: Buying a building is '
                     'not operating.',
-             'src': 'SC5-4'}]),
+             'src': 'SC5-4'},
+            {'t': 'MCQ',
+             'q': 'A company moves $500,000 from its operating bank account '
+                  'into a restricted account set aside to repay a bond. How '
+                  'is this shown in the statement of cash flows?',
+             'o': ['As an investing outflow',
+                   'It is not a cash flow, because restricted cash is '
+                   'included in the total',
+                   'As a financing outflow',
+                   'As an operating outflow'],
+             'a': 'B',
+             'why': 'Transfers between cash and restricted cash are not cash '
+                    'flows. A is wrong: The statement explains cash and '
+                    'restricted cash together. C is wrong: No bond has been '
+                    'repaid yet.',
+             'src': 'P5-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Why do users need a statement of cash flows when they already '
-           'have an income statement?',
-           ['Because the income statement ignores revenue',
-            'Because the statement of cash flows shows the market value of '
-            'assets',
-            'Because net income is not the same as cash generated',
-            'Because cash flows are measured at fair value'],
-           'C',
+           'On December 1 a company buys a Treasury bill that matures in '
+           'five months, on April 30. At December 31 it has two months left '
+           'to maturity. Is it a cash equivalent?',
+           ['Yes, because it matures within three months of the year-end',
+            'Yes, because all Treasury bills are cash equivalents',
+            'No, because only bank deposits are cash equivalents',
+            'No, because its original maturity to the company was more than '
+            'three months'],
+           'D',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'Accrual profit and cash can differ greatly. A is wrong: The '
-           'income statement reports revenue. B is wrong: No statement shows '
-           'the market value of the company.'),
+           'The test uses original maturity to the holder, not remaining '
+           'maturity. A is wrong: Remaining maturity at year-end is not the '
+           'test. B is wrong: Maturity decides, not the type of security.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -254,6 +257,7 @@ HANDOUT = {'id': '5.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Cash flow — the book’s own table',
            [['Cash flow', 'Category'],
@@ -278,21 +282,68 @@ HANDOUT = {'id': '5.5',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'On December 1 a company buys a Treasury bill that matures '
-                  'in five months, on April 30. At December 31 it has two '
-                  'months left to maturity. Is it a cash equivalent?',
-             'o': ['Yes, because it matures within three months of the '
-                   'year-end',
-                   'Yes, because all Treasury bills are cash equivalents',
-                   'No, because only bank deposits are cash equivalents',
-                   'No, because its original maturity to the company was '
-                   'more than three months'],
+             'q': 'Under the indirect method, how does Orontes treat the '
+                  '384,000 increase in net accounts receivable?',
+             'o': ['Adds it to net income',
+                   'Shows it in investing activities',
+                   'Subtracts it from net income',
+                   'Ignores it'],
+             'a': 'C',
+             'why': 'Revenue was recorded but not yet collected. A is wrong: '
+                    'An increase in an operating asset is subtracted. B is '
+                    'wrong: Trade receivables are operating.',
+             'src': 'SC5-5'},
+            {'t': 'MCQ',
+             'q': 'A company sells equipment with a carrying amount of '
+                  '$40,000 for $55,000. How is the sale shown under the '
+                  'indirect method?',
+             'o': ['Add $15,000 in operating; show $55,000 in investing',
+                   'Subtract the $15,000 gain in operating; show $55,000 in '
+                   'investing',
+                   'Show $15,000 in investing only',
+                   'Show $55,000 in operating'],
+             'a': 'B',
+             'why': 'The gain is removed from operating; the full proceeds '
+                    'are investing. A is wrong: A gain is subtracted, not '
+                    'added. C is wrong: Investing shows the full proceeds, '
+                    'not the gain.',
+             'src': 'SC5-6'},
+            {'t': 'MCQ',
+             'q': "A company's sales were $500,000, all on credit. Accounts "
+                  'receivable increased by $40,000. How much cash was '
+                  'received from customers?',
+             'o': ['$40,000', '$460,000', '$500,000', '$540,000'],
+             'a': 'B',
+             'why': 'Part of the sales has not yet been collected. A is '
+                    'wrong: This is only the change in receivables. C is '
+                    'wrong: Sales are not all collected in cash.',
+             'src': 'SC5-7'},
+            {'t': 'MCQ',
+             'q': 'A company uses the indirect method. Which amounts must it '
+                  'disclose?',
+             'o': ['Interest paid and income taxes paid',
+                   'Cash received from customers',
+                   'Cash paid to suppliers',
+                   'Gross profit in cash terms'],
+             'a': 'A',
+             'why': 'These are required supplemental disclosures under the '
+                    'indirect method. B is wrong: This is part of the direct '
+                    'method, not a required disclosure. C is wrong: This is '
+                    'part of the direct method.',
+             'src': 'SC5-8'},
+            {'t': 'MCQ',
+             'q': 'How can a company increase its operating cash flow at '
+                  'year-end without improving its business?',
+             'o': ['By recording more depreciation',
+                   'By issuing new shares',
+                   'By revaluing its land',
+                   'By delaying payments to suppliers until January'],
              'a': 'D',
-             'why': 'The test uses original maturity to the holder, not '
-                    'remaining maturity. A is wrong: Remaining maturity at '
-                    'year-end is not the test. B is wrong: Maturity decides, '
-                    'not the type of security.',
-             'src': 'SC5-2'}]),
+             'why': 'Timing of payments shifts operating cash between years. '
+                    'A is wrong: Depreciation is noncash; it does not change '
+                    'cash flow. B is wrong: Share issues are financing '
+                    'inflows.',
+             'src': 'SC5-9'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

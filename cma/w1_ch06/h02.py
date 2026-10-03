@@ -7,13 +7,12 @@ HANDOUT = {'id': '6.2',
  'title': 'The allowance for credit losses',
  'sub': 'section 6.2 of the book',
  'covers': ['sec:6.2',
-            'p:P6-08',
-            'p:P6-09',
-            'p:P6-10',
-            'p:P6-11',
-            'sc:P6-08',
-            'p:P6-12',
+            'p:P6-02',
             'p:P6-13',
+            'p:P6-14',
+            'p:P6-15',
+            'sc:P6-02',
+            'p:P6-16',
             'term:allowance for credit losses',
             'term:credit loss expense',
             'term:recourse',
@@ -32,41 +31,39 @@ HANDOUT = {'id': '6.2',
             ['The allowance for credit losses',
              'a figure to read · Age of receivable · the book’s own rule, '
              'gapped',
-             'Under ASU 2025-05, a practical expedient lets companies assume '
-             'current conditions will not change when they forecast losses '
-             'on current receivables. How should a CMA candidate treat it in '
-             '2026?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Age of receivable · The English the exam uses, and what it '
-             'translates',
+             'a figure to read · Age of receivable · The English the exam '
+             'uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       29,
-                       ' T-account: the expense is the plug that reaches the '
-                       "required balance. When a customer's balance is "
-                       'clearly uncollectible, the company records a ',
+             'parts': ['The balance sheet shows ',
+                       13,
+                       ' minus the ',
                        11,
-                       ': debit the allowance and credit ',
-                       21,
-                       '.'],
+                       ': the amount the company expects to collect. A '
+                       'common method is the ',
+                       16,
+                       '. The company groups its receivables by how long '
+                       'they are past due and applies an expected loss rate '
+                       'to each group.'],
              'bank': ['notes receivable',
-                      'accounts receivable',
-                      'Allowance for credit losses',
+                      'aging schedule',
+                      'receivables',
                       'amortized cost',
-                      'write-off'],
-             'a': 'Allowance for credit losses · write-off · accounts '
-                  'receivable',
+                      'allowance'],
+             'a': 'receivables · allowance · aging schedule',
              'one': True,
-             'why': 'The book writes: “Allowance for credit losses '
-                    'T-account: the expense is the plug that reaches the '
-                    "required balance. When a customer's balance is clearly "
-                    'uncollectible, the company records a write-off: debit '
-                    'the allowance and credit accounts receivable.”'},
+             'why': 'The book writes: “The balance sheet shows receivables '
+                    'minus the allowance: the amount the company expects to '
+                    'collect. A common method is the aging schedule. The '
+                    'company groups its receivables by how long they are '
+                    'past due and applies an expected loss rate to each '
+                    'group.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -99,28 +96,29 @@ HANDOUT = {'id': '6.2',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['GAAP answer, always write ',
+             'parts': ['Arabic مخصص covers two ',
+                       11,
+                       ' things. An ',
+                       11,
+                       ' (مخصص الخسائر الائتمانية) reduces an asset. A '
+                       'provision under IAS 37 is a liability. In a U.S. '
+                       'GAAP answer, always write ',
                        29,
                        ', never provision for doubtful debts or reserve for '
-                       'bad debts. The aging gives the required ENDING '
-                       'allowance, not the expense. Expense = required '
-                       'balance − unadjusted credit balance, or required '
-                       'balance + unadjusted debit balance. A ',
-                       11,
-                       ' does not change net income or net receivables.'],
-             'bank': ['amortized cost',
-                      'write-off',
+                       'bad debts.'],
+             'bank': ['allowance',
+                      'amortized cost',
                       'notes receivable',
-                      'allowance for credit losses'],
-             'a': 'allowance for credit losses · write-off',
+                      'allowance for credit losses',
+                      'different'],
+             'a': 'different · allowance · allowance for credit losses',
              'one': True,
-             'why': 'The book writes: “GAAP answer, always write allowance '
-                    'for credit losses, never provision for doubtful debts '
-                    'or reserve for bad debts. The aging gives the required '
-                    'ENDING allowance, not the expense. Expense = required '
-                    'balance − unadjusted credit balance, or required '
-                    'balance + unadjusted debit balance. A write-off does '
-                    'not change net income or net receivables.”'}],
+             'why': 'The book writes: “Arabic مخصص covers two different '
+                    'things. An allowance (مخصص الخسائر الائتمانية) reduces '
+                    'an asset. A provision under IAS 37 is a liability. In a '
+                    'U.S. GAAP answer, always write allowance for credit '
+                    'losses, never provision for doubtful debts or reserve '
+                    'for bad debts.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -149,9 +147,9 @@ HANDOUT = {'id': '6.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the amount of Current as “400,000”.',
+             'q': 'The book gives the amount of Total as “660,000”.',
              'a': 'T',
-             'why': 'The book pairs Current with “400,000”.'}]),
+             'why': 'The book pairs Total with “660,000”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -177,35 +175,11 @@ HANDOUT = {'id': '6.2',
              'a': 'B',
              'why': 'The book’s own table gives 400,000 as the amount of '
                     'Current.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for 1–30 days past due?',
-             'o': ['150,000', '60,000', '400,000', '660,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 150,000 as the amount of '
-                    '1–30 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for 31–60 days past due?',
-             'o': ['60,000', '400,000', '20,000', '30,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 60,000 as the amount of '
-                    '31–60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for 61–90 days past due?',
-             'o': ['20,000', '30,000', '60,000', '400,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 30,000 as the amount of '
-                    '61–90 days past due.'},
-            {'t': 'TF',
-             'q': 'The book gives the required allowance of Current as '
-                  '“4,000”.',
-             'a': 'T',
-             'why': 'The book pairs Current with “4,000”.'},
             {'t': 'TF',
              'q': 'The book gives the required allowance of 1–30 days past '
-                  'due as “4,000”.',
-             'a': 'F',
-             'why': 'The book pairs 1–30 days past due with “4,500”, not '
-                    'with “4,000”.'},
+                  'due as “4,500”.',
+             'a': 'T',
+             'why': 'The book pairs 1–30 days past due with “4,500”.'},
             {'t': 'GRID',
              'q': 'Complete every empty cell. The first full row shows the '
                   'pattern.',
@@ -256,81 +230,90 @@ HANDOUT = {'id': '6.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under ASU 2025-05, a practical expedient lets companies '
-                  'assume current conditions will not change when they '
-                  'forecast losses on current receivables. How should a CMA '
-                  'candidate treat it in 2026?',
-             'o': ['As the main CECL rule',
-                   'As a rule that applies only to IFRS companies',
-                   'As a replacement for the aging method',
-                   'As a watch item that is not yet tested'],
+             'q': 'Under IFRS 9, how are expected credit losses measured on '
+                  'trade receivables without a significant financing '
+                  'component?',
+             'o': ['At 12-month expected losses',
+                   'Only when a loss is probable',
+                   'Only when the receivable is written off',
+                   'Always at lifetime expected losses'],
              'a': 'D',
-             'why': 'It is effective for annual periods beginning after '
-                    'December 15, 2025; under the one-year rule it is not '
-                    'yet tested. A is wrong: It is an optional '
-                    'simplification and is not yet testable. B is wrong: It '
-                    'is a U.S. GAAP update.',
-             'src': 'P6-08'},
+             'why': 'The simplified approach requires lifetime expected '
+                    'losses for these receivables. A is wrong: The 12-month '
+                    'measure is stage 1 of the general approach, not the '
+                    'simplified approach. B is wrong: That was the old '
+                    'incurred-loss model.',
+             'src': 'P6-13'},
             {'t': 'MCQ',
-             'q': 'Receivables are transferred with recourse. They are '
-                  'legally isolated, the factor may pledge them, and the '
-                  'seller has no repurchase right or duty. How is the '
-                  'transfer recorded?',
-             'o': ['As a secured borrowing, because there is recourse',
-                   'As a sale, with no liability',
-                   'As a sale, with a recourse liability at fair value',
-                   'As a pledge of receivables'],
-             'a': 'C',
-             'why': 'All three sale conditions are met; recourse adds a '
-                    'liability to the sale. A is wrong: Recourse alone does '
-                    'not make the transfer a borrowing. B is wrong: The '
-                    'recourse obligation must be recorded.',
-             'src': 'P6-09'},
+             'q': 'Receivables are factored with substantial recourse. The '
+                  'transfer meets the three ASC 860 conditions. Which '
+                  'statement is MOST likely correct?',
+             'o': ['Both frameworks treat it as a borrowing.',
+                   'U.S. GAAP treats it as a sale; IFRS 9 may treat it as a '
+                   'borrowing.',
+                   'Both frameworks treat it as a sale with no liability.',
+                   'IFRS treats it as a sale; U.S. GAAP treats it as a '
+                   'borrowing.'],
+             'a': 'B',
+             'why': 'IFRS 9 focuses on risks and rewards; substantial '
+                    'recourse often keeps the risk with the seller. A is '
+                    'wrong: Under U.S. GAAP the ASC 860 conditions decide, '
+                    'and they are met. C is wrong: A U.S. GAAP sale with '
+                    'recourse records a recourse liability.',
+             'src': 'P6-14'},
             {'t': 'MCQ',
-             'q': 'Use the Orontes factoring example. If the transfer with '
-                  'recourse qualifies as a sale, what is the loss (whole '
-                  'USD)?',
-             'o': ['6,000', '15,000', '21,000', '40,000'],
+             'q': 'Spiral review (Chapter 1). Where is the allowance for '
+                  'credit losses reported?',
+             'o': ['As a liability',
+                   'As an expense',
+                   'As a contra-asset, deducted from accounts receivable',
+                   'As a reduction of equity'],
              'a': 'C',
-             'why': 'Carrying amount − (cash + due from factor − recourse '
-                    'liability). A is wrong: This is only the recourse '
-                    'liability. B is wrong: This leaves out the recourse '
-                    'liability.',
-             'src': 'P6-10'},
-            {'t': 'MCQ',
-             'q': 'Compared with a sale of receivables, a secured borrowing:',
-             'o': ['removes the receivables and adds no liability.',
-                   'removes the receivables and adds a recourse liability.',
-                   'keeps the receivables on the balance sheet and adds a '
-                   'liability.',
-                   'has no effect on the balance sheet.'],
+             'why': 'It reduces receivables to the amount expected to be '
+                    'collected. A is wrong: It is a contra-asset, not a '
+                    'liability. B is wrong: The expense is a separate '
+                    'account; the allowance is the balance sheet total.',
+             'src': 'P6-15'}]),
+          ('panel',
+           'Age of receivable — the extract for the question that follows',
+           [['Age of receivable',
+             'Amount',
+             'Expected loss rate',
+             'Required allowance'],
+            ['Current', '400,000', '1%', '4,000'],
+            ['1–30 days past due', '150,000', '3%', '4,500'],
+            ['31–60 days past due', '60,000', '10%', '6,000'],
+            ['61–90 days past due', '30,000', '25%', '7,500'],
+            ['Over 90 days past due', '20,000', '60%', '12,000'],
+            ['Total', '660,000', '', '34,000']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What is '
+                  'the required allowance for credit losses at December 31, '
+                  '2025 (whole USD)?',
+             'o': ['6,000', '28,000', '34,000', '626,000'],
              'a': 'C',
-             'why': 'In a borrowing, the receivables stay (pledged) and the '
-                    'cash received is a liability. A is wrong: That '
-                    'describes a sale without recourse. B is wrong: That '
-                    'describes a sale with recourse.',
-             'src': 'P6-11'}]),
+             'why': "The sum of each group's amount × its expected loss "
+                    'rate. A is wrong: This is the unadjusted balance before '
+                    'the year-end entry. B is wrong: This is the credit loss '
+                    'expense, not the required balance.',
+             'src': 'P6-02'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under ASU 2025-05, a practical expedient lets companies assume '
-           'current conditions will not change when they forecast losses on '
-           'current receivables. How should a CMA candidate treat it in '
-           '2026?',
-           ['As the main CECL rule',
-            'As a rule that applies only to IFRS companies',
-            'As a replacement for the aging method',
-            'As a watch item that is not yet tested'],
-           'D',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'It is effective for annual periods beginning after December 15, '
-           '2025; under the one-year rule it is not yet tested. A is wrong: '
-           'It is an optional simplification and is not yet testable. B is '
-           'wrong: It is a U.S. GAAP update.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -341,6 +324,7 @@ HANDOUT = {'id': '6.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Age of receivable — the book’s own table',
            [['Age of receivable',
@@ -393,45 +377,23 @@ HANDOUT = {'id': '6.2',
              'o': ['300,000', '40,000', '80,000', '180,000'],
              'a': 'C',
              'why': 'The book’s own table gives 80,000 as the amount of 1–60 '
-                    'days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Over 60 days past '
-                  'due?',
-             'o': ['40,000', '300,000', '180,000', '80,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 40,000 as the amount of Over '
-                    '60 days past due.'}]),
+                    'days past due.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes pledges its receivables as collateral for a bank '
-                  'loan. How are the receivables reported?',
-             'o': ['They stay on the balance sheet, with disclosure of the '
-                   'pledge.',
-                   'They are removed from the balance sheet.',
-                   'They are reclassified as a liability.',
-                   'They are written down to fair value.'],
-             'a': 'A',
-             'why': 'Pledging is not a transfer; only a note disclosure is '
-                    'needed. B is wrong: The receivables are not sold. C is '
-                    'wrong: The loan is the liability; the receivables '
-                    'remain assets.',
-             'src': 'P6-12'},
-            {'t': 'MCQ',
-             'q': 'Under IFRS 9, how are expected credit losses measured on '
-                  'trade receivables without a significant financing '
-                  'component?',
-             'o': ['At 12-month expected losses',
-                   'Only when a loss is probable',
-                   'Only when the receivable is written off',
-                   'Always at lifetime expected losses'],
+             'q': 'Spiral review (Chapter 1). Recording credit loss expense '
+                  'in the period of the sale, before any customer defaults, '
+                  'is an example of:',
+             'o': ['the cash basis',
+                   'the direct write-off method',
+                   'immediate recognition',
+                   'the matching principle'],
              'a': 'D',
-             'why': 'The simplified approach requires lifetime expected '
-                    'losses for these receivables. A is wrong: The 12-month '
-                    'measure is stage 1 of the general approach, not the '
-                    'simplified approach. B is wrong: That was the old '
-                    'incurred-loss model.',
-             'src': 'P6-13'}]),
+             'why': 'The expected loss is matched with the revenue of the '
+                    'same period. A is wrong: No cash moves when the expense '
+                    'is recorded. B is wrong: The direct method waits until '
+                    'a balance is written off.',
+             'src': 'P6-16'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

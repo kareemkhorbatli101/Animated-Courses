@@ -7,11 +7,9 @@ HANDOUT = {'id': '10.3',
  'title': 'Recommending a depreciation method',
  'sub': 'section 10.3 of the book',
  'covers': ['sec:10.3',
-            'p:P10-13',
-            'p:P10-14',
+            'p:P10-09',
             'p:P10-15',
             'p:P10-16',
-            'sc:P10-13',
             'term:salvage value',
             'term:goodwill',
             'term:straight-line method',
@@ -27,8 +25,7 @@ HANDOUT = {'id': '10.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Recommending a depreciation method',
              'a figure to read · Item',
-             'Under U.S. GAAP, a public company tests goodwill. Which '
-             'statement is correct?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -37,86 +34,77 @@ HANDOUT = {'id': '10.3',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The best method matches the pattern in which the '
-                       "company uses up the asset's benefits. Decision path "
-                       'for ',
-                       14,
-                       ' a ',
-                       14,
-                       ' method. A delivery truck wears out with ',
+             'parts': ['A delivery truck wears out with ',
                        12,
-                       ' driven, so units of production fits.'],
-             'bank': ['recommending',
-                      'kilometres',
+                       ' driven, so units of production fits. A computer '
+                       'server loses value quickly as technology changes, so '
+                       'an ',
+                       13,
+                       ' method fits. An office building gives similar '
+                       'service each year, so ',
+                       15,
+                       ' fits.'],
+             'bank': ['kilometres',
+                      'straight-line',
                       'amortization',
                       'capital expenditure',
-                      'depreciation'],
-             'a': 'recommending · depreciation · kilometres',
+                      'accelerated'],
+             'a': 'kilometres · accelerated · straight-line',
              'one': True,
-             'why': 'The book writes: “The best method matches the pattern '
-                    "in which the company uses up the asset's benefits. "
-                    'Decision path for recommending a depreciation method. A '
-                    'delivery truck wears out with kilometres driven, so '
-                    'units of production fits.”'},
+             'why': 'The book writes: “A delivery truck wears out with '
+                    'kilometres driven, so units of production fits. A '
+                    'computer server loses value quickly as technology '
+                    'changes, so an accelerated method fits. An office '
+                    'building gives similar service each year, so '
+                    'straight-line fits.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['An office building gives similar service each year, '
-                       'so ',
-                       15,
-                       ' fits. For the bottling line, machine hours drive '
-                       'the wear, so units of production gives the best '
-                       'matching; straight-line is simpler and is acceptable '
-                       'if use is fairly even. Other factors can support the '
-                       'choice: ',
-                       15,
-                       ' with other companies in the industry, the cost of '
-                       'tracking usage, and ',
-                       14,
-                       ' view of income smoothing.'],
-             'bank': ['comparability',
+             'parts': ['The tax method is a ',
+                       11,
+                       ' ',
+                       11,
+                       ', so a company does not need to use the same method '
+                       'for its books. In a Level C question, a ',
+                       16,
+                       ' earns credit only with a reason from the facts: how '
+                       'the asset is used and when its benefits arrive.'],
+             'bank': ['decision',
                       'amortization',
                       'capital expenditure',
-                      "management's",
-                      'straight-line'],
-             'a': "straight-line · comparability · management's",
+                      'recommendation',
+                      'separate'],
+             'a': 'separate · decision · recommendation',
              'one': True,
-             'why': 'The book writes: “An office building gives similar '
-                    'service each year, so straight-line fits. For the '
-                    'bottling line, machine hours drive the wear, so units '
-                    'of production gives the best matching; straight-line is '
-                    'simpler and is acceptable if use is fairly even. Other '
-                    'factors can support the choice: comparability with '
-                    'other companies in the industry, the cost of tracking '
-                    "usage, and management's view of income smoothing.”"},
+             'why': 'The book writes: “The tax method is a separate '
+                    'decision, so a company does not need to use the same '
+                    'method for its books. In a Level C question, a '
+                    'recommendation earns credit only with a reason from the '
+                    'facts: how the asset is used and when its benefits '
+                    'arrive.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['In a Level C question, a ',
-                       16,
-                       ' earns credit only with a reason from the facts: how '
-                       'the asset is used and when its benefits arrive. '
-                       'SC10-5 A delivery truck wears out mainly with ',
+             'parts': ['A. It gives equal service each year. B. It loses ',
                        12,
-                       ' driven, and the number of kilometres changes a lot '
-                       'from year to year. It loses ',
+                       ' quickly as ',
                        12,
-                       ' quickly as technology changes.'],
+                       ' changes. C. It must use the same method as the tax '
+                       'return. D. ',
+                       13,
+                       ' methods raise early income.'],
              'bank': ['capital expenditure',
+                      'Accelerated',
                       'usefulness',
-                      'recommendation',
-                      'kilometres',
+                      'technology',
                       'amortization'],
-             'a': 'recommendation · kilometres · usefulness',
+             'a': 'usefulness · technology · Accelerated',
              'one': True,
-             'why': 'The book writes: “In a Level C question, a '
-                    'recommendation earns credit only with a reason from the '
-                    'facts: how the asset is used and when its benefits '
-                    'arrive. SC10-5 A delivery truck wears out mainly with '
-                    'kilometres driven, and the number of kilometres changes '
-                    'a lot from year to year. It loses usefulness quickly as '
-                    'technology changes.”'}],
+             'why': 'The book writes: “A. It gives equal service each year. '
+                    'B. It loses usefulness quickly as technology changes. '
+                    'C. It must use the same method as the tax return. D. '
+                    'Accelerated methods raise early income.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -143,11 +131,11 @@ HANDOUT = {'id': '10.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the answer of Year 2 as “50% × 45,000 = '
-                  '22,500; ending book value 22,500”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Year 2 with “50% × 45,000 = 22,500; '
-                    'ending book value 22,500”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -165,64 +153,32 @@ HANDOUT = {'id': '10.3',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “50% × 45,000 = '
-                  '22,500; ending book value 22,500”?',
-             'o': ['Year 2', 'Year 4', 'Year 3'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Year 2 with “50% × 45,000 = '
-                    '22,500; ending book value 22,500”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “50% × 22,500 = '
-                  '11,250; ending book value 11,250”?',
-             'o': ['Year 4', 'Year 3', 'Year 2'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Year 3 with “50% × 22,500 = '
-                    '11,250; ending book value 11,250”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Year 2 as “50% × 45,000 = '
-                  '22,500; ending book value 22,500”.',
-             'a': 'T',
-             'why': 'The book pairs Year 2 with “50% × 45,000 = 22,500; '
-                    'ending book value 22,500”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Year 3 as “50% × 45,000 = '
-                  '22,500; ending book value 22,500”.',
-             'a': 'F',
-             'why': 'The book pairs Year 3 with “50% × 22,500 = 11,250; '
-                    'ending book value 11,250”, not with “50% × 45,000 = '
-                    '22,500; ending book value 22,500”.'}]),
+             'q': 'Which part of this chapter is section 10.1?',
+             'o': ['Recommending a depreciation method',
+                   'Depreciation methods and their effects',
+                   'Impairment of long-lived assets, intangibles and '
+                   'goodwill',
+                   'The cost of property, plant and equipment'],
+             'a': 'D',
+             'why': 'The book numbers “The cost of property, plant and '
+                    'equipment” as section 10.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under U.S. GAAP, a public company tests goodwill. Which '
-                  'statement is correct?',
-             'o': ['The loss is measured against the implied fair value of '
-                   'goodwill.',
-                   "The loss is the reporting unit's carrying amount minus "
-                   'its fair value, capped at goodwill.',
-                   'Goodwill is amortized over ten years and tested only '
-                   'when indicators exist.',
-                   "Goodwill impairment is reversed if the unit's fair value "
-                   'recovers.'],
-             'a': 'B',
-             'why': 'Single-step test under ASU 2017-04. A is wrong: The '
-                    'implied-fair-value step was removed. C is wrong: That '
-                    'is the private-company alternative.',
-             'src': 'P10-13'},
-            {'t': 'MCQ',
-             'q': 'Orontes spends 500 on developing a new frozen dessert. '
-                  'The project meets all six IAS 38 criteria. How does '
-                  'Orontes report the 500 under U.S. GAAP?',
-             'o': ['As an intangible asset',
-                   'As inventory',
-                   'As an expense',
-                   'Half as an asset and half as an expense'],
-             'a': 'C',
-             'why': 'U.S. GAAP expenses R&D as incurred (ASC 730); the IAS '
-                    '38 criteria do not apply. A is wrong: That is the IFRS '
-                    'treatment. B is wrong: Development work is not '
-                    'inventory.',
-             'src': 'P10-14'},
+             'q': 'A fire destroys a warehouse with a carrying amount of '
+                  '400. Insurance pays 520, and the company uses the money '
+                  'to build a new warehouse. What does the company record '
+                  'for the fire?',
+             'o': ['A gain of 120',
+                   'No gain, because the money is reinvested',
+                   'A loss of 400',
+                   'A gain of 520'],
+             'a': 'A',
+             'why': 'Involuntary conversions produce a gain or loss even if '
+                    'the proceeds are reinvested. B is wrong: Reinvestment '
+                    'does not defer the gain under U.S. GAAP. C is wrong: '
+                    'The insurance proceeds offset the loss.',
+             'src': 'P10-09'},
             {'t': 'MCQ',
              'q': 'Which statement about impairment under IAS 36 is TRUE?',
              'o': ['The first step uses undiscounted cash flows.',
@@ -256,22 +212,14 @@ HANDOUT = {'id': '10.3',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under U.S. GAAP, a public company tests goodwill. Which '
-           'statement is correct?',
-           ['The loss is measured against the implied fair value of '
-            'goodwill.',
-            "The loss is the reporting unit's carrying amount minus its fair "
-            'value, capped at goodwill.',
-            'Goodwill is amortized over ten years and tested only when '
-            'indicators exist.',
-            "Goodwill impairment is reversed if the unit's fair value "
-            'recovers.'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Single-step test under ASU 2017-04. A is wrong: The '
-           'implied-fair-value step was removed. C is wrong: That is the '
-           'private-company alternative.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -311,12 +259,16 @@ HANDOUT = {'id': '10.3',
              'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which English term does the exam use for “القيمة المتبقية '
+                  '(قيمة الخردة)”?',
+             'o': ['goodwill',
+                   'involuntary conversion',
+                   'straight-line method',
+                   'salvage value'],
+             'a': 'D',
+             'why': 'The glossary on this page pairs “القيمة المتبقية (قيمة '
+                    'الخردة)” with salvage value.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

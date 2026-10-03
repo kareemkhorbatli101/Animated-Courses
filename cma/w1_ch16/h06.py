@@ -9,6 +9,7 @@ HANDOUT = {'id': '16.6',
  'covers': ['sec:16.6',
             'sc:SC16-3',
             'sc:SC16-4',
+            'p:P16-06',
             'sc:SC16-1',
             'sc:SC16-2',
             'sc:SC16-1',
@@ -28,82 +29,87 @@ HANDOUT = {'id': '16.6',
              'Retail, 202 · Suppose: Orontes Cold-Chain Logistics SPV, 2027',
              'What do consolidated financial statements present?'],
             ['The words this section uses precisely',
-             'Topic · The English the exam uses, and what it translates',
+             'Topic · The English the exam uses, and what it translates · '
+             'Method',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Under IFRS 11, joint ventures use the ',
-                       15,
-                       ' and joint operations recognize their own share of '
-                       'assets and liabilities. SC16-11 An IFRS company '
-                       'measures NCI at its share of the ',
-                       12,
-                       "'s net assets."],
-             'bank': ['unrealized profit',
-                      'equity method',
-                      'variable interest entity',
-                      'subsidiary'],
-             'a': 'equity method · subsidiary',
+             'parts': ['IFRS 10 uses one control model: an ',
+                       11,
+                       ' ',
+                       11,
+                       ' an entity if it has power over it, ',
+                       11,
+                       ' to variable returns, and the ability to use its '
+                       'power to affect those returns. There is no separate '
+                       'VIE model, and an investor can have de facto control '
+                       'with less than half of the votes.'],
+             'bank': ['equity method',
+                      'exposure',
+                      'investor',
+                      'unrealized profit',
+                      'controls'],
+             'a': 'investor · controls · exposure',
              'one': True,
-             'why': 'The book writes: “Under IFRS 11, joint ventures use the '
-                    'equity method and joint operations recognize their own '
-                    'share of assets and liabilities. SC16-11 An IFRS '
-                    "company measures NCI at its share of the subsidiary's "
-                    'net assets.”'},
+             'why': 'The book writes: “IFRS 10 uses one control model: an '
+                    'investor controls an entity if it has power over it, '
+                    'exposure to variable returns, and the ability to use '
+                    'its power to affect those returns. There is no separate '
+                    'VIE model, and an investor can have de facto control '
+                    'with less than half of the votes.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['There is no separate VIE model, and an investor can '
-                       'have de facto control with less than half of the '
-                       'votes. Under IFRS 11, joint ventures use the ',
-                       15,
-                       ' and joint operations recognize their own share of '
-                       'assets and liabilities. SC16-11 An IFRS company '
-                       'measures NCI at its share of the ',
-                       12,
-                       "'s net assets."],
-             'bank': ['subsidiary',
-                      'variable interest entity',
-                      'unrealized profit',
-                      'equity method'],
-             'a': 'equity method · subsidiary',
-             'one': True,
-             'why': 'The book writes: “There is no separate VIE model, and '
-                    'an investor can have de facto control with less than '
-                    'half of the votes. Under IFRS 11, joint ventures use '
-                    'the equity method and joint operations recognize their '
-                    'own share of assets and liabilities. SC16-11 An IFRS '
-                    "company measures NCI at its share of the subsidiary's "
-                    'net assets.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['Under IFRS 11, joint ventures use the ',
                        15,
-                       ' and joint operations recognize their own share of '
-                       'assets and liabilities. SC16-11 An IFRS company '
-                       'measures NCI at its share of the ',
+                       ' and joint ',
                        12,
-                       "'s net assets. SC16-12 An investor holds 45% of the "
-                       'votes; the other 55% are spread among thousands of '
-                       'small shareholders.'],
-             'bank': ['variable interest entity',
+                       ' recognize their own share of assets and ',
+                       13,
+                       '. ASU 2025-03 changes how to identify the acquirer '
+                       'when the acquired company is a VIE; it is not '
+                       'testable before about January 2028.'],
+             'bank': ['operations',
                       'unrealized profit',
-                      'subsidiary',
-                      'equity method'],
-             'a': 'equity method · subsidiary',
+                      'liabilities',
+                      'equity method',
+                      'variable interest entity'],
+             'a': 'equity method · operations · liabilities',
              'one': True,
              'why': 'The book writes: “Under IFRS 11, joint ventures use the '
                     'equity method and joint operations recognize their own '
-                    'share of assets and liabilities. SC16-11 An IFRS '
-                    "company measures NCI at its share of the subsidiary's "
-                    'net assets. SC16-12 An investor holds 45% of the votes; '
-                    'the other 55% are spread among thousands of small '
-                    'shareholders.”'}],
+                    'share of assets and liabilities. ASU 2025-03 changes '
+                    'how to identify the acquirer when the acquired company '
+                    'is a VIE; it is not testable before about January '
+                    '2028.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Suppose: Barada Wholesale and '
+                       'Tadmor Retail, 202” settles these: for Price paid '
+                       'for 75% of Tadmor Retail LLC, January 1, 2028 it is ',
+                       11,
+                       ', for Fair value of the 25% noncontrolling interest '
+                       'it is ',
+                       11,
+                       " and for Fair value of Tadmor's identifiable net "
+                       'assets it is ',
+                       11,
+                       '.'],
+             'bank': ['120', '190', '600', '700'],
+             'one': True,
+             'a': '600 · 190 · 700',
+             'why': 'From the book’s own table “Suppose: Barada Wholesale '
+                    'and Tadmor Retail, 202”: The book’s own table “Suppose: '
+                    'Barada Wholesale and Tadmor Retail, 202” settles these: '
+                    'for Price paid for 75% of Tadmor Retail LLC, January 1, '
+                    '2028 it is 600 and for Fair value of the 25% '
+                    'noncontrolling interest it is 190 and for Fair value of '
+                    "Tadmor's identifiable net assets it is 700."}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -169,21 +175,7 @@ HANDOUT = {'id': '16.6',
              'o': ['700', '600', '190', '120'],
              'a': 'B',
              'why': 'The book’s own table gives 600 as the amount of Price '
-                    'paid for 75% of Tadmor Retail LLC, January 1, 2028.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Fair value of the 25% '
-                  'noncontrolling interest?',
-             'o': ['190', '120', '600', '700'],
-             'a': 'A',
-             'why': 'The book’s own table gives 190 as the amount of Fair '
-                    'value of the 25% noncontrolling interest.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Fair value of '
-                  "Tadmor's identifiable net assets?",
-             'o': ['700', '190', '120', '600'],
-             'a': 'A',
-             'why': 'The book’s own table gives 700 as the amount of Fair '
-                    "value of Tadmor's identifiable net assets."}]),
+                    'paid for 75% of Tadmor Retail LLC, January 1, 2028.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -198,7 +190,19 @@ HANDOUT = {'id': '16.6',
                     'wrong: Votes are tested only if the entity is not a '
                     'VIE. C is wrong: Significant influence decides the '
                     'equity method, not consolidation.',
-             'src': 'SC16-3'}]),
+             'src': 'SC16-3'},
+            {'t': 'MCQ',
+             'q': 'A bank lends to a VIE and bears large losses if it fails, '
+                  'but has no power over its activities. The bank:',
+             'o': ['is the primary beneficiary because it bears the losses',
+                   'must use the equity method',
+                   'is not the primary beneficiary',
+                   'must use proportionate consolidation'],
+             'a': 'C',
+             'why': 'Both power and economics are required. A is wrong: '
+                    'Economics alone are not enough. B is wrong: A lender '
+                    'does not use the equity method.',
+             'src': 'P16-06'}]),
           ('panel',
            'Suppose: Orontes Cold-Chain Logistics SPV, 2027 — the extract '
            'for the question that follows',
@@ -303,27 +307,7 @@ HANDOUT = {'id': '16.6',
                    'Joint arrangements'],
              'a': 'A',
              'why': 'The book’s own table pairs Control model with “Two: VIE '
-                    'model first, then voting interest”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Not through voting '
-                  'alone (unless a VIE)”?',
-             'o': ['Control model',
-                   'Group accounting policies',
-                   'Control below 50% of votes',
-                   "Investment-entity subsidiaries in a parent's statements"],
-             'a': 'C',
-             'why': 'The book’s own table pairs Control below 50% of votes '
-                    'with “Not through voting alone (unless a VIE)”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Fair value (full '
-                  'goodwill)”?',
-             'o': ['Measuring NCI',
-                   "Investment-entity subsidiaries in a parent's statements",
-                   'Group accounting policies',
-                   'Joint arrangements'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Measuring NCI with “Fair '
-                    'value (full goodwill)”.'}]),
+                    'model first, then voting interest”.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
@@ -338,7 +322,94 @@ HANDOUT = {'id': '16.6',
              'why': 'NCI is equity of the group. A is wrong: NCI is not an '
                     "obligation. B is wrong: The mezzanine 'minority "
                     "interest' line is an old practice.",
-             'src': 'SC16-2'}]),
+             'src': 'SC16-2'},
+            {'t': 'MCQ',
+             'q': 'What do consolidated financial statements present?',
+             'o': ["Only the parent's own assets and liabilities",
+                   "The parent's share of each subsidiary's assets",
+                   'A parent and its subsidiaries as a single economic '
+                   'entity',
+                   'All companies in which the parent holds any shares'],
+             'a': 'C',
+             'why': 'Consolidation shows the group as one entity. A is '
+                    "wrong: That is the parent's separate statements. B is "
+                    'wrong: That is proportionate consolidation.',
+             'src': 'SC16-1'},
+            {'t': 'MCQ',
+             'q': 'Orontes holds 30% of Jordan Glass and has significant '
+                  'influence. Which method does it use?',
+             'o': ['Full consolidation',
+                   'Proportionate consolidation',
+                   'Fair value through net income',
+                   'The equity method'],
+             'a': 'D',
+             'why': 'Significant influence without control leads to the '
+                    'equity method. A is wrong: Orontes does not control '
+                    'Jordan Glass. B is wrong: Proportionate consolidation '
+                    'is generally not allowed.',
+             'src': 'SC16-5'},
+            {'t': 'MCQ',
+             'q': 'In 2028 Orontes buys another 10% of Levant from the NCI '
+                  'holders and keeps control. It records:',
+             'o': ['a gain or loss in net income',
+                   'an equity transaction, with no gain or loss',
+                   'new goodwill',
+                   "a remeasurement of Levant's assets to fair value"],
+             'a': 'B',
+             'why': 'Changes in ownership without loss of control are equity '
+                    'transactions. A is wrong: No gain or loss arises while '
+                    'control is kept. C is wrong: Goodwill is measured only '
+                    'when control is obtained.',
+             'src': 'SC16-8'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. Why '
+                  'does Orontes consolidate the cold-chain SPV?',
+             'o': ['It owns more than 50% of the shares',
+                   'It has both the power to direct the SPV and exposure to '
+                   'its losses through the guarantee',
+                   'It lends money to the SPV',
+                   'The SPV is profitable'],
+             'a': 'B',
+             'why': 'Orontes is the primary beneficiary. A is wrong: Orontes '
+                    'owns no shares. C is wrong: Economics alone are not '
+                    'enough; power is also needed.',
+             'src': 'SC16-4'}]),
+          ('panel',
+           'Method — the extract for the question that follows',
+           [['Method',
+             'When used (U.S. GAAP)',
+             'What appears',
+             'Intercompany profit removed',
+             'Orontes'],
+            ['Full consolidation',
+             'Control (subsidiary or VIE)',
+             '100% of each asset, liability, revenue and expense; NCI shown',
+             '100% of intercompany items',
+             'Levant (80%)'],
+            ['Equity method',
+             'Significant influence (20%–50%); joint ventures',
+             'One line: investment and share of income',
+             "Only the investor's share: 30% × 40,000 = 12,000",
+             'Jordan Glass (30%)'],
+            ['Proportionate consolidation',
+             'Rare in U.S. GAAP: some construction and oil and gas interests',
+             "Investor's share of each line",
+             "Investor's share",
+             'Not used by Orontes']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. How '
+                  'much unrealized profit on bottles bought from Jordan '
+                  'Glass does Orontes remove (whole USD)?',
+             'o': ['0', '12,000', '40,000', '80,000'],
+             'a': 'B',
+             'why': "Only Orontes's 30% share of the $40,000 unrealized "
+                    "profit. A is wrong: The investor's share must be "
+                    'removed. C is wrong: Full elimination is for '
+                    'subsidiaries, not equity-method investees.',
+             'src': 'SC16-6'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

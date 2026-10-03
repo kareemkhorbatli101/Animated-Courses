@@ -3,17 +3,11 @@
 
 HANDOUT = {'id': '14.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Finance or operating? The five criteria',
  'sub': 'section 14.2 of the book',
  'covers': ['sec:14.2',
-            'p:P14-07',
-            'p:P14-08',
-            'p:P14-10',
-            'p:P14-11',
-            'sc:P14-07',
-            'p:P14-12',
-            'p:P14-13',
+            'p:P14-03',
             'term:right-of-use asset',
             'term:lease term'],
  'skills': [('read2', 3)],
@@ -26,11 +20,9 @@ HANDOUT = {'id': '14.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Finance or operating? The five criteria',
              'a figure to read · Criterion · the book’s own rule, gapped',
-             'A lessee pays $5,000 of initial direct costs and receives a '
-             '$3,000 lease incentive. The lease liability is $80,000. What '
-             'is the ROU asset?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates · Item',
+             'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -46,9 +38,7 @@ HANDOUT = {'id': '14.2',
                        ' if it meets any one of five criteria; otherwise it '
                        'is an ',
                        17,
-                       '. Many companies use about 75% or more of economic '
-                       'life as a major part, and about 90% or more of fair '
-                       'value as substantially all.'],
+                       '.'],
              'bank': ['lease term',
                       'operating lease',
                       'lease',
@@ -59,57 +49,56 @@ HANDOUT = {'id': '14.2',
              'one': True,
              'why': 'The book writes: “A lessee classifies each lease at the '
                     'start. It is a finance lease if it meets any one of '
-                    'five criteria; otherwise it is an operating lease. Many '
-                    'companies use about 75% or more of economic life as a '
-                    'major part, and about 90% or more of fair value as '
-                    'substantially all.”'},
+                    'five criteria; otherwise it is an operating lease.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The warehouse ',
+             'parts': ['Many companies use about 75% or more of ',
                        11,
-                       ' runs 5 years in a building that will last 30 years, '
-                       'and its payments are worth only 28% of the '
-                       "building's value: an ",
-                       17,
-                       '. The olive-press line was built for Orontes and the '
-                       'lease covers most of its life: a ',
+                       ' life as a major part, and about 90% or more of fair '
+                       'value as ',
                        15,
-                       '.'],
-             'bank': ['right-of-use asset',
-                      'lease',
-                      'lease term',
-                      'operating lease',
-                      'finance lease'],
-             'a': 'lease · operating lease · finance lease',
+                       ' all. French cré',
+                       11,
+                       ' and Arabic عقد تأجير تمويلي are legal forms of '
+                       'contract.'],
+             'bank': ['lease',
+                      'economic',
+                      'right-of-use asset',
+                      'substantially',
+                      'dit-bail'],
+             'a': 'economic · substantially · dit-bail',
              'one': True,
-             'why': 'The book writes: “The warehouse lease runs 5 years in a '
-                    'building that will last 30 years, and its payments are '
-                    "worth only 28% of the building's value: an operating "
-                    'lease. The olive-press line was built for Orontes and '
-                    'the lease covers most of its life: a finance lease.”'},
+             'why': 'The book writes: “Many companies use about 75% or more '
+                    'of economic life as a major part, and about 90% or more '
+                    'of fair value as substantially all. French crédit-bail '
+                    'and Arabic عقد تأجير تمويلي are legal forms of '
+                    'contract.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['A crédit-bail contract can be an ',
-                       17,
-                       ', and an ordinary rental can be a ',
-                       15,
-                       '. SC14-4 A lease has no transfer or purchase option, '
-                       "covers 40% of the asset's life, and the PV of "
-                       'payments is 60% of fair value.'],
-             'bank': ['right-of-use asset',
-                      'lease',
-                      'finance lease',
-                      'operating lease'],
-             'a': 'operating lease · finance lease',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Criterion” settles these: for '
+                       '3. Major part of economic life it is ',
+                       25,
+                       ', for 4. PV ≥ substantially all of fair value it is ',
+                       32,
+                       ' and for 5. Specialized asset it is ',
+                       30,
+                       '.'],
+             'bank': ['No: 5 of 30 years (17%)',
+                      'Operating lease',
+                      'No: any company could use it',
+                      'No: 421,236 of 1,500,000 (28%)'],
              'one': True,
-             'why': 'The book writes: “A crédit-bail contract can be an '
-                    'operating lease, and an ordinary rental can be a '
-                    'finance lease. SC14-4 A lease has no transfer or '
-                    "purchase option, covers 40% of the asset's life, and "
-                    'the PV of payments is 60% of fair value.”'}],
+             'a': 'No: 5 of 30 years (17%) · No: 421,236 of 1,500,000 (28%) '
+                  '· No: any company could use it',
+             'why': 'From the book’s own table “Criterion”: The book’s own '
+                    'table “Criterion” settles these: for 3. Major part of '
+                    'economic life it is No: 5 of 30 years (17%) and for 4. '
+                    'PV ≥ substantially all of fair value it is No: 421,236 '
+                    'of 1,500,000 (28%) and for 5. Specialized asset it is '
+                    'No: any company could use it.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -172,16 +161,6 @@ HANDOUT = {'id': '14.2',
              'a': 'D',
              'why': 'The book’s own table pairs 3. Major part of economic '
                     'life with “No: 5 of 30 years (17%)”.'},
-            {'t': 'MCQ',
-             'q': 'Which criterion does the book pair with “No: 421,236 of '
-                  '1,500,000 (28%)”?',
-             'o': ['4. PV ≥ substantially all of fair value',
-                   '3. Major part of economic life',
-                   '2. Purchase option reasonably certain',
-                   '5. Specialized asset'],
-             'a': 'A',
-             'why': 'The book’s own table pairs 4. PV ≥ substantially all of '
-                    'fair value with “No: 421,236 of 1,500,000 (28%)”.'},
             {'t': 'GRID',
              'q': 'Complete every empty cell. The first full row shows the '
                   'pattern.',
@@ -238,70 +217,32 @@ HANDOUT = {'id': '14.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A lessee pays $5,000 of initial direct costs and receives '
-                  'a $3,000 lease incentive. The lease liability is $80,000. '
-                  'What is the ROU asset?',
-             'o': ['$78,000', '$80,000', '$82,000', '$88,000'],
+             'q': 'A lease includes an option to buy the asset for $1 at the '
+                  'end. The lessee is reasonably certain to use it. The '
+                  'lease is:',
+             'o': ['an operating lease',
+                   'a sale',
+                   'a finance lease',
+                   'a service contract'],
              'a': 'C',
-             'why': 'Liability + initial direct costs − incentives. A is '
-                    'wrong: This subtracts the direct costs and adds the '
-                    'incentive. B is wrong: This ignores the costs and the '
-                    'incentive.',
-             'src': 'P14-07'},
-            {'t': 'MCQ',
-             'q': 'Which payment is included in the lease liability at the '
-                  'start?',
-             'o': ["Future payments based on the lessee's sales",
-                   'Payments for cleaning services in the same contract',
-                   'Payments after a renewal the lessee does not expect to '
-                   'use',
-                   'A payment that rises each year with the CPI, measured at '
-                   "today's index"],
-             'a': 'D',
-             'why': 'Index-based payments are included at the current index. '
-                    'A is wrong: Sales-based variable payments are expensed '
-                    'when incurred. B is wrong: Non-lease services are not '
-                    'lease payments.',
-             'src': 'P14-08'},
-            {'t': 'MCQ',
-             'q': 'Compared with an operating lease on the same terms, a '
-                  'finance lease gives:',
-             'o': ['the same expense every year',
-                   'higher total expense in early years and lower in later '
-                   'years',
-                   'higher total expense over the lease term',
-                   'no expense until the lease ends'],
-             'a': 'B',
-             'why': 'Interest falls as the liability falls: front-loaded. A '
-                    'is wrong: That describes the operating lease. C is '
-                    'wrong: Totals are the same; only timing differs.',
-             'src': 'P14-10'},
-            {'t': 'MCQ',
-             'q': "A lessee's liability is $100,000, the rate is 8%, and the "
-                  'first annual payment of $30,000 is made at year-end. What '
-                  'is the liability after the payment?',
-             'o': ['$70,000', '$78,000', '$92,000', '$108,000'],
-             'a': 'B',
-             'why': '$100,000 + $8,000 interest − $30,000. A is wrong: This '
-                    'ignores interest. C is wrong: This deducts only the '
-                    'interest part.',
-             'src': 'P14-11'}]),
+             'why': 'A reasonably certain purchase option is one of the five '
+                    'criteria. A is wrong: One criterion is met. B is wrong: '
+                    'The lessee is not buying now.',
+             'src': 'P14-03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A lessee pays $5,000 of initial direct costs and receives a '
-           '$3,000 lease incentive. The lease liability is $80,000. What is '
-           'the ROU asset?',
-           ['$78,000', '$80,000', '$82,000', '$88,000'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Liability + initial direct costs − incentives. A is wrong: This '
-           'subtracts the direct costs and adds the incentive. B is wrong: '
-           'This ignores the costs and the incentive.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -328,55 +269,15 @@ HANDOUT = {'id': '14.2',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': "The CPI rises, increasing next year's payments on an "
-                  'operating lease. Under ASC 842, the lessee:',
-             'o': ['remeasures the liability at once',
-                   'reclassifies the lease as a finance lease',
-                   'does not remeasure the liability; it expenses the '
-                   'increase when incurred',
-                   'records a gain'],
-             'a': 'C',
-             'why': 'Index changes alone do not trigger remeasurement. A is '
-                    'wrong: Remeasuring for index changes is an IFRS 16 '
-                    'rule. B is wrong: Classification does not change.',
-             'src': 'P14-12'}]),
-          ('panel',
-           'Item — the extract for the question that follows',
-           [['Item',
-             'Finance lease (olive press)',
-             'Operating lease (warehouse)'],
-            ['Balance sheet',
-             'ROU asset and lease liability, shown separately from operating '
-             'leases (or disclosed)',
-             'ROU asset and lease liability, shown separately from finance '
-             'leases (or disclosed)'],
-            ['Income statement',
-             'Interest expense and amortization, shown separately',
-             'One lease cost in operating expenses'],
-            ['Cash flow: principal', 'Financing', 'Operating'],
-            ['Cash flow: interest',
-             'Operating',
-             'Operating (part of the single payment)'],
-            ['Orontes at December 31, 2026',
-             'Liability 668,253: current 209,905, noncurrent 458,348; ROU '
-             'asset 649,707',
-             'Liability 346,510; ROU asset 346,510']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. How is '
-                  'the olive-press liability of $668,253 split at December '
-                  '31, 2026?',
-             'o': ['All noncurrent',
-                   'Current 250,000, noncurrent the rest',
-                   'All current',
-                   'Current 209,905, noncurrent 458,348'],
-             'a': 'D',
-             'why': 'The current part is the principal to be paid in 2027. A '
-                    'is wrong: The 2027 principal is current. B is wrong: '
-                    'The 2027 payment includes interest, which is not yet a '
-                    'liability.',
-             'src': 'P14-13'}]),
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

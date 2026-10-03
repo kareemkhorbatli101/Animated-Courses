@@ -3,17 +3,14 @@
 
 HANDOUT = {'id': '2.1',
  'n': 1,
- 'pages': 9,
+ 'pages': 7,
  'title': 'Purpose and structure of the balance sheet',
  'sub': 'section 2.1 of the book',
  'covers': ['sec:2.1',
             'p:P2-01',
-            'p:P2-02',
             'p:P2-03',
             'p:P2-04',
-            'sc:P2-01',
-            'p:P2-05',
-            'p:P2-06',
+            'p:P2-21',
             'term:balance sheet',
             'term:working capital',
             'term:liquidity',
@@ -29,11 +26,10 @@ HANDOUT = {'id': '2.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Purpose and structure of the balance sheet',
              'a figure to read · Orontes Foods Inc. (whole USD)',
-             'Which question does the balance sheet help users answer MOST '
-             'directly?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Account · The English the exam uses, and what it translates · '
-             'Orontes Foods Inc. (whole USD)',
+             'a figure to read · Account · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -67,55 +63,52 @@ HANDOUT = {'id': '2.1',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Some companies, such as banks, list items in order '
-                       'of ',
+             'parts': ['U.S. companies that file with the SEC present a ',
+                       26,
+                       '. It separates current from noncurrent assets and '
+                       'current from noncurrent liabilities, so users can '
+                       'see the short-term position at once. Some companies, '
+                       'such as banks, list items in order of ',
                        11,
-                       ' instead, without a current subtotal. All the '
-                       'amounts come from the same records as the earlier '
-                       'chapters on receivables, inventory, investments and '
-                       'long-lived assets. For example, the equity-method '
-                       'investments include Jordan Glass Co. ',
-                       16,
-                       ' come first, from cash down to assets held for '
-                       'sale.'],
-             'bank': ['Current assets',
+                       ' instead, without a current subtotal.'],
+             'bank': ['liquidity',
                       'working capital',
                       'solvency',
-                      'liquidity'],
-             'a': 'liquidity · Current assets',
+                      'classified balance sheet'],
+             'a': 'classified balance sheet · liquidity',
              'one': True,
-             'why': 'The book writes: “Some companies, such as banks, list '
+             'why': 'The book writes: “U.S. companies that file with the SEC '
+                    'present a classified balance sheet. It separates '
+                    'current from noncurrent assets and current from '
+                    'noncurrent liabilities, so users can see the short-term '
+                    'position at once. Some companies, such as banks, list '
                     'items in order of liquidity instead, without a current '
-                    'subtotal. All the amounts come from the same records as '
-                    'the earlier chapters on receivables, inventory, '
-                    'investments and long-lived assets. For example, the '
-                    'equity-method investments include Jordan Glass Co. '
-                    'Current assets come first, from cash down to assets '
-                    'held for sale.”'},
+                    'subtotal.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Can the company pay its bills in the coming months? '
-                       'This is ',
-                       11,
-                       '. Can it pay all its debts over time? This is ',
-                       11,
-                       '. Can it raise cash or change its plans if something '
-                       'unexpected happens? This is ',
-                       23,
-                       '.'],
-             'bank': ['liquidity',
-                      'current assets',
-                      'financial flexibility',
-                      'solvency',
-                      'working capital'],
-             'a': 'liquidity · solvency · financial flexibility',
+             'parts': ['Contra accounts, such as the allowance for credit '
+                       'losses and ',
+                       13,
+                       ' ',
+                       14,
+                       ', are shown with the asset they reduce. The line '
+                       'Commitments and ',
+                       15,
+                       ' has no amount; it tells the reader to look at a '
+                       'note.'],
+             'bank': ['accumulated',
+                      'working capital',
+                      'contingencies',
+                      'depreciation',
+                      'solvency'],
+             'a': 'accumulated · depreciation · contingencies',
              'one': True,
-             'why': 'The book writes: “Can the company pay its bills in the '
-                    'coming months? This is liquidity. Can it pay all its '
-                    'debts over time? This is solvency. Can it raise cash or '
-                    'change its plans if something unexpected happens? This '
-                    'is financial flexibility.”'}],
+             'why': 'The book writes: “Contra accounts, such as the '
+                    'allowance for credit losses and accumulated '
+                    'depreciation, are shown with the asset they reduce. The '
+                    'line Commitments and contingencies has no amount; it '
+                    'tells the reader to look at a note.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -220,33 +213,7 @@ HANDOUT = {'id': '2.1',
                    'Other presentation matters'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the balance '
-                    'sheet” as section 2.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.2?',
-             'o': ['Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items',
-                   'Other presentation matters'],
-             'a': 'C',
-             'why': 'The book numbers “Current and noncurrent items” as '
-                    'section 2.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.3?',
-             'o': ['Other presentation matters',
-                   'Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying debt” as section 2.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.4?',
-             'o': ['Classifying debt',
-                   'Current and noncurrent items',
-                   'Other presentation matters',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Other presentation matters” as '
-                    'section 2.4.'}]),
+                    'sheet” as section 2.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -263,20 +230,6 @@ HANDOUT = {'id': '2.1',
                     'wrong: Operating cash flow is on the statement of cash '
                     'flows.',
              'src': 'P2-01'},
-            {'t': 'MCQ',
-             'q': 'The ability of a company to take effective action to '
-                  'change the amounts and timing of cash flows is called:',
-             'o': ['liquidity.',
-                   'financial flexibility.',
-                   'solvency.',
-                   'working capital.'],
-             'a': 'B',
-             'why': 'Financial flexibility is the ability to respond to '
-                    'unexpected needs and opportunities. A is wrong: '
-                    'Liquidity is about meeting short-term obligations. C is '
-                    'wrong: Solvency is about meeting all obligations over '
-                    'time.',
-             'src': 'P2-02'},
             {'t': 'MCQ',
              'q': 'Why do U.S. SEC registrants present a classified balance '
                   'sheet?',
@@ -301,26 +254,36 @@ HANDOUT = {'id': '2.1',
                     'is wrong: Prepaid rent for six months will be used up '
                     'within a year. B is wrong: Trading securities are held '
                     'for sale soon.',
-             'src': 'P2-04'}]),
+             'src': 'P2-04'},
+            {'t': 'MCQ',
+             'q': 'Company X owes Company Y $50,000, and Company Y owes '
+                  'Company X $30,000 on a separate contract. There is no '
+                  'legal right of setoff. How does Company X present these '
+                  'amounts?',
+             'o': ['A net payable of $20,000',
+                   'A net receivable of $20,000',
+                   'A receivable of $30,000 and a payable of $50,000',
+                   'Only a note disclosure'],
+             'a': 'C',
+             'why': 'Without a right of setoff, assets and liabilities are '
+                    'shown gross. A is wrong: Netting needs a legal right of '
+                    'setoff. B is wrong: Netting needs a right of setoff, '
+                    'and the sign is also wrong.',
+             'src': 'P2-21'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which question does the balance sheet help users answer MOST '
-           'directly?',
-           ['How profitable was the company this year?',
-            'How much cash did operations produce this year?',
-            'What is the market value of the company?',
-            'Can the company pay its debts as they fall due?'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'The balance sheet shows resources and obligations for judging '
-           'liquidity and solvency. A is wrong: Profitability is shown on '
-           'the income statement. B is wrong: Operating cash flow is on the '
-           'statement of cash flows.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -331,6 +294,7 @@ HANDOUT = {'id': '2.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Account — the book’s own table',
            [['Account', 'Category'],
@@ -368,113 +332,35 @@ HANDOUT = {'id': '2.1',
              'whys': ['', '', '', '', '']},
             {'t': 'MCQ',
              'q': 'Which category does the book give for Prepaid rent?',
-             'o': ['Current liability',
-                   'Noncurrent asset',
-                   'Equity',
-                   'Current asset'],
-             'a': 'D',
+             'o': ['Current asset', 'Equity', 'Current liability'],
+             'a': 'A',
              'why': 'The book’s own table gives Current asset as the '
                     'category of Prepaid rent.'},
             {'t': 'MCQ',
              'q': 'Which category does the book give for Land?',
-             'o': ['Equity',
-                   'Current liability',
-                   'Current asset',
-                   'Noncurrent asset'],
-             'a': 'D',
+             'o': ['Noncurrent asset', 'Current liability', 'Equity'],
+             'a': 'A',
              'why': 'The book’s own table gives Noncurrent asset as the '
                     'category of Land.'},
             {'t': 'MCQ',
              'q': 'Which category does the book give for Allowance for '
                   'credit losses?',
-             'o': ['Noncurrent asset',
-                   'Current liability',
-                   'Equity',
-                   'Current asset'],
-             'a': 'D',
+             'o': ['Current asset', 'Equity', 'Current liability'],
+             'a': 'A',
              'why': 'The book’s own table gives Current asset as the '
                     'category of Allowance for credit losses.'}]),
           ('move', 'APPLY', ''),
-          ('panel',
-           'Orontes Foods Inc. (whole USD) — the extract for the question '
-           'that follows',
-           [['Orontes Foods Inc. (whole USD)',
-             'Dec 31, 2025',
-             'Dec 31, 2024'],
-            ['ASSETS', '', ''],
-            ['Current assets', '', ''],
-            ['Cash', '7,302,100', '2,100,000'],
-            ['Trading securities', '42,000', '40,000'],
-            ['Accounts receivable, net of allowance (2025: 156,000; 2024: '
-             '140,000)',
-             '4,144,000',
-             '3,760,000'],
-            ['Inventory', '2,450,000', '2,300,000'],
-            ['Prepaid expenses', '204,000', '180,000'],
-            ['Assets held for sale', '46,000', '—'],
-            ['Total current assets', '14,188,100', '8,380,000'],
-            ['Noncurrent assets', '', ''],
-            ['Debt securities (held-to-maturity and available-for-sale)',
-             '88,500',
-             '90,000'],
-            ['Equity securities', '27,000', '25,000'],
-            ['Equity-method investments', '1,807,000', '500,000'],
-            ['Property, plant and equipment, net of accumulated depreciation '
-             '(2025: 11,988,000; 2024: 8,000,000)',
-             '14,802,000',
-             '16,000,000'],
-            ['Brand (indefinite-lived)', '260,000', '300,000'],
-            ['Goodwill', '300,000', '950,000'],
-            ['Other noncurrent assets', '200,000', '200,000'],
-            ['TOTAL ASSETS', '31,672,600', '26,445,000'],
-            ["LIABILITIES AND STOCKHOLDERS' EQUITY", '', ''],
-            ['Current liabilities', '', ''],
-            ['Accounts payable', '2,050,000', '1,900,000'],
-            ['Accrued liabilities', '900,000', '850,000'],
-            ['Income taxes payable', '350,000', '300,000'],
-            ['Contract liabilities', '180,000', '120,000'],
-            ['Dividends payable', '400,000', '—'],
-            ['Current portion of long-term debt', '400,000', '400,000'],
-            ['Total current liabilities', '4,280,000', '3,570,000'],
-            ['Long-term debt, less current portion',
-             '6,000,000',
-             '5,600,000'],
-            ['Deferred tax liability', '999,625', '900,000'],
-            ['Total liabilities', '11,279,625', '10,070,000'],
-            ['Commitments and contingencies (Note 12)', '', ''],
-            ["Stockholders' equity", '', ''],
-            ['Common stock, $1 par; shares issued and outstanding: 2025 '
-             '8,100,000, 2024 8,000,000',
-             '8,100,000',
-             '8,000,000'],
-            ['Additional paid-in capital', '5,400,000', '4,000,000'],
-            ['Retained earnings', '6,894,100', '4,375,000'],
-            ['Accumulated other comprehensive income (loss)', '(1,125)', '—'],
-            ["Total stockholders' equity", '20,392,975', '16,375,000'],
-            ["TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY",
-             '31,672,600',
-             '26,445,000']],
-           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  "Orontes's working capital at December 31, 2025 (whole "
-                  'USD)?',
-             'o': ['2,908,475', '9,908,100', '10,064,100', '10,308,100'],
-             'a': 'B',
-             'why': '$14,188,100 − $4,280,000 = $9,908,100. A is wrong: This '
-                    'subtracts total liabilities. C is wrong: This adds back '
-                    'the allowance; receivables are included net.',
-             'src': 'P2-05'},
-            {'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  "Orontes's current ratio at December 31, 2025?",
-             'o': ['0.30', '2.35', '3.31', '3.62'],
-             'a': 'C',
-             'why': '$14,188,100 ÷ $4,280,000. A is wrong: This divides '
-                    'current liabilities by current assets. B is wrong: This '
-                    'is the 2024 ratio.',
-             'src': 'P2-06'}]),
+             'q': 'Which English term does the exam use for “الميزانية '
+                  'العمومية”?',
+             'o': ['working capital',
+                   'liquidity',
+                   'right of setoff',
+                   'balance sheet'],
+             'a': 'D',
+             'why': 'The glossary on this page pairs “الميزانية العمومية” '
+                    'with balance sheet.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -7,6 +7,18 @@ HANDOUT = {'id': '2.6',
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P2-08',
+            'p:P2-09',
+            'p:P2-10',
+            'p:P2-11',
+            'p:P2-13',
+            'p:P2-14',
+            'p:P2-15',
+            'p:P2-16',
+            'p:P2-17',
+            'p:P2-18',
+            'p:P2-19',
+            'p:P2-20',
             'sc:SC2-5',
             'sc:SC2-6',
             'sc:SC2-7',
@@ -49,8 +61,8 @@ HANDOUT = {'id': '2.6',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'A five-year loan is repaid in equal annual installments. At '
-             'year-end, how is the next installment classified?'],
+             'A company with a current ratio of 0.8 borrows cash on a 90-day '
+             'note. What is the effect on the current ratio?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -63,89 +75,91 @@ HANDOUT = {'id': '2.6',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['On the liability side, ',
-                       35,
-                       ' is current, because that part of the principal is '
-                       'due within a year. Two measures come directly from '
-                       'these totals. ',
-                       17,
-                       ' is ',
-                       16,
-                       ' minus ',
-                       21,
-                       '. The ',
-                       15,
-                       ' is current assets divided by current liabilities.'],
-             'bank': ['current assets',
-                      'Working capital',
-                      'current ratio',
+             'parts': ['Can the company pay its bills in the coming months? '
+                       'This is ',
+                       11,
+                       '. Can it pay all its debts over time? This is ',
+                       11,
+                       '. Can it raise cash or change its plans if something '
+                       'unexpected happens? This is ',
+                       23,
+                       '. U.S. companies that file with the SEC present a ',
+                       26,
+                       '.'],
+             'bank': ['financial flexibility',
                       'balance sheet',
+                      'solvency',
                       'callable debt',
-                      'current portion of long-term debt',
-                      'current liabilities'],
-             'a': 'current portion of long-term debt · Working capital · '
-                  'current assets · current liabilities · current ratio',
+                      'liquidity',
+                      'classified balance sheet'],
+             'a': 'liquidity · solvency · financial flexibility · classified '
+                  'balance sheet',
              'one': True,
-             'why': 'The book writes: “On the liability side, current '
-                    'portion of long-term debt is current, because that part '
-                    'of the principal is due within a year. Two measures '
-                    'come directly from these totals. Working capital is '
-                    'current assets minus current liabilities. The current '
-                    'ratio is current assets divided by current '
-                    'liabilities.”'},
+             'why': 'The book writes: “Can the company pay its bills in the '
+                    'coming months? This is liquidity. Can it pay all its '
+                    'debts over time? This is solvency. Can it raise cash or '
+                    'change its plans if something unexpected happens? This '
+                    'is financial flexibility. U.S. companies that file with '
+                    'the SEC present a classified balance sheet.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Paying a supplier in cash reduces ',
-                       16,
-                       ' and ',
-                       21,
-                       ' by the same amount: ',
-                       17,
-                       ' does not change, but the ',
+             'parts': ['If a company breaks a ',
+                       11,
+                       ', the lender may be able to demand repayment at '
+                       'once. Such ',
                        15,
-                       ' changes. Reclassifying debt from current to '
-                       'noncurrent increases working capital and the current '
-                       'ratio.'],
-             'bank': ['current liabilities',
-                      'balance sheet',
-                      'working capital',
-                      'current assets',
-                      'current ratio',
-                      'callable debt'],
-             'a': 'current assets · current liabilities · working capital · '
-                  'current ratio',
+                       ' is current, even if the company does not expect the '
+                       'lender to act. It stays noncurrent only if, before '
+                       'the statements are issued, the lender gives a ',
+                       11,
+                       ' for more than one year, or a ',
+                       14,
+                       ' exists and the company will probably cure the '
+                       'violation within it.'],
+             'bank': ['callable debt',
+                      'classified balance sheet',
+                      'waiver',
+                      'covenant',
+                      'grace period',
+                      'balance sheet'],
+             'a': 'covenant · callable debt · waiver · grace period',
              'one': True,
-             'why': 'The book writes: “Paying a supplier in cash reduces '
-                    'current assets and current liabilities by the same '
-                    'amount: working capital does not change, but the '
-                    'current ratio changes. Reclassifying debt from current '
-                    'to noncurrent increases working capital and the current '
-                    'ratio.”'},
+             'why': 'The book writes: “If a company breaks a covenant, the '
+                    'lender may be able to demand repayment at once. Such '
+                    'callable debt is current, even if the company does not '
+                    'expect the lender to act. It stays noncurrent only if, '
+                    'before the statements are issued, the lender gives a '
+                    'waiver for more than one year, or a grace period exists '
+                    'and the company will probably cure the violation within '
+                    'it.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['If it is only reasonably possible, the company '
-                       'discloses it in a note. If it is remote, the company '
-                       'does nothing. Gain contingencies are never recorded '
-                       'before they are realized. ',
-                       19,
-                       ' happen after the ',
-                       15,
-                       ' date but before the statements are issued.'],
-             'bank': ['classified balance sheet',
-                      'Subsequent events',
-                      'callable debt',
-                      'balance sheet'],
-             'a': 'Subsequent events · balance sheet',
+             'parts': ['If the condition arose after year-end, the company '
+                       'only discloses it. Finally, the notes begin with a '
+                       'summary of ',
+                       13,
+                       ' ',
+                       12,
+                       ' policies, such as the inventory method and ',
+                       14,
+                       ' methods. The notes are part of the statements, not '
+                       'an extra.'],
+             'bank': ['callable debt',
+                      'depreciation',
+                      'balance sheet',
+                      'significant',
+                      'accounting'],
+             'a': 'significant · accounting · depreciation',
              'one': True,
-             'why': 'The book writes: “If it is only reasonably possible, '
-                    'the company discloses it in a note. If it is remote, '
-                    'the company does nothing. Gain contingencies are never '
-                    'recorded before they are realized. Subsequent events '
-                    'happen after the balance sheet date but before the '
-                    'statements are issued.”'}]),
+             'why': 'The book writes: “If the condition arose after '
+                    'year-end, the company only discloses it. Finally, the '
+                    'notes begin with a summary of significant accounting '
+                    'policies, such as the inventory method and depreciation '
+                    'methods. The notes are part of the statements, not an '
+                    'extra.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -169,23 +183,6 @@ HANDOUT = {'id': '2.6',
              'a': 'D',
              'why': 'The book numbers “Purpose and structure of the balance '
                     'sheet” as section 2.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.2?',
-             'o': ['Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items',
-                   'Other presentation matters'],
-             'a': 'C',
-             'why': 'The book numbers “Current and noncurrent items” as '
-                    'section 2.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.3?',
-             'o': ['Current and noncurrent items',
-                   'Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Other presentation matters'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying debt” as section 2.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -200,38 +197,110 @@ HANDOUT = {'id': '2.6',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes bought land in 2005 for $400,000. It is worth '
-                  'about $2 million today. What does the balance sheet show '
-                  'for the land?',
-             'o': ['$400,000, because land is at historical cost',
-                   '$2,000,000, because the balance sheet shows current '
-                   'values',
-                   '$1,200,000, the average',
-                   '$400,000 plus depreciation'],
+             'q': 'A loan agreement lets the lender demand repayment if '
+                  "there is a 'material adverse change'. The company is "
+                  'healthy and acceleration is remote. The long-term loan '
+                  'is:',
+             'o': ['noncurrent.',
+                   'noncurrent only under IFRS.',
+                   'current, with a note.'],
              'a': 'A',
-             'why': 'Most assets, including land, are at historical cost. B '
-                    'is wrong: The balance sheet is not a valuation; land '
-                    'stays at cost. C is wrong: There is no averaging of '
-                    'cost and value.',
-             'src': 'SC2-9'}]),
+             'why': 'A subjective acceleration clause makes debt current '
+                    'only if acceleration is probable. B is wrong: The '
+                    'clause alone does not make the debt current. C is '
+                    'wrong: Classification follows probability, not the '
+                    'clause.',
+             'src': 'P2-13'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A loss from a lawsuit is probable. Lawyers estimate it at '
+                  'between $40,000 and $100,000, with no amount more likely '
+                  'than another. Under U.S. GAAP the company accrues:',
+             'o': ['$70,000',
+                   '$100,000',
+                   'nothing, and discloses the range',
+                   '$40,000 and discloses the possible additional loss'],
+             'a': 'D',
+             'why': 'With no best estimate in the range, U.S. GAAP accrues '
+                    'the minimum. A is wrong: The midpoint is the IFRS '
+                    'approach. B is wrong: The maximum is not required.',
+             'src': 'P2-14'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'On January 20, before the statements are issued, a '
+                  'customer that owed $80,000 at December 31 goes bankrupt. '
+                  'Its finances had been getting worse for months. What does '
+                  'the company do?',
+             'o': ['Adjusts the year-end allowance for credit losses',
+                   'Discloses the event only',
+                   'Records the loss next year',
+                   'Does nothing'],
+             'a': 'A',
+             'why': "The condition, the customer's weak finances, existed at "
+                    'year-end, so it is a recognized event. B is wrong: '
+                    'Disclosure only is for conditions that arose after '
+                    'year-end. C is wrong: The loss belongs to the year in '
+                    'which the condition existed.',
+             'src': 'P2-15'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company has a deferred tax asset that will reverse next '
+                  'year. On a U.S. GAAP balance sheet it is shown as:',
+             'o': ['a current asset.',
+                   'a noncurrent asset.',
+                   'a reduction of income taxes payable.',
+                   'split between current and noncurrent.'],
+             'a': 'B',
+             'why': 'All deferred tax assets and liabilities are noncurrent. '
+                    'A is wrong: The old current/noncurrent split was '
+                    'removed. C is wrong: It cannot be offset against taxes '
+                    'payable without a right of setoff.',
+             'src': 'P2-16'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which item is NOT usually recorded on the balance sheet?',
+             'o': ['A brand the company bought',
+                   'Goodwill from an acquisition',
+                   'A brand the company developed itself',
+                   'Equipment under a finance lease'],
+             'a': 'C',
+             'why': 'Internally developed intangibles are not recognized as '
+                    'assets. A is wrong: A purchased brand is recorded at '
+                    'its cost. B is wrong: Acquired goodwill is recorded.',
+             'src': 'P2-17'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company delays paying its suppliers until January so '
+                  'that its December 31 balance sheet shows more cash. This '
+                  'illustrates which limitation?',
+             'o': ['The balance sheet uses historical cost',
+                   'The balance sheet omits internally developed intangibles',
+                   'The balance sheet relies on estimates',
+                   'The balance sheet shows only one date'],
+             'a': 'D',
+             'why': 'Year-end amounts can be managed because the statement '
+                    'shows a single day. A is wrong: Cash and payables are '
+                    'not measured at historical cost in this sense. B is '
+                    'wrong: No intangible is involved.',
+             'src': 'P2-18'}]),
           ('pair',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
           ('check',
-           'A five-year loan is repaid in equal annual installments. At '
-           'year-end, how is the next installment classified?',
-           ['As a noncurrent liability',
-            'As a current liability',
-            'As a reduction of cash',
-            'Only in a note'],
-           'B',
+           'A company with a current ratio of 0.8 borrows cash on a 90-day '
+           'note. What is the effect on the current ratio?',
+           ['It increases',
+            'It decreases',
+            'It does not change',
+            'It cannot be determined'],
+           'A',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'Principal due within one year is the current portion of '
-           'long-term debt. A is wrong: The part due within a year must be '
-           'moved to current liabilities. C is wrong: Cash is paid only when '
-           'the installment is paid.'),
+           'Adding the same amount to both terms moves a ratio below 1 '
+           'toward 1. B is wrong: A ratio falls only if it starts above 1. C '
+           'is wrong: Equal changes leave working capital, not the ratio, '
+           'unchanged.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -256,57 +325,53 @@ HANDOUT = {'id': '2.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C2-1 ask for?',
-             'o': ['How does Barada report the lawsuit (M3)? [select]',
-                   "Enter Barada's total current liabilities.",
-                   'How does Barada report the February fire (M4)? [select]',
-                   'Classify each account. (On the exam screen you would '
-                   'drag each account'],
-             'a': 'D',
-             'why': 'The book states item C2-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C2-2 ask for?',
-             'o': ["Enter Barada's working capital.",
-                   'How does Barada report the lawsuit (M3)? [select]',
-                   "Enter Barada's total current assets.",
-                   "Enter Barada's total current liabilities."],
-             'a': 'C',
-             'why': 'The book states item C2-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C2-3 ask for?',
-             'o': ['How does Barada report the lawsuit (M3)? [select]',
-                   "Enter Barada's working capital.",
-                   "Enter Barada's total current assets.",
-                   "Enter Barada's total current liabilities."],
-             'a': 'D',
-             'why': 'The book states item C2-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C2-4 ask for?',
-             'o': ["Enter Barada's working capital.",
-                   "Enter Barada's total current assets.",
-                   "Enter Barada's total current liabilities.",
-                   'How does Barada report the lawsuit (M3)? [select]'],
-             'a': 'A',
-             'why': 'The book states item C2-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C2-5 ask for?',
-             'o': ['How does Barada report the lawsuit (M3)? [select]',
-                   "Enter Barada's total current liabilities.",
-                   'How does Barada report the February fire (M4)? [select]',
-                   'Classify each account. (On the exam screen you would '
-                   'drag each account'],
-             'a': 'C',
-             'why': 'The book states item C2-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C2-6 ask for?',
-             'o': ['How does Barada report the lawsuit (M3)? [select]',
-                   "Enter Barada's total current assets.",
-                   'How does Barada report the February fire (M4)? [select]',
-                   "Enter Barada's total current liabilities."],
-             'a': 'A',
-             'why': 'The book states item C2-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ["Enter Barada's working capital.",
+                      'How does Barada report the lawsuit (M3)? [select]',
+                      'How does Barada report the February fire (M4)? '
+                      '[select]',
+                      "Enter Barada's total current assets.",
+                      "Enter Barada's total current liabilities.",
+                      'Classify each account. (On the exam screen you would '
+                      'drag each account into a box.)'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['D', 'F', 'E', 'B', 'C', 'A'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "Orontes's total stockholders' equity at December 31, 2025 "
+                  'is $20,392,975. This amount is:',
+             'o': ["the market value of Orontes's shares",
+                   'the cash the owners could take out today',
+                   'the price a buyer would pay for Orontes',
+                   'a book amount based mostly on historical cost'],
+             'a': 'D',
+             'why': 'Equity is assets minus liabilities as recorded. A is '
+                    'wrong: Market value depends on share prices, not on '
+                    'book amounts. B is wrong: Equity is not a cash amount.',
+             'src': 'P2-19'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "Orontes's retained earnings were $4,375,000 on January 1, "
+                  '2025. Net income was $2,969,100, OCI was $(1,125), and '
+                  'dividends declared were $450,000. What are retained '
+                  'earnings at December 31, 2025 (whole USD)?',
+             'o': ['6,892,975', '6,894,100', '7,294,100', '7,344,100'],
+             'a': 'B',
+             'why': 'Opening + net income − dividends declared. OCI goes to '
+                    'AOCI, not retained earnings. A is wrong: This puts OCI '
+                    'into retained earnings. C is wrong: This deducts only '
+                    'the dividends paid, not those declared.',
+             'src': 'P2-20'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'A five-year loan is repaid in equal annual installments. '
@@ -321,24 +386,6 @@ HANDOUT = {'id': '2.6',
                     'must be moved to current liabilities. C is wrong: Cash '
                     'is paid only when the installment is paid.',
              'src': 'SC2-5'}]),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'At December 31 a company breaks a loan covenant, so the '
-                  'loan is payable on demand. On January 15, before the '
-                  'statements are issued, the bank gives an 18-month waiver. '
-                  'How is the loan classified under IFRS?',
-             'o': ['Noncurrent',
-                   'Current under IFRS only if the bank is expected to '
-                   'demand payment',
-                   'Split between current and noncurrent',
-                   'Current'],
-             'a': 'D',
-             'why': 'IFRS looks only at the right to defer that existed at '
-                    'the reporting date. A is wrong: This is the U.S. GAAP '
-                    'answer; under IFRS a waiver after the reporting date '
-                    'does not count. B is wrong: Expectations do not matter; '
-                    'the right at the reporting date does.',
-             'src': 'SC2-6'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

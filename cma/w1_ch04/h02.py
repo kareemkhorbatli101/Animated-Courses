@@ -3,17 +3,15 @@
 
 HANDOUT = {'id': '4.2',
  'n': 2,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Issuing and buying back shares',
  'sub': 'section 4.2 of the book',
  'covers': ['sec:4.2',
-            'p:P4-07',
-            'p:P4-08',
-            'p:P4-09',
-            'p:P4-10',
-            'sc:P4-07',
-            'p:P4-11',
-            'p:P4-12',
+            'p:P4-04',
+            'p:P4-14',
+            'p:P4-16',
+            'p:P4-20',
+            'p:P4-26',
             'term:contributed capital',
             'term:appropriated retained earnings',
             'term:declaration date'],
@@ -27,9 +25,7 @@ HANDOUT = {'id': '4.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Issuing and buying back shares',
              'a figure to read · Account',
-             'A company declares a stock dividend on December 20 and '
-             'distributes the shares on January 10. How does it present the '
-             'stock dividend distributable at December 31?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -38,38 +34,27 @@ HANDOUT = {'id': '4.2',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       17,
-                       ' is recorded in the same way, in its own account. A '
-                       'company may buy back its own shares and hold them '
-                       'as ',
-                       16,
-                       '. Under the ',
-                       13,
-                       ', treasury stock is recorded at the price paid and '
-                       'deducted from equity. Shares held as treasury stock '
-                       'are ',
-                       15,
-                       ' but not ',
-                       20,
-                       ': they receive no dividends and have no votes.'],
-             'bank': ['treasury stock',
-                      'stock split',
-                      'issued shares',
+             'parts': ['Direct costs of issuing shares, such as ',
+                       14,
+                       ' fees, reduce APIC; they are not ',
+                       11,
+                       '. Shares issued for a noncash asset, such as land, '
+                       'are recorded at the fair value of the shares or of '
+                       'the asset, ',
+                       11,
+                       ' is more reliable.'],
+             'bank': ['expenses',
                       'declaration date',
-                      'outstanding shares',
-                      'Preferred stock',
-                      'cost method'],
-             'a': 'Preferred stock · treasury stock · cost method · issued '
-                  'shares · outstanding shares',
+                      'issued shares',
+                      'underwriting',
+                      'whichever'],
+             'a': 'underwriting · expenses · whichever',
              'one': True,
-             'why': 'The book writes: “Preferred stock is recorded in the '
-                    'same way, in its own account. A company may buy back '
-                    'its own shares and hold them as treasury stock. Under '
-                    'the cost method, treasury stock is recorded at the '
-                    'price paid and deducted from equity. Shares held as '
-                    'treasury stock are issued shares but not outstanding '
-                    'shares: they receive no dividends and have no votes.”'},
+             'why': 'The book writes: “Direct costs of issuing shares, such '
+                    'as underwriting fees, reduce APIC; they are not '
+                    'expenses. Shares issued for a noncash asset, such as '
+                    'land, are recorded at the fair value of the shares or '
+                    'of the asset, whichever is more reliable.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -82,54 +67,44 @@ HANDOUT = {'id': '4.2',
                        20,
                        ': they receive no dividends and have no votes. A '
                        'company never records a gain or loss on its own '
-                       'shares in net income. Treasury stock under the ',
-                       13,
-                       ': buy back, reissue or retire.'],
+                       'shares in net income. Suppose Orontes buys back '
+                       '50,000 shares at $16 in 2026.'],
              'bank': ['declaration date',
-                      'treasury stock',
-                      'cost method',
                       'issued shares',
+                      'treasury stock',
                       'preferred stock',
                       'outstanding shares'],
-             'a': 'treasury stock · issued shares · outstanding shares · '
-                  'cost method',
+             'a': 'treasury stock · issued shares · outstanding shares',
              'one': True,
              'why': 'The book writes: “Shares held as treasury stock are '
                     'issued shares but not outstanding shares: they receive '
                     'no dividends and have no votes. A company never records '
-                    'a gain or loss on its own shares in net income. '
-                    'Treasury stock under the cost method: buy back, reissue '
-                    'or retire.”'},
+                    'a gain or loss on its own shares in net income. Suppose '
+                    'Orontes buys back 50,000 shares at $16 in 2026.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['A company may buy back its own shares and hold them '
-                       'as ',
-                       16,
-                       '. Under the ',
-                       13,
-                       ', treasury stock is recorded at the price paid and '
-                       'deducted from equity. Shares held as treasury stock '
-                       'are ',
-                       15,
-                       ' but not ',
-                       20,
-                       ': they receive no dividends and have no votes.'],
-             'bank': ['declaration date',
-                      'preferred stock',
-                      'treasury stock',
+             'parts': ['Any excess of cost over these amounts reduces ',
+                       11,
+                       ' ',
+                       11,
+                       ', or is split between APIC and retained earnings. '
+                       'ASU 2025-12 allows companies to charge the whole '
+                       'excess on a ',
+                       12,
+                       ' to APIC, as long as APIC does not become negative.'],
+             'bank': ['retained',
                       'issued shares',
-                      'outstanding shares',
-                      'cost method'],
-             'a': 'treasury stock · cost method · issued shares · '
-                  'outstanding shares',
+                      'retirement',
+                      'declaration date',
+                      'earnings'],
+             'a': 'retained · earnings · retirement',
              'one': True,
-             'why': 'The book writes: “A company may buy back its own shares '
-                    'and hold them as treasury stock. Under the cost method, '
-                    'treasury stock is recorded at the price paid and '
-                    'deducted from equity. Shares held as treasury stock are '
-                    'issued shares but not outstanding shares: they receive '
-                    'no dividends and have no votes.”'}],
+             'why': 'The book writes: “Any excess of cost over these amounts '
+                    'reduces retained earnings, or is split between APIC and '
+                    'retained earnings. ASU 2025-12 allows companies to '
+                    'charge the whole excess on a retirement to APIC, as '
+                    'long as APIC does not become negative.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -154,10 +129,10 @@ HANDOUT = {'id': '4.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of APIC–treasury stock as '
+             'q': 'The book gives the category of Common stock as '
                   '“Contributed capital”.',
              'a': 'T',
-             'why': 'The book pairs APIC–treasury stock with “Contributed '
+             'why': 'The book pairs Common stock with “Contributed '
                     'capital”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
@@ -184,45 +159,6 @@ HANDOUT = {'id': '4.2',
              'a': 'C',
              'why': 'The book’s own table gives Contributed capital as the '
                     'category of APIC–treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Retained earnings?',
-             'o': ['Earned capital',
-                   'Contributed capital',
-                   'Current liability',
-                   'Deduction from equity'],
-             'a': 'A',
-             'why': 'The book’s own table gives Earned capital as the '
-                    'category of Retained earnings.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Treasury stock?',
-             'o': ['Contributed capital',
-                   'Current liability',
-                   'Earned capital',
-                   'Deduction from equity'],
-             'a': 'D',
-             'why': 'The book’s own table gives Deduction from equity as the '
-                    'category of Treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Current liability',
-                   'Earned capital',
-                   'Deduction from equity',
-                   'Contributed capital'],
-             'a': 'A',
-             'why': 'The book’s own table gives Current liability as the '
-                    'category of Dividends payable.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of APIC–treasury stock as '
-                  '“Contributed capital”.',
-             'a': 'T',
-             'why': 'The book pairs APIC–treasury stock with “Contributed '
-                    'capital”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Retained earnings as '
-                  '“Contributed capital”.',
-             'a': 'F',
-             'why': 'The book pairs Retained earnings with “Earned capital”, '
-                    'not with “Contributed capital”.'},
             {'t': 'SORT',
              'q': 'Write each one under its category. Every item belongs to '
                   'exactly one group.',
@@ -243,71 +179,66 @@ HANDOUT = {'id': '4.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company declares a stock dividend on December 20 and '
-                  'distributes the shares on January 10. How does it present '
-                  'the stock dividend distributable at December 31?',
-             'o': ['As a current liability',
-                   "In stockholders' equity",
-                   'As a long-term liability',
-                   'In the notes only'],
-             'a': 'B',
-             'why': 'No assets will be paid, so it is equity. A is wrong: '
-                    'Only a cash dividend creates a liability. C is wrong: '
-                    'Nothing is owed to anyone.',
-             'src': 'P4-07'},
-            {'t': 'MCQ',
-             'q': 'Which item is part of contributed capital?',
-             'o': ['Retained earnings',
-                   'Accumulated other comprehensive income',
-                   'Appropriated retained earnings',
-                   'Additional paid-in capital'],
+             'q': 'Which heading is correct for a statement of changes in '
+                  'equity?',
+             'o': ['As of December 31, 2025',
+                   'At December 31, 2025',
+                   'On December 31, 2025',
+                   'For the year ended December 31, 2025'],
              'a': 'D',
-             'why': "APIC comes from owners' payments. A is wrong: Retained "
-                    'earnings are earned capital. B is wrong: AOCI is earned '
-                    'capital.',
-             'src': 'P4-08'},
+             'why': "It explains changes over a period. A is wrong: 'As of' "
+                    'is used for the balance sheet. B is wrong: A single '
+                    'date describes a balance sheet.',
+             'src': 'P4-04'},
             {'t': 'MCQ',
-             'q': 'In a statement of changes in equity, in which column does '
-                  'an OCI loss on AFS debt securities appear?',
-             'o': ['Retained earnings',
-                   'Additional paid-in capital',
-                   'Accumulated other comprehensive income',
-                   'Treasury stock'],
-             'a': 'C',
-             'why': 'OCI goes to AOCI, not retained earnings. A is wrong: '
-                    'Only net income goes to retained earnings. B is wrong: '
-                    'APIC is for owner contributions.',
-             'src': 'P4-09'},
+             'q': 'What is the effect of buying treasury stock for cash?',
+             'o': ['Total equity does not change',
+                   'Retained earnings decrease',
+                   'Total assets increase',
+                   'Total equity decreases; retained earnings do not change'],
+             'a': 'D',
+             'why': 'Cash falls and equity falls by the same amount through '
+                    'treasury stock. A is wrong: Treasury stock reduces '
+                    'equity. B is wrong: The purchase is recorded in '
+                    'treasury stock, not retained earnings.',
+             'src': 'P4-14'},
             {'t': 'MCQ',
-             'q': "A company's retained earnings were $800,000 on January 1. "
-                  'Net income was $250,000, cash dividends declared were '
-                  '$60,000, and a 5% stock dividend was measured at $90,000. '
-                  'What are retained earnings at December 31?',
-             'o': ['$900,000', '$960,000', '$990,000', '$1,050,000'],
+             'q': 'What entry is made on the date of record for a cash '
+                  'dividend?',
+             'o': ['No entry',
+                   'Debit retained earnings; credit dividends payable',
+                   'Debit dividends payable; credit cash',
+                   'Debit retained earnings; credit cash'],
              'a': 'A',
-             'why': 'Opening + net income − cash dividends − stock dividend. '
-                    'B is wrong: This leaves out the cash dividend. C is '
-                    'wrong: This leaves out the stock dividend.',
-             'src': 'P4-10'}]),
+             'why': 'The date of record only decides who will be paid. B is '
+                    'wrong: This is the declaration-date entry. C is wrong: '
+                    'This is the payment-date entry.',
+             'src': 'P4-16'},
+            {'t': 'MCQ',
+             'q': "Which transaction reduces total stockholders' equity?",
+             'o': ['Declaring and issuing a small stock dividend',
+                   'Declaring a cash dividend',
+                   'Carrying out a 3-for-1 stock split',
+                   'Appropriating retained earnings for a new plant'],
+             'a': 'B',
+             'why': 'A cash dividend creates a liability, so equity falls. A '
+                    'is wrong: A stock dividend moves amounts within equity. '
+                    'C is wrong: A split changes only the number of shares.',
+             'src': 'P4-20'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company declares a stock dividend on December 20 and '
-           'distributes the shares on January 10. How does it present the '
-           'stock dividend distributable at December 31?',
-           ['As a current liability',
-            "In stockholders' equity",
-            'As a long-term liability',
-            'In the notes only'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'No assets will be paid, so it is equity. A is wrong: Only a cash '
-           'dividend creates a liability. C is wrong: Nothing is owed to '
-           'anyone.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -335,30 +266,18 @@ HANDOUT = {'id': '4.2',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company pays $50,000 of legal and underwriting costs to '
-                  'issue new common shares. How does it record the costs?',
-             'o': ['As an expense',
-                   'As a reduction of additional paid-in capital',
-                   'As an intangible asset',
-                   'As a reduction of retained earnings'],
-             'a': 'B',
-             'why': 'Direct equity issuance costs reduce the proceeds, so '
-                    'they reduce APIC. A is wrong: Equity issuance costs are '
-                    'not expensed. C is wrong: They are not an asset.',
-             'src': 'P4-11'},
-            {'t': 'MCQ',
-             'q': 'A company issues common shares in exchange for land. The '
-                  'shares are actively traded. The land is recorded at:',
-             'o': ['the par value of the shares',
-                   "the seller's carrying amount of the land",
-                   'the fair value of the shares',
-                   'zero, because no cash was paid'],
+             'q': 'Under IFRS, how is a stock dividend (bonus issue) of 10% '
+                  'measured?',
+             'o': ['Always at fair value',
+                   'Always at par, like a U.S. large stock dividend',
+                   'IFRS has no small/large rule; practice varies by local '
+                   'law',
+                   'It is recorded as an expense'],
              'a': 'C',
-             'why': 'Use the more reliable fair value; a traded share price '
-                    'is reliable. A is wrong: Par value is only a legal '
-                    "amount. B is wrong: The seller's book value is not the "
-                    'exchange value.',
-             'src': 'P4-12'}]),
+             'why': 'The small/large distinction is U.S. GAAP only. A is '
+                    'wrong: IFRS does not require fair value for bonus '
+                    'issues. B is wrong: IFRS has no rule that fixes par.',
+             'src': 'P4-26'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

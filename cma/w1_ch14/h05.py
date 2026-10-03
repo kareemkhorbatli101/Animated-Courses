@@ -7,6 +7,7 @@ HANDOUT = {'id': '14.5',
  'title': 'Presentation',
  'sub': 'section 14.5 of the book',
  'covers': ['sec:14.5',
+            'p:P14-06',
             'term:operating lease',
             'term:residual value guarantee'],
  'skills': [('read5', 3)],
@@ -28,26 +29,30 @@ HANDOUT = {'id': '14.5',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Each liability is split into a current part, the '
-                       'principal due within a year, and a noncurrent part. '
-                       'On the income statement, a ',
-                       15,
-                       ' shows interest expense and amortization separately; '
-                       'an ',
-                       17,
-                       ' shows one lease cost in operating expenses.'],
-             'bank': ['finance lease',
+             'parts': ['On the balance sheet, the ',
+                       14,
+                       ' assets and ',
+                       11,
+                       ' ',
+                       13,
+                       ' of finance leases are shown separately from those '
+                       'of operating leases, or disclosed with the line '
+                       'items that contain them. Each liability is split '
+                       'into a current part, the principal due within a '
+                       'year, and a noncurrent part.'],
+             'bank': ['liabilities',
+                      'right-of-use',
                       'residual value guarantee',
                       'sale and leaseback',
-                      'operating lease'],
-             'a': 'finance lease · operating lease',
+                      'lease'],
+             'a': 'right-of-use · lease · liabilities',
              'one': True,
-             'why': 'The book writes: “Each liability is split into a '
-                    'current part, the principal due within a year, and a '
-                    'noncurrent part. On the income statement, a finance '
-                    'lease shows interest expense and amortization '
-                    'separately; an operating lease shows one lease cost in '
-                    'operating expenses.”'},
+             'why': 'The book writes: “On the balance sheet, the '
+                    'right-of-use assets and lease liabilities of finance '
+                    'leases are shown separately from those of operating '
+                    'leases, or disclosed with the line items that contain '
+                    'them. Each liability is split into a current part, the '
+                    'principal due within a year, and a noncurrent part.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -76,31 +81,29 @@ HANDOUT = {'id': '14.5',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['On the income statement, a ',
-                       15,
-                       ' shows interest expense and amortization separately; '
-                       'an ',
+             'parts': ['New ',
+                       11,
+                       's are a noncash investing and financing activity, '
+                       'disclosed separately. ',
                        17,
-                       ' shows one lease cost in operating expenses. In the '
-                       'statement of cash flows, finance-lease principal is '
-                       'financing; its interest and all operating-lease '
-                       'payments are operating. New leases are a noncash '
-                       'investing and financing activity, disclosed '
-                       'separately.'],
-             'bank': ['finance lease',
+                       ' payments are operating cash flows, even though a '
+                       'liability is on the balance sheet. ',
+                       15,
+                       ' interest is operating under U.S. GAAP, not '
+                       'financing.'],
+             'bank': ['lease',
+                      'Finance-lease',
                       'residual value guarantee',
                       'sale and leaseback',
-                      'operating lease'],
-             'a': 'finance lease · operating lease',
+                      'Operating-lease'],
+             'a': 'lease · Operating-lease · Finance-lease',
              'one': True,
-             'why': 'The book writes: “On the income statement, a finance '
-                    'lease shows interest expense and amortization '
-                    'separately; an operating lease shows one lease cost in '
-                    'operating expenses. In the statement of cash flows, '
-                    'finance-lease principal is financing; its interest and '
-                    'all operating-lease payments are operating. New leases '
-                    'are a noncash investing and financing activity, '
-                    'disclosed separately.”'}],
+             'why': 'The book writes: “New leases are a noncash investing '
+                    'and financing activity, disclosed separately. '
+                    'Operating-lease payments are operating cash flows, even '
+                    'though a liability is on the balance sheet. '
+                    'Finance-lease interest is operating under U.S. GAAP, '
+                    'not financing.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -124,13 +127,11 @@ HANDOUT = {'id': '14.5',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the finance lease (olive press) of Balance '
-                  'sheet as “ROU asset and lease liability, shown separately '
-                  'from operating leases (or disclosed)”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Balance sheet with “ROU asset and lease '
-                    'liability, shown separately from operating leases (or '
-                    'disclosed)”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f5'),
           ('panel',
@@ -160,59 +161,13 @@ HANDOUT = {'id': '14.5',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “ROU asset and lease '
-                  'liability, shown separately from operating leases (or '
-                  'disclosed)”?',
-             'o': ['Cash flow: interest',
-                   'Balance sheet',
-                   'Orontes at December 31, 2026',
-                   'Income statement'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Balance sheet with “ROU '
-                    'asset and lease liability, shown separately from '
-                    'operating leases (or disclosed)”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Interest expense and '
-                  'amortization, shown separately”?',
-             'o': ['Cash flow: interest',
-                   'Cash flow: principal',
-                   'Income statement',
-                   'Balance sheet'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Income statement with '
-                    '“Interest expense and amortization, shown separately”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Financing”?',
-             'o': ['Income statement',
-                   'Balance sheet',
-                   'Cash flow: principal',
-                   'Orontes at December 31, 2026'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Cash flow: principal with '
-                    '“Financing”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Operating”?',
-             'o': ['Cash flow: interest',
-                   'Balance sheet',
-                   'Cash flow: principal',
-                   'Orontes at December 31, 2026'],
+             'q': 'Which part of this chapter is section 14.1?',
+             'o': ['What is a lease?',
+                   'Initial measurement',
+                   'Presentation',
+                   'Finance or operating? The five criteria'],
              'a': 'A',
-             'why': 'The book’s own table pairs Cash flow: interest with '
-                    '“Operating”.'},
-            {'t': 'TF',
-             'q': 'The book gives the operating lease (warehouse) of Balance '
-                  'sheet as “ROU asset and lease liability, shown separately '
-                  'from finance leases (or disclosed)”.',
-             'a': 'T',
-             'why': 'The book pairs Balance sheet with “ROU asset and lease '
-                    'liability, shown separately from finance leases (or '
-                    'disclosed)”.'},
-            {'t': 'TF',
-             'q': 'The book gives the operating lease (warehouse) of Income '
-                  'statement as “Operating”.',
-             'a': 'F',
-             'why': 'The book pairs Income statement with “One lease cost in '
-                    'operating expenses”, not with “Operating”.'}]),
+             'why': 'The book numbers “What is a lease?” as section 14.1.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -248,11 +203,21 @@ HANDOUT = {'id': '14.5',
            'operating lease (warehouse) of Income statement.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'A company sells its head office to a bank and leases it '
+                  'back under a finance lease. Under ASC 842, the '
+                  'transaction is:',
+             'o': ['a sale with the full gain recognized',
+                   'a sale with the gain deferred',
+                   'a failed sale: the company keeps the building and '
+                   'records the cash as a loan',
+                   'an operating lease with no asset'],
+             'a': 'C',
+             'why': 'A finance leaseback means control has not passed. A is '
+                    'wrong: No sale occurs when the leaseback is a finance '
+                    'lease. B is wrong: Deferring gains was the old ASC 840 '
+                    'approach.',
+             'src': 'P14-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -292,12 +257,16 @@ HANDOUT = {'id': '14.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

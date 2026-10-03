@@ -7,8 +7,7 @@ HANDOUT = {'id': '4.5',
  'title': 'Limitations and links to the other statements',
  'sub': 'section 4.5 of the book',
  'covers': ['sec:4.5',
-            'p:P4-26',
-            'sc:P4-26',
+            'p:P4-10',
             'term:stock dividend',
             'term:issued shares',
             'term:liquidating dividend'],
@@ -22,93 +21,82 @@ HANDOUT = {'id': '4.5',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Limitations and links to the other statements',
              'a figure to read · Balance / event (USD 000 unless stated)',
-             'Under IFRS, how is a stock dividend (bonus issue) of 10% '
-             'measured?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Account · The English the exam uses, and what it translates',
+             'a figure to read · Account · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       16,
-                       " is shown at the price paid, not at today's share "
-                       'price. Legal capital rules also differ from state to '
-                       'state, so equity does not show exactly how much a '
-                       'company may legally distribute. The ',
-                       32,
-                       ' takes net income and OCI from the statement of '
-                       'comprehensive income, and dividends and share issues '
-                       "from the company's owner transactions."],
-             'bank': ['contributed capital',
+             'parts': ['Total equity is a book value: assets minus ',
+                       13,
+                       ', as ',
+                       11,
+                       ' by the ',
+                       12,
+                       ' rules. It is not what the company is worth.'],
+             'bank': ['accounting',
+                      'measured',
                       'liquidating dividend',
-                      'statement of changes in equity',
-                      'Treasury stock'],
-             'a': 'Treasury stock · statement of changes in equity',
+                      'contributed capital',
+                      'liabilities'],
+             'a': 'liabilities · measured · accounting',
              'one': True,
-             'why': 'The book writes: “Treasury stock is shown at the price '
-                    "paid, not at today's share price. Legal capital rules "
-                    'also differ from state to state, so equity does not '
-                    'show exactly how much a company may legally distribute. '
-                    'The statement of changes in equity takes net income and '
-                    'OCI from the statement of comprehensive income, and '
-                    "dividends and share issues from the company's owner "
-                    'transactions.”'},
+             'why': 'The book writes: “Total equity is a book value: assets '
+                    'minus liabilities, as measured by the accounting rules. '
+                    'It is not what the company is worth.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['',
-                       11,
-                       ' stock is shown at the price paid, not at ',
-                       11,
-                       ' share price. Legal capital rules also differ from '
-                       'state to state, so equity does not show exactly how '
-                       'much a company may legally ',
+             'parts': ['Most assets are at ',
                        12,
-                       '.'],
+                       ' cost, and ',
+                       12,
+                       ' built brands and know-how are not recorded. ',
+                       16,
+                       " is shown at the price paid, not at today's share "
+                       'price.'],
              'bank': ['contributed capital',
-                      'distribute',
+                      'Treasury stock',
                       'liquidating dividend',
-                      "today's",
-                      'Treasury'],
-             'a': "Treasury · today's · distribute",
+                      'internally',
+                      'historical'],
+             'a': 'historical · internally · Treasury stock',
              'one': True,
-             'why': 'The book writes: “Treasury stock is shown at the price '
-                    "paid, not at today's share price. Legal capital rules "
-                    'also differ from state to state, so equity does not '
-                    'show exactly how much a company may legally '
-                    'distribute.”'},
+             'why': 'The book writes: “Most assets are at historical cost, '
+                    'and internally built brands and know-how are not '
+                    'recorded. Treasury stock is shown at the price paid, '
+                    "not at today's share price.”"},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
              'parts': ['The ',
-                       11,
-                       ' of changes in equity takes net income and OCI from '
-                       'the statement of ',
+                       32,
+                       ' takes net income and OCI from the statement of ',
                        15,
                        ' income, and dividends and share issues from the '
                        "company's owner ",
                        14,
                        '. Its closing balances are the equity section of the '
-                       'balance sheet. Chapter 5 shows how the cash parts of '
-                       'these transactions appear in the financing section.'],
+                       'balance sheet.'],
              'bank': ['comprehensive',
                       'contributed capital',
                       'transactions',
                       'liquidating dividend',
-                      'statement'],
-             'a': 'statement · comprehensive · transactions',
+                      'statement of changes in equity'],
+             'a': 'statement of changes in equity · comprehensive · '
+                  'transactions',
              'one': True,
              'why': 'The book writes: “The statement of changes in equity '
                     'takes net income and OCI from the statement of '
                     'comprehensive income, and dividends and share issues '
                     "from the company's owner transactions. Its closing "
-                    'balances are the equity section of the balance sheet. '
-                    'Chapter 5 shows how the cash parts of these '
-                    'transactions appear in the financing section.”'}],
+                    'balances are the equity section of the balance '
+                    'sheet.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -178,67 +166,34 @@ HANDOUT = {'id': '4.5',
                    'equity'],
              'a': 'D',
              'why': 'The book numbers “Components of equity and the '
-                    'statement of changes in equity” as section 4.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.2?',
-             'o': ['Dividends, stock dividends and stock splits',
-                   'Limitations and links to the other statements',
-                   'Retained earnings',
-                   'Issuing and buying back shares'],
-             'a': 'D',
-             'why': 'The book numbers “Issuing and buying back shares” as '
-                    'section 4.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.3?',
-             'o': ['Components of equity and the statement of changes in '
-                   'equity',
-                   'Issuing and buying back shares',
-                   'Limitations and links to the other statements',
-                   'Dividends, stock dividends and stock splits'],
-             'a': 'D',
-             'why': 'The book numbers “Dividends, stock dividends and stock '
-                    'splits” as section 4.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.4?',
-             'o': ['Retained earnings',
-                   'Limitations and links to the other statements',
-                   'Dividends, stock dividends and stock splits',
-                   'Issuing and buying back shares'],
-             'a': 'A',
-             'why': 'The book numbers “Retained earnings” as section 4.4.'}]),
+                    'statement of changes in equity” as section 4.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under IFRS, how is a stock dividend (bonus issue) of 10% '
-                  'measured?',
-             'o': ['Always at fair value',
-                   'Always at par, like a U.S. large stock dividend',
-                   'IFRS has no small/large rule; practice varies by local '
-                   'law',
-                   'It is recorded as an expense'],
-             'a': 'C',
-             'why': 'The small/large distinction is U.S. GAAP only. A is '
-                    'wrong: IFRS does not require fair value for bonus '
-                    'issues. B is wrong: IFRS has no rule that fixes par.',
-             'src': 'P4-26'}]),
+             'q': "A company's retained earnings were $800,000 on January 1. "
+                  'Net income was $250,000, cash dividends declared were '
+                  '$60,000, and a 5% stock dividend was measured at $90,000. '
+                  'What are retained earnings at December 31?',
+             'o': ['$900,000', '$960,000', '$990,000', '$1,050,000'],
+             'a': 'A',
+             'why': 'Opening + net income − cash dividends − stock dividend. '
+                    'B is wrong: This leaves out the cash dividend. C is '
+                    'wrong: This leaves out the stock dividend.',
+             'src': 'P4-10'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under IFRS, how is a stock dividend (bonus issue) of 10% '
-           'measured?',
-           ['Always at fair value',
-            'Always at par, like a U.S. large stock dividend',
-            'IFRS has no small/large rule; practice varies by local law',
-            'It is recorded as an expense'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'The small/large distinction is U.S. GAAP only. A is wrong: IFRS '
-           'does not require fair value for bonus issues. B is wrong: IFRS '
-           'has no rule that fixes par.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -249,6 +204,7 @@ HANDOUT = {'id': '4.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Account — the book’s own table',
            [['Account', 'Category'],
@@ -274,12 +230,16 @@ HANDOUT = {'id': '4.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

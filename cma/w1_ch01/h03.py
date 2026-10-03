@@ -7,11 +7,8 @@ HANDOUT = {'id': '1.3',
  'title': 'Double entry: debits and credits',
  'sub': 'section 1.3 of the book',
  'covers': ['sec:1.3',
-            'p:P13',
-            'p:P14',
-            'p:P15',
-            'p:P16',
-            'sc:SC3-1',
+            'p:P03',
+            'sc:SC3-2',
             'sc:SC3-2',
             'sc:SC3-1',
             'sc:SC3-2',
@@ -34,7 +31,8 @@ HANDOUT = {'id': '1.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Double entry: debits and credits',
              'a figure to read · Statement · the book’s own rule, gapped',
-             'Which account normally has a credit balance?'],
+             'Orontes buys a bottling line for 1,200 in cash. Which journal '
+             'entry is correct?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -83,44 +81,51 @@ HANDOUT = {'id': '1.3',
                        11,
                        '. No cash moves until February, and ',
                        12,
-                       ' does not change. It reduces retained earnings, not '
-                       'net income.'],
-             'bank': ['net income',
-                      'retained earnings',
-                      'revenue',
+                       ' does not change. The totals prove the equation. '
+                       'Assets rose by 2,380, liabilities rose by 850 and ',
+                       11,
+                       ' rose by 1,530.'],
+             'bank': ['revenue',
                       'balance sheet',
+                      'net income',
+                      'retained earnings',
+                      'debit',
                       'liability',
-                      'debit'],
-             'a': 'revenue · retained earnings · liability · net income',
+                      'equity'],
+             'a': 'revenue · retained earnings · liability · net income · '
+                  'equity',
              'one': True,
              'why': 'The book writes: “Orontes records revenue when it '
                     'delivers the goods, not when the customer pays. Row 6 '
                     'reduces retained earnings by 50 and creates a '
                     'liability. No cash moves until February, and net income '
-                    'does not change. It reduces retained earnings, not net '
-                    'income.”'},
+                    'does not change. The totals prove the equation. Assets '
+                    'rose by 2,380, liabilities rose by 850 and equity rose '
+                    'by 1,530.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['One ',
+             'parts': ['Syrian and Levant texts often say اهتلاك, and '
+                       'Egyptian texts say إهلاك. In English, always say '
+                       'depreciation. An allowance (for example, the ',
+                       29,
+                       ') reduces an ',
                        11,
-                       ' (cash) becomes another asset (equipment). The cost '
-                       'becomes an ',
+                       '. Never say reserve for bad debts in a ',
                        11,
-                       ' later, through depreciation. Feb 3: Paid a supplier '
-                       'for olives bought on ',
-                       11,
-                       ' in January. Feb 8: Collected part of the January '
-                       'receivable from GreenBasket Supermarkets.'],
-             'bank': ['credit', 'balance sheet', 'debit', 'expense', 'asset'],
-             'a': 'asset · expense · credit',
+                       ' answer.'],
+             'bank': ['U.S. GAAP',
+                      'balance sheet',
+                      'debit',
+                      'asset',
+                      'allowance for credit losses'],
+             'a': 'allowance for credit losses · asset · U.S. GAAP',
              'one': True,
-             'why': 'The book writes: “One asset (cash) becomes another '
-                    'asset (equipment). The cost becomes an expense later, '
-                    'through depreciation. Feb 3: Paid a supplier for olives '
-                    'bought on credit in January. Feb 8: Collected part of '
-                    'the January receivable from GreenBasket '
-                    'Supermarkets.”'}],
+             'why': 'The book writes: “Syrian and Levant texts often say '
+                    'اهتلاك, and Egyptian texts say إهلاك. In English, '
+                    'always say depreciation. An allowance (for example, the '
+                    'allowance for credit losses) reduces an asset. Never '
+                    'say reserve for bad debts in a U.S. GAAP answer.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -149,13 +154,12 @@ HANDOUT = {'id': '1.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the question it answers of Balance sheet '
-                  'as “What does the company have and owe, and what is the '
-                  "owners' claim?”.",
+             'q': 'The book gives the question it answers of Statement of '
+                  'cash flows as “Where did cash come from, and where did it '
+                  'go?”.',
              'a': 'T',
-             'why': 'The book pairs Balance sheet with “What does the '
-                    "company have and owe, and what is the owners' "
-                    'claim?”.'}]),
+             'why': 'The book pairs Statement of cash flows with “Where did '
+                    'cash come from, and where did it go?”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'drcr_grid'),
           ('panel',
@@ -195,41 +199,11 @@ HANDOUT = {'id': '1.3',
              'why': 'The book’s own table gives What does the company have '
                     "and owe, and what is the owners' claim? as the question "
                     'it answers of Balance sheet.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for Income '
-                  'statement?',
-             'o': ['Where did cash come from, and where did it go?',
-                   'How did the company perform?',
-                   'What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'Why did each equity account change?'],
-             'a': 'B',
-             'why': 'The book’s own table gives How did the company perform? '
-                    'as the question it answers of Income statement.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for '
-                  'Statement of changes in equity?',
-             'o': ['Why did each equity account change?',
-                   'Where did cash come from, and where did it go?',
-                   'What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'How did the company perform?'],
-             'a': 'A',
-             'why': 'The book’s own table gives Why did each equity account '
-                    'change? as the question it answers of Statement of '
-                    'changes in equity.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for '
-                  'Statement of cash flows?',
-             'o': ['Why did each equity account change?',
-                   'What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'How did the company perform?',
-                   'Where did cash come from, and where did it go?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Where did cash come from, '
-                    'and where did it go? as the question it answers of '
-                    'Statement of cash flows.'},
+            {'t': 'TF',
+             'q': 'The book gives the time of Income statement as “for a '
+                  'period”.',
+             'a': 'T',
+             'why': 'The book pairs Income statement with “for a period”.'},
             {'t': 'SORT',
              'q': 'Write each one under its time. Every item belongs to '
                   'exactly one group.',
@@ -271,80 +245,40 @@ HANDOUT = {'id': '1.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which statement explains why retained earnings changed '
-                  'during the year?',
-             'o': ['The statement of changes in equity',
-                   'The balance sheet',
-                   'The statement of cash flows',
-                   'The income statement'],
-             'a': 'A',
-             'why': 'The statement of changes in equity shows beginning '
-                    'retained earnings, net income, dividends and ending '
-                    'retained earnings. B is wrong: The balance sheet shows '
-                    'only the ending balance at one date. C is wrong: The '
-                    'statement of cash flows explains cash, not equity.',
-             'src': 'P13'},
-            {'t': 'MCQ',
-             'q': 'Net income for the period flows directly into:',
-             'o': ['the cash balance on the balance sheet.',
-                   'retained earnings in the statement of changes in equity.',
-                   'total liabilities.',
-                   'common stock.'],
-             'a': 'B',
-             'why': 'Net income is closed into retained earnings. A is '
-                    'wrong: Net income is not cash. The statement of cash '
-                    'flows explains the cash balance. C is wrong: Net income '
-                    'belongs to the owners, so it goes to equity, not '
-                    'liabilities.',
-             'src': 'P14'},
-            {'t': 'MCQ',
-             'q': 'Which statement is TRUE?',
-             'o': ['The PCAOB writes U.S. GAAP for public companies.',
-                   'The IASB writes U.S. GAAP for companies that also report '
-                   'under IFRS.',
-                   'The ASC contains IFRS for U.S. companies.',
-                   'The SEC has legal authority over public company '
-                   'reporting and recognizes the FASB as the standard '
-                   'setter.'],
+             'q': 'Two companies use the same accounting methods, so an '
+                  'analyst can compare their results. This quality is '
+                  'called:',
+             'o': ['relevance',
+                   'verifiability',
+                   'faithful representation',
+                   'comparability'],
              'a': 'D',
-             'why': 'The SEC has the legal authority; the FASB sets the '
-                    'standards; the ASC holds U.S. GAAP. A is wrong: The '
-                    'PCAOB sets auditing standards. B is wrong: The IASB '
-                    'writes IFRS only.',
-             'src': 'P15'},
-            {'t': 'MCQ',
-             'q': "A Jordanian company's IFRS statements show share premium "
-                  'of 400. Under U.S. GAAP, the same item is called:',
-             'o': ['retained earnings.',
-                   'common stock.',
-                   'additional paid-in capital.',
-                   'treasury stock.'],
-             'a': 'C',
-             'why': 'Share premium and additional paid-in capital both mean '
-                    'the amount received above par value. A is wrong: '
-                    'Retained earnings come from profits, not from issuing '
-                    'shares. B is wrong: Common stock holds only the par '
-                    'value.',
-             'src': 'P16'}]),
+             'why': 'Comparability lets users identify similarities and '
+                    'differences between companies or periods. A is wrong: '
+                    'Relevance means the information can make a difference '
+                    'to a decision. B is wrong: Verifiability means '
+                    'independent observers could reach the same result.',
+             'src': 'P03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which account normally has a credit balance?',
-           ['Prepaid rent',
-            'Accumulated depreciation',
-            'Cost of goods sold',
-            'Dividends declared'],
-           'B',
+           'Orontes buys a bottling line for 1,200 in cash. Which journal '
+           'entry is correct?',
+           ['Debit Cash 1,200; credit Equipment 1,200',
+            'Debit Equipment expense 1,200; credit Cash 1,200',
+            'Debit Equipment 1,200; credit Notes payable 1,200',
+            'Debit Equipment 1,200; credit Cash 1,200'],
+           'D',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'Accumulated depreciation is a contra-asset account, so it has '
-           'the opposite (credit) balance to assets. A is wrong: Prepaid '
-           'rent is an asset, so its normal balance is a debit. C is wrong: '
-           'Cost of goods sold is an expense, so its normal balance is a '
-           'debit.'),
+           'One asset increases (debit Equipment) and another asset '
+           'decreases (credit Cash). A is wrong: The sides are reversed: '
+           'this entry would increase cash and decrease equipment. B is '
+           'wrong: The bottling line is an asset, not an expense of this '
+           'period.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -393,19 +327,44 @@ HANDOUT = {'id': '1.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes buys a bottling line for 1,200 in cash. Which '
-                  'journal entry is correct?',
-             'o': ['Debit Cash 1,200; credit Equipment 1,200',
-                   'Debit Equipment expense 1,200; credit Cash 1,200',
-                   'Debit Equipment 1,200; credit Notes payable 1,200',
-                   'Debit Equipment 1,200; credit Cash 1,200'],
+             'q': 'Which account normally has a credit balance?',
+             'o': ['Prepaid rent',
+                   'Accumulated depreciation',
+                   'Cost of goods sold',
+                   'Dividends declared'],
+             'a': 'B',
+             'why': 'Accumulated depreciation is a contra-asset account, so '
+                    'it has the opposite (credit) balance to assets. A is '
+                    'wrong: Prepaid rent is an asset, so its normal balance '
+                    'is a debit. C is wrong: Cost of goods sold is an '
+                    'expense, so its normal balance is a debit.',
+             'src': 'SC3-1'},
+            {'t': 'MCQ',
+             'q': 'Which question it answers does the book give for '
+                  'Statement of cash flows?',
+             'o': ['How did the company perform?',
+                   'What does the company have and owe, and what is the '
+                   "owners' claim?",
+                   'Why did each equity account change?',
+                   'Where did cash come from, and where did it go?'],
              'a': 'D',
-             'why': 'One asset increases (debit Equipment) and another asset '
-                    'decreases (credit Cash). A is wrong: The sides are '
-                    'reversed: this entry would increase cash and decrease '
-                    'equipment. B is wrong: The bottling line is an asset, '
-                    'not an expense of this period.',
-             'src': 'SC3-2'}]),
+             'why': 'The book’s own table gives Where did cash come from, '
+                    'and where did it go? as the question it answers of '
+                    'Statement of cash flows.'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching question it answers '
+                  'beside each statement. Every one is used once.',
+             'left': ['Balance sheet',
+                      'Income statement',
+                      'Statement of changes in equity',
+                      'Statement of cash flows'],
+             'right': ['How did the company perform?',
+                       'What does the company have and owe, and what is the '
+                       "owners' claim?",
+                       'Why did each equity account change?',
+                       'Where did cash come from, and where did it go?'],
+             'a': ['B', 'A', 'C', 'D'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

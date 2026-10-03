@@ -9,11 +9,10 @@ HANDOUT = {'id': '8.1',
  'covers': ['sec:8.1',
             'p:P8-01',
             'p:P8-02',
-            'p:P8-04',
-            'p:P8-05',
-            'sc:P8-01',
             'p:P8-07',
-            'p:P8-08',
+            'p:P8-09',
+            'p:P8-11',
+            'p:P8-12',
             'term:net realizable value (nrv)',
             'term:retail inventory method',
             'term:floor',
@@ -28,8 +27,7 @@ HANDOUT = {'id': '8.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Which test applies?',
              'a figure to read · Orontes olive oil, December 31, 2025',
-             'A company uses the weighted-average method. At year-end, NRV '
-             'is below cost. The company should:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -38,78 +36,71 @@ HANDOUT = {'id': '8.1',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Inventory measured by LIFO or the ',
+             'parts': ['Inventory measured by FIFO, average cost or '
+                       'specific ',
+                       16,
+                       ' uses the lower of cost and net ',
+                       12,
+                       ' value (LCNRV). Inventory measured by LIFO or the ',
                        25,
                        ' uses the lower of cost or market (LCM) (Section '
-                       '8.2). Decision: the cost flow method decides whether '
-                       'LCNRV or LCM applies. Net realizable value (NRV) is '
-                       'the estimated selling price in the ordinary course '
-                       'of business, minus the costs to complete, sell and '
-                       'transport the goods. If NRV is below cost, the '
-                       'company records a ',
-                       12,
-                       ' to NRV.'],
-             'bank': ['shrinkage',
-                      'write-down',
+                       '8.2).'],
+             'bank': ['floor',
                       'retail inventory method',
-                      'floor'],
-             'a': 'retail inventory method · write-down',
+                      'realizable',
+                      'identification',
+                      'shrinkage'],
+             'a': 'identification · realizable · retail inventory method',
              'one': True,
-             'why': 'The book writes: “Inventory measured by LIFO or the '
-                    'retail inventory method uses the lower of cost or '
-                    'market (LCM) (Section 8.2). Decision: the cost flow '
-                    'method decides whether LCNRV or LCM applies. Net '
-                    'realizable value (NRV) is the estimated selling price '
-                    'in the ordinary course of business, minus the costs to '
-                    'complete, sell and transport the goods. If NRV is below '
-                    'cost, the company records a write-down to NRV.”'},
+             'why': 'The book writes: “Inventory measured by FIFO, average '
+                    'cost or specific identification uses the lower of cost '
+                    'and net realizable value (LCNRV). Inventory measured by '
+                    'LIFO or the retail inventory method uses the lower of '
+                    'cost or market (LCM) (Section 8.2).”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['NRV = selling price − costs to complete, sell and '
-                       'transport. Do NOT deduct a normal profit; that only '
-                       'defines the LCM ',
-                       11,
-                       '. Check the method first: FIFO or average → LCNRV; '
-                       'LIFO or retail → LCM. GAAP never reverses an annual ',
+             'parts': ['In late December, a large ',
                        12,
-                       '.'],
-             'bank': ['write-down',
-                      'shrinkage',
-                      'floor',
-                      'normal profit margin'],
-             'a': 'floor · write-down',
+                       ' cut prices. Orontes now expects to sell each case '
+                       'for $54, with $6 of selling and delivery costs. The ',
+                       12,
+                       ' of $4,000 is a loss of 2025. The new amount, $48 a '
+                       'case, is now the cost basis of these cases.'],
+             'bank': ['write-down', 'shrinkage', 'competitor', 'floor'],
+             'a': 'competitor · write-down',
              'one': True,
-             'why': 'The book writes: “NRV = selling price − costs to '
-                    'complete, sell and transport. Do NOT deduct a normal '
-                    'profit; that only defines the LCM floor. Check the '
-                    'method first: FIFO or average → LCNRV; LIFO or retail → '
-                    'LCM. GAAP never reverses an annual write-down.”'},
+             'why': 'The book writes: “In late December, a large competitor '
+                    'cut prices. Orontes now expects to sell each case for '
+                    '$54, with $6 of selling and delivery costs. The '
+                    'write-down of $4,000 is a loss of 2025. The new amount, '
+                    '$48 a case, is now the cost basis of these cases.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['When prices recover, IAS 2 requires a reversal, '
-                       'limited to the original ',
-                       12,
-                       '. NRV = selling price − costs to complete, sell and '
-                       'transport. Do NOT deduct a normal profit; that only '
-                       'defines the LCM ',
+             'parts': ['Under U.S. GAAP the ',
+                       11,
+                       ' is zero. NRV = selling price − costs to complete, '
+                       'sell and ',
+                       11,
+                       '. Do NOT deduct a normal profit; that only defines '
+                       'the LCM ',
                        11,
                        '. Check the method first: FIFO or average → LCNRV; '
                        'LIFO or retail → LCM.'],
-             'bank': ['floor',
-                      'normal profit margin',
+             'bank': ['transport',
                       'write-down',
-                      'shrinkage'],
-             'a': 'write-down · floor',
+                      'shrinkage',
+                      'reversal',
+                      'floor'],
+             'a': 'reversal · transport · floor',
              'one': True,
-             'why': 'The book writes: “When prices recover, IAS 2 requires a '
-                    'reversal, limited to the original write-down. NRV = '
-                    'selling price − costs to complete, sell and transport. '
-                    'Do NOT deduct a normal profit; that only defines the '
-                    'LCM floor. Check the method first: FIFO or average → '
-                    'LCNRV; LIFO or retail → LCM.”'}],
+             'why': 'The book writes: “Under U.S. GAAP the reversal is zero. '
+                    'NRV = selling price − costs to complete, sell and '
+                    'transport. Do NOT deduct a normal profit; that only '
+                    'defines the LCM floor. Check the method first: FIFO or '
+                    'average → LCNRV; LIFO or retail → LCM.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -164,20 +155,7 @@ HANDOUT = {'id': '8.1',
              'o': ['$4,000', '$50', '2,000', '$54'],
              'a': 'C',
              'why': 'The book’s own table gives 2,000 as the amount of Olive '
-                    'oil cases on hand (FIFO layer from Chapter 7).'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Cost per case?',
-             'o': ['$50', '$54', '$6', '$48'],
-             'a': 'A',
-             'why': 'The book’s own table gives $50 as the amount of Cost '
-                    'per case.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for New estimated selling '
-                  'price per case?',
-             'o': ['$6', '$54', '$48', '$50'],
-             'a': 'B',
-             'why': 'The book’s own table gives $54 as the amount of New '
-                    'estimated selling price per case.'}]),
+                    'oil cases on hand (FIFO layer from Chapter 7).'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -208,58 +186,42 @@ HANDOUT = {'id': '8.1',
                     'the ceiling, so it cannot be market.',
              'src': 'P8-02'},
             {'t': 'MCQ',
-             'q': 'Under U.S. GAAP, a company wrote inventory down at the '
-                  'end of 2025. In 2026, the selling price recovers. What '
-                  'should the company do?',
-             'o': ['Nothing; the write-down is not reversed.',
-                   'Reverse the write-down, up to the original amount.',
-                   'Reverse the write-down through OCI.',
-                   'Reverse the write-down only if the recovery happens '
-                   'within one year.'],
-             'a': 'A',
-             'why': 'The write-down created a new cost basis; U.S. GAAP '
-                    'prohibits reversal in later years. B is wrong: This is '
-                    'the IAS 2 rule. C is wrong: There is no OCI treatment '
-                    'for inventory.',
-             'src': 'P8-04'},
+             'q': 'In the retail inventory method, freight-in is:',
+             'o': ['added to both the cost and retail columns.',
+                   'added to the cost column only.',
+                   'added to the retail column only.',
+                   'ignored.'],
+             'a': 'B',
+             'why': 'Freight-in is part of cost; it does not change selling '
+                    'prices. A is wrong: Freight-in has no retail amount. C '
+                    'is wrong: Freight-in is a cost, not a price.',
+             'src': 'P8-07'},
             {'t': 'MCQ',
-             'q': 'A company recognized an inventory write-down in the first '
-                  'quarter. The market price recovers in the third quarter '
-                  'of the same fiscal year. What is the treatment?',
-             'o': ['The loss can never be recovered.',
-                   'Inventory is written up to the new market price, even '
-                   'above cost.',
-                   'The loss may be recovered in the third quarter, up to '
-                   'the amount written down.',
-                   'The recovery is recorded in OCI.'],
-             'a': 'C',
-             'why': 'Interim write-downs may be recovered within the same '
-                    'fiscal year, up to the original loss. A is wrong: The '
-                    'no-reversal rule is for later annual periods, not '
-                    'quarters of the same year. B is wrong: Recovery is '
-                    'limited to the amount written down; inventory never '
-                    'goes above cost.',
-             'src': 'P8-05'}]),
+             'q': 'The gross profit method is acceptable for:',
+             'o': ['interim reports and estimating casualty losses.',
+                   'annual financial statements under U.S. GAAP.',
+                   'replacing the year-end physical count.',
+                   'tax returns only.'],
+             'a': 'A',
+             'why': 'It gives estimates, which are acceptable only where '
+                    'estimates are allowed. B is wrong: Annual statements '
+                    'need a physical count or a cost method. C is wrong: It '
+                    'can check a count but not replace it.',
+             'src': 'P8-09'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company uses the weighted-average method. At year-end, NRV is '
-           'below cost. The company should:',
-           ['write the inventory down to replacement cost.',
-            'disclose the decline in the notes only.',
-            'record the decline in other comprehensive income.',
-            'write the inventory down to NRV and recognize a loss in '
-            'income.'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Average-cost inventory uses LCNRV, and the loss goes to income. '
-           'A is wrong: Replacement cost belongs to the LCM test for LIFO '
-           'and retail. B is wrong: A loss must be recognized, not only '
-           'disclosed.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -296,26 +258,59 @@ HANDOUT = {'id': '8.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'In the retail inventory method, freight-in is:',
-             'o': ['added to both the cost and retail columns.',
-                   'added to the cost column only.',
-                   'added to the retail column only.',
-                   'ignored.'],
-             'a': 'B',
-             'why': 'Freight-in is part of cost; it does not change selling '
-                    'prices. A is wrong: Freight-in has no retail amount. C '
-                    'is wrong: Freight-in is a cost, not a price.',
-             'src': 'P8-07'},
+             'q': 'When prices are rising, which statement about FIFO is '
+                  'TRUE?',
+             'o': ['Taxes are lower than under LIFO.',
+                   'Current costs are matched with current revenues.',
+                   'Ending inventory is close to current cost.',
+                   'It is not allowed under IFRS.'],
+             'a': 'C',
+             'why': 'FIFO leaves the newest costs in ending inventory. A is '
+                    'wrong: FIFO gives higher taxes when prices rise. B is '
+                    'wrong: That is the LIFO argument.',
+             'src': 'P8-11'},
             {'t': 'MCQ',
-             'q': "A retailer's markup is 25% on cost. What gross profit "
-                  'rate on sales should it use in the gross profit method?',
-             'o': ['25%', '33.3%', '75%', '20%'],
+             'q': 'Which is a disadvantage of LIFO?',
+             'o': ['Income includes large holding gains when prices rise.',
+                   'Taxes are higher when prices rise.',
+                   'It cannot be used for U.S. tax returns.',
+                   'The balance sheet can show inventory at very old costs.'],
              'a': 'D',
-             'why': 'Gross profit rate = markup ÷ (1 + markup) = 0.25 ÷ '
-                    '1.25. A is wrong: This uses the markup on cost as the '
-                    'margin on sales. B is wrong: This divides by (1 − '
-                    'markup) instead of (1 + markup).',
-             'src': 'P8-08'}]),
+             'why': 'Old LIFO layers can stay in inventory for many years. A '
+                    'is wrong: That describes FIFO. B is wrong: LIFO lowers '
+                    'taxes when prices rise.',
+             'src': 'P8-12'},
+            {'t': 'MCQ',
+             'q': 'Spiral review (Chapter 7). A FIFO company moves from a '
+                  'periodic to a perpetual system. What happens to cost of '
+                  'goods sold?',
+             'o': ['It increases.',
+                   'It decreases.',
+                   'It does not change.',
+                   'It depends on the timing of sales.'],
+             'a': 'C',
+             'why': 'FIFO gives the same result under both systems. A is '
+                    'wrong: Only LIFO and average results can change with '
+                    'the system. B is wrong: Only LIFO and average results '
+                    'can change with the system.',
+             'src': 'P8-15'},
+            {'t': 'MCQ',
+             'q': 'Spiral review (Chapter 7). Ending inventory for 2025 is '
+                  'overstated. What is the effect on 2025 cost of goods '
+                  'sold?',
+             'o': ['Understated', 'No effect', 'Overstated'],
+             'a': 'A',
+             'why': 'Higher ending inventory means lower cost of goods sold. '
+                    'B is wrong: This reverses the direction. C is wrong: '
+                    'Ending inventory directly changes cost of goods sold.',
+             'src': 'P8-16'},
+            {'t': 'MCQ',
+             'q': 'Which amount does the book give for Write-down (loss in '
+                  'income)?',
+             'o': ['$96,000', '$100,000', '$4,000', '2,000'],
+             'a': 'C',
+             'why': 'The book’s own table gives $4,000 as the amount of '
+                    'Write-down (loss in income).'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

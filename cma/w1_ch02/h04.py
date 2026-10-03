@@ -3,13 +3,12 @@
 
 HANDOUT = {'id': '2.4',
  'n': 4,
- 'pages': 5,
+ 'pages': 6,
  'title': 'Other presentation matters',
  'sub': 'section 2.4 of the book',
  'covers': ['sec:2.4',
-            'p:P2-20',
-            'p:P2-21',
-            'sc:P2-20',
+            'p:P2-06',
+            'sc:P2-06',
             'term:current liabilities',
             'term:loss contingency',
             'term:current ratio',
@@ -23,12 +22,9 @@ HANDOUT = {'id': '2.4',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Other presentation matters',
-             'a figure to read · Likelihood of the loss · the book’s own '
-             'rule, gapped',
-             "Orontes's retained earnings were $4,375,000 on January 1, "
-             '2025. Net income was $2,969,100, OCI was $(1,125), and '
-             'dividends declared were $450,000. What are retained earnings '
-             'at December 31, 2025 (whole USD)?'],
+             'a figure to read · Likelihood of the loss · Orontes Foods Inc. '
+             '(whole USD)',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -39,70 +35,73 @@ HANDOUT = {'id': '2.4',
                   'not used.',
              'parts': ['A few more rules decide what appears on the ',
                        15,
-                       ' and how. All deferred tax assets and liabilities '
-                       'are noncurrent. A ',
-                       18,
-                       ' is an existing situation that may cause a loss, '
-                       'such as a lawsuit.'],
-             'bank': ['subsequent events',
+                       ' and how. All deferred tax assets and ',
+                       13,
+                       ' are ',
+                       12,
+                       '. Orontes shows its deferred tax liability of '
+                       '$999,625 below long-term debt.'],
+             'bank': ['noncurrent',
+                      'subsequent events',
+                      'liabilities',
                       'solvency',
-                      'loss contingency',
                       'balance sheet'],
-             'a': 'balance sheet · loss contingency',
+             'a': 'balance sheet · liabilities · noncurrent',
              'one': True,
              'why': 'The book writes: “A few more rules decide what appears '
                     'on the balance sheet and how. All deferred tax assets '
-                    'and liabilities are noncurrent. A loss contingency is '
-                    'an existing situation that may cause a loss, such as a '
-                    'lawsuit.”'},
+                    'and liabilities are noncurrent. Orontes shows its '
+                    'deferred tax liability of $999,625 below long-term '
+                    'debt.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Gain contingencies are never recorded before they '
-                       'are realized. ',
-                       19,
-                       ' happen after the ',
-                       15,
-                       ' date but before the statements are issued. If an '
-                       'event gives more information about a condition that '
-                       'already existed at year-end, the company adjusts the '
-                       'statements.'],
-             'bank': ['Subsequent events',
-                      'balance sheet',
-                      'liquidity',
-                      'solvency'],
-             'a': 'Subsequent events · balance sheet',
+             'parts': ['If an event gives more ',
+                       13,
+                       ' about a ',
+                       11,
+                       ' that already existed at year-end, the company '
+                       'adjusts the ',
+                       12,
+                       '. If the condition arose after year-end, the company '
+                       'only discloses it.'],
+             'bank': ['information',
+                      'condition',
+                      'solvency',
+                      'subsequent events',
+                      'statements'],
+             'a': 'information · condition · statements',
              'one': True,
-             'why': 'The book writes: “Gain contingencies are never recorded '
-                    'before they are realized. Subsequent events happen '
-                    'after the balance sheet date but before the statements '
-                    'are issued. If an event gives more information about a '
-                    'condition that already existed at year-end, the company '
-                    'adjusts the statements.”'},
+             'why': 'The book writes: “If an event gives more information '
+                    'about a condition that already existed at year-end, the '
+                    'company adjusts the statements. If the condition arose '
+                    'after year-end, the company only discloses it.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['If it is only reasonably possible, the company '
-                       'discloses it in a note. If it is remote, the company '
-                       'does nothing. Gain contingencies are never recorded '
-                       'before they are realized. ',
-                       19,
-                       ' happen after the ',
+             'parts': ['Arabic مخصص can mean an allowance (a ',
+                       14,
+                       '), a provision (a liability) or even a reserve in '
+                       'equity (احتياطي). In U.S. GAAP answers, use '
+                       'allowance for ',
                        15,
-                       ' date but before the statements are issued.'],
-             'bank': ['balance sheet',
-                      'solvency',
-                      'Subsequent events',
-                      'liquidity'],
-             'a': 'Subsequent events · balance sheet',
+                       ', accrued liability or ',
+                       18,
+                       ' for liabilities, and never call either a reserve.'],
+             'bank': ['contra-assets',
+                      'loss contingency',
+                      'subsequent events',
+                      'contra-asset',
+                      'solvency'],
+             'a': 'contra-asset · contra-assets · loss contingency',
              'one': True,
-             'why': 'The book writes: “If it is only reasonably possible, '
-                    'the company discloses it in a note. If it is remote, '
-                    'the company does nothing. Gain contingencies are never '
-                    'recorded before they are realized. Subsequent events '
-                    'happen after the balance sheet date but before the '
-                    'statements are issued.”'}],
+             'why': 'The book writes: “Arabic مخصص can mean an allowance (a '
+                    'contra-asset), a provision (a liability) or even a '
+                    'reserve in equity (احتياطي). In U.S. GAAP answers, use '
+                    'allowance for contra-assets, accrued liability or loss '
+                    'contingency for liabilities, and never call either a '
+                    'reserve.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -170,119 +169,103 @@ HANDOUT = {'id': '2.4',
                     'liability and a loss (best estimate; if no best '
                     'estimate, the minimum of the range)”.'},
             {'t': 'MCQ',
-             'q': 'Which likelihood of the loss does the book pair with “No '
-                  'accrual”?',
-             'o': ['Probable', 'Reasonably possible', 'Gain contingency'],
+             'q': 'Which disclosure does the book give for Reasonably '
+                  'possible?',
+             'o': ['Disclose carefully, without misleading',
+                   'Disclose the nature and an estimate (or say it cannot be '
+                   'estimated)',
+                   'Accrue and disclose',
+                   'No disclosure (except guarantees)'],
              'a': 'B',
-             'why': 'The book’s own table pairs Reasonably possible with “No '
-                    'accrual”.'},
-            {'t': 'MCQ',
-             'q': 'Which likelihood of the loss does the book pair with “No '
-                  'accrual”?',
-             'o': ['Remote', 'Probable', 'Gain contingency'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Remote with “No accrual”.'},
-            {'t': 'MCQ',
-             'q': 'Which likelihood of the loss does the book pair with '
-                  '“Never recognized before it is realized”?',
-             'o': ['Reasonably possible',
-                   'Gain contingency',
-                   'Probable',
-                   'Remote'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Gain contingency with “Never '
-                    'recognized before it is realized”.'},
-            {'t': 'TF',
-             'q': 'The book gives the disclosure of Probable as “Accrue and '
-                  'disclose”.',
-             'a': 'T',
-             'why': 'The book pairs Probable with “Accrue and disclose”.'},
-            {'t': 'TF',
-             'q': 'The book gives the disclosure of Reasonably possible as '
-                  '“Disclose carefully, without misleading”.',
-             'a': 'F',
-             'why': 'The book pairs Reasonably possible with “Disclose the '
-                    'nature and an estimate (or say it cannot be '
-                    'estimated)”, not with “Disclose carefully, without '
-                    'misleading”.'}]),
-          ('move', 'INVENT THE RULE', ''),
-          ('rule',
-           'Complete the book’s own sentence. The list holds more words than '
-           'there are gaps.',
-           [['',
-             19,
-             ' happen after the ',
-             15,
-             ' date but before the statements are issued.']],
-           ['liquidity',
-            'Subsequent events',
-            'balance sheet',
-            'loss contingency'],
-           'Subsequent events happen after the balance sheet date but before '
-           'the statements are issued.',
-           'Subsequent events · balance sheet'),
-          ('contrast',
-           'Two of the book’s own cases, side by side',
-           [('Probable',
-             ['Recognition (if reasonably estimable): Accrue a liability and '
-              'a loss (best estimate; if no best estimate, the minimum of '
-              'the range)']),
-            ('Remote',
-             ['Recognition (if reasonably estimable): No accrual'])],
-           'Only the facts above differ. What is the disclosure of Probable?',
-           ['Accrue and disclose',
-            'Disclose carefully, without misleading',
-            'No disclosure (except guarantees)'],
-           'A',
-           'The book gives Accrue and disclose as the disclosure of '
-           'Probable.'),
+             'why': 'The book’s own table gives Disclose the nature and an '
+                    'estimate (or say it cannot be estimated) as the '
+                    'disclosure of Reasonably possible.'}]),
           ('move', 'APPLY', 'No help on this move.'),
+          ('panel',
+           'Orontes Foods Inc. (whole USD) — the extract for the question '
+           'that follows',
+           [['Orontes Foods Inc. (whole USD)',
+             'Dec 31, 2025',
+             'Dec 31, 2024'],
+            ['ASSETS', '', ''],
+            ['Current assets', '', ''],
+            ['Cash', '7,302,100', '2,100,000'],
+            ['Trading securities', '42,000', '40,000'],
+            ['Accounts receivable, net of allowance (2025: 156,000; 2024: '
+             '140,000)',
+             '4,144,000',
+             '3,760,000'],
+            ['Inventory', '2,450,000', '2,300,000'],
+            ['Prepaid expenses', '204,000', '180,000'],
+            ['Assets held for sale', '46,000', '—'],
+            ['Total current assets', '14,188,100', '8,380,000'],
+            ['Noncurrent assets', '', ''],
+            ['Debt securities (held-to-maturity and available-for-sale)',
+             '88,500',
+             '90,000'],
+            ['Equity securities', '27,000', '25,000'],
+            ['Equity-method investments', '1,807,000', '500,000'],
+            ['Property, plant and equipment, net of accumulated depreciation '
+             '(2025: 11,988,000; 2024: 8,000,000)',
+             '14,802,000',
+             '16,000,000'],
+            ['Brand (indefinite-lived)', '260,000', '300,000'],
+            ['Goodwill', '300,000', '950,000'],
+            ['Other noncurrent assets', '200,000', '200,000'],
+            ['TOTAL ASSETS', '31,672,600', '26,445,000'],
+            ["LIABILITIES AND STOCKHOLDERS' EQUITY", '', ''],
+            ['Current liabilities', '', ''],
+            ['Accounts payable', '2,050,000', '1,900,000'],
+            ['Accrued liabilities', '900,000', '850,000'],
+            ['Income taxes payable', '350,000', '300,000'],
+            ['Contract liabilities', '180,000', '120,000'],
+            ['Dividends payable', '400,000', '—'],
+            ['Current portion of long-term debt', '400,000', '400,000'],
+            ['Total current liabilities', '4,280,000', '3,570,000'],
+            ['Long-term debt, less current portion',
+             '6,000,000',
+             '5,600,000'],
+            ['Deferred tax liability', '999,625', '900,000'],
+            ['Total liabilities', '11,279,625', '10,070,000'],
+            ['Commitments and contingencies (Note 12)', '', ''],
+            ["Stockholders' equity", '', ''],
+            ['Common stock, $1 par; shares issued and outstanding: 2025 '
+             '8,100,000, 2024 8,000,000',
+             '8,100,000',
+             '8,000,000'],
+            ['Additional paid-in capital', '5,400,000', '4,000,000'],
+            ['Retained earnings', '6,894,100', '4,375,000'],
+            ['Accumulated other comprehensive income (loss)', '(1,125)', '—'],
+            ["Total stockholders' equity", '20,392,975', '16,375,000'],
+            ["TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY",
+             '31,672,600',
+             '26,445,000']],
+           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': "Orontes's retained earnings were $4,375,000 on January 1, "
-                  '2025. Net income was $2,969,100, OCI was $(1,125), and '
-                  'dividends declared were $450,000. What are retained '
-                  'earnings at December 31, 2025 (whole USD)?',
-             'o': ['6,892,975', '6,894,100', '7,294,100', '7,344,100'],
-             'a': 'B',
-             'why': 'Opening + net income − dividends declared. OCI goes to '
-                    'AOCI, not retained earnings. A is wrong: This puts OCI '
-                    'into retained earnings. C is wrong: This deducts only '
-                    'the dividends paid, not those declared.',
-             'src': 'P2-20'},
-            {'t': 'MCQ',
-             'q': 'Company X owes Company Y $50,000, and Company Y owes '
-                  'Company X $30,000 on a separate contract. There is no '
-                  'legal right of setoff. How does Company X present these '
-                  'amounts?',
-             'o': ['A net payable of $20,000',
-                   'A net receivable of $20,000',
-                   'A receivable of $30,000 and a payable of $50,000',
-                   'Only a note disclosure'],
+             'q': 'The extract for this question is printed with it. What is '
+                  "Orontes's current ratio at December 31, 2025?",
+             'o': ['0.30', '2.35', '3.31', '3.62'],
              'a': 'C',
-             'why': 'Without a right of setoff, assets and liabilities are '
-                    'shown gross. A is wrong: Netting needs a legal right of '
-                    'setoff. B is wrong: Netting needs a right of setoff, '
-                    'and the sign is also wrong.',
-             'src': 'P2-21'}]),
+             'why': '$14,188,100 ÷ $4,280,000. A is wrong: This divides '
+                    'current liabilities by current assets. B is wrong: This '
+                    'is the 2024 ratio.',
+             'src': 'P2-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "Orontes's retained earnings were $4,375,000 on January 1, 2025. "
-           'Net income was $2,969,100, OCI was $(1,125), and dividends '
-           'declared were $450,000. What are retained earnings at December '
-           '31, 2025 (whole USD)?',
-           ['6,892,975', '6,894,100', '7,294,100', '7,344,100'],
-           'B',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'Opening + net income − dividends declared. OCI goes to AOCI, not '
-           'retained earnings. A is wrong: This puts OCI into retained '
-           'earnings. C is wrong: This deducts only the dividends paid, not '
-           'those declared.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -317,13 +300,6 @@ HANDOUT = {'id': '2.4',
              'a': ['C', 'A', 'D', 'B'],
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

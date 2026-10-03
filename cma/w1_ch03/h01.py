@@ -8,12 +8,11 @@ HANDOUT = {'id': '3.1',
  'sub': 'section 3.1 of the book',
  'covers': ['sec:3.1',
             'p:P3-01',
-            'p:P3-02',
-            'p:P3-03',
             'p:P3-04',
-            'sc:P3-01',
             'p:P3-05',
-            'p:P3-06',
+            'p:P3-07',
+            'p:P3-08',
+            'p:P3-12',
             'term:income statement',
             'term:unusual or infrequent item',
             'term:other income and expense',
@@ -29,65 +28,58 @@ HANDOUT = {'id': '3.1',
             ['Purpose and structure of the income statement',
              'a figure to read · Orontes Foods Inc., year ended December 31, '
              '2025',
-             "An investor wants to predict a company's future earnings. "
-             'Which statement is MOST useful for this?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['A ',
-                       29,
-                       ' shows subtotals: gross profit, ',
+             'parts': ['The ',
                        18,
-                       ' and income before income taxes. A ',
-                       30,
-                       ' adds all revenues and gains, deducts all expenses '
-                       'and losses, and reaches net income in one step.'],
-             'bank': ['single-step income statement',
-                      'operating income',
+                       " reports a company's revenues, expenses, gains and "
+                       'losses for a period, usually a year. The result is '
+                       'net income, which increases retained earnings. Where '
+                       'the balance sheet is a ',
+                       12,
+                       ', the income statement is a film of the whole year.'],
+             'bank': ['photograph',
                       'strategic shift',
                       'component of an entity',
-                      'multi-step income statement'],
-             'a': 'multi-step income statement · operating income · '
-                  'single-step income statement',
+                      'income statement'],
+             'a': 'income statement · photograph',
              'one': True,
-             'why': 'The book writes: “A multi-step income statement shows '
-                    'subtotals: gross profit, operating income and income '
-                    'before income taxes. A single-step income statement '
-                    'adds all revenues and gains, deducts all expenses and '
-                    'losses, and reaches net income in one step.”'},
+             'why': 'The book writes: “The income statement reports a '
+                    "company's revenues, expenses, gains and losses for a "
+                    'period, usually a year. The result is net income, which '
+                    'increases retained earnings. Where the balance sheet is '
+                    'a photograph, the income statement is a film of the '
+                    'whole year.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Managers use it to compare results with budgets and '
-                       'with competitors. A ',
-                       29,
-                       ' shows subtotals: gross profit, ',
-                       18,
-                       ' and income before income taxes. A ',
-                       30,
-                       ' adds all revenues and gains, deducts all expenses '
-                       'and losses, and reaches net income in one step.'],
+             'parts': ['Lenders use it to see whether the company earns '
+                       'enough to pay ',
+                       11,
+                       '. ',
+                       11,
+                       ' use it to compare results with budgets and with ',
+                       13,
+                       '.'],
              'bank': ['component of an entity',
-                      'single-step income statement',
-                      'operating income',
-                      'multi-step income statement',
+                      'competitors',
+                      'Managers',
+                      'interest',
                       'strategic shift'],
-             'a': 'multi-step income statement · operating income · '
-                  'single-step income statement',
+             'a': 'interest · Managers · competitors',
              'one': True,
-             'why': 'The book writes: “Managers use it to compare results '
-                    'with budgets and with competitors. A multi-step income '
-                    'statement shows subtotals: gross profit, operating '
-                    'income and income before income taxes. A single-step '
-                    'income statement adds all revenues and gains, deducts '
-                    'all expenses and losses, and reaches net income in one '
-                    'step.”'},
+             'why': 'The book writes: “Lenders use it to see whether the '
+                    'company earns enough to pay interest. Managers use it '
+                    'to compare results with budgets and with competitors.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -98,9 +90,7 @@ HANDOUT = {'id': '3.1',
                        ' and income before income taxes. A ',
                        30,
                        ' adds all revenues and gains, deducts all expenses '
-                       'and losses, and reaches net income in one step. SEC '
-                       "registrants such as Orontes follow the SEC's list of "
-                       'captions, which gives a multi-step layout.'],
+                       'and losses, and reaches net income in one step.'],
              'bank': ['strategic shift',
                       'operating income',
                       'single-step income statement',
@@ -113,9 +103,7 @@ HANDOUT = {'id': '3.1',
                     'subtotals: gross profit, operating income and income '
                     'before income taxes. A single-step income statement '
                     'adds all revenues and gains, deducts all expenses and '
-                    'losses, and reaches net income in one step. SEC '
-                    "registrants such as Orontes follow the SEC's list of "
-                    'captions, which gives a multi-step layout.”'}],
+                    'losses, and reaches net income in one step.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -193,34 +181,7 @@ HANDOUT = {'id': '3.1',
                    'Unusual items and discontinued operations'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the income '
-                    'statement” as section 3.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.2?',
-             'o': ['Limitations and links to the other statements',
-                   'Unusual items and discontinued operations',
-                   'Building the multi-step income statement',
-                   'Purpose and structure of the income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Building the multi-step income '
-                    'statement” as section 3.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.3?',
-             'o': ['Building the multi-step income statement',
-                   'Limitations and links to the other statements',
-                   'Unusual items and discontinued operations',
-                   'Purpose and structure of the income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Unusual items and discontinued '
-                    'operations” as section 3.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.4?',
-             'o': ['Unusual items and discontinued operations',
-                   'Comprehensive income',
-                   'Building the multi-step income statement',
-                   'Purpose and structure of the income statement'],
-             'a': 'B',
-             'why': 'The book numbers “Comprehensive income” as section '
-                    '3.4.'}]),
+                    'statement” as section 3.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -238,32 +199,6 @@ HANDOUT = {'id': '3.1',
                     'equity, using net income from the income statement.',
              'src': 'P3-01'},
             {'t': 'MCQ',
-             'q': "A lender wants to know if a borrower's main business "
-                  'earns enough to cover its interest. Which subtotal is '
-                  'MOST useful?',
-             'o': ['Net income',
-                   'Operating income',
-                   'Comprehensive income',
-                   'Gross profit'],
-             'a': 'B',
-             'why': 'Operating income is earned before interest, so it can '
-                    'be compared with interest expense. A is wrong: Net '
-                    'income is after interest has already been deducted. C '
-                    'is wrong: Comprehensive income includes OCI, which is '
-                    'not from main operations.',
-             'src': 'P3-02'},
-            {'t': 'MCQ',
-             'q': 'The heading of an income statement should read:',
-             'o': ['As of December 31, 2025',
-                   'At December 31, 2025',
-                   'For the year ended December 31, 2025',
-                   'On December 31, 2025'],
-             'a': 'C',
-             'why': "The income statement covers a period. A is wrong: 'As "
-                    "of' is used for the balance sheet. B is wrong: 'At' a "
-                    'date is a balance sheet heading.',
-             'src': 'P3-03'},
-            {'t': 'MCQ',
              'q': 'Why do most U.S. public companies use a multi-step rather '
                   'than a single-step income statement?',
              'o': ['It gives a higher net income',
@@ -276,27 +211,49 @@ HANDOUT = {'id': '3.1',
                     'A is wrong: Both layouts give the same net income. B is '
                     'wrong: U.S. GAAP does not require one layout; SEC '
                     'captions lead to multi-step.',
-             'src': 'P3-04'}]),
+             'src': 'P3-04'},
+            {'t': 'MCQ',
+             'q': 'Which item is an operating expense on a U.S. multi-step '
+                  'income statement?',
+             'o': ['Research and development',
+                   'Interest expense',
+                   'Income tax expense',
+                   'Loss from discontinued operations'],
+             'a': 'A',
+             'why': 'R&D is part of the costs of running the main business. '
+                    'B is wrong: Interest is in other income and expense. C '
+                    'is wrong: Tax is deducted after income before income '
+                    'taxes.',
+             'src': 'P3-05'},
+            {'t': 'MCQ',
+             'q': 'Under U.S. GAAP, which presentation of operating expenses '
+                  'is required?',
+             'o': ['No specific presentation is required; SEC captions lead '
+                   'to a functional presentation',
+                   'By nature, such as materials and staff costs',
+                   'By function, with a note by nature for all companies '
+                   'today',
+                   'Operating profit as a required subtotal'],
+             'a': 'A',
+             'why': 'U.S. GAAP does not mandate function or nature. B is '
+                    'wrong: Nature is common under IFRS, not required in the '
+                    'U.S. C is wrong: DISE note disclosures start only in '
+                    '2027 and are not yet testable.',
+             'src': 'P3-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "An investor wants to predict a company's future earnings. Which "
-           'statement is MOST useful for this?',
-           ['The balance sheet',
-            'The statement of changes in equity',
-            "The auditor's report",
-            'The income statement'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Past performance on the income statement is the starting point '
-           'for predicting future earnings. A is wrong: The balance sheet '
-           'shows position at one date, not performance. B is wrong: It '
-           'shows changes in equity, using net income from the income '
-           'statement.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -307,6 +264,7 @@ HANDOUT = {'id': '3.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -366,29 +324,32 @@ HANDOUT = {'id': '3.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item is an operating expense on a U.S. multi-step '
+             'q': 'For which amounts must a U.S. public company with a '
+                  'simple capital structure show EPS on the face of the '
                   'income statement?',
-             'o': ['Research and development',
-                   'Interest expense',
-                   'Income tax expense',
-                   'Loss from discontinued operations'],
-             'a': 'A',
-             'why': 'R&D is part of the costs of running the main business. '
-                    'B is wrong: Interest is in other income and expense. C '
-                    'is wrong: Tax is deducted after income before income '
-                    'taxes.',
-             'src': 'P3-05'},
+             'o': ['Gross profit and operating income',
+                   'Comprehensive income only',
+                   'Income from continuing operations and net income',
+                   'Unusual or infrequent items'],
+             'a': 'C',
+             'why': 'EPS is required for income from continuing operations '
+                    'and net income. A is wrong: EPS is not shown for these '
+                    'subtotals. B is wrong: EPS is not required for '
+                    'comprehensive income.',
+             'src': 'P3-08'},
             {'t': 'MCQ',
-             'q': 'A company has net sales of $900,000, cost of goods sold '
-                  'of $540,000, selling expenses of $120,000, administrative '
-                  'expenses of $90,000 and interest expense of $30,000. What '
-                  'is its operating income?',
-             'o': ['$120,000', '$150,000', '$240,000', '$360,000'],
-             'a': 'B',
-             'why': 'Gross profit of $360,000 minus operating expenses of '
-                    '$210,000. A is wrong: This also deducts interest. C is '
-                    'wrong: This deducts only selling expenses.',
-             'src': 'P3-06'}]),
+             'q': 'Which condition is NOT needed for a disposal to be '
+                  'reported as a discontinued operation?',
+             'o': ['The component must be sold, held for sale or disposed of',
+                   'The disposal must be a strategic shift',
+                   'The shift must have a major effect on operations and '
+                   'results',
+                   'The component must have been profitable'],
+             'a': 'D',
+             'why': 'Profitable and loss-making components can both be '
+                    'discontinued operations. A is wrong: This is one of the '
+                    'conditions. B is wrong: This is one of the conditions.',
+             'src': 'P3-12'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

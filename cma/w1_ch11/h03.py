@@ -3,17 +3,11 @@
 
 HANDOUT = {'id': '11.3',
  'n': 3,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Steps 3 and 4: the transaction price and its allocation',
  'sub': 'section 11.3 of the book',
  'covers': ['sec:11.3',
-            'p:P11-13',
-            'p:P11-14',
-            'p:P11-15',
-            'p:P11-17',
-            'sc:P11-13',
-            'p:P11-18',
-            'p:P11-19',
+            'p:P11-03',
             'term:transaction price',
             'term:agent',
             'term:input method',
@@ -28,9 +22,8 @@ HANDOUT = {'id': '11.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Steps 3 and 4: the transaction price and its allocation',
              'a figure to read · Suppose: sales of 2,400,000 with a 3% '
-             'volume reb · the book’s own rule, gapped',
-             'Orontes provides cleaning services every week to a hotel. How '
-             'is revenue recognized?'],
+             'volume reb',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -94,27 +87,30 @@ HANDOUT = {'id': '11.3',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['A discount is normally shared by all obligations. '
-                       'Each obligation therefore receives 90% of its '
-                       'standalone price. Allocating the GreenBasket '
-                       'discount by relative ',
-                       26,
-                       '. ',
+             'parts': ['When an ',
+                       12,
+                       ' price is not ',
                        11,
-                       ' for each obligation is its allocated price, not its '
-                       'standalone selling price.'],
+                       ', the company estimates it, for example from market '
+                       'prices or expected cost plus a margin. The residual '
+                       'approach is allowed only when a price is highly '
+                       'variable or uncertain. A discount is normally shared '
+                       'by all ',
+                       13,
+                       '.'],
              'bank': ['bill-and-hold arrangement',
+                      'obligations',
                       'principal',
-                      'standalone selling price',
-                      'Revenue'],
-             'a': 'standalone selling price · Revenue',
+                      'observable',
+                      'available'],
+             'a': 'observable · available · obligations',
              'one': True,
-             'why': 'The book writes: “A discount is normally shared by all '
-                    'obligations. Each obligation therefore receives 90% of '
-                    'its standalone price. Allocating the GreenBasket '
-                    'discount by relative standalone selling price. Revenue '
-                    'for each obligation is its allocated price, not its '
-                    'standalone selling price.”'}],
+             'why': 'The book writes: “When an observable price is not '
+                    'available, the company estimates it, for example from '
+                    'market prices or expected cost plus a margin. The '
+                    'residual approach is allowed only when a price is '
+                    'highly variable or uncertain. A discount is normally '
+                    'shared by all obligations.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -180,146 +176,36 @@ HANDOUT = {'id': '11.3',
                    'Steps 3 and 4: the transaction price and its allocation'],
              'a': 'C',
              'why': 'The book numbers “Revenue and the core principle” as '
-                    'section 11.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.2?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Matching, contract costs and IFRS differences',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations'],
-             'a': 'D',
-             'why': 'The book numbers “Steps 1 and 2: the contract and its '
-                    'performance obligations” as section 11.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.3?',
-             'o': ['Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences',
-                   'Steps 3 and 4: the transaction price and its allocation'],
-             'a': 'D',
-             'why': 'The book numbers “Steps 3 and 4: the transaction price '
-                    'and its allocation” as section 11.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.4?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time'],
-             'a': 'D',
-             'why': 'The book numbers “Step 5: recognizing revenue over time '
-                    'or at a point in time” as section 11.4.'}]),
-          ('move', 'INVENT THE RULE', ''),
-          ('rule',
-           'Complete the book’s own sentence. The list holds more words than '
-           'there are gaps.',
-           [['',
-             37,
-             ', such as a slotting fee paid to a supermarket for shelf '
-             'space, reduces ',
-             11,
-             '.']],
-           ['Consideration payable to a customer',
-            'contract asset',
-            'point in time',
-            'revenue'],
-           'Consideration payable to a customer, such as a slotting fee paid '
-           'to a supermarket for shelf space, reduces revenue.',
-           'Consideration payable to a customer · revenue'),
-          ('contrast',
-           'Two of the book’s own cases, side by side',
-           [('Most likely amount',
-             ['How it works: The rebate is all or nothing, so use the single '
-              'most likely outcome: the rebate is earned (70% likely).']),
-            ('Expected value',
-             ['How it works: Probability-weighted: 70% × 72,000 = 50,400 '
-              'rebate. Best when there are many possible outcomes.'])],
-           'Only the facts above differ. What is the revenue (whole usd) of '
-           'Most likely amount?',
-           ['Applies to both', '2,328,000', '2,349,600'],
-           'B',
-           'The book gives 2,328,000 as the revenue (whole usd) of Most '
-           'likely amount.'),
+                    'section 11.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes provides cleaning services every week to a hotel. '
-                  'How is revenue recognized?',
-             'o': ['At the end of the contract',
-                   'Over time, because the hotel receives and uses the '
-                   'benefit as Orontes performs',
-                   'When the hotel pays',
-                   'At the start, when the contract is signed'],
+             'q': 'Which indicator suggests that a company is a principal '
+                  'rather than an agent?',
+             'o': ['It receives a fixed commission per sale',
+                   'It bears the inventory risk before the goods are '
+                   'transferred',
+                   'The supplier sets the selling price',
+                   'The supplier is responsible for fulfilling the order'],
              'a': 'B',
-             'why': 'The first over-time criterion is met. A is wrong: The '
-                    'service is transferred continuously. C is wrong: '
-                    'Payment does not decide timing.',
-             'src': 'P11-13'},
-            {'t': 'MCQ',
-             'q': 'A builder constructs a factory on land owned by the '
-                  'customer. The customer controls the work in progress. '
-                  'Revenue is recognized:',
-             'o': ['over time, using a measure of progress',
-                   'at completion',
-                   'when the final payment is received',
-                   'only if the customer pays in advance'],
-             'a': 'A',
-             'why': 'The builder improves an asset the customer controls. B '
-                    'is wrong: An over-time criterion is met, so completion '
-                    'is not the trigger. C is wrong: Payment does not decide '
-                    'timing.',
-             'src': 'P11-14'},
-            {'t': 'MCQ',
-             'q': 'Which is an input method for measuring progress on a '
-                  'contract?',
-             'o': ['Units delivered',
-                   'Milestones reached',
-                   'Costs incurred to date compared with total expected '
-                   'costs',
-                   'Surveys of work performed'],
-             'a': 'C',
-             'why': "Input methods measure the company's efforts. A is "
-                    'wrong: Units delivered is an output method. B is wrong: '
-                    'Milestones are an output method.',
-             'src': 'P11-15'},
-            {'t': 'MCQ',
-             'q': 'A company has delivered goods, but it cannot bill the '
-                  'customer until it also delivers a second product next '
-                  'month. At year-end it reports:',
-             'o': ['a receivable',
-                   'a contract liability',
-                   'a contract asset',
-                   'no balance'],
-             'a': 'C',
-             'why': 'Its right to payment depends on something other than '
-                    'time. A is wrong: A receivable needs an unconditional '
-                    'right. B is wrong: The customer has not paid in '
-                    'advance.',
-             'src': 'P11-17'}]),
+             'why': 'Inventory risk shows control before transfer. A is '
+                    'wrong: A fixed commission suggests an agent. C is '
+                    'wrong: No pricing discretion suggests an agent.',
+             'src': 'P11-03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Orontes provides cleaning services every week to a hotel. How is '
-           'revenue recognized?',
-           ['At the end of the contract',
-            'Over time, because the hotel receives and uses the benefit as '
-            'Orontes performs',
-            'When the hotel pays',
-            'At the start, when the contract is signed'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'The first over-time criterion is met. A is wrong: The service is '
-           'transferred continuously. C is wrong: Payment does not decide '
-           'timing.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -356,29 +242,14 @@ HANDOUT = {'id': '11.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company may estimate variable consideration and include '
-                  'it in the transaction price only to the extent that:',
-             'o': ['a significant reversal of revenue is not probable later',
-                   'the amount is certain',
-                   'the customer has already paid',
-                   'the amount is less than 10% of the price'],
-             'a': 'A',
-             'why': 'This is the constraint on variable consideration. B is '
-                    'wrong: Estimates are allowed; certainty is not needed. '
-                    'C is wrong: Payment is not required.',
-             'src': 'P11-18'},
-            {'t': 'MCQ',
-             'q': 'Which practice follows the matching principle?',
-             'o': ['Expensing inventory when it is purchased',
-                   'Recognizing cost of goods sold in the period the related '
-                   'sale is recognized',
-                   'Recognizing revenue when cash is received',
-                   'Capitalizing all advertising costs'],
-             'a': 'B',
-             'why': 'Costs are recognized with the revenues they help to '
-                    'earn. A is wrong: Inventory is expensed when it is '
-                    'sold. C is wrong: Revenue follows control, not cash.',
-             'src': 'P11-19'}]),
+             'q': 'Which English term does the exam use for “سعر المعاملة”?',
+             'o': ['agent',
+                   'input method',
+                   'transaction price',
+                   'matching principle'],
+             'a': 'C',
+             'why': 'The glossary on this page pairs “سعر المعاملة” with '
+                    'transaction price.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

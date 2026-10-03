@@ -3,17 +3,13 @@
 
 HANDOUT = {'id': '15.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Expense recognition',
  'sub': 'section 15.2 of the book',
  'covers': ['sec:15.2',
-            'p:P15-07',
-            'p:P15-08',
-            'p:P15-09',
+            'p:P15-02',
             'p:P15-10',
-            'sc:P15-07',
-            'p:P15-11',
-            'p:P15-12',
+            'p:P15-16',
             'term:loss',
             'term:fair value less cost to sell'],
  'skills': [('read2', 3)],
@@ -26,88 +22,81 @@ HANDOUT = {'id': '15.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Expense recognition',
              'a figure to read · Approach',
-             'Which item is part of U.S. OCI?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['When a cost benefits several periods but cannot be '
-                       'linked to specific revenue, it is spread by ',
-                       36,
-                       '. Depreciation of the bottling line and the expiry '
-                       'of prepaid rent are examples. When a cost has no '
-                       'clear link to future revenue, it is a ',
-                       13,
-                       ' and is expensed at once.'],
-             'bank': ['systematic and rational allocation',
-                      'loss',
-                      'comprehensive income',
-                      'period cost'],
-             'a': 'systematic and rational allocation · period cost',
+             'parts': ['When there is a clear cause and effect, the expense '
+                       'follows the related revenue: cost of goods sold is ',
+                       12,
+                       ' when the goods are sold. This is the ',
+                       11,
+                       ' ',
+                       11,
+                       ' from Chapter 11.'],
+             'bank': ['comprehensive income',
+                      'recognized',
+                      'period cost',
+                      'principle',
+                      'matching'],
+             'a': 'recognized · matching · principle',
              'one': True,
-             'why': 'The book writes: “When a cost benefits several periods '
-                    'but cannot be linked to specific revenue, it is spread '
-                    'by systematic and rational allocation. Depreciation of '
-                    'the bottling line and the expiry of prepaid rent are '
-                    'examples. When a cost has no clear link to future '
-                    'revenue, it is a period cost and is expensed at once.”'},
+             'why': 'The book writes: “When there is a clear cause and '
+                    'effect, the expense follows the related revenue: cost '
+                    'of goods sold is recognized when the goods are sold. '
+                    'This is the matching principle from Chapter 11.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['This is the matching principle from Chapter 11. When '
-                       'a cost benefits several periods but cannot be linked '
-                       'to specific revenue, it is spread by ',
-                       36,
-                       '. Depreciation of the bottling line and the expiry '
-                       'of prepaid rent are examples. When a cost has no '
-                       'clear link to future revenue, it is a ',
-                       13,
-                       ' and is expensed at once.'],
-             'bank': ['period cost',
-                      'comprehensive income',
-                      'systematic and rational allocation',
-                      'loss'],
-             'a': 'systematic and rational allocation · period cost',
-             'one': True,
-             'why': 'The book writes: “This is the matching principle from '
-                    'Chapter 11. When a cost benefits several periods but '
-                    'cannot be linked to specific revenue, it is spread by '
-                    'systematic and rational allocation. Depreciation of the '
-                    'bottling line and the expiry of prepaid rent are '
-                    'examples. When a cost has no clear link to future '
-                    'revenue, it is a period cost and is expensed at once.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['When a cost benefits several periods but cannot be '
                        'linked to specific revenue, it is spread by ',
                        36,
-                       '. Depreciation of the bottling line and the expiry '
-                       'of prepaid rent are examples. When a cost has no '
-                       'clear link to future revenue, it is a ',
-                       13,
-                       ' and is expensed at once. Advertising and research '
-                       'and development are expensed when incurred, even if '
-                       'they may bring future sales.'],
-             'bank': ['systematic and rational allocation',
-                      'comprehensive income',
-                      'loss',
-                      'period cost'],
-             'a': 'systematic and rational allocation · period cost',
+                       '. ',
+                       14,
+                       ' of the bottling line and the expiry of prepaid rent '
+                       'are examples.'],
+             'bank': ['Depreciation',
+                      'period cost',
+                      'systematic and rational allocation',
+                      'comprehensive income'],
+             'a': 'systematic and rational allocation · Depreciation',
              'one': True,
              'why': 'The book writes: “When a cost benefits several periods '
                     'but cannot be linked to specific revenue, it is spread '
                     'by systematic and rational allocation. Depreciation of '
                     'the bottling line and the expiry of prepaid rent are '
-                    'examples. When a cost has no clear link to future '
-                    'revenue, it is a period cost and is expensed at once. '
-                    'Advertising and research and development are expensed '
-                    'when incurred, even if they may bring future sales.”'}],
+                    'examples.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['When a cost has no clear link to future revenue, it '
+                       'is a ',
+                       13,
+                       ' and is expensed at once. ',
+                       13,
+                       ' and research and ',
+                       13,
+                       ' are expensed when incurred, even if they may bring '
+                       'future sales.'],
+             'bank': ['period cost',
+                      'comprehensive income',
+                      'loss',
+                      'development',
+                      'Advertising'],
+             'a': 'period cost · Advertising · development',
+             'one': True,
+             'why': 'The book writes: “When a cost has no clear link to '
+                    'future revenue, it is a period cost and is expensed at '
+                    'once. Advertising and research and development are '
+                    'expensed when incurred, even if they may bring future '
+                    'sales.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -131,11 +120,11 @@ HANDOUT = {'id': '15.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the idea of Cause and effect (matching) as '
-                  '“Expense follows the related revenue”.',
+             'q': 'The book gives the idea of Immediate recognition as “No '
+                  'clear link to future revenue: a period cost”.',
              'a': 'T',
-             'why': 'The book pairs Cause and effect (matching) with '
-                    '“Expense follows the related revenue”.'}]),
+             'why': 'The book pairs Immediate recognition with “No clear '
+                    'link to future revenue: a period cost”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -166,75 +155,27 @@ HANDOUT = {'id': '15.2',
              'a': 'C',
              'why': 'The book’s own table gives Expense follows the related '
                     'revenue as the idea of Cause and effect (matching).'},
-            {'t': 'MCQ',
-             'q': 'Which idea does the book give for Systematic and rational '
-                  'allocation?',
-             'o': ['Expense follows the related revenue',
-                   'No clear link to future revenue: a period cost',
-                   'Cost spread over the periods that benefit'],
-             'a': 'C',
-             'why': 'The book’s own table gives Cost spread over the periods '
-                    'that benefit as the idea of Systematic and rational '
-                    'allocation.'},
-            {'t': 'MCQ',
-             'q': 'Which idea does the book give for Immediate recognition?',
-             'o': ['Cost spread over the periods that benefit',
-                   'Expense follows the related revenue',
-                   'No clear link to future revenue: a period cost'],
-             'a': 'C',
-             'why': 'The book’s own table gives No clear link to future '
-                    'revenue: a period cost as the idea of Immediate '
-                    'recognition.'},
-            {'t': 'TF',
-             'q': 'The book gives the orontes examples of Cause and effect '
-                  '(matching) as “Cost of goods sold; sales commissions '
-                  '(capitalized, Chapter 11)”.',
-             'a': 'T',
-             'why': 'The book pairs Cause and effect (matching) with “Cost '
-                    'of goods sold; sales commissions (capitalized, Chapter '
-                    '11)”.'},
             {'t': 'TF',
              'q': 'The book gives the orontes examples of Systematic and '
-                  'rational allocation as “Advertising; research and '
-                  'development; most general administration”.',
-             'a': 'F',
+                  'rational allocation as “Depreciation of the bottling '
+                  'line; prepaid rent”.',
+             'a': 'T',
              'why': 'The book pairs Systematic and rational allocation with '
-                    '“Depreciation of the bottling line; prepaid rent”, not '
-                    'with “Advertising; research and development; most '
-                    'general administration”.'}]),
+                    '“Depreciation of the bottling line; prepaid rent”.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item is part of U.S. OCI?',
-             'o': ['A foreign currency translation adjustment',
-                   'An unrealized gain on equity securities',
-                   'A gain on sale of equipment',
-                   'An impairment loss'],
+             'q': 'A company settles a large lawsuit, which is unusual for '
+                  'it, for a loss of $500,000. The loss is presented:',
+             'o': ['as a separate line in continuing operations, before tax',
+                   'as an extraordinary item, net of tax',
+                   'in OCI',
+                   'in discontinued operations'],
              'a': 'A',
-             'why': 'Translation adjustments are OCI items. B is wrong: '
-                    'Equity securities changes go to net income. C is wrong: '
-                    'Realized gains on equipment are in net income.',
-             'src': 'P15-07'},
-            {'t': 'MCQ',
-             'q': 'A company sells an AFS bond at a gain of $30,000 that was '
-                  'already in AOCI. What reclassification adjustment appears '
-                  'in OCI in the year of sale?',
-             'o': ['+$30,000', '−$30,000', '$0', '−$60,000'],
-             'a': 'B',
-             'why': 'The gain moves out of AOCI into net income. A is wrong: '
-                    'The adjustment reduces OCI. C is wrong: Without it, the '
-                    'gain is counted twice.',
-             'src': 'P15-08'},
-            {'t': 'MCQ',
-             'q': 'Net income is $900,000. OCI includes a $50,000 holding '
-                  'gain on AFS bonds and a $20,000 reclassification of gains '
-                  'realized this year. Ignoring tax, what is comprehensive '
-                  'income?',
-             'o': ['$900,000', '$930,000', '$950,000', '$970,000'],
-             'a': 'B',
-             'why': 'Net income plus OCI of $30,000. A is wrong: This omits '
-                    'OCI. C is wrong: This omits the reclassification.',
-             'src': 'P15-09'},
+             'why': 'Unusual items stay in continuing operations. B is '
+                    'wrong: Extraordinary items no longer exist. C is wrong: '
+                    'No rule sends it to OCI.',
+             'src': 'P15-02'},
             {'t': 'MCQ',
              'q': 'Over the whole life of an AFS bond, from purchase to '
                   'sale, total comprehensive income from the bond equals:',
@@ -247,24 +188,34 @@ HANDOUT = {'id': '15.2',
                     'is wrong: Double counting is what reclassification '
                     'prevents. C is wrong: The gain is real and appears in '
                     'net income.',
-             'src': 'P15-10'}]),
+             'src': 'P15-10'},
+            {'t': 'MCQ',
+             'q': 'Under IFRS, what happens to a revaluation surplus on land '
+                  'when the land is sold?',
+             'o': ['It is reclassified to profit or loss',
+                   'It becomes a discontinued operation',
+                   'It is never reclassified to profit; it may be '
+                   'transferred to retained earnings',
+                   'It is reversed through OCI and profit'],
+             'a': 'C',
+             'why': 'Some IFRS OCI items never recycle. A is wrong: '
+                    'Revaluation surplus is not recycled. B is wrong: '
+                    'Selling land is not a discontinued operation.',
+             'src': 'P15-16'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which item is part of U.S. OCI?',
-           ['A foreign currency translation adjustment',
-            'An unrealized gain on equity securities',
-            'A gain on sale of equipment',
-            'An impairment loss'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Translation adjustments are OCI items. B is wrong: Equity '
-           'securities changes go to net income. C is wrong: Realized gains '
-           'on equipment are in net income.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -275,6 +226,7 @@ HANDOUT = {'id': '15.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -323,29 +275,14 @@ HANDOUT = {'id': '15.2',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'On March 15 a board approves a plan to sell a division, '
-                  'but the division is not yet available for immediate sale. '
-                  'When can it be classified as held for sale?',
-             'o': ['On March 15',
-                   'When the sale is completed',
-                   'At the next year-end',
-                   'When all six criteria are met'],
-             'a': 'D',
-             'why': 'All six criteria must be met, not only board approval. '
-                    'A is wrong: Approval is only one criterion. B is wrong: '
-                    'Held for sale can apply before the sale.',
-             'src': 'P15-11'},
-            {'t': 'MCQ',
-             'q': 'A held-for-sale group was written down by $100,000. Its '
-                  'fair value less cost to sell then rises by $150,000 '
-                  'before the sale. What gain may the company recognize?',
-             'o': ['$0', '$50,000', '$100,000', '$150,000'],
-             'a': 'C',
-             'why': 'Gains are limited to losses previously recognized. A is '
-                    'wrong: A recovery up to earlier losses is recognized. B '
-                    'is wrong: The limit is the earlier loss, not the '
-                    'excess.',
-             'src': 'P15-12'}]),
+             'q': 'Which idea does the book give for Immediate recognition?',
+             'o': ['Cost spread over the periods that benefit',
+                   'No clear link to future revenue: a period cost',
+                   'Expense follows the related revenue'],
+             'a': 'B',
+             'why': 'The book’s own table gives No clear link to future '
+                    'revenue: a period cost as the idea of Immediate '
+                    'recognition.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

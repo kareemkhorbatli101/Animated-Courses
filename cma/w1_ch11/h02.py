@@ -3,17 +3,12 @@
 
 HANDOUT = {'id': '11.2',
  'n': 2,
- 'pages': 7,
+ 'pages': 5,
  'title': 'Steps 1 and 2: the contract and its performance obligations',
  'sub': 'section 11.2 of the book',
  'covers': ['sec:11.2',
-            'p:P11-07',
-            'p:P11-08',
-            'p:P11-09',
-            'p:P11-10',
-            'sc:P11-07',
-            'p:P11-11',
-            'p:P11-12',
+            'p:P11-02',
+            'p:P11-22',
             'term:performance obligation',
             'term:principal',
             'term:output method',
@@ -27,84 +22,91 @@ HANDOUT = {'id': '11.2',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Steps 1 and 2: the contract and its performance obligations',
-             'a figure to read · Step · Suppose: sales of 2,400,000 with a '
-             '3% volume reb',
-             'Customers earn loyalty points worth a discount on future '
-             'purchases that they would not otherwise get. The points are:'],
+             'a figure to read · Step',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Fixed price; no variable amounts, no financing '
-                       'component, no payments to GreenBasket. Oil and '
-                       'dispenser: at delivery (',
+             'parts': ['A contract exists only if the parties have approved '
+                       "it and are committed to it, each party's rights and "
+                       'the payment terms can be ',
+                       12,
+                       ', and the contract has commercial substance. '
+                       'Finally, it must be probable that the company will '
+                       'collect ',
                        15,
-                       '). Maintenance: over 24 months (',
-                       11,
-                       '). GAAP, probable means likely to occur: in '
-                       'practice, about 75% or more.'],
-             'bank': ['output method',
-                      'over time',
+                       ' all of the ',
+                       15,
+                       '.'],
+             'bank': ['substantially',
+                      'consideration',
+                      'output method',
                       'breakage',
-                      'point in time'],
-             'a': 'point in time · over time',
+                      'identified'],
+             'a': 'identified · substantially · consideration',
              'one': True,
-             'why': 'The book writes: “Fixed price; no variable amounts, no '
-                    'financing component, no payments to GreenBasket. Oil '
-                    'and dispenser: at delivery (point in time). '
-                    'Maintenance: over 24 months (over time). GAAP, probable '
-                    'means likely to occur: in practice, about 75% or '
-                    'more.”'},
+             'why': 'The book writes: “A contract exists only if the parties '
+                    "have approved it and are committed to it, each party's "
+                    'rights and the payment terms can be identified, and the '
+                    'contract has commercial substance. Finally, it must be '
+                    'probable that the company will collect substantially '
+                    'all of the consideration.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Olive oil, the dispenser and maintenance can each be '
-                       'bought separately and are not highly interdependent. '
-                       'Fixed price; no variable amounts, no financing '
-                       'component, no payments to GreenBasket. Oil and '
-                       'dispenser: at delivery (',
-                       15,
-                       '). Maintenance: over 24 months (',
-                       11,
-                       ').'],
-             'bank': ['over time',
-                      'breakage',
-                      'point in time',
-                      'output method'],
-             'a': 'point in time · over time',
+             'parts': ['Each promise to transfer a distinct good or service '
+                       'is a separate ',
+                       12,
+                       '. A good or service is distinct if the customer can '
+                       'benefit from it on its own and it is ',
+                       12,
+                       ' ',
+                       14,
+                       ' in the contract, not highly dependent on other '
+                       'promises.'],
+             'bank': ['output method',
+                      'obligation',
+                      'identifiable',
+                      'separately',
+                      'breakage'],
+             'a': 'obligation · separately · identifiable',
              'one': True,
-             'why': 'The book writes: “Olive oil, the dispenser and '
-                    'maintenance can each be bought separately and are not '
-                    'highly interdependent. Fixed price; no variable '
-                    'amounts, no financing component, no payments to '
-                    'GreenBasket. Oil and dispenser: at delivery (point in '
-                    'time). Maintenance: over 24 months (over time).”'},
+             'why': 'The book writes: “Each promise to transfer a distinct '
+                    'good or service is a separate obligation. A good or '
+                    'service is distinct if the customer can benefit from it '
+                    'on its own and it is separately identifiable in the '
+                    'contract, not highly dependent on other promises.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Oil and dispenser: at delivery (',
-                       15,
-                       '). Maintenance: over 24 months (',
+             'parts': ['In U.S. GAAP, ',
                        11,
-                       '). GAAP, probable means likely to occur: in '
-                       'practice, about 75% or more. IFRS 15 uses probable '
-                       'to mean more likely than not.'],
-             'bank': ['over time',
+                       ' means likely to occur: in ',
+                       11,
+                       ', about 75% or more. IFRS 15 uses probable to mean '
+                       'more likely than not. A question that says ',
+                       12,
+                       ' is only a little more likely than not fails the '
+                       'U.S. contract test.'],
+             'bank': ['breakage',
+                      'practice',
+                      'collection',
                       'output method',
-                      'breakage',
-                      'point in time'],
-             'a': 'point in time · over time',
+                      'probable'],
+             'a': 'probable · practice · collection',
              'one': True,
-             'why': 'The book writes: “Oil and dispenser: at delivery (point '
-                    'in time). Maintenance: over 24 months (over time). '
-                    'GAAP, probable means likely to occur: in practice, '
-                    'about 75% or more. IFRS 15 uses probable to mean more '
-                    'likely than not.”'}],
+             'why': 'The book writes: “In U.S. GAAP, probable means likely '
+                    'to occur: in practice, about 75% or more. IFRS 15 uses '
+                    'probable to mean more likely than not. A question that '
+                    'says collection is only a little more likely than not '
+                    'fails the U.S. contract test.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -132,11 +134,13 @@ HANDOUT = {'id': '11.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'Every number in a financial statement belongs to an '
-                  'element the framework defines.',
+             'q': "The book gives the orontes's analysis of 5. Recognize "
+                  'revenue as “Oil and dispenser: at delivery (point in '
+                  'time). Maintenance: over 24 months (over time).”.',
              'a': 'T',
-             'why': 'The framework defines the elements, and every amount '
-                    'belongs to one of them.'}]),
+             'why': 'The book pairs 5. Recognize revenue with “Oil and '
+                    'dispenser: at delivery (point in time). Maintenance: '
+                    'over 24 months (over time).”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -168,161 +172,56 @@ HANDOUT = {'id': '11.2',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which step does the book pair with “A signed agreement '
-                  'for olive oil, a dispenser and maintenance; payment terms '
-                  'clear; collection probable.”?',
-             'o': ['4. Allocate the price',
-                   '2. Identify the performance obligations',
-                   '1. Identify the contract',
-                   '3. Determine the transaction price'],
+             'q': 'Which part of this chapter is section 11.1?',
+             'o': ['Matching, contract costs and IFRS differences',
+                   'Special situations',
+                   'Revenue and the core principle',
+                   'Steps 3 and 4: the transaction price and its allocation'],
              'a': 'C',
-             'why': 'The book’s own table pairs 1. Identify the contract '
-                    'with “A signed agreement for olive oil, a dispenser and '
-                    'maintenance; payment terms clear; collection '
-                    'probable.”.'},
-            {'t': 'MCQ',
-             'q': 'Which step does the book pair with “Olive oil, the '
-                  'dispenser and maintenance can each be bought separately '
-                  'and are not highly interdependent.”?',
-             'o': ['1. Identify the contract',
-                   '5. Recognize revenue',
-                   '2. Identify the performance obligations',
-                   '3. Determine the transaction price'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 2. Identify the performance '
-                    'obligations with “Olive oil, the dispenser and '
-                    'maintenance can each be bought separately and are not '
-                    'highly interdependent.”.'},
-            {'t': 'MCQ',
-             'q': 'Which step does the book pair with “Fixed price; no '
-                  'variable amounts, no financing component, no payments to '
-                  'GreenBasket.”?',
-             'o': ['1. Identify the contract',
-                   '5. Recognize revenue',
-                   '3. Determine the transaction price',
-                   '2. Identify the performance obligations'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 3. Determine the transaction '
-                    'price with “Fixed price; no variable amounts, no '
-                    'financing component, no payments to GreenBasket.”.'},
-            {'t': 'MCQ',
-             'q': 'Which step does the book pair with “Relative standalone '
-                  'selling prices totalling 1,200,000; each obligation gets '
-                  '90%.”?',
-             'o': ['1. Identify the contract',
-                   '5. Recognize revenue',
-                   '4. Allocate the price',
-                   '2. Identify the performance obligations'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 4. Allocate the price with '
-                    '“Relative standalone selling prices totalling '
-                    '1,200,000; each obligation gets 90%.”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Result (whole USD) of 1. Identify the '
-                  'contract as “Contract exists”.',
-             'a': 'T',
-             'why': 'The book pairs 1. Identify the contract with “Contract '
-                    'exists”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Result (whole USD) of 2. Identify the '
-                  'performance obligations as “810,000 / 180,000 / 90,000”.',
-             'a': 'F',
-             'why': 'The book pairs 2. Identify the performance obligations '
-                    'with “Three obligations”, not with “810,000 / 180,000 / '
-                    '90,000”.'}]),
+             'why': 'The book numbers “Revenue and the core principle” as '
+                    'section 11.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Customers earn loyalty points worth a discount on future '
-                  'purchases that they would not otherwise get. The points '
-                  'are:',
-             'o': ['a separate performance obligation (a material right)',
-                   'a marketing expense',
-                   'ignored until redeemed',
-                   'a reduction of cost of goods sold'],
-             'a': 'A',
-             'why': 'A material right is part of what the customer pays for. '
-                    'B is wrong: Part of the price must be allocated to the '
-                    'points. C is wrong: The points are a promise made at '
-                    'the sale.',
-             'src': 'P11-07'},
+             'q': 'A customer pays Orontes in December for goods that '
+                  'Orontes will deliver in January. In which year is revenue '
+                  'recognized?',
+             'o': ['In December, when cash is received',
+                   'Half in each year',
+                   'When the customer pays the invoice',
+                   'In January, when control of the goods passes'],
+             'a': 'D',
+             'why': 'Revenue follows the transfer of control. A is wrong: '
+                    'Cash received early creates a contract liability. B is '
+                    'wrong: The goods are transferred at one point in time.',
+             'src': 'P11-02'},
             {'t': 'MCQ',
-             'q': 'A gym charges a nonrefundable joining fee when a customer '
-                  'signs a one-year membership. The fee is:',
-             'o': ['revenue at once, because it is nonrefundable',
-                   'a liability until the customer leaves',
-                   'deferred and recognized over the membership period',
-                   'deducted from expenses'],
-             'a': 'C',
-             'why': 'The fee relates to future services, not to a distinct '
-                    'service at signing. A is wrong: Nonrefundable does not '
-                    'mean earned. B is wrong: It is earned over the year, '
-                    'not held until the customer leaves.',
-             'src': 'P11-08'},
-            {'t': 'MCQ',
-             'q': 'A customer will pay for goods two years after delivery, '
-                  'and the price includes a large interest element. The '
-                  'company should:',
-             'o': ['recognize the full price as revenue at delivery',
-                   'recognize revenue when cash is received',
-                   'adjust the transaction price for the significant '
-                   'financing component',
-                   'ignore the interest because payment is certain'],
-             'a': 'C',
-             'why': 'The practical expedient applies only when the gap is '
-                    'one year or less. A is wrong: Part of the price is '
-                    'interest, not revenue. B is wrong: Revenue follows '
-                    'control, not cash.',
-             'src': 'P11-10'}]),
-          ('panel',
-           'Suppose: sales of 2,400,000 with a 3% volume reb — the extract '
-           'for the question that follows',
-           [['Suppose: sales of 2,400,000 with a 3% volume reb',
-             'How it works',
-             'Revenue (whole USD)'],
-            ['Most likely amount',
-             'The rebate is all or nothing, so use the single most likely '
-             'outcome: the rebate is earned (70% likely).',
-             '2,328,000'],
-            ['Expected value',
-             'Probability-weighted: 70% × 72,000 = 50,400 rebate. Best when '
-             'there are many possible outcomes.',
-             '2,349,600'],
-            ['Constraint',
-             'Include variable amounts only if a significant reversal of '
-             'revenue is not probable later.',
-             'Applies to both']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. '
-                  "Orontes's rebate is all or nothing. What revenue does "
-                  'Orontes recognize on the sales (whole USD)?',
-             'o': ['72,000', '2,328,000', '2,349,600', '2,400,000'],
-             'a': 'B',
-             'why': 'For an all-or-nothing outcome, the most likely amount '
-                    'is the better estimate. A is wrong: This is the rebate, '
-                    'not the revenue. C is wrong: Expected value suits many '
-                    'possible outcomes, not a single threshold.',
-             'src': 'P11-09'}]),
+             'q': 'Which statement about ASC 606 and IFRS 15 is correct?',
+             'o': ['IFRS 15 has a different number of steps',
+                   'U.S. GAAP reverses impairment of contract costs',
+                   'IFRS 15 does not allow over-time recognition',
+                   'U.S. companies may elect to treat shipping after control '
+                   'passes as a fulfillment cost; IFRS 15 has no such '
+                   'election'],
+             'a': 'D',
+             'why': 'The shipping election is one of the few differences. A '
+                    'is wrong: Both use the same five steps. B is wrong: '
+                    'U.S. GAAP prohibits reversal.',
+             'src': 'P11-22'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Customers earn loyalty points worth a discount on future '
-           'purchases that they would not otherwise get. The points are:',
-           ['a separate performance obligation (a material right)',
-            'a marketing expense',
-            'ignored until redeemed',
-            'a reduction of cost of goods sold'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'A material right is part of what the customer pays for. B is '
-           'wrong: Part of the price must be allocated to the points. C is '
-           'wrong: The points are a promise made at the sale.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -333,6 +232,7 @@ HANDOUT = {'id': '11.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Answer'],
@@ -365,64 +265,23 @@ HANDOUT = {'id': '11.2',
                        'الأصيل',
                        'التكاليف الإضافية للحصول على العقد'],
              'a': ['B', 'D', 'A', 'C'],
-             'whys': ['', '', '', '']},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Revenue recognized?',
-             'o': ['(1,000 − 50) × $12 = 11,400',
-                   '(1,000 − 50) × $20 = 19,000',
-                   '50 × $12 = 600, shown separately from the refund '
-                   'liability',
-                   '50 × $20 = 1,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives (1,000 − 50) × $20 = 19,000 '
-                    'as the answer of Revenue recognized.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Refund liability?',
-             'o': ['50 × $20 = 1,000',
-                   '(1,000 − 50) × $20 = 19,000',
-                   '50 × $12 = 600, shown separately from the refund '
-                   'liability',
-                   '(1,000 − 50) × $12 = 11,400'],
-             'a': 'A',
-             'why': 'The book’s own table gives 50 × $20 = 1,000 as the '
-                    'answer of Refund liability.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “50 × $12 = 600, shown '
-                  'separately from the refund liability”?',
-             'o': ['Asset: right to recover products',
-                   'Revenue recognized',
-                   'Refund liability',
-                   'Cost of goods sold'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Asset: right to recover '
-                    'products with “50 × $12 = 600, shown separately from '
-                    'the refund liability”.'}]),
+             'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'A U.S. retailer collects 5% sales tax from customers for '
-                  'the state. Under its policy election, the tax is:',
-             'o': ['included in revenue',
-                   'excluded from revenue and recorded as a liability',
-                   'recorded as an expense when paid',
-                   'recorded in OCI'],
-             'a': 'B',
-             'why': 'Amounts collected for third parties are not revenue. A '
-                    'is wrong: The tax belongs to the state. C is wrong: It '
-                    "is not the retailer's cost.",
-             'src': 'P11-11'},
-            {'t': 'MCQ',
-             'q': 'When may a company use the residual approach to estimate '
-                  'a standalone selling price?',
-             'o': ['Only when the price is highly variable or uncertain',
-                   'Always, because it is the simplest',
-                   'Whenever the contract includes a discount',
-                   'Never under U.S. GAAP'],
-             'a': 'A',
-             'why': 'The residual approach is a limited exception. B is '
-                    'wrong: It is not a default method. C is wrong: A '
-                    'discount is normally shared by all obligations.',
-             'src': 'P11-12'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Revenue recognized',
+                      'Refund liability',
+                      'Asset: right to recover products',
+                      'Cost of goods sold'],
+             'right': ['50 × $12 = 600, shown separately from the refund '
+                       'liability',
+                       '(1,000 − 50) × $20 = 19,000',
+                       '(1,000 − 50) × $12 = 11,400',
+                       '50 × $20 = 1,000'],
+             'a': ['B', 'D', 'A', 'C'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

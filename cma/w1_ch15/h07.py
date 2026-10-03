@@ -3,10 +3,13 @@
 
 HANDOUT = {'id': '15.7',
  'n': 7,
- 'pages': 7,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P15-13',
+            'p:P15-14',
+            'p:P15-15',
             'sc:SC15-5',
             'sc:SC15-7',
             'sc:SC15-8',
@@ -40,12 +43,14 @@ HANDOUT = {'id': '15.7',
            'whole chapter. Then fill the gaps.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
-             'a figure to read · Suppose: AFS bond bought for 100,000',
-             'The extract for this question is printed with it. What is '
-             "Orontes's OCI for 2027 before tax (whole USD)?"],
+             'a figure to read · Suppose: frozen-foods disposal group, June '
+             '30, 2',
+             'A company sells a major line of business, with an operating '
+             'loss of $80,000 and a gain on sale of $280,000, both before '
+             'tax. At a 25% tax rate, what does it report in discontinued '
+             'operations?'],
             ['The chapter’s case set',
-             'The chapter’s case set, item by item · Suppose: AFS bond '
-             'bought for 100,000',
+             'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
              'worked out?'],
             ['The words it uses precisely',
@@ -56,29 +61,57 @@ HANDOUT = {'id': '15.7',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Unrealized ',
-                       11,
-                       's on equity securities are not OCI; they go to net '
-                       'income. When an OCI item is realized, for example '
-                       'when an AFS bond is sold, the gain moves into net '
-                       'income. At the same time a ',
-                       29,
-                       ' removes it from OCI.'],
+             'parts': ['Losses that arise from operating assets, such as ',
+                       13,
+                       ', are usually shown within operating expenses. Items '
+                       'that are unusual or ',
+                       12,
+                       ' get a separate line within ',
+                       12,
+                       ' operations, before tax. Expenses are recognized in '
+                       'one of three ways.'],
              'bank': ['strategic shift',
-                      'reclassification adjustment',
+                      'continuing',
+                      'infrequent',
                       'disposal group',
-                      'gain'],
-             'a': 'gain · reclassification adjustment',
+                      'impairments'],
+             'a': 'impairments · infrequent · continuing',
              'one': True,
-             'why': 'The book writes: “Unrealized gains on equity securities '
-                    'are not OCI; they go to net income. When an OCI item is '
-                    'realized, for example when an AFS bond is sold, the '
-                    'gain moves into net income. At the same time a '
-                    'reclassification adjustment removes it from OCI.”'},
+             'why': 'The book writes: “Losses that arise from operating '
+                    'assets, such as impairments, are usually shown within '
+                    'operating expenses. Items that are unusual or '
+                    'infrequent get a separate line within continuing '
+                    'operations, before tax. Expenses are recognized in one '
+                    'of three ways.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
+             'parts': ['Forgetting the reclassification counts a realized ',
+                       11,
+                       ' twice. ',
+                       22,
+                       " adds this year's OCI, not the AOCI balance. Report "
+                       'OCI net of tax, or before tax with one tax line: do '
+                       'not mix them. A disposal is reported as a ',
+                       24,
+                       ' only if three things are true.'],
+             'bank': ['strategic shift',
+                      'gain',
+                      'disposal group',
+                      'discontinued operation',
+                      'Comprehensive income'],
+             'a': 'gain · Comprehensive income · discontinued operation',
+             'one': True,
+             'why': 'The book writes: “Forgetting the reclassification '
+                    'counts a realized gain twice. Comprehensive income adds '
+                    "this year's OCI, not the AOCI balance. Report OCI net "
+                    'of tax, or before tax with one tax line: do not mix '
+                    'them. A disposal is reported as a discontinued '
+                    'operation only if three things are true.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
              'parts': ['Selling one machine, one store or one small product '
                        'is not a ',
                        17,
@@ -90,47 +123,27 @@ HANDOUT = {'id': '15.7',
                        'oven. A business that meets the held-for-sale '
                        'criteria when it is acquired is also a ',
                        24,
+                       '. A component can be reported as discontinued before '
+                       'it is sold, once it is ',
+                       15,
                        '.'],
-             'bank': ['held for sale',
+             'bank': ['disposal group',
                       'strategic shift',
-                      'discontinued operation',
                       'loss',
-                      'disposal group',
-                      'gain'],
-             'a': 'strategic shift · gain · loss · discontinued operation',
+                      'gain',
+                      'discontinued operation',
+                      'holding gain or loss',
+                      'held for sale'],
+             'a': 'strategic shift · gain · loss · discontinued operation · '
+                  'held for sale',
              'one': True,
              'why': 'The book writes: “Selling one machine, one store or one '
                     'small product is not a strategic shift. The gain or '
                     'loss stays in continuing operations, as for the Dubai '
                     'oven. A business that meets the held-for-sale criteria '
-                    'when it is acquired is also a discontinued operation.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['Stop depreciation once the group is ',
-                       15,
-                       '. The results of a ',
-                       24,
-                       ', including its operating results and any '
-                       'remeasurement or disposal ',
-                       11,
-                       ' or ',
-                       11,
-                       ', are shown net of their own tax below income from '
-                       'continuing operations.'],
-             'bank': ['discontinued operation',
-                      'gain',
-                      'held for sale',
-                      'loss',
-                      'strategic shift',
-                      'disposal group'],
-             'a': 'held for sale · discontinued operation · gain · loss',
-             'one': True,
-             'why': 'The book writes: “Stop depreciation once the group is '
-                    'held for sale. The results of a discontinued operation, '
-                    'including its operating results and any remeasurement '
-                    'or disposal gain or loss, are shown net of their own '
-                    'tax below income from continuing operations.”'}]),
+                    'when it is acquired is also a discontinued operation. A '
+                    'component can be reported as discontinued before it is '
+                    'sold, once it is held for sale.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -143,6 +156,7 @@ HANDOUT = {'id': '15.7',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -153,24 +167,6 @@ HANDOUT = {'id': '15.7',
                    'Expense recognition'],
              'a': 'C',
              'why': 'The book numbers “Gains and losses” as section 15.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.2?',
-             'o': ['Presentation and IFRS differences',
-                   'Is it a discontinued operation?',
-                   'Expense recognition',
-                   'Gains and losses'],
-             'a': 'C',
-             'why': 'The book numbers “Expense recognition” as section '
-                    '15.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.3?',
-             'o': ['Comprehensive income and reclassification',
-                   'Is it a discontinued operation?',
-                   'Held for sale: criteria and measurement',
-                   'Presentation and IFRS differences'],
-             'a': 'A',
-             'why': 'The book numbers “Comprehensive income and '
-                    'reclassification” as section 15.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -184,6 +180,62 @@ HANDOUT = {'id': '15.7',
              'a': ['A', 'B', 'C', 'D', 'E', 'F'],
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which disposal is a discontinued operation?',
+             'o': ["Selling all operations in the company's only foreign "
+                   'country',
+                   'Closing one of twelve shops',
+                   'Selling an old delivery van',
+                   'Stopping one small product'],
+             'a': 'A',
+             'why': 'Leaving a major geographic area is a strategic shift. B '
+                    'is wrong: One shop is not a strategic shift. C is '
+                    'wrong: An asset sale gives a gain or loss in continuing '
+                    'operations.',
+             'src': 'SC15-7'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'What does ASC 205-20 require for a disposal to be a '
+                  'discontinued operation?',
+             'o': ['Any sale of assets above 10% of total assets',
+                   'A component, a strategic shift with a major effect, and '
+                   'a sale, abandonment, spin-off or held-for-sale status',
+                   'Only board approval',
+                   'A loss on disposal'],
+             'a': 'B',
+             'why': 'All three conditions are needed. A is wrong: There is '
+                    'no percentage test in the standard. C is wrong: '
+                    'Approval alone does not meet the held-for-sale '
+                    'criteria.',
+             'src': 'SC15-8'}]),
+          ('panel',
+           'Suppose: frozen-foods disposal group, June 30, 2 — the extract '
+           'for the question that follows',
+           [['Suppose: frozen-foods disposal group, June 30, 2', 'Amount'],
+            ['Property, plant and equipment, net', '2,100,000'],
+            ['Inventory', '480,000'],
+            ['Receivables', '400,000'],
+            ['Goodwill (left after the 2025 impairment, Chapter 10)',
+             '300,000'],
+            ['Less: accounts payable', '(100,000)'],
+            ['Carrying amount of the disposal group', '3,180,000'],
+            ['Fair value less cost to sell', '3,000,000'],
+            ['Remeasurement loss (in discontinued operations)', '180,000'],
+            ['Held-for-sale group at June 30, 2026', '3,000,000']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What '
+                  'loss does Orontes recognize when the frozen-foods '
+                  'business becomes held for sale (whole USD)?',
+             'o': ['300,000', '180,000', '0'],
+             'a': 'B',
+             'why': 'Carrying amount $3,180,000 minus fair value less cost '
+                    'to sell $3,000,000. A is wrong: The write-down is '
+                    'recognized when the group becomes held for sale. C is '
+                    'wrong: This is only the goodwill in the group.',
+             'src': 'SC15-9'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'A company reports a discontinued operation in 2027. How '
@@ -202,30 +254,20 @@ HANDOUT = {'id': '15.7',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
-          ('panel',
-           'Suppose: AFS bond bought for 100,000 — the extract for the '
-           'question that follows',
-           [['Suppose: AFS bond bought for 100,000', '2026', '2027'],
-            ['Net income', '', ''],
-            ['Realized gain on sale', '—', '10,000'],
-            ['Other comprehensive income', '', ''],
-            ['Holding gain during the year', '8,000', '2,000'],
-            ['Reclassification adjustment', '—', '(10,000)'],
-            ['OCI before tax', '8,000', '(8,000)'],
-            ['Tax at 25%', '(2,000)', '2,000'],
-            ['OCI, net of tax', '6,000', '(6,000)'],
-            ['AOCI at year-end (for this bond)', '6,000', '0']],
-           ''),
           ('check',
-           'The extract for this question is printed with it. What is '
-           "Orontes's OCI for 2027 before tax (whole USD)?",
-           ['(8,000)', '0', '2,000', '10,000'],
-           'A',
+           'A company sells a major line of business, with an operating loss '
+           'of $80,000 and a gain on sale of $280,000, both before tax. At a '
+           '25% tax rate, what does it report in discontinued operations?',
+           ['A gain of $200,000',
+            'A gain of $150,000, net of tax',
+            'A gain of $280,000',
+            'A loss of $60,000'],
+           'B',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'Holding gain $2,000 minus the reclassification of $10,000. B is '
-           'wrong: OCI changes when the AOCI amount is reclassified. C is '
-           'wrong: This omits the reclassification adjustment.'),
+           'Net pretax gain of $200,000 less tax of $50,000. A is wrong: '
+           'This is before tax. C is wrong: This ignores the operating loss '
+           'and tax.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -250,97 +292,43 @@ HANDOUT = {'id': '15.7',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C15-1 ask for?',
-             'o': ['Enter comprehensive income.',
-                   'Place each item in the statement of comprehensive '
-                   'income. (On the exam',
-                   'Enter income from discontinued operations, net of tax.',
-                   'Enter income from continuing operations, net of tax.'],
-             'a': 'B',
-             'why': 'The book states item C15-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C15-2 ask for?',
-             'o': ['Enter income from continuing operations, net of tax.',
-                   'Enter income from discontinued operations, net of tax.',
-                   'Enter comprehensive income.',
-                   'Place each item in the statement of comprehensive '
-                   'income. (On the exam'],
-             'a': 'A',
-             'why': 'The book states item C15-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C15-3 ask for?',
-             'o': ['Enter income from discontinued operations, net of tax.',
-                   'Enter income from continuing operations, net of tax.',
-                   'Enter comprehensive income.',
-                   'Place each item in the statement of comprehensive '
-                   'income. (On the exam'],
-             'a': 'A',
-             'why': 'The book states item C15-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C15-4 ask for?',
-             'o': ['Enter comprehensive income.',
-                   'Enter income from continuing operations, net of tax.',
-                   'Enter net income.',
-                   'Enter OCI, net of tax.'],
-             'a': 'C',
-             'why': 'The book states item C15-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C15-5 ask for?',
-             'o': ['Enter OCI, net of tax.',
-                   'Enter net income.',
-                   'Enter income from continuing operations, net of tax.',
-                   'Enter comprehensive income.'],
-             'a': 'A',
-             'why': 'The book states item C15-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C15-6 ask for?',
-             'o': ['Enter income from continuing operations, net of tax.',
-                   'Enter comprehensive income.',
-                   'Enter net income.',
-                   'Enter OCI, net of tax.'],
-             'a': 'B',
-             'why': 'The book states item C15-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter income from continuing operations, net of tax.',
+                      'Enter comprehensive income.',
+                      'Place each item in the statement of comprehensive '
+                      'income. (On the exam screen you would drag each item '
+                      'into a box.)',
+                      'Enter net income.',
+                      'Enter income from discontinued operations, net of '
+                      'tax.',
+                      'Enter OCI, net of tax.'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['B', 'F', 'A', 'D', 'C', 'E'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('panel',
-           'Suppose: AFS bond bought for 100,000 — the extract for the '
-           'question that follows',
-           [['Suppose: AFS bond bought for 100,000', '2026', '2027'],
-            ['Net income', '', ''],
-            ['Realized gain on sale', '—', '10,000'],
-            ['Other comprehensive income', '', ''],
-            ['Holding gain during the year', '8,000', '2,000'],
-            ['Reclassification adjustment', '—', '(10,000)'],
-            ['OCI before tax', '8,000', '(8,000)'],
-            ['Tax at 25%', '(2,000)', '2,000'],
-            ['OCI, net of tax', '6,000', '(6,000)'],
-            ['AOCI at year-end (for this bond)', '6,000', '0']],
-           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  "Orontes's OCI for 2027 before tax (whole USD)?",
-             'o': ['(8,000)', '0', '2,000', '10,000'],
-             'a': 'A',
-             'why': 'Holding gain $2,000 minus the reclassification of '
-                    '$10,000. B is wrong: OCI changes when the AOCI amount '
-                    'is reclassified. C is wrong: This omits the '
-                    'reclassification adjustment.',
-             'src': 'SC15-5'}]),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which disposal is a discontinued operation?',
-             'o': ["Selling all operations in the company's only foreign "
-                   'country',
-                   'Closing one of twelve shops',
-                   'Selling an old delivery van',
-                   'Stopping one small product'],
-             'a': 'A',
-             'why': 'Leaving a major geographic area is a strategic shift. B '
-                    'is wrong: One shop is not a strategic shift. C is '
-                    'wrong: An asset sale gives a gain or loss in continuing '
-                    'operations.',
-             'src': 'SC15-7'}]),
+             'q': 'A company decides to sell a warehouse, which meets the '
+                  'held-for-sale criteria but is not a component. How is it '
+                  'reported?',
+             'o': ['As a discontinued operation',
+                   'In OCI',
+                   'Not at all until sold',
+                   'Separately on the balance sheet as held for sale; its '
+                   'results stay in continuing operations'],
+             'a': 'D',
+             'why': 'Held for sale and discontinued operation are different '
+                    'tests. A is wrong: A single asset is not a strategic '
+                    'shift. B is wrong: OCI is not used.',
+             'src': 'P15-14'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

@@ -3,14 +3,11 @@
 
 HANDOUT = {'id': '6.3',
  'n': 3,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Transferring receivables: sale or secured borrowing?',
  'sub': 'section 6.3 of the book',
  'covers': ['sec:6.3',
-            'p:P6-14',
-            'p:P6-15',
-            'p:P6-16',
-            'sc:P6-14',
+            'p:P6-04',
             'term:current expected credit losses (cecl)',
             'term:write-off',
             'term:secured borrowing',
@@ -28,91 +25,94 @@ HANDOUT = {'id': '6.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Transferring receivables: sale or secured borrowing?',
              'a figure to read · Item',
-             'Receivables are factored with substantial recourse. The '
-             'transfer meets the three ASC 860 conditions. Which statement '
-             'is MOST likely correct?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Transfer · The English the exam uses, and what it translates',
+             'a figure to read · Transfer · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Second, the ',
-                       11,
-                       ' can pledge or exchange the receivables. Third, the '
-                       'seller does not keep ',
+             'parts': ['Third, the seller does not keep ',
                        19,
                        ', for example through an agreement to buy the '
                        'receivables back before they mature. If any '
                        'condition fails, the transfer is a ',
                        19,
-                       '.'],
-             'bank': ['effective control',
-                      'factor',
+                       '. ',
+                       11,
+                       ' is the ',
+                       11,
+                       "'s right to collect from the seller if customers do "
+                       'not pay.'],
+             'bank': ['secured borrowing',
                       'factoring',
                       'write-off',
-                      'secured borrowing'],
-             'a': 'factor · effective control · secured borrowing',
+                      'effective control',
+                      'factor',
+                      'Recourse'],
+             'a': 'effective control · secured borrowing · Recourse · factor',
              'one': True,
-             'why': 'The book writes: “Second, the factor can pledge or '
-                    'exchange the receivables. Third, the seller does not '
-                    'keep effective control, for example through an '
-                    'agreement to buy the receivables back before they '
-                    'mature. If any condition fails, the transfer is a '
-                    'secured borrowing.”'},
+             'why': 'The book writes: “Third, the seller does not keep '
+                    'effective control, for example through an agreement to '
+                    'buy the receivables back before they mature. If any '
+                    'condition fails, the transfer is a secured borrowing. '
+                    "Recourse is the factor's right to collect from the "
+                    'seller if customers do not pay.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The receivables stay on the balance sheet, marked as '
-                       'pledged. Loss on a sale = carrying amount − (cash + '
-                       'due from ',
-                       11,
-                       ' − ',
+             'parts': ['The seller then records a ',
                        20,
-                       '). Effects of one transfer as a sale without '
-                       'recourse, a sale with recourse, or a ',
-                       19,
-                       '.'],
-             'bank': ['secured borrowing',
-                      'factor',
+                       ' at its fair value, which increases the loss on the '
+                       'sale. Orontes transfers receivables with a carrying '
+                       'amount of $500,000 to Gulf ',
+                       11,
+                       ' Co. The factor charges a fee of 3% ($15,000) and '
+                       'keeps a holdback (due from factor) of 5% ($25,000) '
+                       'to cover returns and discounts.'],
+             'bank': ['recourse liability',
                       'write-off',
                       'effective control',
-                      'recourse liability'],
-             'a': 'factor · recourse liability · secured borrowing',
+                      'Factor'],
+             'a': 'recourse liability · Factor',
              'one': True,
-             'why': 'The book writes: “The receivables stay on the balance '
-                    'sheet, marked as pledged. Loss on a sale = carrying '
-                    'amount − (cash + due from factor − recourse liability). '
-                    'Effects of one transfer as a sale without recourse, a '
-                    'sale with recourse, or a secured borrowing.”'},
+             'why': 'The book writes: “The seller then records a recourse '
+                    'liability at its fair value, which increases the loss '
+                    'on the sale. Orontes transfers receivables with a '
+                    'carrying amount of $500,000 to Gulf Factor Co. The '
+                    'factor charges a fee of 3% ($15,000) and keeps a '
+                    'holdback (due from factor) of 5% ($25,000) to cover '
+                    'returns and discounts.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       11,
-                       ' with substantial ',
-                       11,
-                       ' usually keeps most of the risk with the seller, so '
-                       'under IFRS it often fails derecognition and is '
-                       'treated as borrowing. Do not assume that every '
-                       'transfer with recourse is a borrowing. The holdback '
-                       'is an asset (due from factor), not part of the '
-                       'loss.'],
-             'bank': ['write-off',
-                      'Factoring',
-                      'effective control',
-                      'recourse'],
-             'a': 'Factoring · recourse',
+             'parts': ['A sale removes the ',
+                       13,
+                       ' and adds little or no debt, so ratios such as debt '
+                       'to equity look better. A ',
+                       19,
+                       ' keeps the receivables and adds a liability. Lenders '
+                       'and analysts read the notes to see which receivables '
+                       'are pledged or ',
+                       13,
+                       '.'],
+             'bank': ['effective control',
+                      'transferred',
+                      'receivables',
+                      'write-off',
+                      'secured borrowing'],
+             'a': 'receivables · secured borrowing · transferred',
              'one': True,
-             'why': 'The book writes: “Factoring with substantial recourse '
-                    'usually keeps most of the risk with the seller, so '
-                    'under IFRS it often fails derecognition and is treated '
-                    'as borrowing. Do not assume that every transfer with '
-                    'recourse is a borrowing. The holdback is an asset (due '
-                    'from factor), not part of the loss.”'}],
+             'why': 'The book writes: “A sale removes the receivables and '
+                    'adds little or no debt, so ratios such as debt to '
+                    'equity look better. A secured borrowing keeps the '
+                    'receivables and adds a liability. Lenders and analysts '
+                    'read the notes to see which receivables are pledged or '
+                    'transferred.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -143,11 +143,11 @@ HANDOUT = {'id': '6.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the Details (whole USD) of Aging as '
-                  '“Current: 250,000 at an expected loss rate of 2%”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Aging with “Current: 250,000 at an '
-                    'expected loss rate of 2%”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -183,129 +183,45 @@ HANDOUT = {'id': '6.3',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “Current: 250,000 at '
-                  'an expected loss rate of 2%”?',
-             'o': ['Transfer T2',
-                   'Allowance account',
-                   'Aging',
-                   'Transfer T3'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Aging with “Current: 250,000 '
-                    'at an expected loss rate of 2%”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “1–60 days past due: '
-                  '90,000 at an expected loss rate of 10%”?',
-             'o': ['Transfer T2',
-                   'Transfer T2 details',
-                   'Aging',
-                   'Transfer T4'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Aging with “1–60 days past '
-                    'due: 90,000 at an expected loss rate of 10%”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Over 60 days past '
-                  'due: 40,000 at an expected loss rate of 40%”?',
-             'o': ['Transfer T4',
-                   'Transfer T2 details',
-                   'Transfer T3',
-                   'Aging'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Aging with “Over 60 days '
-                    'past due: 40,000 at an expected loss rate of 40%”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Beginning balance '
-                  '18,000 (credit). Write-offs during 2025: 24,000. '
-                  'Recoveries: 1,000.”?',
-             'o': ['Transfer T2',
-                   'Allowance account',
-                   'Transfer T1',
-                   'Transfer T3'],
+             'q': 'Which part of this chapter is section 6.1?',
+             'o': ['The allowance for credit losses',
+                   'Recognizing and measuring receivables',
+                   'Transferring receivables: sale or secured borrowing?'],
              'a': 'B',
-             'why': 'The book’s own table pairs Allowance account with '
-                    '“Beginning balance 18,000 (credit). Write-offs during '
-                    '2025: 24,000. Recoveries: 1,000.”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Details (whole USD) of Aging as '
-                  '“Current: 250,000 at an expected loss rate of 2%”.',
-             'a': 'T',
-             'why': 'The book pairs Aging with “Current: 250,000 at an '
-                    'expected loss rate of 2%”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Details (whole USD) of Aging as '
-                  '“Beginning balance 18,000 (credit). Write-offs during '
-                  '2025: 24,000. Recoveries: 1,000.”.',
-             'a': 'F',
-             'why': 'The book pairs Aging with “1–60 days past due: 90,000 '
-                    'at an expected loss rate of 10%”, not with “Beginning '
-                    'balance 18,000 (credit). Write-offs during 2025: '
-                    '24,000. Recoveries: 1,000.”.'}]),
+             'why': 'The book numbers “Recognizing and measuring '
+                    'receivables” as section 6.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Receivables are factored with substantial recourse. The '
-                  'transfer meets the three ASC 860 conditions. Which '
-                  'statement is MOST likely correct?',
-             'o': ['Both frameworks treat it as a borrowing.',
-                   'U.S. GAAP treats it as a sale; IFRS 9 may treat it as a '
-                   'borrowing.',
-                   'Both frameworks treat it as a sale with no liability.',
-                   'IFRS treats it as a sale; U.S. GAAP treats it as a '
-                   'borrowing.'],
-             'a': 'B',
-             'why': 'IFRS 9 focuses on risks and rewards; substantial '
-                    'recourse often keeps the risk with the seller. A is '
-                    'wrong: Under U.S. GAAP the ASC 860 conditions decide, '
-                    'and they are met. C is wrong: A U.S. GAAP sale with '
-                    'recourse records a recourse liability.',
-             'src': 'P6-14'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 1). Where is the allowance for '
-                  'credit losses reported?',
-             'o': ['As a liability',
-                   'As an expense',
-                   'As a contra-asset, deducted from accounts receivable',
-                   'As a reduction of equity'],
-             'a': 'C',
-             'why': 'It reduces receivables to the amount expected to be '
-                    'collected. A is wrong: It is a contra-asset, not a '
-                    'liability. B is wrong: The expense is a separate '
-                    'account; the allowance is the balance sheet total.',
-             'src': 'P6-15'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 1). Recording credit loss expense '
-                  'in the period of the sale, before any customer defaults, '
-                  'is an example of:',
-             'o': ['the cash basis',
-                   'the direct write-off method',
-                   'immediate recognition',
-                   'the matching principle'],
-             'a': 'D',
-             'why': 'The expected loss is matched with the revenue of the '
-                    'same period. A is wrong: No cash moves when the expense '
-                    'is recorded. B is wrong: The direct method waits until '
-                    'a balance is written off.',
-             'src': 'P6-16'}]),
+             'q': 'A customer pays 1,500 that Orontes had written off last '
+                  'year. Under the allowance method, what is the first '
+                  'entry?',
+             'o': ['Debit Accounts receivable, credit Allowance for credit '
+                   'losses',
+                   'Debit Cash, credit Revenue',
+                   'Debit Cash, credit Credit loss expense',
+                   'Debit Allowance for credit losses, credit Accounts '
+                   'receivable'],
+             'a': 'A',
+             'why': 'The company first reinstates the receivable; the second '
+                    'entry records the cash collection. B is wrong: A '
+                    'recovery is not revenue. C is wrong: The recovery goes '
+                    'back to the allowance, not the expense account.',
+             'src': 'P6-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Receivables are factored with substantial recourse. The transfer '
-           'meets the three ASC 860 conditions. Which statement is MOST '
-           'likely correct?',
-           ['Both frameworks treat it as a borrowing.',
-            'U.S. GAAP treats it as a sale; IFRS 9 may treat it as a '
-            'borrowing.',
-            'Both frameworks treat it as a sale with no liability.',
-            'IFRS treats it as a sale; U.S. GAAP treats it as a borrowing.'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'IFRS 9 focuses on risks and rewards; substantial recourse often '
-           'keeps the risk with the seller. A is wrong: Under U.S. GAAP the '
-           'ASC 860 conditions decide, and they are met. C is wrong: A U.S. '
-           'GAAP sale with recourse records a recourse liability.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -316,6 +232,7 @@ HANDOUT = {'id': '6.3',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f3b'),
           ('panel',
            'Transfer — the book’s own table',
            [['Transfer', 'Category'],
@@ -358,12 +275,17 @@ HANDOUT = {'id': '6.3',
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which English term does the exam use for “الخسائر '
+                  'الائتمانية المتوقعة الحالية”?',
+             'o': ['holdback (due from factor)',
+                   'direct write-off method',
+                   'secured borrowing',
+                   'current expected credit losses (CECL)'],
+             'a': 'D',
+             'why': 'The glossary on this page pairs “الخسائر الائتمانية '
+                    'المتوقعة الحالية” with current expected credit losses '
+                    '(CECL).'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

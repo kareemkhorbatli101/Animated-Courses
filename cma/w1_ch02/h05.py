@@ -7,6 +7,7 @@ HANDOUT = {'id': '2.5',
  'title': 'Limitations and links to the other statements',
  'sub': 'section 2.5 of the book',
  'covers': ['sec:2.5',
+            'p:P2-07',
             'term:operating cycle',
             'term:subsequent events',
             'term:restricted cash',
@@ -23,83 +24,87 @@ HANDOUT = {'id': '2.5',
              'a figure to read · Account / memo (USD 000)',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Account · The English the exam uses, and what it translates',
+             'a figure to read · Account · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The balance sheet is useful, but it is not a ',
-                       11,
-                       ' of the company. Most assets are at ',
+             'parts': ['Most assets are at ',
                        12,
                        ' cost, not current value: ',
                        11,
-                       ' land and buildings are shown at what they cost '
-                       'years ago. Many amounts depend on estimates, such as '
-                       'the allowance for credit losses and useful lives.'],
-             'bank': ['valuation',
-                      "Orontes's",
+                       ' land and ',
+                       11,
+                       ' are shown at what they cost years ago. Many amounts '
+                       'depend on estimates, such as the allowance for '
+                       'credit losses and useful lives. Important resources '
+                       'are missing.'],
+             'bank': ['historical',
+                      'buildings',
                       'callable debt',
-                      'historical',
+                      "Orontes's",
                       'operating cycle'],
-             'a': "valuation · historical · Orontes's",
+             'a': "historical · Orontes's · buildings",
              'one': True,
-             'why': 'The book writes: “The balance sheet is useful, but it '
-                    'is not a valuation of the company. Most assets are at '
-                    "historical cost, not current value: Orontes's land and "
-                    'buildings are shown at what they cost years ago. Many '
-                    'amounts depend on estimates, such as the allowance for '
-                    'credit losses and useful lives.”'},
+             'why': 'The book writes: “Most assets are at historical cost, '
+                    "not current value: Orontes's land and buildings are "
+                    'shown at what they cost years ago. Many amounts depend '
+                    'on estimates, such as the allowance for credit losses '
+                    'and useful lives. Important resources are missing.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Finally, the balance sheet shows one day. A company '
-                       'can improve its year-end picture, for example by '
-                       'delaying payments to ',
+             'parts': ['Finally, the ',
+                       15,
+                       ' shows one day. A company can improve its year-end '
+                       'picture, for example by delaying payments to ',
                        11,
-                       ' for a few days. Readers ',
-                       11,
-                       ' compare several dates and read the other ',
+                       ' for a few days. Readers therefore compare several '
+                       'dates and read the other ',
                        12,
-                       ' too.'],
+                       ' too. The four statements are connected.'],
              'bank': ['callable debt',
-                      'therefore',
                       'suppliers',
+                      'balance sheet',
                       'operating cycle',
                       'statements'],
-             'a': 'suppliers · therefore · statements',
+             'a': 'balance sheet · suppliers · statements',
              'one': True,
              'why': 'The book writes: “Finally, the balance sheet shows one '
                     'day. A company can improve its year-end picture, for '
                     'example by delaying payments to suppliers for a few '
                     'days. Readers therefore compare several dates and read '
-                    'the other statements too.”'},
+                    'the other statements too. The four statements are '
+                    'connected.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The net change in cash in the statement of cash '
-                       'flows explains the change in the ',
+             'parts': ['Other ',
                        15,
-                       ' cash. Other ',
+                       " income works the same way. Orontes's OCI of "
+                       '$(1,125) does not go into retained earnings. It goes '
+                       'into accumulated other comprehensive income, which '
+                       'is $(1,125) on the ',
                        15,
-                       ' income works the same way. Total ',
+                       '. Total ',
                        15,
                        ' equity is a book amount.'],
              'bank': ['callable debt',
                       'operating cycle',
-                      'balance-sheet',
                       'comprehensive',
+                      'balance sheet',
                       "stockholders'"],
-             'a': "balance-sheet · comprehensive · stockholders'",
+             'a': "comprehensive · balance sheet · stockholders'",
              'one': True,
-             'why': 'The book writes: “The net change in cash in the '
-                    'statement of cash flows explains the change in the '
-                    'balance-sheet cash. Other comprehensive income works '
-                    "the same way. Total stockholders' equity is a book "
-                    'amount.”'}],
+             'why': 'The book writes: “Other comprehensive income works the '
+                    "same way. Orontes's OCI of $(1,125) does not go into "
+                    'retained earnings. It goes into accumulated other '
+                    'comprehensive income, which is $(1,125) on the balance '
+                    "sheet. Total stockholders' equity is a book amount.”"}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -181,40 +186,25 @@ HANDOUT = {'id': '2.5',
                    'Other presentation matters'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the balance '
-                    'sheet” as section 2.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.2?',
-             'o': ['Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items',
-                   'Other presentation matters'],
-             'a': 'C',
-             'why': 'The book numbers “Current and noncurrent items” as '
-                    'section 2.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.3?',
-             'o': ['Other presentation matters',
-                   'Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying debt” as section 2.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.4?',
-             'o': ['Classifying debt',
-                   'Current and noncurrent items',
-                   'Other presentation matters',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Other presentation matters” as '
-                    'section 2.4.'}]),
+                    'sheet” as section 2.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Early in 2026, Orontes pays $500,000 of accounts payable '
+                  'in cash. What happens to its working capital and its '
+                  'current ratio of 3.31?',
+             'o': ['Both fall',
+                   'Working capital falls; the current ratio does not change',
+                   'Working capital does not change; the current ratio rises '
+                   'to 3.62',
+                   'Neither changes'],
+             'a': 'C',
+             'why': 'Current assets and current liabilities fall by the same '
+                    'amount; with a ratio above 1, the ratio rises. A is '
+                    'wrong: Working capital is unchanged because both sides '
+                    'fall equally. B is wrong: Working capital is the '
+                    'difference, which does not change; the ratio does.',
+             'src': 'P2-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -239,6 +229,7 @@ HANDOUT = {'id': '2.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Account — the book’s own table',
            [['Account', 'Category'],
@@ -273,12 +264,15 @@ HANDOUT = {'id': '2.5',
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which English term does the exam use for “دورة التشغيل”?',
+             'o': ['refinancing',
+                   'operating cycle',
+                   'subsequent events',
+                   'restricted cash'],
+             'a': 'B',
+             'why': 'The glossary on this page pairs “دورة التشغيل” with '
+                    'operating cycle.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

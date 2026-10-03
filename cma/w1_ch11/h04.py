@@ -7,10 +7,8 @@ HANDOUT = {'id': '11.4',
  'title': 'Step 5: recognizing revenue over time or at a point in time',
  'sub': 'section 11.4 of the book',
  'covers': ['sec:11.4',
-            'p:P11-20',
-            'p:P11-21',
-            'p:P11-22',
-            'sc:P11-20',
+            'p:P11-04',
+            'sc:P11-04',
             'term:standalone selling price',
             'term:contract asset',
             'term:refund liability'],
@@ -24,8 +22,7 @@ HANDOUT = {'id': '11.4',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Step 5: recognizing revenue over time or at a point in time',
              'a figure to read · Obligation · the book’s own rule, gapped',
-             'A company pays a $2,000 commission to win a six-month service '
-             'contract. It may:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -65,62 +62,45 @@ HANDOUT = {'id': '11.4',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Decision chart: is ',
+             'parts': ['Olive oil is ',
+                       12,
+                       ' at each delivery. By December 31, Orontes has ',
                        11,
-                       ' recognized ',
+                       ' 8,000 cases at $40 each of ',
                        11,
-                       ' or at a ',
-                       15,
-                       '?. Olive oil is recognized at each delivery. A ',
-                       16,
-                       ' arises when the company has performed but its right '
-                       'to payment still depends on something other than '
-                       'time.'],
-             'bank': ['variable consideration',
-                      'point in time',
-                      'revenue',
-                      'contract asset',
-                      'over time',
-                      'matching principle'],
-             'a': 'revenue · over time · point in time · contract asset',
+                       ' price: $324,000.'],
+             'bank': ['recognized',
+                      'matching principle',
+                      'allocated',
+                      'delivered',
+                      'contract asset'],
+             'a': 'recognized · delivered · allocated',
              'one': True,
-             'why': 'The book writes: “Decision chart: is revenue recognized '
-                    'over time or at a point in time?. Olive oil is '
-                    'recognized at each delivery. A contract asset arises '
-                    'when the company has performed but its right to payment '
-                    'still depends on something other than time.”'},
+             'why': 'The book writes: “Olive oil is recognized at each '
+                    'delivery. By December 31, Orontes has delivered 8,000 '
+                    'cases at $40 each of allocated price: $324,000.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Step 5: recognize ',
+             'parts': ['A ',
+                       16,
+                       ' arises when the company has ',
                        11,
-                       ' when, or as, each obligation is satisfied. '
-                       'Progress ',
+                       ' but its right to payment still depends on ',
                        11,
-                       ' is measured by an ',
-                       15,
-                       ', such as units delivered, or an ',
-                       14,
-                       ', such as costs incurred. If no over-time criterion '
-                       'is met, revenue is recognized at a ',
-                       15,
-                       ': when control passes.'],
-             'bank': ['output method',
-                      'point in time',
-                      'over time',
+                       ' other than time. A contract liability arises when '
+                       'the customer pays first.'],
+             'bank': ['variable consideration',
+                      'something',
+                      'performed',
                       'contract asset',
-                      'revenue',
-                      'input method',
                       'matching principle'],
-             'a': 'revenue · over time · output method · input method · '
-                  'point in time',
+             'a': 'contract asset · performed · something',
              'one': True,
-             'why': 'The book writes: “Step 5: recognize revenue when, or '
-                    'as, each obligation is satisfied. Progress over time is '
-                    'measured by an output method, such as units delivered, '
-                    'or an input method, such as costs incurred. If no '
-                    'over-time criterion is met, revenue is recognized at a '
-                    'point in time: when control passes.”'}],
+             'why': 'The book writes: “A contract asset arises when the '
+                    'company has performed but its right to payment still '
+                    'depends on something other than time. A contract '
+                    'liability arises when the customer pays first.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -147,9 +127,9 @@ HANDOUT = {'id': '11.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the allocated of Olive oil as “810,000”.',
+             'q': 'The book gives the allocated of Total as “1,080,000”.',
              'a': 'T',
-             'why': 'The book pairs Olive oil with “810,000”.'}]),
+             'why': 'The book pairs Total with “1,080,000”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -186,35 +166,12 @@ HANDOUT = {'id': '11.4',
              'a': 'C',
              'why': 'The book’s own table gives 810,000 as the allocated of '
                     'Olive oil.'},
-            {'t': 'MCQ',
-             'q': 'Which allocated does the book give for Dispenser?',
-             'o': ['90,000', '1,080,000', '180,000', '810,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 180,000 as the allocated of '
-                    'Dispenser.'},
-            {'t': 'MCQ',
-             'q': 'Which allocated does the book give for Maintenance?',
-             'o': ['810,000', '90,000', '1,080,000', '180,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 90,000 as the allocated of '
-                    'Maintenance.'},
-            {'t': 'MCQ',
-             'q': 'Which allocated does the book give for Total?',
-             'o': ['180,000', '810,000', '90,000', '1,080,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 1,080,000 as the allocated '
-                    'of Total.'},
             {'t': 'TF',
-             'q': 'The book gives the 2026 revenue of Olive oil as '
-                  '“324,000”.',
+             'q': 'The book gives the timing of Dispenser as “Point in time '
+                  '(installed October 1)”.',
              'a': 'T',
-             'why': 'The book pairs Olive oil with “324,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the 2026 revenue of Dispenser as '
-                  '“324,000”.',
-             'a': 'F',
-             'why': 'The book pairs Dispenser with “180,000”, not with '
-                    '“324,000”.'},
+             'why': 'The book pairs Dispenser with “Point in time (installed '
+                    'October 1)”.'},
             {'t': 'SORT',
              'q': 'Write each one under its allocated. Every item belongs to '
                   'exactly one group.',
@@ -282,65 +239,43 @@ HANDOUT = {'id': '11.4',
            'B',
            'The book gives 324,000 as the 2026 revenue of Olive oil.'),
           ('move', 'APPLY', 'No help on this move.'),
+          ('panel',
+           'Suppose: Barada sells 1,000 units at $20 (cost $ — the extract '
+           'for the question that follows',
+           [['Suppose: Barada sells 1,000 units at $20 (cost $', 'Whole USD'],
+            ['Sales price of all units', '20,000'],
+            ['Units expected to be returned', '50'],
+            ['Revenue recognized', '________'],
+            ['Refund liability', '________'],
+            ['Asset: right to recover returned products', '________'],
+            ['Cost of goods sold', '________']],
+           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company pays a $2,000 commission to win a six-month '
-                  'service contract. It may:',
-             'o': ['never expense it',
-                   'deduct it from revenue',
-                   'capitalize it as equipment',
-                   'expense the commission immediately, using the practical '
-                   'expedient'],
-             'a': 'D',
-             'why': 'The amortization period is one year or less. A is '
-                    'wrong: Capitalized costs are also expensed over time. B '
-                    'is wrong: The commission is paid to an employee, not '
-                    'the customer.',
-             'src': 'P11-20'},
-            {'t': 'MCQ',
-             'q': 'Which cost to fulfill a contract may be capitalized?',
-             'o': ['General administrative costs',
-                   'Costs of wasted materials',
-                   'Set-up costs that relate directly to the contract and '
-                   'create a resource used later in it',
-                   'Costs of work already performed'],
+             'q': 'The extract for this question is printed with it. How '
+                  'much revenue does Barada recognize on the sale (whole '
+                  'USD)?',
+             'o': ['1,000', '7,600', '19,000', '20,000'],
              'a': 'C',
-             'why': 'Fulfillment costs are capitalized only if all criteria '
-                    'are met. A is wrong: General costs are expensed. B is '
-                    'wrong: Waste is expensed.',
-             'src': 'P11-21'},
-            {'t': 'MCQ',
-             'q': 'Which statement about ASC 606 and IFRS 15 is correct?',
-             'o': ['IFRS 15 has a different number of steps',
-                   'U.S. GAAP reverses impairment of contract costs',
-                   'IFRS 15 does not allow over-time recognition',
-                   'U.S. companies may elect to treat shipping after control '
-                   'passes as a fulfillment cost; IFRS 15 has no such '
-                   'election'],
-             'a': 'D',
-             'why': 'The shipping election is one of the few differences. A '
-                    'is wrong: Both use the same five steps. B is wrong: '
-                    'U.S. GAAP prohibits reversal.',
-             'src': 'P11-22'}]),
+             'why': 'Only for goods not expected to be returned. A is wrong: '
+                    'This is the refund liability. B is wrong: This is gross '
+                    'profit, not revenue.',
+             'src': 'P11-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company pays a $2,000 commission to win a six-month service '
-           'contract. It may:',
-           ['never expense it',
-            'deduct it from revenue',
-            'capitalize it as equipment',
-            'expense the commission immediately, using the practical '
-            'expedient'],
-           'D',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'The amortization period is one year or less. A is wrong: '
-           'Capitalized costs are also expensed over time. B is wrong: The '
-           'commission is paid to an employee, not the customer.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -367,12 +302,22 @@ HANDOUT = {'id': '11.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which obligation does the book pair with “1,080,000”?',
+             'o': ['Maintenance', 'Total', 'Dispenser', 'Olive oil'],
+             'a': 'B',
+             'why': 'The book’s own table pairs Total with “1,080,000”.'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. How '
+                  'much revenue does Barada recognize on the sale (whole '
+                  'USD)?',
+             'o': ['1,000', '7,600', '19,000', '20,000'],
+             'a': 'C',
+             'why': 'Only for goods not expected to be returned. A is wrong: '
+                    'This is the refund liability. B is wrong: This is gross '
+                    'profit, not revenue.',
+             'src': 'P11-04'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

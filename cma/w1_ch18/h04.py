@@ -6,7 +6,10 @@ HANDOUT = {'id': '18.4',
  'pages': 6,
  'title': 'Guiding principles and content elements',
  'sub': 'section 18.4 of the book',
- 'covers': ['sec:18.4', 'term:capitals', 'term:manufactured capital'],
+ 'covers': ['sec:18.4',
+            'p:P18-04',
+            'term:capitals',
+            'term:manufactured capital'],
  'skills': [('read4', 3)],
  'derived': {},
  'flow': [('preview',
@@ -20,63 +23,61 @@ HANDOUT = {'id': '18.4',
              'gapped',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Guiding principle (7) · The English the exam uses, and what it '
-             'translates',
+             'a figure to read · Guiding principle (7) · The English the '
+             'exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The Framework is principles-based: it does not '
-                       'prescribe KPIs or measurement methods. Seven ',
-                       20,
-                       ' shape how the report is prepared, such as '
-                       'connectivity of information, materiality and '
-                       'conciseness. Eight ',
+             'parts': ['The Framework is ',
                        18,
-                       ' set what the report covers.'],
-             'bank': ['guiding principles',
-                      'manufactured capital',
-                      'natural capital',
-                      'content elements'],
-             'a': 'guiding principles · content elements',
+                       ': it does not prescribe KPIs or measurement methods. '
+                       'Seven ',
+                       20,
+                       ' shape how the report is prepared, such as ',
+                       14,
+                       ' of information, materiality and conciseness.'],
+             'bank': ['principles-based',
+                      'content elements',
+                      'connectivity',
+                      'guiding principles',
+                      'natural capital'],
+             'a': 'principles-based · guiding principles · connectivity',
              'one': True,
              'why': 'The book writes: “The Framework is principles-based: it '
                     'does not prescribe KPIs or measurement methods. Seven '
                     'guiding principles shape how the report is prepared, '
                     'such as connectivity of information, materiality and '
-                    'conciseness. Eight content elements set what the report '
-                    'covers.”'},
+                    'conciseness.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Those charged with governance, such as the board, '
+             'parts': ["For example, Orontes's water risk appears under "
+                       'risks and ',
+                       15,
+                       ', drives its strategy, and is measured under ',
+                       13,
+                       '. Those charged with governance, such as the board, '
                        'should include a statement that they are responsible '
                        'for the ',
                        19,
-                       '. The report can stand alone or be a distinguishable '
-                       'part of another report, such as the annual report. '
-                       'There are seven ',
-                       20,
-                       ' (how to report) and eight ',
-                       18,
-                       ' (what to report).'],
-             'bank': ['natural capital',
-                      'content elements',
+                       '.'],
+             'bank': ['content elements',
                       'integrated report',
-                      'manufactured capital',
-                      'guiding principles'],
-             'a': 'integrated report · guiding principles · content elements',
+                      'opportunities',
+                      'natural capital',
+                      'performance'],
+             'a': 'opportunities · performance · integrated report',
              'one': True,
-             'why': 'The book writes: “Those charged with governance, such '
-                    'as the board, should include a statement that they are '
-                    'responsible for the integrated report. The report can '
-                    'stand alone or be a distinguishable part of another '
-                    'report, such as the annual report. There are seven '
-                    'guiding principles (how to report) and eight content '
-                    'elements (what to report).”'},
+             'why': "The book writes: “For example, Orontes's water risk "
+                    'appears under risks and opportunities, drives its '
+                    'strategy, and is measured under performance. Those '
+                    'charged with governance, such as the board, should '
+                    'include a statement that they are responsible for the '
+                    'integrated report.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -173,38 +174,14 @@ HANDOUT = {'id': '18.4',
                     'and where? as the question it answers of Organizational '
                     'overview and external environment.'},
             {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for '
-                  'Governance?',
-             'o': ['How does the company turn capitals into value?',
-                   'What challenges and uncertainties lie ahead?',
-                   'How does governance support value creation?',
-                   'Where is it going, and how will it get there?'],
-             'a': 'C',
-             'why': 'The book’s own table gives How does governance support '
-                    'value creation? as the question it answers of '
-                    'Governance.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for Business '
-                  'model?',
-             'o': ['What challenges and uncertainties lie ahead?',
-                   'Where is it going, and how will it get there?',
-                   'How does the company turn capitals into value?',
-                   'How does governance support value creation?'],
-             'a': 'C',
-             'why': 'The book’s own table gives How does the company turn '
-                    'capitals into value? as the question it answers of '
-                    'Business model.'},
-            {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for Risks '
-                  'and opportunities?',
-             'o': ['What does the company do, and where?',
-                   'How does governance support value creation?',
-                   'What could help or harm value creation?',
-                   'How were matters chosen and measured?'],
-             'a': 'C',
-             'why': 'The book’s own table gives What could help or harm '
-                    'value creation? as the question it answers of Risks and '
-                    'opportunities.'}]),
+             'q': 'Which orontes example does the book give for Governance?',
+             'o': ['Invest in irrigation and new products',
+                   'Olive yields and prices to 2030',
+                   'Materiality process; measurement methods',
+                   'Board committee oversees water risk'],
+             'a': 'D',
+             'why': 'The book’s own table gives Board committee oversees '
+                    'water risk as the orontes example of Governance.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -240,11 +217,19 @@ HANDOUT = {'id': '18.4',
            'orontes example of Governance.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Under the Framework, a matter is material if it:',
+             'o': ['exceeds 5% of net income',
+                   'is required by the SEC',
+                   "could substantively affect the company's ability to "
+                   'create value over the short, medium or long term',
+                   'has already caused a loss'],
+             'a': 'C',
+             'why': 'Integrated-reporting materiality is about value '
+                    'creation. A is wrong: The Framework does not use a '
+                    'percentage test. B is wrong: Materiality is not tied to '
+                    'SEC rules.',
+             'src': 'P18-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -269,6 +254,7 @@ HANDOUT = {'id': '18.4',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f4b'),
           ('panel',
            'Guiding principle (7) — the book’s own table',
            [['Guiding principle (7)', 'What it means', 'Orontes example'],
@@ -302,47 +288,24 @@ HANDOUT = {'id': '18.4',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which what it means does the book give for Strategic '
-                  'focus and future orientation?',
-             'o': ['Explain strategy and how it creates value over time',
-                   'Show how capitals, strategy and performance link',
-                   'Use the same basis over time and allow comparison',
-                   'Explain key relationships and how the company responds'],
-             'a': 'A',
-             'why': 'The book’s own table gives Explain strategy and how it '
-                    'creates value over time as the what it means of '
-                    'Strategic focus and future orientation.'},
-            {'t': 'MCQ',
-             'q': 'Which what it means does the book give for Connectivity '
-                  'of information?',
-             'o': ['Use the same basis over time and allow comparison',
-                   'Show how capitals, strategy and performance link',
-                   'Explain strategy and how it creates value over time',
-                   'Explain key relationships and how the company responds'],
-             'a': 'B',
-             'why': 'The book’s own table gives Show how capitals, strategy '
-                    'and performance link as the what it means of '
-                    'Connectivity of information.'},
-            {'t': 'MCQ',
-             'q': 'Which what it means does the book give for Stakeholder '
-                  'relationships?',
-             'o': ['Explain key relationships and how the company responds',
-                   'Use the same basis over time and allow comparison',
-                   'Include matters that substantively affect value creation',
-                   'Explain strategy and how it creates value over time'],
-             'a': 'A',
-             'why': 'The book’s own table gives Explain key relationships '
-                    'and how the company responds as the what it means of '
-                    'Stakeholder relationships.'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which question it answers does the book give for Basis of '
+                  'preparation and presentation?',
+             'o': ['What could help or harm value creation?',
+                   'How were matters chosen and measured?',
+                   'How does governance support value creation?',
+                   'What does the company do, and where?'],
+             'a': 'B',
+             'why': 'The book’s own table gives How were matters chosen and '
+                    'measured? as the question it answers of Basis of '
+                    'preparation and presentation.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

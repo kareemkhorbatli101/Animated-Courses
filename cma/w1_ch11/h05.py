@@ -7,6 +7,7 @@ HANDOUT = {'id': '11.5',
  'title': 'Special situations',
  'sub': 'section 11.5 of the book',
  'covers': ['sec:11.5',
+            'p:P11-05',
             'term:variable consideration',
             'term:constraint on variable consideration',
             'term:bill-and-hold arrangement'],
@@ -30,62 +31,53 @@ HANDOUT = {'id': '11.5',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
+             'parts': ['When another party is involved, the company must '
+                       'decide whether it is a ',
                        11,
-                       ' or ',
+                       ' or an ',
                        11,
-                       ': gross or net ',
+                       '. A principal controls the good or service before it '
+                       'is transferred and reports ',
                        11,
-                       ' on a drop shipment. When customers may return '
-                       'goods, the company recognizes revenue only for goods '
-                       'it does not expect to be returned. It records a ',
-                       18,
-                       ' for expected refunds and a separate asset for its '
-                       'right to recover the returned goods.'],
-             'bank': ['Principal',
+                       ' gross. An agent only arranges the sale and reports '
+                       'its fee or commission as revenue.'],
+             'bank': ['principal',
                       'agent',
                       'revenue',
-                      'refund liability',
                       'output method',
                       'point in time'],
-             'a': 'Principal · agent · revenue · refund liability',
+             'a': 'principal · agent · revenue',
              'one': True,
-             'why': 'The book writes: “Principal or agent: gross or net '
-                    'revenue on a drop shipment. When customers may return '
-                    'goods, the company recognizes revenue only for goods it '
-                    'does not expect to be returned. It records a refund '
-                    'liability for expected refunds and a separate asset for '
-                    'its right to recover the returned goods.”'},
+             'why': 'The book writes: “When another party is involved, the '
+                    'company must decide whether it is a principal or an '
+                    'agent. A principal controls the good or service before '
+                    'it is transferred and reports revenue gross. An agent '
+                    'only arranges the sale and reports its fee or '
+                    'commission as revenue.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['In a ',
+             'parts': ['Goods sent on consignment are not sold until the '
+                       'consignee sells them. In a ',
                        27,
                        ', ',
                        11,
                        ' is recognized only if the goods are identified, '
                        'ready and cannot be used for other customers, and '
-                       'the customer asked for the arrangement. A promise to '
-                       'buy the goods back usually means no sale has taken '
-                       'place. Customer options can create a ',
-                       16,
-                       ', such as loyalty points, which is a separate '
-                       'obligation.'],
+                       'the customer asked for the arrangement.'],
              'bank': ['bill-and-hold arrangement',
                       'point in time',
                       'revenue',
-                      'output method',
-                      'material right'],
-             'a': 'bill-and-hold arrangement · revenue · material right',
+                      'output method'],
+             'a': 'bill-and-hold arrangement · revenue',
              'one': True,
-             'why': 'The book writes: “In a bill-and-hold arrangement, '
-                    'revenue is recognized only if the goods are identified, '
-                    'ready and cannot be used for other customers, and the '
-                    'customer asked for the arrangement. A promise to buy '
-                    'the goods back usually means no sale has taken place. '
-                    'Customer options can create a material right, such as '
-                    'loyalty points, which is a separate obligation.”'},
+             'why': 'The book writes: “Goods sent on consignment are not '
+                    'sold until the consignee sells them. In a bill-and-hold '
+                    'arrangement, revenue is recognized only if the goods '
+                    'are identified, ready and cannot be used for other '
+                    'customers, and the customer asked for the '
+                    'arrangement.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -93,7 +85,8 @@ HANDOUT = {'id': '11.5',
                        11,
                        ', the part customers are not expected to use, in '
                        'proportion to the cards that are used. Nonrefundable '
-                       'upfront fees are usually deferred. An ',
+                       'upfront fees are usually deferred. Chapter 12 '
+                       'explains warranties. An ',
                        11,
                        "'s ",
                        11,
@@ -113,9 +106,10 @@ HANDOUT = {'id': '11.5',
                     'recognizes breakage, the part customers are not '
                     'expected to use, in proportion to the cards that are '
                     'used. Nonrefundable upfront fees are usually deferred. '
-                    "An agent's revenue is its commission, not the full "
-                    'price the customer pays. Present the refund liability '
-                    'and the return asset separately.”'}],
+                    "Chapter 12 explains warranties. An agent's revenue is "
+                    'its commission, not the full price the customer pays. '
+                    'Present the refund liability and the return asset '
+                    'separately.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -163,8 +157,8 @@ HANDOUT = {'id': '11.5',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'SORT',
-             'q': 'Write each one under its whole usd. Every item belongs to '
-                  'exactly one group.',
+             'q': 'Write each one under the heading it belongs to. Every '
+                  'item belongs to exactly one group.',
              'regions': ['20,000', '50', '________'],
              'items': ['Sales price of all units',
                        'Units expected to be returned',
@@ -179,11 +173,19 @@ HANDOUT = {'id': '11.5',
              'whys': ['', '', '']}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'In a bill-and-hold arrangement, which condition is NOT '
+                  'required before the seller recognizes revenue?',
+             'o': ["The goods are identified separately as the customer's",
+                   'The goods are ready for physical transfer',
+                   'The seller cannot use the goods or direct them to '
+                   'another customer',
+                   'The customer has paid in full'],
+             'a': 'D',
+             'why': 'Payment is not one of the bill-and-hold criteria. A is '
+                    'wrong: This is one of the criteria. B is wrong: This is '
+                    'one of the criteria.',
+             'src': 'P11-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -224,12 +226,16 @@ HANDOUT = {'id': '11.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

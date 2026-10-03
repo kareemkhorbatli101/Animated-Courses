@@ -3,15 +3,11 @@
 
 HANDOUT = {'id': '15.3',
  'n': 3,
- 'pages': 6,
+ 'pages': 4,
  'title': 'Comprehensive income and reclassification',
  'sub': 'section 15.3 of the book',
  'covers': ['sec:15.3',
-            'p:P15-13',
-            'p:P15-14',
-            'p:P15-15',
-            'p:P15-16',
-            'sc:P15-13',
+            'p:P15-06',
             'term:comprehensive income',
             'term:holding gain or loss'],
  'skills': [('read3', 3)],
@@ -25,10 +21,7 @@ HANDOUT = {'id': '15.3',
             ['Comprehensive income and reclassification',
              'a figure to read · Suppose: AFS bond bought for 100,000 · the '
              'book’s own rule, gapped',
-             'A company sells a major line of business, with an operating '
-             'loss of $80,000 and a gain on sale of $280,000, both before '
-             'tax. At a 25% tax rate, what does it report in discontinued '
-             'operations?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'Item · The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -37,29 +30,28 @@ HANDOUT = {'id': '15.3',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['OCI and the ',
-                       29,
-                       ' for an AFS bond over two years. Forgetting the '
-                       'reclassification counts a realized ',
-                       11,
-                       ' twice. ',
-                       22,
-                       " adds this year's OCI, not the AOCI balance. Report "
-                       'OCI net of tax, or before tax with one tax line: do '
-                       'not mix them.'],
-             'bank': ['reclassification adjustment',
-                      'Comprehensive income',
-                      'gain',
+             'parts': ['U.S. OCI includes holding gains and losses on ',
+                       20,
+                       ' debt securities, foreign currency ',
+                       13,
+                       ' ',
+                       13,
+                       ', the effective part of cash-flow hedges, and some '
+                       'pension gains and losses. Unrealized gains on equity '
+                       'securities are not OCI; they go to net income.'],
+             'bank': ['available-for-sale',
+                      'adjustments',
+                      'translation',
                       'component of an entity',
                       'holding gain or loss'],
-             'a': 'reclassification adjustment · gain · Comprehensive income',
+             'a': 'available-for-sale · translation · adjustments',
              'one': True,
-             'why': 'The book writes: “OCI and the reclassification '
-                    'adjustment for an AFS bond over two years. Forgetting '
-                    'the reclassification counts a realized gain twice. '
-                    "Comprehensive income adds this year's OCI, not the AOCI "
-                    'balance. Report OCI net of tax, or before tax with one '
-                    'tax line: do not mix them.”'},
+             'why': 'The book writes: “U.S. OCI includes holding gains and '
+                    'losses on available-for-sale debt securities, foreign '
+                    'currency translation adjustments, the effective part of '
+                    'cash-flow hedges, and some pension gains and losses. '
+                    'Unrealized gains on equity securities are not OCI; they '
+                    'go to net income.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -88,26 +80,25 @@ HANDOUT = {'id': '15.3',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['OCI and the ',
-                       29,
-                       ' for an AFS bond over two years. Forgetting the '
+             'parts': ['AOCI for this bond returns to zero. Forgetting the '
                        'reclassification counts a realized ',
                        11,
                        ' twice. ',
                        22,
-                       " adds this year's OCI, not the AOCI balance."],
-             'bank': ['gain',
-                      'component of an entity',
-                      'Comprehensive income',
-                      'reclassification adjustment',
-                      'holding gain or loss'],
-             'a': 'reclassification adjustment · gain · Comprehensive income',
+                       " adds this year's OCI, not the AOCI balance. Report "
+                       'OCI net of tax, or before tax with one tax line: do '
+                       'not mix them.'],
+             'bank': ['Comprehensive income',
+                      'gain',
+                      'holding gain or loss',
+                      'component of an entity'],
+             'a': 'gain · Comprehensive income',
              'one': True,
-             'why': 'The book writes: “OCI and the reclassification '
-                    'adjustment for an AFS bond over two years. Forgetting '
-                    'the reclassification counts a realized gain twice. '
-                    "Comprehensive income adds this year's OCI, not the AOCI "
-                    'balance.”'}],
+             'why': 'The book writes: “AOCI for this bond returns to zero. '
+                    'Forgetting the reclassification counts a realized gain '
+                    "twice. Comprehensive income adds this year's OCI, not "
+                    'the AOCI balance. Report OCI net of tax, or before tax '
+                    'with one tax line: do not mix them.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -162,34 +153,7 @@ HANDOUT = {'id': '15.3',
                    'Is it a discontinued operation?',
                    'Gains and losses'],
              'a': 'D',
-             'why': 'The book numbers “Gains and losses” as section 15.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.2?',
-             'o': ['Expense recognition',
-                   'Gains and losses',
-                   'Presentation and IFRS differences',
-                   'Is it a discontinued operation?'],
-             'a': 'A',
-             'why': 'The book numbers “Expense recognition” as section '
-                    '15.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.3?',
-             'o': ['Held for sale: criteria and measurement',
-                   'Presentation and IFRS differences',
-                   'Is it a discontinued operation?',
-                   'Comprehensive income and reclassification'],
-             'a': 'D',
-             'why': 'The book numbers “Comprehensive income and '
-                    'reclassification” as section 15.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.4?',
-             'o': ['Comprehensive income and reclassification',
-                   'Presentation and IFRS differences',
-                   'Held for sale: criteria and measurement',
-                   'Is it a discontinued operation?'],
-             'a': 'D',
-             'why': 'The book numbers “Is it a discontinued operation?” as '
-                    'section 15.4.'}]),
+             'why': 'The book numbers “Gains and losses” as section 15.1.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -220,77 +184,31 @@ HANDOUT = {'id': '15.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company sells a major line of business, with an '
-                  'operating loss of $80,000 and a gain on sale of $280,000, '
-                  'both before tax. At a 25% tax rate, what does it report '
-                  'in discontinued operations?',
-             'o': ['A gain of $200,000',
-                   'A gain of $150,000, net of tax',
-                   'A gain of $280,000',
-                   'A loss of $60,000'],
-             'a': 'B',
-             'why': 'Net pretax gain of $200,000 less tax of $50,000. A is '
-                    'wrong: This is before tax. C is wrong: This ignores the '
-                    'operating loss and tax.',
-             'src': 'P15-13'},
-            {'t': 'MCQ',
-             'q': 'A company decides to sell a warehouse, which meets the '
-                  'held-for-sale criteria but is not a component. How is it '
-                  'reported?',
-             'o': ['As a discontinued operation',
-                   'In OCI',
-                   'Not at all until sold',
-                   'Separately on the balance sheet as held for sale; its '
-                   'results stay in continuing operations'],
-             'a': 'D',
-             'why': 'Held for sale and discontinued operation are different '
-                    'tests. A is wrong: A single asset is not a strategic '
-                    'shift. B is wrong: OCI is not used.',
-             'src': 'P15-14'},
-            {'t': 'MCQ',
-             'q': 'Which item is included in a disposal group held for sale?',
-             'o': ['Goodwill allocated to the component',
-                   "Only the component's PP&E",
-                   "The company's head-office building",
-                   'Retained earnings'],
-             'a': 'A',
-             'why': 'The group includes the assets and liabilities to be '
-                    'sold together, including allocated goodwill. B is '
-                    'wrong: Other assets and liabilities are included too. C '
-                    'is wrong: The head office is not being sold.',
-             'src': 'P15-15'},
-            {'t': 'MCQ',
-             'q': 'Under IFRS, what happens to a revaluation surplus on land '
-                  'when the land is sold?',
-             'o': ['It is reclassified to profit or loss',
-                   'It becomes a discontinued operation',
-                   'It is never reclassified to profit; it may be '
-                   'transferred to retained earnings',
-                   'It is reversed through OCI and profit'],
+             'q': 'Orontes pays 12 months of rent in advance on July 1. At '
+                  'December 31, the expense recognized is:',
+             'o': ['twelve months of rent',
+                   'nothing until the lease ends',
+                   'six months of rent; the rest is a prepaid asset',
+                   'the whole payment as a period cost'],
              'a': 'C',
-             'why': 'Some IFRS OCI items never recycle. A is wrong: '
-                    'Revaluation surplus is not recycled. B is wrong: '
-                    'Selling land is not a discontinued operation.',
-             'src': 'P15-16'}]),
+             'why': 'The cost is allocated to the periods that benefit. A is '
+                    'wrong: Only half of the benefit has been used. B is '
+                    'wrong: Six months have already been used.',
+             'src': 'P15-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company sells a major line of business, with an operating loss '
-           'of $80,000 and a gain on sale of $280,000, both before tax. At a '
-           '25% tax rate, what does it report in discontinued operations?',
-           ['A gain of $200,000',
-            'A gain of $150,000, net of tax',
-            'A gain of $280,000',
-            'A loss of $60,000'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Net pretax gain of $200,000 less tax of $50,000. A is wrong: '
-           'This is before tax. C is wrong: This ignores the operating loss '
-           'and tax.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -320,49 +238,27 @@ HANDOUT = {'id': '15.3',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which answer does the book give for All operations in '
-                  'Jordan?',
-             'o': ['Yes: a major equity-method investment.',
-                   'No: not a strategic shift.',
-                   'Yes: a major geographic area.',
-                   'No: a single asset; the gain or loss stays in continuing '
-                   'operations.'],
-             'a': 'C',
-             'why': 'The book’s own table gives Yes: a major geographic '
-                    'area. as the answer of All operations in Jordan.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for An old bottling '
-                  'machine?',
-             'o': ['No: not a strategic shift.',
-                   'Yes: a major geographic area.',
-                   'Yes: a major equity-method investment.',
-                   'No: a single asset; the gain or loss stays in continuing '
-                   'operations.'],
-             'a': 'D',
-             'why': 'The book’s own table gives No: a single asset; the gain '
-                    'or loss stays in continuing operations. as the answer '
-                    'of An old bottling machine.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for The stake in Jordan '
-                  'Glass?',
-             'o': ['Yes: a major equity-method investment.',
-                   'No: not a strategic shift.',
-                   'No: a single asset; the gain or loss stays in continuing '
-                   'operations.',
-                   'Yes: a major geographic area.'],
-             'a': 'A',
-             'why': 'The book’s own table gives Yes: a major equity-method '
-                    'investment. as the answer of The stake in Jordan '
-                    'Glass.'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['All operations in Jordan',
+                      'An old bottling machine',
+                      'The stake in Jordan Glass',
+                      'One juice flavour'],
+             'right': ['Yes: a major geographic area.',
+                       'No: not a strategic shift.',
+                       'No: a single asset; the gain or loss stays in '
+                       'continuing operations.',
+                       'Yes: a major equity-method investment.'],
+             'a': ['A', 'C', 'D', 'B'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

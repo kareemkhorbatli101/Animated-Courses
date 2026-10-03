@@ -12,8 +12,16 @@ def f1(blank=False):
     return cardset(blank=blank, **{'title': 'Orontes, 2025 (whole USD)', 'cards': [('Gain on sale of equipment (the Dubai oven, Chapter 10)', ['Type: Gain', 'Where it appears: Other income and (expense)', 'Amount: 3,000']), ('Loss on sale of receivables (factoring, Chapter 6)', ['Type: Loss', 'Where it appears: Other income and (expense)', 'Amount: (15,000)']), ('Unrealized gains on securities (Chapter 9)', ['Type: Gain', 'Where it appears: Other income and (expense)', 'Amount: 4,000']), ('Impairment losses (Chapter 10)', ['Type: Loss', 'Where it appears: Operating expenses', 'Amount: (2,724,000)']), ('Unrealized loss on AFS debt securities, net of tax', ['Type: Loss', 'Where it appears: OCI, not net income', 'Amount: (1,125)'])], 'sub': 'Type · Where it appears · Amount'})
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Gain on sale of a warehouse', ''), ('Lawsuit settlement loss', ''), ('Dry-foods operating loss', ''), ('Dry-foods gain on sale', ''), ('AFS holding gain', '')]})
+
+
 def f2(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Gains and losses', 'section 15.1'), ('Expense recognition', 'you are here · section 15.2'), ('Comprehensive income and reclassification', 'section 15.3'), ('Is it a discontinued operation?', 'section 15.4'), ('Held for sale: criteria and measurement', 'section 15.5'), ('Presentation and IFRS differences', 'section 15.6')], 'sub': 'each section uses what the one before it settled'})
+
+
+def f2b(blank=False):
+    return lanes(blank=blank, **{'title': 'Item by category', 'groups': [('Continuing operations', ['Gain on sale of a warehouse', 'Lawsuit settlement loss']), ('Discontinued operations', ['Dry-foods operating loss', 'Dry-foods gain on sale']), ('Other comprehensive income', ['AFS holding gain'])], 'sub': 'every one of these is in the book’s own table'})
 
 
 def f3(blank=False):
@@ -32,8 +40,16 @@ def f6(blank=False):
     return flowchain(blank=blank, **{'title': 'Suppose: Orontes, 2027 (USD 000) — Amount / details', 'steps': [('Operating income', '5,000'), ('Gain on sale of a warehouse', '200'), ('Loss on settlement of a lawsuit (unusual for Orontes)', '120'), ('Interest expense', '400'), ('Dry-foods division: operating loss before tax', '80'), ('Dry-foods division: gain on sale before tax', '280')]})
 
 
+def f6b(blank=False):
+    return cardset(blank=blank, **{'title': 'Topic', 'cards': [('Definition of discontinued operation', ['U.S. GAAP: Component + strategic shift with a major effect', 'IFRS (IFRS 5, IAS 1, IFRS 18): Separate major line of business or geographical area']), ('Sale expected within a year', ['U.S. GAAP: Probable', 'IFRS (IFRS 5, IAS 1, IFRS 18): Highly probable']), ('Balance sheet of earlier years', ['U.S. GAAP: Re-presented: assets and liabilities shown separately', 'IFRS (IFRS 5, IAS 1, IFRS 18): Not re-presented']), ('OCI later reclassified to profit', ['U.S. GAAP: All OCI items', 'IFRS (IFRS 5, IAS 1, IFRS 18): Some items never (e.g., revaluation surplus)']), ('Extraordinary items', ['U.S. GAAP: Not allowed', 'IFRS (IFRS 5, IAS 1, IFRS 18): Not allowed']), ('Presentation from 2027', ['U.S. GAAP: Unchanged', 'IFRS (IFRS 5, IAS 1, IFRS 18): IFRS 18 categories (not testable before about 2028)'])], 'sub': 'U.S. GAAP · IFRS (IFRS 5, IAS 1, IFRS 18)'})
+
+
+def frev(blank=False):
+    return cardset(blank=blank, **{'title': 'Orontes, 2025 (whole USD)', 'cards': [('Gain on sale of equipment (the Dubai oven, Chapter 10)', ['Type: Gain', 'Where it appears: Other income and (expense)', 'Amount: 3,000']), ('Loss on sale of receivables (factoring, Chapter 6)', ['Type: Loss', 'Where it appears: Other income and (expense)', 'Amount: (15,000)']), ('Unrealized gains on securities (Chapter 9)', ['Type: Gain', 'Where it appears: Other income and (expense)', 'Amount: 4,000']), ('Impairment losses (Chapter 10)', ['Type: Loss', 'Where it appears: Operating expenses', 'Amount: (2,724,000)']), ('Unrealized loss on AFS debt securities, net of tax', ['Type: Loss', 'Where it appears: OCI, not net income', 'Amount: (1,125)'])], 'sub': 'Type · Where it appears · Amount'})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 15 at a glance', 'nodes': [('Gains and losses', 'section 15.1'), ('Expense recognition', 'section 15.2'), ('Comprehensive income and reclassification', 'section 15.3'), ('Is it a discontinued operation?', 'section 15.4'), ('Held for sale: criteria and measurement', 'section 15.5'), ('Presentation and IFRS differences', 'section 15.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'f6b': f6b, 'frev': frev, 'chmap': chmap}

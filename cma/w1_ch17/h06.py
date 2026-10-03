@@ -22,13 +22,35 @@ HANDOUT = {'id': '17.6',
              '000)',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Statement · The English the exam uses, and what it translates',
+             'a figure to read · Statement · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
+             'parts': ['U.S. GAAP tests a ',
+                       15,
+                       ' asset group in two steps. First, it ',
+                       11,
+                       ' the carrying amount with ',
+                       14,
+                       ' future cash flows.'],
+             'bank': ['graded vesting',
+                      'undiscounted',
+                      'compares',
+                      'held-and-used',
+                      'cash-generating unit'],
+             'a': 'held-and-used · compares · undiscounted',
+             'one': True,
+             'why': 'The book writes: “U.S. GAAP tests a held-and-used asset '
+                    'group in two steps. First, it compares the carrying '
+                    'amount with undiscounted future cash flows.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
              'parts': ['Only if the carrying amount is higher does it '
                        'measure a loss, equal to the carrying amount minus '
                        'fair value. It compares the carrying amount of an '
@@ -57,65 +79,28 @@ HANDOUT = {'id': '17.6',
                     'amount: the higher of fair value less costs of disposal '
                     'and value in use, a discounted cash-flow measure.”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['It compares the carrying amount of an asset or ',
-                       22,
-                       ' with its ',
-                       20,
-                       ': the higher of ',
-                       35,
-                       ' and ',
-                       14,
-                       ', a discounted cash-flow measure. Because there is '
-                       'no undiscounted screen, IFRS losses often come '
-                       'earlier.'],
-             'bank': ['recoverable amount',
-                      'value in use',
-                      'fair value less costs of disposal',
-                      'cash-generating unit',
-                      'graded vesting',
-                      'revaluation model'],
-             'a': 'cash-generating unit · recoverable amount · fair value '
-                  'less costs of disposal · value in use',
-             'one': True,
-             'why': 'The book writes: “It compares the carrying amount of an '
-                    'asset or cash-generating unit with its recoverable '
-                    'amount: the higher of fair value less costs of disposal '
-                    'and value in use, a discounted cash-flow measure. '
-                    'Because there is no undiscounted screen, IFRS losses '
-                    'often come earlier.”'},
-            {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['It compares the carrying amount of an asset or ',
-                       22,
-                       ' with its ',
+             'parts': ['The frameworks also differ after the loss. IFRS '
+                       'reverses an impairment when the ',
                        20,
-                       ': the higher of ',
-                       35,
-                       ' and ',
-                       14,
-                       ', a discounted cash-flow measure. Because there is '
-                       'no undiscounted screen, IFRS losses often come '
-                       'earlier. The frameworks also differ after the loss.'],
-             'bank': ['graded vesting',
-                      'recoverable amount',
-                      'fair value less costs of disposal',
-                      'revaluation model',
+                       ' rises, but not for goodwill and not above the '
+                       'carrying amount without the loss. U.S. GAAP never '
+                       'reverses an impairment of a ',
+                       15,
+                       ' asset or of goodwill.'],
+             'bank': ['held-and-used',
+                      'graded vesting',
                       'cash-generating unit',
-                      'value in use'],
-             'a': 'cash-generating unit · recoverable amount · fair value '
-                  'less costs of disposal · value in use',
+                      'recoverable amount'],
+             'a': 'recoverable amount · held-and-used',
              'one': True,
-             'why': 'The book writes: “It compares the carrying amount of an '
-                    'asset or cash-generating unit with its recoverable '
-                    'amount: the higher of fair value less costs of disposal '
-                    'and value in use, a discounted cash-flow measure. '
-                    'Because there is no undiscounted screen, IFRS losses '
-                    'often come earlier. The frameworks also differ after '
-                    'the loss.”'}],
+             'why': 'The book writes: “The frameworks also differ after the '
+                    'loss. IFRS reverses an impairment when the recoverable '
+                    'amount rises, but not for goodwill and not above the '
+                    'carrying amount without the loss. U.S. GAAP never '
+                    'reverses an impairment of a held-and-used asset or of '
+                    'goodwill.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -183,40 +168,19 @@ HANDOUT = {'id': '17.6',
                    '(iv) Leases: the lessee'],
              'a': 'A',
              'why': 'The book numbers “(ii) Intangible assets” as section '
-                    '17.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.3?',
-             'o': ['(iii) Inventories',
-                   '(vi) Impairment',
-                   '(ii) Intangible assets',
-                   '(v) Long-lived assets'],
-             'a': 'A',
-             'why': 'The book numbers “(iii) Inventories” as section 17.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.4?',
-             'o': ['(v) Long-lived assets',
-                   '(ii) Intangible assets',
-                   '(iii) Inventories',
-                   '(iv) Leases: the lessee'],
-             'a': 'D',
-             'why': 'The book numbers “(iv) Leases: the lessee” as section '
-                    '17.4.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.5?',
-             'o': ['(ii) Intangible assets',
-                   '(iii) Inventories',
-                   '(v) Long-lived assets',
-                   '(iv) Leases: the lessee'],
-             'a': 'C',
-             'why': 'The book numbers “(v) Long-lived assets” as section '
-                    '17.5.'}]),
+                    '17.2.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'You have just written the rule this cycle settles. What '
+                  'decides whether your wording is right?',
+             'o': ['the model printed earlier in this cycle',
+                   'how confident you felt writing it',
+                   'the length of the sentence you wrote',
+                   'whichever wording your partner used'],
+             'a': 'A',
+             'why': 'Every rule on a Workshop sheet is settled by the model '
+                    'printed on the same sheet.'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -241,6 +205,7 @@ HANDOUT = {'id': '17.6',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f6b'),
           ('panel',
            'Statement — the book’s own table',
            [['Statement', 'U.S. GAAP only, IFRS only, or both?'],
@@ -270,32 +235,29 @@ HANDOUT = {'id': '17.6',
                    'LIFO is permitted'],
              'a': 'D',
              'why': 'The book’s own table pairs LIFO is permitted with “U.S. '
-                    'GAAP only”.'},
-            {'t': 'MCQ',
-             'q': 'Which statement does the book pair with “IFRS only”?',
-             'o': ['Development costs are capitalized when criteria are met',
-                   'Inventory write-downs are reversed when NRV recovers',
-                   'Prior service cost is expensed immediately',
-                   'Impairment is tested first with undiscounted cash flows'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Inventory write-downs are '
-                    'reversed when NRV recovers with “IFRS only”.'},
-            {'t': 'MCQ',
-             'q': 'Which statement does the book pair with “________”?',
-             'o': ['Inventory write-downs are reversed when NRV recovers',
-                   'Development costs are capitalized when criteria are met',
-                   'LIFO is permitted'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Development costs are '
-                    'capitalized when criteria are met with “________”.'}]),
+                    'GAAP only”.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'SORT',
+             'q': 'Write each one under the heading it belongs to. Every '
+                  'item belongs to exactly one group.',
+             'regions': ['IFRS only', 'U.S. GAAP only', '________'],
+             'items': ['LIFO is permitted',
+                       'Inventory write-downs are reversed when NRV recovers',
+                       'Development costs are capitalized when criteria are '
+                       'met',
+                       'Impairment is tested first with undiscounted cash '
+                       'flows',
+                       'A short-term lease exemption exists',
+                       'Prior service cost is expensed immediately'],
+             'a': ['IFRS only: Inventory write-downs are reversed when NRV '
+                   'recovers',
+                   'U.S. GAAP only: LIFO is permitted',
+                   '________: Development costs are capitalized when '
+                   'criteria are met, Impairment is tested first with '
+                   'undiscounted cash flows, A short-term lease exemption '
+                   'exists, Prior service cost is expensed immediately'],
+             'whys': ['', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

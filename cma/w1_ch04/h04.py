@@ -3,20 +3,15 @@
 
 HANDOUT = {'id': '4.4',
  'n': 4,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Retained earnings',
  'sub': 'section 4.4 of the book',
  'covers': ['sec:4.4',
-            'sc:SC4-4',
             'sc:SC4-5',
-            'p:P4-19',
-            'p:P4-20',
-            'p:P4-21',
-            'p:P4-22',
+            'p:P4-07',
+            'sc:SC4-4',
             'sc:SC4-1',
             'sc:SC4-3',
-            'p:P4-24',
-            'p:P4-25',
             'sc:SC4-1',
             'sc:SC4-3',
             'term:treasury stock',
@@ -35,93 +30,83 @@ HANDOUT = {'id': '4.4',
              'What is the main purpose of the statement of changes in '
              'equity?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates',
+             'The English the exam uses, and what it translates · Suppose: '
+             'Orontes, 8,100,000 shares',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['These ',
+             'parts': ['Retained earnings are the profits a company has kept '
+                       'since it began, less the ',
+                       11,
+                       ' it has declared. A board may set part of retained '
+                       'earnings aside, for example for a new plant. These ',
                        32,
                        ' stay within equity; no costs are ever charged to '
-                       'them. If a company finds an error in earlier '
-                       'financial statements, it does not correct it through '
-                       "this year's net income. It makes a ",
-                       25,
-                       ': it restates the earlier years and adjusts the '
-                       'opening balance of retained earnings, net of tax.'],
+                       'them.'],
              'bank': ['treasury stock',
-                      'prior-period adjustment',
                       'appropriated retained earnings',
+                      'dividends',
                       'date of record'],
-             'a': 'appropriated retained earnings · prior-period adjustment',
+             'a': 'dividends · appropriated retained earnings',
              'one': True,
-             'why': 'The book writes: “These appropriated retained earnings '
-                    'stay within equity; no costs are ever charged to them. '
-                    'If a company finds an error in earlier financial '
-                    "statements, it does not correct it through this year's "
-                    'net income. It makes a prior-period adjustment: it '
-                    'restates the earlier years and adjusts the opening '
-                    'balance of retained earnings, net of tax.”'},
+             'why': 'The book writes: “Retained earnings are the profits a '
+                    'company has kept since it began, less the dividends it '
+                    'has declared. A board may set part of retained earnings '
+                    'aside, for example for a new plant. These appropriated '
+                    'retained earnings stay within equity; no costs are ever '
+                    'charged to them.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['These ',
-                       32,
-                       ' stay within equity; no costs are ever charged to '
-                       'them. If a company finds an error in earlier '
-                       'financial statements, it does not correct it through '
-                       "this year's net income. It makes a ",
-                       25,
-                       ': it restates the earlier years and adjusts the '
-                       'opening balance of retained earnings, net of tax. '
-                       'Retained earnings may also be restricted by law or '
-                       'by loan covenants.'],
-             'bank': ['date of record',
-                      'appropriated retained earnings',
-                      'prior-period adjustment',
-                      'treasury stock'],
-             'a': 'appropriated retained earnings · prior-period adjustment',
+             'parts': ['Retained earnings may also be ',
+                       12,
+                       ' by law or by loan ',
+                       11,
+                       '. ',
+                       14,
+                       ' are disclosed in the notes. They do not change the '
+                       'balance.'],
+             'bank': ['covenants',
+                      'Restrictions',
+                      'restricted',
+                      'treasury stock',
+                      'date of record'],
+             'a': 'restricted · covenants · Restrictions',
              'one': True,
-             'why': 'The book writes: “These appropriated retained earnings '
-                    'stay within equity; no costs are ever charged to them. '
-                    'If a company finds an error in earlier financial '
-                    "statements, it does not correct it through this year's "
-                    'net income. It makes a prior-period adjustment: it '
-                    'restates the earlier years and adjusts the opening '
-                    'balance of retained earnings, net of tax. Retained '
-                    'earnings may also be restricted by law or by loan '
-                    'covenants.”'},
+             'why': 'The book writes: “Retained earnings may also be '
+                    'restricted by law or by loan covenants. Restrictions '
+                    'are disclosed in the notes. They do not change the '
+                    'balance.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['A board may set part of retained earnings aside, for '
-                       'example for a new plant. These ',
-                       32,
-                       ' stay within equity; no costs are ever charged to '
-                       'them. If a company finds an error in earlier '
-                       'financial statements, it does not correct it through '
-                       "this year's net income. It makes a ",
-                       25,
-                       ': it restates the earlier years and adjusts the '
-                       'opening balance of retained earnings, net of tax.'],
-             'bank': ['prior-period adjustment',
-                      'appropriated retained earnings',
+             'parts': ['In IFRS and in MENA company law, reserves '
+                       '(احتياطيات, réserves) can mean a legal reserve, a ',
+                       13,
+                       ' surplus, a ',
+                       13,
+                       ' reserve or share premium. None of these is simply '
+                       'retained earnings. On a U.S. exam, separate APIC, '
+                       'retained earnings (',
+                       14,
+                       ' or not) and AOCI.'],
+             'bank': ['date of record',
                       'treasury stock',
-                      'date of record'],
-             'a': 'appropriated retained earnings · prior-period adjustment',
+                      'translation',
+                      'revaluation',
+                      'appropriated'],
+             'a': 'revaluation · translation · appropriated',
              'one': True,
-             'why': 'The book writes: “A board may set part of retained '
-                    'earnings aside, for example for a new plant. These '
-                    'appropriated retained earnings stay within equity; no '
-                    'costs are ever charged to them. If a company finds an '
-                    'error in earlier financial statements, it does not '
-                    "correct it through this year's net income. It makes a "
-                    'prior-period adjustment: it restates the earlier years '
-                    'and adjusts the opening balance of retained earnings, '
-                    'net of tax.”'}],
+             'why': 'The book writes: “In IFRS and in MENA company law, '
+                    'reserves (احتياطيات, réserves) can mean a legal '
+                    'reserve, a revaluation surplus, a translation reserve '
+                    'or share premium. None of these is simply retained '
+                    'earnings. On a U.S. exam, separate APIC, retained '
+                    'earnings (appropriated or not) and AOCI.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -146,13 +131,11 @@ HANDOUT = {'id': '4.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the answer of 2-for-1 stock split as '
-                  '“Retained earnings: no change. Total equity: no change '
-                  '(no entry is made).”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs 2-for-1 stock split with “Retained '
-                    'earnings: no change. Total equity: no change (no entry '
-                    'is made).”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -176,75 +159,18 @@ HANDOUT = {'id': '4.4',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which answer does the book give for 2-for-1 stock split?',
-             'o': ['Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.',
-                   'Retained earnings: no change. Total equity: no change '
-                   '(no entry is made).',
-                   'Retained earnings: no change. Total equity: decreases by '
-                   'the cost.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Retained earnings: no '
-                    'change. Total equity: no change (no entry is made). as '
-                    'the answer of 2-for-1 stock split.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Buy treasury stock?',
-             'o': ['Retained earnings: no change. Total equity: decreases by '
-                   'the cost.',
-                   'Retained earnings: no change. Total equity: no change '
-                   '(no entry is made).',
-                   'Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.'],
-             'a': 'A',
-             'why': 'The book’s own table gives Retained earnings: no '
-                    'change. Total equity: decreases by the cost. as the '
-                    'answer of Buy treasury stock.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Correct an error that '
-                  'overstated expenses?',
-             'o': ['Retained earnings: no change. Total equity: no change '
-                   '(no entry is made).',
-                   'Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.',
-                   'Retained earnings: no change. Total equity: decreases by '
-                   'the cost.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Retained earnings: opening '
-                    'balance increases, net of tax. Total equity: increases. '
-                    'as the answer of Correct an error that overstated '
-                    'expenses.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of 2-for-1 stock split as '
-                  '“Retained earnings: no change. Total equity: no change '
-                  '(no entry is made).”.',
-             'a': 'T',
-             'why': 'The book pairs 2-for-1 stock split with “Retained '
-                    'earnings: no change. Total equity: no change (no entry '
-                    'is made).”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Buy treasury stock as '
-                  '“Retained earnings: opening balance increases, net of '
-                  'tax. Total equity: increases.”.',
-             'a': 'F',
-             'why': 'The book pairs Buy treasury stock with “Retained '
-                    'earnings: no change. Total equity: decreases by the '
-                    'cost.”, not with “Retained earnings: opening balance '
-                    'increases, net of tax. Total equity: increases.”.'}]),
+             'q': 'Which part of this chapter is section 4.1?',
+             'o': ['Dividends, stock dividends and stock splits',
+                   'Issuing and buying back shares',
+                   'Limitations and links to the other statements',
+                   'Components of equity and the statement of changes in '
+                   'equity'],
+             'a': 'D',
+             'why': 'The book numbers “Components of equity and the '
+                    'statement of changes in equity” as section 4.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Use the treasury stock example in Section 4.2. By how '
-                  'much does the second reissue reduce retained earnings '
-                  '(whole USD)?',
-             'o': ['0', '20,000', '40,000', '60,000'],
-             'a': 'B',
-             'why': 'The shortfall of $60,000 first uses APIC–treasury stock '
-                    'of $40,000. A is wrong: APIC–treasury stock is not '
-                    'large enough to absorb the whole shortfall. C is wrong: '
-                    'This is the APIC–treasury stock balance used, not the '
-                    'charge to retained earnings.',
-             'src': 'SC4-4'},
-            {'t': 'MCQ',
              'q': 'A company declares a 5% stock dividend. It is measured '
                   'at:',
              'o': ['the par value of the new shares',
@@ -257,53 +183,30 @@ HANDOUT = {'id': '4.4',
                     'is wrong: No entry is made only for a stock split.',
              'src': 'SC4-5'},
             {'t': 'MCQ',
-             'q': 'A company has issued 1,000,000 shares, of which 100,000 '
-                  'are held in treasury. It declares a 10% stock dividend. '
-                  'How many new shares does it issue?',
-             'o': ['10,000', '90,000', '100,000', '110,000'],
+             'q': 'A company declares a stock dividend on December 20 and '
+                  'distributes the shares on January 10. How does it present '
+                  'the stock dividend distributable at December 31?',
+             'o': ['As a current liability',
+                   "In stockholders' equity",
+                   'As a long-term liability',
+                   'In the notes only'],
              'a': 'B',
-             'why': 'Stock dividends are based on outstanding shares. A is '
-                    'wrong: This applies the rate to the treasury shares '
-                    'only. C is wrong: This includes the treasury shares.',
-             'src': 'P4-19'},
+             'why': 'No assets will be paid, so it is equity. A is wrong: '
+                    'Only a cash dividend creates a liability. C is wrong: '
+                    'Nothing is owed to anyone.',
+             'src': 'P4-07'},
             {'t': 'MCQ',
-             'q': "Which transaction reduces total stockholders' equity?",
-             'o': ['Declaring and issuing a small stock dividend',
-                   'Declaring a cash dividend',
-                   'Carrying out a 3-for-1 stock split',
-                   'Appropriating retained earnings for a new plant'],
+             'q': 'Use the treasury stock example in Section 4.2. By how '
+                  'much does the second reissue reduce retained earnings '
+                  '(whole USD)?',
+             'o': ['0', '20,000', '40,000', '60,000'],
              'a': 'B',
-             'why': 'A cash dividend creates a liability, so equity falls. A '
-                    'is wrong: A stock dividend moves amounts within equity. '
-                    'C is wrong: A split changes only the number of shares.',
-             'src': 'P4-20'},
-            {'t': 'MCQ',
-             'q': 'Which is a limitation of the equity section of the '
-                  'balance sheet?',
-             'o': ['It includes all internally built intangibles',
-                   'It shows the market value of the company',
-                   'It is prepared on a cash basis',
-                   'Treasury stock is shown at its cost, not at the current '
-                   'share price'],
-             'a': 'D',
-             'why': 'Historical cost measures limit what equity tells users. '
-                    'A is wrong: Internally built intangibles are not '
-                    'recorded. B is wrong: Equity is a book amount.',
-             'src': 'P4-21'},
-            {'t': 'MCQ',
-             'q': "Why may a company's retained earnings not show how much "
-                  'it can legally pay as dividends?',
-             'o': ['Legal capital rules and loan covenants can restrict '
-                   'distributions',
-                   'Retained earnings include share premium',
-                   'Retained earnings are measured at fair value',
-                   'Dividends are paid from AOCI'],
-             'a': 'A',
-             'why': 'Restrictions are disclosed, not deducted from the '
-                    'balance. B is wrong: Share premium is APIC, not '
-                    'retained earnings. C is wrong: Retained earnings are '
-                    'not a fair value.',
-             'src': 'P4-22'}]),
+             'why': 'The shortfall of $60,000 first uses APIC–treasury stock '
+                    'of $40,000. A is wrong: APIC–treasury stock is not '
+                    'large enough to absorb the whole shortfall. C is wrong: '
+                    'This is the APIC–treasury stock balance used, not the '
+                    'charge to retained earnings.',
+             'src': 'SC4-4'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -359,33 +262,90 @@ HANDOUT = {'id': '4.4',
                     'This is the par value, which goes to common stock.',
              'src': 'SC4-3'},
             {'t': 'MCQ',
-             'q': 'A company pays a dividend of $300,000, but its retained '
-                  'earnings are only $200,000. The extra $100,000 is:',
-             'o': ['an expense',
-                   'a liquidating dividend that reduces APIC',
-                   'a reduction of treasury stock',
-                   'shown as negative OCI'],
-             'a': 'B',
-             'why': 'Amounts beyond retained earnings return contributed '
-                    'capital. A is wrong: Dividends are never expenses. C is '
-                    'wrong: Treasury stock is not involved.',
-             'src': 'P4-24'},
+             'q': 'What is the main purpose of the statement of changes in '
+                  'equity?',
+             'o': ["To show the market value of the company's shares",
+                   'To show cash received from owners only',
+                   'To explain why each part of equity changed during the '
+                   'period',
+                   'To report revenues and expenses'],
+             'a': 'C',
+             'why': 'It reconciles the opening and closing balance of each '
+                    'equity account. A is wrong: Equity is a book amount, '
+                    'not a market value. B is wrong: It includes noncash '
+                    'changes such as net income and stock dividends.',
+             'src': 'SC4-1'},
             {'t': 'MCQ',
-             'q': 'A company retires treasury shares that cost more than '
-                  'their par value and original APIC. For the exam today, '
-                  'the excess is charged to:',
-             'o': ['retained earnings, or split between APIC and retained '
-                   'earnings',
-                   'APIC only, as ASU 2025-12 requires',
-                   'net income as a loss',
-                   'OCI'],
+             'q': 'In 2026 a company finds that it overstated its 2024 '
+                  'depreciation expense. How does it correct the error?',
+             'o': ['It reports a gain in 2026 net income',
+                   'It reduces 2026 depreciation expense',
+                   'It records the correction in OCI',
+                   'It restates prior years and increases opening retained '
+                   'earnings, net of tax'],
+             'a': 'D',
+             'why': 'Error corrections are prior-period adjustments to '
+                    'opening retained earnings. A is wrong: Errors are not '
+                    'corrected through current net income. B is wrong: This '
+                    'would misstate 2026 as well.',
+             'src': 'SC4-7'},
+            {'t': 'MCQ',
+             'q': "Why is Orontes's total equity much lower than the market "
+                  'value of its shares?',
+             'o': ['Equity is measured at fair value each year',
+                   'Treasury stock is shown at market value',
+                   'Equity includes only contributed capital',
+                   'Most assets are at historical cost and internally built '
+                   'intangibles are not recorded'],
+             'a': 'D',
+             'why': 'Book value is not a valuation. A is wrong: Equity is '
+                    'not remeasured to fair value. B is wrong: Treasury '
+                    'stock is shown at cost.',
+             'src': 'SC4-9'},
+            {'t': 'MCQ',
+             'q': "An IFRS company reports a 'translation reserve'. Where "
+                  'would this amount appear in U.S. GAAP equity?',
+             'o': ['Accumulated other comprehensive income',
+                   'Retained earnings',
+                   'Additional paid-in capital'],
              'a': 'A',
-             'why': 'These are the current rules; ASU 2025-12 adds an '
-                    'optional APIC-only method from 2027. B is wrong: The '
-                    'APIC-only method is optional and not yet testable. C is '
-                    'wrong: Transactions in own shares do not affect net '
-                    'income.',
-             'src': 'P4-25'}]),
+             'why': 'Foreign-currency translation adjustments are OCI items. '
+                    'A is wrong: Not every reserve is retained earnings. C '
+                    'is wrong: APIC comes from owners, not from translation.',
+             'src': 'SC4-8'}]),
+          ('panel',
+           'Suppose: Orontes, 8,100,000 shares — the extract for the '
+           'question that follows',
+           [['Suppose: Orontes, 8,100,000 shares',
+             '4% stock dividend',
+             '50% stock dividend',
+             '2-for-1 split'],
+            ['New shares issued', '324,000', '4,050,000', '8,100,000'],
+            ['Measured at', 'fair value $15', 'par $1', 'no entry'],
+            ['Retained earnings', '(4,860,000)', '(4,050,000)', 'no change'],
+            ['Common stock', '324,000', '4,050,000', 'no change'],
+            ['Additional paid-in capital',
+             '4,536,000',
+             'no change',
+             'no change'],
+            ["Total stockholders' equity",
+             'no change',
+             'no change',
+             'no change'],
+            ['Par value per share afterward', '$1', '$1', '$0.50']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. By how '
+                  "much does the 4% stock dividend reduce Orontes's retained "
+                  'earnings (whole USD)?',
+             'o': ['0', '324,000', '4,536,000', '4,860,000'],
+             'a': 'D',
+             'why': '324,000 new shares × fair value of $15. A is wrong: A '
+                    'stock dividend is recorded; only a split needs no '
+                    'entry. B is wrong: This uses par, the rule for large '
+                    'stock dividends.',
+             'src': 'SC4-6'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

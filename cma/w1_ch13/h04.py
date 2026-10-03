@@ -3,13 +3,11 @@
 
 HANDOUT = {'id': '13.4',
  'n': 4,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Rate changes, valuation allowances, losses and presentation',
  'sub': 'section 13.4 of the book',
  'covers': ['sec:13.4',
-            'p:P13-19',
-            'p:P13-20',
-            'sc:P13-19',
+            'p:P13-05',
             'term:deferred tax liability',
             'term:current tax expense',
             'term:effective tax rate'],
@@ -23,10 +21,10 @@ HANDOUT = {'id': '13.4',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Rate changes, valuation allowances, losses and presentation',
              'a figure to read · Item · the book’s own rule, gapped',
-             'Under ASU 2023-09, a public company with a 21% statutory rate '
-             'must separately show a reconciling item when it is at least:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -58,55 +56,51 @@ HANDOUT = {'id': '13.4',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Decision chart: does a ',
-                       20,
-                       ' need a ',
-                       21,
-                       '?. A tax loss creates a ',
+             'parts': ['A tax loss creates a ',
                        33,
-                       ', which is a deferred tax asset. They can be carried '
-                       'forward without a time limit, but they can reduce '
-                       'only 80% of ',
+                       ', which is a ',
+                       20,
+                       '. Under current U.S. federal law, most losses cannot '
+                       'be carried back. They can be carried forward without '
+                       'a time limit, but they can reduce only 80% of ',
                        16,
                        ' in any year.'],
-             'bank': ['taxable income',
-                      'deferred tax liability',
-                      'deferred tax asset',
+             'bank': ['deferred tax liability',
+                      'permanent difference',
                       'net operating loss carryforward',
-                      'valuation allowance',
-                      'permanent difference'],
-             'a': 'deferred tax asset · valuation allowance · net operating '
-                  'loss carryforward · taxable income',
+                      'taxable income',
+                      'deferred tax asset'],
+             'a': 'net operating loss carryforward · deferred tax asset · '
+                  'taxable income',
              'one': True,
-             'why': 'The book writes: “Decision chart: does a deferred tax '
-                    'asset need a valuation allowance?. A tax loss creates a '
-                    'net operating loss carryforward, which is a deferred '
-                    'tax asset. They can be carried forward without a time '
-                    'limit, but they can reduce only 80% of taxable income '
-                    'in any year.”'},
+             'why': 'The book writes: “A tax loss creates a net operating '
+                    'loss carryforward, which is a deferred tax asset. Under '
+                    'current U.S. federal law, most losses cannot be carried '
+                    'back. They can be carried forward without a time limit, '
+                    'but they can reduce only 80% of taxable income in any '
+                    'year.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Record the full effect of a rate change in '
-                       'continuing operations when the law is enacted. '
-                       'Record the full DTA, then a ',
-                       21,
-                       ': do not record only the probable part. An ',
+             'parts': ['An ',
                        24,
-                       ' is recognized only if it is more likely than not to '
-                       'be accepted by the tax authority.'],
-             'bank': ['valuation allowance',
+                       ' is ',
+                       12,
+                       ' only if it is more likely than not to be accepted '
+                       'by the tax authority. The global minimum tax (Pillar '
+                       'Two) is treated as a current cost in the year it '
+                       'arises, with no deferred taxes.'],
+             'bank': ['uncertain tax position',
                       'deferred tax liability',
-                      'uncertain tax position',
+                      'recognized',
                       'permanent difference'],
-             'a': 'valuation allowance · uncertain tax position',
+             'a': 'uncertain tax position · recognized',
              'one': True,
-             'why': 'The book writes: “Record the full effect of a rate '
-                    'change in continuing operations when the law is '
-                    'enacted. Record the full DTA, then a valuation '
-                    'allowance: do not record only the probable part. An '
-                    'uncertain tax position is recognized only if it is more '
-                    'likely than not to be accepted by the tax authority.”'}],
+             'why': 'The book writes: “An uncertain tax position is '
+                    'recognized only if it is more likely than not to be '
+                    'accepted by the tax authority. The global minimum tax '
+                    '(Pillar Two) is treated as a current cost in the year '
+                    'it arises, with no deferred taxes.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -133,11 +127,11 @@ HANDOUT = {'id': '13.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the type of Tax-exempt municipal bond '
-                  'interest as “Permanent”.',
+             'q': 'The book gives the type of Equity-method income, taxed '
+                  'only when dividends are received as “________”.',
              'a': 'T',
-             'why': 'The book pairs Tax-exempt municipal bond interest with '
-                    '“Permanent”.'}]),
+             'why': 'The book pairs Equity-method income, taxed only when '
+                    'dividends are received with “________”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -171,42 +165,7 @@ HANDOUT = {'id': '13.4',
              'o': ['Permanent', 'Temporary, taxable', '________'],
              'a': 'A',
              'why': 'The book’s own table gives Permanent as the type of '
-                    'Tax-exempt municipal bond interest.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book give for Tax depreciation faster '
-                  'than book depreciation?',
-             'o': ['________', 'Temporary, taxable', 'Permanent'],
-             'a': 'B',
-             'why': 'The book’s own table gives Temporary, taxable as the '
-                    'type of Tax depreciation faster than book '
-                    'depreciation.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book give for Warranty expense '
-                  'accrued now, deducted for tax when repairs are paid?',
-             'o': ['________', 'Temporary, taxable', 'Permanent'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the type of '
-                    'Warranty expense accrued now, deducted for tax when '
-                    'repairs are paid.'},
-            {'t': 'MCQ',
-             'q': 'Which type does the book give for Fine for breaking an '
-                  'environmental law?',
-             'o': ['Permanent', 'Temporary, taxable', '________'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the type of Fine '
-                    'for breaking an environmental law.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Tax-exempt municipal bond '
-                  'interest as “None”.',
-             'a': 'T',
-             'why': 'The book pairs Tax-exempt municipal bond interest with '
-                    '“None”.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Tax depreciation faster '
-                  'than book depreciation as “________”.',
-             'a': 'F',
-             'why': 'The book pairs Tax depreciation faster than book '
-                    'depreciation with “DTL”, not with “________”.'}]),
+                    'Tax-exempt municipal bond interest.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -237,49 +196,33 @@ HANDOUT = {'id': '13.4',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under ASU 2023-09, a public company with a 21% statutory '
-                  'rate must separately show a reconciling item when it is '
-                  'at least:',
-             'o': ['1% of revenue',
-                   '5% of pretax income multiplied by the statutory rate',
-                   '10% of tax expense',
-                   'any amount, however small'],
-             'a': 'B',
-             'why': 'The 5% threshold applies to the statutory-rate tax. A '
-                    'is wrong: The threshold is not based on revenue. C is '
-                    'wrong: The threshold is 5% of the statutory tax.',
-             'src': 'P13-19'},
-            {'t': 'MCQ',
-             'q': 'Which pair lists one taxable and one deductible temporary '
-                  'difference?',
-             'o': ['Accelerated tax depreciation; accrued litigation loss',
-                   'Municipal interest; fines',
-                   'Accrued warranty; allowance for credit losses',
-                   'Installment sale; accelerated tax depreciation'],
+             'q': 'A company has an unrealized loss on AFS debt securities '
+                  'in OCI. Its tax effect is:',
+             'o': ['shown with the OCI item, not in income tax expense on '
+                   'continuing operations',
+                   'ignored',
+                   'added to current tax expense',
+                   'recorded in retained earnings'],
              'a': 'A',
-             'why': 'Depreciation creates a DTL; the litigation accrual '
-                    'creates a DTA. B is wrong: Both are permanent '
-                    'differences. C is wrong: Both are deductible '
-                    'differences.',
-             'src': 'P13-20'}]),
+             'why': 'Intraperiod allocation keeps tax with the item that '
+                    'caused it. B is wrong: The temporary difference has a '
+                    'tax effect. C is wrong: The loss is not in taxable '
+                    'income now.',
+             'src': 'P13-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under ASU 2023-09, a public company with a 21% statutory rate '
-           'must separately show a reconciling item when it is at least:',
-           ['1% of revenue',
-            '5% of pretax income multiplied by the statutory rate',
-            '10% of tax expense',
-            'any amount, however small'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'The 5% threshold applies to the statutory-rate tax. A is wrong: '
-           'The threshold is not based on revenue. C is wrong: The threshold '
-           'is 5% of the statutory tax.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -290,6 +233,7 @@ HANDOUT = {'id': '13.4',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f4b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Answer'],
@@ -309,45 +253,34 @@ HANDOUT = {'id': '13.4',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Warranty expense '
-                  'accrued now?',
-             'o': ['Temporary, deductible: DTA',
-                   'Temporary, deductible (taxed now, earned later): DTA',
-                   'Permanent: no deferred tax',
-                   'Temporary, taxable (taxed later): DTL'],
-             'a': 'A',
-             'why': 'The book’s own table gives Temporary, deductible: DTA '
-                    'as the answer of Warranty expense accrued now.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Fine for breaking the '
-                  'law?',
-             'o': ['Temporary, deductible: DTA',
-                   'Permanent: no deferred tax',
-                   'Temporary, taxable (taxed later): DTL',
-                   'Temporary, deductible (taxed now, earned later): DTA'],
-             'a': 'B',
-             'why': 'The book’s own table gives Permanent: no deferred tax '
-                    'as the answer of Fine for breaking the law.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Rent received in '
-                  'advance?',
-             'o': ['Temporary, deductible: DTA',
-                   'Temporary, taxable (taxed later): DTL',
-                   'Temporary, deductible (taxed now, earned later): DTA',
-                   'Permanent: no deferred tax'],
-             'a': 'C',
-             'why': 'The book’s own table gives Temporary, deductible (taxed '
-                    'now, earned later): DTA as the answer of Rent received '
-                    'in advance.'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which type does the book give for Equity-method income, '
+                  'taxed only when dividends are received?',
+             'o': ['Temporary, taxable', '________', 'Permanent'],
+             'a': 'B',
+             'why': 'The book’s own table gives ________ as the type of '
+                    'Equity-method income, taxed only when dividends are '
+                    'received.'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Warranty expense accrued now',
+                      'Fine for breaking the law',
+                      'Rent received in advance',
+                      'Equity-method income'],
+             'right': ['Temporary, taxable (taxed later): DTL',
+                       'Temporary, deductible (taxed now, earned later): DTA',
+                       'Permanent: no deferred tax',
+                       'Temporary, deductible: DTA'],
+             'a': ['D', 'C', 'B', 'A'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

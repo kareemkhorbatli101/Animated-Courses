@@ -7,10 +7,7 @@ HANDOUT = {'id': '8.3',
  'title': 'The retail inventory method and the gross profit method',
  'sub': 'section 8.3 of the book',
  'covers': ['sec:8.3',
-            'p:P8-15',
-            'p:P8-16',
-            'p:P8-17',
-            'sc:P8-15',
+            'p:P8-05',
             'term:lower of cost or market (lcm)',
             'term:conventional retail method',
             'term:item-by-item basis'],
@@ -24,9 +21,7 @@ HANDOUT = {'id': '8.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The retail inventory method and the gross profit method',
              'a figure to read · Item',
-             'Spiral review (Chapter 7). A FIFO company moves from a '
-             'periodic to a perpetual system. What happens to cost of goods '
-             'sold?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -41,7 +36,7 @@ HANDOUT = {'id': '8.3',
                        'prices. It uses a ',
                        22,
                        ': goods available at cost divided by goods available '
-                       'at retail. A ',
+                       'at retail. Retail prices change during the year. A ',
                        11,
                        ' raises the selling price above the original retail '
                        'price. The ',
@@ -60,38 +55,37 @@ HANDOUT = {'id': '8.3',
              'why': 'The book writes: “The retail inventory method estimates '
                     'ending inventory at cost from retail prices. It uses a '
                     'cost-to-retail ratio: goods available at cost divided '
-                    'by goods available at retail. A markup raises the '
-                    'selling price above the original retail price. The '
-                    'conventional retail method includes net markups in the '
-                    'ratio but leaves out net markdowns.”'},
+                    'by goods available at retail. Retail prices change '
+                    'during the year. A markup raises the selling price '
+                    'above the original retail price. The conventional '
+                    'retail method includes net markups in the ratio but '
+                    'leaves out net markdowns.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['It uses a ',
-                       22,
-                       ': goods available at cost divided by goods available '
-                       'at retail. A ',
-                       11,
-                       ' raises the selling price above the original retail '
-                       'price. The ',
-                       28,
-                       ' includes net markups in the ratio but leaves out '
-                       'net markdowns.'],
+             'parts': ['The ',
+                       21,
+                       ' estimates ending inventory from the usual gross '
+                       'profit rate. It is used for interim reports, to '
+                       'check a physical count, and to estimate inventory '
+                       'lost in a fire or a theft. It is not ',
+                       12,
+                       ' for annual financial ',
+                       12,
+                       '.'],
              'bank': ['ceiling',
-                      'conventional retail method',
+                      'statements',
                       'replacement cost',
-                      'cost-to-retail ratio',
-                      'markup'],
-             'a': 'cost-to-retail ratio · markup · conventional retail '
-                  'method',
+                      'gross profit method',
+                      'acceptable'],
+             'a': 'gross profit method · acceptable · statements',
              'one': True,
-             'why': 'The book writes: “It uses a cost-to-retail ratio: goods '
-                    'available at cost divided by goods available at retail. '
-                    'A markup raises the selling price above the original '
-                    'retail price. The conventional retail method includes '
-                    'net markups in the ratio but leaves out net '
-                    'markdowns.”'},
+             'why': 'The book writes: “The gross profit method estimates '
+                    'ending inventory from the usual gross profit rate. It '
+                    'is used for interim reports, to check a physical count, '
+                    'and to estimate inventory lost in a fire or a theft. It '
+                    'is not acceptable for annual financial statements.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -102,15 +96,23 @@ HANDOUT = {'id': '8.3',
                        'ratio, markdowns OUT. Freight-in goes in the cost '
                        'column only; normal ',
                        11,
-                       ' is deducted from retail after the ratio.'],
-             'bank': ['ceiling', 'shrinkage', 'replacement cost', 'markup'],
-             'a': 'markup · shrinkage',
+                       ' is deducted from retail after the ratio. A. '
+                       'included in the ',
+                       22,
+                       '.'],
+             'bank': ['replacement cost',
+                      'cost-to-retail ratio',
+                      'ceiling',
+                      'shrinkage',
+                      'markup'],
+             'a': 'markup · shrinkage · cost-to-retail ratio',
              'one': True,
              'why': 'The book writes: “For example, a markup of one half on '
                     'cost is a gross profit rate of one third on sales. '
                     'Conventional retail: markups IN the ratio, markdowns '
                     'OUT. Freight-in goes in the cost column only; normal '
-                    'shrinkage is deducted from retail after the ratio.”'}],
+                    'shrinkage is deducted from retail after the ratio. A. '
+                    'included in the cost-to-retail ratio.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -137,9 +139,11 @@ HANDOUT = {'id': '8.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the cost column of Freight-in as “add”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Freight-in with “add”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -160,40 +164,15 @@ HANDOUT = {'id': '8.3',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which cost column does the book give for Freight-in?',
-             'o': ['deduct', 'add', '—'],
-             'a': 'B',
-             'why': 'The book’s own table gives add as the cost column of '
-                    'Freight-in.'},
-            {'t': 'MCQ',
-             'q': 'Which cost column does the book give for Purchase '
+             'q': 'Which retail column does the book give for Purchase '
                   'returns?',
-             'o': ['—', 'add', 'deduct'],
-             'a': 'C',
-             'why': 'The book’s own table gives deduct as the cost column of '
-                    'Purchase returns.'},
-            {'t': 'MCQ',
-             'q': 'Which cost column does the book give for Purchase '
-                  'discounts?',
-             'o': ['add', 'deduct', '—'],
+             'o': ['deduct (after the ratio)',
+                   'deduct',
+                   '—',
+                   'add (before the ratio)'],
              'a': 'B',
-             'why': 'The book’s own table gives deduct as the cost column of '
-                    'Purchase discounts.'},
-            {'t': 'MCQ',
-             'q': 'Which retail column does the book give for Net markups?',
-             'o': ['deduct',
-                   'add (before the ratio)',
-                   'deduct (after the conventional ratio)',
-                   'deduct (after the ratio)'],
-             'a': 'B',
-             'why': 'The book’s own table gives add (before the ratio) as '
-                    'the retail column of Net markups.'},
-            {'t': 'TF',
-             'q': 'The book gives the retail column of Purchase returns as '
-                  '“—”.',
-             'a': 'F',
-             'why': 'The book pairs Purchase returns with “deduct”, not with '
-                    '“—”.'},
+             'why': 'The book’s own table gives deduct as the retail column '
+                    'of Purchase returns.'},
             {'t': 'SORT',
              'q': 'Write each one under its cost column. Every item belongs '
                   'to exactly one group.',
@@ -232,62 +211,37 @@ HANDOUT = {'id': '8.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Spiral review (Chapter 7). A FIFO company moves from a '
-                  'periodic to a perpetual system. What happens to cost of '
-                  'goods sold?',
-             'o': ['It increases.',
-                   'It decreases.',
-                   'It does not change.',
-                   'It depends on the timing of sales.'],
+             'q': 'A company recognized an inventory write-down in the first '
+                  'quarter. The market price recovers in the third quarter '
+                  'of the same fiscal year. What is the treatment?',
+             'o': ['The loss can never be recovered.',
+                   'Inventory is written up to the new market price, even '
+                   'above cost.',
+                   'The loss may be recovered in the third quarter, up to '
+                   'the amount written down.',
+                   'The recovery is recorded in OCI.'],
              'a': 'C',
-             'why': 'FIFO gives the same result under both systems. A is '
-                    'wrong: Only LIFO and average results can change with '
-                    'the system. B is wrong: Only LIFO and average results '
-                    'can change with the system.',
-             'src': 'P8-15'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 7). Ending inventory for 2025 is '
-                  'overstated. What is the effect on 2025 cost of goods '
-                  'sold?',
-             'o': ['Understated',
-                   'Overstated',
-                   'No effect',
-                   'Overstated in 2025 and in 2026'],
-             'a': 'A',
-             'why': 'Higher ending inventory means lower cost of goods sold. '
-                    'B is wrong: This reverses the direction. C is wrong: '
-                    'Ending inventory directly changes cost of goods sold.',
-             'src': 'P8-16'},
-            {'t': 'MCQ',
-             'q': 'Which statement about IAS 2 is TRUE?',
-             'o': ['LIFO inventory uses the lower of cost or market.',
-                   'A write-down is reversed when NRV recovers, up to the '
-                   'original write-down.',
-                   'The retail method must use LCM.',
-                   'Write-downs are recorded in other comprehensive income.'],
-             'a': 'B',
-             'why': 'IAS 2 requires the reversal, limited to the original '
-                    'write-down. A is wrong: IAS 2 does not allow LIFO. C is '
-                    'wrong: IAS 2 has no LCM test; all inventory uses LCNRV.',
-             'src': 'P8-17'}]),
+             'why': 'Interim write-downs may be recovered within the same '
+                    'fiscal year, up to the original loss. A is wrong: The '
+                    'no-reversal rule is for later annual periods, not '
+                    'quarters of the same year. B is wrong: Recovery is '
+                    'limited to the amount written down; inventory never '
+                    'goes above cost.',
+             'src': 'P8-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Spiral review (Chapter 7). A FIFO company moves from a periodic '
-           'to a perpetual system. What happens to cost of goods sold?',
-           ['It increases.',
-            'It decreases.',
-            'It does not change.',
-            'It depends on the timing of sales.'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'FIFO gives the same result under both systems. A is wrong: Only '
-           'LIFO and average results can change with the system. B is wrong: '
-           'Only LIFO and average results can change with the system.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -314,12 +268,17 @@ HANDOUT = {'id': '8.3',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which retail column does the book give for Normal '
+                  'shrinkage and employee discounts?',
+             'o': ['deduct',
+                   'add (before the ratio)',
+                   'deduct (after the ratio)',
+                   'deduct (after the conventional ratio)'],
+             'a': 'C',
+             'why': 'The book’s own table gives deduct (after the ratio) as '
+                    'the retail column of Normal shrinkage and employee '
+                    'discounts.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -3,7 +3,7 @@
 
 HANDOUT = {'id': '17.7',
  'n': 7,
- 'pages': 8,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
@@ -63,56 +63,62 @@ HANDOUT = {'id': '17.7',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['GAAP, but accrued over the vesting period under '
-                       'IFRS. For a ',
+             'parts': ['For a ',
                        22,
                        ', both frameworks put ',
                        16,
-                       ' in OCI. GAAP later amortizes them into net income; '
-                       'IAS 19 never reclassifies them. Share-based payments '
-                       'and employee benefits: U.S.'],
-             'bank': ['remeasurements',
+                       ' in OCI. U.S. GAAP later amortizes them into net '
+                       'income; IAS 19 never reclassifies them. Orontes '
+                       'amends its plan and creates ',
+                       20,
+                       ' of $50,000: U.S. GAAP amortizes $5,000 a year from '
+                       'OCI, while IAS 19 expenses the whole amount at once. '
+                       'The largest intangibles difference is ',
+                       19,
+                       '.'],
+             'bank': ['cash-generating unit',
                       'defined benefit plan',
-                      'component depreciation',
-                      'cash-generating unit'],
-             'a': 'defined benefit plan · remeasurements',
+                      'prior service cost',
+                      'remeasurements',
+                      'development costs',
+                      'component depreciation'],
+             'a': 'defined benefit plan · remeasurements · prior service '
+                  'cost · development costs',
              'one': True,
-             'why': 'The book writes: “GAAP, but accrued over the vesting '
-                    'period under IFRS. For a defined benefit plan, both '
-                    'frameworks put remeasurements in OCI. GAAP later '
+             'why': 'The book writes: “For a defined benefit plan, both '
+                    'frameworks put remeasurements in OCI. U.S. GAAP later '
                     'amortizes them into net income; IAS 19 never '
-                    'reclassifies them. Share-based payments and employee '
-                    'benefits: U.S.”'},
+                    'reclassifies them. Orontes amends its plan and creates '
+                    'prior service cost of $50,000: U.S. GAAP amortizes '
+                    '$5,000 a year from OCI, while IAS 19 expenses the whole '
+                    'amount at once. The largest intangibles difference is '
+                    'development costs.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['It compares the carrying amount of an asset or ',
-                       22,
-                       ' with its ',
-                       20,
-                       ': the higher of ',
-                       35,
-                       ' and ',
-                       14,
-                       ', a discounted cash-flow measure. Because there is '
-                       'no undiscounted screen, IFRS losses often come '
-                       'earlier.'],
-             'bank': ['component depreciation',
-                      'recoverable amount',
-                      'revaluation model',
-                      'cash-generating unit',
-                      'value in use',
-                      'fair value less costs of disposal'],
-             'a': 'cash-generating unit · recoverable amount · fair value '
-                  'less costs of disposal · value in use',
+             'parts': ['U.S. GAAP allows it, and companies that use LIFO for '
+                       'tax must also use it in their ',
+                       11,
+                       ' ',
+                       12,
+                       '. Chapter 7 showed how LIFO changes cost of goods '
+                       'sold when prices rise. Both ',
+                       12,
+                       ' write inventory down when its value falls below '
+                       'cost.'],
+             'bank': ['cash-generating unit',
+                      'statements',
+                      'financial',
+                      'component depreciation',
+                      'frameworks'],
+             'a': 'financial · statements · frameworks',
              'one': True,
-             'why': 'The book writes: “It compares the carrying amount of an '
-                    'asset or cash-generating unit with its recoverable '
-                    'amount: the higher of fair value less costs of disposal '
-                    'and value in use, a discounted cash-flow measure. '
-                    'Because there is no undiscounted screen, IFRS losses '
-                    'often come earlier.”'},
+             'why': 'The book writes: “U.S. GAAP allows it, and companies '
+                    'that use LIFO for tax must also use it in their '
+                    'financial statements. Chapter 7 showed how LIFO changes '
+                    'cost of goods sold when prices rise. Both frameworks '
+                    'write inventory down when its value falls below cost.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -157,24 +163,7 @@ HANDOUT = {'id': '17.7',
           ('fig', 'chmap'),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.2?',
-             'o': ['(v) Long-lived assets',
-                   '(iii) Inventories',
-                   '(ii) Intangible assets',
-                   '(iv) Leases: the lessee'],
-             'a': 'C',
-             'why': 'The book numbers “(ii) Intangible assets” as section '
-                    '17.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 17.3?',
-             'o': ['(vi) Impairment',
-                   '(v) Long-lived assets',
-                   '(iii) Inventories',
-                   '(ii) Intangible assets'],
-             'a': 'C',
-             'why': 'The book numbers “(iii) Inventories” as section 17.3.'},
-            {'t': 'MATCH',
+           [{'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
              'left': ['(i) Share-based payments and employee benefits',
@@ -365,77 +354,22 @@ HANDOUT = {'id': '17.7',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C17-1 ask for?',
-             'o': ["By how much is Levant's equity lower under U.S. GAAP "
-                   'than under IFRS?',
-                   "Enter the net decrease in Levant's 2027 net income on "
-                   'conversion to U.',
-                   "Under U.S. GAAP, Levant's 2027 inventory write-down "
-                   'reversal is: [sele',
-                   "How does each item change Levant's net income when it is "
-                   'converted to '],
-             'a': 'D',
-             'why': 'The book states item C17-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C17-2 ask for?',
-             'o': ["Under U.S. GAAP, Levant's 2027 inventory write-down "
-                   'reversal is: [sele',
-                   "Enter the net decrease in Levant's 2027 net income on "
-                   'conversion to U.',
-                   "How does each item change Levant's net income when it is "
-                   'converted to ',
-                   "By how much is Levant's equity lower under U.S. GAAP "
-                   'than under IFRS?'],
-             'a': 'B',
-             'why': 'The book states item C17-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C17-3 ask for?',
-             'o': ["By how much is Levant's equity lower under U.S. GAAP "
-                   'than under IFRS?',
-                   "Enter Levant's 2027 net income under U.S. GAAP.",
-                   "How does each item change Levant's net income when it is "
-                   'converted to ',
-                   'Enter the carrying amount of the delivery fleet under '
-                   'U.S. GAAP.'],
-             'a': 'B',
-             'why': 'The book states item C17-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C17-4 ask for?',
-             'o': ['Enter the carrying amount of the delivery fleet under '
-                   'U.S. GAAP.',
-                   "By how much is Levant's equity lower under U.S. GAAP "
-                   'than under IFRS?',
-                   "How does each item change Levant's net income when it is "
-                   'converted to ',
-                   "Enter the net decrease in Levant's 2027 net income on "
-                   'conversion to U.'],
-             'a': 'A',
-             'why': 'The book states item C17-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C17-5 ask for?',
-             'o': ["By how much is Levant's equity lower under U.S. GAAP "
-                   'than under IFRS?',
-                   "Under U.S. GAAP, Levant's 2027 inventory write-down "
-                   'reversal is: [sele',
-                   "How does each item change Levant's net income when it is "
-                   'converted to ',
-                   "Enter the net decrease in Levant's 2027 net income on "
-                   'conversion to U.'],
-             'a': 'A',
-             'why': 'The book states item C17-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C17-6 ask for?',
-             'o': ["Enter the net decrease in Levant's 2027 net income on "
-                   'conversion to U.',
-                   "By how much is Levant's equity lower under U.S. GAAP "
-                   'than under IFRS?',
-                   "How does each item change Levant's net income when it is "
-                   'converted to ',
-                   "Under U.S. GAAP, Levant's 2027 inventory write-down "
-                   'reversal is: [sele'],
-             'a': 'D',
-             'why': 'The book states item C17-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ["Under U.S. GAAP, Levant's 2027 inventory write-down "
+                      'reversal is: [select]',
+                      "By how much is Levant's equity lower under U.S. GAAP "
+                      'than under IFRS?',
+                      "Enter Levant's 2027 net income under U.S. GAAP.",
+                      'Enter the carrying amount of the delivery fleet under '
+                      'U.S. GAAP.',
+                      "Enter the net decrease in Levant's 2027 net income on "
+                      'conversion to U.S. GAAP.'],
+             'right': ['first', 'second', 'third', 'fourth', 'fifth'],
+             'a': ['E', 'D', 'B', 'C', 'A'],
+             'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('panel',
            'Topic — the extract for the question that follows',
@@ -460,21 +394,6 @@ HANDOUT = {'id': '17.7',
              'OCI, amortized over 10 years: 5,000 a year',
              'Expensed at once: 50,000']],
            ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. How '
-                  "much of Orontes's prior service cost is recognized in "
-                  '2027 net income under IAS 19 and under U.S. GAAP (whole '
-                  'USD)?',
-             'o': ['IFRS 5,000; U.S. 50,000',
-                   'Both 50,000',
-                   'Both 5,000',
-                   'IFRS 50,000; U.S. 5,000'],
-             'a': 'D',
-             'why': 'IAS 19 expenses it at once; U.S. GAAP amortizes it from '
-                    'OCI. A is wrong: The treatments are reversed. B is '
-                    'wrong: U.S. GAAP does not expense it at once.',
-             'src': 'SC17-1'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'A company grants share options that vest one third each '

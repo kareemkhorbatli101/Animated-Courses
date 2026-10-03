@@ -8,6 +8,7 @@ HANDOUT = {'id': '14.4',
  'sub': 'section 14.4 of the book',
  'covers': ['sec:14.4',
             'sc:SC14-3',
+            'p:P14-05',
             'sc:SC14-4',
             'sc:SC14-1',
             'sc:SC14-2',
@@ -27,7 +28,8 @@ HANDOUT = {'id': '14.4',
              'a figure to read · Lease · Criterion',
              'Which contract contains a lease?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates',
+             'The English the exam uses, and what it translates · Suppose: '
+             'January 1, 2026 (whole USD)',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -43,26 +45,20 @@ HANDOUT = {'id': '14.4',
                        20,
                        ', usually straight-line. Interest is highest at the '
                        'start, when the liability is largest, so total '
-                       'expense falls each year. Finance-lease expense is '
-                       'higher early; an ',
-                       17,
-                       ' would be flat.'],
-             'bank': ['right-of-use asset',
-                      'finance lease',
-                      'residual value guarantee',
+                       'expense falls each year.'],
+             'bank': ['finance lease',
+                      'right-of-use asset',
                       'sale and leaseback',
                       'lessee',
-                      'operating lease'],
-             'a': 'finance lease · lessee · right-of-use asset · operating '
-                  'lease',
+                      'residual value guarantee'],
+             'a': 'finance lease · lessee · right-of-use asset',
              'one': True,
              'why': 'The book writes: “For a finance lease, the lessee '
                     'records interest on the liability and, separately, '
                     'amortization of the right-of-use asset, usually '
                     'straight-line. Interest is highest at the start, when '
                     'the liability is largest, so total expense falls each '
-                    'year. Finance-lease expense is higher early; an '
-                    'operating lease would be flat.”'},
+                    'year.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -73,51 +69,40 @@ HANDOUT = {'id': '14.4',
                        11,
                        ' records one lease cost, normally the same each '
                        'year. The liability still grows by interest and '
-                       'falls by payments. The amortization of the ',
-                       20,
-                       ' is simply the difference between the lease cost and '
-                       'the interest, so the asset and the liability stay '
-                       'equal when there are no prepayments or incentives.'],
-             'bank': ['residual value guarantee',
-                      'lessee',
-                      'right-of-use asset',
+                       'falls by payments.'],
+             'bank': ['lessee',
                       'operating lease',
-                      'finance lease'],
-             'a': 'operating lease · lessee · right-of-use asset',
+                      'finance lease',
+                      'residual value guarantee'],
+             'a': 'operating lease · lessee',
              'one': True,
              'why': 'The book writes: “For an operating lease, the lessee '
                     'records one lease cost, normally the same each year. '
                     'The liability still grows by interest and falls by '
-                    'payments. The amortization of the right-of-use asset is '
-                    'simply the difference between the lease cost and the '
-                    'interest, so the asset and the liability stay equal '
-                    'when there are no prepayments or incentives.”'},
+                    'payments.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['For a ',
-                       15,
-                       ', the ',
-                       11,
-                       ' records interest on the liability and, separately, '
-                       'amortization of the ',
+             'parts': ['The amortization of the ',
                        20,
-                       ', usually straight-line. Interest is highest at the '
-                       'start, when the liability is largest, so total '
-                       'expense falls each year.'],
-             'bank': ['sale and leaseback',
-                      'right-of-use asset',
+                       ' is simply the difference between the ',
+                       11,
+                       ' cost and the interest, so the asset and the '
+                       'liability stay equal when there are no prepayments '
+                       'or incentives. The liability is a present value, not '
+                       'the total of the payments.'],
+             'bank': ['lease',
                       'finance lease',
-                      'lessee',
+                      'right-of-use asset',
                       'residual value guarantee'],
-             'a': 'finance lease · lessee · right-of-use asset',
+             'a': 'right-of-use asset · lease',
              'one': True,
-             'why': 'The book writes: “For a finance lease, the lessee '
-                    'records interest on the liability and, separately, '
-                    'amortization of the right-of-use asset, usually '
-                    'straight-line. Interest is highest at the start, when '
-                    'the liability is largest, so total expense falls each '
-                    'year.”'}],
+             'why': 'The book writes: “The amortization of the right-of-use '
+                    'asset is simply the difference between the lease cost '
+                    'and the interest, so the asset and the liability stay '
+                    'equal when there are no prepayments or incentives. The '
+                    'liability is a present value, not the total of the '
+                    'payments.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -141,11 +126,10 @@ HANDOUT = {'id': '14.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of L1 Delivery trucks as '
-                  '“Operating lease”.',
+             'q': 'The book gives the category of L4 Laptops as “Operating '
+                  'lease”.',
              'a': 'T',
-             'why': 'The book pairs L1 Delivery trucks with “Operating '
-                    'lease”.'}]),
+             'why': 'The book pairs L4 Laptops with “Operating lease”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -168,42 +152,6 @@ HANDOUT = {'id': '14.4',
              'a': 'B',
              'why': 'The book’s own table gives Operating lease as the '
                     'category of L1 Delivery trucks.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for L2 Forklift?',
-             'o': ['Short-term lease (exempt)',
-                   'Finance lease',
-                   'Operating lease'],
-             'a': 'B',
-             'why': 'The book’s own table gives Finance lease as the '
-                    'category of L2 Forklift.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for L3 Storage room?',
-             'o': ['Finance lease',
-                   'Operating lease',
-                   'Short-term lease (exempt)'],
-             'a': 'C',
-             'why': 'The book’s own table gives Short-term lease (exempt) as '
-                    'the category of L3 Storage room.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for L4 Laptops?',
-             'o': ['Operating lease',
-                   'Short-term lease (exempt)',
-                   'Finance lease'],
-             'a': 'A',
-             'why': 'The book’s own table gives Operating lease as the '
-                    'category of L4 Laptops.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of L1 Delivery trucks as '
-                  '“Operating lease”.',
-             'a': 'T',
-             'why': 'The book pairs L1 Delivery trucks with “Operating '
-                    'lease”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of L2 Forklift as “Operating '
-                  'lease”.',
-             'a': 'F',
-             'why': 'The book pairs L2 Forklift with “Finance lease”, not '
-                    'with “Operating lease”.'},
             {'t': 'SORT',
              'q': 'Write each one under its category. Every item belongs to '
                   'exactly one group.',
@@ -221,6 +169,20 @@ HANDOUT = {'id': '14.4',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
+             'q': 'A lessee rents a storage room for 10 months, with no '
+                  'purchase option, and elects the short-term exemption. It:',
+             'o': ['records an ROU asset and a lease liability',
+                   'expenses the payments straight-line and records no ROU '
+                   'asset or liability',
+                   'records a finance lease',
+                   'discloses the lease only in a note, with no expense'],
+             'a': 'B',
+             'why': 'The exemption keeps short-term leases off the balance '
+                    'sheet. A is wrong: The elected exemption removes the '
+                    'recognition. C is wrong: Short-term leases are not '
+                    'capitalized when exempted.',
+             'src': 'P14-05'},
+            {'t': 'MCQ',
              'q': 'A lease has no transfer or purchase option, covers 40% of '
                   "the asset's life, and the PV of payments is 60% of fair "
                   'value. The asset is standard. The lease is:',
@@ -321,7 +283,89 @@ HANDOUT = {'id': '14.4',
                     'A is wrong: The reasonably certain renewal must be '
                     'included. C is wrong: The noncancelable period is '
                     'included too.',
-             'src': 'SC14-2'}]),
+             'src': 'SC14-2'},
+            {'t': 'MCQ',
+             'q': 'Which contract contains a lease?',
+             'o': ["A cleaning company provides staff to clean Orontes's "
+                   'offices',
+                   'A supplier delivers olive oil every month from any of '
+                   'its tanks',
+                   'Orontes rents a specific warehouse for five years and '
+                   'decides how it is used',
+                   'Orontes buys a delivery van'],
+             'a': 'C',
+             'why': 'An identified asset, controlled by Orontes, for a '
+                    'period. A is wrong: This is a service contract; no '
+                    'asset is controlled. B is wrong: The supplier can use '
+                    'any tank: no identified asset.',
+             'src': 'SC14-1'},
+            {'t': 'MCQ',
+             'q': 'A lessee cannot determine the rate implicit in the lease. '
+                  'Which rate does a public company use to measure the lease '
+                  'liability?',
+             'o': ['The risk-free rate',
+                   'Its incremental borrowing rate',
+                   'Zero',
+                   "The lessor's cost of capital"],
+             'a': 'B',
+             'why': 'Only non-PBEs may elect the risk-free rate. A is wrong: '
+                    'The risk-free election is for companies that are not '
+                    'PBEs. C is wrong: Lease payments are discounted.',
+             'src': 'SC14-6'},
+            {'t': 'MCQ',
+             'q': 'Where does Orontes report the principal part of its 2026 '
+                  'olive-press payment in the statement of cash flows?',
+             'o': ['Operating activities',
+                   'Investing activities',
+                   'It is not a cash flow',
+                   'Financing activities'],
+             'a': 'D',
+             'why': 'Finance-lease principal is repayment of a liability. A '
+                    'is wrong: Only the interest part is operating. B is '
+                    'wrong: The asset was not bought for cash.',
+             'src': 'SC14-9'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. Why is '
+                  'the olive-press lease a finance lease?',
+             'o': ['The asset is specialized and the term is a major part of '
+                   'its economic life',
+                   'The payments are larger than the warehouse payments',
+                   'Orontes will buy the press at the end',
+                   'All equipment leases are finance leases'],
+             'a': 'A',
+             'why': 'Meeting any one criterion is enough; the press meets '
+                    'two. B is wrong: The size of the payment is not a '
+                    'criterion. C is wrong: There is no purchase option.',
+             'src': 'SC14-3'}]),
+          ('panel',
+           'Suppose: January 1, 2026 (whole USD) — the extract for the '
+           'question that follows',
+           [['Suppose: January 1, 2026 (whole USD)',
+             'Warehouse',
+             'Olive press'],
+            ['Annual payment (end of each year)', '100,000', '250,000'],
+            ['Number of payments', '5', '4'],
+            ['Discount rate (incremental borrowing rate)', '6%', '6%'],
+            ['Undiscounted payments', '500,000', '1,000,000'],
+            ['Lease liability = present value of payments',
+             '421,236',
+             '866,276'],
+            ['Right-of-use asset (no prepayments, costs or incentives)',
+             '421,236',
+             '866,276']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. At what '
+                  'amount does Orontes first record the warehouse lease '
+                  'liability (whole USD)?',
+             'o': ['500,000', '421,236', '100,000'],
+             'a': 'B',
+             'why': 'The present value of the five payments at 6%. A is '
+                    'wrong: This is only one payment. C is wrong: Payments '
+                    'must be discounted.',
+             'src': 'SC14-5'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

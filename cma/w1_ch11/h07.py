@@ -3,10 +3,19 @@
 
 HANDOUT = {'id': '11.7',
  'n': 7,
- 'pages': 6,
+ 'pages': 7,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P11-08',
+            'p:P11-09',
+            'p:P11-10',
+            'p:P11-12',
+            'p:P11-13',
+            'p:P11-14',
+            'p:P11-17',
+            'p:P11-18',
+            'p:P11-20',
             'sc:SC11-6',
             'sc:SC11-7',
             'sc:SC11-8',
@@ -49,8 +58,8 @@ HANDOUT = {'id': '11.7',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'Orontes pays a supermarket $30,000 for shelf space and '
-             'receives no distinct service. How is the payment treated?'],
+             'A gym charges a nonrefundable joining fee when a customer '
+             'signs a one-year membership. The fee is:'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item · Obligation',
              'What has to be settled before any figure in a case set is '
@@ -63,34 +72,27 @@ HANDOUT = {'id': '11.7',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Step 3: determine the ',
-                       19,
-                       ', the amount the company expects to receive. It '
-                       'includes ',
-                       24,
-                       ', such as rebates and bonuses. The company estimates '
-                       'it using the expected value, for many possible '
-                       'outcomes, or the most likely amount, for an '
-                       'all-or-nothing outcome. Variable amounts are '
-                       'included only to the extent that a significant '
-                       'reversal of ',
+             'parts': ['The company estimates it using the expected value, '
+                       'for many possible outcomes, or the most likely '
+                       'amount, for an all-or-nothing outcome. Variable '
+                       'amounts are included only to the extent that a '
+                       'significant reversal of ',
                        11,
-                       ' is not probable later.'],
+                       ' is not probable later. This is the ',
+                       38,
+                       '.'],
              'bank': ['material right',
-                      'input method',
-                      'variable consideration',
-                      'transaction price',
-                      'revenue'],
-             'a': 'transaction price · variable consideration · revenue',
+                      'constraint on variable consideration',
+                      'revenue',
+                      'input method'],
+             'a': 'revenue · constraint on variable consideration',
              'one': True,
-             'why': 'The book writes: “Step 3: determine the transaction '
-                    'price, the amount the company expects to receive. It '
-                    'includes variable consideration, such as rebates and '
-                    'bonuses. The company estimates it using the expected '
-                    'value, for many possible outcomes, or the most likely '
-                    'amount, for an all-or-nothing outcome. Variable amounts '
-                    'are included only to the extent that a significant '
-                    'reversal of revenue is not probable later.”'},
+             'why': 'The book writes: “The company estimates it using the '
+                    'expected value, for many possible outcomes, or the most '
+                    'likely amount, for an all-or-nothing outcome. Variable '
+                    'amounts are included only to the extent that a '
+                    'significant reversal of revenue is not probable later. '
+                    'This is the constraint on variable consideration.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -106,7 +108,8 @@ HANDOUT = {'id': '11.7',
                        11,
                        ' is recognized at a ',
                        15,
-                       ': when control passes.'],
+                       ': when control passes. Olive oil is recognized at '
+                       'each delivery.'],
              'bank': ['output method',
                       'input method',
                       'point in time',
@@ -121,36 +124,37 @@ HANDOUT = {'id': '11.7',
                     'output method, such as units delivered, or an input '
                     'method, such as costs incurred. If no over-time '
                     'criterion is met, revenue is recognized at a point in '
-                    'time: when control passes.”'},
+                    'time: when control passes. Olive oil is recognized at '
+                    'each delivery.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
+             'parts': ['An ',
                        11,
-                       ' or ',
+                       "'s ",
                        11,
-                       ': gross or net ',
-                       11,
-                       ' on a drop shipment. When customers may return '
-                       'goods, the company recognizes revenue only for goods '
-                       'it does not expect to be returned. It records a ',
+                       ' is its commission, not the full price the customer '
+                       'pays. Present the ',
                        18,
-                       ' for expected refunds and a separate asset for its '
-                       'right to recover the returned goods.'],
-             'bank': ['revenue',
+                       ' and the return asset separately. Goods on '
+                       "consignment stay in the consignor's inventory. The ",
+                       20,
+                       ' says that expenses are recognized in the same '
+                       'period as the revenues they help to earn.'],
+             'bank': ['refund liability',
                       'material right',
                       'input method',
-                      'Principal',
                       'agent',
-                      'refund liability'],
-             'a': 'Principal · agent · revenue · refund liability',
+                      'revenue',
+                      'matching principle'],
+             'a': 'agent · revenue · refund liability · matching principle',
              'one': True,
-             'why': 'The book writes: “Principal or agent: gross or net '
-                    'revenue on a drop shipment. When customers may return '
-                    'goods, the company recognizes revenue only for goods it '
-                    'does not expect to be returned. It records a refund '
-                    'liability for expected refunds and a separate asset for '
-                    'its right to recover the returned goods.”'}]),
+             'why': "The book writes: “An agent's revenue is its commission, "
+                    'not the full price the customer pays. Present the '
+                    'refund liability and the return asset separately. Goods '
+                    "on consignment stay in the consignor's inventory. The "
+                    'matching principle says that expenses are recognized in '
+                    'the same period as the revenues they help to earn.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -163,6 +167,7 @@ HANDOUT = {'id': '11.7',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -174,28 +179,6 @@ HANDOUT = {'id': '11.7',
              'a': 'D',
              'why': 'The book numbers “Revenue and the core principle” as '
                     'section 11.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.2?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences'],
-             'a': 'C',
-             'why': 'The book numbers “Steps 1 and 2: the contract and its '
-                    'performance obligations” as section 11.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.3?',
-             'o': ['Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Steps 3 and 4: the transaction price and its allocation',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences'],
-             'a': 'B',
-             'why': 'The book numbers “Steps 3 and 4: the transaction price '
-                    'and its allocation” as section 11.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -214,38 +197,108 @@ HANDOUT = {'id': '11.7',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes pays a sales commission of $32,400 to win the '
-                  'two-year GreenBasket contract. How is it treated?',
-             'o': ['Expensed immediately',
-                   'Capitalized and expensed as the goods and services are '
-                   'transferred',
-                   'Deducted from revenue',
-                   'Added to the cost of the dispenser'],
+             'q': 'Orontes provides cleaning services every week to a hotel. '
+                  'How is revenue recognized?',
+             'o': ['At the end of the contract',
+                   'Over time, because the hotel receives and uses the '
+                   'benefit as Orontes performs',
+                   'When the hotel pays',
+                   'At the start, when the contract is signed'],
              'a': 'B',
-             'why': 'Incremental costs of obtaining a contract are '
-                    'capitalized if recoverable; the period is more than one '
-                    'year. A is wrong: The one-year expedient does not apply '
-                    'to a two-year contract. C is wrong: A commission paid '
-                    'to an employee is not a payment to the customer.',
-             'src': 'SC11-11'}]),
+             'why': 'The first over-time criterion is met. A is wrong: The '
+                    'service is transferred continuously. C is wrong: '
+                    'Payment does not decide timing.',
+             'src': 'P11-13'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A builder constructs a factory on land owned by the '
+                  'customer. The customer controls the work in progress. '
+                  'Revenue is recognized:',
+             'o': ['over time, using a measure of progress',
+                   'at completion',
+                   'when the final payment is received',
+                   'only if the customer pays in advance'],
+             'a': 'A',
+             'why': 'The builder improves an asset the customer controls. B '
+                    'is wrong: An over-time criterion is met, so completion '
+                    'is not the trigger. C is wrong: Payment does not decide '
+                    'timing.',
+             'src': 'P11-14'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company has delivered goods, but it cannot bill the '
+                  'customer until it also delivers a second product next '
+                  'month. At year-end it reports:',
+             'o': ['a receivable',
+                   'a contract liability',
+                   'a contract asset',
+                   'no balance'],
+             'a': 'C',
+             'why': 'Its right to payment depends on something other than '
+                    'time. A is wrong: A receivable needs an unconditional '
+                    'right. B is wrong: The customer has not paid in '
+                    'advance.',
+             'src': 'P11-17'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company may estimate variable consideration and include '
+                  'it in the transaction price only to the extent that:',
+             'o': ['a significant reversal of revenue is not probable later',
+                   'the amount is certain',
+                   'the customer has already paid',
+                   'the amount is less than 10% of the price'],
+             'a': 'A',
+             'why': 'This is the constraint on variable consideration. B is '
+                    'wrong: Estimates are allowed; certainty is not needed. '
+                    'C is wrong: Payment is not required.',
+             'src': 'P11-18'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company pays a $2,000 commission to win a six-month '
+                  'service contract. It may:',
+             'o': ['never expense it',
+                   'deduct it from revenue',
+                   'capitalize it as equipment',
+                   'expense the commission immediately, using the practical '
+                   'expedient'],
+             'a': 'D',
+             'why': 'The amortization period is one year or less. A is '
+                    'wrong: Capitalized costs are also expensed over time. B '
+                    'is wrong: The commission is paid to an employee, not '
+                    'the customer.',
+             'src': 'P11-20'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes pays a supermarket $30,000 for shelf space and '
+                  'receives no distinct service. How is the payment treated?',
+             'o': ['As a marketing expense',
+                   'As a reduction of the transaction price (revenue)',
+                   'As a prepaid asset amortized over five years',
+                   'As cost of goods sold'],
+             'a': 'B',
+             'why': 'Consideration payable to a customer reduces revenue '
+                    'unless it buys a distinct good or service. A is wrong: '
+                    'No distinct service is received, so it is not an '
+                    'expense. C is wrong: It reduces the price of the sale.',
+             'src': 'SC11-6'}]),
           ('pair',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
           ('check',
-           'Orontes pays a supermarket $30,000 for shelf space and receives '
-           'no distinct service. How is the payment treated?',
-           ['As a marketing expense',
-            'As a reduction of the transaction price (revenue)',
-            'As a prepaid asset amortized over five years',
-            'As cost of goods sold'],
-           'B',
+           'A gym charges a nonrefundable joining fee when a customer signs '
+           'a one-year membership. The fee is:',
+           ['revenue at once, because it is nonrefundable',
+            'a liability until the customer leaves',
+            'deferred and recognized over the membership period',
+            'deducted from expenses'],
+           'C',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'Consideration payable to a customer reduces revenue unless it '
-           'buys a distinct good or service. A is wrong: No distinct service '
-           'is received, so it is not an expense. C is wrong: It reduces the '
-           'price of the sale.'),
+           'The fee relates to future services, not to a distinct service at '
+           'signing. A is wrong: Nonrefundable does not mean earned. B is '
+           'wrong: It is earned over the year, not held until the customer '
+           'leaves.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -271,82 +324,28 @@ HANDOUT = {'id': '11.7',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C11-1 ask for?',
-             'o': ['How does Orontes treat the menu listing fee (M2)? '
-                   '[select]',
-                   'Enter the transaction price allocated to the staff '
-                   'training.',
-                   'Classify each item in the Qasr contract. (On the exam '
-                   'screen you would',
-                   "Enter Orontes's 2026 revenue from the Qasr contract."],
-             'a': 'C',
-             'why': 'The book states item C11-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C11-2 ask for?',
-             'o': ['Enter the contract liability at December 31, 2026.',
-                   "Enter Orontes's 2026 revenue from the Qasr contract.",
-                   'Enter the transaction price.',
-                   'How does Orontes treat the menu listing fee (M2)? '
-                   '[select]'],
-             'a': 'C',
-             'why': 'The book states item C11-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C11-3 ask for?',
-             'o': ["Enter Orontes's 2026 revenue from the Qasr contract.",
-                   'How does Orontes treat the menu listing fee (M2)? '
-                   '[select]',
-                   'Classify each item in the Qasr contract. (On the exam '
-                   'screen you would',
-                   'Enter the transaction price allocated to the staff '
-                   'training.'],
-             'a': 'D',
-             'why': 'The book states item C11-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C11-4 ask for?',
-             'o': ["Enter Orontes's 2026 revenue from the Qasr contract.",
-                   'Enter the contract liability at December 31, 2026.',
-                   'Enter the transaction price allocated to the staff '
-                   'training.',
-                   'How does Orontes treat the menu listing fee (M2)? '
-                   '[select]'],
-             'a': 'A',
-             'why': 'The book states item C11-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C11-5 ask for?',
-             'o': ['How does Orontes treat the menu listing fee (M2)? '
-                   '[select]',
-                   'Enter the contract liability at December 31, 2026.',
-                   'Enter the transaction price allocated to the staff '
-                   'training.',
-                   "Enter Orontes's 2026 revenue from the Qasr contract."],
-             'a': 'B',
-             'why': 'The book states item C11-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C11-6 ask for?',
-             'o': ['Enter the transaction price allocated to the staff '
-                   'training.',
-                   "Enter Orontes's 2026 revenue from the Qasr contract.",
-                   'Enter the contract liability at December 31, 2026.',
-                   'How does Orontes treat the menu listing fee (M2)? '
-                   '[select]'],
-             'a': 'D',
-             'why': 'The book states item C11-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter the transaction price.',
+                      'Enter the contract liability at December 31, 2026.',
+                      'How does Orontes treat the menu listing fee (M2)? '
+                      '[select]',
+                      'Enter the transaction price allocated to the staff '
+                      'training.',
+                      'Classify each item in the Qasr contract. (On the exam '
+                      'screen you would drag each item into a box.)',
+                      "Enter Orontes's 2026 revenue from the Qasr contract."],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['B', 'E', 'F', 'C', 'A', 'D'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Orontes pays a supermarket $30,000 for shelf space and '
-                  'receives no distinct service. How is the payment treated?',
-             'o': ['As a marketing expense',
-                   'As a reduction of the transaction price (revenue)',
-                   'As a prepaid asset amortized over five years',
-                   'As cost of goods sold'],
-             'a': 'B',
-             'why': 'Consideration payable to a customer reduces revenue '
-                    'unless it buys a distinct good or service. A is wrong: '
-                    'No distinct service is received, so it is not an '
-                    'expense. C is wrong: It reduces the price of the sale.',
-             'src': 'SC11-6'}]),
           ('panel',
            'Obligation — the extract for the question that follows',
            [['Obligation',
@@ -384,6 +383,50 @@ HANDOUT = {'id': '11.7',
                     'wrong: This recognizes all the maintenance now instead '
                     'of over time.',
              'src': 'SC11-7'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A customer pays in advance for a service that the company '
+                  'will provide next year. At year-end, the company reports:',
+             'o': ['a contract asset',
+                   'a receivable',
+                   'a contract liability',
+                   'revenue'],
+             'a': 'C',
+             'why': 'Payment before performance creates a contract '
+                    'liability. A is wrong: A contract asset arises when '
+                    'performance comes first. B is wrong: The customer has '
+                    'already paid.',
+             'src': 'SC11-8'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes ships olive oil to a shop on consignment. When '
+                  'does Orontes recognize revenue?',
+             'o': ['When the oil is shipped to the shop',
+                   'When the shop receives the oil',
+                   'When the shop sells the oil to its customers',
+                   'At the end of the month of shipment'],
+             'a': 'C',
+             'why': 'The consignee does not control the goods; the sale '
+                    'happens when they are sold on. A is wrong: Shipment on '
+                    'consignment does not transfer control. B is wrong: '
+                    'Possession alone is not control here.',
+             'src': 'SC11-10'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes pays a sales commission of $32,400 to win the '
+                  'two-year GreenBasket contract. How is it treated?',
+             'o': ['Expensed immediately',
+                   'Capitalized and expensed as the goods and services are '
+                   'transferred',
+                   'Deducted from revenue',
+                   'Added to the cost of the dispenser'],
+             'a': 'B',
+             'why': 'Incremental costs of obtaining a contract are '
+                    'capitalized if recoverable; the period is more than one '
+                    'year. A is wrong: The one-year expedient does not apply '
+                    'to a two-year contract. C is wrong: A commission paid '
+                    'to an employee is not a payment to the customer.',
+             'src': 'SC11-11'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

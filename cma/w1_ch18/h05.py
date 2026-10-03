@@ -7,6 +7,8 @@ HANDOUT = {'id': '18.5',
  'title': 'Benefits and challenges',
  'sub': 'section 18.5 of the book',
  'covers': ['sec:18.5',
+            'p:P18-06',
+            'sc:P18-06',
             'term:value creation process',
             'term:intellectual capital'],
  'skills': [('read5', 3)],
@@ -18,7 +20,7 @@ HANDOUT = {'id': '18.5',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Benefits and challenges',
-             'a figure to read · Item',
+             'a figure to read · Item · Capital',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
@@ -38,8 +40,8 @@ HANDOUT = {'id': '18.5',
                        'long-term view.'],
              'bank': ['guiding principles',
                       'content elements',
-                      'integrated reporting',
-                      'capitals'],
+                      'capitals',
+                      'integrated reporting'],
              'a': 'integrated reporting · capitals',
              'one': True,
              'why': 'The book writes: “Supporters say integrated reporting '
@@ -52,53 +54,52 @@ HANDOUT = {'id': '18.5',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Supporters say ',
-                       22,
-                       ' improves management itself: to report on all the ',
-                       11,
-                       ', managers must think about how they connect. It can '
-                       'improve the allocation of capital, give investors a '
-                       'clearer and more concise picture, and encourage a '
-                       'long-term view. Preparing the report takes time and '
-                       'money, and non-financial capitals such as '
-                       'relationships and skills are hard to measure.'],
-             'bank': ['guiding principles',
-                      'content elements',
-                      'capitals',
-                      'integrated reporting'],
-             'a': 'integrated reporting · capitals',
-             'one': True,
-             'why': 'The book writes: “Supporters say integrated reporting '
-                    'improves management itself: to report on all the '
-                    'capitals, managers must think about how they connect. '
-                    'It can improve the allocation of capital, give '
-                    'investors a clearer and more concise picture, and '
-                    'encourage a long-term view. Preparing the report takes '
-                    'time and money, and non-financial capitals such as '
-                    'relationships and skills are hard to measure.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['Because the Framework is voluntary and does not '
-                       'prescribe measures, reports differ between '
-                       'companies, which limits ',
+             'parts': ['Preparing the report takes time and money, and ',
                        15,
-                       '. Benefits and ',
-                       12,
-                       ' of ',
-                       12,
-                       ' reporting.'],
-             'bank': ['integrated',
-                      'comparability',
-                      'challenges',
-                      'content elements',
-                      'guiding principles'],
-             'a': 'comparability · challenges · integrated',
+                       ' ',
+                       11,
+                       ' such as ',
+                       15,
+                       ' and skills are hard to measure. Companies may worry '
+                       'about revealing information to competitors or '
+                       'creating legal risk, and assurance practice is still '
+                       'limited.'],
+             'bank': ['relationships',
+                      'guiding principles',
+                      'non-financial',
+                      'capitals',
+                      'content elements'],
+             'a': 'non-financial · capitals · relationships',
              'one': True,
-             'why': 'The book writes: “Because the Framework is voluntary '
-                    'and does not prescribe measures, reports differ between '
-                    'companies, which limits comparability. Benefits and '
-                    'challenges of integrated reporting.”'}],
+             'why': 'The book writes: “Preparing the report takes time and '
+                    'money, and non-financial capitals such as relationships '
+                    'and skills are hard to measure. Companies may worry '
+                    'about revealing information to competitors or creating '
+                    'legal risk, and assurance practice is still limited.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Item” settles these: for '
+                       'Safety training for factory staff it is ',
+                       15,
+                       ', for The trademark for Orontes Gold olive oil it '
+                       'is ',
+                       22,
+                       ' and for Water drawn from local wells it is ',
+                       17,
+                       '.'],
+             'bank': ['Natural capital',
+                      'Social and relationship capital',
+                      'Intellectual capital',
+                      'Human capital'],
+             'one': True,
+             'a': 'Human capital · Intellectual capital · Natural capital',
+             'why': 'From the book’s own table “Item”: The book’s own table '
+                    '“Item” settles these: for Safety training for factory '
+                    'staff it is Human capital and for The trademark for '
+                    'Orontes Gold olive oil it is Intellectual capital and '
+                    'for Water drawn from local wells it is Natural '
+                    'capital.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -122,11 +123,11 @@ HANDOUT = {'id': '18.5',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the answer of Safety training for factory '
-                  'staff as “Human capital”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Safety training for factory staff with '
-                    '“Human capital”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f5'),
           ('panel',
@@ -144,66 +145,53 @@ HANDOUT = {'id': '18.5',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Safety training for '
-                  'factory staff?',
-             'o': ['Human capital',
-                   'Intellectual capital',
-                   'Social and relationship capital',
-                   'Natural capital'],
-             'a': 'A',
-             'why': 'The book’s own table gives Human capital as the answer '
-                    'of Safety training for factory staff.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for The trademark for '
-                  'Orontes Gold olive oil?',
-             'o': ['Intellectual capital',
-                   'Natural capital',
-                   'Human capital',
-                   'Social and relationship capital'],
-             'a': 'A',
-             'why': 'The book’s own table gives Intellectual capital as the '
-                    'answer of The trademark for Orontes Gold olive oil.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Water drawn from '
-                  'local wells?',
-             'o': ['Intellectual capital',
-                   'Human capital',
-                   'Natural capital',
-                   'Social and relationship capital'],
-             'a': 'C',
-             'why': 'The book’s own table gives Natural capital as the '
-                    'answer of Water drawn from local wells.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Long-term contracts '
-                  'with grower cooperatives?',
-             'o': ['Social and relationship capital',
-                   'Intellectual capital',
-                   'Human capital',
-                   'Natural capital'],
-             'a': 'A',
-             'why': 'The book’s own table gives Social and relationship '
-                    'capital as the answer of Long-term contracts with '
-                    'grower cooperatives.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Safety training for factory '
-                  'staff as “Human capital”.',
-             'a': 'T',
-             'why': 'The book pairs Safety training for factory staff with '
-                    '“Human capital”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of The trademark for Orontes '
-                  'Gold olive oil as “Human capital”.',
-             'a': 'F',
-             'why': 'The book pairs The trademark for Orontes Gold olive oil '
-                    'with “Intellectual capital”, not with “Human '
-                    'capital”.'}]),
+             'q': 'Which part of this chapter is section 18.1?',
+             'o': ['Guiding principles and content elements',
+                   'Integrated reporting and sustainability disclosures',
+                   'Value creation and the six capitals',
+                   'Integrated thinking, integrated reporting and the '
+                   'integrated report'],
+             'a': 'D',
+             'why': 'The book numbers “Integrated thinking, integrated '
+                    'reporting and the integrated report” as section '
+                    '18.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
+          ('panel',
+           'Capital — the extract for the question that follows',
+           [['Capital', 'Orontes examples (2027)', 'Possible measure'],
+            ['Financial',
+             'Equity and bank loans (Part I)',
+             'Cash flow from operations'],
+            ['Manufactured',
+             'Presses, bottling lines, cold stores',
+             'Plant capacity'],
+            ['Intellectual',
+             'Recipes, brand, new sparkling-juice line',
+             'Share of sales from new products'],
+            ['Human', '1,850 employees', '20 training hours per employee'],
+            ['Social and relationship',
+             '2,400 farmers in grower cooperatives; supermarket customers',
+             'Farmer contracts renewed'],
+            ['Natural',
+             'Olive groves, water, energy',
+             'Water 900,000 m3; renewable electricity 30%']],
+           ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. '
+                  "Orontes's 2,400 cooperative farmers are an example of "
+                  'which capital?',
+             'o': ['Human capital',
+                   'Social and relationship capital',
+                   'Natural capital',
+                   'Financial capital'],
+             'a': 'B',
+             'why': 'Relationships with suppliers and communities are social '
+                    'and relationship capital. A is wrong: Human capital is '
+                    "the company's own people and their skills. C is wrong: "
+                    'The farmers are a relationship; the groves are natural '
+                    'capital.',
+             'src': 'P18-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -216,7 +204,8 @@ HANDOUT = {'id': '18.5',
             'only the vocabulary',
             'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A.',
+           'redo the READ THE MODEL questions of cycle A with the model in '
+           'front of you.',
            'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
@@ -243,12 +232,35 @@ HANDOUT = {'id': '18.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Safety training for factory staff',
+                      'The trademark for Orontes Gold olive oil',
+                      'Water drawn from local wells',
+                      'Long-term contracts with grower cooperatives'],
+             'right': ['Social and relationship capital',
+                       'Natural capital',
+                       'Intellectual capital',
+                       'Human capital'],
+             'a': ['D', 'C', 'B', 'A'],
+             'whys': ['', '', '', '']}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. '
+                  "Orontes's 2,400 cooperative farmers are an example of "
+                  'which capital?',
+             'o': ['Human capital',
+                   'Social and relationship capital',
+                   'Natural capital',
+                   'Financial capital'],
+             'a': 'B',
+             'why': 'Relationships with suppliers and communities are social '
+                    'and relationship capital. A is wrong: Human capital is '
+                    "the company's own people and their skills. C is wrong: "
+                    'The farmers are a relationship; the groves are natural '
+                    'capital.',
+             'src': 'P18-06'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

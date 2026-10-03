@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '11.6',
  'n': 6,
- 'pages': 5,
+ 'pages': 6,
  'title': 'Matching, contract costs and IFRS differences',
  'sub': 'section 11.6 of the book',
  'covers': ['sec:11.6',
+            'p:P11-06',
             'term:over time',
             'term:significant financing component',
             'term:material right'],
@@ -22,23 +23,23 @@ HANDOUT = {'id': '11.6',
              'a figure to read · Item (USD 000)',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Topic · The English the exam uses, and what it translates',
+             'a figure to read · Topic · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The matching principle says that expenses are ',
+             'parts': ['Cost of goods sold is ',
                        12,
-                       ' in the same period as the revenues they help to '
-                       'earn. Cost of goods sold is recognized when the '
-                       'related sale is recognized. Costs with no future '
-                       'benefit, such as most ',
+                       ' when the related sale is recognized. Costs with no '
+                       'future benefit, such as most ',
                        13,
                        ', are expensed at once, and long-lived assets are ',
                        13,
-                       ' over the periods they serve.'],
+                       ' over the periods they serve. Contract costs follow '
+                       'the same idea.'],
              'bank': ['advertising',
                       'recognized',
                       'bill-and-hold arrangement',
@@ -46,66 +47,63 @@ HANDOUT = {'id': '11.6',
                       'point in time'],
              'a': 'recognized · advertising · depreciated',
              'one': True,
-             'why': 'The book writes: “The matching principle says that '
-                    'expenses are recognized in the same period as the '
-                    'revenues they help to earn. Cost of goods sold is '
-                    'recognized when the related sale is recognized. Costs '
-                    'with no future benefit, such as most advertising, are '
-                    'expensed at once, and long-lived assets are depreciated '
-                    'over the periods they serve.”'},
+             'why': 'The book writes: “Cost of goods sold is recognized when '
+                    'the related sale is recognized. Costs with no future '
+                    'benefit, such as most advertising, are expensed at '
+                    'once, and long-lived assets are depreciated over the '
+                    'periods they serve. Contract costs follow the same '
+                    'idea.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['It ',
-                       13,
-                       ' this amount and expenses it as it transfers the '
-                       'goods and services. If the ',
+             'parts': ['If the ',
                        14,
                        ' period is one year or less, the company may expense '
                        'such costs ',
                        13,
-                       '. Costs to fulfill a contract are capitalized only '
-                       'if they relate directly to it and create a resource '
-                       'that will be used.'],
-             'bank': ['capitalizes',
-                      'immediately',
+                       '. Costs to fulfill a contract are ',
+                       13,
+                       ' only if they relate directly to it and create a '
+                       'resource that will be used. Under U.S. GAAP, an '
+                       'impairment of these assets is never reversed.'],
+             'bank': ['amortization',
+                      'capitalized',
                       'point in time',
-                      'amortization',
+                      'immediately',
                       'bill-and-hold arrangement'],
-             'a': 'capitalizes · amortization · immediately',
+             'a': 'amortization · immediately · capitalized',
              'one': True,
-             'why': 'The book writes: “It capitalizes this amount and '
-                    'expenses it as it transfers the goods and services. If '
-                    'the amortization period is one year or less, the '
-                    'company may expense such costs immediately. Costs to '
-                    'fulfill a contract are capitalized only if they relate '
-                    'directly to it and create a resource that will be '
-                    'used.”'},
+             'why': 'The book writes: “If the amortization period is one '
+                    'year or less, the company may expense such costs '
+                    'immediately. Costs to fulfill a contract are '
+                    'capitalized only if they relate directly to it and '
+                    'create a resource that will be used. Under U.S. GAAP, '
+                    'an impairment of these assets is never reversed.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['They matter for ',
-                       13,
-                       ', but the five steps are the same. Arabic إيرادات '
-                       'مؤجلة and French ',
+             'parts': ['Arabic إيرادات مؤجلة and French ',
                        11,
-                       " constatés d'avance describe cash received before "
-                       'revenue is earned. SC11-12 A company impaired a ',
-                       13,
-                       ' contract cost last year.'],
+                       " constatés d'avance describe cash received before ",
+                       11,
+                       ' is earned. Under ASC 606 the correct term is '
+                       'contract ',
+                       11,
+                       ', and it can also arise when payment is due, not '
+                       'only when cash is received.'],
              'bank': ['point in time',
-                      'capitalized',
-                      'comparisons',
+                      'liability',
                       'produits',
+                      'revenue',
                       'bill-and-hold arrangement'],
-             'a': 'comparisons · produits · capitalized',
+             'a': 'produits · revenue · liability',
              'one': True,
-             'why': 'The book writes: “They matter for comparisons, but the '
-                    'five steps are the same. Arabic إيرادات مؤجلة and '
-                    "French produits constatés d'avance describe cash "
-                    'received before revenue is earned. SC11-12 A company '
-                    'impaired a capitalized contract cost last year.”'}],
+             'why': 'The book writes: “Arabic إيرادات مؤجلة and French '
+                    "produits constatés d'avance describe cash received "
+                    'before revenue is earned. Under ASC 606 the correct '
+                    'term is contract liability, and it can also arise when '
+                    'payment is due, not only when cash is received.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -175,47 +173,23 @@ HANDOUT = {'id': '11.6',
                    'Steps 3 and 4: the transaction price and its allocation'],
              'a': 'C',
              'why': 'The book numbers “Revenue and the core principle” as '
-                    'section 11.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.2?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Matching, contract costs and IFRS differences',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations'],
-             'a': 'D',
-             'why': 'The book numbers “Steps 1 and 2: the contract and its '
-                    'performance obligations” as section 11.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.3?',
-             'o': ['Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences',
-                   'Steps 3 and 4: the transaction price and its allocation'],
-             'a': 'D',
-             'why': 'The book numbers “Steps 3 and 4: the transaction price '
-                    'and its allocation” as section 11.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.4?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time'],
-             'a': 'D',
-             'why': 'The book numbers “Step 5: recognizing revenue over time '
-                    'or at a point in time” as section 11.4.'}]),
+                    'section 11.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Orontes sells a dispenser and agrees to buy it back in '
+                  'one year at a higher price. The arrangement is accounted '
+                  'for as:',
+             'o': ['a sale with revenue now',
+                   'a financing arrangement, not a sale',
+                   'a sale with a right of return',
+                   'a consignment'],
+             'a': 'B',
+             'why': 'A repurchase at or above the original price means '
+                    'control has not passed. A is wrong: Control does not '
+                    'transfer when the seller must buy back. C is wrong: The '
+                    "seller has an obligation, not the customer's option.",
+             'src': 'P11-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -240,6 +214,7 @@ HANDOUT = {'id': '11.6',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f6b'),
           ('panel',
            'Topic — the book’s own table',
            [['Topic', 'U.S. GAAP (ASC 606)', 'IFRS 15'],
@@ -278,36 +253,48 @@ HANDOUT = {'id': '11.6',
                    "Collectibility threshold ('probable')"],
              'a': 'D',
              'why': 'The book’s own table pairs Collectibility threshold '
-                    "('probable') with “Likely (a high threshold)”."},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “May elect to treat '
-                  'as a fulfillment cost”?',
-             'o': ['Impairment of capitalized contract costs',
-                   'Onerous contracts',
-                   'License renewals',
-                   'Shipping after control passes'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Shipping after control '
-                    'passes with “May elect to treat as a fulfillment '
-                    'cost”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “May elect to exclude '
-                  'all”?',
-             'o': ['Shipping after control passes',
-                   'Impairment of capitalized contract costs',
-                   'Sales taxes collected',
-                   'Onerous contracts'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Sales taxes collected with '
-                    '“May elect to exclude all”.'}]),
+                    "('probable') with “Likely (a high threshold)”."}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'GRID',
+             'q': 'Complete every empty cell. The first full row shows the '
+                  'pattern.',
+             'h': ['Topic', 'U.S. GAAP (ASC 606)', 'IFRS 15'],
+             'rows': [["Collectibility threshold ('probable')",
+                       'Likely (a high threshold)',
+                       'More likely than not'],
+                      ['Shipping after control passes', '', ''],
+                      ['Sales taxes collected', '', ''],
+                      ['Impairment of capitalized contract costs', '', ''],
+                      ['License renewals', '', ''],
+                      ['Onerous contracts', '', '']],
+             'a': ['Shipping after control passes: May elect to treat as a '
+                   'fulfillment cost · No election; may be an obligation',
+                   'Sales taxes collected: May elect to exclude all · Judge '
+                   'each tax: principal or agent',
+                   'Impairment of capitalized contract costs: Never reversed '
+                   '· Reversed (limited)',
+                   'License renewals: Revenue when the renewal period begins '
+                   '· Policy choice',
+                   'Onerous contracts: No general rule · IAS 37 provision'],
+             'whys': ['', '', '', '', '']},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each topic. '
+                  'Every one is used once.',
+             'left': ["Collectibility threshold ('probable')",
+                      'Shipping after control passes',
+                      'Sales taxes collected',
+                      'Impairment of capitalized contract costs',
+                      'License renewals',
+                      'Onerous contracts'],
+             'right': ['No general rule',
+                       'Revenue when the renewal period begins',
+                       'Likely (a high threshold)',
+                       'May elect to exclude all',
+                       'Never reversed',
+                       'May elect to treat as a fulfillment cost'],
+             'a': ['C', 'F', 'D', 'E', 'B', 'A'],
+             'whys': ['', '', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

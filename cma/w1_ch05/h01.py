@@ -3,17 +3,16 @@
 
 HANDOUT = {'id': '5.1',
  'n': 1,
- 'pages': 7,
+ 'pages': 6,
  'title': 'Purpose and structure of the statement of cash flows',
  'sub': 'section 5.1 of the book',
  'covers': ['sec:5.1',
             'p:P5-01',
-            'p:P5-02',
             'p:P5-03',
-            'p:P5-04',
-            'sc:P5-01',
             'p:P5-05',
-            'p:P5-06',
+            'p:P5-08',
+            'p:P5-12',
+            'p:P5-14',
             'term:statement of cash flows',
             'term:indirect method'],
  'skills': [('read1', 3)],
@@ -27,8 +26,7 @@ HANDOUT = {'id': '5.1',
             ['Purpose and structure of the statement of cash flows',
              'a figure to read · Orontes Foods Inc., year ended December 31, '
              '2025',
-             "A lender wants to know whether a company's operations produce "
-             'enough cash to repay a loan. Which section is MOST useful?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'Item · The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -39,58 +37,45 @@ HANDOUT = {'id': '5.1',
                   'not used.',
              'parts': ['The ',
                        25,
-                       " reports a company's cash receipts and cash payments "
-                       'for a period. It helps them judge whether the '
-                       'company can produce cash, pay its debts and '
-                       'dividends, and fund its growth without new '
-                       'financing. The statement explains the change in '
-                       'cash, ',
-                       18,
-                       ' and restricted cash together.'],
-             'bank': ['indirect method',
+                       ' reports a ',
+                       11,
+                       ' cash receipts and cash payments for a period. It '
+                       'helps them judge whether the company can produce '
+                       'cash, pay its debts and dividends, and fund its '
+                       'growth without new financing.'],
+             'bank': ['cash equivalents',
                       'statement of cash flows',
-                      'operating activities',
-                      'cash equivalents'],
-             'a': 'statement of cash flows · cash equivalents',
+                      'indirect method',
+                      "company's"],
+             'a': "statement of cash flows · company's",
              'one': True,
              'why': 'The book writes: “The statement of cash flows reports a '
                     "company's cash receipts and cash payments for a period. "
                     'It helps them judge whether the company can produce '
                     'cash, pay its debts and dividends, and fund its growth '
-                    'without new financing. The statement explains the '
-                    'change in cash, cash equivalents and restricted cash '
-                    'together.”'},
+                    'without new financing.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['',
+             'parts': ['The statement explains the change in cash, ',
                        18,
-                       ' are short-term, highly liquid investments with an '
-                       'original maturity to the holder of three months or '
-                       'less. Moving money between these categories is not a '
-                       'cash flow. Cash flows are grouped into ',
-                       22,
-                       ', ',
-                       22,
-                       ' and ',
-                       22,
-                       '.'],
-             'bank': ['operating activities',
+                       ' and restricted cash together. Cash equivalents are '
+                       'short-term, highly liquid ',
+                       13,
+                       ' with an original maturity to the holder of three '
+                       'months or less.'],
+             'bank': ['indirect method',
                       'statement of cash flows',
-                      'financing activities',
-                      'investing activities',
-                      'Cash equivalents',
-                      'indirect method'],
-             'a': 'Cash equivalents · operating activities · investing '
-                  'activities · financing activities',
+                      'cash equivalents',
+                      'investments'],
+             'a': 'cash equivalents · investments',
              'one': True,
-             'why': 'The book writes: “Cash equivalents are short-term, '
-                    'highly liquid investments with an original maturity to '
-                    'the holder of three months or less. Moving money '
-                    'between these categories is not a cash flow. Cash flows '
-                    'are grouped into operating activities, investing '
-                    'activities and financing activities.”'},
+             'why': 'The book writes: “The statement explains the change in '
+                    'cash, cash equivalents and restricted cash together. '
+                    'Cash equivalents are short-term, highly liquid '
+                    'investments with an original maturity to the holder of '
+                    'three months or less.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -101,22 +86,19 @@ HANDOUT = {'id': '5.1',
                        22,
                        ' and ',
                        22,
-                       '. Strong operating cash is a good sign, but a reader '
-                       'should also ask where the cash went.'],
-             'bank': ['statement of cash flows',
-                      'financing activities',
+                       '.'],
+             'bank': ['investing activities',
+                      'statement of cash flows',
                       'cash equivalents',
-                      'operating activities',
-                      'investing activities'],
+                      'financing activities',
+                      'operating activities'],
              'a': 'operating activities · investing activities · financing '
                   'activities',
              'one': True,
              'why': 'The book writes: “Moving money between these categories '
                     'is not a cash flow. Cash flows are grouped into '
                     'operating activities, investing activities and '
-                    'financing activities. Strong operating cash is a good '
-                    'sign, but a reader should also ask where the cash '
-                    'went.”'}],
+                    'financing activities.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -204,33 +186,7 @@ HANDOUT = {'id': '5.1',
                    'Limitations and links between the four statements'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the '
-                    'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Classifying cash flows',
-                   'Limitations and links between the four statements',
-                   'The indirect method',
-                   'The direct method and required disclosures'],
-             'a': 'A',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['The direct method and required disclosures',
-                   'The indirect method',
-                   'Classifying cash flows',
-                   'Limitations and links between the four statements'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.4?',
-             'o': ['Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'Limitations and links between the four statements',
-                   'Purpose and structure of the statement of cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The direct method and required '
-                    'disclosures” as section 5.4.'}]),
+                    'statement of cash flows” as section 5.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -248,21 +204,6 @@ HANDOUT = {'id': '5.1',
                     'the loans themselves, not the ability to repay.',
              'src': 'P5-01'},
             {'t': 'MCQ',
-             'q': 'Use Figures F05-02 and F05-03. What is the MAIN reason '
-                  "Orontes's operating cash flow is higher than its net "
-                  'income?',
-             'o': ['Orontes collected more than it sold',
-                   'Depreciation and impairments reduced net income but used '
-                   'no cash',
-                   'The bank note increased operating cash',
-                   'Dividends paid were added back'],
-             'a': 'B',
-             'why': 'Noncash expenses of $4,924,000 explain most of the '
-                    'difference. A is wrong: Receivables rose, which reduced '
-                    'operating cash. C is wrong: Borrowing is a financing '
-                    'inflow.',
-             'src': 'P5-02'},
-            {'t': 'MCQ',
              'q': 'A growing company shows positive operating cash flow, '
                   'negative investing cash flow and positive financing cash '
                   'flow. The MOST likely explanation is that it:',
@@ -278,37 +219,40 @@ HANDOUT = {'id': '5.1',
                     'operating cash flow does not suggest this.',
              'src': 'P5-03'},
             {'t': 'MCQ',
-             'q': 'Which question can the statement of cash flows answer '
-                  'that the balance sheet alone cannot?',
-             'o': ['What were total assets at year-end?',
-                   'What is the par value of the shares?',
-                   'How did the company pay for its new equipment this year?',
-                   'What is the allowance for credit losses?'],
-             'a': 'C',
-             'why': 'The cash flow statement shows the sources and uses of '
-                    'cash during the year. A is wrong: The balance sheet '
-                    'shows total assets. B is wrong: Par value is shown in '
-                    'equity.',
-             'src': 'P5-04'}]),
+             'q': 'Under U.S. GAAP, cash dividends paid to shareholders are:',
+             'o': ['an operating activity',
+                   'an investing activity',
+                   'a noncash activity',
+                   'a financing activity'],
+             'a': 'D',
+             'why': 'Distributions to owners are financing. A is wrong: This '
+                    'is an IAS 7 option, not U.S. GAAP. B is wrong: '
+                    'Dividends paid are not investing.',
+             'src': 'P5-05'},
+            {'t': 'MCQ',
+             'q': 'An IFRS company reports interest paid in financing '
+                  'activities. How would the same payment be classified '
+                  'under U.S. GAAP?',
+             'o': ['Operating', 'Investing', 'Financing'],
+             'a': 'A',
+             'why': 'U.S. GAAP fixes interest paid in operating. B is wrong: '
+                    'Financing is an IAS 7 option only. C is wrong: Interest '
+                    'paid is never investing.',
+             'src': 'P5-08'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "A lender wants to know whether a company's operations produce "
-           'enough cash to repay a loan. Which section is MOST useful?',
-           ['Investing activities',
-            'Financing activities',
-            'Operating activities',
-            'Noncash disclosures'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Operating cash flow is the ongoing source of repayment. A is '
-           'wrong: Investing flows come from buying and selling long-term '
-           'assets. B is wrong: Financing shows the loans themselves, not '
-           'the ability to repay.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -340,69 +284,76 @@ HANDOUT = {'id': '5.1',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Interest paid on a '
-                  'bank loan?',
-             'o': ["Investing: another company's securities.",
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   'Financing: a transaction with owners.'],
-             'a': 'B',
-             'why': 'The book’s own table gives Operating (U.S. GAAP gives '
-                    'no choice). as the answer of Interest paid on a bank '
-                    'loan.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Selling Jordan Glass '
-                  'shares?',
-             'o': ['Financing: a transaction with owners.',
-                   'Operating (U.S. GAAP gives no choice).',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   "Investing: another company's securities."],
-             'a': 'D',
-             'why': "The book’s own table gives Investing: another company's "
-                    'securities. as the answer of Selling Jordan Glass '
-                    'shares.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Land for a long-term '
-                  'note?',
-             'o': ["Investing: another company's securities.",
-                   'Financing: a transaction with owners.',
-                   'Noncash investing and financing activity: disclosed, not '
-                   'in the body.',
-                   'Operating (U.S. GAAP gives no choice).'],
-             'a': 'C',
-             'why': 'The book’s own table gives Noncash investing and '
-                    'financing activity: disclosed, not in the body. as the '
-                    'answer of Land for a long-term note.'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under U.S. GAAP, cash dividends paid to shareholders are:',
-             'o': ['an operating activity',
-                   'an investing activity',
-                   'a noncash activity',
-                   'a financing activity'],
-             'a': 'D',
-             'why': 'Distributions to owners are financing. A is wrong: This '
-                    'is an IAS 7 option, not U.S. GAAP. B is wrong: '
-                    'Dividends paid are not investing.',
-             'src': 'P5-05'},
-            {'t': 'MCQ',
-             'q': 'Orontes received dividends of $70,000 from its '
-                  'equity-method investees. Under U.S. GAAP, using the '
-                  'cumulative-earnings approach, they are:',
-             'o': ['operating inflows',
-                   'investing inflows',
-                   'financing inflows',
-                   'not cash flows'],
+             'q': 'How is an increase in a deferred tax liability treated '
+                  'under the indirect method?',
+             'o': ['It is added to net income',
+                   'It is subtracted from net income',
+                   'It is a financing inflow',
+                   'It is ignored'],
              'a': 'A',
-             'why': 'Dividends received up to cumulative equity earnings are '
-                    'operating. B is wrong: This is an IAS 7 option; U.S. '
-                    'GAAP puts them in operating. C is wrong: Dividends '
-                    'received are never financing.',
-             'src': 'P5-06'}]),
+             'why': 'Deferred tax expense reduced net income but was not '
+                    'paid in cash. B is wrong: Noncash expenses are added '
+                    'back. C is wrong: Deferred taxes are not financing.',
+             'src': 'P5-12'},
+            {'t': 'MCQ',
+             'q': 'Under U.S. GAAP, the indirect method begins with:',
+             'o': ['operating income',
+                   'income before income taxes',
+                   'net income',
+                   'comprehensive income'],
+             'a': 'C',
+             'why': 'The reconciliation starts from net income. A is wrong: '
+                    'Starting from operating profit is the amended IAS 7 '
+                    'approach. B is wrong: Taxes must be included, so start '
+                    'after tax.',
+             'src': 'P5-14'},
+            {'t': 'MCQ',
+             'q': 'Which is a limitation of the statement of cash flows?',
+             'o': ['It is prepared on the accrual basis',
+                   'Important noncash investing and financing deals appear '
+                   'only in the notes',
+                   'It ignores cash paid for interest',
+                   'It shows only noncash items'],
+             'a': 'B',
+             'why': 'A building bought with a mortgage never appears in the '
+                    'body. A is wrong: It is a cash-basis statement. C is '
+                    'wrong: Interest paid is included in operating.',
+             'src': 'P5-17'},
+            {'t': 'MCQ',
+             'q': 'Why is operating cash flow not a good measure of '
+                  'profitability?',
+             'o': ['It includes too many estimates',
+                   'It is measured at fair value',
+                   'It excludes cash from customers',
+                   'It ignores accruals, so it can be high in a year with '
+                   'poor profits, or low in a good year'],
+             'a': 'D',
+             'why': 'Profitability is measured on the accrual basis. A is '
+                    'wrong: Cash flows involve few estimates. B is wrong: '
+                    'Cash flows are not fair values.',
+             'src': 'P5-18'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Interest paid on a bank loan',
+                      'Selling Jordan Glass shares',
+                      'Land for a long-term note',
+                      'Buying back own shares'],
+             'right': ['Noncash investing and financing activity: disclosed, '
+                       'not in the body.',
+                       "Investing: another company's securities.",
+                       'Operating (U.S. GAAP gives no choice).',
+                       'Financing: a transaction with owners.'],
+             'a': ['C', 'B', 'A', 'D'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

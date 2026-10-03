@@ -8,11 +8,23 @@ from wsfiggen import (flowchain, cardset, lanes, splitbar,
                       chaptermap)
 
 
+def f3b(blank=False):
+    return cardset(blank=blank, **{'title': 'Method', 'cards': [('FIFO', ['Ending inventory (cases left): the newest costs: 2,000 × $50', 'Ending inventory: 100,000', 'Cost of goods sold: 272,000']), ('LIFO', ['Ending inventory (cases left): the oldest costs: 1,000 × $40 + 1,000 × $44', 'Ending inventory: 84,000', 'Cost of goods sold: 288,000']), ('Weighted average', ['Ending inventory (cases left): 2,000 × $46.50 (= 372,000 ÷ 8,000)', 'Ending inventory: 93,000', 'Cost of goods sold: 279,000'])], 'sub': 'Ending inventory (cases left) · Ending inventory · Cost of goods sold'})
+
+
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Memo item — Category', 'steps': [('M1 (FOB shipping point, bought)', ''), ('M2 (FOB destination, sold)', ''), ('M3 (held for a Beirut producer)', ''), ('M4 (at a Doha consignee)', '')]})
+
+
+def frev(blank=False):
+    return lanes(blank=blank, **{'title': 'Memo item by category', 'groups': [('Add to the count', ['M1 (FOB shipping point, bought)', 'M2 (FOB destination, sold)', 'M4 (at a Doha consignee)']), ('Subtract from the count', ['M3 (held for a Beirut producer)'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 7 at a glance', 'nodes': [('Which goods belong in inventory?', 'section 7.1'), ('Which costs belong in inventory?', 'section 7.2'), ('Cost flow assumptions', 'section 7.3'), ('Effects on income, taxes and assets', 'section 7.4'), ('Inventory errors', 'section 7.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'chmap': chmap}
+FIGS = {'f3b': f3b, 'f5b': f5b, 'frev': frev, 'chmap': chmap}
 
 # the figures drawn by hand for this chapter
 from wsfig7 import FIGS as _HAND  # noqa: E402

@@ -3,10 +3,17 @@
 
 HANDOUT = {'id': '14.7',
  'n': 7,
- 'pages': 7,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P14-08',
+            'p:P14-11',
+            'p:P14-12',
+            'p:P14-13',
+            'p:P14-14',
+            'p:P14-15',
+            'p:P14-18',
             'sc:SC14-5',
             'sc:SC14-6',
             'sc:SC14-9',
@@ -40,12 +47,10 @@ HANDOUT = {'id': '14.7',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read · Suppose: January 1, 2026 (whole USD)',
-             'The extract for this question is printed with it. At what '
-             'amount does Orontes first record the warehouse lease liability '
-             '(whole USD)?'],
+             'Which payment is included in the lease liability at the '
+             'start?'],
             ['The chapter’s case set',
-             'The chapter’s case set, item by item · Suppose: January 1, '
-             '2026 (whole USD)',
+             'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
              'worked out?'],
             ['The words it uses precisely',
@@ -56,36 +61,32 @@ HANDOUT = {'id': '14.7',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['A crédit-bail contract can be an ',
-                       17,
-                       ', and an ordinary rental can be a ',
-                       15,
-                       '. SC14-4 A lease has no transfer or purchase option, '
-                       "covers 40% of the asset's life, and the PV of "
-                       'payments is 60% of fair value. For both types, the ',
+             'parts': ['The ',
+                       12,
+                       ' is the period the ',
                        11,
-                       ' records a ',
+                       ' cannot cancel, plus any renewal periods it is '
+                       'reasonably certain to use. A lessee classifies each '
+                       'lease at the start. It is a ',
+                       15,
+                       ' if it meets any one of five criteria; otherwise it '
+                       'is an ',
                        17,
-                       ' and a ',
-                       20,
-                       ' at the start.'],
-             'bank': ['right-of-use asset',
-                      'operating lease',
-                      'residual value guarantee',
-                      'finance lease',
+                       '.'],
+             'bank': ['residual value guarantee',
+                      'lease term',
+                      'lessor',
                       'lessee',
-                      'lease liability',
-                      'lessor'],
-             'a': 'operating lease · finance lease · lessee · lease '
-                  'liability · right-of-use asset',
+                      'finance lease',
+                      'operating lease'],
+             'a': 'lease term · lessee · finance lease · operating lease',
              'one': True,
-             'why': 'The book writes: “A crédit-bail contract can be an '
-                    'operating lease, and an ordinary rental can be a '
-                    'finance lease. SC14-4 A lease has no transfer or '
-                    "purchase option, covers 40% of the asset's life, and "
-                    'the PV of payments is 60% of fair value. For both '
-                    'types, the lessee records a lease liability and a '
-                    'right-of-use asset at the start.”'},
+             'why': 'The book writes: “The lease term is the period the '
+                    'lessee cannot cancel, plus any renewal periods it is '
+                    'reasonably certain to use. A lessee classifies each '
+                    'lease at the start. It is a finance lease if it meets '
+                    'any one of five criteria; otherwise it is an operating '
+                    'lease.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -99,56 +100,43 @@ HANDOUT = {'id': '14.7',
                        20,
                        ', usually straight-line. Interest is highest at the '
                        'start, when the liability is largest, so total '
-                       'expense falls each year. Finance-lease expense is '
-                       'higher early; an ',
-                       17,
-                       ' would be flat.'],
+                       'expense falls each year.'],
              'bank': ['lessor',
-                      'operating lease',
-                      'lessee',
                       'residual value guarantee',
+                      'lessee',
                       'right-of-use asset',
                       'finance lease'],
-             'a': 'finance lease · lessee · right-of-use asset · operating '
-                  'lease',
+             'a': 'finance lease · lessee · right-of-use asset',
              'one': True,
              'why': 'The book writes: “For a finance lease, the lessee '
                     'records interest on the liability and, separately, '
                     'amortization of the right-of-use asset, usually '
                     'straight-line. Interest is highest at the start, when '
                     'the liability is largest, so total expense falls each '
-                    'year. Finance-lease expense is higher early; an '
-                    'operating lease would be flat.”'},
+                    'year.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['A ',
-                       18,
-                       ' lasts 12 months or less and has no purchase option '
-                       'that the ',
-                       11,
-                       ' is reasonably certain to use. A lessee may choose, '
-                       'by class of asset, to keep such leases off the '
-                       'balance sheet and expense the payments '
-                       'straight-line. GAAP has no exemption for low-value '
-                       'assets. In a ',
-                       20,
-                       ', a company sells an asset and leases it back.'],
-             'bank': ['residual value guarantee',
-                      'short-term lease',
-                      'lessor',
+             'parts': ['Each liability is split into a current part, the '
+                       'principal due within a year, and a noncurrent part. '
+                       'On the income statement, a ',
+                       15,
+                       ' shows interest expense and amortization separately; '
+                       'an ',
+                       17,
+                       ' shows one lease cost in operating expenses.'],
+             'bank': ['operating lease',
                       'lessee',
-                      'sale and leaseback'],
-             'a': 'short-term lease · lessee · sale and leaseback',
+                      'finance lease',
+                      'residual value guarantee'],
+             'a': 'finance lease · operating lease',
              'one': True,
-             'why': 'The book writes: “A short-term lease lasts 12 months or '
-                    'less and has no purchase option that the lessee is '
-                    'reasonably certain to use. A lessee may choose, by '
-                    'class of asset, to keep such leases off the balance '
-                    'sheet and expense the payments straight-line. GAAP has '
-                    'no exemption for low-value assets. In a sale and '
-                    'leaseback, a company sells an asset and leases it '
-                    'back.”'}]),
+             'why': 'The book writes: “Each liability is split into a '
+                    'current part, the principal due within a year, and a '
+                    'noncurrent part. On the income statement, a finance '
+                    'lease shows interest expense and amortization '
+                    'separately; an operating lease shows one lease cost in '
+                    'operating expenses.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -161,6 +149,7 @@ HANDOUT = {'id': '14.7',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -171,24 +160,6 @@ HANDOUT = {'id': '14.7',
                    'Finance or operating? The five criteria'],
              'a': 'C',
              'why': 'The book numbers “What is a lease?” as section 14.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 14.2?',
-             'o': ['Initial measurement',
-                   'Subsequent measurement: two expense patterns',
-                   'Short-term leases, sale and leaseback, and IFRS 16',
-                   'Finance or operating? The five criteria'],
-             'a': 'D',
-             'why': 'The book numbers “Finance or operating? The five '
-                    'criteria” as section 14.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 14.3?',
-             'o': ['What is a lease?',
-                   'Presentation',
-                   'Finance or operating? The five criteria',
-                   'Initial measurement'],
-             'a': 'D',
-             'why': 'The book numbers “Initial measurement” as section '
-                    '14.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -204,22 +175,41 @@ HANDOUT = {'id': '14.7',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes leases office laptops for three years. Under U.S. '
-                  'GAAP, the lease:',
-             'o': ['can be expensed as a low-value lease',
-                   'is always a finance lease',
-                   'is recognized on the balance sheet; there is no '
-                   'low-value exemption',
-                   'is a short-term lease'],
+             'q': 'On its income statement, a lessee shows interest expense '
+                  'for:',
+             'o': ['finance leases only',
+                   'operating leases only',
+                   'both lease types',
+                   'neither lease type'],
+             'a': 'A',
+             'why': 'Operating leases show one combined lease cost. B is '
+                    'wrong: Operating-lease interest is not shown '
+                    'separately. C is wrong: Only finance leases separate '
+                    'interest.',
+             'src': 'P14-14'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Where does a lessee disclose a new ROU asset obtained in '
+                  'exchange for a lease liability?',
+             'o': ['As an investing outflow',
+                   'As a financing inflow',
+                   'As a supplemental noncash investing and financing '
+                   'activity',
+                   'It is not disclosed'],
              'a': 'C',
-             'why': 'Only leases of 12 months or less can be exempted. A is '
-                    'wrong: The low-value exemption is IFRS 16 only. B is '
-                    'wrong: Classification depends on the criteria.',
-             'src': 'SC14-11'}]),
-          ('pair',
-           'Compare every answer with your partner first.',
-           'name the section each question belongs to. Most disagreements '
-           'turn out to be about the section, not the answer.'),
+             'why': 'No cash moved when the lease began. A is wrong: No cash '
+                    'was paid for the asset. B is wrong: No cash was '
+                    'received.',
+             'src': 'P14-15'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which party records the right-of-use asset?',
+             'o': ['The lessor', 'Both', 'The lessee', 'Neither'],
+             'a': 'C',
+             'why': 'The lessee has the right to use the asset. A is wrong: '
+                    'The lessor keeps the underlying asset or a receivable. '
+                    'B is wrong: Only the lessee has a right of use.',
+             'src': 'P14-18'}]),
           ('panel',
            'Suppose: January 1, 2026 (whole USD) — the extract for the '
            'question that follows',
@@ -237,16 +227,61 @@ HANDOUT = {'id': '14.7',
              '421,236',
              '866,276']],
            ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. At what '
+                  'amount does Orontes first record the warehouse lease '
+                  'liability (whole USD)?',
+             'o': ['500,000', '421,236', '100,000'],
+             'a': 'B',
+             'why': 'The present value of the five payments at 6%. A is '
+                    'wrong: This is only one payment. C is wrong: Payments '
+                    'must be discounted.',
+             'src': 'SC14-5'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A lessee cannot determine the rate implicit in the lease. '
+                  'Which rate does a public company use to measure the lease '
+                  'liability?',
+             'o': ['The risk-free rate',
+                   'Its incremental borrowing rate',
+                   'Zero',
+                   "The lessor's cost of capital"],
+             'a': 'B',
+             'why': 'Only non-PBEs may elect the risk-free rate. A is wrong: '
+                    'The risk-free election is for companies that are not '
+                    'PBEs. C is wrong: Lease payments are discounted.',
+             'src': 'SC14-6'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Where does Orontes report the principal part of its 2026 '
+                  'olive-press payment in the statement of cash flows?',
+             'o': ['Operating activities',
+                   'Investing activities',
+                   'It is not a cash flow',
+                   'Financing activities'],
+             'a': 'D',
+             'why': 'Finance-lease principal is repayment of a liability. A '
+                    'is wrong: Only the interest part is operating. B is '
+                    'wrong: The asset was not bought for cash.',
+             'src': 'SC14-9'}]),
+          ('pair',
+           'Compare every answer with your partner first.',
+           'name the section each question belongs to. Most disagreements '
+           'turn out to be about the section, not the answer.'),
           ('check',
-           'The extract for this question is printed with it. At what amount '
-           'does Orontes first record the warehouse lease liability (whole '
-           'USD)?',
-           ['100,000', '421,236', '500,000', '1,500,000'],
-           'B',
+           'Which payment is included in the lease liability at the start?',
+           ["Future payments based on the lessee's sales",
+            'Payments for cleaning services in the same contract',
+            'Payments after a renewal the lessee does not expect to use',
+            'A payment that rises each year with the CPI, measured at '
+            "today's index"],
+           'D',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'The present value of the five payments at 6%. A is wrong: This '
-           'is only one payment. C is wrong: Payments must be discounted.'),
+           'Index-based payments are included at the current index. A is '
+           'wrong: Sales-based variable payments are expensed when incurred. '
+           'B is wrong: Non-lease services are not lease payments.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -276,109 +311,57 @@ HANDOUT = {'id': '14.7',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C14-1 ask for?',
-             'o': ['Classify each lease. (On the exam screen you would drag '
-                   'each lease int',
-                   'Where does Barada report the 2028 truck payment in its '
-                   'statement of ca',
-                   'Enter the truck right-of-use asset at December 31, 2028.',
-                   'Enter the lease liability for the trucks (L1) on January '
-                   '1, 2028.'],
-             'a': 'A',
-             'why': 'The book states item C14-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C14-2 ask for?',
-             'o': ['Where does Barada report the 2028 truck payment in its '
-                   'statement of ca',
-                   'Classify each lease. (On the exam screen you would drag '
-                   'each lease int',
-                   'Enter the truck right-of-use asset at December 31, 2028.',
-                   'Enter the lease liability for the trucks (L1) on January '
-                   '1, 2028.'],
-             'a': 'D',
-             'why': 'The book states item C14-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C14-3 ask for?',
-             'o': ['Enter the truck right-of-use asset at December 31, 2028.',
-                   'Enter the truck lease liability at December 31, 2028.',
-                   'Enter the 2028 lease cost for the trucks (L1).',
-                   'Enter the lease liability for the trucks (L1) on January '
-                   '1, 2028.'],
-             'a': 'C',
-             'why': 'The book states item C14-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C14-4 ask for?',
-             'o': ['Enter the truck lease liability at December 31, 2028.',
-                   'Enter the truck right-of-use asset at December 31, 2028.',
-                   'Enter the lease liability for the trucks (L1) on January '
-                   '1, 2028.',
-                   'Enter the 2028 lease cost for the trucks (L1).'],
-             'a': 'A',
-             'why': 'The book states item C14-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C14-5 ask for?',
-             'o': ['Enter the lease liability for the trucks (L1) on January '
-                   '1, 2028.',
-                   'Enter the truck lease liability at December 31, 2028.',
-                   'Enter the truck right-of-use asset at December 31, 2028.',
-                   'Enter the 2028 lease cost for the trucks (L1).'],
-             'a': 'C',
-             'why': 'The book states item C14-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C14-6 ask for?',
-             'o': ['Enter the lease liability for the trucks (L1) on January '
-                   '1, 2028.',
-                   'Enter the truck right-of-use asset at December 31, 2028.',
-                   'Classify each lease. (On the exam screen you would drag '
-                   'each lease int',
-                   'Where does Barada report the 2028 truck payment in its '
-                   'statement of ca'],
-             'a': 'D',
-             'why': 'The book states item C14-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Classify each lease. (On the exam screen you would '
+                      'drag each lease into a box.)',
+                      'Enter the truck right-of-use asset at December 31, '
+                      '2028.',
+                      'Enter the lease liability for the trucks (L1) on '
+                      'January 1, 2028.',
+                      'Enter the truck lease liability at December 31, 2028.',
+                      'Enter the 2028 lease cost for the trucks (L1).',
+                      'Where does Barada report the 2028 truck payment in '
+                      'its statement of cash flows? [select]'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['A', 'E', 'B', 'D', 'C', 'F'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
-          ('panel',
-           'Suppose: January 1, 2026 (whole USD) — the extract for the '
-           'question that follows',
-           [['Suppose: January 1, 2026 (whole USD)',
-             'Warehouse',
-             'Olive press'],
-            ['Annual payment (end of each year)', '100,000', '250,000'],
-            ['Number of payments', '5', '4'],
-            ['Discount rate (incremental borrowing rate)', '6%', '6%'],
-            ['Undiscounted payments', '500,000', '1,000,000'],
-            ['Lease liability = present value of payments',
-             '421,236',
-             '866,276'],
-            ['Right-of-use asset (no prepayments, costs or incentives)',
-             '421,236',
-             '866,276']],
-           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. At what '
-                  'amount does Orontes first record the warehouse lease '
-                  'liability (whole USD)?',
-             'o': ['100,000', '421,236', '500,000', '1,500,000'],
-             'a': 'B',
-             'why': 'The present value of the five payments at 6%. A is '
-                    'wrong: This is only one payment. C is wrong: Payments '
-                    'must be discounted.',
-             'src': 'SC14-5'}]),
+             'q': 'How are the payments on an operating lease classified in '
+                  'the statement of cash flows?',
+             'o': ['Operating activities',
+                   'Financing activities',
+                   'Investing activities',
+                   'Split between operating and financing'],
+             'a': 'A',
+             'why': 'ASC 842 classifies all operating-lease payments as '
+                    'operating. B is wrong: Only finance-lease principal is '
+                    'financing. C is wrong: Lease payments are not '
+                    'investing.',
+             'src': 'SC14-10'}]),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A lessee cannot determine the rate implicit in the lease. '
-                  'Which rate does a public company use to measure the lease '
-                  'liability?',
-             'o': ['The risk-free rate',
-                   'Its incremental borrowing rate',
-                   'Zero',
-                   "The lessor's cost of capital"],
-             'a': 'B',
-             'why': 'Only non-PBEs may elect the risk-free rate. A is wrong: '
-                    'The risk-free election is for companies that are not '
-                    'PBEs. C is wrong: Lease payments are discounted.',
-             'src': 'SC14-6'}]),
+             'q': 'Orontes leases office laptops for three years. Under U.S. '
+                  'GAAP, the lease:',
+             'o': ['can be expensed as a low-value lease',
+                   'is always a finance lease',
+                   'is recognized on the balance sheet; there is no '
+                   'low-value exemption',
+                   'is a short-term lease'],
+             'a': 'C',
+             'why': 'Only leases of 12 months or less can be exempted. A is '
+                    'wrong: The low-value exemption is IFRS 16 only. B is '
+                    'wrong: Classification depends on the criteria.',
+             'src': 'SC14-11'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

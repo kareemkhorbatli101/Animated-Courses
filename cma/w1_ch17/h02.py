@@ -3,17 +3,16 @@
 
 HANDOUT = {'id': '17.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 5,
  'title': '(ii) Intangible assets',
  'sub': 'section 17.2 of the book',
  'covers': ['sec:17.2',
             'p:P17-07',
-            'p:P17-08',
             'p:P17-09',
-            'p:P17-10',
-            'sc:P17-07',
             'p:P17-11',
             'p:P17-12',
+            'p:P17-13',
+            'p:P17-14',
             'term:revaluation surplus',
             'term:remeasurements',
             'term:component depreciation'],
@@ -27,89 +26,87 @@ HANDOUT = {'id': '17.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['(ii) Intangible assets',
              'a figure to read · Topic',
-             'A U.S. company uses LIFO. Which valuation rule applies at '
-             'year-end?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The largest ',
+             'parts': ['U.S. GAAP expenses research and ',
                        13,
-                       ' ',
-                       12,
-                       ' is ',
+                       ' as incurred, with narrow exceptions for software. '
+                       'IAS 38 expenses research but ',
                        13,
-                       ' costs. GAAP expenses research and development as '
-                       'incurred, with narrow exceptions for software.'],
+                       ' development once six criteria are met, such as '
+                       'technical ',
+                       13,
+                       ', intention and ability to complete, and a way to '
+                       'generate future benefits.'],
              'bank': ['remeasurements',
-                      'difference',
-                      'intangibles',
+                      'capitalizes',
+                      'development',
                       'component depreciation',
-                      'development'],
-             'a': 'intangibles · difference · development',
+                      'feasibility'],
+             'a': 'development · capitalizes · feasibility',
              'one': True,
-             'why': 'The book writes: “The largest intangibles difference is '
-                    'development costs. GAAP expenses research and '
+             'why': 'The book writes: “U.S. GAAP expenses research and '
                     'development as incurred, with narrow exceptions for '
-                    'software.”'},
+                    'software. IAS 38 expenses research but capitalizes '
+                    'development once six criteria are met, such as '
+                    'technical feasibility, intention and ability to '
+                    'complete, and a way to generate future benefits.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['IAS 38 expenses research but ',
+             'parts': ['Under U.S. GAAP the whole amount is an expense; '
+                       'under IFRS it is an intangible asset, amortized once '
+                       'the product is ready. IAS 38 also allows the ',
+                       19,
+                       ' for ',
                        13,
-                       ' ',
-                       13,
-                       ' once six criteria are met, such as technical ',
-                       13,
-                       ', intention and ability to complete, and a way to '
-                       'generate future benefits. GAAP the whole amount is '
-                       'an expense; under IFRS it is an intangible asset, '
-                       'amortized once the product is ready.'],
-             'bank': ['component depreciation',
-                      'feasibility',
+                       ', but only where an active market exists, which is '
+                       'rare.'],
+             'bank': ['intangibles',
                       'remeasurements',
-                      'development',
-                      'capitalizes'],
-             'a': 'capitalizes · development · feasibility',
+                      'component depreciation',
+                      'revaluation model'],
+             'a': 'revaluation model · intangibles',
              'one': True,
-             'why': 'The book writes: “IAS 38 expenses research but '
-                    'capitalizes development once six criteria are met, such '
-                    'as technical feasibility, intention and ability to '
-                    'complete, and a way to generate future benefits. GAAP '
-                    'the whole amount is an expense; under IFRS it is an '
-                    'intangible asset, amortized once the product is '
-                    'ready.”'},
+             'why': 'The book writes: “Under U.S. GAAP the whole amount is '
+                    'an expense; under IFRS it is an intangible asset, '
+                    'amortized once the product is ready. IAS 38 also allows '
+                    'the revaluation model for intangibles, but only where '
+                    'an active market exists, which is rare.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['IAS 38 also allows the ',
+             'parts': ['U.S. GAAP never revalues ',
                        13,
-                       ' model for ',
-                       13,
-                       ', but only where an active market exists, which is '
-                       'rare. Both ',
-                       12,
-                       ' refuse to recognize internally generated brands. '
-                       'Private companies may amortize goodwill, but an SEC '
-                       'registrant such as Orontes may not.'],
-             'bank': ['revaluation',
-                      'frameworks',
+                       ' upward. Both frameworks refuse to recognize '
+                       'internally generated brands. ASU 2025-06 simplifies '
+                       'when ',
+                       14,
+                       ' software costs are capitalized, and ASU 2026-02 '
+                       'creates new rules for ',
+                       15,
+                       ' credits.'],
+             'bank': ['intangibles',
+                      'environmental',
                       'remeasurements',
                       'component depreciation',
-                      'intangibles'],
-             'a': 'revaluation · intangibles · frameworks',
+                      'internal-use'],
+             'a': 'intangibles · internal-use · environmental',
              'one': True,
-             'why': 'The book writes: “IAS 38 also allows the revaluation '
-                    'model for intangibles, but only where an active market '
-                    'exists, which is rare. Both frameworks refuse to '
-                    'recognize internally generated brands. Private '
-                    'companies may amortize goodwill, but an SEC registrant '
-                    'such as Orontes may not.”'}],
+             'why': 'The book writes: “U.S. GAAP never revalues intangibles '
+                    'upward. Both frameworks refuse to recognize internally '
+                    'generated brands. ASU 2025-06 simplifies when '
+                    'internal-use software costs are capitalized, and ASU '
+                    '2026-02 creates new rules for environmental credits.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -177,33 +174,7 @@ HANDOUT = {'id': '17.2',
              'a': 'C',
              'why': 'The book’s own table pairs Software developed for sale '
                     'or internal use with “Capitalized only in limited '
-                    'stages (ASC 985-20, 350-40)”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Not allowed”?',
-             'o': ['Revaluation of intangibles',
-                   'Internally generated brands and customer lists',
-                   'Software developed for sale or internal use',
-                   'Goodwill amortization'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Revaluation of intangibles '
-                    'with “Not allowed”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Not recognized”?',
-             'o': ['Internally generated brands and customer lists',
-                   'Goodwill amortization',
-                   'Indefinite-life intangibles',
-                   'Software developed for sale or internal use'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Internally generated brands '
-                    'and customer lists with “Not recognized”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS (IAS 38) of Software developed '
-                  'for sale or internal use as “Not amortized; tested for '
-                  'impairment”.',
-             'a': 'F',
-             'why': 'The book pairs Software developed for sale or internal '
-                    'use with “Development rules of IAS 38”, not with “Not '
-                    'amortized; tested for impairment”.'}]),
+                    'stages (ASC 985-20, 350-40)”.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -219,18 +190,6 @@ HANDOUT = {'id': '17.2',
                     'wrong: Inventory is not at fair value.',
              'src': 'P17-07'},
             {'t': 'MCQ',
-             'q': "A lessee's payments rise each year with the CPI. After a "
-                  'CPI increase, under IFRS 16 the lessee:',
-             'o': ['expenses the increase with no remeasurement',
-                   'remeasures the lease liability',
-                   'reclassifies the lease',
-                   'records a gain'],
-             'a': 'B',
-             'why': 'IFRS 16 remeasures for index changes; ASC 842 does not. '
-                    'A is wrong: This is the U.S. GAAP treatment. C is '
-                    'wrong: Classification is not affected.',
-             'src': 'P17-08'},
-            {'t': 'MCQ',
              'q': 'Over the whole life of a lease, compared with IFRS 16, a '
                   'U.S. operating lease gives:',
              'o': ['a lower total expense',
@@ -243,92 +202,6 @@ HANDOUT = {'id': '17.2',
                     'C is wrong: Totals are equal.',
              'src': 'P17-09'},
             {'t': 'MCQ',
-             'q': 'Under IFRS, a company borrows specifically to build a '
-                  'plant and earns interest on unspent funds. The '
-                  'capitalized borrowing cost is:',
-             'o': ['interest incurred, with no deduction',
-                   'zero',
-                   'interest incurred minus the investment income earned on '
-                   'the borrowed funds',
-                   'investment income only'],
-             'a': 'C',
-             'why': 'IAS 23 deducts investment income on specific '
-                    'borrowings. A is wrong: This is closer to the U.S. GAAP '
-                    'approach. B is wrong: Borrowing costs on qualifying '
-                    'assets are capitalized.',
-             'src': 'P17-10'}]),
-          ('pair',
-           'Compare every answer on this page with your partner before you '
-           'read any key.',
-           'go back to the model and find the row that settles it. The row '
-           'decides, not the louder voice.'),
-          ('check',
-           'A U.S. company uses LIFO. Which valuation rule applies at '
-           'year-end?',
-           ['Lower of cost or market',
-            'Lower of cost and net realizable value',
-            'Fair value',
-            'Replacement cost always'],
-           'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'LCM still applies to LIFO and the retail method. B is wrong: '
-           'LCNRV applies to FIFO and average cost. C is wrong: Inventory is '
-           'not at fair value.'),
-          ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
-             'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
-          ('panel',
-           'Item — the book’s own table',
-           [['Item', 'Answer'],
-            ['Development costs capitalized when criteria are met',
-             'IFRS only'],
-            ['Impairment tested first with undiscounted cash flows',
-             'U.S. GAAP only'],
-            ['A short-term lease exemption exists', 'Both'],
-            ['Prior service cost expensed immediately', 'IFRS only']],
-           ''),
-          ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
-            ['revaluation surplus', 'فائض إعادة التقييم'],
-            ['remeasurements', 'إعادة القياس'],
-            ['component depreciation', 'الإهلاك حسب المكونات']],
-           ''),
-          ('move', 'READ THE MODEL', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Development costs '
-                  'capitalized when criteria are met?',
-             'o': ['U.S. GAAP only', 'IFRS only', 'Both'],
-             'a': 'B',
-             'why': 'The book’s own table gives IFRS only as the answer of '
-                    'Development costs capitalized when criteria are met.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Impairment tested '
-                  'first with undiscounted cash flows?',
-             'o': ['U.S. GAAP only', 'Both', 'IFRS only'],
-             'a': 'A',
-             'why': 'The book’s own table gives U.S. GAAP only as the answer '
-                    'of Impairment tested first with undiscounted cash '
-                    'flows.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for A short-term lease '
-                  'exemption exists?',
-             'o': ['U.S. GAAP only', 'Both', 'IFRS only'],
-             'a': 'B',
-             'why': 'The book’s own table gives Both as the answer of A '
-                    'short-term lease exemption exists.'}]),
-          ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
              'q': 'An IFRS company holds an office building to earn rent. It '
                   'may measure the building:',
              'o': ['only at cost',
@@ -355,6 +228,92 @@ HANDOUT = {'id': '17.2',
                     'use is an IFRS measure. C is wrong: Recoverable amount '
                     'is an IFRS measure.',
              'src': 'P17-12'}]),
+          ('pair',
+           'Compare every answer on this page with your partner before you '
+           'read any key.',
+           'go back to the model and find the row that settles it. The row '
+           'decides, not the louder voice.'),
+          ('check',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
+          ('cycle', 'B', 'The words this section uses precisely'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'A term in the exam means exactly what the book defines it '
+                  'to mean, whatever it means in ordinary English.',
+             'a': 'T',
+             'why': 'CMA questions use exact terms, and one word can change '
+                    'the answer.'}]),
+          ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
+          ('panel',
+           'Item — the book’s own table',
+           [['Item', 'Answer'],
+            ['Development costs capitalized when criteria are met',
+             'IFRS only'],
+            ['Impairment tested first with undiscounted cash flows',
+             'U.S. GAAP only'],
+            ['A short-term lease exemption exists', 'Both'],
+            ['Prior service cost expensed immediately', 'IFRS only']],
+           ''),
+          ('panel',
+           'The English the exam uses, and what it translates',
+           [['English (exam term)', 'the Arabic it translates'],
+            ['revaluation surplus', 'فائض إعادة التقييم'],
+            ['remeasurements', 'إعادة القياس'],
+            ['component depreciation', 'الإهلاك حسب المكونات']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
+          ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'An asset has a carrying amount of $500,000, fair value '
+                  'less costs of disposal of $420,000 and value in use of '
+                  '$460,000. What is the IFRS impairment loss?',
+             'o': ['$0', '$40,000', '$60,000', '$80,000'],
+             'a': 'B',
+             'why': 'Recoverable amount is the higher amount, $460,000. A is '
+                    'wrong: IFRS has no undiscounted screen. C is wrong: '
+                    'This uses an average.',
+             'src': 'P17-13'},
+            {'t': 'MCQ',
+             'q': 'Goodwill was impaired last year. This year the '
+                  'cash-generating unit recovers. Under IFRS, the goodwill '
+                  'impairment is:',
+             'o': ['reversed in full',
+                   'reversed up to original cost',
+                   'reversed through OCI',
+                   'never reversed'],
+             'a': 'D',
+             'why': 'IAS 36 prohibits reversal of goodwill impairment. A is '
+                    'wrong: Goodwill impairments are never reversed. B is '
+                    'wrong: No reversal is allowed for goodwill.',
+             'src': 'P17-14'},
+            {'t': 'MCQ',
+             'q': 'Which pair shows a correct difference?',
+             'o': ['U.S.: research and development expensed; IFRS: '
+                   'development capitalized when criteria are met',
+                   'U.S.: development capitalized; IFRS: expensed',
+                   'Both capitalize research',
+                   'Both expense all software costs'],
+             'a': 'A',
+             'why': 'This is the main intangibles difference. B is wrong: '
+                    'The treatments are reversed. C is wrong: Research is '
+                    'expensed under both.',
+             'src': 'P17-16'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

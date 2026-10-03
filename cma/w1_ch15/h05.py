@@ -3,12 +3,13 @@
 
 HANDOUT = {'id': '15.5',
  'n': 5,
- 'pages': 4,
+ 'pages': 5,
  'title': 'Held for sale: criteria and measurement',
  'sub': 'section 15.5 of the book',
  'covers': ['sec:15.5',
-            'sc:SC15-3',
             'sc:SC15-4',
+            'p:P15-11',
+            'sc:SC15-3',
             'sc:SC15-1',
             'sc:SC15-2',
             'sc:SC15-1',
@@ -29,7 +30,7 @@ HANDOUT = {'id': '15.5',
              'Which item is a gain rather than revenue for Orontes?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates · Orontes, '
-             '2025 (whole USD)',
+             '2025 (whole USD) · Suppose: AFS bond bought for 100,000',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -62,54 +63,56 @@ HANDOUT = {'id': '15.5',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
+             'parts': ['Depreciation stops, and later increases in value are '
+                       'recognized only up to the ',
+                       11,
+                       "es already recorded. Chapter 3 showed that Orontes's "
+                       'frozen-foods business produced a loss from '
+                       'discontinued operations of $450,000 in 2026. The '
+                       'board approved the plan in March, but the business '
+                       'became ',
+                       15,
+                       ' only on June 30, when all six criteria were met.'],
+             'bank': ['strategic shift',
+                      'loss',
+                      'held for sale',
+                      'discontinued operation'],
+             'a': 'loss · held for sale',
+             'one': True,
+             'why': 'The book writes: “Depreciation stops, and later '
+                    'increases in value are recognized only up to the losses '
+                    "already recorded. Chapter 3 showed that Orontes's "
+                    'frozen-foods business produced a loss from discontinued '
+                    'operations of $450,000 in 2026. The board approved the '
+                    'plan in March, but the business became held for sale '
+                    'only on June 30, when all six criteria were met.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
              'parts': ['The board approved the plan in March, but the '
                        'business became ',
                        15,
                        ' only on June 30, when all six criteria were met. '
-                       'Timeline of the frozen-foods business: plan, held '
-                       'for sale, sale. This is the disposal ',
+                       'Board approval alone is not enough: all six criteria '
+                       'must be met. ',
                        11,
-                       ' that Chapter 3 reported.'],
-             'bank': ['discontinued operation',
-                      'strategic shift',
+                       ' the ',
+                       12,
+                       ' when the group becomes held for sale, not only when '
+                       'it is sold.'],
+             'bank': ['write-down',
                       'held for sale',
-                      'loss'],
-             'a': 'held for sale · loss',
+                      'discontinued operation',
+                      'strategic shift',
+                      'Recognize'],
+             'a': 'held for sale · Recognize · write-down',
              'one': True,
              'why': 'The book writes: “The board approved the plan in March, '
                     'but the business became held for sale only on June 30, '
-                    'when all six criteria were met. Timeline of the '
-                    'frozen-foods business: plan, held for sale, sale. This '
-                    'is the disposal loss that Chapter 3 reported.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['A component can be reported as discontinued before '
-                       'it is sold, once it is ',
-                       15,
-                       '. A held-for-sale ',
-                       16,
-                       ' is measured at the lower of its carrying amount and '
-                       'its ',
-                       30,
-                       '. Depreciation stops, and later increases in value '
-                       'are recognized only up to the losses already '
-                       'recorded.'],
-             'bank': ['discontinued operation',
-                      'held for sale',
-                      'disposal group',
-                      'fair value less cost to sell',
-                      'strategic shift'],
-             'a': 'held for sale · disposal group · fair value less cost to '
-                  'sell',
-             'one': True,
-             'why': 'The book writes: “A component can be reported as '
-                    'discontinued before it is sold, once it is held for '
-                    'sale. A held-for-sale disposal group is measured at the '
-                    'lower of its carrying amount and its fair value less '
-                    'cost to sell. Depreciation stops, and later increases '
-                    'in value are recognized only up to the losses already '
-                    'recorded.”'}],
+                    'when all six criteria were met. Board approval alone is '
+                    'not enough: all six criteria must be met. Recognize the '
+                    'write-down when the group becomes held for sale, not '
+                    'only when it is sold.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -165,42 +168,10 @@ HANDOUT = {'id': '15.5',
              'o': ['3,180,000', '(100,000)', '2,100,000', '3,000,000'],
              'a': 'C',
              'why': 'The book’s own table gives 2,100,000 as the amount of '
-                    'Property, plant and equipment, net.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Inventory?',
-             'o': ['400,000', '300,000', '180,000', '480,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 480,000 as the amount of '
-                    'Inventory.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Receivables?',
-             'o': ['300,000', '480,000', '180,000', '400,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 400,000 as the amount of '
-                    'Receivables.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Goodwill (left after '
-                  'the 2025 impairment, Chapter 10)?',
-             'o': ['400,000', '480,000', '180,000', '300,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 300,000 as the amount of '
-                    'Goodwill (left after the 2025 impairment, Chapter '
-                    '10).'}]),
+                    'Property, plant and equipment, net.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Depreciation of the bottling line is an example of which '
-                  'expense recognition approach?',
-             'o': ['Cause and effect',
-                   'Systematic and rational allocation',
-                   'Immediate recognition',
-                   'Cash basis'],
-             'a': 'B',
-             'why': 'The cost is spread over the periods that benefit. A is '
-                    'wrong: Depreciation cannot be linked to specific sales. '
-                    'C is wrong: The machine benefits several years.',
-             'src': 'SC15-3'},
-            {'t': 'MCQ',
              'q': 'Orontes spends $200,000 on a TV advertising campaign that '
                   'it expects to raise sales next year. The cost is:',
              'o': ['capitalized and amortized over next year',
@@ -212,7 +183,32 @@ HANDOUT = {'id': '15.5',
                     'benefits of advertising are too uncertain to '
                     'capitalize. B is wrong: Advertising is not a product '
                     'cost.',
-             'src': 'SC15-4'}]),
+             'src': 'SC15-4'},
+            {'t': 'MCQ',
+             'q': 'On March 15 a board approves a plan to sell a division, '
+                  'but the division is not yet available for immediate sale. '
+                  'When can it be classified as held for sale?',
+             'o': ['On March 15',
+                   'When the sale is completed',
+                   'At the next year-end',
+                   'When all six criteria are met'],
+             'a': 'D',
+             'why': 'All six criteria must be met, not only board approval. '
+                    'A is wrong: Approval is only one criterion. B is wrong: '
+                    'Held for sale can apply before the sale.',
+             'src': 'P15-11'},
+            {'t': 'MCQ',
+             'q': 'Depreciation of the bottling line is an example of which '
+                  'expense recognition approach?',
+             'o': ['Cause and effect',
+                   'Systematic and rational allocation',
+                   'Immediate recognition',
+                   'Cash basis'],
+             'a': 'B',
+             'why': 'The cost is spread over the periods that benefit. A is '
+                    'wrong: Depreciation cannot be linked to specific sales. '
+                    'C is wrong: The machine benefits several years.',
+             'src': 'SC15-3'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -257,6 +253,33 @@ HANDOUT = {'id': '15.5',
              'a': 'T',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which disposal is a discontinued operation?',
+             'o': ["Selling all operations in the company's only foreign "
+                   'country',
+                   'Closing one of twelve shops',
+                   'Selling an old delivery van',
+                   'Stopping one small product'],
+             'a': 'A',
+             'why': 'Leaving a major geographic area is a strategic shift. B '
+                    'is wrong: One shop is not a strategic shift. C is '
+                    'wrong: An asset sale gives a gain or loss in continuing '
+                    'operations.',
+             'src': 'SC15-7'},
+            {'t': 'MCQ',
+             'q': 'A company reports a discontinued operation in 2027. How '
+                  'does it present the 2026 comparative income statement?',
+             'o': ['It leaves 2026 unchanged',
+                   "It reclassifies the component's 2026 results into "
+                   'discontinued operations',
+                   'It removes 2026 from the statements',
+                   'It restates 2026 retained earnings'],
+             'a': 'B',
+             'why': 'All periods are shown on the same basis. A is wrong: '
+                    'Comparatives must be reclassified. C is wrong: '
+                    'Comparative years are still presented.',
+             'src': 'SC15-11'}]),
           ('panel',
            'Orontes, 2025 (whole USD) — the extract for the question that '
            'follows',
@@ -299,6 +322,58 @@ HANDOUT = {'id': '15.5',
                     'are operating items. B is wrong: Impairments are not '
                     'OCI.',
              'src': 'SC15-2'}]),
+          ('panel',
+           'Suppose: AFS bond bought for 100,000 — the extract for the '
+           'question that follows',
+           [['Suppose: AFS bond bought for 100,000', '2026', '2027'],
+            ['Net income', '', ''],
+            ['Realized gain on sale', '—', '10,000'],
+            ['Other comprehensive income', '', ''],
+            ['Holding gain during the year', '8,000', '2,000'],
+            ['Reclassification adjustment', '—', '(10,000)'],
+            ['OCI before tax', '8,000', '(8,000)'],
+            ['Tax at 25%', '(2,000)', '2,000'],
+            ['OCI, net of tax', '6,000', '(6,000)'],
+            ['AOCI at year-end (for this bond)', '6,000', '0']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What is '
+                  "Orontes's OCI for 2027 before tax (whole USD)?",
+             'o': ['(8,000)', '0', '2,000', '10,000'],
+             'a': 'A',
+             'why': 'Holding gain $2,000 minus the reclassification of '
+                    '$10,000. B is wrong: OCI changes when the AOCI amount '
+                    'is reclassified. C is wrong: This omits the '
+                    'reclassification adjustment.',
+             'src': 'SC15-5'}]),
+          ('panel',
+           'Suppose: frozen-foods disposal group, June 30, 2 — the extract '
+           'for the question that follows',
+           [['Suppose: frozen-foods disposal group, June 30, 2', 'Amount'],
+            ['Property, plant and equipment, net', '2,100,000'],
+            ['Inventory', '480,000'],
+            ['Receivables', '400,000'],
+            ['Goodwill (left after the 2025 impairment, Chapter 10)',
+             '300,000'],
+            ['Less: accounts payable', '(100,000)'],
+            ['Carrying amount of the disposal group', '3,180,000'],
+            ['Fair value less cost to sell', '3,000,000'],
+            ['Remeasurement loss (in discontinued operations)', '180,000'],
+            ['Held-for-sale group at June 30, 2026', '3,000,000']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What '
+                  'loss does Orontes recognize when the frozen-foods '
+                  'business becomes held for sale (whole USD)?',
+             'o': ['300,000', '180,000', '0'],
+             'a': 'B',
+             'why': 'Carrying amount $3,180,000 minus fair value less cost '
+                    'to sell $3,000,000. A is wrong: The write-down is '
+                    'recognized when the group becomes held for sale. C is '
+                    'wrong: This is only the goodwill in the group.',
+             'src': 'SC15-9'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

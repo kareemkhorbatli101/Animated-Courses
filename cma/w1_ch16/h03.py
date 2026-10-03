@@ -3,18 +3,12 @@
 
 HANDOUT = {'id': '16.3',
  'n': 3,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Full consolidation, proportionate consolidation and the equity '
           'method',
  'sub': 'section 16.3 of the book',
  'covers': ['sec:16.3',
-            'p:P16-13',
-            'p:P16-14',
-            'p:P16-15',
-            'p:P16-16',
-            'sc:P16-13',
-            'p:P16-17',
-            'p:P16-18',
+            'p:P16-03',
             'term:subsidiary',
             'term:controlling financial interest',
             'term:downstream sale'],
@@ -29,7 +23,7 @@ HANDOUT = {'id': '16.3',
             ['Full consolidation, proportionate consolidation and the equity '
              'method',
              'a figure to read · Method · the book’s own rule, gapped',
-             'Which item is NOT eliminated in consolidation?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -66,53 +60,46 @@ HANDOUT = {'id': '16.3',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['A controlled ',
-                       12,
-                       "'s intercompany profit is removed in full. The LOS "
-                       "phrase 'equity consolidation' means the ",
+             'parts': ['The methods also remove intercompany profit '
+                       'differently. When Jordan Glass sells bottles to '
+                       'Orontes, the ',
                        15,
-                       ': one line, no NCI. Also, joint ventures use the '
-                       'equity method, not ',
-                       29,
-                       '.'],
-             'bank': ['subsidiary',
+                       " removes only Orontes's 30% share of the ",
+                       19,
+                       ': $12,000. A controlled ',
+                       12,
+                       "'s intercompany profit is removed in full."],
+             'bank': ['equity method',
                       'upstream sale',
-                      'equity method',
+                      'unrealized profit',
                       'goodwill',
-                      'proportionate consolidation'],
-             'a': 'subsidiary · equity method · proportionate consolidation',
+                      'subsidiary'],
+             'a': 'equity method · unrealized profit · subsidiary',
              'one': True,
-             'why': "The book writes: “A controlled subsidiary's "
-                    'intercompany profit is removed in full. The LOS phrase '
-                    "'equity consolidation' means the equity method: one "
-                    'line, no NCI. Also, joint ventures use the equity '
-                    'method, not proportionate consolidation.”'},
+             'why': 'The book writes: “The methods also remove intercompany '
+                    'profit differently. When Jordan Glass sells bottles to '
+                    "Orontes, the equity method removes only Orontes's 30% "
+                    'share of the unrealized profit: $12,000. A controlled '
+                    "subsidiary's intercompany profit is removed in full.”"},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The methods also remove intercompany profit '
-                       'differently. A controlled ',
-                       12,
-                       "'s intercompany profit is removed in full. The LOS "
-                       "phrase 'equity consolidation' means the ",
+             'parts': ["The LOS phrase 'equity consolidation' means the ",
                        15,
                        ': one line, no NCI. Also, joint ventures use the '
                        'equity method, not ',
                        29,
                        '.'],
-             'bank': ['upstream sale',
-                      'goodwill',
-                      'equity method',
+             'bank': ['goodwill',
+                      'upstream sale',
                       'proportionate consolidation',
-                      'subsidiary'],
-             'a': 'subsidiary · equity method · proportionate consolidation',
+                      'equity method'],
+             'a': 'equity method · proportionate consolidation',
              'one': True,
-             'why': 'The book writes: “The methods also remove intercompany '
-                    "profit differently. A controlled subsidiary's "
-                    'intercompany profit is removed in full. The LOS phrase '
-                    "'equity consolidation' means the equity method: one "
-                    'line, no NCI. Also, joint ventures use the equity '
-                    'method, not proportionate consolidation.”'}],
+             'why': "The book writes: “The LOS phrase 'equity consolidation' "
+                    'means the equity method: one line, no NCI. Also, joint '
+                    'ventures use the equity method, not proportionate '
+                    'consolidation.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -140,11 +127,11 @@ HANDOUT = {'id': '16.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the When used (U.S. GAAP) of Full '
-                  'consolidation as “Control (subsidiary or VIE)”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Full consolidation with “Control '
-                    '(subsidiary or VIE)”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -183,36 +170,12 @@ HANDOUT = {'id': '16.3',
              'a': 'B',
              'why': 'The book’s own table pairs Full consolidation with '
                     '“Control (subsidiary or VIE)”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “Significant '
-                  'influence (20%–50%); joint ventures”?',
-             'o': ['Proportionate consolidation',
-                   'Equity method',
-                   'Full consolidation'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Equity method with '
-                    '“Significant influence (20%–50%); joint ventures”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “Rare in U.S. GAAP: '
-                  'some construction and oil and gas interests”?',
-             'o': ['Proportionate consolidation',
-                   'Full consolidation',
-                   'Equity method'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Proportionate consolidation '
-                    'with “Rare in U.S. GAAP: some construction and oil and '
-                    'gas interests”.'},
             {'t': 'TF',
-             'q': 'The book gives the orontes of Full consolidation as '
-                  '“Levant (80%)”.',
+             'q': 'The book gives the orontes of Proportionate consolidation '
+                  'as “Not used by Orontes”.',
              'a': 'T',
-             'why': 'The book pairs Full consolidation with “Levant (80%)”.'},
-            {'t': 'TF',
-             'q': 'The book gives the orontes of Equity method as “Levant '
-                  '(80%)”.',
-             'a': 'F',
-             'why': 'The book pairs Equity method with “Jordan Glass (30%)”, '
-                    'not with “Levant (80%)”.'}]),
+             'why': 'The book pairs Proportionate consolidation with “Not '
+                    'used by Orontes”.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -248,82 +211,30 @@ HANDOUT = {'id': '16.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item is NOT eliminated in consolidation?',
-             'o': ["Levant's payable to Orontes",
-                   "Interest on Orontes's loan to Levant",
-                   'Dividends Levant pays to Orontes',
-                   'Sales from Levant to a supermarket outside the group'],
-             'a': 'D',
-             'why': 'Sales to outsiders are real revenue for the group. A is '
-                    'wrong: Intercompany payables are eliminated. B is '
-                    'wrong: Intercompany interest is eliminated.',
-             'src': 'P16-13'},
-            {'t': 'MCQ',
-             'q': 'A parent sells inventory to its 60%-owned subsidiary at a '
-                  'profit of $10,000; all of it is still unsold. How much of '
-                  'the elimination reduces NCI?',
-             'o': ['$0', '$4,000', '$6,000', '$10,000'],
-             'a': 'A',
-             'why': 'Downstream profit belongs to the parent. B is wrong: '
-                    'NCI shares only upstream profit. C is wrong: This is '
-                    "the parent's percentage, not an NCI amount.",
-             'src': 'P16-15'},
-            {'t': 'MCQ',
-             'q': 'Under IFRS 11, how does a party account for a joint '
-                  'operation?',
-             'o': ['It uses the equity method',
-                   'It recognizes its own share of the assets, liabilities, '
-                   'revenues and expenses',
-                   'It fully consolidates',
-                   'It measures the interest at fair value'],
-             'a': 'B',
-             'why': 'Joint operators account for their rights and '
-                    'obligations directly. A is wrong: The equity method is '
-                    'for joint ventures. C is wrong: No single party '
-                    'controls it.',
-             'src': 'P16-16'}]),
-          ('panel',
-           'Suppose: NCI in Levant, 2027 (whole USD) — the extract for the '
-           'question that follows',
-           [['Suppose: NCI in Levant, 2027 (whole USD)', 'Amount'],
-            ['NCI at January 1, 2027 (fair value)', '1,900,000'],
-            ["Levant's 2027 net income", '900,000'],
-            ['Less: depreciation on the PP&E step-up (1,200,000 ÷ 10 years)',
-             '(120,000)'],
-            ['Less: upstream unrealized profit', '________'],
-            ['Adjusted net income of Levant', '________'],
-            ['NCI share (20%)', '________'],
-            ['Less: dividends paid to NCI', '________'],
-            ['NCI at December 31, 2027', '________']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  "Levant's net income attributable to NCI for 2027 (whole "
-                  'USD)?',
-             'o': ['20,000', '151,000', '180,000', '755,000'],
-             'a': 'B',
-             'why': '20% of adjusted net income of $755,000. A is wrong: '
-                    'This is the dividend to NCI. C is wrong: This ignores '
-                    'the step-up depreciation and upstream profit.',
-             'src': 'P16-14'}]),
+             'q': 'A parent pays $5,000,000 for 70% of a company. NCI is '
+                  'worth $2,000,000, and net assets at fair value are '
+                  '$6,500,000. What is goodwill under U.S. GAAP?',
+             'o': ['$0', '$450,000', '$500,000', '$1,500,000'],
+             'a': 'C',
+             'why': 'Price + NCI fair value − net assets. A is wrong: '
+                    'Goodwill arises because the total exceeds net assets. B '
+                    'is wrong: This measures NCI at 30% of net assets '
+                    '(partial goodwill).',
+             'src': 'P16-03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which item is NOT eliminated in consolidation?',
-           ["Levant's payable to Orontes",
-            "Interest on Orontes's loan to Levant",
-            'Dividends Levant pays to Orontes',
-            'Sales from Levant to a supermarket outside the group'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Sales to outsiders are real revenue for the group. A is wrong: '
-           'Intercompany payables are eliminated. B is wrong: Intercompany '
-           'interest is eliminated.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -351,32 +262,15 @@ HANDOUT = {'id': '16.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes sells half of its Levant shares and loses '
-                  'control, keeping a 40% stake. It:',
-             'o': ['records an equity transaction with no gain or loss',
-                   'keeps consolidating Levant',
-                   'measures the 40% at its old carrying amount with no gain '
-                   'or loss',
-                   'deconsolidates Levant and measures the 40% at fair '
-                   'value, with a gain or loss in net income'],
-             'a': 'D',
-             'why': 'Loss of control ends consolidation and remeasures the '
-                    'retained interest. A is wrong: Equity treatment is only '
-                    'for changes without loss of control. B is wrong: '
-                    'Without control there is no consolidation.',
-             'src': 'P16-17'},
-            {'t': 'MCQ',
-             'q': 'Under U.S. GAAP, which party must reassess whether it is '
-                  "a VIE's primary beneficiary every reporting period?",
-             'o': ['Every party with a variable interest',
-                   'Only the largest lender',
-                   'Only the equity holders',
-                   'No one; it is decided once'],
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
              'a': 'A',
-             'why': 'The primary beneficiary assessment is continuous. B is '
-                    'wrong: All variable-interest holders reassess. C is '
-                    'wrong: Other variable-interest holders reassess too.',
-             'src': 'P16-18'}]),
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

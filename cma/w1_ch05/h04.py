@@ -6,14 +6,7 @@ HANDOUT = {'id': '5.4',
  'pages': 4,
  'title': 'The direct method and required disclosures',
  'sub': 'section 5.4 of the book',
- 'covers': ['sec:5.4',
-            'p:P5-19',
-            'p:P5-20',
-            'p:P5-21',
-            'p:P5-22',
-            'sc:P5-19',
-            'p:P5-24',
-            'term:investing activities'],
+ 'covers': ['sec:5.4', 'p:P5-06', 'term:investing activities'],
  'skills': [('read4', 3)],
  'derived': {},
  'flow': [('preview',
@@ -24,9 +17,7 @@ HANDOUT = {'id': '5.4',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The direct method and required disclosures',
              'a figure to read · Orontes, 2025, direct method (whole USD)',
-             'Two companies make the same interest payments. One reports '
-             'under U.S. GAAP, the other under IFRS and classifies interest '
-             'as financing. Which limitation does this show?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -35,19 +26,20 @@ HANDOUT = {'id': '5.4',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The direct method shows the main classes of ',
+             'parts': ['The ',
+                       15,
+                       ' shows the main classes of ',
                        11,
-                       ' receipts and payments, such as cash from ',
-                       11,
-                       ' and cash paid to suppliers. The FASB ',
+                       ' receipts and payments, such as cash from customers '
+                       'and cash paid to suppliers. The FASB ',
                        12,
                        ' it, but few companies use it.'],
              'bank': ['investing activities',
                       'encourages',
+                      'direct method',
                       'operating',
-                      'customers',
-                      'direct method'],
-             'a': 'operating · customers · encourages',
+                      'operating activities'],
+             'a': 'direct method · operating · encourages',
              'one': True,
              'why': 'The book writes: “The direct method shows the main '
                     'classes of operating receipts and payments, such as '
@@ -61,42 +53,49 @@ HANDOUT = {'id': '5.4',
                        16,
                        ' of net income to ',
                        11,
-                       ' cash flow. Cash from customers is sales adjusted '
-                       'for the change in ',
-                       13,
-                       ' and customer deposits.'],
+                       ' cash flow. A company using the ',
+                       17,
+                       ' must disclose interest paid and income taxes paid.'],
              'bank': ['reconciliation',
                       'investing activities',
                       'direct method',
-                      'receivables',
+                      'indirect method',
                       'operating'],
-             'a': 'reconciliation · operating · receivables',
+             'a': 'reconciliation · operating · indirect method',
              'one': True,
              'why': 'The book writes: “A company that uses it must still '
                     'show the reconciliation of net income to operating cash '
-                    'flow. Cash from customers is sales adjusted for the '
-                    'change in receivables and customer deposits.”'},
+                    'flow. A company using the indirect method must disclose '
+                    'interest paid and income taxes paid.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['A company using the ',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Orontes, 2025, direct method '
+                       '(whole USD)” settles these: for Cash received from '
+                       'customers it is ',
+                       12,
+                       ', for Cash paid to suppliers and employees it is ',
+                       14,
+                       ', for Interest and dividends received it is ',
                        11,
-                       ' method must ',
+                       ' and for Interest paid it is ',
                        11,
-                       ' ',
-                       11,
-                       ' paid and income taxes paid. SC5-8 A company uses '
-                       'the indirect method.'],
-             'bank': ['indirect',
-                      'disclose',
-                      'investing activities',
-                      'interest',
-                      'direct method'],
-             'a': 'indirect · disclose · interest',
+                       '.'],
+             'bank': ['(390,000)',
+                      '41,598,000',
+                      '73,800',
+                      '(839,700)',
+                      '(32,911,000)',
+                      '7,531,100'],
              'one': True,
-             'why': 'The book writes: “A company using the indirect method '
-                    'must disclose interest paid and income taxes paid. '
-                    'SC5-8 A company uses the indirect method.”'}],
+             'a': '41,598,000 · (32,911,000) · 73,800 · (390,000)',
+             'why': 'From the book’s own table “Orontes, 2025, direct method '
+                    '(whole USD)”: The book’s own table “Orontes, 2025, '
+                    'direct method (whole USD)” settles these: for Cash '
+                    'received from customers it is 41,598,000 and for Cash '
+                    'paid to suppliers and employees it is (32,911,000) and '
+                    'for Interest and dividends received it is 73,800 and '
+                    'for Interest paid it is (390,000).'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -148,104 +147,37 @@ HANDOUT = {'id': '5.4',
                    'Limitations and links between the four statements'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the '
-                    'statement of cash flows” as section 5.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.2?',
-             'o': ['Classifying cash flows',
-                   'Limitations and links between the four statements',
-                   'The indirect method',
-                   'The direct method and required disclosures'],
-             'a': 'A',
-             'why': 'The book numbers “Classifying cash flows” as section '
-                    '5.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.3?',
-             'o': ['The direct method and required disclosures',
-                   'The indirect method',
-                   'Classifying cash flows',
-                   'Limitations and links between the four statements'],
-             'a': 'B',
-             'why': 'The book numbers “The indirect method” as section 5.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 5.4?',
-             'o': ['Classifying cash flows',
-                   'The direct method and required disclosures',
-                   'Limitations and links between the four statements',
-                   'Purpose and structure of the statement of cash flows'],
-             'a': 'B',
-             'why': 'The book numbers “The direct method and required '
-                    'disclosures” as section 5.4.'}]),
+                    'statement of cash flows” as section 5.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Two companies make the same interest payments. One '
-                  'reports under U.S. GAAP, the other under IFRS and '
-                  'classifies interest as financing. Which limitation does '
-                  'this show?',
-             'o': ['Classification differences reduce comparability',
-                   'Cash flows depend on estimates',
-                   'Noncash items are omitted',
-                   'The statement uses historical cost'],
+             'q': 'Orontes received dividends of $70,000 from its '
+                  'equity-method investees. Under U.S. GAAP, using the '
+                  'cumulative-earnings approach, they are:',
+             'o': ['operating inflows',
+                   'investing inflows',
+                   'financing inflows',
+                   'not cash flows'],
              'a': 'A',
-             'why': 'The same payment can land in different sections. B is '
-                    'wrong: No estimate is involved. C is wrong: Interest '
-                    'paid is a cash flow.',
-             'src': 'P5-19'},
-            {'t': 'MCQ',
-             'q': 'A company stops replacing its old machines. What is the '
-                  'likely short-term effect on its statement of cash flows?',
-             'o': ['Operating cash flow falls immediately',
-                   'Financing inflows rise',
-                   'Investing outflows fall, so total cash looks strong even '
-                   'though the future may be weaker',
-                   'Nothing changes'],
-             'a': 'C',
-             'why': 'One year of cash flows can hide underinvestment. A is '
-                    'wrong: Operations are not directly affected at first. B '
-                    'is wrong: No financing is involved.',
-             'src': 'P5-20'},
-            {'t': 'MCQ',
-             'q': 'Orontes declared dividends of $450,000 in 2025, and '
-                  'dividends payable rose by $400,000. What are dividends '
-                  'paid in the financing section (whole USD)?',
-             'o': ['50,000', '400,000', '450,000', '850,000'],
-             'a': 'A',
-             'why': 'Declared minus the increase in the unpaid amount. B is '
-                    'wrong: This is only the unpaid part. C is wrong: This '
-                    'uses dividends declared, not paid.',
-             'src': 'P5-21'},
-            {'t': 'MCQ',
-             'q': "Orontes's net accounts receivable rose by $384,000 on its "
-                  'balance sheet. Where does this change appear?',
-             'o': ['As an investing outflow',
-                   'In the statement of changes in equity',
-                   'Nowhere; balance sheet changes are not used',
-                   'As a deduction in operating activities (indirect '
-                   'method)'],
-             'a': 'D',
-             'why': 'Balance sheet changes in operating items drive the '
-                    'indirect method. A is wrong: Trade receivables are '
-                    'operating. B is wrong: Receivables are not an equity '
-                    'account.',
-             'src': 'P5-22'}]),
+             'why': 'Dividends received up to cumulative equity earnings are '
+                    'operating. B is wrong: This is an IAS 7 option; U.S. '
+                    'GAAP puts them in operating. C is wrong: Dividends '
+                    'received are never financing.',
+             'src': 'P5-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Two companies make the same interest payments. One reports under '
-           'U.S. GAAP, the other under IFRS and classifies interest as '
-           'financing. Which limitation does this show?',
-           ['Classification differences reduce comparability',
-            'Cash flows depend on estimates',
-            'Noncash items are omitted',
-            'The statement uses historical cost'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'The same payment can land in different sections. B is wrong: No '
-           'estimate is involved. C is wrong: Interest paid is a cash flow.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -270,18 +202,23 @@ HANDOUT = {'id': '5.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'A company using the direct method must also:',
-             'o': ['present a reconciliation of net income to operating cash '
-                   'flow',
-                   'stop disclosing noncash activities',
-                   'classify interest paid as financing',
-                   'present an income statement by nature'],
-             'a': 'A',
-             'why': 'The reconciliation is still required. B is wrong: '
-                    'Noncash disclosures are always required. C is wrong: '
-                    'Interest paid stays operating.',
-             'src': 'P5-24'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each one. '
+                  'Every one is used once.',
+             'left': ['Cash received from customers',
+                      'Cash paid to suppliers and employees',
+                      'Interest and dividends received',
+                      'Interest paid',
+                      'Income taxes paid',
+                      'Net cash provided by operating activities'],
+             'right': ['73,800',
+                       '(839,700)',
+                       '7,531,100',
+                       '41,598,000',
+                       '(32,911,000)',
+                       '(390,000)'],
+             'a': ['D', 'E', 'A', 'F', 'B', 'C'],
+             'whys': ['', '', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

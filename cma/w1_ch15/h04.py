@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '15.4',
  'n': 4,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Is it a discontinued operation?',
  'sub': 'section 15.4 of the book',
  'covers': ['sec:15.4',
+            'p:P15-08',
             'term:reclassification adjustment',
             'term:period cost'],
  'skills': [('read4', 3)],
@@ -57,27 +58,25 @@ HANDOUT = {'id': '15.4',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Third, the component has been sold, abandoned or '
-                       'spun off, or it is ',
-                       15,
-                       '. Examples of a ',
+             'parts': ['Examples of a ',
                        17,
-                       ' are leaving a major line of business, a major '
-                       'geographic area or a major equity-method investment. '
-                       "There is no official percentage for 'major'; it is a "
-                       'judgment.'],
-             'bank': ['held for sale',
-                      'strategic shift',
+                       ' are leaving a major line of business, a major ',
+                       12,
+                       ' area or a major ',
+                       15,
+                       ' investment. There is no official percentage for '
+                       "'major'; it is a judgment."],
+             'bank': ['strategic shift',
+                      'geographic',
+                      'equity-method',
                       'gain',
                       'discontinued operation'],
-             'a': 'held for sale · strategic shift',
+             'a': 'strategic shift · geographic · equity-method',
              'one': True,
-             'why': 'The book writes: “Third, the component has been sold, '
-                    'abandoned or spun off, or it is held for sale. Examples '
-                    'of a strategic shift are leaving a major line of '
-                    'business, a major geographic area or a major '
-                    'equity-method investment. There is no official '
-                    "percentage for 'major'; it is a judgment.”"},
+             'why': 'The book writes: “Examples of a strategic shift are '
+                    'leaving a major line of business, a major geographic '
+                    'area or a major equity-method investment. There is no '
+                    "official percentage for 'major'; it is a judgment.”"},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -167,34 +166,19 @@ HANDOUT = {'id': '15.4',
              'a': 'A',
              'why': 'The book’s own table gives No: not a strategic shift as '
                     'the discontinued operation? of Orontes closes one of '
-                    'its twelve olive-oil shops.'},
-            {'t': 'MCQ',
-             'q': 'Which discontinued operation? does the book give for '
-                  'Orontes sells all its operations in Jordan, its only '
-                  'foreign market?',
-             'o': ['No: not a strategic shift',
-                   '________',
-                   'Yes: a major line of business'],
-             'a': 'B',
-             'why': 'The book’s own table gives ________ as the discontinued '
-                    'operation? of Orontes sells all its operations in '
-                    'Jordan, its only foreign market.'},
-            {'t': 'MCQ',
-             'q': 'Which discontinued operation? does the book give for '
-                  'Orontes sells an old bottling machine?',
-             'o': ['________',
-                   'Yes: a major line of business',
-                   'No: not a strategic shift'],
-             'a': 'A',
-             'why': 'The book’s own table gives ________ as the discontinued '
-                    'operation? of Orontes sells an old bottling machine.'}]),
+                    'its twelve olive-oil shops.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'A company sells an AFS bond at a gain of $30,000 that was '
+                  'already in AOCI. What reclassification adjustment appears '
+                  'in OCI in the year of sale?',
+             'o': ['+$30,000', '−$30,000', '$0', '−$60,000'],
+             'a': 'B',
+             'why': 'The gain moves out of AOCI into net income. A is wrong: '
+                    'The adjustment reduces OCI. C is wrong: Without it, the '
+                    'gain is counted twice.',
+             'src': 'P15-08'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -234,12 +218,16 @@ HANDOUT = {'id': '15.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which discontinued operation? does the book give for '
+                  'Orontes stops selling one flavour of juice?',
+             'o': ['Yes: a major line of business',
+                   'No: not a strategic shift',
+                   '________'],
+             'a': 'C',
+             'why': 'The book’s own table gives ________ as the discontinued '
+                    'operation? of Orontes stops selling one flavour of '
+                    'juice.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -12,8 +12,16 @@ def f1(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Why book income and taxable income differ', 'you are here · section 13.1'), ('Temporary and permanent differences', 'section 13.2'), ('Measuring current and deferred taxes', 'section 13.3'), ('Rate changes, valuation allowances, losses and presentation', 'section 13.4'), ('IFRS differences and disclosures', 'section 13.5')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Municipal bond interest', ''), ('Late-filing fine', ''), ('Tax depreciation above book', ''), ('Warranty liability', ''), ('Rent received in advance', '')]})
+
+
 def f2(blank=False):
     return cardset(blank=blank, **{'title': 'Item', 'cards': [('Tax depreciation faster than book (bonus, MACRS)', ['Type of difference: Temporary, taxable', 'Creates: Deferred tax liability']), ('Installment sale: revenue now, taxed when cash is collected', ['Type of difference: Temporary, taxable', 'Creates: Deferred tax liability']), ('Warranty or litigation accrual, deductible when paid', ['Type of difference: Temporary, deductible', 'Creates: Deferred tax asset']), ('Rent received in advance, taxed when received', ['Type of difference: Temporary, deductible', 'Creates: Deferred tax asset']), ('Tax-exempt municipal bond interest', ['Type of difference: Permanent', 'Creates: None']), ('Fines and penalties', ['Type of difference: Permanent', 'Creates: None'])], 'sub': 'Type of difference · Creates'})
+
+
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Municipal bond interest', 'Permanent difference'), ('Late-filing fine', 'Permanent difference'), ('Tax depreciation above book', 'Taxable temporary difference (DTL)'), ('Warranty liability', 'Deductible temporary difference (DTA)'), ('Rent received in advance', 'Deductible temporary difference (DTA)')]})
 
 
 def f3(blank=False):
@@ -24,6 +32,10 @@ def f4(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Why book income and taxable income differ', 'section 13.1'), ('Temporary and permanent differences', 'section 13.2'), ('Measuring current and deferred taxes', 'section 13.3'), ('Rate changes, valuation allowances, losses and presentation', 'you are here · section 13.4'), ('IFRS differences and disclosures', 'section 13.5')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f4b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Warranty expense accrued now', 'Temporary, deductible: DTA'), ('Fine for breaking the law', 'Permanent: no deferred tax'), ('Rent received in advance', 'Temporary, deductible (taxed now, earned later): DTA'), ('Equity-method income', 'Temporary, taxable (taxed later): DTL')]})
+
+
 def f5(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Why book income and taxable income differ', 'section 13.1'), ('Temporary and permanent differences', 'section 13.2'), ('Measuring current and deferred taxes', 'section 13.3'), ('Rate changes, valuation allowances, losses and presentation', 'section 13.4'), ('IFRS differences and disclosures', 'you are here · section 13.5')], 'sub': 'each section uses what the one before it settled'})
 
@@ -32,4 +44,4 @@ def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 13 at a glance', 'nodes': [('Why book income and taxable income differ', 'section 13.1'), ('Temporary and permanent differences', 'section 13.2'), ('Measuring current and deferred taxes', 'section 13.3'), ('Rate changes, valuation allowances, losses and presentation', 'section 13.4'), ('IFRS differences and disclosures', 'section 13.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f4b': f4b, 'f5': f5, 'chmap': chmap}

@@ -3,10 +3,21 @@
 
 HANDOUT = {'id': '4.6',
  'n': 6,
- 'pages': 6,
+ 'pages': 7,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P4-11',
+            'p:P4-12',
+            'p:P4-13',
+            'p:P4-15',
+            'p:P4-17',
+            'p:P4-18',
+            'p:P4-19',
+            'p:P4-21',
+            'p:P4-22',
+            'p:P4-24',
+            'p:P4-25',
             'sc:SC4-5',
             'sc:SC4-6',
             'sc:SC4-7',
@@ -42,8 +53,9 @@ HANDOUT = {'id': '4.6',
            'whole chapter. Then fill the gaps.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
-             'a figure to read',
-             'A company declares a 5% stock dividend. It is measured at:'],
+             'a figure to read · Suppose: Orontes, 8,100,000 shares',
+             'A company pays $50,000 of legal and underwriting costs to '
+             'issue new common shares. How does it record the costs?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item · Suppose: Orontes, '
              '8,100,000 shares',
@@ -58,10 +70,7 @@ HANDOUT = {'id': '4.6',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       17,
-                       ' is recorded in the same way, in its own account. A '
-                       'company may buy back its own shares and hold them '
+             'parts': ['A company may buy back its own shares and hold them '
                        'as ',
                        16,
                        '. Under the ',
@@ -73,23 +82,21 @@ HANDOUT = {'id': '4.6',
                        ' but not ',
                        20,
                        ': they receive no dividends and have no votes.'],
-             'bank': ['issued shares',
-                      'Preferred stock',
-                      'declaration date',
+             'bank': ['treasury stock',
                       'outstanding shares',
+                      'property dividend',
+                      'issued shares',
                       'cost method',
-                      'treasury stock',
-                      'property dividend'],
-             'a': 'Preferred stock · treasury stock · cost method · issued '
-                  'shares · outstanding shares',
+                      'preferred stock'],
+             'a': 'treasury stock · cost method · issued shares · '
+                  'outstanding shares',
              'one': True,
-             'why': 'The book writes: “Preferred stock is recorded in the '
-                    'same way, in its own account. A company may buy back '
-                    'its own shares and hold them as treasury stock. Under '
-                    'the cost method, treasury stock is recorded at the '
-                    'price paid and deducted from equity. Shares held as '
-                    'treasury stock are issued shares but not outstanding '
-                    'shares: they receive no dividends and have no votes.”'},
+             'why': 'The book writes: “A company may buy back its own shares '
+                    'and hold them as treasury stock. Under the cost method, '
+                    'treasury stock is recorded at the price paid and '
+                    'deducted from equity. Shares held as treasury stock are '
+                    'issued shares but not outstanding shares: they receive '
+                    'no dividends and have no votes.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -127,28 +134,28 @@ HANDOUT = {'id': '4.6',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['SC4-5 A company declares a 5% ',
-                       16,
-                       '. Retained earnings are the profits a company has '
-                       'kept since it began, less the dividends it has '
-                       'declared. A board may set part of retained earnings '
-                       'aside, for example for a new plant. These ',
-                       32,
-                       ' stay within equity; no costs are ever charged to '
-                       'them.'],
-             'bank': ['cost method',
-                      'stock dividend',
-                      'appropriated retained earnings',
-                      'issued shares'],
-             'a': 'stock dividend · appropriated retained earnings',
+             'parts': ['On a U.S. exam, separate APIC, retained earnings (',
+                       14,
+                       ' or not) and AOCI. French report à nouveau is only '
+                       'the ',
+                       17,
+                       ' part of retained earnings. Total equity is a book '
+                       'value: assets minus ',
+                       13,
+                       ', as measured by the accounting rules.'],
+             'bank': ['issued shares',
+                      'carried-forward',
+                      'appropriated',
+                      'cost method',
+                      'liabilities'],
+             'a': 'appropriated · carried-forward · liabilities',
              'one': True,
-             'why': 'The book writes: “SC4-5 A company declares a 5% stock '
-                    'dividend. Retained earnings are the profits a company '
-                    'has kept since it began, less the dividends it has '
-                    'declared. A board may set part of retained earnings '
-                    'aside, for example for a new plant. These appropriated '
-                    'retained earnings stay within equity; no costs are ever '
-                    'charged to them.”'}]),
+             'why': 'The book writes: “On a U.S. exam, separate APIC, '
+                    'retained earnings (appropriated or not) and AOCI. '
+                    'French report à nouveau is only the carried-forward '
+                    'part of retained earnings. Total equity is a book '
+                    'value: assets minus liabilities, as measured by the '
+                    'accounting rules.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -161,6 +168,7 @@ HANDOUT = {'id': '4.6',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -173,25 +181,6 @@ HANDOUT = {'id': '4.6',
              'a': 'B',
              'why': 'The book numbers “Components of equity and the '
                     'statement of changes in equity” as section 4.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.2?',
-             'o': ['Issuing and buying back shares',
-                   'Retained earnings',
-                   'Limitations and links to the other statements',
-                   'Dividends, stock dividends and stock splits'],
-             'a': 'A',
-             'why': 'The book numbers “Issuing and buying back shares” as '
-                    'section 4.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 4.3?',
-             'o': ['Limitations and links to the other statements',
-                   'Dividends, stock dividends and stock splits',
-                   'Issuing and buying back shares',
-                   'Components of equity and the statement of changes in '
-                   'equity'],
-             'a': 'B',
-             'why': 'The book numbers “Dividends, stock dividends and stock '
-                    'splits” as section 4.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -205,36 +194,124 @@ HANDOUT = {'id': '4.6',
              'a': ['A', 'B', 'C', 'D', 'E'],
              'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('panel',
+           'Suppose: Orontes, 8,100,000 shares — the extract for the '
+           'question that follows',
+           [['Suppose: Orontes, 8,100,000 shares',
+             '4% stock dividend',
+             '50% stock dividend',
+             '2-for-1 split'],
+            ['New shares issued', '324,000', '4,050,000', '8,100,000'],
+            ['Measured at', 'fair value $15', 'par $1', 'no entry'],
+            ['Retained earnings', '(4,860,000)', '(4,050,000)', 'no change'],
+            ['Common stock', '324,000', '4,050,000', 'no change'],
+            ['Additional paid-in capital',
+             '4,536,000',
+             'no change',
+             'no change'],
+            ["Total stockholders' equity",
+             'no change',
+             'no change',
+             'no change'],
+            ['Par value per share afterward', '$1', '$1', '$0.50']],
+           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': "Why is Orontes's total equity much lower than the market "
-                  'value of its shares?',
-             'o': ['Equity is measured at fair value each year',
-                   'Treasury stock is shown at market value',
-                   'Equity includes only contributed capital',
-                   'Most assets are at historical cost and internally built '
-                   'intangibles are not recorded'],
+             'q': 'The extract for this question is printed with it. By how '
+                  "much does the 50% stock dividend reduce Orontes's "
+                  'retained earnings (whole USD)?',
+             'o': ['0', '4,050,000', '4,860,000', '60,750,000'],
+             'a': 'B',
+             'why': 'A large stock dividend moves only par: 4,050,000 shares '
+                    '× $1. A is wrong: A large stock dividend is still '
+                    'recorded; only a split has no entry. C is wrong: This '
+                    'is the small stock dividend.',
+             'src': 'P4-17'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company with 500,000 shares of $2 par stock declares a '
+                  '2-for-1 stock split. What happens?',
+             'o': ['Retained earnings decrease by $1,000,000',
+                   'Common stock increases by $1,000,000',
+                   'Total equity doubles',
+                   '1,000,000 shares of $1 par; no entry and no change in '
+                   'any equity account'],
              'a': 'D',
-             'why': 'Book value is not a valuation. A is wrong: Equity is '
-                    'not remeasured to fair value. B is wrong: Treasury '
-                    'stock is shown at cost.',
-             'src': 'SC4-9'}]),
+             'why': 'A split changes the number of shares and the par per '
+                    'share only. A is wrong: A split does not move retained '
+                    'earnings. B is wrong: Common stock stays the same in '
+                    'total.',
+             'src': 'P4-18'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company has issued 1,000,000 shares, of which 100,000 '
+                  'are held in treasury. It declares a 10% stock dividend. '
+                  'How many new shares does it issue?',
+             'o': ['10,000', '90,000', '100,000', '110,000'],
+             'a': 'B',
+             'why': 'Stock dividends are based on outstanding shares. A is '
+                    'wrong: This applies the rate to the treasury shares '
+                    'only. C is wrong: This includes the treasury shares.',
+             'src': 'P4-19'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which is a limitation of the equity section of the '
+                  'balance sheet?',
+             'o': ['It includes all internally built intangibles',
+                   'It shows the market value of the company',
+                   'It is prepared on a cash basis',
+                   'Treasury stock is shown at its cost, not at the current '
+                   'share price'],
+             'a': 'D',
+             'why': 'Historical cost measures limit what equity tells users. '
+                    'A is wrong: Internally built intangibles are not '
+                    'recorded. B is wrong: Equity is a book amount.',
+             'src': 'P4-21'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "Why may a company's retained earnings not show how much "
+                  'it can legally pay as dividends?',
+             'o': ['Legal capital rules and loan covenants can restrict '
+                   'distributions',
+                   'Retained earnings include share premium',
+                   'Retained earnings are measured at fair value',
+                   'Dividends are paid from AOCI'],
+             'a': 'A',
+             'why': 'Restrictions are disclosed, not deducted from the '
+                    'balance. B is wrong: Share premium is APIC, not '
+                    'retained earnings. C is wrong: Retained earnings are '
+                    'not a fair value.',
+             'src': 'P4-22'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company pays a dividend of $300,000, but its retained '
+                  'earnings are only $200,000. The extra $100,000 is:',
+             'o': ['an expense',
+                   'a liquidating dividend that reduces APIC',
+                   'a reduction of treasury stock',
+                   'shown as negative OCI'],
+             'a': 'B',
+             'why': 'Amounts beyond retained earnings return contributed '
+                    'capital. A is wrong: Dividends are never expenses. C is '
+                    'wrong: Treasury stock is not involved.',
+             'src': 'P4-24'}]),
           ('pair',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
           ('check',
-           'A company declares a 5% stock dividend. It is measured at:',
-           ['the par value of the new shares',
-            'zero, because no assets leave the company',
-            'the fair value of the new shares',
-            'the book value per share'],
-           'C',
+           'A company pays $50,000 of legal and underwriting costs to issue '
+           'new common shares. How does it record the costs?',
+           ['As an expense',
+            'As a reduction of additional paid-in capital',
+            'As an intangible asset',
+            'As a reduction of retained earnings'],
+           'B',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'A small stock dividend is measured at fair value. A is wrong: '
-           'Par value is used for large stock dividends. B is wrong: No '
-           'entry is made only for a stock split.'),
+           'Direct equity issuance costs reduce the proceeds, so they reduce '
+           'APIC. A is wrong: Equity issuance costs are not expensed. C is '
+           'wrong: They are not an asset.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -263,67 +340,47 @@ HANDOUT = {'id': '4.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C4-1 ask for?',
-             'o': ['Enter the amount transferred out of retained earnings '
-                   'for the stock di',
-                   'Classify each account at the end of 2026. (On the exam '
-                   'screen you woul',
-                   'Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.',
-                   "Enter total stockholders' equity at December 31, 2026."],
-             'a': 'B',
-             'why': 'The book states item C4-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C4-2 ask for?',
-             'o': ['Enter the amount transferred out of retained earnings '
-                   'for the stock di',
-                   'Classify each account at the end of 2026. (On the exam '
-                   'screen you woul',
-                   'Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.',
-                   "Enter total stockholders' equity at December 31, 2026."],
-             'a': 'C',
-             'why': 'The book states item C4-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C4-3 ask for?',
-             'o': ["Enter total stockholders' equity at December 31, 2026.",
-                   'Enter the amount transferred out of retained earnings '
-                   'for the stock di',
-                   'Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.',
-                   'Classify each account at the end of 2026. (On the exam '
-                   'screen you woul'],
-             'a': 'B',
-             'why': 'The book states item C4-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C4-4 ask for?',
-             'o': ['Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.',
-                   "Enter total stockholders' equity at December 31, 2026.",
-                   'Enter retained earnings at December 31, 2026.',
-                   'Enter the cash dividend declared on December 15 (E5).'],
-             'a': 'D',
-             'why': 'The book states item C4-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C4-5 ask for?',
-             'o': ['Enter retained earnings at December 31, 2026.',
-                   'Enter the cash dividend declared on December 15 (E5).',
-                   'Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.',
-                   "Enter total stockholders' equity at December 31, 2026."],
-             'a': 'A',
-             'why': 'The book states item C4-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C4-6 ask for?',
-             'o': ['Enter retained earnings at December 31, 2026.',
-                   "Enter total stockholders' equity at December 31, 2026.",
-                   'Enter the cash dividend declared on December 15 (E5).',
-                   'Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.'],
-             'a': 'B',
-             'why': 'The book states item C4-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter the balance of APIC–treasury stock at December '
+                      '31, 2026.',
+                      "Enter total stockholders' equity at December 31, "
+                      '2026.',
+                      'Enter the amount transferred out of retained earnings '
+                      'for the stock dividend (E4).',
+                      'Classify each account at the end of 2026. (On the '
+                      'exam screen you would drag each account into a box.)',
+                      'Enter retained earnings at December 31, 2026.',
+                      'Enter the cash dividend declared on December 15 '
+                      '(E5).'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['B', 'F', 'C', 'A', 'E', 'D'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company retires treasury shares that cost more than '
+                  'their par value and original APIC. For the exam today, '
+                  'the excess is charged to:',
+             'o': ['retained earnings, or split between APIC and retained '
+                   'earnings',
+                   'APIC only, as ASU 2025-12 requires',
+                   'net income as a loss',
+                   'OCI'],
+             'a': 'A',
+             'why': 'These are the current rules; ASU 2025-12 adds an '
+                    'optional APIC-only method from 2027. B is wrong: The '
+                    'APIC-only method is optional and not yet testable. C is '
+                    'wrong: Transactions in own shares do not affect net '
+                    'income.',
+             'src': 'P4-25'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'A company declares a 5% stock dividend. It is measured '
@@ -370,6 +427,21 @@ HANDOUT = {'id': '4.6',
                     'entry. B is wrong: This uses par, the rule for large '
                     'stock dividends.',
              'src': 'SC4-6'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'In 2026 a company finds that it overstated its 2024 '
+                  'depreciation expense. How does it correct the error?',
+             'o': ['It reports a gain in 2026 net income',
+                   'It reduces 2026 depreciation expense',
+                   'It records the correction in OCI',
+                   'It restates prior years and increases opening retained '
+                   'earnings, net of tax'],
+             'a': 'D',
+             'why': 'Error corrections are prior-period adjustments to '
+                    'opening retained earnings. A is wrong: Errors are not '
+                    'corrected through current net income. B is wrong: This '
+                    'would misstate 2026 as well.',
+             'src': 'SC4-7'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

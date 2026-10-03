@@ -3,17 +3,16 @@
 
 HANDOUT = {'id': '9.1',
  'n': 1,
- 'pages': 5,
+ 'pages': 7,
  'title': 'Three categories of debt securities',
  'sub': 'section 9.1 of the book',
  'covers': ['sec:9.1',
             'p:P9-01',
-            'p:P9-02',
-            'p:P9-03',
-            'p:P9-04',
-            'sc:P9-01',
-            'p:P9-05',
             'p:P9-06',
+            'p:P9-07',
+            'p:P9-14',
+            'p:P9-15',
+            'p:P9-16',
             'term:debt security',
             'term:held-to-maturity (htm) securities',
             'term:effective-interest method',
@@ -29,103 +28,90 @@ HANDOUT = {'id': '9.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Three categories of debt securities',
              'a figure to read · Item',
-             'A debt security should be classified as held-to-maturity only '
-             'if the company has:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Year · The English the exam uses, and what it translates',
+             'a figure to read · Year · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['An ',
-                       17,
-                       ' gives an ownership interest, like shares of common '
-                       'stock. When a company buys a ',
+             'parts': ['Section 9.4 covers equity securities. When a company '
+                       'buys a ',
                        15,
                        ', it classifies it into one of three categories, and '
-                       'it reassesses the classification at each reporting '
-                       "date. The category depends on management's intent "
-                       'and ability, not on the type of bond. ',
-                       20,
-                       ' are bought and held mainly to sell in the near '
-                       'term.'],
-             'bank': ['debt security',
+                       'it reassesses the ',
+                       16,
+                       ' at each reporting date. The category depends on ',
+                       14,
+                       ' intent and ability, not on the type of bond.'],
+             'bank': ['classification',
                       'significant influence',
-                      'equity security',
-                      'Trading securities',
+                      'debt security',
+                      "management's",
                       'basis difference'],
-             'a': 'equity security · debt security · Trading securities',
+             'a': "debt security · classification · management's",
              'one': True,
-             'why': 'The book writes: “An equity security gives an ownership '
-                    'interest, like shares of common stock. When a company '
-                    'buys a debt security, it classifies it into one of '
-                    'three categories, and it reassesses the classification '
-                    'at each reporting date. The category depends on '
-                    "management's intent and ability, not on the type of "
-                    'bond. Trading securities are bought and held mainly to '
-                    'sell in the near term.”'},
+             'why': 'The book writes: “Section 9.4 covers equity securities. '
+                    'When a company buys a debt security, it classifies it '
+                    'into one of three categories, and it reassesses the '
+                    'classification at each reporting date. The category '
+                    "depends on management's intent and ability, not on the "
+                    'type of bond.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['',
-                       20,
-                       ' are bought and held mainly to sell in the near '
-                       'term. ',
-                       35,
-                       ' are securities the company has the positive intent '
-                       'and the ability to hold until they mature. ',
-                       37,
-                       ' are all other debt securities. Decision tree for '
-                       'classifying a ',
-                       15,
-                       ' as trading, held-to-maturity or '
-                       'available-for-sale.'],
-             'bank': ['debt security',
-                      'Available-for-sale (AFS) securities',
-                      'Trading securities',
-                      'basis difference',
-                      'Held-to-maturity (HTM) securities',
-                      'significant influence'],
-             'a': 'Trading securities · Held-to-maturity (HTM) securities · '
-                  'Available-for-sale (AFS) securities · debt security',
+             'parts': ['If the company would sell the bond when interest '
+                       'rates change or when it needs cash, it does not have '
+                       'the intent to hold it. And if it sells or ',
+                       11,
+                       ' HTM ',
+                       12,
+                       ' for other reasons, it taints the whole HTM ',
+                       11,
+                       ', which raises doubt about its intent for all its '
+                       'other HTM securities.'],
+             'bank': ['significant influence',
+                      'portfolio',
+                      'transfers',
+                      'securities',
+                      'basis difference'],
+             'a': 'transfers · securities · portfolio',
              'one': True,
-             'why': 'The book writes: “Trading securities are bought and '
-                    'held mainly to sell in the near term. Held-to-maturity '
-                    '(HTM) securities are securities the company has the '
-                    'positive intent and the ability to hold until they '
-                    'mature. Available-for-sale (AFS) securities are all '
-                    'other debt securities. Decision tree for classifying a '
-                    'debt security as trading, held-to-maturity or '
-                    'available-for-sale.”'},
+             'why': 'The book writes: “If the company would sell the bond '
+                    'when interest rates change or when it needs cash, it '
+                    'does not have the intent to hold it. And if it sells or '
+                    'transfers HTM securities for other reasons, it taints '
+                    'the whole HTM portfolio, which raises doubt about its '
+                    'intent for all its other HTM securities.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       20,
-                       ' are bought and held mainly to sell in the near '
-                       'term. ',
-                       35,
-                       ' are securities the company has the positive intent '
-                       'and the ability to hold until they mature. ',
-                       37,
-                       ' are all other debt securities.'],
-             'bank': ['Held-to-maturity (HTM) securities',
+             'parts': ['The ',
+                       11,
+                       ' is ',
+                       13,
+                       ', and all changes in ',
+                       12,
+                       ' then go to net income. The same bond can be '
+                       'trading, AFS or HTM. Read the facts about intent and '
+                       'ability. A company that might sell when rates change '
+                       'cannot use HTM.'],
+             'bank': ['irrevocable',
                       'basis difference',
                       'significant influence',
-                      'Available-for-sale (AFS) securities',
-                      'Trading securities'],
-             'a': 'Trading securities · Held-to-maturity (HTM) securities · '
-                  'Available-for-sale (AFS) securities',
+                      'fair value',
+                      'election'],
+             'a': 'election · irrevocable · fair value',
              'one': True,
-             'why': 'The book writes: “Trading securities are bought and '
-                    'held mainly to sell in the near term. Held-to-maturity '
-                    '(HTM) securities are securities the company has the '
-                    'positive intent and the ability to hold until they '
-                    'mature. Available-for-sale (AFS) securities are all '
-                    'other debt securities.”'}],
+             'why': 'The book writes: “The election is irrevocable, and all '
+                    'changes in fair value then go to net income. The same '
+                    'bond can be trading, AFS or HTM. Read the facts about '
+                    'intent and ability. A company that might sell when '
+                    'rates change cannot use HTM.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -152,11 +138,11 @@ HANDOUT = {'id': '9.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the answer of Share of net income as “30% '
-                  '× 400,000 = 120,000”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Share of net income with “30% × 400,000 '
-                    '= 120,000”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
           ('panel',
@@ -174,55 +160,14 @@ HANDOUT = {'id': '9.1',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Share of net income?',
-             'o': ['30% × 400,000 = 120,000',
-                   '30% × 100,000 = 30,000',
-                   '3,000',
-                   '120,000 − 3,000 = 117,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 30% × 400,000 = 120,000 as '
-                    'the answer of Share of net income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Extra depreciation?',
-             'o': ['30% × 400,000 = 120,000',
-                   '30% × 100,000 = 30,000',
-                   '120,000 − 3,000 = 117,000',
-                   '3,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 3,000 as the answer of Extra '
-                    'depreciation.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Dividends?',
-             'o': ['30% × 100,000 = 30,000',
-                   '3,000',
-                   '120,000 − 3,000 = 117,000',
-                   '30% × 400,000 = 120,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 30% × 100,000 = 30,000 as '
-                    'the answer of Dividends.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “1,287,000 + 120,000 − '
-                  '3,000 − 30,000 = 1,374,000”?',
-             'o': ['Extra depreciation',
-                   'Equity-method income',
-                   'Ending balance',
-                   'Dividends'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Ending balance with '
-                    '“1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Share of net income as “30% '
-                  '× 400,000 = 120,000”.',
-             'a': 'T',
-             'why': 'The book pairs Share of net income with “30% × 400,000 '
-                    '= 120,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Extra depreciation as '
-                  '“1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000”.',
-             'a': 'F',
-             'why': 'The book pairs Extra depreciation with “3,000”, not '
-                    'with “1,287,000 + 120,000 − 3,000 − 30,000 = '
-                    '1,374,000”.'}]),
+             'q': 'Which part of this chapter is section 9.1?',
+             'o': ['Equity securities and the equity method',
+                   'Three categories of debt securities',
+                   'Measuring debt securities',
+                   'Credit losses on debt securities'],
+             'a': 'B',
+             'why': 'The book numbers “Three categories of debt securities” '
+                    'as section 9.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -240,63 +185,62 @@ HANDOUT = {'id': '9.1',
                     'price does not decide the category.',
              'src': 'P9-01'},
             {'t': 'MCQ',
-             'q': 'A company sells a large part of its held-to-maturity '
-                  'portfolio because it needs cash. What is the MOST likely '
-                  'consequence?',
-             'o': ['Nothing, because the sale was for a business reason.',
-                   'The gain on the sale goes to OCI.',
-                   'Its remaining HTM securities are tainted and should be '
-                   'reclassified.',
-                   'The securities are reclassified as trading at cost.'],
-             'a': 'C',
-             'why': 'Selling HTM securities outside the permitted cases '
-                    "calls the company's intent into question. A is wrong: A "
-                    'need for cash is not one of the permitted reasons. B is '
-                    'wrong: A realized gain on sale goes to net income.',
-             'src': 'P9-02'},
+             'q': 'How is a held-to-maturity bond reported on the balance '
+                  'sheet?',
+             'o': ['At fair value',
+                   'At face value',
+                   'At cost, with no amortization',
+                   'At amortized cost, net of any allowance for credit '
+                   'losses'],
+             'a': 'D',
+             'why': 'HTM securities are not remeasured to fair value. A is '
+                    'wrong: Fair value is only disclosed for HTM. B is '
+                    'wrong: Face value is reached only at maturity.',
+             'src': 'P9-06'},
             {'t': 'MCQ',
-             'q': 'Use the Orontes bond. What is the amortized cost at '
-                  'December 31, 2025 (whole USD)?',
-             'o': ['100,000', '101,000', '101,859', '102,723'],
-             'a': 'C',
-             'why': 'Cost minus the premium amortized in 2025. A is wrong: '
-                    'The bond reaches face value only at maturity. B is '
-                    'wrong: This is fair value, not amortized cost.',
-             'src': 'P9-03'},
+             'q': 'Which statement about credit losses on debt securities is '
+                  'correct?',
+             'o': ['AFS allowances are limited to amortized cost minus fair '
+                   'value; HTM allowances have no such limit.',
+                   'Both HTM and AFS use the same CECL allowance with no '
+                   'limit.',
+                   'Neither category records credit losses until a default.',
+                   'AFS credit losses go to OCI.'],
+             'a': 'A',
+             'why': 'HTM follows CECL; AFS uses an allowance capped by the '
+                    'fair-value floor. B is wrong: AFS has its own model '
+                    'with the fair-value floor. C is wrong: Expected losses '
+                    'are recorded before any default.',
+             'src': 'P9-07'},
             {'t': 'MCQ',
-             'q': 'Orontes classifies the bond as trading. What amount is '
-                  'reported in 2025 net income for the change in fair value '
-                  '(whole USD)?',
-             'o': ['A loss of 2,723',
-                   'A loss of 859',
-                   'No amount; it goes to OCI',
-                   'A gain of 859'],
+             'q': 'Which option exists under IFRS 9 but NOT under U.S. GAAP?',
+             'o': ['Measuring trading debt at fair value through profit or '
+                   'loss',
+                   'An irrevocable election to put fair value changes on '
+                   'shares in OCI',
+                   'The equity method for associates',
+                   'Amortized cost for debt held to collect cash flows'],
              'a': 'B',
-             'why': 'Fair value minus amortized cost: the loss goes to net '
-                    'income for trading securities. A is wrong: This '
-                    'compares fair value with face, ignoring amortized cost. '
-                    'C is wrong: OCI is for AFS; trading changes go to net '
-                    'income.',
-             'src': 'P9-04'}]),
+             'why': 'IFRS 9 allows the FVOCI election for shares; U.S. GAAP '
+                    'puts all changes on shares in net income. A is wrong: '
+                    'Both frameworks measure trading debt at fair value '
+                    'through income. C is wrong: Both frameworks use the '
+                    'equity method.',
+             'src': 'P9-14'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A debt security should be classified as held-to-maturity only if '
-           'the company has:',
-           ['the positive intent and the ability to hold it until maturity.',
-            'no plan to sell it within the next year.',
-            'bought it at a discount.',
-            'the fair value option.'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Both intent and ability are required. B is wrong: A one-year '
-           'view is not enough; the intent must cover the whole period to '
-           'maturity. C is wrong: The purchase price does not decide the '
-           'category.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -307,6 +251,7 @@ HANDOUT = {'id': '9.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Year — the book’s own table',
            [['Year',
@@ -348,28 +293,70 @@ HANDOUT = {'id': '9.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes sells its AFS bond at the end of 2026. Which '
-                  'amount goes to net income as a realized gain (whole USD)?',
-             'o': ['0', '548', '859', '1,407'],
-             'a': 'B',
-             'why': 'Sale price minus amortized cost; the accumulated OCI is '
-                    'reclassified. A is wrong: The gain is realized on the '
-                    'sale and goes to net income. C is wrong: This is the '
-                    '2025 unrealized loss.',
-             'src': 'P9-05'},
+             'q': 'Spiral review (Chapter 1). Interest revenue on a bond is '
+                  'recognized each year even when the premium makes the cash '
+                  'received higher than the revenue. Which basis does this '
+                  'follow?',
+             'o': ['The cash basis',
+                   'The direct write-off method',
+                   'The accrual basis',
+                   'Immediate recognition'],
+             'a': 'C',
+             'why': 'Revenue is recognized as earned, measured by the '
+                    'effective-interest method, not by the cash received. A '
+                    'is wrong: Under the cash basis, revenue would equal the '
+                    'cash received. B is wrong: That is a method for bad '
+                    'debts.',
+             'src': 'P9-15'},
             {'t': 'MCQ',
-             'q': 'How is a held-to-maturity bond reported on the balance '
-                  'sheet?',
-             'o': ['At fair value',
-                   'At face value',
-                   'At cost, with no amortization',
-                   'At amortized cost, net of any allowance for credit '
-                   'losses'],
-             'a': 'D',
-             'why': 'HTM securities are not remeasured to fair value. A is '
-                    'wrong: Fair value is only disclosed for HTM. B is '
-                    'wrong: Face value is reached only at maturity.',
-             'src': 'P9-06'}]),
+             'q': 'Spiral review (Chapter 6). Which debt investments follow '
+                  'the same CECL model as trade receivables?',
+             'o': ['Held-to-maturity securities',
+                   'Trading securities',
+                   'Available-for-sale securities',
+                   'Shares measured at fair value'],
+             'a': 'A',
+             'why': 'HTM securities are measured at amortized cost, like '
+                    'receivables. B is wrong: Trading securities are at fair '
+                    'value through net income; no allowance is needed. C is '
+                    'wrong: AFS has a separate model with the fair-value '
+                    'floor.',
+             'src': 'P9-16'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Share of net income',
+                      'Extra depreciation',
+                      'Dividends',
+                      'Ending balance',
+                      'Equity-method income'],
+             'right': ['30% × 400,000 = 120,000',
+                       '1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000',
+                       '120,000 − 3,000 = 117,000',
+                       '30% × 100,000 = 30,000',
+                       '3,000'],
+             'a': ['A', 'E', 'D', 'B', 'C'],
+             'whys': ['', '', '', '', '']},
+            {'t': 'MCQ',
+             'q': 'Which interest revenue does the book give for 2027?',
+             'o': ['5,136', '5,048', '5,093'],
+             'a': 'B',
+             'why': 'The book’s own table gives 5,048 as the interest '
+                    'revenue of 2027.'},
+            {'t': 'GRID',
+             'q': 'Complete every empty cell. The first full row shows the '
+                  'pattern.',
+             'h': ['Year',
+                   'Cash interest',
+                   'Interest revenue',
+                   'Premium amortized',
+                   'Amortized cost, end'],
+             'rows': [['2025', '6,000', '5,136', '864', '101,859'],
+                      ['2026', '', '', '', ''],
+                      ['2027', '', '', '', '']],
+             'a': ['2026: 6,000 · 5,093 · 907 · 100,952',
+                   '2027: 6,000 · 5,048 · 952 · 100,000'],
+             'whys': ['', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

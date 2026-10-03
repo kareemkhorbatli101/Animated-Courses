@@ -3,17 +3,16 @@
 
 HANDOUT = {'id': '13.2',
  'n': 2,
- 'pages': 7,
+ 'pages': 6,
  'title': 'Temporary and permanent differences',
  'sub': 'section 13.2 of the book',
  'covers': ['sec:13.2',
-            'p:P13-07',
-            'p:P13-08',
-            'p:P13-09',
-            'p:P13-10',
-            'sc:P13-07',
-            'p:P13-11',
-            'p:P13-12',
+            'p:P13-03',
+            'p:P13-14',
+            'p:P13-17',
+            'p:P13-18',
+            'p:P13-19',
+            'p:P13-20',
             'term:temporary difference',
             'term:enacted tax rate',
             'term:deductible temporary difference',
@@ -28,11 +27,10 @@ HANDOUT = {'id': '13.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Temporary and permanent differences',
              'a figure to read · Item · the book’s own rule, gapped',
-             'Under U.S. GAAP, a tax position is recognized in the financial '
-             'statements if it is:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates · '
-             'Suppose: Orontes, 2026 (whole USD)',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -72,31 +70,24 @@ HANDOUT = {'id': '13.2',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['A ',
-                       30,
-                       ' creates a ',
-                       24,
-                       ': tax that will be paid later. A ',
-                       33,
-                       ' creates a deferred tax asset: tax that will be '
-                       'saved later. Decision chart: ',
-                       22,
-                       ', deferred tax liability or deferred tax asset?.'],
-             'bank': ['permanent difference',
-                      'deductible temporary difference',
-                      'deferred tax asset',
-                      'taxable temporary difference',
-                      'deferred tax liability',
-                      'temporary difference'],
-             'a': 'taxable temporary difference · deferred tax liability · '
-                  'deductible temporary difference · permanent difference',
+             'parts': ['The item is in book income but never in ',
+                       16,
+                       ', or the reverse. Tax-exempt municipal bond interest '
+                       'and fines are common examples. Permanent differences '
+                       'create no deferred tax; they only change the ',
+                       20,
+                       '.'],
+             'bank': ['deferred tax asset',
+                      'taxable income',
+                      'temporary difference',
+                      'effective tax rate'],
+             'a': 'taxable income · effective tax rate',
              'one': True,
-             'why': 'The book writes: “A taxable temporary difference '
-                    'creates a deferred tax liability: tax that will be paid '
-                    'later. A deductible temporary difference creates a '
-                    'deferred tax asset: tax that will be saved later. '
-                    'Decision chart: permanent difference, deferred tax '
-                    'liability or deferred tax asset?.”'},
+             'why': 'The book writes: “The item is in book income but never '
+                    'in taxable income, or the reverse. Tax-exempt municipal '
+                    'bond interest and fines are common examples. Permanent '
+                    'differences create no deferred tax; they only change '
+                    'the effective tax rate.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -144,11 +135,12 @@ HANDOUT = {'id': '13.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the type of difference of Tax depreciation '
-                  'faster than book (bonus, MACRS) as “Temporary, taxable”.',
+             'q': 'The book gives the type of difference of Life insurance '
+                  'premiums when the company is the beneficiary as '
+                  '“Permanent”.',
              'a': 'T',
-             'why': 'The book pairs Tax depreciation faster than book '
-                    '(bonus, MACRS) with “Temporary, taxable”.'}]),
+             'why': 'The book pairs Life insurance premiums when the company '
+                    'is the beneficiary with “Permanent”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -185,51 +177,7 @@ HANDOUT = {'id': '13.2',
              'a': 'B',
              'why': 'The book’s own table gives Temporary, taxable as the '
                     'type of difference of Tax depreciation faster than book '
-                    '(bonus, MACRS).'},
-            {'t': 'MCQ',
-             'q': 'Which type of difference does the book give for '
-                  'Installment sale: revenue now, taxed when cash is '
-                  'collected?',
-             'o': ['Permanent',
-                   'Temporary, deductible',
-                   'Temporary, taxable'],
-             'a': 'C',
-             'why': 'The book’s own table gives Temporary, taxable as the '
-                    'type of difference of Installment sale: revenue now, '
-                    'taxed when cash is collected.'},
-            {'t': 'MCQ',
-             'q': 'Which type of difference does the book give for Warranty '
-                  'or litigation accrual, deductible when paid?',
-             'o': ['Temporary, deductible',
-                   'Temporary, taxable',
-                   'Permanent'],
-             'a': 'A',
-             'why': 'The book’s own table gives Temporary, deductible as the '
-                    'type of difference of Warranty or litigation accrual, '
-                    'deductible when paid.'},
-            {'t': 'MCQ',
-             'q': 'Which type of difference does the book give for Rent '
-                  'received in advance, taxed when received?',
-             'o': ['Temporary, deductible',
-                   'Temporary, taxable',
-                   'Permanent'],
-             'a': 'A',
-             'why': 'The book’s own table gives Temporary, deductible as the '
-                    'type of difference of Rent received in advance, taxed '
-                    'when received.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Tax depreciation faster '
-                  'than book (bonus, MACRS) as “Deferred tax liability”.',
-             'a': 'T',
-             'why': 'The book pairs Tax depreciation faster than book '
-                    '(bonus, MACRS) with “Deferred tax liability”.'},
-            {'t': 'TF',
-             'q': 'The book gives the creates of Installment sale: revenue '
-                  'now, taxed when cash is collected as “None”.',
-             'a': 'F',
-             'why': 'The book pairs Installment sale: revenue now, taxed '
-                    'when cash is collected with “Deferred tax liability”, '
-                    'not with “None”.'}]),
+                    '(bonus, MACRS).'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -261,75 +209,67 @@ HANDOUT = {'id': '13.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under U.S. GAAP, a tax position is recognized in the '
-                  'financial statements if it is:',
-             'o': ['more likely than not to be sustained on its technical '
-                   'merits',
-                   'certain to be accepted',
-                   'probable in the IFRS sense',
-                   'not yet examined by the tax authority'],
+             'q': "A company's deferred tax liability rose from $300,000 to "
+                  '$380,000, and its deferred tax asset rose from $50,000 to '
+                  '$70,000. What is deferred tax expense?',
+             'o': ['$60,000', '$80,000', '$100,000', '$310,000'],
              'a': 'A',
-             'why': 'Step 1 of the uncertain tax position model. B is wrong: '
-                    'Certainty is not required. C is wrong: The U.S. test is '
-                    "'more likely than not'.",
-             'src': 'P13-07'},
+             'why': 'Increase in DTL of $80,000 less increase in DTA of '
+                    '$20,000. B is wrong: This ignores the DTA. C is wrong: '
+                    'This adds the DTA increase.',
+             'src': 'P13-03'},
             {'t': 'MCQ',
-             'q': 'Which item creates a temporary difference?',
-             'o': ['A fine for breaking the law',
-                   'Tax-exempt municipal interest',
-                   'An accrued warranty expense deductible for tax when paid',
-                   'Life insurance premiums on an officer, where the company '
-                   'is the beneficiary'],
-             'a': 'C',
-             'why': 'It reverses when the repairs are paid. A is wrong: '
-                    'Fines are never deductible. B is wrong: Municipal '
-                    'interest is never taxable.',
-             'src': 'P13-08'},
-            {'t': 'MCQ',
-             'q': 'A company receives rent for next year in advance. Tax law '
-                  'taxes it now; GAAP recognizes it next year. This creates:',
-             'o': ['a taxable temporary difference and a deferred tax '
-                   'liability',
-                   'a permanent difference',
-                   'no difference',
-                   'a deductible temporary difference and a deferred tax '
-                   'asset'],
-             'a': 'D',
-             'why': 'Tax is paid now on income recognized later, so future '
-                    'tax will be lower. A is wrong: The direction is '
-                    'reversed. B is wrong: The difference reverses next '
-                    'year.',
-             'src': 'P13-09'},
-            {'t': 'MCQ',
-             'q': 'A company uses the installment method for tax, but '
-                  'recognizes the full sale for books. The difference is:',
-             'o': ['a deductible temporary difference',
-                   'a taxable temporary difference',
-                   'a permanent difference',
-                   'a valuation allowance'],
+             'q': 'A U.S. company has a federal tax loss in 2026. Under '
+                  'current law it can:',
+             'o': ['carry it back two years for a refund',
+                   'carry the loss forward without a time limit, using it '
+                   'against up to 80% of future taxable income each year',
+                   'carry it forward for 20 years only',
+                   'deduct it only in 2027'],
              'a': 'B',
-             'why': 'Tax will be paid later, as cash is collected. A is '
-                    'wrong: Future taxable income will increase, not fall. C '
-                    'is wrong: The income will be taxed eventually.',
-             'src': 'P13-10'}]),
+             'why': 'Post-2017 federal NOLs have no carryback and an 80% '
+                    'limit. A is wrong: Carrybacks were removed for most '
+                    'companies. C is wrong: The 20-year limit applied to '
+                    'older losses.',
+             'src': 'P13-14'},
+            {'t': 'MCQ',
+             'q': 'An IFRS company expects to use only $60,000 of a '
+                  'potential $100,000 deferred tax asset. Under IAS 12 it '
+                  'reports:',
+             'o': ['no deferred tax asset',
+                   'a $100,000 asset and a $40,000 allowance',
+                   'a deferred tax asset of $60,000'],
+             'a': 'C',
+             'why': 'IAS 12 recognizes only the probable amount. A is wrong: '
+                    'This is the U.S. GAAP presentation. B is wrong: The '
+                    'probable part is recognized.',
+             'src': 'P13-17'},
+            {'t': 'MCQ',
+             'q': 'How does a U.S. company account for the Pillar Two global '
+                  'minimum top-up tax?',
+             'o': ['By recording a deferred tax liability',
+                   'As a current cost in the period, with no deferred taxes',
+                   'By remeasuring all deferred taxes at 15%',
+                   'As OCI'],
+             'a': 'B',
+             'why': 'It is treated like an alternative minimum tax. A is '
+                    'wrong: No deferred taxes are recorded for it. C is '
+                    'wrong: Existing deferred taxes are not remeasured.',
+             'src': 'P13-18'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under U.S. GAAP, a tax position is recognized in the financial '
-           'statements if it is:',
-           ['more likely than not to be sustained on its technical merits',
-            'certain to be accepted',
-            'probable in the IFRS sense',
-            'not yet examined by the tax authority'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Step 1 of the uncertain tax position model. B is wrong: '
-           "Certainty is not required. C is wrong: The U.S. test is 'more "
-           "likely than not'."),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -340,6 +280,7 @@ HANDOUT = {'id': '13.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -390,70 +331,45 @@ HANDOUT = {'id': '13.2',
                    'Taxable temporary difference (DTL)'],
              'a': 'B',
              'why': 'The book’s own table gives Permanent difference as the '
-                    'category of Late-filing fine.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Taxable temporary '
-                  'difference (DTL)”?',
-             'o': ['Warranty liability',
-                   'Municipal bond interest',
-                   'Tax depreciation above book',
-                   'Late-filing fine'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Tax depreciation above book '
-                    'with “Taxable temporary difference (DTL)”.'}]),
+                    'category of Late-filing fine.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'How do permanent differences affect the financial '
-                  'statements?',
-             'o': ['They create deferred tax assets',
-                   'They create deferred tax liabilities',
-                   'They have no effect at all',
-                   'They change the effective tax rate but create no '
-                   'deferred taxes'],
-             'a': 'D',
-             'why': 'They are in one income but never in the other. A is '
-                    'wrong: Permanent differences never reverse. B is wrong: '
-                    'Permanent differences never reverse.',
-             'src': 'P13-11'}]),
-          ('panel',
-           'Suppose: Orontes, 2026 (whole USD) — the extract for the '
-           'question that follows',
-           [['Suppose: Orontes, 2026 (whole USD)',
-             'Amount',
-             '% of pretax income'],
-            ['Current tax expense', '357,000', ''],
-            ['Deferred tax liability created: 25% × 600,000', '150,000', ''],
-            ['Deferred tax asset created: 25% × 38,000', '(9,500)', ''],
-            ['Deferred tax expense', '140,500', ''],
-            ['Total income tax expense', '497,500', '24.875%'],
-            ['Rate reconciliation (ASU 2023-09 style)', '', ''],
-            ['Tax at the statutory rate: 25% × 2,000,000',
-             '500,000',
-             '25.000%'],
-            ['Nontaxable or nondeductible items: municipal interest',
-             '(5,000)',
-             '-0.250%'],
-            ['Nontaxable or nondeductible items: fine', '2,500', '0.125%'],
-            ['Income tax expense and effective tax rate',
-             '497,500',
-             '24.875%']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. Which '
-                  'balances does Orontes carry at the end of 2026 for the '
-                  'equipment and the warranty (whole USD)?',
-             'o': ['A DTA of 150,000 and a DTL of 9,500',
-                   'A current DTL of 140,500',
-                   'A DTL of 150,000 and a DTA of 9,500, shown as one net '
-                   'noncurrent DTL',
-                   'No deferred taxes'],
-             'a': 'C',
-             'why': 'Same jurisdiction: net amount, noncurrent. A is wrong: '
-                    'The directions are reversed. B is wrong: Deferred taxes '
-                    'are never current.',
-             'src': 'P13-12'}]),
+             'q': 'Under ASU 2023-09, a public company with a 21% statutory '
+                  'rate must separately show a reconciling item when it is '
+                  'at least:',
+             'o': ['1% of revenue',
+                   '5% of pretax income multiplied by the statutory rate',
+                   '10% of tax expense',
+                   'any amount, however small'],
+             'a': 'B',
+             'why': 'The 5% threshold applies to the statutory-rate tax. A '
+                    'is wrong: The threshold is not based on revenue. C is '
+                    'wrong: The threshold is 5% of the statutory tax.',
+             'src': 'P13-19'},
+            {'t': 'MCQ',
+             'q': 'Which pair lists one taxable and one deductible temporary '
+                  'difference?',
+             'o': ['Accelerated tax depreciation; accrued litigation loss',
+                   'Municipal interest; fines',
+                   'Accrued warranty; allowance for credit losses',
+                   'Installment sale; accelerated tax depreciation'],
+             'a': 'A',
+             'why': 'Depreciation creates a DTL; the litigation accrual '
+                    'creates a DTA. B is wrong: Both are permanent '
+                    'differences. C is wrong: Both are deductible '
+                    'differences.',
+             'src': 'P13-20'},
+            {'t': 'MCQ',
+             'q': 'Which type of difference does the book give for Life '
+                  'insurance premiums when the company is the beneficiary?',
+             'o': ['Temporary, taxable',
+                   'Permanent',
+                   'Temporary, deductible'],
+             'a': 'B',
+             'why': 'The book’s own table gives Permanent as the type of '
+                    'difference of Life insurance premiums when the company '
+                    'is the beneficiary.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

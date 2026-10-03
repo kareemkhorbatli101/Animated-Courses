@@ -7,13 +7,11 @@ HANDOUT = {'id': '3.2',
  'title': 'Building the multi-step income statement',
  'sub': 'section 3.2 of the book',
  'covers': ['sec:3.2',
-            'p:P3-07',
-            'p:P3-08',
-            'p:P3-09',
-            'p:P3-10',
-            'sc:P3-07',
-            'p:P3-11',
-            'p:P3-12',
+            'p:P3-02',
+            'p:P3-14',
+            'p:P3-17',
+            'p:P3-19',
+            'p:P3-20',
             'term:multi-step income statement',
             'term:comprehensive income',
             'term:function of expense',
@@ -29,85 +27,87 @@ HANDOUT = {'id': '3.2',
             ['Building the multi-step income statement',
              'a figure to read · Barada Wholesale, year ended December 31, '
              '2025 (',
-             'Under U.S. GAAP, which presentation of operating expenses is '
-             'required?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates · '
-             'Suppose: Orontes, 2026 (whole USD)',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       18,
-                       ' is gross profit minus operating expenses: selling, '
-                       'general and administrative expenses, research and '
-                       'development, credit losses and impairments. Interest '
-                       'and income tax are never operating expenses. ',
-                       26,
-                       ' follows operating income.'],
-             'bank': ['Operating income',
-                      'Other income and expense',
+             'parts': ['Gross ',
+                       11,
+                       ' is net sales minus cost of goods sold. It shows how '
+                       'much the company earns on what it sells ',
+                       11,
+                       ' its other costs. ',
+                       11,
+                       ' gross profit is $14,700,000, which is 35% of net '
+                       'sales.'],
+             'bank': ['profit',
+                      'before',
+                      'discontinued operation',
                       'comprehensive income',
-                      'discontinued operation'],
-             'a': 'Operating income · Other income and expense',
+                      "Orontes's"],
+             'a': "profit · before · Orontes's",
              'one': True,
-             'why': 'The book writes: “Operating income is gross profit '
-                    'minus operating expenses: selling, general and '
-                    'administrative expenses, research and development, '
-                    'credit losses and impairments. Interest and income tax '
-                    'are never operating expenses. Other income and expense '
-                    'follows operating income.”'},
+             'why': 'The book writes: “Gross profit is net sales minus cost '
+                    'of goods sold. It shows how much the company earns on '
+                    "what it sells before its other costs. Orontes's gross "
+                    'profit is $14,700,000, which is 35% of net sales.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Interest and income tax are never operating '
-                       'expenses. ',
-                       26,
-                       ' follows ',
+             'parts': ['Income tax expense is then deducted from income '
+                       'before income taxes. Public companies also show '
+                       'earnings per share (EPS) on the face of the ',
+                       11,
+                       ". Orontes's basic EPS is $0.37: net income divided "
+                       'by the ',
                        18,
-                       '. It contains interest, investment income and gains '
-                       'and losses. A gain or loss comes from a peripheral '
-                       'or incidental transaction, and it is shown net.'],
-             'bank': ['operating income',
-                      'comprehensive income',
+                       ' number of shares ',
+                       13,
+                       '.'],
+             'bank': ['weighted-average',
                       'discontinued operation',
-                      'Other income and expense'],
-             'a': 'Other income and expense · operating income',
+                      'outstanding',
+                      'comprehensive income',
+                      'statement'],
+             'a': 'statement · weighted-average · outstanding',
              'one': True,
-             'why': 'The book writes: “Interest and income tax are never '
-                    'operating expenses. Other income and expense follows '
-                    'operating income. It contains interest, investment '
-                    'income and gains and losses. A gain or loss comes from '
-                    'a peripheral or incidental transaction, and it is shown '
-                    'net.”'},
+             'why': 'The book writes: “Income tax expense is then deducted '
+                    'from income before income taxes. Public companies also '
+                    'show earnings per share (EPS) on the face of the '
+                    "statement. Orontes's basic EPS is $0.37: net income "
+                    'divided by the weighted-average number of shares '
+                    'outstanding.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       26,
-                       ' follows ',
+             'parts': ['Interest expense is below ',
                        18,
-                       '. It contains interest, investment income and gains '
-                       'and losses. A gain or loss comes from a peripheral '
-                       'or incidental transaction, and it is shown net. '
-                       'Income tax expense is then deducted from income '
-                       'before income taxes.'],
-             'bank': ['comprehensive income',
-                      'Other income and expense',
+                       ', never inside it. A gain on selling equipment is '
+                       'other income, not revenue. Gross profit uses cost of '
+                       'goods sold only; wages and ',
+                       14,
+                       ' outside ',
+                       12,
+                       ' are operating expenses.'],
+             'bank': ['discontinued operation',
                       'operating income',
-                      'discontinued operation'],
-             'a': 'Other income and expense · operating income',
+                      'depreciation',
+                      'production',
+                      'comprehensive income'],
+             'a': 'operating income · depreciation · production',
              'one': True,
-             'why': 'The book writes: “Other income and expense follows '
-                    'operating income. It contains interest, investment '
-                    'income and gains and losses. A gain or loss comes from '
-                    'a peripheral or incidental transaction, and it is shown '
-                    'net. Income tax expense is then deducted from income '
-                    'before income taxes.”'}],
+             'why': 'The book writes: “Interest expense is below operating '
+                    'income, never inside it. A gain on selling equipment is '
+                    'other income, not revenue. Gross profit uses cost of '
+                    'goods sold only; wages and depreciation outside '
+                    'production are operating expenses.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -166,113 +166,78 @@ HANDOUT = {'id': '3.2',
                    'Unusual items and discontinued operations'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the income '
-                    'statement” as section 3.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.2?',
-             'o': ['Limitations and links to the other statements',
-                   'Unusual items and discontinued operations',
-                   'Building the multi-step income statement',
-                   'Purpose and structure of the income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Building the multi-step income '
-                    'statement” as section 3.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.3?',
-             'o': ['Building the multi-step income statement',
-                   'Limitations and links to the other statements',
-                   'Unusual items and discontinued operations',
-                   'Purpose and structure of the income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Unusual items and discontinued '
-                    'operations” as section 3.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.4?',
-             'o': ['Unusual items and discontinued operations',
-                   'Comprehensive income',
-                   'Building the multi-step income statement',
-                   'Purpose and structure of the income statement'],
-             'a': 'B',
-             'why': 'The book numbers “Comprehensive income” as section '
-                    '3.4.'}]),
+                    'statement” as section 3.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under U.S. GAAP, which presentation of operating expenses '
-                  'is required?',
-             'o': ['No specific presentation is required; SEC captions lead '
-                   'to a functional presentation',
-                   'By nature, such as materials and staff costs',
-                   'By function, with a note by nature for all companies '
-                   'today',
-                   'Operating profit as a required subtotal'],
-             'a': 'A',
-             'why': 'U.S. GAAP does not mandate function or nature. B is '
-                    'wrong: Nature is common under IFRS, not required in the '
-                    'U.S. C is wrong: DISE note disclosures start only in '
-                    '2027 and are not yet testable.',
-             'src': 'P3-07'},
-            {'t': 'MCQ',
-             'q': 'For which amounts must a U.S. public company with a '
-                  'simple capital structure show EPS on the face of the '
-                  'income statement?',
-             'o': ['Gross profit and operating income',
-                   'Comprehensive income only',
-                   'Income from continuing operations and net income',
-                   'Unusual or infrequent items'],
-             'a': 'C',
-             'why': 'EPS is required for income from continuing operations '
-                    'and net income. A is wrong: EPS is not shown for these '
-                    'subtotals. B is wrong: EPS is not required for '
-                    'comprehensive income.',
-             'src': 'P3-08'},
-            {'t': 'MCQ',
-             'q': 'A company reports a large loss from a flood, which is '
-                  'unusual for it. How is the loss presented?',
-             'o': ['Net of tax, below income from continuing operations',
-                   'As an extraordinary item with its own EPS',
-                   'Only in the notes',
-                   'As a separate line in income from continuing operations, '
-                   'before tax'],
-             'a': 'D',
-             'why': 'Unusual or infrequent items stay in continuing '
-                    'operations, before tax. A is wrong: Only discontinued '
-                    'operations are shown net of tax there. B is wrong: '
-                    'Extraordinary items were removed.',
-             'src': 'P3-09'},
-            {'t': 'MCQ',
-             'q': 'Orontes sells an oven with a cost of $60,000 and '
-                  'accumulated depreciation of $42,000 for $21,000. How is '
-                  'the sale shown on the income statement?',
-             'o': ['Revenue of $21,000',
-                   'A gain of $3,000 in other income and expense',
-                   'A gain of $21,000',
-                   'A loss of $39,000'],
+             'q': "A lender wants to know if a borrower's main business "
+                  'earns enough to cover its interest. Which subtotal is '
+                  'MOST useful?',
+             'o': ['Net income',
+                   'Operating income',
+                   'Comprehensive income',
+                   'Gross profit'],
              'a': 'B',
-             'why': 'Proceeds of $21,000 minus the carrying amount of '
-                    '$18,000; gains are shown net. A is wrong: Selling '
-                    'equipment is not revenue. C is wrong: Gains are shown '
-                    'net, not as the full proceeds.',
-             'src': 'P3-10'}]),
+             'why': 'Operating income is earned before interest, so it can '
+                    'be compared with interest expense. A is wrong: Net '
+                    'income is after interest has already been deducted. C '
+                    'is wrong: Comprehensive income includes OCI, which is '
+                    'not from main operations.',
+             'src': 'P3-02'},
+            {'t': 'MCQ',
+             'q': 'Where may a U.S. company report OCI?',
+             'o': ['Only in the statement of changes in equity',
+                   'In one continuous statement of comprehensive income, or '
+                   'in a separate statement right after the income statement',
+                   'Only in the notes',
+                   'Inside operating income'],
+             'a': 'B',
+             'why': 'ASU 2011-05 requires one or two statements. A is wrong: '
+                    'Showing OCI only in equity is no longer allowed. C is '
+                    'wrong: OCI must be on the face of a statement.',
+             'src': 'P3-14'},
+            {'t': 'MCQ',
+             'q': 'Near the year-end, a manager delays advertising until '
+                  'January to meet a profit target. This illustrates which '
+                  'limitation?',
+             'o': ['Net income can be influenced by the timing of '
+                   'discretionary costs',
+                   'The income statement omits unrealized value changes',
+                   'Net income is measured at fair value',
+                   'The income statement shows cash flows'],
+             'a': 'A',
+             'why': 'Earnings management through timing is a known '
+                    'limitation. B is wrong: No unrealized value change is '
+                    'involved. C is wrong: Net income is not a fair value '
+                    'measure.',
+             'src': 'P3-17'},
+            {'t': 'MCQ',
+             'q': 'Which amount starts the operating section of a U.S. '
+                  'statement of cash flows under the indirect method?',
+             'o': ['Operating income',
+                   'Comprehensive income',
+                   'Gross profit',
+                   'Net income'],
+             'a': 'D',
+             'why': 'The indirect method reconciles net income to operating '
+                    'cash flow. A is wrong: Starting from operating profit '
+                    'is the IFRS 18 approach, not yet testable. B is wrong: '
+                    'OCI is not part of the reconciliation.',
+             'src': 'P3-19'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under U.S. GAAP, which presentation of operating expenses is '
-           'required?',
-           ['No specific presentation is required; SEC captions lead to a '
-            'functional presentation',
-            'By nature, such as materials and staff costs',
-            'By function, with a note by nature for all companies today',
-            'Operating profit as a required subtotal'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'U.S. GAAP does not mandate function or nature. B is wrong: '
-           'Nature is common under IFRS, not required in the U.S. C is '
-           'wrong: DISE note disclosures start only in 2027 and are not yet '
-           'testable.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -283,6 +248,7 @@ HANDOUT = {'id': '3.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Answer'],
@@ -312,78 +278,23 @@ HANDOUT = {'id': '3.2',
                        'عرض المصروفات حسب الوظيفة',
                        'قائمة الدخل متعددة المراحل'],
              'a': ['B', 'D', 'C', 'A'],
-             'whys': ['', '', '', '']},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Operating income?',
-             'o': ['1,240 − 520 − 300 = 420',
-                   '420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 ÷ 3,100 = 40%'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,240 − 520 − 300 = 420 as '
-                    'the answer of Operating income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Net income?',
-             'o': ['1,240 − 520 − 300 = 420',
-                   '420 − 90 = 330, the same as in Chapter 1',
-                   '1,240 ÷ 3,100 = 40%'],
-             'a': 'B',
-             'why': 'The book’s own table gives 420 − 90 = 330, the same as '
-                    'in Chapter 1 as the answer of Net income.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Gross profit '
-                  'percentage?',
-             'o': ['1,240 ÷ 3,100 = 40%',
-                   '1,240 − 520 − 300 = 420',
-                   '420 − 90 = 330, the same as in Chapter 1'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,240 ÷ 3,100 = 40% as the '
-                    'answer of Gross profit percentage.'}]),
+             'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which condition is NOT needed for a disposal to be '
-                  'reported as a discontinued operation?',
-             'o': ['The component must be sold, held for sale or disposed of',
-                   'The disposal must be a strategic shift',
-                   'The shift must have a major effect on operations and '
-                   'results',
-                   'The component must have been profitable'],
-             'a': 'D',
-             'why': 'Profitable and loss-making components can both be '
-                    'discontinued operations. A is wrong: This is one of the '
-                    'conditions. B is wrong: This is one of the conditions.',
-             'src': 'P3-12'}]),
-          ('panel',
-           'Suppose: Orontes, 2026 (whole USD) — the extract for the '
-           'question that follows',
-           [['Suppose: Orontes, 2026 (whole USD)',
-             'Before tax',
-             'Tax benefit',
-             'Net of tax'],
-            ['Loss from operations of the frozen-foods business',
-             '(420,000)',
-             '105,000',
-             '(315,000)'],
-            ['Loss on disposal of the business',
-             '(180,000)',
-             '45,000',
-             '(135,000)'],
-            ['Loss from discontinued operations',
-             '(600,000)',
-             '150,000',
-             '(450,000)']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What '
-                  'loss from discontinued operations does Orontes report '
-                  '(whole USD)?',
-             'o': ['315,000', '450,000', '600,000', '750,000'],
-             'a': 'B',
-             'why': 'Both losses, each net of its tax benefit: $315,000 + '
-                    '$135,000. A is wrong: This leaves out the loss on '
-                    'disposal. C is wrong: This is before tax.',
-             'src': 'P3-11'}]),
+             'q': 'An IFRS company revalues its land upward. How is the '
+                  'increase reported?',
+             'o': ['As a gain in profit or loss',
+                   'In OCI, reclassified to profit when the land is sold',
+                   'In OCI as a revaluation surplus, never reclassified to '
+                   'profit',
+                   'It is not recognized under IFRS'],
+             'a': 'C',
+             'why': 'IAS 16 revaluation increases go to OCI and are not '
+                    'recycled. A is wrong: Revaluation increases go to OCI, '
+                    'unless they reverse an earlier loss. B is wrong: '
+                    'Revaluation surplus is never recycled under IFRS.',
+             'src': 'P3-20'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

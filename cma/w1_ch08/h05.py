@@ -6,7 +6,11 @@ HANDOUT = {'id': '8.5',
  'pages': 4,
  'title': 'Recommending a method',
  'sub': 'section 8.5 of the book',
- 'covers': ['sec:8.5', 'term:write-down', 'term:ceiling', 'term:markup'],
+ 'covers': ['sec:8.5',
+            'p:P8-10',
+            'term:write-down',
+            'term:ceiling',
+            'term:markup'],
  'skills': [('read5', 3)],
  'derived': {},
  'flow': [('preview',
@@ -19,86 +23,86 @@ HANDOUT = {'id': '8.5',
              'a figure to read · Product line',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Product line · The English the exam uses, and what it '
-             'translates',
+             'a figure to read · Product line · The English the exam uses, '
+             'and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['A Level C question may give you a set of facts and '
-                       'ask you to ',
-                       11,
-                       ' a method. Decision path for ',
+             'parts': ['If items are identical and sold in large volumes, '
+                       'specific ',
+                       16,
+                       ' is costly and open to ',
                        14,
-                       ' an ',
-                       11,
-                       ' cost flow method. Always check the facts that can '
-                       'rule a method out.'],
-             'bank': ['recommend',
-                      'inventory',
-                      'recommending',
+                       '. If the company wants the U.S. tax benefit of LIFO, '
+                       'it must also report LIFO profits to investors, and '
+                       'it must avoid ',
+                       13,
+                       ' old layers.'],
+             'bank': ['identification',
+                      'liquidating',
+                      'manipulation',
                       'ceiling',
                       'markup'],
-             'a': 'recommend · recommending · inventory',
+             'a': 'identification · manipulation · liquidating',
              'one': True,
-             'why': 'The book writes: “A Level C question may give you a set '
-                    'of facts and ask you to recommend a method. Decision '
-                    'path for recommending an inventory cost flow method. '
-                    'Always check the facts that can rule a method out.”'},
+             'why': 'The book writes: “If items are identical and sold in '
+                    'large volumes, specific identification is costly and '
+                    'open to manipulation. If the company wants the U.S. tax '
+                    'benefit of LIFO, it must also report LIFO profits to '
+                    'investors, and it must avoid liquidating old layers.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The finance director wants lower taxes but also a '
-                       'balance sheet that lenders trust. Olive oil is a ',
+             'parts': ['LIFO would lower taxes while prices rise, but ',
                        12,
-                       ', identical product that Orontes ships ',
-                       14,
-                       '. LIFO would lower taxes while prices rise, but ',
-                       12,
-                       ' would lower reported profits too, and the balance '
-                       'sheet would show old costs.'],
+                       ' would lower ',
+                       11,
+                       ' profits too, and the balance sheet would show old '
+                       'costs. FIFO matches the physical flow and gives '
+                       'lenders a current ',
+                       11,
+                       ' amount, but taxes are higher.'],
              'bank': ['ceiling',
-                      'perishable',
                       'conformity',
+                      'inventory',
                       'markup',
-                      'oldest-first'],
-             'a': 'perishable · oldest-first · conformity',
+                      'reported'],
+             'a': 'conformity · reported · inventory',
              'one': True,
-             'why': 'The book writes: “The finance director wants lower '
-                    'taxes but also a balance sheet that lenders trust. '
-                    'Olive oil is a perishable, identical product that '
-                    'Orontes ships oldest-first. LIFO would lower taxes '
-                    'while prices rise, but conformity would lower reported '
-                    'profits too, and the balance sheet would show old '
-                    'costs.”'},
+             'why': 'The book writes: “LIFO would lower taxes while prices '
+                    'rise, but conformity would lower reported profits too, '
+                    'and the balance sheet would show old costs. FIFO '
+                    'matches the physical flow and gives lenders a current '
+                    'inventory amount, but taxes are higher.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The answer depends on the stated ',
+             'parts': ['Check IFRS, taxes, price trends, the ',
                        11,
-                       ', and a good exam answer names it. In a ',
+                       ' flow and the cost of records before you choose. '
+                       'Prices are rising, and it wants lower taxes. Prices '
+                       'are rising, and ',
                        12,
-                       ' question, a ',
-                       16,
-                       ' earns credit only if it follows from the facts '
-                       'given. Check IFRS, taxes, price trends, the physical '
-                       'flow and the cost of records before you choose.'],
+                       ' accepts lower ',
+                       11,
+                       ' profits in exchange for the lowest income taxes.'],
              'bank': ['ceiling',
-                      'recommendation',
+                      'reported',
                       'markup',
-                      'case-based',
-                      'priority'],
-             'a': 'priority · case-based · recommendation',
+                      'management',
+                      'physical'],
+             'a': 'physical · management · reported',
              'one': True,
-             'why': 'The book writes: “The answer depends on the stated '
-                    'priority, and a good exam answer names it. In a '
-                    'case-based question, a recommendation earns credit only '
-                    'if it follows from the facts given. Check IFRS, taxes, '
-                    'price trends, the physical flow and the cost of records '
-                    'before you choose.”'}],
+             'why': 'The book writes: “Check IFRS, taxes, price trends, the '
+                    'physical flow and the cost of records before you '
+                    'choose. Prices are rising, and it wants lower taxes. '
+                    'Prices are rising, and management accepts lower '
+                    'reported profits in exchange for the lowest income '
+                    'taxes.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -150,41 +154,25 @@ HANDOUT = {'id': '8.5',
                    'Advantages and disadvantages of the methods',
                    'Lower of cost or market'],
              'a': 'B',
-             'why': 'The book numbers “Which test applies?” as section 8.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 8.2?',
-             'o': ['Which test applies?',
-                   'Advantages and disadvantages of the methods',
-                   'Lower of cost or market',
-                   'Recommending a method'],
-             'a': 'C',
-             'why': 'The book numbers “Lower of cost or market” as section '
-                    '8.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 8.3?',
-             'o': ['The retail inventory method and the gross profit method',
-                   'Lower of cost or market',
-                   'Recommending a method',
-                   'Advantages and disadvantages of the methods'],
-             'a': 'A',
-             'why': 'The book numbers “The retail inventory method and the '
-                    'gross profit method” as section 8.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 8.4?',
-             'o': ['The retail inventory method and the gross profit method',
-                   'Recommending a method',
-                   'Lower of cost or market',
-                   'Advantages and disadvantages of the methods'],
-             'a': 'D',
-             'why': 'The book numbers “Advantages and disadvantages of the '
-                    'methods” as section 8.4.'}]),
+             'why': 'The book numbers “Which test applies?” as section '
+                    '8.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Orontes signed a firm, non-cancellable contract to buy '
+                  'sesame seeds next year at a fixed price. At year-end, the '
+                  'market price is well below the contract price. What '
+                  'should Orontes do?',
+             'o': ['Recognize the loss when the seeds arrive.',
+                   'Disclose the contract only.',
+                   'Recognize the expected loss now.',
+                   'Record the difference as an asset.'],
+             'a': 'C',
+             'why': 'Losses on firm, non-cancellable purchase commitments '
+                    'are recognized in the current period. A is wrong: The '
+                    'loss already exists at year-end. B is wrong: Disclosure '
+                    'alone is not enough for an expected loss.',
+             'src': 'P8-10'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -209,6 +197,7 @@ HANDOUT = {'id': '8.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Product line — the book’s own table',
            [['Product line', 'Category'],
@@ -236,30 +225,19 @@ HANDOUT = {'id': '8.5',
                    "Za'atar mix"],
              'a': 'A',
              'why': 'The book’s own table pairs Pomegranate molasses with '
-                    '“LCM (market with ceiling and floor)”.'},
-            {'t': 'MCQ',
-             'q': 'Which product line does the book pair with “LCM (market '
-                  'with ceiling and floor)”?',
-             'o': ['Frozen kibbeh',
-                   'Olive-oil soap',
-                   'Rose water',
-                   "Za'atar mix"],
-             'a': 'C',
-             'why': 'The book’s own table pairs Rose water with “LCM (market '
-                    'with ceiling and floor)”.'},
-            {'t': 'MCQ',
-             'q': 'Which product line does the book pair with “LCNRV”?',
-             'o': ['Pomegranate molasses', 'Rose water', "Za'atar mix"],
-             'a': 'C',
-             'why': "The book’s own table pairs Za'atar mix with “LCNRV”."}]),
+                    '“LCM (market with ceiling and floor)”.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

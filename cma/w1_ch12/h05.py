@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '12.5',
  'n': 5,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Warranties',
  'sub': 'section 12.5 of the book',
  'covers': ['sec:12.5',
+            'p:P12-09',
             'term:service-type warranty',
             'term:sales tax payable'],
  'skills': [('read5', 3)],
@@ -22,67 +23,14 @@ HANDOUT = {'id': '12.5',
              'December',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['An ',
-                       25,
-                       ' only promises that a product will work as agreed. '
-                       'It is not a separate performance obligation. The '
-                       'company estimates the repair cost at the time of '
-                       'sale, records warranty expense and a ',
-                       20,
-                       ', and reduces the liability as repairs are made.'],
-             'bank': ['assurance-type warranty',
-                      'warranty liability',
-                      'current liabilities',
-                      'commercial paper'],
-             'a': 'assurance-type warranty · warranty liability',
-             'one': True,
-             'why': 'The book writes: “An assurance-type warranty only '
-                    'promises that a product will work as agreed. It is not '
-                    'a separate performance obligation. The company '
-                    'estimates the repair cost at the time of sale, records '
-                    'warranty expense and a warranty liability, and reduces '
-                    'the liability as repairs are made.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['An ',
-                       25,
-                       ' only promises that a product will work as agreed. '
-                       'It is not a separate performance obligation. The '
-                       'company estimates the repair cost at the time of '
-                       'sale, records warranty expense and a ',
-                       20,
-                       ', and reduces the liability as repairs are made. A ',
-                       23,
-                       ' gives the customer an extra service, such as '
-                       'extended cover.'],
-             'bank': ['warranty liability',
-                      'current liabilities',
-                      'service-type warranty',
-                      'assurance-type warranty',
-                      'commercial paper'],
-             'a': 'assurance-type warranty · warranty liability · '
-                  'service-type warranty',
-             'one': True,
-             'why': 'The book writes: “An assurance-type warranty only '
-                    'promises that a product will work as agreed. It is not '
-                    'a separate performance obligation. The company '
-                    'estimates the repair cost at the time of sale, records '
-                    'warranty expense and a warranty liability, and reduces '
-                    'the liability as repairs are made. A service-type '
-                    'warranty gives the customer an extra service, such as '
-                    'extended cover.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['The company estimates the repair cost at the time of '
                        'sale, records warranty expense and a ',
                        20,
@@ -90,8 +38,8 @@ HANDOUT = {'id': '12.5',
                        23,
                        ' gives the customer an extra service, such as '
                        'extended cover.'],
-             'bank': ['service-type warranty',
-                      'warranty liability',
+             'bank': ['warranty liability',
+                      'service-type warranty',
                       'current liabilities',
                       'commercial paper'],
              'a': 'warranty liability · service-type warranty',
@@ -100,7 +48,55 @@ HANDOUT = {'id': '12.5',
                     'at the time of sale, records warranty expense and a '
                     'warranty liability, and reduces the liability as '
                     'repairs are made. A service-type warranty gives the '
-                    'customer an extra service, such as extended cover.”'}],
+                    'customer an extra service, such as extended cover.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['A warranty that customers can buy ',
+                       12,
+                       ' is always ',
+                       14,
+                       '. Suppose Orontes sells 2,000 beverage ',
+                       12,
+                       ' in 2026 for $3,000,000, with a one-year assurance '
+                       'warranty. It expects repairs to cost 2% of sales.'],
+             'bank': ['service-type',
+                      'current liabilities',
+                      'dispensers',
+                      'separately',
+                      'commercial paper'],
+             'a': 'separately · service-type · dispensers',
+             'one': True,
+             'why': 'The book writes: “A warranty that customers can buy '
+                    'separately is always service-type. Suppose Orontes '
+                    'sells 2,000 beverage dispensers in 2026 for $3,000,000, '
+                    'with a one-year assurance warranty. It expects repairs '
+                    'to cost 2% of sales.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Extended plan sold ',
+                       12,
+                       ': defer revenue; do not accrue a cost. Expense '
+                       'warranty costs in the year of the sale, not when '
+                       'repairs are paid. Arabic مخصص can mean a U.S. ',
+                       11,
+                       ', a liability or an IFRS provision; use ',
+                       20,
+                       ' here.'],
+             'bank': ['separately',
+                      'current liabilities',
+                      'commercial paper',
+                      'allowance',
+                      'warranty liability'],
+             'a': 'separately · allowance · warranty liability',
+             'one': True,
+             'why': 'The book writes: “Extended plan sold separately: defer '
+                    'revenue; do not accrue a cost. Expense warranty costs '
+                    'in the year of the sale, not when repairs are paid. '
+                    'Arabic مخصص can mean a U.S. allowance, a liability or '
+                    'an IFRS provision; use warranty liability here.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -170,41 +166,24 @@ HANDOUT = {'id': '12.5',
                    'Short-term debt expected to be refinanced'],
              'a': 'A',
              'why': 'The book numbers “What makes a liability current” as '
-                    'section 12.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.2?',
-             'o': ['Payroll, taxes collected and compensated absences',
-                   'IFRS and covenants',
-                   'What makes a liability current',
-                   'Short-term debt expected to be refinanced'],
-             'a': 'A',
-             'why': 'The book numbers “Payroll, taxes collected and '
-                    'compensated absences” as section 12.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.3?',
-             'o': ['What makes a liability current',
-                   'Payroll, taxes collected and compensated absences',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants'],
-             'a': 'C',
-             'why': 'The book numbers “Short-term debt expected to be '
-                    'refinanced” as section 12.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.4?',
-             'o': ['Warranties',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants',
-                   'What makes a liability current'],
-             'a': 'C',
-             'why': 'The book numbers “IFRS and covenants” as section '
-                    '12.4.'}]),
+                    'section 12.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which financing agreement does NOT qualify to support '
+                  'noncurrent classification?',
+             'o': ['A five-year non-cancelable line of credit with no '
+                   'violations',
+                   "One the lender may cancel if it sees a 'material adverse "
+                   "change' in the borrower",
+                   'An agreement cancelable only for a missed interest '
+                   'payment',
+                   'An agreement with a financially strong bank'],
+             'a': 'B',
+             'why': 'A subjective acceleration clause makes the agreement '
+                    'fail. A is wrong: This agreement qualifies. C is wrong: '
+                    'A missed payment is objectively determinable.',
+             'src': 'P12-09'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -229,6 +208,7 @@ HANDOUT = {'id': '12.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -253,12 +233,16 @@ HANDOUT = {'id': '12.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

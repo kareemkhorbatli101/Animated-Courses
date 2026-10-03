@@ -7,6 +7,12 @@ HANDOUT = {'id': '16.7',
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P16-07',
+            'p:P16-10',
+            'p:P16-13',
+            'p:P16-14',
+            'p:P16-15',
+            'p:P16-17',
             'sc:SC16-5',
             'sc:SC16-6',
             'sc:SC16-8',
@@ -43,11 +49,12 @@ HANDOUT = {'id': '16.7',
            'whole chapter. Then fill the gaps.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
-             'a figure to read',
-             'Orontes holds 30% of Jordan Glass and has significant '
-             'influence. Which method does it use?'],
+             'a figure to read · Method · Suppose: Levant items, 2027 (whole '
+             'USD)',
+             'A company holds 60% of the votes, but a 40% owner must approve '
+             'the annual budget and key hires. Under the voting model:'],
             ['The chapter’s case set',
-             'The chapter’s case set, item by item · Method',
+             'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
              'worked out?'],
             ['The words it uses precisely',
@@ -85,42 +92,38 @@ HANDOUT = {'id': '16.7',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Also, joint ventures use the ',
-                       15,
-                       ', not ',
-                       29,
-                       '. SC16-5 Orontes holds 30% of Jordan Glass and has '
-                       'significant influence. When a company gains control '
-                       'of a business, it uses the ',
-                       20,
-                       '. It measures the ',
+             'parts': ['A controlled ',
                        12,
-                       "'s identifiable assets and liabilities at fair "
-                       'value, and it measures NCI at fair value too.'],
+                       "'s intercompany profit is removed in full. The LOS "
+                       "phrase 'equity consolidation' means the ",
+                       15,
+                       ': one line, no NCI. Also, joint ventures use the '
+                       'equity method, not ',
+                       29,
+                       '. When a company gains control of a business, it '
+                       'uses the ',
+                       20,
+                       '.'],
              'bank': ['variable interest entity',
+                      'equity method',
                       'proportionate consolidation',
                       'acquisition method',
-                      'subsidiary',
                       'upstream sale',
-                      'equity method'],
-             'a': 'equity method · proportionate consolidation · acquisition '
-                  'method · subsidiary',
+                      'subsidiary'],
+             'a': 'subsidiary · equity method · proportionate consolidation '
+                  '· acquisition method',
              'one': True,
-             'why': 'The book writes: “Also, joint ventures use the equity '
-                    'method, not proportionate consolidation. SC16-5 Orontes '
-                    'holds 30% of Jordan Glass and has significant '
-                    'influence. When a company gains control of a business, '
-                    'it uses the acquisition method. It measures the '
-                    "subsidiary's identifiable assets and liabilities at "
-                    'fair value, and it measures NCI at fair value too.”'},
+             'why': "The book writes: “A controlled subsidiary's "
+                    'intercompany profit is removed in full. The LOS phrase '
+                    "'equity consolidation' means the equity method: one "
+                    'line, no NCI. Also, joint ventures use the equity '
+                    'method, not proportionate consolidation. When a company '
+                    'gains control of a business, it uses the acquisition '
+                    'method.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       19,
-                       ' on goods still held inside the group is also '
-                       'removed from inventory and income until the goods '
-                       'are sold to outsiders. In a ',
+             'parts': ['In a ',
                        17,
                        ' the ',
                        11,
@@ -129,24 +132,25 @@ HANDOUT = {'id': '16.7',
                        15,
                        ' the ',
                        12,
-                       ' earned it, so NCI bears its share.'],
+                       ' earned it, so NCI bears its share. When one group '
+                       'company sells equipment to another, the gain is '
+                       'eliminated and the asset returns to its original '
+                       'cost basis.'],
              'bank': ['downstream sale',
-                      'Unrealized profit',
-                      'upstream sale',
-                      'subsidiary',
-                      'primary beneficiary',
                       'parent',
-                      'variable interest entity'],
-             'a': 'Unrealized profit · downstream sale · parent · upstream '
-                  'sale · subsidiary',
+                      'subsidiary',
+                      'variable interest entity',
+                      'upstream sale',
+                      'primary beneficiary'],
+             'a': 'downstream sale · parent · upstream sale · subsidiary',
              'one': True,
-             'why': 'The book writes: “Unrealized profit on goods still held '
-                    'inside the group is also removed from inventory and '
-                    'income until the goods are sold to outsiders. In a '
-                    'downstream sale the parent earned the profit, so the '
-                    "whole elimination reduces the parent's share. In an "
-                    'upstream sale the subsidiary earned it, so NCI bears '
-                    'its share.”'}]),
+             'why': 'The book writes: “In a downstream sale the parent '
+                    'earned the profit, so the whole elimination reduces the '
+                    "parent's share. In an upstream sale the subsidiary "
+                    'earned it, so NCI bears its share. When one group '
+                    'company sells equipment to another, the gain is '
+                    'eliminated and the asset returns to its original cost '
+                    'basis.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -159,6 +163,7 @@ HANDOUT = {'id': '16.7',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -170,25 +175,6 @@ HANDOUT = {'id': '16.7',
              'a': 'C',
              'why': 'The book numbers “What consolidated statements are” as '
                     'section 16.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 16.2?',
-             'o': ['Eliminating intercompany balances and transactions',
-                   'What consolidated statements are',
-                   'IFRS differences and what is changing',
-                   'Two control models: VIE first, then votes'],
-             'a': 'D',
-             'why': 'The book numbers “Two control models: VIE first, then '
-                    'votes” as section 16.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 16.3?',
-             'o': ['Eliminating intercompany balances and transactions',
-                   'Two control models: VIE first, then votes',
-                   'Full consolidation, proportionate consolidation and the '
-                   'equity method',
-                   'The acquisition: goodwill and noncontrolling interest'],
-             'a': 'C',
-             'why': 'The book numbers “Full consolidation, proportionate '
-                    'consolidation and the equity method” as section 16.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -205,123 +191,31 @@ HANDOUT = {'id': '16.7',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'An IFRS company measures NCI at its share of the '
-                  "subsidiary's net assets. For Levant, goodwill would be "
-                  '(whole USD):',
-             'o': ['0', '1,200,000', '1,400,000', '1,700,000'],
-             'a': 'B',
-             'why': 'Partial goodwill: price + $1,700,000 − $8,500,000. A is '
-                    'wrong: Goodwill is still recognized. C is wrong: This '
-                    'is the full-goodwill (U.S.) amount.',
-             'src': 'SC16-11'}]),
-          ('pair',
-           'Compare every answer with your partner first.',
-           'name the section each question belongs to. Most disagreements '
-           'turn out to be about the section, not the answer.'),
-          ('check',
-           'Orontes holds 30% of Jordan Glass and has significant influence. '
-           'Which method does it use?',
-           ['Full consolidation',
-            'Proportionate consolidation',
-            'Fair value through net income',
-            'The equity method'],
-           'D',
-           'go back to the MODEL move of cycle A and find the section this '
-           'question belongs to.',
-           'Significant influence without control leads to the equity '
-           'method. A is wrong: Orontes does not control Jordan Glass. B is '
-           'wrong: Proportionate consolidation is generally not allowed.'),
-          ('cycle', 'B', 'The chapter’s case set'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'In a case question, the exhibit has to be read and '
-                  'adjusted before any figure is worked out.',
-             'a': 'T',
-             'why': 'Every later answer depends on the adjusted exhibit.'}]),
-          ('move', 'MODEL', ''),
-          ('panel',
-           'The chapter’s case set, item by item',
-           [['Item', 'What it asks'],
-            ['C16-1',
-             'Choose the method for each investment. (On the exam screen you '
-             'would drag each item into a box.)'],
-            ['C16-2',
-             'Enter the goodwill Barada recognizes on January 1, 2028.'],
-            ['C16-3',
-             'Enter the total unrealized profit eliminated from inventory at '
-             'December 31, 2028.'],
-            ['C16-4', 'Enter the 2028 net income attributable to NCI.'],
-            ['C16-5', 'Enter NCI at December 31, 2028.'],
-            ['C16-6',
-             'How is the amount Tadmor owes Barada treated in consolidation? '
-             '[select]']],
-           ''),
-          ('move', 'READ THE MODEL', ''),
+             'q': 'A parent sells inventory to its 60%-owned subsidiary at a '
+                  'profit of $10,000; all of it is still unsold. How much of '
+                  'the elimination reduces NCI?',
+             'o': ['$0', '$4,000', '$6,000', '$10,000'],
+             'a': 'A',
+             'why': 'Downstream profit belongs to the parent. B is wrong: '
+                    'NCI shares only upstream profit. C is wrong: This is '
+                    "the parent's percentage, not an NCI amount.",
+             'src': 'P16-15'}]),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which of these does item C16-1 ask for?',
-             'o': ['Choose the method for each investment. (On the exam '
-                   'screen you would d',
-                   'Enter the goodwill Barada recognizes on January 1, 2028.',
-                   'How is the amount Tadmor owes Barada treated in '
-                   'consolidation? [select',
-                   'Enter the total unrealized profit eliminated from '
-                   'inventory at Decembe'],
-             'a': 'A',
-             'why': 'The book states item C16-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C16-2 ask for?',
-             'o': ['Enter the goodwill Barada recognizes on January 1, 2028.',
-                   'Enter the 2028 net income attributable to NCI.',
-                   'Enter the total unrealized profit eliminated from '
-                   'inventory at Decembe',
-                   'Choose the method for each investment. (On the exam '
-                   'screen you would d'],
-             'a': 'A',
-             'why': 'The book states item C16-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C16-3 ask for?',
-             'o': ['Enter the goodwill Barada recognizes on January 1, 2028.',
-                   'Choose the method for each investment. (On the exam '
-                   'screen you would d',
-                   'How is the amount Tadmor owes Barada treated in '
-                   'consolidation? [select',
-                   'Enter the total unrealized profit eliminated from '
-                   'inventory at Decembe'],
+             'q': 'Orontes sells half of its Levant shares and loses '
+                  'control, keeping a 40% stake. It:',
+             'o': ['records an equity transaction with no gain or loss',
+                   'keeps consolidating Levant',
+                   'measures the 40% at its old carrying amount with no gain '
+                   'or loss',
+                   'deconsolidates Levant and measures the 40% at fair '
+                   'value, with a gain or loss in net income'],
              'a': 'D',
-             'why': 'The book states item C16-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C16-4 ask for?',
-             'o': ['Choose the method for each investment. (On the exam '
-                   'screen you would d',
-                   'Enter NCI at December 31, 2028.',
-                   'Enter the goodwill Barada recognizes on January 1, 2028.',
-                   'Enter the 2028 net income attributable to NCI.'],
-             'a': 'D',
-             'why': 'The book states item C16-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C16-5 ask for?',
-             'o': ['Enter the 2028 net income attributable to NCI.',
-                   'Enter NCI at December 31, 2028.',
-                   'Choose the method for each investment. (On the exam '
-                   'screen you would d',
-                   'Enter the goodwill Barada recognizes on January 1, '
-                   '2028.'],
-             'a': 'B',
-             'why': 'The book states item C16-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C16-6 ask for?',
-             'o': ['Enter the total unrealized profit eliminated from '
-                   'inventory at Decembe',
-                   'Choose the method for each investment. (On the exam '
-                   'screen you would d',
-                   'Enter the goodwill Barada recognizes on January 1, 2028.',
-                   'How is the amount Tadmor owes Barada treated in '
-                   'consolidation? [select'],
-             'a': 'D',
-             'why': 'The book states item C16-6 in those words.'}]),
-          ('move', 'APPLY', ''),
+             'why': 'Loss of control ends consolidation and remeasures the '
+                    'retained interest. A is wrong: Equity treatment is only '
+                    'for changes without loss of control. B is wrong: '
+                    'Without control there is no consolidation.',
+             'src': 'P16-17'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'Orontes holds 30% of Jordan Glass and has significant '
@@ -371,6 +265,149 @@ HANDOUT = {'id': '16.7',
                     'removed. C is wrong: Full elimination is for '
                     'subsidiaries, not equity-method investees.',
              'src': 'SC16-6'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'In 2028 Orontes buys another 10% of Levant from the NCI '
+                  'holders and keeps control. It records:',
+             'o': ['a gain or loss in net income',
+                   'an equity transaction, with no gain or loss',
+                   'new goodwill',
+                   "a remeasurement of Levant's assets to fair value"],
+             'a': 'B',
+             'why': 'Changes in ownership without loss of control are equity '
+                    'transactions. A is wrong: No gain or loss arises while '
+                    'control is kept. C is wrong: Goodwill is measured only '
+                    'when control is obtained.',
+             'src': 'SC16-8'}]),
+          ('panel',
+           'Suppose: Levant items, 2027 (whole USD) — the extract for the '
+           'question that follows',
+           [['Suppose: Levant items, 2027 (whole USD)',
+             'Eliminate',
+             'Result',
+             'Who bears it'],
+            ['Intercompany sales and cost of sales',
+             'Remove 750,000 of sales and cost of sales',
+             'Revenue and expenses fall; no profit effect',
+             '—'],
+            ['Downstream unrealized profit (30% unsold)',
+             '60,000 from inventory and profit',
+             "Inventory at the group's cost",
+             'Orontes'],
+            ['Upstream unrealized profit (40% unsold)',
+             '25,000 from inventory and profit',
+             "Inventory at the group's cost",
+             'Orontes 20,000, NCI 5,000'],
+            ['Intercompany receivable and payable',
+             '120,000 from both',
+             'The group cannot owe itself',
+             '—'],
+            ['Truck sold for 90,000 (carrying 60,000)',
+             'Gain 30,000; extra depreciation 6,000 a year',
+             'Truck back to its original cost basis',
+             'Orontes'],
+            ['Loan of 1,000,000 at 6%',
+             'Loan and interest of 60,000',
+             'No debt or interest inside the group',
+             '—'],
+            ['Dividend of 100,000',
+             "Orontes's dividend income 80,000",
+             'NCI falls by 20,000',
+             'NCI']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. How '
+                  'much downstream unrealized profit does Orontes eliminate '
+                  '(whole USD)?',
+             'o': ['48,000', '60,000', '200,000', '500,000'],
+             'a': 'B',
+             'why': "30% of the $200,000 gross profit is still in Levant's "
+                    'inventory. A is wrong: Intercompany profit is '
+                    'eliminated in full, not 80%. C is wrong: Only the '
+                    'profit on unsold goods is unrealized.',
+             'src': 'SC16-9'}]),
+          ('pair',
+           'Compare every answer with your partner first.',
+           'name the section each question belongs to. Most disagreements '
+           'turn out to be about the section, not the answer.'),
+          ('check',
+           'A company holds 60% of the votes, but a 40% owner must approve '
+           'the annual budget and key hires. Under the voting model:',
+           ['the 60% holder controls',
+            'the 40% owner controls',
+            'both consolidate',
+            'the 60% holder does not have control, because the other owner '
+            'has substantive participating rights'],
+           'D',
+           'go back to the MODEL move of cycle A and find the section this '
+           'question belongs to.',
+           'Substantive participating rights overcome majority control. A is '
+           'wrong: Votes alone do not decide when others can block key '
+           'decisions. B is wrong: Blocking rights do not give the 40% owner '
+           'control.'),
+          ('cycle', 'B', 'The chapter’s case set'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'In a case question, the exhibit has to be read and '
+                  'adjusted before any figure is worked out.',
+             'a': 'T',
+             'why': 'Every later answer depends on the adjusted exhibit.'}]),
+          ('move', 'MODEL', ''),
+          ('panel',
+           'The chapter’s case set, item by item',
+           [['Item', 'What it asks'],
+            ['C16-1',
+             'Choose the method for each investment. (On the exam screen you '
+             'would drag each item into a box.)'],
+            ['C16-2',
+             'Enter the goodwill Barada recognizes on January 1, 2028.'],
+            ['C16-3',
+             'Enter the total unrealized profit eliminated from inventory at '
+             'December 31, 2028.'],
+            ['C16-4', 'Enter the 2028 net income attributable to NCI.'],
+            ['C16-5', 'Enter NCI at December 31, 2028.'],
+            ['C16-6',
+             'How is the amount Tadmor owes Barada treated in consolidation? '
+             '[select]']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['How is the amount Tadmor owes Barada treated in '
+                      'consolidation? [select]',
+                      'Choose the method for each investment. (On the exam '
+                      'screen you would drag each item into a box.)',
+                      'Enter the total unrealized profit eliminated from '
+                      'inventory at December 31, 2028.',
+                      'Enter the 2028 net income attributable to NCI.',
+                      'Enter NCI at December 31, 2028.',
+                      'Enter the goodwill Barada recognizes on January 1, '
+                      '2028.'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['F', 'A', 'C', 'D', 'E', 'B'],
+             'whys': ['', '', '', '', '', '']}]),
+          ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'An IFRS company measures NCI at its share of the '
+                  "subsidiary's net assets. For Levant, goodwill would be "
+                  '(whole USD):',
+             'o': ['0', '1,200,000', '1,400,000', '1,700,000'],
+             'a': 'B',
+             'why': 'Partial goodwill: price + $1,700,000 − $8,500,000. A is '
+                    'wrong: Goodwill is still recognized. C is wrong: This '
+                    'is the full-goodwill (U.S.) amount.',
+             'src': 'SC16-11'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

@@ -32,8 +32,12 @@ def f6(blank=False):
     return cardset(blank=blank, **{'title': 'Topic', 'cards': [('Lessee models', ['U.S. GAAP (ASC 842): Two: finance and operating', 'IFRS 16: One: all leases like finance leases']), ("Expense pattern for a 'plain' lease", ['U.S. GAAP (ASC 842): Straight-line single cost (operating)', 'IFRS 16: Depreciation plus interest: higher early']), ('Low-value assets (e.g., laptops)', ['U.S. GAAP (ASC 842): No exemption (materiality only)', 'IFRS 16: Exemption allowed']), ('Short-term leases (12 months or less)', ['U.S. GAAP (ASC 842): Exemption by class of asset', 'IFRS 16: Exemption by class of asset']), ('Index or rate changes (e.g., CPI)', ['U.S. GAAP (ASC 842): No remeasurement; expense as incurred', 'IFRS 16: Remeasure the liability']), ('Interest paid in the cash flow statement', ['U.S. GAAP (ASC 842): Operating', 'IFRS 16: Operating or financing (IAS 7 today)'])], 'sub': 'U.S. GAAP (ASC 842) · IFRS 16'})
 
 
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Lease — Category', 'steps': [('L1 Delivery trucks', ''), ('L2 Forklift', ''), ('L3 Storage room', ''), ('L4 Laptops', '')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 14 at a glance', 'nodes': [('What is a lease?', 'section 14.1'), ('Finance or operating? The five criteria', 'section 14.2'), ('Initial measurement', 'section 14.3'), ('Subsequent measurement: two expense patterns', 'section 14.4'), ('Presentation', 'section 14.5'), ('Short-term leases, sale and leaseback, and IFRS 16', 'section 14.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'chmap': chmap}
+FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'frev': frev, 'chmap': chmap}

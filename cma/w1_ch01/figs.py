@@ -8,11 +8,23 @@ from wsfiggen import (flowchain, cardset, lanes, splitbar,
                       chaptermap)
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Verb — Meaning in financial reporting', 'steps': [('recognize', 'include an item in the statements, with a name and an amount'), ('measure', 'decide the amount of the item'), ('record', 'enter the item in the accounts (journal and ledger)'), ('present', 'show the item on the face of a statement'), ('disclose', 'explain the item in the notes to the statements')]})
+
+
+def f6b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Account — Category', 'steps': [('Prepaid rent', ''), ('Land', ''), ('Dividends payable', ''), ('Additional paid-in capital', ''), ('Sales revenue', ''), ('Interest expense', '')]})
+
+
+def frev(blank=False):
+    return cardset(blank=blank, **{'title': 'User', 'cards': [('Investors (shareholders) — PRIMARY', ['Decision: Buy, hold or sell shares', 'Key question: Will the company create future cash flows and returns?', 'Statements used most: Income statement, cash flows, balance sheet']), ('Lenders (banks, bondholders) — PRIMARY', ['Decision: Lend, renew or stop a loan', 'Key question: Can the company pay interest and repay the principal on time?', 'Statements used most: Cash flows, balance sheet']), ('Other creditors (suppliers) — PRIMARY', ['Decision: Sell on credit, set credit terms', 'Key question: Will the company pay its bills when due?', 'Statements used most: Balance sheet (short-term items), cash flows']), ('Employees and unions', ['Decision: Stay, negotiate pay', 'Key question: Is the company stable and profitable?', 'Statements used most: Income statement']), ('Customers', ['Decision: Sign long-term contracts', 'Key question: Will the company continue to supply us?', 'Statements used most: Balance sheet, income statement']), ('Governments and regulators', ['Decision: Tax, oversight, statistics', 'Key question: Does the company follow the rules and pay its taxes?', 'Statements used most: All statements and notes'])], 'sub': 'Decision · Key question · Statements used most'})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 1 at a glance', 'nodes': [('Who uses financial statements, and why?', 'section 1.1'), ('The building blocks: elements and the accounting equation', 'section 1.2'), ('Double entry: debits and credits', 'section 1.3'), ('The accrual basis and the matching principle', 'section 1.4'), ('Who writes the rules? U.S. GAAP and IFRS', 'section 1.5'), ('A first look at the four statements', 'section 1.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'chmap': chmap}
+FIGS = {'f1b': f1b, 'f6b': f6b, 'frev': frev, 'chmap': chmap}
 
 # the figures drawn by hand for this chapter
 from wsfig1 import FIGS as _HAND  # noqa: E402

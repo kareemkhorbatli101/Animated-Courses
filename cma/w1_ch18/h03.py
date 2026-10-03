@@ -7,11 +7,7 @@ HANDOUT = {'id': '18.3',
  'title': 'Value creation and the six capitals',
  'sub': 'section 18.3 of the book',
  'covers': ['sec:18.3',
-            'p:P18-13',
-            'p:P18-14',
-            'p:P18-15',
-            'p:P18-16',
-            'sc:P18-13',
+            'p:P18-03',
             'term:integrated thinking',
             'term:financial capital',
             'term:guiding principles'],
@@ -25,11 +21,10 @@ HANDOUT = {'id': '18.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Value creation and the six capitals',
              'a figure to read · Capital · the book’s own rule, gapped',
-             'How many content elements and guiding principles does the '
-             'Framework set out?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Orontes disclosure · The English the exam uses, and what it '
-             'translates',
+             'a figure to read · Orontes disclosure · The English the exam '
+             'uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -70,61 +65,56 @@ HANDOUT = {'id': '18.3',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The ',
-                       24,
-                       ': ',
+             'parts': ['The six categories are not mandatory; a company may '
+                       'group them differently, but it should consider all '
+                       'the ',
                        11,
-                       ', business model, ',
-                       11,
-                       ' and ',
-                       11,
-                       '. Capitals are connected, so decisions involve '
-                       'trade-offs. The six categories are not mandatory; a '
-                       'company may group them differently, but it should '
-                       'consider all the capitals it uses or affects. An ',
+                       ' it uses or affects. Suppose Orontes spends '
+                       '$2,000,000 on drip irrigation for its groves: ',
                        19,
-                       ' explains the whole trade-off, not only the cost.'],
-             'bank': ['natural capital',
-                      'capitals',
-                      'value creation process',
+                       ' falls and ',
+                       22,
+                       ' rises.'],
+             'bank': ['capitals',
+                      'financial capital',
                       'guiding principles',
-                      'integrated report',
-                      'outcomes',
-                      'outputs'],
-             'a': 'value creation process · capitals · outputs · outcomes · '
-                  'integrated report',
+                      'natural capital',
+                      'manufactured capital'],
+             'a': 'capitals · financial capital · manufactured capital',
              'one': True,
-             'why': 'The book writes: “The value creation process: capitals, '
-                    'business model, outputs and outcomes. Capitals are '
-                    'connected, so decisions involve trade-offs. The six '
-                    'categories are not mandatory; a company may group them '
-                    'differently, but it should consider all the capitals it '
-                    'uses or affects. An integrated report explains the '
-                    'whole trade-off, not only the cost.”'},
+             'why': 'The book writes: “The six categories are not mandatory; '
+                    'a company may group them differently, but it should '
+                    'consider all the capitals it uses or affects. Suppose '
+                    'Orontes spends $2,000,000 on drip irrigation for its '
+                    'groves: financial capital falls and manufactured '
+                    'capital rises.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['In ',
+             'parts': ['An ',
+                       19,
+                       ' explains the whole trade-off, not only the cost. '
+                       'In ',
                        22,
                        ', ',
                        11,
                        ' are resources and relationships, not share capital. '
                        'French capital social means share capital, but '
                        'capital social et relationnel is one of the six '
-                       'capitals. SC18-6 Orontes produces bottled olive oil '
-                       'and olive-pit waste.'],
-             'bank': ['capitals',
-                      'integrated reporting',
+                       'capitals.'],
+             'bank': ['integrated reporting',
+                      'integrated report',
+                      'capitals',
                       'natural capital',
                       'guiding principles'],
-             'a': 'integrated reporting · capitals',
+             'a': 'integrated report · integrated reporting · capitals',
              'one': True,
-             'why': 'The book writes: “In integrated reporting, capitals are '
-                    'resources and relationships, not share capital. French '
-                    'capital social means share capital, but capital social '
-                    'et relationnel is one of the six capitals. SC18-6 '
-                    'Orontes produces bottled olive oil and olive-pit '
-                    'waste.”'}],
+             'why': 'The book writes: “An integrated report explains the '
+                    'whole trade-off, not only the cost. In integrated '
+                    'reporting, capitals are resources and relationships, '
+                    'not share capital. French capital social means share '
+                    'capital, but capital social et relationnel is one of '
+                    'the six capitals.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -149,11 +139,11 @@ HANDOUT = {'id': '18.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the orontes examples (2027) of Financial '
-                  'as “Equity and bank loans (Part I)”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Financial with “Equity and bank loans '
-                    '(Part I)”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -188,40 +178,15 @@ HANDOUT = {'id': '18.3',
              'why': 'The book’s own table pairs Financial with “Equity and '
                     'bank loans (Part I)”.'},
             {'t': 'MCQ',
-             'q': 'Which capital does the book pair with “Presses, bottling '
-                  'lines, cold stores”?',
-             'o': ['Manufactured',
-                   'Human',
-                   'Natural',
-                   'Social and relationship'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Manufactured with “Presses, '
-                    'bottling lines, cold stores”.'},
-            {'t': 'MCQ',
-             'q': 'Which capital does the book pair with “Recipes, brand, '
-                  'new sparkling-juice line”?',
-             'o': ['Intellectual', 'Financial', 'Natural', 'Manufactured'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Intellectual with “Recipes, '
-                    'brand, new sparkling-juice line”.'},
-            {'t': 'MCQ',
-             'q': 'Which capital does the book pair with “1,850 employees”?',
-             'o': ['Financial', 'Human', 'Intellectual', 'Manufactured'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Human with “1,850 '
-                    'employees”.'},
-            {'t': 'TF',
-             'q': 'The book gives the possible measure of Financial as “Cash '
-                  'flow from operations”.',
-             'a': 'T',
-             'why': 'The book pairs Financial with “Cash flow from '
-                    'operations”.'},
-            {'t': 'TF',
-             'q': 'The book gives the possible measure of Manufactured as '
-                  '“Share of sales from new products”.',
-             'a': 'F',
-             'why': 'The book pairs Manufactured with “Plant capacity”, not '
-                    'with “Share of sales from new products”.'}]),
+             'q': 'Which possible measure does the book give for '
+                  'Manufactured?',
+             'o': ['Farmer contracts renewed',
+                   'Cash flow from operations',
+                   '20 training hours per employee',
+                   'Plant capacity'],
+             'a': 'D',
+             'why': 'The book’s own table gives Plant capacity as the '
+                    'possible measure of Manufactured.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -262,74 +227,33 @@ HANDOUT = {'id': '18.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'How many content elements and guiding principles does the '
-                  'Framework set out?',
-             'o': ['Seven content elements and eight guiding principles',
-                   'Six of each',
-                   'Eight content elements and seven guiding principles',
-                   'Eight of each'],
-             'a': 'C',
-             'why': 'Eight elements (what) and seven principles (how). A is '
-                    'wrong: The numbers are reversed. B is wrong: Six is the '
-                    'number of capitals.',
-             'src': 'P18-13'},
-            {'t': 'MCQ',
-             'q': 'Why do integrated reports from different companies often '
-                  'differ in their measures?',
-             'o': ['The SEC requires different KPIs for each industry',
-                   'The Framework is principles-based and does not prescribe '
-                   'KPIs',
-                   'Integrated reports are audited under different standards',
-                   'Each company must use the six capitals in a different '
-                   'order'],
-             'a': 'B',
-             'why': 'Flexibility limits comparability. A is wrong: The SEC '
-                    'does not set integrated-reporting KPIs. C is wrong: '
-                    'Assurance is limited, not the cause.',
-             'src': 'P18-14'},
-            {'t': 'MCQ',
-             'q': 'A company fears that disclosing its product plans will '
-                  'help competitors. This concern is:',
-             'o': ['a guiding principle',
-                   'a content element',
-                   'a benefit of integrated reporting',
-                   'a challenge of integrated reporting'],
-             'a': 'D',
-             'why': 'Competitive sensitivity is a known challenge. A is '
-                    'wrong: It is not one of the seven principles. B is '
-                    'wrong: It is not one of the eight elements.',
-             'src': 'P18-15'},
-            {'t': 'MCQ',
-             'q': 'Which statement about the International <IR> Framework is '
-                  'correct?',
-             'o': ['It was last revised in January 2021 and is maintained by '
-                   'the IFRS Foundation',
-                   'It was replaced by IFRS S1 in 2024',
-                   'It is part of U.S. GAAP',
-                   'It was withdrawn when the IIRC closed'],
+             'q': 'Orontes includes both a successful product launch and a '
+                  'failed one in its integrated report. Which principle does '
+                  'this reflect?',
+             'o': ['Reliability and completeness',
+                   'Materiality',
+                   'Strategic focus',
+                   'Stakeholder relationships'],
              'a': 'A',
-             'why': 'The Framework remains in use under the IFRS Foundation. '
-                    'B is wrong: IFRS S1 did not replace it. C is wrong: It '
-                    'is not part of U.S. GAAP.',
-             'src': 'P18-16'}]),
+             'why': 'Reports should include positive and negative matters. B '
+                    'is wrong: Materiality decides what is important, not '
+                    'balance. C is wrong: Strategic focus is about strategy '
+                    'and the future.',
+             'src': 'P18-03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'How many content elements and guiding principles does the '
-           'Framework set out?',
-           ['Seven content elements and eight guiding principles',
-            'Six of each',
-            'Eight content elements and seven guiding principles',
-            'Eight of each'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Eight elements (what) and seven principles (how). A is wrong: '
-           'The numbers are reversed. B is wrong: Six is the number of '
-           'capitals.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -340,6 +264,7 @@ HANDOUT = {'id': '18.3',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f3b'),
           ('panel',
            'Orontes disclosure — the book’s own table',
            [['Orontes disclosure', 'Capital'],
@@ -381,12 +306,41 @@ HANDOUT = {'id': '18.3',
                     'Safety training for factory staff.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each '
+                  'capital. Every one is used once.',
+             'left': ['Financial',
+                      'Manufactured',
+                      'Intellectual',
+                      'Human',
+                      'Social and relationship',
+                      'Natural'],
+             'right': ['Equity and bank loans (Part I)',
+                       '1,850 employees',
+                       'Recipes, brand, new sparkling-juice line',
+                       'Olive groves, water, energy',
+                       'Presses, bottling lines, cold stores',
+                       '2,400 farmers in grower cooperatives; supermarket '
+                       'customers'],
+             'a': ['A', 'E', 'C', 'B', 'F', 'D'],
+             'whys': ['', '', '', '', '', '']},
+            {'t': 'SORT',
+             'q': 'Write each one under its capital. Every item belongs to '
+                  'exactly one group.',
+             'regions': ['Financial', 'Manufactured', '________'],
+             'items': ['Headroom under bank loan covenants',
+                       'A new bottling line',
+                       'Safety training for factory staff',
+                       'The trademark for Orontes Gold olive oil',
+                       'Water drawn from local wells',
+                       'Long-term contracts with grower cooperatives'],
+             'a': ['Financial: Headroom under bank loan covenants',
+                   'Manufactured: A new bottling line',
+                   '________: Safety training for factory staff, The '
+                   'trademark for Orontes Gold olive oil, Water drawn from '
+                   'local wells, Long-term contracts with grower '
+                   'cooperatives'],
+             'whys': ['', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

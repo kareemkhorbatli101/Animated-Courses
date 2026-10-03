@@ -8,12 +8,11 @@ HANDOUT = {'id': '15.1',
  'sub': 'section 15.1 of the book',
  'covers': ['sec:15.1',
             'p:P15-01',
-            'p:P15-02',
             'p:P15-03',
             'p:P15-04',
-            'sc:P15-01',
             'p:P15-05',
-            'p:P15-06',
+            'p:P15-07',
+            'p:P15-09',
             'term:gain',
             'term:disposal group',
             'term:strategic shift'],
@@ -28,10 +27,10 @@ HANDOUT = {'id': '15.1',
             ['Gains and losses',
              'a figure to read · Orontes, 2025 (whole USD) · the book’s own '
              'rule, gapped',
-             'A company sells land with a carrying amount of $300,000 for '
-             '$360,000. On the income statement it reports:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -64,60 +63,45 @@ HANDOUT = {'id': '15.1',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['A ',
-                       11,
-                       ' or ',
-                       11,
-                       ' is an increase or decrease in equity from a '
-                       'peripheral or incidental transaction: something '
-                       "other than the company's main activities and other "
-                       'than a transaction with owners. Selling an old '
-                       'machine, settling a lawsuit and a change in the '
-                       'value of an investment are examples. In a multi-step '
-                       'statement, most gains and losses appear in other '
-                       'income and expense, below operating income.'],
-             'bank': ['gain',
-                      'disposal group',
-                      'comprehensive income',
-                      'loss'],
-             'a': 'gain · loss',
-             'one': True,
-             'why': 'The book writes: “A gain or loss is an increase or '
-                    'decrease in equity from a peripheral or incidental '
-                    "transaction: something other than the company's main "
-                    'activities and other than a transaction with owners. '
-                    'Selling an old machine, settling a lawsuit and a change '
-                    'in the value of an investment are examples. In a '
-                    'multi-step statement, most gains and losses appear in '
-                    'other income and expense, below operating income.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['In a ',
                        12,
-                       ' statement, most gains and losses appear in other '
-                       'income and expense, below operating income. Losses '
-                       'that arise from operating assets, such as ',
+                       ' ',
+                       11,
+                       ', most gains and losses appear in other income and '
+                       'expense, below operating income. Losses that arise '
+                       'from operating assets, such as ',
                        13,
-                       ', are usually shown within operating expenses. Items '
-                       'that are unusual or ',
-                       12,
-                       ' get a separate line within continuing operations, '
-                       'before tax.'],
-             'bank': ['comprehensive income',
+                       ', are usually shown within operating expenses.'],
+             'bank': ['multi-step',
+                      'comprehensive income',
                       'impairments',
-                      'infrequent',
-                      'multi-step',
+                      'statement',
                       'gain'],
-             'a': 'multi-step · impairments · infrequent',
+             'a': 'multi-step · statement · impairments',
              'one': True,
              'why': 'The book writes: “In a multi-step statement, most gains '
                     'and losses appear in other income and expense, below '
                     'operating income. Losses that arise from operating '
                     'assets, such as impairments, are usually shown within '
-                    'operating expenses. Items that are unusual or '
-                    'infrequent get a separate line within continuing '
-                    'operations, before tax.”'}],
+                    'operating expenses.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A held-for-sale ',
+                       16,
+                       ' is measured at the lower of its carrying amount and '
+                       'its ',
+                       30,
+                       '.'],
+             'bank': ['fair value less cost to sell',
+                      'disposal group',
+                      'holding gain or loss',
+                      'gain'],
+             'a': 'disposal group · fair value less cost to sell',
+             'one': True,
+             'why': 'The book writes: “A held-for-sale disposal group is '
+                    'measured at the lower of its carrying amount and its '
+                    'fair value less cost to sell.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -181,44 +165,12 @@ HANDOUT = {'id': '15.1',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which where it appears does the book give for Gain on '
-                  'sale of equipment (the Dubai oven, Chapter 10)?',
-             'o': ['Other income and (expense)',
-                   'Operating expenses',
-                   'OCI, not net income'],
+             'q': 'Which amount does the book give for Gain on sale of '
+                  'equipment (the Dubai oven, Chapter 10)?',
+             'o': ['3,000', '(15,000)', '(1,125)', '4,000'],
              'a': 'A',
-             'why': 'The book’s own table gives Other income and (expense) '
-                    'as the where it appears of Gain on sale of equipment '
-                    '(the Dubai oven, Chapter 10).'},
-            {'t': 'MCQ',
-             'q': 'Which where it appears does the book give for Loss on '
-                  'sale of receivables (factoring, Chapter 6)?',
-             'o': ['Operating expenses',
-                   'Other income and (expense)',
-                   'OCI, not net income'],
-             'a': 'B',
-             'why': 'The book’s own table gives Other income and (expense) '
-                    'as the where it appears of Loss on sale of receivables '
-                    '(factoring, Chapter 6).'},
-            {'t': 'MCQ',
-             'q': 'Which where it appears does the book give for Unrealized '
-                  'gains on securities (Chapter 9)?',
-             'o': ['Operating expenses',
-                   'OCI, not net income',
-                   'Other income and (expense)'],
-             'a': 'C',
-             'why': 'The book’s own table gives Other income and (expense) '
-                    'as the where it appears of Unrealized gains on '
-                    'securities (Chapter 9).'},
-            {'t': 'MCQ',
-             'q': 'Which where it appears does the book give for Impairment '
-                  'losses (Chapter 10)?',
-             'o': ['Operating expenses',
-                   'Other income and (expense)',
-                   'OCI, not net income'],
-             'a': 'A',
-             'why': 'The book’s own table gives Operating expenses as the '
-                    'where it appears of Impairment losses (Chapter 10).'},
+             'why': 'The book’s own table gives 3,000 as the amount of Gain '
+                    'on sale of equipment (the Dubai oven, Chapter 10).'},
             {'t': 'SORT',
              'q': 'Write each one under its type. Every item belongs to '
                   'exactly one group.',
@@ -271,25 +223,12 @@ HANDOUT = {'id': '15.1',
                   'for $360,000. On the income statement it reports:',
              'o': ['revenue of $360,000',
                    'a gain of $60,000 in other income',
-                   'revenue of $360,000 and cost of sales of $300,000',
                    'a gain of $360,000'],
              'a': 'B',
              'why': 'Gains are shown net. A is wrong: Land is not sold in '
                     'the main business. C is wrong: Gross presentation is '
                     'for revenue, not gains.',
              'src': 'P15-01'},
-            {'t': 'MCQ',
-             'q': 'A company settles a large lawsuit, which is unusual for '
-                  'it, for a loss of $500,000. The loss is presented:',
-             'o': ['as a separate line in continuing operations, before tax',
-                   'as an extraordinary item, net of tax',
-                   'in OCI',
-                   'in discontinued operations'],
-             'a': 'A',
-             'why': 'Unusual items stay in continuing operations. B is '
-                    'wrong: Extraordinary items no longer exist. C is wrong: '
-                    'No rule sends it to OCI.',
-             'src': 'P15-02'},
             {'t': 'MCQ',
              'q': 'Which statement about gains and losses is correct?',
              'o': ['They are always shown in OCI',
@@ -312,25 +251,34 @@ HANDOUT = {'id': '15.1',
              'why': 'Commissions are directly linked to the related revenue. '
                     'A is wrong: Depreciation is allocated systematically. B '
                     'is wrong: Research is expensed immediately.',
-             'src': 'P15-04'}]),
+             'src': 'P15-04'},
+            {'t': 'MCQ',
+             'q': 'Under U.S. GAAP, costs of researching a new juice recipe '
+                  'are:',
+             'o': ['capitalized as an intangible asset',
+                   'capitalized once the recipe is technically feasible',
+                   'added to inventory',
+                   'expensed when incurred'],
+             'a': 'D',
+             'why': 'ASC 730 requires R&D to be expensed. A is wrong: U.S. '
+                    'GAAP does not capitalize R&D in general. B is wrong: '
+                    'Capitalizing development costs after feasibility is an '
+                    'IFRS rule.',
+             'src': 'P15-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company sells land with a carrying amount of $300,000 for '
-           '$360,000. On the income statement it reports:',
-           ['revenue of $360,000',
-            'a gain of $60,000 in other income',
-            'revenue of $360,000 and cost of sales of $300,000',
-            'a gain of $360,000'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Gains are shown net. A is wrong: Land is not sold in the main '
-           'business. C is wrong: Gross presentation is for revenue, not '
-           'gains.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -341,6 +289,7 @@ HANDOUT = {'id': '15.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -367,30 +316,52 @@ HANDOUT = {'id': '15.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Under U.S. GAAP, costs of researching a new juice recipe '
-                  'are:',
-             'o': ['capitalized as an intangible asset',
-                   'capitalized once the recipe is technically feasible',
-                   'added to inventory',
-                   'expensed when incurred'],
-             'a': 'D',
-             'why': 'ASC 730 requires R&D to be expensed. A is wrong: U.S. '
-                    'GAAP does not capitalize R&D in general. B is wrong: '
-                    'Capitalizing development costs after feasibility is an '
-                    'IFRS rule.',
-             'src': 'P15-05'},
+             'q': 'Which item is part of U.S. OCI?',
+             'o': ['A foreign currency translation adjustment',
+                   'An unrealized gain on equity securities',
+                   'A gain on sale of equipment',
+                   'An impairment loss'],
+             'a': 'A',
+             'why': 'Translation adjustments are OCI items. B is wrong: '
+                    'Equity securities changes go to net income. C is wrong: '
+                    'Realized gains on equipment are in net income.',
+             'src': 'P15-07'},
             {'t': 'MCQ',
-             'q': 'Orontes pays 12 months of rent in advance on July 1. At '
-                  'December 31, the expense recognized is:',
-             'o': ['twelve months of rent',
-                   'nothing until the lease ends',
-                   'six months of rent; the rest is a prepaid asset',
-                   'the whole payment as a period cost'],
+             'q': 'Net income is $900,000. OCI includes a $50,000 holding '
+                  'gain on AFS bonds and a $20,000 reclassification of gains '
+                  'realized this year. Ignoring tax, what is comprehensive '
+                  'income?',
+             'o': ['$900,000', '$930,000', '$950,000', '$970,000'],
+             'a': 'B',
+             'why': 'Net income plus OCI of $30,000. A is wrong: This omits '
+                    'OCI. C is wrong: This omits the reclassification.',
+             'src': 'P15-09'},
+            {'t': 'MCQ',
+             'q': 'Over the whole life of an AFS bond, from purchase to '
+                  'sale, total comprehensive income from the bond equals:',
+             'o': ['the total gain or loss, counted once',
+                   'twice the total gain',
+                   'zero',
+                   'the OCI of the final year'],
+             'a': 'A',
+             'why': 'Reclassification ensures each gain is counted once. B '
+                    'is wrong: Double counting is what reclassification '
+                    'prevents. C is wrong: The gain is real and appears in '
+                    'net income.',
+             'src': 'P15-10'},
+            {'t': 'MCQ',
+             'q': 'Under IFRS, what happens to a revaluation surplus on land '
+                  'when the land is sold?',
+             'o': ['It is reclassified to profit or loss',
+                   'It becomes a discontinued operation',
+                   'It is never reclassified to profit; it may be '
+                   'transferred to retained earnings',
+                   'It is reversed through OCI and profit'],
              'a': 'C',
-             'why': 'The cost is allocated to the periods that benefit. A is '
-                    'wrong: Only half of the benefit has been used. B is '
-                    'wrong: Six months have already been used.',
-             'src': 'P15-06'}]),
+             'why': 'Some IFRS OCI items never recycle. A is wrong: '
+                    'Revaluation surplus is not recycled. B is wrong: '
+                    'Selling land is not a discontinued operation.',
+             'src': 'P15-16'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

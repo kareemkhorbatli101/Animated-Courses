@@ -7,12 +7,11 @@ HANDOUT = {'id': '17.1',
  'title': '(i) Share-based payments and employee benefits',
  'sub': 'section 17.1 of the book',
  'covers': ['sec:17.1',
+            'p:P17-05',
             'p:P17-01',
             'p:P17-02',
             'p:P17-03',
             'p:P17-04',
-            'sc:P17-01',
-            'p:P17-05',
             'p:P17-06',
             'term:revaluation model',
             'term:prior service cost',
@@ -27,59 +26,63 @@ HANDOUT = {'id': '17.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['(i) Share-based payments and employee benefits',
              'a figure to read · Topic · the book’s own rule, gapped',
-             'Under IAS 19, what happens to actuarial losses recognized in '
-             'OCI?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['GAAP, but accrued over the vesting period under '
-                       'IFRS. For a ',
-                       22,
-                       ', both frameworks put ',
+             'parts': ['For share awards that vest in parts, or ',
                        16,
-                       ' in OCI. GAAP later amortizes them into net income; '
-                       'IAS 19 never reclassifies them. Share-based payments '
-                       'and employee benefits: U.S.'],
-             'bank': ['prior service cost',
+                       ', U.S. GAAP lets a company recognize the cost ',
+                       15,
+                       ' over the whole period or tranche by tranche, when '
+                       'the awards have only service ',
+                       12,
+                       '. IFRS 2 requires tranche by tranche, which puts '
+                       'more expense in the early years.'],
+             'bank': ['conditions',
+                      'graded vesting',
+                      'prior service cost',
                       'component depreciation',
-                      'defined benefit plan',
-                      'remeasurements'],
-             'a': 'defined benefit plan · remeasurements',
+                      'straight-line'],
+             'a': 'graded vesting · straight-line · conditions',
              'one': True,
-             'why': 'The book writes: “GAAP, but accrued over the vesting '
-                    'period under IFRS. For a defined benefit plan, both '
-                    'frameworks put remeasurements in OCI. GAAP later '
-                    'amortizes them into net income; IAS 19 never '
-                    'reclassifies them. Share-based payments and employee '
-                    'benefits: U.S.”'},
+             'why': 'The book writes: “For share awards that vest in parts, '
+                    'or graded vesting, U.S. GAAP lets a company recognize '
+                    'the cost straight-line over the whole period or tranche '
+                    'by tranche, when the awards have only service '
+                    'conditions. IFRS 2 requires tranche by tranche, which '
+                    'puts more expense in the early years.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Employer payroll taxes on share awards are '
-                       'recognized when the tax obligation arises under U.S. '
-                       'GAAP, but accrued over the vesting period under '
-                       'IFRS. For a ',
-                       22,
-                       ', both frameworks put ',
-                       16,
-                       ' in OCI.'],
-             'bank': ['remeasurements',
-                      'defined benefit plan',
+             'parts': ['U.S. GAAP also allows a policy choice to record ',
+                       13,
+                       ' as they occur; IFRS 2 requires an estimate. '
+                       'Employer payroll taxes on share awards are ',
+                       12,
+                       ' when the tax ',
+                       12,
+                       ' arises under U.S. GAAP, but accrued over the '
+                       'vesting period under IFRS.'],
+             'bank': ['recognized',
+                      'forfeitures',
+                      'obligation',
                       'prior service cost',
                       'component depreciation'],
-             'a': 'defined benefit plan · remeasurements',
+             'a': 'forfeitures · recognized · obligation',
              'one': True,
-             'why': 'The book writes: “Employer payroll taxes on share '
-                    'awards are recognized when the tax obligation arises '
-                    'under U.S. GAAP, but accrued over the vesting period '
-                    'under IFRS. For a defined benefit plan, both frameworks '
-                    'put remeasurements in OCI.”'},
+             'why': 'The book writes: “U.S. GAAP also allows a policy choice '
+                    'to record forfeitures as they occur; IFRS 2 requires an '
+                    'estimate. Employer payroll taxes on share awards are '
+                    'recognized when the tax obligation arises under U.S. '
+                    'GAAP, but accrued over the vesting period under IFRS.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -87,24 +90,28 @@ HANDOUT = {'id': '17.1',
                        22,
                        ', both frameworks put ',
                        16,
-                       ' in OCI. GAAP later amortizes them into net income; '
-                       'IAS 19 never reclassifies them. Share-based payments '
-                       'and employee benefits: U.S. SC17-2 A company grants '
-                       'share options that vest one third each year for '
-                       'three years (service condition only).'],
+                       ' in OCI. U.S. GAAP later amortizes them into net '
+                       'income; IAS 19 never reclassifies them. Orontes '
+                       'amends its plan and creates ',
+                       20,
+                       ' of $50,000: U.S. GAAP amortizes $5,000 a year from '
+                       'OCI, while IAS 19 expenses the whole amount at '
+                       'once.'],
              'bank': ['component depreciation',
                       'remeasurements',
                       'defined benefit plan',
-                      'prior service cost'],
-             'a': 'defined benefit plan · remeasurements',
+                      'prior service cost',
+                      'graded vesting'],
+             'a': 'defined benefit plan · remeasurements · prior service '
+                  'cost',
              'one': True,
              'why': 'The book writes: “For a defined benefit plan, both '
-                    'frameworks put remeasurements in OCI. GAAP later '
+                    'frameworks put remeasurements in OCI. U.S. GAAP later '
                     'amortizes them into net income; IAS 19 never '
-                    'reclassifies them. Share-based payments and employee '
-                    'benefits: U.S. SC17-2 A company grants share options '
-                    'that vest one third each year for three years (service '
-                    'condition only).”'}],
+                    'reclassifies them. Orontes amends its plan and creates '
+                    'prior service cost of $50,000: U.S. GAAP amortizes '
+                    '$5,000 a year from OCI, while IAS 19 expenses the whole '
+                    'amount at once.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -129,13 +136,11 @@ HANDOUT = {'id': '17.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP (ASC 718, 715) of Graded '
-                  'vesting (service condition) as “Choice: straight-line '
-                  'over the whole period or tranche by tranche”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Graded vesting (service condition) with '
-                    '“Choice: straight-line over the whole period or tranche '
-                    'by tranche”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
           ('panel',
@@ -176,51 +181,7 @@ HANDOUT = {'id': '17.1',
              'a': 'D',
              'why': 'The book’s own table pairs Graded vesting (service '
                     'condition) with “Choice: straight-line over the whole '
-                    'period or tranche by tranche”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Policy choice: '
-                  'estimate or record as they occur”?',
-             'o': ['Forfeitures',
-                   'Employer payroll taxes on awards',
-                   'Pension remeasurements (actuarial gains and losses)',
-                   'Prior service cost: Orontes amendment of 50,000'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Forfeitures with “Policy '
-                    'choice: estimate or record as they occur”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “When the tax '
-                  'obligation arises (exercise or vesting)”?',
-             'o': ['Prior service cost: Orontes amendment of 50,000',
-                   'Employer payroll taxes on awards',
-                   'Forfeitures',
-                   'Graded vesting (service condition)'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Employer payroll taxes on '
-                    'awards with “When the tax obligation arises (exercise '
-                    'or vesting)”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “OCI, then amortized '
-                  'into net income (corridor)”?',
-             'o': ['Graded vesting (service condition)',
-                   'Forfeitures',
-                   'Pension remeasurements (actuarial gains and losses)',
-                   'Return on plan assets'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Pension remeasurements '
-                    '(actuarial gains and losses) with “OCI, then amortized '
-                    'into net income (corridor)”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS (IFRS 2, IAS 19) of Graded '
-                  'vesting (service condition) as “Tranche by tranche”.',
-             'a': 'T',
-             'why': 'The book pairs Graded vesting (service condition) with '
-                    '“Tranche by tranche”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS (IFRS 2, IAS 19) of Forfeitures '
-                  'as “Net interest at the discount rate”.',
-             'a': 'F',
-             'why': 'The book pairs Forfeitures with “Estimate”, not with '
-                    '“Net interest at the discount rate”.'}]),
+                    'period or tranche by tranche”.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -253,6 +214,20 @@ HANDOUT = {'id': '17.1',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
+             'q': 'Orontes, an SEC registrant, wants to amortize its '
+                  'goodwill over 10 years. It:',
+             'o': ['may, using the private-company alternative',
+                   'must amortize over 40 years',
+                   'may, if IFRS allows it',
+                   'may not; only private companies can elect goodwill '
+                   'amortization'],
+             'a': 'D',
+             'why': 'Public companies test goodwill for impairment only. A '
+                    'is wrong: The alternative is for private companies '
+                    'only. B is wrong: Goodwill amortization for public '
+                    'companies ended in 2001.',
+             'src': 'P17-05'},
+            {'t': 'MCQ',
              'q': 'Under IAS 19, what happens to actuarial losses recognized '
                   'in OCI?',
              'o': ['They are amortized into profit over future service',
@@ -289,36 +264,21 @@ HANDOUT = {'id': '17.1',
              'why': 'Accruing over the vesting period is the IFRS approach. '
                     'A is wrong: This is the IFRS treatment. C is wrong: No '
                     'obligation exists at grant.',
-             'src': 'P17-03'},
-            {'t': 'MCQ',
-             'q': 'Which intangible is recognized under BOTH frameworks?',
-             'o': ['A patent bought from another company',
-                   'An internally generated brand',
-                   'Development costs of a new recipe under U.S. GAAP',
-                   'An internally built customer list'],
-             'a': 'A',
-             'why': 'Acquired intangibles are recognized under both. B is '
-                    'wrong: Neither framework recognizes internally '
-                    'generated brands. C is wrong: U.S. GAAP expenses '
-                    'development.',
-             'src': 'P17-04'}]),
+             'src': 'P17-03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under IAS 19, what happens to actuarial losses recognized in '
-           'OCI?',
-           ['They are amortized into profit over future service',
-            'They are recognized in profit when the plan is settled',
-            'They are never reclassified to profit or loss',
-            'They are reversed the next year'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'IAS 19 remeasurements stay in equity. A is wrong: Amortization '
-           'is the U.S. GAAP approach. B is wrong: They are not recycled.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -329,6 +289,7 @@ HANDOUT = {'id': '17.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -378,19 +339,17 @@ HANDOUT = {'id': '17.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes, an SEC registrant, wants to amortize its '
-                  'goodwill over 10 years. It:',
-             'o': ['may, using the private-company alternative',
-                   'must amortize over 40 years',
-                   'may, if IFRS allows it',
-                   'may not; only private companies can elect goodwill '
-                   'amortization'],
-             'a': 'D',
-             'why': 'Public companies test goodwill for impairment only. A '
-                    'is wrong: The alternative is for private companies '
-                    'only. B is wrong: Goodwill amortization for public '
-                    'companies ended in 2001.',
-             'src': 'P17-05'},
+             'q': 'Which intangible is recognized under BOTH frameworks?',
+             'o': ['A patent bought from another company',
+                   'An internally generated brand',
+                   'Development costs of a new recipe under U.S. GAAP',
+                   'An internally built customer list'],
+             'a': 'A',
+             'why': 'Acquired intangibles are recognized under both. B is '
+                    'wrong: Neither framework recognizes internally '
+                    'generated brands. C is wrong: U.S. GAAP expenses '
+                    'development.',
+             'src': 'P17-04'},
             {'t': 'MCQ',
              'q': 'Inventory with a cost of $80,000 was written down to '
                   '$70,000. NRV then rises to $85,000. What is the carrying '

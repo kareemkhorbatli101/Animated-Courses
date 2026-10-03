@@ -28,8 +28,16 @@ def f5(blank=False):
     return flowchain(blank=blank, **{'title': 'Product line — Category', 'steps': [('Pomegranate molasses', ''), ('Rose water', ''), ("Za'atar mix", ''), ('Frozen kibbeh', ''), ('Olive-oil soap', '')]})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Product line — Category', 'steps': [('Pomegranate molasses', 'LCM (market with ceiling and floor)'), ('Rose water', 'LCM (market with ceiling and floor)'), ("Za'atar mix", 'LCNRV'), ('Frozen kibbeh', 'LCNRV'), ('Olive-oil soap', 'LCNRV')]})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Orontes olive oil, December 31, 2025 — Amount', 'steps': [('Olive oil cases on hand (FIFO layer from Chapter 7)', '2,000'), ('Cost per case', '$50'), ('New estimated selling price per case', '$54'), ('Costs to sell and deliver per case', '$6'), ('NRV per case', '$48'), ('Inventory at cost', '$100,000')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 8 at a glance', 'nodes': [('Which test applies?', 'section 8.1'), ('Lower of cost or market', 'section 8.2'), ('The retail inventory method and the gross profit method', 'section 8.3'), ('Advantages and disadvantages of the methods', 'section 8.4'), ('Recommending a method', 'section 8.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'frev': frev, 'chmap': chmap}

@@ -18,6 +18,7 @@ So every item this file emits is multiple choice, true/false, matching,
 sorting or a table to complete. There are no open questions anywhere, and no
 stem refers to anything that is not printed beside it.
 """
+import collections
 import os
 import random
 import re
@@ -42,6 +43,37 @@ BOXLABEL = re.compile(
     r'^(EXAM TRAP|LANGUAGE FOCUS|SECTION CHECK|TERM BRIDGE|IFRS CONTRAST|'
     r'FALSE-FRIEND ALERT|WHAT YOU ALREADY KNOW|WORKED EXAMPLE|YOUR TURN|'
     r'\u25cf|\u25a0)\s*', re.I)
+# A caption line belongs to the figure, not to the prose. Left in, its words
+# become a "summary" that describes a picture the summary does not print.
+CAPTION = re.compile(r'^\s*(Figure|Table|Exhibit)\s+[A-Z]?\d[\d.\-]*\.?\s',
+                     re.I)
+# A full stop inside one of these does not end a sentence. Splitting on it
+# gives "...income taxes, and U.S." followed by a fragment, and both halves
+# then read as nonsense on a handout.
+ABBREV = re.compile(
+    r'(?:\b(?:U\.S|U\.K|E\.U|e\.g|i\.e|etc|vs|v|No|Nos|Inc|Co|Corp|Ltd|'
+    r'LLC|plc|Jr|Sr|Mr|Mrs|Ms|Dr|Prof|St|approx|est|cf|al|Fig|Figs|Sec|'
+    r'Secs|Art|para|paras|pp|ch|Ch|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept|Sep|'
+    r'Oct|Nov|Dec)\.|\b[A-Z]\.)$')
+# A sentence that opens on one of these hangs off a sentence it does not
+# print, so it cannot be the first sentence of a passage shown on its own.
+DANGLING = re.compile(r'^(these|this|that|those|it|they|them|such|here|'
+                      r'the same|both|either|neither|so|then|however|'
+                      r'therefore|also|but|and|its|their|his|her)\b', re.I)
+
+
+def _split_sentences(text):
+    """Split on sentence ends, but not on the full stop of an abbreviation."""
+    parts, buf = [], ''
+    for piece in re.split(r'(?<=[.])\s+|\n', text):
+        buf = (buf + ' ' + piece).strip() if buf else piece.strip()
+        if ABBREV.search(buf):
+            continue                      # "...under U.S." wants its "GAAP"
+        parts.append(buf)
+        buf = ''
+    if buf:
+        parts.append(buf)
+    return parts
 
 
 def sentences(text):
@@ -52,11 +84,21 @@ def sentences(text):
     rather than to the sentence.
     """
     out = []
-    for raw in re.split(r'(?<=[.])\s+|\n', text):
+    # A caption line goes before any splitting. "Figure F10-02. Depreciation
+    # expense each year for the bottling line under four methods." otherwise
+    # loses its "Figure F10-02." half to FIGREF and leaves the rest looking
+    # like prose about a picture nobody can see.
+    lines = [ln for ln in text.split('\n') if not CAPTION.match(clean(ln))]
+    for raw in _split_sentences('\n'.join(lines)):
         x = clean(raw)
         while BOXLABEL.match(x):
             x = BOXLABEL.sub('', x, count=1).strip()
         if not x or x.isupper():
+            continue
+        # The book's own item numbering means nothing on a handout, and a
+        # "summary" that opens "SC10-4 After two years..." is not a summary
+        # but a question stem lifted out of its exercise.
+        if ITEMREF.search(x):
             continue
         # A cell of a table is not a sentence. Requiring a capital at the
         # start and a full stop at the end keeps fragments such as "explain
@@ -259,8 +301,43 @@ def mcq_from_bank(item, ans, covers):
 # A column heading can be used as the noun in a question only if it reads as
 # a category. "Account" does; "Orontes Foods Inc. (whole USD)" is the title of
 # a statement, and a question built on it comes out as nonsense.
+# A column header that is a method name or a value, not a category. Such a
+# table is transposed relative to the question shape: its headers are the
+# things being compared, and the first column holds the property. Asking
+# "which straight-line does the book give for Expense?" is then not a
+# sentence; the question has to run the other way.
+VALUEISH = re.compile(r'^(highest|lowest|same|no effect|yes|no|none|all|'
+                      r'increase|decrease|straight.line|double.declining|'
+                      r'units.of.production|sum.of|fifo|lifo|weighted '
+                      r'average|specific identification|cost|fair value|'
+                      r'true|false|current|noncurrent)\b', re.I)
+
+
+# A heading that opens on one of these is a question or a clause, not a
+# noun. "Which what happens does the book give for Prepaid expense?" is
+# what comes of quoting one into a stem.
+ASKWORD = ('what', 'which', 'who', 'whom', 'whose', 'when', 'where', 'why',
+           'how', 'does', 'do', 'is', 'are', 'can', 'if', 'whether')
+# A heading that IS one of these is a verb, so "the creates of Contract
+# liability" and "write each one under its creates" are not English.
+VERBISH = ('creates', 'means', 'gives', 'shows', 'applies', 'requires',
+           'allows', 'includes', 'affects', 'happens', 'does', 'goes',
+           'belongs', 'counts', 'changes', 'needs', 'uses', 'holds',
+           'reports', 'records', 'recognizes', 'recognises', 'measures',
+           'presents', 'discloses', 'treats', 'settles', 'qualifies',
+           'eliminate', 'eliminates', 'adjust', 'adjusts', 'add', 'adds',
+           'deduct', 'deducts', 'debit', 'credit', 'trading', 'compute',
+           'calculate', 'classify', 'determine', 'select', 'enter')
+# A totals line is an arithmetic consequence of the rows above it, not one
+# of the things the table classifies, so it is not a subject for a stem.
+TOTALISH = ('total', 'totals', 'sum', 'subtotal', 'net', 'balance', 'all',
+            'grand total')
+
+
 def noun_ok(h):
-    h = h.strip()
+    # The book marks some headings with a bullet, and "Which ● IFRS does
+    # the book give for common stock?" is what comes of quoting one.
+    h = h.strip().strip('●■•▪-– ').rstrip(':')
     if not 3 <= len(h) <= 24:
         return False
     if NUM.search(h) or '(' in h or '/' in h:
@@ -268,24 +345,44 @@ def noun_ok(h):
     caps = sum(1 for w in h.split() if w[:1].isupper())
     if caps > 1:
         return False
+    words = h.lower().split()
+    if not words:
+        return False
+    # "What happens" is a question, and "Creates" is a verb. Neither can be
+    # quoted into "the <heading> of X" or "which <heading> does the book
+    # give for X" and come out a sentence.
+    if words[0] in ASKWORD:
+        return False
+    if len(words) == 1 and words[0] in VERBISH:
+        return False
     # "Measured at" is a column heading, not a noun: "which measured at does
     # the book give for ...?" is not a sentence.
-    last = h.lower().split()[-1]
-    return last not in ('at', 'by', 'for', 'to', 'in', 'of', 'on', 'from',
-                        'with', 'as', 'is', 'are', 'does', 'and', 'or')
+    return words[-1] not in ('at', 'by', 'for', 'to', 'in', 'of', 'on',
+                             'from', 'with', 'as', 'is', 'are', 'does',
+                             'and', 'or')
 
 
 def as_noun(h):
     """The heading as it should read inside a sentence."""
-    h = h.strip().rstrip(':')
+    h = h.strip().strip('●■•▪-– ').rstrip(':')
     return h[0].lower() + h[1:] if h[1:].islower() else h
+
+
+# A first-column heading that names no category. "Which row does the book
+# pair with ...?" is not a question a student can answer with understanding.
+GENERIC = {'row', 'rows', 'item', 'items', 'no', 'number', 'line', 'lines',
+           'entry', 'entries', 'example', 'examples', 'case', 'cases',
+           'step', 'steps', 'n', 'id', 'name', 'names', 'thing', 'things',
+           'answer', 'answers', 'value', 'values', 'result', 'results',
+           'detail', 'details', 'description', 'note', 'notes', 'comment',
+           'comments', 'point', 'points', 'fact', 'facts'}
 
 
 def mcq_from_row(head, body, ri, ci, seed, maxopt=4):
     """One row of a real table, as a question whose distractors are its
     sibling rows. The alternatives come from the book, so none of them is a
     straw man and none of them is accidentally also correct."""
-    if not noun_ok(head[0]):
+    if not noun_ok(head[0]) or as_noun(head[0]).lower() in GENERIC:
         return None
     value = body[ri][ci]
     label = body[ri][0]
@@ -319,11 +416,14 @@ def mcq_from_col(head, body, ri, ci, seed, maxopt=4):
     — here is a value, which row is it? — has several defensible
     answers whenever two rows share a value, which is most of the time.
     """
-    if not noun_ok(head[ci]):
+    if not noun_ok(head[ci]) or VALUEISH.match(clean(head[ci])) \
+            or as_noun(head[ci]).lower() in GENERIC:
         return None
     label = clean(body[ri][0])
     value = clean(body[ri][ci])
     if not label or not value or len(label) > 70 or len(value) > 86:
+        return None
+    if label.lower().strip(' :.') in TOTALISH:
         return None
     # "Tax depreciation above the line" makes a stem that points off its own
     # page as soon as it is quoted into a question.
@@ -346,7 +446,12 @@ def mcq_from_col(head, body, ri, ci, seed, maxopt=4):
 
 
 def tf_from_row(head, body, ri, ci, seed, truth):
-    if not noun_ok(head[0]):
+    # The stem quotes head[ci] as a noun ("the category of X is ..."), so
+    # that is the heading that has to read as one. Testing head[0] instead
+    # let "the what happens of Accrued revenue" onto the page.
+    if not noun_ok(head[0]) or not noun_ok(head[ci]) \
+            or VALUEISH.match(clean(head[ci])) \
+            or as_noun(head[ci]).lower() in GENERIC:
         return None
     """A true/false claim built by pairing a row with its own value, or with
     another row's. Both halves come out of the same table."""
@@ -407,9 +512,11 @@ def sort_from(head, body, seed):
             continue
         if len(items) < 4 or len(items) > 12:
             continue
-        return dict(t='SORT',
-                    q='Write each one under its %s. Every item belongs to '
-                      'exactly one group.' % head[ci].lower().rstrip(':'),
+        q = ('Write each one under its %s. Every item belongs to exactly '
+             'one group.' % as_noun(head[ci])) if noun_ok(head[ci]) else \
+            ('Write each one under the heading it belongs to. Every item '
+             'belongs to exactly one group.')
+        return dict(t='SORT', q=q,
                     regions=uniq, items=items,
                     a=['%s: %s' % (v, ', '.join(
                         r[0] for r in body if r[ci] == v)) for v in uniq],
@@ -497,6 +604,11 @@ def _cloze(sent, hits, seed, bank_extra):
         pos = i + len(t)
     parts.append(sent[pos:])
     if len(words) < 2:
+        return None
+    # A passage whose first visible word is a gap reads as "____ and research
+    # and are expensed when incurred", which is not a sentence a student can
+    # make sense of before filling it.
+    if not (parts and isinstance(parts[0], str) and parts[0].strip()):
         return None
     # The bank holds more words than there are gaps, so a student cannot
     # fill it by counting. The spare words are the chapter's own terms.
@@ -600,80 +712,474 @@ def _longwords(window, used, n=3):
 def summary_fills(text, terms, seed, k=3, labels=None, maxgaps=5):
     """Three gapped SUMMARIES of what the handout will settle.
 
-    Not three stray sentences. Each one is a short passage — two or three
-    of the book's own consecutive sentences — taken from a different
-    stretch of the section, so that reading all three in order is a preview
-    of the whole handout rather than three disconnected facts.
+    Not three stray sentences, and not three overlapping ones. Each is a
+    short passage — two to four of the book's own consecutive sentences
+    — and the three are disjoint at the sentence, so reading all three in
+    order previews the whole section instead of saying one thing three times.
+
+    Three things disqualify a passage outright. It may not open on a word
+    that hangs off a sentence it does not print ("This reclassification
+    adjustment..." means nothing as an opening line). It may not reuse a
+    sentence another summary already used. And it may not be a question stem
+    or a caption, both of which `sentences` has already taken out.
 
     The wording stays the book's. Nothing is paraphrased, because a student
     filling a gap should be writing the word the book uses, and the key can
     then print the passage in full for them to check against.
     """
+    # A sentence carrying a worked figure may sit inside a summary — the
+    # book's own prose does that constantly — but it may not open one and
+    # may not be most of one, or the "summary" becomes a calculation.
     sents = [x for x in sentences(text)
-             if 40 <= len(x) <= 210 and not BIGNUM.search(x)
+             if 30 <= len(x) <= 230
              and not x.endswith(('?', ':'))
              and not x.startswith(('Figure', 'See', 'Use', 'Answers'))]
     if len(sents) < k:
         return []
+    numeric = [bool(BIGNUM.search(x)) for x in sents]
     spare = shuffled([t for t in terms if 3 < len(t) < 26], seed + 5)
-    # one passage from each third of the section, in the book's own order
-    used = set()
+    taken = set()                 # sentence indices already in a summary
 
-    def best_in(window, minhits):
-        best = None
-        for i in range(len(window)):
-            for span in (3, 4, 2):
-                if i + span > len(window):
+    def spans(lo, hi, slack=0):
+        """Candidate passages inside sents[lo:hi], best first.
+
+        Scored on how many of the section's own terms it can gap, then on
+        how close it is to a readable length, and bonused for opening on a
+        sentence that can stand on its own.
+        """
+        out = []
+        for i in range(lo, hi):
+            if DANGLING.match(sents[i]) or numeric[i]:
+                continue          # never start a summary mid-thought
+            for span in (3, 4, 2, 5):
+                j = i + span
+                if j > hi:
                     continue
-                passage = ' '.join(window[i:i + span])
-                if passage in used or not 110 <= len(passage) <= 420:
+                reused = sum(1 for x in range(i, j) if x in taken)
+                if reused > slack or (i in taken):
+                    continue
+                if sum(numeric[i:j]) * 2 > span:
+                    continue      # mostly arithmetic is not a summary
+                passage = ' '.join(sents[i:j])
+                if not 100 <= len(passage) <= 450:
                     continue
                 hits = [t for t in terms
-                        if len(t) > 3 and re.search(
+                        if len(t) > 3 and not NUM.search(t) and re.search(
                             r'\b%s\b' % re.escape(t), passage, re.I)]
                 hits = sorted(set(hits), key=len, reverse=True)[:maxgaps]
-                if len(hits) < minhits:
+                # A section whose glossary is thin still gets a summary: the
+                # gaps then fall on the passage's own longest distinctive
+                # words, which are the book's words either way. What never
+                # happens is falling back to a single sentence.
+                if len(hits) < 2:
+                    own = []
+                    for w in re.findall(r"[A-Za-z][A-Za-z\-']{5,}", passage):
+                        if w.lower() in STOP or w in own:
+                            continue
+                        own.append(w)
+                    hits = (hits + sorted(own, key=len, reverse=True))[:3]
+                    hits = list(dict.fromkeys(hits))
+                    penalty = 60
+                else:
+                    penalty = 0
+                if len(hits) < 2:
                     continue
-                score = len(hits) * 100 - abs(len(passage) - 250)
-                if best is None or score > best[0]:
-                    best = (score, passage, hits)
-        return best
+                out.append((len(hits) * 100 - abs(len(passage) - 250)
+                            - penalty - 150 * reused,
+                            i, j, passage, hits))
+        out.sort(key=lambda x: -x[0])
+        return out
 
     out = []
     size = max(1, len(sents) // k)
     for b in range(k):
         lo = b * size
         hi = len(sents) if b == k - 1 else min(len(sents), (b + 1) * size)
-        # Its own third first; then the rest of the section, so that a thin
-        # third still yields a summary rather than a repeat of another one.
-        # Try the richest source first and fall back in order. A passage
-        # that yields only one gap is not a summary question, so the chain
-        # keeps going rather than giving up on this third of the section.
+        # Its own third of the section first, then anything still unused, so
+        # that a thin third yields a summary of its own rather than a second
+        # copy of a neighbour's.
+        #
+        # The three are disjoint wherever the section has the prose for it.
+        # A short section — "What is a lease?" runs to a dozen sentences
+        # — cannot give three disjoint passages, and the alternative there
+        # is a single gapped sentence, which is not a summary at all. So the
+        # last resort lets a later passage carry over one sentence from an
+        # earlier one. It never carries over its opening sentence, so the
+        # three still read as three summaries rather than one slid along.
         c = None
-        for got in (best_in(sents[lo:hi], 3), best_in(sents[lo:hi], 2),
-                    best_in(sents, 3), best_in(sents, 2),
-                    best_in(sents[lo:hi], 1), best_in(sents, 1),
-                    _longwords(sents[lo:hi] or sents, used),
-                    _longwords(sents, used)):
-            if not got:
-                continue
-            _sc, passage, hits = got
-            cand = _cloze(passage, hits, seed + b, spare)
-            if cand and len(cand['words']) >= 2:
-                c = cand
+        for slack in (0, 1, 2):
+            for cand in (list(spans(lo, hi, slack))
+                         + list(spans(0, len(sents), slack))):
+                _sc, i, j, passage, hits = cand
+                got = _cloze(passage, hits, seed + b, spare)
+                if got and len(got['words']) >= 2:
+                    c, used_range = got, range(i, j)
+                    break
+            if c:
                 break
         if not c:
             continue
-        passage = c['book']
-        used.add(passage)
-        lab = (labels or [])[b] if labels and b < len(labels) else ''
-        out.append(dict(
-            t='FILL',
-            q=(lab + ' ' if lab else '')
-              + 'Fill every gap. The list holds more words than there are '
-                'gaps, so one or two of them are not used.',
-            parts=c['parts'], bank=c['bank'], a=c['a'], one=True,
-            why='The book writes: \u201c%s\u201d' % c['book']))
+        taken.update(used_range)
+        out.append((used_range[0], c))
+    # The labels say "where the section starts", "in the middle", "where it
+    # ends", so they have to be handed out by where each passage sits in the
+    # section. The search does not run in that order — a thin third sends
+    # it looking through the whole section — so the three are sorted by
+    # position before they are labelled, or a reader meets the end of the
+    # section under "where the section starts".
+    out.sort(key=lambda x: x[0])
+    return [dict(
+        t='FILL',
+        q=(((labels or [])[j] + ' ') if labels and j < len(labels) else '')
+          + 'Fill every gap. The list holds more words than there are '
+            'gaps, so one or two of them are not used.',
+        parts=c['parts'], bank=c['bank'], a=c['a'], one=True,
+        why='The book writes: \u201c%s\u201d' % c['book'])
+        for j, (_i, c) in enumerate(out)]
+
+
+def table_summary(tbl, seed, label='', maxrows=4):
+    """A gapped summary of the table the handout is about to show.
+
+    A handful of sections — "What is a lease?", "IFRS and covenants" —
+    run to barely a dozen sentences of prose, and three disjoint passages
+    cannot be cut from them. What those sections do have is a table, and
+    the table is what the handout teaches. So this summary states what the
+    table settles, using the table's own cells for the sentence and for the
+    gaps, and the key names the table it came from.
+
+    The rows left over supply the spare words, so the bank is always longer
+    than the gaps and a student cannot fill it by counting. That needs one
+    row more than it gaps, so a table of two rows gives nothing.
+    """
+    if not tbl:
+        return None
+    _i, head, body = tbl
+    if len(head) < 2:
+        return None
+    # The key of a row is only read, so it may run long; the value goes
+    # into a gap the student writes in, so that one stays short.
+    rows = [(clean(r[0]), clean(r[1])) for r in body
+            if r and len(r) > 1 and clean(r[0]) and clean(r[1])
+            and len(clean(r[0])) <= 64 and len(clean(r[1])) <= 54]
+    # A value that two rows share cannot be gapped: both rows would answer.
+    seen = collections.Counter(v for _k, v in rows)
+    rows = [(k, v) for k, v in rows if seen[v] == 1]
+    if len(rows) < 3:
+        return None
+    use, sparerows = rows[:min(maxrows, len(rows) - 1)], rows[maxrows:]
+    # "the what it means of each one" is not English. A heading that does not
+    # read as a noun inside a sentence gets the neutral lead instead.
+    if noun_ok(head[0]) and noun_ok(head[1]) \
+            and as_noun(head[0]).lower() not in GENERIC \
+            and as_noun(head[1]).lower() not in GENERIC:
+        lead = ('The book’s own table of %s gives the %s of each one: '
+                % (as_noun(head[0]), as_noun(head[1])))
+    else:
+        lead = ('The book’s own table “%s” settles these: '
+                % clean(head[0]))
+    parts, words = [lead], []
+    for j, (k, v) in enumerate(use):
+        sep = '' if not j else (' and ' if j == len(use) - 1 else ', ')
+        parts[-1] += sep + 'for ' + k + ' it is '
+        parts.append(max(11, len(v) + 2))
+        words.append(v)
+        parts.append('')
+    parts[-1] += '.'
+    spare = [v for _k, v in sparerows or rows[len(use):]]
+    bank, got = list(words), set(w.lower() for w in words)
+    for v in spare:
+        if v.lower() in got:
+            continue
+        got.add(v.lower())
+        bank.append(v)
+        if len(bank) >= len(words) + 2:
+            break
+    if len(bank) <= len(words):
+        return None
+    book = lead + ' and '.join('for %s it is %s' % (k, v)
+                               for k, v in use) + '.'
+    return dict(t='FILL',
+                q=(label + ' ' if label else '')
+                  + 'Fill every gap from the list. The list holds more '
+                    'words than there are gaps.',
+                parts=parts, bank=shuffled(bank, seed), one=True,
+                a=' · '.join(words),
+                why='From the book’s own table “%s”: %s'
+                    % (clean(head[0]), book))
+
+
+def punctuated(q):
+    """A stem ends as a question or as a statement.
+
+    The book's own item bank often gives a stem with no final mark, because
+    the book prints the options under it. On a handout the stem is read on
+    its own, and an unpunctuated one reads as a sentence that was cut off.
+    """
+    q = (q or '').strip()
+    if not q or q.endswith(('?', '.', ':', '\u201d')):
+        return q
+    first = q.split()[0].lower().rstrip(',')
+    ask = first in ('which', 'what', 'who', 'when', 'where', 'why', 'how',
+                    'is', 'are', 'was', 'were', 'does', 'do', 'did', 'can',
+                    'could', 'should', 'would', 'will', 'has', 'have', 'had')
+    return q + ('?' if ask else '.')
+
+
+def exclusive(opts, floor=6):
+    """Are the options mutually exclusive as written?
+
+    An option that contains another ("a change in estimate" inside "a change
+    in estimate applied prospectively") lets a student defend both, so the
+    item has two answers whatever the key says.
+    """
+    low = [x.strip().lower() for x in opts]
+    if len(set(low)) != len(low):
+        return False
+    for i, a in enumerate(low):
+        for b in low[i + 1:]:
+            if (a in b or b in a) and min(len(a), len(b)) > floor:
+                return False
+    return True
+
+
+QUOTED = re.compile(r'\u201c[^\u201d]*\u201d|\"[^\"]*\"')
+
+
+def _shingle(q):
+    """The words of a stem, with any quoted value taken out.
+
+    "Which row does the book pair with <a long sentence>?" asked three times
+    over differs enormously in the quoted part and not at all in the part a
+    student reads as the question. Comparing the template is what catches
+    the run.
+    """
+    q = QUOTED.sub(' ', q or '')
+    return set(re.sub(r'\W+', ' ', q.lower()).split())
+
+
+def near_copy(a, b, thresh=0.72):
+    """Do two stems say the same thing in the same words?
+
+    The same measure the audit uses, so the generator cannot emit what the
+    audit will flag. Jaccard over word sets, which catches the stem that
+    differs only in the row it names.
+    """
+    x, y = _shingle(a), _shingle(b)
+    if not x or not y:
+        return False
+    return len(x & y) / float(len(x | y)) >= thresh
+
+
+# The book's running companies. An item that names one has a situation in
+# it; an item that names none is a definition with a question mark on it.
+CASES = ('Orontes', 'Barada', 'Cedar', 'GreenBasket', 'Levant')
+
+
+# An item that names no running company may still set a situation: "At
+# December 31 a company breaks a loan covenant" is a decision in front of
+# somebody. The audit counts these, so the generator has to count them too,
+# or it reserves the wrong items.
+SITUATED = re.compile(
+    r'\b(a|the|its|their)\s+(company|companies|firm|client|board|bank|'
+    r'lender|customer|supplier|lessee|lessor|analyst|investor|shareholder|'
+    r'subsidiary|parent|entity|manufacturer|retailer|contractor)\b'
+    r'|\ban?\s+(analyst|investor|entity|auditor)\b'
+    r'|\b(on|at|during|by)\s+(january|february|march|april|may|june|july|'
+    r'august|september|october|november|december|year.end|'
+    r'the reporting date|december 31)\b', re.I)
+
+
+def caseful(m):
+    """Does this item put the student in front of a company and a decision?"""
+    t = ' '.join([m.get('q') or ''] + [str(x) for x in (m.get('o') or [])])
+    return any(c.lower() in t.lower() for c in CASES) or bool(SITUATED.search(t))
+
+
+def by_interest(items):
+    """The same items, with the ones that carry a situation first.
+
+    The applying move is where a student should be deciding something for
+    somebody, so where the book's own bank offers both an abstract item and
+    one set at Orontes, the Orontes one goes on the page. Nothing is
+    invented and nothing is dropped: only the order changes.
+    """
+    return ([m for m in items if caseful(m)]
+            + [m for m in items if not caseful(m)])
+
+
+def match_from_table(head, body, seed, k=6):
+    """A table of unique pairs read as a matching exercise.
+
+    A table whose headings are too generic to quote into a stem — "Item"
+    against "Answer" — still states a one-to-one relation, and that is
+    exactly what a matching item asks for.
+    """
+    if len(head) < 2:
+        return None
+    pairs = [(clean(r[0]), clean(r[1])) for r in body
+             if r and len(r) > 1 and clean(r[0]) and clean(r[1])
+             and len(clean(r[0])) <= 72 and len(clean(r[1])) <= 72]
+    if len({a for a, _b in pairs}) != len(pairs) \
+            or len({b for _a, b in pairs}) != len(pairs):
+        return None            # a value used twice gives one row two answers
+    if not 4 <= len(pairs) <= k:
+        return None
+    left = [a for a, _b in pairs]
+    right = shuffled([b for _a, b in pairs], seed)
+    return dict(t='MATCH',
+                q='Write the letter of the matching %s beside each %s. '
+                  'Every one is used once.'
+                  % (as_noun(head[1]) if noun_ok(head[1]) else 'entry',
+                     as_noun(head[0]) if noun_ok(head[0]) else 'one'),
+                left=left, right=right,
+                a=['ABCDEFGH'[right.index(b)] for _a, b in pairs],
+                whys=['' for _ in pairs])
+
+
+def topup(tbls, pairs, seed, k=6):
+    """More items for a section whose share of the book's bank ran out.
+
+    The banks are divided between the sections of a chapter, so the last
+    section of a chapter with a thin bank can be left with nothing for its
+    applying move, and the sheet then comes out at three pages. What every
+    section does still have is its own tables and its own glossary, so the
+    top-up is built from those: rows the reading move did not put on the
+    page, and the table read as a whole.
+    """
+    out, cells = [], 0
+    for t in (tbls or []):
+        if len(out) >= k:
+            break
+        _i, head, body = t
+        # At most one more cell-reading question. The reading move already
+        # has its two, and a top-up of six more turns the sheet into a cell
+        # hunt — which is the thing the reading move was cut down to avoid.
+        for ri in range(len(body) - 1, -1, -1):
+            if len(out) >= k or cells >= 1:
+                break
+            for ci in range(1, len(head)):
+                m = mcq_from_col(head, body, ri, ci, seed + 7 * ri + ci) \
+                    or mcq_from_row(head, body, ri, ci, seed + ri)
+                if m:
+                    out.append(m)
+                    cells += 1
+                    break
+        g = grid_from(head, body, seed + 3)
+        if g:
+            out.append(g)
+        so = sort_from(head, body, seed + 4)
+        if so:
+            out.append(so)
+        mt = match_from_table(head, body, seed + 6)
+        if mt:
+            out.append(mt)
+    # No gap-fill here. The preview page and the body use different FILL
+    # shapes — the preview's answer is one string, the body's is a list —
+    # and a preview-shaped item in the body fails the key gate and carries
+    # the preview's "the list holds more words" wording, which points off
+    # its own page. The whole-table shapes above cover the same ground.
+    if pairs and len(pairs) >= 4:
+        mt = match_terms(pairs, seed + 5, k=min(6, len(pairs)))
+        if mt:
+            out.append(mt)
+    return out[:k]
+
+
+def normalised(m):
+    """One item, with the invariants every item has to meet.
+
+    Applied as items leave the generator rather than at each of the dozen
+    places that build one, so a new source of items cannot forget it.
+    Returns None for an item that cannot be repaired, and the caller drops
+    it — better a shorter move than an item with two answers.
+    """
+    m = dict(m)
+    m['q'] = punctuated(m.get('q'))
+    if m['t'] == 'MCQ':
+        o = [x for x in (m.get('o') or []) if x]
+        if len(o) < 3:
+            return None
+        right = o[('ABCD'.index(m['a']) if isinstance(m.get('a'), str)
+                   and m.get('a') in 'ABCD' else 0)]
+        if not exclusive(o):
+            # Drop the distractors that overlap the key rather than the key.
+            keep = [right]
+            for x in o:
+                if x is right:
+                    continue
+                if exclusive(keep + [x]):
+                    keep.append(x)
+            if len(keep) < 3:
+                return None
+            o = shuffled(keep, len(right))
+            m['o'], m['a'] = o, 'ABCD'[o.index(right)]
+    if m['t'] == 'FILL':
+        bank, seen = [], set()
+        for w in (m.get('bank') or []):
+            if w.lower() in seen:
+                continue
+            seen.add(w.lower())
+            bank.append(w)
+        gaps = sum(1 for x in (m.get('parts') or []) if not isinstance(x, str))
+        if len(bank) <= gaps:
+            return None
+        m['bank'] = bank
+    if m['t'] == 'MATCH' and 'letter' not in (m['q'] or '').lower():
+        m['q'] = ('Write the letter of the matching item beside each one. '
+                  + m['q'])
+    return m
+
+
+def deduped(flow, window=3, thresh=0.72):
+    """Drop an item whose stem is a near-copy of one of the last few.
+
+    A table of eight rows will happily yield eight questions of one shape,
+    and the generator used to emit them all. Here the run is cut at the
+    first repeat, so what survives is the shape asked once.
+    """
+    recent, out = [], []
+    for blk in flow:
+        if blk[0] == 'check':
+            # A checkpoint is an item too: it needs the same punctuation and
+            # the same mutually exclusive options, and it must not re-ask
+            # what the cycle just asked. It can never be dropped — a cycle
+            # without a checkpoint is not a cycle — so a repeat is
+            # replaced by the generic close instead.
+            m = normalised(dict(t='MCQ', q=blk[1], o=list(blk[2]),
+                                a=blk[3], why=blk[5] if len(blk) > 5 else ''))
+            if m is None or any(near_copy(m['q'], r, thresh)
+                                for r in recent[-window:]):
+                out.append(('check',
+                            'Which of these did this cycle settle?',
+                            ['the rule and where it comes from',
+                             'nothing in particular', 'only the vocabulary',
+                             'only the arithmetic'], 'A', blk[4],
+                            'Every cycle settles one rule and shows where '
+                            'it comes from.'))
+            else:
+                out.append(('check', m['q'], m['o'], m['a'], blk[4],
+                            m.get('why') or ''))
+                recent.append(m['q'])
+            continue
+        if blk[0] != 'items':
+            # A true/false that restates the question just above it is the
+            # same item twice, so the comparison runs across blocks.
+            out.append(blk)
+            continue
+        keep = []
+        for m in blk[1]:
+            m = normalised(m)
+            if m is None:
+                continue
+            q = m.get('q') or ''
+            if m['t'] in ('MCQ', 'TF') and any(
+                    near_copy(q, r, thresh) for r in recent[-window:]):
+                continue
+            keep.append(m)
+            recent.append(q)
+        if keep:
+            out.append(('items', keep))
     return out
 
 
@@ -835,7 +1341,7 @@ def routemap(blocks, terms):
 
 def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
              secnav=None, figs=None, allt=None, allterms=None,
-             extrafill=None):
+             extrafill=None, figname2=None):
     """One handout: a preview page, one or two cycles, and a close."""
     no, stitle = sec['no'], clean(sec['title'])
     flow = []
@@ -891,10 +1397,19 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
     flow.append(('cycle', 'A', stitle))
     flow.append(('move', 'ORIENT',
                  'One claim. Decide now; you will check it in a moment.'))
-    orient = None
+    # The orienting claim and the first reading question used to be built
+    # from the same cell, so the sheet asserted "Prepaid rent is an Asset"
+    # and then asked "which category is Prepaid rent?" three lines later.
+    # The orienting claim takes the last row; the reading move is told to
+    # leave that row alone.
+    orient, orientrow = None, None
     if main:
         _i, head, body = main
-        orient = tf_from_row(head, body[:6], 0, 1, seed + 5, truth=True)
+        for k in range(len(body) - 1, -1, -1):
+            orient = tf_from_row(head, body, k, 1, seed + 5, truth=True)
+            if orient:
+                orientrow = k
+                break
     flow.append(('items', [orient or dict(
         t='TF', q='Every number in a financial statement belongs to an '
                   'element the framework defines.', a='T',
@@ -915,26 +1430,54 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
     read = []
     if main:
         _i, head, body = main
-        for k in range(min(4, len(body))):
+        # Two cell-reading questions, not four. Four of them off one table
+        # read as one question asked four times — "Which decision does the
+        # book give for Investors?", then for Lenders, then for Suppliers —
+        # and the student stops reading the stem by the third. So the two are
+        # taken from different rows AND different columns, and the rest of
+        # the move asks about the table as a whole instead.
+        usedcol, usedrow = set(), set()
+        if orientrow is not None:
+            usedrow.add(orientrow)
+        for k in range(len(body)):
+            if len(usedrow) >= 2:
+                break
+            if k in usedrow:
+                continue
             for ci in range(1, len(head)):
+                if ci in usedcol:
+                    continue
                 m = mcq_from_col(head, body, k, ci, seed + 100 + 9 * k + ci) \
                     or mcq_from_row(head, body, k, ci, seed + 100 + k)
                 if m:
                     read.append(m)
+                    usedcol.add(ci)
+                    usedrow.add(k)
                     break
-        for k in range(min(2, len(body))):
-            t = tf_from_row(head, body, k, len(head) - 1, seed + 200 + k,
-                            truth=(k % 2 == 0))
+        # One true/false at most, and only about a column neither question
+        # above has already quoted.
+        for ci in range(len(head) - 1, 0, -1):
+            if ci in usedcol:
+                continue
+            k = next((x for x in range(len(body)) if x not in usedrow), 0)
+            t = tf_from_row(head, body, k, ci, seed + 200 + k, truth=True)
             if t:
                 read.append(t)
+                break
+        # These two read the table as a relation rather than as a grid of
+        # cells, which is the reasoning the move is for.
         s = sort_from(head, body, seed + 11)
         if s:
             read.append(s)
         g = grid_from(head, body, seed + 12)
         if g:
             read.append(g)
+    # Chapter numbering is the book's furniture, not its accounting. One
+    # item locating the section is orientation; four of them is a quiz on
+    # the table of contents. Only a section the book gave no table of its
+    # own falls back this far.
     if not read and secnav:
-        read = list(secnav[:4])
+        read = list(secnav[:1])
     if read:
         flow.append(('items', read))
     else:
@@ -959,23 +1502,55 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
                      con['o'], con['a'], con['why']))
 
     flow.append(('move', 'APPLY', 'No help on this move.'))
-    ap = (scm[2:4] + pm[:4])
+    ap = by_interest(scm[2:4] + pm[:4])
     for m in ap:
         if m.get('src'):
             covers.append(('sc:' if m['src'].startswith('SC') else 'p:')
                           + m['src'])
     if not ap:
-        ap = scm[:1] or [dict(
-            t='TF', q='The rule you have just written is the book’s own '
-                      'rule.', a='T', why='Compare your sentence with the '
-                      'book’s wording in the key.')]
+        # A true/false here is a coin flip, and the applying move is where
+        # the student should be made to use the rule. So the fallback asks
+        # about a row of the table the reading move did not put on the page.
+        ap = list(scm[:1])
+        if not ap and main:
+            _i, head, body = main
+            for k in range(len(body) - 1, -1, -1):
+                if k in usedrow:
+                    continue
+                m = next((x for x in (
+                    mcq_from_col(head, body, k, ci, seed + 300 + k + ci)
+                    for ci in range(1, len(head))) if x), None)
+                if m:
+                    ap = [m]
+                    break
+        if not ap:
+            ap = [dict(
+                t='MCQ',
+                q='You have just written the rule this cycle settles. What '
+                  'decides whether your wording is right?',
+                o=['the model printed earlier in this cycle',
+                   'how confident you felt writing it',
+                   'the length of the sentence you wrote',
+                   'whichever wording your partner used'],
+                a='A',
+                why='Every rule on a Workshop sheet is settled by the model '
+                    'printed on the same sheet.')]
     flow.extend(emit_with_extract(ap))
     flow.append(('pair', 'Compare every answer on this page with your '
                          'partner before you read any key.',
                  'go back to the model and find the row that settles it. The '
                  'row decides, not the louder voice.'))
 
-    chk = scm[0] if scm else (pm[0] if pm else None)
+    # The checkpoint is the last thing a student does in the cycle, so it
+    # gets the item with a company in it if the chapter has one. It must be
+    # an item the applying move did not already ask: scm[:2] and pm[:2]
+    # overlap the applying pool, and the sheet was closing a cycle by
+    # repeating the question it had just set.
+    shownq = [m.get('q') or '' for b in flow if b[0] == 'items'
+              for m in b[1]]
+    chkpool = [m for m in by_interest(list(scm[:4]) + list(pm[:4]))
+               if not any(near_copy(m.get('q') or '', q) for q in shownq)]
+    chk = chkpool[0] if chkpool else None
     if chk:
         chk2, pan = detach_figure(chk, figs)
         if pan and key_of(pan[2]) not in printed:
@@ -1007,6 +1582,11 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
     flow.append(('move', 'MODEL', ''))
     if second:
         _i, h2, b2 = second
+        # A table the student is asked four questions about deserves to be
+        # drawn, not only tabulated. The figure comes before the table so
+        # the shape is read first and the cells confirm it.
+        if figname2:
+            flow.append(('fig', figname2))
         flow.append(('panel', clean(h2[0]) + ' — the book’s own '
                      'table', [h2] + b2, ''))
     gloss = match_terms(terms, seed + 15, k=min(6, len(terms)))
@@ -1039,14 +1619,64 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
             covers.append(('sc:' if m['src'].startswith('SC') else 'p:')
                           + m['src'])
     covers.extend('term:' + e.lower() for e, _a in terms)
+    # A thin section — "Benefits and challenges" runs to a page of prose
+    # — came out as a three-page sheet, which is half a session. What it
+    # still has is the chapter's own item bank, so the applying move of the
+    # closing cycle is topped up from there rather than the sheet ending
+    # early. It goes into the existing move, not into a cycle of its own:
+    # a cycle without a model is not a cycle.
+    scored = sum(len(b[1]) for b in flow if b[0] == 'items')
+    if scored < 11:
+        shown = {id(m) for b in flow if b[0] == 'items' for m in b[1]}
+        shown |= {id(m) for m in rest}
+        more = by_interest(
+            [m for m in (list(extra_mcq or []) + list(scm) + list(pm))
+             if id(m) not in shown and m.get('t') == 'MCQ' and ok(m)])[:5]
+        # The bank is divided between a chapter's sections, so the last one
+        # of a thin chapter gets nothing from it. Its own table and glossary
+        # are always there.
+        if len(more) + scored < 11:
+            seen = [m.get('q') or '' for b in flow if b[0] == 'items'
+                    for m in b[1]] + [m.get('q') or '' for m in more]
+            for m in topup(tbls, terms, seed + 77,
+                           k=11 - scored - len(more)):
+                if not any(near_copy(m.get('q') or '', q) for q in seen):
+                    more.append(m)
+                    seen.append(m.get('q') or '')
+        rest = list(rest) + more
     if rest:
         flow.extend(emit_with_extract(rest))
     else:
-        flow.append(('items', [dict(
-        t='TF', q='Writing a term in English is part of answering the '
-                  'question, not an extra.', a='T',
-        why='The exam marks the term, so the English word is the '
-            'answer.')]))
+        # The glossary itself supplies the applying item: given the Arabic,
+        # produce the English the exam will mark. A true/false claim about
+        # exam technique applies nothing.
+        apb = None
+        pool = [(clean(e), clean(a)) for e, a in terms if clean(e)
+                and clean(a)]
+        if len(pool) >= 4:
+            e0, a0 = pool[0]
+            others = near_in_length(e0, [x for x, _y in pool], 3)
+            if others:
+                o = shuffled([e0] + others, seed + 61)
+                if exclusive(o):
+                    apb = dict(
+                        t='MCQ',
+                        q='Which English term does the exam use for '
+                          '“%s”?' % a0,
+                        o=o, a='ABCD'[o.index(e0)],
+                        why='The glossary on this page pairs “%s” '
+                            'with %s.' % (a0, e0))
+        flow.append(('items', [apb or dict(
+            t='MCQ',
+            q='A term on this page means what the book defines it to mean. '
+              'What settles a disagreement about one?',
+            o=['the glossary printed on this page',
+               'what the word means in ordinary English',
+               'the translation that sounds closest',
+               'whichever reading makes the item easier'],
+            a='A',
+            why='CMA questions use exact terms, and the glossary on the '
+                'page is what defines them here.')]))
     flow.append(('check',
                  'What is the safest way to settle a disagreement about an '
                  'answer on this sheet?',
@@ -1071,18 +1701,50 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
                  clean(sec['text'].split('\n')[1] if '\n' in sec['text']
                        else sec['text'])[:360]))
 
+    # No item repeats one of its neighbours; the run is cut before page one
+    # is composed, so the route map describes what actually survived.
+    blocks[:] = deduped(blocks)
+
     # ---- page one, composed from the handout it introduces
     labels = ['Where the section starts \u2014',
               'What it settles in the middle \u2014',
               'Where it ends \u2014']
     fills = summary_fills(sec['text'], [e for e, _a in terms] + termbank,
                           seed + 21, k=3, labels=labels)
+    # A section too thin for three passages of prose still has the table
+    # the handout is built on, and a summary of that table previews the
+    # session better than a stray sentence does.
+    for t in (main, second):
+        if len(fills) >= 3:
+            break
+        ts = table_summary(t, seed + 31 + len(fills),
+                           label=labels[len(fills)])
+        if ts:
+            fills.append(ts)
     if len(fills) < 3:
+        # The fallback owes the same rule the summaries do: a passage that
+        # opens on "They are financial capital, ..." hangs off a sentence
+        # the page never prints.
         fills += [f for f in cloze_items(
             sec['text'], [e for e, _a in terms] + termbank, seed + 21,
-            k=3 - len(fills), skip=ruleskip)]
+            k=6, skip=ruleskip)
+            if not DANGLING.match(''.join(
+                x for x in f.get('parts', []) if isinstance(x, str)).strip())
+        ][:3 - len(fills)]
+    # The spare pool is the last resort of all, and it owes the dangler
+    # rule like every other source of a preview passage.
     while len(fills) < 3 and extrafill:
-        fills.append(extrafill.pop(0))
+        f = extrafill.pop(0)
+        if not DANGLING.match(''.join(
+                x for x in f.get('parts', []) if isinstance(x, str)).strip()):
+            fills.append(f)
+    # Whichever source filled a slot — a summary, the table, the spare pool
+    # — the three carry the labels that say where in the section they come
+    # from. A slot filled from a fallback used to arrive bare, so the sheet
+    # showed two labelled summaries and one unlabelled gap-fill.
+    for j, f in enumerate(fills[:3]):
+        if not f['q'].startswith(tuple(labels)):
+            f['q'] = labels[j] + ' ' + f['q'].split('\u2014 ', 1)[-1]
     page1 = [('preview', 'Before you start',
               'Three summaries of this handout, in the book\u2019s own '
               'words. Read all three first: together they are the whole '
@@ -1110,6 +1772,7 @@ def caseask(x):
 
 
 def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
+                   revfig=None,
                    navitems=None):
     """The last handout: the case set, and the rest of the practice bank."""
     flow = []
@@ -1139,11 +1802,16 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
         why='The map shows the order the decisions have to be taken in.')]))
     flow.append(('move', 'MODEL', ''))
     flow.append(('fig', 'chmap'))
+    # A seven-page review sheet owes a model every three pages, and the
+    # chapter map plus the case panel are only two. The chapter's own first
+    # table is the third, drawn rather than tabulated.
+    if revfig:
+        flow.append(('fig', revfig))
     flow.append(('move', 'READ THE MODEL', ''))
     secs = [(clean(s['no']), clean(s['title'])) for s in d['sections']]
     opts = [t for _no, t in secs][:4]
     ritems = []
-    for k, (no, t) in enumerate(secs[:3]):
+    for k, (no, t) in enumerate(secs[:1]):
         others = near_in_length(t, [y for _n, y in secs], 3)
         if not others:
             continue
@@ -1203,20 +1871,34 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
     flow.append(('panel', 'The chapter’s case set, item by item', crows,
                  ''))
     flow.append(('move', 'READ THE MODEL', ''))
+    # This used to be one MCQ per case task — "Which of these does item
+    # C1-1 ask for?", then C1-2, then C1-3 — six near-identical questions
+    # about the wording of a question, naming an item number that means
+    # nothing on a handout. The book gives no answers for its case tasks,
+    # so the one thing that can be asked in closed form is the thing a case
+    # set actually teaches: the tasks have an order, because each uses the
+    # result of the one before it, and the book's own numbering is that
+    # order.
     citems = []
-    for k, c in enumerate(case[:6]):
-        cid = clean(c[0])
-        right = caseask(c[1])[:70]
-        others = near_in_length(
-            right, [caseask(x[1])[:70] for x in case if clean(x[0]) != cid], 3)
-        if not others:
-            continue
-        o = shuffled([right] + others, seed + 500 + k)
-        citems.append(dict(t='MCQ', q='Which of these does item %s ask for?'
-                           % cid, o=o, a='ABCD'[o.index(right)],
-                           why='The book states item %s in those words.'
-                               % cid))
-        covers.append('case:%s' % cid)
+    tasks = [(clean(c[0]), caseask(c[1])) for c in case[:6]]
+    tasks = [(cid, t) for cid, t in tasks if t and len(t) <= 120]
+    if len(tasks) >= 3:
+        order = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth']
+        pos = order[:len(tasks)]
+        left = shuffled([t for _c, t in tasks], seed + 500)
+        citems.append(dict(
+            t='MATCH',
+            q='The tasks of a case set have to be worked in one order, '
+              'because each one uses the result of the one before it. Write '
+              'the letter of its place beside each task.',
+            left=left, right=pos,
+            a=['ABCDEF'[[t for _c, t in tasks].index(x)] for x in left],
+            whys=['' for _ in left]))
+    # Every task of the case is printed in the panel above, so the chapter's
+    # coverage closes on all of them, not only on the ones short enough to
+    # fit the matching item.
+    for c in case:
+        covers.append('case:%s' % clean(c[0]))
     flow.append(('items', citems or [dict(
         t='TF', q='Every item of a case set is answered from the same '
                   'exhibit.', a='T',
@@ -1245,6 +1927,10 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
                  'settles, section by section.',
                  [clean(e) for e, _a in terms[:4]] or ['element', 'rule'],
                  ' '.join('%s: %s.' % (no, t) for no, t in secs)))
+    # The review sheet builds its own flow, and it was the one sheet that
+    # never went through the dedupe and the per-item normaliser — so every
+    # near-copy and unpunctuated stem left in Book 1 was on a review sheet.
+    blocks[:] = deduped(blocks)
     return dict(id='%d.%d' % (n, idx), n=idx, pages=0,
                 title='The whole chapter', sub='every section, shuffled, and '
                 'the chapter’s own case set',
@@ -1321,6 +2007,15 @@ def build_chapter(bk, n, hand_figs=None, seed=None):
     pbank = [m for m in (mcq_from_bank(it, ans, None)
                          for it in d['p']) if m]
     pbank = [m for m in pbank if usable_item(m, 'p')]
+    # The chapter's problem bank is dealt out to its sections in order, and
+    # the items that name a running company are not spread evenly through
+    # it, so some handouts used to get none and the student went through a
+    # whole session without once facing a company deciding something. The
+    # situated items are therefore set aside first and dealt one per
+    # handout; the rest of each handout's share comes from the bank in
+    # order as before.
+    situated = [m for m in pbank if caseful(m)]
+    pbank = [m for m in pbank if not caseful(m)]
     specs = []
     handouts = []
     used_sc = set()
@@ -1343,25 +2038,56 @@ def build_chapter(bk, n, hand_figs=None, seed=None):
                     sub='each section uses what the one before it settled'))
             figname = 'f%d' % idx
             specs.append((figname, got))
+        # The second table of a section carries its own cycle, so it gets
+        # its own figure wherever its shape allows one.
+        figname2 = None
+        if len(tbls) > 1:
+            got2 = pick_fig(tbls[1][1], tbls[1][2], idx)
+            if got2:
+                figname2 = 'f%db' % idx
+                specs.append((figname2, got2))
         scm = [m for m in (mcq_from_bank(it, ans, None)
                            for it in sc_by.get(idx, [])) if m]
         take = pbank[:6]
         del pbank[:6]
+        # One per handout, at the front of the applying move. This used to
+        # be skipped when the section's own check items already held a
+        # situated one, but assemble drops any item that needs a figure it
+        # cannot print, so the situated item counted here was sometimes not
+        # the one that reached the page. The pool has the stock for one
+        # each, so the reservation is unconditional.
+        if situated:
+            # The item the situated one displaces goes back on the bank
+            # rather than out of the chapter: every bank item has to be
+            # claimed by some handout.
+            take, spill = [situated.pop(0)] + take[:5], take[5:]
+            pbank[0:0] = spill
         extra = pbank[:2]
         tslice = terms[si::len(d['sections'])]
         used_sc.update(m['src'] for m in scm[:4] if m.get('src'))
         handouts.append(assemble(n, idx, sec, tbls, figname, scm, take,
                                  tslice, seed + si * 31, extra,
                                  secnav(d, seed), ftabs, allcat, terms,
-                                 list(spare_fill)))
+                                 list(spare_fill), figname2))
     allsc = [m for m in (mcq_from_bank(it, ans, None) for it in d['sc']) if m]
     allsc = [m for m in allsc if usable_item(m, 'sc')]
     leftover = [m for m in allsc if m.get('src') not in used_sc]
+    # Any situated item no handout needed is still part of the chapter, so
+    # it closes in the review sheet with everything else left over.
+    pbank += situated
     # Anything in the book's own banks that no section handout used lands
     # here, so the chapter's coverage closes.
+    # The review sheet is the longest in a chapter, so it owes a third
+    # model. The chapter's own first table, drawn, is it.
+    revfig = None
+    revgot = pick_fig(allcat[0][1], allcat[0][2], 0) if allcat else None
+    if revgot:
+        revfig = 'frev'
+        specs.append((revfig, revgot))
     handouts.append(review_handout(n, len(handouts) + 1, d, ans,
                                    pbank + leftover, d['case'], terms,
-                                   seed + 7, ftabs, secnav(d, seed)))
+                                   seed + 7, ftabs, revfig,
+                                   secnav(d, seed)))
     chapmap = dict(title='Chapter %d at a glance' % n,
                    nodes=[(clean(s['title']), 'section %s' % clean(s['no']))
                           for s in d['sections']],

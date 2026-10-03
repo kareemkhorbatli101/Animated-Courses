@@ -3,17 +3,15 @@
 
 HANDOUT = {'id': '14.1',
  'n': 1,
- 'pages': 5,
+ 'pages': 4,
  'title': 'What is a lease?',
  'sub': 'section 14.1 of the book',
  'covers': ['sec:14.1',
             'p:P14-01',
             'p:P14-02',
-            'p:P14-03',
-            'p:P14-04',
-            'sc:P14-01',
-            'p:P14-05',
-            'p:P14-06',
+            'p:P14-10',
+            'p:P14-16',
+            'p:P14-17',
             'term:lease',
             'term:incremental borrowing rate'],
  'skills': [('read1', 3)],
@@ -26,9 +24,7 @@ HANDOUT = {'id': '14.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['What is a lease?',
              'a figure to read · Lease',
-             "A supplier promises to provide 'a delivery truck' each day and "
-             'may send any truck from its large fleet at no cost. Does '
-             'Orontes have a lease?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'Item · The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -47,10 +43,10 @@ HANDOUT = {'id': '14.1',
                        11,
                        ' provides it.'],
              'bank': ['lease term',
-                      'lessor',
+                      'lease liability',
                       'lessee',
                       'lease',
-                      'lease liability'],
+                      'lessor'],
              'a': 'lease · lessee · lessor',
              'one': True,
              'why': 'The book writes: “A lease is a contract that gives the '
@@ -61,29 +57,6 @@ HANDOUT = {'id': '14.1',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The ',
-                       12,
-                       ' is the period the ',
-                       11,
-                       ' cannot cancel, plus any renewal periods it is '
-                       'reasonably certain to use. SC14-2 A lease is '
-                       'noncancelable for four years, with a two-year '
-                       'renewal option that the lessee is reasonably certain '
-                       'to use.'],
-             'bank': ['lessee',
-                      'lease term',
-                      'residual value guarantee',
-                      'lease liability'],
-             'a': 'lease term · lessee',
-             'one': True,
-             'why': 'The book writes: “The lease term is the period the '
-                    'lessee cannot cancel, plus any renewal periods it is '
-                    'reasonably certain to use. SC14-2 A lease is '
-                    'noncancelable for four years, with a two-year renewal '
-                    'option that the lessee is reasonably certain to use.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['The ',
                        11,
                        ' uses the asset; the ',
@@ -96,11 +69,11 @@ HANDOUT = {'id': '14.1',
                        12,
                        ' is the period the lessee cannot cancel, plus any '
                        'renewal periods it is reasonably certain to use.'],
-             'bank': ['lease liability',
+             'bank': ['residual value guarantee',
+                      'lease term',
                       'lessor',
                       'lessee',
-                      'lease term',
-                      'residual value guarantee'],
+                      'lease liability'],
              'a': 'lessee · lessor · lease term',
              'one': True,
              'why': 'The book writes: “The lessee uses the asset; the lessor '
@@ -110,7 +83,28 @@ HANDOUT = {'id': '14.1',
                     'almost all of its economic benefits and decides how it '
                     'is used. The lease term is the period the lessee cannot '
                     'cancel, plus any renewal periods it is reasonably '
-                    'certain to use.”'}],
+                    'certain to use.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['The discount rate is the rate implicit in the ',
+                       11,
+                       ' if the ',
+                       11,
+                       " can find it; otherwise it is the lessee's ",
+                       28,
+                       '.'],
+             'bank': ['residual value guarantee',
+                      'lessee',
+                      'short-term lease',
+                      'incremental borrowing rate',
+                      'lease'],
+             'a': 'lease · lessee · incremental borrowing rate',
+             'one': True,
+             'why': 'The book writes: “The discount rate is the rate '
+                    'implicit in the lease if the lessee can find it; '
+                    "otherwise it is the lessee's incremental borrowing "
+                    'rate.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -160,34 +154,7 @@ HANDOUT = {'id': '14.1',
                    'Presentation',
                    'Finance or operating? The five criteria'],
              'a': 'A',
-             'why': 'The book numbers “What is a lease?” as section 14.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 14.2?',
-             'o': ['Short-term leases, sale and leaseback, and IFRS 16',
-                   'Finance or operating? The five criteria',
-                   'Initial measurement',
-                   'Subsequent measurement: two expense patterns'],
-             'a': 'B',
-             'why': 'The book numbers “Finance or operating? The five '
-                    'criteria” as section 14.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 14.3?',
-             'o': ['What is a lease?',
-                   'Finance or operating? The five criteria',
-                   'Initial measurement',
-                   'Presentation'],
-             'a': 'C',
-             'why': 'The book numbers “Initial measurement” as section '
-                    '14.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 14.4?',
-             'o': ['Initial measurement',
-                   'Subsequent measurement: two expense patterns',
-                   'Short-term leases, sale and leaseback, and IFRS 16',
-                   'Finance or operating? The five criteria'],
-             'a': 'B',
-             'why': 'The book numbers “Subsequent measurement: two expense '
-                    'patterns” as section 14.4.'}]),
+             'why': 'The book numbers “What is a lease?” as section 14.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -222,50 +189,43 @@ HANDOUT = {'id': '14.1',
                     'criteria can still be met.',
              'src': 'P14-02'},
             {'t': 'MCQ',
-             'q': 'A lease includes an option to buy the asset for $1 at the '
-                  'end. The lessee is reasonably certain to use it. The '
-                  'lease is:',
-             'o': ['an operating lease',
-                   'a sale',
-                   'a finance lease',
-                   'a service contract'],
-             'a': 'C',
-             'why': 'A reasonably certain purchase option is one of the five '
-                    'criteria. A is wrong: One criterion is met. B is wrong: '
-                    'The lessee is not buying now.',
-             'src': 'P14-03'},
-            {'t': 'MCQ',
-             'q': 'A French company signs a crédit-bail contract for a '
-                  'truck. Under ASC 842, the lease is classified by:',
-             'o': ['its legal form: always a finance lease',
-                   'the five criteria, not the legal form',
-                   'the tax treatment',
-                   "the lessor's choice"],
+             'q': 'Compared with an operating lease on the same terms, a '
+                  'finance lease gives:',
+             'o': ['the same expense every year',
+                   'higher total expense in early years and lower in later '
+                   'years',
+                   'higher total expense over the lease term',
+                   'no expense until the lease ends'],
              'a': 'B',
-             'why': 'Substance, tested by the criteria, decides. A is wrong: '
-                    'Legal labels do not decide the class. C is wrong: Tax '
-                    'rules do not decide the class.',
-             'src': 'P14-04'}]),
+             'why': 'Interest falls as the liability falls: front-loaded. A '
+                    'is wrong: That describes the operating lease. C is '
+                    'wrong: Totals are the same; only timing differs.',
+             'src': 'P14-10'},
+            {'t': 'MCQ',
+             'q': 'Which IFRS 16 feature does NOT exist in ASC 842?',
+             'o': ['An exemption for short-term leases',
+                   'An exemption for leases of low-value assets',
+                   'A right-of-use asset',
+                   'Discounting the lease payments'],
+             'a': 'B',
+             'why': 'U.S. GAAP has only the short-term exemption. A is '
+                    'wrong: Both frameworks have it. C is wrong: Both '
+                    'frameworks use ROU assets.',
+             'src': 'P14-16'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "A supplier promises to provide 'a delivery truck' each day and "
-           'may send any truck from its large fleet at no cost. Does Orontes '
-           'have a lease?',
-           ['No, because the supplier has a substantive right to substitute '
-            'the truck',
-            'Yes, because Orontes uses a truck every day',
-            'Yes, because the contract is for more than 12 months',
-            'No, because trucks cannot be leased'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Without an identified asset there is no lease. B is wrong: Use '
-           'alone does not create control of an identified asset. C is '
-           'wrong: Length does not decide whether there is a lease.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -297,64 +257,25 @@ HANDOUT = {'id': '14.1',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “Opening 267,301; '
-                  'interest 16,038; closing 183,339; ROU amortization '
-                  '83,962; lease cost 100,000”?',
-             'o': ['2030', '2029', '2028'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 2028 with “Opening 267,301; '
-                    'interest 16,038; closing 183,339; ROU amortization '
-                    '83,962; lease cost 100,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Opening 183,339; '
-                  'interest 11,000; closing 94,339; ROU amortization 89,000; '
-                  'lease cost 100,000”?',
-             'o': ['2030', '2028', '2029'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 2029 with “Opening 183,339; '
-                    'interest 11,000; closing 94,339; ROU amortization '
-                    '89,000; lease cost 100,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Opening 94,339; '
-                  'interest 5,661; closing 0; ROU amortization 94,339; lease '
-                  'cost 100,000”?',
-             'o': ['2029', '2030', '2028'],
-             'a': 'B',
-             'why': 'The book’s own table pairs 2030 with “Opening 94,339; '
-                    'interest 5,661; closing 0; ROU amortization 94,339; '
-                    'lease cost 100,000”.'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A lessee rents a storage room for 10 months, with no '
-                  'purchase option, and elects the short-term exemption. It:',
-             'o': ['records an ROU asset and a lease liability',
-                   'expenses the payments straight-line and records no ROU '
-                   'asset or liability',
-                   'records a finance lease',
-                   'discloses the lease only in a note, with no expense'],
-             'a': 'B',
-             'why': 'The exemption keeps short-term leases off the balance '
-                    'sheet. A is wrong: The elected exemption removes the '
-                    'recognition. C is wrong: Short-term leases are not '
-                    'capitalized when exempted.',
-             'src': 'P14-05'},
-            {'t': 'MCQ',
-             'q': 'A company sells its head office to a bank and leases it '
-                  'back under a finance lease. Under ASC 842, the '
-                  'transaction is:',
-             'o': ['a sale with the full gain recognized',
-                   'a sale with the gain deferred',
-                   'a failed sale: the company keeps the building and '
-                   'records the cash as a loan',
-                   'an operating lease with no asset'],
-             'a': 'C',
-             'why': 'A finance leaseback means control has not passed. A is '
-                    'wrong: No sale occurs when the leaseback is a finance '
-                    'lease. B is wrong: Deferring gains was the old ASC 840 '
-                    'approach.',
-             'src': 'P14-06'}]),
+             'q': 'An IFRS company pays interest on a lease liability. Under '
+                  'current IAS 7 it may classify the interest as:',
+             'o': ['operating or financing, as a policy choice',
+                   'investing only',
+                   'operating only, as under U.S. GAAP',
+                   'not a cash flow'],
+             'a': 'A',
+             'why': 'IAS 7 allows a choice until the IFRS 18 amendments '
+                    'apply. B is wrong: Interest paid is not investing. C is '
+                    'wrong: IFRS allows financing too.',
+             'src': 'P14-17'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

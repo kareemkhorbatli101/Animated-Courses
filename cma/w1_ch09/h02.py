@@ -3,17 +3,11 @@
 
 HANDOUT = {'id': '9.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 7,
  'title': 'Measuring debt securities',
  'sub': 'section 9.2 of the book',
  'covers': ['sec:9.2',
-            'p:P9-07',
-            'p:P9-08',
-            'p:P9-09',
-            'p:P9-10',
-            'sc:P9-07',
-            'p:P9-11',
-            'p:P9-12',
+            'p:P9-02',
             'term:equity security',
             'term:fair value',
             'term:equity method',
@@ -29,45 +23,16 @@ HANDOUT = {'id': '9.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Measuring debt securities',
              'a figure to read · Category · the book’s own rule, gapped',
-             'Which statement about credit losses on debt securities is '
-             'correct?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             '2025, whole USD · The English the exam uses, and what it '
-             'translates',
+             'a figure to read · 2025, whole USD · The English the exam '
+             'uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['The main difference between trading and AFS is where '
-                       'the ',
-                       33,
-                       ' goes. For AFS it goes to other comprehensive income '
-                       '(OCI). A bond is bought at a ',
-                       14,
-                       ' when its stated interest rate is higher than the '
-                       'market rate, and at a ',
-                       15,
-                       ' when it is lower.'],
-             'bank': ['bond premium',
-                      'bond discount',
-                      'equity method',
-                      'investee',
-                      'unrealized holding gain or loss'],
-             'a': 'unrealized holding gain or loss · bond premium · bond '
-                  'discount',
-             'one': True,
-             'why': 'The book writes: “The main difference between trading '
-                    'and AFS is where the unrealized holding gain or loss '
-                    'goes. For AFS it goes to other comprehensive income '
-                    '(OCI). A bond is bought at a bond premium when its '
-                    'stated interest rate is higher than the market rate, '
-                    'and at a bond discount when it is lower.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
              'parts': ['A bond is bought at a ',
                        14,
                        ' when its stated interest rate is higher than the '
@@ -78,11 +43,11 @@ HANDOUT = {'id': '9.2',
                        ', interest revenue for each year is the carrying '
                        'amount at the start of the year multiplied by the '
                        'market rate at purchase.'],
-             'bank': ['investee',
+             'bank': ['bond discount',
                       'effective-interest method',
-                      'bond premium',
                       'equity method',
-                      'bond discount'],
+                      'investee',
+                      'bond premium'],
              'a': 'bond premium · bond discount · effective-interest method',
              'one': True,
              'why': 'The book writes: “A bond is bought at a bond premium '
@@ -92,34 +57,53 @@ HANDOUT = {'id': '9.2',
                     'each year is the carrying amount at the start of the '
                     'year multiplied by the market rate at purchase.”'},
             {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['While Orontes holds an AFS bond, its unrealized '
+                       'gains and losses build up in ',
+                       13,
+                       ' OCI, part of equity. When Orontes sells the bond, '
+                       'the realized gain or loss moves to net income '
+                       'through a ',
+                       29,
+                       ', sometimes called recycling.'],
+             'bank': ['equity method',
+                      'accumulated',
+                      'investee',
+                      'reclassification adjustment'],
+             'a': 'accumulated · reclassification adjustment',
+             'one': True,
+             'why': 'The book writes: “While Orontes holds an AFS bond, its '
+                    'unrealized gains and losses build up in accumulated '
+                    'OCI, part of equity. When Orontes sells the bond, the '
+                    'realized gain or loss moves to net income through a '
+                    'reclassification adjustment, sometimes called '
+                    'recycling.”'},
+            {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['HTM securities are reported at amortized cost. The '
-                       'main difference between trading and AFS is where '
-                       'the ',
-                       33,
-                       ' goes. For AFS it goes to other comprehensive income '
-                       '(OCI). A bond is bought at a ',
-                       14,
-                       ' when its stated interest rate is higher than the '
-                       'market rate, and at a ',
-                       15,
-                       ' when it is lower.'],
-             'bank': ['bond discount',
+             'parts': ['When a security moves into trading, any ',
+                       12,
+                       ' gain or loss not yet in net income goes to net '
+                       'income ',
+                       13,
+                       '. When an AFS security moves to HTM, the unrealized '
+                       'amount stays in ',
+                       13,
+                       ' OCI and is amortized over the remaining life.'],
+             'bank': ['accumulated',
                       'equity method',
-                      'unrealized holding gain or loss',
+                      'unrealized',
                       'investee',
-                      'bond premium'],
-             'a': 'unrealized holding gain or loss · bond premium · bond '
-                  'discount',
+                      'immediately'],
+             'a': 'unrealized · immediately · accumulated',
              'one': True,
-             'why': 'The book writes: “HTM securities are reported at '
-                    'amortized cost. The main difference between trading and '
-                    'AFS is where the unrealized holding gain or loss goes. '
-                    'For AFS it goes to other comprehensive income (OCI). A '
-                    'bond is bought at a bond premium when its stated '
-                    'interest rate is higher than the market rate, and at a '
-                    'bond discount when it is lower.”'}],
+             'why': 'The book writes: “When a security moves into trading, '
+                    'any unrealized gain or loss not yet in net income goes '
+                    'to net income immediately. When an AFS security moves '
+                    'to HTM, the unrealized amount stays in accumulated OCI '
+                    'and is amortized over the remaining life.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -146,10 +130,11 @@ HANDOUT = {'id': '9.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the balance sheet amount of Trading (debt) '
-                  'as “Fair value”.',
+             'q': 'The book gives the balance sheet amount of Equity method '
+                  'as “Cost + share of income − dividends”.',
              'a': 'T',
-             'why': 'The book pairs Trading (debt) with “Fair value”.'}]),
+             'why': 'The book pairs Equity method with “Cost + share of '
+                    'income − dividends”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -194,46 +179,9 @@ HANDOUT = {'id': '9.2',
              'a': 'B',
              'why': 'The book’s own table gives Fair value as the balance '
                     'sheet amount of Trading (debt).'},
-            {'t': 'MCQ',
-             'q': 'Which balance sheet amount does the book give for '
-                  'Available-for-sale (debt)?',
-             'o': ['Cost + share of income − dividends',
-                   'Measurement alternative',
-                   'Fair value',
-                   'Amortized cost − allowance'],
-             'a': 'C',
-             'why': 'The book’s own table gives Fair value as the balance '
-                    'sheet amount of Available-for-sale (debt).'},
-            {'t': 'MCQ',
-             'q': 'Which balance sheet amount does the book give for '
-                  'Held-to-maturity (debt)?',
-             'o': ['Cost + share of income − dividends',
-                   'Amortized cost − allowance',
-                   'Measurement alternative',
-                   'Fair value'],
-             'a': 'B',
-             'why': 'The book’s own table gives Amortized cost − allowance '
-                    'as the balance sheet amount of Held-to-maturity '
-                    '(debt).'},
-            {'t': 'MCQ',
-             'q': 'Which balance sheet amount does the book give for Equity, '
-                  'no significant influence?',
-             'o': ['Cost + share of income − dividends',
-                   'Fair value',
-                   'Measurement alternative',
-                   'Amortized cost − allowance'],
-             'a': 'B',
-             'why': 'The book’s own table gives Fair value as the balance '
-                    'sheet amount of Equity, no significant influence.'},
-            {'t': 'TF',
-             'q': 'The book gives the On sale, OCI is of Available-for-sale '
-                  '(debt) as “—”.',
-             'a': 'F',
-             'why': 'The book pairs Available-for-sale (debt) with '
-                    '“Reclassified to net income”, not with “—”.'},
             {'t': 'SORT',
-             'q': 'Write each one under its on sale, oci is. Every item '
-                  'belongs to exactly one group.',
+             'q': 'Write each one under the heading it belongs to. Every '
+                  'item belongs to exactly one group.',
              'regions': ['Reclassified to net income', '—'],
              'items': ['Trading (debt)',
                        'Available-for-sale (debt)',
@@ -311,79 +259,34 @@ HANDOUT = {'id': '9.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which statement about credit losses on debt securities is '
-                  'correct?',
-             'o': ['AFS allowances are limited to amortized cost minus fair '
-                   'value; HTM allowances have no such limit.',
-                   'Both HTM and AFS use the same CECL allowance with no '
-                   'limit.',
-                   'Neither category records credit losses until a default.',
-                   'AFS credit losses go to OCI.'],
-             'a': 'A',
-             'why': 'HTM follows CECL; AFS uses an allowance capped by the '
-                    'fair-value floor. B is wrong: AFS has its own model '
-                    'with the fair-value floor. C is wrong: Expected losses '
-                    'are recorded before any default.',
-             'src': 'P9-07'},
-            {'t': 'MCQ',
-             'q': 'Orontes bought listed shares for $20,000. At year-end '
-                  'they are worth $23,500, and Orontes received dividends of '
-                  '$400. What is the total effect on net income?',
-             'o': ['0', '400', '3,500', '3,900'],
-             'a': 'D',
-             'why': 'Unrealized gain plus dividend income; both go to net '
-                    'income. A is wrong: Both amounts are income for shares '
-                    'without influence. B is wrong: The unrealized gain also '
-                    'goes to net income.',
-             'src': 'P9-08'},
-            {'t': 'MCQ',
-             'q': 'A company holds shares of a private company with no '
-                  'readily determinable fair value. Which measurement may it '
-                  'elect?',
-             'o': ['Available-for-sale with changes in OCI',
-                   'Cost minus impairment, adjusted for observable price '
-                   'changes',
-                   'Held-to-maturity at amortized cost',
-                   'The equity method, whatever its influence'],
-             'a': 'B',
-             'why': 'This is the measurement alternative in ASC 321. A is '
-                    'wrong: AFS no longer exists for shares. C is wrong: '
-                    'Shares have no maturity.',
-             'src': 'P9-09'},
-            {'t': 'MCQ',
-             'q': 'Orontes owns 15% of a company and holds two of its seven '
-                  'board seats. It takes part in setting its policies. Which '
-                  'method is MOST likely?',
-             'o': ['The equity method',
-                   'Fair value through net income',
-                   'Consolidation',
-                   'Available-for-sale'],
-             'a': 'A',
-             'why': 'Board seats and policy participation show significant '
-                    'influence, even below the usual presumption. B is '
-                    'wrong: The evidence of influence overrides the '
-                    'percentage. C is wrong: Consolidation needs control.',
-             'src': 'P9-10'}]),
+             'q': 'A company sells a large part of its held-to-maturity '
+                  'portfolio because it needs cash. What is the MOST likely '
+                  'consequence?',
+             'o': ['Nothing, because the sale was for a business reason.',
+                   'The gain on the sale goes to OCI.',
+                   'Its remaining HTM securities are tainted and should be '
+                   'reclassified.',
+                   'The securities are reclassified as trading at cost.'],
+             'a': 'C',
+             'why': 'Selling HTM securities outside the permitted cases '
+                    "calls the company's intent into question. A is wrong: A "
+                    'need for cash is not one of the permitted reasons. B is '
+                    'wrong: A realized gain on sale goes to net income.',
+             'src': 'P9-02'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which statement about credit losses on debt securities is '
-           'correct?',
-           ['AFS allowances are limited to amortized cost minus fair value; '
-            'HTM allowances have no such limit.',
-            'Both HTM and AFS use the same CECL allowance with no limit.',
-            'Neither category records credit losses until a default.',
-            'AFS credit losses go to OCI.'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'HTM follows CECL; AFS uses an allowance capped by the fair-value '
-           'floor. B is wrong: AFS has its own model with the fair-value '
-           'floor. C is wrong: Expected losses are recorded before any '
-           'default.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -394,6 +297,7 @@ HANDOUT = {'id': '9.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            '2025, whole USD — the book’s own table',
            [['2025, whole USD',
@@ -442,54 +346,20 @@ HANDOUT = {'id': '9.2',
                        'طريقة حقوق الملكية',
                        'أداة حقوق ملكية (أسهم)'],
              'a': ['E', 'D', 'B', 'C', 'A'],
-             'whys': ['', '', '', '', '']},
-            {'t': 'MCQ',
-             'q': 'Which trading does the book give for Interest revenue in '
-                  'net income (effective interest)?',
-             'o': ['5,136', '(859) in net income', '101,000', '101,859'],
-             'a': 'A',
-             'why': 'The book’s own table gives 5,136 as the trading of '
-                    'Interest revenue in net income (effective interest).'},
-            {'t': 'MCQ',
-             'q': 'Which trading does the book give for Amortized cost at '
-                  'Dec 31, 2025?',
-             'o': ['5,136', '101,000', '(859) in net income', '101,859'],
-             'a': 'D',
-             'why': 'The book’s own table gives 101,859 as the trading of '
-                    'Amortized cost at Dec 31, 2025.'},
-            {'t': 'MCQ',
-             'q': 'Which trading does the book give for Balance sheet amount '
-                  'at Dec 31, 2025?',
-             'o': ['101,000', '(859) in net income', '101,859', '5,136'],
-             'a': 'A',
-             'why': 'The book’s own table gives 101,000 as the trading of '
-                    'Balance sheet amount at Dec 31, 2025.'}]),
+             'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Use the Jordan Glass example. What is the investment '
-                  'balance at December 31, 2025 (whole USD)?',
-             'o': ['1,287,000', '1,290,000', '1,347,000', '1,637,000'],
-             'a': 'A',
-             'why': 'Cost + share of income − extra depreciation − '
-                    'dividends. B is wrong: This forgets the extra '
-                    'depreciation. C is wrong: This does not deduct the '
-                    'dividends received.',
-             'src': 'P9-11'},
-            {'t': 'MCQ',
-             'q': 'Under the equity method, the part of the basis difference '
-                  'assigned to goodwill is:',
-             'o': ['amortized over ten years.',
-                   'expensed immediately.',
-                   "added to the investor's own goodwill account.",
-                   'not amortized.'],
-             'a': 'D',
-             'why': 'Equity-method goodwill is part of the investment and is '
-                    'not amortized. A is wrong: Amortization of goodwill is '
-                    'a private-company option for acquired goodwill, not an '
-                    'equity-method rule. B is wrong: It is part of the cost '
-                    'of the investment.',
-             'src': 'P9-12'}]),
+             'q': 'Which balance sheet amount does the book give for Equity '
+                  'method?',
+             'o': ['Amortized cost − allowance',
+                   'Cost + share of income − dividends',
+                   'Measurement alternative',
+                   'Fair value'],
+             'a': 'B',
+             'why': 'The book’s own table gives Cost + share of income − '
+                    'dividends as the balance sheet amount of Equity '
+                    'method.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

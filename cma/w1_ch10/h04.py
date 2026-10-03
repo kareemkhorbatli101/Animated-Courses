@@ -7,6 +7,7 @@ HANDOUT = {'id': '10.4',
  'title': 'Disposal of fixed assets',
  'sub': 'section 10.4 of the book',
  'covers': ['sec:10.4',
+            'p:P10-14',
             'term:useful life',
             'term:amortization',
             'term:double-declining-balance method',
@@ -31,48 +32,47 @@ HANDOUT = {'id': '10.4',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Disposal of the Dubai oven: update depreciation, '
-                       'find the ',
+             'parts': ['When a company sells or scraps an asset, it first '
+                       'records ',
+                       14,
+                       ' up to the date of disposal. Then it removes the '
+                       'cost and the ',
+                       13,
+                       ' depreciation and compares the proceeds with the ',
                        17,
-                       ', then the gain. In an ',
-                       24,
-                       ', such as a fire or a government expropriation, the '
-                       'company records a gain or loss even if it reinvests '
-                       'the insurance money.'],
-             'bank': ['useful life',
-                      'involuntary conversion',
-                      'carrying amount',
-                      'revenue expenditure'],
-             'a': 'carrying amount · involuntary conversion',
+                       '. If the proceeds are higher, it records a gain; if '
+                       'lower, a loss.'],
+             'bank': ['revenue expenditure',
+                      'accumulated',
+                      'useful life',
+                      'depreciation',
+                      'carrying amount'],
+             'a': 'depreciation · accumulated · carrying amount',
              'one': True,
-             'why': 'The book writes: “Disposal of the Dubai oven: update '
-                    'depreciation, find the carrying amount, then the gain. '
-                    'In an involuntary conversion, such as a fire or a '
-                    'government expropriation, the company records a gain or '
-                    'loss even if it reinvests the insurance money.”'},
+             'why': 'The book writes: “When a company sells or scraps an '
+                    'asset, it first records depreciation up to the date of '
+                    'disposal. Then it removes the cost and the accumulated '
+                    'depreciation and compares the proceeds with the '
+                    'carrying amount. If the proceeds are higher, it records '
+                    'a gain; if lower, a loss.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The gain or loss is part of income from continuing '
-                       'operations. Disposal of the Dubai oven: update '
-                       'depreciation, find the ',
-                       17,
-                       ', then the gain. In an ',
+             'parts': ['Two special cases appear on the exam. In an ',
                        24,
-                       ', such as a fire or a government expropriation, the '
-                       'company records a gain or loss even if it reinvests '
-                       'the insurance money.'],
-             'bank': ['carrying amount',
-                      'involuntary conversion',
-                      'revenue expenditure',
-                      'useful life'],
-             'a': 'carrying amount · involuntary conversion',
+                       ', such as a fire or a government ',
+                       15,
+                       ', the company records a gain or loss even if it '
+                       'reinvests the insurance money.'],
+             'bank': ['involuntary conversion',
+                      'useful life',
+                      'expropriation',
+                      'revenue expenditure'],
+             'a': 'involuntary conversion · expropriation',
              'one': True,
-             'why': 'The book writes: “The gain or loss is part of income '
-                    'from continuing operations. Disposal of the Dubai oven: '
-                    'update depreciation, find the carrying amount, then the '
-                    'gain. In an involuntary conversion, such as a fire or a '
+             'why': 'The book writes: “Two special cases appear on the exam. '
+                    'In an involuntary conversion, such as a fire or a '
                     'government expropriation, the company records a gain or '
                     'loss even if it reinvests the insurance money.”'},
             {'t': 'FILL',
@@ -83,23 +83,22 @@ HANDOUT = {'id': '10.4',
                        ', the new asset is recorded at fair value and the '
                        'gain or loss is recognized; without commercial '
                        'substance, the exchange is recorded at book value. '
-                       'Record depreciation up to the sale date before you '
-                       'compute the gain or loss. Compare proceeds with the ',
-                       17,
-                       ', not with the original cost.'],
+                       'Record ',
+                       14,
+                       ' up to the sale date before you compute the gain or '
+                       'loss.'],
              'bank': ['commercial substance',
-                      'useful life',
-                      'carrying amount',
-                      'revenue expenditure'],
-             'a': 'commercial substance · carrying amount',
+                      'depreciation',
+                      'revenue expenditure',
+                      'useful life'],
+             'a': 'commercial substance · depreciation',
              'one': True,
              'why': 'The book writes: “In an exchange of assets with '
                     'commercial substance, the new asset is recorded at fair '
                     'value and the gain or loss is recognized; without '
                     'commercial substance, the exchange is recorded at book '
                     'value. Record depreciation up to the sale date before '
-                    'you compute the gain or loss. Compare proceeds with the '
-                    'carrying amount, not with the original cost.”'}],
+                    'you compute the gain or loss.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -146,41 +145,20 @@ HANDOUT = {'id': '10.4',
                    'The cost of property, plant and equipment'],
              'a': 'D',
              'why': 'The book numbers “The cost of property, plant and '
-                    'equipment” as section 10.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 10.2?',
-             'o': ['Depreciation methods and their effects',
-                   'Disposal of fixed assets',
-                   'Recommending a depreciation method',
-                   'The cost of property, plant and equipment'],
-             'a': 'A',
-             'why': 'The book numbers “Depreciation methods and their '
-                    'effects” as section 10.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 10.3?',
-             'o': ['The cost of property, plant and equipment',
-                   'Recommending a depreciation method',
-                   'Depreciation methods and their effects',
-                   'Disposal of fixed assets'],
-             'a': 'B',
-             'why': 'The book numbers “Recommending a depreciation method” '
-                    'as section 10.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 10.4?',
-             'o': ['Recommending a depreciation method',
-                   'Disposal of fixed assets',
-                   'Depreciation methods and their effects',
-                   'The cost of property, plant and equipment'],
-             'a': 'B',
-             'why': 'The book numbers “Disposal of fixed assets” as section '
-                    '10.4.'}]),
+                    'equipment” as section 10.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Orontes spends 500 on developing a new frozen dessert. '
+                  'The project meets all six IAS 38 criteria. How does '
+                  'Orontes report the 500 under U.S. GAAP?',
+             'o': ['As an expense', 'As inventory', 'As an intangible asset'],
+             'a': 'A',
+             'why': 'U.S. GAAP expenses R&D as incurred (ASC 730); the IAS '
+                    '38 criteria do not apply. A is wrong: That is the IFRS '
+                    'treatment. B is wrong: Development work is not '
+                    'inventory.',
+             'src': 'P10-14'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -234,12 +212,16 @@ HANDOUT = {'id': '10.4',
              'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which English term does the exam use for “العمر '
+                  'الإنتاجي”?',
+             'o': ['amortization',
+                   'commercial substance',
+                   'useful life',
+                   'research and development (R&D)'],
+             'a': 'C',
+             'why': 'The glossary on this page pairs “العمر الإنتاجي” with '
+                    'useful life.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

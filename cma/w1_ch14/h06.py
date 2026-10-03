@@ -6,7 +6,10 @@ HANDOUT = {'id': '14.6',
  'pages': 6,
  'title': 'Short-term leases, sale and leaseback, and IFRS 16',
  'sub': 'section 14.6 of the book',
- 'covers': ['sec:14.6', 'term:short-term lease', 'term:sale and leaseback'],
+ 'covers': ['sec:14.6',
+            'p:P14-07',
+            'term:short-term lease',
+            'term:sale and leaseback'],
  'skills': [('read6', 3)],
  'derived': {},
  'flow': [('preview',
@@ -82,8 +85,7 @@ HANDOUT = {'id': '14.6',
                        15,
                        ', with depreciation and interest. It allows an '
                        'exemption for low-value assets and remeasures the '
-                       'liability when an index such as CPI changes. SC14-11 '
-                       'Orontes leases office laptops for three years.'],
+                       'liability when an index such as CPI changes.'],
              'bank': ['lease',
                       'finance lease',
                       'residual value guarantee',
@@ -95,8 +97,7 @@ HANDOUT = {'id': '14.6',
                     'lease is accounted for like a finance lease, with '
                     'depreciation and interest. It allows an exemption for '
                     'low-value assets and remeasures the liability when an '
-                    'index such as CPI changes. SC14-11 Orontes leases '
-                    'office laptops for three years.”'}],
+                    'index such as CPI changes.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -122,11 +123,11 @@ HANDOUT = {'id': '14.6',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP (ASC 842) of Lessee models '
-                  'as “Two: finance and operating”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Lessee models with “Two: finance and '
-                    'operating”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f6'),
           ('panel',
@@ -165,50 +166,6 @@ HANDOUT = {'id': '14.6',
              'a': 'D',
              'why': 'The book’s own table pairs Lessee models with “Two: '
                     'finance and operating”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Straight-line single '
-                  'cost (operating)”?',
-             'o': ['Short-term leases (12 months or less)',
-                   "Expense pattern for a 'plain' lease",
-                   'Low-value assets (e.g., laptops)',
-                   'Interest paid in the cash flow statement'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Expense pattern for a '
-                    "'plain' lease with “Straight-line single cost "
-                    '(operating)”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “No exemption '
-                  '(materiality only)”?',
-             'o': ["Expense pattern for a 'plain' lease",
-                   'Low-value assets (e.g., laptops)',
-                   'Lessee models',
-                   'Interest paid in the cash flow statement'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Low-value assets (e.g., '
-                    'laptops) with “No exemption (materiality only)”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Exemption by class '
-                  'of asset”?',
-             'o': ['Interest paid in the cash flow statement',
-                   'Short-term leases (12 months or less)',
-                   'Index or rate changes (e.g., CPI)',
-                   'Lessee models'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Short-term leases (12 months '
-                    'or less) with “Exemption by class of asset”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS 16 of Lessee models as “One: all '
-                  'leases like finance leases”.',
-             'a': 'T',
-             'why': 'The book pairs Lessee models with “One: all leases like '
-                    'finance leases”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS 16 of Expense pattern for a '
-                  "'plain' lease as “One: all leases like finance leases”.",
-             'a': 'F',
-             'why': "The book pairs Expense pattern for a 'plain' lease with "
-                    '“Depreciation plus interest: higher early”, not with '
-                    '“One: all leases like finance leases”.'},
             {'t': 'GRID',
              'q': 'Complete every empty cell. The first full row shows the '
                   'pattern.',
@@ -237,21 +194,15 @@ HANDOUT = {'id': '14.6',
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
            'there are gaps.',
-           [['SC14-12 Under IFRS 16, how does a ',
+           [['A ',
+             18,
+             ' lasts 12 months or less and has no purchase option that the ',
              11,
-             ' account for a plain building ',
-             11,
-             ' that would be an ',
-             17,
-             ' under U.S.']],
-           ['short-term lease',
-            'finance lease',
-            'operating lease',
-            'lease',
-            'lessee'],
-           'SC14-12 Under IFRS 16, how does a lessee account for a plain '
-           'building lease that would be an operating lease under U.S.',
-           'lessee · lease · operating lease'),
+             ' is reasonably certain to use.']],
+           ['lessee', 'finance lease', 'lease', 'short-term lease'],
+           'A short-term lease lasts 12 months or less and has no purchase '
+           'option that the lessee is reasonably certain to use.',
+           'short-term lease · lessee'),
           ('contrast',
            'Two of the book’s own cases, side by side',
            [('Lessee models',
@@ -269,11 +220,17 @@ HANDOUT = {'id': '14.6',
            '16 of Lessee models.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'A lessee pays $5,000 of initial direct costs and receives '
+                  'a $3,000 lease incentive. The lease liability is $80,000. '
+                  'What is the ROU asset?',
+             'o': ['$78,000', '$80,000', '$82,000', '$88,000'],
+             'a': 'C',
+             'why': 'Liability + initial direct costs − incentives. A is '
+                    'wrong: This subtracts the direct costs and adds the '
+                    'incentive. B is wrong: This ignores the costs and the '
+                    'incentive.',
+             'src': 'P14-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -330,26 +287,30 @@ HANDOUT = {'id': '14.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which details does the book give for L3 Storage room?',
-             'o': ['Present value of an annuity of $1 for 3 years at 8%: '
-                   '2.5771.',
-                   '3-year lease of office laptops; standard terms; no '
-                   'transfer or option.',
-                   '10-month lease; no purchase option. Barada applies the '
-                   'short-term exemption.'],
-             'a': 'C',
-             'why': 'The book’s own table gives 10-month lease; no purchase '
-                    'option. Barada applies the short-term exemption. as the '
-                    'details of L3 Storage room.'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each topic. '
+                  'Every one is used once.',
+             'left': ['Lessee models',
+                      "Expense pattern for a 'plain' lease",
+                      'Low-value assets (e.g., laptops)',
+                      'Short-term leases (12 months or less)',
+                      'Index or rate changes (e.g., CPI)',
+                      'Interest paid in the cash flow statement'],
+             'right': ['Two: finance and operating',
+                       'Exemption by class of asset',
+                       'Operating',
+                       'Straight-line single cost (operating)',
+                       'No remeasurement; expense as incurred',
+                       'No exemption (materiality only)'],
+             'a': ['A', 'D', 'F', 'B', 'E', 'C'],
+             'whys': ['', '', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

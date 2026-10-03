@@ -12,8 +12,16 @@ def f1(blank=False):
     return flowchain(blank=blank, **{'title': 'Orontes Foods Inc., year ended December 31, 2025 — 2025', 'steps': [('Net sales', '42,000,000'), ('Cost of goods sold', '(27,300,000)'), ('Gross profit', '14,700,000'), ('Operating expenses', ''), ('Selling, general and administrative', '(7,237,000)'), ('Credit loss expense', '(63,000)')]})
 
 
+def f1b(blank=False):
+    return lanes(blank=blank, **{'title': 'Item by category', 'groups': [('Operating expenses', ['Fire loss', 'Lawsuit settlement']), ('Other income and expense', ['Interest expense', 'Gain on sale of equipment']), ('Discontinued operations', ['Loss on sale of the division'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def f2(blank=False):
     return flowchain(blank=blank, **{'title': 'Barada Wholesale, year ended December 31, 2025 ( — 2025', 'steps': [('Sales revenue', '3,100'), ('Cost of goods sold', '(1,860)'), ('Gross profit', '1,240'), ('Wages expense', '(520)'), ('Depreciation expense', '(300)'), ('Operating income', '________')]})
+
+
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Operating income', '1,240 − 520 − 300 = 420'), ('Net income', '420 − 90 = 330, the same as in Chapter 1'), ('Gross profit percentage', '1,240 ÷ 3,100 = 40%')]})
 
 
 def f3(blank=False):
@@ -28,8 +36,16 @@ def f5(blank=False):
     return flowchain(blank=blank, **{'title': 'Item / memo (USD 000) — Amount / details', 'steps': [('Net sales', '3,400'), ('Cost of goods sold', '2,040'), ('Wages expense', '560'), ('Depreciation expense', '300'), ('Fire loss (uninsured inventory)', '70'), ('Lawsuit settlement', '50')]})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Fire loss', ''), ('Lawsuit settlement', ''), ('Interest expense', ''), ('Gain on sale of equipment', ''), ('Loss on sale of the division', '')]})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Orontes Foods Inc., year ended December 31, 2025 — 2025', 'steps': [('Net sales', '42,000,000'), ('Cost of goods sold', '(27,300,000)'), ('Gross profit', '14,700,000'), ('Operating expenses', ''), ('Selling, general and administrative', '(7,237,000)'), ('Credit loss expense', '(63,000)')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 3 at a glance', 'nodes': [('Purpose and structure of the income statement', 'section 3.1'), ('Building the multi-step income statement', 'section 3.2'), ('Unusual items and discontinued operations', 'section 3.3'), ('Comprehensive income', 'section 3.4'), ('Limitations and links to the other statements', 'section 3.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'frev': frev, 'chmap': chmap}

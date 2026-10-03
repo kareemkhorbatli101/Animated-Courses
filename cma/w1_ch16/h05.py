@@ -6,7 +6,10 @@ HANDOUT = {'id': '16.5',
  'pages': 5,
  'title': 'Eliminating intercompany balances and transactions',
  'sub': 'section 16.5 of the book',
- 'covers': ['sec:16.5', 'term:primary beneficiary', 'term:joint venture'],
+ 'covers': ['sec:16.5',
+            'p:P16-05',
+            'term:primary beneficiary',
+            'term:joint venture'],
  'skills': [('read5', 3)],
  'derived': {},
  'flow': [('preview',
@@ -19,8 +22,8 @@ HANDOUT = {'id': '16.5',
              'a figure to read · Suppose: NCI in Levant, 2027 (whole USD)',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Suppose: Levant items, 2027 (whole USD) · The English the exam '
-             'uses, and what it translates',
+             'a figure to read · Suppose: Levant items, 2027 (whole USD) · '
+             'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -63,8 +66,10 @@ HANDOUT = {'id': '16.5',
                        15,
                        ' the ',
                        12,
-                       ' earned it, so NCI bears its share. Downstream and '
-                       'upstream sales between Orontes and Levant.'],
+                       ' earned it, so NCI bears its share. When one group '
+                       'company sells equipment to another, the gain is '
+                       'eliminated and the asset returns to its original '
+                       'cost basis.'],
              'bank': ['unrealized profit',
                       'upstream sale',
                       'subsidiary',
@@ -76,42 +81,35 @@ HANDOUT = {'id': '16.5',
              'why': 'The book writes: “In a downstream sale the parent '
                     'earned the profit, so the whole elimination reduces the '
                     "parent's share. In an upstream sale the subsidiary "
-                    'earned it, so NCI bears its share. Downstream and '
-                    'upstream sales between Orontes and Levant.”'},
+                    'earned it, so NCI bears its share. When one group '
+                    'company sells equipment to another, the gain is '
+                    'eliminated and the asset returns to its original cost '
+                    'basis.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       19,
-                       ' on goods still held inside the group is also '
-                       'removed from inventory and income until the goods '
-                       'are sold to outsiders. In a ',
-                       17,
-                       ' the ',
+             'parts': ['Eliminate ',
+                       14,
+                       ' items in full, not only the ',
                        11,
-                       ' earned the profit, so the whole elimination reduces '
-                       "the parent's share. In an ",
+                       "'s share. Downstream profit reduces only the "
+                       "parent's share; upstream profit is shared with NCI. "
+                       'For an ',
                        15,
-                       ' the ',
-                       12,
-                       ' earned it, so NCI bears its share.'],
-             'bank': ['primary beneficiary',
-                      'Unrealized profit',
-                      'upstream sale',
-                      'subsidiary',
+                       " investee, remove only the investor's share of the "
+                       'profit.'],
+             'bank': ['unrealized profit',
                       'equity method',
-                      'downstream sale',
-                      'parent'],
-             'a': 'Unrealized profit · downstream sale · parent · upstream '
-                  'sale · subsidiary',
+                      'intercompany',
+                      'parent',
+                      'equity-method'],
+             'a': 'intercompany · parent · equity-method',
              'one': True,
-             'why': 'The book writes: “Unrealized profit on goods still held '
-                    'inside the group is also removed from inventory and '
-                    'income until the goods are sold to outsiders. In a '
-                    'downstream sale the parent earned the profit, so the '
-                    "whole elimination reduces the parent's share. In an "
-                    'upstream sale the subsidiary earned it, so NCI bears '
-                    'its share.”'}],
+             'why': 'The book writes: “Eliminate intercompany items in full, '
+                    "not only the parent's share. Downstream profit reduces "
+                    "only the parent's share; upstream profit is shared with "
+                    'NCI. For an equity-method investee, remove only the '
+                    "investor's share of the profit.”"}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -164,39 +162,24 @@ HANDOUT = {'id': '16.5',
            [{'t': 'MCQ',
              'q': 'Which amount does the book give for NCI at January 1, '
                   '2027 (fair value)?',
-             'o': ['1,900,000', '________', '(120,000)', '900,000'],
+             'o': ['1,900,000', '(120,000)', '________'],
              'a': 'A',
              'why': 'The book’s own table gives 1,900,000 as the amount of '
-                    'NCI at January 1, 2027 (fair value).'},
-            {'t': 'MCQ',
-             'q': "Which amount does the book give for Levant's 2027 net "
-                  'income?',
-             'o': ['________', '1,900,000', '900,000', '(120,000)'],
-             'a': 'C',
-             'why': 'The book’s own table gives 900,000 as the amount of '
-                    "Levant's 2027 net income."},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Less: depreciation on '
-                  'the PP&E step-up (1,200,000 ÷ 10 years)?',
-             'o': ['________', '1,900,000', '900,000', '(120,000)'],
-             'a': 'D',
-             'why': 'The book’s own table gives (120,000) as the amount of '
-                    'Less: depreciation on the PP&E step-up (1,200,000 ÷ 10 '
-                    'years).'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Less: upstream '
-                  'unrealized profit?',
-             'o': ['1,900,000', '900,000', '________', '(120,000)'],
-             'a': 'C',
-             'why': 'The book’s own table gives ________ as the amount of '
-                    'Less: upstream unrealized profit.'}]),
+                    'NCI at January 1, 2027 (fair value).'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which feature suggests that an entity is a VIE?',
+             'o': ['It has many shareholders',
+                   'Its equity at risk is too small to finance its '
+                   'activities without extra support',
+                   'It pays dividends',
+                   'Its shares are listed'],
+             'a': 'B',
+             'why': 'Insufficient equity at risk is a VIE characteristic. A '
+                    'is wrong: The number of owners is not a VIE test. C is '
+                    'wrong: Dividends are not a VIE test.',
+             'src': 'P16-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -221,6 +204,7 @@ HANDOUT = {'id': '16.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Suppose: Levant items, 2027 (whole USD) — the book’s own table',
            [['Suppose: Levant items, 2027 (whole USD)',
@@ -264,47 +248,75 @@ HANDOUT = {'id': '16.5',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which eliminate does the book give for Intercompany sales '
-                  'and cost of sales?',
-             'o': ['60,000 from inventory and profit',
-                   '25,000 from inventory and profit',
-                   'Remove 750,000 of sales and cost of sales',
-                   'Gain 30,000; extra depreciation 6,000 a year'],
-             'a': 'C',
-             'why': 'The book’s own table gives Remove 750,000 of sales and '
-                    'cost of sales as the eliminate of Intercompany sales '
-                    'and cost of sales.'},
-            {'t': 'MCQ',
-             'q': 'Which eliminate does the book give for Downstream '
-                  'unrealized profit (30% unsold)?',
-             'o': ["Orontes's dividend income 80,000",
-                   'Loan and interest of 60,000',
-                   '60,000 from inventory and profit',
-                   '25,000 from inventory and profit'],
-             'a': 'C',
-             'why': 'The book’s own table gives 60,000 from inventory and '
-                    'profit as the eliminate of Downstream unrealized profit '
-                    '(30% unsold).'},
-            {'t': 'MCQ',
-             'q': 'Which eliminate does the book give for Upstream '
-                  'unrealized profit (40% unsold)?',
-             'o': ["Orontes's dividend income 80,000",
-                   '25,000 from inventory and profit',
-                   'Loan and interest of 60,000',
-                   '60,000 from inventory and profit'],
-             'a': 'B',
-             'why': 'The book’s own table gives 25,000 from inventory and '
-                    'profit as the eliminate of Upstream unrealized profit '
-                    '(40% unsold).'}]),
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which amount does the book give for NCI at December 31, '
+                  '2027?',
+             'o': ['(120,000)', '1,900,000', '________'],
+             'a': 'C',
+             'why': 'The book’s own table gives ________ as the amount of '
+                    'NCI at December 31, 2027.'},
+            {'t': 'GRID',
+             'q': 'Complete every empty cell. The first full row shows the '
+                  'pattern.',
+             'h': ['Suppose: Levant items, 2027 (whole USD)',
+                   'Eliminate',
+                   'Result',
+                   'Who bears it'],
+             'rows': [['Intercompany sales and cost of sales',
+                       'Remove 750,000 of sales and cost of sales',
+                       'Revenue and expenses fall; no profit effect',
+                       '—'],
+                      ['Downstream unrealized profit (30% unsold)',
+                       '',
+                       '',
+                       ''],
+                      ['Upstream unrealized profit (40% unsold)', '', '', ''],
+                      ['Intercompany receivable and payable', '', '', ''],
+                      ['Truck sold for 90,000 (carrying 60,000)', '', '', ''],
+                      ['Loan of 1,000,000 at 6%', '', '', ''],
+                      ['Dividend of 100,000', '', '', '']],
+             'a': ['Downstream unrealized profit (30% unsold): 60,000 from '
+                   "inventory and profit · Inventory at the group's cost · "
+                   'Orontes',
+                   'Upstream unrealized profit (40% unsold): 25,000 from '
+                   "inventory and profit · Inventory at the group's cost · "
+                   'Orontes 20,000, NCI 5,000',
+                   'Intercompany receivable and payable: 120,000 from both · '
+                   'The group cannot owe itself · —',
+                   'Truck sold for 90,000 (carrying 60,000): Gain 30,000; '
+                   'extra depreciation 6,000 a year · Truck back to its '
+                   'original cost basis · Orontes',
+                   'Loan of 1,000,000 at 6%: Loan and interest of 60,000 · '
+                   'No debt or interest inside the group · —',
+                   "Dividend of 100,000: Orontes's dividend income 80,000 · "
+                   'NCI falls by 20,000 · NCI'],
+             'whys': ['', '', '', '', '', '']},
+            {'t': 'SORT',
+             'q': 'Write each one under the heading it belongs to. Every '
+                  'item belongs to exactly one group.',
+             'regions': ['NCI', 'Orontes', 'Orontes 20,000, NCI 5,000', '—'],
+             'items': ['Intercompany sales and cost of sales',
+                       'Downstream unrealized profit (30% unsold)',
+                       'Upstream unrealized profit (40% unsold)',
+                       'Intercompany receivable and payable',
+                       'Truck sold for 90,000 (carrying 60,000)',
+                       'Loan of 1,000,000 at 6%',
+                       'Dividend of 100,000'],
+             'a': ['NCI: Dividend of 100,000',
+                   'Orontes: Downstream unrealized profit (30% unsold), '
+                   'Truck sold for 90,000 (carrying 60,000)',
+                   'Orontes 20,000, NCI 5,000: Upstream unrealized profit '
+                   '(40% unsold)',
+                   '—: Intercompany sales and cost of sales, Intercompany '
+                   'receivable and payable, Loan of 1,000,000 at 6%'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

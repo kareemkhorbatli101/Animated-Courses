@@ -9,14 +9,9 @@ HANDOUT = {'id': '3.3',
  'covers': ['sec:3.3',
             'sc:SC3-3',
             'sc:SC3-4',
-            'p:P3-13',
-            'p:P3-14',
-            'p:P3-15',
-            'p:P3-16',
+            'p:P3-03',
             'sc:SC3-1',
             'sc:SC3-2',
-            'p:P3-17',
-            'p:P3-19',
             'sc:SC3-1',
             'sc:SC3-2',
             'term:operating income',
@@ -51,96 +46,68 @@ HANDOUT = {'id': '3.3',
                        ' is a ',
                        24,
                        ' that the company has sold, has classified as held '
-                       'for sale, or has abandoned. The disposal must also '
-                       'be a ',
-                       17,
-                       ' with a major effect on the company.'],
-             'bank': ['strategic shift',
-                      'function of expense',
+                       'for sale, or has abandoned.'],
+             'bank': ['other income and expense',
+                      'strategic shift',
                       'component of an entity',
                       'discontinued operation',
-                      'other income and expense',
                       'unusual or infrequent item'],
              'a': 'unusual or infrequent item · discontinued operation · '
-                  'component of an entity · strategic shift',
+                  'component of an entity',
              'one': True,
              'why': 'The book writes: “An unusual or infrequent item, such '
                     'as a large fire loss, is shown as a separate line '
                     'within continuing operations, before tax. A '
                     'discontinued operation is a component of an entity that '
                     'the company has sold, has classified as held for sale, '
-                    'or has abandoned. The disposal must also be a strategic '
-                    'shift with a major effect on the company.”'},
+                    'or has abandoned.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The results of a ',
-                       24,
-                       ', including any gain or loss on disposal, appear '
-                       'below ',
-                       35,
-                       ', net of their own tax. This is called ',
-                       28,
-                       '. Ask the questions in order: OCI first, then '
-                       'discontinued operations, then unusual items, and '
-                       'finally main activities or ',
-                       26,
-                       '. Decision chart: where does an item go in the ',
-                       18,
-                       '?.'],
-             'bank': ['income from continuing operations',
-                      'other income and expense',
-                      'discontinued operation',
-                      'intraperiod tax allocation',
-                      'income statement',
+             'parts': ['The disposal must also be a ',
+                       17,
+                       ' with a major effect on the company. Examples are '
+                       'leaving a major line of business or a major ',
+                       12,
+                       ' area. Closing one store or stopping one small '
+                       'product does not qualify.'],
+             'bank': ['geographic',
+                      'component of an entity',
                       'strategic shift',
-                      'component of an entity'],
-             'a': 'discontinued operation · income from continuing '
-                  'operations · intraperiod tax allocation · other income '
-                  'and expense · income statement',
+                      'other income and expense'],
+             'a': 'strategic shift · geographic',
              'one': True,
-             'why': 'The book writes: “The results of a discontinued '
-                    'operation, including any gain or loss on disposal, '
-                    'appear below income from continuing operations, net of '
-                    'their own tax. This is called intraperiod tax '
-                    'allocation. Ask the questions in order: OCI first, then '
-                    'discontinued operations, then unusual items, and '
-                    'finally main activities or other income and expense. '
-                    'Decision chart: where does an item go in the income '
-                    'statement?.”'},
+             'why': 'The book writes: “The disposal must also be a strategic '
+                    'shift with a major effect on the company. Examples are '
+                    'leaving a major line of business or a major geographic '
+                    'area. Closing one store or stopping one small product '
+                    'does not qualify.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The results of a ',
-                       24,
-                       ', including any gain or loss on disposal, appear '
-                       'below ',
-                       35,
-                       ', net of their own tax. This is called ',
-                       28,
-                       '. Ask the questions in order: OCI first, then '
-                       'discontinued operations, then unusual items, and '
-                       'finally main activities or ',
-                       26,
-                       '.'],
+             'parts': ["On today's exam, such an item is unusual or ",
+                       12,
+                       ': a separate pre-tax line in ',
+                       12,
+                       ' operations. Only ',
+                       14,
+                       ' operations are shown net of tax below continuing '
+                       'operations. IFRS 5 uses a similar idea: a separate '
+                       'major line of business or geographic area.'],
              'bank': ['component of an entity',
                       'other income and expense',
-                      'income from continuing operations',
-                      'discontinued operation',
-                      'intraperiod tax allocation',
-                      'strategic shift'],
-             'a': 'discontinued operation · income from continuing '
-                  'operations · intraperiod tax allocation · other income '
-                  'and expense',
+                      'continuing',
+                      'infrequent',
+                      'discontinued'],
+             'a': 'infrequent · continuing · discontinued',
              'one': True,
-             'why': 'The book writes: “The results of a discontinued '
-                    'operation, including any gain or loss on disposal, '
-                    'appear below income from continuing operations, net of '
-                    'their own tax. This is called intraperiod tax '
-                    'allocation. Ask the questions in order: OCI first, then '
-                    'discontinued operations, then unusual items, and '
-                    'finally main activities or other income and expense.”'}],
+             'why': "The book writes: “On today's exam, such an item is "
+                    'unusual or infrequent: a separate pre-tax line in '
+                    'continuing operations. Only discontinued operations are '
+                    'shown net of tax below continuing operations. IFRS 5 '
+                    'uses a similar idea: a separate major line of business '
+                    'or geographic area.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -203,19 +170,12 @@ HANDOUT = {'id': '3.3',
              'why': 'The book’s own table gives (420,000) as the before tax '
                     'of Loss from operations of the frozen-foods business.'},
             {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss on disposal '
+             'q': 'Which tax benefit does the book give for Loss on disposal '
                   'of the business?',
-             'o': ['(600,000)', '(420,000)', '(180,000)'],
-             'a': 'C',
-             'why': 'The book’s own table gives (180,000) as the before tax '
-                    'of Loss on disposal of the business.'},
-            {'t': 'MCQ',
-             'q': 'Which before tax does the book give for Loss from '
-                  'discontinued operations?',
-             'o': ['(180,000)', '(420,000)', '(600,000)'],
-             'a': 'C',
-             'why': 'The book’s own table gives (600,000) as the before tax '
-                    'of Loss from discontinued operations.'}]),
+             'o': ['45,000', '150,000', '105,000'],
+             'a': 'A',
+             'why': 'The book’s own table gives 45,000 as the tax benefit of '
+                    'Loss on disposal of the business.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -262,57 +222,16 @@ HANDOUT = {'id': '3.3',
                     'van is not inventory.',
              'src': 'SC3-4'},
             {'t': 'MCQ',
-             'q': 'A company reports net income of $500,000. Its OCI for the '
-                  'year is a gain of $40,000 after tax. AOCI was $100,000 at '
-                  'the start of the year. What is comprehensive income?',
-             'o': ['$500,000', '$540,000', '$600,000', '$640,000'],
-             'a': 'B',
-             'why': "Net income plus this year's OCI. A is wrong: This "
-                    'leaves out OCI. C is wrong: This adds the opening AOCI '
-                    "instead of this year's OCI.",
-             'src': 'P3-13'},
-            {'t': 'MCQ',
-             'q': 'Where may a U.S. company report OCI?',
-             'o': ['Only in the statement of changes in equity',
-                   'In one continuous statement of comprehensive income, or '
-                   'in a separate statement right after the income statement',
-                   'Only in the notes',
-                   'Inside operating income'],
-             'a': 'B',
-             'why': 'ASU 2011-05 requires one or two statements. A is wrong: '
-                    'Showing OCI only in equity is no longer allowed. C is '
-                    'wrong: OCI must be on the face of a statement.',
-             'src': 'P3-14'},
-            {'t': 'MCQ',
-             'q': 'A company sells an AFS debt security and realizes a gain '
-                  'that had been in AOCI. What is the purpose of the '
-                  'reclassification adjustment?',
-             'o': ['To move the gain from net income to OCI',
-                   'To defer the gain to next year',
-                   'To remove the gain from retained earnings',
-                   'To avoid counting the same gain twice in comprehensive '
-                   'income'],
-             'a': 'D',
-             'why': 'The gain moves from AOCI into net income; without the '
-                    'adjustment, comprehensive income would include it '
-                    'twice. A is wrong: The gain moves the other way: from '
-                    'OCI to net income. B is wrong: A realized gain is not '
-                    'deferred.',
-             'src': 'P3-15'},
-            {'t': 'MCQ',
-             'q': "Orontes's land has risen in value by $1 million this "
-                  'year. How does this affect the 2025 income statement?',
-             'o': ['It is a gain in other income',
-                   'It is OCI',
-                   'It has no effect, because the gain is not realized or '
-                   'recognized',
-                   'It increases revenue'],
+             'q': 'The heading of an income statement should read:',
+             'o': ['As of December 31, 2025',
+                   'At December 31, 2025',
+                   'For the year ended December 31, 2025',
+                   'On December 31, 2025'],
              'a': 'C',
-             'why': 'Unrecognized increases in value are one limitation of '
-                    'the income statement. A is wrong: U.S. GAAP does not '
-                    'recognize this increase. B is wrong: Revaluation '
-                    'surplus in OCI is an IFRS option only.',
-             'src': 'P3-16'}]),
+             'why': "The income statement covers a period. A is wrong: 'As "
+                    "of' is used for the balance sheet. B is wrong: 'At' a "
+                    'date is a balance sheet heading.',
+             'src': 'P3-03'}]),
           ('panel',
            'Orontes Foods Inc., year ended December 31, 2025 — the extract '
            'for the question that follows',
@@ -417,33 +336,69 @@ HANDOUT = {'id': '3.3',
                     'wrong: Tax is deducted once in both layouts.',
              'src': 'SC3-2'},
             {'t': 'MCQ',
-             'q': 'Near the year-end, a manager delays advertising until '
-                  'January to meet a profit target. This illustrates which '
-                  'limitation?',
-             'o': ['Net income can be influenced by the timing of '
-                   'discretionary costs',
-                   'The income statement omits unrealized value changes',
-                   'Net income is measured at fair value',
-                   'The income statement shows cash flows'],
-             'a': 'A',
-             'why': 'Earnings management through timing is a known '
-                    'limitation. B is wrong: No unrealized value change is '
-                    'involved. C is wrong: Net income is not a fair value '
-                    'measure.',
-             'src': 'P3-17'},
+             'q': "Which statement reports a company's performance over a "
+                  'period of time?',
+             'o': ['The balance sheet',
+                   'The income statement',
+                   'The notes on accounting policies',
+                   'The statement of financial position'],
+             'a': 'B',
+             'why': 'The income statement covers a period; the balance sheet '
+                    'is at one date. A is wrong: The balance sheet shows one '
+                    'date, not a period. C is wrong: The notes explain the '
+                    'statements; they do not report performance.',
+             'src': 'SC3-1'},
             {'t': 'MCQ',
-             'q': 'Which amount starts the operating section of a U.S. '
-                  'statement of cash flows under the indirect method?',
-             'o': ['Operating income',
-                   'Comprehensive income',
-                   'Gross profit',
-                   'Net income'],
-             'a': 'D',
-             'why': 'The indirect method reconciles net income to operating '
-                    'cash flow. A is wrong: Starting from operating profit '
-                    'is the IFRS 18 approach, not yet testable. B is wrong: '
-                    'OCI is not part of the reconciliation.',
-             'src': 'P3-19'}]),
+             'q': "A company's warehouse is destroyed by an earthquake, "
+                  'which is rare in its area. Under current U.S. GAAP the '
+                  'loss is shown:',
+             'o': ['as a separate line in continuing operations, before tax',
+                   'as an extraordinary item, net of tax',
+                   'in discontinued operations',
+                   'in OCI'],
+             'a': 'A',
+             'why': 'Extraordinary items were removed in 2015; unusual or '
+                    'infrequent items stay in continuing operations. B is '
+                    'wrong: Extraordinary items no longer exist. C is wrong: '
+                    'No component was sold or abandoned.',
+             'src': 'SC3-5'},
+            {'t': 'MCQ',
+             'q': 'Which disposal is MOST likely to be a discontinued '
+                  'operation?',
+             'o': ['A retailer closes one of its 200 stores',
+                   'A food company sells its whole beverages division, one '
+                   'of its three main lines of business',
+                   'A factory sells an old production machine',
+                   'A company stops selling one small product in a large '
+                   'range'],
+             'a': 'B',
+             'why': 'Leaving a major line of business is a strategic shift '
+                    'with a major effect. A is wrong: One store out of many '
+                    'is not a strategic shift. C is wrong: Selling one asset '
+                    'gives a gain or loss, not a discontinued operation.',
+             'src': 'SC3-6'},
+            {'t': 'MCQ',
+             'q': "Use Section 3.4. What is Orontes's comprehensive income "
+                  'for 2025 (whole USD)?',
+             'o': ['2,967,600', '2,967,975', '2,969,100', '2,971,975'],
+             'a': 'B',
+             'why': 'Net income of $2,969,100 minus the OCI loss of $1,125, '
+                    'net of tax. A is wrong: This uses the OCI loss before '
+                    'tax. C is wrong: This is net income only; OCI is '
+                    'missing.',
+             'src': 'SC3-7'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What is '
+                  "Orontes's operating income for 2025 (whole USD)?",
+             'o': ['3,786,000', '4,176,000', '6,900,000', '14,700,000'],
+             'a': 'B',
+             'why': 'Gross profit of $14,700,000 minus operating expenses of '
+                    '$10,524,000. A is wrong: This also deducts interest '
+                    'expense, which is below operating income. C is wrong: '
+                    'This leaves out the impairment losses, which are '
+                    'operating expenses.',
+             'src': 'SC3-3'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

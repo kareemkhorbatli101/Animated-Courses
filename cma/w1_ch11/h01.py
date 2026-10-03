@@ -7,16 +7,16 @@ HANDOUT = {'id': '11.1',
  'title': 'Revenue and the core principle',
  'sub': 'section 11.1 of the book',
  'covers': ['sec:11.1',
-            'sc:SC11-3',
             'sc:SC11-4',
             'p:P11-01',
-            'p:P11-02',
-            'p:P11-03',
-            'p:P11-04',
+            'sc:SC11-3',
+            'p:P11-07',
+            'p:P11-11',
+            'p:P11-15',
             'sc:SC11-1',
             'sc:SC11-2',
-            'p:P11-05',
-            'p:P11-06',
+            'p:P11-19',
+            'p:P11-21',
             'sc:SC11-1',
             'sc:SC11-2',
             'term:revenue',
@@ -35,36 +35,14 @@ HANDOUT = {'id': '11.1',
              'a figure to read · Item · Step',
              'Under ASC 606, when does a company recognize revenue?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Revenue is the inflow from a ',
-                       11,
-                       ' main ',
-                       12,
-                       ', such as selling goods or ',
-                       11,
-                       ' services. It measures revenue at the amount it '
-                       'expects to be entitled to in exchange.'],
-             'bank': ['standalone selling price',
-                      'activities',
-                      'providing',
-                      "company's",
-                      'matching principle'],
-             'a': "company's · activities · providing",
-             'one': True,
-             'why': 'The book writes: “Revenue is the inflow from a '
-                    "company's main activities, such as selling goods or "
-                    'providing services. It measures revenue at the amount '
-                    'it expects to be entitled to in exchange.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
              'parts': ['Control means the ',
                        11,
                        ' can direct the use of the asset and obtain almost '
@@ -86,25 +64,51 @@ HANDOUT = {'id': '11.1',
                     'benefits. The key question is therefore not when the '
                     'company is paid, but when the customer gains control.”'},
             {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The key question is ',
+                       11,
+                       ' not when the company is paid, but when the customer '
+                       'gains control. Cash can arrive before, at or after '
+                       'that moment. ASC 606 applies one model to all ',
+                       11,
+                       ' with customers: goods, services, ',
+                       14,
+                       ' and software.'],
+             'bank': ['standalone selling price',
+                      'contracts',
+                      'construction',
+                      'therefore',
+                      'matching principle'],
+             'a': 'therefore · contracts · construction',
+             'one': True,
+             'why': 'The book writes: “The key question is therefore not '
+                    'when the company is paid, but when the customer gains '
+                    'control. Cash can arrive before, at or after that '
+                    'moment. ASC 606 applies one model to all contracts with '
+                    'customers: goods, services, construction and '
+                    'software.”'},
+            {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Cash can ',
+             'parts': ['Progress ',
                        11,
-                       ' before, at or after that moment. Each step ',
-                       11,
-                       ' one ',
-                       11,
-                       ', and each uses the answer to the step before.'],
-             'bank': ['matching principle',
-                      'answers',
-                      'arrive',
-                      'standalone selling price',
-                      'question'],
-             'a': 'arrive · answers · question',
+                       ' is measured by an ',
+                       15,
+                       ', such as units delivered, or an ',
+                       14,
+                       ', such as costs incurred.'],
+             'bank': ['input method',
+                      'refund liability',
+                      'point in time',
+                      'output method',
+                      'over time'],
+             'a': 'over time · output method · input method',
              'one': True,
-             'why': 'The book writes: “Cash can arrive before, at or after '
-                    'that moment. Each step answers one question, and each '
-                    'uses the answer to the step before.”'}],
+             'why': 'The book writes: “Progress over time is measured by an '
+                    'output method, such as units delivered, or an input '
+                    'method, such as costs incurred.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -158,43 +162,22 @@ HANDOUT = {'id': '11.1',
                    'Steps 3 and 4: the transaction price and its allocation'],
              'a': 'C',
              'why': 'The book numbers “Revenue and the core principle” as '
-                    'section 11.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.2?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Matching, contract costs and IFRS differences',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations'],
-             'a': 'D',
-             'why': 'The book numbers “Steps 1 and 2: the contract and its '
-                    'performance obligations” as section 11.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.3?',
-             'o': ['Step 5: recognizing revenue over time or at a point in '
-                   'time',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences',
-                   'Steps 3 and 4: the transaction price and its allocation'],
-             'a': 'D',
-             'why': 'The book numbers “Steps 3 and 4: the transaction price '
-                    'and its allocation” as section 11.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 11.4?',
-             'o': ['Steps 3 and 4: the transaction price and its allocation',
-                   'Steps 1 and 2: the contract and its performance '
-                   'obligations',
-                   'Matching, contract costs and IFRS differences',
-                   'Step 5: recognizing revenue over time or at a point in '
-                   'time'],
-             'a': 'D',
-             'why': 'The book numbers “Step 5: recognizing revenue over time '
-                    'or at a point in time” as section 11.4.'}]),
+                    'section 11.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
+             'q': 'Which transaction produces revenue for Orontes?',
+             'o': ['Receiving a bank loan',
+                   'Selling an old delivery van',
+                   'Delivering olive oil to a supermarket that has ordered '
+                   'it',
+                   'Issuing new shares'],
+             'a': 'C',
+             'why': 'Revenue comes from main activities with customers. A is '
+                    'wrong: A loan is a liability. B is wrong: Selling '
+                    'equipment gives a gain or loss, not revenue.',
+             'src': 'P11-01'},
+            {'t': 'MCQ',
              'q': 'A U.S. company believes it is 55% likely to collect the '
                   'consideration in a new contract. Under ASC 606, the '
                   'contract:',
@@ -210,43 +193,44 @@ HANDOUT = {'id': '11.1',
                     'B is wrong: Collectibility is a separate criterion.',
              'src': 'SC11-3'},
             {'t': 'MCQ',
-             'q': 'Which transaction produces revenue for Orontes?',
-             'o': ['Receiving a bank loan',
-                   'Selling an old delivery van',
-                   'Delivering olive oil to a supermarket that has ordered '
-                   'it',
-                   'Issuing new shares'],
-             'a': 'C',
-             'why': 'Revenue comes from main activities with customers. A is '
-                    'wrong: A loan is a liability. B is wrong: Selling '
-                    'equipment gives a gain or loss, not revenue.',
-             'src': 'P11-01'},
+             'q': 'Customers earn loyalty points worth a discount on future '
+                  'purchases that they would not otherwise get. The points '
+                  'are:',
+             'o': ['a separate performance obligation (a material right)',
+                   'a marketing expense',
+                   'ignored until redeemed',
+                   'a reduction of cost of goods sold'],
+             'a': 'A',
+             'why': 'A material right is part of what the customer pays for. '
+                    'B is wrong: Part of the price must be allocated to the '
+                    'points. C is wrong: The points are a promise made at '
+                    'the sale.',
+             'src': 'P11-07'},
             {'t': 'MCQ',
-             'q': 'A customer pays Orontes in December for goods that '
-                  'Orontes will deliver in January. In which year is revenue '
-                  'recognized?',
-             'o': ['In December, when cash is received',
-                   'Half in each year',
-                   'When the customer pays the invoice',
-                   'In January, when control of the goods passes'],
-             'a': 'D',
-             'why': 'Revenue follows the transfer of control. A is wrong: '
-                    'Cash received early creates a contract liability. B is '
-                    'wrong: The goods are transferred at one point in time.',
-             'src': 'P11-02'},
-            {'t': 'MCQ',
-             'q': 'Which indicator suggests that a company is a principal '
-                  'rather than an agent?',
-             'o': ['It receives a fixed commission per sale',
-                   'It bears the inventory risk before the goods are '
-                   'transferred',
-                   'The supplier sets the selling price',
-                   'The supplier is responsible for fulfilling the order'],
+             'q': 'A U.S. retailer collects 5% sales tax from customers for '
+                  'the state. Under its policy election, the tax is:',
+             'o': ['included in revenue',
+                   'excluded from revenue and recorded as a liability',
+                   'recorded as an expense when paid',
+                   'recorded in OCI'],
              'a': 'B',
-             'why': 'Inventory risk shows control before transfer. A is '
-                    'wrong: A fixed commission suggests an agent. C is '
-                    'wrong: No pricing discretion suggests an agent.',
-             'src': 'P11-03'}]),
+             'why': 'Amounts collected for third parties are not revenue. A '
+                    'is wrong: The tax belongs to the state. C is wrong: It '
+                    "is not the retailer's cost.",
+             'src': 'P11-11'},
+            {'t': 'MCQ',
+             'q': 'Which is an input method for measuring progress on a '
+                  'contract?',
+             'o': ['Units delivered',
+                   'Milestones reached',
+                   'Costs incurred to date compared with total expected '
+                   'costs',
+                   'Surveys of work performed'],
+             'a': 'C',
+             'why': "Input methods measure the company's efforts. A is "
+                    'wrong: Units delivered is an output method. B is wrong: '
+                    'Milestones are an output method.',
+             'src': 'P11-15'}]),
           ('panel',
            'Step — the extract for the question that follows',
            [['Step', "Orontes's analysis", 'Result (whole USD)'],
@@ -287,28 +271,6 @@ HANDOUT = {'id': '11.1',
                     'wrong: Payment timing does not define obligations. B is '
                     'wrong: Invoices do not define obligations.',
              'src': 'SC11-4'}]),
-          ('panel',
-           'Suppose: Barada sells 1,000 units at $20 (cost $ — the extract '
-           'for the question that follows',
-           [['Suppose: Barada sells 1,000 units at $20 (cost $', 'Whole USD'],
-            ['Sales price of all units', '20,000'],
-            ['Units expected to be returned', '50'],
-            ['Revenue recognized', '________'],
-            ['Refund liability', '________'],
-            ['Asset: right to recover returned products', '________'],
-            ['Cost of goods sold', '________']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. How '
-                  'much revenue does Barada recognize on the sale (whole '
-                  'USD)?',
-             'o': ['1,000', '7,600', '19,000', '20,000'],
-             'a': 'C',
-             'why': 'Only for goods not expected to be returned. A is wrong: '
-                    'This is the refund liability. B is wrong: This is gross '
-                    'profit, not revenue.',
-             'src': 'P11-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -337,6 +299,7 @@ HANDOUT = {'id': '11.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -414,32 +377,29 @@ HANDOUT = {'id': '11.1',
                     'recognition.',
              'src': 'SC11-2'},
             {'t': 'MCQ',
-             'q': 'In a bill-and-hold arrangement, which condition is NOT '
-                  'required before the seller recognizes revenue?',
-             'o': ["The goods are identified separately as the customer's",
-                   'The goods are ready for physical transfer',
-                   'The seller cannot use the goods or direct them to '
-                   'another customer',
-                   'The customer has paid in full'],
-             'a': 'D',
-             'why': 'Payment is not one of the bill-and-hold criteria. A is '
-                    'wrong: This is one of the criteria. B is wrong: This is '
-                    'one of the criteria.',
-             'src': 'P11-05'},
-            {'t': 'MCQ',
-             'q': 'Orontes sells a dispenser and agrees to buy it back in '
-                  'one year at a higher price. The arrangement is accounted '
-                  'for as:',
-             'o': ['a sale with revenue now',
-                   'a financing arrangement, not a sale',
-                   'a sale with a right of return',
-                   'a consignment'],
+             'q': 'Which practice follows the matching principle?',
+             'o': ['Expensing inventory when it is purchased',
+                   'Recognizing cost of goods sold in the period the related '
+                   'sale is recognized',
+                   'Recognizing revenue when cash is received',
+                   'Capitalizing all advertising costs'],
              'a': 'B',
-             'why': 'A repurchase at or above the original price means '
-                    'control has not passed. A is wrong: Control does not '
-                    'transfer when the seller must buy back. C is wrong: The '
-                    "seller has an obligation, not the customer's option.",
-             'src': 'P11-06'}]),
+             'why': 'Costs are recognized with the revenues they help to '
+                    'earn. A is wrong: Inventory is expensed when it is '
+                    'sold. C is wrong: Revenue follows control, not cash.',
+             'src': 'P11-19'},
+            {'t': 'MCQ',
+             'q': 'Which cost to fulfill a contract may be capitalized?',
+             'o': ['General administrative costs',
+                   'Costs of wasted materials',
+                   'Set-up costs that relate directly to the contract and '
+                   'create a resource used later in it',
+                   'Costs of work already performed'],
+             'a': 'C',
+             'why': 'Fulfillment costs are capitalized only if all criteria '
+                    'are met. A is wrong: General costs are expensed. B is '
+                    'wrong: Waste is expensed.',
+             'src': 'P11-21'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

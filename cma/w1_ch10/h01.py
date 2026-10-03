@@ -3,17 +3,17 @@
 
 HANDOUT = {'id': '10.1',
  'n': 1,
- 'pages': 5,
+ 'pages': 6,
  'title': 'The cost of property, plant and equipment',
  'sub': 'section 10.1 of the book',
  'covers': ['sec:10.1',
-            'sc:SC10-3',
             'sc:SC10-4',
             'p:P10-01',
+            'sc:SC10-3',
             'p:P10-02',
             'p:P10-03',
             'p:P10-04',
-            'sc:SC10-1',
+            'sc:SC10-2',
             'sc:SC10-2',
             'p:P10-05',
             'p:P10-06',
@@ -34,7 +34,8 @@ HANDOUT = {'id': '10.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The cost of property, plant and equipment',
              'a figure to read · Asset',
-             'Which cost is added to the cost of a new machine?'],
+             'Use the capitalized interest example in Section 10.1. How much '
+             'interest does Orontes capitalize (USD 000)?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -43,74 +44,78 @@ HANDOUT = {'id': '10.1',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['After purchase, a ',
-                       21,
-                       " that extends the asset's life or increases its "
-                       'capacity is added to its cost. A ',
-                       21,
-                       ', such as ordinary repairs and maintenance, is an '
-                       'expense of the period.'],
-             'bank': ['goodwill',
-                      'revenue expenditure',
-                      'amortization',
-                      'capital expenditure'],
-             'a': 'capital expenditure · revenue expenditure',
+             'parts': ['When a company buys land with an old ',
+                       11,
+                       ' and pulls the building down, the ',
+                       12,
+                       ' cost is part of the cost of the land. When it buys '
+                       'several assets for one price, it divides the price '
+                       'by their ',
+                       11,
+                       ' fair values.'],
+             'bank': ['amortization',
+                      'goodwill',
+                      'relative',
+                      'demolition',
+                      'building'],
+             'a': 'building · demolition · relative',
              'one': True,
-             'why': 'The book writes: “After purchase, a capital expenditure '
-                    "that extends the asset's life or increases its capacity "
-                    'is added to its cost. A revenue expenditure, such as '
-                    'ordinary repairs and maintenance, is an expense of the '
-                    'period.”'},
+             'why': 'The book writes: “When a company buys land with an old '
+                    'building and pulls the building down, the demolition '
+                    'cost is part of the cost of the land. When it buys '
+                    'several assets for one price, it divides the price by '
+                    'their relative fair values.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['After purchase, a ',
-                       21,
-                       " that extends the asset's life or increases its "
-                       'capacity is added to its cost. A ',
-                       21,
-                       ', such as ordinary repairs and maintenance, is an '
-                       'expense of the period. When a company builds an '
-                       'asset for its own use, it capitalizes interest '
-                       'during construction.'],
-             'bank': ['amortization',
-                      'revenue expenditure',
-                      'goodwill',
-                      'capital expenditure'],
-             'a': 'capital expenditure · revenue expenditure',
+             'parts': ['When a company builds an asset for its own use, it '
+                       'capitalizes interest during ',
+                       14,
+                       '. ',
+                       22,
+                       ' is the avoidable interest: ',
+                       18,
+                       ' accumulated expenditures × the interest rate, but '
+                       'never more than the interest actually incurred.'],
+             'bank': ['goodwill',
+                      'Capitalized interest',
+                      'amortization',
+                      'weighted-average',
+                      'construction'],
+             'a': 'construction · Capitalized interest · weighted-average',
              'one': True,
-             'why': 'The book writes: “After purchase, a capital expenditure '
-                    "that extends the asset's life or increases its capacity "
-                    'is added to its cost. A revenue expenditure, such as '
-                    'ordinary repairs and maintenance, is an expense of the '
-                    'period. When a company builds an asset for its own use, '
-                    'it capitalizes interest during construction.”'},
+             'why': 'The book writes: “When a company builds an asset for '
+                    'its own use, it capitalizes interest during '
+                    'construction. Capitalized interest is the avoidable '
+                    'interest: weighted-average accumulated expenditures × '
+                    'the interest rate, but never more than the interest '
+                    'actually incurred.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['When it buys several assets for one price, it '
-                       'divides the price by their relative fair values. '
-                       'After purchase, a ',
-                       21,
-                       " that extends the asset's life or increases its "
-                       'capacity is added to its cost. A ',
-                       21,
-                       ', such as ordinary repairs and maintenance, is an '
-                       'expense of the period.'],
-             'bank': ['revenue expenditure',
-                      'amortization',
-                      'capital expenditure',
-                      'goodwill'],
-             'a': 'capital expenditure · revenue expenditure',
+             'parts': ['IAS 23 also ',
+                       13,
+                       ' borrowing costs on ',
+                       12,
+                       ' assets. One difference: when a company invests '
+                       'borrowed money for a short time before spending it, '
+                       'IAS 23 deducts the investment income from the '
+                       'amount ',
+                       13,
+                       '.'],
+             'bank': ['qualifying',
+                      'goodwill',
+                      'capitalizes',
+                      'capitalized',
+                      'amortization'],
+             'a': 'capitalizes · qualifying · capitalized',
              'one': True,
-             'why': 'The book writes: “When it buys several assets for one '
-                    'price, it divides the price by their relative fair '
-                    'values. After purchase, a capital expenditure that '
-                    "extends the asset's life or increases its capacity is "
-                    'added to its cost. A revenue expenditure, such as '
-                    'ordinary repairs and maintenance, is an expense of the '
-                    'period.”'}],
+             'why': 'The book writes: “IAS 23 also capitalizes borrowing '
+                    'costs on qualifying assets. One difference: when a '
+                    'company invests borrowed money for a short time before '
+                    'spending it, IAS 23 deducts the investment income from '
+                    'the amount capitalized.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -137,11 +142,11 @@ HANDOUT = {'id': '10.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of P as “Two steps: '
-                  'recoverability, then fair value”.',
+             'q': 'The book gives the category of V as “Lower of carrying '
+                  'amount and fair value less cost to sell”.',
              'a': 'T',
-             'why': 'The book pairs P with “Two steps: recoverability, then '
-                    'fair value”.'}]),
+             'why': 'The book pairs V with “Lower of carrying amount and '
+                    'fair value less cost to sell”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
           ('panel',
@@ -167,61 +172,10 @@ HANDOUT = {'id': '10.1',
                    'One step: carrying amount vs fair value'],
              'a': 'C',
              'why': 'The book’s own table gives Two steps: recoverability, '
-                    'then fair value as the category of P.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for W?',
-             'o': ['One step: carrying amount vs fair value',
-                   'Single-step goodwill test',
-                   'Lower of carrying amount and fair value less cost to '
-                   'sell',
-                   'Two steps: recoverability, then fair value'],
-             'a': 'D',
-             'why': 'The book’s own table gives Two steps: recoverability, '
-                    'then fair value as the category of W.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for B?',
-             'o': ['One step: carrying amount vs fair value',
-                   'Two steps: recoverability, then fair value',
-                   'Single-step goodwill test',
-                   'Lower of carrying amount and fair value less cost to '
-                   'sell'],
-             'a': 'A',
-             'why': 'The book’s own table gives One step: carrying amount vs '
-                    'fair value as the category of B.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for G?',
-             'o': ['Single-step goodwill test',
-                   'Lower of carrying amount and fair value less cost to '
-                   'sell',
-                   'One step: carrying amount vs fair value',
-                   'Two steps: recoverability, then fair value'],
-             'a': 'A',
-             'why': 'The book’s own table gives Single-step goodwill test as '
-                    'the category of G.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of P as “Two steps: '
-                  'recoverability, then fair value”.',
-             'a': 'T',
-             'why': 'The book pairs P with “Two steps: recoverability, then '
-                    'fair value”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of W as “Single-step goodwill '
-                  'test”.',
-             'a': 'F',
-             'why': 'The book pairs W with “Two steps: recoverability, then '
-                    'fair value”, not with “Single-step goodwill test”.'}]),
+                    'then fair value as the category of P.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Use the bottling line. What is double-declining '
-                  'depreciation in year 2 (whole USD)?',
-             'o': ['210,000', '280,000', '288,000', '480,000'],
-             'a': 'C',
-             'why': '40% × beginning book value of $720,000. A is wrong: '
-                    'This is straight-line. B is wrong: This is the '
-                    "sum-of-the-years'-digits amount.",
-             'src': 'SC10-3'},
-            {'t': 'MCQ',
              'q': 'After two years, Orontes revises the useful life and '
                   'salvage value of an asset. How does it account for the '
                   'change?',
@@ -249,6 +203,15 @@ HANDOUT = {'id': '10.1',
                     'land ready for use.',
              'src': 'P10-01'},
             {'t': 'MCQ',
+             'q': 'Use the bottling line. What is double-declining '
+                  'depreciation in year 2 (whole USD)?',
+             'o': ['210,000', '280,000', '288,000', '480,000'],
+             'a': 'C',
+             'why': '40% × beginning book value of $720,000. A is wrong: '
+                    'This is straight-line. B is wrong: This is the '
+                    "sum-of-the-years'-digits amount.",
+             'src': 'SC10-3'},
+            {'t': 'MCQ',
              'q': "Use the bottling line. What is sum-of-the-years'-digits "
                   'depreciation in year 1 (whole USD)?',
              'o': ['70,000', '350,000', '400,000', '480,000'],
@@ -257,15 +220,6 @@ HANDOUT = {'id': '10.1',
                     'elapsed-year fraction (1/15). C is wrong: This applies '
                     'the fraction to cost instead of the depreciable base.',
              'src': 'P10-02'},
-            {'t': 'MCQ',
-             'q': 'Use the bottling line. What is double-declining '
-                  'depreciation in year 1 (whole USD)?',
-             'o': ['210,000', '350,000', '420,000', '480,000'],
-             'a': 'D',
-             'why': 'The rate is applied to cost; salvage is not subtracted '
-                    'first. A is wrong: This is straight-line. B is wrong: '
-                    "This is sum-of-the-years'-digits.",
-             'src': 'P10-03'},
             {'t': 'MCQ',
              'q': 'Compared with straight-line, an accelerated method in the '
                   "FIRST year of an asset's life gives:",
@@ -285,18 +239,16 @@ HANDOUT = {'id': '10.1',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which cost is added to the cost of a new machine?',
-           ['Repairs after the first year of use',
-            'Training staff to use the machine',
-            'Insurance during normal operations',
-            'Installation and testing before use'],
-           'D',
+           'Use the capitalized interest example in Section 10.1. How much '
+           'interest does Orontes capitalize (USD 000)?',
+           ['0', '120', '150', '2,000'],
+           'B',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'Installation and testing are needed to get the machine ready for '
-           'use. A is wrong: Ordinary repairs after use begins are expenses. '
-           'B is wrong: Training is an operating cost, not part of the '
-           'asset.'),
+           'Avoidable interest, which is below the actual interest incurred. '
+           'A is wrong: Interest on a self-built asset must be capitalized. '
+           'C is wrong: Actual interest is only the ceiling; the amount '
+           'capitalized is the avoidable interest.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -337,17 +289,6 @@ HANDOUT = {'id': '10.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Use the capitalized interest example in Section 10.1. How '
-                  'much interest does Orontes capitalize (USD 000)?',
-             'o': ['0', '120', '150', '2,000'],
-             'a': 'B',
-             'why': 'Avoidable interest, which is below the actual interest '
-                    'incurred. A is wrong: Interest on a self-built asset '
-                    'must be capitalized. C is wrong: Actual interest is '
-                    'only the ceiling; the amount capitalized is the '
-                    'avoidable interest.',
-             'src': 'SC10-2'},
-            {'t': 'MCQ',
              'q': 'Use the change-in-estimate example. What is the new '
                   'annual straight-line depreciation (whole USD)?',
              'o': ['172,500', '185,000', '210,000', '780,000'],
@@ -370,7 +311,68 @@ HANDOUT = {'id': '10.1',
                     'depreciation does not track individual carrying '
                     'amounts. B is wrong: The pool continues with the same '
                     'rate.',
-             'src': 'P10-06'}]),
+             'src': 'P10-06'},
+            {'t': 'MCQ',
+             'q': 'Use the Jordan plant example. What impairment loss does '
+                  'Orontes record (USD 000)?',
+             'o': ['0', '800', '1,900', '7,100'],
+             'a': 'C',
+             'why': 'Recoverability fails, so the loss is carrying amount '
+                    'minus fair value. A is wrong: Undiscounted cash flows '
+                    'are below carrying amount, so there is a loss. B is '
+                    'wrong: This measures the loss against undiscounted cash '
+                    'flows.',
+             'src': 'SC10-9'},
+            {'t': 'MCQ',
+             'q': "The bottling line's wear depends on machine hours, and "
+                  'its hours fall each year. Which method gives the BEST '
+                  'matching of expense with use?',
+             'o': ['Straight-line',
+                   "Sum-of-the-years'-digits",
+                   'Units of production',
+                   'Double-declining balance'],
+             'a': 'C',
+             'why': 'Expense then follows the actual machine hours. A is '
+                    'wrong: Straight-line ignores the falling hours. B is '
+                    'wrong: SYD is time-based, not use-based.',
+             'src': 'P10-07'},
+            {'t': 'MCQ',
+             'q': 'An asset group has a carrying amount of 900, undiscounted '
+                  'future cash flows of 950 and a fair value of 800. What '
+                  'impairment loss is recorded?',
+             'o': ['0', '50', '100', '150'],
+             'a': 'A',
+             'why': 'Undiscounted cash flows exceed the carrying amount, so '
+                    'the asset is recoverable. B is wrong: This compares '
+                    'cash flows with fair value. C is wrong: This skips the '
+                    'recoverability step.',
+             'src': 'P10-10'},
+            {'t': 'MCQ',
+             'q': 'Which cost is added to the cost of a new machine?',
+             'o': ['Repairs after the first year of use',
+                   'Training staff to use the machine',
+                   'Insurance during normal operations',
+                   'Installation and testing before use'],
+             'a': 'D',
+             'why': 'Installation and testing are needed to get the machine '
+                    'ready for use. A is wrong: Ordinary repairs after use '
+                    'begins are expenses. B is wrong: Training is an '
+                    'operating cost, not part of the asset.',
+             'src': 'SC10-1'},
+            {'t': 'MCQ',
+             'q': 'A delivery truck wears out mainly with kilometres driven, '
+                  'and the number of kilometres changes a lot from year to '
+                  'year. Which method BEST matches its use?',
+             'o': ['Straight-line',
+                   'Double-declining balance',
+                   'Units of production',
+                   "Sum-of-the-years'-digits"],
+             'a': 'C',
+             'why': 'Expense follows the actual kilometres driven. A is '
+                    'wrong: Straight-line assumes even use each year. B is '
+                    'wrong: An accelerated method assumes more benefit '
+                    'early, not benefit linked to use.',
+             'src': 'SC10-5'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

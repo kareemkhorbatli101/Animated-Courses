@@ -12,8 +12,16 @@ def f1(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('(i) Share-based payments and employee benefits', 'you are here · section 17.1'), ('(ii) Intangible assets', 'section 17.2'), ('(iii) Inventories', 'section 17.3'), ('(iv) Leases: the lessee', 'section 17.4'), ('(v) Long-lived assets', 'section 17.5'), ('(vi) Impairment', 'section 17.6')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f1b(blank=False):
+    return lanes(blank=blank, **{'title': 'Item by category', 'groups': [('Lowers U.S. net income', ['L1 Development costs', 'L2 Write-down reversal']), ('No effect on net income', ['L3 Land revaluation']), ('Raises U.S. net income', ['L4 Fleet impairment', 'L5 Truck lease'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def f2(blank=False):
     return cardset(blank=blank, **{'title': 'Topic', 'cards': [("Development costs: Orontes's new sparkling-juice line, 300,000", ['U.S. GAAP (ASC 350, 730): Expensed as R&D', 'IFRS (IAS 38): Capitalized: all six IAS 38 criteria are met']), ('Software developed for sale or internal use', ['U.S. GAAP (ASC 350, 730): Capitalized only in limited stages (ASC 985-20, 350-40)', 'IFRS (IAS 38): Development rules of IAS 38']), ('Revaluation of intangibles', ['U.S. GAAP (ASC 350, 730): Not allowed', 'IFRS (IAS 38): Allowed only if an active market exists']), ('Internally generated brands and customer lists', ['U.S. GAAP (ASC 350, 730): Not recognized', 'IFRS (IAS 38): Not recognized']), ('Indefinite-life intangibles', ['U.S. GAAP (ASC 350, 730): Not amortized; tested for impairment', 'IFRS (IAS 38): Not amortized; tested for impairment']), ('Goodwill amortization', ['U.S. GAAP (ASC 350, 730): Only private companies may elect it', 'IFRS (IAS 38): Never'])], 'sub': 'U.S. GAAP (ASC 350, 730) · IFRS (IAS 38)'})
+
+
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Development costs capitalized when criteria are met', 'IFRS only'), ('Impairment tested first with undiscounted cash flows', 'U.S. GAAP only'), ('A short-term lease exemption exists', 'Both'), ('Prior service cost expensed immediately', 'IFRS only')]})
 
 
 def f3(blank=False):
@@ -32,8 +40,12 @@ def f6(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('(i) Share-based payments and employee benefits', 'section 17.1'), ('(ii) Intangible assets', 'section 17.2'), ('(iii) Inventories', 'section 17.3'), ('(iv) Leases: the lessee', 'section 17.4'), ('(v) Long-lived assets', 'section 17.5'), ('(vi) Impairment', 'you are here · section 17.6')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f6b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Statement — U.S. GAAP only, IFRS only, or both?', 'steps': [('LIFO is permitted', 'U.S. GAAP only'), ('Inventory write-downs are reversed when NRV recovers', 'IFRS only'), ('Development costs are capitalized when criteria are met', '________'), ('Impairment is tested first with undiscounted cash flows', '________'), ('A short-term lease exemption exists', '________'), ('Prior service cost is expensed immediately', '________')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 17 at a glance', 'nodes': [('(i) Share-based payments and employee benefits', 'section 17.1'), ('(ii) Intangible assets', 'section 17.2'), ('(iii) Inventories', 'section 17.3'), ('(iv) Leases: the lessee', 'section 17.4'), ('(v) Long-lived assets', 'section 17.5'), ('(vi) Impairment', 'section 17.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'f6b': f6b, 'chmap': chmap}

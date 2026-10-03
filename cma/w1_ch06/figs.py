@@ -12,16 +12,32 @@ def f1(blank=False):
     return lanes(blank=blank, **{'title': 'Transfer by category', 'groups': [('Sale', ['T1', 'T2']), ('Secured borrowing', ['T3', 'T4'])], 'sub': 'every one of these is in the book’s own table'})
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('1–60 days past due', '80,000 × 8% = 6,400'), ('Over 60 days past due', '40,000 × 25% = 10,000'), ('Required allowance', '3,600 + 6,400 + 10,000 = 20,000')]})
+
+
 def f2(blank=False):
     return cardset(blank=blank, **{'title': 'Age of receivable', 'cards': [('Current', ['Amount: 400,000', 'Expected loss rate: 1%', 'Required allowance: 4,000']), ('1–30 days past due', ['Amount: 150,000', 'Expected loss rate: 3%', 'Required allowance: 4,500']), ('31–60 days past due', ['Amount: 60,000', 'Expected loss rate: 10%', 'Required allowance: 6,000']), ('61–90 days past due', ['Amount: 30,000', 'Expected loss rate: 25%', 'Required allowance: 7,500']), ('Over 90 days past due', ['Amount: 20,000', 'Expected loss rate: 60%', 'Required allowance: 12,000']), ('Total', ['Amount: 660,000', 'Required allowance: 34,000'])], 'sub': 'Amount · Expected loss rate · Required allowance'})
+
+
+def f2b(blank=False):
+    return lanes(blank=blank, **{'title': 'Age of receivable by amount', 'groups': [('180,000', ['Current']), ('80,000', ['1–60 days past due']), ('40,000', ['Over 60 days past due']), ('300,000', ['Total'])], 'sub': 'every one of these is in the book’s own table'})
 
 
 def f3(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Recognizing and measuring receivables', 'section 6.1'), ('The allowance for credit losses', 'section 6.2'), ('Transferring receivables: sale or secured borrowing?', 'you are here · section 6.3')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f3b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Transfer — Category', 'steps': [('T1', ''), ('T2', ''), ('T3', ''), ('T4', '')]})
+
+
+def frev(blank=False):
+    return lanes(blank=blank, **{'title': 'Transfer by category', 'groups': [('Sale', ['T1', 'T2']), ('Secured borrowing', ['T3', 'T4'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 6 at a glance', 'nodes': [('Recognizing and measuring receivables', 'section 6.1'), ('The allowance for credit losses', 'section 6.2'), ('Transferring receivables: sale or secured borrowing?', 'section 6.3')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f3b': f3b, 'frev': frev, 'chmap': chmap}

@@ -7,13 +7,12 @@ HANDOUT = {'id': '10.2',
  'title': 'Depreciation methods and their effects',
  'sub': 'section 10.2 of the book',
  'covers': ['sec:10.2',
-            'p:P10-07',
             'p:P10-08',
-            'p:P10-09',
+            'p:P10-07',
             'p:P10-10',
-            'sc:P10-07',
             'p:P10-11',
             'p:P10-12',
+            'p:P10-13',
             'term:depreciable base',
             'term:recoverability test',
             'term:capitalized interest',
@@ -29,9 +28,7 @@ HANDOUT = {'id': '10.2',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Depreciation methods and their effects',
              'a figure to read · Effect · the book’s own rule, gapped',
-             "The bottling line's wear depends on machine hours, and its "
-             'hours fall each year. Which method gives the BEST matching of '
-             'expense with use?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -46,7 +43,8 @@ HANDOUT = {'id': '10.2',
                        15,
                        ', over the ',
                        13,
-                       ' in a systematic and rational way. ',
+                       ' in a systematic and rational way. Four methods '
+                       'appear on the exam. ',
                        22,
                        ': the same amount each year, depreciable base ÷ '
                        'useful life. ',
@@ -65,25 +63,27 @@ HANDOUT = {'id': '10.2',
              'one': True,
              'why': 'The book writes: “Depreciation spreads the depreciable '
                     'base, cost minus salvage value, over the useful life in '
-                    'a systematic and rational way. Straight-line method: '
-                    'the same amount each year, depreciable base ÷ useful '
-                    'life. Double-declining-balance method: twice the '
+                    'a systematic and rational way. Four methods appear on '
+                    'the exam. Straight-line method: the same amount each '
+                    'year, depreciable base ÷ useful life. '
+                    'Double-declining-balance method: twice the '
                     'straight-line rate, applied to the beginning book '
                     'value.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Depreciation expense each year for the bottling line '
-                       'under four methods. Depreciation is not a cash flow, '
-                       'so the method changes cash only through income '
-                       'taxes, and U.S. A new ',
+             'parts': ['A new ',
                        13,
                        ' or ',
                        15,
                        ' is a ',
                        31,
-                       '.'],
+                       '. It is applied prospectively: the company does not '
+                       'restate prior years. Suppose Orontes used '
+                       'straight-line for the bottling line and, after 2 '
+                       'years, decides it has 4 more years of life and a '
+                       'salvage value of $90,000.'],
              'bank': ['useful life',
                       'change in accounting estimate',
                       'reporting unit',
@@ -92,33 +92,38 @@ HANDOUT = {'id': '10.2',
              'a': 'useful life · salvage value · change in accounting '
                   'estimate',
              'one': True,
-             'why': 'The book writes: “Depreciation expense each year for '
-                    'the bottling line under four methods. Depreciation is '
-                    'not a cash flow, so the method changes cash only '
-                    'through income taxes, and U.S. A new useful life or '
-                    'salvage value is a change in accounting estimate.”'},
+             'why': 'The book writes: “A new useful life or salvage value is '
+                    'a change in accounting estimate. It is applied '
+                    'prospectively: the company does not restate prior '
+                    'years. Suppose Orontes used straight-line for the '
+                    'bottling line and, after 2 years, decides it has 4 more '
+                    'years of life and a salvage value of $90,000.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['GAAP allows this but does not require it. IAS 16 '
-                       'also allows the revaluation model, with increases '
-                       'going to a revaluation surplus in OCI. SC10-4 After '
-                       'two years, Orontes revises the ',
+             'parts': ['IAS 16 requires component ',
+                       14,
+                       ': each ',
                        13,
-                       ' and ',
-                       15,
-                       ' of an asset.'],
-             'bank': ['reporting unit',
-                      'depreciable base',
-                      'useful life',
-                      'salvage value'],
-             'a': 'useful life · salvage value',
+                       ' part of an asset is ',
+                       13,
+                       ' separately. U.S. GAAP allows this but does not '
+                       'require it. IAS 16 also allows the revaluation '
+                       'model, with increases going to a revaluation surplus '
+                       'in OCI.'],
+             'bank': ['useful life',
+                      'salvage value',
+                      'depreciated',
+                      'depreciation',
+                      'significant'],
+             'a': 'depreciation · significant · depreciated',
              'one': True,
-             'why': 'The book writes: “GAAP allows this but does not require '
-                    'it. IAS 16 also allows the revaluation model, with '
-                    'increases going to a revaluation surplus in OCI. SC10-4 '
-                    'After two years, Orontes revises the useful life and '
-                    'salvage value of an asset.”'}],
+             'why': 'The book writes: “IAS 16 requires component '
+                    'depreciation: each significant part of an asset is '
+                    'depreciated separately. U.S. GAAP allows this but does '
+                    'not require it. IAS 16 also allows the revaluation '
+                    'model, with increases going to a revaluation surplus in '
+                    'OCI.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -145,11 +150,11 @@ HANDOUT = {'id': '10.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the straight-line of Expense in early '
-                  'years as “Lowest (even)”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Expense in early years with “Lowest '
-                    '(even)”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f2'),
           ('panel',
@@ -186,45 +191,20 @@ HANDOUT = {'id': '10.2',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which straight-line does the book give for Expense in '
-                  'early years?',
-             'o': ['Highest', 'Same', 'Lowest (even)', 'No effect'],
-             'a': 'C',
-             'why': 'The book’s own table gives Lowest (even) as the '
-                    'straight-line of Expense in early years.'},
-            {'t': 'MCQ',
-             'q': 'Which straight-line does the book give for Net income and '
-                  'ROA in early years?',
-             'o': ['No effect', 'Lowest (even)', 'Highest', 'Same'],
-             'a': 'C',
-             'why': 'The book’s own table gives Highest as the straight-line '
-                    'of Net income and ROA in early years.'},
-            {'t': 'MCQ',
-             'q': 'Which straight-line does the book give for Carrying '
-                  'amount in early years?',
-             'o': ['Highest', 'Lowest (even)', 'Same', 'No effect'],
-             'a': 'A',
-             'why': 'The book’s own table gives Highest as the straight-line '
-                    'of Carrying amount in early years.'},
-            {'t': 'MCQ',
-             'q': 'Which straight-line does the book give for Total expense '
-                  'over the life?',
-             'o': ['Highest', 'No effect', 'Lowest (even)', 'Same'],
-             'a': 'D',
-             'why': 'The book’s own table gives Same as the straight-line of '
-                    'Total expense over the life.'},
+             'q': 'Which effect does the book pair with “Lowest (even)”?',
+             'o': ['Carrying amount in early years',
+                   'Expense in early years',
+                   'Total expense over the life',
+                   'Cash flow (before tax effects)'],
+             'a': 'B',
+             'why': 'The book’s own table pairs Expense in early years with '
+                    '“Lowest (even)”.'},
             {'t': 'TF',
-             'q': 'The book gives the units of production of Expense in '
-                  'early years as “Follows use”.',
+             'q': 'The book gives the SYD of Carrying amount in early years '
+                  'as “Low”.',
              'a': 'T',
-             'why': 'The book pairs Expense in early years with “Follows '
-                    'use”.'},
-            {'t': 'TF',
-             'q': 'The book gives the units of production of Net income and '
-                  'ROA in early years as “Same”.',
-             'a': 'F',
-             'why': 'The book pairs Net income and ROA in early years with '
-                    '“Follows use”, not with “Same”.'},
+             'why': 'The book pairs Carrying amount in early years with '
+                    '“Low”.'},
             {'t': 'SORT',
              'q': 'Write each one under its straight-line. Every item '
                   'belongs to exactly one group.',
@@ -301,19 +281,6 @@ HANDOUT = {'id': '10.2',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': "The bottling line's wear depends on machine hours, and "
-                  'its hours fall each year. Which method gives the BEST '
-                  'matching of expense with use?',
-             'o': ['Straight-line',
-                   "Sum-of-the-years'-digits",
-                   'Units of production',
-                   'Double-declining balance'],
-             'a': 'C',
-             'why': 'Expense then follows the actual machine hours. A is '
-                    'wrong: Straight-line ignores the falling hours. B is '
-                    'wrong: SYD is time-based, not use-based.',
-             'src': 'P10-07'},
-            {'t': 'MCQ',
              'q': 'A machine cost 50,000. At January 1, accumulated '
                   'depreciation was 30,000, and straight-line depreciation '
                   'is 4,000 a year. It is sold on July 1 for 17,000. What is '
@@ -329,20 +296,18 @@ HANDOUT = {'id': '10.2',
                     'is wrong: This reverses the sign.',
              'src': 'P10-08'},
             {'t': 'MCQ',
-             'q': 'A fire destroys a warehouse with a carrying amount of '
-                  '400. Insurance pays 520, and the company uses the money '
-                  'to build a new warehouse. What does the company record '
-                  'for the fire?',
-             'o': ['A gain of 120',
-                   'No gain, because the money is reinvested',
-                   'A loss of 400',
-                   'A gain of 520'],
-             'a': 'A',
-             'why': 'Involuntary conversions produce a gain or loss even if '
-                    'the proceeds are reinvested. B is wrong: Reinvestment '
-                    'does not defer the gain under U.S. GAAP. C is wrong: '
-                    'The insurance proceeds offset the loss.',
-             'src': 'P10-09'},
+             'q': "The bottling line's wear depends on machine hours, and "
+                  'its hours fall each year. Which method gives the BEST '
+                  'matching of expense with use?',
+             'o': ['Straight-line',
+                   "Sum-of-the-years'-digits",
+                   'Units of production',
+                   'Double-declining balance'],
+             'a': 'C',
+             'why': 'Expense then follows the actual machine hours. A is '
+                    'wrong: Straight-line ignores the falling hours. B is '
+                    'wrong: SYD is time-based, not use-based.',
+             'src': 'P10-07'},
             {'t': 'MCQ',
              'q': 'An asset group has a carrying amount of 900, undiscounted '
                   'future cash flows of 950 and a fair value of 800. What '
@@ -353,26 +318,37 @@ HANDOUT = {'id': '10.2',
                     'the asset is recoverable. B is wrong: This compares '
                     'cash flows with fair value. C is wrong: This skips the '
                     'recoverability step.',
-             'src': 'P10-10'}]),
+             'src': 'P10-10'},
+            {'t': 'MCQ',
+             'q': 'Which statement about assets held for sale is correct?',
+             'o': ['They are measured at the lower of carrying amount and '
+                   'fair value less cost to sell, and are not depreciated.',
+                   'They are depreciated faster because they will be sold '
+                   'soon.',
+                   'They are measured at fair value, with gains above the '
+                   'carrying amount recognized.',
+                   'They are tested with the two-step recoverability test.'],
+             'a': 'A',
+             'why': 'Held-for-sale assets stop being depreciated and are '
+                    'carried at the lower amount. B is wrong: Depreciation '
+                    'stops. C is wrong: Gains are limited to losses '
+                    'recognized before; the asset never goes above its '
+                    'carrying amount before classification.',
+             'src': 'P10-11'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "The bottling line's wear depends on machine hours, and its hours "
-           'fall each year. Which method gives the BEST matching of expense '
-           'with use?',
-           ['Straight-line',
-            "Sum-of-the-years'-digits",
-            'Units of production',
-            'Double-declining balance'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Expense then follows the actual machine hours. A is wrong: '
-           'Straight-line ignores the falling hours. B is wrong: SYD is '
-           'time-based, not use-based.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -412,22 +388,6 @@ HANDOUT = {'id': '10.2',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which statement about assets held for sale is correct?',
-             'o': ['They are measured at the lower of carrying amount and '
-                   'fair value less cost to sell, and are not depreciated.',
-                   'They are depreciated faster because they will be sold '
-                   'soon.',
-                   'They are measured at fair value, with gains above the '
-                   'carrying amount recognized.',
-                   'They are tested with the two-step recoverability test.'],
-             'a': 'A',
-             'why': 'Held-for-sale assets stop being depreciated and are '
-                    'carried at the lower amount. B is wrong: Depreciation '
-                    'stops. C is wrong: Gains are limited to losses '
-                    'recognized before; the asset never goes above its '
-                    'carrying amount before classification.',
-             'src': 'P10-11'},
-            {'t': 'MCQ',
              'q': 'An indefinite-lived brand has a carrying amount of 300 '
                   'and a fair value of 260. How is it tested and what is the '
                   'loss?',
@@ -442,7 +402,23 @@ HANDOUT = {'id': '10.2',
                     'recoverability step does not apply to indefinite-lived '
                     'intangibles. B is wrong: Indefinite-lived intangibles '
                     'are not amortized.',
-             'src': 'P10-12'}]),
+             'src': 'P10-12'},
+            {'t': 'MCQ',
+             'q': 'Under U.S. GAAP, a public company tests goodwill. Which '
+                  'statement is correct?',
+             'o': ['The loss is measured against the implied fair value of '
+                   'goodwill.',
+                   "The loss is the reporting unit's carrying amount minus "
+                   'its fair value, capped at goodwill.',
+                   'Goodwill is amortized over ten years and tested only '
+                   'when indicators exist.',
+                   "Goodwill impairment is reversed if the unit's fair value "
+                   'recovers.'],
+             'a': 'B',
+             'why': 'Single-step test under ASU 2017-04. A is wrong: The '
+                    'implied-fair-value step was removed. C is wrong: That '
+                    'is the private-company alternative.',
+             'src': 'P10-13'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

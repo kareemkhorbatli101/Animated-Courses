@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '9.4',
  'n': 4,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Equity securities and the equity method',
  'sub': 'section 9.4 of the book',
  'covers': ['sec:9.4',
+            'p:P9-04',
             'term:available-for-sale (afs) securities',
             'term:reclassification adjustment',
             'term:unrealized holding gain or loss',
@@ -23,46 +24,66 @@ HANDOUT = {'id': '9.4',
              'a figure to read · Item · the book’s own rule, gapped',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Investment · The English the exam uses, and what it translates',
+             'a figure to read · Investment · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Shares with a readily determinable ',
-                       12,
-                       ' are measured at fair value, and all changes go to '
-                       'net income. There is no AFS category and no OCI '
-                       'option for shares. An investor with ',
+             'parts': ['With ',
                        23,
-                       ' can take part in the ',
-                       11,
-                       "'s financial and operating decisions. With "
-                       'significant influence, the investor uses the ',
+                       ', the investor uses the ',
                        15,
-                       '.'],
-             'bank': ['fair value option',
+                       '. Under the equity method, the investment starts at '
+                       "cost. It increases by the investor's share of the ",
+                       11,
+                       "'s net income and decreases by the dividends the "
+                       'investor receives.'],
+             'bank': ['measurement alternative',
                       'equity method',
-                      'measurement alternative',
-                      'significant influence',
+                      'fair value option',
                       'investee',
-                      'fair value'],
-             'a': 'fair value · significant influence · investee · equity '
-                  'method',
+                      'significant influence'],
+             'a': 'significant influence · equity method · investee',
              'one': True,
-             'why': 'The book writes: “Shares with a readily determinable '
-                    'fair value are measured at fair value, and all changes '
-                    'go to net income. There is no AFS category and no OCI '
-                    'option for shares. An investor with significant '
-                    "influence can take part in the investee's financial and "
-                    'operating decisions. With significant influence, the '
-                    'investor uses the equity method.”'},
+             'why': 'The book writes: “With significant influence, the '
+                    'investor uses the equity method. Under the equity '
+                    'method, the investment starts at cost. It increases by '
+                    "the investor's share of the investee's net income and "
+                    'decreases by the dividends the investor receives.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['And when an investor first gains ',
+             'parts': ['The ',
+                       11,
+                       ' are not income, because they only return part of '
+                       'the ',
+                       12,
+                       '. Orontes and Jordan Glass Co. On January 1, 2025, '
+                       'Orontes buys 30% of Jordan Glass Co., its bottle ',
+                       11,
+                       ', for $1,200,000.'],
+             'bank': ['dividends',
+                      'supplier',
+                      'measurement alternative',
+                      'investment',
+                      'fair value option'],
+             'a': 'dividends · investment · supplier',
+             'one': True,
+             'why': 'The book writes: “The dividends are not income, because '
+                    'they only return part of the investment. Orontes and '
+                    'Jordan Glass Co. On January 1, 2025, Orontes buys 30% '
+                    'of Jordan Glass Co., its bottle supplier, for '
+                    '$1,200,000.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['Profits on sales between the two companies are '
+                       'eliminated until the goods are sold to outsiders. '
+                       'And when an investor first gains ',
                        23,
                        ', it starts the ',
                        15,
@@ -70,44 +91,20 @@ HANDOUT = {'id': '9.4',
                        'investor may also elect the ',
                        19,
                        ' for an equity-method investment.'],
-             'bank': ['significant influence',
-                      'fair value option',
+             'bank': ['equity security',
                       'measurement alternative',
                       'equity method',
-                      'equity security'],
+                      'significant influence',
+                      'fair value option'],
              'a': 'significant influence · equity method · fair value option',
              'one': True,
-             'why': 'The book writes: “And when an investor first gains '
-                    'significant influence, it starts the equity method from '
-                    'that date; it does not restate prior years. An investor '
-                    'may also elect the fair value option for an '
-                    'equity-method investment.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       15,
-                       ': dividends reduce the investment. Take only the '
-                       "investor's share of the ",
-                       11,
-                       "'s income. Depreciate the part of the ",
-                       18,
-                       ' assigned to assets; do not amortize the goodwill. '
-                       "SC9-7 Orontes holds 3% of a listed company's "
-                       'shares.'],
-             'bank': ['fair value option',
-                      'measurement alternative',
-                      'investee',
-                      'Equity method',
-                      'basis difference'],
-             'a': 'Equity method · investee · basis difference',
-             'one': True,
-             'why': 'The book writes: “Equity method: dividends reduce the '
-                    "investment. Take only the investor's share of the "
-                    "investee's income. Depreciate the part of the basis "
-                    'difference assigned to assets; do not amortize the '
-                    "goodwill. SC9-7 Orontes holds 3% of a listed company's "
-                    'shares.”'}],
+             'why': 'The book writes: “Profits on sales between the two '
+                    'companies are eliminated until the goods are sold to '
+                    'outsiders. And when an investor first gains significant '
+                    'influence, it starts the equity method from that date; '
+                    'it does not restate prior years. An investor may also '
+                    'elect the fair value option for an equity-method '
+                    'investment.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -133,9 +130,11 @@ HANDOUT = {'id': '9.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the investment of A as “Corporate bond”.',
+             'q': 'The book gives the investment of E as “Shares of Amman '
+                  'Cold Storage Co. (25%)”.',
              'a': 'T',
-             'why': 'The book pairs A with “Corporate bond”.'}]),
+             'why': 'The book pairs E with “Shares of Amman Cold Storage Co. '
+                    '(25%)”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -179,46 +178,7 @@ HANDOUT = {'id': '9.4',
                    'Corporate bond'],
              'a': 'D',
              'why': 'The book’s own table gives Corporate bond as the '
-                    'investment of A.'},
-            {'t': 'MCQ',
-             'q': 'Which investment does the book give for B?',
-             'o': ['Corporate bond',
-                   'Shares of Amman Cold Storage Co. (25%)',
-                   'Government bond',
-                   'Listed shares (5% of the company)'],
-             'a': 'C',
-             'why': 'The book’s own table gives Government bond as the '
-                    'investment of B.'},
-            {'t': 'MCQ',
-             'q': 'Which investment does the book give for C?',
-             'o': ['Shares of Amman Cold Storage Co. (25%)',
-                   'Listed shares (5% of the company)',
-                   'Government bond',
-                   'Corporate bond'],
-             'a': 'D',
-             'why': 'The book’s own table gives Corporate bond as the '
-                    'investment of C.'},
-            {'t': 'MCQ',
-             'q': 'Which investment does the book give for D?',
-             'o': ['Government bond',
-                   'Corporate bond',
-                   'Shares of Amman Cold Storage Co. (25%)',
-                   'Listed shares (5% of the company)'],
-             'a': 'D',
-             'why': 'The book’s own table gives Listed shares (5% of the '
-                    'company) as the investment of D.'},
-            {'t': 'TF',
-             'q': 'The book gives the Amounts, Dec 31, 2025 of A as “cost '
-                  '40,000; fair value 42,000”.',
-             'a': 'T',
-             'why': 'The book pairs A with “cost 40,000; fair value '
-                    '42,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Amounts, Dec 31, 2025 of B as “cost '
-                  '40,000; fair value 42,000”.',
-             'a': 'F',
-             'why': 'The book pairs B with “cost 60,000; fair value 57,000”, '
-                    'not with “cost 40,000; fair value 42,000”.'}]),
+                    'investment of A.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -257,11 +217,21 @@ HANDOUT = {'id': '9.4',
            'dec 31, 2025 of A.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Orontes classifies the bond as trading. What amount is '
+                  'reported in 2025 net income for the change in fair value '
+                  '(whole USD)?',
+             'o': ['A loss of 2,723',
+                   'A loss of 859',
+                   'No amount; it goes to OCI',
+                   'A gain of 859'],
+             'a': 'B',
+             'why': 'Fair value minus amortized cost: the loss goes to net '
+                    'income for trading securities. A is wrong: This '
+                    'compares fair value with face, ignoring amortized cost. '
+                    'C is wrong: OCI is for AFS; trading changes go to net '
+                    'income.',
+             'src': 'P9-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -286,6 +256,7 @@ HANDOUT = {'id': '9.4',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f4b'),
           ('panel',
            'Investment — the book’s own table',
            [['Investment', 'Category'],
@@ -322,12 +293,16 @@ HANDOUT = {'id': '9.4',
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which English term does the exam use for “أوراق مالية '
+                  'متاحة للبيع”?',
+             'o': ['investee',
+                   'unrealized holding gain or loss',
+                   'reclassification adjustment',
+                   'available-for-sale (AFS) securities'],
+             'a': 'D',
+             'why': 'The glossary on this page pairs “أوراق مالية متاحة '
+                    'للبيع” with available-for-sale (AFS) securities.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

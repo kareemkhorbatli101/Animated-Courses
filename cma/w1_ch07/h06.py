@@ -7,6 +7,11 @@ HANDOUT = {'id': '7.6',
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P7-11',
+            'p:P7-12',
+            'p:P7-15',
+            'p:P7-16',
+            'p:P7-17',
             'sc:SC7-1',
             'sc:SC7-2',
             'sc:SC7-3',
@@ -62,9 +67,7 @@ HANDOUT = {'id': '7.6',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'On December 28, a supplier in Türkiye ships glass bottles to '
-             'Orontes, FOB shipping point. They arrive on January 4. Who '
-             'includes the bottles in inventory at December 31?'],
+             'The LIFO conformity rule requires that:'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -136,28 +139,29 @@ HANDOUT = {'id': '7.6',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['So FIFO gives the lowest ',
+             'parts': ['To get FIFO ',
                        20,
-                       ', the highest ',
+                       ', SUBTRACT the increase in the ',
                        14,
-                       ', the highest income tax and the highest ending ',
-                       11,
-                       '. When prices are falling, all these relationships '
-                       'reverse. Effects of FIFO, weighted average and LIFO '
-                       'when prices are rising.'],
+                       ' from LIFO cost of goods sold. In rising prices, '
+                       'LIFO gives LOWER income and LOWER taxes, not higher. '
+                       'A ',
+                       18,
+                       ' raises income once. Do not treat it as a better '
+                       'business.'],
              'bank': ['goods available for sale',
-                      'inventory',
-                      'gross profit',
+                      'LIFO liquidation',
+                      'LIFO reserve',
                       'inventoriable cost',
                       'cost of goods sold'],
-             'a': 'cost of goods sold · gross profit · inventory',
+             'a': 'cost of goods sold · LIFO reserve · LIFO liquidation',
              'one': True,
-             'why': 'The book writes: “So FIFO gives the lowest cost of '
-                    'goods sold, the highest gross profit, the highest '
-                    'income tax and the highest ending inventory. When '
-                    'prices are falling, all these relationships reverse. '
-                    'Effects of FIFO, weighted average and LIFO when prices '
-                    'are rising.”'}]),
+             'why': 'The book writes: “To get FIFO cost of goods sold, '
+                    'SUBTRACT the increase in the LIFO reserve from LIFO '
+                    'cost of goods sold. In rising prices, LIFO gives LOWER '
+                    'income and LOWER taxes, not higher. A LIFO liquidation '
+                    'raises income once. Do not treat it as a better '
+                    'business.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -170,6 +174,7 @@ HANDOUT = {'id': '7.6',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -181,24 +186,6 @@ HANDOUT = {'id': '7.6',
              'a': 'D',
              'why': 'The book numbers “Which goods belong in inventory?” as '
                     'section 7.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.2?',
-             'o': ['Cost flow assumptions',
-                   'Which goods belong in inventory?',
-                   'Which costs belong in inventory?',
-                   'Effects on income, taxes and assets'],
-             'a': 'C',
-             'why': 'The book numbers “Which costs belong in inventory?” as '
-                    'section 7.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 7.3?',
-             'o': ['Which costs belong in inventory?',
-                   'Inventory errors',
-                   'Which goods belong in inventory?',
-                   'Cost flow assumptions'],
-             'a': 'D',
-             'why': 'The book numbers “Cost flow assumptions” as section '
-                    '7.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -213,6 +200,77 @@ HANDOUT = {'id': '7.6',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
+             'q': 'Cedar Retail S.A.L. reports under IFRS. Which method may '
+                  'it NOT use?',
+             'o': ['FIFO',
+                   'Weighted average',
+                   'LIFO',
+                   'Specific identification for unique items'],
+             'a': 'C',
+             'why': 'IAS 2 prohibits LIFO. A is wrong: FIFO is allowed under '
+                    'IAS 2. B is wrong: The weighted average is allowed '
+                    'under IAS 2.',
+             'src': 'P7-17'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'On December 28, a supplier in Türkiye ships glass bottles '
+                  'to Orontes, FOB shipping point. They arrive on January 4. '
+                  'Who includes the bottles in inventory at December 31?',
+             'o': ['The supplier, the seller',
+                   'Neither company until the bottles arrive',
+                   'Both companies, half each',
+                   'Orontes, the buyer'],
+             'a': 'D',
+             'why': 'Under FOB shipping point, control passes to the buyer '
+                    'when the goods leave the seller. A is wrong: The seller '
+                    'keeps goods in transit only under FOB destination. B is '
+                    'wrong: Someone always controls the goods; in transit '
+                    'they belong to the buyer here.',
+             'src': 'SC7-1'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Barada Wholesale holds cartons of Orontes tahini on '
+                  'consignment and sells them for a commission. Which '
+                  'statement is correct at year-end?',
+             'o': ['Orontes includes the cartons in inventory; Barada does '
+                   'not.',
+                   'Barada includes the cartons because they are in its '
+                   'warehouse.',
+                   'Both companies include the cartons.',
+                   'Neither company includes the cartons until they are '
+                   'sold.'],
+             'a': 'A',
+             'why': 'Orontes is the consignor and still owns the goods. '
+                    'Barada, the consignee, never includes them. B is wrong: '
+                    'Location does not decide; ownership and control do. C '
+                    'is wrong: Goods cannot be in two inventories.',
+             'src': 'SC7-2'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which cost is included in the cost of inventory?',
+             'o': ['Freight-out to customers',
+                   'Sales commissions',
+                   'Freight-in on purchased goods',
+                   'Storage of finished goods'],
+             'a': 'C',
+             'why': 'Freight-in brings the goods to their present location, '
+                    'so it is part of cost. A is wrong: Freight-out is a '
+                    'selling expense. B is wrong: Commissions are selling '
+                    'expenses.',
+             'src': 'SC7-3'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Use the glass-bottle example in Section 7.2. What is the '
+                  'cost of the bottles in inventory (whole USD)?',
+             'o': ['20,800', '22,000', '22,400', '22,950'],
+             'a': 'B',
+             'why': 'Invoice less the discount taken, plus freight-in, '
+                    'import duty and transit insurance. A is wrong: This '
+                    'leaves out freight-in, which is part of cost. C is '
+                    'wrong: This ignores the purchase discount taken.',
+             'src': 'SC7-4'}]),
+          ('items',
+           [{'t': 'MCQ',
              'q': 'Under LIFO, ending inventory consists of:',
              'o': ['the newest costs.',
                    'an average of all costs.',
@@ -224,6 +282,69 @@ HANDOUT = {'id': '7.6',
                     'newest costs stay in inventory under FIFO. B is wrong: '
                     'That is the average method.',
              'src': 'SC7-5'}]),
+          ('pair',
+           'Compare every answer with your partner first.',
+           'name the section each question belongs to. Most disagreements '
+           'turn out to be about the section, not the answer.'),
+          ('check',
+           'The LIFO conformity rule requires that:',
+           ['a company using LIFO for its U.S. tax return also uses LIFO in '
+            'its financial statements.',
+            'companies reporting under IFRS use LIFO.',
+            'a company using LIFO applies it to every inventory in every '
+            'country.',
+            'a company using LIFO for its financial statements uses FIFO for '
+            'tax.'],
+           'A',
+           'go back to the MODEL move of cycle A and find the section this '
+           'question belongs to.',
+           'It is a U.S. tax rule that links the tax method to the financial '
+           'statements. B is wrong: IFRS prohibits LIFO. C is wrong: The '
+           'rule links tax and book methods; it does not force one method '
+           'everywhere.'),
+          ('cycle', 'B', 'The chapter’s case set'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'In a case question, the exhibit has to be read and '
+                  'adjusted before any figure is worked out.',
+             'a': 'T',
+             'why': 'Every later answer depends on the adjusted exhibit.'}]),
+          ('move', 'MODEL', ''),
+          ('panel',
+           'The chapter’s case set, item by item',
+           [['Item', 'What it asks'],
+            ['C7-1',
+             'For each memo item, decide how Orontes should adjust the '
+             'physical count. (On the exam screen you would drag each item '
+             'in'],
+            ['C7-2',
+             'Enter the correct number of cartons in ending inventory.'],
+            ['C7-3', 'Enter FIFO ending inventory in USD.'],
+            ['C7-4', 'Enter weighted-average cost of goods sold in USD.'],
+            ['C7-5',
+             'If Orontes had used the unadjusted count, its FIFO cost of '
+             'goods sold would have been: [select]'],
+            ['C7-6',
+             'If Orontes used periodic LIFO for tahini, what would the LIFO '
+             'reserve be at December 31 (USD)? The beginning layer is th']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Enter the correct number of cartons in ending '
+                      'inventory.',
+                      'Enter FIFO ending inventory in USD.',
+                      'If Orontes had used the unadjusted count, its FIFO '
+                      'cost of goods sold would have been: [select]',
+                      'Enter weighted-average cost of goods sold in USD.'],
+             'right': ['first', 'second', 'third', 'fourth'],
+             'a': ['A', 'B', 'D', 'C'],
+             'whys': ['', '', '', '']}]),
+          ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
              'q': 'What is the weighted-average cost per case of olive oil '
@@ -277,151 +398,6 @@ HANDOUT = {'id': '7.6',
                     'overstated ending inventory. B is wrong: The error '
                     'carries into next year through beginning inventory.',
              'src': 'SC7-9'}]),
-          ('pair',
-           'Compare every answer with your partner first.',
-           'name the section each question belongs to. Most disagreements '
-           'turn out to be about the section, not the answer.'),
-          ('check',
-           'On December 28, a supplier in Türkiye ships glass bottles to '
-           'Orontes, FOB shipping point. They arrive on January 4. Who '
-           'includes the bottles in inventory at December 31?',
-           ['The supplier, the seller',
-            'Neither company until the bottles arrive',
-            'Both companies, half each',
-            'Orontes, the buyer'],
-           'D',
-           'go back to the MODEL move of cycle A and find the section this '
-           'question belongs to.',
-           'Under FOB shipping point, control passes to the buyer when the '
-           'goods leave the seller. A is wrong: The seller keeps goods in '
-           'transit only under FOB destination. B is wrong: Someone always '
-           'controls the goods; in transit they belong to the buyer here.'),
-          ('cycle', 'B', 'The chapter’s case set'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'In a case question, the exhibit has to be read and '
-                  'adjusted before any figure is worked out.',
-             'a': 'T',
-             'why': 'Every later answer depends on the adjusted exhibit.'}]),
-          ('move', 'MODEL', ''),
-          ('panel',
-           'The chapter’s case set, item by item',
-           [['Item', 'What it asks'],
-            ['C7-1',
-             'For each memo item, decide how Orontes should adjust the '
-             'physical count. (On the exam screen you would drag each item '
-             'in'],
-            ['C7-2',
-             'Enter the correct number of cartons in ending inventory.'],
-            ['C7-3', 'Enter FIFO ending inventory in USD.'],
-            ['C7-4', 'Enter weighted-average cost of goods sold in USD.'],
-            ['C7-5',
-             'If Orontes had used the unadjusted count, its FIFO cost of '
-             'goods sold would have been: [select]'],
-            ['C7-6',
-             'If Orontes used periodic LIFO for tahini, what would the LIFO '
-             'reserve be at December 31 (USD)? The beginning layer is th']],
-           ''),
-          ('move', 'READ THE MODEL', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C7-1 ask for?',
-             'o': ['For each memo item, decide how Orontes should adjust the '
-                   'physical coun',
-                   'If Orontes had used the unadjusted count, its FIFO cost '
-                   'of goods sold ',
-                   'Enter the correct number of cartons in ending inventory.',
-                   'If Orontes used periodic LIFO for tahini, what would the '
-                   'LIFO reserve '],
-             'a': 'A',
-             'why': 'The book states item C7-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C7-2 ask for?',
-             'o': ['Enter the correct number of cartons in ending inventory.',
-                   'If Orontes had used the unadjusted count, its FIFO cost '
-                   'of goods sold ',
-                   'Enter weighted-average cost of goods sold in USD.',
-                   'For each memo item, decide how Orontes should adjust the '
-                   'physical coun'],
-             'a': 'A',
-             'why': 'The book states item C7-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C7-3 ask for?',
-             'o': ['Enter weighted-average cost of goods sold in USD.',
-                   'For each memo item, decide how Orontes should adjust the '
-                   'physical coun',
-                   'Enter the correct number of cartons in ending inventory.',
-                   'Enter FIFO ending inventory in USD.'],
-             'a': 'D',
-             'why': 'The book states item C7-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C7-4 ask for?',
-             'o': ['Enter FIFO ending inventory in USD.',
-                   'For each memo item, decide how Orontes should adjust the '
-                   'physical coun',
-                   'Enter weighted-average cost of goods sold in USD.',
-                   'Enter the correct number of cartons in ending '
-                   'inventory.'],
-             'a': 'C',
-             'why': 'The book states item C7-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C7-5 ask for?',
-             'o': ['Enter the correct number of cartons in ending inventory.',
-                   'If Orontes had used the unadjusted count, its FIFO cost '
-                   'of goods sold ',
-                   'For each memo item, decide how Orontes should adjust the '
-                   'physical coun',
-                   'If Orontes used periodic LIFO for tahini, what would the '
-                   'LIFO reserve '],
-             'a': 'B',
-             'why': 'The book states item C7-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C7-6 ask for?',
-             'o': ['If Orontes used periodic LIFO for tahini, what would the '
-                   'LIFO reserve ',
-                   'Enter the correct number of cartons in ending inventory.',
-                   'For each memo item, decide how Orontes should adjust the '
-                   'physical coun',
-                   'If Orontes had used the unadjusted count, its FIFO cost '
-                   'of goods sold '],
-             'a': 'A',
-             'why': 'The book states item C7-6 in those words.'}]),
-          ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'On December 28, a supplier in Türkiye ships glass bottles '
-                  'to Orontes, FOB shipping point. They arrive on January 4. '
-                  'Who includes the bottles in inventory at December 31?',
-             'o': ['The supplier, the seller',
-                   'Neither company until the bottles arrive',
-                   'Both companies, half each',
-                   'Orontes, the buyer'],
-             'a': 'D',
-             'why': 'Under FOB shipping point, control passes to the buyer '
-                    'when the goods leave the seller. A is wrong: The seller '
-                    'keeps goods in transit only under FOB destination. B is '
-                    'wrong: Someone always controls the goods; in transit '
-                    'they belong to the buyer here.',
-             'src': 'SC7-1'}]),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Barada Wholesale holds cartons of Orontes tahini on '
-                  'consignment and sells them for a commission. Which '
-                  'statement is correct at year-end?',
-             'o': ['Orontes includes the cartons in inventory; Barada does '
-                   'not.',
-                   'Barada includes the cartons because they are in its '
-                   'warehouse.',
-                   'Both companies include the cartons.',
-                   'Neither company includes the cartons until they are '
-                   'sold.'],
-             'a': 'A',
-             'why': 'Orontes is the consignor and still owns the goods. '
-                    'Barada, the consignee, never includes them. B is wrong: '
-                    'Location does not decide; ownership and control do. C '
-                    'is wrong: Goods cannot be in two inventories.',
-             'src': 'SC7-2'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

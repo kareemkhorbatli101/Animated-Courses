@@ -3,20 +3,18 @@
 
 HANDOUT = {'id': '12.2',
  'n': 2,
- 'pages': 7,
+ 'pages': 6,
  'title': 'Payroll, taxes collected and compensated absences',
  'sub': 'section 12.2 of the book',
  'covers': ['sec:12.2',
             'sc:SC12-3',
+            'p:P12-05',
             'sc:SC12-5',
-            'p:P12-07',
-            'p:P12-08',
-            'p:P12-09',
-            'p:P12-10',
-            'sc:SC12-1',
+            'p:P12-17',
+            'p:P12-18',
+            'p:P12-20',
             'sc:SC12-2',
-            'p:P12-11',
-            'p:P12-12',
+            'sc:SC12-2',
             'sc:SC12-1',
             'sc:SC12-2',
             'term:short-term obligation',
@@ -32,17 +30,38 @@ HANDOUT = {'id': '12.2',
             ['Payroll, taxes collected and compensated absences',
              'a figure to read · Suppose: Barada, one month in 2027 · '
              'Suppose: Orontes, commercial paper of 3,000,000',
-             'Why are accounts payable due in 30 days not discounted to '
-             'present value?'],
+             'The extract for this question is printed with it. Which of '
+             "Orontes's current liabilities comes from a financing "
+             'activity?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates · '
-             'Orontes, December 31, 2025 (Chapter 2)',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
+             'parts': ['Payroll creates several ',
+                       13,
+                       '. The employer deducts ',
+                       13,
+                       ", such as income tax and the employees' share of "
+                       'social security, from gross wages.'],
+             'bank': ['liabilities',
+                      'short-term obligation',
+                      'service-type warranty',
+                      'withholding'],
+             'a': 'liabilities · withholding',
+             'one': True,
+             'why': 'The book writes: “Payroll creates several liabilities. '
+                    'The employer deducts withholding, such as income tax '
+                    "and the employees' share of social security, from gross "
+                    'wages.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
              'parts': ['The employer deducts ',
                        13,
                        ", such as income tax and the employees' share of "
@@ -65,51 +84,27 @@ HANDOUT = {'id': '12.2',
                     "employer's own payroll taxes, such as its share of "
                     'social security, are an additional expense.”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['They are recorded as ',
-                       19,
-                       ', not as revenue. ',
-                       22,
-                       ', such as earned vacation, are accrued when '
-                       'employees have already worked for them, the rights '
-                       'vest or accumulate, and payment is probable. SC12-4 '
-                       'Employees of a company earn two days of vacation '
-                       'each month.'],
-             'bank': ['short-term obligation',
-                      'service-type warranty',
-                      'sales tax payable',
-                      'Compensated absences'],
-             'a': 'sales tax payable · Compensated absences',
-             'one': True,
-             'why': 'The book writes: “They are recorded as sales tax '
-                    'payable, not as revenue. Compensated absences, such as '
-                    'earned vacation, are accrued when employees have '
-                    'already worked for them, the rights vest or accumulate, '
-                    'and payment is probable. SC12-4 Employees of a company '
-                    'earn two days of vacation each month.”'},
-            {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['They are recorded as ',
-                       19,
-                       ', not as revenue. ',
-                       22,
-                       ', such as earned vacation, are accrued when '
-                       'employees have already worked for them, the rights '
-                       'vest or accumulate, and payment is probable.'],
-             'bank': ['sales tax payable',
+             'parts': ["Barada's total payroll cost is the gross wages plus "
+                       'its own social security. Sales tax and VAT ',
+                       11,
+                       ' from ',
+                       11,
+                       ' are also owed to the ',
+                       12,
+                       '.'],
+             'bank': ['government',
                       'short-term obligation',
-                      'service-type warranty',
-                      'Compensated absences'],
-             'a': 'sales tax payable · Compensated absences',
+                      'collected',
+                      'customers',
+                      'service-type warranty'],
+             'a': 'collected · customers · government',
              'one': True,
-             'why': 'The book writes: “They are recorded as sales tax '
-                    'payable, not as revenue. Compensated absences, such as '
-                    'earned vacation, are accrued when employees have '
-                    'already worked for them, the rights vest or accumulate, '
-                    'and payment is probable.”'}],
+             'why': "The book writes: “Barada's total payroll cost is the "
+                    'gross wages plus its own social security. Sales tax and '
+                    'VAT collected from customers are also owed to the '
+                    'government.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -167,34 +162,7 @@ HANDOUT = {'id': '12.2',
                    'Short-term debt expected to be refinanced'],
              'a': 'A',
              'why': 'The book numbers “What makes a liability current” as '
-                    'section 12.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.2?',
-             'o': ['Payroll, taxes collected and compensated absences',
-                   'IFRS and covenants',
-                   'What makes a liability current',
-                   'Short-term debt expected to be refinanced'],
-             'a': 'A',
-             'why': 'The book numbers “Payroll, taxes collected and '
-                    'compensated absences” as section 12.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.3?',
-             'o': ['What makes a liability current',
-                   'Payroll, taxes collected and compensated absences',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants'],
-             'a': 'C',
-             'why': 'The book numbers “Short-term debt expected to be '
-                    'refinanced” as section 12.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.4?',
-             'o': ['Warranties',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants',
-                   'What makes a liability current'],
-             'a': 'C',
-             'why': 'The book numbers “IFRS and covenants” as section '
-                    '12.4.'}]),
+                    'section 12.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -207,46 +175,57 @@ HANDOUT = {'id': '12.2',
                     'Income tax withheld belongs to the employees.',
              'src': 'SC12-3'},
             {'t': 'MCQ',
-             'q': 'To show short-term debt as noncurrent under U.S. GAAP, a '
-                  'company needs:',
-             'o': ['only intent to refinance',
-                   'a verbal promise from its bank',
-                   'a history of always refinancing',
-                   'intent to refinance long-term and demonstrated ability '
-                   'before the statements are issued'],
-             'a': 'D',
-             'why': 'Both intent and demonstrated ability are required. A is '
-                    'wrong: Intent alone is not enough. B is wrong: Ability '
-                    'must be demonstrated by refinancing or a qualifying '
-                    'agreement.',
-             'src': 'P12-07'},
+             'q': 'A company pays a sick day only if the employee is '
+                  'actually sick; unused days are lost. At year-end, the '
+                  'company:',
+             'o': ['need not accrue the unused sick days',
+                   'must accrue all unused sick days',
+                   'discloses a contingent liability',
+                   'records a reserve in equity'],
+             'a': 'A',
+             'why': 'Nonvesting, nonaccumulating sick pay need not be '
+                    'accrued. B is wrong: Only rights that vest or '
+                    'accumulate must be accrued. C is wrong: It is not a '
+                    'contingency to disclose.',
+             'src': 'P12-05'},
             {'t': 'MCQ',
-             'q': 'Which financing agreement does NOT qualify to support '
-                  'noncurrent classification?',
-             'o': ['A five-year non-cancelable line of credit with no '
-                   'violations',
-                   "One the lender may cancel if it sees a 'material adverse "
-                   "change' in the borrower",
-                   'An agreement cancelable only for a missed interest '
-                   'payment',
-                   'An agreement with a financially strong bank'],
+             'q': 'Which factor suggests that a warranty that cannot be '
+                  'bought separately is service-type?',
+             'o': ['The law requires it',
+                   'It covers the product for much longer than defects '
+                   'normally appear',
+                   'It only repairs defects present at delivery',
+                   'It lasts 90 days'],
              'a': 'B',
-             'why': 'A subjective acceleration clause makes the agreement '
-                    'fail. A is wrong: This agreement qualifies. C is wrong: '
-                    'A missed payment is objectively determinable.',
-             'src': 'P12-09'},
+             'why': 'Long coverage suggests an extra service. A is wrong: '
+                    'Legal requirements suggest assurance. C is wrong: '
+                    'Repairing existing defects is assurance.',
+             'src': 'P12-17'},
             {'t': 'MCQ',
-             'q': 'Which liability can never be reclassified as noncurrent '
-                  'under the refinancing rule?',
-             'o': ['A short-term bank loan',
-                   'Commercial paper',
-                   'Trade accounts payable',
-                   'A current maturity of long-term debt'],
-             'a': 'C',
-             'why': 'The rule does not apply to trade payables and accruals '
-                    'in the operating cycle. A is wrong: Bank loans can '
-                    'qualify. B is wrong: Commercial paper can qualify.',
-             'src': 'P12-10'}]),
+             'q': 'In which year is the expense for an assurance-type '
+                  'warranty recognized?',
+             'o': ['The year of the sale',
+                   'The year repairs are paid',
+                   'The year the warranty ends',
+                   'Spread evenly over the warranty period'],
+             'a': 'A',
+             'why': 'Matching: the cost belongs to the revenue it supports. '
+                    'B is wrong: This is a cash basis. C is wrong: The '
+                    'obligation exists from the sale.',
+             'src': 'P12-18'},
+            {'t': 'MCQ',
+             'q': 'Under IAS 37, when does an IFRS company recognize a '
+                  'warranty provision?',
+             'o': ['Only when the outflow is virtually certain',
+                   'When an outflow is more likely than not and can be '
+                   'estimated reliably',
+                   'Only when repairs are made',
+                   'Never; warranties are disclosed only'],
+             'a': 'B',
+             'why': "IAS 37 uses a lower threshold than the U.S. 'probable'. "
+                    'A is wrong: Virtual certainty is the test for '
+                    'contingent assets. C is wrong: This is a cash basis.',
+             'src': 'P12-20'}]),
           ('panel',
            'Suppose: Orontes, commercial paper of 3,000,000 — the extract '
            'for the question that follows',
@@ -287,122 +266,12 @@ HANDOUT = {'id': '12.2',
              'why': 'Debt repaid with current assets first stays current. A '
                     'is wrong: Bonds are a normal way to refinance. B is '
                     'wrong: U.S. GAAP counts refinancing before issuance.',
-             'src': 'SC12-5'},
-            {'t': 'MCQ',
-             'q': 'Use the extract, scenario D. How much of the commercial '
-                  'paper is noncurrent (whole USD)?',
-             'o': ['500,000', '2,500,000', '3,000,000', '3,125,000'],
-             'a': 'B',
-             'why': '80% of the minimum inventory of $3,125,000. A is wrong: '
-                    'This is the part that stays current. C is wrong: The '
-                    'noncurrent amount is limited to what is available.',
-             'src': 'P12-08'}]),
+             'src': 'SC12-5'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
-          ('check',
-           'Why are accounts payable due in 30 days not discounted to '
-           'present value?',
-           ['The time to payment is short, so the difference is not '
-            'significant',
-            'Liabilities are never discounted',
-            'They are measured at fair value',
-            'They are shown net of cash'],
-           'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Short-term liabilities are measured at the amount to be paid. B '
-           'is wrong: Long-term liabilities such as bonds are discounted. C '
-           'is wrong: Trade payables are at the amount owed, not fair '
-           'value.'),
-          ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
-             'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
-          ('panel',
-           'Item — the book’s own table',
-           [['Item', 'Answer'],
-            ["Employer's social security",
-             '7% × 40,000 = 2,800 (payroll tax expense)'],
-            ['Total owed to the tax authorities',
-             '4,000 + 2,800 + 2,800 = 9,600'],
-            ['Sales revenue', '21,000 ÷ 1.05 = 20,000'],
-            ['Sales tax payable', '21,000 − 20,000 = 1,000']],
-           ''),
-          ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
-            ['short-term obligation', 'التزام قصير الأجل'],
-            ['withholding', 'الاستقطاع']],
-           ''),
-          ('move', 'READ THE MODEL', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': "Which answer does the book give for Employer's social "
-                  'security?',
-             'o': ['4,000 + 2,800 + 2,800 = 9,600',
-                   '7% × 40,000 = 2,800 (payroll tax expense)',
-                   '21,000 − 20,000 = 1,000',
-                   '21,000 ÷ 1.05 = 20,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 7% × 40,000 = 2,800 (payroll '
-                    "tax expense) as the answer of Employer's social "
-                    'security.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Total owed to the tax '
-                  'authorities?',
-             'o': ['7% × 40,000 = 2,800 (payroll tax expense)',
-                   '21,000 ÷ 1.05 = 20,000',
-                   '21,000 − 20,000 = 1,000',
-                   '4,000 + 2,800 + 2,800 = 9,600'],
-             'a': 'D',
-             'why': 'The book’s own table gives 4,000 + 2,800 + 2,800 = '
-                    '9,600 as the answer of Total owed to the tax '
-                    'authorities.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Sales revenue?',
-             'o': ['21,000 ÷ 1.05 = 20,000',
-                   '4,000 + 2,800 + 2,800 = 9,600',
-                   '7% × 40,000 = 2,800 (payroll tax expense)',
-                   '21,000 − 20,000 = 1,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 21,000 ÷ 1.05 = 20,000 as '
-                    'the answer of Sales revenue.'}]),
-          ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': "A company's year ends on December 31 and its statements "
-                  'are issued on March 5. It issues long-term bonds on March '
-                  '20 to repay a note due in June. How is the note '
-                  'classified at December 31?',
-             'o': ['Noncurrent', 'Split in proportion', 'Current', 'Equity'],
-             'a': 'C',
-             'why': 'The refinancing happened after the statements were '
-                    'issued. A is wrong: Ability must be shown before '
-                    'issuance. B is wrong: Nothing supports noncurrent '
-                    'classification at issuance.',
-             'src': 'P12-11'},
-            {'t': 'MCQ',
-             'q': 'When short-term debt is excluded from current liabilities '
-                  'because of refinancing, the company must disclose:',
-             'o': ['a description of the financing agreement and the terms '
-                   'of the new obligation',
-                   'nothing, because the debt is noncurrent',
-                   'only the interest rate',
-                   "the bank's credit rating"],
-             'a': 'A',
-             'why': 'ASC 470 requires this disclosure. B is wrong: '
-                    'Disclosure is required. C is wrong: The disclosure is '
-                    'broader.',
-             'src': 'P12-12'}]),
           ('panel',
            'Orontes, December 31, 2025 (Chapter 2) — the extract for the '
            'question that follows',
@@ -427,6 +296,83 @@ HANDOUT = {'id': '12.2',
              '400,000'],
             ['Total current liabilities', '', '4,280,000']],
            ''),
+          ('check',
+           'The extract for this question is printed with it. Which of '
+           "Orontes's current liabilities comes from a financing activity?",
+           ['Accounts payable',
+            'Current portion of long-term debt',
+            'Contract liabilities',
+            'Accrued liabilities'],
+           'B',
+           'redo the READ THE MODEL questions of cycle A with the model in '
+           'front of you.',
+           'Debt principal is a financing item. A is wrong: Trade payables '
+           'arise from operations. C is wrong: Customer deposits arise from '
+           'operations.'),
+          ('cycle', 'B', 'The words this section uses precisely'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'A term in the exam means exactly what the book defines it '
+                  'to mean, whatever it means in ordinary English.',
+             'a': 'T',
+             'why': 'CMA questions use exact terms, and one word can change '
+                    'the answer.'}]),
+          ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
+          ('panel',
+           'Item — the book’s own table',
+           [['Item', 'Answer'],
+            ["Employer's social security",
+             '7% × 40,000 = 2,800 (payroll tax expense)'],
+            ['Total owed to the tax authorities',
+             '4,000 + 2,800 + 2,800 = 9,600'],
+            ['Sales revenue', '21,000 ÷ 1.05 = 20,000'],
+            ['Sales tax payable', '21,000 − 20,000 = 1,000']],
+           ''),
+          ('panel',
+           'The English the exam uses, and what it translates',
+           [['English (exam term)', 'the Arabic it translates'],
+            ['short-term obligation', 'التزام قصير الأجل'],
+            ['withholding', 'الاستقطاع']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'A glossary term and its translation are a pair the book '
+                  'itself gives.',
+             'a': 'T',
+             'why': 'The term tables in each section are the book’s own.'}]),
+          ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Why are accounts payable due in 30 days not discounted to '
+                  'present value?',
+             'o': ['The time to payment is short, so the difference is not '
+                   'significant',
+                   'Liabilities are never discounted',
+                   'They are measured at fair value',
+                   'They are shown net of cash'],
+             'a': 'A',
+             'why': 'Short-term liabilities are measured at the amount to be '
+                    'paid. B is wrong: Long-term liabilities such as bonds '
+                    'are discounted. C is wrong: Trade payables are at the '
+                    'amount owed, not fair value.',
+             'src': 'SC12-1'},
+            {'t': 'MCQ',
+             'q': 'A one-year warranty that a product will work as agreed '
+                  'is:',
+             'o': ['a service-type warranty; revenue is deferred',
+                   'an assurance-type warranty; the cost is accrued at the '
+                   'sale',
+                   'a loss contingency that is only disclosed',
+                   'recorded only when repairs are made'],
+             'a': 'B',
+             'why': 'It gives only assurance, not an extra service. A is '
+                    'wrong: No extra service is promised. C is wrong: '
+                    'Repairs are probable and estimable, so they are '
+                    'accrued.',
+             'src': 'SC12-8'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'The extract for this question is printed with it. Which '
@@ -441,6 +387,30 @@ HANDOUT = {'id': '12.2',
                     'payables arise from operations. C is wrong: Customer '
                     'deposits arise from operations.',
              'src': 'SC12-2'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Use the extract, scenario B. Why is the whole commercial '
+                  'paper current?',
+             'o': ['Bonds cannot be used to refinance commercial paper',
+                   'The bonds were issued after the balance sheet date',
+                   'It was repaid with current assets before the long-term '
+                   'financing was obtained',
+                   'The paper was due within one year'],
+             'a': 'C',
+             'why': 'Debt repaid with current assets first stays current. A '
+                    'is wrong: Bonds are a normal way to refinance. B is '
+                    'wrong: U.S. GAAP counts refinancing before issuance.',
+             'src': 'SC12-5'},
+            {'t': 'MCQ',
+             'q': 'Use the extract, scenario C. How much of the commercial '
+                  'paper is shown as noncurrent (whole USD)?',
+             'o': ['0', '600,000', '2,400,000', '3,000,000'],
+             'a': 'C',
+             'why': 'The share proceeds demonstrate ability up to that '
+                    'amount. A is wrong: Equity issued to refinance can '
+                    'support noncurrent classification. B is wrong: This is '
+                    'the part that stays current.',
+             'src': 'SC12-6'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

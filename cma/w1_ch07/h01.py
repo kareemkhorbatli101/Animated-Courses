@@ -9,11 +9,10 @@ HANDOUT = {'id': '7.1',
  'covers': ['sec:7.1',
             'p:P7-01',
             'p:P7-02',
-            'p:P7-03',
             'p:P7-04',
-            'sc:P7-01',
-            'p:P7-05',
-            'p:P7-06',
+            'p:P7-07',
+            'p:P7-08',
+            'p:P7-10',
             'term:inventory',
             'term:weighted-average cost',
             'term:goods in transit',
@@ -30,9 +29,7 @@ HANDOUT = {'id': '7.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Which goods belong in inventory?',
              'a figure to read · Memo item',
-             'A seller ships goods on December 30, FOB destination. The '
-             'goods arrive on January 2. At December 31, the goods should '
-             'be:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -42,6 +39,9 @@ HANDOUT = {'id': '7.1',
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
              'parts': ['Under ',
+                       20,
+                       ', control passes to the buyer when the goods leave '
+                       'the seller, so the buyer includes them. Under ',
                        17,
                        ', the seller keeps control until the goods arrive, '
                        'so the seller includes them. In a ',
@@ -50,26 +50,24 @@ HANDOUT = {'id': '7.1',
                        11,
                        ' (the owner) gives goods to a ',
                        11,
-                       ', who sells them for a commission. The goods stay in '
-                       "the consignor's ",
-                       11,
-                       '.'],
-             'bank': ['consignee',
-                      'inventory',
+                       ', who sells them for a commission.'],
+             'bank': ['consignor',
+                      'consignee',
                       'periodic inventory system',
-                      'consignment',
+                      'FOB destination',
                       'weighted-average cost',
-                      'consignor',
-                      'FOB destination'],
-             'a': 'FOB destination · consignment · consignor · consignee · '
-                  'inventory',
+                      'consignment',
+                      'FOB shipping point'],
+             'a': 'FOB shipping point · FOB destination · consignment · '
+                  'consignor · consignee',
              'one': True,
-             'why': 'The book writes: “Under FOB destination, the seller '
-                    'keeps control until the goods arrive, so the seller '
-                    'includes them. In a consignment, the consignor (the '
-                    'owner) gives goods to a consignee, who sells them for a '
-                    "commission. The goods stay in the consignor's "
-                    'inventory.”'},
+             'why': 'The book writes: “Under FOB shipping point, control '
+                    'passes to the buyer when the goods leave the seller, so '
+                    'the buyer includes them. Under FOB destination, the '
+                    'seller keeps control until the goods arrive, so the '
+                    'seller includes them. In a consignment, the consignor '
+                    '(the owner) gives goods to a consignee, who sells them '
+                    'for a commission.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -102,29 +100,36 @@ HANDOUT = {'id': '7.1',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Arabic: البضاعة بالأمانة is ',
-                       13,
-                       '; the owner is the ',
-                       11,
-                       ' (المُرسِل) and the seller in the shop is the ',
-                       11,
-                       ' (المُرسَل إليه). SC7-1 On December 28, a supplier '
-                       'in Türkiye ships glass bottles to Orontes, ',
+             'parts': ['In U.S. exam questions, ',
                        20,
-                       '.'],
-             'bank': ['consignee',
+                       ' and ',
+                       17,
+                       ' are simple shipping terms that decide who controls ',
+                       18,
+                       ', by truck, rail or sea. Do not bring Incoterm rules '
+                       'into these questions. Arabic: البضاعة بالأمانة is ',
+                       13,
+                       '; the owner is the consignor (المُرسِل) and the '
+                       'seller in the shop is the ',
+                       11,
+                       ' (المُرسَل إليه).'],
+             'bank': ['consignment',
                       'periodic inventory system',
+                      'weighted-average cost',
+                      'goods in transit',
+                      'FOB destination',
                       'FOB shipping point',
-                      'consignor',
-                      'consignment',
-                      'weighted-average cost'],
-             'a': 'consignment · consignor · consignee · FOB shipping point',
+                      'consignee'],
+             'a': 'FOB shipping point · FOB destination · goods in transit · '
+                  'consignment · consignee',
              'one': True,
-             'why': 'The book writes: “Arabic: البضاعة بالأمانة is '
-                    'consignment; the owner is the consignor (المُرسِل) and '
-                    'the seller in the shop is the consignee (المُرسَل '
-                    'إليه). SC7-1 On December 28, a supplier in Türkiye '
-                    'ships glass bottles to Orontes, FOB shipping point.”'}],
+             'why': 'The book writes: “In U.S. exam questions, FOB shipping '
+                    'point and FOB destination are simple shipping terms '
+                    'that decide who controls goods in transit, by truck, '
+                    'rail or sea. Do not bring Incoterm rules into these '
+                    'questions. Arabic: البضاعة بالأمانة is consignment; the '
+                    'owner is the consignor (المُرسِل) and the seller in the '
+                    'shop is the consignee (المُرسَل إليه).”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -152,11 +157,11 @@ HANDOUT = {'id': '7.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of M1 (FOB shipping point, '
-                  'bought) as “Add to the count”.',
+             'q': 'The book gives the category of M4 (at a Doha consignee) '
+                  'as “Add to the count”.',
              'a': 'T',
-             'why': 'The book pairs M1 (FOB shipping point, bought) with '
-                    '“Add to the count”.'}]),
+             'why': 'The book pairs M4 (at a Doha consignee) with “Add to '
+                    'the count”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'goods_tree'),
           ('panel',
@@ -181,18 +186,6 @@ HANDOUT = {'id': '7.1',
              'a': 'D',
              'why': 'The book’s own table pairs M3 (held for a Beirut '
                     'producer) with “Subtract from the count”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of M1 (FOB shipping point, '
-                  'bought) as “Add to the count”.',
-             'a': 'T',
-             'why': 'The book pairs M1 (FOB shipping point, bought) with '
-                    '“Add to the count”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of M2 (FOB destination, sold) '
-                  'as “Subtract from the count”.',
-             'a': 'F',
-             'why': 'The book pairs M2 (FOB destination, sold) with “Add to '
-                    'the count”, not with “Subtract from the count”.'},
             {'t': 'SORT',
              'q': 'Write each one under its category. Every item belongs to '
                   'exactly one group.',
@@ -239,18 +232,6 @@ HANDOUT = {'id': '7.1',
                     'wrong: No future benefit exists, so it is not an asset.',
              'src': 'P7-02'},
             {'t': 'MCQ',
-             'q': 'Which item is a period cost for Orontes?',
-             'o': ['Import duties on sesame seeds',
-                   'Freight-in on glass bottles',
-                   'Wages of bottling-line workers',
-                   'Advertising for a new tahini brand'],
-             'a': 'D',
-             'why': 'Advertising is a selling cost, expensed when incurred. '
-                    'A is wrong: Duties bring materials to their location, '
-                    'so they are inventory cost. B is wrong: Freight-in is '
-                    'inventory cost.',
-             'src': 'P7-03'},
-            {'t': 'MCQ',
              'q': 'Which statement about periodic and perpetual systems is '
                   'TRUE?',
              'o': ['LIFO gives the same cost of goods sold under both '
@@ -266,26 +247,34 @@ HANDOUT = {'id': '7.1',
                     'use costs that exist on each sale date. B is wrong: The '
                     'moving average changes after each purchase, so results '
                     'usually differ.',
-             'src': 'P7-04'}]),
+             'src': 'P7-04'},
+            {'t': 'MCQ',
+             'q': 'Specific identification is MOST appropriate for:',
+             'o': ['unique, high-value items such as cars.',
+                   'large volumes of identical glass bottles.',
+                   'any items when prices are rising.',
+                   'perishable food products.'],
+             'a': 'A',
+             'why': 'It tracks the cost of each individual item, which is '
+                    'practical only for distinct items. B is wrong: '
+                    'Identical items are interchangeable; tracking each one '
+                    'is costly and allows manipulation. C is wrong: Price '
+                    'trends do not decide when specific identification fits.',
+             'src': 'P7-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A seller ships goods on December 30, FOB destination. The goods '
-           'arrive on January 2. At December 31, the goods should be:',
-           ["included in the buyer's inventory.",
-            "included in the seller's inventory, with no sale recorded yet.",
-            "removed from the seller's inventory, with a sale recorded.",
-            "excluded from both companies' inventories."],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Under FOB destination, the seller keeps control until delivery. '
-           'A is wrong: The buyer includes goods in transit only under FOB '
-           'shipping point. C is wrong: Control has not passed, so no sale '
-           'is recorded yet.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -328,27 +317,55 @@ HANDOUT = {'id': '7.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'In the Orontes olive-oil example, what is FIFO cost of '
-                  'goods sold (whole USD)?',
-             'o': ['100,000', '272,000', '279,000', '288,000'],
-             'a': 'B',
-             'why': 'Goods available minus FIFO ending inventory (the newest '
-                    'costs). A is wrong: This is FIFO ending inventory, not '
-                    'cost of goods sold. C is wrong: This is the '
-                    'weighted-average result.',
-             'src': 'P7-05'},
+             'q': 'Prices are falling. Which method gives the highest gross '
+                  'profit?',
+             'o': ['FIFO',
+                   'Weighted average',
+                   'LIFO',
+                   'All methods give the same gross profit.'],
+             'a': 'C',
+             'why': 'With falling prices, LIFO puts the newest, lowest costs '
+                    'into cost of goods sold. A is wrong: FIFO gives the '
+                    'highest profit only when prices rise. B is wrong: The '
+                    'average is always between FIFO and LIFO.',
+             'src': 'P7-08'},
             {'t': 'MCQ',
-             'q': 'Beginning inventory was 100 units at $10. The company '
-                  'bought 200 units at $12 and then 100 units at $15. It '
-                  'sold 250 units. Using periodic LIFO, what is ending '
-                  'inventory?',
-             'o': ['1,600', '1,838', '2,100', '3,300'],
-             'a': 'A',
-             'why': '150 units remain at the oldest costs: 100 × $10 + 50 × '
-                    '$12 = 1,600. B is wrong: This uses the weighted average '
-                    '($12.25 × 150, rounded). C is wrong: This uses the '
-                    'newest costs (FIFO).',
-             'src': 'P7-06'}]),
+             'q': 'Prices are rising, and a LIFO company sells more units '
+                  'than it buys, so old layers are liquidated. What is the '
+                  'effect in that year?',
+             'o': ['Gross profit decreases.',
+                   'Gross profit increases.',
+                   'There is no effect, because costs are historical.',
+                   'A loss arises that must be deferred.'],
+             'a': 'B',
+             'why': 'Old, low costs flow into cost of goods sold, so gross '
+                    'profit rises for that year. A is wrong: Low old costs '
+                    'reduce cost of goods sold. C is wrong: The old costs '
+                    'are much lower than current costs, so income changes.',
+             'src': 'P7-10'},
+            {'t': 'MCQ',
+             'q': 'The tax rate is 25%. Ending inventory was overstated by '
+                  '40. By how much is net income overstated in that year?',
+             'o': ['10', '30', '40', '50'],
+             'a': 'B',
+             'why': 'After-tax effect = pretax error × (1 − tax rate). A is '
+                    'wrong: This is the tax effect only. C is wrong: This is '
+                    'the pretax effect.',
+             'src': 'P7-13'},
+            {'t': 'MCQ',
+             'q': 'Ending inventory for 2026 is understated by 15. Inventory '
+                  'for 2025 was correct. What is the effect on 2026 cost of '
+                  'goods sold?',
+             'o': ['Understated by 15',
+                   'No effect',
+                   'Overstated by 15',
+                   'Overstated by 30'],
+             'a': 'C',
+             'why': 'COGS = beginning inventory + purchases − ending '
+                    'inventory, so low ending inventory raises COGS. A is '
+                    'wrong: This reverses the direction. B is wrong: Ending '
+                    'inventory directly changes COGS.',
+             'src': 'P7-14'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

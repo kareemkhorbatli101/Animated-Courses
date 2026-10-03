@@ -6,7 +6,7 @@ HANDOUT = {'id': '18.6',
  'pages': 5,
  'title': 'Integrated reporting and sustainability disclosures',
  'sub': 'section 18.6 of the book',
- 'covers': ['sec:18.6', 'term:outputs', 'term:human capital'],
+ 'covers': ['sec:18.6', 'p:P18-07', 'term:outputs', 'term:human capital'],
  'skills': [('read6', 3)],
  'derived': {},
  'flow': [('preview',
@@ -19,7 +19,8 @@ HANDOUT = {'id': '18.6',
              'a figure to read · Item',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Disclosure · The English the exam uses, and what it translates',
+             'a figure to read · Disclosure · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -46,48 +47,47 @@ HANDOUT = {'id': '18.6',
                     "risks that affect a company's prospects. They apply "
                     'only where a jurisdiction adopts them.”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['S1 asks for connected ',
-                       13,
-                       ', an idea taken from ',
-                       12,
-                       ' reporting, but S1 and S2 ',
-                       13,
-                       ' are not an integrated report. It is voluntary, and '
-                       'it is not in the LOS.'],
-             'bank': ['integrated reporting',
-                      'disclosures',
-                      'integrated',
-                      'financial capital',
-                      'information'],
-             'a': 'information · integrated · disclosures',
+             'q': 'What it settles in the middle — Fill every gap from the '
+                  'list. The list holds more words than there are gaps.',
+             'parts': ['The book’s own table “Item” settles these: for D1 it '
+                       'is ',
+                       54,
+                       ' and for D4 it is ',
+                       55,
+                       '.'],
+             'bank': ['Packaging waste sent to landfill fell by one third.',
+                      'Barada trained all delivery drivers in safe driving.',
+                      'Staff turnover in the warehouse fell from 25% to '
+                      '15%.'],
              'one': True,
-             'why': 'The book writes: “S1 asks for connected information, an '
-                    'idea taken from integrated reporting, but S1 and S2 '
-                    'disclosures are not an integrated report. It is '
-                    'voluntary, and it is not in the LOS.”'},
+             'a': 'Barada trained all delivery drivers in safe driving. · '
+                  'Staff turnover in the warehouse fell from 25% to 15%.',
+             'why': 'From the book’s own table “Item”: The book’s own table '
+                    '“Item” settles these: for D1 it is Barada trained all '
+                    'delivery drivers in safe driving. and for D4 it is '
+                    'Staff turnover in the warehouse fell from 25% to 15%..'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['These are ',
-                       12,
-                       ' facts, not exam content. SC18-11 A company ',
+             'parts': ['In the ',
+                       24,
+                       ', the business model takes ',
                        11,
-                       ' IFRS S2 climate ',
-                       13,
-                       '.'],
-             'bank': ['integrated reporting',
-                      'publishes',
-                      'background',
-                      'financial capital',
-                      'disclosures'],
-             'a': 'background · publishes · disclosures',
+                       ' as inputs and turns them, through its activities, '
+                       'into ',
+                       11,
+                       ': products, by-products and waste.'],
+             'bank': ['natural capital',
+                      'intellectual capital',
+                      'value creation process',
+                      'outputs',
+                      'capitals'],
+             'a': 'value creation process · capitals · outputs',
              'one': True,
-             'why': 'The book writes: “These are background facts, not exam '
-                    'content. SC18-11 A company publishes IFRS S2 climate '
-                    'disclosures.”'}],
+             'why': 'The book writes: “In the value creation process, the '
+                    'business model takes capitals as inputs and turns them, '
+                    'through its activities, into outputs: products, '
+                    'by-products and waste.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -113,12 +113,11 @@ HANDOUT = {'id': '18.6',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the Barada Wholesale: draft first '
-                  'integrated report, of D1 as “Barada trained all delivery '
-                  'drivers in safe driving.”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs D1 with “Barada trained all delivery '
-                    'drivers in safe driving.”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f6'),
           ('panel',
@@ -147,58 +146,31 @@ HANDOUT = {'id': '18.6',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “Barada trained all '
-                  'delivery drivers in safe driving.”?',
-             'o': ['D3', 'D6', 'D1', 'D2'],
-             'a': 'C',
-             'why': 'The book’s own table pairs D1 with “Barada trained all '
-                    'delivery drivers in safe driving.”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Barada used 600 MWh '
-                  'of electricity in 2028; 150 MWh came from its own solar '
-                  'panels.”?',
-             'o': ['D1', 'M1', 'D5', 'D2'],
+             'q': 'Which part of this chapter is section 18.1?',
+             'o': ['Guiding principles and content elements',
+                   'Integrated reporting and sustainability disclosures',
+                   'Value creation and the six capitals',
+                   'Integrated thinking, integrated reporting and the '
+                   'integrated report'],
              'a': 'D',
-             'why': 'The book’s own table pairs D2 with “Barada used 600 MWh '
-                    'of electricity in 2028; 150 MWh came from its own solar '
-                    'panels.”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Barada signed '
-                  'five-year partnerships with 60 small farmers.”?',
-             'o': ['M1', 'D3', 'D5', 'D4'],
-             'a': 'B',
-             'why': 'The book’s own table pairs D3 with “Barada signed '
-                    'five-year partnerships with 60 small farmers.”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Staff turnover in the '
-                  'warehouse fell from 25% to 15%.”?',
-             'o': ['D2', 'D4', 'D1', 'D5'],
-             'a': 'B',
-             'why': 'The book’s own table pairs D4 with “Staff turnover in '
-                    'the warehouse fell from 25% to 15%.”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Barada Wholesale: draft first '
-                  'integrated report, of D1 as “Barada trained all delivery '
-                  'drivers in safe driving.”.',
-             'a': 'T',
-             'why': 'The book pairs D1 with “Barada trained all delivery '
-                    'drivers in safe driving.”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Barada Wholesale: draft first '
-                  'integrated report, of D2 as “Packaging waste sent to '
-                  'landfill fell by one third.”.',
-             'a': 'F',
-             'why': 'The book pairs D2 with “Barada used 600 MWh of '
-                    'electricity in 2028; 150 MWh came from its own solar '
-                    'panels.”, not with “Packaging waste sent to landfill '
-                    'fell by one third.”.'}]),
+             'why': 'The book numbers “Integrated thinking, integrated '
+                    'reporting and the integrated report” as section '
+                    '18.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': "Orontes's secret recipe for flavoured olive oil is an "
+                  'example of:',
+             'o': ['Intellectual capital',
+                   'Manufactured capital',
+                   'Human capital',
+                   'Financial capital'],
+             'a': 'A',
+             'why': 'Knowledge-based intangibles are intellectual capital. B '
+                    'is wrong: Manufactured capital is physical. C is wrong: '
+                    "Human capital is people's skills, not documented "
+                    'know-how.',
+             'src': 'P18-07'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -223,6 +195,7 @@ HANDOUT = {'id': '18.6',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f6b'),
           ('panel',
            'Disclosure — the book’s own table',
            [['Disclosure', 'Category'],
@@ -247,12 +220,20 @@ HANDOUT = {'id': '18.6',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each item. '
+                  'Every one is used once.',
+             'left': ['D1', 'D3', 'D4', 'D5', 'D6'],
+             'right': ['Packaging waste sent to landfill fell by one third.',
+                       'Barada trained all delivery drivers in safe driving.',
+                       'Staff turnover in the warehouse fell from 25% to '
+                       '15%.',
+                       "Rising fuel prices could cut Barada's delivery "
+                       'margins in 2029 and 2030.',
+                       'Barada signed five-year partnerships with 60 small '
+                       'farmers.'],
+             'a': ['B', 'E', 'C', 'A', 'D'],
+             'whys': ['', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

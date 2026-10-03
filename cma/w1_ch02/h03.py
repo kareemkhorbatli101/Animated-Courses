@@ -7,13 +7,8 @@ HANDOUT = {'id': '2.3',
  'title': 'Classifying debt',
  'sub': 'section 2.3 of the book',
  'covers': ['sec:2.3',
-            'p:P2-14',
-            'p:P2-15',
-            'p:P2-16',
-            'p:P2-17',
-            'sc:P2-14',
-            'p:P2-18',
-            'p:P2-19',
+            'p:P2-05',
+            'sc:P2-05',
             'term:current assets',
             'term:callable debt',
             'term:financial flexibility',
@@ -27,10 +22,9 @@ HANDOUT = {'id': '2.3',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Classifying debt',
-             'a figure to read · Situation at the reporting date',
-             'A loss from a lawsuit is probable. Lawyers estimate it at '
-             'between $40,000 and $100,000, with no amount more likely than '
-             'another. Under U.S. GAAP the company accrues:'],
+             'a figure to read · Situation at the reporting date · Orontes '
+             'Foods Inc. (whole USD)',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -39,79 +33,80 @@ HANDOUT = {'id': '2.3',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['If a company breaks a ',
-                       11,
-                       ', the lender may be able to demand repayment at '
-                       'once. Such ',
-                       15,
-                       ' is current, even if the company does not expect the '
-                       'lender to act. It stays noncurrent only if, before '
-                       'the statements are issued, the lender gives a ',
-                       11,
-                       ' for more than one year, or a ',
+             'parts': ['Debt is where ',
+                       16,
+                       ' gets difficult, and where the exam likes to test. '
+                       'Long-term debt that is due in ',
                        14,
-                       ' exists and the company will probably cure the '
-                       'violation within it.'],
-             'bank': ['grace period',
+                       ' is split: the ',
+                       35,
+                       ' is current and the rest is noncurrent. Orontes '
+                       'shows $400,000 as current and $6,000,000 as '
+                       'long-term.'],
+             'bank': ['solvency',
                       'subsequent events',
-                      'callable debt',
-                      'covenant',
-                      'solvency',
-                      'waiver'],
-             'a': 'covenant · callable debt · waiver · grace period',
+                      'installments',
+                      'classification',
+                      'current portion of long-term debt'],
+             'a': 'classification · installments · current portion of '
+                  'long-term debt',
              'one': True,
-             'why': 'The book writes: “If a company breaks a covenant, the '
-                    'lender may be able to demand repayment at once. Such '
-                    'callable debt is current, even if the company does not '
-                    'expect the lender to act. It stays noncurrent only if, '
-                    'before the statements are issued, the lender gives a '
-                    'waiver for more than one year, or a grace period exists '
-                    'and the company will probably cure the violation within '
-                    'it.”'},
+             'why': 'The book writes: “Debt is where classification gets '
+                    'difficult, and where the exam likes to test. Long-term '
+                    'debt that is due in installments is split: the current '
+                    'portion of long-term debt is current and the rest is '
+                    'noncurrent. Orontes shows $400,000 as current and '
+                    '$6,000,000 as long-term.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Decision tree for classifying debt as current or '
-                       'noncurrent under U.S. IAS 1 asks one question: at '
-                       'the reporting date, does the company have a right to '
-                       'defer settlement for at least twelve months? A ',
-                       11,
-                       ' or ',
+             'parts': ['Short-term debt can be shown as noncurrent through ',
                        13,
-                       ' obtained after the reporting date does not count.'],
+                       ', but only if the company intends to refinance it on '
+                       'a long-term basis and shows that it can. It shows '
+                       'this by issuing long-term debt or shares after the ',
+                       15,
+                       ' date but before the statements are issued, or by '
+                       'signing a qualifying financing agreement.'],
              'bank': ['solvency',
                       'subsequent events',
-                      'refinancing',
-                      'waiver'],
-             'a': 'waiver · refinancing',
+                      'balance sheet',
+                      'refinancing'],
+             'a': 'refinancing · balance sheet',
              'one': True,
-             'why': 'The book writes: “Decision tree for classifying debt as '
-                    'current or noncurrent under U.S. IAS 1 asks one '
-                    'question: at the reporting date, does the company have '
-                    'a right to defer settlement for at least twelve months? '
-                    'A waiver or refinancing obtained after the reporting '
-                    'date does not count.”'},
+             'why': 'The book writes: “Short-term debt can be shown as '
+                    'noncurrent through refinancing, but only if the company '
+                    'intends to refinance it on a long-term basis and shows '
+                    'that it can. It shows this by issuing long-term debt or '
+                    'shares after the balance sheet date but before the '
+                    'statements are issued, or by signing a qualifying '
+                    'financing agreement.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['SC2-5 A five-year loan is repaid in equal annual '
-                       'installments. SC2-6 At December 31 a company breaks '
-                       'a loan ',
+             'parts': ['Do not use the old proposal on the exam. ',
+                       12,
+                       ' after year-end but before issuance: ',
+                       12,
+                       ' under U.S. GAAP, current under IFRS. Due on demand: '
+                       'always current. A ',
                        11,
-                       ', so the loan is payable on demand. On January 15, '
-                       'before the statements are issued, the bank gives an '
-                       '18-month ',
-                       11,
-                       '.'],
-             'bank': ['waiver', 'covenant', 'solvency', 'subsequent events'],
-             'a': 'covenant · waiver',
+                       ' obtained before issuance, for more than a year: '
+                       'noncurrent under U.S. GAAP.'],
+             'bank': ['noncurrent',
+                      'Refinanced',
+                      'waiver',
+                      'solvency',
+                      'subsequent events'],
+             'a': 'Refinanced · noncurrent · waiver',
              'one': True,
-             'why': 'The book writes: “SC2-5 A five-year loan is repaid in '
-                    'equal annual installments. SC2-6 At December 31 a '
-                    'company breaks a loan covenant, so the loan is payable '
-                    'on demand. On January 15, before the statements are '
-                    'issued, the bank gives an 18-month waiver.”'}],
+             'why': 'The book writes: “Do not use the old proposal on the '
+                    'exam. Refinanced after year-end but before issuance: '
+                    'noncurrent under U.S. GAAP, current under IFRS. Due on '
+                    'demand: always current. A waiver obtained before '
+                    'issuance, for more than a year: noncurrent under U.S. '
+                    'GAAP.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -184,107 +179,94 @@ HANDOUT = {'id': '2.3',
                    'Other presentation matters'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the balance '
-                    'sheet” as section 2.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.2?',
-             'o': ['Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items',
-                   'Other presentation matters'],
-             'a': 'C',
-             'why': 'The book numbers “Current and noncurrent items” as '
-                    'section 2.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.3?',
-             'o': ['Other presentation matters',
-                   'Classifying debt',
-                   'Purpose and structure of the balance sheet',
-                   'Current and noncurrent items'],
-             'a': 'B',
-             'why': 'The book numbers “Classifying debt” as section 2.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 2.4?',
-             'o': ['Classifying debt',
-                   'Current and noncurrent items',
-                   'Other presentation matters',
-                   'Purpose and structure of the balance sheet'],
-             'a': 'C',
-             'why': 'The book numbers “Other presentation matters” as '
-                    'section 2.4.'}]),
+                    'sheet” as section 2.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
+          ('panel',
+           'Orontes Foods Inc. (whole USD) — the extract for the question '
+           'that follows',
+           [['Orontes Foods Inc. (whole USD)',
+             'Dec 31, 2025',
+             'Dec 31, 2024'],
+            ['ASSETS', '', ''],
+            ['Current assets', '', ''],
+            ['Cash', '7,302,100', '2,100,000'],
+            ['Trading securities', '42,000', '40,000'],
+            ['Accounts receivable, net of allowance (2025: 156,000; 2024: '
+             '140,000)',
+             '4,144,000',
+             '3,760,000'],
+            ['Inventory', '2,450,000', '2,300,000'],
+            ['Prepaid expenses', '204,000', '180,000'],
+            ['Assets held for sale', '46,000', '—'],
+            ['Total current assets', '14,188,100', '8,380,000'],
+            ['Noncurrent assets', '', ''],
+            ['Debt securities (held-to-maturity and available-for-sale)',
+             '88,500',
+             '90,000'],
+            ['Equity securities', '27,000', '25,000'],
+            ['Equity-method investments', '1,807,000', '500,000'],
+            ['Property, plant and equipment, net of accumulated depreciation '
+             '(2025: 11,988,000; 2024: 8,000,000)',
+             '14,802,000',
+             '16,000,000'],
+            ['Brand (indefinite-lived)', '260,000', '300,000'],
+            ['Goodwill', '300,000', '950,000'],
+            ['Other noncurrent assets', '200,000', '200,000'],
+            ['TOTAL ASSETS', '31,672,600', '26,445,000'],
+            ["LIABILITIES AND STOCKHOLDERS' EQUITY", '', ''],
+            ['Current liabilities', '', ''],
+            ['Accounts payable', '2,050,000', '1,900,000'],
+            ['Accrued liabilities', '900,000', '850,000'],
+            ['Income taxes payable', '350,000', '300,000'],
+            ['Contract liabilities', '180,000', '120,000'],
+            ['Dividends payable', '400,000', '—'],
+            ['Current portion of long-term debt', '400,000', '400,000'],
+            ['Total current liabilities', '4,280,000', '3,570,000'],
+            ['Long-term debt, less current portion',
+             '6,000,000',
+             '5,600,000'],
+            ['Deferred tax liability', '999,625', '900,000'],
+            ['Total liabilities', '11,279,625', '10,070,000'],
+            ['Commitments and contingencies (Note 12)', '', ''],
+            ["Stockholders' equity", '', ''],
+            ['Common stock, $1 par; shares issued and outstanding: 2025 '
+             '8,100,000, 2024 8,000,000',
+             '8,100,000',
+             '8,000,000'],
+            ['Additional paid-in capital', '5,400,000', '4,000,000'],
+            ['Retained earnings', '6,894,100', '4,375,000'],
+            ['Accumulated other comprehensive income (loss)', '(1,125)', '—'],
+            ["Total stockholders' equity", '20,392,975', '16,375,000'],
+            ["TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY",
+             '31,672,600',
+             '26,445,000']],
+           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A loss from a lawsuit is probable. Lawyers estimate it at '
-                  'between $40,000 and $100,000, with no amount more likely '
-                  'than another. Under U.S. GAAP the company accrues:',
-             'o': ['$70,000',
-                   '$100,000',
-                   'nothing, and discloses the range',
-                   '$40,000 and discloses the possible additional loss'],
-             'a': 'D',
-             'why': 'With no best estimate in the range, U.S. GAAP accrues '
-                    'the minimum. A is wrong: The midpoint is the IFRS '
-                    'approach. B is wrong: The maximum is not required.',
-             'src': 'P2-14'},
-            {'t': 'MCQ',
-             'q': 'On January 20, before the statements are issued, a '
-                  'customer that owed $80,000 at December 31 goes bankrupt. '
-                  'Its finances had been getting worse for months. What does '
-                  'the company do?',
-             'o': ['Adjusts the year-end allowance for credit losses',
-                   'Discloses the event only',
-                   'Records the loss next year',
-                   'Does nothing'],
-             'a': 'A',
-             'why': "The condition, the customer's weak finances, existed at "
-                    'year-end, so it is a recognized event. B is wrong: '
-                    'Disclosure only is for conditions that arose after '
-                    'year-end. C is wrong: The loss belongs to the year in '
-                    'which the condition existed.',
-             'src': 'P2-15'},
-            {'t': 'MCQ',
-             'q': 'A company has a deferred tax asset that will reverse next '
-                  'year. On a U.S. GAAP balance sheet it is shown as:',
-             'o': ['a current asset.',
-                   'a noncurrent asset.',
-                   'a reduction of income taxes payable.',
-                   'split between current and noncurrent.'],
+             'q': 'The extract for this question is printed with it. What is '
+                  "Orontes's working capital at December 31, 2025 (whole "
+                  'USD)?',
+             'o': ['2,908,475', '9,908,100', '10,064,100', '10,308,100'],
              'a': 'B',
-             'why': 'All deferred tax assets and liabilities are noncurrent. '
-                    'A is wrong: The old current/noncurrent split was '
-                    'removed. C is wrong: It cannot be offset against taxes '
-                    'payable without a right of setoff.',
-             'src': 'P2-16'},
-            {'t': 'MCQ',
-             'q': 'Which item is NOT usually recorded on the balance sheet?',
-             'o': ['A brand the company bought',
-                   'Goodwill from an acquisition',
-                   'A brand the company developed itself',
-                   'Equipment under a finance lease'],
-             'a': 'C',
-             'why': 'Internally developed intangibles are not recognized as '
-                    'assets. A is wrong: A purchased brand is recorded at '
-                    'its cost. B is wrong: Acquired goodwill is recorded.',
-             'src': 'P2-17'}]),
+             'why': '$14,188,100 − $4,280,000 = $9,908,100. A is wrong: This '
+                    'subtracts total liabilities. C is wrong: This adds back '
+                    'the allowance; receivables are included net.',
+             'src': 'P2-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A loss from a lawsuit is probable. Lawyers estimate it at '
-           'between $40,000 and $100,000, with no amount more likely than '
-           'another. Under U.S. GAAP the company accrues:',
-           ['$70,000',
-            '$100,000',
-            'nothing, and discloses the range',
-            '$40,000 and discloses the possible additional loss'],
-           'D',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'With no best estimate in the range, U.S. GAAP accrues the '
-           'minimum. A is wrong: The midpoint is the IFRS approach. B is '
-           'wrong: The maximum is not required.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -320,32 +302,35 @@ HANDOUT = {'id': '2.3',
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each one. '
+                  'Every one is used once.',
+             'left': ['Short-term debt refinanced long-term after year-end, '
+                      'before issuance',
+                      'Covenant broken at year-end; waiver obtained on or '
+                      'before year-end',
+                      'Covenant tested only after year-end (future '
+                      'compliance doubtful)',
+                      'Subjective acceleration clause',
+                      'Deferred tax assets and liabilities'],
+             'right': ['Noncurrent (intent and demonstrated ability)',
+                       'Noncurrent; disclose',
+                       'All noncurrent',
+                       'Noncurrent',
+                       'Current only if acceleration is probable'],
+             'a': ['A', 'D', 'B', 'E', 'C'],
+             'whys': ['', '', '', '', '']}]),
+          ('items',
            [{'t': 'MCQ',
-             'q': 'A company delays paying its suppliers until January so '
-                  'that its December 31 balance sheet shows more cash. This '
-                  'illustrates which limitation?',
-             'o': ['The balance sheet uses historical cost',
-                   'The balance sheet omits internally developed intangibles',
-                   'The balance sheet relies on estimates',
-                   'The balance sheet shows only one date'],
-             'a': 'D',
-             'why': 'Year-end amounts can be managed because the statement '
-                    'shows a single day. A is wrong: Cash and payables are '
-                    'not measured at historical cost in this sense. B is '
-                    'wrong: No intangible is involved.',
-             'src': 'P2-18'},
-            {'t': 'MCQ',
-             'q': "Orontes's total stockholders' equity at December 31, 2025 "
-                  'is $20,392,975. This amount is:',
-             'o': ["the market value of Orontes's shares",
-                   'the cash the owners could take out today',
-                   'the price a buyer would pay for Orontes',
-                   'a book amount based mostly on historical cost'],
-             'a': 'D',
-             'why': 'Equity is assets minus liabilities as recorded. A is '
-                    'wrong: Market value depends on share prices, not on '
-                    'book amounts. B is wrong: Equity is not a cash amount.',
-             'src': 'P2-19'}]),
+             'q': 'The extract for this question is printed with it. What is '
+                  "Orontes's working capital at December 31, 2025 (whole "
+                  'USD)?',
+             'o': ['2,908,475', '9,908,100', '10,064,100', '10,308,100'],
+             'a': 'B',
+             'why': '$14,188,100 − $4,280,000 = $9,908,100. A is wrong: This '
+                    'subtracts total liabilities. C is wrong: This adds back '
+                    'the allowance; receivables are included net.',
+             'src': 'P2-05'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

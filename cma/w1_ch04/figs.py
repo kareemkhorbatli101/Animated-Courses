@@ -20,6 +20,10 @@ def f3(blank=False):
     return cardset(blank=blank, **{'title': 'Type', 'cards': [('Cash dividend', ['Measured at: Amount declared', 'Retained earnings: Decreases', 'Total equity: Decreases (a liability arises)']), ('Property dividend', ['Measured at: Fair value of the asset (gain or loss on remeasurement first)', 'Retained earnings: Decreases', 'Total equity: Decreases']), ('Scrip dividend', ['Measured at: Face value of the note', 'Retained earnings: Decreases', 'Total equity: Decreases (a note payable arises)']), ('Liquidating dividend', ['Measured at: Amount beyond retained earnings', 'Retained earnings: No change for that part; APIC decreases', 'Total equity: Decreases']), ('Small stock dividend (below about 20–25%)', ['Measured at: Fair value of the shares', 'Retained earnings: Decreases', 'Total equity: No change']), ('Large stock dividend (above about 20–25%)', ['Measured at: Par value of the shares', 'Retained earnings: Decreases', 'Total equity: No change'])], 'sub': 'Measured at · Retained earnings · Total equity'})
 
 
+def f3b(blank=False):
+    return lanes(blank=blank, **{'title': 'Suppose: Orontes, 8,100,000 shares by 50% stock dividend', 'groups': [('4,050,000', ['New shares issued', 'Common stock']), ('par $1', ['Measured at']), ('(4,050,000)', ['Retained earnings']), ('no change', ['Additional paid-in capital', "Total stockholders' equity"])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def f4(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Components of equity and the statement of changes in equity', 'section 4.1'), ('Issuing and buying back shares', 'section 4.2'), ('Dividends, stock dividends and stock splits', 'section 4.3'), ('Retained earnings', 'you are here · section 4.4'), ('Limitations and links to the other statements', 'section 4.5')], 'sub': 'each section uses what the one before it settled'})
 
@@ -28,8 +32,16 @@ def f5(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Components of equity and the statement of changes in equity', 'section 4.1'), ('Issuing and buying back shares', 'section 4.2'), ('Dividends, stock dividends and stock splits', 'section 4.3'), ('Retained earnings', 'section 4.4'), ('Limitations and links to the other statements', 'you are here · section 4.5')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Account — Category', 'steps': [('APIC–treasury stock', ''), ('Retained earnings', ''), ('Treasury stock', ''), ('Dividends payable', ''), ('Common stock', '')]})
+
+
+def frev(blank=False):
+    return cardset(blank=blank, **{'title': 'Transaction', 'cards': [('Declare a cash dividend', ['Retained earnings: Decreases', 'Total equity: Decreases']), ('Declare and issue a small stock dividend', ['Retained earnings: Decreases', 'Total equity: No change']), ('Carry out a 2-for-1 stock split', ['Retained earnings: ________', 'Total equity: ________']), ('Buy treasury stock', ['Retained earnings: ________', 'Total equity: ________']), ('Reissue treasury stock above cost', ['Retained earnings: ________', 'Total equity: ________']), ('Correct a prior-year error that overstated expenses', ['Retained earnings: ________', 'Total equity: ________'])], 'sub': 'Retained earnings · Total equity'})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 4 at a glance', 'nodes': [('Components of equity and the statement of changes in equity', 'section 4.1'), ('Issuing and buying back shares', 'section 4.2'), ('Dividends, stock dividends and stock splits', 'section 4.3'), ('Retained earnings', 'section 4.4'), ('Limitations and links to the other statements', 'section 4.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f3b': f3b, 'f4': f4, 'f5': f5, 'f5b': f5b, 'frev': frev, 'chmap': chmap}

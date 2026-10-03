@@ -12,8 +12,16 @@ def f1(blank=False):
     return cardset(blank=blank, **{'title': 'Orontes, December 31, 2025 (Chapter 2)', 'cards': [('Accounts payable', ['What it is: Amounts owed to suppliers for goods and services', 'Whole USD: 2,050,000']), ('Accrued liabilities', ['What it is: Expenses incurred but not yet paid: wages, interest, utilities', 'Whole USD: 900,000']), ('Income taxes payable', ['What it is: Current tax not yet paid', 'Whole USD: 350,000']), ('Contract liabilities', ['What it is: Customer payments received before delivery', 'Whole USD: 180,000']), ('Dividends payable', ['What it is: Cash dividends declared, not yet paid', 'Whole USD: 400,000']), ('Current portion of long-term debt', ['What it is: Principal due within one year', 'Whole USD: 400,000'])], 'sub': 'What it is · Whole USD'})
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Bank loan', 'Split between current and noncurrent'), ('Note payable due 2029', 'Noncurrent liability'), ('Warranty liability (M2)', 'Current liability'), ('Service plans (M3)', 'Split between current and noncurrent'), ('Customer deposits', 'Current liability')]})
+
+
 def f2(blank=False):
     return flowchain(blank=blank, **{'title': 'Suppose: Barada, one month in 2027 — Whole USD', 'steps': [('Gross wages for the month', '40,000'), ('Income tax withheld from employees', '4,000'), ("Employees' social security withheld (7%)", '2,800'), ('Net pay to employees', '33,200'), ("Employer's social security (payroll tax expense, 7%)", '________'), ('Total owed to the tax authorities', '________')]})
+
+
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [("Employer's social security", '7% × 40,000 = 2,800 (payroll tax expense)'), ('Total owed to the tax authorities', '4,000 + 2,800 + 2,800 = 9,600'), ('Sales revenue', '21,000 ÷ 1.05 = 20,000'), ('Sales tax payable', '21,000 − 20,000 = 1,000')]})
 
 
 def f3(blank=False):
@@ -28,8 +36,16 @@ def f5(blank=False):
     return flowchain(blank=blank, **{'title': 'Barada Wholesale, selected liabilities, December — Amount / details', 'steps': [('Accounts payable', '450'), ('Bank loan due April 30, 2028', '400'), ('Note payable due in 2029 (from the Chapter 2 case)', '1,500'), ('Dividends payable', '60'), ('Customer deposits for orders to be delivered in 2028', '40'), ('Wages payable / income tax withheld / employer payroll taxes', '25 / 5 / 3')]})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Category', 'steps': [('Bank loan', ''), ('Note payable due 2029', ''), ('Warranty liability (M2)', ''), ('Service plans (M3)', ''), ('Customer deposits', '')]})
+
+
+def frev(blank=False):
+    return cardset(blank=blank, **{'title': 'Orontes, December 31, 2025 (Chapter 2)', 'cards': [('Accounts payable', ['What it is: Amounts owed to suppliers for goods and services', 'Whole USD: 2,050,000']), ('Accrued liabilities', ['What it is: Expenses incurred but not yet paid: wages, interest, utilities', 'Whole USD: 900,000']), ('Income taxes payable', ['What it is: Current tax not yet paid', 'Whole USD: 350,000']), ('Contract liabilities', ['What it is: Customer payments received before delivery', 'Whole USD: 180,000']), ('Dividends payable', ['What it is: Cash dividends declared, not yet paid', 'Whole USD: 400,000']), ('Current portion of long-term debt', ['What it is: Principal due within one year', 'Whole USD: 400,000'])], 'sub': 'What it is · Whole USD'})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 12 at a glance', 'nodes': [('What makes a liability current', 'section 12.1'), ('Payroll, taxes collected and compensated absences', 'section 12.2'), ('Short-term debt expected to be refinanced', 'section 12.3'), ('IFRS and covenants', 'section 12.4'), ('Warranties', 'section 12.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'frev': frev, 'chmap': chmap}

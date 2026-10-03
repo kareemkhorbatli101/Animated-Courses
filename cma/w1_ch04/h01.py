@@ -3,17 +3,16 @@
 
 HANDOUT = {'id': '4.1',
  'n': 1,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Components of equity and the statement of changes in equity',
  'sub': 'section 4.1 of the book',
  'covers': ['sec:4.1',
-            'p:P4-01',
             'p:P4-02',
+            'p:P4-01',
             'p:P4-03',
-            'p:P4-04',
-            'sc:P4-01',
             'p:P4-05',
-            'p:P4-06',
+            'p:P4-08',
+            'p:P4-09',
             'term:statement of changes in equity',
             'term:stock split',
             'term:cost method'],
@@ -26,8 +25,8 @@ HANDOUT = {'id': '4.1',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Components of equity and the statement of changes in equity',
-             'a figure to read · Transaction · the book’s own rule, gapped',
-             'Which change in equity is a transaction with owners?'],
+             'a figure to read · Transaction',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -36,32 +35,30 @@ HANDOUT = {'id': '4.1',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       21,
-                       ' is what owners have paid in: common stock and ',
-                       17,
-                       ' at par or stated value, plus additional paid-in '
-                       'capital. Earned capital is retained earnings and '
-                       'AOCI. ',
-                       16,
-                       ' is deducted from the total.'],
+             'parts': ['The ',
+                       32,
+                       ' explains why each part of equity changed during the '
+                       'period. It separates two kinds of change. ',
+                       14,
+                       ' with owners, such as issuing shares and paying '
+                       'dividends, are one kind.'],
              'bank': ['date of record',
-                      'Contributed capital',
-                      'preferred stock',
-                      'Treasury stock',
-                      'issued shares'],
-             'a': 'Contributed capital · preferred stock · Treasury stock',
+                      'statement of changes in equity',
+                      'Transactions',
+                      'preferred stock'],
+             'a': 'statement of changes in equity · Transactions',
              'one': True,
-             'why': 'The book writes: “Contributed capital is what owners '
-                    'have paid in: common stock and preferred stock at par '
-                    'or stated value, plus additional paid-in capital. '
-                    'Earned capital is retained earnings and AOCI. Treasury '
-                    'stock is deducted from the total.”'},
+             'why': 'The book writes: “The statement of changes in equity '
+                    'explains why each part of equity changed during the '
+                    'period. It separates two kinds of change. Transactions '
+                    'with owners, such as issuing shares and paying '
+                    'dividends, are one kind.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['',
+             'parts': ['Comprehensive income, which the company earns, is '
+                       'the other. ',
                        21,
                        ' is what owners have paid in: common stock and ',
                        17,
@@ -74,36 +71,39 @@ HANDOUT = {'id': '4.1',
                       'Contributed capital'],
              'a': 'Contributed capital · preferred stock',
              'one': True,
-             'why': 'The book writes: “Contributed capital is what owners '
-                    'have paid in: common stock and preferred stock at par '
-                    'or stated value, plus additional paid-in capital. '
-                    'Earned capital is retained earnings and AOCI.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['Comprehensive income, which the company earns, is '
-                       'the other. ',
-                       21,
-                       ' is what owners have paid in: common stock and ',
-                       17,
-                       ' at par or stated value, plus additional paid-in '
-                       'capital. Earned capital is retained earnings and '
-                       'AOCI. ',
-                       16,
-                       ' is deducted from the total.'],
-             'bank': ['issued shares',
-                      'date of record',
-                      'Treasury stock',
-                      'preferred stock',
-                      'Contributed capital'],
-             'a': 'Contributed capital · preferred stock · Treasury stock',
-             'one': True,
              'why': 'The book writes: “Comprehensive income, which the '
                     'company earns, is the other. Contributed capital is '
                     'what owners have paid in: common stock and preferred '
                     'stock at par or stated value, plus additional paid-in '
-                    'capital. Earned capital is retained earnings and AOCI. '
-                    'Treasury stock is deducted from the total.”'}],
+                    'capital. Earned capital is retained earnings and '
+                    'AOCI.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. The list holds more words '
+                  'than there are gaps, so one or two of them are not used.',
+             'parts': ['A ',
+                       16,
+                       ' ',
+                       11,
+                       ', if any, is shown ',
+                       12,
+                       ' within equity (Chapter 16). Each column is one '
+                       'equity account, and each row is one type of change. '
+                       'The last row equals the equity section of the '
+                       'balance sheet in Chapter 2. Total equity rose by '
+                       '$4,017,975.'],
+             'bank': ['date of record',
+                      'preferred stock',
+                      'separately',
+                      'interest',
+                      'noncontrolling'],
+             'a': 'noncontrolling · interest · separately',
+             'one': True,
+             'why': 'The book writes: “A noncontrolling interest, if any, is '
+                    'shown separately within equity (Chapter 16). Each '
+                    'column is one equity account, and each row is one type '
+                    'of change. The last row equals the equity section of '
+                    'the balance sheet in Chapter 2. Total equity rose by '
+                    '$4,017,975.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -130,11 +130,11 @@ HANDOUT = {'id': '4.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the retained earnings of Declare a cash '
-                  'dividend as “Decreases”.',
+             'q': 'The book gives the retained earnings of Correct a '
+                  'prior-year error that overstated expenses as “________”.',
              'a': 'T',
-             'why': 'The book pairs Declare a cash dividend with '
-                    '“Decreases”.'}]),
+             'why': 'The book pairs Correct a prior-year error that '
+                    'overstated expenses with “________”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
           ('panel',
@@ -164,43 +164,12 @@ HANDOUT = {'id': '4.1',
              'a': 'C',
              'why': 'The book’s own table pairs Declare a cash dividend with '
                     '“Decreases”.'},
-            {'t': 'MCQ',
-             'q': 'Which transaction does the book pair with “Decreases”?',
-             'o': ['Declare and issue a small stock dividend',
-                   'Reissue treasury stock above cost',
-                   'Carry out a 2-for-1 stock split',
-                   'Buy treasury stock'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Declare and issue a small '
-                    'stock dividend with “Decreases”.'},
-            {'t': 'MCQ',
-             'q': 'Which transaction does the book pair with “________”?',
-             'o': ['Declare a cash dividend',
-                   'Declare and issue a small stock dividend',
-                   'Carry out a 2-for-1 stock split'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Carry out a 2-for-1 stock '
-                    'split with “________”.'},
-            {'t': 'MCQ',
-             'q': 'Which transaction does the book pair with “________”?',
-             'o': ['Declare a cash dividend',
-                   'Declare and issue a small stock dividend',
-                   'Buy treasury stock'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Buy treasury stock with '
-                    '“________”.'},
-            {'t': 'TF',
-             'q': 'The book gives the total equity of Declare a cash '
-                  'dividend as “Decreases”.',
-             'a': 'T',
-             'why': 'The book pairs Declare a cash dividend with '
-                    '“Decreases”.'},
             {'t': 'TF',
              'q': 'The book gives the total equity of Declare and issue a '
-                  'small stock dividend as “________”.',
-             'a': 'F',
+                  'small stock dividend as “No change”.',
+             'a': 'T',
              'why': 'The book pairs Declare and issue a small stock dividend '
-                    'with “No change”, not with “________”.'},
+                    'with “No change”.'},
             {'t': 'SORT',
              'q': 'Write each one under its retained earnings. Every item '
                   'belongs to exactly one group.',
@@ -217,48 +186,9 @@ HANDOUT = {'id': '4.1',
                    'stock, Reissue treasury stock above cost, Correct a '
                    'prior-year error that overstated expenses'],
              'whys': ['', '']}]),
-          ('move', 'INVENT THE RULE', ''),
-          ('rule',
-           'Complete the book’s own sentence. The list holds more words than '
-           'there are gaps.',
-           [['',
-             21,
-             ' is what owners have paid in: common stock and ',
-             17,
-             ' at par or stated value, plus additional paid-in capital.']],
-           ['preferred stock',
-            'declaration date',
-            'date of record',
-            'Contributed capital'],
-           'Contributed capital is what owners have paid in: common stock '
-           'and preferred stock at par or stated value, plus additional '
-           'paid-in capital.',
-           'Contributed capital · preferred stock'),
-          ('contrast',
-           'Two of the book’s own cases, side by side',
-           [('Declare a cash dividend', ['Retained earnings: Decreases']),
-            ('Declare and issue a small stock dividend',
-             ['Retained earnings: Decreases'])],
-           'Only the facts above differ. What is the total equity of Declare '
-           'a cash dividend?',
-           ['________', 'No change', 'Decreases'],
-           'C',
-           'The book gives Decreases as the total equity of Declare a cash '
-           'dividend.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which change in equity is a transaction with owners?',
-             'o': ['Earning net income',
-                   'Recording an OCI loss on AFS debt securities',
-                   'Declaring a cash dividend',
-                   'Recording depreciation'],
-             'a': 'C',
-             'why': 'Dividends are distributions to owners. A is wrong: Net '
-                    'income is earned, not a transaction with owners. B is '
-                    'wrong: OCI is part of comprehensive income.',
-             'src': 'P4-01'},
-            {'t': 'MCQ',
              'q': 'An investor wants to know whether a company paid out more '
                   'in dividends than it earned this year. Which statement '
                   'shows both amounts together?',
@@ -272,6 +202,17 @@ HANDOUT = {'id': '4.1',
                     'shows only the closing balance. C is wrong: Dividends '
                     'are not on the income statement.',
              'src': 'P4-02'},
+            {'t': 'MCQ',
+             'q': 'Which change in equity is a transaction with owners?',
+             'o': ['Earning net income',
+                   'Recording an OCI loss on AFS debt securities',
+                   'Declaring a cash dividend',
+                   'Recording depreciation'],
+             'a': 'C',
+             'why': 'Dividends are distributions to owners. A is wrong: Net '
+                    'income is earned, not a transaction with owners. B is '
+                    'wrong: OCI is part of comprehensive income.',
+             'src': 'P4-01'},
             {'t': 'MCQ',
              'q': 'For which periods must an SEC registrant reconcile each '
                   'equity caption?',
@@ -287,34 +228,30 @@ HANDOUT = {'id': '4.1',
                     'threshold.',
              'src': 'P4-03'},
             {'t': 'MCQ',
-             'q': 'Which heading is correct for a statement of changes in '
-                  'equity?',
-             'o': ['As of December 31, 2025',
-                   'At December 31, 2025',
-                   'On December 31, 2025',
-                   'For the year ended December 31, 2025'],
-             'a': 'D',
-             'why': "It explains changes over a period. A is wrong: 'As of' "
-                    'is used for the balance sheet. B is wrong: A single '
-                    'date describes a balance sheet.',
-             'src': 'P4-04'}]),
+             'q': 'Where does treasury stock appear on a U.S. balance sheet?',
+             'o': ['As a current asset',
+                   'As a long-term investment',
+                   "As a deduction within stockholders' equity",
+                   'As a liability'],
+             'a': 'C',
+             'why': 'Treasury stock is contra-equity. A is wrong: A company '
+                    'cannot own itself as an asset. B is wrong: Treasury '
+                    'stock is not an investment.',
+             'src': 'P4-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Which change in equity is a transaction with owners?',
-           ['Earning net income',
-            'Recording an OCI loss on AFS debt securities',
-            'Declaring a cash dividend',
-            'Recording depreciation'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Dividends are distributions to owners. A is wrong: Net income is '
-           'earned, not a transaction with owners. B is wrong: OCI is part '
-           'of comprehensive income.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -343,25 +280,51 @@ HANDOUT = {'id': '4.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Where does treasury stock appear on a U.S. balance sheet?',
-             'o': ['As a current asset',
-                   'As a long-term investment',
-                   "As a deduction within stockholders' equity",
-                   'As a liability'],
-             'a': 'C',
-             'why': 'Treasury stock is contra-equity. A is wrong: A company '
-                    'cannot own itself as an asset. B is wrong: Treasury '
-                    'stock is not an investment.',
-             'src': 'P4-05'},
-            {'t': 'MCQ',
-             'q': 'A company has issued 1,000,000 shares and holds 50,000 of '
-                  'them as treasury stock. How many shares are outstanding?',
-             'o': ['50,000', '950,000', '1,000,000', '1,050,000'],
+             'q': 'Which item is part of contributed capital?',
+             'o': ['Retained earnings',
+                   'Additional paid-in capital',
+                   'Accumulated other comprehensive income'],
              'a': 'B',
-             'why': 'Outstanding shares = issued shares − treasury shares. A '
-                    'is wrong: This is the number of treasury shares. C is '
-                    'wrong: This includes treasury shares.',
-             'src': 'P4-06'}]),
+             'why': "APIC comes from owners' payments. A is wrong: Retained "
+                    'earnings are earned capital. B is wrong: AOCI is earned '
+                    'capital.',
+             'src': 'P4-08'},
+            {'t': 'MCQ',
+             'q': 'In a statement of changes in equity, in which column does '
+                  'an OCI loss on AFS debt securities appear?',
+             'o': ['Retained earnings',
+                   'Additional paid-in capital',
+                   'Accumulated other comprehensive income',
+                   'Treasury stock'],
+             'a': 'C',
+             'why': 'OCI goes to AOCI, not retained earnings. A is wrong: '
+                    'Only net income goes to retained earnings. B is wrong: '
+                    'APIC is for owner contributions.',
+             'src': 'P4-09'},
+            {'t': 'MCQ',
+             'q': 'What is the effect of buying treasury stock for cash?',
+             'o': ['Total equity does not change',
+                   'Retained earnings decrease',
+                   'Total assets increase',
+                   'Total equity decreases; retained earnings do not change'],
+             'a': 'D',
+             'why': 'Cash falls and equity falls by the same amount through '
+                    'treasury stock. A is wrong: Treasury stock reduces '
+                    'equity. B is wrong: The purchase is recorded in '
+                    'treasury stock, not retained earnings.',
+             'src': 'P4-14'},
+            {'t': 'MCQ',
+             'q': 'What entry is made on the date of record for a cash '
+                  'dividend?',
+             'o': ['No entry',
+                   'Debit retained earnings; credit dividends payable',
+                   'Debit dividends payable; credit cash',
+                   'Debit retained earnings; credit cash'],
+             'a': 'A',
+             'why': 'The date of record only decides who will be paid. B is '
+                    'wrong: This is the declaration-date entry. C is wrong: '
+                    'This is the payment-date entry.',
+             'src': 'P4-16'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

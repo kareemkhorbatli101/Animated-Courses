@@ -12,8 +12,16 @@ def f1(blank=False):
     return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Less: upstream unrealized profit', '(25,000)'), ('Adjusted net income of Levant', '900,000 − 120,000 − 25,000 = 755,000'), ('NCI share', '20% × 755,000 = 151,000'), ('Less: dividends paid to NCI', '(20,000)'), ('NCI at December 31, 2027', '1,900,000 + 151,000 − 20,000 = 2,031,000')]})
 
 
+def f1b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Investment — Category', 'steps': [('Tadmor Retail (75%)', ''), ('Supplier (30%, significant influence)', ''), ('Listed food company (8%)', ''), ('Cold-storage SPV that Barada directs and guarantees (VIE)', '')]})
+
+
 def f2(blank=False):
     return cardset(blank=blank, **{'title': 'Suppose: Orontes Cold-Chain Logistics SPV, 2027', 'cards': [('Is equity at risk enough to finance the activities?', ['Facts (whole USD): No: third-party equity is 100,000, only 1% of total funding', 'Conclusion: Suggests a VIE']), ('Do the equity holders direct the key activities?', ['Facts (whole USD): No: Orontes decides routes and customers', 'Conclusion: VIE']), ('Who absorbs losses?', ['Facts (whole USD): Orontes guarantees the 9,900,000 of debt', 'Conclusion: Orontes']), ('Primary beneficiary?', ['Facts (whole USD): Orontes has both power and exposure to significant losses', 'Conclusion: Orontes consolidates']), ('NCI in consolidation', ["Facts (whole USD): The third party's equity of 100,000", 'Conclusion: Shown as NCI'])], 'sub': 'Facts (whole USD) · Conclusion'})
+
+
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Investment — Category', 'steps': [('Tadmor Retail (75%)', 'Full consolidation'), ('Supplier (30%, significant influence)', 'Equity method'), ('Listed food company (8%)', 'Fair value through net income'), ('Cold-storage SPV that Barada directs and guarantees (VIE)', 'Full consolidation')]})
 
 
 def f3(blank=False):
@@ -28,12 +36,20 @@ def f5(blank=False):
     return flowchain(blank=blank, **{'title': 'Suppose: NCI in Levant, 2027 (whole USD) — Amount', 'steps': [('NCI at January 1, 2027 (fair value)', '1,900,000'), ("Levant's 2027 net income", '900,000'), ('Less: depreciation on the PP&E step-up (1,200,000 ÷ 10 years)', '(120,000)'), ('Less: upstream unrealized profit', '________'), ('Adjusted net income of Levant', '________'), ('NCI share (20%)', '________')]})
 
 
+def f5b(blank=False):
+    return lanes(blank=blank, **{'title': 'Suppose: Levant items, 2027 (whole USD) by who bears it', 'groups': [('—', ['Intercompany sales and cost of sales', 'Intercompany receivable and payable', 'Loan of 1,000,000 at 6%']), ('Orontes', ['Downstream unrealized profit (30% unsold)', 'Truck sold for 90,000 (carrying 60,000)']), ('Orontes 20,000, NCI 5,000', ['Upstream unrealized profit (40% unsold)'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def f6(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('What consolidated statements are', 'section 16.1'), ('Two control models: VIE first, then votes', 'section 16.2'), ('Full consolidation, proportionate consolidation and the equity method', 'section 16.3'), ('The acquisition: goodwill and noncontrolling interest', 'section 16.4'), ('Eliminating intercompany balances and transactions', 'section 16.5'), ('IFRS differences and what is changing', 'you are here · section 16.6')], 'sub': 'each section uses what the one before it settled'})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Less: upstream unrealized profit', '(25,000)'), ('Adjusted net income of Levant', '900,000 − 120,000 − 25,000 = 755,000'), ('NCI share', '20% × 755,000 = 151,000'), ('Less: dividends paid to NCI', '(20,000)'), ('NCI at December 31, 2027', '1,900,000 + 151,000 − 20,000 = 2,031,000')]})
 
 
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 16 at a glance', 'nodes': [('What consolidated statements are', 'section 16.1'), ('Two control models: VIE first, then votes', 'section 16.2'), ('Full consolidation, proportionate consolidation and the equity method', 'section 16.3'), ('The acquisition: goodwill and noncontrolling interest', 'section 16.4'), ('Eliminating intercompany balances and transactions', 'section 16.5'), ('IFRS differences and what is changing', 'section 16.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'f6': f6, 'frev': frev, 'chmap': chmap}

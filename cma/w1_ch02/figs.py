@@ -12,6 +12,10 @@ def f1(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Purpose and structure of the balance sheet', 'you are here · section 2.1'), ('Current and noncurrent items', 'section 2.2'), ('Classifying debt', 'section 2.3'), ('Other presentation matters', 'section 2.4'), ('Limitations and links to the other statements', 'section 2.5')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f1b(blank=False):
+    return lanes(blank=blank, **{'title': 'Account by category', 'groups': [('Current asset', ['Prepaid rent', 'Allowance for credit losses']), ('Noncurrent asset', ['Land']), ('Current liability', ['Dividends payable']), ('Equity', ['Additional paid-in capital'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def f2(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Purpose and structure of the balance sheet', 'section 2.1'), ('Current and noncurrent items', 'you are here · section 2.2'), ('Classifying debt', 'section 2.3'), ('Other presentation matters', 'section 2.4'), ('Limitations and links to the other statements', 'section 2.5')], 'sub': 'each section uses what the one before it settled'})
 
@@ -28,8 +32,12 @@ def f5(blank=False):
     return lanes(blank=blank, **{'title': 'Account / memo (USD 000) by side', 'groups': [('debit', ['Cash', 'Accounts receivable', 'Inventory', 'Prepaid rent', 'Land']), ('credit', ['Allowance for credit losses'])], 'sub': 'every one of these is in the book’s own table'})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Account — Category', 'steps': [('Prepaid rent', ''), ('Land', ''), ('Allowance for credit losses', ''), ('Dividends payable', ''), ('Additional paid-in capital', '')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 2 at a glance', 'nodes': [('Purpose and structure of the balance sheet', 'section 2.1'), ('Current and noncurrent items', 'section 2.2'), ('Classifying debt', 'section 2.3'), ('Other presentation matters', 'section 2.4'), ('Limitations and links to the other statements', 'section 2.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'chmap': chmap}

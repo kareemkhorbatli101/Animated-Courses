@@ -3,10 +3,16 @@
 
 HANDOUT = {'id': '3.6',
  'n': 6,
- 'pages': 5,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P3-10',
+            'p:P3-11',
+            'p:P3-13',
+            'p:P3-15',
+            'p:P3-16',
+            'p:P3-21',
             'sc:SC3-5',
             'sc:SC3-6',
             'sc:SC3-7',
@@ -44,9 +50,11 @@ HANDOUT = {'id': '3.6',
            'whole chapter. Then fill the gaps.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
-             'a figure to read',
-             "A company's warehouse is destroyed by an earthquake, which is "
-             'rare in its area. Under current U.S. GAAP the loss is shown:'],
+             'a figure to read · Orontes Foods Inc., year ended December 31, '
+             '2025',
+             'Orontes sells an oven with a cost of $60,000 and accumulated '
+             'depreciation of $42,000 for $21,000. How is the sale shown on '
+             'the income statement?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -85,63 +93,59 @@ HANDOUT = {'id': '3.6',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The results of a ',
-                       24,
-                       ', including any gain or loss on disposal, appear '
-                       'below ',
-                       35,
-                       ', net of their own tax. This is called ',
+             'parts': ['An ',
                        28,
-                       '. Ask the questions in order: OCI first, then '
-                       'discontinued operations, then unusual items, and '
-                       'finally main activities or ',
-                       26,
-                       '. Decision chart: where does an item go in the ',
-                       18,
-                       '?.'],
-             'bank': ['discontinued operation',
-                      'other income and expense',
-                      'income from continuing operations',
-                      'comprehensive income',
+                       ', such as a large fire loss, is shown as a separate '
+                       'line within continuing operations, before tax. A ',
+                       24,
+                       ' is a ',
+                       24,
+                       ' that the company has sold, has classified as held '
+                       'for sale, or has abandoned. The disposal must also '
+                       'be a ',
+                       17,
+                       ' with a major effect on the company.'],
+             'bank': ['unusual or infrequent item',
+                      'discontinued operation',
+                      'strategic shift',
                       'operating income',
-                      'income statement',
-                      'intraperiod tax allocation'],
-             'a': 'discontinued operation · income from continuing '
-                  'operations · intraperiod tax allocation · other income '
-                  'and expense · income statement',
+                      'comprehensive income',
+                      'component of an entity'],
+             'a': 'unusual or infrequent item · discontinued operation · '
+                  'component of an entity · strategic shift',
              'one': True,
-             'why': 'The book writes: “The results of a discontinued '
-                    'operation, including any gain or loss on disposal, '
-                    'appear below income from continuing operations, net of '
-                    'their own tax. This is called intraperiod tax '
-                    'allocation. Ask the questions in order: OCI first, then '
-                    'discontinued operations, then unusual items, and '
-                    'finally main activities or other income and expense. '
-                    'Decision chart: where does an item go in the income '
-                    'statement?.”'},
+             'why': 'The book writes: “An unusual or infrequent item, such '
+                    'as a large fire loss, is shown as a separate line '
+                    'within continuing operations, before tax. A '
+                    'discontinued operation is a component of an entity that '
+                    'the company has sold, has classified as held for sale, '
+                    'or has abandoned. The disposal must also be a strategic '
+                    'shift with a major effect on the company.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['OCI builds a balance in equity called accumulated '
-                       'other ',
-                       22,
-                       ' (AOCI). When an item is realized, for example when '
-                       'Orontes sells an AFS security, the gain or loss '
-                       'moves from AOCI into net income. This ',
-                       29,
-                       ' stops the same gain being counted twice.'],
-             'bank': ['reclassification adjustment',
-                      'strategic shift',
+             'parts': ['IFRS 18 replaces IAS 1 and adds required ',
+                       11,
+                       ', ',
+                       11,
+                       ' operating profit. Both apply from 2027 and are not '
+                       'testable before about January 2028. French résultat '
+                       'means profit, not result in general, and résultat ',
+                       14,
+                       ' is not a U.S. category.'],
+             'bank': ['including',
+                      'comprehensive income',
+                      'exceptionnel',
                       'operating income',
-                      'comprehensive income'],
-             'a': 'comprehensive income · reclassification adjustment',
+                      'subtotals'],
+             'a': 'subtotals · including · exceptionnel',
              'one': True,
-             'why': 'The book writes: “OCI builds a balance in equity called '
-                    'accumulated other comprehensive income (AOCI). When an '
-                    'item is realized, for example when Orontes sells an AFS '
-                    'security, the gain or loss moves from AOCI into net '
-                    'income. This reclassification adjustment stops the same '
-                    'gain being counted twice.”'}]),
+             'why': 'The book writes: “IFRS 18 replaces IAS 1 and adds '
+                    'required subtotals, including operating profit. Both '
+                    'apply from 2027 and are not testable before about '
+                    'January 2028. French résultat means profit, not result '
+                    'in general, and résultat exceptionnel is not a U.S. '
+                    'category.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -154,6 +158,7 @@ HANDOUT = {'id': '3.6',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -165,24 +170,6 @@ HANDOUT = {'id': '3.6',
              'a': 'D',
              'why': 'The book numbers “Purpose and structure of the income '
                     'statement” as section 3.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.2?',
-             'o': ['Purpose and structure of the income statement',
-                   'Building the multi-step income statement',
-                   'Unusual items and discontinued operations',
-                   'Limitations and links to the other statements'],
-             'a': 'B',
-             'why': 'The book numbers “Building the multi-step income '
-                    'statement” as section 3.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.3?',
-             'o': ['Purpose and structure of the income statement',
-                   'Building the multi-step income statement',
-                   'Unusual items and discontinued operations',
-                   'Limitations and links to the other statements'],
-             'a': 'C',
-             'why': 'The book numbers “Unusual items and discontinued '
-                    'operations” as section 3.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -197,115 +184,63 @@ HANDOUT = {'id': '3.6',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Why can two similar companies report different net income '
-                  'for the same activity?',
-             'o': ['The income statement uses current market values',
-                   'Net income equals cash received',
-                   'They may use different estimates and accounting methods',
-                   'U.S. GAAP requires one layout'],
+             'q': "Orontes's land has risen in value by $1 million this "
+                  'year. How does this affect the 2025 income statement?',
+             'o': ['It is a gain in other income',
+                   'It is OCI',
+                   'It has no effect, because the gain is not realized or '
+                   'recognized',
+                   'It increases revenue'],
              'a': 'C',
-             'why': 'Estimates (useful lives) and methods (FIFO or LIFO) '
-                    'reduce comparability. A is wrong: Most amounts are '
-                    'based on historical cost. B is wrong: Net income is an '
-                    'accrual measure, not cash.',
-             'src': 'SC3-9'}]),
-          ('pair',
-           'Compare every answer with your partner first.',
-           'name the section each question belongs to. Most disagreements '
-           'turn out to be about the section, not the answer.'),
-          ('check',
-           "A company's warehouse is destroyed by an earthquake, which is "
-           'rare in its area. Under current U.S. GAAP the loss is shown:',
-           ['as a separate line in continuing operations, before tax',
-            'as an extraordinary item, net of tax',
-            'in discontinued operations',
-            'in OCI'],
-           'A',
-           'go back to the MODEL move of cycle A and find the section this '
-           'question belongs to.',
-           'Extraordinary items were removed in 2015; unusual or infrequent '
-           'items stay in continuing operations. B is wrong: Extraordinary '
-           'items no longer exist. C is wrong: No component was sold or '
-           'abandoned.'),
-          ('cycle', 'B', 'The chapter’s case set'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'In a case question, the exhibit has to be read and '
-                  'adjusted before any figure is worked out.',
-             'a': 'T',
-             'why': 'Every later answer depends on the adjusted exhibit.'}]),
-          ('move', 'MODEL', ''),
+             'why': 'Unrecognized increases in value are one limitation of '
+                    'the income statement. A is wrong: U.S. GAAP does not '
+                    'recognize this increase. B is wrong: Revaluation '
+                    'surplus in OCI is an IFRS option only.',
+             'src': 'P3-16'}]),
           ('panel',
-           'The chapter’s case set, item by item',
-           [['Item', 'What it asks'],
-            ['C3-1',
-             'Place each item in the section of the multi-step income '
-             'statement where it belongs. (On the exam screen you would drag '
-             'e'],
-            ['C3-2', "Enter Barada's operating income for 2026."],
-            ['C3-3', "Enter Barada's income from continuing operations."],
-            ['C3-4',
-             'Enter the loss from discontinued operations, net of tax (as a '
-             'positive number).'],
-            ['C3-5', "Enter Barada's net income for 2026."],
-            ['C3-6', 'How does Barada present the fire loss? [select]']],
+           'Orontes Foods Inc., year ended December 31, 2025 — the extract '
+           'for the question that follows',
+           [['Orontes Foods Inc., year ended December 31, 2025', '2025'],
+            ['Net sales', '42,000,000'],
+            ['Cost of goods sold', '(27,300,000)'],
+            ['Gross profit', '14,700,000'],
+            ['Operating expenses', ''],
+            ['Selling, general and administrative', '(7,237,000)'],
+            ['Credit loss expense', '(63,000)'],
+            ['Research and development', '(500,000)'],
+            ['Impairment losses', '(2,724,000)'],
+            ['Total operating expenses', '(10,524,000)'],
+            ['Operating income', '4,176,000'],
+            ['Other income and (expense)', ''],
+            ['Interest expense', '(390,000)'],
+            ['Interest and dividend income', '3,800'],
+            ['Unrealized gains on securities', '4,000'],
+            ['Equity-method income', '177,000'],
+            ['Gain on sale of equipment', '3,000'],
+            ['Loss on sale of receivables', '(15,000)'],
+            ['Total other income and (expense)', '(217,200)'],
+            ['Income before income taxes', '3,958,800'],
+            ['Income tax expense', '(989,700)'],
+            ['Net income', '2,969,100'],
+            ['Earnings per share, basic and diluted', '$0.37'],
+            ['Weighted-average shares outstanding', '8,099,726'],
+            ['Other comprehensive income', ''],
+            ['Unrealized loss on available-for-sale debt securities, net of '
+             'tax of 375',
+             '(1,125)'],
+            ['Comprehensive income', '2,967,975']],
            ''),
-          ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which of these does item C3-1 ask for?',
-             'o': ['How does Barada present the fire loss? [select]',
-                   'Place each item in the section of the multi-step income '
-                   'statement wher',
-                   "Enter Barada's income from continuing operations.",
-                   'Enter the loss from discontinued operations, net of tax '
-                   '(as a positive'],
-             'a': 'B',
-             'why': 'The book states item C3-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C3-2 ask for?',
-             'o': ["Enter Barada's net income for 2026.",
-                   "Enter Barada's operating income for 2026.",
-                   "Enter Barada's income from continuing operations.",
-                   'How does Barada present the fire loss? [select]'],
-             'a': 'B',
-             'why': 'The book states item C3-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C3-3 ask for?',
-             'o': ["Enter Barada's net income for 2026.",
-                   "Enter Barada's operating income for 2026.",
-                   "Enter Barada's income from continuing operations.",
-                   'How does Barada present the fire loss? [select]'],
+             'q': 'The extract for this question is printed with it. Which '
+                  "amount is Orontes's income before income taxes for 2025 "
+                  '(whole USD)?',
+             'o': ['2,969,100', '3,781,800', '3,958,800', '4,176,000'],
              'a': 'C',
-             'why': 'The book states item C3-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C3-4 ask for?',
-             'o': ["Enter Barada's income from continuing operations.",
-                   'Enter the loss from discontinued operations, net of tax '
-                   '(as a positive',
-                   'Place each item in the section of the multi-step income '
-                   'statement wher',
-                   'How does Barada present the fire loss? [select]'],
-             'a': 'B',
-             'why': 'The book states item C3-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C3-5 ask for?',
-             'o': ["Enter Barada's income from continuing operations.",
-                   "Enter Barada's net income for 2026.",
-                   'How does Barada present the fire loss? [select]',
-                   "Enter Barada's operating income for 2026."],
-             'a': 'B',
-             'why': 'The book states item C3-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C3-6 ask for?',
-             'o': ['How does Barada present the fire loss? [select]',
-                   "Enter Barada's operating income for 2026.",
-                   "Enter Barada's income from continuing operations.",
-                   "Enter Barada's net income for 2026."],
-             'a': 'A',
-             'why': 'The book states item C3-6 in those words.'}]),
-          ('move', 'APPLY', ''),
+             'why': 'Operating income plus other income and expense. A is '
+                    'wrong: This is after tax. B is wrong: This leaves out '
+                    'equity-method income.',
+             'src': 'P3-21'}]),
           ('items',
            [{'t': 'MCQ',
              'q': "A company's warehouse is destroyed by an earthquake, "
@@ -337,6 +272,102 @@ HANDOUT = {'id': '3.6',
                     'is not a strategic shift. C is wrong: Selling one asset '
                     'gives a gain or loss, not a discontinued operation.',
              'src': 'SC3-6'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "Use Section 3.4. What is Orontes's comprehensive income "
+                  'for 2025 (whole USD)?',
+             'o': ['2,967,600', '2,967,975', '2,969,100', '2,971,975'],
+             'a': 'B',
+             'why': 'Net income of $2,969,100 minus the OCI loss of $1,125, '
+                    'net of tax. A is wrong: This uses the OCI loss before '
+                    'tax. C is wrong: This is net income only; OCI is '
+                    'missing.',
+             'src': 'SC3-7'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Under U.S. GAAP, which item is reported in OCI?',
+             'o': ['An unrealized gain on equity securities',
+                   'A revaluation increase on land',
+                   'An unrealized loss on available-for-sale debt securities',
+                   'A gain on the sale of equipment'],
+             'a': 'C',
+             'why': 'AFS debt securities are measured at fair value with '
+                    'changes in OCI. A is wrong: Equity securities changes '
+                    'go to net income. B is wrong: U.S. GAAP does not allow '
+                    'upward revaluation of land.',
+             'src': 'SC3-8'}]),
+          ('pair',
+           'Compare every answer with your partner first.',
+           'name the section each question belongs to. Most disagreements '
+           'turn out to be about the section, not the answer.'),
+          ('check',
+           'Orontes sells an oven with a cost of $60,000 and accumulated '
+           'depreciation of $42,000 for $21,000. How is the sale shown on '
+           'the income statement?',
+           ['Revenue of $21,000',
+            'A gain of $3,000 in other income and expense',
+            'A gain of $21,000',
+            'A loss of $39,000'],
+           'B',
+           'go back to the MODEL move of cycle A and find the section this '
+           'question belongs to.',
+           'Proceeds of $21,000 minus the carrying amount of $18,000; gains '
+           'are shown net. A is wrong: Selling equipment is not revenue. C '
+           'is wrong: Gains are shown net, not as the full proceeds.'),
+          ('cycle', 'B', 'The chapter’s case set'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'In a case question, the exhibit has to be read and '
+                  'adjusted before any figure is worked out.',
+             'a': 'T',
+             'why': 'Every later answer depends on the adjusted exhibit.'}]),
+          ('move', 'MODEL', ''),
+          ('panel',
+           'The chapter’s case set, item by item',
+           [['Item', 'What it asks'],
+            ['C3-1',
+             'Place each item in the section of the multi-step income '
+             'statement where it belongs. (On the exam screen you would drag '
+             'e'],
+            ['C3-2', "Enter Barada's operating income for 2026."],
+            ['C3-3', "Enter Barada's income from continuing operations."],
+            ['C3-4',
+             'Enter the loss from discontinued operations, net of tax (as a '
+             'positive number).'],
+            ['C3-5', "Enter Barada's net income for 2026."],
+            ['C3-6', 'How does Barada present the fire loss? [select]']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['How does Barada present the fire loss? [select]',
+                      'Enter the loss from discontinued operations, net of '
+                      'tax (as a positive number).',
+                      "Enter Barada's net income for 2026.",
+                      "Enter Barada's operating income for 2026.",
+                      "Enter Barada's income from continuing operations."],
+             'right': ['first', 'second', 'third', 'fourth', 'fifth'],
+             'a': ['E', 'C', 'D', 'A', 'B'],
+             'whys': ['', '', '', '', '']}]),
+          ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Why can two similar companies report different net income '
+                  'for the same activity?',
+             'o': ['The income statement uses current market values',
+                   'Net income equals cash received',
+                   'They may use different estimates and accounting methods',
+                   'U.S. GAAP requires one layout'],
+             'a': 'C',
+             'why': 'Estimates (useful lives) and methods (FIFO or LIFO) '
+                    'reduce comparability. A is wrong: Most amounts are '
+                    'based on historical cost. B is wrong: Net income is an '
+                    'accrual measure, not cash.',
+             'src': 'SC3-9'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

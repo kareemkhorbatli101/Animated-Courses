@@ -3,17 +3,11 @@
 
 HANDOUT = {'id': '12.3',
  'n': 3,
- 'pages': 6,
+ 'pages': 4,
  'title': 'Short-term debt expected to be refinanced',
  'sub': 'section 12.3 of the book',
  'covers': ['sec:12.3',
-            'p:P12-13',
-            'p:P12-14',
-            'p:P12-15',
-            'p:P12-16',
-            'sc:P12-13',
-            'p:P12-17',
-            'p:P12-18',
+            'p:P12-06',
             'term:qualifying financing agreement',
             'term:compensated absences'],
  'skills': [('read3', 3)],
@@ -27,9 +21,7 @@ HANDOUT = {'id': '12.3',
             ['Short-term debt expected to be refinanced',
              'a figure to read · Suppose: Orontes, commercial paper of '
              '3,000,000',
-             'A company issues shares after year-end, before issuance, for '
-             '$400,000 to refinance a $500,000 short-term note. How much of '
-             'the note is current?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -38,82 +30,75 @@ HANDOUT = {'id': '12.3',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['A ',
+             'parts': ['The company shows its ability in one of two ways, '
+                       'before the ',
                        12,
-                       ' ',
+                       ' are issued. It can actually refinance: issue '
+                       'long-term debt or shares after the balance sheet '
+                       'date and use the cash for the ',
                        12,
-                       ' is normally current. It may be shown as ',
-                       12,
-                       ' only if the company intends to refinance it on a '
-                       'long-term basis and shows that it can. Chapter 2 '
-                       'introduced this rule; here we apply it in detail.'],
-             'bank': ['short-term',
+                       ' debt. Or it can sign a ',
+                       32,
+                       '.'],
+             'bank': ['statements',
                       'current liabilities',
                       'sales tax payable',
-                      'noncurrent',
-                      'obligation'],
-             'a': 'short-term · obligation · noncurrent',
+                      'qualifying financing agreement',
+                      'short-term'],
+             'a': 'statements · short-term · qualifying financing agreement',
              'one': True,
-             'why': 'The book writes: “A short-term obligation is normally '
-                    'current. It may be shown as noncurrent only if the '
-                    'company intends to refinance it on a long-term basis '
-                    'and shows that it can. Chapter 2 introduced this rule; '
-                    'here we apply it in detail.”'},
+             'why': 'The book writes: “The company shows its ability in one '
+                    'of two ways, before the statements are issued. It can '
+                    'actually refinance: issue long-term debt or shares '
+                    'after the balance sheet date and use the cash for the '
+                    'short-term debt. Or it can sign a qualifying financing '
+                    'agreement.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Or it can sign a ',
+             'parts': ['The ',
                        12,
-                       ' ',
-                       11,
-                       ' agreement. A qualifying agreement does not expire '
-                       'within one year, cannot be cancelled except for an '
-                       'objective violation, has no violation, and the '
-                       'lender can pay. An agreement that the lender may '
-                       "cancel for a 'material adverse change' does not "
-                       'qualify, because that clause is ',
+                       ' amount cannot exceed the amount ',
                        12,
-                       '.'],
-             'bank': ['subjective',
-                      'qualifying',
-                      'financing',
+                       ' or available. Debt repaid with current assets '
+                       'before the new financing is obtained stays current. '
+                       'Refinanced debt moves to noncurrent ',
+                       13,
+                       ', never to equity, even when shares are issued.'],
+             'bank': ['liabilities',
+                      'noncurrent',
+                      'refinanced',
                       'current liabilities',
                       'sales tax payable'],
-             'a': 'qualifying · financing · subjective',
+             'a': 'noncurrent · refinanced · liabilities',
              'one': True,
-             'why': 'The book writes: “Or it can sign a qualifying financing '
-                    'agreement. A qualifying agreement does not expire '
-                    'within one year, cannot be cancelled except for an '
-                    'objective violation, has no violation, and the lender '
-                    'can pay. An agreement that the lender may cancel for a '
-                    "'material adverse change' does not qualify, because "
-                    'that clause is subjective.”'},
+             'why': 'The book writes: “The noncurrent amount cannot exceed '
+                    'the amount refinanced or available. Debt repaid with '
+                    'current assets before the new financing is obtained '
+                    'stays current. Refinanced debt moves to noncurrent '
+                    'liabilities, never to equity, even when shares are '
+                    'issued.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
+             'parts': ['Repaid first, ',
                        12,
-                       ' debt moves to ',
+                       ' later: still current. Refinanced with shares: ',
                        12,
-                       ' ',
-                       13,
-                       ', never to equity, even when shares are issued. '
-                       'Decision chart: can short-term debt be shown as '
-                       'noncurrent?. Repaid first, refinanced later: still '
-                       'current.'],
+                       ' liability up to the proceeds, not equity. A '
+                       "'material adverse change' clause makes the agreement "
+                       'fail.'],
              'bank': ['noncurrent',
-                      'Refinanced',
-                      'sales tax payable',
-                      'liabilities',
-                      'current liabilities'],
-             'a': 'Refinanced · noncurrent · liabilities',
+                      'refinanced',
+                      'current liabilities',
+                      'sales tax payable'],
+             'a': 'refinanced · noncurrent',
              'one': True,
-             'why': 'The book writes: “Refinanced debt moves to noncurrent '
-                    'liabilities, never to equity, even when shares are '
-                    'issued. Decision chart: can short-term debt be shown as '
-                    'noncurrent?. Repaid first, refinanced later: still '
-                    'current.”'}],
+             'why': 'The book writes: “Repaid first, refinanced later: still '
+                    'current. Refinanced with shares: noncurrent liability '
+                    "up to the proceeds, not equity. A 'material adverse "
+                    "change' clause makes the agreement fail.”"}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -183,100 +168,38 @@ HANDOUT = {'id': '12.3',
                    'Short-term debt expected to be refinanced'],
              'a': 'A',
              'why': 'The book numbers “What makes a liability current” as '
-                    'section 12.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.2?',
-             'o': ['Payroll, taxes collected and compensated absences',
-                   'IFRS and covenants',
-                   'What makes a liability current',
-                   'Short-term debt expected to be refinanced'],
-             'a': 'A',
-             'why': 'The book numbers “Payroll, taxes collected and '
-                    'compensated absences” as section 12.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.3?',
-             'o': ['What makes a liability current',
-                   'Payroll, taxes collected and compensated absences',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants'],
-             'a': 'C',
-             'why': 'The book numbers “Short-term debt expected to be '
-                    'refinanced” as section 12.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 12.4?',
-             'o': ['Warranties',
-                   'Short-term debt expected to be refinanced',
-                   'IFRS and covenants',
-                   'What makes a liability current'],
-             'a': 'C',
-             'why': 'The book numbers “IFRS and covenants” as section '
-                    '12.4.'}]),
+                    'section 12.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company issues shares after year-end, before issuance, '
-                  'for $400,000 to refinance a $500,000 short-term note. How '
-                  'much of the note is current?',
-             'o': ['$0', '$100,000', '$400,000', '$500,000'],
-             'a': 'B',
-             'why': 'Only the amount refinanced is noncurrent. A is wrong: '
-                    'The noncurrent part is limited to the proceeds. C is '
-                    'wrong: This is the noncurrent part.',
-             'src': 'P12-13'},
-            {'t': 'MCQ',
-             'q': 'Under IAS 1, a company breaks a covenant at the reporting '
-                  'date and gets a 15-month waiver two weeks later. The loan '
-                  'is:',
-             'o': ['noncurrent',
-                   'current',
-                   'noncurrent if the waiver was expected',
-                   'disclosed only'],
-             'a': 'B',
-             'why': 'The right to defer did not exist at the reporting date. '
-                    'A is wrong: This is the U.S. GAAP answer. C is wrong: '
-                    'Expectations do not create rights.',
-             'src': 'P12-14'},
-            {'t': 'MCQ',
-             'q': 'A company sells a separately priced two-year extended '
-                  'warranty. It records the cash received as:',
-             'o': ['revenue at the sale',
-                   'a reduction of warranty expense',
-                   'a contract liability, recognized as revenue over two '
-                   'years',
-                   'a warranty liability for expected repairs'],
-             'a': 'C',
-             'why': 'A separately sold warranty is a service-type '
-                    'performance obligation. A is wrong: The service has not '
-                    'yet been provided. B is wrong: It is revenue, not a '
-                    'cost reduction.',
-             'src': 'P12-15'},
-            {'t': 'MCQ',
-             'q': 'A company sold products for $800,000 with a one-year '
-                  'assurance warranty. It expects repairs of 3% of sales and '
-                  'spent $9,000 on repairs this year. What is the year-end '
-                  'warranty liability?',
-             'o': ['$0', '$9,000', '$15,000', '$24,000'],
-             'a': 'C',
-             'why': 'Accrual of $24,000 minus $9,000 of repairs. A is wrong: '
-                    'Future repairs are still expected. B is wrong: This is '
-                    'the repairs already made.',
-             'src': 'P12-16'}]),
+             'q': "A state's unclaimed-property law requires a retailer to "
+                  'hand over the value of gift cards that are never used. '
+                  'For these cards, the retailer:',
+             'o': ['recognizes breakage revenue as cards expire',
+                   'recognizes revenue when the cards are sold',
+                   'records a reserve in equity',
+                   'keeps a liability until it pays the state; it does not '
+                   'recognize breakage revenue'],
+             'a': 'D',
+             'why': 'Amounts owed to the state are not breakage; they remain '
+                    'a liability. A is wrong: Breakage is recognized only '
+                    'for amounts the retailer expects to keep. B is wrong: '
+                    'Gift cards are contract liabilities until used.',
+             'src': 'P12-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company issues shares after year-end, before issuance, for '
-           '$400,000 to refinance a $500,000 short-term note. How much of '
-           'the note is current?',
-           ['$0', '$100,000', '$400,000', '$500,000'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Only the amount refinanced is noncurrent. A is wrong: The '
-           'noncurrent part is limited to the proceeds. C is wrong: This is '
-           'the noncurrent part.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -303,30 +226,15 @@ HANDOUT = {'id': '12.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which factor suggests that a warranty that cannot be '
-                  'bought separately is service-type?',
-             'o': ['The law requires it',
-                   'It covers the product for much longer than defects '
-                   'normally appear',
-                   'It only repairs defects present at delivery',
-                   'It lasts 90 days'],
-             'a': 'B',
-             'why': 'Long coverage suggests an extra service. A is wrong: '
-                    'Legal requirements suggest assurance. C is wrong: '
-                    'Repairing existing defects is assurance.',
-             'src': 'P12-17'},
-            {'t': 'MCQ',
-             'q': 'In which year is the expense for an assurance-type '
-                  'warranty recognized?',
-             'o': ['The year of the sale',
-                   'The year repairs are paid',
-                   'The year the warranty ends',
-                   'Spread evenly over the warranty period'],
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
              'a': 'A',
-             'why': 'Matching: the cost belongs to the revenue it supports. '
-                    'B is wrong: This is a cash basis. C is wrong: The '
-                    'obligation exists from the sale.',
-             'src': 'P12-18'}]),
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

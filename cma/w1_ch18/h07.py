@@ -3,10 +3,16 @@
 
 HANDOUT = {'id': '18.7',
  'n': 7,
- 'pages': 6,
+ 'pages': 7,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P18-08',
+            'p:P18-09',
+            'p:P18-10',
+            'p:P18-11',
+            'p:P18-12',
+            'p:P18-15',
             'sc:SC18-1',
             'sc:SC18-2',
             'sc:SC18-3',
@@ -49,8 +55,8 @@ HANDOUT = {'id': '18.7',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'Which statement correctly describes the relationship between '
-             'the three ideas?'],
+             'In the worked example, which capital falls when Orontes pays '
+             'for the irrigation system?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -63,67 +69,56 @@ HANDOUT = {'id': '18.7',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
+             'parts': ['Without ',
                        21,
-                       ' is the way management considers the relationships '
-                       "between the company's units and the resources, or ",
-                       11,
-                       ', that it uses and affects. It leads to decisions '
-                       'that consider value creation over the short, medium '
-                       'and long term. ',
-                       22,
-                       ' is the process, founded on integrated thinking, '
-                       'that results in a periodic integrated report.'],
-             'bank': ['capitals',
+                       ', a report is just a collection of separate facts. '
+                       'The rules are in the ',
+                       15,
+                       ' <IR> Framework, last revised in January 2021. The '
+                       'IFRS Foundation now owns it, and the IASB and the '
+                       'ISSB are jointly ',
+                       13,
+                       ' for it.'],
+             'bank': ['International',
                       'human capital',
                       'natural capital',
-                      'Integrated thinking',
-                      'Integrated reporting'],
-             'a': 'Integrated thinking · capitals · Integrated reporting',
+                      'integrated thinking',
+                      'responsible'],
+             'a': 'integrated thinking · International · responsible',
              'one': True,
-             'why': 'The book writes: “Integrated thinking is the way '
-                    'management considers the relationships between the '
-                    "company's units and the resources, or capitals, that it "
-                    'uses and affects. It leads to decisions that consider '
-                    'value creation over the short, medium and long term. '
-                    'Integrated reporting is the process, founded on '
-                    'integrated thinking, that results in a periodic '
-                    'integrated report.”'},
+             'why': 'The book writes: “Without integrated thinking, a report '
+                    'is just a collection of separate facts. The rules are '
+                    'in the International <IR> Framework, last revised in '
+                    'January 2021. The IFRS Foundation now owns it, and the '
+                    'IASB and the ISSB are jointly responsible for it.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['They are ',
-                       19,
-                       ', ',
-                       22,
-                       ', ',
-                       22,
-                       ', human capital, ',
-                       33,
-                       ' and natural capital. In the ',
+             'parts': ['In the ',
                        24,
-                       ', the business model takes capitals as inputs and '
-                       'turns them, through its activities, into outputs: '
-                       'products, by-products and waste.'],
-             'bank': ['financial capital',
+                       ', the business model takes ',
+                       11,
+                       ' as inputs and turns them, through its activities, '
+                       'into ',
+                       11,
+                       ': products, by-products and waste. The ',
+                       11,
+                       ' are the effects on the capitals, inside and outside '
+                       'the company.'],
+             'bank': ['value creation process',
+                      'outputs',
                       'human capital',
-                      'value creation process',
-                      'intellectual capital',
                       'natural capital',
-                      'manufactured capital',
-                      'social and relationship capital'],
-             'a': 'financial capital · manufactured capital · intellectual '
-                  'capital · social and relationship capital · value '
-                  'creation process',
+                      'capitals',
+                      'outcomes'],
+             'a': 'value creation process · capitals · outputs · outcomes',
              'one': True,
-             'why': 'The book writes: “They are financial capital, '
-                    'manufactured capital, intellectual capital, human '
-                    'capital, social and relationship capital and natural '
-                    'capital. In the value creation process, the business '
-                    'model takes capitals as inputs and turns them, through '
-                    'its activities, into outputs: products, by-products and '
-                    'waste.”'},
+             'why': 'The book writes: “In the value creation process, the '
+                    'business model takes capitals as inputs and turns them, '
+                    'through its activities, into outputs: products, '
+                    'by-products and waste. The outcomes are the effects on '
+                    'the capitals, inside and outside the company.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -166,6 +161,7 @@ HANDOUT = {'id': '18.7',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -178,24 +174,6 @@ HANDOUT = {'id': '18.7',
              'a': 'D',
              'why': 'The book numbers “Integrated thinking, integrated '
                     'reporting and the integrated report” as section 18.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 18.2?',
-             'o': ['Guiding principles and content elements',
-                   'Benefits and challenges',
-                   'The primary purpose',
-                   'Value creation and the six capitals'],
-             'a': 'C',
-             'why': 'The book numbers “The primary purpose” as section '
-                    '18.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 18.3?',
-             'o': ['Benefits and challenges',
-                   'The primary purpose',
-                   'Value creation and the six capitals',
-                   'Guiding principles and content elements'],
-             'a': 'C',
-             'why': 'The book numbers “Value creation and the six capitals” '
-                    'as section 18.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -208,6 +186,161 @@ HANDOUT = {'id': '18.7',
                       'Integrated reporting and sustainability disclosures'],
              'right': ['18.1', '18.2', '18.3', '18.4', '18.5', '18.6'],
              'a': ['A', 'B', 'C', 'D', 'E', 'F'],
+             'whys': ['', '', '', '', '', '']}]),
+          ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which content element explains how the company decided '
+                  'what to include and how it measured it?',
+             'o': ['Basis of preparation and presentation',
+                   'Strategy and resource allocation',
+                   'Risks and opportunities',
+                   'Organizational overview and external environment'],
+             'a': 'A',
+             'why': 'This element covers the materiality process and '
+                    'measurement methods. B is wrong: Strategy is about '
+                    'direction and resources. C is wrong: This element '
+                    'covers what could help or harm value creation.',
+             'src': 'P18-12'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company fears that disclosing its product plans will '
+                  'help competitors. This concern is:',
+             'o': ['a guiding principle',
+                   'a content element',
+                   'a benefit of integrated reporting',
+                   'a challenge of integrated reporting'],
+             'a': 'D',
+             'why': 'Competitive sensitivity is a known challenge. A is '
+                    'wrong: It is not one of the seven principles. B is '
+                    'wrong: It is not one of the eight elements.',
+             'src': 'P18-15'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which statement correctly describes the relationship '
+                  'between the three ideas?',
+             'o': ['The integrated report produces integrated thinking',
+                   'Integrated thinking drives integrated reporting, the '
+                   'process that produces the integrated report',
+                   'Integrated reporting is the report; integrated thinking '
+                   'is the process',
+                   'They are three names for the same document'],
+             'a': 'B',
+             'why': 'Thinking comes first; reporting is the process; the '
+                    'report is the product. A is wrong: The direction is '
+                    'reversed. C is wrong: Integrated reporting is the '
+                    'process, not the report.',
+             'src': 'SC18-1'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Who is now responsible for the International <IR> '
+                  'Framework?',
+             'o': ['The IASB and the ISSB, within the IFRS Foundation',
+                   'The IIRC, as an independent body',
+                   'The FASB',
+                   'The SEC'],
+             'a': 'A',
+             'why': "The IIRC's work moved to the IFRS Foundation in 2022. B "
+                    'is wrong: The IIRC no longer exists as an independent '
+                    'body. C is wrong: The FASB does not issue the '
+                    'Framework.',
+             'src': 'SC18-2'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'What is the primary purpose of an integrated report?',
+             'o': ["To report the company's greenhouse gas emissions",
+                   'To meet SEC filing requirements',
+                   'To explain to providers of financial capital how the '
+                   'company creates, preserves or erodes value over time',
+                   'To replace the financial statements'],
+             'a': 'C',
+             'why': 'The Framework names providers of financial capital as '
+                    'the primary audience. A is wrong: That is one possible '
+                    'disclosure, not the purpose. B is wrong: Integrated '
+                    'reporting is voluntary in the U.S.',
+             'src': 'SC18-3'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': "Orontes's draft integrated report says it is written "
+                  "'mainly for our employees'. What should the reviewer say?",
+             'o': ['This is correct: employees are the primary audience',
+                   'Integrated reports are written mainly for the government',
+                   'The audience does not matter',
+                   'The primary audience should be providers of financial '
+                   'capital; employees also benefit'],
+             'a': 'D',
+             'why': 'Other stakeholders benefit, but investors and lenders '
+                    'come first. A is wrong: Employees are not the primary '
+                    'audience. B is wrong: Regulators are not the primary '
+                    'audience.',
+             'src': 'SC18-4'}]),
+          ('pair',
+           'Compare every answer with your partner first.',
+           'name the section each question belongs to. Most disagreements '
+           'turn out to be about the section, not the answer.'),
+          ('check',
+           'In the worked example, which capital falls when Orontes pays for '
+           'the irrigation system?',
+           ['Natural capital',
+            'Human capital',
+            'Intellectual capital',
+            'Financial capital'],
+           'D',
+           'go back to the MODEL move of cycle A and find the section this '
+           'question belongs to.',
+           'The payment uses funds. A is wrong: Natural capital is preserved '
+           'by lower water use. B is wrong: Training raises human capital.'),
+          ('cycle', 'B', 'The chapter’s case set'),
+          ('move', 'ORIENT', ''),
+          ('items',
+           [{'t': 'TF',
+             'q': 'In a case question, the exhibit has to be read and '
+                  'adjusted before any figure is worked out.',
+             'a': 'T',
+             'why': 'Every later answer depends on the adjusted exhibit.'}]),
+          ('move', 'MODEL', ''),
+          ('panel',
+           'The chapter’s case set, item by item',
+           [['Item', 'What it asks'],
+            ['C18-1',
+             'Match each disclosure to the capital it mainly affects. (On '
+             'the exam screen you would drag each item into a box.)'],
+            ['C18-2',
+             "Enter the percentage of Barada's 2028 electricity that came "
+             'from its own solar panels (whole number).'],
+            ['C18-3',
+             'Disclosure D6 on fuel prices belongs to which content element? '
+             '[select]'],
+            ['C18-4', 'How should the reviewer correct memo M1? [select]'],
+            ['C18-5', 'Memo M2 applies which guiding principle? [select]'],
+            ['C18-6',
+             'Barada is not listed and reports under U.S. GAAP. Its '
+             'integrated report is: [select]']],
+           ''),
+          ('move', 'READ THE MODEL', ''),
+          ('items',
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Memo M2 applies which guiding principle? [select]',
+                      'Barada is not listed and reports under U.S. GAAP. Its '
+                      'integrated report is: [select]',
+                      'Match each disclosure to the capital it mainly '
+                      'affects. (On the exam screen you would drag each item '
+                      'into a box.)',
+                      "Enter the percentage of Barada's 2028 electricity "
+                      'that came from its own solar panels (whole number).',
+                      'Disclosure D6 on fuel prices belongs to which content '
+                      'element? [select]',
+                      'How should the reviewer correct memo M1? [select]'],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['E', 'F', 'A', 'B', 'C', 'D'],
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
@@ -266,165 +399,6 @@ HANDOUT = {'id': '18.7',
                     'conditions. C is wrong: Basis of preparation covers how '
                     'the report was made.',
              'src': 'SC18-8'}]),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which is a benefit of integrated reporting?',
-             'o': ['It is required by U.S. GAAP',
-                   'It removes the need for audited financial statements',
-                   'It prescribes standard KPIs for all companies',
-                   'It encourages managers to think about how the capitals '
-                   'connect'],
-             'a': 'D',
-             'why': 'Integrated thinking is a key benefit. A is wrong: It is '
-                    'voluntary in the U.S. B is wrong: Financial statements '
-                    'are still required.',
-             'src': 'SC18-9'}]),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which is a challenge of integrated reporting?',
-             'o': ['It is too short to be useful',
-                   'Human and relationship capital are hard to measure '
-                   'reliably',
-                   'It cannot mention risks',
-                   'It is limited to financial information'],
-             'a': 'B',
-             'why': 'Measuring non-financial capitals is a known challenge. '
-                    'A is wrong: Conciseness is a principle, not a weakness. '
-                    'C is wrong: Risks and opportunities is a content '
-                    'element.',
-             'src': 'SC18-10'}]),
-          ('pair',
-           'Compare every answer with your partner first.',
-           'name the section each question belongs to. Most disagreements '
-           'turn out to be about the section, not the answer.'),
-          ('check',
-           'Which statement correctly describes the relationship between the '
-           'three ideas?',
-           ['The integrated report produces integrated thinking',
-            'Integrated thinking drives integrated reporting, the process '
-            'that produces the integrated report',
-            'Integrated reporting is the report; integrated thinking is the '
-            'process',
-            'They are three names for the same document'],
-           'B',
-           'go back to the MODEL move of cycle A and find the section this '
-           'question belongs to.',
-           'Thinking comes first; reporting is the process; the report is '
-           'the product. A is wrong: The direction is reversed. C is wrong: '
-           'Integrated reporting is the process, not the report.'),
-          ('cycle', 'B', 'The chapter’s case set'),
-          ('move', 'ORIENT', ''),
-          ('items',
-           [{'t': 'TF',
-             'q': 'In a case question, the exhibit has to be read and '
-                  'adjusted before any figure is worked out.',
-             'a': 'T',
-             'why': 'Every later answer depends on the adjusted exhibit.'}]),
-          ('move', 'MODEL', ''),
-          ('panel',
-           'The chapter’s case set, item by item',
-           [['Item', 'What it asks'],
-            ['C18-1',
-             'Match each disclosure to the capital it mainly affects. (On '
-             'the exam screen you would drag each item into a box.)'],
-            ['C18-2',
-             "Enter the percentage of Barada's 2028 electricity that came "
-             'from its own solar panels (whole number).'],
-            ['C18-3',
-             'Disclosure D6 on fuel prices belongs to which content element? '
-             '[select]'],
-            ['C18-4', 'How should the reviewer correct memo M1? [select]'],
-            ['C18-5', 'Memo M2 applies which guiding principle? [select]'],
-            ['C18-6',
-             'Barada is not listed and reports under U.S. GAAP. Its '
-             'integrated report is: [select]']],
-           ''),
-          ('move', 'READ THE MODEL', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C18-1 ask for?',
-             'o': ['Disclosure D6 on fuel prices belongs to which content '
-                   'element? [select',
-                   'Match each disclosure to the capital it mainly affects. '
-                   '(On the exam s',
-                   "Enter the percentage of Barada's 2028 electricity that "
-                   'came from its o',
-                   'Barada is not listed and reports under U.S. GAAP. Its '
-                   'integrated repor'],
-             'a': 'B',
-             'why': 'The book states item C18-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C18-2 ask for?',
-             'o': ['Disclosure D6 on fuel prices belongs to which content '
-                   'element? [select',
-                   "Enter the percentage of Barada's 2028 electricity that "
-                   'came from its o',
-                   'Match each disclosure to the capital it mainly affects. '
-                   '(On the exam s',
-                   'Barada is not listed and reports under U.S. GAAP. Its '
-                   'integrated repor'],
-             'a': 'B',
-             'why': 'The book states item C18-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C18-3 ask for?',
-             'o': ['Match each disclosure to the capital it mainly affects. '
-                   '(On the exam s',
-                   "Enter the percentage of Barada's 2028 electricity that "
-                   'came from its o',
-                   'Disclosure D6 on fuel prices belongs to which content '
-                   'element? [select',
-                   'Barada is not listed and reports under U.S. GAAP. Its '
-                   'integrated repor'],
-             'a': 'C',
-             'why': 'The book states item C18-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C18-4 ask for?',
-             'o': ['Match each disclosure to the capital it mainly affects. '
-                   '(On the exam s',
-                   'Memo M2 applies which guiding principle? [select]',
-                   "Enter the percentage of Barada's 2028 electricity that "
-                   'came from its o',
-                   'How should the reviewer correct memo M1? [select]'],
-             'a': 'D',
-             'why': 'The book states item C18-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C18-5 ask for?',
-             'o': ['Match each disclosure to the capital it mainly affects. '
-                   '(On the exam s',
-                   'How should the reviewer correct memo M1? [select]',
-                   'Memo M2 applies which guiding principle? [select]',
-                   "Enter the percentage of Barada's 2028 electricity that "
-                   'came from its o'],
-             'a': 'C',
-             'why': 'The book states item C18-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C18-6 ask for?',
-             'o': ['Barada is not listed and reports under U.S. GAAP. Its '
-                   'integrated repor',
-                   "Enter the percentage of Barada's 2028 electricity that "
-                   'came from its o',
-                   'Match each disclosure to the capital it mainly affects. '
-                   '(On the exam s',
-                   'Disclosure D6 on fuel prices belongs to which content '
-                   'element? [select'],
-             'a': 'A',
-             'why': 'The book states item C18-6 in those words.'}]),
-          ('move', 'APPLY', ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'A company publishes IFRS S2 climate disclosures. Which '
-                  'statement is correct?',
-             'o': ['These are sustainability disclosures; they are not by '
-                   'themselves an integrated report',
-                   'They are an integrated report',
-                   'They replace the six capitals',
-                   'They are required by U.S. GAAP'],
-             'a': 'A',
-             'why': 'An integrated report connects all capitals and the '
-                    'business model. B is wrong: Climate disclosures cover '
-                    'only part of the picture. C is wrong: S2 does not '
-                    'replace the capitals model.',
-             'src': 'SC18-11'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

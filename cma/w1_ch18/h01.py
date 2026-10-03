@@ -3,18 +3,16 @@
 
 HANDOUT = {'id': '18.1',
  'n': 1,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Integrated thinking, integrated reporting and the integrated '
           'report',
  'sub': 'section 18.1 of the book',
  'covers': ['sec:18.1',
             'p:P18-01',
-            'p:P18-02',
-            'p:P18-03',
-            'p:P18-04',
-            'sc:P18-01',
             'p:P18-05',
-            'p:P18-06',
+            'p:P18-13',
+            'p:P18-14',
+            'p:P18-16',
             'term:integrated reporting',
             'term:outcomes',
             'term:social and relationship capital'],
@@ -29,90 +27,84 @@ HANDOUT = {'id': '18.1',
             ['Integrated thinking, integrated reporting and the integrated '
              'report',
              'a figure to read · Disclosure',
-             'Integrated thinking means:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates · Capital',
+             'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       21,
-                       ' is the way management considers the relationships '
-                       "between the company's units and the resources, or ",
-                       11,
-                       ', that it uses and affects. It leads to decisions '
-                       'that consider value creation over the short, medium '
-                       'and long term.'],
-             'bank': ['human capital',
-                      'Integrated thinking',
-                      'guiding principles',
-                      'capitals'],
-             'a': 'Integrated thinking · capitals',
+             'parts': ['The ',
+                       19,
+                       ' is the product: a concise ',
+                       15,
+                       " about how the company's strategy, governance, "
+                       'performance and prospects lead to the creation, ',
+                       14,
+                       ' or erosion of value over time. The three ideas '
+                       'depend on each other.'],
+             'bank': ['integrated report',
+                      'communication',
+                      'preservation',
+                      'integrated thinking',
+                      'human capital'],
+             'a': 'integrated report · communication · preservation',
              'one': True,
-             'why': 'The book writes: “Integrated thinking is the way '
-                    'management considers the relationships between the '
-                    "company's units and the resources, or capitals, that it "
-                    'uses and affects. It leads to decisions that consider '
-                    'value creation over the short, medium and long term.”'},
+             'why': 'The book writes: “The integrated report is the product: '
+                    "a concise communication about how the company's "
+                    'strategy, governance, performance and prospects lead to '
+                    'the creation, preservation or erosion of value over '
+                    'time. The three ideas depend on each other.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['',
-                       22,
-                       ' is the process, founded on ',
+             'parts': ['Without ',
                        21,
-                       ', that results in a periodic integrated report. The '
-                       'integrated report is the product: a concise '
-                       "communication about how the company's strategy, "
-                       'governance, performance and prospects lead to the '
-                       'creation, preservation or erosion of value over '
-                       'time.'],
-             'bank': ['Integrated reporting',
+                       ', a report is just a collection of separate facts. '
+                       'The rules are in the ',
+                       15,
+                       ' <IR> Framework, last revised in January 2021. The '
+                       'IFRS Foundation now owns it, and the IASB and the '
+                       'ISSB are jointly ',
+                       13,
+                       ' for it.'],
+             'bank': ['guiding principles',
                       'integrated thinking',
+                      'responsible',
                       'human capital',
-                      'guiding principles'],
-             'a': 'Integrated reporting · integrated thinking',
+                      'International'],
+             'a': 'integrated thinking · International · responsible',
              'one': True,
-             'why': 'The book writes: “Integrated reporting is the process, '
-                    'founded on integrated thinking, that results in a '
-                    'periodic integrated report. The integrated report is '
-                    'the product: a concise communication about how the '
-                    "company's strategy, governance, performance and "
-                    'prospects lead to the creation, preservation or erosion '
-                    'of value over time.”'},
+             'why': 'The book writes: “Without integrated thinking, a report '
+                    'is just a collection of separate facts. The rules are '
+                    'in the International <IR> Framework, last revised in '
+                    'January 2021. The IFRS Foundation now owns it, and the '
+                    'IASB and the ISSB are jointly responsible for it.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
-                       21,
-                       ' is the way management considers the relationships '
-                       "between the company's units and the resources, or ",
+             'parts': ['In the ',
+                       24,
+                       ', the business model takes ',
                        11,
-                       ', that it uses and affects. It leads to decisions '
-                       'that consider value creation over the short, medium '
-                       'and long term. ',
-                       22,
-                       ' is the process, founded on integrated thinking, '
-                       'that results in a periodic integrated report.'],
-             'bank': ['capitals',
-                      'human capital',
-                      'Integrated thinking',
-                      'guiding principles',
-                      'Integrated reporting'],
-             'a': 'Integrated thinking · capitals · Integrated reporting',
+                       ' as inputs and turns them, through its activities, '
+                       'into ',
+                       11,
+                       ': products, by-products and waste.'],
+             'bank': ['natural capital',
+                      'intellectual capital',
+                      'value creation process',
+                      'outputs',
+                      'capitals'],
+             'a': 'value creation process · capitals · outputs',
              'one': True,
-             'why': 'The book writes: “Integrated thinking is the way '
-                    'management considers the relationships between the '
-                    "company's units and the resources, or capitals, that it "
-                    'uses and affects. It leads to decisions that consider '
-                    'value creation over the short, medium and long term. '
-                    'Integrated reporting is the process, founded on '
-                    'integrated thinking, that results in a periodic '
-                    'integrated report.”'}],
+             'why': 'The book writes: “In the value creation process, the '
+                    'business model takes capitals as inputs and turns them, '
+                    'through its activities, into outputs: products, '
+                    'by-products and waste.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -140,10 +132,10 @@ HANDOUT = {'id': '18.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of D1 Driver training as '
-                  '“Human capital”.',
+             'q': 'The book gives the category of D5 Packaging waste as '
+                  '“Natural capital”.',
              'a': 'T',
-             'why': 'The book pairs D1 Driver training with “Human '
+             'why': 'The book pairs D5 Packaging waste with “Natural '
                     'capital”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
@@ -167,46 +159,7 @@ HANDOUT = {'id': '18.1',
                    'Natural capital'],
              'a': 'B',
              'why': 'The book’s own table gives Human capital as the '
-                    'category of D1 Driver training.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for D2 Electricity and '
-                  'solar?',
-             'o': ['Natural capital',
-                   'Human capital',
-                   'Social and relationship capital'],
-             'a': 'A',
-             'why': 'The book’s own table gives Natural capital as the '
-                    'category of D2 Electricity and solar.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for D3 Farmer '
-                  'partnerships?',
-             'o': ['Human capital',
-                   'Natural capital',
-                   'Social and relationship capital'],
-             'a': 'C',
-             'why': 'The book’s own table gives Social and relationship '
-                    'capital as the category of D3 Farmer partnerships.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for D4 Warehouse staff '
-                  'turnover?',
-             'o': ['Social and relationship capital',
-                   'Natural capital',
-                   'Human capital'],
-             'a': 'C',
-             'why': 'The book’s own table gives Human capital as the '
-                    'category of D4 Warehouse staff turnover.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of D1 Driver training as '
-                  '“Human capital”.',
-             'a': 'T',
-             'why': 'The book pairs D1 Driver training with “Human '
-                    'capital”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of D2 Electricity and solar '
-                  'as “Human capital”.',
-             'a': 'F',
-             'why': 'The book pairs D2 Electricity and solar with “Natural '
-                    'capital”, not with “Human capital”.'}]),
+                    'category of D1 Driver training.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -223,65 +176,57 @@ HANDOUT = {'id': '18.1',
                     'way of thinking, not a filing.',
              'src': 'P18-01'},
             {'t': 'MCQ',
-             'q': 'Which guiding principle is Orontes applying when it links '
-                  'its irrigation spending to water use and to grower '
-                  'yields?',
-             'o': ['Conciseness',
-                   'Connectivity of information',
-                   'Consistency and comparability',
-                   'Reliability and completeness'],
-             'a': 'B',
-             'why': 'Connectivity shows how capitals, strategy and '
-                    'performance are linked. A is wrong: Conciseness is '
-                    'about length and clarity. C is wrong: Consistency is '
-                    'about using the same basis over time.',
-             'src': 'P18-02'},
-            {'t': 'MCQ',
-             'q': 'Orontes includes both a successful product launch and a '
-                  'failed one in its integrated report. Which principle does '
-                  'this reflect?',
-             'o': ['Reliability and completeness',
-                   'Materiality',
-                   'Strategic focus',
-                   'Stakeholder relationships'],
-             'a': 'A',
-             'why': 'Reports should include positive and negative matters. B '
-                    'is wrong: Materiality decides what is important, not '
-                    'balance. C is wrong: Strategic focus is about strategy '
-                    'and the future.',
-             'src': 'P18-03'},
-            {'t': 'MCQ',
-             'q': 'Under the Framework, a matter is material if it:',
-             'o': ['exceeds 5% of net income',
-                   'is required by the SEC',
-                   "could substantively affect the company's ability to "
-                   'create value over the short, medium or long term',
-                   'has already caused a loss'],
+             'q': 'Which group is NOT the primary audience of an integrated '
+                  'report, although it benefits from it?',
+             'o': ['Shareholders',
+                   'Lenders',
+                   'Local communities',
+                   'Other providers of financial capital'],
              'a': 'C',
-             'why': 'Integrated-reporting materiality is about value '
-                    'creation. A is wrong: The Framework does not use a '
-                    'percentage test. B is wrong: Materiality is not tied to '
-                    'SEC rules.',
-             'src': 'P18-04'}]),
+             'why': 'Communities are stakeholders, not the primary audience. '
+                    'A is wrong: Shareholders provide financial capital. B '
+                    'is wrong: Lenders provide financial capital.',
+             'src': 'P18-05'},
+            {'t': 'MCQ',
+             'q': 'How many content elements and guiding principles does the '
+                  'Framework set out?',
+             'o': ['Seven content elements and eight guiding principles',
+                   'Six of each',
+                   'Eight content elements and seven guiding principles',
+                   'Eight of each'],
+             'a': 'C',
+             'why': 'Eight elements (what) and seven principles (how). A is '
+                    'wrong: The numbers are reversed. B is wrong: Six is the '
+                    'number of capitals.',
+             'src': 'P18-13'},
+            {'t': 'MCQ',
+             'q': 'Why do integrated reports from different companies often '
+                  'differ in their measures?',
+             'o': ['The SEC requires different KPIs for each industry',
+                   'The Framework is principles-based and does not prescribe '
+                   'KPIs',
+                   'Integrated reports are audited under different standards',
+                   'Each company must use the six capitals in a different '
+                   'order'],
+             'a': 'B',
+             'why': 'Flexibility limits comparability. A is wrong: The SEC '
+                    'does not set integrated-reporting KPIs. C is wrong: '
+                    'Assurance is limited, not the cause.',
+             'src': 'P18-14'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Integrated thinking means:',
-           ['combining the financial statements of a parent and its '
-            'subsidiaries',
-            'preparing one report for all regulators',
-            'integrating IFRS and U.S. GAAP',
-            "management considering the relationships between the company's "
-            'units and the capitals it uses and affects'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Integrated thinking is about connected decision making. A is '
-           'wrong: That is consolidation. B is wrong: It is a way of '
-           'thinking, not a filing.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -310,53 +255,26 @@ HANDOUT = {'id': '18.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which group is NOT the primary audience of an integrated '
-                  'report, although it benefits from it?',
-             'o': ['Shareholders',
-                   'Lenders',
-                   'Local communities',
-                   'Other providers of financial capital'],
+             'q': 'Which statement about the International <IR> Framework is '
+                  'correct?',
+             'o': ['It was last revised in January 2021 and is maintained by '
+                   'the IFRS Foundation',
+                   'It was replaced by IFRS S1 in 2024',
+                   'It is part of U.S. GAAP',
+                   'It was withdrawn when the IIRC closed'],
+             'a': 'A',
+             'why': 'The Framework remains in use under the IFRS Foundation. '
+                    'B is wrong: IFRS S1 did not replace it. C is wrong: It '
+                    'is not part of U.S. GAAP.',
+             'src': 'P18-16'},
+            {'t': 'MCQ',
+             'q': 'Which category does the book give for D5 Packaging waste?',
+             'o': ['Social and relationship capital',
+                   'Human capital',
+                   'Natural capital'],
              'a': 'C',
-             'why': 'Communities are stakeholders, not the primary audience. '
-                    'A is wrong: Shareholders provide financial capital. B '
-                    'is wrong: Lenders provide financial capital.',
-             'src': 'P18-05'}]),
-          ('panel',
-           'Capital — the extract for the question that follows',
-           [['Capital', 'Orontes examples (2027)', 'Possible measure'],
-            ['Financial',
-             'Equity and bank loans (Part I)',
-             'Cash flow from operations'],
-            ['Manufactured',
-             'Presses, bottling lines, cold stores',
-             'Plant capacity'],
-            ['Intellectual',
-             'Recipes, brand, new sparkling-juice line',
-             'Share of sales from new products'],
-            ['Human', '1,850 employees', '20 training hours per employee'],
-            ['Social and relationship',
-             '2,400 farmers in grower cooperatives; supermarket customers',
-             'Farmer contracts renewed'],
-            ['Natural',
-             'Olive groves, water, energy',
-             'Water 900,000 m3; renewable electricity 30%']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. '
-                  "Orontes's 2,400 cooperative farmers are an example of "
-                  'which capital?',
-             'o': ['Human capital',
-                   'Social and relationship capital',
-                   'Natural capital',
-                   'Financial capital'],
-             'a': 'B',
-             'why': 'Relationships with suppliers and communities are social '
-                    'and relationship capital. A is wrong: Human capital is '
-                    "the company's own people and their skills. C is wrong: "
-                    'The farmers are a relationship; the groves are natural '
-                    'capital.',
-             'src': 'P18-06'}]),
+             'why': 'The book’s own table gives Natural capital as the '
+                    'category of D5 Packaging waste.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

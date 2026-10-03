@@ -3,10 +3,13 @@
 
 HANDOUT = {'id': '1.7',
  'n': 7,
- 'pages': 5,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P07',
+            'p:P10',
+            'p:P12',
             'term:financial statements',
             'term:primary users',
             'term:asset',
@@ -76,8 +79,7 @@ HANDOUT = {'id': '1.7',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'Which part of the chapter does a question about definitions '
-             'belong to?'],
+             'Which of these did this cycle settle?'],
             ['The chapter’s case set',
              'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
@@ -90,94 +92,99 @@ HANDOUT = {'id': '1.7',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
+             'parts': ['You will meet it in Chapters 3 and 15. The equation '
+                       'always holds, because creditors (liabilities) or '
+                       'owners (',
                        11,
-                       's and gains increase ',
-                       19,
-                       '. ',
+                       ') finance every ',
                        11,
-                       's also decrease it, but a dividend is not an ',
+                       '. Contributed capital is what owners paid in: ',
+                       14,
+                       ' at its ',
                        11,
-                       '. It is a distribution to owners, so it never '
-                       'appears in the ',
-                       18,
-                       '. IFRS also uses the word income for both revenue '
-                       'and gains, while U.S.'],
+                       ', plus ',
+                       28,
+                       ' (APIC).'],
              'bank': ['recognize',
-                      'retained earnings',
-                      'Revenue',
-                      'Dividend',
+                      'asset',
+                      'equity',
+                      'common stock',
                       'liability',
-                      'income statement',
-                      'expense'],
-             'a': 'Revenue · retained earnings · Dividend · expense · income '
-                  'statement',
+                      'additional paid-in capital',
+                      'par value'],
+             'a': 'equity · asset · common stock · par value · additional '
+                  'paid-in capital',
              'one': True,
-             'why': 'The book writes: “Revenues and gains increase retained '
-                    'earnings. Dividends also decrease it, but a dividend is '
-                    'not an expense. It is a distribution to owners, so it '
-                    'never appears in the income statement. IFRS also uses '
-                    'the word income for both revenue and gains, while '
-                    'U.S.”'},
+             'why': 'The book writes: “You will meet it in Chapters 3 and '
+                    '15. The equation always holds, because creditors '
+                    '(liabilities) or owners (equity) finance every asset. '
+                    'Contributed capital is what owners paid in: common '
+                    'stock at its par value, plus additional paid-in capital '
+                    '(APIC).”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Accounts on the left side of the equation (assets, '
-                       'expenses and dividends) increase with a ',
+             'parts': ['The totals prove the equation. Assets rose by 2,380, '
+                       'liabilities rose by 850 and ',
                        11,
-                       '. Accounts on the right side (liabilities, ',
+                       ' rose by 1,530. It reduces ',
+                       19,
+                       ', not ',
+                       12,
+                       '. Cash from borrowing or from issuing shares is not ',
                        11,
-                       ' and revenues) increase with a ',
+                       '. Buying equipment for cash is not an ',
                        11,
-                       '. A ',
-                       16,
-                       ' reduces a related account, so it has the opposite ',
-                       16,
-                       '.'],
-             'bank': ['debit',
-                      'contra account',
+                       ' today.'],
+             'bank': ['equity',
+                      'revenue',
                       'recognize',
-                      'equity',
+                      'retained earnings',
                       'liability',
-                      'credit',
-                      'normal balance'],
-             'a': 'debit · equity · credit · contra account · normal balance',
+                      'net income',
+                      'expense'],
+             'a': 'equity · retained earnings · net income · revenue · '
+                  'expense',
              'one': True,
-             'why': 'The book writes: “Accounts on the left side of the '
-                    'equation (assets, expenses and dividends) increase with '
-                    'a debit. Accounts on the right side (liabilities, '
-                    'equity and revenues) increase with a credit. A contra '
-                    'account reduces a related account, so it has the '
-                    'opposite normal balance.”'},
+             'why': 'The book writes: “The totals prove the equation. Assets '
+                    'rose by 2,380, liabilities rose by 850 and equity rose '
+                    'by 1,530. It reduces retained earnings, not net income. '
+                    'Cash from borrowing or from issuing shares is not '
+                    'revenue. Buying equipment for cash is not an expense '
+                    'today.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['A ',
-                       17,
-                       ' is an ',
+             'parts': ['The ',
+                       12,
+                       ' records items only when cash is received or paid. '
+                       'The cash basis is simple, but it is not acceptable '
+                       'under ',
                        11,
-                       ': the company has paid for a future benefit. A '
-                       'contract ',
+                       '. Under the ',
+                       15,
+                       ', Orontes records the ',
                        11,
-                       ' (unearned ',
-                       11,
-                       ') is a liability: the company must still deliver the '
-                       'goods or services. Cash received in advance is a '
-                       'liability, not revenue.'],
+                       ' and the ',
+                       20,
+                       ' in fiscal 2025, the year it delivered the goods.'],
              'bank': ['recognize',
-                      'balance sheet',
                       'liability',
-                      'asset',
+                      'accrual basis',
+                      'U.S. GAAP',
+                      'cost of goods sold',
                       'revenue',
-                      'prepaid expense'],
-             'a': 'prepaid expense · asset · liability · revenue',
+                      'cash basis'],
+             'a': 'cash basis · U.S. GAAP · accrual basis · revenue · cost '
+                  'of goods sold',
              'one': True,
-             'why': 'The book writes: “A prepaid expense is an asset: the '
-                    'company has paid for a future benefit. A contract '
-                    'liability (unearned revenue) is a liability: the '
-                    'company must still deliver the goods or services. Cash '
-                    'received in advance is a liability, not revenue.”'}]),
+             'why': 'The book writes: “The cash basis records items only '
+                    'when cash is received or paid. The cash basis is '
+                    'simple, but it is not acceptable under U.S. GAAP. Under '
+                    'the accrual basis, Orontes records the revenue and the '
+                    'cost of goods sold in fiscal 2025, the year it '
+                    'delivered the goods.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -190,6 +197,7 @@ HANDOUT = {'id': '1.7',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -201,25 +209,6 @@ HANDOUT = {'id': '1.7',
              'a': 'D',
              'why': 'The book numbers “Who uses financial statements, and '
                     'why?” as section 1.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.2?',
-             'o': ['Who uses financial statements, and why?',
-                   'The accrual basis and the matching principle',
-                   'The building blocks: elements and the accounting '
-                   'equation',
-                   'Who writes the rules? U.S. GAAP and IFRS'],
-             'a': 'C',
-             'why': 'The book numbers “The building blocks: elements and the '
-                    'accounting equation” as section 1.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 1.3?',
-             'o': ['Who uses financial statements, and why?',
-                   'A first look at the four statements',
-                   'Who writes the rules? U.S. GAAP and IFRS',
-                   'Double entry: debits and credits'],
-             'a': 'D',
-             'why': 'The book numbers “Double entry: debits and credits” as '
-                    'section 1.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -234,20 +223,64 @@ HANDOUT = {'id': '1.7',
              'a': ['A', 'B', 'C', 'D', 'E', 'F'],
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company has assets of 900 and liabilities of 350. It '
+                  'then borrows 100 in cash and declares and pays a cash '
+                  'dividend of 40. What is total equity after these '
+                  'transactions?',
+             'o': ['450', '510', '550', '610'],
+             'a': 'B',
+             'why': 'Equity starts at 550 (900 − 350). Borrowing does not '
+                    'change equity. The dividend reduces it by 40, so equity '
+                    'is 510. A is wrong: This is total liabilities after the '
+                    'loan (350 + 100), not equity. C is wrong: This ignores '
+                    'the dividend, which reduces retained earnings.',
+             'src': 'P07'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes ships goods on December 20, 2025 and invoices 90. '
+                  'The goods cost 54. The customer pays on January 15, 2026. '
+                  'The fiscal year ends on December 31. How much revenue '
+                  'does Orontes report for fiscal 2025?',
+             'o': ['0', '36', '54', '90'],
+             'a': 'D',
+             'why': 'Under the accrual basis, revenue is recorded when the '
+                    'goods are delivered, in 2025. A is wrong: This is '
+                    'cash-basis thinking. The cash timing does not decide '
+                    'the period. B is wrong: This is the gross profit '
+                    '(revenue minus cost), not the revenue.',
+             'src': 'P10'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'On February 10, Orontes pays 24 for 12 months of '
+                  'warehouse rent in advance. How does the payment appear '
+                  'immediately after it is made?',
+             'o': ['As an asset of 24',
+                   'As an expense of 24',
+                   'As a liability of 24',
+                   'It is not recorded until the end of the month.'],
+             'a': 'A',
+             'why': 'Prepaid rent is an asset: Orontes has paid for 12 '
+                    'months of future use. B is wrong: The benefit is in the '
+                    'future, so the cost becomes an expense month by month. '
+                    'C is wrong: This confuses a prepaid expense (asset) '
+                    'with unearned revenue (liability).',
+             'src': 'P12'}]),
           ('pair',
            'Compare every answer with your partner first.',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
           ('check',
-           'Which part of the chapter does a question about definitions '
-           'belong to?',
-           ['Who uses financial statements, and why?',
-            'A first look at the four statements',
-            'none of them',
-            'all of them'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'go back to the MODEL move of cycle A.',
-           'The first section settles the vocabulary.'),
+           'go back to the MODEL move of cycle A and find the section this '
+           'question belongs to.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -275,66 +308,51 @@ HANDOUT = {'id': '1.7',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C1-1 ask for?',
-             'o': ['Match each account to its category. (On the exam screen '
-                   'you would drag',
-                   "Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).',
-                   "Enter Barada's total liabilities at December 31, 2025 "
-                   '(USD 000).',
-                   "After closing, Barada's retained earnings at December "
-                   '31, 2025 are: [s'],
-             'a': 'A',
-             'why': 'The book states item C1-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C1-2 ask for?',
-             'o': ["Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).',
-                   "Enter Barada's net income for 2025 (USD 000).",
-                   'Match each account to its category. (On the exam screen '
-                   'you would drag',
-                   "Enter Barada's total liabilities at December 31, 2025 "
-                   '(USD 000).'],
-             'a': 'B',
-             'why': 'The book states item C1-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C1-3 ask for?',
-             'o': ["Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).',
-                   "Enter Barada's total liabilities at December 31, 2025 "
-                   '(USD 000).',
-                   'Match each account to its category. (On the exam screen '
-                   'you would drag',
-                   "After closing, Barada's retained earnings at December "
-                   '31, 2025 are: [s'],
-             'a': 'A',
-             'why': 'The book states item C1-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C1-4 ask for?',
-             'o': ["After closing, Barada's retained earnings at December "
-                   '31, 2025 are: [s',
-                   "Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).',
-                   "Enter Barada's total liabilities at December 31, 2025 "
-                   '(USD 000).',
-                   'Match each account to its category. (On the exam screen '
-                   'you would drag'],
-             'a': 'A',
-             'why': 'The book states item C1-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C1-5 ask for?',
-             'o': ["Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).',
-                   "Enter Barada's total liabilities at December 31, 2025 "
-                   '(USD 000).',
-                   "After closing, Barada's retained earnings at December "
-                   '31, 2025 are: [s',
-                   'Match each account to its category. (On the exam screen '
-                   'you would drag'],
-             'a': 'B',
-             'why': 'The book states item C1-5 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ["Enter Barada's total liabilities at December 31, 2025 "
+                      '(USD 000).',
+                      'Match each account to its category. (On the exam '
+                      'screen you would drag each account into a box.)',
+                      "After closing, Barada's retained earnings at December "
+                      '31, 2025 are: [select]',
+                      "Enter Barada's total assets at December 31, 2025 (USD "
+                      '000).',
+                      "Enter Barada's net income for 2025 (USD 000)."],
+             'right': ['first', 'second', 'third', 'fourth', 'fifth'],
+             'a': ['E', 'A', 'D', 'C', 'B'],
+             'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'A company has assets of 900 and liabilities of 350. It '
+                  'then borrows 100 in cash and declares and pays a cash '
+                  'dividend of 40. What is total equity after these '
+                  'transactions?',
+             'o': ['450', '510', '550', '610'],
+             'a': 'B',
+             'why': 'Equity starts at 550 (900 − 350). Borrowing does not '
+                    'change equity. The dividend reduces it by 40, so equity '
+                    'is 510. A is wrong: This is total liabilities after the '
+                    'loan (350 + 100), not equity. C is wrong: This ignores '
+                    'the dividend, which reduces retained earnings.',
+             'src': 'P07'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Orontes ships goods on December 20, 2025 and invoices 90. '
+                  'The goods cost 54. The customer pays on January 15, 2026. '
+                  'The fiscal year ends on December 31. How much revenue '
+                  'does Orontes report for fiscal 2025?',
+             'o': ['0', '36', '54', '90'],
+             'a': 'D',
+             'why': 'Under the accrual basis, revenue is recorded when the '
+                    'goods are delivered, in 2025. A is wrong: This is '
+                    'cash-basis thinking. The cash timing does not decide '
+                    'the period. B is wrong: This is the gross profit '
+                    '(revenue minus cost), not the revenue.',
+             'src': 'P10'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

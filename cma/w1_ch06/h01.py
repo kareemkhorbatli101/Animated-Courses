@@ -8,12 +8,11 @@ HANDOUT = {'id': '6.1',
  'sub': 'section 6.1 of the book',
  'covers': ['sec:6.1',
             'p:P6-01',
-            'p:P6-02',
-            'p:P6-04',
             'p:P6-05',
-            'sc:P6-01',
             'p:P6-06',
-            'p:P6-07',
+            'p:P6-08',
+            'p:P6-09',
+            'p:P6-11',
             'term:accounts receivable',
             'term:aging schedule',
             'term:factoring',
@@ -30,55 +29,49 @@ HANDOUT = {'id': '6.1',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Recognizing and measuring receivables',
-             'a figure to read · Transfer · Age of receivable',
-             'Under CECL, when does a company first recognize expected '
-             'credit losses on a trade receivable?'],
+             'a figure to read · Transfer',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['A company records an account ',
+             'parts': ['If the company still has to do something else before '
+                       'it can bill, for example finish a second delivery, '
+                       'it has a ',
+                       16,
+                       ', not a ',
                        12,
-                       ' when its right to be paid is ',
-                       15,
-                       ': only the passage of time is needed before payment '
-                       'is due. This usually happens when it delivers the '
-                       'goods or services and ',
-                       11,
-                       ' control (Chapter 11). If the company still has to '
-                       'do something else before it can bill, for example '
-                       'finish a second delivery, it has a contract asset, '
-                       'not a receivable.'],
+                       '. The receivable is measured at the ',
+                       13,
+                       ' price: the amount the company expects to receive.'],
              'bank': ['secured borrowing',
-                      'transfers',
-                      'unconditional',
+                      'transaction',
+                      'receivable',
                       'notes receivable',
-                      'receivable'],
-             'a': 'receivable · unconditional · transfers',
+                      'contract asset'],
+             'a': 'contract asset · receivable · transaction',
              'one': True,
-             'why': 'The book writes: “A company records an account '
-                    'receivable when its right to be paid is unconditional: '
-                    'only the passage of time is needed before payment is '
-                    'due. This usually happens when it delivers the goods or '
-                    'services and transfers control (Chapter 11). If the '
-                    'company still has to do something else before it can '
-                    'bill, for example finish a second delivery, it has a '
-                    'contract asset, not a receivable.”'},
+             'why': 'The book writes: “If the company still has to do '
+                    'something else before it can bill, for example finish a '
+                    'second delivery, it has a contract asset, not a '
+                    'receivable. The receivable is measured at the '
+                    'transaction price: the amount the company expects to '
+                    'receive.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Some older ',
+             'parts': ['Under the gross method, the company records the full '
+                       'invoice and records a sales ',
                        11,
-                       ' still use the gross and net methods. Under the '
-                       'gross method, the company records the full invoice '
-                       'and records a sales discount only when a customer '
-                       'pays early. Under the net method, it records the '
-                       'sale net of the discount, and records sales ',
+                       ' only when a customer pays early. Under the net '
+                       'method, it records the sale net of the discount, and '
+                       'records sales ',
                        11,
                        ' ',
                        11,
@@ -86,39 +79,38 @@ HANDOUT = {'id': '6.1',
              'bank': ['discounts',
                       'secured borrowing',
                       'notes receivable',
-                      'questions',
+                      'discount',
                       'forfeited'],
-             'a': 'questions · discounts · forfeited',
+             'a': 'discount · discounts · forfeited',
              'one': True,
-             'why': 'The book writes: “Some older questions still use the '
-                    'gross and net methods. Under the gross method, the '
-                    'company records the full invoice and records a sales '
-                    'discount only when a customer pays early. Under the net '
-                    'method, it records the sale net of the discount, and '
-                    'records sales discounts forfeited when a customer pays '
-                    'late.”'},
+             'why': 'The book writes: “Under the gross method, the company '
+                    'records the full invoice and records a sales discount '
+                    'only when a customer pays early. Under the net method, '
+                    'it records the sale net of the discount, and records '
+                    'sales discounts forfeited when a customer pays late.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The ',
+             'parts': ['An ',
+                       18,
+                       ' note is carried at its face amount plus accrued '
+                       'interest. A note with no interest, or with a rate '
+                       'below the market rate, is recorded at its present '
+                       'value. The discount is then ',
                        11,
-                       ' is then ',
-                       11,
-                       ' to interest revenue over the life of the note. ',
-                       12,
-                       ': only time must pass before payment. Contract '
-                       'asset: the company must still perform.'],
-             'bank': ['secured borrowing',
-                      'notes receivable',
-                      'amortized',
-                      'discount',
-                      'Receivable'],
-             'a': 'discount · amortized · Receivable',
+                       ' to interest revenue over the life of the note.'],
+             'bank': ['amortized',
+                      'interest-bearing',
+                      'secured borrowing',
+                      'notes receivable'],
+             'a': 'interest-bearing · amortized',
              'one': True,
-             'why': 'The book writes: “The discount is then amortized to '
-                    'interest revenue over the life of the note. Receivable: '
-                    'only time must pass before payment. Contract asset: the '
-                    'company must still perform.”'}],
+             'why': 'The book writes: “An interest-bearing note is carried '
+                    'at its face amount plus accrued interest. A note with '
+                    'no interest, or with a rate below the market rate, is '
+                    'recorded at its present value. The discount is then '
+                    'amortized to interest revenue over the life of the '
+                    'note.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -147,9 +139,9 @@ HANDOUT = {'id': '6.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of T1 as “Sale”.',
+             'q': 'The book gives the category of T4 as “Secured borrowing”.',
              'a': 'T',
-             'why': 'The book pairs T1 with “Sale”.'}]),
+             'why': 'The book pairs T4 with “Secured borrowing”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
           ('panel',
@@ -169,34 +161,6 @@ HANDOUT = {'id': '6.1',
              'o': ['T4', 'T1', 'T3'],
              'a': 'B',
              'why': 'The book’s own table pairs T1 with “Sale”.'},
-            {'t': 'MCQ',
-             'q': 'Which transfer does the book pair with “Sale”?',
-             'o': ['T2', 'T4', 'T3'],
-             'a': 'A',
-             'why': 'The book’s own table pairs T2 with “Sale”.'},
-            {'t': 'MCQ',
-             'q': 'Which transfer does the book pair with “Secured '
-                  'borrowing”?',
-             'o': ['T1', 'T2', 'T3'],
-             'a': 'C',
-             'why': 'The book’s own table pairs T3 with “Secured '
-                    'borrowing”.'},
-            {'t': 'MCQ',
-             'q': 'Which transfer does the book pair with “Secured '
-                  'borrowing”?',
-             'o': ['T4', 'T2', 'T1'],
-             'a': 'A',
-             'why': 'The book’s own table pairs T4 with “Secured '
-                    'borrowing”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of T1 as “Sale”.',
-             'a': 'T',
-             'why': 'The book pairs T1 with “Sale”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of T2 as “Secured borrowing”.',
-             'a': 'F',
-             'why': 'The book pairs T2 with “Sale”, not with “Secured '
-                    'borrowing”.'},
             {'t': 'SORT',
              'q': 'Write each one under its category. Every item belongs to '
                   'exactly one group.',
@@ -220,22 +184,6 @@ HANDOUT = {'id': '6.1',
                     'evidence of a loss.',
              'src': 'P6-01'},
             {'t': 'MCQ',
-             'q': 'A customer pays 1,500 that Orontes had written off last '
-                  'year. Under the allowance method, what is the first '
-                  'entry?',
-             'o': ['Debit Accounts receivable, credit Allowance for credit '
-                   'losses',
-                   'Debit Cash, credit Revenue',
-                   'Debit Cash, credit Credit loss expense',
-                   'Debit Allowance for credit losses, credit Accounts '
-                   'receivable'],
-             'a': 'A',
-             'why': 'The company first reinstates the receivable; the second '
-                    'entry records the cash collection. B is wrong: A '
-                    'recovery is not revenue. C is wrong: The recovery goes '
-                    'back to the allowance, not the expense account.',
-             'src': 'P6-04'},
-            {'t': 'MCQ',
              'q': 'Why is the direct write-off method not acceptable under '
                   'U.S. GAAP when bad debts are material?',
              'o': ['It is not allowed for U.S. tax returns.',
@@ -248,50 +196,53 @@ HANDOUT = {'id': '6.1',
                     'so receivables are overstated and matching fails. A is '
                     'wrong: The direct method is the method used for U.S. '
                     'tax. B is wrong: It records losses late, not early.',
-             'src': 'P6-05'}]),
-          ('panel',
-           'Age of receivable — the extract for the question that follows',
-           [['Age of receivable',
-             'Amount',
-             'Expected loss rate',
-             'Required allowance'],
-            ['Current', '400,000', '1%', '4,000'],
-            ['1–30 days past due', '150,000', '3%', '4,500'],
-            ['31–60 days past due', '60,000', '10%', '6,000'],
-            ['61–90 days past due', '30,000', '25%', '7,500'],
-            ['Over 90 days past due', '20,000', '60%', '12,000'],
-            ['Total', '660,000', '', '34,000']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What is '
-                  'the required allowance for credit losses at December 31, '
-                  '2025 (whole USD)?',
-             'o': ['6,000', '28,000', '34,000', '626,000'],
-             'a': 'C',
-             'why': "The sum of each group's amount × its expected loss "
-                    'rate. A is wrong: This is the unadjusted balance before '
-                    'the year-end entry. B is wrong: This is the credit loss '
-                    'expense, not the required balance.',
-             'src': 'P6-02'}]),
+             'src': 'P6-05'},
+            {'t': 'MCQ',
+             'q': 'Which statement about the percentage-of-sales approach is '
+                  'correct under CECL?',
+             'o': ['It is the method CECL requires.',
+                   'It gives the required ending balance of the allowance.',
+                   'It is the same as the direct write-off method.',
+                   'It estimates the expense directly but does not measure '
+                   'expected losses on the ending receivables.'],
+             'a': 'D',
+             'why': 'It is an income-statement approach; CECL focuses on the '
+                    'expected losses on the receivables at the balance sheet '
+                    'date. A is wrong: CECL does not require any single '
+                    'method; aging and loss-rate methods fit it better. B is '
+                    'wrong: The aging method gives the required ending '
+                    'balance.',
+             'src': 'P6-06'},
+            {'t': 'MCQ',
+             'q': 'Under ASU 2025-05, a practical expedient lets companies '
+                  'assume current conditions will not change when they '
+                  'forecast losses on current receivables. How should a CMA '
+                  'candidate treat it in 2026?',
+             'o': ['As the main CECL rule',
+                   'As a rule that applies only to IFRS companies',
+                   'As a replacement for the aging method',
+                   'As a watch item that is not yet tested'],
+             'a': 'D',
+             'why': 'It is effective for annual periods beginning after '
+                    'December 15, 2025; under the one-year rule it is not '
+                    'yet tested. A is wrong: It is an optional '
+                    'simplification and is not yet testable. B is wrong: It '
+                    'is a U.S. GAAP update.',
+             'src': 'P6-08'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Under CECL, when does a company first recognize expected credit '
-           'losses on a trade receivable?',
-           ['When a loss becomes probable',
-            'When the customer misses a payment',
-            'When the receivable is first recognized',
-            'When the receivable is written off'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'CECL records lifetime expected losses from day one. A is wrong: '
-           'The probable threshold belonged to the old incurred-loss model. '
-           'B is wrong: CECL does not wait for evidence of a loss.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -302,6 +253,7 @@ HANDOUT = {'id': '6.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Answer'],
@@ -338,65 +290,69 @@ HANDOUT = {'id': '6.1',
                        'تخصيم الذمم المدينة (بيع الديون)',
                        'أصل العقد'],
              'a': ['F', 'D', 'C', 'A', 'E', 'B'],
-             'whys': ['', '', '', '', '', '']},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for 1–60 days past due?',
-             'o': ['3,600 + 6,400 + 10,000 = 20,000',
-                   '80,000 × 8% = 6,400',
-                   '40,000 × 25% = 10,000'],
-             'a': 'B',
-             'why': 'The book’s own table gives 80,000 × 8% = 6,400 as the '
-                    'answer of 1–60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Over 60 days past '
-                  'due?',
-             'o': ['3,600 + 6,400 + 10,000 = 20,000',
-                   '80,000 × 8% = 6,400',
-                   '40,000 × 25% = 10,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 40,000 × 25% = 10,000 as the '
-                    'answer of Over 60 days past due.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Required allowance?',
-             'o': ['40,000 × 25% = 10,000',
-                   '3,600 + 6,400 + 10,000 = 20,000',
-                   '80,000 × 8% = 6,400'],
-             'a': 'B',
-             'why': 'The book’s own table gives 3,600 + 6,400 + 10,000 = '
-                    '20,000 as the answer of Required allowance.'}]),
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which statement about the percentage-of-sales approach is '
-                  'correct under CECL?',
-             'o': ['It is the method CECL requires.',
-                   'It gives the required ending balance of the allowance.',
-                   'It is the same as the direct write-off method.',
-                   'It estimates the expense directly but does not measure '
-                   'expected losses on the ending receivables.'],
-             'a': 'D',
-             'why': 'It is an income-statement approach; CECL focuses on the '
-                    'expected losses on the receivables at the balance sheet '
-                    'date. A is wrong: CECL does not require any single '
-                    'method; aging and loss-rate methods fit it better. B is '
-                    'wrong: The aging method gives the required ending '
-                    'balance.',
-             'src': 'P6-06'},
+             'q': 'Receivables are transferred with recourse. They are '
+                  'legally isolated, the factor may pledge them, and the '
+                  'seller has no repurchase right or duty. How is the '
+                  'transfer recorded?',
+             'o': ['As a secured borrowing, because there is recourse',
+                   'As a sale, with no liability',
+                   'As a sale, with a recourse liability at fair value',
+                   'As a pledge of receivables'],
+             'a': 'C',
+             'why': 'All three sale conditions are met; recourse adds a '
+                    'liability to the sale. A is wrong: Recourse alone does '
+                    'not make the transfer a borrowing. B is wrong: The '
+                    'recourse obligation must be recorded.',
+             'src': 'P6-09'},
             {'t': 'MCQ',
-             'q': 'Orontes accepts a two-year note from a customer with no '
-                  'stated interest. How is the note recorded?',
-             'o': ['At its present value, with the discount amortized to '
-                   'interest revenue',
-                   'At its face amount, with no interest',
-                   'At its face amount plus interest at the market rate',
-                   "At the customer's cost of the goods"],
-             'a': 'A',
-             'why': 'Long-term notes with no or low interest are recorded at '
-                    'present value using an imputed rate. B is wrong: This '
-                    'ignores the time value of money over two years. C is '
-                    'wrong: Interest is earned over time, not added at the '
-                    'start.',
-             'src': 'P6-07'}]),
+             'q': 'Compared with a sale of receivables, a secured borrowing:',
+             'o': ['removes the receivables and adds no liability.',
+                   'removes the receivables and adds a recourse liability.',
+                   'keeps the receivables on the balance sheet and adds a '
+                   'liability.',
+                   'has no effect on the balance sheet.'],
+             'a': 'C',
+             'why': 'In a borrowing, the receivables stay (pledged) and the '
+                    'cash received is a liability. A is wrong: That '
+                    'describes a sale without recourse. B is wrong: That '
+                    'describes a sale with recourse.',
+             'src': 'P6-11'},
+            {'t': 'MCQ',
+             'q': 'Under IFRS 9, how are expected credit losses measured on '
+                  'trade receivables without a significant financing '
+                  'component?',
+             'o': ['At 12-month expected losses',
+                   'Only when a loss is probable',
+                   'Only when the receivable is written off',
+                   'Always at lifetime expected losses'],
+             'a': 'D',
+             'why': 'The simplified approach requires lifetime expected '
+                    'losses for these receivables. A is wrong: The 12-month '
+                    'measure is stage 1 of the general approach, not the '
+                    'simplified approach. B is wrong: That was the old '
+                    'incurred-loss model.',
+             'src': 'P6-13'},
+            {'t': 'MCQ',
+             'q': 'Receivables are factored with substantial recourse. The '
+                  'transfer meets the three ASC 860 conditions. Which '
+                  'statement is MOST likely correct?',
+             'o': ['Both frameworks treat it as a borrowing.',
+                   'U.S. GAAP treats it as a sale; IFRS 9 may treat it as a '
+                   'borrowing.',
+                   'Both frameworks treat it as a sale with no liability.',
+                   'IFRS treats it as a sale; U.S. GAAP treats it as a '
+                   'borrowing.'],
+             'a': 'B',
+             'why': 'IFRS 9 focuses on risks and rewards; substantial '
+                    'recourse often keeps the risk with the seller. A is '
+                    'wrong: Under U.S. GAAP the ASC 860 conditions decide, '
+                    'and they are met. C is wrong: A U.S. GAAP sale with '
+                    'recourse records a recourse liability.',
+             'src': 'P6-14'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

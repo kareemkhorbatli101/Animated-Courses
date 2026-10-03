@@ -7,6 +7,7 @@ HANDOUT = {'id': '13.5',
  'title': 'IFRS differences and disclosures',
  'sub': 'section 13.5 of the book',
  'covers': ['sec:13.5',
+            'p:P13-08',
             'term:deferred tax asset',
             'term:deferred tax expense',
             'term:net operating loss carryforward'],
@@ -35,7 +36,7 @@ HANDOUT = {'id': '13.5',
                        'use, while U.S. GAAP records the full asset and a '
                        'separate ',
                        21,
-                       '.'],
+                       '. ASU 2023-09 is testable now for public companies.'],
              'bank': ['deferred tax expense',
                       'enacted tax rate',
                       'valuation allowance',
@@ -45,60 +46,59 @@ HANDOUT = {'id': '13.5',
              'why': 'The book writes: “The biggest one for the exam is the '
                     'deferred tax asset: IFRS recognizes only the amount it '
                     'is probable to use, while U.S. GAAP records the full '
-                    'asset and a separate valuation allowance.”'},
+                    'asset and a separate valuation allowance. ASU 2023-09 '
+                    'is testable now for public companies.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The biggest one for the exam is the ',
-                       20,
-                       ': IFRS recognizes only the amount it is probable to '
-                       'use, while U.S. GAAP records the full asset and a '
-                       'separate ',
+             'parts': ['U.S. companies often call income tax expense the '
+                       'provision for income taxes. It is an expense, not an '
+                       'IAS 37 provision (مخصص) and not a reserve. Arabic '
+                       'مخصص التقييم, the ',
                        21,
-                       '. They show a rate reconciliation in dollars and '
-                       'percentages with eight standard categories, and they '
-                       'list separately any item of at least 5% of pretax '
-                       'income times the statutory rate.'],
-             'bank': ['enacted tax rate',
-                      'deferred tax asset',
-                      'valuation allowance',
-                      'deferred tax expense'],
-             'a': 'deferred tax asset · valuation allowance',
-             'one': True,
-             'why': 'The book writes: “The biggest one for the exam is the '
-                    'deferred tax asset: IFRS recognizes only the amount it '
-                    'is probable to use, while U.S. GAAP records the full '
-                    'asset and a separate valuation allowance. They show a '
-                    'rate reconciliation in dollars and percentages with '
-                    'eight standard categories, and they list separately any '
-                    'item of at least 5% of pretax income times the '
-                    'statutory rate.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['It is an expense, not an IAS 37 ',
-                       11,
-                       ' (مخصص) and not a reserve. Arabic مخصص التقييم, the '
-                       'valuation allowance, is a ',
+                       ', is a ',
                        14,
-                       ', not a liability. SC13-9 A tax rate cut has been '
-                       'announced by the ',
-                       12,
-                       ' but not yet signed into law.'],
-             'bank': ['government',
+                       ', not a liability. Under IFRS it is ',
+                       15,
+                       ' enacted.'],
+             'bank': ['contra-asset',
                       'enacted tax rate',
+                      'valuation allowance',
                       'deferred tax expense',
-                      'provision',
-                      'contra-asset'],
-             'a': 'provision · contra-asset · government',
+                      'substantively'],
+             'a': 'valuation allowance · contra-asset · substantively',
              'one': True,
-             'why': 'The book writes: “It is an expense, not an IAS 37 '
-                    'provision (مخصص) and not a reserve. Arabic مخصص '
-                    'التقييم, the valuation allowance, is a contra-asset, '
-                    'not a liability. SC13-9 A tax rate cut has been '
-                    'announced by the government but not yet signed into '
-                    'law.”'}],
+             'why': 'The book writes: “U.S. companies often call income tax '
+                    'expense the provision for income taxes. It is an '
+                    'expense, not an IAS 37 provision (مخصص) and not a '
+                    'reserve. Arabic مخصص التقييم, the valuation allowance, '
+                    'is a contra-asset, not a liability. Under IFRS it is '
+                    'substantively enacted.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Barada Wholesale, 2027 (whole '
+                       'USD)” settles these: for Income before income taxes, '
+                       '2027 it is ',
+                       11,
+                       ', for Tax-exempt municipal bond interest included in '
+                       'income it is ',
+                       11,
+                       ' and for Fine for a late customs filing (not '
+                       'deductible) it is ',
+                       11,
+                       '.'],
+             'bank': ['6,000', '400,000', '12,000', '60,000'],
+             'one': True,
+             'a': '400,000 · 12,000 · 6,000',
+             'why': 'From the book’s own table “Barada Wholesale, 2027 '
+                    '(whole USD)”: The book’s own table “Barada Wholesale, '
+                    '2027 (whole USD)” settles these: for Income before '
+                    'income taxes, 2027 it is 400,000 and for Tax-exempt '
+                    'municipal bond interest included in income it is 12,000 '
+                    'and for Fine for a late customs filing (not deductible) '
+                    'it is 6,000.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -163,42 +163,21 @@ HANDOUT = {'id': '13.5',
                    'Temporary and permanent differences'],
              'a': 'C',
              'why': 'The book numbers “Why book income and taxable income '
-                    'differ” as section 13.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 13.2?',
-             'o': ['Why book income and taxable income differ',
-                   'IFRS differences and disclosures',
-                   'Temporary and permanent differences',
-                   'Measuring current and deferred taxes'],
-             'a': 'C',
-             'why': 'The book numbers “Temporary and permanent differences” '
-                    'as section 13.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 13.3?',
-             'o': ['IFRS differences and disclosures',
-                   'Temporary and permanent differences',
-                   'Why book income and taxable income differ',
-                   'Measuring current and deferred taxes'],
-             'a': 'D',
-             'why': 'The book numbers “Measuring current and deferred taxes” '
-                    'as section 13.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 13.4?',
-             'o': ['Why book income and taxable income differ',
-                   'Measuring current and deferred taxes',
-                   'Rate changes, valuation allowances, losses and '
-                   'presentation',
-                   'Temporary and permanent differences'],
-             'a': 'C',
-             'why': 'The book numbers “Rate changes, valuation allowances, '
-                    'losses and presentation” as section 13.4.'}]),
+                    'differ” as section 13.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which item creates a temporary difference?',
+             'o': ['A fine for breaking the law',
+                   'Tax-exempt municipal interest',
+                   'An accrued warranty expense deductible for tax when paid',
+                   'Life insurance premiums on an officer, where the company '
+                   'is the beneficiary'],
+             'a': 'C',
+             'why': 'It reverses when the repairs are paid. A is wrong: '
+                    'Fines are never deductible. B is wrong: Municipal '
+                    'interest is never taxable.',
+             'src': 'P13-08'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -267,33 +246,26 @@ HANDOUT = {'id': '13.5',
              'a': 'C',
              'why': 'The book’s own table pairs Recognizing deferred tax '
                     'assets with “Record the full DTA, then a valuation '
-                    'allowance if realization is not more likely than not”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Enacted rates only”?',
-             'o': ['Balance sheet classification',
-                   'Recognizing deferred tax assets',
-                   'Tax rate',
-                   'Pillar Two top-up tax'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Tax rate with “Enacted rates '
-                    'only”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “None in general”?',
-             'o': ['Uncertain tax positions',
-                   'Recognizing deferred tax assets',
-                   'Initial recognition exemption',
-                   'Balance sheet classification'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Initial recognition '
-                    'exemption with “None in general”.'}]),
+                    'allowance if realization is not more likely than '
+                    'not”.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each one. '
+                  'Every one is used once.',
+             'left': ['Income before income taxes, 2027',
+                      'Tax-exempt municipal bond interest included in income',
+                      'Fine for a late customs filing (not deductible)',
+                      'Tax depreciation above book depreciation in 2027',
+                      'M1'],
+             'right': ['The enacted combined tax rate is 25% for 2027 and '
+                       'all later years.',
+                       '400,000',
+                       '60,000',
+                       '12,000',
+                       '6,000'],
+             'a': ['B', 'D', 'E', 'C', 'A'],
+             'whys': ['', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

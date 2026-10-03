@@ -3,10 +3,12 @@
 
 HANDOUT = {'id': '8.6',
  'n': 6,
- 'pages': 7,
+ 'pages': 6,
  'title': 'The whole chapter',
  'sub': 'every section, shuffled, and the chapter’s own case set',
  'covers': ['sec:summary',
+            'p:P8-13',
+            'p:P8-14',
             'sc:SC8-1',
             'sc:SC8-2',
             'sc:SC8-4',
@@ -48,11 +50,10 @@ HANDOUT = {'id': '8.6',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The whole chapter, in order',
              'a figure to read',
-             'Orontes measures olive oil using FIFO. Which test applies at '
-             'year-end?'],
+             'A company sells custom-built industrial ovens, each with a '
+             'different cost. Which method should it recommend?'],
             ['The chapter’s case set',
-             'The chapter’s case set, item by item · Orontes olive oil, '
-             'December 31, 2025',
+             'The chapter’s case set, item by item',
              'What has to be settled before any figure in a case set is '
              'worked out?'],
             ['The words it uses precisely',
@@ -64,10 +65,9 @@ HANDOUT = {'id': '8.6',
              'q': 'Where the chapter starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['GAAP never reverses an annual ',
+             'parts': ['U.S. GAAP never reverses an annual ',
                        12,
-                       '. SC8-1 Orontes measures olive oil using FIFO. Under '
-                       'LCM, market starts with ',
+                       '. Under LCM, market starts with ',
                        18,
                        ': the current cost to buy or make the item again. It '
                        'cannot be higher than a ',
@@ -87,67 +87,67 @@ HANDOUT = {'id': '8.6',
              'a': 'write-down · replacement cost · ceiling · floor · normal '
                   'profit margin',
              'one': True,
-             'why': 'The book writes: “GAAP never reverses an annual '
-                    'write-down. SC8-1 Orontes measures olive oil using '
-                    'FIFO. Under LCM, market starts with replacement cost: '
-                    'the current cost to buy or make the item again. It '
-                    'cannot be higher than a ceiling equal to NRV, and it '
+             'why': 'The book writes: “U.S. GAAP never reverses an annual '
+                    'write-down. Under LCM, market starts with replacement '
+                    'cost: the current cost to buy or make the item again. '
+                    'It cannot be higher than a ceiling equal to NRV, and it '
                     'cannot be lower than a floor equal to NRV minus a '
                     'normal profit margin.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The ',
-                       20,
-                       ' is the most conservative. One more rule: if a '
-                       'company has a firm, non-cancellable ',
-                       21,
-                       ' at a price above the current market, it records the '
-                       'expected loss now, in the current period. Do not '
-                       'compare ',
+             'parts': ['When ',
                        18,
-                       ' directly with cost. First limit it by the ',
+                       ' is below the ',
                        11,
-                       ' and the ',
+                       ', market is the floor. When it is above the ',
                        11,
-                       '.'],
-             'bank': ['purchase commitment',
-                      'floor',
-                      'ceiling',
-                      'replacement cost',
-                      'markdown',
+                       ', market is the ceiling. Read the basis in the '
+                       'question: item by item, by category or total. In '
+                       'French, dépréciation des stocks is an inventory ',
+                       12,
+                       ', not depreciation (amortissement).'],
+             'bank': ['floor',
                       'gross profit method',
-                      'item-by-item basis'],
-             'a': 'item-by-item basis · purchase commitment · replacement '
-                  'cost · ceiling · floor',
+                      'write-down',
+                      'ceiling',
+                      'markdown',
+                      'replacement cost'],
+             'a': 'replacement cost · floor · ceiling · write-down',
              'one': True,
-             'why': 'The book writes: “The item-by-item basis is the most '
-                    'conservative. One more rule: if a company has a firm, '
-                    'non-cancellable purchase commitment at a price above '
-                    'the current market, it records the expected loss now, '
-                    'in the current period. Do not compare replacement cost '
-                    'directly with cost. First limit it by the ceiling and '
-                    'the floor.”'},
+             'why': 'The book writes: “When replacement cost is below the '
+                    'floor, market is the floor. When it is above the '
+                    'ceiling, market is the ceiling. Read the basis in the '
+                    'question: item by item, by category or total. In '
+                    'French, dépréciation des stocks is an inventory '
+                    'write-down, not depreciation (amortissement).”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['For example, a ',
-                       11,
-                       ' of one half on cost is a gross profit rate of one '
-                       'third on sales. Conventional retail: markups IN the '
-                       'ratio, markdowns OUT. Freight-in goes in the cost '
-                       'column only; normal ',
-                       11,
-                       ' is deducted from retail after the ratio.'],
-             'bank': ['markup', 'floor', 'shrinkage', 'gross profit method'],
-             'a': 'markup · shrinkage',
+             'parts': ['If items are identical and sold in large volumes, '
+                       'specific ',
+                       16,
+                       ' is costly and open to ',
+                       14,
+                       '. If the company wants the U.S. tax benefit of LIFO, '
+                       'it must also report LIFO profits to investors, and '
+                       'it must avoid ',
+                       13,
+                       ' old layers.'],
+             'bank': ['identification',
+                      'manipulation',
+                      'gross profit method',
+                      'liquidating',
+                      'floor'],
+             'a': 'identification · manipulation · liquidating',
              'one': True,
-             'why': 'The book writes: “For example, a markup of one half on '
-                    'cost is a gross profit rate of one third on sales. '
-                    'Conventional retail: markups IN the ratio, markdowns '
-                    'OUT. Freight-in goes in the cost column only; normal '
-                    'shrinkage is deducted from retail after the ratio.”'}]),
+             'why': 'The book writes: “If items are identical and sold in '
+                    'large volumes, specific identification is costly and '
+                    'open to manipulation. If the company wants the U.S. tax '
+                    'benefit of LIFO, it must also report LIFO profits to '
+                    'investors, and it must avoid liquidating old '
+                    'layers.”'}]),
           ('page',),
           ('cycle', 'A', 'The whole chapter, in order'),
           ('move', 'ORIENT', ''),
@@ -160,6 +160,7 @@ HANDOUT = {'id': '8.6',
                     'in.'}]),
           ('move', 'MODEL', ''),
           ('fig', 'chmap'),
+          ('fig', 'frev'),
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
@@ -170,24 +171,6 @@ HANDOUT = {'id': '8.6',
                    'Which test applies?'],
              'a': 'D',
              'why': 'The book numbers “Which test applies?” as section 8.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 8.2?',
-             'o': ['Which test applies?',
-                   'Recommending a method',
-                   'Advantages and disadvantages of the methods',
-                   'Lower of cost or market'],
-             'a': 'D',
-             'why': 'The book numbers “Lower of cost or market” as section '
-                    '8.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 8.3?',
-             'o': ['Lower of cost or market',
-                   'Recommending a method',
-                   'The retail inventory method and the gross profit method',
-                   'Advantages and disadvantages of the methods'],
-             'a': 'C',
-             'why': 'The book numbers “The retail inventory method and the '
-                    'gross profit method” as section 8.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -201,6 +184,33 @@ HANDOUT = {'id': '8.6',
              'a': ['A', 'B', 'C', 'D', 'E'],
              'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which basis gives the largest LCM write-down?',
+             'o': ['Item by item',
+                   'Total inventory',
+                   'By category',
+                   'All bases give the same write-down.'],
+             'a': 'A',
+             'why': 'Item by item does not let gains on some items offset '
+                    'losses on others. B is wrong: The total basis lets '
+                    'increases offset decreases, so the write-down is '
+                    'smallest. C is wrong: Categories allow some offsetting '
+                    'inside each category.',
+             'src': 'SC8-4'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'In the conventional retail method, net markdowns are:',
+             'o': ['included in the cost-to-retail ratio.',
+                   'left out of the cost-to-retail ratio.',
+                   'deducted from the cost column.',
+                   'ignored completely.'],
+             'a': 'B',
+             'why': 'Leaving markdowns out gives a lower ratio, which '
+                    'approximates LCM. A is wrong: That is the average-cost '
+                    'retail method. C is wrong: Markdowns are retail amounts '
+                    'only.',
+             'src': 'SC8-5'}]),
           ('items',
            [{'t': 'MCQ',
              'q': 'Use the Jebel Ali fire example. What is the estimated '
@@ -260,19 +270,19 @@ HANDOUT = {'id': '8.6',
            'name the section each question belongs to. Most disagreements '
            'turn out to be about the section, not the answer.'),
           ('check',
-           'Orontes measures olive oil using FIFO. Which test applies at '
-           'year-end?',
-           ['Lower of cost or market',
-            'Replacement cost only',
-            'Lower of cost and net realizable value',
-            'No test; FIFO inventory stays at cost'],
-           'C',
+           'A company sells custom-built industrial ovens, each with a '
+           'different cost. Which method should it recommend?',
+           ['LIFO',
+            'Specific identification',
+            'Weighted average',
+            'The retail inventory method'],
+           'B',
            'go back to the MODEL move of cycle A and find the section this '
            'question belongs to.',
-           'FIFO, average cost and specific identification use LCNRV. A is '
-           'wrong: LCM applies only to LIFO and the retail inventory method. '
-           'B is wrong: Replacement cost is only the starting point for '
-           'market under LCM.'),
+           'Each oven is unique and valuable, so the actual cost of each '
+           'unit can be tracked. A is wrong: LIFO suits interchangeable '
+           'goods, not unique items. C is wrong: Averaging unique costs '
+           'would distort the cost of each sale.'),
           ('cycle', 'B', 'The chapter’s case set'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -302,114 +312,48 @@ HANDOUT = {'id': '8.6',
            ''),
           ('move', 'READ THE MODEL', ''),
           ('items',
-           [{'t': 'MCQ',
-             'q': 'Which of these does item C8-1 ask for?',
-             'o': ['Match each product line to the test that applies. (On '
-                   'the exam screen ',
-                   'Enter the total carrying amount of the five lines after '
-                   'the write-down',
-                   "If Orontes reported under IFRS, how much of the za'atar "
-                   'write-down wou',
-                   "In 2026, the NRV of za'atar mix rises to $13 a unit. "
-                   'Under U.S. GAAP, '],
-             'a': 'A',
-             'why': 'The book states item C8-1 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C8-2 ask for?',
-             'o': ['Enter the write-down for pomegranate molasses (USD).',
-                   'Enter the total write-down for all five lines (USD).',
-                   'Match each product line to the test that applies. (On '
-                   'the exam screen ',
-                   'Enter the total carrying amount of the five lines after '
-                   'the write-down'],
-             'a': 'A',
-             'why': 'The book states item C8-2 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C8-3 ask for?',
-             'o': ['Enter the write-down for pomegranate molasses (USD).',
-                   'Match each product line to the test that applies. (On '
-                   'the exam screen ',
-                   'Enter the total carrying amount of the five lines after '
-                   'the write-down',
-                   'Enter the total write-down for all five lines (USD).'],
-             'a': 'D',
-             'why': 'The book states item C8-3 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C8-4 ask for?',
-             'o': ['Enter the total carrying amount of the five lines after '
-                   'the write-down',
-                   "In 2026, the NRV of za'atar mix rises to $13 a unit. "
-                   'Under U.S. GAAP, ',
-                   'Match each product line to the test that applies. (On '
-                   'the exam screen ',
-                   "If Orontes reported under IFRS, how much of the za'atar "
-                   'write-down wou'],
-             'a': 'A',
-             'why': 'The book states item C8-4 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C8-5 ask for?',
-             'o': ["If Orontes reported under IFRS, how much of the za'atar "
-                   'write-down wou',
-                   "In 2026, the NRV of za'atar mix rises to $13 a unit. "
-                   'Under U.S. GAAP, ',
-                   'Match each product line to the test that applies. (On '
-                   'the exam screen ',
-                   'Enter the total carrying amount of the five lines after '
-                   'the write-down'],
-             'a': 'B',
-             'why': 'The book states item C8-5 in those words.'},
-            {'t': 'MCQ',
-             'q': 'Which of these does item C8-6 ask for?',
-             'o': ["If Orontes reported under IFRS, how much of the za'atar "
-                   'write-down wou',
-                   'Enter the total carrying amount of the five lines after '
-                   'the write-down',
-                   "In 2026, the NRV of za'atar mix rises to $13 a unit. "
-                   'Under U.S. GAAP, ',
-                   'Match each product line to the test that applies. (On '
-                   'the exam screen '],
-             'a': 'A',
-             'why': 'The book states item C8-6 in those words.'}]),
+           [{'t': 'MATCH',
+             'q': 'The tasks of a case set have to be worked in one order, '
+                  'because each one uses the result of the one before it. '
+                  'Write the letter of its place beside each task.',
+             'left': ['Match each product line to the test that applies. (On '
+                      'the exam screen you would drag each line into a box.)',
+                      'Enter the write-down for pomegranate molasses (USD).',
+                      'Enter the total carrying amount of the five lines '
+                      'after the write-downs (USD).',
+                      'Enter the total write-down for all five lines (USD).',
+                      "In 2026, the NRV of za'atar mix rises to $13 a unit. "
+                      'Under U.S. GAAP, the 2025 write-down: [select]',
+                      'If Orontes reported under IFRS, how much of the '
+                      "za'atar write-down would it reverse in 2026 (USD)?"],
+             'right': ['first',
+                       'second',
+                       'third',
+                       'fourth',
+                       'fifth',
+                       'sixth'],
+             'a': ['A', 'B', 'D', 'C', 'E', 'F'],
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Orontes measures olive oil using FIFO. Which test applies '
-                  'at year-end?',
-             'o': ['Lower of cost or market',
-                   'Replacement cost only',
-                   'Lower of cost and net realizable value',
-                   'No test; FIFO inventory stays at cost'],
-             'a': 'C',
-             'why': 'FIFO, average cost and specific identification use '
-                    'LCNRV. A is wrong: LCM applies only to LIFO and the '
-                    'retail inventory method. B is wrong: Replacement cost '
-                    'is only the starting point for market under LCM.',
-             'src': 'SC8-1'}]),
-          ('panel',
-           'Orontes olive oil, December 31, 2025 — the extract for the '
-           'question that follows',
-           [['Orontes olive oil, December 31, 2025', 'Amount'],
-            ['Olive oil cases on hand (FIFO layer from Chapter 7)', '2,000'],
-            ['Cost per case', '$50'],
-            ['New estimated selling price per case', '$54'],
-            ['Costs to sell and deliver per case', '$6'],
-            ['NRV per case', '$48'],
-            ['Inventory at cost', '$100,000'],
-            ['Inventory at LCNRV', '$96,000'],
-            ['Write-down (loss in income)', '$4,000']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'Use the olive-oil example in the extract. What is the '
-                  'write-down (whole USD)?',
-             'o': ['0', '4,000', '12,000', '96,000'],
-             'a': 'B',
-             'why': 'NRV = selling price − costs to sell; write-down = (cost '
-                    '− NRV) × cases. A is wrong: This compares cost with the '
-                    'selling price and ignores the costs to sell. C is '
-                    'wrong: This is the total of the costs to sell, not the '
-                    'write-down.',
-             'src': 'SC8-2'}]),
+             'q': 'A U.S. subsidiary reports under U.S. GAAP, but its parent '
+                  'prepares IFRS group statements. The parent wants one '
+                  'method for group reporting. Which recommendation fits '
+                  'best?',
+             'o': ['FIFO or weighted average, so the same records work for '
+                   'the IFRS group statements',
+                   'LIFO, because the subsidiary reports under U.S. GAAP',
+                   'LIFO for the subsidiary and the retail method for the '
+                   'group',
+                   'Specific identification, to avoid the IFRS rules'],
+             'a': 'A',
+             'why': 'The group cannot use LIFO under IFRS, so a non-LIFO '
+                    'method avoids two sets of records. B is wrong: LIFO '
+                    'would need to be reversed for the IFRS group '
+                    'statements. C is wrong: This adds complexity and still '
+                    'uses LIFO.',
+             'src': 'P8-14'}]),
           ('check',
            'What has to be settled before any figure in a case set is worked '
            'out?',

@@ -8,12 +8,12 @@ HANDOUT = {'id': '16.1',
  'sub': 'section 16.1 of the book',
  'covers': ['sec:16.1',
             'p:P16-01',
-            'p:P16-02',
-            'p:P16-03',
-            'p:P16-04',
-            'sc:P16-01',
-            'p:P16-05',
-            'p:P16-06',
+            'p:P16-08',
+            'p:P16-09',
+            'p:P16-11',
+            'sc:P16-11',
+            'p:P16-12',
+            'p:P16-16',
             'term:consolidated financial statements',
             'term:intercompany transaction',
             'term:acquisition method'],
@@ -26,59 +26,52 @@ HANDOUT = {'id': '16.1',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['What consolidated statements are',
-             'a figure to read · Item',
-             'A parent owns 80% of a subsidiary. What part of the '
-             "subsidiary's revenue appears in the consolidated income "
-             'statement?'],
+             'a figure to read · Item · Suppose: Levant items, 2027 (whole '
+             'USD)',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Investment · The English the exam uses, and what it translates',
+             'a figure to read · Investment · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       35,
-                       ' present a ',
-                       11,
-                       ' and its subsidiaries as a single economic entity. '
-                       "They are prepared mainly for the parent's "
-                       'shareholders and creditors, who need to see all the '
-                       'resources the group controls and all its '
-                       'obligations. A company consolidates another entity '
-                       'when it has a ',
+             'parts': ['A company consolidates another entity when it has a ',
                        32,
-                       ' in it.'],
-             'bank': ['controlling financial interest',
-                      'Consolidated financial statements',
-                      'downstream sale',
-                      'parent',
-                      'joint venture'],
-             'a': 'Consolidated financial statements · parent · controlling '
-                  'financial interest',
-             'one': True,
-             'why': 'The book writes: “Consolidated financial statements '
-                    'present a parent and its subsidiaries as a single '
-                    'economic entity. They are prepared mainly for the '
-                    "parent's shareholders and creditors, who need to see "
-                    'all the resources the group controls and all its '
-                    'obligations. A company consolidates another entity when '
-                    'it has a controlling financial interest in it.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['Consolidation adds all of the ',
+                       ' in it. Consolidation adds all of the ',
                        12,
                        "'s assets, liabilities, revenues and expenses to "
                        'the ',
                        11,
                        "'s, line by line, even when the parent owns less "
-                       "than all of its shares. The part of a subsidiary's "
-                       'equity that the parent does not own is the ',
+                       'than all of its shares.'],
+             'bank': ['parent',
+                      'controlling financial interest',
+                      'downstream sale',
+                      'subsidiary',
+                      'joint venture'],
+             'a': 'controlling financial interest · subsidiary · parent',
+             'one': True,
+             'why': 'The book writes: “A company consolidates another entity '
+                    'when it has a controlling financial interest in it. '
+                    "Consolidation adds all of the subsidiary's assets, "
+                    "liabilities, revenues and expenses to the parent's, "
+                    'line by line, even when the parent owns less than all '
+                    'of its shares.”'},
+            {'t': 'FILL',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['The part of a ',
+                       12,
+                       "'s equity that the ",
+                       11,
+                       ' does not own is the ',
                        25,
-                       ' (NCI).'],
+                       ' (NCI). It is shown within consolidated equity, '
+                       "separately from the parent's equity."],
              'bank': ['noncontrolling interest',
                       'parent',
                       'subsidiary',
@@ -86,12 +79,10 @@ HANDOUT = {'id': '16.1',
                       'joint venture'],
              'a': 'subsidiary · parent · noncontrolling interest',
              'one': True,
-             'why': 'The book writes: “Consolidation adds all of the '
-                    "subsidiary's assets, liabilities, revenues and expenses "
-                    "to the parent's, line by line, even when the parent "
-                    'owns less than all of its shares. The part of a '
-                    "subsidiary's equity that the parent does not own is the "
-                    'noncontrolling interest (NCI).”'},
+             'why': "The book writes: “The part of a subsidiary's equity "
+                    'that the parent does not own is the noncontrolling '
+                    'interest (NCI). It is shown within consolidated equity, '
+                    "separately from the parent's equity.”"},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -140,11 +131,11 @@ HANDOUT = {'id': '16.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the answer of Less: upstream unrealized '
-                  'profit as “(25,000)”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Less: upstream unrealized profit with '
-                    '“(25,000)”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f1'),
           ('panel',
@@ -163,58 +154,14 @@ HANDOUT = {'id': '16.1',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which answer does the book give for Less: upstream '
-                  'unrealized profit?',
-             'o': ['20% × 755,000 = 151,000',
-                   '900,000 − 120,000 − 25,000 = 755,000',
-                   '(25,000)',
-                   '(20,000)'],
+             'q': 'Which part of this chapter is section 16.1?',
+             'o': ['IFRS differences and what is changing',
+                   'Two control models: VIE first, then votes',
+                   'What consolidated statements are',
+                   'Eliminating intercompany balances and transactions'],
              'a': 'C',
-             'why': 'The book’s own table gives (25,000) as the answer of '
-                    'Less: upstream unrealized profit.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Adjusted net income '
-                  'of Levant?',
-             'o': ['(25,000)',
-                   '1,900,000 + 151,000 − 20,000 = 2,031,000',
-                   '900,000 − 120,000 − 25,000 = 755,000',
-                   '20% × 755,000 = 151,000'],
-             'a': 'C',
-             'why': 'The book’s own table gives 900,000 − 120,000 − 25,000 = '
-                    '755,000 as the answer of Adjusted net income of '
-                    'Levant.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for NCI share?',
-             'o': ['(20,000)',
-                   '900,000 − 120,000 − 25,000 = 755,000',
-                   '(25,000)',
-                   '20% × 755,000 = 151,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 20% × 755,000 = 151,000 as '
-                    'the answer of NCI share.'},
-            {'t': 'MCQ',
-             'q': 'Which answer does the book give for Less: dividends paid '
-                  'to NCI?',
-             'o': ['(20,000)',
-                   '(25,000)',
-                   '20% × 755,000 = 151,000',
-                   '900,000 − 120,000 − 25,000 = 755,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives (20,000) as the answer of '
-                    'Less: dividends paid to NCI.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Less: upstream unrealized '
-                  'profit as “(25,000)”.',
-             'a': 'T',
-             'why': 'The book pairs Less: upstream unrealized profit with '
-                    '“(25,000)”.'},
-            {'t': 'TF',
-             'q': 'The book gives the answer of Adjusted net income of '
-                  'Levant as “20% × 755,000 = 151,000”.',
-             'a': 'F',
-             'why': 'The book pairs Adjusted net income of Levant with '
-                    '“900,000 − 120,000 − 25,000 = 755,000”, not with “20% × '
-                    '755,000 = 151,000”.'}]),
+             'why': 'The book numbers “What consolidated statements are” as '
+                    'section 16.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -232,61 +179,91 @@ HANDOUT = {'id': '16.1',
                     'share, not what is consolidated.',
              'src': 'P16-01'},
             {'t': 'MCQ',
-             'q': 'How is consolidated net income presented under U.S. GAAP?',
-             'o': ["Only the parent's share is shown",
-                   "NCI's share is shown as an expense",
-                   'In total, then split between the parent and NCI on the '
-                   'face',
-                   "NCI's share is shown only in the notes"],
-             'a': 'C',
-             'why': 'Both amounts are attributed on the face of the '
-                    "statement. A is wrong: The total includes NCI's share. "
-                    "B is wrong: NCI's share is an attribution, not an "
-                    'expense.',
-             'src': 'P16-02'},
-            {'t': 'MCQ',
-             'q': 'A parent pays $5,000,000 for 70% of a company. NCI is '
-                  'worth $2,000,000, and net assets at fair value are '
-                  '$6,500,000. What is goodwill under U.S. GAAP?',
-             'o': ['$0', '$450,000', '$500,000', '$1,500,000'],
-             'a': 'C',
-             'why': 'Price + NCI fair value − net assets. A is wrong: '
-                    'Goodwill arises because the total exceeds net assets. B '
-                    'is wrong: This measures NCI at 30% of net assets '
-                    '(partial goodwill).',
-             'src': 'P16-03'},
-            {'t': 'MCQ',
-             'q': 'After an acquisition, the subsidiary has losses and NCI '
-                  'would become negative. Under U.S. GAAP:',
-             'o': ['losses are still attributed to NCI, even if NCI becomes '
-                   'negative',
-                   'all losses go to the parent once NCI reaches zero',
-                   'NCI is reclassified as a liability',
-                   'the parent stops consolidating'],
+             'q': 'Two companies each hold 50% of a joint venture and share '
+                  'control. Under U.S. GAAP, each uses:',
+             'o': ['the equity method',
+                   'proportionate consolidation',
+                   'full consolidation',
+                   'fair value'],
              'a': 'A',
-             'why': 'ASC 810 attributes losses to NCI without a floor. B is '
-                    'wrong: This was the old practice before FAS 160. C is '
-                    'wrong: NCI stays in equity.',
-             'src': 'P16-04'}]),
+             'why': 'Joint ventures use the equity method. B is wrong: '
+                    'Proportionate consolidation is generally not allowed. C '
+                    'is wrong: Neither party controls alone.',
+             'src': 'P16-08'},
+            {'t': 'MCQ',
+             'q': 'In which case does U.S. GAAP allow proportionate '
+                  'consolidation?',
+             'o': ['A 50% joint venture in food distribution',
+                   'A 30% associate',
+                   'An undivided interest in an oil and gas property',
+                   'An 80% subsidiary'],
+             'a': 'C',
+             'why': 'Only limited industry practice allows it. A is wrong: '
+                    'Joint ventures use the equity method. B is wrong: An '
+                    'associate uses the equity method.',
+             'src': 'P16-09'}]),
+          ('panel',
+           'Suppose: Levant items, 2027 (whole USD) — the extract for the '
+           'question that follows',
+           [['Suppose: Levant items, 2027 (whole USD)',
+             'Eliminate',
+             'Result',
+             'Who bears it'],
+            ['Intercompany sales and cost of sales',
+             'Remove 750,000 of sales and cost of sales',
+             'Revenue and expenses fall; no profit effect',
+             '—'],
+            ['Downstream unrealized profit (30% unsold)',
+             '60,000 from inventory and profit',
+             "Inventory at the group's cost",
+             'Orontes'],
+            ['Upstream unrealized profit (40% unsold)',
+             '25,000 from inventory and profit',
+             "Inventory at the group's cost",
+             'Orontes 20,000, NCI 5,000'],
+            ['Intercompany receivable and payable',
+             '120,000 from both',
+             'The group cannot owe itself',
+             '—'],
+            ['Truck sold for 90,000 (carrying 60,000)',
+             'Gain 30,000; extra depreciation 6,000 a year',
+             'Truck back to its original cost basis',
+             'Orontes'],
+            ['Loan of 1,000,000 at 6%',
+             'Loan and interest of 60,000',
+             'No debt or interest inside the group',
+             '—'],
+            ['Dividend of 100,000',
+             "Orontes's dividend income 80,000",
+             'NCI falls by 20,000',
+             'NCI']],
+           ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. How '
+                  'much intercompany sales revenue is removed in '
+                  'consolidation (whole USD)?',
+             'o': ['0', '85,000', '500,000', '750,000'],
+             'a': 'D',
+             'why': 'Both downstream and upstream sales are removed in full. '
+                    'A is wrong: Intercompany sales must be removed. B is '
+                    'wrong: This is only the unrealized profit.',
+             'src': 'P16-11'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           "A parent owns 80% of a subsidiary. What part of the subsidiary's "
-           'revenue appears in the consolidated income statement?',
-           ['80%',
-            '20%',
-            "None; only the parent's share of net income",
-            '100%'],
-           'D',
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           "Consolidation adds all the subsidiary's items; NCI is shown "
-           'separately. A is wrong: Adding only 80% is proportionate '
-           'consolidation. B is wrong: 20% is the NCI share, not what is '
-           'consolidated.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -297,6 +274,7 @@ HANDOUT = {'id': '16.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Investment — the book’s own table',
            [['Investment', 'Category'],
@@ -323,29 +301,72 @@ HANDOUT = {'id': '16.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which feature suggests that an entity is a VIE?',
-             'o': ['It has many shareholders',
-                   'Its equity at risk is too small to finance its '
-                   'activities without extra support',
-                   'It pays dividends',
-                   'Its shares are listed'],
+             'q': 'Under IFRS 11, how does a party account for a joint '
+                  'operation?',
+             'o': ['It uses the equity method',
+                   'It recognizes its own share of the assets, liabilities, '
+                   'revenues and expenses',
+                   'It fully consolidates',
+                   'It measures the interest at fair value'],
              'a': 'B',
-             'why': 'Insufficient equity at risk is a VIE characteristic. A '
-                    'is wrong: The number of owners is not a VIE test. C is '
-                    'wrong: Dividends are not a VIE test.',
-             'src': 'P16-05'},
+             'why': 'Joint operators account for their rights and '
+                    'obligations directly. A is wrong: The equity method is '
+                    'for joint ventures. C is wrong: No single party '
+                    'controls it.',
+             'src': 'P16-16'},
             {'t': 'MCQ',
-             'q': 'A bank lends to a VIE and bears large losses if it fails, '
-                  'but has no power over its activities. The bank:',
-             'o': ['is the primary beneficiary because it bears the losses',
-                   'must use the equity method',
-                   'is not the primary beneficiary',
-                   'must use proportionate consolidation'],
-             'a': 'C',
-             'why': 'Both power and economics are required. A is wrong: '
-                    'Economics alone are not enough. B is wrong: A lender '
-                    'does not use the equity method.',
-             'src': 'P16-06'}]),
+             'q': 'Under U.S. GAAP, which party must reassess whether it is '
+                  "a VIE's primary beneficiary every reporting period?",
+             'o': ['Every party with a variable interest',
+                   'Only the largest lender',
+                   'Only the equity holders',
+                   'No one; it is decided once'],
+             'a': 'A',
+             'why': 'The primary beneficiary assessment is continuous. B is '
+                    'wrong: All variable-interest holders reassess. C is '
+                    'wrong: Other variable-interest holders reassess too.',
+             'src': 'P16-18'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching answer beside each item. '
+                  'Every one is used once.',
+             'left': ['Less: upstream unrealized profit',
+                      'Adjusted net income of Levant',
+                      'NCI share',
+                      'Less: dividends paid to NCI',
+                      'NCI at December 31, 2027'],
+             'right': ['(25,000)',
+                       '20% × 755,000 = 151,000',
+                       '(20,000)',
+                       '1,900,000 + 151,000 − 20,000 = 2,031,000',
+                       '900,000 − 120,000 − 25,000 = 755,000'],
+             'a': ['A', 'E', 'B', 'C', 'D'],
+             'whys': ['', '', '', '', '']}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. What '
+                  'happens to the truck gain in the 2027 consolidated '
+                  'statements?',
+             'o': ['The gain stays because it was a real sale',
+                   'The 30,000 gain is removed, and 6,000 of extra '
+                   'depreciation is reversed',
+                   'Only 80% of the gain is removed',
+                   'The gain moves to OCI'],
+             'a': 'B',
+             'why': 'The truck returns to its original cost basis for the '
+                    'group. A is wrong: A sale inside the group is not a '
+                    'real sale. C is wrong: Intercompany gains are removed '
+                    'in full.',
+             'src': 'P16-12'},
+            {'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. How '
+                  'much intercompany sales revenue is removed in '
+                  'consolidation (whole USD)?',
+             'o': ['0', '85,000', '500,000', '750,000'],
+             'a': 'D',
+             'why': 'Both downstream and upstream sales are removed in full. '
+                    'A is wrong: Intercompany sales must be removed. B is '
+                    'wrong: This is only the unrealized profit.',
+             'src': 'P16-11'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

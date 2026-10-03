@@ -3,17 +3,12 @@
 
 HANDOUT = {'id': '16.2',
  'n': 2,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Two control models: VIE first, then votes',
  'sub': 'section 16.2 of the book',
  'covers': ['sec:16.2',
-            'p:P16-07',
-            'p:P16-08',
-            'p:P16-09',
-            'p:P16-10',
-            'sc:P16-07',
-            'p:P16-11',
-            'p:P16-12',
+            'p:P16-02',
+            'p:P16-18',
             'term:parent',
             'term:unrealized profit',
             'term:goodwill'],
@@ -28,41 +23,38 @@ HANDOUT = {'id': '16.2',
             ['Two control models: VIE first, then votes',
              'a figure to read · Suppose: Orontes Cold-Chain Logistics SPV, '
              '2027',
-             'A company holds 60% of the votes, but a 40% owner must approve '
-             'the annual budget and key hires. Under the voting model:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Investment · The English the exam uses, and what it translates '
-             '· Suppose: Levant items, 2027 (whole USD)',
+             'a figure to read · Investment · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['GAAP has two ways to ',
+             'parts': ['An entity is a VIE if its equity at risk is too '
+                       'small to ',
                        11,
-                       ' control, and they are applied in order. First, the '
-                       'company asks whether the other entity is a ',
-                       11,
-                       ' interest entity (VIE). An entity is a VIE if its '
-                       'equity at risk is too small to finance its ',
+                       ' its ',
                        12,
                        ', or if its equity holders do not have the power to '
-                       'direct it or do not bear its losses and returns.'],
+                       'direct it or do not bear its losses and returns. If '
+                       'the entity is not a VIE, the voting ',
+                       11,
+                       ' model applies.'],
              'bank': ['subsidiary',
-                      'variable',
                       'activities',
+                      'interest',
                       'joint venture',
-                      'identify'],
-             'a': 'identify · variable · activities',
+                      'finance'],
+             'a': 'finance · activities · interest',
              'one': True,
-             'why': 'The book writes: “GAAP has two ways to identify '
-                    'control, and they are applied in order. First, the '
-                    'company asks whether the other entity is a variable '
-                    'interest entity (VIE). An entity is a VIE if its equity '
-                    'at risk is too small to finance its activities, or if '
-                    'its equity holders do not have the power to direct it '
-                    'or do not bear its losses and returns.”'},
+             'why': 'The book writes: “An entity is a VIE if its equity at '
+                    'risk is too small to finance its activities, or if its '
+                    'equity holders do not have the power to direct it or do '
+                    'not bear its losses and returns. If the entity is not a '
+                    'VIE, the voting interest model applies.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
@@ -74,8 +66,7 @@ HANDOUT = {'id': '16.2',
                        ' ',
                        15,
                        ' rights, such as the right to approve budgets. '
-                       'Decision chart: test the VIE model first, then the '
-                       'voting interest model. Suppose a logistics ',
+                       'Suppose a logistics ',
                        14,
                        ' owns all the shares of Orontes Cold-Chain Logistics '
                        'SPV.'],
@@ -89,34 +80,33 @@ HANDOUT = {'id': '16.2',
              'why': 'The book writes: “A company that holds more than 50% of '
                     'the votes generally controls the entity, unless other '
                     'owners have substantive participating rights, such as '
-                    'the right to approve budgets. Decision chart: test the '
-                    'VIE model first, then the voting interest model. '
-                    'Suppose a logistics entrepreneur owns all the shares of '
-                    'Orontes Cold-Chain Logistics SPV.”'},
+                    'the right to approve budgets. Suppose a logistics '
+                    'entrepreneur owns all the shares of Orontes Cold-Chain '
+                    'Logistics SPV.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
              'parts': ['Orontes has the power and bears the losses through '
-                       'its ',
-                       11,
-                       ', so it is the primary ',
-                       13,
+                       'its guarantee, so it is the ',
+                       21,
                        '. Orontes ',
                        14,
-                       ' the SPV although it owns no shares. Test the VIE '
-                       'model before counting votes.'],
+                       ' the SPV although it owns no shares. The ',
+                       16,
+                       ' $100,000 is NCI. Test the VIE model before counting '
+                       'votes.'],
              'bank': ['subsidiary',
-                      'beneficiary',
-                      'guarantee',
                       'consolidates',
+                      'primary beneficiary',
+                      "entrepreneur's",
                       'joint venture'],
-             'a': 'guarantee · beneficiary · consolidates',
+             'a': "primary beneficiary · consolidates · entrepreneur's",
              'one': True,
              'why': 'The book writes: “Orontes has the power and bears the '
                     'losses through its guarantee, so it is the primary '
                     'beneficiary. Orontes consolidates the SPV although it '
-                    'owns no shares. Test the VIE model before counting '
-                    'votes.”'}],
+                    "owns no shares. The entrepreneur's $100,000 is NCI. "
+                    'Test the VIE model before counting votes.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -177,112 +167,52 @@ HANDOUT = {'id': '16.2',
            [{'t': 'MCQ',
              'q': 'Which conclusion does the book give for Is equity at risk '
                   'enough to finance the activities??',
-             'o': ['Orontes consolidates',
-                   'Shown as NCI',
-                   'Suggests a VIE',
-                   'Orontes'],
+             'o': ['Orontes consolidates', 'Shown as NCI', 'Suggests a VIE'],
              'a': 'C',
              'why': 'The book’s own table gives Suggests a VIE as the '
                     'conclusion of Is equity at risk enough to finance the '
-                    'activities?.'},
-            {'t': 'MCQ',
-             'q': 'Which conclusion does the book give for Do the equity '
-                  'holders direct the key activities??',
-             'o': ['Shown as NCI', 'VIE', 'Orontes', 'Suggests a VIE'],
-             'a': 'B',
-             'why': 'The book’s own table gives VIE as the conclusion of Do '
-                    'the equity holders direct the key activities?.'},
-            {'t': 'MCQ',
-             'q': 'Which conclusion does the book give for Who absorbs '
-                  'losses??',
-             'o': ['Shown as NCI', 'Orontes', 'Suggests a VIE', 'VIE'],
-             'a': 'B',
-             'why': 'The book’s own table gives Orontes as the conclusion of '
-                    'Who absorbs losses?.'},
-            {'t': 'MCQ',
-             'q': 'Which conclusion does the book give for Primary '
-                  'beneficiary??',
-             'o': ['Orontes consolidates',
-                   'Suggests a VIE',
-                   'Shown as NCI',
-                   'Orontes'],
-             'a': 'A',
-             'why': 'The book’s own table gives Orontes consolidates as the '
-                    'conclusion of Primary beneficiary?.'}]),
+                    'activities?.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company holds 60% of the votes, but a 40% owner must '
-                  'approve the annual budget and key hires. Under the voting '
-                  'model:',
-             'o': ['the 60% holder controls',
-                   'the 40% owner controls',
-                   'both consolidate',
-                   'the 60% holder does not have control, because the other '
-                   'owner has substantive participating rights'],
-             'a': 'D',
-             'why': 'Substantive participating rights overcome majority '
-                    'control. A is wrong: Votes alone do not decide when '
-                    'others can block key decisions. B is wrong: Blocking '
-                    'rights do not give the 40% owner control.',
-             'src': 'P16-07'},
-            {'t': 'MCQ',
-             'q': 'Two companies each hold 50% of a joint venture and share '
-                  'control. Under U.S. GAAP, each uses:',
-             'o': ['the equity method',
-                   'proportionate consolidation',
-                   'full consolidation',
-                   'fair value'],
-             'a': 'A',
-             'why': 'Joint ventures use the equity method. B is wrong: '
-                    'Proportionate consolidation is generally not allowed. C '
-                    'is wrong: Neither party controls alone.',
-             'src': 'P16-08'},
-            {'t': 'MCQ',
-             'q': 'In which case does U.S. GAAP allow proportionate '
-                  'consolidation?',
-             'o': ['A 50% joint venture in food distribution',
-                   'A 30% associate',
-                   'An undivided interest in an oil and gas property',
-                   'An 80% subsidiary'],
+             'q': 'How is consolidated net income presented under U.S. GAAP?',
+             'o': ["Only the parent's share is shown",
+                   "NCI's share is shown as an expense",
+                   'In total, then split between the parent and NCI on the '
+                   'face',
+                   "NCI's share is shown only in the notes"],
              'a': 'C',
-             'why': 'Only limited industry practice allows it. A is wrong: '
-                    'Joint ventures use the equity method. B is wrong: An '
-                    'associate uses the equity method.',
-             'src': 'P16-09'},
+             'why': 'Both amounts are attributed on the face of the '
+                    "statement. A is wrong: The total includes NCI's share. "
+                    "B is wrong: NCI's share is an attribution, not an "
+                    'expense.',
+             'src': 'P16-02'},
             {'t': 'MCQ',
-             'q': "Under the equity method, the investor's investment "
-                  'account increases by:',
-             'o': ["all of the investee's net income",
-                   'dividends received',
-                   "the investee's revenue",
-                   "its share of the investee's net income"],
-             'a': 'D',
-             'why': 'The investor records its share of income; dividends '
-                    "reduce the investment. A is wrong: Only the investor's "
-                    'share is recorded. B is wrong: Dividends reduce the '
-                    'investment.',
-             'src': 'P16-10'}]),
+             'q': 'Under U.S. GAAP, which party must reassess whether it is '
+                  "a VIE's primary beneficiary every reporting period?",
+             'o': ['Every party with a variable interest',
+                   'Only the largest lender',
+                   'Only the equity holders',
+                   'No one; it is decided once'],
+             'a': 'A',
+             'why': 'The primary beneficiary assessment is continuous. B is '
+                    'wrong: All variable-interest holders reassess. C is '
+                    'wrong: Other variable-interest holders reassess too.',
+             'src': 'P16-18'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'A company holds 60% of the votes, but a 40% owner must approve '
-           'the annual budget and key hires. Under the voting model:',
-           ['the 60% holder controls',
-            'the 40% owner controls',
-            'both consolidate',
-            'the 60% holder does not have control, because the other owner '
-            'has substantive participating rights'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Substantive participating rights overcome majority control. A is '
-           'wrong: Votes alone do not decide when others can block key '
-           'decisions. B is wrong: Blocking rights do not give the 40% owner '
-           'control.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -293,6 +223,7 @@ HANDOUT = {'id': '16.2',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f2b'),
           ('panel',
            'Investment — the book’s own table',
            [['Investment', 'Category'],
@@ -339,68 +270,31 @@ HANDOUT = {'id': '16.2',
              'why': 'The book’s own table gives Fair value through net '
                     'income as the category of Listed food company (8%).'}]),
           ('move', 'APPLY', ''),
-          ('panel',
-           'Suppose: Levant items, 2027 (whole USD) — the extract for the '
-           'question that follows',
-           [['Suppose: Levant items, 2027 (whole USD)',
-             'Eliminate',
-             'Result',
-             'Who bears it'],
-            ['Intercompany sales and cost of sales',
-             'Remove 750,000 of sales and cost of sales',
-             'Revenue and expenses fall; no profit effect',
-             '—'],
-            ['Downstream unrealized profit (30% unsold)',
-             '60,000 from inventory and profit',
-             "Inventory at the group's cost",
-             'Orontes'],
-            ['Upstream unrealized profit (40% unsold)',
-             '25,000 from inventory and profit',
-             "Inventory at the group's cost",
-             'Orontes 20,000, NCI 5,000'],
-            ['Intercompany receivable and payable',
-             '120,000 from both',
-             'The group cannot owe itself',
-             '—'],
-            ['Truck sold for 90,000 (carrying 60,000)',
-             'Gain 30,000; extra depreciation 6,000 a year',
-             'Truck back to its original cost basis',
-             'Orontes'],
-            ['Loan of 1,000,000 at 6%',
-             'Loan and interest of 60,000',
-             'No debt or interest inside the group',
-             '—'],
-            ['Dividend of 100,000',
-             "Orontes's dividend income 80,000",
-             'NCI falls by 20,000',
-             'NCI']],
-           ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. How '
-                  'much intercompany sales revenue is removed in '
-                  'consolidation (whole USD)?',
-             'o': ['0', '85,000', '500,000', '750,000'],
-             'a': 'D',
-             'why': 'Both downstream and upstream sales are removed in full. '
-                    'A is wrong: Intercompany sales must be removed. B is '
-                    'wrong: This is only the unrealized profit.',
-             'src': 'P16-11'},
-            {'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. What '
-                  'happens to the truck gain in the 2027 consolidated '
-                  'statements?',
-             'o': ['The gain stays because it was a real sale',
-                   'The 30,000 gain is removed, and 6,000 of extra '
-                   'depreciation is reversed',
-                   'Only 80% of the gain is removed',
-                   'The gain moves to OCI'],
-             'a': 'B',
-             'why': 'The truck returns to its original cost basis for the '
-                    'group. A is wrong: A sale inside the group is not a '
-                    'real sale. C is wrong: Intercompany gains are removed '
-                    'in full.',
-             'src': 'P16-12'}]),
+             'q': 'Which conclusion does the book give for NCI in '
+                  'consolidation?',
+             'o': ['Shown as NCI', 'Orontes', 'Suggests a VIE'],
+             'a': 'A',
+             'why': 'The book’s own table gives Shown as NCI as the '
+                    'conclusion of NCI in consolidation.'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each one. '
+                  'Every one is used once.',
+             'left': ['Is equity at risk enough to finance the activities?',
+                      'Do the equity holders direct the key activities?',
+                      'Who absorbs losses?',
+                      'Primary beneficiary?',
+                      'NCI in consolidation'],
+             'right': ['No: Orontes decides routes and customers',
+                       'Orontes guarantees the 9,900,000 of debt',
+                       'Orontes has both power and exposure to significant '
+                       'losses',
+                       'No: third-party equity is 100,000, only 1% of total '
+                       'funding',
+                       "The third party's equity of 100,000"],
+             'a': ['D', 'A', 'B', 'C', 'E'],
+             'whys': ['', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

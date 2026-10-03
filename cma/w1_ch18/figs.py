@@ -20,8 +20,16 @@ def f3(blank=False):
     return cardset(blank=blank, **{'title': 'Capital', 'cards': [('Financial', ['Orontes examples (2027): Equity and bank loans (Part I)', 'Possible measure: Cash flow from operations']), ('Manufactured', ['Orontes examples (2027): Presses, bottling lines, cold stores', 'Possible measure: Plant capacity']), ('Intellectual', ['Orontes examples (2027): Recipes, brand, new sparkling-juice line', 'Possible measure: Share of sales from new products']), ('Human', ['Orontes examples (2027): 1,850 employees', 'Possible measure: 20 training hours per employee']), ('Social and relationship', ['Orontes examples (2027): 2,400 farmers in grower cooperatives; supermarket customers', 'Possible measure: Farmer contracts renewed']), ('Natural', ['Orontes examples (2027): Olive groves, water, energy', 'Possible measure: Water 900,000 m3; renewable electricity 30%'])], 'sub': 'Orontes examples (2027) · Possible measure'})
 
 
+def f3b(blank=False):
+    return lanes(blank=blank, **{'title': 'Orontes disclosure by capital', 'groups': [('Financial', ['Headroom under bank loan covenants']), ('Manufactured', ['A new bottling line']), ('________', ['Safety training for factory staff', 'The trademark for Orontes Gold olive oil', 'Water drawn from local wells', 'Long-term contracts with grower cooperatives'])], 'sub': 'every one of these is in the book’s own table'})
+
+
 def f4(blank=False):
     return cardset(blank=blank, **{'title': 'Content element (8)', 'cards': [('Organizational overview and external environment', ['Question it answers: What does the company do, and where?', 'Orontes example: Food producer based in Amman, Jordan, selling across the region']), ('Governance', ['Question it answers: How does governance support value creation?', 'Orontes example: Board committee oversees water risk']), ('Business model', ['Question it answers: How does the company turn capitals into value?', 'Orontes example: Grow, press, bottle, sell']), ('Risks and opportunities', ['Question it answers: What could help or harm value creation?', 'Orontes example: Water scarcity; demand for healthy drinks']), ('Strategy and resource allocation', ['Question it answers: Where is it going, and how will it get there?', 'Orontes example: Invest in irrigation and new products']), ('Performance', ['Question it answers: What did it achieve, and with what effects on the capitals?', 'Orontes example: Renewable electricity 30%'])], 'sub': 'Question it answers · Orontes example'})
+
+
+def f4b(blank=False):
+    return cardset(blank=blank, **{'title': 'Guiding principle (7)', 'cards': [('Strategic focus and future orientation', ['What it means: Explain strategy and how it creates value over time', 'Orontes example: Plans for the sparkling-juice line to 2030']), ('Connectivity of information', ['What it means: Show how capitals, strategy and performance link', 'Orontes example: Irrigation spending linked to water use and grower yields']), ('Stakeholder relationships', ['What it means: Explain key relationships and how the company responds', 'Orontes example: Work with grower cooperatives']), ('Materiality', ['What it means: Include matters that substantively affect value creation', 'Orontes example: Water scarcity; olive prices']), ('Conciseness', ['What it means: Be short and clear', 'Orontes example: Refer to the financial statements rather than repeat them']), ('Reliability and completeness', ['What it means: Include positive and negative matters, without material error', 'Orontes example: Report a failed product launch too'])], 'sub': 'What it means · Orontes example'})
 
 
 def f5(blank=False):
@@ -32,8 +40,16 @@ def f6(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Integrated thinking, integrated reporting and the integrated report', 'section 18.1'), ('The primary purpose', 'section 18.2'), ('Value creation and the six capitals', 'section 18.3'), ('Guiding principles and content elements', 'section 18.4'), ('Benefits and challenges', 'section 18.5'), ('Integrated reporting and sustainability disclosures', 'you are here · section 18.6')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f6b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Disclosure — Category', 'steps': [('D1 Driver training', ''), ('D2 Electricity and solar', ''), ('D3 Farmer partnerships', ''), ('D4 Warehouse staff turnover', ''), ('D5 Packaging waste', '')]})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Disclosure — Category', 'steps': [('D1 Driver training', 'Human capital'), ('D2 Electricity and solar', 'Natural capital'), ('D3 Farmer partnerships', 'Social and relationship capital'), ('D4 Warehouse staff turnover', 'Human capital'), ('D5 Packaging waste', 'Natural capital')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 18 at a glance', 'nodes': [('Integrated thinking, integrated reporting and the integrated report', 'section 18.1'), ('The primary purpose', 'section 18.2'), ('Value creation and the six capitals', 'section 18.3'), ('Guiding principles and content elements', 'section 18.4'), ('Benefits and challenges', 'section 18.5'), ('Integrated reporting and sustainability disclosures', 'section 18.6')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'f6': f6, 'chmap': chmap}
+FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f3b': f3b, 'f4': f4, 'f4b': f4b, 'f5': f5, 'f6': f6, 'f6b': f6b, 'frev': frev, 'chmap': chmap}

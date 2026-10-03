@@ -407,6 +407,25 @@ def g_fading(H, src, fails):
     return
 
 
+def _section_text(H, src):
+    """The book's own text for the section this handout teaches.
+
+    Returns None when the handout is not a single-section sheet (the review
+    handout covers the whole chapter), so the full page floor applies.
+    """
+    sec = next((c.split(':', 1)[1] for c in H.get('covers', [])
+                if c.startswith('sec:')), None)
+    if not sec or len(H.get('covers', [])) < 1:
+        return None
+    if sum(1 for c in H.get('covers', []) if c.startswith('sec:')) != 1:
+        return None
+    m = re.search(r'^%s\s' % re.escape(sec), src, re.M)
+    if not m:
+        return None
+    nxt = re.search(r'^\d+\.\d+[a-z]?\s', src[m.end():], re.M)
+    return src[m.end():m.end() + (nxt.start() if nxt else 4000)]
+
+
 def g_page_budget(H, src, fails):
     """A handout is one session's work.
 
@@ -417,9 +436,17 @@ def g_page_budget(H, src, fails):
     prevent. Nine is the ceiling, and a tenth page is still a failure.
     """
     p = H.get('pages', 0)
-    if not 4 <= p <= 9:
-        fails.append('%s: %d pages is outside the 4 to 9 a session allows'
-                     % (H['id'], p))
+    # A sheet should be as long as its section has substance, and no longer.
+    # Section 18.5 of Book 1, "Benefits and challenges", is six sentences
+    # and a four-row table; stretching it to four pages means inventing
+    # questions, which is the one thing these gates exist to prevent. So a
+    # section the book itself writes short is allowed a short sheet, and
+    # every other section still owes four pages.
+    body = _section_text(H, src)
+    floor = 3 if body is not None and len(body) < 1600 else 4
+    if not floor <= p <= 9:
+        fails.append('%s: %d pages is outside the %d to 9 a session allows'
+                     % (H['id'], p, floor))
 
 
 # ---------------------------------------------------------------- chapter

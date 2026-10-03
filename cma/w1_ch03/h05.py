@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '3.5',
  'n': 5,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Limitations and links to the other statements',
  'sub': 'section 3.5 of the book',
  'covers': ['sec:3.5',
+            'p:P3-09',
             'term:discontinued operation',
             'term:single-step income statement',
             'term:intraperiod tax allocation'],
@@ -22,7 +23,8 @@ HANDOUT = {'id': '3.5',
              'a figure to read · Item / memo (USD 000)',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -81,27 +83,28 @@ HANDOUT = {'id': '3.5',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['The face of the ',
+             'parts': ['IFRS 18 replaces IAS 1 and adds required ',
                        11,
-                       ' does not change. IFRS 18 replaces IAS 1 and adds '
-                       'required ',
+                       ', ',
                        11,
-                       ', including operating profit. French résultat means '
-                       'profit, not result in general, and résultat ',
+                       ' operating profit. Both apply from 2027 and are not '
+                       'testable before about January 2028. French résultat '
+                       'means profit, not result in general, and résultat ',
                        14,
-                       ' is not a U.S.'],
+                       ' is not a U.S. category.'],
              'bank': ['other income and expense',
-                      'subtotals',
+                      'including',
                       'exceptionnel',
                       'income statement',
-                      'statement'],
-             'a': 'statement · subtotals · exceptionnel',
+                      'subtotals'],
+             'a': 'subtotals · including · exceptionnel',
              'one': True,
-             'why': 'The book writes: “The face of the statement does not '
-                    'change. IFRS 18 replaces IAS 1 and adds required '
-                    'subtotals, including operating profit. French résultat '
-                    'means profit, not result in general, and résultat '
-                    'exceptionnel is not a U.S.”'}],
+             'why': 'The book writes: “IFRS 18 replaces IAS 1 and adds '
+                    'required subtotals, including operating profit. Both '
+                    'apply from 2027 and are not testable before about '
+                    'January 2028. French résultat means profit, not result '
+                    'in general, and résultat exceptionnel is not a U.S. '
+                    'category.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -170,41 +173,23 @@ HANDOUT = {'id': '3.5',
                    'Unusual items and discontinued operations'],
              'a': 'A',
              'why': 'The book numbers “Purpose and structure of the income '
-                    'statement” as section 3.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.2?',
-             'o': ['Limitations and links to the other statements',
-                   'Unusual items and discontinued operations',
-                   'Building the multi-step income statement',
-                   'Purpose and structure of the income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Building the multi-step income '
-                    'statement” as section 3.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.3?',
-             'o': ['Building the multi-step income statement',
-                   'Limitations and links to the other statements',
-                   'Unusual items and discontinued operations',
-                   'Purpose and structure of the income statement'],
-             'a': 'C',
-             'why': 'The book numbers “Unusual items and discontinued '
-                    'operations” as section 3.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 3.4?',
-             'o': ['Unusual items and discontinued operations',
-                   'Comprehensive income',
-                   'Building the multi-step income statement',
-                   'Purpose and structure of the income statement'],
-             'a': 'B',
-             'why': 'The book numbers “Comprehensive income” as section '
-                    '3.4.'}]),
+                    'statement” as section 3.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'A company reports a large loss from a flood, which is '
+                  'unusual for it. How is the loss presented?',
+             'o': ['Net of tax, below income from continuing operations',
+                   'As an extraordinary item with its own EPS',
+                   'Only in the notes',
+                   'As a separate line in income from continuing operations, '
+                   'before tax'],
+             'a': 'D',
+             'why': 'Unusual or infrequent items stay in continuing '
+                    'operations, before tax. A is wrong: Only discontinued '
+                    'operations are shown net of tax there. B is wrong: '
+                    'Extraordinary items were removed.',
+             'src': 'P3-09'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -229,6 +214,7 @@ HANDOUT = {'id': '3.5',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f5b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -255,12 +241,16 @@ HANDOUT = {'id': '3.5',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -8,13 +8,13 @@ HANDOUT = {'id': '1.1',
  'sub': 'section 1.1 of the book',
  'covers': ['sec:1.1',
             'p:P01',
-            'p:P02',
-            'p:P03',
-            'p:P04',
+            'p:P08',
+            'p:P09',
+            'p:P11',
             'sc:SC1-1',
             'sc:SC1-2',
-            'p:P05',
-            'p:P06',
+            'p:P13',
+            'p:P14',
             'sc:SC1-1',
             'sc:SC1-2',
             'term:financial statements',
@@ -39,71 +39,72 @@ HANDOUT = {'id': '1.1',
              'Which group is a primary user of general-purpose financial '
              'statements?'],
             ['The words this section uses precisely',
-             'Verb · The English the exam uses, and what it translates',
+             'a figure to read · Verb · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['',
-                       22,
-                       ' summarize these facts in a standard form for people '
-                       'outside the company. The four main statements are '
-                       'the ',
-                       15,
-                       ', the ',
+             'parts': ['The four main statements are the balance sheet, the ',
                        18,
                        ', the ',
                        32,
                        ' and the ',
                        25,
-                       '.'],
+                       '. Most companies prepare ',
+                       38,
+                       '. These are reports for many readers at the same '
+                       'time, not for one special reader.'],
              'bank': ['matching principle',
-                      'income statement',
-                      'Financial statements',
-                      'cost of goods sold',
                       'statement of cash flows',
-                      'statement of changes in equity',
-                      'balance sheet'],
-             'a': 'Financial statements · balance sheet · income statement · '
-                  'statement of changes in equity · statement of cash flows',
+                      'income statement',
+                      'cost of goods sold',
+                      'general-purpose financial statements',
+                      'statement of changes in equity'],
+             'a': 'income statement · statement of changes in equity · '
+                  'statement of cash flows · general-purpose financial '
+                  'statements',
              'one': True,
-             'why': 'The book writes: “Financial statements summarize these '
-                    'facts in a standard form for people outside the '
-                    'company. The four main statements are the balance '
-                    'sheet, the income statement, the statement of changes '
-                    'in equity and the statement of cash flows.”'},
+             'why': 'The book writes: “The four main statements are the '
+                    'balance sheet, the income statement, the statement of '
+                    'changes in equity and the statement of cash flows. Most '
+                    'companies prepare general-purpose financial statements. '
+                    'These are reports for many readers at the same time, '
+                    'not for one special reader.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['How did the company perform in the period? The ',
+             'parts': ['What does the company have, and what does it owe? '
+                       'The ',
+                       15,
+                       ' answers this. How did the company perform in the '
+                       'period? The ',
                        18,
                        ' answers this. Where did cash come from, and where '
                        'did it go? The ',
                        25,
                        ' answers this. The ',
                        22,
-                       ' lists the qualities of useful information. ',
-                       11,
-                       ' means the information can make a difference to a '
-                       'decision.'],
-             'bank': ['conceptual framework',
+                       ' lists the qualities of useful information.'],
+             'bank': ['statement of cash flows',
                       'cost of goods sold',
-                      'statement of cash flows',
-                      'Relevance',
                       'income statement',
+                      'conceptual framework',
+                      'balance sheet',
                       'matching principle'],
-             'a': 'income statement · statement of cash flows · conceptual '
-                  'framework · Relevance',
+             'a': 'balance sheet · income statement · statement of cash '
+                  'flows · conceptual framework',
              'one': True,
-             'why': 'The book writes: “How did the company perform in the '
-                    'period? The income statement answers this. Where did '
-                    'cash come from, and where did it go? The statement of '
-                    'cash flows answers this. The conceptual framework lists '
-                    'the qualities of useful information. Relevance means '
-                    'the information can make a difference to a decision.”'},
+             'why': 'The book writes: “What does the company have, and what '
+                    'does it owe? The balance sheet answers this. How did '
+                    'the company perform in the period? The income statement '
+                    'answers this. Where did cash come from, and where did '
+                    'it go? The statement of cash flows answers this. The '
+                    'conceptual framework lists the qualities of useful '
+                    'information.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -157,11 +158,11 @@ HANDOUT = {'id': '1.1',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the decision of Investors (shareholders) — '
-                  'PRIMARY as “Buy, hold or sell shares”.',
+             'q': 'The book gives the decision of Managers (internal) as '
+                  '“Plan and control operations”.',
              'a': 'T',
-             'why': 'The book pairs Investors (shareholders) — PRIMARY with '
-                    '“Buy, hold or sell shares”.'}]),
+             'why': 'The book pairs Managers (internal) with “Plan and '
+                    'control operations”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'quality_tree'),
           ('panel',
@@ -210,53 +211,13 @@ HANDOUT = {'id': '1.1',
              'a': 'C',
              'why': 'The book’s own table gives Buy, hold or sell shares as '
                     'the decision of Investors (shareholders) — PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Lenders (banks, '
-                  'bondholders) — PRIMARY?',
-             'o': ['Lend, renew or stop a loan',
-                   'Plan and control operations',
-                   'Tax, oversight, statistics',
-                   'Buy, hold or sell shares'],
-             'a': 'A',
-             'why': 'The book’s own table gives Lend, renew or stop a loan '
-                    'as the decision of Lenders (banks, bondholders) — '
-                    'PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Other creditors '
-                  '(suppliers) — PRIMARY?',
-             'o': ['Lend, renew or stop a loan',
-                   'Plan and control operations',
-                   'Tax, oversight, statistics',
-                   'Sell on credit, set credit terms'],
-             'a': 'D',
-             'why': 'The book’s own table gives Sell on credit, set credit '
-                    'terms as the decision of Other creditors (suppliers) — '
-                    'PRIMARY.'},
-            {'t': 'MCQ',
-             'q': 'Which decision does the book give for Employees and '
-                  'unions?',
-             'o': ['Stay, negotiate pay',
-                   'Sign long-term contracts',
-                   'Buy, hold or sell shares',
-                   'Lend, renew or stop a loan'],
-             'a': 'A',
-             'why': 'The book’s own table gives Stay, negotiate pay as the '
-                    'decision of Employees and unions.'},
-            {'t': 'TF',
-             'q': 'The book gives the statements used most of Investors '
-                  '(shareholders) — PRIMARY as “Income statement, cash '
-                  'flows, balance sheet”.',
-             'a': 'T',
-             'why': 'The book pairs Investors (shareholders) — PRIMARY with '
-                    '“Income statement, cash flows, balance sheet”.'},
             {'t': 'TF',
              'q': 'The book gives the statements used most of Lenders '
-                  '(banks, bondholders) — PRIMARY as “Income statement, cash '
-                  'flows, balance sheet”.',
-             'a': 'F',
+                  '(banks, bondholders) — PRIMARY as “Cash flows, balance '
+                  'sheet”.',
+             'a': 'T',
              'why': 'The book pairs Lenders (banks, bondholders) — PRIMARY '
-                    'with “Cash flows, balance sheet”, not with “Income '
-                    'statement, cash flows, balance sheet”.'}]),
+                    'with “Cash flows, balance sheet”.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -315,50 +276,47 @@ HANDOUT = {'id': '1.1',
                     'they are not the primary users named by the framework.',
              'src': 'P01'},
             {'t': 'MCQ',
-             'q': 'A bank is deciding whether to renew a five-year loan to '
-                  'Orontes. Which information will the bank find MOST '
-                  'useful?',
-             'o': ['The highest and lowest share price during the year',
-                   "The company's ability to generate cash to pay interest "
-                   'and repay principal',
-                   'The number of products the company sells',
-                   "The names of the company's major shareholders"],
+             'q': 'Which account normally has a debit balance?',
+             'o': ['Accounts payable',
+                   'Sales revenue',
+                   'Prepaid rent',
+                   'Additional paid-in capital'],
+             'a': 'C',
+             'why': 'Prepaid rent is an asset, and assets have debit '
+                    'balances. A is wrong: Accounts payable is a liability, '
+                    'with a credit balance. B is wrong: Revenue increases '
+                    'equity, so it has a credit balance.',
+             'src': 'P08'},
+            {'t': 'MCQ',
+             'q': 'Accumulated depreciation is BEST described as:',
+             'o': ['a liability for future asset replacement.',
+                   'a contra-asset account with a credit balance.',
+                   'an expense of the current period.',
+                   'a reduction of retained earnings.'],
              'a': 'B',
-             'why': "A lender's main question is repayment: can the borrower "
-                    'pay interest and principal on time? A is wrong: Share '
-                    'prices interest investors more than lenders and do not '
-                    'show repayment ability. C is wrong: The product count '
-                    'does not show whether the company can repay the loan.',
-             'src': 'P02'},
+             'why': 'It reduces the cost of equipment on the balance sheet '
+                    'and has a credit balance. A is wrong: The company owes '
+                    'nobody anything, so it is not a liability. C is wrong: '
+                    "Depreciation expense is the period's charge; "
+                    'accumulated depreciation is the running total on the '
+                    'balance sheet.',
+             'src': 'P09'},
             {'t': 'MCQ',
-             'q': 'Two companies use the same accounting methods, so an '
-                  'analyst can compare their results. This quality is '
-                  'called:',
-             'o': ['relevance',
-                   'verifiability',
-                   'faithful representation',
-                   'comparability'],
+             'q': 'Which statement about the matching principle is correct?',
+             'o': ['Expenses are recognized in the period in which they are '
+                   'paid.',
+                   'Revenues are recognized in the period in which cash is '
+                   'received.',
+                   'All costs are capitalized as assets until related '
+                   'revenue is earned.',
+                   'Expenses are recognized in the same period as the '
+                   'revenues they help to produce.'],
              'a': 'D',
-             'why': 'Comparability lets users identify similarities and '
-                    'differences between companies or periods. A is wrong: '
-                    'Relevance means the information can make a difference '
-                    'to a decision. B is wrong: Verifiability means '
-                    'independent observers could reach the same result.',
-             'src': 'P03'},
-            {'t': 'MCQ',
-             'q': 'A company issues common stock for cash. What is the '
-                  'effect on the accounting equation?',
-             'o': ['Assets increase and equity increases.',
-                   'Assets increase and revenue increases.',
-                   'Assets increase and liabilities increase.',
-                   'There is no effect on the equation.'],
-             'a': 'A',
-             'why': 'Cash (an asset) increases, and contributed capital '
-                    '(equity) increases by the same amount. B is wrong: '
-                    'Selling shares is financing from owners, not revenue. C '
-                    'is wrong: Shares are equity, not debt. A liability '
-                    'arises only when the company borrows.',
-             'src': 'P04'}]),
+             'why': 'This is the definition of matching. A is wrong: Payment '
+                    'timing does not decide when an expense is recognized. B '
+                    'is wrong: Revenue is recognized when earned, not when '
+                    'cash is received.',
+             'src': 'P11'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -388,6 +346,7 @@ HANDOUT = {'id': '1.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Verb — the book’s own table',
            [['Verb', 'Meaning in financial reporting'],
@@ -436,21 +395,7 @@ HANDOUT = {'id': '1.1',
              'o': ['measure', 'present', 'disclose', 'recognize'],
              'a': 'D',
              'why': 'The book’s own table pairs recognize with “include an '
-                    'item in the statements, with a name and an amount”.'},
-            {'t': 'MCQ',
-             'q': 'Which verb does the book pair with “decide the amount of '
-                  'the item”?',
-             'o': ['measure', 'record', 'disclose', 'present'],
-             'a': 'A',
-             'why': 'The book’s own table pairs measure with “decide the '
-                    'amount of the item”.'},
-            {'t': 'MCQ',
-             'q': 'Which verb does the book pair with “enter the item in the '
-                  'accounts (journal and ledger)”?',
-             'o': ['record', 'present', 'recognize', 'measure'],
-             'a': 'A',
-             'why': 'The book’s own table pairs record with “enter the item '
-                    'in the accounts (journal and ledger)”.'}]),
+                    'item in the statements, with a name and an amount”.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
@@ -468,33 +413,32 @@ HANDOUT = {'id': '1.1',
                     'compare companies or periods.',
              'src': 'SC1-2'},
             {'t': 'MCQ',
-             'q': 'The board declares a cash dividend that will be paid next '
-                  'month. What is the effect immediately after the '
-                  'declaration?',
-             'o': ['Expenses increase and net income decreases.',
-                   'Liabilities increase and equity decreases.',
-                   'Assets decrease and equity decreases.',
-                   'There is no effect until the dividend is paid.'],
-             'a': 'B',
-             'why': 'Declaring the dividend creates dividends payable (a '
-                    'liability) and reduces retained earnings. A is wrong: A '
-                    'dividend is a distribution to owners, not an expense. C '
-                    'is wrong: Cash decreases only on the payment date, next '
-                    'month.',
-             'src': 'P05'},
-            {'t': 'MCQ',
-             'q': 'Which transaction changes total assets but does NOT '
-                  'change total equity?',
-             'o': ['Borrowing cash from a bank',
-                   'Paying wages in cash',
-                   'Selling goods on credit at a profit',
-                   'Buying equipment for cash'],
+             'q': 'Which statement explains why retained earnings changed '
+                  'during the year?',
+             'o': ['The statement of changes in equity',
+                   'The balance sheet',
+                   'The statement of cash flows',
+                   'The income statement'],
              'a': 'A',
-             'why': 'Assets and liabilities both increase. Equity does not '
-                    'change. B is wrong: Wages are an expense, so equity '
-                    '(retained earnings) also decreases. C is wrong: A '
-                    'profitable sale increases equity through net income.',
-             'src': 'P06'}]),
+             'why': 'The statement of changes in equity shows beginning '
+                    'retained earnings, net income, dividends and ending '
+                    'retained earnings. B is wrong: The balance sheet shows '
+                    'only the ending balance at one date. C is wrong: The '
+                    'statement of cash flows explains cash, not equity.',
+             'src': 'P13'},
+            {'t': 'MCQ',
+             'q': 'Net income for the period flows directly into:',
+             'o': ['the cash balance on the balance sheet.',
+                   'retained earnings in the statement of changes in equity.',
+                   'total liabilities.',
+                   'common stock.'],
+             'a': 'B',
+             'why': 'Net income is closed into retained earnings. A is '
+                    'wrong: Net income is not cash. The statement of cash '
+                    'flows explains the cash balance. C is wrong: Net income '
+                    'belongs to the owners, so it goes to equity, not '
+                    'liabilities.',
+             'src': 'P14'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

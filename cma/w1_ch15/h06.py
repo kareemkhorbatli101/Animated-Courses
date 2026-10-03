@@ -6,7 +6,10 @@ HANDOUT = {'id': '15.6',
  'pages': 5,
  'title': 'Presentation and IFRS differences',
  'sub': 'section 15.6 of the book',
- 'covers': ['sec:15.6', 'term:held for sale', 'term:component of an entity'],
+ 'covers': ['sec:15.6',
+            'p:P15-12',
+            'term:held for sale',
+            'term:component of an entity'],
  'skills': [('read6', 3)],
  'derived': {},
  'flow': [('preview',
@@ -19,7 +22,8 @@ HANDOUT = {'id': '15.6',
              'a figure to read · Suppose: Orontes, 2027 (USD 000)',
              'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Topic · The English the exam uses, and what it translates',
+             'a figure to read · Topic · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -53,55 +57,49 @@ HANDOUT = {'id': '15.6',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The results of a ',
+             'parts': ['The comparative years are ',
+                       14,
+                       ' so that all periods are shown on the same basis. On '
+                       'the balance sheet, the assets and liabilities of a ',
                        24,
-                       ', including its operating results and any '
-                       'remeasurement or disposal ',
-                       11,
-                       ' or ',
-                       11,
-                       ', are shown net of their own tax below income from '
-                       'continuing operations. Public companies also show '
-                       'per-share amounts for discontinued operations. The '
-                       'comparative years are reclassified so that all '
-                       'periods are shown on the same basis.'],
-             'bank': ['loss',
+                       ' are shown separately for all periods presented.'],
+             'bank': ['discontinued operation',
                       'strategic shift',
-                      'gain',
-                      'held for sale',
-                      'discontinued operation'],
-             'a': 'discontinued operation · gain · loss',
+                      'loss',
+                      'reclassified'],
+             'a': 'reclassified · discontinued operation',
              'one': True,
-             'why': 'The book writes: “The results of a discontinued '
-                    'operation, including its operating results and any '
-                    'remeasurement or disposal gain or loss, are shown net '
-                    'of their own tax below income from continuing '
-                    'operations. Public companies also show per-share '
-                    'amounts for discontinued operations. The comparative '
-                    'years are reclassified so that all periods are shown on '
-                    'the same basis.”'},
+             'why': 'The book writes: “The comparative years are '
+                    'reclassified so that all periods are shown on the same '
+                    'basis. On the balance sheet, the assets and liabilities '
+                    'of a discontinued operation are shown separately for '
+                    'all periods presented.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Under IFRS 5, a ',
-                       24,
-                       ' must be a separate major line of business or '
-                       'geographical area, and earlier balance sheets are '
-                       'not re-presented. Some IFRS OCI items, such as a '
-                       'revaluation surplus, never return to profit or ',
-                       11,
-                       '.'],
-             'bank': ['held for sale',
-                      'strategic shift',
-                      'loss',
-                      'discontinued operation'],
-             'a': 'discontinued operation · loss',
+             'parts': ['French résultat ',
+                       14,
+                       ' and Arabic بنود استثنائية describe unusual items in '
+                       'local practice. U.S. GAAP has no ',
+                       15,
+                       ' items: unusual or infrequent items stay in '
+                       'continuing operations, before tax. Only ',
+                       14,
+                       ' operations are shown net of tax below continuing '
+                       'operations.'],
+             'bank': ['loss',
+                      'discontinued operation',
+                      'extraordinary',
+                      'discontinued',
+                      'exceptionnel'],
+             'a': 'exceptionnel · extraordinary · discontinued',
              'one': True,
-             'why': 'The book writes: “Under IFRS 5, a discontinued '
-                    'operation must be a separate major line of business or '
-                    'geographical area, and earlier balance sheets are not '
-                    're-presented. Some IFRS OCI items, such as a '
-                    'revaluation surplus, never return to profit or loss.”'}],
+             'why': 'The book writes: “French résultat exceptionnel and '
+                    'Arabic بنود استثنائية describe unusual items in local '
+                    'practice. U.S. GAAP has no extraordinary items: unusual '
+                    'or infrequent items stay in continuing operations, '
+                    'before tax. Only discontinued operations are shown net '
+                    'of tax below continuing operations.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -168,41 +166,20 @@ HANDOUT = {'id': '15.6',
                    'Is it a discontinued operation?',
                    'Gains and losses'],
              'a': 'D',
-             'why': 'The book numbers “Gains and losses” as section 15.1.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.2?',
-             'o': ['Expense recognition',
-                   'Gains and losses',
-                   'Presentation and IFRS differences',
-                   'Is it a discontinued operation?'],
-             'a': 'A',
-             'why': 'The book numbers “Expense recognition” as section '
-                    '15.2.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.3?',
-             'o': ['Held for sale: criteria and measurement',
-                   'Presentation and IFRS differences',
-                   'Is it a discontinued operation?',
-                   'Comprehensive income and reclassification'],
-             'a': 'D',
-             'why': 'The book numbers “Comprehensive income and '
-                    'reclassification” as section 15.3.'},
-            {'t': 'MCQ',
-             'q': 'Which part of this chapter is section 15.4?',
-             'o': ['Comprehensive income and reclassification',
-                   'Presentation and IFRS differences',
-                   'Held for sale: criteria and measurement',
-                   'Is it a discontinued operation?'],
-             'a': 'D',
-             'why': 'The book numbers “Is it a discontinued operation?” as '
-                    'section 15.4.'}]),
+             'why': 'The book numbers “Gains and losses” as section 15.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'A held-for-sale group was written down by $100,000. Its '
+                  'fair value less cost to sell then rises by $150,000 '
+                  'before the sale. What gain may the company recognize?',
+             'o': ['$0', '$50,000', '$100,000', '$150,000'],
+             'a': 'C',
+             'why': 'Gains are limited to losses previously recognized. A is '
+                    'wrong: A recovery up to earlier losses is recognized. B '
+                    'is wrong: The limit is the earlier loss, not the '
+                    'excess.',
+             'src': 'P15-12'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -227,6 +204,7 @@ HANDOUT = {'id': '15.6',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f6b'),
           ('panel',
            'Topic — the book’s own table',
            [['Topic', 'U.S. GAAP', 'IFRS (IFRS 5, IAS 1, IFRS 18)'],
@@ -263,35 +241,27 @@ HANDOUT = {'id': '15.6',
              'a': 'D',
              'why': 'The book’s own table pairs Definition of discontinued '
                     'operation with “Component + strategic shift with a '
-                    'major effect”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Probable”?',
-             'o': ['Presentation from 2027',
-                   'Extraordinary items',
-                   'Sale expected within a year',
-                   'Balance sheet of earlier years'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Sale expected within a year '
-                    'with “Probable”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Re-presented: assets '
-                  'and liabilities shown separately”?',
-             'o': ['Extraordinary items',
-                   'Presentation from 2027',
-                   'Sale expected within a year',
-                   'Balance sheet of earlier years'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Balance sheet of earlier '
-                    'years with “Re-presented: assets and liabilities shown '
-                    'separately”.'}]),
+                    'major effect”.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each topic. '
+                  'Every one is used once.',
+             'left': ['Definition of discontinued operation',
+                      'Sale expected within a year',
+                      'Balance sheet of earlier years',
+                      'OCI later reclassified to profit',
+                      'Extraordinary items',
+                      'Presentation from 2027'],
+             'right': ['Component + strategic shift with a major effect',
+                       'Re-presented: assets and liabilities shown '
+                       'separately',
+                       'Probable',
+                       'All OCI items',
+                       'Unchanged',
+                       'Not allowed'],
+             'a': ['A', 'C', 'B', 'D', 'F', 'E'],
+             'whys': ['', '', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

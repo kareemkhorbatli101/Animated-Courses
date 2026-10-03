@@ -3,15 +3,11 @@
 
 HANDOUT = {'id': '9.3',
  'n': 3,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Credit losses on debt securities',
  'sub': 'section 9.3 of the book',
  'covers': ['sec:9.3',
-            'p:P9-13',
-            'p:P9-14',
-            'p:P9-15',
-            'p:P9-16',
-            'sc:P9-13',
+            'p:P9-03',
             'term:trading securities',
             'term:other comprehensive income (oci)',
             'term:fair value option',
@@ -26,8 +22,7 @@ HANDOUT = {'id': '9.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Credit losses on debt securities',
              'a figure to read · Investment',
-             'An investor first gains significant influence by buying more '
-             'shares. How does it apply the equity method?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -43,9 +38,9 @@ HANDOUT = {'id': '9.3',
                        ' cost, so they follow CECL, like the ',
                        13,
                        ' in Chapter 6: the company records an allowance for '
-                       'lifetime expected credit losses from day one. '
-                       'Treasury bonds, the expected loss can be zero. AFS '
-                       'securities follow a different model.'],
+                       'lifetime expected credit losses from day one. For '
+                       'very safe bonds, such as U.S. Treasury bonds, the '
+                       'expected loss can be zero.'],
              'bank': ['securities',
                       'bond premium',
                       'fair value option',
@@ -57,36 +52,34 @@ HANDOUT = {'id': '9.3',
                     'amortized cost, so they follow CECL, like the '
                     'receivables in Chapter 6: the company records an '
                     'allowance for lifetime expected credit losses from day '
-                    'one. Treasury bonds, the expected loss can be zero. AFS '
-                    'securities follow a different model.”'},
+                    'one. For very safe bonds, such as U.S. Treasury bonds, '
+                    'the expected loss can be zero.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['If the company intends to sell it, or will more '
-                       'likely than not have to sell it before it recovers, '
-                       'it writes the security down to fair value through '
-                       'net income. ',
+             'parts': ['The credit part is recorded in an ',
                        11,
-                       ' it ',
+                       ' through net income. The rest of the decline goes to '
+                       'OCI. An AFS bond has an ',
                        11,
-                       ' the decline into two parts. The credit part is '
-                       'recorded in an ',
-                       11,
-                       ' through net income.'],
-             'bank': ['separates',
+                       ' cost of $50,000 and a ',
+                       12,
+                       ' of $44,000. The allowance can never be larger than '
+                       'amortized cost minus fair value: $6,000.'],
+             'bank': ['amortized',
                       'fair value option',
                       'bond premium',
-                      'Otherwise',
-                      'allowance'],
-             'a': 'Otherwise · separates · allowance',
+                      'allowance',
+                      'fair value'],
+             'a': 'allowance · amortized · fair value',
              'one': True,
-             'why': 'The book writes: “If the company intends to sell it, or '
-                    'will more likely than not have to sell it before it '
-                    'recovers, it writes the security down to fair value '
-                    'through net income. Otherwise it separates the decline '
-                    'into two parts. The credit part is recorded in an '
-                    'allowance through net income.”'},
+             'why': 'The book writes: “The credit part is recorded in an '
+                    'allowance through net income. The rest of the decline '
+                    'goes to OCI. An AFS bond has an amortized cost of '
+                    '$50,000 and a fair value of $44,000. The allowance can '
+                    'never be larger than amortized cost minus fair value: '
+                    '$6,000.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
@@ -94,22 +87,25 @@ HANDOUT = {'id': '9.3',
                        11,
                        ' ≤ ',
                        11,
-                       ' cost − fair value. If the company intends to sell, '
-                       'there is no allowance: write the bond down to fair '
-                       'value. SC9-5 Use Case B of the ',
+                       ' cost − ',
                        12,
-                       ' floor example.'],
-             'bank': ['fair-value',
+                       '. If the company intends to sell, there is no '
+                       'allowance: write the bond down to fair value. A. '
+                       'Record an allowance for the credit part only. B. '
+                       'Write the bond down to fair value through net '
+                       'income.'],
+             'bank': ['fair value',
                       'allowance',
                       'amortized',
                       'fair value option',
                       'bond premium'],
-             'a': 'allowance · amortized · fair-value',
+             'a': 'allowance · amortized · fair value',
              'one': True,
              'why': 'The book writes: “AFS allowance ≤ amortized cost − fair '
                     'value. If the company intends to sell, there is no '
-                    'allowance: write the bond down to fair value. SC9-5 Use '
-                    'Case B of the fair-value floor example.”'}],
+                    'allowance: write the bond down to fair value. A. Record '
+                    'an allowance for the credit part only. B. Write the '
+                    'bond down to fair value through net income.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -135,9 +131,9 @@ HANDOUT = {'id': '9.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of A as “Trading”.',
+             'q': 'The book gives the category of E as “Equity method”.',
              'a': 'T',
-             'why': 'The book pairs A with “Trading”.'}]),
+             'why': 'The book pairs E with “Equity method”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f3'),
           ('panel',
@@ -161,124 +157,32 @@ HANDOUT = {'id': '9.3',
                    'Equity method'],
              'a': 'C',
              'why': 'The book’s own table gives Trading as the category of '
-                    'A.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for B?',
-             'o': ['Trading',
-                   'Equity method',
-                   'Available-for-sale',
-                   'Held-to-maturity'],
-             'a': 'D',
-             'why': 'The book’s own table gives Held-to-maturity as the '
-                    'category of B.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for C?',
-             'o': ['Available-for-sale',
-                   'Equity method',
-                   'Held-to-maturity',
-                   'Trading'],
-             'a': 'A',
-             'why': 'The book’s own table gives Available-for-sale as the '
-                    'category of C.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for D?',
-             'o': ['Equity: fair value through net income',
-                   'Held-to-maturity',
-                   'Available-for-sale',
-                   'Equity method'],
-             'a': 'A',
-             'why': 'The book’s own table gives Equity: fair value through '
-                    'net income as the category of D.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of A as “Trading”.',
-             'a': 'T',
-             'why': 'The book pairs A with “Trading”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of B as “Equity: fair value '
-                  'through net income”.',
-             'a': 'F',
-             'why': 'The book pairs B with “Held-to-maturity”, not with '
-                    '“Equity: fair value through net income”.'}]),
+                    'A.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'An investor first gains significant influence by buying '
-                  'more shares. How does it apply the equity method?',
-             'o': ['Retroactively, restating all prior years',
-                   'Only from the next fiscal year',
-                   'It keeps fair value through net income',
-                   'From the date it gains influence, with no restatement of '
-                   'prior years'],
-             'a': 'D',
-             'why': 'Since ASU 2016-07 the change is applied prospectively. '
-                    'A is wrong: Retroactive restatement was removed by ASU '
-                    '2016-07. B is wrong: It starts on the date influence is '
-                    'obtained.',
-             'src': 'P9-13'},
-            {'t': 'MCQ',
-             'q': 'Which option exists under IFRS 9 but NOT under U.S. GAAP?',
-             'o': ['Measuring trading debt at fair value through profit or '
-                   'loss',
-                   'An irrevocable election to put fair value changes on '
-                   'shares in OCI',
-                   'The equity method for associates',
-                   'Amortized cost for debt held to collect cash flows'],
-             'a': 'B',
-             'why': 'IFRS 9 allows the FVOCI election for shares; U.S. GAAP '
-                    'puts all changes on shares in net income. A is wrong: '
-                    'Both frameworks measure trading debt at fair value '
-                    'through income. C is wrong: Both frameworks use the '
-                    'equity method.',
-             'src': 'P9-14'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 1). Interest revenue on a bond is '
-                  'recognized each year even when the premium makes the cash '
-                  'received higher than the revenue. Which basis does this '
-                  'follow?',
-             'o': ['The cash basis',
-                   'The direct write-off method',
-                   'The accrual basis',
-                   'Immediate recognition'],
+             'q': 'Use the Orontes bond. What is the amortized cost at '
+                  'December 31, 2025 (whole USD)?',
+             'o': ['100,000', '101,000', '101,859', '102,723'],
              'a': 'C',
-             'why': 'Revenue is recognized as earned, measured by the '
-                    'effective-interest method, not by the cash received. A '
-                    'is wrong: Under the cash basis, revenue would equal the '
-                    'cash received. B is wrong: That is a method for bad '
-                    'debts.',
-             'src': 'P9-15'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 6). Which debt investments follow '
-                  'the same CECL model as trade receivables?',
-             'o': ['Held-to-maturity securities',
-                   'Trading securities',
-                   'Available-for-sale securities',
-                   'Shares measured at fair value'],
-             'a': 'A',
-             'why': 'HTM securities are measured at amortized cost, like '
-                    'receivables. B is wrong: Trading securities are at fair '
-                    'value through net income; no allowance is needed. C is '
-                    'wrong: AFS has a separate model with the fair-value '
-                    'floor.',
-             'src': 'P9-16'}]),
+             'why': 'Cost minus the premium amortized in 2025. A is wrong: '
+                    'The bond reaches face value only at maturity. B is '
+                    'wrong: This is fair value, not amortized cost.',
+             'src': 'P9-03'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'An investor first gains significant influence by buying more '
-           'shares. How does it apply the equity method?',
-           ['Retroactively, restating all prior years',
-            'Only from the next fiscal year',
-            'It keeps fair value through net income',
-            'From the date it gains influence, with no restatement of prior '
-            'years'],
-           'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Since ASU 2016-07 the change is applied prospectively. A is '
-           'wrong: Retroactive restatement was removed by ASU 2016-07. B is '
-           'wrong: It starts on the date influence is obtained.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -314,12 +218,17 @@ HANDOUT = {'id': '9.3',
              'whys': ['', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching category beside each '
+                  'investment. Every one is used once.',
+             'left': ['A', 'B', 'C', 'D', 'E'],
+             'right': ['Equity method',
+                       'Available-for-sale',
+                       'Trading',
+                       'Held-to-maturity',
+                       'Equity: fair value through net income'],
+             'a': ['C', 'D', 'B', 'E', 'A'],
+             'whys': ['', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -7,6 +7,7 @@ HANDOUT = {'id': '8.4',
  'title': 'Advantages and disadvantages of the methods',
  'sub': 'section 8.4 of the book',
  'covers': ['sec:8.4',
+            'p:P8-08',
             'term:replacement cost',
             'term:gross profit method',
             'term:purchase commitment'],
@@ -29,8 +30,7 @@ HANDOUT = {'id': '8.4',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Each one is strong on some goals and weak on others. '
-                       'The weighted average and specific ',
+             'parts': ['The weighted average and specific ',
                        16,
                        ' have their own ',
                        11,
@@ -46,8 +46,7 @@ HANDOUT = {'id': '8.4',
                       'shrinkage'],
              'a': 'identification · strengths · manipulate',
              'one': True,
-             'why': 'The book writes: “Each one is strong on some goals and '
-                    'weak on others. The weighted average and specific '
+             'why': 'The book writes: “The weighted average and specific '
                     'identification have their own strengths. The weighted '
                     'average is simple, smooths price changes and is hard to '
                     'manipulate, but its results are neither fully current '
@@ -56,53 +55,53 @@ HANDOUT = {'id': '8.4',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Specific ',
-                       16,
-                       ' gives exact matching for unique items, but for '
-                       'identical items it is costly and lets ',
+             'parts': ['The main ',
+                       11,
+                       ' is between the two ',
                        12,
-                       ' choose which costs to report. The main trade-off is '
-                       'between the two statements. LIFO gives a more '
-                       'realistic income statement when prices change, but '
-                       'an ',
+                       '. LIFO gives a more realistic income statement when '
+                       'prices change, but an ',
                        13,
-                       ' balance sheet.'],
+                       ' balance sheet. FIFO gives a realistic balance '
+                       'sheet, but its income includes holding gains. The '
+                       'weighted average sits between them.'],
              'bank': ['out-of-date',
-                      'identification',
+                      'trade-off',
                       'shrinkage',
-                      'management',
+                      'statements',
                       'floor'],
-             'a': 'identification · management · out-of-date',
+             'a': 'trade-off · statements · out-of-date',
              'one': True,
-             'why': 'The book writes: “Specific identification gives exact '
-                    'matching for unique items, but for identical items it '
-                    'is costly and lets management choose which costs to '
-                    'report. The main trade-off is between the two '
+             'why': 'The book writes: “The main trade-off is between the two '
                     'statements. LIFO gives a more realistic income '
                     'statement when prices change, but an out-of-date '
-                    'balance sheet.”'},
+                    'balance sheet. FIFO gives a realistic balance sheet, '
+                    'but its income includes holding gains. The weighted '
+                    'average sits between them.”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['FIFO gives a ',
+             'parts': ['D. It needs the fewest records. A. it is not allowed '
+                       'under U.S. GAAP. B. it always ',
+                       12,
+                       ' income. C. it ignores the ',
                        11,
-                       ' balance sheet, but its income ',
-                       11,
-                       ' holding gains. It matches current costs with '
-                       'current revenues. It shows ',
-                       11,
-                       ' close to current cost.'],
+                       ' flow of goods. D. ',
+                       12,
+                       ' can choose which units to sell and so change '
+                       'income.'],
              'bank': ['shrinkage',
-                      'inventory',
+                      'management',
                       'floor',
-                      'realistic',
-                      'includes'],
-             'a': 'realistic · includes · inventory',
+                      'overstates',
+                      'physical'],
+             'a': 'overstates · physical · management',
              'one': True,
-             'why': 'The book writes: “FIFO gives a realistic balance sheet, '
-                    'but its income includes holding gains. It matches '
-                    'current costs with current revenues. It shows inventory '
-                    'close to current cost.”'}],
+             'why': 'The book writes: “D. It needs the fewest records. A. it '
+                    'is not allowed under U.S. GAAP. B. it always overstates '
+                    'income. C. it ignores the physical flow of goods. D. '
+                    'management can choose which units to sell and so change '
+                    'income.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -127,11 +126,11 @@ HANDOUT = {'id': '8.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the FIFO of Balance sheet (inventory) as '
-                  '“Close to current cost”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Balance sheet (inventory) with “Close to '
-                    'current cost”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -177,48 +176,15 @@ HANDOUT = {'id': '8.4',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which FIFO does the book give for Balance sheet '
-                  '(inventory)?',
-             'o': ['Moderate',
-                   'Highest',
-                   'Close to current cost',
-                   'Includes holding gains when prices rise'],
+             'q': 'Which criterion does the book pair with “Close to current '
+                  'cost”?',
+             'o': ['Income statement',
+                   'Allowed under IFRS?',
+                   'Balance sheet (inventory)',
+                   'Risk of manipulation'],
              'a': 'C',
-             'why': 'The book’s own table gives Close to current cost as the '
-                    'FIFO of Balance sheet (inventory).'},
-            {'t': 'MCQ',
-             'q': 'Which FIFO does the book give for Income statement?',
-             'o': ['Moderate',
-                   'Includes holding gains when prices rise',
-                   'Highest',
-                   'Close to current cost'],
-             'a': 'B',
-             'why': 'The book’s own table gives Includes holding gains when '
-                    'prices rise as the FIFO of Income statement.'},
-            {'t': 'MCQ',
-             'q': 'Which FIFO does the book give for Taxes when prices rise?',
-             'o': ['Moderate', 'Yes', 'Low', 'Highest'],
-             'a': 'D',
-             'why': 'The book’s own table gives Highest as the FIFO of Taxes '
-                    'when prices rise.'},
-            {'t': 'MCQ',
-             'q': 'Which FIFO does the book give for Allowed under IFRS??',
-             'o': ['Highest', 'Moderate', 'Low', 'Yes'],
-             'a': 'D',
-             'why': 'The book’s own table gives Yes as the FIFO of Allowed '
-                    'under IFRS?.'},
-            {'t': 'TF',
-             'q': 'The book gives the specific identification of Balance '
-                  'sheet (inventory) as “Actual cost of each item”.',
-             'a': 'T',
-             'why': 'The book pairs Balance sheet (inventory) with “Actual '
-                    'cost of each item”.'},
-            {'t': 'TF',
-             'q': 'The book gives the specific identification of Income '
-                  'statement as “High for identical items”.',
-             'a': 'F',
-             'why': 'The book pairs Income statement with “Exact matching”, '
-                    'not with “High for identical items”.'},
+             'why': 'The book’s own table pairs Balance sheet (inventory) '
+                    'with “Close to current cost”.'},
             {'t': 'SORT',
              'q': 'Write each one under its weighted average. Every item '
                   'belongs to exactly one group.',
@@ -270,11 +236,16 @@ HANDOUT = {'id': '8.4',
              'whys': ['', '', '', '', '']}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': "A retailer's markup is 25% on cost. What gross profit "
+                  'rate on sales should it use in the gross profit method?',
+             'o': ['25%', '33.3%', '75%', '20%'],
+             'a': 'D',
+             'why': 'Gross profit rate = markup ÷ (1 + markup) = 0.25 ÷ '
+                    '1.25. A is wrong: This uses the markup on cost as the '
+                    'margin on sales. B is wrong: This divides by (1 − '
+                    'markup) instead of (1 + markup).',
+             'src': 'P8-08'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -315,12 +286,16 @@ HANDOUT = {'id': '8.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'A term on this page means what the book defines it to '
+                  'mean. What settles a disagreement about one?',
+             'o': ['the glossary printed on this page',
+                   'what the word means in ordinary English',
+                   'the translation that sounds closest',
+                   'whichever reading makes the item easier'],
+             'a': 'A',
+             'why': 'CMA questions use exact terms, and the glossary on the '
+                    'page is what defines them here.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

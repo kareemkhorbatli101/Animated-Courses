@@ -3,13 +3,11 @@
 
 HANDOUT = {'id': '3.4',
  'n': 4,
- 'pages': 6,
+ 'pages': 5,
  'title': 'Comprehensive income',
  'sub': 'section 3.4 of the book',
  'covers': ['sec:3.4',
-            'p:P3-20',
-            'p:P3-21',
-            'sc:P3-20',
+            'p:P3-06',
             'term:income from continuing operations',
             'term:earnings per share (eps)',
             'term:strategic shift'],
@@ -22,10 +20,8 @@ HANDOUT = {'id': '3.4',
            'the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Comprehensive income',
-             'a figure to read · Item · Orontes Foods Inc., year ended '
-             'December 31, 2025',
-             'An IFRS company revalues its land upward. How is the increase '
-             'reported?'],
+             'a figure to read · Item',
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -34,79 +30,73 @@ HANDOUT = {'id': '3.4',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['OCI builds a balance in equity called accumulated '
-                       'other ',
+             'parts': ['Some changes in value do not go through net income. '
+                       'U.S. GAAP sends them to other ',
                        22,
-                       ' (AOCI). When an item is realized, for example when '
-                       'Orontes sells an AFS security, the gain or loss '
-                       'moves from AOCI into net income. This ',
-                       29,
-                       ' stops the same gain being counted twice.'],
-             'bank': ['reclassification adjustment',
+                       ' (OCI) until they are realized. Comprehensive income '
+                       "is net income plus OCI for the period. Orontes's ",
+                       20,
+                       ' debt securities lost $1,500 in fair value in 2025.'],
+             'bank': ['available-for-sale',
                       'comprehensive income',
                       'component of an entity',
                       'other income and expense'],
-             'a': 'comprehensive income · reclassification adjustment',
+             'a': 'comprehensive income · available-for-sale',
              'one': True,
-             'why': 'The book writes: “OCI builds a balance in equity called '
-                    'accumulated other comprehensive income (AOCI). When an '
-                    'item is realized, for example when Orontes sells an AFS '
-                    'security, the gain or loss moves from AOCI into net '
-                    'income. This reclassification adjustment stops the same '
-                    'gain being counted twice.”'},
+             'why': 'The book writes: “Some changes in value do not go '
+                    'through net income. U.S. GAAP sends them to other '
+                    'comprehensive income (OCI) until they are realized. '
+                    'Comprehensive income is net income plus OCI for the '
+                    "period. Orontes's available-for-sale debt securities "
+                    'lost $1,500 in fair value in 2025.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Showing OCI only in the statement of changes in '
-                       'equity is not allowed. OCI builds a balance in '
-                       'equity called accumulated other ',
+             'parts': ['Companies show this in one continuous statement, as '
+                       'Orontes does, or in two ',
+                       13,
+                       ' statements. Showing OCI only in the statement of '
+                       'changes in equity is not allowed. OCI builds a '
+                       'balance in equity called accumulated other ',
                        22,
-                       ' (AOCI). When an item is realized, for example when '
-                       'Orontes sells an AFS security, the gain or loss '
-                       'moves from AOCI into net income. This ',
-                       29,
-                       ' stops the same gain being counted twice.'],
+                       ' (AOCI).'],
              'bank': ['other income and expense',
                       'component of an entity',
-                      'reclassification adjustment',
-                      'comprehensive income'],
-             'a': 'comprehensive income · reclassification adjustment',
+                      'comprehensive income',
+                      'consecutive'],
+             'a': 'consecutive · comprehensive income',
              'one': True,
-             'why': 'The book writes: “Showing OCI only in the statement of '
+             'why': 'The book writes: “Companies show this in one continuous '
+                    'statement, as Orontes does, or in two consecutive '
+                    'statements. Showing OCI only in the statement of '
                     'changes in equity is not allowed. OCI builds a balance '
                     'in equity called accumulated other comprehensive income '
-                    '(AOCI). When an item is realized, for example when '
-                    'Orontes sells an AFS security, the gain or loss moves '
-                    'from AOCI into net income. This reclassification '
-                    'adjustment stops the same gain being counted twice.”'},
+                    '(AOCI).”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['This ',
-                       29,
-                       ' stops the same gain being counted twice. Under '
-                       'IFRS, a revaluation surplus on PP&E, fair value '
-                       'changes on equity investments elected to OCI, and '
-                       'pension remeasurements stay in OCI forever. GAAP '
-                       'does not allow PP&E revaluation, and it reclassifies '
-                       'its OCI items to net income later. ',
-                       22,
-                       " adds this year's OCI, not the AOCI balance."],
-             'bank': ['reclassification adjustment',
-                      'Comprehensive income',
-                      'component of an entity',
-                      'other income and expense'],
-             'a': 'reclassification adjustment · Comprehensive income',
+             'parts': ['Under IFRS, a ',
+                       13,
+                       ' surplus on PP&E, fair value changes on equity '
+                       'investments elected to OCI, and pension ',
+                       16,
+                       ' stay in OCI forever. U.S. GAAP does not allow PP&E '
+                       'revaluation, and it ',
+                       14,
+                       ' its OCI items to net income later.'],
+             'bank': ['other income and expense',
+                      'revaluation',
+                      'remeasurements',
+                      'comprehensive income',
+                      'reclassifies'],
+             'a': 'revaluation · remeasurements · reclassifies',
              'one': True,
-             'why': 'The book writes: “This reclassification adjustment '
-                    'stops the same gain being counted twice. Under IFRS, a '
-                    'revaluation surplus on PP&E, fair value changes on '
-                    'equity investments elected to OCI, and pension '
-                    'remeasurements stay in OCI forever. GAAP does not allow '
-                    'PP&E revaluation, and it reclassifies its OCI items to '
-                    "net income later. Comprehensive income adds this year's "
-                    'OCI, not the AOCI balance.”'}],
+             'why': 'The book writes: “Under IFRS, a revaluation surplus on '
+                    'PP&E, fair value changes on equity investments elected '
+                    'to OCI, and pension remeasurements stay in OCI forever. '
+                    'U.S. GAAP does not allow PP&E revaluation, and it '
+                    'reclassifies its OCI items to net income later.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -131,13 +121,11 @@ HANDOUT = {'id': '3.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP of Unrealized gains and '
-                  'losses on debt securities (AFS / FVOCI) as “OCI; '
-                  'reclassified to net income on sale”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Unrealized gains and losses on debt '
-                    'securities (AFS / FVOCI) with “OCI; reclassified to net '
-                    'income on sale”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -167,145 +155,42 @@ HANDOUT = {'id': '3.4',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; reclassified to '
-                  'net income on sale”?',
-             'o': ['Effective part of cash-flow hedges',
-                   'Pension gains, losses and prior service cost',
-                   'Changes in fair value of equity securities',
-                   'Unrealized gains and losses on debt securities (AFS / '
-                   'FVOCI)'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Unrealized gains and losses '
-                    'on debt securities (AFS / FVOCI) with “OCI; '
-                    'reclassified to net income on sale”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “Net income (no OCI '
-                  'option)”?',
-             'o': ['Revaluation of PP&E',
-                   'Foreign-currency translation adjustments',
-                   'Pension gains, losses and prior service cost',
-                   'Changes in fair value of equity securities'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Changes in fair value of '
-                    'equity securities with “Net income (no OCI option)”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; reclassified '
-                  'when the foreign operation is sold”?',
-             'o': ['Effective part of cash-flow hedges',
-                   'Pension gains, losses and prior service cost',
-                   'Changes in fair value of equity securities',
-                   'Foreign-currency translation adjustments'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Foreign-currency translation '
-                    'adjustments with “OCI; reclassified when the foreign '
-                    'operation is sold”.'},
-            {'t': 'MCQ',
-             'q': 'Which item does the book pair with “OCI; amortized into '
-                  'net income later”?',
-             'o': ['Revaluation of PP&E',
-                   'Effective part of cash-flow hedges',
-                   'Changes in fair value of equity securities',
-                   'Pension gains, losses and prior service cost'],
-             'a': 'D',
-             'why': 'The book’s own table pairs Pension gains, losses and '
-                    'prior service cost with “OCI; amortized into net income '
-                    'later”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS of Unrealized gains and losses on '
-                  'debt securities (AFS / FVOCI) as “OCI; reclassified on '
-                  'sale”.',
-             'a': 'T',
-             'why': 'The book pairs Unrealized gains and losses on debt '
-                    'securities (AFS / FVOCI) with “OCI; reclassified on '
-                    'sale”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS of Changes in fair value of '
-                  'equity securities as “Revaluation surplus in OCI; never '
-                  'reclassified”.',
-             'a': 'F',
-             'why': 'The book pairs Changes in fair value of equity '
-                    'securities with “Net income, or OCI by election (never '
-                    'reclassified)”, not with “Revaluation surplus in OCI; '
-                    'never reclassified”.'}]),
+             'q': 'Which IFRS does the book give for Unrealized gains and '
+                  'losses on debt securities (AFS / FVOCI)?',
+             'o': ['Same',
+                   'OCI; reclassified on sale',
+                   'Revaluation surplus in OCI; never reclassified'],
+             'a': 'B',
+             'why': 'The book’s own table gives OCI; reclassified on sale as '
+                    'the IFRS of Unrealized gains and losses on debt '
+                    'securities (AFS / FVOCI).'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'An IFRS company revalues its land upward. How is the '
-                  'increase reported?',
-             'o': ['As a gain in profit or loss',
-                   'In OCI, reclassified to profit when the land is sold',
-                   'In OCI as a revaluation surplus, never reclassified to '
-                   'profit',
-                   'It is not recognized under IFRS'],
-             'a': 'C',
-             'why': 'IAS 16 revaluation increases go to OCI and are not '
-                    'recycled. A is wrong: Revaluation increases go to OCI, '
-                    'unless they reverse an earlier loss. B is wrong: '
-                    'Revaluation surplus is never recycled under IFRS.',
-             'src': 'P3-20'}]),
-          ('panel',
-           'Orontes Foods Inc., year ended December 31, 2025 — the extract '
-           'for the question that follows',
-           [['Orontes Foods Inc., year ended December 31, 2025', '2025'],
-            ['Net sales', '42,000,000'],
-            ['Cost of goods sold', '(27,300,000)'],
-            ['Gross profit', '14,700,000'],
-            ['Operating expenses', ''],
-            ['Selling, general and administrative', '(7,237,000)'],
-            ['Credit loss expense', '(63,000)'],
-            ['Research and development', '(500,000)'],
-            ['Impairment losses', '(2,724,000)'],
-            ['Total operating expenses', '(10,524,000)'],
-            ['Operating income', '4,176,000'],
-            ['Other income and (expense)', ''],
-            ['Interest expense', '(390,000)'],
-            ['Interest and dividend income', '3,800'],
-            ['Unrealized gains on securities', '4,000'],
-            ['Equity-method income', '177,000'],
-            ['Gain on sale of equipment', '3,000'],
-            ['Loss on sale of receivables', '(15,000)'],
-            ['Total other income and (expense)', '(217,200)'],
-            ['Income before income taxes', '3,958,800'],
-            ['Income tax expense', '(989,700)'],
-            ['Net income', '2,969,100'],
-            ['Earnings per share, basic and diluted', '$0.37'],
-            ['Weighted-average shares outstanding', '8,099,726'],
-            ['Other comprehensive income', ''],
-            ['Unrealized loss on available-for-sale debt securities, net of '
-             'tax of 375',
-             '(1,125)'],
-            ['Comprehensive income', '2,967,975']],
-           ''),
-          ('items',
-           [{'t': 'MCQ',
-             'q': 'The extract for this question is printed with it. Which '
-                  "amount is Orontes's income before income taxes for 2025 "
-                  '(whole USD)?',
-             'o': ['2,969,100', '3,781,800', '3,958,800', '4,176,000'],
-             'a': 'C',
-             'why': 'Operating income plus other income and expense. A is '
-                    'wrong: This is after tax. B is wrong: This leaves out '
-                    'equity-method income.',
-             'src': 'P3-21'}]),
+             'q': 'A company has net sales of $900,000, cost of goods sold '
+                  'of $540,000, selling expenses of $120,000, administrative '
+                  'expenses of $90,000 and interest expense of $30,000. What '
+                  'is its operating income?',
+             'o': ['$120,000', '$150,000', '$240,000', '$360,000'],
+             'a': 'B',
+             'why': 'Gross profit of $360,000 minus operating expenses of '
+                    '$210,000. A is wrong: This also deducts interest. C is '
+                    'wrong: This deducts only selling expenses.',
+             'src': 'P3-06'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'An IFRS company revalues its land upward. How is the increase '
-           'reported?',
-           ['As a gain in profit or loss',
-            'In OCI, reclassified to profit when the land is sold',
-            'In OCI as a revaluation surplus, never reclassified to profit',
-            'It is not recognized under IFRS'],
-           'C',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'IAS 16 revaluation increases go to OCI and are not recycled. A '
-           'is wrong: Revaluation increases go to OCI, unless they reverse '
-           'an earlier loss. B is wrong: Revaluation surplus is never '
-           'recycled under IFRS.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -333,12 +218,33 @@ HANDOUT = {'id': '3.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MCQ',
+             'q': 'Which IFRS does the book give for Revaluation of PP&E?',
+             'o': ['OCI; reclassified on sale',
+                   'Net income, or OCI by election (never reclassified)',
+                   'Revaluation surplus in OCI; never reclassified'],
+             'a': 'C',
+             'why': 'The book’s own table gives Revaluation surplus in OCI; '
+                    'never reclassified as the IFRS of Revaluation of PP&E.'},
+            {'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each item. '
+                  'Every one is used once.',
+             'left': ['Unrealized gains and losses on debt securities (AFS / '
+                      'FVOCI)',
+                      'Changes in fair value of equity securities',
+                      'Foreign-currency translation adjustments',
+                      'Pension gains, losses and prior service cost',
+                      'Effective part of cash-flow hedges',
+                      'Revaluation of PP&E'],
+             'right': ['OCI; reclassified when the foreign operation is sold',
+                       'OCI; reclassified when the hedged item affects '
+                       'income',
+                       'OCI; reclassified to net income on sale',
+                       'OCI; amortized into net income later',
+                       'Not allowed',
+                       'Net income (no OCI option)'],
+             'a': ['C', 'F', 'A', 'D', 'B', 'E'],
+             'whys': ['', '', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

@@ -7,12 +7,7 @@ HANDOUT = {'id': '7.3',
  'title': 'Cost flow assumptions',
  'sub': 'section 7.3 of the book',
  'covers': ['sec:7.3',
-            'p:P7-13',
-            'p:P7-14',
-            'p:P7-15',
-            'p:P7-16',
-            'sc:P7-13',
-            'p:P7-17',
+            'p:P7-05',
             'term:goods available for sale',
             'term:perpetual inventory system',
             'term:fob destination',
@@ -29,10 +24,10 @@ HANDOUT = {'id': '7.3',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Cost flow assumptions',
              'a figure to read · Method · the book’s own rule, gapped',
-             'The tax rate is 25%. Ending inventory was overstated by 40. By '
-             'how much is net income overstated in that year?'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Method · The English the exam uses, and what it translates',
+             'a figure to read · Method · The English the exam uses, and '
+             'what it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
@@ -94,30 +89,28 @@ HANDOUT = {'id': '7.3',
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['Then check that ',
-                       20,
-                       ' plus ending ',
+             'parts': ['Cedar Retail, our IFRS company, ',
                        11,
-                       ' equals the cost of goods available. Faded example: '
-                       'periodic LIFO for Dubai pastry trays; the learner '
-                       'completes the dashed boxes. IAS 2 allows FIFO and '
-                       'the weighted average, and it requires ',
-                       25,
-                       ' for items that are not interchangeable.'],
+                       ' uses FIFO. You will ',
+                       11,
+                       ' the two ',
+                       12,
+                       ' again in Chapter 17. Under LIFO, the company adds a '
+                       'layer when it buys more than it sells. A company can '
+                       'use LIFO even if it ships its oldest bottles first.'],
              'bank': ['moving average',
-                      'inventory',
-                      'cost of goods sold',
+                      'compare',
+                      'therefore',
                       'consignee',
-                      'specific identification'],
-             'a': 'cost of goods sold · inventory · specific identification',
+                      'frameworks'],
+             'a': 'therefore · compare · frameworks',
              'one': True,
-             'why': 'The book writes: “Then check that cost of goods sold '
-                    'plus ending inventory equals the cost of goods '
-                    'available. Faded example: periodic LIFO for Dubai '
-                    'pastry trays; the learner completes the dashed boxes. '
-                    'IAS 2 allows FIFO and the weighted average, and it '
-                    'requires specific identification for items that are not '
-                    'interchangeable.”'}],
+             'why': 'The book writes: “Cedar Retail, our IFRS company, '
+                    'therefore uses FIFO. You will compare the two '
+                    'frameworks again in Chapter 17. Under LIFO, the company '
+                    'adds a layer when it buys more than it sells. A company '
+                    'can use LIFO even if it ships its oldest bottles '
+                    'first.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -145,10 +138,11 @@ HANDOUT = {'id': '7.3',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the periodic: ending inventory of FIFO as '
-                  '“100,000”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs FIFO with “100,000”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'cost_layers'),
           ('panel',
@@ -175,26 +169,6 @@ HANDOUT = {'id': '7.3',
              'o': ['Average (weighted / moving)', 'FIFO', 'LIFO'],
              'a': 'B',
              'why': 'The book’s own table pairs FIFO with “100,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “84,000”?',
-             'o': ['Average (weighted / moving)', 'LIFO', 'FIFO'],
-             'a': 'B',
-             'why': 'The book’s own table pairs LIFO with “84,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “93,000”?',
-             'o': ['LIFO', 'FIFO', 'Average (weighted / moving)'],
-             'a': 'C',
-             'why': 'The book’s own table pairs Average (weighted / moving) '
-                    'with “93,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Perpetual: COGS of FIFO as “272,000”.',
-             'a': 'T',
-             'why': 'The book pairs FIFO with “272,000”.'},
-            {'t': 'TF',
-             'q': 'The book gives the Perpetual: COGS of LIFO as “274,367”.',
-             'a': 'F',
-             'why': 'The book pairs LIFO with “279,000”, not with '
-                    '“274,367”.'},
             {'t': 'GRID',
              'q': 'Complete every empty cell. The first full row shows the '
                   'pattern.',
@@ -244,71 +218,29 @@ HANDOUT = {'id': '7.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The tax rate is 25%. Ending inventory was overstated by '
-                  '40. By how much is net income overstated in that year?',
-             'o': ['10', '30', '40', '50'],
+             'q': 'In the Orontes olive-oil example, what is FIFO cost of '
+                  'goods sold (whole USD)?',
+             'o': ['100,000', '272,000', '279,000', '288,000'],
              'a': 'B',
-             'why': 'After-tax effect = pretax error × (1 − tax rate). A is '
-                    'wrong: This is the tax effect only. C is wrong: This is '
-                    'the pretax effect.',
-             'src': 'P7-13'},
-            {'t': 'MCQ',
-             'q': 'Ending inventory for 2026 is understated by 15. Inventory '
-                  'for 2025 was correct. What is the effect on 2026 cost of '
-                  'goods sold?',
-             'o': ['Understated by 15',
-                   'No effect',
-                   'Overstated by 15',
-                   'Overstated by 30'],
-             'a': 'C',
-             'why': 'COGS = beginning inventory + purchases − ending '
-                    'inventory, so low ending inventory raises COGS. A is '
-                    'wrong: This reverses the direction. B is wrong: Ending '
-                    'inventory directly changes COGS.',
-             'src': 'P7-14'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 1). Orontes buys olives on '
-                  'account. What is the effect immediately after the '
-                  'purchase?',
-             'o': ['Assets increase and liabilities increase.',
-                   'Expenses increase and net income decreases.',
-                   'Assets increase and equity increases.',
-                   'There is no effect until Orontes pays.'],
-             'a': 'A',
-             'why': 'Inventory (an asset) and accounts payable (a liability) '
-                    'both increase. B is wrong: The olives become an expense '
-                    'only when the products are sold. C is wrong: Buying on '
-                    'credit creates a liability, not equity.',
-             'src': 'P7-15'},
-            {'t': 'MCQ',
-             'q': 'Spiral review (Chapter 1). Orontes records cost of goods '
-                  'sold at the same time as the related sales revenue. Which '
-                  'approach does this follow?',
-             'o': ['Systematic and rational allocation',
-                   'Matching by cause and effect',
-                   'Immediate recognition',
-                   'The cash basis'],
-             'a': 'B',
-             'why': 'Cost of goods sold links directly to each sale. A is '
-                    'wrong: Allocation is used for costs such as '
-                    'depreciation. C is wrong: Immediate recognition is for '
-                    'costs with no clear link to revenue.',
-             'src': 'P7-16'}]),
+             'why': 'Goods available minus FIFO ending inventory (the newest '
+                    'costs). A is wrong: This is FIFO ending inventory, not '
+                    'cost of goods sold. C is wrong: This is the '
+                    'weighted-average result.',
+             'src': 'P7-05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'The tax rate is 25%. Ending inventory was overstated by 40. By '
-           'how much is net income overstated in that year?',
-           ['10', '30', '40', '50'],
-           'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'After-tax effect = pretax error × (1 − tax rate). A is wrong: '
-           'This is the tax effect only. C is wrong: This is the pretax '
-           'effect.'),
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
+           'A',
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -319,6 +251,7 @@ HANDOUT = {'id': '7.3',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f3b'),
           ('panel',
            'Method — the book’s own table',
            [['Method',
@@ -370,35 +303,19 @@ HANDOUT = {'id': '7.3',
              'o': ['Weighted average', 'LIFO', 'FIFO'],
              'a': 'C',
              'why': 'The book’s own table pairs FIFO with “the newest costs: '
-                    '2,000 × $50”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “the oldest costs: '
-                  '1,000 × $40 + 1,000 × $44”?',
-             'o': ['Weighted average', 'FIFO', 'LIFO'],
-             'a': 'C',
-             'why': 'The book’s own table pairs LIFO with “the oldest costs: '
-                    '1,000 × $40 + 1,000 × $44”.'},
-            {'t': 'MCQ',
-             'q': 'Which method does the book pair with “2,000 × $46.50 (= '
-                  '372,000 ÷ 8,000)”?',
-             'o': ['LIFO', 'Weighted average', 'FIFO'],
-             'a': 'B',
-             'why': 'The book’s own table pairs Weighted average with “2,000 '
-                    '× $46.50 (= 372,000 ÷ 8,000)”.'}]),
+                    '2,000 × $50”.'}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Cedar Retail S.A.L. reports under IFRS. Which method may '
-                  'it NOT use?',
-             'o': ['FIFO',
-                   'Weighted average',
-                   'LIFO',
-                   'Specific identification for unique items'],
+             'q': 'Which English term does the exam use for “البضاعة المتاحة '
+                  'للبيع”?',
+             'o': ['LIFO liquidation',
+                   'perpetual inventory system',
+                   'goods available for sale',
+                   'inventoriable cost'],
              'a': 'C',
-             'why': 'IAS 2 prohibits LIFO. A is wrong: FIFO is allowed under '
-                    'IAS 2. B is wrong: The weighted average is allowed '
-                    'under IAS 2.',
-             'src': 'P7-17'}]),
+             'why': 'The glossary on this page pairs “البضاعة المتاحة للبيع” '
+                    'with goods available for sale.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

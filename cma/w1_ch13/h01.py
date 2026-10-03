@@ -7,13 +7,13 @@ HANDOUT = {'id': '13.1',
  'title': 'Why book income and taxable income differ',
  'sub': 'section 13.1 of the book',
  'covers': ['sec:13.1',
-            'p:P13-01',
             'p:P13-02',
-            'p:P13-03',
-            'p:P13-04',
-            'sc:P13-01',
-            'p:P13-05',
+            'p:P13-01',
             'p:P13-06',
+            'p:P13-07',
+            'sc:P13-02',
+            'p:P13-11',
+            'p:P13-13',
             'term:taxable income',
             'term:valuation allowance',
             'term:taxable temporary difference',
@@ -28,84 +28,97 @@ HANDOUT = {'id': '13.1',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Why book income and taxable income differ',
              'a figure to read · Orontes Foods Inc., 2025 (whole USD)',
-             'Income tax expense on the income statement equals:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
-             'Item · The English the exam uses, and what it translates',
+             'a figure to read · Item · The English the exam uses, and what '
+             'it translates',
              'What is the safest way to settle a disagreement about an '
              'answer on this sheet?']],
            [{'t': 'FILL',
              'q': 'Where the section starts — Fill every gap. The list holds '
                   'more words than there are gaps, so one or two of them are '
                   'not used.',
-             'parts': ['Tax returns follow tax law and are prepared for the ',
+             'parts': ['Financial ',
                        12,
-                       '. The two sets of rules have ',
-                       11,
-                       ' goals, so taxable income is usually not the same as '
-                       'income before income taxes. If a company simply '
-                       'reported the tax it paid, its tax expense would jump '
-                       'around when the rules timed items ',
-                       13,
-                       '.'],
-             'bank': ['different',
-                      'government',
+                       ' follow U.S. GAAP and are prepared for investors. '
+                       'Tax returns follow tax law and are prepared for the ',
+                       12,
+                       '. The two sets of rules have different goals, so ',
+                       16,
+                       ' is usually not the same as income before income '
+                       'taxes.'],
+             'bank': ['government',
+                      'statements',
                       'uncertain tax position',
-                      'differently',
+                      'taxable income',
                       'current tax expense'],
-             'a': 'government · different · differently',
+             'a': 'statements · government · taxable income',
              'one': True,
-             'why': 'The book writes: “Tax returns follow tax law and are '
-                    'prepared for the government. The two sets of rules have '
-                    'different goals, so taxable income is usually not the '
-                    'same as income before income taxes. If a company simply '
-                    'reported the tax it paid, its tax expense would jump '
-                    'around when the rules timed items differently.”'},
+             'why': 'The book writes: “Financial statements follow U.S. GAAP '
+                    'and are prepared for investors. Tax returns follow tax '
+                    'law and are prepared for the government. The two sets '
+                    'of rules have different goals, so taxable income is '
+                    'usually not the same as income before income taxes.”'},
             {'t': 'FILL',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['The two sets of rules have ',
-                       11,
-                       ' goals, so ',
-                       11,
-                       ' income is ',
-                       11,
-                       ' not the same as income before income taxes.'],
-             'bank': ['taxable',
-                      'current tax expense',
-                      'different',
-                      'usually',
-                      'uncertain tax position'],
-             'a': 'different · taxable · usually',
-             'one': True,
-             'why': 'The book writes: “The two sets of rules have different '
-                    'goals, so taxable income is usually not the same as '
-                    'income before income taxes.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
              'parts': ['If a company simply reported the tax it paid, its '
                        'tax expense would jump around when the rules timed '
                        'items ',
                        13,
-                       '. The company ',
-                       12,
-                       ' the tax effects of ',
+                       '. ',
+                       28,
+                       ' solves this. The company recognizes the tax effects '
+                       'of ',
                        14,
                        ' in the same periods as the transactions themselves, '
                        'using deferred taxes.'],
-             'bank': ['uncertain tax position',
+             'bank': ['Interperiod tax allocation',
                       'current tax expense',
+                      'differently',
                       'transactions',
-                      'recognizes',
-                      'differently'],
-             'a': 'differently · recognizes · transactions',
+                      'uncertain tax position'],
+             'a': 'differently · Interperiod tax allocation · transactions',
              'one': True,
              'why': 'The book writes: “If a company simply reported the tax '
                     'it paid, its tax expense would jump around when the '
-                    'rules timed items differently. The company recognizes '
-                    'the tax effects of transactions in the same periods as '
-                    'the transactions themselves, using deferred taxes.”'}],
+                    'rules timed items differently. Interperiod tax '
+                    'allocation solves this. The company recognizes the tax '
+                    'effects of transactions in the same periods as the '
+                    'transactions themselves, using deferred taxes.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Orontes Foods Inc., 2025 '
+                       '(whole USD)” settles these: for Income before income '
+                       'taxes it is ',
+                       11,
+                       ', for Income tax expense (25% combined federal and '
+                       'state rate) it is ',
+                       11,
+                       ', for Current tax expense (taxes on 2025 taxable '
+                       'income) it is ',
+                       11,
+                       ' and for Income taxes paid in cash (Chapter 5) it '
+                       'is ',
+                       11,
+                       '.'],
+             'bank': ['839,700',
+                      '989,700',
+                      '3,958,800',
+                      '900,000',
+                      '889,700'],
+             'one': True,
+             'a': '3,958,800 · 989,700 · 889,700 · 839,700',
+             'why': 'From the book’s own table “Orontes Foods Inc., 2025 '
+                    '(whole USD)”: The book’s own table “Orontes Foods Inc., '
+                    '2025 (whole USD)” settles these: for Income before '
+                    'income taxes it is 3,958,800 and for Income tax expense '
+                    '(25% combined federal and state rate) it is 989,700 and '
+                    'for Current tax expense (taxes on 2025 taxable income) '
+                    'it is 889,700 and for Income taxes paid in cash '
+                    '(Chapter 5) it is 839,700.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -164,22 +177,7 @@ HANDOUT = {'id': '13.1',
              'o': ['889,700', '989,700', '3,958,800', '100,000'],
              'a': 'C',
              'why': 'The book’s own table gives 3,958,800 as the amount of '
-                    'Income before income taxes.'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Income tax expense '
-                  '(25% combined federal and state rate)?',
-             'o': ['989,700', '100,000', '839,700', '889,700'],
-             'a': 'A',
-             'why': 'The book’s own table gives 989,700 as the amount of '
-                    'Income tax expense (25% combined federal and state '
-                    'rate).'},
-            {'t': 'MCQ',
-             'q': 'Which amount does the book give for Current tax expense '
-                  '(taxes on 2025 taxable income)?',
-             'o': ['889,700', '989,700', '100,000', '839,700'],
-             'a': 'A',
-             'why': 'The book’s own table gives 889,700 as the amount of '
-                    'Current tax expense (taxes on 2025 taxable income).'}]),
+                    'Income before income taxes.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
@@ -194,28 +192,30 @@ HANDOUT = {'id': '13.1',
                     'payments. C is wrong: That is current tax only.',
              'src': 'P13-01'},
             {'t': 'MCQ',
-             'q': "A company's deferred tax liability rose from $300,000 to "
-                  '$380,000, and its deferred tax asset rose from $50,000 to '
-                  '$70,000. What is deferred tax expense?',
-             'o': ['$60,000', '$80,000', '$100,000', '$310,000'],
+             'q': 'Pretax income is $500,000, and there are no temporary '
+                  'differences. It includes $20,000 of tax-exempt interest '
+                  'and a $10,000 nondeductible fine. At a 25% rate, what is '
+                  'income tax expense?',
+             'o': ['$122,500', '$125,000', '$127,500', '$132,500'],
              'a': 'A',
-             'why': 'Increase in DTL of $80,000 less increase in DTA of '
-                    '$20,000. B is wrong: This ignores the DTA. C is wrong: '
-                    'This adds the DTA increase.',
-             'src': 'P13-03'},
+             'why': 'Permanent differences change taxable income and the '
+                    'expense. B is wrong: This ignores both permanent '
+                    'differences. C is wrong: This subtracts the fine and '
+                    'adds the interest (reversed).',
+             'src': 'P13-06'},
             {'t': 'MCQ',
-             'q': 'A law signed on July 4 cuts the tax rate from next year. '
-                  'When does the company record the effect on its deferred '
-                  'tax balances?',
-             'o': ['Next year, when the new rate applies',
-                   'In the period that includes July 4',
-                   'Over the years the differences reverse',
-                   'Never; only current tax changes'],
-             'a': 'B',
-             'why': 'The enactment date decides the period. A is wrong: The '
-                    'effective date is not the trigger. C is wrong: The '
-                    'effect is recorded at once, not spread.',
-             'src': 'P13-04'}]),
+             'q': 'Under U.S. GAAP, a tax position is recognized in the '
+                  'financial statements if it is:',
+             'o': ['more likely than not to be sustained on its technical '
+                   'merits',
+                   'certain to be accepted',
+                   'probable in the IFRS sense',
+                   'not yet examined by the tax authority'],
+             'a': 'A',
+             'why': 'Step 1 of the uncertain tax position model. B is wrong: '
+                    'Certainty is not required. C is wrong: The U.S. test is '
+                    "'more likely than not'.",
+             'src': 'P13-07'}]),
           ('panel',
            'Orontes Foods Inc., 2025 (whole USD) — the extract for the '
            'question that follows',
@@ -255,17 +255,15 @@ HANDOUT = {'id': '13.1',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'Income tax expense on the income statement equals:',
-           ['current tax expense plus deferred tax expense',
-            'income taxes paid in cash',
-            'taxable income times the tax rate',
-            'pretax income times the tax rate in all cases'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
            'redo the READ THE MODEL questions of cycle A with the model in '
            'front of you.',
-           'Total expense has a current and a deferred part. B is wrong: '
-           'Cash paid also depends on the timing of payments. C is wrong: '
-           'That is current tax only.'),
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -276,6 +274,7 @@ HANDOUT = {'id': '13.1',
              'why': 'CMA questions use exact terms, and one word can change '
                     'the answer.'}]),
           ('move', 'MODEL', ''),
+          ('fig', 'f1b'),
           ('panel',
            'Item — the book’s own table',
            [['Item', 'Category'],
@@ -311,31 +310,73 @@ HANDOUT = {'id': '13.1',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company has an unrealized loss on AFS debt securities '
-                  'in OCI. Its tax effect is:',
-             'o': ['shown with the OCI item, not in income tax expense on '
-                   'continuing operations',
-                   'ignored',
-                   'added to current tax expense',
-                   'recorded in retained earnings'],
-             'a': 'A',
-             'why': 'Intraperiod allocation keeps tax with the item that '
-                    'caused it. B is wrong: The temporary difference has a '
-                    'tax effect. C is wrong: The loss is not in taxable '
-                    'income now.',
-             'src': 'P13-05'},
+             'q': 'How do permanent differences affect the financial '
+                  'statements?',
+             'o': ['They create deferred tax assets',
+                   'They create deferred tax liabilities',
+                   'They have no effect at all',
+                   'They change the effective tax rate but create no '
+                   'deferred taxes'],
+             'a': 'D',
+             'why': 'They are in one income but never in the other. A is '
+                    'wrong: Permanent differences never reverse. B is wrong: '
+                    'Permanent differences never reverse.',
+             'src': 'P13-11'},
             {'t': 'MCQ',
-             'q': 'Pretax income is $500,000, and there are no temporary '
-                  'differences. It includes $20,000 of tax-exempt interest '
-                  'and a $10,000 nondeductible fine. At a 25% rate, what is '
-                  'income tax expense?',
-             'o': ['$122,500', '$125,000', '$127,500', '$132,500'],
+             'q': 'Which evidence MOST suggests that a valuation allowance '
+                  'is needed?',
+             'o': ['Cumulative losses in recent years',
+                   'A long record of profits',
+                   'Large deferred tax liabilities reversing in the same '
+                   'years',
+                   'A signed contract that will produce taxable profits'],
              'a': 'A',
-             'why': 'Permanent differences change taxable income and the '
-                    'expense. B is wrong: This ignores both permanent '
-                    'differences. C is wrong: This subtracts the fine and '
-                    'adds the interest (reversed).',
-             'src': 'P13-06'}]),
+             'why': 'Recent cumulative losses are strong negative evidence. '
+                    'B is wrong: Profits support realization. C is wrong: '
+                    'Reversing DTLs are a source of taxable income.',
+             'src': 'P13-13'},
+            {'t': 'MCQ',
+             'q': 'A U.S. company has a federal tax loss in 2026. Under '
+                  'current law it can:',
+             'o': ['carry it back two years for a refund',
+                   'carry the loss forward without a time limit, using it '
+                   'against up to 80% of future taxable income each year',
+                   'carry it forward for 20 years only',
+                   'deduct it only in 2027'],
+             'a': 'B',
+             'why': 'Post-2017 federal NOLs have no carryback and an 80% '
+                    'limit. A is wrong: Carrybacks were removed for most '
+                    'companies. C is wrong: The 20-year limit applied to '
+                    'older losses.',
+             'src': 'P13-14'},
+            {'t': 'MCQ',
+             'q': 'An IFRS company expects to use only $60,000 of a '
+                  'potential $100,000 deferred tax asset. Under IAS 12 it '
+                  'reports:',
+             'o': ['no deferred tax asset',
+                   'a $100,000 asset and a $40,000 allowance',
+                   'a deferred tax asset of $60,000'],
+             'a': 'C',
+             'why': 'IAS 12 recognizes only the probable amount. A is wrong: '
+                    'This is the U.S. GAAP presentation. B is wrong: The '
+                    'probable part is recognized.',
+             'src': 'P13-17'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'The extract for this question is printed with it. Why did '
+                  'Orontes pay less tax in 2025 than its current tax '
+                  'expense?',
+             'o': ['Deferred tax is paid in cash',
+                   'Income taxes payable rose, so part of the current tax '
+                   'was still unpaid',
+                   'The OCI loss reduced taxes paid',
+                   'Orontes had a tax refund from 2024'],
+             'a': 'B',
+             'why': 'Taxes paid = current tax − increase in taxes payable '
+                    '(Chapter 5). A is wrong: Deferred tax is not paid in '
+                    'the current year. C is wrong: The OCI tax effect is '
+                    'noncash.',
+             'src': 'P13-02'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

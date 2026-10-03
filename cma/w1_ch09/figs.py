@@ -12,8 +12,16 @@ def f1(blank=False):
     return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Share of net income', '30% × 400,000 = 120,000'), ('Extra depreciation', '3,000'), ('Dividends', '30% × 100,000 = 30,000'), ('Ending balance', '1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000'), ('Equity-method income', '120,000 − 3,000 = 117,000')]})
 
 
+def f1b(blank=False):
+    return cardset(blank=blank, **{'title': 'Year', 'cards': [('2025', ['Cash interest: 6,000', 'Interest revenue: 5,136', 'Premium amortized: 864', 'Amortized cost, end: 101,859']), ('2026', ['Cash interest: 6,000', 'Interest revenue: 5,093', 'Premium amortized: 907', 'Amortized cost, end: 100,952']), ('2027', ['Cash interest: 6,000', 'Interest revenue: 5,048', 'Premium amortized: 952', 'Amortized cost, end: 100,000'])], 'sub': 'Cash interest · Interest revenue · Premium amortized · Amortized cost, end'})
+
+
 def f2(blank=False):
     return lanes(blank=blank, **{'title': 'Category by on sale, oci is', 'groups': [('—', ['Trading (debt)', 'Held-to-maturity (debt)', 'Equity, no significant influence', 'Equity, no readily determinable fair value', 'Equity method']), ('Reclassified to net income', ['Available-for-sale (debt)'])], 'sub': 'every one of these is in the book’s own table'})
+
+
+def f2b(blank=False):
+    return cardset(blank=blank, **{'title': '2025, whole USD', 'cards': [('Interest revenue in net income (effective interest)', ['Trading: 5,136', 'Available-for-sale: 5,136', 'Held-to-maturity: 5,136']), ('Amortized cost at Dec 31, 2025', ['Trading: 101,859', 'Available-for-sale: 101,859', 'Held-to-maturity: 101,859']), ('Balance sheet amount at Dec 31, 2025', ['Trading: 101,000', 'Available-for-sale: 101,000', 'Held-to-maturity: 101,859']), ('Unrealized holding loss', ['Trading: (859) in net income', 'Available-for-sale: (859) in OCI', 'Held-to-maturity: not recognized'])], 'sub': 'Trading · Available-for-sale · Held-to-maturity'})
 
 
 def f3(blank=False):
@@ -24,8 +32,16 @@ def f4(blank=False):
     return chaptermap(blank=blank, **{'title': 'Where this section sits', 'nodes': [('Three categories of debt securities', 'section 9.1'), ('Measuring debt securities', 'section 9.2'), ('Credit losses on debt securities', 'section 9.3'), ('Equity securities and the equity method', 'you are here · section 9.4')], 'sub': 'each section uses what the one before it settled'})
 
 
+def f4b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Investment — Category', 'steps': [('A', ''), ('B', ''), ('C', ''), ('D', ''), ('E', '')]})
+
+
+def frev(blank=False):
+    return flowchain(blank=blank, **{'title': 'Item — Answer', 'steps': [('Share of net income', '30% × 400,000 = 120,000'), ('Extra depreciation', '3,000'), ('Dividends', '30% × 100,000 = 30,000'), ('Ending balance', '1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000'), ('Equity-method income', '120,000 − 3,000 = 117,000')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 9 at a glance', 'nodes': [('Three categories of debt securities', 'section 9.1'), ('Measuring debt securities', 'section 9.2'), ('Credit losses on debt securities', 'section 9.3'), ('Equity securities and the equity method', 'section 9.4')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'chmap': chmap}
+FIGS = {'f1': f1, 'f1b': f1b, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f4b': f4b, 'frev': frev, 'chmap': chmap}

@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '16.4',
  'n': 4,
- 'pages': 5,
+ 'pages': 4,
  'title': 'The acquisition: goodwill and noncontrolling interest',
  'sub': 'section 16.4 of the book',
  'covers': ['sec:16.4',
+            'p:P16-04',
             'term:variable interest entity',
             'term:proportionate consolidation',
             'term:upstream sale'],
@@ -36,36 +37,15 @@ HANDOUT = {'id': '16.4',
                        '. It measures the ',
                        12,
                        "'s identifiable assets and liabilities at fair "
-                       'value, and it measures NCI at fair value too.'],
-             'bank': ['subsidiary',
-                      'upstream sale',
-                      'intercompany transaction',
-                      'acquisition method'],
-             'a': 'acquisition method · subsidiary',
-             'one': True,
-             'why': 'The book writes: “When a company gains control of a '
-                    'business, it uses the acquisition method. It measures '
-                    "the subsidiary's identifiable assets and liabilities at "
-                    'fair value, and it measures NCI at fair value too.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['When a company gains control of a business, it uses '
-                       'the ',
-                       20,
-                       '. It measures the ',
-                       12,
-                       "'s identifiable assets and liabilities at fair "
                        'value, and it measures NCI at fair value too. ',
                        11,
                        ' is the price paid plus the fair value of NCI, minus '
                        'the fair value of the net assets.'],
-             'bank': ['Goodwill',
-                      'intercompany transaction',
-                      'subsidiary',
+             'bank': ['subsidiary',
+                      'Goodwill',
                       'upstream sale',
-                      'acquisition method'],
+                      'acquisition method',
+                      'intercompany transaction'],
              'a': 'acquisition method · subsidiary · Goodwill',
              'one': True,
              'why': 'The book writes: “When a company gains control of a '
@@ -75,35 +55,55 @@ HANDOUT = {'id': '16.4',
                     'Goodwill is the price paid plus the fair value of NCI, '
                     'minus the fair value of the net assets.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['When a company gains control of a business, it uses '
-                       'the ',
-                       20,
-                       '. It measures the ',
-                       12,
-                       "'s identifiable assets and liabilities at fair "
-                       'value, and it measures NCI at fair value too. ',
-                       11,
-                       ' is the price paid plus the fair value of NCI, minus '
-                       'the fair value of the net assets. Goodwill at '
-                       'acquisition: price plus NCI fair value minus net '
-                       'assets at fair value.'],
-             'bank': ['subsidiary',
-                      'upstream sale',
-                      'Goodwill',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['After the ',
+                       13,
+                       ', if Orontes buys or sells some Levant shares but '
+                       'keeps control, the change is an equity ',
+                       13,
+                       ': no gain or loss is recognized. If Orontes loses '
+                       'control, it removes Levant from the ',
+                       15,
+                       ' and remeasures any interest it keeps at fair '
+                       'value.'],
+             'bank': ['consolidation',
                       'intercompany transaction',
-                      'acquisition method'],
-             'a': 'acquisition method · subsidiary · Goodwill',
+                      'transaction',
+                      'upstream sale',
+                      'acquisition'],
+             'a': 'acquisition · transaction · consolidation',
              'one': True,
-             'why': 'The book writes: “When a company gains control of a '
-                    'business, it uses the acquisition method. It measures '
-                    "the subsidiary's identifiable assets and liabilities at "
-                    'fair value, and it measures NCI at fair value too. '
-                    'Goodwill is the price paid plus the fair value of NCI, '
-                    'minus the fair value of the net assets. Goodwill at '
-                    'acquisition: price plus NCI fair value minus net assets '
-                    'at fair value.”'}],
+             'why': 'The book writes: “After the acquisition, if Orontes '
+                    'buys or sells some Levant shares but keeps control, the '
+                    'change is an equity transaction: no gain or loss is '
+                    'recognized. If Orontes loses control, it removes Levant '
+                    'from the consolidation and remeasures any interest it '
+                    'keeps at fair value.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Consolidation worksheet, '
+                       "January 1, 2027 (whole” settles these: for Levant's "
+                       'equity (book value) it is ',
+                       11,
+                       ', for Property, plant and equipment (fair value '
+                       'step-up) it is ',
+                       11,
+                       ' and for Goodwill it is ',
+                       11,
+                       '.'],
+             'bank': ['1,400,000', '1,200,000', '9,900,000', '7,300,000'],
+             'one': True,
+             'a': '7,300,000 · 1,200,000 · 1,400,000',
+             'why': 'From the book’s own table “Consolidation worksheet, '
+                    'January 1, 2027 (whole”: The book’s own table '
+                    '“Consolidation worksheet, January 1, 2027 (whole” '
+                    "settles these: for Levant's equity (book value) it is "
+                    '7,300,000 and for Property, plant and equipment (fair '
+                    'value step-up) it is 1,200,000 and for Goodwill it is '
+                    '1,400,000.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -157,39 +157,29 @@ HANDOUT = {'id': '16.4',
            'Every answer is printed above. Find it, do not recall it.'),
           ('items',
            [{'t': 'MCQ',
-             'q': "Which debit does the book give for Levant's equity (book "
-                  'value)?',
-             'o': ['7,300,000', '1,400,000', '1,200,000', '9,900,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 7,300,000 as the debit of '
-                    "Levant's equity (book value)."},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Property, plant and '
-                  'equipment (fair value step-up)?',
-             'o': ['1,400,000', '7,300,000', '9,900,000', '1,200,000'],
-             'a': 'D',
-             'why': 'The book’s own table gives 1,200,000 as the debit of '
-                    'Property, plant and equipment (fair value step-up).'},
-            {'t': 'MCQ',
-             'q': 'Which debit does the book give for Goodwill?',
-             'o': ['1,400,000', '1,200,000', '9,900,000', '7,300,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 1,400,000 as the debit of '
-                    'Goodwill.'},
-            {'t': 'MCQ',
-             'q': 'Which credit does the book give for Investment in Levant '
-                  "(Orontes's books)?",
-             'o': ['8,000,000', '1,900,000', '9,900,000'],
-             'a': 'A',
-             'why': 'The book’s own table gives 8,000,000 as the credit of '
-                    "Investment in Levant (Orontes's books)."}]),
+             'q': 'Which part of this chapter is section 16.1?',
+             'o': ['IFRS differences and what is changing',
+                   'Two control models: VIE first, then votes',
+                   'What consolidated statements are',
+                   'Eliminating intercompany balances and transactions'],
+             'a': 'C',
+             'why': 'The book numbers “What consolidated statements are” as '
+                    'section 16.1.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'After an acquisition, the subsidiary has losses and NCI '
+                  'would become negative. Under U.S. GAAP:',
+             'o': ['losses are still attributed to NCI, even if NCI becomes '
+                   'negative',
+                   'all losses go to the parent once NCI reaches zero',
+                   'NCI is reclassified as a liability',
+                   'the parent stops consolidating'],
+             'a': 'A',
+             'why': 'ASC 810 attributes losses to NCI without a floor. B is '
+                    'wrong: This was the old practice before FAS 160. C is '
+                    'wrong: NCI stays in equity.',
+             'src': 'P16-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -230,12 +220,16 @@ HANDOUT = {'id': '16.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each one. '
+                  'Every one is used once.',
+             'left': ["Levant's equity (book value)",
+                      'Property, plant and equipment (fair value step-up)',
+                      'Goodwill',
+                      'Totals'],
+             'right': ['1,400,000', '7,300,000', '9,900,000', '1,200,000'],
+             'a': ['B', 'D', 'A', 'C'],
+             'whys': ['', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

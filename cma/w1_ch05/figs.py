@@ -16,6 +16,10 @@ def f2(blank=False):
     return lanes(blank=blank, **{'title': 'Cash flow by u.s. gaap (fixed)', 'groups': [('Operating', ['Interest paid', 'Interest received', 'Dividends received', 'Income taxes paid']), ('Financing', ['Dividends paid']), ('Net income', ['Indirect method starts from'])], 'sub': 'every one of these is in the book’s own table'})
 
 
+def f2b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Transaction (U.S. GAAP) — Activity', 'steps': [('Cash paid to buy a delivery truck', 'Investing'), ('Cash dividends paid to shareholders', 'Financing'), ('Interest paid on a bank loan', '________'), ('Cash received from selling Jordan Glass shares', '________'), ('Land acquired by issuing a long-term note (no cash)', '________'), ("Cash paid to buy back the company's own shares", '________')]})
+
+
 def f3(blank=False):
     return lanes(blank=blank, **{'title': 'Cash flow by category', 'groups': [('Operating', ['Lawsuit settlement paid', 'Interest paid']), ('Investing', ['Proceeds from sale of the division']), ('Financing', ['Treasury stock bought', 'Dividend paid'])], 'sub': 'every one of these is in the book’s own table'})
 
@@ -28,8 +32,12 @@ def f5(blank=False):
     return lanes(blank=blank, **{'title': 'Barada Wholesale (USD 000) by amount, or balance at dec 31, 2025', 'groups': [('165', ['Net income']), ('300', ['Depreciation expense']), ('20', ['Gain on sale of equipment']), ('40', ['Loss on sale of the catering-supply division'])], 'sub': 'every one of these is in the book’s own table'})
 
 
+def f5b(blank=False):
+    return flowchain(blank=blank, **{'title': 'Cash flow — Category', 'steps': [('Lawsuit settlement paid', ''), ('Proceeds from sale of the division', ''), ('Treasury stock bought', ''), ('Interest paid', ''), ('Dividend paid', '')]})
+
+
 def chmap(blank=False):
     return chaptermap(blank=blank, **{'title': 'Chapter 5 at a glance', 'nodes': [('Purpose and structure of the statement of cash flows', 'section 5.1'), ('Classifying cash flows', 'section 5.2'), ('The indirect method', 'section 5.3'), ('The direct method and required disclosures', 'section 5.4'), ('Limitations and links between the four statements', 'section 5.5')], 'note': 'Every section uses what the one before it settled.'})
 
 
-FIGS = {'f1': f1, 'f2': f2, 'f3': f3, 'f4': f4, 'f5': f5, 'chmap': chmap}
+FIGS = {'f1': f1, 'f2': f2, 'f2b': f2b, 'f3': f3, 'f4': f4, 'f5': f5, 'f5b': f5b, 'chmap': chmap}

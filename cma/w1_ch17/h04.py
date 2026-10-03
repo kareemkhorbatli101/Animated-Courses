@@ -3,10 +3,11 @@
 
 HANDOUT = {'id': '17.4',
  'n': 4,
- 'pages': 5,
+ 'pages': 4,
  'title': '(iv) Leases: the lessee',
  'sub': 'section 17.4 of the book',
  'covers': ['sec:17.4',
+            'p:P17-10',
             'term:value in use',
             'term:defined benefit plan',
             'term:recoverability test'],
@@ -34,72 +35,77 @@ HANDOUT = {'id': '17.4',
                        14,
                        ' of the ',
                        14,
-                       ' asset plus ',
-                       11,
-                       '.'],
+                       ' asset plus interest. U.S. GAAP keeps two models, '
+                       'and an operating lease has one ',
+                       15,
+                       ' cost.'],
              'bank': ['depreciation',
                       'right-of-use',
-                      'interest',
+                      'straight-line',
                       'recoverable amount',
                       'recoverability test'],
-             'a': 'depreciation · right-of-use · interest',
-             'one': True,
-             'why': 'The book writes: “IFRS 16 has one lessee model: every '
-                    'lease is treated like a finance lease, with '
-                    'depreciation of the right-of-use asset plus interest.”'},
-            {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['IFRS 16 has one lessee model: every lease is treated '
-                       'like a finance lease, with ',
-                       14,
-                       ' of the ',
-                       14,
-                       ' asset plus interest. GAAP keeps two models, and an '
-                       'operating lease has one ',
-                       15,
-                       " cost. For Orontes's warehouse from Chapter 14, "
-                       'U.S.'],
-             'bank': ['right-of-use',
-                      'recoverable amount',
-                      'recoverability test',
-                      'straight-line',
-                      'depreciation'],
              'a': 'depreciation · right-of-use · straight-line',
              'one': True,
              'why': 'The book writes: “IFRS 16 has one lessee model: every '
                     'lease is treated like a finance lease, with '
                     'depreciation of the right-of-use asset plus interest. '
-                    'GAAP keeps two models, and an operating lease has one '
-                    "straight-line cost. For Orontes's warehouse from "
-                    'Chapter 14, U.S.”'},
+                    'U.S. GAAP keeps two models, and an operating lease has '
+                    'one straight-line cost.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['For ',
+             'q': 'What it settles in the middle — Fill every gap. The list '
+                  'holds more words than there are gaps, so one or two of '
+                  'them are not used.',
+             'parts': ['Over the whole lease, total expense is the same. '
+                       'IFRS 16 also allows an ',
                        11,
-                       ' warehouse from Chapter 14, U.S. Over the whole '
-                       'lease, total expense is the same. IFRS 16 also '
-                       'allows an exemption for low-value assets, ',
+                       ' for low-value assets, ',
                        12,
                        ' the liability when an index such as CPI changes, '
                        'and ',
                        12,
                        ' lease principal as financing.'],
-             'bank': ['recoverability test',
-                      "Orontes's",
+             'bank': ['remeasures',
                       'recoverable amount',
+                      'recoverability test',
                       'classifies',
-                      'remeasures'],
-             'a': "Orontes's · remeasures · classifies",
+                      'exemption'],
+             'a': 'exemption · remeasures · classifies',
              'one': True,
-             'why': "The book writes: “For Orontes's warehouse from Chapter "
-                    '14, U.S. Over the whole lease, total expense is the '
-                    'same. IFRS 16 also allows an exemption for low-value '
-                    'assets, remeasures the liability when an index such as '
-                    'CPI changes, and classifies lease principal as '
-                    'financing.”'}],
+             'why': 'The book writes: “Over the whole lease, total expense '
+                    'is the same. IFRS 16 also allows an exemption for '
+                    'low-value assets, remeasures the liability when an '
+                    'index such as CPI changes, and classifies lease '
+                    'principal as financing.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap from the list. The list '
+                  'holds more words than there are gaps.',
+             'parts': ['The book’s own table “Topic” settles these: for '
+                       'Lessee models it is ',
+                       28,
+                       ', for Warehouse lease, 2026 expense (Chapter 14) it '
+                       'is ',
+                       39,
+                       ', for Low-value assets it is ',
+                       14,
+                       ' and for Index-linked payments (CPI) it is ',
+                       16,
+                       '.'],
+             'bank': ['No exemption',
+                      'Operating',
+                      'One straight-line lease cost: 100,000',
+                      'Full gain if a sale',
+                      'Not remeasured',
+                      'Two: finance and operating'],
+             'one': True,
+             'a': 'Two: finance and operating · One straight-line lease '
+                  'cost: 100,000 · No exemption · Not remeasured',
+             'why': 'From the book’s own table “Topic”: The book’s own table '
+                    '“Topic” settles these: for Lessee models it is Two: '
+                    'finance and operating and for Warehouse lease, 2026 '
+                    'expense (Chapter 14) it is One straight-line lease '
+                    'cost: 100,000 and for Low-value assets it is No '
+                    'exemption and for Index-linked payments (CPI) it is Not '
+                    'remeasured.'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -124,11 +130,11 @@ HANDOUT = {'id': '17.4',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the U.S. GAAP (ASC 842) of Lessee models '
-                  'as “Two: finance and operating”.',
+             'q': 'Every number in a financial statement belongs to an '
+                  'element the framework defines.',
              'a': 'T',
-             'why': 'The book pairs Lessee models with “Two: finance and '
-                    'operating”.'}]),
+             'why': 'The framework defines the elements, and every amount '
+                    'belongs to one of them.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'f4'),
           ('panel',
@@ -164,58 +170,24 @@ HANDOUT = {'id': '17.4',
                    'Low-value assets'],
              'a': 'B',
              'why': 'The book’s own table pairs Lessee models with “Two: '
-                    'finance and operating”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “One straight-line '
-                  'lease cost: 100,000”?',
-             'o': ['Warehouse lease, 2026 expense (Chapter 14)',
-                   'Sale and leaseback gain',
-                   'Lessee models',
-                   'Cash flow: operating-lease payment'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Warehouse lease, 2026 '
-                    'expense (Chapter 14) with “One straight-line lease '
-                    'cost: 100,000”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “No exemption”?',
-             'o': ['Low-value assets',
-                   'Warehouse lease, 2026 expense (Chapter 14)',
-                   'Cash flow: operating-lease payment',
-                   'Lessee models'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Low-value assets with “No '
-                    'exemption”.'},
-            {'t': 'MCQ',
-             'q': 'Which topic does the book pair with “Not remeasured”?',
-             'o': ['Index-linked payments (CPI)',
-                   'Low-value assets',
-                   'Lessee models',
-                   'Sale and leaseback gain'],
-             'a': 'A',
-             'why': 'The book’s own table pairs Index-linked payments (CPI) '
-                    'with “Not remeasured”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS 16 of Lessee models as “One: all '
-                  'leases like finance leases”.',
-             'a': 'T',
-             'why': 'The book pairs Lessee models with “One: all leases like '
-                    'finance leases”.'},
-            {'t': 'TF',
-             'q': 'The book gives the IFRS 16 of Warehouse lease, 2026 '
-                  'expense (Chapter 14) as “One: all leases like finance '
-                  'leases”.',
-             'a': 'F',
-             'why': 'The book pairs Warehouse lease, 2026 expense (Chapter '
-                    '14) with “Depreciation 84,247 + interest 25,274 = '
-                    '109,521”, not with “One: all leases like finance '
-                    'leases”.'}]),
+                    'finance and operating”.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
-           [{'t': 'TF',
-             'q': 'The rule you have just written is the book’s own rule.',
-             'a': 'T',
-             'why': 'Compare your sentence with the book’s wording in the '
-                    'key.'}]),
+           [{'t': 'MCQ',
+             'q': 'Under IFRS, a company borrows specifically to build a '
+                  'plant and earns interest on unspent funds. The '
+                  'capitalized borrowing cost is:',
+             'o': ['interest incurred, with no deduction',
+                   'zero',
+                   'interest incurred minus the investment income earned on '
+                   'the borrowed funds',
+                   'investment income only'],
+             'a': 'C',
+             'why': 'IAS 23 deducts investment income on specific '
+                    'borrowings. A is wrong: This is closer to the U.S. GAAP '
+                    'approach. B is wrong: Borrowing costs on qualifying '
+                    'assets are capitalized.',
+             'src': 'P17-10'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -256,12 +228,23 @@ HANDOUT = {'id': '17.4',
              'why': 'The term tables in each section are the book’s own.'}]),
           ('move', 'APPLY', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'Writing a term in English is part of answering the '
-                  'question, not an extra.',
-             'a': 'T',
-             'why': 'The exam marks the term, so the English word is the '
-                    'answer.'}]),
+           [{'t': 'MATCH',
+             'q': 'Write the letter of the matching entry beside each topic. '
+                  'Every one is used once.',
+             'left': ['Lessee models',
+                      'Warehouse lease, 2026 expense (Chapter 14)',
+                      'Low-value assets',
+                      'Index-linked payments (CPI)',
+                      'Cash flow: operating-lease payment',
+                      'Sale and leaseback gain'],
+             'right': ['Two: finance and operating',
+                       'Not remeasured',
+                       'Operating',
+                       'No exemption',
+                       'Full gain if a sale',
+                       'One straight-line lease cost: 100,000'],
+             'a': ['A', 'F', 'D', 'B', 'C', 'E'],
+             'whys': ['', '', '', '', '', '']}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

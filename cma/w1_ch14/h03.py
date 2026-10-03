@@ -3,18 +3,10 @@
 
 HANDOUT = {'id': '14.3',
  'n': 3,
- 'pages': 5,
+ 'pages': 4,
  'title': 'Initial measurement',
  'sub': 'section 14.3 of the book',
- 'covers': ['sec:14.3',
-            'p:P14-14',
-            'p:P14-15',
-            'p:P14-16',
-            'p:P14-17',
-            'sc:P14-14',
-            'p:P14-18',
-            'term:lease liability',
-            'term:lessee'],
+ 'covers': ['sec:14.3', 'p:P14-04', 'term:lease liability', 'term:lessee'],
  'skills': [('read3', 3)],
  'derived': {},
  'flow': [('preview',
@@ -26,7 +18,7 @@ HANDOUT = {'id': '14.3',
             ['Initial measurement',
              'a figure to read · Suppose: January 1, 2026 (whole USD) · the '
              'book’s own rule, gapped',
-             'On its income statement, a lessee shows interest expense for:'],
+             'Which of these did this cycle settle?'],
             ['The words this section uses precisely',
              'The English the exam uses, and what it translates',
              'What is the safest way to settle a disagreement about an '
@@ -94,26 +86,22 @@ HANDOUT = {'id': '14.3',
                        ' starts at the liability, plus any prepaid payments '
                        'and initial direct costs, minus incentives received. '
                        'Orontes uses 6%, the rate on its bank note from '
-                       'Chapter 1. The undiscounted payments are higher, '
-                       'because part of each payment is interest. SC14-6 A ',
-                       11,
-                       ' cannot determine the rate implicit in the ',
-                       11,
-                       '.'],
-             'bank': ['lease',
+                       'Chapter 1. The ',
+                       14,
+                       ' payments are higher, because part of each payment '
+                       'is interest.'],
+             'bank': ['lessee',
+                      'undiscounted',
                       'lease liability',
-                      'lessee',
-                      'operating lease',
                       'right-of-use asset'],
-             'a': 'right-of-use asset · lessee · lease',
+             'a': 'right-of-use asset · undiscounted',
              'one': True,
              'why': 'The book writes: “The right-of-use asset starts at the '
                     'liability, plus any prepaid payments and initial direct '
                     'costs, minus incentives received. Orontes uses 6%, the '
                     'rate on its bank note from Chapter 1. The undiscounted '
                     'payments are higher, because part of each payment is '
-                    'interest. SC14-6 A lessee cannot determine the rate '
-                    'implicit in the lease.”'}],
+                    'interest.”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -172,12 +160,12 @@ HANDOUT = {'id': '14.3',
              'why': 'The book’s own table gives 100,000 as the warehouse of '
                     'Annual payment (end of each year).'},
             {'t': 'MCQ',
-             'q': 'Which warehouse does the book give for Undiscounted '
+             'q': 'Which olive press does the book give for Undiscounted '
                   'payments?',
-             'o': ['421,236', '100,000', '500,000', '6%'],
+             'o': ['250,000', '6%', '1,000,000', '866,276'],
              'a': 'C',
-             'why': 'The book’s own table gives 500,000 as the warehouse of '
-                    'Undiscounted payments.'}]),
+             'why': 'The book’s own table gives 1,000,000 as the olive press '
+                    'of Undiscounted payments.'}]),
           ('move', 'INVENT THE RULE', ''),
           ('rule',
            'Complete the book’s own sentence. The list holds more words than '
@@ -211,71 +199,31 @@ HANDOUT = {'id': '14.3',
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'On its income statement, a lessee shows interest expense '
-                  'for:',
-             'o': ['finance leases only',
-                   'operating leases only',
-                   'both lease types',
-                   'neither lease type'],
-             'a': 'A',
-             'why': 'Operating leases show one combined lease cost. B is '
-                    'wrong: Operating-lease interest is not shown '
-                    'separately. C is wrong: Only finance leases separate '
-                    'interest.',
-             'src': 'P14-14'},
-            {'t': 'MCQ',
-             'q': 'Where does a lessee disclose a new ROU asset obtained in '
-                  'exchange for a lease liability?',
-             'o': ['As an investing outflow',
-                   'As a financing inflow',
-                   'As a supplemental noncash investing and financing '
-                   'activity',
-                   'It is not disclosed'],
-             'a': 'C',
-             'why': 'No cash moved when the lease began. A is wrong: No cash '
-                    'was paid for the asset. B is wrong: No cash was '
-                    'received.',
-             'src': 'P14-15'},
-            {'t': 'MCQ',
-             'q': 'Which IFRS 16 feature does NOT exist in ASC 842?',
-             'o': ['An exemption for short-term leases',
-                   'An exemption for leases of low-value assets',
-                   'A right-of-use asset',
-                   'Discounting the lease payments'],
+             'q': 'A French company signs a crédit-bail contract for a '
+                  'truck. Under ASC 842, the lease is classified by:',
+             'o': ['its legal form: always a finance lease',
+                   'the five criteria, not the legal form',
+                   'the tax treatment',
+                   "the lessor's choice"],
              'a': 'B',
-             'why': 'U.S. GAAP has only the short-term exemption. A is '
-                    'wrong: Both frameworks have it. C is wrong: Both '
-                    'frameworks use ROU assets.',
-             'src': 'P14-16'},
-            {'t': 'MCQ',
-             'q': 'An IFRS company pays interest on a lease liability. Under '
-                  'current IAS 7 it may classify the interest as:',
-             'o': ['operating or financing, as a policy choice',
-                   'investing only',
-                   'operating only, as under U.S. GAAP',
-                   'not a cash flow'],
-             'a': 'A',
-             'why': 'IAS 7 allows a choice until the IFRS 18 amendments '
-                    'apply. B is wrong: Interest paid is not investing. C is '
-                    'wrong: IFRS allows financing too.',
-             'src': 'P14-17'}]),
+             'why': 'Substance, tested by the criteria, decides. A is wrong: '
+                    'Legal labels do not decide the class. C is wrong: Tax '
+                    'rules do not decide the class.',
+             'src': 'P14-04'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
            'go back to the model and find the row that settles it. The row '
            'decides, not the louder voice.'),
           ('check',
-           'On its income statement, a lessee shows interest expense for:',
-           ['finance leases only',
-            'operating leases only',
-            'both lease types',
-            'neither lease type'],
+           'Which of these did this cycle settle?',
+           ['the rule and where it comes from',
+            'nothing in particular',
+            'only the vocabulary',
+            'only the arithmetic'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
-           'Operating leases show one combined lease cost. B is wrong: '
-           'Operating-lease interest is not shown separately. C is wrong: '
-           'Only finance leases separate interest.'),
+           'redo the READ THE MODEL questions of cycle A.',
+           'Every cycle settles one rule and shows where it comes from.'),
           ('cycle', 'B', 'The words this section uses precisely'),
           ('move', 'ORIENT', ''),
           ('items',
@@ -302,13 +250,13 @@ HANDOUT = {'id': '14.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which party records the right-of-use asset?',
-             'o': ['The lessor', 'Both', 'The lessee', 'Neither'],
-             'a': 'C',
-             'why': 'The lessee has the right to use the asset. A is wrong: '
-                    'The lessor keeps the underlying asset or a receivable. '
-                    'B is wrong: Only the lessee has a right of use.',
-             'src': 'P14-18'}]),
+             'q': 'Which warehouse does the book give for Right-of-use asset '
+                  '(no prepayments, costs or incentives)?',
+             'o': ['500,000', '6%', '100,000', '421,236'],
+             'a': 'D',
+             'why': 'The book’s own table gives 421,236 as the warehouse of '
+                    'Right-of-use asset (no prepayments, costs or '
+                    'incentives).'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

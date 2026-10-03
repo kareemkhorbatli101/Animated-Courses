@@ -3,18 +3,15 @@
 
 HANDOUT = {'id': '1.2',
  'n': 2,
- 'pages': 7,
+ 'pages': 5,
  'title': 'The building blocks: elements and the accounting equation',
  'sub': 'section 1.2 of the book',
  'covers': ['sec:1.2',
-            'p:P07',
-            'p:P08',
-            'p:P09',
-            'p:P10',
+            'p:P02',
+            'p:P15',
+            'p:P16',
             'sc:SC2-1',
             'sc:SC2-2',
-            'p:P11',
-            'p:P12',
             'sc:SC2-1',
             'sc:SC2-2',
             'term:primary users',
@@ -78,65 +75,67 @@ HANDOUT = {'id': '1.2',
              'q': 'What it settles in the middle — Fill every gap. The list '
                   'holds more words than there are gaps, so one or two of '
                   'them are not used.',
-             'parts': ['Contributed capital is what owners paid in: ',
+             'parts': ['You will meet it in Chapters 3 and 15. The equation '
+                       'always holds, because creditors (liabilities) or '
+                       'owners (',
+                       11,
+                       ') finance every ',
+                       11,
+                       '. Contributed capital is what owners paid in: ',
                        14,
                        ' at its ',
                        11,
                        ', plus ',
                        28,
-                       ' (APIC). ',
-                       19,
-                       ' (RE) are the past ',
-                       12,
-                       ' that the company kept instead of paying it out as '
-                       'dividends.'],
+                       ' (APIC).'],
              'bank': ['revenue',
                       'dividend',
+                      'common stock',
+                      'asset',
                       'additional paid-in capital',
                       'par value',
-                      'net income',
-                      'Retained earnings',
-                      'common stock'],
-             'a': 'common stock · par value · additional paid-in capital · '
-                  'Retained earnings · net income',
+                      'equity'],
+             'a': 'equity · asset · common stock · par value · additional '
+                  'paid-in capital',
              'one': True,
-             'why': 'The book writes: “Contributed capital is what owners '
-                    'paid in: common stock at its par value, plus additional '
-                    'paid-in capital (APIC). Retained earnings (RE) are the '
-                    'past net income that the company kept instead of paying '
-                    'it out as dividends.”'},
+             'why': 'The book writes: “You will meet it in Chapters 3 and '
+                    '15. The equation always holds, because creditors '
+                    '(liabilities) or owners (equity) finance every asset. '
+                    'Contributed capital is what owners paid in: common '
+                    'stock at its par value, plus additional paid-in capital '
+                    '(APIC).”'},
             {'t': 'FILL',
              'q': 'Where it ends — Fill every gap. The list holds more words '
                   'than there are gaps, so one or two of them are not used.',
-             'parts': ['',
+             'parts': ['IFRS also uses the word income for both revenue and '
+                       'gains, while ',
                        11,
-                       's and gains increase ',
-                       19,
-                       '. ',
-                       11,
-                       's also decrease it, but a dividend is not an ',
-                       11,
-                       '. It is a distribution to owners, so it never '
-                       'appears in the ',
-                       18,
-                       '. IFRS also uses the word income for both revenue '
-                       'and gains, while U.S.'],
-             'bank': ['Dividend',
-                      'retained earnings',
-                      'expense',
-                      'Revenue',
-                      'accounts receivable',
-                      'income statement',
-                      'cost of goods sold'],
-             'a': 'Revenue · retained earnings · Dividend · expense · income '
-                  'statement',
+                       ' keeps revenues and gains apart. You may also know '
+                       'these IFRS names: ',
+                       33,
+                       ' (',
+                       15,
+                       '), share capital (',
+                       14,
+                       ') and share premium (',
+                       28,
+                       ').'],
+             'bank': ['balance sheet',
+                      'statement of financial position',
+                      'common stock',
+                      'U.S. GAAP',
+                      'dividend',
+                      'additional paid-in capital',
+                      'revenue'],
+             'a': 'U.S. GAAP · statement of financial position · balance '
+                  'sheet · common stock · additional paid-in capital',
              'one': True,
-             'why': 'The book writes: “Revenues and gains increase retained '
-                    'earnings. Dividends also decrease it, but a dividend is '
-                    'not an expense. It is a distribution to owners, so it '
-                    'never appears in the income statement. IFRS also uses '
-                    'the word income for both revenue and gains, while '
-                    'U.S.”'}],
+             'why': 'The book writes: “IFRS also uses the word income for '
+                    'both revenue and gains, while U.S. GAAP keeps revenues '
+                    'and gains apart. You may also know these IFRS names: '
+                    'statement of financial position (balance sheet), share '
+                    'capital (common stock) and share premium (additional '
+                    'paid-in capital).”'}],
            [('Words this handout uses precisely',
              [['Words this handout uses precisely',
                'tick it if you could already use it in a sentence'],
@@ -167,9 +166,11 @@ HANDOUT = {'id': '1.2',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of Prepaid rent as “Asset”.',
+             'q': 'The book gives the category of Accumulated depreciation '
+                  'as “Contra-asset”.',
              'a': 'T',
-             'why': 'The book pairs Prepaid rent with “Asset”.'}]),
+             'why': 'The book pairs Accumulated depreciation with '
+                    '“Contra-asset”.'}]),
           ('move', 'MODEL', 'Read it before you answer anything below it.'),
           ('fig', 'beam'),
           ('panel',
@@ -193,89 +194,54 @@ HANDOUT = {'id': '1.2',
              'o': ['Equity', 'Revenue', 'Asset', 'Expense'],
              'a': 'C',
              'why': 'The book’s own table gives Asset as the category of '
-                    'Prepaid rent.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Land?',
-             'o': ['Equity', 'Expense', 'Revenue', 'Asset'],
-             'a': 'D',
-             'why': 'The book’s own table gives Asset as the category of '
-                    'Land.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Dividends payable?',
-             'o': ['Revenue', 'Equity', 'Expense', 'Liability'],
-             'a': 'D',
-             'why': 'The book’s own table gives Liability as the category of '
-                    'Dividends payable.'},
-            {'t': 'MCQ',
-             'q': 'Which category does the book give for Additional paid-in '
-                  'capital?',
-             'o': ['Asset', 'Equity', 'Revenue', 'Expense'],
-             'a': 'B',
-             'why': 'The book’s own table gives Equity as the category of '
-                    'Additional paid-in capital.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Prepaid rent as “Asset”.',
-             'a': 'T',
-             'why': 'The book pairs Prepaid rent with “Asset”.'},
-            {'t': 'TF',
-             'q': 'The book gives the category of Land as “Contra-asset”.',
-             'a': 'F',
-             'why': 'The book pairs Land with “Asset”, not with '
-                    '“Contra-asset”.'}]),
+                    'Prepaid rent.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company has assets of 900 and liabilities of 350. It '
-                  'then borrows 100 in cash and declares and pays a cash '
-                  'dividend of 40. What is total equity after these '
-                  'transactions?',
-             'o': ['450', '510', '550', '610'],
+             'q': 'A bank is deciding whether to renew a five-year loan to '
+                  'Orontes. Which information will the bank find MOST '
+                  'useful?',
+             'o': ['The highest and lowest share price during the year',
+                   "The company's ability to generate cash to pay interest "
+                   'and repay principal',
+                   'The number of products the company sells',
+                   "The names of the company's major shareholders"],
              'a': 'B',
-             'why': 'Equity starts at 550 (900 − 350). Borrowing does not '
-                    'change equity. The dividend reduces it by 40, so equity '
-                    'is 510. A is wrong: This is total liabilities after the '
-                    'loan (350 + 100), not equity. C is wrong: This ignores '
-                    'the dividend, which reduces retained earnings.',
-             'src': 'P07'},
+             'why': "A lender's main question is repayment: can the borrower "
+                    'pay interest and principal on time? A is wrong: Share '
+                    'prices interest investors more than lenders and do not '
+                    'show repayment ability. C is wrong: The product count '
+                    'does not show whether the company can repay the loan.',
+             'src': 'P02'},
             {'t': 'MCQ',
-             'q': 'Which account normally has a debit balance?',
-             'o': ['Accounts payable',
-                   'Sales revenue',
-                   'Prepaid rent',
-                   'Additional paid-in capital'],
-             'a': 'C',
-             'why': 'Prepaid rent is an asset, and assets have debit '
-                    'balances. A is wrong: Accounts payable is a liability, '
-                    'with a credit balance. B is wrong: Revenue increases '
-                    'equity, so it has a credit balance.',
-             'src': 'P08'},
-            {'t': 'MCQ',
-             'q': 'Accumulated depreciation is BEST described as:',
-             'o': ['a liability for future asset replacement.',
-                   'a contra-asset account with a credit balance.',
-                   'an expense of the current period.',
-                   'a reduction of retained earnings.'],
-             'a': 'B',
-             'why': 'It reduces the cost of equipment on the balance sheet '
-                    'and has a credit balance. A is wrong: The company owes '
-                    'nobody anything, so it is not a liability. C is wrong: '
-                    "Depreciation expense is the period's charge; "
-                    'accumulated depreciation is the running total on the '
-                    'balance sheet.',
-             'src': 'P09'},
-            {'t': 'MCQ',
-             'q': 'Orontes ships goods on December 20, 2025 and invoices 90. '
-                  'The goods cost 54. The customer pays on January 15, 2026. '
-                  'The fiscal year ends on December 31. How much revenue '
-                  'does Orontes report for fiscal 2025?',
-             'o': ['0', '36', '54', '90'],
+             'q': 'Which statement is TRUE?',
+             'o': ['The PCAOB writes U.S. GAAP for public companies.',
+                   'The IASB writes U.S. GAAP for companies that also report '
+                   'under IFRS.',
+                   'The ASC contains IFRS for U.S. companies.',
+                   'The SEC has legal authority over public company '
+                   'reporting and recognizes the FASB as the standard '
+                   'setter.'],
              'a': 'D',
-             'why': 'Under the accrual basis, revenue is recorded when the '
-                    'goods are delivered, in 2025. A is wrong: This is '
-                    'cash-basis thinking. The cash timing does not decide '
-                    'the period. B is wrong: This is the gross profit '
-                    '(revenue minus cost), not the revenue.',
-             'src': 'P10'}]),
+             'why': 'The SEC has the legal authority; the FASB sets the '
+                    'standards; the ASC holds U.S. GAAP. A is wrong: The '
+                    'PCAOB sets auditing standards. B is wrong: The IASB '
+                    'writes IFRS only.',
+             'src': 'P15'},
+            {'t': 'MCQ',
+             'q': "A Jordanian company's IFRS statements show share premium "
+                  'of 400. Under U.S. GAAP, the same item is called:',
+             'o': ['retained earnings.',
+                   'common stock.',
+                   'additional paid-in capital.',
+                   'treasury stock.'],
+             'a': 'C',
+             'why': 'Share premium and additional paid-in capital both mean '
+                    'the amount received above par value. A is wrong: '
+                    'Retained earnings come from profits, not from issuing '
+                    'shares. B is wrong: Common stock holds only the par '
+                    'value.',
+             'src': 'P16'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -358,31 +324,7 @@ HANDOUT = {'id': '1.2',
                        'مبدأ مقابلة الإيرادات بالمصروفات',
                        'الأسهم العادية'],
              'a': ['F', 'C', 'D', 'E', 'B', 'A'],
-             'whys': ['', '', '', '', '', '']},
-            {'t': 'MCQ',
-             'q': 'Which row does the book pair with “A Dubai hotel group '
-                  'paid cash in advance for pastries that Orontes will '
-                  'deliver in March.”?',
-             'o': ['4', '6', '5'],
-             'a': 'A',
-             'why': 'The book’s own table pairs 4 with “A Dubai hotel group '
-                    'paid cash in advance for pastries that Orontes will '
-                    'deliver in March.”.'},
-            {'t': 'MCQ',
-             'q': 'Which row does the book pair with “Paid the dividend '
-                  'declared on January 31.”?',
-             'o': ['6', '4', '5'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 5 with “Paid the dividend '
-                    'declared on January 31.”.'},
-            {'t': 'MCQ',
-             'q': 'Which row does the book pair with “Recorded one month of '
-                  'interest on the bank note. Orontes has not paid it yet.”?',
-             'o': ['4', '5', '6'],
-             'a': 'C',
-             'why': 'The book’s own table pairs 6 with “Recorded one month '
-                    'of interest on the bank note. Orontes has not paid it '
-                    'yet.”.'}]),
+             'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
@@ -395,36 +337,25 @@ HANDOUT = {'id': '1.2',
                     'wrong: This is total assets, not equity.',
              'src': 'SC2-2'},
             {'t': 'MCQ',
-             'q': 'Which statement about the matching principle is correct?',
-             'o': ['Expenses are recognized in the period in which they are '
-                   'paid.',
-                   'Revenues are recognized in the period in which cash is '
-                   'received.',
-                   'All costs are capitalized as assets until related '
-                   'revenue is earned.',
-                   'Expenses are recognized in the same period as the '
-                   'revenues they help to produce.'],
-             'a': 'D',
-             'why': 'This is the definition of matching. A is wrong: Payment '
-                    'timing does not decide when an expense is recognized. B '
-                    'is wrong: Revenue is recognized when earned, not when '
-                    'cash is received.',
-             'src': 'P11'},
+             'q': 'Which item is an expense?',
+             'o': ['A cash dividend paid to shareholders',
+                   'Wages paid to plant workers',
+                   'Repayment of a bank loan',
+                   'Purchase of a new bottling line'],
+             'a': 'B',
+             'why': "Wages are a cost of the company's central operations, "
+                    'so they are an expense. A is wrong: A dividend is a '
+                    'distribution to owners. It reduces retained earnings '
+                    'but is not an expense. C is wrong: Repaying principal '
+                    'reduces a liability and an asset. No expense arises.',
+             'src': 'SC2-1'},
             {'t': 'MCQ',
-             'q': 'On February 10, Orontes pays 24 for 12 months of '
-                  'warehouse rent in advance. How does the payment appear '
-                  'immediately after it is made?',
-             'o': ['As an asset of 24',
-                   'As an expense of 24',
-                   'As a liability of 24',
-                   'It is not recorded until the end of the month.'],
-             'a': 'A',
-             'why': 'Prepaid rent is an asset: Orontes has paid for 12 '
-                    'months of future use. B is wrong: The benefit is in the '
-                    'future, so the cost becomes an expense month by month. '
-                    'C is wrong: This confuses a prepaid expense (asset) '
-                    'with unearned revenue (liability).',
-             'src': 'P12'}]),
+             'q': 'Which category does the book give for Accumulated '
+                  'depreciation?',
+             'o': ['Revenue', 'Liability', 'Expense', 'Contra-asset'],
+             'a': 'D',
+             'why': 'The book’s own table gives Contra-asset as the category '
+                    'of Accumulated depreciation.'}]),
           ('check',
            'What is the safest way to settle a disagreement about an answer '
            'on this sheet?',

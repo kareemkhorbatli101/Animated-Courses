@@ -741,3 +741,218 @@ question could end up with its right answer much longer than every distractor
 (distractors are now chosen from those closest in length, and a question with
 no close enough set is not asked at all).
 
+
+## 12 · Fourth revision — twelve audit passes, and what they changed
+
+The gates in §4 say whether a handout is *admissible*: no open questions, no
+stem pointing off its page, every chapter item claimed, every table covering
+its grid. They say nothing about whether an exercise is any **good**. A
+question reading
+
+> Which straight-line does the book give for Expense in early years?
+
+passes every one of the eighteen gates and is not a sentence. So this
+revision adds a second instrument, `cma/wsaudit.py`, which asks twelve
+questions of every exercise in every handout and, where it finds something,
+names the action. Nothing is repaired in the auditor: it writes the plan,
+the generator carries it out, and the auditor runs again to show the
+movement.
+
+| # | pass | what it asks |
+|---|---|---|
+| 1 | grounding in the book | is every word of it in the book? |
+| 2 | relevance | does it test the accounting, or the book's own furniture? |
+| 3 | clarity | is the stem a sentence a student can read once? |
+| 4 | lack of ambiguity | can exactly one option be defended? |
+| 5 | sequence | does it come after the model that settles it? |
+| 6 | consistency | is it a near-copy of its neighbour? |
+| 7 | effectiveness | does it make the student reason, or only look? |
+| 8 | interest | is there a company, a decision, something at stake? |
+| 9 | usefulness for the test | is it the shape the exam asks in? |
+| 10 | sufficiency of directions | can a student start it without being told more? |
+| 11 | student background | does it assume English or notation we have not given? |
+| 12 | visual potential | would a figure carry this better than prose? |
+
+Severity **2** means rewrite or drop; **1** means weaken, fix in passing.
+
+### What it found, and the rule each finding became
+
+Every fix below is structural — a rule in the generator or a gate — not an
+edit to one handout, because an edit to one handout does not survive the
+next regeneration.
+
+**The sentence layer.** Three defects fed every gapped passage on every
+page one.
+
+- The splitter broke on any full stop, so `U.S. GAAP` became a sentence
+  ending at `U.S.` and a fragment starting at `GAAP`. A passage then read
+  *"the method changes cash only through income taxes, and U.S. A new
+  useful life is a change in estimate."* Fixed by holding a fragment open
+  while it ends in a known abbreviation (`ABBREV`).
+- A figure caption is prose to a splitter. `Figure F10-02. Depreciation
+  expense each year for the bottling line under four methods.` lost its
+  first half to the figure-reference filter and left the rest describing a
+  picture the page does not print. Caption lines are now dropped before any
+  splitting (`CAPTION`).
+- The book's item numbering leaked in, so a *summary* read *"SC10-4 After
+  two years, Orontes revises the useful life."* — a question stem lifted
+  out of its exercise. `sentences()` now rejects any sentence carrying an
+  item id. `ASC 606` and `IAS 1` are **not** item ids: those are the
+  standards, and a handout on revenue should name ASC 606.
+
+**The three preview summaries** — the complaint that began this revision.
+They were weak for four reasons beyond the sentence layer, each now a rule.
+
+- They overlapped. Disjointness was tested on the whole passage string, so
+  three passages sharing two of three sentences all passed. It is now
+  tested on *sentence indices*: the three are disjoint, and a section too
+  thin for three disjoint passages (14.1 "What is a lease?" is a dozen
+  sentences) may carry over one sentence, never an opening one.
+- They opened mid-thought: *"This reclassification adjustment stops the
+  same gain being counted twice."* A passage may not begin on a word that
+  hangs off a sentence it does not print (`DANGLING`), and the rule now
+  binds every source of a preview passage, including the fallbacks — which
+  is where the last two danglers in Book 1 were hiding.
+- They arrived in the wrong order. The labels say *where the section
+  starts*, *in the middle*, *where it ends*, but a thin third sends the
+  search through the whole section, so a reader could meet the end of the
+  section under "where the section starts". The three are now sorted by
+  position before they are labelled.
+- A section with no three passages fell back to single gapped sentences,
+  which is the thing page one was redesigned away from. The fallback is now
+  the **table** the handout is built on, summarised in its own cells
+  (`table_summary`), and the single-sentence fallback is last and must meet
+  the dangler rule.
+
+**The exercises.**
+
+- *Near-copies (368 findings, all severe).* A table of eight rows yielded
+  eight questions of one shape, and the reading move asked four of them off
+  one column. The reading move now takes **two** cell questions at most,
+  from different rows *and* different columns, and spends the rest of the
+  move on the table as a whole (sort, grid, matching). A near-copy filter
+  (`deduped`) then cuts any run that survives, comparing stems with the
+  quoted value removed — because *"Which row does the book pair with ⟨a
+  long sentence⟩?"* asked three times differs enormously in the quoted part
+  and not at all in the part a student reads as the question.
+- *The checkpoint re-asked the cycle.* `scm[:2]` and `pm[:2]` overlapped
+  the applying pool, so a cycle closed by repeating a question it had just
+  set. The checkpoint now excludes anything already shown, and checkpoints
+  pass through the near-copy filter and the per-item normaliser like every
+  other item.
+- *The review sheet* was the one sheet whose flow never went through either,
+  so every near-copy and unpunctuated stem left in Book 1 was on a review
+  sheet.
+- *The case set* asked *"Which of these does item C1-1 ask for?"*, then
+  C1-2, then C1-3 — six near-identical questions about the wording of a
+  question, naming an item number that means nothing on a handout. The book
+  gives no answers for its case tasks, so the one thing askable in closed
+  form is what a case set actually teaches: the tasks have an order, because
+  each uses the result of the one before, and the book's own numbering is
+  that order. Six MCQs became one ordering item.
+- *Stems that were not sentences.* `noun_ok` accepted any short heading, so
+  the sheet asked *"Which what happens does the book give for Prepaid
+  expense?"* and *"the creates of Contract liability"* and *"Which ● IFRS
+  does the book give for common stock?"*. A heading is now rejected if it
+  opens on a question word, if it is a bare verb, if it is generic (*row*,
+  *item*, *answer*, *value*), if it is a value or a method name
+  (`VALUEISH` — the transposed-table case that produced *"Which
+  straight-line…"*), or if it carries the book's bullet. `tf_from_row` was
+  testing the wrong heading of the two it quotes. A totals line is an
+  arithmetic consequence of the rows above it, so it is not a subject for a
+  stem either.
+- *Ambiguity.* An option containing another lets a student defend both. One
+  normaliser (`normalised`) now drops the overlapping *distractors* rather
+  than the key, drops the item if fewer than three options survive,
+  dedupes every word bank, punctuates every stem, and runs over every item
+  from every source — because a dozen places build items and any of them
+  can forget. The generator's threshold was one character off the auditor's;
+  they now agree.
+- *True/false in the applying move* is a coin flip. The two hand-written
+  fillers became real items: one applies the table to a row the reading
+  move did not show, the other asks for the English term the exam will mark.
+- *Chapter numbering* ("Which part of this chapter is section 7.1?") is the
+  book's table of contents, not its accounting. One such item orients a
+  reader; four is a quiz on the front matter. Capped at one.
+- *Interest.* Where the book's bank offers both an abstract item and one
+  set at Orontes, the Orontes one goes on the page (`by_interest`). The
+  bank is dealt out to a chapter's sections in order and the situated items
+  are not spread evenly through it, so they are now set aside first and
+  dealt one per handout, with anything undealt returned to the bank so the
+  chapter's coverage still closes.
+
+### Two rules the audit changed about itself
+
+An instrument that measures the wrong thing is worse than none, so two
+passes were re-specified against evidence rather than left to flatter the
+result.
+
+- **Interest is a property of the handout, not of the item.** The pass first
+  flagged every abstract item in an applying move — 598 findings. But an
+  exam asks plenty of abstract questions and a handout should too; *"Which
+  account normally has a debit balance?"* is not a defect, and the glossary
+  cycle's applying item is about a word by design. What *is* a defect is a
+  whole session in which the student never once faces a company deciding
+  something. The book supports that standard and no stronger one: of its
+  505 bank items, about a quarter set a situation, which is roughly one per
+  handout and nowhere near one per move. A pass demanding more would be
+  asking the generator to invent situations, which is the one thing it must
+  not do.
+- **A lead-in is an ending.** The pass required every stem to end in `?` or
+  `.`, flagging 144 items — but *"Accumulated depreciation is BEST
+  described as:"* is how the exam itself writes a stem. A colon or an
+  ellipsis now counts.
+
+Both the generator and the auditor import **one** definition of what makes
+an item situated. Two copies of that test had already drifted apart, and
+the generator was reserving items the auditor did not count — solving a
+different problem from the one being measured.
+
+### Two structural rules this revision added
+
+- **A sheet is as long as its section has substance.** The page floor was a
+  flat four. Section 18.5, "Benefits and challenges", is six sentences and
+  a four-row table; stretching it to four pages means inventing questions.
+  A section the book itself writes short (under 1,600 characters) is allowed
+  a three-page sheet. Every other section still owes four.
+- **A thin section is topped up from what it has, not padded.** Where a
+  chapter's bank runs out before its last section, the applying move is
+  filled from that section's own tables and glossary (`topup`) — rows the
+  reading move did not show, the table read as a relation, the glossary as
+  matching. It goes into the existing move, never into a cycle of its own:
+  a cycle without a model is not a cycle.
+
+### The movement
+
+Measured by the same auditor against both generations, the earlier one
+recovered from git so that both columns are one ruler:
+
+| | before | after |
+|---|---|---|
+| exercises | 2,115 | 1,635 |
+| clean | 1,315 (62%) | 1,593 (97%) |
+| findings | 1,232 | 42 |
+| **severe findings** | **437** | **0** |
+
+Fewer exercises, because 480 of them were near-copies, cell hunts or quizzes
+on the table of contents. All eighteen chapters still pass all eighteen
+gates, the document linter and the measured page budget.
+
+### What is left, and why
+
+Forty-two findings remain, none severe.
+
+- **26 · interest.** Eight handouts of 112 still have no item that puts a
+  company in front of the student: 6.2, 6.4, 8.6, 10.5, 12.1, 13.1, 17.6,
+  17.7. Their chapters' situated items ran out — chapter 17 offers three in
+  its problem bank against seven handouts. Closing these would mean writing
+  situations the book does not contain, which is a decision about content,
+  not a defect in the conversion.
+- **12 · effectiveness.** A third cell-reading question under one model,
+  where the top-up had nothing better to offer.
+- **5 · visual potential.** Three tables in chapters 13 and 16 that no
+  figure shape fits: a numeric tax reconciliation and two long topic
+  comparisons.
+
+`cma/wsaudit.py` prints the table above; `CMA_Book1_Exercise_Plan.md` names
+every remaining finding with its handout, its exercise and its action.
