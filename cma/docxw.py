@@ -671,15 +671,23 @@ class _CMA:
     """Mixed into Doc below."""
 
     # ---- prose ------------------------------------------------------
-    def fill(self, parts, sz=21, reg=None, ind=0):
-        """A paragraph carrying numbered write-in blanks."""
+    def fill(self, parts, sz=21, reg=None, ind=0, tight=False):
+        """A paragraph carrying numbered write-in blanks.
+
+        tight closes the leading up for the lean handout, where the whole
+        document has four pages to fit into and the generous line spacing the
+        books use is the first thing that has to go.
+        """
         rs = [_reg_tag(reg)]
         for p in parts:
             if p[0] == 't':
                 rs.append(run(p[1], sz=sz))
             else:
                 rs.append(_blankrun(p[1], p[2], sz=sz))
-        ppr = '<w:spacing w:before="40" w:after="110" w:line="300" w:lineRule="auto"/>'
+        ppr = ('<w:spacing w:before="20" w:after="70" w:line="272" '
+               'w:lineRule="auto"/>' if tight else
+               '<w:spacing w:before="40" w:after="110" w:line="300" '
+               'w:lineRule="auto"/>')
         if ind:
             ppr += '<w:ind w:left="%d"/>' % ind
         self.body.append(para(rs, ppr))
