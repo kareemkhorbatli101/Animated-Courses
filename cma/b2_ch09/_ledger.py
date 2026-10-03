@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C209-1': ('case item C209-1', []),
+    'C209-2': ('case item C209-2', []),
+    'C209-3': ('case item C209-3', []),
+    'C209-4': ('case item C209-4', []),
+    'C209-5': ('case item C209-5', []),
+    'C209-6': ('case item C209-6', []),
+    'C209-7': ('case item C209-7', []),
+    'P209-01': ('practice item P209-01', []),
+    'P209-02': ('practice item P209-02', []),
+    'P209-03': ('practice item P209-03', []),
+    'P209-04': ('practice item P209-04', []),
+    'P209-05': ('practice item P209-05', []),
+    'P209-06': ('practice item P209-06', []),
+    'P209-07': ('practice item P209-07', []),
+    'P209-08': ('practice item P209-08', []),
+    'P209-09': ('practice item P209-09', []),
+    'P209-10': ('practice item P209-10', []),
+    'P209-11': ('practice item P209-11', []),
+    'P209-12': ('practice item P209-12', []),
+    'P209-13': ('practice item P209-13', []),
+    'P209-14': ('practice item P209-14', []),
+    'P209-15': ('practice item P209-15', []),
+    'P209-16': ('practice item P209-16', []),
+    'SC209-1': ('section-check item SC209-1', []),
+    'SC209-10': ('section-check item SC209-10', []),
+    'SC209-11': ('section-check item SC209-11', []),
+    'SC209-12': ('section-check item SC209-12', []),
+    'SC209-13': ('section-check item SC209-13', []),
+    'SC209-2': ('section-check item SC209-2', []),
+    'SC209-3': ('section-check item SC209-3', []),
+    'SC209-4': ('section-check item SC209-4', []),
+    'SC209-5': ('section-check item SC209-5', []),
+    'SC209-6': ('section-check item SC209-6', []),
+    'SC209-7': ('section-check item SC209-7', []),
+    'SC209-8': ('section-check item SC209-8', []),
+    'SC209-9': ('section-check item SC209-9', []),
+    'term:absorption costing': ("term-bridge row 'absorption costing'", []),
+    'term:contribution margin': ("term-bridge row 'contribution margin'", []),
+    'term:contribution margin ratio': ("term-bridge row 'contribution margin ratio'", []),
+    'term:downward demand spiral': ("term-bridge row 'downward demand spiral'", []),
+    'term:normal capacity': ("term-bridge row 'normal capacity'", []),
+    'term:practical capacity': ("term-bridge row 'practical capacity'", []),
+    'term:production-volume variance': ("term-bridge row 'production-volume variance'", []),
+    'term:unused capacity': ("term-bridge row 'unused capacity'", []),
+    'term:variable costing': ("term-bridge row 'variable costing'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C209-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C209-6': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

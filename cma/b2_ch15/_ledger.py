@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C215-1': ('case item C215-1', []),
+    'C215-2': ('case item C215-2', []),
+    'C215-3': ('case item C215-3', []),
+    'C215-4': ('case item C215-4', []),
+    'C215-5': ('case item C215-5', []),
+    'C215-6': ('case item C215-6', []),
+    'C215-7': ('case item C215-7', []),
+    'P215-01': ('practice item P215-01', []),
+    'P215-02': ('practice item P215-02', []),
+    'P215-03': ('practice item P215-03', []),
+    'P215-04': ('practice item P215-04', []),
+    'P215-05': ('practice item P215-05', []),
+    'P215-06': ('practice item P215-06', []),
+    'P215-07': ('practice item P215-07', []),
+    'P215-08': ('practice item P215-08', []),
+    'P215-09': ('practice item P215-09', []),
+    'P215-10': ('practice item P215-10', []),
+    'P215-11': ('practice item P215-11', []),
+    'P215-12': ('practice item P215-12', []),
+    'P215-13': ('practice item P215-13', []),
+    'P215-14': ('practice item P215-14', []),
+    'P215-15': ('practice item P215-15', []),
+    'P215-16': ('practice item P215-16', []),
+    'SC215-1': ('section-check item SC215-1', []),
+    'SC215-10': ('section-check item SC215-10', []),
+    'SC215-11': ('section-check item SC215-11', []),
+    'SC215-2': ('section-check item SC215-2', []),
+    'SC215-3': ('section-check item SC215-3', []),
+    'SC215-4': ('section-check item SC215-4', []),
+    'SC215-5': ('section-check item SC215-5', []),
+    'SC215-6': ('section-check item SC215-6', []),
+    'SC215-7': ('section-check item SC215-7', []),
+    'SC215-8': ('section-check item SC215-8', []),
+    'SC215-9': ('section-check item SC215-9', []),
+    'term:benchmarking': ("term-bridge row 'benchmarking'", []),
+    'term:best practice analysis': ("term-bridge row 'best practice analysis'", []),
+    'term:business process reengineering': ("term-bridge row 'business process reengineering'", []),
+    'term:competitive benchmarking': ("term-bridge row 'competitive benchmarking'", []),
+    'term:cycle time': ("term-bridge row 'cycle time'", []),
+    'term:functional benchmarking': ("term-bridge row 'functional benchmarking'", []),
+    'term:generic benchmarking': ("term-bridge row 'generic benchmarking'", []),
+    'term:internal benchmarking': ("term-bridge row 'internal benchmarking'", []),
+    'term:process analysis': ("term-bridge row 'process analysis'", []),
+    'term:process map': ("term-bridge row 'process map'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C215-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C215-6': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

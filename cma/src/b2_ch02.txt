@@ -1,0 +1,762 @@
+Chapter 2
+Cost Behavior and the Relevant Range
+سلوك التكلفة والمدى الملائم
+The Oils division expects to run its crushers for 38,400 machine hours in 2027. What if a good harvest pushes that higher, or a drought pulls it lower? Some costs will move with the hours and some will not. Managers must know which, before they can budget, price or control.
+This chapter explains cost behavior: how a cost responds when activity changes. Figure F202-01 shows the four patterns.
+Figure F202-01. Chapter 2 roadmap: four cost behaviors and five sections.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.1.a
+calculate fixed, variable, and mixed costs, and demonstrate an understanding of the behavior of each in the long and short term and how a change in assumptions regarding cost type or relevant range affects these costs
+Calculate fixed, variable and mixed costs, and explain their behavior in the short and long term and within the relevant range.
+Full treatment + Extended Example
+D.3.a
+distinguish between fixed and variable overhead expenses
+Distinguish between fixed and variable overhead.
+Full treatment
+D.3.b
+determine the appropriate time frame for classifying both variable and fixed overhead expenses
+Determine the right time frame for classifying overhead as fixed or variable.
+Full treatment
+B.5.k
+separate costs into their fixed and variable components
+Separate costs into their fixed and variable components.
+Full treatment (account analysis); high-low and regression in Chapter 3
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cost behavior
+سلوك التكلفة
+comportement des coûts
+variable cost
+التكلفة المتغيرة
+coût variable
+fixed cost
+التكلفة الثابتة
+coût fixe (charge de structure)
+mixed cost
+التكلفة المختلطة (شبه المتغيرة)
+coût semi-variable
+step cost
+التكلفة المتدرجة
+charge fixe par paliers
+relevant range
+المدى الملائم
+zone de pertinence
+committed fixed cost
+التكلفة الثابتة الملتزم بها
+charge fixe engagée
+account analysis
+طريقة تحليل الحسابات
+analyse des comptes
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 sorted costs into direct and indirect, and product and period. Here we sort them a third way, by behavior. The Oils figures come from the same ledger: the olive-press lease from Book 1, the service department charges and the 24 months of maintenance data.
+2.1  Four cost behaviors
+A variable cost changes in total in proportion to activity. Power for the crushers costs $5 for every machine hour, so twice the hours means twice the power bill.
+A fixed cost stays the same in total when activity changes. Factory supervision costs $420,000 a year whether the crushers run a little or a lot. A mixed cost has both parts: maintenance and utilities cost $216,000 a year plus $12 per machine hour.
+A step cost is fixed over a band of activity and then jumps. Above the relevant range, Oils needs a second shift, which adds a supervisor costing $180,000. Figure F202-02 shows all four patterns with these Oils costs.
+Figure F202-02. Four cost behaviors, each shown with an Oils overhead cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost behavior
+سلوك التكلفة
+comportement des coûts
+variable cost
+التكلفة المتغيرة
+coût variable
+fixed cost
+التكلفة الثابتة
+coût fixe (charge de structure)
+mixed cost
+التكلفة المختلطة (شبه المتغيرة)
+coût semi-variable
+step cost
+التكلفة المتدرجة
+charge fixe par paliers
+English (exam term)
+العربية
+Français
+cost behavior
+سلوك التكلفة
+comportement des coûts
+variable cost
+التكلفة المتغيرة
+coût variable
+fixed cost
+التكلفة الثابتة
+coût fixe (charge de structure)
+mixed cost
+التكلفة المختلطة (شبه المتغيرة)
+coût semi-variable
+step cost
+التكلفة المتدرجة
+charge fixe par paliers
+SECTION CHECK   Test yourself
+SC202-1  Which Oils overhead cost is variable with machine hours?
+A.	Factory supervision
+B.	Power for the crushers
+C.	Insurance
+D.	Olive-press ROU amortization
+SC202-2  Oils maintenance and utilities cost $216,000 a year plus $12 per machine hour. This is a:
+A.	variable cost
+B.	fixed cost
+C.	mixed cost
+D.	step cost
+Answers and explanations are at the end of the chapter.
+2.2  Total cost and cost per unit
+The two basic behaviors look opposite when you divide by activity. Variable cost is constant per unit but changes in total. Fixed cost is constant in total but changes per unit: the more hours, the lower the fixed cost per hour.
+Figure F202-03 shows Oils overhead at three levels. Total fixed overhead stays at $2,100,569, but fixed overhead per machine hour falls from $70.02 to $43.76. Variable overhead stays at $20 per hour.
+Figure F202-03. Oils overhead in total and per machine hour at three volumes
+Oils overhead, FY2027 (whole USD)
+Low
+Budget
+High
+Machine hours
+30,000
+38,400
+48,000
+Total fixed overhead
+2,100,569
+2,100,569
+2,100,569
+Fixed overhead per MH
+$70.02
+$54.70
+$43.76
+Total variable overhead ($20 per MH)
+600,000
+768,000
+960,000
+Variable overhead per MH
+$20.00
+$20.00
+$20.00
+Total overhead
+2,700,569
+2,868,569
+3,060,569
+Total overhead per MH
+$90.02
+$74.70
+$63.76
+EXAM TRAP   Fixed cost per unit is not fixed
+Do not multiply a fixed cost per unit by a new volume. Fixed cost per unit was computed at one volume only. Budget the total fixed cost, then divide by the new volume if you need a unit figure.
+SECTION CHECK   Test yourself
+SC202-3  Machine hours rise by 10%, still inside the relevant range. Total fixed overhead:
+A.	rises by 10%
+B.	falls by 10%
+C.	rises by the variable rate
+D.	does not change
+SC202-4  Use Figure F202-03. What is fixed overhead per machine hour at 48,000 hours?
+A.	$20.00
+B.	$43.76
+C.	$63.76
+D.	$70.02
+Answers and explanations are at the end of the chapter.
+2.3  The relevant range
+The relevant range is the band of activity in which the cost behavior assumptions hold. Oils has data from 2,000 to 4,300 machine hours a month. Inside that range, maintenance and utilities follow $18,000 plus $12 per hour.
+Outside the range the formula may fail. Above 4,300 hours a month Oils must run a second shift, so the fixed part jumps. Below the range, the $18,000 intercept is only an extrapolation: nobody has seen the plant at zero hours. Figure F202-04 shows the data, the range and the step.
+Figure F202-04. The relevant range on the 24-month maintenance and utilities data.
+A change in assumptions changes the cost. If a new contract turns the maintenance charge into a fixed fee, the cost becomes fixed. If volume moves outside the range, a new cost function is needed.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+relevant range
+المدى الملائم
+zone de pertinence
+English (exam term)
+العربية
+Français
+relevant range
+المدى الملائم
+zone de pertinence
+SECTION CHECK   Test yourself
+SC202-5  The relevant range is:
+A.	the band of activity in which cost behavior assumptions hold
+B.	the range of prices customers accept
+C.	the difference between the highest and lowest costs
+D.	the period covered by the budget
+SC202-6  Oils has data only between 2,000 and 4,300 machine hours a month. Using $18,000 as the cost at zero hours is:
+A.	a measured cost
+B.	the variable rate
+C.	an extrapolation outside the relevant range
+D.	the cost of the second shift
+Answers and explanations are at the end of the chapter.
+2.4  The time frame: short run and long run
+Whether a cost is fixed depends on the time frame. In the short run, such as one budget year, the press lease and supervision salaries cannot easily change. In the long run, Orontes can end the lease, change the staff or buy new machines, so every cost can change.
+Some fixed costs come from long-term decisions, such as leases and depreciation: these are committed fixed costs. Others, such as training or advertising, are set each year by managers: these are discretionary fixed costs. Figure F202-05 classifies four Oils costs by time frame.
+Figure F202-05. Short run and long run: four Oils costs
+Oils cost
+Behavior this year
+Short run (why)
+Long run
+Olive-press lease (ROU amortization)
+Fixed: 216,569 a year
+Committed until the lease ends in 2029
+Changes only when the lease is renewed or ended
+Factory supervision
+Fixed: 420,000 a year
+Salaries are set for the year
+Staff can be added or removed
+Maintenance & utilities
+Mixed: 216,000 + $12 per MH
+Fixed part is the service contract
+Contract can be resized
+Power for the crushers
+Variable: $5 per MH
+Moves with machine hours
+Rate can change with new machines
+For overhead rates and budgets, Orontes classifies overhead for one year at a time. That is the time frame the CMA exam usually assumes, unless a question says otherwise.
+FALSE-FRIEND ALERT   Charges fixes, التكاليف الثابتة
+French 'charges de structure' and Arabic التكاليف الثابتة both mean fixed costs, but in daily speech 'fixed' can suggest 'permanent'. In cost accounting, fixed means only 'does not change with activity in this range and period'.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+committed fixed cost
+التكلفة الثابتة الملتزم بها
+charge fixe engagée
+discretionary fixed cost
+التكلفة الثابتة الاختيارية
+charge fixe discrétionnaire
+English (exam term)
+العربية
+Français
+committed fixed cost
+التكلفة الثابتة الملتزم بها
+charge fixe engagée
+discretionary fixed cost
+التكلفة الثابتة الاختيارية
+charge fixe discrétionnaire
+SECTION CHECK   Test yourself
+SC202-7  Over the long run, the olive-press lease cost:
+A.	can never change
+B.	varies with machine hours
+C.	is a period cost
+D.	can change, because the lease can be renewed, resized or ended
+SC202-8  Which is a discretionary fixed cost?
+A.	Depreciation of the crushing line
+B.	A staff training program set each year
+C.	The olive-press lease
+D.	Property tax on the factory
+Answers and explanations are at the end of the chapter.
+2.5  Separating costs into fixed and variable parts
+Budgets need a cost function: total cost = fixed cost + variable rate × activity. To build it, each cost must be separated into its fixed and variable parts. The simplest method is account analysis: an accountant reviews each account and classifies it by judgment.
+Mixed accounts need a second step. For maintenance and utilities, Oils uses the fixed monthly contract and the rate per machine hour estimated from its records. Chapter 3 shows two ways to estimate them: the high-low method and regression.
+WORKED EXAMPLE   Worked example: the Oils overhead cost function
+Figure F202-06 classifies the eight Oils overhead accounts. Adding the columns gives the cost function: $2,100,569 a year plus $20 per machine hour.
+Figure F202-06. Worked example: account analysis of Oils overhead
+Oils overhead account
+Behavior
+Fixed per year
+Variable per MH
+Factory supervision
+Fixed
+420,000
+—
+Insurance
+Fixed
+60,000
+—
+Depreciation of the crushing line
+Fixed
+300,000
+—
+Olive-press ROU amortization
+Fixed
+216,569
+—
+Service department charges
+Fixed (budgeted)
+888,000
+—
+Maintenance & utilities
+Mixed
+216,000
+$12
+Indirect materials
+Variable
+—
+$3
+Power
+Variable
+—
+$5
+Oils overhead cost function
+2,100,569
+$20
+YOUR TURN   Classify Tahini & Spreads costs
+Figure F202-07 lists six costs of making tahini jars. The first two are done. Classify the rest as variable, fixed, mixed or step. Answers are at the end of the chapter.
+Figure F202-07. Your turn: classify Tahini & Spreads costs (complete the blanks)
+Tahini & Spreads cost (activity: jars produced)
+Behavior
+Sesame used
+Variable
+Factory rent
+Fixed
+Electricity: monthly base charge plus a rate per kWh
+________
+One extra supervisor for every 20,000 jars a month
+________
+Labels, one per jar
+________
+Factory insurance
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+account analysis
+طريقة تحليل الحسابات
+analyse des comptes
+English (exam term)
+العربية
+Français
+account analysis
+طريقة تحليل الحسابات
+analyse des comptes
+SECTION CHECK   Test yourself
+SC202-9  The account analysis method separates costs by:
+A.	fitting a line through the highest and lowest points
+B.	reviewing each account and classifying it by judgment
+C.	a statistical regression
+D.	dividing total cost by volume
+SC202-10  A mixed cost is $4,000 a month plus $2 per unit. What is the cost for a month with 3,000 units?
+A.	$4,000
+B.	$6,000
+C.	$10,000
+D.	$12,000
+Answers and explanations are at the end of the chapter.
+2.6  Extended Example 2A: the Oils overhead budget, 2027
+This example builds a flexible overhead budget from the cost function, tests it at several volumes and records one month's invoices by behavior. The budget calculations are exam-core; the entries are for depth.
+1. Scenario
+Oils plans 38,400 machine hours for 2027, but the harvest could give anything from 30,000 to 48,000. Above 51,600 hours a year, a second shift adds $72,000 of maintenance and $180,000 of supervision.
+2. Plan
+Use the cost function from Section 2.5. Compute total overhead at each volume, check which volumes are inside the relevant range, and see what happens to cost per machine hour.
+3. Calculations
+Budget volume: $2,100,569 + $20 × 38,400 = $2,868,569, or $74.70 per machine hour.
+Low volume: $2,100,569 + $20 × 30,000 = $2,700,569, or $90.02 per hour.
+High volume: $2,100,569 + $20 × 48,000 = $3,060,569, or $63.76 per hour.
+Above the range (55,000 hours): $2,100,569 + $252,000 + $20 × 55,000 = $3,452,569.
+4. The flexible budget
+Figure F202-08 puts the four volumes side by side. Fixed overhead is the same in the first three columns; only the variable part moves. The last column needs a new cost function because it lies outside the range.
+Figure F202-08. Extended Example: flexible overhead budget for Oils
+Oils overhead budget, FY2027
+Low
+Budget
+High
+Above range
+Machine hours
+30,000
+38,400
+48,000
+55,000
+Fixed overhead
+2,100,569
+2,100,569
+2,100,569
+2,100,569
+Second-shift step (M&U + supervision)
+—
+—
+—
+252,000
+Variable overhead ($20 per MH)
+600,000
+768,000
+960,000
+1,100,000
+Total overhead
+2,700,569
+2,868,569
+3,060,569
+3,452,569
+Figure F202-09 shows the result per machine hour. Variable cost per hour is flat, fixed cost per hour falls, and so total cost per hour falls as volume rises.
+Figure F202-09. Extended Example: overhead cost per machine hour falls as volume rises.
+5. Recording by behavior
+The general ledger records costs by nature, but Orontes tags each overhead line as fixed or variable. In March the crushers ran 3,200 machine hours. Figure F202-10 records the month's variable invoices and splits the maintenance invoice of $56,400 into its fixed and variable parts. Figure F202-11 posts the entries to T-accounts that separate fixed and variable overhead.
+Figure F202-10. Extended Example: March overhead journal by behavior
+No.
+Account (detail)
+Debit
+Credit
+①
+MOH Control - Fixed
+18,000
+MOH Control - Variable
+38,400
+Accounts Payable
+56,400
+②
+MOH Control - Variable
+16,000
+Accounts Payable
+16,000
+③
+MOH Control - Variable
+9,600
+Raw Materials Inventory
+9,600
+Totals
+82,000
+82,000
+Figure F202-11. Extended Example: March overhead posted by behavior, keyed to the journal.
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Maintenance invoice: $18,000 fixed + $38,400 variable = $56,400, the regression estimate for 3,200 hours.
+March variable overhead: $20 × 3,200 = $64,000.
+Fixed maintenance for the year: $216,000, twelve months at $18,000.
+Journal total: $82,000 on both sides.
+7. Account names in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+variable cost
+التكلفة المتغيرة
+coût variable
+fixed cost
+التكلفة الثابتة
+coût fixe (charge de structure)
+mixed cost
+التكلفة المختلطة (شبه المتغيرة)
+coût semi-variable
+relevant range
+المدى الملائم
+zone de pertinence
+English (exam term)
+العربية
+Français
+variable cost
+التكلفة المتغيرة
+coût variable
+fixed cost
+التكلفة الثابتة
+coût fixe (charge de structure)
+mixed cost
+التكلفة المختلطة (شبه المتغيرة)
+coût semi-variable
+relevant range
+المدى الملائم
+zone de pertinence
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect a cost at two volumes and a request for the cost at a third volume. Split the cost first, check that the new volume is inside the relevant range, then rebuild the total. Never scale a total cost that includes fixed costs.
+9. Self-check
+SECTION CHECK   Test yourself
+SC202-11  Use the Extended Example. What is budgeted Oils overhead at 38,400 machine hours (whole USD)?
+A.	768,000
+B.	2,100,569
+C.	2,868,569
+D.	3,585,600
+SC202-12  Use the Extended Example. Why does the budget at 55,000 machine hours need a new cost function?
+A.	Variable costs become fixed
+B.	Fixed costs fall at high volume
+C.	The variable rate doubles
+D.	The volume is outside the relevant range, so a second-shift step cost appears
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F202-12 brings the chapter together.
+Figure F202-12. Chapter 2 summary map: the key rule for each section.
+Variable costs change in total with activity and are constant per unit. Fixed costs are constant in total and fall per unit as activity rises. Mixed costs have both parts, and step costs jump at set levels. These rules hold only inside the relevant range and for a stated time frame; in the long run all costs can change. Account analysis separates each cost into its fixed and variable parts to give a cost function for budgets.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P202-01  Volume doubles inside the relevant range. Variable cost per unit:
+A.	doubles
+B.	halves
+C.	becomes fixed
+D.	stays the same
+P202-02  Fixed costs are $120,000 a year. Volume rises from 10,000 to 15,000 units. What is fixed cost per unit at 15,000 units?
+A.	$8
+B.	$12
+C.	$18
+D.	$120,000
+P202-03  Total cost is $70,000 at 5,000 units and the variable cost is $6 per unit. What is the fixed cost?
+A.	$30,000
+B.	$40,000
+C.	$70,000
+D.	$100,000
+P202-04  One supervisor ($3,000 a month) is needed for every 20,000 jars or part of it. What is supervision cost for a month with 45,000 jars?
+A.	$3,000
+B.	$6,000
+C.	$6,750
+D.	$9,000
+P202-05  Which overhead cost is usually variable with machine hours?
+A.	Indirect materials used by the machines
+B.	Plant manager's salary
+C.	Factory insurance
+D.	Straight-line depreciation of the building
+P202-06  Unless a question says otherwise, overhead is classified as fixed or variable for:
+A.	the life of the company
+B.	a short period, usually one year
+C.	one day
+D.	the life of the longest lease
+P202-07  On a graph of a mixed cost, the point where the line meets the cost axis shows:
+A.	the variable rate
+B.	the relevant range
+C.	the step level
+D.	the fixed part
+P202-08  Inside the relevant range, a cost is $50,000 at 4,000 units and $62,000 at 6,000 units. What is the cost at 5,000 units?
+A.	$30,000
+B.	$50,000
+C.	$56,000
+D.	$62,500
+P202-09  A five-year lease payment on factory equipment is best described as a:
+A.	discretionary fixed cost
+B.	variable cost
+C.	step cost
+D.	committed fixed cost
+P202-10  Which statement about fixed costs is correct?
+A.	They never change
+B.	They can change in the long run
+C.	They rise with each unit
+D.	They are the same per unit at every volume
+P202-11  A weakness of the account analysis method is that it:
+A.	relies on judgment, so two accountants may classify a cost differently
+B.	needs many years of data
+C.	cannot be used for overhead
+D.	always gives the wrong answer
+P202-12  A cost function was estimated from months with 2,000 to 4,300 machine hours. Its forecast for a month with 6,000 hours is:
+A.	reliable, because the formula is linear
+B.	exactly right if the intercept is positive
+C.	unreliable, because 6,000 hours is outside the relevant range
+D.	always too low
+P202-13  Oils overhead is $2,100,569 a year plus $20 per machine hour. What is budgeted overhead at 40,000 machine hours?
+A.	$800,000
+B.	$2,100,569
+C.	$2,900,569
+D.	$2,988,000
+P202-14  Activity falls by 20% inside the relevant range. Total variable cost:
+A.	stays the same
+B.	rises by 20%
+C.	falls per unit by 20%
+D.	falls by 20%
+P202-15  In a plant that runs one shift all year, the supervisor's salary is:
+A.	fixed
+B.	variable
+C.	mixed
+D.	a period cost
+P202-16  Why do managers separate mixed costs into fixed and variable parts?
+A.	To remove overhead from product cost
+B.	To predict costs at different volumes, for example in flexible budgets
+C.	Because U.S. GAAP requires it on the income statement
+D.	To turn fixed costs into variable costs
+Case question: the Beverages packaging hall
+The Beverages division packs juice in a packaging hall at its plant. The number of cases packed changes from month to month with orders from Levant Distribution. The hall's costs include electricity, line supervision, shrink wrap and the lease of the wrapping machines.
+Some of these costs are fixed, some vary with the number of cases, and electricity has a fixed part and a variable part. The plant engineer has recorded the electricity cost at two volumes inside the hall's relevant range. The controller has the other monthly costs from the accounts.
+Sami, the Beverages controller, must prepare a flexible budget for the hall. He needs the electricity cost formula, the total cost at a given volume and the fixed costs the hall carries each month. He also wants to explain to the sales team why cost per case falls when the hall is busy, and why his formula only works for normal volumes.
+Levant Distribution has asked whether Beverages can pack more cases at short notice in the summer. Before he answers, Sami wants the cost behavior of every item in the hall to be clear. He knows that a second shift would need another supervisor, so he will keep his formula for the volumes the hall normally handles.
+Use Figure F202-13 for items C202-1 to C202-7. The hall's volume is measured in cases.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F202-13. Case exhibit: Beverages packaging hall, monthly costs
+Beverages packaging hall, monthly (whole USD)
+60,000 cases
+80,000 cases
+Electricity
+14,000
+17,000
+Line supervision
+9,000
+9,000
+Shrink film
+3,600
+4,800
+Forklift rental (a third forklift is added above 70,000 cases)
+5,000
+7,500
+Maintenance
+6,500
+8,000
+Total
+38,100
+46,300
+C202-1  Classify each cost by behavior. (On the exam screen you would drag each item into a box.)
+Categories: Variable · Fixed · Mixed · Step
+Cost
+Category
+Electricity
+Line supervision
+Shrink film
+Forklift rental
+Maintenance
+C202-2  Enter the variable electricity cost per 1,000 cases.
+Answer: ____________
+C202-3  Enter the fixed electricity cost per month.
+Answer: ____________
+C202-4  Enter the total monthly cost of the hall at 70,000 cases.
+Answer: ____________
+C202-5  Enter the total fixed cost per month at 80,000 cases (include the fixed parts of mixed costs).
+Answer: ____________
+C202-6  Cost per case falls from $0.635 at 60,000 cases to $0.579 at 80,000 cases mainly because: [select]
+Options: fixed costs are spread over more cases   |   variable cost per case falls   |   the forklift step lowers cost   |   shrink film becomes cheaper per case
+C202-7  A cost formula is reliable only inside the ____, where fixed costs stay fixed and the variable rate stays the same.
+Choose the word or phrase for the blank: relevant range   |   practical capacity   |   normal capacity   |   budget period
+Answers and explanations
+Section checks
+SC202-1  Answer B. Power rises in proportion to machine hours.
+A is wrong. Supervision is fixed within the range.
+C is wrong. Insurance is fixed.
+D is wrong. Lease amortization is a committed fixed cost.
+SC202-2  Answer C. It has a fixed part and a variable part.
+A is wrong. The fixed part is ignored.
+B is wrong. The variable rate is ignored.
+D is wrong. A step cost jumps at set levels.
+SC202-3  Answer D. Fixed costs are constant in total inside the range.
+A is wrong. That is how variable costs behave.
+B is wrong. Fixed cost per unit falls, not the total.
+C is wrong. Fixed costs have no variable rate.
+SC202-4  Answer B. Total fixed overhead ÷ machine hours.
+A is wrong. This is the variable rate.
+C is wrong. This includes the variable rate.
+D is wrong. This is the rate at the low volume.
+SC202-5  Answer A. Cost formulas are valid only inside it.
+B is wrong. It is about activity, not prices.
+C is wrong. It is about activity levels, not cost differences.
+D is wrong. That is the time frame.
+SC202-6  Answer C. Zero hours lies outside the observed range.
+A is wrong. The plant was never observed at zero hours.
+B is wrong. The intercept is the fixed part.
+D is wrong. The step applies above the range.
+SC202-7  Answer D. In the long run all costs can change.
+A is wrong. It is fixed only in the short run.
+B is wrong. It does not move with hours.
+C is wrong. Factory lease amortization is a product cost.
+SC202-8  Answer B. Managers decide its amount each year.
+A is wrong. Depreciation is committed.
+C is wrong. A lease is committed.
+D is wrong. Property tax is not a yearly choice.
+SC202-9  Answer B. It relies on the accountant's knowledge of each account.
+A is wrong. That is the high-low method (Chapter 3).
+C is wrong. That is regression (Chapter 3).
+D is wrong. That gives an average cost, not a split.
+SC202-10  Answer C. Fixed part + rate × units.
+A is wrong. The variable part is left out.
+B is wrong. The fixed part is left out.
+D is wrong. The fixed part is multiplied.
+SC202-11  Answer C. Fixed overhead + variable rate × hours.
+A is wrong. The fixed part is left out.
+B is wrong. The variable part is left out.
+D is wrong. This multiplies a per-hour total by a different volume.
+SC202-12  Answer D. Above the range the fixed part steps up.
+A is wrong. Behavior does not reverse.
+B is wrong. Only fixed cost per hour falls.
+C is wrong. The variable rate stays the same.
+Your turn
+Item
+Answer
+Electricity: monthly base charge plus a rate per kWh
+Mixed
+One extra supervisor for every 20,000 jars a month
+Step
+Labels, one per jar
+Variable
+Factory insurance
+Fixed
+Multiple-choice questions
+P202-01  Answer D. Variable cost is constant per unit.
+A is wrong. Total variable cost doubles, not the unit cost.
+B is wrong. That describes fixed cost per unit.
+C is wrong. Behavior does not change.
+P202-02  Answer A. Total fixed cost ÷ new volume.
+B is wrong. This is the old unit cost.
+C is wrong. The unit cost is multiplied instead of divided.
+D is wrong. This is the total.
+P202-03  Answer B. Total cost − variable cost.
+A is wrong. This is the variable cost.
+C is wrong. Variable cost is not removed.
+D is wrong. Variable cost is added.
+P202-04  Answer D. 45,000 jars need three supervisors.
+A is wrong. Only one step is counted.
+B is wrong. The third step is missed.
+C is wrong. A step cost is not prorated.
+P202-05  Answer A. Machine supplies rise with machine use.
+B is wrong. Salaries are fixed.
+C is wrong. Insurance is fixed.
+D is wrong. Straight-line depreciation is fixed.
+P202-06  Answer B. Budgets and rates are set for one year.
+A is wrong. In the long run all costs can change.
+C is wrong. One day is too short for budgeting.
+D is wrong. The budget period is one year.
+P202-07  Answer D. At zero activity only the fixed part remains.
+A is wrong. The rate is the slope.
+B is wrong. The range is a band on the activity axis.
+C is wrong. A mixed cost has no step.
+P202-08  Answer C. Rate = 12,000 ÷ 2,000 = $6; fixed = 26,000; 26,000 + 6 × 5,000.
+A is wrong. Only the variable part is used.
+B is wrong. The cost is treated as fixed.
+D is wrong. This scales an average cost.
+P202-09  Answer D. It comes from a long-term decision.
+A is wrong. It cannot be changed each year.
+B is wrong. It does not move with activity.
+C is wrong. It does not jump with activity.
+P202-10  Answer B. Fixed means fixed in total for a range and a period.
+A is wrong. They are fixed only in the short run.
+C is wrong. That describes variable costs.
+D is wrong. Fixed cost per unit changes with volume.
+P202-11  Answer A. It is quick but subjective.
+B is wrong. Regression needs data; account analysis does not.
+C is wrong. It is often used for overhead.
+D is wrong. It is often reasonable.
+P202-12  Answer C. Behavior outside the range is unknown.
+A is wrong. Linearity is known only inside the range.
+B is wrong. The intercept does not make the forecast valid.
+D is wrong. The direction of the error is unknown.
+P202-13  Answer C. Fixed + rate × hours.
+A is wrong. The fixed part is left out.
+B is wrong. The variable part is left out.
+D is wrong. This scales the budget per-hour total to a new volume.
+P202-14  Answer D. Total variable cost moves in proportion.
+A is wrong. That describes total fixed cost.
+B is wrong. The direction is wrong.
+C is wrong. Per-unit variable cost is constant.
+P202-15  Answer A. It does not change with hours inside the range.
+B is wrong. It does not rise with each hour.
+C is wrong. It has no variable part.
+D is wrong. Factory supervision is a product cost.
+P202-16  Answer B. A cost function predicts cost at any volume in the range.
+A is wrong. Overhead stays in product cost.
+C is wrong. It is a management tool, not a GAAP rule.
+D is wrong. Separation does not change behavior.
+Case question: the Beverages packaging hall
+C202-1
+Cost
+Category
+Electricity
+Mixed
+Line supervision
+Fixed
+Shrink film
+Variable
+Forklift rental
+Step
+Maintenance
+Mixed
+Compare each cost at the two volumes. A forklift is added above 70,000 cases.
+C202-2  Answer: 150.
+212 is wrong: this answer divides total cost by volume at one point.
+C202-3  Answer: 5,000.
+1,250 is wrong: this answer uses an average rate to find the fixed part.
+C202-4  Answer: 40,950.
+43,450 is wrong: this answer uses three forklifts although 70,000 cases needs only two.
+44,450 is wrong: this answer scales the average cost per case, which includes fixed costs.
+C202-5  Answer: 23,500.
+21,000 is wrong: this answer uses the lower forklift level.
+9,000 is wrong: this answer ignores the fixed parts of mixed and step costs.
+C202-6  Answer: fixed costs are spread over more cases.
+variable cost per case falls is wrong: this answer variable cost per case is constant.
+the forklift step lowers cost is wrong: this answer the step raises cost.
+shrink film becomes cheaper per case is wrong: this answer film costs the same per case.
+C202-7  Answer: relevant range.
+practical capacity is wrong: this answer confuses a capacity level with the range where the formula holds.
+normal capacity is wrong: this answer confuses a capacity level with the range where the formula holds.
+budget period is wrong: this answer confuses the time period with the activity range.
+PART I — COST LANGUAGE AND BEHAVIOR

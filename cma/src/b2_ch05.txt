@@ -1,0 +1,753 @@
+Chapter 5
+Actual, Normal and Standard Costing
+التكاليف الفعلية والعادية والمعيارية
+In May 2027 the Beverages bottling line filled 70,000 cases of juice. What did one case cost? The answer depends on how Orontes measures the materials, the labor and above all the overhead.
+This chapter compares the three measurement techniques that the CMA exam tests, and then looks closely at variable overhead. Figure F205-01 introduces the three techniques.
+Figure F205-01. Chapter 5 roadmap: actual, normal and standard costing.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.1.e
+identify and define cost measurement techniques, such as actual costing, normal costing, and standard costing; calculate costs using each of these techniques; identify the appropriate use of each technique; and describe the benefits and limitations of each technique
+Define actual, normal and standard costing, calculate costs with each, and describe their use, benefits and limitations.
+Full treatment + Extended Example
+D.3.e
+identify the components of variable overhead expense
+Identify the components of variable overhead.
+Full treatment
+D.3.f
+determine the appropriate allocation base for variable overhead expenses
+Determine the right allocation base for variable overhead.
+Full treatment
+D.3.g
+calculate the per-unit variable overhead expense
+Calculate variable overhead per unit.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+actual costing
+نظام التكاليف الفعلية
+méthode des coûts réels
+normal costing
+نظام التكاليف العادية
+méthode des coûts normaux (imputation préétablie)
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+predetermined overhead rate
+معدل التحميل التقديري
+taux d'imputation préétabli
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+variable overhead
+التكاليف الصناعية غير المباشرة المتغيرة
+charges indirectes variables
+allocation base
+أساس التحميل
+unité d'œuvre
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 6 in this book, the job costing pilot, already used normal costing: actual direct costs plus overhead applied at a predetermined rate. This chapter explains why, and compares it with the other two techniques.
+5.1  Three measurement techniques
+A product cost has three parts: direct materials, direct labor and overhead. The three techniques differ in how they measure each part. Actual costing uses actual amounts for all three. Normal costing uses actual direct costs but applies overhead with a predetermined rate. Standard costing uses standard quantities and prices for everything.
+Each technique suits a different need. Actual costing is exact but late; normal costing is timely; standard costing also sets targets that managers can compare with results. Figure F205-02 compares them.
+Figure F205-02. Actual, normal and standard costing compared
+Actual costing
+Normal costing
+Standard costing
+Direct materials
+Actual quantity × actual price
+Actual quantity × actual price
+Standard quantity allowed × standard price
+Direct labor
+Actual hours × actual rate
+Actual hours × actual rate
+Standard hours allowed × standard rate
+Overhead
+Actual overhead
+Actual base × predetermined rate
+Standard base allowed × standard rate
+Unit cost known
+After the period ends
+When the work is done
+Before production starts
+Best use
+Small firms; audit of results
+Job shops; pricing during the year
+Repetitive production; control through variances
+The techniques measure cost; they do not collect it. Any of them can be used with job costing, process costing or activity-based costing.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+actual costing
+نظام التكاليف الفعلية
+méthode des coûts réels
+normal costing
+نظام التكاليف العادية
+méthode des coûts normaux (imputation préétablie)
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+English (exam term)
+العربية
+Français
+actual costing
+نظام التكاليف الفعلية
+méthode des coûts réels
+normal costing
+نظام التكاليف العادية
+méthode des coûts normaux (imputation préétablie)
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+SECTION CHECK   Test yourself
+SC205-1  Which technique uses actual direct materials and direct labor but applies overhead with a predetermined rate?
+A.	Actual costing
+B.	Standard costing
+C.	Absorption costing
+D.	Normal costing
+SC205-2  Which statement is correct?
+A.	Normal costing can only be used with process costing
+B.	Any of the three techniques can be used with job or process costing
+C.	Standard costing cannot be used for inventory
+D.	Actual costing gives costs before production starts
+Answers and explanations are at the end of the chapter.
+5.2  Actual costing
+Under actual costing, overhead is assigned only when the period ends and the actual overhead is known. In May Beverages spent $222,600 on overhead, so the full cost was $903,000, or $12.90 a case.
+Actual costing has two limits. The cost arrives too late for pricing and control during the month. And unit cost jumps with volume, because fixed overhead is spread over whatever the month produces. Figure F205-03 shows fixed overhead per case rising from $2.17 in May to $3.00 in a quiet July.
+Figure F205-03. Fixed overhead per case in a busy and a quiet month under actual and normal costing.
+Actual costing suits small firms with stable volume, and it is the basis for checking results after the period.
+SECTION CHECK   Test yourself
+SC205-3  Under actual costing, why is fixed overhead per case higher in a quiet month?
+A.	Variable overhead per case rises
+B.	The predetermined rate is higher
+C.	The same fixed overhead is spread over fewer cases
+D.	Materials cost more in quiet months
+SC205-4  A main limitation of actual costing is that:
+A.	product cost is known only after the period ends
+B.	it ignores direct labor
+C.	it uses budgeted prices
+D.	it cannot be audited
+Answers and explanations are at the end of the chapter.
+5.3  Normal costing
+Normal costing keeps actual direct materials and direct labor, but applies overhead with a predetermined overhead rate: budgeted overhead divided by the budgeted allocation base, set before the year starts. Beverages uses $150 per machine hour.
+Applied overhead equals the actual base times the rate. In May the line ran 1,414 machine hours, so applied overhead was $212,100. Figure F205-04 shows the flow: actual overhead collects separately, and the difference is closed at year-end (Chapter 8).
+Figure F205-04. Normal costing: actual direct costs plus overhead applied at a predetermined rate.
+Normal costing gives a cost as soon as the work is done, and the rate smooths out seasonal swings in fixed overhead. Its limit is that the rate is only an estimate, so applied and actual overhead differ.
+FALSE-FRIEND ALERT   Normal costing is not normal capacity
+Normal costing means 'actual direct costs plus applied overhead'. Normal capacity (Chapter 8) is a denominator level used to set a fixed overhead rate. French 'coût normal' and Arabic التكاليف العادية can refer to either; check the context.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+predetermined overhead rate
+معدل التحميل التقديري
+taux d'imputation préétabli
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+English (exam term)
+العربية
+Français
+predetermined overhead rate
+معدل التحميل التقديري
+taux d'imputation préétabli
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+SECTION CHECK   Test yourself
+SC205-5  Beverages ran 1,414 machine hours in May. The predetermined rate is $150 per machine hour. What overhead is applied under normal costing (whole USD)?
+A.	70,700
+B.	210,000
+C.	212,100
+D.	222,600
+SC205-6  The predetermined overhead rate is calculated as:
+A.	actual overhead ÷ actual allocation base
+B.	actual overhead ÷ budgeted allocation base
+C.	budgeted overhead ÷ actual units sold
+D.	budgeted overhead ÷ budgeted allocation base
+Answers and explanations are at the end of the chapter.
+5.4  Standard costing
+Standard costing values every input at what it should cost for the output achieved. Each part equals the standard quantity allowed for the actual output times the standard price. The Beverages standard cost card gives $12.60 a case (Chapter 18 shows how it is built).
+The difference between actual cost and standard cost is recorded as variances. Managers study them to control costs, and Book 3 analyzes them in detail. Standard costing suits repetitive production such as bottling.
+WORKED EXAMPLE   Worked example: May output at standard
+Figure F205-05 values the May output at standard. Overhead uses the 1,400 standard machine hours allowed for 70,000 cases, not the 1,414 hours actually used. The standard cost is $882,000.
+Figure F205-05. Worked example: May output valued at standard
+Beverages · May 2027 at standard
+Basis
+Whole USD
+Direct materials (concentrate, bottles, caps)
+70,000 × $9.00
+630,000
+Direct labor
+70,000 × 0.60
+42,000
+Overhead: 1,400 standard MH × $150
+variable $1.00 + fixed $2.00 per case
+210,000
+Standard cost of May output
+$12.60 per case
+882,000
+EXAM TRAP   Standard hours allowed, not actual hours
+In standard costing, overhead is applied on the standard hours allowed for the actual output. Using actual hours turns standard costing back into normal costing.
+● IFRS CONTRAST   Standards in the financial statements
+Both ASC 330 and IAS 2 accept standard costs for inventory only if they approximate actual cost. Standards must be reviewed and updated regularly.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+English (exam term)
+العربية
+Français
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+SECTION CHECK   Test yourself
+SC205-7  In standard costing, overhead is applied using:
+A.	standard base units allowed for the actual output × standard rate
+B.	actual base units × standard rate
+C.	actual overhead
+D.	budgeted base units × actual rate
+SC205-8  Standard costing suits Beverages' bottling line best because:
+A.	each case is a different job
+B.	overhead is not needed
+C.	the line makes the same product repeatedly, so standards are reliable and variances help control
+D.	it removes all differences between actual and product cost
+Answers and explanations are at the end of the chapter.
+5.5  Variable overhead: components, base and rate
+Variable overhead is indirect production cost that changes with activity. On the bottling line it has four components: power for the machines, cleaning chemicals, maintenance supplies, and water and steam. Supervision, insurance and depreciation are fixed overhead.
+The allocation base for variable overhead should be what drives it. The bottling line is automated, so power and supplies follow machine hours, not labor hours. On a manual line, such as halva finishing, labor hours may be the better base.
+Variable overhead per unit = rate per base unit × base units per product. Figure F205-06 shows that Beverages' components add up to $50 per machine hour. Each case needs 0.02 machine hours, so variable overhead is $1.00 a case.
+Figure F205-06. Variable overhead on the bottling line
+Beverages bottling line · variable overhead (base: machine hours)
+Per machine hour
+Power
+$20
+Cleaning chemicals
+$12
+Maintenance supplies
+$10
+Water and steam
+$8
+Variable overhead rate per machine hour
+$50
+Standard machine hours per case
+0.02
+Variable overhead per case
+$1.00
+Keep variable and fixed overhead apart when you need a variable cost. The full predetermined rate of $150 per machine hour mixes both: it gives $1.00 of variable and $2.00 of fixed overhead per case. A special order that uses spare capacity adds only the variable part (Chapter 9).
+Test the base before you use it. Plot monthly variable overhead against each possible base, as in Chapter 3, and keep the one with a clear causal link and the better fit. For the bottling line, machine hours pass both tests.
+The per-unit figure travels far. It goes on the standard cost card (Chapter 18), into the contribution margin (Chapter 9) and into the flexible overhead budget in Book 3.
+YOUR TURN   Variable overhead per unit
+Figure F205-07 lists four Tahini & Spreads products. The first two are done. Calculate variable overhead per unit for the others. Answers are at the end of the chapter.
+Figure F205-07. Your turn: variable overhead per unit (complete the blanks)
+Tahini & Spreads product
+Machine hours per unit
+VOH per machine hour
+VOH per unit
+Tahini jar (1 kg)
+0.05
+$6
+$0.30
+Halva tray
+0.08
+$6
+$0.48
+Spread jar (400 g)
+0.03
+$6
+________
+Private-label tub (5 kg)
+0.20
+$6
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+variable overhead
+التكاليف الصناعية غير المباشرة المتغيرة
+charges indirectes variables
+allocation base
+أساس التحميل
+unité d'œuvre
+English (exam term)
+العربية
+Français
+variable overhead
+التكاليف الصناعية غير المباشرة المتغيرة
+charges indirectes variables
+allocation base
+أساس التحميل
+unité d'œuvre
+SECTION CHECK   Test yourself
+SC205-9  Which is a component of variable overhead on the bottling line?
+A.	Factory insurance
+B.	Supervisor salaries
+C.	Straight-line depreciation
+D.	Power for the machines
+SC205-10  Variable overhead is $50 per machine hour and each case needs 0.02 machine hours. What is variable overhead per case?
+A.	$1.00
+B.	$2.00
+C.	$3.00
+D.	$50.00
+Answers and explanations are at the end of the chapter.
+5.6  Extended Example 5A: one month, three costs
+This example costs the same May output three ways and records each in the accounts. The costs per case are exam-core; the entries show where the differences go.
+1. Scenario
+Output: 70,000 cases, all finished in May.
+Actual costs: direct materials $637,000; direct labor $43,400; variable overhead $70,700; fixed overhead $151,900.
+Machine hours: 1,414 actual; 1,400 standard hours allowed for the output.
+Rates: predetermined overhead $150 per machine hour; standard cost $12.60 a case.
+2. Plan
+Measure each cost part under each technique, record the entries, and see where the difference between actual and product cost goes.
+3. Calculations
+Actual: $637,000 + $43,400 + $222,600 = $903,000.
+Normal: $637,000 + $43,400 + 1,414 × $150 = $892,500.
+Standard: 70,000 × $12.60 = $882,000.
+Figure F205-08 puts the three side by side. The last row shows the actual cost that did not enter product cost: nothing under actual costing, $10,500 of underapplied overhead under normal costing, and $21,000 of variances under standard costing.
+Figure F205-08. Extended Example: May output under three techniques
+Beverages · May 2027 · 70,000 cases
+Actual
+Normal
+Standard
+Direct materials
+637,000
+637,000
+630,000
+Direct labor
+43,400
+43,400
+42,000
+Overhead in product cost
+222,600
+212,100
+210,000
+Cost moved to finished goods
+903,000
+892,500
+882,000
+Cost per case
+$12.90
+$12.75
+$12.60
+Actual cost not in product cost
+0
+10,500
+21,000
+4. Recording
+Figure F205-09 shows the Work-in-Process account under each technique; each closes to zero when the cases move to finished goods. Only the overhead entry differs for normal costing, while standard costing also records materials and labor at standard. Figure F205-10 gives the standard costing journal.
+Figure F205-09. Extended Example: work in process under the three systems, and the overhead difference.
+Figure F205-10. Extended Example: standard costing journal for May
+No.
+Account (detail)
+Debit
+Credit
+①
+Work-in-Process Inventory
+630,000
+Direct Materials Variances
+7,000
+Raw Materials Inventory
+637,000
+②
+Work-in-Process Inventory
+42,000
+Direct Labor Variances
+1,400
+Wages Payable
+43,400
+③
+Manufacturing Overhead Control
+222,600
+Accounts Payable
+70,700
+Service Department Charges
+34,500
+Accumulated Depreciation
+75,000
+Wages Payable
+42,400
+④
+Work-in-Process Inventory
+210,000
+Manufacturing Overhead Applied
+210,000
+⑤
+Finished Goods Inventory
+882,000
+Work-in-Process Inventory
+882,000
+Totals
+1,995,000
+1,995,000
+5. Unit costs
+Figure F205-11 compares the cost per case. Standard is lowest because the month used more materials, labor and machine time than the standard allows.
+Figure F205-11. Extended Example: cost per case under the three systems.
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Normal: actual overhead $222,600 − applied $212,100 = underapplied $10,500.
+Standard: materials variance $7,000 + labor variance $1,400 + overhead variances $12,600 = $21,000.
+Actual − standard = $903,000 − $882,000 = $21,000.
+7. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+actual costing
+نظام التكاليف الفعلية
+méthode des coûts réels
+normal costing
+نظام التكاليف العادية
+méthode des coûts normaux (imputation préétablie)
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+English (exam term)
+العربية
+Français
+actual costing
+نظام التكاليف الفعلية
+méthode des coûts réels
+normal costing
+نظام التكاليف العادية
+méthode des coûts normaux (imputation préétablie)
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect one set of data and a question about one technique. Check which quantities and which rate the technique uses: actual or standard quantities, and an actual or predetermined overhead rate.
+9. Self-check
+SECTION CHECK   Test yourself
+SC205-11  Use the Extended Example. What is the cost per case under normal costing?
+A.	$12.60
+B.	$12.75
+C.	$12.90
+D.	$13.05
+SC205-12  Use the Extended Example. Under standard costing, the actual cost that does not reach product cost is:
+A.	added to finished goods
+B.	ignored
+C.	recorded as variances totaling $21,000
+D.	recorded as underapplied overhead of $10,500
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F205-12 brings the chapter together.
+Figure F205-12. Chapter 5 summary map: the key rule for each section.
+Actual costing uses actual materials, labor and overhead; it is exact but late, and its unit cost moves with volume. Normal costing applies overhead at a predetermined rate times the actual base, which gives timely, smooth costs. Standard costing values the standard quantities allowed at standard prices and records the differences as variances. Variable overhead is the sum of its components; choose a base that drives them, and multiply the rate by the base per unit.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P205-01  Under actual costing, overhead is assigned to products:
+A.	at a predetermined rate during the period
+B.	at standard amounts
+C.	only to finished goods
+D.	at actual amounts, after the period ends
+P205-02  A job uses direct materials of $30,000, direct labor of $12,000 and 600 machine hours. The predetermined rate is $40 per machine hour. Actual overhead for the month works out to $44 per machine hour. What is the job cost under normal costing?
+A.	$24,000
+B.	$42,000
+C.	$66,000
+D.	$68,400
+P205-03  Using the data in P205-02, what is the job cost under actual costing?
+A.	$26,400
+B.	$42,000
+C.	$66,000
+D.	$68,400
+P205-04  Output of 5,000 units is allowed 2 machine hours per unit. Actual machine hours were 10,400. The standard overhead rate is $15 per machine hour. What overhead is applied under standard costing?
+A.	$30,000
+B.	$75,000
+C.	$150,000
+D.	$156,000
+P205-05  Which technique sets targets for materials, labor and overhead before production starts?
+A.	Normal costing
+B.	Actual costing
+C.	Variable costing
+D.	Standard costing
+P205-06  A company's volume varies sharply by season. Which technique gives the most stable product costs during the year?
+A.	Actual costing
+B.	Normal costing
+C.	Actual costing with monthly overhead rates
+D.	Expensing all overhead
+P205-07  On an automated line, power and machine supplies follow machine time. The best allocation base for this variable overhead is:
+A.	machine hours
+B.	direct labor hours
+C.	sales revenue
+D.	number of employees
+P205-08  Variable overhead is $6 per machine hour. A jar needs 0.05 machine hours. What is variable overhead per jar?
+A.	$0.05
+B.	$0.30
+C.	$1.50
+D.	$6.00
+P205-09  Which item is NOT variable overhead?
+A.	Machine lubricants
+B.	Power for production machines
+C.	Cleaning chemicals used per batch
+D.	Plant manager's salary
+P205-10  Actual overhead is $222,600 and applied overhead under normal costing is $212,100. Overhead is:
+A.	overapplied by $10,500
+B.	underapplied by $212,100
+C.	underapplied by $10,500
+D.	exactly applied
+P205-11  Under U.S. GAAP, standard costs may be used for inventory if they:
+A.	approximate actual cost and are reviewed regularly
+B.	are lower than actual cost
+C.	are set once and never changed
+D.	are approved by the SEC
+P205-12  Variable overhead is budgeted at $180,000 for 12,000 direct labor hours. A product needs 1.5 labor hours. What is variable overhead per unit?
+A.	$10.00
+B.	$15.00
+C.	$22.50
+D.	$180.00
+P205-13  Which technique records the difference between actual and product cost as variances?
+A.	Normal costing
+B.	Actual costing
+C.	None of them
+D.	Standard costing
+P205-14  On the manual halva finishing line, variable overhead rises with the hours that workers spend. The best base is:
+A.	direct labor hours
+B.	machine hours
+C.	number of customers
+D.	square meters
+P205-15  Which is a benefit of normal costing compared with actual costing?
+A.	No difference between actual and applied overhead
+B.	No need for a budget
+C.	Timely product costs during the period
+D.	Exact overhead in every job
+P205-16  Direct materials for 1,000 units: actual $10,400; standard allowed $10,000. Under standard costing, Work in Process is debited with:
+A.	$400
+B.	$10,000
+C.	$10,400
+D.	$20,400
+Case question: job T-0306 three ways
+In June 2027 Tahini & Spreads made job T-0306, a batch of private-label tahini for Barada. The job used sesame, direct labor and machine time on the grinders. The division can cost a job in three ways: actual costing, normal costing and standard costing.
+The cost accountant has the job's actual materials, labor and machine hours, the month's actual overhead rates, the division's predetermined overhead rates and the standard cost card for the product. The exhibit gives all of these. The actual overhead rates are known only after the month closes.
+The division manager wants to see the job's cost under each technique before she discusses next year's price with Barada. She also wants to know which technique the division can use to price a similar job during the month, before the actual overhead for that month is known.
+Barada has complained that the prices of private-label jobs change too much from month to month. The manager believes that part of the problem is the way job costs are measured. She wants a method that gives stable job costs during the year and still ties to the actual costs at the year-end close.
+Use Figure F205-13 for items C205-1 to C205-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F205-13. Case exhibit: job T-0306, June 2027
+Tahini & Spreads · job T-0306 · June 2027 (whole USD)
+Amount
+Direct materials used on job T-0306
+50,000
+Direct labor on job T-0306
+20,000
+Machine hours on job T-0306
+1,200
+Jars in the job
+20,000
+Tahini & Spreads actual overhead for June (all jobs)
+250,000
+Tahini & Spreads actual machine hours for June
+8,000
+Predetermined overhead rate (fixed + variable)
+$30 per MH
+Variable overhead rate
+$6 per MH
+Standards for the job's output
+DM 48,000; DL 18,000; 1,100 MH
+C205-1  Classify each Tahini & Spreads cost. (On the exam screen you would drag each item into a box.)
+Categories: Direct cost · Variable overhead · Fixed overhead
+Cost
+Category
+Sesame
+Power for the grinders
+Factory insurance
+Machine lubricants
+Plant manager's salary
+Jars
+C205-2  Enter the cost of job T-0306 under actual costing.
+Answer: ____________
+C205-3  Enter the cost of job T-0306 under normal costing.
+Answer: ____________
+C205-4  Enter the cost of job T-0306 under standard costing.
+Answer: ____________
+C205-5  Enter the variable overhead applied to job T-0306 (actual machine hours).
+Answer: ____________
+C205-6  To price a similar job during June, before the month's actual overhead is known, the division should use: [select]
+Options: normal costing   |   actual costing   |   the June actual overhead rate   |   the job's direct costs only
+C205-7  Under standard costing, a job is charged with the standard price times the ____ for the output achieved.
+Choose the word or phrase for the blank: standard quantity allowed   |   actual quantity used   |   budgeted quantity for the year   |   quantity purchased
+Answers and explanations
+Section checks
+SC205-1  Answer D. Normal costing mixes actual direct costs with applied overhead.
+A is wrong. Actual costing uses actual overhead.
+B is wrong. Standard costing uses standard quantities and prices.
+C is wrong. Absorption costing is about fixed overhead in inventory (Chapter 9).
+SC205-2  Answer B. Measurement and accumulation are separate choices.
+A is wrong. Normal costing is common in job costing.
+C is wrong. Standards are accepted if they approximate actual cost.
+D is wrong. Actual cost is known only after the period.
+SC205-3  Answer C. Total fixed overhead stays about the same while output falls.
+A is wrong. Variable overhead per case is constant.
+B is wrong. Actual costing uses no predetermined rate.
+D is wrong. Materials per case do not change with volume.
+SC205-4  Answer A. Actual overhead is known only at period end.
+B is wrong. It includes actual labor.
+C is wrong. That describes standard costing.
+D is wrong. Actual costs are easy to audit.
+SC205-5  Answer C. Actual machine hours × predetermined rate.
+A is wrong. This is variable overhead only.
+B is wrong. Standard hours are used in standard costing.
+D is wrong. This is actual overhead.
+SC205-6  Answer D. It is set before the year from budgets.
+A is wrong. That is an actual rate.
+B is wrong. Actual overhead is not known in advance.
+C is wrong. Units sold are not an allocation base.
+SC205-7  Answer A. Every input is valued at standard quantity allowed × standard price.
+B is wrong. That is normal costing.
+C is wrong. That is actual costing.
+D is wrong. The budget volume is not the actual output.
+SC205-8  Answer C. Repetitive work makes standards meaningful.
+A is wrong. Identical cases are not separate jobs.
+B is wrong. Overhead is applied at standard.
+D is wrong. Differences become variances.
+SC205-9  Answer D. Power rises with machine hours.
+A is wrong. Insurance is fixed overhead.
+B is wrong. Salaries are fixed overhead.
+C is wrong. Straight-line depreciation is fixed.
+SC205-10  Answer A. Rate × machine hours per case.
+B is wrong. This is fixed overhead per case.
+C is wrong. This includes fixed overhead.
+D is wrong. This is the rate per machine hour.
+SC205-11  Answer B. Normal cost ÷ cases.
+A is wrong. This is standard costing.
+C is wrong. This is actual costing.
+D is wrong. This adds the underapplied overhead to actual cost.
+SC205-12  Answer C. Differences from standard are variances.
+A is wrong. Finished goods are at standard.
+B is wrong. Variances are recorded and analyzed.
+D is wrong. That is the normal costing difference.
+Your turn
+Item
+Answer
+Spread jar (400 g)
+0.03 × $6 = $0.18
+Private-label tub (5 kg)
+0.20 × $6 = $1.20
+Multiple-choice questions
+P205-01  Answer D. Actual overhead is known only after the period.
+A is wrong. That is normal costing.
+B is wrong. That is standard costing.
+C is wrong. Overhead goes to WIP first.
+P205-02  Answer C. Actual direct costs + actual hours × predetermined rate.
+A is wrong. This is overhead only.
+B is wrong. Overhead is left out.
+D is wrong. This uses the actual rate: actual costing.
+P205-03  Answer D. Actual direct costs + actual overhead.
+A is wrong. This is overhead only.
+B is wrong. Overhead is left out.
+C is wrong. This uses the predetermined rate.
+P205-04  Answer C. Standard hours allowed (10,000) × rate.
+A is wrong. The rate is left out.
+B is wrong. The hours per unit are left out.
+D is wrong. This uses actual hours.
+P205-05  Answer D. Standards are set in advance.
+A is wrong. Only the overhead rate is set in advance.
+B is wrong. Actual costs come after the period.
+C is wrong. Variable costing is about fixed overhead (Chapter 9).
+P205-06  Answer B. An annual predetermined rate smooths seasonal swings.
+A is wrong. Actual unit cost moves with volume.
+C is wrong. Monthly actual rates swing with volume.
+D is wrong. Manufacturing overhead is a product cost.
+P205-07  Answer A. Choose the base that drives the cost.
+B is wrong. Labor time does not drive machine power.
+C is wrong. Revenue does not cause power use.
+D is wrong. Headcount does not drive machine costs.
+P205-08  Answer B. Rate × machine hours per jar.
+A is wrong. This is the hours per jar.
+C is wrong. This uses the full $30 rate.
+D is wrong. This is the rate per hour.
+P205-09  Answer D. Salaries are fixed overhead.
+A is wrong. Lubricants rise with machine use.
+B is wrong. Power rises with machine use.
+C is wrong. Chemicals rise with batches.
+P205-10  Answer C. Actual exceeds applied.
+A is wrong. The direction is reversed.
+B is wrong. Compare actual with applied.
+D is wrong. They differ.
+P205-11  Answer A. ASC 330 accepts standards that approximate cost.
+B is wrong. They must approximate cost, not undercut it.
+C is wrong. Standards must be updated.
+D is wrong. No SEC approval is needed.
+P205-12  Answer C. Rate $15 per hour × 1.5 hours.
+A is wrong. The rate is divided by the hours.
+B is wrong. This is the rate per hour.
+D is wrong. This ignores the base.
+P205-13  Answer D. Standard costing compares actual with standard.
+A is wrong. Normal costing has an over- or underapplied overhead balance.
+B is wrong. Actual costing has no difference.
+C is wrong. Standard costing records variances.
+P205-14  Answer A. Labor time drives the cost on a manual line.
+B is wrong. Machines play a small part here.
+C is wrong. Customers do not drive factory costs.
+D is wrong. Space is a facility driver.
+P205-15  Answer C. The rate gives costs as soon as work is done.
+A is wrong. Differences arise.
+B is wrong. The rate comes from the budget.
+D is wrong. Applied overhead is an estimate.
+P205-16  Answer B. WIP is at standard; the $400 is a variance.
+A is wrong. This is the variance.
+C is wrong. Actual cost is not used in WIP.
+D is wrong. The amounts are not added.
+Case question: job T-0306 three ways
+C205-1
+Cost
+Category
+Sesame
+Direct cost
+Power for the grinders
+Variable overhead
+Factory insurance
+Fixed overhead
+Machine lubricants
+Variable overhead
+Plant manager's salary
+Fixed overhead
+Jars
+Direct cost
+Variable overhead changes with machine use; fixed overhead does not.
+C205-2  Answer: 107,500.
+106,000 is wrong: this answer uses the predetermined rate instead of the actual rate.
+70,000 is wrong: this answer leaves overhead out.
+C205-3  Answer: 106,000.
+103,000 is wrong: this answer uses standard hours, which belong to standard costing.
+107,500 is wrong: this answer uses the actual overhead rate.
+C205-4  Answer: 99,000.
+103,000 is wrong: this answer uses actual materials and labor.
+102,000 is wrong: this answer uses actual machine hours.
+C205-5  Answer: 7,200.
+36,000 is wrong: this answer uses the full rate, which includes fixed overhead.
+C205-6  Answer: normal costing.
+actual costing is wrong: this answer actual overhead is not known until the month ends.
+the June actual overhead rate is wrong: this answer it is not available during June.
+the job's direct costs only is wrong: this answer the price must also cover overhead.
+C205-7  Answer: standard quantity allowed.
+actual quantity used is wrong: this answer uses actual quantities in standard costing.
+budgeted quantity for the year is wrong: this answer the allowance depends on the output achieved, not the annual budget.
+quantity purchased is wrong: this answer purchases are not the quantity allowed for the output.
+PART II — MEASURING PRODUCT COST

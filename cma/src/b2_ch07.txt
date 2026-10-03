@@ -1,0 +1,777 @@
+Chapter 7
+Process Costing, Spoilage and the Value of Cost Information
+تكاليف المراحل والتلف وقيمة معلومات التكلفة
+In November 2027 the Oils division crushed a large batch of olives. The oil flowed from the crushing hall to the bottling line, liter after identical liter. No job cost sheet can follow such a flow. Costs are collected by department instead.
+This chapter explains process costing, how spoiled units are treated, and why accurate cost information matters for decisions. Figure F207-01 shows the idea.
+Figure F207-01. Chapter 7 roadmap: costs follow the product through departments.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.2.f
+demonstrate an understanding of process costing and the concept of equivalent units (no calculations required)
+Explain process costing and the concept of equivalent units (no calculations required).
+Full treatment
+D.2.c
+demonstrate an understanding of the proper accounting for normal and abnormal spoilage
+Account for normal and abnormal spoilage, rework and scrap, especially in job costing.
+Full treatment + case set
+D.2.d
+discuss the strategic value of cost information regarding products and services, pricing, overhead allocations, and other issues
+Discuss the strategic value of cost information for products, pricing and overhead allocation.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+process costing
+نظام تكاليف المراحل الإنتاجية
+coût par processus (par atelier)
+transferred-in costs
+التكاليف المحولة من المرحلة السابقة
+coût des produits reçus de l'atelier précédent
+equivalent units
+الوحدات المعادلة
+équivalents de produits finis
+spoilage
+التلف
+rebuts
+normal spoilage
+التلف الطبيعي
+rebuts normaux
+abnormal spoilage
+التلف غير الطبيعي
+rebuts anormaux
+rework
+إعادة التشغيل
+retouches
+scrap
+الخردة (العادم)
+déchets
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 6 collected costs by job. Process costing uses the same accounts, raw materials, work in process and finished goods, but it keeps one work-in-process account for each department instead of one cost sheet for each job.
+7.1  Process costing and departments
+Process costing collects costs by department when identical units move through a continuous flow. It suits oil, juice, cement and chemicals. Each department has its own Work-in-Process account.
+The Oils division has two departments. Crushing turns olives into extra-virgin oil, virgin oil and pomace. Bottling fills extra-virgin oil into bottles. Figure F207-02 shows the flow.
+Figure F207-02. Oils process flow: crushing, split-off and bottling, each department with its own WIP account.
+Unit cost in process costing is an average: department cost divided by the units it worked on. Every liter carries the same cost, which is fair when every liter is the same.
+EXAM TRAP   Exam scope: process costing is concept only
+The exam asks you to understand process costing and equivalent units, not to calculate them (LOS D.2.f). It tests spoilage calculations in job order and activity-based costing settings (Section 7.5, the case set and Chapter 12). The process numbers in this chapter show how the ideas work.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+process costing
+نظام تكاليف المراحل الإنتاجية
+coût par processus (par atelier)
+English (exam term)
+العربية
+Français
+process costing
+نظام تكاليف المراحل الإنتاجية
+coût par processus (par atelier)
+SECTION CHECK   Test yourself
+SC207-1  Process costing is most suitable for:
+A.	unique customer orders
+B.	identical units produced in a continuous flow
+C.	a law firm's client cases
+D.	one-off construction projects
+SC207-2  In process costing, Work in Process is kept:
+A.	on one cost sheet for each job
+B.	in one account for the whole company
+C.	in one account for each department
+D.	only at year-end
+Answers and explanations are at the end of the chapter.
+7.2  Transferred-in costs
+When units leave a department, their cost goes with them. The entry is: debit Work in Process of the next department, credit Work in Process of the previous one. The next department records these as transferred-in costs.
+For the next department, transferred-in cost behaves like a material added at the start. Bottling received extra-virgin oil at $8.06 a liter, the cost set by the joint cost allocation in Chapter 11. It then added bottles and conversion. Figure F207-03 shows the three layers.
+Figure F207-03. Bottling cost layers: transferred-in cost, bottles and conversion.
+Forgetting transferred-in cost is a common error. The bottling cost of $11.66 a liter includes the oil itself, not only the bottle and the work.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+transferred-in costs
+التكاليف المحولة من المرحلة السابقة
+coût des produits reçus de l'atelier précédent
+English (exam term)
+العربية
+Français
+transferred-in costs
+التكاليف المحولة من المرحلة السابقة
+coût des produits reçus de l'atelier précédent
+SECTION CHECK   Test yourself
+SC207-3  Extra-virgin oil moves from crushing to bottling. The entry is:
+A.	Dr WIP – Crushing; Cr WIP – Bottling
+B.	Dr Finished Goods; Cr WIP – Crushing
+C.	Dr Raw Materials; Cr WIP – Crushing
+D.	Dr WIP – Bottling; Cr WIP – Crushing
+SC207-4  Use Figure F207-03. The bottling cost of $11.66 per liter includes:
+A.	transferred-in oil, bottles and conversion
+B.	bottles and conversion only
+C.	transferred-in oil only
+D.	conversion only
+Answers and explanations are at the end of the chapter.
+7.3  Equivalent units: the idea
+At the end of a month some units are only partly finished. To share costs fairly, process costing expresses partly finished work as a number of whole units: equivalent units.
+Each cost element has its own count. Materials added at the start are complete for every unit; conversion added evenly may be only partly done. Figure F207-04 shows a tank of 1,000 liters that is 60% through conversion.
+Figure F207-04. Equivalent units: the idea behind costing partly finished work.
+The CMA LOS ask you to understand the concept, not to calculate equivalent units. The Oils example avoids the issue: the batch was complete when it was inspected.
+EXAM TRAP   No equivalent-unit arithmetic
+LOS D.2.f says 'no calculations required'. Know what equivalent units mean and why they exist; do not spend exam time on weighted-average or FIFO schedules.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+equivalent units
+الوحدات المعادلة
+équivalents de produits finis
+English (exam term)
+العربية
+Français
+equivalent units
+الوحدات المعادلة
+équivalents de produits finis
+SECTION CHECK   Test yourself
+SC207-5  Equivalent units are used to:
+A.	express partly finished work as a number of whole units
+B.	count spoiled units
+C.	measure units sold
+D.	set the predetermined overhead rate
+SC207-6  A tank of 1,000 liters is 60% through conversion; materials were all added at the start. Which statement is correct?
+A.	It counts as 600 equivalent liters for both
+B.	It counts as 1,000 for both
+C.	Partly finished work is ignored
+D.	It counts as 1,000 equivalent liters for materials and 600 for conversion
+Answers and explanations are at the end of the chapter.
+7.4  Spoilage: the ideas, shown in a process
+Spoilage is units that fail inspection and are thrown away or sold cheaply. Normal spoilage is expected even when operations are efficient. Abnormal spoilage is not expected and could be controlled, for example after a machine failure.
+In process costing, the cost of normal spoilage becomes part of the cost of good units. The cost of abnormal spoilage is taken out and recorded as a loss in the period. Figure F207-05 shows where each goes.
+Figure F207-05. Decision chart: where normal and abnormal spoilage costs go.
+Measure the normal rate on good output, not on input. If the policy allows 2% of good units, the normal amount is 2% × good units.
+WORKED EXAMPLE   Concept illustration: normal or abnormal?
+A process finishes 10,000 good units and finds 350 spoiled units at the final inspection. Normal spoilage is 200 units, so 150 units are abnormal. Figure F207-06 turns the units into dollars: a loss of $600, and good units at $4.08 each.
+Figure F207-06. Worked example: splitting spoilage and costing it
+Spoilage worked example
+Amount
+Good units completed
+10,000
+Spoiled units found at inspection
+350
+Normal spoilage: 2% of good units
+200
+Abnormal spoilage: spoiled − normal
+150
+Total cost: 10,350 units × $4.00
+41,400
+Loss from abnormal spoilage: 150 × $4.00
+600
+Cost of good units (normal spoilage included)
+40,800
+Cost per good unit
+$4.08
+● IFRS CONTRAST   GAAP: abnormal spoilage is a period cost
+ASC 330 says abnormal amounts of wasted materials (spoilage) are charged to the period, not to inventory. IAS 2 has the same rule. Normal spoilage stays in inventory cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+spoilage
+التلف
+rebuts
+normal spoilage
+التلف الطبيعي
+rebuts normaux
+abnormal spoilage
+التلف غير الطبيعي
+rebuts anormaux
+inspection point
+نقطة الفحص
+point de contrôle
+English (exam term)
+العربية
+Français
+spoilage
+التلف
+rebuts
+normal spoilage
+التلف الطبيعي
+rebuts normaux
+abnormal spoilage
+التلف غير الطبيعي
+rebuts anormaux
+inspection point
+نقطة الفحص
+point de contrôle
+SECTION CHECK   Test yourself
+SC207-7  In process costing, the cost of normal spoilage is:
+A.	recorded as a loss
+B.	included in the cost of good units
+C.	added to overhead
+D.	ignored
+SC207-8  In process costing, the normal spoilage allowance is usually measured as a percentage of:
+A.	units started
+B.	spoiled units
+C.	good output
+D.	ending work in process
+Answers and explanations are at the end of the chapter.
+7.5  Spoilage, rework and scrap in job costing
+Job costing has three cases. Normal spoilage caused by one job's special needs stays in that job. Normal spoilage common to all jobs goes to Manufacturing Overhead Control and is spread through the overhead rate. Abnormal spoilage is a loss. In every case, the disposal value of the spoiled units is recorded first.
+Figure F207-07 records a spoiled lot on Tahini job T-0305 in each case. Rework, fixing units so they can be sold, follows the same three cases. Scrap, leftover material with a small value, reduces overhead or the job that caused it.
+This is the setting in which the exam asks for spoilage calculations: the official statement on spoilage (D.2.c) covers job order and activity-based costing. The case set at the end of this chapter practises it with a month of Tahini jobs.
+Figure F207-07. Spoilage and scrap in job costing: three cases
+Job T-0305: spoiled units cost 4,000; disposal value 500
+Entry
+Effect
+Normal, caused by this job's specifications
+Dr Spoiled Goods Inventory 500; Cr WIP (job) 500
+The job keeps the net cost of 3,500
+Normal, common to all jobs
+Dr Spoiled Goods Inventory 500; Dr MOH Control 3,500; Cr WIP (job) 4,000
+Spread to all jobs through the overhead rate
+Abnormal
+Dr Spoiled Goods Inventory 500; Dr Loss from Abnormal Spoilage 3,500; Cr WIP (job) 4,000
+Period loss in the income statement
+Scrap sold (common to all jobs)
+Dr Cash 600; Cr MOH Control 600
+Reduces overhead (if specific to a job: Cr WIP of that job)
+YOUR TURN   Normal or abnormal?
+Figure F207-08 repeats the worked example and adds a second process. Split its spoilage into normal and abnormal. Answers are at the end of the chapter.
+Figure F207-08. Your turn: normal or abnormal spoilage (complete the blanks)
+Normal or abnormal?
+Done (worked example)
+Your turn
+Good units
+10,000
+20,000
+Spoiled units
+350
+500
+Normal spoilage (2% of good)
+200
+________
+Abnormal spoilage
+150
+________
+FALSE-FRIEND ALERT   Rebuts, déchets; التلف، الخردة
+French 'rebuts' is spoilage and 'déchets' is scrap; Arabic uses التلف for spoilage and الخردة or العادم for scrap. The two are accounted for differently, so do not mix them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+rework
+إعادة التشغيل
+retouches
+scrap
+الخردة (العادم)
+déchets
+English (exam term)
+العربية
+Français
+rework
+إعادة التشغيل
+retouches
+scrap
+الخردة (العادم)
+déchets
+SECTION CHECK   Test yourself
+SC207-9  In job costing, normal spoilage that is common to all jobs is charged to:
+A.	the job where it was found
+B.	Loss from Abnormal Spoilage
+C.	Manufacturing Overhead Control
+D.	Cost of Goods Sold directly
+SC207-10  Abnormal spoilage in job costing is recorded as:
+A.	part of the job cost
+B.	manufacturing overhead
+C.	inventory
+D.	a loss in the period
+Answers and explanations are at the end of the chapter.
+7.6  The strategic value of cost information
+Product costs are not only for the balance sheet. Managers use them to set prices, choose the product mix and decide where to improve. A good bottle of extra-virgin oil costs $11.75; any price must cover that and the selling costs.
+Job costing gives the same kind of information for each order. Tahini job T-0303 cost $346,000 in March (Chapter 6). When Barada asks for a repeat order, that job cost sheet is the starting point for the quote, and it shows which cost items to negotiate. Chapter 12 refines its overhead with activity-based costing.
+Cost information also shows where value is lost. Each batch with abnormal spoilage like this one loses $11,660. Tracking spoilage by cause lets the Oils manager fix the line rather than accept the loss.
+Poor overhead allocation can mislead every one of these decisions. Chapter 8, Chapter 10 and Chapter 12 show better ways to assign overhead. Figure F207-09 summarizes the main uses.
+Figure F207-09. How the Oils division uses cost information
+Decision
+How Oils uses the cost information
+Pricing
+A good bottle of EVOO costs $11.75; prices must cover it plus selling costs
+Product mix
+Compare margins of EVOO, VOO and pomace before changing the mix
+Quality and spoilage
+Each 1,000 liters of abnormal spoilage costs 11,660; target the causes
+Overhead allocation
+A poor base distorts product costs (Chapters 8 and 12)
+Make or buy; process or sell
+Compare the extra cost of a further process with the extra revenue (Chapter 11)
+SECTION CHECK   Test yourself
+SC207-11  Which is a strategic use of product cost information?
+A.	Setting prices that cover the cost of each product
+B.	Filing the tax return only
+C.	Replacing the income statement
+D.	Measuring cash balances
+SC207-12  What is the main risk of a poor overhead allocation base?
+A.	Total overhead increases
+B.	Product costs are distorted, which can lead to wrong prices and product-mix decisions
+C.	Direct materials are misstated
+D.	Revenue is overstated
+Answers and explanations are at the end of the chapter.
+7.7  Extended Example 7A: olive batch H-2711 through two departments
+This example follows one batch from the olives to the finished bottles, records every entry by department and handles spoilage at the final inspection. It is for depth: the exam does not test process calculations, but the same spoilage rules are tested in job settings (Section 7.5 and the case set).
+1. Scenario
+Crushing: olives $1,000,000, labor $120,000, overhead applied $280,000; total $1,400,000.
+Split-off: pomace by-product $100,000; virgin oil $252,200, sold in bulk; extra-virgin oil $1,047,800 to bottling (Chapter 11 explains the split).
+Bottling: bottles $312,000; labor $52,000; overhead applied $104,000.
+Inspection: 130,000 liters in; 128,000 good; 1,000 normal and 1,000 abnormal spoilage; no disposal value.
+2. Plan
+Record crushing, split the joint cost, record bottling, compute the cost per liter, and move good output and abnormal spoilage out of Work in Process – Bottling.
+3. Calculations
+Bottling cost: $1,047,800 + $312,000 + $156,000 = $1,515,800; ÷ 130,000 liters = $11.66 per liter.
+Abnormal loss: 1,000 liters × $11.66 = $11,660.
+Finished goods: $1,515,800 − $11,660 = $1,504,140, which includes the normal spoilage; ÷ 128,000 good liters = $11.75 per liter.
+4. The flow and the entries
+Figure F207-10 shows the batch as a flow, with the journal entry numbers. Figure F207-11 lists the eight entries; they total $4,783,800 on each side.
+Figure F207-10. Extended Example: the batch cost flow with journal entry numbers.
+Figure F207-11. Extended Example: journal for batch H-2711
+No.
+Account (detail)
+Debit
+Credit
+①
+WIP - Crushing
+1,000,000
+Raw Materials Inventory
+1,000,000
+②
+WIP - Crushing
+120,000
+Wages Payable
+120,000
+③
+WIP - Crushing
+280,000
+Manufacturing Overhead Applied
+280,000
+④
+Pomace (By-product) Inventory
+100,000
+WIP - Bottling
+1,047,800
+Finished Goods - VOO
+252,200
+WIP - Crushing
+1,400,000
+⑤
+WIP - Bottling
+312,000
+Raw Materials Inventory
+312,000
+⑥
+WIP - Bottling
+52,000
+Wages Payable
+52,000
+⑦
+WIP - Bottling
+104,000
+Manufacturing Overhead Applied
+104,000
+⑧
+Finished Goods - EVOO
+1,504,140
+Loss from Abnormal Spoilage
+11,660
+WIP - Bottling
+1,515,800
+Totals
+4,783,800
+4,783,800
+5. Posting
+Figure F207-12 posts the entries. Both Work-in-Process accounts close to zero: every cost has moved on to inventory or to the loss.
+Figure F207-12. Extended Example: T-accounts for the batch, keyed to the journal.
+6. The production cost report
+A production cost report summarizes a department's units and costs. Figure F207-13 is the bottling report for the batch.
+Figure F207-13. Extended Example: bottling production cost report
+Bottling department · production cost report · batch H-2711
+Amount
+Units (liters)
+Transferred in from crushing
+130,000
+Good liters to finished goods
+128,000
+Normal spoilage
+1,000
+Abnormal spoilage
+1,000
+Costs to account for
+Transferred-in cost
+1,047,800
+Bottles
+312,000
+Conversion (labor + overhead)
+156,000
+Total
+1,515,800
+Cost per liter started
+$11.66
+Costs accounted for
+Finished goods: good liters + normal spoilage
+1,504,140
+Loss: 1,000 liters × $11.66
+11,660
+Total
+1,515,800
+Cost per good liter
+$11.75
+7. Tie line
+WORKED EXAMPLE   Everything ties
+Crushing: $1,000,000 + $120,000 + $280,000 = $100,000 + $1,047,800 + $252,200.
+Bottling: $1,515,800 = finished goods $1,504,140 + loss $11,660.
+Liters: 128,000 + 1,000 + 1,000 = 130,000.
+8. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+transferred-in costs
+التكاليف المحولة من المرحلة السابقة
+coût des produits reçus de l'atelier précédent
+normal spoilage
+التلف الطبيعي
+rebuts normaux
+abnormal spoilage
+التلف غير الطبيعي
+rebuts anormaux
+production cost report
+تقرير تكاليف الإنتاج
+état des coûts de production
+English (exam term)
+العربية
+Français
+transferred-in costs
+التكاليف المحولة من المرحلة السابقة
+coût des produits reçus de l'atelier précédent
+normal spoilage
+التلف الطبيعي
+rebuts normaux
+abnormal spoilage
+التلف غير الطبيعي
+rebuts anormaux
+production cost report
+تقرير تكاليف الإنتاج
+état des coûts de production
+9. How the exam asks it
+EXAM TRAP   Exam view
+Expect spoiled units, a normal rate and a unit cost. Base the normal rate on good output, value abnormal units at the full cost per unit, and report them as a loss. Normal spoilage stays in the good units.
+10. Self-check
+SECTION CHECK   Test yourself
+SC207-13  In the Extended Example, why is the cost of the abnormally spoiled liters recorded as a loss?
+A.	All spoilage is a period cost
+B.	The good liters are already fully costed
+C.	Abnormal spoilage is not expected under efficient operations, so it is a period cost
+D.	Abnormal spoilage has a disposal value
+SC207-14  In the Extended Example, which output carries the cost of normal spoilage?
+A.	The loss account
+B.	Manufacturing overhead of the next year
+C.	The pomace by-product
+D.	The good liters moved to finished goods
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F207-14 brings the chapter together.
+Figure F207-14. Chapter 7 summary map: the key rule for each section.
+Process costing collects costs by department for identical units, and transferred-in cost moves with the product like a material added at the start. Equivalent units express partly finished work as whole units; the exam tests only the idea. Normal spoilage is part of the cost of good units, abnormal spoilage is a period loss, and the normal rate is based on good output. In job costing, spoilage goes to the job, to overhead or to a loss. Accurate costs support pricing, product mix and quality decisions.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P207-01  Which business is most likely to use process costing?
+A.	A furniture maker building custom tables
+B.	An oil refinery
+C.	An architect's office
+D.	A shipyard
+P207-02  The second department treats transferred-in costs like:
+A.	a material added at the start of its process
+B.	overhead
+C.	a period cost
+D.	direct labor
+P207-03  Why do process costing systems need equivalent units?
+A.	Because all units are finished
+B.	To record spoilage
+C.	To set selling prices
+D.	Because units in ending work in process are only partly complete
+P207-04  Spoiled units on one job cost $3,000 and can be sold for $400. The spoilage is normal and caused by that customer's special specifications. How much cost stays in the job?
+A.	$0
+B.	$400
+C.	$2,600
+D.	$3,000
+P207-05  Normal spoilage common to all jobs costs $5,000, and the spoiled units are sold for $600. What amount is debited to Manufacturing Overhead Control?
+A.	$0
+B.	$4,400
+C.	$5,000
+D.	$5,600
+P207-06  Under U.S. GAAP, abnormal spoilage is:
+A.	added to inventory
+B.	a period cost, reported as a loss
+C.	spread over future production
+D.	deferred as an asset
+P207-07  A customer's special tolerances cause normal spoilage on one job. The net cost of the spoiled units is:
+A.	left in that job's cost
+B.	charged to Manufacturing Overhead Control
+C.	recorded as a loss
+D.	charged to all jobs equally
+P207-08  Spoiled units that can be sold for $500 are removed from a job. The first debit is to:
+A.	Cost of Goods Sold
+B.	Sales Revenue
+C.	Spoiled Goods Inventory for the disposal value
+D.	Manufacturing Overhead Applied
+P207-09  Normal rework that happens on all jobs is recorded as:
+A.	a cost of the job being reworked
+B.	a loss
+C.	a selling expense
+D.	manufacturing overhead
+P207-10  Scrap common to all jobs is sold for $600 cash. The entry is:
+A.	Dr Cash 600; Cr Sales Revenue 600
+B.	Dr Cash 600; Cr Manufacturing Overhead Control 600
+C.	Dr Cash 600; Cr WIP of one job 600
+D.	Dr Manufacturing Overhead Control 600; Cr Cash 600
+P207-11  In process costing, the cost per unit is:
+A.	an average of department cost over the units worked on
+B.	different for each customer
+C.	set by the sales department
+D.	always the standard cost
+P207-12  Normal spoilage in process costing affects the cost of each good unit by:
+A.	reducing it
+B.	leaving it unchanged
+C.	increasing it
+D.	making it zero
+P207-13  A manager wants to know whether a product line covers its costs. Which information is most useful?
+A.	The company's total cash balance
+B.	The number of employees
+C.	Last year's tax payment
+D.	Accurate product costs compared with prices
+P207-14  Tracking abnormal spoilage by cause helps managers mainly to:
+A.	increase inventory values
+B.	find and remove the causes of avoidable losses
+C.	avoid recording the losses
+D.	raise the normal spoilage rate
+P207-15  Materials are added at the start of a process. Why does ending work in process have fewer equivalent units for conversion than for materials?
+A.	Conversion costs are always lower than materials
+B.	Materials are counted twice
+C.	The units have all their materials but only part of their labor and overhead
+D.	Ending units are spoiled
+P207-16  Spoilage is found at final inspection. Which units carry the cost of normal spoilage?
+A.	Units still in work in process
+B.	The good units that passed inspection
+C.	Units sold last month
+D.	No units; it is a loss
+Case question: spoiled jars at Tahini & Spreads
+Tahini & Spreads makes tahini, halva and spreads in jobs for Barada and other buyers. Each job has its own cost sheet. In May 2027 the division found spoiled jars on several jobs, and it also reworked and scrapped some output.
+Some spoilage was normal. On one Barada job, the special tolerance that Barada asked for made some jars fail inspection. Other spoiled jars appear on all jobs, and the overhead rate allows for them. Spoiled jars can be sold to a recycler, so each group has a disposal value.
+One event was not normal. A power failure stopped the filling line in the middle of a run, and a full batch of jars was ruined. Efficient operations would not have produced this spoilage. During May the division also reworked some routine jars and sold scrap from all jobs.
+Rania, the division cost accountant, must record the spoilage, rework and scrap correctly before the month closes. The division manager wants to know how much cost stays in the Barada job, how much goes through overhead, and how large the loss from the power failure was. The exhibit gives the costs and the disposal values.
+Use Figure F207-15 for items C207-1 to C207-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 12500).
+Figure F207-15. Case exhibit: spoilage, rework and scrap at Tahini & Spreads, May 2027
+Tahini & Spreads · May 2027 (whole USD)
+Cost
+Disposal value / proceeds
+Spoiled jars on job T-0412 (normal: Barada's special tolerance)
+6,000
+1,000
+Normal spoiled jars common to all jobs
+9,000
+1,500
+Jars ruined in the power failure (abnormal)
+4,800
+800
+Rework on routine jobs (common to all jobs)
+2,500
+—
+Scrap sold (common to all jobs): proceeds
+—
+700
+C207-1  Classify each May event. (On the exam screen you would drag each item into a box.)
+Categories: Cost of the specific job · Manufacturing Overhead Control · Loss from abnormal spoilage
+May event
+Category
+Spoiled jars on T-0412 (Barada's special tolerance)
+Normal spoiled jars common to all jobs
+Jars ruined in the power failure
+Rework on routine jobs
+Proceeds from scrap sold
+C207-2  Enter the net spoilage cost that stays in job T-0412.
+Answer: ____________
+C207-3  Enter the amount debited to Manufacturing Overhead Control for normal spoilage common to all jobs.
+Answer: ____________
+C207-4  Enter the loss from abnormal spoilage.
+Answer: ____________
+C207-5  Enter the net debit to Manufacturing Overhead Control in May from common spoilage, rework and scrap.
+Answer: ____________
+C207-6  The loss from the power failure is reported: [select]
+Options: in the income statement of May as a period loss   |   in the cost of job T-0412   |   in Manufacturing Overhead Control   |   in finished goods inventory
+C207-7  Spoiled units that can be sold are valued at their ____, which reduces the cost charged to the job, to overhead or to the loss.
+Choose the word or phrase for the blank: disposal value   |   original cost   |   full product cost   |   selling price as a good unit
+Answers and explanations
+Section checks
+SC207-1  Answer B. Costs are averaged over identical units.
+A is wrong. Unique orders suit job costing.
+C is wrong. Client cases are jobs.
+D is wrong. Projects are jobs.
+SC207-2  Answer C. Each department collects its own costs.
+A is wrong. That is job costing.
+B is wrong. Departments need separate accounts.
+D is wrong. WIP is recorded all year.
+SC207-3  Answer D. Cost moves with the product to the next department.
+A is wrong. The entry is reversed.
+B is wrong. The oil is not yet finished.
+C is wrong. Transferred units are not raw materials.
+SC207-4  Answer A. Transferred-in cost is part of the next department's cost.
+B is wrong. Transferred-in cost is left out.
+C is wrong. Bottling adds its own costs.
+D is wrong. Materials are left out.
+SC207-5  Answer A. They make partly finished work comparable with finished work.
+B is wrong. Spoilage is counted separately.
+C is wrong. Sales are not the issue.
+D is wrong. Rates come from the budget.
+SC207-6  Answer D. Each cost element has its own degree of completion.
+A is wrong. Materials are complete.
+B is wrong. Conversion is only partly done.
+C is wrong. Partly finished work carries cost.
+SC207-7  Answer B. Normal spoilage is part of making good units.
+A is wrong. Only abnormal spoilage is a loss.
+C is wrong. That is the job-costing treatment for common spoilage.
+D is wrong. Its cost is not ignored.
+SC207-8  Answer C. Normal spoilage is what good output normally costs to achieve.
+A is wrong. Measuring on input overstates the normal amount.
+B is wrong. The allowance is set before spoilage is counted.
+D is wrong. Work in process has not passed inspection.
+SC207-9  Answer C. It is spread to all jobs through the overhead rate.
+A is wrong. Only spoilage caused by one job stays in that job.
+B is wrong. Normal spoilage is not a loss.
+D is wrong. It goes through overhead.
+SC207-10  Answer D. Abnormal spoilage is a period loss in every system.
+A is wrong. It is not a normal cost of the job.
+B is wrong. Only normal common spoilage goes to overhead.
+C is wrong. It is not inventoried.
+SC207-11  Answer A. Costs support pricing and mix decisions.
+B is wrong. Cost information has wider uses.
+C is wrong. It does not replace the statements.
+D is wrong. Cash is measured separately.
+SC207-12  Answer B. A poor base shifts cost between products.
+A is wrong. The total is the same; its split changes.
+C is wrong. Direct costs are traced.
+D is wrong. Revenue is not affected.
+SC207-13  Answer C. ASC 330 treats abnormal amounts of wasted materials as current period charges.
+A is wrong. Normal spoilage stays in the cost of good units.
+B is wrong. That is not the reason.
+D is wrong. Disposal value reduces the loss; it does not create it.
+SC207-14  Answer D. Normal spoilage is part of the cost of good output.
+A is wrong. Only abnormal spoilage goes to the loss account.
+B is wrong. It is not deferred to next year.
+C is wrong. The by-product is valued at NRV in crushing.
+Your turn
+Item
+Answer
+Normal spoilage (your turn)
+2% × 20,000 = 400 units
+Abnormal spoilage (your turn)
+500 − 400 = 100 units
+Multiple-choice questions
+P207-01  Answer B. Refining is a continuous flow of identical units.
+A is wrong. Custom tables are jobs.
+C is wrong. Designs are jobs.
+D is wrong. Ships are jobs.
+P207-02  Answer A. Units arrive complete for the prior department's work.
+B is wrong. It is a product cost like materials.
+C is wrong. It stays in inventory.
+D is wrong. It is not labor.
+P207-03  Answer D. Partly finished units must share cost fairly with finished ones.
+A is wrong. If all were finished, no adjustment would be needed.
+B is wrong. Spoilage is a separate issue.
+C is wrong. Pricing is not the purpose.
+P207-04  Answer C. Normal spoilage specific to a job stays in the job, net of disposal value.
+A is wrong. Job-specific spoilage is not moved to overhead.
+B is wrong. This is the disposal value.
+D is wrong. Disposal value is ignored.
+P207-05  Answer B. Common normal spoilage goes to overhead, net of disposal value.
+A is wrong. Common spoilage is not charged to one job or ignored.
+C is wrong. Disposal value is ignored.
+D is wrong. Disposal value is added instead of deducted.
+P207-06  Answer B. ASC 330 charges abnormal waste to the period.
+A is wrong. It is not inventoried.
+C is wrong. It is not carried forward.
+D is wrong. It is not an asset.
+P207-07  Answer A. Spoilage caused by one job belongs to that job.
+B is wrong. Only common spoilage goes to overhead.
+C is wrong. It is normal, not abnormal.
+D is wrong. Other jobs did not cause it.
+P207-08  Answer C. Disposal value is recorded first.
+A is wrong. The units are not sold yet.
+B is wrong. Revenue is not debited.
+D is wrong. The applied account is not used.
+P207-09  Answer D. Common normal rework is spread through the overhead rate.
+A is wrong. Only job-specific rework stays in the job.
+B is wrong. Normal rework is not a loss.
+C is wrong. Rework is a production cost.
+P207-10  Answer B. Scrap common to all jobs reduces overhead.
+A is wrong. Scrap is not normal revenue here.
+C is wrong. Only job-specific scrap reduces that job.
+D is wrong. The entry is reversed.
+P207-11  Answer A. Identical units share an average cost.
+B is wrong. That describes job costing.
+C is wrong. Cost is measured, not set by sales.
+D is wrong. Process costing can use actual or normal costs.
+P207-12  Answer C. Fewer good units carry the same total cost.
+A is wrong. Spoilage cannot lower the cost of good units.
+B is wrong. Its cost is spread over good units.
+D is wrong. Good units still carry cost.
+P207-13  Answer D. Margin = price − cost.
+A is wrong. Cash does not show product margins.
+B is wrong. Headcount is not a product cost.
+C is wrong. Tax does not show margins.
+P207-14  Answer B. Cost information supports improvement.
+A is wrong. Abnormal spoilage is not inventoried.
+C is wrong. Losses must be recorded.
+D is wrong. The goal is fewer losses.
+P207-15  Answer C. Equivalent units measure work done; materials are complete, conversion is not.
+A is wrong. The amounts are not the reason.
+B is wrong. Nothing is counted twice.
+D is wrong. Ending units are unfinished, not spoiled.
+P207-16  Answer B. Only units that reached inspection share it.
+A is wrong. They have not reached inspection.
+C is wrong. Past sales are closed.
+D is wrong. Normal spoilage is not a loss.
+Case question: spoiled jars at Tahini & Spreads
+C207-1
+May event
+Category
+Spoiled jars on T-0412 (Barada's special tolerance)
+Cost of the specific job
+Normal spoiled jars common to all jobs
+Manufacturing Overhead Control
+Jars ruined in the power failure
+Loss from abnormal spoilage
+Rework on routine jobs
+Manufacturing Overhead Control
+Proceeds from scrap sold
+Manufacturing Overhead Control
+Job-specific normal spoilage stays in the job; common normal spoilage, rework and scrap go through overhead; abnormal spoilage is a period loss.
+C207-2  Answer: 5,000.
+6,000 is wrong: this answer ignores the disposal value.
+C207-3  Answer: 7,500.
+9,000 is wrong: this answer ignores the disposal value.
+C207-4  Answer: 4,000.
+4,800 is wrong: this answer ignores the disposal value.
+C207-5  Answer: 9,300.
+10,000 is wrong: this answer forgets that scrap proceeds reduce overhead.
+13,300 is wrong: this answer puts abnormal spoilage into overhead.
+C207-6  Answer: in the income statement of May as a period loss.
+in the cost of job T-0412 is wrong: this answer abnormal spoilage is not a product cost.
+in Manufacturing Overhead Control is wrong: this answer only normal common spoilage goes to overhead.
+in finished goods inventory is wrong: this answer abnormal spoilage never enters inventory.
+C207-7  Answer: disposal value.
+original cost is wrong: this answer ignores the disposal value.
+full product cost is wrong: this answer spoiled units are worth only what they can be sold for.
+selling price as a good unit is wrong: this answer spoiled units cannot be sold as good units.
+PART II — MEASURING PRODUCT COST

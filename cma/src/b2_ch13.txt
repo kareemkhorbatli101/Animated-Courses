@@ -1,0 +1,803 @@
+Chapter 13
+ABC in Services and Profitability Analysis
+التكاليف على أساس الأنشطة في الخدمات وتحليل الربحية
+Tahini & Spreads sells to six kinds of customer, from Barada Wholesale to sixty small shops. The sales report showed a healthy gross margin on every one of them. Once the division measured what each customer costs to serve, two of them turned out to lose money.
+Figure F213-01 shows the chapter's path: from activities, to the cost of serving each customer, to profit by customer, product and business unit.
+Figure F213-01. Chapter 13 roadmap: activities, customers and profit.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.2.i
+explain how activity-based costing can be utilized in service companies
+Explain how service companies use activity-based costing.
+Full treatment
+C.3.b
+explain the issues involved in determining product profitability, business unit profitability, and customer profitability, including cost measurement, cost allocation, investment measurement, and valuation
+Explain the measurement issues behind product, business-unit and customer profitability.
+Full treatment
+C.3.c
+calculate product-line profitability, business unit profitability, and customer profitability
+Calculate product-line, business-unit and customer profitability.
+Full treatment + Extended Example
+C.3.d
+evaluate customers and products on the basis of controllable margin and recommend ways to improve profitability and/or drop unprofitable customers and products
+Judge customers and products on controllable margin and recommend how to improve profit or what to drop.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+customer profitability analysis
+تحليل ربحية العملاء
+analyse de la rentabilité client
+cost to serve
+تكلفة خدمة العميل
+coût de service client
+customer cost hierarchy
+تسلسل تكاليف العملاء
+hiérarchie des coûts clients
+customer-sustaining cost
+تكلفة دعم العميل
+coût de soutien du client
+whale curve
+منحنى الحوت
+courbe de la baleine
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+business unit
+وحدة الأعمال
+unité d'affaires (division)
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 12 assigned factory overhead to products with activity rates. This chapter uses the same method for selling, delivery and service costs, and assigns them to customers instead of products.
+13.1  ABC in service companies
+A service company has no inventory of products, but it still performs activities: it takes orders, moves goods, answers calls and sends invoices. Most of its costs are overhead, so one volume rate can distort cost even more than in a factory.
+Levant Distribution, the Orontes subsidiary that distributes juices, is a good example. Its main activities are picking order lines, delivering to stops and invoicing. Figure F213-02 shows how these activities reach two very different customer groups.
+Figure F213-02. ABC in a service company: a distributor's activities and customers.
+The steps are the same as in Chapter 12: build activity pools, choose a driver for each, compute a rate and assign cost by use. The cost objects are services or customers instead of products.
+EXAM TRAP   ABC is not only for factories
+Banks, hospitals, airlines and distributors all use ABC. If an answer option says ABC applies only to manufacturing, it is wrong.
+SECTION CHECK   Test yourself
+SC213-1  Why can ABC be especially useful for a service company?
+A.	It has large inventories to value
+B.	It has no overhead
+C.	Most of its costs are indirect and follow activities, not units
+D.	GAAP requires ABC for service companies
+SC213-2  Levant picks order lines at $2 a line. A customer orders 5,000 lines. What is its picking cost?
+A.	$2,500
+B.	$5,000
+C.	$10,000
+D.	$20,000
+Answers and explanations are at the end of the chapter.
+13.2  Measuring profitability: the issues
+Profit can be measured for a product, a customer or a business unit. Each measure raises the same questions: which revenue, which costs, how to allocate shared costs, and which assets and values to use. Figure F213-03 lists them.
+Figure F213-03. The issues in measuring profitability
+Issue
+Question to answer
+Cost measurement
+Which costs to include: product cost only, or also the cost to serve each customer
+Cost allocation
+How to assign shared costs: by activity drivers, not by revenue
+Revenue measurement
+Revenue net of rebates, listing fees and other payments to customers (ASC 606)
+Investment measurement
+Which assets each business unit uses, for return measures
+Valuation
+Historical cost or current value of those assets; transfer prices between units
+Revenue comes first. Under ASC 606, rebates and fees paid to a customer for shelf space reduce revenue; they are not selling expenses. A customer's revenue is therefore its net revenue.
+Costs come next. Product cost alone hides the cost to serve, and allocating selling costs by revenue hides it again. For a business unit, the investment base and its valuation also matter, because they decide the return.
+FALSE-FRIEND ALERT   Rentabilité, الربحية
+French 'rentabilité' and Arabic الربحية mean profitability, not rent. A 'marge client' is a customer margin, measured after the cost to serve.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+customer profitability analysis
+تحليل ربحية العملاء
+analyse de la rentabilité client
+business unit
+وحدة الأعمال
+unité d'affaires (division)
+English (exam term)
+العربية
+Français
+customer profitability analysis
+تحليل ربحية العملاء
+analyse de la rentabilité client
+business unit
+وحدة الأعمال
+unité d'affaires (division)
+SECTION CHECK   Test yourself
+SC213-3  Under ASC 606, a listing fee paid to a supermarket for shelf space is:
+A.	a selling expense
+B.	a reduction of revenue
+C.	part of cost of goods sold
+D.	an asset
+SC213-4  Why can allocating selling and delivery costs by revenue mislead customer profitability?
+A.	Revenue is always overstated
+B.	Selling costs are fixed
+C.	It is not allowed under GAAP
+D.	Revenue does not cause those costs; activities do
+Answers and explanations are at the end of the chapter.
+13.3  The customer cost hierarchy and the cost to serve
+Customer-related costs sit at different levels. Some are caused by each order or delivery; some by keeping one customer, such as a key account manager; some by a whole channel; and some by the company as a whole. Figure F213-04 shows the customer cost hierarchy.
+Figure F213-04. The customer cost hierarchy.
+The cost to serve is the cost of the activities a customer causes. Tahini & Spreads uses four activity rates: $50 an order, $120 a delivery, $200 a rush order and $80 a return.
+WORKED EXAMPLE   Worked example: the cost to serve Barada
+Barada placed 240 orders and took 120 deliveries. At the four rates, its cost to serve is $31,200. Figure F213-05 shows the calculation.
+Figure F213-05. Worked example: the cost to serve Barada Wholesale
+Barada Wholesale, 2027
+Quantity
+Rate
+Cost
+Order processing
+240
+$50
+12,000
+Deliveries
+120
+$120
+14,400
+Rush orders
+20
+$200
+4,000
+Returns handling
+10
+$80
+800
+Cost to serve
+31,200
+YOUR TURN   The cost to serve Qasr Hotels
+Figure F213-06 gives Qasr's activity quantities. Complete the two blank rows. Answers are at the end of the chapter.
+Figure F213-06. Your turn: the cost to serve Qasr Hotels (complete the blanks)
+Qasr Hotels, 2027
+Quantity
+Rate
+Cost
+Order processing
+300
+$50
+15,000
+Deliveries
+300
+$120
+________
+Rush orders
+150
+$200
+________
+Returns handling
+20
+$80
+1,600
+Cost to serve
+82,600
+Qasr orders often and asks for many rush deliveries, so its cost to serve is high for its size. A customer-sustaining cost, such as Qasr's key account manager, is added after the activity costs.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+customer cost hierarchy
+تسلسل تكاليف العملاء
+hiérarchie des coûts clients
+cost to serve
+تكلفة خدمة العميل
+coût de service client
+customer-sustaining cost
+تكلفة دعم العميل
+coût de soutien du client
+English (exam term)
+العربية
+Français
+customer cost hierarchy
+تسلسل تكاليف العملاء
+hiérarchie des coûts clients
+cost to serve
+تكلفة خدمة العميل
+coût de service client
+customer-sustaining cost
+تكلفة دعم العميل
+coût de soutien du client
+SECTION CHECK   Test yourself
+SC213-5  Qasr Hotels needed 150 rush orders at $200 each. What is its rush-order cost?
+A.	$1,600
+B.	$15,000
+C.	$30,000
+D.	$36,000
+SC213-6  A key account manager who serves only one customer is a:
+A.	order-level cost
+B.	company-level cost
+C.	customer-sustaining cost
+D.	cost of goods sold
+Answers and explanations are at the end of the chapter.
+13.4  Customer, product-line and business-unit profitability
+Figure F213-07 builds the profit of each customer: net revenue, minus cost of goods sold, minus the cost to serve, minus customer-sustaining costs. Barada contributes $328,800. The small shops lose $73,000 and the hotel supply agent loses $58,800.
+Figure F213-07. Customer profitability, Tahini & Spreads, 2027
+2027 (whole USD)
+Barada
+Gulf importer
+Al-Salam
+Qasr Hotels
+Hotel agent
+Small shops (60)
+Total
+Gross sales
+1,200,000
+500,000
+900,000
+400,000
+200,000
+300,000
+3,500,000
+Rebates
+(36,000)
+(25,000)
+(45,000)
+(8,000)
+(10,000)
+—
+(124,000)
+Listing fees
+—
+—
+(60,000)
+(20,000)
+(30,000)
+—
+(110,000)
+Net revenue
+1,164,000
+475,000
+795,000
+372,000
+160,000
+300,000
+3,266,000
+Cost of goods sold
+(744,000)
+(310,000)
+(558,000)
+(248,000)
+(124,000)
+(186,000)
+(2,170,000)
+Gross margin
+420,000
+165,000
+237,000
+124,000
+36,000
+114,000
+1,096,000
+Cost to serve
+(31,200)
+(5,900)
+(116,000)
+(82,600)
+(84,800)
+(187,000)
+(507,500)
+Customer margin
+388,800
+159,100
+121,000
+41,400
+(48,800)
+(73,000)
+588,500
+Key account manager
+(60,000)
+(30,000)
+(40,000)
+(20,000)
+(10,000)
+—
+(160,000)
+Customer contribution
+328,800
+129,100
+81,000
+21,400
+(58,800)
+(73,000)
+428,500
+Figure F213-08 ranks the customers and adds up their contributions. The line reaches $560,300, or 131% of the total, before the loss-making customers bring it down to $428,500. This shape is called the whale curve.
+Figure F213-08. The whale curve: cumulative customer contribution.
+Product-line profitability uses the same logic by product. With the ABC costs of Chapter 12, the Pulses & Spices lentils earn a gross margin of $279,350, while za'atar loses $181,800. Figure F213-09 shows the two lines.
+Figure F213-09. Product-line profitability: the Pulses & Spices line
+2027, ABC costs (whole USD)
+Revenue
+Cost of goods sold
+Gross margin
+Lentils
+1,110,000
+830,650
+279,350
+Za'atar
+495,000
+676,800
+(181,800)
+Pulses & Spices line
+1,605,000
+1,507,450
+97,550
+A business unit's profit adds all its customers and then deducts the costs that no single customer causes. For the Tahini & Spreads sales unit, $200,000 of rent and sales administration leaves $228,500. Figure F213-10 shows the calculation.
+Figure F213-10. Business-unit profit: the Tahini & Spreads sales unit
+Tahini & Spreads sales unit, 2027
+Whole USD
+Customer contribution (six customers)
+428,500
+Distribution-centre rent and sales administration
+(200,000)
+Business-unit profit before corporate costs
+228,500
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+whale curve
+منحنى الحوت
+courbe de la baleine
+English (exam term)
+العربية
+Français
+whale curve
+منحنى الحوت
+courbe de la baleine
+SECTION CHECK   Test yourself
+SC213-7  Use Figure F213-07. What is the customer contribution of the small shops (whole USD)?
+A.	(73,000)
+B.	114,000
+C.	187,000
+D.	300,000
+SC213-8  The whale curve peaks at 131% of total contribution. This means:
+A.	total profit is 131% of the peak
+B.	the company should drop all customers after the peak
+C.	profit cannot exceed 100%
+D.	some customers earn more than the total, and others destroy part of it
+Answers and explanations are at the end of the chapter.
+13.5  Controllable margin and decisions
+A manager should be judged only on what the manager can influence. The controllable margin is revenue minus the costs the manager controls. Costs decided elsewhere, such as the rent of the distribution centre, are shown below it. Figure F213-11 sets out the sales manager's report.
+Figure F213-11. The sales manager's report: controllable margin
+Sales manager's report, 2027
+Whole USD
+Controllable by the sales manager?
+Net revenue
+3,266,000
+Yes (prices, discounts, rebates)
+Variable cost of goods sold
+(2,170,000)
+Mostly no (set by production)
+Cost to serve
+(507,500)
+Yes (order size, delivery terms)
+Key account managers
+(160,000)
+Yes (staffing)
+Controllable margin
+428,500
+The basis for judging the sales manager
+Rent and sales administration
+(200,000)
+No (decided centrally)
+Business-unit profit
+228,500
+Before dropping a customer, ask which costs would really go away. If the small shops were dropped, Tahini & Spreads would lose their revenue but avoid their product cost and, if the activities shrink, their cost to serve. Figure F213-12 shows the change in profit; the rent stays.
+Figure F213-12. What changes if the small shops are dropped
+If the small shops are dropped
+Whole USD
+Net revenue lost
+(300,000)
+Cost of goods sold avoided
+186,000
+Cost to serve avoided (if activities shrink)
+187,000
+Change in profit
+73,000
+Rent and sales administration
+unchanged
+Dropping is the last option. The division can first set a minimum order size, charge for rush deliveries, or serve the shops through Levant Distribution. For the hotel supply agent, cutting listing fees and rush orders may restore a profit.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+English (exam term)
+العربية
+Français
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+SECTION CHECK   Test yourself
+SC213-9  A sales manager's controllable margin should exclude:
+A.	rent of the distribution centre decided by head office
+B.	rebates the manager negotiates
+C.	the cost to serve
+D.	key account managers the manager hires
+SC213-10  If the small shops are dropped and their product cost and cost to serve go away, profit changes by:
+A.	+187,000
+B.	−300,000
+C.	0
+D.	+73,000
+Answers and explanations are at the end of the chapter.
+13.6  Extended Example 13A: Al-Salam's revenue under ASC 606
+This example records the revenue from Al-Salam Supermarkets, whose rebates and listing fees make its gross sales look larger than its real revenue. The net revenue and customer margin are exam-core; the entries are for depth.
+1. Scenario
+Gross sales: $900,000; rebates expected $45,000; listing fees paid $60,000.
+Activities: 600 orders, 500 deliveries, 50 rush orders and 200 returns.
+2. Plan
+Record the sales net of expected rebates, treat the listing fee as a reduction of revenue, pay the rebates, and then build Al-Salam's customer margin.
+3. Recording
+Figure F213-13 records the three entries. The revenue account ends at $795,000: gross sales minus rebates and the listing fee.
+Figure F213-13. Extended Example: Al-Salam revenue journal
+No.
+Account (detail)
+Debit
+Credit
+①
+Accounts Receivable
+900,000
+Sales Revenue
+855,000
+Refund Liability
+45,000
+②
+Sales Revenue
+60,000
+Cash
+60,000
+③
+Refund Liability
+45,000
+Cash
+45,000
+Totals
+1,005,000
+1,005,000
+4. Customer margin
+Net revenue $795,000 minus cost of goods sold $558,000 = gross margin $237,000.
+Cost to serve $116,000; customer margin $121,000; key account manager $40,000; contribution $81,000.
+5. Tie line
+WORKED EXAMPLE   Everything ties
+Six contributions add to $428,500; minus $200,000 gives the business unit's $228,500.
+Al-Salam's revenue in the ledger equals its net revenue in Figure F213-07.
+6. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+customer profitability analysis
+تحليل ربحية العملاء
+analyse de la rentabilité client
+cost to serve
+تكلفة خدمة العميل
+coût de service client
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+English (exam term)
+العربية
+Français
+customer profitability analysis
+تحليل ربحية العملاء
+analyse de la rentabilité client
+cost to serve
+تكلفة خدمة العميل
+coût de service client
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+7. How the exam asks it
+EXAM TRAP   Exam view
+Expect revenue, rebates, fees, product costs and activity data for two or three customers. Start from net revenue, deduct the cost to serve at the activity rates, and keep company-level costs out of each customer's margin.
+8. Self-check
+SECTION CHECK   Test yourself
+SC213-11  Use the Extended Example. What is Al-Salam's net revenue (whole USD)?
+A.	795,000
+B.	840,000
+C.	855,000
+D.	900,000
+SC213-12  Use the Extended Example. What is Al-Salam's customer margin before its key account manager (whole USD)?
+A.	81,000
+B.	116,000
+C.	121,000
+D.	237,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F213-14 brings the chapter together.
+Figure F213-14. Chapter 13 summary map: the key rule for each section.
+Service companies use ABC to trace their mostly indirect costs through activities. Profit by customer starts from net revenue, after rebates and listing fees, and deducts product cost, the cost to serve and customer-sustaining costs. The whale curve shows that a few customers earn more than the total profit. Managers are judged on controllable margin, and a customer or product is dropped only when the lost revenue is smaller than the costs that would really go away.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P213-01  Which is an activity driver in a distributor?
+A.	Revenue
+B.	Net income
+C.	Number of delivery stops
+D.	Total assets
+P213-02  A bank's account-opening activity costs $120,000 for 4,000 new accounts. Branch A opened 900 accounts. How much cost does Branch A receive?
+A.	$4,000
+B.	$27,000
+C.	$30,000
+D.	$36,000
+P213-03  Volume rebates a company expects to pay to a customer are recorded as:
+A.	a selling expense when paid
+B.	cost of goods sold
+C.	a gain
+D.	a reduction of revenue when the sales are made
+P213-04  When measuring a business unit's return, which issue concerns the investment base?
+A.	Whether assets are measured at historical cost or current value
+B.	Which customers placed rush orders
+C.	Whether rebates reduce revenue
+D.	The number of setups
+P213-05  Customer profitability should start from:
+A.	gross sales
+B.	cash received
+C.	net revenue after rebates and fees paid to the customer
+D.	the price list
+P213-06  A customer has net revenue of $500,000, cost of goods sold of $310,000 and a cost to serve of $60,000. What is its customer margin?
+A.	$130,000
+B.	$190,000
+C.	$250,000
+D.	$440,000
+P213-07  A customer placed 300 orders at $50 and took 200 deliveries at $120. What is its cost to serve?
+A.	$15,000
+B.	$24,000
+C.	$39,000
+D.	$85,000
+P213-08  Six customer contributions add to $428,500. Company-level costs are $200,000. What is business-unit profit?
+A.	$200,000
+B.	$228,500
+C.	$428,500
+D.	$628,500
+P213-09  Product-line profitability for za'atar should use:
+A.	the traditional cost, because it is lower
+B.	revenue only
+C.	the company's total overhead
+D.	the ABC cost of the packs sold
+P213-10  The cost of serving the supermarket channel as a group, such as a channel promotion, is a:
+A.	order-level cost
+B.	channel-level cost
+C.	customer-level cost
+D.	product-level cost
+P213-11  A customer's contribution is −$20,000. If it is dropped, $15,000 of its cost to serve cannot be avoided in the short run. What happens to profit?
+A.	It rises by $20,000
+B.	It rises by $35,000
+C.	It rises by $5,000
+D.	It falls by $15,000
+P213-12  Before dropping a loss-making customer, a company should first consider:
+A.	a minimum order size or a charge for rush deliveries
+B.	allocating its costs by revenue
+C.	raising prices for profitable customers
+D.	ignoring the cost to serve
+P213-13  A sales manager's report shows net revenue of $800,000, controllable costs of $650,000 and head-office charges of $90,000. What is the controllable margin?
+A.	$60,000
+B.	$150,000
+C.	$740,000
+D.	$800,000
+P213-14  Why should a manager be judged on controllable margin?
+A.	It is always the highest profit figure
+B.	It measures what the manager can influence
+C.	GAAP requires it
+D.	It includes all company costs
+P213-15  A company allocates delivery costs to customers by revenue. The customers with many small orders will appear:
+A.	less profitable than they are
+B.	exactly as profitable as they are
+C.	to have no delivery costs
+D.	more profitable than they are
+P213-16  The hotel supply agent loses money mainly because of listing fees and rush orders. The best first recommendation is to:
+A.	drop the agent at once
+B.	move its costs to Barada
+C.	renegotiate the listing fees and charge for rush orders
+D.	stop measuring the cost to serve
+Case question: Levant's two customer groups
+Levant Distribution delivers Orontes juices to two groups of customers. A large supermarket chain orders in big lots and takes a few deliveries a week to its central stores. Hundreds of small shops order a few cases at a time and each shop needs its own delivery.
+Levant earns a service fee on every case it handles. Until now the controller has shared warehouse and delivery costs between the two groups in proportion to their fees. On that basis both groups look profitable.
+The new finance manager, Nadia, suspects that the small shops cost far more to serve than their fees suggest. She has measured three activities for 2027: picking order lines in the warehouse, delivery stops and invoices. She has also calculated a rate for each activity.
+Nadia must present an activity-based analysis to the board. She needs the cost to serve each group, the margin of each group under both methods and a recommendation for the small shops. The board chair has warned that dropping the shops would damage Levant's reputation with Orontes. The board meets at the end of the month, so the analysis must be clear enough for directors who are not accountants.
+Use Figure F213-15 for items C213-1 to C213-7.
+How to enter answers: Enter amounts in whole U.S. dollars without the $ sign or commas; enter a loss with a minus sign (for example, -1500).
+Figure F213-15. Case exhibit: Levant Distribution customer groups, 2027
+Levant Distribution · 2027
+Supermarket chain
+Small shops
+Activity rate
+Service fees (revenue)
+600,000
+400,000
+Order lines picked
+60,000
+90,000
+$2 per line
+Delivery stops
+2,000
+8,000
+$40 per stop
+Invoices
+500
+6,000
+$15 per invoice
+C213-1  Place each Levant cost in the customer cost hierarchy. (On the exam screen you would drag each item into a box.)
+Categories: Order or delivery level · Customer level · Channel level · Company level
+Cost
+Category
+Picking order lines
+Delivery stops
+Invoices
+Key account manager for the chain
+Supermarket channel promotions
+Warehouse rent
+C213-2  Enter the ABC cost to serve the small shops.
+Answer: ____________
+C213-3  Enter the margin of the small shops under ABC (fees minus the cost to serve).
+Answer: ____________
+C213-4  Enter the delivery-stop cost of the supermarket chain.
+Answer: ____________
+C213-5  Enter the ABC cost to serve the supermarket chain.
+Answer: ____________
+C213-6  The best first recommendation for the small shops is to: [select]
+Options: set a minimum order size or charge per delivery stop   |   drop all the small shops at once   |   keep the fee-based allocation so the shops look profitable   |   raise fees for the supermarket chain
+C213-7  Under ASC 606, a listing fee paid to a retailer for shelf space is recorded as a reduction of ____.
+Choose the word or phrase for the blank: revenue   |   cost of goods sold   |   selling expense   |   inventory
+Answers and explanations
+Section checks
+SC213-1  Answer C. Activities such as orders, deliveries and invoices drive most of its costs.
+A is wrong. Service companies usually hold little inventory.
+B is wrong. Service companies have large overheads.
+D is wrong. GAAP does not require ABC.
+SC213-2  Answer C. Rate × driver quantity.
+A is wrong. The rate is halved.
+B is wrong. This is the quantity, not the cost.
+D is wrong. The rate is applied twice.
+SC213-3  Answer B. It is consideration payable to a customer with no distinct good or service received.
+A is wrong. It reduces revenue instead.
+C is wrong. It is not a product cost.
+D is wrong. No asset is received.
+SC213-4  Answer D. A small customer with many orders causes more cost than its revenue suggests.
+A is wrong. Revenue may be correct; the allocation is the problem.
+B is wrong. Many are driven by orders and deliveries.
+C is wrong. It is allowed but misleading.
+SC213-5  Answer C. Rush orders × rate.
+A is wrong. This is the returns cost.
+B is wrong. This is the order-processing cost.
+D is wrong. This is the delivery cost.
+SC213-6  Answer C. It is caused by keeping that customer, whatever the order volume.
+A is wrong. It does not vary with orders.
+B is wrong. It belongs to one customer.
+D is wrong. It is not a product cost.
+SC213-7  Answer A. Gross margin minus cost to serve (no key account manager).
+B is wrong. This is gross margin before the cost to serve.
+C is wrong. This is the cost to serve.
+D is wrong. This is net revenue.
+SC213-8  Answer D. The curve rises above the total and falls back.
+A is wrong. The ratio is reversed.
+B is wrong. Dropping needs an avoidable-cost analysis first.
+C is wrong. Cumulative profit before losses can exceed the total.
+SC213-9  Answer A. The manager cannot influence it.
+B is wrong. Rebates are controllable by the manager.
+C is wrong. Order and delivery terms are controllable.
+D is wrong. Staffing is controllable.
+SC213-10  Answer D. Costs avoided exceed the revenue lost by the shops' negative contribution.
+A is wrong. This ignores the revenue lost.
+B is wrong. This ignores the costs avoided.
+C is wrong. The costs and revenue do not cancel.
+SC213-11  Answer A. Gross sales minus rebates and the listing fee.
+B is wrong. This deducts the listing fee but not the rebates.
+C is wrong. This deducts rebates but not the listing fee.
+D is wrong. This is gross sales.
+SC213-12  Answer C. Gross margin minus the cost to serve.
+A is wrong. This is after the key account manager.
+B is wrong. This is the cost to serve.
+D is wrong. This is before the cost to serve.
+Your turn
+Item
+Answer
+Deliveries (Qasr)
+300 × $120 = $36,000
+Rush orders (Qasr)
+150 × $200 = $30,000
+Multiple-choice questions
+P213-01  Answer C. Delivery stops cause delivery cost.
+A is wrong. Revenue does not cause delivery cost.
+B is wrong. Income is a result, not a driver.
+D is wrong. Assets are not an activity measure.
+P213-02  Answer B. $30 an account × 900.
+A is wrong. The division is reversed.
+C is wrong. This is the rate × 1,000.
+D is wrong. The rate is misread.
+P213-03  Answer D. They are variable consideration under ASC 606.
+A is wrong. They reduce revenue, not expense.
+B is wrong. They are not product costs.
+C is wrong. They reduce revenue.
+P213-04  Answer A. Valuation of the assets changes the return.
+B is wrong. That is a cost-to-serve issue.
+C is wrong. That is a revenue issue.
+D is wrong. That is a product-cost issue.
+P213-05  Answer C. Revenue is measured net under ASC 606.
+A is wrong. Gross sales overstate revenue.
+B is wrong. Revenue is not cash.
+D is wrong. List prices ignore discounts and rebates.
+P213-06  Answer A. Net revenue − COGS − cost to serve.
+B is wrong. This is gross margin only.
+C is wrong. The figures are misread.
+D is wrong. COGS is left out.
+P213-07  Answer C. Orders $15,000 + deliveries $24,000.
+A is wrong. Deliveries are left out.
+B is wrong. Orders are left out.
+D is wrong. The rates are misapplied.
+P213-08  Answer B. Company-level costs are deducted once, at the unit level.
+A is wrong. This is the cost, not the profit.
+C is wrong. Company-level costs are left out.
+D is wrong. The costs are added.
+P213-09  Answer D. ABC gives the more accurate product cost.
+A is wrong. The lower cost is not the more accurate one.
+B is wrong. Costs are needed.
+C is wrong. Only the line's costs belong to it.
+P213-10  Answer B. It is caused by the channel, not one customer.
+A is wrong. It does not vary with orders.
+C is wrong. It serves several customers.
+D is wrong. It is about customers, not products.
+P213-11  Answer C. Only $5,000 of the loss disappears.
+A is wrong. This assumes every cost goes away.
+B is wrong. The unavoidable cost is added.
+D is wrong. The avoided loss is ignored.
+P213-12  Answer A. Changing the activities it causes may restore a profit.
+B is wrong. This hides the problem.
+C is wrong. This punishes the wrong customers.
+D is wrong. The cost to serve is the cause.
+P213-13  Answer B. Head-office charges are excluded.
+A is wrong. This deducts uncontrollable charges.
+C is wrong. The figures are misread.
+D is wrong. This is revenue.
+P213-14  Answer B. It links performance to the manager's decisions.
+A is wrong. That is not the reason.
+C is wrong. It is a management measure.
+D is wrong. It excludes costs decided elsewhere.
+P213-15  Answer D. They receive less cost than they cause.
+A is wrong. The direction is reversed.
+B is wrong. Revenue allocation distorts cost.
+C is wrong. They still receive some cost.
+P213-16  Answer C. Attack the causes of the loss before dropping the customer.
+A is wrong. Dropping comes after other options.
+B is wrong. That distorts Barada's profit.
+D is wrong. That hides the problem.
+Case question: Levant's two customer groups
+C213-1
+Cost
+Category
+Picking order lines
+Order or delivery level
+Delivery stops
+Order or delivery level
+Invoices
+Order or delivery level
+Key account manager for the chain
+Customer level
+Supermarket channel promotions
+Channel level
+Warehouse rent
+Company level
+Costs are grouped by what causes them: each order or delivery, one customer, a channel, or the company as a whole.
+C213-2  Answer: 590,000.
+319,000 is wrong: this answer allocates the costs by service fees.
+C213-3  Answer: (190,000).
+81,000 is wrong: this answer uses the fee-based allocation.
+C213-4  Answer: 80,000.
+320,000 is wrong: this answer uses the small shops' stops.
+C213-5  Answer: 207,500.
+478,500 is wrong: this answer allocates the costs by service fees.
+C213-6  Answer: set a minimum order size or charge per delivery stop.
+drop all the small shops at once is wrong: this answer dropping comes after changing the activities that cause the loss.
+keep the fee-based allocation so the shops look profitable is wrong: this answer it hides the real cost to serve.
+raise fees for the supermarket chain is wrong: this answer the chain is already profitable and is not the cause.
+C213-7  Answer: revenue.
+cost of goods sold is wrong: this answer it is not a product cost.
+selling expense is wrong: this answer consideration payable to a customer reduces revenue.
+inventory is wrong: this answer no asset is received.
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

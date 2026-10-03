@@ -202,7 +202,7 @@ def walk(x):
                 yield y
 
 
-def source_terms(n):
+def source_terms(n, bk=1):
     """The chapter's English term rows, from its real tables.
 
     Extracted rather than transcribed, and read from the tables rather than
@@ -210,6 +210,7 @@ def source_terms(n):
     like an English term the moment the extraction changed.
     """
     import parsebook as PB
+    PB.BOOK = bk
     return [en for en, _ar in PB.term_pairs(n)]
 
 
@@ -435,7 +436,7 @@ def check(mod):
                        'chapter inventory' % u)
 
     # ---- 4 terms_covered -------------------------------------------
-    st = source_terms(int(ch.CH))
+    st = source_terms(int(ch.CH), getattr(ch, 'BK', 1))
     blob = ' · '.join(used_terms)
     missing = [t for t in sorted(set(st)) if t.lower() not in blob]
     for t in missing:

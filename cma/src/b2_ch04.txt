@@ -1,0 +1,641 @@
+Chapter 4
+Learning Curves
+منحنيات التعلم
+In 2027 Tahini & Spreads starts a new product: hand-finished halva for Barada's private label. The first batch took 1,000 labor hours. The second took much less. The team was learning.
+A cost function from Chapter 3 assumes the same variable rate for every unit. For new, labor-heavy work that is wrong: labor time falls with experience. This chapter shows how to measure that fall. Figure F204-01 gives the rule.
+Figure F204-01. Chapter 4 roadmap: labor time falls as output doubles.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.3.d
+demonstrate an understanding of learning curve analysis
+Explain learning curve analysis.
+Full treatment
+B.3.e
+calculate the results under a cumulative average-time learning model
+Calculate results under the cumulative average-time learning model.
+Full treatment + Extended Example
+B.3.f
+identify the benefits and shortcomings of regression analysis and learning curve analysis
+Identify the benefits and shortcomings of regression and learning curve analysis.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+learning curve
+منحنى التعلم
+courbe d'apprentissage
+cumulative average-time learning model
+نموذج متوسط الوقت التراكمي للتعلم
+modèle du temps moyen cumulé
+learning rate
+معدل التعلم
+taux d'apprentissage
+cumulative output
+الإنتاج التراكمي
+production cumulée
+incremental unit-time learning model
+نموذج الوقت الحدي للوحدة
+modèle du temps unitaire marginal
+WHAT YOU ALREADY KNOW   What you already know
+Chapters 2 and 3 treated direct labor as a variable cost with a constant rate per unit. That holds for mature products. Learning curves adjust the labor estimate for new ones.
+4.1  What learning is
+Workers who repeat a task become faster. They find better methods, make fewer mistakes and need less supervision. A learning curve shows how labor time per unit falls as cumulative output grows.
+Learning is measured each time cumulative output doubles. On an 80% curve, the average time per unit after a doubling is 80% of the average before it. The learning rate is 80%; the time saved is 20%.
+Learning affects labor and the costs that follow labor hours. It does not affect materials: each halva batch still needs the same sesame and sugar. Figure F204-02 shows the halva curve.
+Figure F204-02. The halva learning curve: cumulative average hours per batch on an 80% curve.
+EXAM TRAP   The rate is what remains, not what falls
+An 80% learning curve does not cut time by 80%. After each doubling, the new average is 80% of the old average, a fall of 20%.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+learning curve
+منحنى التعلم
+courbe d'apprentissage
+learning rate
+معدل التعلم
+taux d'apprentissage
+cumulative output
+الإنتاج التراكمي
+production cumulée
+English (exam term)
+العربية
+Français
+learning curve
+منحنى التعلم
+courbe d'apprentissage
+learning rate
+معدل التعلم
+taux d'apprentissage
+cumulative output
+الإنتاج التراكمي
+production cumulée
+SECTION CHECK   Test yourself
+SC204-1  On an 80% cumulative average-time learning curve:
+A.	labor time falls by 80% at each doubling
+B.	each unit takes 80% of the time of the unit before it
+C.	each time cumulative output doubles, the average time per unit becomes 80% of the previous average
+D.	total time for all units becomes 80% of the previous total
+SC204-2  Which halva cost falls as the team learns?
+A.	Direct labor
+B.	Sesame and sugar
+C.	Depreciation of the mixer
+D.	Factory rent
+Answers and explanations are at the end of the chapter.
+4.2  The doubling table
+The CMA exam uses the cumulative average-time learning model. At each doubling of cumulative output, the average time for all units so far is the learning rate times the previous average. Total time is the average times the number of units.
+The table works only at doublings: one, two, four, eight, sixteen units and so on. To find the time for a group of later units, subtract the totals: batches 5 to 8 need the total for 8 minus the total for 4.
+WORKED EXAMPLE   Worked example: the halva doubling table
+Figure F204-03 builds the table. The average falls from 1,000 to 800, 640 and 512 hours. The total for eight batches is 4,096 hours, so batches 5 to 8 need 4,096 − 2,560 = 1,536 hours.
+Figure F204-03. Worked example: the halva doubling table
+Cumulative batches
+Average hours per batch (× 80% at each doubling)
+Total hours (average × batches)
+1
+1,000
+1,000
+2
+800
+1,600
+4
+640
+2,560
+8
+512
+4,096
+Batches 5–8
+1,536
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cumulative average-time learning model
+نموذج متوسط الوقت التراكمي للتعلم
+modèle du temps moyen cumulé
+English (exam term)
+العربية
+Français
+cumulative average-time learning model
+نموذج متوسط الوقت التراكمي للتعلم
+modèle du temps moyen cumulé
+SECTION CHECK   Test yourself
+SC204-3  Use Figure F204-03. What is the cumulative average time per batch for 4 batches?
+A.	512 hours
+B.	800 hours
+C.	2,560 hours
+D.	640 hours
+SC204-4  How many labor hours do halva batches 5 to 8 need?
+A.	1,536
+B.	1,638
+C.	2,048
+D.	4,096
+Answers and explanations are at the end of the chapter.
+4.3  The learning curve formula
+For quantities that are not doublings, use the formula Y = a X^b. Y is the cumulative average time per unit, a is the time for the first unit, X is cumulative units, and b = log(learning rate) ÷ log(two).
+For an 80% curve, b = -0.3219. Three halva batches average 702.1 hours, a total of about 2,106 hours. Figure F204-04 shows the calculation for three and six batches, and checks it at eight.
+Figure F204-04. The learning curve formula for three and six batches
+Y = a X^b (a = first-batch hours)
+Average hours
+Total hours
+Learning exponent b = log 0.80 ÷ log 2
+-0.3219
+3 batches: Y = 1,000 × 3^b
+702.1
+2,106
+6 batches: Y = 1,000 × 6^b
+561.7
+3,370
+Check: 8 batches: Y = 1,000 × 8^b
+512
+4,096
+The learning rate matters a great deal. Figure F204-05 compares an 80% curve with a 90% curve: after eight batches the 90% curve needs 5,832 hours, against 4,096. A lower percentage means faster learning.
+Figure F204-05. Total hours for eight batches on an 80% and a 90% curve.
+WATCH: NOT YET TESTABLE   The other model
+Some texts use an incremental unit-time model, in which the time for the last unit falls by the rate at each doubling. It gives higher totals. The CMA LOS name the cumulative average-time model; use it unless a question says otherwise.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+incremental unit-time learning model
+نموذج الوقت الحدي للوحدة
+modèle du temps unitaire marginal
+English (exam term)
+العربية
+Français
+incremental unit-time learning model
+نموذج الوقت الحدي للوحدة
+modèle du temps unitaire marginal
+SECTION CHECK   Test yourself
+SC204-5  For an 80% learning curve, the exponent b in Y = aX^b is:
+A.	0.80
+B.	−0.20
+C.	−0.3219
+D.	0.3219
+SC204-6  Which curve shows faster learning?
+A.	A 90% curve
+B.	A 95% curve
+C.	A 100% curve
+D.	An 80% curve
+Answers and explanations are at the end of the chapter.
+4.4  Using learning curves
+Learning curves improve three decisions. In pricing, a later order costs less than the first, so a lower price may still cover cost. In budgeting, labor hours fall over the year. In setting standards, a standard based on one early batch is too loose, and one based on later batches is too tight for new staff.
+Always cost an order with its own incremental hours. The average for the whole run mixes the slow early batches with the fast later ones.
+YOUR TURN   Complete the doubling table
+Figure F204-06 is the halva table with the later rows blank. Complete it, then find the hours for batches 5 to 8. Answers are at the end of the chapter.
+Figure F204-06. Your turn: complete the halva doubling table
+Cumulative batches (80% curve)
+Average hours per batch
+Total hours
+1
+1,000
+1,000
+2
+800
+1,600
+4
+________
+________
+8
+________
+________
+Batches 5–8
+________
+SECTION CHECK   Test yourself
+SC204-7  To cost a second order that follows a first order, use:
+A.	the average hours for the whole run
+B.	the increase in cumulative total hours caused by the second order
+C.	the hours of the first order again
+D.	the time for the first unit
+SC204-8  The first unit takes 100 hours on a 90% cumulative average-time curve. What is the total time for 4 units?
+A.	324 hours
+B.	81 hours
+C.	400 hours
+D.	360 hours
+Answers and explanations are at the end of the chapter.
+4.5  Benefits and shortcomings
+Both regression and learning curves turn past data into better estimates. Regression gives a fixed cost and a variable rate, with tests of reliability. Learning curves correct the labor estimate when the task is new.
+Both have limits. Regression needs enough past data and holds only inside the relevant range; a good fit does not prove a causal link. A learning rate is itself an estimate, learning may stop once the task is routine, and it does not apply to machine-paced work or materials.
+Figure F204-07 summarizes the benefits and shortcomings of each method.
+Figure F204-07. Benefits and shortcomings of learning curves and regression
+Method
+Benefits
+Shortcomings
+Learning curve
+More accurate labor estimates for new products; better prices, budgets and standards
+The rate must be estimated; learning may stop; it does not apply to materials or machine-paced work
+Regression
+Uses all data; reports R², t and standard error; separates fixed and variable cost
+Needs enough past data; valid only inside the relevant range; a good fit does not prove cause
+FALSE-FRIEND ALERT   Courbe d'expérience, منحنى الخبرة
+French 'courbe d'expérience' and Arabic منحنى الخبرة usually mean the experience curve, which covers all costs across an industry. The learning curve here covers only labor time on one task.
+SECTION CHECK   Test yourself
+SC204-9  Which is a benefit of learning curve analysis?
+A.	It removes the need to estimate a learning rate
+B.	It applies to materials as well as labor
+C.	Learning never stops
+D.	More accurate labor estimates for new products
+SC204-10  Which is a shortcoming of regression analysis?
+A.	It cannot give a fixed cost
+B.	It needs enough past data and holds only inside the relevant range
+C.	It uses only two data points
+D.	It gives no measure of reliability
+Answers and explanations are at the end of the chapter.
+4.6  Extended Example 4A: pricing Barada's second halva order
+This example uses the learning curve to cost two orders, sets a price floor for the second one and shows what the curve means for a labor standard. There are no journal entries: the output is a quote and a standard.
+1. Scenario
+Barada ordered 4 batches of halva, which Orontes has made. Barada now asks for 4 more. Direct labor costs $12 an hour and variable overhead $6 per labor hour, because the manual line uses little machinery. Materials cost $3,000 a batch and do not learn.
+2. Plan
+Use the doubling table to find the hours for each order. Apply the labor and overhead rates to the hours, and add materials at a flat amount per batch. Compare the two orders and think about the standard.
+3. Calculations
+Order 1 hours = total for 4 batches = 2,560.
+Order 2 hours = total for 8 batches − total for 4 = 4,096 − 2,560 = 1,536.
+Order 2 cost = 1,536 × ($12 + $6) + 4 × $3,000 = $39,648.
+4. The quote
+Figure F204-08 costs both orders. The second order costs $39,648, or $9,912 a batch, against $14,520 for the first. Any price above $39,648 covers the incremental cost; fixed costs and profit come on top (Chapter 9).
+Figure F204-08. Extended Example: incremental cost of the two Barada orders
+Halva orders for Barada (whole USD)
+Order 1
+Order 2
+Batches
+1–4
+5–8
+Labor hours (from the doubling table)
+2,560
+1,536
+Direct labor at $12 per hour
+30,720
+18,432
+Variable overhead at $6 per labor hour
+15,360
+9,216
+Direct materials at 3,000 per batch (no learning)
+12,000
+12,000
+Incremental cost of the order
+58,080
+39,648
+Cost per batch
+14,520
+9,912
+Figure F204-09 shows why. Order 2 needs only the rise in cumulative hours from 2,560 to 4,096.
+Figure F204-09. Extended Example: cumulative hours split into the two Barada orders.
+5. Effect on the labor standard
+Suppose Orontes sets one labor standard for all eight batches at their average of 512 hours. Figure F204-10 shows the result: the first order overruns the standard by 512 hours and the second saves the same amount. Book 3 calls these labor efficiency variances; here they come only from learning.
+Figure F204-10. Extended Example: a labor standard at the eight-batch average
+Setting a labor standard for halva
+Batches 1–4
+Batches 5–8
+All 8
+Actual labor hours (learning curve)
+2,560
+1,536
+4,096
+Standard hours at the 8-batch average (512 per batch)
+2,048
+2,048
+4,096
+Actual − standard hours
+512
+(512)
+0
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Hours: 2,560 + 1,536 = 4,096, the total for eight batches.
+Order 2 labor: 1,536 × $12 = $18,432.
+Standard check: overrun 512 + saving (512) = 0 over the eight batches.
+7. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+learning curve
+منحنى التعلم
+courbe d'apprentissage
+cumulative average-time learning model
+نموذج متوسط الوقت التراكمي للتعلم
+modèle du temps moyen cumulé
+learning rate
+معدل التعلم
+taux d'apprentissage
+English (exam term)
+العربية
+Français
+learning curve
+منحنى التعلم
+courbe d'apprentissage
+cumulative average-time learning model
+نموذج متوسط الوقت التراكمي للتعلم
+modèle du temps moyen cumulé
+learning rate
+معدل التعلم
+taux d'apprentissage
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect the first-unit time, a learning rate and a question about a later group of units. Build the doubling table to the needed total, then subtract the earlier total. Apply learning to labor and labor-driven costs only.
+9. Self-check
+SECTION CHECK   Test yourself
+SC204-11  Use the Extended Example. What is the incremental cost of Barada's second order (whole USD)?
+A.	34,848
+B.	39,648
+C.	48,864
+D.	58,080
+SC204-12  Use the Extended Example. If the labor standard is the 8-batch average of 512 hours per batch, the first order will show:
+A.	fewer actual hours than standard hours
+B.	exactly the standard hours
+C.	more actual hours than standard hours
+D.	no labor cost
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F204-11 brings the chapter together.
+Figure F204-11. Chapter 4 summary map: the key rule for each section.
+Labor time per unit falls as workers repeat a task. Under the cumulative average-time model, each doubling of cumulative output makes the new average equal to the learning rate times the old one. The doubling table gives totals at doublings; the formula Y = aX^b gives any quantity. Cost later orders with their incremental hours, and apply learning only to labor and labor-driven costs. Learning curves and regression both improve estimates, but both rest on assumptions that must be checked.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P204-01  Learning curve analysis is most useful for:
+A.	a mature product on an automated line
+B.	a new product that needs a lot of manual labor
+C.	the cost of raw materials
+D.	fixed overhead
+P204-02  The first unit takes 50 hours on an 80% cumulative average-time curve. What is the cumulative average time for 2 units?
+A.	80 hours
+B.	10 hours
+C.	32 hours
+D.	40 hours
+P204-03  The first unit takes 50 hours on an 80% curve. What is the total time for 8 units?
+A.	25.6 hours
+B.	400 hours
+C.	204.8 hours
+D.	256 hours
+P204-04  The first unit takes 200 hours on a 90% curve. How many hours do units 3 and 4 need?
+A.	288 hours
+B.	648 hours
+C.	324 hours
+D.	360 hours
+P204-05  The first unit takes 20 hours on an 80% curve and labor costs $15 an hour. What is the labor cost of units 5 to 8?
+A.	$460.80
+B.	$614.40
+C.	$768.00
+D.	$1,228.80
+P204-06  A 75% curve compared with an 85% curve shows:
+A.	faster learning
+B.	slower learning
+C.	the same learning
+D.	no learning
+P204-07  Which is a shortcoming of learning curve analysis?
+A.	It always overstates labor time
+B.	Learning may stop once the task becomes routine
+C.	It ignores labor
+D.	It needs a regression first
+P204-08  For a 90% learning curve, the exponent b = log 0.90 ÷ log 2 is closest to:
+A.	−0.322
+B.	0.90
+C.	−0.10
+D.	−0.152
+P204-09  Which cost of a new product is NOT reduced by learning?
+A.	Direct materials per unit
+B.	Direct labor per unit
+C.	Overhead that follows labor hours
+D.	Supervision time per unit
+P204-10  A company sets its labor standard at the average of a new product's first year. Early in the year it will most likely report:
+A.	fewer actual hours than standard
+B.	more actual hours than standard
+C.	no difference
+D.	lower labor rates
+P204-11  Using the halva curve (1,000 hours for batch 1, 80%), what is the total time for 16 batches?
+A.	409.6 hours
+B.	16,000 hours
+C.	8,192 hours
+D.	6,553.6 hours
+P204-12  Which is a benefit of regression analysis?
+A.	It works without any past data
+B.	It is valid far outside the data range
+C.	It uses all the data and measures how reliable the estimate is
+D.	It proves that a driver causes the cost
+P204-13  In learning curve analysis, cumulative output means:
+A.	units produced this month only
+B.	units sold
+C.	all units produced since the start of the task
+D.	units in finished goods
+P204-14  A customer asks for a repeat order after the first order. The lowest price that covers the cost of the repeat order is based on:
+A.	the first order's cost
+B.	the average cost of both orders
+C.	the cost of the first unit times the units
+D.	the repeat order's incremental cost, using its own hours from the learning curve
+P204-15  The first unit takes 100 hours on an 80% curve (b = −0.3219). What is the cumulative average time for 3 units?
+A.	70.2 hours
+B.	80.0 hours
+C.	64.0 hours
+D.	210.6 hours
+P204-16  Which problem can weaken both regression and learning curve estimates?
+A.	Using a computer
+B.	Past data that are few or not typical of the future
+C.	Having too many correct observations
+D.	Stating results in dollars
+Case question: a new juice-blend crew
+In 2027 the Beverages division launched a new juice blend. A new crew mixes the blend in lots. The crew needed time to learn the recipe and the equipment, so the first lots took many hours and later lots were faster.
+The production engineer has timed the first lot and measured the crew's learning rate. She believes the crew follows the cumulative average-time model. The crew is paid the same hourly rate for every lot, and the juice concentrate and bottles used per lot do not change with learning.
+The Beverages controller is preparing the labor budget for the second quarter, when the crew will make the next four lots. She needs the labor hours and the direct labor cost for those lots. She must also decide which costs will fall as the crew learns and which will not, because the budget for materials must not assume any learning.
+The sales team has promised Levant Distribution a steady supply of the new blend, so the controller cannot afford a labor budget that is too high or too low. She also knows that the crew's hourly rate is fixed by contract for the year. The engineer warns that learning slows over time but does not stop inside the budget period.
+Use Figure F204-12 for items C204-1 to C204-7.
+How to enter answers: Enter hours and amounts as whole numbers, without the $ sign or commas (for example, 1500).
+Figure F204-12. Case exhibit: new juice-blend crew
+Beverages · new juice-blend crew
+Data
+First lot of 1,000 cases
+500 direct labor hours
+Learning rate
+90% (cumulative average-time model)
+Direct labor rate
+$12 per hour
+Planned lots this year
+8 (lots 1–4 are budgeted in quarter 1; lots 5–8 in quarter 2)
+Materials per lot
+Standard; no learning expected
+C204-1  Which costs fall as the crew learns? (On the exam screen you would drag each item into a box.)
+Categories: Falls with learning · Not affected by learning
+Cost
+Category
+Direct labor per lot
+Juice concentrate per lot
+Bottles per lot
+Variable overhead driven by labor hours
+Straight-line depreciation of the line
+C204-2  Enter the total labor hours for the first 4 lots.
+Answer: ____________
+C204-3  Enter the cumulative average hours per lot after 4 lots.
+Answer: ____________
+C204-4  Enter the labor hours budgeted for lots 5 to 8 (quarter 2).
+Answer: ____________
+C204-5  Enter the direct labor cost budgeted for lots 5 to 8.
+Answer: ____________
+C204-6  Quarter 2 needs fewer labor hours than quarter 1 for the same number of lots because: [select]
+Options: cumulative output doubles, so the crew works faster   |   materials per lot fall   |   the labor rate falls   |   fixed overhead is spread over more lots
+C204-7  Under the cumulative average-time model, each time cumulative output ____, the average time per lot falls to the learning rate times its previous value.
+Choose the word or phrase for the blank: doubles   |   increases by one lot   |   triples   |   is sold
+Answers and explanations
+Section checks
+SC204-1  Answer C. The rate applies to the cumulative average at each doubling.
+A is wrong. The fall is 20%, not 80%.
+B is wrong. The rate applies at doublings, not unit by unit.
+D is wrong. Totals rise; averages fall.
+SC204-2  Answer A. Learning reduces labor time.
+B is wrong. Materials per batch do not learn.
+C is wrong. Straight-line depreciation does not change with learning.
+D is wrong. Rent is a fixed cost.
+SC204-3  Answer D. Two doublings: 1,000 × 0.8 × 0.8.
+A is wrong. This is the average for 8 batches.
+B is wrong. This is the average for 2 batches.
+C is wrong. This is the total, not the average.
+SC204-4  Answer A. Total for 8 batches minus total for 4.
+B is wrong. This applies the rate batch by batch.
+C is wrong. This uses the 8-batch average for the last 4 batches.
+D is wrong. This is the total for all 8 batches.
+SC204-5  Answer C. b = log 0.80 ÷ log 2.
+A is wrong. The rate itself is not the exponent.
+B is wrong. This is the fall per doubling, not the exponent.
+D is wrong. The exponent is negative: time falls.
+SC204-6  Answer D. A lower percentage means a larger fall at each doubling.
+A is wrong. 90% keeps more of the old time.
+B is wrong. 95% is slower learning.
+C is wrong. 100% means no learning.
+SC204-7  Answer B. The order's own incremental hours are its cost.
+A is wrong. The run average includes the slow early units.
+C is wrong. This ignores learning.
+D is wrong. The first unit is the slowest.
+SC204-8  Answer A. Average for 4 units = 100 × 0.9 × 0.9 = 81; total = 81 × 4.
+B is wrong. This is the average, not the total.
+C is wrong. This ignores learning.
+D is wrong. Only one doubling is applied.
+SC204-9  Answer D. It corrects the labor estimate for new work.
+A is wrong. The rate must be estimated.
+B is wrong. Materials do not learn.
+C is wrong. Learning can stop.
+SC204-10  Answer B. Regression depends on its data.
+A is wrong. The intercept estimates fixed cost.
+C is wrong. That describes high-low.
+D is wrong. It reports R², t and the standard error.
+SC204-11  Answer B. Incremental hours × (labor + variable overhead) + materials.
+A is wrong. This applies learning to materials.
+C is wrong. This uses the 8-batch average hours.
+D is wrong. This repeats the first order's cost.
+SC204-12  Answer C. Early batches are slower than the average.
+A is wrong. That happens in the second order.
+B is wrong. Learning makes early batches slower.
+D is wrong. Labor is still incurred.
+Your turn
+Item
+Answer
+4 batches
+Average 640 hours; total 2,560 hours
+8 batches
+Average 512 hours; total 4,096 hours
+Batches 5–8
+4,096 − 2,560 = 1,536 hours
+Multiple-choice questions
+P204-01  Answer B. Learning is strongest in new, labor-heavy work.
+A is wrong. Machine-paced work shows little learning.
+C is wrong. Materials do not learn.
+D is wrong. Fixed overhead does not learn.
+P204-02  Answer D. One doubling: 50 × 0.8.
+A is wrong. This is the total for 2 units.
+B is wrong. This treats 80% as the fall.
+C is wrong. Two doublings are applied.
+P204-03  Answer C. Average = 50 × 0.8³ = 25.6; total = 25.6 × 8.
+A is wrong. This is the average.
+B is wrong. This ignores learning.
+D is wrong. Only two doublings are applied.
+P204-04  Answer A. Total for 4 (648) − total for 2 (360).
+B is wrong. This is the total for all 4 units.
+C is wrong. This uses the 4-unit average for two units.
+D is wrong. This is the total for the first 2 units.
+P204-05  Answer A. Hours: 81.92 − 51.20 = 30.72; × $15.
+B is wrong. This uses the 8-unit average for 4 units.
+C is wrong. This costs the first 4 units.
+D is wrong. This costs all 8 units.
+P204-06  Answer A. A lower percentage keeps less of the previous time.
+B is wrong. The comparison is reversed.
+C is wrong. The rates differ.
+D is wrong. Only 100% means no learning.
+P204-07  Answer B. The curve may flatten earlier than the model assumes.
+A is wrong. It can err in either direction.
+C is wrong. It is about labor.
+D is wrong. The rate can come from experience.
+P204-08  Answer D. log 0.9 ≈ −0.0458; log 2 ≈ 0.3010.
+A is wrong. This is the 80% exponent.
+B is wrong. The rate is not the exponent.
+C is wrong. This is the fall per doubling.
+P204-09  Answer A. Materials per unit are set by the recipe.
+B is wrong. Labor falls with learning.
+C is wrong. Labor-driven overhead falls with hours.
+D is wrong. Supervision time can fall too.
+P204-10  Answer B. Early units are slower than the year's average.
+A is wrong. That happens later in the year.
+C is wrong. Learning creates a pattern of differences.
+D is wrong. Learning affects hours, not rates.
+P204-11  Answer D. Average = 1,000 × 0.8⁴ = 409.6; total = 409.6 × 16.
+A is wrong. This is the average.
+B is wrong. This ignores learning.
+C is wrong. Only three doublings are applied.
+P204-12  Answer C. It reports R², t-statistics and the standard error.
+A is wrong. It needs past data.
+B is wrong. It holds only inside the range.
+D is wrong. A good fit does not prove cause.
+P204-13  Answer C. Learning builds on all units made so far.
+A is wrong. Learning carries over between months.
+B is wrong. Production, not sales, drives learning.
+D is wrong. Inventory is not the measure.
+P204-14  Answer D. The repeat order causes only its incremental hours.
+A is wrong. This ignores learning.
+B is wrong. The average includes the slower first order.
+C is wrong. This ignores learning.
+P204-15  Answer A. Y = 100 × 3^−0.3219.
+B is wrong. This is the average for 2 units.
+C is wrong. This is the average for 4 units.
+D is wrong. This is the total, not the average.
+P204-16  Answer B. Both methods rest on representative data.
+A is wrong. Software is not the issue.
+C is wrong. More good data helps.
+D is wrong. Units do not matter.
+Case question: a new juice-blend crew
+C204-1
+Cost
+Category
+Direct labor per lot
+Falls with learning
+Juice concentrate per lot
+Not affected by learning
+Bottles per lot
+Not affected by learning
+Variable overhead driven by labor hours
+Falls with learning
+Straight-line depreciation of the line
+Not affected by learning
+Learning reduces labor time and the costs that follow labor hours.
+C204-2  Answer: 1,620.
+405 is wrong: this answer gives the average per lot, not the total.
+C204-3  Answer: 405.
+450 is wrong: this answer stops after one doubling.
+1,620 is wrong: this answer gives the total, not the average.
+C204-4  Answer: 1,296.
+2,916 is wrong: this answer uses the total for all 8 lots.
+1,458 is wrong: this answer applies the rate once per lot.
+C204-5  Answer: 15,552.
+34,992 is wrong: this answer costs all 8 lots.
+C204-6  Answer: cumulative output doubles, so the crew works faster.
+materials per lot fall is wrong: this answer materials do not learn.
+the labor rate falls is wrong: this answer learning changes hours, not the rate.
+fixed overhead is spread over more lots is wrong: this answer labor hours, not fixed overhead, explain the change.
+C204-7  Answer: doubles.
+increases by one lot is wrong: this answer applies the rate at each unit instead of at each doubling.
+triples is wrong: this answer the rate applies at each doubling.
+is sold is wrong: this answer learning depends on output made, not on sales.
+PART II
+Measuring product cost
+Chapters 5 to 11
+PART II — MEASURING PRODUCT COST

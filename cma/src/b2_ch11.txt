@@ -1,0 +1,853 @@
+Chapter 11
+Joint Products and By-Products
+المنتجات المشتركة والمنتجات العرضية
+When Orontes crushes a batch of olives, it gets extra-virgin oil, virgin oil and pomace from the same press. Chapter 7 took the extra-virgin oil into bottling at $8.06 a liter. This chapter shows where that figure came from, and why other answers were possible.
+Figure F211-01 shows the shape of every joint-cost problem: one process, one cost, several outputs.
+Figure F211-01. Chapter 11 roadmap: one joint process, several outputs.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.1.j
+determine the appropriate use of joint product and by-product costing
+Determine when to use joint product and by-product costing.
+Full treatment
+D.1.k
+demonstrate an understanding of concepts such as split-off point and separable costs
+Demonstrate an understanding of the split-off point and separable costs.
+Full treatment
+D.1.l
+determine the allocation of joint product and by-product costs using the physical measure method, the sales value at split-off method, constant gross profit (gross margin) method, and the net realizable value method, and describe the benefits and limitations of each method
+Allocate joint costs with the physical measure, sales value at split-off, constant gross margin and NRV methods, and describe the benefits and limitations of each.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+joint products
+المنتجات المشتركة
+coproduits
+by-product
+المنتج العرضي
+sous-produit
+split-off point
+نقطة الانفصال
+point de séparation
+separable costs
+التكاليف المنفصلة
+coûts spécifiques
+physical measure method
+طريقة المقياس المادي
+méthode des unités physiques
+sales value at split-off method
+طريقة القيمة البيعية عند نقطة الانفصال
+méthode de la valeur de vente au point de séparation
+net realizable value method
+طريقة صافي القيمة القابلة للتحقق
+méthode de la valeur nette de réalisation
+constant gross-margin percentage method
+طريقة نسبة مجمل الربح الثابتة
+méthode du taux de marge brute constant
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 followed batch H-2711 through crushing and bottling. Chapter 10 allocated service costs that no one department caused alone. Joint costs raise the same question for products.
+11.1  Joint products, by-products and scrap
+Joint products are two or more products from the same process, each with significant sales value. Extra-virgin oil (EVOO) and virgin oil (VOO) are joint products: the press runs to make both.
+A by-product comes from the same process but has a small sales value compared with the joint products. Pomace, the olive cake left after pressing, is a by-product. Scrap has even less value. Figure F211-02 compares the three.
+Figure F211-02. Joint products, by-products and scrap
+Output
+Test
+Oils example
+Accounting
+Joint product
+Significant sales value; a main reason to run the process
+EVOO and VOO
+Share of joint cost
+By-product
+Small sales value compared with the joint products
+Pomace (olive cake)
+NRV reduces joint cost, or income when sold
+Scrap
+Very small value; often sold for a token amount
+Filter residue
+Credit to overhead or income
+The test is relative value, and it can change. If pomace prices rose sharply, Orontes might treat it as a joint product and give it a share of joint cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+joint products
+المنتجات المشتركة
+coproduits
+by-product
+المنتج العرضي
+sous-produit
+English (exam term)
+العربية
+Français
+joint products
+المنتجات المشتركة
+coproduits
+by-product
+المنتج العرضي
+sous-produit
+SECTION CHECK   Test yourself
+SC211-1  A by-product is:
+A.	a product from a joint process with small sales value compared with the joint products
+B.	any product sold after further processing
+C.	a joint product with the highest sales value
+D.	material that is thrown away with no value
+SC211-2  Why is pomace treated as a by-product rather than a joint product?
+A.	It weighs more than the oils
+B.	It is sold after split-off
+C.	It has disposal costs
+D.	Its sales value is small compared with the two oils
+Answers and explanations are at the end of the chapter.
+11.2  The split-off point and separable costs
+The split-off point is where the joint products become separately identifiable. All costs before it are joint costs: olives, crushing labor and crushing overhead, $1,400,000 for the batch.
+Costs after split-off that belong to one product are separable costs. Bottling adds $468,000 to EVOO and filtering adds $32,000 to VOO. Figure F211-03 marks the line between the two kinds of cost.
+Figure F211-03. Batch H-2711: the split-off point, joint and separable costs.
+Joint costs cannot be traced to one product, however hard managers try. Any split is an allocation. Separable costs can be traced, and they matter for every later decision.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+split-off point
+نقطة الانفصال
+point de séparation
+separable costs
+التكاليف المنفصلة
+coûts spécifiques
+English (exam term)
+العربية
+Français
+split-off point
+نقطة الانفصال
+point de séparation
+separable costs
+التكاليف المنفصلة
+coûts spécifiques
+SECTION CHECK   Test yourself
+SC211-3  The split-off point is:
+A.	where products are sold
+B.	where joint products become separately identifiable
+C.	the start of the joint process
+D.	where the by-product is thrown away
+SC211-4  Which is a separable cost of EVOO?
+A.	Olives used in crushing
+B.	Crushing labor
+C.	Bottling EVOO after split-off
+D.	Crushing overhead
+Answers and explanations are at the end of the chapter.
+11.3  Accounting for by-products
+Under the production method, the by-product's net realizable value is recorded as inventory at split-off and deducted from joint cost. Pomace sells for $120,000 with $20,000 of disposal costs, so its NRV is $100,000 and the joint products share $1,300,000.
+Under the sales method, nothing is recorded at split-off. The joint products share the full $1,400,000, and the by-product's net revenue is other income when it is sold. Figure F211-04 compares the two.
+Figure F211-04. By-products: production method and sales method
+Production method
+Sales method
+When is value recorded?
+At split-off, as inventory at NRV
+When the by-product is sold
+Joint cost to allocate
+1,400,000 − 100,000 = 1,300,000
+1,400,000
+Where does the value go?
+Lower cost of the joint products
+Other income in the period of sale
+Main benefit
+Matches the by-product's value to the batch
+Simple; no inventory to track
+Over time both methods give the same total income. The production method matches the by-product's value with the batch; the sales method is simpler. Orontes uses the production method.
+FALSE-FRIEND ALERT   Sous-produit, منتج عرضي
+French 'sous-produit' and Arabic منتج عرضي mean by-product. 'Coproduit' and منتج مشترك mean joint product. Do not translate 'by-product' as 'secondary product' in an exam answer: the accounting is different.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+production method (by-products)
+طريقة الإنتاج للمنتجات العرضية
+méthode de production (sous-produits)
+sales method (by-products)
+طريقة المبيعات للمنتجات العرضية
+méthode des ventes (sous-produits)
+English (exam term)
+العربية
+Français
+production method (by-products)
+طريقة الإنتاج للمنتجات العرضية
+méthode de production (sous-produits)
+sales method (by-products)
+طريقة المبيعات للمنتجات العرضية
+méthode des ventes (sous-produits)
+SECTION CHECK   Test yourself
+SC211-5  Under the production method for by-products:
+A.	by-product revenue is other income when sold
+B.	the by-product's NRV is deducted from joint cost at split-off
+C.	the by-product receives a share of joint cost like a joint product
+D.	the by-product is ignored
+SC211-6  Joint cost is $1,400,000. Pomace sells for $120,000 with $20,000 of disposal costs. Under the production method, what net joint cost is shared by the oils?
+A.	$1,280,000
+B.	$1,300,000
+C.	$1,400,000
+D.	$1,500,000
+Answers and explanations are at the end of the chapter.
+11.4  Physical measure and sales value at split-off
+The physical measure method shares joint cost in proportion to a physical quantity, such as liters. It is simple and needs no prices. But it ignores value: a liter of VOO takes the same share as a liter of EVOO, which sells for much more.
+WORKED EXAMPLE   Worked example: physical measure
+EVOO is 130,000 of the 200,000 liters, or 65%. Figure F211-05 gives EVOO $845,000 and VOO $455,000.
+Figure F211-05. Worked example: physical measure method
+Physical measure method
+Liters
+Share
+Joint cost allocated
+EVOO
+130,000
+65%
+845,000
+VOO
+70,000
+35%
+455,000
+Total
+200,000
+100%
+1,300,000
+The sales value at split-off method shares joint cost in proportion to each product's market value at split-off. It follows the idea that costs are shared by ability to bear them. It needs a market price at split-off, which not every product has.
+YOUR TURN   Sales value at split-off
+Figure F211-06 gives the sales values at split-off. Share the net joint cost of $1,300,000. Answers are at the end of the chapter.
+Figure F211-06. Your turn: sales value at split-off (complete the blanks)
+Sales value at split-off
+Calculation
+Sales value
+Joint cost allocated
+EVOO
+130,000 × $10.40
+1,352,000
+________
+VOO
+70,000 × $3.90
+273,000
+________
+Total
+1,625,000
+1,300,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+physical measure method
+طريقة المقياس المادي
+méthode des unités physiques
+sales value at split-off method
+طريقة القيمة البيعية عند نقطة الانفصال
+méthode de la valeur de vente au point de séparation
+English (exam term)
+العربية
+Français
+physical measure method
+طريقة المقياس المادي
+méthode des unités physiques
+sales value at split-off method
+طريقة القيمة البيعية عند نقطة الانفصال
+méthode de la valeur de vente au point de séparation
+SECTION CHECK   Test yourself
+SC211-7  Under the physical measure method, how much net joint cost goes to VOO (70,000 of 200,000 liters)?
+A.	$218,400
+B.	$455,000
+C.	$490,000
+D.	$845,000
+SC211-8  Under the sales value at split-off method, how much net joint cost goes to EVOO?
+A.	$845,000
+B.	$1,047,800
+C.	$1,081,600
+D.	$1,164,800
+Answers and explanations are at the end of the chapter.
+11.5  Net realizable value and constant gross margin
+The net realizable value method uses each product's final sales value minus its separable costs. It works when there is no market price at split-off. It is Orontes's policy method.
+The constant gross-margin percentage method first finds the gross margin of the whole batch, 28%. It then gives each product the joint cost that makes its own margin the same 28%. Figure F211-07 shows both methods step by step.
+Figure F211-07. NRV and constant gross-margin methods, step by step
+Batch H-2711 (whole USD)
+EVOO
+VOO
+Net realizable value method
+Final sales value
+2,080,000
+420,000
+Less separable costs
+(468,000)
+(32,000)
+NRV at split-off
+1,612,000
+388,000
+Joint cost allocated
+1,047,800
+252,200
+Constant gross margin (28% for the batch)
+Final sales value
+2,080,000
+420,000
+Less gross margin at 28%
+(582,400)
+(117,600)
+Total cost allowed
+1,497,600
+302,400
+Less separable costs
+(468,000)
+(32,000)
+Joint cost allocated
+1,029,600
+270,400
+Figure F211-08 compares all four methods. Each shares the same $1,300,000; they differ only in how much each product carries.
+Figure F211-08. Net joint cost allocated to EVOO and VOO under the four methods.
+EXAM TRAP   Final sales value, not NRV
+In the constant gross-margin method, apply the margin to final sales value, then deduct separable costs. Applying it to NRV gives the wrong joint cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+net realizable value method
+طريقة صافي القيمة القابلة للتحقق
+méthode de la valeur nette de réalisation
+constant gross-margin percentage method
+طريقة نسبة مجمل الربح الثابتة
+méthode du taux de marge brute constant
+English (exam term)
+العربية
+Français
+net realizable value method
+طريقة صافي القيمة القابلة للتحقق
+méthode de la valeur nette de réalisation
+constant gross-margin percentage method
+طريقة نسبة مجمل الربح الثابتة
+méthode du taux de marge brute constant
+SECTION CHECK   Test yourself
+SC211-9  What is VOO's net realizable value at split-off?
+A.	$252,200
+B.	$273,000
+C.	$388,000
+D.	$420,000
+SC211-10  In the constant gross-margin method, what is the batch gross-margin percentage?
+A.	48%
+B.	24%
+C.	72%
+D.	28%
+Answers and explanations are at the end of the chapter.
+11.6  Benefits, limitations and further processing
+Each method changes reported product margins. Figure F211-09 shows the effect: under the physical measure method VOO loses $67,000, although it is profitable under every value-based method.
+Figure F211-09. Product gross margins under each method
+Method
+EVOO joint cost
+EVOO gross margin
+VOO joint cost
+VOO gross margin
+Physical measure
+845,000
+767,000 (36.9%)
+455,000
+(67,000) (-16.0%)
+Sales value at split-off
+1,081,600
+530,400 (25.5%)
+218,400
+169,600 (40.4%)
+Net realizable value
+1,047,800
+564,200 (27.1%)
+252,200
+135,800 (32.3%)
+Constant gross margin
+1,029,600
+582,400 (28.0%)
+270,400
+117,600 (28.0%)
+The physical measure method is simple but ignores value. Sales value at split-off is fair and simple but needs split-off prices. NRV works without split-off prices but depends on estimates of separable costs. Constant gross margin gives every product the same margin, which may hide real differences.
+No allocation should drive a decision to sell at split-off or process further. That decision compares the extra revenue with the separable cost only; the joint cost is the same either way. Figure F211-10 shows that both oils are worth processing further.
+Figure F211-10. Sell at split-off or process further?
+Sell at split-off or process further?
+EVOO: bottle
+VOO: filter
+Sales value if processed further
+2,080,000
+420,000
+Sales value at split-off
+(1,352,000)
+(273,000)
+Incremental revenue
+728,000
+147,000
+Separable (incremental) cost
+(468,000)
+(32,000)
+Gain from processing further
+260,000
+115,000
+Joint cost
+irrelevant
+irrelevant
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sell-or-process-further decision
+قرار البيع أو الاستمرار في التشغيل
+décision de vendre ou de poursuivre la transformation
+English (exam term)
+العربية
+Français
+sell-or-process-further decision
+قرار البيع أو الاستمرار في التشغيل
+décision de vendre ou de poursuivre la transformation
+SECTION CHECK   Test yourself
+SC211-11  Which method can make a profitable joint product look like a loss?
+A.	Physical measure
+B.	Constant gross margin
+C.	Net realizable value
+D.	Sales value at split-off
+SC211-12  To decide whether to process VOO further, Orontes should compare:
+A.	total revenue with joint and separable costs
+B.	the extra revenue from further processing with the separable cost
+C.	the joint cost allocated to VOO with its final sales value
+D.	the VOO margin under each allocation method
+Answers and explanations are at the end of the chapter.
+11.7  Extended Example 11A: batch H-2711 at split-off
+This example records the split-off of batch H-2711 twice, once for each by-product method, and compares the results. The allocations are exam-core; the entries are for depth.
+1. Scenario
+Joint cost: $1,400,000.
+Outputs: EVOO 130,000 liters; VOO 70,000 liters; pomace 400,000 kg at $0.30, with $20,000 of disposal costs.
+Policy: NRV method for the joint products; production method for pomace.
+2. Plan
+Record the joint cost, split it at split-off under the production method, record the pomace sale, then repeat with the sales method and compare.
+3. Calculations
+Production method: net joint cost $1,300,000; EVOO $1,047,800; VOO $252,200.
+EVOO per liter: $1,047,800 ÷ 130,000 = $8.06, the transferred-in cost used in Chapter 7.
+Sales method: joint cost $1,400,000 on the same NRVs; EVOO $1,128,400; VOO $271,600.
+4. Recording
+Figure F211-11 records the batch under the production method: pomace enters inventory at NRV and is later sold. Figure F211-12 records it under the sales method: pomace's net revenue becomes other income.
+Figure F211-11. Extended Example: production method journal
+No.
+Account (detail)
+Debit
+Credit
+①
+WIP - Crushing
+1,400,000
+Raw Materials Inventory
+1,000,000
+Wages Payable
+120,000
+Manufacturing Overhead Applied
+280,000
+②
+Pomace (By-product) Inventory
+100,000
+WIP - Bottling
+1,047,800
+Finished Goods - VOO
+252,200
+WIP - Crushing
+1,400,000
+③
+Accounts Receivable
+120,000
+Pomace (By-product) Inventory
+100,000
+Cash
+20,000
+Totals
+2,920,000
+2,920,000
+Figure F211-12. Extended Example: sales method journal
+No.
+Account (detail)
+Debit
+Credit
+①
+WIP - Crushing
+1,400,000
+Raw Materials Inventory
+1,000,000
+Wages Payable
+120,000
+Manufacturing Overhead Applied
+280,000
+②
+WIP - Bottling
+1,128,400
+Finished Goods - VOO
+271,600
+WIP - Crushing
+1,400,000
+③
+Accounts Receivable
+120,000
+Cash
+20,000
+Other Income - By-product
+100,000
+Totals
+2,920,000
+2,920,000
+5. Comparing the methods
+Figure F211-13 puts the two side by side. The joint products carry $100,000 more cost under the sales method, and pomace adds the same $100,000 to other income. Total income over time is the same.
+Figure F211-13. Extended Example: the two by-product methods compared
+Batch H-2711, NRV method
+Production method
+Sales method
+Joint cost allocated to EVOO
+1,047,800
+1,128,400
+Joint cost allocated to VOO
+252,200
+271,600
+Pomace inventory at split-off
+100,000
+none
+Other income when pomace is sold
+none
+100,000
+Total effect on income over time
+the same
+the same
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Production method: $100,000 + $1,047,800 + $252,200 = $1,400,000.
+Sales method: $1,128,400 + $271,600 = $1,400,000.
+Batch margin: sales $2,500,000 − costs $1,800,000 = $700,000, or 28%.
+7. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+split-off point
+نقطة الانفصال
+point de séparation
+separable costs
+التكاليف المنفصلة
+coûts spécifiques
+net realizable value method
+طريقة صافي القيمة القابلة للتحقق
+méthode de la valeur nette de réalisation
+by-product
+المنتج العرضي
+sous-produit
+English (exam term)
+العربية
+Français
+split-off point
+نقطة الانفصال
+point de séparation
+separable costs
+التكاليف المنفصلة
+coûts spécifiques
+net realizable value method
+طريقة صافي القيمة القابلة للتحقق
+méthode de la valeur nette de réalisation
+by-product
+المنتج العرضي
+sous-produit
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect a joint cost, two or three products with volumes and prices, and sometimes a by-product. Deduct the by-product NRV first if the production method is used. Then build the base for the method asked, and never include joint costs in a process-further decision.
+9. Self-check
+SECTION CHECK   Test yourself
+SC211-13  Use the Extended Example. What is the joint cost per liter of EVOO under Orontes's policy?
+A.	$6.50
+B.	$8.06
+C.	$8.32
+D.	$10.40
+SC211-14  Use the Extended Example. Under the sales method for pomace, how much joint cost goes to EVOO (whole USD)?
+A.	1,047,800
+B.	1,081,600
+C.	1,128,400
+D.	1,400,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F211-14 brings the chapter together.
+Figure F211-14. Chapter 11 summary map: the key rule for each section.
+Joint products have significant value; by-products have small value. Costs before the split-off point are joint and must be allocated; costs after it are separable. By-products reduce joint cost at NRV under the production method or become income when sold under the sales method. The physical measure, sales value at split-off, NRV and constant gross-margin methods all share the same joint cost in different ways. Joint costs are irrelevant to the decision to process further.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P211-01  Joint cost is $90,000. Product A is 6,000 kg and product B is 3,000 kg. Under the physical measure method, how much goes to A?
+A.	$30,000
+B.	$45,000
+C.	$60,000
+D.	$90,000
+P211-02  Using P211-01, A sells for $10 per kg and B for $40 per kg at split-off. Under the sales value at split-off method, how much goes to A?
+A.	$30,000
+B.	$45,000
+C.	$60,000
+D.	$72,000
+P211-03  Joint cost is $55,000. A's final value is $100,000 with $20,000 of separable cost; B's final value is $50,000 with $20,000 of separable cost. Under the NRV method, how much goes to A?
+A.	$15,000
+B.	$27,500
+C.	$36,667
+D.	$40,000
+P211-04  Joint cost is $110,000. A: final value $120,000, separable cost $10,000. B: final value $80,000, separable cost $30,000. Under the constant gross-margin method, how much joint cost goes to A?
+A.	$55,000
+B.	$66,000
+C.	$80,000
+D.	$90,000
+P211-05  Joint costs are:
+A.	costs traced to one product after split-off
+B.	selling costs shared by products
+C.	costs of disposing of by-products
+D.	costs of a single process that yields several products, incurred before split-off
+P211-06  Under the sales method for by-products, the by-product's net revenue is recorded:
+A.	as a deduction from joint cost at split-off
+B.	as income when the by-product is sold
+C.	as a share of joint cost
+D.	as scrap in overhead
+P211-07  Joint cost is $200,000. A by-product sells for $36,000 with $6,000 of disposal costs. Under the production method, what is the net joint cost to allocate?
+A.	$164,000
+B.	$170,000
+C.	$194,000
+D.	$200,000
+P211-08  A product is worth $50,000 at split-off or $80,000 after $25,000 of further processing. Joint cost allocated to it is $20,000. Should it be processed further?
+A.	No: it loses $15,000
+B.	No: it adds nothing
+C.	Yes: it adds $5,000
+D.	Yes: it adds $30,000
+P211-09  A limitation of the NRV method is that it:
+A.	cannot be used without split-off prices
+B.	depends on estimates of final prices and separable costs
+C.	ignores sales value
+D.	gives every product the same margin
+P211-10  A benefit of the sales value at split-off method is that it:
+A.	works when products have no market at split-off
+B.	gives equal margins
+C.	needs no prices at all
+D.	shares cost by market value at split-off, without estimates of later costs
+P211-11  Products have no market price at split-off but do have final prices. Which method is most suitable?
+A.	Net realizable value
+B.	Sales value at split-off
+C.	Physical measure, because prices are unknown
+D.	No allocation is possible
+P211-12  Under the constant gross-margin method, every joint product:
+A.	has the same joint cost
+B.	has the same NRV
+C.	has the same gross-margin percentage
+D.	has the same volume
+P211-13  Scrap from a joint process that is sold for a token amount is usually recorded as:
+A.	a joint product
+B.	a reduction of overhead or as other income
+C.	a by-product inventory at NRV
+D.	a separable cost
+P211-14  Separable costs are:
+A.	costs before split-off
+B.	costs shared by all products
+C.	by-product disposal costs
+D.	costs after split-off that can be traced to one product
+P211-15  A joint process yields a gas measured in cubic meters and a liquid measured in liters. Why is the physical measure method weak here?
+A.	It is not allowed by GAAP
+B.	The units are not comparable
+C.	It always gives equal shares
+D.	It needs split-off prices
+P211-16  The price of pomace triples and it becomes a major source of revenue. Orontes should consider:
+A.	treating the oils as by-products
+B.	stopping all joint cost allocation
+C.	expensing the pomace revenue
+D.	treating pomace as a joint product and giving it a share of joint cost
+Case question: sesame processing
+Tahini & Spreads roasts and presses sesame in one joint process. The process yields two main products, tahini base and sesame oil, and a small amount of hulls. The hulls have a low value and are sold to a feed mill.
+Sesame oil is sold as it comes out of the press. Tahini base can also be sold at the split-off point, but the division usually processes it further into jarred tahini, which sells at a higher price. Further processing adds its own costs.
+Orontes values inventory under U.S. GAAP, so the joint cost of the process must be shared between the two main products. The division treats the hulls as a by-product and deducts their value from the joint cost before it shares the rest.
+Mona, the cost accountant, must allocate the joint cost with two methods for the controller's review. The sales team has also asked whether jarring the tahini base is still worth it now that jar prices have risen. The exhibit gives the volumes, prices and costs. The feed mill collects the hulls itself, so selling them costs the division nothing. Both main products are sold to the same Jordanian buyers throughout the year.
+Use Figure F211-15 for items C211-1 to C211-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F211-15. Case exhibit: sesame processing
+Tahini & Spreads · sesame processing · FY2027
+Data
+Joint cost of sesame processing
+500,000
+Tahini base: 60,000 kg
+$6.00/kg at split-off; $8.00/kg as jarred tahini after 60,000 of further cost
+Sesame oil: 20,000 liters
+$7.00/liter at split-off; sold at split-off
+Sesame hulls: 50,000 kg
+$0.20/kg; no disposal cost; production method
+C211-1  Classify each output of the sesame process. (On the exam screen you would drag each item into a box.)
+Categories: Joint product · By-product · Scrap
+Output
+Category
+Tahini base
+Sesame oil
+Sesame hulls
+Floor sweepings sold for a few dollars
+C211-2  Enter the net joint cost to allocate to the joint products.
+Answer: ____________
+C211-3  Enter the joint cost allocated to tahini base under the sales value at split-off method.
+Answer: ____________
+C211-4  Enter the joint cost allocated to sesame oil under the NRV method.
+Answer: ____________
+C211-5  Enter the gain from processing tahini base into jarred tahini.
+Answer: ____________
+C211-6  The joint cost allocated to tahini base should affect the decision to process it further: [select]
+Options: not at all, because it is the same either way   |   fully, because it is part of product cost   |   only under the NRV method   |   only if it exceeds the separable cost
+C211-7  Costs incurred after the split-off point that belong to one product are called ____ costs.
+Choose the word or phrase for the blank: separable   |   joint   |   common   |   sunk
+Answers and explanations
+Section checks
+SC211-1  Answer A. Relative sales value defines a by-product.
+B is wrong. Further processing does not make a product a by-product.
+C is wrong. That is a main joint product.
+D is wrong. Worthless waste is not a by-product.
+SC211-2  Answer D. The test is relative value.
+A is wrong. Weight is not the test.
+B is wrong. Joint products are also sold after split-off.
+C is wrong. Disposal costs do not decide the class.
+SC211-3  Answer B. After it, costs can be traced to each product.
+A is wrong. Sale can come much later.
+C is wrong. Joint costs are incurred after the start.
+D is wrong. By-products are usually sold.
+SC211-4  Answer C. It is incurred after split-off for EVOO only.
+A is wrong. Olives are a joint cost.
+B is wrong. Crushing labor is a joint cost.
+D is wrong. Crushing overhead is a joint cost.
+SC211-5  Answer B. Its NRV becomes inventory and lowers the cost to allocate.
+A is wrong. That is the sales method.
+C is wrong. By-products are not allocated like joint products.
+D is wrong. Its value is recorded.
+SC211-6  Answer B. Joint cost − by-product NRV.
+A is wrong. Disposal costs are left out of the NRV.
+C is wrong. The by-product NRV is not deducted.
+D is wrong. The NRV is added.
+SC211-7  Answer B. 35% of the net joint cost.
+A is wrong. This is the sales-value method.
+C is wrong. The by-product NRV is not deducted first.
+D is wrong. This is EVOO's share.
+SC211-8  Answer C. EVOO's sales value at split-off ÷ total.
+A is wrong. This is the physical measure method.
+B is wrong. This is the NRV method.
+D is wrong. The by-product NRV is not deducted first.
+SC211-9  Answer C. Final sales value − separable cost.
+A is wrong. This is the joint cost allocated, not the NRV.
+B is wrong. This is the sales value at split-off.
+D is wrong. Separable cost is not deducted.
+SC211-10  Answer D. (Final sales − net joint cost − separable costs) ÷ final sales.
+A is wrong. This leaves out separable costs.
+B is wrong. This does not deduct the by-product NRV from joint cost.
+C is wrong. This is the cost percentage.
+SC211-11  Answer A. It ignores the products' different values.
+B is wrong. It gives every product the same positive margin.
+C is wrong. It is based on value.
+D is wrong. It is based on value.
+SC211-12  Answer B. The joint cost is the same either way.
+A is wrong. Joint cost is irrelevant.
+C is wrong. The allocation does not change the decision.
+D is wrong. Allocations are irrelevant to it.
+SC211-13  Answer B. NRV allocation ÷ liters.
+A is wrong. This uses the physical measure method.
+C is wrong. This uses the split-off value method.
+D is wrong. This is the market price at split-off.
+SC211-14  Answer C. The full joint cost is shared on NRV.
+A is wrong. This is the production method.
+B is wrong. This is the split-off value method.
+D is wrong. VOO also takes a share.
+Your turn
+Item
+Answer
+EVOO
+1,352,000 ÷ 1,625,000 × 1,300,000 = 1,081,600
+VOO
+273,000 ÷ 1,625,000 × 1,300,000 = 218,400
+Multiple-choice questions
+P211-01  Answer C. 6,000 ÷ 9,000 of the joint cost.
+A is wrong. This is B's share.
+B is wrong. This splits equally.
+D is wrong. B also takes a share.
+P211-02  Answer A. A's value 60,000 ÷ total 180,000.
+B is wrong. This splits equally.
+C is wrong. This is the physical measure result.
+D is wrong. The values are reversed.
+P211-03  Answer D. A's NRV 80,000 ÷ total NRV 110,000.
+A is wrong. This is B's share.
+B is wrong. This splits equally.
+C is wrong. Separable costs are not deducted.
+P211-04  Answer C. Margin 25%; A's cost allowed 90,000 − separable 10,000.
+A is wrong. This splits equally.
+B is wrong. This shares on final sales value.
+D is wrong. Separable cost is not deducted.
+P211-05  Answer D. They cannot be traced to one product.
+A is wrong. Those are separable costs.
+B is wrong. Selling costs are period costs.
+C is wrong. Disposal costs reduce by-product NRV.
+P211-06  Answer B. Nothing is recorded at split-off.
+A is wrong. That is the production method.
+C is wrong. By-products are not allocated like joint products.
+D is wrong. By-products are not scrap.
+P211-07  Answer B. 200,000 − NRV 30,000.
+A is wrong. Disposal costs are left out of the NRV.
+C is wrong. Only the disposal cost is deducted.
+D is wrong. The NRV is not deducted.
+P211-08  Answer C. Extra revenue 30,000 − separable cost 25,000.
+A is wrong. The joint cost is irrelevant.
+B is wrong. The gain is positive.
+D is wrong. The separable cost is left out.
+P211-09  Answer B. Future prices and costs are estimates.
+A is wrong. It is used when split-off prices do not exist.
+C is wrong. It is based on value.
+D is wrong. That is constant gross margin.
+P211-10  Answer D. It uses observable prices.
+A is wrong. It needs split-off prices.
+B is wrong. That is constant gross margin.
+C is wrong. That is the physical measure method.
+P211-11  Answer A. NRV starts from final prices.
+B is wrong. It needs split-off prices.
+C is wrong. Final prices are known, so a value method is possible.
+D is wrong. NRV works.
+P211-12  Answer C. The method is built to equalize margins.
+A is wrong. Joint costs differ by product.
+B is wrong. NRVs differ.
+D is wrong. Volumes differ.
+P211-13  Answer B. Its value is too small to track.
+A is wrong. Its value is not significant.
+C is wrong. Scrap is simpler than a by-product.
+D is wrong. It is not a cost.
+P211-14  Answer D. They belong to one product.
+A is wrong. Those are joint costs.
+B is wrong. Shared costs are joint.
+C is wrong. Disposal costs reduce by-product NRV.
+P211-15  Answer B. A common physical unit is needed.
+A is wrong. It is allowed.
+C is wrong. Shares follow quantities.
+D is wrong. It needs no prices.
+P211-16  Answer D. Classification follows relative value.
+A is wrong. The oils remain major products.
+B is wrong. Joint costs must still be allocated for inventory.
+C is wrong. Revenue is not expensed.
+Case question: sesame processing
+C211-1
+Output
+Category
+Tahini base
+Joint product
+Sesame oil
+Joint product
+Sesame hulls
+By-product
+Floor sweepings sold for a few dollars
+Scrap
+Classify by relative sales value.
+C211-2  Answer: 490,000.
+500,000 is wrong: this answer does not deduct the hulls' NRV.
+C211-3  Answer: 352,800.
+360,000 is wrong: this answer allocates the gross joint cost.
+C211-4  Answer: 122,500.
+137,200 is wrong: this answer uses sales values at split-off.
+C211-5  Answer: 60,000.
+52,500 is wrong: this answer deducts the joint cost, which is irrelevant.
+C211-6  Answer: not at all, because it is the same either way.
+fully, because it is part of product cost is wrong: this answer joint costs are sunk for this decision.
+only under the NRV method is wrong: this answer no allocation method makes it relevant.
+only if it exceeds the separable cost is wrong: this answer joint cost is never relevant here.
+C211-7  Answer: separable.
+joint is wrong: this answer joint costs are incurred before split-off.
+common is wrong: this answer common costs are shared, not traced to one product.
+sunk is wrong: this answer separable costs are future costs that still matter for decisions.
+PART III
+Costing systems and business processes
+Chapters 12 to 18
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

@@ -1,0 +1,755 @@
+Chapter 18
+Setting Standards: The Standard Cost Card
+وضع المعايير: بطاقة التكلفة المعيارية
+Since Chapter 5 this book has used one number for a case of juice: a standard cost of $12.60. The division's controller did not invent it. It came from supplier quotes, a yield study, a stopwatch, the payroll and a long meeting with the line supervisors. This last chapter of Book 2 shows how.
+Figure F218-01 shows the three stages: study the work, set the standard, use it.
+Figure F218-01. Chapter 18 roadmap: study, set, use.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.2.l
+demonstrate an understanding of the use of cost standards in budgeting
+Explain how cost standards are used in budgeting.
+Full treatment
+B.2.m
+differentiate between ideal (theoretical) standards and currently attainable (practical) standards
+Tell ideal (theoretical) standards from currently attainable (practical) standards.
+Full treatment
+B.2.n
+differentiate between authoritative standards and participative standards
+Tell authoritative standards from participative standards.
+Full treatment
+B.2.o
+identify the steps to be taken in developing standards for both direct material and direct labor
+List the steps in setting direct material and direct labor standards.
+Full treatment + Extended Example
+B.2.p
+demonstrate an understanding of the techniques that are used to develop standards, such as activity analysis and the use of historical data
+Explain the techniques used to set standards, such as activity analysis and historical data.
+Full treatment
+D.5.j
+explain the concept of continuous improvement and how it relates to implementing ideal standards and quality improvements
+Explain how continuous improvement moves standards toward the ideal.
+Introduced (full in Chapter 16)
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+standard cost card
+بطاقة التكلفة المعيارية
+fiche de coût standard
+price standard
+معيار السعر
+norme de prix
+quantity standard
+معيار الكمية
+norme de quantité
+currently attainable standard
+المعيار الممكن التحقيق حاليًا
+norme réalisable (pratique)
+authoritative standard
+المعيار المفروض (السلطوي)
+norme imposée
+participative standard
+المعيار التشاركي
+norme participative
+activity analysis
+تحليل الأنشطة
+analyse des activités
+normal loss
+الفاقد العادي
+perte normale
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 used standard costing to cost products, and Chapter 16 treated the ideal standard as the direction of improvement. This chapter builds the standard cost card itself, and prepares the ground for variance analysis in Book 3.
+18.1  Cost standards in budgeting
+A standard is the expected cost of one unit of output under efficient conditions. The standard cost card lists, for one unit, the standard quantity and the standard price of every input.
+Budgets are built from the card: standard cost per unit times planned units. Figure F218-02 shows the idea for June 2028, when Beverages plans 75,000 cases.
+Figure F218-02. Standards in budgeting: card × planned volume = budget.
+WORKED EXAMPLE   Worked example: the June production budget
+Each input's standard quantity and price are multiplied by the planned cases. Figure F218-03 gives a standard cost of $945,000 for June, or $12.60 × 75,000.
+Figure F218-03. Worked example: the June 2028 production budget from standards
+June 2028: 75,000 cases
+Standard quantity × standard price
+Budget (USD)
+Concentrate
+450,000 liters × $0.90
+405,000
+Bottles
+900,000 bottles × $0.25
+225,000
+Caps and carton
+75,000 × $0.60
+45,000
+Direct labor
+3,750 hours × $12.00
+45,000
+Variable overhead
+1,500 machine hours × $50.00
+75,000
+Fixed overhead applied
+1,500 machine hours × $100.00
+150,000
+Standard cost of June production
+945,000
+The same standards later measure performance. When June ends, actual costs are compared with the standard cost of the actual output; the differences are variances, the subject of Book 3. Standards must therefore be reviewed each year, as prices and methods change.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+standard cost card
+بطاقة التكلفة المعيارية
+fiche de coût standard
+English (exam term)
+العربية
+Français
+standard cost card
+بطاقة التكلفة المعيارية
+fiche de coût standard
+SECTION CHECK   Test yourself
+SC218-1  How are cost standards used in budgeting?
+A.	Standard cost per unit × planned units gives the budgeted cost
+B.	They replace the budget
+C.	They are used only after the year ends
+D.	They set selling prices by law
+SC218-2  The standard cost of a case is $12.60. The division plans 75,000 cases in June. What is the budgeted standard cost?
+A.	$756,000
+B.	$894,600
+C.	$945,000
+D.	$1,260,000
+Answers and explanations are at the end of the chapter.
+18.2  Ideal and currently attainable standards
+An ideal standard assumes perfect conditions: no waste, no rest, no breakdowns. A currently attainable standard allows for normal loss, rest, setups and normal downtime. It is hard but possible for a trained team working efficiently.
+For juice labor, the ideal is 0.040 hours a case; the standard set is 0.050 hours. Figure F218-04 compares four views of the same job, including the engineers' first proposal and the average of the last twelve months.
+Figure F218-04. Four views of the labor time per case of juice.
+Figure F218-05 sets the two kinds of standard side by side. Budgets and product costs use attainable standards; the ideal shows how much waste is still left to remove.
+Figure F218-05. Ideal and currently attainable standards for juice labor
+Ideal (theoretical)
+Currently attainable (practical)
+Allowances
+None: perfect conditions
+Normal loss, rest, setups, normal downtime
+Juice labor per case
+0.040 hours
+0.050 hours
+Labor cost per case
+$0.48
+$0.60
+Best use
+Shows the direction of improvement (Chapter 16)
+Budgets, product costs and judging performance
+FALSE-FRIEND ALERT   Théorique ou réalisable, المثالي أو الممكن
+French 'norme théorique' and Arabic المعيار المثالي mean the ideal standard. 'Norme réalisable' or 'pratique' and المعيار الممكن التحقيق mean the attainable one. 'Norme normale' is not used in CMA English.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+currently attainable standard
+المعيار الممكن التحقيق حاليًا
+norme réalisable (pratique)
+English (exam term)
+العربية
+Français
+currently attainable standard
+المعيار الممكن التحقيق حاليًا
+norme réalisable (pratique)
+SECTION CHECK   Test yourself
+SC218-3  A currently attainable standard:
+A.	assumes perfect conditions
+B.	equals last year's actual result
+C.	is set by the tax authority
+D.	allows for normal loss, rest and normal downtime
+SC218-4  Basic filling time is 0.040 hours a case. Allowances for rest, cleaning and normal downtime add 0.010 hours. Which is the attainable time standard?
+A.	0.040 hours
+B.	0.050 hours
+C.	0.010 hours
+D.	0.056 hours
+Answers and explanations are at the end of the chapter.
+18.3  Authoritative and participative standards
+An authoritative standard is set by management or engineers alone. A participative standard is set with the people who must meet it. The juice labor standard started as an engineers' proposal of 0.045 hours a case.
+The line supervisors pointed out that the proposal had no time for cleaning between runs. After the discussion, the division set 0.050 hours. Figure F218-06 compares the two approaches.
+Figure F218-06. Authoritative and participative standards
+Authoritative (imposed)
+Participative
+Who sets it
+Management or engineers
+Managers with the people who must meet it
+Juice labor example
+Engineers proposed 0.045 hours
+Line supervisors added cleaning time: 0.050 hours
+Strength
+Fast; uses expert knowledge
+Realistic; people accept and own the standard
+Risk
+Resistance if people see it as unfair
+Loose standards if people pad them; slower
+Participation builds acceptance, because people help set the target. The risk is padding: people may ask for easy standards. Management keeps the final decision and checks the result against activity studies and history.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+authoritative standard
+المعيار المفروض (السلطوي)
+norme imposée
+participative standard
+المعيار التشاركي
+norme participative
+English (exam term)
+العربية
+Français
+authoritative standard
+المعيار المفروض (السلطوي)
+norme imposée
+participative standard
+المعيار التشاركي
+norme participative
+SECTION CHECK   Test yourself
+SC218-5  A standard set by engineers without consulting the people who must meet it is:
+A.	a participative standard
+B.	a historical standard
+C.	an authoritative standard
+D.	an attainable standard by definition
+SC218-6  What is the main risk of a participative standard?
+A.	People reject it as unfair
+B.	People may pad it to make it easy
+C.	It ignores the people doing the work
+D.	It cannot be used for budgeting
+Answers and explanations are at the end of the chapter.
+18.4  Steps in setting direct material and direct labor standards
+Each input needs two standards: a quantity standard and a price standard. For labor they are called the time standard and the rate standard. Figure F218-07 shows what goes into each.
+Figure F218-07. The steps in setting materials and labor standards.
+WORKED EXAMPLE   Worked example: the concentrate price standard
+The supplier's list price is $0.88 a liter. The division deducts the quantity discount and adds freight and the cost of receiving and testing. Figure F218-08 gives a price standard of $0.90 a liter.
+Figure F218-08. Worked example: the concentrate price standard
+Concentrate
+Per liter
+List price per liter
+$0.88
+Less: quantity discount
+$(0.04)
+Add: freight to Amman
+$0.05
+Add: receiving and testing
+$0.01
+Price standard per liter
+$0.90
+The quantity standard starts from the net concentrate in one case and allows for normal loss, such as tank residue and spillage on the line. Abnormal waste is not included; it will show as a variance.
+YOUR TURN   The concentrate quantity standard
+Complete the two blank rows of Figure F218-09. Answers are at the end of the chapter.
+Figure F218-09. Your turn: the concentrate quantity standard (complete the blanks)
+Concentrate per case
+Amount
+Net concentrate in one case of juice
+5.4 liters
+Normal yield (tank residue, line spillage)
+90%
+Quantity standard (net ÷ yield)
+________
+Normal loss built in
+________
+The labor standard follows the same logic. Figure F218-10 builds the time standard from a time study plus allowances, and the rate standard from the wage plus payroll taxes and benefits. The result is $0.60 a case.
+Figure F218-10. The direct labor standard for juice
+Juice direct labor
+Amount
+Basic time per case (time study)
+0.040 h
+Rest and personal allowance
+0.004 h
+Setup and cleaning allowance
+0.004 h
+Normal downtime allowance
+0.002 h
+Time standard per case
+0.050 h
+Wage per hour
+$10.00
+Payroll taxes and benefits per hour
+$2.00
+Rate standard per hour
+$12.00
+Direct labor standard per case
+$0.60
+EXAM TRAP   Complete price and quantity standards
+Exam options often use the list price, or the net quantity without normal loss, or the wage without benefits. The correct standard includes all normal costs of getting the input ready for use.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+quantity standard
+معيار الكمية
+norme de quantité
+price standard
+معيار السعر
+norme de prix
+normal loss
+الفاقد العادي
+perte normale
+English (exam term)
+العربية
+Français
+quantity standard
+معيار الكمية
+norme de quantité
+price standard
+معيار السعر
+norme de prix
+normal loss
+الفاقد العادي
+perte normale
+SECTION CHECK   Test yourself
+SC218-7  List price is $0.88 a liter, the discount is $0.04, freight is $0.05 and receiving is $0.01. What is the price standard?
+A.	$0.88
+B.	$0.90
+C.	$0.93
+D.	$0.98
+SC218-8  A case contains 5.4 liters of net concentrate, and normal yield is 90%. What is the quantity standard?
+A.	5.4 liters
+B.	4.9 liters
+C.	5.9 liters
+D.	6.0 liters
+Answers and explanations are at the end of the chapter.
+18.5  Techniques for setting standards
+Activity analysis sets a standard by studying how the work should be done: time and motion studies, recipes and engineering tests. The juice time study found a basic time of 0.040 hours a case.
+Historical data uses past results. Over the last twelve months, labor averaged 0.056 hours a case, and the best month reached 0.052. Figure F218-11 compares the two techniques.
+Figure F218-11. Activity analysis and historical data compared
+Activity analysis
+Historical data
+How
+Study each step: time and motion studies, recipes, engineering tests
+Average past results, adjusted for known changes
+Strength
+Builds the standard from how the work should be done
+Quick and cheap; based on real results
+Weakness
+Takes time and expertise
+Copies past waste and inefficiency
+Juice example
+Time study: 0.040 h + allowances
+12-month average 0.056 h; best month 0.052 h
+History is quick and real, but it copies past waste. Figure F218-12 shows why the division did not simply use the average: the best months show that 0.050 hours is attainable. Good practice combines both techniques.
+Figure F218-12. Twelve months of labor hours per case against the standard.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+activity analysis
+تحليل الأنشطة
+analyse des activités
+English (exam term)
+العربية
+Français
+activity analysis
+تحليل الأنشطة
+analyse des activités
+SECTION CHECK   Test yourself
+SC218-9  Setting a labor standard from a time and motion study is:
+A.	historical data
+B.	participative budgeting
+C.	activity analysis
+D.	variance analysis
+SC218-10  Why did Beverages not use the 12-month average of 0.056 hours as its labor standard?
+A.	The average is too hard to reach
+B.	Historical data are not allowed
+C.	The average is an ideal standard
+D.	The average contains past waste; the best months show 0.050 is attainable
+Answers and explanations are at the end of the chapter.
+18.6  Extended Example 18A: the juice standard cost card
+This example puts every standard on one card and shows where each number came from. It is exam-core.
+1. Materials
+Concentrate: 5.4 liters net ÷ 90% yield = 6.0 liters, at $0.90 a liter.
+Bottles, caps and carton: from the Jordan Glass and supplier contracts.
+2. Labor and overhead
+Direct labor: 0.050 hours at $12.00 an hour.
+Overhead: 0.02 machine hours at the variable and fixed rates from the Chapter 8 budget.
+3. The card
+Figure F218-13 is the complete card, with the source of each line. The total is $12.60 a case, the standard used throughout Book 2.
+Figure F218-13. Extended Example: the juice standard cost card
+Input
+Quantity
+Price
+Cost
+Source
+Concentrate
+6.0 liters
+$0.90
+$5.40
+Supplier quote + yield study
+Bottles
+12
+$0.25
+$3.00
+Jordan Glass contract
+Caps and carton
+1
+$0.60
+$0.60
+Supplier contract
+Direct labor
+0.050 h
+$12.00
+$0.60
+Time study + payroll
+Variable overhead
+0.02 MH
+$50.00
+$1.00
+Overhead budget (Chapter 8)
+Fixed overhead
+0.02 MH
+$100.00
+$2.00
+Overhead budget (Chapter 8)
+Standard cost per case
+$12.60
+4. Tie line
+WORKED EXAMPLE   Everything ties
+$5.40 + $3.00 + $0.60 + $0.60 + $1.00 + $2.00 = $12.60.
+$12.60 × 75,000 cases = $945,000, the June budget in Figure F218-03.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+standard cost card
+بطاقة التكلفة المعيارية
+fiche de coût standard
+currently attainable standard
+المعيار الممكن التحقيق حاليًا
+norme réalisable (pratique)
+activity analysis
+تحليل الأنشطة
+analyse des activités
+English (exam term)
+العربية
+Français
+standard cost card
+بطاقة التكلفة المعيارية
+fiche de coût standard
+currently attainable standard
+المعيار الممكن التحقيق حاليًا
+norme réalisable (pratique)
+activity analysis
+تحليل الأنشطة
+analyse des activités
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect a list price, discounts, freight, a net quantity, a yield, a basic time with allowances and a wage with benefits. Build each price and quantity standard in full, multiply, and add the lines to get the standard cost per unit.
+7. Self-check
+SECTION CHECK   Test yourself
+SC218-11  Use the Extended Example. What is the standard cost of concentrate per case?
+A.	$4.86
+B.	$5.28
+C.	$5.40
+D.	$12.60
+SC218-12  Use the Extended Example. What is the direct labor standard per case?
+A.	$0.48
+B.	$0.50
+C.	$0.60
+D.	$0.67
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F218-14 brings the chapter together.
+Figure F218-14. Chapter 18 summary map: the key rule for each section.
+Standards turn into budgets by multiplying the cost per unit by planned output, and later measure actual performance. Currently attainable standards allow for normal loss and breaks; ideal standards show the direction of improvement. Participative standards build acceptance, while management keeps the final decision. A price standard includes discounts, freight and receiving; a quantity standard includes normal loss; labor standards add allowances and benefits. Activity analysis and historical data are used together to set standards that are demanding but fair.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P218-01  Why should standards be reviewed at least once a year?
+A.	GAAP requires new standards each month
+B.	Old standards are always too hard
+C.	Prices, methods and yields change
+D.	Budgets do not use standards
+P218-02  A standard calls for 6 liters of concentrate a case at $0.90. How much concentrate cost is budgeted for 50,000 cases?
+A.	$45,000
+B.	$243,000
+C.	$270,000
+D.	$300,000
+P218-03  An ideal standard:
+A.	allows for normal machine breakdowns
+B.	is based on last year's results
+C.	is set by the workers
+D.	assumes perfect conditions and is rarely met
+P218-04  A plant uses ideal standards to judge its supervisors. What is the most likely result?
+A.	Unfavorable variances every month and lower motivation
+B.	Higher motivation
+C.	More accurate budgets
+D.	Lower product costs at once
+P218-05  Which standard is best for budgets and product costs?
+A.	Ideal
+B.	Currently attainable
+C.	Last year's actual
+D.	The industry maximum
+P218-06  A participative standard is set:
+A.	by the auditors
+B.	by engineers alone
+C.	with the people who must meet it
+D.	from last year's results only
+P218-07  Engineers propose 0.045 hours a case. Supervisors show that cleaning between runs needs more time, and the division sets 0.050. Which statement is correct?
+A.	The final standard is authoritative
+B.	The final standard is ideal
+C.	The final standard is historical
+D.	The final standard is participative, with management's final approval
+P218-08  Which item belongs in a direct material price standard?
+A.	Freight to bring the material in
+B.	The factory manager's salary
+C.	Selling commissions
+D.	Rent of the head office
+P218-09  Sesame costs $2.40 a kg list, less a $0.10 discount, plus $0.15 freight and $0.05 receiving. What is the price standard?
+A.	$2.40
+B.	$2.50
+C.	$2.60
+D.	$2.70
+P218-10  A jar needs 0.48 kg of sesame net, and normal yield is 96%. What is the quantity standard?
+A.	0.46 kg
+B.	0.48 kg
+C.	0.52 kg
+D.	0.50 kg
+P218-11  The wage is $12.50 an hour and payroll taxes and benefits are $2.50 an hour. The time standard is 0.012 hours a jar. What is the labor standard per jar?
+A.	$0.03
+B.	$0.12
+C.	$0.15
+D.	$0.18
+P218-12  Which allowance belongs in a labor time standard?
+A.	Rest breaks and normal cleaning between runs
+B.	Time lost in a strike
+C.	Time spent reworking a batch ruined by carelessness
+D.	A week-long machine failure
+P218-13  The main weakness of standards based on historical data is that they:
+A.	are expensive to prepare
+B.	need engineers
+C.	may copy past waste and inefficiency
+D.	are always too hard
+P218-14  Activity analysis sets standards by:
+A.	averaging past results
+B.	asking competitors
+C.	using the tax rules
+D.	studying each step of the work: time studies, recipes and tests
+P218-15  Over 12 months, labor per case ranged from 0.052 to 0.059 hours, averaging 0.056. A time study gives 0.040 basic time plus 0.010 of allowances. What is the best standard?
+A.	0.056 hours, the average
+B.	0.050 hours, supported by the study and the best month
+C.	0.040 hours, the basic time
+D.	0.059 hours, the worst month
+P218-16  A new product has no history. Which technique must the company use to set its standards?
+A.	Activity analysis
+B.	Historical data
+C.	Variance analysis
+D.	Last year's budget
+P218-17  Beverages cuts juice labor from 0.050 to 0.047 hours a case through kaizen. The ideal is 0.040. How should the standard change?
+A.	Move the attainable standard to 0.047 and keep 0.040 as the direction
+B.	Set the standard at 0.040 at once
+C.	Keep 0.050, because standards never change
+D.	Raise the standard to 0.056, the historical average
+Case question: the tahini jar standard
+Tahini & Spreads is setting new standards for its 500 g tahini jar before the 2028 budget. The old standard was set years ago by the engineers alone, and the filling team has always said it was impossible to meet. Because the jars are sold to Barada under a fixed-price contract, the new standards will also be used to check whether the contract price still covers the product cost.
+The cost accountant, Rania, has collected the data. The sesame supplier's list price, the quantity discount, freight and the cost of testing each delivery are known. A yield study shows the normal loss of sesame between the tank and the jar.
+An industrial engineer timed the filling of jars with a stopwatch. The filling team then explained that rest breaks and cleaning between runs had never been allowed for. Payroll has provided the wage and the cost of payroll taxes and benefits per hour.
+Rania must set the price and quantity standards for sesame and the labor standard per jar, working with the filling team this time. The division manager also wants to understand the difference between the kinds of standards before he approves the new card.
+Use Figure F218-15 for items C218-1 to C218-7.
+How to enter answers: Enter per-kg and per-jar amounts in U.S. dollars to two decimals and quantities in kg to two decimals, without the $ sign (for example, 2.35).
+Figure F218-15. Case exhibit: data for the tahini jar standard
+Tahini jar standard: data
+Amount
+Sesame paste list price per kg
+$2.40
+Quantity discount per kg
+$(0.10)
+Freight per kg
+$0.15
+Receiving and testing per kg
+$0.05
+Net sesame in one 500 g jar
+0.48 kg
+Normal yield
+96%
+Jar and lid
+$0.35
+Basic filling time per jar
+0.010 h
+Rest and personal allowance
+0.001 h
+Cleaning allowance
+0.001 h
+Wage per hour
+$12.50
+Payroll taxes and benefits per hour
+$2.50
+C218-1  Classify each statement about standards. (On the exam screen you would drag each item into a box.)
+Categories: Ideal · Currently attainable · Authoritative · Participative
+Statement
+Category
+Assumes no waste, breaks or downtime
+Allows for normal loss and rest breaks
+Set by the engineers without asking the filling team
+Set together with the filling team
+Shows the direction for kaizen
+C218-2  Enter the price standard for sesame paste per kg.
+Answer: ____________
+C218-3  Enter the quantity standard for sesame per jar, in kg.
+Answer: ____________
+C218-4  Enter the standard sesame cost per jar.
+Answer: ____________
+C218-5  Enter the direct labor standard per jar.
+Answer: ____________
+C218-6  The rest and cleaning allowances belong in the time standard because: [select]
+Options: they are part of efficient, normal work   |   they make the standard easy   |   the engineers forgot them   |   GAAP requires them
+C218-7  Setting the filling time with a stopwatch study of each step is called ____ analysis.
+Choose the word or phrase for the blank: activity   |   historical   |   variance   |   trend
+Answers and explanations
+Section checks
+SC218-1  Answer A. The card is multiplied by the planned volume.
+B is wrong. They are the building blocks of the budget.
+C is wrong. They are used before and after.
+D is wrong. Prices are a separate decision.
+SC218-2  Answer C. Standard per case × planned cases.
+A is wrong. This uses $10.08 a case.
+B is wrong. The multiplication is wrong.
+D is wrong. This uses 100,000 cases.
+SC218-3  Answer D. It is hard but possible.
+A is wrong. That is an ideal standard.
+B is wrong. History may contain waste.
+C is wrong. Unrelated.
+SC218-4  Answer B. Basic time plus normal allowances.
+A is wrong. This is the ideal standard.
+C is wrong. This is the allowances only.
+D is wrong. This is the historical average.
+SC218-5  Answer C. It is imposed from above.
+A is wrong. Participative standards involve the workers.
+B is wrong. It comes from engineering, not history.
+D is wrong. It may or may not be attainable.
+SC218-6  Answer B. Management must check the result.
+A is wrong. That is the risk of an authoritative standard.
+C is wrong. It involves them by definition.
+D is wrong. It is used for budgeting.
+SC218-7  Answer B. List − discount + freight + receiving.
+A is wrong. This is the list price.
+C is wrong. The discount is not deducted.
+D is wrong. The discount is added.
+SC218-8  Answer D. Net ÷ yield.
+A is wrong. Normal loss is left out.
+B is wrong. The loss is deducted instead of added.
+C is wrong. 10% is added to the wrong base.
+SC218-9  Answer C. It studies how the work should be done.
+A is wrong. History uses past results.
+B is wrong. That is about who sets it.
+D is wrong. That compares actual with standard.
+SC218-10  Answer D. History copies past inefficiency.
+A is wrong. It is easier, not harder.
+B is wrong. History is allowed as one input.
+C is wrong. The ideal is 0.040.
+SC218-11  Answer C. 6.0 liters × $0.90.
+A is wrong. This uses the net quantity.
+B is wrong. This uses the list price.
+D is wrong. This is the whole card.
+SC218-12  Answer C. 0.050 hours × $12.00.
+A is wrong. This uses the ideal time.
+B is wrong. This leaves benefits out of the rate.
+D is wrong. This uses the historical average.
+Your turn
+Item
+Answer
+Quantity standard
+5.4 ÷ 90% = 6.0 liters
+Normal loss built in
+6.0 − 5.4 = 0.6 liters
+Multiple-choice questions
+P218-01  Answer C. Out-of-date standards give misleading budgets and variances.
+A is wrong. No such rule exists.
+B is wrong. They may be too easy or too hard.
+D is wrong. Budgets are built from standards.
+P218-02  Answer C. Cases × quantity standard × price standard.
+A is wrong. The quantity per case is left out.
+B is wrong. This uses 5.4 liters.
+D is wrong. This uses $1.00 a liter.
+P218-03  Answer D. It has no allowances.
+A is wrong. That is an attainable standard.
+B is wrong. That is a historical standard.
+C is wrong. That describes who sets it.
+P218-04  Answer A. An impossible target is never met.
+B is wrong. Impossible targets discourage effort.
+C is wrong. Budgets become unrealistic.
+D is wrong. Costs do not fall by setting a target.
+P218-05  Answer B. It reflects efficient normal work.
+A is wrong. It is never reached.
+C is wrong. It may contain waste.
+D is wrong. Not a standard for the company's own work.
+P218-06  Answer C. The people doing the work take part.
+A is wrong. Auditors do not set standards.
+B is wrong. That is authoritative.
+D is wrong. That is a technique, not an approach.
+P218-07  Answer D. The people doing the work shaped it.
+A is wrong. The line took part.
+B is wrong. It includes allowances.
+C is wrong. It comes from the discussion and the time study.
+P218-08  Answer A. It is a normal cost of getting the material ready for use.
+B is wrong. That is overhead.
+C is wrong. That is a selling cost.
+D is wrong. That is a period cost.
+P218-09  Answer B. List − discount + freight + receiving.
+A is wrong. This is the list price.
+C is wrong. The discount is not deducted.
+D is wrong. The discount is added.
+P218-10  Answer D. Net ÷ yield.
+A is wrong. The loss is deducted.
+B is wrong. Normal loss is left out.
+C is wrong. The loss is overstated.
+P218-11  Answer D. Time standard × full rate.
+A is wrong. This uses benefits only.
+B is wrong. The rate is misread.
+C is wrong. Benefits are left out.
+P218-12  Answer A. Normal allowances only.
+B is wrong. Abnormal events are variances.
+C is wrong. Abnormal waste is a variance.
+D is wrong. Abnormal downtime is a variance.
+P218-13  Answer C. The past includes mistakes.
+A is wrong. History is cheap.
+B is wrong. That is activity analysis.
+D is wrong. They are usually too easy.
+P218-14  Answer D. It builds the standard from how the work should be done.
+A is wrong. That is historical data.
+B is wrong. That is benchmarking.
+C is wrong. Unrelated.
+P218-15  Answer B. Combine activity analysis with clean history.
+A is wrong. The average contains waste.
+C is wrong. This is ideal.
+D is wrong. This builds waste into the standard.
+P218-16  Answer A. Without history, the work must be studied.
+B is wrong. There is no history.
+C is wrong. Variances need a standard first.
+D is wrong. The product was not in last year's budget.
+P218-17  Answer A. Each improvement moves the attainable standard closer to the ideal.
+B is wrong. The ideal is not yet attainable.
+C is wrong. Standards are reviewed as methods improve.
+D is wrong. History contains past waste.
+Case question: the tahini jar standard
+C218-1
+Statement
+Category
+Assumes no waste, breaks or downtime
+Ideal
+Allows for normal loss and rest breaks
+Currently attainable
+Set by the engineers without asking the filling team
+Authoritative
+Set together with the filling team
+Participative
+Shows the direction for kaizen
+Ideal
+Ideal and attainable describe how demanding a standard is; authoritative and participative describe who sets it.
+C218-2  Answer: 2.50.
+2.40 is wrong: this answer uses the list price only.
+C218-3  Answer: 0.50.
+0.48 is wrong: this answer leaves out the normal loss.
+C218-4  Answer: 1.25.
+1.15 is wrong: this answer uses the list price and the net quantity.
+C218-5  Answer: 0.18.
+0.15 is wrong: this answer uses the basic time with no allowances.
+C218-6  Answer: they are part of efficient, normal work.
+they make the standard easy is wrong: this answer normal allowances keep the standard attainable, not easy.
+the engineers forgot them is wrong: this answer the reason is what normal work needs, not who forgot.
+GAAP requires them is wrong: this answer it is a management standard.
+C218-7  Answer: activity.
+historical is wrong: this answer historical data use past results.
+variance is wrong: this answer variance analysis compares actual with standard.
+trend is wrong: this answer trend analysis looks at changes over time.

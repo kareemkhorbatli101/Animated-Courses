@@ -26,8 +26,11 @@ SECPAT = re.compile(r'^(\d{1,2}\.\d{1,2})\s{2}(.+)$', re.M)
 ARABIC = re.compile(r'[؀-ۿ]')
 
 
-def load(n):
-    return open(os.path.join(HERE, 'src', 'b1_ch%02d.txt' % n),
+BOOK = 1          # set by parse(); the two books differ only in their ids
+
+
+def load(n, bk=None):
+    return open(os.path.join(HERE, 'src', 'b%d_ch%02d.txt' % (bk or BOOK, n)),
                 encoding='utf-8').read()
 
 
@@ -88,8 +91,8 @@ def answers(src):
         return {}
     blob = tail[-1]
     out = {}
-    pat = re.compile(r'^((?:SC\d{1,2}-\d{1,2}|P\d{1,2}-\d{2}|P\d{2}|'
-                     r'C\d{1,2}-\d))\s{2}'
+    pat = re.compile(r'^((?:SC\d{1,3}-\d{1,2}|P\d{1,3}-\d{2}|P\d{2}|'
+                     r'C\d{1,3}-\d))\s{2}'
                      r'(?:Answer\s+([A-D])\.?\s*)?(.*)$', re.M)
     ms = list(pat.finditer(blob))
     for i, m in enumerate(ms):
@@ -103,16 +106,24 @@ def answers(src):
 
 
 def jload(n):
-    f = os.path.join(HERE, 'src', 'b1_ch%02d.json' % n)
+    f = os.path.join(HERE, 'src', 'b%d_ch%02d.json' % (BOOK, n))
     if not os.path.exists(f):
         return dict(tables=[], figures={})
     d = json.load(open(f, encoding='utf-8'))
-    return d if isinstance(d, dict) else dict(tables=d, figures={})
+    if not isinstance(d, dict):
+        d = dict(tables=d, figures={})
+    d.setdefault('tsec', {})
+    return d
 
 
 def jtables(n):
     """The chapter's tables as they really are, from extract.py."""
     return jload(n)['tables']
+
+
+def jtsec(n):
+    """Table index (as a string) -> the section it appears in."""
+    return jload(n)['tsec']
 
 
 def jfigures(n):
@@ -189,7 +200,10 @@ def tables(src):
     return out
 
 
-def parse(n):
+def parse(n, bk=None):
+    global BOOK
+    if bk:
+        BOOK = bk
     src = load(n)
     title = src.split('\n')[1] if src.startswith('Chapter') else ''
     bx = boxes(src)
@@ -203,21 +217,22 @@ def parse(n):
         sections=sections(body),
         boxes=bx,
         box_counts=collections.Counter(b['kind'] for b in bx),
-        sc=mcq_items(body, r'^(SC\d{1,2}-\d{1,2})\s{2}'),
-        p=mcq_items(body, r'^(P\d{1,2}-\d{2}|P\d{2})\s{2}'),
-        case=re.findall(r'^(C\d{1,2}-\d)\s{2}(.+)$', body, re.M),
+        sc=mcq_items(body, r'^(SC\d{1,3}-\d{1,2})\s{2}'),
+        p=mcq_items(body, r'^(P\d{1,3}-\d{2}|P\d{2})\s{2}'),
+        case=re.findall(r'^(C\d{1,3}-\d)\s{2}(.+)$', body, re.M),
         answers=ans,
         terms=terms, keyterms=key,
         tables=jtables(n),
         figures=jfigures(n),
+        tsec=jtsec(n),
         written=bool(re.search(r'^W\d\s{2}', body, re.M)),
     )
 
 
-def inventory():
+def inventory(bk=1):
     rows = []
     for n in range(1, 19):
-        d = parse(n)
+        d = parse(n, bk)
         rows.append(d)
     print('%-3s %-54s %6s %4s %4s %4s %4s %4s %5s %5s'
           % ('ch', 'title', 'chars', 'sec', 'SC', 'P', 'case', 'tbl',
@@ -239,12 +254,13 @@ def inventory():
 
 
 if __name__ == '__main__':
+    bk = int(os.environ.get('CMA_BOOK', '1'))
     if len(sys.argv) > 1:
-        d = parse(int(sys.argv[1]))
+        d = parse(int(sys.argv[1]), bk)
         print(json.dumps({k: (v if k not in ('sections', 'boxes') else
                               [{kk: (vv[:200] if isinstance(vv, str) else vv)
                                 for kk, vv in s.items()} for s in v])
                           for k, v in d.items()
                           if k != 'answers'}, ensure_ascii=False, indent=1)[:4000])
     else:
-        inventory()
+        inventory(bk)

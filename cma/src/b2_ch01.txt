@@ -1,0 +1,861 @@
+Chapter 1
+Cost Objects, Pools and Drivers
+أهداف التكلفة ومجمعاتها ومسبباتها
+Book 1 looked at Orontes from the outside, through its financial statements. Book 2 looks inside. Managers need to know what a product, an order or a customer costs, so that they can set prices, control spending and value inventory.
+This chapter gives you the language of cost management. Figure F201-01 shows the first idea: a cost object can be as large as the company or as small as one job.
+Figure F201-01. Chapter 1 roadmap: cost objects from Orontes down to one job.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.1.b
+identify cost objects and cost pools, and assign costs to appropriate activities
+Identify cost objects and cost pools, and assign costs to the right activities.
+Full treatment
+D.1.c
+demonstrate an understanding of the nature and types of cost drivers and the causal relationship that exists between cost drivers and costs incurred
+Explain the types of cost drivers and the causal link between drivers and costs.
+Full treatment
+D.1.d
+demonstrate an understanding of the various methods for measuring costs and accumulating work-in-process and finished goods inventories
+Describe the methods for measuring costs and accumulating work in process and finished goods.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cost object
+هدف التكلفة
+objet de coût
+cost pool
+مجمع التكلفة
+regroupement de coûts
+cost driver
+مسبب التكلفة
+inducteur de coût
+direct cost
+تكلفة مباشرة
+coût direct
+indirect cost
+تكلفة غير مباشرة
+coût indirect
+product cost
+تكلفة المنتج
+coût du produit (coût incorporable)
+period cost
+تكلفة الفترة
+charge de la période
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+WHAT YOU ALREADY KNOW   What you already know
+In Book 1 you met inventory, cost of goods sold and the idea that expenses are matched with revenue. You also saw that Orontes carries inventory at cost under ASC 330. This book explains how that cost is built.
+1.1  Cost objects
+A cost object is anything for which a separate cost is measured. At Orontes it can be a division, a product line, one private-label job, a customer such as Barada Wholesale, or an activity such as machine setups.
+Managers choose cost objects to answer questions. What does job T-0303 cost? Is the halva line profitable? How much does it cost to serve Barada? Each question needs a different cost object.
+The same cost can be treated differently for different cost objects. That is why the next section always asks: direct or indirect for which cost object?
+SECTION CHECK   Test yourself
+SC201-1  Which of the following is a cost object?
+A.	Depreciation of the grinding mill
+B.	Job T-0303
+C.	Machine hours
+D.	Accounts payable
+SC201-2  The salary of the tahini line supervisor is a direct cost of:
+A.	the Tahini & Spreads division
+B.	one private-label job
+C.	one jar of tahini
+D.	the customer Barada Wholesale
+Answers and explanations are at the end of the chapter.
+1.2  Classifying costs
+A direct cost can be traced to a cost object in an economical way. An indirect cost cannot, so it must be allocated. The supervisor of the tahini line is indirect for one job, but direct for the Tahini & Spreads division.
+A second classification matters for the statements. Product costs are direct materials, direct labor and manufacturing overhead; they go to inventory first. Period costs are selling and administrative costs; they are expensed when incurred. Figure F201-02 shows both paths.
+Figure F201-02. Product costs go to inventory and then COGS; period costs are expensed at once.
+Two totals appear often in exam questions. Prime cost is direct materials plus direct labor. Conversion cost is direct labor plus manufacturing overhead: the cost of turning materials into products.
+WORKED EXAMPLE   Worked example: classifying Tahini & Spreads costs
+Figure F201-03 classifies ten costs, with one job as the cost object. Notice that supervision, depreciation and the Quality Lab charge are product costs but indirect: they reach the job only through overhead. Delivery to Barada is a period cost, even though it relates to a sale.
+Figure F201-03. Worked example: classifying ten Tahini & Spreads costs
+Tahini & Spreads cost (cost object: one job)
+Direct / indirect
+Product / period
+Sesame paste used in job T-0303
+Direct
+Product
+Jars and labels for job T-0303
+Direct
+Product
+Wages of operators working on job T-0303
+Direct
+Product
+Factory supervisor's salary
+Indirect
+Product
+Depreciation of the grinding mill
+Indirect
+Product
+Cleaning chemicals for the factory
+Indirect
+Product
+Quality Lab charge to the division
+Indirect
+Product
+Sales commissions
+—
+Period
+Head-office salaries
+—
+Period
+Delivery of goods to Barada
+—
+Period
+FALSE-FRIEND ALERT   Coût de revient, تكلفة الإنتاج
+French 'coût de revient' is full cost, including distribution. It is not the U.S. product cost used for inventory. Arabic texts separate تكلفة المنتج (product cost) from تكلفة الفترة (period cost); keep the same split in U.S. terms.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct cost
+تكلفة مباشرة
+coût direct
+indirect cost
+تكلفة غير مباشرة
+coût indirect
+product cost
+تكلفة المنتج
+coût du produit (coût incorporable)
+period cost
+تكلفة الفترة
+charge de la période
+prime cost
+التكلفة الأولية
+coût primaire (coût direct de production)
+conversion cost
+تكلفة التحويل
+coût de transformation
+English (exam term)
+العربية
+Français
+direct cost
+تكلفة مباشرة
+coût direct
+indirect cost
+تكلفة غير مباشرة
+coût indirect
+product cost
+تكلفة المنتج
+coût du produit (coût incorporable)
+period cost
+تكلفة الفترة
+charge de la période
+prime cost
+التكلفة الأولية
+coût primaire (coût direct de production)
+conversion cost
+تكلفة التحويل
+coût de transformation
+SECTION CHECK   Test yourself
+SC201-3  Which is a period cost for Orontes?
+A.	Factory rent
+B.	Direct labor
+C.	Sales commissions
+D.	Indirect materials
+SC201-4  Direct materials are $300,000, direct labor $250,000 and manufacturing overhead $150,000. What is conversion cost?
+A.	$400,000
+B.	$450,000
+C.	$550,000
+D.	$700,000
+Answers and explanations are at the end of the chapter.
+1.3  Cost pools and assigning costs to activities
+A cost pool is a group of individual costs that are assigned together. Instead of assigning every electricity bill and every supervisor's salary one by one, Orontes groups indirect costs into pools, such as machine operations, batch setups, quality testing and facility costs.
+Assignment then happens in two stages. First, resources such as salaries and power are assigned to the activities that use them. Second, each pool is assigned to jobs and products with its own base. Figure F201-04 shows the two stages.
+Figure F201-04. Two-stage assignment: resources to cost pools, pools to cost objects through drivers.
+Tahini & Spreads uses one plantwide pool today: all its overhead is applied with machine hours. Chapter 12 shows how its Pulses & Spices line uses several activity pools, and why that can change product costs.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost object
+هدف التكلفة
+objet de coût
+cost pool
+مجمع التكلفة
+regroupement de coûts
+English (exam term)
+العربية
+Français
+cost object
+هدف التكلفة
+objet de coût
+cost pool
+مجمع التكلفة
+regroupement de coûts
+SECTION CHECK   Test yourself
+SC201-5  A cost pool is:
+A.	a cost that can be traced to one job
+B.	the factor that causes a cost
+C.	a list of cost objects
+D.	a group of individual costs that are assigned together
+SC201-6  In two-stage cost assignment, the stages are:
+A.	cost objects to pools, then pools to resources
+B.	direct costs to jobs, then indirect costs to expense
+C.	resources to activity pools, then pools to cost objects
+D.	product costs to inventory, then period costs to jobs
+Answers and explanations are at the end of the chapter.
+1.4  Cost drivers
+A cost driver is a factor that causes a cost to change. Grinding sesame takes machine time, so machine hours drive grinding power and maintenance. A new recipe needs a setup, so the number of setups drives setup costs.
+The link must be causal. Sales revenue may move with factory power costs, but selling more at higher prices does not cause more power use. A driver chosen only because it moves with the cost can give wrong product costs when conditions change.
+Drivers work at different levels. A volume-based cost driver rises with each unit or hour. Other drivers rise with batches, with the number of products, or not at all, as with facility costs. Figure F201-05 gives Orontes examples.
+Figure F201-05. Types of cost drivers at Orontes
+Driver type
+Cost moves with
+Orontes example
+Causal link
+Volume-based (unit level)
+Rises with each unit or hour
+Machine hours in grinding; direct labor hours
+Strong for machine and energy costs
+Batch level
+Rises with each batch or order
+Number of setups for a new recipe
+Strong for setup and cleaning costs
+Product-sustaining
+Rises with the number of products
+Number of private-label recipes
+Strong for design and label costs
+Facility level
+Does not move with activity
+Square meters of factory space
+Weak: an allocation, not a cause
+EXAM TRAP   Correlation is not causation
+A question may offer a base that moves closely with the cost but does not cause it, such as sales revenue for factory power. Choose the base that causes the cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost driver
+مسبب التكلفة
+inducteur de coût
+volume-based cost driver
+مسبب تكلفة مرتبط بالحجم
+inducteur lié au volume
+allocation base
+أساس التحميل
+unité d'œuvre
+English (exam term)
+العربية
+Français
+cost driver
+مسبب التكلفة
+inducteur de coût
+volume-based cost driver
+مسبب تكلفة مرتبط بالحجم
+inducteur lié au volume
+allocation base
+أساس التحميل
+unité d'œuvre
+SECTION CHECK   Test yourself
+SC201-7  Which base best drives the cost of setting up machines for new recipes?
+A.	Units produced
+B.	Number of setups
+C.	Sales revenue
+D.	Direct labor hours
+SC201-8  Which statement about factory building depreciation is correct?
+A.	It has no strong causal driver, so any base is an allocation
+B.	Machine hours cause it
+C.	It rises with each setup
+D.	It is a period cost
+Answers and explanations are at the end of the chapter.
+1.5  Measuring costs and accumulating inventory
+A cost system answers two questions. How is cost measured: at actual amounts, with a predetermined overhead rate, or at standard? And how is cost collected: by job, by process, by activity, or only at trigger points? Figure F201-06 lists the methods and where this book teaches them.
+Figure F201-06. Cost measurement and accumulation methods
+Question
+Method
+What it does
+Taught in
+Measurement
+Actual costing
+Actual DM, DL and actual overhead
+Chapter 5
+Normal costing
+Actual DM and DL + applied overhead
+Chapters 5, 6
+Standard costing
+Standard quantities and prices
+Chapters 5, 18
+Accumulation
+Job order costing
+Costs collected by job
+Chapter 6
+Process costing
+Costs collected by department
+Chapter 7
+Activity-based costing
+Costs collected by activity
+Chapter 12
+Backflush costing
+Costs recorded at trigger points
+Chapter 17
+Whatever the method, a manufacturer's product costs move through three inventory accounts. Raw materials inventory holds materials not yet used. Work in process holds partly finished goods. Finished goods inventory holds completed goods not yet sold. Sold goods move to cost of goods sold.
+The cost of goods manufactured is the cost of the goods finished in the period: beginning work in process plus manufacturing costs added, less ending work in process. The Extended Example shows the whole flow for one year.
+YOUR TURN   Classify halva costs
+Figure F201-07 lists six halva line costs. The first two are done. Classify the rest, with one batch as the cost object. Answers are at the end of the chapter.
+Figure F201-07. Your turn: classify halva line costs (complete the blanks)
+Halva line cost (cost object: one batch)
+Direct / indirect
+Product / period
+Sugar used in halva batches
+Direct
+Product
+Advertising for halva
+—
+Period
+Maintenance of the halva mixer
+________
+________
+Wages of halva line operators
+________
+________
+Office rent at head office
+________
+________
+Electricity for the factory
+________
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+raw materials inventory
+مخزون المواد الخام
+stock de matières premières
+work in process
+الإنتاج تحت التشغيل
+en-cours de production
+finished goods inventory
+مخزون الإنتاج التام
+stock de produits finis
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+English (exam term)
+العربية
+Français
+raw materials inventory
+مخزون المواد الخام
+stock de matières premières
+work in process
+الإنتاج تحت التشغيل
+en-cours de production
+finished goods inventory
+مخزون الإنتاج التام
+stock de produits finis
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+SECTION CHECK   Test yourself
+SC201-9  Beginning WIP is $50,000, manufacturing costs added are $800,000 and ending WIP is $70,000. What is cost of goods manufactured?
+A.	$780,000
+B.	$800,000
+C.	$850,000
+D.	$920,000
+SC201-10  Finished goods inventory holds:
+A.	materials not yet used
+B.	partly completed goods
+C.	completed goods not yet sold
+D.	the cost of goods sold
+Answers and explanations are at the end of the chapter.
+1.6  Extended Example 1A: Tahini & Spreads, full year 2027
+This example follows one full year of costs through the accounts and into the division's income statement. The schedules are exam-core: questions often ask for cost of goods manufactured or cost of goods sold. The entries are for depth.
+1. Scenario
+On January 1, 2027 Tahini & Spreads held raw materials of $130,000, work in process of $180,000 and finished goods of $420,000. During the year:
+Materials: purchases $3,260,000; direct materials used $3,000,000; indirect materials $240,000.
+Labor: direct labor $1,800,000; indirect labor $480,000.
+Other factory overhead: service department charges $690,000; depreciation $840,000; utilities and other costs $740,000.
+Overhead applied: 92,000 machine hours × $30 = $2,760,000.
+Year-end balances: work in process $690,000; finished goods $1,380,000.
+Sales and period costs: sales $8,700,000; selling expense $610,000; administrative expense $390,000.
+2. Plan
+Separate product costs from period costs. Record the entries, post them, prepare the schedule of cost of goods manufactured and the income statement, and check that the balances tie.
+3. Calculations
+Total manufacturing costs = $3,000,000 + $1,800,000 + $2,760,000 = $7,560,000.
+Cost of goods manufactured = $180,000 + $7,560,000 − $690,000 = $7,050,000.
+Cost of goods sold = $420,000 + $7,050,000 − $1,380,000 = $6,090,000.
+Actual overhead = $240,000 + $480,000 + $2,270,000 = $2,990,000, so overhead is underapplied by $230,000.
+4. Recording
+Figure F201-08 shows nine summary entries for the year. Entries 1 to 8 are product costs; entry 9 records the period costs, which never touch inventory. The journal totals $36,650,000 on both sides.
+Figure F201-08. Extended Example: general journal, FY2027
+No.
+Account (detail)
+Debit
+Credit
+①
+Raw Materials Inventory
+3,260,000
+Accounts Payable
+3,260,000
+②
+Work-in-Process Inventory
+3,000,000
+Manufacturing Overhead Control
+240,000
+Raw Materials Inventory
+3,240,000
+③
+Work-in-Process Inventory
+1,800,000
+Manufacturing Overhead Control
+480,000
+Wages Payable
+2,280,000
+④
+Manufacturing Overhead Control
+2,270,000
+Service Department Charges
+690,000
+Accumulated Depreciation
+840,000
+Accounts Payable
+740,000
+⑤
+Work-in-Process Inventory
+2,760,000
+Manufacturing Overhead Applied
+2,760,000
+⑥
+Finished Goods Inventory
+7,050,000
+Work-in-Process Inventory
+7,050,000
+⑦
+Accounts Receivable
+8,700,000
+Sales Revenue
+8,700,000
+⑧
+Cost of Goods Sold
+6,090,000
+Finished Goods Inventory
+6,090,000
+⑨
+Selling Expense
+610,000
+Administrative Expense
+390,000
+Cash and Payables
+1,000,000
+Totals
+36,650,000
+36,650,000
+5. Posting
+Figure F201-09 posts the entries to the T-accounts. Raw materials close at $150,000, work in process at $690,000 and finished goods at $1,380,000.
+Figure F201-09. Extended Example: FY2027 T-accounts for Tahini & Spreads, keyed to the journal.
+6. Schedules
+Figure F201-10 builds the schedule of cost of goods manufactured and the division's income statement. Figure F201-11 shows where the product and period costs land in the statements.
+Figure F201-10. Extended Example: cost of goods manufactured, cost of goods sold and operating income
+Tahini & Spreads · FY2027
+Whole USD
+Direct materials used
+3,000,000
+Direct labor
+1,800,000
+Manufacturing overhead applied
+2,760,000
+Total manufacturing costs
+7,560,000
+Add: beginning WIP
+180,000
+Less: ending WIP
+(690,000)
+Cost of goods manufactured
+7,050,000
+Add: beginning finished goods
+420,000
+Less: ending finished goods
+(1,380,000)
+Cost of goods sold (before year-end overhead adjustment)
+6,090,000
+Sales
+8,700,000
+Gross margin
+2,610,000
+Selling expense
+(610,000)
+Administrative expense
+(390,000)
+Divisional operating income
+1,610,000
+Figure F201-11. Extended Example: where product and period costs appear in the statements.
+7. Tie line
+WORKED EXAMPLE   Everything ties
+Total debits = total credits = $36,650,000.
+Raw materials: $130,000 + $3,260,000 − $3,240,000 = $150,000.
+Work in process: $180,000 + $7,560,000 − $7,050,000 = $690,000.
+Finished goods: $420,000 + $7,050,000 − $6,090,000 = $1,380,000.
+Ending work in process = direct materials $300,000 + direct labor $114,000 + applied overhead $276,000.
+8. Account names in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+raw materials inventory
+مخزون المواد الخام
+stock de matières premières
+work in process
+الإنتاج تحت التشغيل
+en-cours de production
+finished goods inventory
+مخزون الإنتاج التام
+stock de produits finis
+product cost
+تكلفة المنتج
+coût du produit (coût incorporable)
+period cost
+تكلفة الفترة
+charge de la période
+English (exam term)
+العربية
+Français
+raw materials inventory
+مخزون المواد الخام
+stock de matières premières
+work in process
+الإنتاج تحت التشغيل
+en-cours de production
+finished goods inventory
+مخزون الإنتاج التام
+stock de produits finis
+product cost
+تكلفة المنتج
+coût du produit (coût incorporable)
+period cost
+تكلفة الفترة
+charge de la période
+9. How the exam asks it
+EXAM TRAP   Exam view
+Expect a list of costs and inventory balances, and a request for cost of goods manufactured or cost of goods sold. Sort product from period costs first; then apply the two schedule formulas.
+10. Self-check
+SECTION CHECK   Test yourself
+SC201-11  Use the Extended Example. What is Tahini & Spreads' cost of goods manufactured for 2027 (whole USD)?
+A.	6,090,000
+B.	7,050,000
+C.	7,560,000
+D.	8,050,000
+SC201-12  Use the Extended Example. Where do the selling expenses of $610,000 appear?
+A.	As an expense in the 2027 income statement
+B.	In finished goods inventory
+C.	In work in process
+D.	In manufacturing overhead
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F201-12 brings the chapter together.
+Figure F201-12. Chapter 1 summary map: the key rule for each section.
+A cost object is anything whose cost is measured. Direct and indirect depend on the cost object; product and period costs decide whether a cost waits in inventory or is expensed at once. Indirect costs are grouped in pools and assigned with bases that should cause the cost. Product costs flow from raw materials to work in process, finished goods and cost of goods sold, and the schedule of cost of goods manufactured records that flow.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P201-01  The Oils plant manager's salary is:
+A.	direct to the Oils division but indirect to one liter of olive oil
+B.	direct to each liter of olive oil
+C.	a period cost
+D.	indirect to the Oils division
+P201-02  For a manufacturer, which is a product cost?
+A.	Sales salaries
+B.	Factory insurance
+C.	Head-office rent
+D.	Advertising
+P201-03  Direct materials are $120,000, direct labor $80,000 and overhead $60,000. What is prime cost?
+A.	$140,000
+B.	$180,000
+C.	$200,000
+D.	$260,000
+P201-04  Beginning finished goods are $60,000, cost of goods manufactured is $500,000 and ending finished goods are $45,000. What is cost of goods sold?
+A.	$485,000
+B.	$500,000
+C.	$515,000
+D.	$605,000
+P201-05  Which base best explains the maintenance cost of the jar-filling machines?
+A.	Sales revenue
+B.	Number of HR staff
+C.	Head-office floor space
+D.	Machine hours
+P201-06  Which statement about cost drivers is correct?
+A.	Any base that moves with the cost is a good driver
+B.	A good driver causes the cost to change
+C.	Every cost has a volume-based driver
+D.	Drivers are only used for direct costs
+P201-07  An indirect cost must be:
+A.	allocated to cost objects
+B.	traced to each unit
+C.	expensed at once
+D.	left out of product cost
+P201-08  Cost of goods manufactured is:
+A.	the cost of goods sold during the period
+B.	total manufacturing costs added during the period
+C.	the cost of goods finished during the period
+D.	the cost of materials purchased
+P201-09  Direct labor cost is first debited to:
+A.	Finished Goods Inventory
+B.	Cost of Goods Sold
+C.	Work-in-Process Inventory
+D.	Manufacturing Overhead Control
+P201-10  Which cost is a conversion cost but not a prime cost?
+A.	Direct materials
+B.	Manufacturing overhead
+C.	Direct labor
+D.	Selling expense
+P201-11  Ending WIP is higher than beginning WIP. Compared with total manufacturing costs, cost of goods manufactured is:
+A.	lower
+B.	higher
+C.	equal
+D.	unrelated
+P201-12  Which is a batch-level cost driver?
+A.	Machine hours
+B.	Square meters of factory space
+C.	Units produced
+D.	Number of setups
+P201-13  In a manufacturer's statements, period costs appear:
+A.	in finished goods inventory
+B.	in cost of goods sold when goods are sold
+C.	as expenses in the period incurred
+D.	in work in process
+P201-14  Total manufacturing costs are $900,000, beginning WIP is $40,000 and cost of goods manufactured is $880,000. What is ending WIP?
+A.	$20,000
+B.	$40,000
+C.	$60,000
+D.	$100,000
+P201-15  The cost object is the customer Barada Wholesale. Fuel for a truck that delivers only to Barada is:
+A.	an indirect cost of the customer
+B.	a direct cost of the customer
+C.	a product cost
+D.	not a cost
+P201-16  Which account holds the cost of partly finished jobs?
+A.	Raw Materials Inventory
+B.	Finished Goods Inventory
+C.	Cost of Goods Sold
+D.	Work-in-Process Inventory
+Case question: the halva line
+In the second quarter of 2027, Tahini & Spreads ran its halva line for Barada and other buyers. The line mixes sesame paste and sugar, cooks the mix and pours it into trays. A small team of workers runs the line, and a supervisor manages the team. The division also pays for factory utilities, machine depreciation, a sales team and head-office staff.
+Lina, the division accountant, is preparing the quarterly cost report for the halva line. She has the costs of the quarter and the inventory balances at the start and the end of the quarter. Some costs belong to the product and stay in inventory until the halva is sold. Others are period costs and go straight to the income statement.
+The division manager wants three things from the report. First, what it cost to make the halva finished in the quarter. Second, what the halva sold in the quarter cost. Third, the best base for assigning factory utilities to halva batches, because the line now runs longer machine cycles for Barada's large trays.
+Barada has asked for a price for next quarter's trays, so the manager needs the cost figures quickly. Lina notes that the sales team's salaries and the head-office costs must not reach the product cost. She also checks that the materials and labor on the report are the ones actually used on the halva line, not on the tahini lines next to it.
+Use Figure F201-13 for items C201-1 to C201-7. The halva line uses actual costs in this exhibit.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F201-13. Case exhibit: halva line, April–June 2027
+Halva line · April–June 2027 (actual costs, whole USD)
+Amount
+Sesame
+180,000
+Sugar and flavors
+60,000
+Jars
+40,000
+Line operators' wages
+120,000
+Factory supervision
+30,000
+Depreciation of halva equipment
+45,000
+Factory utilities
+25,000
+Indirect materials
+10,000
+Sales commissions
+35,000
+Advertising
+20,000
+Head-office salaries
+50,000
+Delivery to customers
+15,000
+WIP: beginning / ending
+25,000 / 40,000
+Finished goods: beginning / ending
+30,000 / 45,000
+Sales
+700,000
+C201-1  Classify each cost. (On the exam screen you would drag each item into a box.)
+Categories: Direct materials · Manufacturing overhead · Period cost
+Cost
+Category
+Sesame
+Factory supervision
+Sales commissions
+Jars
+Factory utilities
+Head-office salaries
+C201-2  Enter prime cost for the quarter.
+Answer: ____________
+C201-3  Enter conversion cost for the quarter.
+Answer: ____________
+C201-4  Enter cost of goods manufactured for the quarter.
+Answer: ____________
+C201-5  Enter cost of goods sold for the quarter.
+Answer: ____________
+C201-6  The best base for assigning factory utilities to halva batches is: [select]
+Options: machine hours   |   sales revenue   |   number of customers   |   head-office floor space
+C201-7  When cost of goods manufactured is higher than cost of goods sold, finished goods inventory ____ during the quarter.
+Choose the word or phrase for the blank: increased   |   decreased   |   did not change   |   was written off
+Answers and explanations
+Section checks
+SC201-1  Answer B. A cost object is something whose cost is measured.
+A is wrong. Depreciation is a cost, not a cost object.
+C is wrong. Machine hours are a cost driver.
+D is wrong. Accounts payable is a liability.
+SC201-2  Answer A. It can be traced to the division, but not to one job, jar or customer.
+B is wrong. The supervisor works on many jobs.
+C is wrong. It cannot be traced to one jar.
+D is wrong. It is not traceable to one customer.
+SC201-3  Answer C. Selling costs are expensed when incurred.
+A is wrong. Factory rent is manufacturing overhead.
+B is wrong. Direct labor is a product cost.
+D is wrong. Indirect materials are overhead.
+SC201-4  Answer A. Conversion cost = direct labor + manufacturing overhead.
+B is wrong. Direct materials are not a conversion cost.
+C is wrong. This is prime cost.
+D is wrong. This is total manufacturing cost.
+SC201-5  Answer D. Pools group costs for assignment.
+A is wrong. That is a direct cost.
+B is wrong. That is a cost driver.
+C is wrong. Cost objects receive costs.
+SC201-6  Answer C. Resources feed pools; pools are assigned with drivers.
+A is wrong. The order is reversed.
+B is wrong. Indirect product costs go to inventory, not expense.
+D is wrong. Period costs never go to jobs.
+SC201-7  Answer B. Each setup causes setup cost, whatever the batch size.
+A is wrong. Units do not cause setups.
+C is wrong. Revenue does not cause setups.
+D is wrong. Labor hours do not cause setups.
+SC201-8  Answer A. Facility costs do not move with activity.
+B is wrong. Depreciation does not rise with machine hours.
+C is wrong. Setups do not change it.
+D is wrong. Factory depreciation is a product cost.
+SC201-9  Answer A. Beginning WIP + costs added − ending WIP.
+B is wrong. The WIP adjustment is left out.
+C is wrong. Ending WIP is not deducted.
+D is wrong. Ending WIP is added instead of deducted.
+SC201-10  Answer C. Finished goods are complete and unsold.
+A is wrong. That is raw materials inventory.
+B is wrong. That is work in process.
+D is wrong. Sold goods leave inventory.
+SC201-11  Answer B. Beginning WIP + manufacturing costs − ending WIP.
+A is wrong. This is cost of goods sold.
+C is wrong. This is before the WIP adjustment.
+D is wrong. Selling and administrative costs are added.
+SC201-12  Answer A. Selling costs are period costs.
+B is wrong. Period costs never enter inventory.
+C is wrong. Period costs never enter inventory.
+D is wrong. Overhead includes factory costs only.
+Your turn
+Item
+Answer
+Maintenance of the halva mixer
+Indirect; product cost
+Wages of halva line operators
+Direct; product cost
+Office rent at head office
+Not a production cost; period cost
+Electricity for the factory
+Indirect; product cost
+Multiple-choice questions
+P201-01  Answer A. Direct or indirect depends on the cost object.
+B is wrong. It cannot be traced to one liter.
+C is wrong. Plant management is a factory cost.
+D is wrong. It is traceable to the division.
+P201-02  Answer B. Factory costs are manufacturing overhead.
+A is wrong. Selling costs are period costs.
+C is wrong. Administrative costs are period costs.
+D is wrong. Selling costs are period costs.
+P201-03  Answer C. Prime cost = direct materials + direct labor.
+A is wrong. This is conversion cost.
+B is wrong. Overhead is not a prime cost.
+D is wrong. This is total manufacturing cost.
+P201-04  Answer C. Beginning FG + COGM − ending FG.
+A is wrong. The inventories are reversed.
+B is wrong. This is COGM.
+D is wrong. Ending FG is added.
+P201-05  Answer D. Machine use causes machine maintenance.
+A is wrong. Revenue does not cause maintenance.
+B is wrong. HR staff do not cause machine wear.
+C is wrong. Office space is unrelated.
+P201-06  Answer B. The link must be causal.
+A is wrong. Correlation is not causation.
+C is wrong. Some costs move with batches or not at all.
+D is wrong. Drivers assign indirect costs.
+P201-07  Answer A. It cannot be traced economically.
+B is wrong. Tracing is for direct costs.
+C is wrong. Indirect factory costs are product costs.
+D is wrong. Manufacturing overhead is a product cost.
+P201-08  Answer C. COGM is transferred from WIP to finished goods.
+A is wrong. That is COGS.
+B is wrong. COGM adjusts for WIP.
+D is wrong. Purchases are not COGM.
+P201-09  Answer C. Direct labor enters production in WIP.
+A is wrong. Costs reach FG only on completion.
+B is wrong. Costs reach COGS only at the sale.
+D is wrong. Only indirect labor goes to overhead.
+P201-10  Answer B. Direct labor is both; overhead is conversion only.
+A is wrong. Direct materials are prime only.
+C is wrong. Direct labor is both prime and conversion.
+D is wrong. Selling expense is a period cost.
+P201-11  Answer A. Some of the period's cost stays in WIP.
+B is wrong. WIP grew, so less was finished.
+C is wrong. They are equal only if WIP does not change.
+D is wrong. COGM is built from manufacturing costs.
+P201-12  Answer D. Setups happen once per batch.
+A is wrong. Machine hours are volume-based.
+B is wrong. Space is facility level.
+C is wrong. Units are volume-based.
+P201-13  Answer C. Period costs are not inventoried.
+A is wrong. Only product costs are inventoried.
+B is wrong. COGS holds product costs.
+D is wrong. WIP holds product costs.
+P201-14  Answer C. Ending WIP = beginning WIP + costs added − COGM.
+A is wrong. Beginning WIP is left out.
+B is wrong. WIP changed during the period.
+D is wrong. Beginning WIP is counted twice.
+P201-15  Answer B. It can be traced to Barada.
+A is wrong. It is traceable to this customer.
+C is wrong. Delivery is a period cost.
+D is wrong. Fuel is a cost.
+P201-16  Answer D. Partly finished goods are work in process.
+A is wrong. Raw materials are unused materials.
+B is wrong. Finished goods are complete.
+C is wrong. COGS is for sold goods.
+Case question: the halva line
+C201-1
+Cost
+Category
+Sesame
+Direct materials
+Factory supervision
+Manufacturing overhead
+Sales commissions
+Period cost
+Jars
+Direct materials
+Factory utilities
+Manufacturing overhead
+Head-office salaries
+Period cost
+Factory costs that are not traced to the product are manufacturing overhead.
+C201-2  Answer: 400,000.
+510,000 is wrong: this answer adds manufacturing overhead to prime cost.
+C201-3  Answer: 230,000.
+400,000 is wrong: this answer gives prime cost instead.
+350,000 is wrong: this answer includes period costs.
+C201-4  Answer: 495,000.
+510,000 is wrong: this answer leaves out the WIP adjustment.
+615,000 is wrong: this answer includes selling and administrative costs.
+C201-5  Answer: 480,000.
+495,000 is wrong: this answer uses cost of goods manufactured.
+600,000 is wrong: this answer adds period costs to cost of goods sold.
+C201-6  Answer: machine hours.
+sales revenue is wrong: this answer revenue does not cause power use.
+number of customers is wrong: this answer customers do not cause factory power use.
+head-office floor space is wrong: this answer office space is unrelated to factory power.
+C201-7  Answer: increased.
+decreased is wrong: this answer reverses the link between COGM, COGS and finished goods.
+did not change is wrong: this answer ignores the difference between COGM and COGS.
+was written off is wrong: this answer confuses an inventory change with a write-off.
+PART I — COST LANGUAGE AND BEHAVIOR

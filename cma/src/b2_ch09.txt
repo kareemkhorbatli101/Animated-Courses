@@ -1,0 +1,788 @@
+Chapter 9
+Variable and Absorption Costing; Capacity
+التكاليف المتغيرة والتكاليف الكلية والطاقة
+In 2027 Beverages produced 850,000 cases of juice but sold only 830,000. Its income was $2,946,000 in the financial statements, but $2,906,000 in the internal report. Both figures are correct. They answer one question differently: when does fixed manufacturing overhead become an expense?
+Figure F209-01 shows the two answers, and the chapter then looks at how the capacity level behind the overhead rate affects cost.
+Figure F209-01. Chapter 9 roadmap: where fixed manufacturing overhead goes.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.1.f
+demonstrate an understanding of variable (direct) costing and absorption (full) costing and the benefits and limitations of these measurement concepts
+Describe the treatment of fixed manufacturing overhead under variable and absorption costing.
+Full treatment
+D.1.g
+calculate inventory costs, cost of goods sold, and operating profit using both variable costing and absorption costing
+Calculate inventory values and cost of goods sold under both methods.
+Full treatment + Extended Example
+D.1.h
+demonstrate an understanding of how the use of variable costing or absorption costing affects the value of inventory, cost of goods sold, and operating income
+Explain why operating income differs between the two methods.
+Full treatment + Extended Example
+D.1.i
+prepare summary income statements using variable costing and absorption costing
+Prepare summary income statements under both methods and state their benefits and limitations.
+Full treatment
+B.5.n
+demonstrate an understanding of contribution margin per unit and total contribution margin, identify the appropriate use of these concepts, and calculate both unit and total contribution margin
+Define and calculate the contribution margin.
+Full treatment
+D.4.h
+describe how capacity level affects product costing, capacity management, pricing decisions, and financial statements
+Explain how the choice of capacity level affects product costs, capacity management, pricing and the financial statements.
+Full treatment
+D.4.i
+explain how using practical capacity as the denominator for the fixed cost allocation rate enhances capacity management
+Explain how practical capacity helps capacity management.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+absorption costing
+التكاليف الكلية
+coût complet
+variable costing
+التكاليف المتغيرة
+coût variable
+contribution margin
+هامش المساهمة
+marge sur coût variable
+contribution margin ratio
+نسبة هامش المساهمة
+taux de marge sur coût variable
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+practical capacity
+الطاقة العملية
+capacité pratique
+unused capacity
+الطاقة غير المستغلة
+capacité inutilisée (sous-activité)
+downward demand spiral
+دوامة الطلب الهابطة
+spirale de la demande à la baisse
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 8 set the fixed overhead rate on a capacity denominator and closed the production-volume effect. Chapter 2 separated fixed and variable costs. Both ideas meet in this chapter.
+9.1  Two ways to cost inventory
+Absorption costing, also called full costing, treats all manufacturing costs as product costs, including fixed manufacturing overhead. Variable costing, also called direct costing, treats only variable manufacturing costs as product costs; fixed manufacturing overhead is a period cost.
+That is the only difference. Both methods treat materials, labor and variable overhead as product costs, and both expense all selling and administrative costs. Figure F209-02 follows the $1,800,000 of Beverages fixed overhead under each method.
+Figure F209-02. The path of fixed manufacturing overhead under the two methods.
+So a case costs $12.60 under absorption costing and $10.60 under variable costing. The difference is the fixed overhead rate of $2.00 a case. Figure F209-03 shows both unit costs.
+Figure F209-03. Product cost per case under the two methods
+Beverages juice case
+Absorption
+Variable costing
+Direct materials
+$9.00
+$9.00
+Direct labor
+$0.60
+$0.60
+Variable MOH
+$1.00
+$1.00
+Fixed MOH
+$2.00
+— (period cost)
+Product cost per case
+$12.60
+$10.60
+U.S. GAAP and IFRS require absorption costing for external reporting and tax. Variable costing is an internal tool: it is not allowed in the published statements.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+absorption costing
+التكاليف الكلية
+coût complet
+variable costing
+التكاليف المتغيرة
+coût variable
+English (exam term)
+العربية
+Français
+absorption costing
+التكاليف الكلية
+coût complet
+variable costing
+التكاليف المتغيرة
+coût variable
+SECTION CHECK   Test yourself
+SC209-1  Under variable costing, fixed manufacturing overhead is:
+A.	included in finished goods inventory
+B.	added to selling expenses per unit
+C.	expensed in the period it is incurred
+D.	ignored
+SC209-2  Which cost is a product cost under absorption costing but a period cost under variable costing?
+A.	Juice concentrate
+B.	Depreciation of the bottling line
+C.	Variable selling cost
+D.	Head-office salaries
+Answers and explanations are at the end of the chapter.
+9.2  The contribution margin
+The contribution margin is sales minus all variable costs, both manufacturing and selling. It is the amount left to cover fixed costs and then provide profit. Per unit, it is price minus variable cost per unit.
+A case of juice sells for $20.00. Variable costs are $10.60 to make it and $1.20 to sell it, so each case contributes $8.20. The contribution margin ratio is $8.20 ÷ $20.00 = 41%.
+WORKED EXAMPLE   Worked example: Beverages contribution margin, 2027
+Figure F209-04 builds the contribution margin per case and in total. On 830,000 cases sold, the total is $6,806,000.
+Figure F209-04. Worked example: Beverages contribution margin, 2027
+Beverages · FY2027 · 830,000 cases sold
+Per case
+Total
+Price
+$20.00
+16,600,000
+Variable manufacturing cost
+($10.60)
+(8,798,000)
+Variable selling cost
+($1.20)
+(996,000)
+Contribution margin
+$8.20
+6,806,000
+Contribution margin ratio
+41%
+41%
+Do not confuse it with gross margin. Gross margin deducts full product cost, including fixed overhead, but not variable selling costs. Contribution margin is the basis of cost-volume-profit analysis and short-run decisions such as special orders (Book 3).
+FALSE-FRIEND ALERT   Marge sur coût variable, هامش المساهمة
+French 'marge brute' and Arabic مجمل الربح mean gross margin. Contribution margin is 'marge sur coût variable' and هامش المساهمة. The exam uses both terms in the same question.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+contribution margin
+هامش المساهمة
+marge sur coût variable
+contribution margin ratio
+نسبة هامش المساهمة
+taux de marge sur coût variable
+English (exam term)
+العربية
+Français
+contribution margin
+هامش المساهمة
+marge sur coût variable
+contribution margin ratio
+نسبة هامش المساهمة
+taux de marge sur coût variable
+SECTION CHECK   Test yourself
+SC209-3  A case sells for $20.00. Variable manufacturing cost is $10.60, variable selling cost $1.20 and full product cost $12.60. What is the contribution margin per case?
+A.	$7.40
+B.	$8.20
+C.	$9.40
+D.	$20.00
+SC209-4  Using SC209-3, what is the contribution margin ratio?
+A.	41%
+B.	59%
+C.	37%
+D.	47%
+Answers and explanations are at the end of the chapter.
+9.3  Two income statements for the same year
+The absorption statement uses the gross margin format. Cost of goods sold is at full cost, and the production-volume variance is added when production falls short of the denominator. Selling and administrative costs follow.
+The variable costing statement uses the contribution format. Variable costs come first, then the contribution margin, then all fixed costs, including the full $1,800,000 of fixed manufacturing overhead. Figure F209-05 puts the two statements side by side.
+Figure F209-05. Beverages 2027: absorption and variable costing income statements
+Beverages FY2027
+Absorption (gross margin format)
+Variable costing (contribution format)
+Sales
+16,600,000
+Sales
+16,600,000
+COGS at $12.60
+10,458,000
+Variable COGS at $10.60
+8,798,000
+Production-volume variance
+100,000
+Variable selling
+996,000
+Gross margin
+6,042,000
+Contribution margin
+6,806,000
+Selling and administrative
+3,096,000
+Fixed MOH + fixed S&A
+3,900,000
+Operating income
+2,946,000
+Operating income
+2,906,000
+Use absorption costing for the published statements and for pricing that must cover all costs. Use variable costing for internal decisions: it shows how profit moves with sales volume.
+Variable costing has another benefit: managers cannot raise income by producing for inventory. Its limits are that it is not allowed externally, and it can make fixed costs look less important than they are.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+English (exam term)
+العربية
+Français
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+SECTION CHECK   Test yourself
+SC209-5  Use Figure F209-05. What is total cost of goods sold, including the production-volume variance, under absorption costing (whole USD)?
+A.	8,798,000
+B.	10,458,000
+C.	10,558,000
+D.	10,598,000
+SC209-6  A variable costing income statement is presented in:
+A.	the contribution margin format
+B.	the gross margin format
+C.	the cash flow format
+D.	the same format as the published statements
+Answers and explanations are at the end of the chapter.
+9.4  Why the two incomes differ
+The difference comes only from fixed overhead held in inventory. When inventory rises, absorption costing defers some fixed overhead to next year, so its income is higher. When inventory falls, it releases fixed overhead from earlier years, so its income is lower.
+In 2027 Beverages' inventory rose from 40,000 to 60,000 cases. The difference in income is the change in inventory times the fixed rate: $40,000, the extra fixed overhead left in ending inventory.
+Suppose that in 2028 Beverages produces 800,000 cases and sells 840,000. Inventory falls, and absorption income is $80,000 lower than variable costing income. Figure F209-06 states the rules.
+Figure F209-06. Inventory change and the two incomes
+Inventory change
+Operating income
+Beverages
+Production > sales (inventory rises)
+Absorption > variable
+2027: +20,000 cases → +40,000
+Production < sales (inventory falls)
+Absorption < variable
+Suppose 2028: (40,000) cases → (80,000)
+Production = sales
+Equal
+No fixed MOH enters or leaves inventory
+EXAM TRAP   Difference = change in units × fixed rate
+Absorption income − variable income = (ending − beginning inventory units) × fixed manufacturing overhead per unit, when the rate is the same in both years. Do not use variable costs or selling costs in this formula.
+YOUR TURN   Reconcile 2028
+Figure F209-07 gives the 2028 data. Find the income difference and say which method shows higher income. Answers are at the end of the chapter.
+Figure F209-07. Your turn: reconcile the two incomes for 2028 (complete the blanks)
+Suppose: Beverages FY2028
+Value
+Cases produced / sold
+800,000 / 840,000
+Change in inventory (cases)
+(40,000)
+Fixed MOH per case
+$2.00
+Absorption − variable operating income
+________
+Which method shows higher income?
+________
+SECTION CHECK   Test yourself
+SC209-7  Production is greater than sales. Compared with variable costing, absorption costing income is:
+A.	lower
+B.	higher
+C.	the same
+D.	always zero
+SC209-8  Inventory rises by 5,000 units. Fixed manufacturing overhead is $3 per unit in both years. By how much does absorption income exceed variable costing income?
+A.	$5,000
+B.	$3,000
+C.	−$15,000
+D.	$15,000
+Answers and explanations are at the end of the chapter.
+9.5  Capacity levels and product cost
+The fixed overhead rate depends on the capacity level in the denominator. Theoretical capacity assumes the plant never stops. Practical capacity allows for normal breaks and maintenance. Normal capacity is average use over several years. Master-budget capacity is this year's plan.
+The smaller the denominator, the higher the product cost. For a case of juice, full cost ranges from $12.10 at theoretical capacity to $12.85 at master-budget capacity. Figure F209-08 shows all four.
+Figure F209-08. Full product cost per case at four denominator levels.
+The choice also changes the statements. A larger denominator applies less fixed overhead per case, which gives a larger production-volume variance and lower inventory values. For the published statements Orontes uses normal capacity, as ASC 330 requires.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+practical capacity
+الطاقة العملية
+capacité pratique
+normal capacity
+الطاقة العادية
+capacité normale
+English (exam term)
+العربية
+Français
+practical capacity
+الطاقة العملية
+capacité pratique
+normal capacity
+الطاقة العادية
+capacité normale
+SECTION CHECK   Test yourself
+SC209-9  Which denominator gives the highest full cost per unit?
+A.	Theoretical capacity
+B.	Practical capacity
+C.	All give the same cost
+D.	Master-budget capacity, the smallest level
+SC209-10  For its published statements under U.S. GAAP, Orontes applies fixed overhead on:
+A.	normal capacity
+B.	theoretical capacity
+C.	the actual units sold
+D.	zero capacity
+Answers and explanations are at the end of the chapter.
+9.6  Practical capacity and capacity management
+Many managers use practical capacity for internal reports. The product carries only the cost of the capacity it uses, and the cost of idle capacity is shown on its own as unused capacity.
+In 2027 the bottling line could fill 1,000,000 cases but filled 850,000. At $1.80 of fixed overhead per case of practical capacity, 150,000 idle cases cost $270,000. That figure tells managers what the spare capacity costs, so they can seek more sales or reduce capacity.
+Practical capacity also protects pricing. If prices follow full cost at a falling budget volume, unit cost rises, prices rise and demand falls again: a downward demand spiral. Figure F209-09 shows the spiral.
+Figure F209-09. A downward demand spiral when prices follow full cost at a falling budget volume.
+Practical capacity has limits. It must be estimated, and the published statements still need normal capacity. So Orontes keeps practical capacity for management reports and adjusts to normal capacity for the statements.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+unused capacity
+الطاقة غير المستغلة
+capacité inutilisée (sous-activité)
+downward demand spiral
+دوامة الطلب الهابطة
+spirale de la demande à la baisse
+English (exam term)
+العربية
+Français
+unused capacity
+الطاقة غير المستغلة
+capacité inutilisée (sous-activité)
+downward demand spiral
+دوامة الطلب الهابطة
+spirale de la demande à la baisse
+SECTION CHECK   Test yourself
+SC209-11  A main benefit of practical capacity as a denominator is that it:
+A.	always raises product cost
+B.	shows the cost of unused capacity separately
+C.	is required by U.S. GAAP
+D.	removes all fixed overhead
+SC209-12  Beverages' practical capacity is 1,000,000 cases and it produced 850,000. Fixed overhead is $1.80 per case at practical capacity. What is the cost of unused capacity?
+A.	$100,000
+B.	$270,000
+C.	$300,000
+D.	$1,800,000
+Answers and explanations are at the end of the chapter.
+9.7  Extended Example 9A: Beverages, 2027, both ways
+This example records the year under both methods, follows finished goods and cost of goods sold, and shows how income responds to production. The statements and the reconciliation are exam-core; the entries are for depth.
+1. Scenario
+Units: opening inventory 40,000 cases; produced 850,000; sold 830,000; closing 60,000.
+Costs per case: variable manufacturing $10.60; fixed overhead $2.00 at normal capacity; variable selling $1.20; price $20.00.
+Fixed costs: manufacturing overhead $1,800,000; selling and administrative $2,100,000.
+2. Plan
+Record production and sales under each method, compare finished goods and cost of goods sold, prepare both statements and reconcile the incomes.
+3. Calculations
+Absorption: fixed overhead applied 850,000 × $2.00 = $1,700,000; production-volume variance $100,000; operating income $2,946,000.
+Variable costing: contribution margin $6,806,000 − fixed costs $3,900,000 = $2,906,000.
+Reconciliation: (60,000 − 40,000) × $2.00 = $40,000.
+4. Recording
+Figure F209-10 records the year under absorption costing, and Figure F209-11 under variable costing. Only the treatment of fixed overhead differs.
+Figure F209-10. Extended Example: absorption costing journal, 2027
+No.
+Account (detail)
+Debit
+Credit
+①
+Fixed MOH Control
+1,800,000
+Various accounts
+1,800,000
+②
+Finished Goods Inventory
+10,710,000
+Variable manufacturing costs
+9,010,000
+Fixed MOH Applied
+1,700,000
+③
+Cost of Goods Sold
+10,458,000
+Finished Goods Inventory
+10,458,000
+④
+Fixed MOH Applied
+1,700,000
+Cost of Goods Sold
+100,000
+Fixed MOH Control
+1,800,000
+Totals
+24,768,000
+24,768,000
+Figure F209-11. Extended Example: variable costing journal, 2027
+No.
+Account (detail)
+Debit
+Credit
+①
+Fixed MOH Expense
+1,800,000
+Various accounts
+1,800,000
+②
+Finished Goods Inventory
+9,010,000
+Variable manufacturing costs
+9,010,000
+③
+Cost of Goods Sold
+8,798,000
+Finished Goods Inventory
+8,798,000
+Totals
+19,608,000
+19,608,000
+5. Posting
+Figure F209-12 posts finished goods and cost of goods sold. Ending finished goods are $756,000 under absorption and $636,000 under variable costing.
+Figure F209-12. Extended Example: finished goods and COGS under the two methods.
+6. Income and production
+Figure F209-13 holds sales at 830,000 cases and changes production. Variable costing income does not move. Absorption income rises by $2.00 for each extra case produced, which is why absorption income alone can reward overproduction.
+Figure F209-13. Extended Example: operating income as production changes, sales held constant.
+7. Tie line
+WORKED EXAMPLE   Everything ties
+Finished goods difference: $756,000 − $636,000 = 60,000 × $2.00.
+Opening difference: $504,000 − $424,000 = 40,000 × $2.00.
+Income difference: $2,946,000 − $2,906,000 = $40,000 = the change in fixed overhead held in inventory.
+8. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+absorption costing
+التكاليف الكلية
+coût complet
+variable costing
+التكاليف المتغيرة
+coût variable
+contribution margin
+هامش المساهمة
+marge sur coût variable
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+English (exam term)
+العربية
+Français
+absorption costing
+التكاليف الكلية
+coût complet
+variable costing
+التكاليف المتغيرة
+coût variable
+contribution margin
+هامش المساهمة
+marge sur coût variable
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+9. How the exam asks it
+EXAM TRAP   Exam view
+Expect production, sales and cost data, and a request for income under one method or the difference between them. Find the change in inventory units first; multiply by the fixed overhead rate to reconcile.
+10. Self-check
+SECTION CHECK   Test yourself
+SC209-13  Use the Extended Example. What is ending finished goods under variable costing (whole USD)?
+A.	120,000
+B.	636,000
+C.	708,000
+D.	756,000
+SC209-14  Use the Extended Example. Why is absorption income $40,000 higher in 2027?
+A.	Absorption costing has lower variable costs
+B.	Variable costing includes the volume variance
+C.	Sales were higher under absorption costing
+D.	Inventory rose, so more fixed overhead was deferred in inventory than released
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F209-14 brings the chapter together.
+Figure F209-14. Chapter 9 summary map: the key rule for each section.
+Absorption costing includes fixed manufacturing overhead in inventory; variable costing expenses it in the period. The contribution margin is sales minus all variable costs. Income differs only by the fixed overhead that enters or leaves inventory: the change in inventory units times the fixed rate. The capacity level in the denominator changes unit cost, inventory values and pricing; practical capacity shows the cost of unused capacity and helps avoid a downward demand spiral.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P209-01  Absorption costing is also called:
+A.	direct costing
+B.	marginal costing
+C.	full costing
+D.	throughput costing
+P209-02  A company produces 10,000 units and sells 8,000. Variable manufacturing cost is $5 per unit and fixed manufacturing overhead is $40,000 (at a denominator of 10,000 units). There was no opening inventory. What is ending inventory under absorption costing?
+A.	$8,000
+B.	$10,000
+C.	$18,000
+D.	$50,000
+P209-03  Using P209-02, what is ending inventory under variable costing?
+A.	$8,000
+B.	$10,000
+C.	$18,000
+D.	$40,000
+P209-04  Using P209-02, by how much does absorption income exceed variable costing income?
+A.	$10,000
+B.	$8,000
+C.	$18,000
+D.	−$8,000
+P209-05  Sales exceed production, so inventory falls. Absorption costing income is:
+A.	higher than variable costing income
+B.	the same
+C.	lower than variable costing income
+D.	equal to the contribution margin
+P209-06  Contribution margin is:
+A.	sales minus cost of goods sold
+B.	sales minus fixed costs
+C.	gross margin minus selling costs
+D.	sales minus all variable costs
+P209-07  Sales are $500,000, variable costs $300,000 and fixed costs $120,000. What is the contribution margin ratio?
+A.	60%
+B.	16%
+C.	40%
+D.	24%
+P209-08  Which is a limitation of variable costing?
+A.	It lets managers raise income by overproducing
+B.	It is not allowed for external financial reporting
+C.	It hides the contribution margin
+D.	It puts fixed overhead in inventory
+P209-09  A manager is paid a bonus on absorption-costing income. What might the manager do to raise income without raising sales?
+A.	Produce more units than can be sold
+B.	Cut production below sales
+C.	Switch to variable costing in the published statements
+D.	Increase variable selling costs
+P209-10  Which method is more useful for cost-volume-profit analysis?
+A.	Absorption costing
+B.	Neither
+C.	Both are equally useful
+D.	Variable costing
+P209-11  Fixed manufacturing overhead is $1,200,000. Practical capacity is 400,000 units and normal capacity 300,000 units. What is the fixed rate at practical capacity?
+A.	$0.25
+B.	$1.20
+C.	$3.00
+D.	$4.00
+P209-12  A company prices on full cost using master-budget volume. Demand falls. What is the risk?
+A.	Lower unit cost and lower prices
+B.	A downward demand spiral: higher unit cost, higher price, lower demand
+C.	No effect on unit cost
+D.	Fixed overhead disappears
+P209-13  Practical capacity is 50,000 machine hours and actual use is 42,000. Fixed overhead is $10 per hour at practical capacity. What is the cost of unused capacity?
+A.	$8,000
+B.	$80,000
+C.	$420,000
+D.	$500,000
+P209-14  Why do managers want to see the cost of unused capacity?
+A.	To decide whether to find more business or reduce capacity
+B.	To add it to product prices
+C.	To remove it from the financial statements
+D.	Because GAAP requires a separate line
+P209-15  Under both absorption and variable costing, variable selling costs are:
+A.	product costs
+B.	period costs
+C.	fixed overhead
+D.	part of inventory
+P209-16  A company raises its denominator from normal to practical capacity for internal reports. Unit product cost and the reported volume variance will:
+A.	fall; rise
+B.	rise; fall
+C.	rise; rise
+D.	stay the same; stay the same
+Case question: the halva line in 2027
+In 2027 the halva line of Tahini & Spreads produced more trays than it sold. The line had no halva in inventory at the start of the year, so the unsold trays became ending inventory. Barada and smaller buyers bought the rest at a single price per tray.
+The line's costs include sesame and sugar, direct labor, variable overhead and a fixed overhead budget that is spread over the normal capacity of the line. There are also variable selling costs for each tray sold, and fixed selling and administrative costs.
+The published statements of Orontes use absorption costing, as U.S. GAAP requires. The division manager, however, prefers a variable costing report, because it shows how profit changes with sales. The two reports show different operating incomes for the same year.
+Karim, the division analyst, must prepare both income statements and explain the difference to the manager. He needs the contribution margin, the operating income under each method and the value of ending inventory in the published statements. The exhibit gives the prices, costs and volumes. The manager is also worried that a report which rewards production could encourage the line to build inventory that Barada does not need.
+Use Figure F209-15 for items C209-1 to C209-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F209-15. Case exhibit: halva line, 2027
+Halva line · FY2027 (whole USD)
+Data
+Selling price per tray
+$6.00
+Variable manufacturing cost per tray
+$2.40
+Variable selling cost per tray
+$0.30
+Fixed manufacturing overhead (budget = actual)
+360,000
+Normal capacity (denominator)
+400,000 trays
+Fixed selling and administrative
+150,000
+Trays produced / sold (no opening inventory)
+380,000 / 350,000
+C209-1  Classify each cost. (On the exam screen you would drag each item into a box.)
+Categories: Product cost under both methods · Product cost under absorption only · Period cost under both methods
+Halva cost
+Category
+Sesame and sugar
+Depreciation of the halva line
+Variable selling cost
+Variable manufacturing overhead
+Fixed administrative salaries
+Halva line supervisor
+C209-2  Enter the total contribution margin for 2027.
+Answer: ____________
+C209-3  Enter operating income under absorption costing.
+Answer: ____________
+C209-4  Enter operating income under variable costing.
+Answer: ____________
+C209-5  Enter ending inventory under absorption costing.
+Answer: ____________
+C209-6  Absorption income is higher than variable costing income because: [select]
+Options: production exceeded sales, so fixed overhead was deferred in inventory   |   variable costs were lower under absorption costing   |   sales were higher under absorption costing   |   the volume variance is only in variable costing
+C209-7  A variable costing income statement shows ____ instead of gross margin.
+Choose the word or phrase for the blank: contribution margin   |   operating margin   |   net margin   |   production margin
+Answers and explanations
+Section checks
+SC209-1  Answer C. Variable costing treats fixed manufacturing overhead as a period cost.
+A is wrong. That is absorption costing.
+B is wrong. It is a manufacturing cost, not a selling cost.
+D is wrong. It is expensed, not ignored.
+SC209-2  Answer B. It is fixed manufacturing overhead.
+A is wrong. Materials are product costs under both methods.
+C is wrong. Selling costs are period costs under both.
+D is wrong. Administrative costs are period costs under both.
+SC209-3  Answer B. Price minus all variable costs.
+A is wrong. This is gross margin per case.
+C is wrong. Variable selling cost is left out.
+D is wrong. This is the price.
+SC209-4  Answer A. Contribution margin ÷ price.
+B is wrong. This is the variable cost ratio.
+C is wrong. This is the gross margin ratio.
+D is wrong. Variable selling cost is left out.
+SC209-5  Answer C. Standard COGS plus the unfavorable volume variance.
+A is wrong. This is variable costing.
+B is wrong. The volume variance is left out.
+D is wrong. This adds all fixed overhead to variable COGS.
+SC209-6  Answer A. Variable costs first, then contribution margin, then fixed costs.
+B is wrong. That is absorption costing.
+C is wrong. It is an income statement.
+D is wrong. Published statements use absorption costing.
+SC209-7  Answer B. Some fixed overhead is deferred in ending inventory.
+A is wrong. The direction is reversed.
+C is wrong. They are equal only when inventory does not change.
+D is wrong. There is no such rule.
+SC209-8  Answer D. Change in units × fixed rate.
+A is wrong. The rate is left out.
+B is wrong. The units are left out.
+C is wrong. The sign is reversed.
+SC209-9  Answer D. The smallest denominator spreads fixed overhead over the fewest units.
+A is wrong. The largest denominator gives the lowest cost.
+B is wrong. Practical capacity is larger than the budget.
+C is wrong. The denominators differ.
+SC209-10  Answer A. ASC 330 uses normal capacity.
+B is wrong. Theoretical capacity is never reached.
+C is wrong. Sales are not a capacity level.
+D is wrong. No such level exists.
+SC209-11  Answer B. Products carry only the capacity they use.
+A is wrong. It gives a lower cost than normal capacity.
+C is wrong. GAAP uses normal capacity.
+D is wrong. Fixed overhead remains.
+SC209-12  Answer B. Idle cases × practical-capacity rate.
+A is wrong. This is the normal-capacity volume variance.
+C is wrong. This uses the normal-capacity rate.
+D is wrong. This is all fixed overhead.
+SC209-13  Answer B. Ending cases × variable manufacturing cost.
+A is wrong. This is only the fixed overhead part.
+C is wrong. This includes variable selling cost.
+D is wrong. This includes fixed overhead.
+SC209-14  Answer D. 20,000 more cases × $2.00 fixed overhead.
+A is wrong. Variable costs are the same.
+B is wrong. Variable costing has no volume variance.
+C is wrong. Sales are the same.
+Your turn
+Item
+Answer
+Absorption − variable operating income (2028)
+(40,000) × $2.00 = (80,000)
+Which method shows higher income?
+Variable costing, because inventory falls and absorption costing releases fixed overhead from earlier years.
+Multiple-choice questions
+P209-01  Answer C. All manufacturing costs are in product cost.
+A is wrong. Direct costing is variable costing.
+B is wrong. Marginal costing is variable costing.
+D is wrong. Throughput costing includes only direct materials.
+P209-02  Answer C. 2,000 units × ($5 + $4 fixed).
+A is wrong. This is only the fixed part.
+B is wrong. This is variable costing.
+D is wrong. This is the full cost of all units.
+P209-03  Answer B. 2,000 units × $5.
+A is wrong. This is the fixed part only.
+C is wrong. This includes fixed overhead.
+D is wrong. This is fixed overhead.
+P209-04  Answer B. 2,000 units × $4 fixed overhead deferred.
+A is wrong. This is variable-costing inventory.
+C is wrong. This is absorption inventory.
+D is wrong. The sign is reversed.
+P209-05  Answer C. Fixed overhead from earlier periods is released into COGS.
+A is wrong. That happens when inventory rises.
+B is wrong. They differ when inventory changes.
+D is wrong. Contribution margin is before fixed costs.
+P209-06  Answer D. It covers fixed costs and profit.
+A is wrong. That is gross margin.
+B is wrong. Fixed costs come after the margin.
+C is wrong. That is operating income before administrative costs.
+P209-07  Answer C. (500,000 − 300,000) ÷ 500,000.
+A is wrong. This is the variable cost ratio.
+B is wrong. This is operating income ÷ sales.
+D is wrong. This uses fixed costs.
+P209-08  Answer B. GAAP requires absorption costing.
+A is wrong. That is a weakness of absorption costing.
+C is wrong. It shows the contribution margin.
+D is wrong. That is absorption costing.
+P209-09  Answer A. Extra units carry fixed overhead into inventory.
+B is wrong. That lowers absorption income.
+C is wrong. GAAP does not allow it.
+D is wrong. That lowers income.
+P209-10  Answer D. It separates fixed and variable costs.
+A is wrong. Absorption mixes fixed overhead into unit cost.
+B is wrong. Variable costing supports CVP.
+C is wrong. Absorption hides cost behavior.
+P209-11  Answer C. Fixed overhead ÷ practical capacity.
+A is wrong. The division is reversed.
+B is wrong. The denominator is wrong.
+D is wrong. This uses normal capacity.
+P209-12  Answer B. Fixed overhead is spread over fewer units each round.
+A is wrong. Unit cost rises as volume falls.
+C is wrong. The denominator changes unit cost.
+D is wrong. Fixed overhead does not disappear.
+P209-13  Answer B. Idle hours × rate.
+A is wrong. The rate is left out.
+C is wrong. This is the cost of capacity used.
+D is wrong. This is all fixed overhead.
+P209-14  Answer A. It supports capacity decisions.
+B is wrong. Charging it to products can start a demand spiral.
+C is wrong. The cost still exists.
+D is wrong. It is a management report.
+P209-15  Answer B. Selling costs are never inventoried.
+A is wrong. They are not manufacturing costs.
+C is wrong. They are variable selling costs.
+D is wrong. They are not inventoried.
+P209-16  Answer A. A larger denominator lowers the rate, so less fixed overhead is applied.
+B is wrong. The directions are reversed.
+C is wrong. Unit cost falls with a larger denominator.
+D is wrong. The rate changes.
+Case question: the halva line in 2027
+C209-1
+Halva cost
+Category
+Sesame and sugar
+Product cost under both methods
+Depreciation of the halva line
+Product cost under absorption only
+Variable selling cost
+Period cost under both methods
+Variable manufacturing overhead
+Product cost under both methods
+Fixed administrative salaries
+Period cost under both methods
+Halva line supervisor
+Product cost under absorption only
+Only fixed manufacturing overhead is treated differently by the two methods.
+C209-2  Answer: 1,155,000.
+1,260,000 is wrong: this answer deducts only variable manufacturing cost.
+927,000 is wrong: this answer gives gross margin.
+C209-3  Answer: 672,000.
+690,000 is wrong: this answer leaves out the production-volume variance.
+C209-4  Answer: 645,000.
+672,000 is wrong: this answer gives the absorption figure.
+C209-5  Answer: 99,000.
+72,000 is wrong: this answer gives the variable-costing value.
+108,000 is wrong: this answer includes variable selling cost.
+C209-6  Answer: production exceeded sales, so fixed overhead was deferred in inventory.
+variable costs were lower under absorption costing is wrong: this answer variable costs are the same.
+sales were higher under absorption costing is wrong: this answer sales are the same.
+the volume variance is only in variable costing is wrong: this answer the volume variance is an absorption item.
+C209-7  Answer: contribution margin.
+operating margin is wrong: this answer operating income comes after fixed costs.
+net margin is wrong: this answer net margin is after all costs and taxes.
+production margin is wrong: this answer the variable costing subtotal is contribution margin.
+PART II — MEASURING PRODUCT COST

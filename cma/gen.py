@@ -27,6 +27,8 @@ sys.path.insert(0, HERE)
 
 import parsebook as PB
 
+BOOK = 1      # set by fit(); threaded into every path and package name
+
 ARABIC = re.compile(r'[؀-ۿ]')
 NUM = re.compile(r'\d')
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWX'
@@ -75,6 +77,10 @@ def nonascending(pairs, seed):
 
 
 PLACEHOLDER = re.compile(r'^[_\s.\u2014-]*$')
+# The same notion of 'a figure' the checker uses: three digits or more, or a
+# year. Keying the worked row on any digit at all left a table whose printed
+# cells held only '5' and '12' above answers of '1,200'.
+BIGNUM = re.compile(r'\b\d[\d,]{2,}\b|\b20X\d\b|\b\d{4}\b')
 
 
 def attachable(tb):
@@ -133,7 +139,7 @@ def usable(tb):
 
 
 # -------------------------------------------------------------- generators --
-FIGREF = re.compile(r'Figure (F\d{2}-\d{2})')
+FIGREF = re.compile(r'Figure (F\d{2,3}-\d{2})')
 
 
 def gen_mcq(items, ans, src_id, per=6, figs=None, tabs=None, omit=None):
@@ -265,7 +271,10 @@ def gen_terms(rows, kind='term', per=8, reverse=False):
     # A final group of one or two rows used to be dropped, which left those
     # terms unexercised and the coverage check rightly complained.
     if len(groups) > 1 and len(groups[-1]) < 3:
-        groups[-2] += groups.pop()
+        # Pop first, then append to what is now the last group: indexing
+        # groups[-2] after the pop walks off the front of a two-group list.
+        tail = groups.pop()
+        groups[-1] += tail
     for g, chunk in enumerate(groups):
         if len(chunk) < 3:
             break
@@ -332,8 +341,17 @@ def gen_tables(tbs, seed):
         if not 3 <= len(body) <= 14:
             continue
         rnd = random.Random(seed + ri)
-        rows, ans = [(list(body[0]), 'w')], []
-        for r in body[1:]:
+        # The worked row has to carry a figure whenever the table asks for
+        # one: a worked row of words above three rows of missing amounts
+        # leaves nothing on the sheet to work from, which is what the
+        # self-sufficiency check caught in two chapters.
+        wi = 0
+        if any(BIGNUM.search(c) for r in body for c in r[1:]):
+            wi = next((i for i, r in enumerate(body)
+                       if any(BIGNUM.search(c) for c in r[1:])), 0)
+        order = [body[wi]] + [r for i, r in enumerate(body) if i != wi]
+        rows, ans = [(list(order[0]), 'w')], []
+        for r in order[1:]:
             cells, holes = [r[0]], 0
             for c in r[1:]:
                 # only a cell that holds a real, short answer is worth
@@ -399,6 +417,8 @@ def gen_cloze(sections, terms, seed, per=4, rounds=4):
                 continue
             if re.match(r'^(Figure|Table|Exhibit|SC|P\d)', sent):
                 continue
+            if FIGREF.search(sent) or re.search(r'\b(SC|P)\d{2,3}-\d', sent):
+                continue      # it would point the student off the sheet
             hit = None
             for v in vocab:
                 if v in used:
@@ -503,7 +523,16 @@ def gen_case(case, ans, omit=None):
         covers.append(cid)
     if len(got) < 3:
         return []
-    # the first row is worked, which is what makes the table self-sufficient
+    # The worked row is what makes the table self-sufficient, so it has to be
+    # one whose answer is a figure when the others are: a worked answer of
+    # '2.80' left three rows of thousands with nothing on the sheet to work
+    # from.
+    wi = 0
+    if any(BIGNUM.search(a) for a in got):
+        wi = next((i for i, a in enumerate(got) if BIGNUM.search(a)), 0)
+    rows = [rows[wi]] + [r for i, r in enumerate(rows) if i != wi]
+    got = [got[wi]] + [a for i, a in enumerate(got) if i != wi]
+    covers = [covers[wi]] + [c for i, c in enumerate(covers) if i != wi]
     rows[0] = ([rows[0][0][0], got[0]], 'w')
     return [dict(
         t='T5',
@@ -517,13 +546,8 @@ def gen_case(case, ans, omit=None):
 # ------------------------------------------------------------------ build ---
 def pool_for(n):   # noqa: C901
     """Every exercise a chapter yields, in the order it is taught."""
-    d = PB.parse(n)
+    d = PB.parse(n, BOOK)
     ans = d['answers']
-    sc_by_sec = collections.defaultdict(list)
-    for i in d['sc']:
-        m = re.match(r'SC(\d{1,2})-(\d{1,2})', i['id'])
-        sc_by_sec[int(m.group(2))].append(i)
-
     pool, omit = [], {}
     # the chapter's own key terms first, then each section's own material
     pool += gen_terms(d['keyterms'] or d['terms'][:8])
@@ -667,41 +691,55 @@ def short_subject(title):
     return re.sub(r'^(The|A)\s+', '', title.split(':')[0].strip())
 
 
+def _head(secs, no):
+    """A section heading, if it can stand alone as a handout title.
+
+    An 'Extended Example 2A: the Oils overhead budget, 2027' heading names
+    the case, not the concept: a sheet titled after a division of the
+    company tells a student nothing about what is on it. Those return empty
+    and the caller titles them 'worked example' under the chapter's subject.
+    """
+    t = secs.get(no, '')
+    if re.match(r'^(Extended Example|Worked Example)\b', t):
+        return ''
+    return t
+
+
 def titles_for(d, hs):
     """Name a handout after the concept it practises.
 
-    The first version named the source location instead — 'Section 10.2',
-    'The practice set', 'The tables and figures' — which tells a student
-    holding one loose sheet nothing about what is on it. The book's own
-    section headings are the concepts, and they were being thrown away along
-    with the section numbers.
+    Two sources of a concept, in order of preference: the sections a
+    handout's cloze exercises came from, and the sections its tables came
+    from. Without the second, thirty-three of Book 2's forty-nine handouts
+    fell back to '<chapter>: the figures and the schedules', which names the
+    chapter and not the sheet.
     """
     secs = {x['no']: x['title'] for x in d['sections']}
+    tsec = d.get('tsec') or {}
     subj = short_subject(d['title'])
     names, used, usedkeys = [], set(), []
     for h in hs:
-        got = sorted({c.split(':')[1] for p in h for x in p
-                      for c in x['covers'] if c.startswith('cloze:')})
+        covers = [c for p in h for x in p for c in x['covers']]
+        got = sorted({c.split(':')[1] for c in covers
+                      if c.startswith('cloze:')})
+        if not got:
+            # fall back to the sections this handout's own tables sit in
+            idx = [c.split(':')[1] for c in covers
+                   if c.startswith(('table:', 'classify:'))]
+            froms = collections.Counter(tsec[i] for i in idx if i in tsec)
+            got = [n for n, _c in froms.most_common(2)]
+            got.sort()
         kinds = collections.Counter(x['t'] for p in h for x in p)
-        if got:
-            heads = []
-            for g in got:
-                if g not in secs:
-                    continue
-                hd = secs[g]
-                m = re.match(r'^\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x)\)\s+(.+)$',
-                             hd)
-                if m:
-                    hd = '%s: %s' % (subj, m.group(1)[0].lower()
-                                     + m.group(1)[1:])
-                heads.append(hd)
-            nm = ' \u00b7 '.join(heads) if heads else ''
-            if len(nm) > 72:
-                nm = ('%s \u00b7 and %d more section%s'
-                      % (heads[0], len(heads) - 1,
-                         '' if len(heads) == 2 else 's'))
-        else:
-            nm = ''
+        heads = [_head(secs, g) for g in got]
+        heads = [x for x in heads if x]
+        nm = ' \u00b7 '.join(heads)
+        if len(nm) > 72 and heads:
+            nm = ('%s \u00b7 and %d more section%s'
+                  % (heads[0], len(heads) - 1,
+                     '' if len(heads) == 2 else 's'))
+        if not nm and got:
+            # every section here is a worked example
+            nm = '%s: worked example' % subj
         if not nm:
             if kinds.get('T5') or kinds.get('T6'):
                 nm = '%s: the figures and the schedules' % subj
@@ -726,8 +764,50 @@ def titles_for(d, hs):
     return names
 
 
+BOOKLINE = {1: 'CMA Part 1 · Section A',
+            2: 'CMA Part 1 · Book 2 · Cost Management'}
+
+
+def _bookline(bk):
+    return BOOKLINE.get(bk, 'CMA Part 1 · Book %d' % bk)
+
+
+def _prov(d, h):
+    """Which sections of the chapter a handout draws on, for its subtitle.
+
+    The title now names the concept rather than the location, so the
+    location moves here, where a teacher looking for the pages can find it.
+    """
+    tsec = d.get('tsec') or {}
+    out = set()
+    for p in h:
+        for x in p:
+            for c in x['covers']:
+                if c.startswith('cloze:'):
+                    out.add(c.split(':')[1])
+                elif c.startswith(('table:', 'classify:')):
+                    i = c.split(':')[1]
+                    if i in tsec:
+                        out.add(tsec[i])
+    if not out:
+        return ''
+    ss = sorted(out, key=lambda v: [int(x) for x in v.split('.')])
+    return 'sections ' + ', '.join(ss) if len(ss) > 1 else 'section ' + ss[0]
+
+
 def write_package(n, d, hs, names, omit=None):
-    pkg = os.path.join(HERE, 'b1_ch%02d' % n)
+    pkg = os.path.join(HERE, 'b%d_ch%02d' % (BOOK, n))
+    # Refuse to clobber a package that was not written by this generator.
+    # A test run with BOOK unset once wrote Book 2's chapter 1 over Book 1's
+    # twelve hand-written handouts and deleted five of the files outright;
+    # only git had them. A generated package says so in its __init__, and
+    # anything without that marker is somebody's work.
+    init = os.path.join(pkg, '__init__.py')
+    if os.path.exists(init):
+        if 'GENERATED = True' not in open(init, encoding='utf-8').read():
+            raise SystemExit(
+                'refusing to overwrite %s: it is hand-written, not generated'
+                % os.path.relpath(pkg, HERE))
     os.makedirs(pkg, exist_ok=True)
     for f in os.listdir(pkg):
         if re.match(r'h\d+\.py$', f) or f in ('__init__.py', '_ledger.py'):
@@ -749,19 +829,21 @@ def write_package(n, d, hs, names, omit=None):
         fh.write('}\n')
     with open(os.path.join(pkg, '__init__.py'), 'w') as fh:
         fh.write('# -*- coding: utf-8 -*-\n'
-                 '"""Chapter %d of Book 1, converted by gen.py.\n\n'
+                 '"""Chapter %d of Book %d, converted by gen.py.\n\n'
                  'Every exercise comes from a structure the chapter already\n'
                  'has: its own items with its own answers, its own term rows,\n'
                  'its own boxes, its own tables and its own sentences.\n"""\n'
-                 % n)
+                 % (n, BOOK))
+        fh.write('GENERATED = True\n')
         fh.write('CH = %r\n' % str(n))
-        fh.write('BOOK = %r\n' % ('CMA Part 1 · Section A · Chapter %d' % n))
-        fh.write('TITLE = %r\n' % ('CMA Part 1 · Section A · Chapter %d' % n))
+        fh.write('BK = %r\n' % BOOK)
+        fh.write('BOOK = %r\n' % (_bookline(BOOK) + ' · Chapter %d' % n))
+        fh.write('TITLE = %r\n' % (_bookline(BOOK) + ' · Chapter %d' % n))
         fh.write('SUB = %r\n' % d['title'])
         fh.write('HANDOUTS = %r\n' % list(range(1, len(hs) + 1)))
-        fh.write('OUT_H = %r\n' % ('CMA_B1_Ch%02d_Handouts.docx' % n))
-        fh.write('OUT_K = %r\n' % ('CMA_B1_Ch%02d_AnswerKeys.docx' % n))
-        fh.write('SOURCE = %r\n' % ('src/b1_ch%02d.txt' % n))
+        fh.write('OUT_H = %r\n' % ('CMA_B%d_Ch%02d_Handouts.docx' % (BOOK, n)))
+        fh.write('OUT_K = %r\n' % ('CMA_B%d_Ch%02d_AnswerKeys.docx' % (BOOK, n)))
+        fh.write('SOURCE = %r\n' % ('src/b%d_ch%02d.txt' % (BOOK, n)))
         fh.write('from ._ledger import LEDGER, OMIT  # noqa: E402\n')
     for hi, (h, nm) in enumerate(zip(hs, names), 1):
         covers = sorted({c for p in h for x in p for c in x['covers']
@@ -782,8 +864,9 @@ def write_package(n, d, hs, names, omit=None):
                      '"""Generated by gen.py from chapter %d. Do not edit."""\n'
                      % n)
             fh.write('HANDOUT = ' + repr(dict(
-                n=hi, book='CMA Part 1 · Section A · Chapter %d' % n,
-                source=d['title'], title=nm, covers=covers,
+                n=hi, book=_bookline(BOOK) + ' · Chapter %d' % n,
+                source=_prov(d, h) or d['title'], title=nm,
+                covers=covers,
                 pages=pages)) + '\n')
     return len(hs)
 
@@ -819,13 +902,16 @@ def measure(path):
     return out
 
 
-def fit(n, rounds=12):
+def fit(n, rounds=12, bk=None):
     """Write, build, measure, move, repeat until every page fits.
 
     Page fitting is not estimated and hoped for. Each round builds the real
     document, measures every declared page, and pushes the last exercise off
     any page that overflows; a page under half full pulls one back.
     """
+    global BOOK
+    if bk:
+        BOOK = bk
     d, pool, omit = pool_for(n)
     best = fallback = None
     # Search upward and keep the densest packing that still fits. Searching
@@ -836,7 +922,7 @@ def fit(n, rounds=12):
         hs = pack(pool, target)
         names = titles_for(d, hs)
         write_package(n, d, hs, names, omit)
-        mod = 'b1_ch%02d' % n
+        mod = 'b%d_ch%02d' % (BOOK, n)
         for m in list(sys.modules):
             if m.startswith(mod):
                 del sys.modules[m]

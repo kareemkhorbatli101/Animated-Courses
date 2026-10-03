@@ -1,0 +1,724 @@
+Chapter 16
+Continuous Improvement and the Cost of Quality
+التحسين المستمر وتكاليف الجودة
+In 2027 the Beverages division spent $400,000 on defects its customers found: returns, complaints and customers who stopped buying. It spent only $120,000 on stopping defects in the first place. This chapter measures the cost of quality and shows why that balance was wrong.
+Figure F216-01 shows the three kinds of quality spending the chapter follows.
+Figure F216-01. Chapter 16 roadmap: prevent, find, fail.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.5.i
+explain the relationship between continuous improvement techniques and quality performance
+Explain how continuous improvement techniques raise quality performance.
+Full treatment
+D.5.j
+explain the concept of continuous improvement and how it relates to implementing ideal standards and quality improvements
+Explain continuous improvement and how it moves standards toward the ideal and improves quality.
+Full treatment
+D.5.k
+identify and describe the components of the costs of quality, commonly referred to as prevention costs, appraisal costs, internal failure costs, and external failure costs
+Name and describe the four costs of quality: prevention, appraisal, internal failure and external failure.
+Full treatment
+D.5.l
+calculate the financial impact of implementing the above-mentioned processes
+Calculate the financial impact of continuous improvement and quality programs.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+continuous improvement
+التحسين المستمر
+amélioration continue
+kaizen
+كايزن (التحسين المستمر)
+kaizen
+PDCA cycle
+دورة خطط-نفّذ-افحص-تصرّف
+cycle PDCA (roue de Deming)
+total quality management
+إدارة الجودة الشاملة
+management de la qualité totale
+Six Sigma
+ستة سيجما
+Six Sigma
+ideal standard
+المعيار المثالي
+norme idéale
+cost of quality
+تكاليف الجودة
+coût de la qualité (coût d'obtention de la qualité)
+prevention costs
+تكاليف الوقاية
+coûts de prévention
+appraisal costs
+تكاليف التقييم (الفحص)
+coûts d'évaluation (de détection)
+internal failure costs
+تكاليف الفشل الداخلي
+coûts de défaillance interne
+external failure costs
+تكاليف الفشل الخارجي
+coûts de défaillance externe
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 treated spoilage and rework in product cost, and Chapter 15 redesigned a process in one big step. This chapter improves processes in many small steps and measures what poor quality really costs.
+16.1  Continuous improvement techniques and quality
+Continuous improvement means improving processes in many small, regular steps instead of one big change. Each step removes a little waste or a cause of defects, and quality rises over time.
+The best-known approach is kaizen, in which the people who do the work suggest the improvements. Each change is tested with the PDCA cycle: plan, do, check, act. Figure F216-02 shows the cycle.
+Figure F216-02. The PDCA cycle behind kaizen.
+Two wider approaches support it. Total quality management makes quality everyone's job and lets the customer define it. Six Sigma uses data and statistics to cut defects to very low levels. Figure F216-03 compares the four techniques.
+Figure F216-03. Continuous improvement techniques compared
+Technique
+Idea
+Beverages example
+Kaizen
+Many small improvements, suggested by the people who do the work
+Shorter changeovers on the filling line
+PDCA cycle
+Plan, do, check, act: test a change before adopting it
+Trying a new cleaning routine on one line first
+Total quality management
+Quality is everyone's job; the customer defines quality
+Drivers report damaged cases at delivery
+Six Sigma
+Data and statistics to cut defects to very low levels
+Measuring fill-volume variation per bottle
+WORKED EXAMPLE   Worked example: a kaizen event on the filling line
+The line team cut each changeover from 60 to 35 minutes. With 400 changeovers a year and line time worth $600 an hour, Figure F216-04 shows a yearly saving of $100,000.
+Figure F216-04. Worked example: the kaizen changeover saving
+Kaizen event on the filling line
+Amount
+Changeovers a year
+400
+Minutes per changeover: before → after
+60 → 35
+Hours of line time freed a year
+167
+Cost of one hour of line time
+$600
+Yearly saving
+100,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+continuous improvement
+التحسين المستمر
+amélioration continue
+kaizen
+كايزن (التحسين المستمر)
+kaizen
+PDCA cycle
+دورة خطط-نفّذ-افحص-تصرّف
+cycle PDCA (roue de Deming)
+total quality management
+إدارة الجودة الشاملة
+management de la qualité totale
+Six Sigma
+ستة سيجما
+Six Sigma
+English (exam term)
+العربية
+Français
+continuous improvement
+التحسين المستمر
+amélioration continue
+kaizen
+كايزن (التحسين المستمر)
+kaizen
+PDCA cycle
+دورة خطط-نفّذ-افحص-تصرّف
+cycle PDCA (roue de Deming)
+total quality management
+إدارة الجودة الشاملة
+management de la qualité totale
+Six Sigma
+ستة سيجما
+Six Sigma
+SECTION CHECK   Test yourself
+SC216-1  How does continuous improvement raise quality performance?
+A.	Through one large redesign every ten years
+B.	By inspecting every product twice
+C.	By lowering the quality standard
+D.	Through many small, regular improvements that remove causes of defects
+SC216-2  A kaizen event cuts each of 400 changeovers from 60 to 35 minutes. Line time is worth $600 an hour. What is the yearly saving?
+A.	$15,000
+B.	$100,000
+C.	$140,000
+D.	$240,000
+Answers and explanations are at the end of the chapter.
+16.2  Continuous improvement and ideal standards
+An ideal standard assumes perfect conditions: no waste, no breakdowns, no idle time. A currently attainable standard allows for normal waste and is hard but possible. Chapter 5 used attainable standards for costing; this section shows how the two work together.
+The ideal shows the direction and the size of the waste still in the process. Each year the attainable standard moves closer to it. Beverages allows 2.0% normal spoilage this year, aims for 1.2% after its kaizen program, and treats 0.0% as the ideal. Figure F216-05 shows the path.
+Figure F216-05. Moving the spoilage standard toward the ideal.
+Figure F216-06 compares the two kinds of standard. Judging people against the ideal standard can demotivate them, because it is never met; using it to show the remaining waste motivates improvement.
+Figure F216-06. Ideal and currently attainable standards
+Ideal standard
+Currently attainable standard
+Assumes
+Perfect conditions: no waste, no breakdowns
+Efficient work with normal waste and breaks
+Use in continuous improvement
+Shows the direction and the size of the remaining waste
+Sets this year's target and judges performance
+Effect on people
+Can demotivate if used to judge them
+Motivates: hard but possible
+Beverages spoilage allowance
+0.0%
+2.0% this year; 1.2% after kaizen
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+ideal standard
+المعيار المثالي
+norme idéale
+English (exam term)
+العربية
+Français
+ideal standard
+المعيار المثالي
+norme idéale
+SECTION CHECK   Test yourself
+SC216-3  In continuous improvement, the ideal standard is best used to:
+A.	show the direction and the waste still in the process
+B.	judge each worker's monthly bonus
+C.	value inventory under GAAP
+D.	replace attainable standards
+SC216-4  Beverages allows 2.0% normal spoilage this year and aims for 1.2% next year. The ideal is 0%. What does this show?
+A.	The ideal standard is already met
+B.	Standards are lowered to make targets easier
+C.	The attainable standard moves step by step toward the ideal
+D.	Spoilage is not a quality cost
+Answers and explanations are at the end of the chapter.
+16.3  The four costs of quality
+The cost of quality has four parts. Prevention costs stop defects before they happen. Appraisal costs find defects by inspection and testing. Together they are the costs of conformance.
+Internal failure costs arise from defects found before the product reaches the customer, such as scrap and rework. External failure costs arise from defects the customer finds, such as returns, complaints and lost sales. Figure F216-07 shows the four categories.
+Figure F216-07. The four categories of the cost of quality.
+Figure F216-08 is the Beverages cost-of-quality report for 2027. Failure costs are 68% of the total $950,000, and the largest category is external failure.
+Figure F216-08. Beverages cost-of-quality report, 2027
+Beverages cost-of-quality report, 2027
+Item
+Category
+Supplier audits
+30,000
+Quality training for staff
+40,000
+Preventive maintenance of the fillers
+50,000
+Prevention costs
+120,000 (13%)
+Testing incoming concentrate
+45,000
+In-line checks of fill and seal
+80,000
+Lab tests of finished juice
+55,000
+Appraisal costs
+180,000 (19%)
+Spoiled batches
+150,000
+Re-filtering (rework)
+60,000
+Line stops after failures
+40,000
+Internal failure costs
+250,000 (26%)
+Returns and replacements
+200,000
+Handling complaints
+50,000
+Lost contribution from lost customers (estimate)
+150,000
+External failure costs
+400,000 (42%)
+Total cost of quality
+950,000
+EXAM TRAP   Hidden external failure costs
+Lost sales and lost customers do not appear in the ledger, but they are external failure costs. An exam answer that leaves them out understates the cost of quality.
+FALSE-FRIEND ALERT   Coûts de la qualité, تكاليف الجودة
+French also says 'coût d'obtention de la qualité'. The IMA Arabic glossary uses تكلفة النوعية; Arab textbooks usually say تكاليف الجودة. Both mean the four categories, not the price of a high-quality product.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost of quality
+تكاليف الجودة
+coût de la qualité (coût d'obtention de la qualité)
+prevention costs
+تكاليف الوقاية
+coûts de prévention
+appraisal costs
+تكاليف التقييم (الفحص)
+coûts d'évaluation (de détection)
+internal failure costs
+تكاليف الفشل الداخلي
+coûts de défaillance interne
+external failure costs
+تكاليف الفشل الخارجي
+coûts de défaillance externe
+English (exam term)
+العربية
+Français
+cost of quality
+تكاليف الجودة
+coût de la qualité (coût d'obtention de la qualité)
+prevention costs
+تكاليف الوقاية
+coûts de prévention
+appraisal costs
+تكاليف التقييم (الفحص)
+coûts d'évaluation (de détection)
+internal failure costs
+تكاليف الفشل الداخلي
+coûts de défaillance interne
+external failure costs
+تكاليف الفشل الخارجي
+coûts de défaillance externe
+SECTION CHECK   Test yourself
+SC216-5  Testing incoming concentrate before use is:
+A.	a prevention cost
+B.	an internal failure cost
+C.	an appraisal cost
+D.	an external failure cost
+SC216-6  A customer stops buying after a bad batch. The lost contribution is:
+A.	not a cost of quality
+B.	an external failure cost
+C.	a prevention cost
+D.	an internal failure cost
+Answers and explanations are at the end of the chapter.
+16.4  The financial impact of quality improvement
+Beverages plans a supplier-certification and process-control program. It adds $110,000 a year of prevention, cuts appraisal by $40,000, and is expected to cut internal failure by 45% and external failure by 60%.
+WORKED EXAMPLE   Worked example: the program's effect
+Figure F216-09 applies each change to the 2027 report. The total cost of quality falls from $950,000 to $667,500, a net saving of $282,500 a year.
+Figure F216-09. Worked example: the quality program's effect on each category
+Whole USD
+Before
+Change
+After
+Prevention
+120,000
++110,000
+230,000
+Appraisal
+180,000
+(40,000)
+140,000
+Internal failure
+250,000
+(112,500)
+137,500
+External failure
+400,000
+(240,000)
+160,000
+Total cost of quality
+950,000
+(282,500)
+667,500
+YOUR TURN   The failure costs after the program
+Complete the two blank rows of Figure F216-10. Answers are at the end of the chapter.
+Figure F216-10. Your turn: the cost of quality after the program (complete the blanks)
+Cost of quality after the program
+Whole USD
+Prevention
+230,000
+Appraisal
+140,000
+Internal failure (cut by 45%)
+________
+External failure (cut by 60%)
+________
+Total after the program
+667,500
+Figure F216-11 shows the pattern. Prevention rises, and everything else falls by more. The net saving already deducts the extra prevention spending.
+Figure F216-11. Cost of quality by category before and after the program.
+SECTION CHECK   Test yourself
+SC216-7  A program adds $110,000 of prevention, cuts appraisal by $40,000 and cuts failure costs by $352,500. What is the net saving?
+A.	$202,500
+B.	$282,500
+C.	$352,500
+D.	$392,500
+SC216-8  External failure costs of $400,000 are expected to fall by 60%. What will they be after the program?
+A.	$60,000
+B.	$160,000
+C.	$240,000
+D.	$340,000
+Answers and explanations are at the end of the chapter.
+16.5  Extended Example 16A: the total impact on Beverages
+This example adds the quality program and the kaizen event together, as the division manager presented them to the board. It is exam-core.
+1. Scenario
+Cost of quality 2027: prevention $120,000, appraisal $180,000, internal failure $250,000, external failure $400,000.
+Improvements: the quality program (Section 16.4) and the changeover kaizen (Section 16.1).
+2. Financial impact
+Figure F216-12 sets out the yearly effect. Failure costs fall by $352,500 and appraisal by $40,000, against $110,000 of extra prevention. With the kaizen saving, the total yearly impact is shown on the last line.
+Figure F216-12. Extended Example: the total yearly financial impact
+Beverages, yearly
+Whole USD
+Fall in failure costs
+352,500
+Fall in appraisal costs
+40,000
+Extra prevention costs
+(110,000)
+Net saving in the cost of quality
+282,500
+Kaizen saving on changeovers
+100,000
+Total yearly financial impact
+382,500
+3. The new mix
+Figure F216-13 compares the mix of quality costs. Failure costs fall from 68% to 45% of the total: the division now spends its quality money earlier in the process.
+Figure F216-13. Extended Example: the mix of quality costs before and after.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Fall in failure costs $352,500 + fall in appraisal $40,000 − extra prevention $110,000 = $282,500.
+$950,000 − $282,500 = $667,500, the total after the program.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost of quality
+تكاليف الجودة
+coût de la qualité (coût d'obtention de la qualité)
+prevention costs
+تكاليف الوقاية
+coûts de prévention
+external failure costs
+تكاليف الفشل الخارجي
+coûts de défaillance externe
+English (exam term)
+العربية
+Français
+cost of quality
+تكاليف الجودة
+coût de la qualité (coût d'obtention de la qualité)
+prevention costs
+تكاليف الوقاية
+coûts de prévention
+external failure costs
+تكاليف الفشل الخارجي
+coûts de défaillance externe
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect a list of quality costs to classify, then a proposal that raises prevention or appraisal and lowers failure costs. Classify first, then compute the new total; the answer is the net change, after the extra spending.
+7. Self-check
+SECTION CHECK   Test yourself
+SC216-9  Use the Extended Example. What is the total yearly financial impact of the quality program and the kaizen event (whole USD)?
+A.	100,000
+B.	282,500
+C.	382,500
+D.	492,500
+SC216-10  Use the Extended Example. What share of the cost of quality do failure costs take after the program?
+A.	45%
+B.	68%
+C.	100%
+D.	0%
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F216-14 brings the chapter together.
+Figure F216-14. Chapter 16 summary map: the key rule for each section.
+Continuous improvement raises quality in many small steps, using kaizen, the PDCA cycle, total quality management and Six Sigma. The ideal standard shows the direction, while attainable standards move toward it each year. The cost of quality has four parts: prevention, appraisal, internal failure and external failure, including hidden lost sales. Spending more on prevention pays when failure and appraisal costs fall by more, and the financial impact is always the net change.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P216-01  In kaizen, improvement ideas come mainly from:
+A.	outside consultants only
+B.	the tax authority
+C.	the people who do the work
+D.	customers' lawyers
+P216-02  Which technique uses data and statistics to reduce defects to very low levels?
+A.	Kaizen
+B.	Six Sigma
+C.	Backflush costing
+D.	Life-cycle costing
+P216-03  The Beverages team tries a new cleaning routine on one line, measures the result and then adopts it on all lines. Which approach is this?
+A.	Reengineering
+B.	Benchmarking
+C.	Variable costing
+D.	The PDCA cycle
+P216-04  Total quality management holds that quality is:
+A.	the job of the quality department only
+B.	everyone's job, and defined by the customer
+C.	defined by the accountants
+D.	only about inspection
+P216-05  An ideal standard assumes:
+A.	perfect conditions with no waste or breakdowns
+B.	normal waste and breaks
+C.	last year's actual results
+D.	the industry average
+P216-06  A plant manager judges workers' bonuses against the ideal standard. What is the likely result?
+A.	Higher motivation, because the target is clear
+B.	No effect
+C.	Lower motivation, because the target can never be met
+D.	Lower inventory values
+P216-07  How does continuous improvement relate to standards?
+A.	Each improvement lets the attainable standard move closer to the ideal
+B.	Standards are no longer needed
+C.	Standards are set once and never changed
+D.	It uses only historical standards
+P216-08  Training staff in hygiene is:
+A.	an appraisal cost
+B.	a prevention cost
+C.	an internal failure cost
+D.	an external failure cost
+P216-09  Reworking under-filled jars found before shipment is:
+A.	an appraisal cost
+B.	an external failure cost
+C.	an internal failure cost
+D.	a prevention cost
+P216-10  Which pair are both costs of non-conformance?
+A.	Prevention and appraisal
+B.	Appraisal and internal failure
+C.	Prevention and external failure
+D.	Internal failure and external failure
+P216-11  A company's quality costs are: prevention $35,000, appraisal $95,000, internal failure $115,000, external failure $125,000. What is the total cost of quality?
+A.	$130,000
+B.	$240,000
+C.	$335,000
+D.	$370,000
+P216-12  Internal failure costs of $250,000 are expected to fall by 45%. By how much do they fall?
+A.	$45,000
+B.	$112,500
+C.	$137,500
+D.	$250,000
+P216-13  A proposal adds $45,000 of prevention and saves $148,500 in appraisal and failure costs. What is the net yearly saving?
+A.	$45,000
+B.	$103,500
+C.	$148,500
+D.	$193,500
+P216-14  When is it worth spending more on prevention?
+A.	When the fall in appraisal and failure costs is larger than the extra prevention
+B.	Never; prevention is a pure cost
+C.	Only when failure costs are zero
+D.	Only when sales are falling
+P216-15  After a quality program, prevention costs rise and total quality costs fall. A manager says the program failed because prevention rose. The manager:
+A.	is right: any rise in cost is bad
+B.	is right: prevention should always be cut first
+C.	is wrong: the total cost of quality fell
+D.	is wrong: prevention costs are not quality costs
+P216-16  Which external failure cost is often left out of quality-cost reports?
+A.	Lost sales from dissatisfied customers
+B.	Returns
+C.	Complaint handling
+D.	Replacement products
+Case question: quality costs at Tahini & Spreads
+Tahini & Spreads had a difficult year. A batch of jars was recalled, Barada returned several deliveries, and the plant scrapped more batches than usual. The division manager asked the controller for a full picture of what poor quality costs the division. Barada has warned that it will look for another supplier if returns do not fall this year, and the recall was reported in the local press.
+The controller, Rania, collected every quality-related cost for 2027. Some are in the ledger, such as supplier audits, inspections, scrapped batches and returns. One is an estimate: the sales the division lost after the recall.
+The quality team proposes a change. The division would install in-line sensors on the filling line and certify its sesame suppliers, which adds prevention costs every year. In return, final inspection of jars could be reduced, and the team expects failure costs inside and outside the plant to fall.
+Rania must classify the costs, compute the cost of quality before and after the proposal, and give the division manager the net yearly saving. The manager has also asked where the division should spend its next quality dollar.
+Use Figure F216-15 for items C216-1 to C216-7.
+How to enter answers: Enter amounts in whole U.S. dollars without the $ sign or commas (for example, 125000).
+Figure F216-15. Case exhibit: Tahini & Spreads quality costs and proposal, 2027
+Tahini & Spreads, 2027 (whole USD)
+Amount
+Supplier audits
+20,000
+Staff training in hygiene
+15,000
+Testing incoming sesame
+35,000
+Final inspection of jars
+60,000
+Scrapped batches
+90,000
+Reworking under-filled jars
+25,000
+Returns from Barada
+70,000
+Handling customer complaints
+15,000
+Lost sales after a recall (estimate)
+40,000
+Proposal: in-line sensors and supplier certification (extra prevention a year)
+45,000
+Proposal: cut in final inspection a year
+40,000
+Expected fall in internal failure costs
+40%
+Expected fall in external failure costs
+50%
+C216-1  Classify each quality cost. (On the exam screen you would drag each item into a box.)
+Categories: Prevention · Appraisal · Internal failure · External failure
+Quality cost
+Category
+Supplier audits
+Staff training in hygiene
+Testing incoming sesame
+Final inspection of jars
+Scrapped batches
+Reworking under-filled jars
+Returns from Barada
+Handling customer complaints
+Lost sales after a recall (estimate)
+C216-2  Enter the total appraisal costs for 2027.
+Answer: ____________
+C216-3  Enter the total cost of quality for 2027.
+Answer: ____________
+C216-4  Enter the total cost of quality after the proposal.
+Answer: ____________
+C216-5  Enter the net yearly saving from the proposal.
+Answer: ____________
+C216-6  The division's next quality dollar is best spent on: [select]
+Options: prevention   |   more final inspection   |   faster handling of returns   |   a larger complaints team
+C216-7  The Japanese name for continuous improvement in small steps, suggested by the people who do the work, is ____.
+Choose the word or phrase for the blank: kaizen   |   kanban   |   muda   |   poka-yoke
+Answers and explanations
+Section checks
+SC216-1  Answer D. Small steps add up over time.
+A is wrong. That describes reengineering.
+B is wrong. Inspection finds defects; it does not remove their causes.
+C is wrong. The standard moves up, not down.
+SC216-2  Answer B. 400 × 25 minutes = 10,000 minutes, or about 167 hours × $600.
+A is wrong. This is 25 minutes × $600.
+C is wrong. This uses 35 minutes.
+D is wrong. This uses the full 60 minutes.
+SC216-3  Answer A. It is a direction, not today's target.
+B is wrong. Judging people against it demotivates them.
+C is wrong. Inventory uses standards that approximate actual cost.
+D is wrong. Attainable standards still set this year's target.
+SC216-4  Answer C. Continuous improvement closes the gap gradually.
+A is wrong. Spoilage is still above zero.
+B is wrong. The allowance is falling, so the target is harder.
+D is wrong. Spoilage is an internal failure cost.
+SC216-5  Answer C. It finds defects; it does not prevent them.
+A is wrong. Inspection is appraisal.
+B is wrong. No failure has occurred yet.
+D is wrong. The customer is not involved.
+SC216-6  Answer B. It follows a defect the customer found.
+A is wrong. It is a hidden external failure cost.
+C is wrong. It is a result of failure.
+D is wrong. The customer found the defect.
+SC216-7  Answer B. Falls in cost minus the extra prevention.
+A is wrong. The appraisal cut is deducted instead of added.
+C is wrong. Only failure costs are counted.
+D is wrong. The extra prevention is not deducted.
+SC216-8  Answer B. 40% of $400,000 remains.
+A is wrong. The percentage is misread.
+C is wrong. This is the fall, not the new cost.
+D is wrong. The percentage is misapplied.
+SC216-9  Answer C. Net quality saving plus the kaizen saving.
+A is wrong. The quality saving is left out.
+B is wrong. The kaizen saving is left out.
+D is wrong. The extra prevention is not deducted.
+SC216-10  Answer A. (Internal + external failure) ÷ total, after the program.
+B is wrong. This is the share before the program.
+C is wrong. Prevention and appraisal are also quality costs.
+D is wrong. Some failures remain.
+Your turn
+Item
+Answer
+Internal failure after the program
+$250,000 × (100% − 45%) = $137,500
+External failure after the program
+$400,000 × (100% − 60%) = $160,000
+Multiple-choice questions
+P216-01  Answer C. Workers know the process best.
+A is wrong. Kaizen relies on the workforce.
+B is wrong. Unrelated.
+D is wrong. Unrelated.
+P216-02  Answer B. Six Sigma is data-driven defect reduction.
+A is wrong. Kaizen is small steps from workers.
+C is wrong. That is a costing method.
+D is wrong. That is a costing method.
+P216-03  Answer D. Plan, do, check, act.
+A is wrong. It is a small tested change, not a radical redesign.
+B is wrong. No comparison with others is made.
+C is wrong. That is a costing method.
+P216-04  Answer B. It is company-wide and customer-focused.
+A is wrong. TQM spreads responsibility to all.
+C is wrong. The customer defines quality.
+D is wrong. Prevention matters more than inspection.
+P216-05  Answer A. That is why it is rarely met.
+B is wrong. That is an attainable standard.
+C is wrong. That is a historical standard.
+D is wrong. That is a benchmark.
+P216-06  Answer C. An impossible target discourages effort.
+A is wrong. The target is not attainable.
+B is wrong. Targets affect behavior.
+D is wrong. Unrelated to bonuses.
+P216-07  Answer A. Improvements are built into the next standard.
+B is wrong. Standards measure the progress.
+C is wrong. They are updated as the process improves.
+D is wrong. Historical standards keep past waste.
+P216-08  Answer B. It stops defects before they happen.
+A is wrong. It does not inspect anything.
+C is wrong. No failure has occurred.
+D is wrong. No failure has occurred.
+P216-09  Answer C. The defect is found before the customer receives the product.
+A is wrong. Finding is appraisal; fixing is failure.
+B is wrong. The customer did not find it.
+D is wrong. It corrects, not prevents.
+P216-10  Answer D. Failures are costs of not conforming.
+A is wrong. These are costs of conformance.
+B is wrong. Appraisal is a cost of conformance.
+C is wrong. Prevention is a cost of conformance.
+P216-11  Answer D. The sum of the four categories.
+A is wrong. Only conformance costs are counted.
+B is wrong. Only failure costs are counted.
+C is wrong. Prevention is left out.
+P216-12  Answer B. 45% of $250,000.
+A is wrong. The percentage is read as dollars.
+C is wrong. This is the new cost, not the fall.
+D is wrong. This is the whole cost.
+P216-13  Answer B. Savings minus the extra prevention.
+A is wrong. This is the extra cost only.
+C is wrong. The extra prevention is not deducted.
+D is wrong. The extra prevention is added.
+P216-14  Answer A. The net effect must be positive.
+B is wrong. Prevention reduces other quality costs.
+C is wrong. Then there is nothing to save.
+D is wrong. Sales are not the test.
+P216-15  Answer C. The net effect is what matters.
+A is wrong. The rise is outweighed by larger falls.
+B is wrong. Cutting prevention usually raises failure costs.
+D is wrong. Prevention is a quality cost.
+P216-16  Answer A. It is not recorded in the ledger.
+B is wrong. Returns are usually recorded.
+C is wrong. Complaint handling is usually recorded.
+D is wrong. Replacements are usually recorded.
+Case question: quality costs at Tahini & Spreads
+C216-1
+Quality cost
+Category
+Supplier audits
+Prevention
+Staff training in hygiene
+Prevention
+Testing incoming sesame
+Appraisal
+Final inspection of jars
+Appraisal
+Scrapped batches
+Internal failure
+Reworking under-filled jars
+Internal failure
+Returns from Barada
+External failure
+Handling customer complaints
+External failure
+Lost sales after a recall (estimate)
+External failure
+Prevention stops defects; appraisal finds them; internal failure is found before the customer; external failure is found by the customer.
+C216-2  Answer: 95,000.
+60,000 is wrong: this answer leaves out the testing of incoming sesame.
+C216-3  Answer: 370,000.
+330,000 is wrong: this answer leaves out the lost sales after the recall.
+C216-4  Answer: 266,500.
+221,500 is wrong: this answer leaves out the extra prevention costs.
+C216-5  Answer: 103,500.
+148,500 is wrong: this answer does not deduct the extra prevention costs.
+C216-6  Answer: prevention.
+more final inspection is wrong: this answer inspection finds defects but does not stop them.
+faster handling of returns is wrong: this answer it treats external failures after they happen.
+a larger complaints team is wrong: this answer it treats external failures after they happen.
+C216-7  Answer: kaizen.
+kanban is wrong: this answer kanban is a signal for pulling materials (Chapter 17).
+muda is wrong: this answer muda means waste.
+poka-yoke is wrong: this answer poka-yoke means error-proofing.
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

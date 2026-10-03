@@ -1,4 +1,4 @@
-# Book 1 handout plan — Chapter 1
+# CMA Part 1 handout plan — Books 1 and 2
 
 Turning *CMA Part 1 · Section A, Chapters 1–18 (Review Edition)* into exercise-only
 handouts. This plan covers **Chapter 1, The Language and Framework of Financial
@@ -694,3 +694,85 @@ each sheet to each chapter. Both were proxies for "do not waste a sheet",
 written before the build measured page fill directly. A page of tables carries
 a third of the points of a page of matching and wastes nothing; the page-budget
 check is the real guard, and it is the one that is never relaxed.
+
+
+---
+
+## 14 · Book 2 — Cost Management, all eighteen chapters
+
+Book 2 is authored to the same conventions as Book 1, so the same pipeline
+runs it: extract the real tables from the XML, parse the chapter into its
+items, answers, boxes, terms and sections, generate, fit, check, build.
+
+### What differs, and what the differences cost
+
+| | Book 1 | Book 2 |
+|---|---|---|
+| Subject | External Financial Reporting Decisions | Cost Management |
+| Item ids | `SC7-1`, `P7-01`, `C7-1` | `SC201-1`, `P201-01`, `C201-1` |
+| Figure numbers | `F01-02` | `F201-02` |
+| Sections | 94 | **116** |
+| Real tables | 606 | **684** |
+| Term-bridge rows | 346 | **176** |
+| Language-focus boxes | 3 per chapter | none |
+| Extended-example sections | none | one per chapter |
+
+Four things in the toolchain were Book 1's conventions hard-coded, and each
+one failed loudly rather than quietly:
+
+1. the item-id and figure-number patterns, widened to take both;
+2. a dead function that parsed `SC7-1` and could not read `SC201-1` at all;
+3. `groups[-2] += groups.pop()`, which walks off the front of a two-group
+   list and lost the last few term rows of six chapters;
+4. the generator wrote its package to `b1_ch01` whatever book it was
+   converting. A test run put Book 2's chapter 1 over Book 1's twelve
+   hand-written handouts and deleted five files outright. Only git had them.
+   `write_package` now refuses to touch a package that does not say
+   `GENERATED = True`, so it cannot happen again.
+
+### Delivered
+
+| | Book 1 | Book 2 |
+|---|---|---|
+| Chapters converted | 18 of 18 | **18 of 18** |
+| Handouts | 66 | **49** |
+| Student pages | 212 | **142** |
+| Answer-key sheets | 66 | **49** |
+| Response points | 2,735 | **1,961** |
+| Items on the omission record | 55 | **38** |
+| Files | 36 + 1 combined | **36 + 1 combined** |
+
+All eighteen chapters pass all sixteen checks. No page is over its budget.
+In the combined file every one of the 49 handouts is followed by its own key,
+verified in order.
+
+### The mix came out better than Book 1's
+
+| | concept | term | procedure |
+|---|---|---|---|
+| Book 1, hand-written chapter | 34% | 27% | 40% |
+| Book 1, generated chapters | 40% | **45%** | 15% |
+| Book 2, generated chapters | **45%** | 28% | **27%** |
+
+Book 1's generated chapters were dominated by English-to-Arabic matching
+because term tables are the most regular structure in that book and the
+generator converts whatever has a shape. Book 2 carries half the term rows
+and more tables, and cost management is computational, so the same generator
+lands close to the hand-written balance without being told to.
+
+### Titles name the concept, not the case
+
+Two rounds of work, both prompted by reading the output:
+
+- 56 of Book 1's titles named a source location — `Section 10.2`, `The
+  practice set`. The book's section headings are the concepts, and the titler
+  had the numbers and was discarding the headings.
+- Book 2 then threw up the same problem in a new form: 33 of 49 fell back to
+  `<chapter>: the figures and the schedules`, because a table was not tied to
+  the section it sits in. Recording that during extraction cut it to 8.
+- Book 2's `Extended Example 2A: the Oils overhead budget, 2027` headings
+  name the case company's divisions. Those now read `<chapter>: worked
+  example`, and the sections a handout draws on moved to the subtitle, where
+  a teacher looking for the pages can still find them.
+
+Zero titles in either book name the company or a bare section number.

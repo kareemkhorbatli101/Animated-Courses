@@ -1,0 +1,767 @@
+Chapter 15
+Process Analysis, Reengineering, Best Practice and Benchmarking
+تحليل العمليات وإعادة هندستها وأفضل الممارسات والمقارنة المرجعية
+Barada Wholesale has complained that Tahini & Spreads takes too long to confirm orders and that one invoice in twenty is wrong. The problem is not one careless clerk; it is the way the process is built. This chapter maps the process, redesigns it, and compares it with the best.
+Figure F215-01 shows the three moves of the chapter.
+Figure F215-01. Chapter 15 roadmap: map, redesign, compare.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.5.e
+demonstrate an understanding of process analysis and business process reengineering, and calculate the resulting savings
+Explain process analysis and business process reengineering, and calculate the savings.
+Full treatment + Extended Example
+D.5.f
+define best practice analysis and discuss how it can be used by an organization to improve performance
+Define best practice analysis and explain how it improves performance.
+Full treatment
+D.5.g
+demonstrate an understanding of benchmarking process performance
+Explain how an organization benchmarks the performance of its processes.
+Full treatment
+D.5.h
+identify the benefits of benchmarking in creating a competitive advantage
+Name the benefits of benchmarking for competitive advantage.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+process analysis
+تحليل العمليات
+analyse des processus
+process map
+خريطة العملية
+cartographie des processus
+business process reengineering
+إعادة هندسة العمليات
+reconfiguration des processus (BPR)
+cycle time
+زمن الدورة
+temps de cycle
+best practice analysis
+تحليل أفضل الممارسات
+analyse des meilleures pratiques
+benchmarking
+المقارنة المرجعية
+étalonnage (benchmarking)
+internal benchmarking
+المقارنة المرجعية الداخلية
+étalonnage interne
+competitive benchmarking
+المقارنة المرجعية التنافسية
+étalonnage concurrentiel
+functional benchmarking
+المقارنة المرجعية الوظيفية
+étalonnage fonctionnel
+generic benchmarking
+المقارنة المرجعية العامة
+étalonnage générique
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 14 separated value-added from non-value-added activities. This chapter applies that idea to a whole process, step by step, and puts a price on the change.
+15.1  Process analysis
+A business process is a chain of steps that turns an input into a result for a customer, such as an order into cash. Process analysis studies each step: what it does, who does it, how long it takes, what it costs and whether it adds value.
+The first tool is a process map, a diagram of the steps in order. Figure F215-02 maps Tahini's order-to-cash process. Only two of its eight steps, picking and shipping, are steps the customer values.
+Figure F215-02. Process map: Tahini's order-to-cash process today.
+The second tool measures each step. The cycle time from order to cash is 9 days, and the staff time is 2.10 hours per order.
+WORKED EXAMPLE   Worked example: the cost of one order
+Staff cost $20 an hour. Figure F215-03 prices each step: an order costs $42.00 of staff time today and $17.40 after the redesign in Section 15.2.
+Figure F215-03. Worked example: staff time and cost of each step, per order
+Step (staff cost $20 an hour)
+Hours now
+Cost now
+Hours new
+Cost new
+Take the order by phone and type it in
+0.30
+$6.00
+0.05
+$1.00
+Check the customer's credit
+0.20
+$4.00
+0.02
+$0.40
+Check stock and confirm the order
+0.25
+$5.00
+0.05
+$1.00
+Copy the order to the warehouse pick list
+0.15
+$3.00
+0.00
+$0.00
+Pick and pack
+0.50
+$10.00
+0.50
+$10.00
+Ship
+0.20
+$4.00
+0.20
+$4.00
+Prepare the invoice by hand
+0.20
+$4.00
+0.00
+$0.00
+Match the customer's payment
+0.30
+$6.00
+0.05
+$1.00
+Total per order
+2.10
+$42.00
+0.87
+$17.40
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+process analysis
+تحليل العمليات
+analyse des processus
+process map
+خريطة العملية
+cartographie des processus
+cycle time
+زمن الدورة
+temps de cycle
+English (exam term)
+العربية
+Français
+process analysis
+تحليل العمليات
+analyse des processus
+process map
+خريطة العملية
+cartographie des processus
+cycle time
+زمن الدورة
+temps de cycle
+SECTION CHECK   Test yourself
+SC215-1  Process analysis studies:
+A.	only the final result of a process
+B.	the company's share price
+C.	the tax cost of each product
+D.	each step of a process: what it does, its time, cost and value
+SC215-2  Matching a payment takes 0.30 hours at $20 an hour. What does the step cost per order?
+A.	$0.60
+B.	$3.00
+C.	$6.00
+D.	$60.00
+Answers and explanations are at the end of the chapter.
+15.2  Business process reengineering and its savings
+Business process reengineering is a radical redesign of a process, not a small improvement. Instead of typing orders faster, Tahini lets customers order online; instead of preparing invoices by hand, the invoice is created from the shipment record.
+Figure F215-04 shows the new process. Two steps disappear, four are shortened, and staff time falls to 0.87 hours per order. Cycle time falls to 4 days, so cash arrives sooner.
+Figure F215-04. Process map: the redesigned order-to-cash process.
+The savings must be net. Figure F215-05 compares the yearly cost of the two processes, including the cost of correcting faulty orders, and deducts the yearly running cost of the new ordering portal. The net yearly saving is $200,000.
+Figure F215-05. Yearly cost of the old and new processes
+Order-to-cash, whole USD
+Now
+Redesigned
+Staff time (8,000 orders)
+336,000
+139,200
+Correcting faulty orders (5% → 1% at $50)
+20,000
+4,000
+Yearly process cost
+356,000
+143,200
+Gross yearly saving
+212,800
+Yearly running cost of the new process
+(12,800)
+Net yearly saving
+200,000
+YOUR TURN   The saving over three years
+The change also has a one-off cost of $150,000. Complete Figure F215-06 to find the net saving over three years. Answers are at the end of the chapter.
+Figure F215-06. Your turn: the net saving over three years (complete the blanks)
+Three-year view (whole USD)
+Amount
+Net yearly saving × 3 years
+________
+One-off cost of the change
+(150,000)
+Net saving over three years
+________
+EXAM TRAP   Gross is not net
+Exam options often show the gross saving. The correct answer deducts the running cost of the new process every year and the one-off cost of the change once.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+business process reengineering
+إعادة هندسة العمليات
+reconfiguration des processus (BPR)
+English (exam term)
+العربية
+Français
+business process reengineering
+إعادة هندسة العمليات
+reconfiguration des processus (BPR)
+SECTION CHECK   Test yourself
+SC215-3  Which change is business process reengineering rather than a small improvement?
+A.	Training clerks to type orders faster
+B.	Letting customers order online so orders are never typed
+C.	Adding a second check of every invoice
+D.	Buying a faster printer for invoices
+SC215-4  A redesign cuts a process's yearly cost from $356,000 to $143,200. The new process has a running cost of $12,800 a year. What is the net yearly saving?
+A.	$143,200
+B.	$200,000
+C.	$212,800
+D.	$225,600
+Answers and explanations are at the end of the chapter.
+15.3  Best practice analysis
+Best practice analysis finds the practices that make the best performers better and adapts them to one's own organization. The aim is not to copy the result, but to understand how it is achieved.
+Figure F215-07 lists four practices that Tahini found among leading food distributors, why each works, and which Tahini step it affects. Every one of them removes a non-value-added step.
+Figure F215-07. Best practices found among leading food distributors
+Best practice
+Why it works
+Tahini step it affects
+Customers order online
+Removes typing and copying errors
+Order taking, credit check
+Invoice created from the shipment
+No separate invoicing step
+Invoicing
+Payments matched automatically by reference
+Faster cash, fewer queries
+Cash collection
+Suppliers deliver to the line
+Less storage and handling
+Receiving (Chapter 17)
+A practice must fit the organization. Online ordering works for Barada and the supermarkets; many small shops still order by phone, so Tahini keeps a simple phone channel for them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+best practice analysis
+تحليل أفضل الممارسات
+analyse des meilleures pratiques
+English (exam term)
+العربية
+Français
+best practice analysis
+تحليل أفضل الممارسات
+analyse des meilleures pratiques
+SECTION CHECK   Test yourself
+SC215-5  Best practice analysis aims to:
+A.	copy a leader's results exactly
+B.	prove the company is already the best
+C.	set the lowest prices
+D.	understand how leaders achieve their results and adapt their practices
+SC215-6  Why does Tahini keep a phone channel for small shops after moving large customers online?
+A.	Phone orders are cheaper
+B.	GAAP requires it
+C.	A best practice must be adapted to fit each customer group
+D.	Online ordering failed for Barada
+Answers and explanations are at the end of the chapter.
+15.4  Benchmarking process performance
+Benchmarking compares a process and its results with those of the best performers. There are four common types, shown in Figure F215-08: internal benchmarking, competitive benchmarking, functional benchmarking and generic benchmarking.
+Figure F215-08. The four types of benchmarking
+Type
+Compare with
+Orontes example
+Internal
+Units of the same organization
+Tahini vs Oils order handling
+Competitive
+Direct competitors
+Another Jordanian tahini maker
+Functional
+The same function in other industries
+Order handling at a pharmaceutical distributor
+Generic
+A basic process at the best organizations anywhere
+Invoice-to-cash at a global retailer
+Benchmarking follows a cycle: plan, find partners, collect comparable data, analyse the gap and the practices behind it, act, and monitor. Figure F215-09 shows the cycle.
+Figure F215-09. The benchmarking cycle.
+Figure F215-10 compares Tahini with a best-practice food distributor from an industry survey. The redesign closes most of the gap, but best practice is still $16.00 an order and 3 days. Figure F215-11 shows the remaining gap.
+Figure F215-10. Tahini's order-to-cash process against best practice
+Measure
+Tahini before
+Tahini after
+Best practice
+Cost per order (all-in)
+$44.50
+$19.50
+$16.00
+Cycle time, order to cash (days)
+9
+4
+3
+Faulty orders (%)
+5
+1
+0.5
+Figure F215-11. Tahini's order-to-cash process compared with best practice.
+Measures must be defined the same way on both sides. Tahini's all-in cost per order includes error correction and the running cost of the portal; the survey figure must include the same items, or the comparison misleads.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+benchmarking
+المقارنة المرجعية
+étalonnage (benchmarking)
+internal benchmarking
+المقارنة المرجعية الداخلية
+étalonnage interne
+competitive benchmarking
+المقارنة المرجعية التنافسية
+étalonnage concurrentiel
+functional benchmarking
+المقارنة المرجعية الوظيفية
+étalonnage fonctionnel
+generic benchmarking
+المقارنة المرجعية العامة
+étalonnage générique
+English (exam term)
+العربية
+Français
+benchmarking
+المقارنة المرجعية
+étalonnage (benchmarking)
+internal benchmarking
+المقارنة المرجعية الداخلية
+étalonnage interne
+competitive benchmarking
+المقارنة المرجعية التنافسية
+étalonnage concurrentiel
+functional benchmarking
+المقارنة المرجعية الوظيفية
+étalonnage fonctionnel
+generic benchmarking
+المقارنة المرجعية العامة
+étalonnage générique
+SECTION CHECK   Test yourself
+SC215-7  Comparing Tahini's order handling with a pharmaceutical distributor's is:
+A.	internal benchmarking
+B.	functional benchmarking
+C.	competitive benchmarking
+D.	not benchmarking
+SC215-8  Tahini's cost per order includes error correction; the survey figure does not. What is the risk?
+A.	The comparison misleads, because the measures are defined differently
+B.	None; cost per order is always the same measure
+C.	The survey figure is illegal
+D.	Tahini will look better than it is
+Answers and explanations are at the end of the chapter.
+15.5  Benchmarking and competitive advantage
+Benchmarking helps create an advantage in four ways, listed in Figure F215-12. It sets targets that others already achieve, brings in ideas from outside, focuses on measures customers feel, and builds a habit of improving.
+Figure F215-12. Benefits of benchmarking for competitive advantage
+Benefit
+What it gives the company
+Realistic targets
+Targets based on what others already achieve
+New ideas
+Practices the company would not have thought of
+Customer focus
+Measures such as cycle time that customers feel
+Lasting advantage
+A habit of improving faster than rivals
+For Tahini, a four-day cycle time is now a selling point: Barada receives its orders faster than from other suppliers, and fewer invoices need correcting.
+The advantage lasts only if benchmarking continues. Competitors improve too, so today's best practice becomes tomorrow's normal practice.
+FALSE-FRIEND ALERT   Étalonnage, المقارنة المرجعية
+French 'étalonnage' also means calibrating an instrument. In management it means benchmarking. Arabic المقارنة المرجعية (or المقارنة بالأفضل) is the management term; avoid المعايرة, which means calibration.
+SECTION CHECK   Test yourself
+SC215-9  Which is a benefit of benchmarking for competitive advantage?
+A.	It sets realistic targets based on what others already achieve
+B.	It guarantees the lowest costs
+C.	It removes the need for budgets
+D.	It replaces process analysis
+SC215-10  Why must benchmarking continue after a successful redesign?
+A.	Accounting rules require yearly benchmarking
+B.	Competitors keep improving, so today's best practice becomes normal
+C.	The redesign will fail
+D.	Benchmarking data expire legally
+Answers and explanations are at the end of the chapter.
+15.6  Extended Example 15A: the business case for the new order-to-cash process
+This example builds the three-year business case the division manager signed. It is exam-core.
+1. Scenario
+Volume: 8,000 orders a year; staff cost $20 an hour; correcting a faulty order costs $50.
+Change: one-off cost $150,000; running cost $12,800 a year.
+2. Calculations
+Old process: staff $336,000 + corrections $20,000 = $356,000 a year.
+New process: staff $139,200 + corrections $4,000 = $143,200 a year.
+Net yearly saving: $212,800 − $12,800 = $200,000.
+3. The three-year view
+Figure F215-13 sets out the years. The one-off cost is recovered in 0.75 years, and the net saving over three years is $450,000.
+Figure F215-13. Extended Example: the three-year business case
+Whole USD
+Saving (cost)
+Running cost
+Cumulative net
+Year 0
+(150,000)
+(150,000)
+Year 1
+212,800
+(12,800)
+50,000
+Year 2
+212,800
+(12,800)
+250,000
+Year 3
+212,800
+(12,800)
+450,000
+Payback period
+0.75 years
+3-year net 450,000
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Three net yearly savings of $200,000 minus the one-off $150,000 = $450,000, the last cumulative figure.
+All-in cost per order after the change: ($143,200 + $12,800) ÷ 8,000 = $19.50.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+business process reengineering
+إعادة هندسة العمليات
+reconfiguration des processus (BPR)
+cycle time
+زمن الدورة
+temps de cycle
+benchmarking
+المقارنة المرجعية
+étalonnage (benchmarking)
+English (exam term)
+العربية
+Français
+business process reengineering
+إعادة هندسة العمليات
+reconfiguration des processus (BPR)
+cycle time
+زمن الدورة
+temps de cycle
+benchmarking
+المقارنة المرجعية
+étalonnage (benchmarking)
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect hours or costs per step before and after a redesign, a volume, and the costs of the change. Compute the yearly cost of each process, deduct the running cost, then deduct the one-off cost once over the period asked.
+7. Self-check
+SECTION CHECK   Test yourself
+SC215-11  Use the Extended Example. How long does it take to recover the one-off cost of $150,000?
+A.	3 years
+B.	0.70 years
+C.	1.50 years
+D.	0.75 years
+SC215-12  Use the Extended Example. What is the net saving over three years (whole USD)?
+A.	200,000
+B.	450,000
+C.	488,400
+D.	600,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F215-14 brings the chapter together.
+Figure F215-14. Chapter 15 summary map: the key rule for each section.
+Process analysis maps and measures each step of a process. Reengineering redesigns the process radically, and its net saving is the old cost minus the new cost minus the cost of the change. Best practice analysis adapts what leaders do. Benchmarking compares processes with internal units, competitors, functional leaders or the best organizations anywhere, using the same definitions on both sides, and it creates a lasting advantage only if it continues.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P215-01  A process takes 2.10 staff hours per order at $20 an hour, for 8,000 orders. What is its yearly staff cost?
+A.	$42,000
+B.	$168,000
+C.	$336,000
+D.	$420,000
+P215-02  Tahini & Spreads maps its order-to-cash process. Which step should the redesign team remove first because it adds no value for the customer?
+A.	Filling the customer's order
+B.	Copying the order by hand onto a pick list
+C.	Shipping the goods
+D.	Blending the product
+P215-03  Faulty orders fall from 5% to 1% of 8,000 orders. Each correction costs $50. What is the yearly saving on corrections?
+A.	$400
+B.	$4,000
+C.	$16,000
+D.	$20,000
+P215-04  A redesign saves $70,000 a year, net of running costs, and has a one-off cost of $60,000. What is the net saving over three years?
+A.	$130,000
+B.	$150,000
+C.	$210,000
+D.	$270,000
+P215-05  Creating the invoice automatically from the shipment record is an example of:
+A.	competitive benchmarking
+B.	a support activity
+C.	a best practice that removes a non-value-added step
+D.	a cost-leadership strategy
+P215-06  Why can copying a best practice without change fail?
+A.	Best practices are secret
+B.	Only competitors can use it
+C.	It is always more expensive
+D.	The practice may not fit the organization's customers, systems or culture
+P215-07  How does best practice analysis improve performance?
+A.	By bringing in proven ways to do a process better
+B.	By lowering the standard for good performance
+C.	By raising prices
+D.	By changing accounting methods
+P215-08  Comparing the order handling of Tahini & Spreads and the Oils division is:
+A.	competitive benchmarking
+B.	internal benchmarking
+C.	generic benchmarking
+D.	functional benchmarking
+P215-09  Levant Distribution compares its invoice-to-cash process with the process of a global retailer known for the fastest collections in any industry. This is:
+A.	internal benchmarking
+B.	generic benchmarking
+C.	competitive benchmarking
+D.	value chain analysis
+P215-10  In the benchmarking cycle, what comes after collecting data?
+A.	Choosing partners
+B.	Planning what to benchmark
+C.	Closing the books
+D.	Analysing the gap and the practices behind it
+P215-11  Why should benchmarking look at processes, not only at results?
+A.	Results cannot be measured
+B.	Processes are always cheaper to study
+C.	Knowing the gap does not show how to close it
+D.	Results are confidential
+P215-12  Which is NOT a benefit of benchmarking?
+A.	A permanent advantage without further effort
+B.	Realistic targets
+C.	New ideas from outside
+D.	More focus on measures customers feel
+P215-13  Tahini cuts its cycle time from 9 to 4 days. How can this create a competitive advantage?
+A.	It lowers the tax rate
+B.	Customers such as Barada receive orders faster than from other suppliers
+C.	It increases inventory
+D.	It removes the need for customers
+P215-14  Benchmarking against competitors helps a company:
+A.	avoid all competition
+B.	set its prices by law
+C.	stop measuring performance
+D.	see where it is behind and where it leads
+P215-15  A process map shows:
+A.	the steps of a process in order and who does each
+B.	the company's legal structure
+C.	the balance sheet
+D.	the chart of accounts
+P215-16  Cycle time in an order-to-cash process is:
+A.	the staff hours per order
+B.	the number of orders per year
+C.	the time from the customer's order to the cash received
+D.	the time to print an invoice
+Case question: Levant's receiving dock
+Levant Distribution receives about two thousand trucks a year at its main warehouse. Each truck is unloaded, every carton is counted, the goods are inspected, the receipt is typed into the records and the pallets are put away.
+Drivers often wait for hours, and suppliers complain. The operations manager, Karim, has studied the process with a stopwatch and found that receiving takes four hours per truck, far more than at the best distributors in the region.
+Karim proposes a redesign. Suppliers will send an advance notice of every delivery with barcodes on each pallet. Staff will scan the pallets instead of counting cartons, inspect only a sample, and the records will be created from the notice without typing. The change needs scanners and a small software link. Karim hopes to start the new process in January.
+The finance manager, Nadia, must check Karim's figures before the board meeting. She needs the yearly cost of the current process, the net yearly saving and the net saving over three years. She also wants to benchmark the new process against the best-practice distributor, using the same definition of receiving time.
+Use Figure F215-15 for items C215-1 to C215-7.
+How to enter answers: Enter amounts in whole U.S. dollars without the $ sign or commas; enter hours to one decimal place (for example, 2.5).
+Figure F215-15. Case exhibit: Levant's receiving process
+Levant receiving, 2027
+Now
+Redesigned
+Unload
+1.0
+1.0
+Count every carton
+1.2
+0.1
+Inspect
+0.5
+0.3
+Type the receipt into the records
+0.8
+0.0
+Put away
+0.5
+0.5
+Hours per truck
+4.0
+1.9
+Trucks received per year
+2,000
+2,000
+Staff cost per hour
+$18
+$18
+One-off cost of the change
+60,000
+Yearly running cost (scanners, advance notices)
+5,600
+Best-practice distributor, hours per truck
+1.5
+C215-1  Classify each comparison Karim could make. (On the exam screen you would drag each item into a box.)
+Categories: Internal · Competitive · Functional · Generic
+Comparison
+Category
+Levant's two warehouses
+The Oils division's receiving dock
+Another juice distributor in Amman
+Receiving at a pharmaceutical distributor
+The best receiving process in any industry
+C215-2  Enter the yearly cost of the current receiving process.
+Answer: ____________
+C215-3  Enter the net yearly saving from the redesign.
+Answer: ____________
+C215-4  Enter the net saving over three years.
+Answer: ____________
+C215-5  Enter the gap in hours per truck between the redesigned process and the best-practice distributor.
+Answer: ____________
+C215-6  Before comparing receiving times with the best-practice distributor, Nadia should first: [select]
+Options: make sure both sides define receiving time the same way   |   cut the running cost to zero   |   copy the distributor's practices exactly   |   stop measuring the current process
+C215-7  Removing the counting and typing steps completely, instead of doing them faster, is an example of business process ____.
+Choose the word or phrase for the blank: reengineering   |   benchmarking   |   costing   |   budgeting
+Answers and explanations
+Section checks
+SC215-1  Answer D. It looks inside the process, step by step.
+A is wrong. The result alone does not show where to improve.
+B is wrong. That is not a process.
+C is wrong. That is not process analysis.
+SC215-2  Answer C. Hours × rate.
+A is wrong. The decimal is misplaced.
+B is wrong. The hours are halved.
+D is wrong. The decimal is misplaced.
+SC215-3  Answer B. It removes the step instead of speeding it up.
+A is wrong. This speeds up a non-value-added step.
+C is wrong. This adds a step.
+D is wrong. This is a small improvement.
+SC215-4  Answer B. Old cost − new cost − running cost.
+A is wrong. This is the new cost.
+C is wrong. The running cost is not deducted.
+D is wrong. The running cost is added.
+SC215-5  Answer D. It studies the how, not only the result.
+A is wrong. Copying without adapting often fails.
+B is wrong. It looks for what others do better.
+C is wrong. Pricing is a different decision.
+SC215-6  Answer C. Many small shops still order by phone.
+A is wrong. Phone orders cost more.
+B is wrong. It is a management choice.
+D is wrong. Online ordering works for Barada.
+SC215-7  Answer B. The same function, in another industry.
+A is wrong. The distributor is not part of Orontes.
+C is wrong. It is not a competitor.
+D is wrong. It is a recognized type of benchmarking.
+SC215-8  Answer A. Like must be compared with like.
+B is wrong. Definitions differ between companies.
+C is wrong. It is a data problem, not a legal one.
+D is wrong. Tahini would look worse, not better.
+SC215-9  Answer A. Targets come from proven performance.
+B is wrong. It guarantees nothing.
+C is wrong. Budgets are still needed.
+D is wrong. It needs process analysis.
+SC215-10  Answer B. The advantage lasts only if improvement continues.
+A is wrong. It is a management choice.
+C is wrong. There is no reason to expect failure.
+D is wrong. That is not the reason.
+SC215-11  Answer D. $150,000 ÷ $200,000 a year.
+A is wrong. This is the whole period.
+B is wrong. This uses the gross saving.
+C is wrong. The division is misread.
+SC215-12  Answer B. Three net yearly savings minus the one-off cost.
+A is wrong. This is one year only.
+C is wrong. This uses the gross saving.
+D is wrong. The one-off cost is not deducted.
+Your turn
+Item
+Answer
+Net yearly saving × 3 years
+$200,000 × 3 = $600,000
+Net saving over three years
+$600,000 − $150,000 = $450,000
+Multiple-choice questions
+P215-01  Answer C. Hours × rate × orders.
+A is wrong. This is the cost of 1,000 orders.
+B is wrong. The rate is halved.
+D is wrong. The hours are misread.
+P215-02  Answer B. It adds cost and errors, not value.
+A is wrong. The customer values it.
+C is wrong. The customer values it.
+D is wrong. The customer values it.
+P215-03  Answer C. 400 − 80 = 320 fewer corrections × $50.
+A is wrong. The correction cost is left out.
+B is wrong. This is the new cost only.
+D is wrong. This is the old cost only.
+P215-04  Answer B. Three years of net saving minus the one-off cost.
+A is wrong. The one-off cost is deducted more than once.
+C is wrong. The one-off cost is not deducted.
+D is wrong. The one-off cost is added.
+P215-05  Answer C. Leading distributors use it to remove the invoicing step.
+A is wrong. It is a practice, not a comparison.
+B is wrong. It is a process change.
+D is wrong. It is a practice, not a strategy.
+P215-06  Answer D. Practices must be adapted to the context.
+A is wrong. Many are widely known.
+B is wrong. Anyone can adapt a practice.
+C is wrong. Not always.
+P215-07  Answer A. It adapts methods that already work elsewhere.
+B is wrong. It raises the standard.
+C is wrong. It is about processes, not prices.
+D is wrong. It is not an accounting change.
+P215-08  Answer B. Both units belong to Orontes.
+A is wrong. They are not competitors.
+C is wrong. It does not look at the best in any industry.
+D is wrong. It does not look at another industry.
+P215-09  Answer B. Generic benchmarking looks at any industry.
+A is wrong. Internal stays inside the company.
+C is wrong. Competitive looks at rivals only.
+D is wrong. That is a different tool.
+P215-10  Answer D. The gap shows what to change.
+A is wrong. That comes before data collection.
+B is wrong. That comes first.
+C is wrong. It is not a step.
+P215-11  Answer C. The practices behind the result explain the gap.
+A is wrong. Results can be measured.
+B is wrong. That is not the reason.
+D is wrong. Many results are published.
+P215-12  Answer A. Advantage lasts only if benchmarking continues.
+B is wrong. This is a benefit.
+C is wrong. This is a benefit.
+D is wrong. This is a benefit.
+P215-13  Answer B. Speed is a benefit customers feel.
+A is wrong. Tax is not affected.
+C is wrong. Inventory usually falls.
+D is wrong. Customers remain essential.
+P215-14  Answer D. The comparison shows gaps and strengths.
+A is wrong. Competition continues.
+B is wrong. Prices are not set by law.
+C is wrong. Benchmarking needs measurement.
+P215-15  Answer A. It is a diagram of the process steps.
+B is wrong. That is an organization chart.
+C is wrong. That is a financial statement.
+D is wrong. That is a list of accounts.
+P215-16  Answer C. It covers the whole process from start to end.
+A is wrong. Staff time is a different measure.
+B is wrong. That is volume.
+D is wrong. That is one step only.
+Case question: Levant's receiving dock
+C215-1
+Comparison
+Category
+Levant's two warehouses
+Internal
+The Oils division's receiving dock
+Internal
+Another juice distributor in Amman
+Competitive
+Receiving at a pharmaceutical distributor
+Functional
+The best receiving process in any industry
+Generic
+Internal: inside the same organization. Competitive: direct rivals. Functional: the same function in another industry. Generic: the best process in any industry.
+C215-2  Answer: 144,000.
+75,600 is wrong: this answer gives the saving, not the cost.
+C215-3  Answer: 70,000.
+75,600 is wrong: this answer does not deduct the yearly running cost.
+C215-4  Answer: 150,000.
+166,800 is wrong: this answer does not deduct the running cost each year.
+C215-5  Answer: 0.4.
+2.5 is wrong: this answer compares the current process instead of the redesigned one.
+C215-6  Answer: make sure both sides define receiving time the same way.
+cut the running cost to zero is wrong: this answer the running cost is part of the new process.
+copy the distributor's practices exactly is wrong: this answer practices must be adapted, and data must be comparable first.
+stop measuring the current process is wrong: this answer the current process is the starting point.
+C215-7  Answer: reengineering.
+benchmarking is wrong: this answer benchmarking compares; it does not redesign.
+costing is wrong: this answer costing measures the process.
+budgeting is wrong: this answer budgeting plans spending.
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

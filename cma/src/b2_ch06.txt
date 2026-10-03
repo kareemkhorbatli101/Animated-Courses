@@ -1,0 +1,783 @@
+Chapter 6
+Job Order Costing
+نظام تكاليف الأوامر الإنتاجية
+Orontes's Tahini & Spreads division makes private-label tahini and halva for supermarkets such as Barada Wholesale. Each order has its own recipe, jar and label. The controller must know what each order costs, so that she can price the next one and value the inventory.
+This chapter shows how job order costing collects those costs, one job at a time. Figure F206-01 shows the path that costs follow through the accounts.
+Figure F206-01. Chapter 6 roadmap: costs flow from materials to WIP, finished goods and COGS.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.2.a
+define the nature of the system, understand the cost flows of the system, and identify its appropriate use
+Define the nature of job order costing, follow its cost flows and identify when to use it.
+Full treatment
+D.2.b
+calculate inventory values and cost of goods sold
+Calculate job costs, inventory values and cost of goods sold.
+Full treatment + Extended Example
+D.2.e
+identify and describe the benefits and limitations of each cost accumulation system
+Identify and describe the benefits and limitations of job order costing.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+job order costing
+نظام تكاليف الأوامر الإنتاجية
+coût par commande
+job cost sheet
+بطاقة تكلفة الأمر
+fiche de coût de commande
+materials requisition
+إذن صرف المواد
+bon de sortie de matières
+labor time ticket
+بطاقة الوقت (بطاقة العمل)
+fiche de temps
+indirect materials
+المواد غير المباشرة
+matières consommables indirectes
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+control account
+حساب المراقبة
+compte collectif
+subsidiary ledger
+دفتر الأستاذ المساعد
+grand-livre auxiliaire
+WHAT YOU ALREADY KNOW   What you already know
+In Book 1 you valued inventory at cost and moved cost to cost of goods sold when goods were sold. Chapter 1 of this book added raw materials, work in process and finished goods. Chapter 5 introduced normal costing: actual direct costs plus overhead applied at a predetermined rate. Job order costing puts these pieces together for one order at a time.
+6.1  When job order costing fits
+Job order costing collects costs for each separate job, batch or customer order. It fits when the products are different from each other and each order can be identified from start to finish.
+Private-label tahini fits well. One job may be a Barada order in plastic tubs, and the next a Gulf retailer's order in glass jars with a different sesame blend. Printing firms, builders, law firms and hospitals also use job costing.
+Orontes's Oils division does not use it. Olive oil flows through crushing and bottling as identical liters, so costs are collected by department instead. That is process costing, the topic of Chapter 7.
+SECTION CHECK   Test yourself
+SC206-1  Which Orontes activity fits job order costing best?
+A.	Crushing olives into bulk oil
+B.	A private-label tahini order for Barada Wholesale
+C.	A continuous run of identical juice cases
+D.	Bottling extra-virgin olive oil
+SC206-2  In job order costing, the main cost object is:
+A.	the production department
+B.	the accounting period
+C.	the job or order
+D.	the whole product line
+Answers and explanations are at the end of the chapter.
+6.2  The job cost sheet
+A job cost sheet is the record of one job. It collects three costs: direct materials from materials requisitions, direct labor from labor time tickets, and overhead applied at the predetermined rate. Figure F206-02 shows how the documents feed the sheet.
+Figure F206-02. Source documents feed each job cost sheet; the sheets support the WIP control account.
+The job cost sheets form a subsidiary ledger. The total of all open sheets must equal the balance of the Work-in-Process Inventory control account in the general ledger. When a job is finished, its sheet moves to the finished goods file.
+WORKED EXAMPLE   Worked example: the cost of job T-0303
+In March 2027 job T-0303, a Barada private-label order, used direct materials of $140,000 and direct labor of $80,000. It used 4,200 machine hours. Overhead is applied at $30 per machine hour, so applied overhead is $126,000. Figure F206-03 shows the finished job cost sheet: the job cost is $346,000.
+Figure F206-03. Worked example: job cost sheet for T-0303
+Job T-0303 · Barada private-label tahini · March 2027
+Whole USD
+Direct materials (requisitions)
+140,000
+Direct labor (time tickets)
+80,000
+Overhead applied: 4,200 MH × $30
+126,000
+Total job cost
+346,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+job order costing
+نظام تكاليف الأوامر الإنتاجية
+coût par commande
+job cost sheet
+بطاقة تكلفة الأمر
+fiche de coût de commande
+subsidiary ledger
+دفتر الأستاذ المساعد
+grand-livre auxiliaire
+control account
+حساب المراقبة
+compte collectif
+English (exam term)
+العربية
+Français
+job order costing
+نظام تكاليف الأوامر الإنتاجية
+coût par commande
+job cost sheet
+بطاقة تكلفة الأمر
+fiche de coût de commande
+subsidiary ledger
+دفتر الأستاذ المساعد
+grand-livre auxiliaire
+control account
+حساب المراقبة
+compte collectif
+SECTION CHECK   Test yourself
+SC206-3  Use Figure F206-03. What is the cost of job T-0303 (whole USD)?
+A.	80,000
+B.	220,000
+C.	320,800
+D.	346,000
+SC206-4  The total of all open job cost sheets must equal the balance of:
+A.	Finished Goods Inventory
+B.	Cost of Goods Sold
+C.	Manufacturing Overhead Applied
+D.	Work-in-Process Inventory
+Answers and explanations are at the end of the chapter.
+6.3  Recording materials and labor
+A materials requisition moves materials out of Raw Materials Inventory. If the materials are traced to a job, the debit goes to Work-in-Process Inventory and the job cost sheet. If they are indirect materials, such as cleaning chemicals or machine oil, the debit goes to Manufacturing Overhead Control.
+Labor time tickets work the same way. Hours on a job are direct labor, debited to Work-in-Process Inventory. Supervision, idle time and maintenance labor are indirect labor, debited to Manufacturing Overhead Control. The credit is Wages Payable.
+In March, Tahini & Spreads issued direct materials of $250,000 and indirect materials of $20,000. Direct labor was $150,000 and indirect labor was $40,000. Only the direct amounts reach the job cost sheets.
+EXAM TRAP   Indirect costs do not go to WIP
+A common wrong answer debits Work-in-Process Inventory with indirect materials or indirect labor. They are overhead. They reach the jobs only through the predetermined rate.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+materials requisition
+إذن صرف المواد
+bon de sortie de matières
+labor time ticket
+بطاقة الوقت (بطاقة العمل)
+fiche de temps
+indirect materials
+المواد غير المباشرة
+matières consommables indirectes
+English (exam term)
+العربية
+Français
+materials requisition
+إذن صرف المواد
+bon de sortie de matières
+labor time ticket
+بطاقة الوقت (بطاقة العمل)
+fiche de temps
+indirect materials
+المواد غير المباشرة
+matières consommables indirectes
+SECTION CHECK   Test yourself
+SC206-5  Machine oil is issued from the storeroom for general use in the factory. The entry is:
+A.	Dr Manufacturing Overhead Control; Cr Raw Materials Inventory
+B.	Dr Work-in-Process Inventory; Cr Raw Materials Inventory
+C.	Dr Raw Materials Inventory; Cr Manufacturing Overhead Control
+D.	Dr Cost of Goods Sold; Cr Raw Materials Inventory
+SC206-6  The wages of a factory supervisor are debited to:
+A.	Work-in-Process Inventory
+B.	Salaries Expense (administrative)
+C.	Manufacturing Overhead Control
+D.	Finished Goods Inventory
+Answers and explanations are at the end of the chapter.
+6.4  Applying overhead
+Actual overhead is not known until the end of the year, but a job needs a cost when it is finished. So job costing uses normal costing: overhead is applied with a predetermined rate. For 2027 Tahini & Spreads uses $30 per machine hour: $24 fixed plus $6 variable. Chapter 8 shows how the rate is set.
+Applied overhead equals the actual machine hours used by the job times the predetermined rate. The debit is Work-in-Process Inventory and the credit is Manufacturing Overhead Applied. Actual overhead costs, such as depreciation and utilities, are debited to Manufacturing Overhead Control.
+The two overhead accounts rarely match during the year. The difference is under- or over-applied overhead. It stays open until year-end, when Chapter 8 closes it. Figure F206-04 shows the complete flow.
+Figure F206-04. Job costing cost flow: actual overhead in MOH Control, applied overhead to jobs.
+FALSE-FRIEND ALERT   Imputation, تحميل
+French 'charges imputées' is applied overhead, but 'imputation' in general accounting also means posting an entry. Arabic texts call applied overhead التكاليف غير المباشرة المحملة and the difference فروق التحميل. In U.S. terms the accounts are Manufacturing Overhead Control and Manufacturing Overhead Applied.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+predetermined overhead rate
+معدل التحميل التقديري
+taux d'imputation préétabli
+manufacturing overhead
+التكاليف الصناعية غير المباشرة
+charges indirectes de production
+English (exam term)
+العربية
+Français
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+predetermined overhead rate
+معدل التحميل التقديري
+taux d'imputation préétabli
+manufacturing overhead
+التكاليف الصناعية غير المباشرة
+charges indirectes de production
+SECTION CHECK   Test yourself
+SC206-7  Job T-0302 used 1,000 machine hours. The predetermined rate is $30. How much overhead is applied (whole USD)?
+A.	6,000
+B.	24,000
+C.	30,000
+D.	250,000
+SC206-8  The entry to apply overhead to jobs is:
+A.	Dr Manufacturing Overhead Applied; Cr Work-in-Process Inventory
+B.	Dr Work-in-Process Inventory; Cr Manufacturing Overhead Applied
+C.	Dr Manufacturing Overhead Control; Cr Work-in-Process Inventory
+D.	Dr Work-in-Process Inventory; Cr Manufacturing Overhead Control
+Answers and explanations are at the end of the chapter.
+6.5  Inventory values and cost of goods sold
+When a job is finished, its total cost moves from Work-in-Process Inventory to Finished Goods Inventory. The total of the jobs finished in a period is the cost of goods manufactured. When the goods are sold, the job cost moves from Finished Goods Inventory to Cost of Goods Sold.
+At any date, the inventory values come straight from the job cost sheets. Open jobs make up work in process. Finished jobs not yet sold make up finished goods. The sale price never enters these accounts; it goes to Sales Revenue.
+YOUR TURN   Complete a job cost sheet
+Figure F206-04 shows the flow. Now use Figure F206-05 to complete the March sheet for job T-0304. Answers are at the end of the chapter.
+Figure F206-05. Your turn: job cost sheet for T-0304 (complete the blanks)
+Job T-0304 · March 2027 (complete the blanks)
+Whole USD
+Direct materials
+80,000
+Direct labor
+50,000
+Overhead applied: 2,500 MH × $30
+________
+Job cost at March 31
+________
+Where is the job on March 31?
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+English (exam term)
+العربية
+Français
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+SECTION CHECK   Test yourself
+SC206-9  A job is finished but not yet sold. Its cost is in:
+A.	Work-in-Process Inventory
+B.	Cost of Goods Sold
+C.	Finished Goods Inventory
+D.	Raw Materials Inventory
+SC206-10  A job that cost $380,000 is sold for $500,000. By how much does cost of goods sold increase?
+A.	$120,000
+B.	$380,000
+C.	$500,000
+D.	$880,000
+Answers and explanations are at the end of the chapter.
+6.6  Benefits and limitations
+Job costing gives an accurate cost for each order. Managers use it to price new orders, compare the estimate with the actual cost and find unprofitable customers. It also gives the inventory values that the financial statements need.
+It has limits. It needs many documents and careful records for every job. Overhead is still an allocation, so a poor allocation base can distort job costs; activity-based costing (Chapter 12) is one answer. It also does not suit identical units in a continuous flow.
+Figure F206-06 compares job costing with process costing, the other main accumulation system.
+Figure F206-06. Job order costing and process costing
+Job order costing
+Process costing (Chapter 7)
+Product
+Unique orders (private-label tahini, halva batches)
+Identical units in a continuous flow (olive oil)
+Cost object
+The job
+The process or department
+WIP records
+One job cost sheet per job
+One WIP account per department
+Unit cost
+Job cost ÷ units in the job
+Department cost ÷ equivalent units
+Main benefit
+Accurate cost and price for each order
+Simple records for mass production
+Main limitation
+More records; overhead is still an allocation
+Averages hide differences between units
+● IFRS CONTRAST   U.S. GAAP and IFRS
+Both ASC 330 and IAS 2 accept job costs as inventory cost when they include a proper share of production overhead. Both require abnormal costs, such as abnormal spoilage or idle capacity, to be expensed rather than added to a job (Chapters 7 and 8).
+SECTION CHECK   Test yourself
+SC206-11  Which is a benefit of job order costing?
+A.	It needs fewer records than process costing
+B.	It gives an accurate cost for each order, which helps pricing
+C.	It removes the need to allocate overhead
+D.	It is best for a continuous flow of identical units
+SC206-12  Which is a limitation of job order costing?
+A.	Overhead is still allocated, so a poor base can distort job costs
+B.	It cannot value inventory
+C.	It ignores direct labor
+D.	Service firms cannot use it
+Answers and explanations are at the end of the chapter.
+6.7  Extended Example 6A: Tahini & Spreads, March 2027
+This example follows every cost of one month from the source documents to the income statement. The calculations are exam-core: the exam asks for job costs, inventory values and cost of goods sold. The journal entries and T-accounts are for depth: they show why the numbers move.
+1. Scenario
+On March 1, 2027 Raw Materials Inventory was $120,000. Job T-0302 was in process at $64,000, and job T-0215 was in finished goods at $90,000. During March the division worked on three jobs.
+T-0302 (halva): direct materials $30,000, direct labor $20,000, 1,000 machine hours. Finished and sold.
+T-0303 (Barada private-label tahini): direct materials $140,000, direct labor $80,000, 4,200 machine hours. Finished, not yet sold.
+T-0304: direct materials $80,000, direct labor $50,000, 2,500 machine hours. Still in process on March 31.
+Other events: materials purchased $300,000; indirect materials $20,000; indirect labor $40,000; service department charges $57,500; depreciation $70,000; utilities $62,500; jobs T-0215 and T-0302 sold on account for $330,000.
+2. Plan
+Classify each cost as direct or indirect. Apply overhead at the predetermined rate. Record the entries, post them, prepare the schedules and check that everything ties.
+3. Calculations
+Overhead applied: 7,700 machine hours × $30 = $231,000.
+Job costs: T-0302 = $64,000 opening + $30,000 + $20,000 + $30,000 = $144,000; T-0303 = $346,000; T-0304 = $205,000.
+Cost of goods manufactured (T-0302 + T-0303) = $490,000.
+Cost of goods sold (T-0215 + T-0302) = $90,000 + $144,000 = $234,000.
+Actual overhead = $20,000 + $40,000 + $190,000 = $250,000; underapplied = $19,000.
+4. Recording
+Figure F206-07 shows the month as a cost flow, with an entry number on each arrow. Figure F206-08 lists the eight summary entries. Each entry has equal debits and credits, and the journal totals $2,235,000 on both sides.
+Figure F206-07. Extended Example: the March cost flow with journal entry numbers.
+Figure F206-08. Extended Example: general journal, March 2027
+No.
+Account (detail)
+Debit
+Credit
+①
+Raw Materials Inventory
+300,000
+Accounts Payable
+300,000
+②
+Work-in-Process Inventory (T-0302 30,000; T-0303 140,000; T-0304 80,000)
+250,000
+Manufacturing Overhead Control
+20,000
+Raw Materials Inventory
+270,000
+③
+Work-in-Process Inventory (T-0302 20,000; T-0303 80,000; T-0304 50,000)
+150,000
+Manufacturing Overhead Control
+40,000
+Wages Payable
+190,000
+④
+Manufacturing Overhead Control
+190,000
+Service Department Charges
+57,500
+Accumulated Depreciation
+70,000
+Accounts Payable
+62,500
+⑤
+Work-in-Process Inventory
+231,000
+Manufacturing Overhead Applied
+231,000
+⑥
+Finished Goods Inventory
+490,000
+Work-in-Process Inventory
+490,000
+⑦
+Accounts Receivable
+330,000
+Sales Revenue
+330,000
+⑧
+Cost of Goods Sold
+234,000
+Finished Goods Inventory
+234,000
+Totals
+2,235,000
+2,235,000
+5. Posting
+Figure F206-09 posts the entries to the T-accounts. Raw Materials closes at $150,000, Work in Process at $205,000 and Finished Goods at $346,000.
+Figure F206-09. Extended Example: T-accounts for March, keyed to the journal entry numbers.
+6. Schedules
+Figure F206-10 turns the ledger into the schedule of cost of goods manufactured and the cost of goods sold. Gross margin for March is $96,000 before the year-end overhead adjustment.
+Figure F206-10. Extended Example: schedule of cost of goods manufactured and cost of goods sold
+Tahini & Spreads · March 2027
+Whole USD
+Direct materials used
+250,000
+Direct labor
+150,000
+Manufacturing overhead applied (7,700 MH × $30)
+231,000
+Total manufacturing costs
+631,000
+Add: beginning WIP (T-0302)
+64,000
+Less: ending WIP (T-0304)
+(205,000)
+Cost of goods manufactured
+490,000
+Add: beginning finished goods (T-0215)
+90,000
+Less: ending finished goods (T-0303)
+(346,000)
+Cost of goods sold (before year-end overhead adjustment)
+234,000
+Sales (T-0215 and T-0302)
+330,000
+Gross margin
+96,000
+7. Tie line
+WORKED EXAMPLE   Everything ties
+Total debits = total credits = $2,235,000.
+Raw materials: $120,000 + $300,000 − $270,000 = $150,000.
+Work in process: $64,000 + $631,000 − $490,000 = $205,000 = job T-0304.
+Finished goods: $90,000 + $490,000 − $234,000 = $346,000 = job T-0303.
+Figure F206-11 checks the subsidiary ledgers against the control accounts. All three agree.
+Figure F206-11. Extended Example: job cost sheets agree with the control accounts
+Control account
+Job cost sheets
+Sheets total
+Control balance
+Check
+Work in process
+T-0304 (open)
+205,000
+205,000
+Agrees
+Finished goods
+T-0303 (finished, not sold)
+346,000
+346,000
+Agrees
+Cost of goods sold
+T-0215 and T-0302 (sold)
+234,000
+234,000
+Agrees
+8. Account names in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+work in process
+الإنتاج تحت التشغيل
+en-cours de production
+manufacturing overhead
+التكاليف الصناعية غير المباشرة
+charges indirectes de production
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+control account
+حساب المراقبة
+compte collectif
+English (exam term)
+العربية
+Français
+work in process
+الإنتاج تحت التشغيل
+en-cours de production
+manufacturing overhead
+التكاليف الصناعية غير المباشرة
+charges indirectes de production
+applied overhead
+التكاليف غير المباشرة المحملة
+charges indirectes imputées
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+control account
+حساب المراقبة
+compte collectif
+9. How the exam asks it
+EXAM TRAP   Exam view
+CMA questions rarely ask for the entries. They give job data and ask for ending work in process, cost of goods manufactured or cost of goods sold. Build the job costs first; the balances follow from the job sheets.
+10. Self-check
+SECTION CHECK   Test yourself
+SC206-13  Use the Extended Example. What is cost of goods manufactured for March (whole USD)?
+A.	234,000
+B.	490,000
+C.	631,000
+D.	695,000
+SC206-14  Use the Extended Example. At March 31, the underapplied overhead of $19,000:
+A.	is closed to cost of goods sold at March 31
+B.	is added to job T-0304
+C.	is deducted from work in process
+D.	stays in the overhead accounts until year-end
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F206-12 brings the chapter together.
+Figure F206-12. Chapter 6 summary map: the key rule for each section.
+Job order costing collects costs for each separate job on a job cost sheet. Direct materials and direct labor come from requisitions and time tickets; overhead is applied at a predetermined rate times the actual base. Indirect costs go to Manufacturing Overhead Control. Open job sheets equal work in process, finished unsold sheets equal finished goods, and sold jobs make up cost of goods sold. Job costing gives accurate order costs but needs detailed records, and its overhead is still an allocation.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P206-01  Which business is most likely to use job order costing?
+A.	A cement plant
+B.	An oil refinery
+C.	A law firm
+D.	A soft-drink bottler
+P206-02  Which document assigns direct materials to a job?
+A.	Materials requisition
+B.	Labor time ticket
+C.	Purchase order
+D.	Sales invoice
+P206-03  A job uses direct materials of $12,000, direct labor of $8,000 and 300 machine hours. Overhead is applied at $40 per machine hour. Delivery to the customer costs $3,000. What is the job's manufacturing cost?
+A.	$20,000
+B.	$24,000
+C.	$32,000
+D.	$35,000
+P206-04  At month end: job A is open ($45,000), job B is finished but unsold ($60,000) and job C is sold ($80,000). What is ending work in process?
+A.	$45,000
+B.	$60,000
+C.	$105,000
+D.	$185,000
+P206-05  Beginning WIP is $20,000, manufacturing costs added are $300,000 and ending WIP is $35,000. What is cost of goods manufactured?
+A.	$285,000
+B.	$300,000
+C.	$320,000
+D.	$355,000
+P206-06  Beginning finished goods are $40,000, cost of goods manufactured is $285,000 and ending finished goods are $50,000. What is cost of goods sold?
+A.	$275,000
+B.	$285,000
+C.	$295,000
+D.	$325,000
+P206-07  Depreciation on factory machines is debited to:
+A.	Work-in-Process Inventory
+B.	Depreciation Expense (period cost)
+C.	Manufacturing Overhead Applied
+D.	Manufacturing Overhead Control
+P206-08  Why does job costing use a predetermined overhead rate?
+A.	Actual overhead is known only at year-end, but jobs need costs when they finish
+B.	Actual overhead cannot be recorded
+C.	U.S. GAAP forbids actual costing
+D.	It removes under- and over-applied overhead
+P206-09  Under normal costing, the cost of a job is:
+A.	standard materials + standard labor + standard overhead
+B.	actual direct materials + actual direct labor + applied overhead
+C.	actual direct costs + actual overhead
+D.	budgeted direct costs + applied overhead
+P206-10  Applied overhead for the year is $540,000 and actual overhead is $560,000. Overhead is:
+A.	overapplied by $20,000
+B.	underapplied by $560,000
+C.	underapplied by $20,000
+D.	overapplied by $1,100,000
+P206-11  The open job cost sheets total $150,000, but the WIP control account shows $165,000. This most likely means:
+A.	the difference is underapplied overhead
+B.	WIP always exceeds the job sheets
+C.	a cost was posted to WIP but not to a job cost sheet
+D.	the finished goods balance is wrong
+P206-12  A company makes one identical product in a continuous flow. Why is job costing a poor choice?
+A.	It needs a cost sheet for every job, which adds little when all units are the same
+B.	It cannot record direct materials
+C.	It does not allow overhead
+D.	It is not accepted by U.S. GAAP
+P206-13  When is process costing preferred to job costing?
+A.	When each order has its own design
+B.	When identical units move through departments in a continuous flow
+C.	When customers are billed for each project
+D.	When jobs are large and few
+P206-14  Overhead is applied at $25 per direct labor hour. A job used 400 direct labor hours and 150 machine hours. How much overhead is applied?
+A.	$3,750
+B.	$10,000
+C.	$13,750
+D.	$16,000
+P206-15  In a law firm that uses job costing, the job is usually:
+A.	each office floor
+B.	each month
+C.	each client case
+D.	each lawyer's salary
+P206-16  A finished job that cost $70,000 is sold on account for $90,000. Which pair of entries is correct?
+A.	Dr AR 90,000, Cr Finished Goods 90,000
+B.	Dr COGS 90,000, Cr Finished Goods 90,000
+C.	Dr AR 70,000, Cr Sales 70,000; Dr COGS 70,000, Cr WIP 70,000
+D.	Dr AR 90,000, Cr Sales 90,000; Dr COGS 70,000, Cr Finished Goods 70,000
+Case question: Tahini & Spreads in April
+Tahini & Spreads works job by job. At the start of April 2027, job T-0304 was still in process, and job T-0303 was finished and waiting in finished goods for delivery to Barada. During April the division bought materials, paid its workers, ran its machines and started new jobs.
+Every cost is recorded on a job cost sheet. Direct materials and direct labor are charged to the jobs directly. Overhead is applied to each job with the predetermined rate per machine hour, and actual overhead is collected in a separate account. In April the division completed job T-0304 and delivered job T-0303 to Barada.
+The division controller must close April's books. She needs the cost of the completed job, the balance of work in process at the end of the month, cost of goods manufactured and cost of goods sold. She must also decide what to do with the difference between actual and applied overhead at the end of April.
+The auditors will visit in May, so every balance must agree with the job cost sheets. The controller also wants to show the division manager how the April entries move costs from one inventory account to the next, from raw materials to work in process, then to finished goods and finally to cost of goods sold.
+Use Figure F206-13 for items C206-1 to C206-7. April continues from the March balances in the Extended Example.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F206-13. Case exhibit: Tahini & Spreads, April 2027
+Tahini & Spreads · April 2027 (whole USD)
+Amount
+Opening WIP: job T-0304 (from March)
+205,000
+Opening finished goods: job T-0303 (from March)
+346,000
+Job T-0304 in April: DM 20,000, DL 30,000, 1,500 MH — completed
+Job T-0305 (new) in April: DM 160,000, DL 90,000, 5,000 MH — still in process
+Job T-0303 sold to Barada Wholesale on account
+470,000
+Actual manufacturing overhead in April
+245,000
+M1
+Tahini & Spreads applies overhead at $30 per machine hour. Differences are closed at year-end.
+C206-1  Which account is debited for each April item? (On the exam screen you would drag each item into a box.)
+Categories: Work-in-Process Inventory · Manufacturing Overhead Control · Finished Goods Inventory
+April item
+Category
+Direct materials for T-0305
+Indirect materials
+Factory supervisor's wages
+Overhead applied to T-0305
+Completion of T-0304
+C206-2  Enter the total cost of job T-0304 when it is completed in April.
+Answer: ____________
+C206-3  Enter ending work in process on April 30.
+Answer: ____________
+C206-4  Enter cost of goods manufactured for April.
+Answer: ____________
+C206-5  Enter cost of goods sold for April (before any year-end overhead adjustment).
+Answer: ____________
+C206-6  April's actual overhead exceeds applied overhead. At April 30 the difference: [select]
+Options: stays in the overhead accounts until year-end   |   is closed to cost of goods sold   |   is added to job T-0305   |   is added to finished goods
+C206-7  When a completed job is sold, its cost moves from finished goods to ____.
+Choose the word or phrase for the blank: cost of goods sold   |   work in process   |   manufacturing overhead control   |   sales revenue
+Answers and explanations
+Section checks
+SC206-1  Answer B. Each private-label order is different and can be identified from start to finish.
+A is wrong. Identical liters in a continuous flow suit process costing.
+C is wrong. Identical units suit process or standard costing.
+D is wrong. Bottling is a continuous process.
+SC206-2  Answer C. Costs are collected for each separate job.
+A is wrong. Departments are the cost object in process costing.
+B is wrong. Periods are used for period costs, not product costs.
+D is wrong. A product line contains many different jobs.
+SC206-3  Answer D. Direct materials + direct labor + applied overhead.
+A is wrong. This is direct labor only.
+B is wrong. Applied overhead must be added.
+C is wrong. This applies only the fixed part of the rate.
+SC206-4  Answer D. Open job sheets are the subsidiary ledger for WIP.
+A is wrong. Finished unsold jobs support finished goods.
+B is wrong. Sold jobs make up COGS.
+C is wrong. This account holds applied overhead only.
+SC206-5  Answer A. Indirect materials are actual overhead.
+B is wrong. Indirect materials do not go to WIP.
+C is wrong. The entry is reversed.
+D is wrong. Factory costs are product costs, not COGS directly.
+SC206-6  Answer C. Supervision is indirect labor.
+A is wrong. Supervision cannot be traced to one job.
+B is wrong. Factory supervision is a product cost.
+D is wrong. Costs reach finished goods only through WIP.
+SC206-7  Answer C. Actual machine hours × predetermined rate.
+A is wrong. This uses only the variable rate.
+B is wrong. This uses only the fixed rate.
+D is wrong. This is total actual overhead for all jobs.
+SC206-8  Answer B. Applied overhead is added to the jobs.
+A is wrong. The entry is reversed.
+C is wrong. Actual overhead is not credited here.
+D is wrong. Orontes keeps actual and applied overhead in separate accounts.
+SC206-9  Answer C. Completed jobs move to finished goods.
+A is wrong. WIP holds open jobs only.
+B is wrong. COGS is recorded at the sale.
+D is wrong. Raw materials hold unused materials.
+SC206-10  Answer B. COGS is the job cost.
+A is wrong. This is gross margin.
+C is wrong. The sale price goes to revenue.
+D is wrong. Cost and price are not added.
+SC206-11  Answer B. Order-level cost is the main benefit.
+A is wrong. Job costing needs more records.
+C is wrong. Overhead is still applied with a rate.
+D is wrong. That setting suits process costing.
+SC206-12  Answer A. Applied overhead is an allocation.
+B is wrong. Job sheets give the inventory values.
+C is wrong. Direct labor is traced to each job.
+D is wrong. Law firms and hospitals use job costing.
+SC206-13  Answer B. Beginning WIP + manufacturing costs − ending WIP.
+A is wrong. This is cost of goods sold.
+C is wrong. This is total manufacturing cost before the WIP adjustment.
+D is wrong. Ending WIP must be deducted.
+SC206-14  Answer D. Monthly differences usually even out; they are closed at year-end (Chapter 8).
+A is wrong. The difference is not closed monthly.
+B is wrong. Jobs receive applied overhead only.
+C is wrong. WIP is not adjusted during the year.
+Your turn
+Item
+Answer
+Overhead applied
+75,000
+Job cost at March 31
+205,000
+Where is the job on March 31?
+Work in process (the job is still open)
+Multiple-choice questions
+P206-01  Answer C. Each client case is a separate job.
+A is wrong. Cement is produced in a continuous process.
+B is wrong. Refining is a continuous process.
+D is wrong. Bottling makes identical units.
+P206-02  Answer A. The requisition names the job that uses the materials.
+B is wrong. Time tickets record labor.
+C is wrong. A purchase order records buying, not use.
+D is wrong. A sales invoice records the sale.
+P206-03  Answer C. Delivery is a selling cost, not a manufacturing cost.
+A is wrong. Applied overhead must be added.
+B is wrong. Direct labor is left out.
+D is wrong. Delivery cost is a period cost.
+P206-04  Answer A. Only open jobs are in WIP.
+B is wrong. Job B is in finished goods.
+C is wrong. Job B is not in WIP.
+D is wrong. Sold and finished jobs are not in WIP.
+P206-05  Answer A. Beginning WIP + costs added − ending WIP.
+B is wrong. WIP changes are ignored.
+C is wrong. Ending WIP is not deducted.
+D is wrong. Ending WIP is added instead of deducted.
+P206-06  Answer A. Beginning FG + COGM − ending FG.
+B is wrong. This is COGM.
+C is wrong. The inventories are reversed.
+D is wrong. Ending FG is not deducted.
+P206-07  Answer D. Factory depreciation is actual overhead.
+A is wrong. Depreciation cannot be traced to one job.
+B is wrong. Factory depreciation is a product cost.
+C is wrong. The applied account records applications only.
+P206-08  Answer A. The rate gives timely job costs.
+B is wrong. Actual overhead is recorded in MOH Control.
+C is wrong. Actual costing is allowed.
+D is wrong. Differences still arise.
+P206-09  Answer B. Normal costing uses actual direct costs and a predetermined overhead rate.
+A is wrong. That is standard costing.
+C is wrong. That is actual costing.
+D is wrong. Direct costs are actual.
+P206-10  Answer C. Actual is higher than applied.
+A is wrong. The direction is reversed.
+B is wrong. Compare actual with applied.
+D is wrong. The amounts are not added.
+P206-11  Answer C. The subsidiary ledger must equal the control account.
+A is wrong. Underapplied overhead is not in WIP.
+B is wrong. They must be equal.
+D is wrong. FG does not explain a WIP difference.
+P206-12  Answer A. Process costing averages cost over identical units more simply.
+B is wrong. It records direct materials.
+C is wrong. It applies overhead.
+D is wrong. It is accepted.
+P206-13  Answer B. Identical units suit process costing.
+A is wrong. Unique orders suit job costing.
+C is wrong. Project billing suits job costing.
+D is wrong. Large, few jobs suit job costing.
+P206-14  Answer B. Use the base that the rate was built on: direct labor hours.
+A is wrong. This uses machine hours.
+C is wrong. Only one base is used.
+D is wrong. The rate is not changed.
+P206-15  Answer C. Costs are collected by case.
+A is wrong. Floors are not cost objects for billing.
+B is wrong. Months are periods, not jobs.
+D is wrong. Salaries are costs, not jobs.
+P206-16  Answer D. Revenue at price; cost at job cost from finished goods.
+A is wrong. Revenue and cost are recorded separately.
+B is wrong. COGS is the job cost.
+C is wrong. Revenue is at the sale price, and the job is in finished goods.
+Case question: Tahini & Spreads in April
+C206-1
+April item
+Category
+Direct materials for T-0305
+Work-in-Process Inventory
+Indirect materials
+Manufacturing Overhead Control
+Factory supervisor's wages
+Manufacturing Overhead Control
+Overhead applied to T-0305
+Work-in-Process Inventory
+Completion of T-0304
+Finished Goods Inventory
+Direct costs and applied overhead go to WIP; actual indirect costs go to MOH Control.
+C206-2  Answer: 300,000.
+95,000 is wrong: this answer leaves out the March cost already in the job.
+C206-3  Answer: 400,000.
+250,000 is wrong: this answer leaves applied overhead out of job T-0305.
+700,000 is wrong: this answer keeps the finished job T-0304 in WIP.
+C206-4  Answer: 300,000.
+700,000 is wrong: this answer includes the open job T-0305.
+C206-5  Answer: 346,000.
+470,000 is wrong: this answer uses the sale price instead of the job cost.
+C206-6  Answer: stays in the overhead accounts until year-end.
+is closed to cost of goods sold is wrong: this answer monthly differences are not closed.
+is added to job T-0305 is wrong: this answer jobs receive applied overhead only.
+is added to finished goods is wrong: this answer jobs receive applied overhead only.
+C206-7  Answer: cost of goods sold.
+work in process is wrong: this answer the job is already finished.
+manufacturing overhead control is wrong: this answer overhead control collects actual overhead, not job costs.
+sales revenue is wrong: this answer the sale is recorded at the price, the cost goes to COGS.
+PART II — MEASURING PRODUCT COST

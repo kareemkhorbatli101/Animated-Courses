@@ -1,0 +1,899 @@
+Chapter 12
+Activity-Based Costing
+التكاليف على أساس الأنشطة
+The Pulses & Spices line of Tahini & Spreads packs two products: lentils in large, simple runs, and za'atar in many small, carefully tested batches. For years both carried overhead at one rate per labor hour, and the report said lentils lost money. This chapter shows why that report was wrong.
+Figure F212-01 shows the idea behind activity-based costing: resources are used by activities, and activities are used by products.
+Figure F212-01. Chapter 12 roadmap: resources, activities, products.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.2.g
+define the elements of activity-based costing, such as cost pool, cost driver, resource driver, activity driver, and value-added activity
+Name the parts of an ABC system: cost pools, cost drivers, resource drivers, activity drivers and value-added activities.
+Full treatment
+D.2.h
+calculate product cost using an activity-based system, and compare and analyze the results with costs calculated using a traditional system
+Calculate product cost with ABC and compare it with the traditional result.
+Full treatment + Extended Example
+D.3.l
+compare traditional overhead allocation with activity-based overhead allocation
+Compare one traditional overhead rate with activity-based allocation.
+Full treatment
+D.3.m
+calculate overhead expense in an activity-based costing setting
+Calculate activity rates and the overhead each product receives.
+Full treatment + Extended Example
+D.3.n
+identify and describe the benefits derived from activity-based overhead allocation
+Explain what managers gain from activity-based overhead allocation.
+Full treatment
+D.2.a
+define the nature of the system, understand the cost flows of the system, and identify its appropriate use
+Describe ABC as a cost accumulation system, its cost flows and when to use it.
+Introduced (full for job costing in Chapter 6)
+D.2.b
+calculate inventory values and cost of goods sold
+Calculate inventory values and COGS when overhead is applied with ABC.
+Introduced (Extended Example)
+D.2.c
+demonstrate an understanding of the proper accounting for normal and abnormal spoilage
+Explain how normal and abnormal spoilage are handled in an ABC system.
+Introduced (full in Chapter 7)
+D.2.d
+discuss the strategic value of cost information regarding products and services, pricing, overhead allocations, and other issues
+Discuss the strategic value of ABC cost information.
+Introduced
+D.2.e
+identify and describe the benefits and limitations of each cost accumulation system
+State the benefits and limitations of ABC as a cost accumulation system.
+Introduced
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+activity-based costing
+التكاليف على أساس الأنشطة
+méthode ABC (coûts par activités)
+activity
+النشاط
+activité
+activity cost pool
+مجمع تكلفة النشاط
+regroupement de coûts par activité
+resource driver
+مسبب الموارد
+inducteur de ressources
+activity driver
+مسبب النشاط
+inducteur d'activité
+cost hierarchy
+تسلسل مستويات التكلفة
+hiérarchie des coûts
+batch-level cost
+تكلفة على مستوى الدفعة
+coût au niveau du lot
+product-sustaining cost
+تكلفة دعم المنتج
+coût de soutien du produit
+facility-sustaining cost
+تكلفة دعم المنشأة
+coût de structure (soutien du site)
+value-added activity
+نشاط مضيف للقيمة
+activité à valeur ajoutée
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 defined cost pools and cost drivers. Chapter 8 compared plantwide and departmental overhead rates. Chapter 10 allocated service costs in two stages. ABC uses the same ideas with more pools and better drivers.
+12.1  Why one overhead rate can mislead
+A traditional system collects overhead in one pool and spreads it with one volume measure, such as direct labor hours. That works when every product uses overhead in the same way as it uses labor.
+Pulses & Spices has $900,000 of overhead. At $36 a labor hour, lentils receive $720,000 because they use most of the labor. Za'atar receives $180,000, although its many small batches need most of the setups, tests and receipts. Figure F212-02 compares the two views.
+Figure F212-02. Traditional one-rate allocation compared with five ABC activity rates.
+The result is cost distortion. High-volume, simple products are overcosted, and low-volume, complex products are undercosted. Prices and product decisions based on these costs go wrong.
+EXAM TRAP   Volume drivers for batch costs
+A setup costs the same whether the batch is large or small. If an exam question spreads setup costs by units or labor hours, the answer will overcost the large batches.
+SECTION CHECK   Test yourself
+SC212-1  A single overhead rate based on direct labor hours works well when:
+A.	products differ greatly in batch size
+B.	setup costs are large
+C.	some products need many quality tests
+D.	products use labor and other activities in about the same proportions
+SC212-2  Pulses & Spices has $900,000 of overhead and 7,000 packing hours, but it uses direct labor hours as its single base. What is the traditional rate per labor hour?
+A.	$30
+B.	$36
+C.	$100
+D.	$300
+Answers and explanations are at the end of the chapter.
+12.2  The elements of an ABC system
+An activity is a task that uses resources, such as a setup or a quality test. Each activity has an activity cost pool: the total cost of doing it. Activity-based costing assigns overhead to these pools first and then to products.
+The first stage uses resource drivers, such as the share of staff time spent on each activity. The second stage uses activity drivers, such as the number of setups each product needs. Both are cost drivers: they measure what causes the cost. Figure F212-03 shows the two stages.
+Figure F212-03. The two stages of ABC: resource drivers, then activity drivers.
+Figure F212-04 fills the five pools. Indirect labor of $360,000 is split by time studies; the $100,000 warehouse lease from Book 1 goes to the facility pool.
+Figure F212-04. Resource drivers: filling the five activity pools
+Resource
+Receiving
+Setups
+Packaging
+Testing
+Facility
+Total
+Indirect labor
+120,000
+150,000
+60,000
+30,000
+—
+360,000
+Equipment depreciation
+30,000
+90,000
+90,000
+—
+—
+210,000
+Utilities
+10,000
+20,000
+40,000
+10,000
+10,000
+90,000
+Lab supplies
+—
+—
+—
+50,000
+—
+50,000
+Warehouse lease
+—
+—
+—
+—
+100,000
+100,000
+Other overhead
+20,000
+10,000
+20,000
+—
+40,000
+90,000
+Pool total
+180,000
+270,000
+210,000
+90,000
+150,000
+900,000
+A value-added activity is one that customers would pay for, such as blending. Receiving, moving and re-testing add cost but not value; ABC makes them visible so managers can reduce them.
+FALSE-FRIEND ALERT   Valeur ajoutée, القيمة المضافة
+In French and Arabic, 'valeur ajoutée' and القيمة المضافة also mean value added for tax (VAT) and national accounts. Here, a value-added activity means an activity customers are willing to pay for.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+activity-based costing
+التكاليف على أساس الأنشطة
+méthode ABC (coûts par activités)
+activity
+النشاط
+activité
+activity cost pool
+مجمع تكلفة النشاط
+regroupement de coûts par activité
+resource driver
+مسبب الموارد
+inducteur de ressources
+activity driver
+مسبب النشاط
+inducteur d'activité
+English (exam term)
+العربية
+Français
+activity-based costing
+التكاليف على أساس الأنشطة
+méthode ABC (coûts par activités)
+activity
+النشاط
+activité
+activity cost pool
+مجمع تكلفة النشاط
+regroupement de coûts par activité
+resource driver
+مسبب الموارد
+inducteur de ressources
+activity driver
+مسبب النشاط
+inducteur d'activité
+SECTION CHECK   Test yourself
+SC212-3  In ABC, the measure used to assign an activity pool to products is:
+A.	a resource driver
+B.	an activity driver
+C.	a cost object
+D.	a cost pool
+SC212-4  The share of indirect staff time spent on setups is used to move labor cost into the setup pool. This share is:
+A.	an activity driver
+B.	a unit-level cost
+C.	a resource driver
+D.	a value-added activity
+Answers and explanations are at the end of the chapter.
+12.3  The cost hierarchy
+ABC groups activities by what causes them. Unit-level costs rise with every unit, like packing hours. Batch-level costs rise with each batch, like setups, whatever the batch size.
+Product-sustaining costs support one product line, such as its recipe design. Facility-sustaining costs keep the whole site running, such as rent. Figure F212-05 places the five Pulses & Spices pools in the hierarchy.
+Figure F212-05. The cost hierarchy for Pulses & Spices
+Activity
+Level
+Driver
+Caused by
+Receiving and cleaning
+Batch-level
+receipts
+each batch or receipt
+Blending setups
+Batch-level
+setups
+each batch or receipt
+Packaging
+Unit-level
+packing hours
+each pack
+(none on this line)
+Product-sustaining
+—
+one product line, e.g. its recipe design
+Quality testing
+Batch-level
+tests
+each batch or receipt; normal spoilage found here stays in the rate
+Facility
+Facility-sustaining
+pallet positions
+the whole site
+Facility-sustaining costs have no causal driver. Many companies leave them out of product cost for decisions; if they are allocated, as Pulses & Spices does with pallet positions, managers should remember that they will not disappear if one product is dropped.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost hierarchy
+تسلسل مستويات التكلفة
+hiérarchie des coûts
+batch-level cost
+تكلفة على مستوى الدفعة
+coût au niveau du lot
+product-sustaining cost
+تكلفة دعم المنتج
+coût de soutien du produit
+facility-sustaining cost
+تكلفة دعم المنشأة
+coût de structure (soutien du site)
+English (exam term)
+العربية
+Français
+cost hierarchy
+تسلسل مستويات التكلفة
+hiérarchie des coûts
+batch-level cost
+تكلفة على مستوى الدفعة
+coût au niveau du lot
+product-sustaining cost
+تكلفة دعم المنتج
+coût de soutien du produit
+facility-sustaining cost
+تكلفة دعم المنشأة
+coût de structure (soutien du site)
+SECTION CHECK   Test yourself
+SC212-5  Blending setups are a batch-level activity because their cost depends on:
+A.	the number of units produced
+B.	the size of the factory
+C.	the number of product lines
+D.	the number of batches, not the units in each
+SC212-6  Rent of the whole Pulses & Spices site is a:
+A.	facility-sustaining cost
+B.	unit-level cost
+C.	batch-level cost
+D.	product-sustaining cost
+Answers and explanations are at the end of the chapter.
+12.4  Computing product cost with ABC
+For each pool, the activity rate is the pool cost divided by the total driver quantity. A product's overhead is the rate times the driver quantity it uses, added over all pools.
+WORKED EXAMPLE   Worked example: ABC overhead for lentils
+Blending setups cost $270,000 for 900 setups, a rate of $300. Lentils need 100 setups, so they receive $30,000. Figure F212-06 completes the five pools: lentils receive $358,000.
+Figure F212-06. Worked example: activity rates and ABC overhead for lentils
+Activity pool
+Cost
+Driver quantity
+Rate
+Lentils
+Receiving and cleaning
+180,000
+600 receipts
+$300
+60,000
+Blending setups
+270,000
+900 setups
+$300
+30,000
+Packaging
+210,000
+7,000 packing hours
+$30
+150,000
+Quality testing
+90,000
+1,500 tests
+$60
+18,000
+Facility
+150,000
+1,500 pallet positions
+$100
+100,000
+Total
+900,000
+358,000
+YOUR TURN   ABC overhead for za'atar
+Figure F212-07 gives za'atar's use of each activity. Complete the two blank rows. Answers are at the end of the chapter.
+Figure F212-07. Your turn: ABC overhead for za'atar (complete the blanks)
+Za'atar
+Use
+Rate
+Overhead
+Receiving and cleaning
+400 receipts
+$300
+120,000
+Blending setups
+800 setups
+$300
+240,000
+Packaging
+2,000 packing hours
+$30
+________
+Quality testing
+1,200 tests
+$60
+72,000
+Facility
+500 pallet positions
+$100
+________
+Total
+542,000
+Per pack, overhead for lentils falls from $3.60 to $1.79, and for za'atar it rises from $3.60 to $10.84. Figure F212-08 shows the change.
+Figure F212-08. Overhead per pack: traditional rate compared with ABC.
+Figure F212-09 adds direct materials and labor. Under the old rate, lentils cost $6.30 and seemed to lose money at a price of $6.00. With ABC they cost $4.49 and earn a margin. Za'atar costs $15.04, more than its price of $11.00.
+Figure F212-09. Unit cost and margin per pack: traditional compared with ABC
+Per pack
+Price
+DM + DL
+OH trad.
+Cost trad.
+Margin trad.
+OH ABC
+Cost ABC
+Margin ABC
+Lentils
+$6.00
+$1.50 + $1.20
+$3.60
+$6.30
+($0.30)
+$1.79
+$4.49
+$1.51
+Za'atar
+$11.00
+$3.00 + $1.20
+$3.60
+$7.80
+$3.20
+$10.84
+$15.04
+($4.04)
+SECTION CHECK   Test yourself
+SC212-7  Quality testing costs $90,000 for 1,500 tests. Za'atar needs 1,200 tests. How much testing cost does za'atar receive?
+A.	$18,000
+B.	$45,000
+C.	$72,000
+D.	$90,000
+SC212-8  Compared with the traditional rate, ABC changes the overhead per pack of lentils from $3.60 to:
+A.	$10.84
+B.	$4.49
+C.	$1.79
+D.	$3.60 (no change)
+Answers and explanations are at the end of the chapter.
+12.5  ABC as a cost accumulation system
+ABC does not need new ledger accounts. Materials and labor go to work in process as before; overhead is applied at the activity rates instead of one rate. Completed units move to finished goods and then to cost of goods sold, as in job costing.
+Because unit costs change, inventory values change too. At the end of 2027 the unsold packs are worth $142,550 with ABC and $133,500 with the old rate. Figure F212-10 shows the difference.
+Figure F212-10. Ending finished goods under the two methods
+FY2027 (whole USD)
+Packs unsold
+Traditional
+ABC
+Lentils
+15,000
+94,500
+67,350
+Za'atar
+5,000
+39,000
+75,200
+Ending finished goods
+133,500
+142,550
+Spoilage follows the Chapter 7 rules. Normal spoilage is built into the rates of the activities that cause it, such as quality testing. Abnormal spoilage is removed from product cost and expensed as a loss.
+For example, if a za'atar batch fails its test for a normal reason and is thrown away, its cost stays in the blending and testing pools and reaches the good packs through the rates. A batch ruined by a power cut is abnormal and is written off as a loss.
+ABC suits companies with many products that use activities in different ways. With one simple product, one rate gives almost the same answer at a lower cost.
+SECTION CHECK   Test yourself
+SC212-9  Under ABC, overhead reaches work in process:
+A.	through a separate set of ledger accounts
+B.	at the activity rates, through the normal overhead accounts
+C.	only when the goods are sold
+D.	as a period cost
+SC212-10  In an ABC system, normal spoilage found at quality testing is:
+A.	expensed as a loss
+B.	charged to the next batch only
+C.	ignored
+D.	built into the rates of the activities that cause it
+Answers and explanations are at the end of the chapter.
+12.6  Benefits, limitations and strategic value
+Activity-based allocation gives more accurate product costs where products differ in complexity. It shows batch-level and product-sustaining costs that a volume rate hides. It also links cost to activities that managers can change.
+ABC has costs too. It needs data on many drivers, judgment to design the pools, and regular updates. Facility costs are still allocated without a true driver. Figure F212-11 lists the benefits and limitations.
+Figure F212-11. Benefits and limitations of ABC
+Benefits
+Limitations
+More accurate product costs where products use activities differently
+Costly to design and keep up to date
+Shows batch-level and product-sustaining costs that volume rates hide
+Needs judgment to choose pools and drivers
+Better pricing, product-mix and customer decisions
+Facility-sustaining costs are still allocated arbitrarily
+Links cost to activities that managers can change
+Must still be adjusted for external reporting rules
+The strategic value is in the decisions. With ABC costs, the division may raise the za'atar price, make larger za'atar batches to cut setups, or stop pushing lentils away. ABC informs these choices; it does not make them.
+WHAT YOU ALREADY KNOW   Beyond the exam
+Time-driven ABC estimates the time each activity takes instead of surveying staff. Activity-based management uses ABC to improve activities. Both are useful in practice, but they are not in the 2024 Part 1 outcomes.
+SECTION CHECK   Test yourself
+SC212-11  Which is a benefit of activity-based overhead allocation?
+A.	It shows batch-level costs that a volume rate hides
+B.	It removes the need for judgment
+C.	It lowers total overhead
+D.	It is cheaper than one rate
+SC212-12  After ABC, which decision is best supported for za'atar?
+A.	Increase its sales, because it is the most profitable product
+B.	Cut the price of lentils, because they lose money
+C.	Review its price and batch size, because its cost exceeds its price
+D.	Ignore the results, because total overhead is unchanged
+Answers and explanations are at the end of the chapter.
+12.7  Extended Example 12A: Pulses & Spices in 2027
+This example records a full year of the Pulses & Spices line with ABC, from overhead to cost of goods sold. The product costs are exam-core; the entries are for depth.
+1. Scenario
+Output: 200,000 packs of lentils and 50,000 packs of za'atar; 185,000 and 45,000 sold.
+Direct costs per pack: lentils $1.50 materials and $1.20 labor; za'atar $3.00 and $1.20.
+Overhead: $900,000 in five activity pools.
+2. Plan
+Record overhead, direct costs and the application at activity rates. Move completed packs to finished goods, record the sales, close the overhead accounts and check every balance.
+3. Calculations
+Overhead applied: lentils $358,000; za'atar $542,000.
+Cost completed: lentils $898,000; za'atar $752,000; total $1,650,000.
+Cost of goods sold: $1,507,450; ending finished goods $142,550.
+4. Recording
+Figure F212-12 records the year in seven entries. Entry 4 is where ABC differs: overhead is applied at the five activity rates.
+Figure F212-12. Extended Example: ABC journal, 2027
+No.
+Account (detail)
+Debit
+Credit
+①
+MOH Control
+900,000
+Various accounts
+900,000
+②
+WIP - Pulses & Spices
+450,000
+Raw Materials Inventory
+450,000
+③
+WIP - Pulses & Spices
+300,000
+Wages Payable
+300,000
+④
+WIP - Pulses & Spices
+900,000
+MOH Applied
+900,000
+⑤
+Finished Goods
+1,650,000
+WIP - Pulses & Spices
+1,650,000
+⑥
+Cost of Goods Sold
+1,507,450
+Finished Goods
+1,507,450
+⑦
+MOH Applied
+900,000
+MOH Control
+900,000
+Totals
+6,607,450
+6,607,450
+5. Posting
+Figure F212-13 posts the entries. Work in process and both overhead accounts close; finished goods end at $142,550.
+Figure F212-13. Extended Example: overhead, WIP, finished goods and COGS accounts.
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Overhead: $358,000 + $542,000 = $900,000, the same total as the old rate.
+Finished goods: $1,650,000 in = $1,507,450 sold + $142,550 left.
+Only the split between the products changes.
+7. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+activity-based costing
+التكاليف على أساس الأنشطة
+méthode ABC (coûts par activités)
+resource driver
+مسبب الموارد
+inducteur de ressources
+activity driver
+مسبب النشاط
+inducteur d'activité
+batch-level cost
+تكلفة على مستوى الدفعة
+coût au niveau du lot
+English (exam term)
+العربية
+Français
+activity-based costing
+التكاليف على أساس الأنشطة
+méthode ABC (coûts par activités)
+resource driver
+مسبب الموارد
+inducteur de ressources
+activity driver
+مسبب النشاط
+inducteur d'activité
+batch-level cost
+تكلفة على مستوى الدفعة
+coût au niveau du lot
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect pool costs, driver quantities and each product's use. Compute each rate from the total driver quantity, multiply by each product's use, and compare with the single rate given in the question.
+9. Self-check
+SECTION CHECK   Test yourself
+SC212-13  Use the Extended Example. What is the ABC cost of the za'atar packs completed (whole USD)?
+A.	390,000
+B.	542,000
+C.	752,000
+D.	898,000
+SC212-14  Use the Extended Example. What is ending finished goods under ABC (whole USD)?
+A.	133,500
+B.	142,550
+C.	1,507,450
+D.	1,650,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F212-14 brings the chapter together.
+Figure F212-14. Chapter 12 summary map: the key rule for each section.
+One volume rate overcosts simple, high-volume products and undercosts complex ones. ABC assigns resources to activity pools with resource drivers and pools to products with activity drivers. Costs sit at unit, batch, product-sustaining and facility levels. Each rate is the pool cost divided by the driver quantity. ABC uses the normal accounts, changes inventory values and gives better information for pricing and product decisions, at the cost of more data and judgment.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P212-01  A company makes one high-volume product and one low-volume, complex product. With a single labor-hour rate, the complex product is usually:
+A.	overcosted
+B.	costed correctly
+C.	undercosted
+D.	given no overhead
+P212-02  Overhead is $400,000 and direct labor hours are 20,000. Product X uses 5,000 labor hours. How much overhead does X receive under the traditional rate?
+A.	$20,000
+B.	$80,000
+C.	$100,000
+D.	$400,000
+P212-03  An activity cost pool is:
+A.	a group of products
+B.	the measure of an activity's output
+C.	the price charged for an activity
+D.	the total cost of one activity
+P212-04  Which is a value-added activity for a food producer?
+A.	Blending the product to the recipe
+B.	Moving materials between warehouses
+C.	Re-testing a batch that failed
+D.	Storing finished goods for months
+P212-05  A setup pool costs $90,000 for 300 setups. Product Y needs 40 setups. How much setup cost does Y receive?
+A.	$9,000
+B.	$12,000
+C.	$30,000
+D.	$36,000
+P212-06  Machine operations cost $360,000 for 12,000 machine hours. What is the activity rate?
+A.	$3
+B.	$12
+C.	$30
+D.	$36
+P212-07  Recipe design for one product line is a:
+A.	unit-level cost
+B.	product-sustaining cost
+C.	batch-level cost
+D.	facility-sustaining cost
+P212-08  A product's direct costs are $5.00 a unit. Traditional overhead is $2.00 a unit; ABC overhead is $3.50. What is the ABC unit cost?
+A.	$3.50
+B.	$7.00
+C.	$8.50
+D.	$10.50
+P212-09  Under ABC, total overhead assigned to all products is:
+A.	always lower than under the traditional rate
+B.	always higher
+C.	the same as under the traditional rate
+D.	zero for simple products
+P212-10  ABC is most useful for a company that:
+A.	makes one product in one process
+B.	has very little overhead
+C.	sells only services with no overhead
+D.	makes many products that use activities in different ways
+P212-11  A product's ABC unit cost is $15 and its traditional unit cost is $8. At year-end 1,000 units are unsold. By how much is ending inventory higher under ABC?
+A.	$7,000
+B.	$8,000
+C.	$15,000
+D.	$23,000
+P212-12  Under ABC, abnormal spoilage is:
+A.	added to the activity rates
+B.	charged to the product with most setups
+C.	expensed as a loss in the period
+D.	carried in finished goods
+P212-13  Which is a limitation of ABC?
+A.	It cannot be used by service companies
+B.	It needs more data and judgment to design and update
+C.	It ignores batch-level costs
+D.	It changes total overhead
+P212-14  ABC shows that a high-volume product was overcosted. What is the most likely effect on the company's decisions?
+A.	It may have priced the product too high and lost sales
+B.	It must stop selling the product
+C.	Its total costs will fall
+D.	It must use ABC in its published statements
+P212-15  The strategic value of ABC cost information is mainly that it:
+A.	replaces the need for a budget
+B.	guarantees higher profit
+C.	removes facility costs
+D.	improves pricing, product-mix and process decisions
+P212-16  Compared with job order costing, ABC as a cost accumulation system:
+A.	cannot be used with job costing
+B.	changes how overhead is applied, not the job cost sheets
+C.	records no inventory
+D.	needs no overhead rates
+P212-17  A company makes three products that use setups, tests and handling in about the same proportions as labor hours. Compared with ABC, a single labor-hour rate is:
+A.	always less accurate, so ABC must be used
+B.	not allowed for inventory under U.S. GAAP
+C.	likely to be better, because it gives similar costs at a lower cost of accounting
+D.	only useful for process costing
+Case question: standard and premium juice
+The Beverages division makes two juices on the same bottling line. Standard juice runs in long batches for supermarkets. Premium juice is a new small-batch product for hotels, with its own recipe and extra quality tests on every batch.
+The division applies overhead to both juices at one rate per machine hour. The premium juice uses few machine hours, so it receives little overhead, and the sales team has priced it on that cost.
+The controller, Sami, suspects that the premium juice is undercosted. He has collected four overhead pools: machine operations, setups, quality tests and recipe design. The recipe design cost can be traced to each product line. He has also recorded how much of each driver each juice used in 2027.
+Sami must prepare an ABC analysis for the division manager before the new hotel price list is printed. He needs the activity rates, the overhead each juice receives under ABC and the overhead per case under both methods. The manager also wants a clear explanation of why the two methods give such different results for the premium juice.
+Use Figure F212-15 for items C212-1 to C212-7.
+How to enter answers: Enter totals in whole U.S. dollars and amounts per case to two decimals, without the $ sign or commas (for example, 125000 or 2.35).
+Figure F212-15. Case exhibit: Beverages juice lines, 2027
+Beverages · FY2027 (whole USD)
+Pool cost
+Driver
+Standard juice
+Premium juice
+Machine operations
+360,000
+machine hours
+10,000
+2,000
+Setups
+150,000
+setups
+40
+60
+Quality tests
+60,000
+tests
+100
+200
+Recipe design (traced)
+30,000
+USD traced
+10,000
+20,000
+Cases produced
+250,000
+20,000
+C212-1  Classify each overhead item in the cost hierarchy. (On the exam screen you would drag each item into a box.)
+Categories: Unit-level · Batch-level · Product-sustaining · Facility-sustaining
+Overhead item
+Category
+Machine operations
+Setups
+Quality tests
+Recipe design
+Plant manager's salary
+C212-2  Enter the activity rate per setup.
+Answer: ____________
+C212-3  Enter the total overhead assigned to premium juice under ABC.
+Answer: ____________
+C212-4  Enter the ABC overhead per case of premium juice.
+Answer: ____________
+C212-5  Enter the overhead per case of standard juice under the machine-hour rate.
+Answer: ____________
+C212-6  Compared with ABC, the machine-hour rate makes premium juice look: [select]
+Options: less costly than it is   |   more costly than it is   |   exactly as costly as it is   |   unaffected by overhead
+C212-7  In ABC, the cost of a resource such as indirect labor is assigned to activity pools with a ____ driver.
+Choose the word or phrase for the blank: resource   |   activity   |   volume   |   cost
+Answers and explanations
+Section checks
+SC212-1  Answer D. Then labor hours track overhead use.
+A is wrong. Batch-size differences are exactly where one rate distorts cost.
+B is wrong. Setups are batch-level costs that labor hours do not track.
+C is wrong. Tests are driven by batches, not labor.
+SC212-2  Answer B. Overhead ÷ total direct labor hours.
+A is wrong. This is the packaging activity rate.
+C is wrong. This is the facility rate.
+D is wrong. This is the setup activity rate.
+SC212-3  Answer B. Activity drivers assign activity costs to products.
+A is wrong. Resource drivers fill the pools.
+C is wrong. The product is the cost object.
+D is wrong. The pool is what is being assigned.
+SC212-4  Answer C. It assigns a resource to an activity.
+A is wrong. Activity drivers assign pools to products.
+B is wrong. It is a measure, not a cost.
+D is wrong. It is a measure, not an activity.
+SC212-5  Answer D. Each setup costs the same whatever the batch size.
+A is wrong. That describes unit-level costs.
+B is wrong. That describes facility-sustaining costs.
+C is wrong. That describes product-sustaining costs.
+SC212-6  Answer A. It keeps the whole site running.
+B is wrong. It does not change with units.
+C is wrong. It does not change with batches.
+D is wrong. It supports every product, not one.
+SC212-7  Answer C. Rate $60 × 1,200 tests.
+A is wrong. This is lentils' share.
+B is wrong. This splits the pool equally.
+D is wrong. This is the whole pool.
+SC212-8  Answer C. ABC overhead ÷ packs.
+A is wrong. This is za'atar's overhead per pack.
+B is wrong. This is the full unit cost, not the overhead.
+D is wrong. The split changes even though the total does not.
+SC212-9  Answer B. ABC changes the rates, not the accounts.
+A is wrong. No new ledger is needed.
+C is wrong. Overhead enters WIP during production.
+D is wrong. Manufacturing overhead is a product cost.
+SC212-10  Answer D. Normal spoilage is part of the cost of good output.
+A is wrong. Only abnormal spoilage is a loss.
+B is wrong. It is spread through the rates.
+C is wrong. It is a real cost.
+SC212-11  Answer A. It makes the causes of cost visible.
+B is wrong. Designing pools needs judgment.
+C is wrong. Allocation does not change the total.
+D is wrong. ABC is more costly to run.
+SC212-12  Answer C. ABC shows za'atar costing $15.04 against a price of $11.00.
+A is wrong. That is the traditional view.
+B is wrong. Lentils earn a margin under ABC.
+D is wrong. The split between products matters for decisions.
+SC212-13  Answer C. Materials + labor + ABC overhead.
+A is wrong. This uses the traditional overhead.
+B is wrong. This is the overhead only.
+D is wrong. This is the lentils total.
+SC212-14  Answer B. Unsold packs at their ABC unit costs.
+A is wrong. This uses the traditional unit costs.
+C is wrong. This is cost of goods sold.
+D is wrong. This is the cost completed.
+Your turn
+Item
+Answer
+Packaging (za'atar)
+2,000 packing hours × $30 = $60,000
+Facility (za'atar)
+500 pallet positions × $100 = $50,000
+Multiple-choice questions
+P212-01  Answer C. It uses more batch-level activities than its labor suggests.
+A is wrong. The high-volume product is overcosted.
+B is wrong. The single rate distorts cost.
+D is wrong. It still receives overhead.
+P212-02  Answer C. $20 an hour × 5,000 hours.
+A is wrong. This is the rate, not the amount.
+B is wrong. The hours are misread.
+D is wrong. This is all the overhead.
+P212-03  Answer D. It collects the cost of one activity.
+A is wrong. Products are cost objects.
+B is wrong. That is the activity driver.
+C is wrong. Pools hold costs, not prices.
+P212-04  Answer A. Customers pay for the product being made.
+B is wrong. Moving adds cost, not value.
+C is wrong. Re-testing fixes a failure.
+D is wrong. Long storage adds cost.
+P212-05  Answer B. $300 a setup × 40.
+A is wrong. The rate is wrong.
+C is wrong. This splits by products, not setups.
+D is wrong. The rate is applied to the wrong quantity.
+P212-06  Answer C. Pool ÷ driver quantity.
+A is wrong. The division is off by ten.
+B is wrong. This divides the wrong figures.
+D is wrong. The division is misread.
+P212-07  Answer B. It supports one product whatever its volume.
+A is wrong. It does not vary with units.
+C is wrong. It does not vary with batches.
+D is wrong. It belongs to one product line.
+P212-08  Answer C. Direct costs + ABC overhead.
+A is wrong. This is overhead only.
+B is wrong. This uses traditional overhead.
+D is wrong. This adds both overheads.
+P212-09  Answer C. Only the split between products changes.
+A is wrong. ABC does not lower total cost.
+B is wrong. The total is the same.
+D is wrong. Simple products still use activities.
+P212-10  Answer D. That is where one rate distorts cost.
+A is wrong. One rate works well there.
+B is wrong. Small overhead gives small distortion.
+C is wrong. Services with overhead can use ABC too.
+P212-11  Answer A. The $7 difference × 1,000 units.
+B is wrong. This is the traditional value.
+C is wrong. This is the ABC value, not the difference.
+D is wrong. This adds the two values.
+P212-12  Answer C. Abnormal spoilage is not a product cost.
+A is wrong. Only normal spoilage is built into rates.
+B is wrong. It is not charged to any product.
+D is wrong. It never enters inventory.
+P212-13  Answer B. Pools and drivers take work to set up and maintain.
+A is wrong. Service companies use ABC (Chapter 13).
+C is wrong. ABC shows batch-level costs.
+D is wrong. The total does not change.
+P212-14  Answer A. Overcosting leads to prices above what the market needs.
+B is wrong. The product is more profitable than it seemed.
+C is wrong. Allocation does not change total cost.
+D is wrong. ABC is a management tool; GAAP does not require it.
+P212-15  Answer D. Better cost signals support better decisions.
+A is wrong. Budgets are still needed.
+B is wrong. Information does not guarantee profit.
+C is wrong. Facility costs remain.
+P212-16  Answer B. ABC can apply overhead to jobs at activity rates.
+A is wrong. ABC can feed job costing.
+C is wrong. Inventory accounts remain.
+D is wrong. It uses several rates.
+P212-17  Answer C. When products use activities alike, ABC adds cost without changing the answer much.
+A is wrong. ABC is not always worth its cost.
+B is wrong. GAAP allows either method if costs approximate actual.
+D is wrong. A single rate is used in job costing too.
+Case question: standard and premium juice
+C212-1
+Overhead item
+Category
+Machine operations
+Unit-level
+Setups
+Batch-level
+Quality tests
+Batch-level
+Recipe design
+Product-sustaining
+Plant manager's salary
+Facility-sustaining
+Unit-level costs follow units or machine hours; batch-level costs follow batches; product-sustaining costs support one product line; facility-sustaining costs keep the site running.
+C212-2  Answer: 1,500.
+3,750 is wrong: this answer divides the pool by the standard juice's setups only.
+C212-3  Answer: 210,000.
+100,000 is wrong: this answer uses the machine-hour rate.
+190,000 is wrong: this answer leaves out the recipe design traced to premium juice.
+C212-4  Answer: 10.50.
+5.00 is wrong: this answer uses the machine-hour rate.
+C212-5  Answer: 2.00.
+1.56 is wrong: this answer gives the ABC figure.
+C212-6  Answer: less costly than it is.
+more costly than it is is wrong: this answer the volume rate undercosts the low-volume product.
+exactly as costly as it is is wrong: this answer the two methods give different costs.
+unaffected by overhead is wrong: this answer premium juice receives overhead under both methods.
+C212-7  Answer: resource.
+activity is wrong: this answer activity drivers assign pools to products.
+volume is wrong: this answer ABC does not assign resources by volume.
+cost is wrong: this answer the cost is what is being assigned.
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

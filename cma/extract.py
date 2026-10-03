@@ -15,8 +15,14 @@ import xml.etree.ElementTree as ET
 
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 HERE = os.path.dirname(os.path.abspath(__file__))
-BOOK = ('/root/.claude/uploads/d2ecb935-98b0-524f-8ee9-37faa42d8a33/'
-        '638db64a-CMA_P1_SecA_Ch01-18_book_REVIEW_EDITION.docx')
+UP = '/root/.claude/uploads/d2ecb935-98b0-524f-8ee9-37faa42d8a33/'
+# The two books are authored to the same conventions, so one extractor serves
+# both: only the file and the output prefix differ.
+BOOKS = {
+    1: UP + '638db64a-CMA_P1_SecA_Ch01-18_book_REVIEW_EDITION.docx',
+    2: UP + 'ca83676e-CMA_P1_Book2_REVIEW_EDITION.docx',
+}
+BOOK = BOOKS[1]
 
 
 def ptext(p):
@@ -51,7 +57,7 @@ def table(tbl):
     return rows, nested
 
 
-def walk(path=BOOK):
+def walk(path):
     """The document body as an ordered list of ('p', text) and ('t', rows)."""
     z = zipfile.ZipFile(path)
     body = ET.fromstring(z.read('word/document.xml')).find(W + 'body')
@@ -85,8 +91,8 @@ def chapters(items):
     return out
 
 
-def main():
-    items = walk()
+def main(bk=1):
+    items = walk(BOOKS[bk])
     chs = chapters(items)
     os.makedirs(os.path.join(HERE, 'src'), exist_ok=True)
     print('%-4s %-56s %7s %6s %5s'
@@ -99,6 +105,9 @@ def main():
                 seg = seg[:i]
                 break
         lines, tabs, figs, cap = [], [], {}, None
+        # Which section each table sits in, so a table-based handout can
+        # be named after the concept rather than after itself.
+        tsec, cursec = {}, ''
         for k, v in seg:
             if k == 'p':
                 lines.append(v)
@@ -106,12 +115,17 @@ def main():
                 # the book's practice items send the reader to it by number.
                 # A handout has to carry the table instead, so the number is
                 # remembered and the next table is filed under it.
-                m = re.match(r'Figure (F\d{2}-\d{2})\.', v)
+                m = re.match(r'Figure (F\d{2,3}-\d{2})\.', v)
                 cap = m.group(1) if m else cap
+                m2 = re.match(r'^(\d{1,2}\.\d{1,2})\s{2}\S', v)
+                if m2:
+                    cursec = m2.group(1)
             else:
                 if cap and cap not in figs:
                     figs[cap] = len(tabs)
                     cap = None
+                if cursec:
+                    tsec[str(len(tabs))] = cursec
                 tabs.append(v)
                 # the text file keeps a flattened copy so the fidelity checks
                 # can find every figure and every account name
@@ -121,13 +135,14 @@ def main():
                             lines.append(c)   # may itself be several lines
         txt = '\n'.join(lines)
         title = seg[1][1] if len(seg) > 1 else ''
-        open(os.path.join(HERE, 'src', 'b1_ch%02d.txt' % n), 'w').write(txt)
-        json.dump(dict(tables=tabs, figures=figs),
-                  open(os.path.join(HERE, 'src', 'b1_ch%02d.json' % n), 'w'),
+        open(os.path.join(HERE, 'src', 'b%d_ch%02d.txt' % (bk, n)), 'w').write(txt)
+        json.dump(dict(tables=tabs, figures=figs, tsec=tsec),
+                  open(os.path.join(HERE, 'src', 'b%d_ch%02d.json' % (bk, n)), 'w'),
                   ensure_ascii=False)
         print('%-4d %-56s %7d %6d %5d'
               % (n, title[:56], len(txt), len(tabs), len(figs)))
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    main(int(sys.argv[1]) if len(sys.argv) > 1 else 1)

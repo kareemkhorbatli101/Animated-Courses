@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C210-1': ('case item C210-1', []),
+    'C210-2': ('case item C210-2', []),
+    'C210-3': ('case item C210-3', []),
+    'C210-4': ('case item C210-4', []),
+    'C210-5': ('case item C210-5', []),
+    'C210-6': ('case item C210-6', []),
+    'C210-7': ('case item C210-7', []),
+    'P210-01': ('practice item P210-01', []),
+    'P210-02': ('practice item P210-02', []),
+    'P210-03': ('practice item P210-03', []),
+    'P210-04': ('practice item P210-04', []),
+    'P210-05': ('practice item P210-05', []),
+    'P210-06': ('practice item P210-06', []),
+    'P210-07': ('practice item P210-07', []),
+    'P210-08': ('practice item P210-08', []),
+    'P210-09': ('practice item P210-09', []),
+    'P210-10': ('practice item P210-10', []),
+    'P210-11': ('practice item P210-11', []),
+    'P210-12': ('practice item P210-12', []),
+    'P210-13': ('practice item P210-13', []),
+    'P210-14': ('practice item P210-14', []),
+    'P210-15': ('practice item P210-15', []),
+    'P210-16': ('practice item P210-16', []),
+    'SC210-1': ('section-check item SC210-1', []),
+    'SC210-10': ('section-check item SC210-10', []),
+    'SC210-11': ('section-check item SC210-11', []),
+    'SC210-12': ('section-check item SC210-12', []),
+    'SC210-13': ('section-check item SC210-13', []),
+    'SC210-2': ('section-check item SC210-2', []),
+    'SC210-3': ('section-check item SC210-3', []),
+    'SC210-4': ('section-check item SC210-4', []),
+    'SC210-5': ('section-check item SC210-5', []),
+    'SC210-6': ('section-check item SC210-6', []),
+    'SC210-7': ('section-check item SC210-7', []),
+    'SC210-8': ('section-check item SC210-8', []),
+    'SC210-9': ('section-check item SC210-9', []),
+    'term:budgeted rate': ("term-bridge row 'budgeted rate'", []),
+    'term:direct method': ("term-bridge row 'direct method'", []),
+    'term:dual-rate method': ("term-bridge row 'dual-rate method'", []),
+    'term:production department': ("term-bridge row 'production department'", []),
+    'term:reciprocal method': ("term-bridge row 'reciprocal method'", []),
+    'term:service department': ("term-bridge row 'service department'", []),
+    'term:single-rate method': ("term-bridge row 'single-rate method'", []),
+    'term:step-down method': ("term-bridge row 'step-down method'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C210-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

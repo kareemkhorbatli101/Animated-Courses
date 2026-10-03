@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C208-1': ('case item C208-1', []),
+    'C208-2': ('case item C208-2', []),
+    'C208-3': ('case item C208-3', []),
+    'C208-4': ('case item C208-4', []),
+    'C208-5': ('case item C208-5', []),
+    'C208-6': ('case item C208-6', []),
+    'C208-7': ('case item C208-7', []),
+    'P208-01': ('practice item P208-01', []),
+    'P208-02': ('practice item P208-02', []),
+    'P208-03': ('practice item P208-03', []),
+    'P208-04': ('practice item P208-04', []),
+    'P208-05': ('practice item P208-05', []),
+    'P208-06': ('practice item P208-06', []),
+    'P208-07': ('practice item P208-07', []),
+    'P208-08': ('practice item P208-08', []),
+    'P208-09': ('practice item P208-09', []),
+    'P208-10': ('practice item P208-10', []),
+    'P208-11': ('practice item P208-11', []),
+    'P208-12': ('practice item P208-12', []),
+    'P208-13': ('practice item P208-13', []),
+    'P208-14': ('practice item P208-14', []),
+    'P208-15': ('practice item P208-15', []),
+    'P208-16': ('practice item P208-16', []),
+    'SC208-1': ('section-check item SC208-1', []),
+    'SC208-10': ('section-check item SC208-10', []),
+    'SC208-11': ('section-check item SC208-11', []),
+    'SC208-2': ('section-check item SC208-2', []),
+    'SC208-3': ('section-check item SC208-3', []),
+    'SC208-4': ('section-check item SC208-4', []),
+    'SC208-5': ('section-check item SC208-5', []),
+    'SC208-6': ('section-check item SC208-6', []),
+    'SC208-7': ('section-check item SC208-7', []),
+    'SC208-8': ('section-check item SC208-8', []),
+    'SC208-9': ('section-check item SC208-9', []),
+    'term:denominator level': ("term-bridge row 'denominator level'", []),
+    'term:departmental overhead rate': ("term-bridge row 'departmental overhead rate'", []),
+    'term:fixed overhead': ("term-bridge row 'fixed overhead'", []),
+    'term:master-budget capacity': ("term-bridge row 'master-budget capacity'", []),
+    'term:normal capacity': ("term-bridge row 'normal capacity'", []),
+    'term:overapplied overhead': ("term-bridge row 'overapplied overhead'", []),
+    'term:plantwide overhead rate': ("term-bridge row 'plantwide overhead rate'", []),
+    'term:proration': ("term-bridge row 'proration'", []),
+    'term:theoretical capacity': ("term-bridge row 'theoretical capacity'", []),
+    'term:underapplied overhead': ("term-bridge row 'underapplied overhead'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C208-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C208-6': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

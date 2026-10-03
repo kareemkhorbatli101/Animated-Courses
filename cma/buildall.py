@@ -19,12 +19,16 @@ import buildch as B
 CHAPTERS = range(1, 19)
 
 
-def build(out):
-    d = Doc('CMA Part 1 · Section A · Book 1',
+TITLES = {1: 'CMA Part 1 · Section A · Book 1',
+          2: 'CMA Part 1 · Book 2 · Cost Management'}
+
+
+def build(out, bk=1):
+    d = Doc(TITLES.get(bk, 'CMA Part 1 · Book %d' % bk),
             'Handouts and answer keys, chapters 1 to 18')
     total = hcount = 0
     for n in CHAPTERS:
-        mod = 'b1_ch%02d' % n
+        mod = 'b%d_ch%02d' % (bk, n)
         ch = importlib.import_module(mod)
         for h in ch.HANDOUTS:
             m = importlib.import_module('%s.h%02d' % (mod, h))
@@ -39,10 +43,11 @@ def build(out):
 
 
 if __name__ == '__main__':
-    p = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
+    bk = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+    p = os.path.join(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-        'CMA_Book1_All_Handouts_and_Keys.docx')
-    path, hc, tp = build(p)
+        'CMA_Book%d_All_Handouts_and_Keys.docx' % bk)
+    path, hc, tp = build(p, bk)
     print('wrote %s  %d bytes' % (path, os.path.getsize(path)))
     print('%d handouts, each followed by its own answer key sheet, '
           '%d response points' % (hc, tp))

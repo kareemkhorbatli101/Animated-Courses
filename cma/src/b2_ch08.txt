@@ -1,0 +1,773 @@
+Chapter 8
+Overhead Rates and Over- or Under-Applied Overhead
+معدلات تحميل التكاليف غير المباشرة وفروق التحميل
+Chapter 6 applied Tahini & Spreads overhead at $30 per machine hour, and Chapter 1 ended the year with $230,000 of overhead underapplied. This chapter explains where the rate came from and what happens to the difference at year-end.
+Figure F208-01 shows the rate formula at the center of the chapter.
+Figure F208-01. Chapter 8 roadmap: how a predetermined overhead rate is built.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.3.c
+demonstrate an understanding of the different methods of determining overhead rates (e.g., corporate-wide rates, departmental rates, and individual cost driver rates)
+Explain plantwide, departmental and individual cost-driver overhead rates.
+Full treatment
+D.3.d
+describe the benefits and limitations of each of the methods used to determine overhead rates
+Describe the benefits and limitations of each rate method.
+Full treatment
+D.3.h
+identify the components of fixed overhead expense
+Identify the components of fixed overhead.
+Full treatment
+D.3.i
+identify the appropriate allocation base for fixed overhead expense
+Identify the right allocation base for fixed overhead.
+Full treatment
+D.3.j
+calculate the fixed overhead application rate
+Calculate the fixed overhead application rate.
+Full treatment + Extended Example
+D.3.k
+describe how fixed overhead can be over- or under-applied and how this difference should be accounted for in the cost of goods sold, work-in-process, and finished goods accounts
+Describe how overhead becomes over- or under-applied and how the difference is closed to COGS, WIP and finished goods.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+plantwide overhead rate
+معدل التحميل الموحد للمصنع
+taux d'imputation unique
+departmental overhead rate
+معدل التحميل على مستوى القسم
+taux d'imputation par section
+fixed overhead
+التكاليف الصناعية غير المباشرة الثابتة
+charges indirectes fixes
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+underapplied overhead
+نقص التحميل
+sous-imputation
+overapplied overhead
+زيادة التحميل
+sur-imputation
+proration
+التوزيع النسبي
+répartition au prorata
+normal capacity
+الطاقة العادية
+capacité normale
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 defined normal costing and the predetermined rate. Chapter 2 separated fixed and variable costs. Here the fixed part of the rate gets special attention, because its denominator is a choice.
+8.1  Plantwide, departmental and cost-driver rates
+A plantwide overhead rate, also called a corporate-wide rate, uses one rate and one base for all overhead. A departmental overhead rate gives each department its own rate and base. Individual cost-driver rates go further, with a rate for each activity; that is activity-based costing (Chapter 12).
+Tahini & Spreads has two departments. Grinding is machine-heavy and packing is labor-heavy. Its plantwide rate of $30 per machine hour ignores that difference. Figure F208-02 compares the three methods.
+Figure F208-02. Plantwide, departmental and cost-driver rates
+Method
+How
+Benefit
+Limitation
+Plantwide (corporate-wide) rate
+One rate, one base for all overhead
+Simple, cheap
+Distorts cost when departments use different drivers
+Departmental rates
+A rate and base for each department
+Better when departments differ
+More records
+Individual cost-driver rates
+A rate for each activity (ABC, Chapter 12)
+Most accurate
+Costly to design and maintain
+WORKED EXAMPLE   Worked example: one rate or two?
+Grinding overhead is $2,200,000 over 80,000 machine hours: $27.50 per hour. Packing overhead is $800,000 over 50,000 labor hours: $16 per hour. Figure F208-03 applies both methods to two jobs.
+Figure F208-03. Worked example: plantwide and departmental overhead on two jobs
+Overhead applied (whole USD)
+T-0310 jars (packing-heavy)
+T-0311 drums (grinding-heavy)
+Machine hours (grinding + packing)
+500
+950
+Plantwide: MH × $30
+15,000
+28,500
+Grinding: MH × $27.50
+8,250
+24,750
+Packing: labor hours × $16
+12,800
+1,600
+Departmental total
+21,050
+26,350
+Change from plantwide
+6,050
+(2,150)
+The plantwide rate undercosts the packing-heavy jar order by $6,050 and overcosts the grinding-heavy drum order. Departmental rates follow the real drivers, so they give more accurate job costs and better prices.
+More rates cost more to run: more bases to measure and more records to keep. Use a plantwide rate when departments consume overhead in similar ways; use departmental or driver rates when they do not.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+plantwide overhead rate
+معدل التحميل الموحد للمصنع
+taux d'imputation unique
+departmental overhead rate
+معدل التحميل على مستوى القسم
+taux d'imputation par section
+English (exam term)
+العربية
+Français
+plantwide overhead rate
+معدل التحميل الموحد للمصنع
+taux d'imputation unique
+departmental overhead rate
+معدل التحميل على مستوى القسم
+taux d'imputation par section
+SECTION CHECK   Test yourself
+SC208-1  A plantwide overhead rate is:
+A.	a separate rate for each department
+B.	a rate for each activity
+C.	the actual overhead of the month divided by units sold
+D.	one rate and one base for all the plant's overhead
+SC208-2  Use Figure F208-03. What overhead does job T-0310 receive with departmental rates (whole USD)?
+A.	8,250
+B.	12,800
+C.	15,000
+D.	21,050
+Answers and explanations are at the end of the chapter.
+8.2  Fixed overhead
+Fixed overhead is the cost of having capacity: it does not change with activity in the relevant range. Typical components are depreciation, supervision, insurance, property tax, rent or lease costs, and the fixed charges of service departments.
+Figure F208-04 lists Tahini & Spreads' fixed overhead for 2027: $2,400,000, including $690,000 charged by the service departments (Chapter 10).
+Figure F208-04. Tahini & Spreads fixed overhead, 2027
+Tahini & Spreads fixed overhead, FY2027
+Whole USD
+Factory supervision
+520,000
+Depreciation of grinders and fillers
+610,000
+Insurance and property tax
+180,000
+Facility costs and fixed utility charges
+400,000
+Service department charges (Chapter 10)
+690,000
+Budgeted fixed overhead
+2,400,000
+Keep variable items out of the fixed pool. Power for the grinders and cleaning supplies rise with machine hours, so they belong in variable overhead at $6 per machine hour.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+fixed overhead
+التكاليف الصناعية غير المباشرة الثابتة
+charges indirectes fixes
+English (exam term)
+العربية
+Français
+fixed overhead
+التكاليف الصناعية غير المباشرة الثابتة
+charges indirectes fixes
+SECTION CHECK   Test yourself
+SC208-3  Which is a component of fixed overhead?
+A.	Depreciation of the grinders
+B.	Power for the grinders
+C.	Machine lubricants
+D.	Direct labor
+SC208-4  Use Figure F208-04. Which amount belongs in Tahini's fixed overhead pool?
+A.	Sesame used in jobs
+B.	Service department charges of $690,000
+C.	Sales commissions
+D.	Power at $6 per machine hour
+Answers and explanations are at the end of the chapter.
+8.3  The allocation base and the denominator
+The base for fixed overhead should measure how products use capacity. In an automated grinding plant that is machine hours. The base must also be measurable for every job.
+The fixed overhead rate is budgeted fixed overhead divided by a denominator level of the base. The choice matters: the same $2,400,000 gives $16 per hour at theoretical capacity, $20 at practical capacity, $24 at normal capacity and $25 at master-budget capacity. Figure F208-05 shows all four.
+Figure F208-05. Fixed overhead rate at four capacity levels for Tahini & Spreads.
+Orontes uses normal capacity: 100,000 machine hours, inside a normal range of 90,000 to 110,000 hours a year, which gives $24 per hour and keeps inventory in line with U.S. GAAP. Chapter 9 shows why managers also look at practical capacity.
+● IFRS CONTRAST   ASC 330 and normal capacity
+U.S. GAAP and IAS 2 allocate fixed production overhead on normal capacity. Fixed overhead per unit is not increased when production is abnormally low; the unallocated amount is expensed in that period.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+theoretical capacity
+الطاقة النظرية
+capacité théorique
+normal capacity
+الطاقة العادية
+capacité normale
+master-budget capacity
+طاقة الموازنة الشاملة
+activité budgétée
+English (exam term)
+العربية
+Français
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+theoretical capacity
+الطاقة النظرية
+capacité théorique
+normal capacity
+الطاقة العادية
+capacité normale
+master-budget capacity
+طاقة الموازنة الشاملة
+activité budgétée
+SECTION CHECK   Test yourself
+SC208-5  Tahini's budgeted fixed overhead is $2,400,000. What is the fixed overhead rate if the denominator is practical capacity of 120,000 machine hours?
+A.	$16
+B.	$20
+C.	$24
+D.	$25
+SC208-6  In an automated grinding department, the best base for fixed overhead is usually:
+A.	sales revenue
+B.	number of customers
+C.	machine hours
+D.	direct materials cost
+Answers and explanations are at the end of the chapter.
+8.4  Why overhead is over- or under-applied
+Actual overhead collects in Manufacturing Overhead Control; applied overhead collects in Manufacturing Overhead Applied. When actual is more than applied, the difference is underapplied overhead and product costs are too low. When applied is more, the difference is overapplied overhead.
+There are three causes. Spending can differ from the budget. Actual activity can differ from the denominator, so fixed overhead is applied to more or fewer hours than planned. And the base can be used more or less efficiently. Figure F208-06 summarizes the logic.
+Figure F208-06. Why overhead is under- or overapplied, and what each balance means.
+In 2027 Tahini & Spreads worked 92,000 machine hours, below the normal-capacity denominator of 100,000. So applied fixed overhead fell short even before spending is considered.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+underapplied overhead
+نقص التحميل
+sous-imputation
+overapplied overhead
+زيادة التحميل
+sur-imputation
+English (exam term)
+العربية
+Français
+underapplied overhead
+نقص التحميل
+sous-imputation
+overapplied overhead
+زيادة التحميل
+sur-imputation
+SECTION CHECK   Test yourself
+SC208-7  Overhead is underapplied when:
+A.	applied overhead is more than actual overhead
+B.	the rate is set at year-end
+C.	no jobs are finished
+D.	actual overhead is more than applied overhead
+SC208-8  Actual machine hours are below the denominator level, and spending equals the budget. Fixed overhead will be:
+A.	underapplied
+B.	overapplied
+C.	exactly applied
+D.	expensed at once
+Answers and explanations are at the end of the chapter.
+8.5  Closing the difference at year-end
+During the year the difference stays open, because monthly differences often cancel out. At year-end it must be closed so that both overhead accounts return to zero.
+If the difference is immaterial, it is closed to cost of goods sold. If it is material, it is spread by proration over ending work in process, ending finished goods and cost of goods sold. The shares come from the overhead applied in each balance this year, not from the total balances.
+Orontes treats a difference above 2% of applied overhead as material. Figure F208-07 compares the two methods.
+Figure F208-07. Closing the difference: write-off or proration
+Write off to COGS
+Prorate
+When
+Difference is immaterial
+Difference is material
+Entry
+Dr MOH Applied, Dr (or Cr) COGS; Cr MOH Control
+Dr MOH Applied, Dr WIP, Dr FG, Dr COGS; Cr MOH Control
+Basis
+All to COGS
+Current-period overhead applied in ending WIP, FG and COGS
+Effect
+Simple; COGS absorbs all
+Inventories show nearer-actual cost
+GAAP note
+Fine if immaterial
+Abnormal idle capacity is expensed, never prorated (ASC 330)
+EXAM TRAP   Prorate on applied overhead
+Use the overhead applied in each balance during the current year. Do not use total ending balances, and do not include beginning inventory.
+YOUR TURN   Share the underapplied overhead
+Figure F208-08 gives Tahini's applied overhead in each balance. The first share is done. Complete the others. Answers are at the end of the chapter.
+Figure F208-08. Your turn: share the underapplied overhead (complete the blanks)
+Prorate the underapplied overhead
+Applied OH
+Share
+Share of underapplied
+Overhead applied in ending WIP
+276,000
+10%
+23,000
+Overhead applied in ending FG
+552,000
+20%
+________
+Overhead applied in COGS
+1,932,000
+70%
+________
+Total
+2,760,000
+100%
+230,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+proration
+التوزيع النسبي
+répartition au prorata
+English (exam term)
+العربية
+Français
+proration
+التوزيع النسبي
+répartition au prorata
+SECTION CHECK   Test yourself
+SC208-9  A material under- or overapplied balance at year-end is usually:
+A.	closed entirely to COGS
+B.	prorated over ending WIP, ending finished goods and COGS
+C.	carried to next year
+D.	added to sales revenue
+SC208-10  Proration shares are based on:
+A.	the total ending balances of WIP, finished goods and COGS
+B.	beginning inventory balances
+C.	units sold
+D.	the overhead applied this year in ending WIP, ending finished goods and COGS
+Answers and explanations are at the end of the chapter.
+8.6  Extended Example 8A: Tahini & Spreads closes 2027
+This example analyzes the year's underapplied overhead, prorates it, records the closing entry and compares the result with a write-off. The proration and its effect on income are exam-core; the variance split previews Book 3.
+1. Scenario
+Rate: $30 per machine hour, set at normal capacity of 100,000 hours.
+Actual: 92,000 machine hours; fixed overhead $30,000 above budget; variable overhead $8,000 above the flexible budget.
+Balances before closing: work in process $690,000, finished goods $1,380,000, cost of goods sold $6,090,000.
+2. Plan
+Find the underapplied amount and its causes, test materiality, prorate on applied overhead, record the entry and compare the income effect of the two methods.
+3. Calculations
+Fixed rate: $2,400,000 ÷ 100,000 hours = $24; plus $6 variable = $30 per machine hour.
+Applied: 92,000 × $30 = $2,760,000. Actual: $2,990,000. Underapplied: $230,000.
+Materiality: 230,000 ÷ 2,760,000 = 8.3%, above the 2% policy, so the difference is prorated.
+4. Why it was underapplied
+Figure F208-09 splits the $230,000. Most of it, $192,000, is the production-volume effect: fixed overhead was budgeted for normal capacity but applied to only 92,000 hours. Spending adds $30,000 and variable overhead $8,000. Book 3 calls these variances.
+Figure F208-09. Extended Example: the parts of the underapplied overhead.
+5. Proration and the entry
+Figure F208-10 shares the difference on applied overhead. Figure F208-11 records the closing entry, and Figure F208-12 posts it: both overhead accounts close to zero.
+Figure F208-10. Extended Example: proration of the 2027 underapplied overhead
+Tahini, FY2027
+Applied OH in balance
+Share
+Proration
+Before
+After
+Ending WIP
+276,000
+10%
+23,000
+690,000
+713,000
+Ending finished goods
+552,000
+20%
+46,000
+1,380,000
+1,426,000
+Cost of goods sold
+1,932,000
+70%
+161,000
+6,090,000
+6,251,000
+Total
+2,760,000
+100%
+230,000
+Figure F208-11. Extended Example: year-end closing entry (proration)
+No.
+Account (detail)
+Debit
+Credit
+①
+Manufacturing Overhead Applied
+2,760,000
+Work-in-Process Inventory
+23,000
+Finished Goods Inventory
+46,000
+Cost of Goods Sold
+161,000
+Manufacturing Overhead Control
+2,990,000
+Totals
+2,990,000
+2,990,000
+Figure F208-12. Extended Example: overhead and inventory T-accounts after proration.
+6. Write-off or proration?
+Figure F208-13 compares the two methods. Proration leaves $69,000 of the underapplied overhead in inventory, so operating income is $69,000 higher than with a write-off. The cost reaches the income statement later, when the inventory is sold.
+Figure F208-13. Extended Example: operating income under the two methods
+Tahini, FY2027 (whole USD)
+Write off to COGS
+Prorate
+Sales
+8,700,000
+8,700,000
+Cost of goods sold
+6,320,000
+6,251,000
+Selling and administrative
+1,000,000
+1,000,000
+Operating income
+1,380,000
+1,449,000
+Ending WIP + finished goods
+2,070,000
+2,139,000
+7. Tie line
+WORKED EXAMPLE   Everything ties
+Parts of the difference: $30,000 + $192,000 + $8,000 = $230,000.
+Proration: $23,000 + $46,000 + $161,000 = $230,000.
+Income effect: $23,000 + $46,000 = $69,000 kept in inventory.
+After closing: MOH Control and MOH Applied are both zero.
+8. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+underapplied overhead
+نقص التحميل
+sous-imputation
+proration
+التوزيع النسبي
+répartition au prorata
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+English (exam term)
+العربية
+Français
+underapplied overhead
+نقص التحميل
+sous-imputation
+proration
+التوزيع النسبي
+répartition au prorata
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+9. How the exam asks it
+EXAM TRAP   Exam view
+Expect the applied overhead in ending WIP, finished goods and COGS, and an under- or overapplied amount. Compute each share from applied overhead, then say whether income rises or falls compared with a write-off.
+10. Self-check
+SECTION CHECK   Test yourself
+SC208-11  Use the Extended Example. How much of the underapplied overhead is added to ending finished goods (whole USD)?
+A.	23,000
+B.	38,897
+C.	46,000
+D.	230,000
+SC208-12  Use the Extended Example. Compared with a write-off to COGS, proration makes 2027 operating income:
+A.	higher by $69,000
+B.	lower by $69,000
+C.	higher by $230,000
+D.	the same
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F208-14 brings the chapter together.
+Figure F208-14. Chapter 8 summary map: the key rule for each section.
+A plantwide rate is simple, while departmental and cost-driver rates follow the real drivers and give more accurate costs at a higher record-keeping cost. Fixed overhead is the cost of capacity; its rate is budgeted fixed overhead divided by a chosen capacity level, and Orontes uses normal capacity. Overhead becomes under- or overapplied through spending, volume and efficiency. At year-end an immaterial difference is closed to COGS and a material one is prorated on the overhead applied in WIP, finished goods and COGS.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P208-01  Departmental overhead rates are better than a plantwide rate when:
+A.	departments use overhead in different ways, such as machine-heavy and labor-heavy work
+B.	all departments use the same driver
+C.	the company has one product
+D.	overhead is very small
+P208-02  The main limitation of a plantwide rate is that it:
+A.	is expensive to maintain
+B.	cannot be used under normal costing
+C.	can distort product costs when departments have different drivers
+D.	needs activity-based data
+P208-03  Budgeted fixed overhead is $600,000 and normal capacity is 40,000 machine hours. What is the fixed overhead rate?
+A.	$12.50
+B.	$15
+C.	$20
+D.	$600,000
+P208-04  A good base for fixed overhead should:
+A.	change with sales prices
+B.	be the same as the variable overhead base in all cases
+C.	be chosen only because it is easy to count
+D.	measure how products use the capacity that the fixed costs provide
+P208-05  Which is fixed overhead?
+A.	Factory insurance
+B.	Direct materials
+C.	Power used by machines
+D.	Sales commissions
+P208-06  Applied overhead is $540,000 and actual overhead is $510,000. Overhead is:
+A.	underapplied by $30,000
+B.	overapplied by $510,000
+C.	exactly applied
+D.	overapplied by $30,000
+P208-07  An immaterial underapplied balance is closed at year-end. The entry includes:
+A.	a credit to Cost of Goods Sold
+B.	a debit to Cost of Goods Sold
+C.	a debit to Sales Revenue
+D.	a credit to Finished Goods
+P208-08  Underapplied overhead is $50,000. This year's applied overhead is $100,000 in ending WIP, $150,000 in ending finished goods and $750,000 in COGS. How much is prorated to finished goods?
+A.	$5,000
+B.	$7,500
+C.	$37,500
+D.	$50,000
+P208-09  A material underapplied balance is written off to COGS instead of being prorated. Compared with proration, operating income is:
+A.	higher
+B.	the same
+C.	unaffected because overhead is not an expense
+D.	lower
+P208-10  Which denominator gives the highest fixed overhead rate?
+A.	Theoretical capacity
+B.	Practical capacity
+C.	The smallest capacity measure, such as master-budget capacity
+D.	They all give the same rate
+P208-11  Under ASC 330, when production is abnormally low, unallocated fixed overhead is:
+A.	added to inventory by raising the rate
+B.	expensed in the period
+C.	prorated to WIP and finished goods
+D.	carried forward to next year
+P208-12  Using a separate rate for each activity, such as setups and inspections, is called:
+A.	activity-based costing
+B.	plantwide costing
+C.	actual costing
+D.	variable costing
+P208-13  The fixed overhead rate is $24 and the variable overhead rate is $6 per machine hour. A job uses 500 machine hours. How much overhead is applied?
+A.	$3,000
+B.	$9,000
+C.	$12,000
+D.	$15,000
+P208-14  An immaterial overapplied balance is closed to COGS. Cost of goods sold:
+A.	increases
+B.	decreases
+C.	does not change
+D.	is moved to finished goods
+P208-15  A company uses theoretical capacity as its denominator. Most years it will have:
+A.	a high rate and large overapplied overhead
+B.	no difference
+C.	a low rate and large underapplied fixed overhead
+D.	a rate equal to the variable rate
+P208-16  Budgeted service department charges to a production division are usually treated as:
+A.	direct materials
+B.	selling expense
+C.	variable overhead per unit
+D.	fixed overhead of the division
+Case question: Beverages closes 2026
+In 2026 the Beverages division still used normal costing. At the start of the year it set predetermined overhead rates per machine hour, using the budgeted overhead and the budgeted machine hours of the bottling plant. During the year it applied overhead to production at those rates.
+The division's overhead includes depreciation of the bottling line, plant supervision, power for the fillers and other costs. Some of these costs are fixed and some vary with machine hours. At the end of the year the actual overhead and the applied overhead did not match.
+The difference is material, so the division cannot simply close it to cost of goods sold. The auditors expect it to be prorated over work in process, finished goods and cost of goods sold, in proportion to the overhead applied in each ending balance.
+Omar, the Beverages controller, is preparing the year-end close. He needs the overhead rate, the overhead applied, the amount underapplied and the adjustment for each account. He also wants to explain to the division manager how proration changes the operating income of the year compared with a write-off.
+Use Figure F208-15 for items C208-1 to C208-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F208-15. Case exhibit: Beverages overhead, FY2026
+Beverages · FY2026 (normal costing, whole USD)
+Data
+Budgeted fixed overhead
+1,650,000
+Normal capacity (Orontes policy)
+16,500 machine hours
+Practical capacity
+20,000 machine hours
+Variable overhead rate
+$50 per machine hour
+Actual machine hours
+16,000
+Actual fixed overhead / actual variable overhead
+1,660,000 / 820,000
+Machine hours in ending WIP / ending FG / COGS
+800 / 2,400 / 12,800
+Unadjusted balances: WIP / FG / COGS
+400,000 / 900,000 / 9,000,000
+Materiality policy
+2% of applied overhead
+C208-1  Classify each cost. (On the exam screen you would drag each item into a box.)
+Categories: Fixed overhead · Variable overhead · Not overhead
+Beverages cost
+Category
+Depreciation of the bottling line
+Power for the fillers
+Line supervisors
+Cleaning chemicals
+Juice concentrate
+Service department charges
+C208-2  Enter the fixed overhead rate per machine hour for 2026.
+Answer: ____________
+C208-3  Enter the total overhead applied in 2026.
+Answer: ____________
+C208-4  Enter the underapplied overhead for 2026.
+Answer: ____________
+C208-5  The difference is material. Enter the amount prorated to ending finished goods.
+Answer: ____________
+C208-6  Compared with writing the difference off to COGS, proration makes 2026 operating income: [select]
+Options: higher by the amounts kept in WIP and finished goods   |   lower by the amounts kept in WIP and finished goods   |   higher by the whole underapplied amount   |   unchanged
+C208-7  An immaterial overhead difference at year-end is usually closed to ____.
+Choose the word or phrase for the blank: cost of goods sold   |   retained earnings   |   work in process only   |   other comprehensive income
+Answers and explanations
+Section checks
+SC208-1  Answer D. It is also called a corporate-wide rate.
+A is wrong. That is a departmental rate.
+B is wrong. That is an activity (cost-driver) rate.
+C is wrong. Predetermined rates use budgets.
+SC208-2  Answer D. Grinding MH × grinding rate + packing labor hours × packing rate.
+A is wrong. Packing overhead is left out.
+B is wrong. Grinding overhead is left out.
+C is wrong. This is the plantwide amount.
+SC208-3  Answer A. Straight-line depreciation does not change with activity.
+B is wrong. Power is variable overhead.
+C is wrong. Lubricants are variable overhead.
+D is wrong. Direct labor is a direct cost.
+SC208-4  Answer B. Budgeted service charges are fixed for the division.
+A is wrong. Sesame is a direct material.
+C is wrong. Commissions are a period cost.
+D is wrong. Power is variable overhead.
+SC208-5  Answer B. Budgeted fixed overhead ÷ practical capacity.
+A is wrong. This uses theoretical capacity.
+C is wrong. This uses normal capacity.
+D is wrong. This uses master-budget capacity.
+SC208-6  Answer C. Machine hours measure how products use the capacity.
+A is wrong. Revenue does not measure capacity use.
+B is wrong. Customers do not use machine capacity.
+D is wrong. Material cost does not drive fixed overhead.
+SC208-7  Answer D. Too little was applied to production.
+A is wrong. That is overapplied.
+B is wrong. The rate is set before the year.
+C is wrong. Completion is not the test.
+SC208-8  Answer A. Fewer hours carry the rate, so less fixed overhead is applied.
+B is wrong. The direction is reversed.
+C is wrong. Fewer hours mean less is applied.
+D is wrong. A normal shortfall is not expensed at once.
+SC208-9  Answer B. Proration brings the balances nearer to actual cost.
+A is wrong. That is for immaterial amounts.
+C is wrong. Both overhead accounts are closed each year.
+D is wrong. Revenue is not affected.
+SC208-10  Answer D. The difference relates to this year's applied overhead.
+A is wrong. Balances include materials and labor.
+B is wrong. Beginning inventory is last year's.
+C is wrong. Units sold ignore inventories.
+SC208-11  Answer C. Finished goods hold 20% of applied overhead.
+A is wrong. This is the WIP share.
+B is wrong. This uses total balances.
+D is wrong. This puts the whole amount in one balance.
+SC208-12  Answer A. The WIP and finished goods shares stay in inventory.
+B is wrong. The direction is reversed.
+C is wrong. The COGS share still reduces income.
+D is wrong. Part of the cost is deferred in inventory.
+Your turn
+Item
+Answer
+Finished goods share
+20% × 230,000 = 46,000
+COGS share
+70% × 230,000 = 161,000
+Multiple-choice questions
+P208-01  Answer A. Different drivers need different rates.
+B is wrong. Then one rate is enough.
+C is wrong. One product gets all overhead anyway.
+D is wrong. Small overhead does not justify more rates.
+P208-02  Answer C. It spreads all overhead on one base.
+A is wrong. It is the cheapest method.
+B is wrong. Normal costing often uses it.
+D is wrong. It needs only one base.
+P208-03  Answer B. Budgeted fixed overhead ÷ normal capacity.
+A is wrong. This uses a larger denominator.
+C is wrong. This uses a smaller denominator.
+D is wrong. The total is not a rate.
+P208-04  Answer D. Fixed overhead is the cost of capacity.
+A is wrong. Prices do not use capacity.
+B is wrong. The bases can differ.
+C is wrong. Ease alone does not give accurate costs.
+P208-05  Answer A. Insurance does not change with activity.
+B is wrong. Materials are direct costs.
+C is wrong. Machine power is variable overhead.
+D is wrong. Commissions are period costs.
+P208-06  Answer D. Applied exceeds actual.
+A is wrong. The direction is reversed.
+B is wrong. Compare applied with actual.
+C is wrong. They differ.
+P208-07  Answer B. Underapplied overhead adds to COGS.
+A is wrong. That closes an overapplied balance.
+C is wrong. Revenue is not used.
+D is wrong. Finished goods are not reduced.
+P208-08  Answer B. 150,000 ÷ 1,000,000 = 15% of 50,000.
+A is wrong. This is the WIP share.
+C is wrong. This is the COGS share.
+D is wrong. The whole amount is not put in one balance.
+P208-09  Answer D. The whole amount hits COGS this year.
+A is wrong. The direction is reversed.
+B is wrong. Part would otherwise stay in inventory.
+C is wrong. Overhead reaches COGS.
+P208-10  Answer C. The same cost divided by fewer hours gives a higher rate.
+A is wrong. The largest denominator gives the lowest rate.
+B is wrong. Practical is larger than normal or budget.
+D is wrong. Denominators differ.
+P208-11  Answer B. Fixed overhead per unit is not increased for abnormally low production.
+A is wrong. The rate is not raised.
+C is wrong. Abnormal idle capacity is not inventoried.
+D is wrong. It is a cost of the period.
+P208-12  Answer A. Individual cost-driver rates are the basis of ABC.
+B is wrong. Plantwide uses one rate.
+C is wrong. Actual costing is a measurement choice.
+D is wrong. Variable costing is about fixed overhead in inventory.
+P208-13  Answer D. Machine hours × combined rate.
+A is wrong. Only the variable rate is used.
+B is wrong. The rates are subtracted.
+C is wrong. Only the fixed rate is used.
+P208-14  Answer B. Too much overhead was charged, so COGS is reduced.
+A is wrong. That happens with underapplied overhead.
+C is wrong. The balance must be closed.
+D is wrong. COGS is adjusted, not moved.
+P208-15  Answer C. Actual activity rarely reaches theoretical capacity.
+A is wrong. The rate is the lowest possible.
+B is wrong. Activity falls short of the denominator.
+D is wrong. Fixed and variable rates are separate.
+P208-16  Answer D. They are a fixed budgeted amount for the year.
+A is wrong. They are not materials.
+B is wrong. They support production.
+C is wrong. They do not change with units.
+Case question: Beverages closes 2026
+C208-1
+Beverages cost
+Category
+Depreciation of the bottling line
+Fixed overhead
+Power for the fillers
+Variable overhead
+Line supervisors
+Fixed overhead
+Cleaning chemicals
+Variable overhead
+Juice concentrate
+Not overhead
+Service department charges
+Fixed overhead
+Fixed overhead is the cost of capacity; variable overhead moves with machine hours.
+C208-2  Answer: 100.
+150 is wrong: this answer gives the combined fixed and variable rate.
+C208-3  Answer: 2,400,000.
+1,600,000 is wrong: this answer applies fixed overhead only.
+C208-4  Answer: 80,000.
+60,000 is wrong: this answer looks at fixed overhead only.
+C208-5  Answer: 12,000.
+6,990 is wrong: this answer prorates on total ending balances.
+C208-6  Answer: higher by the amounts kept in WIP and finished goods.
+lower by the amounts kept in WIP and finished goods is wrong: this answer the direction is reversed.
+higher by the whole underapplied amount is wrong: this answer the COGS share still reduces income.
+unchanged is wrong: this answer part of the cost is deferred in inventory.
+C208-7  Answer: cost of goods sold.
+retained earnings is wrong: this answer the difference passes through income.
+work in process only is wrong: this answer one account does not carry the whole difference.
+other comprehensive income is wrong: this answer overhead differences are never OCI.
+PART II — MEASURING PRODUCT COST

@@ -1,0 +1,859 @@
+Chapter 14
+Life-Cycle Costing and Value Chain Analysis
+تكاليف دورة حياة المنتج وتحليل سلسلة القيمة
+In 2027 Tahini & Spreads spent $250,000 developing a sugar-free halva before a single tray was made. In its first year on the market, the product report will show a loss. Should the division still launch it? This chapter answers with the whole life of the product in view.
+Figure F214-01 shows the three stages of a product's life, and the second half of the chapter looks at the chain of activities that creates value for customers.
+Figure F214-01. Chapter 14 roadmap: upstream, manufacturing and downstream.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.2.j
+demonstrate an understanding of the concept of life-cycle costing and the strategic value of including upstream costs, manufacturing costs, and downstream costs
+Explain life-cycle costing and why upstream, manufacturing and downstream costs should be counted together.
+Full treatment + Extended Example
+D.5.a
+define value chain analysis
+Define value chain analysis.
+Full treatment
+D.5.b
+identify the steps in value chain analysis
+List the steps in value chain analysis.
+Full treatment
+D.5.c
+explain how value chain analysis is used to better understand a company’s competitive advantage
+Explain how value chain analysis shows a company's competitive advantage.
+Full treatment
+D.5.d
+define, identify, and provide examples of a value-added activity and explain how the value-added concept is related to improving performance
+Define and give examples of value-added activities, and link them to better performance.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+life-cycle costing
+تكاليف دورة حياة المنتج
+coût du cycle de vie
+upstream costs
+التكاليف السابقة للإنتاج
+coûts en amont
+downstream costs
+التكاليف اللاحقة للإنتاج
+coûts en aval
+locked-in costs
+التكاليف الملتزم بها
+coûts engagés
+value chain
+سلسلة القيمة
+chaîne de valeur
+value chain analysis
+تحليل سلسلة القيمة
+analyse de la chaîne de valeur
+primary activities
+الأنشطة الرئيسية
+activités principales
+support activities
+الأنشطة الداعمة
+activités de soutien
+non-value-added activity
+نشاط غير مضيف للقيمة
+activité sans valeur ajoutée
+cost leadership
+ريادة التكلفة
+domination par les coûts
+differentiation
+التمايز
+différenciation
+WHAT YOU ALREADY KNOW   What you already know
+Chapters 12 and 13 traced overhead to activities, products and customers. This chapter widens the view: across the years of a product's life, and across all the activities of a business.
+14.1  Life-cycle costing
+Life-cycle costing plans and tracks every cost of a product from research to withdrawal. It groups costs into three stages: upstream costs before production, manufacturing costs, and downstream costs after production.
+Upstream costs include research, design and testing. Downstream costs include marketing, distribution, customer service and the costs of leaving the market. Figure F214-02 shows the three stages for the sugar-free halva.
+Figure F214-02. The three stages of the sugar-free halva's life-cycle cost.
+WORKED EXAMPLE   Worked example: the halva's life-cycle budget
+The division expects to sell 510,000 trays over five years at $7.00. Figure F214-03 adds the three stages: a life-cycle cost of $3,188,000 against revenue of $3,570,000, a life-cycle profit of $382,000.
+Figure F214-03. Worked example: the sugar-free halva's life-cycle budget
+Sugar-free halva, whole life (whole USD)
+Amount
+Share
+Upstream: research, design, testing
+250,000
+7.8%
+Manufacturing
+2,082,000
+65.3%
+Downstream: marketing, distribution, service, exit
+856,000
+26.9%
+Life-cycle cost
+3,188,000
+100.0%
+Revenue
+3,570,000
+Life-cycle profit
+382,000
+YOUR TURN   The halva's downstream costs
+Figure F214-04 lists the downstream costs. Complete the two blank rows. Answers are at the end of the chapter.
+Figure F214-04. Your turn: the halva's downstream costs (complete the blanks)
+Downstream costs, 510,000 trays
+Whole USD
+Marketing (5 years)
+520,000
+Distribution at $0.50 a tray
+________
+Customer service at $0.10 a tray
+________
+Exit costs (2032)
+30,000
+Downstream costs
+856,000
+A yearly product report would miss the upstream costs, because they were spent before the product had sales. Life-cycle costing puts them back, so the product is judged on everything it costs.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+life-cycle costing
+تكاليف دورة حياة المنتج
+coût du cycle de vie
+upstream costs
+التكاليف السابقة للإنتاج
+coûts en amont
+downstream costs
+التكاليف اللاحقة للإنتاج
+coûts en aval
+English (exam term)
+العربية
+Français
+life-cycle costing
+تكاليف دورة حياة المنتج
+coût du cycle de vie
+upstream costs
+التكاليف السابقة للإنتاج
+coûts en amont
+downstream costs
+التكاليف اللاحقة للإنتاج
+coûts en aval
+SECTION CHECK   Test yourself
+SC214-1  Which cost is an upstream cost of a new product?
+A.	Delivering trays to shops
+B.	Testing the recipe before launch
+C.	Handling customer complaints
+D.	Labor on the production line
+SC214-2  Upstream costs are $250,000, manufacturing costs $2,082,000 and downstream costs $856,000. What is the life-cycle cost?
+A.	$2,082,000
+B.	$2,332,000
+C.	$2,938,000
+D.	$3,188,000
+Answers and explanations are at the end of the chapter.
+14.2  Locked-in costs and the strategic value of the design stage
+A cost is incurred when the money is spent. It is committed, or locked in, when a decision makes it unavoidable later. The recipe, the tray and the choice of channels fix most future costs long before they are paid.
+At the end of design, the halva team estimates that 80% of the life-cycle cost is already committed, while only 7.8% has been spent. Figure F214-05 shows the two lines over the product's life.
+Figure F214-05. Costs committed and costs incurred over the halva's life.
+This is the strategic value of life-cycle costing: the cheapest time to reduce cost is the design stage. Once production starts, managers can only control the small share of cost that is still open.
+EXAM TRAP   Committed is not incurred
+An exam statement that most costs are incurred at the design stage is false. Most costs are committed at design and incurred later, during production and sales.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+locked-in costs
+التكاليف الملتزم بها
+coûts engagés
+English (exam term)
+العربية
+Français
+locked-in costs
+التكاليف الملتزم بها
+coûts engagés
+SECTION CHECK   Test yourself
+SC214-3  At the end of the design stage, most of a product's life-cycle cost is usually:
+A.	incurred and paid
+B.	neither committed nor incurred
+C.	written off
+D.	committed but not yet incurred
+SC214-4  Why is the design stage the best time to reduce a product's cost?
+A.	Most future costs are still open to change at that stage
+B.	Costs are incurred mostly at that stage
+C.	Accounting rules require it
+D.	Downstream costs are zero
+Answers and explanations are at the end of the chapter.
+14.3  The value chain
+The value chain is the chain of activities a company performs to design, make, sell, deliver and support its products. Value chain analysis studies each activity to find where the company can lower cost or add value for customers.
+Michael Porter divided the chain into two groups. Primary activities make and deliver the product: inbound logistics, operations, outbound logistics, marketing and sales, and service. Support activities help all of them: firm infrastructure, human resource management, technology development and procurement. Figure F214-06 shows the chain for the Oils division.
+Figure F214-06. Porter's value chain for the Oils division.
+The chain does not stop at the company's walls. The olive growers before Orontes and the distributors after it are part of a wider value system, and many savings come from the links between them.
+FALSE-FRIEND ALERT   Chaîne de valeur, سلسلة القيمة
+French 'chaîne de valeur' and Arabic سلسلة القيمة mean Porter's chain of activities, not a supply chain of companies. The supply chain links several companies; the value chain is inside one.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+value chain
+سلسلة القيمة
+chaîne de valeur
+value chain analysis
+تحليل سلسلة القيمة
+analyse de la chaîne de valeur
+primary activities
+الأنشطة الرئيسية
+activités principales
+support activities
+الأنشطة الداعمة
+activités de soutien
+English (exam term)
+العربية
+Français
+value chain
+سلسلة القيمة
+chaîne de valeur
+value chain analysis
+تحليل سلسلة القيمة
+analyse de la chaîne de valeur
+primary activities
+الأنشطة الرئيسية
+activités principales
+support activities
+الأنشطة الداعمة
+activités de soutien
+SECTION CHECK   Test yourself
+SC214-5  Which is a primary activity in Porter's value chain?
+A.	Procurement
+B.	Human resource management
+C.	Outbound logistics
+D.	Technology development
+SC214-6  Buying olives, bottles and caps for the Oils division is:
+A.	procurement, a support activity
+B.	inbound logistics, a primary activity
+C.	operations
+D.	service
+Answers and explanations are at the end of the chapter.
+14.4  The steps in value chain analysis
+Value chain analysis has five steps: identify the activities, assign costs and assets to them, find what drives each cost, study the links inside and outside the company, and look for opportunities. Figure F214-07 applies the steps to the Oils division.
+Figure F214-07. The five steps of value chain analysis in the Oils division
+Step
+Oils division example
+1. Identify the activities
+Receive olives, press, bottle, ship, sell, handle complaints
+2. Assign costs and assets
+Cost per liter of each activity (Figure F214-08)
+3. Find the cost drivers
+Olive quality, batch size, bottle type, delivery distance
+4. Study the links
+With olive growers, glass supplier, distributors and customers
+5. Find opportunities
+Lower cost where customers do not see value; add value where they will pay
+Figure F214-08 gives the cost of each activity per liter of bottled extra-virgin olive oil. Inbound logistics and operations together cost $11.75, the production cost from Chapter 7. The chain adds outbound, marketing, service and support costs to reach $14.65.
+Figure F214-08. Cost per liter of bottled EVOO by activity: Orontes and a bulk competitor
+Bottled EVOO, 2027
+Orontes
+Bulk competitor
+Inbound logistics
+$0.45
+$0.30
+Operations
+$11.30
+$9.10
+Outbound logistics
+$0.70
+$0.60
+Marketing and sales
+$1.10
+$0.40
+Service
+$0.20
+$0.05
+Support activities
+$0.90
+$0.55
+Total cost per liter
+$14.65
+$11.00
+Price per liter
+$16.00
+$11.50
+Margin per liter
+$1.35
+$0.50
+Placing the competitor's costs beside Orontes's shows where the two companies spend differently. Orontes spends more on operations and marketing; the competitor spends less almost everywhere.
+SECTION CHECK   Test yourself
+SC214-7  What is the first step in value chain analysis?
+A.	Find opportunities to cut cost
+B.	Study the links with suppliers
+C.	Choose a competitive strategy
+D.	Identify the value-creating activities
+SC214-8  Use Figure F214-08. What is Orontes's margin per liter of bottled EVOO?
+A.	$0.50
+B.	$1.35
+C.	$4.50
+D.	$14.65
+Answers and explanations are at the end of the chapter.
+14.5  Value chains and competitive advantage
+A company gains an advantage in one of two ways. Cost leadership means doing the activities more cheaply than rivals. Differentiation means doing some activities in a way customers value and will pay more for.
+The bulk competitor follows cost leadership: its cost per liter is $11.00. Orontes follows differentiation: cold-pressed, traced oil costs more, but customers pay $4.50 more per liter. Figure F214-09 compares the two strategies.
+Figure F214-09. Cost leadership and differentiation compared
+Cost leadership
+Differentiation
+Aim
+Lowest cost in the industry
+Something customers value and pay more for
+Where to spend
+As little as possible in every activity
+More in the activities customers value
+Oils example
+Bulk competitor: low operations and marketing costs
+Orontes: cold-pressed, traced EVOO; price premium of $4.50 a liter
+Risk
+A rival with even lower cost
+Customers stop paying the premium
+Value chain analysis shows whether a strategy is working. Orontes's margin of $1.35 a liter survives only while the premium exceeds the extra cost of its operations and marketing.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost leadership
+ريادة التكلفة
+domination par les coûts
+differentiation
+التمايز
+différenciation
+English (exam term)
+العربية
+Français
+cost leadership
+ريادة التكلفة
+domination par les coûts
+differentiation
+التمايز
+différenciation
+SECTION CHECK   Test yourself
+SC214-9  A company that competes by having the lowest cost in its industry follows:
+A.	cost leadership
+B.	differentiation
+C.	a focus on service
+D.	life-cycle costing
+SC214-10  Orontes's differentiation strategy stays profitable only while:
+A.	its costs are lower than the competitor's
+B.	it spends less on marketing than rivals
+C.	the price premium exceeds the extra cost of the activities customers value
+D.	its volume is the highest in the industry
+Answers and explanations are at the end of the chapter.
+14.6  Value-added and non-value-added activities
+A value-added activity is one customers would pay for, such as filling and labeling bottles. A non-value-added activity adds cost but no value, such as moving pallets or reworking errors. Some activities, such as final inspection, add no value but are necessary for now.
+Figure F214-10 classifies the six activities of the bottling line. Of its $800,000 cost, $140,000 is non-value-added.
+Figure F214-10. Bottling-line activities classified
+Bottling-line activity, 2027
+Class
+Cost
+Filling and capping
+Value-added
+420,000
+Labeling
+Value-added
+150,000
+Final inspection
+Non-value-added but necessary
+90,000
+Moving pallets between buildings
+Non-value-added
+60,000
+Waiting and storage before filling
+Non-value-added
+45,000
+Reworking mislabeled bottles
+Non-value-added
+35,000
+Total
+800,000
+Removing non-value-added activities improves performance without making customers worse off. Figure F214-11 shows how the division can remove $140,000 a year, while keeping the $90,000 inspection until quality improves.
+Figure F214-11. Removing non-value-added activities
+Non-value-added activity
+How to remove it
+Cost
+Moving pallets between buildings
+move storage next to the filling line
+60,000
+Waiting and storage before filling
+schedule deliveries to match filling
+45,000
+Reworking mislabeled bottles
+check labels before they are applied
+35,000
+Annual cost removed
+140,000
+Final inspection (kept: necessary)
+90,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+non-value-added activity
+نشاط غير مضيف للقيمة
+activité sans valeur ajoutée
+English (exam term)
+العربية
+Français
+non-value-added activity
+نشاط غير مضيف للقيمة
+activité sans valeur ajoutée
+SECTION CHECK   Test yourself
+SC214-11  Moving pallets between two buildings before filling is:
+A.	a value-added activity
+B.	a non-value-added activity
+C.	a support activity that adds value
+D.	an upstream cost
+SC214-12  Use Figure F214-10. How much of the bottling line's cost is non-value-added (excluding the necessary inspection)?
+A.	$140,000
+B.	$230,000
+C.	$570,000
+D.	$800,000
+Answers and explanations are at the end of the chapter.
+14.7  Extended Example 14A: should the sugar-free halva be launched?
+This example sets out the halva's budget year by year and compares the yearly view with the life-cycle view. Both are exam-core.
+1. Scenario
+Upstream (2027): research $150,000; design and packaging $60,000; testing and approvals $40,000.
+Production: $3.20 a tray plus $90,000 a year; distribution $0.50 and service $0.10 a tray; exit costs $30,000 in 2032.
+2. The budget year by year
+Figure F214-12 shows each year. The launch year, 2028, loses $98,000 because of heavy marketing, and 2032 loses $8,000 because of exit costs.
+Figure F214-12. Extended Example: the halva budget year by year
+Whole USD
+2027
+2028
+2029
+2030
+2031
+2032
+Total
+Trays
+—
+60,000
+120,000
+150,000
+120,000
+60,000
+510,000
+Revenue
+—
+420,000
+840,000
+1,050,000
+840,000
+420,000
+3,570,000
+Upstream
+(250,000)
+—
+—
+—
+—
+—
+(250,000)
+Manufacturing
+—
+(282,000)
+(474,000)
+(570,000)
+(474,000)
+(282,000)
+(2,082,000)
+Marketing
+—
+(200,000)
+(80,000)
+(80,000)
+(80,000)
+(80,000)
+(520,000)
+Distribution and service
+—
+(36,000)
+(72,000)
+(90,000)
+(72,000)
+(36,000)
+(306,000)
+Exit
+—
+—
+—
+—
+—
+(30,000)
+(30,000)
+Profit
+(250,000)
+(98,000)
+214,000
+310,000
+214,000
+(8,000)
+382,000
+Cumulative
+(250,000)
+(348,000)
+(134,000)
+176,000
+390,000
+382,000
+3. The cumulative view
+Figure F214-13 adds the years up. Cumulative profit is negative until 2030, then reaches $382,000 over the whole life.
+Figure F214-13. Extended Example: yearly and cumulative profit of the sugar-free halva.
+4. Decision
+On a yearly view, the first report after launch would suggest dropping the product. On a life-cycle view, the halva earns $382,000, so the division launches it and watches whether volumes follow the plan.
+5. Tie line
+WORKED EXAMPLE   Everything ties
+Upstream $250,000 + manufacturing $2,082,000 + downstream $856,000 = $3,188,000.
+Revenue $3,570,000 − life-cycle cost $3,188,000 = $382,000, the last point on the cumulative line.
+6. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+life-cycle costing
+تكاليف دورة حياة المنتج
+coût du cycle de vie
+locked-in costs
+التكاليف الملتزم بها
+coûts engagés
+value chain analysis
+تحليل سلسلة القيمة
+analyse de la chaîne de valeur
+English (exam term)
+العربية
+Français
+life-cycle costing
+تكاليف دورة حياة المنتج
+coût du cycle de vie
+locked-in costs
+التكاليف الملتزم بها
+coûts engagés
+value chain analysis
+تحليل سلسلة القيمة
+analyse de la chaîne de valeur
+7. How the exam asks it
+EXAM TRAP   Exam view
+Expect costs by stage and year. Add all three stages for the life-cycle cost, and do not judge a new product on its first year. For value chains, expect to classify activities as primary or support, and as value-added or not.
+8. Self-check
+SECTION CHECK   Test yourself
+SC214-13  Use the Extended Example. What is the halva's profit in 2028 (whole USD)?
+A.	(348,000)
+B.	(98,000)
+C.	382,000
+D.	420,000
+SC214-14  Use the Extended Example. Why should the division launch the halva despite the 2028 loss?
+A.	Its life-cycle revenue exceeds its life-cycle cost
+B.	The 2028 loss is not recorded
+C.	Upstream costs are ignored
+D.	Its first-year revenue is high
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F214-14 brings the chapter together.
+Figure F214-14. Chapter 14 summary map: the key rule for each section.
+Life-cycle costing adds upstream, manufacturing and downstream costs so that a product is judged on everything it costs. Most costs are committed at the design stage, long before they are incurred. Value chain analysis studies Porter's primary and support activities in five steps, and shows whether a company competes on low cost or on valued differences. Removing non-value-added activities lowers cost without reducing value to customers.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P214-01  A product has research costs of $100,000, manufacturing costs of $600,000 and downstream costs of $150,000. Life-cycle revenue is $1,000,000. What is its life-cycle profit?
+A.	$150,000
+B.	$250,000
+C.	$300,000
+D.	$400,000
+P214-02  Life-cycle costing is most useful for:
+A.	valuing inventory under GAAP
+B.	computing the overhead rate
+C.	deciding whether to launch and how to design a product
+D.	recording payroll
+P214-03  A product is expected to sell 50,000 units over three years. Distribution costs $0.40 a unit and customer service $0.10 a unit. Marketing is $60,000. What are the downstream costs?
+A.	$20,000
+B.	$25,000
+C.	$60,000
+D.	$85,000
+P214-04  Why can a yearly product report make a new product look worse than it is?
+A.	It includes all upstream costs every year
+B.	It excludes manufacturing costs
+C.	It uses life-cycle revenue
+D.	It shows launch costs in early years and ignores later profits
+P214-05  Value chain analysis is:
+A.	a way to value inventory
+B.	the study of a company's activities to lower cost or add value for customers
+C.	a list of suppliers
+D.	a budgeting method
+P214-06  Which is a support activity?
+A.	Technology development
+B.	Operations
+C.	Service
+D.	Marketing and sales
+P214-07  In value chain analysis, which step comes after assigning costs to activities?
+A.	Identifying the activities
+B.	Choosing a price
+C.	Closing the books
+D.	Identifying the cost drivers of each activity
+P214-08  Orontes agrees with its glass supplier to deliver bottles straight to the filling line. Which step of value chain analysis does this reflect?
+A.	Identifying activities
+B.	Studying the links with suppliers
+C.	Assigning costs
+D.	Choosing cost leadership
+P214-09  Which is an example of differentiation?
+A.	Cutting marketing to the minimum
+B.	Buying the cheapest olives
+C.	Selling traced, cold-pressed oil at a premium
+D.	Paying the lowest wages in the industry
+P214-10  A cost leader's main risk is:
+A.	a rival with even lower costs
+B.	customers who stop paying a premium
+C.	high marketing spending
+D.	too many product lines
+P214-11  A differentiated product sells for $16.00 and costs $14.65. A rival's product sells for $11.50 and costs $11.00. By how much is the first product's margin higher?
+A.	$0.50
+B.	$0.85
+C.	$1.35
+D.	$4.50
+P214-12  Final inspection of bottles is best described as:
+A.	value-added
+B.	an upstream cost
+C.	non-value-added but necessary for now
+D.	a support activity
+P214-13  A line spends $60,000 moving goods, $45,000 on waiting and $35,000 on rework. If all three are removed, what is the annual saving?
+A.	$80,000
+B.	$95,000
+C.	$105,000
+D.	$140,000
+P214-14  How does removing non-value-added activities improve performance?
+A.	It raises prices
+B.	It increases inventory
+C.	It changes the accounting method
+D.	It lowers cost without reducing what customers value
+P214-15  Costs that are fixed by a design decision but not yet spent are called:
+A.	sunk costs
+B.	committed (locked-in) costs
+C.	variable costs
+D.	incurred costs
+P214-16  Why should value chain analysis look beyond the company's own activities?
+A.	GAAP requires it
+B.	Suppliers' costs are part of Orontes's overhead
+C.	Many savings come from the links with suppliers and customers
+D.	It replaces life-cycle costing
+Case question: a sugar-free juice
+The Beverages division has developed a sugar-free juice for hotels and gyms. Before launch it spent money on research and recipe development, and it expects to sell the juice for four years before a new product replaces it.
+The product manager, Layla, has prepared a four-year plan. It shows the cases she expects to sell, the price, the manufacturing costs and a heavy marketing budget in the first year. Every case also has a distribution cost. The plan assumes that the price and the cost rates stay the same in all four years.
+The finance director is worried. In the first year the juice will lose money, and she asks whether the division should launch it at all. Layla argues that the juice should be judged on its whole life, not on its first year.
+You are asked to prepare the life-cycle analysis. The division manager wants the downstream costs, the manufacturing costs and the profit over the four years, together with the first-year result. He also wants to know at which stage the division has the best chance to reduce the product's total cost.
+Use Figure F214-15 for items C214-1 to C214-7.
+How to enter answers: Enter amounts in whole U.S. dollars without the $ sign or commas; enter a loss with a minus sign (for example, -1500).
+Figure F214-15. Case exhibit: sugar-free juice plan
+Sugar-free juice (whole USD)
+Year 1
+Year 2
+Year 3
+Year 4
+Cases sold
+100,000
+200,000
+200,000
+100,000
+Marketing
+300,000
+100,000
+100,000
+100,000
+Price per case
+$9.00
+Variable manufacturing cost per case
+$5.50
+Fixed manufacturing cost per year
+120,000
+Distribution per case
+$0.60
+Research and recipe development (before launch)
+180,000
+C214-1  Place each cost in its life-cycle stage. (On the exam screen you would drag each item into a box.)
+Categories: Upstream · Manufacturing · Downstream
+Cost
+Category
+Recipe research
+Taste testing before launch
+Bottles and juice concentrate
+Depreciation of the filling line
+Launch advertising
+Delivery to hotels
+Customer complaints line
+C214-2  Enter the total downstream costs over the four years.
+Answer: ____________
+C214-3  Enter the total manufacturing costs over the four years.
+Answer: ____________
+C214-4  Enter the life-cycle profit of the juice.
+Answer: ____________
+C214-5  Enter the profit of year 1 on a yearly report (excluding research and development).
+Answer: ____________
+C214-6  The division has the best chance to reduce the juice's total cost: [select]
+Options: at the design stage, before costs are committed   |   in year 1, by cutting advertising   |   in year 4, by cutting service   |   after the product is withdrawn
+C214-7  In Porter's value chain, procurement and technology development are ____ activities.
+Choose the word or phrase for the blank: support   |   primary   |   downstream   |   upstream
+Answers and explanations
+Section checks
+SC214-1  Answer B. Upstream costs come before production.
+A is wrong. Delivery is downstream.
+C is wrong. Service is downstream.
+D is wrong. Production labor is a manufacturing cost.
+SC214-2  Answer D. Add all three stages.
+A is wrong. Only manufacturing is counted.
+B is wrong. Downstream costs are left out.
+C is wrong. Upstream costs are left out.
+SC214-3  Answer D. Design decisions lock in future costs.
+A is wrong. Little has been spent at that point.
+B is wrong. Design decisions commit most costs.
+C is wrong. Nothing is written off.
+SC214-4  Answer A. Once the design is fixed, most costs are locked in.
+B is wrong. Costs are committed, not incurred, at design.
+C is wrong. It is a management choice.
+D is wrong. Downstream costs exist later.
+SC214-5  Answer C. Outbound logistics moves the product to customers.
+A is wrong. Procurement is a support activity.
+B is wrong. HR is a support activity.
+D is wrong. Technology development is a support activity.
+SC214-6  Answer A. Buying inputs is procurement; receiving and storing them is inbound logistics.
+B is wrong. Inbound logistics receives and stores inputs; buying is procurement.
+C is wrong. Operations turns inputs into products.
+D is wrong. Service supports customers after the sale.
+SC214-7  Answer D. Costs and drivers can only be assigned once the activities are known.
+A is wrong. That is the last step.
+B is wrong. That comes after costs and drivers.
+C is wrong. Strategy is informed by the analysis.
+SC214-8  Answer B. Price $16.00 − total cost $14.65.
+A is wrong. This is the competitor's margin.
+C is wrong. This is the price premium, not the margin.
+D is wrong. This is the total cost.
+SC214-9  Answer A. Cost leadership means doing activities more cheaply than rivals.
+B is wrong. Differentiation competes on value customers pay for.
+C is wrong. That is one form of differentiation.
+D is wrong. That is a costing method, not a strategy.
+SC214-10  Answer C. Differentiation must earn more than it costs.
+A is wrong. That is cost leadership.
+B is wrong. Orontes spends more on marketing on purpose.
+D is wrong. Volume is not the test.
+SC214-11  Answer B. Customers would not pay for the move.
+A is wrong. It adds cost, not value.
+C is wrong. It is not a support activity.
+D is wrong. It happens during production.
+SC214-12  Answer A. Moving, waiting and rework.
+B is wrong. This includes the necessary inspection.
+C is wrong. This is the value-added cost.
+D is wrong. This is the total cost.
+SC214-13  Answer B. Launch marketing makes the first year a loss.
+A is wrong. This is the cumulative result including upstream costs.
+C is wrong. This is the life-cycle profit.
+D is wrong. This is revenue.
+SC214-14  Answer A. The product earns $382,000 over its whole life.
+B is wrong. The loss is real.
+C is wrong. Upstream costs are included.
+D is wrong. One year does not decide.
+Your turn
+Item
+Answer
+Distribution
+510,000 trays × $0.50 = $255,000
+Customer service
+510,000 trays × $0.10 = $51,000
+Multiple-choice questions
+P214-01  Answer A. Revenue minus all three stages.
+B is wrong. Upstream costs are left out.
+C is wrong. Downstream costs are left out.
+D is wrong. Only manufacturing is deducted.
+P214-02  Answer C. It looks at the whole life of the product.
+A is wrong. GAAP inventory excludes upstream and downstream costs.
+B is wrong. That is a different tool.
+D is wrong. That is a transaction.
+P214-03  Answer D. $20,000 + $5,000 + $60,000.
+A is wrong. This is distribution only.
+B is wrong. Marketing is left out.
+C is wrong. Distribution and service are left out.
+P214-04  Answer D. Early years carry launch costs; profits come later.
+A is wrong. Upstream costs are often not in the yearly report at all.
+B is wrong. Manufacturing costs are included.
+C is wrong. It uses one year's revenue.
+P214-05  Answer B. It looks at each activity and its cost and value.
+A is wrong. It is not an inventory method.
+C is wrong. Suppliers are only one link.
+D is wrong. It is a strategic analysis.
+P214-06  Answer A. It supports every primary activity.
+B is wrong. Operations is primary.
+C is wrong. Service is primary.
+D is wrong. Marketing and sales is primary.
+P214-07  Answer D. Drivers explain why each activity costs what it does.
+A is wrong. That comes first.
+B is wrong. Pricing is not a step.
+C is wrong. Closing is not a step.
+P214-08  Answer B. It improves a link between two value chains.
+A is wrong. The activities are already known.
+C is wrong. It changes an activity, not its cost assignment.
+D is wrong. It is not a strategy choice.
+P214-09  Answer C. Customers pay more for a valued difference.
+A is wrong. That supports cost leadership.
+B is wrong. That supports cost leadership.
+D is wrong. That supports cost leadership.
+P214-10  Answer A. Its advantage is only cost.
+B is wrong. That is the risk of differentiation.
+C is wrong. A cost leader spends little on marketing.
+D is wrong. That is not the main risk.
+P214-11  Answer B. $1.35 − $0.50.
+A is wrong. This is the rival's margin.
+C is wrong. This is the first product's margin only.
+D is wrong. This is the price premium.
+P214-12  Answer C. It prevents defects reaching customers but adds no value itself.
+A is wrong. Customers do not pay for inspection.
+B is wrong. It happens during production.
+D is wrong. It is part of operations.
+P214-13  Answer D. The three non-value-added costs.
+A is wrong. Waiting is left out.
+B is wrong. Moving is left out.
+C is wrong. Rework is left out.
+P214-14  Answer D. Customers get the same value at lower cost.
+A is wrong. Prices need not change.
+B is wrong. Inventory usually falls.
+C is wrong. No accounting change is needed.
+P214-15  Answer B. The decision has already made them unavoidable.
+A is wrong. Sunk costs were already spent.
+C is wrong. Behavior is a different idea.
+D is wrong. They have not been spent yet.
+P214-16  Answer C. Changes at the links can lower cost for both sides.
+A is wrong. It is a management tool.
+B is wrong. Suppliers' costs are not Orontes's overhead.
+D is wrong. The two tools answer different questions.
+Case question: a sugar-free juice
+C214-1
+Cost
+Category
+Recipe research
+Upstream
+Taste testing before launch
+Upstream
+Bottles and juice concentrate
+Manufacturing
+Depreciation of the filling line
+Manufacturing
+Launch advertising
+Downstream
+Delivery to hotels
+Downstream
+Customer complaints line
+Downstream
+Upstream costs come before production; manufacturing costs make the product; downstream costs come after production.
+C214-2  Answer: 960,000.
+600,000 is wrong: this answer leaves out distribution.
+C214-3  Answer: 3,780,000.
+3,300,000 is wrong: this answer leaves out the fixed manufacturing costs.
+C214-4  Answer: 480,000.
+660,000 is wrong: this answer leaves out the research and development costs.
+C214-5  Answer: (130,000).
+(310,000) is wrong: this answer charges all research costs to year 1.
+C214-6  Answer: at the design stage, before costs are committed.
+in year 1, by cutting advertising is wrong: this answer most costs are already committed by then.
+in year 4, by cutting service is wrong: this answer little cost is still open to change.
+after the product is withdrawn is wrong: this answer all costs have been incurred.
+C214-7  Answer: support.
+primary is wrong: this answer they support the primary activities.
+downstream is wrong: this answer downstream is a life-cycle stage, not a value-chain group.
+upstream is wrong: this answer upstream is a life-cycle stage, not a value-chain group.
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

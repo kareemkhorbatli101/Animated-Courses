@@ -1,0 +1,824 @@
+Chapter 17
+Supply Chain Management: Lean, MRP, JIT, ERP and Outsourcing
+إدارة سلسلة الإمداد: الإدارة الرشيقة وتخطيط الاحتياجات والتوقيت المحدد وتخطيط موارد المؤسسة والاستعانة بمصادر خارجية
+The Beverages division keeps a month of empty bottles in a rented store, while its supplier, Jordan Glass, is twenty minutes away. The Oils division has been offered a lower price to bottle its olive oil outside. This chapter looks at how Orontes manages the flow of materials, and how to put a price on each change.
+Figure F217-01 shows the chain the chapter follows.
+Figure F217-01. Chapter 17 roadmap: suppliers, Orontes, customers.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.4.a
+explain supply chain management
+Explain supply chain management.
+Full treatment
+D.4.b
+define lean resource management techniques
+Define lean resource management techniques.
+Full treatment
+D.4.c
+identify and describe the operational benefits of implementing lean resource management techniques
+Describe the operational benefits of lean resource management.
+Full treatment
+D.4.d
+define material requirements planning (MRP)
+Define material requirements planning (MRP).
+Full treatment
+D.4.e
+identify and describe the operational benefits of implementing a just-in-time (JIT) system
+Describe the operational benefits of a just-in-time (JIT) system.
+Full treatment + Extended Example
+D.4.f
+identify and describe the operational benefits of ERP
+Describe the operational benefits of ERP.
+Full treatment
+D.4.g
+explain the concept of outsourcing and identify the benefits and limitations of choosing this option
+Explain outsourcing and its benefits and limitations.
+Full treatment
+D.4.j
+calculate the financial impact of implementing the above-mentioned methods
+Calculate the financial impact of these methods.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+supply chain management
+إدارة سلسلة الإمداد
+gestion de la chaîne logistique
+lean resource management
+الإدارة الرشيقة للموارد
+gestion allégée des ressources (lean)
+kanban
+كانبان
+kanban
+material requirements planning (MRP)
+تخطيط الاحتياجات من المواد
+planification des besoins en composants (MRP)
+master production schedule
+جدول الإنتاج الرئيسي
+programme directeur de production
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+pull system
+نظام السحب
+système à flux tirés
+push system
+نظام الدفع
+système à flux poussés
+enterprise resource planning (ERP)
+تخطيط موارد المؤسسة
+progiciel de gestion intégré (PGI/ERP)
+outsourcing
+الاستعانة بمصادر خارجية
+externalisation (sous-traitance)
+backflush costing
+تكاليف التدفق العكسي
+comptabilisation à rebours (backflush)
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 14 looked at the value chain inside one company, and Chapters 15 and 16 removed waste from processes. This chapter follows materials across companies and uses relevant costs, as in make-or-buy decisions.
+17.1  Supply chain management
+A supply chain links every company that helps a product reach the final consumer: suppliers, manufacturers, distributors, retailers and customers. Supply chain management coordinates the flows of goods, information and money along the whole chain.
+Figure F217-02 shows the Tahini & Spreads chain. Goods move toward consumers; orders, forecasts and payments move back. The aim is the right product, in the right place, at the right time and the lowest total cost.
+Figure F217-02. The Tahini & Spreads supply chain.
+Supply chain management is more than purchasing. When partners share sales data, small changes in consumer demand no longer grow into large swings in orders further up the chain, and every partner needs less stock.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+supply chain management
+إدارة سلسلة الإمداد
+gestion de la chaîne logistique
+English (exam term)
+العربية
+Français
+supply chain management
+إدارة سلسلة الإمداد
+gestion de la chaîne logistique
+SECTION CHECK   Test yourself
+SC217-1  Supply chain management coordinates:
+A.	the flows of goods, information and money from suppliers to final customers
+B.	purchasing only
+C.	the company's internal accounting
+D.	the marketing budget
+SC217-2  Levant shares daily shop sales with Tahini & Spreads. What is the main supply-chain benefit?
+A.	Higher prices for consumers
+B.	Tahini's overhead rate falls
+C.	Tahini can plan from real demand, so both companies need less stock
+D.	Levant pays Tahini sooner
+Answers and explanations are at the end of the chapter.
+17.2  Lean resource management
+Lean resource management delivers value to customers with the least waste of time, materials, space and effort. It starts by seeing waste. Figure F217-03 lists the eight common wastes with an example from Orontes.
+Figure F217-03. The eight wastes of lean, with Orontes examples
+Waste
+Orontes example
+Overproduction
+Making juice before orders exist
+Waiting
+Filling line idle during long changeovers
+Transport
+Moving pallets between two buildings
+Over-processing
+Checking every invoice twice
+Inventory
+A month of bottles in a rented store
+Motion
+Staff walking to fetch caps
+Defects
+Under-filled jars, re-filtering
+Unused skills
+Ignoring line workers' improvement ideas
+Lean uses simple techniques to remove waste: tidy work areas, kanban signals that pull materials only when needed, quick changeovers, error-proofing and maps of each value stream. Figure F217-04 pairs each technique with its benefit.
+Figure F217-04. Lean techniques and their operational benefits
+Lean technique
+What it does
+Operational benefit
+5S (sort, set, shine, standardize, sustain)
+Tidy, organized work areas
+Less searching and motion
+Kanban
+Signals pull materials when needed
+Less inventory
+Quick changeover
+Shorter setups (Chapter 16)
+Smaller batches, less waiting
+Error-proofing
+Devices that stop mistakes
+Fewer defects
+Value stream mapping
+Map of every step and wait
+Shows where waste is
+The operational benefits follow: less inventory and space, shorter lead times, fewer defects and more capacity from the same line. Lean is not simple cost cutting; it removes activities customers do not value while protecting those they do.
+At Orontes, lean started with a value stream map of the Beverages line. It showed that a bottle spent weeks in storage and minutes in production. Kanban signals from the filling line to the store, and later to Jordan Glass, cut that waiting time and the space it needed.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+lean resource management
+الإدارة الرشيقة للموارد
+gestion allégée des ressources (lean)
+kanban
+كانبان
+kanban
+English (exam term)
+العربية
+Français
+lean resource management
+الإدارة الرشيقة للموارد
+gestion allégée des ressources (lean)
+kanban
+كانبان
+kanban
+SECTION CHECK   Test yourself
+SC217-3  Keeping a month of empty bottles in a rented store is which lean waste?
+A.	Motion
+B.	Defects
+C.	Unused skills
+D.	Inventory
+SC217-4  Which is an operational benefit of lean resource management?
+A.	Higher selling prices
+B.	Shorter lead times and less inventory
+C.	More layers of inspection
+D.	Larger batches
+Answers and explanations are at the end of the chapter.
+17.3  Material requirements planning
+Material requirements planning (MRP) calculates which materials are needed, how many, and when to order them. It uses three inputs: the master production schedule, the bill of materials, and the stock records. Figure F217-05 shows the logic.
+Figure F217-05. How MRP works: inputs and outputs.
+WORKED EXAMPLE   Worked example: bottles for week 1
+Beverages plans 18,000 cases in week 1, or 216,000 bottles. It has 60,000 bottles, must keep 20,000 as safety stock, and expects 150,000 from an open order. Net need: 216,000 − 150,000 − 40,000 = 26,000 bottles, ordered one week ahead.
+YOUR TURN   Bottles for weeks 3 and 4
+Figure F217-06 continues the plan. No stock or receipts remain after week 1. Complete the two blank cells. Answers are at the end of the chapter.
+Figure F217-06. Your turn: net bottle requirements (complete the blanks)
+Bottles for juice
+Week 1
+Week 2
+Week 3
+Week 4
+Cases planned
+18,000
+20,000
+22,000
+20,000
+Gross bottles (× 12)
+216,000
+240,000
+264,000
+240,000
+Scheduled receipts
+(150,000)
+—
+—
+—
+Stock above safety stock
+(40,000)
+—
+—
+—
+Net bottles needed
+26,000
+240,000
+________
+________
+Release the order in
+week 0
+week 1
+week 2
+week 3
+MRP is a push system: it plans purchases from a forecast schedule and pushes materials into production. It works well for planned production, but a wrong forecast leaves the company with too much or too little stock.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+material requirements planning (MRP)
+تخطيط الاحتياجات من المواد
+planification des besoins en composants (MRP)
+master production schedule
+جدول الإنتاج الرئيسي
+programme directeur de production
+push system
+نظام الدفع
+système à flux poussés
+English (exam term)
+العربية
+Français
+material requirements planning (MRP)
+تخطيط الاحتياجات من المواد
+planification des besoins en composants (MRP)
+master production schedule
+جدول الإنتاج الرئيسي
+programme directeur de production
+push system
+نظام الدفع
+système à flux poussés
+SECTION CHECK   Test yourself
+SC217-5  Which is NOT an input to MRP?
+A.	The master production schedule
+B.	The bill of materials
+C.	The customer's credit rating
+D.	Stock records
+SC217-6  Gross needs are 216,000 bottles. Stock on hand is 60,000, safety stock 20,000, and 150,000 are due to arrive. What are the net needs?
+A.	6,000
+B.	26,000
+C.	46,000
+D.	66,000
+Answers and explanations are at the end of the chapter.
+17.4  Just-in-time systems
+Just-in-time (JIT) is a pull system. Materials arrive and products are made only when the next step, or the customer, asks for them. Figure F217-07 compares push and pull.
+Figure F217-07. Push and pull systems compared.
+JIT needs reliable suppliers, short setups and good quality, because there is almost no stock to hide problems. Figure F217-08 lists the operational benefits for the Beverages division.
+Figure F217-08. Operational benefits of JIT for the Beverages division
+JIT benefit
+Beverages example
+Lower inventory
+Bottle stock falls from a month to a day
+Less space
+The rented bottle store is given up
+Faster response
+Production follows actual orders
+Higher quality
+Problems show quickly, before large stocks are made
+Closer suppliers
+Daily deliveries need a reliable partner (Jordan Glass)
+WHAT YOU ALREADY KNOW   Backflush costing
+With JIT, work in process is small, so some companies use backflush costing: they record costs only at a few trigger points, such as completion or sale. Under U.S. GAAP this is acceptable only when the result is close to what full costing would give (ASC 330).
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+pull system
+نظام السحب
+système à flux tirés
+backflush costing
+تكاليف التدفق العكسي
+comptabilisation à rebours (backflush)
+English (exam term)
+العربية
+Français
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+pull system
+نظام السحب
+système à flux tirés
+backflush costing
+تكاليف التدفق العكسي
+comptabilisation à rebours (backflush)
+SECTION CHECK   Test yourself
+SC217-7  In a JIT system, production starts when:
+A.	the forecast says so
+B.	the next step or the customer asks for the product
+C.	the warehouse is empty
+D.	the month ends
+SC217-8  Why does JIT need reliable suppliers and good quality?
+A.	Because there is almost no stock to cover late or faulty deliveries
+B.	Because JIT uses more safety stock
+C.	Because JIT is required by GAAP
+D.	Because JIT uses forecasts
+Answers and explanations are at the end of the chapter.
+17.5  Enterprise resource planning
+Enterprise resource planning (ERP) is an integrated system in which sales, purchasing, production, inventory, accounting and human resources all work from one shared database. Figure F217-09 shows the idea.
+Figure F217-09. ERP: every function works from one shared database.
+Because data is entered once, the copying and re-typing removed in Chapter 15 disappear across the company. Managers see stock, orders and costs as they change, and MRP runs on live data instead of last month's reports.
+Figure F217-10 lists the main operational benefits. ERP is not only an accounting system: its value comes from linking every function through the same processes and data.
+Figure F217-10. Operational benefits of ERP
+Operational benefit of ERP
+Example
+Data entered once
+No copying of orders (Chapter 15)
+Real-time information
+Managers see stock, orders and costs as they change
+Integrated planning
+MRP uses live sales and stock data
+Faster period-end close
+Fewer reconciliations between departments
+Better control
+Standard processes and a full record of who did what
+FALSE-FRIEND ALERT   PGI, تخطيط موارد المؤسسة
+French often says 'progiciel de gestion intégré (PGI)' for ERP. The Arabic تخطيط موارد المؤسسة translates the English name; both mean the integrated system, not only planning.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+enterprise resource planning (ERP)
+تخطيط موارد المؤسسة
+progiciel de gestion intégré (PGI/ERP)
+English (exam term)
+العربية
+Français
+enterprise resource planning (ERP)
+تخطيط موارد المؤسسة
+progiciel de gestion intégré (PGI/ERP)
+SECTION CHECK   Test yourself
+SC217-9  The key feature of ERP is:
+A.	a separate system for each department
+B.	one shared database used by every function
+C.	an accounting system only
+D.	a planning spreadsheet
+SC217-10  After ERP, a Levant order entered by the customer updates stock, production plans and receivables at once. Which benefit is this?
+A.	Lower tax
+B.	More inventory
+C.	Longer close
+D.	Data entered once and shared in real time
+Answers and explanations are at the end of the chapter.
+17.6  Outsourcing
+Outsourcing means buying from an outside supplier something the company used to do itself. Figure F217-11 lists its benefits and limitations.
+Figure F217-11. Benefits and limitations of outsourcing
+Benefits
+Limitations
+Lower cost when the supplier has scale
+Loss of control over quality and timing
+Focus on core activities
+Dependence on one supplier
+Access to skills and technology
+Confidential know-how may leak
+Fixed costs become variable
+Hidden costs: contracts, monitoring, transport
+The financial test compares the supplier's price with the costs that would really disappear, not with the full cost. Allocated plant overhead and depreciation on equipment that cannot be sold stay whether or not the work is outsourced.
+WORKED EXAMPLE   Worked example: printing labels
+Beverages prints its own labels at a full cost of $265,000, of which $225,000 is avoidable. A printer offers the labels for $200,000, and the freed room can be rented for $12,000. Figure F217-12 shows that buying saves $37,000 a year.
+Figure F217-12. Worked example: print labels in-house or buy them?
+Labels, yearly (whole USD)
+Cost
+Avoidable?
+Label stock and ink
+90,000
+Yes
+Printing staff
+60,000
+Yes
+Variable overhead
+20,000
+Yes
+Printer lease (can be cancelled)
+25,000
+Yes
+Print-room supervisor (can be moved)
+30,000
+Yes
+Allocated plant overhead
+40,000
+No
+Avoidable cost of printing in-house
+225,000
+Supplier's price
+200,000
+Rent from the freed print room
+(12,000)
+Advantage of buying
+37,000
+The numbers are only half of the decision. Labels are not a core skill, and several printers can supply them, so the risks are small. For a core activity with one possible supplier, the same saving might not be worth the loss of control.
+EXAM TRAP   Full cost is not avoidable cost
+If an exam answer compares the supplier's price with the full cost, it counts costs that will not disappear. Compare with the avoidable cost, and add any income from freed resources.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+outsourcing
+الاستعانة بمصادر خارجية
+externalisation (sous-traitance)
+English (exam term)
+العربية
+Français
+outsourcing
+الاستعانة بمصادر خارجية
+externalisation (sous-traitance)
+SECTION CHECK   Test yourself
+SC217-11  Which is a limitation of outsourcing?
+A.	Loss of control over quality and timing
+B.	Focus on core activities
+C.	Access to specialist skills
+D.	Fixed costs become variable
+SC217-12  Printing labels in-house has avoidable costs of $225,000. A printer charges $200,000, and the freed room can be rented for $12,000. What is the advantage of buying?
+A.	$13,000
+B.	$25,000
+C.	$37,000
+D.	$77,000
+Answers and explanations are at the end of the chapter.
+17.7  Extended Example 17A: JIT bottles from Jordan Glass
+This example measures the financial impact of moving bottle supply from monthly to daily deliveries. It is exam-core.
+1. Scenario
+Now: monthly deliveries; average bottle inventory $120,000; a rented store at $30,000 a year.
+JIT: daily deliveries; average inventory $10,000; an extra delivery charge of $24,000 and extra handling of $6,000 a year.
+Carrying cost: 20% of the average inventory a year.
+2. Financial impact
+Figure F217-13 compares the two ways of working. The yearly cost falls from $62,000 to $33,000, a saving of $29,000 after the extra delivery and handling costs. The lower inventory also releases $110,000 of cash once.
+Figure F217-13. Extended Example: the financial impact of JIT bottle deliveries
+Beverages bottles (whole USD)
+Monthly deliveries
+JIT daily deliveries
+Average bottle inventory
+120,000
+10,000
+Carrying cost (20% of average inventory)
+24,000
+2,000
+Rent of the bottle store
+30,000
+—
+Damage and breakage
+8,000
+1,000
+Extra delivery charge
+—
+24,000
+Extra receiving and handling
+—
+6,000
+Yearly cost
+62,000
+33,000
+Yearly saving
+29,000
+Cash released once from lower inventory
+110,000
+3. Decision
+The saving is real but depends on Jordan Glass delivering every day. Orontes owns part of Jordan Glass, which makes the link closer, but the division still keeps a small safety stock for breakdowns.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Carrying cost now: $120,000 × 20% = $24,000; under JIT: $2,000.
+Yearly saving $29,000 = $62,000 − $33,000; cash released $110,000 = $120,000 − $10,000.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+supply chain management
+إدارة سلسلة الإمداد
+gestion de la chaîne logistique
+outsourcing
+الاستعانة بمصادر خارجية
+externalisation (sous-traitance)
+English (exam term)
+العربية
+Français
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+supply chain management
+إدارة سلسلة الإمداد
+gestion de la chaîne logistique
+outsourcing
+الاستعانة بمصادر خارجية
+externalisation (sous-traitance)
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect inventory levels, a carrying-cost rate and the extra costs of the new system. Compute each yearly cost, take the difference, and treat the fall in inventory as a one-time release of cash, not a yearly saving.
+7. Self-check
+SECTION CHECK   Test yourself
+SC217-13  Use the Extended Example. What is the yearly saving from JIT bottle deliveries (whole USD)?
+A.	29,000
+B.	59,000
+C.	62,000
+D.	110,000
+SC217-14  Use the Extended Example. How should the fall in average inventory of $110,000 be treated?
+A.	As a one-time release of cash
+B.	As a yearly saving
+C.	As revenue
+D.	As a loss
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F217-14 brings the chapter together.
+Figure F217-14. Chapter 17 summary map: the key rule for each section.
+Supply chain management coordinates goods, information and money across companies. Lean removes the eight wastes and brings benefits in time, space and quality. MRP plans materials from the production schedule by netting gross needs against stock and receipts. JIT pulls materials only when needed, and ERP links every function through one database. Outsourcing is judged on avoidable cost plus its risks, and every change is valued by its yearly effect and any one-time release of cash.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P217-01  Which is part of Tahini & Spreads's supply chain?
+A.	Its auditors
+B.	Its shareholders
+C.	The tax authority
+D.	Its sesame growers
+P217-02  Lean resource management aims to:
+A.	cut every cost equally
+B.	deliver value to customers with the least waste
+C.	make the largest batches possible
+D.	increase inventory
+P217-03  Staff on the Beverages line walk twenty meters to fetch caps for each run. Which lean waste is this, and which technique addresses it?
+A.	Defects; more inspection
+B.	Motion; 5S and a better layout
+C.	Overproduction; kanban
+D.	Inventory; larger orders
+P217-04  Quick changeovers bring which operational benefit?
+A.	Smaller batches and less waiting
+B.	Larger batches
+C.	More safety stock
+D.	Higher prices
+P217-05  After lean changes, the Beverages line produces the same output in less space with fewer defects. Which statement is correct?
+A.	Lean has only cut costs
+B.	Lean has increased inventory
+C.	Lean has lengthened lead times
+D.	Lean has freed capacity and improved quality
+P217-06  A plan calls for 22,000 cases, each needing 12 bottles. No stock or receipts are available. What are the net bottle needs?
+A.	22,000
+B.	240,000
+C.	264,000
+D.	286,000
+P217-07  MRP is best described as:
+A.	a pull system driven by customer orders
+B.	a push system that plans materials from the production schedule
+C.	a costing method
+D.	a quality program
+P217-08  Which is an operational benefit of JIT?
+A.	Lower inventory and faster response to demand
+B.	More warehouse space needed
+C.	Less need for reliable suppliers
+D.	Longer production runs
+P217-09  A JIT plant records costs only when products are completed and sold. Which method is this?
+A.	Process costing
+B.	Life-cycle costing
+C.	Backflush costing
+D.	Activity-based costing
+P217-10  Which is an operational benefit of ERP?
+A.	Each department keeps its own data
+B.	More copying of orders
+C.	Higher inventory
+D.	Faster period-end close with fewer reconciliations
+P217-11  Before ERP, Tahini's sales, warehouse and accounting teams each typed the same order. What does ERP change?
+A.	Nothing, because ERP is an accounting system
+B.	Only accounting uses the order
+C.	The order is entered once and every function uses it
+D.	The order is typed four times
+P217-12  Outsourcing means:
+A.	moving a department to another city
+B.	selling the company
+C.	hiring temporary staff for one day
+D.	buying from an outside supplier work the company used to do itself
+P217-13  Outsourcing a core activity to the only available supplier saves $20,000 a year. What should management weigh most carefully?
+A.	The risk of depending on one supplier for a core activity
+B.	Nothing; the saving decides
+C.	The tax rate
+D.	The color of the supplier's trucks
+P217-14  Average inventory falls from $120,000 to $10,000. The carrying-cost rate is 20% a year. What is the yearly carrying-cost saving?
+A.	$2,000
+B.	$22,000
+C.	$24,000
+D.	$110,000
+P217-15  JIT saves $59,000 a year in carrying, rent and damage costs but adds $30,000 of delivery and handling costs. What is the net yearly saving?
+A.	$29,000
+B.	$30,000
+C.	$59,000
+D.	$89,000
+P217-16  A part costs $5.00 to make: $3.20 variable and $1.80 allocated fixed overhead that will not change. A supplier offers $4.00. Should the company buy?
+A.	No: making costs $0.80 less than buying, per unit
+B.	Yes: it saves $1.00 a unit
+C.	Yes: it saves $1.80 a unit
+D.	No: making costs $5.00
+Case question: bottling olive oil outside
+The Oils division bottles its extra-virgin olive oil on its own line. A bottling company in Zarqa has offered to do the work for a fixed price per liter, and its sales manager points out that the offer is below the division's own cost per liter. The quote is valid for one month only.
+The division's bottling cost comes from the Chapter 11 costing: bottles and caps, labor, variable overhead, depreciation of the bottling line and a share of plant overhead. The line is old and has no resale value, and the plant overhead would not change if bottling stopped.
+The Oils manager is tempted by the offer. He also worries about quality, because the oil is sold as a premium product under the Orontes brand, and about depending on one outside company for every bottle the division sells.
+The controller, Omar, must prepare the analysis for the division manager. He needs the avoidable cost of bottling, the cost of buying, and the yearly advantage of the better option, together with the main risk that the numbers do not show.
+Use Figure F217-15 for items C217-1 to C217-7.
+How to enter answers: Enter yearly amounts in whole U.S. dollars and per-liter amounts to two decimals, without the $ sign or commas; enter a disadvantage with a minus sign (for example, -1500).
+Figure F217-15. Case exhibit: the cost of bottling EVOO and the bottler's quote
+Oils: bottling EVOO, 2027
+Per liter
+Bottles and caps
+$1.50
+Bottling labor
+$0.90
+Variable overhead
+$0.40
+Depreciation of the bottling line (no resale value)
+$0.50
+Allocated plant overhead
+$0.30
+Bottling cost per liter (Chapter 11)
+$3.60
+Bottler's quote per liter
+$3.20
+Liters bottled per year
+150,000
+C217-1  Classify each bottling cost. (On the exam screen you would drag each item into a box.)
+Categories: Avoidable · Not avoidable
+Bottling cost
+Category
+Bottles and caps
+Bottling labor
+Variable overhead
+Depreciation of the bottling line
+Allocated plant overhead
+C217-2  Enter the avoidable cost of bottling per liter.
+Answer: ____________
+C217-3  Enter the yearly avoidable cost of bottling in-house.
+Answer: ____________
+C217-4  Enter the yearly cost of buying the bottling service.
+Answer: ____________
+C217-5  Enter the yearly advantage of keeping bottling in-house (enter a negative number if buying is better).
+Answer: ____________
+C217-6  The most important risk that the numbers do not show is: [select]
+Options: loss of control over the quality of a premium product   |   a higher tax rate   |   an increase in plant overhead   |   the old line's depreciation
+C217-7  In a pull system, a card or signal that tells the previous step to produce or deliver more is called a ____.
+Choose the word or phrase for the blank: kanban   |   kaizen   |   bill of materials   |   backflush
+Answers and explanations
+Section checks
+SC217-1  Answer A. It covers the whole chain and all three flows.
+B is wrong. Purchasing is only one part.
+C is wrong. It is wider than accounting.
+D is wrong. It is not a budget.
+SC217-2  Answer C. Shared data stops small demand changes from becoming large swings in orders.
+A is wrong. Prices are not the aim.
+B is wrong. The overhead rate is not affected directly.
+D is wrong. Payment terms are a separate matter.
+SC217-3  Answer D. Stock beyond what is needed is waste.
+A is wrong. Motion is unnecessary movement by people.
+B is wrong. No defect is involved.
+C is wrong. Unrelated.
+SC217-4  Answer B. Removing waste shortens flow and frees stock.
+A is wrong. Lean is about waste, not prices.
+C is wrong. Lean builds quality in rather than adding inspection.
+D is wrong. Lean favours smaller batches.
+SC217-5  Answer C. MRP plans materials, not credit.
+A is wrong. It is the main input.
+B is wrong. It gives materials per unit.
+D is wrong. It gives stock on hand and on order.
+SC217-6  Answer B. Gross − receipts − (on hand − safety stock).
+A is wrong. Safety stock is used up.
+C is wrong. Safety stock is added twice.
+D is wrong. Stock on hand is ignored.
+SC217-7  Answer B. JIT is a pull system.
+A is wrong. That is a push system such as MRP.
+C is wrong. JIT keeps almost no warehouse stock.
+D is wrong. Timing follows demand.
+SC217-8  Answer A. Problems stop production at once.
+B is wrong. JIT uses very little stock.
+C is wrong. It is a management choice.
+D is wrong. JIT follows actual demand.
+SC217-9  Answer B. Integration through shared data is the point.
+A is wrong. That is what ERP replaces.
+C is wrong. ERP covers every function.
+D is wrong. ERP is an integrated system.
+SC217-10  Answer D. One entry updates every function.
+A is wrong. Unrelated.
+B is wrong. Inventory usually falls.
+C is wrong. The close gets faster.
+SC217-11  Answer A. The supplier controls the work.
+B is wrong. That is a benefit.
+C is wrong. That is a benefit.
+D is wrong. That is a benefit.
+SC217-12  Answer C. Avoidable cost − price + rent.
+A is wrong. The rent is deducted instead of added.
+B is wrong. The rent is left out.
+D is wrong. This uses the full cost of $265,000.
+SC217-13  Answer A. Old yearly cost − new yearly cost.
+B is wrong. The extra delivery and handling costs are not deducted.
+C is wrong. This is the old yearly cost.
+D is wrong. This is the one-time cash released.
+SC217-14  Answer A. The stock falls once; the carrying cost saving is the yearly effect.
+B is wrong. It happens only once.
+C is wrong. No sale is made.
+D is wrong. Cash is freed, not lost.
+Your turn
+Item
+Answer
+Week 3 net bottles
+22,000 cases × 12 = 264,000
+Week 4 net bottles
+20,000 cases × 12 = 240,000
+Multiple-choice questions
+P217-01  Answer D. Suppliers are links in the chain.
+A is wrong. Auditors do not move goods to consumers.
+B is wrong. Shareholders are owners.
+C is wrong. Not a supply-chain partner.
+P217-02  Answer B. Waste, not value, is removed.
+A is wrong. Lean is not simple cost cutting.
+C is wrong. Lean favours small batches.
+D is wrong. Lean lowers inventory.
+P217-03  Answer B. Unneeded movement of people is motion; organizing the area removes it.
+A is wrong. No defect is involved.
+C is wrong. Nothing is made too early.
+D is wrong. Larger orders add inventory waste.
+P217-04  Answer A. Cheap setups make small batches economic.
+B is wrong. The opposite.
+C is wrong. Less stock is needed.
+D is wrong. Unrelated.
+P217-05  Answer D. These are operational benefits, not just cost cuts.
+A is wrong. The benefits go beyond cost.
+B is wrong. Inventory falls.
+C is wrong. Lead times shorten.
+P217-06  Answer C. With nothing available, net needs equal gross needs.
+A is wrong. Cases are not converted to bottles.
+B is wrong. The wrong week's plan is used.
+D is wrong. The multiplication is wrong.
+P217-07  Answer B. It pushes materials based on a forecast plan.
+A is wrong. That describes JIT.
+C is wrong. It plans quantities, not costs.
+D is wrong. Unrelated.
+P217-08  Answer A. Pull production keeps stock low and follows demand.
+B is wrong. Less space is needed.
+C is wrong. Suppliers must be more reliable.
+D is wrong. Runs are shorter.
+P217-09  Answer C. Costs are recorded at a few trigger points.
+A is wrong. Process costing tracks work in process.
+B is wrong. That covers a product's whole life.
+D is wrong. ABC assigns overhead to activities.
+P217-10  Answer D. Shared data removes reconciliations between departments.
+A is wrong. ERP shares one database.
+B is wrong. Data is entered once.
+C is wrong. Better planning lowers stock.
+P217-11  Answer C. One shared database removes duplicate entry.
+A is wrong. ERP integrates every function.
+B is wrong. All functions use the same data.
+D is wrong. Duplicate entry disappears.
+P217-12  Answer D. The work moves to another company.
+A is wrong. That is relocation.
+B is wrong. That is a sale.
+C is wrong. That is temporary staffing.
+P217-13  Answer A. Loss of control can cost more than the saving.
+B is wrong. Qualitative risks matter.
+C is wrong. Tax is not the main issue.
+D is wrong. Irrelevant.
+P217-14  Answer B. The fall in inventory × 20%.
+A is wrong. This is the new carrying cost.
+C is wrong. This is the old carrying cost.
+D is wrong. This is the one-time fall in inventory.
+P217-15  Answer A. Savings minus the extra costs.
+B is wrong. This is the extra cost only.
+C is wrong. The extra costs are not deducted.
+D is wrong. The extra costs are added.
+P217-16  Answer A. Avoidable cost $3.20 < $4.00.
+B is wrong. This compares with full cost.
+C is wrong. Allocated overhead is not avoidable.
+D is wrong. Full cost is not the relevant cost.
+Case question: bottling olive oil outside
+C217-1
+Bottling cost
+Category
+Bottles and caps
+Avoidable
+Bottling labor
+Avoidable
+Variable overhead
+Avoidable
+Depreciation of the bottling line
+Not avoidable
+Allocated plant overhead
+Not avoidable
+A cost is avoidable if it would disappear when the work is outsourced.
+C217-2  Answer: 2.80.
+3.60 is wrong: this answer uses the full cost per liter.
+C217-3  Answer: 420,000.
+540,000 is wrong: this answer uses the full cost.
+C217-4  Answer: 480,000.
+540,000 is wrong: this answer gives the in-house full cost instead.
+C217-5  Answer: 60,000.
+(60,000) is wrong: this answer compares the quote with the full cost, which makes buying look better.
+C217-6  Answer: loss of control over the quality of a premium product.
+a higher tax rate is wrong: this answer tax is not affected by the choice.
+an increase in plant overhead is wrong: this answer plant overhead does not change.
+the old line's depreciation is wrong: this answer depreciation is a sunk cost, not a risk.
+C217-7  Answer: kanban.
+kaizen is wrong: this answer kaizen is continuous improvement.
+bill of materials is wrong: this answer a bill of materials lists the materials per unit.
+backflush is wrong: this answer backflush is a costing method.
+PART III — COSTING SYSTEMS AND BUSINESS PROCESSES

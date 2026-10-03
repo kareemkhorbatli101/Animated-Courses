@@ -1,0 +1,816 @@
+Chapter 10
+Allocating Service Department Costs
+توزيع تكاليف الأقسام الخدمية
+Every month since Chapter 5, each division's overhead has included a line called service department charges. In the Chapter 6 journal, Tahini & Spreads was charged $57,500 for March. Where does that number come from, and is it fair? This chapter answers both questions.
+Figure F210-01 shows the four service departments and the three divisions they support.
+Figure F210-01. Chapter 10 roadmap: four service departments support three divisions.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+D.3.o
+explain why companies allocate the cost of service departments such as human resources or information technology to divisions, departments, or activities
+Explain why service department costs are allocated, the choice of bases, and single, dual and budgeted rates.
+Full treatment
+D.3.p
+calculate service or support department cost allocations using the direct method, the reciprocal method, the step-down method, and the dual allocation method
+Calculate service department cost allocations with the direct, step-down and reciprocal methods.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+service department
+مركز الخدمات
+centre auxiliaire
+production department
+مركز الإنتاج
+centre principal
+direct method
+الطريقة المباشرة
+méthode directe
+step-down method
+طريقة التوزيع التنازلي
+répartition en cascade
+reciprocal method
+طريقة التوزيع التبادلي
+méthode des prestations réciproques
+single-rate method
+طريقة المعدل الواحد
+méthode du taux unique
+dual-rate method
+طريقة المعدل المزدوج
+méthode du double taux
+budgeted rate
+المعدل الموازني
+taux budgété (préétabli)
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 introduced cost pools and allocation bases. Chapter 8 put the divisions' service charges into their fixed overhead. This chapter shows where those charges come from.
+10.1  Why allocate service department costs
+A service department supports other departments but does not make products: at Orontes these are Maintenance, IT, the Quality Lab and HR. A production department works on the products: the Oils, Tahini & Spreads and Beverages divisions.
+Service costs are allocated for three reasons. Products must carry their full cost for inventory and pricing. Users become careful when a service has a price. And managers can compare an internal service with an outside supplier.
+Service departments also serve each other. Figure F210-02 shows the Orontes links: Maintenance gives 20% of its work to IT, and IT gives 20% of its work to Maintenance.
+Figure F210-02. Who serves whom: Maintenance and IT serve each other and the three divisions.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+service department
+مركز الخدمات
+centre auxiliaire
+production department
+مركز الإنتاج
+centre principal
+English (exam term)
+العربية
+Français
+service department
+مركز الخدمات
+centre auxiliaire
+production department
+مركز الإنتاج
+centre principal
+SECTION CHECK   Test yourself
+SC210-1  Which of these is a service department at Orontes?
+A.	Oils
+B.	Tahini & Spreads
+C.	Beverages
+D.	IT
+SC210-2  Which is a reason for allocating service department costs to divisions?
+A.	Products carry full cost and users take care with services that have a price
+B.	It reduces total company cost
+C.	U.S. GAAP forbids service departments
+D.	It removes fixed costs
+Answers and explanations are at the end of the chapter.
+10.2  Choosing allocation bases
+The base should follow cause and effect: the activity that makes the service department spend money. Maintenance is allocated on maintenance hours, the Quality Lab on test hours and HR on headcount.
+Where no causal base exists, managers use benefit received or ability to bear, but these are weaker. Figure F210-03 lists the Orontes bases.
+Figure F210-03. Allocation bases for the four service departments
+Service department
+Allocation base
+Why
+Maintenance
+Share of maintenance hours (long-run plan)
+Hours of work cause the cost
+IT
+Share of systems use
+Users, devices and tickets drive the cost
+Quality Lab
+Test hours at $40 an hour
+Each test uses lab time
+HR
+Headcount at $200 a person
+Hiring, payroll and training follow people
+Quality Lab and HR serve only the divisions, so their costs go straight to them: $400,000 at $40 a test hour and $312,000 at $200 a person. The methods below deal with Maintenance and IT, which serve each other.
+SECTION CHECK   Test yourself
+SC210-3  The best cause-and-effect base for HR costs is:
+A.	sales revenue
+B.	machine hours
+C.	headcount
+D.	square meters
+SC210-4  The Quality Lab charges $40 per test hour. Oils used 5,000 test hours. What is Oils' Quality Lab charge?
+A.	$125
+B.	$160,000
+C.	$200,000
+D.	$400,000
+Answers and explanations are at the end of the chapter.
+10.3  The direct method
+The direct method ignores the services that service departments give each other. Each service department's cost is shared among the production departments only, in proportion to their use.
+It is simple and common, but it is least accurate when service departments serve each other a lot.
+WORKED EXAMPLE   Worked example: the direct method
+Maintenance's shares to the divisions are 50, 20 and 10, a total of 80, so Oils receives 50/80 of $880,000. Figure F210-04 completes the table: Oils $650,000, Tahini $420,000, Beverages $210,000.
+Figure F210-04. Worked example: the direct method
+Division
+Maint share
+Maintenance
+IT share
+IT
+Total
+Oils
+50/80
+550,000
+20/80
+100,000
+650,000
+Tahini & Spreads
+20/80
+220,000
+40/80
+200,000
+420,000
+Beverages
+10/80
+110,000
+20/80
+100,000
+210,000
+Total
+880,000
+400,000
+1,280,000
+The shares are rescaled to the production departments only. Using the original percentages would leave part of the cost unallocated.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct method
+الطريقة المباشرة
+méthode directe
+English (exam term)
+العربية
+Français
+direct method
+الطريقة المباشرة
+méthode directe
+SECTION CHECK   Test yourself
+SC210-5  The direct method:
+A.	allocates in a fixed order
+B.	solves simultaneous equations
+C.	ignores services that service departments give each other
+D.	charges fixed costs on actual use
+SC210-6  Maintenance costs $880,000; its shares are IT 20%, Oils 50%, Tahini 20%, Beverages 10%. Under the direct method, how much goes to Oils?
+A.	$176,000
+B.	$440,000
+C.	$550,000
+D.	$650,000
+Answers and explanations are at the end of the chapter.
+10.4  The step-down method
+The step-down method recognizes some service-to-service links. Service departments are allocated one at a time. A department that has been allocated receives nothing back.
+Start with the department that serves other service departments the most. Orontes starts with Maintenance: $176,000 goes to IT, so IT's pool becomes $576,000. IT is then shared among the divisions only. Figure F210-05 shows both steps.
+Figure F210-05. The step-down method: Maintenance first, then IT
+Step 1 Maintenance, step 2 IT
+Maintenance
+IT pool 576,000
+Division total
+IT (first receives from Maintenance)
+176,000
+—
+Oils
+440,000
+144,000
+584,000
+Tahini & Spreads
+176,000
+288,000
+464,000
+Beverages
+88,000
+144,000
+232,000
+Total
+880,000
+576,000
+1,280,000
+Step-down is Orontes's policy method. It is more accurate than the direct method, but the order matters and the link from IT back to Maintenance is still ignored.
+EXAM TRAP   Use the new pool
+The second department allocates its own cost plus what it received in step 1: $576,000, not $400,000.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+step-down method
+طريقة التوزيع التنازلي
+répartition en cascade
+English (exam term)
+العربية
+Français
+step-down method
+طريقة التوزيع التنازلي
+répartition en cascade
+SECTION CHECK   Test yourself
+SC210-7  Under step-down with Maintenance first, what amount of IT cost is allocated to the divisions?
+A.	$176,000
+B.	$400,000
+C.	$480,000
+D.	$576,000
+SC210-8  In the step-down method, the first department allocated is usually the one that:
+A.	has the lowest cost
+B.	was created first
+C.	serves only production departments
+D.	gives the most service to other service departments
+Answers and explanations are at the end of the chapter.
+10.5  The reciprocal method
+The reciprocal method recognizes all service-to-service links. Write one equation for each service department: its total cost is its own cost plus its share of the other's total.
+Solving the two equations gives Maintenance a total of $1,000,000 and IT $600,000. These totals are larger than the original costs because they include the services exchanged. Each division then takes its share of both totals. Figure F210-06 shows the steps.
+Figure F210-06. The reciprocal method: equations and allocation
+Reciprocal method
+Result
+Maintenance equation
+M = 880,000 + 0.20 I
+IT equation
+I = 400,000 + 0.20 M
+Substitute and solve
+M = 1,000,000; I = 600,000
+Oils: 50% of M + 20% of I
+620,000
+Tahini & Spreads: 20% of M + 40% of I
+440,000
+Beverages: 10% of M + 20% of I
+220,000
+Total to divisions
+1,280,000
+It is the most accurate method but needs algebra, or matrix methods for many departments. Figure F210-07 compares the three methods: the total is the same, only its split changes.
+Figure F210-07. The three methods compared: Maintenance and IT cost allocated to each division.
+FALSE-FRIEND ALERT   Réciproque, المتبادلة
+French 'méthode des prestations réciproques' and Arabic طريقة التوزيع التبادلي both mean the reciprocal method. 'Réciproque' does not mean 'reversed'; it means 'mutual'.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+reciprocal method
+طريقة التوزيع التبادلي
+méthode des prestations réciproques
+English (exam term)
+العربية
+Français
+reciprocal method
+طريقة التوزيع التبادلي
+méthode des prestations réciproques
+SECTION CHECK   Test yourself
+SC210-9  Use Figure F210-06. What is Maintenance's total cost under the reciprocal method?
+A.	$880,000
+B.	$960,000
+C.	$1,000,000
+D.	$1,280,000
+SC210-10  Which method is the most accurate when service departments serve each other?
+A.	Direct
+B.	Step-down
+C.	Reciprocal
+D.	All are equally accurate
+Answers and explanations are at the end of the chapter.
+10.6  Single, dual and budgeted rates
+A single-rate method charges one rate per hour for fixed and variable service costs together. When users need fewer hours than planned, the fixed cost is spread over fewer hours, and one user's change moves cost to the others.
+A dual-rate method charges variable cost on actual use and fixed cost on the capacity each user planned for. Orontes charges Maintenance at a budgeted rate of $40 per hour plus fixed shares of $560,000, so users do not pay for Maintenance's overspending.
+Figure F210-08 compares the two for 2027. The dual rate charged $860,000 and left only the $12,000 spending difference in Maintenance. The single rate left $47,000, which mixes that spending difference with $35,000 of idle capacity.
+Figure F210-08. Maintenance charges: dual rate compared with single rate
+Maintenance: actual cost 872,000
+Dual rate (budgeted)
+Single rate ($110 per hour)
+Fixed Maintenance cost
+on long-run capacity shares: 560,000
+with variable cost at one rate on actual hours
+Variable Maintenance cost
+actual hours × budgeted $40
+included in the single rate
+Amount charged to users
+860,000
+825,000
+Left in Maintenance
+12,000 (spending only)
+47,000 (spending 12,000 + unused capacity 35,000)
+YOUR TURN   Complete the dual-rate charges
+Figure F210-09 shows the dual-rate charges for two users. Complete the other two. Answers are at the end of the chapter.
+Figure F210-09. Your turn: dual-rate Maintenance charges (complete the blanks)
+User
+Actual hours
+Fixed share
+Variable at $40
+Total charge
+IT
+1,500
+112,000
+60,000
+172,000
+Oils
+3,800
+280,000
+152,000
+432,000
+Tahini & Spreads
+1,500
+112,000
+________
+________
+Beverages
+700
+56,000
+________
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+single-rate method
+طريقة المعدل الواحد
+méthode du taux unique
+dual-rate method
+طريقة المعدل المزدوج
+méthode du double taux
+budgeted rate
+المعدل الموازني
+taux budgété (préétabli)
+English (exam term)
+العربية
+Français
+single-rate method
+طريقة المعدل الواحد
+méthode du taux unique
+dual-rate method
+طريقة المعدل المزدوج
+méthode du double taux
+budgeted rate
+المعدل الموازني
+taux budgété (préétabli)
+SECTION CHECK   Test yourself
+SC210-11  Under a dual-rate method:
+A.	all cost is charged on actual use
+B.	all cost is charged on planned capacity
+C.	fixed cost is not allocated
+D.	variable cost is charged on use and fixed cost on planned capacity
+SC210-12  Why does Orontes use budgeted rather than actual service rates?
+A.	So users do not pay for the service department's overspending
+B.	Budgeted rates are always lower
+C.	Actual rates are not allowed
+D.	To hide the service department's costs
+Answers and explanations are at the end of the chapter.
+10.7  Extended Example 10A: Orontes allocates 2027 service costs
+This example allocates all four service departments with the policy methods, records the entries and ties the result to the charges used in earlier chapters. The allocation table is exam-core; the entries are for depth.
+1. Scenario
+Service costs: Maintenance $880,000; IT $400,000; Quality Lab $400,000; HR $312,000; total $1,992,000.
+Policy: step-down for Maintenance then IT; Quality Lab on test hours; HR on headcount.
+2. Plan
+Allocate Maintenance, then the enlarged IT pool, then Quality Lab and HR. Record each step, check that every service account closes, and compare each division's total with its monthly charge.
+3. The allocation
+Figure F210-10 gives the result. Oils receives $888,000, Tahini & Spreads $690,000 and Beverages $414,000. Divided by twelve, these are the monthly service charges used in Chapters 5, 6 and 8.
+Figure F210-10. Extended Example: 2027 service allocation by division
+Division
+Maintenance
+IT
+Quality Lab
+HR
+Year
+Month
+Oils
+440,000
+144,000
+200,000
+104,000
+888,000
+74,000
+Tahini & Spreads
+176,000
+288,000
+104,000
+122,000
+690,000
+57,500
+Beverages
+88,000
+144,000
+96,000
+86,000
+414,000
+34,500
+Total
+704,000
+576,000
+400,000
+312,000
+1,992,000
+4. Recording
+Figure F210-11 records the allocation in five entries: the service costs, then one entry for each service department. The journal totals $4,160,000 on each side.
+Figure F210-11. Extended Example: service allocation journal, 2027
+No.
+Account (detail)
+Debit
+Credit
+①
+Maintenance Department
+880,000
+IT Department
+400,000
+Quality Lab
+400,000
+HR Department
+312,000
+Various accounts
+1,992,000
+②
+IT Department
+176,000
+MOH Control - Oils
+440,000
+MOH Control - Tahini
+176,000
+MOH Control - Beverages
+88,000
+Maintenance Department
+880,000
+③
+MOH Control - Oils
+144,000
+MOH Control - Tahini
+288,000
+MOH Control - Beverages
+144,000
+IT Department
+576,000
+④
+MOH Control - Oils
+200,000
+MOH Control - Tahini
+104,000
+MOH Control - Beverages
+96,000
+Quality Lab
+400,000
+⑤
+MOH Control - Oils
+104,000
+MOH Control - Tahini
+122,000
+MOH Control - Beverages
+86,000
+HR Department
+312,000
+Totals
+4,160,000
+4,160,000
+5. Posting
+Figure F210-12 posts the entries. Every service department account closes to zero, and each division's overhead account holds its share.
+Figure F210-12. Extended Example: service and division overhead accounts after the 2027 allocation.
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Allocated: $888,000 + $690,000 + $414,000 = $1,992,000, all service cost.
+IT pool: $400,000 + $176,000 from Maintenance = $576,000.
+Tahini: $690,000 is twelve months of the charge in the Chapter 6 journal.
+7. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+step-down method
+طريقة التوزيع التنازلي
+répartition en cascade
+reciprocal method
+طريقة التوزيع التبادلي
+méthode des prestations réciproques
+dual-rate method
+طريقة المعدل المزدوج
+méthode du double taux
+English (exam term)
+العربية
+Français
+step-down method
+طريقة التوزيع التنازلي
+répartition en cascade
+reciprocal method
+طريقة التوزيع التبادلي
+méthode des prestations réciproques
+dual-rate method
+طريقة المعدل المزدوج
+méthode du double taux
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect two service and two production departments with percentages. For the direct method, rescale to production departments. For step-down, use the enlarged pool. For the reciprocal method, write the two equations and solve before allocating.
+9. Self-check
+SECTION CHECK   Test yourself
+SC210-13  Use the Extended Example. What is the total 2027 service charge to Oils (whole USD)?
+A.	584,000
+B.	650,000
+C.	784,000
+D.	888,000
+SC210-14  Use the Extended Example. What is Tahini & Spreads' monthly service charge?
+A.	$34,500
+B.	$38,667
+C.	$57,500
+D.	$690,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F210-13 brings the chapter together.
+Figure F210-13. Chapter 10 summary map: the key rule for each section.
+Service department costs are allocated so that products carry full cost and users value the services. Bases should follow cause and effect. The direct method ignores service-to-service links, the step-down method recognizes them in one direction, and the reciprocal method recognizes them all. Budgeted dual rates charge variable cost on use and fixed cost on planned capacity, so users do not pay for the service department's waste or idle capacity.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P210-01  A service department costs $100,000. It serves P1 60%, P2 20% and another service department 20%. Under the direct method, how much goes to P1?
+A.	$60,000
+B.	$75,000
+C.	$80,000
+D.	$100,000
+P210-02  Step-down: S1 ($100,000) is allocated first and gives $20,000 to S2. S2's own cost is $50,000. S2 serves S1 10%, P1 45% and P2 45%. How much of S2 goes to P1?
+A.	$25,000
+B.	$31,500
+C.	$35,000
+D.	$70,000
+P210-03  Under the reciprocal method, each service department's total cost equals:
+A.	its own cost only
+B.	its own cost minus services given
+C.	the average of all service costs
+D.	its own cost plus its share of the other service department's total
+P210-04  A = 84,000 + 0.2B and B = 60,000 + 0.2A. What is A's total cost?
+A.	$84,000
+B.	$96,000
+C.	$100,000
+D.	$144,000
+P210-05  Under a single rate on actual use, one division halves its use of Maintenance. What happens to the others?
+A.	Their charges fall
+B.	Their charges rise because fixed cost is spread over fewer hours
+C.	Nothing changes
+D.	Maintenance's fixed cost disappears
+P210-06  Under a dual-rate method, the variable part is charged on:
+A.	planned capacity
+B.	actual cost
+C.	actual use at a budgeted rate
+D.	sales revenue
+P210-07  Under a dual-rate method, the fixed part is charged on:
+A.	actual use this month
+B.	actual cost
+C.	the capacity each user planned for
+D.	the number of products
+P210-08  Maintenance overspends its budget. With budgeted rates, the overspending:
+A.	stays in Maintenance as a spending variance
+B.	is charged to the divisions
+C.	is added to inventory
+D.	is ignored
+P210-09  In the step-down method, a service department that has already been allocated:
+A.	receives a share of every later department
+B.	is allocated again at the end
+C.	keeps half its cost
+D.	receives no further allocations
+P210-10  Compared across the three methods, the total cost allocated to production departments is:
+A.	highest under the reciprocal method
+B.	the same
+C.	lowest under the direct method
+D.	different each time
+P210-11  Allocating IT costs on each division's sales revenue is an example of:
+A.	a cause-and-effect base
+B.	an ability-to-bear base, which is weaker than cause and effect
+C.	the reciprocal method
+D.	a dual rate
+P210-12  Why can two step-down allocations of the same data give different results?
+A.	Because the order of the service departments is different
+B.	Because the total cost differs
+C.	Because step-down ignores all service links
+D.	Because rates are actual
+P210-13  Allocating IT cost to the divisions also helps managers:
+A.	avoid paying taxes
+B.	remove IT from the budget
+C.	increase sales
+D.	compare the internal cost with an outside supplier
+P210-14  A service department costs $80,000 and serves P1 30%, P2 50% and another service department 20%. Under the direct method, what goes to P1?
+A.	$24,000
+B.	$30,000
+C.	$40,000
+D.	$50,000
+P210-15  A cause-and-effect base for IT support costs is:
+A.	number of users or support tickets
+B.	sales revenue
+C.	square meters of offices
+D.	profit
+P210-16  Under a dual rate, Maintenance's variable rate is $40 per hour. A division used 1,000 hours and its fixed share is $56,000. What is its total charge?
+A.	$40,000
+B.	$56,000
+C.	$96,000
+D.	$110,000
+Case question: Levant Distribution
+Levant Distribution is the Orontes subsidiary that distributes its juices across Jordan. It has two operating departments, Warehouse and Delivery, which serve customers directly. It also has two service departments, Fleet Maintenance and IT, which support the rest of the company.
+The service departments also serve each other. Fleet Maintenance services the vans that the IT team uses to visit the warehouses, and IT runs the maintenance scheduling system. The exhibit shows each service department's cost and the share of its work that goes to every other department.
+Levant's managers earn bonuses on their departments' results after service costs, so the allocation method matters to them. The Warehouse manager says the current method charges her too much, and the Delivery manager says the opposite.
+Nadia, the Levant controller, must compare the direct, step-down and reciprocal methods before the board meeting. She needs the amount each method allocates and a recommendation on the most accurate method for two service departments that serve each other. Last year Levant used the direct method because it was simple, but the board now wants an allocation that reflects how the departments really use each other's services.
+Use Figure F210-14 for items C210-1 to C210-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F210-14. Case exhibit: Levant Distribution service departments
+Levant Distribution · FY2027
+Cost
+To IT
+To Fleet
+To Warehouse
+To Delivery
+Fleet Maintenance (S1)
+216,000
+20%
+—
+40%
+40%
+IT (S2)
+120,000
+—
+20%
+50%
+30%
+C210-1  Classify each Levant department. (On the exam screen you would drag each item into a box.)
+Categories: Service department · Operating department
+Department
+Category
+Fleet Maintenance
+IT
+Warehouse
+Delivery
+Payroll office
+C210-2  Enter the total service cost allocated to Warehouse under the direct method.
+Answer: ____________
+C210-3  Step-down, Fleet Maintenance first. Enter the IT cost to be allocated to the operating departments.
+Answer: ____________
+C210-4  Step-down, Fleet Maintenance first. Enter the total service cost allocated to Delivery.
+Answer: ____________
+C210-5  Reciprocal method. Enter Fleet Maintenance's total cost.
+Answer: ____________
+C210-6  Levant wants the most accurate allocation of the two linked service departments. It should use: [select]
+Options: the reciprocal method   |   the direct method   |   the step-down method   |   an allocation on sales revenue
+C210-7  Under the ____ method, a service department that has been allocated receives no further allocations from later departments.
+Choose the word or phrase for the blank: step-down   |   reciprocal   |   dual-rate   |   single-rate
+Answers and explanations
+Section checks
+SC210-1  Answer D. IT supports others but does not make products.
+A is wrong. Oils makes products.
+B is wrong. Tahini & Spreads makes products.
+C is wrong. Beverages makes products.
+SC210-2  Answer A. Allocation supports full costing and careful use.
+B is wrong. Allocation moves cost; it does not reduce it.
+C is wrong. No such rule exists.
+D is wrong. Fixed costs remain.
+SC210-3  Answer C. Hiring, payroll and training follow people.
+A is wrong. Revenue is an ability-to-bear base.
+B is wrong. Machines do not create HR work.
+D is wrong. Space does not create HR work.
+SC210-4  Answer C. Test hours × rate.
+A is wrong. The division is reversed.
+B is wrong. This uses the wrong share.
+D is wrong. This is all Quality Lab cost.
+SC210-5  Answer C. Costs go only to production departments.
+A is wrong. That is the step-down method.
+B is wrong. That is the reciprocal method.
+D is wrong. That describes a single rate.
+SC210-6  Answer C. Rescale to the divisions: 50 ÷ 80.
+A is wrong. This is the Tahini share.
+B is wrong. The shares are not rescaled.
+D is wrong. This also includes IT.
+SC210-7  Answer D. IT's own cost plus what it received from Maintenance.
+A is wrong. This is only the amount received.
+B is wrong. The Maintenance share received is left out.
+C is wrong. The amount received is wrong.
+SC210-8  Answer D. This captures the largest service-to-service link.
+A is wrong. Cost size is not the rule.
+B is wrong. History does not matter.
+C is wrong. Such a department should go last.
+SC210-9  Answer C. Solve M = 880,000 + 0.20 I with I = 400,000 + 0.20 M.
+A is wrong. This is the original cost.
+B is wrong. This adds 20% of IT's own cost only.
+D is wrong. This is the total of both departments.
+SC210-10  Answer C. It recognizes all service-to-service links.
+A is wrong. It ignores the links.
+B is wrong. It ignores links back to closed departments.
+D is wrong. They treat the links differently.
+SC210-11  Answer D. Each cost is charged on what causes it.
+A is wrong. That is a single rate.
+B is wrong. Variable cost follows use.
+C is wrong. Fixed cost is allocated on capacity.
+SC210-12  Answer A. The spending difference stays with the service manager.
+B is wrong. They can be higher or lower.
+C is wrong. Actual rates are allowed but pass on waste.
+D is wrong. The difference is reported, not hidden.
+SC210-13  Answer D. Step-down Maintenance and IT + Quality Lab + HR.
+A is wrong. Quality Lab and HR are left out.
+B is wrong. This is the direct method for two departments only.
+C is wrong. HR is left out.
+SC210-14  Answer C. Annual charge ÷ 12, as in the Chapter 6 journal.
+A is wrong. This is the Beverages charge.
+B is wrong. This uses Maintenance and IT only.
+D is wrong. This is the annual charge.
+Your turn
+Item
+Answer
+Tahini & Spreads
+Variable 60,000; total 172,000
+Beverages
+Variable 28,000; total 84,000
+Multiple-choice questions
+P210-01  Answer B. Rescale: 60 ÷ 80.
+A is wrong. The share is not rescaled.
+C is wrong. The shares are added wrongly.
+D is wrong. P2 also receives a share.
+P210-02  Answer C. S2's pool of $70,000, shared 45:45 between the production departments.
+A is wrong. S2's own cost only.
+B is wrong. The share to the closed S1 is kept.
+D is wrong. This is the whole pool.
+P210-03  Answer D. The equations capture mutual services.
+A is wrong. That ignores services received.
+B is wrong. Services given are allocated later.
+C is wrong. No averaging is used.
+P210-04  Answer C. A = (84,000 + 12,000) ÷ 0.96.
+A is wrong. This is A's own cost.
+B is wrong. This uses B's own cost, not its total.
+D is wrong. This adds the two own costs.
+P210-05  Answer B. Fixed cost is shared on actual use.
+A is wrong. The fixed cost is still there.
+C is wrong. The rate per hour rises.
+D is wrong. Fixed cost remains.
+P210-06  Answer C. Variable cost follows use.
+A is wrong. That is the fixed part.
+B is wrong. Actual cost passes on waste.
+D is wrong. Revenue is not a use measure.
+P210-07  Answer C. Capacity was built for planned needs.
+A is wrong. That shifts cost between users.
+B is wrong. Actual fixed cost is not charged.
+D is wrong. Products do not cause the capacity.
+P210-08  Answer A. The service manager answers for it.
+B is wrong. That happens with actual rates.
+C is wrong. It is not inventoried.
+D is wrong. It is reported.
+P210-09  Answer D. Allocation moves in one direction.
+A is wrong. That would reopen it.
+B is wrong. It is closed.
+C is wrong. Its whole cost is allocated.
+P210-10  Answer B. Only the split changes.
+A is wrong. Reciprocal totals are larger, but the amount allocated out is the same.
+C is wrong. The direct method allocates all cost.
+D is wrong. The total is fixed.
+P210-11  Answer B. Revenue does not cause IT work.
+A is wrong. Revenue does not drive IT cost.
+C is wrong. It is about the base, not the method.
+D is wrong. It is about the base, not the rate.
+P210-12  Answer A. The order decides which links are recognized.
+B is wrong. The total is the same.
+C is wrong. Step-down recognizes some links.
+D is wrong. Rates do not explain it.
+P210-13  Answer D. A price makes a make-or-buy comparison possible.
+A is wrong. Taxes are not the aim.
+B is wrong. IT stays in the budget.
+C is wrong. Allocation does not raise sales.
+P210-14  Answer B. Rescale: 30 ÷ 80.
+A is wrong. The share is not rescaled.
+C is wrong. The cost is split equally.
+D is wrong. This is P2's share.
+P210-15  Answer A. Users and tickets create IT work.
+B is wrong. Revenue does not cause IT work.
+C is wrong. Space does not cause IT work.
+D is wrong. Profit is an ability-to-bear base.
+P210-16  Answer C. Fixed share + actual hours × variable rate.
+A is wrong. The fixed share is left out.
+B is wrong. The variable charge is left out.
+D is wrong. This uses a single rate.
+Case question: Levant Distribution
+C210-1
+Department
+Category
+Fleet Maintenance
+Service department
+IT
+Service department
+Warehouse
+Operating department
+Delivery
+Operating department
+Payroll office
+Service department
+Service departments support others; operating departments serve customers.
+C210-2  Answer: 183,000.
+146,400 is wrong: this answer does not rescale the shares to the operating departments.
+C210-3  Answer: 163,200.
+120,000 is wrong: this answer uses IT's own cost only.
+C210-4  Answer: 147,600.
+131,400 is wrong: this answer allocates IT's own cost instead of its enlarged pool.
+C210-5  Answer: 250,000.
+216,000 is wrong: this answer gives the original cost, not the reciprocal total.
+C210-6  Answer: the reciprocal method.
+the direct method is wrong: this answer it ignores the services between Fleet and IT.
+the step-down method is wrong: this answer it ignores the link back to the first department.
+an allocation on sales revenue is wrong: this answer revenue does not cause service costs.
+C210-7  Answer: step-down.
+reciprocal is wrong: this answer the reciprocal method recognizes services in both directions.
+dual-rate is wrong: this answer dual-rate describes how costs are charged, not the order of allocation.
+single-rate is wrong: this answer single-rate describes how costs are charged, not the order of allocation.
+PART II — MEASURING PRODUCT COST

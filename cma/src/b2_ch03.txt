@@ -1,0 +1,776 @@
+Chapter 3
+Estimating Costs: High-Low and Regression
+تقدير التكاليف: طريقة الحدين والانحدار
+Chapter 2 used a cost function for Oils maintenance and utilities: $18,000 a month plus $12 per machine hour. Where did those two numbers come from? They were estimated from 24 months of records.
+This chapter shows two ways to estimate a cost function from data: the high-low method and regression. Figure F203-01 shows the idea.
+Figure F203-01. Chapter 3 roadmap: from data points to a cost function.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.3.a
+demonstrate an understanding of a simple regression equation
+Explain a simple regression equation and read regression output.
+Full treatment + Extended Example
+B.3.b
+define a multiple regression equation
+Define a multiple regression equation.
+Definition; estimation in Book 4
+B.3.c
+calculate the result of a simple regression equation
+Calculate the result of a simple regression equation.
+Full treatment
+D.3.q
+demonstrate an understanding of how regression can be used to estimate fixed costs
+Explain how regression is used to estimate fixed costs.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+high-low method
+طريقة الحد الأعلى والحد الأدنى
+méthode des points extrêmes
+regression analysis
+تحليل الانحدار
+analyse de régression
+dependent variable
+المتغير التابع
+variable dépendante (expliquée)
+independent variable
+المتغير المستقل
+variable indépendante (explicative)
+intercept
+الجزء الثابت
+ordonnée à l'origine
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+multiple regression
+الانحدار المتعدد
+régression multiple
+WHAT YOU ALREADY KNOW   What you already know
+A mixed cost has a fixed part and a variable rate (Chapter 2). Account analysis splits it by judgment. The methods here use past data instead, and regression adds measures of how reliable the result is.
+3.1  Why estimate cost functions
+Budgets, prices and flexible budgets all need a cost function: total cost = fixed cost + variable rate × activity. Managers have four main ways to estimate it. Figure F203-02 compares them.
+Figure F203-02. Four ways to estimate a cost function
+Method
+How it works
+Strength
+Weakness
+Account analysis
+Judgment on each account
+Quick; uses knowledge of the costs
+Subjective
+High-low
+Line through the highest and lowest activity
+Simple; needs two points
+Ignores all other data; outliers distort it
+Simple regression
+Best-fit line through all points
+Uses all data; gives R², t and standard error
+Needs data and care in use
+Engineering (industrial) analysis
+Studies inputs needed per unit
+Works for new products with no history
+Costly and slow
+The first step in every method is to draw a scatter plot: one point for each month, with activity on the horizontal axis and cost on the vertical axis. The plot shows whether a straight line makes sense and whether any month looks unusual.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+scatter plot
+مخطط الانتشار
+nuage de points
+account analysis
+طريقة تحليل الحسابات
+analyse des comptes
+English (exam term)
+العربية
+Français
+scatter plot
+مخطط الانتشار
+nuage de points
+account analysis
+طريقة تحليل الحسابات
+analyse des comptes
+SECTION CHECK   Test yourself
+SC203-1  Why should an analyst draw a scatter plot before estimating a cost function?
+A.	To calculate R² exactly
+B.	To find the fixed cost without any calculation
+C.	Because regression software needs a picture
+D.	To see whether a straight line fits and whether any month looks unusual
+SC203-2  Orontes plans a new product with no cost history. Which method can estimate its cost function?
+A.	Engineering analysis
+B.	Simple regression
+C.	The high-low method
+D.	Account analysis of last year's product
+Answers and explanations are at the end of the chapter.
+3.2  The high-low method
+The high-low method draws a line through two points: the months with the highest and the lowest activity. The variable rate is the change in cost divided by the change in activity. The fixed cost is what is left at either point.
+Choose the points by activity, not by cost. In the Oils data the highest cost, $69,400, came in a month with 4,200 machine hours, not in the busiest month. Figure F203-03 marks both.
+Figure F203-03. The high-low line through the highest and lowest activity months.
+WORKED EXAMPLE   Worked example: high-low for Oils maintenance and utilities
+Figure F203-04 shows the steps. The busiest month had 4,300 machine hours and cost $68,600; the quietest had 2,000 hours and cost $43,300. The variable rate is $11 per hour and the fixed cost is $21,300 a month.
+Figure F203-04. Worked example: high-low for Oils maintenance and utilities
+Oils M&U, high-low method
+Activity
+Cost (whole USD)
+Highest activity
+4,300 MH
+68,600
+Lowest activity
+2,000 MH
+43,300
+Change
+2,300 MH
+25,300
+Variable rate = change in cost ÷ change in MH
+$11 per MH
+Fixed cost = 68,600 − $11 × 4,300
+21,300
+High-low cost function
+21,300 + $11 × MH
+EXAM TRAP   High activity, not high cost
+Exam questions often put the highest cost in a month that is not the busiest. Always find the highest and lowest activity first, then take the costs of those two months.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+high-low method
+طريقة الحد الأعلى والحد الأدنى
+méthode des points extrêmes
+English (exam term)
+العربية
+Français
+high-low method
+طريقة الحد الأعلى والحد الأدنى
+méthode des points extrêmes
+SECTION CHECK   Test yourself
+SC203-3  In the high-low method, the two points are chosen by:
+A.	the highest and lowest cost
+B.	the first and last month
+C.	the highest and lowest activity
+D.	the two most typical months
+SC203-4  At 5,000 units a cost is $42,000; at 8,000 units it is $54,000. These are the lowest and highest activity months. What is the variable rate?
+A.	$6.75 per unit
+B.	$4.00 per unit
+C.	$8.40 per unit
+D.	$12,000 per unit
+Answers and explanations are at the end of the chapter.
+3.3  Simple regression
+Regression analysis fits the line that best explains cost using all the data points. In simple regression there is one independent variable x, the activity, and one dependent variable y, the cost. The equation is y = a + b x.
+The intercept a is the estimated fixed cost for the period. The slope b is the variable cost for each extra unit of activity. Figure F203-05 shows both on a graph.
+Figure F203-05. Anatomy of a simple regression line: intercept a and slope b.
+Software prints more than a and b. The coefficient of determination R² shows how much of the cost variation the activity explains. Each coefficient has a t-statistic: above about 2 means it is reliably different from zero. The standard error of the estimate shows how far actual costs typically lie from the line. Figure F203-06 annotates the Oils output.
+Figure F203-06. Annotated regression output for Oils maintenance and utilities
+Regression output
+Coefficient / value
+Std. error
+t-stat
+What it means
+Intercept
+18,000
+951
+18.93
+Estimated fixed cost per month
+Machine hours
+12.00
+0.295
+40.7
+Variable cost per machine hour
+R²
+0.987
+Share of cost variation explained by machine hours
+Standard error of the estimate
+1,000
+Typical distance of actual cost from the line
+Observations
+24
+Months of data
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+regression analysis
+تحليل الانحدار
+analyse de régression
+dependent variable
+المتغير التابع
+variable dépendante (expliquée)
+independent variable
+المتغير المستقل
+variable indépendante (explicative)
+intercept
+الجزء الثابت
+ordonnée à l'origine
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+t-statistic
+إحصائية t
+statistique t
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+English (exam term)
+العربية
+Français
+regression analysis
+تحليل الانحدار
+analyse de régression
+dependent variable
+المتغير التابع
+variable dépendante (expliquée)
+independent variable
+المتغير المستقل
+variable indépendante (explicative)
+intercept
+الجزء الثابت
+ordonnée à l'origine
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+t-statistic
+إحصائية t
+statistique t
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+SECTION CHECK   Test yourself
+SC203-5  In the cost equation y = a + b x, b is:
+A.	the fixed cost
+B.	total cost
+C.	the variable cost per unit of activity
+D.	the level of activity
+SC203-6  The Oils regression has R² = 0.987. This means:
+A.	the cost rises by $0.987 per machine hour
+B.	machine hours explain about 98.7% of the variation in the cost
+C.	the forecast is correct 98.7% of the time
+D.	98.7% of the cost is fixed
+Answers and explanations are at the end of the chapter.
+3.4  Using the regression equation
+To forecast, put the planned activity into x. At 3,200 machine hours, Oils maintenance and utilities should cost $18,000 + $12 × 3,200 = $56,400.
+A forecast is only as good as the range of the data. The Oils data run from 2,000 to 4,300 machine hours a month. A forecast inside that range is reasonable; a forecast far outside it is a guess.
+YOUR TURN   Forecast with the equation
+Figure F203-07 gives five months of planned activity. The first two forecasts are done. Complete the rest, and think carefully about the last one. Answers are at the end of the chapter.
+Figure F203-07. Your turn: forecasts with the regression equation (complete the blanks)
+Machine hours in the month
+Forecast: 18,000 + 12 × MH
+2,500
+48,000
+3,000
+54,000
+3,600
+________
+4,000
+________
+5,000
+________ (careful!)
+SECTION CHECK   Test yourself
+SC203-7  Using y = 18,000 + 12 x, what is the forecast for a month with 3,600 machine hours?
+A.	$18,012
+B.	$43,200
+C.	$61,200
+D.	$259,200
+SC203-8  The Oils data cover 2,000 to 4,300 machine hours a month. A forecast for a month with 6,500 hours is:
+A.	reliable, because R² is high
+B.	reliable if the intercept is positive
+C.	exactly $96,000
+D.	unreliable, because 6,500 hours is outside the data range
+Answers and explanations are at the end of the chapter.
+3.5  Using regression to estimate fixed costs
+The intercept is regression's estimate of fixed cost: $18,000 a month for Oils maintenance and utilities, or $216,000 a year. Chapter 2 used exactly this figure in the Oils overhead budget.
+Use the intercept with care. It is the cost the line predicts at zero activity, and zero lies far outside the data. It is a sound estimate of fixed cost inside the relevant range, not a promise of what the plant would cost if it stopped.
+The t-statistic of the intercept helps. For Oils it is 18.93, well above 2, so the fixed part is clearly greater than zero. A small t-statistic would mean the fixed estimate is weak.
+FALSE-FRIEND ALERT   Constante, الحد الثابت
+French texts call the intercept 'la constante' or 'ordonnée à l'origine', and Arabic texts الحد الثابت. The word 'constant' suggests a fact, but the intercept is only an estimate from the data.
+SECTION CHECK   Test yourself
+SC203-9  In a cost regression, the intercept is best described as:
+A.	the exact cost of the plant at zero activity
+B.	the estimated fixed cost per period inside the relevant range
+C.	the variable cost per unit
+D.	the average cost per unit
+SC203-10  A regression gives an intercept of $7,000 with a t-statistic of 0.8. What does this suggest?
+A.	The fixed-cost estimate is not reliable
+B.	Fixed cost is exactly $7,000
+C.	The variable rate is not reliable
+D.	R² must be low
+Answers and explanations are at the end of the chapter.
+3.6  Multiple regression
+Multiple regression uses two or more independent variables: y = a + b₁x₁ + b₂x₂. Each coefficient is the cost per unit of its own variable, with the other variables held constant.
+Suppose Oils also records the number of setups each month. A multiple regression might give $15,000 a month, plus $11.5 per machine hour, plus $150 per setup. Figure F203-08 reads each term. Book 4 shows how such equations are estimated and tested.
+Figure F203-08. Suppose: reading a multiple regression equation
+Suppose: Oils M&U, two drivers
+Coefficient
+Meaning
+Intercept
+15,000
+Fixed cost per month (with both drivers in the model)
+Machine hours
+$11.5
+Variable cost per machine hour, holding setups constant
+Number of setups
+$150
+Cost per setup, holding machine hours constant
+R²
+0.992
+Share of variation explained by both drivers
+Forecast: 3,200 MH and 20 setups
+54,800
+15,000 + 11.5 × 3,200 + 150 × 20
+Add a second driver only when it has a causal link to the cost and improves the fit. In the example, R² rises from 0.987 to 0.992, and each coefficient should still pass its t-test. Adding drivers that do not cause the cost only makes the equation harder to use.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+multiple regression
+الانحدار المتعدد
+régression multiple
+English (exam term)
+العربية
+Français
+multiple regression
+الانحدار المتعدد
+régression multiple
+SECTION CHECK   Test yourself
+SC203-11  A multiple regression equation is one that:
+A.	is run several times on the same data
+B.	multiplies the slope by the intercept
+C.	uses two or more independent variables to predict the dependent variable
+D.	has two or more dependent variables
+SC203-12  Using the Figure F203-08 equation, what is the forecast for a month with 3,000 machine hours and 10 setups?
+A.	$15,161.50
+B.	$36,000
+C.	$49,500
+D.	$51,000
+Answers and explanations are at the end of the chapter.
+3.7  Extended Example 3A: the Oils maintenance and utilities cost function
+This example runs both methods on the full 24 months of Oils data and turns the result into the 2027 budget. There are no journal entries here: the output is a forecast that feeds the budget.
+1. Scenario
+Oils has monthly maintenance and utilities costs for January 2025 to December 2026, with machine hours from 2,000 to 4,300. For 2027 it plans 3,200 machine hours a month, or 38,400 for the year.
+2. Plan
+Estimate the cost function with high-low and with regression. Read the regression output. Forecast the month and the year, compare the two methods, and pass the result to the budget.
+3. Calculations: regression by hand
+Software does this work, but seeing it once shows what b and a mean. Figure F203-09 builds the slope from the sums: b = Sxy ÷ Sxx = $12, and a = ȳ − b × x̄ = $18,000. R² = 1 − SSE ÷ SST = 0.987.
+Figure F203-09. Extended Example: regression by hand for the 24 Oils months
+Regression by hand: the 24 Oils months
+Value
+Number of months (n)
+24
+Sum of machine hours (Σx)
+75,600
+Sum of costs (Σy)
+1,339,200
+Mean machine hours (x̄)
+3,150
+Mean cost (ȳ)
+55,800
+Sxx = Σ(x − x̄)²
+11,500,000
+Sxy = Σ(x − x̄)(y − ȳ)
+138,000,000
+Slope b = Sxy ÷ Sxx
+$12
+Intercept a = ȳ − b × x̄ = 55,800 − 12 × 3,150
+18,000
+Unexplained variation SSE = Σ(y − ŷ)²
+22,000,000
+Total variation SST = Σ(y − ȳ)²
+1,678,000,000
+R² = 1 − SSE ÷ SST
+0.987
+4. The two lines
+Figure F203-10 draws both lines on the data. The high-low line depends on two months only; the regression line passes through the middle of all 24. The bar at 3,200 hours shows the forecast plus or minus two standard errors: $54,400 to $58,400.
+Figure F203-10. Extended Example: regression and high-low lines on the 24 Oils months.
+5. The forecast and the budget
+Figure F203-11 compares the forecasts. For 2027 regression gives $676,800 and high-low gives $678,000. Orontes uses the regression figure, because it uses all the data and passes the reliability tests. That is the maintenance line in the Chapter 2 budget.
+Figure F203-11. Extended Example: regression and high-low forecasts for 2027
+Oils M&U forecast (whole USD)
+Regression
+High-low
+High-low − regression
+Monthly forecast at 3,200 MH
+56,400
+56,500
+100
+FY2027 forecast at 38,400 MH
+676,800
+678,000
+1,200
+Fixed part for the year
+216,000
+255,600
+39,600
+Variable part for the year
+460,800
+422,400
+(38,400)
+Used in the Oils budget (Chapter 2)
+676,800
+—
+6. Tie line
+WORKED EXAMPLE   Everything ties
+Slope: Sxy ÷ Sxx = 138,000,000 ÷ 11,500,000 = $12.
+Intercept: 55,800 − 12 × 3,150 = $18,000.
+R²: 1 − 22,000,000 ÷ 1,678,000,000 = 0.987.
+Budget: twelve months × $18,000 + $12 × 38,400 = $676,800, the Chapter 2 maintenance budget.
+7. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+regression analysis
+تحليل الانحدار
+analyse de régression
+intercept
+الجزء الثابت
+ordonnée à l'origine
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+English (exam term)
+العربية
+Français
+regression analysis
+تحليل الانحدار
+analyse de régression
+intercept
+الجزء الثابت
+ordonnée à l'origine
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+8. How the exam asks it
+EXAM TRAP   Exam view
+Expect either a small data set with a high-low question, or a printed regression output with a forecast question. For high-low, find the activity extremes first. For regression, take a and b from the coefficient column, put the activity in x, and ignore R² in the arithmetic.
+9. Self-check
+SECTION CHECK   Test yourself
+SC203-13  Use the Extended Example. What is the 2027 regression forecast for Oils maintenance and utilities (whole USD)?
+A.	460,800
+B.	478,800
+C.	676,800
+D.	678,000
+SC203-14  Use the Extended Example. Why does Orontes use the regression estimate rather than high-low?
+A.	Regression always gives a lower cost
+B.	High-low is not allowed by U.S. GAAP
+C.	Regression uses all the data and reports how reliable the estimate is
+D.	High-low cannot give a fixed cost
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F203-12 brings the chapter together.
+Figure F203-12. Chapter 3 summary map: the key rule for each section.
+A cost function has a fixed part and a variable rate. The high-low method draws a line through the highest and lowest activity months; it is quick but uses only two points. Simple regression fits the best line through all points and reports R², t-statistics and the standard error. To forecast, put the activity in x and stay inside the relevant range. The intercept estimates fixed cost within that range. Multiple regression adds more drivers, each with its own rate.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P203-01  Units and costs: January 1,000 units, $20,000; February 1,600 units, $26,500; March 1,800 units, $26,000. Using the high-low method, what is the variable rate?
+A.	$10.83 per unit
+B.	$14.44 per unit
+C.	$6,000 per unit
+D.	$7.50 per unit
+P203-02  Using the data in P203-01, what is the fixed cost per month by the high-low method?
+A.	$6,000
+B.	$9,167
+C.	$12,500
+D.	$20,000
+P203-03  In a cost regression, the dependent variable is:
+A.	the activity level
+B.	the intercept
+C.	the cost being predicted
+D.	R²
+P203-04  A slope coefficient has a t-statistic of 6.5. This means:
+A.	the coefficient is reliably different from zero
+B.	the variable rate is $6.50
+C.	R² is 0.65
+D.	the fixed cost is not significant
+P203-05  The standard error of the estimate measures:
+A.	the share of variation explained
+B.	how far actual costs typically lie from the regression line
+C.	the fixed cost
+D.	the number of observations
+P203-06  A regression gives y = 5,200 + 3.5x. What is the forecast when x = 2,000?
+A.	$5,203.50
+B.	$7,000
+C.	$10,400
+D.	$12,200
+P203-07  A regression output shows: intercept 40,000; coefficient on units 8; R² 0.80. What is the forecast cost for 10,000 units?
+A.	$48,000
+B.	$80,000
+C.	$96,000
+D.	$120,000
+P203-08  In a multiple regression of maintenance cost, the coefficient on setups is 150. This means:
+A.	setups cost $150 in total
+B.	150 setups are needed
+C.	R² rises by 150
+D.	each extra setup adds about $150, holding the other variables constant
+P203-09  Why must the regression intercept be used with care as a measure of fixed cost?
+A.	It is always negative
+B.	It includes variable cost
+C.	It is the cost at zero activity, which usually lies outside the data
+D.	It changes every month
+P203-10  The main weakness of the high-low method is that it:
+A.	needs statistical software
+B.	uses only two data points, which may be unusual
+C.	cannot give a variable rate
+D.	uses too much data
+P203-11  Two regressions explain the same cost. Model 1 uses machine hours (R² 0.95, t 12.0). Model 2 uses sales revenue (R² 0.45, t 1.4). Which is better?
+A.	Model 2: revenue is easier to measure
+B.	Both are equal
+C.	Model 2: a lower R² is more cautious
+D.	Model 1: higher R² and a significant coefficient
+P203-12  A monthly cost equation is y = 18,000 + 12x. Next year's activity is 38,400 machine hours in total. What is the annual cost forecast?
+A.	$460,800
+B.	$478,800
+C.	$676,800
+D.	$5,745,600
+P203-13  The correlation coefficient between cost and activity is 0.9. What is R²?
+A.	0.81
+B.	0.90
+C.	0.95
+D.	1.80
+P203-14  A regression of Barada's delivery cost gives an intercept of 9,000 and a coefficient of 25 on deliveries. The estimated fixed delivery cost per month is:
+A.	$25
+B.	$9,000
+C.	$9,025
+D.	$225,000
+P203-15  Which is a multiple regression equation?
+A.	y = a + b x
+B.	y = a × b
+C.	y = b ÷ x
+D.	y = a + b₁x₁ + b₂x₂
+P203-16  A cost equation is y = 2,000 + 4x₁ + 10x₂. What is y when x₁ = 500 and x₂ = 30?
+A.	$2,300
+B.	$2,300.40
+C.	$4,000
+D.	$4,300
+Case question: Barada's delivery costs
+Barada Wholesale delivers Orontes products to shops across Amman with its own vans. Delivery cost includes drivers' wages, fuel, van leases and maintenance. The number of deliveries changes each month with shop orders, and some months are much busier than others.
+Barada's accountant has two years of monthly data on deliveries and delivery cost. She has estimated the cost function in two ways: the high-low method, and a regression on all the months. The regression output reports the intercept, the coefficient on deliveries, R², the standard error and the t-statistics.
+Barada's owner, Mr Haddad, must budget delivery cost for next year. He wants to know what each method says about fixed and variable cost, which estimate is more reliable, and what a busy month would cost. He also wants to understand the regression output before he uses it.
+Last year one winter month was unusually quiet because of heavy snow, and one month before a holiday was unusually busy. Mr Haddad is worried that these two months could distort the estimate. He asks his accountant to explain the numbers in plain words, with the exhibit open, before he signs the budget for the coming year.
+Use Figure F203-13 for items C203-1 to C203-7.
+How to enter answers: Enter amounts in U.S. dollars, without the $ sign or commas. Enter whole dollars unless the item asks for cents.
+Figure F203-13. Case exhibit: Barada Wholesale delivery costs and regression output
+Barada Wholesale · deliveries in the month
+Delivery cost (whole USD)
+280
+16,200
+320
+16,600
+380
+18,900
+420
+19,100
+460
+20,900
+480
+20,800
+Regression output
+Intercept
+9,000
+Coefficient on deliveries
+25
+R²
+0.964
+t-statistic on deliveries
+10.4
+Standard error of the estimate
+424
+C203-1  What does each output item tell you? (On the exam screen you would drag each item into a box.)
+Categories: Fixed cost estimate · Variable rate · Reliability measure
+Output item
+Category
+Intercept
+Coefficient on deliveries
+R²
+t-statistic on deliveries
+Standard error of the estimate
+C203-2  Enter the regression forecast of delivery cost for a month with 440 deliveries.
+Answer: ____________
+C203-3  Enter the variable cost per delivery by the high-low method.
+Answer: ____________
+C203-4  Enter the fixed cost per month by the high-low method.
+Answer: ____________
+C203-5  Enter the fixed cost per month estimated by regression.
+Answer: ____________
+C203-6  The regression R² of 0.964 means: [select]
+Options: about 96% of the variation in delivery cost is explained by the number of deliveries   |   the forecast is right 96% of the time   |   each delivery costs $0.96   |   96% of delivery cost is fixed
+C203-7  The ____ method uses only two months of data, so one unusual month can distort the estimate.
+Choose the word or phrase for the blank: high-low   |   regression   |   account analysis   |   engineering
+Answers and explanations
+Section checks
+SC203-1  Answer D. The plot checks linearity and outliers.
+A is wrong. R² comes from the regression, not the plot.
+B is wrong. A plot does not give the fixed cost by itself.
+C is wrong. Software does not need the plot.
+SC203-2  Answer A. Engineering analysis studies the inputs needed; the other methods need past data.
+B is wrong. Regression needs past data.
+C is wrong. High-low needs past data.
+D is wrong. Another product's accounts may not apply.
+SC203-3  Answer C. Activity drives the cost; choose its extremes.
+A is wrong. The highest cost may not be the busiest month.
+B is wrong. Dates do not matter.
+D is wrong. The method uses the extremes.
+SC203-4  Answer B. Change in cost ÷ change in units.
+A is wrong. This is an average cost at the high point.
+C is wrong. This is an average cost at the low point.
+D is wrong. This is the change in cost, not a rate.
+SC203-5  Answer C. The slope is the variable rate.
+A is wrong. The fixed cost is a.
+B is wrong. Total cost is y.
+D is wrong. Activity is x.
+SC203-6  Answer B. R² measures the share of variation explained.
+A is wrong. That would be a slope.
+C is wrong. R² is not a probability of being right.
+D is wrong. R² says nothing about the fixed share.
+SC203-7  Answer C. a + b × activity.
+A is wrong. The activity is not multiplied by b.
+B is wrong. The intercept is left out.
+D is wrong. An annual fixed cost is mixed with monthly hours.
+SC203-8  Answer D. A high R² does not extend the relevant range.
+A is wrong. R² describes fit inside the data.
+B is wrong. The intercept does not make an extrapolation safe.
+C is wrong. The arithmetic is not the problem; the range is.
+SC203-9  Answer B. It estimates fixed cost within the range of the data.
+A is wrong. Zero activity is outside the data.
+C is wrong. That is the slope.
+D is wrong. Average cost is total ÷ units.
+SC203-10  Answer A. A t-statistic below about 2 means the estimate is weak.
+B is wrong. A low t means the estimate is uncertain.
+C is wrong. This t belongs to the intercept.
+D is wrong. R² is a separate measure.
+SC203-11  Answer C. Multiple means more than one driver.
+A is wrong. Repeating a regression does not make it multiple.
+B is wrong. No such multiplication occurs.
+D is wrong. There is one dependent variable.
+SC203-12  Answer D. a + b₁x₁ + b₂x₂.
+A is wrong. The coefficients are not multiplied by the activities.
+B is wrong. The intercept is left out.
+C is wrong. The setup term is left out.
+SC203-13  Answer C. Twelve months of fixed cost + the rate × annual hours.
+A is wrong. The fixed part is left out.
+B is wrong. One month's fixed cost is used with a year's hours.
+D is wrong. This is the high-low forecast.
+SC203-14  Answer C. Regression uses every month and gives R², t and the standard error.
+A is wrong. Either method can give the higher figure.
+B is wrong. Cost estimation is a management choice.
+D is wrong. High-low does give a fixed cost.
+Your turn
+Item
+Answer
+3,600 machine hours
+$61,200
+4,000 machine hours
+$66,000
+5,000 machine hours
+The equation gives $78,000, but 5,000 hours is outside the data range (a second shift would start above 4,300 hours), so the forecast is not reliable.
+Multiple-choice questions
+P203-01  Answer D. Use January and March, the activity extremes.
+A is wrong. February has the highest cost, not the highest activity.
+B is wrong. This is an average cost.
+C is wrong. This is the change in cost.
+P203-02  Answer C. $26,000 − $7.50 × 1,800.
+A is wrong. This is the change in cost.
+B is wrong. This uses the highest-cost month.
+D is wrong. This is total cost at the low point.
+P203-03  Answer C. Cost depends on activity.
+A is wrong. Activity is the independent variable.
+B is wrong. The intercept is a coefficient.
+D is wrong. R² is a fit measure.
+P203-04  Answer A. A t-statistic above about 2 shows significance.
+B is wrong. t is not the coefficient.
+C is wrong. t is not R².
+D is wrong. This t belongs to the slope.
+P203-05  Answer B. It is the typical scatter around the line.
+A is wrong. That is R².
+C is wrong. That is the intercept.
+D is wrong. That is n.
+P203-06  Answer D. 5,200 + 3.5 × 2,000.
+A is wrong. x is not used.
+B is wrong. The intercept is left out.
+C is wrong. The coefficients are swapped.
+P203-07  Answer D. Intercept + coefficient × units; R² is not used in the arithmetic.
+A is wrong. The coefficient is not multiplied by the units.
+B is wrong. The intercept is left out.
+C is wrong. The forecast is multiplied by R².
+P203-08  Answer D. Each coefficient is a rate for its own variable.
+A is wrong. It is a rate per setup, not a total.
+B is wrong. It is not a quantity.
+C is wrong. It is not a fit measure.
+P203-09  Answer C. Zero activity is an extrapolation.
+A is wrong. It is usually positive.
+B is wrong. Variable cost is in the slope.
+D is wrong. One regression gives one intercept.
+P203-10  Answer B. Two points may not represent the rest.
+A is wrong. It needs only simple arithmetic.
+C is wrong. It gives both parts.
+D is wrong. It uses very little data.
+P203-11  Answer D. Model 1 fits better and its driver is significant.
+A is wrong. Ease of measurement does not make a driver causal.
+B is wrong. The fit measures differ widely.
+C is wrong. A lower R² means a weaker fit.
+P203-12  Answer C. Twelve months of fixed cost + 12 × annual hours.
+A is wrong. The fixed part is left out.
+B is wrong. Only one month of fixed cost is used.
+D is wrong. An annual forecast is multiplied by 12 again.
+P203-13  Answer A. In simple regression, R² = r².
+B is wrong. This is r, not R².
+C is wrong. This is the square root.
+D is wrong. R² cannot exceed 1.
+P203-14  Answer B. The intercept estimates fixed cost.
+A is wrong. 25 is the variable rate.
+C is wrong. The two coefficients are added.
+D is wrong. The coefficients are multiplied.
+P203-15  Answer D. It has two independent variables.
+A is wrong. That is simple regression.
+B is wrong. This is not a regression form.
+C is wrong. This is not a regression form.
+P203-16  Answer D. 2,000 + 4 × 500 + 10 × 30.
+A is wrong. The x₁ term is left out.
+B is wrong. The coefficients are not multiplied by the activities.
+C is wrong. The x₂ term is left out.
+Case question: Barada's delivery costs
+C203-1
+Output item
+Category
+Intercept
+Fixed cost estimate
+Coefficient on deliveries
+Variable rate
+R²
+Reliability measure
+t-statistic on deliveries
+Reliability measure
+Standard error of the estimate
+Reliability measure
+Coefficients build the cost function; the other items tell you how reliable it is.
+C203-2  Answer: 20,000.
+11,000 is wrong: this answer leaves out the intercept.
+19,880 is wrong: this answer uses the high-low equation.
+C203-3  Answer: 23.
+26 is wrong: this answer uses the highest-cost month instead of the highest-activity month.
+C203-4  Answer: 9,760.
+9,000 is wrong: this answer gives the regression intercept.
+C203-5  Answer: 9,000.
+9,760 is wrong: this answer gives the high-low fixed cost.
+C203-6  Answer: about 96% of the variation in delivery cost is explained by the number of deliveries.
+the forecast is right 96% of the time is wrong: this answer R² is not a probability.
+each delivery costs $0.96 is wrong: this answer R² is not a slope.
+96% of delivery cost is fixed is wrong: this answer R² says nothing about the fixed share.
+C203-7  Answer: high-low.
+regression is wrong: this answer regression uses all the months.
+account analysis is wrong: this answer account analysis classifies accounts; it does not pick two months.
+engineering is wrong: this answer engineering estimates come from work studies, not from two data points.
+PART I — COST LANGUAGE AND BEHAVIOR

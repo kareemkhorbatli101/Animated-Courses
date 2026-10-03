@@ -1,0 +1,58 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C212-1': ('case item C212-1', []),
+    'C212-2': ('case item C212-2', []),
+    'C212-3': ('case item C212-3', []),
+    'C212-4': ('case item C212-4', []),
+    'C212-5': ('case item C212-5', []),
+    'C212-6': ('case item C212-6', []),
+    'C212-7': ('case item C212-7', []),
+    'P212-01': ('practice item P212-01', []),
+    'P212-02': ('practice item P212-02', []),
+    'P212-03': ('practice item P212-03', []),
+    'P212-04': ('practice item P212-04', []),
+    'P212-05': ('practice item P212-05', []),
+    'P212-06': ('practice item P212-06', []),
+    'P212-07': ('practice item P212-07', []),
+    'P212-08': ('practice item P212-08', []),
+    'P212-09': ('practice item P212-09', []),
+    'P212-10': ('practice item P212-10', []),
+    'P212-11': ('practice item P212-11', []),
+    'P212-12': ('practice item P212-12', []),
+    'P212-13': ('practice item P212-13', []),
+    'P212-14': ('practice item P212-14', []),
+    'P212-15': ('practice item P212-15', []),
+    'P212-16': ('practice item P212-16', []),
+    'P212-17': ('practice item P212-17', []),
+    'SC212-1': ('section-check item SC212-1', []),
+    'SC212-10': ('section-check item SC212-10', []),
+    'SC212-11': ('section-check item SC212-11', []),
+    'SC212-12': ('section-check item SC212-12', []),
+    'SC212-13': ('section-check item SC212-13', []),
+    'SC212-2': ('section-check item SC212-2', []),
+    'SC212-3': ('section-check item SC212-3', []),
+    'SC212-4': ('section-check item SC212-4', []),
+    'SC212-5': ('section-check item SC212-5', []),
+    'SC212-6': ('section-check item SC212-6', []),
+    'SC212-7': ('section-check item SC212-7', []),
+    'SC212-8': ('section-check item SC212-8', []),
+    'SC212-9': ('section-check item SC212-9', []),
+    'term:activity': ("term-bridge row 'activity'", []),
+    'term:activity cost pool': ("term-bridge row 'activity cost pool'", []),
+    'term:activity driver': ("term-bridge row 'activity driver'", []),
+    'term:activity-based costing': ("term-bridge row 'activity-based costing'", []),
+    'term:batch-level cost': ("term-bridge row 'batch-level cost'", []),
+    'term:cost hierarchy': ("term-bridge row 'cost hierarchy'", []),
+    'term:facility-sustaining cost': ("term-bridge row 'facility-sustaining cost'", []),
+    'term:product-sustaining cost': ("term-bridge row 'product-sustaining cost'", []),
+    'term:resource driver': ("term-bridge row 'resource driver'", []),
+    'term:value-added activity': ("term-bridge row 'value-added activity'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C212-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}
