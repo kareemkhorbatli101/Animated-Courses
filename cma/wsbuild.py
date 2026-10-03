@@ -26,46 +26,47 @@ BOOKLINE = {
 
 
 # ---------------------------------------------------------------- items
+# Every item kind here is self-marking. There is no free-text kind: a student
+# working alone has to be able to settle every answer from the key without
+# anyone deciding whether their wording counts.
+ITEM_KINDS = ('MCQ', 'TF', 'MATCH', 'SORT', 'GRID', 'FILL')
+
+
 def render_item(d, c, it):
-    """One response item. Returns the numbers it consumed."""
     t = it['t']
     if t == 'MCQ':
         n = c.take(it['a'], it.get('why', ''))
         d.q(n, it['q'])
-        d.options(it.get('letters', 'ABCD')[:len(it['o'])], it['o'])
+        d.options('ABCDEF'[:len(it['o'])], it['o'])
         return [n]
     if t == 'TF':
         n = c.take(it['a'], it.get('why', ''))
         d.tf(n, it['q'])
         return [n]
-    if t == 'SHORT':
-        n = c.take(it['a'], it.get('why', ''))
-        d.q(n, it['q'], after=it.get('lines', 1))
-        return [n]
     if t == 'FILL':
         ns = c.cells(it['a'], it.get('whys'))
-        d.q(ns[0], it['q']) if it.get('q') else None
-        d.blanks(it['parts'], ind=it.get('ind', 200))
+        if it.get('bank'):
+            d.wordbank(it['bank'])
+        d.blanks(it['parts'])
         return ns
     if t == 'GRID':
         ns = c.cells(it['a'], it.get('whys'))
         if it.get('q'):
-            d.body.append(wsdoc.para(
-                [wsdoc.run(it['q'], sz=19)],
-                '<w:spacing w:before="40" w:after="24"/>'))
+            d.body.append(wsdoc._p(it['q'], 19, before=40, after=24))
         d.grid(it['h'], it['rows'], widths=it.get('w'),
                note=it.get('note', ''))
         return ns
     if t == 'MATCH':
         ns = c.cells(it['a'], it.get('whys'))
-        d.q(ns[0], it['q']) if it.get('q') else None
+        if it.get('q'):
+            d.body.append(wsdoc._p(it['q'], 19, before=40, after=24))
         d.matchpairs(it['left'], it['right'], start=ns[0])
         return ns
     if t == 'SORT':
         ns = c.cells(it['a'], it.get('whys'))
         d.sortboard(it['q'], it['regions'], it['items'])
         return ns
-    raise ValueError('unknown item type %r' % t)
+    raise ValueError('unknown item kind %r' % t)
 
 
 def render_items(d, c, items):
@@ -73,15 +74,13 @@ def render_items(d, c, items):
         render_item(d, c, it)
 
 
-# ---------------------------------------------------------------- flow
-
 # ---------------------------------------------------------------- pagination
 # Page geometry, from the section properties docxw writes on every page.
 PAGE_W = 11906 - 1000 - 1000
 PAGE_H = 16838 - 1180 - 900
 # The estimator is an estimator. 0.93 leaves the room its own error needs,
 # which is the same margin the first-generation builder settled on.
-LIMIT = 0.93
+LIMIT = 0.92
 
 _NS = ('xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
        'xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/'
@@ -150,7 +149,22 @@ def paginate(d, flow, spans, pre=0.0):
             used = 0.0
             i = j + 1
             continue
-        if used and used + atom > PAGE_H * LIMIT:
+        cap = PAGE_H * LIMIT
+        if atom > cap and j > i:
+            # The group is taller than a page on its own, so keeping it
+            # together is impossible rather than merely untidy. Place its
+            # blocks one at a time instead; a model and the move that reads
+            # it stay together where they can, and where they cannot the
+            # alternative is a page that overflows.
+            for k in range(i, j + 1):
+                if used and used + heights[k] > cap:
+                    cuts.append(spans[k][0])
+                    used = heights[k]
+                else:
+                    used += heights[k]
+            i = j + 1
+            continue
+        if used and used + atom > cap:
             cuts.append(spans[i][0])
             used = atom
         else:
@@ -172,6 +186,61 @@ def pagebreak(d):
                              '<w:spacing w:after="0"/>'))
 
 
+# The first page of every handout is a preview, and it has to be full
+# without spilling: a half-empty opening page wastes the session's best
+# moment, and a spilt one pushes the first cycle onto page three. So the
+# preview is sized here, by measuring each item as it is emitted and stopping
+# before the page is full, rather than by counting items in the generator.
+PREVIEW_FILL = 0.90
+PREVIEW_MIN = 4
+
+
+def render_preview(d, c, blk, before):
+    start = len(d.body)
+    d.previewbar(blk[1], blk[2])
+    if blk[3]:
+        d.datapanel('What this handout settles', blk[3])
+    used = before + sum(_height(x) for x in d.body[start:])
+    limit = PAGE_H * PREVIEW_FILL
+    kept = 0
+    for it in blk[4]:
+        a = len(d.body)
+        mk = c.mark()
+        render_item(d, c, it)
+        h = sum(_height(x) for x in d.body[a:])
+        if kept >= PREVIEW_MIN and used + h > limit:
+            del d.body[a:]
+            c.reset(mk)
+            break
+        used += h
+        kept += 1
+    return kept
+
+
+# A table taller than a page cannot be moved anywhere that fits, so it is
+# cut into pieces that can be, each piece carrying the header again. Ten rows
+# is about a third of a page in this type size.
+PANEL_ROWS = 10
+
+
+def expand(flow):
+    """Split any panel too tall to sit on one page into several."""
+    out = []
+    for blk in flow:
+        if blk[0] != 'panel' or len(blk[2]) <= PANEL_ROWS + 1:
+            out.append(blk)
+            continue
+        head, body = blk[2][0], blk[2][1:]
+        note = blk[3] if len(blk) > 3 else ''
+        n = (len(body) + PANEL_ROWS - 1) // PANEL_ROWS
+        for k in range(n):
+            chunk = body[k * PANEL_ROWS:(k + 1) * PANEL_ROWS]
+            title = blk[1] if k == 0 else '%s (continued)' % blk[1]
+            out.append(('panel', title, [head] + chunk,
+                        note if k == n - 1 else ''))
+    return out
+
+
 def render_flow(d, c, H, figs, total, pre=0):
     """Walk a handout's flow, emitting blocks and breaking pages where told.
 
@@ -183,14 +252,19 @@ def render_flow(d, c, H, figs, total, pre=0):
     spans = []
     start0 = len(d.body)
     before = sum(_height(x) for x in d.body[pre:start0])
-    for blk in H['flow']:
+    flow = expand(H['flow'])
+    for blk in flow:
         a = len(d.body)
         k = blk[0]
         if k == 'page':
             page += 1
             pagebreak(d)
+        elif k == 'preview':
+            render_preview(d, c, blk, before)
         elif k == 'speed':
-            d.speedround(blk[1])
+            d.speedround([(x[0], x[1]) for x in blk[1]])
+            for x in blk[1]:
+                c.take(x[1], x[2] if len(x) > 2 else '')
         elif k == 'cycle':
             d.cyclebar(blk[1], blk[2])
         elif k == 'move':
@@ -212,7 +286,10 @@ def render_flow(d, c, H, figs, total, pre=0):
             d.ruleframe(n, blk[1], blk[2], blk[3])
             H.setdefault('_rules', []).append((n, blk[4]))
         elif k == 'contrast':
-            d.contrast(blk[1], blk[2], blk[3])
+            opts = d.contrast(blk[1], blk[2], blk[3], blk[4])
+            n = c.take(blk[5], blk[6] if len(blk) > 6 else '')
+            d.q(n, 'Choose one:')
+            d.options('ABCDEF'[:len(opts)], opts)
         elif k == 'pair':
             d.pairpoint(blk[1], blk[2])
         elif k == 'roles':
@@ -222,7 +299,7 @@ def render_flow(d, c, H, figs, total, pre=0):
             d.errorhunt(blk[1] + '  (items %d to %d)' % (ns[0], ns[-1]),
                         blk[2])
         elif k == 'predict':
-            d.predict(blk[1], blk[2] if len(blk) > 2 else '')
+            d.predict(blk[1], None, blk[2] if len(blk) > 2 else '')
         elif k == 'teach':
             n = c.take(blk[4] if len(blk) > 4 else 'see the key')
             d.teachback(n, blk[1], blk[2], blk[3])
@@ -232,16 +309,15 @@ def render_flow(d, c, H, figs, total, pre=0):
             png, w, hh = figs[blk[1]](True)
             d.figure(png, w, hh)
         elif k == 'check':
-            n = c.take(blk[2], blk[4] if len(blk) > 4 else '')
-            d.checkbar(n, blk[1], blk[3])
+            n = c.take(blk[3], blk[5] if len(blk) > 5 else '')
+            d.checkbar(n, blk[1], blk[2], blk[4])
         elif k == 'note':
-            d.body.append(wsdoc.para(
-                [wsdoc.run(blk[1], sz=18, color=wsdoc.GREY)],
-                '<w:spacing w:before="30" w:after="40"/>'))
+            d.body.append(wsdoc._p(blk[1], 18, color=wsdoc.GREY, before=30,
+                                   after=40))
         else:
             raise ValueError('unknown block %r' % k)
         spans.append((a, len(d.body)))
-    page += paginate(d, H['flow'], spans, before)
+    page += paginate(d, flow, spans, before)
     return page
 
 

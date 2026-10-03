@@ -23,8 +23,12 @@ def sync(mod):
     for H, _c in keys:
         p = os.path.join(HERE, mod, 'h%02d.py' % H['n'])
         s = io.open(p, encoding='utf-8').read()
+        # hand-written packages spell it `pages=6,` and generated ones
+        # `'pages': 6,`; both are the same declaration
         s2 = re.sub(r'^    pages=\d+,$', '    pages=%d,' % H['pages'], s,
                     flags=re.M)
+        s2 = re.sub(r"('pages':\s*)\d+", r"\g<1>%d" % H['pages'], s2,
+                    count=1)
         if s2 != s:
             io.open(p, 'w', encoding='utf-8').write(s2)
             changed.append('%s → %d' % (H['id'], H['pages']))

@@ -1,30 +1,26 @@
 # -*- coding: utf-8 -*-
 """Page blocks for the Workshop handouts.
 
-The first-generation sheets had one kind of block: an exercise. These sheets
-have three — a model that carries content, an interaction that needs another
-person, and a test item — and the page has to make the difference visible at a
-glance, because a student working alone has to know when to stop and find a
-partner.
+Three kinds of block, and the page has to make the difference visible at a
+glance: a model that carries content, an interaction that needs another
+person, and a test item.
 
-Everything here is built on the primitives in docxw; nothing writes raw XML
-that docxw does not already know how to save.
+Every table here goes through wstable, which keeps the grid, the cell counts
+and the widths consistent; wslint then checks the built document rather than
+trusting this source.
 """
-from docxw import (Doc, para, run, tblpr, tcpr, esc, INDIGO, PERI, GREY,
-                   INK, CREAM, SOFT, RULE, GREEN, RED, AMBER, TEAL, PLUM,
-                   BLUE)
+from docxw import (Doc, para, run, esc, INDIGO, PERI, GREY, INK, CREAM, SOFT,
+                   RULE, GREEN, RED, AMBER, TEAL, PLUM, BLUE)
+from wstable import cell, row, table, widths_for, banner
 
-# docxw keeps colours as bare hex, with no leading hash.
 GREY_L = 'AAB2C0'
 PAPER = 'FFFFFF'
 
-# The move names, in the order the standard fixes them.
 MOVES = ['ORIENT', 'MODEL', 'READ THE MODEL', 'INVENT THE RULE', 'APPLY',
          'CHECKPOINT']
 MOVEC = {'ORIENT': GREY, 'MODEL': INDIGO, 'READ THE MODEL': INDIGO,
          'INVENT THE RULE': TEAL, 'APPLY': PLUM, 'CHECKPOINT': RED}
 
-# Interaction badges and what each one asks of the room.
 XBADGE = {
     'pair': ('WORK IN PAIRS', TEAL),
     'role': ('TAKE A ROLE', PLUM),
@@ -34,41 +30,20 @@ XBADGE = {
     'sort': ('SORT THEM', BLUE),
     'build': ('FROM MEMORY', INDIGO),
     'speed': ('60 SECONDS', AMBER),
+    'preview': ('BEFORE YOU START', INDIGO),
 }
 
 
-def _cell(xml, fill=None, pad=100, w=None):
-    return '<w:tc>%s%s</w:tc>' % (tcpr(fill, pad, w), xml)
-
-
-def _row(cells):
-    return '<w:tr>%s</w:tr>' % ''.join(cells)
-
-
-def _tbl(rows, col, sz=6, grid=(100,)):
-    """`grid` is column widths as percentages, the same unit tcpr takes.
-
-    docxw measures a cell in fiftieths of a percent and multiplies by 50, so a
-    width here is a percentage of the text column, never twips. The first
-    draft passed twips, which made every table 10,000 per cent wide and left a
-    document LibreOffice would not open at all.
-    """
-    if sz <= 0:
-        pr = '<w:tblPr><w:tblW w:type="pct" w:w="100%"/></w:tblPr>'
-    else:
-        pr = tblpr(col, sz)
-    cols = ''.join('<w:gridCol w:w="%d"/>' % int(g * 96) for g in grid)
-    return '<w:tbl>%s<w:tblGrid>%s</w:tblGrid>%s</w:tbl>' % (
-        pr, cols, ''.join(rows))
+def _p(text, sz=18, b=False, color=None, before=24, after=24, ind=0,
+       hang=0, mono=False):
+    ppr = '<w:spacing w:before="%d" w:after="%d"/>' % (before, after)
+    if ind or hang:
+        ppr += '<w:ind w:left="%d" w:hanging="%d"/>' % (ind, hang)
+    return para([run(text, b=b, color=color, sz=sz, mono=mono)], ppr)
 
 
 class Counter(object):
-    """Hands out item numbers inside a handout and collects the answers.
-
-    A handout numbers its items from 1 and the key repeats those numbers, so
-    one object issues both: `n()` for the next number, `take()` for the answer
-    that goes with it.
-    """
+    """Hands out item numbers inside a handout and collects the answers."""
 
     def __init__(self):
         self.i = 0
@@ -90,230 +65,199 @@ class Counter(object):
         whys = whys or [''] * len(answers)
         return [self.take(a, w) for a, w in zip(answers, whys)]
 
+    def mark(self):
+        return (self.i, len(self.ans), len(self.why))
+
+    def reset(self, mark):
+        self.i, na, nw = mark
+        del self.ans[na:]
+        del self.why[nw:]
+
 
 class WS(object):
     """Workshop blocks, mixed into a Doc."""
 
     # ---------------------------------------------------------- page frame
     def cyclebar(self, letter, title):
-        """The band that opens a cycle: one idea, one band."""
-        self.body.append(_tbl(
-            [_row([_cell(para([run('CYCLE ' + letter, b=True, color='FFFFFF',
-                                   sz=19)],
-                              '<w:spacing w:before="40" w:after="40"/>'),
-                         INDIGO.lstrip('#'), 90, 11),
-                   _cell(para([run(title, b=True, color=INDIGO, sz=22)],
-                              '<w:spacing w:before="40" w:after="40"/>'),
-                         'F2F4FB', 90, 89)])],
-            INDIGO, 8, (11, 89)))
+        w = [11.0, 89.0]
+        self.body.append(table([row([
+            cell(_p('CYCLE ' + letter, 19, True, 'FFFFFF', 40, 40), w[0],
+                 INDIGO, 90),
+            cell(_p(title, 22, True, INDIGO, 40, 40), w[1], 'F2F4FB', 90)])],
+            w, INDIGO, 8))
         self.blank()
 
     def movebar(self, name, direction=''):
-        """A thin rule naming the move, so the student knows what is wanted."""
         col = MOVEC.get(name, INDIGO)
         rs = [run(name, b=True, color=col, sz=17)]
         if direction:
             rs.append(run('      ' + direction, color=GREY, sz=18))
-        self.body.append(_tbl(
-            [_row([_cell(para(rs, '<w:spacing w:before="30" w:after="30"/>'),
-                         None, 60)])],
-            col, 0, (100,)))
-        # a hairline under the bar, drawn as a one-cell table border
+        self.body.append(table(
+            [row([cell(para(rs, '<w:spacing w:before="30" w:after="30"/>'),
+                       100.0, None, 60)])], [100.0], col, 0))
         self.body.append(para([run('', sz=2)],
                               '<w:pBdr><w:top w:val="single" w:sz="6" '
                               'w:space="1" w:color="%s"/></w:pBdr>'
                               '<w:spacing w:after="30"/>' % col))
 
     def badge(self, kind, note=''):
-        """A coloured tag that tells the room what kind of work this is."""
         label, col = XBADGE[kind]
-        rs = [run('  ' + label + '  ', b=True, color='FFFFFF', sz=15)]
-        self.body.append(_tbl(
-            [_row([_cell(para(rs, '<w:spacing w:before="20" w:after="20"/>'),
-                         col.lstrip('#'), 60, 17),
-                   _cell(para([run(note, color=col, sz=18)],
-                              '<w:spacing w:before="20" w:after="20"/>'),
-                         None, 80, 83)])],
-            col, 0, (17, 83)))
+        w = [17.0, 83.0]
+        self.body.append(table([row([
+            cell(_p('  ' + label + '  ', 15, True, 'FFFFFF', 20, 20), w[0],
+                 col, 60),
+            cell(_p(note, 18, False, col, 20, 20), w[1], None, 80)])],
+            w, col, 0))
 
-    def checkbar(self, n, question, reloop):
-        """The gate at the end of a cycle, with the move to redo if missed."""
-        rs = [run('CHECKPOINT  ', b=True, color=RED, sz=16),
-              run('%d.  ' % n, b=True, color=INDIGO, sz=19),
-              run(question, sz=19)]
-        inner = [para(rs, '<w:spacing w:before="50" w:after="30"/>'),
-                 para([run('        ', u=True, sz=20),
-                       run('        ', u=True, sz=20),
-                       run('        ', u=True, sz=20),
-                       run('        ', u=True, sz=20)],
-                      '<w:spacing w:after="30"/><w:ind w:left="300"/>'),
-                 para([run('If you could not answer it: ' + reloop,
-                           color=RED, sz=17)],
-                      '<w:spacing w:after="50"/>')]
-        self.body.append(_tbl([_row([_cell(''.join(inner), 'FBF0EF', 120)])],
-                              RED, 12, (100,)))
+    def checkbar(self, n, question, options, reloop):
+        """The gate at the end of a cycle. Always multiple choice."""
+        inner = [para([run('CHECKPOINT  ', b=True, color=RED, sz=16),
+                       run('%d.  ' % n, b=True, color=INDIGO, sz=19),
+                       run(question, sz=19)],
+                      '<w:spacing w:before="50" w:after="24"/>')]
+        for i, o in enumerate(options):
+            inner.append(para(
+                [run('%s. ' % 'ABCD'[i], b=True, color=PERI, sz=18),
+                 run(o, sz=18)],
+                '<w:spacing w:after="16"/><w:ind w:left="500" '
+                'w:hanging="200"/>'))
+        inner.append(para([run('If you got it wrong: ' + reloop, color=RED,
+                               sz=17)],
+                          '<w:spacing w:before="20" w:after="50"/>'))
+        self.body.append(table(
+            [row([cell(''.join(inner), 100.0, 'FBF0EF', 120)])],
+            [100.0], RED, 12))
         self.blank()
 
     # ---------------------------------------------------------- items
-    def q(self, n, text, after=0, ind=0, sz=19):
-        """A numbered question. `after` is how many ruled lines follow."""
+    def q(self, n, text, sz=19, after=16):
         self.body.append(para(
             [run('%d.  ' % n, b=True, color=INDIGO, sz=sz),
              run(text, sz=sz)],
-            '<w:spacing w:before="40" w:after="%d"/><w:ind w:left="%d" '
-            'w:hanging="%d"/>' % (30 if after else 50, ind + 260, 260)))
-        for _ in range(after):
-            self.rule(ind + 300)
+            '<w:spacing w:before="40" w:after="%d"/>'
+            '<w:ind w:left="300" w:hanging="300"/>' % after))
 
-    def rule(self, ind=300, width=8700):
-        self.body.append(para(
-            [run(' ' * 2, sz=19)],
-            '<w:pBdr><w:bottom w:val="single" w:sz="4" w:space="2" '
-            'w:color="%s"/></w:pBdr>'
-            '<w:spacing w:before="40" w:after="40"/><w:ind w:left="%d"/>'
-            % (GREY_L, ind)))
-
-    def options(self, letters, texts, ind=300, sz=18):
-        """Lettered options laid out in one or two columns."""
-        wide = max(len(t) for t in texts) > 34
+    def options(self, letters, texts, sz=18):
+        """Lettered options, one or two columns depending on their length."""
+        wide = max(len(t) for t in texts) > 32
         if wide:
             for ltr, t in zip(letters, texts):
                 self.body.append(para(
                     [run('%s. ' % ltr, b=True, color=PERI, sz=sz),
                      run(t, sz=sz)],
-                    '<w:spacing w:after="20"/><w:ind w:left="%d" '
-                    'w:hanging="200"/>' % (ind + 200)))
+                    '<w:spacing w:after="18"/><w:ind w:left="560" '
+                    'w:hanging="260"/>'))
         else:
             half = (len(texts) + 1) // 2
+            w = [50.0, 50.0]
             rows = []
             for i in range(half):
-                cells = []
+                cs = []
                 for j in (i, i + half):
                     if j < len(texts):
-                        cells.append(_cell(para(
-                            [run('%s. ' % letters[j], b=True, color=PERI,
-                                 sz=sz), run(texts[j], sz=sz)],
-                            '<w:spacing w:before="12" w:after="12"/>'),
-                            None, 60, 50))
+                        xml = para([run('%s. ' % letters[j], b=True,
+                                        color=PERI, sz=sz),
+                                    run(texts[j], sz=sz)],
+                                   '<w:spacing w:before="12" w:after="12"/>')
                     else:
-                        cells.append(_cell(para([run('', sz=sz)]), None, 60,
-                                           50))
-                rows.append(_row(cells))
-            self.body.append(_tbl(rows, 'FFFFFF', 0, (50, 50)))
+                        xml = _p('', sz)
+                    cs.append(cell(xml, 50.0, None, 60))
+                rows.append(row(cs))
+            self.body.append(table(rows, w, PAPER, 0))
 
     def tf(self, n, text, sz=19):
-        """One true/false item with the two boxes on the line."""
         self.body.append(para(
             [run('%d.  ' % n, b=True, color=INDIGO, sz=sz),
              run(text + '   ', sz=sz),
-             run('  T  ', b=True, color=PERI, sz=sz),
+             run('  TRUE  ', b=True, color=PERI, sz=sz),
              run('/', color=GREY_L, sz=sz),
-             run('  F  ', b=True, color=PERI, sz=sz)],
+             run('  FALSE  ', b=True, color=PERI, sz=sz)],
             '<w:spacing w:before="30" w:after="30"/>'
-            '<w:ind w:left="260" w:hanging="260"/>'))
+            '<w:ind w:left="300" w:hanging="300"/>'))
 
-    def blanks(self, parts, sz=19, ind=0):
-        """A sentence with writing slots. `parts` alternates text and width."""
+    def blanks(self, parts, sz=19, ind=300):
         rs = []
         for p in parts:
             if isinstance(p, int):
                 rs.append(run(' ' * max(6, p), u=True, sz=sz))
             else:
                 rs.append(run(p, sz=sz))
-        self.body.append(para(rs, '<w:spacing w:before="40" w:after="40"/>'
+        self.body.append(para(rs, '<w:spacing w:before="36" w:after="36"/>'
                                   '<w:ind w:left="%d"/>' % ind))
 
+    def wordbank(self, words, label='choose from'):
+        self.body.append(para(
+            [run(label + ':  ', color=GREY, sz=16),
+             run('   ·   '.join(words), b=True, color=INDIGO, sz=16)],
+            '<w:spacing w:before="20" w:after="26"/><w:ind w:left="300"/>'))
+
     # ---------------------------------------------------------- models
-    def datapanel(self, title, rows, accent=INDIGO, note=''):
-        """M2 · the book's own figures, handed over as data for the cycle."""
-        out = [_row([_cell(para([run(title, b=True, color='FFFFFF', sz=17)],
-                                '<w:spacing w:before="40" w:after="40"/>'),
-                           accent.lstrip('#'), 90, 100)])]
+    def datapanel(self, title, rows, accent=INDIGO, note='', widths=None):
+        """M2 · the book's own figures, handed over as data."""
+        body = [r for r in rows if isinstance(r, (list, tuple))]
+        w = widths or widths_for(body)
+        out = [banner(title, w, accent)]
         for i, r in enumerate(rows):
-            if isinstance(r, (list, tuple)):
-                n = len(r)
-                wds = [100 // n] * n
-                out.append(_row([
-                    _cell(para([run(str(c), sz=17,
-                                    b=(i == 0),
-                                    color=INK if i else accent)],
-                               '<w:spacing w:before="26" w:after="26"/>'),
-                          CREAM if i % 2 else None, 80, wd)
-                    for c, wd in zip(r, wds)]))
-            else:
-                out.append(_row([_cell(para([run(str(r), sz=17)],
-                                            '<w:spacing w:before="26" '
-                                            'w:after="26"/>'),
-                                      None, 80, 100)]))
-        self.body.append(_tbl(out, accent, 6, (100,)))
+            if not isinstance(r, (list, tuple)):
+                out.append(row([cell(_p(str(r), 17, False, None, 26, 26),
+                                     sum(w), None, 80, span=len(w))]))
+                continue
+            r = list(r) + [''] * (len(w) - len(r))
+            out.append(row([
+                cell(_p(str(c), 16 if i else 15, i == 0,
+                        accent if i == 0 else INK, 26, 26),
+                     w[j], CREAM if (i and i % 2 == 0) else None, 80)
+                for j, c in enumerate(r[:len(w)])]))
+        self.body.append(table(out, w, accent, 6))
         if note:
-            self.body.append(para([run(note, color=GREY, sz=16)],
-                                  '<w:spacing w:after="60"/>'))
+            self.body.append(_p(note, 16, False, GREY, 10, 60))
         else:
             self.blank()
 
     def grid(self, headers, rows, accent=INDIGO, widths=None, note=''):
-        """A table whose cells may be filled or blank. '' means a writing slot."""
-        n = len(headers)
-        widths = widths or [100 // n] * n
-        out = [_row([_cell(para([run(h, b=True, color='FFFFFF', sz=16)],
-                                '<w:spacing w:before="36" w:after="36"/>'),
-                           accent.lstrip('#'), 80, w)
-                     for h, w in zip(headers, widths)])]
+        """A table whose cells may be filled or blank; '' is a writing slot."""
+        w = widths or widths_for([headers] + [list(r) for r in rows])
+        out = [row([cell(_p(h, 15, True, 'FFFFFF', 34, 34), w[j], accent, 80)
+                    for j, h in enumerate(headers)])]
         for i, r in enumerate(rows):
-            cells = []
-            for c, w in zip(r, widths):
+            r = list(r) + [''] * (len(w) - len(r))
+            cs = []
+            for j, c in enumerate(r[:len(w)]):
                 if c == '':
-                    cells.append(_cell(para([run('', sz=18)],
-                                            '<w:spacing w:before="54" '
-                                            'w:after="54"/>'),
-                                      'FFFFFF', 80, w))
+                    cs.append(cell(_p('', 18, before=54, after=54), w[j],
+                                   PAPER, 80))
                 else:
-                    cells.append(_cell(para([run(str(c), sz=17)],
-                                            '<w:spacing w:before="36" '
-                                            'w:after="36"/>'),
-                                      CREAM if i % 2 else None, 80, w))
-            out.append(_row(cells))
-        self.body.append(_tbl(out, accent, 6, tuple(widths)))
+                    cs.append(cell(_p(str(c), 16, before=32, after=32), w[j],
+                                   CREAM if i % 2 else None, 80))
+            out.append(row(cs))
+        self.body.append(table(out, w, accent, 6))
         if note:
-            self.body.append(para([run(note, color=GREY, sz=16)],
-                                  '<w:spacing w:after="60"/>'))
+            self.body.append(_p(note, 16, False, GREY, 10, 60))
         else:
             self.blank()
 
     def trace(self, title, steps, accent=INDIGO):
         """M3 · a worked solution, each step beside the reason for it."""
-        out = [_row([_cell(para([run(title, b=True, color='FFFFFF', sz=17)],
-                                '<w:spacing w:before="40" w:after="40"/>'),
-                           accent.lstrip('#'), 90, 100)])]
-        rows = []
+        w = widths_for([[s, r] for s, r in steps])
+        out = [banner(title, w, accent)]
         for i, (step, why) in enumerate(steps):
-            rows.append(_row([
-                _cell(para([run(step, sz=18, mono=('=' in step or
-                                                   step[:1].isdigit()))],
-                           '<w:spacing w:before="30" w:after="30"/>'),
-                      CREAM if i % 2 else None, 80, 52),
-                _cell(para([run(why, sz=16, color=GREY)],
-                           '<w:spacing w:before="30" w:after="30"/>'),
-                      CREAM if i % 2 else None, 80, 48)]))
-        self.body.append(_tbl(out, accent, 6, (100,)))
-        self.body.append(_tbl(rows, accent, 6, (52, 48)))
+            fill = CREAM if i % 2 else None
+            out.append(row([
+                cell(_p(step, 17, before=30, after=30,
+                        mono=('=' in step)), w[0], fill, 80),
+                cell(_p(why, 15, False, GREY, 30, 30), w[1], fill, 80)]))
+        self.body.append(table(out, w, accent, 6))
         self.blank()
 
     def ruleframe(self, n, lead, skeleton, words):
-        """M5 · the student writes the rule, with the obligatory words given.
-
-        The frame supplies the shape of the sentence and the vocabulary that
-        must appear in it. What it never supplies is the rule — that is the
-        point of the move, and the book's own wording waits in the key.
-        """
-        rs = [run('%d.  ' % n, b=True, color=TEAL, sz=19), run(lead, sz=19)]
-        inner = [para(rs, '<w:spacing w:before="46" w:after="26"/>')]
+        """M5 · the student writes the rule, with the words supplied."""
+        inner = [para([run('%d.  ' % n, b=True, color=TEAL, sz=19),
+                       run(lead, sz=19)],
+                      '<w:spacing w:before="46" w:after="26"/>')]
         inner.append(para([run('use every one of these words:  ', color=GREY,
                                sz=16),
                            run('  ·  '.join(words), b=True, color=TEAL,
-                               sz=16)],
-                          '<w:spacing w:after="30"/>'))
+                               sz=16)], '<w:spacing w:after="30"/>'))
         for line in skeleton:
             prs = []
             for p in line:
@@ -323,107 +267,88 @@ class WS(object):
                     prs.append(run(p, sz=19))
             inner.append(para(prs, '<w:spacing w:before="26" w:after="26"/>'
                                    '<w:ind w:left="200"/>'))
-        self.body.append(_tbl([_row([_cell(''.join(inner), 'EEF6F4', 120)])],
-                              TEAL, 10, (100,)))
+        self.body.append(table([row([cell(''.join(inner), 100.0, 'EEF6F4',
+                                          120)])], [100.0], TEAL, 10))
         self.blank()
 
-    def contrast(self, title, cases, question, accent=AMBER):
+    def contrast(self, title, cases, question, options, accent=AMBER):
         """M6 · cases that differ on one dimension, side by side."""
         n = len(cases)
-        w = 100 // n
-        head = _row([_cell(para([run(c[0], b=True, color=accent, sz=17)],
-                                '<w:spacing w:before="34" w:after="34"/>'),
-                           'FBF4EA', 80, w) for c in cases])
-        bodyr = []
+        w = [100.0 / n] * n
+        head = row([cell(_p(c[0], 16, True, accent, 34, 34), w[j], 'FBF4EA',
+                         80) for j, c in enumerate(cases)])
         depth = max(len(c[1]) for c in cases)
+        rows = []
         for i in range(depth):
-            bodyr.append(_row([
-                _cell(para([run(c[1][i] if i < len(c[1]) else '', sz=17)],
-                           '<w:spacing w:before="26" w:after="26"/>'),
-                      None, 80, w) for c in cases]))
-        self.body.append(para([run(title, b=True, color=accent, sz=17)],
-                              '<w:spacing w:before="50" w:after="24"/>'))
-        self.body.append(_tbl([head] + bodyr, accent, 6, tuple([w] * n)))
-        self.body.append(para([run(question, sz=18)],
-                              '<w:spacing w:before="36" w:after="20"/>'))
-        self.rule(300)
-        self.rule(300)
-        self.blank()
+            rows.append(row([
+                cell(_p(c[1][i] if i < len(c[1]) else '', 16, before=26,
+                        after=26), w[j], None, 80)
+                for j, c in enumerate(cases)]))
+        self.body.append(_p(title, 17, True, accent, 50, 24))
+        self.body.append(table([head] + rows, w, accent, 6))
+        self.body.append(_p(question, 18, before=36, after=16))
+        return options
 
     # ---------------------------------------------------------- interactions
     def rolecards(self, intro, roles, accent=PLUM):
-        """X2 · one viewpoint each, then the team fills one grid."""
         self.badge('role', intro)
         n = len(roles)
-        w = 100 // n
-        head = _row([_cell(para([run(r[0], b=True, color='FFFFFF', sz=16)],
-                                '<w:spacing w:before="32" w:after="32"/>'),
-                           accent.lstrip('#'), 80, w) for r in roles])
-        body = _row([_cell(para([run(r[1], sz=16)],
-                                '<w:spacing w:before="30" w:after="30"/>'),
-                           'F7F2F8', 80, w) for r in roles])
-        ans = _row([_cell(''.join(para([run('', sz=18)],
-                                       '<w:spacing w:before="60" '
-                                       'w:after="60"/>')
-                                  for _ in range(2)), 'FFFFFF', 80, w)
-                    for r in roles])
-        self.body.append(_tbl([head, body, ans], accent, 6, tuple([w] * n)))
+        w = [100.0 / n] * n
+        head = row([cell(_p(r[0], 15, True, 'FFFFFF', 32, 32), w[j], accent,
+                         80) for j, r in enumerate(roles)])
+        body = row([cell(_p(r[1], 15, before=30, after=30), w[j], 'F7F2F8',
+                         80) for j, r in enumerate(roles)])
+        slot = row([cell(''.join(_p('', 18, before=60, after=60)
+                                 for _ in range(2)), w[j], PAPER, 80)
+                    for j in range(n)])
+        self.body.append(table([head, body, slot], w, accent, 6))
         self.blank()
 
     def errorhunt(self, intro, lines, accent=RED):
-        """X3 · a worked solution with planted errors, numbered for marking."""
+        """X3 · a worked solution with planted errors, each one marked
+        right or wrong by letter. No free writing."""
         self.badge('hunt', intro)
-        rows = []
+        w = [7.0, 63.0, 30.0]
+        out = [row([
+            cell(_p('', 15, before=28, after=28), w[0], accent, 70),
+            cell(_p('the line as written', 15, True, 'FFFFFF', 28, 28), w[1],
+                 accent, 70),
+            cell(_p('right, or wrong?', 15, True, 'FFFFFF', 28, 28), w[2],
+                 accent, 70)])]
         for i, ln in enumerate(lines):
-            rows.append(_row([
-                _cell(para([run(chr(97 + i), b=True, color=accent, sz=16)],
-                           '<w:spacing w:before="28" w:after="28"/>'),
-                      'FBF0EF', 70, 6),
-                _cell(para([run(ln, sz=18, mono=True)],
-                           '<w:spacing w:before="28" w:after="28"/>'),
-                      None, 70, 60),
-                _cell(para([run('', sz=18)],
-                           '<w:spacing w:before="28" w:after="28"/>'),
-                      'FFFFFF', 70, 34)]))
-        self.body.append(_tbl(
-            [_row([_cell(para([run('the solution as written', b=True,
-                                   color='FFFFFF', sz=15)],
-                              '<w:spacing w:before="28" w:after="28"/>'),
-                         accent.lstrip('#'), 70, 66),
-                   _cell(para([run('right, or what is wrong with it', b=True,
-                                   color='FFFFFF', sz=15)],
-                              '<w:spacing w:before="28" w:after="28"/>'),
-                         accent.lstrip('#'), 70, 34)])] + rows,
-            accent, 6, (6, 60, 34)))
+            out.append(row([
+                cell(_p(chr(97 + i), 16, True, accent, 28, 28), w[0],
+                     'FBF0EF', 70),
+                cell(_p(ln, 17, before=28, after=28), w[1], None, 70),
+                cell(para([run('  RIGHT  ', b=True, color=PERI, sz=15),
+                           run('/', color=GREY_L, sz=15),
+                           run('  WRONG  ', b=True, color=PERI, sz=15)],
+                          '<w:spacing w:before="28" w:after="28"/>'),
+                     w[2], PAPER, 70)]))
+        self.body.append(table(out, w, accent, 6))
         self.blank()
 
-    def predict(self, prompt, after, accent=AMBER):
-        """X4 · the prediction is written before the evidence is read."""
+    def predict(self, prompt, options, after='', accent=AMBER):
         self.badge('predict', prompt)
-        head = _row([
-            _cell(para([run('what I think will happen', b=True, color=accent,
-                            sz=16)], '<w:spacing w:before="30" w:after="30"/>'),
-                  'FBF4EA', 80, 50),
-            _cell(para([run('what the figures actually show', b=True,
-                            color=accent, sz=16)],
-                       '<w:spacing w:before="30" w:after="30"/>'),
-                  'FBF4EA', 80, 50)])
-        slot = _row([
-            _cell(''.join(para([run('', sz=18)], '<w:spacing w:before="66" '
-                                                 'w:after="66"/>')
-                          for _ in range(2)), 'FFFFFF', 80, 50),
-            _cell(''.join(para([run('', sz=18)], '<w:spacing w:before="66" '
-                                                 'w:after="66"/>')
-                          for _ in range(2)), 'FFFFFF', 80, 50)])
-        self.body.append(_tbl([head, slot], accent, 6, (50, 50)))
+        w = [50.0, 50.0]
+        head = row([
+            cell(_p('what I think will happen', 15, True, accent, 30, 30),
+                 w[0], 'FBF4EA', 80),
+            cell(_p('what the figures actually show', 15, True, accent, 30,
+                    30), w[1], 'FBF4EA', 80)])
+        slot = row([
+            cell(''.join(_p('', 18, before=60, after=60) for _ in range(2)),
+                 w[0], PAPER, 80),
+            cell(''.join(_p('', 18, before=60, after=60) for _ in range(2)),
+                 w[1], PAPER, 80)])
+        self.body.append(table([head, slot], w, accent, 6))
         if after:
-            self.body.append(para([run(after, color=GREY, sz=16)],
-                                  '<w:spacing w:after="60"/>'))
+            self.body.append(_p(after, 16, False, GREY, 10, 60))
         self.blank()
 
     def teachback(self, n, audience, task, words, lines=5, accent=TEAL):
-        """X5 · explain it to a named reader, using the required words."""
-        self.badge('teach', 'Write it for %s — not for the marker.' % audience)
+        self.badge('teach', 'Write it for %s — not for the marker.'
+                   % audience)
         inner = [para([run('%d.  ' % n, b=True, color=accent, sz=19),
                        run(task, sz=19)],
                       '<w:spacing w:before="40" w:after="24"/>')]
@@ -431,88 +356,97 @@ class WS(object):
                                color=GREY, sz=16),
                            run('  ·  '.join(words), b=True, color=accent,
                                sz=16)], '<w:spacing w:after="36"/>'))
-        self.body.append(_tbl([_row([_cell(''.join(inner), 'EEF6F4', 110)])],
-                              accent, 10, (100,)))
+        self.body.append(table([row([cell(''.join(inner), 100.0, 'EEF6F4',
+                                          110)])], [100.0], accent, 10))
         for _ in range(lines):
             self.rule(200)
         self.blank()
+
+    def rule(self, ind=300):
+        self.body.append(para(
+            [run('  ', sz=19)],
+            '<w:pBdr><w:bottom w:val="single" w:sz="4" w:space="2" '
+            'w:color="%s"/></w:pBdr>'
+            '<w:spacing w:before="40" w:after="40"/><w:ind w:left="%d"/>'
+            % (GREY_L, ind)))
 
     def sortboard(self, intro, regions, items, accent=BLUE):
         """X6 · regions printed on the page, items written into them."""
         self.badge('sort', intro)
         self.body.append(para(
-            [run('the items:  ', color=GREY, sz=16)]
-            + [run('  ·  '.join(items), sz=17)],
+            [run('the items:  ', color=GREY, sz=16),
+             run('   ·   '.join(items), sz=17)],
             '<w:spacing w:before="20" w:after="40"/>'))
         n = len(regions)
-        w = 100 // n
-        head = _row([_cell(para([run(r, b=True, color='FFFFFF', sz=16)],
-                                '<w:spacing w:before="32" w:after="32"/>'),
-                           accent.lstrip('#'), 80, w) for r in regions])
-        pit = _row([_cell(''.join(para([run('', sz=18)],
-                                       '<w:spacing w:before="54" '
-                                       'w:after="54"/>') for _ in range(3)),
-                          'FFFFFF', 80, w) for _ in regions])
-        self.body.append(_tbl([head, pit], accent, 6, tuple([w] * n)))
-        self.blank()
-
-    def speedround(self, items, accent=AMBER):
-        """X8 · retrieval from earlier handouts, before anything new starts."""
-        self.badge('speed', 'Answer from memory. Do not look anything up.')
-        rows = []
-        half = (len(items) + 1) // 2
-        for i in range(half):
-            cells = []
-            for j in (i, i + half):
-                if j < len(items):
-                    cells.append(_cell(para(
-                        [run('%d. ' % (j + 1), b=True, color=accent, sz=16),
-                         run(items[j], sz=16),
-                         run('  ' + ' ' * 10, u=True, sz=16)],
-                        '<w:spacing w:before="22" w:after="22"/>'),
-                        None, 70, 50))
-                else:
-                    cells.append(_cell(para([run('', sz=16)]), None, 70, 50))
-            rows.append(_row(cells))
-        self.body.append(_tbl(rows, accent, 4, (50, 50)))
+        w = [100.0 / n] * n
+        head = row([cell(_p(r, 15, True, 'FFFFFF', 32, 32), w[j], accent, 80)
+                    for j, r in enumerate(regions)])
+        pit = row([cell(''.join(_p('', 18, before=54, after=54)
+                                for _ in range(3)), w[j], PAPER, 80)
+                   for j in range(n)])
+        self.body.append(table([head, pit], w, accent, 6))
         self.blank()
 
     def matchpairs(self, left, right, start=1, accent=PERI):
-        """T4 · numbered items on the left, lettered choices on the right.
-
-        The choices are printed once, above the items, so a student never has
-        to turn back to a previous block to read them. Nothing on these sheets
-        refers to anything that is not on the same page.
-        """
+        """T4 · the choices are printed above the items, never elsewhere."""
         letters = [chr(65 + i) for i in range(len(right))]
-        rows = []
-        half = (len(right) + 1) // 2
-        for i in range(half):
-            cells = []
-            for j in (i, i + half):
-                if j < len(right):
-                    cells.append(_cell(para(
-                        [run('%s  ' % letters[j], b=True, color=accent, sz=16),
-                         run(right[j], sz=16)],
-                        '<w:spacing w:before="20" w:after="20"/>'),
-                        CREAM, 70, 50))
-                else:
-                    cells.append(_cell(para([run('', sz=16)]), CREAM, 70, 50))
-            rows.append(_row(cells))
-        self.body.append(_tbl(rows, accent, 4, (50, 50)))
+        wide = max(len(r) for r in right) > 34
+        if wide:
+            w = [100.0]
+            rows = [row([cell(para(
+                [run('%s  ' % letters[j], b=True, color=accent, sz=16),
+                 run(right[j], sz=16)],
+                '<w:spacing w:before="18" w:after="18"/>'), 100.0, CREAM, 70)])
+                for j in range(len(right))]
+        else:
+            w = [50.0, 50.0]
+            half = (len(right) + 1) // 2
+            rows = []
+            for i in range(half):
+                cs = []
+                for j in (i, i + half):
+                    if j < len(right):
+                        xml = para([run('%s  ' % letters[j], b=True,
+                                        color=accent, sz=16),
+                                    run(right[j], sz=16)],
+                                   '<w:spacing w:before="18" w:after="18"/>')
+                    else:
+                        xml = _p('', 16)
+                    cs.append(cell(xml, 50.0, CREAM, 70))
+                rows.append(row(cs))
+        self.body.append(table(rows, w, accent, 4))
         self.blank()
         for i, lt in enumerate(left):
             self.body.append(para(
                 [run('%d.  ' % (start + i), b=True, color=INDIGO, sz=18),
-                 run(lt, sz=18),
-                 run('      ', sz=18),
+                 run(lt, sz=18), run('      ', sz=18),
                  run('        ', u=True, sz=18)],
                 '<w:spacing w:before="24" w:after="24"/>'
                 '<w:ind w:left="300" w:hanging="300"/>'))
         self.blank()
 
+    def speedround(self, pairs, accent=AMBER):
+        """X8 · retrieval from earlier handouts, as true or false so that
+        it can be marked in sixty seconds without a key."""
+        self.badge('speed', 'Mark each one TRUE or FALSE from memory. Sixty '
+                            'seconds, no looking back.')
+        w = [78.0, 22.0]
+        rows = []
+        for i, (stem, _a) in enumerate(pairs):
+            rows.append(row([
+                cell(para([run('%d. ' % (i + 1), b=True, color=accent, sz=16),
+                           run(stem, sz=16)],
+                          '<w:spacing w:before="20" w:after="20"/>'),
+                     w[0], None if i % 2 else CREAM, 70),
+                cell(para([run(' T ', b=True, color=PERI, sz=16),
+                           run('/', color=GREY_L, sz=16),
+                           run(' F ', b=True, color=PERI, sz=16)],
+                          '<w:spacing w:before="20" w:after="20"/>'),
+                     w[1], None if i % 2 else CREAM, 70)]))
+        self.body.append(table(rows, w, accent, 4))
+        self.blank()
+
     def pairpoint(self, note, settle):
-        """X1 · both answer alone, then compare; the sheet settles the draw."""
         self.badge('pair', note)
         self.body.append(para(
             [run('If you disagree: ', b=True, color=TEAL, sz=16),
@@ -520,49 +454,50 @@ class WS(object):
             '<w:spacing w:before="20" w:after="50"/>'))
 
     def buildframe(self, n, task, accent=INDIGO):
-        """X7 · the blank twin, introduced."""
         self.badge('build', 'Close the earlier pages first.')
         self.body.append(para(
             [run('%d.  ' % n, b=True, color=accent, sz=19), run(task, sz=19)],
             '<w:spacing w:before="30" w:after="40"/>'))
 
+    def previewbar(self, title, note):
+        """The band that opens page 1 of every handout."""
+        self.body.append(table([row([cell(
+            ''.join([_p(title, 20, True, 'FFFFFF', 50, 16),
+                     _p(note, 16, False, 'E8EAF6', 0, 50)]),
+            100.0, INDIGO, 110)])], [100.0], INDIGO, 8))
+        self.blank()
+
     # ---------------------------------------------------------- key side
     def keyhead(self, t):
-        self.body.append(_tbl(
-            [_row([_cell(para([run(t, b=True, color='FFFFFF', sz=21)],
-                              '<w:spacing w:before="60" w:after="60"/>'),
-                         INDIGO.lstrip('#'), 110, 100)])],
-            INDIGO, 8, (100,)))
+        self.body.append(table([row([cell(
+            _p(t, 21, True, 'FFFFFF', 60, 60), 100.0, INDIGO, 110)])],
+            [100.0], INDIGO, 8))
         self.blank()
 
     def keygrid3(self, answers, cols=3):
-        """Short answers, three to a row, numbered as the handout numbers them."""
-        rows = []
+        w = [100.0 / cols] * cols
         per = (len(answers) + cols - 1) // cols
+        rows = []
         for i in range(per):
-            cells = []
+            cs = []
             for k in range(cols):
                 j = i + k * per
                 if j < len(answers):
                     n, a = answers[j]
-                    cells.append(_cell(para(
-                        [run('%d  ' % n, b=True, color=PERI, sz=16),
-                         run(str(a), sz=17)],
-                        '<w:spacing w:before="22" w:after="22"/>'),
-                        CREAM if i % 2 else None, 70, 100 // cols))
+                    xml = para([run('%d  ' % n, b=True, color=PERI, sz=16),
+                                run(str(a), sz=17)],
+                               '<w:spacing w:before="22" w:after="22"/>')
                 else:
-                    cells.append(_cell(para([run('', sz=16)]), None, 70,
-                                      100 // cols))
-            rows.append(_row(cells))
-        self.body.append(_tbl(rows, INDIGO, 4,
-                              tuple([100 // cols] * cols)))
+                    xml = _p('', 16)
+                cs.append(cell(xml, w[k], CREAM if i % 2 else None, 70))
+            rows.append(row(cs))
+        self.body.append(table(rows, w, INDIGO, 4))
         self.blank()
 
-    def keywhy(self, whys, cap=16):
+    def keywhy(self, whys, cap=24):
         if not whys:
             return
-        self.body.append(para([run('why', b=True, color=INDIGO, sz=18)],
-                              '<w:spacing w:before="60" w:after="20"/>'))
+        self.body.append(_p('why', 18, True, INDIGO, 60, 20))
         for n, w in whys[:cap]:
             self.body.append(para(
                 [run('%d  ' % n, b=True, color=PERI, sz=16),
@@ -572,15 +507,13 @@ class WS(object):
         self.blank()
 
     def keyrule(self, n, booktext):
-        """The book's own wording for a rule frame, for the student to compare."""
-        self.body.append(_tbl(
-            [_row([_cell(''.join([
-                para([run('%d  ' % n, b=True, color=TEAL, sz=17),
-                      run('what the book says', b=True, color=TEAL, sz=16)],
-                     '<w:spacing w:before="34" w:after="18"/>'),
-                para([run(booktext, sz=17)],
-                     '<w:spacing w:after="34"/><w:ind w:left="300"/>')]),
-                'EEF6F4', 100)])], TEAL, 8, (100,)))
+        self.body.append(table([row([cell(''.join([
+            para([run('%d  ' % n, b=True, color=TEAL, sz=17),
+                  run('what the book says', b=True, color=TEAL, sz=16)],
+                 '<w:spacing w:before="34" w:after="18"/>'),
+            para([run(booktext, sz=17)],
+                 '<w:spacing w:after="34"/><w:ind w:left="300"/>')]),
+            100.0, 'EEF6F4', 100)])], [100.0], TEAL, 8))
         self.blank()
 
 

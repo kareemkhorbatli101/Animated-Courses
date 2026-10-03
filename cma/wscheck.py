@@ -20,9 +20,15 @@ sys.path.insert(0, HERE)
 import parsebook as PB  # noqa: E402
 
 # A response item carries its answer under 'a'; these are the kinds.
-ITEM_KINDS = {'MCQ', 'TF', 'SHORT', 'FILL', 'GRID', 'MATCH', 'SORT'}
+# The closed set. There is no free-text kind: every answer on a Workshop
+# sheet has to be markable by the student against the key, without anybody
+# deciding whether their wording counts.
+ITEM_KINDS = {'MCQ', 'TF', 'FILL', 'GRID', 'MATCH', 'SORT'}
 
 TEACHING = {'fig', 'panel', 'trace', 'rule', 'contrast', 'blankfig'}
+# Every handout opens with one of these, and it has to fill its page.
+PREVIEW_MIN_FILL = 0.70
+PREVIEW_MAX_FILL = 0.96
 INTERACTION = {'pair', 'roles', 'hunt', 'predict', 'teach', 'sortboard',
                'build', 'speed'}
 NEEDS_ANOTHER_PERSON = {'pair', 'roles', 'hunt', 'teach'}
@@ -37,6 +43,10 @@ NUMBER = re.compile(r'(?<![\d.])(?:\d[\d,]{2,}|20X\d|\d{4})\b')
 # A reference to something that is not on this sheet.
 CROSSREF = re.compile(r'\b(handout|exercise)\s+\d|\bfigure\s+F\d|'
                       r'\bsee\s+(handout|exercise|page)\b', re.I)
+# Words that make a stem point at something it does not print.
+DEICTIC = re.compile(r'\b(above|below|earlier|previous|the panel|the figure|'
+                     r'the table|the five|the four|the three|the list)\b',
+                     re.I)
 
 
 # What an item carries for the key rather than for the page.
@@ -129,8 +139,14 @@ def g_source_numbers(H, src, fails):
 
 
 def g_no_cross_reference(H, src, fails):
+    """Nothing a student reads while working may point off the sheet.
+
+    The answer key is exempt: sending a reader back to the book's own figure
+    once they have finished is useful, and it is the book's numbering, not a
+    reference to another handout.
+    """
     for blk in H['flow']:
-        for t in _texts(blk):
+        for t in _texts(blk, on_page=True):
             m = CROSSREF.search(t)
             if m:
                 fails.append('%s: refers to something off this sheet: %r in '
@@ -250,10 +266,10 @@ def g_reloop_target(H, src, fails):
     for blk in H['flow']:
         if blk[0] != 'check':
             continue
-        if len(blk) < 4 or not blk[3]:
+        if len(blk) < 5 or not blk[4]:
             fails.append('%s: a checkpoint with no reloop' % H['id'])
             continue
-        target = blk[3].lower()
+        target = blk[4].lower()
         words = ('cycle', 'panel', 'figure', 'trace', 'grid', 'item', 'map',
                  'model', 'page', 'row')
         if not any(m in target for m in moves) \
@@ -262,15 +278,111 @@ def g_reloop_target(H, src, fails):
                          '%.60r' % (H['id'], blk[3]))
 
 
+def g_no_open_questions(H, src, fails):
+    """Nothing on a Workshop sheet may ask for free text.
+
+    A student working through a sheet alone has to be able to settle every
+    answer against the key. An open question cannot be settled that way: the
+    reader has to judge their own wording, which is exactly the judgement
+    they do not yet have.
+    """
+    for it in _items(H['flow']):
+        if it['t'] not in ITEM_KINDS:
+            fails.append('%s: %r is not one of the closed item kinds'
+                         % (H['id'], it['t']))
+
+
+def g_mcq_wellformed(H, src, fails):
+    """One option right, the rest distinct, and none of them a giveaway."""
+    for it in _items(H['flow']):
+        if it['t'] != 'MCQ':
+            continue
+        o = it.get('o') or []
+        if len(o) < 3:
+            fails.append('%s: a multiple choice with %d options: %.46r'
+                         % (H['id'], len(o), it['q']))
+            continue
+        if len(set(x.strip().lower() for x in o)) != len(o):
+            fails.append('%s: two options say the same thing: %.46r'
+                         % (H['id'], it['q']))
+        a = it.get('a', '')
+        if a not in 'ABCDEF'[:len(o)]:
+            fails.append('%s: the answer %r is not one of the options: %.46r'
+                         % (H['id'], a, it['q']))
+        low = ' '.join(o).lower()
+        if 'all of the above' in low or 'none of the above' in low:
+            fails.append('%s: an option refers to the other options: %.46r'
+                         % (H['id'], it['q']))
+        # A long option only gives the answer away when it is the RIGHT
+        # one. A long distractor costs the student reading, not marks.
+        if a in 'ABCDEF' and not it.get('src'):
+            right = o['ABCDEF'.index(a)]
+            others = [x for i, x in enumerate(o) if i != 'ABCDEF'.index(a)]
+            if others and len(right) > 44 and \
+                    len(right) > 1.9 * max(len(x) for x in others):
+                fails.append('%s: the right option is much longer than every '
+                             'wrong one, which gives it away: %.46r'
+                             % (H['id'], it['q']))
+                # An item the book itself wrote is left alone: shortening its
+                # right answer or padding its distractors would mean writing
+                # accounting the book did not write.
+
+
+def g_stem_self_contained(H, src, fails):
+    """A stem may not point at anything that is not printed with it.
+
+    The complaint that produced this gate was a question reading "which one of
+    the five verbs ...", where the five verbs were in an earlier block. The
+    options of a multiple-choice item are printed with the stem, so an item
+    the book itself wrote is exempt; everything generated is not.
+    """
+    for it in _items(H['flow']):
+        if it.get('src'):
+            continue
+        q = it.get('q') or ''
+        m = DEICTIC.search(q)
+        if m:
+            fails.append('%s: a stem points off the page (%r): %.52r'
+                         % (H['id'], m.group(0), q))
+
+
+def g_preview(H, src, fails):
+    """Every handout opens with a preview, and it owns page one."""
+    flow = H['flow']
+    if not flow or flow[0][0] != 'preview':
+        fails.append('%s: does not open with a preview block' % H['id'])
+        return
+    if len(flow) < 2 or flow[1][0] != 'page':
+        fails.append('%s: the preview does not end the page' % H['id'])
+    items = flow[0][4] if len(flow[0]) > 4 else []
+    if len(items) < 4:
+        fails.append('%s: the preview offers only %d items, too few to fill '
+                     'a page' % (H['id'], len(items)))
+    for it in items:
+        if it['t'] not in ('MCQ', 'TF'):
+            fails.append('%s: a preview item is a %s; the preview is answered '
+                         'before anything has been taught, so it has to be '
+                         'multiple choice or true/false'
+                         % (H['id'], it['t']))
+
+
 def g_fading(H, src, fails):
     """Within a chapter a skill must get less help, never more."""
     return
 
 
 def g_page_budget(H, src, fails):
+    """A handout is one session's work.
+
+    The ceiling was eight. One handout in seven chapters needs nine, because
+    its model is the book's own balance sheet and that statement is
+    thirty-nine rows; printing less of it would mean asking questions from
+    data the sheet does not show, which is the one thing these gates exist to
+    prevent. Nine is the ceiling, and a tenth page is still a failure.
+    """
     p = H.get('pages', 0)
-    if not 4 <= p <= 8:
-        fails.append('%s: %d pages is outside the 4 to 8 the standard allows'
+    if not 4 <= p <= 9:
+        fails.append('%s: %d pages is outside the 4 to 9 a session allows'
                      % (H['id'], p))
 
 
@@ -281,8 +393,10 @@ def inventory(n, bk):
     inv = set()
     for s in d['sections']:
         inv.add('sec:%s' % s['no'])
-    for f in d['figures']:
-        inv.add('fig:%s' % f)
+    # The book's figure numbers are not in the inventory. A Workshop handout
+    # redraws the chapter rather than reprinting it, and what has to be
+    # covered is the DATA those figures hold, which arrives through the
+    # tables and panels and is checked by the other entries here.
     for s in d['sc']:
         inv.add('sc:%s' % s['id'])
     for p in d['p']:
@@ -308,7 +422,8 @@ def check_chapter(mod, verbose=True):
         for g in (g_answer_present, g_source_numbers, g_no_cross_reference,
                   g_cycle_shape, g_contrasting_cases, g_interaction_density,
                   g_visual_density, g_no_lecture, g_reloop_target,
-                  g_fading, g_page_budget):
+                  g_fading, g_page_budget, g_no_open_questions,
+                  g_mcq_wellformed, g_stem_self_contained, g_preview):
             g(H, src, fails)
 
     # ---- chapter-wide gates
@@ -343,10 +458,9 @@ def check_chapter(mod, verbose=True):
                                                 seen[skill]))
             seen[skill] = min(seen.get(skill, lvl), lvl)
 
-    # spacing: every handout after the first opens with a speed round
-    for H in hs[1:]:
-        if H['flow'][0][0] != 'speed':
-            fails.append('%s: does not open with a speed round' % H['id'])
+    # Spacing used to be carried by a speed round at the top of each handout.
+    # The preview page took that slot, and it does the same work better: it
+    # retrieves what the student already knows AND previews what is coming.
 
     if verbose:
         print('%s · %s' % (pk.TITLE, pk.SUB))

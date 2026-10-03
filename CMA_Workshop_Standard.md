@@ -407,3 +407,157 @@ the built file rather than trusting the height model. That is the same
 verification the three first-generation books were delivered under. The
 figures themselves were proofed by eye, as images, before being embedded.
 
+---
+
+## 9 · Second revision — what review found, and what changed
+
+Reading the built documents turned up four faults. Three were mine; one was a
+rule that had been written down but never enforced against a real page.
+
+### The tables were broken, not merely ugly
+
+The first column of every data panel took far too much width and the rest were
+squeezed. The cause was not a width setting: **22 of the 388 tables declared a
+one-column grid and then emitted rows of two, three or four cells.** A banner
+row was being built as a single short row rather than as a cell spanning the
+table, so Word was left to reconcile a grid that disagreed with its own
+contents, and it reconciled it by giving column one the banner's width.
+
+Three things changed:
+
+- a banner is now one cell with `gridSpan`, so every row covers exactly the
+  columns the grid declares;
+- column widths are computed **from the content** — a blend of each column's
+  longest and average cell, with a floor of 9 per cent and a ceiling of 52 —
+  rather than by dividing 100 by the number of columns;
+- the layout is `fixed`, so Word uses the widths it is given instead of
+  re-sizing to fit.
+
+And because a renderer can be wrong in ways the source looks right, this is
+now checked **against the built file, not against the Python**. `wslint`
+opens the .docx and fails the build if any table has a row that does not
+cover the grid, a column that disagrees with itself between rows, a column
+under 8 per cent or over 62, a multi-column table without a fixed layout, or
+an image that is referenced but missing. All fifteen documents pass it.
+
+### No open questions anywhere
+
+Every item is now one of six closed kinds. Across the seven chapters:
+
+| Kind | Count |
+|---|---|
+| Multiple choice | 872 |
+| True / false | 191 |
+| Matching | 28 |
+| Sorting into categories | 8 |
+| Table to complete | 2 |
+| **Open questions** | **0** |
+
+The reason is not neatness. A student working through a sheet alone has to be
+able to settle every answer against the key; an open question asks them to
+judge their own wording, which is exactly the judgement they do not yet have.
+
+### A stem may not point at anything it does not print
+
+The example that prompted this was real and the complaint was right:
+
+> 27. recognize  28. measure  29. record  30. present  31. disclose
+> **32. Which one of the five verbs is the only one that does not put anything in the statements themselves?**
+
+"The five verbs" were in a different block. Item 32 could not be answered from
+item 32. A gate now rejects any generated stem containing *above*, *below*,
+*earlier*, *the panel*, *the figure*, *the table*, *the five*, *the four*, *the
+three* or *the list*. Items the book itself wrote are exempt, because their
+options are printed with them.
+
+The same rule reshaped how questions are generated from a table. The first
+attempt asked *"'Current asset' — which account is this?"*, which has several
+defensible answers whenever two rows share a value. Questions now run the
+other way — *"Which category does the book give for Prepaid rent?"* — which is
+always a function: one row, one column, exactly one right answer, and the
+wrong options are the column's own other values.
+
+Two more lints came out of the same reading: a column heading is only used as
+the noun of a question when it reads as one (*Measured at* does not), and a
+row of a table that says *"Check with Figure F01-10"* is an instruction to
+look elsewhere, not data, so it is dropped.
+
+### Page one is now the preview, and it is full
+
+Every handout opens with a page of multiple-choice and true/false items
+answered **before anything has been taught** — the pretesting effect, and a
+preview of what the session will settle. It is not sized by counting items in
+the generator: the builder measures each item as it emits it and stops when
+the page is full, so the generator offers up to sixteen candidates and the
+page takes what fits.
+
+Measured across all 41 handouts: **mean fill 0.84, lowest 0.71, highest 0.90,
+and none over.**
+
+### The seven chapters
+
+| Ch | Chapter | Handouts | Pages | Items |
+|---|---|---|---|---|
+| 1 | The Language and Framework of Financial Reporting | 7 | 40 | 212 |
+| 2 | The Balance Sheet | 6 | 38 | 178 |
+| 3 | The Income Statement and Comprehensive Income | 6 | 33 | 166 |
+| 4 | Equity and the Statement of Changes in Equity | 6 | 34 | 169 |
+| 5 | The Statement of Cash Flows | 6 | 33 | 167 |
+| 6 | Receivables: Credit Losses and Transfers | 4 | 23 | 142 |
+| 7 | Inventory I: Goods, Costs and Cost Flows | 6 | 32 | 191 |
+| | **total** | **41** | **233** | **1,225** |
+
+Worst measured page fill across all 233 pages is 0.92. Every chapter passes
+every gate.
+
+### How seven chapters got built
+
+Two chapters were hand-written, and that proved the format. Seven at the same
+standard is a conversion job, and the book turns out to carry what a
+conversion needs:
+
+- **every section check and practice item is already multiple choice**, with
+  the correct letter, a reason for it, and a separate reason for each wrong
+  option. That is a complete, self-checking item bank, and 259 items come
+  straight from it;
+- **every real table is a relation**, so each row yields a question whose
+  distractors are the table's own sibling rows. 842 items are generated this
+  way. Nothing is invented, and no distractor is a straw man, because the
+  alternatives come from the same table the answer does.
+
+Where the book places most of a chapter's grids in one section — which it
+usually does — the spares are pooled and handed to the sections it left
+empty, so every handout has something real to read.
+
+Chapters 1 and 7 keep the figures drawn for them by hand. The other five get
+figures built from their own tables: a classification drawn as lanes, a
+relation drawn as cards, a sequence drawn as a chain, and a located chapter
+map where a section has no table of its own.
+
+### What was given up, and why
+
+- **The hand-written Chapter 1 and Chapter 7 handouts are no longer built.**
+  They are better writing than a generator produces, and they are kept in
+  `cma/legacy_w1_ch01` and `cma/legacy_w1_ch07` with a note. They predate
+  three rules that now hold for every sheet, and rewriting them to those rules
+  while also building five new chapters was not a trade worth making: seven
+  chapters at one consistent standard is what makes a judgement about the
+  standard possible.
+
+- **Six of the book's own items are not asked**, each with its reason recorded
+  in the chapter's `OMIT`: one works from the facts of another numbered item,
+  and five are answered from a figure whose data the book prints as a picture
+  rather than as a table. Reconstructing that data is exactly the invention
+  the fidelity gates exist to stop.
+
+- **Some of the book's own items have a correct option much longer than their
+  distractors**, which is a mild giveaway. The length heuristic therefore runs
+  only on generated items. Padding the book's distractors would mean writing
+  accounting the book did not write.
+
+- **The page ceiling moved from eight to nine.** One handout needs nine
+  sheets because its model is the book's own balance sheet, which is
+  thirty-nine rows. Printing less of it would mean asking questions from data
+  the sheet does not show, which is the one thing these gates exist to
+  prevent. A tenth page is still a failure.
+
