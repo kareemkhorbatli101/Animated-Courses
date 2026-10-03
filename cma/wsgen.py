@@ -71,6 +71,23 @@ def sentences(text):
     return out
 
 
+def near_in_length(right, pool, k=3, factor=1.85):
+    """k distractors close enough in length to the right answer.
+
+    An option much longer than the others gives itself away, so a question is
+    better not asked than asked with a tell in it.
+    """
+    pool = [x for x in dict.fromkeys(pool) if x and x != right]
+    pool.sort(key=lambda x: abs(len(x) - len(right)))
+    got = pool[:k]
+    if len(got) < 2:
+        return None
+    longest = max(len(x) for x in got)
+    if len(right) > 44 and len(right) > factor * longest:
+        return None
+    return got
+
+
 def shuffled(seq, seed):
     s = list(seq)
     random.Random(seed).shuffle(s)
@@ -308,15 +325,18 @@ def mcq_from_col(head, body, ri, ci, seed, maxopt=4):
     value = clean(body[ri][ci])
     if not label or not value or len(label) > 70 or len(value) > 86:
         return None
+    # "Tax depreciation above the line" makes a stem that points off its own
+    # page as soon as it is quoted into a question.
+    if DEICTIC.search(label) or DEICTIC.search(value):
+        return None
     if len(value) < 3:
         return None
-    others = [clean(r[ci]) for r in body
-              if clean(r[ci]) and clean(r[ci]) != value
-              and len(clean(r[ci])) <= 86]
-    others = list(dict.fromkeys(others))
-    if len(others) < 2:
+    others = near_in_length(
+        value, [clean(r[ci]) for r in body if len(clean(r[ci])) <= 86],
+        maxopt - 1)
+    if not others:
         return None
-    opts = shuffled([value] + shuffled(others, seed)[:maxopt - 1], seed + 1)
+    opts = shuffled([value] + others, seed + 1)
     return dict(t='MCQ',
                 q='Which %s does the book give for %s?'
                   % (as_noun(head[ci]), label),
@@ -480,9 +500,27 @@ def _cloze(sent, hits, seed, bank_extra):
         return None
     # The bank holds more words than there are gaps, so a student cannot
     # fill it by counting. The spare words are the chapter's own terms.
-    spare = [w for w in bank_extra
-             if w.lower() not in {x.lower() for x in words}][:2]
-    bank = shuffled(words + spare, seed)
+    taken = {x.lower() for x in words}
+    spare = []
+    for w in bank_extra:
+        if w.lower() in taken:
+            continue
+        taken.add(w.lower())
+        spare.append(w)
+        if len(spare) == 2:
+            break
+    # A gapped word that appears twice in the sentence would be listed twice,
+    # and then one gap has two defensible answers.
+    seen, uniq = set(), []
+    for w in words + spare:
+        if w.lower() in seen:
+            continue
+        seen.add(w.lower())
+        uniq.append(w)
+    if len([w for w in uniq if w.lower() in {x.lower() for x in words}]) \
+            < len(words):
+        return None
+    bank = shuffled(uniq, seed)
     return dict(parts=parts, words=words, bank=bank, book=sent,
                 a=' \u00b7 '.join(words))
 
@@ -1059,6 +1097,18 @@ def assemble(n, idx, sec, tbls, figname, scm, pm, terms, seed, extra_mcq,
                 derived=derived, flow=page1 + blocks)
 
 
+def caseask(x):
+    """What a case item asks for, without the pointer to its exhibit.
+
+    The book opens some case items with "Use Figure F12-05." That is where to
+    look, not what is being asked, and quoting it into an option puts a
+    pointer to something the handout does not reprint.
+    """
+    t = clean(x)
+    t = re.sub(r'^Use\s+Figure\s+F\d\d-\d\d[^.]*\.\s*', '', t)
+    return FIGREF.sub('the chapter\u2019s exhibit', t)
+
+
 def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
                    navitems=None):
     """The last handout: the case set, and the rest of the practice bank."""
@@ -1094,15 +1144,15 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
     opts = [t for _no, t in secs][:4]
     ritems = []
     for k, (no, t) in enumerate(secs[:3]):
-        o = [t] + [x for x in opts if x != t][:3]
-        if len(o) < 3:
+        others = near_in_length(t, [y for _n, y in secs], 3)
+        if not others:
             continue
-        o = shuffled(o, seed + k)
+        o = shuffled([t] + others, seed + k)
         ritems.append(dict(t='MCQ',
-                           q='“section %s” — which part of the '
-                             'chapter is this?' % no,
+                           q='Which part of this chapter is section %s?' % no,
                            o=o, a='ABCD'[o.index(t)],
-                           why='The book numbers it %s.' % no))
+                           why='The book numbers “%s” as section %s.'
+                               % (t, no)))
     ritems.append(dict(
         t='MATCH',
         q='Write the letter of the section number beside each section title. '
@@ -1123,6 +1173,13 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
                  'answer.'))
     chk = pm[0] if pm else None
     if chk:
+        # The checkpoint is page text, so it needs its extract beside it just
+        # as the APPLY items do; without this it quoted a figure number the
+        # sheet never prints, and the route map on page one copied it.
+        chk2, pan = detach_figure(chk, figs or {})
+        if pan:
+            flow.append(pan)
+        chk = chk2 or chk
         flow.append(('check', chk['q'], chk['o'], chk['a'],
                      'go back to the MODEL move of cycle A and find the '
                      'section this question belongs to.', chk['why']))
@@ -1141,7 +1198,7 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
                   'adjusted before any figure is worked out.', a='T',
         why='Every later answer depends on the adjusted exhibit.')]))
     flow.append(('move', 'MODEL', ''))
-    crows = [['Item', 'What it asks']] + [[clean(c[0]), clean(c[1])[:120]]
+    crows = [['Item', 'What it asks']] + [[clean(c[0]), caseask(c[1])[:120]]
                                           for c in case[:6]]
     flow.append(('panel', 'The chapter’s case set, item by item', crows,
                  ''))
@@ -1149,12 +1206,14 @@ def review_handout(n, idx, d, ans, pm, case, terms, seed, figs=None,
     citems = []
     for k, c in enumerate(case[:6]):
         cid = clean(c[0])
-        others = [clean(x[1])[:70] for x in case if clean(x[0]) != cid][:3]
-        if len(others) < 2:
+        right = caseask(c[1])[:70]
+        others = near_in_length(
+            right, [caseask(x[1])[:70] for x in case if clean(x[0]) != cid], 3)
+        if not others:
             continue
-        o = shuffled([clean(c[1])[:70]] + others, seed + 500 + k)
+        o = shuffled([right] + others, seed + 500 + k)
         citems.append(dict(t='MCQ', q='Which of these does item %s ask for?'
-                           % cid, o=o, a='ABCD'[o.index(clean(c[1])[:70])],
+                           % cid, o=o, a='ABCD'[o.index(right)],
                            why='The book states item %s in those words.'
                                % cid))
         covers.append('case:%s' % cid)
@@ -1205,8 +1264,10 @@ def secnav(d, seed):
     secs = [(clean(x['no']), clean(x['title'])) for x in d['sections']]
     out = []
     for k, (no, t) in enumerate(secs):
-        others = [y for _n, y in secs if y != t][:3]
-        if len(others) < 2:
+        # Pick the titles closest in length, so the longest option is not
+        # automatically the right one.
+        others = near_in_length(t, [y for _n, y in secs], 3)
+        if not others:
             continue
         o = shuffled([t] + others, seed + k)
         out.append(dict(t='MCQ',

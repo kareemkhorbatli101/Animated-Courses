@@ -141,29 +141,31 @@ HANDOUT = {'id': '5.6',
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': '“section 5.1” — which part of the chapter is this?',
-             'o': ['The direct method and required disclosures',
-                   'Classifying cash flows',
+             'q': 'Which part of this chapter is section 5.1?',
+             'o': ['Classifying cash flows',
+                   'Limitations and links between the four statements',
                    'Purpose and structure of the statement of cash flows',
-                   'The indirect method'],
+                   'The direct method and required disclosures'],
              'a': 'C',
-             'why': 'The book numbers it 5.1.'},
+             'why': 'The book numbers “Purpose and structure of the '
+                    'statement of cash flows” as section 5.1.'},
             {'t': 'MCQ',
-             'q': '“section 5.2” — which part of the chapter is this?',
-             'o': ['The direct method and required disclosures',
+             'q': 'Which part of this chapter is section 5.2?',
+             'o': ['Limitations and links between the four statements',
                    'Classifying cash flows',
-                   'The indirect method',
-                   'Purpose and structure of the statement of cash flows'],
+                   'The direct method and required disclosures',
+                   'The indirect method'],
              'a': 'B',
-             'why': 'The book numbers it 5.2.'},
+             'why': 'The book numbers “Classifying cash flows” as section '
+                    '5.2.'},
             {'t': 'MCQ',
-             'q': '“section 5.3” — which part of the chapter is this?',
-             'o': ['The direct method and required disclosures',
+             'q': 'Which part of this chapter is section 5.3?',
+             'o': ['Limitations and links between the four statements',
                    'The indirect method',
-                   'Classifying cash flows',
-                   'Purpose and structure of the statement of cash flows'],
+                   'The direct method and required disclosures',
+                   'Classifying cash flows'],
              'a': 'B',
-             'why': 'The book numbers it 5.3.'},
+             'why': 'The book numbers “The indirect method” as section 5.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -239,12 +241,12 @@ HANDOUT = {'id': '5.6',
           ('items',
            [{'t': 'MCQ',
              'q': 'Which of these does item C5-1 ask for?',
-             'o': ["Enter Barada's net cash from investing activities for "
-                   '2026.',
+             'o': ["Enter Barada's net cash used in financing activities for "
+                   '2026 (as a po',
                    'Classify each 2026 cash flow. (On the exam screen you '
                    'would drag each ',
-                   "Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po',
+                   'Where does Barada show the 2026 dividend declared on '
+                   'December 15 and p',
                    "Enter Barada's net cash provided by operating activities "
                    'for 2026 (ind'],
              'a': 'B',
@@ -253,12 +255,12 @@ HANDOUT = {'id': '5.6',
              'q': 'Which of these does item C5-2 ask for?',
              'o': ['Classify each 2026 cash flow. (On the exam screen you '
                    'would drag each ',
-                   "Enter Barada's net cash used in financing activities for "
-                   '2026 (as a po',
+                   'Where does Barada show the 2026 dividend declared on '
+                   'December 15 and p',
                    "Enter Barada's net cash provided by operating activities "
                    'for 2026 (ind',
-                   "Enter Barada's net cash from investing activities for "
-                   '2026.'],
+                   "Enter Barada's net cash used in financing activities for "
+                   '2026 (as a po'],
              'a': 'C',
              'why': 'The book states item C5-2 in those words.'},
             {'t': 'MCQ',
@@ -279,21 +281,21 @@ HANDOUT = {'id': '5.6',
                    'would drag each ',
                    "Enter Barada's net cash provided by operating activities "
                    'for 2026 (ind',
-                   "Enter Barada's net cash from investing activities for "
-                   '2026.',
+                   'Where does Barada show the 2026 dividend declared on '
+                   'December 15 and p',
                    "Enter Barada's net cash used in financing activities for "
                    '2026 (as a po'],
              'a': 'D',
              'why': 'The book states item C5-4 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C5-5 ask for?',
-             'o': ['Classify each 2026 cash flow. (On the exam screen you '
+             'o': ["Enter Barada's net cash from investing activities for "
+                   '2026.',
+                   'Classify each 2026 cash flow. (On the exam screen you '
                    'would drag each ',
-                   "Enter Barada's net cash provided by operating activities "
-                   'for 2026 (ind',
                    "Enter Barada's cash at December 31, 2026.",
-                   "Enter Barada's net cash from investing activities for "
-                   '2026.'],
+                   "Enter Barada's net cash provided by operating activities "
+                   'for 2026 (ind'],
              'a': 'C',
              'why': 'The book states item C5-5 in those words.'},
             {'t': 'MCQ',
@@ -302,8 +304,8 @@ HANDOUT = {'id': '5.6',
                    'December 15 and p',
                    'Classify each 2026 cash flow. (On the exam screen you '
                    'would drag each ',
-                   "Enter Barada's net cash from investing activities for "
-                   '2026.',
+                   "Enter Barada's net cash used in financing activities for "
+                   '2026 (as a po',
                    "Enter Barada's net cash provided by operating activities "
                    'for 2026 (ind'],
              'a': 'A',

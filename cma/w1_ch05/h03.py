@@ -171,13 +171,13 @@ HANDOUT = {'id': '5.3',
             {'t': 'MCQ',
              'q': 'Which category does the book give for Treasury stock '
                   'bought?',
-             'o': ['Investing', 'Financing', 'Operating'],
+             'o': ['Operating', 'Financing', 'Investing'],
              'a': 'B',
              'why': 'The book’s own table gives Financing as the category of '
                     'Treasury stock bought.'},
             {'t': 'MCQ',
              'q': 'Which category does the book give for Interest paid?',
-             'o': ['Operating', 'Investing', 'Financing'],
+             'o': ['Operating', 'Financing', 'Investing'],
              'a': 'A',
              'why': 'The book’s own table gives Operating as the category of '
                     'Interest paid.'},

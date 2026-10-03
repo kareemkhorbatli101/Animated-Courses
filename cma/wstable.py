@@ -114,7 +114,15 @@ def widths_for(rows, floor=MIN_PCT, ceiling=MAX_PCT, weight_header=0.5):
         each = spare / len(free)
         for i in free:
             w[i] += each
-    # normalise to exactly 100 so the fixed layout fills the measure
+    # Normalise to exactly 100 so the fixed layout fills the measure —
+    # and then clamp again, because scaling up to reach 100 can push a
+    # column back over the ceiling it was just held under.
+    for _ in range(4):
+        t = sum(w)
+        w = [x / t * 100.0 for x in w]
+        if max(w) <= ceiling + 0.01 and min(w) >= floor - 0.01:
+            break
+        w = [min(ceiling, max(floor, x)) for x in w]
     t = sum(w)
     return [x / t * 100.0 for x in w]
 

@@ -212,7 +212,7 @@ HANDOUT = {'id': '3.3',
             {'t': 'MCQ',
              'q': 'Which before tax does the book give for Loss from '
                   'discontinued operations?',
-             'o': ['(420,000)', '(180,000)', '(600,000)'],
+             'o': ['(180,000)', '(420,000)', '(600,000)'],
              'a': 'C',
              'why': 'The book’s own table gives (600,000) as the before tax '
                     'of Loss from discontinued operations.'}]),

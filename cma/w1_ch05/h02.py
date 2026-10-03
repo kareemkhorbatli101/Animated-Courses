@@ -386,7 +386,7 @@ HANDOUT = {'id': '5.2',
            [{'t': 'MCQ',
              'q': 'Which activity does the book give for Cash paid to buy a '
                   'delivery truck?',
-             'o': ['Investing', 'Financing', '________'],
+             'o': ['Investing', '________', 'Financing'],
              'a': 'A',
              'why': 'The book’s own table gives Investing as the activity of '
                     'Cash paid to buy a delivery truck.'},

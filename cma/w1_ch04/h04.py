@@ -177,12 +177,12 @@ HANDOUT = {'id': '4.4',
           ('items',
            [{'t': 'MCQ',
              'q': 'Which answer does the book give for 2-for-1 stock split?',
-             'o': ['Retained earnings: no change. Total equity: decreases by '
-                   'the cost.',
+             'o': ['Retained earnings: opening balance increases, net of '
+                   'tax. Total equity: increases.',
                    'Retained earnings: no change. Total equity: no change '
                    '(no entry is made).',
-                   'Retained earnings: opening balance increases, net of '
-                   'tax. Total equity: increases.'],
+                   'Retained earnings: no change. Total equity: decreases by '
+                   'the cost.'],
              'a': 'B',
              'why': 'The book’s own table gives Retained earnings: no '
                     'change. Total equity: no change (no entry is made). as '

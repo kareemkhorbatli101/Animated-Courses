@@ -179,28 +179,28 @@ HANDOUT = {'id': '7.2',
           ('items',
            [{'t': 'MCQ',
              'q': 'Which amount does the book give for Invoice price?',
-             'o': ['22,000', '(400)', '20,000', '250'],
+             'o': ['22,000', '1,200', '20,000', '(400)'],
              'a': 'C',
              'why': 'The book’s own table gives 20,000 as the amount of '
                     'Invoice price.'},
             {'t': 'MCQ',
              'q': 'Which amount does the book give for Purchase discount '
                   'taken?',
-             'o': ['700', '250', '900', '(400)'],
+             'o': ['20,000', '22,000', '1,200', '(400)'],
              'a': 'D',
              'why': 'The book’s own table gives (400) as the amount of '
                     'Purchase discount taken.'},
             {'t': 'MCQ',
              'q': 'Which amount does the book give for Freight-in from the '
                   'port to Amman?',
-             'o': ['900', '(400)', '22,000', '1,200'],
+             'o': ['20,000', '22,000', '(400)', '1,200'],
              'a': 'D',
              'why': 'The book’s own table gives 1,200 as the amount of '
                     'Freight-in from the port to Amman.'},
             {'t': 'MCQ',
              'q': 'Which amount does the book give for Import duty (not '
                   'refundable)?',
-             'o': ['700', '(400)', '900', '1,200'],
+             'o': ['300', '700', '900', '250'],
              'a': 'C',
              'why': 'The book’s own table gives 900 as the amount of Import '
                     'duty (not refundable).'},

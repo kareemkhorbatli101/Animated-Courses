@@ -51,6 +51,21 @@ DEICTIC = re.compile(r'\b(above|below|earlier|previous|the panel|the figure|'
 
 # What an item carries for the key rather than for the page.
 KEY_ONLY = ('a', 'why', 'whys')
+# And which positions of a flow block are key text rather than page text.
+# A rule frame's book wording, a checkpoint's answer, the model answer of a
+# teach-it-back: all of these are printed on the key sheet, so a reference to
+# the book's own figure in one of them is useful rather than a dangling
+# pointer.
+KEY_POS = {'teach': (4,), 'rule': (4, 5), 'check': (3, 5), 'build': (3,),
+           'contrast': (5, 6), 'preview': ()}
+
+
+def _page_blk(blk):
+    """The parts of a flow block a student reads while working."""
+    drop = KEY_POS.get(blk[0])
+    if not drop:
+        return blk
+    return tuple(x for i, x in enumerate(blk) if i not in drop)
 
 
 def _texts(blk, on_page=False):
@@ -146,7 +161,7 @@ def g_no_cross_reference(H, src, fails):
     reference to another handout.
     """
     for blk in H['flow']:
-        for t in _texts(blk, on_page=True):
+        for t in _texts(_page_blk(blk), on_page=True):
             m = CROSSREF.search(t)
             if m:
                 fails.append('%s: refers to something off this sheet: %r in '
@@ -253,7 +268,7 @@ def g_no_lecture(H, src, fails):
     for blk in H['flow']:
         if blk[0] in ('teach', 'rule', 'build', 'check'):
             continue
-        texts = _texts(blk, on_page=True)
+        texts = _texts(_page_blk(blk), on_page=True)
         if blk[0] == 'preview':
             # A preview summary is a passage with its words taken out: the
             # student writes into it rather than reading past it, so its

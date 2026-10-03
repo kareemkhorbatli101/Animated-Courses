@@ -193,32 +193,33 @@ HANDOUT = {'id': '1.7',
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': '“section 1.1” — which part of the chapter is this?',
-             'o': ['Double entry: debits and credits',
+             'q': 'Which part of this chapter is section 1.1?',
+             'o': ['A first look at the four statements',
                    'The accrual basis and the matching principle',
-                   'The building blocks: elements and the accounting '
-                   'equation',
+                   'Who writes the rules? U.S. GAAP and IFRS',
                    'Who uses financial statements, and why?'],
              'a': 'D',
-             'why': 'The book numbers it 1.1.'},
+             'why': 'The book numbers “Who uses financial statements, and '
+                    'why?” as section 1.1.'},
             {'t': 'MCQ',
-             'q': '“section 1.2” — which part of the chapter is this?',
-             'o': ['The accrual basis and the matching principle',
-                   'Who uses financial statements, and why?',
+             'q': 'Which part of this chapter is section 1.2?',
+             'o': ['Who uses financial statements, and why?',
+                   'The accrual basis and the matching principle',
                    'The building blocks: elements and the accounting '
                    'equation',
-                   'Double entry: debits and credits'],
+                   'Who writes the rules? U.S. GAAP and IFRS'],
              'a': 'C',
-             'why': 'The book numbers it 1.2.'},
+             'why': 'The book numbers “The building blocks: elements and the '
+                    'accounting equation” as section 1.2.'},
             {'t': 'MCQ',
-             'q': '“section 1.3” — which part of the chapter is this?',
-             'o': ['The building blocks: elements and the accounting '
-                   'equation',
-                   'Who uses financial statements, and why?',
-                   'The accrual basis and the matching principle',
+             'q': 'Which part of this chapter is section 1.3?',
+             'o': ['Who uses financial statements, and why?',
+                   'A first look at the four statements',
+                   'Who writes the rules? U.S. GAAP and IFRS',
                    'Double entry: debits and credits'],
              'a': 'D',
-             'why': 'The book numbers it 1.3.'},
+             'why': 'The book numbers “Double entry: debits and credits” as '
+                    'section 1.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -278,31 +279,33 @@ HANDOUT = {'id': '1.7',
              'q': 'Which of these does item C1-1 ask for?',
              'o': ['Match each account to its category. (On the exam screen '
                    'you would drag',
-                   "After closing, Barada's retained earnings at December "
-                   '31, 2025 are: [s',
                    "Enter Barada's total assets at December 31, 2025 (USD "
                    '000).',
-                   "Enter Barada's net income for 2025 (USD 000)."],
+                   "Enter Barada's total liabilities at December 31, 2025 "
+                   '(USD 000).',
+                   "After closing, Barada's retained earnings at December "
+                   '31, 2025 are: [s'],
              'a': 'A',
              'why': 'The book states item C1-1 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C1-2 ask for?',
-             'o': ['Match each account to its category. (On the exam screen '
-                   'you would drag',
+             'o': ["Enter Barada's total assets at December 31, 2025 (USD "
+                   '000).',
                    "Enter Barada's net income for 2025 (USD 000).",
-                   "After closing, Barada's retained earnings at December "
-                   '31, 2025 are: [s',
-                   "Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).'],
+                   'Match each account to its category. (On the exam screen '
+                   'you would drag',
+                   "Enter Barada's total liabilities at December 31, 2025 "
+                   '(USD 000).'],
              'a': 'B',
              'why': 'The book states item C1-2 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C1-3 ask for?',
              'o': ["Enter Barada's total assets at December 31, 2025 (USD "
                    '000).',
+                   "Enter Barada's total liabilities at December 31, 2025 "
+                   '(USD 000).',
                    'Match each account to its category. (On the exam screen '
                    'you would drag',
-                   "Enter Barada's net income for 2025 (USD 000).",
                    "After closing, Barada's retained earnings at December "
                    '31, 2025 are: [s'],
              'a': 'A',
@@ -313,20 +316,22 @@ HANDOUT = {'id': '1.7',
                    '31, 2025 are: [s',
                    "Enter Barada's total assets at December 31, 2025 (USD "
                    '000).',
-                   "Enter Barada's net income for 2025 (USD 000).",
+                   "Enter Barada's total liabilities at December 31, 2025 "
+                   '(USD 000).',
                    'Match each account to its category. (On the exam screen '
                    'you would drag'],
              'a': 'A',
              'why': 'The book states item C1-4 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C1-5 ask for?',
-             'o': ['Match each account to its category. (On the exam screen '
-                   'you would drag',
+             'o': ["Enter Barada's total assets at December 31, 2025 (USD "
+                   '000).',
                    "Enter Barada's total liabilities at December 31, 2025 "
                    '(USD 000).',
-                   "Enter Barada's total assets at December 31, 2025 (USD "
-                   '000).',
-                   "Enter Barada's net income for 2025 (USD 000)."],
+                   "After closing, Barada's retained earnings at December "
+                   '31, 2025 are: [s',
+                   'Match each account to its category. (On the exam screen '
+                   'you would drag'],
              'a': 'B',
              'why': 'The book states item C1-5 in those words.'}]),
           ('move', 'APPLY', ''),

@@ -164,32 +164,34 @@ HANDOUT = {'id': '4.6',
           ('move', 'READ THE MODEL', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': '“section 4.1” — which part of the chapter is this?',
-             'o': ['Issuing and buying back shares',
+             'q': 'Which part of this chapter is section 4.1?',
+             'o': ['Limitations and links to the other statements',
                    'Components of equity and the statement of changes in '
                    'equity',
-                   'Retained earnings',
+                   'Issuing and buying back shares',
                    'Dividends, stock dividends and stock splits'],
              'a': 'B',
-             'why': 'The book numbers it 4.1.'},
+             'why': 'The book numbers “Components of equity and the '
+                    'statement of changes in equity” as section 4.1.'},
             {'t': 'MCQ',
-             'q': '“section 4.2” — which part of the chapter is this?',
+             'q': 'Which part of this chapter is section 4.2?',
              'o': ['Issuing and buying back shares',
-                   'Dividends, stock dividends and stock splits',
                    'Retained earnings',
-                   'Components of equity and the statement of changes in '
-                   'equity'],
+                   'Limitations and links to the other statements',
+                   'Dividends, stock dividends and stock splits'],
              'a': 'A',
-             'why': 'The book numbers it 4.2.'},
+             'why': 'The book numbers “Issuing and buying back shares” as '
+                    'section 4.2.'},
             {'t': 'MCQ',
-             'q': '“section 4.3” — which part of the chapter is this?',
-             'o': ['Components of equity and the statement of changes in '
-                   'equity',
+             'q': 'Which part of this chapter is section 4.3?',
+             'o': ['Limitations and links to the other statements',
                    'Dividends, stock dividends and stock splits',
                    'Issuing and buying back shares',
-                   'Retained earnings'],
+                   'Components of equity and the statement of changes in '
+                   'equity'],
              'a': 'B',
-             'why': 'The book numbers it 4.3.'},
+             'why': 'The book numbers “Dividends, stock dividends and stock '
+                    'splits” as section 4.3.'},
             {'t': 'MATCH',
              'q': 'Write the letter of the section number beside each '
                   'section title. Every number is used once.',
@@ -263,13 +265,13 @@ HANDOUT = {'id': '4.6',
           ('items',
            [{'t': 'MCQ',
              'q': 'Which of these does item C4-1 ask for?',
-             'o': ['Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.',
+             'o': ['Enter the amount transferred out of retained earnings '
+                   'for the stock di',
                    'Classify each account at the end of 2026. (On the exam '
                    'screen you woul',
-                   'Enter the amount transferred out of retained earnings '
-                   'for the stock di',
-                   'Enter the cash dividend declared on December 15 (E5).'],
+                   'Enter the balance of APIC–treasury stock at December 31, '
+                   '2026.',
+                   "Enter total stockholders' equity at December 31, 2026."],
              'a': 'B',
              'why': 'The book states item C4-1 in those words.'},
             {'t': 'MCQ',
@@ -280,12 +282,12 @@ HANDOUT = {'id': '4.6',
                    'screen you woul',
                    'Enter the balance of APIC–treasury stock at December 31, '
                    '2026.',
-                   'Enter the cash dividend declared on December 15 (E5).'],
+                   "Enter total stockholders' equity at December 31, 2026."],
              'a': 'C',
              'why': 'The book states item C4-2 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C4-3 ask for?',
-             'o': ['Enter the cash dividend declared on December 15 (E5).',
+             'o': ["Enter total stockholders' equity at December 31, 2026.",
                    'Enter the amount transferred out of retained earnings '
                    'for the stock di',
                    'Enter the balance of APIC–treasury stock at December 31, '
@@ -296,33 +298,27 @@ HANDOUT = {'id': '4.6',
              'why': 'The book states item C4-3 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C4-4 ask for?',
-             'o': ['Enter the amount transferred out of retained earnings '
-                   'for the stock di',
-                   'Classify each account at the end of 2026. (On the exam '
-                   'screen you woul',
-                   'Enter the balance of APIC–treasury stock at December 31, '
+             'o': ['Enter the balance of APIC–treasury stock at December 31, '
                    '2026.',
+                   "Enter total stockholders' equity at December 31, 2026.",
+                   'Enter retained earnings at December 31, 2026.',
                    'Enter the cash dividend declared on December 15 (E5).'],
              'a': 'D',
              'why': 'The book states item C4-4 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C4-5 ask for?',
              'o': ['Enter retained earnings at December 31, 2026.',
-                   'Classify each account at the end of 2026. (On the exam '
-                   'screen you woul',
-                   'Enter the amount transferred out of retained earnings '
-                   'for the stock di',
+                   'Enter the cash dividend declared on December 15 (E5).',
                    'Enter the balance of APIC–treasury stock at December 31, '
-                   '2026.'],
+                   '2026.',
+                   "Enter total stockholders' equity at December 31, 2026."],
              'a': 'A',
              'why': 'The book states item C4-5 in those words.'},
             {'t': 'MCQ',
              'q': 'Which of these does item C4-6 ask for?',
-             'o': ['Enter the amount transferred out of retained earnings '
-                   'for the stock di',
+             'o': ['Enter retained earnings at December 31, 2026.',
                    "Enter total stockholders' equity at December 31, 2026.",
-                   'Classify each account at the end of 2026. (On the exam '
-                   'screen you woul',
+                   'Enter the cash dividend declared on December 15 (E5).',
                    'Enter the balance of APIC–treasury stock at December 31, '
                    '2026.'],
              'a': 'B',

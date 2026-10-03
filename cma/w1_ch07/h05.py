@@ -151,10 +151,9 @@ HANDOUT = {'id': '7.5',
              'q': 'Which answer does the book give for COGS, line 2: 1,200 × '
                   '$22?',
              'o': ['$26,400',
-                   '$25,000 + $26,400 = $51,400',
                    '$10,000',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.'],
+                   '$6,600 + $10,000 = $16,600',
+                   '$6,600'],
              'a': 'A',
              'why': 'The book’s own table gives $26,400 as the answer of '
                     'COGS, line 2: 1,200 × $22.'},
@@ -164,8 +163,7 @@ HANDOUT = {'id': '7.5',
              'o': ['$26,400',
                    '$6,600 + $10,000 = $16,600',
                    '$6,600',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.'],
+                   '$10,000'],
              'a': 'C',
              'why': 'The book’s own table gives $6,600 as the answer of '
                     'Ending inventory, line 1: 300 × $22.'},
@@ -173,19 +171,18 @@ HANDOUT = {'id': '7.5',
              'q': 'Which answer does the book give for Ending inventory, '
                   'line 2: 500 × $20?',
              'o': ['$10,000',
+                   '$6,600',
                    '$6,600 + $10,000 = $16,600',
-                   '$25,000 + $26,400 = $51,400',
                    '$26,400'],
              'a': 'A',
              'why': 'The book’s own table gives $10,000 as the answer of '
                     'Ending inventory, line 2: 500 × $20.'},
             {'t': 'MCQ',
              'q': 'Which answer does the book give for Total COGS?',
-             'o': ['$6,600',
-                   '$10,000',
+             'o': ['$10,000',
+                   '$6,600 + $10,000 = $16,600',
                    '$25,000 + $26,400 = $51,400',
-                   '$51,400 + $16,600 = $68,000, the cost of goods '
-                   'available.'],
+                   '$26,400'],
              'a': 'C',
              'why': 'The book’s own table gives $25,000 + $26,400 = $51,400 '
                     'as the answer of Total COGS.'},

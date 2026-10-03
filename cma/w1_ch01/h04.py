@@ -186,8 +186,8 @@ HANDOUT = {'id': '1.4',
              'q': 'Which what happens does the book give for Prepaid expense '
                   '(deferral)?',
              'o': ['Cash is paid before the expense is incurred.',
-                   'Cash is received before the revenue is earned.',
                    'The expense is incurred before cash is paid.',
+                   'Cash is received before the revenue is earned.',
                    'Revenue is earned before cash is received or billed.'],
              'a': 'A',
              'why': 'The book’s own table gives Cash is paid before the '
@@ -196,10 +196,10 @@ HANDOUT = {'id': '1.4',
             {'t': 'MCQ',
              'q': 'Which what happens does the book give for Contract '
                   'liability, or unearned revenue (deferral)?',
-             'o': ['The expense is incurred before cash is paid.',
+             'o': ['Revenue is earned before cash is received or billed.',
                    'Cash is paid before the expense is incurred.',
                    'Cash is received before the revenue is earned.',
-                   'Revenue is earned before cash is received or billed.'],
+                   'The expense is incurred before cash is paid.'],
              'a': 'C',
              'why': 'The book’s own table gives Cash is received before the '
                     'revenue is earned. as the what happens of Contract '
@@ -218,9 +218,9 @@ HANDOUT = {'id': '1.4',
             {'t': 'MCQ',
              'q': 'Which what happens does the book give for Accrued '
                   'revenue?',
-             'o': ['Cash is paid before the expense is incurred.',
-                   'Cash is received before the revenue is earned.',
+             'o': ['Cash is received before the revenue is earned.',
                    'The expense is incurred before cash is paid.',
+                   'Cash is paid before the expense is incurred.',
                    'Revenue is earned before cash is received or billed.'],
              'a': 'D',
              'why': 'The book’s own table gives Revenue is earned before '

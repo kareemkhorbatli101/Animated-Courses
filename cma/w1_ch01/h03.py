@@ -187,10 +187,10 @@ HANDOUT = {'id': '1.3',
              'q': 'Which question it answers does the book give for Balance '
                   'sheet?',
              'o': ['Where did cash come from, and where did it go?',
-                   'How did the company perform?',
+                   'Why did each equity account change?',
                    'What does the company have and owe, and what is the '
                    "owners' claim?",
-                   'Why did each equity account change?'],
+                   'How did the company perform?'],
              'a': 'C',
              'why': 'The book’s own table gives What does the company have '
                     "and owe, and what is the owners' claim? as the question "
@@ -198,10 +198,10 @@ HANDOUT = {'id': '1.3',
             {'t': 'MCQ',
              'q': 'Which question it answers does the book give for Income '
                   'statement?',
-             'o': ['What does the company have and owe, and what is the '
-                   "owners' claim?",
+             'o': ['Where did cash come from, and where did it go?',
                    'How did the company perform?',
-                   'Where did cash come from, and where did it go?',
+                   'What does the company have and owe, and what is the '
+                   "owners' claim?",
                    'Why did each equity account change?'],
              'a': 'B',
              'why': 'The book’s own table gives How did the company perform? '
@@ -210,10 +210,10 @@ HANDOUT = {'id': '1.3',
              'q': 'Which question it answers does the book give for '
                   'Statement of changes in equity?',
              'o': ['Why did each equity account change?',
+                   'Where did cash come from, and where did it go?',
                    'What does the company have and owe, and what is the '
                    "owners' claim?",
-                   'How did the company perform?',
-                   'Where did cash come from, and where did it go?'],
+                   'How did the company perform?'],
              'a': 'A',
              'why': 'The book’s own table gives Why did each equity account '
                     'change? as the question it answers of Statement of '
@@ -221,10 +221,10 @@ HANDOUT = {'id': '1.3',
             {'t': 'MCQ',
              'q': 'Which question it answers does the book give for '
                   'Statement of cash flows?',
-             'o': ['How did the company perform?',
-                   'Why did each equity account change?',
+             'o': ['Why did each equity account change?',
                    'What does the company have and owe, and what is the '
                    "owners' claim?",
+                   'How did the company perform?',
                    'Where did cash come from, and where did it go?'],
              'a': 'D',
              'why': 'The book’s own table gives Where did cash come from, '

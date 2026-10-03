@@ -655,3 +655,89 @@ instead of ten. That is the intended trade: ten cold multiple-choice questions
 measured what a student happened to know, while three gapped summaries make
 them read the shape of the session before they start it.
 
+---
+
+## 11 · Book 1 complete — all eighteen chapters
+
+| Ch | Chapter | Handouts | Pages | Scored items |
+|---|---|---|---|---|
+| 1 | The Language and Framework of Financial Reporting | 7 | 41 | 112 |
+| 2 | The Balance Sheet | 6 | 38 | 104 |
+| 3 | The Income Statement and Comprehensive Income | 6 | 33 | 101 |
+| 4 | Equity and the Statement of Changes in Equity | 6 | 34 | 106 |
+| 5 | The Statement of Cash Flows | 6 | 33 | 104 |
+| 6 | Receivables: Credit Losses and Transfers | 4 | 24 | 78 |
+| 7 | Inventory I: Goods, Costs and Cost Flows | 6 | 32 | 102 |
+| 8 | Inventory II: Measurement Tests, Retail Estimates and Choosing a Method | 6 | 32 | 102 |
+| 9 | Investments in Debt and Equity Securities | 5 | 28 | 91 |
+| 10 | Long-Lived Assets: Depreciation, Disposal and Impairment | 6 | 30 | 100 |
+| 11 | Revenue Recognition | 7 | 39 | 118 |
+| 12 | Current Liabilities and Warranties | 6 | 36 | 100 |
+| 13 | Income Taxes | 6 | 39 | 109 |
+| 14 | Leases | 7 | 39 | 109 |
+| 15 | Measuring Income: Gains, Losses, Comprehensive Income and Discontinued Operations | 7 | 39 | 109 |
+| 16 | Consolidated Financial Statements | 7 | 39 | 111 |
+| 17 | U.S. GAAP and IFRS: The Six Tested Differences | 7 | 39 | 116 |
+| 18 | Integrated Reporting | 7 | 38 | 119 |
+| | **total** | **112** | **633** | **1891** |
+
+Worst measured page fill across all 633 student pages is 0.92. Page one, in
+every one of the 112 handouts, sits between 0.63 and 0.90 — mean 0.79, none
+over. Every chapter passes every gate, and all 37 documents pass the layout
+lint.
+
+### The item set
+
+| Kind | Count |
+|---|---|
+| Multiple choice | 1,055 |
+| True / false | 419 |
+| Fill the gaps (the three preview summaries) | 336 |
+| Matching | 55 |
+| Sorting into categories | 17 |
+| Table to complete | 9 |
+| **Open questions** | **0** |
+
+441 items come from the book's own section checks and practice sets, which
+already carry the stem, the four options, the correct letter and a reason for
+every wrong answer. 1,450 are generated from the book's own tables, where a
+row gives a question whose distractors are that table's sibling rows.
+
+### Twenty-three items the book wrote that these sheets do not ask
+
+Each one is declared in its chapter's `OMIT` with the reason. Twenty-two are
+answered from a figure whose data the book prints as a picture rather than as
+a table, and reconstructing it is exactly the invention the fidelity gates
+exist to stop. One works from the facts of another numbered item, so it cannot
+be answered from its own page.
+
+### What the last eleven chapters changed in the generator
+
+Scaling from seven chapters to eighteen found five faults, all of them in
+items that *read* fine until the gates looked at them:
+
+- **A reference the key may make and the page may not.** A rule frame's book
+  wording, a checkpoint's answer and the model answer of a teach-it-back are
+  all printed on the key sheet, where pointing a student back to the book's
+  own figure is useful. The cross-reference gate was reading them as page
+  text. It now knows which positions of each block are key text.
+- **A checkpoint with no extract.** The review handout's checkpoint took a
+  practice item straight from the bank without attaching the figure it works
+  from — and page one's route map, which copies the checkpoint, inherited the
+  dangling reference. Four chapters were failing on this one omission.
+- **A case item that opens by saying where to look.** The book writes "Use
+  Figure F12-05, scenario C. How much …". That is where to look, not what is
+  asked, so the pointer is stripped before the item becomes a question.
+- **A row label that points off the page.** "Tax depreciation above the line"
+  makes a stem that refers to something it does not print, as soon as it is
+  quoted into a question. Such rows are no longer used as stems.
+- **A word list that repeats a word.** A term appearing twice in a gapped
+  passage was listed twice, which gives one gap two defensible answers.
+
+And two tells that would have cost marks rather than correctness: a column
+clamped to a maximum width could be pushed back over it by the renormalisation
+that follows (the clamp now runs again after scaling), and a generated
+question could end up with its right answer much longer than every distractor
+(distractors are now chosen from those closest in length, and a question with
+no close enough set is not asked at all).
+
