@@ -589,3 +589,108 @@ the gate as it stands tests proper nouns, acronyms and the head of any phrase
 shaped like the name of an account, and exempts the wrong options of a
 multiple-choice item, because a distractor is not a claim about the chapter and
 the book's own practice set names things from later chapters in its distractors.
+
+
+---
+
+## 13 · All eighteen chapters — built, and the honest numbers
+
+Chapters 2 to 18 are converted by a generator rather than by hand, because
+seventeen chapters at Chapter 1's density is not one job. The generator reads
+the structures the book already has and turns each into one exercise type:
+
+| What the book has | What it becomes |
+|---|---|
+| its section-check and practice items, with its own lettered answers and its own explanations | **T1** multiple choice |
+| its *"B is wrong because …"* lines | **T2** true/false, where the false statement is the wrong option verbatim and the correction is the book's own sentence |
+| its term-bridge rows | **T4**, English to Arabic and Arabic to English |
+| its IFRS-contrast and false-friend boxes | **T4** |
+| its real tables | **T5** fill in the table, cells removed |
+| its case-style sets | **T5**, the question asked and the figure the book answers with |
+| its own sentences, with a chapter term blanked | **T3** fill in the spaces |
+| a table column holding few distinct values | **T6** classification |
+
+### Delivered
+
+| | Chapter 1 | Chapters 2–18 | Book 1 |
+|---|---|---|---|
+| Handouts | 12 | 56 | **68** |
+| Student pages | 49 | 181 | **230** |
+| Answer-key sheets | 12 | 56 | **68** |
+| Response points | 751 | 1,984 | **2,735** |
+| Files | 2 | 34 | **36** |
+
+All eighteen chapters pass all sixteen checks. No page is over its budget. The
+21 earlier sets still check and build unchanged.
+
+### The number is far below this plan's estimate, and here is why
+
+Section 10 put Book 1 at 180 to 200 handouts. It is 68. The estimate was wrong,
+and it was wrong in a way worth naming: it took Chapter 1's density — twelve
+handouts and 751 response points for one chapter — and multiplied. But Chapter 1
+is hand-written, and hand-writing asks the same content from several angles. The
+users table of section 1.1 became a fill-in-the-table, a matching, a
+classification, eight multiple-choice items and a cloze. A generator converts
+each structure **once**.
+
+So the gap is not missing content. It is density of questioning per unit of
+content:
+
+| | per chapter |
+|---|---|
+| Chapter 1, hand-written | 90 exercises, 751 points |
+| Chapters 2–18, generated | 18 exercises, 117 points |
+
+Both cover their chapter. The hand-written one asks six times as much about it.
+
+### What the generator refuses to convert
+
+55 of the book's items are on the omission record, with the reason recorded
+against each so the gap is visible in the build rather than silent:
+
+- an item whose answer the book gives as a drag-and-drop or a worked table
+  rather than a single value;
+- an item that sends the reader to a figure that is a box rather than a grid,
+  or to a table too long to carry on a four-page sheet beside its own
+  questions.
+
+Where a referenced figure *can* be carried, it is: the figure's own table is
+attached as a DATA panel and the stem's "Figure F02-07" is rewritten to "the
+panel above", so no exercise refers to anything the sheet does not hold.
+
+### What the checks caught in the generated chapters
+
+The generators were wrong several times before they were right, and every fault
+was caught by a check or by reading the output rather than by assuming:
+
+- **Tables were being reshaped by guesswork.** The first version flattened the
+  .docx to one line per cell and inferred the column count back. It inferred
+  wrong often: one exercise came out with the header `['Noncurrent', 'Current']`
+  — data values, not headers — and a classification exercise asked the student
+  to sort the bare amounts of a trial balance into debits and credits. The fix
+  was to stop guessing: the .docx holds every table as rows and cells, and
+  reading them directly removed the whole class of fault.
+- **Reading only a cell's direct child paragraphs lost every nested table**,
+  which cost the IFRS name pairs among other things.
+- **Joining a cell's paragraphs with spaces** put each section-check item and
+  all four of its options on one line, and the item parser found nothing.
+- **A cloze was glued to its section heading**, so the first item read
+  *"2.1 Purpose and structure of the {balance sheet} The balance sheet
+  reports …"*.
+- **The book's own worksheet tables are already blank** — their cells hold rules
+  for the reader — so converting one asked the student to supply an underscore.
+- **The term parser started reading the French column as an English term** the
+  moment the extraction changed, because it counted lines in threes.
+- **One exercise came out taller than a page**, which no amount of repacking can
+  fix; an item set that carries its own exhibit now takes fewer items.
+- **The fitting loop measured the layout from the round before**, because
+  successive writes inside the same second hit cached bytecode. That is how a
+  page measured at 90 per cent was built at 105.
+
+### Two rules were loosened, and why
+
+The response-point floor went from 55 to 20, and the type-mix rule moved from
+each sheet to each chapter. Both were proxies for "do not waste a sheet",
+written before the build measured page fill directly. A page of tables carries
+a third of the points of a page of matching and wastes nothing; the page-budget
+check is the real guard, and it is the one that is never relaxed.

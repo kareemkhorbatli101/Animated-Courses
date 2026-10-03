@@ -1,0 +1,695 @@
+Chapter 17
+U.S. GAAP and IFRS: The Six Tested Differences
+المبادئ المحاسبية الأمريكية والمعايير الدولية: الفروق الستة
+Most companies in the Middle East and North Africa report under IFRS, but the CMA exam is based on U.S. GAAP. The LOS ask you to know six areas where the two frameworks differ. Earlier chapters showed each difference briefly; this chapter brings them together with one Orontes example per area.
+The examples are set in 2027 and 2028 and are illustrative. Figure F17-01 shows the six areas.
+Figure F17-01. Chapter 17 roadmap: the six U.S. GAAP–IFRS areas in LOS A.2.ff.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.ff.i
+Describe the differences for share-based payments and employee benefits.
+B
+Full treatment
+A.2.ff.ii
+Describe the differences for intangible assets, especially development costs.
+B
+Full treatment
+A.2.ff.iii
+Describe the differences for inventories: LIFO, valuation and write-down reversals.
+B
+Full treatment
+A.2.ff.iv
+Describe the differences for a lessee's operating and finance leases.
+B
+Full treatment
+A.2.ff.v
+Describe the differences for long-lived assets: revaluation, components and borrowing costs.
+B
+Full treatment
+A.2.ff.vi
+Describe and calculate the differences in impairment testing and reversal.
+B
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+revaluation model
+نموذج إعادة التقييم
+modèle de la réévaluation
+revaluation surplus
+فائض إعادة التقييم
+écart de réévaluation
+development costs
+تكاليف التطوير
+frais de développement
+value in use
+القيمة من الاستخدام
+valeur d'utilité
+recoverable amount
+المبلغ القابل للاسترداد
+valeur recouvrable
+cash-generating unit
+وحدة توليد النقد
+unité génératrice de trésorerie
+prior service cost
+تكلفة الخدمة السابقة
+coût des services passés
+remeasurements
+إعادة القياس
+réévaluations du passif net
+WHAT YOU ALREADY KNOW   What you already know
+If you trained in IFRS, your habits will be the traps in this chapter: capitalizing development, reversing write-downs, revaluing assets and using value in use. For each area, learn the U.S. rule first and treat IFRS as the contrast.
+17.1  (i) Share-based payments and employee benefits
+For share awards that vest in parts, or graded vesting, U.S. GAAP lets a company recognize the cost straight-line over the whole period or tranche by tranche, when the awards have only service conditions. IFRS 2 requires tranche by tranche, which puts more expense in the early years.
+U.S. GAAP also allows a policy choice to record forfeitures as they occur; IFRS 2 requires an estimate. Employer payroll taxes on share awards are recognized when the tax obligation arises under U.S. GAAP, but accrued over the vesting period under IFRS.
+For a defined benefit plan, both frameworks put remeasurements in OCI. U.S. GAAP later amortizes them into net income; IAS 19 never reclassifies them. Orontes amends its plan and creates prior service cost of $50,000: U.S. GAAP amortizes $5,000 a year from OCI, while IAS 19 expenses the whole amount at once. Figure F17-02 lists the differences.
+Figure F17-02. Share-based payments and employee benefits: U.S. GAAP and IFRS
+Topic
+U.S. GAAP (ASC 718, 715)
+IFRS (IFRS 2, IAS 19)
+Graded vesting (service condition)
+Choice: straight-line over the whole period or tranche by tranche
+Tranche by tranche
+Forfeitures
+Policy choice: estimate or record as they occur
+Estimate
+Employer payroll taxes on awards
+When the tax obligation arises (exercise or vesting)
+Accrued over the vesting period
+Pension remeasurements (actuarial gains and losses)
+OCI, then amortized into net income (corridor)
+OCI, never reclassified to profit
+Return on plan assets
+Expected return
+Net interest at the discount rate
+Prior service cost: Orontes amendment of 50,000
+OCI, amortized over 10 years: 5,000 a year
+Expensed at once: 50,000
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+graded vesting
+الاستحقاق المتدرج
+acquisition graduelle des droits
+prior service cost
+تكلفة الخدمة السابقة
+coût des services passés
+remeasurements
+إعادة القياس
+réévaluations du passif net
+defined benefit plan
+خطة المنافع المحددة
+régime à prestations définies
+English (exam term)
+العربية
+Français
+graded vesting
+الاستحقاق المتدرج
+acquisition graduelle des droits
+prior service cost
+تكلفة الخدمة السابقة
+coût des services passés
+remeasurements
+إعادة القياس
+réévaluations du passif net
+defined benefit plan
+خطة المنافع المحددة
+régime à prestations définies
+SECTION CHECK   Test yourself
+SC17-1  Use Figure F17-02. How much of Orontes's prior service cost is recognized in 2027 net income under IAS 19 and under U.S. GAAP (whole USD)?
+A.	IFRS 5,000; U.S. 50,000
+B.	Both 50,000
+C.	Both 5,000
+D.	IFRS 50,000; U.S. 5,000
+SC17-2  A company grants share options that vest one third each year for three years (service condition only). Which statement is correct?
+A.	Both frameworks require straight-line recognition
+B.	U.S. GAAP allows straight-line or tranche-by-tranche recognition; IFRS 2 requires tranche by tranche
+C.	U.S. GAAP requires tranche by tranche; IFRS allows a choice
+D.	Neither framework recognizes expense until vesting
+Answers and explanations are at the end of the chapter.
+17.2  (ii) Intangible assets
+The largest intangibles difference is development costs. U.S. GAAP expenses research and development as incurred, with narrow exceptions for software. IAS 38 expenses research but capitalizes development once six criteria are met, such as technical feasibility, intention and ability to complete, and a way to generate future benefits.
+Suppose Orontes spends $300,000 developing a new sparkling-juice line, and all six criteria are met. Under U.S. GAAP the whole amount is an expense; under IFRS it is an intangible asset, amortized once the product is ready.
+IAS 38 also allows the revaluation model for intangibles, but only where an active market exists, which is rare. U.S. GAAP never revalues intangibles upward. Both frameworks refuse to recognize internally generated brands. Figure F17-03 compares the rules.
+Figure F17-03. Intangible assets: U.S. GAAP and IFRS
+Topic
+U.S. GAAP (ASC 350, 730)
+IFRS (IAS 38)
+Development costs: Orontes's new sparkling-juice line, 300,000
+Expensed as R&D
+Capitalized: all six IAS 38 criteria are met
+Software developed for sale or internal use
+Capitalized only in limited stages (ASC 985-20, 350-40)
+Development rules of IAS 38
+Revaluation of intangibles
+Not allowed
+Allowed only if an active market exists
+Internally generated brands and customer lists
+Not recognized
+Not recognized
+Indefinite-life intangibles
+Not amortized; tested for impairment
+Not amortized; tested for impairment
+Goodwill amortization
+Only private companies may elect it
+Never
+WATCH: NOT YET TESTABLE   Intangibles: not yet testable
+ASU 2025-06 simplifies when internal-use software costs are capitalized, and ASU 2026-02 creates new rules for environmental credits. Neither is testable before about January 2029. Private companies may amortize goodwill, but an SEC registrant such as Orontes may not.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+development costs
+تكاليف التطوير
+frais de développement
+research and development (R&D)
+البحث والتطوير
+recherche et développement
+English (exam term)
+العربية
+Français
+development costs
+تكاليف التطوير
+frais de développement
+research and development (R&D)
+البحث والتطوير
+recherche et développement
+SECTION CHECK   Test yourself
+SC17-3  Orontes spends $300,000 developing a new product, and all IAS 38 criteria are met. Under U.S. GAAP the cost is:
+A.	capitalized as an intangible asset
+B.	capitalized, then revalued
+C.	expensed as incurred
+D.	deferred until sales begin
+SC17-4  When may a company revalue an intangible asset upward?
+A.	Only under IFRS, and only when an active market exists
+B.	Under both frameworks, every year
+C.	Only under U.S. GAAP
+D.	Never under either framework
+Answers and explanations are at the end of the chapter.
+17.3  (iii) Inventories
+IFRS does not allow LIFO. U.S. GAAP allows it, and companies that use LIFO for tax must also use it in their financial statements. Chapter 7 showed how LIFO changes cost of goods sold when prices rise.
+Both frameworks write inventory down when its value falls below cost. IAS 2 uses the lower of cost and NRV for all inventory. U.S. GAAP uses lower of cost and NRV for FIFO and average cost, but lower of cost or market for LIFO and the retail method.
+The key difference comes when value recovers. IFRS reverses the write-down, but never above the original cost. U.S. GAAP never reverses it. Figure F17-04 shows Orontes's olive oil: both frameworks write it down by $100,000, but only IFRS adds back $50,000 when NRV recovers.
+Figure F17-04. Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not.
+FALSE-FRIEND ALERT   Stocks, dépréciation, provision
+French stocks means inventory, not shares. French dépréciation des stocks is a write-down, not depreciation. In U.S. terms, a write-down reduces the inventory itself; do not call it a provision or a reserve.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+net realizable value (NRV)
+صافي القيمة القابلة للتحقق
+valeur nette de réalisation (VNR)
+lower of cost and net realizable value (LCNRV)
+التكلفة أو صافي القيمة القابلة للتحقق، أيهما أقل
+plus faible du coût et de la valeur nette de réalisation
+English (exam term)
+العربية
+Français
+net realizable value (NRV)
+صافي القيمة القابلة للتحقق
+valeur nette de réalisation (VNR)
+lower of cost and net realizable value (LCNRV)
+التكلفة أو صافي القيمة القابلة للتحقق، أيهما أقل
+plus faible du coût et de la valeur nette de réalisation
+SECTION CHECK   Test yourself
+SC17-5  Use Figure F17-04. At what amount does Orontes carry the olive oil at the end of 2028 under U.S. GAAP (whole USD)?
+A.	950,000
+B.	900,000
+C.	1,000,000
+D.	950,000 minus 50,000
+SC17-6  A French subsidiary using IFRS wants to adopt LIFO to lower its taxable profit. Under IFRS, it:
+A.	cannot use LIFO
+B.	may use LIFO if it also uses it for tax
+C.	may use LIFO for part of its inventory
+D.	must use LIFO when prices rise
+Answers and explanations are at the end of the chapter.
+17.4  (iv) Leases: the lessee
+IFRS 16 has one lessee model: every lease is treated like a finance lease, with depreciation of the right-of-use asset plus interest. U.S. GAAP keeps two models, and an operating lease has one straight-line cost.
+For Orontes's warehouse from Chapter 14, U.S. GAAP shows a lease cost of $100,000 in 2026. IFRS 16 shows depreciation of $84,247 plus interest of $25,274: $109,521, which is higher in the early years. Over the whole lease, total expense is the same.
+IFRS 16 also allows an exemption for low-value assets, remeasures the liability when an index such as CPI changes, and classifies lease principal as financing. Figure F17-05 compares the rules.
+Figure F17-05. Lessee accounting: U.S. GAAP and IFRS 16
+Topic
+U.S. GAAP (ASC 842)
+IFRS 16
+Lessee models
+Two: finance and operating
+One: all leases like finance leases
+Warehouse lease, 2026 expense (Chapter 14)
+One straight-line lease cost: 100,000
+Depreciation 84,247 + interest 25,274 = 109,521
+Low-value assets
+No exemption
+Exemption allowed
+Index-linked payments (CPI)
+Not remeasured
+Liability remeasured
+Cash flow: operating-lease payment
+Operating
+Principal: financing; interest: by policy
+Sale and leaseback gain
+Full gain if a sale
+Gain only on the rights transferred
+SECTION CHECK   Test yourself
+SC17-7  Use Figure F17-05. What is the warehouse lease expense for 2026 under IFRS 16 (whole USD)?
+A.	25,274
+B.	84,247
+C.	100,000
+D.	109,521
+SC17-8  Which lessee rule exists under IFRS 16 but NOT under ASC 842?
+A.	An exemption for leases of 12 months or less
+B.	A right-of-use asset for most leases
+C.	An exemption for leases of low-value assets
+D.	Discounting the lease payments
+Answers and explanations are at the end of the chapter.
+17.5  (v) Long-lived assets
+U.S. GAAP carries property, plant and equipment at cost less depreciation. IAS 16 also allows the revaluation model for a whole class of assets: the assets are carried at fair value, and increases go to a revaluation surplus in OCI.
+Suppose Orontes's land in Amman cost $2,000,000 and is now worth $2,600,000. Under U.S. GAAP it stays at cost. Under IFRS, if Orontes chose the revaluation model, it would show the land at fair value and a surplus of $600,000 in OCI.
+IFRS requires component depreciation for significant parts with different lives; U.S. GAAP allows but does not require it. Both frameworks capitalize borrowing costs on assets under construction, but IFRS deducts income earned on specific borrowings. Figure F17-06 lists the differences.
+Figure F17-06. Long-lived assets: U.S. GAAP and IFRS
+Topic
+U.S. GAAP (ASC 360, 835)
+IFRS (IAS 16, 23, 40)
+Land in Amman: cost 2,000,000, fair value 2,600,000
+Stays at 2,000,000
+Revaluation model: 2,600,000; surplus 600,000 in OCI
+Component depreciation
+Allowed, not required
+Required for significant parts
+Review of lives and residual values
+When events suggest a change
+At least every year
+Borrowing costs on a new plant
+Capitalized; investment income generally not offset
+Capitalized; income on specific borrowings deducted
+Investment property
+No separate category: cost model
+Fair value or cost model (IAS 40)
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+revaluation model
+نموذج إعادة التقييم
+modèle de la réévaluation
+revaluation surplus
+فائض إعادة التقييم
+écart de réévaluation
+component depreciation
+الإهلاك حسب المكونات
+amortissement par composants
+English (exam term)
+العربية
+Français
+revaluation model
+نموذج إعادة التقييم
+modèle de la réévaluation
+revaluation surplus
+فائض إعادة التقييم
+écart de réévaluation
+component depreciation
+الإهلاك حسب المكونات
+amortissement par composants
+SECTION CHECK   Test yourself
+SC17-9  Use Figure F17-06. Under IFRS with the revaluation model, where does the $600,000 increase in the land's value go?
+A.	To net income as a gain
+B.	Nowhere; land stays at cost
+C.	To retained earnings directly
+D.	To OCI, as a revaluation surplus
+SC17-10  An aircraft has an engine that lasts 5 years and a body that lasts 25 years. Which statement is correct?
+A.	IFRS requires the parts to be depreciated separately; U.S. GAAP allows but does not require it
+B.	U.S. GAAP requires component depreciation; IFRS does not
+C.	Both prohibit component depreciation
+D.	Only the body is depreciated
+Answers and explanations are at the end of the chapter.
+17.6  (vi) Impairment
+U.S. GAAP tests a held-and-used asset group in two steps. First, it compares the carrying amount with undiscounted future cash flows. Only if the carrying amount is higher does it measure a loss, equal to the carrying amount minus fair value.
+IAS 36 uses one step. It compares the carrying amount of an asset or cash-generating unit with its recoverable amount: the higher of fair value less costs of disposal and value in use, a discounted cash-flow measure. Because there is no undiscounted screen, IFRS losses often come earlier.
+The frameworks also differ after the loss. IFRS reverses an impairment when the recoverable amount rises, but not for goodwill and not above the carrying amount without the loss. U.S. GAAP never reverses an impairment of a held-and-used asset or of goodwill. Figure F17-07 applies both tests to Orontes's beverage plant.
+Figure F17-07. The same plant under the U.S. two-step test and the IFRS one-step test.
+WORKED EXAMPLE   Worked example: the beverage plant
+Step 1 (U.S.). Undiscounted cash flows of $4,200,000 are above the carrying amount of $4,000,000: the plant is recoverable, so there is no loss.
+Step 2 (IFRS). Recoverable amount is the higher of $3,500,000 and $3,700,000: $3,700,000.
+Step 3 (IFRS). The carrying amount is higher, so the loss is $300,000.
+Check. If the U.S. test had failed, the loss would have been measured against fair value: $500,000. Figure F17-07 shows both tests.
+YOUR TURN   Which framework?
+Figure F17-08 lists six statements. The first two are done. Decide whether each of the others is true under U.S. GAAP only, IFRS only, or both. Answers are at the end of the chapter.
+Figure F17-08. Which framework? (complete the blanks)
+Statement
+U.S. GAAP only, IFRS only, or both?
+LIFO is permitted
+U.S. GAAP only
+Inventory write-downs are reversed when NRV recovers
+IFRS only
+Development costs are capitalized when criteria are met
+________
+Impairment is tested first with undiscounted cash flows
+________
+A short-term lease exemption exists
+________
+Prior service cost is expensed immediately
+________
+WATCH: NOT YET TESTABLE   Goodwill: a proposal only
+The IASB is still discussing changes to goodwill impairment disclosures after its 2024 exposure draft. Goodwill remains impairment-only under both frameworks for public companies. Do not treat the proposal as a rule.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+value in use
+القيمة من الاستخدام
+valeur d'utilité
+recoverable amount
+المبلغ القابل للاسترداد
+valeur recouvrable
+cash-generating unit
+وحدة توليد النقد
+unité génératrice de trésorerie
+fair value less costs of disposal
+القيمة العادلة ناقصاً تكاليف الاستبعاد
+juste valeur diminuée des coûts de sortie
+recoverability test
+اختبار قابلية الاسترداد
+test de recouvrabilité
+English (exam term)
+العربية
+Français
+value in use
+القيمة من الاستخدام
+valeur d'utilité
+recoverable amount
+المبلغ القابل للاسترداد
+valeur recouvrable
+cash-generating unit
+وحدة توليد النقد
+unité génératrice de trésorerie
+fair value less costs of disposal
+القيمة العادلة ناقصاً تكاليف الاستبعاد
+juste valeur diminuée des coûts de sortie
+recoverability test
+اختبار قابلية الاسترداد
+test de recouvrabilité
+SECTION CHECK   Test yourself
+SC17-11  Use Figure F17-07. What impairment loss does Orontes recognize on the beverage plant under U.S. GAAP and under IFRS (whole USD)?
+A.	U.S. 500,000; IFRS 300,000
+B.	U.S. 0; IFRS 300,000
+C.	U.S. 300,000; IFRS 300,000
+D.	U.S. 0; IFRS 500,000
+SC17-12  A year later the plant's recoverable amount rises. Under IFRS, Orontes may:
+A.	reverse it up to the new recoverable amount, even above original cost
+B.	not reverse it
+C.	reverse the impairment, but not above the carrying amount it would have had without the loss
+D.	reverse it through OCI only
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F17-09 brings the chapter together.
+Figure F17-09. Chapter 17 summary map: the key difference in each area.
+In share-based pay, U.S. GAAP allows a straight-line choice for graded vesting; IFRS requires tranche by tranche. Pension remeasurements are amortized from OCI under U.S. GAAP but never recycled under IFRS, and prior service cost is expensed at once only under IFRS. Development costs are expensed under U.S. GAAP and capitalized under IFRS when six criteria are met. LIFO is U.S. only, and write-down reversals are IFRS only. U.S. operating leases have a straight-line cost; IFRS 16 front-loads all leases. Revaluation is allowed only under IFRS. U.S. impairment uses undiscounted cash flows and then fair value, with no reversal; IFRS uses recoverable amount and allows reversal except for goodwill.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P17-01  Under IAS 19, what happens to actuarial losses recognized in OCI?
+A.	They are amortized into profit over future service
+B.	They are recognized in profit when the plan is settled
+C.	They are never reclassified to profit or loss
+D.	They are reversed the next year
+P17-02  Under U.S. GAAP, which return on plan assets reduces pension cost?
+A.	Interest at the discount rate on plan assets
+B.	The actual return
+C.	No return is used
+D.	The expected return on plan assets
+P17-03  Employer payroll taxes on stock options: when does a U.S. company recognize the liability?
+A.	Evenly over the vesting period
+B.	When the tax obligation arises, usually at exercise or vesting
+C.	At grant date
+D.	Never; it is an employee cost
+P17-04  Which intangible is recognized under BOTH frameworks?
+A.	A patent bought from another company
+B.	An internally generated brand
+C.	Development costs of a new recipe under U.S. GAAP
+D.	An internally built customer list
+P17-05  Orontes, an SEC registrant, wants to amortize its goodwill over 10 years. It:
+A.	may, using the private-company alternative
+B.	must amortize over 40 years
+C.	may, if IFRS allows it
+D.	may not; only private companies can elect goodwill amortization
+P17-06  Inventory with a cost of $80,000 was written down to $70,000. NRV then rises to $85,000. What is the carrying amount under IFRS?
+A.	$70,000
+B.	$75,000
+C.	$80,000
+D.	$85,000
+P17-07  A U.S. company uses LIFO. Which valuation rule applies at year-end?
+A.	Lower of cost or market
+B.	Lower of cost and net realizable value
+C.	Fair value
+D.	Replacement cost always
+P17-08  A lessee's payments rise each year with the CPI. After a CPI increase, under IFRS 16 the lessee:
+A.	expenses the increase with no remeasurement
+B.	remeasures the lease liability
+C.	reclassifies the lease
+D.	records a gain
+P17-09  Over the whole life of a lease, compared with IFRS 16, a U.S. operating lease gives:
+A.	a lower total expense
+B.	the same total expense, spread evenly instead of front-loaded
+C.	a higher total expense
+D.	no expense until the lease ends
+P17-10  Under IFRS, a company borrows specifically to build a plant and earns interest on unspent funds. The capitalized borrowing cost is:
+A.	interest incurred, with no deduction
+B.	zero
+C.	interest incurred minus the investment income earned on the borrowed funds
+D.	investment income only
+P17-11  An IFRS company holds an office building to earn rent. It may measure the building:
+A.	only at cost
+B.	only at fair value through OCI
+C.	at replacement cost
+D.	at fair value through profit or loss, or at cost (IAS 40)
+P17-12  Under U.S. GAAP, which measure is compared with the carrying amount in the first step of an impairment test for a held-and-used asset group?
+A.	Undiscounted future cash flows
+B.	Value in use
+C.	Recoverable amount
+D.	Fair value
+P17-13  An asset has a carrying amount of $500,000, fair value less costs of disposal of $420,000 and value in use of $460,000. What is the IFRS impairment loss?
+A.	$0
+B.	$40,000
+C.	$60,000
+D.	$80,000
+P17-14  Goodwill was impaired last year. This year the cash-generating unit recovers. Under IFRS, the goodwill impairment is:
+A.	reversed in full
+B.	reversed up to original cost
+C.	reversed through OCI
+D.	never reversed
+P17-15  What is the IFRS equivalent of a U.S. 'asset group' in impairment testing?
+A.	A reporting unit
+B.	A cash-generating unit
+C.	A disposal group
+D.	A component of an entity
+P17-16  Which pair shows a correct difference?
+A.	U.S.: research and development expensed; IFRS: development capitalized when criteria are met
+B.	U.S.: development capitalized; IFRS: expensed
+C.	Both capitalize research
+D.	Both expense all software costs
+Case-style practice: converting Levant's IFRS figures
+Use Figure F17-10 for items C17-1 to C17-6. Levant keeps its local books under IFRS, and Orontes must convert them to U.S. GAAP before consolidating. Amounts are in USD 000; ignore tax effects.
+Figure F17-10. Case exhibit: Levant Distribution's IFRS figures, 2027 (USD 000)
+Suppose: Levant Distribution LLC, 2027 (USD 000)
+Amount / details
+Levant's 2027 net income under IFRS (local books)
+1,114
+L1
+Development costs of a new ordering app capitalized in 2027 under IAS 38: 240. None is amortized yet.
+L2
+A 2026 inventory write-down was reversed in 2027 under IAS 2: gain of 30.
+L3
+Warehouse land revalued upward by 400; the surplus is in OCI.
+L4
+Delivery fleet: IAS 36 impairment loss of 50; carrying amount now 450. Undiscounted cash flows are higher than the carrying amount before the loss.
+L5
+Truck lease: IFRS 16 expense 78; as a U.S. operating lease, the straight-line cost would be 72.
+M1
+Orontes must convert Levant's figures to U.S. GAAP before consolidation (Chapter 16). Ignore tax effects.
+C17-1  How does each item change Levant's net income when it is converted to U.S. GAAP? (On the exam screen you would drag each item into a box.)
+Categories: Lowers U.S. net income · Raises U.S. net income · No effect on net income
+Item
+Category
+L1 Development costs
+L2 Write-down reversal
+L3 Land revaluation
+L4 Fleet impairment
+L5 Truck lease
+C17-2  Enter the net decrease in Levant's 2027 net income on conversion to U.S. GAAP.
+Answer: ____________
+C17-3  Enter Levant's 2027 net income under U.S. GAAP.
+Answer: ____________
+C17-4  Enter the carrying amount of the delivery fleet under U.S. GAAP.
+Answer: ____________
+C17-5  By how much is Levant's equity lower under U.S. GAAP than under IFRS?
+Answer: ____________
+C17-6  Under U.S. GAAP, Levant's 2027 inventory write-down reversal is: [select]
+Options: not recognized; the inventory stays at the written-down amount   |   recognized in net income   |   recognized in OCI   |   recognized only up to cost
+Written task
+W17  In four to six sentences, explain to Orontes's controller why Levant's net income is lower under U.S. GAAP than under IFRS. Use these words: development costs, reversal, recoverability, revaluation, OCI.
+Answers and explanations
+Section checks
+SC17-1  Answer D. IAS 19 expenses it at once; U.S. GAAP amortizes it from OCI.
+A is wrong. The treatments are reversed.
+B is wrong. U.S. GAAP does not expense it at once.
+C is wrong. IAS 19 does not amortize it.
+SC17-2  Answer B. The graded-vesting choice exists only under U.S. GAAP.
+A is wrong. IFRS 2 does not allow straight-line for graded awards.
+C is wrong. The choice is reversed.
+D is wrong. Expense is recognized over the service period.
+SC17-3  Answer C. U.S. GAAP expenses R&D, except limited software costs.
+A is wrong. Capitalizing development is the IFRS treatment.
+B is wrong. U.S. GAAP never revalues intangibles.
+D is wrong. R&D is not deferred.
+SC17-4  Answer A. IAS 38 allows revaluation only with an active market; U.S. GAAP prohibits it.
+B is wrong. U.S. GAAP prohibits revaluation.
+C is wrong. The rule is reversed.
+D is wrong. IFRS allows it in limited cases.
+SC17-5  Answer B. U.S. GAAP does not reverse the write-down.
+A is wrong. This reverses the write-down, which only IFRS does.
+C is wrong. Cost is not restored.
+D is wrong. This is not a U.S. GAAP measure.
+SC17-6  Answer A. IAS 2 prohibits LIFO.
+B is wrong. The conformity rule is a U.S. tax rule; IFRS still prohibits LIFO.
+C is wrong. LIFO is prohibited for all inventory.
+D is wrong. LIFO is never required.
+SC17-7  Answer D. Depreciation $84,247 + interest $25,274.
+A is wrong. Depreciation must be added.
+B is wrong. Interest must be added.
+C is wrong. This is the U.S. straight-line cost.
+SC17-8  Answer C. Only IFRS 16 has the low-value exemption.
+A is wrong. Both frameworks have the short-term exemption.
+B is wrong. Both frameworks recognize ROU assets.
+D is wrong. Both frameworks discount.
+SC17-9  Answer D. Upward revaluations go to OCI under IAS 16.
+A is wrong. Revaluation gains are not in profit (unless reversing an earlier loss).
+B is wrong. This is the U.S. GAAP treatment.
+C is wrong. The surplus goes through OCI.
+SC17-10  Answer A. Component depreciation is required by IAS 16.
+B is wrong. The rule is reversed.
+C is wrong. Both allow it; IFRS requires it.
+D is wrong. Both parts are depreciated.
+SC17-11  Answer B. The U.S. recoverability test is passed; IFRS compares with recoverable amount.
+A is wrong. The U.S. loss is measured only if the undiscounted test fails.
+C is wrong. U.S. GAAP does not use recoverable amount.
+D is wrong. IFRS uses the higher of FVLCD and value in use.
+SC17-12  Answer C. IAS 36 limits reversals to the carrying amount without the impairment.
+A is wrong. The reversal is capped.
+B is wrong. No reversal is the U.S. GAAP rule.
+D is wrong. The reversal goes to profit or loss for cost-model assets.
+Your turn
+Item
+Answer
+Development costs capitalized when criteria are met
+IFRS only
+Impairment tested first with undiscounted cash flows
+U.S. GAAP only
+A short-term lease exemption exists
+Both
+Prior service cost expensed immediately
+IFRS only
+Multiple-choice questions
+P17-01  Answer C. IAS 19 remeasurements stay in equity.
+A is wrong. Amortization is the U.S. GAAP approach.
+B is wrong. They are not recycled.
+D is wrong. No reversal rule exists.
+P17-02  Answer D. U.S. GAAP uses expected return; IAS 19 uses net interest.
+A is wrong. This is the IAS 19 net interest approach.
+B is wrong. The difference from actual return goes to OCI.
+C is wrong. A return is used.
+P17-03  Answer B. Accruing over the vesting period is the IFRS approach.
+A is wrong. This is the IFRS treatment.
+C is wrong. No obligation exists at grant.
+D is wrong. The employer's share is its own cost.
+P17-04  Answer A. Acquired intangibles are recognized under both.
+B is wrong. Neither framework recognizes internally generated brands.
+C is wrong. U.S. GAAP expenses development.
+D is wrong. Internally built customer lists are not recognized.
+P17-05  Answer D. Public companies test goodwill for impairment only.
+A is wrong. The alternative is for private companies only.
+B is wrong. Goodwill amortization for public companies ended in 2001.
+C is wrong. IFRS also does not amortize goodwill.
+P17-06  Answer C. The reversal is limited to the original write-down: back to cost.
+A is wrong. IFRS reverses write-downs.
+B is wrong. The full recovery up to cost is reversed.
+D is wrong. Inventory cannot rise above cost.
+P17-07  Answer A. LCM still applies to LIFO and the retail method.
+B is wrong. LCNRV applies to FIFO and average cost.
+C is wrong. Inventory is not at fair value.
+D is wrong. Replacement cost is only part of the market test.
+P17-08  Answer B. IFRS 16 remeasures for index changes; ASC 842 does not.
+A is wrong. This is the U.S. GAAP treatment.
+C is wrong. Classification is not affected.
+D is wrong. Higher payments do not create a gain.
+P17-09  Answer B. Only the timing differs.
+A is wrong. Totals are equal.
+C is wrong. Totals are equal.
+D is wrong. Expense is recognized each year.
+P17-10  Answer C. IAS 23 deducts investment income on specific borrowings.
+A is wrong. This is closer to the U.S. GAAP approach.
+B is wrong. Borrowing costs on qualifying assets are capitalized.
+D is wrong. Income reduces, not replaces, the cost.
+P17-11  Answer D. IAS 40 offers a fair value or cost model; U.S. GAAP has no such category.
+A is wrong. IFRS also allows fair value.
+B is wrong. Investment property fair value changes go to profit.
+C is wrong. Replacement cost is not a measurement model.
+P17-12  Answer A. Step 1 is the recoverability test.
+B is wrong. Value in use is an IFRS measure.
+C is wrong. Recoverable amount is an IFRS measure.
+D is wrong. Fair value is used in step 2.
+P17-13  Answer B. Recoverable amount is the higher amount, $460,000.
+A is wrong. IFRS has no undiscounted screen.
+C is wrong. This uses an average.
+D is wrong. This uses the lower amount.
+P17-14  Answer D. IAS 36 prohibits reversal of goodwill impairment.
+A is wrong. Goodwill impairments are never reversed.
+B is wrong. No reversal is allowed for goodwill.
+C is wrong. No reversal is allowed for goodwill.
+P17-15  Answer B. IAS 36 tests assets in cash-generating units.
+A is wrong. A reporting unit is the U.S. goodwill level.
+C is wrong. A disposal group is for assets held for sale.
+D is wrong. A component relates to discontinued operations.
+P17-16  Answer A. This is the main intangibles difference.
+B is wrong. The treatments are reversed.
+C is wrong. Research is expensed under both.
+D is wrong. Both capitalize some software costs.
+Case-style set: converting Levant's IFRS figures
+C17-1
+Item
+Category
+L1 Development costs
+Lowers U.S. net income
+L2 Write-down reversal
+Lowers U.S. net income
+L3 Land revaluation
+No effect on net income
+L4 Fleet impairment
+Raises U.S. net income
+L5 Truck lease
+Raises U.S. net income
+Remove IFRS-only items. OCI items do not change net income.
+C17-2  Answer: 214.
+614 is wrong: this answer also removes the revaluation, which never affected net income.
+C17-3  Answer: 900.
+1,328 is wrong: this answer applies the adjustments in the wrong direction.
+500 is wrong: this answer deducts the OCI revaluation from net income.
+1,114 is wrong: this answer makes no adjustments.
+C17-4  Answer: 500.
+450 is wrong: this answer keeps the IFRS impairment although the U.S. recoverability test is passed.
+C17-5  Answer: 614.
+214 is wrong: this answer forgets to remove the revaluation surplus from equity.
+400 is wrong: this answer removes only the revaluation surplus.
+C17-6  Answer: not recognized; the inventory stays at the written-down amount.
+recognized in net income is wrong: this answer U.S. GAAP never reverses inventory write-downs.
+recognized in OCI is wrong: this answer there is no reversal at all.
+recognized only up to cost is wrong: this answer this is the IFRS limit.
+Written task: model answer
+Under U.S. GAAP, development costs of 240 must be expensed, so they reduce net income. The inventory write-down reversal of 30 is not allowed, so it is removed. The fleet passes the U.S. recoverability test, so the IFRS impairment of 50 is added back, and the truck lease cost is 6 lower as a U.S. operating lease. The land revaluation is not allowed either, but it was in OCI, so it reduces equity, not net income. In total, net income falls by 214 to 900, the figure Orontes uses to consolidate Levant.
+A good answer: expenses development costs; removes the inventory reversal; adds back the impairment because the recoverability test is passed; adjusts the lease cost; keeps the revaluation out of net income but removes it from equity.
+PART IV — GROUPS, IFRS CONTRASTS AND INTEGRATED REPORTING

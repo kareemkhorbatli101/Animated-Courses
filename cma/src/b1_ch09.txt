@@ -1,0 +1,675 @@
+Chapter 9
+Investments in Debt and Equity Securities
+الاستثمار في أدوات الدين وأدوات حقوق الملكية
+Companies invest spare cash in bonds and shares, and they buy shares in suppliers and partners. U.S. GAAP measures these investments in different ways, depending on what the company intends to do with them and how much influence it has. In this chapter you learn the categories, how each one is measured, and where the gains and losses go.
+Figure F09-01 shows the map of the chapter.
+Figure F09-01. Chapter 9 roadmap: debt securities in three categories, equity securities by level of influence.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.j
+Classify debt securities as trading, available-for-sale or held-to-maturity.
+B
+Full treatment
+A.2.k
+Measure debt and equity securities, including credit losses and the equity method.
+B
+Full treatment
+A.2.ff
+State the IFRS 9 and IAS 28 differences.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+debt security
+أداة دين (سند)
+titre de créance
+equity security
+أداة حقوق ملكية (أسهم)
+titre de capitaux propres
+trading securities
+أوراق مالية بغرض المتاجرة
+titres détenus à des fins de transaction
+available-for-sale (AFS) securities
+أوراق مالية متاحة للبيع
+titres disponibles à la vente
+held-to-maturity (HTM) securities
+أوراق مالية محتفظ بها حتى تاريخ الاستحقاق
+titres détenus jusqu'à l'échéance
+fair value
+القيمة العادلة
+juste valeur
+other comprehensive income (OCI)
+الدخل الشامل الآخر
+autres éléments du résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+effective-interest method
+طريقة الفائدة الفعلية
+méthode du taux d'intérêt effectif
+equity method
+طريقة حقوق الملكية
+mise en équivalence
+WHAT YOU ALREADY KNOW   What you already know
+If you studied IFRS 9, you classify financial assets by business model and cash flows. U.S. GAAP classifies debt by management's intent, and it has one big surprise for IFRS readers: there is no option to put gains on shares in OCI. If you studied the older IAS 39, the words available-for-sale and held-to-maturity will feel familiar.
+9.1  Three categories of debt securities
+A debt security gives its holder a right to interest and to repayment, like a bond. An equity security gives an ownership interest, like shares of common stock. This section is about debt securities. Section 9.4 covers equity securities.
+When a company buys a debt security, it classifies it into one of three categories, and it reassesses the classification at each reporting date. The category depends on management's intent and ability, not on the type of bond. Figure F09-02 shows the questions.
+Trading securities are bought and held mainly to sell in the near term.
+Held-to-maturity (HTM) securities are securities the company has the positive intent and the ability to hold until they mature.
+Available-for-sale (AFS) securities are all other debt securities.
+Figure F09-02. Decision tree for classifying a debt security as trading, held-to-maturity or available-for-sale.
+HTM is a strict category. If the company would sell the bond when interest rates change or when it needs cash, it does not have the intent to hold it. And if it sells or transfers HTM securities for other reasons, it taints the whole HTM portfolio, which raises doubt about its intent for all its other HTM securities. The standard allows a few exceptions, such as a sale after the issuer's credit quality falls sharply, or a sale very close to maturity.
+A company may also elect the fair value option for a security when it first recognizes it. The election is irrevocable, and all changes in fair value then go to net income.
+EXAM TRAP   Intent decides
+The same bond can be trading, AFS or HTM. Read the facts about intent and ability.
+A company that might sell when rates change cannot use HTM.
+Equity securities are never trading, AFS or HTM under current U.S. GAAP.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+debt security
+أداة دين (سند)
+titre de créance
+equity security
+أداة حقوق ملكية (أسهم)
+titre de capitaux propres
+trading securities
+أوراق مالية بغرض المتاجرة
+titres détenus à des fins de transaction
+available-for-sale (AFS) securities
+أوراق مالية متاحة للبيع
+titres disponibles à la vente
+held-to-maturity (HTM) securities
+أوراق مالية محتفظ بها حتى تاريخ الاستحقاق
+titres détenus jusqu'à l'échéance
+fair value option
+خيار القيمة العادلة
+option de la juste valeur
+English (exam term)
+العربية
+Français
+debt security
+أداة دين (سند)
+titre de créance
+equity security
+أداة حقوق ملكية (أسهم)
+titre de capitaux propres
+trading securities
+أوراق مالية بغرض المتاجرة
+titres détenus à des fins de transaction
+available-for-sale (AFS) securities
+أوراق مالية متاحة للبيع
+titres disponibles à la vente
+held-to-maturity (HTM) securities
+أوراق مالية محتفظ بها حتى تاريخ الاستحقاق
+titres détenus jusqu'à l'échéance
+fair value option
+خيار القيمة العادلة
+option de la juste valeur
+SECTION CHECK   Test yourself
+SC9-1  Orontes buys a bond and plans to sell it if interest rates fall or if it needs cash. How should it classify the bond?
+A.	Held-to-maturity
+B.	Trading
+C.	Available-for-sale
+D.	Equity method
+SC9-2  Which securities can be classified as held-to-maturity?
+A.	Debt securities only
+B.	Equity securities only
+C.	Both debt and equity securities
+D.	Any security with a fixed maturity date or a dividend
+Answers and explanations are at the end of the chapter.
+9.2  Measuring debt securities
+Figure F09-03 summarizes the measurement of every category. Trading and AFS securities are reported at fair value: the price the company would receive if it sold the security in an orderly transaction. HTM securities are reported at amortized cost. The main difference between trading and AFS is where the unrealized holding gain or loss goes. For trading it goes to net income. For AFS it goes to other comprehensive income (OCI).
+Figure F09-03. How each category of investment is measured
+Category
+Balance sheet amount
+Unrealized gains and losses go to
+On sale, OCI is
+Trading (debt)
+Fair value
+Net income
+—
+Available-for-sale (debt)
+Fair value
+OCI (credit losses: net income)
+Reclassified to net income
+Held-to-maturity (debt)
+Amortized cost − allowance
+Not recognized
+—
+Equity, no significant influence
+Fair value
+Net income
+—
+Equity, no readily determinable fair value
+Measurement alternative
+Net income (price changes, impairment)
+—
+Equity method
+Cost + share of income − dividends
+Not recognized
+—
+Interest revenue: the effective-interest method
+A bond is bought at a bond premium when its stated interest rate is higher than the market rate, and at a bond discount when it is lower. Under the effective-interest method, interest revenue for each year is the carrying amount at the start of the year multiplied by the market rate at purchase. The cash received is the face amount multiplied by the stated rate. The difference amortizes the premium or discount, so the carrying amount moves toward face value.
+WORKED EXAMPLE   Orontes buys a corporate bond
+On January 1, 2025, Orontes buys a 3-year bond with a face amount of $100,000 and a stated rate of 6%, paid each December 31. The market rate is 5%, so Orontes pays $102,723, a premium of $2,723.
+Year
+Cash interest
+Interest revenue
+Premium amortized
+Amortized cost, end
+2025
+6,000
+5,136
+864
+101,859
+2026
+6,000
+5,093
+907
+100,952
+2027
+6,000
+5,048
+952
+100,000
+In 2025, interest revenue is $102,723 × 5% = $5,136. At year-end the bond's fair value is $101,000. Figure F09-04 shows the 2025 results under each category.
+Year
+Cash interest
+Interest revenue
+Premium amortized
+Amortized cost, end
+2025
+6,000
+5,136
+864
+101,859
+2026
+6,000
+5,093
+907
+100,952
+2027
+6,000
+5,048
+952
+100,000
+Figure F09-04. The same bond under three categories, 2025 (whole USD)
+2025, whole USD
+Trading
+Available-for-sale
+Held-to-maturity
+Interest revenue in net income (effective interest)
+5,136
+5,136
+5,136
+Amortized cost at Dec 31, 2025
+101,859
+101,859
+101,859
+Balance sheet amount at Dec 31, 2025
+101,000
+101,000
+101,859
+Unrealized holding loss
+(859) in net income
+(859) in OCI
+not recognized
+Interest revenue is the same in all three categories. Only the balance sheet amount and the place of the unrealized loss differ.
+Selling an AFS security: the reclassification adjustment
+While Orontes holds an AFS bond, its unrealized gains and losses build up in accumulated OCI, part of equity. When Orontes sells the bond, the realized gain or loss moves to net income through a reclassification adjustment, sometimes called recycling. Figure F09-05 follows the bond until Orontes sells it at the end of 2026.
+Figure F09-05. Timeline of an available-for-sale bond: OCI while held, recycled to net income on sale.
+On the sale, the realized gain is the price minus the amortized cost: $101,500 − $100,952 = $548. Accumulated OCI for the bond returns to zero, so the gain is never counted twice.
+Transfers between categories
+Transfers between categories are made at fair value. When a security moves into trading, any unrealized gain or loss not yet in net income goes to net income immediately. When an AFS security moves to HTM, the unrealized amount stays in accumulated OCI and is amortized over the remaining life. Transfers into or out of trading should be rare.
+EXAM TRAP   Where does it go?
+Trading: fair value changes in net income. AFS: in OCI. HTM: not recognized.
+Interest revenue = beginning carrying amount × market rate, not face × stated rate.
+On sale of AFS debt, recycle the accumulated OCI; do not count the gain twice.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+fair value
+القيمة العادلة
+juste valeur
+unrealized holding gain or loss
+مكسب أو خسارة حيازة غير محققة
+gain ou perte latent(e)
+other comprehensive income (OCI)
+الدخل الشامل الآخر
+autres éléments du résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+effective-interest method
+طريقة الفائدة الفعلية
+méthode du taux d'intérêt effectif
+bond premium
+علاوة إصدار السند
+prime (sur obligation)
+bond discount
+خصم إصدار السند
+décote (sur obligation)
+English (exam term)
+العربية
+Français
+fair value
+القيمة العادلة
+juste valeur
+unrealized holding gain or loss
+مكسب أو خسارة حيازة غير محققة
+gain ou perte latent(e)
+other comprehensive income (OCI)
+الدخل الشامل الآخر
+autres éléments du résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+effective-interest method
+طريقة الفائدة الفعلية
+méthode du taux d'intérêt effectif
+bond premium
+علاوة إصدار السند
+prime (sur obligation)
+bond discount
+خصم إصدار السند
+décote (sur obligation)
+SECTION CHECK   Test yourself
+SC9-3  Use the Orontes bond. What is interest revenue for 2025 (whole USD)?
+A.	864
+B.	5,000
+C.	5,136
+D.	6,000
+SC9-4  At year-end, the fair value of an available-for-sale bond is below its amortized cost. There is no credit loss. Where is the decline reported?
+A.	In net income
+B.	Nowhere; AFS stays at amortized cost
+C.	Directly in retained earnings
+D.	In other comprehensive income
+Answers and explanations are at the end of the chapter.
+9.3  Credit losses on debt securities
+HTM securities are measured at amortized cost, so they follow CECL, like the receivables in Chapter 6: the company records an allowance for lifetime expected credit losses from day one. For very safe bonds, such as U.S. Treasury bonds, the expected loss can be zero.
+AFS securities follow a different model. A security is impaired when its fair value is below its amortized cost. If the company intends to sell it, or will more likely than not have to sell it before it recovers, it writes the security down to fair value through net income. Otherwise it separates the decline into two parts. The credit part is recorded in an allowance through net income. The rest of the decline goes to OCI.
+WORKED EXAMPLE   The fair-value floor
+An AFS bond has an amortized cost of $50,000 and a fair value of $44,000. The allowance can never be larger than amortized cost minus fair value: $6,000.
+Case A: the present value of expected cash flows is $47,000. The credit loss is $3,000 (allowance, net income), and the other $3,000 of the decline goes to OCI.
+Case B: the present value of expected cash flows is $42,000. The credit loss would be $8,000, but the allowance is limited to $6,000. Nothing goes to OCI.
+If credit quality improves later, the allowance can be reversed through net income.
+EXAM TRAP   The AFS floor
+AFS allowance ≤ amortized cost − fair value. HTM has no such limit.
+If the company intends to sell, there is no allowance: write the bond down to fair value.
+SECTION CHECK   Test yourself
+SC9-5  Use Case B of the fair-value floor example. What allowance for credit losses is recorded (whole USD)?
+A.	0
+B.	3,000
+C.	6,000
+D.	8,000
+SC9-6  An AFS bond is below amortized cost, and the company intends to sell it before it recovers. What is the treatment?
+A.	Record an allowance for the credit part only.
+B.	Write the bond down to fair value through net income.
+C.	Record the whole decline in OCI.
+D.	Do nothing until the sale.
+Answers and explanations are at the end of the chapter.
+9.4  Equity securities and the equity method
+For shares, the key question is how much influence the investor has over the investee, the company whose shares it holds. Figure F09-06 shows the three levels.
+Figure F09-06. Influence spectrum: fair value, the equity method or consolidation, by share of voting stock.
+No significant influence: fair value through net income
+Shares with a readily determinable fair value are measured at fair value, and all changes go to net income. There is no AFS category and no OCI option for shares. Dividends received are income. For example, Orontes bought listed shares for $20,000; at year-end they are worth $23,500, and Orontes received dividends of $400. Net income includes an unrealized gain of $3,500 and dividend income of $400.
+For shares with no readily determinable fair value, such as shares of a private company, the investor may use the measurement alternative: cost minus impairment, adjusted when an orderly transaction in the same or a similar share shows a new price.
+Significant influence: the equity method
+An investor with significant influence can take part in the investee's financial and operating decisions. Influence is presumed when the investor holds 20% to 50% of the voting stock, but the evidence decides: a board seat, participation in policy decisions or large transactions between the companies can show influence even below 20%. With significant influence, the investor uses the equity method.
+Under the equity method, the investment starts at cost. It increases by the investor's share of the investee's net income and decreases by the dividends the investor receives. The dividends are not income, because they only return part of the investment.
+WORKED EXAMPLE   Orontes and Jordan Glass Co.
+On January 1, 2025, Orontes buys 30% of Jordan Glass Co., its bottle supplier, for $1,200,000. Jordan Glass's net assets have a book value of $3,000,000, so Orontes's share of book value is $900,000. The basis difference of $300,000 has two parts: $30,000 for Orontes's share of equipment worth more than its book value, which is depreciated over 10 years ($3,000 a year), and $270,000 of goodwill, which is not amortized.
+In 2025 Jordan Glass earns $500,000 and pays dividends of $200,000. Figure F09-07 shows the investment account.
+Figure F09-07. Equity-method T-account for Orontes's 30% investment in Jordan Glass Co., 2025.
+Orontes reports equity-method income of $147,000 and an investment of $1,287,000 at the end of 2025. The dividends of $60,000 are cash in and investment out; they do not change net income.
+YOUR TURN   Jordan Glass in 2026
+In 2026 Jordan Glass earns $400,000 and pays dividends of $100,000. The extra depreciation is the same as in 2025. Complete Figure F09-08.
+Figure F09-08. Faded equity-method T-account for 2026; the learner completes the dashed boxes.
+Three more equity-method rules appear in exam questions. Losses reduce the investment only to zero, unless the investor has guaranteed the investee's debts. Profits on sales between the two companies are eliminated until the goods are sold to outsiders. And when an investor first gains significant influence, it starts the equity method from that date; it does not restate prior years. An investor may also elect the fair value option for an equity-method investment.
+Crypto assets that meet the ASU 2023-08 definition are measured at fair value through net income. This rule became effective for fiscal years beginning after December 15, 2024, so it is now testable.
+● IFRS CONTRAST   IFRS 9 and IAS 28
+IFRS 9 classifies debt by the business model and the cash flows (amortized cost, FVOCI or FVPL), not by intent. For shares, IFRS 9 allows an irrevocable election to put fair value changes in OCI, with no recycling on sale; U.S. GAAP has no such option. Under IAS 28, an equity-method investment that is impaired can later be written back up; under U.S. GAAP the impairment is not reversed.
+EXAM TRAP   Dividends and percentages
+Equity method: dividends reduce the investment. They are not income.
+Take only the investor's share of the investee's income.
+Depreciate the part of the basis difference assigned to assets; do not amortize the goodwill.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+significant influence
+التأثير الجوهري
+influence notable
+equity method
+طريقة حقوق الملكية
+mise en équivalence
+investee
+المنشأة المستثمر فيها
+entité détenue
+measurement alternative
+بديل القياس
+méthode d'évaluation alternative
+basis difference
+فرق الأساس
+écart d'acquisition (différence de base)
+English (exam term)
+العربية
+Français
+significant influence
+التأثير الجوهري
+influence notable
+equity method
+طريقة حقوق الملكية
+mise en équivalence
+investee
+المنشأة المستثمر فيها
+entité détenue
+measurement alternative
+بديل القياس
+méthode d'évaluation alternative
+basis difference
+فرق الأساس
+écart d'acquisition (différence de base)
+SECTION CHECK   Test yourself
+SC9-7  Orontes holds 3% of a listed company's shares. How are changes in their fair value reported?
+A.	In net income
+B.	In other comprehensive income
+C.	Not at all; the shares stay at cost
+D.	Under the equity method
+SC9-8  Use the Jordan Glass example. What is Orontes's equity-method income for 2025 (whole USD)?
+A.	60,000
+B.	147,000
+C.	150,000
+D.	500,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F09-09 brings the chapter together.
+Figure F09-09. Chapter 9 summary map: the key rule for each section.
+Debt securities are trading, held-to-maturity or available-for-sale, depending on intent and ability. Trading and AFS securities are at fair value; trading gains and losses go to net income and AFS gains and losses go to OCI until the sale, when they are reclassified. HTM securities stay at amortized cost, and interest revenue always follows the effective-interest method. Credit losses use CECL for HTM and an allowance limited by fair value for AFS. Shares without significant influence are at fair value through net income. With significant influence, the equity method adds the investor's share of income and subtracts dividends.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P9-01  A debt security should be classified as held-to-maturity only if the company has:
+A.	the positive intent and the ability to hold it until maturity.
+B.	no plan to sell it within the next year.
+C.	bought it at a discount.
+D.	the fair value option.
+P9-02  A company sells a large part of its held-to-maturity portfolio because it needs cash. What is the MOST likely consequence?
+A.	Nothing, because the sale was for a business reason.
+B.	The gain on the sale goes to OCI.
+C.	Its remaining HTM securities are tainted and should be reclassified.
+D.	The securities are reclassified as trading at cost.
+P9-03  Use the Orontes bond. What is the amortized cost at December 31, 2025 (whole USD)?
+A.	100,000
+B.	101,000
+C.	101,859
+D.	102,723
+P9-04  Orontes classifies the bond as trading. What amount is reported in 2025 net income for the change in fair value (whole USD)?
+A.	A loss of 2,723
+B.	A loss of 859
+C.	No amount; it goes to OCI
+D.	A gain of 859
+P9-05  Orontes sells its AFS bond at the end of 2026. Which amount goes to net income as a realized gain (whole USD)?
+A.	0
+B.	548
+C.	859
+D.	1,407
+P9-06  How is a held-to-maturity bond reported on the balance sheet?
+A.	At fair value
+B.	At face value
+C.	At cost, with no amortization
+D.	At amortized cost, net of any allowance for credit losses
+P9-07  Which statement about credit losses on debt securities is correct?
+A.	AFS allowances are limited to amortized cost minus fair value; HTM allowances have no such limit.
+B.	Both HTM and AFS use the same CECL allowance with no limit.
+C.	Neither category records credit losses until a default.
+D.	AFS credit losses go to OCI.
+P9-08  Orontes bought listed shares for $20,000. At year-end they are worth $23,500, and Orontes received dividends of $400. What is the total effect on net income?
+A.	0
+B.	400
+C.	3,500
+D.	3,900
+P9-09  A company holds shares of a private company with no readily determinable fair value. Which measurement may it elect?
+A.	Available-for-sale with changes in OCI
+B.	Cost minus impairment, adjusted for observable price changes
+C.	Held-to-maturity at amortized cost
+D.	The equity method, whatever its influence
+P9-10  Orontes owns 15% of a company and holds two of its seven board seats. It takes part in setting its policies. Which method is MOST likely?
+A.	The equity method
+B.	Fair value through net income
+C.	Consolidation
+D.	Available-for-sale
+P9-11  Use the Jordan Glass example. What is the investment balance at December 31, 2025 (whole USD)?
+A.	1,287,000
+B.	1,290,000
+C.	1,347,000
+D.	1,637,000
+P9-12  Under the equity method, the part of the basis difference assigned to goodwill is:
+A.	amortized over ten years.
+B.	expensed immediately.
+C.	added to the investor's own goodwill account.
+D.	not amortized.
+P9-13  An investor first gains significant influence by buying more shares. How does it apply the equity method?
+A.	Retroactively, restating all prior years
+B.	Only from the next fiscal year
+C.	It keeps fair value through net income
+D.	From the date it gains influence, with no restatement of prior years
+P9-14  Which option exists under IFRS 9 but NOT under U.S. GAAP?
+A.	Measuring trading debt at fair value through profit or loss
+B.	An irrevocable election to put fair value changes on shares in OCI
+C.	The equity method for associates
+D.	Amortized cost for debt held to collect cash flows
+P9-15  Spiral review (Chapter 1). Interest revenue on a bond is recognized each year even when the premium makes the cash received higher than the revenue. Which basis does this follow?
+A.	The cash basis
+B.	The direct write-off method
+C.	The accrual basis
+D.	Immediate recognition
+P9-16  Spiral review (Chapter 6). Which debt investments follow the same CECL model as trade receivables?
+A.	Held-to-maturity securities
+B.	Trading securities
+C.	Available-for-sale securities
+D.	Shares measured at fair value
+Case-style practice: the Orontes investment portfolio
+Use Figure F09-10 for items C9-1 to C9-6. All amounts are whole dollars for 2025.
+Figure F09-10. Case exhibit: the Orontes investment portfolio at December 31, 2025
+Item
+Investment
+Facts
+Amounts, Dec 31, 2025
+A
+Corporate bond
+Bought to sell in the near term; the treasury team trades it actively.
+cost 40,000; fair value 42,000
+B
+Government bond
+Orontes intends and is able to hold it until it matures in 2029.
+cost 60,000; fair value 57,000
+C
+Corporate bond
+No plan to trade it or to hold it to maturity; no credit loss expected.
+cost 30,000; fair value 28,500
+D
+Listed shares (5% of the company)
+No significant influence. Dividend received during 2025: 800.
+cost 25,000; fair value 27,000
+E
+Shares of Amman Cold Storage Co. (25%)
+Orontes has a seat on the board. Carrying amount on Jan 1, 2025: 500,000. Investee net income: 120,000; dividends paid: 40,000.
+C9-1  Match each investment to its category. (On the exam screen you would drag each one into a box.)
+Categories: Trading · Held-to-maturity · Available-for-sale · Equity: fair value through net income · Equity method
+Investment
+Category
+A
+B
+C
+D
+E
+C9-2  Enter the total unrealized holding gain (or loss) reported in 2025 NET INCOME for investments A to D.
+Answer: ____________
+C9-3  Enter the amount reported in 2025 OTHER COMPREHENSIVE INCOME (show a loss in parentheses).
+Answer: ____________
+C9-4  Enter the carrying amount of investment E at December 31, 2025.
+Answer: ____________
+C9-5  Enter the equity-method income from investment E for 2025.
+Answer: ____________
+C9-6  In 2026 Orontes sells bond C at its December 31, 2025 fair value. The loss in accumulated OCI: [select]
+Options: is reclassified to net income as a realized loss   |   stays in accumulated OCI   |   goes directly to retained earnings   |   is reversed with no effect on income
+Written task
+W9  In four to six sentences, explain to an Orontes board member why the same bond can affect net income in three different ways, and why dividends from Jordan Glass are not income. Use these words: trading, available-for-sale, held-to-maturity, OCI, equity method.
+Answers and explanations
+Section checks
+SC9-1  Answer C. It is not bought to trade in the near term, and the possible sales rule out HTM.
+A is wrong. Selling in response to rates or cash needs shows no positive intent to hold.
+B is wrong. Trading needs the purpose of selling in the near term.
+D is wrong. The equity method is for shares with significant influence.
+SC9-2  Answer A. Only debt securities have a maturity; shares never qualify.
+B is wrong. Shares have no maturity date.
+C is wrong. Equity securities never use the HTM category.
+D is wrong. Dividends do not create a maturity.
+SC9-3  Answer C. Beginning carrying amount × market rate.
+A is wrong. This is the premium amortization.
+B is wrong. This applies the market rate to face value instead of the carrying amount.
+D is wrong. This is the cash interest (face × stated rate).
+SC9-4  Answer D. AFS unrealized gains and losses go to OCI.
+A is wrong. Net income is for trading securities and shares.
+B is wrong. AFS is measured at fair value; HTM stays at amortized cost.
+C is wrong. OCI builds up in accumulated OCI, not retained earnings.
+SC9-5  Answer C. The credit loss is limited to amortized cost minus fair value.
+A is wrong. The present value shows a credit loss, so an allowance is needed.
+B is wrong. This is the Case A amount.
+D is wrong. This ignores the fair-value floor.
+SC9-6  Answer B. With an intent to sell, the whole decline goes to net income as a write-down.
+A is wrong. The allowance approach applies only when the company does not intend to sell.
+C is wrong. The loss can no longer stay in OCI.
+D is wrong. The loss must be recognized now.
+SC9-7  Answer A. Shares without significant influence are measured at fair value through net income.
+B is wrong. U.S. GAAP has no OCI option for shares.
+C is wrong. Listed shares have a readily determinable fair value.
+D is wrong. A 3% holding gives no significant influence here.
+SC9-8  Answer B. Share of net income minus the extra depreciation on the equipment.
+A is wrong. Dividends are not income under the equity method.
+C is wrong. This forgets the depreciation of the basis difference.
+D is wrong. This is 100% of the investee's income.
+Your turn
+Item
+Answer
+Share of net income
+30% × 400,000 = 120,000
+Extra depreciation
+3,000
+Dividends
+30% × 100,000 = 30,000
+Ending balance
+1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000
+Equity-method income
+120,000 − 3,000 = 117,000
+Multiple-choice questions
+P9-01  Answer A. Both intent and ability are required.
+B is wrong. A one-year view is not enough; the intent must cover the whole period to maturity.
+C is wrong. The purchase price does not decide the category.
+D is wrong. The fair value option leads to fair value through net income, not HTM.
+P9-02  Answer C. Selling HTM securities outside the permitted cases calls the company's intent into question.
+A is wrong. A need for cash is not one of the permitted reasons.
+B is wrong. A realized gain on sale goes to net income.
+D is wrong. Transfers are made at fair value, not cost.
+P9-03  Answer C. Cost minus the premium amortized in 2025.
+A is wrong. The bond reaches face value only at maturity.
+B is wrong. This is fair value, not amortized cost.
+D is wrong. This ignores the premium amortization.
+P9-04  Answer B. Fair value minus amortized cost: the loss goes to net income for trading securities.
+A is wrong. This compares fair value with face, ignoring amortized cost.
+C is wrong. OCI is for AFS; trading changes go to net income.
+D is wrong. Fair value is below amortized cost, so it is a loss.
+P9-05  Answer B. Sale price minus amortized cost; the accumulated OCI is reclassified.
+A is wrong. The gain is realized on the sale and goes to net income.
+C is wrong. This is the 2025 unrealized loss.
+D is wrong. This is the change in the unrealized amount during 2026, not the realized gain.
+P9-06  Answer D. HTM securities are not remeasured to fair value.
+A is wrong. Fair value is only disclosed for HTM.
+B is wrong. Face value is reached only at maturity.
+C is wrong. Premiums and discounts are amortized.
+P9-07  Answer A. HTM follows CECL; AFS uses an allowance capped by the fair-value floor.
+B is wrong. AFS has its own model with the fair-value floor.
+C is wrong. Expected losses are recorded before any default.
+D is wrong. The credit part goes to net income; only the non-credit part goes to OCI.
+P9-08  Answer D. Unrealized gain plus dividend income; both go to net income.
+A is wrong. Both amounts are income for shares without influence.
+B is wrong. The unrealized gain also goes to net income.
+C is wrong. Dividends on these shares are income.
+P9-09  Answer B. This is the measurement alternative in ASC 321.
+A is wrong. AFS no longer exists for shares.
+C is wrong. Shares have no maturity.
+D is wrong. The equity method requires significant influence.
+P9-10  Answer A. Board seats and policy participation show significant influence, even below the usual presumption.
+B is wrong. The evidence of influence overrides the percentage.
+C is wrong. Consolidation needs control.
+D is wrong. AFS is not used for shares.
+P9-11  Answer A. Cost + share of income − extra depreciation − dividends.
+B is wrong. This forgets the extra depreciation.
+C is wrong. This does not deduct the dividends received.
+D is wrong. This adds 100% of the investee's income.
+P9-12  Answer D. Equity-method goodwill is part of the investment and is not amortized.
+A is wrong. Amortization of goodwill is a private-company option for acquired goodwill, not an equity-method rule.
+B is wrong. It is part of the cost of the investment.
+C is wrong. It stays inside the single investment account.
+P9-13  Answer D. Since ASU 2016-07 the change is applied prospectively.
+A is wrong. Retroactive restatement was removed by ASU 2016-07.
+B is wrong. It starts on the date influence is obtained.
+C is wrong. With significant influence, the equity method applies (unless the fair value option is elected).
+P9-14  Answer B. IFRS 9 allows the FVOCI election for shares; U.S. GAAP puts all changes on shares in net income.
+A is wrong. Both frameworks measure trading debt at fair value through income.
+C is wrong. Both frameworks use the equity method.
+D is wrong. Both frameworks use amortized cost for such debt.
+P9-15  Answer C. Revenue is recognized as earned, measured by the effective-interest method, not by the cash received.
+A is wrong. Under the cash basis, revenue would equal the cash received.
+B is wrong. That is a method for bad debts.
+D is wrong. Immediate recognition is for costs with no link to revenue.
+P9-16  Answer A. HTM securities are measured at amortized cost, like receivables.
+B is wrong. Trading securities are at fair value through net income; no allowance is needed.
+C is wrong. AFS has a separate model with the fair-value floor.
+D is wrong. Shares at fair value have no credit-loss allowance.
+Case-style set: the Orontes investment portfolio
+C9-1
+Investment
+Category
+A
+Trading
+B
+Held-to-maturity
+C
+Available-for-sale
+D
+Equity: fair value through net income
+E
+Equity method
+Intent decides the debt category; influence decides the equity treatment.
+C9-2  Answer: 4,000.
+2,500 is wrong: this answer also puts the AFS loss in net income.
+(500) is wrong: this answer also recognizes the HTM decline.
+C9-3  Answer: (1,500).
+(4,500) is wrong: this answer also includes the HTM decline.
+500 is wrong: this answer also puts the gain on shares D in OCI.
+C9-4  Answer: 520,000.
+530,000 is wrong: this answer does not deduct the dividends received.
+610,000 is wrong: this answer adds 100% of the investee's income.
+C9-5  Answer: 30,000.
+10,000 is wrong: this answer reports the dividends as the income.
+40,000 is wrong: this answer adds the dividends to the share of income.
+C9-6  Answer: is reclassified to net income as a realized loss.
+stays in accumulated OCI is wrong: this answer forgets the reclassification on sale.
+goes directly to retained earnings is wrong: this answer applies the IFRS no-recycling rule for FVOCI shares to AFS debt.
+is reversed with no effect on income is wrong: this answer ignores the realized loss.
+Written task: model answer
+The category of a bond depends on what management intends to do with it. If the bond is trading, changes in its fair value go to net income each year. If it is available-for-sale, the changes go to OCI and reach net income only when the bond is sold. If it is held-to-maturity, fair value changes are not recognized at all; only interest revenue affects income. Jordan Glass is under the equity method, so Orontes already records its share of Jordan Glass's income; the dividends simply return part of the investment, so they reduce the investment instead of increasing income.
+A good answer: explains that intent decides the category; states the treatment of each of the three categories; mentions reclassification from OCI on sale; explains why dividends reduce the equity-method investment; uses the Orontes context (bonus).
+PART II — RECOGNITION AND MEASUREMENT OF ASSETS

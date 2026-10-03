@@ -1,0 +1,742 @@
+Chapter 13
+Income Taxes
+ضرائب الدخل
+Orontes reported income tax expense of $989,700 for 2025, but it paid only $839,700 in cash. This chapter explains why the two numbers differ, and why Orontes shows a deferred tax liability on its balance sheet.
+Figure F13-01 shows the key idea: the same transactions produce two different incomes.
+Figure F13-01. Chapter 13 roadmap: book income, taxable income and deferred taxes.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.q
+Explain interperiod tax allocation and compute current and deferred income tax expense.
+B
+Full treatment
+A.2.s
+Distinguish temporary from permanent differences, with examples.
+B
+Full treatment
+A.2.r
+Distinguish deferred tax liabilities from deferred tax assets, including valuation allowances.
+B
+Full treatment
+A.2.ff
+State the main differences between ASC 740 and IAS 12.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+taxable income
+الدخل الخاضع للضريبة
+bénéfice imposable
+temporary difference
+فرق مؤقت
+différence temporaire
+permanent difference
+فرق دائم
+différence permanente
+deferred tax liability
+التزام ضريبي مؤجل
+passif d'impôt différé
+deferred tax asset
+أصل ضريبي مؤجل
+actif d'impôt différé
+valuation allowance
+مخصص التقييم
+provision pour dépréciation des impôts différés actifs
+enacted tax rate
+معدل الضريبة المُقر (المسنون)
+taux d'impôt adopté
+interperiod tax allocation
+توزيع الضريبة بين الفترات
+répartition de l'impôt entre exercices
+WHAT YOU ALREADY KNOW   What you already know
+IAS 12 uses the same balance sheet approach as U.S. GAAP. The differences are in the details: how deferred tax assets are recognized, which tax rates are used, and some exemptions. Section 13.5 lists them.
+13.1  Why book income and taxable income differ
+Financial statements follow U.S. GAAP and are prepared for investors. Tax returns follow tax law and are prepared for the government. The two sets of rules have different goals, so taxable income is usually not the same as income before income taxes.
+If a company simply reported the tax it paid, its tax expense would jump around when the rules timed items differently. Interperiod tax allocation solves this. The company recognizes the tax effects of transactions in the same periods as the transactions themselves, using deferred taxes.
+Figure F13-02 shows Orontes's tax figures for 2025. Income tax expense of $989,700 has two parts: current tax expense of $889,700, the tax on 2025 taxable income, and deferred tax expense of $100,000. Net taxable temporary differences grew by $400,000, mainly because tax depreciation was faster than book depreciation.
+Figure F13-02. Orontes Foods Inc. — income tax figures for 2025
+Orontes Foods Inc., 2025 (whole USD)
+Amount
+Income before income taxes
+3,958,800
+Income tax expense (25% combined federal and state rate)
+989,700
+Current tax expense (taxes on 2025 taxable income)
+889,700
+Deferred tax expense (25% of the 400,000 increase in net taxable temporary differences)
+100,000
+Income taxes paid in cash (Chapter 5)
+839,700
+Deferred tax liability, January 1, 2025
+900,000
+Deferred tax liability, December 31, 2025 (after the 375 tax effect of the OCI loss)
+999,625
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+taxable income
+الدخل الخاضع للضريبة
+bénéfice imposable
+interperiod tax allocation
+توزيع الضريبة بين الفترات
+répartition de l'impôt entre exercices
+current tax expense
+مصروف الضريبة الجارية
+charge d'impôt exigible
+deferred tax expense
+مصروف الضريبة المؤجلة
+charge d'impôt différé
+English (exam term)
+العربية
+Français
+taxable income
+الدخل الخاضع للضريبة
+bénéfice imposable
+interperiod tax allocation
+توزيع الضريبة بين الفترات
+répartition de l'impôt entre exercices
+current tax expense
+مصروف الضريبة الجارية
+charge d'impôt exigible
+deferred tax expense
+مصروف الضريبة المؤجلة
+charge d'impôt différé
+SECTION CHECK   Test yourself
+SC13-1  What is the purpose of interperiod tax allocation?
+A.	To report only the tax paid in cash
+B.	To make taxable income equal book income
+C.	To spread tax expense evenly over five years
+D.	To recognize the tax effects of transactions in the same periods as the transactions
+SC13-2  Use Figure F13-02. What is Orontes's deferred tax expense for 2025 (whole USD)?
+A.	100,000
+B.	400,000
+C.	989,700
+D.	999,625
+Answers and explanations are at the end of the chapter.
+13.2  Temporary and permanent differences
+A temporary difference arises when the tax basis of an asset or liability differs from its carrying amount on the balance sheet. It reverses in later years. A taxable temporary difference will increase future taxable income; a deductible temporary difference will reduce it.
+A permanent difference never reverses. The item is in book income but never in taxable income, or the reverse. Tax-exempt municipal bond interest and fines are common examples. Permanent differences create no deferred tax; they only change the effective tax rate.
+Figure F13-03 lists common examples, and Figure F13-04 gives the test. A taxable temporary difference creates a deferred tax liability: tax that will be paid later. A deductible temporary difference creates a deferred tax asset: tax that will be saved later.
+Figure F13-03. Common temporary and permanent differences
+Item
+Type of difference
+Creates
+Tax depreciation faster than book (bonus, MACRS)
+Temporary, taxable
+Deferred tax liability
+Installment sale: revenue now, taxed when cash is collected
+Temporary, taxable
+Deferred tax liability
+Warranty or litigation accrual, deductible when paid
+Temporary, deductible
+Deferred tax asset
+Rent received in advance, taxed when received
+Temporary, deductible
+Deferred tax asset
+Tax-exempt municipal bond interest
+Permanent
+None
+Fines and penalties
+Permanent
+None
+Life insurance premiums when the company is the beneficiary
+Permanent
+None
+Figure F13-04. Decision chart: permanent difference, deferred tax liability or deferred tax asset?.
+EXAM TRAP   Which way does it go?
+Tax depreciation faster than book: less tax now, more later: deferred tax liability.
+Warranty accrued now, deductible when paid: more tax now, less later: deferred tax asset.
+Fines and municipal interest: permanent, no deferred tax.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+temporary difference
+فرق مؤقت
+différence temporaire
+taxable temporary difference
+فرق مؤقت خاضع للضريبة
+différence temporaire imposable
+deductible temporary difference
+فرق مؤقت قابل للخصم
+différence temporaire déductible
+permanent difference
+فرق دائم
+différence permanente
+tax basis
+الأساس الضريبي
+base fiscale
+English (exam term)
+العربية
+Français
+temporary difference
+فرق مؤقت
+différence temporaire
+taxable temporary difference
+فرق مؤقت خاضع للضريبة
+différence temporaire imposable
+deductible temporary difference
+فرق مؤقت قابل للخصم
+différence temporaire déductible
+permanent difference
+فرق دائم
+différence permanente
+tax basis
+الأساس الضريبي
+base fiscale
+SECTION CHECK   Test yourself
+SC13-3  Which item is a permanent difference?
+A.	Accelerated tax depreciation
+B.	Interest on tax-exempt municipal bonds
+C.	An accrued warranty expense
+D.	Rent received in advance
+SC13-4  A company deducts depreciation faster for tax than for books. This creates:
+A.	a deferred tax asset
+B.	a permanent difference
+C.	a deferred tax liability
+D.	a valuation allowance
+Answers and explanations are at the end of the chapter.
+13.3  Measuring current and deferred taxes
+U.S. GAAP uses the balance sheet approach. Current tax is taxable income times the tax rate. Deferred tax liabilities and assets are the temporary differences times the enacted tax rate that will apply when they reverse. Deferred tax expense is the change in the net deferred tax liability during the year.
+WORKED EXAMPLE   Worked example: Orontes's 2026 income tax
+Step 1. Suppose Orontes earns $2,000,000 before tax in 2026. It removes the permanent differences: municipal interest of $20,000 and a fine of $10,000.
+Step 2. New equipment costs $900,000. Tax law allows 100% bonus depreciation, but book depreciation is $300,000. The difference of $600,000 reduces taxable income now: a taxable temporary difference.
+Step 3. The dispenser warranty from Chapter 12 was expensed at $60,000, but only $22,000 of repairs were paid. The $38,000 not yet deductible increases taxable income now.
+Step 4. Taxable income is $1,428,000, so current tax is $357,000. Figure F13-05 shows the calculation.
+Figure F13-05. Suppose: Orontes's 2026 taxable income and current tax
+Suppose: Orontes, 2026 (whole USD)
+Amount
+Income before income taxes (book)
+2,000,000
+Less: tax-exempt municipal interest (permanent)
+(20,000)
+Add: fine, not deductible (permanent)
+10,000
+Less: tax depreciation 900,000 above book depreciation 300,000 (temporary)
+(600,000)
+Add: warranty expense 60,000 not yet deductible; repairs paid 22,000 (temporary)
+38,000
+Taxable income
+1,428,000
+Current tax expense at 25%
+357,000
+Deferred taxes follow from the same differences. The equipment creates a deferred tax liability of $150,000, and the warranty a deferred tax asset of $9,500. Deferred tax expense is $140,500, so total income tax expense is $497,500.
+The effective tax rate is total tax expense divided by pretax income: 24.875%. It differs from the statutory 25% only because of the permanent differences. Public companies now show this in a rate reconciliation with standard categories under ASU 2023-09, as Figure F13-06 does.
+Figure F13-06. Suppose: Orontes's 2026 income tax expense and rate reconciliation
+Suppose: Orontes, 2026 (whole USD)
+Amount
+% of pretax income
+Current tax expense
+357,000
+Deferred tax liability created: 25% × 600,000
+150,000
+Deferred tax asset created: 25% × 38,000
+(9,500)
+Deferred tax expense
+140,500
+Total income tax expense
+497,500
+24.875%
+Rate reconciliation (ASU 2023-09 style)
+Tax at the statutory rate: 25% × 2,000,000
+500,000
+25.000%
+Nontaxable or nondeductible items: municipal interest
+(5,000)
+-0.250%
+Nontaxable or nondeductible items: fine
+2,500
+0.125%
+Income tax expense and effective tax rate
+497,500
+24.875%
+YOUR TURN   Classify the differences
+Figure F13-07 lists six items. The first two are done. Classify the other four and say what each creates. Answers are at the end of the chapter.
+Figure F13-07. Classify the differences (complete the blanks)
+Item
+Type
+Creates
+Tax-exempt municipal bond interest
+Permanent
+None
+Tax depreciation faster than book depreciation
+Temporary, taxable
+DTL
+Warranty expense accrued now, deducted for tax when repairs are paid
+________
+________
+Fine for breaking an environmental law
+________
+________
+Rent received in advance, taxed when received
+________
+________
+Equity-method income, taxed only when dividends are received
+________
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+deferred tax liability
+التزام ضريبي مؤجل
+passif d'impôt différé
+deferred tax asset
+أصل ضريبي مؤجل
+actif d'impôt différé
+enacted tax rate
+معدل الضريبة المُقر (المسنون)
+taux d'impôt adopté
+effective tax rate
+معدل الضريبة الفعلي
+taux effectif d'impôt
+English (exam term)
+العربية
+Français
+deferred tax liability
+التزام ضريبي مؤجل
+passif d'impôt différé
+deferred tax asset
+أصل ضريبي مؤجل
+actif d'impôt différé
+enacted tax rate
+معدل الضريبة المُقر (المسنون)
+taux d'impôt adopté
+effective tax rate
+معدل الضريبة الفعلي
+taux effectif d'impôt
+SECTION CHECK   Test yourself
+SC13-5  Use Figure F13-05. What is Orontes's 2026 taxable income (whole USD)?
+A.	357,000
+B.	1,428,000
+C.	1,990,000
+D.	2,000,000
+SC13-6  Use Figure F13-06. What is Orontes's total income tax expense for 2026 (whole USD)?
+A.	159,500
+B.	357,000
+C.	497,500
+D.	500,000
+Answers and explanations are at the end of the chapter.
+13.4  Rate changes, valuation allowances, losses and presentation
+When a new tax law changes the rate, the company remeasures its deferred taxes at once. The whole effect goes to income from continuing operations in the period that includes the enactment date, even if the original item was in OCI. For example, a U.S. tax law signed on July 4, 2025 changed several deduction rules; companies recorded the effects in the quarter that included that date.
+Figure F13-08 follows the deferred tax liability on Orontes's equipment. Suppose a law enacted in 2027 cuts the rate to 21% from 2028. At the end of 2027 the liability falls from $75,000 to $63,000. The $12,000 decrease is a benefit in 2027.
+Figure F13-08. The DTL on Orontes's 2026 equipment over three years, with a rate cut enacted in 2027.
+A deferred tax asset is useful only if the company will have enough taxable income to use it. If it is more likely than not that some of the asset will not be realized, the company records a valuation allowance. Figure F13-09 shows the test.
+Figure F13-09. Decision chart: does a deferred tax asset need a valuation allowance?.
+A tax loss creates a net operating loss carryforward, which is a deferred tax asset. Under current U.S. federal law, most losses cannot be carried back. They can be carried forward without a time limit, but they can reduce only 80% of taxable income in any year.
+All deferred tax assets and liabilities are noncurrent. Within one tax jurisdiction they are offset and shown as one net amount. Tax is also allocated within the period: Orontes's OCI loss was shown net of its $375 tax effect, and discontinued operations carry their own tax (Chapter 3). This is intraperiod tax allocation.
+EXAM TRAP   Rate and allowance traps
+Use enacted rates only; an announced but unsigned rate is ignored.
+Record the full effect of a rate change in continuing operations when the law is enacted.
+Record the full DTA, then a valuation allowance: do not record only the probable part.
+An uncertain tax position is recognized only if it is more likely than not to be accepted by the tax authority. The global minimum tax (Pillar Two) is treated as a current cost in the year it arises, with no deferred taxes.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+valuation allowance
+مخصص التقييم
+provision pour dépréciation des impôts différés actifs
+net operating loss carryforward
+ترحيل صافي الخسارة التشغيلية
+report en avant des déficits
+uncertain tax position
+مركز ضريبي غير مؤكد
+position fiscale incertaine
+intraperiod tax allocation
+توزيع الضريبة داخل الفترة
+répartition de l'impôt au sein de l'exercice
+English (exam term)
+العربية
+Français
+valuation allowance
+مخصص التقييم
+provision pour dépréciation des impôts différés actifs
+net operating loss carryforward
+ترحيل صافي الخسارة التشغيلية
+report en avant des déficits
+uncertain tax position
+مركز ضريبي غير مؤكد
+position fiscale incertaine
+intraperiod tax allocation
+توزيع الضريبة داخل الفترة
+répartition de l'impôt au sein de l'exercice
+SECTION CHECK   Test yourself
+SC13-7  Use Figure F13-08. How does Orontes record the effect of the rate cut enacted in 2027?
+A.	As a 12,000 reduction of tax expense in 2027 continuing operations
+B.	In OCI
+C.	As a prior-period adjustment
+D.	Only in 2028, when the new rate applies
+SC13-8  A company has a deferred tax asset of $100,000. It is more likely than not that only $60,000 will be realized. It reports:
+A.	a $60,000 asset with no allowance account
+B.	a $100,000 asset with no allowance
+C.	a $40,000 liability
+D.	the $100,000 asset and a $40,000 valuation allowance
+Answers and explanations are at the end of the chapter.
+13.5  IFRS differences and disclosures
+IAS 12 uses the same balance sheet approach, but Figure F13-10 shows important differences. The biggest one for the exam is the deferred tax asset: IFRS recognizes only the amount it is probable to use, while U.S. GAAP records the full asset and a separate valuation allowance.
+Figure F13-10. Income taxes: U.S. GAAP (ASC 740) and IFRS (IAS 12)
+Topic
+U.S. GAAP (ASC 740)
+IFRS (IAS 12)
+Recognizing deferred tax assets
+Record the full DTA, then a valuation allowance if realization is not more likely than not
+Recognize only the amount for which taxable profit is probable
+Tax rate
+Enacted rates only
+Enacted or substantively enacted rates
+Initial recognition exemption
+None in general
+Yes, outside business combinations (narrowed in 2021)
+Uncertain tax positions
+Two steps: more likely than not, then largest amount over 50% likely
+IFRIC 23: most likely amount or expected value
+Balance sheet classification
+Noncurrent
+Non-current
+Pillar Two top-up tax
+Period cost; no deferred tax
+Mandatory exception; no deferred tax
+ASU 2023-09 is testable now for public companies. They show a rate reconciliation in dollars and percentages with eight standard categories, and they list separately any item of at least 5% of pretax income times the statutory rate. They also disclose income taxes paid by federal, state and foreign jurisdictions.
+WATCH: NOT YET TESTABLE   ASU 2023-09 for private companies
+For companies that are not public business entities, ASU 2023-09 applies to annual periods beginning after December 15, 2025. That version is not testable before about January 2027.
+FALSE-FRIEND ALERT   'Provision for income taxes'
+U.S. companies often call income tax expense the provision for income taxes. It is an expense, not an IAS 37 provision (مخصص) and not a reserve. Arabic مخصص التقييم, the valuation allowance, is a contra-asset, not a liability.
+SECTION CHECK   Test yourself
+SC13-9  A tax rate cut has been announced by the government but not yet signed into law. Under IFRS it is substantively enacted. Which rate does a U.S. GAAP company use?
+A.	The announced rate
+B.	An average of the two
+C.	The rate the company expects
+D.	The current enacted rate
+SC13-10  Under ASU 2023-09, what must a public company disclose about income taxes paid?
+A.	Only the total tax expense
+B.	Nothing new
+C.	The amounts paid to federal, state and foreign authorities, and to large individual jurisdictions
+D.	The tax paid by each employee
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F13-11 brings the chapter together.
+Figure F13-11. Chapter 13 summary map: the key rule for each section.
+Book income follows U.S. GAAP and taxable income follows tax law. Temporary differences reverse and create deferred tax liabilities (taxable) or deferred tax assets (deductible); permanent differences never reverse and create no deferred tax. Current tax is taxable income times the rate; deferred taxes are temporary differences times the enacted rate; tax expense is the sum of current tax and the change in the net deferred tax liability. Rate changes are recognized in continuing operations at enactment. A valuation allowance reduces a deferred tax asset when realization is not more likely than not. All deferred taxes are noncurrent and netted within a jurisdiction.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P13-01  Income tax expense on the income statement equals:
+A.	current tax expense plus deferred tax expense
+B.	income taxes paid in cash
+C.	taxable income times the tax rate
+D.	pretax income times the tax rate in all cases
+P13-02  Use Figure F13-02. Why did Orontes pay less tax in 2025 than its current tax expense?
+A.	Deferred tax is paid in cash
+B.	Income taxes payable rose, so part of the current tax was still unpaid
+C.	The OCI loss reduced taxes paid
+D.	Orontes had a tax refund from 2024
+P13-03  A company's deferred tax liability rose from $300,000 to $380,000, and its deferred tax asset rose from $50,000 to $70,000. What is deferred tax expense?
+A.	$60,000
+B.	$80,000
+C.	$100,000
+D.	$310,000
+P13-04  A law signed on July 4 cuts the tax rate from next year. When does the company record the effect on its deferred tax balances?
+A.	Next year, when the new rate applies
+B.	In the period that includes July 4
+C.	Over the years the differences reverse
+D.	Never; only current tax changes
+P13-05  A company has an unrealized loss on AFS debt securities in OCI. Its tax effect is:
+A.	shown with the OCI item, not in income tax expense on continuing operations
+B.	ignored
+C.	added to current tax expense
+D.	recorded in retained earnings
+P13-06  Pretax income is $500,000, and there are no temporary differences. It includes $20,000 of tax-exempt interest and a $10,000 nondeductible fine. At a 25% rate, what is income tax expense?
+A.	$122,500
+B.	$125,000
+C.	$127,500
+D.	$132,500
+P13-07  Under U.S. GAAP, a tax position is recognized in the financial statements if it is:
+A.	more likely than not to be sustained on its technical merits
+B.	certain to be accepted
+C.	probable in the IFRS sense
+D.	not yet examined by the tax authority
+P13-08  Which item creates a temporary difference?
+A.	A fine for breaking the law
+B.	Tax-exempt municipal interest
+C.	An accrued warranty expense deductible for tax when paid
+D.	Life insurance premiums on an officer, where the company is the beneficiary
+P13-09  A company receives rent for next year in advance. Tax law taxes it now; GAAP recognizes it next year. This creates:
+A.	a taxable temporary difference and a deferred tax liability
+B.	a permanent difference
+C.	no difference
+D.	a deductible temporary difference and a deferred tax asset
+P13-10  A company uses the installment method for tax, but recognizes the full sale for books. The difference is:
+A.	a deductible temporary difference
+B.	a taxable temporary difference
+C.	a permanent difference
+D.	a valuation allowance
+P13-11  How do permanent differences affect the financial statements?
+A.	They create deferred tax assets
+B.	They create deferred tax liabilities
+C.	They have no effect at all
+D.	They change the effective tax rate but create no deferred taxes
+P13-12  Use Figure F13-06. Which balances does Orontes carry at the end of 2026 for the equipment and the warranty (whole USD)?
+A.	A DTA of 150,000 and a DTL of 9,500
+B.	A current DTL of 140,500
+C.	A DTL of 150,000 and a DTA of 9,500, shown as one net noncurrent DTL
+D.	No deferred taxes
+P13-13  Which evidence MOST suggests that a valuation allowance is needed?
+A.	Cumulative losses in recent years
+B.	A long record of profits
+C.	Large deferred tax liabilities reversing in the same years
+D.	A signed contract that will produce taxable profits
+P13-14  A U.S. company has a federal tax loss in 2026. Under current law it can:
+A.	carry it back two years for a refund
+B.	carry the loss forward without a time limit, using it against up to 80% of future taxable income each year
+C.	carry it forward for 20 years only
+D.	deduct it only in 2027
+P13-15  A company has a deferred tax liability in the United States and a deferred tax asset in France. How are they presented?
+A.	As one net amount
+B.	As current items
+C.	Only in the notes
+D.	Separately: they are in different tax jurisdictions
+P13-16  A company's DTL of $200,000 (at 25%) relates to differences that reverse after a new enacted rate of 21% takes effect. What is the DTL?
+A.	$42,000
+B.	$168,000
+C.	$200,000
+D.	$232,000
+P13-17  An IFRS company expects to use only $60,000 of a potential $100,000 deferred tax asset. Under IAS 12 it reports:
+A.	a $100,000 asset and a $40,000 allowance
+B.	no deferred tax asset
+C.	a deferred tax asset of $60,000
+D.	a $100,000 asset
+P13-18  How does a U.S. company account for the Pillar Two global minimum top-up tax?
+A.	By recording a deferred tax liability
+B.	As a current cost in the period, with no deferred taxes
+C.	By remeasuring all deferred taxes at 15%
+D.	As OCI
+P13-19  Under ASU 2023-09, a public company with a 21% statutory rate must separately show a reconciling item when it is at least:
+A.	1% of revenue
+B.	5% of pretax income multiplied by the statutory rate
+C.	10% of tax expense
+D.	any amount, however small
+P13-20  Which pair lists one taxable and one deductible temporary difference?
+A.	Accelerated tax depreciation; accrued litigation loss
+B.	Municipal interest; fines
+C.	Accrued warranty; allowance for credit losses
+D.	Installment sale; accelerated tax depreciation
+Case-style practice: Barada's 2027 income tax
+Use Figure F13-12 for items C13-1 to C13-6. This case uses whole U.S. dollars, so that the tax amounts are exact. The warranty liability is the one from the Chapter 12 case.
+Figure F13-12. Case exhibit: Barada Wholesale, 2027 income tax data (whole USD)
+Barada Wholesale, 2027 (whole USD)
+Amount / details
+Income before income taxes, 2027
+400,000
+Tax-exempt municipal bond interest included in income
+12,000
+Fine for a late customs filing (not deductible)
+6,000
+Tax depreciation above book depreciation in 2027
+60,000
+Warranty liability at December 31, 2027 (Chapter 12 case); repairs are deductible when paid
+18,000
+M1
+The enacted combined tax rate is 25% for 2027 and all later years.
+M2
+Barada had no temporary differences at January 1, 2027. All deferred taxes are in one tax jurisdiction.
+M3
+Barada has been profitable for many years and expects to stay profitable.
+C13-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Permanent difference · Taxable temporary difference (DTL) · Deductible temporary difference (DTA)
+Item
+Category
+Municipal bond interest
+Late-filing fine
+Tax depreciation above book
+Warranty liability
+Rent received in advance
+C13-2  Enter Barada's 2027 taxable income.
+Answer: ____________
+C13-3  Enter Barada's 2027 current tax expense.
+Answer: ____________
+C13-4  Enter Barada's 2027 deferred tax expense.
+Answer: ____________
+C13-5  Enter Barada's 2027 total income tax expense.
+Answer: ____________
+C13-6  How does Barada present its deferred taxes at December 31, 2027? [select]
+Options: one net noncurrent deferred tax liability   |   a current deferred tax liability   |   a deferred tax asset and a deferred tax liability shown separately as current and noncurrent   |   a deferred tax asset net of a valuation allowance
+Written task
+W13  In four to six sentences, explain to Barada's owners why the 2027 tax expense is higher than the tax payable to the government, and what the balance sheet shows. Use these words: permanent difference, temporary difference, deferred tax liability, deferred tax asset, net.
+Answers and explanations
+Section checks
+SC13-1  Answer D. Deferred taxes match tax expense to the period of the related income.
+A is wrong. Cash taxes ignore timing differences.
+B is wrong. The two incomes still differ; deferred taxes account for it.
+C is wrong. There is no averaging rule.
+SC13-2  Answer A. 25% of the 400,000 increase in net taxable temporary differences.
+B is wrong. This is the difference itself, before applying the rate.
+C is wrong. This is total tax expense.
+D is wrong. This is the balance of the liability, not the change.
+SC13-3  Answer B. It is never taxable, so it never reverses.
+A is wrong. Depreciation differences reverse over the asset's life.
+C is wrong. The warranty becomes deductible when paid.
+D is wrong. The rent is taxed now and earned later: it reverses.
+SC13-4  Answer C. Less tax now means more tax later.
+A is wrong. A DTA arises when tax is paid earlier, not later.
+B is wrong. The difference reverses over the asset's life.
+D is wrong. Allowances apply to deferred tax assets.
+SC13-5  Answer B. Pretax income adjusted for the permanent and temporary differences.
+A is wrong. This is the current tax, not taxable income.
+C is wrong. This ignores the temporary differences.
+D is wrong. This is book income before any adjustment.
+SC13-6  Answer C. Current tax $357,000 + deferred tax $140,500.
+A is wrong. This adds the DTA instead of subtracting it.
+B is wrong. This leaves out deferred tax.
+D is wrong. This ignores the permanent differences.
+SC13-7  Answer A. Rate changes are recognized in continuing operations in the period of enactment.
+B is wrong. Rate-change effects go to continuing operations.
+C is wrong. A new law is not an error correction.
+D is wrong. The enactment date, not the effective date, decides the period.
+SC13-8  Answer D. U.S. GAAP records the full DTA and a separate allowance.
+A is wrong. This is the IFRS net approach.
+B is wrong. An allowance is needed for the part not expected to be realized.
+C is wrong. The allowance reduces an asset; it does not create a liability.
+SC13-9  Answer D. U.S. GAAP uses enacted rates only.
+A is wrong. Substantively enacted is an IFRS concept.
+B is wrong. There is no averaging.
+C is wrong. Expectations are not used.
+SC13-10  Answer C. ASU 2023-09 requires disaggregated taxes paid.
+A is wrong. Tax expense is not the same as tax paid.
+B is wrong. ASU 2023-09 added this disclosure.
+D is wrong. Employee taxes are not income taxes of the company.
+Your turn
+Item
+Answer
+Warranty expense accrued now
+Temporary, deductible: DTA
+Fine for breaking the law
+Permanent: no deferred tax
+Rent received in advance
+Temporary, deductible (taxed now, earned later): DTA
+Equity-method income
+Temporary, taxable (taxed later): DTL
+Multiple-choice questions
+P13-01  Answer A. Total expense has a current and a deferred part.
+B is wrong. Cash paid also depends on the timing of payments.
+C is wrong. That is current tax only.
+D is wrong. Permanent differences change the effective rate.
+P13-02  Answer B. Taxes paid = current tax − increase in taxes payable (Chapter 5).
+A is wrong. Deferred tax is not paid in the current year.
+C is wrong. The OCI tax effect is noncash.
+D is wrong. No refund appears in the statements.
+P13-03  Answer A. Increase in DTL of $80,000 less increase in DTA of $20,000.
+B is wrong. This ignores the DTA.
+C is wrong. This adds the DTA increase.
+D is wrong. This is the net balance, not the change.
+P13-04  Answer B. The enactment date decides the period.
+A is wrong. The effective date is not the trigger.
+C is wrong. The effect is recorded at once, not spread.
+D is wrong. Deferred balances are remeasured at the new enacted rate.
+P13-05  Answer A. Intraperiod allocation keeps tax with the item that caused it.
+B is wrong. The temporary difference has a tax effect.
+C is wrong. The loss is not in taxable income now.
+D is wrong. OCI items go to AOCI.
+P13-06  Answer A. Permanent differences change taxable income and the expense.
+B is wrong. This ignores both permanent differences.
+C is wrong. This subtracts the fine and adds the interest (reversed).
+D is wrong. This adds both items instead of subtracting the interest.
+P13-07  Answer A. Step 1 of the uncertain tax position model.
+B is wrong. Certainty is not required.
+C is wrong. The U.S. test is 'more likely than not'.
+D is wrong. Assume the authority will examine the position.
+P13-08  Answer C. It reverses when the repairs are paid.
+A is wrong. Fines are never deductible.
+B is wrong. Municipal interest is never taxable.
+D is wrong. These premiums are never deductible.
+P13-09  Answer D. Tax is paid now on income recognized later, so future tax will be lower.
+A is wrong. The direction is reversed.
+B is wrong. The difference reverses next year.
+C is wrong. Book and tax timing differ.
+P13-10  Answer B. Tax will be paid later, as cash is collected.
+A is wrong. Future taxable income will increase, not fall.
+C is wrong. The income will be taxed eventually.
+D is wrong. An allowance is not a difference.
+P13-11  Answer D. They are in one income but never in the other.
+A is wrong. Permanent differences never reverse.
+B is wrong. Permanent differences never reverse.
+C is wrong. They change taxable income and the effective rate.
+P13-12  Answer C. Same jurisdiction: net amount, noncurrent.
+A is wrong. The directions are reversed.
+B is wrong. Deferred taxes are never current.
+D is wrong. Both differences are temporary.
+P13-13  Answer A. Recent cumulative losses are strong negative evidence.
+B is wrong. Profits support realization.
+C is wrong. Reversing DTLs are a source of taxable income.
+D is wrong. Future profits support realization.
+P13-14  Answer B. Post-2017 federal NOLs have no carryback and an 80% limit.
+A is wrong. Carrybacks were removed for most companies.
+C is wrong. The 20-year limit applied to older losses.
+D is wrong. The carryforward is unlimited in time.
+P13-15  Answer D. Offsetting is allowed only within one jurisdiction.
+A is wrong. Different jurisdictions cannot be netted.
+B is wrong. Deferred taxes are noncurrent.
+C is wrong. Both are recognized on the balance sheet.
+P13-16  Answer B. Difference of $800,000 × 21%.
+A is wrong. This is only the 21% rate applied to the old DTL.
+C is wrong. The enacted rate at reversal must be used.
+D is wrong. A lower rate reduces the liability.
+P13-17  Answer C. IAS 12 recognizes only the probable amount.
+A is wrong. This is the U.S. GAAP presentation.
+B is wrong. The probable part is recognized.
+D is wrong. Only the probable amount is recognized.
+P13-18  Answer B. It is treated like an alternative minimum tax.
+A is wrong. No deferred taxes are recorded for it.
+C is wrong. Existing deferred taxes are not remeasured.
+D is wrong. It is an income tax expense, not OCI.
+P13-19  Answer B. The 5% threshold applies to the statutory-rate tax.
+A is wrong. The threshold is not based on revenue.
+C is wrong. The threshold is 5% of the statutory tax.
+D is wrong. Small items are combined in their category.
+P13-20  Answer A. Depreciation creates a DTL; the litigation accrual creates a DTA.
+B is wrong. Both are permanent differences.
+C is wrong. Both are deductible differences.
+D is wrong. Both are taxable differences.
+Case-style set: Barada's 2027 income tax
+C13-1
+Item
+Category
+Municipal bond interest
+Permanent difference
+Late-filing fine
+Permanent difference
+Tax depreciation above book
+Taxable temporary difference (DTL)
+Warranty liability
+Deductible temporary difference (DTA)
+Rent received in advance
+Deductible temporary difference (DTA)
+Permanent differences change taxable income but never create deferred taxes.
+C13-2  Answer: 352,000.
+394,000 is wrong: this answer ignores the temporary differences.
+472,000 is wrong: this answer adds the depreciation difference instead of subtracting it.
+316,000 is wrong: this answer subtracts the warranty difference instead of adding it.
+C13-3  Answer: 88,000.
+100,000 is wrong: this answer applies the rate to pretax book income.
+98,500 is wrong: this answer gives total tax expense instead of current tax.
+C13-4  Answer: 10,500.
+15,000 is wrong: this answer ignores the deferred tax asset.
+19,500 is wrong: this answer adds the deferred tax asset instead of subtracting it.
+C13-5  Answer: 98,500.
+88,000 is wrong: this answer leaves out deferred tax expense.
+100,000 is wrong: this answer ignores the permanent differences.
+C13-6  Answer: one net noncurrent deferred tax liability.
+a current deferred tax liability is wrong: this answer deferred taxes are always noncurrent.
+a deferred tax asset and a deferred tax liability shown separately as current and noncurrent is wrong: this answer same-jurisdiction balances are netted and are all noncurrent.
+a deferred tax asset net of a valuation allowance is wrong: this answer the net position is a liability, and Barada's steady profits make an allowance unnecessary.
+Written task: model answer
+Barada's pretax income of 400,000 includes municipal interest and a fine; these are permanent differences, so they change taxable income but create no deferred tax. Tax depreciation was 60,000 higher than book depreciation: this temporary difference lowers tax now and creates a deferred tax liability of 15,000. The warranty liability of 18,000 is not yet deductible, so it creates a deferred tax asset of 4,500. Current tax payable is 88,000, and deferred tax expense adds 10,500, so total tax expense is 98,500. Because both deferred items are in the same jurisdiction, the balance sheet shows one net noncurrent deferred tax liability of 10,500.
+A good answer: identifies the permanent differences and their effect; explains the taxable temporary difference and the DTL; explains the deductible temporary difference and the DTA; separates current tax from total tax expense; presents one net noncurrent amount.
+PART III — REVENUE, LIABILITIES AND INCOME MEASUREMENT

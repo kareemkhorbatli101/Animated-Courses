@@ -1,0 +1,728 @@
+Chapter 14
+Leases
+عقود الإيجار
+Many companies use buildings, machines and vehicles that they do not own. Before 2019, most of these leases were hidden in the notes. Today a lessee reports almost every lease on its balance sheet. This chapter explains how.
+Orontes's 2025 statements contain no leases. In this chapter, suppose Orontes signs its first two leases on January 1, 2026. Figure F14-01 shows the plan.
+Figure F14-01. Chapter 14 roadmap: the lessee's asset and liability, and two expense patterns.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.t
+Distinguish operating leases from finance leases using the five criteria.
+B
+Full treatment
+A.2.u
+Measure and present operating and finance leases in the lessee's statements.
+B
+Full treatment
+A.2.ff
+Contrast ASC 842 with the single lessee model of IFRS 16.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+lease
+عقد الإيجار
+contrat de location
+right-of-use asset
+أصل حق الاستخدام
+actif au titre du droit d'utilisation
+lease liability
+التزام عقد الإيجار
+passif locatif
+finance lease
+عقد إيجار تمويلي
+contrat de location-financement
+operating lease
+عقد إيجار تشغيلي
+contrat de location simple
+short-term lease
+عقد إيجار قصير الأجل
+contrat de location à court terme
+incremental borrowing rate
+معدل الاقتراض الإضافي
+taux d'emprunt marginal
+lease term
+مدة عقد الإيجار
+durée du contrat de location
+WHAT YOU ALREADY KNOW   What you already know
+If you learned IFRS 16, you know one lessee model: every lease is like a purchase financed by a loan. U.S. GAAP keeps two models. The balance sheet looks almost the same, but the income statement and the cash flow statement can be very different.
+14.1  What is a lease?
+A lease is a contract that gives the right to control the use of an identified asset for a period of time in exchange for payment. The lessee uses the asset; the lessor provides it. The asset must be identified, and the supplier must not have a real right to swap it for another.
+The lessee controls the asset if it gets almost all of its economic benefits and decides how it is used. The lease term is the period the lessee cannot cancel, plus any renewal periods it is reasonably certain to use.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+lease
+عقد الإيجار
+contrat de location
+lessee
+المستأجر
+preneur
+lessor
+المؤجر
+bailleur
+lease term
+مدة عقد الإيجار
+durée du contrat de location
+English (exam term)
+العربية
+Français
+lease
+عقد الإيجار
+contrat de location
+lessee
+المستأجر
+preneur
+lessor
+المؤجر
+bailleur
+lease term
+مدة عقد الإيجار
+durée du contrat de location
+SECTION CHECK   Test yourself
+SC14-1  Which contract contains a lease?
+A.	A cleaning company provides staff to clean Orontes's offices
+B.	A supplier delivers olive oil every month from any of its tanks
+C.	Orontes rents a specific warehouse for five years and decides how it is used
+D.	Orontes buys a delivery van
+SC14-2  A lease is noncancelable for four years, with a two-year renewal option that the lessee is reasonably certain to use. The lease term is:
+A.	four years
+B.	six years
+C.	two years
+D.	the asset's economic life
+Answers and explanations are at the end of the chapter.
+14.2  Finance or operating? The five criteria
+A lessee classifies each lease at the start. It is a finance lease if it meets any one of five criteria; otherwise it is an operating lease. Figure F14-02 lists them. Many companies use about 75% or more of economic life as a major part, and about 90% or more of fair value as substantially all.
+Figure F14-02. The five criteria: one 'yes' makes a lease a finance lease.
+Figure F14-03 applies the criteria to Orontes's two leases. The warehouse lease runs 5 years in a building that will last 30 years, and its payments are worth only 28% of the building's value: an operating lease. The olive-press line was built for Orontes and the lease covers most of its life: a finance lease.
+Figure F14-03. Suppose: classifying Orontes's two leases, January 1, 2026
+Criterion
+Warehouse (5 years, 100,000 a year)
+Olive press (4 years, 250,000 a year)
+1. Ownership transfers
+No
+No
+2. Purchase option reasonably certain
+No
+No
+3. Major part of economic life
+No: 5 of 30 years (17%)
+Yes: 4 of 5 years (80%)
+4. PV ≥ substantially all of fair value
+No: 421,236 of 1,500,000 (28%)
+Not needed
+5. Specialized asset
+No: any company could use it
+Yes: built for Orontes
+Classification
+Operating lease
+Finance lease
+FALSE-FRIEND ALERT   Crédit-bail is not a class
+French crédit-bail and Arabic عقد تأجير تمويلي are legal forms of contract. Under ASC 842, the class depends only on the five criteria. A crédit-bail contract can be an operating lease, and an ordinary rental can be a finance lease.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+finance lease
+عقد إيجار تمويلي
+contrat de location-financement
+operating lease
+عقد إيجار تشغيلي
+contrat de location simple
+English (exam term)
+العربية
+Français
+finance lease
+عقد إيجار تمويلي
+contrat de location-financement
+operating lease
+عقد إيجار تشغيلي
+contrat de location simple
+SECTION CHECK   Test yourself
+SC14-3  Use Figure F14-03. Why is the olive-press lease a finance lease?
+A.	The asset is specialized and the term is a major part of its economic life
+B.	The payments are larger than the warehouse payments
+C.	Orontes will buy the press at the end
+D.	All equipment leases are finance leases
+SC14-4  A lease has no transfer or purchase option, covers 40% of the asset's life, and the PV of payments is 60% of fair value. The asset is standard. The lease is:
+A.	a finance lease
+B.	a short-term lease
+C.	not a lease
+D.	an operating lease
+Answers and explanations are at the end of the chapter.
+14.3  Initial measurement
+For both types, the lessee records a lease liability and a right-of-use asset at the start. The liability is the present value of the lease payments not yet paid. The discount rate is the rate implicit in the lease if the lessee can find it; otherwise it is the lessee's incremental borrowing rate.
+Lease payments include fixed payments, payments that depend on an index such as CPI, a purchase price the lessee is reasonably certain to pay, and amounts it expects to pay under a residual value guarantee. The right-of-use asset starts at the liability, plus any prepaid payments and initial direct costs, minus incentives received.
+Orontes uses 6%, the rate on its bank note from Chapter 1. Figure F14-04 shows the present values: $421,236 for the warehouse and $866,276 for the olive press. The undiscounted payments are higher, because part of each payment is interest.
+Figure F14-04. Suppose: initial measurement of Orontes's leases
+Suppose: January 1, 2026 (whole USD)
+Warehouse
+Olive press
+Annual payment (end of each year)
+100,000
+250,000
+Number of payments
+5
+4
+Discount rate (incremental borrowing rate)
+6%
+6%
+Undiscounted payments
+500,000
+1,000,000
+Lease liability = present value of payments
+421,236
+866,276
+Right-of-use asset (no prepayments, costs or incentives)
+421,236
+866,276
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+right-of-use asset
+أصل حق الاستخدام
+actif au titre du droit d'utilisation
+lease liability
+التزام عقد الإيجار
+passif locatif
+incremental borrowing rate
+معدل الاقتراض الإضافي
+taux d'emprunt marginal
+residual value guarantee
+ضمان القيمة المتبقية
+garantie de valeur résiduelle
+English (exam term)
+العربية
+Français
+right-of-use asset
+أصل حق الاستخدام
+actif au titre du droit d'utilisation
+lease liability
+التزام عقد الإيجار
+passif locatif
+incremental borrowing rate
+معدل الاقتراض الإضافي
+taux d'emprunt marginal
+residual value guarantee
+ضمان القيمة المتبقية
+garantie de valeur résiduelle
+SECTION CHECK   Test yourself
+SC14-5  Use Figure F14-04. At what amount does Orontes first record the warehouse lease liability (whole USD)?
+A.	100,000
+B.	421,236
+C.	500,000
+D.	1,500,000
+SC14-6  A lessee cannot determine the rate implicit in the lease. Which rate does a public company use to measure the lease liability?
+A.	The risk-free rate
+B.	Its incremental borrowing rate
+C.	Zero
+D.	The lessor's cost of capital
+Answers and explanations are at the end of the chapter.
+14.4  Subsequent measurement: two expense patterns
+For a finance lease, the lessee records interest on the liability and, separately, amortization of the right-of-use asset, usually straight-line. Interest is highest at the start, when the liability is largest, so total expense falls each year. Figure F14-05 shows this front-loaded pattern for the olive press.
+Figure F14-05. Finance-lease expense is higher early; an operating lease would be flat.
+WORKED EXAMPLE   Worked example: the olive-press finance lease in 2026
+Step 1. Interest: 6% × $866,276 = $51,977.
+Step 2. Payment of $250,000: the liability falls to $668,253.
+Step 3. Amortization: $866,276 ÷ 4 years = $216,569, so the ROU asset is $649,707.
+Check. Total 2026 expense is $268,546, which is $18,546 more than the payment. Figure F14-06 shows all four years.
+Figure F14-06. Suppose: olive-press finance lease schedule, 2026–2029
+Year
+Opening liability
+Interest
+Payment
+Closing liability
+ROU amortization
+Total expense
+2026
+866,276
+51,977
+250,000
+668,253
+216,569
+268,546
+2027
+668,253
+40,095
+250,000
+458,348
+216,569
+256,664
+2028
+458,348
+27,501
+250,000
+235,849
+216,569
+244,070
+2029
+235,849
+14,151
+250,000
+0
+216,569
+230,720
+For an operating lease, the lessee records one lease cost, normally the same each year. The liability still grows by interest and falls by payments. The amortization of the right-of-use asset is simply the difference between the lease cost and the interest, so the asset and the liability stay equal when there are no prepayments or incentives.
+YOUR TURN   Complete the warehouse schedule
+Figure F14-07 shows the first two years of the warehouse operating lease. Complete years 2028 to 2030. The lease cost is $100,000 every year. Answers are at the end of the chapter.
+Figure F14-07. Suppose: warehouse operating lease schedule (complete the blanks)
+Year
+Opening liability
+Interest
+Payment
+Closing liability (= ROU asset)
+ROU amortization
+Lease cost
+2026
+421,236
+25,274
+100,000
+346,510
+74,726
+100,000
+2027
+346,510
+20,791
+100,000
+267,301
+79,209
+100,000
+2028
+267,301
+______
+100,000
+______
+______
+______
+2029
+______
+______
+100,000
+______
+______
+______
+2030
+______
+______
+100,000
+______
+______
+______
+EXAM TRAP   Measurement traps
+The liability is a present value, not the total of the payments.
+Each payment covers interest first; do not deduct the whole payment from the opening liability.
+Operating lease: one straight-line cost; do not show interest and amortization separately.
+SECTION CHECK   Test yourself
+SC14-7  Use Figure F14-06. What is the olive-press lease liability at December 31, 2026 (whole USD)?
+A.	209,905
+B.	649,707
+C.	668,253
+D.	866,276
+SC14-8  Use Figure F14-07. What is the warehouse lease cost in 2026 (whole USD)?
+A.	25,274
+B.	74,726
+C.	100,000
+D.	109,521
+Answers and explanations are at the end of the chapter.
+14.5  Presentation
+On the balance sheet, the right-of-use assets and lease liabilities of finance leases are shown separately from those of operating leases, or disclosed with the line items that contain them. Each liability is split into a current part, the principal due within a year, and a noncurrent part.
+On the income statement, a finance lease shows interest expense and amortization separately; an operating lease shows one lease cost in operating expenses. In the statement of cash flows, finance-lease principal is financing; its interest and all operating-lease payments are operating. New leases are a noncash investing and financing activity, disclosed separately.
+Figure F14-08 summarizes the presentation for Orontes at the end of 2026. The olive-press liability of $668,253 includes a current part of $209,905, the principal that will be paid in 2027.
+Figure F14-08. Presentation of finance and operating leases, with Orontes at December 31, 2026
+Item
+Finance lease (olive press)
+Operating lease (warehouse)
+Balance sheet
+ROU asset and lease liability, shown separately from operating leases (or disclosed)
+ROU asset and lease liability, shown separately from finance leases (or disclosed)
+Income statement
+Interest expense and amortization, shown separately
+One lease cost in operating expenses
+Cash flow: principal
+Financing
+Operating
+Cash flow: interest
+Operating
+Operating (part of the single payment)
+Orontes at December 31, 2026
+Liability 668,253: current 209,905, noncurrent 458,348; ROU asset 649,707
+Liability 346,510; ROU asset 346,510
+EXAM TRAP   Cash flow traps
+Operating-lease payments are operating cash flows, even though a liability is on the balance sheet.
+Finance-lease interest is operating under U.S. GAAP, not financing.
+SECTION CHECK   Test yourself
+SC14-9  Where does Orontes report the principal part of its 2026 olive-press payment in the statement of cash flows?
+A.	Operating activities
+B.	Investing activities
+C.	It is not a cash flow
+D.	Financing activities
+SC14-10  How are the payments on an operating lease classified in the statement of cash flows?
+A.	Operating activities
+B.	Financing activities
+C.	Investing activities
+D.	Split between operating and financing
+Answers and explanations are at the end of the chapter.
+14.6  Short-term leases, sale and leaseback, and IFRS 16
+A short-term lease lasts 12 months or less and has no purchase option that the lessee is reasonably certain to use. A lessee may choose, by class of asset, to keep such leases off the balance sheet and expense the payments straight-line. U.S. GAAP has no exemption for low-value assets.
+In a sale and leaseback, a company sells an asset and leases it back. It is a sale only if control passes to the buyer under the revenue rules. If the leaseback is a finance lease, or the seller can buy the asset back, there is no sale: the cash received is a loan.
+IFRS 16 has one lessee model: every lease is accounted for like a finance lease, with depreciation and interest. It allows an exemption for low-value assets and remeasures the liability when an index such as CPI changes. Figure F14-09 lists the main differences.
+Figure F14-09. Leases: U.S. GAAP (ASC 842) and IFRS 16
+Topic
+U.S. GAAP (ASC 842)
+IFRS 16
+Lessee models
+Two: finance and operating
+One: all leases like finance leases
+Expense pattern for a 'plain' lease
+Straight-line single cost (operating)
+Depreciation plus interest: higher early
+Low-value assets (e.g., laptops)
+No exemption (materiality only)
+Exemption allowed
+Short-term leases (12 months or less)
+Exemption by class of asset
+Exemption by class of asset
+Index or rate changes (e.g., CPI)
+No remeasurement; expense as incurred
+Remeasure the liability
+Interest paid in the cash flow statement
+Operating
+Operating or financing (IAS 7 today)
+WATCH: NOT YET TESTABLE   Leases: what is new
+ASU 2023-01, on leases between companies under common control, is testable now at awareness level. ASU 2025-12 changes a lessor disclosure only; it is not testable before about January 2028.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+short-term lease
+عقد إيجار قصير الأجل
+contrat de location à court terme
+sale and leaseback
+البيع وإعادة الاستئجار
+cession-bail
+English (exam term)
+العربية
+Français
+short-term lease
+عقد إيجار قصير الأجل
+contrat de location à court terme
+sale and leaseback
+البيع وإعادة الاستئجار
+cession-bail
+SECTION CHECK   Test yourself
+SC14-11  Orontes leases office laptops for three years. Under U.S. GAAP, the lease:
+A.	can be expensed as a low-value lease
+B.	is always a finance lease
+C.	is recognized on the balance sheet; there is no low-value exemption
+D.	is a short-term lease
+SC14-12  Under IFRS 16, how does a lessee account for a plain building lease that would be an operating lease under U.S. GAAP?
+A.	One straight-line lease cost
+B.	Depreciation of the ROU asset plus interest on the liability
+C.	Off the balance sheet
+D.	As a purchase of the building
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F14-10 brings the chapter together.
+Figure F14-10. Chapter 14 summary map: the key rule for each section.
+A lease is the right to control an identified asset for a period. A lessee classifies a lease as finance if it meets any of five criteria, and as operating otherwise. Both types start with a lease liability at the present value of the payments and a right-of-use asset based on it. Finance leases show interest and amortization, so expense is higher early; operating leases show one straight-line cost. Finance-lease principal is a financing cash flow; everything else is operating. Leases of 12 months or less may stay off the balance sheet, and U.S. GAAP has no low-value exemption.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P14-01  A supplier promises to provide 'a delivery truck' each day and may send any truck from its large fleet at no cost. Does Orontes have a lease?
+A.	No, because the supplier has a substantive right to substitute the truck
+B.	Yes, because Orontes uses a truck every day
+C.	Yes, because the contract is for more than 12 months
+D.	No, because trucks cannot be leased
+P14-02  A 7-year lease of a machine with a 9-year economic life, no transfer, no option, a standard asset, and payments worth 70% of fair value. Using common policies, the lease is:
+A.	an operating lease, because the PV is below 90%
+B.	an operating lease, because there is no purchase option
+C.	a short-term lease
+D.	a finance lease, because 7 of 9 years is a major part of the life
+P14-03  A lease includes an option to buy the asset for $1 at the end. The lessee is reasonably certain to use it. The lease is:
+A.	an operating lease
+B.	a sale
+C.	a finance lease
+D.	a service contract
+P14-04  A French company signs a crédit-bail contract for a truck. Under ASC 842, the lease is classified by:
+A.	its legal form: always a finance lease
+B.	the five criteria, not the legal form
+C.	the tax treatment
+D.	the lessor's choice
+P14-05  A lessee rents a storage room for 10 months, with no purchase option, and elects the short-term exemption. It:
+A.	records an ROU asset and a lease liability
+B.	expenses the payments straight-line and records no ROU asset or liability
+C.	records a finance lease
+D.	discloses the lease only in a note, with no expense
+P14-06  A company sells its head office to a bank and leases it back under a finance lease. Under ASC 842, the transaction is:
+A.	a sale with the full gain recognized
+B.	a sale with the gain deferred
+C.	a failed sale: the company keeps the building and records the cash as a loan
+D.	an operating lease with no asset
+P14-07  A lessee pays $5,000 of initial direct costs and receives a $3,000 lease incentive. The lease liability is $80,000. What is the ROU asset?
+A.	$78,000
+B.	$80,000
+C.	$82,000
+D.	$88,000
+P14-08  Which payment is included in the lease liability at the start?
+A.	Future payments based on the lessee's sales
+B.	Payments for cleaning services in the same contract
+C.	Payments after a renewal the lessee does not expect to use
+D.	A payment that rises each year with the CPI, measured at today's index
+P14-09  Use Figure F14-06. What is the total expense for the olive-press lease in 2027 (whole USD)?
+A.	40,095
+B.	250,000
+C.	256,664
+D.	268,546
+P14-10  Compared with an operating lease on the same terms, a finance lease gives:
+A.	the same expense every year
+B.	higher total expense in early years and lower in later years
+C.	higher total expense over the lease term
+D.	no expense until the lease ends
+P14-11  A lessee's liability is $100,000, the rate is 8%, and the first annual payment of $30,000 is made at year-end. What is the liability after the payment?
+A.	$70,000
+B.	$78,000
+C.	$92,000
+D.	$108,000
+P14-12  The CPI rises, increasing next year's payments on an operating lease. Under ASC 842, the lessee:
+A.	remeasures the liability at once
+B.	reclassifies the lease as a finance lease
+C.	does not remeasure the liability; it expenses the increase when incurred
+D.	records a gain
+P14-13  Use Figure F14-08. How is the olive-press liability of $668,253 split at December 31, 2026?
+A.	All noncurrent
+B.	Current 250,000, noncurrent the rest
+C.	All current
+D.	Current 209,905, noncurrent 458,348
+P14-14  On its income statement, a lessee shows interest expense for:
+A.	finance leases only
+B.	operating leases only
+C.	both lease types
+D.	neither lease type
+P14-15  Where does a lessee disclose a new ROU asset obtained in exchange for a lease liability?
+A.	As an investing outflow
+B.	As a financing inflow
+C.	As a supplemental noncash investing and financing activity
+D.	It is not disclosed
+P14-16  Which IFRS 16 feature does NOT exist in ASC 842?
+A.	An exemption for short-term leases
+B.	An exemption for leases of low-value assets
+C.	A right-of-use asset
+D.	Discounting the lease payments
+P14-17  An IFRS company pays interest on a lease liability. Under current IAS 7 it may classify the interest as:
+A.	operating or financing, as a policy choice
+B.	investing only
+C.	operating only, as under U.S. GAAP
+D.	not a cash flow
+P14-18  Which party records the right-of-use asset?
+A.	The lessor
+B.	Both
+C.	The lessee
+D.	Neither
+Case-style practice: Barada's leases in 2028
+Use Figure F14-11 for items C14-1 to C14-6. Barada signs these leases on January 1, 2028. Amounts are in whole U.S. dollars.
+Figure F14-11. Case exhibit: Barada Wholesale's leases, 2028 (whole USD)
+Barada Wholesale, leases signed in 2028 (whole USD)
+Details
+L1 Delivery trucks
+3-year lease from January 1, 2028; 30,000 at the end of each year; economic life 8 years; fair value 150,000; no ownership transfer, no purchase option; standard trucks.
+L2 Forklift
+5-year lease with an option to buy the forklift for $1 at the end; Barada is reasonably certain to use it.
+L3 Storage room
+10-month lease; no purchase option. Barada applies the short-term exemption.
+L4 Laptops
+3-year lease of office laptops; standard terms; no transfer or option.
+M1
+Barada's incremental borrowing rate is 8%. The rate implicit in the leases is not known. Barada is not a public business entity but does not elect the risk-free rate.
+M2
+Present value of an annuity of $1 for 3 years at 8%: 2.5771.
+C14-1  Classify each lease. (On the exam screen you would drag each lease into a box.)
+Categories: Operating lease · Finance lease · Short-term lease (exempt)
+Lease
+Category
+L1 Delivery trucks
+L2 Forklift
+L3 Storage room
+L4 Laptops
+C14-2  Enter the lease liability for the trucks (L1) on January 1, 2028.
+Answer: ____________
+C14-3  Enter the 2028 lease cost for the trucks (L1).
+Answer: ____________
+C14-4  Enter the truck lease liability at December 31, 2028.
+Answer: ____________
+C14-5  Enter the truck right-of-use asset at December 31, 2028.
+Answer: ____________
+C14-6  Where does Barada report the 2028 truck payment in its statement of cash flows? [select]
+Options: operating activities   |   financing activities   |   part operating, part financing   |   investing activities
+Written task
+W14  In four to six sentences, explain to Barada's owners why the truck lease is an operating lease and how it affects the 2028 statements. Use these words: criteria, present value, lease liability, straight-line, operating activities.
+Answers and explanations
+Section checks
+SC14-1  Answer C. An identified asset, controlled by Orontes, for a period.
+A is wrong. This is a service contract; no asset is controlled.
+B is wrong. The supplier can use any tank: no identified asset.
+D is wrong. A purchase is not a lease.
+SC14-2  Answer B. Include renewal periods reasonably certain to be used.
+A is wrong. The reasonably certain renewal must be included.
+C is wrong. The noncancelable period is included too.
+D is wrong. The lease term is not the asset's life.
+SC14-3  Answer A. Meeting any one criterion is enough; the press meets two.
+B is wrong. The size of the payment is not a criterion.
+C is wrong. There is no purchase option.
+D is wrong. Classification depends on the criteria, not the asset type.
+SC14-4  Answer D. None of the five criteria is met.
+A is wrong. No criterion is met.
+B is wrong. Nothing suggests 12 months or less.
+C is wrong. It is still a lease.
+SC14-5  Answer B. The present value of the five payments at 6%.
+A is wrong. This is only one payment.
+C is wrong. Payments must be discounted.
+D is wrong. The building's value is not the liability.
+SC14-6  Answer B. Only non-PBEs may elect the risk-free rate.
+A is wrong. The risk-free election is for companies that are not PBEs.
+C is wrong. Lease payments are discounted.
+D is wrong. The lessee uses its own rate.
+SC14-7  Answer C. Opening $866,276 + interest $51,977 − payment $250,000.
+A is wrong. This is only the current portion.
+B is wrong. This is the ROU asset, which falls by amortization.
+D is wrong. This ignores the payment and the interest.
+SC14-8  Answer C. An operating lease has one straight-line cost.
+A is wrong. Interest is not shown separately for an operating lease.
+B is wrong. This is only the ROU amortization part.
+D is wrong. This uses interest plus straight-line amortization, the finance pattern.
+SC14-9  Answer D. Finance-lease principal is repayment of a liability.
+A is wrong. Only the interest part is operating.
+B is wrong. The asset was not bought for cash.
+C is wrong. Cash was paid.
+SC14-10  Answer A. ASC 842 classifies all operating-lease payments as operating.
+B is wrong. Only finance-lease principal is financing.
+C is wrong. Lease payments are not investing.
+D is wrong. The split applies to finance leases.
+SC14-11  Answer C. Only leases of 12 months or less can be exempted.
+A is wrong. The low-value exemption is IFRS 16 only.
+B is wrong. Classification depends on the criteria.
+D is wrong. Three years is more than 12 months.
+SC14-12  Answer B. IFRS 16 has one lessee model.
+A is wrong. This is the U.S. operating-lease pattern.
+C is wrong. IFRS 16 also recognizes almost all leases.
+D is wrong. The lessee does not own the building.
+Your turn
+Item
+Answer
+2028
+Opening 267,301; interest 16,038; closing 183,339; ROU amortization 83,962; lease cost 100,000
+2029
+Opening 183,339; interest 11,000; closing 94,339; ROU amortization 89,000; lease cost 100,000
+2030
+Opening 94,339; interest 5,661; closing 0; ROU amortization 94,339; lease cost 100,000
+Multiple-choice questions
+P14-01  Answer A. Without an identified asset there is no lease.
+B is wrong. Use alone does not create control of an identified asset.
+C is wrong. Length does not decide whether there is a lease.
+D is wrong. Trucks are often leased.
+P14-02  Answer D. About 78% of the life meets the major-part test; one criterion is enough.
+A is wrong. Failing one test does not matter if another is met.
+B is wrong. Other criteria can still be met.
+C is wrong. It lasts seven years.
+P14-03  Answer C. A reasonably certain purchase option is one of the five criteria.
+A is wrong. One criterion is met.
+B is wrong. The lessee is not buying now.
+D is wrong. An identified asset is controlled.
+P14-04  Answer B. Substance, tested by the criteria, decides.
+A is wrong. Legal labels do not decide the class.
+C is wrong. Tax rules do not decide the class.
+D is wrong. The lessee applies the criteria itself.
+P14-05  Answer B. The exemption keeps short-term leases off the balance sheet.
+A is wrong. The elected exemption removes the recognition.
+C is wrong. Short-term leases are not capitalized when exempted.
+D is wrong. The rent is still an expense.
+P14-06  Answer C. A finance leaseback means control has not passed.
+A is wrong. No sale occurs when the leaseback is a finance lease.
+B is wrong. Deferring gains was the old ASC 840 approach.
+D is wrong. The leaseback is a finance lease.
+P14-07  Answer C. Liability + initial direct costs − incentives.
+A is wrong. This subtracts the direct costs and adds the incentive.
+B is wrong. This ignores the costs and the incentive.
+D is wrong. This adds the incentive instead of subtracting it.
+P14-08  Answer D. Index-based payments are included at the current index.
+A is wrong. Sales-based variable payments are expensed when incurred.
+B is wrong. Non-lease services are not lease payments.
+C is wrong. Only reasonably certain renewals are in the term.
+P14-09  Answer C. Interest $40,095 + amortization $216,569.
+A is wrong. Amortization must be added.
+B is wrong. This is the operating-lease pattern.
+D is wrong. This is the 2026 amount; interest falls each year.
+P14-10  Answer B. Interest falls as the liability falls: front-loaded.
+A is wrong. That describes the operating lease.
+C is wrong. Totals are the same; only timing differs.
+D is wrong. Expense is recognized every year.
+P14-11  Answer B. $100,000 + $8,000 interest − $30,000.
+A is wrong. This ignores interest.
+C is wrong. This deducts only the interest part.
+D is wrong. This ignores the payment.
+P14-12  Answer C. Index changes alone do not trigger remeasurement.
+A is wrong. Remeasuring for index changes is an IFRS 16 rule.
+B is wrong. Classification does not change.
+D is wrong. Higher payments cannot create a gain.
+P14-13  Answer D. The current part is the principal to be paid in 2027.
+A is wrong. The 2027 principal is current.
+B is wrong. The 2027 payment includes interest, which is not yet a liability.
+C is wrong. Only the 2027 principal is current.
+P14-14  Answer A. Operating leases show one combined lease cost.
+B is wrong. Operating-lease interest is not shown separately.
+C is wrong. Only finance leases separate interest.
+D is wrong. Finance leases show interest.
+P14-15  Answer C. No cash moved when the lease began.
+A is wrong. No cash was paid for the asset.
+B is wrong. No cash was received.
+D is wrong. It is a required disclosure.
+P14-16  Answer B. U.S. GAAP has only the short-term exemption.
+A is wrong. Both frameworks have it.
+C is wrong. Both frameworks use ROU assets.
+D is wrong. Both frameworks discount the payments.
+P14-17  Answer A. IAS 7 allows a choice until the IFRS 18 amendments apply.
+B is wrong. Interest paid is not investing.
+C is wrong. IFRS allows financing too.
+D is wrong. It is a cash payment.
+P14-18  Answer C. The lessee has the right to use the asset.
+A is wrong. The lessor keeps the underlying asset or a receivable.
+B is wrong. Only the lessee has a right of use.
+D is wrong. The lessee records it.
+Case-style set: Barada's leases in 2028
+C14-1
+Lease
+Category
+L1 Delivery trucks
+Operating lease
+L2 Forklift
+Finance lease
+L3 Storage room
+Short-term lease (exempt)
+L4 Laptops
+Operating lease
+One criterion makes a finance lease. Only leases of 12 months or less can be exempted in U.S. GAAP.
+C14-2  Answer: 77,313.
+90,000 is wrong: this answer uses the undiscounted payments.
+C14-3  Answer: 30,000.
+31,956 is wrong: this answer uses interest plus straight-line amortization, the finance or IFRS 16 pattern.
+6,185 is wrong: this answer reports only the interest.
+C14-4  Answer: 53,498.
+47,313 is wrong: this answer deducts the whole payment without adding interest.
+60,000 is wrong: this answer uses the undiscounted remaining payments.
+C14-5  Answer: 53,498.
+51,542 is wrong: this answer amortizes the ROU asset straight-line as for a finance lease.
+C14-6  Answer: operating activities.
+financing activities is wrong: this answer operating-lease payments are operating.
+part operating, part financing is wrong: this answer the split applies to finance leases.
+investing activities is wrong: this answer lease payments are not investing.
+Written task: model answer
+The truck lease meets none of the five criteria: ownership does not transfer, there is no purchase option, the term is only 37.5% of the trucks' life, the present value is only 51.5% of their fair value, and the trucks are standard. It is therefore an operating lease. Barada still records a lease liability and a right-of-use asset at the present value of the payments, 77,313. In 2028 it reports one straight-line lease cost of 30,000, and at year-end both the liability and the asset are 53,498. The payment is shown in operating activities in the statement of cash flows.
+A good answer: tests the five criteria; concludes operating lease; measures the liability at present value; reports a single straight-line lease cost; classifies the payment as operating.
+PART III — REVENUE, LIABILITIES AND INCOME MEASUREMENT

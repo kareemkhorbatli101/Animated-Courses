@@ -1,0 +1,713 @@
+Chapter 15
+Measuring Income: Gains, Losses, Comprehensive Income and Discontinued Operations
+قياس الدخل: المكاسب والخسائر والدخل الشامل والعمليات غير المستمرة
+Chapter 3 introduced gains and losses, OCI and discontinued operations as parts of the income statement. This chapter gives the full rules behind them: how to measure each item, when to recognize it, and where to present it.
+Figure F15-01 shows the layers of income that this chapter explains, from continuing operations down to comprehensive income.
+Figure F15-01. Chapter 15 roadmap: the layers from continuing operations to comprehensive income.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.aa
+Define gains and losses and show where they are presented.
+B
+Full treatment
+A.2.cc
+Explain the three expense recognition practices.
+B
+Full treatment
+A.2.dd
+Define and calculate comprehensive income, including reclassification adjustments.
+B
+Full treatment
+A.2.ee
+Identify discontinued operations, apply the held-for-sale rules and present the results.
+B
+Full treatment
+A.2.ff
+Contrast IFRS 5 and IFRS OCI rules.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+gain
+مكسب (مكاسب)
+profit / gain
+loss
+خسارة
+perte
+comprehensive income
+الدخل الشامل
+résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+discontinued operation
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+held for sale
+محتفظ به للبيع
+détenu en vue de la vente
+disposal group
+مجموعة الاستبعاد
+groupe destiné à être cédé
+fair value less cost to sell
+القيمة العادلة ناقصاً تكاليف البيع
+juste valeur diminuée des coûts de la vente
+WHAT YOU ALREADY KNOW   What you already know
+IFRS 5 has a similar idea of discontinued operations, and IFRS also has OCI. The tests and some presentation rules differ, and some IFRS OCI items never return to profit. Section 15.6 compares them.
+15.1  Gains and losses
+A gain or loss is an increase or decrease in equity from a peripheral or incidental transaction: something other than the company's main activities and other than a transaction with owners. Selling an old machine, settling a lawsuit and a change in the value of an investment are examples.
+Gains and losses are shown net. When Orontes sold its old Dubai oven, it did not report the proceeds as revenue; it reported a gain of $3,000: the proceeds minus the carrying amount. In a multi-step statement, most gains and losses appear in other income and expense, below operating income.
+Losses that arise from operating assets, such as impairments, are usually shown within operating expenses. Items that are unusual or infrequent get a separate line within continuing operations, before tax. Figure F15-02 shows where Orontes's 2025 gains and losses appear.
+Figure F15-02. Where Orontes's 2025 gains and losses appear
+Orontes, 2025 (whole USD)
+Type
+Where it appears
+Amount
+Gain on sale of equipment (the Dubai oven, Chapter 10)
+Gain
+Other income and (expense)
+3,000
+Loss on sale of receivables (factoring, Chapter 6)
+Loss
+Other income and (expense)
+(15,000)
+Unrealized gains on securities (Chapter 9)
+Gain
+Other income and (expense)
+4,000
+Impairment losses (Chapter 10)
+Loss
+Operating expenses
+(2,724,000)
+Unrealized loss on AFS debt securities, net of tax
+Loss
+OCI, not net income
+(1,125)
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+gain
+مكسب (مكاسب)
+profit / gain
+loss
+خسارة
+perte
+holding gain or loss
+مكسب أو خسارة الاحتفاظ
+profit ou perte de détention
+English (exam term)
+العربية
+Français
+gain
+مكسب (مكاسب)
+profit / gain
+loss
+خسارة
+perte
+holding gain or loss
+مكسب أو خسارة الاحتفاظ
+profit ou perte de détention
+SECTION CHECK   Test yourself
+SC15-1  Which item is a gain rather than revenue for Orontes?
+A.	The excess of proceeds over carrying amount when it sells an old oven
+B.	Sales of olive oil to supermarkets
+C.	Fees for maintaining dispensers
+D.	Sales of fruit juices
+SC15-2  Use Figure F15-02. Where does Orontes report its 2025 impairment losses?
+A.	In other income and expense
+B.	In OCI
+C.	Net of tax below continuing operations
+D.	Within operating expenses
+Answers and explanations are at the end of the chapter.
+15.2  Expense recognition
+Expenses are recognized in one of three ways. When there is a clear cause and effect, the expense follows the related revenue: cost of goods sold is recognized when the goods are sold. This is the matching principle from Chapter 11.
+When a cost benefits several periods but cannot be linked to specific revenue, it is spread by systematic and rational allocation. Depreciation of the bottling line and the expiry of prepaid rent are examples.
+When a cost has no clear link to future revenue, it is a period cost and is expensed at once. Advertising and research and development are expensed when incurred, even if they may bring future sales. Figure F15-03 summarizes the three approaches.
+Figure F15-03. Three expense recognition approaches
+Approach
+Idea
+Orontes examples
+Cause and effect (matching)
+Expense follows the related revenue
+Cost of goods sold; sales commissions (capitalized, Chapter 11)
+Systematic and rational allocation
+Cost spread over the periods that benefit
+Depreciation of the bottling line; prepaid rent
+Immediate recognition
+No clear link to future revenue: a period cost
+Advertising; research and development; most general administration
+WATCH: NOT YET TESTABLE   DISE: expense disaggregation
+ASU 2024-03 will require public companies to break down some expense captions in the notes, for example into inventory purchases, employee pay and depreciation. It does not change recognition, and it is not testable before about January 2028.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+period cost
+تكلفة الفترة
+charge de la période
+systematic and rational allocation
+التوزيع المنتظم والمنطقي
+répartition systématique et rationnelle
+English (exam term)
+العربية
+Français
+period cost
+تكلفة الفترة
+charge de la période
+systematic and rational allocation
+التوزيع المنتظم والمنطقي
+répartition systématique et rationnelle
+SECTION CHECK   Test yourself
+SC15-3  Depreciation of the bottling line is an example of which expense recognition approach?
+A.	Cause and effect
+B.	Systematic and rational allocation
+C.	Immediate recognition
+D.	Cash basis
+SC15-4  Orontes spends $200,000 on a TV advertising campaign that it expects to raise sales next year. The cost is:
+A.	capitalized and amortized over next year
+B.	added to inventory
+C.	expensed when incurred
+D.	deferred until the sales occur
+Answers and explanations are at the end of the chapter.
+15.3  Comprehensive income and reclassification
+Comprehensive income is net income plus other comprehensive income. U.S. OCI includes holding gains and losses on available-for-sale debt securities, foreign currency translation adjustments, the effective part of cash-flow hedges, and some pension gains and losses. Unrealized gains on equity securities are not OCI; they go to net income.
+When an OCI item is realized, for example when an AFS bond is sold, the gain moves into net income. At the same time a reclassification adjustment removes it from OCI. Without this adjustment, the same gain would be counted twice in comprehensive income: once in OCI when it arose, and again in net income on the sale.
+Figure F15-04 shows an AFS bond that Orontes buys for $100,000. Its value rises to $108,000 at the end of 2026, and Orontes sells it for $110,000 in 2027. Over the two years, comprehensive income before tax is $10,000: the total gain, counted once.
+Figure F15-04. OCI and the reclassification adjustment for an AFS bond over two years.
+WORKED EXAMPLE   Worked example: the reclassification adjustment
+Step 1. 2026: the holding gain of $8,000 goes to OCI. After tax at 25%, OCI is $6,000, and AOCI builds up by the same amount.
+Step 2. 2027: the bond is sold; net income shows the realized gain of $10,000.
+Step 3. OCI for 2027 shows the holding gain of $2,000 and a reclassification of −$10,000: a net OCI loss of $8,000 before tax, $6,000 after tax.
+Check. AOCI for this bond returns to zero. Figure F15-05 shows both years.
+Figure F15-05. Suppose: OCI and the reclassification adjustment for an AFS bond
+Suppose: AFS bond bought for 100,000
+2026
+2027
+Net income
+Realized gain on sale
+—
+10,000
+Other comprehensive income
+Holding gain during the year
+8,000
+2,000
+Reclassification adjustment
+—
+(10,000)
+OCI before tax
+8,000
+(8,000)
+Tax at 25%
+(2,000)
+2,000
+OCI, net of tax
+6,000
+(6,000)
+AOCI at year-end (for this bond)
+6,000
+0
+EXAM TRAP   Comprehensive income traps
+Forgetting the reclassification counts a realized gain twice.
+Comprehensive income adds this year's OCI, not the AOCI balance.
+Report OCI net of tax, or before tax with one tax line: do not mix them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+comprehensive income
+الدخل الشامل
+résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+English (exam term)
+العربية
+Français
+comprehensive income
+الدخل الشامل
+résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+SECTION CHECK   Test yourself
+SC15-5  Use Figure F15-05. What is Orontes's OCI for 2027 before tax (whole USD)?
+A.	(8,000)
+B.	0
+C.	2,000
+D.	10,000
+SC15-6  Use Figure F15-04. What is the 2027 comprehensive income from the bond, before tax (whole USD)?
+A.	(8,000)
+B.	2,000
+C.	10,000
+D.	12,000
+Answers and explanations are at the end of the chapter.
+15.4  Is it a discontinued operation?
+A disposal is reported as a discontinued operation only if three things are true. First, it is a component of an entity: its operations and cash flows can be clearly separated from the rest of the company. Second, the disposal is a strategic shift that has, or will have, a major effect on operations and results.
+Third, the component has been sold, abandoned or spun off, or it is held for sale. Examples of a strategic shift are leaving a major line of business, a major geographic area or a major equity-method investment. There is no official percentage for 'major'; it is a judgment.
+Selling one machine, one store or one small product is not a strategic shift. The gain or loss stays in continuing operations, as for the Dubai oven. A business that meets the held-for-sale criteria when it is acquired is also a discontinued operation.
+YOUR TURN   Strategic shift or not?
+Figure F15-06 lists six disposals. The first two are done. Decide whether each of the others is a discontinued operation. Answers are at the end of the chapter.
+Figure F15-06. Strategic shift or not? (complete the blanks)
+Suppose these disposals happen
+Discontinued operation?
+Orontes sells its whole frozen-foods business, one of its four product lines
+Yes: a major line of business
+Orontes closes one of its twelve olive-oil shops
+No: not a strategic shift
+Orontes sells all its operations in Jordan, its only foreign market
+________
+Orontes sells an old bottling machine
+________
+Orontes sells its 30% stake in Jordan Glass, a major equity-method investment
+________
+Orontes stops selling one flavour of juice
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+discontinued operation
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+component of an entity
+مكوِّن من مكونات المنشأة
+composante d'une entité
+strategic shift
+تحول استراتيجي
+changement stratégique
+English (exam term)
+العربية
+Français
+discontinued operation
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+component of an entity
+مكوِّن من مكونات المنشأة
+composante d'une entité
+strategic shift
+تحول استراتيجي
+changement stratégique
+SECTION CHECK   Test yourself
+SC15-7  Which disposal is a discontinued operation?
+A.	Selling all operations in the company's only foreign country
+B.	Closing one of twelve shops
+C.	Selling an old delivery van
+D.	Stopping one small product
+SC15-8  What does ASC 205-20 require for a disposal to be a discontinued operation?
+A.	Any sale of assets above 10% of total assets
+B.	A component, a strategic shift with a major effect, and a sale, abandonment, spin-off or held-for-sale status
+C.	Only board approval
+D.	A loss on disposal
+Answers and explanations are at the end of the chapter.
+15.5  Held for sale: criteria and measurement
+A component can be reported as discontinued before it is sold, once it is held for sale. All six criteria must be met: management with authority commits to a plan; the business is available for immediate sale; an active search for a buyer has begun; a sale is probable within one year; the price is reasonable; and the plan is unlikely to change.
+A held-for-sale disposal group is measured at the lower of its carrying amount and its fair value less cost to sell. Any write-down is a loss. Depreciation stops, and later increases in value are recognized only up to the losses already recorded.
+Chapter 3 showed that Orontes's frozen-foods business produced a loss from discontinued operations of $450,000 in 2026. Figure F15-07 shows the timeline. The board approved the plan in March, but the business became held for sale only on June 30, when all six criteria were met.
+Figure F15-07. Timeline of the frozen-foods business: plan, held for sale, sale.
+Figure F15-08 measures the disposal group on June 30. It includes the frozen-foods goodwill left after the 2025 impairment in Chapter 10. The carrying amount of $3,180,000 is above fair value less cost to sell of $3,000,000, so Orontes records a loss of $180,000. This is the disposal loss that Chapter 3 reported.
+Figure F15-08. Suppose: measuring the frozen-foods disposal group on June 30, 2026
+Suppose: frozen-foods disposal group, June 30, 2026 (whole USD)
+Amount
+Property, plant and equipment, net
+2,100,000
+Inventory
+480,000
+Receivables
+400,000
+Goodwill (left after the 2025 impairment, Chapter 10)
+300,000
+Less: accounts payable
+(100,000)
+Carrying amount of the disposal group
+3,180,000
+Fair value less cost to sell
+3,000,000
+Remeasurement loss (in discontinued operations)
+180,000
+Held-for-sale group at June 30, 2026
+3,000,000
+EXAM TRAP   Held-for-sale traps
+Board approval alone is not enough: all six criteria must be met.
+Recognize the write-down when the group becomes held for sale, not only when it is sold.
+Stop depreciation once the group is held for sale.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+held for sale
+محتفظ به للبيع
+détenu en vue de la vente
+disposal group
+مجموعة الاستبعاد
+groupe destiné à être cédé
+fair value less cost to sell
+القيمة العادلة ناقصاً تكاليف البيع
+juste valeur diminuée des coûts de la vente
+English (exam term)
+العربية
+Français
+held for sale
+محتفظ به للبيع
+détenu en vue de la vente
+disposal group
+مجموعة الاستبعاد
+groupe destiné à être cédé
+fair value less cost to sell
+القيمة العادلة ناقصاً تكاليف البيع
+juste valeur diminuée des coûts de la vente
+SECTION CHECK   Test yourself
+SC15-9  Use Figure F15-08. What loss does Orontes recognize when the frozen-foods business becomes held for sale (whole USD)?
+A.	0
+B.	180,000
+C.	300,000
+D.	3,180,000
+SC15-10  Use Figure F15-07. How much depreciation does Orontes record on the frozen-foods assets for July to September 2026?
+A.	None
+B.	105,000
+C.	35,000
+D.	180,000
+Answers and explanations are at the end of the chapter.
+15.6  Presentation and IFRS differences
+The results of a discontinued operation, including its operating results and any remeasurement or disposal gain or loss, are shown net of their own tax below income from continuing operations. Public companies also show per-share amounts for discontinued operations. The comparative years are reclassified so that all periods are shown on the same basis.
+On the balance sheet, the assets and liabilities of a discontinued operation are shown separately for all periods presented. Held-for-sale assets that are not a discontinued operation are also shown separately, but their results stay in continuing operations.
+Figure F15-09 compares these rules with IFRS. Under IFRS 5, a discontinued operation must be a separate major line of business or geographical area, and earlier balance sheets are not re-presented. Some IFRS OCI items, such as a revaluation surplus, never return to profit or loss.
+Figure F15-09. Discontinued operations and OCI: U.S. GAAP and IFRS
+Topic
+U.S. GAAP
+IFRS (IFRS 5, IAS 1, IFRS 18)
+Definition of discontinued operation
+Component + strategic shift with a major effect
+Separate major line of business or geographical area
+Sale expected within a year
+Probable
+Highly probable
+Balance sheet of earlier years
+Re-presented: assets and liabilities shown separately
+Not re-presented
+OCI later reclassified to profit
+All OCI items
+Some items never (e.g., revaluation surplus)
+Extraordinary items
+Not allowed
+Not allowed
+Presentation from 2027
+Unchanged
+IFRS 18 categories (not testable before about 2028)
+FALSE-FRIEND ALERT   Résultat exceptionnel and بنود استثنائية
+French résultat exceptionnel and Arabic بنود استثنائية describe unusual items in local practice. U.S. GAAP has no extraordinary items: unusual or infrequent items stay in continuing operations, before tax. Only discontinued operations are shown net of tax below continuing operations.
+SECTION CHECK   Test yourself
+SC15-11  A company reports a discontinued operation in 2027. How does it present the 2026 comparative income statement?
+A.	It leaves 2026 unchanged
+B.	It reclassifies the component's 2026 results into discontinued operations
+C.	It removes 2026 from the statements
+D.	It restates 2026 retained earnings
+SC15-12  Under IFRS 5, how is the balance sheet of the previous year presented when a discontinued operation arises this year?
+A.	Its assets and liabilities are shown separately, as under U.S. GAAP
+B.	It is removed
+C.	It is restated at fair value
+D.	It is not re-presented
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F15-10 brings the chapter together.
+Figure F15-10. Chapter 15 summary map: the key rule for each section.
+Gains and losses come from peripheral transactions and are shown net; unusual or infrequent items stay in continuing operations, before tax. Expenses are matched with revenue, allocated systematically, or expensed at once as period costs. Comprehensive income is net income plus OCI, and a reclassification adjustment moves realized amounts from AOCI to net income so they are not counted twice. A discontinued operation is a component whose disposal is a strategic shift with a major effect. A held-for-sale group is measured at the lower of carrying amount and fair value less cost to sell, and depreciation stops. Results are shown net of tax below continuing operations, and prior periods are reclassified.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P15-01  A company sells land with a carrying amount of $300,000 for $360,000. On the income statement it reports:
+A.	revenue of $360,000
+B.	a gain of $60,000 in other income
+C.	revenue of $360,000 and cost of sales of $300,000
+D.	a gain of $360,000
+P15-02  A company settles a large lawsuit, which is unusual for it, for a loss of $500,000. The loss is presented:
+A.	as a separate line in continuing operations, before tax
+B.	as an extraordinary item, net of tax
+C.	in OCI
+D.	in discontinued operations
+P15-03  Which statement about gains and losses is correct?
+A.	They are always shown in OCI
+B.	They are always shown gross
+C.	They arise from peripheral or incidental transactions and are usually shown net
+D.	They include dividends paid to owners
+P15-04  Which cost is recognized by cause and effect?
+A.	Depreciation of the head office
+B.	Research costs
+C.	The CEO's salary
+D.	Sales commissions on goods sold this year
+P15-05  Under U.S. GAAP, costs of researching a new juice recipe are:
+A.	capitalized as an intangible asset
+B.	capitalized once the recipe is technically feasible
+C.	added to inventory
+D.	expensed when incurred
+P15-06  Orontes pays 12 months of rent in advance on July 1. At December 31, the expense recognized is:
+A.	twelve months of rent
+B.	nothing until the lease ends
+C.	six months of rent; the rest is a prepaid asset
+D.	the whole payment as a period cost
+P15-07  Which item is part of U.S. OCI?
+A.	A foreign currency translation adjustment
+B.	An unrealized gain on equity securities
+C.	A gain on sale of equipment
+D.	An impairment loss
+P15-08  A company sells an AFS bond at a gain of $30,000 that was already in AOCI. What reclassification adjustment appears in OCI in the year of sale?
+A.	+$30,000
+B.	−$30,000
+C.	$0
+D.	−$60,000
+P15-09  Net income is $900,000. OCI includes a $50,000 holding gain on AFS bonds and a $20,000 reclassification of gains realized this year. Ignoring tax, what is comprehensive income?
+A.	$900,000
+B.	$930,000
+C.	$950,000
+D.	$970,000
+P15-10  Over the whole life of an AFS bond, from purchase to sale, total comprehensive income from the bond equals:
+A.	the total gain or loss, counted once
+B.	twice the total gain
+C.	zero
+D.	the OCI of the final year
+P15-11  On March 15 a board approves a plan to sell a division, but the division is not yet available for immediate sale. When can it be classified as held for sale?
+A.	On March 15
+B.	When the sale is completed
+C.	At the next year-end
+D.	When all six criteria are met
+P15-12  A held-for-sale group was written down by $100,000. Its fair value less cost to sell then rises by $150,000 before the sale. What gain may the company recognize?
+A.	$0
+B.	$50,000
+C.	$100,000
+D.	$150,000
+P15-13  A company sells a major line of business, with an operating loss of $80,000 and a gain on sale of $280,000, both before tax. At a 25% tax rate, what does it report in discontinued operations?
+A.	A gain of $200,000
+B.	A gain of $150,000, net of tax
+C.	A gain of $280,000
+D.	A loss of $60,000
+P15-14  A company decides to sell a warehouse, which meets the held-for-sale criteria but is not a component. How is it reported?
+A.	As a discontinued operation
+B.	In OCI
+C.	Not at all until sold
+D.	Separately on the balance sheet as held for sale; its results stay in continuing operations
+P15-15  Which item is included in a disposal group held for sale?
+A.	Goodwill allocated to the component
+B.	Only the component's PP&E
+C.	The company's head-office building
+D.	Retained earnings
+P15-16  Under IFRS, what happens to a revaluation surplus on land when the land is sold?
+A.	It is reclassified to profit or loss
+B.	It becomes a discontinued operation
+C.	It is never reclassified to profit; it may be transferred to retained earnings
+D.	It is reversed through OCI and profit
+Case-style practice: Orontes's 2027 comprehensive income
+Use Figure F15-11 for items C15-1 to C15-6. The 2027 figures are an example. Amounts are in USD 000.
+Figure F15-11. Case exhibit: Orontes, 2027 (USD 000)
+Suppose: Orontes, 2027 (USD 000)
+Amount / details
+Operating income
+5,000
+Gain on sale of a warehouse
+200
+Loss on settlement of a lawsuit (unusual for Orontes)
+120
+Interest expense
+400
+Dry-foods division: operating loss before tax
+80
+Dry-foods division: gain on sale before tax
+280
+Unrealized holding gain on AFS debt securities during 2027
+40
+Realized gain on AFS securities sold in 2027 (included in AOCI before)
+24
+M1
+In 2027 Orontes sold its dry-foods division, one of its main product lines. The sale is a strategic shift with a major effect.
+M2
+The tax rate is 25% on all items. The realized AFS gain is already in the other income figures.
+M3
+Orontes presents one continuous statement of comprehensive income.
+C15-1  Place each item in the statement of comprehensive income. (On the exam screen you would drag each item into a box.)
+Categories: Continuing operations · Discontinued operations · Other comprehensive income
+Item
+Category
+Gain on sale of a warehouse
+Lawsuit settlement loss
+Dry-foods operating loss
+Dry-foods gain on sale
+AFS holding gain
+C15-2  Enter income from continuing operations, net of tax.
+Answer: ____________
+C15-3  Enter income from discontinued operations, net of tax.
+Answer: ____________
+C15-4  Enter net income.
+Answer: ____________
+C15-5  Enter OCI, net of tax.
+Answer: ____________
+C15-6  Enter comprehensive income.
+Answer: ____________
+Written task
+W15  In four to six sentences, explain to Orontes's board how the dry-foods sale and the AFS securities appear in the 2027 statement of comprehensive income. Use these words: strategic shift, net of tax, continuing operations, reclassification adjustment, comprehensive income.
+Answers and explanations
+Section checks
+SC15-1  Answer A. Selling equipment is peripheral to Orontes's main activities.
+B is wrong. Selling olive oil is Orontes's main activity.
+C is wrong. Maintenance services are part of its contracts with customers.
+D is wrong. This is a main product.
+SC15-2  Answer D. Losses on operating assets are usually operating expenses.
+A is wrong. Impairments of operating assets are operating items.
+B is wrong. Impairments are not OCI.
+C is wrong. Only discontinued operations appear there.
+SC15-3  Answer B. The cost is spread over the periods that benefit.
+A is wrong. Depreciation cannot be linked to specific sales.
+C is wrong. The machine benefits several years.
+D is wrong. Expense recognition follows the accrual basis.
+SC15-4  Answer C. Advertising is a period cost.
+A is wrong. Future benefits of advertising are too uncertain to capitalize.
+B is wrong. Advertising is not a product cost.
+D is wrong. No clear link to specific future revenue exists.
+SC15-5  Answer A. Holding gain $2,000 minus the reclassification of $10,000.
+B is wrong. OCI changes when the AOCI amount is reclassified.
+C is wrong. This omits the reclassification adjustment.
+D is wrong. This gives the reclassification the wrong sign.
+SC15-6  Answer B. Net income $10,000 plus OCI $(8,000): only the 2027 increase in value.
+A is wrong. This ignores net income.
+C is wrong. This ignores OCI.
+D is wrong. This adds the holding gain without the reclassification: double counting.
+SC15-7  Answer A. Leaving a major geographic area is a strategic shift.
+B is wrong. One shop is not a strategic shift.
+C is wrong. An asset sale gives a gain or loss in continuing operations.
+D is wrong. A small product is not a major line.
+SC15-8  Answer B. All three conditions are needed.
+A is wrong. There is no percentage test in the standard.
+C is wrong. Approval alone does not meet the held-for-sale criteria.
+D is wrong. Gains and losses both qualify.
+SC15-9  Answer B. Carrying amount $3,180,000 minus fair value less cost to sell $3,000,000.
+A is wrong. The write-down is recognized when the group becomes held for sale.
+C is wrong. This is only the goodwill in the group.
+D is wrong. This is the whole carrying amount.
+SC15-10  Answer A. Depreciation stops once the group is held for sale.
+B is wrong. Held-for-sale assets are not depreciated.
+C is wrong. No depreciation is recorded, not even for one month.
+D is wrong. This is the remeasurement loss, not depreciation.
+SC15-11  Answer B. All periods are shown on the same basis.
+A is wrong. Comparatives must be reclassified.
+C is wrong. Comparative years are still presented.
+D is wrong. Reclassification is not an error correction.
+SC15-12  Answer D. IFRS 5 does not re-present the prior-year balance sheet.
+A is wrong. This is the U.S. GAAP presentation.
+B is wrong. Comparatives remain.
+C is wrong. No fair value restatement is required.
+Your turn
+Item
+Answer
+All operations in Jordan
+Yes: a major geographic area.
+An old bottling machine
+No: a single asset; the gain or loss stays in continuing operations.
+The stake in Jordan Glass
+Yes: a major equity-method investment.
+One juice flavour
+No: not a strategic shift.
+Multiple-choice questions
+P15-01  Answer B. Gains are shown net.
+A is wrong. Land is not sold in the main business.
+C is wrong. Gross presentation is for revenue, not gains.
+D is wrong. The gain is net of the carrying amount.
+P15-02  Answer A. Unusual items stay in continuing operations.
+B is wrong. Extraordinary items no longer exist.
+C is wrong. No rule sends it to OCI.
+D is wrong. No component was disposed of.
+P15-03  Answer C. This is the definition in the conceptual framework.
+A is wrong. Most gains and losses are in net income.
+B is wrong. Gross presentation is used for revenue.
+D is wrong. Owner transactions are not gains or losses.
+P15-04  Answer D. Commissions are directly linked to the related revenue.
+A is wrong. Depreciation is allocated systematically.
+B is wrong. Research is expensed immediately.
+C is wrong. Administration is a period cost.
+P15-05  Answer D. ASC 730 requires R&D to be expensed.
+A is wrong. U.S. GAAP does not capitalize R&D in general.
+B is wrong. Capitalizing development costs after feasibility is an IFRS rule.
+C is wrong. Research is not a product cost.
+P15-06  Answer C. The cost is allocated to the periods that benefit.
+A is wrong. Only half of the benefit has been used.
+B is wrong. Six months have already been used.
+D is wrong. Prepaid rent benefits the next period too.
+P15-07  Answer A. Translation adjustments are OCI items.
+B is wrong. Equity securities changes go to net income.
+C is wrong. Realized gains on equipment are in net income.
+D is wrong. Impairments go to net income.
+P15-08  Answer B. The gain moves out of AOCI into net income.
+A is wrong. The adjustment reduces OCI.
+C is wrong. Without it, the gain is counted twice.
+D is wrong. The adjustment equals the gain, not twice the gain.
+P15-09  Answer B. Net income plus OCI of $30,000.
+A is wrong. This omits OCI.
+C is wrong. This omits the reclassification.
+D is wrong. This adds the reclassification.
+P15-10  Answer A. Reclassification ensures each gain is counted once.
+B is wrong. Double counting is what reclassification prevents.
+C is wrong. The gain is real and appears in net income.
+D is wrong. All years together give the total gain.
+P15-11  Answer D. All six criteria must be met, not only board approval.
+A is wrong. Approval is only one criterion.
+B is wrong. Held for sale can apply before the sale.
+C is wrong. Classification is not tied to the year-end.
+P15-12  Answer C. Gains are limited to losses previously recognized.
+A is wrong. A recovery up to earlier losses is recognized.
+B is wrong. The limit is the earlier loss, not the excess.
+D is wrong. The gain cannot exceed earlier write-downs.
+P15-13  Answer B. Net pretax gain of $200,000 less tax of $50,000.
+A is wrong. This is before tax.
+C is wrong. This ignores the operating loss and tax.
+D is wrong. This ignores the gain on sale.
+P15-14  Answer D. Held for sale and discontinued operation are different tests.
+A is wrong. A single asset is not a strategic shift.
+B is wrong. OCI is not used.
+C is wrong. The held-for-sale rules apply before the sale.
+P15-15  Answer A. The group includes the assets and liabilities to be sold together, including allocated goodwill.
+B is wrong. Other assets and liabilities are included too.
+C is wrong. The head office is not being sold.
+D is wrong. Equity is not part of a disposal group.
+P15-16  Answer C. Some IFRS OCI items never recycle.
+A is wrong. Revaluation surplus is not recycled.
+B is wrong. Selling land is not a discontinued operation.
+D is wrong. It does not go through profit.
+Case-style set: Orontes's 2027 comprehensive income
+C15-1
+Item
+Category
+Gain on sale of a warehouse
+Continuing operations
+Lawsuit settlement loss
+Continuing operations
+Dry-foods operating loss
+Discontinued operations
+Dry-foods gain on sale
+Discontinued operations
+AFS holding gain
+Other comprehensive income
+Unusual items stay in continuing operations. Realized AFS gains move from OCI to net income.
+C15-2  Answer: 3,510.
+4,680 is wrong: this answer does not deduct income tax.
+3,600 is wrong: this answer removes the unusual lawsuit loss from continuing operations.
+C15-3  Answer: 150.
+200 is wrong: this answer reports it before tax.
+(60) is wrong: this answer leaves out the gain on sale.
+C15-4  Answer: 3,660.
+3,510 is wrong: this answer leaves out the discontinued operation.
+C15-5  Answer: 12.
+30 is wrong: this answer omits the reclassification adjustment.
+16 is wrong: this answer reports OCI before tax as the net amount.
+C15-6  Answer: 3,672.
+3,690 is wrong: this answer counts the realized AFS gain twice.
+3,676 is wrong: this answer adds OCI before tax.
+Written task: model answer
+Selling the dry-foods division, one of Orontes's main product lines, is a strategic shift with a major effect, so it is a discontinued operation. Its operating loss and its gain on sale are combined and shown net of tax, 150, below income from continuing operations of 3,510. The lawsuit loss is unusual, but it stays in continuing operations. The AFS securities produced a holding gain in OCI, but part of the gain was realized in 2027 and is already in net income; a reclassification adjustment removes it from OCI so it is not counted twice. OCI is therefore 12 after tax, and comprehensive income is 3,672.
+A good answer: identifies the strategic shift and the discontinued operation; shows the division's results net of tax below continuing operations; keeps the unusual loss in continuing operations; explains the reclassification adjustment; adds net income and OCI to get comprehensive income.
+PART IV
+Groups, IFRS contrasts and integrated reporting
+Chapters 16 to 18
+PART IV — GROUPS, IFRS CONTRASTS AND INTEGRATED REPORTING

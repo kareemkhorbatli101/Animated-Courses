@@ -1,0 +1,762 @@
+Chapter 5
+The Statement of Cash Flows
+قائمة التدفقات النقدية
+Chapter 3 ended with a surprise: Orontes earned far less profit than cash. This chapter explains that difference. The statement of cash flows shows where cash came from and where it went, and it completes the set of four statements.
+Figure F05-01 shows the structure: three types of activity explain one number, the change in cash.
+Figure F05-01. Chapter 5 roadmap: three activities explain the change in cash.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.b
+Explain the purpose of the statement of cash flows and how users apply it.
+B
+Full treatment (cash flows)
+A.1.c
+Classify cash flows as operating, investing or financing under U.S. GAAP, and contrast IFRS.
+B
+Full treatment (cash flows)
+A.1.g
+Prepare operating cash flow by the indirect method and understand the direct method.
+B
+Full treatment
+A.1.f
+Show how all four statements fit together.
+B
+Full treatment
+A.1.d
+Identify the limitations of the statement of cash flows.
+A
+Full treatment (cash flows)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+statement of cash flows
+قائمة التدفقات النقدية
+tableau des flux de trésorerie
+cash equivalents
+معادلات النقد (ما في حكم النقد)
+équivalents de trésorerie
+operating activities
+الأنشطة التشغيلية
+activités opérationnelles
+investing activities
+الأنشطة الاستثمارية
+activités d'investissement
+financing activities
+الأنشطة التمويلية
+activités de financement
+indirect method
+الطريقة غير المباشرة
+méthode indirecte
+direct method
+الطريقة المباشرة
+méthode directe
+noncash investing and financing activities
+الأنشطة الاستثمارية والتمويلية غير النقدية
+opérations d'investissement et de financement sans effet de trésorerie
+WHAT YOU ALREADY KNOW   What you already know
+IFRS uses the same three sections, but IAS 7 lets companies choose where to put interest and dividends. U.S. GAAP gives no choice. If you learned the IFRS habit of putting interest paid in financing, you must unlearn it for this exam.
+5.1  Purpose and structure of the statement of cash flows
+The statement of cash flows reports a company's cash receipts and cash payments for a period. Users need it because profit is not cash. It helps them judge whether the company can produce cash, pay its debts and dividends, and fund its growth without new financing.
+The statement explains the change in cash, cash equivalents and restricted cash together. Cash equivalents are short-term, highly liquid investments with an original maturity to the holder of three months or less. Moving money between these categories is not a cash flow.
+Cash flows are grouped into operating activities, investing activities and financing activities. Figure F05-02 is Orontes's statement for 2025. Operating activities provided $7,531,100, investing used $4,179,000, and financing provided $1,850,000. Cash rose by $5,202,100, to the $7,302,100 shown on the balance sheet.
+Figure F05-02. Orontes Foods Inc. — statement of cash flows (indirect method), 2025
+Orontes Foods Inc., year ended December 31, 2025 (whole USD)
+2025
+Cash flows from operating activities
+Net income
+2,969,100
+Adjustments to reconcile net income to net cash from operating activities:
+Depreciation
+2,100,000
+Impairment losses
+2,724,000
+Equity-method income
+(177,000)
+Dividends from equity-method investees
+70,000
+Gain on sale of equipment
+(3,000)
+Unrealized gains on securities
+(4,000)
+Deferred income taxes
+100,000
+Increase in accounts receivable, net
+(384,000)
+Increase in inventory
+(150,000)
+Increase in prepaid expenses
+(24,000)
+Increase in accounts payable
+150,000
+Increase in accrued liabilities
+50,000
+Increase in income taxes payable
+50,000
+Increase in contract liabilities
+60,000
+Net cash provided by operating activities
+7,531,100
+Cash flows from investing activities
+Purchases of property, plant and equipment
+(3,000,000)
+Proceeds from sale of equipment
+21,000
+Investment in Jordan Glass Co.
+(1,200,000)
+Net cash used in investing activities
+(4,179,000)
+Cash flows from financing activities
+Issuance of common stock
+1,500,000
+Proceeds from bank note
+800,000
+Repayment of long-term debt
+(400,000)
+Dividends paid
+(50,000)
+Net cash provided by financing activities
+1,850,000
+Net increase in cash
+5,202,100
+Cash, January 1, 2025
+2,100,000
+Cash, December 31, 2025
+7,302,100
+Supplemental disclosures
+Interest paid
+390,000
+Income taxes paid
+839,700
+Noncash investing and financing activities
+none
+Figure F05-03 shows the pattern. Strong operating cash is a good sign, but a reader should also ask where the cash went. Orontes spent heavily on equipment and on its investment in Jordan Glass, and it also raised new shares and a bank loan.
+Figure F05-03. Orontes's 2025 cash flows by activity.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cash equivalents
+معادلات النقد (ما في حكم النقد)
+équivalents de trésorerie
+operating activities
+الأنشطة التشغيلية
+activités opérationnelles
+investing activities
+الأنشطة الاستثمارية
+activités d'investissement
+financing activities
+الأنشطة التمويلية
+activités de financement
+English (exam term)
+العربية
+Français
+cash equivalents
+معادلات النقد (ما في حكم النقد)
+équivalents de trésorerie
+operating activities
+الأنشطة التشغيلية
+activités opérationnelles
+investing activities
+الأنشطة الاستثمارية
+activités d'investissement
+financing activities
+الأنشطة التمويلية
+activités de financement
+SECTION CHECK   Test yourself
+SC5-1  Why do users need a statement of cash flows when they already have an income statement?
+A.	Because the income statement ignores revenue
+B.	Because the statement of cash flows shows the market value of assets
+C.	Because net income is not the same as cash generated
+D.	Because cash flows are measured at fair value
+SC5-2  On December 1 a company buys a Treasury bill that matures in five months, on April 30. At December 31 it has two months left to maturity. Is it a cash equivalent?
+A.	Yes, because it matures within three months of the year-end
+B.	Yes, because all Treasury bills are cash equivalents
+C.	No, because only bank deposits are cash equivalents
+D.	No, because its original maturity to the company was more than three months
+Answers and explanations are at the end of the chapter.
+5.2  Classifying cash flows
+Operating activities are the main revenue activities: cash from customers and cash paid to suppliers and employees. Anything that is not investing or financing is also operating. Investing activities involve long-term assets and other companies' securities: Orontes paid $3,000,000 for equipment and $1,200,000 for its Jordan Glass shares.
+Financing activities are with owners and lenders. They include issuing and buying back shares, borrowing and repaying principal, and paying dividends. Orontes received $1,500,000 from its share issue and $800,000 from the bank note, repaid $400,000 of debt and paid $50,000 of dividends.
+U.S. GAAP fixes four items that students often get wrong. Interest paid, interest received, dividends received and income taxes are all operating. Only dividends paid are financing. Figure F05-04 compares these rules with IFRS.
+Figure F05-04. Classifying interest, dividends and taxes: U.S. GAAP and IFRS
+Cash flow
+U.S. GAAP (fixed)
+IAS 7 today (choice)
+IAS 7 with IFRS 18 (from 2027)
+Interest paid
+Operating
+Operating or financing
+Follows the category of the expense; often financing
+Interest received
+Operating
+Operating or investing
+Often investing
+Dividends received
+Operating
+Operating or investing
+Often investing
+Dividends paid
+Financing
+Operating or financing
+Financing
+Income taxes paid
+Operating
+Operating, unless tied to investing or financing
+Operating, unless tied to investing or financing
+Indirect method starts from
+Net income
+Profit or loss
+Operating profit or loss
+Some investing and financing transactions involve no cash at all, such as buying land by issuing shares or a note. These noncash investing and financing activities are not shown in the body of the statement. They are disclosed separately. Orontes had none in 2025.
+● IFRS CONTRAST   IAS 7 choices, and IFRS 18
+Under IAS 7 today, interest paid can be operating or financing, and interest and dividends received can be operating or investing. The amendments that come with IFRS 18 remove some choices from 2027, but they are not testable before about January 2028.
+YOUR TURN   Which activity?
+Figure F05-05 lists six transactions. The first two are done. Classify the other four under U.S. GAAP. Answers are at the end of the chapter.
+Figure F05-05. Which activity? (complete the blanks)
+Transaction (U.S. GAAP)
+Activity
+Cash paid to buy a delivery truck
+Investing
+Cash dividends paid to shareholders
+Financing
+Interest paid on a bank loan
+________
+Cash received from selling Jordan Glass shares
+________
+Land acquired by issuing a long-term note (no cash)
+________
+Cash paid to buy back the company's own shares
+________
+EXAM TRAP   Classification traps
+Interest paid is operating, not financing, under U.S. GAAP.
+Dividends paid are financing; dividends received are operating.
+A note issued for land is not a cash flow: disclose it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+noncash investing and financing activities
+الأنشطة الاستثمارية والتمويلية غير النقدية
+opérations d'investissement et de financement sans effet de trésorerie
+English (exam term)
+العربية
+Français
+noncash investing and financing activities
+الأنشطة الاستثمارية والتمويلية غير النقدية
+opérations d'investissement et de financement sans effet de trésorerie
+SECTION CHECK   Test yourself
+SC5-3  Under U.S. GAAP, interest paid on a bank loan is classified as:
+A.	a financing activity
+B.	an operating activity
+C.	an investing activity
+D.	operating or financing, as the company chooses
+SC5-4  A company acquires a building by signing a $2 million mortgage note with the seller. No cash changes hands. How is this reported?
+A.	As a noncash investing and financing activity, disclosed separately
+B.	As an investing outflow and a financing inflow of $2 million
+C.	As an operating outflow
+D.	It is not reported anywhere
+Answers and explanations are at the end of the chapter.
+5.3  The indirect method
+Most U.S. companies use the indirect method for operating activities. It starts with net income and removes everything that is not an operating cash flow. First, add back noncash expenses and losses, such as depreciation, impairments and an increase in deferred tax liabilities.
+Second, remove gains and losses on investing and financing items; the cash from those sales belongs in investing. Also subtract equity-method income, which is not cash, and add the dividends received from the investee.
+Third, adjust for changes in current operating assets and liabilities from the balance sheet. When receivables rise, the company has recorded revenue it has not yet collected, so the increase is subtracted. Figure F05-06 gives the sign rules.
+Figure F05-06. Sign rules for the indirect method, with Orontes examples.
+WORKED EXAMPLE   Worked example: Orontes's operating cash flow
+Step 1. Start with net income: $2,969,100.
+Step 2. Add depreciation, impairments and deferred taxes, which used no cash: $4,924,000.
+Step 3. Subtract equity-method income of $177,000, add dividends from investees of $70,000, and subtract the oven gain of $3,000 and unrealized gains of $4,000.
+Step 4. Working-capital changes reduce cash by a net $248,000.
+Check. The total, $7,531,100, equals net cash from operating activities in Figure F05-02.
+EXAM TRAP   Indirect-method traps
+Start from net income, never from operating income.
+Dividends payable and notes payable are financing items. Do not include their changes in working capital.
+Show the full proceeds of a sale in investing, and remove the gain from operating.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+indirect method
+الطريقة غير المباشرة
+méthode indirecte
+English (exam term)
+العربية
+Français
+indirect method
+الطريقة غير المباشرة
+méthode indirecte
+SECTION CHECK   Test yourself
+SC5-5  Under the indirect method, how does Orontes treat the 384,000 increase in net accounts receivable?
+A.	Adds it to net income
+B.	Shows it in investing activities
+C.	Subtracts it from net income
+D.	Ignores it
+SC5-6  A company sells equipment with a carrying amount of $40,000 for $55,000. How is the sale shown under the indirect method?
+A.	Add $15,000 in operating; show $55,000 in investing
+B.	Subtract the $15,000 gain in operating; show $55,000 in investing
+C.	Show $15,000 in investing only
+D.	Show $55,000 in operating
+Answers and explanations are at the end of the chapter.
+5.4  The direct method and required disclosures
+The direct method shows the main classes of operating receipts and payments, such as cash from customers and cash paid to suppliers. The FASB encourages it, but few companies use it. A company that uses it must still show the reconciliation of net income to operating cash flow.
+Figure F05-07 shows Orontes's operating cash flow by the direct method. Cash from customers is sales adjusted for the change in receivables and customer deposits. Both methods give the same total, $7,531,100; only the presentation differs.
+Figure F05-07. Orontes Foods Inc. — operating activities by the direct method, 2025
+Orontes, 2025, direct method (whole USD)
+2025
+Cash received from customers
+41,598,000
+Cash paid to suppliers and employees
+(32,911,000)
+Interest and dividends received
+73,800
+Interest paid
+(390,000)
+Income taxes paid
+(839,700)
+Net cash provided by operating activities
+7,531,100
+A company using the indirect method must disclose interest paid and income taxes paid. Orontes paid $390,000 of interest and $839,700 of income taxes. Taxes paid are the current tax expense of $889,700 less the $50,000 increase in taxes payable.
+LANGUAGE FOCUS   Reading a cash flow line
+provided by and used in: net inflow and net outflow of a section.
+proceeds from: cash received on a sale or borrowing.
+purchases of and payments for: cash paid.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct method
+الطريقة المباشرة
+méthode directe
+English (exam term)
+العربية
+Français
+direct method
+الطريقة المباشرة
+méthode directe
+SECTION CHECK   Test yourself
+SC5-7  A company's sales were $500,000, all on credit. Accounts receivable increased by $40,000. How much cash was received from customers?
+A.	$40,000
+B.	$460,000
+C.	$500,000
+D.	$540,000
+SC5-8  A company uses the indirect method. Which amounts must it disclose?
+A.	Interest paid and income taxes paid
+B.	Cash received from customers
+C.	Cash paid to suppliers
+D.	Gross profit in cash terms
+Answers and explanations are at the end of the chapter.
+5.5  Limitations and links between the four statements
+Cash flows are harder to manage than profits, but not impossible. A company can raise operating cash near year-end by delaying payments to suppliers or by selling receivables. The statement also shows only one year, and it is not a measure of profit.
+Important noncash deals, such as buying a building with a mortgage, appear only in the notes. Some classifications are also arbitrary: interest paid is operating under U.S. GAAP but may be financing under IFRS, which makes companies harder to compare.
+Finally, one year of cash flows can mislead. A company that stops investing will show strong cash flow for a while, even if its future is weak.
+Figure F05-08 shows how Orontes's four statements fit together. Net income starts the statement of cash flows and increases retained earnings. Changes in balance sheet accounts drive the working-capital adjustments. Closing cash equals the cash on the balance sheet.
+Figure F05-08. How Orontes's four 2025 statements fit together.
+The links also help you find amounts that are not given. Orontes declared dividends of $450,000, but dividends payable rose by $400,000, so dividends paid were only $50,000. That is the amount in the financing section.
+WATCH: NOT YET TESTABLE   Proposals and future changes
+In August 2026 the FASB proposed new disclosures about the parts of cash equivalents and about some digital assets. It is only a proposal; the definition of cash equivalents does not change. ASU 2023-09 already requires income taxes paid by jurisdiction; know this at awareness level.
+FALSE-FRIEND ALERT   Tableau de financement
+French tableau de financement is an older funds statement based on working capital, not a statement of cash flows. The IFRS term is tableau des flux de trésorerie. Arabic قائمة التدفقات النقدية is the correct term for this statement.
+SECTION CHECK   Test yourself
+SC5-9  How can a company increase its operating cash flow at year-end without improving its business?
+A.	By recording more depreciation
+B.	By issuing new shares
+C.	By revaluing its land
+D.	By delaying payments to suppliers until January
+SC5-10  Which amount on the statement of cash flows must equal an amount on the balance sheet?
+A.	Cash at the end of the period
+B.	Net cash from operating activities
+C.	Net income
+D.	Dividends paid
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F05-09 brings the chapter together.
+Figure F05-09. Chapter 5 summary map: the key rule for each section.
+The statement of cash flows explains the change in cash, cash equivalents and restricted cash in three activities. Under U.S. GAAP, interest, dividends received and income taxes are operating, and dividends paid are financing; noncash investing and financing deals are disclosed, not shown in the body. The indirect method starts with net income, adds noncash expenses, removes gains and equity-method income, and adjusts for working capital. The direct method shows receipts and payments but still requires the reconciliation, and indirect-method users disclose interest and taxes paid. Closing cash equals balance sheet cash, and all four statements come from one set of records. Part I is now complete.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P5-01  A lender wants to know whether a company's operations produce enough cash to repay a loan. Which section is MOST useful?
+A.	Investing activities
+B.	Financing activities
+C.	Operating activities
+D.	Noncash disclosures
+P5-02  Use Figures F05-02 and F05-03. What is the MAIN reason Orontes's operating cash flow is higher than its net income?
+A.	Orontes collected more than it sold
+B.	Depreciation and impairments reduced net income but used no cash
+C.	The bank note increased operating cash
+D.	Dividends paid were added back
+P5-03  A growing company shows positive operating cash flow, negative investing cash flow and positive financing cash flow. The MOST likely explanation is that it:
+A.	is selling its assets to repay debt
+B.	earns cash from operations and is also borrowing or issuing shares to invest in new assets
+C.	is in financial trouble and cannot pay its suppliers
+D.	is paying large dividends from asset sales
+P5-04  Which question can the statement of cash flows answer that the balance sheet alone cannot?
+A.	What were total assets at year-end?
+B.	What is the par value of the shares?
+C.	How did the company pay for its new equipment this year?
+D.	What is the allowance for credit losses?
+P5-05  Under U.S. GAAP, cash dividends paid to shareholders are:
+A.	an operating activity
+B.	an investing activity
+C.	a noncash activity
+D.	a financing activity
+P5-06  Orontes received dividends of $70,000 from its equity-method investees. Under U.S. GAAP, using the cumulative-earnings approach, they are:
+A.	operating inflows
+B.	investing inflows
+C.	financing inflows
+D.	not cash flows
+P5-07  A company moves $500,000 from its operating bank account into a restricted account set aside to repay a bond. How is this shown in the statement of cash flows?
+A.	As an investing outflow
+B.	It is not a cash flow, because restricted cash is included in the total
+C.	As a financing outflow
+D.	As an operating outflow
+P5-08  An IFRS company reports interest paid in financing activities. How would the same payment be classified under U.S. GAAP?
+A.	Operating
+B.	Financing
+C.	Investing
+D.	Either operating or financing
+P5-09  Which item appears in the investing section of a U.S. statement of cash flows?
+A.	Cash paid to buy back the company's own shares
+B.	Interest received on a loan to a customer
+C.	Cash received from issuing bonds
+D.	Cash paid to buy shares of another company, held as an available-for-sale investment
+P5-10  Use Figure F05-02. What is Orontes's net cash provided by operating activities for 2025 (whole USD)?
+A.	4,807,100
+B.	7,531,100
+C.	7,708,100
+D.	8,299,100
+P5-11  A company reports net income of $200,000, depreciation of $50,000 and a gain on sale of equipment of $10,000. Accounts receivable rose by $30,000 and accounts payable fell by $5,000. What is net cash from operating activities?
+A.	$205,000
+B.	$215,000
+C.	$225,000
+D.	$265,000
+P5-12  How is an increase in a deferred tax liability treated under the indirect method?
+A.	It is added to net income
+B.	It is subtracted from net income
+C.	It is a financing inflow
+D.	It is ignored
+P5-13  Orontes's dividends payable rose by $400,000 in 2025. How does this affect net cash from operating activities?
+A.	It is added as an increase in a liability
+B.	It has no effect, because dividends are a financing item
+C.	It is subtracted
+D.	It is added to investing
+P5-14  Under U.S. GAAP, the indirect method begins with:
+A.	operating income
+B.	income before income taxes
+C.	net income
+D.	comprehensive income
+P5-15  Orontes's current income tax expense was $889,700, and income taxes payable rose by $50,000. How much income tax did Orontes pay in 2025 (whole USD)?
+A.	839,700
+B.	889,700
+C.	939,700
+D.	989,700
+P5-16  A company reports a loss of $12,000 on the sale of a delivery van, for which it received $30,000. How is this shown?
+A.	Add $12,000 in operating; show $30,000 in investing
+B.	Subtract $12,000 in operating; show $30,000 in investing
+C.	Show $42,000 in investing
+D.	Show $18,000 in investing
+P5-17  Which is a limitation of the statement of cash flows?
+A.	It is prepared on the accrual basis
+B.	Important noncash investing and financing deals appear only in the notes
+C.	It ignores cash paid for interest
+D.	It shows only noncash items
+P5-18  Why is operating cash flow not a good measure of profitability?
+A.	It includes too many estimates
+B.	It is measured at fair value
+C.	It excludes cash from customers
+D.	It ignores accruals, so it can be high in a year with poor profits, or low in a good year
+P5-19  Two companies make the same interest payments. One reports under U.S. GAAP, the other under IFRS and classifies interest as financing. Which limitation does this show?
+A.	Classification differences reduce comparability
+B.	Cash flows depend on estimates
+C.	Noncash items are omitted
+D.	The statement uses historical cost
+P5-20  A company stops replacing its old machines. What is the likely short-term effect on its statement of cash flows?
+A.	Operating cash flow falls immediately
+B.	Financing inflows rise
+C.	Investing outflows fall, so total cash looks strong even though the future may be weaker
+D.	Nothing changes
+P5-21  Orontes declared dividends of $450,000 in 2025, and dividends payable rose by $400,000. What are dividends paid in the financing section (whole USD)?
+A.	50,000
+B.	400,000
+C.	450,000
+D.	850,000
+P5-22  Orontes's net accounts receivable rose by $384,000 on its balance sheet. Where does this change appear?
+A.	As an investing outflow
+B.	In the statement of changes in equity
+C.	Nowhere; balance sheet changes are not used
+D.	As a deduction in operating activities (indirect method)
+P5-23  Use Figure F05-08. Which link shows that the four Orontes statements are consistent?
+A.	Net income equals cash from operating activities
+B.	Total equity equals total assets
+C.	Dividends declared equal dividends paid
+D.	Closing cash in the statement of cash flows equals cash on the balance sheet
+P5-24  A company using the direct method must also:
+A.	present a reconciliation of net income to operating cash flow
+B.	stop disclosing noncash activities
+C.	classify interest paid as financing
+D.	present an income statement by nature
+Case-style practice: Barada Wholesale's cash flows in 2026
+Use Figure F05-10 for items C5-1 to C5-6. The data come from the Barada cases in Chapters 2, 3 and 4. Amounts are in USD 000 for the year ended December 31, 2026.
+Figure F05-10. Case exhibit: Barada Wholesale, 2026 cash-flow data (USD 000)
+Barada Wholesale (USD 000)
+Amount, or balance at Dec 31, 2025
+Balance at Dec 31, 2026
+Income statement items, 2026
+Net income
+165
+Depreciation expense
+300
+Gain on sale of equipment
+20
+Loss on sale of the catering-supply division
+40
+Balances
+Accounts receivable, net
+280
+310
+Inventory
+420
+390
+Prepaid rent
+24
+26
+Accounts payable
+380
+410
+Income taxes payable
+0
+30
+Cash
+1,050
+?
+Other 2026 cash information
+Proceeds from sale of equipment
+70
+Proceeds from sale of the division
+150
+Purchases of equipment
+200
+Note installment repaid (Chapter 2, M1)
+300
+Dividend paid (declared in 2025)
+50
+Treasury stock bought (Chapter 4, E1)
+480
+Treasury stock reissued (E2 and E3)
+200
+Cash dividend declared December 15, 2026, payable January 2027
+121
+C5-1  Classify each 2026 cash flow. (On the exam screen you would drag each item into a box.)
+Categories: Operating · Investing · Financing
+Cash flow
+Category
+Lawsuit settlement paid
+Proceeds from sale of the division
+Treasury stock bought
+Interest paid
+Dividend paid
+C5-2  Enter Barada's net cash provided by operating activities for 2026 (indirect method).
+Answer: ____________
+C5-3  Enter Barada's net cash from investing activities for 2026.
+Answer: ____________
+C5-4  Enter Barada's net cash used in financing activities for 2026 (as a positive number).
+Answer: ____________
+C5-5  Enter Barada's cash at December 31, 2026.
+Answer: ____________
+C5-6  Where does Barada show the 2026 dividend declared on December 15 and payable in January 2027? [select]
+Options: nowhere in the 2026 statement of cash flows   |   as a financing outflow in 2026   |   as an operating outflow in 2026   |   as a noncash financing activity in the body
+Written task
+W5  In four to six sentences, explain to Barada's owners why cash fell in 2026 even though net income was positive. Use these words: operating activities, noncash, financing activities, treasury stock, dividends paid.
+Answers and explanations
+Section checks
+SC5-1  Answer C. Accrual profit and cash can differ greatly.
+A is wrong. The income statement reports revenue.
+B is wrong. No statement shows the market value of the company.
+D is wrong. Cash flows are actual receipts and payments.
+SC5-2  Answer D. The test uses original maturity to the holder, not remaining maturity.
+A is wrong. Remaining maturity at year-end is not the test.
+B is wrong. Maturity decides, not the type of security.
+C is wrong. Short-term government bills can qualify.
+SC5-3  Answer B. U.S. GAAP fixes interest paid in operating activities.
+A is wrong. This is an IAS 7 option, not U.S. GAAP.
+C is wrong. Interest paid is never investing.
+D is wrong. U.S. GAAP gives no choice.
+SC5-4  Answer A. Noncash investing and financing deals are disclosed, not shown in the body.
+B is wrong. No cash moved, so no cash flows are shown.
+C is wrong. Buying a building is not operating.
+D is wrong. It must be disclosed.
+SC5-5  Answer C. Revenue was recorded but not yet collected.
+A is wrong. An increase in an operating asset is subtracted.
+B is wrong. Trade receivables are operating.
+D is wrong. Working-capital changes must be adjusted.
+SC5-6  Answer B. The gain is removed from operating; the full proceeds are investing.
+A is wrong. A gain is subtracted, not added.
+C is wrong. Investing shows the full proceeds, not the gain.
+D is wrong. Selling equipment is an investing activity.
+SC5-7  Answer B. Part of the sales has not yet been collected.
+A is wrong. This is only the change in receivables.
+C is wrong. Sales are not all collected in cash.
+D is wrong. An increase in receivables is subtracted.
+SC5-8  Answer A. These are required supplemental disclosures under the indirect method.
+B is wrong. This is part of the direct method, not a required disclosure.
+C is wrong. This is part of the direct method.
+D is wrong. No such disclosure exists.
+SC5-9  Answer D. Timing of payments shifts operating cash between years.
+A is wrong. Depreciation is noncash; it does not change cash flow.
+B is wrong. Share issues are financing inflows.
+C is wrong. Revaluation is noncash and not allowed under U.S. GAAP.
+SC5-10  Answer A. Closing cash (with cash equivalents and restricted cash) equals the balance sheet amount.
+B is wrong. Operating cash flow is not a balance sheet item.
+C is wrong. Net income links to retained earnings.
+D is wrong. Dividends paid are a flow, not a balance.
+Your turn
+Item
+Answer
+Interest paid on a bank loan
+Operating (U.S. GAAP gives no choice).
+Selling Jordan Glass shares
+Investing: another company's securities.
+Land for a long-term note
+Noncash investing and financing activity: disclosed, not in the body.
+Buying back own shares
+Financing: a transaction with owners.
+Multiple-choice questions
+P5-01  Answer C. Operating cash flow is the ongoing source of repayment.
+A is wrong. Investing flows come from buying and selling long-term assets.
+B is wrong. Financing shows the loans themselves, not the ability to repay.
+D is wrong. Noncash deals involve no cash.
+P5-02  Answer B. Noncash expenses of $4,924,000 explain most of the difference.
+A is wrong. Receivables rose, which reduced operating cash.
+C is wrong. Borrowing is a financing inflow.
+D is wrong. Dividends paid are financing, not an adjustment.
+P5-03  Answer B. Investment outflows are funded by operations and new financing.
+A is wrong. Selling assets would give positive investing cash flow.
+C is wrong. Positive operating cash flow does not suggest this.
+D is wrong. Asset sales would make investing positive.
+P5-04  Answer C. The cash flow statement shows the sources and uses of cash during the year.
+A is wrong. The balance sheet shows total assets.
+B is wrong. Par value is shown in equity.
+D is wrong. The allowance is on the balance sheet.
+P5-05  Answer D. Distributions to owners are financing.
+A is wrong. This is an IAS 7 option, not U.S. GAAP.
+B is wrong. Dividends paid are not investing.
+C is wrong. Cash dividends involve cash.
+P5-06  Answer A. Dividends received up to cumulative equity earnings are operating.
+B is wrong. This is an IAS 7 option; U.S. GAAP puts them in operating.
+C is wrong. Dividends received are never financing.
+D is wrong. The dividends were received in cash.
+P5-07  Answer B. Transfers between cash and restricted cash are not cash flows.
+A is wrong. The statement explains cash and restricted cash together.
+C is wrong. No bond has been repaid yet.
+D is wrong. Nothing left the combined cash total.
+P5-08  Answer A. U.S. GAAP fixes interest paid in operating.
+B is wrong. Financing is an IAS 7 option only.
+C is wrong. Interest paid is never investing.
+D is wrong. There is no choice under U.S. GAAP.
+P5-09  Answer D. Buying other companies' securities (not trading) is investing.
+A is wrong. Buying back own shares is financing.
+B is wrong. Interest received is operating.
+C is wrong. Issuing bonds is financing.
+P5-10  Answer B. Net income adjusted for noncash items, gains, equity-method items and working capital.
+A is wrong. This forgets to add back the impairment losses.
+C is wrong. This leaves equity-method income in operating cash flow.
+D is wrong. This adds the increase in receivables.
+P5-11  Answer A. 200,000 + 50,000 − 10,000 − 30,000 − 5,000.
+B is wrong. This adds the decrease in payables.
+C is wrong. This adds the gain instead of subtracting it.
+D is wrong. This adds the increase in receivables.
+P5-12  Answer A. Deferred tax expense reduced net income but was not paid in cash.
+B is wrong. Noncash expenses are added back.
+C is wrong. Deferred taxes are not financing.
+D is wrong. The noncash expense must be removed.
+P5-13  Answer B. Only operating working capital is adjusted in operating activities.
+A is wrong. Dividends payable is not an operating liability.
+C is wrong. It does not belong in operating at all.
+D is wrong. Dividends are not investing.
+P5-14  Answer C. The reconciliation starts from net income.
+A is wrong. Starting from operating profit is the amended IAS 7 approach.
+B is wrong. Taxes must be included, so start after tax.
+D is wrong. OCI is not part of the reconciliation.
+P5-15  Answer A. Part of the current tax was still unpaid at year-end.
+B is wrong. This ignores the unpaid amount.
+C is wrong. An increase in taxes payable means less was paid.
+D is wrong. This includes deferred tax, which is not paid.
+P5-16  Answer A. Add back the noncash loss; show the actual proceeds in investing.
+B is wrong. A loss is added back, not subtracted.
+C is wrong. Investing shows the cash received.
+D is wrong. The loss is not deducted from the proceeds.
+P5-17  Answer B. A building bought with a mortgage never appears in the body.
+A is wrong. It is a cash-basis statement.
+C is wrong. Interest paid is included in operating.
+D is wrong. It shows cash flows.
+P5-18  Answer D. Profitability is measured on the accrual basis.
+A is wrong. Cash flows involve few estimates.
+B is wrong. Cash flows are not fair values.
+C is wrong. Cash from customers is the main operating inflow.
+P5-19  Answer A. The same payment can land in different sections.
+B is wrong. No estimate is involved.
+C is wrong. Interest paid is a cash flow.
+D is wrong. Measurement basis is not the issue here.
+P5-20  Answer C. One year of cash flows can hide underinvestment.
+A is wrong. Operations are not directly affected at first.
+B is wrong. No financing is involved.
+D is wrong. Capital spending is an investing outflow.
+P5-21  Answer A. Declared minus the increase in the unpaid amount.
+B is wrong. This is only the unpaid part.
+C is wrong. This uses dividends declared, not paid.
+D is wrong. An increase in the payable means less was paid.
+P5-22  Answer D. Balance sheet changes in operating items drive the indirect method.
+A is wrong. Trade receivables are operating.
+B is wrong. Receivables are not an equity account.
+C is wrong. The indirect method uses these changes.
+P5-23  Answer D. The cash link is one of the articulation checks.
+A is wrong. Net income and operating cash flow differ.
+B is wrong. Equity equals assets minus liabilities.
+C is wrong. Declared and paid differ by the change in dividends payable.
+P5-24  Answer A. The reconciliation is still required.
+B is wrong. Noncash disclosures are always required.
+C is wrong. Interest paid stays operating.
+D is wrong. The method does not change the income statement.
+Case-style set: Barada Wholesale's cash flows in 2026
+C5-1
+Cash flow
+Category
+Lawsuit settlement paid
+Operating
+Proceeds from sale of the division
+Investing
+Treasury stock bought
+Financing
+Interest paid
+Operating
+Dividend paid
+Financing
+Interest and settlements of lawsuits are operating. Dividends paid and treasury trades are financing.
+C5-2  Answer: 543.
+563 is wrong: this answer does not subtract the gain on sale of equipment.
+603 is wrong: this answer adds the increase in receivables.
+503 is wrong: this answer does not add back the loss on the division sale.
+493 is wrong: this answer deducts the dividend paid in operating activities.
+C5-3  Answer: 20.
+(30) is wrong: this answer shows the gain instead of the full proceeds from the equipment.
+C5-4  Answer: 630.
+701 is wrong: this answer uses the dividend declared in 2026 instead of the dividend paid.
+330 is wrong: this answer leaves out the note installment.
+C5-5  Answer: 983.
+912 is wrong: this answer uses the dividend declared instead of the dividend paid.
+1,003 is wrong: this answer leaves the equipment gain in operating cash flow.
+C5-6  Answer: nowhere in the 2026 statement of cash flows.
+as a financing outflow in 2026 is wrong: this answer no cash was paid in 2026.
+as an operating outflow in 2026 is wrong: this answer dividends are never operating under U.S. GAAP.
+as a noncash financing activity in the body is wrong: this answer noncash items are never in the body.
+Written task: model answer
+Barada's operating activities provided 543, more than net income of 165, because depreciation and the loss on the division sale were noncash. Investing activities provided 20, because the proceeds from the equipment and the division were larger than new purchases. However, financing activities used 630. Barada repaid the 300 note installment, paid dividends of 50, and spent more on treasury stock than it received from reissuing it. As a result, cash fell from 1,050 to 983.
+A good answer: compares operating cash flow with net income; names the noncash adjustments; explains the investing inflow; explains the financing outflow, including treasury stock and dividends paid; states the opening and closing cash.
+PART II
+Recognition and measurement of assets
+Chapters 6 to 10
+PART II — RECOGNITION AND MEASUREMENT OF ASSETS

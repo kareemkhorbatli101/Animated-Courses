@@ -1,0 +1,810 @@
+Chapter 4
+Equity and the Statement of Changes in Equity
+حقوق الملكية وقائمة التغيرات في حقوق الملكية
+Chapters 2 and 3 showed where Orontes stands and how it performed. This chapter looks at the owners' part of the balance sheet. It explains how equity grows when owners invest and when the company earns profits, and how it falls when the company pays dividends or buys back its shares.
+Figure F04-01 shows the two main parts of equity and the plan of the chapter.
+Figure F04-01. Chapter 4 roadmap: contributed capital and earned capital.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.b
+Explain the purpose of the statement of changes in equity.
+B
+Full treatment (equity)
+A.1.c
+Identify the components of stockholders' equity and how each is presented.
+B
+Full treatment (equity)
+A.2.v
+Identify transactions that affect paid-in capital and those that affect retained earnings, including treasury stock.
+B
+Full treatment
+A.2.w
+Determine the effects of cash, property and stock dividends and of stock splits.
+B
+Full treatment
+A.1.g
+Prepare a statement of changes in equity.
+B
+Introduced (full in Chapter 5)
+A.1.d
+Identify the limitations of reported equity.
+A
+Full treatment (equity)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+statement of changes in equity
+قائمة التغيرات في حقوق الملكية
+tableau de variation des capitaux propres
+contributed capital
+رأس المال المساهم به (المدفوع)
+capital apporté
+outstanding shares
+الأسهم القائمة (المتداولة)
+actions en circulation
+treasury stock
+أسهم الخزينة
+actions propres (autodétenues)
+stock dividend
+توزيعات أسهم (أسهم منحة)
+dividende en actions
+stock split
+تجزئة الأسهم
+division d'actions
+appropriated retained earnings
+أرباح مبقاة مخصصة
+résultats non distribués affectés
+prior-period adjustment
+تسوية سنوات سابقة
+ajustement d'exercices antérieurs
+WHAT YOU ALREADY KNOW   What you already know
+Under IFRS you may have learned different names for the parts of equity, such as share capital and share premium. U.S. GAAP says common stock, additional paid-in capital, retained earnings and accumulated other comprehensive income. The False Friend box in Section 4.4 compares the words.
+4.1  Components of equity and the statement of changes in equity
+The statement of changes in equity explains why each part of equity changed during the period. It separates two kinds of change. Transactions with owners, such as issuing shares and paying dividends, are one kind. Comprehensive income, which the company earns, is the other.
+Equity has two main parts. Contributed capital is what owners have paid in: common stock and preferred stock at par or stated value, plus additional paid-in capital. Earned capital is retained earnings and AOCI. Treasury stock is deducted from the total. A noncontrolling interest, if any, is shown separately within equity (Chapter 16).
+Figure F04-02 is Orontes's statement of changes in equity for 2025. On January 2 Orontes issued 100,000 shares for $1,500,000: $100,000 to common stock at par and $1,400,000 to APIC. Net income increased retained earnings, dividends reduced them, and the OCI loss went to AOCI.
+Figure F04-02. Orontes Foods Inc. — statement of changes in equity, 2025
+Orontes Foods Inc., 2025 (whole USD)
+Shares
+Common stock
+APIC
+Retained earnings
+AOCI
+Total equity
+Balance, January 1, 2025
+8,000,000
+8,000,000
+4,000,000
+4,375,000
+—
+16,375,000
+Issuance of common stock
+100,000
+100,000
+1,400,000
+1,500,000
+Net income
+2,969,100
+2,969,100
+Other comprehensive income
+(1,125)
+(1,125)
+Cash dividends declared
+(450,000)
+(450,000)
+Balance, December 31, 2025
+8,100,000
+8,100,000
+5,400,000
+6,894,100
+(1,125)
+20,392,975
+Each column is one equity account, and each row is one type of change. The last row equals the equity section of the balance sheet in Chapter 2. Total equity rose by $4,017,975. Figure F04-03 shows that most of the growth came from retained earnings.
+Figure F04-03. Orontes's equity at the end of 2024 and 2025, by component.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+contributed capital
+رأس المال المساهم به (المدفوع)
+capital apporté
+preferred stock
+الأسهم الممتازة
+actions privilégiées
+English (exam term)
+العربية
+Français
+contributed capital
+رأس المال المساهم به (المدفوع)
+capital apporté
+preferred stock
+الأسهم الممتازة
+actions privilégiées
+SECTION CHECK   Test yourself
+SC4-1  What is the main purpose of the statement of changes in equity?
+A.	To show the market value of the company's shares
+B.	To show cash received from owners only
+C.	To explain why each part of equity changed during the period
+D.	To report revenues and expenses
+SC4-2  Use Figure F04-02. What is Orontes's total stockholders' equity at December 31, 2025 (whole USD)?
+A.	20,392,975
+B.	20,394,100
+C.	20,792,975
+D.	20,842,975
+Answers and explanations are at the end of the chapter.
+4.2  Issuing and buying back shares
+When a company issues shares for cash, it credits common stock with the par value and APIC with the rest. If the shares have no par and no stated value, the whole amount goes to common stock. Direct costs of issuing shares, such as underwriting fees, reduce APIC; they are not expenses.
+Shares issued for a noncash asset, such as land, are recorded at the fair value of the shares or of the asset, whichever is more reliable. Preferred stock is recorded in the same way, in its own account.
+A company may buy back its own shares and hold them as treasury stock. Under the cost method, treasury stock is recorded at the price paid and deducted from equity. Shares held as treasury stock are issued shares but not outstanding shares: they receive no dividends and have no votes.
+A company never records a gain or loss on its own shares in net income. Figure F04-04 shows what happens when treasury stock is reissued above or below cost, or retired.
+Figure F04-04. Treasury stock under the cost method: buy back, reissue or retire.
+WORKED EXAMPLE   Worked example: treasury stock under the cost method
+Step 1. Suppose Orontes buys back 50,000 shares at $16 in 2026. Treasury stock is debited at cost: $800,000.
+Step 2. It reissues 20,000 shares at $18. Cash is $360,000 and the cost removed is $320,000, so APIC–treasury stock is credited with $40,000.
+Step 3. It reissues 20,000 more at $13. The shortfall below cost is $60,000. APIC–treasury stock absorbs $40,000, and retained earnings absorb the remaining $20,000.
+Check. Figure F04-05 shows the entries. No gain or loss appears in net income.
+Figure F04-05. Suppose: Orontes's treasury stock entries in 2026 (cost method)
+Suppose: Orontes, 2026 (whole USD)
+Account
+Debit
+Credit
+1. Buy back 50,000 shares at $16
+Treasury stock
+800,000
+Cash
+800,000
+2. Reissue 20,000 shares at $18
+Cash
+360,000
+Treasury stock
+320,000
+APIC–treasury stock
+40,000
+3. Reissue 20,000 shares at $13
+Cash
+260,000
+APIC–treasury stock
+40,000
+Retained earnings
+20,000
+Treasury stock
+320,000
+If the company retires its treasury stock instead, it removes their par value from common stock and the related APIC. Any excess of cost over these amounts reduces retained earnings, or is split between APIC and retained earnings.
+WATCH: NOT YET TESTABLE   ASU 2025-12: a new retirement option
+ASU 2025-12 allows companies to charge the whole excess on a retirement to APIC, as long as APIC does not become negative. It applies to annual periods beginning after December 15, 2026, so it is not testable before about January 2028. Use the current rules on the exam.
+● IFRS CONTRAST   Treasury shares under IFRS
+IFRS also deducts treasury shares from equity and never shows a gain or loss in profit. It does not prescribe a cost or par-value method, so IFRS companies show the effect in reserves in different ways.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+issued shares
+الأسهم المصدرة
+actions émises
+outstanding shares
+الأسهم القائمة (المتداولة)
+actions en circulation
+treasury stock
+أسهم الخزينة
+actions propres (autodétenues)
+cost method
+طريقة التكلفة
+méthode du coût
+English (exam term)
+العربية
+Français
+issued shares
+الأسهم المصدرة
+actions émises
+outstanding shares
+الأسهم القائمة (المتداولة)
+actions en circulation
+treasury stock
+أسهم الخزينة
+actions propres (autodétenues)
+cost method
+طريقة التكلفة
+méthode du coût
+SECTION CHECK   Test yourself
+SC4-3  Orontes issues 100,000 shares of $1 par common stock for $1,500,000 in cash. What is credited to additional paid-in capital (whole USD)?
+A.	0
+B.	100,000
+C.	1,400,000
+D.	1,500,000
+SC4-4  Use the treasury stock example in Section 4.2. By how much does the second reissue reduce retained earnings (whole USD)?
+A.	0
+B.	20,000
+C.	40,000
+D.	60,000
+Answers and explanations are at the end of the chapter.
+4.3  Dividends, stock dividends and stock splits
+A cash dividend has three dates. On the declaration date the company debits retained earnings and credits dividends payable, a current liability. On the date of record no entry is made; it only decides who is paid. On the payment date the liability is paid. Orontes declared $400,000 in December 2025, so that amount is still payable at year-end.
+A property dividend is paid with a noncash asset. The company first remeasures the asset to fair value and records any gain or loss, then debits retained earnings at fair value. A scrip dividend creates a note payable. A liquidating dividend returns contributed capital, so it reduces APIC rather than retained earnings. Figure F04-06 compares the types.
+Figure F04-06. Types of dividends and their effects
+Type
+Measured at
+Retained earnings
+Total equity
+Cash dividend
+Amount declared
+Decreases
+Decreases (a liability arises)
+Property dividend
+Fair value of the asset (gain or loss on remeasurement first)
+Decreases
+Decreases
+Scrip dividend
+Face value of the note
+Decreases
+Decreases (a note payable arises)
+Liquidating dividend
+Amount beyond retained earnings
+No change for that part; APIC decreases
+Decreases
+Small stock dividend (below about 20–25%)
+Fair value of the shares
+Decreases
+No change
+Large stock dividend (above about 20–25%)
+Par value of the shares
+Decreases
+No change
+Stock split
+No entry; par per share falls
+No change
+No change
+A stock dividend gives shareholders more shares instead of cash. For a small stock dividend, below about 20% to 25% of the outstanding shares, the company moves the fair value of the new shares from retained earnings to common stock and APIC. For a large stock dividend, it moves only the par value.
+A stock split increases the number of shares and reduces the par value per share in proportion. No entry is made. Figure F04-07 shows all three for Orontes's 8,100,000 shares. Total equity never changes: only the labels inside equity move.
+Figure F04-07. Suppose: small and large stock dividends and a stock split for Orontes
+Suppose: Orontes, 8,100,000 shares
+4% stock dividend
+50% stock dividend
+2-for-1 split
+New shares issued
+324,000
+4,050,000
+8,100,000
+Measured at
+fair value $15
+par $1
+no entry
+Retained earnings
+(4,860,000)
+(4,050,000)
+no change
+Common stock
+324,000
+4,050,000
+no change
+Additional paid-in capital
+4,536,000
+no change
+no change
+Total stockholders' equity
+no change
+no change
+no change
+Par value per share afterward
+$1
+$1
+$0.50
+YOUR TURN   Effects on retained earnings and total equity
+Figure F04-08 lists six transactions. The first two are done. Complete the effects of the other four. Answers are at the end of the chapter.
+Figure F04-08. Effects on retained earnings and total equity (complete the blanks)
+Transaction
+Retained earnings
+Total equity
+Declare a cash dividend
+Decreases
+Decreases
+Declare and issue a small stock dividend
+Decreases
+No change
+Carry out a 2-for-1 stock split
+________
+________
+Buy treasury stock
+________
+________
+Reissue treasury stock above cost
+________
+________
+Correct a prior-year error that overstated expenses
+________
+________
+EXAM TRAP   Stock dividend traps
+Small stock dividend at fair value; large stock dividend at par. Do not reverse them.
+Use outstanding shares, not issued shares: treasury stock gets no dividend.
+A stock dividend distributable is equity, not a liability.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+declaration date
+تاريخ الإعلان
+date de déclaration
+date of record
+تاريخ التسجيل (الاستحقاق)
+date d'enregistrement
+property dividend
+توزيعات عينية
+dividende en nature
+stock dividend
+توزيعات أسهم (أسهم منحة)
+dividende en actions
+stock split
+تجزئة الأسهم
+division d'actions
+liquidating dividend
+توزيعات تصفية (إرجاع رأس مال)
+dividende de liquidation
+English (exam term)
+العربية
+Français
+declaration date
+تاريخ الإعلان
+date de déclaration
+date of record
+تاريخ التسجيل (الاستحقاق)
+date d'enregistrement
+property dividend
+توزيعات عينية
+dividende en nature
+stock dividend
+توزيعات أسهم (أسهم منحة)
+dividende en actions
+stock split
+تجزئة الأسهم
+division d'actions
+liquidating dividend
+توزيعات تصفية (إرجاع رأس مال)
+dividende de liquidation
+SECTION CHECK   Test yourself
+SC4-5  A company declares a 5% stock dividend. It is measured at:
+A.	the par value of the new shares
+B.	zero, because no assets leave the company
+C.	the fair value of the new shares
+D.	the book value per share
+SC4-6  Use Figure F04-07. By how much does the 4% stock dividend reduce Orontes's retained earnings (whole USD)?
+A.	0
+B.	324,000
+C.	4,536,000
+D.	4,860,000
+Answers and explanations are at the end of the chapter.
+4.4  Retained earnings
+Retained earnings are the profits a company has kept since it began, less the dividends it has declared. A board may set part of retained earnings aside, for example for a new plant. These appropriated retained earnings stay within equity; no costs are ever charged to them.
+If a company finds an error in earlier financial statements, it does not correct it through this year's net income. It makes a prior-period adjustment: it restates the earlier years and adjusts the opening balance of retained earnings, net of tax.
+Retained earnings may also be restricted by law or by loan covenants. Restrictions are disclosed in the notes. They do not change the balance.
+FALSE-FRIEND ALERT   Reserves, احتياطيات, réserves
+In IFRS and in MENA company law, reserves (احتياطيات, réserves) can mean a legal reserve, a revaluation surplus, a translation reserve or share premium. None of these is simply retained earnings. On a U.S. exam, separate APIC, retained earnings (appropriated or not) and AOCI. French report à nouveau is only the carried-forward part of retained earnings.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+appropriated retained earnings
+أرباح مبقاة مخصصة
+résultats non distribués affectés
+prior-period adjustment
+تسوية سنوات سابقة
+ajustement d'exercices antérieurs
+English (exam term)
+العربية
+Français
+appropriated retained earnings
+أرباح مبقاة مخصصة
+résultats non distribués affectés
+prior-period adjustment
+تسوية سنوات سابقة
+ajustement d'exercices antérieurs
+SECTION CHECK   Test yourself
+SC4-7  In 2026 a company finds that it overstated its 2024 depreciation expense. How does it correct the error?
+A.	It reports a gain in 2026 net income
+B.	It reduces 2026 depreciation expense
+C.	It records the correction in OCI
+D.	It restates prior years and increases opening retained earnings, net of tax
+SC4-8  An IFRS company reports a 'translation reserve'. Where would this amount appear in U.S. GAAP equity?
+A.	Retained earnings
+B.	Accumulated other comprehensive income
+C.	Additional paid-in capital
+D.	Appropriated retained earnings
+Answers and explanations are at the end of the chapter.
+4.5  Limitations and links to the other statements
+Total equity is a book value: assets minus liabilities, as measured by the accounting rules. It is not what the company is worth. Most assets are at historical cost, and internally built brands and know-how are not recorded.
+Treasury stock is shown at the price paid, not at today's share price. Legal capital rules also differ from state to state, so equity does not show exactly how much a company may legally distribute.
+Figure F04-09 rolls Orontes's retained earnings forward and compares its book value with a market value. At the January 2025 issue price, Orontes's shares would be worth about 6.0 times their book value.
+Figure F04-09. Orontes's 2025 retained earnings roll-forward, and book value versus market value.
+The statement of changes in equity takes net income and OCI from the statement of comprehensive income, and dividends and share issues from the company's owner transactions. Its closing balances are the equity section of the balance sheet. Chapter 5 shows how the cash parts of these transactions appear in the financing section.
+SECTION CHECK   Test yourself
+SC4-9  Why is Orontes's total equity much lower than the market value of its shares?
+A.	Equity is measured at fair value each year
+B.	Treasury stock is shown at market value
+C.	Equity includes only contributed capital
+D.	Most assets are at historical cost and internally built intangibles are not recorded
+SC4-10  Which amount links the income statement to the statement of changes in equity?
+A.	Net income
+B.	Cash from operations
+C.	Treasury stock
+D.	Dividends payable
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F04-10 brings the chapter together.
+Figure F04-10. Chapter 4 summary map: the key rule for each section.
+Equity is contributed capital plus earned capital, less treasury stock, and the statement of changes in equity explains every change. Issued shares credit par to common stock and the excess to APIC; issue costs reduce APIC. Treasury stock is recorded at cost and deducted from equity, and reissues never create gains or losses in net income. Cash, property and scrip dividends reduce retained earnings and total equity; small stock dividends move fair value, large ones move par, and splits need no entry. Prior-year errors adjust opening retained earnings, net of tax. Equity is a book value, not a market value.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P4-01  Which change in equity is a transaction with owners?
+A.	Earning net income
+B.	Recording an OCI loss on AFS debt securities
+C.	Declaring a cash dividend
+D.	Recording depreciation
+P4-02  An investor wants to know whether a company paid out more in dividends than it earned this year. Which statement shows both amounts together?
+A.	The balance sheet
+B.	The statement of changes in equity
+C.	The income statement
+D.	The notes on accounting policies
+P4-03  For which periods must an SEC registrant reconcile each equity caption?
+A.	Only for the latest year
+B.	For every period for which it presents an income statement
+C.	Only when equity changes by more than 10%
+D.	Only in interim reports
+P4-04  Which heading is correct for a statement of changes in equity?
+A.	As of December 31, 2025
+B.	At December 31, 2025
+C.	On December 31, 2025
+D.	For the year ended December 31, 2025
+P4-05  Where does treasury stock appear on a U.S. balance sheet?
+A.	As a current asset
+B.	As a long-term investment
+C.	As a deduction within stockholders' equity
+D.	As a liability
+P4-06  A company has issued 1,000,000 shares and holds 50,000 of them as treasury stock. How many shares are outstanding?
+A.	50,000
+B.	950,000
+C.	1,000,000
+D.	1,050,000
+P4-07  A company declares a stock dividend on December 20 and distributes the shares on January 10. How does it present the stock dividend distributable at December 31?
+A.	As a current liability
+B.	In stockholders' equity
+C.	As a long-term liability
+D.	In the notes only
+P4-08  Which item is part of contributed capital?
+A.	Retained earnings
+B.	Accumulated other comprehensive income
+C.	Appropriated retained earnings
+D.	Additional paid-in capital
+P4-09  In a statement of changes in equity, in which column does an OCI loss on AFS debt securities appear?
+A.	Retained earnings
+B.	Additional paid-in capital
+C.	Accumulated other comprehensive income
+D.	Treasury stock
+P4-10  A company's retained earnings were $800,000 on January 1. Net income was $250,000, cash dividends declared were $60,000, and a 5% stock dividend was measured at $90,000. What are retained earnings at December 31?
+A.	$900,000
+B.	$960,000
+C.	$990,000
+D.	$1,050,000
+P4-11  A company pays $50,000 of legal and underwriting costs to issue new common shares. How does it record the costs?
+A.	As an expense
+B.	As a reduction of additional paid-in capital
+C.	As an intangible asset
+D.	As a reduction of retained earnings
+P4-12  A company issues common shares in exchange for land. The shares are actively traded. The land is recorded at:
+A.	the par value of the shares
+B.	the seller's carrying amount of the land
+C.	the fair value of the shares
+D.	zero, because no cash was paid
+P4-13  A company reissues treasury shares for more than their cost. The excess is:
+A.	credited to APIC–treasury stock
+B.	reported as a gain in net income
+C.	credited to retained earnings
+D.	reported in OCI
+P4-14  What is the effect of buying treasury stock for cash?
+A.	Total equity does not change
+B.	Retained earnings decrease
+C.	Total assets increase
+D.	Total equity decreases; retained earnings do not change
+P4-15  A company declares a property dividend of land with a carrying amount of $60,000 and a fair value of $90,000. What is recorded?
+A.	Retained earnings are reduced by $60,000; no gain
+B.	A gain of $30,000, and retained earnings are reduced by $90,000
+C.	A gain of $90,000
+D.	Retained earnings are reduced by $30,000
+P4-16  What entry is made on the date of record for a cash dividend?
+A.	No entry
+B.	Debit retained earnings; credit dividends payable
+C.	Debit dividends payable; credit cash
+D.	Debit retained earnings; credit cash
+P4-17  Use Figure F04-07. By how much does the 50% stock dividend reduce Orontes's retained earnings (whole USD)?
+A.	0
+B.	4,050,000
+C.	4,860,000
+D.	60,750,000
+P4-18  A company with 500,000 shares of $2 par stock declares a 2-for-1 stock split. What happens?
+A.	Retained earnings decrease by $1,000,000
+B.	Common stock increases by $1,000,000
+C.	Total equity doubles
+D.	1,000,000 shares of $1 par; no entry and no change in any equity account
+P4-19  A company has issued 1,000,000 shares, of which 100,000 are held in treasury. It declares a 10% stock dividend. How many new shares does it issue?
+A.	10,000
+B.	90,000
+C.	100,000
+D.	110,000
+P4-20  Which transaction reduces total stockholders' equity?
+A.	Declaring and issuing a small stock dividend
+B.	Declaring a cash dividend
+C.	Carrying out a 3-for-1 stock split
+D.	Appropriating retained earnings for a new plant
+P4-21  Which is a limitation of the equity section of the balance sheet?
+A.	It includes all internally built intangibles
+B.	It shows the market value of the company
+C.	It is prepared on a cash basis
+D.	Treasury stock is shown at its cost, not at the current share price
+P4-22  Why may a company's retained earnings not show how much it can legally pay as dividends?
+A.	Legal capital rules and loan covenants can restrict distributions
+B.	Retained earnings include share premium
+C.	Retained earnings are measured at fair value
+D.	Dividends are paid from AOCI
+P4-23  Use Figure F04-09. What does the comparison of Orontes's book value with its market value show?
+A.	Orontes has made an accounting error
+B.	Orontes should revalue its equity
+C.	Treasury stock must be added to equity
+D.	The balance sheet does not measure what the company is worth
+P4-24  A company pays a dividend of $300,000, but its retained earnings are only $200,000. The extra $100,000 is:
+A.	an expense
+B.	a liquidating dividend that reduces APIC
+C.	a reduction of treasury stock
+D.	shown as negative OCI
+P4-25  A company retires treasury shares that cost more than their par value and original APIC. For the exam today, the excess is charged to:
+A.	retained earnings, or split between APIC and retained earnings
+B.	APIC only, as ASU 2025-12 requires
+C.	net income as a loss
+D.	OCI
+P4-26  Under IFRS, how is a stock dividend (bonus issue) of 10% measured?
+A.	Always at fair value
+B.	Always at par, like a U.S. large stock dividend
+C.	IFRS has no small/large rule; practice varies by local law
+D.	It is recorded as an expense
+Case-style practice: Barada Wholesale's equity in 2026
+Use Figure F04-11 for items C4-1 to C4-6. The opening balances are Barada's closing equity from the Chapter 2 case, and net income comes from the Chapter 3 case. Amounts are in USD 000 unless the exhibit says otherwise.
+Figure F04-11. Case exhibit: Barada Wholesale, equity at January 1, 2026 and 2026 events
+Balance / event (USD 000 unless stated)
+Amount / details
+Common stock, $1 par (600,000 shares issued and outstanding)
+600
+Additional paid-in capital
+1,900
+Retained earnings
+1,280
+Total stockholders' equity, January 1, 2026
+3,780
+E1
+March 5: Barada bought 80,000 of its own shares at $6 per share (cost method).
+E2
+June 10: Barada reissued 20,000 treasury shares at $8 per share.
+E3
+August 20: Barada reissued 10,000 treasury shares at $4 per share.
+E4
+October 1: Barada declared and issued a 10% stock dividend. The market price was $7 per share.
+E5
+December 15: Barada declared a cash dividend of $0.20 per outstanding share, payable in January 2027.
+E6
+Net income for 2026 was 165 (the Chapter 3 case).
+C4-1  Classify each account at the end of 2026. (On the exam screen you would drag each account into a box.)
+Categories: Contributed capital · Earned capital · Deduction from equity · Current liability
+Account
+Category
+APIC–treasury stock
+Retained earnings
+Treasury stock
+Dividends payable
+Common stock
+C4-2  Enter the balance of APIC–treasury stock at December 31, 2026.
+Answer: ____________
+C4-3  Enter the amount transferred out of retained earnings for the stock dividend (E4).
+Answer: ____________
+C4-4  Enter the cash dividend declared on December 15 (E5).
+Answer: ____________
+C4-5  Enter retained earnings at December 31, 2026.
+Answer: ____________
+C4-6  Enter total stockholders' equity at December 31, 2026.
+Answer: ____________
+Written task
+W4  In four to six sentences, explain to Barada's owners why the stock dividend did not change total equity but the cash dividend did, and why the treasury share trades created no gains or losses. Use these words: retained earnings, fair value, outstanding shares, treasury stock, liability.
+Answers and explanations
+Section checks
+SC4-1  Answer C. It reconciles the opening and closing balance of each equity account.
+A is wrong. Equity is a book amount, not a market value.
+B is wrong. It includes noncash changes such as net income and stock dividends.
+D is wrong. That is the income statement.
+SC4-2  Answer A. Opening equity plus the share issue, net income and OCI, minus dividends declared.
+B is wrong. This leaves out the OCI loss.
+C is wrong. This treats the unpaid December dividend as equity; declared dividends reduce equity.
+D is wrong. This leaves out the dividends declared.
+SC4-3  Answer C. Cash minus par value: $1,500,000 − $100,000.
+A is wrong. Shares sold above par create APIC.
+B is wrong. This is the par value, which goes to common stock.
+D is wrong. Only the excess over par goes to APIC.
+SC4-4  Answer B. The shortfall of $60,000 first uses APIC–treasury stock of $40,000.
+A is wrong. APIC–treasury stock is not large enough to absorb the whole shortfall.
+C is wrong. This is the APIC–treasury stock balance used, not the charge to retained earnings.
+D is wrong. APIC–treasury stock must be used before retained earnings.
+SC4-5  Answer C. A small stock dividend is measured at fair value.
+A is wrong. Par value is used for large stock dividends.
+B is wrong. No entry is made only for a stock split.
+D is wrong. Book value per share is not used.
+SC4-6  Answer D. 324,000 new shares × fair value of $15.
+A is wrong. A stock dividend is recorded; only a split needs no entry.
+B is wrong. This uses par, the rule for large stock dividends.
+C is wrong. This is only the part credited to APIC.
+SC4-7  Answer D. Error corrections are prior-period adjustments to opening retained earnings.
+A is wrong. Errors are not corrected through current net income.
+B is wrong. This would misstate 2026 as well.
+C is wrong. OCI is not used for error corrections.
+SC4-8  Answer B. Foreign-currency translation adjustments are OCI items.
+A is wrong. Not every reserve is retained earnings.
+C is wrong. APIC comes from owners, not from translation.
+D is wrong. Appropriations are set aside by the board from retained earnings.
+SC4-9  Answer D. Book value is not a valuation.
+A is wrong. Equity is not remeasured to fair value.
+B is wrong. Treasury stock is shown at cost.
+C is wrong. Equity also includes retained earnings and AOCI.
+SC4-10  Answer A. Net income increases retained earnings.
+B is wrong. Cash flows come from the statement of cash flows.
+C is wrong. Treasury stock comes from owner transactions.
+D is wrong. Dividends payable is a liability on the balance sheet.
+Your turn
+Item
+Answer
+2-for-1 stock split
+Retained earnings: no change. Total equity: no change (no entry is made).
+Buy treasury stock
+Retained earnings: no change. Total equity: decreases by the cost.
+Reissue treasury stock above cost
+Retained earnings: no change (the excess goes to APIC–treasury stock). Total equity: increases by the cash received.
+Correct an error that overstated expenses
+Retained earnings: opening balance increases, net of tax. Total equity: increases.
+Multiple-choice questions
+P4-01  Answer C. Dividends are distributions to owners.
+A is wrong. Net income is earned, not a transaction with owners.
+B is wrong. OCI is part of comprehensive income.
+D is wrong. Depreciation reduces net income; it is not an owner transaction.
+P4-02  Answer B. The retained earnings column shows net income and dividends side by side.
+A is wrong. The balance sheet shows only the closing balance.
+C is wrong. Dividends are not on the income statement.
+D is wrong. The policy note does not report these amounts.
+P4-03  Answer B. S-X 3-04 requires a reconciliation for each period with an income statement.
+A is wrong. Comparative periods are also reconciled.
+C is wrong. There is no size threshold.
+D is wrong. Annual statements also need the reconciliation.
+P4-04  Answer D. It explains changes over a period.
+A is wrong. 'As of' is used for the balance sheet.
+B is wrong. A single date describes a balance sheet.
+C is wrong. Changes happen over a period.
+P4-05  Answer C. Treasury stock is contra-equity.
+A is wrong. A company cannot own itself as an asset.
+B is wrong. Treasury stock is not an investment.
+D is wrong. Nothing is owed to anyone.
+P4-06  Answer B. Outstanding shares = issued shares − treasury shares.
+A is wrong. This is the number of treasury shares.
+C is wrong. This includes treasury shares.
+D is wrong. Treasury shares are subtracted, not added.
+P4-07  Answer B. No assets will be paid, so it is equity.
+A is wrong. Only a cash dividend creates a liability.
+C is wrong. Nothing is owed to anyone.
+D is wrong. The amount is recorded in equity.
+P4-08  Answer D. APIC comes from owners' payments.
+A is wrong. Retained earnings are earned capital.
+B is wrong. AOCI is earned capital.
+C is wrong. This is part of retained earnings.
+P4-09  Answer C. OCI goes to AOCI, not retained earnings.
+A is wrong. Only net income goes to retained earnings.
+B is wrong. APIC is for owner contributions.
+D is wrong. Treasury stock is for repurchased shares.
+P4-10  Answer A. Opening + net income − cash dividends − stock dividend.
+B is wrong. This leaves out the cash dividend.
+C is wrong. This leaves out the stock dividend.
+D is wrong. This leaves out both dividends.
+P4-11  Answer B. Direct equity issuance costs reduce the proceeds, so they reduce APIC.
+A is wrong. Equity issuance costs are not expensed.
+C is wrong. They are not an asset.
+D is wrong. They reduce contributed capital, not retained earnings.
+P4-12  Answer C. Use the more reliable fair value; a traded share price is reliable.
+A is wrong. Par value is only a legal amount.
+B is wrong. The seller's book value is not the exchange value.
+D is wrong. Noncash exchanges are recorded at fair value.
+P4-13  Answer A. Transactions in a company's own shares never create income.
+B is wrong. No gains are recorded on a company's own shares.
+C is wrong. Retained earnings are not credited for treasury transactions.
+D is wrong. OCI is not used for treasury stock.
+P4-14  Answer D. Cash falls and equity falls by the same amount through treasury stock.
+A is wrong. Treasury stock reduces equity.
+B is wrong. The purchase is recorded in treasury stock, not retained earnings.
+C is wrong. Cash falls; treasury stock is not an asset.
+P4-15  Answer B. Remeasure the land to fair value first, then distribute it at fair value.
+A is wrong. The asset must be remeasured to fair value.
+C is wrong. The gain is only the increase over carrying amount.
+D is wrong. The dividend is measured at the full fair value.
+P4-16  Answer A. The date of record only decides who will be paid.
+B is wrong. This is the declaration-date entry.
+C is wrong. This is the payment-date entry.
+D is wrong. The liability is recorded at declaration and paid later.
+P4-17  Answer B. A large stock dividend moves only par: 4,050,000 shares × $1.
+A is wrong. A large stock dividend is still recorded; only a split has no entry.
+C is wrong. This is the small stock dividend.
+D is wrong. Fair value is used only for small stock dividends.
+P4-18  Answer D. A split changes the number of shares and the par per share only.
+A is wrong. A split does not move retained earnings.
+B is wrong. Common stock stays the same in total.
+C is wrong. Total equity does not change.
+P4-19  Answer B. Stock dividends are based on outstanding shares.
+A is wrong. This applies the rate to the treasury shares only.
+C is wrong. This includes the treasury shares.
+D is wrong. This adds treasury shares instead of subtracting them.
+P4-20  Answer B. A cash dividend creates a liability, so equity falls.
+A is wrong. A stock dividend moves amounts within equity.
+C is wrong. A split changes only the number of shares.
+D is wrong. An appropriation stays within equity.
+P4-21  Answer D. Historical cost measures limit what equity tells users.
+A is wrong. Internally built intangibles are not recorded.
+B is wrong. Equity is a book amount.
+C is wrong. The statements use the accrual basis.
+P4-22  Answer A. Restrictions are disclosed, not deducted from the balance.
+B is wrong. Share premium is APIC, not retained earnings.
+C is wrong. Retained earnings are not a fair value.
+D is wrong. AOCI is not a source of dividends.
+P4-23  Answer D. Book value and market value differ for normal reasons.
+A is wrong. The difference is expected, not an error.
+B is wrong. U.S. GAAP does not revalue equity.
+C is wrong. Orontes has no treasury stock, and it would be deducted.
+P4-24  Answer B. Amounts beyond retained earnings return contributed capital.
+A is wrong. Dividends are never expenses.
+C is wrong. Treasury stock is not involved.
+D is wrong. OCI is not used for dividends.
+P4-25  Answer A. These are the current rules; ASU 2025-12 adds an optional APIC-only method from 2027.
+B is wrong. The APIC-only method is optional and not yet testable.
+C is wrong. Transactions in own shares do not affect net income.
+D is wrong. OCI is not used.
+P4-26  Answer C. The small/large distinction is U.S. GAAP only.
+A is wrong. IFRS does not require fair value for bonus issues.
+B is wrong. IFRS has no rule that fixes par.
+D is wrong. Distributions to owners are never expenses.
+Case-style set: Barada Wholesale's equity in 2026
+C4-1
+Account
+Category
+APIC–treasury stock
+Contributed capital
+Retained earnings
+Earned capital
+Treasury stock
+Deduction from equity
+Dividends payable
+Current liability
+Common stock
+Contributed capital
+Contributed capital includes APIC from treasury transactions. Only a cash dividend creates a liability.
+C4-2  Answer: 20.
+40 is wrong: this answer charges the August shortfall to retained earnings.
+60 is wrong: this answer adds the August shortfall instead of deducting it.
+0 is wrong: this answer records the June excess as a gain in net income.
+C4-3  Answer: 385.
+55 is wrong: this answer measures a small stock dividend at par.
+420 is wrong: this answer bases the dividend on issued shares, including treasury shares.
+C4-4  Answer: 121.
+110 is wrong: this answer ignores the new shares from the stock dividend.
+131 is wrong: this answer pays a dividend on treasury shares.
+C4-5  Answer: 939.
+1,269 is wrong: this answer measures the stock dividend at par.
+1,324 is wrong: this answer leaves out the stock dividend.
+919 is wrong: this answer charges the August shortfall to retained earnings.
+C4-6  Answer: 3,544.
+3,844 is wrong: this answer does not deduct treasury stock.
+3,159 is wrong: this answer treats the stock dividend as a reduction of total equity.
+Written task: model answer
+The 55,000-share stock dividend moved 385 from retained earnings to common stock and APIC at fair value, because it was a small stock dividend; no assets left Barada, so total equity did not change. The cash dividend of $0.20 per share on 605,000 outstanding shares created a liability of 121, so total equity fell. Treasury shares received no dividends because they are not outstanding. Buying and reissuing treasury stock are transactions with owners, so the excess and the shortfall went to APIC–treasury stock instead of net income. The 50,000 shares still held are deducted from equity at their cost of 300.
+A good answer: explains that the stock dividend moved retained earnings at fair value; states that total equity did not change for the stock dividend; links the cash dividend to a liability and lower equity; uses outstanding shares, excluding treasury stock; explains why treasury trades bypass net income.
+PART I — FOUNDATIONS AND THE FOUR FINANCIAL STATEMENTS

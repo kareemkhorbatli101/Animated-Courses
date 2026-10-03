@@ -1,0 +1,755 @@
+Chapter 3
+The Income Statement and Comprehensive Income
+قائمة الدخل والدخل الشامل
+Chapter 2 showed Orontes at one moment: December 31. The income statement tells the story of the year that led to that moment. It shows how much the company earned, what it cost to earn it, and what was left for the owners.
+Figure F03-01 shows the ladder of subtotals you will climb down in this chapter.
+Figure F03-01. Chapter 3 roadmap: the income statement as a ladder of subtotals.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.b
+Explain the purpose of the income statement and how users apply it.
+B
+Full treatment (income statement)
+A.1.c
+Identify the components of a multi-step income statement and compare it with the single-step form.
+B
+Full treatment (income statement)
+A.2.aa
+Define gains and losses and show where they are presented.
+B
+Introduced (full in Chapter 15)
+A.2.ee
+Identify a discontinued operation and present its results net of tax.
+B
+Introduced (full in Chapter 15)
+A.2.dd
+Define and calculate comprehensive income.
+B
+Introduced (full in Chapter 15)
+A.1.d
+Identify the limitations of the income statement.
+A
+Full treatment (income statement)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+income statement
+قائمة الدخل
+compte de résultat
+multi-step income statement
+قائمة الدخل متعددة المراحل
+compte de résultat à plusieurs niveaux (soldes intermédiaires)
+operating income
+الدخل التشغيلي
+résultat opérationnel
+income from continuing operations
+الدخل من العمليات المستمرة
+résultat des activités poursuivies
+discontinued operation
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+unusual or infrequent item
+بند غير عادي أو غير متكرر
+élément inhabituel ou peu fréquent
+comprehensive income
+الدخل الشامل
+résultat global
+accumulated other comprehensive income (AOCI)
+الدخل الشامل الآخر المتراكم
+cumul des autres éléments du résultat global
+earnings per share (EPS)
+ربحية السهم
+résultat par action
+WHAT YOU ALREADY KNOW   What you already know
+IFRS calls it the statement of profit or loss, and many IFRS companies show expenses by nature: materials, staff costs, depreciation. U.S. companies almost always show expenses by function: cost of goods sold, selling, and administrative. The totals are the same; the grouping is different.
+3.1  Purpose and structure of the income statement
+The income statement reports a company's revenues, expenses, gains and losses for a period, usually a year. The result is net income, which increases retained earnings. Where the balance sheet is a photograph, the income statement is a film of the whole year.
+Investors use it to judge how profitable the company is and to predict its future earnings and cash flows. Lenders use it to see whether the company earns enough to pay interest. Managers use it to compare results with budgets and with competitors.
+U.S. GAAP does not require one layout. A multi-step income statement shows subtotals: gross profit, operating income and income before income taxes. A single-step income statement adds all revenues and gains, deducts all expenses and losses, and reaches net income in one step. SEC registrants such as Orontes follow the SEC's list of captions, which gives a multi-step layout.
+Figure F03-02 is Orontes's statement of income and comprehensive income for 2025. All the amounts come from the same records as the balance sheet in Chapter 2. For example, the impairment losses are the ones you calculated in Chapter 10, and the equity-method income comes from Chapter 9.
+Figure F03-02. Orontes Foods Inc. — statement of income and comprehensive income, 2025
+Orontes Foods Inc., year ended December 31, 2025 (whole USD)
+2025
+Net sales
+42,000,000
+Cost of goods sold
+(27,300,000)
+Gross profit
+14,700,000
+Operating expenses
+Selling, general and administrative
+(7,237,000)
+Credit loss expense
+(63,000)
+Research and development
+(500,000)
+Impairment losses
+(2,724,000)
+Total operating expenses
+(10,524,000)
+Operating income
+4,176,000
+Other income and (expense)
+Interest expense
+(390,000)
+Interest and dividend income
+3,800
+Unrealized gains on securities
+4,000
+Equity-method income
+177,000
+Gain on sale of equipment
+3,000
+Loss on sale of receivables
+(15,000)
+Total other income and (expense)
+(217,200)
+Income before income taxes
+3,958,800
+Income tax expense
+(989,700)
+Net income
+2,969,100
+Earnings per share, basic and diluted
+$0.37
+Weighted-average shares outstanding
+8,099,726
+Other comprehensive income
+Unrealized loss on available-for-sale debt securities, net of tax of 375
+(1,125)
+Comprehensive income
+2,967,975
+Figure F03-03 puts the same numbers into both layouts. The single-step form is simpler to read, but it hides useful information. The multi-step form tells a reader that Orontes's main business earned $4,176,000 before interest and tax, and that other items reduced this by a net $217,200.
+Figure F03-03. Orontes's 2025 results in single-step and multi-step form: the same net income.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+multi-step income statement
+قائمة الدخل متعددة المراحل
+compte de résultat à plusieurs niveaux (soldes intermédiaires)
+single-step income statement
+قائمة الدخل ذات المرحلة الواحدة
+compte de résultat en une seule étape
+English (exam term)
+العربية
+Français
+multi-step income statement
+قائمة الدخل متعددة المراحل
+compte de résultat à plusieurs niveaux (soldes intermédiaires)
+single-step income statement
+قائمة الدخل ذات المرحلة الواحدة
+compte de résultat en une seule étape
+SECTION CHECK   Test yourself
+SC3-1  Which statement reports a company's performance over a period of time?
+A.	The balance sheet
+B.	The income statement
+C.	The notes on accounting policies
+D.	The statement of financial position
+SC3-2  A company changes from a multi-step to a single-step income statement. What happens to net income?
+A.	It does not change
+B.	It increases, because gains are added to revenues
+C.	It decreases, because tax is deducted twice
+D.	It cannot be determined without the balance sheet
+Answers and explanations are at the end of the chapter.
+3.2  Building the multi-step income statement
+Gross profit is net sales minus cost of goods sold. It shows how much the company earns on what it sells before its other costs. Orontes's gross profit is $14,700,000, which is 35% of net sales.
+Operating income is gross profit minus operating expenses: selling, general and administrative expenses, research and development, credit losses and impairments. Interest and income tax are never operating expenses. Orontes's operating income is $4,176,000.
+Other income and expense follows operating income. It contains interest, investment income and gains and losses. A gain or loss comes from a peripheral or incidental transaction, and it is shown net. For example, Orontes sold an old oven and reported a gain of $3,000: the proceeds minus the carrying amount, not the full proceeds.
+Income tax expense is then deducted from income before income taxes. Public companies also show earnings per share (EPS) on the face of the statement. Orontes's basic EPS is $0.37: net income divided by the weighted-average number of shares outstanding. Part 2 of the CMA exam analyzes EPS in depth.
+Figure F03-04 shows how Orontes's net sales shrink, step by step, to net income. The biggest step is the cost of goods sold. The impairment losses from Chapter 10 are the main reason operating expenses are so high this year.
+Figure F03-04. Waterfall from Orontes's 2025 net sales to net income.
+WORKED EXAMPLE   Worked example: Orontes's subtotals
+Step 1. Gross profit: $42,000,000 − $27,300,000 = $14,700,000.
+Step 2. Operating income: $14,700,000 − $10,524,000 of operating expenses = $4,176,000.
+Step 3. Income before income taxes: $4,176,000 − net other expense of $217,200 = $3,958,800.
+Step 4. Net income: $3,958,800 − income tax of $989,700 = $2,969,100.
+YOUR TURN   Barada's 2025 income statement
+Figure F03-05 uses Barada's trial balance from Chapter 1. Barada's 2025 statements ignore income tax. Fill in the three blanks. Answers are at the end of the chapter.
+Figure F03-05. Barada Wholesale — multi-step income statement, 2025 (complete the blanks)
+Barada Wholesale, year ended December 31, 2025 (USD 000)
+2025
+Sales revenue
+3,100
+Cost of goods sold
+(1,860)
+Gross profit
+1,240
+Wages expense
+(520)
+Depreciation expense
+(300)
+Operating income
+________
+Interest expense
+(90)
+Net income
+________
+Gross profit as a percentage of sales
+________
+EXAM TRAP   Where the line is drawn
+Interest expense is below operating income, never inside it.
+A gain on selling equipment is other income, not revenue.
+Gross profit uses cost of goods sold only; wages and depreciation outside production are operating expenses.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+operating income
+الدخل التشغيلي
+résultat opérationnel
+other income and expense
+الإيرادات والمصروفات الأخرى
+autres produits et charges
+earnings per share (EPS)
+ربحية السهم
+résultat par action
+function of expense
+عرض المصروفات حسب الوظيفة
+présentation des charges par fonction
+English (exam term)
+العربية
+Français
+operating income
+الدخل التشغيلي
+résultat opérationnel
+other income and expense
+الإيرادات والمصروفات الأخرى
+autres produits et charges
+earnings per share (EPS)
+ربحية السهم
+résultat par action
+function of expense
+عرض المصروفات حسب الوظيفة
+présentation des charges par fonction
+SECTION CHECK   Test yourself
+SC3-3  Use Figure F03-02. What is Orontes's operating income for 2025 (whole USD)?
+A.	3,786,000
+B.	4,176,000
+C.	6,900,000
+D.	14,700,000
+SC3-4  Orontes sells an old delivery van for more than its carrying amount. The difference is:
+A.	revenue, because cash was received
+B.	a reduction of cost of goods sold
+C.	a gain, shown net in other income and expense
+D.	a direct increase in retained earnings
+Answers and explanations are at the end of the chapter.
+3.3  Unusual items and discontinued operations
+Some items need special attention because they may not happen again. U.S. GAAP no longer has extraordinary items; the FASB removed them in 2015. An unusual or infrequent item, such as a large fire loss, is shown as a separate line within continuing operations, before tax. It is never shown net of tax.
+A discontinued operation is a component of an entity that the company has sold, has classified as held for sale, or has abandoned. The disposal must also be a strategic shift with a major effect on the company. Examples are leaving a major line of business or a major geographic area.
+Closing one store or stopping one small product does not qualify. The results of a discontinued operation, including any gain or loss on disposal, appear below income from continuing operations, net of their own tax. This is called intraperiod tax allocation.
+Figure F03-06 is a decision chart for any item. Ask the questions in order: OCI first, then discontinued operations, then unusual items, and finally main activities or other income and expense.
+Figure F03-06. Decision chart: where does an item go in the income statement?.
+Figure F03-07 is an example. Suppose that in 2026 Orontes sells its frozen-foods business to focus on beverages and dry foods. This is a strategic shift. The business lost $420,000 before tax during the year, and the sale caused a further loss of $180,000. Each loss reduces tax, so Orontes reports a loss from discontinued operations of $450,000, net of tax.
+Figure F03-07. Suppose: Orontes sells its frozen-foods business in 2026 — discontinued operations
+Suppose: Orontes, 2026 (whole USD)
+Before tax
+Tax benefit
+Net of tax
+Loss from operations of the frozen-foods business
+(420,000)
+105,000
+(315,000)
+Loss on disposal of the business
+(180,000)
+45,000
+(135,000)
+Loss from discontinued operations
+(600,000)
+150,000
+(450,000)
+EXAM TRAP   Extraordinary nostalgia
+Older textbooks show earthquakes and expropriations as extraordinary items, net of tax, below continuing operations. On today's exam, such an item is unusual or infrequent: a separate pre-tax line in continuing operations. Only discontinued operations are shown net of tax below continuing operations.
+● IFRS CONTRAST   Discontinued operations under IFRS 5
+IFRS 5 uses a similar idea: a separate major line of business or geographic area. IFRS also prohibits extraordinary items, so the two frameworks now give very similar results in this area.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+income from continuing operations
+الدخل من العمليات المستمرة
+résultat des activités poursuivies
+discontinued operation
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+component of an entity
+مكوِّن من مكونات المنشأة
+composante d'une entité
+strategic shift
+تحول استراتيجي
+changement stratégique
+unusual or infrequent item
+بند غير عادي أو غير متكرر
+élément inhabituel ou peu fréquent
+intraperiod tax allocation
+توزيع الضريبة داخل الفترة
+répartition de l'impôt au sein de l'exercice
+English (exam term)
+العربية
+Français
+income from continuing operations
+الدخل من العمليات المستمرة
+résultat des activités poursuivies
+discontinued operation
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+component of an entity
+مكوِّن من مكونات المنشأة
+composante d'une entité
+strategic shift
+تحول استراتيجي
+changement stratégique
+unusual or infrequent item
+بند غير عادي أو غير متكرر
+élément inhabituel ou peu fréquent
+intraperiod tax allocation
+توزيع الضريبة داخل الفترة
+répartition de l'impôt au sein de l'exercice
+SECTION CHECK   Test yourself
+SC3-5  A company's warehouse is destroyed by an earthquake, which is rare in its area. Under current U.S. GAAP the loss is shown:
+A.	as a separate line in continuing operations, before tax
+B.	as an extraordinary item, net of tax
+C.	in discontinued operations
+D.	in OCI
+SC3-6  Which disposal is MOST likely to be a discontinued operation?
+A.	A retailer closes one of its 200 stores
+B.	A food company sells its whole beverages division, one of its three main lines of business
+C.	A factory sells an old production machine
+D.	A company stops selling one small product in a large range
+Answers and explanations are at the end of the chapter.
+3.4  Comprehensive income
+Some changes in value do not go through net income. U.S. GAAP sends them to other comprehensive income (OCI) until they are realized. Comprehensive income is net income plus OCI for the period.
+Orontes's available-for-sale debt securities lost $1,500 in fair value in 2025. After tax, the loss in OCI is $1,125, so comprehensive income is $2,969,100 − $1,125 = $2,967,975. Companies show this in one continuous statement, as Orontes does, or in two consecutive statements. Showing OCI only in the statement of changes in equity is not allowed.
+OCI builds a balance in equity called accumulated other comprehensive income (AOCI). When an item is realized, for example when Orontes sells an AFS security, the gain or loss moves from AOCI into net income. This reclassification adjustment stops the same gain being counted twice. Figure F03-08 lists the main OCI items.
+Figure F03-08. Main OCI items: U.S. GAAP and IFRS
+Item
+U.S. GAAP
+IFRS
+Unrealized gains and losses on debt securities (AFS / FVOCI)
+OCI; reclassified to net income on sale
+OCI; reclassified on sale
+Changes in fair value of equity securities
+Net income (no OCI option)
+Net income, or OCI by election (never reclassified)
+Foreign-currency translation adjustments
+OCI; reclassified when the foreign operation is sold
+Same
+Pension gains, losses and prior service cost
+OCI; amortized into net income later
+OCI; never reclassified
+Effective part of cash-flow hedges
+OCI; reclassified when the hedged item affects income
+Same
+Revaluation of PP&E
+Not allowed
+Revaluation surplus in OCI; never reclassified
+● IFRS CONTRAST   IFRS OCI never recycles some items
+Under IFRS, a revaluation surplus on PP&E, fair value changes on equity investments elected to OCI, and pension remeasurements stay in OCI forever. U.S. GAAP does not allow PP&E revaluation, and it reclassifies its OCI items to net income later.
+EXAM TRAP   Comprehensive income traps
+Comprehensive income adds this year's OCI, not the AOCI balance.
+Unrealized gains on equity securities go to net income, not OCI.
+Use OCI after tax, unless the question shows the tax on a separate line.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+other comprehensive income (OCI)
+الدخل الشامل الآخر
+autres éléments du résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+comprehensive income
+الدخل الشامل
+résultat global
+accumulated other comprehensive income (AOCI)
+الدخل الشامل الآخر المتراكم
+cumul des autres éléments du résultat global
+English (exam term)
+العربية
+Français
+other comprehensive income (OCI)
+الدخل الشامل الآخر
+autres éléments du résultat global
+reclassification adjustment
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+comprehensive income
+الدخل الشامل
+résultat global
+accumulated other comprehensive income (AOCI)
+الدخل الشامل الآخر المتراكم
+cumul des autres éléments du résultat global
+SECTION CHECK   Test yourself
+SC3-7  Use Section 3.4. What is Orontes's comprehensive income for 2025 (whole USD)?
+A.	2,967,600
+B.	2,967,975
+C.	2,969,100
+D.	2,971,975
+SC3-8  Under U.S. GAAP, which item is reported in OCI?
+A.	An unrealized gain on equity securities
+B.	A revaluation increase on land
+C.	An unrealized loss on available-for-sale debt securities
+D.	A gain on the sale of equipment
+Answers and explanations are at the end of the chapter.
+3.5  Limitations and links to the other statements
+Net income depends on many estimates: useful lives, credit losses, impairment tests and warranty costs. Different companies also choose different methods, such as FIFO or LIFO for inventory. Two similar companies can therefore report different profits from the same activity.
+The income statement also leaves things out. An increase in the value of Orontes's land, or of a brand it built itself, is not reported. Managers can influence results by timing sales or discretionary costs, such as research or advertising, near the year-end.
+Most importantly, net income is not cash. Accrual accounting records revenue when it is earned and expenses when they are incurred. Figure F03-09 shows that Orontes's cash from operating activities was $7,531,100, far more than its net income of $2,969,100. Depreciation and impairments of $4,824,000 reduced income but used no cash in 2025.
+Figure F03-09. Why Orontes's 2025 net income differs from its operating cash flow.
+Net income then moves to the statement of changes in equity, where it increases retained earnings. OCI moves to AOCI. In the statement of cash flows, the indirect method starts from net income.
+WATCH: NOT YET TESTABLE   Coming changes: DISE and IFRS 18
+ASU 2024-03 (DISE) requires public companies to break down some expense captions in the notes, such as employee pay and depreciation. The face of the statement does not change. IFRS 18 replaces IAS 1 and adds required subtotals, including operating profit. Both apply from 2027 and are not testable before about January 2028.
+FALSE-FRIEND ALERT   Résultat and إيرادات
+French résultat means profit, not result in general, and résultat exceptionnel is not a U.S. category. Arabic إيرادات can mean revenue or income; in U.S. GAAP, revenue comes from main activities, and income is what remains after expenses.
+SECTION CHECK   Test yourself
+SC3-9  Why can two similar companies report different net income for the same activity?
+A.	The income statement uses current market values
+B.	Net income equals cash received
+C.	They may use different estimates and accounting methods
+D.	U.S. GAAP requires one layout
+SC3-10  Where does Orontes's net income for 2025 go next?
+A.	It increases retained earnings in the statement of changes in equity
+B.	It increases AOCI
+C.	It is added to cash on the balance sheet
+D.	It is added to additional paid-in capital
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F03-10 brings the chapter together.
+Figure F03-10. Chapter 3 summary map: the key rule for each section.
+The income statement shows revenues, expenses, gains and losses for a period. A multi-step statement shows gross profit, operating income and income before income taxes, while a single-step statement reaches the same net income without subtotals. Gains and losses from peripheral transactions are shown net in other income and expense. Unusual or infrequent items are a separate pre-tax line in continuing operations; extraordinary items no longer exist. Discontinued operations appear net of tax below continuing operations. Comprehensive income is net income plus OCI, and OCI builds AOCI. Net income depends on estimates and methods, omits some value changes, and is not the same as cash.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P3-01  An investor wants to predict a company's future earnings. Which statement is MOST useful for this?
+A.	The balance sheet
+B.	The statement of changes in equity
+C.	The auditor's report
+D.	The income statement
+P3-02  A lender wants to know if a borrower's main business earns enough to cover its interest. Which subtotal is MOST useful?
+A.	Net income
+B.	Operating income
+C.	Comprehensive income
+D.	Gross profit
+P3-03  The heading of an income statement should read:
+A.	As of December 31, 2025
+B.	At December 31, 2025
+C.	For the year ended December 31, 2025
+D.	On December 31, 2025
+P3-04  Why do most U.S. public companies use a multi-step rather than a single-step income statement?
+A.	It gives a higher net income
+B.	U.S. GAAP requires the multi-step form for all companies
+C.	It shows cash flows from operations
+D.	The subtotals help users see how much comes from main operations
+P3-05  Which item is an operating expense on a U.S. multi-step income statement?
+A.	Research and development
+B.	Interest expense
+C.	Income tax expense
+D.	Loss from discontinued operations
+P3-06  A company has net sales of $900,000, cost of goods sold of $540,000, selling expenses of $120,000, administrative expenses of $90,000 and interest expense of $30,000. What is its operating income?
+A.	$120,000
+B.	$150,000
+C.	$240,000
+D.	$360,000
+P3-07  Under U.S. GAAP, which presentation of operating expenses is required?
+A.	No specific presentation is required; SEC captions lead to a functional presentation
+B.	By nature, such as materials and staff costs
+C.	By function, with a note by nature for all companies today
+D.	Operating profit as a required subtotal
+P3-08  For which amounts must a U.S. public company with a simple capital structure show EPS on the face of the income statement?
+A.	Gross profit and operating income
+B.	Comprehensive income only
+C.	Income from continuing operations and net income
+D.	Unusual or infrequent items
+P3-09  A company reports a large loss from a flood, which is unusual for it. How is the loss presented?
+A.	Net of tax, below income from continuing operations
+B.	As an extraordinary item with its own EPS
+C.	Only in the notes
+D.	As a separate line in income from continuing operations, before tax
+P3-10  Orontes sells an oven with a cost of $60,000 and accumulated depreciation of $42,000 for $21,000. How is the sale shown on the income statement?
+A.	Revenue of $21,000
+B.	A gain of $3,000 in other income and expense
+C.	A gain of $21,000
+D.	A loss of $39,000
+P3-11  Use Figure F03-07. What loss from discontinued operations does Orontes report (whole USD)?
+A.	315,000
+B.	450,000
+C.	600,000
+D.	750,000
+P3-12  Which condition is NOT needed for a disposal to be reported as a discontinued operation?
+A.	The component must be sold, held for sale or disposed of
+B.	The disposal must be a strategic shift
+C.	The shift must have a major effect on operations and results
+D.	The component must have been profitable
+P3-13  A company reports net income of $500,000. Its OCI for the year is a gain of $40,000 after tax. AOCI was $100,000 at the start of the year. What is comprehensive income?
+A.	$500,000
+B.	$540,000
+C.	$600,000
+D.	$640,000
+P3-14  Where may a U.S. company report OCI?
+A.	Only in the statement of changes in equity
+B.	In one continuous statement of comprehensive income, or in a separate statement right after the income statement
+C.	Only in the notes
+D.	Inside operating income
+P3-15  A company sells an AFS debt security and realizes a gain that had been in AOCI. What is the purpose of the reclassification adjustment?
+A.	To move the gain from net income to OCI
+B.	To defer the gain to next year
+C.	To remove the gain from retained earnings
+D.	To avoid counting the same gain twice in comprehensive income
+P3-16  Orontes's land has risen in value by $1 million this year. How does this affect the 2025 income statement?
+A.	It is a gain in other income
+B.	It is OCI
+C.	It has no effect, because the gain is not realized or recognized
+D.	It increases revenue
+P3-17  Near the year-end, a manager delays advertising until January to meet a profit target. This illustrates which limitation?
+A.	Net income can be influenced by the timing of discretionary costs
+B.	The income statement omits unrealized value changes
+C.	Net income is measured at fair value
+D.	The income statement shows cash flows
+P3-18  Use Figure F03-09. Why is Orontes's 2025 cash from operating activities higher than its net income?
+A.	Orontes earned revenue that it did not report
+B.	Depreciation and impairments reduced net income but used no cash in 2025
+C.	Cash flow includes the OCI loss
+D.	Net income includes dividends paid
+P3-19  Which amount starts the operating section of a U.S. statement of cash flows under the indirect method?
+A.	Operating income
+B.	Comprehensive income
+C.	Gross profit
+D.	Net income
+P3-20  An IFRS company revalues its land upward. How is the increase reported?
+A.	As a gain in profit or loss
+B.	In OCI, reclassified to profit when the land is sold
+C.	In OCI as a revaluation surplus, never reclassified to profit
+D.	It is not recognized under IFRS
+P3-21  Use Figure F03-02. Which amount is Orontes's income before income taxes for 2025 (whole USD)?
+A.	2,969,100
+B.	3,781,800
+C.	3,958,800
+D.	4,176,000
+Case-style practice: Barada Wholesale in 2026
+Use Figure F03-11 for items C3-1 to C3-6. The fire and the lawsuit are the events you met in the Chapter 2 case. Amounts are in USD 000 for the year ended December 31, 2026.
+Figure F03-11. Case exhibit: Barada Wholesale, 2026 results and memo (USD 000)
+Item / memo (USD 000)
+Amount / details
+Net sales
+3,400
+Cost of goods sold
+2,040
+Wages expense
+560
+Depreciation expense
+300
+Fire loss (uninsured inventory)
+70
+Lawsuit settlement
+50
+Interest expense
+80
+Gain on sale of equipment
+20
+M1
+In August 2026 Barada sold its catering-supply division to focus only on wholesale food. The division was one of Barada's two lines of business, with its own operations and cash flows. The amounts above do not include the division.
+M2
+In 2026 the division had an operating loss of 60 before tax. Barada lost 40 before tax on the sale.
+M3
+The fire loss is the uninsured inventory destroyed on February 10, 2026. Fires are unusual for Barada.
+M4
+The income tax rate is 25% on all items. Barada has no other comprehensive income.
+C3-1  Place each item in the section of the multi-step income statement where it belongs. (On the exam screen you would drag each item into a box.)
+Categories: Operating expenses · Other income and expense · Discontinued operations
+Item
+Category
+Fire loss
+Lawsuit settlement
+Interest expense
+Gain on sale of equipment
+Loss on sale of the division
+C3-2  Enter Barada's operating income for 2026.
+Answer: ____________
+C3-3  Enter Barada's income from continuing operations.
+Answer: ____________
+C3-4  Enter the loss from discontinued operations, net of tax (as a positive number).
+Answer: ____________
+C3-5  Enter Barada's net income for 2026.
+Answer: ____________
+C3-6  How does Barada present the fire loss? [select]
+Options: as a separate line in continuing operations, before tax   |   as an extraordinary item, net of tax   |   in discontinued operations   |   as an adjustment to 2025 net income
+Written task
+W3  In four to six sentences, explain to Barada's owners why the fire loss and the division sale appear in different places on the 2026 income statement. Use these words: unusual, extraordinary, continuing operations, strategic shift, net of tax.
+Answers and explanations
+Section checks
+SC3-1  Answer B. The income statement covers a period; the balance sheet is at one date.
+A is wrong. The balance sheet shows one date, not a period.
+C is wrong. The notes explain the statements; they do not report performance.
+D is wrong. This is the IFRS name for the balance sheet.
+SC3-2  Answer A. Only the grouping changes; the same items are included.
+B is wrong. Gains are included in both layouts.
+C is wrong. Tax is deducted once in both layouts.
+D is wrong. Net income comes from the income statement items alone.
+SC3-3  Answer B. Gross profit of $14,700,000 minus operating expenses of $10,524,000.
+A is wrong. This also deducts interest expense, which is below operating income.
+C is wrong. This leaves out the impairment losses, which are operating expenses.
+D is wrong. This is gross profit, before operating expenses.
+SC3-4  Answer C. Selling equipment is peripheral, so the net difference is a gain.
+A is wrong. Revenue comes from the main activities, not from selling equipment.
+B is wrong. The van is not inventory.
+D is wrong. Gains pass through net income first.
+SC3-5  Answer A. Extraordinary items were removed in 2015; unusual or infrequent items stay in continuing operations.
+B is wrong. Extraordinary items no longer exist.
+C is wrong. No component was sold or abandoned.
+D is wrong. No rule sends this loss to OCI.
+SC3-6  Answer B. Leaving a major line of business is a strategic shift with a major effect.
+A is wrong. One store out of many is not a strategic shift.
+C is wrong. Selling one asset gives a gain or loss, not a discontinued operation.
+D is wrong. A small product is not a major line of business.
+SC3-7  Answer B. Net income of $2,969,100 minus the OCI loss of $1,125, net of tax.
+A is wrong. This uses the OCI loss before tax.
+C is wrong. This is net income only; OCI is missing.
+D is wrong. This also adds unrealized gains on securities again, which are already in net income.
+SC3-8  Answer C. AFS debt securities are measured at fair value with changes in OCI.
+A is wrong. Equity securities changes go to net income.
+B is wrong. U.S. GAAP does not allow upward revaluation of land.
+D is wrong. A realized gain on equipment is in net income.
+SC3-9  Answer C. Estimates (useful lives) and methods (FIFO or LIFO) reduce comparability.
+A is wrong. Most amounts are based on historical cost.
+B is wrong. Net income is an accrual measure, not cash.
+D is wrong. No layout is mandated, and layout does not change net income.
+SC3-10  Answer A. Net income is closed to retained earnings.
+B is wrong. Only OCI goes to AOCI.
+C is wrong. Net income is not cash.
+D is wrong. APIC comes from share issues, not income.
+Your turn
+Item
+Answer
+Operating income
+1,240 − 520 − 300 = 420
+Net income
+420 − 90 = 330, the same as in Chapter 1
+Gross profit percentage
+1,240 ÷ 3,100 = 40%
+Multiple-choice questions
+P3-01  Answer D. Past performance on the income statement is the starting point for predicting future earnings.
+A is wrong. The balance sheet shows position at one date, not performance.
+B is wrong. It shows changes in equity, using net income from the income statement.
+C is wrong. The auditor's report gives an opinion, not performance data.
+P3-02  Answer B. Operating income is earned before interest, so it can be compared with interest expense.
+A is wrong. Net income is after interest has already been deducted.
+C is wrong. Comprehensive income includes OCI, which is not from main operations.
+D is wrong. Gross profit ignores operating expenses.
+P3-03  Answer C. The income statement covers a period.
+A is wrong. 'As of' is used for the balance sheet.
+B is wrong. 'At' a date is a balance sheet heading.
+D is wrong. Performance is measured over a period, not on one day.
+P3-04  Answer D. Subtotals separate operating results from other items.
+A is wrong. Both layouts give the same net income.
+B is wrong. U.S. GAAP does not require one layout; SEC captions lead to multi-step.
+C is wrong. The income statement does not show cash flows.
+P3-05  Answer A. R&D is part of the costs of running the main business.
+B is wrong. Interest is in other income and expense.
+C is wrong. Tax is deducted after income before income taxes.
+D is wrong. Discontinued operations are below continuing operations.
+P3-06  Answer B. Gross profit of $360,000 minus operating expenses of $210,000.
+A is wrong. This also deducts interest.
+C is wrong. This deducts only selling expenses.
+D is wrong. This is gross profit.
+P3-07  Answer A. U.S. GAAP does not mandate function or nature.
+B is wrong. Nature is common under IFRS, not required in the U.S.
+C is wrong. DISE note disclosures start only in 2027 and are not yet testable.
+D is wrong. Operating profit is an IFRS 18 subtotal.
+P3-08  Answer C. EPS is required for income from continuing operations and net income.
+A is wrong. EPS is not shown for these subtotals.
+B is wrong. EPS is not required for comprehensive income.
+D is wrong. Unusual items have no per-share amounts on the face.
+P3-09  Answer D. Unusual or infrequent items stay in continuing operations, before tax.
+A is wrong. Only discontinued operations are shown net of tax there.
+B is wrong. Extraordinary items were removed.
+C is wrong. A material loss is recognized in income.
+P3-10  Answer B. Proceeds of $21,000 minus the carrying amount of $18,000; gains are shown net.
+A is wrong. Selling equipment is not revenue.
+C is wrong. Gains are shown net, not as the full proceeds.
+D is wrong. This compares proceeds with cost, ignoring depreciation.
+P3-11  Answer B. Both losses, each net of its tax benefit: $315,000 + $135,000.
+A is wrong. This leaves out the loss on disposal.
+C is wrong. This is before tax.
+D is wrong. This adds the tax benefit instead of deducting it.
+P3-12  Answer D. Profitable and loss-making components can both be discontinued operations.
+A is wrong. This is one of the conditions.
+B is wrong. This is one of the conditions.
+C is wrong. This is one of the conditions.
+P3-13  Answer B. Net income plus this year's OCI.
+A is wrong. This leaves out OCI.
+C is wrong. This adds the opening AOCI instead of this year's OCI.
+D is wrong. This adds the AOCI balance as well.
+P3-14  Answer B. ASU 2011-05 requires one or two statements.
+A is wrong. Showing OCI only in equity is no longer allowed.
+C is wrong. OCI must be on the face of a statement.
+D is wrong. OCI is not part of net income.
+P3-15  Answer D. The gain moves from AOCI into net income; without the adjustment, comprehensive income would include it twice.
+A is wrong. The gain moves the other way: from OCI to net income.
+B is wrong. A realized gain is not deferred.
+C is wrong. The gain increases retained earnings through net income.
+P3-16  Answer C. Unrecognized increases in value are one limitation of the income statement.
+A is wrong. U.S. GAAP does not recognize this increase.
+B is wrong. Revaluation surplus in OCI is an IFRS option only.
+D is wrong. Land values are never revenue.
+P3-17  Answer A. Earnings management through timing is a known limitation.
+B is wrong. No unrealized value change is involved.
+C is wrong. Net income is not a fair value measure.
+D is wrong. The income statement is on an accrual basis.
+P3-18  Answer B. Noncash expenses of $4,824,000 explain most of the difference.
+A is wrong. All revenue earned is reported.
+C is wrong. OCI is not part of operating cash flow.
+D is wrong. Dividends are not an expense.
+P3-19  Answer D. The indirect method reconciles net income to operating cash flow.
+A is wrong. Starting from operating profit is the IFRS 18 approach, not yet testable.
+B is wrong. OCI is not part of the reconciliation.
+C is wrong. Gross profit ignores operating expenses.
+P3-20  Answer C. IAS 16 revaluation increases go to OCI and are not recycled.
+A is wrong. Revaluation increases go to OCI, unless they reverse an earlier loss.
+B is wrong. Revaluation surplus is never recycled under IFRS.
+D is wrong. This is the U.S. GAAP answer; IFRS allows revaluation.
+P3-21  Answer C. Operating income plus other income and expense.
+A is wrong. This is after tax.
+B is wrong. This leaves out equity-method income.
+D is wrong. This is operating income, before other items.
+Case-style set: Barada Wholesale in 2026
+C3-1
+Item
+Category
+Fire loss
+Operating expenses
+Lawsuit settlement
+Operating expenses
+Interest expense
+Other income and expense
+Gain on sale of equipment
+Other income and expense
+Loss on sale of the division
+Discontinued operations
+Unusual items stay in continuing operations. Only the division's results are discontinued operations.
+C3-2  Answer: 380.
+500 is wrong: this answer leaves the fire and the lawsuit out of continuing operations.
+400 is wrong: this answer puts the equipment gain inside operating income.
+320 is wrong: this answer also deducts interest and adds the gain.
+C3-3  Answer: 240.
+320 is wrong: this answer forgets to deduct income tax.
+165 is wrong: this answer deducts the discontinued operations too early.
+C3-4  Answer: 75.
+100 is wrong: this answer reports the loss before tax.
+45 is wrong: this answer leaves out the loss on the sale.
+C3-5  Answer: 165.
+240 is wrong: this answer ignores the discontinued division.
+140 is wrong: this answer deducts the division's loss before tax.
+C3-6  Answer: as a separate line in continuing operations, before tax.
+as an extraordinary item, net of tax is wrong: this answer extraordinary items no longer exist.
+in discontinued operations is wrong: this answer no component was disposed of.
+as an adjustment to 2025 net income is wrong: this answer the fire was a nonrecognized subsequent event for 2025.
+Written task: model answer
+The fire destroyed inventory, which is unusual for Barada, but it happened in the business that Barada keeps. U.S. GAAP no longer has extraordinary items, so the fire loss of 70 is shown before tax, as a separate line within continuing operations. The catering-supply division was one of Barada's two lines of business, and selling it is a strategic shift with a major effect. Its results are therefore discontinued operations. The operating loss and the loss on the sale are shown net of tax, 75 in total, below income from continuing operations of 240.
+A good answer: identifies the fire as unusual but part of continuing operations; states that extraordinary items no longer exist; shows the fire loss before tax on a separate line; explains the strategic shift for the division; presents the division's results net of tax below continuing operations.
+PART I — FOUNDATIONS AND THE FOUR FINANCIAL STATEMENTS

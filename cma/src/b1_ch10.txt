@@ -1,0 +1,742 @@
+Chapter 10
+Long-Lived Assets: Depreciation, Disposal and Impairment
+الأصول طويلة الأجل: الاستهلاك والاستبعاد والهبوط في القيمة
+Machines, buildings, patents and brands help a company earn revenue for many years. Their cost is therefore spread over those years, not expensed at once. In this chapter you follow a long-lived asset through its whole life: what goes into its cost, how it is depreciated, what happens when it is sold, and what happens when its value falls.
+Figure F10-01 shows the four stages.
+Figure F10-01. Chapter 10 roadmap: acquire, use, test and dispose of long-lived assets.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.l
+Determine the effect of different depreciation methods on the financial statements.
+B
+Full treatment
+A.2.m
+Recommend a depreciation method for a given set of data.
+C
+Full treatment
+A.2.n
+Account for impairment of long-lived assets, intangible assets and goodwill.
+C
+Full treatment
+A.2.bb
+Calculate and present the gain or loss on the disposal of fixed assets.
+B
+Full treatment
+A.2.ff
+State the IFRS differences: revaluation, components, borrowing costs, development costs and impairment reversals.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+property, plant and equipment (PP&E)
+العقارات والآلات والمعدات
+immobilisations corporelles
+depreciable base
+المبلغ القابل للاستهلاك
+montant amortissable
+salvage value
+القيمة المتبقية (قيمة الخردة)
+valeur résiduelle
+useful life
+العمر الإنتاجي
+durée d'utilité
+carrying amount
+القيمة الدفترية
+valeur comptable
+impairment
+الهبوط في القيمة (انخفاض القيمة)
+dépréciation (perte de valeur)
+recoverability test
+اختبار قابلية الاسترداد
+test de recouvrabilité
+goodwill
+الشهرة
+goodwill (écart d'acquisition)
+amortization
+الإطفاء
+amortissement
+WHAT YOU ALREADY KNOW   What you already know
+You know depreciation from your studies. Three U.S. GAAP points may be new: U.S. GAAP does not allow revaluation to fair value; the impairment test for PP&E has two steps and uses undiscounted cash flows first; and U.S. GAAP never reverses an impairment loss on assets that are held and used.
+10.1  The cost of property, plant and equipment
+Property, plant and equipment (PP&E) is recorded at historical cost: everything needed to acquire the asset and get it ready for use. This includes the price, freight, installation, testing and site preparation. When a company buys land with an old building and pulls the building down, the demolition cost is part of the cost of the land. When it buys several assets for one price, it divides the price by their relative fair values.
+After purchase, a capital expenditure that extends the asset's life or increases its capacity is added to its cost. A revenue expenditure, such as ordinary repairs and maintenance, is an expense of the period.
+When a company builds an asset for its own use, it capitalizes interest during construction. Capitalized interest is the avoidable interest: weighted-average accumulated expenditures × the interest rate, but never more than the interest actually incurred. For example, if Orontes spends on average $2,000 (USD 000) on a new warehouse during the year and the rate on the related loan is 6%, avoidable interest is 120. Actual interest is 150, so Orontes capitalizes 120. Capitalization stops when the asset is substantially complete.
+● IFRS CONTRAST   Borrowing costs under IAS 23
+IAS 23 also capitalizes borrowing costs on qualifying assets. One difference: when a company invests borrowed money for a short time before spending it, IAS 23 deducts the investment income from the amount capitalized. U.S. GAAP generally does not.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+property, plant and equipment (PP&E)
+العقارات والآلات والمعدات
+immobilisations corporelles
+capital expenditure
+نفقة رأسمالية
+dépense d'investissement
+revenue expenditure
+نفقة إيرادية
+dépense de fonctionnement (d'entretien)
+capitalized interest
+الفائدة المرسملة
+coûts d'emprunt incorporés
+English (exam term)
+العربية
+Français
+property, plant and equipment (PP&E)
+العقارات والآلات والمعدات
+immobilisations corporelles
+capital expenditure
+نفقة رأسمالية
+dépense d'investissement
+revenue expenditure
+نفقة إيرادية
+dépense de fonctionnement (d'entretien)
+capitalized interest
+الفائدة المرسملة
+coûts d'emprunt incorporés
+SECTION CHECK   Test yourself
+SC10-1  Which cost is added to the cost of a new machine?
+A.	Repairs after the first year of use
+B.	Training staff to use the machine
+C.	Insurance during normal operations
+D.	Installation and testing before use
+SC10-2  Use the capitalized interest example in Section 10.1. How much interest does Orontes capitalize (USD 000)?
+A.	0
+B.	120
+C.	150
+D.	2,000
+Answers and explanations are at the end of the chapter.
+10.2  Depreciation methods and their effects
+Depreciation spreads the depreciable base, cost minus salvage value, over the useful life in a systematic and rational way. Four methods appear on the exam.
+Straight-line method: the same amount each year, depreciable base ÷ useful life.
+Double-declining-balance method: twice the straight-line rate, applied to the beginning book value. Salvage is ignored in the calculation, but the book value may not fall below salvage.
+Sum-of-the-years'-digits method: depreciable base × remaining life at the start of the year ÷ the sum of the years' digits.
+Units-of-production method: a rate per unit or hour of use, times actual use.
+WORKED EXAMPLE   The Amman bottling line
+In Chapter 1, Orontes bought a new bottling line for its Amman plant. It cost $1,200,000. Orontes expects a salvage value of $150,000 after 5 years, or after 21,000 machine hours. The depreciable base is $1,050,000.
+Straight-line: $1,050,000 ÷ 5 = $210,000 a year.
+Double-declining: rate 40%; year 1 = 40% × $1,200,000 = $480,000. In year 5 only $5,520 is left, so the book value ends at salvage.
+Sum-of-the-years'-digits: the digits add up to 15; year 1 = $1,050,000 × 5/15 = $350,000.
+Units of production: $1,050,000 ÷ 21,000 hours = $50 an hour; year 1 = 5,000 hours × $50 = $250,000.
+Figure F10-02 plots the four patterns, and Figure F10-03 gives the full schedules.
+Figure F10-02. Depreciation expense each year for the bottling line under four methods.
+Figure F10-03. Depreciation schedules for the Amman bottling line (whole USD)
+Straight-line
+Double-declining (40%)
+Sum-of-the-years'-digits
+Units of production
+Year 1
+210,000
+480,000
+350,000
+5,000 h: 250,000
+Year 2
+210,000
+288,000
+280,000
+4,600 h: 230,000
+Year 3
+210,000
+172,800
+210,000
+4,200 h: 210,000
+Year 4
+210,000
+103,680
+140,000
+3,800 h: 190,000
+Year 5
+210,000
+5,520
+70,000
+3,400 h: 170,000
+Total
+1,050,000
+1,050,000
+1,050,000
+1,050,000
+All four methods charge the same total, $1,050,000. They only change the timing. Figure F10-04 summarizes the effects on the statements. Depreciation is not a cash flow, so the method changes cash only through income taxes, and U.S. tax depreciation (MACRS) is chosen separately from the book method.
+Figure F10-04. Effects of the depreciation methods on the financial statements
+Effect
+Straight-line
+Double-declining
+SYD
+Units of production
+Expense in early years
+Lowest (even)
+Highest
+High
+Follows use
+Net income and ROA in early years
+Highest
+Lowest
+Low
+Follows use
+Carrying amount in early years
+Highest
+Lowest
+Low
+Follows use
+Total expense over the life
+Same
+Same
+Same
+Same
+Cash flow (before tax effects)
+No effect
+No effect
+No effect
+No effect
+YOUR TURN   Dubai delivery trucks
+Orontes buys delivery trucks for its Dubai plant for $90,000, with a salvage value of $10,000 after 4 years. Complete the double-declining schedule in Figure F10-05.
+Figure F10-05. Double-declining schedule for the Dubai trucks (whole USD): complete the blanks
+Beginning book value
+Depreciation
+Ending book value
+Year 1
+90,000
+50% × 90,000 = 45,000
+45,000
+Year 2
+45,000
+______
+______
+Year 3
+______
+______
+______
+Year 4
+______
+______ (do not go below salvage)
+10,000
+Changes and errors
+Estimates change. A new useful life or salvage value is a change in accounting estimate. It is applied prospectively: the company does not restate prior years. Suppose Orontes used straight-line for the bottling line and, after 2 years, decides it has 4 more years of life and a salvage value of $90,000. The book value then is $780,000, so each remaining year's depreciation is ($780,000 − $90,000) ÷ 4 = $172,500.
+A change in depreciation method is also applied prospectively, as a change in estimate effected by a change in principle, and the new method must be preferable. An error, such as expensing a machine that should have been capitalized, is different: it is corrected by restating the prior years.
+Some companies use group or composite depreciation for many similar assets. They apply one rate to the whole pool, and when an asset is retired they record no gain or loss.
+EXAM TRAP   Depreciation traps
+Double-declining: apply the rate to book value; never subtract salvage first, and never go below salvage.
+SYD: use the remaining life at the start of the year, applied to the depreciable base.
+Changes in life, salvage or method: prospective. Errors: restate.
+● IFRS CONTRAST   IAS 16: components and revaluation
+IAS 16 requires component depreciation: each significant part of an asset is depreciated separately. U.S. GAAP allows this but does not require it. IAS 16 also allows the revaluation model, with increases going to a revaluation surplus in OCI. U.S. GAAP does not allow upward revaluation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+depreciable base
+المبلغ القابل للاستهلاك
+montant amortissable
+salvage value
+القيمة المتبقية (قيمة الخردة)
+valeur résiduelle
+useful life
+العمر الإنتاجي
+durée d'utilité
+straight-line method
+طريقة القسط الثابت
+amortissement linéaire
+double-declining-balance method
+طريقة القسط المتناقص المضاعف
+amortissement dégressif (taux double)
+sum-of-the-years'-digits method
+طريقة مجموع أرقام السنوات
+amortissement selon la somme des chiffres des années
+units-of-production method
+طريقة وحدات الإنتاج
+amortissement selon les unités d'œuvre
+carrying amount
+القيمة الدفترية
+valeur comptable
+change in accounting estimate
+التغير في التقدير المحاسبي
+changement d'estimation comptable
+English (exam term)
+العربية
+Français
+depreciable base
+المبلغ القابل للاستهلاك
+montant amortissable
+salvage value
+القيمة المتبقية (قيمة الخردة)
+valeur résiduelle
+useful life
+العمر الإنتاجي
+durée d'utilité
+straight-line method
+طريقة القسط الثابت
+amortissement linéaire
+double-declining-balance method
+طريقة القسط المتناقص المضاعف
+amortissement dégressif (taux double)
+sum-of-the-years'-digits method
+طريقة مجموع أرقام السنوات
+amortissement selon la somme des chiffres des années
+units-of-production method
+طريقة وحدات الإنتاج
+amortissement selon les unités d'œuvre
+carrying amount
+القيمة الدفترية
+valeur comptable
+change in accounting estimate
+التغير في التقدير المحاسبي
+changement d'estimation comptable
+SECTION CHECK   Test yourself
+SC10-3  Use the bottling line. What is double-declining depreciation in year 2 (whole USD)?
+A.	210,000
+B.	280,000
+C.	288,000
+D.	480,000
+SC10-4  After two years, Orontes revises the useful life and salvage value of an asset. How does it account for the change?
+A.	By restating the prior two years
+B.	Prospectively, over the remaining life
+C.	By a cumulative adjustment in the current year
+D.	By an adjustment to opening retained earnings
+Answers and explanations are at the end of the chapter.
+10.3  Recommending a depreciation method
+The best method matches the pattern in which the company uses up the asset's benefits. Figure F10-06 turns this into two questions.
+Figure F10-06. Decision path for recommending a depreciation method.
+A delivery truck wears out with kilometres driven, so units of production fits. A computer server loses value quickly as technology changes, so an accelerated method fits. An office building gives similar service each year, so straight-line fits. For the bottling line, machine hours drive the wear, so units of production gives the best matching; straight-line is simpler and is acceptable if use is fairly even.
+Other factors can support the choice: comparability with other companies in the industry, the cost of tracking usage, and management's view of income smoothing. The tax method is a separate decision, so a company does not need to use the same method for its books.
+EXAM TRAP   Give the reason
+In a Level C question, a recommendation earns credit only with a reason from the facts: how the asset is used and when its benefits arrive.
+SECTION CHECK   Test yourself
+SC10-5  A delivery truck wears out mainly with kilometres driven, and the number of kilometres changes a lot from year to year. Which method BEST matches its use?
+A.	Straight-line
+B.	Double-declining balance
+C.	Units of production
+D.	Sum-of-the-years'-digits
+SC10-6  Which reason BEST supports an accelerated method for a computer server?
+A.	It gives equal service each year.
+B.	It loses usefulness quickly as technology changes.
+C.	It must use the same method as the tax return.
+D.	Accelerated methods raise early income.
+Answers and explanations are at the end of the chapter.
+10.4  Disposal of fixed assets
+When a company sells or scraps an asset, it first records depreciation up to the date of disposal. Then it removes the cost and the accumulated depreciation and compares the proceeds with the carrying amount. If the proceeds are higher, it records a gain; if lower, a loss. The gain or loss is part of income from continuing operations. It is not revenue.
+WORKED EXAMPLE   Selling an old oven in Dubai
+An old pastry oven cost $60,000. At January 1, accumulated depreciation was $40,000, and straight-line depreciation is $8,000 a year. Orontes sells the oven after 3 months for $21,000. Figure F10-07 shows the steps.
+Figure F10-07. Disposal of the Dubai oven: update depreciation, find the carrying amount, then the gain.
+Two special cases appear on the exam. In an involuntary conversion, such as a fire or a government expropriation, the company records a gain or loss even if it reinvests the insurance money. In an exchange of assets with commercial substance, the new asset is recorded at fair value and the gain or loss is recognized; without commercial substance, the exchange is recorded at book value.
+EXAM TRAP   Update first
+Record depreciation up to the sale date before you compute the gain or loss.
+Compare proceeds with the carrying amount, not with the original cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+involuntary conversion
+التحويل غير الإرادي
+conversion involontaire
+commercial substance
+الجوهر التجاري
+substance commerciale
+English (exam term)
+العربية
+Français
+involuntary conversion
+التحويل غير الإرادي
+conversion involontaire
+commercial substance
+الجوهر التجاري
+substance commerciale
+SECTION CHECK   Test yourself
+SC10-7  Use the Dubai oven example. What is the gain on the sale (whole USD)?
+A.	(39,000)
+B.	1,000
+C.	3,000
+D.	21,000
+SC10-8  Where is a gain on the sale of a machine reported?
+A.	As sales revenue
+B.	In other comprehensive income
+C.	Directly in retained earnings
+D.	In income from continuing operations, as a gain (not revenue)
+Answers and explanations are at the end of the chapter.
+10.5  Impairment of long-lived assets, intangibles and goodwill
+An impairment occurs when a company cannot recover an asset's carrying amount. U.S. GAAP uses different tests for different assets.
+PP&E and finite-lived intangibles held and used
+The company tests an asset group (the lowest level with its own cash flows) only when indicators suggest a problem, such as a sharp fall in market price, physical damage or continuing losses. The test has two steps. In the recoverability test, the company compares the carrying amount with the sum of the undiscounted future cash flows. If the carrying amount is not higher, there is no impairment, even if fair value is lower. If it is higher, the company measures the loss as carrying amount minus fair value. Figure F10-08 applies the test to Orontes's Jordan plant.
+Figure F10-08. ASC 360 impairment of the Jordan plant: recoverability test, then loss against fair value.
+The reduced amount becomes the new cost basis and is depreciated over the remaining life. The loss is never reversed under U.S. GAAP.
+Assets held for sale
+An asset is held for sale when management has committed to a plan to sell it, it is available for immediate sale, and the sale is expected within one year. It is measured at the lower of its carrying amount and fair value less cost to sell, and it is no longer depreciated. If fair value less cost to sell rises later, the company records a gain, but only up to the losses it recognized before.
+Intangibles and goodwill
+Finite-lived intangibles, such as patents, are subject to amortization over their useful lives and follow the PP&E test. An indefinite-lived intangible asset, such as a brand with no expected end, is not amortized. It is tested at least every year in one step: carrying amount against fair value.
+Goodwill is not amortized by public companies. It is tested at least every year at the level of the reporting unit. A company may first make a qualitative assessment; if it is not more likely than not that the unit's fair value is below its carrying amount, no further test is needed. Otherwise it applies a single step: the loss is the unit's carrying amount minus its fair value, but never more than the goodwill. Figure F10-09 shows both cases.
+Figure F10-09. Single-step goodwill impairment test, with and without the cap at the goodwill balance.
+Figure F10-10 compares the three kinds of intangible assets. It also shows the rule for research and development (R&D): U.S. GAAP expenses R&D as incurred, except for equipment and facilities that have other future uses.
+Figure F10-10. Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortization and testing.
+WATCH: NOT YET TESTABLE   ASU 2025-06 and ASU 2025-10
+ASU 2025-06 changes when companies start capitalizing internal-use software (effective for annual periods beginning after December 15, 2027). ASU 2025-10 adds guidance on government grants for assets. Under the one-year rule, neither is tested yet.
+● IFRS CONTRAST   IAS 36 and IAS 38
+IAS 36 uses one step: compare the carrying amount with the recoverable amount, which is the higher of fair value less costs of disposal and value in use (a discounted amount). IFRS allows the reversal of impairment losses on assets other than goodwill. IAS 38 requires development costs to be capitalized when six criteria are met. These are the classic IFRS habits that cost marks on the U.S. GAAP exam.
+EXAM TRAP   Impairment traps
+Step 1 uses UNDISCOUNTED cash flows. Step 2 measures the loss against FAIR VALUE.
+Goodwill: one step, and the loss is capped at the goodwill balance.
+No reversals for assets held and used, indefinite-lived intangibles or goodwill. Held for sale: gains only up to earlier losses.
+Stop depreciating an asset once it is held for sale.
+FALSE-FRIEND ALERT   Impairment in three languages
+Arabic texts use three words for impairment: الهبوط في القيمة (SOCPA), انخفاض القيمة (Gulf and Levant practice) and الاضمحلال (Egypt). In French, dépréciation means impairment; depreciation is amortissement.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+impairment
+الهبوط في القيمة (انخفاض القيمة)
+dépréciation (perte de valeur)
+recoverability test
+اختبار قابلية الاسترداد
+test de recouvrabilité
+held for sale
+محتفظ بها للبيع
+détenu en vue de la vente
+asset group
+مجموعة أصول
+groupe d'actifs
+goodwill
+الشهرة
+goodwill (écart d'acquisition)
+reporting unit
+وحدة إعداد التقارير
+unité de reporting
+indefinite-lived intangible asset
+أصل غير ملموس غير محدد العمر
+immobilisation incorporelle à durée d'utilité indéterminée
+amortization
+الإطفاء
+amortissement
+research and development (R&D)
+البحث والتطوير
+recherche et développement
+English (exam term)
+العربية
+Français
+impairment
+الهبوط في القيمة (انخفاض القيمة)
+dépréciation (perte de valeur)
+recoverability test
+اختبار قابلية الاسترداد
+test de recouvrabilité
+held for sale
+محتفظ بها للبيع
+détenu en vue de la vente
+asset group
+مجموعة أصول
+groupe d'actifs
+goodwill
+الشهرة
+goodwill (écart d'acquisition)
+reporting unit
+وحدة إعداد التقارير
+unité de reporting
+indefinite-lived intangible asset
+أصل غير ملموس غير محدد العمر
+immobilisation incorporelle à durée d'utilité indéterminée
+amortization
+الإطفاء
+amortissement
+research and development (R&D)
+البحث والتطوير
+recherche et développement
+SECTION CHECK   Test yourself
+SC10-9  Use the Jordan plant example. What impairment loss does Orontes record (USD 000)?
+A.	0
+B.	800
+C.	1,900
+D.	7,100
+SC10-10  Use Case 2 of the goodwill example. What is the goodwill impairment loss (USD 000)?
+A.	0
+B.	500
+C.	800
+D.	1,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F10-11 brings the chapter together.
+Figure F10-11. Chapter 10 summary map: the key rule for each section.
+PP&E is recorded at the cost of getting it ready for use, including interest on self-built assets. Straight-line, declining-balance, sum-of-the-years'-digits and units-of-production methods charge the same total at different times, and changes in estimates are prospective. The best method matches how the asset's benefits are used. On disposal, depreciation is brought up to date and the gain or loss is proceeds minus carrying amount. PP&E held and used is impaired only if undiscounted cash flows are below carrying amount, and the loss is measured against fair value. Indefinite-lived intangibles use a one-step fair value test, goodwill a single step capped at goodwill, and U.S. GAAP never reverses these losses.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P10-01  Orontes buys land with an old building, which it knocks down to build a warehouse. The demolition cost is:
+A.	added to the cost of the new warehouse.
+B.	expensed immediately.
+C.	added to the cost of the land.
+D.	added to the cost of the old building.
+P10-02  Use the bottling line. What is sum-of-the-years'-digits depreciation in year 1 (whole USD)?
+A.	70,000
+B.	350,000
+C.	400,000
+D.	480,000
+P10-03  Use the bottling line. What is double-declining depreciation in year 1 (whole USD)?
+A.	210,000
+B.	350,000
+C.	420,000
+D.	480,000
+P10-04  Compared with straight-line, an accelerated method in the FIRST year of an asset's life gives:
+A.	lower net income and a lower carrying amount.
+B.	higher net income and a higher carrying amount.
+C.	higher cash flow from operations before taxes.
+D.	higher total depreciation over the asset's life.
+P10-05  Use the change-in-estimate example. What is the new annual straight-line depreciation (whole USD)?
+A.	172,500
+B.	185,000
+C.	210,000
+D.	780,000
+P10-06  Under group depreciation, what happens when one asset in the group is retired?
+A.	A gain or loss is recognized on that asset.
+B.	The group is re-depreciated.
+C.	No gain or loss is recognized.
+D.	The group rate is restated for prior years.
+P10-07  The bottling line's wear depends on machine hours, and its hours fall each year. Which method gives the BEST matching of expense with use?
+A.	Straight-line
+B.	Sum-of-the-years'-digits
+C.	Units of production
+D.	Double-declining balance
+P10-08  A machine cost 50,000. At January 1, accumulated depreciation was 30,000, and straight-line depreciation is 4,000 a year. It is sold on July 1 for 17,000. What is the gain or loss?
+A.	Loss of 3,000
+B.	Gain of 1,000
+C.	Loss of 33,000
+D.	Loss of 1,000
+P10-09  A fire destroys a warehouse with a carrying amount of 400. Insurance pays 520, and the company uses the money to build a new warehouse. What does the company record for the fire?
+A.	A gain of 120
+B.	No gain, because the money is reinvested
+C.	A loss of 400
+D.	A gain of 520
+P10-10  An asset group has a carrying amount of 900, undiscounted future cash flows of 950 and a fair value of 800. What impairment loss is recorded?
+A.	0
+B.	50
+C.	100
+D.	150
+P10-11  Which statement about assets held for sale is correct?
+A.	They are measured at the lower of carrying amount and fair value less cost to sell, and are not depreciated.
+B.	They are depreciated faster because they will be sold soon.
+C.	They are measured at fair value, with gains above the carrying amount recognized.
+D.	They are tested with the two-step recoverability test.
+P10-12  An indefinite-lived brand has a carrying amount of 300 and a fair value of 260. How is it tested and what is the loss?
+A.	Two-step test; no loss if undiscounted cash flows exceed 300
+B.	Amortize it instead of testing
+C.	One-step test; no loss because brands cannot be impaired
+D.	One-step fair value test; loss of 40
+P10-13  Under U.S. GAAP, a public company tests goodwill. Which statement is correct?
+A.	The loss is measured against the implied fair value of goodwill.
+B.	The loss is the reporting unit's carrying amount minus its fair value, capped at goodwill.
+C.	Goodwill is amortized over ten years and tested only when indicators exist.
+D.	Goodwill impairment is reversed if the unit's fair value recovers.
+P10-14  Orontes spends 500 on developing a new frozen dessert. The project meets all six IAS 38 criteria. How does Orontes report the 500 under U.S. GAAP?
+A.	As an intangible asset
+B.	As inventory
+C.	As an expense
+D.	Half as an asset and half as an expense
+P10-15  Which statement about impairment under IAS 36 is TRUE?
+A.	The first step uses undiscounted cash flows.
+B.	Goodwill impairment can be reversed.
+C.	Impairment losses on assets other than goodwill can be reversed.
+D.	Recoverable amount is the lower of fair value less costs of disposal and value in use.
+P10-16  Spiral review (Chapter 1). Recording depreciation expense has what effect on the accounting equation?
+A.	Assets decrease and equity decreases.
+B.	Assets decrease and liabilities increase.
+C.	Liabilities increase and equity decreases.
+D.	No effect, because no cash moves.
+Case-style practice: the Orontes impairment review
+Use Figure F10-12 for items C10-1 to C10-6. Amounts are in USD 000 at December 31, 2025.
+Figure F10-12. Case exhibit: Orontes impairment review at December 31, 2025
+Item
+Asset
+Facts
+Amounts (USD 000)
+P
+Pastry line, Dubai
+Demand for the product fell sharply in 2025.
+carrying 500; undiscounted cash flows 450; fair value 380
+W
+Warehouse, Amman
+Local property prices fell.
+carrying 1,000; undiscounted cash flows 1,300; fair value 900
+B
+Brand 'Orontes Gold' (indefinite life)
+Annual test.
+carrying 300; fair value 260
+G
+Goodwill, Gulf beverages reporting unit
+Unit carrying amount includes the goodwill.
+carrying 2,000; goodwill included 150; fair value 1,700
+V
+Delivery van (held for sale)
+Management has committed to sell it within one year.
+carrying 60; fair value 50; cost to sell 4
+C10-1  Match each asset to the test that applies. (On the exam screen you would drag each asset into a box.)
+Categories: Two steps: recoverability, then fair value · One step: carrying amount vs fair value · Single-step goodwill test · Lower of carrying amount and fair value less cost to sell
+Asset
+Category
+P
+W
+B
+G
+V
+C10-2  Enter the impairment loss for the pastry line (P).
+Answer: ____________
+C10-3  Enter the impairment loss for the warehouse (W).
+Answer: ____________
+C10-4  Enter the goodwill impairment loss (G).
+Answer: ____________
+C10-5  Enter the total impairment and held-for-sale losses for all five assets.
+Answer: ____________
+C10-6  In 2026 the fair value of the pastry line recovers to its old carrying amount. Under U.S. GAAP, the 2025 loss: [select]
+Options: is not reversed   |   is reversed in full   |   is reversed up to the original cost   |   is reversed through OCI
+Written task
+W10  In four to six sentences, explain to the Orontes board why the warehouse has no impairment even though its fair value is below its carrying amount, while the pastry line does. Use these words: indicator, recoverability, undiscounted cash flows, fair value, reversal.
+Answers and explanations
+Section checks
+SC10-1  Answer D. Installation and testing are needed to get the machine ready for use.
+A is wrong. Ordinary repairs after use begins are expenses.
+B is wrong. Training is an operating cost, not part of the asset.
+C is wrong. Insurance after the asset is in use is a period cost.
+SC10-2  Answer B. Avoidable interest, which is below the actual interest incurred.
+A is wrong. Interest on a self-built asset must be capitalized.
+C is wrong. Actual interest is only the ceiling; the amount capitalized is the avoidable interest.
+D is wrong. This is the expenditure, not interest.
+SC10-3  Answer C. 40% × beginning book value of $720,000.
+A is wrong. This is straight-line.
+B is wrong. This is the sum-of-the-years'-digits amount.
+D is wrong. This is the year 1 amount; the rate applies to the new book value.
+SC10-4  Answer B. It is a change in accounting estimate.
+A is wrong. Restatement is for errors, not changes in estimates.
+C is wrong. No catch-up adjustment is made for a change in estimate.
+D is wrong. Retained earnings are adjusted only for error corrections.
+SC10-5  Answer C. Expense follows the actual kilometres driven.
+A is wrong. Straight-line assumes even use each year.
+B is wrong. An accelerated method assumes more benefit early, not benefit linked to use.
+D is wrong. SYD is also time-based and accelerated.
+SC10-6  Answer B. Most of its benefit comes in the early years.
+A is wrong. Equal service supports straight-line.
+C is wrong. The book method need not match the tax method.
+D is wrong. Accelerated methods lower early income.
+SC10-7  Answer C. Proceeds minus the carrying amount after depreciation to the sale date.
+A is wrong. This compares the proceeds with the original cost.
+B is wrong. This forgets the depreciation for the months before the sale.
+D is wrong. This is the cash received, not the gain.
+SC10-8  Answer D. Disposals of fixed assets are peripheral activities.
+A is wrong. Selling a machine is not the company's central operation.
+B is wrong. The gain goes to net income.
+C is wrong. Gains go through the income statement.
+SC10-9  Answer C. Recoverability fails, so the loss is carrying amount minus fair value.
+A is wrong. Undiscounted cash flows are below carrying amount, so there is a loss.
+B is wrong. This measures the loss against undiscounted cash flows.
+D is wrong. This is the fair value, not the loss.
+SC10-10  Answer C. The difference is larger than goodwill, so the loss is capped at the goodwill balance.
+A is wrong. Fair value is below carrying amount, so there is a loss.
+B is wrong. This is the Case 1 amount.
+D is wrong. This ignores the cap at the goodwill balance.
+Your turn
+Item
+Answer
+Year 2
+50% × 45,000 = 22,500; ending book value 22,500
+Year 3
+50% × 22,500 = 11,250; ending book value 11,250
+Year 4
+The rate would give more than is left above salvage, so depreciation is 11,250 − 10,000 = 1,250; ending book value 10,000
+Multiple-choice questions
+P10-01  Answer C. Demolition prepares the land for its intended use.
+A is wrong. The cost relates to preparing the site, which is part of land.
+B is wrong. It is a cost of getting the land ready for use.
+D is wrong. The old building is removed; it has no future cost.
+P10-02  Answer B. Depreciable base × 5/15.
+A is wrong. This uses the elapsed-year fraction (1/15).
+C is wrong. This applies the fraction to cost instead of the depreciable base.
+D is wrong. This is double-declining.
+P10-03  Answer D. The rate is applied to cost; salvage is not subtracted first.
+A is wrong. This is straight-line.
+B is wrong. This is sum-of-the-years'-digits.
+C is wrong. This subtracts salvage before applying the rate.
+P10-04  Answer A. Early expense is higher, so income and book value are lower.
+B is wrong. This reverses the effect.
+C is wrong. Depreciation is non-cash; only taxes can change cash.
+D is wrong. Total depreciation is the same under every method.
+P10-05  Answer A. (Current book value − new salvage) ÷ remaining life.
+B is wrong. This recomputes from original cost over the total life, which is a retrospective approach.
+C is wrong. This ignores the change in estimate.
+D is wrong. This is the book value at the date of the change.
+P10-06  Answer C. Cost minus proceeds is charged to accumulated depreciation for the group.
+A is wrong. Group depreciation does not track individual carrying amounts.
+B is wrong. The pool continues with the same rate.
+D is wrong. There is no restatement.
+P10-07  Answer C. Expense then follows the actual machine hours.
+A is wrong. Straight-line ignores the falling hours.
+B is wrong. SYD is time-based, not use-based.
+D is wrong. DDB is time-based and front-loads expense heavily.
+P10-08  Answer D. Carrying amount = 50,000 − 30,000 − 2,000 = 18,000; 17,000 − 18,000 = a loss of 1,000.
+A is wrong. This forgets the half-year depreciation before the sale.
+B is wrong. This reverses the sign.
+C is wrong. This compares the proceeds with cost.
+P10-09  Answer A. Involuntary conversions produce a gain or loss even if the proceeds are reinvested.
+B is wrong. Reinvestment does not defer the gain under U.S. GAAP.
+C is wrong. The insurance proceeds offset the loss.
+D is wrong. The carrying amount must be deducted.
+P10-10  Answer A. Undiscounted cash flows exceed the carrying amount, so the asset is recoverable.
+B is wrong. This compares cash flows with fair value.
+C is wrong. This skips the recoverability step.
+D is wrong. No loss is recorded when the recoverability test is passed.
+P10-11  Answer A. Held-for-sale assets stop being depreciated and are carried at the lower amount.
+B is wrong. Depreciation stops.
+C is wrong. Gains are limited to losses recognized before; the asset never goes above its carrying amount before classification.
+D is wrong. The held-for-sale rule replaces the held-and-used test.
+P10-12  Answer D. Indefinite-lived intangibles compare carrying amount with fair value directly.
+A is wrong. The recoverability step does not apply to indefinite-lived intangibles.
+B is wrong. Indefinite-lived intangibles are not amortized.
+C is wrong. Any intangible can be impaired.
+P10-13  Answer B. Single-step test under ASU 2017-04.
+A is wrong. The implied-fair-value step was removed.
+C is wrong. That is the private-company alternative.
+D is wrong. Goodwill impairment is never reversed.
+P10-14  Answer C. U.S. GAAP expenses R&D as incurred (ASC 730); the IAS 38 criteria do not apply.
+A is wrong. That is the IFRS treatment.
+B is wrong. Development work is not inventory.
+D is wrong. There is no partial capitalization.
+P10-15  Answer C. IAS 36 allows reversals except for goodwill.
+A is wrong. IAS 36 has one step with a discounted value in use.
+B is wrong. Goodwill impairment is never reversed, under either framework.
+D is wrong. Recoverable amount is the HIGHER of the two.
+P10-16  Answer A. Accumulated depreciation reduces assets; the expense reduces equity through net income.
+B is wrong. Accumulated depreciation is a contra-asset, not a liability.
+C is wrong. No liability is created.
+D is wrong. Non-cash expenses still change the equation.
+Case-style set: the Orontes impairment review
+C10-1
+Asset
+Category
+P
+Two steps: recoverability, then fair value
+W
+Two steps: recoverability, then fair value
+B
+One step: carrying amount vs fair value
+G
+Single-step goodwill test
+V
+Lower of carrying amount and fair value less cost to sell
+PP&E and finite-lived intangibles held and used take two steps; indefinite-lived intangibles one step; goodwill a single step capped at goodwill; held-for-sale assets the lower of carrying amount and fair value less cost to sell.
+C10-2  Answer: 120.
+50 is wrong: this answer measures the loss against undiscounted cash flows.
+C10-3  Answer: 0.
+100 is wrong: this answer skips the recoverability step and compares with fair value.
+C10-4  Answer: 150.
+300 is wrong: this answer does not cap the loss at the goodwill balance.
+C10-5  Answer: 324.
+574 is wrong: this answer uncaps the goodwill loss and impairs the recoverable warehouse.
+C10-6  Answer: is not reversed.
+is reversed in full is wrong: this answer applies the IAS 36 reversal rule.
+is reversed up to the original cost is wrong: this answer applies an IFRS-style reversal.
+is reversed through OCI is wrong: this answer impairment changes do not go through OCI.
+Written task: model answer
+Both assets had an indicator of impairment, so Orontes tested them. Under U.S. GAAP the first step is recoverability: the carrying amount is compared with the undiscounted cash flows the asset will produce. The warehouse's undiscounted cash flows are higher than its carrying amount, so it is recoverable and no loss is recorded, even though its fair value is lower. The pastry line's undiscounted cash flows are below its carrying amount, so Orontes measures a loss as carrying amount minus fair value. If the pastry line's value recovers later, U.S. GAAP does not allow a reversal of the loss.
+A good answer: explains the role of the indicator; describes the recoverability test with undiscounted cash flows; explains why the warehouse passes; measures the pastry line loss against fair value; states that the loss is not reversed.
+PART III
+Revenue, liabilities and income measurement
+Chapters 11 to 15
+PART III — REVENUE, LIABILITIES AND INCOME MEASUREMENT

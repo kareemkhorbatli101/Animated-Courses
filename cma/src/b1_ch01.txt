@@ -1,4 +1,3 @@
-PART I — FOUNDATIONS AND THE FOUR FINANCIAL STATEMENTS
 Chapter 1
 The Language and Framework of Financial Reporting
 لغة التقارير المالية وإطارها
@@ -151,7 +150,46 @@ show the item on the face of a statement
 disclose
 explain the item in the notes to the statements
 Example: Orontes recognizes revenue when it delivers the goods. It measures the revenue at the invoice price. It presents revenue in the income statement, and it discloses its revenue policy in the notes.
+Verb
+Meaning in financial reporting
+recognize
+include an item in the statements, with a name and an amount
+measure
+decide the amount of the item
+record
+enter the item in the accounts (journal and ledger)
+present
+show the item on the face of a statement
+disclose
+explain the item in the notes to the statements
 TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+financial statements
+القوائم المالية
+états financiers
+general-purpose financial statements
+القوائم المالية ذات الغرض العام
+états financiers à usage général
+primary users
+المستخدمون الرئيسيون
+utilisateurs principaux
+relevance
+الملاءمة
+pertinence
+faithful representation
+التمثيل الصادق
+représentation fidèle
+materiality
+الأهمية النسبية
+importance relative (matérialité)
+recognize
+يعترف (الاعتراف)
+comptabiliser (reconnaître)
+disclose
+يُفصح (الإفصاح)
+présenter en annexe (divulguer)
 English (exam term)
 العربية
 Français
@@ -214,6 +252,51 @@ income and revenue — Arabic دخل is not إيراد. Revenue is the gross amo
 résultat and charges — In French, résultat is the profit or loss (net income), and charges are expenses. In English, charges usually means fees.
 balance — In French, la balance is the trial balance. The balance sheet is le bilan.
 TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+asset
+أصل (أصول)
+actif
+liability
+التزام (التزامات)
+passif / dette
+equity
+حقوق الملكية
+capitaux propres
+revenue
+إيراد (إيرادات)
+produits / chiffre d'affaires
+expense
+مصروف (مصروفات)
+charge
+gain
+مكسب (مكاسب)
+profit / gain
+loss
+خسارة
+perte
+net income
+صافي الدخل
+résultat net
+retained earnings
+الأرباح المحتجزة
+résultats non distribués (report à nouveau)
+common stock
+الأسهم العادية
+actions ordinaires / capital social
+additional paid-in capital
+علاوة إصدار الأسهم (رأس المال الإضافي المدفوع)
+prime d'émission
+par value
+القيمة الاسمية
+valeur nominale
+dividend
+توزيعات الأرباح
+dividende
+accounting equation
+المعادلة المحاسبية
+équation comptable
 English (exam term)
 العربية
 Français
@@ -336,6 +419,62 @@ Totals
 4,070
 4,070
 Check each entry: the debits equal the credits. Figure F01-05 shows the effect of each entry on the four statements.
+#
+Date
+Account and explanation
+Debit
+Credit
+1
+Jan 2
+Cash
+1,500
+Common stock
+100
+Additional paid-in capital
+1,400
+Issued 100,000 new shares of $1 par common stock for $15 per share, in cash.
+2
+Jan 5
+Cash
+800
+Notes payable (long-term)
+800
+Borrowed cash from Levant Commerce Bank on a 5-year note at 6% interest.
+3
+Jan 10
+Equipment
+1,200
+Cash
+1,200
+Bought a new bottling line for the Amman plant and paid cash.
+4
+Jan 18
+Accounts receivable
+300
+Sales revenue
+300
+Cost of goods sold
+180
+Inventory
+180
+Sold olive oil to GreenBasket Supermarkets on credit. The goods had cost Orontes less than the selling price.
+5
+Jan 31
+Wages expense
+40
+Cash
+40
+Paid January wages to plant workers in cash.
+6
+Jan 31
+Retained earnings (dividends declared)
+50
+Dividends payable
+50
+The board declared a cash dividend, payable on February 15.
+Totals
+4,070
+4,070
 Figure F01-05. Effect grid for six Orontes Foods transactions in January 2025 (USD 000).
 Read the grid row by row. Three points matter for the exam.
 Rows 1 and 2 bring in cash of 2,300 in total, but no revenue. Money from owners and lenders is financing. It is not income.
@@ -367,6 +506,54 @@ FALSE-FRIEND ALERT   Arabic and French traps in this section
 مخصص — Arabic uses one word for two different things. An allowance (for example, the allowance for credit losses) reduces an asset. A provision is a liability. Never say reserve for bad debts in a U.S. GAAP answer.
 credit — Your bank credits your account when it receives your money, because the bank now owes you. That is the bank's view. Do not use banking habits to guess the accounting side.
 TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+double-entry system
+نظام القيد المزدوج
+comptabilité en partie double
+debit
+مدين
+débit
+credit
+دائن
+crédit
+normal balance
+الرصيد الطبيعي
+solde normal
+journal entry
+قيد اليومية
+écriture de journal
+T-account
+حساب على شكل حرف T
+compte en T
+trial balance
+ميزان المراجعة
+balance (de vérification)
+contra account
+حساب مقابل (حساب عكسي)
+compte de contrepartie / correctif
+accumulated depreciation
+مجمع الإهلاك (مجمع الاستهلاك / الاهتلاك)
+amortissements cumulés
+allowance for credit losses
+مخصص الخسائر الائتمانية
+dépréciation des créances
+accounts receivable
+الذمم المدينة (المدينون)
+créances clients
+accounts payable
+الذمم الدائنة (الدائنون)
+dettes fournisseurs
+inventory
+المخزون
+stocks
+cost of goods sold
+تكلفة البضاعة المباعة
+coût des ventes (coût des marchandises vendues)
+notes payable
+أوراق الدفع
+effets à payer / emprunts
 English (exam term)
 العربية
 Français
@@ -482,6 +669,24 @@ charge constatée d'avance
 contract liability (unearned revenue)
 التزام العقد (إيراد مقبوض مقدماً)
 passif sur contrat (produit constaté d'avance)
+English (exam term)
+العربية
+Français
+accrual basis
+أساس الاستحقاق
+comptabilité d'engagement
+cash basis
+الأساس النقدي
+comptabilité de caisse
+matching principle
+مبدأ مقابلة الإيرادات بالمصروفات
+principe de rattachement des charges aux produits
+prepaid expense
+مصروف مدفوع مقدماً
+charge constatée d'avance
+contract liability (unearned revenue)
+التزام العقد (إيراد مقبوض مقدماً)
+passif sur contrat (produit constaté d'avance)
 SECTION CHECK   Test yourself
 SC4-1  On December 28, a customer pays Orontes 60 for goods that Orontes will deliver in January. What does Orontes report at December 31?
 A.	A liability of 60
@@ -516,12 +721,50 @@ accounts receivable
 trade receivables
 net income
 profit
+■ U.S. GAAP (used on the exam)
+● IFRS
+balance sheet
+statement of financial position
+income statement
+statement of profit or loss
+common stock
+share capital (ordinary shares)
+additional paid-in capital
+share premium
+accounts receivable
+trade receivables
+net income
+profit
 EXAM TRAP   Four bodies, four jobs
 FASB: writes U.S. GAAP (the ASC).
 SEC: U.S. government agency with legal authority over public company reporting.
 PCAOB: sets auditing standards for audits of public companies.
 IASB: writes IFRS.
 TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+U.S. GAAP
+المبادئ المحاسبية المقبولة عموماً في الولايات المتحدة
+PCGR américains (US GAAP)
+IFRS
+المعايير الدولية لإعداد التقارير المالية
+normes IFRS
+FASB
+مجلس معايير المحاسبة المالية
+FASB
+Accounting Standards Codification (ASC)
+تقنين معايير المحاسبة
+Codification des normes comptables (ASC)
+IASB
+مجلس معايير المحاسبة الدولية
+IASB
+SEC
+هيئة الأوراق المالية والبورصات الأمريكية
+SEC
+conceptual framework
+الإطار المفاهيمي
+cadre conceptuel
 English (exam term)
 العربية
 Français
@@ -633,6 +876,24 @@ Totals
 9,750
 9,750
 TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+balance sheet
+الميزانية العمومية
+bilan
+statement of financial position
+قائمة المركز المالي
+état de la situation financière
+income statement
+قائمة الدخل
+compte de résultat
+statement of changes in equity
+قائمة التغيرات في حقوق الملكية
+tableau de variation des capitaux propres
+statement of cash flows
+قائمة التدفقات النقدية
+tableau des flux de trésorerie
 English (exam term)
 العربية
 Français
@@ -950,3 +1211,4 @@ C1-5  Answer: 2,230.
 Written task: model answer
 A cash dividend is a distribution of the company's resources to its owners. It is not an expense, because it does not help the company earn revenue; it simply returns part of the profits to the shareholders. The income statement shows only revenues, expenses, gains and losses, so the dividend does not reduce net income. Instead, the dividend reduces retained earnings directly, and the statement of changes in equity shows this reduction.
 A good answer: says a dividend is a distribution to owners; says it is not an expense; says net income is not affected; says retained earnings decrease; names the statement of changes in equity (bonus).
+PART I — FOUNDATIONS AND THE FOUR FINANCIAL STATEMENTS

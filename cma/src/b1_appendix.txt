@@ -1,0 +1,2237 @@
+Appendix A — Glossary
+All 318 terms taught in Section A, in English alphabetical order, with a short definition, the Arabic and French equivalents and the chapter where the term is introduced.
+Term
+Definition
+العربية
+Français
+Ch.
+abnormal waste
+Unusual amounts of spoilage, idle time or extra freight; they are expensed, not inventoried.
+التلف غير العادي
+gaspillage anormal
+7
+accounting equation
+Assets = Liabilities + Equity.
+المعادلة المحاسبية
+équation comptable
+1
+Accounting Standards Codification (ASC)
+The single source of authoritative nongovernmental U.S. GAAP organized by topic.
+تقنين معايير المحاسبة
+Codification des normes comptables (ASC)
+1
+accounts payable
+Amounts the company owes suppliers for goods or services bought on credit.
+الذمم الدائنة (الدائنون)
+dettes fournisseurs
+1
+accounts receivable
+Amounts customers owe the company for goods or services sold on credit.
+الذمم المدينة (المدينون)
+créances clients
+1
+accrual basis
+Recording revenues when earned and expenses when incurred, not when cash moves.
+أساس الاستحقاق
+comptabilité d'engagement
+1
+accumulated depreciation
+A contra-asset account that holds all depreciation recorded so far on an asset.
+مجمع الإهلاك (مجمع الاستهلاك / الاهتلاك)
+amortissements cumulés
+1
+accumulated other comprehensive income (AOCI)
+The equity balance that collects other comprehensive income over time.
+الدخل الشامل الآخر المتراكم
+cumul des autres éléments du résultat global
+3
+acquisition method
+Accounting for a business combination by measuring assets, liabilities and NCI at fair value and recognizing goodwill.
+طريقة الاستحواذ
+méthode de l'acquisition
+16
+additional paid-in capital
+Cash received for shares above their par value.
+علاوة إصدار الأسهم (رأس المال الإضافي المدفوع)
+prime d'émission
+1
+agent
+A company that arranges for another party to provide goods or services; it reports only its fee (net).
+الوكيل
+mandataire
+11
+aging schedule
+A table that groups receivables by how long they are past due and applies a loss rate to each group.
+جدول أعمار الذمم المدينة
+balance âgée
+6
+allowance for credit losses
+A contra-asset account that estimates receivables the company will not collect.
+مخصص الخسائر الائتمانية
+dépréciation des créances
+1
+amortization
+Allocating the cost of a finite-lived intangible asset over its useful life.
+الإطفاء
+amortissement
+10
+amortized cost
+The amount at which a receivable is measured before the allowance: initial amount less collections, plus or minus amortization.
+التكلفة المستنفدة (التكلفة المطفأة)
+coût amorti
+6
+appropriated retained earnings
+Retained earnings set aside by the board for a purpose, still shown within equity.
+أرباح مبقاة مخصصة
+résultats non distribués affectés
+4
+asset
+A present right of an entity to an economic benefit.
+أصل (أصول)
+actif
+1
+asset group
+The lowest level of assets with identifiable cash flows, used for the U.S. GAAP impairment test.
+مجموعة أصول
+groupe d'actifs
+10
+assurance-type warranty
+A warranty that only promises the product will work as agreed; its cost is accrued as a liability.
+ضمان من نوع التأكيد
+garantie de type assurance
+12
+available-for-sale (AFS) securities
+Debt securities that are neither trading nor held-to-maturity; fair value with unrealized changes in OCI.
+أوراق مالية متاحة للبيع
+titres disponibles à la vente
+9
+balance sheet
+The statement that shows assets, liabilities and equity at one date.
+الميزانية العمومية
+bilan
+1
+basis difference
+The excess of the investment cost over the investor's share of the investee's book value.
+فرق الأساس
+écart d'acquisition (différence de base)
+9
+bill-and-hold arrangement
+A contract in which the seller bills the customer but keeps the goods until a later date.
+ترتيب الفوترة والاحتفاظ
+vente à livrer (facturation et détention)
+11
+bond discount
+The amount paid below face value because the stated rate is lower than the market rate.
+خصم إصدار السند
+décote (sur obligation)
+9
+bond premium
+The amount paid above face value because the stated rate is higher than the market rate.
+علاوة إصدار السند
+prime (sur obligation)
+9
+breakage
+The part of prepaid rights, such as gift cards, that customers are not expected to use.
+الحقوق غير المستخدمة (الكسر)
+droits non exercés
+11
+callable debt
+Debt that the lender can demand to be repaid, for example after a covenant violation.
+دين قابل للاستدعاء (مستحق عند الطلب)
+dette exigible (à la demande)
+2
+capital expenditure
+A cost that adds to an asset because it extends its life or increases its capacity.
+نفقة رأسمالية
+dépense d'investissement
+10
+capitalized interest
+Interest added to the cost of an asset that the company builds for its own use (avoidable interest).
+الفائدة المرسملة
+coûts d'emprunt incorporés
+10
+capitals
+The stocks of value that an organization uses and affects: financial, manufactured, intellectual, human, social and relationship, and natural.
+رؤوس الأموال
+capitaux
+18
+carrying amount
+Cost minus accumulated depreciation and impairment; also called book value.
+القيمة الدفترية
+valeur comptable
+10
+cash basis
+Recording revenues and expenses only when cash is received or paid; not allowed for U.S. GAAP statements.
+الأساس النقدي
+comptabilité de caisse
+1
+cash discount
+A price reduction offered to customers who pay early; for the seller it is variable consideration.
+خصم تعجيل الدفع (خصم نقدي)
+escompte de règlement
+6
+cash equivalents
+Short-term, highly liquid investments with an original maturity to the holder of three months or less.
+معادلات النقد (ما في حكم النقد)
+équivalents de trésorerie
+5
+cash-generating unit
+The smallest group of assets that generates largely independent cash inflows (IFRS).
+وحدة توليد النقد
+unité génératrice de trésorerie
+17
+ceiling
+Under LCM, market cannot be higher than NRV.
+الحد الأعلى
+plafond
+8
+change in accounting estimate
+A revision of a useful life, salvage value or similar estimate; applied prospectively.
+التغير في التقدير المحاسبي
+changement d'estimation comptable
+10
+classified balance sheet
+A balance sheet that separates current from noncurrent assets and liabilities.
+قائمة المركز المالي المبوبة
+bilan présenté par ordre courant/non courant
+2
+commercial paper
+Short-term, unsecured promissory notes that large companies sell to investors.
+الأوراق التجارية
+billets de trésorerie
+12
+commercial substance
+An exchange has commercial substance if it changes the company's future cash flows significantly.
+الجوهر التجاري
+substance commerciale
+10
+common stock
+The shares that give owners voting rights; recorded at par value.
+الأسهم العادية
+actions ordinaires / capital social
+1
+compensated absences
+Paid time off, such as vacation, that employees have earned; accrued if rights vest or accumulate and payment is probable.
+الإجازات المدفوعة المستحقة
+absences rémunérées (congés payés)
+12
+component depreciation
+Depreciating each significant part of an asset separately over its own life; required by IFRS, allowed by U.S. GAAP.
+الإهلاك حسب المكونات
+amortissement par composants
+17
+component of an entity
+A part of a company whose operations and cash flows can be clearly separated from the rest.
+مكوِّن من مكونات المنشأة
+composante d'une entité
+3
+comprehensive income
+Net income plus other comprehensive income for the period.
+الدخل الشامل
+résultat global
+3
+conceptual framework
+The set of basic ideas (objective users elements characteristics) behind the standards.
+الإطار المفاهيمي
+cadre conceptuel
+1
+consideration payable to a customer
+Amounts a company pays to its customer, such as slotting fees; they reduce the transaction price unless they buy a distinct good or service.
+العوض المستحق الدفع للعميل
+contrepartie payable au client
+11
+consignee
+The party that holds and sells goods on consignment; it does not own them.
+المُرسَل إليه (الوكيل بالعمولة)
+consignataire (dépositaire)
+7
+consignment
+An arrangement in which a consignee sells goods for a consignor, who still owns them.
+البضاعة بالأمانة
+consignation (dépôt-vente)
+7
+consignor
+The owner of goods on consignment; the goods stay in the consignor's inventory.
+المُرسِل (مالك البضاعة بالأمانة)
+consignateur (déposant)
+7
+consolidated financial statements
+Statements that present a parent and its subsidiaries as one economic entity.
+القوائم المالية الموحدة
+états financiers consolidés
+16
+constraint on variable consideration
+The rule that variable consideration is included only if a significant revenue reversal is not probable.
+قيد العوض المتغير
+limitation de la contrepartie variable
+11
+content elements
+The eight questions that an integrated report answers, such as business model, strategy and outlook.
+عناصر المحتوى
+éléments de contenu
+18
+contra account
+An account that reduces a related account and has the opposite normal balance.
+حساب مقابل (حساب عكسي)
+compte de contrepartie / correctif
+1
+contract asset
+A right to consideration that still depends on something other than the passage of time.
+أصل العقد
+actif sur contrat
+6
+contract liability (unearned revenue)
+A liability: cash received before the company delivers the goods or services.
+التزام العقد (إيراد مقبوض مقدماً)
+passif sur contrat (produit constaté d'avance)
+1
+contributed capital
+Amounts owners have paid in: common stock, preferred stock and additional paid-in capital.
+رأس المال المساهم به (المدفوع)
+capital apporté
+4
+controlling financial interest
+The interest that requires consolidation: usually more than 50% of the votes, or being the primary beneficiary of a VIE.
+الحصة المالية المسيطرة
+participation financière conférant le contrôle
+16
+conventional retail method
+A retail method that includes markups but excludes markdowns from the ratio, which approximates LCM.
+طريقة التجزئة التقليدية
+méthode du prix de détail classique
+8
+cost flow assumption
+A rule for deciding which unit costs go to cost of goods sold and which stay in ending inventory.
+افتراض تدفق التكلفة
+hypothèse de flux des coûts
+7
+cost method
+Recording treasury stock at the price paid to buy it back.
+طريقة التكلفة
+méthode du coût
+4
+cost of goods sold
+The cost of the inventory the company sold in the period.
+تكلفة البضاعة المباعة
+coût des ventes (coût des marchandises vendues)
+1
+cost-to-retail ratio
+Goods available at cost divided by goods available at retail.
+نسبة التكلفة إلى سعر التجزئة
+ratio coût/prix de vente au détail
+8
+counterbalancing error
+An error that reverses in the next period, so retained earnings are correct after two periods.
+خطأ ذاتي التصحيح (خطأ معاكس)
+erreur qui s'annule (erreur compensatrice)
+7
+covenant
+A condition in a loan agreement, such as a maximum debt-to-equity ratio.
+تعهد (شرط) في اتفاقية القرض
+clause restrictive (covenant)
+2
+credit
+The right side of an account; to enter an amount on the right side.
+دائن
+crédit
+1
+credit loss expense
+The expense that brings the allowance for credit losses to its required balance.
+مصروف الخسائر الائتمانية
+charge de pertes de crédit (dotation aux dépréciations)
+6
+current assets
+Cash and assets expected to be turned into cash, sold or used up within one year or the operating cycle, whichever is longer.
+الأصول المتداولة
+actifs courants
+2
+current expected credit losses (CECL)
+The U.S. GAAP model: record lifetime expected credit losses from the day a receivable is recognized.
+الخسائر الائتمانية المتوقعة الحالية
+pertes de crédit attendues (modèle CECL)
+6
+current liabilities
+Obligations expected to be settled with current assets or by creating other current liabilities.
+الالتزامات المتداولة
+passifs courants
+2
+current portion of long-term debt
+Principal of long-term debt that is due within one year (or the operating cycle).
+الجزء المتداول من الديون طويلة الأجل
+partie courante de la dette à long terme
+2
+current ratio
+Current assets divided by current liabilities.
+نسبة التداول
+ratio de liquidité générale
+2
+current tax expense
+Income tax payable (or refundable) for the current year's taxable income.
+مصروف الضريبة الجارية
+charge d'impôt exigible
+13
+date of record
+The date that decides which shareholders receive the dividend; no entry is made.
+تاريخ التسجيل (الاستحقاق)
+date d'enregistrement
+4
+debit
+The left side of an account; to enter an amount on the left side.
+مدين
+débit
+1
+debt security
+A security that gives the holder a right to interest and repayment, such as a bond.
+أداة دين (سند)
+titre de créance
+9
+declaration date
+The date the board declares a dividend; a liability arises for a cash dividend.
+تاريخ الإعلان
+date de déclaration
+4
+deductible temporary difference
+A temporary difference that will reduce taxable income when it reverses; it creates a deferred tax asset.
+فرق مؤقت قابل للخصم
+différence temporaire déductible
+13
+deferred tax asset
+Income tax recoverable in future years from deductible temporary differences and carryforwards.
+أصل ضريبي مؤجل
+actif d'impôt différé
+13
+deferred tax expense
+The change in net deferred tax liabilities and assets during the year, recognized in income.
+مصروف الضريبة المؤجلة
+charge d'impôt différé
+13
+deferred tax liability
+Income tax payable in future years on taxable temporary differences.
+التزام ضريبي مؤجل
+passif d'impôt différé
+13
+defined benefit plan
+A pension plan that promises a benefit based on a formula; the employer bears the investment risk.
+خطة المنافع المحددة
+régime à prestations définies
+17
+depreciable base
+Cost minus salvage value.
+المبلغ القابل للاستهلاك
+montant amortissable
+10
+development costs
+Costs of applying research findings to design new products; capitalized under IFRS when six criteria are met, expensed under U.S. GAAP.
+تكاليف التطوير
+frais de développement
+17
+direct method
+Presenting operating cash flow as the main classes of cash receipts and payments.
+الطريقة المباشرة
+méthode directe
+5
+direct write-off method
+Recording an expense only when a specific receivable is written off; not GAAP when bad debts are material.
+طريقة الشطب المباشر
+méthode de radiation directe
+6
+disclose
+To give information in the notes to the financial statements.
+يُفصح (الإفصاح)
+présenter en annexe (divulguer)
+1
+discontinued operation
+A component that has been sold, is held for sale or has been disposed of, and whose disposal is a strategic shift with a major effect.
+العمليات غير المستمرة (المتوقفة)
+activité abandonnée
+3
+disposal group
+Assets and related liabilities to be disposed of together in one transaction.
+مجموعة الاستبعاد
+groupe destiné à être cédé
+15
+dividend
+A distribution of company resources to owners; it reduces retained earnings and is not an expense.
+توزيعات الأرباح
+dividende
+1
+double-declining-balance method
+Depreciation at twice the straight-line rate on the beginning book value, never below salvage value.
+طريقة القسط المتناقص المضاعف
+amortissement dégressif (taux double)
+10
+double-entry system
+The system in which every transaction has equal debits and credits.
+نظام القيد المزدوج
+comptabilité en partie double
+1
+downstream sale
+A sale from a parent to its subsidiary (or investor to investee).
+البيع من الأم إلى التابعة
+vente descendante
+16
+earnings per share (EPS)
+Net income available to common shareholders divided by the weighted-average number of common shares outstanding.
+ربحية السهم
+résultat par action
+3
+effective control
+The transferor's continued control of transferred assets, for example through a duty to repurchase them; it prevents sale accounting.
+السيطرة الفعلية
+contrôle effectif
+6
+effective tax rate
+Total income tax expense divided by pretax income.
+معدل الضريبة الفعلي
+taux effectif d'impôt
+13
+effective-interest method
+Interest revenue = carrying amount at the start of the period × the market rate at purchase.
+طريقة الفائدة الفعلية
+méthode du taux d'intérêt effectif
+9
+enacted tax rate
+A tax rate set by a law that has been signed; U.S. GAAP measures deferred taxes at enacted rates.
+معدل الضريبة المُقر (المسنون)
+taux d'impôt adopté
+13
+equity
+The owners' residual interest: assets minus liabilities.
+حقوق الملكية
+capitaux propres
+1
+equity method
+Carrying an investment at cost plus the investor's share of investee income, minus dividends received.
+طريقة حقوق الملكية
+mise en équivalence
+9
+equity security
+A security that gives an ownership interest, such as shares of common stock.
+أداة حقوق ملكية (أسهم)
+titre de capitaux propres
+9
+expense
+Decreases in assets or increases in liabilities from the company's central operations.
+مصروف (مصروفات)
+charge
+1
+factor
+A finance company that buys or lends against receivables.
+شركة التخصيم
+factor (société d'affacturage)
+6
+factoring
+Transferring receivables to a factor in exchange for cash.
+تخصيم الذمم المدينة (بيع الديون)
+affacturage
+6
+fair value
+The price that would be received to sell an asset in an orderly transaction between market participants.
+القيمة العادلة
+juste valeur
+9
+fair value less cost to sell
+The price that would be received for an asset, minus the direct costs of selling it.
+القيمة العادلة ناقصاً تكاليف البيع
+juste valeur diminuée des coûts de la vente
+15
+fair value less costs of disposal
+The price that would be received for an asset, minus the direct costs of disposing of it (IFRS).
+القيمة العادلة ناقصاً تكاليف الاستبعاد
+juste valeur diminuée des coûts de sortie
+17
+fair value option
+An irrevocable election to measure an eligible financial asset or liability at fair value through net income.
+خيار القيمة العادلة
+option de la juste valeur
+9
+faithful representation
+Information shows what it claims to show: complete neutral and free from error.
+التمثيل الصادق
+représentation fidèle
+1
+FASB
+Financial Accounting Standards Board: the private body that sets U.S. GAAP.
+مجلس معايير المحاسبة المالية
+FASB
+1
+FIFO (first-in, first-out)
+A cost flow assumption: the oldest costs go to cost of goods sold first.
+الوارد أولاً يُصرف أولاً
+PEPS (premier entré, premier sorti)
+7
+finance lease
+A lease that meets at least one of five criteria; the lessee records interest and amortization separately.
+عقد إيجار تمويلي
+contrat de location-financement
+14
+financial capital
+Funds available to the organization, from financing or generated by operations.
+رأس المال المالي
+capital financier
+18
+financial flexibility
+The ability to raise cash or change the timing of cash flows when needs or opportunities arise.
+المرونة المالية
+flexibilité financière
+2
+financial statements
+Formal reports that show a company's financial position and performance to people outside the company.
+القوائم المالية
+états financiers
+1
+financing activities
+Cash flows with owners and lenders: issuing and buying back shares, borrowing and repaying principal, paying dividends.
+الأنشطة التمويلية
+activités de financement
+5
+floor
+Under LCM, market cannot be lower than NRV minus a normal profit margin.
+الحد الأدنى
+plancher
+8
+FOB destination
+Shipping term: the seller keeps control of the goods until they reach the buyer.
+التسليم عند نقطة الوصول
+FOB destination (arrivée)
+7
+FOB shipping point
+Shipping term: the buyer controls the goods from the moment they leave the seller.
+التسليم عند نقطة الشحن
+FOB point d'expédition (départ)
+7
+freight-in
+The cost of transporting purchased goods to the company; it is part of inventory cost.
+مصاريف نقل المشتريات
+frais de transport sur achats
+7
+freight-out
+The cost of delivering goods to customers; it is a selling expense, not inventory cost.
+مصاريف نقل المبيعات
+frais de transport sur ventes
+7
+function of expense
+Grouping expenses by activity, such as cost of sales and selling expenses.
+عرض المصروفات حسب الوظيفة
+présentation des charges par fonction
+3
+gain
+An increase in equity from a peripheral or incidental transaction.
+مكسب (مكاسب)
+profit / gain
+1
+general-purpose financial statements
+Financial statements prepared for many users at once, not for one special user.
+القوائم المالية ذات الغرض العام
+états financiers à usage général
+1
+goods available for sale
+Beginning inventory plus net purchases (or cost of goods manufactured).
+البضاعة المتاحة للبيع
+marchandises disponibles à la vente
+7
+goods in transit
+Goods that have left the seller but have not yet reached the buyer on the balance sheet date.
+بضاعة في الطريق
+marchandises en transit
+7
+goodwill
+The excess of the price paid for a business over the fair value of its identifiable net assets.
+الشهرة
+goodwill (écart d'acquisition)
+10
+grace period
+A period in which a borrower may cure a violation before the debt becomes callable.
+فترة سماح
+délai de grâce
+2
+graded vesting
+Share awards that vest in parts over several dates.
+الاستحقاق المتدرج
+acquisition graduelle des droits
+17
+gross profit
+Net sales minus cost of goods sold.
+مجمل الربح
+marge brute
+7
+gross profit method
+An estimate of ending inventory using the usual gross profit rate; not acceptable for annual GAAP statements.
+طريقة مجمل الربح
+méthode de la marge brute
+8
+guiding principles
+The seven principles that shape how an integrated report is prepared and presented.
+المبادئ التوجيهية
+principes directeurs
+18
+held for sale
+Assets management has committed to sell within one year; measured at the lower of carrying amount and fair value less cost to sell.
+محتفظ بها للبيع
+détenu en vue de la vente
+10
+held for sale
+Describes an asset or disposal group that meets six criteria for sale within one year; measured at the lower of carrying amount and fair value less cost to sell.
+محتفظ به للبيع
+détenu en vue de la vente
+15
+held-to-maturity (HTM) securities
+Debt securities the company has the positive intent and ability to hold to maturity; measured at amortized cost.
+أوراق مالية محتفظ بها حتى تاريخ الاستحقاق
+titres détenus jusqu'à l'échéance
+9
+holdback (due from factor)
+Part of the price the factor keeps to cover returns and discounts; an asset of the seller.
+المبلغ المحتجز (مستحق من شركة التخصيم)
+retenue de garantie (créance sur le factor)
+6
+holding gain or loss
+A change in the fair value of an asset while it is held, before it is sold.
+مكسب أو خسارة الاحتفاظ
+profit ou perte de détention
+15
+human capital
+People's skills, experience and motivation.
+رأس المال البشري
+capital humain
+18
+IASB
+International Accounting Standards Board: the body that sets IFRS.
+مجلس معايير المحاسبة الدولية
+IASB
+1
+IFRS
+International Financial Reporting Standards issued by the IASB.
+المعايير الدولية لإعداد التقارير المالية
+normes IFRS
+1
+impairment
+A loss that occurs when the carrying amount of an asset cannot be recovered.
+الهبوط في القيمة (انخفاض القيمة)
+dépréciation (perte de valeur)
+10
+income from continuing operations
+Income after tax from the parts of the business that the company keeps.
+الدخل من العمليات المستمرة
+résultat des activités poursuivies
+3
+income statement
+The statement that shows revenues, expenses and net income for a period.
+قائمة الدخل
+compte de résultat
+1
+incremental borrowing rate
+The rate the lessee would pay to borrow a similar amount on similar terms; used when the rate implicit in the lease is not known.
+معدل الاقتراض الإضافي
+taux d'emprunt marginal
+14
+incremental costs of obtaining a contract
+Costs a company would not have incurred without the contract, such as sales commissions.
+التكاليف الإضافية للحصول على العقد
+coûts marginaux d'obtention du contrat
+11
+indefinite-lived intangible asset
+An intangible asset with no foreseeable limit to its useful life, such as some brands; not amortized.
+أصل غير ملموس غير محدد العمر
+immobilisation incorporelle à durée d'utilité indéterminée
+10
+indirect method
+Presenting operating cash flow by adjusting net income for noncash items and changes in working capital.
+الطريقة غير المباشرة
+méthode indirecte
+5
+input method
+Measuring progress by efforts, such as costs incurred or labor hours.
+طريقة المدخلات
+méthode fondée sur les intrants
+11
+integrated report
+A concise communication about how an organization's strategy, governance, performance and prospects lead to value creation over time.
+التقرير المتكامل
+rapport intégré
+18
+integrated reporting
+A process founded on integrated thinking that results in a periodic integrated report about value creation.
+إعداد التقارير المتكاملة
+reporting intégré
+18
+integrated thinking
+Management's active consideration of the relationships between its units and the capitals it uses and affects.
+التفكير المتكامل
+pensée intégrée
+18
+intellectual capital
+Knowledge-based intangibles such as patents, recipes, software, brand and systems.
+رأس المال الفكري
+capital intellectuel
+18
+intercompany transaction
+A transaction between companies in the same group; eliminated in consolidation.
+المعاملة داخل المجموعة
+transaction intragroupe
+16
+interperiod tax allocation
+Recognizing the tax effects of transactions in the same periods as the transactions, through deferred taxes.
+توزيع الضريبة بين الفترات
+répartition de l'impôt entre exercices
+13
+intraperiod tax allocation
+Showing each part of income, such as discontinued operations, together with its own tax.
+توزيع الضريبة داخل الفترة
+répartition de l'impôt au sein de l'exercice
+3
+inventoriable cost
+A cost included in inventory and expensed as cost of goods sold when the goods are sold.
+تكلفة قابلة للتحميل على المخزون
+coût incorporable aux stocks
+7
+inventory
+Goods held for sale or used to make goods for sale.
+المخزون
+stocks
+1
+investee
+The company whose shares are held; under IFRS an investee with significant influence is an associate.
+المنشأة المستثمر فيها
+entité détenue
+9
+investing activities
+Cash flows from buying and selling long-term assets and investments, and from making and collecting loans.
+الأنشطة الاستثمارية
+activités d'investissement
+5
+involuntary conversion
+A loss of an asset through fire, flood or government expropriation, usually with insurance or compensation.
+التحويل غير الإرادي
+conversion involontaire
+10
+issued shares
+Shares a company has sold or given to owners, including shares it has bought back and holds.
+الأسهم المصدرة
+actions émises
+4
+item-by-item basis
+Applying LCM or LCNRV to each item separately; the most conservative basis.
+أساس كل صنف على حدة
+article par article
+8
+joint venture
+An entity jointly controlled by its owners; accounted for by the equity method.
+المشروع المشترك
+coentreprise
+16
+journal entry
+A record of one transaction showing the accounts debited and credited.
+قيد اليومية
+écriture de journal
+1
+lease
+A contract that gives the right to control the use of an identified asset for a period in exchange for payment.
+عقد الإيجار
+contrat de location
+14
+lease liability
+The present value of lease payments not yet paid.
+التزام عقد الإيجار
+passif locatif
+14
+lease term
+The noncancelable period plus renewal periods reasonably certain to be used.
+مدة عقد الإيجار
+durée du contrat de location
+14
+legal isolation
+Transferred assets are beyond the reach of the transferor and its creditors, even in bankruptcy.
+العزل القانوني
+isolement juridique
+6
+lessee
+The party that obtains the right to use the asset.
+المستأجر
+preneur
+14
+lessor
+The party that provides the asset.
+المؤجر
+bailleur
+14
+liability
+A present obligation of an entity to transfer an economic benefit.
+التزام (التزامات)
+passif / dette
+1
+LIFO (last-in, first-out)
+A cost flow assumption: the newest costs go to cost of goods sold first. Not allowed under IFRS.
+الوارد أخيراً يُصرف أولاً
+DEPS (dernier entré, premier sorti)
+7
+LIFO conformity rule
+U.S. tax rule: a company that uses LIFO for tax must also use LIFO in its financial statements.
+قاعدة التوافق الضريبي لطريقة LIFO
+règle de conformité LIFO
+7
+LIFO liquidation
+Selling old, low-cost LIFO layers when quantities fall; it raises income once.
+تصفية طبقات LIFO
+liquidation des couches LIFO
+7
+LIFO reserve
+FIFO (or current cost) inventory minus LIFO inventory.
+احتياطي LIFO (فرق تقويم LIFO)
+réserve LIFO
+7
+liquidating dividend
+A distribution that returns contributed capital rather than paying out earnings.
+توزيعات تصفية (إرجاع رأس مال)
+dividende de liquidation
+4
+liquidity
+The ability to pay obligations as they fall due in the short term.
+السيولة
+liquidité
+2
+loss
+A decrease in equity from a peripheral or incidental transaction.
+خسارة
+perte
+1
+loss contingency
+An existing uncertainty that may cause a loss, depending on a future event.
+خسارة محتملة (التزام محتمل)
+perte éventuelle
+2
+lower of cost and net realizable value (LCNRV)
+The test for inventory measured by FIFO, average cost or specific identification.
+التكلفة أو صافي القيمة القابلة للتحقق، أيهما أقل
+plus faible du coût et de la valeur nette de réalisation
+8
+lower of cost or market (LCM)
+The test for inventory measured by LIFO or the retail inventory method.
+التكلفة أو السوق، أيهما أقل
+moindre du coût ou du marché
+8
+manufactured capital
+Physical objects used in production, such as buildings, equipment and infrastructure.
+رأس المال المصنَّع
+capital manufacturier
+18
+markdown
+A decrease in the selling price below the original retail price.
+تخفيض سعر البيع
+démarque
+8
+markup
+An increase in the selling price above the original retail price.
+زيادة سعر البيع
+majoration
+8
+matching principle
+Record expenses in the same period as the revenues they help to produce.
+مبدأ مقابلة الإيرادات بالمصروفات
+principe de rattachement des charges aux produits
+1
+material right
+A customer option to buy future goods at a discount it would not otherwise receive; a separate performance obligation.
+حق جوهري
+droit significatif
+11
+materiality
+Information is material if leaving it out or misstating it could change users' decisions.
+الأهمية النسبية
+importance relative (matérialité)
+1
+measurement alternative
+For equity securities without a readily determinable fair value: cost minus impairment, adjusted for observable price changes.
+بديل القياس
+méthode d'évaluation alternative
+9
+moving average
+Perpetual method: a new average unit cost is computed after each purchase.
+المتوسط المتحرك
+coût moyen pondéré après chaque entrée (CMUP)
+7
+multi-step income statement
+An income statement that shows subtotals such as gross profit, operating income and income before tax.
+قائمة الدخل متعددة المراحل
+compte de résultat à plusieurs niveaux (soldes intermédiaires)
+3
+natural capital
+Environmental resources such as water, land, air and biodiversity.
+رأس المال الطبيعي
+capital naturel
+18
+net income
+Revenues and gains minus expenses and losses for a period.
+صافي الدخل
+résultat net
+1
+net operating loss carryforward
+A tax loss that can reduce taxable income in future years.
+ترحيل صافي الخسارة التشغيلية
+report en avant des déficits
+13
+net realizable value (NRV)
+Expected selling price minus the costs to complete, sell and transport the goods.
+صافي القيمة القابلة للتحقق
+valeur nette de réalisation (VNR)
+8
+noncash investing and financing activities
+Investing or financing transactions with no cash, such as buying land by issuing shares; disclosed, not in the body.
+الأنشطة الاستثمارية والتمويلية غير النقدية
+opérations d'investissement et de financement sans effet de trésorerie
+5
+noncontrolling interest
+The equity in a subsidiary not owned by the parent; shown in consolidated equity.
+الحصص غير المسيطرة
+participations ne donnant pas le contrôle
+16
+normal balance
+The side (debit or credit) that increases an account.
+الرصيد الطبيعي
+solde normal
+1
+normal capacity
+The production expected on average over several periods; fixed overhead is allocated on this basis.
+الطاقة العادية
+capacité normale
+7
+normal profit margin
+The profit a company usually earns on an item; used to set the LCM floor.
+هامش الربح العادي
+marge bénéficiaire normale
+8
+notes payable
+Written promises to pay borrowed money at a future date.
+أوراق الدفع
+effets à payer / emprunts
+1
+notes receivable
+Written promises by customers or borrowers to pay a sum on a future date, usually with interest.
+أوراق القبض
+effets à recevoir
+6
+operating activities
+Cash flows from the company's main revenue activities, and all flows that are not investing or financing.
+الأنشطة التشغيلية
+activités opérationnelles
+5
+operating cycle
+The average time from buying materials to collecting cash from customers.
+دورة التشغيل
+cycle d'exploitation
+2
+operating income
+Gross profit minus operating expenses, before other income and expense, interest and tax.
+الدخل التشغيلي
+résultat opérationnel
+3
+operating lease
+A lease that meets none of the five criteria; the lessee records a single straight-line lease cost.
+عقد إيجار تشغيلي
+contrat de location simple
+14
+other comprehensive income (OCI)
+Gains and losses that bypass net income and go to accumulated OCI in equity.
+الدخل الشامل الآخر
+autres éléments du résultat global
+3
+other income and expense
+Revenues, expenses, gains and losses from activities outside the main operations, such as interest and investment income.
+الإيرادات والمصروفات الأخرى
+autres produits et charges
+3
+outcomes
+The changes to the capitals caused by the business model's activities and outputs.
+النتائج (الآثار)
+effets
+18
+output method
+Measuring progress by results, such as units delivered or milestones reached.
+طريقة المخرجات
+méthode fondée sur les extrants
+11
+outputs
+The products, services, by-products and waste that the business model produces.
+المخرجات
+extrants
+18
+outstanding shares
+Issued shares minus treasury shares; these receive dividends and votes.
+الأسهم القائمة (المتداولة)
+actions en circulation
+4
+over time
+Revenue recognized as control transfers during a period, measured by progress.
+على مدى زمني
+progressivement
+11
+par value
+A legal amount printed per share; it is not the market price.
+القيمة الاسمية
+valeur nominale
+1
+parent
+A company that controls one or more subsidiaries.
+المنشأة الأم
+société mère
+16
+payroll taxes
+Taxes the employer pays on wages, such as its share of social security.
+ضرائب الرواتب
+charges sociales (cotisations patronales)
+12
+performance obligation
+A promise in a contract to transfer a distinct good or service to the customer.
+التزام الأداء
+obligation de prestation
+11
+period cost
+A cost expensed in the period in which it is incurred, not added to inventory.
+تكلفة الفترة
+charge de la période
+7
+period cost
+A cost expensed in the period incurred because it has no clear link to future revenue, such as advertising.
+تكلفة الفترة
+charge de la période
+15
+periodic inventory system
+Cost of goods sold is calculated at the end of the period from a physical count.
+نظام الجرد الدوري
+inventaire intermittent
+7
+permanent difference
+An item included in book income or taxable income but never in the other; it creates no deferred tax.
+فرق دائم
+différence permanente
+13
+perpetual inventory system
+Inventory and cost of goods sold are updated after every purchase and sale.
+نظام الجرد المستمر
+inventaire permanent
+7
+physical count
+Counting the goods on hand at the balance sheet date.
+الجرد الفعلي
+inventaire physique
+7
+pledging
+Using receivables as collateral for a loan; they are not transferred and stay on the balance sheet.
+رهن الذمم المدينة
+nantissement de créances
+6
+point in time
+Revenue recognized when control transfers at one moment, such as delivery.
+عند نقطة من الزمن
+à une date donnée
+11
+preferred stock
+Shares with a priority over common stock for dividends or in liquidation.
+الأسهم الممتازة
+actions privilégiées
+4
+prepaid expense
+An asset: cash paid now for a benefit the company will receive later.
+مصروف مدفوع مقدماً
+charge constatée d'avance
+1
+primary beneficiary
+The party with both power over a VIE's most significant activities and exposure to its significant losses or benefits.
+المستفيد الرئيسي
+bénéficiaire principal
+16
+primary users
+Existing and potential investors, lenders and other creditors who cannot demand special reports from the company.
+المستخدمون الرئيسيون
+utilisateurs principaux
+1
+principal
+A company that controls a good or service before transfer; it reports revenue gross.
+الأصيل
+entité agissant pour son propre compte
+11
+prior service cost
+The cost of plan amendments that give benefits for past service; amortized from OCI under U.S. GAAP, expensed at once under IFRS.
+تكلفة الخدمة السابقة
+coût des services passés
+17
+prior-period adjustment
+A correction of an error in earlier statements, made to opening retained earnings, net of tax.
+تسوية سنوات سابقة
+ajustement d'exercices antérieurs
+4
+property dividend
+A dividend paid with a noncash asset, measured at its fair value.
+توزيعات عينية
+dividende en nature
+4
+property, plant and equipment (PP&E)
+Tangible long-lived assets used in operations, such as land, buildings and machines.
+العقارات والآلات والمعدات
+immobilisations corporelles
+10
+proportionate consolidation
+Recognizing only the investor's share of each asset, liability, revenue and expense; rarely allowed in U.S. GAAP.
+التوحيد التناسبي
+intégration proportionnelle
+16
+purchase commitment
+A contract to buy goods in the future at a fixed price.
+التزام شراء
+engagement d'achat
+8
+purchase discount
+A reduction in price for paying a supplier early; it reduces inventory cost.
+خصم المشتريات (خصم نقدي)
+escompte sur achats
+7
+qualifying financing agreement
+A lender agreement that lets the company refinance long-term: not cancelable within a year except for objective violations, with no violation and a lender able to pay.
+اتفاقية تمويل مؤهلة
+accord de financement admissible
+12
+reclassification adjustment
+Moving an amount from accumulated OCI to net income when the gain or loss is realized, for example on the sale of an AFS security.
+تعديل إعادة التصنيف
+reclassement en résultat (recyclage)
+9
+recognize
+To include an item in the financial statements with a word and an amount.
+يعترف (الاعتراف)
+comptabiliser (reconnaître)
+1
+recourse
+The factor's right to recover losses from the seller if customers do not pay.
+حق الرجوع
+recours
+6
+recourse liability
+The fair value of the seller's obligation under recourse, recorded in a sale with recourse.
+التزام حق الرجوع
+passif au titre du recours
+6
+recoverability test
+U.S. GAAP step 1: compare the carrying amount with the sum of undiscounted future cash flows.
+اختبار قابلية الاسترداد
+test de recouvrabilité
+10
+recoverable amount
+The higher of fair value less costs of disposal and value in use (IFRS).
+المبلغ القابل للاسترداد
+valeur recouvrable
+17
+recovery
+Collecting a receivable that was written off earlier; the receivable and allowance are reinstated first.
+استرداد دين مشطوب
+recouvrement d'une créance passée en perte
+6
+refinancing
+Replacing a short-term obligation with long-term debt or equity.
+إعادة التمويل
+refinancement
+2
+refund liability
+A liability for amounts a company expects to refund, for example for expected returns.
+التزام الاسترداد
+passif au titre des remboursements
+11
+relevance
+Information can make a difference to users' decisions (predictive value confirmatory value materiality).
+الملاءمة
+pertinence
+1
+remeasurements
+Actuarial gains and losses and certain return differences on a defined benefit plan, recognized in OCI.
+إعادة القياس
+réévaluations du passif net
+17
+replacement cost
+The current cost to buy or make the item again; the starting point for market under LCM.
+تكلفة الإحلال
+coût de remplacement
+8
+reporting unit
+The level at which goodwill is tested for impairment under U.S. GAAP.
+وحدة إعداد التقارير
+unité de reporting
+10
+research and development (R&D)
+Activities to discover new knowledge or to turn it into products; expensed under U.S. GAAP.
+البحث والتطوير
+recherche et développement
+10
+residual value guarantee
+A promise by the lessee that the asset will be worth at least a stated amount at the end of the lease.
+ضمان القيمة المتبقية
+garantie de valeur résiduelle
+14
+restricted cash
+Cash that cannot be used freely, for example cash set aside to repay debt.
+النقد المقيد
+trésorerie soumise à restrictions
+2
+retail inventory method
+A method that estimates the cost of ending inventory from retail prices and a cost-to-retail ratio.
+طريقة سعر التجزئة
+méthode du prix de détail
+8
+retained earnings
+The part of equity made of past net income not paid out as dividends.
+الأرباح المحتجزة
+résultats non distribués (report à nouveau)
+1
+revaluation model
+Carrying PP&E or intangibles at fair value at the revaluation date less later depreciation; allowed only under IFRS.
+نموذج إعادة التقييم
+modèle de la réévaluation
+17
+revaluation surplus
+The increase from revaluing an asset upward, recognized in OCI under IFRS.
+فائض إعادة التقييم
+écart de réévaluation
+17
+revenue
+Increases in assets or decreases in liabilities from the company's central operations such as selling goods.
+إيراد (إيرادات)
+produits / chiffre d'affaires
+1
+revenue expenditure
+A cost of ordinary repairs and maintenance, expensed as incurred.
+نفقة إيرادية
+dépense de fonctionnement (d'entretien)
+10
+right of setoff
+A legal right to settle an amount owed by applying against it an amount owed by the other party.
+حق المقاصة
+droit de compensation
+2
+right-of-use asset
+The lessee's asset representing its right to use the leased asset.
+أصل حق الاستخدام
+actif au titre du droit d'utilisation
+14
+sale and leaseback
+A transaction in which an owner sells an asset and leases it back.
+البيع وإعادة الاستئجار
+cession-bail
+14
+sales tax payable
+Sales tax or VAT collected from customers and owed to the government.
+ضريبة المبيعات المستحقة
+taxe sur les ventes à payer
+12
+salvage value
+The amount the company expects to receive for an asset at the end of its useful life.
+القيمة المتبقية (قيمة الخردة)
+valeur résiduelle
+10
+SEC
+Securities and Exchange Commission: the U.S. government agency with legal authority over public company reporting.
+هيئة الأوراق المالية والبورصات الأمريكية
+SEC
+1
+secured borrowing
+A loan with receivables as collateral; the receivables stay on the balance sheet.
+اقتراض مضمون
+emprunt garanti
+6
+service-type warranty
+A warranty that gives an extra service beyond assurance, such as an extended plan; a separate performance obligation.
+ضمان من نوع الخدمة
+garantie de type service
+12
+short-term lease
+A lease of 12 months or less with no purchase option reasonably certain to be exercised; may be kept off the balance sheet.
+عقد إيجار قصير الأجل
+contrat de location à court terme
+14
+short-term obligation
+An obligation scheduled to be repaid within one year of the balance sheet date or the operating cycle, if longer.
+التزام قصير الأجل
+dette à court terme
+12
+shrinkage
+Inventory lost through theft, damage or error.
+العجز في المخزون (الفاقد)
+démarque inconnue
+8
+significant financing component
+A financing benefit in a contract when payment timing differs significantly from transfer.
+مكوِّن تمويلي جوهري
+composante financement importante
+11
+significant influence
+The power to take part in an investee's financial and operating decisions, presumed at 20% to 50% of the voting stock.
+التأثير الجوهري
+influence notable
+9
+single-step income statement
+An income statement that deducts total expenses and losses from total revenues and gains in one step.
+قائمة الدخل ذات المرحلة الواحدة
+compte de résultat en une seule étape
+3
+social and relationship capital
+Relationships with communities, suppliers, customers and other stakeholders, and the organization's social licence to operate.
+رأس المال الاجتماعي والعلاقات
+capital social et relationnel
+18
+solvency
+The ability to pay all obligations, including long-term debt, over time.
+الملاءة المالية
+solvabilité
+2
+specific identification
+A method that tracks the actual cost of each individual item sold.
+التحديد العيني (التمييز المحدد)
+identification spécifique
+7
+standalone selling price
+The price at which a company would sell a good or service separately to a customer.
+سعر البيع المستقل
+prix de vente spécifique
+11
+statement of cash flows
+The statement that shows cash receipts and cash payments for a period in three activity groups.
+قائمة التدفقات النقدية
+tableau des flux de trésorerie
+1
+statement of changes in equity
+The statement that explains why each equity account changed during a period.
+قائمة التغيرات في حقوق الملكية
+tableau de variation des capitaux propres
+1
+statement of financial position
+The IFRS name for the balance sheet.
+قائمة المركز المالي
+état de la situation financière
+1
+stock dividend
+A distribution of additional shares to shareholders, without cash.
+توزيعات أسهم (أسهم منحة)
+dividende en actions
+4
+stock split
+An increase in the number of shares with a proportional reduction in par value; no entry is made.
+تجزئة الأسهم
+division d'actions
+4
+straight-line method
+Depreciation of the same amount each year: depreciable base ÷ useful life.
+طريقة القسط الثابت
+amortissement linéaire
+10
+strategic shift
+A change that has a major effect on a company's operations and results, such as leaving a major line of business.
+تحول استراتيجي
+changement stratégique
+3
+subjective acceleration clause
+A clause that lets the lender demand early repayment under conditions that are not objectively measurable, such as a 'material adverse change'.
+شرط التعجيل التقديري
+clause d'exigibilité anticipée subjective
+2
+subsequent events
+Events after the balance sheet date but before the statements are issued.
+الأحداث اللاحقة لتاريخ الميزانية
+événements postérieurs à la clôture
+2
+subsidiary
+A company controlled by another company, the parent.
+المنشأة التابعة
+filiale
+16
+sum-of-the-years'-digits method
+Depreciation of the depreciable base × remaining life ÷ sum of the years' digits.
+طريقة مجموع أرقام السنوات
+amortissement selon la somme des chiffres des années
+10
+systematic and rational allocation
+Spreading a cost over the periods that benefit, as with depreciation.
+التوزيع المنتظم والمنطقي
+répartition systématique et rationnelle
+15
+T-account
+A simple picture of one account with a debit side and a credit side.
+حساب على شكل حرف T
+compte en T
+1
+tax basis
+The amount at which an asset or liability is measured for tax purposes.
+الأساس الضريبي
+base fiscale
+13
+taxable income
+Income computed under tax law, on which current income tax is paid.
+الدخل الخاضع للضريبة
+bénéfice imposable
+13
+taxable temporary difference
+A temporary difference that will increase taxable income when it reverses; it creates a deferred tax liability.
+فرق مؤقت خاضع للضريبة
+différence temporaire imposable
+13
+temporary difference
+A difference between the tax basis of an asset or liability and its carrying amount that will reverse in future years.
+فرق مؤقت
+différence temporaire
+13
+trading securities
+Debt securities bought and held mainly to sell in the near term; measured at fair value through net income.
+أوراق مالية بغرض المتاجرة
+titres détenus à des fins de transaction
+9
+transaction price
+The consideration a company expects to be entitled to for transferring the promised goods or services.
+سعر المعاملة
+prix de transaction
+11
+treasury stock
+A company's own shares that it has bought back and not retired; a contra-equity account.
+أسهم الخزينة
+actions propres (autodétenues)
+4
+trial balance
+A list of all account balances used to check that total debits equal total credits.
+ميزان المراجعة
+balance (de vérification)
+1
+U.S. GAAP
+Generally accepted accounting principles used in the United States.
+المبادئ المحاسبية المقبولة عموماً في الولايات المتحدة
+PCGR américains (US GAAP)
+1
+uncertain tax position
+A tax position that the tax authority may challenge; recognized only if more likely than not to be sustained.
+مركز ضريبي غير مؤكد
+position fiscale incertaine
+13
+units-of-production method
+Depreciation per unit (or hour) of actual use.
+طريقة وحدات الإنتاج
+amortissement selon les unités d'œuvre
+10
+unrealized holding gain or loss
+A change in the fair value of a security that the company still holds.
+مكسب أو خسارة حيازة غير محققة
+gain ou perte latent(e)
+9
+unrealized profit
+Profit on intercompany sales of goods still held inside the group; eliminated until sold to outsiders.
+الربح غير المحقق
+profit latent
+16
+unusual or infrequent item
+An item that is unusual in nature or infrequent, shown pre-tax as a separate line within continuing operations.
+بند غير عادي أو غير متكرر
+élément inhabituel ou peu fréquent
+3
+upstream sale
+A sale from a subsidiary to its parent (or investee to investor).
+البيع من التابعة إلى الأم
+vente ascendante
+16
+useful life
+The period, or the number of units, over which the company expects to use an asset.
+العمر الإنتاجي
+durée d'utilité
+10
+valuation allowance
+A contra account that reduces a deferred tax asset to the amount more likely than not to be realized.
+مخصص التقييم
+provision pour dépréciation des impôts différés actifs
+13
+value creation process
+How the business model turns capitals into outputs and outcomes that increase, preserve or reduce capitals.
+عملية خلق القيمة
+processus de création de valeur
+18
+value in use
+The present value of future cash flows expected from an asset or cash-generating unit (IFRS).
+القيمة من الاستخدام
+valeur d'utilité
+17
+variable consideration
+Consideration that can change, such as rebates, discounts, bonuses or penalties.
+العوض المتغير
+contrepartie variable
+11
+variable interest entity
+An entity whose equity at risk is too small, or whose equity holders lack control or economics; consolidated by its primary beneficiary.
+منشأة ذات حصص متغيرة
+entité à intérêts variables
+16
+waiver
+A lender's agreement not to use its right to demand repayment.
+تنازل (إعفاء) من الدائن
+renonciation (dérogation) du prêteur
+2
+warranty liability
+The estimated cost of repairs still to be made under assurance-type warranties.
+التزام الضمان
+passif au titre des garanties
+12
+weighted-average cost
+Periodic method: total cost of goods available divided by total units available.
+المتوسط المرجح للتكلفة
+coût moyen pondéré
+7
+withholding
+Amounts deducted from employees' pay that the employer must pass to the authorities.
+الاستقطاع
+retenue à la source
+12
+working capital
+Current assets minus current liabilities.
+رأس المال العامل
+fonds de roulement
+2
+write-down
+A reduction of inventory to a lower amount; it creates a new cost basis.
+تخفيض القيمة
+dépréciation (des stocks)
+8
+write-off
+Removing a receivable that will not be collected; under the allowance method it is charged to the allowance.
+شطب (إعدام) الدين
+passage en perte (créance irrécouvrable)
+6
+Appendix B — Index of terms
+Each term points to the sections where the text first teaches it (bold in the text). Section numbers are used instead of page numbers so that the index stays correct in every format.
+Term
+Taught in section(s)
+abnormal waste
+7.2
+accounting equation
+1.2
+Accounting Standards Codification (ASC)
+1.5
+accounts payable
+Chapter 1 (term bridge)
+accounts receivable
+Chapter 1 (term bridge)
+accrual basis
+1.4
+accumulated depreciation
+1.3
+accumulated other comprehensive income (AOCI)
+3.4
+acquisition method
+16.4
+additional paid-in capital
+1.2
+agent
+11.5
+aging schedule
+6.2
+allowance for credit losses
+1.3, Ch. 6 intro
+amortization
+10.5
+amortized cost
+6.2
+appropriated retained earnings
+4.4
+asset
+Chapter 1 (term bridge)
+asset group
+10.5
+assurance-type warranty
+12.5
+available-for-sale (AFS) securities
+Chapter 9 (term bridge)
+balance sheet
+2.1
+basis difference
+9.4
+bill-and-hold arrangement
+11.5
+bond discount
+9.2
+bond premium
+9.2
+breakage
+11.5
+callable debt
+2.3
+capital expenditure
+10.1
+capitalized interest
+10.1
+capitals
+18.3
+carrying amount
+10.4
+cash basis
+1.4
+cash discount
+6.1
+cash equivalents
+5.1
+cash-generating unit
+17.6
+ceiling
+8.2
+change in accounting estimate
+10.2
+classified balance sheet
+2.1
+commercial paper
+Chapter 12 (term bridge)
+commercial substance
+10.4
+common stock
+1.2
+compensated absences
+12.2
+component depreciation
+17.5
+component of an entity
+3.3, 15.4
+comprehensive income
+3.4, 15.3
+conceptual framework
+1.5
+consideration payable to a customer
+11.3
+consignee
+Chapter 7 (term bridge)
+consignment
+Chapter 7 (term bridge)
+consignor
+Chapter 7 (term bridge)
+consolidated financial statements
+16.1
+constraint on variable consideration
+11.3
+content elements
+18.4
+contra account
+1.3
+contract asset
+6.1, 11.4
+contract liability (unearned revenue)
+1.4
+contributed capital
+4.1
+controlling financial interest
+16.1
+conventional retail method
+8.3
+cost flow assumption
+7.3
+cost method
+4.2
+cost of goods sold
+Chapter 1 (term bridge)
+cost-to-retail ratio
+8.3
+counterbalancing error
+7.5
+covenant
+Chapter 2 (term bridge)
+credit
+1.3
+credit loss expense
+6.2
+current assets
+2.2
+current expected credit losses (CECL)
+6.2
+current liabilities
+2.2, 12.1
+current portion of long-term debt
+2.2, 2.3
+current ratio
+2.2
+current tax expense
+13.1
+date of record
+4.3
+debit
+1.3
+debt security
+9.1
+declaration date
+4.3
+deductible temporary difference
+13.2
+deferred tax asset
+13.2
+deferred tax expense
+13.1
+deferred tax liability
+13.2
+defined benefit plan
+17.1
+depreciable base
+10.2
+development costs
+17.2
+direct method
+5.4
+direct write-off method
+6.2
+disclose
+Chapter 1 (term bridge)
+discontinued operation
+3.3, 15.4
+disposal group
+15.5
+dividend
+Chapter 1 (term bridge)
+double-declining-balance method
+Chapter 10 (term bridge)
+double-entry system
+1.3
+downstream sale
+16.5
+earnings per share (EPS)
+3.2
+effective control
+6.3
+effective tax rate
+13.3
+effective-interest method
+9.2
+enacted tax rate
+13.3
+equity
+Chapter 1 (term bridge)
+equity method
+9.4
+equity security
+9.1
+expense
+Chapter 1 (term bridge)
+factor
+6.3
+factoring
+6.3
+fair value
+9.2
+fair value less cost to sell
+15.5
+fair value less costs of disposal
+Chapter 17 (term bridge)
+fair value option
+9.1
+faithful representation
+1.1
+FASB
+1.5
+FIFO (first-in, first-out)
+Chapter 7 (term bridge)
+finance lease
+14.2
+financial capital
+18.3
+financial flexibility
+2.1
+financial statements
+1.1
+financing activities
+5.1
+floor
+8.2
+FOB destination
+Chapter 7 (term bridge)
+FOB shipping point
+Chapter 7 (term bridge)
+freight-in
+7.2
+freight-out
+7.2
+function of expense
+Chapter 3 (term bridge)
+gain
+15.1
+general-purpose financial statements
+1.1
+goods available for sale
+7.3
+goods in transit
+Chapter 7 (term bridge)
+goodwill
+10.5
+grace period
+2.3
+graded vesting
+17.1
+gross profit
+3.2, 7.4
+gross profit method
+8.3
+guiding principles
+18.4
+held for sale
+10.5, 15.5
+held for sale
+10.5, 15.5
+held-to-maturity (HTM) securities
+Chapter 9 (term bridge)
+holdback (due from factor)
+6.3
+holding gain or loss
+Chapter 15 (term bridge)
+human capital
+18.3
+IASB
+1.5
+IFRS
+1.5
+impairment
+10.5
+income from continuing operations
+3.3
+income statement
+3.1
+incremental borrowing rate
+14.3
+incremental costs of obtaining a contract
+11.6
+indefinite-lived intangible asset
+10.5
+indirect method
+5.3
+input method
+11.4
+integrated report
+18.1
+integrated reporting
+18.1
+integrated thinking
+18.1
+intellectual capital
+18.3
+intercompany transaction
+16.5
+interperiod tax allocation
+13.1
+intraperiod tax allocation
+3.3, 13.4
+inventoriable cost
+Chapter 7 (term bridge)
+inventory
+7.1
+investee
+9.4
+investing activities
+5.1
+involuntary conversion
+10.4
+issued shares
+4.2
+item-by-item basis
+8.2
+joint venture
+Chapter 16 (term bridge)
+journal entry
+Chapter 1 (term bridge)
+lease
+14.1
+lease liability
+14.3
+lease term
+14.1
+legal isolation
+6.3
+lessee
+14.1
+lessor
+14.1
+liability
+Chapter 1 (term bridge)
+LIFO (last-in, first-out)
+Chapter 7 (term bridge)
+LIFO conformity rule
+Chapter 7 (term bridge)
+LIFO liquidation
+Chapter 7 (term bridge)
+LIFO reserve
+7.4
+liquidating dividend
+4.3
+liquidity
+2.1
+loss
+15.1
+loss contingency
+2.4
+lower of cost and net realizable value (LCNRV)
+Chapter 8 (term bridge)
+lower of cost or market (LCM)
+Chapter 8 (term bridge)
+manufactured capital
+18.3
+markdown
+8.3
+markup
+8.3
+matching principle
+1.4, 11.6
+material right
+11.5
+materiality
+1.1
+measurement alternative
+9.4
+moving average
+7.3
+multi-step income statement
+3.1
+natural capital
+18.3
+net income
+Chapter 1 (term bridge)
+net operating loss carryforward
+13.4
+net realizable value (NRV)
+8.1
+noncash investing and financing activities
+5.2
+noncontrolling interest
+16.1
+normal balance
+1.3
+normal capacity
+7.2
+normal profit margin
+8.2
+notes payable
+Chapter 1 (term bridge)
+notes receivable
+6.1
+operating activities
+5.1
+operating cycle
+2.2
+operating income
+3.2
+operating lease
+14.2
+other comprehensive income (OCI)
+3.4, 9.2
+other income and expense
+3.2
+outcomes
+18.3
+output method
+11.4
+outputs
+18.3
+outstanding shares
+4.2
+over time
+11.4
+par value
+1.2
+parent
+16.1
+payroll taxes
+12.2
+performance obligation
+Chapter 11 (term bridge)
+period cost
+15.2
+period cost
+15.2
+periodic inventory system
+7.3
+permanent difference
+13.2
+perpetual inventory system
+7.3
+physical count
+Chapter 7 (term bridge)
+pledging
+6.3
+point in time
+11.4
+preferred stock
+4.1
+prepaid expense
+1.4
+primary beneficiary
+16.2
+primary users
+1.1
+principal
+11.5
+prior service cost
+17.1
+prior-period adjustment
+4.4
+property dividend
+4.3
+property, plant and equipment (PP&E)
+10.1
+proportionate consolidation
+16.3
+purchase commitment
+8.2
+purchase discount
+7.2
+qualifying financing agreement
+12.3
+reclassification adjustment
+3.4, 9.2, 15.3
+recognize
+Chapter 1 (term bridge)
+recourse
+6.3
+recourse liability
+6.3
+recoverability test
+10.5
+recoverable amount
+17.6
+recovery
+6.2
+refinancing
+2.3
+refund liability
+11.5
+relevance
+1.1
+remeasurements
+17.1
+replacement cost
+8.2
+reporting unit
+10.5
+research and development (R&D)
+10.5
+residual value guarantee
+14.3
+restricted cash
+2.2
+retail inventory method
+Chapter 8 (term bridge)
+retained earnings
+1.2
+revaluation model
+17.2
+revaluation surplus
+17.5
+revenue
+11.1
+revenue expenditure
+10.1
+right of setoff
+2.4
+right-of-use asset
+14.3
+sale and leaseback
+14.6
+sales tax payable
+12.2
+salvage value
+10.2
+SEC
+1.5
+secured borrowing
+6.3
+service-type warranty
+12.5
+short-term lease
+14.6
+short-term obligation
+12.3
+shrinkage
+Chapter 8 (term bridge)
+significant financing component
+11.3
+significant influence
+9.4
+single-step income statement
+3.1
+social and relationship capital
+18.3
+solvency
+2.1
+specific identification
+Chapter 7 (term bridge)
+standalone selling price
+Chapter 11 (term bridge)
+statement of cash flows
+5.1
+statement of changes in equity
+4.1
+statement of financial position
+Chapter 1 (term bridge)
+stock dividend
+4.3
+stock split
+4.3
+straight-line method
+Chapter 10 (term bridge)
+strategic shift
+3.3, 15.4
+subjective acceleration clause
+2.3
+subsequent events
+2.4
+subsidiary
+Chapter 16 (term bridge)
+sum-of-the-years'-digits method
+Chapter 10 (term bridge)
+systematic and rational allocation
+15.2
+T-account
+Chapter 1 (term bridge)
+tax basis
+13.2
+taxable income
+13.1
+taxable temporary difference
+13.2
+temporary difference
+13.2
+trading securities
+Chapter 9 (term bridge)
+transaction price
+11.3
+treasury stock
+4.1, 4.2
+trial balance
+1.6
+U.S. GAAP
+1.5
+uncertain tax position
+13.4
+units-of-production method
+Chapter 10 (term bridge)
+unrealized holding gain or loss
+9.2
+unrealized profit
+16.5
+unusual or infrequent item
+3.3
+upstream sale
+16.5
+useful life
+10.2
+valuation allowance
+13.4
+value creation process
+18.3
+value in use
+17.6
+variable consideration
+11.3
+variable interest entity
+16.2
+waiver
+2.3
+warranty liability
+12.5
+weighted-average cost
+Chapter 7 (term bridge)
+withholding
+12.2
+working capital
+2.2
+write-down
+8.1
+write-off
+6.2

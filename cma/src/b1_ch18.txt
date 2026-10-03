@@ -1,0 +1,696 @@
+Chapter 18
+Integrated Reporting
+إعداد التقارير المتكاملة
+Financial statements show Orontes's money: assets, profit and cash. But Orontes also depends on things the balance sheet does not show: the skills of its staff, its relationships with olive farmers, its recipes and the water in its groves. Integrated reporting explains how a company uses and affects all of these to create value.
+This is the last chapter of Section A. The Orontes facts in it are illustrative for 2027. Figure F18-01 shows the three linked ideas at the centre of the topic.
+Figure F18-01. Chapter 18 roadmap: integrated thinking, integrated reporting and the integrated report.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.l
+Define integrated reporting, integrated thinking and the integrated report, and explain how they relate.
+A
+Full treatment
+A.1.m
+Identify the primary purpose of integrated reporting.
+A
+Full treatment
+A.1.n
+Explain value creation, the six capitals and the value creation process.
+B
+Full treatment
+A.1.o
+Identify the content elements of an integrated report.
+A
+Full treatment
+A.1.p
+Identify and explain the benefits and challenges of integrated reporting.
+B
+Full treatment
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+integrated reporting
+إعداد التقارير المتكاملة
+reporting intégré
+integrated report
+التقرير المتكامل
+rapport intégré
+integrated thinking
+التفكير المتكامل
+pensée intégrée
+capitals
+رؤوس الأموال
+capitaux
+value creation process
+عملية خلق القيمة
+processus de création de valeur
+outputs
+المخرجات
+extrants
+outcomes
+النتائج (الآثار)
+effets
+content elements
+عناصر المحتوى
+éléments de contenu
+WHAT YOU ALREADY KNOW   What you already know
+Many MENA companies publish sustainability or ESG reports, and some now apply IFRS S1 and S2. An integrated report is different: it connects financial and non-financial information in one concise story of value creation. Section 18.6 explains the relationship.
+18.1  Integrated thinking, integrated reporting and the integrated report
+Integrated thinking is the way management considers the relationships between the company's units and the resources, or capitals, that it uses and affects. It leads to decisions that consider value creation over the short, medium and long term.
+Integrated reporting is the process, founded on integrated thinking, that results in a periodic integrated report. The integrated report is the product: a concise communication about how the company's strategy, governance, performance and prospects lead to the creation, preservation or erosion of value over time.
+The three ideas depend on each other. Without integrated thinking, a report is just a collection of separate facts. The rules are in the International <IR> Framework, last revised in January 2021. The IFRS Foundation now owns it, and the IASB and the ISSB are jointly responsible for it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+integrated reporting
+إعداد التقارير المتكاملة
+reporting intégré
+integrated report
+التقرير المتكامل
+rapport intégré
+integrated thinking
+التفكير المتكامل
+pensée intégrée
+English (exam term)
+العربية
+Français
+integrated reporting
+إعداد التقارير المتكاملة
+reporting intégré
+integrated report
+التقرير المتكامل
+rapport intégré
+integrated thinking
+التفكير المتكامل
+pensée intégrée
+SECTION CHECK   Test yourself
+SC18-1  Which statement correctly describes the relationship between the three ideas?
+A.	The integrated report produces integrated thinking
+B.	Integrated thinking drives integrated reporting, the process that produces the integrated report
+C.	Integrated reporting is the report; integrated thinking is the process
+D.	They are three names for the same document
+SC18-2  Who is now responsible for the International <IR> Framework?
+A.	The IASB and the ISSB, within the IFRS Foundation
+B.	The IIRC, as an independent body
+C.	The FASB
+D.	The SEC
+Answers and explanations are at the end of the chapter.
+18.2  The primary purpose
+The primary purpose of an integrated report is to explain to providers of financial capital, such as shareholders and lenders, how the company creates, preserves or erodes value over time. This is the exam answer to 'Who is the main audience?'.
+Other stakeholders also benefit: employees, customers, suppliers, communities, regulators and policymakers. They are not the primary audience, but the report is useful to anyone interested in the company's ability to create value.
+In the United States, integrated reporting is voluntary; U.S. GAAP and the SEC do not require it. Figure F18-02 compares it with the reports that Orontes must prepare.
+Figure F18-02. Integrated reports and other reports
+Report
+Primary audience
+Focus
+Required for Orontes?
+Financial statements (U.S. GAAP)
+Investors and creditors
+Financial position and performance
+Yes: required for an SEC registrant
+Management's discussion and analysis (MD&A)
+Investors
+Explains results, liquidity and risks
+Yes: SEC requirement
+Integrated report (<IR> Framework)
+Providers of financial capital, then other stakeholders
+How value is created, preserved or eroded, using all six capitals
+No: voluntary
+Sustainability disclosures (IFRS S1 and S2)
+Investors
+Sustainability and climate risks that affect prospects
+Only where a jurisdiction adopts them
+EXAM TRAP   Audience trap
+The primary audience is providers of financial capital, not 'all stakeholders'. All stakeholders benefit, but the Framework names investors and lenders first.
+SECTION CHECK   Test yourself
+SC18-3  What is the primary purpose of an integrated report?
+A.	To report the company's greenhouse gas emissions
+B.	To meet SEC filing requirements
+C.	To explain to providers of financial capital how the company creates, preserves or erodes value over time
+D.	To replace the financial statements
+SC18-4  Orontes's draft integrated report says it is written 'mainly for our employees'. What should the reviewer say?
+A.	This is correct: employees are the primary audience
+B.	Integrated reports are written mainly for the government
+C.	The audience does not matter
+D.	The primary audience should be providers of financial capital; employees also benefit
+Answers and explanations are at the end of the chapter.
+18.3  Value creation and the six capitals
+The Framework describes value in terms of six capitals: stocks of value that increase, decrease or change as the company works. They are financial capital, manufactured capital, intellectual capital, human capital, social and relationship capital and natural capital. Figure F18-03 gives Orontes examples.
+Figure F18-03. Suppose: Orontes's six capitals, 2027
+Capital
+Orontes examples (2027)
+Possible measure
+Financial
+Equity and bank loans (Part I)
+Cash flow from operations
+Manufactured
+Presses, bottling lines, cold stores
+Plant capacity
+Intellectual
+Recipes, brand, new sparkling-juice line
+Share of sales from new products
+Human
+1,850 employees
+20 training hours per employee
+Social and relationship
+2,400 farmers in grower cooperatives; supermarket customers
+Farmer contracts renewed
+Natural
+Olive groves, water, energy
+Water 900,000 m³; renewable electricity 30%
+In the value creation process, the business model takes capitals as inputs and turns them, through its activities, into outputs: products, by-products and waste. The outcomes are the effects on the capitals, inside and outside the company. Value is created for the company and for others, as Figure F18-04 shows.
+Figure F18-04. The value creation process: capitals, business model, outputs and outcomes.
+Capitals are connected, so decisions involve trade-offs. The six categories are not mandatory; a company may group them differently, but it should consider all the capitals it uses or affects.
+WORKED EXAMPLE   Worked example: the irrigation trade-off
+Step 1. Suppose Orontes spends $2,000,000 on drip irrigation for its groves: financial capital falls and manufactured capital rises.
+Step 2. Water use falls by 150,000 m³, about 17% of the total: natural capital is preserved.
+Step 3. Orontes trains 400 cooperative farmers to use the system: human and social and relationship capital rise.
+Check. An integrated report explains the whole trade-off, not only the cost.
+YOUR TURN   Which capital?
+Figure F18-05 lists six Orontes disclosures. The first two are done. Name the capital for each of the others. Answers are at the end of the chapter.
+Figure F18-05. Which capital? (complete the blanks)
+Orontes disclosure
+Capital
+Headroom under bank loan covenants
+Financial
+A new bottling line
+Manufactured
+Safety training for factory staff
+________
+The trademark for Orontes Gold olive oil
+________
+Water drawn from local wells
+________
+Long-term contracts with grower cooperatives
+________
+FALSE-FRIEND ALERT   Capitals, رؤوس الأموال, capitaux
+In integrated reporting, capitals are resources and relationships, not share capital. French capital social means share capital, but capital social et relationnel is one of the six capitals. Read the whole phrase.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+capitals
+رؤوس الأموال
+capitaux
+financial capital
+رأس المال المالي
+capital financier
+manufactured capital
+رأس المال المصنَّع
+capital manufacturier
+intellectual capital
+رأس المال الفكري
+capital intellectuel
+human capital
+رأس المال البشري
+capital humain
+social and relationship capital
+رأس المال الاجتماعي والعلاقات
+capital social et relationnel
+natural capital
+رأس المال الطبيعي
+capital naturel
+English (exam term)
+العربية
+Français
+capitals
+رؤوس الأموال
+capitaux
+financial capital
+رأس المال المالي
+capital financier
+manufactured capital
+رأس المال المصنَّع
+capital manufacturier
+intellectual capital
+رأس المال الفكري
+capital intellectuel
+human capital
+رأس المال البشري
+capital humain
+social and relationship capital
+رأس المال الاجتماعي والعلاقات
+capital social et relationnel
+natural capital
+رأس المال الطبيعي
+capital naturel
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+value creation process
+عملية خلق القيمة
+processus de création de valeur
+outputs
+المخرجات
+extrants
+outcomes
+النتائج (الآثار)
+effets
+English (exam term)
+العربية
+Français
+value creation process
+عملية خلق القيمة
+processus de création de valeur
+outputs
+المخرجات
+extrants
+outcomes
+النتائج (الآثار)
+effets
+SECTION CHECK   Test yourself
+SC18-5  Which list gives the six capitals?
+A.	Share capital, APIC, retained earnings, AOCI, treasury stock, NCI
+B.	Cash, receivables, inventory, PP&E, intangibles, investments
+C.	Land, labour, capital, enterprise, technology, energy
+D.	Financial, manufactured, intellectual, human, social and relationship, natural
+SC18-6  Orontes produces bottled olive oil and olive-pit waste. Its grove water table falls. Which statement is correct?
+A.	The oil is an outcome; the water table is an output
+B.	All three are outcomes
+C.	The oil and waste are outputs; the fall in the water table is an outcome
+D.	All three are inputs
+Answers and explanations are at the end of the chapter.
+18.4  Guiding principles and content elements
+The Framework is principles-based: it does not prescribe KPIs or measurement methods. Seven guiding principles shape how the report is prepared, such as connectivity of information, materiality and conciseness. Figure F18-06 lists them with Orontes examples.
+Figure F18-06. The seven guiding principles
+Guiding principle (7)
+What it means
+Orontes example
+Strategic focus and future orientation
+Explain strategy and how it creates value over time
+Plans for the sparkling-juice line to 2030
+Connectivity of information
+Show how capitals, strategy and performance link
+Irrigation spending linked to water use and grower yields
+Stakeholder relationships
+Explain key relationships and how the company responds
+Work with grower cooperatives
+Materiality
+Include matters that substantively affect value creation
+Water scarcity; olive prices
+Conciseness
+Be short and clear
+Refer to the financial statements rather than repeat them
+Reliability and completeness
+Include positive and negative matters, without material error
+Report a failed product launch too
+Consistency and comparability
+Use the same basis over time and allow comparison
+Same water measure every year
+Eight content elements set what the report covers. Each element answers a question: what the company does, how its governance works, how its business model creates value, which risks and opportunities it faces, where its strategy is going, how it performed, what lies ahead, and how the report was prepared.
+The elements are linked, not separate chapters. For example, Orontes's water risk appears under risks and opportunities, drives its strategy, and is measured under performance. Figure F18-07 lists the eight elements.
+Figure F18-07. The eight content elements
+Content element (8)
+Question it answers
+Orontes example
+Organizational overview and external environment
+What does the company do, and where?
+Food producer based in Amman, Jordan, selling across the region
+Governance
+How does governance support value creation?
+Board committee oversees water risk
+Business model
+How does the company turn capitals into value?
+Grow, press, bottle, sell
+Risks and opportunities
+What could help or harm value creation?
+Water scarcity; demand for healthy drinks
+Strategy and resource allocation
+Where is it going, and how will it get there?
+Invest in irrigation and new products
+Performance
+What did it achieve, and with what effects on the capitals?
+Renewable electricity 30%
+Outlook
+What challenges and uncertainties lie ahead?
+Olive yields and prices to 2030
+Basis of preparation and presentation
+How were matters chosen and measured?
+Materiality process; measurement methods
+Those charged with governance, such as the board, should include a statement that they are responsible for the integrated report. The report can stand alone or be a distinguishable part of another report, such as the annual report.
+EXAM TRAP   Seven or eight?
+There are seven guiding principles (how to report) and eight content elements (what to report). Materiality and connectivity are principles; governance, business model and outlook are content elements.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+guiding principles
+المبادئ التوجيهية
+principes directeurs
+content elements
+عناصر المحتوى
+éléments de contenu
+English (exam term)
+العربية
+Français
+guiding principles
+المبادئ التوجيهية
+principes directeurs
+content elements
+عناصر المحتوى
+éléments de contenu
+SECTION CHECK   Test yourself
+SC18-7  Which is a content element of an integrated report?
+A.	Conciseness
+B.	Business model
+C.	Materiality
+D.	Connectivity of information
+SC18-8  Orontes writes: 'Olive yields may fall by 2030 as rainfall declines.' Which content element does this belong to?
+A.	Outlook
+B.	Governance
+C.	Basis of preparation and presentation
+D.	Organizational overview
+Answers and explanations are at the end of the chapter.
+18.5  Benefits and challenges
+Supporters say integrated reporting improves management itself: to report on all the capitals, managers must think about how they connect. It can improve the allocation of capital, give investors a clearer and more concise picture, and encourage a long-term view.
+There are also challenges. Preparing the report takes time and money, and non-financial capitals such as relationships and skills are hard to measure. Companies may worry about revealing information to competitors or creating legal risk, and assurance practice is still limited.
+Because the Framework is voluntary and does not prescribe measures, reports differ between companies, which limits comparability. Figure F18-08 summarizes the benefits and challenges.
+Figure F18-08. Benefits and challenges of integrated reporting.
+SECTION CHECK   Test yourself
+SC18-9  Which is a benefit of integrated reporting?
+A.	It is required by U.S. GAAP
+B.	It removes the need for audited financial statements
+C.	It prescribes standard KPIs for all companies
+D.	It encourages managers to think about how the capitals connect
+SC18-10  Which is a challenge of integrated reporting?
+A.	It is too short to be useful
+B.	Human and relationship capital are hard to measure reliably
+C.	It cannot mention risks
+D.	It is limited to financial information
+Answers and explanations are at the end of the chapter.
+18.6  Integrated reporting and sustainability disclosures
+IFRS S1 and IFRS S2, issued by the ISSB, require disclosure of sustainability and climate risks that affect a company's prospects. They apply only where a jurisdiction adopts them. S1 asks for connected information, an idea taken from integrated reporting, but S1 and S2 disclosures are not an integrated report.
+In 2024 the ISSB decided not to start a separate integration project, and the boards continue to support the <IR> Framework. The IASB's revised Practice Statement on management commentary, issued in June 2025, also draws on integrated-reporting concepts. It is voluntary, and it is not in the LOS.
+WATCH: NOT YET TESTABLE   Not tested: climate rules
+The SEC's 2024 climate disclosure rule never took effect; it is stayed, and the SEC proposed to rescind it in 2026. Some MENA markets now require ISSB-based disclosures, for example Qatar from 2026 and the largest Amman Stock Exchange companies from 2026. These are background facts, not exam content.
+SECTION CHECK   Test yourself
+SC18-11  A company publishes IFRS S2 climate disclosures. Which statement is correct?
+A.	These are sustainability disclosures; they are not by themselves an integrated report
+B.	They are an integrated report
+C.	They replace the six capitals
+D.	They are required by U.S. GAAP
+SC18-12  In the United States, integrated reporting is:
+A.	required by U.S. GAAP
+B.	required by the SEC climate rule
+C.	voluntary
+D.	prohibited
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F18-09 brings the chapter together.
+Figure F18-09. Chapter 18 summary map: the key point of each section.
+Integrated thinking drives integrated reporting, the process that produces the integrated report. The primary purpose is to explain to providers of financial capital how the company creates, preserves or erodes value over time; other stakeholders also benefit. Value is described through six capitals, which the business model turns into outputs and outcomes. Seven guiding principles shape how the report is prepared, and eight content elements set what it covers. Integrated reporting can improve thinking and communication, but it is costly, hard to measure and voluntary. The IFRS Foundation now owns the Framework; IFRS S1 and S2 are separate standards.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P18-01  Integrated thinking means:
+A.	combining the financial statements of a parent and its subsidiaries
+B.	preparing one report for all regulators
+C.	integrating IFRS and U.S. GAAP
+D.	management considering the relationships between the company's units and the capitals it uses and affects
+P18-02  Which guiding principle is Orontes applying when it links its irrigation spending to water use and to grower yields?
+A.	Conciseness
+B.	Connectivity of information
+C.	Consistency and comparability
+D.	Reliability and completeness
+P18-03  Orontes includes both a successful product launch and a failed one in its integrated report. Which principle does this reflect?
+A.	Reliability and completeness
+B.	Materiality
+C.	Strategic focus
+D.	Stakeholder relationships
+P18-04  Under the Framework, a matter is material if it:
+A.	exceeds 5% of net income
+B.	is required by the SEC
+C.	could substantively affect the company's ability to create value over the short, medium or long term
+D.	has already caused a loss
+P18-05  Which group is NOT the primary audience of an integrated report, although it benefits from it?
+A.	Shareholders
+B.	Lenders
+C.	Local communities
+D.	Other providers of financial capital
+P18-06  Use Figure F18-03. Orontes's 2,400 cooperative farmers are an example of which capital?
+A.	Human capital
+B.	Social and relationship capital
+C.	Natural capital
+D.	Financial capital
+P18-07  Orontes's secret recipe for flavoured olive oil is an example of:
+A.	Intellectual capital
+B.	Manufactured capital
+C.	Human capital
+D.	Financial capital
+P18-08  In the worked example, which capital falls when Orontes pays for the irrigation system?
+A.	Natural capital
+B.	Human capital
+C.	Intellectual capital
+D.	Financial capital
+P18-09  Use Figure F18-03. What is Orontes's training per employee in 2027?
+A.	37,000 hours
+B.	1,850 hours
+C.	20 hours
+D.	2 hours
+P18-10  Must a company use exactly the six capital categories in its integrated report?
+A.	Yes; all six headings are mandatory
+B.	Yes, but only for listed companies
+C.	No; capitals are not part of the Framework
+D.	No; the categories are a checklist, but it should consider all the capitals it uses or affects
+P18-11  'How does the board oversee water risk?' is answered by which content element?
+A.	Performance
+B.	Governance
+C.	Business model
+D.	Outlook
+P18-12  Which content element explains how the company decided what to include and how it measured it?
+A.	Basis of preparation and presentation
+B.	Strategy and resource allocation
+C.	Risks and opportunities
+D.	Organizational overview and external environment
+P18-13  How many content elements and guiding principles does the Framework set out?
+A.	Seven content elements and eight guiding principles
+B.	Six of each
+C.	Eight content elements and seven guiding principles
+D.	Eight of each
+P18-14  Why do integrated reports from different companies often differ in their measures?
+A.	The SEC requires different KPIs for each industry
+B.	The Framework is principles-based and does not prescribe KPIs
+C.	Integrated reports are audited under different standards
+D.	Each company must use the six capitals in a different order
+P18-15  A company fears that disclosing its product plans will help competitors. This concern is:
+A.	a guiding principle
+B.	a content element
+C.	a benefit of integrated reporting
+D.	a challenge of integrated reporting
+P18-16  Which statement about the International <IR> Framework is correct?
+A.	It was last revised in January 2021 and is maintained by the IFRS Foundation
+B.	It was replaced by IFRS S1 in 2024
+C.	It is part of U.S. GAAP
+D.	It was withdrawn when the IIRC closed
+Case-style practice: Barada's first integrated report
+Use Figure F18-10 for items C18-1 to C18-6. Suppose Barada is preparing its first voluntary integrated report for 2028.
+Figure F18-10. Case exhibit: Barada's draft integrated report, 2028
+Item
+Barada Wholesale: draft first integrated report, 2028
+D1
+Barada trained all delivery drivers in safe driving.
+D2
+Barada used 600 MWh of electricity in 2028; 150 MWh came from its own solar panels.
+D3
+Barada signed five-year partnerships with 60 small farmers.
+D4
+Staff turnover in the warehouse fell from 25% to 15%.
+D5
+Packaging waste sent to landfill fell by one third.
+D6
+Rising fuel prices could cut Barada's delivery margins in 2029 and 2030.
+M1
+The draft says: 'This report is written mainly for our employees and the local community.'
+M2
+The draft links each strategic goal to the KPI and the capital it affects.
+C18-1  Match each disclosure to the capital it mainly affects. (On the exam screen you would drag each item into a box.)
+Categories: Human capital · Natural capital · Social and relationship capital
+Disclosure
+Category
+D1 Driver training
+D2 Electricity and solar
+D3 Farmer partnerships
+D4 Warehouse staff turnover
+D5 Packaging waste
+C18-2  Enter the percentage of Barada's 2028 electricity that came from its own solar panels (whole number).
+Answer: ____________
+C18-3  Disclosure D6 on fuel prices belongs to which content element? [select]
+Options: risks and opportunities   |   governance   |   basis of preparation and presentation   |   organizational overview and external environment
+C18-4  How should the reviewer correct memo M1? [select]
+Options: the primary audience is providers of financial capital   |   the primary audience is the government   |   no audience should be named   |   M1 is correct as written
+C18-5  Memo M2 applies which guiding principle? [select]
+Options: connectivity of information   |   conciseness   |   materiality   |   stakeholder relationships
+C18-6  Barada is not listed and reports under U.S. GAAP. Its integrated report is: [select]
+Options: voluntary   |   required by U.S. GAAP   |   required by the SEC   |   required by IFRS S1
+Written task
+W18  In four to six sentences, advise Barada's owners on their first integrated report. Use these words: providers of financial capital, capitals, outcomes, content elements, connectivity.
+Answers and explanations
+Section checks
+SC18-1  Answer B. Thinking comes first; reporting is the process; the report is the product.
+A is wrong. The direction is reversed.
+C is wrong. Integrated reporting is the process, not the report.
+D is wrong. They are different ideas.
+SC18-2  Answer A. The IIRC's work moved to the IFRS Foundation in 2022.
+B is wrong. The IIRC no longer exists as an independent body.
+C is wrong. The FASB does not issue the Framework.
+D is wrong. The SEC does not issue the Framework.
+SC18-3  Answer C. The Framework names providers of financial capital as the primary audience.
+A is wrong. That is one possible disclosure, not the purpose.
+B is wrong. Integrated reporting is voluntary in the U.S.
+D is wrong. It refers to the financial statements; it does not replace them.
+SC18-4  Answer D. Other stakeholders benefit, but investors and lenders come first.
+A is wrong. Employees are not the primary audience.
+B is wrong. Regulators are not the primary audience.
+C is wrong. The Framework states a primary audience.
+SC18-5  Answer D. These are the Framework's six capitals.
+A is wrong. These are equity accounts, not capitals.
+B is wrong. These are balance sheet assets.
+C is wrong. These are economic factors of production.
+SC18-6  Answer C. Outputs are products and waste; outcomes are effects on capitals.
+A is wrong. The terms are reversed.
+B is wrong. Products and waste are outputs.
+D is wrong. Inputs are the capitals used.
+SC18-7  Answer B. The other three are guiding principles.
+A is wrong. Conciseness is a guiding principle.
+C is wrong. Materiality is a guiding principle.
+D is wrong. Connectivity is a guiding principle.
+SC18-8  Answer A. Outlook covers future challenges and uncertainties.
+B is wrong. Governance covers oversight, not future conditions.
+C is wrong. Basis of preparation covers how the report was made.
+D is wrong. The overview describes what the company does now.
+SC18-9  Answer D. Integrated thinking is a key benefit.
+A is wrong. It is voluntary in the U.S.
+B is wrong. Financial statements are still required.
+C is wrong. The Framework does not prescribe KPIs.
+SC18-10  Answer B. Measuring non-financial capitals is a known challenge.
+A is wrong. Conciseness is a principle, not a weakness.
+C is wrong. Risks and opportunities is a content element.
+D is wrong. It covers all six capitals.
+SC18-11  Answer A. An integrated report connects all capitals and the business model.
+B is wrong. Climate disclosures cover only part of the picture.
+C is wrong. S2 does not replace the capitals model.
+D is wrong. IFRS S2 is not part of U.S. GAAP.
+SC18-12  Answer C. No U.S. rule requires an integrated report.
+A is wrong. U.S. GAAP does not require it.
+B is wrong. The SEC rule never took effect and does not require an integrated report.
+D is wrong. Companies may publish one voluntarily.
+Your turn
+Item
+Answer
+Safety training for factory staff
+Human capital
+The trademark for Orontes Gold olive oil
+Intellectual capital
+Water drawn from local wells
+Natural capital
+Long-term contracts with grower cooperatives
+Social and relationship capital
+Multiple-choice questions
+P18-01  Answer D. Integrated thinking is about connected decision making.
+A is wrong. That is consolidation.
+B is wrong. It is a way of thinking, not a filing.
+C is wrong. It is not about accounting frameworks.
+P18-02  Answer B. Connectivity shows how capitals, strategy and performance are linked.
+A is wrong. Conciseness is about length and clarity.
+C is wrong. Consistency is about using the same basis over time.
+D is wrong. Reliability is about balance and accuracy.
+P18-03  Answer A. Reports should include positive and negative matters.
+B is wrong. Materiality decides what is important, not balance.
+C is wrong. Strategic focus is about strategy and the future.
+D is wrong. This principle is about key relationships.
+P18-04  Answer C. Integrated-reporting materiality is about value creation.
+A is wrong. The Framework does not use a percentage test.
+B is wrong. Materiality is not tied to SEC rules.
+D is wrong. Future effects also matter.
+P18-05  Answer C. Communities are stakeholders, not the primary audience.
+A is wrong. Shareholders provide financial capital.
+B is wrong. Lenders provide financial capital.
+D is wrong. They are the primary audience.
+P18-06  Answer B. Relationships with suppliers and communities are social and relationship capital.
+A is wrong. Human capital is the company's own people and their skills.
+C is wrong. The farmers are a relationship; the groves are natural capital.
+D is wrong. The farmers are not a source of funds.
+P18-07  Answer A. Knowledge-based intangibles are intellectual capital.
+B is wrong. Manufactured capital is physical.
+C is wrong. Human capital is people's skills, not documented know-how.
+D is wrong. A recipe is not funds.
+P18-08  Answer D. The payment uses funds.
+A is wrong. Natural capital is preserved by lower water use.
+B is wrong. Training raises human capital.
+C is wrong. Intellectual capital is not directly affected.
+P18-09  Answer C. 37,000 hours ÷ 1,850 employees.
+A is wrong. This is the total, not per employee.
+B is wrong. This is the number of employees.
+D is wrong. This divides incorrectly.
+P18-10  Answer D. The Framework does not require the six headings.
+A is wrong. The categories are not mandatory.
+B is wrong. No listing rule applies.
+C is wrong. Capitals are central to the Framework.
+P18-11  Answer B. Governance explains oversight and how it supports value creation.
+A is wrong. Performance reports results.
+C is wrong. The business model explains how value is created.
+D is wrong. Outlook covers future uncertainties.
+P18-12  Answer A. This element covers the materiality process and measurement methods.
+B is wrong. Strategy is about direction and resources.
+C is wrong. This element covers what could help or harm value creation.
+D is wrong. This element describes what the company does.
+P18-13  Answer C. Eight elements (what) and seven principles (how).
+A is wrong. The numbers are reversed.
+B is wrong. Six is the number of capitals.
+D is wrong. There are seven principles.
+P18-14  Answer B. Flexibility limits comparability.
+A is wrong. The SEC does not set integrated-reporting KPIs.
+C is wrong. Assurance is limited, not the cause.
+D is wrong. No order is required.
+P18-15  Answer D. Competitive sensitivity is a known challenge.
+A is wrong. It is not one of the seven principles.
+B is wrong. It is not one of the eight elements.
+C is wrong. It discourages reporting.
+P18-16  Answer A. The Framework remains in use under the IFRS Foundation.
+B is wrong. IFRS S1 did not replace it.
+C is wrong. It is not part of U.S. GAAP.
+D is wrong. It moved to the IFRS Foundation.
+Case-style set: Barada's first integrated report
+C18-1
+Disclosure
+Category
+D1 Driver training
+Human capital
+D2 Electricity and solar
+Natural capital
+D3 Farmer partnerships
+Social and relationship capital
+D4 Warehouse staff turnover
+Human capital
+D5 Packaging waste
+Natural capital
+Human capital is the company's own people; social and relationship capital is its relationships with others.
+C18-2  Answer: 25.
+400 is wrong: this answer divides total electricity by solar electricity.
+75 is wrong: this answer gives the share from other sources.
+C18-3  Answer: risks and opportunities.
+governance is wrong: this answer D6 is about a threat to value, not oversight.
+basis of preparation and presentation is wrong: this answer that element explains how the report was prepared.
+organizational overview and external environment is wrong: this answer that element describes the business, not a specific risk.
+C18-4  Answer: the primary audience is providers of financial capital.
+the primary audience is the government is wrong: this answer regulators are not the primary audience.
+no audience should be named is wrong: this answer the Framework names a primary audience.
+M1 is correct as written is wrong: this answer employees and the community benefit but are not the primary audience.
+C18-5  Answer: connectivity of information.
+conciseness is wrong: this answer M2 is about links, not length.
+materiality is wrong: this answer M2 does not decide what is important.
+stakeholder relationships is wrong: this answer M2 links strategy, KPIs and capitals.
+C18-6  Answer: voluntary.
+required by U.S. GAAP is wrong: this answer U.S. GAAP does not require an integrated report.
+required by the SEC is wrong: this answer no SEC rule requires it.
+required by IFRS S1 is wrong: this answer IFRS S1 is a separate standard and does not require an integrated report.
+Written task: model answer
+The report should be written mainly for providers of financial capital, such as the bank and the owners, although employees and farmers will also read it. It should show how Barada uses and affects its capitals: for example, driver training builds human capital, the farmer partnerships build social and relationship capital, and solar power, 25% of electricity, preserves natural capital. It should explain outcomes, such as lower staff turnover and less waste, not only outputs such as deliveries. The draft should follow the eight content elements, placing the fuel-price threat under risks and opportunities. Linking each goal to its KPI and capital, as memo M2 does, shows connectivity.
+A good answer: names providers of financial capital as the primary audience; links disclosures to the correct capitals; distinguishes outcomes from outputs; uses the content elements; explains connectivity.

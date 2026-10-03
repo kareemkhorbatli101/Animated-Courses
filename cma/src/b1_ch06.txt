@@ -1,0 +1,609 @@
+Chapter 6
+Receivables: Credit Losses and Transfers
+الذمم المدينة: الخسائر الائتمانية وتحويل الذمم
+When a company sells on credit, it gives its customers time to pay. The promise to pay is an asset: a receivable. But not every customer will pay. In this chapter you learn when to record a receivable and how to estimate the part that will not be collected. You also learn what happens when a company sells its receivables to raise cash quickly.
+Figure F06-01 shows the main flow of the chapter.
+Figure F06-01. Chapter 6 roadmap: receivables, the allowance, and what can happen to a receivable.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.a
+Explain when a receivable is recognized, how it is measured, and how the allowance for credit losses is estimated under CECL.
+B
+Full treatment
+A.2.b
+Distinguish a sale of receivables from a secured borrowing, with and without recourse, and show the effect on the balance sheet.
+B
+Full treatment
+A.2.ff
+State the IFRS 9 differences for credit losses and derecognition.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+accounts receivable
+الذمم المدينة (المدينون)
+créances clients
+allowance for credit losses
+مخصص الخسائر الائتمانية
+dépréciation des créances
+current expected credit losses (CECL)
+الخسائر الائتمانية المتوقعة الحالية
+pertes de crédit attendues (modèle CECL)
+aging schedule
+جدول أعمار الذمم المدينة
+balance âgée
+credit loss expense
+مصروف الخسائر الائتمانية
+charge de pertes de crédit (dotation aux dépréciations)
+write-off
+شطب (إعدام) الدين
+passage en perte (créance irrécouvrable)
+factoring
+تخصيم الذمم المدينة (بيع الديون)
+affacturage
+recourse
+حق الرجوع
+recours
+secured borrowing
+اقتراض مضمون
+emprunt garanti
+WHAT YOU ALREADY KNOW   What you already know
+You know the allowance for doubtful accounts from your earlier studies. U.S. GAAP now calls it the allowance for credit losses. Since CECL, it must cover all the losses the company expects over the life of its receivables, not only losses that have already happened. If you know IFRS 9, the simplified approach for trade receivables is very close to CECL.
+6.1  Recognizing and measuring receivables
+A company records an account receivable when its right to be paid is unconditional: only the passage of time is needed before payment is due. This usually happens when it delivers the goods or services and transfers control (Chapter 11). If the company still has to do something else before it can bill, for example finish a second delivery, it has a contract asset, not a receivable.
+Figure F06-02 follows one receivable from Chapter 1: Orontes delivered olive oil to GreenBasket Supermarkets on January 18 and collected part of the amount on February 8.
+Figure F06-02. Timeline of a receivable from order to collection, using Orontes and GreenBasket data.
+The receivable is measured at the transaction price: the amount the company expects to receive. Expected returns, rebates and cash discount amounts are variable consideration, so they reduce revenue and the receivable. Some older questions still use the gross and net methods. Under the gross method, the company records the full invoice and records a sales discount only when a customer pays early. Under the net method, it records the sale net of the discount, and records sales discounts forfeited when a customer pays late.
+Trade receivables that are due within one year are not discounted to present value. Notes receivable are different. An interest-bearing note is carried at its face amount plus accrued interest. A note with no interest, or with a rate below the market rate, is recorded at its present value. The discount is then amortized to interest revenue over the life of the note.
+EXAM TRAP   Receivable or contract asset?
+Receivable: only time must pass before payment. Contract asset: the company must still perform.
+Expected cash discounts and returns reduce the receivable at the start, not only when they happen.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+contract asset
+أصل العقد
+actif sur contrat
+cash discount
+خصم تعجيل الدفع (خصم نقدي)
+escompte de règlement
+notes receivable
+أوراق القبض
+effets à recevoir
+amortized cost
+التكلفة المستنفدة (التكلفة المطفأة)
+coût amorti
+English (exam term)
+العربية
+Français
+contract asset
+أصل العقد
+actif sur contrat
+cash discount
+خصم تعجيل الدفع (خصم نقدي)
+escompte de règlement
+notes receivable
+أوراق القبض
+effets à recevoir
+amortized cost
+التكلفة المستنفدة (التكلفة المطفأة)
+coût amorti
+SECTION CHECK   Test yourself
+SC6-1  Orontes has delivered the first of two shipments under one contract. It can bill the customer only after the second shipment. What should Orontes record for the first shipment?
+A.	A contract asset
+B.	An account receivable
+C.	Nothing until it can bill
+D.	Unearned revenue
+SC6-2  A trade receivable is due in 60 days. At what amount is it recorded?
+A.	Its present value using a market interest rate
+B.	The invoice amount, with discounts recorded only when taken
+C.	The transaction price, reduced for expected discounts and returns
+D.	The invoice amount less expected credit losses, recorded as one net number
+Answers and explanations are at the end of the chapter.
+6.2  The allowance for credit losses
+Under current expected credit losses (CECL), a company presents its receivables net of an allowance that covers all the credit losses it expects over their life. It records these expected losses from the first day. It does not wait until a loss becomes probable. The estimate uses past experience, current conditions and reasonable and supportable forecasts.
+Trade receivables are measured at amortized cost, and the allowance is a contra-asset account. The balance sheet shows receivables minus the allowance: the amount the company expects to collect.
+Estimating the allowance with an aging schedule
+A common method is the aging schedule. The company groups its receivables by how long they are past due and applies an expected loss rate to each group. The rates start from history and are adjusted for current conditions and forecasts. The total is the balance the allowance must have at the end of the year.
+WORKED EXAMPLE   The Amman sales office at December 31, 2025
+Figure F06-03 shows the aging for the Amman sales office (whole USD). The loss rates already include a forecast of slower payments in some Gulf markets.
+Figure F06-03. Aging schedule, Orontes Amman sales office, December 31, 2025 (whole USD)
+Age of receivable
+Amount
+Expected loss rate
+Required allowance
+Current
+400,000
+1%
+4,000
+1–30 days past due
+150,000
+3%
+4,500
+31–60 days past due
+60,000
+10%
+6,000
+61–90 days past due
+30,000
+25%
+7,500
+Over 90 days past due
+20,000
+60%
+12,000
+Total
+660,000
+34,000
+The allowance must end the year at $34,000. During the year, the allowance started at $30,000, Orontes wrote off $26,000 of bad receivables and recovered $2,000 that it had written off earlier. Figure F06-04 shows how the credit loss expense is found: it is the amount needed to move the allowance from its unadjusted balance to the required balance.
+Figure F06-04. Allowance for credit losses T-account: the expense is the plug that reaches the required balance.
+The journal entry is: debit Credit loss expense $28,000, credit Allowance for credit losses $28,000. Net receivables on the balance sheet are $660,000 − $34,000 = $626,000.
+Write-offs and recoveries
+When a customer's balance is clearly uncollectible, the company records a write-off: debit the allowance and credit accounts receivable. The write-off changes neither net income nor net receivables, because the expense was already recorded when the allowance was built. If the customer later pays, the company records a recovery: it first reinstates the receivable (debit accounts receivable, credit allowance) and then records the cash collection.
+Figure F06-05 compares the allowance method with the direct write-off method, which records an expense only when a balance is written off. The direct method is used for U.S. tax returns. It is not GAAP when bad debts are material, because it records losses late and shows receivables at a gross amount.
+Figure F06-05. Allowance method (CECL) versus direct write-off method, Amman sales office 2025 (whole USD)
+Allowance method (CECL)
+Direct write-off method
+When is the expense recorded?
+Each period, for expected losses (matching)
+Only when a customer's balance is written off
+Expense in 2025 (Amman office)
+28,000
+26,000
+Receivables on the balance sheet
+Net: 626,000
+Gross: 660,000 (overstated)
+Acceptable under U.S. GAAP?
+Yes (CECL)
+No, when bad debts are material; used for U.S. tax
+Older questions sometimes estimate the expense as a percentage of credit sales. This income-statement approach does not measure the expected losses on the ending receivables, so under CECL the aging (balance-sheet) approach is the better choice.
+YOUR TURN   Barada Wholesale's allowance
+Barada's trial balance in Chapter 1 showed accounts receivable and an allowance for credit losses. Figure F06-06 gives Barada's aging. The first row is done. Complete the other rows and the total, then check your total against Barada's trial balance in Figure F01-10.
+Figure F06-06. Barada Wholesale aging, December 31, 2025 (whole USD): complete the blanks
+Age of receivable
+Amount
+Expected loss rate
+Required allowance
+Current
+180,000
+2%
+3,600
+1–60 days past due
+80,000
+8%
+______
+Over 60 days past due
+40,000
+25%
+______
+Total
+300,000
+______
+WATCH: NOT YET TESTABLE   ASU 2025-05
+In 2025 the FASB added a practical expedient: when forecasting losses on current receivables, any company may assume that conditions at the balance sheet date will not change. Private companies may also use cash collected after year-end. It applies to annual periods beginning after December 15, 2025, so under the one-year rule it is not yet tested on the CMA exam.
+● IFRS CONTRAST   IFRS 9: expected losses, too
+IFRS 9 also uses expected losses. For trade receivables it uses a simplified approach that always records lifetime losses, often with a provision matrix, which is very close to CECL. For other financial assets, IFRS 9 starts with 12-month expected losses and moves to lifetime losses only after credit risk increases significantly. CECL records lifetime losses from day one for all assets at amortized cost.
+FALSE-FRIEND ALERT   Allowance or provision?
+Arabic مخصص covers two different things. An allowance (مخصص الخسائر الائتمانية) reduces an asset. A provision under IAS 37 is a liability. In a U.S. GAAP answer, always write allowance for credit losses, never provision for doubtful debts or reserve for bad debts.
+EXAM TRAP   Balance first, then the expense
+The aging gives the required ENDING allowance, not the expense.
+Expense = required balance − unadjusted credit balance, or required balance + unadjusted debit balance.
+A write-off does not change net income or net receivables.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+current expected credit losses (CECL)
+الخسائر الائتمانية المتوقعة الحالية
+pertes de crédit attendues (modèle CECL)
+aging schedule
+جدول أعمار الذمم المدينة
+balance âgée
+credit loss expense
+مصروف الخسائر الائتمانية
+charge de pertes de crédit (dotation aux dépréciations)
+write-off
+شطب (إعدام) الدين
+passage en perte (créance irrécouvrable)
+recovery
+استرداد دين مشطوب
+recouvrement d'une créance passée en perte
+direct write-off method
+طريقة الشطب المباشر
+méthode de radiation directe
+English (exam term)
+العربية
+Français
+current expected credit losses (CECL)
+الخسائر الائتمانية المتوقعة الحالية
+pertes de crédit attendues (modèle CECL)
+aging schedule
+جدول أعمار الذمم المدينة
+balance âgée
+credit loss expense
+مصروف الخسائر الائتمانية
+charge de pertes de crédit (dotation aux dépréciations)
+write-off
+شطب (إعدام) الدين
+passage en perte (créance irrécouvrable)
+recovery
+استرداد دين مشطوب
+recouvrement d'une créance passée en perte
+direct write-off method
+طريقة الشطب المباشر
+méthode de radiation directe
+SECTION CHECK   Test yourself
+SC6-3  The aging shows that the allowance for credit losses should be 20,000. Before adjustment, the allowance has a debit balance of 3,000. What is the credit loss expense?
+A.	3,000
+B.	17,000
+C.	20,000
+D.	23,000
+SC6-4  Under the allowance method, Orontes writes off a customer's balance of 4,000. What is the effect?
+A.	Net income decreases by 4,000
+B.	No effect on net income or on net receivables
+C.	Net receivables decrease by 4,000
+D.	Total assets decrease by 4,000
+Answers and explanations are at the end of the chapter.
+6.3  Transferring receivables: sale or secured borrowing?
+A company that needs cash before its customers pay can use its receivables in two ways. It can use them as collateral for a loan (pledging), or it can transfer them to a finance company called a factor. This is factoring. The accounting question is simple: is the transfer a sale, or is it really a loan?
+U.S. GAAP treats a transfer as a sale only if three conditions are all met. First, legal isolation: the receivables are beyond the reach of the seller and its creditors, even in bankruptcy. Second, the factor can pledge or exchange the receivables. Third, the seller does not keep effective control, for example through an agreement to buy the receivables back before they mature. If any condition fails, the transfer is a secured borrowing. Figure F06-07 shows the test.
+Figure F06-07. Decision tree: is a transfer of receivables a sale or a secured borrowing?.
+Recourse is the factor's right to collect from the seller if customers do not pay. Recourse does not by itself make the transfer a borrowing. If the three conditions are met, a transfer with recourse is still a sale. The seller then records a recourse liability at its fair value, which increases the loss on the sale.
+WORKED EXAMPLE   Orontes factors its receivables
+Orontes transfers receivables with a carrying amount of $500,000 to Gulf Factor Co. The factor charges a fee of 3% ($15,000) and keeps a holdback (due from factor) of 5% ($25,000) to cover returns and discounts. Orontes receives $460,000 in cash.
+Sale without recourse: debit Cash $460,000, debit Due from factor $25,000, debit Loss on sale of receivables $15,000; credit Accounts receivable $500,000.
+Sale with recourse (recourse liability $6,000): the same entry, but the loss is $21,000 and Orontes also credits Recourse liability $6,000.
+Secured borrowing: debit Cash $460,000, debit Interest expense $15,000; credit Liability to factor $475,000. The receivables stay on the balance sheet, marked as pledged.
+Figure F06-08 compares the three treatments. Loss on a sale = carrying amount − (cash + due from factor − recourse liability). With recourse: $500,000 − ($460,000 + $25,000 − $6,000) = $21,000.
+Figure F06-08. Effects of one transfer as a sale without recourse, a sale with recourse, or a secured borrowing.
+The balance sheet effect is the main reason companies care. A sale removes the receivables and adds little or no debt, so ratios such as debt to equity look better. A secured borrowing keeps the receivables and adds a liability. Lenders and analysts read the notes to see which receivables are pledged or transferred.
+● IFRS CONTRAST   IFRS 9 looks at risks and rewards
+IFRS 9 asks first whether the seller has transferred substantially all the risks and rewards of the receivables. Factoring with substantial recourse usually keeps most of the risk with the seller, so under IFRS it often fails derecognition and is treated as borrowing. Under U.S. GAAP the same transfer may qualify as a sale if the three ASC 860 conditions are met.
+EXAM TRAP   Recourse is not the test
+Do not assume that every transfer with recourse is a borrowing. Apply the three conditions.
+The holdback is an asset (due from factor), not part of the loss.
+Pledged receivables stay on the balance sheet.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+factoring
+تخصيم الذمم المدينة (بيع الديون)
+affacturage
+factor
+شركة التخصيم
+factor (société d'affacturage)
+recourse
+حق الرجوع
+recours
+recourse liability
+التزام حق الرجوع
+passif au titre du recours
+holdback (due from factor)
+المبلغ المحتجز (مستحق من شركة التخصيم)
+retenue de garantie (créance sur le factor)
+secured borrowing
+اقتراض مضمون
+emprunt garanti
+pledging
+رهن الذمم المدينة
+nantissement de créances
+effective control
+السيطرة الفعلية
+contrôle effectif
+legal isolation
+العزل القانوني
+isolement juridique
+English (exam term)
+العربية
+Français
+factoring
+تخصيم الذمم المدينة (بيع الديون)
+affacturage
+factor
+شركة التخصيم
+factor (société d'affacturage)
+recourse
+حق الرجوع
+recours
+recourse liability
+التزام حق الرجوع
+passif au titre du recours
+holdback (due from factor)
+المبلغ المحتجز (مستحق من شركة التخصيم)
+retenue de garantie (créance sur le factor)
+secured borrowing
+اقتراض مضمون
+emprunt garanti
+pledging
+رهن الذمم المدينة
+nantissement de créances
+effective control
+السيطرة الفعلية
+contrôle effectif
+legal isolation
+العزل القانوني
+isolement juridique
+SECTION CHECK   Test yourself
+SC6-5  Orontes transfers receivables to a bank but must buy them back before they mature. How should Orontes account for the transfer?
+A.	As a sale with recourse
+B.	As a sale without recourse
+C.	As a contract asset
+D.	As a secured borrowing
+SC6-6  Use the Orontes factoring example in Section 6.3. In a sale without recourse, what is the loss on the sale (whole USD)?
+A.	0
+B.	15,000
+C.	21,000
+D.	40,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F06-09 brings the chapter together.
+Figure F06-09. Chapter 6 summary map: the key rule for each section.
+A receivable is recorded when only time must pass before payment, at the amount the company expects to receive. Under CECL, receivables are shown net of an allowance for lifetime expected credit losses. The aging schedule gives the required allowance, and the credit loss expense is the amount needed to reach it. Write-offs and recoveries change neither income nor net receivables. A transfer of receivables is a sale only if they are legally isolated, the factor can pledge them, and the seller has no effective control. Otherwise it is a secured borrowing. Recourse adds a liability to a sale, and the holdback is an asset.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P6-01  Under CECL, when does a company first recognize expected credit losses on a trade receivable?
+A.	When a loss becomes probable
+B.	When the customer misses a payment
+C.	When the receivable is first recognized
+D.	When the receivable is written off
+P6-02  Use Figure F06-03. What is the required allowance for credit losses at December 31, 2025 (whole USD)?
+A.	6,000
+B.	28,000
+C.	34,000
+D.	626,000
+P6-03  Use Figure F06-04. What is the credit loss expense for 2025 (whole USD)?
+A.	26,000
+B.	28,000
+C.	34,000
+D.	40,000
+P6-04  A customer pays 1,500 that Orontes had written off last year. Under the allowance method, what is the first entry?
+A.	Debit Accounts receivable, credit Allowance for credit losses
+B.	Debit Cash, credit Revenue
+C.	Debit Cash, credit Credit loss expense
+D.	Debit Allowance for credit losses, credit Accounts receivable
+P6-05  Why is the direct write-off method not acceptable under U.S. GAAP when bad debts are material?
+A.	It is not allowed for U.S. tax returns.
+B.	It records losses too early.
+C.	It records losses late and shows receivables at more than the amount expected to be collected.
+D.	It reduces cash flow from operations.
+P6-06  Which statement about the percentage-of-sales approach is correct under CECL?
+A.	It is the method CECL requires.
+B.	It gives the required ending balance of the allowance.
+C.	It is the same as the direct write-off method.
+D.	It estimates the expense directly but does not measure expected losses on the ending receivables.
+P6-07  Orontes accepts a two-year note from a customer with no stated interest. How is the note recorded?
+A.	At its present value, with the discount amortized to interest revenue
+B.	At its face amount, with no interest
+C.	At its face amount plus interest at the market rate
+D.	At the customer's cost of the goods
+P6-08  Under ASU 2025-05, a practical expedient lets companies assume current conditions will not change when they forecast losses on current receivables. How should a CMA candidate treat it in 2026?
+A.	As the main CECL rule
+B.	As a rule that applies only to IFRS companies
+C.	As a replacement for the aging method
+D.	As a watch item that is not yet tested
+P6-09  Receivables are transferred with recourse. They are legally isolated, the factor may pledge them, and the seller has no repurchase right or duty. How is the transfer recorded?
+A.	As a secured borrowing, because there is recourse
+B.	As a sale, with no liability
+C.	As a sale, with a recourse liability at fair value
+D.	As a pledge of receivables
+P6-10  Use the Orontes factoring example. If the transfer with recourse qualifies as a sale, what is the loss (whole USD)?
+A.	6,000
+B.	15,000
+C.	21,000
+D.	40,000
+P6-11  Compared with a sale of receivables, a secured borrowing:
+A.	removes the receivables and adds no liability.
+B.	removes the receivables and adds a recourse liability.
+C.	keeps the receivables on the balance sheet and adds a liability.
+D.	has no effect on the balance sheet.
+P6-12  Orontes pledges its receivables as collateral for a bank loan. How are the receivables reported?
+A.	They stay on the balance sheet, with disclosure of the pledge.
+B.	They are removed from the balance sheet.
+C.	They are reclassified as a liability.
+D.	They are written down to fair value.
+P6-13  Under IFRS 9, how are expected credit losses measured on trade receivables without a significant financing component?
+A.	At 12-month expected losses
+B.	Only when a loss is probable
+C.	Only when the receivable is written off
+D.	Always at lifetime expected losses
+P6-14  Receivables are factored with substantial recourse. The transfer meets the three ASC 860 conditions. Which statement is MOST likely correct?
+A.	Both frameworks treat it as a borrowing.
+B.	U.S. GAAP treats it as a sale; IFRS 9 may treat it as a borrowing.
+C.	Both frameworks treat it as a sale with no liability.
+D.	IFRS treats it as a sale; U.S. GAAP treats it as a borrowing.
+P6-15  Spiral review (Chapter 1). Where is the allowance for credit losses reported?
+A.	As a liability
+B.	As an expense
+C.	As a contra-asset, deducted from accounts receivable
+D.	As a reduction of equity
+P6-16  Spiral review (Chapter 1). Recording credit loss expense in the period of the sale, before any customer defaults, is an example of:
+A.	the cash basis
+B.	the direct write-off method
+C.	immediate recognition
+D.	the matching principle
+Case-style practice: Orontes Dubai sales office
+Use Figure F06-10 for items C6-1 to C6-6. All amounts are in whole dollars at December 31, 2025.
+Figure F06-10. Case exhibit: Orontes Dubai sales office, December 31, 2025
+Item
+Details (whole USD)
+Aging
+Current: 250,000 at an expected loss rate of 2%
+Aging
+1–60 days past due: 90,000 at an expected loss rate of 10%
+Aging
+Over 60 days past due: 40,000 at an expected loss rate of 40%
+Allowance account
+Beginning balance 18,000 (credit). Write-offs during 2025: 24,000. Recoveries: 1,000.
+Transfer T1
+Receivables sold to a factor without recourse. The factor may resell them. Orontes has no right or duty to buy them back.
+Transfer T2
+Receivables transferred with recourse. They are legally isolated from Orontes, the factor may pledge them, and Orontes cannot buy them back.
+Transfer T3
+Receivables transferred to a bank, but Orontes must repurchase them before they mature.
+Transfer T4
+Receivables pledged as collateral for a bank loan; Orontes still collects them.
+Transfer T2 details
+Carrying amount 200,000; factor's fee 2%; holdback 4%; fair value of the recourse obligation 3,000.
+C6-1  Enter the required allowance for credit losses at December 31, 2025.
+Answer: ____________
+C6-2  Enter the credit loss expense for 2025.
+Answer: ____________
+C6-3  Enter net accounts receivable at December 31, 2025.
+Answer: ____________
+C6-4  Classify each transfer. (On the exam screen you would drag each transfer into a box.)
+Categories: Sale · Secured borrowing
+Transfer
+Category
+T1
+T2
+T3
+T4
+C6-5  Enter the loss on transfer T2.
+Answer: ____________
+C6-6  In January 2026 Orontes writes off a customer balance of $4,500. The effect on net accounts receivable is: [select]
+Options: no change   |   a decrease of $4,500   |   an increase of $4,500   |   a decrease of $4,500 and an expense
+Written task
+W6  In four to six sentences, explain to the Orontes credit manager why writing off a bad debt does not reduce profit, and why factoring with recourse can still be a sale. Use these words: allowance, write-off, expected losses, recourse liability, effective control.
+Answers and explanations
+Section checks
+SC6-1  Answer A. Orontes has performed, but its right to payment still depends on the second shipment, not only on time.
+B is wrong. A receivable needs an unconditional right to payment.
+C is wrong. Orontes has transferred control of the first shipment, so it records something now.
+D is wrong. Unearned revenue arises when cash comes before performance, the opposite case.
+SC6-2  Answer C. Receivables are recorded at the transaction price; expected discounts and returns are variable consideration. Short-term receivables are not discounted.
+A is wrong. Receivables due within one year are not discounted.
+B is wrong. That is the older gross method; expected discounts are variable consideration today.
+D is wrong. Credit losses are recorded in a separate allowance account, not netted in the receivable.
+SC6-3  Answer D. The allowance must move from a 3,000 debit to a 20,000 credit, so the expense is 23,000.
+A is wrong. This is only the existing debit balance.
+B is wrong. This subtracts a debit balance instead of adding it.
+C is wrong. This books the required balance as the expense.
+SC6-4  Answer B. Both accounts receivable and the allowance decrease by 4,000, so the net amount is unchanged. The expense was recorded earlier.
+A is wrong. The expense was recorded when the allowance was set up.
+C is wrong. Receivables and the allowance fall by the same amount.
+D is wrong. Net receivables, and so total assets, do not change.
+SC6-5  Answer D. The repurchase duty means Orontes keeps effective control, so the sale conditions fail.
+A is wrong. Effective control prevents sale accounting whatever the recourse terms.
+B is wrong. The transfer fails the effective-control condition.
+C is wrong. Contract assets relate to performance under a customer contract.
+SC6-6  Answer B. The holdback is an asset (due from factor), so the loss is only the factor's fee.
+A is wrong. The fee reduces the proceeds, so there is a loss.
+C is wrong. This includes a recourse liability, which exists only with recourse.
+D is wrong. This treats the holdback as part of the loss.
+Your turn
+Item
+Answer
+1–60 days past due
+80,000 × 8% = 6,400
+Over 60 days past due
+40,000 × 25% = 10,000
+Required allowance
+3,600 + 6,400 + 10,000 = 20,000
+Check with Figure F01-10
+The trial balance shows receivables of 300,000 and an allowance of 20,000 (both in whole dollars), so the aging agrees.
+Multiple-choice questions
+P6-01  Answer C. CECL records lifetime expected losses from day one.
+A is wrong. The probable threshold belonged to the old incurred-loss model.
+B is wrong. CECL does not wait for evidence of a loss.
+D is wrong. That is the direct write-off method.
+P6-02  Answer C. The sum of each group's amount × its expected loss rate.
+A is wrong. This is the unadjusted balance before the year-end entry.
+B is wrong. This is the credit loss expense, not the required balance.
+D is wrong. This is net receivables.
+P6-03  Answer B. Required balance − unadjusted credit balance.
+A is wrong. This is the direct write-off expense.
+C is wrong. This books the required balance as the expense.
+D is wrong. This adds a credit balance instead of subtracting it.
+P6-04  Answer A. The company first reinstates the receivable; the second entry records the cash collection.
+B is wrong. A recovery is not revenue.
+C is wrong. The recovery goes back to the allowance, not the expense account.
+D is wrong. This is the write-off entry, in the opposite direction.
+P6-05  Answer C. Losses are recorded only when balances are written off, so receivables are overstated and matching fails.
+A is wrong. The direct method is the method used for U.S. tax.
+B is wrong. It records losses late, not early.
+D is wrong. Neither method changes cash.
+P6-06  Answer D. It is an income-statement approach; CECL focuses on the expected losses on the receivables at the balance sheet date.
+A is wrong. CECL does not require any single method; aging and loss-rate methods fit it better.
+B is wrong. The aging method gives the required ending balance.
+C is wrong. It still uses an allowance; the direct method does not.
+P6-07  Answer A. Long-term notes with no or low interest are recorded at present value using an imputed rate.
+B is wrong. This ignores the time value of money over two years.
+C is wrong. Interest is earned over time, not added at the start.
+D is wrong. The customer's cost is irrelevant to the seller's receivable.
+P6-08  Answer D. It is effective for annual periods beginning after December 15, 2025; under the one-year rule it is not yet tested.
+A is wrong. It is an optional simplification and is not yet testable.
+B is wrong. It is a U.S. GAAP update.
+C is wrong. It changes only the forecasting assumption, not the method.
+P6-09  Answer C. All three sale conditions are met; recourse adds a liability to the sale.
+A is wrong. Recourse alone does not make the transfer a borrowing.
+B is wrong. The recourse obligation must be recorded.
+D is wrong. In a pledge, the receivables are not transferred.
+P6-10  Answer C. Carrying amount − (cash + due from factor − recourse liability).
+A is wrong. This is only the recourse liability.
+B is wrong. This leaves out the recourse liability.
+D is wrong. This treats the holdback as part of the loss.
+P6-11  Answer C. In a borrowing, the receivables stay (pledged) and the cash received is a liability.
+A is wrong. That describes a sale without recourse.
+B is wrong. That describes a sale with recourse.
+D is wrong. Cash and a liability are both recorded.
+P6-12  Answer A. Pledging is not a transfer; only a note disclosure is needed.
+B is wrong. The receivables are not sold.
+C is wrong. The loan is the liability; the receivables remain assets.
+D is wrong. Pledging does not change their measurement.
+P6-13  Answer D. The simplified approach requires lifetime expected losses for these receivables.
+A is wrong. The 12-month measure is stage 1 of the general approach, not the simplified approach.
+B is wrong. That was the old incurred-loss model.
+C is wrong. That is the direct write-off method.
+P6-14  Answer B. IFRS 9 focuses on risks and rewards; substantial recourse often keeps the risk with the seller.
+A is wrong. Under U.S. GAAP the ASC 860 conditions decide, and they are met.
+C is wrong. A U.S. GAAP sale with recourse records a recourse liability.
+D is wrong. This reverses the two frameworks.
+P6-15  Answer C. It reduces receivables to the amount expected to be collected.
+A is wrong. It is a contra-asset, not a liability.
+B is wrong. The expense is a separate account; the allowance is the balance sheet total.
+D is wrong. It reduces an asset, not equity.
+P6-16  Answer D. The expected loss is matched with the revenue of the same period.
+A is wrong. No cash moves when the expense is recorded.
+B is wrong. The direct method waits until a balance is written off.
+C is wrong. The expense is linked to the period's revenue.
+Case-style set: Orontes Dubai sales office
+C6-1  Answer: 30,000.
+35,000 is wrong: this answer gives the expense instead of the required balance.
+18,000 is wrong: this answer keeps the beginning balance.
+C6-2  Answer: 35,000.
+30,000 is wrong: this answer books the required balance as the expense.
+25,000 is wrong: this answer subtracts the unadjusted debit balance instead of adding it.
+C6-3  Answer: 350,000.
+380,000 is wrong: this answer reports gross receivables with no allowance.
+C6-4
+Transfer
+Category
+T1
+Sale
+T2
+Sale
+T3
+Secured borrowing
+T4
+Secured borrowing
+T1 and T2 meet all three sale conditions (recourse does not change this). T3 fails effective control; T4 is a pledge, not a transfer.
+C6-5  Answer: 7,000.
+4,000 is wrong: this answer leaves out the recourse liability.
+12,000 is wrong: this answer treats the holdback as part of the loss.
+C6-6  Answer: no change.
+a decrease of $4,500 is wrong: this answer forgets that the allowance falls by the same amount.
+an increase of $4,500 is wrong: this answer reverses the effect.
+a decrease of $4,500 and an expense is wrong: this answer uses the direct write-off method.
+Written task: model answer
+Under CECL, Orontes records expected losses in the allowance when it makes the sales, so the expense is already in profit. A write-off only removes a balance that the allowance already covers: receivables and the allowance fall by the same amount, and profit does not change. Factoring with recourse can still be a sale if the receivables are legally isolated, the factor can pledge them, and Orontes has no effective control, such as a duty to buy them back. In that case Orontes removes the receivables and records a recourse liability at fair value, which increases the loss on the sale.
+A good answer: explains that the expense was recorded when the allowance was set up; says a write-off leaves net receivables and profit unchanged; names the three sale conditions or effective control; says recourse adds a recourse liability; uses the Orontes context (bonus).
+PART II — RECOGNITION AND MEASUREMENT OF ASSETS

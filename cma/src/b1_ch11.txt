@@ -1,0 +1,799 @@
+Chapter 11
+Revenue Recognition
+إثبات الإيراد
+Revenue is the largest number on most income statements, and it is where many accounting problems begin. Chapter 3 showed Orontes's net sales for 2025. This chapter asks how Orontes decides when a sale becomes revenue, and how much.
+All the contracts in this chapter are examples for 2026. They are not part of the 2025 statements in Chapters 2 to 5. Figure F11-01 shows the five steps you will use.
+Figure F11-01. Chapter 11 roadmap: the five steps of revenue recognition.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.x
+Apply the revenue recognition principles to common transactions, including agents, returns and consignments.
+B
+Full treatment
+A.2.y
+Use the five steps of ASC 606 to measure and time revenue from a contract with a customer.
+C
+Full treatment
+A.2.z
+Apply the matching principle, including contract costs.
+B
+Full treatment
+A.2.ff
+State the main differences between ASC 606 and IFRS 15.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+revenue
+إيراد (إيرادات)
+produits / chiffre d'affaires
+performance obligation
+التزام الأداء
+obligation de prestation
+transaction price
+سعر المعاملة
+prix de transaction
+standalone selling price
+سعر البيع المستقل
+prix de vente spécifique
+variable consideration
+العوض المتغير
+contrepartie variable
+over time
+على مدى زمني
+progressivement
+point in time
+عند نقطة من الزمن
+à une date donnée
+principal
+الأصيل
+entité agissant pour son propre compte
+agent
+الوكيل
+mandataire
+contract asset
+أصل العقد
+actif sur contrat
+WHAT YOU ALREADY KNOW   What you already know
+If you studied IFRS 15, you already know the five steps: the FASB and the IASB wrote the two standards together. The main differences are small, and Section 11.6 lists them. The words are the same too, so learn them exactly.
+11.1  Revenue and the core principle
+Revenue is the inflow from a company's main activities, such as selling goods or providing services. Under ASC 606, a company recognizes revenue when it transfers control of promised goods or services to a customer. It measures revenue at the amount it expects to be entitled to in exchange.
+Control means the customer can direct the use of the asset and obtain almost all of its benefits. The key question is therefore not when the company is paid, but when the customer gains control. Cash can arrive before, at or after that moment.
+ASC 606 applies one model to all contracts with customers: goods, services, construction and software. The model has five steps. Each step answers one question, and each uses the answer to the step before.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+revenue
+إيراد (إيرادات)
+produits / chiffre d'affaires
+English (exam term)
+العربية
+Français
+revenue
+إيراد (إيرادات)
+produits / chiffre d'affaires
+SECTION CHECK   Test yourself
+SC11-1  Under ASC 606, when does a company recognize revenue?
+A.	When it transfers control of promised goods or services to the customer
+B.	When it receives cash from the customer
+C.	When the contract is signed
+D.	When it sends an invoice
+SC11-2  What is the correct order of the five steps?
+A.	Transaction price, contract, allocation, obligations, recognition
+B.	Contract, performance obligations, transaction price, allocation, recognition
+C.	Contract, transaction price, recognition, obligations, allocation
+D.	Obligations, contract, allocation, transaction price, recognition
+Answers and explanations are at the end of the chapter.
+11.2  Steps 1 and 2: the contract and its performance obligations
+Step 1: identify the contract. A contract exists only if the parties have approved it and are committed to it, each party's rights and the payment terms can be identified, and the contract has commercial substance. Finally, it must be probable that the company will collect substantially all of the consideration.
+If these criteria are not met, cash received from the customer is a liability, not revenue. In U.S. GAAP, probable means likely: a higher level than the IFRS meaning of more likely than not.
+Step 2: identify the performance obligations. Each promise to transfer a distinct good or service is a separate obligation. A good or service is distinct if the customer can benefit from it on its own and it is separately identifiable in the contract, not highly dependent on other promises.
+Figure F11-02 applies the five steps to a contract that Orontes signs with GreenBasket on October 1, 2026, for $1,080,000. GreenBasket buys olive oil, a beverage dispenser installed in its stores, and two years of dispenser maintenance. Each can be bought separately, so there are three performance obligations.
+Figure F11-02. Suppose: the five steps applied to the Orontes–GreenBasket contract, October 1, 2026
+Step
+Orontes's analysis
+Result (whole USD)
+1. Identify the contract
+A signed agreement for olive oil, a dispenser and maintenance; payment terms clear; collection probable.
+Contract exists
+2. Identify the performance obligations
+Olive oil, the dispenser and maintenance can each be bought separately and are not highly interdependent.
+Three obligations
+3. Determine the transaction price
+Fixed price; no variable amounts, no financing component, no payments to GreenBasket.
+1,080,000
+4. Allocate the price
+Relative standalone selling prices totalling 1,200,000; each obligation gets 90%.
+810,000 / 180,000 / 90,000
+5. Recognize revenue
+Oil and dispenser: at delivery (point in time). Maintenance: over 24 months (over time).
+2026: 515,250
+EXAM TRAP   Probable is not 50%
+In U.S. GAAP, probable means likely to occur: in practice, about 75% or more. IFRS 15 uses probable to mean more likely than not. A question that says collection is only a little more likely than not fails the U.S. contract test.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+performance obligation
+التزام الأداء
+obligation de prestation
+English (exam term)
+العربية
+Français
+performance obligation
+التزام الأداء
+obligation de prestation
+SECTION CHECK   Test yourself
+SC11-3  A U.S. company believes it is 55% likely to collect the consideration in a new contract. Under ASC 606, the contract:
+A.	meets the criteria, because collection is more likely than not
+B.	meets the criteria, because the price is fixed
+C.	is recognized as revenue when signed
+D.	does not yet meet the criteria, so cash received is a liability
+SC11-4  Use Figure F11-02. Why does the GreenBasket contract contain three performance obligations?
+A.	The contract has three payment dates
+B.	Orontes sends three invoices
+C.	Each promise is distinct: GreenBasket can benefit from each on its own, and they are separately identifiable
+D.	Every contract has one obligation for each department involved
+Answers and explanations are at the end of the chapter.
+11.3  Steps 3 and 4: the transaction price and its allocation
+Step 3: determine the transaction price, the amount the company expects to receive. It includes variable consideration, such as rebates and bonuses. The company estimates it using the expected value, for many possible outcomes, or the most likely amount, for an all-or-nothing outcome.
+Variable amounts are included only to the extent that a significant reversal of revenue is not probable later. This is the constraint on variable consideration. Figure F11-03 compares the two estimation methods for a volume rebate.
+Figure F11-03. Variable consideration: most likely amount or expected value
+Suppose: sales of 2,400,000 with a 3% volume rebate
+How it works
+Revenue (whole USD)
+Most likely amount
+The rebate is all or nothing, so use the single most likely outcome: the rebate is earned (70% likely).
+2,328,000
+Expected value
+Probability-weighted: 70% × 72,000 = 50,400 rebate. Best when there are many possible outcomes.
+2,349,600
+Constraint
+Include variable amounts only if a significant reversal of revenue is not probable later.
+Applies to both
+Three other items change the transaction price. A significant financing component is removed when payment and delivery are far apart; if they are within one year, the company may ignore it. Consideration payable to a customer, such as a slotting fee paid to a supermarket for shelf space, reduces revenue. Sales taxes and VAT collected may be excluded from revenue by policy.
+Step 4: allocate the transaction price to the performance obligations in proportion to their standalone selling prices. When an observable price is not available, the company estimates it, for example from market prices or expected cost plus a margin. The residual approach is allowed only when a price is highly variable or uncertain.
+A discount is normally shared by all obligations. Figure F11-04 shows the GreenBasket contract: standalone prices total $1,200,000, but the contract price is $1,080,000. Each obligation therefore receives 90% of its standalone price.
+Figure F11-04. Allocating the GreenBasket discount by relative standalone selling price.
+EXAM TRAP   Price and allocation traps
+Revenue for each obligation is its allocated price, not its standalone selling price.
+A slotting fee paid to a customer reduces revenue; it is not a marketing expense unless Orontes receives a distinct service.
+Do not use the residual approach when standalone prices can be observed.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+transaction price
+سعر المعاملة
+prix de transaction
+standalone selling price
+سعر البيع المستقل
+prix de vente spécifique
+variable consideration
+العوض المتغير
+contrepartie variable
+constraint on variable consideration
+قيد العوض المتغير
+limitation de la contrepartie variable
+significant financing component
+مكوِّن تمويلي جوهري
+composante financement importante
+consideration payable to a customer
+العوض المستحق الدفع للعميل
+contrepartie payable au client
+English (exam term)
+العربية
+Français
+transaction price
+سعر المعاملة
+prix de transaction
+standalone selling price
+سعر البيع المستقل
+prix de vente spécifique
+variable consideration
+العوض المتغير
+contrepartie variable
+constraint on variable consideration
+قيد العوض المتغير
+limitation de la contrepartie variable
+significant financing component
+مكوِّن تمويلي جوهري
+composante financement importante
+consideration payable to a customer
+العوض المستحق الدفع للعميل
+contrepartie payable au client
+SECTION CHECK   Test yourself
+SC11-5  Use Figure F11-04. How much of the transaction price is allocated to the dispenser (whole USD)?
+A.	80,000
+B.	120,000
+C.	180,000
+D.	200,000
+SC11-6  Orontes pays a supermarket $30,000 for shelf space and receives no distinct service. How is the payment treated?
+A.	As a marketing expense
+B.	As a reduction of the transaction price (revenue)
+C.	As a prepaid asset amortized over five years
+D.	As cost of goods sold
+Answers and explanations are at the end of the chapter.
+11.4  Step 5: recognizing revenue over time or at a point in time
+Step 5: recognize revenue when, or as, each obligation is satisfied. An obligation is satisfied over time if the customer receives the benefit as the company performs, if the company improves an asset the customer controls, or if the asset has no other use and the company has a right to payment for work done so far.
+Progress over time is measured by an output method, such as units delivered, or an input method, such as costs incurred. If no over-time criterion is met, revenue is recognized at a point in time: when control passes. Figure F11-05 shows the test.
+Figure F11-05. Decision chart: is revenue recognized over time or at a point in time?.
+WORKED EXAMPLE   Worked example: GreenBasket revenue for 2026
+Step 1. Olive oil is recognized at each delivery. By December 31, Orontes has delivered 8,000 cases at $40 each of allocated price: $324,000.
+Step 2. The dispenser was installed on October 1, when GreenBasket gained control: $180,000.
+Step 3. Maintenance is over time: 3 months of 24 at $3,750 per month, $11,250.
+Check. Total 2026 revenue is $515,250, shown in Figure F11-06. The remaining $564,750 will be recognized in later periods.
+Figure F11-06. Suppose: GreenBasket revenue schedule for 2026
+Obligation
+Allocated
+Timing
+Progress in 2026
+2026 revenue
+Olive oil
+810,000
+Point in time (each delivery)
+8,000 of 20,000 cases × 40
+324,000
+Dispenser
+180,000
+Point in time (installed October 1)
+installed
+180,000
+Maintenance
+90,000
+Over time (24 months)
+3 months × 3,750
+11,250
+Total
+1,080,000
+515,250
+Payments rarely match revenue. A contract asset arises when the company has performed but its right to payment still depends on something other than time. A contract liability arises when the customer pays first. GreenBasket had paid $540,000 by December 31, more than the revenue recognized, so Orontes reports a contract liability of $24,750, as Figure F11-07 shows.
+Figure F11-07. Cash, revenue and the contract liability on the GreenBasket contract.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+over time
+على مدى زمني
+progressivement
+point in time
+عند نقطة من الزمن
+à une date donnée
+output method
+طريقة المخرجات
+méthode fondée sur les extrants
+input method
+طريقة المدخلات
+méthode fondée sur les intrants
+contract asset
+أصل العقد
+actif sur contrat
+English (exam term)
+العربية
+Français
+over time
+على مدى زمني
+progressivement
+point in time
+عند نقطة من الزمن
+à une date donnée
+output method
+طريقة المخرجات
+méthode fondée sur les extrants
+input method
+طريقة المدخلات
+méthode fondée sur les intrants
+contract asset
+أصل العقد
+actif sur contrat
+SECTION CHECK   Test yourself
+SC11-7  Use Figure F11-06. What is Orontes's 2026 revenue on the GreenBasket contract (whole USD)?
+A.	515,250
+B.	572,500
+C.	594,000
+D.	1,080,000
+SC11-8  A customer pays in advance for a service that the company will provide next year. At year-end, the company reports:
+A.	a contract asset
+B.	a receivable
+C.	a contract liability
+D.	revenue
+Answers and explanations are at the end of the chapter.
+11.5  Special situations
+When another party is involved, the company must decide whether it is a principal or an agent. A principal controls the good or service before it is transferred and reports revenue gross. An agent only arranges the sale and reports its fee or commission as revenue. Figure F11-08 shows the difference for a drop shipment by Barada.
+Figure F11-08. Principal or agent: gross or net revenue on a drop shipment.
+When customers may return goods, the company recognizes revenue only for goods it does not expect to be returned. It records a refund liability for expected refunds and a separate asset for its right to recover the returned goods. The asset and the liability are not netted.
+YOUR TURN   Barada's sale with a right of return
+Figure F11-09 describes a sale with expected returns. Complete the four blanks. Answers are at the end of the chapter.
+Figure F11-09. Suppose: Barada's sale with a right of return (complete the blanks)
+Suppose: Barada sells 1,000 units at $20 (cost $12); 5% expected returns
+Whole USD
+Sales price of all units
+20,000
+Units expected to be returned
+50
+Revenue recognized
+________
+Refund liability
+________
+Asset: right to recover returned products
+________
+Cost of goods sold
+________
+Control is also the test in other cases. Goods sent on consignment are not sold until the consignee sells them. In a bill-and-hold arrangement, revenue is recognized only if the goods are identified, ready and cannot be used for other customers, and the customer asked for the arrangement. A promise to buy the goods back usually means no sale has taken place.
+Customer options can create a material right, such as loyalty points, which is a separate obligation. For gift cards, the company recognizes breakage, the part customers are not expected to use, in proportion to the cards that are used. Nonrefundable upfront fees are usually deferred. Chapter 12 explains warranties.
+EXAM TRAP   Special-situation traps
+An agent's revenue is its commission, not the full price the customer pays.
+Present the refund liability and the return asset separately.
+Goods on consignment stay in the consignor's inventory.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+principal
+الأصيل
+entité agissant pour son propre compte
+agent
+الوكيل
+mandataire
+refund liability
+التزام الاسترداد
+passif au titre des remboursements
+bill-and-hold arrangement
+ترتيب الفوترة والاحتفاظ
+vente à livrer (facturation et détention)
+material right
+حق جوهري
+droit significatif
+breakage
+الحقوق غير المستخدمة (الكسر)
+droits non exercés
+English (exam term)
+العربية
+Français
+principal
+الأصيل
+entité agissant pour son propre compte
+agent
+الوكيل
+mandataire
+refund liability
+التزام الاسترداد
+passif au titre des remboursements
+bill-and-hold arrangement
+ترتيب الفوترة والاحتفاظ
+vente à livrer (facturation et détention)
+material right
+حق جوهري
+droit significatif
+breakage
+الحقوق غير المستخدمة (الكسر)
+droits non exercés
+SECTION CHECK   Test yourself
+SC11-9  Use Figure F11-08. If Barada is an agent, what revenue does it report (whole USD)?
+A.	0
+B.	8,000
+C.	42,000
+D.	50,000
+SC11-10  Orontes ships olive oil to a shop on consignment. When does Orontes recognize revenue?
+A.	When the oil is shipped to the shop
+B.	When the shop receives the oil
+C.	When the shop sells the oil to its customers
+D.	At the end of the month of shipment
+Answers and explanations are at the end of the chapter.
+11.6  Matching, contract costs and IFRS differences
+The matching principle says that expenses are recognized in the same period as the revenues they help to earn. Cost of goods sold is recognized when the related sale is recognized. Costs with no future benefit, such as most advertising, are expensed at once, and long-lived assets are depreciated over the periods they serve.
+Contract costs follow the same idea. Incremental costs of obtaining a contract, such as sales commissions, are capitalized if the company expects to recover them. Orontes pays its salesperson a 3% commission, $32,400, on the GreenBasket contract. It capitalizes this amount and expenses it as it transfers the goods and services.
+If the amortization period is one year or less, the company may expense such costs immediately. Costs to fulfill a contract are capitalized only if they relate directly to it and create a resource that will be used. Under U.S. GAAP, an impairment of these assets is never reversed.
+Figure F11-10 lists the main differences from IFRS 15. They matter for comparisons, but the five steps are the same.
+Figure F11-10. ASC 606 and IFRS 15: the main differences
+Topic
+U.S. GAAP (ASC 606)
+IFRS 15
+Collectibility threshold ('probable')
+Likely (a high threshold)
+More likely than not
+Shipping after control passes
+May elect to treat as a fulfillment cost
+No election; may be an obligation
+Sales taxes collected
+May elect to exclude all
+Judge each tax: principal or agent
+Impairment of capitalized contract costs
+Never reversed
+Reversed (limited)
+License renewals
+Revenue when the renewal period begins
+Policy choice
+Onerous contracts
+No general rule
+IAS 37 provision
+WATCH: NOT YET TESTABLE   Not yet testable: ASU 2025-07 and ASU 2025-05
+ASU 2025-07 explains how to account for shares that a customer pays as consideration. It applies from 2027 and is not testable before about January 2028. ASU 2025-05 adds a practical expedient for credit losses on current receivables and contract assets; it is not testable before about January 2027.
+FALSE-FRIEND ALERT   إيرادات مؤجلة and produits constatés d'avance
+Arabic إيرادات مؤجلة and French produits constatés d'avance describe cash received before revenue is earned. Under ASC 606 the correct term is contract liability, and it can also arise when payment is due, not only when cash is received.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+incremental costs of obtaining a contract
+التكاليف الإضافية للحصول على العقد
+coûts marginaux d'obtention du contrat
+matching principle
+مبدأ مقابلة الإيرادات بالمصروفات
+principe de rattachement des charges aux produits
+English (exam term)
+العربية
+Français
+incremental costs of obtaining a contract
+التكاليف الإضافية للحصول على العقد
+coûts marginaux d'obtention du contrat
+matching principle
+مبدأ مقابلة الإيرادات بالمصروفات
+principe de rattachement des charges aux produits
+SECTION CHECK   Test yourself
+SC11-11  Orontes pays a sales commission of $32,400 to win the two-year GreenBasket contract. How is it treated?
+A.	Expensed immediately
+B.	Capitalized and expensed as the goods and services are transferred
+C.	Deducted from revenue
+D.	Added to the cost of the dispenser
+SC11-12  A company impaired a capitalized contract cost last year. This year the contract becomes profitable again. Under U.S. GAAP, the impairment is:
+A.	reversed in full
+B.	reversed up to the original cost
+C.	moved to OCI
+D.	not reversed
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F11-11 brings the chapter together.
+Figure F11-11. Chapter 11 summary map: the key rule for each section.
+Revenue is recognized when control of goods or services passes to the customer, at the amount the company expects to receive. The five steps are: identify the contract, identify the performance obligations, determine the transaction price, allocate it by standalone selling prices, and recognize revenue when or as each obligation is satisfied. Variable consideration is estimated and constrained, and payments to customers reduce revenue. Agents report net revenue, expected returns create a refund liability and a separate asset, and consignment is not a sale. Commissions are capitalized and expensed as revenue is earned, following the matching principle.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P11-01  Which transaction produces revenue for Orontes?
+A.	Receiving a bank loan
+B.	Selling an old delivery van
+C.	Delivering olive oil to a supermarket that has ordered it
+D.	Issuing new shares
+P11-02  A customer pays Orontes in December for goods that Orontes will deliver in January. In which year is revenue recognized?
+A.	In December, when cash is received
+B.	Half in each year
+C.	When the customer pays the invoice
+D.	In January, when control of the goods passes
+P11-03  Which indicator suggests that a company is a principal rather than an agent?
+A.	It receives a fixed commission per sale
+B.	It bears the inventory risk before the goods are transferred
+C.	The supplier sets the selling price
+D.	The supplier is responsible for fulfilling the order
+P11-04  Use Figure F11-09. How much revenue does Barada recognize on the sale (whole USD)?
+A.	1,000
+B.	7,600
+C.	19,000
+D.	20,000
+P11-05  In a bill-and-hold arrangement, which condition is NOT required before the seller recognizes revenue?
+A.	The goods are identified separately as the customer's
+B.	The goods are ready for physical transfer
+C.	The seller cannot use the goods or direct them to another customer
+D.	The customer has paid in full
+P11-06  Orontes sells a dispenser and agrees to buy it back in one year at a higher price. The arrangement is accounted for as:
+A.	a sale with revenue now
+B.	a financing arrangement, not a sale
+C.	a sale with a right of return
+D.	a consignment
+P11-07  Customers earn loyalty points worth a discount on future purchases that they would not otherwise get. The points are:
+A.	a separate performance obligation (a material right)
+B.	a marketing expense
+C.	ignored until redeemed
+D.	a reduction of cost of goods sold
+P11-08  A gym charges a nonrefundable joining fee when a customer signs a one-year membership. The fee is:
+A.	revenue at once, because it is nonrefundable
+B.	a liability until the customer leaves
+C.	deferred and recognized over the membership period
+D.	deducted from expenses
+P11-09  Use Figure F11-03. Orontes's rebate is all or nothing. What revenue does Orontes recognize on the sales (whole USD)?
+A.	72,000
+B.	2,328,000
+C.	2,349,600
+D.	2,400,000
+P11-10  A customer will pay for goods two years after delivery, and the price includes a large interest element. The company should:
+A.	recognize the full price as revenue at delivery
+B.	recognize revenue when cash is received
+C.	adjust the transaction price for the significant financing component
+D.	ignore the interest because payment is certain
+P11-11  A U.S. retailer collects 5% sales tax from customers for the state. Under its policy election, the tax is:
+A.	included in revenue
+B.	excluded from revenue and recorded as a liability
+C.	recorded as an expense when paid
+D.	recorded in OCI
+P11-12  When may a company use the residual approach to estimate a standalone selling price?
+A.	Only when the price is highly variable or uncertain
+B.	Always, because it is the simplest
+C.	Whenever the contract includes a discount
+D.	Never under U.S. GAAP
+P11-13  Orontes provides cleaning services every week to a hotel. How is revenue recognized?
+A.	At the end of the contract
+B.	Over time, because the hotel receives and uses the benefit as Orontes performs
+C.	When the hotel pays
+D.	At the start, when the contract is signed
+P11-14  A builder constructs a factory on land owned by the customer. The customer controls the work in progress. Revenue is recognized:
+A.	over time, using a measure of progress
+B.	at completion
+C.	when the final payment is received
+D.	only if the customer pays in advance
+P11-15  Which is an input method for measuring progress on a contract?
+A.	Units delivered
+B.	Milestones reached
+C.	Costs incurred to date compared with total expected costs
+D.	Surveys of work performed
+P11-16  Use Figure F11-07. What does Orontes report for the GreenBasket contract on December 31, 2026 (whole USD)?
+A.	A contract asset of 24,750
+B.	A receivable of 564,750
+C.	No balance, because revenue equals cash
+D.	A contract liability of 24,750
+P11-17  A company has delivered goods, but it cannot bill the customer until it also delivers a second product next month. At year-end it reports:
+A.	a receivable
+B.	a contract liability
+C.	a contract asset
+D.	no balance
+P11-18  A company may estimate variable consideration and include it in the transaction price only to the extent that:
+A.	a significant reversal of revenue is not probable later
+B.	the amount is certain
+C.	the customer has already paid
+D.	the amount is less than 10% of the price
+P11-19  Which practice follows the matching principle?
+A.	Expensing inventory when it is purchased
+B.	Recognizing cost of goods sold in the period the related sale is recognized
+C.	Recognizing revenue when cash is received
+D.	Capitalizing all advertising costs
+P11-20  A company pays a $2,000 commission to win a six-month service contract. It may:
+A.	never expense it
+B.	deduct it from revenue
+C.	capitalize it as equipment
+D.	expense the commission immediately, using the practical expedient
+P11-21  Which cost to fulfill a contract may be capitalized?
+A.	General administrative costs
+B.	Costs of wasted materials
+C.	Set-up costs that relate directly to the contract and create a resource used later in it
+D.	Costs of work already performed
+P11-22  Which statement about ASC 606 and IFRS 15 is correct?
+A.	IFRS 15 has a different number of steps
+B.	U.S. GAAP reverses impairment of contract costs
+C.	IFRS 15 does not allow over-time recognition
+D.	U.S. companies may elect to treat shipping after control passes as a fulfillment cost; IFRS 15 has no such election
+Case-style practice: Orontes and Qasr Hotels
+Use Figure F11-12 for items C11-1 to C11-6. The contract is an example for 2026. Amounts are in USD 000.
+Figure F11-12. Case exhibit: Orontes and Qasr Hotels, 2026 (USD 000)
+Item (USD 000)
+Amount / details
+Contract date
+September 1, 2026
+Customer
+Qasr Hotels, a hotel chain in Amman
+Fixed contract price
+600
+Fruit juices: 12 equal monthly deliveries from September 2026 (standalone selling price)
+540
+Staff training on storing and serving juices, completed in September 2026 (standalone selling price)
+60
+M1
+If Qasr's orders pass a volume target, Qasr pays 30 less. Orontes expects the target to be met, and a reversal is not probable.
+M2
+Orontes pays Qasr 10 to list Orontes juices on hotel menus. Orontes receives no distinct service.
+M3
+Orontes delivers by its own trucks; control passes when the juices arrive. Orontes treats shipping as a fulfillment cost.
+M4
+By December 31, 2026, Qasr has paid 250. Four monthly deliveries have been made.
+C11-1  Classify each item in the Qasr contract. (On the exam screen you would drag each item into a box.)
+Categories: Performance obligation · Reduces the transaction price · Fulfillment cost
+Item
+Category
+Monthly juice deliveries
+Staff training
+Volume rebate (M1)
+Menu listing fee (M2)
+Delivery by Orontes trucks (M3)
+C11-2  Enter the transaction price.
+Answer: ____________
+C11-3  Enter the transaction price allocated to the staff training.
+Answer: ____________
+C11-4  Enter Orontes's 2026 revenue from the Qasr contract.
+Answer: ____________
+C11-5  Enter the contract liability at December 31, 2026.
+Answer: ____________
+C11-6  How does Orontes treat the menu listing fee (M2)? [select]
+Options: as a reduction of revenue   |   as a marketing expense   |   as a prepaid asset   |   as cost of goods sold
+Written task
+W11  In four to six sentences, explain to Orontes's sales director why the Qasr contract produced less 2026 revenue than the cash Qasr paid. Use these words: transaction price, rebate, allocate, point in time, contract liability.
+Answers and explanations
+Section checks
+SC11-1  Answer A. Control transfer is the core principle.
+B is wrong. Cash can arrive before or after control passes.
+C is wrong. Signing creates the contract, not the transfer.
+D is wrong. Invoicing does not transfer control.
+SC11-2  Answer B. Each step uses the result of the one before.
+A is wrong. The contract must be identified first.
+C is wrong. Obligations and allocation come before recognition.
+D is wrong. The price is allocated after it is determined.
+SC11-3  Answer D. U.S. probable means likely, a higher level than 55%.
+A is wrong. More likely than not is the IFRS 15 meaning.
+B is wrong. Collectibility is a separate criterion.
+C is wrong. Signing does not create revenue.
+SC11-4  Answer C. A performance obligation is a distinct promise.
+A is wrong. Payment timing does not define obligations.
+B is wrong. Invoices do not define obligations.
+D is wrong. Obligations come from promises to the customer.
+SC11-5  Answer C. 90% of its standalone price of $200,000.
+A is wrong. This uses the residual approach, which is not allowed when prices are observable.
+B is wrong. This is the whole discount.
+D is wrong. This is the standalone price, before sharing the discount.
+SC11-6  Answer B. Consideration payable to a customer reduces revenue unless it buys a distinct good or service.
+A is wrong. No distinct service is received, so it is not an expense.
+C is wrong. It reduces the price of the sale.
+D is wrong. It is not a cost of the goods.
+SC11-7  Answer A. Oil delivered + dispenser + three months of maintenance, all at allocated prices.
+B is wrong. This uses standalone prices, not allocated prices.
+C is wrong. This recognizes all the maintenance now instead of over time.
+D is wrong. This recognizes the whole contract at signing.
+SC11-8  Answer C. Payment before performance creates a contract liability.
+A is wrong. A contract asset arises when performance comes first.
+B is wrong. The customer has already paid.
+D is wrong. No service has been provided yet.
+SC11-9  Answer B. An agent reports its commission: $50,000 − $42,000.
+A is wrong. An agent still earns and reports its fee.
+C is wrong. This is the supplier's price.
+D is wrong. Gross revenue is for a principal.
+SC11-10  Answer C. The consignee does not control the goods; the sale happens when they are sold on.
+A is wrong. Shipment on consignment does not transfer control.
+B is wrong. Possession alone is not control here.
+D is wrong. Timing follows control, not a calendar date.
+SC11-11  Answer B. Incremental costs of obtaining a contract are capitalized if recoverable; the period is more than one year.
+A is wrong. The one-year expedient does not apply to a two-year contract.
+C is wrong. A commission paid to an employee is not a payment to the customer.
+D is wrong. It is a contract cost, not part of equipment cost.
+SC11-12  Answer D. U.S. GAAP prohibits reversal; IFRS 15 requires it.
+A is wrong. Reversal is an IFRS 15 rule.
+B is wrong. This is the IFRS 15 limit, not U.S. GAAP.
+C is wrong. OCI is not used for contract costs.
+Your turn
+Item
+Answer
+Revenue recognized
+(1,000 − 50) × $20 = 19,000
+Refund liability
+50 × $20 = 1,000
+Asset: right to recover products
+50 × $12 = 600, shown separately from the refund liability
+Cost of goods sold
+(1,000 − 50) × $12 = 11,400
+Multiple-choice questions
+P11-01  Answer C. Revenue comes from main activities with customers.
+A is wrong. A loan is a liability.
+B is wrong. Selling equipment gives a gain or loss, not revenue.
+D is wrong. Share issues are equity transactions.
+P11-02  Answer D. Revenue follows the transfer of control.
+A is wrong. Cash received early creates a contract liability.
+B is wrong. The goods are transferred at one point in time.
+C is wrong. Payment timing does not decide revenue timing.
+P11-03  Answer B. Inventory risk shows control before transfer.
+A is wrong. A fixed commission suggests an agent.
+C is wrong. No pricing discretion suggests an agent.
+D is wrong. The party responsible for fulfilment is usually the principal.
+P11-04  Answer C. Only for goods not expected to be returned.
+A is wrong. This is the refund liability.
+B is wrong. This is gross profit, not revenue.
+D is wrong. This ignores expected returns.
+P11-05  Answer D. Payment is not one of the bill-and-hold criteria.
+A is wrong. This is one of the criteria.
+B is wrong. This is one of the criteria.
+C is wrong. This is one of the criteria.
+P11-06  Answer B. A repurchase at or above the original price means control has not passed.
+A is wrong. Control does not transfer when the seller must buy back.
+C is wrong. The seller has an obligation, not the customer's option.
+D is wrong. The goods are sold to the customer, not held for resale.
+P11-07  Answer A. A material right is part of what the customer pays for.
+B is wrong. Part of the price must be allocated to the points.
+C is wrong. The points are a promise made at the sale.
+D is wrong. They affect revenue, not cost.
+P11-08  Answer C. The fee relates to future services, not to a distinct service at signing.
+A is wrong. Nonrefundable does not mean earned.
+B is wrong. It is earned over the year, not held until the customer leaves.
+D is wrong. It is revenue, not an expense reduction.
+P11-09  Answer B. For an all-or-nothing outcome, the most likely amount is the better estimate.
+A is wrong. This is the rebate, not the revenue.
+C is wrong. Expected value suits many possible outcomes, not a single threshold.
+D is wrong. This ignores the variable consideration.
+P11-10  Answer C. The practical expedient applies only when the gap is one year or less.
+A is wrong. Part of the price is interest, not revenue.
+B is wrong. Revenue follows control, not cash.
+D is wrong. Certainty of payment does not remove the financing element.
+P11-11  Answer B. Amounts collected for third parties are not revenue.
+A is wrong. The tax belongs to the state.
+C is wrong. It is not the retailer's cost.
+D is wrong. OCI is not used for taxes collected.
+P11-12  Answer A. The residual approach is a limited exception.
+B is wrong. It is not a default method.
+C is wrong. A discount is normally shared by all obligations.
+D is wrong. It is allowed in limited cases.
+P11-13  Answer B. The first over-time criterion is met.
+A is wrong. The service is transferred continuously.
+C is wrong. Payment does not decide timing.
+D is wrong. No service has been provided at signing.
+P11-14  Answer A. The builder improves an asset the customer controls.
+B is wrong. An over-time criterion is met, so completion is not the trigger.
+C is wrong. Payment does not decide timing.
+D is wrong. Advance payment creates a contract liability, not the test.
+P11-15  Answer C. Input methods measure the company's efforts.
+A is wrong. Units delivered is an output method.
+B is wrong. Milestones are an output method.
+D is wrong. Surveys of work are an output method.
+P11-16  Answer D. Cash of $540,000 exceeds revenue of $515,250.
+A is wrong. A contract asset arises when revenue exceeds payment.
+B is wrong. The remaining price is not yet due; it is not a receivable.
+C is wrong. Cash and revenue differ.
+P11-17  Answer C. Its right to payment depends on something other than time.
+A is wrong. A receivable needs an unconditional right.
+B is wrong. The customer has not paid in advance.
+D is wrong. Revenue was earned when the first goods were delivered.
+P11-18  Answer A. This is the constraint on variable consideration.
+B is wrong. Estimates are allowed; certainty is not needed.
+C is wrong. Payment is not required.
+D is wrong. There is no size limit.
+P11-19  Answer B. Costs are recognized with the revenues they help to earn.
+A is wrong. Inventory is expensed when it is sold.
+C is wrong. Revenue follows control, not cash.
+D is wrong. Most advertising has no measurable future benefit and is expensed.
+P11-20  Answer D. The amortization period is one year or less.
+A is wrong. Capitalized costs are also expensed over time.
+B is wrong. The commission is paid to an employee, not the customer.
+C is wrong. It is a contract cost, not equipment.
+P11-21  Answer C. Fulfillment costs are capitalized only if all criteria are met.
+A is wrong. General costs are expensed.
+B is wrong. Waste is expensed.
+D is wrong. Costs of past performance are expensed.
+P11-22  Answer D. The shipping election is one of the few differences.
+A is wrong. Both use the same five steps.
+B is wrong. U.S. GAAP prohibits reversal.
+C is wrong. Both allow over-time recognition.
+Case-style set: Orontes and Qasr Hotels
+C11-1
+Item
+Category
+Monthly juice deliveries
+Performance obligation
+Staff training
+Performance obligation
+Volume rebate (M1)
+Reduces the transaction price
+Menu listing fee (M2)
+Reduces the transaction price
+Delivery by Orontes trucks (M3)
+Fulfillment cost
+Only distinct promises are performance obligations. Payments to the customer and expected rebates change the price.
+C11-2  Answer: 560.
+600 is wrong: this answer ignores both the rebate and the listing fee.
+570 is wrong: this answer treats the listing fee as an expense.
+590 is wrong: this answer ignores the expected rebate.
+C11-3  Answer: 56.
+60 is wrong: this answer uses the standalone price instead of allocating.
+20 is wrong: this answer uses the residual approach although both prices are observable.
+C11-4  Answer: 224.
+240 is wrong: this answer uses standalone prices instead of allocated prices.
+560 is wrong: this answer recognizes the whole contract at signing.
+250 is wrong: this answer recognizes revenue equal to the cash received.
+C11-5  Answer: 26.
+10 is wrong: this answer measures revenue at standalone prices.
+0 is wrong: this answer does not recognize the cash received in advance.
+C11-6  Answer: as a reduction of revenue.
+as a marketing expense is wrong: this answer no distinct service is received.
+as a prepaid asset is wrong: this answer the fee reduces the price of the contract.
+as cost of goods sold is wrong: this answer the fee is not a cost of the juices.
+Written task: model answer
+The transaction price is not the fixed price of 600: Orontes deducts the expected rebate of 30 and the listing fee of 10, which leaves 560. Orontes must allocate this price between the juices and the training in proportion to their standalone prices. The training was completed in September, so its 56 is revenue in 2026. Each monthly juice delivery transfers control at a point in time, so 2026 includes four deliveries of 42. Total revenue is 224, but Qasr has paid 250, so Orontes reports a contract liability of 26.
+A good answer: deducts the rebate and the listing fee to get the transaction price; allocates by standalone selling prices; recognizes the training when completed; recognizes juice revenue at each delivery (point in time); explains the contract liability as cash received before performance.
+PART III — REVENUE, LIABILITIES AND INCOME MEASUREMENT

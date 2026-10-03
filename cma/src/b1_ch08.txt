@@ -1,0 +1,758 @@
+Chapter 8
+Inventory II: Measurement Tests, Retail Estimates and Choosing a Method
+المخزون (2): اختبارات القياس وتقديرات التجزئة واختيار الطريقة
+Chapter 7 measured inventory at cost. But cost is only the starting point. If prices fall, or goods become damaged or old-fashioned, the company may not recover the cost when it sells the goods. Then the inventory must be written down. In this chapter you learn the two write-down tests, how retailers estimate inventory from selling prices, and how to recommend a method.
+Figure F08-01 shows the key idea: the cost flow method decides which test applies.
+Figure F08-01. Chapter 8 roadmap: the cost flow method decides between LCNRV and LCM.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.e
+Apply LCM to LIFO and retail inventory, and LCNRV to all other methods; use the retail method.
+B
+Full treatment
+A.2.h
+Identify the advantages and disadvantages of each inventory method.
+B
+Full treatment
+A.2.i
+Recommend an inventory method and cost flow assumption for a given set of facts.
+C
+Full treatment
+A.2.ff.iii
+State the IFRS differences: LCNRV for all inventories, and reversal of write-downs.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+net realizable value (NRV)
+صافي القيمة القابلة للتحقق
+valeur nette de réalisation (VNR)
+lower of cost and net realizable value (LCNRV)
+التكلفة أو صافي القيمة القابلة للتحقق، أيهما أقل
+plus faible du coût et de la valeur nette de réalisation
+lower of cost or market (LCM)
+التكلفة أو السوق، أيهما أقل
+moindre du coût ou du marché
+replacement cost
+تكلفة الإحلال
+coût de remplacement
+write-down
+تخفيض القيمة
+dépréciation (des stocks)
+retail inventory method
+طريقة سعر التجزئة
+méthode du prix de détail
+cost-to-retail ratio
+نسبة التكلفة إلى سعر التجزئة
+ratio coût/prix de vente au détail
+conventional retail method
+طريقة التجزئة التقليدية
+méthode du prix de détail classique
+gross profit method
+طريقة مجمل الربح
+méthode de la marge brute
+WHAT YOU ALREADY KNOW   What you already know
+If you studied IAS 2, you know one test: the lower of cost and net realizable value. U.S. GAAP uses the same test for most inventory. The new part is the older test, lower of cost or market, which U.S. GAAP still requires for LIFO and the retail method. Also note: IFRS reverses write-downs when prices recover; U.S. GAAP never does.
+8.1  Which test applies?
+At each balance sheet date, the company checks whether the cost of its inventory is still recoverable. The test depends on the cost flow method, as Figure F08-02 shows.
+Inventory measured by FIFO, average cost or specific identification uses the lower of cost and net realizable value (LCNRV).
+Inventory measured by LIFO or the retail inventory method uses the lower of cost or market (LCM) (Section 8.2).
+Figure F08-02. Decision: the cost flow method decides whether LCNRV or LCM applies.
+Net realizable value (NRV) is the estimated selling price in the ordinary course of business, minus the costs to complete, sell and transport the goods. If NRV is below cost, the company records a write-down to NRV. The loss goes to income, usually inside cost of goods sold, or as a separate line if it is large.
+WORKED EXAMPLE   LCNRV for Orontes olive oil
+In Chapter 7, Orontes used FIFO for olive oil. Its ending inventory was 2,000 cases at $50. In late December, a large competitor cut prices. Orontes now expects to sell each case for $54, with $6 of selling and delivery costs. Figure F08-03 shows the test.
+Figure F08-03. LCNRV for Orontes olive oil at December 31, 2025 (whole USD)
+Orontes olive oil, December 31, 2025
+Amount
+Olive oil cases on hand (FIFO layer from Chapter 7)
+2,000
+Cost per case
+$50
+New estimated selling price per case
+$54
+Costs to sell and deliver per case
+$6
+NRV per case
+$48
+Inventory at cost
+$100,000
+Inventory at LCNRV
+$96,000
+Write-down (loss in income)
+$4,000
+The write-down of $4,000 is a loss of 2025. The new amount, $48 a case, is now the cost basis of these cases. If prices recover in 2026, Orontes does not reverse the write-down under U.S. GAAP. A write-down recognized in an interim quarter is the only exception: it may be recovered in a later quarter of the same fiscal year.
+● IFRS CONTRAST   IAS 2 reverses write-downs
+IAS 2 uses LCNRV for all inventories, including retail, and it has no LCM test. When prices recover, IAS 2 requires a reversal, limited to the original write-down. If NRV rises to $53 in 2026, an IFRS company in Orontes's position would reverse $4,000. Under U.S. GAAP the reversal is zero.
+EXAM TRAP   NRV has no profit deduction
+NRV = selling price − costs to complete, sell and transport. Do NOT deduct a normal profit; that only defines the LCM floor.
+Check the method first: FIFO or average → LCNRV; LIFO or retail → LCM.
+U.S. GAAP never reverses an annual write-down. IFRS does.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+net realizable value (NRV)
+صافي القيمة القابلة للتحقق
+valeur nette de réalisation (VNR)
+lower of cost and net realizable value (LCNRV)
+التكلفة أو صافي القيمة القابلة للتحقق، أيهما أقل
+plus faible du coût et de la valeur nette de réalisation
+write-down
+تخفيض القيمة
+dépréciation (des stocks)
+English (exam term)
+العربية
+Français
+net realizable value (NRV)
+صافي القيمة القابلة للتحقق
+valeur nette de réalisation (VNR)
+lower of cost and net realizable value (LCNRV)
+التكلفة أو صافي القيمة القابلة للتحقق، أيهما أقل
+plus faible du coût et de la valeur nette de réalisation
+write-down
+تخفيض القيمة
+dépréciation (des stocks)
+SECTION CHECK   Test yourself
+SC8-1  Orontes measures olive oil using FIFO. Which test applies at year-end?
+A.	Lower of cost or market
+B.	Replacement cost only
+C.	Lower of cost and net realizable value
+D.	No test; FIFO inventory stays at cost
+SC8-2  Use the olive-oil example in Figure F08-03. What is the write-down (whole USD)?
+A.	0
+B.	4,000
+C.	12,000
+D.	96,000
+Answers and explanations are at the end of the chapter.
+8.2  Lower of cost or market
+Under LCM, market starts with replacement cost: the current cost to buy or make the item again. But market has two limits. It cannot be higher than a ceiling equal to NRV, and it cannot be lower than a floor equal to NRV minus a normal profit margin.
+The procedure has two steps. First, find market: take the middle value of replacement cost, the ceiling and the floor. Second, compare market with cost and take the lower. Figure F08-04 shows three Orontes products that the company measures under LIFO.
+Figure F08-04. LCM number lines: the floor, replacement cost or the ceiling sets market.
+Why the limits? The ceiling stops the company from carrying inventory above what it can recover. The floor stops an excessive write-down that would create an abnormally high profit when the goods are sold later.
+WORKED EXAMPLE   LCM, item by item
+Figure F08-05 applies LCM to four product lines. Values are per case in whole dollars. For each line, market is the middle of the three limits, and LCM is the lower of cost and market.
+Figure F08-05. LCM, item by item, for four Orontes product lines measured under LIFO (whole USD per case)
+Item
+Cases
+Cost
+Replace-ment cost
+NRV (ceiling)
+Floor
+Market
+LCM per case
+Write-down
+Tahini
+1,000
+30
+27
+36
+28
+28
+28
+2,000
+Chickpeas
+2,000
+20
+22
+27
+22
+22
+20
+0
+Date syrup
+500
+50
+48
+45
+39
+45
+45
+2,500
+Halva
+1,500
+18
+15
+22
+18
+18
+18
+0
+Total
+4,500
+The item-by-item basis gives a total write-down of $4,500. A company may also apply LCM by category or to the total inventory, if it does so consistently. On the total basis, total market ($121,500) is compared with total cost ($122,000), and the write-down is only $500, because gains on some items offset losses on others. The item-by-item basis is the most conservative.
+One more rule: if a company has a firm, non-cancellable purchase commitment at a price above the current market, it records the expected loss now, in the current period.
+EXAM TRAP   Find market first
+Do not compare replacement cost directly with cost. First limit it by the ceiling and the floor.
+When replacement cost is below the floor, market is the floor. When it is above the ceiling, market is the ceiling.
+Read the basis in the question: item by item, by category or total.
+FALSE-FRIEND ALERT   Dépréciation is a write-down
+In French, dépréciation des stocks is an inventory write-down, not depreciation (amortissement). In Arabic, تخفيض قيمة المخزون is the write-down; do not use استهلاك, which is depreciation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+lower of cost or market (LCM)
+التكلفة أو السوق، أيهما أقل
+moindre du coût ou du marché
+replacement cost
+تكلفة الإحلال
+coût de remplacement
+ceiling
+الحد الأعلى
+plafond
+floor
+الحد الأدنى
+plancher
+normal profit margin
+هامش الربح العادي
+marge bénéficiaire normale
+item-by-item basis
+أساس كل صنف على حدة
+article par article
+purchase commitment
+التزام شراء
+engagement d'achat
+English (exam term)
+العربية
+Français
+lower of cost or market (LCM)
+التكلفة أو السوق، أيهما أقل
+moindre du coût ou du marché
+replacement cost
+تكلفة الإحلال
+coût de remplacement
+ceiling
+الحد الأعلى
+plafond
+floor
+الحد الأدنى
+plancher
+normal profit margin
+هامش الربح العادي
+marge bénéficiaire normale
+item-by-item basis
+أساس كل صنف على حدة
+article par article
+purchase commitment
+التزام شراء
+engagement d'achat
+SECTION CHECK   Test yourself
+SC8-3  For tahini in Figure F08-05, what is market per case?
+A.	$27
+B.	$28
+C.	$30
+D.	$36
+SC8-4  Which basis gives the largest LCM write-down?
+A.	Item by item
+B.	Total inventory
+C.	By category
+D.	All bases give the same write-down.
+Answers and explanations are at the end of the chapter.
+8.3  The retail inventory method and the gross profit method
+Retailers sell thousands of items. They know the selling price of every item on the shelf, but tracking the cost of each one is expensive. The retail inventory method estimates ending inventory at cost from retail prices. It uses a cost-to-retail ratio: goods available at cost divided by goods available at retail.
+Retail prices change during the year. A markup raises the selling price above the original retail price. A markdown lowers it. The conventional retail method includes net markups in the ratio but leaves out net markdowns. This gives a lower ratio and a lower ending inventory, which approximates LCM. The average-cost retail method includes both.
+Item
+Cost column
+Retail column
+Freight-in
+add
+—
+Purchase returns
+deduct
+deduct
+Purchase discounts
+deduct
+—
+Net markups
+—
+add (before the ratio)
+Net markdowns
+—
+deduct (after the conventional ratio)
+Net sales
+—
+deduct
+Normal shrinkage and employee discounts
+—
+deduct (after the ratio)
+WORKED EXAMPLE   Orontes Farm Shops, Amman
+Orontes runs a group of farm shops in Amman. They report under U.S. GAAP with the rest of the company. Figure F08-06 shows the 2025 worksheet. The conventional ratio is 0.60, so ending inventory at cost is $25,200. The average-cost ratio is 0.62, which gives $26,040. Cost of goods sold under the conventional method is $186,000 − $25,200 = $160,800.
+Figure F08-06. Retail method worksheet for Orontes Farm Shops: conventional and average-cost ratios.
+YOUR TURN   The Dubai shop
+Complete the dashed boxes in Figure F08-07 using the conventional retail method. Then check your answers at the end of the chapter.
+Figure F08-07. Faded retail worksheet for the Dubai shop; the learner fills in the dashed boxes.
+A LIFO retail method also exists. It leaves beginning inventory out of the ratio, includes markdowns, and adds a new layer each year at that year's ratio. The exam tests it less often.
+The gross profit method
+The gross profit method estimates ending inventory from the usual gross profit rate. It is used for interim reports, to check a physical count, and to estimate inventory lost in a fire or a theft. It is not acceptable for annual financial statements.
+A fire destroyed part of the Orontes warehouse in Jebel Ali. Beginning inventory was $80,000, purchases were $300,000 and net sales were $400,000. The usual gross profit rate is 30% of sales. Estimated cost of goods sold is $280,000, so estimated inventory at the date of the fire is $380,000 − $280,000 = $100,000. Goods costing $12,000 were saved, so the estimated fire loss is $88,000.
+EXAM TRAP   Markup on cost is not a margin on sales
+If the question gives a markup on cost, convert it: gross profit rate on sales = markup ÷ (1 + markup). For example, a markup of one half on cost is a gross profit rate of one third on sales.
+Conventional retail: markups IN the ratio, markdowns OUT.
+Freight-in goes in the cost column only; normal shrinkage is deducted from retail after the ratio.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+retail inventory method
+طريقة سعر التجزئة
+méthode du prix de détail
+cost-to-retail ratio
+نسبة التكلفة إلى سعر التجزئة
+ratio coût/prix de vente au détail
+markup
+زيادة سعر البيع
+majoration
+markdown
+تخفيض سعر البيع
+démarque
+conventional retail method
+طريقة التجزئة التقليدية
+méthode du prix de détail classique
+shrinkage
+العجز في المخزون (الفاقد)
+démarque inconnue
+gross profit method
+طريقة مجمل الربح
+méthode de la marge brute
+English (exam term)
+العربية
+Français
+retail inventory method
+طريقة سعر التجزئة
+méthode du prix de détail
+cost-to-retail ratio
+نسبة التكلفة إلى سعر التجزئة
+ratio coût/prix de vente au détail
+markup
+زيادة سعر البيع
+majoration
+markdown
+تخفيض سعر البيع
+démarque
+conventional retail method
+طريقة التجزئة التقليدية
+méthode du prix de détail classique
+shrinkage
+العجز في المخزون (الفاقد)
+démarque inconnue
+gross profit method
+طريقة مجمل الربح
+méthode de la marge brute
+SECTION CHECK   Test yourself
+SC8-5  In the conventional retail method, net markdowns are:
+A.	included in the cost-to-retail ratio.
+B.	left out of the cost-to-retail ratio.
+C.	deducted from the cost column.
+D.	ignored completely.
+SC8-6  Use the Jebel Ali fire example. What is the estimated inventory at the date of the fire (whole USD)?
+A.	72,308
+B.	88,000
+C.	100,000
+D.	260,000
+Answers and explanations are at the end of the chapter.
+8.4  Advantages and disadvantages of the methods
+No method is best in every situation. Each one is strong on some goals and weak on others. Figure F08-08 compares them. Read it with two questions in mind: which statement does the method make more useful, and what does it cost the company?
+Figure F08-08. Advantages and disadvantages of the inventory methods
+Criterion
+FIFO
+LIFO
+Weighted average
+Specific identification
+Balance sheet (inventory)
+Close to current cost
+Old costs; can be far out of date
+Between the two
+Actual cost of each item
+Income statement
+Includes holding gains when prices rise
+Matches current costs with revenues
+Smooths price changes
+Exact matching
+Taxes when prices rise
+Highest
+Lowest (tax deferral)
+Between the two
+Depends on items sold
+Allowed under IFRS?
+Yes
+No
+Yes
+Yes (required for unique items)
+Risk of manipulation
+Low
+Year-end purchases; liquidations
+Low
+High for identical items
+Cost of records
+Moderate
+Higher (layers, conformity)
+Low
+High
+The weighted average and specific identification have their own strengths. The weighted average is simple, smooths price changes and is hard to manipulate, but its results are neither fully current on the balance sheet nor on the income statement. Specific identification gives exact matching for unique items, but for identical items it is costly and lets management choose which costs to report.
+The main trade-off is between the two statements. LIFO gives a more realistic income statement when prices change, but an out-of-date balance sheet. FIFO gives a realistic balance sheet, but its income includes holding gains. The weighted average sits between them.
+LANGUAGE FOCUS   Words for comparing
+closer to current cost, more out of date: comparatives describe the balance sheet.
+matches current costs with current revenues: this is the LIFO argument for the income statement.
+is open to manipulation: management can change reported income by choosing which items to sell (specific identification) or by buying at year-end (LIFO).
+SECTION CHECK   Test yourself
+SC8-7  When prices are rising, which is an advantage of LIFO?
+A.	It matches current costs with current revenues.
+B.	It shows inventory close to current cost.
+C.	It is allowed under IFRS.
+D.	It needs the fewest records.
+SC8-8  For large volumes of identical items, the main disadvantage of specific identification is that:
+A.	it is not allowed under U.S. GAAP.
+B.	it always overstates income.
+C.	it ignores the physical flow of goods.
+D.	management can choose which units to sell and so change income.
+Answers and explanations are at the end of the chapter.
+8.5  Recommending a method
+A Level C question may give you a set of facts and ask you to recommend a method. Use Figure F08-09 as a decision path, then support your answer with the facts in the question.
+Figure F08-09. Decision path for recommending an inventory cost flow method.
+Always check the facts that can rule a method out. If the company, or its parent, reports under IFRS, LIFO is not possible. If items are identical and sold in large volumes, specific identification is costly and open to manipulation. If the company wants the U.S. tax benefit of LIFO, it must also report LIFO profits to investors, and it must avoid liquidating old layers.
+WORKED EXAMPLE   A recommendation for Orontes
+Orontes reports under U.S. GAAP, and olive oil prices are rising. The finance director wants lower taxes but also a balance sheet that lenders trust. Olive oil is a perishable, identical product that Orontes ships oldest-first.
+LIFO would lower taxes while prices rise, but conformity would lower reported profits too, and the balance sheet would show old costs.
+FIFO matches the physical flow and gives lenders a current inventory amount, but taxes are higher.
+Recommendation: if the tax saving is the priority, LIFO, with clear disclosure of the LIFO reserve; if lender relations and the balance sheet matter more, FIFO. The answer depends on the stated priority, and a good exam answer names it.
+EXAM TRAP   Recommendations need reasons
+In a case-based question, a recommendation earns credit only if it follows from the facts given. Check IFRS, taxes, price trends, the physical flow and the cost of records before you choose.
+SECTION CHECK   Test yourself
+SC8-9  Cedar Retail S.A.L. reports under IFRS. Prices are rising, and it wants lower taxes. Which recommendation is appropriate?
+A.	LIFO, because it lowers taxes when prices rise
+B.	FIFO or weighted average, because LIFO is not allowed
+C.	Specific identification for all of its items
+D.	The LIFO retail method
+SC8-10  A U.S. company reports under U.S. GAAP. Prices are rising, and management accepts lower reported profits in exchange for the lowest income taxes. Which method should it recommend?
+A.	LIFO
+B.	FIFO
+C.	Weighted average
+D.	Specific identification
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F08-10 brings the chapter together.
+Figure F08-10. Chapter 8 summary map: the key rule for each section.
+FIFO, average cost and specific identification use the lower of cost and NRV. LIFO and the retail method use the lower of cost or market, where market is replacement cost between a ceiling and a floor. Write-downs go to income and are never reversed under U.S. GAAP, although IFRS reverses them. The retail method estimates cost from a cost-to-retail ratio, and the gross profit method gives estimates only. Each cost flow method has strengths and weaknesses, so a recommendation must follow the facts: IFRS reporting, tax goals, price trends and the physical flow.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P8-01  A company uses the weighted-average method. At year-end, NRV is below cost. The company should:
+A.	write the inventory down to replacement cost.
+B.	disclose the decline in the notes only.
+C.	record the decline in other comprehensive income.
+D.	write the inventory down to NRV and recognize a loss in income.
+P8-02  Date syrup is measured under LIFO. Cost is $50, replacement cost $48, selling price $55, costs to sell $10 and normal profit $6 per case. At what amount per case is it reported?
+A.	$39
+B.	$45
+C.	$48
+D.	$50
+P8-03  Halva is measured under LIFO. Use Figure F08-05. What is the write-down per case?
+A.	$0
+B.	$3
+C.	$4
+D.	$7
+P8-04  Under U.S. GAAP, a company wrote inventory down at the end of 2025. In 2026, the selling price recovers. What should the company do?
+A.	Nothing; the write-down is not reversed.
+B.	Reverse the write-down, up to the original amount.
+C.	Reverse the write-down through OCI.
+D.	Reverse the write-down only if the recovery happens within one year.
+P8-05  A company recognized an inventory write-down in the first quarter. The market price recovers in the third quarter of the same fiscal year. What is the treatment?
+A.	The loss can never be recovered.
+B.	Inventory is written up to the new market price, even above cost.
+C.	The loss may be recovered in the third quarter, up to the amount written down.
+D.	The recovery is recorded in OCI.
+P8-06  Use Figure F08-06. What is ending inventory at cost under the conventional retail method (whole USD)?
+A.	25,200
+B.	26,040
+C.	42,000
+D.	160,800
+P8-07  In the retail inventory method, freight-in is:
+A.	added to both the cost and retail columns.
+B.	added to the cost column only.
+C.	added to the retail column only.
+D.	ignored.
+P8-08  A retailer's markup is 25% on cost. What gross profit rate on sales should it use in the gross profit method?
+A.	25%
+B.	33.3%
+C.	75%
+D.	20%
+P8-09  The gross profit method is acceptable for:
+A.	interim reports and estimating casualty losses.
+B.	annual financial statements under U.S. GAAP.
+C.	replacing the year-end physical count.
+D.	tax returns only.
+P8-10  Orontes signed a firm, non-cancellable contract to buy sesame seeds next year at a fixed price. At year-end, the market price is well below the contract price. What should Orontes do?
+A.	Recognize the loss when the seeds arrive.
+B.	Disclose the contract only.
+C.	Recognize the expected loss now.
+D.	Record the difference as an asset.
+P8-11  When prices are rising, which statement about FIFO is TRUE?
+A.	Taxes are lower than under LIFO.
+B.	Current costs are matched with current revenues.
+C.	Ending inventory is close to current cost.
+D.	It is not allowed under IFRS.
+P8-12  Which is a disadvantage of LIFO?
+A.	Income includes large holding gains when prices rise.
+B.	Taxes are higher when prices rise.
+C.	It cannot be used for U.S. tax returns.
+D.	The balance sheet can show inventory at very old costs.
+P8-13  A company sells custom-built industrial ovens, each with a different cost. Which method should it recommend?
+A.	LIFO
+B.	Specific identification
+C.	Weighted average
+D.	The retail inventory method
+P8-14  A U.S. subsidiary reports under U.S. GAAP, but its parent prepares IFRS group statements. The parent wants one method for group reporting. Which recommendation fits best?
+A.	FIFO or weighted average, so the same records work for the IFRS group statements
+B.	LIFO, because the subsidiary reports under U.S. GAAP
+C.	LIFO for the subsidiary and the retail method for the group
+D.	Specific identification, to avoid the IFRS rules
+P8-15  Spiral review (Chapter 7). A FIFO company moves from a periodic to a perpetual system. What happens to cost of goods sold?
+A.	It increases.
+B.	It decreases.
+C.	It does not change.
+D.	It depends on the timing of sales.
+P8-16  Spiral review (Chapter 7). Ending inventory for 2025 is overstated. What is the effect on 2025 cost of goods sold?
+A.	Understated
+B.	Overstated
+C.	No effect
+D.	Overstated in 2025 and in 2026
+P8-17  Which statement about IAS 2 is TRUE?
+A.	LIFO inventory uses the lower of cost or market.
+B.	A write-down is reversed when NRV recovers, up to the original write-down.
+C.	The retail method must use LCM.
+D.	Write-downs are recorded in other comprehensive income.
+Case-style practice: Orontes year-end inventory review
+Use Figure F08-11 for items C8-1 to C8-6. Orontes uses LIFO for two product lines and FIFO for the others. All amounts are per unit in whole dollars.
+Figure F08-11. Case exhibit: Orontes product lines at December 31, 2025 (whole USD per unit)
+Item
+Method
+Units
+Unit cost
+Replace-ment cost
+Selling price
+Costs to sell
+Normal profit
+Pomegranate molasses
+LIFO
+800
+25
+21
+32
+3
+6
+Rose water
+LIFO
+1,200
+10
+11
+16
+2
+3
+Za'atar mix
+FIFO
+2,000
+12
+10
+14
+3
+2
+Frozen kibbeh
+FIFO
+1,000
+30
+29
+36
+4
+5
+Olive-oil soap
+FIFO
+500
+8
+7
+9
+2.5
+1
+C8-1  Match each product line to the test that applies. (On the exam screen you would drag each line into a box.)
+Categories: LCM (market with ceiling and floor) · LCNRV
+Product line
+Category
+Pomegranate molasses
+Rose water
+Za'atar mix
+Frozen kibbeh
+Olive-oil soap
+C8-2  Enter the write-down for pomegranate molasses (USD).
+Answer: ____________
+C8-3  Enter the total write-down for all five lines (USD).
+Answer: ____________
+C8-4  Enter the total carrying amount of the five lines after the write-downs (USD).
+Answer: ____________
+C8-5  In 2026, the NRV of za'atar mix rises to $13 a unit. Under U.S. GAAP, the 2025 write-down: [select]
+Options: cannot be reversed   |   is reversed in full   |   is reversed up to $2,000   |   is reversed through OCI
+C8-6  If Orontes reported under IFRS, how much of the za'atar write-down would it reverse in 2026 (USD)?
+Answer: ____________
+Written task
+W8  In four to six sentences, explain to a new analyst why U.S. GAAP applies LCM to LIFO inventory but LCNRV to FIFO inventory, and what the ceiling and the floor do. Use these words: replacement cost, net realizable value, ceiling, floor, write-down.
+Answers and explanations
+Section checks
+SC8-1  Answer C. FIFO, average cost and specific identification use LCNRV.
+A is wrong. LCM applies only to LIFO and the retail inventory method.
+B is wrong. Replacement cost is only the starting point for market under LCM.
+D is wrong. All inventory is tested for recoverability.
+SC8-2  Answer B. NRV = selling price − costs to sell; write-down = (cost − NRV) × cases.
+A is wrong. This compares cost with the selling price and ignores the costs to sell.
+C is wrong. This is the total of the costs to sell, not the write-down.
+D is wrong. This is the new carrying amount, not the write-down.
+SC8-3  Answer B. Replacement cost is below the floor, so market is the floor.
+A is wrong. Replacement cost cannot be used when it is below the floor.
+C is wrong. This is cost, not market.
+D is wrong. The ceiling is used only when replacement cost is above it.
+SC8-4  Answer A. Item by item does not let gains on some items offset losses on others.
+B is wrong. The total basis lets increases offset decreases, so the write-down is smallest.
+C is wrong. Categories allow some offsetting inside each category.
+D is wrong. Offsetting makes the results different.
+SC8-5  Answer B. Leaving markdowns out gives a lower ratio, which approximates LCM.
+A is wrong. That is the average-cost retail method.
+C is wrong. Markdowns are retail amounts only.
+D is wrong. Markdowns still reduce retail inventory; they are deducted after the ratio.
+SC8-6  Answer C. Goods available − net sales × (1 − gross profit rate).
+A is wrong. This treats the rate as a markup on cost instead of a margin on sales.
+B is wrong. This is the fire loss after salvage, not the inventory at the fire date.
+D is wrong. This uses the gross profit rate as the cost of goods sold rate.
+SC8-7  Answer A. LIFO puts the newest costs into cost of goods sold.
+B is wrong. That is a FIFO advantage; LIFO inventory holds old costs.
+C is wrong. IFRS prohibits LIFO.
+D is wrong. LIFO needs layer records and conformity with tax.
+SC8-8  Answer D. Identical units with different costs let management pick the cost that gives the income it wants.
+A is wrong. Specific identification is allowed.
+B is wrong. It can raise or lower income, depending on the units chosen.
+C is wrong. It follows the physical flow exactly.
+SC8-9  Answer B. IFRS rules out LIFO, whatever the tax goal.
+A is wrong. LIFO is prohibited under IAS 2.
+C is wrong. A retailer's items are interchangeable.
+D is wrong. Any LIFO method is prohibited under IFRS.
+SC8-10  Answer A. LIFO lowers taxable income when prices rise; conformity means reported profit is also lower, which management accepts.
+B is wrong. FIFO gives the highest taxes when prices rise.
+C is wrong. The average gives taxes between FIFO and LIFO.
+D is wrong. It does not target taxes and suits only unique items.
+Your turn
+Item
+Answer
+Goods available at retail
+150,000 − 6,000 = 144,000
+Ending inventory at retail
+144,000 − 120,000 = 24,000
+Conventional ratio
+90,000 ÷ 150,000 = 0.60
+Ending inventory at cost
+24,000 × 0.60 = $14,400
+Multiple-choice questions
+P8-01  Answer D. Average-cost inventory uses LCNRV, and the loss goes to income.
+A is wrong. Replacement cost belongs to the LCM test for LIFO and retail.
+B is wrong. A loss must be recognized, not only disclosed.
+C is wrong. Inventory write-downs go to income, not OCI.
+P8-02  Answer B. Ceiling = NRV = $45; replacement cost is above the ceiling, so market is the ceiling, which is below cost.
+A is wrong. The floor is used only when replacement cost is below it.
+C is wrong. Replacement cost is above the ceiling, so it cannot be market.
+D is wrong. Market is below cost, so a write-down is needed.
+P8-03  Answer A. Replacement cost is below the floor, so market is the floor, which equals cost. No write-down.
+B is wrong. This compares cost with replacement cost and ignores the floor.
+C is wrong. The normal profit only sets the floor; it is not a write-down.
+D is wrong. This is the gap between the ceiling and replacement cost.
+P8-04  Answer A. The write-down created a new cost basis; U.S. GAAP prohibits reversal in later years.
+B is wrong. This is the IAS 2 rule.
+C is wrong. There is no OCI treatment for inventory.
+D is wrong. The one-year idea does not exist for annual periods.
+P8-05  Answer C. Interim write-downs may be recovered within the same fiscal year, up to the original loss.
+A is wrong. The no-reversal rule is for later annual periods, not quarters of the same year.
+B is wrong. Recovery is limited to the amount written down; inventory never goes above cost.
+D is wrong. The recovery goes to income.
+P8-06  Answer A. Ending retail × conventional ratio (0.60).
+B is wrong. This uses the average-cost ratio, which includes markdowns.
+C is wrong. This is ending inventory at retail, not at cost.
+D is wrong. This is cost of goods sold.
+P8-07  Answer B. Freight-in is part of cost; it does not change selling prices.
+A is wrong. Freight-in has no retail amount.
+C is wrong. Freight-in is a cost, not a price.
+D is wrong. Freight-in is part of inventory cost.
+P8-08  Answer D. Gross profit rate = markup ÷ (1 + markup) = 0.25 ÷ 1.25.
+A is wrong. This uses the markup on cost as the margin on sales.
+B is wrong. This divides by (1 − markup) instead of (1 + markup).
+C is wrong. This is roughly the cost of goods sold share, not the profit rate.
+P8-09  Answer A. It gives estimates, which are acceptable only where estimates are allowed.
+B is wrong. Annual statements need a physical count or a cost method.
+C is wrong. It can check a count but not replace it.
+D is wrong. Its main uses are interim reporting and casualty estimates.
+P8-10  Answer C. Losses on firm, non-cancellable purchase commitments are recognized in the current period.
+A is wrong. The loss already exists at year-end.
+B is wrong. Disclosure alone is not enough for an expected loss.
+D is wrong. A loss is not an asset.
+P8-11  Answer C. FIFO leaves the newest costs in ending inventory.
+A is wrong. FIFO gives higher taxes when prices rise.
+B is wrong. That is the LIFO argument.
+D is wrong. IFRS allows FIFO.
+P8-12  Answer D. Old LIFO layers can stay in inventory for many years.
+A is wrong. That describes FIFO.
+B is wrong. LIFO lowers taxes when prices rise.
+C is wrong. LIFO is allowed for U.S. taxes, with the conformity rule.
+P8-13  Answer B. Each oven is unique and valuable, so the actual cost of each unit can be tracked.
+A is wrong. LIFO suits interchangeable goods, not unique items.
+C is wrong. Averaging unique costs would distort the cost of each sale.
+D is wrong. The retail method is for retailers with many low-value items.
+P8-14  Answer A. The group cannot use LIFO under IFRS, so a non-LIFO method avoids two sets of records.
+B is wrong. LIFO would need to be reversed for the IFRS group statements.
+C is wrong. This adds complexity and still uses LIFO.
+D is wrong. Specific identification suits unique items, not a group policy.
+P8-15  Answer C. FIFO gives the same result under both systems.
+A is wrong. Only LIFO and average results can change with the system.
+B is wrong. Only LIFO and average results can change with the system.
+D is wrong. Timing matters for LIFO and moving average, not FIFO.
+P8-16  Answer A. Higher ending inventory means lower cost of goods sold.
+B is wrong. This reverses the direction.
+C is wrong. Ending inventory directly changes cost of goods sold.
+D is wrong. 2026 COGS is overstated, but 2025 COGS is understated.
+P8-17  Answer B. IAS 2 requires the reversal, limited to the original write-down.
+A is wrong. IAS 2 does not allow LIFO.
+C is wrong. IAS 2 has no LCM test; all inventory uses LCNRV.
+D is wrong. Write-downs go to profit or loss.
+Case-style set: Orontes year-end inventory review
+C8-1
+Product line
+Category
+Pomegranate molasses
+LCM (market with ceiling and floor)
+Rose water
+LCM (market with ceiling and floor)
+Za'atar mix
+LCNRV
+Frozen kibbeh
+LCNRV
+Olive-oil soap
+LCNRV
+The cost flow method decides the test: LIFO lines use LCM; FIFO lines use LCNRV.
+C8-2  Answer: 1,600.
+3,200 is wrong: this answer uses replacement cost as market and ignores the floor.
+0 is wrong: this answer applies LCNRV to a LIFO line.
+C8-3  Answer: 4,350.
+7,350 is wrong: this answer applies LCM to every line, including the FIFO lines.
+2,750 is wrong: this answer applies LCNRV to every line, including the LIFO lines.
+C8-4  Answer: 85,650.
+90,000 is wrong: this answer leaves inventory at cost with no write-down.
+82,650 is wrong: this answer applies LCM to every line.
+C8-5  Answer: cannot be reversed.
+is reversed in full is wrong: this answer applies the IFRS reversal rule.
+is reversed up to $2,000 is wrong: this answer applies the IFRS reversal rule.
+is reversed through OCI is wrong: this answer inventory changes never go through OCI.
+C8-6  Answer: 2,000.
+0 is wrong: this answer applies the U.S. GAAP rule to an IFRS question.
+4,000 is wrong: this answer reverses more than the original write-down and takes inventory above cost.
+Written task: model answer
+Since 2017, U.S. GAAP has used the simpler lower of cost and net realizable value test for most inventory, including FIFO and average cost. The FASB kept the older lower of cost or market test for LIFO and the retail method. Under LCM, market starts with replacement cost. The ceiling (net realizable value) stops the company from carrying inventory above the amount it can recover. The floor (net realizable value minus a normal profit) stops an excessive write-down that would create an abnormal profit when the goods are sold later.
+A good answer: states which methods use LCM and which use LCNRV; defines market as replacement cost within limits; explains the ceiling; explains the floor; mentions that the write-down goes to income and is not reversed (bonus).
+PART II — RECOGNITION AND MEASUREMENT OF ASSETS

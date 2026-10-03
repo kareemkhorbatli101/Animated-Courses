@@ -1,0 +1,872 @@
+Chapter 7
+Inventory I: Goods, Costs and Cost Flows
+المخزون (1): البضاعة والتكاليف وتدفق التكلفة
+Inventory is often the largest current asset of a manufacturer or a retailer. It is also the link between the balance sheet and the income statement: every unit is either still in inventory at the end of the year or part of cost of goods sold. In this chapter you learn which goods and which costs go into inventory, how costs flow out to cost of goods sold, and what happens when the count is wrong.
+Figure F07-01 shows the whole chapter in one equation. Chapter 8 continues with the measurement tests (lower of cost and net realizable value) and with choosing a method.
+Figure F07-01. Chapter 7 roadmap: goods available for sale split into cost of goods sold and ending inventory.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.2.c
+Decide which goods and which costs belong in inventory.
+B
+Full treatment
+A.2.d
+Compare specific identification, FIFO, LIFO and average cost, under periodic and perpetual systems.
+B
+Full treatment
+A.2.f
+Calculate the effect of each method on income, taxes and assets.
+B
+Full treatment
+A.2.g
+Analyze the effect of an inventory error over two years.
+C
+Full treatment
+A.2.ff.iii
+State the main IFRS difference: LIFO is not allowed under IAS 2.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+inventory
+المخزون
+stocks
+cost of goods sold
+تكلفة البضاعة المباعة
+coût des ventes (coût des marchandises vendues)
+goods available for sale
+البضاعة المتاحة للبيع
+marchandises disponibles à la vente
+FIFO (first-in, first-out)
+الوارد أولاً يُصرف أولاً
+PEPS (premier entré, premier sorti)
+LIFO (last-in, first-out)
+الوارد أخيراً يُصرف أولاً
+DEPS (dernier entré, premier sorti)
+weighted-average cost
+المتوسط المرجح للتكلفة
+coût moyen pondéré
+periodic inventory system
+نظام الجرد الدوري
+inventaire intermittent
+perpetual inventory system
+نظام الجرد المستمر
+inventaire permanent
+LIFO reserve
+احتياطي LIFO (فرق تقويم LIFO)
+réserve LIFO
+counterbalancing error
+خطأ ذاتي التصحيح (خطأ معاكس)
+erreur qui s'annule (erreur compensatrice)
+WHAT YOU ALREADY KNOW   What you already know
+You already know periodic and perpetual systems, FIFO and the weighted average from your studies in Arabic or French. Two things may be new.
+LIFO. IFRS does not allow LIFO, so many readers in the Middle East and North Africa have never used it. U.S. GAAP allows it, and the CMA exam tests it often.
+The U.S. words. The exam says inventory, never stock, and it uses the U.S. shipping terms FOB shipping point and FOB destination.
+7.1  Which goods belong in inventory?
+Inventory means goods held for sale in the ordinary course of business, goods in production, and materials that will be used in production. A retailer such as Barada Wholesale, Inc. has one inventory account. A manufacturer such as Orontes has three: raw materials, work in process and finished goods.
+The basic rule is simple: include the goods that the company controls on the balance sheet date, wherever they are. Control usually follows legal title. Three situations need care.
+Goods in transit. The shipping term decides who controls goods that are on a truck or a ship at year-end. Under FOB shipping point, control passes to the buyer when the goods leave the seller, so the buyer includes them. Under FOB destination, the seller keeps control until the goods arrive, so the seller includes them.
+Consignment. In a consignment, the consignor (the owner) gives goods to a consignee, who sells them for a commission. The goods stay in the consignor's inventory. The consignee never includes them, even though they are in its shop.
+Goods held for others. Goods in the warehouse that belong to another company must be taken out of the physical count. Goods the company owns that are held somewhere else must be added.
+Figure F07-02 turns these rules into three questions. Use it for every year-end item in an exam question.
+Figure F07-02. Decision tree: should goods be included in inventory at year-end?.
+Two special cases appear in later chapters. When customers have a right of return, the seller records revenue net of expected returns and a separate asset for the goods it expects to get back (Chapter 11). In a bill-and-hold sale, the seller keeps the goods in its inventory unless strict conditions show that the buyer already controls them.
+EXAM TRAP   The FOB flip
+FOB shipping point: the BUYER includes goods in transit. FOB destination: the SELLER includes them. Many candidates reverse these.
+The consignee never includes consigned goods, even when they are on its own shelves.
+Read the question: is the company the buyer or the seller, the consignor or the consignee?
+FALSE-FRIEND ALERT   FOB is not the Incoterm you know
+In international trade, FOB (free on board) is an Incoterm about loading goods onto a ship. In U.S. exam questions, FOB shipping point and FOB destination are simple shipping terms that decide who controls goods in transit, by truck, rail or sea. Do not bring Incoterm rules into these questions.
+Arabic: البضاعة بالأمانة is consignment; the owner is the consignor (المُرسِل) and the seller in the shop is the consignee (المُرسَل إليه). French: dépôt-vente.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+goods in transit
+بضاعة في الطريق
+marchandises en transit
+FOB shipping point
+التسليم عند نقطة الشحن
+FOB point d'expédition (départ)
+FOB destination
+التسليم عند نقطة الوصول
+FOB destination (arrivée)
+consignment
+البضاعة بالأمانة
+consignation (dépôt-vente)
+consignor
+المُرسِل (مالك البضاعة بالأمانة)
+consignateur (déposant)
+consignee
+المُرسَل إليه (الوكيل بالعمولة)
+consignataire (dépositaire)
+physical count
+الجرد الفعلي
+inventaire physique
+English (exam term)
+العربية
+Français
+goods in transit
+بضاعة في الطريق
+marchandises en transit
+FOB shipping point
+التسليم عند نقطة الشحن
+FOB point d'expédition (départ)
+FOB destination
+التسليم عند نقطة الوصول
+FOB destination (arrivée)
+consignment
+البضاعة بالأمانة
+consignation (dépôt-vente)
+consignor
+المُرسِل (مالك البضاعة بالأمانة)
+consignateur (déposant)
+consignee
+المُرسَل إليه (الوكيل بالعمولة)
+consignataire (dépositaire)
+physical count
+الجرد الفعلي
+inventaire physique
+SECTION CHECK   Test yourself
+SC7-1  On December 28, a supplier in Türkiye ships glass bottles to Orontes, FOB shipping point. They arrive on January 4. Who includes the bottles in inventory at December 31?
+A.	The supplier, the seller
+B.	Neither company until the bottles arrive
+C.	Both companies, half each
+D.	Orontes, the buyer
+SC7-2  Barada Wholesale holds cartons of Orontes tahini on consignment and sells them for a commission. Which statement is correct at year-end?
+A.	Orontes includes the cartons in inventory; Barada does not.
+B.	Barada includes the cartons because they are in its warehouse.
+C.	Both companies include the cartons.
+D.	Neither company includes the cartons until they are sold.
+Answers and explanations are at the end of the chapter.
+7.2  Which costs belong in inventory?
+Inventory is recorded at cost. Cost means all the costs needed to bring the goods to their present condition and location. These are inventoriable costs: they stay in inventory as an asset, and they become cost of goods sold when the goods are sold. Other costs are period costs: they are expenses in the period in which they occur.
+For goods that are bought, cost includes the purchase price, freight-in, import duties, non-refundable taxes and handling, less trade discounts and any purchase discount taken for early payment. For goods that are made, cost also includes direct labor and production overhead.
+Fixed production overhead needs care. It is allocated to units on the basis of normal capacity: the output the plant expects on average over several periods. If output is unusually low, the fixed overhead that is not allocated is an expense of the period. It is not added to inventory. In the same way, abnormal waste (unusual spoilage, idle time or extra freight) is an expense, not inventory cost.
+Period costs include freight-out to customers, sales commissions, advertising, general and administrative costs, and the storage of finished goods. Interest on inventory that is produced routinely is also a period cost. Figure F07-03 lists both groups.
+Figure F07-03. Inventoriable costs versus period costs.
+WORKED EXAMPLE   The cost of imported glass bottles
+Orontes imports glass bottles for its Amman plant. The invoice is $20,000, and Orontes pays within the discount period, so it takes a 2% discount. Other costs are shown below (whole dollars).
+Item
+Amount
+Inventory cost?
+Invoice price
+20,000
+Yes
+Purchase discount taken
+(400)
+Yes (reduces cost)
+Freight-in from the port to Amman
+1,200
+Yes
+Import duty (not refundable)
+900
+Yes
+Insurance while the bottles are in transit
+300
+Yes
+Freight-out when filled bottles go to customers
+700
+No: selling expense
+Storage of finished olive oil
+250
+No: period cost
+Cost of the bottles in inventory
+22,000
+The two costs at the bottom of the table happen after the goods are ready for use. They do not bring the bottles to their present condition and location, so they are expenses.
+Item
+Amount
+Inventory cost?
+Invoice price
+20,000
+Yes
+Purchase discount taken
+(400)
+Yes (reduces cost)
+Freight-in from the port to Amman
+1,200
+Yes
+Import duty (not refundable)
+900
+Yes
+Insurance while the bottles are in transit
+300
+Yes
+Freight-out when filled bottles go to customers
+700
+No: selling expense
+Storage of finished olive oil
+250
+No: period cost
+Cost of the bottles in inventory
+22,000
+● IFRS CONTRAST   Cost is almost the same under IAS 2
+IAS 2 uses the same idea of cost and lists the same exclusions: abnormal waste, storage, administrative overheads and selling costs. The big IFRS difference is in the next section: IAS 2 does not allow LIFO.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+freight-in
+مصاريف نقل المشتريات
+frais de transport sur achats
+freight-out
+مصاريف نقل المبيعات
+frais de transport sur ventes
+purchase discount
+خصم المشتريات (خصم نقدي)
+escompte sur achats
+normal capacity
+الطاقة العادية
+capacité normale
+abnormal waste
+التلف غير العادي
+gaspillage anormal
+inventoriable cost
+تكلفة قابلة للتحميل على المخزون
+coût incorporable aux stocks
+period cost
+تكلفة الفترة
+charge de la période
+English (exam term)
+العربية
+Français
+freight-in
+مصاريف نقل المشتريات
+frais de transport sur achats
+freight-out
+مصاريف نقل المبيعات
+frais de transport sur ventes
+purchase discount
+خصم المشتريات (خصم نقدي)
+escompte sur achats
+normal capacity
+الطاقة العادية
+capacité normale
+abnormal waste
+التلف غير العادي
+gaspillage anormal
+inventoriable cost
+تكلفة قابلة للتحميل على المخزون
+coût incorporable aux stocks
+period cost
+تكلفة الفترة
+charge de la période
+SECTION CHECK   Test yourself
+SC7-3  Which cost is included in the cost of inventory?
+A.	Freight-out to customers
+B.	Sales commissions
+C.	Freight-in on purchased goods
+D.	Storage of finished goods
+SC7-4  Use the glass-bottle example in Section 7.2. What is the cost of the bottles in inventory (whole USD)?
+A.	20,800
+B.	22,000
+C.	22,400
+D.	22,950
+Answers and explanations are at the end of the chapter.
+7.3  Cost flow assumptions
+Unit costs change during the year. When a company sells some units and keeps others, it must decide which costs go to cost of goods sold and which stay in ending inventory. This decision is a cost flow assumption. It does not need to match the physical flow of the goods.
+Every method starts from the same total, the cost of goods available for sale:
+Beginning inventory + Purchases = Goods available for sale = Cost of goods sold + Ending inventory
+Specific identification tracks the actual cost of each item. It suits unique, expensive items, such as cars or jewelry.
+FIFO (first-in, first-out) sends the oldest costs to cost of goods sold. Ending inventory holds the newest costs.
+LIFO (last-in, first-out) sends the newest costs to cost of goods sold. Ending inventory holds the oldest costs.
+Weighted-average cost divides the cost of goods available by the units available and uses this one unit cost for both cost of goods sold and ending inventory.
+WORKED EXAMPLE   Orontes olive oil: three methods, one set of facts
+Orontes sells premium olive oil in cases of twelve bottles. Prices rose during 2025. Orontes began the year with 1,000 cases at $40. It bought 2,000 cases at $44, then 3,000 at $48, then 2,000 at $50. It sold 6,000 cases at $70, so 2,000 cases are left. The company uses a periodic system.
+Goods available: 8,000 cases costing $372,000.
+Method
+Ending inventory (cases left)
+Ending inventory
+Cost of goods sold
+FIFO
+the newest costs: 2,000 × $50
+100,000
+272,000
+LIFO
+the oldest costs: 1,000 × $40 + 1,000 × $44
+84,000
+288,000
+Weighted average
+2,000 × $46.50 (= 372,000 ÷ 8,000)
+93,000
+279,000
+In each row, ending inventory plus cost of goods sold equals the cost of goods available. Only the split is different. Figure F07-04 shows the split as layers.
+Method
+Ending inventory (cases left)
+Ending inventory
+Cost of goods sold
+FIFO
+the newest costs: 2,000 × $50
+100,000
+272,000
+LIFO
+the oldest costs: 1,000 × $40 + 1,000 × $44
+84,000
+288,000
+Weighted average
+2,000 × $46.50 (= 372,000 ÷ 8,000)
+93,000
+279,000
+Figure F07-04. Cost layers for Orontes olive oil under FIFO, LIFO and weighted average (periodic).
+Periodic and perpetual systems
+In a periodic inventory system, the company counts the goods at year-end and calculates cost of goods sold for the whole period. In a perpetual inventory system, it updates inventory and cost of goods sold after every purchase and every sale. The average method in a perpetual system is the moving average: the company calculates a new average after each purchase.
+FIFO gives the same result in both systems, because the oldest units are always sold first. LIFO and the average method do not: under a perpetual system, each sale can only use the costs that exist on the date of the sale. Figure F07-05 shows the Orontes results. The sales took place in April, August and November.
+Figure F07-05. Olive oil: periodic versus perpetual results (whole USD)
+Method
+Periodic: ending inventory
+Periodic: COGS
+Perpetual: ending inventory
+Perpetual: COGS
+FIFO
+100,000
+272,000
+100,000
+272,000
+LIFO
+84,000
+288,000
+93,000
+279,000
+Average (weighted / moving)
+93,000
+279,000
+97,633
+274,367
+YOUR TURN   Periodic LIFO for Dubai pastry trays
+The Dubai plant had 3,000 frozen pastry trays available in 2025, costing $68,000. It sold 2,200 trays. Complete the dashed boxes in Figure F07-06 below using periodic LIFO. Then check that cost of goods sold plus ending inventory equals the cost of goods available.
+Figure F07-06. Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes.
+● IFRS CONTRAST   No LIFO under IFRS
+IAS 2 allows FIFO and the weighted average, and it requires specific identification for items that are not interchangeable. It does not allow LIFO. Cedar Retail, our IFRS company, therefore uses FIFO. You will compare the two frameworks again in Chapter 17.
+LANGUAGE FOCUS   Talking about time and order
+oldest / earliest costs: the costs of the first purchases; newest / latest / most recent costs: the costs of the last purchases.
+layer: one purchase at one unit cost. Under LIFO, the company adds a layer when it buys more than it sells.
+first-in, first-out describes costs, not physical goods. A company can use LIFO even if it ships its oldest bottles first.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost flow assumption
+افتراض تدفق التكلفة
+hypothèse de flux des coûts
+specific identification
+التحديد العيني (التمييز المحدد)
+identification spécifique
+FIFO (first-in, first-out)
+الوارد أولاً يُصرف أولاً
+PEPS (premier entré, premier sorti)
+LIFO (last-in, first-out)
+الوارد أخيراً يُصرف أولاً
+DEPS (dernier entré, premier sorti)
+weighted-average cost
+المتوسط المرجح للتكلفة
+coût moyen pondéré
+moving average
+المتوسط المتحرك
+coût moyen pondéré après chaque entrée (CMUP)
+periodic inventory system
+نظام الجرد الدوري
+inventaire intermittent
+perpetual inventory system
+نظام الجرد المستمر
+inventaire permanent
+goods available for sale
+البضاعة المتاحة للبيع
+marchandises disponibles à la vente
+English (exam term)
+العربية
+Français
+cost flow assumption
+افتراض تدفق التكلفة
+hypothèse de flux des coûts
+specific identification
+التحديد العيني (التمييز المحدد)
+identification spécifique
+FIFO (first-in, first-out)
+الوارد أولاً يُصرف أولاً
+PEPS (premier entré, premier sorti)
+LIFO (last-in, first-out)
+الوارد أخيراً يُصرف أولاً
+DEPS (dernier entré, premier sorti)
+weighted-average cost
+المتوسط المرجح للتكلفة
+coût moyen pondéré
+moving average
+المتوسط المتحرك
+coût moyen pondéré après chaque entrée (CMUP)
+periodic inventory system
+نظام الجرد الدوري
+inventaire intermittent
+perpetual inventory system
+نظام الجرد المستمر
+inventaire permanent
+goods available for sale
+البضاعة المتاحة للبيع
+marchandises disponibles à la vente
+SECTION CHECK   Test yourself
+SC7-5  Under LIFO, ending inventory consists of:
+A.	the newest costs.
+B.	an average of all costs.
+C.	the actual cost of each unit still on hand.
+D.	the oldest costs.
+SC7-6  What is the weighted-average cost per case of olive oil in the Orontes example?
+A.	$40.00
+B.	$45.50
+C.	$46.50
+D.	$50.00
+Answers and explanations are at the end of the chapter.
+7.4  Effects on income, taxes and assets
+When prices are rising, the methods give very different results. FIFO puts the old, cheaper costs into cost of goods sold. So FIFO gives the lowest cost of goods sold, the highest gross profit, the highest income tax and the highest ending inventory. LIFO gives the opposite. The weighted average falls in between. When prices are falling, all these relationships reverse. Figure F07-07 shows the Orontes numbers.
+Figure F07-07. Effects of FIFO, weighted average and LIFO when prices are rising.
+Each method has a strength. LIFO matches current costs with current revenues, so its income is closer to current economic reality, but its balance sheet shows old costs. FIFO shows ending inventory close to current cost, but its income includes gains from holding inventory while prices rise. Chapter 8 compares the methods in more detail and asks you to recommend one.
+The LIFO reserve
+Companies that use LIFO must help readers compare them with FIFO companies. The LIFO reserve is the difference between FIFO (or current cost) inventory and LIFO inventory. For Orontes, the LIFO reserve at the end of 2025 is $100,000 − $84,000 = $16,000.
+An analyst can convert LIFO results to FIFO with two relationships. FIFO inventory equals LIFO inventory plus the LIFO reserve. FIFO cost of goods sold equals LIFO cost of goods sold minus the increase in the LIFO reserve during the year. Orontes started the year with no reserve, so the increase is $16,000, and FIFO cost of goods sold is $288,000 − $16,000 = $272,000. At an illustrative tax rate of 25%, LIFO saved $4,000 of tax this year.
+Two more LIFO rules
+LIFO liquidation. If a LIFO company sells more units than it buys, old low-cost layers flow into cost of goods sold. Income rises for one year. This is not a lasting improvement, and the company should disclose it if it is material.
+LIFO conformity rule. This is a U.S. tax rule. A company that uses LIFO for its tax return must also use LIFO in its financial statements. This is why U.S. companies that want the tax benefit of LIFO also report lower LIFO profits to investors.
+EXAM TRAP   Signs and directions
+To get FIFO cost of goods sold, SUBTRACT the increase in the LIFO reserve from LIFO cost of goods sold.
+In rising prices, LIFO gives LOWER income and LOWER taxes, not higher.
+A LIFO liquidation raises income once. Do not treat it as a better business.
+Periodic and perpetual LIFO give different answers. FIFO does not.
+FALSE-FRIEND ALERT   Reserve does not mean reserve
+The LIFO reserve is not an equity reserve (احتياطي in the equity section, or réserve in French accounts). It is only the difference between two inventory amounts. It is sometimes called the LIFO allowance or revaluation to LIFO.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+LIFO reserve
+احتياطي LIFO (فرق تقويم LIFO)
+réserve LIFO
+LIFO liquidation
+تصفية طبقات LIFO
+liquidation des couches LIFO
+LIFO conformity rule
+قاعدة التوافق الضريبي لطريقة LIFO
+règle de conformité LIFO
+gross profit
+مجمل الربح
+marge brute
+English (exam term)
+العربية
+Français
+LIFO reserve
+احتياطي LIFO (فرق تقويم LIFO)
+réserve LIFO
+LIFO liquidation
+تصفية طبقات LIFO
+liquidation des couches LIFO
+LIFO conformity rule
+قاعدة التوافق الضريبي لطريقة LIFO
+règle de conformité LIFO
+gross profit
+مجمل الربح
+marge brute
+SECTION CHECK   Test yourself
+SC7-7  Prices are rising. Which method gives the highest net income?
+A.	FIFO
+B.	LIFO
+C.	Weighted average
+D.	All methods give the same net income.
+SC7-8  A company reports LIFO cost of goods sold of 500,000. Its LIFO reserve increased from 30,000 to 45,000 during the year. What would cost of goods sold be under FIFO?
+A.	455,000
+B.	485,000
+C.	515,000
+D.	545,000
+Answers and explanations are at the end of the chapter.
+7.5  Inventory errors
+Cost of goods sold depends on the count: beginning inventory plus purchases minus ending inventory. If ending inventory is wrong, cost of goods sold is wrong in the same year. And because this year's ending inventory is next year's beginning inventory, the error moves into the next year too.
+Look at Figure F07-08. At the end of 2025, Orontes counted some goods twice, so ending inventory was overstated by 40 (USD 000). Cost of goods sold was understated by 40, so pretax income was overstated by 40. In 2026, beginning inventory was too high, so cost of goods sold was overstated and pretax income was understated by 40.
+Figure F07-08. An overstated ending inventory: income is overstated in year 1 and understated in year 2.
+Over the two years, the two errors cancel. Retained earnings are overstated at the end of 2025 but correct at the end of 2026. This is a counterbalancing error. Remember the tax effect: at a 25% tax rate, net income was overstated by only 30 in the first year.
+Errors in purchases work in a similar way. Figure F07-09 shows four common errors. Row 3 is a classic exam item: when a purchase is left out of both purchases and the count, cost of goods sold and income are still correct, but inventory and accounts payable are both understated.
+Figure F07-09. Effects of four common inventory errors (O = overstated, U = understated)
+Error in year 1
+Y1 COGS
+Y1 net income
+Y1 end RE
+Y1 assets
+Y2 net income
+Y2 end RE
+1. Ending inventory overstated
+U
+O
+O
+O
+U
+correct
+2. Ending inventory understated
+O
+U
+U
+U
+O
+correct
+3. Credit purchase not recorded, and goods not counted
+no effect
+no effect
+no effect
+U (and liabilities U)
+no effect
+correct
+4. Credit purchase not recorded, but goods counted
+U
+O
+O
+correct (liabilities U)
+U
+correct
+If a company finds an error from a prior year, it corrects the error by restating the prior-year statements, with an adjustment to beginning retained earnings (ASC 250). If the error has already counterbalanced, retained earnings need no adjustment, but the prior-year income figures shown for comparison are still restated.
+LANGUAGE FOCUS   Over- and under-
+overstated = too high; understated = too low. The prefix tells you the direction.
+Net income is overstated by 40 (the size of the error), not overstated to 940.
+In a question, find the direction for the first year, then reverse it for the second year.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+counterbalancing error
+خطأ ذاتي التصحيح (خطأ معاكس)
+erreur qui s'annule (erreur compensatrice)
+English (exam term)
+العربية
+Français
+counterbalancing error
+خطأ ذاتي التصحيح (خطأ معاكس)
+erreur qui s'annule (erreur compensatrice)
+SECTION CHECK   Test yourself
+SC7-9  Ending inventory for 2025 was understated. What are the effects on net income?
+A.	2025 overstated; 2026 understated
+B.	2025 understated; 2026 no effect
+C.	No effect in either year
+D.	2025 understated; 2026 overstated
+SC7-10  A purchase on account at year-end was not recorded, and the goods were not included in the physical count. What is the effect?
+A.	Net income is overstated; inventory is correct.
+B.	Net income is understated; accounts payable are correct.
+C.	Net income is correct; inventory and accounts payable are both understated.
+D.	Net income and inventory are both overstated.
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F07-10 brings the chapter together.
+Figure F07-10. Chapter 7 summary map: the key rule for each section.
+Inventory includes the goods a company controls at year-end, wherever they are. Its cost includes everything needed to bring the goods to their present condition and location, but not abnormal, selling or administrative costs. A cost flow assumption splits the cost of goods available between cost of goods sold and ending inventory. In rising prices, FIFO gives higher income, taxes and inventory, and LIFO gives lower ones; the LIFO reserve connects the two. An error in ending inventory reverses in the next year, so retained earnings are correct after two years.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P7-01  A seller ships goods on December 30, FOB destination. The goods arrive on January 2. At December 31, the goods should be:
+A.	included in the buyer's inventory.
+B.	included in the seller's inventory, with no sale recorded yet.
+C.	removed from the seller's inventory, with a sale recorded.
+D.	excluded from both companies' inventories.
+P7-02  A strike cut production far below normal capacity. How should the fixed production overhead that was not allocated to units be treated?
+A.	As an expense of the period
+B.	Added to the cost of the units produced
+C.	Deferred as an asset to next year
+D.	Charged directly to retained earnings
+P7-03  Which item is a period cost for Orontes?
+A.	Import duties on sesame seeds
+B.	Freight-in on glass bottles
+C.	Wages of bottling-line workers
+D.	Advertising for a new tahini brand
+P7-04  Which statement about periodic and perpetual systems is TRUE?
+A.	LIFO gives the same cost of goods sold under both systems.
+B.	The moving average always equals the periodic weighted average.
+C.	FIFO gives the same cost of goods sold under both systems.
+D.	A perpetual system requires specific identification.
+P7-05  In the Orontes olive-oil example, what is FIFO cost of goods sold (whole USD)?
+A.	100,000
+B.	272,000
+C.	279,000
+D.	288,000
+P7-06  Beginning inventory was 100 units at $10. The company bought 200 units at $12 and then 100 units at $15. It sold 250 units. Using periodic LIFO, what is ending inventory?
+A.	1,600
+B.	1,838
+C.	2,100
+D.	3,300
+P7-07  Specific identification is MOST appropriate for:
+A.	unique, high-value items such as cars.
+B.	large volumes of identical glass bottles.
+C.	any items when prices are rising.
+D.	perishable food products.
+P7-08  Prices are falling. Which method gives the highest gross profit?
+A.	FIFO
+B.	Weighted average
+C.	LIFO
+D.	All methods give the same gross profit.
+P7-09  What is the Orontes LIFO reserve for olive oil at the end of 2025 (whole USD)?
+A.	4,000
+B.	7,000
+C.	9,000
+D.	16,000
+P7-10  Prices are rising, and a LIFO company sells more units than it buys, so old layers are liquidated. What is the effect in that year?
+A.	Gross profit decreases.
+B.	Gross profit increases.
+C.	There is no effect, because costs are historical.
+D.	A loss arises that must be deferred.
+P7-11  The LIFO conformity rule requires that:
+A.	a company using LIFO for its U.S. tax return also uses LIFO in its financial statements.
+B.	companies reporting under IFRS use LIFO.
+C.	a company using LIFO applies it to every inventory in every country.
+D.	a company using LIFO for its financial statements uses FIFO for tax.
+P7-12  Orontes overstated its 2025 ending inventory by 40 (USD 000). Ignoring taxes, what is the effect on retained earnings at the end of 2026?
+A.	Overstated by 40
+B.	No effect
+C.	Understated by 40
+D.	Overstated by 80
+P7-13  The tax rate is 25%. Ending inventory was overstated by 40. By how much is net income overstated in that year?
+A.	10
+B.	30
+C.	40
+D.	50
+P7-14  Ending inventory for 2026 is understated by 15. Inventory for 2025 was correct. What is the effect on 2026 cost of goods sold?
+A.	Understated by 15
+B.	No effect
+C.	Overstated by 15
+D.	Overstated by 30
+P7-15  Spiral review (Chapter 1). Orontes buys olives on account. What is the effect immediately after the purchase?
+A.	Assets increase and liabilities increase.
+B.	Expenses increase and net income decreases.
+C.	Assets increase and equity increases.
+D.	There is no effect until Orontes pays.
+P7-16  Spiral review (Chapter 1). Orontes records cost of goods sold at the same time as the related sales revenue. Which approach does this follow?
+A.	Systematic and rational allocation
+B.	Matching by cause and effect
+C.	Immediate recognition
+D.	The cash basis
+P7-17  Cedar Retail S.A.L. reports under IFRS. Which method may it NOT use?
+A.	FIFO
+B.	Weighted average
+C.	LIFO
+D.	Specific identification for unique items
+Case-style practice: Orontes tahini cartons
+In the real exam, a case-based question gives you a short case with exhibits and then several items of different types. Use Figure F07-11 for items C7-1 to C7-6. Orontes uses a periodic system for tahini. Prices do not change after December 31.
+Figure F07-11. Case exhibit: Orontes tahini cartons, 2025 purchases, year-end count and memo
+Date / item
+Details
+Cartons
+USD
+Jan 1
+Beginning inventory at $30
+4,000
+120,000
+Feb 14
+Purchase at $31
+10,000
+310,000
+Jun 3
+Purchase at $33
+12,000
+396,000
+Sep 21
+Purchase at $34
+8,000
+272,000
+Dec 18
+Purchase at $35
+6,000
+210,000
+Goods available for sale
+40,000
+1,308,000
+Dec 31
+Physical count in the Amman warehouse
+7,500
+Year-end memo from the warehouse manager
+M1
+Cartons bought on December 29, FOB shipping point, still on the truck on December 31. The purchase is already recorded.
+1,000
+M2
+Cartons shipped to a customer on December 30, FOB destination. They arrive on January 3.
+500
+M3
+Cartons in the warehouse that belong to a Beirut producer. Orontes sells them on consignment for the producer. They were included in the count.
+800
+M4
+Cartons that Orontes has placed on consignment with a retailer in Doha. They were not counted.
+300
+C7-1  For each memo item, decide how Orontes should adjust the physical count. (On the exam screen you would drag each item into a box.)
+Categories: Add to the count · Subtract from the count · No adjustment
+Memo item
+Category
+M1 (FOB shipping point, bought)
+M2 (FOB destination, sold)
+M3 (held for a Beirut producer)
+M4 (at a Doha consignee)
+C7-2  Enter the correct number of cartons in ending inventory.
+Answer: ____________
+C7-3  Enter FIFO ending inventory in USD.
+Answer: ____________
+C7-4  Enter weighted-average cost of goods sold in USD.
+Answer: ____________
+C7-5  If Orontes had used the unadjusted count, its FIFO cost of goods sold would have been: [select]
+Options: overstated by $34,000   |   understated by $34,000   |   correct   |   overstated by 1,000
+C7-6  If Orontes used periodic LIFO for tahini, what would the LIFO reserve be at December 31 (USD)? The beginning layer is the base layer.
+Answer: ____________
+Written task
+W7  In four to six sentences, advise the Orontes finance director. Which method, FIFO or LIFO, gives lower income taxes for olive oil in 2025, and why? What does the LIFO conformity rule mean for the financial statements? Use these words: rising prices, cost of goods sold, taxable income, conformity, LIFO reserve.
+Answers and explanations
+Section checks
+SC7-1  Answer D. Under FOB shipping point, control passes to the buyer when the goods leave the seller.
+A is wrong. The seller keeps goods in transit only under FOB destination.
+B is wrong. Someone always controls the goods; in transit they belong to the buyer here.
+C is wrong. Goods are never split between two inventories.
+SC7-2  Answer A. Orontes is the consignor and still owns the goods. Barada, the consignee, never includes them.
+B is wrong. Location does not decide; ownership and control do.
+C is wrong. Goods cannot be in two inventories.
+D is wrong. The consignor keeps the goods in inventory until the consignee sells them.
+SC7-3  Answer C. Freight-in brings the goods to their present location, so it is part of cost.
+A is wrong. Freight-out is a selling expense.
+B is wrong. Commissions are selling expenses.
+D is wrong. Storing finished goods does not bring them to their present condition; it is a period cost.
+SC7-4  Answer B. Invoice less the discount taken, plus freight-in, import duty and transit insurance.
+A is wrong. This leaves out freight-in, which is part of cost.
+C is wrong. This ignores the purchase discount taken.
+D is wrong. This adds freight-out and finished-goods storage, which are period costs.
+SC7-5  Answer D. LIFO sends the newest costs to cost of goods sold, so the oldest costs stay in inventory.
+A is wrong. The newest costs stay in inventory under FIFO.
+B is wrong. That is the average method.
+C is wrong. That is specific identification.
+SC7-6  Answer C. Cost of goods available divided by units available.
+A is wrong. This is the oldest unit cost.
+B is wrong. This is a simple average of the four unit prices. It ignores the number of units in each layer.
+D is wrong. This is the latest unit cost.
+SC7-7  Answer A. FIFO puts the oldest, cheapest costs into cost of goods sold, so income is highest.
+B is wrong. LIFO gives the lowest income when prices rise.
+C is wrong. The average falls between FIFO and LIFO.
+D is wrong. The methods split the same costs differently, so income differs.
+SC7-8  Answer B. FIFO COGS = LIFO COGS − increase in the LIFO reserve = 500,000 − 15,000.
+A is wrong. This subtracts the ending reserve instead of the change in the reserve.
+C is wrong. This adds the increase instead of subtracting it.
+D is wrong. This adds the ending reserve.
+SC7-9  Answer D. Low ending inventory makes 2025 COGS too high. It also makes 2026 beginning inventory too low, so 2026 COGS is too low.
+A is wrong. These are the effects of an overstated ending inventory.
+B is wrong. The error carries into next year through beginning inventory.
+C is wrong. Ending inventory directly changes cost of goods sold.
+SC7-10  Answer C. Purchases and ending inventory are both too low by the same amount, so COGS is correct.
+A is wrong. The two omissions cancel in COGS, so income is correct.
+B is wrong. Accounts payable is understated because the purchase was not recorded.
+D is wrong. Inventory is understated, and income is correct.
+Your turn
+Item
+Answer
+COGS, line 2: 1,200 × $22
+$26,400
+Ending inventory, line 1: 300 × $22
+$6,600
+Ending inventory, line 2: 500 × $20
+$10,000
+Total COGS
+$25,000 + $26,400 = $51,400
+Total ending inventory
+$6,600 + $10,000 = $16,600
+Check
+$51,400 + $16,600 = $68,000, the cost of goods available.
+Multiple-choice questions
+P7-01  Answer B. Under FOB destination, the seller keeps control until delivery.
+A is wrong. The buyer includes goods in transit only under FOB shipping point.
+C is wrong. Control has not passed, so no sale is recorded yet.
+D is wrong. The seller still controls the goods.
+P7-02  Answer A. Fixed overhead is allocated on normal capacity; the unallocated part is a period expense.
+B is wrong. This would give each unit an abnormally high cost.
+C is wrong. No future benefit exists, so it is not an asset.
+D is wrong. Operating costs go through the income statement.
+P7-03  Answer D. Advertising is a selling cost, expensed when incurred.
+A is wrong. Duties bring materials to their location, so they are inventory cost.
+B is wrong. Freight-in is inventory cost.
+C is wrong. Direct labor in production is inventory cost.
+P7-04  Answer C. FIFO always sells the oldest units first, whatever the timing of sales.
+A is wrong. Perpetual LIFO can only use costs that exist on each sale date.
+B is wrong. The moving average changes after each purchase, so results usually differ.
+D is wrong. A perpetual system can use FIFO, LIFO or moving average.
+P7-05  Answer B. Goods available minus FIFO ending inventory (the newest costs).
+A is wrong. This is FIFO ending inventory, not cost of goods sold.
+C is wrong. This is the weighted-average result.
+D is wrong. This is LIFO cost of goods sold.
+P7-06  Answer A. 150 units remain at the oldest costs: 100 × $10 + 50 × $12 = 1,600.
+B is wrong. This uses the weighted average ($12.25 × 150, rounded).
+C is wrong. This uses the newest costs (FIFO).
+D is wrong. This is LIFO cost of goods sold, not ending inventory.
+P7-07  Answer A. It tracks the cost of each individual item, which is practical only for distinct items.
+B is wrong. Identical items are interchangeable; tracking each one is costly and allows manipulation.
+C is wrong. Price trends do not decide when specific identification fits.
+D is wrong. Perishable goods are usually interchangeable; FIFO fits their flow.
+P7-08  Answer C. With falling prices, LIFO puts the newest, lowest costs into cost of goods sold.
+A is wrong. FIFO gives the highest profit only when prices rise.
+B is wrong. The average is always between FIFO and LIFO.
+D is wrong. The methods split the same costs differently.
+P7-09  Answer D. FIFO inventory minus LIFO inventory.
+A is wrong. This is the tax saving, not the reserve.
+B is wrong. This compares FIFO with the weighted average, not with LIFO.
+C is wrong. This compares the weighted average with LIFO.
+P7-10  Answer B. Old, low costs flow into cost of goods sold, so gross profit rises for that year.
+A is wrong. Low old costs reduce cost of goods sold.
+C is wrong. The old costs are much lower than current costs, so income changes.
+D is wrong. A liquidation raises income; it does not create a loss.
+P7-11  Answer A. It is a U.S. tax rule that links the tax method to the financial statements.
+B is wrong. IFRS prohibits LIFO.
+C is wrong. The rule links tax and book methods; it does not force one method everywhere.
+D is wrong. This reverses the rule.
+P7-12  Answer B. The error overstates 2025 income and understates 2026 income by the same amount, so it counterbalances.
+A is wrong. This is the effect at the end of 2025, not 2026.
+C is wrong. Only 2026 income is understated; the cumulative effect is zero.
+D is wrong. The two effects cancel; they do not add.
+P7-13  Answer B. After-tax effect = pretax error × (1 − tax rate).
+A is wrong. This is the tax effect only.
+C is wrong. This is the pretax effect.
+D is wrong. This grosses the error up instead of reducing it for tax.
+P7-14  Answer C. COGS = beginning inventory + purchases − ending inventory, so low ending inventory raises COGS.
+A is wrong. This reverses the direction.
+B is wrong. Ending inventory directly changes COGS.
+D is wrong. Only one error of 15 exists.
+P7-15  Answer A. Inventory (an asset) and accounts payable (a liability) both increase.
+B is wrong. The olives become an expense only when the products are sold.
+C is wrong. Buying on credit creates a liability, not equity.
+D is wrong. The obligation exists now, so the purchase is recorded now.
+P7-16  Answer B. Cost of goods sold links directly to each sale.
+A is wrong. Allocation is used for costs such as depreciation.
+C is wrong. Immediate recognition is for costs with no clear link to revenue.
+D is wrong. The cash basis is not used under U.S. GAAP.
+P7-17  Answer C. IAS 2 prohibits LIFO.
+A is wrong. FIFO is allowed under IAS 2.
+B is wrong. The weighted average is allowed under IAS 2.
+D is wrong. IAS 2 requires specific identification for items that are not interchangeable.
+Case-style set: Orontes tahini cartons
+C7-1
+Memo item
+Category
+M1 (FOB shipping point, bought)
+Add to the count
+M2 (FOB destination, sold)
+Add to the count
+M3 (held for a Beirut producer)
+Subtract from the count
+M4 (at a Doha consignee)
+Add to the count
+M1 and M4 are Orontes goods that are not in the warehouse; M3 belongs to another company. M2 is still Orontes inventory under FOB destination.
+C7-2  Answer: 8,500.
+10,100 is wrong: this answer adds every memo item, including goods that belong to another company.
+5,500 is wrong: this answer reverses the FOB rules and subtracts the goods in transit.
+7,500 is wrong: this answer uses the physical count without any adjustment.
+C7-3  Answer: 295,000.
+259,500 is wrong: this answer uses the oldest costs (LIFO).
+261,000 is wrong: this answer uses the unadjusted count.
+C7-4  Answer: 1,030,050.
+1,026,900 is wrong: this answer uses a simple average of the unit prices.
+277,950 is wrong: this answer reports weighted-average ending inventory instead of cost of goods sold.
+C7-5  Answer: overstated by $34,000.
+understated by $34,000 is wrong: this answer reverses the direction: a lower ending inventory raises cost of goods sold.
+correct is wrong: this answer ignores that ending inventory drives cost of goods sold.
+overstated by 1,000 is wrong: this answer gives the difference in cartons, not in dollars.
+C7-6  Answer: 35,500.
+(35,500) is wrong: this answer subtracts FIFO from LIFO.
+17,050 is wrong: this answer compares FIFO with the weighted average instead of LIFO.
+Written task: model answer
+Prices rose during 2025, so LIFO gives lower income taxes. LIFO puts the newest, most expensive costs into cost of goods sold, which lowers gross profit and taxable income; for olive oil, LIFO saves $4,000 compared with FIFO. However, the LIFO conformity rule means that if Orontes uses LIFO on its U.S. tax return, it must also use LIFO in its financial statements, so it will report lower profits to investors too. Ending inventory will also show older, lower costs. Orontes should disclose the LIFO reserve ($16,000) so that readers can compare it with FIFO companies.
+A good answer: says LIFO gives lower taxes when prices rise; explains the link through cost of goods sold and taxable income; explains the conformity rule correctly; mentions the LIFO reserve for comparison; uses the Orontes figures (bonus).
+PART II — RECOGNITION AND MEASUREMENT OF ASSETS

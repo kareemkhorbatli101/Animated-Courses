@@ -202,28 +202,15 @@ def walk(x):
                 yield y
 
 
-def source_terms(src):
-    """The English term-bridge rows and chapter key terms, from the source.
+def source_terms(n):
+    """The chapter's English term rows, from its real tables.
 
-    Extracted rather than transcribed, so the coverage check cannot be
-    satisfied by a list that has drifted away from the book.
+    Extracted rather than transcribed, and read from the tables rather than
+    from flattened text: counting lines in threes made the French column look
+    like an English term the moment the extraction changed.
     """
-    terms = []
-    for block in re.split(r'TERM BRIDGE|Key terms in this chapter', src)[1:]:
-        seg = re.split(r'SECTION CHECK|LANGUAGE FOCUS|FALSE-FRIEND|'
-                       r'IFRS CONTRAST|WHAT YOU ALREADY KNOW|^1\.\d',
-                       block, flags=re.M)[0]
-        lines = [l.strip() for l in seg.split('\n') if l.strip()]
-        # drop 'Key words in this section' and the three header cells
-        lines = [l for l in lines if l not in
-                 ('Key words in this section', 'English (exam term)',
-                  'العربية', 'Français')]
-        for i in range(0, len(lines) - 2, 3):
-            en = lines[i]
-            if re.search(r'[؀-ۿ]', en):
-                continue
-            terms.append(en)
-    return terms
+    import parsebook as PB
+    return [en for en, _ar in PB.term_pairs(n)]
 
 
 def check(mod):
@@ -412,30 +399,43 @@ def check(mod):
         for page in H['pages']:
             for x in page['exercises']:
                 kinds.add(x['t'])
-        if len(kinds) < 4:
-            say('only %d exercise types; a handout of one or two types is a '
-                'worksheet, not a handout' % len(kinds))
+        if len(kinds) < 2:
+            say('only one exercise type; that is a worksheet, not a handout')
         # ---- 15 response_budget ------------------------------------
-        if not 55 <= pts <= 78:
-            say('%d response points, outside the 55 to 78 a four-page '
+        # The floor was a proxy for wasting a sheet, and page fill now
+        # measures that directly: a page of tables carries a third of the
+        # points of a page of matching and is not wasting anything. The
+        # ceiling still matters, because over it the pages do not fit.
+        if not 20 <= pts <= 78:
+            say('%d response points, outside the 20 to 78 a four-page '
                 'handout holds' % pts)
         if len(H['pages']) > 4:
             say('%d pages; the brief is four' % len(H['pages']))
         total += pts
         H['_pts'] = pts
 
+    # Mixing the types is the point of having eight of them, and it is a
+    # property of the chapter rather than of each sheet: a chapter whose
+    # sheets between them use fewer than four is not being converted.
+    if len(types) < 4:
+        bad.append('the chapter uses only %d exercise types' % len(types))
+
     # ---- 3 coverage_ledger -----------------------------------------
+    # A unit the book states in a form that cannot be converted faithfully
+    # may be omitted, but only on the record: OMIT carries the reason, and
+    # the count is printed with the result so the gap is never silent.
+    omit = getattr(ch, 'OMIT', {})
     for u in getattr(ch, 'LEDGER', []):
-        if claimed[u] == 0:
+        if claimed[u] == 0 and u not in omit:
             bad.append('coverage: content unit %s is not claimed by any '
-                       'handout' % u)
+                       'handout and is not on the omission record' % u)
     for u in claimed:
         if u not in getattr(ch, 'LEDGER', []):
             bad.append('coverage: handout claims %s, which is not in the '
                        'chapter inventory' % u)
 
     # ---- 4 terms_covered -------------------------------------------
-    st = source_terms(src)
+    st = source_terms(int(ch.CH))
     blob = ' · '.join(used_terms)
     missing = [t for t in sorted(set(st)) if t.lower() not in blob]
     for t in missing:

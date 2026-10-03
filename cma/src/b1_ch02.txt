@@ -1,0 +1,864 @@
+Chapter 2
+The Balance Sheet
+قائمة المركز المالي (الميزانية العمومية)
+In Chapter 1 you learned the accounting equation and saw Barada Wholesale's trial balance. Now we turn a full set of accounts into the first of the four statements: the balance sheet. It is a picture of the company on one day. It shows what the company controls, what it owes, and what belongs to its owners.
+Figure F02-01 shows the structure you will learn in this chapter.
+Figure F02-01. Chapter 2 roadmap: a classified balance sheet and the questions this chapter answers.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.b
+Explain the purpose of the balance sheet and how users apply it to judge liquidity, solvency and financial flexibility.
+B
+Full treatment (balance sheet)
+A.1.c
+Identify the major components and classifications of a classified balance sheet, including debt classification.
+B
+Full treatment (balance sheet)
+A.1.d
+Identify the limitations of the balance sheet.
+A
+Full treatment (balance sheet)
+A.1.f
+Show how the balance sheet links to the other three statements.
+B
+Introduced (full in Chapter 5)
+A.2.ff
+State the IFRS differences in debt classification.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+balance sheet
+الميزانية العمومية
+bilan
+classified balance sheet
+قائمة المركز المالي المبوبة
+bilan présenté par ordre courant/non courant
+current assets
+الأصول المتداولة
+actifs courants
+current liabilities
+الالتزامات المتداولة
+passifs courants
+operating cycle
+دورة التشغيل
+cycle d'exploitation
+working capital
+رأس المال العامل
+fonds de roulement
+current portion of long-term debt
+الجزء المتداول من الديون طويلة الأجل
+partie courante de la dette à long terme
+callable debt
+دين قابل للاستدعاء (مستحق عند الطلب)
+dette exigible (à la demande)
+loss contingency
+خسارة محتملة (التزام محتمل)
+perte éventuelle
+subsequent events
+الأحداث اللاحقة لتاريخ الميزانية
+événements postérieurs à la clôture
+WHAT YOU ALREADY KNOW   What you already know
+Under IFRS you call it the statement of financial position, and many IFRS balance sheets put noncurrent assets first. U.S. companies usually start with current assets and list them in order of liquidity: cash first. The rules for classifying debt are also different, as Section 2.3 shows.
+2.1  Purpose and structure of the balance sheet
+The balance sheet reports a company's assets, liabilities and equity at one point in time. It answers three questions for investors and lenders. Can the company pay its bills in the coming months? This is liquidity. Can it pay all its debts over time? This is solvency. Can it raise cash or change its plans if something unexpected happens? This is financial flexibility.
+U.S. companies that file with the SEC present a classified balance sheet. It separates current from noncurrent assets and current from noncurrent liabilities, so users can see the short-term position at once. Some companies, such as banks, list items in order of liquidity instead, without a current subtotal.
+Figure F02-02 is Orontes's balance sheet at the end of 2025, with 2024 for comparison. All the amounts come from the same records as the earlier chapters on receivables, inventory, investments and long-lived assets. For example, the equity-method investments include Jordan Glass Co. from Chapter 9, and goodwill fell after the impairments in Chapter 10.
+Figure F02-02. Orontes Foods Inc. — classified balance sheets at December 31, 2025 and 2024
+Orontes Foods Inc. (whole USD)
+Dec 31, 2025
+Dec 31, 2024
+ASSETS
+Current assets
+Cash
+7,302,100
+2,100,000
+Trading securities
+42,000
+40,000
+Accounts receivable, net of allowance (2025: 156,000; 2024: 140,000)
+4,144,000
+3,760,000
+Inventory
+2,450,000
+2,300,000
+Prepaid expenses
+204,000
+180,000
+Assets held for sale
+46,000
+—
+Total current assets
+14,188,100
+8,380,000
+Noncurrent assets
+Debt securities (held-to-maturity and available-for-sale)
+88,500
+90,000
+Equity securities
+27,000
+25,000
+Equity-method investments
+1,807,000
+500,000
+Property, plant and equipment, net of accumulated depreciation (2025: 11,988,000; 2024: 8,000,000)
+14,802,000
+16,000,000
+Brand (indefinite-lived)
+260,000
+300,000
+Goodwill
+300,000
+950,000
+Other noncurrent assets
+200,000
+200,000
+TOTAL ASSETS
+31,672,600
+26,445,000
+LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities
+Accounts payable
+2,050,000
+1,900,000
+Accrued liabilities
+900,000
+850,000
+Income taxes payable
+350,000
+300,000
+Contract liabilities
+180,000
+120,000
+Dividends payable
+400,000
+—
+Current portion of long-term debt
+400,000
+400,000
+Total current liabilities
+4,280,000
+3,570,000
+Long-term debt, less current portion
+6,000,000
+5,600,000
+Deferred tax liability
+999,625
+900,000
+Total liabilities
+11,279,625
+10,070,000
+Commitments and contingencies (Note 12)
+Stockholders' equity
+Common stock, $1 par; shares issued and outstanding: 2025 8,100,000, 2024 8,000,000
+8,100,000
+8,000,000
+Additional paid-in capital
+5,400,000
+4,000,000
+Retained earnings
+6,894,100
+4,375,000
+Accumulated other comprehensive income (loss)
+(1,125)
+—
+Total stockholders' equity
+20,392,975
+16,375,000
+TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY
+31,672,600
+26,445,000
+Read the figure from the top. Current assets come first, from cash down to assets held for sale. Then come the noncurrent assets: investments, property, plant and equipment, and intangible assets. Liabilities follow the same order, and equity comes last. Contra accounts, such as the allowance for credit losses and accumulated depreciation, are shown with the asset they reduce. The line Commitments and contingencies has no amount; it tells the reader to look at a note.
+LANGUAGE FOCUS   Reading a balance sheet heading
+as of December 31, 2025 or at December 31, 2025: a balance sheet is always at a date, never for the year.
+net of: the amount after a contra account, as in receivables, net of allowance.
+issued and outstanding: shares the company has sold and still has in the hands of shareholders.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+classified balance sheet
+قائمة المركز المالي المبوبة
+bilan présenté par ordre courant/non courant
+liquidity
+السيولة
+liquidité
+solvency
+الملاءة المالية
+solvabilité
+financial flexibility
+المرونة المالية
+flexibilité financière
+English (exam term)
+العربية
+Français
+classified balance sheet
+قائمة المركز المالي المبوبة
+bilan présenté par ordre courant/non courant
+liquidity
+السيولة
+liquidité
+solvency
+الملاءة المالية
+solvabilité
+financial flexibility
+المرونة المالية
+flexibilité financière
+SECTION CHECK   Test yourself
+SC2-1  A lender wants to know if Orontes can pay the bills that fall due in the next few months. Which quality is the lender assessing?
+A.	Liquidity
+B.	Solvency
+C.	Profitability
+D.	Financial flexibility
+SC2-2  Which heading is correct for Orontes's balance sheet?
+A.	Balance sheet for the year ended December 31, 2025
+B.	Balance sheet for the period January 1 to December 31, 2025
+C.	Balance sheet as of December 31, 2025
+D.	Balance sheet for 2025
+Answers and explanations are at the end of the chapter.
+2.2  Current and noncurrent items
+Current assets are cash and other assets that the company expects to turn into cash, sell or use up within one year or within its operating cycle, whichever is longer. The operating cycle is the average time from buying materials to collecting cash from customers. Current liabilities are obligations the company expects to settle by using current assets or by creating other current liabilities.
+Figure F02-03 shows Orontes's cycle. It takes about 32 days to sell its inventory and 34 days to collect from customers: 66 days in total. Because the cycle is shorter than a year, Orontes uses one year to classify its items.
+Figure F02-03. Orontes's operating cycle: cash to inventory to receivables to cash.
+Some assets that look current are not. Restricted cash set aside to repay long-term debt or to build a plant is noncurrent. So are long-term investments, receivables that will not be collected within the period, the cash surrender value of life insurance, and long-term prepayments. On the liability side, current portion of long-term debt is current, because that part of the principal is due within a year.
+Two measures come directly from these totals. Working capital is current assets minus current liabilities. The current ratio is current assets divided by current liabilities. For Orontes at the end of 2025, working capital is $14,188,100 − $4,280,000 = $9,908,100, and the current ratio is 3.31. A year earlier the ratio was 2.35. Part 2 of the CMA exam analyzes these ratios in depth.
+EXAM TRAP   Working capital or the ratio?
+Paying a supplier in cash reduces current assets and current liabilities by the same amount: working capital does not change, but the current ratio changes.
+Reclassifying debt from current to noncurrent increases working capital and the current ratio.
+Use the operating cycle only when it is longer than one year.
+WORKED EXAMPLE   Worked example: classifying three Orontes items
+Step 1. Next year's installment on long-term debt, $400,000. It is due within one year, so it is a current liability; the rest of the debt stays noncurrent.
+Step 2. The delivery van held for sale, $46,000. Orontes expects to sell it within the year, so it is a current asset, outside PP&E.
+Step 3. The equity-method investments, $1,807,000. Orontes plans to hold them for the long term, so they are noncurrent assets.
+Check. Each answer uses the same test: will the item be turned into cash, used up or settled within one year (Orontes's cycle is shorter)?
+YOUR TURN   Current or noncurrent?
+Figure F02-04 lists six items. The first two are done. Classify the other four and give a reason. Answers are at the end of the chapter.
+Figure F02-04. Classify each item: current or noncurrent? (complete the blanks)
+Item
+Classification
+Reason
+Cash set aside in a sinking fund to repay bonds in 2029
+Noncurrent asset
+Restricted for a noncurrent purpose
+Date vinegar that Orontes ages for 18 months before sale
+Current asset
+The operating cycle is longer than one year, so the cycle applies
+Cash surrender value of an executive life insurance policy
+________
+________
+Bank loan due on demand; the bank has never asked for repayment
+________
+________
+Deferred tax asset from warranty costs expected to reverse next year
+________
+________
+Customer deposits for orders to be delivered next month
+________
+________
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+current assets
+الأصول المتداولة
+actifs courants
+current liabilities
+الالتزامات المتداولة
+passifs courants
+operating cycle
+دورة التشغيل
+cycle d'exploitation
+working capital
+رأس المال العامل
+fonds de roulement
+current ratio
+نسبة التداول
+ratio de liquidité générale
+restricted cash
+النقد المقيد
+trésorerie soumise à restrictions
+English (exam term)
+العربية
+Français
+current assets
+الأصول المتداولة
+actifs courants
+current liabilities
+الالتزامات المتداولة
+passifs courants
+operating cycle
+دورة التشغيل
+cycle d'exploitation
+working capital
+رأس المال العامل
+fonds de roulement
+current ratio
+نسبة التداول
+ratio de liquidité générale
+restricted cash
+النقد المقيد
+trésorerie soumise à restrictions
+SECTION CHECK   Test yourself
+SC2-3  A cheese maker ages its cheese for two years before sale. How does it classify its cheese inventory?
+A.	Noncurrent, because it will not be sold within one year
+B.	Current, because its operating cycle is longer than one year
+C.	Half current, half noncurrent
+D.	Noncurrent until the last year of aging
+SC2-4  Use Figure F02-02. What was Orontes's working capital at December 31, 2024 (whole USD)?
+A.	(1,690,000)
+B.	4,810,000
+C.	8,380,000
+D.	9,908,100
+Answers and explanations are at the end of the chapter.
+2.3  Classifying debt
+Debt is where classification gets difficult, and where the exam likes to test. Long-term debt that is due in installments is split: the current portion of long-term debt is current and the rest is noncurrent. Orontes shows $400,000 as current and $6,000,000 as long-term.
+Loan agreements contain conditions called covenants, for example a maximum debt-to-equity ratio. If a company breaks a covenant, the lender may be able to demand repayment at once. Such callable debt is current, even if the company does not expect the lender to act. It stays noncurrent only if, before the statements are issued, the lender gives a waiver for more than one year, or a grace period exists and the company will probably cure the violation within it.
+A subjective acceleration clause, such as a right to demand payment after a 'material adverse change', makes debt current only if acceleration is probable. Debt that is due on demand is always current.
+Short-term debt can be shown as noncurrent through refinancing, but only if the company intends to refinance it on a long-term basis and shows that it can. It shows this by issuing long-term debt or shares after the balance sheet date but before the statements are issued, or by signing a qualifying financing agreement. Figure F02-05 puts these rules together.
+Figure F02-05. Decision tree for classifying debt as current or noncurrent under U.S. GAAP.
+● IFRS CONTRAST   IFRS looks only at the reporting date
+IAS 1 asks one question: at the reporting date, does the company have a right to defer settlement for at least twelve months? A waiver or refinancing obtained after the reporting date does not count. U.S. GAAP counts events up to the date the statements are issued. Figure F02-06 compares the two frameworks.
+Figure F02-06. Debt classification: U.S. GAAP versus IFRS
+Situation at the reporting date
+U.S. GAAP (ASC 470-10)
+IFRS (IAS 1)
+Short-term debt refinanced long-term after year-end, before issuance
+Noncurrent (intent and demonstrated ability)
+Current (no right to defer at the reporting date)
+Covenant broken at year-end; waiver for more than 12 months obtained after year-end
+Noncurrent
+Current
+Covenant broken at year-end; waiver obtained on or before year-end
+Noncurrent
+Noncurrent
+Covenant tested only after year-end (future compliance doubtful)
+Noncurrent; disclose
+Noncurrent; disclose the risk
+Subjective acceleration clause
+Current only if acceleration is probable
+Ignored unless it removes the right to defer
+Deferred tax assets and liabilities
+All noncurrent
+All non-current
+WATCH: NOT YET TESTABLE   No change to debt classification
+The FASB proposed a simpler debt-classification rule in 2017 and again in 2019, but removed the project from its agenda in April 2021. The rules in this section are still current. Do not use the old proposal on the exam.
+EXAM TRAP   Debt traps
+Refinanced after year-end but before issuance: noncurrent under U.S. GAAP, current under IFRS.
+Due on demand: always current.
+A waiver obtained before issuance, for more than a year: noncurrent under U.S. GAAP.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+current portion of long-term debt
+الجزء المتداول من الديون طويلة الأجل
+partie courante de la dette à long terme
+covenant
+تعهد (شرط) في اتفاقية القرض
+clause restrictive (covenant)
+callable debt
+دين قابل للاستدعاء (مستحق عند الطلب)
+dette exigible (à la demande)
+waiver
+تنازل (إعفاء) من الدائن
+renonciation (dérogation) du prêteur
+grace period
+فترة سماح
+délai de grâce
+subjective acceleration clause
+شرط التعجيل التقديري
+clause d'exigibilité anticipée subjective
+refinancing
+إعادة التمويل
+refinancement
+English (exam term)
+العربية
+Français
+current portion of long-term debt
+الجزء المتداول من الديون طويلة الأجل
+partie courante de la dette à long terme
+covenant
+تعهد (شرط) في اتفاقية القرض
+clause restrictive (covenant)
+callable debt
+دين قابل للاستدعاء (مستحق عند الطلب)
+dette exigible (à la demande)
+waiver
+تنازل (إعفاء) من الدائن
+renonciation (dérogation) du prêteur
+grace period
+فترة سماح
+délai de grâce
+subjective acceleration clause
+شرط التعجيل التقديري
+clause d'exigibilité anticipée subjective
+refinancing
+إعادة التمويل
+refinancement
+SECTION CHECK   Test yourself
+SC2-5  A five-year loan is repaid in equal annual installments. At year-end, how is the next installment classified?
+A.	As a noncurrent liability
+B.	As a current liability
+C.	As a reduction of cash
+D.	Only in a note
+SC2-6  At December 31 a company breaks a loan covenant, so the loan is payable on demand. On January 15, before the statements are issued, the bank gives an 18-month waiver. How is the loan classified under IFRS?
+A.	Noncurrent
+B.	Current under IFRS only if the bank is expected to demand payment
+C.	Split between current and noncurrent
+D.	Current
+Answers and explanations are at the end of the chapter.
+2.4  Other presentation matters
+A few more rules decide what appears on the balance sheet and how. All deferred tax assets and liabilities are noncurrent. Orontes shows its deferred tax liability of $999,625 below long-term debt. Assets and liabilities may be offset only when a right of setoff exists: the two parties owe each other determinable amounts, the company has the legal right and the intent to set them off, and the right is enforceable.
+A loss contingency is an existing situation that may cause a loss, such as a lawsuit. Figure F02-07 shows the treatment. If the loss is probable and can be reasonably estimated, the company records a liability. If it is only reasonably possible, the company discloses it in a note. If it is remote, the company does nothing. Gain contingencies are never recorded before they are realized.
+Figure F02-07. Loss contingencies: recognition and disclosure
+Likelihood of the loss
+Recognition (if reasonably estimable)
+Disclosure
+Probable
+Accrue a liability and a loss (best estimate; if no best estimate, the minimum of the range)
+Accrue and disclose
+Reasonably possible
+No accrual
+Disclose the nature and an estimate (or say it cannot be estimated)
+Remote
+No accrual
+No disclosure (except guarantees)
+Gain contingency
+Never recognized before it is realized
+Disclose carefully, without misleading
+Subsequent events happen after the balance sheet date but before the statements are issued. If an event gives more information about a condition that already existed at year-end, the company adjusts the statements. If the condition arose after year-end, the company only discloses it. Figure F02-08 shows examples.
+Figure F02-08. Subsequent events: adjust for conditions that existed at year-end; disclose new ones.
+Finally, the notes begin with a summary of significant accounting policies, such as the inventory method and depreciation methods. The notes are part of the statements, not an extra.
+● IFRS CONTRAST   Provisions under IAS 37
+IFRS records a provision when a loss is more likely than not, a lower threshold than the U.S. 'probable'. When the estimate is a range, IFRS usually uses the midpoint; U.S. GAAP uses the best estimate or, if none, the minimum.
+FALSE-FRIEND ALERT   Reserve, provision, allowance
+Arabic مخصص can mean an allowance (a contra-asset), a provision (a liability) or even a reserve in equity (احتياطي). In U.S. GAAP answers, use allowance for contra-assets, accrued liability or loss contingency for liabilities, and never call either a reserve.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+right of setoff
+حق المقاصة
+droit de compensation
+loss contingency
+خسارة محتملة (التزام محتمل)
+perte éventuelle
+subsequent events
+الأحداث اللاحقة لتاريخ الميزانية
+événements postérieurs à la clôture
+English (exam term)
+العربية
+Français
+right of setoff
+حق المقاصة
+droit de compensation
+loss contingency
+خسارة محتملة (التزام محتمل)
+perte éventuelle
+subsequent events
+الأحداث اللاحقة لتاريخ الميزانية
+événements postérieurs à la clôture
+SECTION CHECK   Test yourself
+SC2-7  Lawyers say a loss from a lawsuit is reasonably possible and could be about $200,000. What does the company do under U.S. GAAP?
+A.	Disclose it in a note, with no accrual
+B.	Accrue a liability of $200,000
+C.	Do nothing
+D.	Accrue half the amount
+SC2-8  On February 5, before the statements are issued, a flood destroys a warehouse. The year ended on December 31. What does the company do?
+A.	Records the loss in the year just ended
+B.	Records the loss and discloses it
+C.	Discloses the event in a note
+D.	Does nothing until next year
+Answers and explanations are at the end of the chapter.
+2.5  Limitations and links to the other statements
+The balance sheet is useful, but it is not a valuation of the company. Most assets are at historical cost, not current value: Orontes's land and buildings are shown at what they cost years ago. Many amounts depend on estimates, such as the allowance for credit losses and useful lives.
+Important resources are missing. Internally developed brands, customer loyalty and a skilled workforce are not recorded, so the balance sheet usually shows much less than the market value of the company. Some obligations are only in the notes.
+Finally, the balance sheet shows one day. A company can improve its year-end picture, for example by delaying payments to suppliers for a few days. Readers therefore compare several dates and read the other statements too.
+The four statements are connected. Net income from the income statement increases retained earnings in the statement of changes in equity, and the closing retained earnings appear on the balance sheet. The net change in cash in the statement of cash flows explains the change in the balance-sheet cash. Figure F02-09 shows these links for Orontes.
+Figure F02-09. How the Orontes 2025 statements link to the balance sheet.
+Other comprehensive income works the same way. Orontes's OCI of $(1,125) does not go into retained earnings. It goes into accumulated other comprehensive income, which is $(1,125) on the balance sheet.
+EXAM TRAP   Book value is not market value
+Total stockholders' equity is a book amount. It is not what the company is worth, and it is not the market value of the shares.
+SECTION CHECK   Test yourself
+SC2-9  Orontes bought land in 2005 for $400,000. It is worth about $2 million today. What does the balance sheet show for the land?
+A.	$400,000, because land is at historical cost
+B.	$2,000,000, because the balance sheet shows current values
+C.	$1,200,000, the average
+D.	$400,000 plus depreciation
+SC2-10  Which amount on the statement of cash flows must equal an amount on the balance sheet?
+A.	Net income
+B.	Cash from operating activities
+C.	Cash at the end of the year
+D.	Dividends paid
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F02-10 brings the chapter together.
+Figure F02-10. Chapter 2 summary map: the key rule for each section.
+The balance sheet shows assets, liabilities and equity at one date. A classified balance sheet separates current from noncurrent items using one year or the operating cycle, whichever is longer, so users can judge liquidity and solvency. Debt that is due within a year, callable or due on demand is current, unless a waiver or long-term refinancing is in place before the statements are issued; IFRS looks only at rights at the reporting date. Probable, estimable losses are accrued and reasonably possible ones are disclosed, and events after year-end are adjusted only if the condition existed at year-end. The balance sheet relies on historical cost and estimates, omits many intangibles and shows one day, and it links to the other statements through retained earnings, AOCI and cash.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P2-01  Which question does the balance sheet help users answer MOST directly?
+A.	How profitable was the company this year?
+B.	How much cash did operations produce this year?
+C.	What is the market value of the company?
+D.	Can the company pay its debts as they fall due?
+P2-02  The ability of a company to take effective action to change the amounts and timing of cash flows is called:
+A.	liquidity.
+B.	financial flexibility.
+C.	solvency.
+D.	working capital.
+P2-03  Why do U.S. SEC registrants present a classified balance sheet?
+A.	So users can separate short-term resources and obligations from long-term ones
+B.	So assets are shown at fair value
+C.	So equity equals the market value of the shares
+D.	So the balance sheet can be prepared without notes
+P2-04  Which item is a noncurrent asset?
+A.	Prepaid rent for the next six months
+B.	Trading securities
+C.	Inventory
+D.	Cash surrender value of a life insurance policy
+P2-05  Use Figure F02-02. What is Orontes's working capital at December 31, 2025 (whole USD)?
+A.	2,908,475
+B.	9,908,100
+C.	10,064,100
+D.	10,308,100
+P2-06  Use Figure F02-02. What is Orontes's current ratio at December 31, 2025?
+A.	0.30
+B.	2.35
+C.	3.31
+D.	3.62
+P2-07  Early in 2026, Orontes pays $500,000 of accounts payable in cash. What happens to its working capital and its current ratio of 3.31?
+A.	Both fall
+B.	Working capital falls; the current ratio does not change
+C.	Working capital does not change; the current ratio rises to 3.62
+D.	Neither changes
+P2-08  A company with a current ratio of 0.8 borrows cash on a 90-day note. What is the effect on the current ratio?
+A.	It increases
+B.	It decreases
+C.	It does not change
+D.	It cannot be determined
+P2-09  At December 31, 2025, a company violates a covenant and its long-term loan becomes callable. On February 10, 2026, before the statements are issued, the lender waives its rights until June 2027. Under U.S. GAAP the loan is:
+A.	current, because the waiver came after year-end.
+B.	current, because the violation happened.
+C.	split: half current, half noncurrent.
+D.	noncurrent.
+P2-10  A bank loan is due on demand. The bank has never asked for repayment and the company does not expect it to. The loan is classified as:
+A.	noncurrent.
+B.	current.
+C.	noncurrent unless the bank demands payment.
+D.	equity.
+P2-11  At December 31, 2025, a company has a $5 million note due in April 2026. On February 1, 2026, before the statements are issued, it issues 10-year bonds and uses the cash to repay the note. Under U.S. GAAP the note is:
+A.	current, because the bonds were issued after year-end
+B.	noncurrent, because it was refinanced before issuance
+C.	current, because refinancing is never allowed
+D.	shown in equity
+P2-12  Use the facts in P2-11, but the company reports under IFRS. The note is classified as:
+A.	non-current.
+B.	non-current, if the bonds were issued before the reporting date or after it.
+C.	current.
+D.	equity.
+P2-13  A loan agreement lets the lender demand repayment if there is a 'material adverse change'. The company is healthy and acceleration is remote. The long-term loan is:
+A.	noncurrent.
+B.	current.
+C.	current, with a note.
+D.	noncurrent only under IFRS.
+P2-14  A loss from a lawsuit is probable. Lawyers estimate it at between $40,000 and $100,000, with no amount more likely than another. Under U.S. GAAP the company accrues:
+A.	$70,000
+B.	$100,000
+C.	nothing, and discloses the range
+D.	$40,000 and discloses the possible additional loss
+P2-15  On January 20, before the statements are issued, a customer that owed $80,000 at December 31 goes bankrupt. Its finances had been getting worse for months. What does the company do?
+A.	Adjusts the year-end allowance for credit losses
+B.	Discloses the event only
+C.	Records the loss next year
+D.	Does nothing
+P2-16  A company has a deferred tax asset that will reverse next year. On a U.S. GAAP balance sheet it is shown as:
+A.	a current asset.
+B.	a noncurrent asset.
+C.	a reduction of income taxes payable.
+D.	split between current and noncurrent.
+P2-17  Which item is NOT usually recorded on the balance sheet?
+A.	A brand the company bought
+B.	Goodwill from an acquisition
+C.	A brand the company developed itself
+D.	Equipment under a finance lease
+P2-18  A company delays paying its suppliers until January so that its December 31 balance sheet shows more cash. This illustrates which limitation?
+A.	The balance sheet uses historical cost
+B.	The balance sheet omits internally developed intangibles
+C.	The balance sheet relies on estimates
+D.	The balance sheet shows only one date
+P2-19  Orontes's total stockholders' equity at December 31, 2025 is $20,392,975. This amount is:
+A.	the market value of Orontes's shares
+B.	the cash the owners could take out today
+C.	the price a buyer would pay for Orontes
+D.	a book amount based mostly on historical cost
+P2-20  Orontes's retained earnings were $4,375,000 on January 1, 2025. Net income was $2,969,100, OCI was $(1,125), and dividends declared were $450,000. What are retained earnings at December 31, 2025 (whole USD)?
+A.	6,892,975
+B.	6,894,100
+C.	7,294,100
+D.	7,344,100
+P2-21  Company X owes Company Y $50,000, and Company Y owes Company X $30,000 on a separate contract. There is no legal right of setoff. How does Company X present these amounts?
+A.	A net payable of $20,000
+B.	A net receivable of $20,000
+C.	A receivable of $30,000 and a payable of $50,000
+D.	Only a note disclosure
+Case-style practice: Barada Wholesale's balance sheet
+Use Figure F02-11 for items C2-1 to C2-6. Barada's accounts are the ones you met in Chapter 1, after closing, in USD 000 at December 31, 2025. The statements were issued on March 1, 2026.
+Figure F02-11. Case exhibit: Barada Wholesale, balance sheet accounts and year-end memo (USD 000)
+Account / memo (USD 000)
+Balance / details
+Side
+Cash
+1,050
+debit
+Accounts receivable
+300
+debit
+Allowance for credit losses
+20
+credit
+Inventory
+420
+debit
+Prepaid rent
+24
+debit
+Land
+936
+debit
+Equipment
+4,200
+debit
+Accumulated depreciation
+900
+credit
+Accounts payable
+380
+credit
+Dividends payable
+50
+credit
+Notes payable (long-term)
+1,800
+credit
+Common stock
+600
+credit
+Additional paid-in capital
+1,900
+credit
+Retained earnings, December 31 (after closing)
+1,280
+credit
+M1
+Of the notes payable, 300 is an installment due on June 30, 2026. The rest is due in 2029.
+M2
+At December 31, Barada broke a debt-to-equity covenant on the note. On January 20, 2026, before the statements were issued, the bank waived its right to demand repayment until April 2027. Barada expects to meet the covenant from now on.
+M3
+A former employee has sued Barada. Its lawyers think a loss of about 60 is reasonably possible, but not probable.
+M4
+On February 10, 2026, before the statements were issued, a fire destroyed inventory that cost 70.
+C2-1  Classify each account. (On the exam screen you would drag each account into a box.)
+Categories: Current asset · Noncurrent asset · Current liability · Noncurrent liability · Equity
+Account
+Category
+Prepaid rent
+Land
+Allowance for credit losses
+Dividends payable
+Additional paid-in capital
+C2-2  Enter Barada's total current assets.
+Answer: ____________
+C2-3  Enter Barada's total current liabilities.
+Answer: ____________
+C2-4  Enter Barada's working capital.
+Answer: ____________
+C2-5  How does Barada report the February fire (M4)? [select]
+Options: disclose it in a note only   |   record a loss of 70 in 2025   |   record a loss and disclose it   |   ignore it
+C2-6  How does Barada report the lawsuit (M3)? [select]
+Options: disclose it; no accrual   |   accrue a liability of 60   |   accrue 30 and disclose the rest   |   no accrual and no disclosure
+Written task
+W2  In four to six sentences, explain to Barada's lender how Barada classifies its note payable at December 31, 2025, and how it reports the lawsuit and the fire. Use these words: current portion, covenant, waiver, reasonably possible, subsequent event.
+Answers and explanations
+Section checks
+SC2-1  Answer A. Liquidity is the ability to pay short-term obligations as they fall due.
+B is wrong. Solvency is about paying all debts over the long term.
+C is wrong. Profitability is measured on the income statement, not by short-term payment ability.
+D is wrong. Financial flexibility is the ability to raise cash or change plans, not to pay current bills.
+SC2-2  Answer C. A balance sheet is at one date, not for a period.
+A is wrong. 'For the year ended' is used for the income statement, not the balance sheet.
+B is wrong. A period heading describes a flow statement.
+D is wrong. The balance sheet needs a specific date.
+SC2-3  Answer B. Current means one year or the operating cycle, whichever is longer.
+A is wrong. The one-year test applies only when the operating cycle is shorter.
+C is wrong. Inventory in the normal cycle is not split.
+D is wrong. The whole cycle counts as current.
+SC2-4  Answer B. Current assets of $8,380,000 minus current liabilities of $3,570,000.
+A is wrong. This subtracts total liabilities, not current liabilities.
+C is wrong. These are current assets only; current liabilities are not deducted.
+D is wrong. This is the 2025 amount.
+SC2-5  Answer B. Principal due within one year is the current portion of long-term debt.
+A is wrong. The part due within a year must be moved to current liabilities.
+C is wrong. Cash is paid only when the installment is paid.
+D is wrong. The current portion is presented on the balance sheet, not only disclosed.
+SC2-6  Answer D. IFRS looks only at the right to defer that existed at the reporting date.
+A is wrong. This is the U.S. GAAP answer; under IFRS a waiver after the reporting date does not count.
+B is wrong. Expectations do not matter; the right at the reporting date does.
+C is wrong. The whole loan was payable on demand at the reporting date.
+SC2-7  Answer A. Reasonably possible losses are disclosed, not accrued.
+B is wrong. Accrual needs a probable loss.
+C is wrong. Reasonably possible losses must be disclosed.
+D is wrong. There is no partial accrual rule.
+SC2-8  Answer C. The flood happened after year-end, so it is a nonrecognized event.
+A is wrong. Only conditions that existed at year-end are recorded.
+B is wrong. No entry is made for a condition that arose after year-end.
+D is wrong. A material event must be disclosed so the statements are not misleading.
+SC2-9  Answer A. Most assets, including land, are at historical cost.
+B is wrong. The balance sheet is not a valuation; land stays at cost.
+C is wrong. There is no averaging of cost and value.
+D is wrong. Land is not depreciated, and depreciation would reduce, not increase, its carrying amount.
+SC2-10  Answer C. The ending cash on the statement of cash flows equals cash on the balance sheet.
+A is wrong. Net income links to retained earnings through the statement of changes in equity.
+B is wrong. Operating cash flow is only one part of the change in cash.
+D is wrong. Dividends paid are a financing outflow, not a balance sheet amount.
+Your turn
+Item
+Answer
+Cash surrender value
+Noncurrent asset: it is not expected to be turned into cash in the operating cycle.
+Loan due on demand
+Current liability: debt due on demand is current, whatever the bank's expected behaviour.
+Deferred tax asset
+Noncurrent asset: all deferred taxes are noncurrent.
+Customer deposits
+Current liability (contract liability): it will be settled by delivering goods within a year.
+Multiple-choice questions
+P2-01  Answer D. The balance sheet shows resources and obligations for judging liquidity and solvency.
+A is wrong. Profitability is shown on the income statement.
+B is wrong. Operating cash flow is on the statement of cash flows.
+C is wrong. The balance sheet does not show market value.
+P2-02  Answer B. Financial flexibility is the ability to respond to unexpected needs and opportunities.
+A is wrong. Liquidity is about meeting short-term obligations.
+C is wrong. Solvency is about meeting all obligations over time.
+D is wrong. Working capital is a measure, not an ability.
+P2-03  Answer A. Classification shows the short-term position clearly.
+B is wrong. Classification does not change measurement.
+C is wrong. Equity is a book amount.
+D is wrong. Notes are always part of the statements.
+P2-04  Answer D. Cash surrender value is excluded from current assets.
+A is wrong. Prepaid rent for six months will be used up within a year.
+B is wrong. Trading securities are held for sale soon.
+C is wrong. Inventory is part of the operating cycle.
+P2-05  Answer B. $14,188,100 − $4,280,000 = $9,908,100.
+A is wrong. This subtracts total liabilities.
+C is wrong. This adds back the allowance; receivables are included net.
+D is wrong. This leaves the current portion of long-term debt out of current liabilities.
+P2-06  Answer C. $14,188,100 ÷ $4,280,000.
+A is wrong. This divides current liabilities by current assets.
+B is wrong. This is the 2024 ratio.
+D is wrong. This is the ratio after a payment that has not happened.
+P2-07  Answer C. Current assets and current liabilities fall by the same amount; with a ratio above 1, the ratio rises.
+A is wrong. Working capital is unchanged because both sides fall equally.
+B is wrong. Working capital is the difference, which does not change; the ratio does.
+D is wrong. The ratio changes when both terms fall by the same amount.
+P2-08  Answer A. Adding the same amount to both terms moves a ratio below 1 toward 1.
+B is wrong. A ratio falls only if it starts above 1.
+C is wrong. Equal changes leave working capital, not the ratio, unchanged.
+D is wrong. The starting ratio tells us the direction.
+P2-09  Answer D. A waiver for more than one year obtained before issuance keeps the debt noncurrent.
+A is wrong. This is the IFRS answer.
+B is wrong. The waiver removes the lender's right to demand payment.
+C is wrong. The loan is classified as a whole.
+P2-10  Answer B. Debt due on demand is current regardless of expectations.
+A is wrong. The lender's legal right, not expected behaviour, decides.
+C is wrong. The right to demand payment makes it current now.
+D is wrong. A loan is a liability.
+P2-11  Answer B. Intent plus demonstrated ability before issuance allows noncurrent classification.
+A is wrong. U.S. GAAP counts refinancing up to the issuance date.
+C is wrong. Refinancing is allowed with intent and demonstrated ability.
+D is wrong. The note is debt.
+P2-12  Answer C. IFRS needs the right to defer at the reporting date; refinancing after it does not count.
+A is wrong. This applies the U.S. GAAP rule.
+B is wrong. Only an agreement in place at the reporting date counts.
+D is wrong. The note is a liability.
+P2-13  Answer A. A subjective acceleration clause makes debt current only if acceleration is probable.
+B is wrong. The clause alone does not make the debt current.
+C is wrong. Classification follows probability, not the clause.
+D is wrong. U.S. GAAP also keeps it noncurrent when acceleration is remote.
+P2-14  Answer D. With no best estimate in the range, U.S. GAAP accrues the minimum.
+A is wrong. The midpoint is the IFRS approach.
+B is wrong. The maximum is not required.
+C is wrong. A probable, estimable loss must be accrued.
+P2-15  Answer A. The condition, the customer's weak finances, existed at year-end, so it is a recognized event.
+B is wrong. Disclosure only is for conditions that arose after year-end.
+C is wrong. The loss belongs to the year in which the condition existed.
+D is wrong. A recognized event must adjust the statements.
+P2-16  Answer B. All deferred tax assets and liabilities are noncurrent.
+A is wrong. The old current/noncurrent split was removed.
+C is wrong. It cannot be offset against taxes payable without a right of setoff.
+D is wrong. No split is allowed.
+P2-17  Answer C. Internally developed intangibles are not recognized as assets.
+A is wrong. A purchased brand is recorded at its cost.
+B is wrong. Acquired goodwill is recorded.
+D is wrong. A finance lease gives a right-of-use asset.
+P2-18  Answer D. Year-end amounts can be managed because the statement shows a single day.
+A is wrong. Cash and payables are not measured at historical cost in this sense.
+B is wrong. No intangible is involved.
+C is wrong. No estimate is involved.
+P2-19  Answer D. Equity is assets minus liabilities as recorded.
+A is wrong. Market value depends on share prices, not on book amounts.
+B is wrong. Equity is not a cash amount.
+C is wrong. A buyer would value the future cash flows.
+P2-20  Answer B. Opening + net income − dividends declared. OCI goes to AOCI, not retained earnings.
+A is wrong. This puts OCI into retained earnings.
+C is wrong. This deducts only the dividends paid, not those declared.
+D is wrong. This leaves out the dividends.
+P2-21  Answer C. Without a right of setoff, assets and liabilities are shown gross.
+A is wrong. Netting needs a legal right of setoff.
+B is wrong. Netting needs a right of setoff, and the sign is also wrong.
+D is wrong. Both amounts are recognized on the balance sheet.
+Case-style set: Barada Wholesale's balance sheet
+C2-1
+Account
+Category
+Prepaid rent
+Current asset
+Land
+Noncurrent asset
+Allowance for credit losses
+Current asset
+Dividends payable
+Current liability
+Additional paid-in capital
+Equity
+Contra accounts stay with the asset they reduce. The note is split between its current installment and the rest.
+C2-2  Answer: 1,774.
+1,794 is wrong: this answer adds the allowance instead of subtracting it.
+2,710 is wrong: this answer includes land in current assets.
+1,704 is wrong: this answer deducts the February fire loss, which is a nonrecognized event.
+C2-3  Answer: 730.
+430 is wrong: this answer leaves the June installment in noncurrent liabilities.
+2,230 is wrong: this answer treats the whole note as current despite the waiver.
+680 is wrong: this answer treats dividends payable as equity.
+C2-4  Answer: 1,044.
+1,344 is wrong: this answer omits the current portion of the note.
+(456) is wrong: this answer makes the whole note current.
+C2-5  Answer: disclose it in a note only.
+record a loss of 70 in 2025 is wrong: this answer treats a condition that arose after year-end as a recognized event.
+record a loss and disclose it is wrong: this answer records a nonrecognized event.
+ignore it is wrong: this answer a material nonrecognized event must be disclosed.
+C2-6  Answer: disclose it; no accrual.
+accrue a liability of 60 is wrong: this answer accrues a loss that is only reasonably possible.
+accrue 30 and disclose the rest is wrong: this answer there is no partial accrual rule.
+no accrual and no disclosure is wrong: this answer treats a reasonably possible loss as remote.
+Written task: model answer
+Barada's note payable of 1,800 is split: the 300 installment due in June 2026 is the current portion and is a current liability. Barada broke a covenant at year-end, which made the note callable. However, before the statements were issued the bank gave a waiver until April 2027, so under U.S. GAAP the remaining 1,500 stays noncurrent. The lawsuit loss is only reasonably possible, so Barada discloses it in a note without an accrual. The February fire is a subsequent event that arose after year-end, so Barada discloses it but does not change the 2025 figures.
+A good answer: identifies the current portion of the note; explains the effect of the covenant violation and the waiver; keeps the rest of the note noncurrent under U.S. GAAP; discloses the reasonably possible loss without accrual; treats the fire as a nonrecognized subsequent event.
+PART I — FOUNDATIONS AND THE FOUR FINANCIAL STATEMENTS

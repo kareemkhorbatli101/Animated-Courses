@@ -1,0 +1,757 @@
+Chapter 16
+Consolidated Financial Statements
+القوائم المالية الموحدة
+In Chapter 9, Orontes held 30% of Jordan Glass and used the equity method. Suppose that on January 1, 2027, Orontes buys 80% of Levant Distribution LLC, a food distributor in Jordan and Lebanon. Now Orontes controls another company, and it must present the two companies as one.
+All the 2027 and 2028 amounts in this chapter are examples. Figure F16-01 shows how the level of influence decides the accounting method.
+Figure F16-01. Chapter 16 roadmap: influence decides the method, from fair value to consolidation.
+Learning objectives
+LOS
+After this chapter you can …
+Level
+Depth here
+A.1.h
+Define consolidated financial statements and measure goodwill and noncontrolling interest at acquisition.
+B
+Full treatment
+A.1.i
+Distinguish the variable interest entity model from the voting interest model.
+B
+Full treatment
+A.1.j
+Explain when full consolidation, proportionate consolidation and the equity method apply.
+B
+Full treatment
+A.1.k
+Identify the intercompany balances and transactions to eliminate.
+B
+Full treatment
+A.2.ff
+Contrast ASC 810 with IFRS 10 and IFRS 11.
+A
+Preview (full in Chapter 17)
+LOS codes follow the ICMA Learning Outcome Statements (effective September 1, 2024). The objectives are paraphrased. Level = the minimum depth this book targets; the exam may test any Section A outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+consolidated financial statements
+القوائم المالية الموحدة
+états financiers consolidés
+parent
+المنشأة الأم
+société mère
+subsidiary
+المنشأة التابعة
+filiale
+variable interest entity
+منشأة ذات حصص متغيرة
+entité à intérêts variables
+primary beneficiary
+المستفيد الرئيسي
+bénéficiaire principal
+noncontrolling interest
+الحصص غير المسيطرة
+participations ne donnant pas le contrôle
+intercompany transaction
+المعاملة داخل المجموعة
+transaction intragroupe
+unrealized profit
+الربح غير المحقق
+profit latent
+WHAT YOU ALREADY KNOW   What you already know
+IFRS readers know IFRS 10: one control model, and a choice between full and partial goodwill. U.S. GAAP uses two control models and allows only full goodwill. Many exam traps come from these two differences.
+16.1  What consolidated statements are
+Consolidated financial statements present a parent and its subsidiaries as a single economic entity. They are prepared mainly for the parent's shareholders and creditors, who need to see all the resources the group controls and all its obligations.
+A company consolidates another entity when it has a controlling financial interest in it. Consolidation adds all of the subsidiary's assets, liabilities, revenues and expenses to the parent's, line by line, even when the parent owns less than all of its shares.
+The part of a subsidiary's equity that the parent does not own is the noncontrolling interest (NCI). It is shown within consolidated equity, separately from the parent's equity. Net income and comprehensive income are split between the parent and NCI on the face of the statements.
+FALSE-FRIEND ALERT   Minority interest, حقوق الأقلية, intérêts minoritaires
+These older terms still appear in many MENA and French texts. The exam uses noncontrolling interest (الحصص غير المسيطرة, participations ne donnant pas le contrôle). It is equity, never a liability.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+consolidated financial statements
+القوائم المالية الموحدة
+états financiers consolidés
+parent
+المنشأة الأم
+société mère
+subsidiary
+المنشأة التابعة
+filiale
+controlling financial interest
+الحصة المالية المسيطرة
+participation financière conférant le contrôle
+noncontrolling interest
+الحصص غير المسيطرة
+participations ne donnant pas le contrôle
+English (exam term)
+العربية
+Français
+consolidated financial statements
+القوائم المالية الموحدة
+états financiers consolidés
+parent
+المنشأة الأم
+société mère
+subsidiary
+المنشأة التابعة
+filiale
+controlling financial interest
+الحصة المالية المسيطرة
+participation financière conférant le contrôle
+noncontrolling interest
+الحصص غير المسيطرة
+participations ne donnant pas le contrôle
+SECTION CHECK   Test yourself
+SC16-1  What do consolidated financial statements present?
+A.	Only the parent's own assets and liabilities
+B.	The parent's share of each subsidiary's assets
+C.	A parent and its subsidiaries as a single economic entity
+D.	All companies in which the parent holds any shares
+SC16-2  Where does Orontes present the noncontrolling interest in Levant?
+A.	As a noncurrent liability
+B.	Between liabilities and equity, as 'minority interest'
+C.	Only in the notes
+D.	In consolidated equity, separately from the parent's equity
+Answers and explanations are at the end of the chapter.
+16.2  Two control models: VIE first, then votes
+U.S. GAAP has two ways to identify control, and they are applied in order. First, the company asks whether the other entity is a variable interest entity (VIE). An entity is a VIE if its equity at risk is too small to finance its activities, or if its equity holders do not have the power to direct it or do not bear its losses and returns.
+A VIE is consolidated by its primary beneficiary: the party that has both the power to direct the activities that most affect the VIE's performance and the obligation to absorb losses, or the right to receive benefits, that could be significant. Both conditions are required.
+If the entity is not a VIE, the voting interest model applies. A company that holds more than 50% of the votes generally controls the entity, unless other owners have substantive participating rights, such as the right to approve budgets. Figure F16-02 shows the order.
+Figure F16-02. Decision chart: test the VIE model first, then the voting interest model.
+WORKED EXAMPLE   Worked example: Orontes's cold-chain entity
+Step 1. Suppose a logistics entrepreneur owns all the shares of Orontes Cold-Chain Logistics SPV. The shares cost $100,000.
+Step 2. Banks lend $9,900,000, guaranteed by Orontes. Equity is only 1% of the funding, and Orontes decides routes and customers: the SPV is a VIE.
+Step 3. Orontes has the power and bears the losses through its guarantee, so it is the primary beneficiary.
+Check. Orontes consolidates the SPV although it owns no shares. The entrepreneur's $100,000 is NCI. Figure F16-03 sets out the analysis.
+Figure F16-03. Suppose: is the cold-chain SPV a VIE, and who consolidates it?
+Suppose: Orontes Cold-Chain Logistics SPV, 2027
+Facts (whole USD)
+Conclusion
+Is equity at risk enough to finance the activities?
+No: third-party equity is 100,000, only 1% of total funding
+Suggests a VIE
+Do the equity holders direct the key activities?
+No: Orontes decides routes and customers
+VIE
+Who absorbs losses?
+Orontes guarantees the 9,900,000 of debt
+Orontes
+Primary beneficiary?
+Orontes has both power and exposure to significant losses
+Orontes consolidates
+NCI in consolidation
+The third party's equity of 100,000
+Shown as NCI
+EXAM TRAP   Control traps
+Test the VIE model before counting votes.
+The primary beneficiary needs power AND significant economics, not one of them.
+Under U.S. GAAP, less than half of the votes is not control, even if the other owners are widely spread.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+variable interest entity
+منشأة ذات حصص متغيرة
+entité à intérêts variables
+primary beneficiary
+المستفيد الرئيسي
+bénéficiaire principal
+English (exam term)
+العربية
+Français
+variable interest entity
+منشأة ذات حصص متغيرة
+entité à intérêts variables
+primary beneficiary
+المستفيد الرئيسي
+bénéficiaire principal
+SECTION CHECK   Test yourself
+SC16-3  Under U.S. GAAP, which test does a company apply first to decide whether to consolidate an entity?
+A.	Whether the entity is a variable interest entity
+B.	Whether it holds more than 50% of the votes
+C.	Whether it has significant influence
+D.	Whether the entity is profitable
+SC16-4  Use Figure F16-03. Why does Orontes consolidate the cold-chain SPV?
+A.	It owns more than 50% of the shares
+B.	It has both the power to direct the SPV and exposure to its losses through the guarantee
+C.	It lends money to the SPV
+D.	The SPV is profitable
+Answers and explanations are at the end of the chapter.
+16.3  Full consolidation, proportionate consolidation and the equity method
+Full consolidation is used for every entity the company controls. The subsidiary's items are added in full, and NCI shows the part the parent does not own.
+The equity method, which the LOS call 'equity consolidation', is used when the investor has significant influence, usually 20% to 50% of the votes, and for most joint ventures. The investment is one line on the balance sheet, and the investor's share of income is one line on the income statement, as for Jordan Glass in Chapter 9.
+Proportionate consolidation adds only the investor's share of each asset, liability, revenue and expense. U.S. GAAP generally does not allow it; it survives only for some construction and oil and gas interests. Figure F16-04 compares the three methods.
+Figure F16-04. Full consolidation, equity method and proportionate consolidation
+Method
+When used (U.S. GAAP)
+What appears
+Intercompany profit removed
+Orontes
+Full consolidation
+Control (subsidiary or VIE)
+100% of each asset, liability, revenue and expense; NCI shown
+100% of intercompany items
+Levant (80%)
+Equity method
+Significant influence (20%–50%); joint ventures
+One line: investment and share of income
+Only the investor's share: 30% × 40,000 = 12,000
+Jordan Glass (30%)
+Proportionate consolidation
+Rare in U.S. GAAP: some construction and oil and gas interests
+Investor's share of each line
+Investor's share
+Not used by Orontes
+The methods also remove intercompany profit differently. When Jordan Glass sells bottles to Orontes, the equity method removes only Orontes's 30% share of the unrealized profit: $12,000. A controlled subsidiary's intercompany profit is removed in full.
+EXAM TRAP   'Equity consolidation' is the equity method
+The LOS phrase 'equity consolidation' means the equity method: one line, no NCI. It is not full consolidation. Also, joint ventures use the equity method, not proportionate consolidation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+proportionate consolidation
+التوحيد التناسبي
+intégration proportionnelle
+joint venture
+المشروع المشترك
+coentreprise
+equity method
+طريقة حقوق الملكية
+mise en équivalence
+English (exam term)
+العربية
+Français
+proportionate consolidation
+التوحيد التناسبي
+intégration proportionnelle
+joint venture
+المشروع المشترك
+coentreprise
+equity method
+طريقة حقوق الملكية
+mise en équivalence
+SECTION CHECK   Test yourself
+SC16-5  Orontes holds 30% of Jordan Glass and has significant influence. Which method does it use?
+A.	Full consolidation
+B.	Proportionate consolidation
+C.	Fair value through net income
+D.	The equity method
+SC16-6  Use Figure F16-04. How much unrealized profit on bottles bought from Jordan Glass does Orontes remove (whole USD)?
+A.	0
+B.	12,000
+C.	40,000
+D.	80,000
+Answers and explanations are at the end of the chapter.
+16.4  The acquisition: goodwill and noncontrolling interest
+When a company gains control of a business, it uses the acquisition method. It measures the subsidiary's identifiable assets and liabilities at fair value, and it measures NCI at fair value too. Goodwill is the price paid plus the fair value of NCI, minus the fair value of the net assets.
+Orontes pays $8,000,000 for 80% of Levant, and the other 20% is worth $1,900,000. Levant's net assets are $7,300,000 on its books, but its equipment is worth $1,200,000 more, so the net assets at fair value are $8,500,000. Figure F16-05 shows that goodwill is $1,400,000.
+Figure F16-05. Goodwill at acquisition: price plus NCI fair value minus net assets at fair value.
+WORKED EXAMPLE   Worked example: the acquisition-date elimination
+Step 1. Remove Levant's equity of $7,300,000: it is not owned by outsiders to the group, except through NCI.
+Step 2. Add the equipment step-up of $1,200,000 and goodwill of $1,400,000.
+Step 3. Remove Orontes's investment of $8,000,000 and record NCI of $1,900,000 in equity.
+Check. Debits and credits both equal $9,900,000. Figure F16-06 shows the entry.
+Figure F16-06. Suppose: elimination entry at the acquisition of Levant
+Consolidation worksheet, January 1, 2027 (whole USD)
+Debit
+Credit
+Levant's equity (book value)
+7,300,000
+Property, plant and equipment (fair value step-up)
+1,200,000
+Goodwill
+1,400,000
+Investment in Levant (Orontes's books)
+8,000,000
+Noncontrolling interest (equity)
+1,900,000
+Totals
+9,900,000
+9,900,000
+After the acquisition, if Orontes buys or sells some Levant shares but keeps control, the change is an equity transaction: no gain or loss is recognized. If Orontes loses control, it removes Levant from the consolidation and remeasures any interest it keeps at fair value.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+acquisition method
+طريقة الاستحواذ
+méthode de l'acquisition
+goodwill
+الشهرة
+goodwill (écart d'acquisition)
+English (exam term)
+العربية
+Français
+acquisition method
+طريقة الاستحواذ
+méthode de l'acquisition
+goodwill
+الشهرة
+goodwill (écart d'acquisition)
+SECTION CHECK   Test yourself
+SC16-7  Use Figure F16-05. What goodwill does Orontes recognize under U.S. GAAP (whole USD)?
+A.	1,200,000
+B.	1,400,000
+C.	1,900,000
+D.	8,500,000
+SC16-8  In 2028 Orontes buys another 10% of Levant from the NCI holders and keeps control. It records:
+A.	a gain or loss in net income
+B.	an equity transaction, with no gain or loss
+C.	new goodwill
+D.	a remeasurement of Levant's assets to fair value
+Answers and explanations are at the end of the chapter.
+16.5  Eliminating intercompany balances and transactions
+A group cannot sell to itself, owe money to itself or earn income from itself. Every intercompany transaction is therefore eliminated in full, whatever the percentage owned: sales and cost of sales, receivables and payables, loans and interest, and dividends.
+Unrealized profit on goods still held inside the group is also removed from inventory and income until the goods are sold to outsiders. In a downstream sale the parent earned the profit, so the whole elimination reduces the parent's share. In an upstream sale the subsidiary earned it, so NCI bears its share. Figure F16-07 shows both directions.
+Figure F16-07. Downstream and upstream sales between Orontes and Levant.
+When one group company sells equipment to another, the gain is eliminated and the asset returns to its original cost basis. The buyer's extra depreciation on the gain is reversed each year. Figure F16-08 lists all of Orontes's 2027 eliminations for Levant.
+Figure F16-08. Suppose: Orontes's 2027 intercompany eliminations for Levant
+Suppose: Levant items, 2027 (whole USD)
+Eliminate
+Result
+Who bears it
+Intercompany sales and cost of sales
+Remove 750,000 of sales and cost of sales
+Revenue and expenses fall; no profit effect
+—
+Downstream unrealized profit (30% unsold)
+60,000 from inventory and profit
+Inventory at the group's cost
+Orontes
+Upstream unrealized profit (40% unsold)
+25,000 from inventory and profit
+Inventory at the group's cost
+Orontes 20,000, NCI 5,000
+Intercompany receivable and payable
+120,000 from both
+The group cannot owe itself
+—
+Truck sold for 90,000 (carrying 60,000)
+Gain 30,000; extra depreciation 6,000 a year
+Truck back to its original cost basis
+Orontes
+Loan of 1,000,000 at 6%
+Loan and interest of 60,000
+No debt or interest inside the group
+—
+Dividend of 100,000
+Orontes's dividend income 80,000
+NCI falls by 20,000
+NCI
+YOUR TURN   NCI at the end of 2027
+Figure F16-09 starts the NCI roll-forward for Levant. Complete the five blanks. Answers are at the end of the chapter.
+Figure F16-09. Suppose: NCI roll-forward for Levant, 2027 (complete the blanks)
+Suppose: NCI in Levant, 2027 (whole USD)
+Amount
+NCI at January 1, 2027 (fair value)
+1,900,000
+Levant's 2027 net income
+900,000
+Less: depreciation on the PP&E step-up (1,200,000 ÷ 10 years)
+(120,000)
+Less: upstream unrealized profit
+________
+Adjusted net income of Levant
+________
+NCI share (20%)
+________
+Less: dividends paid to NCI
+________
+NCI at December 31, 2027
+________
+EXAM TRAP   Elimination traps
+Eliminate intercompany items in full, not only the parent's share.
+Downstream profit reduces only the parent's share; upstream profit is shared with NCI.
+For an equity-method investee, remove only the investor's share of the profit.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+intercompany transaction
+المعاملة داخل المجموعة
+transaction intragroupe
+unrealized profit
+الربح غير المحقق
+profit latent
+downstream sale
+البيع من الأم إلى التابعة
+vente descendante
+upstream sale
+البيع من التابعة إلى الأم
+vente ascendante
+English (exam term)
+العربية
+Français
+intercompany transaction
+المعاملة داخل المجموعة
+transaction intragroupe
+unrealized profit
+الربح غير المحقق
+profit latent
+downstream sale
+البيع من الأم إلى التابعة
+vente descendante
+upstream sale
+البيع من التابعة إلى الأم
+vente ascendante
+SECTION CHECK   Test yourself
+SC16-9  Use Figure F16-08. How much downstream unrealized profit does Orontes eliminate (whole USD)?
+A.	48,000
+B.	60,000
+C.	200,000
+D.	500,000
+SC16-10  Use Figure F16-07. How much of the upstream unrealized profit reduces NCI (whole USD)?
+A.	0
+B.	5,000
+C.	20,000
+D.	25,000
+Answers and explanations are at the end of the chapter.
+16.6  IFRS differences and what is changing
+IFRS 10 uses one control model: an investor controls an entity if it has power over it, exposure to variable returns, and the ability to use its power to affect those returns. There is no separate VIE model, and an investor can have de facto control with less than half of the votes.
+IFRS 3 lets a company measure NCI either at fair value or at its share of net assets, which gives partial goodwill: for Levant, $1,200,000 instead of $1,400,000. Under IFRS 11, joint ventures use the equity method and joint operations recognize their own share of assets and liabilities. Figure F16-10 lists the differences.
+Figure F16-10. Consolidation: U.S. GAAP and IFRS
+Topic
+U.S. GAAP (ASC 810, 805)
+IFRS (IFRS 10, 3, 11)
+Control model
+Two: VIE model first, then voting interest
+One: power, variable returns and the link between them
+Control below 50% of votes
+Not through voting alone (unless a VIE)
+Possible: de facto control
+Measuring NCI
+Fair value (full goodwill)
+Fair value or share of net assets (partial goodwill), deal by deal
+Joint arrangements
+Joint ventures: equity method
+Joint ventures: equity method; joint operations: own share of assets and liabilities
+Group accounting policies
+No general uniformity rule
+Uniform policies required
+Investment-entity subsidiaries in a parent's statements
+Parent keeps their fair value accounting
+A non-investment-entity parent consolidates them
+WATCH: NOT YET TESTABLE   Consolidation: not yet testable
+ASU 2025-03 changes how to identify the acquirer when the acquired company is a VIE; it is not testable before about January 2028. In January 2026 the FASB began research on bringing the VIE and voting models closer together. That is a proposal only. ASU 2023-05, on joint venture formations, affects only the joint venture's own statements.
+SECTION CHECK   Test yourself
+SC16-11  An IFRS company measures NCI at its share of the subsidiary's net assets. For Levant, goodwill would be (whole USD):
+A.	0
+B.	1,200,000
+C.	1,400,000
+D.	1,700,000
+SC16-12  An investor holds 45% of the votes; the other 55% are spread among thousands of small shareholders. Under U.S. GAAP (not a VIE), the investor:
+A.	consolidates because it has de facto control
+B.	uses proportionate consolidation
+C.	does not consolidate; it uses the equity method
+D.	measures the investment at fair value
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F16-11 brings the chapter together.
+Figure F16-11. Chapter 16 summary map: the key rule for each section.
+Consolidated statements present a parent and its subsidiaries as one economic entity. A company first tests whether an entity is a VIE and consolidates it if it is the primary beneficiary; otherwise it consolidates when it holds more than 50% of the votes. Controlled entities are fully consolidated; significant influence and joint ventures use the equity method; proportionate consolidation is rare. At acquisition, NCI is measured at fair value, and goodwill equals the price plus NCI minus net assets at fair value. All intercompany balances and transactions are eliminated in full, and upstream unrealized profit is shared with NCI.
+Practice
+Answer the multiple-choice questions first. Then try the case-style set and the written task. The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P16-01  A parent owns 80% of a subsidiary. What part of the subsidiary's revenue appears in the consolidated income statement?
+A.	80%
+B.	20%
+C.	None; only the parent's share of net income
+D.	100%
+P16-02  How is consolidated net income presented under U.S. GAAP?
+A.	Only the parent's share is shown
+B.	NCI's share is shown as an expense
+C.	In total, then split between the parent and NCI on the face
+D.	NCI's share is shown only in the notes
+P16-03  A parent pays $5,000,000 for 70% of a company. NCI is worth $2,000,000, and net assets at fair value are $6,500,000. What is goodwill under U.S. GAAP?
+A.	$0
+B.	$450,000
+C.	$500,000
+D.	$1,500,000
+P16-04  After an acquisition, the subsidiary has losses and NCI would become negative. Under U.S. GAAP:
+A.	losses are still attributed to NCI, even if NCI becomes negative
+B.	all losses go to the parent once NCI reaches zero
+C.	NCI is reclassified as a liability
+D.	the parent stops consolidating
+P16-05  Which feature suggests that an entity is a VIE?
+A.	It has many shareholders
+B.	Its equity at risk is too small to finance its activities without extra support
+C.	It pays dividends
+D.	Its shares are listed
+P16-06  A bank lends to a VIE and bears large losses if it fails, but has no power over its activities. The bank:
+A.	is the primary beneficiary because it bears the losses
+B.	must use the equity method
+C.	is not the primary beneficiary
+D.	must use proportionate consolidation
+P16-07  A company holds 60% of the votes, but a 40% owner must approve the annual budget and key hires. Under the voting model:
+A.	the 60% holder controls
+B.	the 40% owner controls
+C.	both consolidate
+D.	the 60% holder does not have control, because the other owner has substantive participating rights
+P16-08  Two companies each hold 50% of a joint venture and share control. Under U.S. GAAP, each uses:
+A.	the equity method
+B.	proportionate consolidation
+C.	full consolidation
+D.	fair value
+P16-09  In which case does U.S. GAAP allow proportionate consolidation?
+A.	A 50% joint venture in food distribution
+B.	A 30% associate
+C.	An undivided interest in an oil and gas property
+D.	An 80% subsidiary
+P16-10  Under the equity method, the investor's investment account increases by:
+A.	all of the investee's net income
+B.	dividends received
+C.	the investee's revenue
+D.	its share of the investee's net income
+P16-11  Use Figure F16-08. How much intercompany sales revenue is removed in consolidation (whole USD)?
+A.	0
+B.	85,000
+C.	500,000
+D.	750,000
+P16-12  Use Figure F16-08. What happens to the truck gain in the 2027 consolidated statements?
+A.	The gain stays because it was a real sale
+B.	The 30,000 gain is removed, and 6,000 of extra depreciation is reversed
+C.	Only 80% of the gain is removed
+D.	The gain moves to OCI
+P16-13  Which item is NOT eliminated in consolidation?
+A.	Levant's payable to Orontes
+B.	Interest on Orontes's loan to Levant
+C.	Dividends Levant pays to Orontes
+D.	Sales from Levant to a supermarket outside the group
+P16-14  Use Figure F16-09. What is Levant's net income attributable to NCI for 2027 (whole USD)?
+A.	20,000
+B.	151,000
+C.	180,000
+D.	755,000
+P16-15  A parent sells inventory to its 60%-owned subsidiary at a profit of $10,000; all of it is still unsold. How much of the elimination reduces NCI?
+A.	$0
+B.	$4,000
+C.	$6,000
+D.	$10,000
+P16-16  Under IFRS 11, how does a party account for a joint operation?
+A.	It uses the equity method
+B.	It recognizes its own share of the assets, liabilities, revenues and expenses
+C.	It fully consolidates
+D.	It measures the interest at fair value
+P16-17  Orontes sells half of its Levant shares and loses control, keeping a 40% stake. It:
+A.	records an equity transaction with no gain or loss
+B.	keeps consolidating Levant
+C.	measures the 40% at its old carrying amount with no gain or loss
+D.	deconsolidates Levant and measures the 40% at fair value, with a gain or loss in net income
+P16-18  Under U.S. GAAP, which party must reassess whether it is a VIE's primary beneficiary every reporting period?
+A.	Every party with a variable interest
+B.	Only the largest lender
+C.	Only the equity holders
+D.	No one; it is decided once
+Case-style practice: Barada buys Tadmor Retail
+Use Figure F16-12 for items C16-1 to C16-6. Suppose Barada buys 75% of Tadmor Retail LLC on January 1, 2028. Amounts are in USD 000.
+Figure F16-12. Case exhibit: Barada Wholesale and Tadmor Retail, 2028 (USD 000)
+Suppose: Barada Wholesale and Tadmor Retail, 2028 (USD 000)
+Amount
+Price paid for 75% of Tadmor Retail LLC, January 1, 2028
+600
+Fair value of the 25% noncontrolling interest
+190
+Fair value of Tadmor's identifiable net assets
+700
+Barada sold goods to Tadmor: sales 200, margin 30%, 25% still held by Tadmor
+Tadmor sold goods to Barada: sales 160, margin 25%, 50% still held by Barada
+Tadmor owes Barada at December 31, 2028
+40
+Tadmor's 2028 net income (before any consolidation adjustment)
+120
+Dividends paid by Tadmor in 2028
+40
+M1
+Tadmor's assets are at fair value on its books, so there is no step-up to depreciate.
+M2
+Barada also holds 30% of a supplier (significant influence) and 8% of a listed food company.
+C16-1  Choose the method for each investment. (On the exam screen you would drag each item into a box.)
+Categories: Full consolidation · Equity method · Fair value through net income
+Investment
+Category
+Tadmor Retail (75%)
+Supplier (30%, significant influence)
+Listed food company (8%)
+Cold-storage SPV that Barada directs and guarantees (VIE)
+C16-2  Enter the goodwill Barada recognizes on January 1, 2028.
+Answer: ____________
+C16-3  Enter the total unrealized profit eliminated from inventory at December 31, 2028.
+Answer: ____________
+C16-4  Enter the 2028 net income attributable to NCI.
+Answer: ____________
+C16-5  Enter NCI at December 31, 2028.
+Answer: ____________
+C16-6  How is the amount Tadmor owes Barada treated in consolidation? [select]
+Options: eliminated in full   |   75% eliminated   |   shown as a receivable from NCI   |   left in both balance sheets
+Written task
+W16  In four to six sentences, explain to Barada's owners how Tadmor affects the 2028 consolidated statements. Use these words: control, noncontrolling interest, goodwill, eliminate, upstream.
+Answers and explanations
+Section checks
+SC16-1  Answer C. Consolidation shows the group as one entity.
+A is wrong. That is the parent's separate statements.
+B is wrong. That is proportionate consolidation.
+D is wrong. Only controlled entities are consolidated.
+SC16-2  Answer D. NCI is equity of the group.
+A is wrong. NCI is not an obligation.
+B is wrong. The mezzanine 'minority interest' line is an old practice.
+C is wrong. NCI is shown on the face of the balance sheet.
+SC16-3  Answer A. The VIE model comes before the voting model.
+B is wrong. Votes are tested only if the entity is not a VIE.
+C is wrong. Significant influence decides the equity method, not consolidation.
+D is wrong. Profitability is not a consolidation test.
+SC16-4  Answer B. Orontes is the primary beneficiary.
+A is wrong. Orontes owns no shares.
+C is wrong. Economics alone are not enough; power is also needed.
+D is wrong. Profitability is not the test.
+SC16-5  Answer D. Significant influence without control leads to the equity method.
+A is wrong. Orontes does not control Jordan Glass.
+B is wrong. Proportionate consolidation is generally not allowed.
+C is wrong. Fair value is for investments without significant influence.
+SC16-6  Answer B. Only Orontes's 30% share of the $40,000 unrealized profit.
+A is wrong. The investor's share must be removed.
+C is wrong. Full elimination is for subsidiaries, not equity-method investees.
+D is wrong. Only the profit on unsold goods is unrealized.
+SC16-7  Answer B. $8,000,000 + $1,900,000 − $8,500,000.
+A is wrong. This is the IFRS partial-goodwill amount.
+C is wrong. This is the NCI fair value.
+D is wrong. This is the net assets at fair value, not goodwill.
+SC16-8  Answer B. Changes in ownership without loss of control are equity transactions.
+A is wrong. No gain or loss arises while control is kept.
+C is wrong. Goodwill is measured only when control is obtained.
+D is wrong. There is no new business combination.
+SC16-9  Answer B. 30% of the $200,000 gross profit is still in Levant's inventory.
+A is wrong. Intercompany profit is eliminated in full, not 80%.
+C is wrong. Only the profit on unsold goods is unrealized.
+D is wrong. This is the sales amount, not the profit.
+SC16-10  Answer B. NCI bears its 20% share of profit earned by the subsidiary.
+A is wrong. Upstream profit is shared with NCI.
+C is wrong. This is the parent's share.
+D is wrong. The parent bears most of it.
+SC16-11  Answer B. Partial goodwill: price + $1,700,000 − $8,500,000.
+A is wrong. Goodwill is still recognized.
+C is wrong. This is the full-goodwill (U.S.) amount.
+D is wrong. This is the NCI, not goodwill.
+SC16-12  Answer C. U.S. GAAP has no de facto control under the voting model.
+A is wrong. De facto control is an IFRS 10 idea.
+B is wrong. Proportionate consolidation is generally not allowed.
+D is wrong. 45% gives significant influence, so the equity method applies.
+Your turn
+Item
+Answer
+Less: upstream unrealized profit
+(25,000)
+Adjusted net income of Levant
+900,000 − 120,000 − 25,000 = 755,000
+NCI share
+20% × 755,000 = 151,000
+Less: dividends paid to NCI
+(20,000)
+NCI at December 31, 2027
+1,900,000 + 151,000 − 20,000 = 2,031,000
+Multiple-choice questions
+P16-01  Answer D. Consolidation adds all the subsidiary's items; NCI is shown separately.
+A is wrong. Adding only 80% is proportionate consolidation.
+B is wrong. 20% is the NCI share, not what is consolidated.
+C is wrong. One-line income is the equity method.
+P16-02  Answer C. Both amounts are attributed on the face of the statement.
+A is wrong. The total includes NCI's share.
+B is wrong. NCI's share is an attribution, not an expense.
+D is wrong. The split is on the face.
+P16-03  Answer C. Price + NCI fair value − net assets.
+A is wrong. Goodwill arises because the total exceeds net assets.
+B is wrong. This measures NCI at 30% of net assets (partial goodwill).
+D is wrong. This is net assets minus the price, ignoring NCI.
+P16-04  Answer A. ASC 810 attributes losses to NCI without a floor.
+B is wrong. This was the old practice before FAS 160.
+C is wrong. NCI stays in equity.
+D is wrong. Losses do not end control.
+P16-05  Answer B. Insufficient equity at risk is a VIE characteristic.
+A is wrong. The number of owners is not a VIE test.
+C is wrong. Dividends are not a VIE test.
+D is wrong. Listing is not a VIE test.
+P16-06  Answer C. Both power and economics are required.
+A is wrong. Economics alone are not enough.
+B is wrong. A lender does not use the equity method.
+D is wrong. Proportionate consolidation is not used.
+P16-07  Answer D. Substantive participating rights overcome majority control.
+A is wrong. Votes alone do not decide when others can block key decisions.
+B is wrong. Blocking rights do not give the 40% owner control.
+C is wrong. An entity has at most one parent.
+P16-08  Answer A. Joint ventures use the equity method.
+B is wrong. Proportionate consolidation is generally not allowed.
+C is wrong. Neither party controls alone.
+D is wrong. Joint control gives equity-method accounting.
+P16-09  Answer C. Only limited industry practice allows it.
+A is wrong. Joint ventures use the equity method.
+B is wrong. An associate uses the equity method.
+D is wrong. A subsidiary is fully consolidated.
+P16-10  Answer D. The investor records its share of income; dividends reduce the investment.
+A is wrong. Only the investor's share is recorded.
+B is wrong. Dividends reduce the investment.
+C is wrong. Revenue is not recorded line by line.
+P16-11  Answer D. Both downstream and upstream sales are removed in full.
+A is wrong. Intercompany sales must be removed.
+B is wrong. This is only the unrealized profit.
+C is wrong. Upstream sales are also removed.
+P16-12  Answer B. The truck returns to its original cost basis for the group.
+A is wrong. A sale inside the group is not a real sale.
+C is wrong. Intercompany gains are removed in full.
+D is wrong. OCI is not used.
+P16-13  Answer D. Sales to outsiders are real revenue for the group.
+A is wrong. Intercompany payables are eliminated.
+B is wrong. Intercompany interest is eliminated.
+C is wrong. Intercompany dividends are eliminated.
+P16-14  Answer B. 20% of adjusted net income of $755,000.
+A is wrong. This is the dividend to NCI.
+C is wrong. This ignores the step-up depreciation and upstream profit.
+D is wrong. This is Levant's whole adjusted income.
+P16-15  Answer A. Downstream profit belongs to the parent.
+B is wrong. NCI shares only upstream profit.
+C is wrong. This is the parent's percentage, not an NCI amount.
+D is wrong. The whole elimination reduces the parent's share.
+P16-16  Answer B. Joint operators account for their rights and obligations directly.
+A is wrong. The equity method is for joint ventures.
+C is wrong. No single party controls it.
+D is wrong. Fair value is not the IFRS 11 model.
+P16-17  Answer D. Loss of control ends consolidation and remeasures the retained interest.
+A is wrong. Equity treatment is only for changes without loss of control.
+B is wrong. Without control there is no consolidation.
+C is wrong. The retained interest is remeasured.
+P16-18  Answer A. The primary beneficiary assessment is continuous.
+B is wrong. All variable-interest holders reassess.
+C is wrong. Other variable-interest holders reassess too.
+D is wrong. The assessment is ongoing.
+Case-style set: Barada buys Tadmor Retail
+C16-1
+Investment
+Category
+Tadmor Retail (75%)
+Full consolidation
+Supplier (30%, significant influence)
+Equity method
+Listed food company (8%)
+Fair value through net income
+Cold-storage SPV that Barada directs and guarantees (VIE)
+Full consolidation
+Control means full consolidation; significant influence means the equity method; a small stake is at fair value.
+C16-2  Answer: 90.
+75 is wrong: this answer measures NCI at its share of net assets (partial goodwill).
+(100) is wrong: this answer ignores NCI.
+C16-3  Answer: 35.
+15 is wrong: this answer eliminates only the downstream profit.
+20 is wrong: this answer eliminates only the upstream profit.
+C16-4  Answer: 25.
+30 is wrong: this answer does not share the upstream profit elimination with NCI.
+C16-5  Answer: 205.
+215 is wrong: this answer does not deduct the dividends paid to NCI.
+190 is wrong: this answer starts from NCI measured at its share of net assets.
+C16-6  Answer: eliminated in full.
+75% eliminated is wrong: this answer intercompany balances are eliminated in full.
+shown as a receivable from NCI is wrong: this answer NCI does not owe the amount.
+left in both balance sheets is wrong: this answer a group cannot owe itself.
+Written task: model answer
+Barada owns 75% of Tadmor, so it has control and adds all of Tadmor's assets, liabilities, revenues and expenses to its own. The other 25% is a noncontrolling interest, shown in equity at its fair value of 190 at the start. Goodwill of 90 is the price plus NCI minus Tadmor's net assets at fair value. Barada must eliminate the intercompany sales, the 40 Tadmor owes it, and unrealized profit of 35 on goods still held in the group. Because part of that profit came from upstream sales by Tadmor, NCI shares it, so NCI's 2028 income is 25 and NCI ends the year at 205.
+A good answer: explains control and full consolidation; presents NCI in equity at fair value; computes goodwill with NCI; eliminates intercompany balances and unrealized profit in full; shares upstream profit with NCI.
+PART IV — GROUPS, IFRS CONTRASTS AND INTEGRATED REPORTING
