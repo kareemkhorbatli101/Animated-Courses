@@ -7,7 +7,8 @@ HANDOUT = {'id': '1.5',
  'title': 'Who writes the rules? U.S. GAAP and IFRS',
  'sub': 'section 1.5 of the book',
  'covers': ['sec:1.5',
-            'p:P05',
+            'p:P15',
+            'p:P16',
             'sc:SC5-1',
             'sc:SC5-2',
             'sc:SC5-1',
@@ -25,105 +26,127 @@ HANDOUT = {'id': '1.5',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Three summaries of this handout, in the book’s own words. Read '
-           'all three first: together they are the whole session. Then fill '
-           'the gaps, guessing where you have to.',
+           'Read all three before you write anything: together they are the '
+           'whole session. Then fill the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Who writes the rules? U.S. GAAP and IFRS',
-             'a figure to read · ■ U.S. GAAP (used on the exam)',
+             'a diagram · a table to complete',
              'Which organization writes U.S. GAAP?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates',
-             'What is the safest way to settle a disagreement about an '
-             'answer on this sheet?']],
+             'The English this sheet uses, and its Arabic',
+             'Which words complete this? “In the United States, the '
+             'accounting rules are called ...... (generally accepted '
+             'accounting principles).”']],
            [{'t': 'FILL',
-             'q': 'Where the section starts — Fill every gap. The list holds '
-                  'more words than there are gaps, so one or two of them are '
-                  'not used.',
-             'parts': ['The ASC is the single source of authoritative '
-                       'nongovernmental ',
+             'q': 'Where the section starts — Fill every gap. One word in '
+                  'the list is not used.',
+             'parts': ['In the United States, the accounting rules are '
+                       'called ',
                        11,
-                       '. It is organized by topic numbers. For example, ASC '
+                       ' (generally accepted accounting principles). The ',
+                       11,
+                       ' (Financial Accounting Standards Board) writes them. '
+                       'The FASB is a private, independent organization. It '
+                       'keeps all U.S. GAAP in one place: the Accounting '
+                       'Standards Codification (ASC). The ASC is the single '
+                       'source of authoritative nongovernmental U.S. GAAP. '
+                       'It is organized by topic numbers. For example, ASC '
                        '606 covers ',
                        11,
-                       ' and ASC 842 covers leases. When the ',
-                       11,
-                       ' changes a rule, it issues an Accounting Standards '
-                       'Update (ASU), which amends the Codification.'],
-             'bank': ['accumulated depreciation',
-                      'revenue',
-                      'FASB',
-                      'U.S. GAAP',
-                      'relevance'],
-             'a': 'U.S. GAAP · revenue · FASB',
+                       ' and ASC 842 covers leases. When the FASB changes a '
+                       'rule, it issues an Accounting Standards Update '
+                       '(ASU), which amends the Codification.'],
+             'bank': ['FASB', 'U.S. GAAP', 'revenue', 'relevance'],
+             'a': 'U.S. GAAP · FASB · revenue',
              'one': True,
-             'why': 'The book writes: “The ASC is the single source of '
-                    'authoritative nongovernmental U.S. GAAP. It is '
-                    'organized by topic numbers. For example, ASC 606 covers '
-                    'revenue and ASC 842 covers leases. When the FASB '
-                    'changes a rule, it issues an Accounting Standards '
-                    'Update (ASU), which amends the Codification.”'},
+             'why': 'In full: “In the United States, the accounting rules '
+                    'are called U.S. GAAP (generally accepted accounting '
+                    'principles). The FASB (Financial Accounting Standards '
+                    'Board) writes them. The FASB is a private, independent '
+                    'organization. It keeps all U.S. GAAP in one place: the '
+                    'Accounting Standards Codification (ASC). The ASC is the '
+                    'single source of authoritative nongovernmental U.S. '
+                    'GAAP. It is organized by topic numbers. For example, '
+                    'ASC 606 covers revenue and ASC 842 covers leases. When '
+                    'the FASB changes a rule, it issues an Accounting '
+                    'Standards Update (ASU), which amends the '
+                    'Codification.”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['Do not confuse these bodies with the PCAOB, which '
-                       'oversees the audits of public companies. The PCAOB '
-                       'sets auditing standards, not ',
-                       12,
-                       ' standards. Outside the United States, many '
-                       'countries use ',
+             'q': 'What it settles in the middle — Fill every gap. One word '
+                  'in the list is not used.',
+             'parts': ['The SEC (Securities and Exchange Commission) is a '
+                       'U.S. government agency. It has legal authority over '
+                       'the financial reporting of public companies, and it '
+                       'recognizes the ',
                        11,
-                       ' (',
-                       15,
-                       ' Financial Reporting Standards).'],
-             'bank': ['IFRS',
-                      'accounting',
-                      'relevance',
-                      'accumulated depreciation',
-                      'International'],
-             'a': 'accounting · IFRS · International',
+                       ' as the standard setter. For companies that report '
+                       'to the SEC, SEC rules are also part of authoritative '
+                       'GAAP. Do not confuse these bodies with the PCAOB, '
+                       'which oversees the audits of public companies. The '
+                       'PCAOB sets auditing standards, not accounting '
+                       'standards. Outside the United States, many countries '
+                       'use ',
+                       11,
+                       ' (International Financial Reporting Standards). The ',
+                       11,
+                       ' (International Accounting Standards Board) issues '
+                       'them, under the IFRS Foundation.'],
+             'bank': ['relevance', 'FASB', 'IFRS', 'IASB'],
+             'a': 'FASB · IFRS · IASB',
              'one': True,
-             'why': 'The book writes: “Do not confuse these bodies with the '
-                    'PCAOB, which oversees the audits of public companies. '
-                    'The PCAOB sets auditing standards, not accounting '
-                    'standards. Outside the United States, many countries '
-                    'use IFRS (International Financial Reporting '
-                    'Standards).”'},
+             'why': 'In full: “The SEC (Securities and Exchange Commission) '
+                    'is a U.S. government agency. It has legal authority '
+                    'over the financial reporting of public companies, and '
+                    'it recognizes the FASB as the standard setter. For '
+                    'companies that report to the SEC, SEC rules are also '
+                    'part of authoritative GAAP. Do not confuse these bodies '
+                    'with the PCAOB, which oversees the audits of public '
+                    'companies. The PCAOB sets auditing standards, not '
+                    'accounting standards. Outside the United States, many '
+                    'countries use IFRS (International Financial Reporting '
+                    'Standards). The IASB (International Accounting '
+                    'Standards Board) issues them, under the IFRS '
+                    'Foundation.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['Every chapter has an ',
+             'q': 'Where it ends — Fill every gap. One word in the list is '
+                  'not used.',
+             'parts': ['In this book, Cedar Retail S.A.L. is our ',
                        11,
-                       ' Contrast box, so Chapter 17 will be revision for '
-                       'you. Both systems rest on a ',
+                       ' company. However, Section A also asks about the '
+                       'main differences between ',
+                       11,
+                       ' and IFRS (Chapter 17). If you learned accounting '
+                       'under IFRS, this is good news: most concepts are the '
+                       'same. Every chapter has an IFRS Contrast box, so '
+                       'Chapter 17 will be revision for you. Both systems '
+                       'rest on a ',
                        22,
                        ': the basic ideas behind the standards, such as the '
                        'users, the elements and the qualities of useful '
                        'information. You studied the U.S. version in '
                        'Sections 1.1 and 1.2. ',
                        11,
-                       ': writes ',
-                       11,
-                       ' (the ASC).'],
-             'bank': ['conceptual framework',
-                      'relevance',
-                      'accumulated depreciation',
+                       ': writes U.S. GAAP (the ASC).'],
+             'bank': ['relevance',
                       'U.S. GAAP',
                       'FASB',
+                      'conceptual framework',
                       'IFRS'],
-             'a': 'IFRS · conceptual framework · FASB · U.S. GAAP',
+             'a': 'IFRS · U.S. GAAP · conceptual framework · FASB',
              'one': True,
-             'why': 'The book writes: “Every chapter has an IFRS Contrast '
-                    'box, so Chapter 17 will be revision for you. Both '
-                    'systems rest on a conceptual framework: the basic ideas '
-                    'behind the standards, such as the users, the elements '
-                    'and the qualities of useful information. You studied '
-                    'the U.S. version in Sections 1.1 and 1.2. FASB: writes '
-                    'U.S. GAAP (the ASC).”'}],
-           [('Words this handout uses precisely',
-             [['Words this handout uses precisely',
-               'tick it if you could already use it in a sentence'],
+             'why': 'In full: “In this book, Cedar Retail S.A.L. is our IFRS '
+                    'company. However, Section A also asks about the main '
+                    'differences between U.S. GAAP and IFRS (Chapter 17). If '
+                    'you learned accounting under IFRS, this is good news: '
+                    'most concepts are the same. Every chapter has an IFRS '
+                    'Contrast box, so Chapter 17 will be revision for you. '
+                    'Both systems rest on a conceptual framework: the basic '
+                    'ideas behind the standards, such as the users, the '
+                    'elements and the qualities of useful information. You '
+                    'studied the U.S. version in Sections 1.1 and 1.2. FASB: '
+                    'writes U.S. GAAP (the ASC).”'}],
+           [('What this sheet settles',
+             [['Word', 'what it means here'],
               ['equity', ''],
               ['debit', ''],
               ['general-purpose financial statements', ''],
@@ -131,21 +154,23 @@ HANDOUT = {'id': '1.5',
               ['double-entry system', ''],
               ['accumulated depreciation', ''],
               ['notes payable', '']]),
-            ('How every cycle on this sheet works',
-             [['How a cycle works', 'what you do'],
-              ['MODEL',
-               'read the figure or the table before you answer anything'],
-              ['READ THE MODEL', 'every answer is printed on the same page'],
-              ['INVENT THE RULE',
-               'write the rule yourself, then compare with the book'],
-              ['APPLY', 'no help on this move'],
-              ['CHECKPOINT',
-               'mark it yourself; if you miss it, the sheet says what to '
-               'redo']])]),
+            ('How every round on this sheet works',
+             [['The five steps of a round', 'what you do'],
+              ['FIRST THOUGHT',
+               'answer from what you already know, before anything else'],
+              ['FILL IT IN',
+               'complete the empty cells; the filled ones show you the '
+               'pattern'],
+              ['USE IT', 'answer from the table you have just completed'],
+              ['STATE THE RULE',
+               'write the rule in your own words, then check it'],
+              ['APPLY', 'new cases, no help'],
+              ['CHECK YOURSELF',
+               'mark it; if you miss it, the sheet says what to redo']])]),
           ('page',),
           ('cycle', 'A', 'Who writes the rules? U.S. GAAP and IFRS'),
           ('move',
-           'ORIENT',
+           'FIRST THOUGHT',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
@@ -154,48 +179,68 @@ HANDOUT = {'id': '1.5',
              'a': 'T',
              'why': 'The framework defines the elements, and every amount '
                     'belongs to one of them.'}]),
-          ('move', 'MODEL', 'Read it before you answer anything below it.'),
+          ('move', 'FILL IT IN', ''),
           ('fig', 'rulemakers'),
-          ('panel',
-           '■ U.S. GAAP (used on the exam) — the book’s own table',
-           [['■ U.S. GAAP (used on the exam)', '● IFRS'],
-            ['balance sheet', 'statement of financial position'],
-            ['income statement', 'statement of profit or loss'],
-            ['common stock', 'share capital (ordinary shares)'],
-            ['additional paid-in capital', 'share premium'],
-            ['accounts receivable', 'trade receivables'],
-            ['net income', 'profit']],
-           ''),
-          ('move',
-           'READ THE MODEL',
-           'Every answer is printed above. Find it, do not recall it.'),
+          ('items',
+           [{'t': 'GRID',
+             'q': 'Complete the empty cells. One entry in the list is not '
+                  'used.',
+             'h': ['■ U.S. GAAP (used on the exam)', '● IFRS'],
+             'rows': [['balance sheet', ''],
+                      ['income statement', ''],
+                      ['common stock', 'share capital (ordinary shares)'],
+                      ['additional paid-in capital', 'share premium'],
+                      ['accounts receivable', 'trade receivables'],
+                      ['net income', 'profit']],
+             'bank': ['share capital (ordinary shares)',
+                      'statement of financial position',
+                      'statement of profit or loss'],
+             'a': ['balance sheet — IFRS: statement of financial position',
+                   'income statement — IFRS: statement of profit or loss'],
+             'whys': ['', ''],
+             'blank': [(0, 1), (1, 1)]}]),
+          ('move', 'USE IT', 'Use the table you have just completed.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which IFRS does the book give for balance sheet?',
-             'o': ['statement of profit or loss',
+             'q': 'What is the IFRS of common stock?',
+             'o': ['trade receivables',
+                   'statement of profit or loss',
                    'statement of financial position',
-                   'trade receivables',
                    'share capital (ordinary shares)'],
-             'a': 'B',
-             'why': 'The book’s own table gives statement of financial '
-                    'position as the IFRS of balance sheet.'}]),
+             'a': 'D',
+             'why': 'The share capital (ordinary shares) of IFRS is common '
+                    'stock.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'The board declares a cash dividend that will be paid next '
-                  'month. What is the effect immediately after the '
-                  'declaration?',
-             'o': ['Expenses increase and net income decreases.',
-                   'Liabilities increase and equity decreases.',
-                   'Assets decrease and equity decreases.',
-                   'There is no effect until the dividend is paid.'],
-             'a': 'B',
-             'why': 'Declaring the dividend creates dividends payable (a '
-                    'liability) and reduces retained earnings. A is wrong: A '
-                    'dividend is a distribution to owners, not an expense. C '
-                    'is wrong: Cash decreases only on the payment date, next '
-                    'month.',
-             'src': 'P05'}]),
+             'q': 'Which statement is TRUE?',
+             'o': ['The PCAOB writes U.S. GAAP for public companies.',
+                   'The IASB writes U.S. GAAP for companies that also report '
+                   'under IFRS.',
+                   'The ASC contains IFRS for U.S. companies.',
+                   'The SEC has legal authority over public company '
+                   'reporting and recognizes the FASB as the standard '
+                   'setter.'],
+             'a': 'D',
+             'why': 'The SEC has the legal authority; the FASB sets the '
+                    'standards; the ASC holds U.S. GAAP. A is wrong: The '
+                    'PCAOB sets auditing standards. B is wrong: The IASB '
+                    'writes IFRS only.',
+             'src': 'P15'},
+            {'t': 'MCQ',
+             'q': "A Jordanian company's IFRS statements show share premium "
+                  'of 400. Under U.S. GAAP, the same item is called:',
+             'o': ['retained earnings.',
+                   'common stock.',
+                   'additional paid-in capital.',
+                   'treasury stock.'],
+             'a': 'C',
+             'why': 'Share premium and additional paid-in capital both mean '
+                    'the amount received above par value. A is wrong: '
+                    'Retained earnings come from profits, not from issuing '
+                    'shares. B is wrong: Common stock holds only the par '
+                    'value.',
+             'src': 'P16'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -205,25 +250,30 @@ HANDOUT = {'id': '1.5',
            'Which organization writes U.S. GAAP?',
            ['The FASB', 'The SEC', 'The PCAOB', 'The IASB'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
+           'redo the USE IT questions of cycle A with the model in front of '
+           'you.',
            'The FASB writes U.S. GAAP and keeps it in the Accounting '
            'Standards Codification. B is wrong: The SEC has legal authority, '
            'but it recognizes the FASB as the standard setter. C is wrong: '
            'The PCAOB sets auditing standards, not accounting standards.'),
           ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
+          ('move', 'FIRST THOUGHT', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
-             'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
+           [{'t': 'MCQ',
+             'q': 'A term on this sheet means exactly what this sheet '
+                  'defines it to mean. When that differs from ordinary '
+                  'English, which wins?',
+             'o': ['the definition given here',
+                   'the ordinary English meaning',
+                   'whichever makes the question easier',
+                   'they never differ'],
+             'a': 'A',
+             'why': 'An exam question turns on the exact term, and one word '
+                    'can change the answer.'}]),
+          ('move', 'FILL IT IN', ''),
           ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
+           'The English this sheet uses, and its Arabic',
+           [['English (exam term)', 'Arabic'],
             ['equity', 'حقوق الملكية'],
             ['debit', 'مدين'],
             ['general-purpose financial statements',
@@ -237,7 +287,7 @@ HANDOUT = {'id': '1.5',
             ['statement of changes in equity',
              'قائمة التغيرات في حقوق الملكية']],
            ''),
-          ('move', 'READ THE MODEL', ''),
+          ('move', 'USE IT', ''),
           ('items',
            [{'t': 'MATCH',
              'q': 'Write the letter of the Arabic term beside each English '
@@ -273,6 +323,38 @@ HANDOUT = {'id': '1.5',
                     'only the par value of the shares.',
              'src': 'SC5-2'},
             {'t': 'MCQ',
+             'q': 'Under the U.S. conceptual framework, the objective of '
+                  'general-purpose financial reporting is to provide useful '
+                  'information mainly to:',
+             'o': ['the board of directors and senior management.',
+                   'government statisticians and tax authorities.',
+                   'existing and potential investors, lenders and other '
+                   'creditors.',
+                   "the company's employees and trade unions."],
+             'a': 'C',
+             'why': 'These are the primary users. They provide resources and '
+                    'cannot demand special reports. A is wrong: Management '
+                    'can obtain internal information, so it is not a primary '
+                    'user. B is wrong: Governments use the statements, but '
+                    'they are not the primary users named by the framework.',
+             'src': 'P01'},
+            {'t': 'MCQ',
+             'q': 'A bank is deciding whether to renew a five-year loan to '
+                  'Orontes. Which information will the bank find MOST '
+                  'useful?',
+             'o': ['The highest and lowest share price during the year',
+                   "The company's ability to generate cash to pay interest "
+                   'and repay principal',
+                   'The number of products the company sells',
+                   "The names of the company's major shareholders"],
+             'a': 'B',
+             'why': "A lender's main question is repayment: can the borrower "
+                    'pay interest and principal on time? A is wrong: Share '
+                    'prices interest investors more than lenders and do not '
+                    'show repayment ability. C is wrong: The product count '
+                    'does not show whether the company can repay the loan.',
+             'src': 'P02'},
+            {'t': 'MCQ',
              'q': 'Which organization writes U.S. GAAP?',
              'o': ['The FASB', 'The SEC', 'The PCAOB', 'The IASB'],
              'a': 'A',
@@ -283,42 +365,30 @@ HANDOUT = {'id': '1.5',
                     'standards, not accounting standards.',
              'src': 'SC5-1'},
             {'t': 'MCQ',
-             'q': 'Which IFRS does the book give for net income?',
+             'q': 'What is the IFRS of net income?',
              'o': ['profit',
                    'share premium',
                    'trade receivables',
                    'statement of profit or loss'],
              'a': 'A',
-             'why': 'The book’s own table gives profit as the IFRS of net '
-                    'income.'},
-            {'t': 'MATCH',
-             'q': 'Write the letter of the matching IFRS beside each one. '
-                  'Every one is used once.',
-             'left': ['balance sheet',
-                      'income statement',
-                      'common stock',
-                      'additional paid-in capital',
-                      'accounts receivable',
-                      'net income'],
-             'right': ['profit',
-                       'share premium',
-                       'statement of financial position',
-                       'share capital (ordinary shares)',
-                       'statement of profit or loss',
-                       'trade receivables'],
-             'a': ['C', 'E', 'D', 'B', 'F', 'A'],
-             'whys': ['', '', '', '', '', '']}]),
+             'why': 'The profit of IFRS is net income.'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which words complete this? “The ASC is the single source '
+                  'of authoritative nongovernmental …….”',
+             'o': ['U.S. GAAP', 'recognize', 'liability', 'relevance'],
+             'a': 'A',
+             'why': 'The sentence reads: “The ASC is the single source of '
+                    'authoritative nongovernmental U.S. GAAP.”'}]),
           ('check',
-           'What is the safest way to settle a disagreement about an answer '
-           'on this sheet?',
-           ['find the row of the model that decides it',
-            'take the answer of whoever is more confident',
-            'leave it until the lecturer says',
-            'choose the longer option'],
+           'Which words complete this? “In the United States, the accounting '
+           'rules are called …… (generally accepted accounting principles).”',
+           ['U.S. GAAP', 'relevance', 'liability', 'recognize'],
            'A',
-           'redo the READ THE MODEL questions of cycle B.',
-           'Every item on a Workshop sheet is settled by something printed '
-           'on the same sheet.'),
+           'redo the USE IT questions of round B.',
+           'The sentence reads: “In the United States, the accounting rules '
+           'are called U.S. GAAP (generally accepted accounting '
+           'principles).”'),
           ('build',
            'rulemakers',
            'Rebuild the figure from this handout. Label every part and fill '

@@ -173,7 +173,12 @@ def paginate(d, flow, spans, pre=0.0):
                     used += heights[k]
             i = j + 1
             continue
-        if used and used + atom > cap:
+        # Breaking before a block that is taller than a page on its own
+        # gains nothing: the block still overflows, and the page before it
+        # is left holding only whatever came first. That is how page one of
+        # three handouts came out eight per cent full, with the title block
+        # alone on it.
+        if used and used + atom > cap and atom <= cap:
             cuts.append(spans[i][0])
             used = atom
         else:
@@ -219,18 +224,18 @@ def render_preview(d, c, blk, before):
         d.datapanel('What this handout settles, cycle by cycle', blk[3])
     used = before + sum(_height(x) for x in d.body[start:])
     extras = blk[5] if len(blk) > 5 else []
-    # the words strip comes before the questions, because it is what a
-    # student checks themselves against while reading them
-    for title, rows in extras[:1]:
-        a = len(d.body)
-        d.datapanel(title, rows)
-        used += sum(_height(x) for x in d.body[a:])
+    # The three summaries go on first and are never dropped: they are the
+    # page. Since they doubled in length there is rarely room for anything
+    # after them, so every strip is now conditional — including the
+    # vocabulary one, which used to be emitted before them and pushed the
+    # page over on its own. Both strips also appear in the body of the
+    # sheet, so nothing is lost when they give way here.
     for it in blk[4]:
         a = len(d.body)
         render_item(d, c, it)
         used += sum(_height(x) for x in d.body[a:])
     limit = PAGE_H * PREVIEW_FILL
-    for title, rows in extras[1:]:
+    for title, rows in extras:
         a = len(d.body)
         d.datapanel(title, rows)
         h = sum(_height(x) for x in d.body[a:])

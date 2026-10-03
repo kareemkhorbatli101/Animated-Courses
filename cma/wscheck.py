@@ -18,6 +18,23 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 import parsebook as PB  # noqa: E402
+import wsgen as WG       # noqa: E402
+
+clean = WG.clean
+_PARSED = {}
+
+
+def _parsed(H):
+    """The chapter this handout came from, parsed once per chapter."""
+    try:
+        n = int(str(H['id']).split('.')[0])
+    except (ValueError, KeyError, IndexError):
+        return None
+    if n not in _PARSED:
+        d = PB.parse(n, 1)
+        d['n'] = n
+        _PARSED[n] = d
+    return _PARSED[n]
 
 # A response item carries its answer under 'a'; these are the kinds.
 # The closed set. There is no free-text kind: every answer on a Workshop
@@ -33,8 +50,8 @@ INTERACTION = {'pair', 'roles', 'hunt', 'predict', 'teach', 'sortboard',
                'build', 'speed'}
 NEEDS_ANOTHER_PERSON = {'pair', 'roles', 'hunt', 'teach'}
 
-MOVES = ['ORIENT', 'MODEL', 'READ THE MODEL', 'INVENT THE RULE', 'APPLY',
-         'CHECKPOINT']
+MOVES = ['FIRST THOUGHT', 'FILL IT IN', 'USE IT', 'STATE THE RULE', 'APPLY',
+         'CHECK YOURSELF']
 
 # Numbers worth checking against the book: three digits or more, or a year.
 # A lookbehind keeps the gate off the fractional part of a decimal: 22.667
@@ -178,10 +195,10 @@ def g_cycle_shape(H, src, fails):
         seen = [b[1] for b in cyc if b[0] == 'move']
         if practice:
             continue
-        if 'MODEL' not in seen:
-            fails.append('%s cycle %s: no MODEL move' % (H['id'], letter))
-        if 'READ THE MODEL' not in seen:
-            fails.append('%s cycle %s: no READ THE MODEL move'
+        if 'FILL IT IN' not in seen:
+            fails.append('%s cycle %s: no FILL IT IN move' % (H['id'], letter))
+        if 'USE IT' not in seen:
+            fails.append('%s cycle %s: no USE IT move'
                          % (H['id'], letter))
         # A cycle may teach twice: MODEL, READ, MODEL, READ is a second pass
         # at the same idea, not a mistake. What must hold is precedence —
@@ -190,14 +207,14 @@ def g_cycle_shape(H, src, fails):
         pos = {m: [i for i, s in enumerate(seen) if s == m] for m in MOVES}
         def _after(a, b):
             return pos[a] and pos[b] and min(pos[a]) > min(pos[b])
-        if pos['READ THE MODEL'] and not _after('READ THE MODEL', 'MODEL'):
+        if pos['USE IT'] and not _after('USE IT', 'FILL IT IN'):
             fails.append('%s cycle %s: a read before any model'
                          % (H['id'], letter))
-        if pos['INVENT THE RULE'] and not _after('INVENT THE RULE',
-                                                 'READ THE MODEL'):
+        if pos['STATE THE RULE'] and not _after('STATE THE RULE',
+                                                 'USE IT'):
             fails.append('%s cycle %s: an invent before any read'
                          % (H['id'], letter))
-        if pos['APPLY'] and not _after('APPLY', 'READ THE MODEL'):
+        if pos['APPLY'] and not _after('APPLY', 'USE IT'):
             fails.append('%s cycle %s: an apply before any read'
                          % (H['id'], letter))
         if not any(b[0] in TEACHING for b in cyc):
@@ -240,6 +257,11 @@ def g_interaction_density(H, src, fails):
 def g_visual_density(H, src, fails):
     figs = sum(1 for b in H['flow'] if b[0] in ('fig', 'blankfig'))
     panels = sum(1 for b in H['flow'] if b[0] in ('panel', 'trace'))
+    # A table a reader completes is a model too, and more of one than a
+    # table printed for them to read. Since the tables became exercises
+    # this gate was counting them as nothing at all.
+    panels += sum(1 for b in H['flow'] if b[0] == 'items'
+                  for it in b[1] if it.get('t') == 'GRID')
     builds = sum(1 for b in H['flow'] if b[0] == 'build')
     pages = H.get('pages', 0)
     # The standard first asked for a drawn figure every two pages. Measured
@@ -361,6 +383,12 @@ def g_stem_self_contained(H, src, fails):
         if it.get('src'):
             continue
         q = it.get('q') or ''
+        # An item that carries its own word list prints that list directly
+        # above itself, so "one word in the list is not used" points at
+        # something on the page. It is the only deictic that is allowed, and
+        # only for the item that holds the list.
+        if it.get('bank'):
+            q = re.sub(r'\bthe list\b', 'the words', q, flags=re.I)
         m = DEICTIC.search(q)
         if m:
             fails.append('%s: a stem points off the page (%r): %.52r'
@@ -426,6 +454,43 @@ def _section_text(H, src):
     return src[m.end():m.end() + (nxt.start() if nxt else 4000)]
 
 
+def g_points_tested(H, src, fails):
+    """Every main point of the section is asked about by some question.
+
+    This is the gate that makes "the sheet replaces the chapter" mean
+    something. It rebuilds the section's main points — the rows of its
+    tables, the terms it defines, the sentences that assert something about
+    one of its terms — and asks whether any QUESTION on the sheet tests
+    each one. A point merely printed in a reference table does not count,
+    and nor does one sitting in the unblanked prose of a gapped summary: a
+    reader is handed both without being asked anything.
+    """
+    sec = next((c.split(':', 1)[1] for c in H.get('covers', [])
+                if c.startswith('sec:')), None)
+    if not sec or sum(1 for c in H.get('covers', [])
+                      if c.startswith('sec:')) != 1:
+        return                      # the review sheet covers the chapter
+    d = _parsed(H)
+    if d is None:
+        return
+    s = next((x for x in d['sections'] if clean(x['no']) == sec), None)
+    if s is None:
+        return
+    tbls = WG.allocate_tables(d).get(sec) or []
+    terms = [WG.clean(e) for e, _a in PB.term_pairs(int(d['n']))] \
+        if d.get('n') else []
+    defs = WG.definitions(s['text'], terms, tbls)
+    pts = WG.mainpoints(s, tbls, terms, defs)
+    texts = WG.item_texts(H['flow'])
+    miss = [p['label'] for p in pts if not WG.covers_point(p, texts)]
+    if miss:
+        fails.append('%s: %d of %d main points of section %s are not tested '
+                     'by any question: %s%s'
+                     % (H['id'], len(miss), len(pts), sec,
+                        '; '.join(miss[:4]),
+                        ' \u2026' if len(miss) > 4 else ''))
+
+
 def g_page_budget(H, src, fails):
     """A handout is one session's work.
 
@@ -486,7 +551,8 @@ def check_chapter(mod, verbose=True):
                   g_cycle_shape, g_contrasting_cases, g_interaction_density,
                   g_visual_density, g_no_lecture, g_reloop_target,
                   g_fading, g_page_budget, g_no_open_questions,
-                  g_mcq_wellformed, g_stem_self_contained, g_preview):
+                  g_mcq_wellformed, g_stem_self_contained, g_preview,
+                  g_points_tested):
             g(H, src, fails)
 
     # ---- chapter-wide gates

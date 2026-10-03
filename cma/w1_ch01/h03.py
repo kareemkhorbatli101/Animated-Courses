@@ -7,7 +7,10 @@ HANDOUT = {'id': '1.3',
  'title': 'Double entry: debits and credits',
  'sub': 'section 1.3 of the book',
  'covers': ['sec:1.3',
-            'p:P03',
+            'p:P06',
+            'p:P07',
+            'p:P12',
+            'p:P08',
             'sc:SC3-2',
             'sc:SC3-2',
             'sc:SC3-1',
@@ -25,110 +28,137 @@ HANDOUT = {'id': '1.3',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Three summaries of this handout, in the book’s own words. Read '
-           'all three first: together they are the whole session. Then fill '
-           'the gaps, guessing where you have to.',
+           'Read all three before you write anything: together they are the '
+           'whole session. Then fill the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['Double entry: debits and credits',
-             'a figure to read · Statement · the book’s own rule, gapped',
+             'a diagram · a table to complete · a rule to complete',
              'Orontes buys a bottling line for 1,200 in cash. Which journal '
              'entry is correct?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates',
-             'What is the safest way to settle a disagreement about an '
-             'answer on this sheet?']],
+             'The English this sheet uses, and its Arabic',
+             'Which words complete this? “This is why the ...... always '
+             'balances.”']],
            [{'t': 'FILL',
-             'q': 'Where the section starts — Fill every gap. The list holds '
-                  'more words than there are gaps, so one or two of them are '
-                  'not used.',
-             'parts': ['Accounts on the left side of the equation (assets, '
-                       'expenses and dividends) increase with a ',
-                       11,
-                       '. Accounts on the right side (liabilities, ',
-                       11,
-                       ' and revenues) increase with a ',
+             'q': 'Where the section starts — Fill every gap. One word in '
+                  'the list is not used.',
+             'parts': ['Whether a debit increases an account depends on the '
+                       'type of account. Each account has a ',
+                       16,
+                       ': the side that increases it. Accounts on the left '
+                       'side of the equation (assets, expenses and '
+                       'dividends) increase with a debit. Accounts on the '
+                       'right side (liabilities, equity and revenues) '
+                       'increase with a ',
                        11,
                        '. A ',
                        16,
-                       ' reduces a related account, so it has the opposite ',
-                       16,
-                       '.'],
-             'bank': ['balance sheet',
+                       ' reduces a related account, so it has the opposite '
+                       'normal balance. For example, ',
+                       26,
+                       ' reduces equipment. It has a credit balance, but it '
+                       'belongs with the assets. The ',
+                       29,
+                       ' reduces ',
+                       21,
+                       ' in the same way (Chapter 6).'],
+             'bank': ['accounts receivable',
+                      'accumulated depreciation',
                       'contra account',
-                      'credit',
+                      'allowance for credit losses',
                       'normal balance',
                       'debit',
-                      'income statement',
-                      'equity'],
-             'a': 'debit · equity · credit · contra account · normal balance',
+                      'credit'],
+             'a': 'normal balance · credit · contra account · accumulated '
+                  'depreciation · allowance for credit losses · accounts '
+                  'receivable',
              'one': True,
-             'why': 'The book writes: “Accounts on the left side of the '
-                    'equation (assets, expenses and dividends) increase with '
-                    'a debit. Accounts on the right side (liabilities, '
-                    'equity and revenues) increase with a credit. A contra '
-                    'account reduces a related account, so it has the '
-                    'opposite normal balance.”'},
+             'why': 'In full: “Whether a debit increases an account depends '
+                    'on the type of account. Each account has a normal '
+                    'balance: the side that increases it. Accounts on the '
+                    'left side of the equation (assets, expenses and '
+                    'dividends) increase with a debit. Accounts on the right '
+                    'side (liabilities, equity and revenues) increase with a '
+                    'credit. A contra account reduces a related account, so '
+                    'it has the opposite normal balance. For example, '
+                    'accumulated depreciation reduces equipment. It has a '
+                    'credit balance, but it belongs with the assets. The '
+                    'allowance for credit losses reduces accounts receivable '
+                    'in the same way (Chapter 6).”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['Orontes records ',
+             'q': 'What it settles in the middle — Fill every gap. One word '
+                  'in the list is not used.',
+             'parts': ['Paid January wages to plant workers in cash. The '
+                       'board declared a cash ',
                        11,
-                       ' when it delivers the goods, not when the customer '
-                       'pays. Row 6 reduces ',
+                       ', payable on February 15. Three points matter for '
+                       'the exam. Rows 1 and 2 bring in cash of 2,300 in '
+                       'total, but no ',
+                       11,
+                       '. Money from owners and lenders is financing. Row 4 '
+                       'creates revenue of 300 but no cash. Orontes records '
+                       'revenue when it delivers the goods, not when the '
+                       'customer pays. Row 6 reduces ',
                        19,
                        ' by 50 and creates a ',
                        11,
                        '. No cash moves until February, and ',
                        12,
-                       ' does not change. The totals prove the equation. '
-                       'Assets rose by 2,380, liabilities rose by 850 and ',
-                       11,
-                       ' rose by 1,530.'],
-             'bank': ['revenue',
-                      'balance sheet',
-                      'net income',
+                       ' does not change.'],
+             'bank': ['liability',
+                      'revenue',
+                      'dividend',
+                      'debit',
                       'retained earnings',
-                      'debit',
-                      'liability',
-                      'equity'],
-             'a': 'revenue · retained earnings · liability · net income · '
-                  'equity',
+                      'net income'],
+             'a': 'dividend · revenue · retained earnings · liability · net '
+                  'income',
              'one': True,
-             'why': 'The book writes: “Orontes records revenue when it '
-                    'delivers the goods, not when the customer pays. Row 6 '
-                    'reduces retained earnings by 50 and creates a '
+             'why': 'In full: “Paid January wages to plant workers in cash. '
+                    'The board declared a cash dividend, payable on February '
+                    '15. Three points matter for the exam. Rows 1 and 2 '
+                    'bring in cash of 2,300 in total, but no revenue. Money '
+                    'from owners and lenders is financing. Row 4 creates '
+                    'revenue of 300 but no cash. Orontes records revenue '
+                    'when it delivers the goods, not when the customer pays. '
+                    'Row 6 reduces retained earnings by 50 and creates a '
                     'liability. No cash moves until February, and net income '
-                    'does not change. The totals prove the equation. Assets '
-                    'rose by 2,380, liabilities rose by 850 and equity rose '
-                    'by 1,530.”'},
+                    'does not change.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['Syrian and Levant texts often say اهتلاك, and '
-                       'Egyptian texts say إهلاك. In English, always say '
-                       'depreciation. An allowance (for example, the ',
-                       29,
-                       ') reduces an ',
+             'q': 'Where it ends — Fill every gap. One word in the list is '
+                  'not used.',
+             'parts': ['Cash from borrowing or from issuing shares is not ',
                        11,
-                       '. Never say reserve for bad debts in a ',
+                       '. Buying equipment for cash is not an ',
                        11,
-                       ' answer.'],
-             'bank': ['U.S. GAAP',
-                      'balance sheet',
-                      'debit',
-                      'asset',
-                      'allowance for credit losses'],
-             'a': 'allowance for credit losses · asset · U.S. GAAP',
+                       ' today. One ',
+                       11,
+                       ' (cash) becomes another asset (equipment). The cost '
+                       'becomes an expense later, through depreciation. Here '
+                       'are six transactions from February (USD 000). Feb 3: '
+                       'Paid a supplier for olives bought on ',
+                       11,
+                       ' in January. Feb 8: Collected part of the January '
+                       'receivable from GreenBasket Supermarkets. Feb 10: '
+                       'Paid 12 months of warehouse rent in advance. Feb 12: '
+                       'A Dubai hotel group paid cash in advance for '
+                       'pastries that Orontes will deliver in March.'],
+             'bank': ['asset', 'debit', 'credit', 'expense', 'revenue'],
+             'a': 'revenue · expense · asset · credit',
              'one': True,
-             'why': 'The book writes: “Syrian and Levant texts often say '
-                    'اهتلاك, and Egyptian texts say إهلاك. In English, '
-                    'always say depreciation. An allowance (for example, the '
-                    'allowance for credit losses) reduces an asset. Never '
-                    'say reserve for bad debts in a U.S. GAAP answer.”'}],
-           [('Words this handout uses precisely',
-             [['Words this handout uses precisely',
-               'tick it if you could already use it in a sentence'],
+             'why': 'In full: “Cash from borrowing or from issuing shares is '
+                    'not revenue. Buying equipment for cash is not an '
+                    'expense today. One asset (cash) becomes another asset '
+                    '(equipment). The cost becomes an expense later, through '
+                    'depreciation. Here are six transactions from February '
+                    '(USD 000). Feb 3: Paid a supplier for olives bought on '
+                    'credit in January. Feb 8: Collected part of the January '
+                    'receivable from GreenBasket Supermarkets. Feb 10: Paid '
+                    '12 months of warehouse rent in advance. Feb 12: A Dubai '
+                    'hotel group paid cash in advance for pastries that '
+                    'Orontes will deliver in March.”'}],
+           [('What this sheet settles',
+             [['Word', 'what it means here'],
               ['asset', ''],
               ['dividend', ''],
               ['U.S. GAAP', ''],
@@ -136,74 +166,76 @@ HANDOUT = {'id': '1.3',
               ['additional paid-in capital', ''],
               ['trial balance', ''],
               ['inventory', '']]),
-            ('How every cycle on this sheet works',
-             [['How a cycle works', 'what you do'],
-              ['MODEL',
-               'read the figure or the table before you answer anything'],
-              ['READ THE MODEL', 'every answer is printed on the same page'],
-              ['INVENT THE RULE',
-               'write the rule yourself, then compare with the book'],
-              ['APPLY', 'no help on this move'],
-              ['CHECKPOINT',
-               'mark it yourself; if you miss it, the sheet says what to '
-               'redo']])]),
+            ('How every round on this sheet works',
+             [['The five steps of a round', 'what you do'],
+              ['FIRST THOUGHT',
+               'answer from what you already know, before anything else'],
+              ['FILL IT IN',
+               'complete the empty cells; the filled ones show you the '
+               'pattern'],
+              ['USE IT', 'answer from the table you have just completed'],
+              ['STATE THE RULE',
+               'write the rule in your own words, then check it'],
+              ['APPLY', 'new cases, no help'],
+              ['CHECK YOURSELF',
+               'mark it; if you miss it, the sheet says what to redo']])]),
           ('page',),
           ('cycle', 'A', 'Double entry: debits and credits'),
           ('move',
-           'ORIENT',
+           'FIRST THOUGHT',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the question it answers of Statement of '
-                  'cash flows as “Where did cash come from, and where did it '
-                  'go?”.',
+             'q': 'Decide before you look at anything else: the question it '
+                  'answers of Statement of cash flows is “Where did cash '
+                  'come from, and where did it go?”.',
              'a': 'T',
-             'why': 'The book pairs Statement of cash flows with “Where did '
-                    'cash come from, and where did it go?”.'}]),
-          ('move', 'MODEL', 'Read it before you answer anything below it.'),
+             'why': 'Statement of cash flows: Where did cash come from, and '
+                    'where did it go?.'}]),
+          ('move', 'FILL IT IN', ''),
           ('fig', 'drcr_grid'),
-          ('panel',
-           'Statement — the book’s own table',
-           [['Statement', 'Question it answers', 'Time', 'Chapter'],
-            ['Balance sheet',
-             "What does the company have and owe, and what is the owners' "
-             'claim?',
-             'at a date',
-             '2'],
-            ['Income statement',
-             'How did the company perform?',
-             'for a period',
-             '3'],
-            ['Statement of changes in equity',
-             'Why did each equity account change?',
-             'for a period',
-             '4'],
-            ['Statement of cash flows',
-             'Where did cash come from, and where did it go?',
-             'for a period',
-             '5']],
-           ''),
-          ('move',
-           'READ THE MODEL',
-           'Every answer is printed above. Find it, do not recall it.'),
+          ('items',
+           [{'t': 'GRID',
+             'q': 'Complete the empty cells. One entry in the list is not '
+                  'used.',
+             'h': ['Statement', 'Question it answers', 'Time', 'Chapter'],
+             'rows': [['Balance sheet',
+                       'What does the company have and owe, and what is the '
+                       "owners' claim?",
+                       'at a date',
+                       '2'],
+                      ['Income statement', '', 'for a period', '3'],
+                      ['Statement of changes in equity',
+                       'Why did each equity account change?',
+                       'for a period',
+                       ''],
+                      ['Statement of cash flows',
+                       'Where did cash come from, and where did it go?',
+                       'for a period',
+                       '5']],
+             'bank': ['4', '2', 'How did the company perform?'],
+             'a': ['Income statement — question it answers: How did the '
+                   'company perform?',
+                   'Statement of changes in equity — chapter: 4'],
+             'whys': ['', ''],
+             'blank': [(1, 1), (2, 3)]}]),
+          ('move', 'USE IT', 'Use the table you have just completed.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which question it answers does the book give for Balance '
-                  'sheet?',
+             'q': 'What is the question it answers of Balance sheet?',
              'o': ['Where did cash come from, and where did it go?',
                    'Why did each equity account change?',
                    'What does the company have and owe, and what is the '
                    "owners' claim?",
                    'How did the company perform?'],
              'a': 'C',
-             'why': 'The book’s own table gives What does the company have '
-                    "and owe, and what is the owners' claim? as the question "
-                    'it answers of Balance sheet.'},
+             'why': 'The What does the company have and owe, and what is the '
+                    "owners' claim? of question it answers is Balance "
+                    'sheet.'},
             {'t': 'TF',
-             'q': 'The book gives the time of Income statement as “for a '
-                  'period”.',
+             'q': 'The time of Income statement is “for a period”.',
              'a': 'T',
-             'why': 'The book pairs Income statement with “for a period”.'},
+             'why': 'Income statement: for a period.'},
             {'t': 'SORT',
              'q': 'Write each one under its time. Every item belongs to '
                   'exactly one group.',
@@ -216,20 +248,18 @@ HANDOUT = {'id': '1.3',
                    'for a period: Income statement, Statement of changes in '
                    'equity, Statement of cash flows'],
              'whys': ['', '']}]),
-          ('move', 'INVENT THE RULE', ''),
+          ('move', 'STATE THE RULE', ''),
           ('rule',
-           'Complete the book’s own sentence. The list holds more words than '
-           'there are gaps.',
+           'Complete the sentence.',
            [['The ', 29, ' reduces ', 21, ' in the same way (Chapter 6).']],
-           ['revenue',
-            'allowance for credit losses',
+           ['accounts receivable',
             'U.S. GAAP',
-            'accounts receivable'],
+            'allowance for credit losses'],
            'The allowance for credit losses reduces accounts receivable in '
            'the same way (Chapter 6).',
            'allowance for credit losses · accounts receivable'),
           ('contrast',
-           'Two of the book’s own cases, side by side',
+           'Two cases, side by side',
            [('Balance sheet',
              ['Question it answers: What does the company have and owe, and '
               "what is the owners' claim?",
@@ -241,24 +271,62 @@ HANDOUT = {'id': '1.3',
            'sheet?',
            ['2', '5', '3', '4'],
            'A',
-           'The book gives 2 as the chapter of Balance sheet.'),
+           'The chapter of Balance sheet is 2.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Two companies use the same accounting methods, so an '
-                  'analyst can compare their results. This quality is '
-                  'called:',
-             'o': ['relevance',
-                   'verifiability',
-                   'faithful representation',
-                   'comparability'],
-             'a': 'D',
-             'why': 'Comparability lets users identify similarities and '
-                    'differences between companies or periods. A is wrong: '
-                    'Relevance means the information can make a difference '
-                    'to a decision. B is wrong: Verifiability means '
-                    'independent observers could reach the same result.',
-             'src': 'P03'}]),
+             'q': 'Which transaction changes total assets but does NOT '
+                  'change total equity?',
+             'o': ['Borrowing cash from a bank',
+                   'Paying wages in cash',
+                   'Selling goods on credit at a profit',
+                   'Buying equipment for cash'],
+             'a': 'A',
+             'why': 'Assets and liabilities both increase. Equity does not '
+                    'change. B is wrong: Wages are an expense, so equity '
+                    '(retained earnings) also decreases. C is wrong: A '
+                    'profitable sale increases equity through net income.',
+             'src': 'P06'},
+            {'t': 'MCQ',
+             'q': 'A company has assets of 900 and liabilities of 350. It '
+                  'then borrows 100 in cash and declares and pays a cash '
+                  'dividend of 40. What is total equity after these '
+                  'transactions?',
+             'o': ['450', '510', '550', '610'],
+             'a': 'B',
+             'why': 'Equity starts at 550 (900 − 350). Borrowing does not '
+                    'change equity. The dividend reduces it by 40, so equity '
+                    'is 510. A is wrong: This is total liabilities after the '
+                    'loan (350 + 100), not equity. C is wrong: This ignores '
+                    'the dividend, which reduces retained earnings.',
+             'src': 'P07'},
+            {'t': 'MCQ',
+             'q': 'On February 10, Orontes pays 24 for 12 months of '
+                  'warehouse rent in advance. How does the payment appear '
+                  'immediately after it is made?',
+             'o': ['As an asset of 24',
+                   'As an expense of 24',
+                   'As a liability of 24',
+                   'It is not recorded until the end of the month.'],
+             'a': 'A',
+             'why': 'Prepaid rent is an asset: Orontes has paid for 12 '
+                    'months of future use. B is wrong: The benefit is in the '
+                    'future, so the cost becomes an expense month by month. '
+                    'C is wrong: This confuses a prepaid expense (asset) '
+                    'with unearned revenue (liability).',
+             'src': 'P12'},
+            {'t': 'MCQ',
+             'q': 'Which account normally has a debit balance?',
+             'o': ['Accounts payable',
+                   'Sales revenue',
+                   'Prepaid rent',
+                   'Additional paid-in capital'],
+             'a': 'C',
+             'why': 'Prepaid rent is an asset, and assets have debit '
+                    'balances. A is wrong: Accounts payable is a liability, '
+                    'with a credit balance. B is wrong: Revenue increases '
+                    'equity, so it has a credit balance.',
+             'src': 'P08'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -272,26 +340,31 @@ HANDOUT = {'id': '1.3',
             'Debit Equipment 1,200; credit Notes payable 1,200',
             'Debit Equipment 1,200; credit Cash 1,200'],
            'D',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
+           'redo the USE IT questions of cycle A with the model in front of '
+           'you.',
            'One asset increases (debit Equipment) and another asset '
            'decreases (credit Cash). A is wrong: The sides are reversed: '
            'this entry would increase cash and decrease equipment. B is '
            'wrong: The bottling line is an asset, not an expense of this '
            'period.'),
           ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
+          ('move', 'FIRST THOUGHT', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
-             'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
+           [{'t': 'MCQ',
+             'q': 'A term on this sheet means exactly what this sheet '
+                  'defines it to mean. When that differs from ordinary '
+                  'English, which wins?',
+             'o': ['the definition given here',
+                   'the ordinary English meaning',
+                   'whichever makes the question easier',
+                   'they never differ'],
+             'a': 'A',
+             'why': 'An exam question turns on the exact term, and one word '
+                    'can change the answer.'}]),
+          ('move', 'FILL IT IN', ''),
           ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
+           'The English this sheet uses, and its Arabic',
+           [['English (exam term)', 'Arabic'],
             ['asset', 'أصل (أصول)'],
             ['dividend', 'توزيعات الأرباح'],
             ['U.S. GAAP',
@@ -304,7 +377,7 @@ HANDOUT = {'id': '1.3',
             ['FASB', 'مجلس معايير المحاسبة المالية'],
             ['statement of financial position', 'قائمة المركز المالي']],
            ''),
-          ('move', 'READ THE MODEL', ''),
+          ('move', 'USE IT', ''),
           ('items',
            [{'t': 'MATCH',
              'q': 'Write the letter of the Arabic term beside each English '
@@ -327,55 +400,29 @@ HANDOUT = {'id': '1.3',
           ('move', 'APPLY', ''),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which account normally has a credit balance?',
-             'o': ['Prepaid rent',
-                   'Accumulated depreciation',
-                   'Cost of goods sold',
-                   'Dividends declared'],
-             'a': 'B',
-             'why': 'Accumulated depreciation is a contra-asset account, so '
-                    'it has the opposite (credit) balance to assets. A is '
-                    'wrong: Prepaid rent is an asset, so its normal balance '
-                    'is a debit. C is wrong: Cost of goods sold is an '
-                    'expense, so its normal balance is a debit.',
-             'src': 'SC3-1'},
+             'q': 'Which words complete this? “Whether a …… increases an '
+                  'account depends on the type of account.”',
+             'o': ['debit', 'asset', 'equity', 'FASB'],
+             'a': 'A',
+             'why': 'The sentence reads: “Whether a debit increases an '
+                    'account depends on the type of account.”'},
             {'t': 'MCQ',
-             'q': 'Which question it answers does the book give for '
-                  'Statement of cash flows?',
-             'o': ['How did the company perform?',
-                   'What does the company have and owe, and what is the '
-                   "owners' claim?",
-                   'Why did each equity account change?',
-                   'Where did cash come from, and where did it go?'],
-             'a': 'D',
-             'why': 'The book’s own table gives Where did cash come from, '
-                    'and where did it go? as the question it answers of '
-                    'Statement of cash flows.'},
-            {'t': 'MATCH',
-             'q': 'Write the letter of the matching question it answers '
-                  'beside each statement. Every one is used once.',
-             'left': ['Balance sheet',
-                      'Income statement',
-                      'Statement of changes in equity',
-                      'Statement of cash flows'],
-             'right': ['How did the company perform?',
-                       'What does the company have and owe, and what is the '
-                       "owners' claim?",
-                       'Why did each equity account change?',
-                       'Where did cash come from, and where did it go?'],
-             'a': ['B', 'A', 'C', 'D'],
-             'whys': ['', '', '', '']}]),
+             'q': 'Which words complete this? “Its shares are listed on a '
+                  'U.S. stock exchange, and it reports under …….”',
+             'o': ['U.S. GAAP', 'inventory', 'liability', 'recognize'],
+             'a': 'A',
+             'why': 'The sentence reads: “Its shares are listed on a U.S. '
+                    'stock exchange, and it reports under U.S. GAAP.”'}]),
           ('check',
-           'What is the safest way to settle a disagreement about an answer '
-           'on this sheet?',
-           ['find the row of the model that decides it',
-            'take the answer of whoever is more confident',
-            'leave it until the lecturer says',
-            'choose the longer option'],
-           'A',
-           'redo the READ THE MODEL questions of cycle B.',
-           'Every item on a Workshop sheet is settled by something printed '
-           'on the same sheet.'),
+           'Which words complete this? “This is why the …… always balances.”',
+           ['financial statements',
+            'accounting equation',
+            'accounts receivable',
+            'double-entry system'],
+           'B',
+           'redo the USE IT questions of round B.',
+           'The sentence reads: “This is why the accounting equation always '
+           'balances.”'),
           ('build',
            'drcr_grid',
            'Rebuild the figure from this handout. Label every part and fill '

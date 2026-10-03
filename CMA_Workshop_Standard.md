@@ -956,3 +956,150 @@ Forty-two findings remain, none severe.
 
 `cma/wsaudit.py` prints the table above; `CMA_Book1_Exercise_Plan.md` names
 every remaining finding with its handout, its exercise and its action.
+
+## 13 · Fifth revision — the sheet replaces the chapter
+
+A review of handout 1.1 found four things wrong with it and a fifth
+underneath. The four were named; the fifth was the reason the first four
+mattered.
+
+**"Tick it if you could already use it in a sentence."** The vocabulary
+strip on page one asked exactly that. There is nothing to mark, no answer,
+and a reader who ticks every box has done no work. It is replaced by
+**definition matching**: each term against what it means, drawn from the
+section's own definition table where it has one and from its own sentences
+otherwise ("Relevance means the information can make a difference to a
+decision"). The strip on page one keeps the terms but puts the meaning in
+the second column, so it is a reference a reader can use while working
+rather than a pretend exercise.
+
+**The three summaries were shallow, and mostly instructions.** Each gapped
+three or four words out of two or three sentences, under an instruction —
+*"Fill every gap. The list holds more words than there are gaps, so one or
+two of them are not used"* — longer than the thinnest of the passages. So:
+the passages roughly **double** (300–900 characters, four to nine
+sentences, up to six gaps), the word list holds **one** spare rather than
+two, and the instruction is now *"Fill every gap. One word in the list is
+not used."* The three still come one from each third of the section and are
+still disjoint at the sentence, so read together they preview the whole of
+it; and they are now **labelled by position in the section** rather than by
+the order the search happened to find them, which it was not doing.
+
+**The model was printed complete and then quizzed.** A table arrived
+labelled MODEL, and three lines later a question asked which of its cells
+said what. That teaches nothing: the answer is on the page above the
+question and can be copied without reading either. Now the table arrives
+with about **a third of its cells gone**, scattered rather than in a block
+and never in the first column, with a word list holding the missing cells
+plus one. Completing it is the first exercise of the round. The questions
+that follow are about the cells it did *not* gap, so neither gives the
+other away, and the first-thought claim is excluded from the gaps for the
+same reason. Nothing on a sheet is called a model any more, and the rounds
+are named for what a reader does:
+
+| | |
+|---|---|
+| FIRST THOUGHT | answer from what you already know, before anything else |
+| FILL IT IN | complete the empty cells; the filled ones show you the pattern |
+| USE IT | answer from the table you have just completed |
+| STATE THE RULE | write the rule in your own words, then check it |
+| APPLY | new cases, no help |
+| CHECK YOURSELF | mark it; if you miss it, the sheet says what to redo |
+
+**No instruction refers to the source.** The sheets are meant to be usable
+*instead* of the book, so a sheet that says "which decision does the book
+give for Investors?" is telling a reader to go and look somewhere they do
+not have. Every reader-facing string lost its reference: stems ("what is
+the decision of X?"), the keys ("the decision of X is Y" rather than "the
+book gives Y as the decision of X"), the gapped-passage keys ("in full:
+…"), the rule frame ("complete the sentence"), the panel titles, the route
+map. The comments in the generator still say "book", because they describe
+where the material came from, which is a different question.
+
+### The fifth problem: the questions were about other sections
+
+Handout 1.1, on who reads financial statements, spent four of its applying
+questions on debit balances, contra-assets, the matching principle and
+retained earnings — one from each of three *later* sections. The chapter's
+end-of-chapter bank was being dealt out six at a time to the sections in
+order, which is not the same as dealing it by subject. A reader working
+through sheet 1.1 was answering questions about material the sheet had not
+taught and would not teach.
+
+Each practice item is now **attributed to the section it tests**, scored on
+the words it shares with each section (counting words distinctive to that
+section at triple weight) blended with where it sits in the printed bank,
+which is roughly section order anyway. Word overlap alone put the dividend
+item in the statements section and the prepaid-rent item in double entry;
+the two signals together agree with a reading of the chapter. Sheet 1.1 now
+applies P01, P02, P03, SC1-1 and SC1-2, all of them section 1.1.
+
+This cost something and the cost was worth paying. The fourth revision had
+reserved the bank's situated items — the ones that put a company in front
+of the reader — and dealt one to every handout so that no session was
+wholly abstract. That reservation drew from the chapter as a whole, so it
+put one section's question on another section's sheet: the very defect the
+attribution exists to fix. It is gone. A section whose own items are all
+abstract now gets an abstract applying move and the audit says so, which is
+the honest outcome.
+
+### Coverage, made checkable
+
+"The questions together cover all the main points" has to mean something a
+machine can refuse to build. So a nineteenth gate, `g_points_tested`,
+rebuilds each section's **main points** and asks whether any *question* on
+the sheet tests each one.
+
+A main point is one of three things, all of them the section's own:
+
+- **row** — a line of one of its tables
+- **def** — a term it states the meaning of
+- **claim** — a sentence that both asserts something and names one of its
+  terms
+
+Narration carries no point ("A company collects thousands of facts every
+day"), nor does the book introducing its own furniture ("In this book,
+Cedar Retail S.A.L. is our IFRS company"), nor encouragement addressed to
+the reader ("If you learned accounting under IFRS, this is good news") —
+all three are excluded.
+
+What counts as *testing* a point is deliberately narrow. A reference table
+prints a point without asking anything about it, and a gapped summary hands
+a reader every word it does not gap, so a panel contributes nothing and a
+summary contributes only the words it takes out. On the first run of the
+gate that distinction turned "0 of 34 uncovered" into "3 of 34", which is
+the difference between a measure and a flattering one.
+
+Whatever the rounds miss is closed by a **sweep** that runs last, in the
+closing applying move, using the same three shapes the rest of the sheet
+uses: a table row asked as a row, a definition asked in reverse ("which one
+means …?"), a claim asked with its key words removed ("which words complete
+this? …"). Chapter 1 went from nineteen untested points to none.
+
+Two bugs surfaced in building this, both worth recording because both were
+invisible:
+
+- The near-copy filter compares stems with quoted passages removed, which
+  is right for *"which row goes with ⟨a long sentence⟩?"* asked three times
+  over. But a sweep item is a frame around a quotation — *"which one means
+  ⟨…⟩?"* — so stripping the quotation left two words that every such item
+  shared, and the filter dropped all of them but the first. The rule now is
+  that when little is left, the whole stem is compared.
+- The coverage test picked a claim's longest words out of a `set`, so ties
+  broke on hash order and the same sheet passed the gate in one process and
+  failed it in the next. A gate that is not deterministic is not a gate.
+
+### What chapter 1 looks like now
+
+Seven sheets, 43 pages, 146 questions. Every main point of every section is
+tested by a question: 34 of 34 in section 1.1, 28 of 28 in 1.2, 14 of 14 in
+1.3, 21 of 21 in 1.4, 9 of 9 in 1.5, 23 of 23 in 1.6. The twelve-pass audit
+of chapter 1 reports 95 per cent of exercises clean and no severe finding.
+
+Two gates had to be taught what had changed, and both were right to need
+it. A table a reader completes is a model — more of one than a table
+printed to be read — so the visual-density gate counts a completion table
+where it used to count nothing. And a word list printed directly above the
+item that uses it is not an off-page reference, so the self-contained-stem
+gate allows "one word in the list is not used" for the item holding the
+list, and nothing else.

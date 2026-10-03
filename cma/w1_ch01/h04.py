@@ -3,11 +3,12 @@
 
 HANDOUT = {'id': '1.4',
  'n': 4,
- 'pages': 7,
+ 'pages': 6,
  'title': 'The accrual basis and the matching principle',
  'sub': 'section 1.4 of the book',
  'covers': ['sec:1.4',
-            'p:P04',
+            'p:P10',
+            'p:P11',
             'sc:SC4-1',
             'sc:SC4-2',
             'sc:SC4-1',
@@ -25,56 +26,68 @@ HANDOUT = {'id': '1.4',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Three summaries of this handout, in the book’s own words. Read '
-           'all three first: together they are the whole session. Then fill '
-           'the gaps, guessing where you have to.',
+           'Read all three before you write anything: together they are the '
+           'whole session. Then fill the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The accrual basis and the matching principle',
-             'a figure to read · Type · the book’s own rule, gapped',
+             'a diagram · a table to complete · a rule to complete',
              'On December 28, a customer pays Orontes 60 for goods that '
              'Orontes will deliver in January. What does Orontes report at '
              'December 31?'],
             ['The words this section uses precisely',
-             'The English the exam uses, and what it translates',
-             'What is the safest way to settle a disagreement about an '
-             'answer on this sheet?']],
+             'The English this sheet uses, and its Arabic',
+             'Which words complete this? “When should a company record '
+             'revenues and expenses? U.S. GAAP ...... use the accrual '
+             'basis.”']],
            [{'t': 'FILL',
-             'q': 'Where the section starts — Fill every gap. The list holds '
-                  'more words than there are gaps, so one or two of them are '
-                  'not used.',
-             'parts': ['The ',
+             'q': 'Where the section starts — Fill every gap. One word in '
+                  'the list is not used.',
+             'parts': ['Under the ',
+                       15,
+                       ', a company records ',
+                       11,
+                       ' when it earns it, that is, when it delivers the '
+                       'goods or services. It records expenses when it '
+                       'incurs them. The timing of the cash does not decide '
+                       'the period. The ',
                        12,
                        ' records items only when cash is received or paid. '
                        'The cash basis is simple, but it is not acceptable '
                        'under ',
                        11,
-                       '. Under the ',
-                       15,
-                       ', Orontes records the ',
-                       11,
-                       ' and the ',
+                       '. Under the accrual basis, Orontes records the '
+                       'revenue and the ',
                        20,
-                       ' in fiscal 2025, the year it delivered the goods.'],
+                       ' in fiscal 2025, the year it delivered the goods. '
+                       'The gross profit of 36 belongs to 2025. In January, '
+                       'the cash receipt only changes one ',
+                       11,
+                       ' (the receivable) into another asset (cash).'],
              'bank': ['cost of goods sold',
-                      'revenue',
                       'U.S. GAAP',
+                      'revenue',
+                      'asset',
                       'faithful representation',
-                      'contra account',
-                      'cash basis',
-                      'accrual basis'],
-             'a': 'cash basis · U.S. GAAP · accrual basis · revenue · cost '
-                  'of goods sold',
+                      'accrual basis',
+                      'cash basis'],
+             'a': 'accrual basis · revenue · cash basis · U.S. GAAP · cost '
+                  'of goods sold · asset',
              'one': True,
-             'why': 'The book writes: “The cash basis records items only '
-                    'when cash is received or paid. The cash basis is '
-                    'simple, but it is not acceptable under U.S. GAAP. Under '
-                    'the accrual basis, Orontes records the revenue and the '
-                    'cost of goods sold in fiscal 2025, the year it '
-                    'delivered the goods.”'},
+             'why': 'In full: “Under the accrual basis, a company records '
+                    'revenue when it earns it, that is, when it delivers the '
+                    'goods or services. It records expenses when it incurs '
+                    'them. The timing of the cash does not decide the '
+                    'period. The cash basis records items only when cash is '
+                    'received or paid. The cash basis is simple, but it is '
+                    'not acceptable under U.S. GAAP. Under the accrual '
+                    'basis, Orontes records the revenue and the cost of '
+                    'goods sold in fiscal 2025, the year it delivered the '
+                    'goods. The gross profit of 36 belongs to 2025. In '
+                    'January, the cash receipt only changes one asset (the '
+                    'receivable) into another asset (cash).”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
+             'q': 'What it settles in the middle — Fill every gap. One word '
+                  'in the list is not used.',
              'parts': ['The ',
                        20,
                        ' says: record expenses in the same period as the ',
@@ -83,73 +96,99 @@ HANDOUT = {'id': '1.4',
                        'apply it. Some costs link directly to a sale. ',
                        20,
                        ' is the classic example: Orontes records it at the '
-                       'same time as the sales revenue.'],
+                       'same time as the sales revenue. Systematic and '
+                       'rational allocation. Some costs help many periods, '
+                       'such as a bottling line. Depreciation spreads the '
+                       'cost over the years of use. Some costs have no clear '
+                       'link to future revenue, such as most advertising and '
+                       'office salaries. They are expenses in the period in '
+                       'which they are incurred.'],
              'bank': ['Cost of goods sold',
                       'matching principle',
                       'revenue',
-                      'faithful representation',
-                      'contra account'],
+                      'faithful representation'],
              'a': 'matching principle · revenue · Cost of goods sold',
              'one': True,
-             'why': 'The book writes: “The matching principle says: record '
-                    'expenses in the same period as the revenues they help '
-                    'to produce. There are three ways to apply it. Some '
-                    'costs link directly to a sale. Cost of goods sold is '
-                    'the classic example: Orontes records it at the same '
-                    'time as the sales revenue.”'},
+             'why': 'In full: “The matching principle says: record expenses '
+                    'in the same period as the revenues they help to '
+                    'produce. There are three ways to apply it. Some costs '
+                    'link directly to a sale. Cost of goods sold is the '
+                    'classic example: Orontes records it at the same time as '
+                    'the sales revenue. Systematic and rational allocation. '
+                    'Some costs help many periods, such as a bottling line. '
+                    'Depreciation spreads the cost over the years of use. '
+                    'Some costs have no clear link to future revenue, such '
+                    'as most advertising and office salaries. They are '
+                    'expenses in the period in which they are incurred.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['A ',
+             'q': 'Where it ends — Fill every gap. One word in the list is '
+                  'not used.',
+             'parts': ['Cash is received before the ',
+                       11,
+                       ' is earned. The ',
+                       11,
+                       ' is incurred before cash is paid. Revenue is earned '
+                       'before cash is received or billed. Two of these '
+                       'names are important for the exam. A ',
                        17,
                        ' is an ',
                        11,
                        ': the company has paid for a future benefit. A '
                        'contract ',
                        11,
-                       ' (unearned ',
-                       11,
-                       ') is a liability: the company must still deliver the '
-                       'goods or services. Cash received in advance is a '
-                       'liability, not revenue.'],
-             'bank': ['prepaid expense',
-                      'asset',
-                      'contra account',
-                      'revenue',
+                       ' (unearned revenue) is a liability: the company must '
+                       'still deliver the goods or services. Cash received '
+                       'in advance is a liability, not revenue. Cash paid in '
+                       'advance is an asset, not an expense. Matching means '
+                       'matching expenses to revenues, not to cash '
+                       'payments.'],
+             'bank': ['revenue',
+                      'expense',
                       'faithful representation',
-                      'liability'],
-             'a': 'prepaid expense · asset · liability · revenue',
+                      'asset',
+                      'liability',
+                      'prepaid expense'],
+             'a': 'revenue · expense · prepaid expense · asset · liability',
              'one': True,
-             'why': 'The book writes: “A prepaid expense is an asset: the '
-                    'company has paid for a future benefit. A contract '
-                    'liability (unearned revenue) is a liability: the '
-                    'company must still deliver the goods or services. Cash '
-                    'received in advance is a liability, not revenue.”'}],
-           [('Words this handout uses precisely',
-             [['Words this handout uses precisely',
-               'tick it if you could already use it in a sentence'],
+             'why': 'In full: “Cash is received before the revenue is '
+                    'earned. The expense is incurred before cash is paid. '
+                    'Revenue is earned before cash is received or billed. '
+                    'Two of these names are important for the exam. A '
+                    'prepaid expense is an asset: the company has paid for a '
+                    'future benefit. A contract liability (unearned revenue) '
+                    'is a liability: the company must still deliver the '
+                    'goods or services. Cash received in advance is a '
+                    'liability, not revenue. Cash paid in advance is an '
+                    'asset, not an expense. Matching means matching expenses '
+                    'to revenues, not to cash payments.”'}],
+           [('What this sheet settles',
+             [['Word', 'what it means here'],
               ['liability', ''],
               ['accounting equation', ''],
               ['IFRS', ''],
               ['disclose', ''],
               ['par value', ''],
               ['contra account', ''],
-              ['cost of goods sold', '']]),
-            ('How every cycle on this sheet works',
-             [['How a cycle works', 'what you do'],
-              ['MODEL',
-               'read the figure or the table before you answer anything'],
-              ['READ THE MODEL', 'every answer is printed on the same page'],
-              ['INVENT THE RULE',
-               'write the rule yourself, then compare with the book'],
-              ['APPLY', 'no help on this move'],
-              ['CHECKPOINT',
-               'mark it yourself; if you miss it, the sheet says what to '
-               'redo']])]),
+              ['cost of goods sold',
+               'the classic example: Orontes records it at the same time as '
+               'the sales revenue']]),
+            ('How every round on this sheet works',
+             [['The five steps of a round', 'what you do'],
+              ['FIRST THOUGHT',
+               'answer from what you already know, before anything else'],
+              ['FILL IT IN',
+               'complete the empty cells; the filled ones show you the '
+               'pattern'],
+              ['USE IT', 'answer from the table you have just completed'],
+              ['STATE THE RULE',
+               'write the rule in your own words, then check it'],
+              ['APPLY', 'new cases, no help'],
+              ['CHECK YOURSELF',
+               'mark it; if you miss it, the sheet says what to redo']])]),
           ('page',),
           ('cycle', 'A', 'The accrual basis and the matching principle'),
           ('move',
-           'ORIENT',
+           'FIRST THOUGHT',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
@@ -158,53 +197,62 @@ HANDOUT = {'id': '1.4',
              'a': 'T',
              'why': 'The framework defines the elements, and every amount '
                     'belongs to one of them.'}]),
-          ('move', 'MODEL', 'Read it before you answer anything below it.'),
+          ('move', 'FILL IT IN', ''),
           ('fig', 'accrual_timeline'),
-          ('panel',
-           'Type — the book’s own table',
-           [['Type', 'What happens', 'Orontes example', 'Creates'],
-            ['Prepaid expense (deferral)',
-             'Cash is paid before the expense is incurred.',
-             'Rent paid in advance (February, row 3)',
-             'an asset'],
-            ['Contract liability, or unearned revenue (deferral)',
-             'Cash is received before the revenue is earned.',
-             'Hotel pays in advance (February, row 4)',
-             'a liability'],
-            ['Accrued expense',
-             'The expense is incurred before cash is paid.',
-             'Interest owed on the bank note (February, row 6)',
-             'a liability'],
-            ['Accrued revenue',
-             'Revenue is earned before cash is received or billed.',
-             'Studied in Chapter 11',
-             'an asset']],
-           ''),
-          ('move',
-           'READ THE MODEL',
-           'Every answer is printed above. Find it, do not recall it.'),
+          ('items',
+           [{'t': 'GRID',
+             'q': 'Complete the empty cells. One entry in the list is not '
+                  'used.',
+             'h': ['Type', 'What happens', 'Orontes example', 'Creates'],
+             'rows': [['Prepaid expense (deferral)',
+                       'Cash is paid before the expense is incurred.',
+                       'Rent paid in advance (February, row 3)',
+                       'an asset'],
+                      ['Contract liability, or unearned revenue (deferral)',
+                       '',
+                       'Hotel pays in advance (February, row 4)',
+                       'a liability'],
+                      ['Accrued expense',
+                       '',
+                       'Interest owed on the bank note (February, row 6)',
+                       'a liability'],
+                      ['Accrued revenue',
+                       'Revenue is earned before cash is received or billed.',
+                       'Studied in Chapter 11',
+                       'an asset']],
+             'bank': ['The expense is incurred before cash is paid.',
+                      'Hotel pays in advance (February, row 4)',
+                      'Cash is received before the revenue is earned.'],
+             'a': ['Contract liability, or unearned revenue (deferral) — '
+                   'what happens: Cash is received before the revenue is '
+                   'earned.',
+                   'Accrued expense — what happens: The expense is incurred '
+                   'before cash is paid.'],
+             'whys': ['', ''],
+             'blank': [(1, 1), (2, 1)]}]),
+          ('move', 'USE IT', 'Use the table you have just completed.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which type does the book pair with “Cash is paid before '
-                  'the expense is incurred.”?',
+             'q': 'Which type goes with “Cash is paid before the expense is '
+                  'incurred.”?',
              'o': ['Accrued revenue',
                    'Prepaid expense (deferral)',
                    'Accrued expense',
                    'Contract liability, or unearned revenue (deferral)'],
              'a': 'B',
-             'why': 'The book’s own table pairs Prepaid expense (deferral) '
-                    'with “Cash is paid before the expense is incurred.”.'},
+             'why': 'Prepaid expense (deferral) goes with “Cash is paid '
+                    'before the expense is incurred.”.'},
             {'t': 'MCQ',
-             'q': 'Which orontes example does the book give for Contract '
-                  'liability, or unearned revenue (deferral)?',
+             'q': 'What is the orontes example of Contract liability, or '
+                  'unearned revenue (deferral)?',
              'o': ['Studied in Chapter 11',
                    'Hotel pays in advance (February, row 4)',
                    'Interest owed on the bank note (February, row 6)',
                    'Rent paid in advance (February, row 3)'],
              'a': 'B',
-             'why': 'The book’s own table gives Hotel pays in advance '
-                    '(February, row 4) as the orontes example of Contract '
-                    'liability, or unearned revenue (deferral).'},
+             'why': 'The Hotel pays in advance (February, row 4) of orontes '
+                    'example is Contract liability, or unearned revenue '
+                    '(deferral).'},
             {'t': 'SORT',
              'q': 'Write each one under the heading it belongs to. Every '
                   'item belongs to exactly one group.',
@@ -217,10 +265,9 @@ HANDOUT = {'id': '1.4',
                    '(deferral), Accrued expense',
                    'an asset: Prepaid expense (deferral), Accrued revenue'],
              'whys': ['', '']}]),
-          ('move', 'INVENT THE RULE', ''),
+          ('move', 'STATE THE RULE', ''),
           ('rule',
-           'Complete the book’s own sentence. The list holds more words than '
-           'there are gaps.',
+           'Complete the sentence.',
            [['When should a company record revenues and expenses? ',
              11,
              ' ',
@@ -229,15 +276,14 @@ HANDOUT = {'id': '1.4',
              15,
              '.']],
            ['U.S. GAAP',
-            'cost of goods sold',
-            'gain',
             'accrual basis',
+            'cost of goods sold',
             'financial statements'],
            'When should a company record revenues and expenses? U.S. GAAP '
            'financial statements use the accrual basis.',
            'U.S. GAAP · financial statements · accrual basis'),
           ('contrast',
-           'Two of the book’s own cases, side by side',
+           'Two cases, side by side',
            [('Prepaid expense (deferral)',
              ['What happens: Cash is paid before the expense is incurred.',
               'Orontes example: Rent paid in advance (February, row 3)']),
@@ -248,24 +294,38 @@ HANDOUT = {'id': '1.4',
            'expense (deferral)?',
            ['an asset', 'a liability', 'both of them', 'neither of them'],
            'A',
-           'The book gives an asset as the creates of Prepaid expense '
-           '(deferral).'),
+           'The creates of Prepaid expense (deferral) is an asset.'),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A company issues common stock for cash. What is the '
-                  'effect on the accounting equation?',
-             'o': ['Assets increase and equity increases.',
-                   'Assets increase and revenue increases.',
-                   'Assets increase and liabilities increase.',
-                   'There is no effect on the equation.'],
-             'a': 'A',
-             'why': 'Cash (an asset) increases, and contributed capital '
-                    '(equity) increases by the same amount. B is wrong: '
-                    'Selling shares is financing from owners, not revenue. C '
-                    'is wrong: Shares are equity, not debt. A liability '
-                    'arises only when the company borrows.',
-             'src': 'P04'}]),
+             'q': 'Orontes ships goods on December 20, 2025 and invoices 90. '
+                  'The goods cost 54. The customer pays on January 15, 2026. '
+                  'The fiscal year ends on December 31. How much revenue '
+                  'does Orontes report for fiscal 2025?',
+             'o': ['0', '36', '54', '90'],
+             'a': 'D',
+             'why': 'Under the accrual basis, revenue is recorded when the '
+                    'goods are delivered, in 2025. A is wrong: This is '
+                    'cash-basis thinking. The cash timing does not decide '
+                    'the period. B is wrong: This is the gross profit '
+                    '(revenue minus cost), not the revenue.',
+             'src': 'P10'},
+            {'t': 'MCQ',
+             'q': 'Which statement about the matching principle is correct?',
+             'o': ['Expenses are recognized in the period in which they are '
+                   'paid.',
+                   'Revenues are recognized in the period in which cash is '
+                   'received.',
+                   'All costs are capitalized as assets until related '
+                   'revenue is earned.',
+                   'Expenses are recognized in the same period as the '
+                   'revenues they help to produce.'],
+             'a': 'D',
+             'why': 'This is the definition of matching. A is wrong: Payment '
+                    'timing does not decide when an expense is recognized. B '
+                    'is wrong: Revenue is recognized when earned, not when '
+                    'cash is received.',
+             'src': 'P11'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -279,26 +339,31 @@ HANDOUT = {'id': '1.4',
             'Revenue of 60',
             'Nothing until the goods are delivered'],
            'A',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
+           'redo the USE IT questions of cycle A with the model in front of '
+           'you.',
            'Cash increases, and Orontes owes the customer the goods. This is '
            'a contract liability (unearned revenue). B is wrong: Revenue is '
            'not earned until the goods are delivered in January. C is wrong: '
            'The cash asset is correct, but the credit is a liability, not '
            'revenue.'),
           ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
+          ('move', 'FIRST THOUGHT', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
-             'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
+           [{'t': 'MCQ',
+             'q': 'A term on this sheet means exactly what this sheet '
+                  'defines it to mean. When that differs from ordinary '
+                  'English, which wins?',
+             'o': ['the definition given here',
+                   'the ordinary English meaning',
+                   'whichever makes the question easier',
+                   'they never differ'],
+             'a': 'A',
+             'why': 'An exam question turns on the exact term, and one word '
+                    'can change the answer.'}]),
+          ('move', 'FILL IT IN', ''),
           ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
+           'The English this sheet uses, and its Arabic',
+           [['English (exam term)', 'Arabic'],
             ['liability', 'التزام (التزامات)'],
             ['accounting equation', 'المعادلة المحاسبية'],
             ['IFRS', 'المعايير الدولية لإعداد التقارير المالية'],
@@ -310,7 +375,7 @@ HANDOUT = {'id': '1.4',
              'تقنين معايير المحاسبة'],
             ['income statement', 'قائمة الدخل']],
            ''),
-          ('move', 'READ THE MODEL', ''),
+          ('move', 'USE IT', ''),
           ('items',
            [{'t': 'MATCH',
              'q': 'Write the letter of the Arabic term beside each English '
@@ -346,6 +411,38 @@ HANDOUT = {'id': '1.4',
                     'immediately.',
              'src': 'SC4-2'},
             {'t': 'MCQ',
+             'q': 'Under the U.S. conceptual framework, the objective of '
+                  'general-purpose financial reporting is to provide useful '
+                  'information mainly to:',
+             'o': ['the board of directors and senior management.',
+                   'government statisticians and tax authorities.',
+                   'existing and potential investors, lenders and other '
+                   'creditors.',
+                   "the company's employees and trade unions."],
+             'a': 'C',
+             'why': 'These are the primary users. They provide resources and '
+                    'cannot demand special reports. A is wrong: Management '
+                    'can obtain internal information, so it is not a primary '
+                    'user. B is wrong: Governments use the statements, but '
+                    'they are not the primary users named by the framework.',
+             'src': 'P01'},
+            {'t': 'MCQ',
+             'q': 'A bank is deciding whether to renew a five-year loan to '
+                  'Orontes. Which information will the bank find MOST '
+                  'useful?',
+             'o': ['The highest and lowest share price during the year',
+                   "The company's ability to generate cash to pay interest "
+                   'and repay principal',
+                   'The number of products the company sells',
+                   "The names of the company's major shareholders"],
+             'a': 'B',
+             'why': "A lender's main question is repayment: can the borrower "
+                    'pay interest and principal on time? A is wrong: Share '
+                    'prices interest investors more than lenders and do not '
+                    'show repayment ability. C is wrong: The product count '
+                    'does not show whether the company can repay the loan.',
+             'src': 'P02'},
+            {'t': 'MCQ',
              'q': 'On December 28, a customer pays Orontes 60 for goods that '
                   'Orontes will deliver in January. What does Orontes report '
                   'at December 31?',
@@ -358,31 +455,29 @@ HANDOUT = {'id': '1.4',
                     'B is wrong: Revenue is not earned until the goods are '
                     'delivered in January. C is wrong: The cash asset is '
                     'correct, but the credit is a liability, not revenue.',
-             'src': 'SC4-1'},
-            {'t': 'MATCH',
-             'q': 'Write the letter of the matching entry beside each type. '
-                  'Every one is used once.',
-             'left': ['Prepaid expense (deferral)',
-                      'Contract liability, or unearned revenue (deferral)',
-                      'Accrued expense',
-                      'Accrued revenue'],
-             'right': ['Revenue is earned before cash is received or billed.',
-                       'The expense is incurred before cash is paid.',
-                       'Cash is received before the revenue is earned.',
-                       'Cash is paid before the expense is incurred.'],
-             'a': ['D', 'C', 'B', 'A'],
-             'whys': ['', '', '', '']}]),
+             'src': 'SC4-1'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which words complete this? “In January, the cash receipt '
+                  'only changes one …… (the receivable) into another asset '
+                  '(cash).”',
+             'o': ['debit', 'asset', 'equity', 'IFRS'],
+             'a': 'B',
+             'why': 'The sentence reads: “In January, the cash receipt only '
+                    'changes one asset (the receivable) into another asset '
+                    '(cash).”'}]),
           ('check',
-           'What is the safest way to settle a disagreement about an answer '
-           'on this sheet?',
-           ['find the row of the model that decides it',
-            'take the answer of whoever is more confident',
-            'leave it until the lecturer says',
-            'choose the longer option'],
-           'A',
-           'redo the READ THE MODEL questions of cycle B.',
-           'Every item on a Workshop sheet is settled by something printed '
-           'on the same sheet.'),
+           'Which words complete this? “When should a company record '
+           'revenues and expenses? U.S. GAAP …… use the accrual basis.”',
+           ['conceptual framework',
+            'accounting equation',
+            'double-entry system',
+            'financial statements'],
+           'D',
+           'redo the USE IT questions of round B.',
+           'The sentence reads: “When should a company record revenues and '
+           'expenses? U.S. GAAP financial statements use the accrual '
+           'basis.”'),
           ('build',
            'accrual_timeline',
            'Rebuild the figure from this handout. Label every part and fill '

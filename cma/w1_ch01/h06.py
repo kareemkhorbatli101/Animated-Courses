@@ -3,11 +3,13 @@
 
 HANDOUT = {'id': '1.6',
  'n': 6,
- 'pages': 5,
+ 'pages': 7,
  'title': 'A first look at the four statements',
  'sub': 'section 1.6 of the book',
  'covers': ['sec:1.6',
-            'p:P06',
+            'p:P09',
+            'p:P13',
+            'p:P14',
             'sc:SC6-1',
             'sc:SC6-1',
             'term:revenue',
@@ -23,22 +25,20 @@ HANDOUT = {'id': '1.6',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Three summaries of this handout, in the book’s own words. Read '
-           'all three first: together they are the whole session. Then fill '
-           'the gaps, guessing where you have to.',
+           'Read all three before you write anything: together they are the '
+           'whole session. Then fill the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['A first look at the four statements',
-             'a figure to read · Account',
+             'a diagram · Account',
              'Which statement reports amounts at a single date?'],
             ['The words this section uses precisely',
-             'a figure to read · Account · The English the exam uses, and '
-             'what it translates',
-             'What is the safest way to settle a disagreement about an '
-             'answer on this sheet?']],
+             'a diagram · Account · The English this sheet uses, and its '
+             'Arabic',
+             'Which words complete this? “Notice that ...... and the change '
+             'in cash are very different numbers.”']],
            [{'t': 'FILL',
-             'q': 'Where the section starts — Fill every gap. The list holds '
-                  'more words than there are gaps, so one or two of them are '
-                  'not used.',
+             'q': 'Where the section starts — Fill every gap. One word in '
+                  'the list is not used.',
              'parts': ['Each statement answers a different question for '
                        'users. Chapters 2 to 5 study each statement in '
                        'detail. The four statements are linked. ',
@@ -48,24 +48,24 @@ HANDOUT = {'id': '1.6',
                        ', and the net change in cash explains the cash '
                        'balance on the ',
                        15,
-                       '.'],
-             'bank': ['trial balance',
-                      'retained earnings',
+                       '. You can see both links in the January transactions '
+                       'of Orontes.'],
+             'bank': ['cost of goods sold',
                       'balance sheet',
-                      'cost of goods sold',
+                      'retained earnings',
                       'Net income'],
              'a': 'Net income · retained earnings · balance sheet',
              'one': True,
-             'why': 'The book writes: “Each statement answers a different '
-                    'question for users. Chapters 2 to 5 study each '
-                    'statement in detail. The four statements are linked. '
-                    'Net income flows into retained earnings, and the net '
-                    'change in cash explains the cash balance on the balance '
-                    'sheet.”'},
+             'why': 'In full: “Each statement answers a different question '
+                    'for users. Chapters 2 to 5 study each statement in '
+                    'detail. The four statements are linked. Net income '
+                    'flows into retained earnings, and the net change in '
+                    'cash explains the cash balance on the balance sheet. '
+                    'You can see both links in the January transactions of '
+                    'Orontes.”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
+             'q': 'What it settles in the middle — Fill every gap. One word '
+                  'in the list is not used.',
              'parts': ['The ',
                        11,
                        ' declared was 50, so ',
@@ -77,48 +77,55 @@ HANDOUT = {'id': '1.6',
                        ' and the change in cash are very different numbers. '
                        'This is the ',
                        15,
-                       ' at work.'],
+                       ' at work. Before you leave this chapter, practise '
+                       'reading a ',
+                       15,
+                       '. A trial balance lists every account balance and '
+                       'checks that total debits equal total credits. You '
+                       'will use it in the section check below and in the '
+                       'practice set. MOST likely or BEST describes: more '
+                       'than one option may be partly true.'],
              'bank': ['accrual basis',
                       'retained earnings',
                       'net income',
-                      'trial balance',
-                      'dividend',
-                      'cost of goods sold'],
-             'a': 'dividend · retained earnings · net income · accrual basis',
-             'one': True,
-             'why': 'The book writes: “The dividend declared was 50, so '
-                    'retained earnings rose by 30. Cash rose by 1,060: an '
-                    'operating outflow of 40, an investing outflow of 1,200 '
-                    'and a financing inflow of 2,300. Notice that net income '
-                    'and the change in cash are very different numbers. This '
-                    'is the accrual basis at work.”'},
-            {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
-             'parts': ['A ',
-                       15,
-                       ' lists every account balance and checks that total '
-                       'debits equal total credits. You will use it in the '
-                       'section check below and in the ',
-                       11,
-                       ' set. MOST likely or BEST ',
-                       11,
-                       ': more than one option may be partly true.'],
-             'bank': ['relevance',
                       'cost of goods sold',
-                      'trial balance',
-                      'describes',
-                      'practice'],
-             'a': 'trial balance · practice · describes',
+                      'dividend',
+                      'trial balance'],
+             'a': 'dividend · retained earnings · net income · accrual basis '
+                  '· trial balance',
              'one': True,
-             'why': 'The book writes: “A trial balance lists every account '
-                    'balance and checks that total debits equal total '
-                    'credits. You will use it in the section check below and '
-                    'in the practice set. MOST likely or BEST describes: '
-                    'more than one option may be partly true.”'}],
-           [('Words this handout uses precisely',
-             [['Words this handout uses precisely',
-               'tick it if you could already use it in a sentence'],
+             'why': 'In full: “The dividend declared was 50, so retained '
+                    'earnings rose by 30. Cash rose by 1,060: an operating '
+                    'outflow of 40, an investing outflow of 1,200 and a '
+                    'financing inflow of 2,300. Notice that net income and '
+                    'the change in cash are very different numbers. This is '
+                    'the accrual basis at work. Before you leave this '
+                    'chapter, practise reading a trial balance. A trial '
+                    'balance lists every account balance and checks that '
+                    'total debits equal total credits. You will use it in '
+                    'the section check below and in the practice set. MOST '
+                    'likely or BEST describes: more than one option may be '
+                    'partly true.”'},
+            {'t': 'FILL',
+             'q': 'Where it ends — Fill every gap. One entry in the list is '
+                  'not used.',
+             'parts': ['“Account” settles these: for Cash it is ',
+                       11,
+                       ', for Inventory it is ',
+                       11,
+                       ', for Prepaid rent it is ',
+                       11,
+                       ' and for Land it is ',
+                       11,
+                       '.'],
+             'bank': ['936', '50', '1,050', '24', '4,200', '420'],
+             'one': True,
+             'a': '1,050 · 420 · 24 · 936',
+             'why': 'In full: “Account” settles these: for Cash it is 1,050 '
+                    'and for Inventory it is 420 and for Prepaid rent it is '
+                    '24 and for Land it is 936.'}],
+           [('What this sheet settles',
+             [['Word', 'what it means here'],
               ['revenue', ''],
               ['credit', ''],
               ['relevance', ''],
@@ -126,21 +133,23 @@ HANDOUT = {'id': '1.6',
               ['normal balance', ''],
               ['allowance for credit losses', ''],
               ['cash basis', '']]),
-            ('How every cycle on this sheet works',
-             [['How a cycle works', 'what you do'],
-              ['MODEL',
-               'read the figure or the table before you answer anything'],
-              ['READ THE MODEL', 'every answer is printed on the same page'],
-              ['INVENT THE RULE',
-               'write the rule yourself, then compare with the book'],
-              ['APPLY', 'no help on this move'],
-              ['CHECKPOINT',
-               'mark it yourself; if you miss it, the sheet says what to '
-               'redo']])]),
+            ('How every round on this sheet works',
+             [['The five steps of a round', 'what you do'],
+              ['FIRST THOUGHT',
+               'answer from what you already know, before anything else'],
+              ['FILL IT IN',
+               'complete the empty cells; the filled ones show you the '
+               'pattern'],
+              ['USE IT', 'answer from the table you have just completed'],
+              ['STATE THE RULE',
+               'write the rule in your own words, then check it'],
+              ['APPLY', 'new cases, no help'],
+              ['CHECK YOURSELF',
+               'mark it; if you miss it, the sheet says what to redo']])]),
           ('page',),
           ('cycle', 'A', 'A first look at the four statements'),
           ('move',
-           'ORIENT',
+           'FIRST THOUGHT',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
@@ -149,10 +158,10 @@ HANDOUT = {'id': '1.6',
              'a': 'T',
              'why': 'The framework defines the elements, and every amount '
                     'belongs to one of them.'}]),
-          ('move', 'MODEL', 'Read it before you answer anything below it.'),
+          ('move', 'FILL IT IN', ''),
           ('fig', 'articulation'),
           ('panel',
-           'Account — the book’s own table',
+           'Account — Debit',
            [['Account', 'Debit', 'Credit'],
             ['Cash', '1,050', ''],
             ['Accounts receivable', '300', ''],
@@ -176,30 +185,64 @@ HANDOUT = {'id': '1.6',
             ['Interest expense', '90', ''],
             ['Totals', '9,750', '9,750']],
            ''),
-          ('move',
-           'READ THE MODEL',
-           'Every answer is printed above. Find it, do not recall it.'),
+          ('move', 'USE IT', 'Use the table you have just completed.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which account does the book pair with “1,050”?',
+             'q': 'Which account goes with “1,050”?',
              'o': ['Cash', 'Inventory', 'Prepaid rent', 'Equipment'],
              'a': 'A',
-             'why': 'The book’s own table pairs Cash with “1,050”.'}]),
+             'why': 'Cash goes with “1,050”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “900”?',
+             'o': ['Retained earnings, January 1',
+                   'Accumulated depreciation',
+                   'Inventory',
+                   'Equipment'],
+             'a': 'B',
+             'why': 'Accumulated depreciation goes with “900”.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which transaction changes total assets but does NOT '
-                  'change total equity?',
-             'o': ['Borrowing cash from a bank',
-                   'Paying wages in cash',
-                   'Selling goods on credit at a profit',
-                   'Buying equipment for cash'],
+             'q': 'Accumulated depreciation is BEST described as:',
+             'o': ['a liability for future asset replacement.',
+                   'a contra-asset account with a credit balance.',
+                   'an expense of the current period.',
+                   'a reduction of retained earnings.'],
+             'a': 'B',
+             'why': 'It reduces the cost of equipment on the balance sheet '
+                    'and has a credit balance. A is wrong: The company owes '
+                    'nobody anything, so it is not a liability. C is wrong: '
+                    "Depreciation expense is the period's charge; "
+                    'accumulated depreciation is the running total on the '
+                    'balance sheet.',
+             'src': 'P09'},
+            {'t': 'MCQ',
+             'q': 'Which statement explains why retained earnings changed '
+                  'during the year?',
+             'o': ['The statement of changes in equity',
+                   'The balance sheet',
+                   'The statement of cash flows',
+                   'The income statement'],
              'a': 'A',
-             'why': 'Assets and liabilities both increase. Equity does not '
-                    'change. B is wrong: Wages are an expense, so equity '
-                    '(retained earnings) also decreases. C is wrong: A '
-                    'profitable sale increases equity through net income.',
-             'src': 'P06'}]),
+             'why': 'The statement of changes in equity shows beginning '
+                    'retained earnings, net income, dividends and ending '
+                    'retained earnings. B is wrong: The balance sheet shows '
+                    'only the ending balance at one date. C is wrong: The '
+                    'statement of cash flows explains cash, not equity.',
+             'src': 'P13'},
+            {'t': 'MCQ',
+             'q': 'Net income for the period flows directly into:',
+             'o': ['the cash balance on the balance sheet.',
+                   'retained earnings in the statement of changes in equity.',
+                   'total liabilities.',
+                   'common stock.'],
+             'a': 'B',
+             'why': 'Net income is closed into retained earnings. A is '
+                    'wrong: Net income is not cash. The statement of cash '
+                    'flows explains the cash balance. C is wrong: Net income '
+                    'belongs to the owners, so it goes to equity, not '
+                    'liabilities.',
+             'src': 'P14'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -212,25 +255,30 @@ HANDOUT = {'id': '1.6',
             'The statement of changes in equity',
             'The statement of cash flows'],
            'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
+           'redo the USE IT questions of cycle A with the model in front of '
+           'you.',
            'The balance sheet shows position at one date. The other '
            'statements cover a period. A is wrong: The income statement '
            'covers a period. C is wrong: The statement of changes in equity '
            'covers a period.'),
           ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
+          ('move', 'FIRST THOUGHT', ''),
           ('items',
-           [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
-             'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
+           [{'t': 'MCQ',
+             'q': 'A term on this sheet means exactly what this sheet '
+                  'defines it to mean. When that differs from ordinary '
+                  'English, which wins?',
+             'o': ['the definition given here',
+                   'the ordinary English meaning',
+                   'whichever makes the question easier',
+                   'they never differ'],
+             'a': 'A',
+             'why': 'An exam question turns on the exact term, and one word '
+                    'can change the answer.'}]),
+          ('move', 'FILL IT IN', ''),
           ('fig', 'f6b'),
           ('panel',
-           'Account — the book’s own table',
+           'Account — Category',
            [['Account', 'Category'],
             ['Prepaid rent', ''],
             ['Land', ''],
@@ -242,8 +290,8 @@ HANDOUT = {'id': '1.6',
             ['Accumulated depreciation', '']],
            ''),
           ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
+           'The English this sheet uses, and its Arabic',
+           [['English (exam term)', 'Arabic'],
             ['revenue', 'إيراد (إيرادات)'],
             ['credit', 'دائن'],
             ['relevance', 'الملاءمة'],
@@ -254,7 +302,7 @@ HANDOUT = {'id': '1.6',
             ['SEC', 'هيئة الأوراق المالية والبورصات الأمريكية'],
             ['statement of cash flows', 'قائمة التدفقات النقدية']],
            ''),
-          ('move', 'READ THE MODEL', ''),
+          ('move', 'USE IT', ''),
           ('items',
            [{'t': 'MATCH',
              'q': 'Write the letter of the Arabic term beside each English '
@@ -274,17 +322,152 @@ HANDOUT = {'id': '1.6',
              'a': ['D', 'F', 'B', 'E', 'C', 'A'],
              'whys': ['', '', '', '', '', '']}]),
           ('move', 'APPLY', ''),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Under the U.S. conceptual framework, the objective of '
+                  'general-purpose financial reporting is to provide useful '
+                  'information mainly to:',
+             'o': ['the board of directors and senior management.',
+                   'government statisticians and tax authorities.',
+                   'existing and potential investors, lenders and other '
+                   'creditors.',
+                   "the company's employees and trade unions."],
+             'a': 'C',
+             'why': 'These are the primary users. They provide resources and '
+                    'cannot demand special reports. A is wrong: Management '
+                    'can obtain internal information, so it is not a primary '
+                    'user. B is wrong: Governments use the statements, but '
+                    'they are not the primary users named by the framework.',
+             'src': 'P01'},
+            {'t': 'MCQ',
+             'q': 'A bank is deciding whether to renew a five-year loan to '
+                  'Orontes. Which information will the bank find MOST '
+                  'useful?',
+             'o': ['The highest and lowest share price during the year',
+                   "The company's ability to generate cash to pay interest "
+                   'and repay principal',
+                   'The number of products the company sells',
+                   "The names of the company's major shareholders"],
+             'a': 'B',
+             'why': "A lender's main question is repayment: can the borrower "
+                    'pay interest and principal on time? A is wrong: Share '
+                    'prices interest investors more than lenders and do not '
+                    'show repayment ability. C is wrong: The product count '
+                    'does not show whether the company can repay the loan.',
+             'src': 'P02'},
+            {'t': 'MCQ',
+             'q': 'Which statement reports amounts at a single date?',
+             'o': ['The income statement',
+                   'The balance sheet',
+                   'The statement of changes in equity',
+                   'The statement of cash flows'],
+             'a': 'B',
+             'why': 'The balance sheet shows position at one date. The other '
+                    'statements cover a period. A is wrong: The income '
+                    'statement covers a period. C is wrong: The statement of '
+                    'changes in equity covers a period.',
+             'src': 'SC6-1'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which account goes with “300”?',
+             'o': ['Common stock',
+                   'Dividends payable',
+                   'Interest expense',
+                   'Accounts receivable'],
+             'a': 'D',
+             'why': 'Accounts receivable goes with “300”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “936”?',
+             'o': ['Land', 'Totals', 'Dividends declared', 'Prepaid rent'],
+             'a': 'A',
+             'why': 'Land goes with “936”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “380”?',
+             'o': ['Inventory',
+                   'Notes payable (long-term)',
+                   'Accounts payable',
+                   'Dividends declared'],
+             'a': 'C',
+             'why': 'Accounts payable goes with “380”.'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which account goes with “1,800”?',
+             'o': ['Land',
+                   'Interest expense',
+                   'Inventory',
+                   'Notes payable (long-term)'],
+             'a': 'D',
+             'why': 'Notes payable (long-term) goes with “1,800”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “1,900”?',
+             'o': ['Additional paid-in capital',
+                   'Cash',
+                   'Common stock',
+                   'Allowance for credit losses'],
+             'a': 'A',
+             'why': 'Additional paid-in capital goes with “1,900”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “3,100”?',
+             'o': ['Sales revenue',
+                   'Totals',
+                   'Prepaid rent',
+                   'Cost of goods sold'],
+             'a': 'A',
+             'why': 'Sales revenue goes with “3,100”.'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which account goes with “1,860”?',
+             'o': ['Depreciation expense',
+                   'Dividends payable',
+                   'Cost of goods sold',
+                   'Retained earnings, January 1'],
+             'a': 'C',
+             'why': 'Cost of goods sold goes with “1,860”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “520”?',
+             'o': ['Wages expense',
+                   'Land',
+                   'Additional paid-in capital',
+                   'Interest expense'],
+             'a': 'A',
+             'why': 'Wages expense goes with “520”.'},
+            {'t': 'MCQ',
+             'q': 'Which account goes with “300”?',
+             'o': ['Cash',
+                   'Equipment',
+                   'Depreciation expense',
+                   'Sales revenue'],
+             'a': 'C',
+             'why': 'Depreciation expense goes with “300”.'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which account goes with “9,750”?',
+             'o': ['Notes payable (long-term)',
+                   'Totals',
+                   'Wages expense',
+                   'Accounts payable'],
+             'a': 'B',
+             'why': 'Totals goes with “9,750”.'},
+            {'t': 'MCQ',
+             'q': 'Which words complete this? “A …… lists every account '
+                  'balance and checks that total debits equal total '
+                  'credits.”',
+             'o': ['trial balance',
+                   'accrual basis',
+                   'journal entry',
+                   'primary users'],
+             'a': 'A',
+             'why': 'The sentence reads: “A trial balance lists every '
+                    'account balance and checks that total debits equal '
+                    'total credits.”'}]),
           ('check',
-           'What is the safest way to settle a disagreement about an answer '
-           'on this sheet?',
-           ['find the row of the model that decides it',
-            'take the answer of whoever is more confident',
-            'leave it until the lecturer says',
-            'choose the longer option'],
+           'Which words complete this? “Notice that …… and the change in '
+           'cash are very different numbers.”',
+           ['net income', 'cash basis', 'relevance', 'liability'],
            'A',
-           'redo the READ THE MODEL questions of cycle B.',
-           'Every item on a Workshop sheet is settled by something printed '
-           'on the same sheet.'),
+           'redo the USE IT questions of round B.',
+           'The sentence reads: “Notice that net income and the change in '
+           'cash are very different numbers.”'),
           ('build',
            'articulation',
            'Rebuild the figure from this handout. Label every part and fill '

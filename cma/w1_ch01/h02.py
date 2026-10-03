@@ -3,13 +3,12 @@
 
 HANDOUT = {'id': '1.2',
  'n': 2,
- 'pages': 5,
+ 'pages': 6,
  'title': 'The building blocks: elements and the accounting equation',
  'sub': 'section 1.2 of the book',
  'covers': ['sec:1.2',
-            'p:P02',
-            'p:P15',
-            'p:P16',
+            'p:P04',
+            'p:P05',
             'sc:SC2-1',
             'sc:SC2-2',
             'sc:SC2-1',
@@ -27,91 +26,110 @@ HANDOUT = {'id': '1.2',
  'derived': {},
  'flow': [('preview',
            'Before you start',
-           'Three summaries of this handout, in the book’s own words. Read '
-           'all three first: together they are the whole session. Then fill '
-           'the gaps, guessing where you have to.',
+           'Read all three before you write anything: together they are the '
+           'whole session. Then fill the gaps, guessing where you have to.',
            [['In this handout', 'What you will read', 'How you check it'],
             ['The building blocks: elements and the accounting equation',
-             'a figure to read · Account',
+             'a diagram · a table to complete',
              'Which item is an expense?'],
             ['The words this section uses precisely',
-             'Row · The English the exam uses, and what it translates',
-             'What is the safest way to settle a disagreement about an '
-             'answer on this sheet?']],
+             'Row · The English this sheet uses, and its Arabic',
+             'What is the journal entry of 4?']],
            [{'t': 'FILL',
-             'q': 'Where the section starts — Fill every gap. The list holds '
-                  'more words than there are gaps, so one or two of them are '
-                  'not used.',
-             'parts': ['Three of them describe the ',
+             'q': 'Where the section starts — Fill every gap. One word in '
+                  'the list is not used.',
+             'parts': ['The FASB ',
+                       22,
+                       ' defines ten elements. Three of them describe the ',
                        15,
-                       ' at one date. An ',
-                       11,
-                       ' is a present right of an entity to an economic '
-                       'benefit. Examples: cash, ',
+                       ' at one date. An asset is a present right of an '
+                       'entity to an economic benefit. Examples: cash, ',
                        21,
-                       ', ',
-                       11,
-                       ' and equipment. A ',
+                       ', inventory and equipment. A ',
                        11,
                        ' is a present obligation of an entity to transfer an '
-                       'economic benefit.'],
-             'bank': ['balance sheet',
-                      'inventory',
+                       'economic benefit. Examples: ',
+                       18,
+                       ', ',
+                       15,
+                       ' and wages payable. Equity is the residual interest '
+                       'in the assets after the liabilities are deducted. '
+                       'The other elements describe changes during a period. '
+                       "Revenues and expenses come from the company's "
+                       'central, ongoing operations.'],
+             'bank': ['conceptual framework',
+                      'liability',
+                      'notes payable',
+                      'balance sheet',
                       'revenue',
-                      'asset',
-                      'dividend',
                       'accounts receivable',
-                      'liability'],
-             'a': 'balance sheet · asset · accounts receivable · inventory · '
-                  'liability',
+                      'accounts payable'],
+             'a': 'conceptual framework · balance sheet · accounts '
+                  'receivable · liability · accounts payable · notes payable',
              'one': True,
-             'why': 'The book writes: “Three of them describe the balance '
-                    'sheet at one date. An asset is a present right of an '
-                    'entity to an economic benefit. Examples: cash, accounts '
+             'why': 'In full: “The FASB conceptual framework defines ten '
+                    'elements. Three of them describe the balance sheet at '
+                    'one date. An asset is a present right of an entity to '
+                    'an economic benefit. Examples: cash, accounts '
                     'receivable, inventory and equipment. A liability is a '
                     'present obligation of an entity to transfer an economic '
-                    'benefit.”'},
+                    'benefit. Examples: accounts payable, notes payable and '
+                    'wages payable. Equity is the residual interest in the '
+                    'assets after the liabilities are deducted. The other '
+                    'elements describe changes during a period. Revenues and '
+                    "expenses come from the company's central, ongoing "
+                    'operations.”'},
             {'t': 'FILL',
-             'q': 'What it settles in the middle — Fill every gap. The list '
-                  'holds more words than there are gaps, so one or two of '
-                  'them are not used.',
-             'parts': ['You will meet it in Chapters 3 and 15. The equation '
-                       'always holds, because creditors (liabilities) or '
-                       'owners (',
-                       11,
-                       ') finance every ',
-                       11,
-                       '. Contributed capital is what owners paid in: ',
+             'q': 'What it settles in the middle — Fill every gap. One word '
+                  'in the list is not used.',
+             'parts': ['Comprehensive income is the total change in equity '
+                       'from sources other than owners. You will meet it in '
+                       'Chapters 3 and 15. The equation always holds, '
+                       'because creditors (liabilities) or owners (equity) '
+                       'finance every asset. Contributed capital is what '
+                       'owners paid in: ',
                        14,
                        ' at its ',
                        11,
                        ', plus ',
                        28,
-                       ' (APIC).'],
-             'bank': ['revenue',
-                      'dividend',
-                      'common stock',
-                      'asset',
+                       ' (APIC). ',
+                       19,
+                       ' (RE) are the past ',
+                       12,
+                       ' that the company kept instead of paying it out as ',
+                       11,
+                       's. Revenues and gains increase retained earnings. '
+                       'Expenses and losses decrease it. Dividends also '
+                       'decrease it, but a dividend is not an expense.'],
+             'bank': ['dividend',
+                      'revenue',
                       'additional paid-in capital',
                       'par value',
-                      'equity'],
-             'a': 'equity · asset · common stock · par value · additional '
-                  'paid-in capital',
+                      'net income',
+                      'Retained earnings',
+                      'common stock'],
+             'a': 'common stock · par value · additional paid-in capital · '
+                  'Retained earnings · net income · dividend',
              'one': True,
-             'why': 'The book writes: “You will meet it in Chapters 3 and '
-                    '15. The equation always holds, because creditors '
-                    '(liabilities) or owners (equity) finance every asset. '
-                    'Contributed capital is what owners paid in: common '
-                    'stock at its par value, plus additional paid-in capital '
-                    '(APIC).”'},
+             'why': 'In full: “Comprehensive income is the total change in '
+                    'equity from sources other than owners. You will meet it '
+                    'in Chapters 3 and 15. The equation always holds, '
+                    'because creditors (liabilities) or owners (equity) '
+                    'finance every asset. Contributed capital is what owners '
+                    'paid in: common stock at its par value, plus additional '
+                    'paid-in capital (APIC). Retained earnings (RE) are the '
+                    'past net income that the company kept instead of paying '
+                    'it out as dividends. Revenues and gains increase '
+                    'retained earnings. Expenses and losses decrease it. '
+                    'Dividends also decrease it, but a dividend is not an '
+                    'expense.”'},
             {'t': 'FILL',
-             'q': 'Where it ends — Fill every gap. The list holds more words '
-                  'than there are gaps, so one or two of them are not used.',
+             'q': 'Where it ends — Fill every gap. One word in the list is '
+                  'not used.',
              'parts': ['IFRS also uses the word income for both revenue and '
-                       'gains, while ',
-                       11,
-                       ' keeps revenues and gains apart. You may also know '
-                       'these IFRS names: ',
+                       'gains, while U.S. GAAP keeps revenues and gains '
+                       'apart. You may also know these IFRS names: ',
                        33,
                        ' (',
                        15,
@@ -119,26 +137,39 @@ HANDOUT = {'id': '1.2',
                        14,
                        ') and share premium (',
                        28,
-                       ').'],
-             'bank': ['balance sheet',
-                      'statement of financial position',
-                      'common stock',
-                      'U.S. GAAP',
-                      'dividend',
+                       '). In French and British English, stock often means ',
+                       11,
+                       '. In a CMA question, inventory is always inventory. '
+                       'Revenue is the gross amount from sales. ',
+                       12,
+                       ' is what remains after expenses. Do not use income '
+                       'when the question means revenue. In English, charges '
+                       'usually means fees. The balance sheet is le bilan.'],
+             'bank': ['common stock',
+                      'balance sheet',
                       'additional paid-in capital',
-                      'revenue'],
-             'a': 'U.S. GAAP · statement of financial position · balance '
-                  'sheet · common stock · additional paid-in capital',
+                      'statement of financial position',
+                      'revenue',
+                      'inventory',
+                      'Net income'],
+             'a': 'statement of financial position · balance sheet · common '
+                  'stock · additional paid-in capital · inventory · Net '
+                  'income',
              'one': True,
-             'why': 'The book writes: “IFRS also uses the word income for '
-                    'both revenue and gains, while U.S. GAAP keeps revenues '
-                    'and gains apart. You may also know these IFRS names: '
+             'why': 'In full: “IFRS also uses the word income for both '
+                    'revenue and gains, while U.S. GAAP keeps revenues and '
+                    'gains apart. You may also know these IFRS names: '
                     'statement of financial position (balance sheet), share '
                     'capital (common stock) and share premium (additional '
-                    'paid-in capital).”'}],
-           [('Words this handout uses precisely',
-             [['Words this handout uses precisely',
-               'tick it if you could already use it in a sentence'],
+                    'paid-in capital). In French and British English, stock '
+                    'often means inventory. In a CMA question, inventory is '
+                    'always inventory. Revenue is the gross amount from '
+                    'sales. Net income is what remains after expenses. Do '
+                    'not use income when the question means revenue. In '
+                    'English, charges usually means fees. The balance sheet '
+                    'is le bilan.”'}],
+           [('What this sheet settles',
+             [['Word', 'what it means here'],
               ['primary users', ''],
               ['retained earnings', ''],
               ['matching principle', ''],
@@ -146,102 +177,90 @@ HANDOUT = {'id': '1.2',
               ['common stock', ''],
               ['T-account', ''],
               ['accounts payable', '']]),
-            ('How every cycle on this sheet works',
-             [['How a cycle works', 'what you do'],
-              ['MODEL',
-               'read the figure or the table before you answer anything'],
-              ['READ THE MODEL', 'every answer is printed on the same page'],
-              ['INVENT THE RULE',
-               'write the rule yourself, then compare with the book'],
-              ['APPLY', 'no help on this move'],
-              ['CHECKPOINT',
-               'mark it yourself; if you miss it, the sheet says what to '
-               'redo']])]),
+            ('How every round on this sheet works',
+             [['The five steps of a round', 'what you do'],
+              ['FIRST THOUGHT',
+               'answer from what you already know, before anything else'],
+              ['FILL IT IN',
+               'complete the empty cells; the filled ones show you the '
+               'pattern'],
+              ['USE IT', 'answer from the table you have just completed'],
+              ['STATE THE RULE',
+               'write the rule in your own words, then check it'],
+              ['APPLY', 'new cases, no help'],
+              ['CHECK YOURSELF',
+               'mark it; if you miss it, the sheet says what to redo']])]),
           ('page',),
           ('cycle',
            'A',
            'The building blocks: elements and the accounting equation'),
           ('move',
-           'ORIENT',
+           'FIRST THOUGHT',
            'One claim. Decide now; you will check it in a moment.'),
           ('items',
            [{'t': 'TF',
-             'q': 'The book gives the category of Accumulated depreciation '
-                  'as “Contra-asset”.',
+             'q': 'Decide before you look at anything else: the category of '
+                  'Accumulated depreciation is “Contra-asset”.',
              'a': 'T',
-             'why': 'The book pairs Accumulated depreciation with '
-                    '“Contra-asset”.'}]),
-          ('move', 'MODEL', 'Read it before you answer anything below it.'),
+             'why': 'Accumulated depreciation: Contra-asset.'}]),
+          ('move', 'FILL IT IN', ''),
           ('fig', 'beam'),
-          ('panel',
-           'Account — the book’s own table',
-           [['Account', 'Category'],
-            ['Prepaid rent', 'Asset'],
-            ['Land', 'Asset'],
-            ['Dividends payable', 'Liability'],
-            ['Additional paid-in capital', 'Equity'],
-            ['Sales revenue', 'Revenue'],
-            ['Interest expense', 'Expense'],
-            ['Allowance for credit losses', 'Contra-asset'],
-            ['Accumulated depreciation', 'Contra-asset']],
-           ''),
-          ('move',
-           'READ THE MODEL',
-           'Every answer is printed above. Find it, do not recall it.'),
+          ('items',
+           [{'t': 'GRID',
+             'q': 'Complete the empty cells. One entry in the list is not '
+                  'used.',
+             'h': ['Account', 'Category'],
+             'rows': [['Prepaid rent', 'Asset'],
+                      ['Land', 'Asset'],
+                      ['Dividends payable', 'Liability'],
+                      ['Additional paid-in capital', ''],
+                      ['Sales revenue', ''],
+                      ['Interest expense', 'Expense'],
+                      ['Allowance for credit losses', 'Contra-asset'],
+                      ['Accumulated depreciation', 'Contra-asset']],
+             'bank': ['Equity', 'Expense', 'Revenue'],
+             'a': ['Additional paid-in capital — category: Equity',
+                   'Sales revenue — category: Revenue'],
+             'whys': ['', ''],
+             'blank': [(3, 1), (4, 1)]}]),
+          ('move', 'USE IT', 'Use the table you have just completed.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'Which category does the book give for Prepaid rent?',
+             'q': 'What is the category of Prepaid rent?',
              'o': ['Equity', 'Revenue', 'Asset', 'Expense'],
              'a': 'C',
-             'why': 'The book’s own table gives Asset as the category of '
-                    'Prepaid rent.'}]),
+             'why': 'The Asset of category is Prepaid rent.'}]),
           ('move', 'APPLY', 'No help on this move.'),
           ('items',
            [{'t': 'MCQ',
-             'q': 'A bank is deciding whether to renew a five-year loan to '
-                  'Orontes. Which information will the bank find MOST '
-                  'useful?',
-             'o': ['The highest and lowest share price during the year',
-                   "The company's ability to generate cash to pay interest "
-                   'and repay principal',
-                   'The number of products the company sells',
-                   "The names of the company's major shareholders"],
+             'q': 'A company issues common stock for cash. What is the '
+                  'effect on the accounting equation?',
+             'o': ['Assets increase and equity increases.',
+                   'Assets increase and revenue increases.',
+                   'Assets increase and liabilities increase.',
+                   'There is no effect on the equation.'],
+             'a': 'A',
+             'why': 'Cash (an asset) increases, and contributed capital '
+                    '(equity) increases by the same amount. B is wrong: '
+                    'Selling shares is financing from owners, not revenue. C '
+                    'is wrong: Shares are equity, not debt. A liability '
+                    'arises only when the company borrows.',
+             'src': 'P04'},
+            {'t': 'MCQ',
+             'q': 'The board declares a cash dividend that will be paid next '
+                  'month. What is the effect immediately after the '
+                  'declaration?',
+             'o': ['Expenses increase and net income decreases.',
+                   'Liabilities increase and equity decreases.',
+                   'Assets decrease and equity decreases.',
+                   'There is no effect until the dividend is paid.'],
              'a': 'B',
-             'why': "A lender's main question is repayment: can the borrower "
-                    'pay interest and principal on time? A is wrong: Share '
-                    'prices interest investors more than lenders and do not '
-                    'show repayment ability. C is wrong: The product count '
-                    'does not show whether the company can repay the loan.',
-             'src': 'P02'},
-            {'t': 'MCQ',
-             'q': 'Which statement is TRUE?',
-             'o': ['The PCAOB writes U.S. GAAP for public companies.',
-                   'The IASB writes U.S. GAAP for companies that also report '
-                   'under IFRS.',
-                   'The ASC contains IFRS for U.S. companies.',
-                   'The SEC has legal authority over public company '
-                   'reporting and recognizes the FASB as the standard '
-                   'setter.'],
-             'a': 'D',
-             'why': 'The SEC has the legal authority; the FASB sets the '
-                    'standards; the ASC holds U.S. GAAP. A is wrong: The '
-                    'PCAOB sets auditing standards. B is wrong: The IASB '
-                    'writes IFRS only.',
-             'src': 'P15'},
-            {'t': 'MCQ',
-             'q': "A Jordanian company's IFRS statements show share premium "
-                  'of 400. Under U.S. GAAP, the same item is called:',
-             'o': ['retained earnings.',
-                   'common stock.',
-                   'additional paid-in capital.',
-                   'treasury stock.'],
-             'a': 'C',
-             'why': 'Share premium and additional paid-in capital both mean '
-                    'the amount received above par value. A is wrong: '
-                    'Retained earnings come from profits, not from issuing '
-                    'shares. B is wrong: Common stock holds only the par '
-                    'value.',
-             'src': 'P16'}]),
+             'why': 'Declaring the dividend creates dividends payable (a '
+                    'liability) and reduces retained earnings. A is wrong: A '
+                    'dividend is a distribution to owners, not an expense. C '
+                    'is wrong: Cash decreases only on the payment date, next '
+                    'month.',
+             'src': 'P05'}]),
           ('pair',
            'Compare every answer on this page with your partner before you '
            'read any key.',
@@ -254,25 +273,26 @@ HANDOUT = {'id': '1.2',
             'Repayment of a bank loan',
             'Purchase of a new bottling line'],
            'B',
-           'redo the READ THE MODEL questions of cycle A with the model in '
-           'front of you.',
+           'redo the USE IT questions of cycle A with the model in front of '
+           'you.',
            "Wages are a cost of the company's central operations, so they "
            'are an expense. A is wrong: A dividend is a distribution to '
            'owners. It reduces retained earnings but is not an expense. C is '
            'wrong: Repaying principal reduces a liability and an asset. No '
            'expense arises.'),
           ('cycle', 'B', 'The words this section uses precisely'),
-          ('move', 'ORIENT', ''),
+          ('move', 'FIRST THOUGHT', ''),
           ('items',
            [{'t': 'TF',
-             'q': 'A term in the exam means exactly what the book defines it '
-                  'to mean, whatever it means in ordinary English.',
+             'q': 'Decide before you look at anything else: the transaction '
+                  'of 6 is “Recorded one month of interest on the bank note. '
+                  'Orontes has not paid it yet.”.',
              'a': 'T',
-             'why': 'CMA questions use exact terms, and one word can change '
-                    'the answer.'}]),
-          ('move', 'MODEL', ''),
+             'why': '6: Recorded one month of interest on the bank note. '
+                    'Orontes has not paid it yet..'}]),
+          ('move', 'FILL IT IN', ''),
           ('panel',
-           'Row — the book’s own table',
+           'Row — Transaction',
            [['Row', 'Transaction', 'Journal entry', 'Effects'],
             ['4',
              'A Dubai hotel group paid cash in advance for pastries that '
@@ -293,8 +313,8 @@ HANDOUT = {'id': '1.2',
              'flow: none.']],
            ''),
           ('panel',
-           'The English the exam uses, and what it translates',
-           [['English (exam term)', 'the Arabic it translates'],
+           'The English this sheet uses, and its Arabic',
+           [['English (exam term)', 'Arabic'],
             ['primary users', 'المستخدمون الرئيسيون'],
             ['retained earnings', 'الأرباح المحتجزة'],
             ['matching principle', 'مبدأ مقابلة الإيرادات بالمصروفات'],
@@ -306,7 +326,7 @@ HANDOUT = {'id': '1.2',
              'التزام العقد (إيراد مقبوض مقدماً)'],
             ['balance sheet', 'الميزانية العمومية']],
            ''),
-          ('move', 'READ THE MODEL', ''),
+          ('move', 'USE IT', ''),
           ('items',
            [{'t': 'MATCH',
              'q': 'Write the letter of the Arabic term beside each English '
@@ -337,6 +357,38 @@ HANDOUT = {'id': '1.2',
                     'wrong: This is total assets, not equity.',
              'src': 'SC2-2'},
             {'t': 'MCQ',
+             'q': 'Under the U.S. conceptual framework, the objective of '
+                  'general-purpose financial reporting is to provide useful '
+                  'information mainly to:',
+             'o': ['the board of directors and senior management.',
+                   'government statisticians and tax authorities.',
+                   'existing and potential investors, lenders and other '
+                   'creditors.',
+                   "the company's employees and trade unions."],
+             'a': 'C',
+             'why': 'These are the primary users. They provide resources and '
+                    'cannot demand special reports. A is wrong: Management '
+                    'can obtain internal information, so it is not a primary '
+                    'user. B is wrong: Governments use the statements, but '
+                    'they are not the primary users named by the framework.',
+             'src': 'P01'},
+            {'t': 'MCQ',
+             'q': 'A bank is deciding whether to renew a five-year loan to '
+                  'Orontes. Which information will the bank find MOST '
+                  'useful?',
+             'o': ['The highest and lowest share price during the year',
+                   "The company's ability to generate cash to pay interest "
+                   'and repay principal',
+                   'The number of products the company sells',
+                   "The names of the company's major shareholders"],
+             'a': 'B',
+             'why': "A lender's main question is repayment: can the borrower "
+                    'pay interest and principal on time? A is wrong: Share '
+                    'prices interest investors more than lenders and do not '
+                    'show repayment ability. C is wrong: The product count '
+                    'does not show whether the company can repay the loan.',
+             'src': 'P02'},
+            {'t': 'MCQ',
              'q': 'Which item is an expense?',
              'o': ['A cash dividend paid to shareholders',
                    'Wages paid to plant workers',
@@ -350,23 +402,75 @@ HANDOUT = {'id': '1.2',
                     'reduces a liability and an asset. No expense arises.',
              'src': 'SC2-1'},
             {'t': 'MCQ',
-             'q': 'Which category does the book give for Accumulated '
-                  'depreciation?',
+             'q': 'What is the category of Accumulated depreciation?',
              'o': ['Revenue', 'Liability', 'Expense', 'Contra-asset'],
              'a': 'D',
-             'why': 'The book’s own table gives Contra-asset as the category '
-                    'of Accumulated depreciation.'}]),
+             'why': 'The Contra-asset of category is Accumulated '
+                    'depreciation.'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which words complete this? “An …… is a present right of '
+                  'an entity to an economic benefit.”',
+             'o': ['debit', 'equity', 'asset', 'credit'],
+             'a': 'C',
+             'why': 'The sentence reads: “An asset is a present right of an '
+                    'entity to an economic benefit.”'},
+            {'t': 'MCQ',
+             'q': 'Which words complete this? “Comprehensive income is the '
+                  'total change in …… from sources other than owners.”',
+             'o': ['equity', 'asset', 'credit', 'revenue'],
+             'a': 'A',
+             'why': 'The sentence reads: “Comprehensive income is the total '
+                    'change in equity from sources other than owners.”'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which words complete this? “It is a distribution to '
+                  'owners, so it never appears in the …….”',
+             'o': ['retained earnings',
+                   'income statement',
+                   'prepaid expense',
+                   'accounts payable'],
+             'a': 'B',
+             'why': 'The sentence reads: “It is a distribution to owners, so '
+                    'it never appears in the income statement.”'},
+            {'t': 'MCQ',
+             'q': 'Which words complete this? “The idea is the same as in '
+                  '……; only the wording is different.”',
+             'o': ['liability', 'U.S. GAAP', 'relevance', 'T-account'],
+             'a': 'B',
+             'why': 'The sentence reads: “The idea is the same as in U.S. '
+                    'GAAP; only the wording is different.”'},
+            {'t': 'MCQ',
+             'q': 'Which words complete this? “In French and British '
+                  'English, stock often means …….”',
+             'o': ['liability', 'inventory', 'U.S. GAAP', 'T-account'],
+             'a': 'B',
+             'why': 'The sentence reads: “In French and British English, '
+                    'stock often means inventory.”'}]),
+          ('items',
+           [{'t': 'MCQ',
+             'q': 'Which words complete this? “In a CMA question, …… is '
+                  'always inventory.”',
+             'o': ['liability', 'U.S. GAAP', 'inventory', 'T-account'],
+             'a': 'C',
+             'why': 'The sentence reads: “In a CMA question, inventory is '
+                    'always inventory.”'},
+            {'t': 'MCQ',
+             'q': 'Which words complete this? “Do not use income when the '
+                  'question means …….”',
+             'o': ['dividend', 'equity', 'revenue', 'expense'],
+             'a': 'C',
+             'why': 'The sentence reads: “Do not use income when the '
+                    'question means revenue.”'}]),
           ('check',
-           'What is the safest way to settle a disagreement about an answer '
-           'on this sheet?',
-           ['find the row of the model that decides it',
-            'take the answer of whoever is more confident',
-            'leave it until the lecturer says',
-            'choose the longer option'],
-           'A',
-           'redo the READ THE MODEL questions of cycle B.',
-           'Every item on a Workshop sheet is settled by something printed '
-           'on the same sheet.'),
+           'What is the journal entry of 4?',
+           ['Dr Interest expense 4; Cr Interest payable 4',
+            'Dr Dividends payable 50; Cr Cash 50',
+            'Dr Cash 60; Cr Contract liability (unearned revenue) 60'],
+           'C',
+           'redo the USE IT questions of round B.',
+           'The Dr Cash 60; Cr Contract liability (unearned revenue) 60 of '
+           'journal entry is 4.'),
           ('build',
            'beam',
            'Rebuild the figure from this handout. Label every part and fill '

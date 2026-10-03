@@ -166,10 +166,10 @@ def p04_ambiguity(ex, ctx):
 
 def p05_sequence(ex, ctx):
     """5 · Does it sit in the right move, after what it needs?"""
-    if ex['move'] == 'ORIENT' and ex['kind'] in ('GRID', 'SORT'):
+    if ex['move'] == 'FIRST THOUGHT' and ex['kind'] in ('GRID', 'SORT'):
         return (1, 'a grid or a sort is too long for the opening move',
-                'move it to READ THE MODEL')
-    if ex['move'] == 'READ THE MODEL' and not ex['after_model']:
+                'move it to USE IT')
+    if ex['move'] == 'USE IT' and not ex['after_model']:
         return (2, 'it reads a model that has not been printed yet',
                 'move the model above it')
     return (0, '', '')
@@ -199,8 +199,13 @@ def _norm(it):
     Two stems that differ only in the long sentence they quote read as the
     same question asked twice, so the quoted part is not what decides.
     """
-    return re.sub(r'\W+', ' ',
-                  QUOTED.sub(' ', _compared(it)).lower()).strip()
+    full = _compared(it)
+    bare = re.sub(r'\W+', ' ', QUOTED.sub(' ', full).lower()).strip()
+    # A stem that is a frame around a quoted passage carries its content in
+    # the quotation, so the frame alone is not what distinguishes it.
+    if len(bare.split()) < 5:
+        return re.sub(r'\W+', ' ', full.lower()).strip()
+    return bare
 
 
 def p06_duplication(ex, ctx):
@@ -222,7 +227,7 @@ def p06_duplication(ex, ctx):
 def p07_effectiveness(ex, ctx):
     """7 · Does it ask for more than recognition?"""
     it = ex['it']
-    if ex['kind'] == 'TF' and ex['move'] in ('APPLY', 'CHECKPOINT'):
+    if ex['kind'] == 'TF' and ex['move'] in ('APPLY', 'CHECK YOURSELF'):
         return (1, 'a true/false item in the applying move is a coin flip '
                    'half the time', 'make it multiple choice')
     if ex['kind'] == 'MCQ' and it.get('src') is None:
@@ -257,7 +262,7 @@ def p08_interest(ex, ctx):
     the generator to invent situations, which is the one thing it must not
     do.
     """
-    if ex['move'] not in ('APPLY', 'CHECKPOINT'):
+    if ex['move'] not in ('APPLY', 'CHECK YOURSELF'):
         return (0, '', '')
     key = 'situated'
     # One definition, shared with the generator. Two copies of this test
@@ -281,7 +286,7 @@ def p09_exam(ex, ctx):
     it = ex['it']
     if it.get('src'):
         return (0, '', '')
-    if ex['move'] in ('APPLY', 'CHECKPOINT') and ex['kind'] in ('TF', 'FILL'):
+    if ex['move'] in ('APPLY', 'CHECK YOURSELF') and ex['kind'] in ('TF', 'FILL'):
         return (1, 'the exam asks multiple choice; this is not that shape',
                 'use the book’s own item bank for the applying move')
     return (0, '', '')
@@ -304,7 +309,8 @@ def p10_directions(ex, ctx):
     # BEST described as:" — is how the exam itself writes a stem, so a
     # colon or an ellipsis is an ending, not a missing one.
     if ex['kind'] in ('MCQ', 'TF') \
-            and not q.strip().endswith(('?', '.', ':', '\u2026', '...')):
+            and not q.strip().endswith(('?', '.', ':', '\u2026', '...',
+                                        '\u201d', '"')):
         return (1, 'the stem does not end as a question, a statement or a '
                    'lead-in the options complete', 'punctuate it')
     return (0, '', '')
@@ -336,7 +342,7 @@ def p12_visual(ex, ctx):
                        'handout at all',
                     'draw the categories as lanes, or the schedule as a split')
         return (0, '', '')
-    if ex['kind'] == 'MCQ' and ex['move'] == 'READ THE MODEL' \
+    if ex['kind'] == 'MCQ' and ex['move'] == 'USE IT' \
             and not ex['after_fig']:
         return (1, 'it reads a table that is never drawn',
                 'add a figure of that table to the model move')
@@ -391,7 +397,7 @@ def exercises(H):
                            model_i=nmodel, cycle=ncycle)
         elif k == 'check':
             n += 1
-            yield dict(i=n, kind='MCQ', move='CHECKPOINT',
+            yield dict(i=n, kind='MCQ', move='CHECK YOURSELF',
                        it=dict(t='MCQ', q=blk[1], o=blk[2], a=blk[3],
                                why=blk[5] if len(blk) > 5 else ''),
                        after_model=after_model, after_fig=after_fig,
