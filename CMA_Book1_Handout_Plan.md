@@ -230,7 +230,7 @@ split unit is used twice.
 | ID | Content unit | Handout |
 |---|---|---|
 | C1-A | Chapter LOS table: 5 rows, code / objective / level / depth | 12 |
-| C1-B | Chapter key terms: 16 rows, English / Arabic / French | 12 |
+| C1-B | Chapter key terms: 16 rows, English and Arabic (French not used) | 12 |
 | C1-C | What you already know: the three new things | 12 |
 | 1.1-a | The four main statements, named | 1 |
 | 1.1-b | General-purpose statements: many readers, not one special reader | 1 |
@@ -439,7 +439,7 @@ Response points in brackets. `T1`–`T8` are the types in §2.
 | 8 | T6 | 12 accounts from the trial balance → `A` asset, `X` contra-asset, `L` liability, `E` equity, `R` revenue, `S` expense | 12 |
 | 9 | T2 | 5 statements on what a trial balance proves and does not prove | 5 |
 
-### Handout 12 · Chapter 1 review — *from the opener, the summary and the practice set* [72]
+### Handout 12 · Chapter 1 review — *from the opener, the summary and the practice set* [64]
 
 | Ex | Type | Content | Pts |
 |---|---|---|---|
@@ -447,11 +447,10 @@ Response points in brackets. `T1`–`T8` are the types in §2.
 | 2 | T1 | 10 items drawn from P01, P02, P03, P06, P07, P08, P09, P11, P13, P15 | 10 |
 | 3 | **T5** | the chapter LOS table: 5 rows × code, level, depth. One row worked | 10 |
 | 4 | T4 | 8 of the 16 chapter key terms: English → Arabic | 8 |
-| 5 | T4 | the same 8 terms: English → French | 8 |
-| 6 | T4 | the four reading patterns from the language-focus box, matched to what each tells you to do | 4 |
-| 7 | T3 | the written task W1 as a guided cloze: distribution, owners, expense, retained earnings, net income, and the statement that shows it — 8 spaces | 8 |
-| 8 | T2 | 6 statements, one from each section | 6 |
-| 9 | T6 | 4 items → the section of the chapter that settles each | 4 |
+| 5 | T4 | the four reading patterns from the language-focus box, matched to what each tells you to do | 4 |
+| 6 | T3 | the written task W1 as a guided cloze: distribution, owners, expense, retained earnings, net income, and the statement that shows it — 8 spaces | 8 |
+| 7 | T2 | 6 statements, one from each section | 6 |
+| 8 | T6 | 4 items → the section of the chapter that settles each | 4 |
 
 ---
 
@@ -463,10 +462,10 @@ Response points in brackets. `T1`–`T8` are the types in §2.
 | Student pages | 12 × up to 4 = **up to 48** |
 | Answer-key sheets | 12, one per handout, separate |
 | Total printed sheets | up to 60 |
-| Response points | **780** |
+| Response points | **772** |
 | Files | `CMA_B1_Ch01_Handouts.docx` (student) and `CMA_B1_Ch01_AnswerKeys.docx` (teacher); individual per-handout files on request |
 | Exercise types used | all 8 |
-| T5 fill-in-the-table exercises | **24** of the 90 exercises, carrying **287** of the 780 response points |
+| T5 fill-in-the-table exercises | **24** of the 89 exercises, carrying **287** of the 772 response points |
 | Source coverage | 66 of 66 inventoried content units, enforced by the coverage ledger |
 | New content | none; enforced by `source_numbers` and `source_terms` |
 
@@ -475,8 +474,8 @@ Response points in brackets. `T1`–`T8` are the types in §2.
 | Type | Points | Share |
 |---|---|---|
 | T5 fill in the table | 287 | 37% |
-| T3 fill in the spaces | 128 | 16% |
-| T4 matching | 119 | 15% |
+| T3 fill in the spaces | 128 | 17% |
+| T4 matching | 111 | 14% |
 | T1 multiple choice | 87 | 11% |
 | T2 true / false | 71 | 9% |
 | T6 classification | 71 | 9% |
@@ -523,11 +522,70 @@ for Chapters 2 to 18 once there are twelve real handouts to look at.
 2. **Four pages of exercises plus a separate single-sheet key.** The alternative
    reading of the brief is three pages of exercises with the key as the fourth
    sheet; that would make Chapter 1 about 15 handouts.
-3. **Arabic first, French in the review handout.** The source carries both for 54
-   term rows; exercising both everywhere would add roughly 2 handouts to the
-   chapter.
+3. **Arabic only. Settled: no French.** The source carries a French column for
+   54 term rows and 16 chapter terms; it is not exercised at all. The only change
+   this makes to the structure is that Handout 12 loses one matching exercise.
 4. **One file per chapter**, with individual handout files on request.
 5. **The 12% data duplication** that self-sufficiency costs — accepted as the
    price of handouts that can be taught in any order.
 6. **Handout 1 is rebuilt** to remove its one cross-reference, replacing two
    matching exercises with a single self-sufficient T5 table.
+
+
+---
+
+## 12 · Built — what actually came out, and what changed
+
+Chapter 1 is built. `CMA_B1_Ch01_Handouts.docx` holds 12 handouts of 4 pages
+each; `CMA_B1_Ch01_AnswerKeys.docx` holds 12 single-sheet keys. All sixteen
+checks pass, and no page exceeds its budget.
+
+| | Planned | Built |
+|---|---|---|
+| Handouts | 12 | **12** |
+| Student pages | up to 48 | **48** |
+| Key sheets | 12 | **12** |
+| Response points | 772 | **751** |
+| Exercises | 89 | **90** |
+| Content units covered | 66 | **66 of 66** |
+| Term-bridge rows exercised | 54 | **54 of 54** |
+
+Three changes the build forced, all found by the checks rather than by eye.
+
+**Figure F01-05 cannot be converted cell by cell.** Only two of the chapter's
+eleven figures carry their contents in the text: F01-02, the table of users,
+and F01-10, the Barada trial balance. The rest are images, and what survives
+in the text is the narrative around them. The first draft of Handout 6
+rebuilt the January effect grid and asked for a net equity effect of 120 for
+row 4 — revenue of 300 less cost of 180, a figure the book never prints. The
+`source_numbers` check rejected it. Handout 6 now converts what the chapter
+actually states about the grid: its three exam points, its three totals and
+its three classic mistakes.
+
+**The language-focus box on describing an effect moved from Handout 7 to
+Handout 6**, where describing an effect is the subject. The ledger still
+records the planned handout beside each unit, so the move is visible.
+
+**Response points came out 21 below plan** for the same reason: the planned
+counts assumed the figures could be converted cell by cell, and three of them
+cannot be. Every handout is still inside the 55-to-78 band the four-page
+budget allows.
+
+### What the fidelity gates caught
+
+The four gates are not decoration. Over the twelve handouts they rejected, and
+forced the correction of:
+
+- the figure 120, which the chapter does not print (above);
+- `contra asset`, where the chapter writes `contra-asset`;
+- `total contributed capital`, where the chapter writes `contributed capital`;
+- `borrows cash`, where the chapter writes `cash from borrowing`;
+- an injected test case naming a `goodwill impairment reserve` and the `FERC`,
+  neither of which is in Chapter 1, confirming the gates bite.
+
+They also had to be narrowed twice. A blanket vocabulary check punished
+ordinary English in a direction line, and a phrase check punished rephrasing;
+the gate as it stands tests proper nouns, acronyms and the head of any phrase
+shaped like the name of an account, and exempts the wrong options of a
+multiple-choice item, because a distractor is not a claim about the chapter and
+the book's own practice set names things from later chapters in its distractors.

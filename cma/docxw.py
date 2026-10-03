@@ -206,22 +206,27 @@ class Doc:
     def blank(self):
         self.body.append('<w:p/>')
 
-    def header(self, left, right=''):
+    def header(self, left, right='', total=0):
         """Create a running header part and return its relationship id.
 
         The right-hand side carries a PAGE field, and the section that uses the
-        header restarts numbering, so each handout is paginated from 1.
+        header restarts numbering, so each handout is paginated from 1. total,
+        when given, prints "Page 2 of 4": a student holding one loose sheet can
+        then say both which handout it belongs to and whether any are missing.
         """
         n = len(self.headers) + 1
         rid = 'rIdHdr%d' % n
+        tail = (' of %d' % total) if total else ''
         cells = ('<w:tc>%s%s</w:tc><w:tc>%s%s</w:tc>'
                  % (tcpr(None, 0, 72),
                     para([run(left, b=True, color=INDIGO_D, sz=16)]),
                     tcpr(None, 0, 28),
                     '<w:p><w:pPr><w:jc w:val="right"/></w:pPr>'
                     + run(right + ' \u2014 Page ', color=GREY, sz=16).replace('<w:p>', '')
-                    + '<w:fldSimple w:instr=" PAGE ">%s</w:fldSimple></w:p>'
-                    % run('1', b=True, color=INDIGO_D, sz=16)))
+                    + '<w:fldSimple w:instr=" PAGE ">%s</w:fldSimple>'
+                    % run('1', b=True, color=INDIGO_D, sz=16)
+                    + run(tail, color=GREY, sz=16).replace('<w:p>', '')
+                    + '</w:p>'))
         hdr = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
                '<w:hdr %s><w:tbl>%s<w:tblGrid><w:gridCol w:w="7400"/>'
                '<w:gridCol w:w="2000"/></w:tblGrid><w:tr>%s</w:tr></w:tbl>'
