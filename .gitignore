@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+
+# Delivery bundles. Each one is a zip of chapter .docx files that are already
+# tracked individually, so committing it would put the same 36 documents in
+# the repository twice. Rebuild one with:
+#   zip CMA_Book1_Handouts_Ch01-18.zip CMA_B1_Ch*_Handouts.docx
+CMA_Book1_Handouts_Ch01-18.zip
+CMA_Book1_AnswerKeys_Ch01-18.zip
