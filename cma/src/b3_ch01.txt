@@ -1,0 +1,691 @@
+Chapter 1
+Strategic Planning: Purpose, Mission and Time Frame
+التخطيط الاستراتيجي: الغاية والرسالة والإطار الزمني
+Book 2 ended with a budget for June 2028: 75,000 cases of juice at a standard cost of $12.60 a case. But why juice, why that volume, and why that year? Book 3 starts one level higher, with the plan that decides where Orontes Foods is going.
+Figure F301-01 shows the path of the chapter: from the mission and vision, through goals and objectives, down to tactics and budgets.
+Figure F301-01. Chapter 1 roadmap: from mission to budget.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.1.a
+discuss how strategic planning determines the path an organization chooses for attaining its long-term goals, vision, and mission, and distinguish between vision and mission
+Explain how strategic planning sets the path an organization follows to reach its long-term goals, vision and mission.
+Full treatment
+B.1.b
+identify the time frame appropriate for a strategic plan
+Choose a suitable time frame for a strategic plan.
+Full treatment
+B.1.e
+demonstrate an understanding of how an organization’s mission leads to the formulation of long-term business objectives, such as business diversification, the addition or deletion of product lines, or the penetration of new markets
+Show how the mission leads to long-term goals.
+Full treatment + Extended Example
+B.1.f
+explain why short-term objectives, tactics for achieving these objectives, and operational planning (master budget) must be congruent with the strategic plan and contribute to the achievement of long-term strategic goals
+Explain why short-term objectives, tactics and operational plans must fit the strategic plan.
+Full treatment + Extended Example
+B.1.g
+identify the characteristics of successful strategic plans
+Name the characteristics of successful strategic plans.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+strategic planning
+التخطيط الاستراتيجي
+planification stratégique
+strategic plan
+الخطة الاستراتيجية
+plan stratégique
+mission statement
+بيان الرسالة
+énoncé de mission
+vision statement
+بيان الرؤية
+énoncé de vision
+long-term goals
+الأهداف طويلة الأجل
+objectifs à long terme
+short-term objectives
+الأهداف قصيرة الأجل
+objectifs à court terme
+tactics
+التكتيكات
+tactiques
+operational plan
+الخطة التشغيلية
+plan opérationnel
+WHAT YOU ALREADY KNOW   What you already know
+Book 2 built standard costs and budgets for single products. Book 3 shows how those budgets come from a company-wide plan, and how managers are judged against them.
+1.1  What strategic planning does
+Strategic planning decides where an organization wants to be in the long term and how it will get there. It chooses the markets, products and ways of competing that will lead to the long-term goals.
+The result is a strategic plan. Every other plan sits below it, as Figure F301-02 shows: the mission and vision at the top, then goals and strategies, then objectives, tactics and operational plans, and finally the budget.
+Figure F301-02. The planning hierarchy, from mission to budget.
+Because it comes first, strategic planning sets the path for everything else. A company that plans to grow exports will budget for export staff and certification; a company that plans to cut costs will budget for new equipment and fewer products.
+EXAM TRAP   The budget is not the strategy
+An exam option that says the budget sets the strategy has the order backwards. The strategy comes first; the budget puts the first year of it into money.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+strategic planning
+التخطيط الاستراتيجي
+planification stratégique
+strategic plan
+الخطة الاستراتيجية
+plan stratégique
+English (exam term)
+العربية
+Français
+strategic planning
+التخطيط الاستراتيجي
+planification stratégique
+strategic plan
+الخطة الاستراتيجية
+plan stratégique
+SECTION CHECK   Test yourself
+SC301-1  Strategic planning mainly decides:
+A.	where the organization wants to be in the long term and how it will get there
+B.	the cost of each product next month
+C.	the tax rate
+D.	the chart of accounts
+SC301-2  Orontes plans to grow exports. Which budget change follows from that strategic choice?
+A.	Cutting export marketing
+B.	Budgeting for export staff and certification
+C.	Closing the export team
+D.	Raising prices in Jordan only
+Answers and explanations are at the end of the chapter.
+1.2  The time frame of a strategic plan
+A strategic plan usually looks three to five years ahead, and sometimes longer. Tactical plans cover one to three years, and operational plans and budgets cover one year or less. Figure F301-03 compares the three.
+Figure F301-03. Time frames of strategic, tactical and operational plans
+Plan
+Typical time frame
+Content
+Example
+Strategic plan
+3–5 years or more
+Mission, vision, long-term goals, main strategies
+Orontes: 2028–2032
+Tactical plan
+1–3 years
+How each division carries out the strategy
+Beverages export launch
+Operational plan and budget
+1 year or less
+Activities, people, resources, money
+The 2028 budget
+Industry pace
+Shorter for fast-changing industries; longer for heavy investment
+Food production: 5 years is common
+The right time frame depends on the industry. A software company may plan only two or three years ahead because its market changes fast. A food producer that builds plants and brands can plan five years or more.
+Orontes uses a plan for 2028 to 2032. Each year the plan is reviewed and rolled forward one year, so there is always a full view ahead. Figure F301-04 shows how the annual budget fits inside it.
+Figure F301-04. The Orontes strategic plan and the annual budget.
+SECTION CHECK   Test yourself
+SC301-3  A typical time frame for a strategic plan is:
+A.	one month
+B.	one quarter
+C.	three to five years or more
+D.	exactly one year
+SC301-4  Why might a software company use a shorter strategic time frame than a food producer?
+A.	Software companies do not need plans
+B.	Food producers never change
+C.	Accounting rules require it
+D.	Its market and technology change faster
+Answers and explanations are at the end of the chapter.
+1.3  From mission to long-term goals
+The mission statement says why the organization exists, what it does and for whom. The vision statement says what it wants to become. Figure F301-05 gives the Orontes statements and the question each one answers.
+Figure F301-05. Mission, vision and goals at Orontes Foods
+Question it answers
+Orontes Foods
+Mission
+Why do we exist? What do we do, and for whom?
+To make trusted, traditional Levant foods and drinks for families and businesses across the region.
+Vision
+What do we want to become?
+To be the first-choice Levant food brand in the Gulf and Europe by 2032.
+Long-term goals
+What results, by when?
+For example: exports 30.0% of revenue by 2032.
+The mission leads to long-term goals: results the company aims to reach by the end of the plan. Good goals turn the mission into numbers and dates, so that progress can be measured.
+WORKED EXAMPLE   Worked example: the Orontes long-term goals
+The mission speaks of trusted Levant foods across the region. The board turns it into five goals for 2032, shown in Figure F301-06. For example, exports rise from 18.0% to 30.0% of revenue.
+Figure F301-06. Worked example: the Orontes long-term goals
+Long-term goal
+2027 (actual)
+2032 (goal)
+Export sales as a share of revenue
+18.0%
+30.0%
+Revenue from products launched in the last three years
+6.0%
+15.0%
+Return on investment
+11.0%
+15.0%
+Energy per case of juice (kWh)
+0.50 kWh
+0.40 kWh
+Training hours per employee a year
+12 h
+24 h
+FALSE-FRIEND ALERT   Mission, الرسالة, mission
+In English, French and Arabic, 'mission' can also mean a single task or trip. In strategic planning it means the organization's lasting purpose. Arabic textbooks use الرسالة, not المهمة, for this sense.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+mission statement
+بيان الرسالة
+énoncé de mission
+vision statement
+بيان الرؤية
+énoncé de vision
+long-term goals
+الأهداف طويلة الأجل
+objectifs à long terme
+English (exam term)
+العربية
+Français
+mission statement
+بيان الرسالة
+énoncé de mission
+vision statement
+بيان الرؤية
+énoncé de vision
+long-term goals
+الأهداف طويلة الأجل
+objectifs à long terme
+SECTION CHECK   Test yourself
+SC301-5  “To be the first-choice Levant food brand in the Gulf and Europe by 2032” is a:
+A.	mission statement
+B.	tactic
+C.	short-term objective
+D.	vision statement
+SC301-6  How does the mission lead to long-term goals?
+A.	Goals turn the mission into measurable results with dates
+B.	Goals replace the mission
+C.	The mission is written after the budget
+D.	Goals and mission are unrelated
+Answers and explanations are at the end of the chapter.
+1.4  Congruence: objectives, tactics, plans and budgets
+Short-term objectives are measurable results for the coming year that move the company toward its goals. Tactics are the specific actions used to reach them, and the operational plan sets out the people, activities and resources. The budget puts all of this into money.
+Each level must fit the level above it. This fit is called congruence. If the budget cuts export marketing while the plan calls for export growth, the company will miss its goal even if every manager meets the budget.
+A simple way to set objectives is to divide the change needed over the plan into equal yearly steps. Exports must rise by 12.0 points over 5 years, or 2.40 points a year, so the 2028 objective is 20.4%. Figure F301-07 shows the path.
+Figure F301-07. From the 2032 export goal to the 2028 objective.
+YOUR TURN   The 2028 objectives
+Figure F301-08 applies the same equal steps to all five goals. Complete the two blank objectives. Answers are at the end of the chapter.
+Figure F301-08. Your turn: the 2028 objectives (complete the blanks)
+Goal
+2027
+Change a year
+2028 objective
+Export sales as a share of revenue
+18.0%
++2.40 points
+20.4%
+Revenue from products launched in the last three years
+6.0%
++1.80 points
+7.8%
+Return on investment
+11.0%
++0.80 points
+________
+Energy per case of juice (kWh)
+0.50 kWh
+−0.02 kWh
+________
+Training hours per employee a year
+12 h
++2.4 h
+14.4 h
+Figure F301-09 follows one goal all the way down: the export goal, the 2028 objective, the tactic, the operational plan and the budget line.
+Figure F301-09. Congruence: one goal traced down to the budget.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+short-term objectives
+الأهداف قصيرة الأجل
+objectifs à court terme
+tactics
+التكتيكات
+tactiques
+operational plan
+الخطة التشغيلية
+plan opérationnel
+English (exam term)
+العربية
+Français
+short-term objectives
+الأهداف قصيرة الأجل
+objectifs à court terme
+tactics
+التكتيكات
+tactiques
+operational plan
+الخطة التشغيلية
+plan opérationnel
+SECTION CHECK   Test yourself
+SC301-7  Exports must rise from 18.0% to 30.0% of revenue over five plan years in equal steps. What is the first-year objective?
+A.	20.0%
+B.	20.4%
+C.	30.0%
+D.	21.0%
+SC301-8  Every manager meets the 2028 budget, but the budget cut export marketing although the plan calls for export growth. What is the problem?
+A.	The managers failed
+B.	The mission is wrong
+C.	The budget is not congruent with the strategic plan
+D.	Nothing; meeting the budget is enough
+Answers and explanations are at the end of the chapter.
+1.5  Characteristics of successful strategic plans
+A successful strategic plan gives a clear direction that follows from the mission. Its goals are measurable and realistic, based on a careful study of the company and its environment, which Chapter 2 covers.
+It is also shared: managers help set their own objectives and understand how they contribute. It is linked to resources, so that people and money are available, and it is reviewed regularly, with contingency plans for the main risks. Figure F301-10 lists the characteristics.
+Figure F301-10. Characteristics of successful strategic plans
+Characteristic
+What it means
+Clear direction
+Follows from the mission and vision
+Measurable goals
+Numbers and dates, not wishes
+Realistic
+Based on the analysis of internal and external factors (Chapter 2)
+Shared
+Communicated to managers, who help set their own objectives
+Resourced
+Linked to budgets, people and investment
+Flexible
+Reviewed each year; contingency plans for major risks
+Measurable objectives are the most common weakness in practice. Figure F301-11 turns three weak Orontes objectives into strong ones, each with a number and a date.
+Figure F301-11. Weak and strong objectives
+Weak objective
+Strong objective
+Why it is better
+“Grow exports.”
+“Exports 20.4% of revenue in 2028.”
+Measurable and dated
+“Use less energy.”
+“0.48 kWh per case of juice in 2028.”
+A number the plant can track
+“Train people more.”
+“14.4 training hours per employee in 2028.”
+Owned by HR, easy to check
+SECTION CHECK   Test yourself
+SC301-9  Which is a characteristic of a successful strategic plan?
+A.	Goals without numbers, so they are easy to meet
+B.	Measurable goals with dates
+C.	Kept secret from managers
+D.	Never changed once written
+SC301-10  The Orontes plan includes a contingency plan for a sharp rise in sesame prices. Which characteristic does this show?
+A.	Secrecy
+B.	Short time frame
+C.	Flexibility and review of major risks
+D.	Rigid targets
+Answers and explanations are at the end of the chapter.
+1.6  Extended Example 1A: from the Orontes goals to the 2028 plan
+This example follows all five goals from the 2032 targets to the 2028 objectives and the main tactic for each. It is exam-core.
+1. Scenario
+Plan period: 2028 to 2032, 5 years; baseline year 2027.
+Method: equal yearly steps from the baseline to each goal.
+2. The plan on one page
+Figure F301-12 sets out each goal, its 2028 objective and the tactic that will deliver it. Return on investment must rise from 11.0% to 15.0%, so the first-year objective is 11.8%.
+Figure F301-12. Extended Example: the plan on one page
+Goal
+2032 goal
+2028 objective
+Main tactic
+Export sales as a share of revenue
+30.0%
+20.4%
+Gulf retail chains; private-label tahini
+Revenue from products launched in the last three years
+15.0%
+7.8%
+Launch sugar-free halva and juice
+Return on investment
+15.0%
+11.8%
+Sell unused equipment; tighter stock control
+Energy per case of juice (kWh)
+0.40 kWh
+0.48 kWh
+New filling-line motors; kaizen on changeovers
+Training hours per employee a year
+24 h
+14.4 h
+Supervisor and quality courses
+3. Congruence check
+Each tactic now needs an owner, an operational plan and a budget line. Chapters 3 to 10 build the 2028 budget that pays for these tactics.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+18.0% + 5 × 2.40 = 30.0%, the 2032 goal.
+The first step gives the 2028 objective of 20.4%.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+strategic plan
+الخطة الاستراتيجية
+plan stratégique
+long-term goals
+الأهداف طويلة الأجل
+objectifs à long terme
+short-term objectives
+الأهداف قصيرة الأجل
+objectifs à court terme
+English (exam term)
+العربية
+Français
+strategic plan
+الخطة الاستراتيجية
+plan stratégique
+long-term goals
+الأهداف طويلة الأجل
+objectifs à long terme
+short-term objectives
+الأهداف قصيرة الأجل
+objectifs à court terme
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect statements to classify as mission, vision, goal, objective or tactic, and questions on time frames and on the fit between the budget and the strategy. Some questions give a goal and a period and ask for the first-year objective.
+7. Self-check
+SECTION CHECK   Test yourself
+SC301-11  Use the Extended Example. What is the 2028 objective for return on investment?
+A.	11.0%
+B.	15.0%
+C.	12.0%
+D.	11.8%
+SC301-12  Use the Extended Example. Energy per case must fall from 0.50 to 0.40 kWh in equal steps. What is the 2028 objective?
+A.	0.48 kWh
+B.	0.40 kWh
+C.	0.52 kWh
+D.	0.45 kWh
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F301-13 brings the chapter together.
+Figure F301-13. Chapter 1 summary map: the key rule for each section.
+Strategic planning sets the long-term path from the mission and vision to measurable goals. A strategic plan usually covers three to five years or more, depending on the industry, and is reviewed each year. Short-term objectives, tactics, operational plans and budgets must all fit the strategy. Successful plans are clear, measurable, realistic, shared, resourced and regularly reviewed.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P301-01  Which plan comes first and sets the frame for the others?
+A.	The operating budget
+B.	The cash budget
+C.	The strategic plan
+D.	The production schedule
+P301-02  A company decides to compete by offering the lowest prices in its market. Which part of planning is this?
+A.	A strategic choice
+B.	A tactic
+C.	An operational plan
+D.	A budget line
+P301-03  Operational plans and budgets usually cover:
+A.	ten years
+B.	one year or less
+C.	three to five years
+D.	the life of the company
+P301-04  Orontes reviews its five-year plan every year and adds one new year at the end. What does this achieve?
+A.	It shortens the plan each year
+B.	It replaces the budget
+C.	It fixes the plan permanently
+D.	It keeps a full five-year view ahead at all times
+P301-05  “We make trusted, traditional Levant foods and drinks for families and businesses across the region” is a:
+A.	vision statement
+B.	long-term goal
+C.	tactic
+D.	mission statement
+P301-06  Which is the best long-term goal for a company whose mission is to serve families across the region?
+A.	“Reach 30% of revenue from exports by 2032.”
+B.	“Serve families well.”
+C.	“Print new labels next week.”
+D.	“Be nice to customers.”
+P301-07  Training hours per employee must rise from 12 to 24 over five plan years in equal steps. What is the first-year objective?
+A.	24.0 hours
+B.	14.4 hours
+C.	14.0 hours
+D.	13.2 hours
+P301-08  On-time delivery must rise from 88.0% to 97.0% over three plan years in equal steps. What is the yearly improvement?
+A.	2.25 points
+B.	9.0 points
+C.	3.0 points
+D.	4.5 points
+P301-09  “Enter two Gulf retail chains with private-label tahini in 2028” is best described as a:
+A.	mission
+B.	vision
+C.	long-term goal
+D.	tactic
+P301-10  Why must short-term objectives, tactics and operational plans fit the strategic plan?
+A.	Because auditors require it
+B.	So that budgets can be ignored
+C.	So that meeting them moves the company toward its long-term goals
+D.	Because tactics replace strategy
+P301-11  Which is NOT a characteristic of a successful strategic plan?
+A.	It is shared with managers
+B.	It is never reviewed
+C.	It is linked to resources
+D.	Its goals are measurable
+P301-12  Division managers at Orontes help set their own 2028 objectives. Why does this help the plan succeed?
+A.	Managers understand and commit to the objectives
+B.	It removes the need for goals
+C.	It makes objectives easy to meet
+D.	It shortens the plan
+P301-13  Which objective is the strongest?
+A.	“0.48 kWh per case of juice in 2028.”
+B.	“Use less energy.”
+C.	“Improve quality.”
+D.	“Grow a lot.”
+P301-14  A realistic strategic plan is based on:
+A.	last year's budget only
+B.	the wishes of one manager
+C.	the competitors' plans
+D.	an analysis of the organization and its environment
+P301-15  The vision statement answers the question:
+A.	What will we sell tomorrow?
+B.	How much cash do we have?
+C.	What do we want to become?
+D.	Who prepares the budget?
+P301-16  Tactical plans usually cover:
+A.	one day
+B.	one to three years
+C.	ten to twenty years
+D.	the next hour
+Case question: Levant Distribution's three-year plan
+Levant Distribution, the Orontes subsidiary that delivers juice and foods to shops across Jordan, is writing its first strategic plan. Its managers have listed statements about the company's purpose, its future and what it wants to achieve, but they mixed them together in one long list.
+The board has chosen two measures for the plan. The first is the share of deliveries that arrive on time. The second is the cost of each delivery stop. The exhibit shows where the company was in 2027 and where it wants to be at the end of the plan.
+The finance manager, Nadia, must turn the long-term goals into objectives for 2028, using equal steps each year. She must also check that the 2028 budget supports the plan. The first draft of the budget cuts the new route-planning software, although the plan depends on it to improve on-time delivery.
+The board also wants to confirm that the length of the plan suits a distribution business. Its competitors plan between two and five years ahead, and Levant's contracts with supermarkets usually last three years.
+Use Figure F301-14 for items C301-1 to C301-7.
+How to enter answers: Enter percentages and amounts to one decimal place, without the % or $ sign (for example, 12.5).
+Figure F301-14. Case exhibit: Levant Distribution's plan
+Levant Distribution
+2027 (actual)
+2030 (goal)
+Deliveries on time
+88.0%
+97.0%
+Cost per delivery stop (USD)
+42.0
+36.0
+Plan period
+2028–2030
+3 years
+C301-1  Classify each statement. (On the exam screen you would drag each item into a box.)
+Categories: Mission · Vision · Long-term goal · Short-term objective · Tactic
+Statement
+Category
+We deliver Orontes products to every shop in Jordan, fresh and on time
+To be the most reliable food distributor in the Levant
+97% of deliveries on time by 2030
+91% of deliveries on time in 2028
+Plan delivery routes each night with new software
+C301-2  Enter the yearly improvement in on-time deliveries, in percentage points, using equal steps.
+Answer: ____________
+C301-3  Enter the 2028 objective for on-time deliveries, in percent.
+Answer: ____________
+C301-4  Enter the 2028 objective for the cost per delivery stop, in U.S. dollars.
+Answer: ____________
+C301-5  For Levant's strategic plan, the most suitable time frame is: [select]
+Options: three years, reviewed and rolled forward each year   |   one year, the same as the budget   |   fifteen years, fixed   |   one quarter
+C301-6  The draft 2028 budget cuts the route-planning software. Nadia should: [select]
+Options: point out that the budget does not fit the plan, and restore the software or revise the goal   |   approve the budget because it lowers costs   |   remove the on-time goal from the plan   |   wait until 2030 to decide
+C301-7  When objectives, tactics, plans and budgets all fit the strategic plan, the plan shows ____.
+Choose the word or phrase for the blank: congruence   |   slack   |   variance   |   leverage
+Answers and explanations
+Section checks
+SC301-1  Answer A. It sets the long-term path.
+B is wrong. That is an operational matter.
+C is wrong. Tax is set by law.
+D is wrong. That is an accounting structure.
+SC301-2  Answer B. The budget puts the strategy into money.
+A is wrong. This works against the strategy.
+C is wrong. This works against the strategy.
+D is wrong. This does not serve export growth.
+SC301-3  Answer C. Strategy looks several years ahead.
+A is wrong. Too short for strategy.
+B is wrong. Too short for strategy.
+D is wrong. That is the budget period.
+SC301-4  Answer D. The time frame follows the pace of the industry.
+A is wrong. All companies need plans.
+B is wrong. Food producers change too, but more slowly.
+C is wrong. No rule sets the time frame.
+SC301-5  Answer D. It says what the company wants to become.
+A is wrong. A mission says why the company exists and what it does.
+B is wrong. A tactic is a specific action.
+C is wrong. It is not a one-year measurable result.
+SC301-6  Answer A. Goals make the mission measurable.
+B is wrong. The mission stays; goals come from it.
+C is wrong. The mission comes first.
+D is wrong. Goals come from the mission.
+SC301-7  Answer B. 12.0 points ÷ 5 = 2.4 points a year.
+A is wrong. The change is divided by six.
+C is wrong. This is the long-term goal.
+D is wrong. The step is misread.
+SC301-8  Answer C. Plans at each level must fit the level above.
+A is wrong. They met the budget; the budget is the problem.
+B is wrong. The mission is not the cause.
+D is wrong. The company will miss its goal.
+SC301-9  Answer B. Measurable goals let progress be tracked.
+A is wrong. Goals must be measurable.
+C is wrong. Plans must be shared.
+D is wrong. Plans are reviewed regularly.
+SC301-10  Answer C. Successful plans prepare for major risks.
+A is wrong. It is not about secrecy.
+B is wrong. It does not change the time frame.
+D is wrong. It adds flexibility.
+SC301-11  Answer D. 11.0% plus one equal yearly step.
+A is wrong. This is the baseline.
+B is wrong. This is the long-term goal.
+C is wrong. The step is misread.
+SC301-12  Answer A. 0.10 kWh ÷ 5 = 0.02 kWh a year.
+B is wrong. This is the long-term goal.
+C is wrong. The step is added instead of deducted.
+D is wrong. The step is misread.
+Your turn
+Item
+Answer
+Return on investment, 2028
+11.0% + (15.0% − 11.0%) ÷ 5 = 11.8%
+Energy per case, 2028
+0.50 − (0.50 − 0.40) ÷ 5 = 0.48 kWh
+Multiple-choice questions
+P301-01  Answer C. All other plans serve the strategy.
+A is wrong. The budget follows the strategy.
+B is wrong. The cash budget is part of the budget.
+D is wrong. That is an operational plan.
+P301-02  Answer A. Choosing how to compete is strategy.
+B is wrong. Tactics carry out the strategy.
+C is wrong. Operational plans come later.
+D is wrong. The budget follows the choice.
+P301-03  Answer B. They put the first year of the plan into action.
+A is wrong. Too long.
+C is wrong. That is the strategic plan.
+D is wrong. No plan covers that.
+P301-04  Answer D. The plan is rolled forward.
+A is wrong. The view stays five years long.
+B is wrong. The budget is still needed.
+C is wrong. Review keeps it flexible.
+P301-05  Answer D. It says what the company does and for whom.
+A is wrong. A vision says what the company wants to become.
+B is wrong. It has no measure or date.
+C is wrong. It is not a specific action.
+P301-06  Answer A. It is measurable, dated and serves the mission.
+B is wrong. No measure or date.
+C is wrong. This is a small operational task.
+D is wrong. No measure or date.
+P301-07  Answer B. 12 hours ÷ 5 = 2.4 hours a year.
+A is wrong. This is the long-term goal.
+C is wrong. The change is divided by six.
+D is wrong. The step is misread.
+P301-08  Answer C. 9.0 points ÷ 3 years.
+A is wrong. The change is divided by four.
+B is wrong. This is the whole change.
+D is wrong. The change is divided by two.
+P301-09  Answer D. It is a specific action to reach an objective.
+A is wrong. It is not a lasting purpose.
+B is wrong. It is not a picture of the future company.
+C is wrong. It is an action, not a result.
+P301-10  Answer C. Congruence links daily work to the strategy.
+A is wrong. It is a management need, not an audit rule.
+B is wrong. Budgets are part of the chain.
+D is wrong. Tactics serve the strategy.
+P301-11  Answer B. Successful plans are reviewed regularly.
+A is wrong. This is a characteristic.
+C is wrong. This is a characteristic.
+D is wrong. This is a characteristic.
+P301-12  Answer A. Shared plans gain commitment.
+B is wrong. Goals are still needed.
+C is wrong. Objectives should stay realistic, not easy.
+D is wrong. The time frame does not change.
+P301-13  Answer A. It has a number and a date.
+B is wrong. No measure or date.
+C is wrong. No measure or date.
+D is wrong. No measure or date.
+P301-14  Answer D. Internal and external analysis (Chapter 2) keeps goals realistic.
+A is wrong. The budget is not the starting point.
+B is wrong. Plans need shared analysis.
+C is wrong. Competitors are only one factor.
+P301-15  Answer C. Vision describes the future organization.
+A is wrong. That is operational.
+B is wrong. That is a cash question.
+D is wrong. That is a process question.
+P301-16  Answer B. They sit between the strategic plan and the budget.
+A is wrong. Too short.
+C is wrong. Too long.
+D is wrong. Too short.
+Case question: Levant Distribution's three-year plan
+C301-1
+Statement
+Category
+We deliver Orontes products to every shop in Jordan, fresh and on time
+Mission
+To be the most reliable food distributor in the Levant
+Vision
+97% of deliveries on time by 2030
+Long-term goal
+91% of deliveries on time in 2028
+Short-term objective
+Plan delivery routes each night with new software
+Tactic
+Mission: why we exist. Vision: what we want to become. Long-term goal: a result for the end of the plan. Short-term objective: a result for next year. Tactic: a specific action.
+C301-2  Answer: 3.0.
+2.2 is wrong: this answer counts 2027 as a plan year.
+C301-3  Answer: 91.0.
+97.0 is wrong: this answer gives the long-term goal.
+C301-4  Answer: 40.0.
+36.0 is wrong: this answer gives the long-term goal.
+C301-5  Answer: three years, reviewed and rolled forward each year.
+one year, the same as the budget is wrong: this answer too short for a strategic plan.
+fifteen years, fixed is wrong: this answer too long for this industry, and a plan must be reviewed.
+one quarter is wrong: this answer far too short for a strategic plan.
+C301-6  Answer: point out that the budget does not fit the plan, and restore the software or revise the goal.
+approve the budget because it lowers costs is wrong: this answer the budget would work against the plan.
+remove the on-time goal from the plan is wrong: this answer the goal should drive the budget, not the reverse.
+wait until 2030 to decide is wrong: this answer the conflict affects the 2028 objective.
+C301-7  Answer: congruence.
+slack is wrong: this answer slack is a padded budget (Chapter 3).
+variance is wrong: this answer a variance is a difference between actual and budget.
+leverage is wrong: this answer leverage is about debt, not fit.
+PART I — STRATEGY AND BUDGETING FOUNDATIONS

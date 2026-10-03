@@ -1,0 +1,694 @@
+Chapter 13
+Mix, Yield and Sales-Mix Variances; Variances in Service Companies
+انحرافات المزيج والمردود ومزيج المبيعات؛ الانحرافات في شركات الخدمات
+Chapters 11 and 12 analysed one product and one input at a time. Most divisions sell several products and blend several inputs. A division can sell exactly the budgeted number of units and still miss its profit, because it sold the wrong ones. This chapter measures that effect, on the selling side and on the production side.
+Figure F313-01 shows the pattern the chapter repeats.
+Figure F313-01. Chapter 13 roadmap: total, mix, quantity or yield.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.1.n
+calculate a sales-mix variance and explain its impact on revenue and contribution margin
+Calculate a sales-mix variance and explain its effect on revenue and contribution margin.
+Full treatment + Extended Example
+C.1.o
+calculate and explain a mix variance
+Calculate and explain a mix variance.
+Full treatment
+C.1.p
+calculate and explain a yield variance
+Calculate and explain a yield variance.
+Full treatment
+C.1.q
+demonstrate how price, efficiency, spending, and mix variances can be applied in service companies as well as in manufacturing companies
+Show how price, efficiency, spending and mix variances apply in service companies as well as in manufacturing.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+sales-mix variance
+انحراف مزيج المبيعات
+écart sur composition des ventes
+sales-quantity variance
+انحراف كمية المبيعات
+écart sur quantité des ventes
+materials mix variance
+انحراف مزيج المواد
+écart sur composition des matières
+materials yield variance
+انحراف مردود المواد
+écart sur rendement des matières
+weighted-average contribution margin
+متوسط هامش المساهمة المرجح
+marge sur coût variable moyenne pondérée
+overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة
+écart sur dépenses de frais généraux
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 11 split the master-budget variance into a sales-volume and a flexible-budget variance. Chapter 12 split an input variance into price and efficiency. This chapter splits each of those parts once more.
+13.1  Sales-mix and sales-quantity variances
+When a division sells more than one product, the sales-volume variance of Chapter 11 has two causes: the total number of units, and the proportions in which they were sold. Figure F313-02 shows the split.
+Figure F313-02. The sales-volume variance split into mix and quantity.
+The sales-mix variance measures the proportions. It asks what the contribution margin would have been if the actual total units had been sold in the budgeted mix. The sales-quantity variance measures the total, valued at the budgeted weighted-average contribution margin.
+Tahini & Spreads sells three products. Figure F313-03 compares the budgeted and actual mix, and Figure F313-04 gives the figures behind it.
+Figure F313-03. Budgeted and actual sales mix by product.
+Figure F313-04. Budgeted and actual sales mix for the month
+Tahini & Spreads, one month
+Budget units
+Mix
+Actual units
+Mix
+Budgeted margin
+Tahini 500 g jars
+120,000
+60%
+117,000
+65%
+$1.50
+Tahini 1 kg jars
+50,000
+25%
+45,000
+25%
+$2.40
+Halva packs
+30,000
+15%
+18,000
+10%
+$2.00
+Total
+200,000
+100%
+180,000
+100%
+$1.80 average
+WORKED EXAMPLE   Worked example: the mix and quantity variances
+In the budgeted mix, the actual 180,000 units would have included 108,000 of the small jars, not 117,000. Applying each product's budgeted margin gives a mix variance of $4,500 unfavorable. The quantity variance is (180,000 − 200,000) × $1.80 = $36,000 unfavorable. Figure F313-05 sets out both.
+Figure F313-05. Worked example: the sales-mix and sales-quantity variances
+Product
+Actual units
+Actual total at budgeted mix
+Margin
+Mix variance
+Tahini 500 g jars
+117,000
+108,000
+$1.50
+13,500 F
+Tahini 1 kg jars
+45,000
+45,000
+$2.40
+—
+Halva packs
+18,000
+27,000
+$2.00
+18,000 U
+Sales-mix variance
+4,500 U
+Sales-quantity variance: (180,000 − 200,000) × $1.80
+36,000 U
+Sales-volume variance
+40,500 U
+The two parts add to the sales-volume variance of $40,500 unfavorable. Figure F313-06 proves it product by product, using the method of Chapter 11.
+Figure F313-06. The same volume variance, product by product
+Check by product
+Actual units
+Budget units
+Margin
+Volume variance
+Tahini 500 g jars
+117,000
+120,000
+$1.50
+4,500 U
+Tahini 1 kg jars
+45,000
+50,000
+$2.40
+12,000 U
+Halva packs
+18,000
+30,000
+$2.00
+24,000 U
+Sales-volume variance
+40,500 U
+The mix matters because the products earn different margins. Selling a larger share of the cheapest jars costs contribution margin even when the total number of units is unchanged. The effect on revenue follows the same logic, using selling prices.
+EXAM TRAP   Mix uses the actual total
+The sales-mix variance is always calculated on the actual total units. Using the budgeted total turns it into a different variance and the two parts will not add to the sales-volume variance.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales-mix variance
+انحراف مزيج المبيعات
+écart sur composition des ventes
+sales-quantity variance
+انحراف كمية المبيعات
+écart sur quantité des ventes
+weighted-average contribution margin
+متوسط هامش المساهمة المرجح
+marge sur coût variable moyenne pondérée
+English (exam term)
+العربية
+Français
+sales-mix variance
+انحراف مزيج المبيعات
+écart sur composition des ventes
+sales-quantity variance
+انحراف كمية المبيعات
+écart sur quantité des ventes
+weighted-average contribution margin
+متوسط هامش المساهمة المرجح
+marge sur coût variable moyenne pondérée
+SECTION CHECK   Test yourself
+SC313-1  A division sold 180,000 units against a budget of 200,000, with a budgeted weighted-average contribution margin of $1.80. What is the sales-quantity variance?
+A.	$20,000 unfavorable
+B.	$40,500 unfavorable
+C.	$4,500 unfavorable
+D.	$36,000 unfavorable
+SC313-2  The sales-mix variance is calculated on:
+A.	the budgeted total units
+B.	the actual total units
+C.	the standard quantity allowed
+D.	last year's units
+Answers and explanations are at the end of the chapter.
+13.2  Materials mix and yield variances
+The same idea applies to inputs that can be substituted for each other. Halva is made from sesame paste and sugar in a standard blend; using more paste and less sugar changes the cost even if the total input is unchanged.
+The usage variance of Chapter 12 therefore splits into a materials mix variance and a materials yield variance. Figure F313-07 shows the three columns, all valued at standard prices.
+Figure F313-07. The three columns for a materials blend.
+WORKED EXAMPLE   Worked example: the halva blend
+18,000 packs allow 9,000 kg in a 60% to 40% blend; the plant used 9,200 kg. Mix: $420 unfavorable, because more of the dearer paste was used. Yield: (9,200 − 9,000) × $1.90 = $380 unfavorable. Figure F313-08 sets out the calculation.
+Figure F313-08. Worked example: the halva mix and yield variances
+Halva: 18,000 packs
+Standard
+Standard kg
+Actual kg
+Actual total at standard mix
+Variance
+Sesame paste
+0.30 kg at $2.50
+5,400
+5,800
+5,520
+700 U
+Sugar
+0.20 kg at $1.00
+3,600
+3,400
+3,680
+280 F
+Materials mix variance
+9,000
+9,200
+420 U
+Yield: (9,200 − 9,000) kg × $1.90
+380 U
+Usage variance
+800 U
+YOUR TURN   The sugar line
+Complete the blank cells of Figure F313-09. Answers are at the end of the chapter.
+Figure F313-09. Your turn: the sugar line (complete the blanks)
+Halva: 18,000 packs
+Standard
+Standard kg
+Actual kg
+Actual total at standard mix
+Variance
+Sesame paste
+0.30 kg at $2.50
+5,400
+5,800
+5,520
+700 U
+Sugar
+0.20 kg at $1.00
+3,600
+3,400
+3,680
+________
+Materials mix variance
+9,000
+9,200
+________
+Yield: (9,200 − 9,000) kg × $1.90
+380 U
+Usage variance
+800 U
+Mix and yield together make up the usage variance of $800 unfavorable, which is what Chapter 12 would have reported for the two inputs combined. The mix variance belongs to whoever chose the blend; the yield variance to whoever ran the process.
+EXAM TRAP   Yield is valued at the average
+The yield variance is valued at the weighted-average standard price of the blend, $1.90 a kilogram here, not at the price of one input.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+materials mix variance
+انحراف مزيج المواد
+écart sur composition des matières
+materials yield variance
+انحراف مردود المواد
+écart sur rendement des matières
+English (exam term)
+العربية
+Français
+materials mix variance
+انحراف مزيج المواد
+écart sur composition des matières
+materials yield variance
+انحراف مردود المواد
+écart sur rendement des matières
+SECTION CHECK   Test yourself
+SC313-3  A blend standard is 60% paste at $2.50 and 40% sugar at $1.00. The plant used 9,200 kg in total, of which 5,800 kg was paste. What is the mix variance?
+A.	$280 unfavorable
+B.	$380 unfavorable
+C.	$420 unfavorable
+D.	$800 unfavorable
+SC313-4  The standard allows 9,000 kg and 9,200 kg were used. The weighted-average standard price is $1.90. What is the yield variance?
+A.	$380 unfavorable
+B.	$200 unfavorable
+C.	$420 unfavorable
+D.	$500 unfavorable
+Answers and explanations are at the end of the chapter.
+13.3  Variances in service companies
+A service company has no finished goods, but it still has standards: hours per delivery, hours per audit, minutes per call. Every variance in Chapters 11 to 13 applies, with labor hours in place of materials.
+WORKED EXAMPLE   Worked example: Levant Distribution
+Levant made 2,400 deliveries, allowing 1,200 hours at $10.00; it worked 1,260 hours at $10.40. The overhead spending variance compares actual variable overhead with the standard rate applied to the hours worked. Figure F313-10 shows all four variances.
+Figure F313-10. Worked example: variances at Levant Distribution
+Levant: 2,400 deliveries
+Calculation
+Variance
+Labor rate
+($10.40 − $10.00) × 1,260 hours
+504 U
+Labor efficiency
+(1,260 − 1,200) hours × $10.00
+600 U
+Overhead spending
+$7,980 − 1,260 hours × $6.00
+420 U
+Overhead efficiency
+(1,260 − 1,200) hours × $6.00
+360 U
+Figure F313-11 shows how each variance is read in a service business. Mix variances appear too: a job done by senior rather than junior staff has a mix effect, exactly like a change in a materials blend.
+Figure F313-11. How each variance is read in a service company
+Variance
+In a service company
+How it is calculated
+Price or rate
+Wage paid to drivers and warehouse staff
+Same formula: (AR − SR) × actual hours
+Efficiency
+Hours per delivery or per order
+Same formula: (AH − SH allowed) × standard rate
+Spending
+Fuel, vehicle running costs, utilities
+Actual overhead − standard rate × actual hours
+Mix
+Share of senior and junior staff, or of service types
+Same formula as a materials or sales mix
+No inventory
+Services are consumed as produced
+There is no usage variance for stock, but input variances remain
+The one difference is that a service cannot be stored. There is no stock of unsold deliveries, so the usage variance never carries into inventory; it affects the period in which the work was done.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة
+écart sur dépenses de frais généraux
+English (exam term)
+العربية
+Français
+overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة
+écart sur dépenses de frais généraux
+SECTION CHECK   Test yourself
+SC313-5  Can variance analysis be used in a company that sells only services?
+A.	No, because there is no inventory
+B.	Yes: hours and overhead have standards and actual results
+C.	No, because there are no standards
+D.	Only for the sales variances
+SC313-6  Actual variable overhead is $7,980 and the standard rate is $6.00 for each of the 1,260 hours worked. What is the spending variance?
+A.	$420 unfavorable
+B.	$360 unfavorable
+C.	$504 unfavorable
+D.	$780 unfavorable
+Answers and explanations are at the end of the chapter.
+13.4  Extended Example 13A: the month in one report
+This example collects the chapter's variances into the report that goes to the Orontes board. It is exam-core.
+1. The report
+Figure F313-12 lists each variance with the manager who answers for it.
+Figure F313-12. Extended Example: the month's mix, yield and service variances
+Variance
+Amount
+Who answers, and why
+Sales mix
+4,500 U
+Sales team: the product mix moved to cheaper jars
+Sales quantity
+36,000 U
+Sales team and market: fewer units in total
+Materials mix (halva)
+420 U
+Plant: more paste, less sugar than the recipe
+Materials yield (halva)
+380 U
+Plant: more total input than the standard allows
+Levant labor and overhead
+1,884 U
+Levant: rate, efficiency and spending together
+2. Reading it
+The largest number is the quantity variance: the division simply sold fewer units. The mix variance is smaller but more useful, because it shows that the sales team sold the cheaper jars while halva, the richest product, fell furthest.
+3. Tie line
+WORKED EXAMPLE   Everything ties
+Mix $4,500 + quantity $36,000 = sales-volume $40,500, all unfavorable.
+Halva mix $420 + yield $380 = usage $800, all unfavorable.
+4. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales-mix variance
+انحراف مزيج المبيعات
+écart sur composition des ventes
+materials mix variance
+انحراف مزيج المواد
+écart sur composition des matières
+materials yield variance
+انحراف مردود المواد
+écart sur rendement des matières
+English (exam term)
+العربية
+Français
+sales-mix variance
+انحراف مزيج المبيعات
+écart sur composition des ventes
+materials mix variance
+انحراف مزيج المواد
+écart sur composition des matières
+materials yield variance
+انحراف مردود المواد
+écart sur rendement des matières
+5. How the exam asks it
+EXAM TRAP   Exam view
+Expect budgeted and actual units for several products with their budgeted margins, or a standard blend with actual inputs. Work out the actual total in the budgeted or standard proportions first; that single column gives both variances.
+6. Self-check
+SECTION CHECK   Test yourself
+SC313-7  Use the Extended Example. Which variance is the largest?
+A.	The sales-mix variance
+B.	The halva yield variance
+C.	The Levant labor rate variance
+D.	The sales-quantity variance
+SC313-8  Use the Extended Example. What do the halva mix and yield variances add up to?
+A.	The sales-volume variance
+B.	The price variance
+C.	The usage variance for the blend
+D.	The spending variance
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F313-13 brings the chapter together.
+Figure F313-13. Chapter 13 summary map: the key rule for each section.
+When several products are sold, the sales-volume variance splits in two. The sales-mix variance is measured on the actual total units at each product's budgeted margin, and the sales-quantity variance at the budgeted weighted-average margin. When inputs can be substituted, the usage variance splits into a materials mix variance, measured on the actual total input, and a yield variance, valued at the weighted-average standard price. All of these variances, together with price, efficiency and spending variances, apply in service companies, where hours replace materials and nothing is held in stock.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P313-01  A sales-mix variance arises when:
+A.	total units differ from budget
+B.	prices differ from budget
+C.	costs differ from budget
+D.	the proportions of products sold differ from budget
+P313-02  Actual sales are 180,000 units. A product's budgeted mix is 15% and 18,000 units were sold. Its budgeted margin is $2.00. What is its mix variance?
+A.	$18,000 unfavorable
+B.	$9,000 unfavorable
+C.	$27,000 unfavorable
+D.	$24,000 unfavorable
+P313-03  Total units sold equal the budget exactly, but a larger share came from the lowest-margin product. What follows?
+A.	No variances arise
+B.	A favorable mix variance
+C.	An unfavorable mix variance and a zero quantity variance
+D.	An unfavorable quantity variance
+P313-04  Budget: 120,000 units at $1.50, 50,000 at $2.40, 30,000 at $2.00. What is the budgeted weighted-average contribution margin?
+A.	$1.80
+B.	$1.97
+C.	$2.00
+D.	$5.90
+P313-05  A materials mix variance can only arise when:
+A.	there is one input
+B.	prices change
+C.	output changes
+D.	inputs can be substituted for one another
+P313-06  The mix variance is calculated by comparing actual quantities with:
+A.	the actual total input split in the standard proportions
+B.	the standard quantity allowed for the output
+C.	last month's input
+D.	the actual total input at actual prices
+P313-07  A yield variance is favorable when:
+A.	a cheaper input is substituted
+B.	less total input is used than the standard allows
+C.	prices fall
+D.	more units are sold
+P313-08  A blend of 0.30 kg paste at $2.50 and 0.20 kg sugar at $1.00 makes one pack. What is the weighted-average standard price a kilogram?
+A.	$0.95
+B.	$1.75
+C.	$1.90
+D.	$2.00
+P313-09  Mix and yield variances together equal:
+A.	the price variance
+B.	the spending variance
+C.	the usage variance
+D.	the sales-volume variance
+P313-10  A delivery company allows 0.5 hours a delivery at $10.00. It made 2,400 deliveries and worked 1,260 hours. What is the efficiency variance?
+A.	$504 unfavorable
+B.	$600 unfavorable
+C.	$360 unfavorable
+D.	$60 unfavorable
+P313-11  In a service company, what replaces materials in the input variances?
+A.	Finished goods
+B.	Receivables
+C.	Dividends
+D.	Labor hours
+P313-12  An audit firm uses senior staff instead of juniors on a job. Which variance captures this?
+A.	A labor mix variance
+B.	A yield variance
+C.	A sales-quantity variance
+D.	A spending variance
+P313-13  Which statement about a favorable sales-mix variance is correct?
+A.	More units were sold in total
+B.	A larger share of higher-margin products was sold
+C.	Prices were higher
+D.	Costs were lower
+P313-14  A plant used 5,800 kg of paste when the actual total input in standard proportions would have been 5,520 kg. The standard price is $2.50. What is the paste mix variance?
+A.	$280 unfavorable
+B.	$1,000 unfavorable
+C.	$700 unfavorable
+D.	$420 unfavorable
+P313-15  The yield variance is valued at:
+A.	the price of the most expensive input
+B.	the actual average price
+C.	the selling price
+D.	the weighted-average standard price of the blend
+P313-16  Why is there no finished-goods effect from a service company's usage variance?
+A.	Because services cannot be stored
+B.	Because services have no costs
+C.	Because standards do not apply
+D.	Because hours are free
+Case question: the Oils bottle-size mix
+The Oils division sells its extra-virgin olive oil in three sizes: 500 ml bottles for supermarkets, 1 liter bottles for most customers, and 5 liter cans for restaurants and hotels. Each size earns a different contribution margin, and the cans earn the most.
+Last month the division sold exactly the number of units it had budgeted in total. The division manager was pleased and told the board that the month had gone to plan. The controller, Rania, is less sure: a hotel group had placed a large order for cans, while a supermarket chain ran a promotion on the small bottles and bought far more of them, and sales of the 1 liter bottles fell well below budget.
+Rania wants the board to see that selling the same number of units in a different mix changes the contribution margin. She will calculate the sales-mix variance for each size, the sales-quantity variance, and the sales-volume variance for the month.
+The new assistant has started the work but has used the budgeted total units as the base for the mix calculation, and Rania must correct it.
+Use Figure F313-14 for items C313-1 to C313-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas, and without a minus sign; a separate item asks whether each variance is favorable or unfavorable (for example, 21000).
+Figure F313-14. Case exhibit: Oils bottle sizes for the month
+Oils division, one month
+Budget units
+Mix
+Actual units
+Budgeted margin
+500 ml bottles
+60,000
+30%
+66,000
+$1.20
+1 liter bottles
+100,000
+50%
+88,000
+$2.00
+5 liter cans
+40,000
+20%
+46,000
+$3.50
+Total
+200,000
+100%
+200,000
+$2.06 average
+C313-1  Classify each variance for the month. (On the exam screen you would drag each item into a box.)
+Categories: Favorable · Unfavorable
+Variance
+Category
+500 ml mix variance
+1 liter mix variance
+5 liter mix variance
+Sales-quantity variance
+Total sales-volume variance
+C313-2  Enter the units of 5 liter cans that the actual total would give at the budgeted mix.
+Answer: ____________
+C313-3  Enter the mix variance for the 5 liter cans.
+Answer: ____________
+C313-4  Enter the mix variance for the 1 liter bottles.
+Answer: ____________
+C313-5  Enter the total sales-mix variance for the month.
+Answer: ____________
+C313-6  The sales-quantity variance for the month is: [select]
+Options: zero, because total units equalled the budget   |   unfavorable, because the mix was cheaper   |   favorable, because cans sold well   |   impossible to calculate
+C313-7  The sales-mix variance is calculated on the ____ total units.
+Choose the word or phrase for the blank: actual   |   budgeted   |   standard   |   average
+Answers and explanations
+Section checks
+SC313-1  Answer D. Change in total units × budgeted average margin.
+A is wrong. This is the change in units only.
+B is wrong. This is the whole sales-volume variance.
+C is wrong. This is the mix variance.
+SC313-2  Answer B. The question is how the actual total was split.
+A is wrong. That is the quantity variance's base.
+C is wrong. That belongs to materials.
+D is wrong. History is not used.
+SC313-3  Answer C. 280 kg more paste at $2.50, 280 kg less sugar at $1.00.
+A is wrong. This is the kilograms out of mix only.
+B is wrong. This is the yield variance.
+D is wrong. This is the whole usage variance.
+SC313-4  Answer A. Extra total input × the average standard price.
+B is wrong. This is the extra kilograms only.
+C is wrong. This is the mix variance.
+D is wrong. This values the extra input at the paste price.
+SC313-5  Answer B. Labor and overhead variances work in the same way.
+A is wrong. Inventory is not needed for input variances.
+C is wrong. Hours per job can be standardised.
+D is wrong. Cost variances apply too.
+SC313-6  Answer A. Actual overhead − standard rate × actual hours.
+B is wrong. This is the overhead efficiency variance.
+C is wrong. This is the labor rate variance.
+D is wrong. This uses the standard hours allowed.
+SC313-7  Answer D. $36,000 unfavorable, from selling fewer units in total.
+A is wrong. Smaller than the quantity variance.
+B is wrong. Much smaller.
+C is wrong. Much smaller.
+SC313-8  Answer C. Mix and yield are the two parts of usage.
+A is wrong. That belongs to sales.
+B is wrong. Price is a separate variance.
+D is wrong. Spending belongs to overhead.
+Your turn
+Item
+Answer
+Sugar mix variance
+(3,400 − 3,680) × $1.00 = $(280) (favorable: less sugar than the blend allows)
+Total mix variance
+$700 unfavorable − $(280) favorable = $420 unfavorable
+Multiple-choice questions
+P313-01  Answer D. Mix is about proportions.
+A is wrong. That is the quantity variance.
+B is wrong. That is the sales-price variance.
+C is wrong. That is a cost variance.
+P313-02  Answer A. 18,000 sold against 27,000 at the budgeted mix.
+B is wrong. This is the units out of mix only.
+C is wrong. This is the units at the budgeted mix.
+D is wrong. This uses the budgeted units of 30,000.
+P313-03  Answer C. Mix changed; the total did not.
+A is wrong. The mix still changed the margin.
+B is wrong. A cheaper mix lowers the margin.
+D is wrong. The total is unchanged.
+P313-04  Answer A. $360,000 ÷ 200,000 units.
+B is wrong. This is a simple average of the three margins.
+C is wrong. This is the middle margin.
+D is wrong. This adds the margins.
+P313-05  Answer D. A blend is needed.
+A is wrong. One input has no mix.
+B is wrong. That is a price variance.
+C is wrong. Output changes affect the standard allowed.
+P313-06  Answer A. It isolates proportions from the total.
+B is wrong. That comparison gives the usage variance.
+C is wrong. History is not used.
+D is wrong. Prices are held at standard.
+P313-07  Answer B. Yield measures the total input used.
+A is wrong. That is the mix variance.
+C is wrong. That is a price variance.
+D is wrong. That belongs to sales.
+P313-08  Answer C. $0.95 of input ÷ 0.50 kg.
+A is wrong. This is the input cost of one pack.
+B is wrong. This is a simple average of the two prices.
+D is wrong. Not the weighted average.
+P313-09  Answer C. They are the two parts of usage.
+A is wrong. Price is separate.
+B is wrong. That belongs to overhead.
+D is wrong. That belongs to sales.
+P313-10  Answer B. 60 extra hours × $10.
+A is wrong. This is the rate variance.
+C is wrong. This uses the overhead rate.
+D is wrong. This is the extra hours only.
+P313-11  Answer D. Hours are the main input.
+A is wrong. Services are not stored.
+B is wrong. Not an input.
+C is wrong. Not an input.
+P313-12  Answer A. The proportions of the input changed.
+B is wrong. Yield is about the total hours.
+C is wrong. That belongs to sales.
+D is wrong. Spending belongs to overhead.
+P313-13  Answer B. Mix is about which products were sold.
+A is wrong. That is the quantity variance.
+C is wrong. That is the price variance.
+D is wrong. That is a cost variance.
+P313-14  Answer C. 280 kg × $2.50.
+A is wrong. This is the kilograms only.
+B is wrong. This is the paste usage variance.
+D is wrong. This is the total mix variance.
+P313-15  Answer D. The total input is a blend.
+A is wrong. That overstates the variance.
+B is wrong. Prices are held at standard.
+C is wrong. Unrelated.
+P313-16  Answer A. The work affects the period it is done in.
+B is wrong. Services have costs.
+C is wrong. Standards apply.
+D is wrong. Hours are paid for.
+Case question: the Oils bottle-size mix
+C313-1
+Variance
+Category
+500 ml mix variance
+Favorable
+1 liter mix variance
+Unfavorable
+5 liter mix variance
+Favorable
+Sales-quantity variance
+Unfavorable
+Total sales-volume variance
+Favorable
+A variance is favorable if it raises contribution margin above the budgeted figure.
+C313-2  Answer: 40,000.
+46,000 is wrong: this answer gives the actual units instead.
+C313-3  Answer: 21,000.
+12,360 is wrong: this answer uses the weighted-average margin instead of the product's own margin.
+C313-4  Answer: 24,000.
+100,000 is wrong: this answer enters a unit figure instead of a dollar amount.
+C313-5  Answer: 4,200.
+52,200 is wrong: this answer adds the three mix variances without their signs.
+C313-6  Answer: zero, because total units equalled the budget.
+unfavorable, because the mix was cheaper is wrong: this answer that is the mix variance, not the quantity variance.
+favorable, because cans sold well is wrong: this answer one product's result does not change the total units.
+impossible to calculate is wrong: this answer the budgeted average margin and totals are given.
+C313-7  Answer: actual.
+budgeted is wrong: this answer the budgeted total is used for the quantity variance.
+standard is wrong: this answer standard quantities belong to materials.
+average is wrong: this answer the average margin is used, not average units.
+PART III — MEASURING AND MANAGING PERFORMANCE

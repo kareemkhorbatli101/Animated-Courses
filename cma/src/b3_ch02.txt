@@ -1,0 +1,808 @@
+Chapter 2
+Analysing the Environment and Choosing a Strategy
+تحليل البيئة واختيار الاستراتيجية
+Chapter 1 set the goals of the Orontes plan for 2028 to 2032, such as raising export sales. Before the board can agree how to reach them, it needs a clear picture of the markets outside the company and of what the company does well inside it. This chapter builds that picture and turns it into a choice of strategy.
+Figure F302-01 shows the order of the work: look outside, look inside, then choose.
+Figure F302-01. Chapter 2 roadmap: outside, inside, choose.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.1.c
+identify the external factors that should be analyzed during the strategic planning process and understand how this analysis leads to recognition of organizational opportunities, limitations, and threats
+Name the external factors to analyse in strategic planning and explain how they point to opportunities and threats.
+Full treatment
+B.1.d
+identify the internal factors that should be analyzed during the strategic planning process and explain how this analysis leads to recognition of organizational strengths, weaknesses, and competitive advantages
+Name the internal factors to analyse and explain how they point to strengths, weaknesses and competitive advantage.
+Full treatment
+B.1.h
+describe Porter’s generic strategies, including cost leadership, differentiation, and focus
+Describe Porter's generic strategies: cost leadership, differentiation and focus.
+Full treatment
+B.1.i
+demonstrate an understanding of the following planning tools and techniques: SWOT analysis, Porter’s Five forces, situational analysis, PEST analysis, scenario planning, competitive analysis, contingency planning, and the BCG Growth-Share Matrix
+Use the main planning tools: SWOT, the five forces, situational analysis, PEST, scenario planning, competitive analysis, contingency planning and the BCG matrix.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+PEST analysis
+تحليل PEST (السياسي والاقتصادي والاجتماعي والتقني)
+analyse PEST
+five forces
+القوى الخمس
+cinq forces (de Porter)
+SWOT analysis
+تحليل SWOT (القوة والضعف والفرص والتهديدات)
+analyse SWOT (forces, faiblesses, opportunités, menaces)
+situational analysis
+تحليل الموقف
+analyse de la situation
+competitive advantage
+الميزة التنافسية
+avantage concurrentiel
+focus strategy
+استراتيجية التركيز
+stratégie de concentration (focalisation)
+BCG growth-share matrix
+مصفوفة النمو والحصة السوقية (BCG)
+matrice croissance-part de marché (BCG)
+relative market share
+الحصة السوقية النسبية
+part de marché relative
+scenario planning
+التخطيط بالسيناريوهات
+planification par scénarios
+contingency planning
+التخطيط للطوارئ
+plan de contingence (plan d'urgence)
+competitive analysis
+تحليل المنافسين
+analyse concurrentielle
+WHAT YOU ALREADY KNOW   What you already know
+Book 2, Chapter 14 compared Orontes with a bulk competitor and introduced cost leadership and differentiation. This chapter places those ideas in the full strategic plan and adds the tools used to choose among them.
+2.1  Analysing the external environment
+External factors are outside the company's control. They create opportunities to use and threats to defend against. A PEST analysis reviews four groups of them: political, economic, social and technological factors. Figure F302-02 applies it to tahini exports.
+Figure F302-02. PEST analysis for Orontes tahini exports.
+Porter's five forces describe the industry itself: new entrants, suppliers, buyers, substitutes and rivalry. The stronger the forces, the harder it is to earn a good profit. Figure F302-03 rates each force for Jordan's juice market; the average intensity is 3.6 out of 5.
+Figure F302-03. Porter's five forces in Jordan's juice market.
+In the juice market, rivalry is the strongest force and supplier power the weakest, partly because Jordan Glass, which supplies the bottles, is a company Orontes partly owns. The external analysis therefore points to a threat from rivals and substitutes, and an opportunity in stable supply.
+EXAM TRAP   Strong forces, weak industry
+A strong force is bad news for profit. An answer that calls a market with powerful buyers and many substitutes 'attractive' has read the forces backwards.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+PEST analysis
+تحليل PEST (السياسي والاقتصادي والاجتماعي والتقني)
+analyse PEST
+five forces
+القوى الخمس
+cinq forces (de Porter)
+English (exam term)
+العربية
+Français
+PEST analysis
+تحليل PEST (السياسي والاقتصادي والاجتماعي والتقني)
+analyse PEST
+five forces
+القوى الخمس
+cinq forces (de Porter)
+SECTION CHECK   Test yourself
+SC302-1  Which is an external factor in strategic planning?
+A.	The skills of the company's own staff
+B.	A new import tariff in an export market
+C.	The age of the company's machines
+D.	The company's brand strength
+SC302-2  Supermarket chains buy most of Orontes's juice and can easily switch suppliers. Which of the five forces is strong?
+A.	Bargaining power of buyers
+B.	Threat of new entrants
+C.	Bargaining power of suppliers
+D.	Threat of substitutes
+Answers and explanations are at the end of the chapter.
+2.2  Analysing the internal environment
+Internal factors are the company's own resources and capabilities: its brands, people, equipment, systems and the things it does well. They show strengths to build on and weaknesses to fix. Figure F302-04 lists the main internal factors at Orontes.
+Figure F302-04. Internal factors at Orontes
+Internal factor
+Orontes example
+Result
+Resources
+Tahini recipes and brand; olive groves under contract; Levant's trucks and warehouses
+Strength
+Capabilities
+Quality control (Book 2, Chapter 16); low-cost juice filling
+Strength
+Weak points
+Old bottling line in Oils; a small sales team in the Gulf
+Weakness
+Test of an advantage
+Valuable to customers, rare, and hard for rivals to copy
+A strength becomes a competitive advantage only if customers value it, few rivals have it, and it is hard to copy. The Orontes tahini recipes and brand pass this test; a new filling machine that any rival can buy does not.
+The value chain of Book 2, Chapter 14 is a useful internal tool: it shows which activities create the advantage and which only add cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+competitive advantage
+الميزة التنافسية
+avantage concurrentiel
+English (exam term)
+العربية
+Français
+competitive advantage
+الميزة التنافسية
+avantage concurrentiel
+SECTION CHECK   Test yourself
+SC302-3  Internal analysis mainly identifies:
+A.	opportunities and threats
+B.	the five forces
+C.	the tax rate
+D.	strengths and weaknesses
+SC302-4  Orontes buys a new filling machine that any juice maker can buy. Is it a lasting competitive advantage?
+A.	Yes, because it is new
+B.	Yes, because it lowers costs
+C.	No, because rivals can easily copy it
+D.	No, because machines are external factors
+Answers and explanations are at the end of the chapter.
+2.3  SWOT and situational analysis
+A SWOT analysis brings the two views together: strengths and weaknesses from inside, opportunities and threats from outside. Figure F302-05 is the Orontes SWOT for 2028.
+Figure F302-05. SWOT matrix for Orontes.
+A situational analysis is the wider study of the company's current position that feeds the SWOT. The useful step is the next one: match strengths to opportunities, for example the tahini brand to Gulf demand, and plan how to fix the weaknesses that expose the company to threats.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+SWOT analysis
+تحليل SWOT (القوة والضعف والفرص والتهديدات)
+analyse SWOT (forces, faiblesses, opportunités, menaces)
+situational analysis
+تحليل الموقف
+analyse de la situation
+English (exam term)
+العربية
+Français
+SWOT analysis
+تحليل SWOT (القوة والضعف والفرص والتهديدات)
+analyse SWOT (forces, faiblesses, opportunités, menaces)
+situational analysis
+تحليل الموقف
+analyse de la situation
+SECTION CHECK   Test yourself
+SC302-5  In a SWOT analysis, 'growing Gulf demand for tahini' is:
+A.	a strength
+B.	a weakness
+C.	a threat
+D.	an opportunity
+SC302-6  What is the most useful step after completing a SWOT analysis?
+A.	Matching strengths to opportunities and planning how to fix weaknesses
+B.	Filing it for next year
+C.	Counting the items in each box
+D.	Replacing it with a PEST analysis
+Answers and explanations are at the end of the chapter.
+2.4  Porter's generic strategies
+Porter described three ways to win. Cost leadership sells at or near the market price with the lowest costs. Differentiation offers something customers value and will pay more for. A focus strategy serves a narrow segment, either at low cost or with a difference. Figure F302-06 shows the three strategies.
+Figure F302-06. Porter's generic strategies and the Orontes divisions.
+Each Orontes division follows one strategy, as Figure F302-07 shows. Beverages competes on cost in the mass juice market; Oils differentiates with traced, cold-pressed oil; Tahini & Spreads focuses on premium Gulf buyers and private label for Barada.
+Figure F302-07. The generic strategy of each Orontes unit
+Unit
+Generic strategy
+How it competes
+Oils
+Differentiation
+premium price for traced oil
+Tahini & Spreads
+Focus
+niche buyers: Gulf and private label
+Beverages
+Cost leadership
+lowest cost per case
+Pulses & Spices line
+Review
+decide to fix or leave
+A company that tries to be cheapest and most special at the same time, without a clear choice, risks being 'stuck in the middle' and losing to rivals that chose.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost leadership
+ريادة التكلفة
+domination par les coûts
+differentiation
+التمايز
+différenciation
+focus strategy
+استراتيجية التركيز
+stratégie de concentration (focalisation)
+English (exam term)
+العربية
+Français
+cost leadership
+ريادة التكلفة
+domination par les coûts
+differentiation
+التمايز
+différenciation
+focus strategy
+استراتيجية التركيز
+stratégie de concentration (focalisation)
+SECTION CHECK   Test yourself
+SC302-7  Serving a narrow market segment better than broad competitors is:
+A.	cost leadership
+B.	a focus strategy
+C.	differentiation
+D.	a contingency plan
+SC302-8  Orontes Beverages sells mass-market juice at a normal price and aims for the lowest cost per case. Which strategy is this?
+A.	Differentiation
+B.	Focus
+C.	Cost leadership
+D.	Stuck in the middle
+Answers and explanations are at the end of the chapter.
+2.5  Portfolio and competitive analysis
+The BCG growth-share matrix places each business unit by market growth and relative market share: the unit's share divided by the share of its largest competitor. Growth above 10.0% and relative share above 1.0 mark the dividing lines.
+WORKED EXAMPLE   Worked example: placing Oils
+Oils holds 22.0% of its market; the largest rival holds 15.0%. Relative share = 22.0 ÷ 15.0 = 1.47. The market grows 3.0% a year, below the line, so Oils is in the Cash cow quadrant. Figure F302-08 does the same for every unit.
+Figure F302-08. Worked example: BCG data for the Orontes portfolio
+Unit, 2028
+Market growth
+Orontes share
+Largest rival
+Relative share
+Quadrant
+Oils
+3.0%
+22.0%
+15.0%
+1.47
+Cash cow
+Tahini & Spreads
+12.0%
+30.0%
+20.0%
+1.50
+Star
+Beverages
+14.0%
+8.0%
+25.0%
+0.32
+Question mark
+Pulses & Spices line
+2.0%
+5.0%
+20.0%
+0.25
+Dog
+YOUR TURN   Placing Beverages and Pulses & Spices
+Complete the blank cells of Figure F302-09. Answers are at the end of the chapter.
+Figure F302-09. Your turn: relative share and quadrant (complete the blanks)
+Unit, 2028
+Market growth
+Orontes share
+Largest rival
+Relative share
+Quadrant
+Oils
+3.0%
+22.0%
+15.0%
+1.47
+Cash cow
+Tahini & Spreads
+12.0%
+30.0%
+20.0%
+1.50
+Star
+Beverages
+14.0%
+8.0%
+25.0%
+________
+________
+Pulses & Spices line
+2.0%
+5.0%
+20.0%
+________
+________
+Figure F302-10 draws the portfolio. Stars need investment to hold their lead, cash cows fund the others, question marks need a decision to invest or withdraw, and dogs are fixed or sold.
+Figure F302-10. BCG growth-share matrix for the Orontes portfolio.
+A competitive analysis looks closely at the main rivals. Figure F302-11 compares Orontes Beverages with the largest juice producer: the rival holds more than three times the share, which explains why Beverages is a question mark despite its low costs.
+Figure F302-11. Competitive analysis: Orontes Beverages and the largest juice producer
+Juice market
+Orontes Beverages
+Largest rival
+Market share in Jordan
+8.0%
+25.0%
+Strategy
+Cost leadership
+Brand and wide range
+Strength
+Low cost per case; Levant's distribution
+Advertising budget; shelf space
+Weakness
+Small brand; few flavours
+Higher costs
+EXAM TRAP   Relative, not own, share
+Beverages holds 8.0% of its market, but its relative share is 0.32, not 0.08. Always divide by the largest rival's share.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+BCG growth-share matrix
+مصفوفة النمو والحصة السوقية (BCG)
+matrice croissance-part de marché (BCG)
+relative market share
+الحصة السوقية النسبية
+part de marché relative
+competitive analysis
+تحليل المنافسين
+analyse concurrentielle
+English (exam term)
+العربية
+Français
+BCG growth-share matrix
+مصفوفة النمو والحصة السوقية (BCG)
+matrice croissance-part de marché (BCG)
+relative market share
+الحصة السوقية النسبية
+part de marché relative
+competitive analysis
+تحليل المنافسين
+analyse concurrentielle
+SECTION CHECK   Test yourself
+SC302-9  A unit holds 8% of its market; the largest rival holds 25%. What is its relative market share?
+A.	0.08
+B.	0.25
+C.	0.32
+D.	3.13
+SC302-10  A unit has high market growth and a relative share below 1.0. In the BCG matrix it is a:
+A.	star
+B.	cash cow
+C.	dog
+D.	question mark
+Answers and explanations are at the end of the chapter.
+2.6  Scenario planning and contingency planning
+Scenario planning prepares for several possible futures instead of one forecast. For tahini exports in 2032, the board considers three scenarios, from open Gulf and EU markets to a new EU import tariff. Figure F302-12 shows the operating income in each.
+Figure F302-12. Tahini export scenarios for 2030 and the contingency trigger
+Scenario for tahini exports, 2030
+Operating income (USD)
+Response
+Open Gulf and EU markets
+2,400,000
+no action
+Gulf growth as planned
+1,800,000
+no action
+New EU import tariff
+900,000
+start the contingency plan
+Contingency trigger
+below 1,200,000
+shift export sales to Gulf buyers; delay the EU warehouse
+Contingency planning prepares a response in advance and names the trigger that starts it. If the export forecast falls below $1,200,000, as it would in the tariff scenario, Orontes will shift sales to Gulf buyers and delay its EU warehouse.
+The two tools work together: scenarios show what could happen; the contingency plan says what the company will do, and when.
+FALSE-FRIEND ALERT   Contingence, العوارض
+The IMA Arabic glossary calls contingency planning التخطيط للعوارض; most Arab textbooks say التخطيط للطوارئ. French 'plan de contingence' is common in business, but 'plan d'urgence' is also used.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+scenario planning
+التخطيط بالسيناريوهات
+planification par scénarios
+contingency planning
+التخطيط للطوارئ
+plan de contingence (plan d'urgence)
+English (exam term)
+العربية
+Français
+scenario planning
+التخطيط بالسيناريوهات
+planification par scénarios
+contingency planning
+التخطيط للطوارئ
+plan de contingence (plan d'urgence)
+SECTION CHECK   Test yourself
+SC302-11  Scenario planning means:
+A.	making one detailed forecast
+B.	copying a competitor's plan
+C.	preparing for several possible futures
+D.	setting next year's budget
+SC302-12  Orontes will shift export sales to the Gulf if the forecast falls below $1,200,000. This is:
+A.	a contingency plan with a trigger
+B.	a SWOT analysis
+C.	a scenario
+D.	a competitive analysis
+Answers and explanations are at the end of the chapter.
+2.7  Extended Example 2A: the Orontes strategic review
+This example brings the tools together for the board meeting that approves the 2028 to 2032 plan. It is exam-core.
+1. From analysis to position
+External: strong rivalry and substitutes in juice; growing Gulf demand for tahini; a possible EU tariff.
+Internal: a strong tahini brand and low-cost juice filling; a small juice share and an old bottling line in Oils.
+2. Portfolio and strategy
+Figure F302-13 brings each unit's BCG position together with its generic strategy and the action the board agreed.
+Figure F302-13. Extended Example: the strategic review of each unit
+Unit
+Relative share
+Quadrant
+Generic strategy
+Portfolio action
+Oils
+1.47
+Cash cow
+Differentiation
+keep investing moderately; use cash for growth units
+Tahini & Spreads
+1.50
+Star
+Focus
+invest to hold the lead
+Beverages
+0.32
+Question mark
+Cost leadership
+invest selectively or reposition
+Pulses & Spices line
+0.25
+Dog
+Review
+fix quickly or leave
+3. Preparing for change
+The scenarios range from $900,000 to $2,400,000 of export operating income, a spread of $1,500,000. The contingency plan starts if the forecast falls below $1,200,000.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Every relative share in Figure F302-13 equals the unit's share divided by the largest rival's share in Figure F302-08.
+Scenario spread: $2,400,000 − $900,000 = $1,500,000.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+SWOT analysis
+تحليل SWOT (القوة والضعف والفرص والتهديدات)
+analyse SWOT (forces, faiblesses, opportunités, menaces)
+BCG growth-share matrix
+مصفوفة النمو والحصة السوقية (BCG)
+matrice croissance-part de marché (BCG)
+contingency planning
+التخطيط للطوارئ
+plan de contingence (plan d'urgence)
+English (exam term)
+العربية
+Français
+SWOT analysis
+تحليل SWOT (القوة والضعف والفرص والتهديدات)
+analyse SWOT (forces, faiblesses, opportunités, menaces)
+BCG growth-share matrix
+مصفوفة النمو والحصة السوقية (BCG)
+matrice croissance-part de marché (BCG)
+contingency planning
+التخطيط للطوارئ
+plan de contingence (plan d'urgence)
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect to classify factors as strengths, weaknesses, opportunities or threats; to compute a relative share and place a unit in the BCG matrix; to name a generic strategy from a description; and to tell scenario planning from contingency planning.
+7. Self-check
+SECTION CHECK   Test yourself
+SC302-13  Use the Extended Example. Which Orontes unit is a cash cow?
+A.	Tahini & Spreads
+B.	Beverages
+C.	Oils
+D.	Pulses & Spices
+SC302-14  Use the Extended Example. Why does Tahini & Spreads follow a focus strategy?
+A.	It sells the cheapest tahini in every market
+B.	It serves narrow segments: premium Gulf buyers and private label
+C.	It has no competitors
+D.	It is a dog in the BCG matrix
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F302-14 brings the chapter together.
+Figure F302-14. Chapter 2 summary map: the key rule for each section.
+External analysis, using PEST and the five forces, shows opportunities and threats; internal analysis of resources and capabilities shows strengths, weaknesses and possible competitive advantages. SWOT combines them. Each business then chooses cost leadership, differentiation or focus. The BCG matrix places units by market growth and relative share, competitive analysis studies the main rivals, and scenario and contingency planning prepare the company for more than one future.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P302-01  PEST stands for:
+A.	Price, efficiency, sales, tax
+B.	Product, employees, suppliers, technology
+C.	Planning, execution, strategy, targets
+D.	Political, economic, social, technological
+P302-02  Many cheap soft drinks and bottled water compete with juice for the same customers. Which force does this describe?
+A.	Threat of substitutes
+B.	Rivalry among competitors
+C.	Bargaining power of suppliers
+D.	Threat of new entrants
+P302-03  In the five forces model, strong forces make an industry:
+A.	more profitable
+B.	unaffected
+C.	easier to enter
+D.	less attractive
+P302-04  Which is an internal weakness for Orontes?
+A.	A new EU import tariff
+B.	Strong juice rivals
+C.	An old bottling line in Oils
+D.	Rising Gulf demand
+P302-05  Which Orontes resource is most likely a lasting competitive advantage?
+A.	Standard office software
+B.	Secret tahini recipes and a trusted brand
+C.	A bank loan
+D.	Rented trucks any company can rent
+P302-06  Differentiation means:
+A.	offering something customers value and will pay more for
+B.	having the lowest cost in the industry
+C.	serving only one small segment
+D.	copying rivals
+P302-07  A company tries to be both the cheapest and the most premium brand, without a clear choice. What is the risk?
+A.	It becomes a star
+B.	It earns the highest profit
+C.	It has no rivals
+D.	It is stuck in the middle and loses to rivals that chose
+P302-08  A unit holds 30% of its market; the largest rival holds 20%. What is its relative market share?
+A.	0.20
+B.	0.30
+C.	0.67
+D.	1.50
+P302-09  A unit has a relative share of 1.47 in a market growing 3% a year. The dividing lines are 1.0 and 10%. It is a:
+A.	cash cow
+B.	star
+C.	question mark
+D.	dog
+P302-10  In the BCG matrix, which units usually provide cash for the others?
+A.	Question marks
+B.	Dogs
+C.	Cash cows
+D.	Stars
+P302-11  Five forces are rated 3, 2, 4, 4 and 5. What is the average intensity?
+A.	3.6
+B.	4.0
+C.	5.0
+D.	18.0
+P302-12  A situational analysis is:
+A.	a study of the company's current position, inside and outside
+B.	a list of next year's sales
+C.	a cash forecast
+D.	a staff survey only
+P302-13  Export scenarios give operating income of $2,400,000, $1,800,000 and $900,000. What is the spread between the best and worst scenarios?
+A.	$600,000
+B.	$900,000
+C.	$1,500,000
+D.	$5,100,000
+P302-14  Which element must a contingency plan contain that a scenario does not?
+A.	A description of the future
+B.	A market share
+C.	A trigger and a prepared response
+D.	A mission statement
+P302-15  Cold-pressed, traced olive oil sold at a premium to a broad market follows:
+A.	cost leadership
+B.	differentiation
+C.	focus
+D.	no strategy
+P302-16  A cost leader's biggest risk is:
+A.	customers paying too much
+B.	too few competitors
+C.	a rival with even lower costs
+D.	a high relative share
+Case question: tahini exports to the Gulf
+Orontes began selling tahini in the Gulf three years ago. Sales have grown fast, but the business is still small next to the market leader, a large regional food group. The board must decide whether to invest more in the Gulf or to keep the business small.
+The strategy team, led by Hala, has gathered data. The Gulf tahini market is growing quickly, and healthy traditional foods are popular. Orontes's brand is well known in Jordan but not yet in the Gulf, and its sales team there has only three people. The market leader has started to cut prices, and the EU may add a tariff that would push more exporters towards the Gulf.
+Hala has also rated the five forces in the Gulf market from 1 (weak) to 5 (strong), and she has prepared three scenarios for the operating income of the Gulf business in 2030.
+The board wants to know where the business sits in the Orontes portfolio, how attractive the market is, which generic strategy suits a premium product sold to a narrow group of buyers, and how far the results could vary.
+Use Figure F302-15 for items C302-1 to C302-7.
+How to enter answers: Enter shares and ratings to two decimals or one decimal as the item says, and amounts in whole U.S. dollars, without the $ sign or commas (for example, 0.75 or 125000).
+Figure F302-15. Case exhibit: the Gulf tahini export business
+Gulf tahini exports
+Data
+Gulf tahini market growth a year
+15.0%
+Orontes's share of the Gulf market
+6.0%
+Largest rival's share
+24.0%
+Threat of new entrants (1–5)
+4
+Bargaining power of suppliers (1–5)
+3
+Bargaining power of buyers (1–5)
+4
+Threat of substitutes (1–5)
+2
+Rivalry among competitors (1–5)
+5
+Operating income 2030: optimistic
+900,000
+Operating income 2030: base
+600,000
+Operating income 2030: pessimistic
+200,000
+C302-1  Classify each factor in a SWOT analysis of the Gulf business. (On the exam screen you would drag each item into a box.)
+Categories: Strength · Weakness · Opportunity · Threat
+Factor
+Category
+The Orontes tahini brand is well known in Jordan
+The Gulf sales team has only three people
+Gulf demand for healthy traditional foods is growing
+The market leader is cutting prices
+An EU tariff may push more exporters to the Gulf
+C302-2  Enter the relative market share of the Gulf business (two decimals).
+Answer: ____________
+C302-3  In the BCG matrix, the Gulf business is a: [select]
+Options: question mark   |   star   |   cash cow   |   dog
+C302-4  Enter the average intensity of the five forces (one decimal).
+Answer: ____________
+C302-5  Enter the spread between the optimistic and pessimistic operating income for 2030.
+Answer: ____________
+C302-6  For a premium tahini sold to a narrow group of Gulf buyers, the most suitable generic strategy is: [select]
+Options: focus   |   cost leadership   |   broad differentiation   |   a mix of all three
+C302-7  A plan that names a trigger and a prepared response is a ____ plan.
+Choose the word or phrase for the blank: contingency   |   scenario   |   strategic   |   operational
+Answers and explanations
+Section checks
+SC302-1  Answer B. It is outside the company's control.
+A is wrong. Staff skills are internal.
+C is wrong. Equipment is internal.
+D is wrong. The brand is an internal resource.
+SC302-2  Answer A. Large buyers with easy switching have strong power.
+B is wrong. The case is about existing buyers.
+C is wrong. Suppliers sell to Orontes; buyers buy from it.
+D is wrong. Substitutes are other products.
+SC302-3  Answer D. Resources and capabilities are inside the company.
+A is wrong. These come from external analysis.
+B is wrong. The forces describe the industry.
+C is wrong. Tax is external.
+SC302-4  Answer C. An advantage must be hard to copy.
+A is wrong. Newness does not stop copying.
+B is wrong. Rivals can lower their costs the same way.
+D is wrong. The machine is an internal resource.
+SC302-5  Answer D. It is a favourable external condition.
+A is wrong. Strengths are internal.
+B is wrong. It is favourable and external.
+C is wrong. It helps the company.
+SC302-6  Answer A. SWOT is useful only when it leads to action.
+B is wrong. An unused SWOT adds nothing.
+C is wrong. The number of items does not matter.
+D is wrong. PEST feeds the SWOT; it does not replace it.
+SC302-7  Answer B. Focus targets a narrow segment.
+A is wrong. Cost leadership serves a broad market.
+C is wrong. Differentiation serves a broad market.
+D is wrong. That is a planning tool, not a strategy.
+SC302-8  Answer C. Lowest cost across a broad market.
+A is wrong. It does not charge more for a difference.
+B is wrong. The market is broad.
+D is wrong. It has made a clear choice.
+SC302-9  Answer C. Own share ÷ largest rival's share.
+A is wrong. This is the unit's own share.
+B is wrong. This is the rival's own share.
+D is wrong. The division is reversed.
+SC302-10  Answer D. High growth, low relative share.
+A is wrong. A star has a high relative share.
+B is wrong. A cash cow is in a slow-growing market.
+C is wrong. A dog is in a slow-growing market.
+SC302-11  Answer C. It considers more than one future.
+A is wrong. One forecast is not scenario planning.
+B is wrong. Unrelated.
+D is wrong. Budgets come later.
+SC302-12  Answer A. A prepared response started by a stated event.
+B is wrong. SWOT lists factors; it does not set triggers.
+C is wrong. A scenario describes a future; the plan responds to it.
+D is wrong. That compares rivals.
+SC302-13  Answer C. Relative share 1.47 in a market growing 3.0%.
+A is wrong. Tahini & Spreads is a star.
+B is wrong. Beverages is a question mark.
+D is wrong. Pulses & Spices is a dog.
+SC302-14  Answer B. Focus serves a narrow segment.
+A is wrong. That describes cost leadership.
+C is wrong. It has competitors.
+D is wrong. It is a star.
+Your turn
+Item
+Answer
+Beverages
+8.0 ÷ 25.0 = 0.32; growth 14.0% → Question mark
+Pulses & Spices
+5.0 ÷ 20.0 = 0.25; growth 2.0% → Dog
+Multiple-choice questions
+P302-01  Answer D. The four groups of external factors.
+A is wrong. Not the PEST groups.
+B is wrong. These are mostly internal.
+C is wrong. Not the PEST groups.
+P302-02  Answer A. Other products meet the same need.
+B is wrong. Rivalry is among juice makers.
+C is wrong. Suppliers sell inputs.
+D is wrong. Entrants are new juice makers.
+P302-03  Answer D. Strong forces squeeze profit.
+A is wrong. The effect is reversed.
+B is wrong. Forces shape profit.
+C is wrong. Entry is one force, not the result.
+P302-04  Answer C. It is inside the company and a problem.
+A is wrong. That is an external threat.
+B is wrong. That is an external threat.
+D is wrong. That is an external opportunity.
+P302-05  Answer B. Valuable, rare and hard to copy.
+A is wrong. Easy to copy.
+C is wrong. Any company can borrow.
+D is wrong. Easy to copy.
+P302-06  Answer A. Customers pay a premium for the difference.
+B is wrong. That is cost leadership.
+C is wrong. That is focus.
+D is wrong. Copying is not a strategy.
+P302-07  Answer D. Porter warned against unclear strategy.
+A is wrong. That is a BCG term.
+B is wrong. Unclear strategy usually earns less.
+C is wrong. It still has rivals.
+P302-08  Answer D. 30 ÷ 20.
+A is wrong. This is the rival's own share.
+B is wrong. This is the unit's own share.
+C is wrong. The division is reversed.
+P302-09  Answer A. High relative share, low growth.
+B is wrong. Stars are in fast-growing markets.
+C is wrong. Question marks have low relative share.
+D is wrong. Dogs have low relative share.
+P302-10  Answer C. High share in a slow market brings cash with little investment.
+A is wrong. They need cash.
+B is wrong. They bring little cash.
+D is wrong. They need investment to grow.
+P302-11  Answer A. 18 ÷ 5.
+B is wrong. This is the middle rating.
+C is wrong. This is the highest rating.
+D is wrong. This is the sum, not the average.
+P302-12  Answer A. It feeds the SWOT.
+B is wrong. That is a sales forecast.
+C is wrong. That is a cash budget.
+D is wrong. It is wider than staff.
+P302-13  Answer C. Best − worst.
+A is wrong. This is best − base.
+B is wrong. This is base − worst.
+D is wrong. This adds the scenarios.
+P302-14  Answer C. The trigger says when to act; the response says what to do.
+A is wrong. Scenarios describe futures.
+B is wrong. Not required.
+D is wrong. Not part of a contingency plan.
+P302-15  Answer B. A valued difference across a broad market.
+A is wrong. It does not compete on lowest cost.
+C is wrong. The market is broad.
+D is wrong. It has a clear strategy.
+P302-16  Answer C. Its advantage is only cost.
+A is wrong. Cost leaders sell near the market price.
+B is wrong. Few competitors helps.
+D is wrong. A high share helps.
+Case question: tahini exports to the Gulf
+C302-1
+Factor
+Category
+The Orontes tahini brand is well known in Jordan
+Strength
+The Gulf sales team has only three people
+Weakness
+Gulf demand for healthy traditional foods is growing
+Opportunity
+The market leader is cutting prices
+Threat
+An EU tariff may push more exporters to the Gulf
+Threat
+Strengths and weaknesses are inside Orontes; opportunities and threats are outside it.
+C302-2  Answer: 0.25.
+0.06 is wrong: this answer uses Orontes's own share.
+4.00 is wrong: this answer divides the rival's share by Orontes's share.
+C302-3  Answer: question mark.
+star is wrong: this answer a star has a high relative share.
+cash cow is wrong: this answer a cash cow is in a slow market with a high share.
+dog is wrong: this answer the market is growing fast.
+C302-4  Answer: 3.6.
+18 is wrong: this answer adds the ratings instead of averaging them.
+C302-5  Answer: 700,000.
+300,000 is wrong: this answer uses the base scenario instead of the pessimistic one.
+C302-6  Answer: focus.
+cost leadership is wrong: this answer the product is premium, not the cheapest.
+broad differentiation is wrong: this answer the buyers are a narrow segment.
+a mix of all three is wrong: this answer an unclear choice risks being stuck in the middle.
+C302-7  Answer: contingency.
+scenario is wrong: this answer a scenario describes a possible future.
+strategic is wrong: this answer the strategic plan sets long-term direction.
+operational is wrong: this answer an operational plan covers daily work.
+PART I — STRATEGY AND BUDGETING FOUNDATIONS

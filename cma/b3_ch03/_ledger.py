@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C303-1': ('case item C303-1', []),
+    'C303-2': ('case item C303-2', []),
+    'C303-3': ('case item C303-3', []),
+    'C303-4': ('case item C303-4', []),
+    'C303-5': ('case item C303-5', []),
+    'C303-6': ('case item C303-6', []),
+    'C303-7': ('case item C303-7', []),
+    'P303-01': ('practice item P303-01', []),
+    'P303-02': ('practice item P303-02', []),
+    'P303-03': ('practice item P303-03', []),
+    'P303-04': ('practice item P303-04', []),
+    'P303-05': ('practice item P303-05', []),
+    'P303-06': ('practice item P303-06', []),
+    'P303-07': ('practice item P303-07', []),
+    'P303-08': ('practice item P303-08', []),
+    'P303-09': ('practice item P303-09', []),
+    'P303-10': ('practice item P303-10', []),
+    'P303-11': ('practice item P303-11', []),
+    'P303-12': ('practice item P303-12', []),
+    'P303-13': ('practice item P303-13', []),
+    'P303-14': ('practice item P303-14', []),
+    'P303-15': ('practice item P303-15', []),
+    'P303-16': ('practice item P303-16', []),
+    'SC303-1': ('section-check item SC303-1', []),
+    'SC303-10': ('section-check item SC303-10', []),
+    'SC303-11': ('section-check item SC303-11', []),
+    'SC303-12': ('section-check item SC303-12', []),
+    'SC303-13': ('section-check item SC303-13', []),
+    'SC303-2': ('section-check item SC303-2', []),
+    'SC303-3': ('section-check item SC303-3', []),
+    'SC303-4': ('section-check item SC303-4', []),
+    'SC303-5': ('section-check item SC303-5', []),
+    'SC303-6': ('section-check item SC303-6', []),
+    'SC303-7': ('section-check item SC303-7', []),
+    'SC303-8': ('section-check item SC303-8', []),
+    'SC303-9': ('section-check item SC303-9', []),
+    'term:budget': ("term-bridge row 'budget'", []),
+    'term:budget cycle': ("term-bridge row 'budget cycle'", []),
+    'term:budget revision': ("term-bridge row 'budget revision'", []),
+    'term:budgetary slack': ("term-bridge row 'budgetary slack'", []),
+    'term:controllable cost': ("term-bridge row 'controllable cost'", []),
+    'term:goal congruence': ("term-bridge row 'goal congruence'", []),
+    'term:imposed budget': ("term-bridge row 'imposed budget'", []),
+    'term:management by exception': ("term-bridge row 'management by exception'", []),
+    'term:participative budgeting': ("term-bridge row 'participative budgeting'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C303-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C303-5': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

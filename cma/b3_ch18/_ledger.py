@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C318-1': ('case item C318-1', []),
+    'C318-2': ('case item C318-2', []),
+    'C318-3': ('case item C318-3', []),
+    'C318-4': ('case item C318-4', []),
+    'C318-5': ('case item C318-5', []),
+    'C318-6': ('case item C318-6', []),
+    'C318-7': ('case item C318-7', []),
+    'P318-01': ('practice item P318-01', []),
+    'P318-02': ('practice item P318-02', []),
+    'P318-03': ('practice item P318-03', []),
+    'P318-04': ('practice item P318-04', []),
+    'P318-05': ('practice item P318-05', []),
+    'P318-06': ('practice item P318-06', []),
+    'P318-07': ('practice item P318-07', []),
+    'P318-08': ('practice item P318-08', []),
+    'P318-09': ('practice item P318-09', []),
+    'P318-10': ('practice item P318-10', []),
+    'P318-11': ('practice item P318-11', []),
+    'P318-12': ('practice item P318-12', []),
+    'P318-13': ('practice item P318-13', []),
+    'P318-14': ('practice item P318-14', []),
+    'P318-15': ('practice item P318-15', []),
+    'P318-16': ('practice item P318-16', []),
+    'SC318-1': ('section-check item SC318-1', []),
+    'SC318-10': ('section-check item SC318-10', []),
+    'SC318-11': ('section-check item SC318-11', []),
+    'SC318-2': ('section-check item SC318-2', []),
+    'SC318-3': ('section-check item SC318-3', []),
+    'SC318-4': ('section-check item SC318-4', []),
+    'SC318-5': ('section-check item SC318-5', []),
+    'SC318-6': ('section-check item SC318-6', []),
+    'SC318-7': ('section-check item SC318-7', []),
+    'SC318-8': ('section-check item SC318-8', []),
+    'SC318-9': ('section-check item SC318-9', []),
+    'term:balanced scorecard': ("term-bridge row 'balanced scorecard'", []),
+    'term:critical success factor (csf)': ("term-bridge row 'critical success factor (CSF)'", []),
+    'term:customer perspective': ("term-bridge row 'customer perspective'", []),
+    'term:financial perspective': ("term-bridge row 'financial perspective'", []),
+    'term:internal process perspective': ("term-bridge row 'internal process perspective'", []),
+    'term:key performance indicator (kpi)': ("term-bridge row 'key performance indicator (KPI)'", []),
+    'term:lagging indicator': ("term-bridge row 'lagging indicator'", []),
+    'term:leading indicator': ("term-bridge row 'leading indicator'", []),
+    'term:learning and growth perspective': ("term-bridge row 'learning and growth perspective'", []),
+    'term:strategy map': ("term-bridge row 'strategy map'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C318-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C318-6': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+"""Derived from the chapter itself by gen.py. Do not edit."""
+LEDGER = {
+    'C301-1': ('case item C301-1', []),
+    'C301-2': ('case item C301-2', []),
+    'C301-3': ('case item C301-3', []),
+    'C301-4': ('case item C301-4', []),
+    'C301-5': ('case item C301-5', []),
+    'C301-6': ('case item C301-6', []),
+    'C301-7': ('case item C301-7', []),
+    'P301-01': ('practice item P301-01', []),
+    'P301-02': ('practice item P301-02', []),
+    'P301-03': ('practice item P301-03', []),
+    'P301-04': ('practice item P301-04', []),
+    'P301-05': ('practice item P301-05', []),
+    'P301-06': ('practice item P301-06', []),
+    'P301-07': ('practice item P301-07', []),
+    'P301-08': ('practice item P301-08', []),
+    'P301-09': ('practice item P301-09', []),
+    'P301-10': ('practice item P301-10', []),
+    'P301-11': ('practice item P301-11', []),
+    'P301-12': ('practice item P301-12', []),
+    'P301-13': ('practice item P301-13', []),
+    'P301-14': ('practice item P301-14', []),
+    'P301-15': ('practice item P301-15', []),
+    'P301-16': ('practice item P301-16', []),
+    'SC301-1': ('section-check item SC301-1', []),
+    'SC301-10': ('section-check item SC301-10', []),
+    'SC301-11': ('section-check item SC301-11', []),
+    'SC301-2': ('section-check item SC301-2', []),
+    'SC301-3': ('section-check item SC301-3', []),
+    'SC301-4': ('section-check item SC301-4', []),
+    'SC301-5': ('section-check item SC301-5', []),
+    'SC301-6': ('section-check item SC301-6', []),
+    'SC301-7': ('section-check item SC301-7', []),
+    'SC301-8': ('section-check item SC301-8', []),
+    'SC301-9': ('section-check item SC301-9', []),
+    'term:long-term goals': ("term-bridge row 'long-term goals'", []),
+    'term:mission statement': ("term-bridge row 'mission statement'", []),
+    'term:operational plan': ("term-bridge row 'operational plan'", []),
+    'term:short-term objectives': ("term-bridge row 'short-term objectives'", []),
+    'term:strategic plan': ("term-bridge row 'strategic plan'", []),
+    'term:strategic planning': ("term-bridge row 'strategic planning'", []),
+    'term:tactics': ("term-bridge row 'tactics'", []),
+    'term:vision statement': ("term-bridge row 'vision statement'", []),
+}
+
+# Units that cannot be converted faithfully, and why. They
+# are recorded rather than dropped quietly, so the gap is
+# visible in the build and in the diff.
+OMIT = {
+    'C301-1': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C301-5': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+    'C301-6': 'the book answers it with a drag-and-drop or a worked table rather than a single value',
+}

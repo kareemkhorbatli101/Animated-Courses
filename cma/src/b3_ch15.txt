@@ -1,0 +1,788 @@
+Chapter 15
+Responsibility Centers, Contribution Reporting and Segments
+مراكز المسؤولية وتقارير هامش المساهمة والقطاعات
+Chapters 11 to 14 measured what happened. This chapter asks a different question: who should answer for it? A plant manager who cannot set prices should not be judged on revenue, and a division charged a share of head office cannot make that charge go away. Good performance reporting starts by matching the measure to the authority.
+Figure F315-01 shows the three steps.
+Figure F315-01. Chapter 15 roadmap: responsibility, report, judge.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.2.a
+identify and explain the different types of responsibility centers
+Identify and explain the different types of responsibility center.
+Full treatment
+C.2.b
+recommend appropriate responsibility centers given a business scenario
+Recommend a suitable responsibility center for a given business situation.
+Full treatment
+C.2.c
+calculate a contribution margin
+Calculate a contribution margin.
+Full treatment
+C.2.d
+analyze a contribution margin report and evaluate performance
+Analyse a contribution margin report and evaluate performance.
+Full treatment + Extended Example
+C.2.e
+identify segments that organizations evaluate, including product lines, geographical areas, or other meaningful segments
+Identify the segments organizations evaluate, such as product lines and geographical areas.
+Full treatment
+C.2.f
+explain why the allocation of common costs among segments can be an issue in performance evaluation
+Explain why allocating common costs among segments is a problem in performance evaluation.
+Full treatment + Extended Example
+C.2.g
+identify methods for allocating common costs such as stand-alone cost allocation and incremental cost allocation
+Identify methods of allocating common costs, including stand-alone and incremental allocation.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cost center
+مركز التكلفة
+centre de coûts
+revenue center
+مركز الإيراد
+centre de revenus
+profit center
+مركز الربح
+centre de profit
+investment center
+مركز الاستثمار
+centre d'investissement
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+segment margin
+هامش القطاع
+marge du segment
+common cost
+التكلفة المشتركة
+coût commun
+stand-alone cost allocation
+التوزيع على أساس التكلفة المنفردة
+répartition au coût autonome
+incremental cost allocation
+التوزيع على أساس التكلفة التزايدية
+répartition au coût incrémental
+WHAT YOU ALREADY KNOW   What you already know
+Book 2, Chapter 13 measured customer and product profitability, and Chapter 3 of this book discussed participation and controllability in budgeting. Chapter 8 produced the figures this chapter now splits by segment.
+15.1  The four responsibility centers
+A responsibility center is a unit whose manager answers for a defined set of results. There are four kinds, and they differ only in how much the manager controls. Figure F315-02 defines them with an example from Orontes.
+Figure F315-02. The four types of responsibility center.
+A cost center answers for costs, and a revenue center for revenue and the selling costs of earning it. A profit center answers for both, and an investment center also for the assets used.
+The four form a ladder. Each center carries the responsibilities of the one before it and adds another, so a manager promoted from a cost center to a profit center is answering for revenue for the first time.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost center
+مركز التكلفة
+centre de coûts
+revenue center
+مركز الإيراد
+centre de revenus
+profit center
+مركز الربح
+centre de profit
+investment center
+مركز الاستثمار
+centre d'investissement
+English (exam term)
+العربية
+Français
+cost center
+مركز التكلفة
+centre de coûts
+revenue center
+مركز الإيراد
+centre de revenus
+profit center
+مركز الربح
+centre de profit
+investment center
+مركز الاستثمار
+centre d'investissement
+SECTION CHECK   Test yourself
+SC315-1  A manager responsible for costs only runs a:
+A.	revenue center
+B.	profit center
+C.	cost center
+D.	investment center
+SC315-2  What distinguishes an investment center from a profit center?
+A.	Its manager also answers for the assets used
+B.	It earns more profit
+C.	It has no costs
+D.	It reports to head office
+Answers and explanations are at the end of the chapter.
+15.2  Choosing the right center
+The rule is simple to state and easy to break: give a manager only the responsibility that matches the authority. Figure F315-03 matches common situations with a recommended center.
+Figure F315-03. Choosing a responsibility center for a situation
+What the manager controls (C.2.b)
+Recommended center
+Orontes example
+The manager sets prices and controls costs, but not investment
+Profit center
+Levant Distribution
+The manager controls costs only; another unit decides output
+Cost center
+Tahini plant
+The manager controls selling effort but not production costs
+Revenue center
+Regional sales team
+The manager decides on new plant and working capital
+Investment center
+Beverages division
+The manager controls nothing but is charged a share of head office
+No center: the charge is not controllable
+Any division's allocated head-office cost
+At Orontes the tahini plant is a cost center, because the sales team decides what to sell and at what price. Levant Distribution is a profit center, because its manager sets delivery prices and controls its costs. The Beverages division is an investment center, because its manager decides on new equipment, as Chapter 4 showed with the filling line.
+EXAM TRAP   Authority first, label second
+Calling a unit a profit center does not give its manager control over prices. If the question says that another unit sets the price or the volume, the center is a cost center however the company labels it.
+The choice also shapes behavior. A unit made a profit center will look for ways to raise revenue, which is useful when it can really influence customers, and misleading when it cannot.
+SECTION CHECK   Test yourself
+SC315-3  The tahini plant manager controls costs, but the sales team decides volumes and prices. Which center fits?
+A.	Investment center
+B.	Profit center
+C.	Revenue center
+D.	Cost center
+SC315-4  A division manager sets prices, controls costs and approves new equipment. Which center fits?
+A.	Cost center
+B.	Investment center
+C.	Revenue center
+D.	Profit center
+Answers and explanations are at the end of the chapter.
+15.3  The contribution margin report
+A segment report in contribution format has three margins, each answering a different question. Figure F315-04 shows them for Beverages.
+Figure F315-04. The three margins in a contribution report.
+The contribution margin is revenue less all variable costs: $18,000,000 − $10,620,000 = $7,380,000. It shows what each extra case adds, and it is the figure used throughout Chapters 5 and 11.
+The controllable margin then deducts the fixed costs the manager can change, such as marketing and supervision. The segment margin deducts the other fixed costs traceable to the division, such as depreciation of its plant. Judge the manager on the first; judge the segment on the second.
+WORKED EXAMPLE   Worked example: the Orontes segment report
+Figure F315-05 reports all three divisions. Beverages earns a segment margin of $3,180,000, the figure Chapter 8 produced in contribution format, and the three together earn $5,020,000.
+Figure F315-05. Worked example: the Orontes segment report for 2028
+Orontes 2028 (USD)
+Beverages
+Oils
+Tahini & Spreads
+Company
+Revenue
+18,000,000
+9,000,000
+5,250,000
+32,250,000
+− Variable costs
+(10,620,000)
+(6,000,000)
+(3,150,000)
+(19,770,000)
+= Contribution margin
+7,380,000
+3,000,000
+2,100,000
+12,480,000
+− Controllable fixed costs
+(3,160,000)
+(1,400,000)
+(900,000)
+(5,460,000)
+= Controllable margin
+4,220,000
+1,600,000
+1,200,000
+7,020,000
+− Other traceable fixed costs
+(1,040,000)
+(600,000)
+(360,000)
+(2,000,000)
+= Segment margin
+3,180,000
+1,000,000
+840,000
+5,020,000
+− Allocated head-office cost
+(613,953)
+(306,977)
+(179,070)
+1,100,000
+= Result after allocation
+2,566,047
+693,023
+660,930
+3,920,000
+YOUR TURN   The Tahini & Spreads column
+Complete the blank cells of Figure F315-06. Answers are at the end of the chapter.
+Figure F315-06. Your turn: the Tahini & Spreads column (complete the blanks)
+Orontes 2028 (USD)
+Beverages
+Oils
+Tahini & Spreads
+Company
+Revenue
+18,000,000
+9,000,000
+5,250,000
+32,250,000
+− Variable costs
+(10,620,000)
+(6,000,000)
+(3,150,000)
+(19,770,000)
+= Contribution margin
+7,380,000
+3,000,000
+________
+12,480,000
+− Controllable fixed costs
+(3,160,000)
+(1,400,000)
+(900,000)
+(5,460,000)
+= Controllable margin
+4,220,000
+1,600,000
+________
+7,020,000
+− Other traceable fixed costs
+(1,040,000)
+(600,000)
+(360,000)
+(2,000,000)
+= Segment margin
+3,180,000
+1,000,000
+________
+5,020,000
+− Allocated head-office cost
+(613,953)
+(306,977)
+(179,070)
+1,100,000
+= Result after allocation
+2,566,047
+693,023
+660,930
+3,920,000
+EXAM TRAP   Contribution margin deducts only variable costs
+Deducting any fixed cost before the contribution margin gives a figure that no longer measures what an extra unit adds. The cost-volume-profit work of Book 2 then no longer applies to it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+segment margin
+هامش القطاع
+marge du segment
+English (exam term)
+العربية
+Français
+controllable margin
+الهامش القابل للرقابة
+marge contrôlable
+segment margin
+هامش القطاع
+marge du segment
+SECTION CHECK   Test yourself
+SC315-5  Revenue is $18,000,000 and variable costs are $10,620,000. What is the contribution margin?
+A.	$3,180,000
+B.	$4,220,000
+C.	$7,380,000
+D.	$10,620,000
+SC315-6  On which margin should a division manager be judged?
+A.	Contribution margin
+B.	Segment margin
+C.	Result after allocated head-office costs
+D.	Controllable margin
+Answers and explanations are at the end of the chapter.
+15.4  What counts as a segment
+A segment is any part of a business for which a manager is responsible and separate figures are useful. Figure F315-07 lists the segments Orontes evaluates.
+Figure F315-07. Segments that Orontes evaluates
+Segment type (C.2.e)
+At Orontes
+Why it is evaluated
+Divisions
+Beverages, Oils, Tahini & Spreads
+Each has a manager responsible for results
+Product lines
+Juice flavours; tahini jars and halva
+Shows which products earn their keep (Chapter 13)
+Geographical areas
+Jordan, the Gulf, export markets
+Shows where growth and risk lie
+Customers or channels
+Supermarkets, hotels, Barada
+Book 2, Chapter 13 measured customer profitability
+Reportable segments under ASC 280
+The divisions, as reported to the chief operating decision maker
+External reporting follows internal reporting
+Segments can overlap: the Gulf is a geographical segment that cuts across all three divisions. What matters is that someone is accountable for the result and that the revenue and costs can be traced.
+External reporting follows the same logic. Under U.S. GAAP a company reports the segments its chief operating decision maker uses, so the internal report and the published one usually share a structure.
+SECTION CHECK   Test yourself
+SC315-7  Which is NOT normally evaluated as a segment?
+A.	A product line
+B.	A geographical area
+C.	A single invoice
+D.	A distribution channel
+SC315-8  Why can the Gulf be a segment even though it crosses all three divisions?
+A.	Because segments must be geographical
+B.	Because its revenue and traceable costs can be identified and someone is accountable
+C.	Because it is the largest market
+D.	Because GAAP requires it
+Answers and explanations are at the end of the chapter.
+15.5  Common costs and how to allocate them
+A common cost serves more than one segment and cannot be traced to any of them. Head office costs $1,100,000 a year, the zero-based budget of Chapter 5, and every division is charged a share.
+Figure F315-08 shows two methods, using a cold store shared by Beverages and Tahini & Spreads. Stand-alone cost allocation shares the cost in proportion to what each would have paid alone. Incremental cost allocation charges a primary user its stand-alone cost and the other user only the extra cost it adds.
+Figure F315-08. Two ways of sharing a common cost.
+WORKED EXAMPLE   Worked example: sharing the cold store
+Alone, the two divisions would pay $240,000 and $120,000, a total of $360,000; together they pay $300,000. Figure F315-09 compares the methods and a third base, revenue.
+Figure F315-09. Worked example: three ways of sharing the cold store
+Shared cold store, $300,000 a year
+Beverages
+Tahini & Spreads
+Total
+Stand-alone cost if rented separately
+240,000
+120,000
+360,000
+Stand-alone allocation of the shared cost
+200,000
+100,000
+300,000
+Incremental allocation (Beverages primary)
+240,000
+60,000
+300,000
+Allocation on revenue
+232,258
+67,742
+300,000
+Each method gives a different answer from the same facts, and none of them is wrong. The stand-alone method shares the saving between the users, while the incremental method gives all of it to the second user. The choice of primary user is therefore itself a decision.
+Figure F315-10 sets out why allocation is a problem in performance evaluation at all.
+Figure F315-10. Why allocating common costs is a problem
+Issue with allocating common costs (C.2.f)
+Why it matters
+What to do
+The charge is not controllable
+A manager cannot change head-office cost by working harder
+Report it below the segment margin
+The base may be arbitrary
+Revenue, floor space and headcount give different answers
+Choose a base that reflects the use of the service
+It can make a good segment look bad
+A segment with a positive segment margin can show a loss after allocation
+Never close a segment on the allocated figure alone
+It can hide the cost of the service
+Users have no reason to economise on a free service
+Charge a rate per use where possible
+EXAM TRAP   Never close a segment on the allocated figure
+A segment with a positive segment margin is covering its own costs and contributing to common costs. Closing it does not remove those common costs; they are simply shared among fewer segments.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+common cost
+التكلفة المشتركة
+coût commun
+stand-alone cost allocation
+التوزيع على أساس التكلفة المنفردة
+répartition au coût autonome
+incremental cost allocation
+التوزيع على أساس التكلفة التزايدية
+répartition au coût incrémental
+English (exam term)
+العربية
+Français
+common cost
+التكلفة المشتركة
+coût commun
+stand-alone cost allocation
+التوزيع على أساس التكلفة المنفردة
+répartition au coût autonome
+incremental cost allocation
+التوزيع على أساس التكلفة التزايدية
+répartition au coût incrémental
+SECTION CHECK   Test yourself
+SC315-9  Two divisions would pay $240,000 and $120,000 alone; shared, the cost is $300,000. What is the stand-alone allocation to the first?
+A.	$150,000
+B.	$180,000
+C.	$200,000
+D.	$240,000
+SC315-10  A segment has a positive segment margin but shows a loss after allocated head-office costs. What should the board do?
+A.	Close the segment
+B.	Keep it: it covers its own costs and contributes to common costs
+C.	Raise its allocation
+D.	Stop reporting the segment
+Answers and explanations are at the end of the chapter.
+15.6  Extended Example 15A: evaluating the three divisions
+This example reads the segment report the way the Orontes board does. It is exam-core.
+1. The comparison
+Figure F315-11 sets the three divisions side by side, in dollars and as percentages of revenue.
+Figure F315-11. Extended Example: the three divisions compared
+Segment
+Contribution margin
+% of revenue
+Controllable margin
+Segment margin
+% of revenue
+Beverages
+7,380,000
+41.0%
+4,220,000
+3,180,000
+17.7%
+Oils
+3,000,000
+33.3%
+1,600,000
+1,000,000
+11.1%
+Tahini & Spreads
+2,100,000
+40.0%
+1,200,000
+840,000
+16.0%
+2. What it shows
+Beverages earns the largest margin in dollars and the highest percentage, which is why it received the capital of Chapter 4. Tahini & Spreads earns $840,000 on a much smaller revenue, and the board has asked it to grow.
+3. The allocation question
+Head office charges each division a share of $1,100,000 on revenue. Tahini & Spreads is charged $179,070 and is left with $660,930. Its manager argues that head office does no more work for his division than before, and that the charge rises whenever the other divisions grow.
+4. The board's conclusion
+The board judges each manager on the controllable margin and each division on the segment margin, and treats the allocation as a memorandum figure. No division is closed on the figure after allocation.
+5. Tie line
+WORKED EXAMPLE   Everything ties
+Beverages segment margin $3,180,000 = the contribution-format operating income of Chapter 8.
+Segment margins $5,020,000 − common costs $1,100,000 = company operating income $3,920,000.
+6. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+profit center
+مركز الربح
+centre de profit
+segment margin
+هامش القطاع
+marge du segment
+common cost
+التكلفة المشتركة
+coût commun
+English (exam term)
+العربية
+Français
+profit center
+مركز الربح
+centre de profit
+segment margin
+هامش القطاع
+marge du segment
+common cost
+التكلفة المشتركة
+coût commun
+7. How the exam asks it
+EXAM TRAP   Exam view
+Expect a list of costs to classify as variable, controllable fixed, traceable fixed or common, and then a margin to calculate. Read carefully which margin is asked for, and remember that allocated common costs come last.
+8. Self-check
+SECTION CHECK   Test yourself
+SC315-11  Use the Extended Example. Which division earns the highest segment margin as a percentage of revenue?
+A.	Oils
+B.	Tahini & Spreads
+C.	They are equal
+D.	Beverages
+SC315-12  Use the Extended Example. Why does the Tahini manager object to the head-office charge?
+A.	It is too small
+B.	It is not in the budget
+C.	It rises when the other divisions grow, without any change in his own division
+D.	It is a variable cost
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F315-12 brings the chapter together.
+Figure F315-12. Chapter 15 summary map: the key rule for each section.
+A responsibility center is a cost, revenue, profit or investment center, according to what its manager controls, and the center should be chosen to match that authority. A contribution report shows the contribution margin, then the controllable margin, then the segment margin, and managers are judged on the controllable margin while segments are judged on the segment margin. Segments may be divisions, product lines, areas or channels. Common costs cannot be traced, and may be allocated by the stand-alone or incremental method; the allocated figure should never decide whether a segment stays open.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P315-01  A sales team that is judged on orders won but not on production costs is a:
+A.	revenue center
+B.	cost center
+C.	profit center
+D.	investment center
+P315-02  Which measure best suits a cost center?
+A.	Return on investment
+B.	Cost variances against a flexible budget
+C.	Segment margin
+D.	Revenue growth
+P315-03  Making a unit a profit center when its manager cannot set prices is likely to:
+A.	improve motivation
+B.	reduce costs
+C.	hold the manager responsible for results outside the manager's control
+D.	simplify reporting
+P315-04  Revenue $2,250,000; variable manufacturing costs $1,200,000; variable selling costs $300,000; fixed costs $500,000. What is the contribution margin?
+A.	$250,000
+B.	$550,000
+C.	$750,000
+D.	$1,050,000
+P315-05  The contribution margin deducts:
+A.	all costs the manager controls
+B.	all traceable costs
+C.	all variable costs
+D.	all costs
+P315-06  Contribution margin $750,000; controllable fixed costs $350,000; other traceable fixed costs $150,000. What is the segment margin?
+A.	$150,000
+B.	$250,000
+C.	$400,000
+D.	$600,000
+P315-07  Which cost should be excluded when judging a division manager's performance?
+A.	Depreciation of plant installed by head office years ago
+B.	Marketing the manager approved
+C.	Sales commissions
+D.	Materials used
+P315-08  Segment reporting is useful mainly because it:
+A.	replaces the income statement
+B.	shows which parts of the business earn their keep
+C.	removes common costs
+D.	is required for tax
+P315-09  A common cost is one that:
+A.	serves more than one segment and cannot be traced to any of them
+B.	varies with output
+C.	is always allocated on revenue
+D.	the segment manager controls
+P315-10  Why does allocating common costs weaken performance evaluation?
+A.	It makes reports longer
+B.	It reduces total profit
+C.	The allocated amount is not controllable by the segment manager
+D.	It is forbidden by GAAP
+P315-11  Under incremental allocation with the larger user as primary, the primary user is charged:
+A.	half the cost
+B.	its stand-alone cost
+C.	the incremental cost only
+D.	nothing
+P315-12  Two divisions would pay $240,000 and $120,000 alone; shared, the cost is $300,000. Under incremental allocation with the first as primary, what does the second pay?
+A.	$60,000
+B.	$100,000
+C.	$120,000
+D.	$150,000
+P315-13  Stand-alone allocation shares a common cost in proportion to:
+A.	revenue only
+B.	what each user would have paid alone
+C.	headcount only
+D.	the incremental cost
+P315-14  A segment report shows controllable margin above segment margin. Which costs lie between them?
+A.	Variable costs
+B.	Allocated common costs
+C.	Income taxes
+D.	Fixed costs traceable to the segment but not controllable by its manager
+P315-15  Head office charges each division a share of its costs. For evaluating the division manager, this charge should be:
+A.	deducted before the controllable margin
+B.	ignored entirely in all reports
+C.	shown below the segment margin as a memorandum
+D.	treated as a variable cost
+P315-16  Levant Distribution sets its own delivery prices and controls its costs, but head office owns its vehicles and decides on new ones. Which center fits?
+A.	Profit center
+B.	Cost center
+C.	Revenue center
+D.	Investment center
+Case question: the Oils division quarter
+The Oils division has closed its quarter. Its manager, Nadia, sets prices for the division's bottled olive oil, approves its marketing and decides how many staff the division employs, but head office owns the bottling plant and decides when it is replaced.
+The quarterly report shows revenue, variable manufacturing costs and variable selling costs, the fixed costs Nadia controls, other fixed costs traceable to the division such as the depreciation of the plant, and a share of head-office costs allocated on revenue. The division sells through supermarkets in Jordan and exports to the Gulf, and both channels use the same bottling plant.
+Nadia is unhappy with the last line. The allocation rose this quarter even though her own revenue was unchanged, because the Beverages division grew. She argues that she cannot be judged on a figure that moves with another division's results.
+The controller, Rania, must calculate the contribution margin, the controllable margin and the segment margin for the quarter, say which of them should be used to judge Nadia and which to judge the division, and advise the board on whether the allocated charge belongs in either measure.
+Use Figure F315-13 for items C315-1 to C315-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 750000).
+Figure F315-13. Case exhibit: Oils division figures for the quarter
+Oils division, one quarter (USD)
+Amount
+Revenue
+2,250,000
+Variable manufacturing costs
+1,200,000
+Variable selling costs
+300,000
+Fixed costs the division manager controls
+350,000
+Other fixed costs traceable to the division
+150,000
+Head-office cost allocated to the division
+120,000
+C315-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Variable cost · Fixed cost the manager controls · Traceable fixed cost the manager does not control · Common cost
+Cost
+Category
+Olive oil and bottles
+Marketing the manager approved
+Depreciation of the bottling plant
+Share of head-office costs
+Freight to customers per case
+C315-2  Enter the contribution margin for the quarter.
+Answer: ____________
+C315-3  Enter the controllable margin for the quarter.
+Answer: ____________
+C315-4  Enter the segment margin for the quarter.
+Answer: ____________
+C315-5  Enter the division's result after the allocated head-office charge.
+Answer: ____________
+C315-6  Nadia's performance for the quarter should be judged on the: [select]
+Options: controllable margin   |   contribution margin   |   segment margin   |   result after the allocated charge
+C315-7  A cost that serves several divisions and cannot be traced to any of them is a ____ cost.
+Choose the word or phrase for the blank: common   |   variable   |   controllable   |   traceable
+Answers and explanations
+Section checks
+SC315-1  Answer C. Only costs are within the manager's control.
+A is wrong. That manager answers for revenue.
+B is wrong. That manager answers for both.
+D is wrong. That manager also answers for assets.
+SC315-2  Answer A. Authority extends to the asset base.
+B is wrong. Size is not the test.
+C is wrong. Every center has costs.
+D is wrong. All centers report upward.
+SC315-3  Answer D. Only costs are controllable.
+A is wrong. No authority over assets.
+B is wrong. No control over revenue.
+C is wrong. Revenue is not this manager's.
+SC315-4  Answer B. Profit and assets are both controlled.
+A is wrong. Too narrow.
+C is wrong. Too narrow.
+D is wrong. A profit center excludes the asset decision.
+SC315-5  Answer C. Revenue − all variable costs.
+A is wrong. This is the segment margin.
+B is wrong. This is the controllable margin.
+D is wrong. These are the variable costs.
+SC315-6  Answer D. It covers exactly what the manager can change.
+A is wrong. It ignores the fixed costs the manager controls.
+B is wrong. It includes committed costs the manager cannot change.
+C is wrong. Allocated costs are not controllable.
+SC315-7  Answer C. A segment needs a manager and recurring results.
+A is wrong. A common segment.
+B is wrong. A common segment.
+D is wrong. A common segment.
+SC315-8  Answer B. Traceability and accountability are the tests.
+A is wrong. Segments take many forms.
+C is wrong. Size is not the test.
+D is wrong. Internal segments are a management choice.
+SC315-9  Answer C. Two-thirds of the shared cost.
+A is wrong. This splits the cost equally.
+B is wrong. Not a result of either method.
+D is wrong. This is the incremental allocation to a primary user.
+SC315-10  Answer B. Closing it would not remove the common costs.
+A is wrong. The common costs would simply move elsewhere.
+C is wrong. That changes nothing real.
+D is wrong. Hiding the figure solves nothing.
+SC315-11  Answer D. 17.7% of revenue.
+A is wrong. Lower than Beverages.
+B is wrong. Lower than Beverages.
+C is wrong. The three differ.
+SC315-12  Answer C. A revenue base links his charge to others' results.
+A is wrong. Size is not the objection.
+B is wrong. It is budgeted.
+D is wrong. It is a fixed common cost.
+Your turn
+Item
+Answer
+Contribution margin
+$5,250,000 − $3,150,000 = $2,100,000
+Controllable margin
+$2,100,000 − $900,000 = $1,200,000
+Segment margin
+$1,200,000 − $360,000 = $840,000
+Multiple-choice questions
+P315-01  Answer A. It answers for revenue and selling costs.
+B is wrong. Revenue is its main measure.
+C is wrong. It does not control production costs.
+D is wrong. It controls no assets.
+P315-02  Answer B. Costs at the actual activity level.
+A is wrong. That suits an investment center.
+C is wrong. That needs revenue.
+D is wrong. Revenue is not controlled.
+P315-03  Answer C. Responsibility must follow authority.
+A is wrong. Unfair measures reduce motivation.
+B is wrong. The label changes nothing.
+D is wrong. It complicates matters.
+P315-04  Answer C. All variable costs are deducted; fixed costs are not.
+A is wrong. This deducts the fixed costs as well.
+B is wrong. This deducts part of the fixed costs.
+D is wrong. This leaves out variable selling costs.
+P315-05  Answer C. It measures what an extra unit adds.
+A is wrong. That is the controllable margin.
+B is wrong. That is the segment margin.
+D is wrong. That is operating income.
+P315-06  Answer B. Both kinds of traceable fixed cost are deducted.
+A is wrong. This also deducts an allocated cost.
+C is wrong. This is the controllable margin.
+D is wrong. Only one fixed cost is deducted.
+P315-07  Answer A. The manager cannot change a committed cost.
+B is wrong. The manager chose it.
+C is wrong. Variable and controllable.
+D is wrong. Variable and controllable.
+P315-08  Answer B. It locates profit within the company.
+A is wrong. It supplements it.
+C is wrong. Common costs remain.
+D is wrong. Tax is separate.
+P315-09  Answer A. Traceability is the test.
+B is wrong. That is a variable cost.
+C is wrong. Several bases exist.
+D is wrong. It is outside the manager's control.
+P315-10  Answer C. Managers answer for what they control.
+A is wrong. Length is not the issue.
+B is wrong. Total profit is unchanged.
+D is wrong. Internal reporting is a management choice.
+P315-11  Answer B. The second user pays only the extra.
+A is wrong. That is an equal split.
+C is wrong. That is what the second user pays.
+D is wrong. The primary user pays most.
+P315-12  Answer A. The extra cost of adding the second user.
+B is wrong. That is the stand-alone allocation.
+C is wrong. That is its stand-alone cost.
+D is wrong. That is an equal split.
+P315-13  Answer B. It uses separate costs as weights.
+A is wrong. Revenue is a different base.
+C is wrong. Headcount is a different base.
+D is wrong. That is the other method.
+P315-14  Answer D. Committed traceable costs sit there.
+A is wrong. They come before the contribution margin.
+B is wrong. They come after the segment margin.
+C is wrong. Tax is outside the segment report.
+P315-15  Answer C. It is reported but not used to judge the manager.
+A is wrong. It is not controllable.
+B is wrong. The company still needs to cover it.
+D is wrong. It does not vary with output.
+P315-16  Answer A. Revenue and costs, but not assets.
+B is wrong. It controls revenue too.
+C is wrong. It controls costs too.
+D is wrong. It does not decide on assets.
+Case question: the Oils division quarter
+C315-1
+Cost
+Category
+Olive oil and bottles
+Variable cost
+Marketing the manager approved
+Fixed cost the manager controls
+Depreciation of the bottling plant
+Traceable fixed cost the manager does not control
+Share of head-office costs
+Common cost
+Freight to customers per case
+Variable cost
+Classify each cost by where it belongs in the segment report.
+C315-2  Answer: 750,000.
+1,050,000 is wrong: this answer leaves out the variable selling costs.
+C315-3  Answer: 400,000.
+250,000 is wrong: this answer also deducts the fixed costs the manager does not control.
+C315-4  Answer: 250,000.
+130,000 is wrong: this answer deducts the allocated head-office charge as well.
+C315-5  Answer: 130,000.
+250,000 is wrong: this answer stops at the segment margin.
+C315-6  Answer: controllable margin.
+contribution margin is wrong: this answer it ignores the fixed costs she controls.
+segment margin is wrong: this answer it includes costs she cannot change.
+result after the allocated charge is wrong: this answer the allocation moves with other divisions' results.
+C315-7  Answer: common.
+variable is wrong: this answer variable costs change with output.
+controllable is wrong: this answer the segment manager cannot change it.
+traceable is wrong: this answer a traceable cost can be identified with one segment.
+PART III — MEASURING AND MANAGING PERFORMANCE

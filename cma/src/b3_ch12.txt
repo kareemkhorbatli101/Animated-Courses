@@ -1,0 +1,729 @@
+Chapter 12
+Standard Costing: Price and Efficiency Variances for Materials and Labor
+التكاليف المعيارية: انحرافات السعر والكفاءة للمواد والعمل المباشر
+Chapter 11 found that the June concentrate cost was $13,240 above the flexible budget and labor $1,328 above. Those totals name the input but not the cause. Did Beverages pay too much for each liter and hour, or use too many of them? This chapter answers that question for every input.
+Figure F312-01 shows the two questions the chapter separates.
+Figure F312-01. Chapter 12 roadmap: standard cost, price, efficiency.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.1.j
+define a standard costing system and identify the reasons for adopting a standard costing system
+Define a standard costing system and give the reasons for adopting one.
+Full treatment
+C.1.k
+demonstrate an understanding of price (rate) variances and calculate the price variances related to direct material and direct labor inputs
+Explain price (rate) variances and calculate them for direct material and direct labor.
+Full treatment + Extended Example
+C.1.l
+demonstrate an understanding of efficiency (usage) variances and calculate the efficiency variances related to direct material and direct labor inputs
+Explain efficiency (usage) variances and calculate them for direct material and direct labor.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+direct material price variance
+انحراف سعر المواد المباشرة
+écart sur prix des matières
+direct material usage variance
+انحراف استخدام المواد المباشرة
+écart sur quantité de matières
+direct labor rate variance
+انحراف معدل أجر العمل المباشر
+écart sur taux de main-d'œuvre
+direct labor efficiency variance
+انحراف كفاءة العمل المباشر
+écart sur temps de main-d'œuvre
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+WHAT YOU ALREADY KNOW   What you already know
+Book 2, Chapter 18 built the standard cost card and defined the standard quantity allowed. Chapter 11 of this book produced the flexible-budget variance that is now opened up.
+12.1  Standard costing and why companies use it
+In a standard costing system, materials, labor and overhead are recorded at standard cost, and the differences between standard and actual are recorded as variances. Inventory and cost of goods sold therefore carry the same cost for every unit, as in Chapter 8.
+Figure F312-02 gives the main reasons for adopting such a system. Together they explain why Orontes keeps standards even though its actual costs are known.
+Figure F312-02. Reasons for adopting a standard costing system
+Reason for a standard costing system (C.1.j)
+What it gives Orontes
+Simpler record keeping
+Inventory and cost of goods sold are recorded at standard, so every unit carries the same cost
+Control by exception
+Variances point to what differed from the plan (Chapter 11)
+Responsibility
+Each variance has an owner: purchasing, the plant, the sales team
+Budgeting and pricing
+The standard card builds the budget (Chapters 6 to 8) and supports price decisions
+Motivation
+Clear, attainable targets for each input (Book 2, Chapter 18)
+The system has costs of its own. Standards must be reviewed as prices and methods change, as Book 2, Chapter 18 showed, and a standard that is out of date produces variances that mean nothing.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+English (exam term)
+العربية
+Français
+standard costing
+نظام التكاليف المعيارية
+méthode des coûts standards (coûts préétablis)
+SECTION CHECK   Test yourself
+SC312-1  In a standard costing system, inventory is recorded at:
+A.	standard cost
+B.	actual cost
+C.	selling price
+D.	replacement cost
+SC312-2  Which is a reason for adopting a standard costing system?
+A.	It removes the need for actual cost records
+B.	It gives each variance an owner who can act on it
+C.	It guarantees lower costs
+D.	It is required by GAAP
+Answers and explanations are at the end of the chapter.
+12.2  The three-column frame
+Every input variance uses the same three columns. Figure F312-03 shows them: what was spent, a bridge column that keeps the actual quantity but values it at the standard price, and what should have been spent for the output produced.
+Figure F312-03. The three-column frame for any input variance.
+The left gap changes only the price, so it is the price or rate variance. The right gap changes only the quantity, so it is the efficiency or usage variance. Figure F312-04 gives the formulas.
+Figure F312-04. Formulas for price and efficiency variances
+Variance
+Formula
+Valued at
+Material price
+(AP − SP) × AQ
+actual quantity bought or used
+Material usage
+(AQ − SQ allowed) × SP
+standard price
+Labor rate
+(AR − SR) × AH
+actual hours worked
+Labor efficiency
+(AH − SH allowed) × SR
+standard rate
+Total for an input
+actual cost − standard cost allowed
+both parts together
+The standard quantity allowed is the heart of the right-hand column: it is the input the standard permits for the output actually produced, not for the output planned. In June that is 72,000 cases, not 75,000.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+English (exam term)
+العربية
+Français
+standard quantity allowed
+الكمية المعيارية المسموح بها
+quantité standard autorisée
+SECTION CHECK   Test yourself
+SC312-3  The standard allows 6 liters a case. The plan was 75,000 cases; 72,000 were produced. What is the standard quantity allowed?
+A.	437,000 liters
+B.	450,000 liters
+C.	432,000 liters
+D.	18,000 liters
+SC312-4  The middle column of the three-column frame is:
+A.	actual quantity × actual price
+B.	standard quantity × actual price
+C.	standard quantity × standard price
+D.	actual quantity × standard price
+Answers and explanations are at the end of the chapter.
+12.3  Direct material variances
+Figure F312-05 puts the June concentrate figures into the three columns. The standard allows 6.0 liters a case, so 72,000 cases allow 432,000 liters; the plant used 437,000.
+Figure F312-05. The three columns applied to concentrate.
+WORKED EXAMPLE   Worked example: concentrate in June
+Price: ($0.92 − $0.90) × 437,000 liters = $8,740 unfavorable. Usage: (437,000 − 432,000) × $0.90 = $4,500 unfavorable. Together $13,240, the figure Chapter 11 reported. Figure F312-06 sets out the calculation.
+Figure F312-06. Worked example: the concentrate variances for June
+Concentrate, June 2028
+Amount
+Cases produced
+72,000
+Standard liters allowed (6.0 a case)
+432,000
+Actual liters used
+437,000
+Standard price a liter
+$0.90
+Actual price a liter
+$0.92
+Price variance
+(0.92 − 0.90) × 437,000 = 8,740 U
+Usage variance
+(437,000 − 432,000) × 0.90 = 4,500 U
+Total
+13,240 U
+The price variance can be measured when the material is bought or when it is used. Beverages bought 450,000 liters in June but used 437,000, so the two conventions differ by $260. Figure F312-07 compares them.
+Figure F312-07. The price variance at purchase and at usage
+Which quantity?
+Liters
+Effect
+Liters used in June
+437,000
+price variance 8,740 U
+Liters bought in June
+450,000
+price variance 9,000 U
+Difference
+13,000
+$260 of the variance is carried in stock
+Measuring at purchase reports the variance earlier, which helps purchasing act in time, and values the stock at standard. Measuring at usage matches the variance to the period in which the material was consumed. The exam usually measures at purchase when it gives the quantity bought; otherwise use the quantity used.
+EXAM TRAP   Which quantity?
+The price variance always uses an actual quantity, bought or used; the usage variance always uses the standard price. Using the standard quantity for the price variance, or the actual price for the usage variance, double-counts part of the difference.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct material price variance
+انحراف سعر المواد المباشرة
+écart sur prix des matières
+direct material usage variance
+انحراف استخدام المواد المباشرة
+écart sur quantité de matières
+English (exam term)
+العربية
+Français
+direct material price variance
+انحراف سعر المواد المباشرة
+écart sur prix des matières
+direct material usage variance
+انحراف استخدام المواد المباشرة
+écart sur quantité de matières
+SECTION CHECK   Test yourself
+SC312-5  Actual: 437,000 liters at $0.92. Standard: $0.90 a liter, 432,000 liters allowed. What is the price variance at usage?
+A.	$4,500 unfavorable
+B.	$8,640 unfavorable
+C.	$8,740 unfavorable
+D.	$13,240 unfavorable
+SC312-6  Using the same figures, what is the usage variance?
+A.	$4,600 unfavorable
+B.	$4,500 unfavorable
+C.	$8,740 unfavorable
+D.	$5,000 unfavorable
+Answers and explanations are at the end of the chapter.
+12.4  Direct labor variances
+Labor uses the same frame, with hours instead of liters and a wage rate instead of a price. Figure F312-08 shows the June figures: 3,680 hours worked against 3,600 allowed.
+Figure F312-08. The three columns applied to direct labor.
+WORKED EXAMPLE   Worked example: direct labor in June
+Rate: ($12.10 − $12.00) × 3,680 hours = $368 unfavorable. Efficiency: (3,680 − 3,600) × $12.00 = $960 unfavorable. Figure F312-09 sets out the calculation.
+Figure F312-09. Worked example: the direct labor variances for June
+Direct labor, June 2028
+Amount
+Cases produced
+72,000
+Standard hours allowed (0.050 a case)
+3,600
+Actual hours worked
+3,680
+Standard rate an hour
+$12.00
+Actual rate an hour
+$12.10
+Rate variance
+(12.10 − 12.00) × 3,680 = 368 U
+Efficiency variance
+(3,680 − 3,600) × 12.00 = 960 U
+YOUR TURN   The labor variances
+Complete the blank rows of Figure F312-10, then do the same for the Tahini division in Figure F312-11. Answers are at the end of the chapter.
+Figure F312-10. Your turn: the labor variances (complete the blanks)
+Direct labor, June 2028
+Amount
+Cases produced
+72,000
+Standard hours allowed (0.050 a case)
+3,600
+Actual hours worked
+3,680
+Standard rate an hour
+$12.00
+Actual rate an hour
+$12.10
+Rate variance
+________
+Efficiency variance
+________
+Figure F312-11. Your turn: sesame and labor in the Tahini division
+Tahini & Spreads, same month
+Standard
+Actual
+Jars produced
+110,000
+Sesame: standard 0.50 kg at $2.50
+55,000 kg allowed
+actual 56,200 kg at $2.45
+Sesame price variance
+________
+Sesame usage variance
+________
+Labor: standard 0.012 h at $15.00
+1,320 h allowed
+actual 1,350 h at $15.20
+Labor rate variance
+________
+Labor efficiency variance
+________
+The Tahini figures show a pattern worth noticing: the sesame price variance is favorable while the usage variance is unfavorable. Section 12.5 explains why the two often move together.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct labor rate variance
+انحراف معدل أجر العمل المباشر
+écart sur taux de main-d'œuvre
+direct labor efficiency variance
+انحراف كفاءة العمل المباشر
+écart sur temps de main-d'œuvre
+English (exam term)
+العربية
+Français
+direct labor rate variance
+انحراف معدل أجر العمل المباشر
+écart sur taux de main-d'œuvre
+direct labor efficiency variance
+انحراف كفاءة العمل المباشر
+écart sur temps de main-d'œuvre
+SECTION CHECK   Test yourself
+SC312-7  Actual labor: 3,680 hours at $12.10. Standard: $12.00 an hour, 3,600 hours allowed. What is the rate variance?
+A.	$368 unfavorable
+B.	$360 unfavorable
+C.	$960 unfavorable
+D.	$1,328 unfavorable
+SC312-8  Using the same figures, what is the efficiency variance?
+A.	$80 unfavorable
+B.	$968 unfavorable
+C.	$368 unfavorable
+D.	$960 unfavorable
+Answers and explanations are at the end of the chapter.
+12.5  Responsibility and linked variances
+A variance is useful only if someone can act on it. Figure F312-12 gives the usual owner of each variance, its main causes and what happened in June.
+Figure F312-12. Who owns each variance, and why it arises
+Variance
+Usually owned by
+Main causes
+June 2028
+Material price
+Purchasing
+Supplier prices, order size, quality chosen
+8,740 U: a world price rise
+Material usage
+Plant
+Spillage, machine settings, material quality
+4,500 U: one long changeover
+Labor rate
+Plant and human resources
+Overtime, the mix of grades used
+368 U: summer overtime
+Labor efficiency
+Plant
+Training, machine stoppages, material quality
+960 U: the same changeover
+Ownership is a starting point, not a rule. If purchasing buys cheaper, lower-grade concentrate, the price variance is favorable and the usage variance unfavorable, and the plant manager is not to blame. Figure F312-13 lists common links of this kind.
+Figure F312-13. Decisions that move two variances at once
+Decision
+First effect
+Likely second effect
+Buying cheaper, lower-grade concentrate
+Price favorable
+Usage unfavorable: more spillage and rework
+Using less-skilled operators
+Rate favorable
+Efficiency unfavorable: more hours needed
+Rushing a delivery by air
+Price unfavorable
+Usage unchanged, but the plant keeps running
+Overtime to meet the summer peak
+Rate unfavorable
+Efficiency may improve: experienced staff work the extra hours
+EXAM TRAP   Read the pair, not the single variance
+A favorable price variance beside an unfavorable usage variance usually points to one decision, not two separate results. Judging either one alone gives the wrong conclusion.
+SECTION CHECK   Test yourself
+SC312-9  Which variance normally belongs to the purchasing manager?
+A.	Material usage
+B.	Labor efficiency
+C.	Material price
+D.	Sales volume
+SC312-10  A favorable material price variance appears with an unfavorable usage variance. What should the controller conclude first?
+A.	The plant manager performed badly
+B.	Cheaper, lower-grade material may have caused extra waste
+C.	The purchasing manager performed well
+D.	The standard is wrong
+Answers and explanations are at the end of the chapter.
+12.6  Extended Example 12A: the June input variance report
+This example puts the four variances into the report the division sends to head office. It is exam-core.
+1. The report
+Figure F312-14 lists each variance with its owner. The four together come to $14,568 unfavorable.
+Figure F312-14. Extended Example: the June input variance report
+June 2028
+Variance
+Owner
+Concentrate price
+8,740 U
+Purchasing
+Concentrate usage
+4,500 U
+Plant
+Labor rate
+368 U
+Plant and human resources
+Labor efficiency
+960 U
+Plant
+Total of the four
+14,568 U
+2. Reading it
+Concentrate dominates the report. Its price variance is outside the division's control, but the usage variance and the labor efficiency variance share one cause: the long changeover identified in Chapter 11.
+3. Tie line
+WORKED EXAMPLE   Everything ties
+Concentrate $8,740 + $4,500 = $13,240, the concentrate variance of Chapter 11.
+Labor $368 + $960 = $1,328, the labor variance of Chapter 11.
+4. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct material price variance
+انحراف سعر المواد المباشرة
+écart sur prix des matières
+direct material usage variance
+انحراف استخدام المواد المباشرة
+écart sur quantité de matières
+direct labor efficiency variance
+انحراف كفاءة العمل المباشر
+écart sur temps de main-d'œuvre
+English (exam term)
+العربية
+Français
+direct material price variance
+انحراف سعر المواد المباشرة
+écart sur prix des matières
+direct material usage variance
+انحراف استخدام المواد المباشرة
+écart sur quantité de matières
+direct labor efficiency variance
+انحراف كفاءة العمل المباشر
+écart sur temps de main-d'œuvre
+5. How the exam asks it
+EXAM TRAP   Exam view
+Expect actual quantity, actual price, standard quantity per unit, standard price and the output produced. Calculate the standard quantity allowed first, then the price variance on the actual quantity and the efficiency variance at the standard price.
+6. Self-check
+SECTION CHECK   Test yourself
+SC312-11  Use the Extended Example. Which variance is the largest in June?
+A.	Concentrate usage
+B.	Labor rate
+C.	Labor efficiency
+D.	Concentrate price
+SC312-12  Use the Extended Example. Which two variances share the same cause?
+A.	Concentrate usage and labor efficiency
+B.	Concentrate price and labor rate
+C.	Concentrate price and usage
+D.	Labor rate and efficiency
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F312-15 brings the chapter together.
+Figure F312-15. Chapter 12 summary map: the key rule for each section.
+A standard costing system records costs at standard and reports the differences as variances, which simplifies record keeping and supports control by exception. Every input variance uses three columns: actual quantity at actual price, actual quantity at standard price, and standard quantity allowed at standard price. The price or rate variance is valued on the actual quantity, measured at purchase or at usage; the efficiency or usage variance is valued at the standard price. Price variances usually belong to purchasing and usage variances to the plant, but the two are often caused by the same decision.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P312-01  A standard costing system reports the difference between standard and actual cost as:
+A.	a liability
+B.	revenue
+C.	a variance
+D.	an asset
+P312-02  Why must standards be reviewed regularly?
+A.	Because GAAP requires an annual review
+B.	Because variances must always be zero
+C.	Because actual costs change every day
+D.	Because an out-of-date standard produces variances that mean nothing
+P312-03  A company used 56,200 kg of sesame at $2.45. The standard price is $2.50. What is the price variance?
+A.	$2,750 favorable
+B.	$2,810 favorable
+C.	$3,000 unfavorable
+D.	$2,810 unfavorable
+P312-04  The standard allows 55,000 kg; 56,200 kg were used at a standard price of $2.50. What is the usage variance?
+A.	$3,000 unfavorable
+B.	$1,200 unfavorable
+C.	$2,940 unfavorable
+D.	$190 unfavorable
+P312-05  The material price variance is valued on:
+A.	an actual quantity, bought or used
+B.	the standard quantity allowed
+C.	the budgeted output
+D.	the standard price
+P312-06  A company bought 450,000 liters at $0.92 and used 437,000. The standard price is $0.90. What is the price variance at purchase?
+A.	$8,740 unfavorable
+B.	$8,640 unfavorable
+C.	$260 unfavorable
+D.	$9,000 unfavorable
+P312-07  What is the main advantage of measuring the material price variance at purchase?
+A.	It matches the variance to the period of use
+B.	It reports the variance earlier and values stock at standard
+C.	It removes the usage variance
+D.	It is required by GAAP
+P312-08  A plant made 110,000 jars. The standard is 0.012 hours a jar and 1,350 hours were worked at a standard rate of $15.00. What is the efficiency variance?
+A.	$30 unfavorable
+B.	$456 unfavorable
+C.	$450 unfavorable
+D.	$270 unfavorable
+P312-09  The labor efficiency variance is valued at:
+A.	the actual rate
+B.	the standard rate
+C.	the selling price
+D.	the overhead rate
+P312-10  Standard hours allowed are calculated from:
+A.	the output actually produced
+B.	the budgeted output
+C.	the hours actually worked
+D.	last year's output
+P312-11  Actual bottles: 152,000 at $1.47. Standard: 150,000 allowed at $1.50. What is the price variance?
+A.	$4,500 favorable
+B.	$3,000 unfavorable
+C.	$4,560 favorable
+D.	$1,560 favorable
+P312-12  Who should normally answer for an unfavorable labor efficiency variance caused by poor material quality?
+A.	The plant manager alone
+B.	The sales team
+C.	Nobody; it should be ignored
+D.	Purchasing, because the material caused it
+P312-13  A favorable price variance is good news only if:
+A.	it did not cause extra waste or rework
+B.	it is large
+C.	it was planned
+D.	the usage variance is also favorable by the same amount
+P312-14  A company paid $12.20 an hour against a standard of $12.00 for 11,500 hours. What is the rate variance?
+A.	$2,250 unfavorable
+B.	$3,000 unfavorable
+C.	$5,300 unfavorable
+D.	$2,300 unfavorable
+P312-15  A total material variance is $190 unfavorable, made up of a $2,810 favorable price variance and a usage variance. What is the usage variance?
+A.	$2,620 unfavorable
+B.	$3,000 unfavorable
+C.	$2,810 unfavorable
+D.	$190 favorable
+P312-16  Which pair of results most likely came from one purchasing decision?
+A.	Unfavorable labor rate and unfavorable sales volume
+B.	Favorable sales price and unfavorable labor efficiency
+C.	Favorable material price and unfavorable material usage
+D.	Favorable labor rate and favorable material price
+Case question: bottling variances in the Oils division
+The Oils division bottles extra-virgin olive oil on its own line, as Book 2 described when the division decided not to send the work outside. Each liter should use one bottle at a standard price, and a standard number of minutes on the line at a standard wage rate.
+Last month the division bottled its planned volume of oil. The buyer found a new glass supplier and paid less than the standard price for every bottle, and he bought more bottles than the month needed, to secure the lower price. The line, however, broke more bottles than usual while the operators learned the new supplier's thinner glass, and it also worked more hours than the standard allows.
+The division manager has seen only the total cost of bottles, which is below standard, and has congratulated the buyer. The controller, Rania, wants to show the full picture: the price and usage variances for bottles, and the rate and efficiency variances for labor, and whether the buyer's decision really saved money.
+She must also decide which quantity of bottles to use for the price variance, because the number bought differs from the number used.
+Use Figure F312-16 for items C312-1 to C312-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas, and without a minus sign; a separate item asks whether each variance is favorable or unfavorable (for example, 4560).
+Figure F312-16. Case exhibit: Oils bottling data for the month
+Oils division: EVOO bottling, one month
+Data
+Liters bottled
+150,000
+Standard bottles a liter
+150000 per 150,000 liters
+Standard price a bottle
+$1.50
+Bottles actually used
+152,000
+Actual price a bottle
+$1.47
+Bottles bought in the month
+160,000
+Standard labor hours a liter
+0.075
+Standard labor rate
+$12.00
+Actual hours worked
+11,500
+Actual labor rate
+$12.20
+C312-1  Classify each variance for the month. (On the exam screen you would drag each item into a box.)
+Categories: Favorable · Unfavorable
+Variance
+Category
+Bottle price variance
+Bottle usage variance
+Labor rate variance
+Labor efficiency variance
+Total bottle variance
+C312-2  Enter the bottle price variance, measured on the bottles used.
+Answer: ____________
+C312-3  Enter the bottle usage variance.
+Answer: ____________
+C312-4  Enter the labor rate variance.
+Answer: ____________
+C312-5  Enter the labor efficiency variance.
+Answer: ____________
+C312-6  Taking both bottle variances together, the buyer's decision: [select]
+Options: saved money overall, but less than the price variance alone suggests   |   saved the full amount of the price variance   |   cost the division money overall   |   had no effect on cost
+C312-7  The input quantity the standard permits for the output actually produced is the standard quantity ____.
+Choose the word or phrase for the blank: allowed   |   purchased   |   budgeted   |   delivered
+Answers and explanations
+Section checks
+SC312-1  Answer A. Differences are recorded as variances.
+B is wrong. Actual costs are compared with standard, not recorded in inventory.
+C is wrong. Inventory is not valued at selling price.
+D is wrong. Not the basis of standard costing.
+SC312-2  Answer B. Responsibility is a main benefit.
+A is wrong. Actual costs are still recorded.
+C is wrong. Standards measure; they do not cut costs by themselves.
+D is wrong. It is a management choice.
+SC312-3  Answer C. Based on the output actually produced.
+A is wrong. This is the actual quantity used.
+B is wrong. This uses the planned output.
+D is wrong. This is the difference in cases × 6.
+SC312-4  Answer D. It holds quantity actual and price standard.
+A is wrong. That is the left column.
+B is wrong. Not used in the frame.
+C is wrong. That is the right column.
+SC312-5  Answer C. Price difference × actual quantity used.
+A is wrong. This is the usage variance.
+B is wrong. This uses the standard quantity.
+D is wrong. This is the total variance.
+SC312-6  Answer B. Extra liters × standard price.
+A is wrong. This values the extra liters at the actual price.
+C is wrong. This is the price variance.
+D is wrong. This is the extra liters only.
+SC312-7  Answer A. Rate difference × actual hours.
+B is wrong. This uses the standard hours.
+C is wrong. This is the efficiency variance.
+D is wrong. This is the total variance.
+SC312-8  Answer D. Extra hours × standard rate.
+A is wrong. This is the extra hours only.
+B is wrong. This values the extra hours at the actual rate.
+C is wrong. This is the rate variance.
+SC312-9  Answer C. Purchasing chooses the supplier and the price.
+A is wrong. Usage happens in the plant.
+B is wrong. Hours are worked in the plant.
+D is wrong. That belongs to the sales team.
+SC312-10  Answer B. One decision can move both variances.
+A is wrong. The cause may lie with purchasing.
+C is wrong. The saving may have cost more in waste.
+D is wrong. Possible, but not the first explanation.
+SC312-11  Answer D. $8,740 unfavorable, from a world price rise.
+A is wrong. Smaller than the price variance.
+B is wrong. The smallest of the four.
+C is wrong. Smaller than the concentrate variances.
+SC312-12  Answer A. Both came from the long changeover.
+B is wrong. A world price rise and overtime are different causes.
+C is wrong. The price rise was outside the plant.
+D is wrong. Overtime and the changeover are different causes.
+Your turn
+Item
+Answer
+Labor rate variance
+($12.10 − $12.00) × 3,680 = $368 unfavorable
+Labor efficiency variance
+(3,680 − 3,600) × $12.00 = $960 unfavorable
+Tahini sesame price
+($2.45 − $2.50) × 56,200 = $2,810 favorable
+Tahini sesame usage
+(56,200 − 55,000) × $2.50 = $3,000 unfavorable
+Tahini labor rate
+($15.20 − $15.00) × 1,350 = $270 unfavorable
+Tahini labor efficiency
+(1,350 − 1,320) × $15.00 = $450 unfavorable
+Multiple-choice questions
+P312-01  Answer C. Variances carry the difference.
+A is wrong. Not a liability.
+B is wrong. Not revenue.
+D is wrong. Not an asset.
+P312-02  Answer D. The standard is the yardstick.
+A is wrong. No such rule.
+B is wrong. Variances are expected.
+C is wrong. Daily changes do not require new standards.
+P312-03  Answer B. Paying less than standard is favorable.
+A is wrong. This uses the standard quantity of 55,000 kg.
+C is wrong. This is the usage variance.
+D is wrong. A lower price raises income.
+P312-04  Answer A. Extra kilograms × standard price.
+B is wrong. This is the extra kilograms only.
+C is wrong. This uses the actual price.
+D is wrong. This is the net of both variances.
+P312-05  Answer A. It measures the price paid for what was actually handled.
+B is wrong. That belongs to the usage variance.
+C is wrong. Budgeted output is not used.
+D is wrong. The standard price is the comparison, not the base.
+P312-06  Answer D. Price difference × quantity bought.
+A is wrong. This is the variance at usage.
+B is wrong. This uses the standard quantity.
+C is wrong. This is the difference between the two conventions.
+P312-07  Answer B. Purchasing can act sooner.
+A is wrong. That is the advantage of measuring at usage.
+C is wrong. The usage variance is unaffected.
+D is wrong. Both conventions are allowed.
+P312-08  Answer C. 30 extra hours × $15.
+A is wrong. This is the extra hours only.
+B is wrong. This uses the actual rate.
+D is wrong. This is the rate variance.
+P312-09  Answer B. The quantity difference is valued at standard.
+A is wrong. That mixes the rate difference into it.
+C is wrong. Unrelated.
+D is wrong. Overhead has its own variances.
+P312-10  Answer A. The flexible-budget idea of Chapter 11.
+B is wrong. That ignores the change in volume.
+C is wrong. That would make the variance zero.
+D is wrong. History is not the standard.
+P312-11  Answer C. Price difference × actual bottles.
+A is wrong. This uses the standard quantity.
+B is wrong. This is the usage variance.
+D is wrong. This is the net of both variances.
+P312-12  Answer D. The cause lies with the material bought.
+A is wrong. The plant did not choose the material.
+B is wrong. Unrelated.
+C is wrong. It should still be investigated.
+P312-13  Answer A. Cheaper inputs can cost more later.
+B is wrong. Size alone proves nothing.
+C is wrong. Variances are not planned.
+D is wrong. Equal amounts are not required.
+P312-14  Answer D. Rate difference × actual hours.
+A is wrong. This uses 11,250 standard hours.
+B is wrong. This is the efficiency variance.
+C is wrong. This is the total labor variance.
+P312-15  Answer B. The two parts add to the total.
+A is wrong. The signs are mixed.
+C is wrong. This repeats the price variance.
+D is wrong. The total is unfavorable.
+P312-16  Answer C. Cheaper material often wastes more.
+A is wrong. Different causes.
+B is wrong. Different causes.
+D is wrong. No single decision links them.
+Case question: bottling variances in the Oils division
+C312-1
+Variance
+Category
+Bottle price variance
+Favorable
+Bottle usage variance
+Unfavorable
+Labor rate variance
+Unfavorable
+Labor efficiency variance
+Unfavorable
+Total bottle variance
+Favorable
+A variance is favorable if it raises operating income above the budgeted figure.
+C312-2  Answer: 4,560.
+4,500 is wrong: this answer uses the standard quantity.
+4,800 is wrong: this answer uses the bottles bought, not used.
+C312-3  Answer: 3,000.
+2,940 is wrong: this answer values the extra bottles at the actual price.
+C312-4  Answer: 2,300.
+3,000 is wrong: this answer gives the efficiency variance instead.
+C312-5  Answer: 3,000.
+3,050 is wrong: this answer values the extra hours at the actual rate.
+C312-6  Answer: saved money overall, but less than the price variance alone suggests.
+saved the full amount of the price variance is wrong: this answer the extra breakages reduced the saving.
+cost the division money overall is wrong: this answer the two bottle variances net to a favorable figure.
+had no effect on cost is wrong: this answer both variances differ from zero.
+C312-7  Answer: allowed.
+purchased is wrong: this answer purchases are a separate quantity.
+budgeted is wrong: this answer the budget was set for the planned output.
+delivered is wrong: this answer deliveries are not the standard.
+PART III — MEASURING AND MANAGING PERFORMANCE

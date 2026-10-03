@@ -214,7 +214,11 @@ def _mcq_row(i, ans):
     li = 'ABCD'.index(a['letter'])
     why = a['why'] or i['options'][li]
     if len(why) < 25:
-        why = '%s  %s' % (i['options'][li], why)
+        # The book answers a computational item with the working alone, as
+        # '30 / 20.' or 'Best - worst.'. Both parts are its own; joined they
+        # read as a key row instead of as a fragment.
+        why = ('The book gives %s, from %s.'
+               % (i['options'][li], why.rstrip('.')))
     fix = lambda t: FIGREF.sub('the panel above', t)
     return (fix(i['stem']), [fix(o) for o in i['options']], li,
             fix(why)[:400])
@@ -485,17 +489,67 @@ def gen_classify(tbs, seed):
                 continue
             if any(len(v) > 26 or NUM.search(v) for v in uniq):
                 continue
-            if len({v[0].upper() for v in uniq}) != len(uniq):
-                continue
-            legend = ' \u00b7 '.join('%s = %s' % (v[0].upper(), v)
-                                     for v in uniq)
+            # The initial of each value makes the best mnemonic, but a
+            # chapter whose categories share an initial ('Cash receipt',
+            # 'Cash disbursement') would otherwise yield no classification
+            # at all, so fall back to A, B, C in that case.
+            if len({v[0].upper() for v in uniq}) == len(uniq):
+                tag = {v: v[0].upper() for v in uniq}
+            else:
+                tag = {v: chr(65 + k) for k, v in enumerate(uniq)}
+            legend = ' \u00b7 '.join('%s = %s' % (tag[v], v) for v in uniq)
             out.append(dict(
                 t='T6',
                 d='%s? Write one letter beside each item:  %s.'
                   % (head[ci].rstrip('?'), legend),
-                items=items, ans=[v[0].upper() for v in vals],
+                items=items, ans=[tag[v] for v in vals],
                 covers=['classify:%d:%d' % (ri, ci)],
                 h=H['head'] + H['t6'] * len(items) + 0.04))
+            break
+    return out
+
+
+def gen_order(tbs, tsec, seed):
+    """T8 from a real schedule: put its lines back in the book's order.
+
+    A budget schedule has a required order, and the exam tests it. Without
+    this, a chapter that is nothing but numeric schedules yields only three
+    exercise types, because there is no column of few repeated words to
+    classify and too few term rows to blank.
+    """
+    out = []
+    for ri, tb in enumerate(tbs):
+        u = usable(tb)
+        if not u:
+            continue
+        head, body = u
+        labels = [r[0] for r in body]
+        if not 4 <= len(labels) <= 7:
+            continue
+        if len(set(labels)) != len(labels):
+            continue
+        if any(len(x) > 46 or len(x) < 4 or BIGNUM.search(x) for x in labels):
+            continue
+        # a schedule, not a lookup table: its rows total or accumulate
+        if not any(re.search(r'\b(total|net|less|plus|add|equals|ending|'
+                             r'beginning|budgeted|required)\b', x, re.I)
+                   for x in labels):
+            continue
+        order = shuffled(range(len(labels)), seed + ri)
+        shown = [labels[i] for i in order]
+        out.append(dict(
+            t='T8',
+            d='These are the lines of one schedule in the book, out of '
+              'order. Number them 1 upwards in the order the book gives '
+              'them.',
+            items=shown,
+            # beside each printed line the student writes the place it
+            # holds in the book's own order
+            ans=[str(order[j] + 1) for j in range(len(labels))],
+            note='The order is the one the schedule itself uses.',
+            covers=['order:%d' % ri],
+            h=H['head'] + 0.06 + 0.018 * len(labels)))
+        if len(out) >= 2:
             break
     return out
 
@@ -568,6 +622,7 @@ def pool_for(n):   # noqa: C901
     pool += gen_mcq(d['p'], ans, 'p', figs=d['figures'],
                     tabs=d['tables'], omit=omit)
     pool += gen_case(d['case'], ans, omit)
+    pool += gen_order(d['tables'], d.get('tsec') or {}, 41)
     pool += gen_tf(d['sc'] + d['p'], ans)
     return d, interleave(pool), omit
 
@@ -765,7 +820,9 @@ def titles_for(d, hs):
 
 
 BOOKLINE = {1: 'CMA Part 1 · Section A',
-            2: 'CMA Part 1 · Book 2 · Cost Management'}
+            2: 'CMA Part 1 · Book 2 · Cost Management',
+            3: 'CMA Part 1 · Book 3 · Planning, Budgeting '
+               'and Performance Management'}
 
 
 def _bookline(bk):

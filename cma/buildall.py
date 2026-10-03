@@ -20,7 +20,9 @@ CHAPTERS = range(1, 19)
 
 
 TITLES = {1: 'CMA Part 1 · Section A · Book 1',
-          2: 'CMA Part 1 · Book 2 · Cost Management'}
+          2: 'CMA Part 1 · Book 2 · Cost Management',
+          3: 'CMA Part 1 · Book 3 · Planning, Budgeting '
+             'and Performance Management'}
 
 
 def build(out, bk=1):

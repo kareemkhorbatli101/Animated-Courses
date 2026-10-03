@@ -1,0 +1,687 @@
+Chapter 6
+The Sales and Production Budgets
+موازنة المبيعات وموازنة الإنتاج
+Part I of this book set the strategy and chose the budget systems. Part II now builds the Beverages master budget for 2028, one schedule at a time. It starts where every master budget starts: with the number of cases the division expects to sell, and the number it must produce.
+Figure F306-01 shows the path: forecast, sales budget, production budget.
+Figure F306-01. Chapter 6 roadmap: forecast, sales budget, production budget.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.5.a
+explain the role of the sales budget in the development of an annual profit plan
+Explain the role of the sales budget in the annual profit plan.
+Full treatment
+B.5.b
+identify the factors that should be considered when preparing a sales forecast
+Identify the factors to consider when preparing a sales forecast.
+Full treatment
+B.5.c
+identify the components of a sales budget and prepare a sales budget
+Identify the components of a sales budget and prepare one.
+Full treatment
+B.5.d
+explain the relationship between the sales budget and the production budget
+Explain how the sales budget and the production budget are linked.
+Full treatment
+B.5.e
+identify the role that inventory levels play in the preparation of a production budget and define other factors that should be considered when preparing a production budget
+Explain the role of inventory levels, and the other factors to consider, in the production budget.
+Full treatment + Extended Example
+B.5.f
+prepare a production budget
+Prepare a production budget.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+annual profit plan
+خطة الربح السنوية
+plan de profit annuel
+sales forecast
+التنبؤ بالمبيعات
+prévision des ventes
+sales budget
+موازنة المبيعات
+budget des ventes
+production budget
+موازنة الإنتاج
+budget de production
+inventory policy
+سياسة المخزون
+politique de stock
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 agreed a volume of 900,000 cases and Chapter 5 split it into quarters. Book 2, Chapter 18 set the standard of 0.02 machine hours a case.
+6.1  The sales budget and the profit plan
+The master budget is also called the annual profit plan, because it ends in budgeted profit. The sales budget is its first schedule: the planned units and revenue for each period.
+Almost every other budget depends on it. Figure F306-02 shows how sales drive production, selling expenses, cash collections and the budgeted income statement.
+Figure F306-02. The sales budget at the centre of the profit plan.
+That is why the sales budget deserves the most care. If sales are overstated, the company buys too much material, hires too many people and plans for cash it will never collect.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+annual profit plan
+خطة الربح السنوية
+plan de profit annuel
+sales budget
+موازنة المبيعات
+budget des ventes
+English (exam term)
+العربية
+Français
+annual profit plan
+خطة الربح السنوية
+plan de profit annuel
+sales budget
+موازنة المبيعات
+budget des ventes
+SECTION CHECK   Test yourself
+SC306-1  Why is the sales budget prepared first in the annual profit plan?
+A.	Because it is the easiest
+B.	Because most other budgets depend on expected sales
+C.	Because GAAP requires it
+D.	Because it needs no forecast
+SC306-2  The sales budget is 10% too high. Which is the most likely effect on the rest of the profit plan?
+A.	No effect, because costs are separate
+B.	Only revenue is wrong
+C.	Too much material, labor and planned cash inflow
+D.	Lower planned production
+Answers and explanations are at the end of the chapter.
+6.2  The sales forecast
+The sales forecast is an estimate of what the company could sell. It becomes the sales budget only after management decides on prices, promotions and targets. Figure F306-03 lists the factors the Beverages forecast considers.
+Figure F306-03. Factors in the Beverages sales forecast
+Factor in the sales forecast (B.5.b)
+Beverages 2028
+The market and the industry
+Juice market growing 14.0% a year (Chapter 2)
+The economy
+Low inflation; the dinar pegged to the US dollar (Chapter 3)
+Past sales and seasons
+Peaks every third quarter (Figure F306-04)
+Prices and promotions
+Price held at $20.00 a case
+Competitors
+The market leader holds a much larger share
+Sales team and customers
+Orders already agreed with Levant and the supermarkets
+Past results show trend and season. Figure F306-04 shows that Beverages sales have grown each year and peak every third quarter, when summer demand for juice is highest.
+Figure F306-04. Beverages sales by quarter, 2026–2028.
+A good forecast combines several sources: the industry forecast and market share of Chapter 3, the sales team's knowledge of customers, and statistical methods such as the regression of Book 2, Chapter 3.
+EXAM TRAP   Forecast is not budget
+The forecast says what could happen; the budget says what management plans and commits to. An answer that treats them as the same thing misses management's decisions on price and promotion.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales forecast
+التنبؤ بالمبيعات
+prévision des ventes
+English (exam term)
+العربية
+Français
+sales forecast
+التنبؤ بالمبيعات
+prévision des ventes
+SECTION CHECK   Test yourself
+SC306-3  Which factor should be considered in a sales forecast?
+A.	The auditor's fee
+B.	The depreciation method
+C.	The color of the office
+D.	Past sales and seasonal patterns
+SC306-4  What turns a sales forecast into a sales budget?
+A.	Management's decisions on price, promotion and targets
+B.	Nothing; they are the same
+C.	The auditor's approval
+D.	The production budget
+Answers and explanations are at the end of the chapter.
+6.3  Preparing the sales budget
+A sales budget has three components for each period: units, price per unit and revenue. Companies with several products or channels prepare a line for each and add them up.
+WORKED EXAMPLE   Worked example: the Beverages sales budget
+First quarter: 210,000 cases × $20.00 = $4,200,000. Figure F306-05 repeats the calculation for each quarter; the year totals 900,000 cases and $18,000,000, the sales budget of Chapter 4.
+Figure F306-05. Worked example: the Beverages sales budget for 2028
+Sales budget 2028
+Q1
+Q2
+Q3
+Q4
+Year
+Cases
+210,000
+225,000
+240,000
+225,000
+900,000
+Price per case
+$20.00
+$20.00
+$20.00
+$20.00
+$20.00
+Sales revenue
+4,200,000
+4,500,000
+4,800,000
+4,500,000
+18,000,000
+The quarterly split matters as much as the total: production, purchasing and cash are all planned by quarter or month, following the pattern of sales.
+SECTION CHECK   Test yourself
+SC306-5  The components of a sales budget for each period are:
+A.	materials, labor and overhead
+B.	cash receipts and payments
+C.	units, price and revenue
+D.	assets and liabilities
+SC306-6  Budgeted sales are 225,000 cases at $20.00. What is the budgeted revenue?
+A.	$225,000
+B.	$4,000,000
+C.	$4,050,000
+D.	$4,500,000
+Answers and explanations are at the end of the chapter.
+6.4  From sales to production
+Production does not simply equal sales, because the company holds finished goods. The production budget adds the stock wanted at the end of the period and subtracts the stock already on hand at the start. Figure F306-06 shows the formula.
+Figure F306-06. How the production budget is calculated.
+The ending stock comes from the inventory policy. Beverages keeps 20% of next quarter's sales in stock, so that it can meet orders while the next batch is filled.
+Other factors also shape the production budget: plant capacity, storage space, the shelf life of juice and the wish to keep the workforce stable. Figure F306-07 lists them for Beverages.
+Figure F306-07. Factors in the Beverages production budget
+Factor in the production budget (B.5.e)
+Beverages 2028
+Inventory policy
+Ending stock = 20% of next quarter's sales
+Capacity
+240,000 cases a quarter (4,800 machine hours)
+Storage space
+Room for 50,000 cases
+Shelf life
+Juice must be sold within nine months
+Stable workforce
+Avoid large swings in production between quarters
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+production budget
+موازنة الإنتاج
+budget de production
+inventory policy
+سياسة المخزون
+politique de stock
+English (exam term)
+العربية
+Français
+production budget
+موازنة الإنتاج
+budget de production
+inventory policy
+سياسة المخزون
+politique de stock
+SECTION CHECK   Test yourself
+SC306-7  Why can production differ from sales in the same period?
+A.	Because of taxes
+B.	Because of the change in finished goods inventory
+C.	Because of depreciation
+D.	It cannot differ
+SC306-8  The policy is to hold ending stock of 20% of next quarter's sales. Next quarter's sales are 240,000 cases. What is the desired ending stock this quarter?
+A.	4,800
+B.	24,000
+C.	45,000
+D.	48,000
+Answers and explanations are at the end of the chapter.
+6.5  Preparing the production budget
+WORKED EXAMPLE   Worked example: the first quarter
+Sales 210,000 + ending stock 45,000 (20% of 225,000) = 255,000 needed; − beginning stock 42,000 = 213,000 cases to produce. Figure F306-08 completes the year.
+Figure F306-08. Worked example: the Beverages production budget for 2028
+Production budget 2028 (cases)
+Q1
+Q2
+Q3
+Q4
+Budgeted sales
+210,000
+225,000
+240,000
+225,000
++ Ending inventory (20% of next quarter)
+45,000
+48,000
+45,000
+43,000
+= Units needed
+255,000
+273,000
+285,000
+268,000
+− Beginning inventory
+42,000
+45,000
+48,000
+45,000
+= Units to produce
+213,000
+228,000
+237,000
+223,000
+YOUR TURN   The third and fourth quarters
+Complete the blank cells of Figure F306-09. The first quarter of 2029 is expected to sell 215,000 cases. Answers are at the end of the chapter.
+Figure F306-09. Your turn: the third and fourth quarters (complete the blanks)
+Production budget 2028 (cases)
+Q1
+Q2
+Q3
+Q4
+Budgeted sales
+210,000
+225,000
+240,000
+225,000
++ Ending inventory (20% of next quarter)
+45,000
+48,000
+________
+________
+= Units needed
+255,000
+273,000
+________
+________
+− Beginning inventory
+42,000
+45,000
+48,000
+45,000
+= Units to produce
+213,000
+228,000
+________
+________
+Over the year, production of 901,000 cases is 900,000 cases of sales plus the rise in stock from 42,000 to 43,000.
+The budget must also be feasible. Figure F306-10 compares production with plant capacity: the third quarter uses 98.8%, leaving only 3,000 cases of spare capacity.
+Figure F306-10. Production by quarter against capacity.
+EXAM TRAP   Watch the signs
+Ending inventory is added and beginning inventory is subtracted. Reversing the signs, or setting ending stock from this quarter's sales instead of next quarter's, gives the wrong production figure.
+SECTION CHECK   Test yourself
+SC306-9  Sales 210,000; desired ending stock 45,000; beginning stock 42,000. How many cases should be produced?
+A.	213,000
+B.	252,000
+C.	255,000
+D.	297,000
+SC306-10  Over a year, sales are 900,000 cases, beginning stock 42,000 and ending stock 43,000. What is total production?
+A.	901,000
+B.	942,000
+C.	943,000
+D.	985,000
+Answers and explanations are at the end of the chapter.
+6.6  Extended Example 6A: a late order for the summer
+In February, Levant asks for 10,000 extra cases in the third quarter for a hotel chain. This example tests whether the production budget can absorb the order. It is exam-core.
+1. The revised production budget
+Higher third-quarter sales raise the second quarter's ending stock, and therefore second-quarter production, as well as third-quarter production. Figure F306-11 shows the result.
+Figure F306-11. Extended Example: the production budget with the late order
+Beverages (cases)
+Budget
+With the late order (+10,000)
+Third-quarter sales
+240,000
+250,000
+Second-quarter ending inventory
+48,000
+50,000
+Second-quarter production
+228,000
+230,000
+Third-quarter production
+237,000
+245,000
+Above capacity in the third quarter
+—
+5,000
+2. Is it feasible?
+Third-quarter production would be 245,000 cases, 5,000 above capacity. Building ahead is not possible, because the store would already be full at 50,000 cases. Figure F306-12 lists the options.
+Figure F306-12. Extended Example: options for the cases above capacity
+Options for the 5,000 extra cases
+Assessment
+Build ahead in the second quarter
+Not possible: the store would already hold 50,000 cases, its limit
+Overtime shifts in the third quarter
+Adds capacity; costs more per case
+Outsource filling of the extra cases
+Uses outside capacity (Book 2, Chapter 17); check quality
+Accept only part of the order
+Loses $41,000 of contribution margin
+3. Decision
+The division plans overtime shifts for the third quarter, because the extra cost per case is well below the contribution margin of $8.20 that each case earns.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Budget: 900,000 cases sold + 43,000 ending − 42,000 beginning = 901,000 produced.
+Sales revenue $18,000,000 = the sales budget of Chapter 4.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales budget
+موازنة المبيعات
+budget des ventes
+production budget
+موازنة الإنتاج
+budget de production
+inventory policy
+سياسة المخزون
+politique de stock
+English (exam term)
+العربية
+Français
+sales budget
+موازنة المبيعات
+budget des ventes
+production budget
+موازنة الإنتاج
+budget de production
+inventory policy
+سياسة المخزون
+politique de stock
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect a table of sales by period and an inventory policy. Compute ending and beginning stock for each period, the units to produce, and the sales revenue. Then check capacity and storage if the question gives them.
+7. Self-check
+SECTION CHECK   Test yourself
+SC306-11  Use the Extended Example. Why can Beverages not build the extra cases ahead in the second quarter?
+A.	The juice would expire at once
+B.	The sales team refuses
+C.	The store would already be full
+D.	GAAP forbids it
+SC306-12  Use the Extended Example. What would third-quarter production be with the late order?
+A.	237,000
+B.	240,000
+C.	245,000
+D.	250,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F306-13 brings the chapter together.
+Figure F306-13. Chapter 6 summary map: the key rule for each section.
+The sales budget is the first schedule of the annual profit plan, and almost every other budget depends on it. It starts from a forecast that considers the market, the economy, prices, competitors, past results and customers, and it sets units, price and revenue for each period. The production budget equals sales plus desired ending inventory minus beginning inventory, and it must respect the inventory policy, capacity, storage and shelf life.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P306-01  The master budget is also called the:
+A.	audit plan
+B.	strategic plan
+C.	annual profit plan
+D.	tax return
+P306-02  Which is NOT a factor in a sales forecast?
+A.	The depreciation method for trucks
+B.	Competitors' actions
+C.	The general economy
+D.	Planned prices and promotions
+P306-03  Sales peak every third quarter for three years. How should the forecast use this?
+A.	Ignore it as chance
+B.	Spread sales evenly over the year
+C.	Forecast only annual sales
+D.	Build the seasonal pattern into the quarterly forecast
+P306-04  A sales budget shows Q1 210,000 cases, Q2 225,000, Q3 240,000 and Q4 225,000, at $20.00 a case. What is the annual revenue?
+A.	$900,000
+B.	$16,800,000
+C.	$17,500,000
+D.	$18,000,000
+P306-05  Jars are sold to supermarkets at $3.50 and to hotels at $3.20. The budget is 300,000 jars to supermarkets and 80,000 to hotels. What is budgeted revenue?
+A.	$1,050,000
+B.	$1,216,000
+C.	$1,306,000
+D.	$1,330,000
+P306-06  The production budget starts from:
+A.	the cash budget
+B.	the sales budget
+C.	the budgeted balance sheet
+D.	the capital budget
+P306-07  The first quarter's ending inventory is 45,000 cases. What is the second quarter's beginning inventory?
+A.	0
+B.	3,000
+C.	42,000
+D.	45,000
+P306-08  Why does Beverages hold finished goods at the end of each quarter?
+A.	To raise reported profit
+B.	Because production is always slow
+C.	To avoid paying suppliers
+D.	To meet orders while the next batch is filled
+P306-09  Which factor limits how much juice Beverages can build ahead of the summer?
+A.	The tax rate
+B.	Storage space and shelf life
+C.	The price of the shares
+D.	The number of board meetings
+P306-10  Sales 225,000; desired ending stock 48,000; beginning stock 45,000. How many cases should be produced?
+A.	228,000
+B.	270,000
+C.	273,000
+D.	318,000
+P306-11  Sales are 240,000 in Q3 and 225,000 in Q4. The ending-stock policy is 20% of next quarter's sales. Beginning stock is 48,000. What is Q3 production?
+A.	237,000
+B.	240,000
+C.	243,000
+D.	285,000
+P306-12  Planned production is 237,000 cases and capacity is 240,000 cases. What percentage of capacity is used?
+A.	101.3%
+B.	95.0%
+C.	1.3%
+D.	98.8%
+P306-13  Why might a company keep production stable across quarters even though sales are seasonal?
+A.	To increase shelf life
+B.	To keep a stable, trained workforce and use capacity evenly
+C.	To reduce sales
+D.	To avoid preparing a budget
+P306-14  A company with two sales channels prepares its sales budget:
+A.	at the highest channel price
+B.	using only the larger channel
+C.	in units only
+D.	with one line for each channel, then adds them
+P306-15  If ending stock is higher than beginning stock for the year, production is:
+A.	higher than sales
+B.	lower than sales
+C.	equal to sales
+D.	zero
+P306-16  Jar sales are 380,000 this quarter and 400,000 next quarter. Ending stock is 10% of next quarter's sales; beginning stock is 38,000. How many jars should be produced?
+A.	382,000
+B.	418,000
+C.	420,000
+D.	458,000
+Case question: the Tahini & Spreads jar budgets
+The Tahini & Spreads division has agreed its sales volume for 2028: the evidence-based figure of Chapter 3, split into quarters by the sales team. Sales are highest in the third quarter, when Gulf buyers stock up before the winter season. Last year the division ran short of jars in the third quarter and lost part of a Gulf order, so the sales director wants the budgets checked carefully this time.
+The division keeps finished jars equal to 10% of the next quarter's sales, so that it can meet orders while the next batch is filled. At the start of 2028 it expects to hold exactly that amount. The filling line can produce about 450,000 jars a quarter, and tahini keeps for twelve months, so neither capacity nor shelf life is a problem this year.
+The controller, Rana, must now prepare the sales budget and the production budget by quarter. She also wants the new assistant accountant to understand which factors belong to the sales forecast and which belong to the production budget. Rana will present both budgets to the division manager, Samir, at the planning meeting next week, together with a short note on the stock policy.
+Use Figure F306-14 for items C306-1 to C306-7.
+How to enter answers: Enter amounts and units as whole numbers, without the $ sign or commas (for example, 125000).
+Figure F306-14. Case exhibit: Tahini & Spreads jar sales plan
+Tahini & Spreads, 500 g jars
+Q1 2028
+Q2 2028
+Q3 2028
+Q4 2028
+Q1 2029
+Jars to sell
+360,000
+380,000
+400,000
+360,000
+370,000
+Price per jar
+$3.50
+$3.50
+$3.50
+$3.50
+—
+C306-1  Classify each factor. (On the exam screen you would drag each item into a box.)
+Categories: Sales forecast · Production budget
+Factor
+Category
+Growth of the Gulf tahini market
+Planned price of the jars
+Ending-stock policy of 10%
+Capacity of the filling line
+Shelf life of tahini
+C306-2  Enter the budgeted sales revenue for the second quarter.
+Answer: ____________
+C306-3  Enter the desired ending stock of jars for the second quarter.
+Answer: ____________
+C306-4  Enter the number of jars to produce in the second quarter.
+Answer: ____________
+C306-5  Enter the number of jars to produce in the whole year.
+Answer: ____________
+C306-6  The division holds finished jars at the end of each quarter mainly to: [select]
+Options: meet orders while the next batch is filled   |   raise the reported profit   |   use up spare capacity   |   delay paying suppliers
+C306-7  The master budget, which ends in budgeted profit, is also called the annual profit ____.
+Choose the word or phrase for the blank: plan   |   report   |   forecast   |   audit
+Answers and explanations
+Section checks
+SC306-1  Answer B. Production, costs and cash follow sales.
+A is wrong. It is often the hardest.
+C is wrong. Budgets are internal.
+D is wrong. It starts from a forecast.
+SC306-2  Answer C. The error spreads to every dependent budget.
+A is wrong. Costs depend on sales.
+B is wrong. Every dependent budget is affected.
+D is wrong. Production would be too high.
+SC306-3  Answer D. History shows trend and season.
+A is wrong. Unrelated to sales.
+B is wrong. Unrelated to sales.
+C is wrong. Unrelated.
+SC306-4  Answer A. The budget is management's plan.
+B is wrong. The forecast is only an estimate.
+C is wrong. Auditors do not approve budgets.
+D is wrong. Production follows the sales budget.
+SC306-5  Answer C. Revenue = units × price.
+A is wrong. Those are production costs.
+B is wrong. That is the cash budget.
+D is wrong. That is the balance sheet.
+SC306-6  Answer D. Units × price.
+A is wrong. This is the units only.
+B is wrong. This uses 200,000 cases.
+C is wrong. This uses 202,500 cases.
+SC306-7  Answer B. Stock can rise or fall.
+A is wrong. Unrelated.
+C is wrong. Unrelated.
+D is wrong. Inventory changes allow a difference.
+SC306-8  Answer D. 20% of next quarter's sales.
+A is wrong. This uses 2% instead of 20%.
+B is wrong. This uses 10%.
+C is wrong. This uses this quarter's sales of 225,000.
+SC306-9  Answer A. Sales + ending − beginning.
+B is wrong. Beginning stock is added instead of ending stock.
+C is wrong. Beginning stock is not subtracted.
+D is wrong. Both stocks are added.
+SC306-10  Answer A. Sales + ending − beginning.
+B is wrong. Beginning stock is added instead of ending stock.
+C is wrong. Beginning stock is not subtracted.
+D is wrong. Both stocks are added.
+SC306-11  Answer C. Second-quarter ending stock would reach the storage limit of 50,000 cases.
+A is wrong. Shelf life is nine months.
+B is wrong. Not the constraint.
+D is wrong. No such rule.
+SC306-12  Answer C. Sales 250,000 + ending stock − beginning stock 50,000.
+A is wrong. This is the original budget.
+B is wrong. This is capacity.
+D is wrong. This is third-quarter sales.
+Your turn
+Item
+Answer
+Q3
+240,000 + 45,000 = 285,000; − 48,000 = 237,000
+Q4
+225,000 + 43,000 (20% of 215,000) = 268,000; − 45,000 = 223,000
+Multiple-choice questions
+P306-01  Answer C. It ends in budgeted profit.
+A is wrong. Unrelated.
+B is wrong. The strategic plan covers several years.
+D is wrong. Unrelated.
+P306-02  Answer A. Depreciation does not affect demand.
+B is wrong. Competitors affect demand.
+C is wrong. The economy affects demand.
+D is wrong. Prices affect demand.
+P306-03  Answer D. Seasonality is a key factor.
+A is wrong. A repeated pattern is not chance.
+B is wrong. That ignores the season.
+C is wrong. Quarterly plans need the pattern.
+P306-04  Answer D. 900,000 cases × $20.
+A is wrong. This is the cases only.
+B is wrong. This uses the first quarter for every quarter.
+C is wrong. The addition is wrong.
+P306-05  Answer C. Each channel at its own price.
+A is wrong. Hotels are left out.
+B is wrong. All jars at $3.20.
+D is wrong. All jars at $3.50.
+P306-06  Answer B. Production serves sales.
+A is wrong. Cash comes later.
+C is wrong. It comes last.
+D is wrong. A financial budget.
+P306-07  Answer D. Ending stock carries forward.
+A is wrong. Stock does not vanish.
+B is wrong. This is the change in stock, not the stock.
+C is wrong. That is the first quarter's beginning stock.
+P306-08  Answer D. A buffer protects customer service.
+A is wrong. Not the purpose.
+B is wrong. Not the reason.
+C is wrong. Unrelated.
+P306-09  Answer B. Stock needs space and must be sold in time.
+A is wrong. Unrelated.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+P306-10  Answer A. Sales + ending − beginning.
+B is wrong. Beginning stock is added instead of ending stock.
+C is wrong. Beginning stock is not subtracted.
+D is wrong. Both stocks are added.
+P306-11  Answer A. 240,000 + 45,000 − 48,000.
+B is wrong. The stock change is ignored.
+C is wrong. The signs are reversed.
+D is wrong. Beginning stock is not subtracted.
+P306-12  Answer D. Production ÷ capacity.
+A is wrong. The division is reversed.
+B is wrong. The division is wrong.
+C is wrong. This is the spare capacity.
+P306-13  Answer B. Stable production eases staffing and capacity.
+A is wrong. Shelf life does not change.
+C is wrong. Unrelated.
+D is wrong. A budget is still needed.
+P306-14  Answer D. Each channel has its own volume and price.
+A is wrong. Overstates revenue.
+B is wrong. Leaves out sales.
+C is wrong. Revenue is needed.
+P306-15  Answer A. The extra stock must be produced.
+B is wrong. Stock rises only if production exceeds sales.
+C is wrong. Only if stock does not change.
+D is wrong. Unrelated.
+P306-16  Answer A. 380,000 + 40,000 − 38,000.
+B is wrong. Beginning stock is added instead of ending stock.
+C is wrong. Beginning stock is not subtracted.
+D is wrong. Both stocks are added.
+Case question: the Tahini & Spreads jar budgets
+C306-1
+Factor
+Category
+Growth of the Gulf tahini market
+Sales forecast
+Planned price of the jars
+Sales forecast
+Ending-stock policy of 10%
+Production budget
+Capacity of the filling line
+Production budget
+Shelf life of tahini
+Production budget
+A factor belongs where it has its main effect.
+C306-2  Answer: 1,330,000.
+7,600,000 is wrong: this answer uses the juice price instead of the jar price.
+C306-3  Answer: 40,000.
+38,000 is wrong: this answer uses the second quarter's own sales.
+C306-4  Answer: 382,000.
+380,000 is wrong: this answer ignores the change in stock.
+378,000 is wrong: this answer reverses the signs of the stocks.
+C306-5  Answer: 1,501,000.
+1,500,000 is wrong: this answer sets production equal to sales.
+C306-6  Answer: meet orders while the next batch is filled.
+raise the reported profit is wrong: this answer stock is a service buffer, not a profit tool.
+use up spare capacity is wrong: this answer the policy follows next quarter's sales.
+delay paying suppliers is wrong: this answer unrelated to finished goods.
+C306-7  Answer: plan.
+report is wrong: this answer a report shows actual results.
+forecast is wrong: this answer a forecast is an estimate, not the plan.
+audit is wrong: this answer an audit checks records.
+PART II — THE MASTER BUDGET

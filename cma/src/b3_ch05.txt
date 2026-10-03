@@ -1,0 +1,747 @@
+Chapter 5
+Budget Systems II: Zero-Based, Rolling and Flexible Budgets
+أنظمة الموازنة (2): الموازنة الصفرية والموازنة المستمرة والموازنة المرنة
+Head-office costs at Orontes have grown every year for five years, and nobody can say exactly why. The juice market changes every month, but the annual budget is fixed in December. And when Beverages sells fewer cases than planned, the plant manager is blamed for costs that fell with volume. This chapter shows three budget systems that deal with these problems.
+Figure F305-01 names the three systems: zero-based, rolling and flexible.
+Figure F305-01. Chapter 5 roadmap: zero-based, rolling and flexible budgets.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.4.e
+evaluate a business situation and recommend an appropriate budget solution
+Evaluate a business situation and recommend a suitable budget system.
+Full treatment + Extended Example
+B.4.f
+prepare budgets on the basis of information presented
+Prepare zero-based, rolling and flexible budgets from the information given.
+Full treatment + Extended Example
+B.4.g
+calculate the impact of incremental changes to budgets
+Calculate the effect of changes, such as a new price or volume, on a budget.
+Full treatment + Extended Example
+B.4.a
+define its purpose, appropriate use, and time frame
+Define the purpose, use and time frame of zero-based, rolling and flexible budgets.
+Introduced here for these systems (Chapter 4 for the others)
+B.4.b
+identify the budget components and explain the interrelationships among the components
+Identify the components of these budgets and how they are linked.
+Introduced here for these systems
+B.4.c
+demonstrate an understanding of how the budget is developed
+Show how these budgets are developed.
+Introduced here for these systems
+B.4.d
+compare the benefits and limitations of the budget system
+Compare their benefits and limitations.
+Introduced here for these systems
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+zero-based budgeting
+الموازنة الصفرية
+budget base zéro (BBZ)
+incremental budgeting
+الموازنة التزايدية
+budget incrémental (reconduction)
+decision package
+حزمة القرار
+module de décision
+continuous (rolling) budget
+الموازنة المستمرة (المتحركة)
+budget glissant (continu)
+flexible budget
+الموازنة المرنة
+budget flexible
+static budget
+الموازنة الثابتة (الساكنة)
+budget fixe (statique)
+cost formula
+معادلة التكلفة
+formule de coût
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 4 compared an activity-based budget with last year plus a percentage. Book 2, Chapter 3 split costs into fixed and variable parts. Both ideas are used again here.
+5.1  Zero-based budgeting
+Incremental budgeting starts from last year's figures and adds or subtracts a change. Zero-based budgeting starts from zero every year: each activity must be justified again, as if it were new. It suits discretionary costs, such as head-office services, where spending can grow without a clear reason.
+The budget is built from decision packages. Each package describes an activity, its cost and its benefit; managers rank the packages, and top management funds them down the ranking until the money runs out. Figure F305-02 shows the process.
+Figure F305-02. The zero-based budgeting process.
+WORKED EXAMPLE   Worked example: the head-office budget for 2028
+Six packages ask for $1,260,000. The board funds the essential packages in full, reduces two and rejects the sponsorships. Figure F305-03 gives an approved budget of $1,100,000, $148,000 less than last year plus 4%.
+Figure F305-03. Worked example: head-office decision packages for 2028
+Head office decision packages, 2028 (USD)
+Requested
+Approved
+Finance and reporting
+380,000
+380,000
+IT support
+320,000
+320,000
+Legal and compliance
+140,000
+140,000
+Corporate marketing
+260,000
+220,000
+Sports sponsorships
+90,000
+—
+Travel
+70,000
+40,000
+Zero-based budget
+1,260,000
+1,100,000
+Incremental: last year $1,200,000 + 4%
+1,248,000
+Saving from zero-based budgeting
+148,000
+The budget is the approved amount, not the requested amount. The value of the exercise is in the questions it forces: why do we sponsor sports teams, and what would happen if we stopped?
+EXAM TRAP   Requested is not approved
+A zero-based budget uses the approved amount of each package. An answer that adds the requested amounts, or starts from last year's total, has not used zero-based budgeting.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+zero-based budgeting
+الموازنة الصفرية
+budget base zéro (BBZ)
+incremental budgeting
+الموازنة التزايدية
+budget incrémental (reconduction)
+decision package
+حزمة القرار
+module de décision
+English (exam term)
+العربية
+Français
+zero-based budgeting
+الموازنة الصفرية
+budget base zéro (BBZ)
+incremental budgeting
+الموازنة التزايدية
+budget incrémental (reconduction)
+decision package
+حزمة القرار
+module de décision
+SECTION CHECK   Test yourself
+SC305-1  How does a zero-based budget start?
+A.	From last year's actual spending
+B.	From zero, with every activity justified again
+C.	From last year's budget plus inflation
+D.	From the industry average
+SC305-2  Packages request $1,260,000; the board approves $1,100,000. Last year's spending was $1,200,000. What is the zero-based budget?
+A.	$1,100,000
+B.	$1,200,000
+C.	$1,248,000
+D.	$1,260,000
+Answers and explanations are at the end of the chapter.
+5.2  Continuous (rolling) budgets
+A continuous (rolling) budget always covers the same length of time ahead, usually twelve months. When a month or quarter ends, it is dropped and a new one is added at the end. It suits fast-changing markets, like juice.
+Figure F305-04 shows how the Beverages budget moves forward one quarter. The quarters in between are also revised with the latest information.
+Figure F305-04. A continuous (rolling) budget moves forward one quarter.
+The December budget planned 900,000 cases for 2028. In March, the first quarter is finished; the second quarter is raised to 230,000 cases, and the first quarter of the next year is added at 215,000. Figure F305-05 gives the new four-quarter total of 910,000.
+Figure F305-05. The Beverages rolling budget before and after the March update
+Beverages cases
+Q1 2028
+Q2 2028
+Q3 2028
+Q4 2028
+Q1 2029
+Four quarters
+Budget made in December 2027
+210,000
+225,000
+240,000
+225,000
+—
+900,000
+Rolled forward in March 2028
+(done)
+230,000
+240,000
+225,000
+215,000
+910,000
+A rolling budget keeps planning up to date, but it takes constant work, and targets that keep moving can confuse performance evaluation. Many companies keep the annual budget for evaluation and use a rolling forecast for planning.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+continuous (rolling) budget
+الموازنة المستمرة (المتحركة)
+budget glissant (continu)
+English (exam term)
+العربية
+Français
+continuous (rolling) budget
+الموازنة المستمرة (المتحركة)
+budget glissant (continu)
+SECTION CHECK   Test yourself
+SC305-3  A rolling budget covers Q1 to Q4. When Q1 ends, what happens?
+A.	Nothing until the year ends
+B.	Q1 is repeated
+C.	Q1 is dropped, the next Q1 is added and the other quarters are revised
+D.	The budget is cancelled
+SC305-4  A continuous (rolling) budget is most useful when:
+A.	the market changes quickly
+B.	nothing ever changes
+C.	the company builds one plant
+D.	costs are all fixed
+Answers and explanations are at the end of the chapter.
+5.3  Flexible budgets
+A static budget is prepared for one planned level of activity. A flexible budget can be prepared for any level, using the cost formula of each cost: fixed cost plus variable cost per unit. It is used mainly to compare actual costs with what they should have been at the actual volume.
+The Beverages cost formula for a month is $350,000 of fixed costs plus $11.80 of variable cost per case. The variable cost is $10.60 of manufacturing cost from the Book 2 card and $1.20 of selling cost. Figure F305-06 draws it as a line.
+Figure F305-06. The Beverages cost formula as a line.
+WORKED EXAMPLE   Worked example: three levels of activity
+At 75,000 cases, sales are $1,500,000, variable costs $885,000 and fixed costs $350,000, so operating income is $265,000. Figure F305-07 repeats the calculation at 70,000 and 80,000 cases.
+Figure F305-07. Worked example: the Beverages flexible budget for one month
+Beverages, one month (USD)
+Cost formula
+70,000 cases
+75,000 cases
+80,000 cases
+Sales
+$20.00 × cases
+1,400,000
+1,500,000
+1,600,000
+Variable costs
+$11.80 × cases
+826,000
+885,000
+944,000
+Contribution margin
+$8.20 × cases
+574,000
+615,000
+656,000
+Fixed costs
+per month
+350,000
+350,000
+350,000
+Operating income
+224,000
+265,000
+306,000
+YOUR TURN   The flexible budget at the higher volume
+Complete the blank cells of Figure F305-08. Answers are at the end of the chapter.
+Figure F305-08. Your turn: the flexible budget at the highest volume (complete the blanks)
+Beverages, one month (USD)
+Cost formula
+70,000 cases
+75,000 cases
+80,000 cases
+Sales
+$20.00 × cases
+1,400,000
+1,500,000
+1,600,000
+Variable costs
+$11.80 × cases
+826,000
+885,000
+________
+Contribution margin
+$8.20 × cases
+574,000
+615,000
+________
+Fixed costs
+per month
+350,000
+350,000
+350,000
+Operating income
+224,000
+265,000
+________
+Each extra case adds $8.20 of operating income, because fixed costs do not change. The flexible budget therefore shows how much income should rise or fall with volume.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+flexible budget
+الموازنة المرنة
+budget flexible
+static budget
+الموازنة الثابتة (الساكنة)
+budget fixe (statique)
+cost formula
+معادلة التكلفة
+formule de coût
+English (exam term)
+العربية
+Français
+flexible budget
+الموازنة المرنة
+budget flexible
+static budget
+الموازنة الثابتة (الساكنة)
+budget fixe (statique)
+cost formula
+معادلة التكلفة
+formule de coût
+SECTION CHECK   Test yourself
+SC305-5  Fixed costs are $350,000 a month and variable cost is $11.80 a case. What are total budgeted costs for 70,000 cases?
+A.	$350,000
+B.	$826,000
+C.	$1,176,000
+D.	$1,400,000
+SC305-6  What is the main limitation of a flexible budget?
+A.	It works for one volume only
+B.	It needs reliable cost formulas, so mixed costs must be split
+C.	It cannot be used for evaluation
+D.	It ignores fixed costs
+Answers and explanations are at the end of the chapter.
+5.4  Choosing a budget system
+The right system depends on the situation and the decision. Figure F305-09 matches common situations with a recommended system, including the two systems of Chapter 4.
+Figure F305-09. Recommending a budget system for each situation
+Business situation (B.4.e)
+Recommended system
+Orontes example
+Costs keep rising with no clear reason; many discretionary costs
+Zero-based budget
+Head office
+Fast-changing market; plans must look a year ahead at all times
+Continuous (rolling) budget
+Beverages sales
+Volume varies; managers must be judged fairly on costs
+Flexible budget
+Beverages plant
+One large investment over more than a year
+Project budget (Chapter 4)
+Filling line
+Overhead used very differently by products
+Activity-based budget (Chapter 4)
+Pulses & Spices
+Figure F305-10 sets out the benefits and limitations of the three systems in this chapter. A good recommendation names the system, gives the reason from the situation, and notes the main limitation to manage.
+Figure F305-10. Benefits and limitations of zero-based, rolling and flexible budgets
+System
+Benefits
+Limitations
+Zero-based
+Removes waste; questions every cost
+Takes much time; managers may resist
+Continuous (rolling)
+Always up to date; always a year ahead
+Constant work; targets keep moving
+Flexible
+Fair comparison at the actual volume
+Needs reliable cost formulas; mixed costs must be split
+Systems are often combined. Orontes uses a master budget for the year, rolling forecasts for sales and flexible budgets for plant costs. It also reviews head office on a zero-based basis every few years.
+SECTION CHECK   Test yourself
+SC305-7  Head-office costs have grown for years with no clear reason. Which system should be recommended?
+A.	A flexible budget
+B.	A project budget
+C.	Last year plus inflation
+D.	Zero-based budgeting
+SC305-8  The plant sold 70,000 cases instead of the planned 75,000. Which budget should be used to judge the plant manager's costs?
+A.	A flexible budget for 70,000 cases
+B.	The static budget for 75,000 cases
+C.	Last year's actual costs
+D.	A zero-based budget
+Answers and explanations are at the end of the chapter.
+5.5  The effect of incremental changes
+Managers often ask how a change would affect the budget: a new price, more volume, a higher cost. The right measure is the change in contribution margin, and the answer must include every effect of the change, such as lost volume after a price rise.
+WORKED EXAMPLE   Worked example: raising the juice price
+Sales proposes a 5% price rise to $21.00 and expects to lose 3% of volume. Figure F305-11 compares the contribution margin: $7,380,000 now and $8,031,600 after the change.
+Figure F305-11. Worked example: the effect of a juice price rise
+Beverages 2028
+Now
+Price +5%, volume −3%
+Price per case
+$20.00
+$21.00
+Variable cost per case
+$11.80
+$11.80
+Contribution margin per case
+$8.20
+$9.20
+Cases a year
+900,000
+873,000
+Contribution margin
+7,380,000
+8,031,600
+Increase
+651,600
+Figure F305-12 shows the result: the rise adds $651,600 a year even after losing 27,000 cases. The extra margin on every remaining case is larger than the margin lost on the cases no longer sold.
+Figure F305-12. Contribution margin before and after the price rise.
+EXAM TRAP   Include the lost volume
+Multiplying the old volume by the new margin ignores the cases lost after the price rise and overstates the gain. Use the new volume with the new margin.
+SECTION CHECK   Test yourself
+SC305-9  Contribution margin is $8.20 a case and fixed costs do not change. How much does operating income rise if sales rise by 5,000 cases?
+A.	$5,000
+B.	$41,000
+C.	$59,000
+D.	$100,000
+SC305-10  A price rise from $20.00 to $21.00 (variable cost $11.80) cuts volume from 900,000 to 873,000 cases. What is the change in contribution margin?
+A.	+$900,000
+B.	+$651,600
+C.	+$873,000
+D.	−$221,400
+Answers and explanations are at the end of the chapter.
+5.6  Extended Example 5A: the 2028 budget review
+This example follows the controller's report to the board on the budget systems used for 2028. It is exam-core.
+1. The situations
+Head office: costs growing without clear reasons, mostly discretionary.
+Beverages sales: a market that changes every quarter.
+Beverages plant: volume that differs from the plan most months.
+Pricing: a proposal to raise the juice price.
+2. Systems and results
+Figure F305-13 gives the system or method used for each area and its result.
+Figure F305-13. Extended Example: systems and results of the 2028 budget review
+Area
+System or method
+Result
+Head office
+Zero-based
+Approved $1,100,000, saving $148,000 against last year + 4%
+Beverages sales
+Rolling (quarterly)
+Next four quarters 910,000 cases after the March update
+Beverages costs
+Flexible
+$350,000 a month + $11.80 a case
+Pricing proposal
+Incremental analysis
+Price +5%: contribution margin +$651,600 a year
+3. Recommendation
+The controller recommends adopting the zero-based head-office budget, the rolling sales forecast and the flexible plant budget. She also recommends approving the price rise if a market test confirms the volume loss.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+The four quarters of the December budget total 900,000 cases, the volume agreed in Chapter 3.
+Fixed manufacturing costs of $150,000 a month equal the Book 2 fixed overhead of $2.00 a case × 75,000 cases.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+zero-based budgeting
+الموازنة الصفرية
+budget base zéro (BBZ)
+continuous (rolling) budget
+الموازنة المستمرة (المتحركة)
+budget glissant (continu)
+flexible budget
+الموازنة المرنة
+budget flexible
+English (exam term)
+العربية
+Français
+zero-based budgeting
+الموازنة الصفرية
+budget base zéro (BBZ)
+continuous (rolling) budget
+الموازنة المستمرة (المتحركة)
+budget glissant (continu)
+flexible budget
+الموازنة المرنة
+budget flexible
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect to recommend a system for a described situation, to prepare a flexible budget at a given volume and to roll a budget forward. You may also have to calculate the effect of a price, volume or cost change on contribution margin or operating income.
+7. Self-check
+SECTION CHECK   Test yourself
+SC305-11  Use the Extended Example. What is the operating income in the flexible budget at 80,000 cases?
+A.	$265,000
+B.	$306,000
+C.	$656,000
+D.	$1,600,000
+SC305-12  Use the Extended Example. Why does the controller use a rolling forecast for Beverages sales?
+A.	Because the market changes every quarter
+B.	Because sales never change
+C.	Because GAAP requires it
+D.	Because it removes the annual budget
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F305-14 brings the chapter together.
+Figure F305-14. Chapter 5 summary map: the key rule for each section.
+Zero-based budgeting justifies every activity from zero through ranked decision packages and funds the approved amounts. A continuous (rolling) budget drops each finished period, adds a new one and revises the rest. A flexible budget uses the cost formula to budget any level of activity, which makes fair comparison possible when volume changes. The system is chosen to fit the situation, and changes are measured by their effect on contribution margin, including any change in volume.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P305-01  For which costs is zero-based budgeting most suitable?
+A.	Direct materials per unit
+B.	Discretionary costs such as head-office services
+C.	Depreciation
+D.	Interest on fixed-rate loans
+P305-02  The building blocks of a zero-based budget are:
+A.	last year's accounts
+B.	standard cost cards
+C.	decision packages
+D.	BCG quadrants
+P305-03  In a zero-based budget, packages are funded:
+A.	in proportion to their requests
+B.	at last year's level
+C.	only if they are new
+D.	down the ranking until the money runs out
+P305-04  Which is a limitation of zero-based budgeting?
+A.	It takes much time and managers may resist it
+B.	It questions every cost
+C.	It finds waste
+D.	It links spending to benefits
+P305-05  A fashion retailer's sales change every few weeks, and managers need a plan that always looks a year ahead. Which system fits?
+A.	A static annual budget
+B.	A project budget
+C.	Zero-based budgeting
+D.	A continuous (rolling) budget
+P305-06  A hospital wants to judge its laundry manager fairly when the number of patients varies each month. Which system fits?
+A.	A flexible budget
+B.	A project budget
+C.	An incremental budget
+D.	A static budget
+P305-07  Price is $20.00 a case, variable cost $11.80 and fixed costs $350,000 a month. What is the flexible-budget operating income at 80,000 cases?
+A.	$306,000
+B.	$656,000
+C.	$1,250,000
+D.	$1,600,000
+P305-08  The December budget had quarters of 210,000, 225,000, 240,000 and 225,000 cases. In March, Q2 becomes 230,000 and next year's Q1 is added at 215,000. What is the new four-quarter total?
+A.	900,000
+B.	905,000
+C.	910,000
+D.	1,125,000
+P305-09  Corporate marketing requests $260,000 and is approved at $220,000; travel requests $70,000 and is approved at $40,000. What do these two packages add to the zero-based budget?
+A.	$70,000
+B.	$260,000
+C.	$290,000
+D.	$330,000
+P305-10  Variable cost rises by $0.50 a case on a plan of 900,000 cases. What is the effect on contribution margin?
+A.	+$450,000
+B.	−$4,500
+C.	−$450,000
+D.	No effect
+P305-11  The effect of a change in volume on operating income is best measured by:
+A.	the change in contribution margin
+B.	the change in revenue
+C.	the change in fixed costs
+D.	the change in cash
+P305-12  A price cut from $20.00 to $19.00 (variable cost $11.80) is expected to raise volume from 900,000 to 1,000,000 cases. What is the change in contribution margin?
+A.	+$820,000
+B.	+$100,000
+C.	−$900,000
+D.	−$180,000
+P305-13  Why do many companies keep the annual budget even when they use a rolling forecast?
+A.	Because a fixed target is needed to evaluate performance
+B.	Because rolling forecasts are illegal
+C.	Because the rolling forecast never changes
+D.	Because the annual budget is cheaper to change
+P305-14  A flexible budget is prepared by applying:
+A.	last year's total to this year
+B.	the static budget to every month
+C.	a cost formula of fixed cost plus variable cost per unit to the actual volume
+D.	a percentage to revenue only
+P305-15  Which system should Orontes use to plan and control the building of a new warehouse over 18 months?
+A.	A flexible budget
+B.	A project budget
+C.	A zero-based budget
+D.	A rolling sales forecast
+P305-16  In a flexible budget, fixed costs of $350,000 at 75,000 cases are budgeted at 70,000 cases as:
+A.	$0
+B.	$326,667
+C.	$350,000
+D.	$375,000
+Case question: the Tahini & Spreads flexible budget
+Last month the Tahini & Spreads division sold fewer 500 g tahini jars than planned, because a large Gulf order arrived late. The division's static budget showed a healthy operating income, and the actual result was much lower. The division manager, Samir, says his costs were well controlled; the head-office review team is not so sure. The late order came from the Gulf importer, and the jars were delivered in the first week of the following month instead.
+The controller, Rana, wants to judge the month fairly. She has the selling price and variable cost per jar, the fixed costs for the month, the planned number of jars and the number actually sold.
+The review team also asks two wider questions. How much would operating income rise if the late order of ten thousand jars had arrived in time? And which budget systems should the division use next year, given that its head-office charges have grown for years and its sales change quickly?
+Rana will present her answers at the monthly review meeting. She will also explain to Samir why the comparison she uses is fair to him, even though his result looks poor at first sight.
+Use Figure F305-15 for items C305-1 to C305-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F305-15. Case exhibit: Tahini & Spreads jar data for one month
+Tahini & Spreads, 500 g jars
+Data
+Selling price per jar
+$3.50
+Variable cost per jar
+$2.00
+Fixed costs per month
+$120,000
+Jars in the static budget for the month
+125,000
+Jars actually sold in the month
+110,000
+C305-1  Match each need of the division with a budget system. (On the exam screen you would drag each item into a box.)
+Categories: Zero-based budget · Rolling budget · Flexible budget
+Need
+Category
+Justify head-office charges that have grown for years
+Keep sales plans a year ahead in a fast-changing market
+Judge costs fairly when volume differs from the plan
+Review whether each support activity is still needed
+C305-2  Enter the flexible-budget sales for the jars actually sold.
+Answer: ____________
+C305-3  Enter the flexible-budget variable costs for the jars actually sold.
+Answer: ____________
+C305-4  Enter the flexible-budget operating income for the jars actually sold.
+Answer: ____________
+C305-5  Enter the increase in operating income if the late order of 10,000 jars had arrived in time.
+Answer: ____________
+C305-6  To judge Samir's cost control for the month, Rana should compare actual costs with: [select]
+Options: the flexible budget for the jars actually sold   |   the static budget   |   last month's actual costs   |   the zero-based head-office budget
+C305-7  A budget prepared for one planned level of activity only is a ____ budget.
+Choose the word or phrase for the blank: static   |   flexible   |   rolling   |   project
+Answers and explanations
+Section checks
+SC305-1  Answer B. Nothing is carried over.
+A is wrong. That is incremental budgeting.
+C is wrong. That is incremental budgeting.
+D is wrong. Not the starting point.
+SC305-2  Answer A. The approved amounts.
+B is wrong. This is last year's spending.
+C is wrong. This is last year plus 4%.
+D is wrong. This is the requested total.
+SC305-3  Answer C. It always looks four quarters ahead.
+A is wrong. That is an annual budget.
+B is wrong. Finished quarters are dropped.
+D is wrong. It moves forward, not stops.
+SC305-4  Answer A. It keeps plans up to date.
+B is wrong. An annual budget would do.
+C is wrong. That suits a project budget.
+D is wrong. Not the reason for rolling.
+SC305-5  Answer C. Fixed + variable × cases.
+A is wrong. Variable costs are left out.
+B is wrong. Fixed costs are left out.
+D is wrong. This is sales at $20.
+SC305-6  Answer B. The formula must be right.
+A is wrong. That describes a static budget.
+C is wrong. It is the fair basis for evaluation.
+D is wrong. It includes fixed costs.
+SC305-7  Answer D. It questions every discretionary cost.
+A is wrong. Head-office costs do not follow volume.
+B is wrong. Not one project.
+C is wrong. That keeps the growth.
+SC305-8  Answer A. Compare costs at the actual volume.
+B is wrong. Volume changed.
+C is wrong. Last year is not a budget.
+D is wrong. Not the tool for volume changes.
+SC305-9  Answer B. Extra cases × contribution margin.
+A is wrong. This is the cases only.
+C is wrong. This uses variable cost per case.
+D is wrong. This uses revenue per case.
+SC305-10  Answer B. New volume × new margin − old volume × old margin.
+A is wrong. This ignores the lost volume.
+C is wrong. This is the price rise on the new volume only.
+D is wrong. This counts only the lost cases.
+SC305-11  Answer B. Contribution margin − fixed costs.
+A is wrong. This is at the planned volume.
+C is wrong. Fixed costs are not deducted.
+D is wrong. This is sales.
+SC305-12  Answer A. Plans must stay up to date.
+B is wrong. The market changes.
+C is wrong. No such rule.
+D is wrong. The annual budget is kept for evaluation.
+Your turn
+Item
+Answer
+Variable costs
+80,000 × $11.80 = $944,000
+Contribution margin
+80,000 × $8.20 = $656,000
+Operating income
+$656,000 − $350,000 = $306,000
+Multiple-choice questions
+P305-01  Answer B. Their level is a management choice.
+A is wrong. Set by output and standards.
+C is wrong. Set by past investment.
+D is wrong. Set by contract.
+P305-02  Answer C. Each activity is a ranked package.
+A is wrong. That is incremental budgeting.
+B is wrong. Used for product costs.
+D is wrong. A strategy tool.
+P305-03  Answer D. Ranking sets the order of funding.
+A is wrong. Requests are not approvals.
+B is wrong. Last year is not the base.
+C is wrong. Existing activities are reviewed too.
+P305-04  Answer A. Justifying everything is costly.
+B is wrong. That is a benefit.
+C is wrong. That is a benefit.
+D is wrong. That is a benefit.
+P305-05  Answer D. It always covers the same period ahead.
+A is wrong. It ages quickly.
+B is wrong. Not one project.
+C is wrong. It questions costs, not timing.
+P305-06  Answer A. Costs are compared at the actual activity level.
+B is wrong. Not one project.
+C is wrong. Ignores activity changes.
+D is wrong. Fixed at one level.
+P305-07  Answer A. Contribution margin − fixed costs.
+B is wrong. Fixed costs are not deducted.
+C is wrong. This is sales less fixed costs.
+D is wrong. This is sales.
+P305-08  Answer C. Q2 revised + Q3 + Q4 + new Q1.
+A is wrong. This is the old budget.
+B is wrong. The Q2 revision is left out.
+D is wrong. The finished quarter is kept.
+P305-09  Answer B. Approved amounts only.
+A is wrong. This is the amount cut.
+C is wrong. This mixes requested and approved amounts.
+D is wrong. This is the requested total.
+P305-10  Answer C. Higher cost lowers the margin on every case.
+A is wrong. The sign is wrong.
+B is wrong. The multiplication is wrong.
+D is wrong. Variable costs change the margin.
+P305-11  Answer A. Fixed costs stay the same within the range.
+B is wrong. Revenue ignores variable costs.
+C is wrong. Fixed costs do not change.
+D is wrong. Cash timing differs.
+P305-12  Answer D. 7,200,000 − 7,380,000.
+A is wrong. This counts only the extra cases at the old margin.
+B is wrong. This counts only the extra cases.
+C is wrong. This ignores the extra cases.
+P305-13  Answer A. Moving targets make evaluation hard.
+B is wrong. They are allowed.
+C is wrong. It changes every period.
+D is wrong. Not the reason.
+P305-14  Answer C. The formula works at any volume.
+A is wrong. That is incremental.
+B is wrong. The static budget has one volume.
+D is wrong. Costs need their own formula.
+P305-15  Answer B. One project over its own life.
+A is wrong. Suits volume-driven costs.
+C is wrong. Suits discretionary costs.
+D is wrong. Suits sales planning.
+P305-16  Answer C. Fixed costs do not change with volume.
+A is wrong. Fixed costs remain.
+B is wrong. Fixed costs are flexed with volume.
+D is wrong. Fixed costs are raised.
+Case question: the Tahini & Spreads flexible budget
+C305-1
+Need
+Category
+Justify head-office charges that have grown for years
+Zero-based budget
+Keep sales plans a year ahead in a fast-changing market
+Rolling budget
+Judge costs fairly when volume differs from the plan
+Flexible budget
+Review whether each support activity is still needed
+Zero-based budget
+Choose the budget system that best meets each need.
+C305-2  Answer: 385,000.
+437,500 is wrong: this answer uses the static-budget volume.
+C305-3  Answer: 220,000.
+385,000 is wrong: this answer enters sales instead of variable costs.
+C305-4  Answer: 45,000.
+67,500 is wrong: this answer gives the static-budget operating income.
+C305-5  Answer: 15,000.
+35,000 is wrong: this answer uses revenue instead of contribution margin.
+C305-6  Answer: the flexible budget for the jars actually sold.
+the static budget is wrong: this answer volume changed, so the static budget is not a fair basis.
+last month's actual costs is wrong: this answer last month is not a budget.
+the zero-based head-office budget is wrong: this answer it covers different costs.
+C305-7  Answer: static.
+flexible is wrong: this answer a flexible budget works at any level.
+rolling is wrong: this answer a rolling budget moves forward in time.
+project is wrong: this answer a project budget covers one project.
+PART II
+The master budget
+Chapters 6 to 10
+PART II — THE MASTER BUDGET

@@ -1,0 +1,786 @@
+Chapter 7
+Direct Materials, Direct Labor and Overhead Budgets
+موازنات المواد المباشرة والعمل المباشر والتكاليف الصناعية غير المباشرة
+The production budget of Chapter 6 says how many cases Beverages will fill each quarter. It does not yet say how much concentrate to order, how many hours the operators will work, or what the plant will cost to run. This chapter answers those questions with three budgets built on the Book 2 standard cost card.
+Figure F307-01 names them: materials, labor and overhead.
+Figure F307-01. Chapter 7 roadmap: materials, labor and overhead.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.5.g
+demonstrate an understanding of the relationship between the direct materials budget, the direct labor budget, and the production budget
+Explain how the direct materials budget, the direct labor budget and the production budget are linked.
+Full treatment
+B.5.h
+explain how inventory levels and procurement policies affect the direct materials budget
+Explain how inventory levels and procurement policies affect the direct materials budget.
+Full treatment
+B.5.i
+prepare a direct materials budget and a direct labor budget based on relevant information and evaluate the feasibility of achieving production goals on the basis of these budgets
+Prepare direct materials and direct labor budgets, and judge whether the production plan can be achieved.
+Full treatment + Extended Example
+B.5.j
+demonstrate an understanding of the relationship between the overhead budget and the production budget
+Explain how the overhead budget and the production budget are linked.
+Full treatment
+B.5.l
+prepare an overhead budget
+Prepare an overhead budget.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+direct materials budget
+موازنة المواد المباشرة
+budget des matières directes
+direct labor budget
+موازنة العمل المباشر
+budget de la main-d'œuvre directe
+overhead budget
+موازنة التكاليف الصناعية غير المباشرة
+budget des frais généraux de production
+procurement policy
+سياسة الشراء
+politique d'approvisionnement
+feasibility
+إمكانية التنفيذ
+faisabilité
+WHAT YOU ALREADY KNOW   What you already know
+Book 2, Chapter 18 set the standard of 6.0 liters of concentrate, 12 bottles, 0.05 labor hours and 0.02 machine hours a case. Book 2, Chapter 17 moved bottle deliveries to just-in-time.
+7.1  From production to inputs
+Every input budget starts from the production budget, not the sales budget, because materials and labor are used when cases are filled, not when they are sold. Figure F307-02 shows the three budgets that follow from production.
+Figure F307-02. From the production budget to the input budgets.
+For each input, the budget multiplies the cases to produce by the quantity per case: liters of concentrate, labor hours and machine hours. Machine hours then drive the variable overhead, while fixed overhead is budgeted item by item.
+The link runs both ways. If an input budget shows a shortage of materials, labor or machine time, the production budget, and perhaps the sales budget, must be changed.
+SECTION CHECK   Test yourself
+SC307-1  The direct materials and direct labor budgets start from:
+A.	the production budget
+B.	the sales budget
+C.	the cash budget
+D.	last year's actual costs
+SC307-2  How does the overhead budget follow the production budget?
+A.	Fixed overhead rises with every case
+B.	Overhead does not depend on production at all
+C.	Overhead equals direct labor
+D.	Variable overhead follows the machine hours that production needs; fixed overhead does not
+Answers and explanations are at the end of the chapter.
+7.2  The direct materials budget
+The direct materials budget has two parts: the materials to use and the materials to buy. Purchases equal usage plus the desired ending stock minus the beginning stock, just like the production budget.
+WORKED EXAMPLE   Worked example: concentrate in the first quarter
+213,000 cases × 6.0 liters = 1,278,000 liters; + ending stock 136,800 − beginning stock 127,800 = 1,287,000 liters to buy, at $0.90 = $1,158,300. Figure F307-03 completes the year.
+Figure F307-03. Worked example: the concentrate budget for 2028
+Concentrate budget 2028
+Q1
+Q2
+Q3
+Q4
+Cases to produce
+213,000
+228,000
+237,000
+223,000
+× 6.0 liters = liters needed
+1,278,000
+1,368,000
+1,422,000
+1,338,000
++ Ending stock (10% of next quarter)
+136,800
+142,200
+133,800
+130,800
+= Total liters needed
+1,414,800
+1,510,200
+1,555,800
+1,468,800
+− Beginning stock
+127,800
+136,800
+142,200
+133,800
+= Liters to buy
+1,287,000
+1,373,400
+1,413,600
+1,335,000
+× $0.90 = cost of purchases
+1,158,300
+1,236,060
+1,272,240
+1,201,500
+YOUR TURN   Concentrate in the third and fourth quarters
+Complete the blank cells of Figure F307-04. The first quarter of 2029 is planned at 218,000 cases. Answers are at the end of the chapter.
+Figure F307-04. Your turn: concentrate in the third and fourth quarters (complete the blanks)
+Concentrate budget 2028
+Q1
+Q2
+Q3
+Q4
+Cases to produce
+213,000
+228,000
+237,000
+223,000
+× 6.0 liters = liters needed
+1,278,000
+1,368,000
+1,422,000
+1,338,000
++ Ending stock (10% of next quarter)
+136,800
+142,200
+________
+________
+= Total liters needed
+1,414,800
+1,510,200
+________
+________
+− Beginning stock
+127,800
+136,800
+142,200
+133,800
+= Liters to buy
+1,287,000
+1,373,400
+________
+________
+× $0.90 = cost of purchases
+1,158,300
+1,236,060
+________
+________
+The procurement policy decides how much stock to hold. Bottles, caps and cartons arrive just-in-time, so purchases equal usage, as Figure F307-05 shows. Concentrate travels further and is kept at 10% of the next quarter's needs.
+Figure F307-05. Bottles, caps and cartons bought just-in-time
+Just-in-time items
+Q1
+Q2
+Q3
+Q4
+Year
+Bottles used and bought
+2,556,000
+2,736,000
+2,844,000
+2,676,000
+10,812,000
+Bottle cost at $0.25
+639,000
+684,000
+711,000
+669,000
+2,703,000
+Caps and cartons at $0.60 a case
+127,800
+136,800
+142,200
+133,800
+540,600
+Figure F307-06 compares the policies. Holding stock protects production from late deliveries but ties up cash and space; just-in-time saves both but needs a reliable supplier.
+Figure F307-06. Procurement policies and their effect on the materials budget
+Material
+Procurement policy (B.5.h)
+Effect on the materials budget
+Concentrate
+Keep 10% of next quarter's needs
+Purchases differ from usage by the change in stock
+Bottles (Jordan Glass)
+Just-in-time daily deliveries (Book 2, Chapter 17)
+Purchases = usage; almost no stock
+Caps and cartons
+Just-in-time
+Purchases = usage
+Any item with a minimum order
+Buy in fixed lots
+Purchases rounded up; stock rises
+EXAM TRAP   Usage is not purchases
+An answer that sets purchases equal to usage ignores the change in materials stock. It is right only for items bought just-in-time.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct materials budget
+موازنة المواد المباشرة
+budget des matières directes
+procurement policy
+سياسة الشراء
+politique d'approvisionnement
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+English (exam term)
+العربية
+Français
+direct materials budget
+موازنة المواد المباشرة
+budget des matières directes
+procurement policy
+سياسة الشراء
+politique d'approvisionnement
+just-in-time (JIT)
+التوقيت المحدد (الإنتاج في الوقت المحدد)
+juste-à-temps
+SECTION CHECK   Test yourself
+SC307-3  Bottles arrive daily just-in-time. In the materials budget, bottle purchases are:
+A.	higher than usage by a safety stock
+B.	equal to sales
+C.	equal to usage
+D.	zero
+SC307-4  Liters needed are 1,278,000; desired ending stock 136,800; beginning stock 127,800. How many liters should be bought?
+A.	213,000
+B.	1,269,000
+C.	1,278,000
+D.	1,287,000
+Answers and explanations are at the end of the chapter.
+7.3  The direct labor budget
+The direct labor budget multiplies the cases to produce by the standard hours per case, then by the wage rate. Figure F307-07 gives 45,050 hours and $540,600 for the year.
+Figure F307-07. Worked example: the direct labor budget for 2028
+Direct labor budget 2028
+Q1
+Q2
+Q3
+Q4
+Year
+Cases to produce
+213,000
+228,000
+237,000
+223,000
+901,000
+× 0.05 hours = hours needed
+10,650
+11,400
+11,850
+11,150
+45,050
+× $12.00 = labor cost
+127,800
+136,800
+142,200
+133,800
+540,600
+Hours available
+12,000
+12,000
+12,000
+12,000
+48,000
+Share of hours used
+88.8%
+95.0%
+98.8%
+92.9%
+The budget must also be feasible. With 25 operators working 480 hours a quarter, 12,000 hours are available. Figure F307-08 shows that the third quarter uses 98.8% of them, leaving no room for sickness or training.
+Figure F307-08. Labor hours needed against hours available.
+The division therefore plans to hire two temporary operators for the summer. Checking feasibility in this way is part of preparing the budget, not a separate task.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct labor budget
+موازنة العمل المباشر
+budget de la main-d'œuvre directe
+feasibility
+إمكانية التنفيذ
+faisabilité
+English (exam term)
+العربية
+Français
+direct labor budget
+موازنة العمل المباشر
+budget de la main-d'œuvre directe
+feasibility
+إمكانية التنفيذ
+faisabilité
+SECTION CHECK   Test yourself
+SC307-5  Production needs 10,650 labor hours at $12.00 an hour. What is the labor budget?
+A.	$10,650
+B.	$106,500
+C.	$127,800
+D.	$2,556,000
+SC307-6  The labor budget needs 11,850 hours in a quarter; 12,000 are available. What should the controller conclude?
+A.	The plan is impossible
+B.	No action is needed because hours are available
+C.	Production should be cut by half
+D.	The plan is feasible but has almost no margin, so extra staff should be planned
+Answers and explanations are at the end of the chapter.
+7.4  The overhead budget
+The overhead budget has a variable part and a fixed part. Variable overhead moves with its driver, machine hours, at $50.00 an hour; fixed overhead is budgeted item by item and does not change with production.
+Figure F307-09 lists the items. The variable rate is the sum of four items; the fixed overhead of $450,000 a quarter includes depreciation, which uses no cash and will be left out of the cash budget in Chapter 9.
+Figure F307-09. Overhead items and rates
+Overhead item
+Rate per machine hour
+Year 2028 (USD)
+Indirect materials
+$15.00
+270,300
+Power and water
+$20.00
+360,400
+Maintenance (variable part)
+$10.00
+180,200
+Cleaning supplies
+$5.00
+90,100
+Variable overhead
+$50.00
+901,000
+Supervision
+fixed
+720,000
+Depreciation (non-cash)
+fixed
+600,000
+Insurance and property tax
+fixed
+240,000
+Maintenance contract
+fixed
+240,000
+Fixed overhead
+fixed
+1,800,000
+WORKED EXAMPLE   Worked example: the quarterly overhead budget
+First quarter: 213,000 cases × 0.02 = 4,260 machine hours × $50.00 = $213,000 variable, plus $450,000 fixed = $663,000. Figure F307-10 shows every quarter.
+Figure F307-10. Worked example: the overhead budget for 2028
+Overhead budget 2028
+Q1
+Q2
+Q3
+Q4
+Year
+Cases to produce
+213,000
+228,000
+237,000
+223,000
+901,000
+Machine hours (× 0.02)
+4,260
+4,560
+4,740
+4,460
+18,020
+Variable overhead (× $50.00)
+213,000
+228,000
+237,000
+223,000
+901,000
+Fixed overhead
+450,000
+450,000
+450,000
+450,000
+1,800,000
+Total overhead
+663,000
+678,000
+687,000
+673,000
+2,701,000
+EXAM TRAP   Fixed overhead does not follow volume
+Budgeting fixed overhead as an amount per case makes it rise and fall with production. In the overhead budget, fixed overhead is the same each quarter; only variable overhead follows the driver.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+overhead budget
+موازنة التكاليف الصناعية غير المباشرة
+budget des frais généraux de production
+English (exam term)
+العربية
+Français
+overhead budget
+موازنة التكاليف الصناعية غير المباشرة
+budget des frais généraux de production
+SECTION CHECK   Test yourself
+SC307-7  A quarter needs 4,260 machine hours. Variable overhead is $50 an hour and fixed overhead $450,000 a quarter. What is total overhead?
+A.	$213,000
+B.	$426,000
+C.	$450,000
+D.	$663,000
+SC307-8  The driver of variable overhead in the Beverages plant is:
+A.	cases sold
+B.	machine hours
+C.	the number of managers
+D.	the selling price
+Answers and explanations are at the end of the chapter.
+7.5  Extended Example 7A: the manufacturing cost budget and the summer test
+This example brings the three budgets together and tests the busiest quarter. It is exam-core.
+1. The cost of production
+Figure F307-11 adds up the manufacturing cost budget for the year: $11,350,600. It uses the concentrate used, not purchased, because stock bought but not used is still an asset.
+Figure F307-11. Extended Example: the manufacturing cost budget for 2028
+Beverages 2028 (USD)
+Amount
+Concentrate used
+4,865,400
+Bottles
+2,703,000
+Caps and cartons
+540,600
+Direct labor
+540,600
+Variable overhead
+901,000
+Fixed overhead
+1,800,000
+Budgeted manufacturing cost
+11,350,600
+Check: 901,000 cases × $12.60
+11,352,600
+Difference: fixed overhead applied above budget
+2,000
+2. The check against the standard card
+At standard, 901,000 cases × $12.60 = $11,352,600. The budget is $2,000 lower because fixed overhead is a fixed amount, while the card spreads it over a normal volume of 900,000 cases.
+3. Can the third quarter be done?
+Figure F307-12 checks every constraint for the summer quarter: machine hours, labor hours, concentrate and storage.
+Figure F307-12. Extended Example: can the third quarter be done?
+Third quarter 2028
+Needed of available
+Result
+Machine hours
+4,740 of 4,800
+98.8%
+Labor hours
+11,850 of 12,000
+98.8%
+Concentrate to buy
+1,413,600 liters
+within the supplier contract
+Finished-goods storage
+48,000 of 50,000 cases (end of Q2)
+at the limit
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Concentrate purchases 5,409,000 liters = usage 5,406,000 + ending 130,800 − beginning 127,800.
+$11,352,600 − $2,000 = $11,350,600.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+direct materials budget
+موازنة المواد المباشرة
+budget des matières directes
+direct labor budget
+موازنة العمل المباشر
+budget de la main-d'œuvre directe
+overhead budget
+موازنة التكاليف الصناعية غير المباشرة
+budget des frais généraux de production
+English (exam term)
+العربية
+Français
+direct materials budget
+موازنة المواد المباشرة
+budget des matières directes
+direct labor budget
+موازنة العمل المباشر
+budget de la main-d'œuvre directe
+overhead budget
+موازنة التكاليف الصناعية غير المباشرة
+budget des frais généraux de production
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect a production budget and a materials policy. Compute usage, purchases in units and dollars, labor hours and cost, and overhead by variable and fixed parts. Then compare the hours or materials with what is available.
+7. Self-check
+SECTION CHECK   Test yourself
+SC307-9  Use the Extended Example. What is the budgeted manufacturing cost for the year?
+A.	$4,868,100
+B.	$11,350,600
+C.	$11,352,600
+D.	$18,000,000
+SC307-10  Use the Extended Example. Why is the budgeted manufacturing cost $2,000 below cases × $12.60?
+A.	Fixed overhead is a fixed amount, while the card spreads it over a normal volume
+B.	Concentrate is cheaper
+C.	Labor is cheaper
+D.	Bottles are bought just-in-time
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F307-13 brings the chapter together.
+Figure F307-13. Chapter 7 summary map: the key rule for each section.
+The direct materials, direct labor and overhead budgets all start from the production budget. Materials purchases equal usage plus desired ending stock minus beginning stock, and the procurement policy decides the stock; just-in-time items are bought as used. Labor hours equal production times standard hours, and must be checked against the hours available. Variable overhead follows its driver, fixed overhead is budgeted by item, and non-cash items such as depreciation are marked for the cash budget.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P307-01  Why does the materials budget follow production rather than sales?
+A.	Materials are paid for when units are sold
+B.	Sales are always higher
+C.	Materials are used when units are made
+D.	It is a legal rule
+P307-02  The materials budget shows the supplier cannot deliver enough concentrate in the third quarter. What should happen?
+A.	Nothing, the budget is final
+B.	Change the production budget, and perhaps the sales budget
+C.	Raise the selling price only
+D.	Cut the labor rate
+P307-03  Holding a materials stock mainly protects the company against:
+A.	higher selling prices
+B.	lower tax
+C.	late deliveries and supply problems
+D.	fewer customers
+P307-04  A supplier sells only in lots of 50,000 liters. How does this affect the materials budget?
+A.	Purchases equal usage exactly
+B.	No materials are bought
+C.	Usage falls
+D.	Purchases are rounded up to whole lots, so stock rises
+P307-05  Production is 228,000 cases, each needing 6 liters of concentrate. How many liters are needed for production?
+A.	228,000
+B.	1,350,000
+C.	1,368,000
+D.	2,736,000
+P307-06  Purchases are 1,373,400 liters at $0.90. What is the cost of purchases?
+A.	$1,231,200
+B.	$1,236,060
+C.	$1,359,666
+D.	$1,373,400
+P307-07  Production is 237,000 cases at 0.05 labor hours a case. How many hours are needed?
+A.	11,850
+B.	12,000
+C.	14,220
+D.	23,700
+P307-08  Evaluating feasibility in the labor budget means:
+A.	comparing labor cost with sales
+B.	checking the wage law only
+C.	comparing hours needed with hours available
+D.	counting managers
+P307-09  If production rises by 10%, what happens to the overhead budget?
+A.	Total overhead rises by 10%
+B.	Variable overhead rises by about 10%; fixed overhead stays the same
+C.	Fixed overhead rises by 10%
+D.	Nothing changes
+P307-10  Which item is a fixed manufacturing overhead cost?
+A.	Power used by the filling machines
+B.	Cleaning supplies
+C.	Indirect materials
+D.	Depreciation of the plant
+P307-11  A quarter needs 4,560 machine hours; variable overhead is $50 an hour. What is variable overhead?
+A.	$4,560
+B.	$228,000
+C.	$456,000
+D.	$11,400,000
+P307-12  Fixed overhead is $450,000 a quarter, including depreciation of $150,000. What is the fixed overhead budget for the year?
+A.	$450,000
+B.	$600,000
+C.	$1,800,000
+D.	$1,802,000
+P307-13  Why should the overhead budget show depreciation separately?
+A.	Because it is a variable cost
+B.	Because it is not a manufacturing cost
+C.	Because it changes every month
+D.	Because it will be left out of the cash budget
+P307-14  Production is 213,000 cases, each using 12 bottles bought just-in-time. How many bottles are bought?
+A.	213,000
+B.	2,520,000
+C.	2,556,000
+D.	2,811,600
+P307-15  Next quarter needs 1,422,000 liters. The policy is to hold 10% of next quarter's needs. What is this quarter's desired ending stock?
+A.	14,220
+B.	23,700
+C.	136,800
+D.	142,200
+P307-16  Where do the quantities per case in the input budgets come from?
+A.	The standard cost card
+B.	The sales forecast
+C.	The auditor's report
+D.	The cash budget
+Case question: sesame and labor for the tahini jars
+The Tahini & Spreads division has finished its production budget for 2028. Each 500 g jar needs sesame paste and a few minutes on the filling line, at the standard quantities set in Book 2. The sesame comes by sea from Sudan and Ethiopia, so deliveries can be late, and the division keeps a stock of sesame equal to a share of the next quarter's needs. Last year one ship arrived three weeks late, and the division came close to stopping the filling line.
+The filling team works a fixed number of hours each quarter. In the second quarter several operators will be on annual leave, so fewer hours are available than usual. The plant manager, Samir, wants to know whether the second-quarter plan can be met with the team he has.
+The controller, Rana, must prepare the sesame purchases budget and the labor budget for the second quarter, test the labor plan against the hours available, and explain the purchasing policy to the new buyer, who suggested buying sesame just-in-time like the bottles in the Beverages division. Rana plans to show her figures to Samir and the buyer together, so that both understand the trade-off between stock and risk.
+Use Figure F307-14 for items C307-1 to C307-7.
+How to enter answers: Enter quantities and amounts as whole numbers, without the $ sign or commas (for example, 125000).
+Figure F307-14. Case exhibit: Tahini & Spreads production, sesame and labor data
+Tahini & Spreads, 2028
+Data
+Jars to produce: second quarter
+382,000
+Jars to produce: third quarter
+396,000
+Sesame paste per jar
+0.50 kg
+Price of sesame paste
+$2.50 a kg
+Ending sesame stock
+20% of next quarter's needs
+Labor per jar
+0.012 hours
+Labor rate
+$15.00 an hour
+Labor hours available in the second quarter
+4,500
+C307-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Direct materials budget · Direct labor budget · Overhead budget
+Item
+Category
+Kilograms of sesame to buy
+Hours of the filling team
+Power for the filling line
+Ending stock of sesame
+Depreciation of the tahini plant
+C307-2  Enter the kilograms of sesame to buy in the second quarter.
+Answer: ____________
+C307-3  Enter the cost of sesame purchases in the second quarter.
+Answer: ____________
+C307-4  Enter the labor hours needed in the second quarter.
+Answer: ____________
+C307-5  Enter the number of hours by which the second-quarter labor need exceeds the hours available.
+Answer: ____________
+C307-6  The best response to the labor shortfall is to: [select]
+Options: plan overtime or temporary staff for the second quarter   |   ignore it because it is small   |   cut production by half   |   lower the wage rate
+C307-7  Because sesame deliveries by sea can be late, buying it ____ like the bottles would expose production to shortages.
+Choose the word or phrase for the blank: just-in-time   |   in advance   |   in bulk   |   on credit
+Answers and explanations
+Section checks
+SC307-1  Answer A. Inputs are used when units are produced.
+B is wrong. Sales timing differs from production.
+C is wrong. Cash comes later.
+D is wrong. Not a plan for this year.
+SC307-2  Answer D. Only the variable part follows the driver.
+A is wrong. Fixed overhead does not follow volume.
+B is wrong. The variable part does.
+C is wrong. They are separate budgets.
+SC307-3  Answer C. No stock is held.
+A is wrong. No stock policy applies to JIT items.
+B is wrong. Usage follows production.
+D is wrong. Bottles are still bought.
+SC307-4  Answer D. Usage + ending − beginning.
+A is wrong. This is cases, not liters.
+B is wrong. The signs are reversed.
+C is wrong. Usage only.
+SC307-5  Answer C. Hours × rate.
+A is wrong. Hours only.
+B is wrong. This uses $10 an hour.
+D is wrong. This multiplies cases, not hours.
+SC307-6  Answer D. 98.8% use leaves no room for sickness or training.
+A is wrong. The hours fit, just.
+B is wrong. The margin is too thin to ignore.
+C is wrong. Far too drastic.
+SC307-7  Answer D. Variable + fixed.
+A is wrong. Variable overhead only.
+B is wrong. This uses $100 an hour and no fixed overhead.
+C is wrong. Fixed overhead only.
+SC307-8  Answer B. Machines use power, supplies and maintenance.
+A is wrong. Sales do not drive plant costs.
+C is wrong. A fixed cost.
+D is wrong. Unrelated.
+SC307-9  Answer B. The sum of materials used, labor and overhead.
+A is wrong. This is concentrate purchases only.
+C is wrong. This spreads fixed overhead per case at standard.
+D is wrong. This is sales revenue.
+SC307-10  Answer A. Production is slightly above the normal volume.
+B is wrong. The price is the standard.
+C is wrong. The rate is the standard.
+D is wrong. JIT does not change the cost.
+Your turn
+Item
+Answer
+Q3
+1,422,000 + 133,800 = 1,555,800; − 142,200 = 1,413,600 liters; × $0.90 = $1,272,240
+Q4
+1,338,000 + 130,800 (10% of 1,308,000) = 1,468,800; − 133,800 = 1,335,000 liters; × $0.90 = $1,201,500
+Multiple-choice questions
+P307-01  Answer C. Usage happens at production.
+A is wrong. Payment timing is separate.
+B is wrong. Not the reason.
+D is wrong. Not a legal rule.
+P307-02  Answer B. Input limits feed back into production.
+A is wrong. An infeasible plan must change.
+C is wrong. Does not solve the shortage.
+D is wrong. Unrelated.
+P307-03  Answer C. Stock is a buffer for supply.
+A is wrong. Unrelated.
+B is wrong. Unrelated.
+D is wrong. Unrelated.
+P307-04  Answer D. Lot sizes force extra stock.
+A is wrong. Lots rarely match usage.
+B is wrong. Materials are still bought.
+C is wrong. Usage follows production.
+P307-05  Answer C. Cases × liters per case.
+A is wrong. This is cases, not liters.
+B is wrong. This uses sales of 225,000 cases.
+D is wrong. This uses 12 liters a case.
+P307-06  Answer B. Liters bought × price.
+A is wrong. This uses the liters used, not bought.
+C is wrong. This uses $0.99.
+D is wrong. This is liters, not dollars.
+P307-07  Answer A. Cases × hours per case.
+B is wrong. This is the hours available.
+C is wrong. This uses 0.06 hours.
+D is wrong. This uses 0.10 hours.
+P307-08  Answer C. The plan must be achievable.
+A is wrong. Not a feasibility test.
+B is wrong. Too narrow.
+D is wrong. Unrelated.
+P307-09  Answer B. Only the variable part follows production.
+A is wrong. Fixed overhead does not rise.
+C is wrong. Fixed overhead does not follow volume.
+D is wrong. Variable overhead rises.
+P307-10  Answer D. It does not change with production.
+A is wrong. Variable with machine hours.
+B is wrong. Variable.
+C is wrong. Variable.
+P307-11  Answer B. Machine hours × rate.
+A is wrong. Machine hours only.
+C is wrong. This uses $100 an hour.
+D is wrong. This multiplies cases by $50.
+P307-12  Answer C. Four quarters of $450,000.
+A is wrong. One quarter only.
+B is wrong. This is depreciation for the year.
+D is wrong. This is fixed overhead applied, not budgeted.
+P307-13  Answer D. Depreciation uses no cash.
+A is wrong. It is fixed.
+B is wrong. It is a manufacturing cost.
+C is wrong. It is steady.
+P307-14  Answer C. JIT: purchases = usage.
+A is wrong. This is cases.
+B is wrong. This uses sales of 210,000 cases.
+D is wrong. This adds a stock that JIT does not hold.
+P307-15  Answer D. 10% of next quarter's needs.
+A is wrong. This uses 1%.
+B is wrong. This uses cases, not liters.
+C is wrong. This uses this quarter's needs.
+P307-16  Answer A. Standards give the quantity of each input.
+B is wrong. It gives units, not inputs per unit.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+Case question: sesame and labor for the tahini jars
+C307-1
+Item
+Category
+Kilograms of sesame to buy
+Direct materials budget
+Hours of the filling team
+Direct labor budget
+Power for the filling line
+Overhead budget
+Ending stock of sesame
+Direct materials budget
+Depreciation of the tahini plant
+Overhead budget
+Classify each item by the budget in which it first appears.
+C307-2  Answer: 192,400.
+191,000 is wrong: this answer sets purchases equal to usage.
+189,600 is wrong: this answer reverses the signs of the stocks.
+C307-3  Answer: 481,000.
+477,500 is wrong: this answer costs the kilograms used instead of bought.
+C307-4  Answer: 4,584.
+4,560 is wrong: this answer uses jars sold instead of jars produced.
+C307-5  Answer: 84.
+4,584 is wrong: this answer gives the hours needed instead of the shortfall.
+C307-6  Answer: plan overtime or temporary staff for the second quarter.
+ignore it because it is small is wrong: this answer an infeasible plan must be fixed.
+cut production by half is wrong: this answer far more than the shortfall needs.
+lower the wage rate is wrong: this answer does not add hours.
+C307-7  Answer: just-in-time.
+in advance is wrong: this answer buying in advance is what the stock policy does.
+in bulk is wrong: this answer bulk buying adds stock, not risk.
+on credit is wrong: this answer payment terms do not affect supply risk.
+PART II — THE MASTER BUDGET

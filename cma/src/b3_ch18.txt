@@ -1,0 +1,827 @@
+Chapter 18
+Critical Success Factors, KPIs and the Balanced Scorecard
+عوامل النجاح الحاسمة ومؤشرات الأداء وبطاقة الأداء المتوازن
+Book 3 began with a strategy and a five-year plan. It then built a budget, measured the results against it, and asked who should answer for each number. This last chapter closes the circle. It shows how a company turns its strategy into a small set of measures, and how it reads them together instead of one at a time.
+Figure F318-01 shows the path from strategy to scorecard.
+Figure F318-01. Chapter 18 roadmap: strategy, CSFs and KPIs, scorecard.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.3.l
+define critical success factors (CSFs) and KPIs and discuss the importance of these measures in evaluating an organization
+Define critical success factors and key performance indicators, and explain why they matter.
+Full treatment
+C.3.m
+define the concept of a balanced scorecard and identify its components
+Define the balanced scorecard and identify its components.
+Full treatment
+C.3.n
+identify and describe the perspectives of a balanced scorecard, including financial, customer, internal process, and learning and growth
+Describe the four perspectives of a balanced scorecard.
+Full treatment
+C.3.o
+identify and describe the characteristics of an effective balanced scorecard
+Describe the characteristics of an effective balanced scorecard.
+Full treatment
+C.3.p
+demonstrate an understanding of a strategy map and the role it plays
+Explain a strategy map and the role it plays.
+Full treatment
+C.3.q
+analyze and interpret a balanced scorecard and evaluate performance based on the analysis
+Analyse and interpret a balanced scorecard and evaluate performance from it.
+Full treatment + Extended Example
+C.3.r
+recommend performance measures and a periodic reporting methodology given operational goals and actual results
+Recommend performance measures and a reporting schedule for given goals and results.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+critical success factor (CSF)
+عامل النجاح الحاسم
+facteur clé de succès
+key performance indicator (KPI)
+مؤشر الأداء الرئيسي
+indicateur clé de performance
+balanced scorecard
+بطاقة الأداء المتوازن
+tableau de bord prospectif
+financial perspective
+المنظور المالي
+axe financier
+customer perspective
+منظور العملاء
+axe client
+internal process perspective
+منظور العمليات الداخلية
+axe processus internes
+learning and growth perspective
+منظور التعلم والنمو
+axe apprentissage et croissance
+strategy map
+خريطة الاستراتيجية
+carte stratégique
+leading indicator
+مؤشر استباقي
+indicateur avancé
+lagging indicator
+مؤشر لاحق
+indicateur retardé
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 set the Orontes objectives for 2028 to 2032. Chapter 17 measured the financial result, and Chapters 11 to 14 explained the variances that lie behind it.
+18.1  Critical success factors and KPIs
+A critical success factor (CSF) is something an organization must do well if its strategy is to succeed. A key performance indicator (KPI) is the measure that shows how well it is being done. The CSF is the thing; the KPI is the number.
+Figure F318-02 lists the Orontes factors and the indicator chosen for each. Every one traces back to an objective set in Chapter 1.
+Figure F318-02. Critical success factors and the KPI for each
+Critical success factor
+KPI that measures it
+2028
+Win export customers in the Gulf
+Export share of revenue
+target 20.4%, actual 19.6%
+Deliver reliably
+On-time delivery
+target 97%, actual 94%
+Run the plant without long stoppages
+Changeover time
+target 30 minutes, actual 42
+Keep skilled operators
+Training hours and staff turnover
+turnover target 8%, actual 7%
+Earn the return the group requires
+Return on investment
+target 11.8%, actual 12.6%
+The pair matters because a measure without a factor behind it is noise, and a factor without a measure is a wish. Together they tell a manager what to work on and show whether the work is succeeding.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+critical success factor (CSF)
+عامل النجاح الحاسم
+facteur clé de succès
+key performance indicator (KPI)
+مؤشر الأداء الرئيسي
+indicateur clé de performance
+English (exam term)
+العربية
+Français
+critical success factor (CSF)
+عامل النجاح الحاسم
+facteur clé de succès
+key performance indicator (KPI)
+مؤشر الأداء الرئيسي
+indicateur clé de performance
+SECTION CHECK   Test yourself
+SC318-1  A critical success factor is:
+A.	something the organization must do well for its strategy to succeed
+B.	a number reported each month
+C.	a financial ratio
+D.	a budget target
+SC318-2  Orontes must deliver reliably to win Gulf customers. Which is the KPI?
+A.	Reliable delivery
+B.	On-time delivery percentage
+C.	Winning Gulf customers
+D.	The Gulf strategy
+Answers and explanations are at the end of the chapter.
+18.2  The balanced scorecard and its four perspectives
+A balanced scorecard is a set of measures drawn from four perspectives, each with its objectives, measures, targets and the actions planned to reach them. It is balanced because financial results alone describe only what has already happened.
+Each perspective carries the same four components: what the company wants to achieve, the measure that tracks it, the target for the period and the action planned to reach it.
+Figure F318-03 shows the four perspectives and the question each asks.
+Figure F318-03. The four perspectives of a balanced scorecard.
+WORKED EXAMPLE   Worked example: the Orontes scorecard for 2028
+Figure F318-04 gives all 12 measures with their targets and actual results. The financial perspective holds the return and growth measures, and the customer perspective covers exports, delivery and complaints. The internal process perspective covers the plant, and the learning and growth perspective covers people and new products.
+Figure F318-04. Worked example: the Orontes balanced scorecard for 2028
+Perspective
+Measure
+Target
+Actual
+Result
+Financial
+Return on investment
+11.8%
+12.6%
+met
+Revenue growth
+8.0%
+8.2%
+met
+Residual income (USD)
+1,500,000
+2,260,000
+met
+Customer
+Export share of revenue
+20.4%
+19.6%
+missed
+On-time delivery
+97%
+94%
+missed
+Complaints per 1,000 cases
+2.0
+1.6
+met
+Internal process
+Changeover time (minutes)
+30
+42
+missed
+Energy a case (kWh)
+0.48
+0.47
+met
+Scrap rate
+1.5%
+1.8%
+missed
+Learning and growth
+Training hours an employee
+14.4
+15.2
+met
+New products share of revenue
+7.8%
+5.1%
+missed
+Staff turnover
+8%
+7%
+met
+YOUR TURN   The last two perspectives
+Complete the blank cells of Figure F318-05. Answers are at the end of the chapter.
+Figure F318-05. Your turn: the last two perspectives (complete the blanks)
+Perspective
+Measure
+Target
+Actual
+Result
+Financial
+Return on investment
+11.8%
+12.6%
+met
+Revenue growth
+8.0%
+8.2%
+met
+Residual income (USD)
+1,500,000
+2,260,000
+met
+Customer
+Export share of revenue
+20.4%
+19.6%
+missed
+On-time delivery
+97%
+94%
+missed
+Complaints per 1,000 cases
+2.0
+1.6
+met
+Internal process
+Changeover time (minutes)
+30
+42
+________
+Energy a case (kWh)
+0.48
+0.47
+________
+Scrap rate
+1.5%
+1.8%
+________
+Learning and growth
+Training hours an employee
+14.4
+15.2
+________
+New products share of revenue
+7.8%
+5.1%
+________
+Staff turnover
+8%
+7%
+________
+EXAM TRAP   Balanced means four perspectives, not four financial ratios
+A scorecard with profit, margin, return and growth on it is not balanced; it measures the same thing four ways. Each perspective must bring information the others do not.
+The scorecard is not a report produced after the year. It is agreed with the plan, reviewed during the year, and used to decide what to do next, which is why Chapter 1 and this chapter belong together.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+balanced scorecard
+بطاقة الأداء المتوازن
+tableau de bord prospectif
+financial perspective
+المنظور المالي
+axe financier
+customer perspective
+منظور العملاء
+axe client
+internal process perspective
+منظور العمليات الداخلية
+axe processus internes
+learning and growth perspective
+منظور التعلم والنمو
+axe apprentissage et croissance
+English (exam term)
+العربية
+Français
+balanced scorecard
+بطاقة الأداء المتوازن
+tableau de bord prospectif
+financial perspective
+المنظور المالي
+axe financier
+customer perspective
+منظور العملاء
+axe client
+internal process perspective
+منظور العمليات الداخلية
+axe processus internes
+learning and growth perspective
+منظور التعلم والنمو
+axe apprentissage et croissance
+SECTION CHECK   Test yourself
+SC318-3  Which is NOT a component of a balanced scorecard?
+A.	Objectives
+B.	Measures and targets
+C.	The general ledger
+D.	Planned actions
+SC318-4  In which perspective does 'changeover time in minutes' belong?
+A.	Financial
+B.	Customer
+C.	Learning and growth
+D.	Internal process
+Answers and explanations are at the end of the chapter.
+18.3  What makes a scorecard effective
+A scorecard fails more often from its design than from its arithmetic. Figure F318-06 sets out the characteristics of one that works.
+Figure F318-06. Characteristics of an effective balanced scorecard
+Characteristic (C.3.o)
+What it means
+At Orontes
+Few measures
+Four to six a perspective, not forty
+Orontes uses 12 in total
+Linked to strategy
+Every measure traces to a critical success factor
+Chapter 1 set the objectives
+Balanced
+Leading as well as lagging indicators
+Training and changeover time, not only return
+Owned
+Each measure has a manager who can influence it
+Changeover time belongs to the plant
+Measurable and timely
+Data available often enough to act on
+Delivery weekly, return quarterly
+Reviewed
+Measures change as the strategy changes
+Reviewed with the plan each year
+The commonest fault is too many measures. A board that reviews forty numbers reviews none of them, and managers whose bonus depends on a long list will work on whichever is easiest to move.
+The second commonest is a measure nobody owns. Every measure on the Orontes scorecard has a manager who can influence it, which is the controllability principle of Chapter 15 applied to non-financial numbers.
+SECTION CHECK   Test yourself
+SC318-5  A company's scorecard has forty measures and no named owners. What is the main weakness?
+A.	Too many measures, and nobody accountable for any of them
+B.	Too few perspectives
+C.	The targets are too high
+D.	It has no financial measures
+SC318-6  An effective scorecard mixes:
+A.	only lagging indicators
+B.	leading and lagging indicators
+C.	only financial measures
+D.	measures from one perspective
+Answers and explanations are at the end of the chapter.
+18.4  The strategy map
+A strategy map draws the cause-and-effect links between the objectives in the four perspectives. It is read upward: investment in people improves processes, better processes satisfy customers, and satisfied customers produce the financial result.
+Figure F318-07. A strategy map from training to return on investment.
+Figure F318-07 traces one chain at Orontes, from training hours through changeover time and on-time delivery to export share and the return. This is the chain the variances of Chapters 12 and 14 revealed: the long changeover that raised costs also delayed deliveries.
+The map explains why leading indicators matter. Training hours and changeover time move before the financial result does, so they give warning while there is still time to act. A lagging indicator such as return on investment reports a year that is already over.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+strategy map
+خريطة الاستراتيجية
+carte stratégique
+leading indicator
+مؤشر استباقي
+indicateur avancé
+lagging indicator
+مؤشر لاحق
+indicateur retardé
+English (exam term)
+العربية
+Français
+strategy map
+خريطة الاستراتيجية
+carte stratégique
+leading indicator
+مؤشر استباقي
+indicateur avancé
+lagging indicator
+مؤشر لاحق
+indicateur retardé
+SECTION CHECK   Test yourself
+SC318-7  A strategy map shows:
+A.	who reports to whom
+B.	the production process
+C.	the cause-and-effect links between objectives in the four perspectives
+D.	the company's markets
+SC318-8  In a strategy map, which perspective sits at the bottom of the chain?
+A.	Financial
+B.	Customer
+C.	Internal process
+D.	Learning and growth
+Answers and explanations are at the end of the chapter.
+18.5  Reading a scorecard and reporting it
+Figure F318-08 summarizes the year: 7 of the 12 measures met.
+Figure F318-08. The 2028 scorecard results by perspective.
+WORKED EXAMPLE   Worked example: what the 2028 scorecard says
+Every financial measure was met, and only two of the six customer and internal-process measures. Figure F318-09 reads each perspective in turn and reaches a conclusion the financial statements alone would hide.
+Figure F318-09. Worked example: reading the 2028 scorecard
+Perspective
+Result
+What it says
+The financial perspective
+3 of 3 met
+The year was good. These are lagging indicators
+The customer perspective
+1 of 3 met
+Export share and delivery both missed: the strategy of Chapter 1 is behind
+Internal process
+1 of 3 met
+Changeover time explains the variances of Chapters 12 and 14
+Learning and growth
+2 of 3 met
+Training is on track, but new products are not
+Overall
+7 of 12 met
+Good results now, weak drivers for next year
+The board's reading is that 2028 was a good year that is not building a good 2029. Export share and delivery both missed, and those are the drivers of the strategy set in Chapter 1.
+How often each measure is reported matters as much as the measure itself. Figure F318-10 gives the schedule: changeover time daily, because it can be fixed tomorrow; return on investment quarterly, because it cannot.
+Figure F318-10. How often each measure is reported
+Measure
+Perspective
+Reported
+Return on investment
+Financial
+Quarterly
+Revenue growth
+Financial
+Monthly
+Residual income (USD)
+Financial
+Quarterly
+Export share of revenue
+Customer
+Monthly
+On-time delivery
+Customer
+Weekly
+Complaints per 1,000 cases
+Customer
+Monthly
+Changeover time (minutes)
+Internal process
+Daily
+Energy a case (kWh)
+Internal process
+Monthly
+Scrap rate
+Internal process
+Weekly
+Training hours an employee
+Learning and growth
+Quarterly
+New products share of revenue
+Learning and growth
+Quarterly
+Staff turnover
+Learning and growth
+Quarterly
+EXAM TRAP   Match the interval to the decision
+A measure should be reported as often as it can change and be acted on. Monthly reporting of a daily problem wastes a month; daily reporting of an annual measure wastes attention.
+SECTION CHECK   Test yourself
+SC318-9  A scorecard shows every financial measure met but most customer and process measures missed. What does this suggest?
+A.	An error in the figures
+B.	A good year that is not building a good next year
+C.	The scorecard is unbalanced
+D.	The targets were too low
+SC318-10  Which measure should be reported most often?
+A.	Changeover time in the plant
+B.	Return on investment
+C.	New products as a share of revenue
+D.	Staff turnover
+Answers and explanations are at the end of the chapter.
+18.6  Extended Example 18A: recommending measures for next year
+The board asks for a short list of measures to put right what 2028 missed, for use in 2029. This example builds it. It is exam-core.
+1. From goal to measure
+Figure F318-11 takes each operational goal, names the measure that fits it, says how often it will be reported and who owns it.
+Figure F318-11. Extended Example: recommended measures for next year
+Operational goal (C.3.r)
+Recommended measure
+Reported
+Owner
+Shorten changeovers
+Changeover time in minutes
+Daily
+Plant manager
+Improve delivery
+On-time delivery to Levant and the Gulf
+Weekly
+Levant manager
+Grow exports
+Export share of revenue
+Monthly
+Sales director
+Launch new products
+Share of revenue from products under three years old
+Quarterly
+Division managers
+2. Why these four
+Each follows directly from a measure that was missed, each has an owner who can influence it, and together they form one chain of the strategy map rather than four unrelated targets.
+3. Tie line
+WORKED EXAMPLE   Everything ties
+Residual income on the scorecard, $2,260,000, is the sum of the three divisions in Chapter 17.
+Company return on investment 12.6% beats the 11.8% objective set in Chapter 1.
+4. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+critical success factor (CSF)
+عامل النجاح الحاسم
+facteur clé de succès
+balanced scorecard
+بطاقة الأداء المتوازن
+tableau de bord prospectif
+strategy map
+خريطة الاستراتيجية
+carte stratégique
+English (exam term)
+العربية
+Français
+critical success factor (CSF)
+عامل النجاح الحاسم
+facteur clé de succès
+balanced scorecard
+بطاقة الأداء المتوازن
+tableau de bord prospectif
+strategy map
+خريطة الاستراتيجية
+carte stratégique
+5. How the exam asks it
+EXAM TRAP   Exam view
+Expect a list of measures to sort into perspectives, a scorecard to read, or a goal for which you must recommend a measure, an interval and an owner. Say what the pattern of results means, not just how many were met.
+6. Self-check
+SECTION CHECK   Test yourself
+SC318-11  Use the Extended Example. How many of the 12 measures were met?
+A.	3
+B.	5
+C.	7
+D.	12
+SC318-12  Use the Extended Example. Why do the four recommended measures form one chain?
+A.	They all belong to the financial perspective
+B.	They are reported at the same interval
+C.	They have the same owner
+D.	They follow the strategy map, from training through process to customer and return
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F318-12 brings the chapter, and Book 3, together.
+Figure F318-12. Chapter 18 summary map: the key rule for each section.
+A critical success factor is what an organization must do well; a key performance indicator measures it. A balanced scorecard sets objectives, measures, targets and actions across four perspectives: financial, customer, internal process, and learning and growth. An effective scorecard has few measures, each owned and each traceable to the strategy, and mixes leading with lagging indicators. A strategy map shows the cause-and-effect chain between them. Reading the scorecard means reading the pattern, and each measure should be reported as often as it can be acted on.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P318-01  Why should every KPI be tied to a critical success factor?
+A.	So that the measure tracks something the strategy actually needs
+B.	To make the report longer
+C.	Because GAAP requires it
+D.	To satisfy the auditor
+P318-02  The balanced scorecard is balanced because it:
+A.	balances debits and credits
+B.	uses four perspectives rather than financial results alone
+C.	gives equal weight to every division
+D.	balances the budget
+P318-03  In which perspective does 'training hours an employee' belong?
+A.	Financial
+B.	Customer
+C.	Learning and growth
+D.	Internal process
+P318-04  In which perspective does 'complaints per 1,000 cases' belong?
+A.	Financial
+B.	Internal process
+C.	Learning and growth
+D.	Customer
+P318-05  Which question does the internal process perspective ask?
+A.	How do we look to our owners?
+B.	What must we do well?
+C.	How do customers see us?
+D.	Can we keep improving?
+P318-06  A scorecard measure that no manager can influence should be:
+A.	replaced with one the manager can influence
+B.	kept, for information
+C.	given a higher target
+D.	reported daily
+P318-07  How many measures should a perspective normally carry?
+A.	One
+B.	At least twenty
+C.	As many as are available
+D.	About four to six
+P318-08  A strategy map at Orontes links training hours to:
+A.	the share price
+B.	the tax rate
+C.	changeover time, then delivery, then export share, then return
+D.	the transfer price
+P318-09  A leading indicator is one that:
+A.	reports a result that has already happened
+B.	is always financial
+C.	is reported annually
+D.	moves before the result it drives
+P318-10  Return on investment is which kind of indicator?
+A.	Lagging
+B.	Leading
+C.	Neither
+D.	Both
+P318-11  A division meets its cost targets but misses every customer measure. What should the board conclude?
+A.	Performance is satisfactory
+B.	The customer measures are wrong
+C.	Cost control may have come at the expense of service, which will show in later results
+D.	The division should be closed
+P318-12  The goal is to shorten machine changeovers. Which measure, interval and owner fit best?
+A.	Return on investment, quarterly, the board
+B.	Changeover time in minutes, daily, the plant manager
+C.	Revenue growth, monthly, the sales director
+D.	Staff turnover, annually, human resources
+P318-13  How often should a measure be reported?
+A.	Always monthly
+B.	Once a year
+C.	Whenever the manager asks
+D.	As often as it can change and be acted on
+P318-14  Which list shows the four perspectives in the usual order of a strategy map, from bottom to top?
+A.	Financial, customer, internal process, learning and growth
+B.	Customer, financial, learning and growth, internal process
+C.	Learning and growth, internal process, customer, financial
+D.	Internal process, learning and growth, financial, customer
+P318-15  Why can a scorecard reveal a problem that the income statement hides?
+A.	Because its non-financial measures move before the financial ones
+B.	Because it uses different accounting
+C.	Because it is audited
+D.	Because it is published
+P318-16  Which pairing of critical success factor and KPI is correct?
+A.	Keep skilled operators — return on investment
+B.	Win export customers — export share of revenue
+C.	Deliver reliably — training hours
+D.	Earn the required return — complaints per 1,000 cases
+Case question: the tahini scorecard
+The Tahini & Spreads division has been asked to grow, and head office wants its progress tracked on a balanced scorecard rather than on profit alone. The division manager, Samir, has agreed five measures for the quarter with the controller, Rania.
+The quarter has now closed. The division's segment margin came in below target, but the Gulf supermarket chain received a higher share of its orders in full than the division had promised, and every operator booked for training on the new line completed it.
+Two results worry Rania. The sesame yield from each kilogram of seed fell short of the standard, which raises the cost of every jar, and complaints from the Jordanian supermarkets were almost double the target.
+Rania must sort the five measures into the four perspectives of the scorecard, count how many were met, read the pattern for the board, and recommend one further measure for the next quarter with the interval at which it should be reported. Head office has made clear that it will judge the division on the whole scorecard, not on the margin alone, and that the measures will be reviewed again at the end of the year.
+Use Figure F318-13 for items C318-1 to C318-7.
+How to enter answers: Enter whole numbers without units (for example, 3).
+Figure F318-13. Case exhibit: Tahini & Spreads quarterly measures
+Tahini & Spreads, one quarter
+Target
+Actual
+Segment margin
+840,000
+812,000
+Gulf chain orders delivered in full
+95%
+97%
+Sesame yield (kg of paste a kg of seed)
+0.62
+0.59
+Operators trained on the new line
+12
+12
+Complaints from supermarkets
+5
+9
+C318-1  Classify each measure. (On the exam screen you would drag each item into a box.)
+Categories: Financial · Customer · Internal process · Learning and growth
+Measure
+Category
+Segment margin
+Gulf chain orders delivered in full
+Sesame yield a kilogram of seed
+Operators trained on the new line
+Complaints from supermarkets
+C318-2  Enter the number of measures that were met.
+Answer: ____________
+C318-3  Enter the number of measures that were missed.
+Answer: ____________
+C318-4  Enter the number of measures in the customer perspective.
+Answer: ____________
+C318-5  Enter the total number of measures on the division's scorecard.
+Answer: ____________
+C318-6  Reading the pattern, Rania should tell the board that: [select]
+Options: the process and customer problems will reach the financial result if they are not fixed   |   the quarter was satisfactory because training was completed   |   the scorecard should be replaced by the segment margin alone   |   the complaints measure should be removed
+C318-7  A measure such as sesame yield, which moves before the financial result does, is a ____ indicator.
+Choose the word or phrase for the blank: leading   |   lagging   |   financial   |   residual
+Answers and explanations
+Section checks
+SC318-1  Answer A. It names the thing, not the measure.
+B is wrong. That describes a KPI.
+C is wrong. A ratio is a measure.
+D is wrong. A target is a level, not a factor.
+SC318-2  Answer B. The KPI is the number that tracks the factor.
+A is wrong. That is the critical success factor.
+C is wrong. That is the objective.
+D is wrong. That is the strategy.
+SC318-3  Answer C. The ledger is an accounting record.
+A is wrong. A component.
+B is wrong. A component.
+D is wrong. A component.
+SC318-4  Answer D. It measures how well the plant runs.
+A is wrong. It is not a financial result.
+B is wrong. Customers do not see it directly.
+C is wrong. It is not about people or systems.
+SC318-5  Answer A. Attention is divided and no one acts.
+B is wrong. The number of perspectives is not stated.
+C is wrong. Targets are not the issue.
+D is wrong. Not stated.
+SC318-6  Answer B. Drivers as well as outcomes.
+A is wrong. That reports only the past.
+C is wrong. That is not balanced.
+D is wrong. Four perspectives are needed.
+SC318-7  Answer C. It links the perspectives.
+A is wrong. That is an organization chart.
+B is wrong. That is a process flow.
+D is wrong. That is a market map.
+SC318-8  Answer D. People and systems drive everything above them.
+A is wrong. That is the end of the chain.
+B is wrong. It sits above internal process.
+C is wrong. It sits above learning and growth.
+SC318-9  Answer B. Lagging indicators are good, leading ones weak.
+A is wrong. Nothing suggests an error.
+C is wrong. It covers four perspectives.
+D is wrong. Not shown by the pattern.
+SC318-10  Answer A. It changes daily and can be acted on at once.
+B is wrong. It moves slowly.
+C is wrong. It changes over years.
+D is wrong. It changes slowly.
+SC318-11  Answer C. Seven met and five missed.
+A is wrong. This is the financial perspective alone.
+B is wrong. This is the number missed.
+D is wrong. This is the total.
+SC318-12  Answer D. Each drives the one above it.
+A is wrong. They span perspectives.
+B is wrong. The intervals differ.
+C is wrong. The owners differ.
+Your turn
+Item
+Answer
+Internal process
+Changeover time 42 against 30: missed; energy 0.47 against 0.48: met; scrap 1.8% against 1.5%: missed
+Learning and growth
+Training 15.2 against 14.4: met; new products 5.1% against 7.8%: missed; turnover 7% against 8%: met
+Multiple-choice questions
+P318-01  Answer A. A measure without a factor is noise.
+B is wrong. Length is not the aim.
+C is wrong. Internal measures are a choice.
+D is wrong. Auditors check statements.
+P318-02  Answer B. Financial results describe only the past.
+A is wrong. It is not bookkeeping.
+C is wrong. Not about divisions.
+D is wrong. Not a budget tool.
+P318-03  Answer C. It measures the capacity to improve.
+A is wrong. Not a financial result.
+B is wrong. Customers do not see it.
+D is wrong. It is about people, not processes.
+P318-04  Answer D. It reports how customers see the company.
+A is wrong. Not a money measure.
+B is wrong. It is the customer's experience, not the process.
+C is wrong. Not about people or systems.
+P318-05  Answer B. It covers the processes that matter.
+A is wrong. That is the financial perspective.
+C is wrong. That is the customer perspective.
+D is wrong. That is learning and growth.
+P318-06  Answer A. Measures must be controllable to drive action.
+B is wrong. It will be ignored.
+C is wrong. A target cannot create control.
+D is wrong. Frequency does not help.
+P318-07  Answer D. Few enough to review and act on.
+A is wrong. Too narrow to be useful.
+B is wrong. Attention is divided.
+C is wrong. Availability is not the test.
+P318-08  Answer C. Each step drives the next.
+A is wrong. Not on the map.
+B is wrong. Not a scorecard measure.
+D is wrong. An internal pricing matter.
+P318-09  Answer D. It gives warning in time to act.
+A is wrong. That is a lagging indicator.
+B is wrong. Most are non-financial.
+C is wrong. Frequency is a separate matter.
+P318-10  Answer A. It reports a period that is over.
+B is wrong. It does not give early warning.
+C is wrong. It is clearly an outcome measure.
+D is wrong. It reports results, not drivers.
+P318-11  Answer C. Read the pattern, not one perspective.
+A is wrong. Half the scorecard was missed.
+B is wrong. No evidence for that.
+D is wrong. Far beyond what the figures support.
+P318-12  Answer B. The measure, the interval and the owner all match the goal.
+A is wrong. Too slow and too broad.
+C is wrong. Unrelated to changeovers.
+D is wrong. Unrelated to changeovers.
+P318-13  Answer D. The interval follows the decision.
+A is wrong. Some measures change daily.
+B is wrong. Too slow for operating measures.
+C is wrong. A schedule is needed.
+P318-14  Answer C. Capability drives process, process drives customers, customers drive results.
+A is wrong. This is the reverse order.
+B is wrong. Not a cause-and-effect chain.
+D is wrong. Not a cause-and-effect chain.
+P318-15  Answer A. Leading indicators give early warning.
+B is wrong. The accounting is the same.
+C is wrong. Scorecards are internal.
+D is wrong. Scorecards are internal.
+P318-16  Answer B. The measure tracks the factor directly.
+A is wrong. Return does not measure retention.
+C is wrong. Training is a different factor.
+D is wrong. Complaints do not measure return.
+Case question: the tahini scorecard
+C318-1
+Measure
+Category
+Segment margin
+Financial
+Gulf chain orders delivered in full
+Customer
+Sesame yield a kilogram of seed
+Internal process
+Operators trained on the new line
+Learning and growth
+Complaints from supermarkets
+Customer
+Classify each measure by the scorecard perspective it belongs to.
+C318-2  Answer: 2.
+3 is wrong: this answer counts the measures that were missed.
+C318-3  Answer: 3.
+2 is wrong: this answer counts the measures that were met.
+C318-4  Answer: 2.
+1 is wrong: this answer counts the financial perspective.
+C318-5  Answer: 5.
+2 is wrong: this answer counts one perspective only.
+C318-6  Answer: the process and customer problems will reach the financial result if they are not fixed.
+the quarter was satisfactory because training was completed is wrong: this answer one met measure does not describe the quarter.
+the scorecard should be replaced by the segment margin alone is wrong: this answer that would hide the leading indicators.
+the complaints measure should be removed is wrong: this answer a missed target is a reason to act, not to stop measuring.
+C318-7  Answer: leading.
+lagging is wrong: this answer a lagging indicator reports a result already achieved.
+financial is wrong: this answer yield belongs to the internal process perspective.
+residual is wrong: this answer residual income is a financial measure.

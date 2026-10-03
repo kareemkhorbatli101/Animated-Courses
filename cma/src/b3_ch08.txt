@@ -1,0 +1,697 @@
+Chapter 8
+Cost of Goods Sold, Selling and Administrative Expenses and the Operating Budget
+تكلفة البضاعة المباعة والمصروفات البيعية والإدارية والموازنة التشغيلية
+Chapters 6 and 7 planned what Beverages will sell, make and spend in the plant. The board, however, wants one number first: how much operating income the division plans to earn in 2028. This chapter adds the last two cost budgets and brings everything together in the operating budget.
+Figure F308-01 shows the steps.
+Figure F308-01. Chapter 8 roadmap: cost of goods sold, selling and admin, operating budget.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.5.m
+identify the components of a cost of goods sold budget and prepare a cost of goods sold budget
+Identify the components of a cost of goods sold budget and prepare one.
+Full treatment
+B.5.o
+identify the components of a selling and administrative expense budget
+Identify the components of a selling and administrative expense budget.
+Full treatment
+B.5.p
+explain how specific components of the selling and administrative expense budget may affect the contribution margin
+Explain how components of the selling and administrative budget affect the contribution margin.
+Full treatment
+B.5.q
+prepare an operational (operating) budget
+Prepare an operating budget.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+cost of goods sold budget
+موازنة تكلفة البضاعة المباعة
+budget du coût des ventes
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+selling and administrative expense budget
+موازنة المصروفات البيعية والإدارية
+budget des frais de vente et d'administration
+operating budget (budgeted income statement)
+الموازنة التشغيلية (قائمة الدخل التقديرية)
+budget d'exploitation (compte de résultat prévisionnel)
+WHAT YOU ALREADY KNOW   What you already know
+Book 2, Chapter 9 compared absorption and variable costing. Chapter 5 of this book prepared a flexible budget in contribution format; Chapter 7 budgeted the cost of goods manufactured.
+8.1  The cost of goods sold budget
+The cost of goods sold budget has three components: beginning finished goods, plus the cost of goods manufactured in the period, minus ending finished goods. Figure F308-02 shows the Beverages figures for the year.
+Figure F308-02. How the cost of goods sold budget is built.
+WORKED EXAMPLE   Worked example: cost of goods sold for 2028
+Beginning stock 42,000 cases × $12.60 = $529,200; plus cost of goods manufactured $11,350,600; minus ending stock 43,000 cases × $12.60 = $541,800. Cost of goods sold is $11,338,000, as Figure F308-03 shows.
+Figure F308-03. Worked example: the cost of goods sold budget for 2028
+Cost of goods sold budget 2028
+Basis
+USD
+Beginning finished goods
+42,000 cases × $12.60
+529,200
++ Cost of goods manufactured
+Chapter 7
+11,350,600
+− Ending finished goods
+43,000 cases × $12.60
+(541,800)
+= Cost of goods sold
+11,338,000
+Check: cases sold × standard
+900,000 × $12.60 = 11,340,000
+Less fixed overhead applied above budget
+Chapter 7
+(2,000)
+The check line explains the result. At standard, 900,000 cases sold × $12.60 = $11,340,000; the budget is $2,000 lower because fixed overhead applied to production is slightly above the fixed overhead budgeted (Chapter 7).
+For quarterly budgets, cost of goods sold is simply the cases sold at standard, and the small fixed-overhead adjustment is made at the end of the year. Figure F308-04 shows the quarters.
+Figure F308-04. Cost of goods sold by quarter
+By quarter (USD)
+Q1
+Q2
+Q3
+Q4
+Year
+Cases sold
+210,000
+225,000
+240,000
+225,000
+900,000
+× $12.60 standard
+2,646,000
+2,835,000
+3,024,000
+2,835,000
+11,340,000
+Year-end adjustment for fixed overhead
+(2,000)
+Cost of goods sold
+2,646,000
+2,835,000
+3,024,000
+2,835,000
+11,338,000
+EXAM TRAP   Manufactured is not sold
+Cost of goods manufactured is the cost of cases finished; cost of goods sold is the cost of cases sold. An answer that uses one for the other ignores the change in finished goods.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost of goods sold budget
+موازنة تكلفة البضاعة المباعة
+budget du coût des ventes
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+English (exam term)
+العربية
+Français
+cost of goods sold budget
+موازنة تكلفة البضاعة المباعة
+budget du coût des ventes
+cost of goods manufactured
+تكلفة الإنتاج التام
+coût de production des produits finis
+SECTION CHECK   Test yourself
+SC308-1  The components of a cost of goods sold budget are:
+A.	sales, gross margin and operating income
+B.	materials purchases and cash payments
+C.	fixed and variable selling expenses
+D.	beginning finished goods, cost of goods manufactured and ending finished goods
+SC308-2  Beginning finished goods $529,200; cost of goods manufactured $11,350,600; ending finished goods $541,800. What is cost of goods sold?
+A.	$10,808,800
+B.	$11,338,000
+C.	$11,350,600
+D.	$11,363,200
+Answers and explanations are at the end of the chapter.
+8.2  The selling and administrative expense budget
+The selling and administrative expense budget has two kinds of components. Variable selling expenses, such as freight to customers and sales commissions, change with cases sold. Fixed costs, such as marketing, salaries, administration and depreciation of offices and vehicles, are budgeted item by item.
+Figure F308-05 lists the Beverages components. The variable rate of $1.20 a case and the fixed total of $2,400,000 are the figures used in the flexible budget of Chapter 5.
+Figure F308-05. Components of the selling and administrative expense budget
+Selling and administrative 2028
+Behavior
+Rate
+USD
+Freight to customers
+variable
+$0.80 a case
+720,000
+Sales commissions
+variable
+$0.40 a case
+360,000
+Variable selling expenses
+$1.20 a case
+1,080,000
+Marketing (Chapter 3)
+fixed
+600,000
+Sales team salaries
+fixed
+900,000
+Division administration
+fixed
+700,000
+Depreciation of offices and vehicles (non-cash)
+fixed
+200,000
+Fixed selling and administrative
+2,400,000
+Total
+3,480,000
+YOUR TURN   Selling and admin in the third and fourth quarters
+Complete the blank cells of Figure F308-06. Answers are at the end of the chapter.
+Figure F308-06. Your turn: selling and admin by quarter (complete the blanks)
+Selling and admin by quarter (USD)
+Q1
+Q2
+Q3
+Q4
+Cases sold
+210,000
+225,000
+240,000
+225,000
+Variable selling (× $1.20)
+252,000
+270,000
+________
+________
+Fixed selling and admin
+600,000
+600,000
+600,000
+600,000
+Total
+852,000
+870,000
+________
+________
+Depreciation of offices and vehicles is shown separately because it uses no cash; Chapter 9 will leave it out of the cash budget, together with the depreciation in manufacturing overhead.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+selling and administrative expense budget
+موازنة المصروفات البيعية والإدارية
+budget des frais de vente et d'administration
+English (exam term)
+العربية
+Français
+selling and administrative expense budget
+موازنة المصروفات البيعية والإدارية
+budget des frais de vente et d'administration
+SECTION CHECK   Test yourself
+SC308-3  Which is a variable selling expense?
+A.	Freight to customers
+B.	Sales team salaries
+C.	Depreciation of offices
+D.	Division administration
+SC308-4  Why is depreciation of offices and vehicles shown separately in the selling and administrative budget?
+A.	It is a variable cost
+B.	It uses no cash and will be left out of the cash budget
+C.	It is a manufacturing cost
+D.	It changes with sales
+Answers and explanations are at the end of the chapter.
+8.3  Selling costs and the contribution margin
+Selling and administrative costs affect the contribution margin only if they are variable. Freight and commissions are deducted before the contribution margin; marketing, salaries and administration are deducted after it. Figure F308-07 compares the functional format with the contribution format.
+Figure F308-07. Functional and contribution formats of the operating budget.
+WORKED EXAMPLE   Worked example: a commission plan
+The sales director proposes raising commissions by $0.30 a case and cutting sales salaries by $200,000, expecting 20,000 extra cases. The contribution margin per case falls to $7.90. Figure F308-08 shows that operating income still rises by $88,000.
+Figure F308-08. Worked example: the effect of a commission plan
+Commission proposal
+Now
+Commission +$0.30 a case
+Contribution margin per case
+$8.20
+$7.90
+Cases
+900,000
+920,000
+Contribution margin
+7,380,000
+7,268,000
+Change in contribution margin
+(112,000)
+Saving in sales salaries
+200,000
+Change in operating income
+88,000
+The proposal turns a fixed cost into a variable one. That lowers the contribution margin per case and the break-even risk, but it pays more when sales are high. The decision depends on how confident the division is about the extra volume.
+EXAM TRAP   Which costs go above the line?
+Variable selling costs reduce the contribution margin; fixed selling and administrative costs do not. Deducting marketing or salaries before the contribution margin, or leaving out freight and commissions, gives the wrong margin.
+SECTION CHECK   Test yourself
+SC308-5  Which selling and administrative cost reduces the contribution margin?
+A.	Marketing campaigns
+B.	Administrative salaries
+C.	Sales commissions per case
+D.	Office rent
+SC308-6  The contribution margin is $8.20 a case. Commissions rise by $0.30 a case. What is the new contribution margin per case?
+A.	$7.60
+B.	$7.70
+C.	$7.90
+D.	$8.50
+Answers and explanations are at the end of the chapter.
+8.4  The operating budget
+The operating budget, or budgeted income statement, brings the schedules together: sales, minus cost of goods sold, minus selling and administrative expenses, gives budgeted operating income. Interest and income taxes are added later, in Chapter 10.
+WORKED EXAMPLE   Worked example: the Beverages operating budget
+Sales $18,000,000 − cost of goods sold $11,338,000 = gross margin $6,662,000; − selling and administrative $3,480,000 = operating income $3,182,000. Figure F308-09 sets it out.
+Figure F308-09. Worked example: the Beverages operating budget for 2028
+Beverages operating budget 2028 (USD)
+Amount
+Sales
+18,000,000
+− Cost of goods sold
+(11,338,000)
+= Gross margin
+6,662,000
+− Variable selling expenses
+(1,080,000)
+− Fixed selling and administrative
+(2,400,000)
+= Operating income
+3,182,000
+In contribution format, the same year gives $3,180,000, the flexible budget of Chapter 5 for twelve months. Figure F308-10 explains the $2,000 difference: the rise in stock carries fixed overhead into next year.
+Figure F308-10. Reconciling the contribution and functional formats
+Reconciling the two formats (USD)
+Amount
+Contribution margin: 900,000 cases × $8.20
+7,380,000
+− Fixed costs: 12 × $350,000
+(4,200,000)
+= Operating income, contribution format
+3,180,000
++ Fixed overhead held in the rise in stock
+2,000
+= Operating income, functional format
+3,182,000
+Figure F308-11 shows the path from sales to operating income. The division plans to keep about one dollar in six of sales as operating income.
+Figure F308-11. From sales to operating income, Beverages 2028.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+operating budget (budgeted income statement)
+الموازنة التشغيلية (قائمة الدخل التقديرية)
+budget d'exploitation (compte de résultat prévisionnel)
+contribution margin
+هامش المساهمة
+marge sur coût variable
+English (exam term)
+العربية
+Français
+operating budget (budgeted income statement)
+الموازنة التشغيلية (قائمة الدخل التقديرية)
+budget d'exploitation (compte de résultat prévisionnel)
+contribution margin
+هامش المساهمة
+marge sur coût variable
+SECTION CHECK   Test yourself
+SC308-7  The operating budget ends with:
+A.	gross margin
+B.	contribution margin
+C.	net income after tax
+D.	budgeted operating income
+SC308-8  Sales $18,000,000; cost of goods sold $11,338,000; variable selling $1,080,000; fixed selling and admin $2,400,000. What is operating income?
+A.	$3,182,000
+B.	$4,262,000
+C.	$5,582,000
+D.	$6,662,000
+Answers and explanations are at the end of the chapter.
+8.5  Extended Example 8A: the quarterly operating budget for the board
+The board reviews results every quarter, so it wants the operating budget by quarter. This example builds it from the schedules of Chapters 6 to 8. It is exam-core.
+1. The quarters
+Figure F308-12 gives sales, cost of goods sold at standard, gross margin, selling and administrative expenses and operating income for each quarter. The year column includes the year-end fixed-overhead adjustment.
+Figure F308-12. Extended Example: the quarterly operating budget
+Beverages 2028 (USD)
+Q1
+Q2
+Q3
+Q4
+Year
+Sales
+4,200,000
+4,500,000
+4,800,000
+4,500,000
+18,000,000
+− Cost of goods sold
+(2,646,000)
+(2,835,000)
+(3,024,000)
+(2,835,000)
+(11,338,000)
+= Gross margin
+1,554,000
+1,665,000
+1,776,000
+1,665,000
+6,662,000
+− Selling and admin
+(852,000)
+(870,000)
+(888,000)
+(870,000)
+(3,480,000)
+= Operating income
+702,000
+795,000
+888,000
+795,000
+3,182,000
+2. Reading the result
+Operating income follows the season, peaking at $888,000 in the summer quarter. The board will compare each quarter's actual result with this budget, using the flexible budget of Chapter 5 when volume differs.
+3. Tie line
+WORKED EXAMPLE   Everything ties
+Quarters: $702,000 + $795,000 + $888,000 + $795,000 = $3,180,000; + $2,000 at year end = $3,182,000.
+$3,182,000 − $3,180,000 = $2,000, the fixed overhead in the rise in stock.
+4. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cost of goods sold budget
+موازنة تكلفة البضاعة المباعة
+budget du coût des ventes
+selling and administrative expense budget
+موازنة المصروفات البيعية والإدارية
+budget des frais de vente et d'administration
+operating budget (budgeted income statement)
+الموازنة التشغيلية (قائمة الدخل التقديرية)
+budget d'exploitation (compte de résultat prévisionnel)
+English (exam term)
+العربية
+Français
+cost of goods sold budget
+موازنة تكلفة البضاعة المباعة
+budget du coût des ventes
+selling and administrative expense budget
+موازنة المصروفات البيعية والإدارية
+budget des frais de vente et d'administration
+operating budget (budgeted income statement)
+الموازنة التشغيلية (قائمة الدخل التقديرية)
+budget d'exploitation (compte de résultat prévisionnel)
+5. How the exam asks it
+EXAM TRAP   Exam view
+Expect stock and production figures to build cost of goods sold, a list of selling and administrative costs to classify, and the parts of an operating budget to combine. Watch which costs are variable, and whether the question asks for gross margin, contribution margin or operating income.
+6. Self-check
+SECTION CHECK   Test yourself
+SC308-9  Use the Extended Example. In which quarter is budgeted operating income highest?
+A.	Third
+B.	First
+C.	Second
+D.	Fourth
+SC308-10  Use the Extended Example. Why is functional-format operating income $2,000 higher than contribution-format income?
+A.	Freight is cheaper
+B.	The rise in stock carries fixed overhead into next year
+C.	Sales are higher
+D.	Commissions are lower
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F308-13 brings the chapter together.
+Figure F308-13. Chapter 8 summary map: the key rule for each section.
+The cost of goods sold budget is beginning finished goods plus cost of goods manufactured minus ending finished goods, at standard cost. The selling and administrative budget has variable selling costs per unit and fixed costs by item; only the variable costs reduce the contribution margin. The operating budget combines sales, cost of goods sold and selling and administrative expenses into budgeted operating income, which differs from the contribution-format figure when inventory changes.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P308-01  Finished goods in the cost of goods sold budget are valued at:
+A.	the selling price
+B.	the variable selling cost
+C.	the standard cost per unit
+D.	the market price of materials
+P308-02  In the second quarter, 225,000 cases are sold at a standard cost of $12.60. What is the quarterly cost of goods sold at standard?
+A.	$225,000
+B.	$2,385,000
+C.	$2,646,000
+D.	$2,835,000
+P308-03  If ending finished goods are higher than beginning finished goods, cost of goods sold is:
+A.	higher than cost of goods manufactured
+B.	equal to cost of goods manufactured
+C.	zero
+D.	lower than cost of goods manufactured
+P308-04  Which is a fixed component of the selling and administrative budget?
+A.	Marketing campaigns
+B.	Freight to customers
+C.	Sales commissions
+D.	Packaging for delivery per case
+P308-05  Which item belongs in the manufacturing overhead budget, not the selling and administrative budget?
+A.	Freight to customers
+B.	Sales team salaries
+C.	Depreciation of the filling plant
+D.	Advertising
+P308-06  Freight is $0.80 and commissions $0.40 a case. Budgeted sales are 900,000 cases. What are budgeted variable selling expenses?
+A.	$360,000
+B.	$720,000
+C.	$1,080,000
+D.	$3,480,000
+P308-07  In the contribution format, fixed selling and administrative costs are deducted:
+A.	before the contribution margin
+B.	from cost of goods sold
+C.	after the contribution margin
+D.	not at all
+P308-08  Freight to customers rises by $0.10 a case. The contribution margin was $8.20. What is the new contribution margin per case?
+A.	$8.10
+B.	$8.20
+C.	$8.30
+D.	$9.20
+P308-09  A company replaces fixed sales salaries with higher commissions. What happens to its contribution margin per unit?
+A.	It rises
+B.	It stays the same
+C.	It becomes zero
+D.	It falls
+P308-10  Which item is NOT part of the operating budget?
+A.	Interest on a bank loan
+B.	Sales
+C.	Cost of goods sold
+D.	Selling and administrative expenses
+P308-11  First quarter: sales $4,200,000; 210,000 cases sold and 213,000 produced at a standard cost of $12.60; selling and admin $852,000. What is operating income?
+A.	$664,200
+B.	$702,000
+C.	$954,000
+D.	$1,554,000
+P308-12  Why does the operating budget not include income taxes?
+A.	It measures operating income before interest and taxes, which are added in the pro forma statements
+B.	Taxes are not paid
+C.	Taxes are variable selling costs
+D.	Taxes are part of cost of goods sold
+P308-13  Gross margin is:
+A.	sales minus all variable costs
+B.	operating income plus fixed costs
+C.	sales minus selling expenses
+D.	sales minus cost of goods sold
+P308-14  Beginning finished jars cost $96,520, jars manufactured $970,280 and ending finished jars $101,600. What is cost of goods sold?
+A.	$868,680
+B.	$965,200
+C.	$970,280
+D.	$975,360
+P308-15  A proposal lowers the contribution margin by $112,000 and cuts fixed salaries by $200,000. What is the effect on operating income?
+A.	A fall of $312,000
+B.	A fall of $112,000
+C.	A rise of $200,000
+D.	A rise of $88,000
+P308-16  Ending stock is 1,000 cases higher than beginning stock, and fixed manufacturing overhead is $2.00 a case. By how much does functional-format income exceed contribution-format income?
+A.	$1,000
+B.	$2,000
+C.	$10,600
+D.	$12,600
+Case question: the tahini operating budget for the second quarter
+The Tahini & Spreads division has finished its sales and production budgets for 2028, and the controller, Rana, is now preparing the budgeted income statement for the second quarter for the division's review meeting. The division values its finished jars at a standard full cost: the variable manufacturing cost per jar plus fixed manufacturing overhead spread over its normal monthly volume. Sales in the second quarter are lower than in the summer, when Gulf buyers order most.
+The division's selling costs are of two kinds. Freight to the Gulf buyers is paid per jar, while the sales team, marketing and the division office cost a fixed amount each month. A new assistant has placed the depreciation of the tahini plant in the selling and administrative budget, and Rana must correct the classification before the meeting.
+The division manager, Samir, wants three figures from the budget: the cost of the jars sold, the gross margin and the operating income. He also asks how the contribution margin would change if the freight rate to the Gulf rose next year. Rana will also explain why the budget uses jars sold, not jars produced, for the cost of goods sold.
+Use Figure F308-14 for items C308-1 to C308-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F308-14. Case exhibit: Tahini & Spreads data for the second quarter
+Tahini & Spreads, second quarter 2028
+Data
+Jars sold in the second quarter
+380,000
+Jars produced in the second quarter
+382,000
+Finished jars at the start of the quarter
+38,000
+Finished jars at the end of the quarter
+40,000
+Selling price per jar
+$3.50
+Variable manufacturing cost per jar
+$1.90
+Fixed manufacturing overhead per jar (normal volume)
+$0.64
+Variable selling cost per jar
+$0.10
+Fixed selling and admin per month
+$40,000
+C308-1  Classify each cost. (On the exam screen you would drag each item into a box.)
+Categories: Manufacturing cost · Variable selling expense · Fixed selling and administrative expense
+Cost
+Category
+Depreciation of the tahini plant
+Freight to Gulf buyers per jar
+Sales team salaries
+Sesame paste
+Marketing in the Gulf
+C308-2  Enter the budgeted cost of goods sold for the second quarter.
+Answer: ____________
+C308-3  Enter the budgeted gross margin for the second quarter.
+Answer: ____________
+C308-4  Enter the budgeted selling and administrative expenses for the second quarter.
+Answer: ____________
+C308-5  Enter the budgeted operating income for the second quarter.
+Answer: ____________
+C308-6  If the freight rate per jar rises next year, the contribution margin per jar will: [select]
+Options: fall by the amount of the rise   |   stay the same, because freight is a selling cost   |   rise by the amount of the rise   |   fall only if sales fall
+C308-7  Beginning finished goods plus cost of goods ____ minus ending finished goods equals cost of goods sold.
+Choose the word or phrase for the blank: manufactured   |   purchased   |   budgeted   |   delivered
+Answers and explanations
+Section checks
+SC308-1  Answer D. Beginning + manufactured − ending.
+A is wrong. Those are income statement lines.
+B is wrong. Those belong to other budgets.
+C is wrong. Those are selling expenses.
+SC308-2  Answer B. Beginning + manufactured − ending.
+A is wrong. Beginning finished goods are left out.
+C is wrong. This is cost of goods manufactured.
+D is wrong. The stocks are reversed.
+SC308-3  Answer A. It changes with cases sold.
+B is wrong. A fixed cost.
+C is wrong. A fixed cost.
+D is wrong. A fixed cost.
+SC308-4  Answer B. Non-cash items are removed in the cash budget.
+A is wrong. It is fixed.
+C is wrong. It is a selling and administrative cost.
+D is wrong. It is fixed.
+SC308-5  Answer C. Only variable costs are deducted before the contribution margin.
+A is wrong. A fixed cost, deducted after the margin.
+B is wrong. A fixed cost.
+D is wrong. A fixed cost.
+SC308-6  Answer C. Variable selling costs reduce the margin.
+A is wrong. The rise is deducted twice.
+B is wrong. This deducts $0.50.
+D is wrong. The rise is added.
+SC308-7  Answer D. Sales − cost of goods sold − selling and admin.
+A is wrong. Selling and admin are still to be deducted.
+B is wrong. That is an intermediate line in contribution format.
+C is wrong. Interest and tax come later.
+SC308-8  Answer A. Sales − cost of goods sold − all selling and admin.
+B is wrong. Variable selling is left out.
+C is wrong. Fixed selling and admin are left out.
+D is wrong. This is gross margin.
+SC308-9  Answer A. $888,000 in the summer quarter.
+B is wrong. The lowest quarter.
+C is wrong. Lower than the third.
+D is wrong. Lower than the third.
+SC308-10  Answer B. Absorption costing holds fixed overhead in ending stock.
+A is wrong. The same costs are used.
+C is wrong. Sales are the same.
+D is wrong. Commissions are the same.
+Your turn
+Item
+Answer
+Q3
+Variable 240,000 × $1.20 = $288,000; total $288,000 + $600,000 = $888,000
+Q4
+Variable 225,000 × $1.20 = $270,000; total $270,000 + $600,000 = $870,000
+Multiple-choice questions
+P308-01  Answer C. The standard cost card gives the cost per case.
+A is wrong. Stock is valued at cost.
+B is wrong. Not a product cost.
+D is wrong. Not the unit cost.
+P308-02  Answer D. Cases sold × standard cost.
+A is wrong. This is cases.
+B is wrong. This uses variable manufacturing cost only.
+C is wrong. This uses first-quarter sales.
+P308-03  Answer D. Part of production stays in stock.
+A is wrong. Only if stock falls.
+B is wrong. Only if stock does not change.
+C is wrong. Unrelated.
+P308-04  Answer A. Its amount is set by management, not by volume.
+B is wrong. Variable.
+C is wrong. Variable.
+D is wrong. Variable.
+P308-05  Answer C. It is a cost of making the product.
+A is wrong. A selling cost.
+B is wrong. A selling cost.
+D is wrong. A selling cost.
+P308-06  Answer C. Cases × $1.20.
+A is wrong. Commissions only.
+B is wrong. Freight only.
+D is wrong. This is all selling and admin.
+P308-07  Answer C. Only variable costs come before the margin.
+A is wrong. They do not vary with volume.
+B is wrong. They are not product costs.
+D is wrong. They are still costs.
+P308-08  Answer A. Freight is a variable selling cost.
+B is wrong. Freight is treated as fixed.
+C is wrong. The rise is added.
+D is wrong. A whole dollar is added.
+P308-09  Answer D. Commissions are variable, so each unit carries more cost.
+A is wrong. Variable cost per unit rises.
+B is wrong. The variable cost changes.
+C is wrong. Far too extreme.
+P308-10  Answer A. Interest comes later, below operating income.
+B is wrong. Part of it.
+C is wrong. Part of it.
+D is wrong. Part of it.
+P308-11  Answer B. Cost of goods sold uses cases sold.
+A is wrong. This costs the cases produced.
+C is wrong. Fixed selling and admin only is deducted.
+D is wrong. This is gross margin.
+P308-12  Answer A. Financing and tax come later.
+B is wrong. Taxes are paid.
+C is wrong. Not selling costs.
+D is wrong. Not product costs.
+P308-13  Answer D. The functional format.
+A is wrong. That is contribution margin.
+B is wrong. That is contribution margin.
+C is wrong. Not a standard measure.
+P308-14  Answer B. Beginning + manufactured − ending.
+A is wrong. Beginning stock is left out.
+C is wrong. This is cost of goods manufactured.
+D is wrong. The stocks are reversed.
+P308-15  Answer D. Saving in fixed costs − loss of margin.
+A is wrong. The saving is subtracted, not added.
+B is wrong. The salary saving is ignored.
+C is wrong. The loss of margin is ignored.
+P308-16  Answer B. The fixed overhead held in the extra stock.
+A is wrong. This is the number of cases.
+C is wrong. This uses variable manufacturing cost.
+D is wrong. This uses full standard cost.
+Case question: the tahini operating budget for the second quarter
+C308-1
+Cost
+Category
+Depreciation of the tahini plant
+Manufacturing cost
+Freight to Gulf buyers per jar
+Variable selling expense
+Sales team salaries
+Fixed selling and administrative expense
+Sesame paste
+Manufacturing cost
+Marketing in the Gulf
+Fixed selling and administrative expense
+Classify each cost by where it belongs in the master budget.
+C308-2  Answer: 965,200.
+970,280 is wrong: this answer uses the cost of jars manufactured instead of sold.
+C308-3  Answer: 364,800.
+1,330,000 is wrong: this answer enters sales instead of gross margin.
+C308-4  Answer: 158,000.
+120,000 is wrong: this answer leaves out the variable freight.
+C308-5  Answer: 206,800.
+364,800 is wrong: this answer stops at gross margin.
+C308-6  Answer: fall by the amount of the rise.
+stay the same, because freight is a selling cost is wrong: this answer variable selling costs reduce the margin.
+rise by the amount of the rise is wrong: this answer a cost rise cannot raise the margin.
+fall only if sales fall is wrong: this answer the margin per jar falls whatever the volume.
+C308-7  Answer: manufactured.
+purchased is wrong: this answer a manufacturer makes its goods.
+budgeted is wrong: this answer not the name of the component.
+delivered is wrong: this answer not the name of the component.
+PART II — THE MASTER BUDGET

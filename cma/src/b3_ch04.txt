@@ -1,0 +1,734 @@
+Chapter 4
+Budget Systems I: Master, Project and Activity-Based Budgets
+أنظمة الموازنة (1): الموازنة الشاملة وموازنة المشروع والموازنة على أساس الأنشطة
+Chapter 3 agreed a sales volume of 900,000 cases for Beverages and a new filling line. Two questions follow: how do all the pieces of the budget fit together, and should every cost be budgeted the same way? This chapter introduces three budget systems and shows when each is used.
+Figure F304-01 names the three systems: the master budget, the project budget and the activity-based budget.
+Figure F304-01. Chapter 4 roadmap: master, project and activity-based budgets.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.4.a
+define its purpose, appropriate use, and time frame
+For the master, project and activity-based budgets, define the purpose, appropriate use and time frame.
+Full treatment
+B.4.b
+identify the budget components and explain the interrelationships among the components
+Identify the components of each budget and explain how they are linked.
+Full treatment
+B.4.c
+demonstrate an understanding of how the budget is developed
+Show how each budget is developed.
+Full treatment + Extended Example
+B.4.d
+compare the benefits and limitations of the budget system
+Compare the benefits and limitations of each budget system.
+Full treatment
+B.4.e
+evaluate a business situation and recommend an appropriate budget solution
+Recommend a budget system for a business situation.
+Introduced (full in Chapter 5)
+B.4.f
+prepare budgets on the basis of information presented
+Prepare a budget from the information given.
+Introduced (full in Chapter 5)
+B.4.g
+calculate the impact of incremental changes to budgets
+Calculate the effect of changes on a budget.
+Introduced (full in Chapter 5)
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+master budget
+الموازنة الشاملة
+budget général (budget directeur)
+operating budget
+الموازنة التشغيلية
+budget d'exploitation
+financial budget
+الموازنة المالية
+budget financier
+project budget
+موازنة المشروع
+budget de projet
+activity-based budgeting
+الموازنة على أساس الأنشطة
+budget à base d'activités
+contingency
+مخصص الطوارئ
+provision pour imprévus
+WHAT YOU ALREADY KNOW   What you already know
+Book 2, Chapter 12 built activity pools and rates for the Pulses & Spices line. Chapter 3 of this book allocated the capital budget. Both are used again here.
+4.1  The master budget
+The master budget is the complete annual budget of the organization. Its purpose is to plan and coordinate every unit for one year, usually split into quarters and months. Every organization prepares one.
+It has two groups of components. The operating budget plans sales, production and costs, and ends in the budgeted income statement. The financial budget plans capital spending and cash, and ends in the budgeted balance sheet. Figure F304-02 shows how they link.
+Figure F304-02. The master budget: operating and financial budgets.
+Every link matters. The sales budget sets production; production sets materials, labor and overhead; these set the cost of goods sold. Sales also drive cash collections, so an error in the sales budget spreads to every other budget.
+Figure F304-03 compares the purpose, appropriate use and time frame of the three systems in this chapter.
+Figure F304-03. Purpose, use and time frame of the three budget systems
+B.4.a
+Master (annual) budget
+Project budget
+Activity-based budget
+Purpose
+Plan and coordinate the whole company for a year
+Plan and control one project
+Plan overhead from the activities the output needs
+Appropriate use
+Every organization, every year
+Construction, new lines, systems, launches
+Many products using overhead differently
+Time frame
+One year, by quarter or month
+The life of the project
+Usually the budget year
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+master budget
+الموازنة الشاملة
+budget général (budget directeur)
+operating budget
+الموازنة التشغيلية
+budget d'exploitation
+financial budget
+الموازنة المالية
+budget financier
+English (exam term)
+العربية
+Français
+master budget
+الموازنة الشاملة
+budget général (budget directeur)
+operating budget
+الموازنة التشغيلية
+budget d'exploitation
+financial budget
+الموازنة المالية
+budget financier
+SECTION CHECK   Test yourself
+SC304-1  What is the usual time frame of the master budget?
+A.	The life of a project
+B.	Five years
+C.	One year, split into quarters or months
+D.	One week
+SC304-2  Which component belongs to the financial budget?
+A.	The production budget
+B.	The cash budget
+C.	The sales budget
+D.	The cost of goods sold budget
+Answers and explanations are at the end of the chapter.
+4.2  Developing the master budget
+The master budget is developed in a fixed order, starting with sales, because every other figure depends on how much the company expects to sell. Figure F304-04 shows the steps for Beverages and the chapters of this book that build each one.
+Figure F304-04. Steps in developing the Beverages master budget
+Step
+Developing the master budget (B.4.c)
+Beverages 2028
+1
+Top management sets goals and assumptions
+Strategic plan (Chapters 1–3)
+2
+Sales budget: volume × price
+900,000 cases × $20.00
+3
+Production and input budgets
+Chapters 6–7
+4
+Cost of goods sold, selling and administrative
+Chapter 8
+5
+Capital and cash budgets
+Chapter 9
+6
+Budgeted statements; review and approve
+Chapter 10
+The Beverages sales budget is 900,000 cases × $20.00 = $18,000,000. Chapters 6 to 10 turn this figure into production, input, cost, cash and financial statement budgets.
+The process is not a single pass. Draft budgets are reviewed, and a shortage of cash or capacity found late in the process may send the planners back to change the sales or production plan.
+EXAM TRAP   Sales first
+An answer that starts the master budget with production, purchases or cash has the order wrong. The sales budget comes first.
+SECTION CHECK   Test yourself
+SC304-3  Which budget is prepared first in the master budget?
+A.	The cash budget
+B.	The production budget
+C.	The budgeted balance sheet
+D.	The sales budget
+SC304-4  Beverages will build a new filling line over nine months starting in October. What is the right time frame for its project budget?
+A.	The nine months of the project
+B.	The calendar year only
+C.	The next quarter
+D.	One month
+Answers and explanations are at the end of the chapter.
+4.3  Project budgets
+A project budget plans the costs of one project over its whole life, which may be shorter or longer than a year. It is used for building a plant, installing a new line, launching a product or putting in a new system.
+WORKED EXAMPLE   Worked example: the new juice filling line
+The filling line funded in Chapter 3 is budgeted line by line: equipment, installation, training, testing and start-up, plus a contingency for costs that cannot be predicted in detail. Figure F304-05 gives the total of $2,500,000, the amount granted in the capital budget.
+Figure F304-05. Worked example: the filling-line project budget
+New juice filling line (USD)
+Amount
+Filling equipment
+1,800,000
+Installation
+300,000
+Operator training
+100,000
+Testing and start-up
+150,000
+Contingency
+150,000
+Project budget (9 months)
+2,500,000
+A project budget also has a timeline. Figure F304-06 shows when each part of the 9-month project is spent, which the cash budget needs to know.
+Figure F304-06. Timeline of the filling-line project budget.
+The project budget links to the master budget through the capital expenditure budget and the cash budget. When the line starts working, its costs move into the operating budgets.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+project budget
+موازنة المشروع
+budget de projet
+contingency
+مخصص الطوارئ
+provision pour imprévus
+English (exam term)
+العربية
+Français
+project budget
+موازنة المشروع
+budget de projet
+contingency
+مخصص الطوارئ
+provision pour imprévus
+SECTION CHECK   Test yourself
+SC304-5  A project needs equipment $1,800,000, installation $300,000, training $100,000, testing $150,000 and a contingency of $150,000. What is the project budget?
+A.	$1,800,000
+B.	$2,200,000
+C.	$2,350,000
+D.	$2,500,000
+SC304-6  Which is a limitation of a project budget?
+A.	It controls the project over its whole life
+B.	It sets a clear total
+C.	It may miss costs shared with the rest of the business
+D.	It shows when money is spent
+Answers and explanations are at the end of the chapter.
+4.4  Activity-based budgeting
+Activity-based budgeting plans overhead from the activities that planned output will require. It is most useful when products use overhead very differently, as lentils and za'atar do in the Pulses & Spices line.
+Figure F304-07 shows the logic. Planned output sets the demand for each activity; each demand is multiplied by the activity rate from Book 2, Chapter 12. Facility costs do not change with output and are budgeted as a fixed amount.
+Figure F304-07. How an activity-based budget is built.
+WORKED EXAMPLE   Worked example: Pulses & Spices overhead for 2028
+The 2028 plan is 220,000 packs of lentils, up from 200,000, and 40,000 packs of za'atar, down from 50,000. Receipts, for example: 540 planned × $300 = $162,000. Figure F304-08 builds the full budget of $827,400.
+Figure F304-08. Worked example: activity-based budget for Pulses & Spices, 2028
+Pulses & Spices, 2028
+Planned activity
+Rate
+Budget (USD)
+Receiving and cleaning
+540 receipts
+$300
+162,000
+Blending setups
+750 setups
+$300
+225,000
+Packaging
+7,100 packing hours
+$30
+213,000
+Quality testing
+1,290 tests
+$60
+77,400
+Facility (capacity cost)
+fixed
+—
+150,000
+Activity-based budget
+827,400
+YOUR TURN   Budgeting packaging and testing
+Complete the blank cells of Figure F304-09. Answers are at the end of the chapter.
+Figure F304-09. Your turn: packaging, testing and the total (complete the blanks)
+Pulses & Spices, 2028
+Planned activity
+Rate
+Budget (USD)
+Receiving and cleaning
+540 receipts
+$300
+162,000
+Blending setups
+750 setups
+$300
+225,000
+Packaging
+7,100 packing hours
+$30
+________
+Quality testing
+1,290 tests
+$60
+________
+Facility (capacity cost)
+fixed
+—
+150,000
+Activity-based budget
+________
+A traditional budget would take last year's overhead of $900,000 and add 3%, giving $927,000. Figure F304-10 shows that the activity-based budget is $99,600 lower, because the za'atar volume falls and za'atar uses many setups and tests.
+Figure F304-10. Activity-based budget against last year plus 3%.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+activity-based budgeting
+الموازنة على أساس الأنشطة
+budget à base d'activités
+English (exam term)
+العربية
+Français
+activity-based budgeting
+الموازنة على أساس الأنشطة
+budget à base d'activités
+SECTION CHECK   Test yourself
+SC304-7  Planned setups are 750 and the setup rate is $300. What is the setup budget?
+A.	$1,050
+B.	$225,000
+C.	$270,000
+D.	$300,000
+SC304-8  Use Figure F304-08. What is the activity-based budget for Pulses & Spices overhead in 2028?
+A.	$150,000
+B.	$827,400
+C.	$900,000
+D.	$927,000
+Answers and explanations are at the end of the chapter.
+4.5  Benefits and limitations
+No system suits every purpose. Figure F304-11 compares the benefits and limitations of the three systems.
+Figure F304-11. Benefits and limitations of the three budget systems
+System
+Benefits (B.4.d)
+Limitations
+Master budget
+Coordinates every unit; links to strategy
+Takes time; can become fixed and out of date
+Project budget
+Controls a project over its whole life
+Hard to estimate new work; shared costs may be missed
+Activity-based budget
+Shows why overhead changes; finds waste
+Needs activity data; costly to set up and maintain
+The master budget coordinates everything but can become a fixed ritual. The project budget controls a project well but may miss costs shared with the rest of the business. The activity-based budget explains overhead but needs activity data that many companies do not have.
+Companies usually combine the systems: a master budget for the whole company, project budgets for major investments, and activity-based budgets where overhead is large and varied.
+SECTION CHECK   Test yourself
+SC304-9  Which is a benefit of activity-based budgeting?
+A.	It needs no data
+B.	It is the cheapest system to set up
+C.	It shows why overhead changes
+D.	It replaces the master budget
+SC304-10  Orontes will install a new computer system over 14 months. Which budget system suits it best?
+A.	A project budget
+B.	An activity-based budget
+C.	Only the annual master budget
+D.	No budget
+Answers and explanations are at the end of the chapter.
+4.6  Extended Example 4A: choosing and building the 2028 budgets
+This example shows how the controller combines the three systems for 2028. It is exam-core.
+1. Choosing the systems
+Beverages as a whole: master budget, one year by month.
+The new filling line: project budget, 9 months.
+Pulses & Spices overhead: activity-based budget, because lentils and za'atar use overhead very differently.
+2. The component map
+Figure F304-12 lists the Beverages components, their type and where each figure comes from.
+Figure F304-12. Extended Example: the Beverages 2028 component map
+Beverages 2028 component
+Type
+Source or amount
+Sales budget
+Operating
+900,000 cases × $20.00 = $18,000,000
+Production budget
+Operating
+cases to make (Chapter 6)
+Materials, labor, overhead
+Operating
+from the $12.60 standard card (Chapter 7)
+Budgeted income statement
+Operating
+Chapter 8
+Filling-line project budget
+Financial (capital)
+$2,500,000 over 9 months
+Cash budget
+Financial
+Chapter 9
+Budgeted balance sheet
+Financial
+Chapter 10
+3. The effect of changes
+Figure F304-13 compares the two ways of budgeting Pulses & Spices overhead, activity by activity. The fall in za'atar volume cuts setups and tests; the rise in lentils adds packing hours; facility costs stay the same.
+Figure F304-13. Extended Example: activity-based and incremental budgets compared
+Pulses & Spices overhead (USD)
+Last year + 3%
+Activity-based
+Difference
+Receiving and cleaning
+185,400
+162,000
+23,400
+Blending setups
+278,100
+225,000
+53,100
+Packaging
+216,300
+213,000
+3,300
+Quality testing
+92,700
+77,400
+15,300
+Facility
+154,500
+150,000
+4,500
+Total
+927,000
+827,400
+99,600
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Project budget $2,500,000 = capital granted to Beverages in Chapter 3.
+$927,000 − $827,400 = $99,600.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+master budget
+الموازنة الشاملة
+budget général (budget directeur)
+project budget
+موازنة المشروع
+budget de projet
+activity-based budgeting
+الموازنة على أساس الأنشطة
+budget à base d'activités
+English (exam term)
+العربية
+Français
+master budget
+الموازنة الشاملة
+budget général (budget directeur)
+project budget
+موازنة المشروع
+budget de projet
+activity-based budgeting
+الموازنة على أساس الأنشطة
+budget à base d'activités
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect to order the components of a master budget, to classify budgets as operating or financial, to total a project budget, to build an activity-based budget from drivers and rates, and to match each system with a situation.
+7. Self-check
+SECTION CHECK   Test yourself
+SC304-11  Use the Extended Example. What is the sales budget for Beverages in 2028?
+A.	$2,500,000
+B.	$18,000,000
+C.	$827,400
+D.	900,000 cases only
+SC304-12  Use the Extended Example. By how much is the activity-based budget lower than last year plus 3%?
+A.	$0
+B.	$99,600
+C.	$150,000
+D.	$927,000
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F304-14 brings the chapter together.
+Figure F304-14. Chapter 4 summary map: the key rule for each section.
+The master budget links operating budgets, ending in the budgeted income statement, and financial budgets, ending in the budgeted balance sheet; it starts with sales. A project budget covers every cost of one project over its life, with a contingency. An activity-based budget multiplies planned activity demand by activity rates and budgets facility costs separately. Each system has benefits and limitations, and companies usually combine them.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P304-01  The purpose of the master budget is to:
+A.	plan and coordinate every unit for a year
+B.	control one project
+C.	report to the tax authority
+D.	value inventory
+P304-02  The operating budget ends in:
+A.	the budgeted balance sheet
+B.	the cash budget
+C.	the budgeted income statement
+D.	the capital budget
+P304-03  The sales budget is cut by 10%. Which budget is NOT directly affected?
+A.	The production budget
+B.	The depreciation of an existing building
+C.	The cash budget
+D.	The materials budget
+P304-04  In an activity-based budget, the cost of an activity is:
+A.	last year's cost plus a percentage
+B.	the same for every product
+C.	sales × a fixed percentage
+D.	planned activity demand × activity rate
+P304-05  When is activity-based budgeting most useful?
+A.	When overhead is small
+B.	When products use overhead very differently
+C.	When the company makes one product
+D.	When no activity data exist
+P304-06  Planned tests are 1,290 and the testing rate is $60. What is the testing budget?
+A.	$1,350
+B.	$77,400
+C.	$90,000
+D.	$92,700
+P304-07  Which is a limitation of the master budget?
+A.	It coordinates all units
+B.	It links to strategy
+C.	It sets targets
+D.	It can become a fixed ritual that is soon out of date
+P304-08  A company with little overhead and one product considers activity-based budgeting. What is the main argument against it?
+A.	Its setup cost is higher than the benefit
+B.	It cannot be used by manufacturers
+C.	It is not allowed under GAAP
+D.	It ignores activities
+P304-09  In an activity-based budget, how are facility costs such as a warehouse lease treated?
+A.	Multiplied by the number of packs
+B.	As a fixed amount that does not change with output
+C.	Added to the setup rate
+D.	Left out
+P304-10  A project budget of $2,350,000 before contingency adds a contingency of $150,000. What percentage of the other costs is the contingency?
+A.	6.0%
+B.	15.0%
+C.	150.0%
+D.	6.4%
+P304-11  Levant's warehouse costs depend on orders, deliveries, rush orders and returns, which differ greatly by customer. Which system suits its overhead budget?
+A.	Activity-based budgeting
+B.	A project budget
+C.	Last year plus a percentage
+D.	No budget
+P304-12  Which situation calls for a master budget?
+A.	Launching one product
+B.	Building one warehouse
+C.	Planning the whole company for next year
+D.	Pricing one order
+P304-13  Planned volume is 900,000 cases at $20.00 a case. What is the sales budget?
+A.	$1,800,000
+B.	$9,000,000
+C.	$18,000,000
+D.	$20,900,000
+P304-14  Last year's overhead was $900,000. A traditional budget adds 3%. What is the budget?
+A.	$27,000
+B.	$873,000
+C.	$903,000
+D.	$927,000
+P304-15  Za'atar volume falls 20%, so planned setups for za'atar fall from 800 to 640. At $300 a setup, how much does the setup budget fall?
+A.	$160
+B.	$48,000
+C.	$192,000
+D.	$240,000
+P304-16  Why do most companies combine budget systems?
+A.	Because GAAP requires three systems
+B.	Because one system is always wrong
+C.	Because combining removes the need for review
+D.	Because each system suits some decisions better than others
+Case question: budgeting Levant's service costs
+Levant Distribution, the Orontes subsidiary that delivers to shops, hotels and supermarkets, is preparing its 2028 budget. In past years its manager, Karim, budgeted warehouse and delivery costs by adding a percentage to last year's total. The costs kept rising, and no one could say why. Last year the total rose again, mainly because more customers asked for rush orders and returned damaged goods.
+This year the controller wants an activity-based budget. Book 2 of this series measured the cost of Levant's main activities: taking an order, making a delivery, handling a rush order and processing a return. The sales team has now planned the number of each activity for 2028.
+Karim is also planning a new cold-storage warehouse that will take about eighteen months to build. He asks whether it should simply be included in next year's normal budget. The warehouse will cost several million dollars, and the board wants its spending tracked separately from Levant's normal costs.
+Finally, the controller wants Karim's staff to understand how Levant's budgets fit into the Orontes master budget, and which parts are operating budgets and which are financial budgets.
+Use Figure F304-15 for items C304-1 to C304-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F304-15. Case exhibit: Levant Distribution's planned activities and rates
+Levant Distribution, 2028 plan
+Planned quantity
+Activity rate (Book 2, Ch 13)
+Customer orders
+6,000
+$50 per order
+Deliveries
+2,500
+$120 per delivery
+Rush orders
+300
+$200 per rush order
+Returns
+400
+$80 per return
+C304-1  Classify each budget. (On the exam screen you would drag each item into a box.)
+Categories: Operating budget · Financial budget
+Budget
+Category
+Sales budget
+Delivery cost budget
+Cash budget
+Capital expenditure budget
+Budgeted balance sheet
+C304-2  Enter the budgeted cost of rush orders.
+Answer: ____________
+C304-3  Enter the budgeted cost of deliveries.
+Answer: ____________
+C304-4  Enter Levant's total activity-based budget for the four activities.
+Answer: ____________
+C304-5  For the new cold-storage warehouse, Karim should use: [select]
+Options: a project budget covering the eighteen months   |   the normal annual budget only   |   an activity-based budget   |   no budget until it is finished
+C304-6  The main benefit of the activity-based budget for Levant is that it: [select]
+Options: shows which activities drive the rise in costs   |   is quicker than adding a percentage   |   needs no data   |   removes the need for a master budget
+C304-7  Every master budget begins with the ____ budget.
+Choose the word or phrase for the blank: sales   |   cash   |   production   |   capital
+Answers and explanations
+Section checks
+SC304-1  Answer C. It plans the coming year.
+A is wrong. That is a project budget.
+B is wrong. That is a strategic plan.
+D is wrong. Too short.
+SC304-2  Answer B. Cash, capital spending and the balance sheet are financial budgets.
+A is wrong. An operating budget.
+C is wrong. An operating budget.
+D is wrong. An operating budget.
+SC304-3  Answer D. Every other figure depends on expected sales.
+A is wrong. Cash depends on sales and costs.
+B is wrong. Production depends on sales.
+C is wrong. It comes last.
+SC304-4  Answer A. A project budget follows the project.
+B is wrong. The project crosses two years.
+C is wrong. Too short.
+D is wrong. Too short.
+SC304-5  Answer D. All project costs plus the contingency.
+A is wrong. Only the equipment.
+B is wrong. Testing and training are left out.
+C is wrong. The contingency is left out.
+SC304-6  Answer C. Shared costs are easy to leave out.
+A is wrong. That is a benefit.
+B is wrong. That is a benefit.
+D is wrong. That is a benefit.
+SC304-7  Answer B. Planned activity × rate.
+A is wrong. The quantity and rate are added.
+C is wrong. This is last year's setup pool.
+D is wrong. The quantity is misread.
+SC304-8  Answer B. The sum of the activity budgets and the facility cost.
+A is wrong. This is the facility cost only.
+C is wrong. This is last year's overhead.
+D is wrong. This is last year plus 3%.
+SC304-9  Answer C. Costs follow planned activity demand.
+A is wrong. It needs activity data.
+B is wrong. It is costly to set up.
+D is wrong. It is part of the master budget.
+SC304-10  Answer A. One project with its own life.
+B is wrong. Suits varied overhead, not one project.
+C is wrong. The project runs longer than a year.
+D is wrong. Large projects need a budget.
+SC304-11  Answer B. 900,000 cases × $20.00.
+A is wrong. This is the project budget.
+C is wrong. This is the Pulses & Spices overhead budget.
+D is wrong. The budget needs volume × price.
+SC304-12  Answer B. $927,000 − $827,400.
+A is wrong. The two budgets differ.
+C is wrong. This is the facility cost.
+D is wrong. This is the incremental budget.
+Your turn
+Item
+Answer
+Packaging
+7,100 hours × $30 = $213,000
+Quality testing
+1,290 tests × $60 = $77,400
+Total
+$827,400
+Multiple-choice questions
+P304-01  Answer A. It covers the whole organization.
+B is wrong. That is a project budget.
+C is wrong. It is an internal plan.
+D is wrong. Unrelated.
+P304-02  Answer C. Sales and costs lead to budgeted profit.
+A is wrong. The financial budget ends there.
+B is wrong. Part of the financial budget.
+D is wrong. Part of the financial budget.
+P304-03  Answer B. Existing depreciation does not change with sales.
+A is wrong. Production follows sales.
+C is wrong. Collections follow sales.
+D is wrong. Materials follow production.
+P304-04  Answer D. Demand times rate.
+A is wrong. That is an incremental budget.
+B is wrong. Products use activities differently.
+C is wrong. Not activity-based.
+P304-05  Answer B. It shows the different demands.
+A is wrong. Little to gain.
+C is wrong. One product needs no activity split.
+D is wrong. It needs activity data.
+P304-06  Answer B. 1,290 × $60.
+A is wrong. Quantity and rate are added.
+C is wrong. This is last year's pool.
+D is wrong. This is last year plus 3%.
+P304-07  Answer D. An annual plan can age quickly.
+A is wrong. That is a benefit.
+B is wrong. That is a benefit.
+C is wrong. That is a benefit.
+P304-08  Answer A. The benefit is small with simple overhead.
+B is wrong. Manufacturers use it.
+C is wrong. Budgets are internal.
+D is wrong. It is built on activities.
+P304-09  Answer B. Capacity costs do not follow unit volume.
+A is wrong. They are not unit-level.
+C is wrong. They are a separate pool.
+D is wrong. They are still budgeted.
+P304-10  Answer D. 150,000 ÷ 2,350,000.
+A is wrong. This divides by the total including the contingency.
+B is wrong. The division is wrong.
+C is wrong. The division is wrong.
+P304-11  Answer A. Varied activity demand.
+B is wrong. The costs are ongoing, not one project.
+C is wrong. It ignores activity demand.
+D is wrong. Costs still need a budget.
+P304-12  Answer C. The master budget covers the whole company.
+A is wrong. Suits a project budget.
+B is wrong. Suits a project budget.
+D is wrong. A pricing decision, not a budget.
+P304-13  Answer C. Volume × price.
+A is wrong. A zero is lost.
+B is wrong. The price is misread.
+D is wrong. Volume and price are added.
+P304-14  Answer D. 900,000 × 1.03.
+A is wrong. This is the increase only.
+B is wrong. 3% is deducted.
+C is wrong. 3 is added, not 3%.
+P304-15  Answer B. 160 fewer setups × $300.
+A is wrong. This is the fall in setups, not dollars.
+C is wrong. This is the new za'atar setup cost.
+D is wrong. This is the old za'atar setup cost.
+P304-16  Answer D. Each has benefits and limitations.
+A is wrong. No such rule.
+B is wrong. Each system is right for some uses.
+C is wrong. Review is still needed.
+Case question: budgeting Levant's service costs
+C304-1
+Budget
+Category
+Sales budget
+Operating budget
+Delivery cost budget
+Operating budget
+Cash budget
+Financial budget
+Capital expenditure budget
+Financial budget
+Budgeted balance sheet
+Financial budget
+Operating budgets lead to the budgeted income statement; financial budgets lead to the budgeted balance sheet.
+C304-2  Answer: 60,000.
+15,000 is wrong: this answer uses the order rate instead of the rush-order rate.
+C304-3  Answer: 300,000.
+200,000 is wrong: this answer uses the return rate instead of the delivery rate.
+C304-4  Answer: 692,000.
+632,000 is wrong: this answer leaves out the rush orders.
+C304-5  Answer: a project budget covering the eighteen months.
+the normal annual budget only is wrong: this answer the project runs longer than a year.
+an activity-based budget is wrong: this answer it suits recurring overhead, not one project.
+no budget until it is finished is wrong: this answer a large project needs a budget from the start.
+C304-6  Answer: shows which activities drive the rise in costs.
+is quicker than adding a percentage is wrong: this answer it takes more work.
+needs no data is wrong: this answer it needs activity data.
+removes the need for a master budget is wrong: this answer it is part of the master budget.
+C304-7  Answer: sales.
+cash is wrong: this answer cash depends on sales and costs.
+production is wrong: this answer production depends on sales.
+capital is wrong: this answer capital spending is a financial budget.
+PART I — STRATEGY AND BUDGETING FOUNDATIONS

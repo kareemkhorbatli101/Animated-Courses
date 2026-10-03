@@ -1,0 +1,775 @@
+Chapter 3
+Budgeting Concepts: Roles, People and Behavior
+مفاهيم الموازنة: الأدوار والأفراد والسلوك
+In September, the Beverages sales manager sent his first budget for 2028: 820,000 cases of juice. The controller's market data pointed to 900,000. The gap is not a mistake in arithmetic; it is about people, targets and bonuses. This chapter explains what budgets are for and how people shape them.
+Figure F303-01 shows the three jobs of a budget: to plan, to coordinate and to control.
+Figure F303-01. Chapter 3 roadmap: plan, coordinate, control.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.2.a
+describe the role that budgeting plays in the overall planning and performance evaluation process of an organization
+Describe the role of budgeting in planning and in evaluating performance.
+Full treatment
+B.2.b
+explain the interrelationships between economic conditions, industry situation, and an organization’s plans and budgets
+Explain how economic conditions, the industry and the organization's plans and budgets affect each other.
+Full treatment
+B.2.c
+identify the role that budgeting plays in formulating short-term objectives and in planning and controlling operations to meet those objectives
+Identify the role of budgeting in setting short-term objectives and in planning and controlling operations.
+Full treatment
+B.2.d
+demonstrate an understanding of the role that budgets play in measuring performance against established goals
+Explain how budgets are used to measure performance against targets.
+Full treatment
+B.2.e
+identify the characteristics that define successful budgeting processes
+Name the characteristics of successful budgeting processes.
+Full treatment
+B.2.f
+explain how the budgeting process facilitates communication among organizational units and enhances coordination of organizational activities
+Explain how budgeting improves communication and coordination between units.
+Full treatment
+B.2.g
+describe the concept of a controllable cost as it relates to both budgeting and performance evaluation
+Describe controllable costs in budgeting and performance evaluation.
+Full treatment
+B.2.h
+explain how the efficient allocation of organizational resources is planned during the budgeting process
+Explain how the budget plans the efficient allocation of resources.
+Full treatment
+B.2.i
+identify the appropriate time frame for various types of budgets
+Name the right time frame for each type of budget.
+Full treatment
+B.2.j
+identify who should participate in the budgeting process for optimum success
+Identify who should take part in budgeting for the best results.
+Full treatment
+B.2.k
+describe the role of top management in successful budgeting
+Describe the role of top management in successful budgeting.
+Full treatment
+B.2.q
+discuss the importance of a policy that allows budget revisions that accommodate the impact of significant changes in budget assumptions
+Discuss why a policy for budget revisions is needed.
+Full treatment
+B.2.r
+explain the role of budgets in monitoring and controlling expenditures to meet strategic objectives
+Explain how budgets are used to monitor and control spending.
+Full treatment
+B.2.s
+define budgetary slack and discuss its impact on goal congruence
+Define budgetary slack and discuss its effect on goal congruence.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+budget
+الموازنة
+budget
+budget cycle
+دورة الموازنة
+cycle budgétaire
+controllable cost
+التكلفة القابلة للرقابة
+coût contrôlable (maîtrisable)
+participative budgeting
+الموازنة التشاركية
+budget participatif
+imposed budget
+الموازنة المفروضة
+budget imposé
+budgetary slack
+الاحتياطي الموازني (المبالغة في التقدير)
+slack budgétaire
+goal congruence
+توافق الأهداف
+convergence des buts
+budget revision
+تعديل الموازنة
+révision budgétaire
+management by exception
+الإدارة بالاستثناء
+gestion par exception
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 set the strategic goals and Chapter 2 chose the strategies. Book 2 built the standard cost of a case of juice. The budget now turns all of these into next year's numbers.
+3.1  What budgets are for
+A budget is a quantitative plan for a coming period, usually in money. It turns the strategic plan into short-term objectives: how many cases to sell, what to spend and what profit to earn. It also tells every unit what the others plan to do.
+The budget cycle in Figure F303-02 runs from the strategic plan to guidelines, preparation, approval, monitoring and revision. At the end of the year, the budget becomes the yardstick for judging results.
+Figure F303-02. The Orontes budget cycle.
+Figure F303-03 lists the roles of the budget. For planning and control, it sets the targets each month. For coordination, it makes sure that sales, production and purchasing plan for the same volume.
+Figure F303-03. The roles of the budget at Orontes
+Role of the budget
+At Orontes
+Planning
+turns the strategic plan into next year's targets (B.2.a, B.2.c)
+Coordination
+matches sales, production and purchasing plans
+Communication
+tells each unit what is expected and why (B.2.f)
+Resource allocation
+shares scarce funds and people (B.2.h)
+Performance measurement
+gives the yardstick for actual results (B.2.d)
+Motivation
+sets targets managers accept and work towards
+A budget measures performance only if the targets were realistic and agreed. When a Beverages manager exceeds a budget that everyone understood, the result means something; when the budget was imposed without discussion, it means much less.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+budget
+الموازنة
+budget
+budget cycle
+دورة الموازنة
+cycle budgétaire
+English (exam term)
+العربية
+Français
+budget
+الموازنة
+budget
+budget cycle
+دورة الموازنة
+cycle budgétaire
+SECTION CHECK   Test yourself
+SC303-1  Which statement best describes the role of a budget?
+A.	It only controls spending
+B.	It plans, coordinates, communicates and provides a yardstick for performance
+C.	It replaces the strategic plan
+D.	It is prepared only for the tax authority
+SC303-2  When is a budget most useful for measuring a manager's performance?
+A.	When it was imposed without discussion
+B.	When it was set far above what is possible
+C.	When the targets were realistic and agreed
+D.	When it is kept secret from the manager
+Answers and explanations are at the end of the chapter.
+3.2  The economy, the industry and the budget
+Every budget starts from assumptions about the world outside: economic growth, inflation, exchange rates and the state of the industry. If the assumptions are wrong, every number built on them is wrong too.
+The Beverages sales budget starts from the forecast size of Jordan's juice market, 11,250,000 cases, and Orontes's share of 8.0% from Chapter 2. That gives an evidence-based volume of 900,000 cases. Figure F303-04 lists the main assumptions.
+Figure F303-04. Economic and industry assumptions behind the Beverages sales budget
+Assumption
+Value
+Source and reason
+Jordan juice market 2028
+11,250,000 cases
+Industry forecast; market growing 14.0% a year (Chapter 2)
+Orontes share
+8.0%
+From the portfolio review (Chapter 2)
+Evidence-based sales volume
+900,000 cases
+Market × share
+Selling price
+$20.00 a case
+No increase: the dinar is pegged to the US dollar and inflation is low
+Concentrate price
+$0.90 a liter
+Supplier contract; watch world fruit prices
+The link runs both ways. The industry sets limits on the plan, and the plan can change the industry. If Orontes cuts prices to gain share, rivals may respond, and the market forecast itself must be revised.
+SECTION CHECK   Test yourself
+SC303-3  Which is an economic or industry assumption behind a sales budget?
+A.	The forecast size of the market
+B.	The color of the packaging
+C.	The number of board members
+D.	The company's founding date
+SC303-4  The juice market is forecast at 11,250,000 cases and Orontes expects an 8% share. What is the evidence-based sales volume?
+A.	820,000 cases
+B.	1,125,000 cases
+C.	8,000,000 cases
+D.	900,000 cases
+Answers and explanations are at the end of the chapter.
+3.3  Allocating resources through the budget
+Resources are always scarce. The budget is where the company decides who gets what: money, people, machines and time. The decision should follow the strategy, not the size of each request.
+WORKED EXAMPLE   Worked example: the 2028 capital budget
+The units asked for $10,000,000 of new investment; only $7,000,000 is available. The board uses the portfolio review of Chapter 2. It funds the star in full, gives part of its request to the question mark, cuts the cash cow's request, and funds the head-office systems. Figure F303-05 shows the result.
+Figure F303-05. Worked example: the 2028 capital budget
+2028 capital budget (USD)
+Requested
+Granted
+Cut
+Tahini & Spreads (star)
+2,500,000
+2,500,000
+—
+Beverages (question mark)
+4,000,000
+2,500,000
+(1,500,000)
+Oils (cash cow)
+3,000,000
+1,500,000
+(1,500,000)
+Head office systems
+500,000
+500,000
+—
+Total
+10,000,000
+7,000,000
+(3,000,000)
+Cutting every request by the same percentage would have been simpler, but it would have starved the star and overfed the cash cow. Efficient allocation puts resources where they support the strategy best.
+Because every unit sees the final allocation, the budget also explains the strategy to the managers who did not get what they asked for.
+SECTION CHECK   Test yourself
+SC303-5  When resources are scarce, the budget should allocate them:
+A.	in proportion to each request
+B.	according to the strategic priorities
+C.	equally to all units
+D.	to the unit that asked first
+SC303-6  Units request $10,000,000 of capital; $7,000,000 is available. Cutting every request by the same percentage would:
+A.	fund the star in full
+B.	raise more capital
+C.	remove the need for a capital budget
+D.	give each unit 70% of its request, ignoring strategy
+Answers and explanations are at the end of the chapter.
+3.4  Time frames and successful budgeting
+Each budget has its own time frame. A capital budget follows the life of the project; the master budget covers one year, split into quarters or months; the cash budget may be weekly. Figure F303-06 lists the usual frames.
+Figure F303-06. Time frames of the main budgets
+Budget
+Typical time frame (B.2.i)
+Strategic plan
+3–5 years (Chapter 1)
+Capital budget
+the life of the project, often several years
+Master (annual) budget
+one year, split by quarter or month
+Cash budget
+months or weeks
+Continuous (rolling) budget
+always 12 months ahead (Chapter 5)
+A budget that is too long becomes a guess; one that is too short misses the effect of decisions. The right frame matches the decision it supports.
+Successful budgeting is linked to strategy, realistic, participative, flexible within a clear policy, and followed by timely feedback. Figure F303-07 pairs these characteristics with the role of top management.
+Figure F303-07. Successful budgeting and the role of top management
+Successful budget process (B.2.e)
+Role of top management (B.2.k)
+Linked to strategy
+Top management approves goals and guidelines
+Realistic, evidence-based targets
+Sets the assumptions and resolves conflicts
+Participation and communication
+Supports the process visibly
+Flexibility with a revision policy
+Approves revisions under the policy
+Timely feedback
+Uses the budget in performance reviews
+Top management sets the goals and assumptions, resolves conflicts between units, approves the final budget and uses it in performance reviews. If top managers ignore the budget, so will everyone else.
+At Orontes, the chief executive opens the budget round with a letter that restates the strategic goals and the key assumptions.
+SECTION CHECK   Test yourself
+SC303-7  What is the usual time frame of a capital budget?
+A.	The life of the project, often several years
+B.	One week
+C.	One month
+D.	One day
+SC303-8  Which is the most important role of top management in budgeting?
+A.	Setting every figure alone
+B.	Staying out of the process
+C.	Setting goals and assumptions, resolving conflicts and approving the budget
+D.	Preparing the cash budget personally
+Answers and explanations are at the end of the chapter.
+3.5  People: participation and controllable costs
+In an imposed budget, top management sets every figure. In participative budgeting, the managers who must carry out the budget help prepare it. Figure F303-08 compares the two.
+Figure F303-08. Imposed and participative budgeting.
+The best results usually come from participation with review. Managers who know the market and the plant propose the figures, and top management checks them against the evidence and the strategy.
+A controllable cost is one a manager can significantly influence in the period. A manager should be judged on controllable costs only; other costs can be reported for information but should not affect the evaluation.
+YOUR TURN   What can the plant manager control?
+Complete the two blank rows of Figure F303-09. Answers are at the end of the chapter.
+Figure F303-09. Your turn: what the plant manager controls (complete the blanks)
+Beverages plant manager's report
+Controllable by the plant manager?
+Concentrate used per case
+Controllable
+Price paid for concentrate
+________
+Labor hours on the line
+Controllable
+Wage rate set by the union contract
+Not controllable
+Maintenance spending
+________
+Depreciation of the plant
+Not controllable
+Head-office costs allocated to the plant
+Not controllable
+Controllability also shapes participation: the plant manager should help set targets for usage and hours, while the purchasing manager sets the price assumptions.
+Controllability depends on the time frame: in the short run the plant manager cannot change the plant's depreciation, but over several years the choice of equipment is partly his.
+FALSE-FRIEND ALERT   Contrôlable, القابلة للضبط
+The IMA Arabic glossary says تكلفة قابلة للضبط; Arab textbooks usually say التكلفة القابلة للرقابة. French 'contrôlable' here means 'that a manager can influence', not 'that an auditor can check'.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+participative budgeting
+الموازنة التشاركية
+budget participatif
+imposed budget
+الموازنة المفروضة
+budget imposé
+controllable cost
+التكلفة القابلة للرقابة
+coût contrôlable (maîtrisable)
+English (exam term)
+العربية
+Français
+participative budgeting
+الموازنة التشاركية
+budget participatif
+imposed budget
+الموازنة المفروضة
+budget imposé
+controllable cost
+التكلفة القابلة للرقابة
+coût contrôlable (maîtrisable)
+SECTION CHECK   Test yourself
+SC303-9  Who should take part in preparing a budget for the best results?
+A.	Only the chief executive
+B.	Only the accountants
+C.	The managers who must carry it out, with review by top management
+D.	Only outside consultants
+SC303-10  Which cost is controllable by the Beverages plant manager?
+A.	Head-office costs allocated to the plant
+B.	Depreciation of the plant
+C.	The union wage rate
+D.	Labor hours used on the line
+Answers and explanations are at the end of the chapter.
+3.6  Budgetary slack, revisions and monitoring
+Budgetary slack is the gap between a manager's easy figure and the figure the evidence supports. Sales are budgeted too low or costs too high, so the target is easy to beat.
+Slack damages goal congruence: the manager earns a bonus while the company plans for less than it could achieve. Figure F303-10 shows the slack in the Beverages proposal, worth $656,000 of contribution margin.
+Figure F303-10. Budgetary slack in the Beverages sales proposal.
+Budgets sometimes need revising during the year, but only under a clear policy. A good policy revises for large changes outside managers' control, and keeps the targets for things managers can control.
+In July, the concentrate price rose 10%. Figure F303-11 applies the policy: the materials budget is revised, but the usage target is not.
+Figure F303-11. Applying the revision policy: the concentrate price rise
+Budget revision (B.2.q)
+Event
+Concentrate price rises 10% from July: $0.90 → $0.99 a liter
+Extra cost, second half
+$243,000 (450,000 cases)
+Within the manager's control?
+No: the price is set by the world fruit market
+Decision under the revision policy
+Revise the materials budget; keep usage targets unchanged
+Budgets also control spending during the year. The comparison must use the budget to date, not the annual total. Figure F303-12 shows Beverages marketing spending at the end of June.
+Figure F303-12. Monitoring marketing spending to the end of June
+Beverages marketing, 2028 (USD)
+Amount
+Annual marketing budget
+600,000
+Budget to the end of June
+300,000
+Actual to the end of June
+340,000
+Overspending to date
+40,000 (13.3%)
+Left for the second half
+260,000
+Management by exception directs attention to the largest differences, such as the marketing overspend, so managers spend their time where it matters most.
+EXAM TRAP   Slack is measured from the evidence
+Slack is the evidence-based figure minus the padded figure. Measuring it against the manager's own proposal, or as a share of the proposal, gives the wrong answer.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+budgetary slack
+الاحتياطي الموازني (المبالغة في التقدير)
+slack budgétaire
+goal congruence
+توافق الأهداف
+convergence des buts
+budget revision
+تعديل الموازنة
+révision budgétaire
+management by exception
+الإدارة بالاستثناء
+gestion par exception
+English (exam term)
+العربية
+Français
+budgetary slack
+الاحتياطي الموازني (المبالغة في التقدير)
+slack budgétaire
+goal congruence
+توافق الأهداف
+convergence des buts
+budget revision
+تعديل الموازنة
+révision budgétaire
+management by exception
+الإدارة بالاستثناء
+gestion par exception
+SECTION CHECK   Test yourself
+SC303-11  Budgetary slack is:
+A.	the profit left after tax
+B.	the difference between an easy budget figure and the figure the evidence supports
+C.	unused factory space
+D.	a variance caused by prices
+SC303-12  The concentrate price rises 10% because of world fruit prices. Under a good revision policy, Orontes should:
+A.	revise the materials budget but keep the usage target
+B.	revise every target, including usage
+C.	change nothing
+D.	cancel the budget
+Answers and explanations are at the end of the chapter.
+3.7  Extended Example 3A: agreeing the Beverages sales budget
+This example follows the budget meeting between the Beverages sales manager and the controller. It is exam-core.
+1. The proposal and the evidence
+Proposal: 820,000 cases, from the sales manager.
+Evidence: market 11,250,000 cases × share 8.0% = 900,000 cases.
+2. Measuring the slack
+Figure F303-13 measures the slack in cases and in contribution margin at $8.20 a case: 80,000 cases, or $656,000, which is 8.9% of the evidence-based volume.
+Figure F303-13. Extended Example: slack in the Beverages sales proposal
+Beverages 2028
+Cases
+Contribution margin at $8.20
+Sales manager's proposal
+820,000
+6,724,000
+Evidence: market × share
+900,000
+7,380,000
+Slack
+80,000
+656,000
+Agreed budget
+900,000
+7,380,000
+3. Agreeing the budget
+The sales manager explains his worry about a new rival. The controller agrees to add a note on this risk, but the budget is set at 900,000 cases. The bonus is also linked to both the budget and the market share, which reduces the reason to pad.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+900,000 − 820,000 = 80,000 cases; × $8.20 = $656,000.
+900,000 cases equal the June plan of Book 2 (75,000 cases) for each of the twelve months.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+budgetary slack
+الاحتياطي الموازني (المبالغة في التقدير)
+slack budgétaire
+goal congruence
+توافق الأهداف
+convergence des buts
+participative budgeting
+الموازنة التشاركية
+budget participatif
+English (exam term)
+العربية
+Français
+budgetary slack
+الاحتياطي الموازني (المبالغة في التقدير)
+slack budgétaire
+goal congruence
+توافق الأهداف
+convergence des buts
+participative budgeting
+الموازنة التشاركية
+budget participatif
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect to classify costs as controllable or not, and to identify and measure slack. You may also have to choose the best participation approach, or judge whether a budget should be revised under a stated policy.
+7. Self-check
+SECTION CHECK   Test yourself
+SC303-13  Use the Extended Example. What is the slack in contribution margin?
+A.	$80,000
+B.	$656,000
+C.	$6,724,000
+D.	$7,380,000
+SC303-14  Use the Extended Example. How does Orontes reduce the reason to pad the sales budget?
+A.	By removing all bonuses
+B.	By letting the sales manager set any figure
+C.	By linking the bonus to both the budget and market share
+D.	By keeping the market data secret
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F303-14 brings the chapter together.
+Figure F303-14. Chapter 3 summary map: the key rule for each section.
+Budgets turn the strategic plan into short-term objectives, coordinate and communicate between units, allocate scarce resources and provide the yardstick for performance. They rest on economic and industry assumptions. Each budget needs a suitable time frame, and top management must lead the process. Participation with review gives the best results, and managers are judged only on controllable costs. Slack, measured from the evidence, harms goal congruence; revisions follow a clear policy; and spending is monitored against the budget to date.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P303-01  The budget links the strategic plan to:
+A.	the history of the company
+B.	the external auditor's report
+C.	the share price
+D.	next year's operating targets
+P303-02  Budgets help control operations by:
+A.	setting targets that actual results can be compared with
+B.	fixing selling prices by law
+C.	removing the need for managers
+D.	replacing accounting records
+P303-03  A short-term objective for Beverages in 2028 is 'sell 900,000 cases'. Which document turns it into monthly targets for each team?
+A.	The mission statement
+B.	The master budget
+C.	The five forces analysis
+D.	The strategic plan
+P303-04  At the end of the year, the budget serves as:
+A.	the yardstick for judging performance
+B.	the tax return
+C.	the audit opinion
+D.	the mission statement
+P303-05  Which is a characteristic of a successful budget process?
+A.	Targets set without evidence
+B.	No feedback until the year ends
+C.	No way to revise the budget
+D.	A clear link to the strategic plan
+P303-06  A company's budget is prepared carefully but never discussed again during the year. What is missing from a successful process?
+A.	A mission statement
+B.	A capital budget
+C.	Timely feedback and use in performance reviews
+D.	A tax plan
+P303-07  Budgeting improves coordination by making sure that:
+A.	sales, production and purchasing plan for the same volume
+B.	each unit plans on its own
+C.	only sales prepares a budget
+D.	no unit knows the others' plans
+P303-08  Production plans for 900,000 cases, but purchasing orders concentrate for 820,000. What failed?
+A.	The mission
+B.	The tax plan
+C.	The audit
+D.	Coordination through the budget
+P303-09  A plant manager is judged on total plant cost, including head-office costs allocated to the plant. What is the main problem?
+A.	The report is too short
+B.	The manager is held responsible for costs he cannot influence
+C.	Head-office costs should be doubled
+D.	Allocations are illegal
+P303-10  Which budget usually has the shortest time frame?
+A.	Capital budget
+B.	Strategic plan
+C.	Cash budget
+D.	Master budget
+P303-11  What is the main risk of participative budgeting?
+A.	Managers may build slack into their figures
+B.	Managers have no knowledge to share
+C.	It cannot be reviewed
+D.	It removes commitment
+P303-12  Why must top management visibly support the budget?
+A.	Because it prepares every schedule
+B.	Because others follow its lead
+C.	Because the law requires it
+D.	Because it removes all conflict
+P303-13  Actual labor hours are higher than budgeted because of poor scheduling. Should the budget be revised?
+A.	Yes, always revise to match actual results
+B.	Yes, because hours changed
+C.	No, the cause is controllable, so the target stays
+D.	No, budgets are never revised
+P303-14  Budgets help control spending during the year by:
+A.	waiting until the year ends
+B.	comparing monthly spending with the annual budget
+C.	ignoring small items
+D.	comparing spending to date with the budget to date
+P303-15  The marketing budget is $600,000 a year, or $300,000 to the end of June. Actual spending to June is $340,000. What is the overspending to date?
+A.	$40,000
+B.	$260,000
+C.	$300,000
+D.	$340,000
+P303-16  Evidence supports 1,500,000 jars; the manager proposes 1,400,000. The contribution margin is $1.50 a jar. What is the slack in contribution margin?
+A.	$100,000
+B.	$150,000
+C.	$2,100,000
+D.	$2,250,000
+Case question: the Tahini & Spreads budget meeting
+It is October, and the Tahini & Spreads division is preparing its budget for 2028. The division manager, Samir, has proposed sales of 500 g tahini jars that are well below what the controller, Rana, expects from signed orders and market data.
+Samir says a new competitor may enter the Gulf market and that he does not want to promise too much. His bonus is paid when actual contribution margin beats the budget. Rana notes that the orders already signed with Barada and the Gulf importer support a higher figure.
+Rana is also reviewing the plant manager's cost report. It lists the sesame used per jar, the price paid for sesame, the hours worked on the filling line, the depreciation of the plant, and head-office costs allocated to the division. The division's cost reports are prepared monthly.
+The chief executive wants the meeting to end with a budget that is realistic and that the division accepts. She has asked Rana to measure the gap between the two figures and to suggest how to agree the budget without damaging the division's commitment.
+Use Figure F303-15 for items C303-1 to C303-7.
+How to enter answers: Enter numbers without the $ sign or commas; enter percentages to one decimal without the % sign (for example, 12.5).
+Figure F303-15. Case exhibit: the Tahini & Spreads jar budget
+Tahini & Spreads, 2028 budget
+Data
+Sales manager's proposal (jars)
+1,400,000
+Volume supported by orders and market data (jars)
+1,500,000
+Contribution margin per jar
+$1.50
+C303-1  Classify each cost for the plant manager. (On the exam screen you would drag each item into a box.)
+Categories: Controllable · Not controllable
+Cost on the plant manager's report
+Category
+Sesame used per jar
+Price paid for sesame
+Hours worked on the filling line
+Depreciation of the plant
+Head-office costs allocated to the division
+C303-2  Enter the budgetary slack in jars.
+Answer: ____________
+C303-3  Enter the slack in contribution margin.
+Answer: ____________
+C303-4  Enter the slack as a percentage of the evidence-based volume (one decimal).
+Answer: ____________
+C303-5  The best way to agree the budget is to: [select]
+Options: set the evidence-based volume after discussion, and link the bonus to more than one measure   |   accept the manager's figure to keep him motivated   |   impose the controller's figure without discussion   |   average the two figures
+C303-6  Samir's bonus system mainly harms: [select]
+Options: goal congruence   |   the time frame of the budget   |   the controllability of sesame usage   |   the economic assumptions
+C303-7  Building an easy target into the budget so that it is easier to beat is called budgetary ____.
+Choose the word or phrase for the blank: slack   |   revision   |   congruence   |   control
+Answers and explanations
+Section checks
+SC303-1  Answer B. A budget has several roles.
+A is wrong. Control is only one role.
+C is wrong. It carries out the strategic plan.
+D is wrong. It is an internal management tool.
+SC303-2  Answer C. Agreed, realistic targets make results meaningful.
+A is wrong. Imposed targets carry less meaning.
+B is wrong. Impossible targets are always missed.
+D is wrong. A secret target cannot guide effort.
+SC303-3  Answer A. Market size is an industry assumption.
+B is wrong. Unrelated to the economy.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+SC303-4  Answer D. Market × share.
+A is wrong. This is the manager's proposal.
+B is wrong. This uses a 10% share.
+C is wrong. The share is misread.
+SC303-5  Answer B. Allocation follows the strategy.
+A is wrong. Large requests do not mean high priority.
+C is wrong. Equal shares ignore strategy.
+D is wrong. Order of requests is irrelevant.
+SC303-6  Answer D. An equal cut ignores priorities.
+A is wrong. The star would also be cut.
+B is wrong. It does not change the funds.
+C is wrong. A budget is still needed.
+SC303-7  Answer A. Investments pay back over years.
+B is wrong. That suits a cash budget.
+C is wrong. Too short for an investment.
+D is wrong. Too short.
+SC303-8  Answer C. Top management leads without dictating.
+A is wrong. That removes participation.
+B is wrong. Others follow top management's lead.
+D is wrong. Staff prepare the detail.
+SC303-9  Answer C. Participation with review uses local knowledge and builds commitment.
+A is wrong. That is an imposed budget.
+B is wrong. Accountants lack operating knowledge.
+D is wrong. They lack commitment and knowledge.
+SC303-10  Answer D. The manager decides how the line is run.
+A is wrong. Set by head office.
+B is wrong. Set by past investment decisions.
+C is wrong. Set by the contract.
+SC303-11  Answer B. It makes the target easy to beat.
+A is wrong. Unrelated.
+C is wrong. That is idle capacity.
+D is wrong. That is a price variance.
+SC303-12  Answer A. Revise for large changes managers cannot control.
+B is wrong. Usage is controllable; its target stays.
+C is wrong. A large uncontrollable change justifies a revision.
+D is wrong. One change does not end the budget.
+SC303-13  Answer B. 80,000 cases × $8.20.
+A is wrong. This is the slack in cases, not dollars.
+C is wrong. This is the contribution margin of the proposal.
+D is wrong. This is the contribution margin of the agreed budget.
+SC303-14  Answer C. A second measure makes padding less useful.
+A is wrong. Removing bonuses removes motivation.
+B is wrong. That invites more slack.
+D is wrong. Evidence must be shared.
+Your turn
+Item
+Answer
+Price paid for concentrate
+Not controllable by the plant manager (set by purchasing and the market)
+Maintenance spending
+Controllable (the plant manager decides when and how much)
+Multiple-choice questions
+P303-01  Answer D. It turns strategy into short-term targets.
+A is wrong. Budgets look forward.
+B is wrong. Unrelated.
+C is wrong. Not a budget link.
+P303-02  Answer A. Targets make comparison possible.
+B is wrong. Budgets do not set law.
+C is wrong. Managers are still needed.
+D is wrong. Records are still needed.
+P303-03  Answer B. The budget sets the detailed short-term targets.
+A is wrong. The mission states purpose.
+C is wrong. An analysis tool, not a plan.
+D is wrong. The strategic plan sets long-term goals.
+P303-04  Answer A. Actual results are compared with it.
+B is wrong. Unrelated.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+P303-05  Answer D. The budget carries out the strategy.
+A is wrong. Targets need evidence.
+B is wrong. Feedback must be timely.
+C is wrong. A revision policy is needed.
+P303-06  Answer C. An unused budget has no effect on behavior.
+A is wrong. Not the missing element.
+B is wrong. Not the missing element.
+D is wrong. Unrelated.
+P303-07  Answer A. Linked plans avoid shortages and surpluses.
+B is wrong. That is the problem budgets solve.
+C is wrong. All units budget.
+D is wrong. Sharing plans is the point.
+P303-08  Answer D. The two plans do not match.
+A is wrong. The mission is not the issue.
+B is wrong. Unrelated.
+C is wrong. Unrelated.
+P303-09  Answer B. Judge managers only on controllable costs.
+A is wrong. Length is not the issue.
+C is wrong. Unrelated.
+D is wrong. Allocations are legal; they are just not controllable.
+P303-10  Answer C. Cash is planned by months or weeks.
+A is wrong. Several years.
+B is wrong. Three to five years.
+D is wrong. One year.
+P303-11  Answer A. Participation needs review against evidence.
+B is wrong. Local knowledge is its strength.
+C is wrong. Top management reviews it.
+D is wrong. It builds commitment.
+P303-12  Answer B. If top managers ignore the budget, so will everyone else.
+A is wrong. Staff prepare schedules.
+C is wrong. It is a management practice.
+D is wrong. Conflicts still need resolving.
+P303-13  Answer C. Revisions are for large changes outside managers' control.
+A is wrong. That removes the target's value.
+B is wrong. The cause matters.
+D is wrong. A revision policy allows some changes.
+P303-14  Answer D. Timely comparison allows action.
+A is wrong. Too late to act.
+B is wrong. Compare like with like: to date with to date.
+C is wrong. Small items can grow.
+P303-15  Answer A. Actual to date − budget to date.
+B is wrong. This compares with the annual budget.
+C is wrong. This is the budget to date.
+D is wrong. This is the actual to date.
+P303-16  Answer B. Slack in jars × contribution margin per jar.
+A is wrong. This is the slack in jars.
+C is wrong. This is the contribution margin of the proposal.
+D is wrong. This is the contribution margin of the evidence.
+Case question: the Tahini & Spreads budget meeting
+C303-1
+Cost on the plant manager's report
+Category
+Sesame used per jar
+Controllable
+Price paid for sesame
+Not controllable
+Hours worked on the filling line
+Controllable
+Depreciation of the plant
+Not controllable
+Head-office costs allocated to the division
+Not controllable
+A cost is controllable if the plant manager can significantly influence it during the year.
+C303-2  Answer: 100,000.
+1,400,000 is wrong: this answer enters the proposal instead of the gap.
+C303-3  Answer: 150,000.
+2,100,000 is wrong: this answer enters the contribution margin of the whole proposal.
+C303-4  Answer: 6.7.
+7.1 is wrong: this answer divides by the proposal instead of the evidence-based volume.
+C303-5  Answer: set the evidence-based volume after discussion, and link the bonus to more than one measure.
+accept the manager's figure to keep him motivated is wrong: this answer this keeps the slack.
+impose the controller's figure without discussion is wrong: this answer this damages commitment.
+average the two figures is wrong: this answer this keeps half of the slack.
+C303-6  Answer: goal congruence.
+the time frame of the budget is wrong: this answer the time frame is not affected.
+the controllability of sesame usage is wrong: this answer usage stays controllable.
+the economic assumptions is wrong: this answer the assumptions are not the issue.
+C303-7  Answer: slack.
+revision is wrong: this answer a revision is a formal change during the year.
+congruence is wrong: this answer slack harms goal congruence.
+control is wrong: this answer control is a role of the budget.
+PART I — STRATEGY AND BUDGETING FOUNDATIONS

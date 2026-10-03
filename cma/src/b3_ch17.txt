@@ -1,0 +1,773 @@
+Chapter 17
+Return on Investment, Residual Income and Measurement Issues
+العائد على الاستثمار والدخل المتبقي وقضايا القياس
+Chapter 15 made the Beverages division an investment center, which means its manager answers for profit and for the assets used to earn it. One number must therefore combine the two. This chapter builds that number two ways, shows where each one misleads, and ends with the accounting policies that quietly change both.
+Figure F317-01 shows the three parts of the chapter.
+Figure F317-01. Chapter 17 roadmap: ROI, residual income, measurement.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.3.a
+explain why performance evaluation measures should be directly related to strategic and operational goals and objectives, why timely feedback is critical, and why performance measures should be related to the factors that drive the element being measured (e.g., cost drivers and revenue drivers)
+Explain why performance measures should follow the strategic and operational goals, and why feedback must be timely.
+Full treatment
+C.3.e
+define and calculate ROI
+Define and calculate return on investment.
+Full treatment
+C.3.f
+analyze and interpret ROI calculations
+Analyse and interpret an ROI calculation.
+Full treatment
+C.3.g
+define and calculate residual income (RI)
+Define and calculate residual income.
+Full treatment
+C.3.h
+analyze and interpret RI calculations
+Analyse and interpret a residual income calculation.
+Full treatment + Extended Example
+C.3.i
+compare the benefits and limitations of ROI and RI as measures of performance and explain their appropriate usage
+Compare the benefits and limitations of ROI and residual income and explain when each is appropriate.
+Full treatment + Extended Example
+C.3.j
+explain how revenue and expense recognition policies may affect the measurement of income and reduce comparability among business units
+Explain how revenue and expense recognition policies affect measured income and reduce comparability.
+Full treatment
+C.3.k
+explain how inventory measurement policies, joint asset sharing, and overall asset measurement policies may affect the measurement of investment and reduce comparability among business units
+Explain how inventory measurement, shared assets and asset measurement policies affect the investment base.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+return on investment (ROI)
+العائد على الاستثمار
+retour sur investissement (ROI)
+residual income (RI)
+الدخل المتبقي
+bénéfice résiduel
+required rate of return
+معدل العائد المطلوب
+taux de rendement exigé
+investment base
+قاعدة الاستثمار
+base d'investissement
+return on sales (operating margin)
+العائد على المبيعات (هامش التشغيل)
+marge opérationnelle
+asset turnover
+معدل دوران الأصول
+rotation des actifs
+suboptimization
+التحسين الجزئي على حساب الكل
+sous-optimisation
+capital charge
+عبء رأس المال
+charge de capital
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 15 produced the segment margins used here. Chapter 1 set the group's return objective, and Chapter 10 tested the plan against it.
+17.1  Measures, goals and feedback
+A performance measure changes behavior, so it must point at what the strategy asks for. A division told to grow in the Gulf and judged only on cost will not grow in the Gulf.
+Feedback must also arrive in time to act on. A variance report that reaches the plant six weeks after the month it describes cannot change the decision that caused it, as Chapter 14 showed.
+Figure F317-02 sets out what a good measure needs. The rest of this chapter applies these tests to two measures of an investment center.
+Figure F317-02. What a good performance measure needs
+What a good measure needs (C.3.a)
+Why
+At Orontes
+Related to strategy
+The measure should reward what the plan asks for
+Chapter 1 set a return objective; ROI measures it
+Timely feedback
+A result that arrives too late cannot change a decision
+Monthly variance reports (Chapter 11), quarterly ROI
+Within the manager's control
+Judge on what the manager decides
+Controllable margin (Chapter 15), not allocated costs
+Few and clear
+Too many measures divide attention
+Chapter 18 builds a balanced set
+SECTION CHECK   Test yourself
+SC317-1  Why must a performance measure follow the company's strategy?
+A.	Because GAAP requires it
+B.	Because measures change what managers do
+C.	Because it is easier to calculate
+D.	Because auditors check it
+SC317-2  A plant receives its variance report six weeks after month end. What is the main problem?
+A.	The figures will be wrong
+B.	The report costs too much
+C.	Managers will not understand it
+D.	The feedback is too late to change the decisions that caused the variances
+Answers and explanations are at the end of the chapter.
+17.2  Return on investment
+Return on investment (ROI) is operating income divided by the operating assets used to earn it. For Beverages: $3,180,000 ÷ $12,000,000 = 26.5%.
+ROI splits into two parts that managers can act on separately. Figure F317-03 shows the relationship: return on sales multiplied by asset turnover.
+Figure F317-03. ROI as margin times asset turnover.
+WORKED EXAMPLE   Worked example: the three divisions
+Figure F317-04 gives ROI for each division, with its margin and turnover. Oils earns a thinner margin than Tahini & Spreads but turns its assets over twice as fast, so its ROI is higher.
+Figure F317-04. Worked example: ROI for the three divisions
+Division, 2028
+Operating income
+Operating assets
+ROI
+Margin
+Turnover
+Beverages
+3,180,000
+12,000,000
+26.5%
+17.7%
+1.50
+Oils
+1,000,000
+5,000,000
+20.0%
+11.1%
+1.80
+Tahini & Spreads
+840,000
+6,000,000
+14.0%
+16.0%
+0.88
+YOUR TURN   The Tahini & Spreads ROI
+Complete the blank cell of Figure F317-05. Answers are at the end of the chapter.
+Figure F317-05. Your turn: the Tahini & Spreads ROI (complete the blank)
+Division, 2028
+Operating income
+Operating assets
+ROI
+Margin
+Turnover
+Beverages
+3,180,000
+12,000,000
+26.5%
+17.7%
+1.50
+Oils
+1,000,000
+5,000,000
+20.0%
+11.1%
+1.80
+Tahini & Spreads
+840,000
+6,000,000
+________
+16.0%
+0.88
+Reading ROI means asking which part moved. A manager can raise ROI by earning more on each sale or by using fewer assets, and the second route is open to abuse: selling a warehouse raises ROI without earning a cent more.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+return on investment (ROI)
+العائد على الاستثمار
+retour sur investissement (ROI)
+return on sales (operating margin)
+العائد على المبيعات (هامش التشغيل)
+marge opérationnelle
+asset turnover
+معدل دوران الأصول
+rotation des actifs
+English (exam term)
+العربية
+Français
+return on investment (ROI)
+العائد على الاستثمار
+retour sur investissement (ROI)
+return on sales (operating margin)
+العائد على المبيعات (هامش التشغيل)
+marge opérationnelle
+asset turnover
+معدل دوران الأصول
+rotation des actifs
+SECTION CHECK   Test yourself
+SC317-3  Operating income is $3,180,000 and operating assets $12,000,000. What is ROI?
+A.	17.7%
+B.	1.50
+C.	26.5%
+D.	37.7%
+SC317-4  A division has a margin of 11.1% and asset turnover of 1.80. What is its ROI?
+A.	20.0%
+B.	12.9%
+C.	6.2%
+D.	11.1%
+Answers and explanations are at the end of the chapter.
+17.3  Residual income
+Residual income (RI) is operating income less a capital charge: the required rate of return multiplied by the investment base. It answers a different question: how much did the division earn above the cost of the capital it used?
+WORKED EXAMPLE   Worked example: residual income for the three divisions
+Beverages: $3,180,000 − 12% × $12,000,000 = $1,740,000. Figure F317-06 gives all three divisions.
+Figure F317-06. Worked example: residual income for the three divisions
+Division, 2028
+Operating income
+Operating assets
+Charge at 12%
+Residual income
+Beverages
+3,180,000
+12,000,000
+1,440,000
+1,740,000
+Oils
+1,000,000
+5,000,000
+600,000
+400,000
+Tahini & Spreads
+840,000
+6,000,000
+720,000
+120,000
+YOUR TURN   The Tahini & Spreads residual income
+Complete the blank cell of Figure F317-07. Answers are at the end of the chapter.
+Figure F317-07. Your turn: the Tahini & Spreads residual income (complete the blank)
+Division, 2028
+Operating income
+Operating assets
+Charge at 12%
+Residual income
+Beverages
+3,180,000
+12,000,000
+1,440,000
+1,740,000
+Oils
+1,000,000
+5,000,000
+600,000
+400,000
+Tahini & Spreads
+840,000
+6,000,000
+720,000
+________
+Residual income is an amount, not a percentage, so a large division will usually show more of it than a small one. Beverages earns $1,740,000 against $120,000 for Tahini & Spreads, but that comparison says more about size than about performance.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+residual income (RI)
+الدخل المتبقي
+bénéfice résiduel
+required rate of return
+معدل العائد المطلوب
+taux de rendement exigé
+capital charge
+عبء رأس المال
+charge de capital
+English (exam term)
+العربية
+Français
+residual income (RI)
+الدخل المتبقي
+bénéfice résiduel
+required rate of return
+معدل العائد المطلوب
+taux de rendement exigé
+capital charge
+عبء رأس المال
+charge de capital
+SECTION CHECK   Test yourself
+SC317-5  Operating income is $840,000, assets $6,000,000 and the required return 12%. What is residual income?
+A.	$100,800
+B.	$120,000
+C.	$720,000
+D.	$840,000
+SC317-6  Beverages shows residual income of $1,740,000 and Tahini & Spreads $120,000. What does this prove?
+A.	Little on its own: residual income is an amount, so size dominates
+B.	Beverages is better managed
+C.	Tahini & Spreads should be closed
+D.	Beverages has a higher ROI
+Answers and explanations are at the end of the chapter.
+17.4  Choosing between them
+The two measures can disagree, and the disagreement is the reason both exist. Beverages is offered the filling-line project of Chapter 4: $2,500,000 of assets earning $450,000 a year, a return of 18.0%.
+Figure F317-08. The project's return against the division's ROI and the required return.
+Figure F317-08 shows the problem. The project earns well above the 12% the company requires, but below the 26.5% the division already earns, so accepting it pulls the division's ROI down to 25.0%.
+WORKED EXAMPLE   Worked example: the project under both measures
+Figure F317-09 works it through. Under ROI the manager rejects a project the company wants; under residual income the manager accepts it, because $450,000 exceeds the $300,000 capital charge by $150,000.
+Figure F317-09. Worked example: the filling line under ROI and residual income
+Beverages and the filling line
+Division now
+The project
+Division after
+Operating income
+3,180,000
+450,000
+3,630,000
+Operating assets
+12,000,000
+2,500,000
+14,500,000
+ROI
+26.5%
+18.0%
+25.0%
+Capital charge at 12%
+1,440,000
+300,000
+1,740,000
+Residual income
+1,740,000
+150,000
+1,890,000
+This is suboptimization: a decision that improves one measure while harming the company. Figure F317-10 sets out the benefits and limitations of each measure.
+Figure F317-10. Benefits and limitations of ROI and residual income
+Measure (C.3.i)
+Benefits
+Limitations
+ROI
+A percentage, so divisions of different size can be compared
+Can lead a manager to reject a project that earns more than the required return
+Residual income
+Accepts every project above the required return, so no suboptimization
+An amount, so a large division will always show more than a small one
+Both
+Need an agreed investment base and income measure
+Both can be improved by cutting assets rather than by earning more
+EXAM TRAP   Compare the project with the required return
+A project should be judged against the required rate of return, not against the division's current ROI. Any project above the required return raises residual income and makes the company better off.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+suboptimization
+التحسين الجزئي على حساب الكل
+sous-optimisation
+investment base
+قاعدة الاستثمار
+base d'investissement
+English (exam term)
+العربية
+Français
+suboptimization
+التحسين الجزئي على حساب الكل
+sous-optimisation
+investment base
+قاعدة الاستثمار
+base d'investissement
+SECTION CHECK   Test yourself
+SC317-7  A division earning 26.5% is offered a project returning 18%, when the required return is 12%. What happens under each measure?
+A.	Both accept
+B.	Both reject
+C.	ROI accepts, residual income rejects
+D.	ROI rejects, residual income accepts
+SC317-8  A project needs $2,500,000 and earns $450,000 when the required return is 12%. What does it add to residual income?
+A.	$54,000
+B.	$150,000
+C.	$300,000
+D.	$450,000
+Answers and explanations are at the end of the chapter.
+17.5  What goes into the figures
+Both measures depend on two numbers that accounting policy can move. Figure F317-11 lists the income policies that make divisions hard to compare.
+Figure F317-11. Income policies that reduce comparability
+Policy (C.3.j)
+Effect on measured income
+What to do
+Revenue recognition
+A division recognising revenue earlier reports more income now
+Compare only divisions using the same policy
+Development spending
+One division capitalises it, another expenses it
+Adjust before comparing, or agree one policy
+Depreciation method
+Straight line against an accelerated method changes income and assets
+Use one group policy for internal reporting
+Allocated common costs
+The allocation changes reported income but not performance
+Measure on the segment margin (Chapter 15)
+A division that recognises revenue earlier, or expenses development that another capitalises, will report different income for identical work. Comparison then measures the policy, not the performance.
+The group therefore fixes one set of policies for internal reporting, even where local statements differ. Levant reports under IFRS in Jordan, but its figures are restated to group policy before any division is compared.
+The investment base is just as open to question. Figure F317-12 lists the main issues: the inventory method, assets shared between divisions, and whether assets are measured at gross or net book value.
+Figure F317-12. Policies that change the investment base
+Policy (C.3.k)
+Effect on the investment base
+What to do
+Inventory method
+FIFO and weighted average give different inventory and cost of sales
+Agree one method for internal measurement
+Joint asset sharing
+The shared cold store of Chapter 15 serves two divisions
+Allocate the asset on the same basis as its cost, or exclude it from both
+Gross or net book value
+Beverages: 26.5% on net book value, 15.9% on gross
+Net book value flatters divisions with old assets
+Leased assets
+A leased plant may or may not appear in the base
+Follow one rule across all divisions
+Idle or non-operating assets
+Land held for sale is not used to earn operating income
+Exclude it from the investment base
+The last one matters most. Beverages shows 26.5% on net book value but only 15.9% on the gross cost of $20,000,000, because its plant is partly depreciated. A division with old assets looks better than one that has just invested, which discourages exactly the investment the company wants.
+Each of these choices can be defended, and none of them is about performance. What matters is that every division uses the same one, and that the basis is stated with the figures.
+EXAM TRAP   Ask what the base contains
+Before comparing two divisions, ask whether both use the same inventory method, the same treatment of shared assets, and the same basis for property. A difference in any of them makes the comparison meaningless.
+SECTION CHECK   Test yourself
+SC317-9  One division capitalises development spending and another expenses it. What follows?
+A.	Both report the same income
+B.	Only cash differs
+C.	The difference affects assets but not income
+D.	Their ROI figures are not comparable
+SC317-10  A division's plant cost $20,000,000 and has accumulated depreciation of $8,000,000. Operating income is $3,180,000. What is ROI on gross book value?
+A.	26.5%
+B.	15.9%
+C.	39.8%
+D.	12.0%
+Answers and explanations are at the end of the chapter.
+17.6  Extended Example 17A: the filling line and the two measures
+This example takes the project decision to the board. It is exam-core.
+1. What each measure says
+Figure F317-13. Extended Example: what each measure tells the manager
+Measure
+Before
+After
+What the manager does
+ROI
+26.5%
+25.0%
+Falls by 1.5 points: the manager rejects the project
+Residual income
+1,740,000
+1,890,000
+Rises by 150,000: the manager accepts the project
+The company's view
+required return 12%
+18.0%
+The project earns more than the required return: it should go ahead
+Figure F317-13 sets the two measures side by side. ROI falls by 1.5 points, which the manager will resist; residual income rises by $150,000, which is the company's gain.
+2. What the board did
+The board approved the line, as Chapter 4 recorded, and changed how the Beverages manager is judged: residual income for investment decisions, ROI for comparing divisions. Both are reported each quarter.
+3. Tie line
+WORKED EXAMPLE   Everything ties
+Beverages ROI 17.7% × 1.50 = 26.5%; the segment margin comes from Chapter 15.
+Project: $450,000 − $300,000 = $150,000 added to residual income.
+4. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+return on investment (ROI)
+العائد على الاستثمار
+retour sur investissement (ROI)
+residual income (RI)
+الدخل المتبقي
+bénéfice résiduel
+suboptimization
+التحسين الجزئي على حساب الكل
+sous-optimisation
+English (exam term)
+العربية
+Français
+return on investment (ROI)
+العائد على الاستثمار
+retour sur investissement (ROI)
+residual income (RI)
+الدخل المتبقي
+bénéfice résiduel
+suboptimization
+التحسين الجزئي على حساب الكل
+sous-optimisation
+5. How the exam asks it
+EXAM TRAP   Exam view
+Expect operating income, an investment base and a required return, then a project with its own income and investment. Calculate ROI and residual income before and after, and say which measure leads to the decision the company wants.
+6. Self-check
+SECTION CHECK   Test yourself
+SC317-11  Use the Extended Example. What is Beverages' residual income after accepting the project?
+A.	$150,000
+B.	$450,000
+C.	$1,740,000
+D.	$1,890,000
+SC317-12  Use the Extended Example. Why did the board keep both measures?
+A.	Because they always agree
+B.	Because GAAP requires both
+C.	ROI compares divisions of different size; residual income guides investment decisions
+D.	To make the report longer
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F317-14 brings the chapter together.
+Figure F317-14. Chapter 17 summary map: the key rule for each section.
+Performance measures should follow the strategy and reach managers in time to act. Return on investment is operating income divided by operating assets, and equals return on sales times asset turnover. Residual income is operating income less the required return times the investment base. ROI allows divisions of different size to be compared, but can lead a manager to reject a project that earns more than the required return; residual income avoids that fault but cannot be compared across sizes. Both depend on income and asset measurement policies, which must be the same before any comparison is made.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P317-01  ROI is calculated as:
+A.	operating income ÷ revenue
+B.	operating income ÷ operating assets
+C.	revenue ÷ operating assets
+D.	operating assets ÷ operating income
+P317-02  Operating income $1,000,000 and operating assets $5,000,000. What is ROI?
+A.	11.1%
+B.	1.80
+C.	20.0%
+D.	50.0%
+P317-03  A manager sells a warehouse that earned nothing. What happens to ROI?
+A.	It rises, because assets fall while income is unchanged
+B.	It falls
+C.	It is unchanged
+D.	It becomes negative
+P317-04  Two divisions have the same ROI, but one has a higher margin and the other a higher turnover. What does this show?
+A.	One is better managed
+B.	One uses different accounting
+C.	Their residual income is equal
+D.	They reached the same return by different routes
+P317-05  The capital charge in residual income is:
+A.	interest actually paid
+B.	depreciation
+C.	the income tax charge
+D.	the required rate of return times the investment base
+P317-06  Operating income $1,000,000, assets $5,000,000, required return 12%. What is residual income?
+A.	$400,000
+B.	$600,000
+C.	$880,000
+D.	$1,000,000
+P317-07  A division's residual income is negative. What does that mean?
+A.	It earned less than the required return on its assets
+B.	It made a loss
+C.	Its ROI is negative
+D.	It should be closed at once
+P317-08  The main advantage of residual income over ROI is that it:
+A.	is a percentage
+B.	does not lead managers to reject projects above the required return
+C.	needs no required return
+D.	ignores assets
+P317-09  The main advantage of ROI over residual income is that it:
+A.	always gives the right investment decision
+B.	needs no assets figure
+C.	cannot be manipulated
+D.	allows comparison between divisions of different size
+P317-10  A division earning 14% is offered a project returning 13% when the required return is 12%. Under residual income the manager should:
+A.	reject: it is below the division's ROI
+B.	reject: 13% is too low
+C.	accept: the return exceeds the required rate
+D.	ask head office to decide
+P317-11  Which policy difference most directly reduces comparability of divisional income?
+A.	Different revenue recognition timing
+B.	Different office locations
+C.	Different headcount
+D.	Different customers
+P317-12  Using net book value rather than gross book value for the investment base tends to:
+A.	lower ROI for divisions with old assets
+B.	raise ROI for divisions with old assets
+C.	leave ROI unchanged
+D.	raise ROI for divisions that have just invested
+P317-13  A cold store is shared by two divisions. For ROI, the asset should be:
+A.	charged entirely to the larger division
+B.	allocated on the same basis as its cost, or excluded from both
+C.	ignored
+D.	included in both divisions in full
+P317-14  Which asset should be excluded from the investment base?
+A.	The plant in use
+B.	Inventory
+C.	Land held for sale and not used in operations
+D.	Delivery vehicles
+P317-15  Revenue is $9,000,000, operating income $1,000,000 and assets $5,000,000. What is asset turnover?
+A.	0.20
+B.	0.56
+C.	1.80
+D.	5.00
+P317-16  A company judges a division only on ROI and finds it has stopped investing. What is the likely explanation?
+A.	There are no good projects
+B.	The required return is too low
+C.	Residual income is negative
+D.	New investment would lower the division's ROI, so the manager avoids it
+Case question: the tahini investment decision
+The Tahini & Spreads division has been asked to grow, and its manager, Samir, has found a way to do it. A new filling and packing line would let the division supply a Gulf supermarket chain that wants its own-label tahini in large volumes.
+The line would cost a known amount and would add a known amount of operating income each year. Head office expects every division to earn a required rate of return on the assets it uses, and judges divisions on return on investment. The Gulf chain has asked for a three-year supply agreement, so the extra income would be reasonably certain.
+Samir has done the arithmetic and does not like the answer. The project earns more than the required return, but less than the return his division already makes, so accepting it would pull his own measure down. He has told the controller he would rather not proceed.
+Rania, the controller, must calculate the division's return on investment and residual income before and after the project, show the board which measure leads to the decision the company wants, and recommend how Samir should be judged in future.
+Use Figure F317-15 for items C317-1 to C317-7.
+How to enter answers: Enter percentages to one decimal place and amounts in whole U.S. dollars, without the % or $ sign and without commas (for example, 14.0 or 120000).
+Figure F317-15. Case exhibit: Tahini & Spreads investment data
+Tahini & Spreads: a proposed investment
+Amount
+Division operating income for the year
+840,000
+Division operating assets
+6,000,000
+Required rate of return
+12%
+Investment in the new line
+1,000,000
+Extra operating income it would earn each year
+130,000
+C317-1  Classify each statement. (On the exam screen you would drag each item into a box.)
+Categories: Supports accepting · Supports rejecting
+Statement
+Category
+The project returns more than the required rate of return
+The project would lower the division's return on investment
+The project raises the division's residual income
+The company earns more than its cost of capital on the new assets
+The manager's bonus is based on return on investment
+C317-2  Enter the division's return on investment before the project, as a percentage.
+Answer: ____________
+C317-3  Enter the division's return on investment after the project, as a percentage.
+Answer: ____________
+C317-4  Enter the division's residual income before the project.
+Answer: ____________
+C317-5  Enter the division's residual income after the project.
+Answer: ____________
+C317-6  Rania should advise the board that: [select]
+Options: the project should go ahead, and Samir should be judged on residual income for investment decisions   |   the project should be rejected because it lowers return on investment   |   the project should go ahead only if the required return is raised   |   the division should be sold
+C317-7  A decision that improves one division's measure while harming the company is called ____.
+Choose the word or phrase for the blank: suboptimization   |   residual income   |   asset turnover   |   goal congruence
+Answers and explanations
+Section checks
+SC317-1  Answer B. People work towards what is measured.
+A is wrong. Internal measures are a management choice.
+C is wrong. Ease is not the reason.
+D is wrong. Auditors check external statements.
+SC317-2  Answer D. Feedback must be timely to be useful.
+A is wrong. Lateness does not make figures wrong.
+B is wrong. Cost is not the issue.
+C is wrong. Understanding is not the issue.
+SC317-3  Answer C. Income ÷ assets.
+A is wrong. This is the margin on revenue.
+B is wrong. This is asset turnover.
+D is wrong. The division is wrong.
+SC317-4  Answer A. Margin × turnover.
+B is wrong. This adds the two figures.
+C is wrong. This divides instead of multiplying.
+D is wrong. Turnover is ignored.
+SC317-5  Answer B. Income less the capital charge.
+A is wrong. This applies 12% to income.
+C is wrong. This is the capital charge.
+D is wrong. The charge is not deducted.
+SC317-6  Answer A. An amount cannot compare different sizes.
+B is wrong. Size, not skill, may explain the gap.
+C is wrong. Its residual income is positive.
+D is wrong. True here, but not shown by these amounts.
+SC317-7  Answer D. The project is below the division's ROI but above the required return.
+A is wrong. ROI would fall, so the manager resists.
+B is wrong. Residual income rises.
+C is wrong. The reverse is true.
+SC317-8  Answer B. Income less the charge on the new assets.
+A is wrong. This applies 12% to the income.
+C is wrong. This is the capital charge.
+D is wrong. The capital charge is ignored.
+SC317-9  Answer D. Both income and assets differ for identical work.
+A is wrong. Income differs by the amount capitalised.
+B is wrong. Cash is the same; the accounting differs.
+C is wrong. Income differs too.
+SC317-10  Answer B. Income ÷ gross cost.
+A is wrong. This uses net book value.
+C is wrong. This uses accumulated depreciation.
+D is wrong. This is the required return.
+SC317-11  Answer D. The old figure plus the project's addition.
+A is wrong. This is the increase only.
+B is wrong. This is the project's income before the charge.
+C is wrong. This is the figure before the project.
+SC317-12  Answer C. Each answers a different question.
+A is wrong. They disagreed on this project.
+B is wrong. Internal measures are a choice.
+D is wrong. Not a reason.
+Your turn
+Item
+Answer
+Tahini & Spreads ROI
+$840,000 ÷ $6,000,000 = 14.0%
+Tahini & Spreads residual income
+$840,000 − 12% × $6,000,000 = $120,000
+Multiple-choice questions
+P317-01  Answer B. It links profit to the assets used.
+A is wrong. That is the margin.
+C is wrong. That is asset turnover.
+D is wrong. The division is inverted.
+P317-02  Answer C. Income ÷ assets.
+A is wrong. This is the margin on revenue.
+B is wrong. This is turnover.
+D is wrong. The division is wrong.
+P317-03  Answer A. A smaller base raises the ratio.
+B is wrong. Lower assets raise the ratio.
+C is wrong. The denominator changed.
+D is wrong. Income is still positive.
+P317-04  Answer D. Margin and turnover are the two levers.
+A is wrong. The split alone does not show that.
+B is wrong. Possible, but not shown.
+C is wrong. That depends on size.
+P317-05  Answer D. It is a notional cost of capital.
+A is wrong. Interest is an actual expense on debt only.
+B is wrong. Depreciation is already in income.
+C is wrong. Tax is separate.
+P317-06  Answer A. Income less the charge.
+B is wrong. This is the capital charge.
+C is wrong. This applies 12% to income.
+D is wrong. No charge is deducted.
+P317-07  Answer A. Income did not cover the capital charge.
+B is wrong. Operating income can still be positive.
+C is wrong. ROI can be positive but below the required rate.
+D is wrong. Closing is a separate decision.
+P317-08  Answer B. It avoids suboptimization.
+A is wrong. It is an amount.
+C is wrong. It needs one.
+D is wrong. It charges for assets.
+P317-09  Answer D. A percentage is size-neutral.
+A is wrong. It can reject good projects.
+B is wrong. It needs one.
+C is wrong. It can be raised by cutting assets.
+P317-10  Answer C. Any return above 12% adds residual income.
+A is wrong. That is the ROI reasoning.
+B is wrong. It is above the required return.
+D is wrong. The measure already answers it.
+P317-11  Answer A. The same work reports different income.
+B is wrong. Not an accounting policy.
+C is wrong. Not an accounting policy.
+D is wrong. Not an accounting policy.
+P317-12  Answer B. Depreciation shrinks the base over time.
+A is wrong. The base falls, so the ratio rises.
+C is wrong. The base differs.
+D is wrong. New assets have little depreciation.
+P317-13  Answer B. The base must match the income measure.
+A is wrong. Arbitrary and unfair.
+C is wrong. It is used to earn income.
+D is wrong. That counts it twice.
+P317-14  Answer C. It earns no operating income.
+A is wrong. It is used in operations.
+B is wrong. It is used in operations.
+D is wrong. It is used in operations.
+P317-15  Answer C. Revenue ÷ assets.
+A is wrong. This is ROI.
+B is wrong. The division is inverted.
+D is wrong. Assets ÷ income.
+P317-16  Answer D. Classic suboptimization.
+A is wrong. Projects above the required return may exist.
+B is wrong. The required return is not the obstacle.
+C is wrong. Not implied by the facts.
+Case question: the tahini investment decision
+C317-1
+Statement
+Category
+The project returns more than the required rate of return
+Supports accepting
+The project would lower the division's return on investment
+Supports rejecting
+The project raises the division's residual income
+Supports accepting
+The company earns more than its cost of capital on the new assets
+Supports accepting
+The manager's bonus is based on return on investment
+Supports rejecting
+Decide whether each statement supports accepting the project or rejecting it.
+C317-2  Answer: 14.0.
+13.0 is wrong: this answer gives the project's own return.
+C317-3  Answer: 13.9.
+14.0 is wrong: this answer leaves the new assets out of the base.
+C317-4  Answer: 120,000.
+840,000 is wrong: this answer omits the capital charge.
+C317-5  Answer: 130,000.
+970,000 is wrong: this answer omits the capital charge entirely.
+C317-6  Answer: the project should go ahead, and Samir should be judged on residual income for investment decisions.
+the project should be rejected because it lowers return on investment is wrong: this answer the project earns more than the required return.
+the project should go ahead only if the required return is raised is wrong: this answer raising the hurdle would reject more good projects.
+the division should be sold is wrong: this answer nothing in the figures supports that.
+C317-7  Answer: suboptimization.
+residual income is wrong: this answer that is a performance measure.
+asset turnover is wrong: this answer that is part of the ROI formula.
+goal congruence is wrong: this answer that is the opposite outcome.
+PART III — MEASURING AND MANAGING PERFORMANCE

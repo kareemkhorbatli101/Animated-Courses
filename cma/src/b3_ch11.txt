@@ -1,0 +1,821 @@
+Chapter 11
+Performance Against the Budget: Flexible Budgets and Sales Variances
+قياس الأداء مقابل الموازنة: الموازنات المرنة وانحرافات المبيعات
+Part II planned the year. Part III now asks a harder question: when the results arrive, what do they tell us? In June 2028, Beverages planned 75,000 cases and an operating income of $265,000. It sold 72,000 cases and earned $247,632. This chapter explains how much of that gap came from volume, and how much from everything else.
+Figure F311-01 shows the three columns used throughout Part III.
+Figure F311-01. Chapter 11 roadmap: master budget, flexible budget, actual.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.1.a
+analyze performance against operational goals using measures based on revenue, manufacturing costs, nonmanufacturing costs, and profit depending on the type of center or unit being measured
+Analyse performance against operational goals using measures of revenue, manufacturing costs, non-manufacturing costs and profit.
+Full treatment
+C.1.b
+explain the reasons for variances within a performance monitoring system
+Explain the reasons for variances in a performance monitoring system.
+Full treatment
+C.1.c
+prepare a performance analysis by comparing actual results to the master budget, calculate favorable and unfavorable variances from the budget, and provide explanations for variances
+Compare actual results with the master budget and calculate favorable and unfavorable variances.
+Full treatment
+C.1.d
+identify and describe the benefits and limitations of measuring performance by comparing actual results to the master budget
+Describe the benefits and limitations of measuring performance against the master budget.
+Full treatment
+C.1.e
+analyze a flexible budget based on actual sales (output) volume
+Analyse a flexible budget based on the actual sales volume.
+Full treatment
+C.1.f
+calculate the sales-volume variance and the sales-price variance
+Calculate the sales-volume variance and the sales-price variance.
+Full treatment
+C.1.g
+calculate the flexible-budget variance by comparing actual results to the flexible budget
+Calculate the flexible-budget variance by comparing actual results with the flexible budget.
+Full treatment
+C.1.h
+investigate the flexible-budget variance to determine individual differences between actual and budgeted input prices and input quantities
+Investigate the flexible-budget variance to find the differences in input prices and quantities.
+Full treatment (calculations in Chapter 12)
+C.1.i
+explain how budget variance reporting is utilized in a management-by- exception environment
+Explain how variance reporting is used in a management-by-exception environment.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+master-budget (static-budget) variance
+انحراف الموازنة الشاملة (الثابتة)
+écart sur budget général (fixe)
+flexible-budget variance
+انحراف الموازنة المرنة
+écart sur budget flexible
+sales-volume variance
+انحراف حجم المبيعات
+écart sur volume des ventes
+sales-price variance
+انحراف سعر البيع
+écart sur prix de vente
+favorable variance
+انحراف ملائم
+écart favorable
+unfavorable variance
+انحراف غير ملائم
+écart défavorable
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 5 prepared flexible budgets at several volumes, and Chapter 8 built the operating budget. Book 2, Chapter 18 set the standard cost card that the budget costs come from.
+11.1  Measuring performance against the plan
+Performance is measured against the operational goals set in the budget: revenue, manufacturing costs, non-manufacturing costs and profit. Figure F311-02 shows what each measure says about June.
+Figure F311-02. Measures of performance against operational goals
+Measure (C.1.a)
+June 2028
+What it reflects
+Revenue
+Sales of $1,468,800 against $1,500,000 planned
+Volume and price
+Manufacturing costs
+Concentrate, bottles, labor and overhead per case
+Input prices and quantities
+Non-manufacturing costs
+Variable selling, fixed selling and administrative
+Rates and spending decisions
+Profitability
+Operating income of $247,632 against $265,000 planned
+All of the above together
+A difference between an actual result and a budgeted figure is a variance. It is a favorable variance when it raises operating income above the budget and an unfavorable variance when it lowers it. The words describe the effect on income, not whether the news is good.
+EXAM TRAP   Favorable is not always good
+A favorable material price variance may come from buying poor-quality concentrate that later causes spillage. Always ask what caused the variance before judging performance.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+favorable variance
+انحراف ملائم
+écart favorable
+unfavorable variance
+انحراف غير ملائم
+écart défavorable
+English (exam term)
+العربية
+Français
+favorable variance
+انحراف ملائم
+écart favorable
+unfavorable variance
+انحراف غير ملائم
+écart défavorable
+SECTION CHECK   Test yourself
+SC311-1  A variance is called favorable when it:
+A.	is a positive number
+B.	comes from a lower volume
+C.	raises operating income above the budgeted figure
+D.	is reported by the plant manager
+SC311-2  A favorable material price variance appears in the same month as an unfavorable usage variance. What is the most likely explanation?
+A.	The budget was prepared late
+B.	Cheaper, poorer material was bought and more of it was wasted
+C.	Sales volume rose
+D.	The wage rate changed
+Answers and explanations are at the end of the chapter.
+11.2  The master-budget variance
+The master-budget (static-budget) variance is the difference between the actual result and the master budget. For June, operating income was $17,368 below the plan.
+WORKED EXAMPLE   Worked example: June against the master budget
+Sales were $1,468,800 against $1,500,000 planned, and operating income $247,632 against $265,000. Figure F311-03 sets the two columns side by side.
+Figure F311-03. Worked example: June actual results against the master budget
+June 2028 (USD)
+Actual
+Master budget
+Variance
+Cases sold
+72,000
+75,000
+3,000 fewer
+Sales
+1,468,800
+1,500,000
+31,200 U
+Variable costs
+863,168
+885,000
+21,832 F
+Contribution margin
+605,632
+615,000
+9,368 U
+Fixed costs
+358,000
+350,000
+8,000 U
+Operating income
+247,632
+265,000
+17,368 U
+The total is not very useful on its own, because the division sold 3,000 fewer cases than planned. Lower volume reduces both revenue and variable costs, so the comparison mixes two different stories.
+Figure F311-04 shows the answer: the master-budget variance splits into a sales-volume variance and a flexible-budget variance.
+Figure F311-04. The master-budget variance split into two parts.
+Figure F311-05 lists the benefits and limitations of the master-budget comparison. It shows the full gap from the plan, which the board wants to know, but it is not a fair measure of cost control when volume differs.
+Figure F311-05. Benefits and limitations of comparing with the master budget
+Benefits of comparing with the master budget (C.1.d)
+Limitations
+Shows the total gap from the plan, including volume
+Mixes volume with prices and efficiency
+Simple and well understood
+Can blame a manager for a volume shortfall caused by the market
+Useful for the board, which approved the plan
+Not a fair measure of cost control when volume differs
+The comparison is therefore kept for the board and for the sales team, who are responsible for volume. The plant manager is judged on the flexible budget of the next section, which holds volume constant.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+master-budget (static-budget) variance
+انحراف الموازنة الشاملة (الثابتة)
+écart sur budget général (fixe)
+English (exam term)
+العربية
+Français
+master-budget (static-budget) variance
+انحراف الموازنة الشاملة (الثابتة)
+écart sur budget général (fixe)
+SECTION CHECK   Test yourself
+SC311-3  Actual operating income is $247,632 and the master budget showed $265,000. What is the master-budget variance?
+A.	$17,368 unfavorable
+B.	$17,368 favorable
+C.	$7,232 favorable
+D.	$24,600 unfavorable
+SC311-4  What is the main limitation of comparing actual results with the master budget?
+A.	It is too detailed
+B.	It cannot be calculated
+C.	It ignores revenue
+D.	It mixes the effect of volume with prices and efficiency
+Answers and explanations are at the end of the chapter.
+11.3  The flexible budget
+The flexible budget answers the question: what should the results have been at the volume actually sold? It uses the actual volume with budgeted prices and budgeted costs. Fixed costs do not change, because they do not depend on volume.
+WORKED EXAMPLE   Worked example: the flexible budget for June
+At 72,000 cases: sales 72,000 × $20.00 = $1,440,000; variable costs × $11.80 = $849,600; fixed costs stay at $350,000. Operating income is $240,400. Figure F311-06 shows all three columns.
+Figure F311-06. Worked example: the three-column analysis for June
+June 2028 (USD)
+Actual
+Flexible budget (72,000 cases)
+Master budget (75,000 cases)
+Cases
+72,000
+72,000
+75,000
+Sales
+1,468,800
+1,440,000
+1,500,000
+Variable costs
+863,168
+849,600
+885,000
+Contribution margin
+605,632
+590,400
+615,000
+Fixed costs
+358,000
+350,000
+350,000
+Operating income
+247,632
+240,400
+265,000
+YOUR TURN   The flexible-budget column
+Complete the blank cells of Figure F311-07. Answers are at the end of the chapter.
+Figure F311-07. Your turn: the flexible-budget column (complete the blanks)
+June 2028 (USD)
+Actual
+Flexible budget (72,000 cases)
+Master budget (75,000 cases)
+Cases
+72,000
+72,000
+75,000
+Sales
+1,468,800
+1,440,000
+1,500,000
+Variable costs
+863,168
+________
+885,000
+Contribution margin
+605,632
+________
+615,000
+Fixed costs
+358,000
+350,000
+350,000
+Operating income
+247,632
+________
+265,000
+EXAM TRAP   Fixed costs do not flex
+The flexible budget changes only the variable items. Scaling fixed costs down to 72,000 cases would hide the real fixed-cost overspending and give the wrong flexible-budget variance.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+flexible-budget variance
+انحراف الموازنة المرنة
+écart sur budget flexible
+English (exam term)
+العربية
+Français
+flexible-budget variance
+انحراف الموازنة المرنة
+écart sur budget flexible
+SECTION CHECK   Test yourself
+SC311-5  The budget is 75,000 cases with variable costs of $11.80 a case and fixed costs of $350,000. What are the flexible-budget costs at 72,000 cases?
+A.	$849,600
+B.	$1,185,000
+C.	$1,199,600
+D.	$1,236,000
+SC311-6  In a flexible budget, fixed costs are:
+A.	scaled in proportion to actual volume
+B.	removed
+C.	replaced by actual fixed costs
+D.	left at the budgeted amount
+Answers and explanations are at the end of the chapter.
+11.4  Sales-volume, sales-price and flexible-budget variances
+The sales-volume variance is the difference between the flexible budget and the master budget. It equals the change in units multiplied by the budgeted contribution margin per unit: (72,000 − 75,000) × $8.20 = $24,600, unfavorable.
+The sales-price variance compares the actual price with the budgeted price on the units actually sold: ($20.40 − $20.00) × 72,000 = $28,800, favorable. Note the different bases: the volume variance uses the budgeted margin, the price variance uses actual units.
+The flexible-budget variance is the difference between the actual result and the flexible budget: $7,232, favorable. Figure F311-08 summarizes all of them and shows how they add up.
+Figure F311-08. Worked example: the June variances and how they add up
+Variance
+Calculation
+Effect on operating income
+Sales-volume variance
+(72,000 − 75,000) × $8.20
+24,600 U
+Sales-price variance
+($20.40 − $20.00) × 72,000
+28,800 F
+Variable cost variance
+actual − flexible budget
+13,568 U
+Fixed cost variance
+actual − budget
+8,000 U
+Flexible-budget variance
+price + cost variances
+7,232 F
+Master-budget variance
+flexible-budget + sales-volume
+17,368 U
+Figure F311-09 opens the cost side of the flexible-budget variance item by item. Concentrate is $13,240 over budget, and the fixed costs are $8,000 over.
+Figure F311-09. The cost side of the flexible-budget variance
+Cost (June 2028)
+Actual
+Flexible budget
+Variance
+Concentrate
+402,040
+388,800
+13,240 U
+Bottles, caps and cartons
+258,000
+259,200
+1,200 F
+Direct labor
+44,528
+43,200
+1,328 U
+Variable overhead
+71,000
+72,000
+1,000 F
+Variable selling
+87,600
+86,400
+1,200 U
+Variable costs
+863,168
+849,600
+13,568 U
+Fixed manufacturing
+152,000
+150,000
+2,000 U
+Fixed selling and administrative
+206,000
+200,000
+6,000 U
+Fixed costs
+358,000
+350,000
+8,000 U
+Figure F311-10 draws the whole reconciliation: from the master budget, down by the volume variance, up by the price variance, down by the cost variances, to the actual result.
+Figure F311-10. From master-budget income to actual income.
+EXAM TRAP   Volume at margin, price at actual units
+Valuing the volume variance at the selling price, or the price variance at budgeted units, are the two most common errors. The volume variance uses the budgeted contribution margin; the price variance uses the units actually sold.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales-volume variance
+انحراف حجم المبيعات
+écart sur volume des ventes
+sales-price variance
+انحراف سعر البيع
+écart sur prix de vente
+English (exam term)
+العربية
+Français
+sales-volume variance
+انحراف حجم المبيعات
+écart sur volume des ventes
+sales-price variance
+انحراف سعر البيع
+écart sur prix de vente
+SECTION CHECK   Test yourself
+SC311-7  Budgeted sales are 75,000 cases at a contribution margin of $8.20; 72,000 were sold. What is the sales-volume variance?
+A.	$60,000 unfavorable
+B.	$24,600 unfavorable
+C.	$3,000 unfavorable
+D.	$24,600 favorable
+SC311-8  The budgeted price is $20.00 and the actual price $20.40; 72,000 cases were sold and 75,000 budgeted. What is the sales-price variance?
+A.	$30,000 favorable
+B.	$28,800 unfavorable
+C.	$28,800 favorable
+D.	$1,468,800 favorable
+Answers and explanations are at the end of the chapter.
+11.5  Investigating variances
+A cost variance still mixes two causes: the price paid for an input and the quantity used. Figure F311-11 separates them for concentrate and labor, and gives the likely reason for each.
+Figure F311-11. Investigating the concentrate and labor differences
+Difference
+Calculation
+Amount
+Likely reason
+Concentrate price
+($0.92 − $0.90) × 437,000 liters
+8,740 U
+A world price rise; not controllable by the plant
+Concentrate usage
+(437,000 − 432,000) liters × $0.90
+4,500 U
+Spillage on the line during a changeover
+Labor rate
+($12.10 − $12.00) × 3,680 hours
+368 U
+Overtime for the summer season
+Labor efficiency
+(3,680 − 3,600) hours × $12.00
+960 U
+The same changeover
+The concentrate price variance of $8,740 came from a world price rise, which the plant cannot control; the usage variance of $4,500 and the labor efficiency variance of $960 came from one long changeover. Chapter 12 calculates these variances in full.
+Common reasons for variances include changes in input prices, the quality of materials, the skill or mix of workers, machine problems, the volume produced, and errors in the budget itself. A variance is a question, not an answer.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales-volume variance
+انحراف حجم المبيعات
+écart sur volume des ventes
+flexible-budget variance
+انحراف الموازنة المرنة
+écart sur budget flexible
+master-budget (static-budget) variance
+انحراف الموازنة الشاملة (الثابتة)
+écart sur budget général (fixe)
+English (exam term)
+العربية
+Français
+sales-volume variance
+انحراف حجم المبيعات
+écart sur volume des ventes
+flexible-budget variance
+انحراف الموازنة المرنة
+écart sur budget flexible
+master-budget (static-budget) variance
+انحراف الموازنة الشاملة (الثابتة)
+écart sur budget général (fixe)
+SECTION CHECK   Test yourself
+SC311-9  Actual operating income is $247,632 and the flexible budget shows $240,400. What is the flexible-budget variance?
+A.	$7,232 unfavorable
+B.	$17,368 unfavorable
+C.	$24,600 unfavorable
+D.	$7,232 favorable
+SC311-10  The concentrate cost is $13,240 over the flexible budget. What should the controller do next?
+A.	Separate the price difference from the quantity difference
+B.	Blame the plant manager
+C.	Change the budget
+D.	Ignore it
+Answers and explanations are at the end of the chapter.
+11.6  Extended Example 11A: the June review meeting
+This example follows the monthly review, where the division decides which variances to investigate. It is exam-core.
+1. The rule
+Orontes follows management by exception: a variance is investigated if it is above 5% of the budgeted figure for that item. Figure F311-12 applies the rule to June.
+Figure F311-12. Extended Example: which variances to investigate
+Item
+Variance
+Share of its budget
+Action under the 5% rule
+Sales price
+28,800 F
+10.9%
+Follow up: can the higher price be kept?
+Sales volume
+24,600 U
+9.3%
+Follow up: why were cases lost?
+Concentrate
+13,240 U
+5.0%
+Follow up: price rise and spillage
+Direct labor
+1,328 U
+3.1%
+Below the 5% rule: no action
+Variable overhead
+1,000 F
+1.4%
+Below the 5% rule: no action
+2. The decisions
+Three items pass the rule. The favorable price variance is investigated as well as the unfavorable ones, because the division wants to know whether the higher price can be kept. Labor and variable overhead are below the rule and are left alone.
+3. What the meeting concluded
+Volume was lost to a competitor's promotion, not to poor selling. The higher price held because the promotion did not reach the hotel customers. The plant's problems came from one changeover, which the lean work of Book 2, Chapter 15 is expected to shorten.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+$247,632 actual − $240,400 flexible = $7,232 favorable; $240,400 − $265,000 master = $24,600 unfavorable.
+Together: $17,368 unfavorable, the master-budget variance.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sales-price variance
+انحراف سعر البيع
+écart sur prix de vente
+favorable variance
+انحراف ملائم
+écart favorable
+unfavorable variance
+انحراف غير ملائم
+écart défavorable
+English (exam term)
+العربية
+Français
+sales-price variance
+انحراف سعر البيع
+écart sur prix de vente
+favorable variance
+انحراف ملائم
+écart favorable
+unfavorable variance
+انحراف غير ملائم
+écart défavorable
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect a master budget, actual results and the actual volume. Build the flexible-budget column first, then the sales-volume and sales-price variances, then the flexible-budget variance. Label each as favorable or unfavorable by its effect on operating income.
+7. Self-check
+SECTION CHECK   Test yourself
+SC311-11  Management by exception means that managers:
+A.	investigate every variance
+B.	ignore all variances
+C.	investigate only the significant variances
+D.	investigate only unfavorable variances
+SC311-12  Use the Extended Example. Why is the favorable sales-price variance investigated?
+A.	Because favorable variances are always errors
+B.	To learn whether the higher price can be kept
+C.	Because the rule covers only unfavorable items
+D.	To correct the budget for last month
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F311-13 brings the chapter together.
+Figure F311-13. Chapter 11 summary map: the key rule for each section.
+Performance is measured against revenue, cost and profit goals, and a variance is favorable or unfavorable by its effect on operating income. The master-budget variance mixes volume with everything else, so it is split: the sales-volume variance values the change in units at the budgeted contribution margin, and the flexible-budget variance compares actual results with budgeted prices and costs at the actual volume. The flexible-budget variance is then opened into price and quantity differences, and the significant ones are investigated under management by exception.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P311-01  Which measure belongs to non-manufacturing cost performance?
+A.	Concentrate used per case
+B.	Machine hours per case
+C.	Freight to customers per case
+D.	Direct labor hours per case
+P311-02  Actual sales are $1,468,800 and budgeted sales $1,500,000. What is the revenue variance?
+A.	$31,200 favorable
+B.	$31,200 unfavorable
+C.	$28,800 favorable
+D.	$68,800 unfavorable
+P311-03  An unfavorable cost variance means that actual costs were:
+A.	above budget
+B.	below budget
+C.	equal to budget
+D.	not recorded
+P311-04  Why can the master-budget comparison be unfair to a plant manager?
+A.	It uses the actual volume
+B.	It ignores fixed costs
+C.	It uses standard costs
+D.	It charges the manager with the effect of a volume shortfall caused by the market
+P311-05  Budgeted price $20.00, variable cost $11.80, fixed costs $350,000. What is flexible-budget operating income at 72,000 cases?
+A.	$240,400
+B.	$265,000
+C.	$590,400
+D.	$1,090,400
+P311-06  The flexible budget uses:
+A.	actual volume with budgeted prices and costs
+B.	budgeted volume with actual prices
+C.	actual volume with actual prices
+D.	budgeted volume with budgeted prices
+P311-07  A company budgeted 10,000 units at a contribution margin of $6 and sold 11,000. What is the sales-volume variance?
+A.	$1,000 favorable
+B.	$6,000 favorable
+C.	$66,000 favorable
+D.	$6,000 unfavorable
+P311-08  Budgeted price $50, actual price $48, units sold 9,000, units budgeted 10,000. What is the sales-price variance?
+A.	$20,000 unfavorable
+B.	$2,000 unfavorable
+C.	$18,000 favorable
+D.	$18,000 unfavorable
+P311-09  The sales-volume variance is $24,600 unfavorable and the flexible-budget variance $7,232 favorable. What is the master-budget variance?
+A.	$31,832 unfavorable
+B.	$17,368 unfavorable
+C.	$17,368 favorable
+D.	$7,232 unfavorable
+P311-10  Actual variable costs are $863,168 and the flexible budget shows $849,600. What is the variable cost variance?
+A.	$13,568 favorable
+B.	$849,600 unfavorable
+C.	$13,568 unfavorable
+D.	$8,400 unfavorable
+P311-11  Actual concentrate: 437,000 liters at $0.92. Standard: 432,000 liters at $0.90. What is the price difference?
+A.	$4,500 unfavorable
+B.	$13,240 unfavorable
+C.	$8,640 unfavorable
+D.	$8,740 unfavorable
+P311-12  Using the same figures, what is the usage difference?
+A.	$4,500 unfavorable
+B.	$4,600 unfavorable
+C.	$8,740 unfavorable
+D.	$5,000 unfavorable
+P311-13  Which is a common reason for an unfavorable labor efficiency variance?
+A.	A world price rise
+B.	A higher selling price
+C.	Lower fixed overhead
+D.	A long machine changeover
+P311-14  A company investigates variances above 5% of the budgeted figure. A cost variance is $1,328 on a budget of $43,200. What should happen?
+A.	Investigate, because the amount is large
+B.	Investigate every variance
+C.	No investigation: it is about 3% of the budget
+D.	Change the standard
+P311-15  Management by exception saves:
+A.	management time and investigation cost
+B.	material cost
+C.	interest
+D.	depreciation
+P311-16  Actual fixed costs are $358,000 and budgeted fixed costs $350,000 for the month. What appears in the flexible-budget column?
+A.	$8,000
+B.	$336,000
+C.	$350,000
+D.	$358,000
+Case question: the tahini month under review
+The Tahini & Spreads division has closed its books for the month, and the result looks disappointing next to the budget. The division manager, Samir, points out that a large Gulf order was delayed, so fewer jars were sold than planned. He also notes that the division raised its price during the month, because a competitor had stopped supplying one chain.
+The controller, Rana, wants to show the review meeting how much of the gap came from the lost volume and how much from everything else. She has the budgeted price, the budgeted variable cost and contribution margin per jar, and the budgeted fixed costs for the month, together with the actual jars sold, the actual price and the actual costs.
+The new assistant has prepared a draft that compares the actual results with the static budget alone. He has also valued the volume shortfall at the selling price, and calculated the price variance on the budgeted number of jars. Rana must correct both calculations.
+Samir wants to know whether the division controlled its costs, once the volume is taken into account.
+Use Figure F311-14 for items C311-1 to C311-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas, and without a minus sign; a separate item asks whether each variance is favorable or unfavorable (for example, 12500).
+Figure F311-14. Case exhibit: Tahini & Spreads budget and actual for the month
+Tahini & Spreads, one month
+Data
+Jars in the static budget
+125,000
+Jars actually sold
+118,000
+Budgeted selling price
+$3.50
+Actual selling price
+$3.60
+Budgeted contribution margin per jar
+$1.50
+Actual variable costs
+240,000
+Budgeted fixed costs for the month
+120,000
+Actual fixed costs
+123,000
+C311-1  Classify each variance for the month. (On the exam screen you would drag each item into a box.)
+Categories: Favorable · Unfavorable
+Variance
+Category
+Sales-price variance
+Sales-volume variance
+Variable cost variance
+Fixed cost variance
+Flexible-budget variance
+C311-2  Enter the flexible-budget operating income for the month.
+Answer: ____________
+C311-3  Enter the sales-volume variance.
+Answer: ____________
+C311-4  Enter the sales-price variance.
+Answer: ____________
+C311-5  Enter the flexible-budget variance.
+Answer: ____________
+C311-6  Taking the volume into account, the division's cost control for the month was: [select]
+Options: worse than budget: variable and fixed costs were both over the flexible budget   |   better than budget, because operating income beat the flexible budget   |   exactly on budget   |   impossible to judge from these figures
+C311-7  The difference between the flexible budget and the static budget is the sales-____ variance.
+Choose the word or phrase for the blank: volume   |   price   |   mix   |   quantity
+Answers and explanations
+Section checks
+SC311-1  Answer C. The label describes the effect on income.
+A is wrong. The sign depends on how the difference is written.
+B is wrong. Lower volume usually lowers income.
+D is wrong. Who reports it does not matter.
+SC311-2  Answer B. Price and quality often move together.
+A is wrong. Timing of the budget does not cause this pattern.
+C is wrong. Volume does not change input prices.
+D is wrong. Wages do not affect material price.
+SC311-3  Answer A. Actual is below the budget.
+B is wrong. Income fell, so it is unfavorable.
+C is wrong. This is the flexible-budget variance.
+D is wrong. This is the sales-volume variance.
+SC311-4  Answer D. Volume changes both revenue and variable costs.
+A is wrong. It is a summary, not too detailed.
+B is wrong. It is easy to calculate.
+C is wrong. Revenue is included.
+SC311-5  Answer C. Variable costs flex; fixed costs do not.
+A is wrong. Fixed costs are left out.
+B is wrong. Fixed costs are scaled down with volume.
+D is wrong. This uses the budgeted volume.
+SC311-6  Answer D. They do not depend on volume.
+A is wrong. That would hide fixed-cost overspending.
+B is wrong. They are still costs.
+C is wrong. The budget keeps budgeted amounts.
+SC311-7  Answer B. Change in units × budgeted contribution margin.
+A is wrong. This values the units at the selling price.
+C is wrong. This is the change in units only.
+D is wrong. Fewer units sold lowers income.
+SC311-8  Answer C. Price difference × actual units.
+A is wrong. This uses budgeted units.
+B is wrong. A higher price raises income.
+D is wrong. This is actual revenue.
+SC311-9  Answer D. Actual is above the flexible budget.
+A is wrong. Income is higher, so it is favorable.
+B is wrong. This is the master-budget variance.
+C is wrong. This is the sales-volume variance.
+SC311-10  Answer A. The two causes have different owners.
+B is wrong. The cause is not yet known.
+C is wrong. Budgets are not changed to hide variances.
+D is wrong. A large variance deserves investigation.
+SC311-11  Answer C. Attention goes where it is worth most.
+A is wrong. That wastes time on small differences.
+B is wrong. Significant ones are investigated.
+D is wrong. Large favorable variances are investigated too.
+SC311-12  Answer B. Favorable results carry useful information too.
+A is wrong. They are not errors by definition.
+C is wrong. The rule covers both directions.
+D is wrong. Past budgets are not corrected.
+Your turn
+Item
+Answer
+Variable costs
+72,000 × $11.80 = $849,600
+Contribution margin
+72,000 × $8.20 = $590,400
+Operating income
+$590,400 − $350,000 = $240,400
+Multiple-choice questions
+P311-01  Answer C. Freight is a selling cost.
+A is wrong. A manufacturing cost.
+B is wrong. A manufacturing measure.
+D is wrong. A manufacturing cost.
+P311-02  Answer B. Revenue is below the budget.
+A is wrong. Lower revenue lowers income.
+C is wrong. This is the price variance alone.
+D is wrong. The subtraction is wrong.
+P311-03  Answer A. Higher costs lower income.
+B is wrong. That would be favorable.
+C is wrong. That is no variance.
+D is wrong. Unrelated.
+P311-04  Answer D. The manager does not control sales volume.
+A is wrong. It uses the budgeted volume.
+B is wrong. Fixed costs are included.
+C is wrong. Standards are not the problem.
+P311-05  Answer A. Contribution margin − fixed costs.
+B is wrong. This is the master budget.
+C is wrong. Fixed costs are not deducted.
+D is wrong. This is revenue less variable costs plus fixed costs.
+P311-06  Answer A. It isolates price and efficiency from volume.
+B is wrong. Volume must be the actual one.
+C is wrong. That is the actual result.
+D is wrong. That is the master budget.
+P311-07  Answer B. 1,000 extra units × $6.
+A is wrong. This is the units only.
+C is wrong. This values all units sold.
+D is wrong. More units raise income.
+P311-08  Answer D. Price difference × actual units.
+A is wrong. This uses budgeted units.
+B is wrong. This is the price difference × 1,000.
+C is wrong. A lower price lowers income.
+P311-09  Answer B. The two parts add to the whole.
+A is wrong. The favorable part is added as unfavorable.
+C is wrong. The unfavorable part is larger.
+D is wrong. The volume variance is left out.
+P311-10  Answer C. Costs above budget lower income.
+A is wrong. Higher costs are unfavorable.
+B is wrong. This is the budget figure.
+D is wrong. Not the difference shown.
+P311-11  Answer D. Price difference × actual quantity.
+A is wrong. This is the usage difference.
+B is wrong. This is the total difference.
+C is wrong. This uses the standard quantity.
+P311-12  Answer A. Extra liters × standard price.
+B is wrong. This uses the actual price.
+C is wrong. This is the price difference.
+D is wrong. This is the extra liters only.
+P311-13  Answer D. Idle or slow time uses more hours.
+A is wrong. That affects material price.
+B is wrong. That affects revenue.
+C is wrong. Unrelated to labor hours.
+P311-14  Answer C. Below the rule.
+A is wrong. The rule is a percentage, not an amount.
+B is wrong. That defeats management by exception.
+D is wrong. Standards are reviewed yearly, not for small variances.
+P311-15  Answer A. Attention is focused.
+B is wrong. It does not change material cost.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+P311-16  Answer C. The flexible budget keeps budgeted fixed costs.
+A is wrong. That is the variance.
+B is wrong. Fixed costs are flexed with volume.
+D is wrong. That is the actual amount.
+Case question: the tahini month under review
+C311-1
+Variance
+Category
+Sales-price variance
+Favorable
+Sales-volume variance
+Unfavorable
+Variable cost variance
+Unfavorable
+Fixed cost variance
+Unfavorable
+Flexible-budget variance
+Favorable
+A variance is favorable if it raises operating income above the budgeted figure.
+C311-2  Answer: 57,000.
+67,500 is wrong: this answer gives the static-budget operating income.
+C311-3  Answer: 10,500.
+24,500 is wrong: this answer values the lost jars at the selling price.
+C311-4  Answer: 11,800.
+12,500 is wrong: this answer uses the budgeted number of jars.
+C311-5  Answer: 4,800.
+5,700 is wrong: this answer compares the actual result with the static budget.
+C311-6  Answer: worse than budget: variable and fixed costs were both over the flexible budget.
+better than budget, because operating income beat the flexible budget is wrong: this answer the favorable price variance, not cost control, raised income.
+exactly on budget is wrong: this answer both cost variances differ from zero.
+impossible to judge from these figures is wrong: this answer the flexible budget makes the comparison possible.
+C311-7  Answer: volume.
+price is wrong: this answer the price variance is part of the flexible-budget variance.
+mix is wrong: this answer mix variances need more than one product.
+quantity is wrong: this answer quantity variances belong to inputs, not sales.
+PART III — MEASURING AND MANAGING PERFORMANCE

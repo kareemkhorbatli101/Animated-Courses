@@ -21,6 +21,7 @@ UP = '/root/.claude/uploads/d2ecb935-98b0-524f-8ee9-37faa42d8a33/'
 BOOKS = {
     1: UP + '638db64a-CMA_P1_SecA_Ch01-18_book_REVIEW_EDITION.docx',
     2: UP + 'ca83676e-CMA_P1_Book2_REVIEW_EDITION.docx',
+    3: UP + '30b2c1ee-CMA_P1_Book3_REVIEW_EDITION.docx',
 }
 BOOK = BOOKS[1]
 

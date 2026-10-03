@@ -1,0 +1,660 @@
+Chapter 14
+Overhead Variances and Acting on Variances
+انحرافات التكاليف الصناعية غير المباشرة والتصرف بناءً على الانحرافات
+Materials and labor are now explained. Overhead is harder, because part of it changes with activity and part does not, and because fixed overhead is charged to products at a rate that assumes a particular volume. This chapter completes the June analysis and then asks what the division should actually do about it.
+Figure F314-01 shows the three parts of the chapter.
+Figure F314-01. Chapter 14 roadmap: variable overhead, fixed overhead, volume.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.1.m
+demonstrate an understanding of spending and efficiency variances as they relate to fixed and variable overhead
+Explain spending and efficiency variances as they apply to fixed and variable overhead.
+Full treatment
+C.1.r
+analyze factory overhead variances by calculating variable overhead spending variance, variable overhead efficiency variance, fixed overhead spending variance, and production volume variance
+Analyse factory overhead variances: variable overhead spending and efficiency, fixed overhead spending, and the production-volume variance.
+Full treatment + Extended Example
+C.1.s
+analyze variances, identify causes, and recommend corrective actions
+Analyse variances, identify their causes and recommend corrective actions.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+variable overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة المتغيرة
+écart sur dépenses de frais variables
+variable overhead efficiency variance
+انحراف كفاءة التكاليف غير المباشرة المتغيرة
+écart sur rendement des frais variables
+fixed overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة الثابتة
+écart sur dépenses de frais fixes
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+corrective action
+الإجراء التصحيحي
+action corrective
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 budgeted $50.00 of variable overhead a machine hour and $150,000 of fixed overhead a month. Book 2, Chapter 8 set the fixed rate using a denominator volume, and Chapter 12 of this book introduced the three-column frame.
+14.1  Why overhead needs its own variances
+Variable overhead behaves like a material: it changes with a driver, here machine hours, so it has both a spending variance and an efficiency variance. Fixed overhead does not change with activity, so it cannot have an efficiency variance in the same sense.
+Figure F314-02 compares the two. Fixed overhead still produces a second variance, but of a different kind: because the fixed rate assumes a denominator level of activity, producing more or less than that volume changes how much fixed overhead is absorbed.
+Figure F314-02. How variable and fixed overhead differ
+Overhead
+Examples (Chapter 7)
+Standard
+Variances it can have
+Variable overhead
+Power, supplies, maintenance
+$50.00 a machine hour
+Spending and efficiency
+Fixed overhead
+Supervision, depreciation, insurance
+$150,000 a month
+Spending, and a volume effect on absorption
+SECTION CHECK   Test yourself
+SC314-1  Which variance does fixed overhead NOT have?
+A.	An efficiency variance
+B.	A spending variance
+C.	A production-volume variance
+D.	A budget variance
+SC314-2  Why does variable overhead have an efficiency variance?
+A.	Because its total is fixed
+B.	Because it changes with a driver such as machine hours
+C.	Because it is charged to products
+D.	Because it is budgeted monthly
+Answers and explanations are at the end of the chapter.
+14.2  Variable overhead variances
+The three-column frame of Chapter 12 applies without change, with machine hours as the input. Figure F314-03 shows June: the plant ran 1,460 machine hours when 1,440 were allowed for 72,000 cases.
+Figure F314-03. The three columns applied to variable overhead.
+WORKED EXAMPLE   Worked example: variable overhead in June
+The variable overhead spending variance compares actual overhead with the standard rate applied to the hours worked: $71,000 − 1,460 × $50.00 = $2,000 favorable. The variable overhead efficiency variance values the extra hours at the standard rate: $1,000 unfavorable. Figure F314-04 sets out both.
+Figure F314-04. Worked example: the variable overhead variances for June
+Variable overhead, June 2028
+Amount
+Cases produced
+72,000
+Standard machine hours allowed (0.02 a case)
+1,440
+Actual machine hours
+1,460
+Standard variable overhead rate
+$50.00 an hour
+Actual variable overhead
+71,000
+Spending variance
+71,000 − 1,460 × 50.00 = 2,000 F
+Efficiency variance
+(1,460 − 1,440) × 50.00 = 1,000 U
+Total
+1,000 F
+The two together make the $1,000 favorable that Chapter 11 reported for variable overhead. Note what each measures: spending is about the rate paid for power and supplies; efficiency is about machine hours, so it follows the same cause as the labor efficiency variance.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+variable overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة المتغيرة
+écart sur dépenses de frais variables
+variable overhead efficiency variance
+انحراف كفاءة التكاليف غير المباشرة المتغيرة
+écart sur rendement des frais variables
+English (exam term)
+العربية
+Français
+variable overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة المتغيرة
+écart sur dépenses de frais variables
+variable overhead efficiency variance
+انحراف كفاءة التكاليف غير المباشرة المتغيرة
+écart sur rendement des frais variables
+SECTION CHECK   Test yourself
+SC314-3  Actual variable overhead is $71,000 for 1,460 machine hours; the standard rate is $50.00. What is the spending variance?
+A.	$1,000 favorable
+B.	$2,000 unfavorable
+C.	$2,000 favorable
+D.	$1,000 unfavorable
+SC314-4  1,460 hours were worked and 1,440 allowed; the standard rate is $50.00. What is the variable overhead efficiency variance?
+A.	$2,000 unfavorable
+B.	$20 unfavorable
+C.	$2,000 favorable
+D.	$1,000 unfavorable
+Answers and explanations are at the end of the chapter.
+14.3  Fixed overhead variances
+Fixed overhead uses a different middle column: the budget, which is the same at any volume. Figure F314-05 shows it. The left gap is the fixed overhead spending variance; the right gap is the production-volume variance.
+Figure F314-05. The three columns applied to fixed overhead.
+WORKED EXAMPLE   Worked example: fixed overhead in June
+Spending: $152,000 − $150,000 = $2,000 unfavorable. Production-volume: $150,000 − 1,440 hours × $100.00 = $6,000 unfavorable, which is the 3,000 cases below the denominator volume × $2.00 a case.
+YOUR TURN   The fixed overhead variances
+Complete the blank rows of Figure F314-06. Answers are at the end of the chapter.
+Figure F314-06. Your turn: the fixed overhead variances (complete the blanks)
+Fixed overhead, June 2028
+Amount
+Budgeted fixed overhead for the month
+150,000
+Denominator volume (75,000 cases)
+1,500 machine hours
+Fixed overhead rate
+$100.00 an hour ($2.00 a case)
+Actual fixed overhead
+152,000
+Applied: 1,440 hours × $100.00
+144,000
+Spending variance
+________
+Production-volume variance
+________
+The production-volume variance is not a measure of cost control. Nobody spent $6,000 too much: the division simply produced fewer cases than the volume assumed when the rate was set, so less fixed overhead was absorbed into products.
+EXAM TRAP   No fixed overhead efficiency variance
+Fixed overhead has a spending variance and a production-volume variance, and nothing else. An answer that reports a fixed overhead efficiency variance has borrowed a variance that does not exist.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+fixed overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة الثابتة
+écart sur dépenses de frais fixes
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+English (exam term)
+العربية
+Français
+fixed overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة الثابتة
+écart sur dépenses de frais fixes
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+denominator level
+مستوى الطاقة المستخدم في المقام
+niveau d'activité de référence
+SECTION CHECK   Test yourself
+SC314-5  Budgeted fixed overhead is $150,000 and actual $152,000. What is the fixed overhead spending variance?
+A.	$2,000 favorable
+B.	$2,000 unfavorable
+C.	$6,000 unfavorable
+D.	$8,000 unfavorable
+SC314-6  Budgeted fixed overhead is $150,000; 1,440 standard hours were allowed at a fixed rate of $100.00. What is the production-volume variance?
+A.	$2,000 unfavorable
+B.	$6,000 favorable
+C.	$8,000 unfavorable
+D.	$6,000 unfavorable
+Answers and explanations are at the end of the chapter.
+14.4  Two-, three- and four-way analysis
+The four variances can be reported in groups. Figure F314-07 shows the same June result in four, three and two parts; Figure F314-08 lists them.
+Figure F314-07. The same overhead variance in four, three and two parts.
+Figure F314-08. The same overhead variance in four, three and two parts
+Analysis
+Part
+Amount
+Part
+Amount
+Four-way
+VOH spending
+2,000 F
+VOH efficiency
+1,000 U
+FOH spending
+2,000 U
+Production-volume
+6,000 U
+Three-way
+Spending (variable + fixed)
+—
+Efficiency
+1,000 U
+Production-volume
+6,000 U
+Two-way
+Budget (controllable)
+1,000 U
+Production-volume
+6,000 U
+In the three-way analysis the two spending variances are combined; here they cancel, which shows why the four-way analysis is more useful. In the two-way analysis everything except volume is called the budget or controllable variance.
+Whichever grouping is used, the total is the same. Figure F314-09 proves it: actual overhead of $223,000 less applied overhead of $216,000 is $7,000, under-applied.
+Figure F314-09. Proof: actual overhead less applied overhead
+Proof, June 2028 (USD)
+Amount
+Actual variable overhead
+71,000
+Actual fixed overhead
+152,000
+Total actual overhead
+223,000
+Applied variable overhead (1,440 hours × $50.00)
+72,000
+Applied fixed overhead (1,440 hours × $100.00)
+144,000
+Total applied overhead
+216,000
+Total overhead variance (under-applied)
+7,000 U
+SECTION CHECK   Test yourself
+SC314-7  In a two-way analysis, the two parts are:
+A.	spending and efficiency
+B.	variable and fixed
+C.	budget (controllable) and production-volume
+D.	price and usage
+SC314-8  Actual overhead is $223,000 and applied overhead $216,000. What is the total overhead variance?
+A.	$7,000 unfavorable
+B.	$7,000 favorable
+C.	$1,000 favorable
+D.	$6,000 unfavorable
+Answers and explanations are at the end of the chapter.
+14.5  Analysing variances and acting on them
+A variance report is the start of a conversation, not its conclusion. Figure F314-10 gives the five questions to ask before recommending anything.
+Figure F314-10. Five questions before recommending an action
+Step (C.1.s)
+What to ask
+1. Is it significant?
+Compare with the rule of Chapter 11 (5% of the budgeted figure)
+2. What caused it?
+Separate price from quantity, and the plan from the result
+3. Who controls the cause?
+A world price rise is not the plant's responsibility
+4. Is it linked to another variance?
+A favorable price beside an unfavorable usage usually has one cause
+5. What action follows?
+Remove the cause, change the standard, or accept it and explain
+The order matters. Deciding on an action before knowing the cause is the commonest fault in variance reporting, and so is acting on a variance whose cause nobody in the division controls.
+A favorable variance also deserves a question. A favorable spending variance that came from skipping maintenance is not good news; it has moved cost into a later month.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+corrective action
+الإجراء التصحيحي
+action corrective
+English (exam term)
+العربية
+Français
+corrective action
+الإجراء التصحيحي
+action corrective
+SECTION CHECK   Test yourself
+SC314-9  What is the first question to ask about a reported variance?
+A.	Who is to blame?
+B.	How do we change the standard?
+C.	Is it significant enough to investigate?
+D.	What action should we take?
+SC314-10  A favorable fixed overhead spending variance arose because planned maintenance was cancelled. What should the controller conclude?
+A.	Good cost control
+B.	The standard is too high
+C.	Nothing: favorable variances need no comment
+D.	The saving may cost more later, so it is not good news
+Answers and explanations are at the end of the chapter.
+14.6  Extended Example 14A: what June means and what to do
+This example takes the four overhead variances to the review meeting and turns them into decisions. It is exam-core.
+1. Causes and actions
+Figure F314-11 gives the likely cause of each variance and the action the meeting agreed.
+Figure F314-11. Extended Example: causes and recommended actions for June
+Variance
+Amount
+Likely cause
+Recommended action
+VOH spending
+2,000 F
+Cheaper power tariff agreed in May
+Keep the tariff; check that quality has not suffered
+VOH efficiency
+1,000 U
+The long changeover ran the machines 20 hours longer than the standard
+Shorten changeovers (Book 2, Chapter 15)
+FOH spending
+2,000 U
+Unplanned repair to the filling line
+Plan preventive maintenance in the quiet quarter
+Production-volume
+6,000 U
+3,000 fewer cases than the normal volume, so less fixed overhead was absorbed
+A sales matter, not a plant one: no plant action
+2. What the meeting decided
+Only two of the four led to action inside the plant. The favorable spending variance is kept but watched; the volume variance is passed to the sales discussion of Chapter 13, because the plant cannot sell cases.
+3. Tie line
+WORKED EXAMPLE   Everything ties
+Variable overhead: $2,000 favorable + $1,000 unfavorable = $1,000 favorable, the figure in Chapter 11.
+All four: $223,000 actual − $216,000 applied = $7,000 under-applied.
+4. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+variable overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة المتغيرة
+écart sur dépenses de frais variables
+fixed overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة الثابتة
+écart sur dépenses de frais fixes
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+English (exam term)
+العربية
+Français
+variable overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة المتغيرة
+écart sur dépenses de frais variables
+fixed overhead spending variance
+انحراف إنفاق التكاليف غير المباشرة الثابتة
+écart sur dépenses de frais fixes
+production-volume variance
+انحراف حجم الإنتاج
+écart sur volume (imputation rationnelle)
+5. How the exam asks it
+EXAM TRAP   Exam view
+Expect actual overhead, actual hours, the standard rates, the output produced and the denominator volume. Work out the standard hours allowed first, then apply the four formulas. Remember that the production-volume variance uses the standard hours allowed, never the hours worked.
+6. Self-check
+SECTION CHECK   Test yourself
+SC314-11  Use the Extended Example. Which overhead variance is the largest in June?
+A.	Variable overhead spending
+B.	Production-volume
+C.	Variable overhead efficiency
+D.	Fixed overhead spending
+SC314-12  Use the Extended Example. Why does the production-volume variance lead to no action in the plant?
+A.	It is caused by the number of cases produced, which the plant does not decide
+B.	It is too small to matter
+C.	It is favorable
+D.	It will reverse next month
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F314-12 brings the chapter together.
+Figure F314-12. Chapter 14 summary map: the key rule for each section.
+Variable overhead has a spending variance, measured against the standard rate applied to the hours worked, and an efficiency variance, which follows the driver. Fixed overhead has a spending variance, actual against budget, and a production-volume variance, budget against the amount applied to the output produced; the second measures absorption, not control. The four variances can be grouped in four, three or two ways, always to the same total. Before acting, ask whether the variance is significant, what caused it, who controls the cause, and whether it is linked to another variance.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P314-01  The variable overhead efficiency variance measures:
+A.	the price paid for power and supplies
+B.	the fixed overhead absorbed
+C.	the number of units sold
+D.	the effect of using more or fewer driver hours
+P314-02  Why is there no fixed overhead efficiency variance?
+A.	Because fixed overhead is never budgeted
+B.	Because fixed overhead does not change when the driver changes
+C.	Because it is always favorable
+D.	Because it is not charged to products
+P314-03  Actual variable overhead $55,000; actual hours 2,260; standard rate $25.00. What is the spending variance?
+A.	$1,500 favorable
+B.	$1,500 unfavorable
+C.	$3,000 unfavorable
+D.	$500 favorable
+P314-04  2,260 hours were worked and 2,200 allowed; the standard variable rate is $25.00. What is the efficiency variance?
+A.	$60 unfavorable
+B.	$2,400 unfavorable
+C.	$1,500 unfavorable
+D.	$1,500 favorable
+P314-05  The fixed overhead rate is set by dividing budgeted fixed overhead by:
+A.	the denominator level of activity
+B.	the actual hours worked
+C.	the standard hours allowed for actual output
+D.	the units sold
+P314-06  Budgeted fixed overhead $80,000; applied $88,000. What is the production-volume variance?
+A.	$8,000 unfavorable
+B.	$8,000 favorable
+C.	$3,000 unfavorable
+D.	$5,000 favorable
+P314-07  A favorable production-volume variance means that:
+A.	fixed overhead was spent efficiently
+B.	the plant saved cash
+C.	the fixed overhead budget was cut
+D.	output exceeded the denominator volume, so more fixed overhead was absorbed
+P314-08  In a three-way analysis, which two variances are combined?
+A.	The two efficiency variances
+B.	Spending and volume
+C.	The two spending variances
+D.	Efficiency and volume
+P314-09  Variable spending $2,000 favorable, variable efficiency $1,000 unfavorable, fixed spending $2,000 unfavorable. What is the two-way budget variance?
+A.	$5,000 unfavorable
+B.	$1,000 favorable
+C.	$1,000 unfavorable
+D.	$3,000 unfavorable
+P314-10  The total overhead variance equals:
+A.	budgeted overhead − actual overhead
+B.	actual overhead − applied overhead
+C.	applied overhead − budgeted overhead
+D.	actual hours × the standard rate
+P314-11  An unfavorable variable overhead efficiency variance arose with an unfavorable labor efficiency variance. What is the likely explanation?
+A.	Two unrelated problems
+B.	The overhead rate is wrong
+C.	Material prices rose
+D.	One cause, such as a long changeover, drove both
+P314-12  Before recommending an action, the controller should check:
+A.	who controls the cause of the variance
+B.	whether the manager is popular
+C.	the share price
+D.	last year's variance
+P314-13  Which recommendation follows correctly from an unfavorable variable overhead efficiency variance caused by long changeovers?
+A.	Apply the quick-changeover methods of lean production
+B.	Renegotiate the power tariff
+C.	Raise the selling price
+D.	Increase the fixed overhead budget
+P314-14  Standard machine hours a jar are 0.02 and 110,000 jars were produced. How many standard hours are allowed?
+A.	2,000
+B.	2,200
+C.	2,260
+D.	5,500
+P314-15  Which item would appear in a variable overhead spending variance?
+A.	A longer changeover
+B.	A change in the power tariff
+C.	Producing fewer cases than normal volume
+D.	The depreciation charge
+P314-16  A variance is 2% of its budgeted figure and the company investigates above 5%. What should happen?
+A.	Investigate anyway
+B.	Change the standard
+C.	No investigation under management by exception
+D.	Report it as favorable
+Case question: overhead in the tahini plant
+The tahini plant has had a busy month. A large Gulf order arrived early, so the plant produced more jars than the volume on which its fixed overhead rate was set. The plant manager, Samir, expects the overhead report to look good, because the extra output spread the fixed cost over more jars.
+The controller, Rania, has the figures. She knows the standard machine hours a jar, the standard variable overhead rate, the budgeted fixed overhead for the month and the normal volume used to set the fixed rate. She also has the actual machine hours, the actual variable overhead and the actual fixed overhead for the month.
+Two things complicate the picture. The plant ran more machine hours than the standard allows for the jars it made, because a mixer kept stopping, and an unplanned repair raised the fixed overhead above budget. The mixer has stopped several times this year, and the maintenance team has asked for a replacement part that would end the problem.
+Rania must calculate the four overhead variances, explain which of them reflects cost control and which reflects absorption, and tell Samir which results need action inside the plant. She will present the four variances at the plant review on Thursday, with a short note on which of them Samir can act on and which belong to the sales discussion.
+Use Figure F314-13 for items C314-1 to C314-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas, and without a minus sign; a separate item asks whether each variance is favorable or unfavorable (for example, 1500).
+Figure F314-13. Case exhibit: tahini plant overhead for the month
+Tahini & Spreads overhead, one month
+Data
+Jars produced
+110,000
+Standard machine hours a jar
+0.02
+Standard variable overhead rate
+$25.00 an hour
+Budgeted fixed overhead for the month
+80,000
+Normal volume used for the fixed rate
+100,000 jars (2,000 machine hours)
+Actual machine hours
+2,260
+Actual variable overhead
+55,000
+Actual fixed overhead
+83,000
+C314-1  Classify each variance for the month. (On the exam screen you would drag each item into a box.)
+Categories: Favorable · Unfavorable
+Variance
+Category
+Variable overhead spending variance
+Variable overhead efficiency variance
+Fixed overhead spending variance
+Production-volume variance
+Total overhead variance
+C314-2  Enter the standard machine hours allowed for the jars produced.
+Answer: ____________
+C314-3  Enter the variable overhead spending variance.
+Answer: ____________
+C314-4  Enter the variable overhead efficiency variance.
+Answer: ____________
+C314-5  Enter the production-volume variance.
+Answer: ____________
+C314-6  Samir's expectation that the extra output would make the report look good is: [select]
+Options: partly right: it gives a favorable production-volume variance, but that is absorption, not cost control   |   fully right: producing more always lowers cost   |   wrong: extra output cannot affect overhead variances   |   wrong: the production-volume variance is always unfavorable
+C314-7  Fixed overhead has a spending variance and a production-____ variance, and no efficiency variance.
+Choose the word or phrase for the blank: volume   |   quantity   |   mix   |   yield
+Answers and explanations
+Section checks
+SC314-1  Answer A. Fixed overhead does not change with the driver.
+B is wrong. Actual can differ from budget.
+C is wrong. Absorption depends on volume.
+D is wrong. Another name for the spending variance.
+SC314-2  Answer B. Using more hours uses more variable overhead.
+A is wrong. That describes fixed overhead.
+C is wrong. Both kinds are charged to products.
+D is wrong. Timing is not the reason.
+SC314-3  Answer C. Actual overhead − standard rate × actual hours.
+A is wrong. This uses the standard hours allowed.
+B is wrong. The sign is reversed.
+D is wrong. This is the total variable overhead variance.
+SC314-4  Answer D. 20 extra hours × $50.
+A is wrong. This uses the fixed overhead rate.
+B is wrong. This is the extra hours only.
+C is wrong. Extra hours raise cost.
+SC314-5  Answer B. Actual − budget.
+A is wrong. Spending above budget is unfavorable.
+C is wrong. This is the production-volume variance.
+D is wrong. This is the total fixed overhead variance.
+SC314-6  Answer D. Budget − applied.
+A is wrong. This is the spending variance.
+B is wrong. Less absorbed than budgeted is unfavorable.
+C is wrong. This is the total fixed overhead variance.
+SC314-7  Answer C. Everything except volume is grouped together.
+A is wrong. That is part of the three-way analysis.
+B is wrong. Not a standard grouping.
+D is wrong. Those belong to materials.
+SC314-8  Answer A. More incurred than applied: under-applied.
+B is wrong. The sign is reversed.
+C is wrong. This is the variable overhead total.
+D is wrong. This is the volume variance alone.
+SC314-9  Answer C. Management by exception comes first.
+A is wrong. Blame comes after the cause is known, if at all.
+B is wrong. Standards are reviewed yearly.
+D is wrong. Action follows the cause.
+SC314-10  Answer D. The cost has moved, not disappeared.
+A is wrong. Nothing was controlled, only postponed.
+B is wrong. The standard is not the issue.
+C is wrong. Favorable variances need causes too.
+SC314-11  Answer B. $6,000 unfavorable, from producing below the denominator volume.
+A is wrong. Smaller, and favorable.
+C is wrong. The smallest of the four.
+D is wrong. Smaller than the volume variance.
+SC314-12  Answer A. Volume follows the sales plan.
+B is wrong. It is the largest variance.
+C is wrong. It is unfavorable.
+D is wrong. Nothing guarantees that.
+Your turn
+Item
+Answer
+Fixed overhead spending variance
+$152,000 − $150,000 = $2,000 unfavorable
+Production-volume variance
+$150,000 − 1,440 × $100.00 = $6,000 unfavorable (3,000 cases × $2.00)
+Multiple-choice questions
+P314-01  Answer D. It follows the driver, not spending.
+A is wrong. That is the spending variance.
+B is wrong. That is the volume variance.
+C is wrong. Sales are not an overhead driver.
+P314-02  Answer B. The budget is the same at any volume.
+A is wrong. It is budgeted.
+C is wrong. It can be either.
+D is wrong. It is charged through the fixed rate.
+P314-03  Answer A. $55,000 − $56,500.
+B is wrong. The sign is reversed.
+C is wrong. That is a fixed overhead figure.
+D is wrong. This uses the standard hours.
+P314-04  Answer C. 60 extra hours × $25.
+A is wrong. This is the extra hours only.
+B is wrong. This uses the fixed rate.
+D is wrong. Extra hours raise cost.
+P314-05  Answer A. The rate is set before the period begins.
+B is wrong. Actual hours are not known in advance.
+C is wrong. That is used to apply the rate, not set it.
+D is wrong. Production, not sales, absorbs overhead.
+P314-06  Answer B. More absorbed than budgeted, because output exceeded the denominator volume.
+A is wrong. The sign is reversed.
+C is wrong. That is a spending figure.
+D is wrong. That is a total.
+P314-07  Answer D. It is an absorption effect, not a saving.
+A is wrong. It says nothing about efficiency.
+B is wrong. No cash is saved.
+C is wrong. The budget is unchanged.
+P314-08  Answer C. Variable and fixed spending are reported as one.
+A is wrong. There is only one efficiency variance.
+B is wrong. Volume is reported separately.
+D is wrong. Volume is reported separately.
+P314-09  Answer C. Everything except volume.
+A is wrong. The favorable item is added as unfavorable.
+B is wrong. The signs are reversed.
+D is wrong. One item is left out.
+P314-10  Answer B. Under-applied overhead is unfavorable.
+A is wrong. The sign is reversed and applied overhead is missing.
+C is wrong. That is only the volume part.
+D is wrong. That is one column of the frame.
+P314-11  Answer D. Both follow the same driver.
+A is wrong. The two variances share a driver.
+B is wrong. The rate is a standard, not a cause.
+C is wrong. Prices do not change hours.
+P314-12  Answer A. Actions must reach the cause.
+B is wrong. Irrelevant.
+C is wrong. Irrelevant.
+D is wrong. History does not give the cause.
+P314-13  Answer A. The action must remove the cause.
+B is wrong. That addresses spending, not hours.
+C is wrong. Unrelated to overhead.
+D is wrong. Hiding a variance is not an action.
+P314-14  Answer B. Output × standard hours a unit.
+A is wrong. That is the denominator volume in hours.
+C is wrong. That is the actual hours.
+D is wrong. The multiplication is wrong.
+P314-15  Answer B. Spending is about the rate paid.
+A is wrong. That drives the efficiency variance.
+C is wrong. That drives the volume variance.
+D is wrong. Depreciation is fixed overhead.
+P314-16  Answer C. It is below the rule.
+A is wrong. That wastes management time.
+B is wrong. Not a reason to change standards.
+D is wrong. The direction is not changed by its size.
+Case question: overhead in the tahini plant
+C314-1
+Variance
+Category
+Variable overhead spending variance
+Favorable
+Variable overhead efficiency variance
+Unfavorable
+Fixed overhead spending variance
+Unfavorable
+Production-volume variance
+Favorable
+Total overhead variance
+Favorable
+A variance is favorable if it raises operating income above the budgeted figure.
+C314-2  Answer: 2,200.
+2,260 is wrong: this answer gives the actual hours worked.
+C314-3  Answer: 1,500.
+0 is wrong: this answer uses the standard hours allowed instead of the actual hours.
+C314-4  Answer: 1,500.
+2,400 is wrong: this answer uses the fixed overhead rate instead of the variable rate.
+C314-5  Answer: 8,000.
+2,400 is wrong: this answer uses the hours worked instead of the hours allowed.
+C314-6  Answer: partly right: it gives a favorable production-volume variance, but that is absorption, not cost control.
+fully right: producing more always lowers cost is wrong: this answer absorbing more fixed overhead does not reduce spending.
+wrong: extra output cannot affect overhead variances is wrong: this answer output changes the hours allowed and so the amount applied.
+wrong: the production-volume variance is always unfavorable is wrong: this answer it is favorable when output exceeds the denominator volume.
+C314-7  Answer: volume.
+quantity is wrong: this answer quantity variances belong to materials.
+mix is wrong: this answer mix variances need more than one input or product.
+yield is wrong: this answer yield variances belong to a materials blend.
+PART III — MEASURING AND MANAGING PERFORMANCE

@@ -1,0 +1,800 @@
+Chapter 10
+Pro Forma Statements and Financing Needs
+القوائم المالية التقديرية واحتياجات التمويل
+Nine chapters of budgets end in three statements. The board does not read the materials purchases budget; it reads the profit the plan will earn, the assets it will need and the cash it will produce. This chapter builds those statements and answers the last question of the planning round: will Orontes need to raise money?
+Figure F310-01 names the three pro forma statements.
+Figure F310-01. Chapter 10 roadmap: the three pro forma statements.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.6.a
+define the purpose of a pro forma income statement, a pro forma balance sheet, and a pro forma statement of cash flows, and demonstrate an understanding of the relationship among these statements and all other budgets
+Define the purpose of the pro forma income statement, balance sheet and statement of cash flows, and explain how they relate to each other and to all the other budgets.
+Full treatment
+B.6.b
+prepare pro forma income statements based on several revenue and cost assumptions
+Prepare pro forma income statements under several revenue and cost assumptions.
+Full treatment
+B.6.c
+evaluate whether a company has achieved strategic objectives based on pro forma income statements
+Judge whether a company has achieved its strategic objectives, using the pro forma income statements.
+Full treatment
+B.6.d
+use financial projections to prepare a pro forma balance sheet and a pro forma statement of cash flows
+Use financial projections to prepare a pro forma balance sheet and a pro forma statement of cash flows.
+Full treatment
+B.6.e
+identify the factors required to prepare medium- and long-term cash forecasts
+Identify the factors needed to prepare medium- and long-term cash forecasts.
+Full treatment + Extended Example
+B.6.f
+use financial projections to determine required outside financing and dividend policy
+Use financial projections to determine the outside financing required and the dividend policy.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+pro forma financial statements
+القوائم المالية التقديرية
+états financiers prévisionnels
+pro forma balance sheet
+الميزانية العمومية التقديرية
+bilan prévisionnel
+pro forma statement of cash flows
+قائمة التدفقات النقدية التقديرية
+tableau des flux de trésorerie prévisionnel
+required outside financing
+التمويل الخارجي المطلوب
+financement externe requis
+dividend policy
+سياسة توزيع الأرباح
+politique de dividende
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+WHAT YOU ALREADY KNOW   What you already know
+Book 1 built these three statements from accounting records. Here they are built from budgets, before the year begins. Chapter 1 set the strategic objectives the plan must meet.
+10.1  Purpose and relationships
+Pro forma financial statements show what the financial statements would look like if the plan happens. The income statement shows planned profit. The pro forma balance sheet shows what the division will own and owe, and the pro forma statement of cash flows shows where cash will come from and go.
+All three come from the same budgets, so they must agree with one another. Figure F310-02 shows the links. The operating budgets give profit, the cash budget gives cash, and the capital budget gives the new asset.
+Figure F310-02. How the budgets feed the three pro forma statements.
+The statements are also a last check on the plan. If the balance sheet does not balance, or the cash flow statement does not end at the cash in the cash budget, a schedule somewhere is wrong.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+pro forma financial statements
+القوائم المالية التقديرية
+états financiers prévisionnels
+pro forma balance sheet
+الميزانية العمومية التقديرية
+bilan prévisionnel
+pro forma statement of cash flows
+قائمة التدفقات النقدية التقديرية
+tableau des flux de trésorerie prévisionnel
+English (exam term)
+العربية
+Français
+pro forma financial statements
+القوائم المالية التقديرية
+états financiers prévisionnels
+pro forma balance sheet
+الميزانية العمومية التقديرية
+bilan prévisionnel
+pro forma statement of cash flows
+قائمة التدفقات النقدية التقديرية
+tableau des flux de trésorerie prévisionnel
+SECTION CHECK   Test yourself
+SC310-1  What is the purpose of pro forma financial statements?
+A.	To report last year's results to shareholders
+B.	To replace the cash budget
+C.	To calculate the tax due
+D.	To show what the financial statements would look like if the plan happens
+SC310-2  The pro forma statement of cash flows ends at a different cash figure from the cash budget. What does this mean?
+A.	Both are correct; they measure different things
+B.	There is an error in one of them
+C.	The cash budget should be ignored
+D.	Depreciation was added back
+Answers and explanations are at the end of the chapter.
+10.2  The pro forma income statement and its assumptions
+The pro forma income statement extends the operating budget of Chapter 8 by interest and tax. Figure F310-03 gives net income of $2,505,600 for Beverages, 13.9% of sales.
+Figure F310-03. Worked example: the pro forma income statement for 2028
+Pro forma income statement 2028 (USD)
+Amount
+Sales
+18,000,000
+− Cost of goods sold
+(11,338,000)
+= Gross margin
+6,662,000
+− Selling and administrative
+(3,480,000)
+= Operating income
+3,182,000
+− Interest
+(50,000)
+= Profit before tax
+3,132,000
+− Income tax at 20%
+(626,400)
+= Net income
+2,505,600
+One plan is not enough. Sensitivity analysis prepares the statement under other assumptions, so that managers know which risks matter. The contribution format of Chapter 5 makes this quick: fixed costs stay the same, and only volume or the margin per case changes.
+WORKED EXAMPLE   Worked example: three more assumptions
+If volume falls 5%, operating income falls to $2,811,000. If concentrate costs 10% more, the margin falls from $8.20 to $7.66 a case and income to $2,694,000. Figure F310-04 shows each case, and Figure F310-05 compares them.
+Figure F310-04. Operating income under four sets of assumptions
+Scenario (USD)
+Base plan
+Volume −5%
+Concentrate +10%
+Both
+Cases sold
+900,000
+855,000
+900,000
+855,000
+Contribution margin a case
+$8.20
+$8.20
+$7.66
+$7.66
+Total contribution margin
+7,380,000
+7,011,000
+6,894,000
+6,549,300
+− Fixed costs
+(4,200,000)
+(4,200,000)
+(4,200,000)
+(4,200,000)
+= Operating income
+3,180,000
+2,811,000
+2,694,000
+2,349,300
+Figure F310-05. Operating income under four sets of assumptions.
+YOUR TURN   Both at once
+Complete the last column of Figure F310-06, where volume falls and concentrate costs more. Answers are at the end of the chapter.
+Figure F310-06. Your turn: both changes at once (complete the blanks)
+Scenario (USD)
+Base plan
+Volume −5%
+Concentrate +10%
+Both
+Cases sold
+900,000
+855,000
+900,000
+________
+Contribution margin a case
+$8.20
+$8.20
+$7.66
+________
+Total contribution margin
+7,380,000
+7,011,000
+6,894,000
+________
+− Fixed costs
+(4,200,000)
+(4,200,000)
+(4,200,000)
+(4,200,000)
+= Operating income
+3,180,000
+2,811,000
+2,694,000
+________
+EXAM TRAP   Fixed costs stay fixed
+In a scenario, fixed costs do not change with volume and the variable cost per unit does not change unless the question says so. Changing both at once is the commonest error in sensitivity questions.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+English (exam term)
+العربية
+Français
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+SECTION CHECK   Test yourself
+SC310-3  Contribution margin is $8.20 a case, fixed costs $4,200,000. What is operating income at 855,000 cases?
+A.	$2,811,000
+B.	$3,180,000
+C.	$7,011,000
+D.	$11,211,000
+SC310-4  In a scenario where volume falls 5%, what happens to budgeted fixed costs?
+A.	They stay the same
+B.	They fall 5%
+C.	They rise 5%
+D.	They fall to zero
+Answers and explanations are at the end of the chapter.
+10.3  Testing the strategic objectives
+A plan is not good merely because it is profitable. It must move the company towards the objectives set in the strategic plan. Figure F310-07 compares the pro forma statements with the 2028 objectives of Chapter 1.
+Figure F310-07. Testing the plan against the 2028 strategic objectives
+Objective for 2028 (Chapter 1)
+Target
+Pro forma
+Result
+Return on investment
+11.8%
+23.2% (division)
+Met
+Operating income
+$3,180,000 or more
+$3,182,000
+Met
+Operating income if volume falls 5%
+$3,180,000 or more
+$2,811,000
+Not met
+Energy per case of juice (kWh)
+0.48
+to be measured
+Not in the budget
+The division's return on investment is 23.2%: net income divided by average total assets. That is well above the group objective of 11.8%, as a mature division with older assets should be. The plan meets the financial objectives, but not in the scenario where volume falls.
+Some objectives, such as energy per case, are not measured in money and do not appear in these statements. They are followed through the balanced scorecard of Chapter 18.
+SECTION CHECK   Test yourself
+SC310-5  Why are pro forma statements compared with the strategic objectives?
+A.	To check that the plan moves the company towards its goals
+B.	To calculate the tax
+C.	To value inventory
+D.	To set the credit policy
+SC310-6  The plan meets the profit objective, but an objective on energy per case cannot be seen in the pro forma statements. What should the company do?
+A.	Drop the energy objective
+B.	Treat the plan as meeting every objective
+C.	Add energy to the income statement
+D.	Follow non-financial objectives through other measures, such as a balanced scorecard
+Answers and explanations are at the end of the chapter.
+10.4  The pro forma balance sheet and statement of cash flows
+Every line of the pro forma balance sheet comes from a schedule already prepared. Figure F310-08 shows each balance at the start and end of 2028 with its source.
+Figure F310-08. Worked example: the pro forma balance sheet
+Pro forma balance sheet (USD)
+1 Jan 2028
+31 Dec 2028
+Source
+Cash
+500,000
+1,702,450
+Cash budget
+Receivables
+2,460,000
+2,700,000
+Collections schedule
+Materials
+115,020
+117,720
+Materials budget
+Finished goods
+529,200
+541,800
+Production budget at standard
+Property, plant and equipment
+9,000,000
+11,500,000
+Capital budget
+Accumulated depreciation
+(3,400,000)
+(4,200,000)
+Overhead and S&A budgets
+Total assets
+9,204,220
+12,361,970
+Payables
+575,000
+600,750
+Payments schedule
+Accrued expenses
+240,000
+240,000
+Unchanged
+Income tax payable
+—
+626,400
+Pro forma income statement
+Dividends payable
+—
+1,002,240
+Dividend policy
+Bank loan
+—
+—
+Cash budget
+Share capital
+6,000,000
+6,000,000
+Unchanged
+Retained earnings
+2,389,220
+3,892,580
+Opening + net income − dividends
+Total liabilities and equity
+9,204,220
+12,361,970
+Two new liabilities appear: the income tax of $626,400 and the dividend of $1,002,240, both declared for 2028 but paid early in the next year. Total assets of $12,361,970 equal liabilities and equity, as they must.
+The pro forma statement of cash flows explains the change in cash. Figure F310-09 starts from net income, adds back depreciation, adjusts for the changes in receivables, inventories and payables, then shows investing and financing.
+Figure F310-09. Worked example: the pro forma statement of cash flows
+Pro forma statement of cash flows 2028 (USD)
+Amount
+Net income
+2,505,600
++ Depreciation
+800,000
+− Increase in receivables
+(240,000)
+− Increase in inventories
+(15,300)
++ Increase in payables
+25,750
++ Increase in tax payable
+626,400
+= Cash from operating activities
+3,702,450
+Purchase of the filling line
+(2,500,000)
+= Cash used in investing activities
+(2,500,000)
+Borrowing
+1,000,000
+Repayment
+(1,000,000)
+= Cash from financing activities
+—
+Net change in cash
+1,202,450
+Cash at 1 January
+500,000
+Cash at 31 December
+1,702,450
+It ends at $1,702,450, the ending cash of the cash budget in Chapter 9. If the two disagreed, there would be an error in one of them.
+EXAM TRAP   Depreciation and asset purchases
+Depreciation is added back in the operating section because it reduced profit without using cash. The purchase of the filling line is an investing outflow, not an operating one.
+SECTION CHECK   Test yourself
+SC310-7  In the pro forma statement of cash flows, how is depreciation of $800,000 treated?
+A.	Deducted in operating activities
+B.	Shown as an investing outflow
+C.	Added back in operating activities
+D.	Shown as financing
+SC310-8  Total assets are $12,361,970 and equity is $9,892,580. What must total liabilities be?
+A.	$2,469,390
+B.	$2,500,000
+C.	$9,892,580
+D.	$22,254,550
+Answers and explanations are at the end of the chapter.
+10.5  Outside financing and dividend policy
+Required outside financing is what the plan cannot fund from its own cash. Figure F310-10 shows that Beverages generates $3,702,450 from operations, spends $2,500,000 on the filling line and will pay $1,002,240 of dividends.
+Figure F310-10. The outside financing the plan requires
+Financing need 2028 (USD)
+Amount
+Cash generated by operations
+3,702,450
+Cash needed for investment
+(2,500,000)
+Dividends to be paid (next year)
+(1,002,240)
+Cash left over for the year
+200,210
+Short-term borrowing during the year
+1,000,000
+Repaid during the year
+(1,000,000)
+Outside financing needed at the year end
+—
+The division borrowed $1,000,000 during the year but repaid it all, so no outside financing is needed at the year end. The seasonal borrowing of Chapter 9 was a timing need, not a funding gap.
+Dividend policy decides how much of net income leaves the business. Figure F310-11 applies the 40% payout: a dividend of $1,002,240, with the rest raising retained earnings to $3,892,580.
+Figure F310-11. The dividend and retained earnings for 2028
+Dividend policy 2028 (USD)
+Amount
+Net income
+2,505,600
+Payout rate
+40%
+Dividend
+1,002,240
+Retained in the division
+1,503,360
+Retained earnings at 1 January
+2,389,220
+Retained earnings at 31 December
+3,892,580
+The two decisions are linked. A larger dividend would leave less cash and might force borrowing; a smaller one funds growth but gives owners less now.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+required outside financing
+التمويل الخارجي المطلوب
+financement externe requis
+dividend policy
+سياسة توزيع الأرباح
+politique de dividende
+English (exam term)
+العربية
+Français
+required outside financing
+التمويل الخارجي المطلوب
+financement externe requis
+dividend policy
+سياسة توزيع الأرباح
+politique de dividende
+SECTION CHECK   Test yourself
+SC310-9  Net income is $2,505,600 and the payout rate is 40%. What is the dividend?
+A.	$626,400
+B.	$1,002,240
+C.	$1,252,800
+D.	$1,503,360
+SC310-10  A division borrows $1,000,000 during the year and repays it all before the year end. How much outside financing does it need at the year end?
+A.	$1,000,000
+B.	Nothing; the borrowing was a timing need
+C.	$2,000,000
+D.	The interest only
+Answers and explanations are at the end of the chapter.
+10.6  Extended Example 10A: looking beyond next year
+The board also asks what cash the division will need up to 2032, the end of the strategic plan. Medium- and long-term forecasts are built differently from the quarterly cash budget. This example is exam-core.
+1. What changes with the horizon
+A short-term cash budget works from schedules of known orders and invoices. A medium-term forecast works from the strategic plan: planned growth, the investment it needs, and the working capital that grows with sales. Figure F310-12 lists the factors it must consider.
+Figure F310-12. Extended Example: factors in a medium- or long-term cash forecast
+Factor in a medium- or long-term cash forecast (B.6.e)
+At Orontes
+Strategic plan
+Export and new-product goals to 2032 (Chapter 1)
+Capacity and investment
+When the plant reaches its limit and what the next line would cost
+Working capital
+Receivables, inventory and payables grow with sales
+Financing and repayment
+Loan repayments, interest rates and the dividend policy
+Economy and market
+Growth, inflation, exchange rates and competitors (Chapters 2–3)
+Uncertainty
+Scenarios rather than one forecast; the longer the horizon, the wider the range
+2. The Beverages picture
+Growth: the juice market is growing (Chapter 2), so sales and working capital will keep rising.
+Capacity: the plant will reach its limit within a few years, as Chapter 6 showed for the third quarter.
+Cash: operations generate $3,702,450 a year at present volumes, which funds the current plan but not a second line.
+3. The answer
+The division tells the board that it can fund 2028 from its own cash, but that a second filling line would need outside financing or a lower dividend. The longer the horizon, the wider the range, so the forecast is given as scenarios rather than one figure.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Balance sheet: assets $12,361,970 = liabilities $2,469,390 + equity $9,892,580.
+Cash flows end at $1,702,450, the ending cash of the Chapter 9 cash budget.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+pro forma financial statements
+القوائم المالية التقديرية
+états financiers prévisionnels
+required outside financing
+التمويل الخارجي المطلوب
+financement externe requis
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+English (exam term)
+العربية
+Français
+pro forma financial statements
+القوائم المالية التقديرية
+états financiers prévisionnels
+required outside financing
+التمويل الخارجي المطلوب
+financement externe requis
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect to complete a pro forma income statement with interest and tax, and to recalculate it under a new assumption. You may also have to find a missing balance-sheet figure, or work out the dividend and the outside financing a plan needs.
+7. Self-check
+SECTION CHECK   Test yourself
+SC310-11  Which factor matters most in a medium-term cash forecast but not in a quarterly cash budget?
+A.	Planned investment and the growth of working capital
+B.	Today's unpaid invoices
+C.	This month's wages
+D.	The current bank balance
+SC310-12  Why is a long-term cash forecast usually given as scenarios rather than one figure?
+A.	Because the figures are not needed
+B.	Because GAAP requires scenarios
+C.	Because uncertainty grows with the horizon
+D.	Because cash cannot be forecast
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F310-13 brings the chapter together, and closes Part II.
+Figure F310-13. Chapter 10 summary map: the key rule for each section.
+The three pro forma statements translate the budgets into the financial statements the plan would produce, and must agree with each other. The income statement is prepared under several assumptions, because one plan hides the risks. The plan is then tested against the strategic objectives. Every balance-sheet line comes from a schedule, the cash flow statement ends at the cash budget's closing balance, and the statements together show the outside financing required and what the dividend policy leaves in the business.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P310-01  The pro forma balance sheet shows:
+A.	planned profit for the year
+B.	cash receipts by quarter
+C.	sales by product
+D.	what the company will own and owe at the end of the budget period
+P310-02  Which budget provides the cash figure in the pro forma balance sheet?
+A.	The sales budget
+B.	The production budget
+C.	The cash budget
+D.	The overhead budget
+P310-03  Operating income is $3,182,000, interest $50,000 and the tax rate 20%. What is net income?
+A.	$2,505,600
+B.	$2,545,600
+C.	$3,132,000
+D.	$3,182,000
+P310-04  The margin per case falls from $8.20 to $7.66 on 900,000 cases, with fixed costs of $4,200,000. What is operating income?
+A.	$2,694,000
+B.	$2,811,000
+C.	$3,180,000
+D.	$6,894,000
+P310-05  Testing how operating income changes when one assumption changes is called:
+A.	sensitivity analysis
+B.	variance analysis
+C.	ratio analysis
+D.	regression analysis
+P310-06  A plan gives a return on investment of 23.2% against an objective of 11.8%. What can be concluded?
+A.	The objective was too high
+B.	The financial objective is met
+C.	Every objective is met
+D.	The plan should be rejected
+P310-07  Receivables rise from $2,460,000 to $2,700,000. How does this appear in the operating section of the cash flow statement?
+A.	Added $240,000
+B.	Added $2,700,000
+C.	Not shown
+D.	Deducted $240,000
+P310-08  The purchase of a new filling line appears in the cash flow statement as:
+A.	an operating outflow
+B.	a financing outflow
+C.	an investing outflow
+D.	an operating inflow
+P310-09  Opening retained earnings $2,389,220, net income $2,505,600, dividends $1,002,240. What are closing retained earnings?
+A.	$1,882,580
+B.	$3,391,460
+C.	$3,892,580
+D.	$4,894,820
+P310-10  Required outside financing is:
+A.	all the cash a company spends
+B.	the dividend
+C.	the interest on loans
+D.	the money the plan cannot fund from its own cash
+P310-11  Operations generate $3,702,450, investment needs $2,500,000 and dividends are $1,002,240. What is the cash position for the year?
+A.	A shortfall of $200,210
+B.	A surplus of $1,202,450
+C.	A surplus of $2,700,210
+D.	A shortfall of $3,502,240
+P310-12  A company raises its dividend payout from 40% to 60%. What is the most likely effect on financing?
+A.	More cash is retained
+B.	Interest falls
+C.	Less cash is retained, so more outside financing may be needed
+D.	Net income rises
+P310-13  A medium-term cash forecast is built mainly from:
+A.	unpaid invoices
+B.	last week's bank statement
+C.	the payroll
+D.	the strategic plan and its investment needs
+P310-14  Why does working capital matter in a medium-term cash forecast?
+A.	It does not change
+B.	Receivables and inventories grow with sales and absorb cash
+C.	It is a non-cash item
+D.	It replaces the capital budget
+P310-15  Which item appears as a liability on the pro forma balance sheet when tax is charged in the budget year but paid in the next?
+A.	Income tax expense
+B.	Deferred revenue
+C.	Income tax payable
+D.	Retained earnings
+P310-16  Which statement about the three pro forma statements is correct?
+A.	They are built from the same budgets and must agree
+B.	They are prepared independently of one another
+C.	Only the income statement uses the budgets
+D.	The balance sheet needs no budget
+Case question: the tahini pro forma statements
+The Tahini & Spreads division has finished its operating and cash budgets for 2028 and must now present pro forma statements to the Orontes board. Its budgeted operating income for the year is known, and the division pays interest on a loan taken out to build its Gulf warehouse. The warehouse was finished last year, so no further capital spending is planned for 2028.
+Group policy sets the income tax rate and a dividend payout rate that every division applies to its net income. Dividends for a year are declared in December and paid to head office early in the following year, so they appear as a liability at the year end.
+The division's controller, Rana, must calculate net income, the dividend, the retained earnings that will appear on the pro forma balance sheet, and the division's return on investment measured on average total assets. The board will compare that return with the group objective of 11.8% for 2028.
+Samir, the division manager, also asks what would happen to net income if sales volume fell by five per cent, and whether the division would then need to borrow more from head office.
+Use Figure F310-14 for items C310-1 to C310-7.
+How to enter answers: Enter amounts in whole U.S. dollars and percentages to one decimal, without the $ sign, commas or the % sign (for example, 125000 or 12.3).
+Figure F310-14. Case exhibit: Tahini & Spreads projections for 2028
+Tahini & Spreads, 2028 (USD)
+Amount
+Budgeted operating income
+1,250,000
+Interest on the division loan
+60,000
+Income tax rate
+20%
+Dividend payout rate
+40%
+Retained earnings at 1 January 2028
+1,800,000
+Total assets at 1 January 2028
+7,400,000
+Total assets at 31 December 2028
+8,100,000
+C310-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Pro forma income statement · Pro forma balance sheet · Pro forma statement of cash flows
+Item
+Category
+Income tax expense
+Dividends payable
+Depreciation added back
+Retained earnings
+Purchase of the new mixer
+C310-2  Enter the budgeted profit before tax.
+Answer: ____________
+C310-3  Enter the budgeted net income.
+Answer: ____________
+C310-4  Enter the dividend for 2028.
+Answer: ____________
+C310-5  Enter the retained earnings at 31 December 2028.
+Answer: ____________
+C310-6  Enter the division's return on investment for 2028, as a percentage to one decimal (net income ÷ average total assets).
+Answer: ____________
+C310-7  Money that the plan cannot fund from its own cash is called required outside ____.
+Choose the word or phrase for the blank: financing   |   revenue   |   depreciation   |   inventory
+Answers and explanations
+Section checks
+SC310-1  Answer D. They are the budgets in financial statement form.
+A is wrong. That is historical reporting.
+B is wrong. They are built from it.
+C is wrong. Tax is one line, not the purpose.
+SC310-2  Answer B. Both come from the same budgets and must agree.
+A is wrong. They must give the same ending cash.
+C is wrong. The cash budget is the source.
+D is wrong. Adding back depreciation is correct.
+SC310-3  Answer A. Contribution margin − fixed costs.
+B is wrong. This uses 900,000 cases.
+C is wrong. Fixed costs are not deducted.
+D is wrong. Fixed costs are added.
+SC310-4  Answer A. Fixed costs do not change with volume.
+B is wrong. Fixed costs are not flexed.
+C is wrong. No reason to rise.
+D is wrong. They remain.
+SC310-5  Answer A. A profitable plan may still miss the strategy.
+B is wrong. Unrelated.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+SC310-6  Answer D. Not every objective is financial.
+A is wrong. The objective still matters.
+B is wrong. Only the financial ones were tested.
+C is wrong. It is not a money measure.
+SC310-7  Answer C. It reduced profit but used no cash.
+A is wrong. That would deduct it twice.
+B is wrong. The asset purchase is investing; depreciation is not.
+D is wrong. Not a financing item.
+SC310-8  Answer A. Assets − equity.
+B is wrong. This is the capital spending.
+C is wrong. This is equity.
+D is wrong. Assets and equity are added.
+SC310-9  Answer B. Net income × payout rate.
+A is wrong. This is the tax.
+C is wrong. This uses 50%.
+D is wrong. This is the amount retained.
+SC310-10  Answer B. The loan was repaid from the year's own cash.
+A is wrong. It was repaid.
+C is wrong. Borrowing is counted twice.
+D is wrong. Interest is an expense, not financing needed.
+SC310-11  Answer A. Longer horizons are driven by the strategic plan.
+B is wrong. A short-term item.
+C is wrong. A short-term item.
+D is wrong. A starting point for both.
+SC310-12  Answer C. A single figure would suggest false precision.
+A is wrong. They are needed for planning.
+B is wrong. No such rule.
+D is wrong. It can be forecast, with a range.
+Your turn
+Item
+Answer
+Cases and margin
+855,000 cases at $7.66
+Contribution margin
+$2,349,300 + $4,200,000 fixed costs
+Operating income
+$2,349,300
+Multiple-choice questions
+P310-01  Answer D. It is the budgeted statement of financial position.
+A is wrong. That is the income statement.
+B is wrong. That is the cash budget.
+C is wrong. That is the sales budget.
+P310-02  Answer C. Ending cash comes straight from it.
+A is wrong. Sales are not cash.
+B is wrong. Units, not cash.
+D is wrong. Costs, not cash.
+P310-03  Answer A. (Operating income − interest) × (1 − tax rate).
+B is wrong. Interest is not deducted before tax.
+C is wrong. This is profit before tax.
+D is wrong. This is operating income.
+P310-04  Answer A. New margin × cases − fixed costs.
+B is wrong. This lowers volume instead of the margin.
+C is wrong. This is the base plan.
+D is wrong. Fixed costs are not deducted.
+P310-05  Answer A. One assumption at a time.
+B is wrong. That compares actual with budget.
+C is wrong. That compares financial ratios.
+D is wrong. That estimates a cost formula.
+P310-06  Answer B. On this measure the plan exceeds the target.
+A is wrong. Not shown by one result.
+C is wrong. Other objectives are separate.
+D is wrong. No reason to reject.
+P310-07  Answer D. More sales are uncollected, so cash is lower than profit.
+A is wrong. The sign is reversed.
+B is wrong. The balance, not the change.
+C is wrong. Working capital changes are shown.
+P310-08  Answer C. Buying long-term assets is investing.
+A is wrong. Not an operating item.
+B is wrong. Financing is borrowing and equity.
+D is wrong. Cash goes out.
+P310-09  Answer C. Opening + net income − dividends.
+A is wrong. Net income is left out.
+B is wrong. The dividend is doubled.
+D is wrong. The dividend is added.
+P310-10  Answer D. What must be raised from lenders or owners.
+A is wrong. Spending is not all financed outside.
+B is wrong. A payment to owners.
+C is wrong. An expense.
+P310-11  Answer A. The plan cannot cover investment and the dividend from the year's cash alone.
+B is wrong. The dividend is left out.
+C is wrong. Investment is left out.
+D is wrong. Operating cash is left out.
+P310-12  Answer C. Dividends take cash out of the business.
+A is wrong. The opposite.
+B is wrong. Borrowing may rise.
+D is wrong. Net income is unchanged.
+P310-13  Answer D. It looks years ahead.
+A is wrong. A short-term input.
+B is wrong. A short-term input.
+C is wrong. A short-term input.
+P310-14  Answer B. Growth needs funding.
+A is wrong. It grows with sales.
+C is wrong. It uses cash.
+D is wrong. Both are needed.
+P310-15  Answer C. An amount owed at the year end.
+A is wrong. That is the income statement line.
+B is wrong. Unrelated.
+D is wrong. Part of equity.
+P310-16  Answer A. One plan, three views.
+B is wrong. They are linked.
+C is wrong. All three use them.
+D is wrong. Every line comes from a schedule.
+Case question: the tahini pro forma statements
+C310-1
+Item
+Category
+Income tax expense
+Pro forma income statement
+Dividends payable
+Pro forma balance sheet
+Depreciation added back
+Pro forma statement of cash flows
+Retained earnings
+Pro forma balance sheet
+Purchase of the new mixer
+Pro forma statement of cash flows
+Classify each item by the pro forma statement in which it first appears.
+C310-2  Answer: 1,190,000.
+1,250,000 is wrong: this answer leaves out the interest.
+C310-3  Answer: 952,000.
+1,190,000 is wrong: this answer leaves out the tax.
+C310-4  Answer: 380,800.
+476,000 is wrong: this answer applies the payout rate to profit before tax.
+C310-5  Answer: 2,371,200.
+2,752,000 is wrong: this answer does not deduct the dividend.
+C310-6  Answer: 12.3.
+16.1 is wrong: this answer uses operating income instead of net income.
+C310-7  Answer: financing.
+revenue is wrong: this answer revenue comes from customers.
+depreciation is wrong: this answer depreciation is a non-cash expense.
+inventory is wrong: this answer inventory is an asset.
+PART III
+Measuring and managing performance
+Chapters 11 to 18
+PART III — MEASURING AND MANAGING PERFORMANCE

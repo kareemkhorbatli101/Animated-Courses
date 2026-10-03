@@ -1,0 +1,846 @@
+Chapter 9
+The Capital Expenditure and Cash Budgets
+موازنة النفقات الرأسمالية والموازنة النقدية
+Beverages plans an operating income of $3,182,000 for 2028. Yet in the first quarter it will pay for the new filling line, buy concentrate for the season and wait sixty days for its customers to pay. Profit and cash are not the same thing, and a profitable division can still run out of money. This chapter plans the cash.
+Figure F309-01 shows the steps: the capital budget, the cash budget and its financing.
+Figure F309-01. Chapter 9 roadmap: capital budget, cash budget, financing.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.5.r
+prepare a capital expenditure budget
+Prepare a capital expenditure budget.
+Full treatment
+B.5.s
+demonstrate an understanding of the relationship between the capital expenditure budget, the cash budget, and the pro forma financial statements
+Explain how the capital expenditure budget, the cash budget and the pro forma financial statements are linked.
+Full treatment
+B.5.t
+define the purposes of a cash budget and describe the relationship between the cash budget and all other budgets
+Define the purposes of a cash budget and describe how it is linked to all the other budgets.
+Full treatment
+B.5.u
+demonstrate an understanding of the relationship between credit policies and purchasing (payables) policies and the cash budget
+Explain how credit policies and payables policies affect the cash budget.
+Full treatment
+B.5.v
+prepare a cash budget
+Prepare a cash budget.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+capital expenditure budget
+موازنة النفقات الرأسمالية
+budget des investissements
+cash budget
+الموازنة النقدية
+budget de trésorerie
+cash collections
+المتحصلات النقدية
+encaissements
+cash disbursements
+المدفوعات النقدية
+décaissements
+minimum cash balance
+الحد الأدنى للرصيد النقدي
+encaisse minimale
+credit policy
+سياسة الائتمان
+politique de crédit
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 4 budgeted the filling-line project at $2,500,000. Chapters 6 to 8 budgeted sales, purchases and expenses. This chapter turns all of them into cash.
+9.1  The capital expenditure budget
+The capital expenditure budget plans spending on long-term assets, such as plant, equipment and systems, by project and by period. Each project is approved separately, usually with capital budgeting methods (a CMA Part 2 topic), and then placed in the quarter when cash will be paid.
+WORKED EXAMPLE   Worked example: the filling line by quarter
+The project budget of Chapter 4 is placed on its timeline: equipment in the first quarter, installation and half the training in the second, the rest in the third. Figure F309-02 gives $1,800,000, $350,000 and $350,000, a total of $2,500,000.
+Figure F309-02. Worked example: the capital expenditure budget for 2028
+Capital budget 2028 (USD)
+Q1
+Q2
+Q3
+Q4
+Year
+Filling equipment
+1,800,000
+1,800,000
+Installation
+300,000
+300,000
+Operator training
+50,000
+50,000
+100,000
+Testing and start-up
+150,000
+150,000
+Contingency
+150,000
+150,000
+Capital expenditure
+1,800,000
+350,000
+350,000
+—
+2,500,000
+One investment affects three statements. The cash budget shows the cash paid; the budgeted income statement shows depreciation over the asset's life; the budgeted balance sheet shows the asset at cost less depreciation. Figure F309-03 draws these links.
+Figure F309-03. How the capital budget reaches the other budgets.
+The capital budget is a financial budget, not part of the operating budget: the purchase itself is not an expense. Only its depreciation reaches the income statement, a little at a time.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+capital expenditure budget
+موازنة النفقات الرأسمالية
+budget des investissements
+English (exam term)
+العربية
+Français
+capital expenditure budget
+موازنة النفقات الرأسمالية
+budget des investissements
+SECTION CHECK   Test yourself
+SC309-1  A capital expenditure budget plans:
+A.	spending on long-term assets by project and period
+B.	monthly wages
+C.	sales by quarter
+D.	the cost of goods sold
+SC309-2  A project spends installation $300,000 and half of $100,000 training in the second quarter. What is second-quarter capital expenditure?
+A.	$300,000
+B.	$350,000
+C.	$400,000
+D.	$2,500,000
+Answers and explanations are at the end of the chapter.
+9.2  Why a cash budget?
+The cash budget plans the cash coming in and going out each period and the cash left at the end. Its purposes are to show shortages early, so that borrowing can be arranged in time, and to show surpluses that can be invested or used to repay loans.
+It is linked to every other budget. Figure F309-04 shows how sales, materials, labor, overhead, selling and administrative costs, capital spending and the financing policy all send their cash effects to it.
+Figure F309-04. Every budget feeds the cash budget.
+Two things change on the way to the cash budget. Timing changes, because customers and suppliers pay later; and non-cash items, such as depreciation, drop out.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cash budget
+الموازنة النقدية
+budget de trésorerie
+English (exam term)
+العربية
+Français
+cash budget
+الموازنة النقدية
+budget de trésorerie
+SECTION CHECK   Test yourself
+SC309-3  The main purpose of a cash budget is to:
+A.	measure profit
+B.	value inventory
+C.	set selling prices
+D.	show cash shortages and surpluses early
+SC309-4  Which budget does NOT send any cash effect to the cash budget?
+A.	The sales budget
+B.	The materials purchases budget
+C.	None; every budget with cash flows feeds it
+D.	The capital expenditure budget
+Answers and explanations are at the end of the chapter.
+9.3  Collections and payments
+Cash collections follow the credit policy, not the sales budget. Beverages collects 40% of each quarter's sales in that quarter and 60% in the next, so the first quarter also collects the rest of last year's fourth-quarter sales.
+WORKED EXAMPLE   Worked example: collections in the first quarter
+The first quarter collects $2,460,000 still owed from last year, plus 40% of first-quarter sales of $4,200,000, for a total of $4,140,000. Figure F309-05 shows every quarter.
+Figure F309-05. Worked example: the collections schedule for 2028
+Collections (40% in quarter, 60% next)
+Q1
+Q2
+Q3
+Q4
+Q4 2027 sales: 60% (205,000 cases × $20.00)
+2,460,000
+Q1 sales $4,200,000
+1,680,000
+2,520,000
+Q2 sales $4,500,000
+1,800,000
+2,700,000
+Q3 sales $4,800,000
+1,920,000
+2,880,000
+Q4 sales $4,500,000
+1,800,000
+Cash collections
+4,140,000
+4,320,000
+4,620,000
+4,680,000
+Cash disbursements follow the payment terms in the same way. The concentrate supplier is paid 50% in the quarter of purchase and the rest in the next; bottles, wages and most expenses are paid as they occur. Figure F309-06 shows the concentrate payments.
+Figure F309-06. Concentrate payments by quarter
+Concentrate payments (USD)
+Q1
+Q2
+Q3
+Q4
+Purchases (Chapter 7)
+1,158,300
+1,236,060
+1,272,240
+1,201,500
+Paid from last quarter (50%)
+575,000
+579,150
+618,030
+636,120
+Paid this quarter (50%)
+579,150
+618,030
+636,120
+600,750
+Cash paid for concentrate
+1,154,150
+1,197,180
+1,254,150
+1,236,870
+YOUR TURN   Concentrate payments in the third and fourth quarters
+Complete the blank cells of Figure F309-07. Answers are at the end of the chapter.
+Figure F309-07. Your turn: concentrate payments in the third and fourth quarters (complete the blanks)
+Concentrate payments (USD)
+Q1
+Q2
+Q3
+Q4
+Purchases (Chapter 7)
+1,158,300
+1,236,060
+1,272,240
+1,201,500
+Paid from last quarter (50%)
+575,000
+579,150
+________
+________
+Paid this quarter (50%)
+579,150
+618,030
+________
+________
+Cash paid for concentrate
+1,154,150
+1,197,180
+________
+________
+EXAM TRAP   Sales are not collections
+An answer that puts sales or purchases straight into the cash budget ignores credit and payment terms. Build a collections schedule and a payments schedule first.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cash collections
+المتحصلات النقدية
+encaissements
+cash disbursements
+المدفوعات النقدية
+décaissements
+credit policy
+سياسة الائتمان
+politique de crédit
+English (exam term)
+العربية
+Français
+cash collections
+المتحصلات النقدية
+encaissements
+cash disbursements
+المدفوعات النقدية
+décaissements
+credit policy
+سياسة الائتمان
+politique de crédit
+SECTION CHECK   Test yourself
+SC309-5  Cash collections in a quarter depend on:
+A.	sales only
+B.	sales and the credit policy
+C.	production
+D.	the depreciation method
+SC309-6  Receivables at the start of the quarter are $2,460,000. Sales are $4,200,000, with 40% collected in the quarter of sale. What are the quarter's collections?
+A.	$1,680,000
+B.	$2,460,000
+C.	$4,140,000
+D.	$4,200,000
+Answers and explanations are at the end of the chapter.
+9.4  Preparing the cash budget
+The cash budget has four parts: beginning cash plus collections gives cash available; minus disbursements gives cash before financing; borrowing, interest and repayments give ending cash. Management keeps a minimum cash balance of $400,000.
+Non-cash costs are left out. Fixed overhead is paid at $300,000 a quarter, not $450,000, because $150,000 of it is depreciation; fixed selling and administrative costs are paid at $550,000.
+WORKED EXAMPLE   Worked example: the first quarter
+Cash available $4,640,000 − disbursements $5,163,750 = $(523,750) before financing. To stay above the minimum after interest, Beverages borrows $1,000,000 in steps of $100,000; after interest of $20,000, ending cash is $456,250. Figure F309-08 shows the year.
+Figure F309-08. Worked example: the Beverages cash budget for 2028
+Beverages cash budget 2028 (USD)
+Q1
+Q2
+Q3
+Q4
+Beginning cash
+500,000
+456,250
+403,470
+538,920
++ Collections
+4,140,000
+4,320,000
+4,620,000
+4,680,000
+= Cash available
+4,640,000
+4,776,250
+5,023,470
+5,218,920
+Concentrate
+(1,154,150)
+(1,197,180)
+(1,254,150)
+(1,236,870)
+Bottles, caps and cartons
+(766,800)
+(820,800)
+(853,200)
+(802,800)
+Direct labor
+(127,800)
+(136,800)
+(142,200)
+(133,800)
+Variable overhead
+(213,000)
+(228,000)
+(237,000)
+(223,000)
+Fixed overhead (cash part)
+(300,000)
+(300,000)
+(300,000)
+(300,000)
+Variable selling
+(252,000)
+(270,000)
+(288,000)
+(270,000)
+Fixed selling and admin (cash part)
+(550,000)
+(550,000)
+(550,000)
+(550,000)
+Capital expenditure
+(1,800,000)
+(350,000)
+(350,000)
+—
+= Total disbursements
+5,163,750
+3,852,780
+3,974,550
+3,516,470
+Cash before financing
+(523,750)
+923,470
+1,048,920
+1,702,450
++ Borrowing
+1,000,000
+—
+—
+—
+− Interest
+(20,000)
+(20,000)
+(10,000)
+—
+− Repayment
+—
+(500,000)
+(500,000)
+—
+= Ending cash
+456,250
+403,470
+538,920
+1,702,450
+Figure F309-09 shows why the budget matters: the first quarter would be overdrawn without the loan, because the filling line and the slow collections fall in the same quarter. By the third quarter, summer collections repay the loan.
+Figure F309-09. Cash before financing and ending cash, by quarter.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+minimum cash balance
+الحد الأدنى للرصيد النقدي
+encaisse minimale
+English (exam term)
+العربية
+Français
+minimum cash balance
+الحد الأدنى للرصيد النقدي
+encaisse minimale
+SECTION CHECK   Test yourself
+SC309-7  Which item is left out of the cash budget?
+A.	Depreciation of the plant
+B.	Wages
+C.	Payments for concentrate
+D.	Purchase of the filling line
+SC309-8  Cash before financing is −$523,750. The minimum balance is $400,000, loans are taken in steps of $100,000, and interest of 2% on the loan is paid in the same quarter. How much should be borrowed?
+A.	$600,000
+B.	$900,000
+C.	$923,750
+D.	$1,000,000
+Answers and explanations are at the end of the chapter.
+9.5  Credit and payables policies
+Credit and payables policies change the timing of cash, and therefore the borrowing. Collecting faster from customers brings cash in earlier; paying suppliers faster sends it out earlier.
+Figure F309-10 tests two changes in the first quarter. Collecting 50% in the quarter of sale would add $420,000 of cash; paying for concentrate in full at once would take more cash out and raise the loan.
+Figure F309-10. The effect of credit and payables policies on first-quarter cash
+First quarter 2028 (USD)
+Budget
+Changed policy
+Effect on cash
+Collections in the first quarter
+4,140,000
+4,560,000
++420,000
+Cash before financing
+(523,750)
+(103,750)
++420,000
+Concentrate paid in the first quarter, if paid 100% at once
+1,154,150
+1,733,300
+−579,150
+Tighter credit has a cost: customers such as Levant and the supermarkets may buy less or ask for discounts. Slower payment to suppliers may lose discounts or goodwill. The cash budget shows the cash effect; management weighs it against these costs.
+EXAM TRAP   Policy changes move cash, not profit
+A change in credit or payment terms changes when cash arrives or leaves, not the sales or expenses themselves. Unless the question adds a discount or lost sales, operating income does not change.
+SECTION CHECK   Test yourself
+SC309-9  Collecting from customers faster will:
+A.	raise sales
+B.	lower expenses
+C.	bring cash in earlier and reduce borrowing
+D.	change operating income
+SC309-10  First-quarter sales are $4,200,000. The share collected in the quarter of sale rises from 40% to 50%. How much more cash is collected in the quarter?
+A.	$42,000
+B.	$420,000
+C.	$1,680,000
+D.	$2,100,000
+Answers and explanations are at the end of the chapter.
+9.6  Extended Example 9A: financing the year and handing over to the pro forma statements
+This example follows the loan through the year and checks the cash budget as a whole. It is exam-core.
+1. The financing schedule
+Figure F309-11 tracks the loan: $1,000,000 borrowed in the first quarter, interest of 2% a quarter on the balance, and repayments as soon as cash rises above the minimum.
+Figure F309-11. Extended Example: the financing schedule
+Financing (USD)
+Q1
+Q2
+Q3
+Q4
+Loan at start of quarter
+0
+1,000,000
+500,000
+0
++ Borrowed
+1,000,000
+—
+—
+—
+Interest paid (2% a quarter)
+20,000
+20,000
+10,000
+—
+− Repaid
+—
+500,000
+500,000
+—
+Loan at end of quarter
+1,000,000
+500,000
+0
+0
+2. The year in one line
+Figure F309-12 reconciles the year: beginning cash, plus collections, minus disbursements and interest, plus borrowing minus repayment, gives ending cash of $1,702,450.
+Figure F309-12. Extended Example: the year's cash in one reconciliation
+Year 2028 (USD)
+Amount
+Beginning cash
+500,000
++ Collections
+17,760,000
+− Disbursements
+(16,507,550)
+− Interest
+(50,000)
++ Borrowing − repayment
+1,000,000 − 1,000,000
+= Ending cash
+1,702,450
+3. Into the pro forma statements
+Figure F309-13 lists the figures the cash budget passes to Chapter 10: depreciation left out of cash, receivables and payables at the end of the year, the new asset and the ending cash.
+Figure F309-13. Extended Example: figures passed to the pro forma statements
+Item passed to the pro forma statements
+Amount
+Where it goes
+Depreciation left out of cash
+$800,000
+Income statement only (Chapters 7–8)
+Receivables at year end
+$2,700,000
+60% of fourth-quarter sales
+Concentrate payable at year end
+$600,750
+50% of fourth-quarter purchases
+Filling line
+$2,500,000
+New asset on the balance sheet
+Cash at year end
+$1,702,450
+Balance sheet (Chapter 10)
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Collections $17,760,000 = sales $18,000,000 + opening receivables $2,460,000 − closing receivables $2,700,000.
+$500,000 + $17,760,000 − $16,507,550 − $50,000 + $1,000,000 − $1,000,000 = $1,702,450.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cash budget
+الموازنة النقدية
+budget de trésorerie
+minimum cash balance
+الحد الأدنى للرصيد النقدي
+encaisse minimale
+credit policy
+سياسة الائتمان
+politique de crédit
+English (exam term)
+العربية
+Français
+cash budget
+الموازنة النقدية
+budget de trésorerie
+minimum cash balance
+الحد الأدنى للرصيد النقدي
+encaisse minimale
+credit policy
+سياسة الائتمان
+politique de crédit
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect sales and purchases with credit terms, a list of expenses including depreciation, a capital purchase and a minimum cash balance. Build collections and payments, leave out non-cash items, find cash before financing, and calculate the borrowing, interest and ending cash.
+7. Self-check
+SECTION CHECK   Test yourself
+SC309-11  Use the Extended Example. What is Beverages' cash at the end of the year?
+A.	$500,000
+B.	$1,702,450
+C.	$3,182,000
+D.	$17,760,000
+SC309-12  Use the Extended Example. How does the $2,500,000 filling line reach the budgeted income statement?
+A.	As an expense of $2,500,000 in the year of purchase
+B.	Through depreciation over its useful life
+C.	It does not affect the income statement at all
+D.	As a reduction of sales
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F309-14 brings the chapter together.
+Figure F309-14. Chapter 9 summary map: the key rule for each section.
+The capital expenditure budget plans long-term spending by project and period; it reaches the cash budget when cash is paid, the income statement through depreciation, and the balance sheet as an asset. The cash budget shows shortages and surpluses early and is linked to every other budget. Collections and payments follow credit and payment terms, non-cash items are left out, and borrowing keeps cash above the minimum. Credit and payables policies change the timing of cash, and therefore the financing.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P309-01  In which part of the master budget is the capital expenditure budget?
+A.	The operating budget
+B.	The financial budget
+C.	The sales budget
+D.	The production budget
+P309-02  A new machine appears on the budgeted balance sheet as:
+A.	an asset at cost less depreciation
+B.	an expense
+C.	a liability
+D.	revenue
+P309-03  A profitable division expects a cash shortage in one quarter. How can that happen?
+A.	Profit always equals cash
+B.	Depreciation uses cash
+C.	Sales are not recorded
+D.	Timing of collections and payments, and capital spending, differ from income and expense
+P309-04  Which section of the cash budget shows borrowing and repayments?
+A.	Collections
+B.	Disbursements
+C.	Financing
+D.	Cost of goods sold
+P309-05  Fixed overhead is $450,000 a quarter, of which $150,000 is depreciation. How much fixed overhead goes into the cash budget?
+A.	$300,000
+B.	$450,000
+C.	$600,000
+D.	$750,000
+P309-06  The first step in preparing a cash budget is to:
+A.	find the ending cash
+B.	prepare the collections and payments schedules
+C.	set the loan
+D.	calculate interest
+P309-07  Concentrate purchases are $1,158,300 in the first quarter and $1,236,060 in the second, paid 50% in the quarter and 50% the next. What is paid in the second quarter?
+A.	$618,030
+B.	$1,158,300
+C.	$1,197,180
+D.	$1,236,060
+P309-08  Why does the cash budget keep a minimum cash balance?
+A.	To earn interest
+B.	Because GAAP requires it
+C.	To meet unexpected payments without borrowing at short notice
+D.	To raise reported profit
+P309-09  A loan of $1,000,000 carries interest of 8% a year, paid each quarter. What is the interest for one quarter?
+A.	$2,000
+B.	$20,000
+C.	$80,000
+D.	$200,000
+P309-10  A company delays paying suppliers by one month. What is the main effect on the cash budget?
+A.	Expenses fall
+B.	Sales rise
+C.	Depreciation falls
+D.	Cash goes out later, so borrowing may fall
+P309-11  Beginning cash $456,250; collections $4,320,000; disbursements $3,852,780; interest $20,000; repayment $500,000. What is ending cash?
+A.	$403,470
+B.	$423,470
+C.	$903,470
+D.	$923,470
+P309-12  Which figure does the cash budget pass to the budgeted balance sheet?
+A.	Sales
+B.	Ending cash
+C.	Depreciation expense
+D.	Cost of goods sold
+P309-13  Concentrate is paid 50% in the quarter of purchase. First-quarter purchases are $1,158,300. If the company paid 100% in the same quarter instead, how much more cash would go out in the first quarter?
+A.	$0
+B.	$289,575
+C.	$575,000
+D.	$579,150
+P309-14  Why is the capital expenditure budget prepared by quarter, not just by year?
+A.	Because depreciation is quarterly
+B.	Because GAAP requires it
+C.	So the cash budget shows when the cash is paid
+D.	To raise sales
+P309-15  Fourth-quarter sales are $4,500,000, with 40% collected in the quarter. What receivable goes to the year-end balance sheet?
+A.	$1,800,000
+B.	$2,460,000
+C.	$2,700,000
+D.	$4,500,000
+P309-16  A cash surplus shown by the cash budget can be used to:
+A.	raise depreciation
+B.	increase sales
+C.	change the credit policy
+D.	repay loans or invest for a short time
+Case question: the tahini cash budget for the second quarter
+Tahini & Spreads sells most of its jars on credit to Barada, the Gulf importer and the supermarkets. It collects most of each quarter's sales in the same quarter and the rest in the next. It buys sesame paste by sea and pays the supplier half in the quarter of purchase and half in the next. Wages, jars and the variable costs of running the line are paid in the quarter they arise, and the fixed costs of the plant and the sales team are paid evenly through the year.
+In the second quarter, the division will also pay for a new sesame mixer. The controller, Rana, must prepare the cash budget for the quarter and tell the division manager, Samir, whether the division will need to borrow to keep its minimum cash balance. Head office wants to know at once if the division will need a loan, because its own cash is planned around the summer season.
+The new assistant has prepared a first draft. It includes the depreciation of the plant in the cash payments and uses the sales for the quarter as the cash collected. Rana must correct both errors before the meeting.
+Samir also asks what would happen to cash if the supermarkets were given longer to pay, as they have requested.
+Use Figure F309-15 for items C309-1 to C309-7.
+How to enter answers: Enter amounts in whole U.S. dollars, without the $ sign or commas (for example, 125000).
+Figure F309-15. Case exhibit: Tahini & Spreads data for the second-quarter cash budget
+Tahini & Spreads, second quarter 2028
+Data
+Sales: first quarter
+$1,260,000
+Sales: second quarter
+$1,330,000
+Collected in the quarter of sale
+70%
+Sesame purchases: first quarter
+$457,500
+Sesame purchases: second quarter
+$481,000
+Sesame paid in the quarter of purchase
+50%
+Jars, labor and variable overhead per jar produced
+$0.65
+Jars produced in the second quarter
+382,000
+Fixed manufacturing overhead for the quarter
+$240,000, including depreciation $60,000
+Variable selling for the quarter
+$38,000
+Fixed selling and admin for the quarter
+$120,000
+New mixer, paid in the second quarter
+$150,000
+Cash at the start of the second quarter
+$300,000
+Minimum cash balance
+$250,000
+C309-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Cash receipt · Cash disbursement · Not in the cash budget
+Item
+Category
+Collections from the Gulf importer
+Payment for the new mixer
+Depreciation of the tahini plant
+Wages of the filling team
+Sales made but not yet collected
+C309-2  Enter the cash collected in the second quarter.
+Answer: ____________
+C309-3  Enter the cash paid for sesame in the second quarter.
+Answer: ____________
+C309-4  Enter the total cash disbursements for the second quarter.
+Answer: ____________
+C309-5  Enter the cash balance at the end of the second quarter, before any borrowing.
+Answer: ____________
+C309-6  Giving the supermarkets longer to pay would: [select]
+Options: delay cash collections and may require borrowing   |   increase sales revenue   |   reduce the cost of sesame   |   have no effect on cash
+C309-7  Management borrows when cash would fall below the ____ cash balance.
+Choose the word or phrase for the blank: minimum   |   beginning   |   average   |   ending
+Answers and explanations
+Section checks
+SC309-1  Answer A. Plant, equipment and systems.
+B is wrong. Part of the labor budget.
+C is wrong. The sales budget.
+D is wrong. An operating budget.
+SC309-2  Answer B. Installation + half the training.
+A is wrong. Training is left out.
+C is wrong. All the training is placed in this quarter.
+D is wrong. This is the whole project.
+SC309-3  Answer D. So financing can be arranged in time.
+A is wrong. That is the income statement.
+B is wrong. Unrelated.
+C is wrong. Unrelated.
+SC309-4  Answer C. The cash budget gathers the cash effects of all budgets.
+A is wrong. Sales lead to collections.
+B is wrong. Purchases lead to payments.
+D is wrong. Capital spending is paid in cash.
+SC309-5  Answer B. Customers pay according to credit terms.
+A is wrong. Timing matters.
+C is wrong. Production does not create cash.
+D is wrong. Unrelated.
+SC309-6  Answer C. Opening receivables + 40% of sales.
+A is wrong. Opening receivables are left out.
+B is wrong. This quarter's sales are left out.
+D is wrong. This treats sales as cash.
+SC309-7  Answer A. Depreciation uses no cash.
+B is wrong. Paid in cash.
+C is wrong. Paid in cash.
+D is wrong. Paid in cash.
+SC309-8  Answer D. $900,000 would leave $358,250 after interest, below the minimum.
+A is wrong. Far too little.
+B is wrong. Interest is ignored.
+C is wrong. Loans come in steps of $100,000, and interest is ignored.
+SC309-9  Answer C. It changes timing, not amounts.
+A is wrong. Sales are unchanged.
+B is wrong. Expenses are unchanged.
+D is wrong. Only timing changes.
+SC309-10  Answer B. 10% of the quarter's sales.
+A is wrong. This uses 1%.
+C is wrong. This is the old amount collected in the quarter.
+D is wrong. This is the new amount collected in the quarter.
+SC309-11  Answer B. Beginning cash + collections − disbursements − interest ± financing.
+A is wrong. This is the beginning cash.
+C is wrong. This is operating income, not cash.
+D is wrong. These are the year's collections.
+SC309-12  Answer B. The cost is spread as depreciation.
+A is wrong. A capital purchase is not an expense.
+C is wrong. Depreciation reaches it.
+D is wrong. Unrelated.
+Your turn
+Item
+Answer
+Q3
+$1,254,150 = 50% of 1,236,060 + 50% of 1,272,240
+Q4
+$1,236,870 = 50% of 1,272,240 + 50% of 1,201,500
+Multiple-choice questions
+P309-01  Answer B. It plans investment, not operations.
+A is wrong. The purchase is not an operating cost.
+C is wrong. Unrelated.
+D is wrong. Unrelated.
+P309-02  Answer A. Long-term assets are capitalized.
+B is wrong. Not an expense.
+C is wrong. Not a liability.
+D is wrong. Not revenue.
+P309-03  Answer D. Profit and cash differ in timing and in capital items.
+A is wrong. They are not equal.
+B is wrong. Depreciation uses no cash.
+C is wrong. Unrelated.
+P309-04  Answer C. Financing follows cash before financing.
+A is wrong. Customer receipts.
+B is wrong. Operating and capital payments.
+D is wrong. Not part of the cash budget.
+P309-05  Answer A. Depreciation is left out.
+B is wrong. Depreciation is included.
+C is wrong. Depreciation is added again.
+D is wrong. Depreciation is counted twice more.
+P309-06  Answer B. Timing schedules come first.
+A is wrong. That comes last.
+C is wrong. Financing comes after cash before financing.
+D is wrong. Interest follows the loan.
+P309-07  Answer C. Half of each quarter's purchases.
+A is wrong. Last quarter's half is left out.
+B is wrong. This is last quarter's purchases.
+D is wrong. This treats purchases as cash paid.
+P309-08  Answer C. A safety margin for timing errors.
+A is wrong. Not the main reason.
+B is wrong. A management policy.
+D is wrong. Unrelated to profit.
+P309-09  Answer B. 8% ÷ 4 × the loan.
+A is wrong. The rate is misplaced.
+C is wrong. This is a full year's interest.
+D is wrong. The rate is misplaced.
+P309-10  Answer D. Timing of payments changes.
+A is wrong. The expense is the same.
+B is wrong. Unrelated.
+C is wrong. Unrelated.
+P309-11  Answer A. All items, including interest and repayment.
+B is wrong. Interest is left out.
+C is wrong. The repayment is left out.
+D is wrong. Interest and repayment are left out.
+P309-12  Answer B. Cash is a balance-sheet asset.
+A is wrong. An income statement item.
+C is wrong. An income statement item.
+D is wrong. An income statement item.
+P309-13  Answer D. The other half is paid at once.
+A is wrong. Purchases are the same, but timing changes.
+B is wrong. Only a quarter of purchases is used.
+C is wrong. This is last year's payable.
+P309-14  Answer C. Timing drives cash needs.
+A is wrong. Not the reason.
+B is wrong. A management choice.
+D is wrong. Unrelated.
+P309-15  Answer C. The 60% not yet collected.
+A is wrong. This is the part collected.
+B is wrong. This is last year's receivable.
+D is wrong. This is the quarter's sales.
+P309-16  Answer D. Surpluses should be put to work.
+A is wrong. Unrelated.
+B is wrong. Unrelated.
+C is wrong. Unrelated.
+Case question: the tahini cash budget for the second quarter
+C309-1
+Item
+Category
+Collections from the Gulf importer
+Cash receipt
+Payment for the new mixer
+Cash disbursement
+Depreciation of the tahini plant
+Not in the cash budget
+Wages of the filling team
+Cash disbursement
+Sales made but not yet collected
+Not in the cash budget
+Classify each item by where it belongs in the cash budget.
+C309-2  Answer: 1,309,000.
+1,330,000 is wrong: this answer uses the quarter's sales as cash.
+C309-3  Answer: 469,250.
+481,000 is wrong: this answer uses the quarter's purchases as cash.
+C309-4  Answer: 1,205,550.
+1,265,550 is wrong: this answer includes depreciation.
+C309-5  Answer: 403,450.
+343,450 is wrong: this answer deducts depreciation as if it were paid.
+C309-6  Answer: delay cash collections and may require borrowing.
+increase sales revenue is wrong: this answer credit terms change timing, not sales, unless stated.
+reduce the cost of sesame is wrong: this answer unrelated to credit terms.
+have no effect on cash is wrong: this answer slower collection delays cash.
+C309-7  Answer: minimum.
+beginning is wrong: this answer the beginning balance is a starting point, not a floor.
+average is wrong: this answer an average does not trigger borrowing.
+ending is wrong: this answer the ending balance results from financing.
+PART II — THE MASTER BUDGET

@@ -1,4 +1,4 @@
-# CMA Part 1 handout plan — Books 1 and 2
+# CMA Part 1 handout plan — Books 1, 2 and 3
 
 Turning *CMA Part 1 · Section A, Chapters 1–18 (Review Edition)* into exercise-only
 handouts. This plan covers **Chapter 1, The Language and Framework of Financial
@@ -776,3 +776,89 @@ Two rounds of work, both prompted by reading the output:
   a teacher looking for the pages can still find them.
 
 Zero titles in either book name the company or a bare section number.
+
+## 15 · Book 3 — Planning, Budgeting and Performance Management, all eighteen chapters
+
+*CMA Part 1 · Book 3 (Review Edition)* went through the same pipeline with no
+new generators asked of it, and two that the book itself forced.
+
+### What came out
+
+**39 handouts, 161 pages, 1,630 response points**, in
+`CMA_Book3_All_Handouts_and_Keys.docx` — each handout followed by its own
+answer key sheet — and as 36 per-chapter documents, `CMA_B3_ChNN_Handouts.docx`
+and `CMA_B3_ChNN_AnswerKeys.docx`.
+
+| Ch | Chapter | Handouts | Pages | Exercise types |
+|---|---|---|---|---|
+| 1 | Strategic Planning: Purpose, Mission and Time Frame | 2 | 6 | 5 |
+| 2 | Analysing the Environment and Choosing a Strategy | 3 | 9 | 5 |
+| 3 | Budgeting Concepts: Roles, People and Behavior | 3 | 8 | 6 |
+| 4 | Budget Systems I: Master, Project and Activity-Based Budgets | 2 | 7 | 7 |
+| 5 | Budget Systems II: Zero-Based, Rolling and Flexible Budgets | 2 | 6 | 5 |
+| 6 | The Sales and Production Budgets | 2 | 5 | 5 |
+| 7 | Direct Materials, Direct Labor and Overhead Budgets | 2 | 6 | 6 |
+| 8 | Cost of Goods Sold, Selling and Administrative Expenses and the Operating Budget | 2 | 6 | 4 |
+| 9 | The Capital Expenditure and Cash Budgets | 2 | 5 | 4 |
+| 10 | Pro Forma Statements and Financing Needs | 2 | 6 | 4 |
+| 11 | Performance Against the Budget: Flexible Budgets and Sales Variances | 2 | 7 | 5 |
+| 12 | Standard Costing: Price and Efficiency Variances for Materials and Labor | 2 | 8 | 6 |
+| 13 | Mix, Yield and Sales-Mix Variances; Variances in Service Companies | 2 | 7 | 4 |
+| 14 | Overhead Variances and Acting on Variances | 2 | 7 | 6 |
+| 15 | Responsibility Centers, Contribution Reporting and Segments | 2 | 6 | 5 |
+| 16 | Transfer Pricing | 2 | 7 | 4 |
+| 17 | Return on Investment, Residual Income and Measurement Issues | 2 | 7 | 5 |
+| 18 | Critical Success Factors, KPIs and the Balanced Scorecard | 3 | 8 | 5 |
+
+All eighteen chapters pass all sixteen checks. Worst page fill across the
+161 pages is 0.92; nothing is over budget, and no handout exceeds four pages.
+
+### Two faults the book exposed
+
+Book 3 is budgeting, so it is schedules: 668 tables against 130 term rows,
+the opposite shape to Book 1. Two chapters failed the checks on that account,
+and both failures were in the generator, not the book.
+
+- **Chapter 2 — two items had no reason in the key.** The book's reasons for
+  its computational self-checks are the arithmetic alone (`30 ÷ 20.`), which
+  the key's reason column rejected as too short to be a reason. The multiple
+  choice renderer now builds a sentence round a terse reason — *The book
+  gives 1.50, from 30 ÷ 20* — rather than dropping it.
+
+- **Chapter 9 — only three exercise types.** Capital expenditure and cash
+  budgets carry 6 term rows and 40 numeric tables, so there was nothing to
+  blank and nothing to translate. Two changes:
+
+  - The classification generator required each category to start with a
+    different letter, so its legend letters would be mnemonic. Chapter 9's
+    categories are *Cash receipt*, *Cash disbursement* and *Not in the cash
+    budget* — two C's — and the chapter's one genuine classification table
+    was being thrown away to protect a mnemonic. It now falls back to A, B, C
+    when the initials collide.
+  - A new **T8 generator** reads a real schedule and asks for its line order
+    back, which is what a budgeting exam asks. It fires in six chapters
+    (4, 6, 7, 12, 14, 17) and is the first exercise type in this project
+    that tests sequence rather than value.
+
+### Exercise mix
+
+Counting every blank by a coarse rule — a fill-the-table blank is
+computation, an English-to-Arabic cell is translation, everything else is
+theory — Book 3 comes out at **theory 56 per cent, translation 24 per cent,
+computation 21 per cent**. The rule is coarser than the one used on Books 1
+and 2 earlier in this document, so take the three books' percentages as
+separate measurements rather than a trend line.
+
+What is directly comparable is the source material. Term rows read from the
+books' own glossary tables:
+
+| Book | Term rows |
+|---|---|
+| 1 · Financial Reporting | 346 |
+| 2 · Cost Management | 176 |
+| 3 · Planning and Budgeting | 130 |
+
+English-to-Arabic matching can only be as large a share as the glossary
+allows, so Book 3's translation load is the lightest of the three without
+the generator being told to hold it down — and its 668 tables are what
+carry the rest.

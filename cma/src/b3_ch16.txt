@@ -1,0 +1,732 @@
+Chapter 16
+Transfer Pricing
+التسعير التحويلي
+Levant Distribution delivers every case of juice that Beverages sells. Both are part of Orontes, so the price Levant charges Beverages is an internal matter: it moves profit from one division to the other and changes nothing for the company. Yet it changes how each manager behaves, and the wrong price can lead a manager to a decision that costs the company money.
+Figure F316-01 shows the tension the chapter resolves.
+Figure F316-01. Chapter 16 roadmap: supplier, transfer price, buyer.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+C.2.h
+define transfer pricing and identify the objectives of transfer pricing
+Define transfer pricing and identify the objectives of a transfer price.
+Full treatment
+C.2.i
+identify the methods for determining transfer prices, and list and explain the advantages and disadvantages of each method
+Identify the methods of setting transfer prices and explain the advantages and disadvantages of each.
+Full treatment
+C.2.j
+calculate transfer prices using variable cost, full cost, market price, negotiated price, and dual-rate pricing
+Calculate transfer prices using variable cost, full cost, market price, a negotiated price and dual rates.
+Full treatment
+C.2.k
+explain how transfer pricing is affected by business issues, such as the presence of outside suppliers and the opportunity costs associated with capacity usage
+Explain how outside suppliers and the opportunity cost of capacity affect the transfer price.
+Full treatment
+C.2.l
+describe how special issues such as tariffs, exchange rates, taxes, currency restrictions, expropriation risk, and the availability of materials and skills affect performance evaluation in multinational companies
+Describe how tariffs, exchange rates, taxes, currency restrictions, expropriation risk and the availability of materials and skills affect transfer pricing.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+transfer price
+سعر التحويل
+prix de cession interne
+variable-cost transfer price
+سعر التحويل بالتكلفة المتغيرة
+prix de cession au coût variable
+full-cost transfer price
+سعر التحويل بالتكلفة الكلية
+prix de cession au coût complet
+market-based transfer price
+سعر التحويل على أساس السوق
+prix de cession au prix du marché
+negotiated transfer price
+سعر التحويل المتفاوض عليه
+prix de cession négocié
+dual-rate transfer pricing
+التسعير التحويلي المزدوج
+prix de cession à double taux
+minimum transfer price
+الحد الأدنى لسعر التحويل
+prix de cession minimal
+expropriation risk
+مخاطر المصادرة
+risque d'expropriation
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 15 made Levant a profit center and Beverages an investment center, which is why the price between them matters. Book 2, Chapter 17 compared making a part inside with buying it outside, using the same idea of avoidable cost.
+16.1  What a transfer price is for
+A transfer price is the price one part of a company charges another for goods or services supplied internally. It is revenue to the supplying unit and cost to the buying unit, so the two cancel in the company accounts.
+Because it cancels, the transfer price has no direct effect on company profit. Its purpose is to influence decisions and to measure performance fairly. Figure F316-02 lists the four objectives it must serve at once.
+Figure F316-02. The four objectives of a transfer price
+Objective (C.2.h)
+What it means
+At Orontes
+Goal congruence
+Each manager's best choice is also best for the company
+A floor of variable cost keeps internal supply attractive
+Fair performance evaluation
+Each division's profit reflects its own work
+A price below cost makes the supplier look bad
+Divisional autonomy
+Managers keep the right to decide
+A negotiated price respects both managers
+Company profit after tax
+Cross-border prices affect tariffs and tax
+Set within the rules, not to shift profit
+The objectives can conflict. A price that gives Levant a fair margin may be high enough to push Beverages towards an outside carrier. The rest of the chapter works out where the price should sit.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+transfer price
+سعر التحويل
+prix de cession interne
+English (exam term)
+العربية
+Français
+transfer price
+سعر التحويل
+prix de cession interne
+SECTION CHECK   Test yourself
+SC316-1  A transfer price is:
+A.	the price charged to outside customers
+B.	the price one part of a company charges another for internal supply
+C.	the cost of goods sold
+D.	the price paid to a supplier
+SC316-2  What effect does raising a transfer price have on total company profit, holding everything else constant?
+A.	It raises it
+B.	It lowers it
+C.	None: the revenue and cost cancel
+D.	It depends on the tax rate only
+Answers and explanations are at the end of the chapter.
+16.2  Five ways of setting the price
+Companies set transfer prices in five ways: at the supplier's variable cost, at its full cost, at the market price, at a price the two managers negotiate, or at two different rates for the two sides.
+Figure F316-03 sets out the five methods, with the price each gives for a delivered case and what is good and bad about it.
+Figure F316-03. Five methods of setting a transfer price
+Method (C.2.i)
+Price a case
+Advantages
+Disadvantages
+Variable cost
+$0.50
+Leads to the right decision for the company
+Supplier earns nothing; looks like a poor performer
+Full cost
+$0.80
+Simple; covers the supplier's costs
+Fixed cost looks variable to the buyer, so it can refuse good internal business
+Market price
+$1.10
+Fair to both; good when a competitive market exists
+No market price for many internal services; ignores savings on internal trade
+Negotiated
+$0.90
+Respects autonomy; managers know their own costs
+Takes time; the better negotiator wins
+Dual rate
+$1.10 / $0.50
+Both divisions see the price that leads to the right decision
+The two sides do not add up; the difference must be removed on consolidation
+WORKED EXAMPLE   Worked example: the same year at five prices
+Beverages needs 900,000 cases delivered. At variable cost Levant earns nothing on the work and Beverages keeps $6,930,000; at market price Levant earns $540,000. Figure F316-04 shows every method, and the company column never changes.
+Figure F316-04. Worked example: the same year at five transfer prices
+Transfer price for 900,000 cases
+Price
+Levant
+Beverages
+Company
+Variable cost
+$0.50
+0
+6,930,000
+6,930,000
+Full cost
+$0.80
+270,000
+6,660,000
+6,930,000
+Negotiated
+$0.90
+360,000
+6,570,000
+6,930,000
+Market price
+$1.10
+540,000
+6,390,000
+6,930,000
+Dual rate
+$1.10 / $0.50
+540,000
+6,930,000
+6,930,000
+YOUR TURN   The negotiated and market prices
+Complete the blank cells of Figure F316-05. Answers are at the end of the chapter.
+Figure F316-05. Your turn: the negotiated and market prices (complete the blanks)
+Transfer price for 900,000 cases
+Price
+Levant
+Beverages
+Company
+Variable cost
+$0.50
+0
+6,930,000
+6,930,000
+Full cost
+$0.80
+270,000
+6,660,000
+6,930,000
+Negotiated
+$0.90
+________
+________
+6,930,000
+Market price
+$1.10
+________
+________
+6,930,000
+Dual rate
+$1.10 / $0.50
+540,000
+6,930,000
+6,930,000
+Dual-rate transfer pricing credits Levant with the market price and charges Beverages only the variable cost, so each manager faces the figure that leads to the right decision. The $540,000 difference is removed when the divisions are added together.
+EXAM TRAP   The company column never moves
+Changing a transfer price moves profit between divisions. If an answer shows the company better or worse off because of the price alone, something has been double-counted.
+No method is right everywhere. A market price suits a product with an outside market, a negotiated price suits one without, and dual rates suit a case where the right decision and fair reporting pull apart.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+variable-cost transfer price
+سعر التحويل بالتكلفة المتغيرة
+prix de cession au coût variable
+full-cost transfer price
+سعر التحويل بالتكلفة الكلية
+prix de cession au coût complet
+market-based transfer price
+سعر التحويل على أساس السوق
+prix de cession au prix du marché
+negotiated transfer price
+سعر التحويل المتفاوض عليه
+prix de cession négocié
+dual-rate transfer pricing
+التسعير التحويلي المزدوج
+prix de cession à double taux
+English (exam term)
+العربية
+Français
+variable-cost transfer price
+سعر التحويل بالتكلفة المتغيرة
+prix de cession au coût variable
+full-cost transfer price
+سعر التحويل بالتكلفة الكلية
+prix de cession au coût complet
+market-based transfer price
+سعر التحويل على أساس السوق
+prix de cession au prix du marché
+negotiated transfer price
+سعر التحويل المتفاوض عليه
+prix de cession négocié
+dual-rate transfer pricing
+التسعير التحويلي المزدوج
+prix de cession à double taux
+SECTION CHECK   Test yourself
+SC316-3  What is the main disadvantage of a full-cost transfer price?
+A.	Fixed cost looks variable to the buyer, which can lead it to refuse good internal business
+B.	The supplier earns no margin
+C.	It needs a competitive outside market
+D.	It takes a long time to negotiate
+SC316-4  Under dual-rate pricing the supplier is credited $1.10 and the buyer charged $0.50 for 900,000 cases. What must happen when the divisions are combined?
+A.	Nothing
+B.	The company profit rises by $540,000
+C.	The buyer pays the difference in cash
+D.	The $540,000 difference is eliminated
+Answers and explanations are at the end of the chapter.
+16.3  The range: minimum and maximum
+The minimum transfer price is what the supplier must receive to be no worse off: variable cost plus the opportunity cost of anything it gives up. The maximum is what the buyer could pay outside. Figure F316-06 draws the range for Levant and Beverages.
+Figure F316-06. The bargaining range for the transfer price.
+Figure F316-07 states the rule. When the minimum is below the maximum, a range exists and any price inside it leaves both divisions better off. When the minimum is above the maximum, the company should not transfer internally.
+Figure F316-07. The minimum and maximum transfer price
+Rule (C.2.j)
+Formula
+Levant and Beverages
+Minimum (the supplier will not go below)
+variable cost + opportunity cost
+$0.50 with spare capacity; $1.10 at full capacity
+Maximum (the buyer will not go above)
+the price of buying outside
+$1.00 from the outside carrier
+If minimum is below maximum
+a range exists; any price inside it suits both
+$0.50 to $1.00 with spare capacity
+If minimum is above maximum
+no internal transfer should happen
+At full capacity, because $1.10 is above $1.00
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+minimum transfer price
+الحد الأدنى لسعر التحويل
+prix de cession minimal
+English (exam term)
+العربية
+Français
+minimum transfer price
+الحد الأدنى لسعر التحويل
+prix de cession minimal
+SECTION CHECK   Test yourself
+SC316-5  Variable cost is $0.50 and the supplier has spare capacity. What is the minimum transfer price?
+A.	$0.50
+B.	$0.80
+C.	$1.00
+D.	$1.10
+SC316-6  Variable cost is $0.50 and the supplier sells all it can make outside at $1.10. What is the minimum transfer price?
+A.	$0.50
+B.	$0.60
+C.	$1.10
+D.	$1.60
+Answers and explanations are at the end of the chapter.
+16.4  Capacity and outside suppliers
+Everything turns on the opportunity cost, and that depends on capacity. Figure F316-08 compares the two situations.
+Figure F316-08. How capacity changes the minimum transfer price.
+WORKED EXAMPLE   Worked example: the outside carrier's offer
+An outside carrier offers Beverages $1.00 a case. With spare capacity, the company's real cost of delivering inside is only $0.50, so going outside would cost $450,000 a year. At full capacity the real cost is $1.10, so going outside would save $90,000. Figure F316-09 sets out both.
+Figure F316-09. Worked example: should Beverages use the outside carrier?
+Situation
+Company's cost of supplying inside
+Outside offer
+Effect of buying outside
+Levant has spare capacity
+$0.50
+$1.00
+Company loses $450,000: supply inside
+Levant is at full capacity
+$1.10
+$1.00
+Company gains $90,000: buy outside
+This is why a full-cost transfer price can mislead. At $0.80 a case, Beverages sees a cost above the outside offer and refuses internal supply, even though the company is better off supplying inside whenever Levant has spare capacity.
+EXAM TRAP   Ask about capacity first
+The minimum transfer price cannot be found without knowing whether the supplier has spare capacity. With spare capacity there is no opportunity cost; at capacity the opportunity cost is the lost contribution margin.
+SECTION CHECK   Test yourself
+SC316-7  The supplier has spare capacity, its variable cost is $0.50, and an outside carrier offers the buyer $1.00. What should the company do?
+A.	Buy outside: it is cheaper than full cost
+B.	Close the supplying division
+C.	Supply inside: the company's real cost is $0.50
+D.	Raise the transfer price to $1.10
+SC316-8  The supplier is at full capacity, earns $0.60 contribution margin outside, and the buyer can purchase outside at $1.00. What should happen?
+A.	The buyer purchases outside
+B.	Transfer internally at $0.50
+C.	Transfer internally at $0.80
+D.	The supplier stops outside sales
+Answers and explanations are at the end of the chapter.
+16.5  Transfers across borders
+Orontes sells to the Gulf through a distributor it part-owns, so some transfers cross a border. Figure F316-10 lists the issues that then arise.
+Figure F316-10. Issues in a cross-border transfer
+Issue (C.2.l)
+Effect on the transfer price
+At Orontes
+Tariffs
+A higher transfer price raises the duty paid at the border
+5% on the Gulf shipment
+Income taxes
+Profit is taxed where it is reported
+Jordan 20%, the Gulf buyer 10%
+Exchange rates
+A price fixed in one currency moves the profit when rates change
+The dinar is pegged to the dollar; Gulf currencies are not
+Currency restrictions
+Cash may not be remittable, so a high price traps profit abroad
+Watch controls on moving funds out
+Expropriation risk
+Assets or balances in a country may be seized
+Keep balances low where the risk is high
+Availability of materials and skills
+A division may have to buy inside because nothing else is available
+Specialist bottling in Jordan
+Tax and tariffs pull in opposite directions. A higher transfer price moves profit to the buying country and cuts tax if the rate there is lower. It also raises the duty paid at the border, because duty is charged on the invoice value.
+Tax authorities also set rules. A transfer price must be defensible as one that unrelated parties would have agreed, and documentation is usually required. A price chosen only to move profit invites adjustment and penalties.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+expropriation risk
+مخاطر المصادرة
+risque d'expropriation
+English (exam term)
+العربية
+Français
+expropriation risk
+مخاطر المصادرة
+risque d'expropriation
+SECTION CHECK   Test yourself
+SC316-9  Raising the transfer price on a cross-border shipment usually:
+A.	lowers the duty paid at the border
+B.	raises the duty paid at the border
+C.	has no effect on duty
+D.	removes the need for documentation
+SC316-10  Which risk argues for keeping profit and balances OUT of a particular country?
+A.	Exchange-rate risk
+B.	Tariff risk
+C.	Capacity risk
+D.	Expropriation risk and currency restrictions
+Answers and explanations are at the end of the chapter.
+16.6  Extended Example 16A: raising the Gulf transfer price
+This example works out whether a proposed price rise is worth making. It is exam-core.
+1. The proposal
+The finance team proposes raising the price on 100,000 units by $0.20, moving $20,000 of profit from Jordan, taxed at 20%, to the Gulf buyer, taxed at 10%.
+Figure F316-11. Extended Example: the tax and tariff effect of a higher Gulf price
+Raising the Gulf transfer price (USD)
+Amount
+Profit shifted by raising the price $0.20 on 100,000 units
+20,000
+Tax saved: 20% − 10%
+2,000
+Extra tariff at 5%
+(1,000)
+Net effect
+1,000
+2. The answer
+Figure F316-11 shows a tax saving of $2,000 and extra duty of $1,000, a net gain of $1,000. The gain is small, and it depends entirely on the price still being defensible to both tax authorities.
+3. The recommendation
+The controller advises against changing the price for tax reasons alone. The net gain is $1,000 against the risk of an adjustment, and the Gulf currency and remittance rules could trap the extra profit abroad.
+4. Tie line
+WORKED EXAMPLE   Everything ties
+Company contribution on internal delivery is $6,930,000 at every transfer price.
+Tax saved $2,000 − duty $1,000 = $1,000.
+5. Terms in three languages
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+transfer price
+سعر التحويل
+prix de cession interne
+market-based transfer price
+سعر التحويل على أساس السوق
+prix de cession au prix du marché
+minimum transfer price
+الحد الأدنى لسعر التحويل
+prix de cession minimal
+English (exam term)
+العربية
+Français
+transfer price
+سعر التحويل
+prix de cession interne
+market-based transfer price
+سعر التحويل على أساس السوق
+prix de cession au prix du marché
+minimum transfer price
+الحد الأدنى لسعر التحويل
+prix de cession minimal
+6. How the exam asks it
+EXAM TRAP   Exam view
+Expect a supplying division's variable and full cost, an outside market price, an outside offer to the buyer, and a statement about capacity. Find the minimum and the maximum, say whether a range exists, and state what the company should do.
+7. Self-check
+SECTION CHECK   Test yourself
+SC316-11  Use the Extended Example. What is the net effect of raising the Gulf transfer price?
+A.	$2,000 gain
+B.	$1,000 loss
+C.	$1,000 gain
+D.	$20,000 gain
+SC316-12  Use the Extended Example. Why is the company column the same under every transfer price?
+A.	Because one division's revenue is the other's cost
+B.	Because the prices are all equal
+C.	Because the divisions are not consolidated
+D.	Because tax is ignored
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F316-12 brings the chapter together.
+Figure F316-12. Chapter 16 summary map: the key rule for each section.
+A transfer price is an internal charge that moves profit between divisions without changing company profit, and it must serve goal congruence, fair evaluation, autonomy and after-tax profit. It may be set at variable cost, full cost, market price, a negotiated figure or dual rates, each with its own advantages. The minimum is variable cost plus any opportunity cost, and the maximum is the outside price; with spare capacity the floor is variable cost, and at capacity it is the market price. Across borders, tariffs, taxes, exchange rates, currency restrictions and expropriation risk all bear on the decision.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P316-01  Which is NOT an objective of transfer pricing?
+A.	Raising total company revenue
+B.	Goal congruence
+C.	Fair performance evaluation
+D.	Divisional autonomy
+P316-02  Which method is best when a competitive outside market for the product exists?
+A.	Variable cost
+B.	Full cost
+C.	Dual rate
+D.	Market price
+P316-03  The main advantage of a negotiated transfer price is that it:
+A.	is always lowest
+B.	needs no information
+C.	respects the autonomy of both managers
+D.	removes the need for a market price
+P316-04  Variable cost $0.50, fixed cost a case $0.30. What is the full-cost transfer price without a mark-up?
+A.	$0.30
+B.	$0.50
+C.	$0.80
+D.	$1.10
+P316-05  900,000 cases are transferred at $0.90 when variable cost is $0.50. How much contribution margin does the supplying division earn?
+A.	$360,000
+B.	$450,000
+C.	$540,000
+D.	$810,000
+P316-06  The maximum a buying division will pay is:
+A.	the supplier's full cost
+B.	the supplier's variable cost
+C.	the price it would pay an outside supplier
+D.	the market price the supplier charges others
+P316-07  A supplier with spare capacity has a variable cost of $1.80. Its full cost is $2.50 and it sells outside at $3.00. What is the minimum transfer price?
+A.	$1.80
+B.	$2.50
+C.	$2.70
+D.	$3.00
+P316-08  A supplier at full capacity has variable cost $1.80 and sells outside at $3.00. What is the minimum transfer price?
+A.	$1.20
+B.	$1.80
+C.	$3.00
+D.	$4.80
+P316-09  Why can a full-cost transfer price lead to a decision that costs the company money?
+A.	It is always too low
+B.	It ignores the market
+C.	The buyer sees fixed cost as avoidable and may buy outside when internal supply is cheaper for the company
+D.	It is illegal
+P316-10  900,000 cases could be delivered inside at a variable cost of $0.50 or bought outside at $1.00, with spare capacity. What does buying outside cost the company?
+A.	$900,000
+B.	$90,000
+C.	Nothing
+D.	$450,000
+P316-11  Profit of $20,000 is moved from a country taxed at 20% to one taxed at 10%. What is the tax saving before any tariff?
+A.	$1,000
+B.	$2,000
+C.	$3,000
+D.	$4,000
+P316-12  Which issue can trap profit inside a foreign country?
+A.	Currency restrictions on remitting funds
+B.	A tariff
+C.	A high variable cost
+D.	Spare capacity
+P316-13  A transfer price set only to move profit to a low-tax country is risky mainly because:
+A.	tax authorities may adjust it and charge penalties
+B.	the divisions will object
+C.	it raises company costs
+D.	it is impossible to calculate
+P316-14  With a minimum of $1.80 and a maximum of $2.70, which transfer price leaves both divisions better off?
+A.	$1.50
+B.	$2.20
+C.	$2.90
+D.	$3.00
+P316-15  Dual-rate pricing is used mainly to:
+A.	avoid tax
+B.	simplify the accounts
+C.	replace the market price
+D.	let each division face the figure that leads to the right decision
+P316-16  Which situation shows a transfer price failing the goal-congruence test?
+A.	The two managers agree a price
+B.	The buying division refuses internal supply that is cheaper for the company
+C.	The price equals the market price
+D.	The supplier earns a margin
+Case question: pressed oil for the halva line
+The Tahini & Spreads division needs pressed oil for its halva line and has always bought it from the Oils division. Oils presses the oil on equipment it also uses for its own bottled products, and it sells pressed oil to outside food manufacturers at a published price.
+This year the halva line needs more oil than before. Oils can supply part of the quantity from capacity that would otherwise stand idle, but beyond that point every liter sent to Tahini & Spreads is a liter it cannot sell to its outside customers.
+An outside supplier has offered Tahini & Spreads the whole quantity at a price below the Oils market price, and the Tahini manager wants to accept it. The Oils manager objects that his division would then carry its fixed costs with less work to cover them.
+The controller, Rania, must work out the minimum transfer price for the part Oils can supply from spare capacity and for the part that displaces outside sales, and advise the board whether buying from the outside supplier would be good for Orontes as a whole.
+Use Figure F316-13 for items C316-1 to C316-7.
+How to enter answers: Enter prices in U.S. dollars to two decimal places and amounts in whole dollars, without the $ sign or commas (for example, 1.80 or 108000).
+Figure F316-13. Case exhibit: pressed oil transfer data
+Oils and Tahini & Spreads, one year
+Data
+Liters of pressed oil needed by Tahini & Spreads
+200,000
+Oils variable cost a liter
+$1.80
+Oils fixed cost a liter at normal volume
+$0.70
+Price Oils charges outside customers
+$3.00
+Price an outside supplier offers Tahini & Spreads
+$2.70
+Liters Oils can supply without giving up outside sales
+120,000
+C316-1  Classify each statement. (On the exam screen you would drag each item into a box.)
+Categories: True for the company · True only for one division
+Statement
+Category
+The transfer price changes which division reports the profit
+Supplying from idle capacity costs the company only the variable cost
+A higher transfer price raises the supplying division's profit
+Buying outside at a price above the company's incremental cost wastes cash
+A higher transfer price lowers the buying division's profit
+C316-2  Enter the minimum transfer price a liter for the quantity Oils can supply from spare capacity.
+Answer: ____________
+C316-3  Enter the minimum transfer price a liter for the liters that displace outside sales.
+Answer: ____________
+C316-4  Enter the weighted average minimum transfer price a liter for the whole quantity.
+Answer: ____________
+C316-5  Enter the amount the company would lose on the spare-capacity liters if the whole quantity were bought outside.
+Answer: ____________
+C316-6  Rania's advice to the board should be that Orontes: [select]
+Options: should supply the spare-capacity liters internally and may buy the rest outside   |   should buy the whole quantity outside   |   should supply the whole quantity internally at market price   |   should close the Oils pressing line
+C316-7  The minimum transfer price is variable cost plus the ____ cost of what the supplier gives up.
+Choose the word or phrase for the blank: opportunity   |   fixed   |   full   |   sunk
+Answers and explanations
+Section checks
+SC316-1  Answer B. Revenue to one unit, cost to the other.
+A is wrong. That is the market price.
+C is wrong. A reported cost, not an internal charge.
+D is wrong. That is an external purchase.
+SC316-2  Answer C. One unit's revenue is the other's cost.
+A is wrong. The supplier's gain is the buyer's loss.
+B is wrong. The buyer's loss is the supplier's gain.
+D is wrong. Tax matters only across borders, and that is a separate effect.
+SC316-3  Answer A. The buyer treats a fixed cost as avoidable.
+B is wrong. That is the variable-cost method.
+C is wrong. That is the market-price method.
+D is wrong. That is the negotiated method.
+SC316-4  Answer D. The two sides do not add up.
+A is wrong. The accounts would not balance.
+B is wrong. An internal price cannot create profit.
+C is wrong. No cash moves outside the company.
+SC316-5  Answer A. No outside sale is given up, so there is no opportunity cost.
+B is wrong. Full cost includes fixed cost that does not change.
+C is wrong. That is the buyer's outside price, the maximum.
+D is wrong. That applies at full capacity.
+SC316-6  Answer C. Variable cost plus the $0.60 contribution margin given up.
+A is wrong. This ignores the lost outside sale.
+B is wrong. This is the opportunity cost alone.
+D is wrong. This double-counts the variable cost.
+SC316-7  Answer C. The incremental cost is lower than the outside price.
+A is wrong. Full cost is not the company's incremental cost.
+B is wrong. Far beyond what the figures support.
+D is wrong. That would push the buyer outside.
+SC316-8  Answer A. The minimum of $1.10 is above the outside price of $1.00.
+B is wrong. Below the minimum: the supplier loses.
+C is wrong. Still below the minimum.
+D is wrong. That would lose the better outside margin.
+SC316-9  Answer B. Duty is charged on the invoice value.
+A is wrong. A higher value means more duty.
+C is wrong. Duty follows the invoice.
+D is wrong. Documentation is still required.
+SC316-10  Answer D. Assets may be seized or funds blocked.
+A is wrong. It affects value, not access.
+B is wrong. Tariffs are paid at the border.
+C is wrong. Capacity is an internal matter.
+SC316-11  Answer C. Tax saved less the extra duty.
+A is wrong. This ignores the tariff.
+B is wrong. This ignores the tax saving.
+D is wrong. This is the profit shifted, not the gain.
+SC316-12  Answer A. The internal charge cancels.
+B is wrong. The prices differ.
+C is wrong. They are consolidated.
+D is wrong. Tax is a separate, cross-border issue.
+Your turn
+Item
+Answer
+Negotiated price
+Levant $360,000; Beverages $6,570,000; company $6,930,000
+Market price
+Levant $540,000; Beverages $6,390,000; company $6,930,000
+Multiple-choice questions
+P316-01  Answer A. Internal charges are not external sales.
+B is wrong. A main objective.
+C is wrong. A main objective.
+D is wrong. A main objective.
+P316-02  Answer D. It is fair to both divisions and easy to verify.
+A is wrong. It leaves the supplier no margin.
+B is wrong. It can mislead the buyer.
+C is wrong. Useful, but harder to administer when a market price exists.
+P316-03  Answer C. Each manager keeps the right to decide.
+A is wrong. It can be anywhere in the range.
+B is wrong. Both sides need cost information.
+D is wrong. A market price often guides the talks.
+P316-04  Answer C. Variable plus fixed cost a case.
+A is wrong. Fixed cost alone.
+B is wrong. Variable cost alone.
+D is wrong. That is the market price.
+P316-05  Answer A. Price less variable cost, times volume.
+B is wrong. This is the variable cost.
+C is wrong. This uses the market price.
+D is wrong. This is the transfer revenue.
+P316-06  Answer C. Above that it buys outside.
+A is wrong. Cost is the supplier's concern.
+B is wrong. That is the floor, not the ceiling.
+D is wrong. The buyer cares about its own outside price.
+P316-07  Answer A. No opportunity cost with spare capacity.
+B is wrong. Fixed cost does not change with the transfer.
+C is wrong. That is an outside offer to the buyer.
+D is wrong. That applies at full capacity.
+P316-08  Answer C. Variable cost plus the $1.20 margin given up.
+A is wrong. This is the opportunity cost alone.
+B is wrong. This ignores the outside sale.
+D is wrong. This double-counts variable cost.
+P316-09  Answer C. Only variable cost is avoidable with spare capacity.
+A is wrong. It is above variable cost.
+B is wrong. That is a different criticism.
+D is wrong. It is lawful internally.
+P316-10  Answer D. The company pays cash it need not have paid.
+A is wrong. This is the outside price, not the difference.
+B is wrong. That is the full-capacity saving.
+C is wrong. The difference is real.
+P316-11  Answer B. The 10-point difference in rates.
+A is wrong. This uses 5%.
+C is wrong. This uses 15%.
+D is wrong. This uses the full 20%.
+P316-12  Answer A. The cash cannot be moved out.
+B is wrong. A tariff is paid at the border.
+C is wrong. An internal matter.
+D is wrong. An internal matter.
+P316-13  Answer A. The price must be defensible.
+B is wrong. Not the main risk.
+C is wrong. An internal price does not change company costs.
+D is wrong. It is easy to calculate, but hard to defend.
+P316-14  Answer B. Inside the range.
+A is wrong. Below the supplier's minimum.
+C is wrong. Above the buyer's maximum.
+D is wrong. Above the buyer's maximum.
+P316-15  Answer D. The supplier is credited more than the buyer is charged.
+A is wrong. Tax is a different issue.
+B is wrong. It complicates consolidation.
+C is wrong. It often uses the market price on one side.
+P316-16  Answer B. The manager's best choice harms the company.
+A is wrong. Agreement is a good sign.
+C is wrong. Usually congruent.
+D is wrong. A margin is not a failure.
+Case question: pressed oil for the halva line
+C316-1
+Statement
+Category
+The transfer price changes which division reports the profit
+True for the company
+Supplying from idle capacity costs the company only the variable cost
+True for the company
+A higher transfer price raises the supplying division's profit
+True only for one division
+Buying outside at a price above the company's incremental cost wastes cash
+True for the company
+A higher transfer price lowers the buying division's profit
+True only for one division
+Decide whether each statement is true for Orontes as a whole or only for one division.
+C316-2  Answer: 1.80.
+2.50 is wrong: this answer uses full cost when the fixed cost does not change.
+C316-3  Answer: 3.00.
+1.80 is wrong: this answer ignores the outside sales given up.
+C316-4  Answer: 2.28.
+2.70 is wrong: this answer uses the outside supplier's offer.
+C316-5  Answer: 108,000.
+500,000 is wrong: this answer uses the full cost of the whole quantity.
+C316-6  Answer: should supply the spare-capacity liters internally and may buy the rest outside.
+should buy the whole quantity outside is wrong: this answer the spare-capacity liters cost the company less inside.
+should supply the whole quantity internally at market price is wrong: this answer beyond spare capacity the outside offer is cheaper than the internal minimum.
+should close the Oils pressing line is wrong: this answer nothing in the figures supports closing a line that sells outside profitably.
+C316-7  Answer: opportunity.
+fixed is wrong: this answer fixed cost does not change with the transfer.
+full is wrong: this answer full cost includes fixed cost that is not avoidable.
+sunk is wrong: this answer a sunk cost is irrelevant to any decision.
+PART III — MEASURING AND MANAGING PERFORMANCE
