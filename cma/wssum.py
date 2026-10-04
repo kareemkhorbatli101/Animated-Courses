@@ -59,7 +59,9 @@ ABBREV = re.compile(
 # One gap for about this many words of summary. Denser than this and the
 # sentence stops being readable before it is filled; thinner and the reader
 # is proof-reading rather than recalling.
-WORDS_PER_GAP = 13
+# One gap every eleven words. Thirteen left the shorter sections with nine
+# or ten gaps on a whole sheet, which is not twenty minutes of work.
+WORDS_PER_GAP = 11
 MIN_GAPS, MAX_GAPS = 2, 12
 # Words per summary block, not sentences. The chapter writes short
 # sentences, so a block of five of them came out at fifty words and took
@@ -85,27 +87,107 @@ def split_sentences(text):
     return out
 
 
-def is_prose(line):
-    """Is this line of the chapter a sentence, or a cell of a table?
+def is_proseline(line):
+    """Is this line of the chapter a paragraph, or a cell of a table?
 
     The chapter's tables arrive flattened to one cell per line, so a line
     that does not read as a sentence is furniture. Requiring a capital and
     a full stop keeps "Buy, hold or sell shares" out of the prose, which is
     where it belongs: it is a cell of the users table and the sheet shows it
     as one.
+
+    What this test does NOT do is judge a line by anything one of its
+    sentences happens to contain. It used to: a line mentioning a figure
+    was dropped whole, and because the chapter ends many a paragraph on
+    "Figure F17-04 shows Orontes's olive oil", that silently took the
+    three sentences in front of it off the sheet as well. Across the book
+    it lost 273 sentences of real prose. A figure reference is a property
+    of one sentence, so it is screened one sentence at a time, below.
     """
     x = clean(line)
     if not x or x.isupper() or CAP.match(x) or BOX.match(x):
         return False
     if not x[0].isupper() or not x.endswith('.'):
         return False
-    if ITEMID.search(x) or FIGREF.search(x):
-        return False
-    # "A. Orontes includes the cartons in inventory" is an option of one of
-    # the chapter's own questions, not a sentence of its prose.
     if re.match(r'^[A-E][.)]\s', x):
         return False
-    return len(x) >= 30
+    return len(x) >= 20
+
+
+def is_prose(line):
+    """Is this a sentence of the chapter's own prose?
+
+    The floor is four words rather than thirty characters. Thirty threw
+    away "IFRS does not allow LIFO." and "There are also challenges." —
+    short sentences that carry the section's whole point, and in the second
+    case the pivot that marks where its two halves divide.
+    """
+    x = clean(line)
+    if not is_proseline(x):
+        return False
+    if ITEMID.search(x) or FIGREF.search(x):
+        return False
+    return len(x.split()) >= 4
+
+
+BOOKREF = re.compile(
+    r'(?:\s*[,;(]\s*)?\b(?:as\s+|which\s+|see\s+)?Chapters?\s+\d+'
+    r'(?:\s*(?:to|and|\u2013|-)\s*\d+)?\s*'
+    r'(?:shows?|showed|introduced|introduces?|explains?|explained|gives?|'
+    r'gave|studies|study|studied|covers?|covered|will cover|has)?'
+    r'[^,.;:)]*\)?', re.I)
+
+
+def unbooked(text):
+    """The sentence without the clause that points into the book.
+
+    "Customer deposits are contract liabilities, as Chapter 11 showed:
+    they become revenue when Orontes delivers." Everything in that
+    sentence except five words is content these sheets have to carry, so
+    the five words go and the sentence stays. Only when the pointer IS
+    the sentence does the sentence go with it.
+    """
+    out = BOOKREF.sub('', clean(text))
+    out = re.sub(r'\s*([,;:])\s*([,;:])', r'\1', out)
+    out = re.sub(r'\s*,\s*:', ':', out)
+    # The pointer takes the preposition that introduced it with it.
+    # Without this, "This is the matching principle from Chapter 11."
+    # came out as "This is the matching principle from ." and
+    # "like the receivables in Chapter 6: the company" as "in : the".
+    out = re.sub(r'(?:,\s*)?\b(?:from|in|of|like|as|see|per|under)\s*'
+                 r'(?=[.:;]|$)', '', out)
+    out = re.sub(r'\s{2,}', ' ', out).strip(' ,;')
+    out = re.sub(r'\s+([.,;:])', r'\1', out)
+    if out and not out.endswith('.'):
+        out += '.'
+    return clean(out)
+
+
+def prose_sents(text):
+    """Every sentence of the chapter's own prose in this text, cleaned.
+
+    One place, so the cleaning is the same everywhere. It used to be an
+    inline comprehension repeated at five call sites, and a sentence's
+    identity is the key those sites match on, so the moment one of them
+    cleaned differently from another the sets stopped lining up.
+    """
+    out = []
+    for ln in text.split('\n'):
+        if not is_proseline(ln):
+            continue
+        for x in split_sentences(clean(ln)):
+            if not is_prose(x) or not english_only(x):
+                continue
+            x = unbooked(x)
+            if not is_prose(x):
+                continue
+            # "Chapter 12 explains deferred taxes in detail" is a pointer
+            # into a book the reader has not got. These sheets replace the
+            # book, so a pointer is the one kind of sentence they drop.
+            if SELFREF.search(x):
+                continue
+            out.append(deglossed(x))
+    return out
 
 
 def subhead(line):
@@ -141,10 +223,18 @@ def shaped_any(tb):
     if not tb or len(tb) < 3:
         return None
     n = len(tb[0])
-    if n < 2 or n > 6 or any(len(r) != n for r in tb):
+    # Nine, not six. Six threw away six tables, and one of them was the
+    # statement of changes in equity itself: seven columns, because equity
+    # has six components and a total. A chapter on equity whose handout
+    # does not carry that statement is missing the thing it is about.
+    if n < 2 or n > 9 or any(len(r) != n for r in tb):
         return None
     head = [clean(c)[:48] for c in tb[0]]
-    if any(not h for h in head) or head[0].lower().startswith('english'):
+    # A statement's top-left cell is often blank, because the column
+    # holds the line items and needs no name. Any OTHER blank header means
+    # the rows and the header are out of step, which is a broken table.
+    if any(not h for h in head[1:]) \
+            or head[0].lower().startswith('english'):
         return None
     body = [[clean(c)[:140] for c in r] for r in tb[1:]]
     if WG.ARABIC.search(' '.join(head) + ' '.join(c for r in body
@@ -271,13 +361,21 @@ def segments(sec, tbls):
             continue
         h = None if x in cells else subhead(ln)
         if h:
+            h = deglossed(h).rstrip(' ,;')
+        if h and english_only(h):
             flush()
             out.append(('head', h))
             continue
         if x in cells:
             continue
-        if is_prose(ln):
-            run.extend(s for s in split_sentences(x) if is_prose(s))
+        if is_proseline(ln):
+            for sent in split_sentences(x):
+                if not is_prose(sent) or not english_only(sent):
+                    continue
+                sent = unbooked(sent)
+                if not is_prose(sent) or SELFREF.search(sent):
+                    continue
+                run.append(deglossed(sent))
     flush()
     # A table whose header cell never appeared on a line of its own still
     # belongs to the section, so it goes at the end rather than nowhere.
@@ -434,7 +532,7 @@ def gap_block(sents, terms, seed, spare_pool=()):
 
 
 # ------------------------------------------------------------------ tables
-def gap_table(t, seed, share=0.42):
+def gap_table(t, seed, share=0.5):
     """A table of the chapter with some cells taken out.
 
     A table is a summary in tabular form, so it is gapped the same way the
@@ -524,8 +622,70 @@ FURNITURE = re.compile(
 SELFREF = re.compile(
     r'\b(this book|this chapter|this section|Figure F\d|'
     r'Chapters?\s+\d|the CMA exam uses|our \w+ company|'
-    r'you already know|you have studied|at the end of the chapter)\b',
+    r'you already know|you have studied|at the end of the chapter|'
+    r'shown (?:below|above|earlier)|(?:see|as) (?:below|above)|'
+    r'the (?:table|figure|example) (?:below|above))\b',
     re.I)
+
+
+# The chapter teaches the French false friends, because its author's
+# students meet French financial statements. These handouts are for
+# students who do not read French, and the standing instruction for them
+# is that no French appears. So a French gloss in brackets is cut out of a
+# sentence, and a sentence whose subject IS the French word is dropped.
+FRACC = re.compile(u'[\u00e0\u00e2\u00e4\u00e7\u00e8\u00e9\u00ea\u00eb'
+                   u'\u00ee\u00ef\u00f4\u00f6\u00f9\u00fb\u0153]')
+FRWORD = re.compile(r'\b(?:French|en fran\w+|le|la|les|des|du|aux?)\s+'
+                    r'[a-z\u00e0-\u00ff]', re.I)
+GLOSS = re.compile(u'\\s*[\\(\uff08][^()\uff08\uff09]{0,80}[\\)\uff09]')
+PARENS = re.compile(r'\s*\(([^()]{0,90})\)')
+
+
+def deglossed(text):
+    """The sentence without its foreign-language glosses.
+
+    "In IFRS and in MENA company law, reserves (\u0627\u062d\u062a\u064a\u0627\u0637\u064a\u0627\u062a, r\u00e9serves) can mean a
+    legal reserve" is a sentence these readers need, carrying a bracket
+    they do not. The bracket goes and the sentence stays. Arabic is not
+    cut for its own sake \u2014 it is these readers' first language and the term
+    web is built on it \u2014 but inside a running English sentence it is a
+    gloss, and a gloss in the middle of a line of English prose reverses
+    the text direction and breaks the line.
+    """
+    def drop(m):
+        return '' if (FRACC.search(m.group(1))
+                      or ARABIC.search(m.group(1))) else m.group(0)
+    out = PARENS.sub(drop, text)
+    # A trailing ", r\u00e9serves" or ", \u0627\u062d\u062a\u064a\u0627\u0637\u064a\u0627\u062a" in a list goes the same way.
+    out = re.sub(u'\\s*,\\s*[^,.;]*[\u0600-\u06ff][^,.;]*', '', out)
+    out = re.sub(u'\\s*,\\s*[^,.;]*'
+                 u'[\u00e0\u00e2\u00e4\u00e7\u00e8\u00e9\u00ea\u00eb\u00ee\u00ef\u00f4\u00f6\u00f9\u00fb\u0153]'
+                 u'[^,.;]*', '', out)
+    # A gloss can also open the sentence: "Arabic \u0645\u062e\u0635\u0635 \u0627\u0644\u062a\u0642\u064a\u064a\u0645, the
+    # valuation allowance, is a contra-asset." Dropping the opening leaves
+    # "the valuation allowance, is", so the comma the gloss needed goes
+    # with it and the sentence starts on a capital again.
+    m = re.match(u'^(?:In\\s+)?(?:Arabic|French)\\s+[^,]{1,46},\\s*(.+)$',
+                 out)
+    if m and (FRACC.search(out[:m.start(1)])
+              or ARABIC.search(out[:m.start(1)])):
+        out = m.group(1)
+        out = re.sub(r'^(.{3,44}?),\s+(is|are|was|were|means|refers)\b',
+                     r'\1 \2', out)
+        out = out[:1].upper() + out[1:]
+    return clean(out)
+
+
+def english_only(text):
+    """Is there anything left of this sentence that is not French?"""
+    t = deglossed(text)
+    if not t or FRACC.search(t):
+        return False
+    if re.match(r'^(French|In French|The French)\b', t, re.I):
+        return False
+    if ARABIC.search(t):
+        return False
+    return True
 
 
 ARABIC = re.compile(u'[\u0600-\u06ff]')
@@ -610,6 +770,140 @@ def prepare(sec, tbls):
     return out
 
 
+def prose_figures(sec, tbls, terms, seed):
+    """Figures the section's PROSE supports, and the sentences they use.
+
+    A figure drawn from prose has to take those sentences with it.
+    Otherwise the sheet gaps the same sentence twice — once in a paragraph
+    and once in a picture — and the rule that every sentence appears
+    exactly once quietly stops holding.
+
+    What a figure takes is a SPAN, not a selection: the unbroken run from
+    its first sentence to its last, including the ones in between that it
+    does not itself draw. A selection left holes, and the paragraphs built
+    from what was left opened mid-thought, so the strict reading was to
+    refuse any figure whose sentences were interleaved — which refused the
+    GAAP-against-IFRS contrast in seven sections that state it plainly in
+    prose. The sentences inside the span that the figure does not draw are
+    exactly its lead-in (“Both frameworks write inventory down when its
+    value falls below cost. The key difference comes when value
+    recovers.”), so they go on the sheet as a gapped paragraph directly
+    above it, and nothing is lost or repeated.
+
+    Returns a list of (position, [blocks], consumed).
+    """
+    sents = [x for x in prose_sents(sec['text'])
+             if not SELFREF.search(x) and not FURNITURE.match(x)]
+    out, taken = [], set()
+
+    def place(sent):
+        return sents.index(sent) if sent in sents else len(sents)
+
+    def span(used, slack=3):
+        """The run from the first of these sentences to the last.
+
+        None where the run reaches past what the figure is about: a span
+        that is three sentences wider than the figure draws is no longer a
+        lead-in, it is the rest of the section.
+        """
+        ix = sorted(place(x) for x in used if x in sents)
+        if len(ix) != len(set(used)) or not ix:
+            return None
+        run = sents[ix[0]:ix[-1] + 1]
+        if len(run) > len(ix) + slack:
+            return None
+        if any(x in taken for x in run):
+            return None
+        return run
+
+    def add(form, title, got, used, sk, slack=3, data_terms=False):
+        run = span(used, slack)
+        if run is None:
+            return False
+        got.pop('_used', None)
+        got.pop('_form', None)
+        if data_terms:
+            got['terms'] = terms
+        blocks, lead = [], [x for x in run if x not in used]
+        if lead:
+            g = gap_block(lead, terms, sk + 3, [])
+            blocks.append(dict(kind='prose', carry=[], _underhead=True,
+                               _pos=place(lead[0]), **g) if g
+                          else dict(kind='plain', text=' '.join(lead)))
+        blocks.append(dict(kind='form', form=form, title=title,
+                           data=got, seed=sk, sents=sorted(used)))
+        out.append((place(run[0]), blocks, set(run)))
+        taken.update(run)
+        return True
+
+    # a stated computation
+    for sent in sents:
+        got = VIS.as_bridge(sent)
+        if not got or sent in taken:
+            continue
+        if add('bridge', clean(got['total']) + ', and how it is reached',
+               got, [sent], seed + 201):
+            break
+
+    def free():
+        return [x for x in sents if x not in taken]
+
+    # a procedure the prose numbers itself
+    got = VIS.as_steps(free())
+    if got:
+        add('flow', 'The steps, in order', got, got['_used'], seed + 231,
+            slack=0)
+
+    # a two-way test the prose states both sides of
+    got = VIS.as_branch(free())
+    if got:
+        add('branch', 'The test, and what follows either way', got,
+            got['_used'], seed + 241, slack=0, data_terms=True)
+
+    # a set the prose counts, and the members it then lists
+    got = VIS.as_options(free())
+    if got:
+        add('panel', 'The set, member by member', got, got['_used'],
+            seed + 261, slack=0)
+
+    # conditions, each with what it settles
+    got = VIS.as_rules(free())
+    if got:
+        add('panel', 'Each fact, and what it settles', got, got['_used'],
+            seed + 271, slack=0)
+
+    # a two-way test written as one sentence
+    got = VIS.as_either(free())
+    if got:
+        add('panel', 'Which way it goes', got, got['_used'], seed + 281,
+            slack=0)
+
+    # cases mapped to what each one calls for
+    got = VIS.as_prose_tree(free())
+    if got:
+        add(got.get('_form', 'tree'), 'What fits each one', got,
+            got['_used'], seed + 211)
+
+    # what each framework says, where the section says it in prose
+    fr = free()
+    got = VIS.as_sides(fr)
+    if got:
+        used = [x for x in fr if clean(x) in
+                set(got['lrows']) | set(got['rrows'])]
+        add('sides', 'What each framework says', got, used, seed + 221,
+            slack=4, data_terms=True)
+
+    # two named sets the section's title and a pivot sentence mark
+    fr = free()
+    got = VIS.as_halves(fr, sec.get('title', ''))
+    if got:
+        used = list(got['_used'])
+        drawn = set(got['lrows']) | set(got['rrows'])
+        add('sides', '%s against %s' % (got['left'], got['right']), got,
+            used, seed + 251, slack=len(used) - len(drawn), data_terms=True)
+    return out
+
+
 def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
     """The section as gapped summary blocks, in the order it is written.
 
@@ -629,6 +923,16 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
     # So the section's own vocabulary comes first.
     spare = [t for t in terms if 4 < len(t) < 28]
     nlocal = len([t for t in local_terms if 4 < len(t) < 28])
+    # Figures drawn from the prose take their sentences out of it, so no
+    # sentence is gapped twice — once in a paragraph and once in a picture
+    # — and the rule that every sentence appears exactly once keeps
+    # holding.
+    pfigs = prose_figures(sec, tbls, terms, seed)
+    eaten = set()
+    for _pos, _blks, used in pfigs:
+        eaten |= used
+    allsents = prose_sents(sec['text'])
+    order = dict((x, i) for i, x in enumerate(allsents))
     out, k, lasthead = [], 0, ''
     for seg in prepare(sec, tbls):
         kind, v = seg[0], seg[1]
@@ -650,7 +954,14 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
             forms = VIS.shapes(v[1], v[2])
             if forms:
                 name, data = forms[0]
+                # The cells the figure was drawn from travel with it. A
+                # table that becomes a diagram is still the place those
+                # cells appear on the sheet, and without the record a
+                # coverage pass reads the diagram as an empty title and
+                # reports the cells as missing.
                 out.append(dict(kind='form', form=name, title=title,
+                                cells=[clean(c) for r in [v[1]] + list(v[2])
+                                       for c in r if clean(c)],
                                 data=data, seed=seed + 100 + k))
                 continue
             g = gap_table(v, seed + 100 + k)
@@ -660,6 +971,9 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
                 out.append(dict(kind='ref', title=title,
                                 head=[clean(x) for x in v[1]],
                                 rows=[[clean(c) for c in r] for r in v[2]]))
+            continue
+        v = [x for x in v if x not in eaten]
+        if not v:
             continue
         runs, cur, n = [], [], 0
         for sent in v:
@@ -703,7 +1017,8 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
                 ctx = bool(out) and out[-1]['kind'] in (
                     'divider', 'table', 'ref', 'form')
                 out.append(dict(kind='prose', carry=[],
-                                _underhead=ctx, **g))
+                                _underhead=ctx,
+                                _pos=order.get(run[0], 0), **g))
             else:
                 # Too short to gap three words out of without wrecking it.
                 # It still belongs on the sheet, so it goes on unchanged
@@ -712,15 +1027,34 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
                     out[-1]['carry'].extend(run)
                 else:
                     out.append(dict(kind='plain', text=' '.join(run)))
+    # The prose figures go back in where their first sentence was, so the
+    # section still reads in the order the chapter wrote it.
+    for pos, blks, _used in sorted(pfigs, key=lambda x: -x[0]):
+        at = len(out)
+        for i, b in enumerate(out):
+            if b.get('_pos') is not None and b['_pos'] > pos:
+                at = i
+                break
+        out[at:at] = blks
+
+    # A sentence carried into a block has to be re-gapped with it. Where
+    # that fails — the longer passage may have no two words it can take
+    # out — the carried text still belongs on the sheet, so it follows as
+    # plain text rather than being dropped.
+    final = []
     for b in out:
-        if b.get('kind') == 'prose' and b.get('carry'):
-            sents = split_sentences(b['book']) + b['carry']
-            g = gap_block(sents, terms, seed + 999, [])
-            if g:
-                b.update(g)
-            b['carry'] = []
-    return [b for b in out if not (b['kind'] == 'divider'
-                                   and b is out[-1])]
+        final.append(b)
+        if b.get('kind') != 'prose' or not b.get('carry'):
+            continue
+        sents = split_sentences(b['book']) + b['carry']
+        g = gap_block(sents, terms, seed + 999, [])
+        if g:
+            b.update(g)
+        else:
+            final.append(dict(kind='plain', text=' '.join(b['carry'])))
+        b['carry'] = []
+    return [b for b in final if not (b['kind'] == 'divider'
+                                     and b is final[-1])]
 
 
 def meanings(sec, terms, tbls=()):
@@ -751,8 +1085,9 @@ def meanings(sec, terms, tbls=()):
                 if clean(r[0]).lower() not in seen:
                     seen.add(clean(r[0]).lower())
                     out.append((clean(r[0]), clean(r[1])))
-    sents = [x for ln in sec['text'].split('\n') if is_prose(ln)
-             for x in split_sentences(clean(ln))]
+    sents = [deglossed(x) for ln in sec['text'].split('\n')
+             if is_proseline(ln) for x in split_sentences(clean(ln))
+             if english_only(x)]
     for term in terms:
         if term.lower() in seen or not 3 < len(term) < 40:
             continue
@@ -792,6 +1127,20 @@ def number_and_draw(blocks, terms, seed):
             fn = VIS.BUILD[b['form']]
             fig = fn(title=b['title'], seed=b['seed'], first=n,
                      spares=shuffled(spares, b['seed']), **b['data'])
+            if fig is None:
+                continue
+            fig['_sents'] = b.get('sents') or []
+            fig['_cells'] = b.get('cells') or []
+            # How many members the form was drawn from, so a later pass can
+            # ask whether the content really had the shape: a flow of two
+            # stages is not a sequence, and the drawn figure no longer
+            # remembers how many it had.
+            d = b['data']
+            fig['_items'] = max(
+                [len(d[k]) for k in ('steps', 'groups', 'pairs', 'rows',
+                                     'items', 'parts', 'lrows', 'periods')
+                 if isinstance(d.get(k), (list, tuple))]
+                or [len(fig['answers'])])
             if not fig['answers']:
                 continue           # nothing to fill in is not an exercise
             fig['_first'] = n
@@ -907,8 +1256,7 @@ def check(hs, bk=1, n=1):
     for si, H in enumerate(hs):
         sec = d['sections'][si]
         hid = H['id']
-        avail = [x for ln in sec['text'].split('\n') if is_prose(ln)
-                 for x in split_sentences(clean(ln)) if is_prose(x)]
+        avail = prose_sents(sec['text'])
         # A journal's explanation cell holds a whole sentence, sometimes
         # two, so the comparison has to be sentence by sentence. Comparing
         # whole cell values reported four sentences as missing that a
@@ -926,7 +1274,19 @@ def check(hs, bk=1, n=1):
         # to the sentence after it. Splitting a whole block and splitting
         # it line by line then disagree, and two sentences of section 2.2
         # were reported missing from a block that held them.
-        on = ' \n '.join(b.get('book') or b.get('text') or ''
+        # A figure drawn from prose holds those sentences, so the check
+        # has to look inside it too, or it reports as missing the very
+        # sentences the figure was built from.
+        def figtext(b):
+            d2 = b.get('data') or {}
+            bits = [str(b.get('title') or '')]
+            for key in ('lrows', 'rrows'):
+                bits += [str(x) for x in (b.get(key) or d2.get(key) or [])]
+            bits += [str(x) for x in (b.get('_sents') or [])]
+            return ' \n '.join(bits)
+
+        on = ' \n '.join((b.get('book') or b.get('text') or '')
+                         + (figtext(b) if b['kind'] == 'fig' else '')
                          for b in H['blocks'])
         # Every sentence of the section is on the sheet, unless it is a cell
         # of one of its tables (the sheet shows it there) or the chapter

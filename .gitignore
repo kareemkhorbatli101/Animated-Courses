@@ -15,3 +15,9 @@ CMA_Book2_AnswerKeys_Ch01-18.zip
 # Delivery bundles for Book 3 as well.
 CMA_Book3_Handouts_Ch01-18.zip
 CMA_Book3_AnswerKeys_Ch01-18.zip
+
+# Rendered figures, keyed by the hash of the SVG that produced them. Every
+# one is reproducible from the generator, and the directory is tens of
+# megabytes, so it is a build artefact rather than source.
+cma/wsart_cache/
+cma/CMA_Summaries_*.docx

@@ -68,17 +68,30 @@ def table(rows, widths, col, sz=6, fixed=True):
             % (tblpr(col, sz, fixed), grid, ''.join(rows)))
 
 
-def widths_for(rows, floor=MIN_PCT, ceiling=MAX_PCT, weight_header=0.5):
+def widths_for(rows, floor=MIN_PCT, ceiling=None, weight_header=0.5):
     """Column widths in percentages, from how much text each column holds.
 
     A column is sized by a blend of its longest cell and its average cell, so
     that one unusually long entry widens the column a little without taking
     the whole table. The header is discounted, because a short header over
     long values should not make the column narrow.
+
+    The ceiling depends on how many columns there are. A flat 52% was right
+    for a two-column table, where the left column holds the label and the
+    right the explanation, and wrong for a three- or four-column one, where
+    it left the first column with more than half the measure and squeezed
+    the rest into a ribbon. Past two columns the ceiling is 44%, so the
+    widest column can still be twice the narrowest and no more.
     """
     if not rows:
         return [100.0]
     n = max(len(r) for r in rows)
+    if ceiling is None:
+        ceiling = MAX_PCT if n <= 2 else 44.0
+    # And so does the floor. A flat 9% left the Classification column of a
+    # three-column table at 13%, which is two characters and a hyphen: the
+    # values in it are "Current asset" and "Noncurrent liability".
+    floor = max(floor, 100.0 / n / 2.2) if n > 2 else floor
     score = []
     for j in range(n):
         lens = []
@@ -111,9 +124,20 @@ def widths_for(rows, floor=MIN_PCT, ceiling=MAX_PCT, weight_header=0.5):
         free = [i for i in range(n) if floor < w[i] < ceiling]
         if not free or abs(spare) < 1e-9:
             break
-        each = spare / len(free)
+        # The spare goes back in proportion to how much text each free
+        # column holds, not in equal shares. Equal shares handed a
+        # three-column journal's "Debit" column the whole 8% the first
+        # column had given up, so a column of five-digit figures came out
+        # as wide as a column of account names.
+        base = sum(score[i] for i in free) or 1.0
         for i in free:
-            w[i] += each
+            # And no free column doubles. A "#" column of single digits
+            # came out as wide as the Date beside it, because it was the
+            # only column with room left when the account column gave up
+            # its excess. Width the content does not need is width the
+            # account column could have used.
+            room = max(0.0, 2.0 * score[i] / sum(score) * 100.0 - w[i])
+            w[i] += min(room, spare * score[i] / base)
     # Normalise to exactly 100 so the fixed layout fills the measure —
     # and then clamp again, because scaling up to reach 100 can push a
     # column back over the ceiling it was just held under.
