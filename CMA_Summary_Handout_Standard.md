@@ -158,14 +158,28 @@ other book is almost always a convention, not a defect in the sheets.
 | | book 1 | books 2 and 3 |
 |---|---|---|
 | sheets | 94 | 106 |
-| gaps | 2,232 | 1,455 |
-| outstanding findings | 5 | 25 |
+| gaps | 2,248 | 1,455 |
+| outstanding findings | **0** | 25 |
 
-Book 1's five: four sheets 1–2 gaps below the density standard (5.3, 9.3,
-17.3, 18.5), each a short section whose prose one figure almost entirely
-consumes; and one figure whose word list has no spare of its answers'
-length. Reported rather than fixed by lowering the standard.
+**Book 1 is clean against all 22 passes and the build checks.** The last
+five came down to four causes, every one of them a rule that was right in
+the case it was written for:
 
-Books 2 and 3 have not been worked yet — their 25 are content findings
-waiting for that pass, down from 149 before the three conventions above
+- a card gave up one word however long it was, so a 25-word sentence and
+  a 6-word label were treated alike. Past 104 characters a card can spare
+  two, and the spans are kept 18 characters apart so there is always text
+  to reason from between them.
+- a figure's lead-in paragraph was built with an empty spare pool, and a
+  block of exactly two gaps cannot give one of them back to find a wrong
+  answer, so it returned nothing and printed as plain text with nothing
+  to do on it.
+- the figure's own labels were harvested one level deep, which reaches a
+  tree's group names and never its members -- and the members are the
+  answers' own siblings, the best-shaped wrong answers the figure has.
+- a branch's condition is never blanked, which had been read as never
+  touched. A ninety-character condition missing one word is still the
+  test, read closely.
+
+Books 2 and 3 have not been worked yet -- their 25 are content findings
+waiting for that pass, down from 149 before the three conventions in §5
 were read from the text instead of assumed.

@@ -1086,7 +1086,16 @@ def prose_figures(sec, tbls, terms, seed):
             got['terms'] = terms
         blocks, lead = [], [x for x in run if x not in used]
         if lead:
-            g = gap_block(lead, terms, sk + 3, [])
+            # With the section's words to draw a wrong answer from. An
+            # empty pool left gap_block with no spare, and a block of
+            # exactly two gaps cannot give one of them back to find one,
+            # so it returned nothing and the lead-in printed as plain
+            # text with nothing to do on it.
+            pool = [t for t in terms if 4 < len(t) < 28] + [
+                w for w in re.findall(r"[A-Za-z][A-Za-z\-']{6,}",
+                                      ' '.join(sents))
+                if w.lower() not in STOP]
+            g = gap_block(lead, terms, sk + 3, shuffled(pool, sk))
             blocks.append(dict(kind='prose', carry=[], _underhead=True,
                                _pos=place(lead[0]), **g) if g
                           else dict(kind='plain', text=' '.join(lead)))
@@ -1407,20 +1416,30 @@ def number_and_draw(blocks, terms, seed):
             # are the same kind of thing as its answers and the same
             # length, where the chapter's glossary is phrases of two or
             # three words against figure answers of six or seven.
+            # Flattened all the way down. A tree's data is a list of
+            # (group, [members]) pairs, so stopping one level in reached
+            # the group names and never the members -- and the members
+            # are the answers' own siblings, the best-shaped wrong
+            # answers the figure has.
             own = []
+
+            def harvest(v, depth=0):
+                if depth > 4:
+                    return
+                if isinstance(v, str):
+                    x = clean(v)
+                    # A writing slot the chapter drew with underscores is
+                    # not a word, and offering "________" as the wrong
+                    # answer is worse than offering none.
+                    if 4 < len(x) < 80 and not BLANKCELL.match(x) \
+                            and MARK not in x:
+                        own.append(x)
+                elif isinstance(v, (list, tuple)):
+                    for x in v:
+                        harvest(x, depth + 1)
             for v in b['data'].values():
-                if not isinstance(v, (list, tuple)):
-                    continue
-                for item in v:
-                    for x in (item if isinstance(item, (list, tuple))
-                              else [item]):
-                        x = clean(x) if isinstance(x, str) else ''
-                        # A writing slot the chapter drew with underscores
-                        # is not a word, and offering "________" as the
-                        # wrong answer is worse than offering none.
-                        if 4 < len(x) < 80 and not BLANKCELL.match(x) \
-                                and MARK not in x:
-                            own.append(x)
+                if isinstance(v, (list, tuple)):
+                    harvest(v)
             fig = fn(title=b['title'], seed=b['seed'], first=n,
                      spares=own + shuffled(spares, b['seed']), **b['data'])
             if fig is None:

@@ -673,23 +673,25 @@ def branchfig(title, cond, yes, no, seed, first, terms=(), spares=()):
     whole = 0 if seed % 2 == 0 else 1
     outs = [('Yes', yes, A.INDIGO, A.INDIGO_L),
             ('No', no, A.AMBER, A.AMBER_L)]
-    pool = sorted([t for t in terms if 4 < len(t) < 34], key=len,
-                  reverse=True)
     part = outs[1 - whole][1]
     answers = [clean(outs[whole][1])]
-    hit = next((t for t in pool
-                if re.search(r'\b%s\b' % re.escape(t), part, re.I)
-                and not _clash(t, answers[0])), None)
-    if not hit:
-        own = sorted((w for w in re.findall(r"[A-Za-z][A-Za-z\-']{5,}", part)
-                      if w.lower() not in WG.STOP), key=len, reverse=True)
-        hit = next((w for w in own if not _clash(w, answers[0])), None)
+    hits = _inner(part, answers, terms, _howmany(part))
+    # A long condition gives up one word too. The rule is that the
+    # condition is never BLANKED -- a reader who cannot see what is being
+    # tested has nothing to reason from -- and a ninety-character
+    # condition missing one word is still the test, read closely.
+    # A lower bar than a card's, because a condition is never blanked
+    # whole and so never loses its shape: seventy characters is already a
+    # clause a reader can read around one hole.
+    chits = (_inner(cond, answers + hits, terms, 1)
+             if len(clean(cond)) > 70 else [])
     c = A.Canvas(W)
     y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 22
     CW = W - 96
-    hh = A.wrapped_h(cond, CW - 28, 15, bold=True) + 26
+    ctext, k = _sub(cond, chits, first)
+    hh = A.wrapped_h(ctext, CW - 28, 15, bold=True) + 26
     c.rect(48, y, CW, hh, A.SOFT, A.GREY, 2, 7)
-    c.centred(48 + CW / 2.0, y + hh / 2.0, cond, CW - 28, 15, A.INK, True)
+    c.centred(48 + CW / 2.0, y + hh / 2.0, ctext, CW - 28, 15, A.INK, True)
     y += hh
     c.line(W / 2.0, y, W / 2.0, y + 16, A.GREY, 2)
     OW = (W - 48 - 20) / 2.0
@@ -698,16 +700,14 @@ def branchfig(title, cond, yes, no, seed, first, terms=(), spares=()):
         c.line(W / 2.0, y + 16, tx, y + 16, A.GREY, 2)
         c.arrow(tx, y + 16, tx, y + 32, A.GREY, 2, 7)
     y += 32
-    texts, k = [], first
+    texts = []
     for i, (lab, body, col, fill) in enumerate(outs):
         if i == whole:
             texts.append('(%d) %s' % (k, '_' * 34))
             k += 1
-        elif hit:
-            texts.append(re.sub(r'\b%s\b' % re.escape(hit),
-                                '(%d) __________' % k, body, count=1,
-                                flags=re.I))
-            k += 1
+        elif hits:
+            txt, k = _sub(body, hits, k)
+            texts.append(txt)
         else:
             texts.append(body)
     bh = max(A.wrapped_h(t, OW - 28, 14) for t in texts) + 52
@@ -719,8 +719,7 @@ def branchfig(title, cond, yes, no, seed, first, terms=(), spares=()):
         c.centred(x + OW / 2.0, y + 34 + (bh - 44) / 2.0, texts[i],
                   OW - 28, 14, A.INK)
         c._b(y + bh)
-    if hit:
-        answers.append(hit)
+    answers = list(chits) + answers + list(hits)
     return _fig('branch', title, c, answers,
                 _bank(answers, spares, seed + 1),
                 'One route applies, and only one.')
@@ -869,17 +868,19 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
         keep = (sub or '') if (i in gaps or gap == 'body') else ''
         if i in gaps and gap == 'body':
             keep = ''
-        hit = _inner(keep, [a for a, _b in items]
-                     + [x for x in extra if x], spares) \
-            if len(keep) > 28 else None
-        extra.append(hit)
+        hits = _inner(keep, [a for a, _b in items]
+                      + [x for sub2 in extra for x in sub2], spares,
+                      _howmany(keep)) if len(keep) > 28 else []
+        extra.append(hits)
     for i, (nm, sub) in enumerate(items):
         blank = i in gaps
         name = nm
         body = sub or ''
         if extra[i] and not (blank and gap == 'body'):
-            body = re.sub(r'\b%s\b' % re.escape(extra[i]),
-                          '\u2423(%d)\u2423' % 0, body, count=1, flags=re.I)
+            for h in extra[i]:
+                body = re.sub(r'\b%s\b' % re.escape(h),
+                              '\u2423%s\u2423' % h, body, count=1,
+                              flags=re.I)
         if blank and gap == 'body' and body:
             answers.append(body)
             body = '(%d) %s' % (k, '_' * 30)
@@ -888,10 +889,12 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
             answers.append(name)
             name = None
             k += 1
-        if '\u2423' in body:
-            body = body.replace('\u2423(0)\u2423', '(%d) ______' % k)
-            answers.append(extra[i])
-            k += 1
+        for h in (extra[i] or []):
+            if '\u2423%s\u2423' % h in body:
+                body = body.replace('\u2423%s\u2423' % h,
+                                    '(%d) ______' % k, 1)
+                answers.append(h)
+                k += 1
         nh = (A.wrapped_h(name, NW - 24, 14, bold=True) if name else 26)
         rh = max(nh, A.wrapped_h(body, DW, 13) if body else 0) + 22
         col, fill = PAL[i % len(PAL)]
@@ -1002,26 +1005,67 @@ def _clash(a, b):
     return x == y or (len(min(x, y, key=len)) > 4 and (x in y or y in x))
 
 
-def _inner(text, answers, terms=()):
-    """One decisive word inside a card's description, as a second gap.
+# A card past this many characters can lose two words and still read.
+# Below it, one. A twenty-word sentence missing two words is still a
+# sentence; a six-word label missing two is a guessing game.
+LONG_CARD = 104
+
+
+def _inner(text, answers, terms=(), limit=1):
+    """The decisive words inside a card, in the order they are written.
 
     A figure used to give up only its labels, and a flow of four stages
     gave two gaps for the eighty words of prose it had taken out of the
     section. The card that keeps its name can still give up a word of
     what it says, which is the same reading the paragraphs ask for and
     leaves the name as the clue.
+
+    Two words where the card is long enough to spare them. The spans are
+    tracked so the second is never inside the first, and the list comes
+    back in reading order so the numbering runs down the page.
     """
-    pool = sorted([t for t in terms if 4 < len(t) < 30], key=len,
-                  reverse=True)
-    hit = next((t for t in pool
-                if re.search(r'\b%s\b' % re.escape(t), text, re.I)
-                and not any(_clash(t, a) for a in answers)), None)
-    if not hit:
-        own = sorted((w for w in re.findall(r"[A-Za-z][A-Za-z\-']{6,}", text)
-                      if w.lower() not in WG.STOP), key=len, reverse=True)
-        hit = next((w for w in own
-                    if not any(_clash(w, a) for a in answers)), None)
-    return hit
+    text = clean(text or '')
+    if not text:
+        return []
+    cands = []
+    for t in sorted([t for t in terms if 4 < len(t) < 30], key=len,
+                    reverse=True):
+        m = re.search(r'\b%s\b' % re.escape(t), text, re.I)
+        if m:
+            cands.append((m.start(), m.end(), text[m.start():m.end()], 2))
+    for m in re.finditer(r"[A-Za-z][A-Za-z\-']{6,}", text):
+        if m.group(0).lower() not in WG.STOP:
+            cands.append((m.start(), m.end(), m.group(0), 1))
+    cands.sort(key=lambda c: (-c[3], -len(c[2])))
+    out = []
+    for a, b, w, _rank in cands:
+        if len(out) >= limit:
+            break
+        # Not overlapping, and not crowded. The paragraphs keep twelve
+        # characters between gaps so there is always text to reason from;
+        # "revealing (7) ____ to (8) ____ or creating legal risk" is the
+        # same clause carrying two holes.
+        if any(a < y + 18 and x - 18 < b for x, y, _w in out):
+            continue
+        if any(_clash(w, z) for z in list(answers) + [x[2] for x in out]):
+            continue
+        out.append((a, b, w))
+    return [w for _a, _b, w in sorted(out)]
+
+
+def _howmany(text):
+    """How many words this card can spare."""
+    return 2 if len(clean(text or '')) > LONG_CARD else 1
+
+
+def _sub(text, hits, k, width=10):
+    """The card with each of those words replaced by a numbered slot."""
+    out = text
+    for w in hits:
+        out = re.sub(r'\b%s\b' % re.escape(w),
+                     '(%d) %s' % (k, '_' * width), out, count=1, flags=re.I)
+        k += 1
+    return out, k
 
 
 def pick_spare(answers, spares, seed):
@@ -1090,19 +1134,19 @@ def flowfig(title, steps, seed, first, spares=()):
     inner = []
     for i, (nm, sub) in enumerate(steps):
         if i in gaps:
-            inner.append((None, None))
+            inner.append((None, []))
             continue
         src = 'sub' if sub and len(sub) >= 24 else 'nm'
         text = sub if src == 'sub' else nm
-        hit = _inner(text, taken, spares) if len(text or '') >= 24 else None
-        if hit:
-            taken.append(hit)
-        inner.append((src, hit))
+        hits = (_inner(text, taken, spares, _howmany(text))
+                if len(text or '') >= 24 else [])
+        taken.extend(hits)
+        inner.append((src, hits))
     # Every card is the height of the tallest, so the arrows line up and a
     # gapped card is not obviously the short one.
     hh = 84.0
     for i, (nm, sub) in enumerate(steps):
-        pad = ' (00) ______'
+        pad = ' (00) ______' * 2
         th = A.wrapped_h(nm + (pad if inner[i][0] == 'nm' else ''),
                          bw - 18, 15, bold=True)
         bh = A.wrapped_h((sub or '') + pad, bw - 18, 12) + 4 if sub else 0
@@ -1120,19 +1164,15 @@ def flowfig(title, steps, seed, first, spares=()):
             k += 1
             c._b(y + hh)
             continue
-        src, hit = inner[i]
+        src, hits = inner[i]
         head, body = nm, sub
-        if hit:
-            pat = r'\b%s\b' % re.escape(hit)
-            where = head if src == 'nm' else (body or '')
-            if re.search(pat, where, re.I):
-                slot = '(%d) ______' % k
-                if src == 'nm':
-                    head = re.sub(pat, slot, head, count=1, flags=re.I)
-                else:
-                    body = re.sub(pat, slot, body, count=1, flags=re.I)
-                answers.append(hit)
-                k += 1
+        if hits:
+            if src == 'nm':
+                head, k2 = _sub(head, hits, k, 6)
+            else:
+                body, k2 = _sub(body, hits, k, 6)
+            answers.extend(hits)
+            k = k2
         c.rect(x, y, bw, hh, A.SOFT, A.INDIGO, 2, 7)
         yy = c.wrapped(x + bw / 2.0, y + 22, head, bw - 18, 15, A.INDIGO,
                        True)
@@ -1413,8 +1453,6 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
     to work from — and instead one decisive phrase inside a card becomes
     the gap, which is the sentence read closely rather than recognised.
     """
-    pool = sorted([t for t in terms if 4 < len(t) < 34], key=len,
-                  reverse=True)
     cols = [(left, lrows, A.INDIGO, A.INDIGO_L),
             (right, rrows, A.AMBER, A.AMBER_L)]
     # choose the gaps first, so both columns are numbered down the page
@@ -1428,29 +1466,12 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
         # reader one word of a sentence he still has. Three in five left
         # the integrated-reporting sheet with three gaps for its whole
         # section.
-        want = len(rows)
-        got = 0
         for ri, sent in enumerate(rows):
-            if got >= want:
-                break
-            hit = next((t for t in pool
-                        if re.search(r'\b%s\b' % re.escape(t), sent, re.I)
-                        and not any(_clash(t, a) for a in answers)), None)
-            if not hit:
-                # No glossary term in this sentence. Its own longest
-                # distinctive word is still its load-bearing one, and
-                # gapping it is the same exercise.
-                own = sorted(
-                    (w for w in re.findall(r"[A-Za-z][A-Za-z\-']{5,}", sent)
-                     if w.lower() not in WG.STOP),
-                    key=len, reverse=True)
-                hit = next((w for w in own
-                            if not any(_clash(w, a) for a in answers)), None)
-            if not hit:
+            hits = _inner(sent, answers, terms, _howmany(sent))
+            if not hits:
                 continue
-            chosen[(ci, ri)] = hit
-            answers.append(hit)
-            got += 1
+            chosen[(ci, ri)] = hits
+            answers.extend(hits)
     if not answers:
         return None
     c = A.Canvas(W)
@@ -1469,11 +1490,7 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
         for ri, sent in enumerate(rows):
             txt = sent
             if (ci, ri) in chosen:
-                t = chosen[(ci, ri)]
-                txt = re.sub(r'\b%s\b' % re.escape(t),
-                             '(%d) __________' % k, sent, count=1,
-                             flags=re.I)
-                k += 1
+                txt, k = _sub(sent, chosen[(ci, ri)], k)
             hh = A.wrapped_h(txt, CW - 24, 14) + 20
             c.rect(x, yy, CW, hh, A.PAPER, A.GREY_L, 1.3, 5)
             c.centred(x + CW / 2.0, yy + hh / 2.0, txt, CW - 24, 14, A.INK)
