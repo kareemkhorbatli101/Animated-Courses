@@ -155,31 +155,32 @@ other book is almost always a convention, not a defect in the sheets.
 
 ## 6. Where it stands
 
-| | book 1 | books 2 and 3 |
-|---|---|---|
-| sheets | 94 | 106 |
-| gaps | 2,248 | 1,455 |
-| outstanding findings | **0** | 25 |
+| | book 1 | book 2 | book 3 |
+|---|---|---|---|
+| sheets | 94 | 116 | 106 |
+| gaps | 2,301 | 1,766 | 1,484 |
+| outstanding findings | **0** | **0** | **0** |
 
-**Book 1 is clean against all 22 passes and the build checks.** The last
-five came down to four causes, every one of them a rule that was right in
-the case it was written for:
+**All three books are clean against all 22 passes and the build checks.**
+316 handouts, 5,551 gaps.
 
-- a card gave up one word however long it was, so a 25-word sentence and
-  a 6-word label were treated alike. Past 104 characters a card can spare
-  two, and the spans are kept 18 characters apart so there is always text
-  to reason from between them.
-- a figure's lead-in paragraph was built with an empty spare pool, and a
-  block of exactly two gaps cannot give one of them back to find a wrong
-  answer, so it returned nothing and printed as plain text with nothing
-  to do on it.
-- the figure's own labels were harvested one level deep, which reaches a
-  tree's group names and never its members -- and the members are the
-  answers' own siblings, the best-shaped wrong answers the figure has.
-- a branch's condition is never blanked, which had been read as never
-  touched. A ninety-character condition missing one word is still the
-  test, read closely.
+Working books 2 and 3 took 25 findings down to nothing, and all but three
+of the causes were in the toolchain rather than in those books -- rules
+that were right in the case they were written for:
 
-Books 2 and 3 have not been worked yet -- their 25 are content findings
-waiting for that pass, down from 149 before the three conventions in §5
-were read from the text instead of assumed.
+| cause | what it did |
+|---|---|
+| a form that produced no gaps was dropped **after** its sentences had been taken out of the prose | three sentences of book 2 section 1.3 left the sheet, and every pass read clean because every pass reads the sheet |
+| a figure's lead-in, and a re-gapped carried block, were built with an empty spare pool | a block of exactly two gaps cannot give one back to find a wrong answer, so it printed as plain text with nothing to do on it |
+| the per-sentence share of gaps was a cap, not a share | a 28-word block offering five candidates in one sentence and none in the next took one gap, fell below the floor of two, and printed whole |
+| a figure reference was cut only when it was the whole sentence | "Benchmarking helps create an advantage in four ways, listed in Figure F215-12" went, and the sentence after it opened on "It" with nothing to refer to. Now the *clause* is cut -- but only where the figure is where something is, not what the sentence is about |
+| the French screen read lowercase accents only | "Étalonnage" stood as a heading on a book 2 sheet, and pass 10 was blind to it because it used the same pattern. The pass now uses the generator's own |
+| a gap could make its row the twin of another | two items costing 150,000 each both became "____ \| 150,000", with two names in the word list and nothing to tell the rows apart |
+| a column needed three numbers to count as amounts | a two-row allocation grid has two of everything, so the gaps went to the percentages, every one was refused, and the grid printed whole |
+| column widths were clamped and then scaled back up to 100 | which put the widest column over the ceiling again -- 59% of a two-column grid |
+| the same figure could be drawn on two sheets of one chapter | three charts in book 2 chapter 10 all asked for "Beverages". The chapter now watches what has been asked and rebuilds a repeat on another seed |
+
+Two pass-20 exemptions were added, both because the pass was demanding
+what the rules forbid: a grid the chapter itself leaves blank for the
+reader, and a grid that is arithmetic all the way down, where every cell
+is a number and a number is never gapped.

@@ -138,17 +138,28 @@ def widths_for(rows, floor=MIN_PCT, ceiling=None, weight_header=0.5):
             # account column could have used.
             room = max(0.0, 2.0 * score[i] / sum(score) * 100.0 - w[i])
             w[i] += min(room, spare * score[i] / base)
-    # Normalise to exactly 100 so the fixed layout fills the measure —
-    # and then clamp again, because scaling up to reach 100 can push a
-    # column back over the ceiling it was just held under.
-    for _ in range(4):
-        t = sum(w)
-        w = [x / t * 100.0 for x in w]
-        if max(w) <= ceiling + 0.01 and min(w) >= floor - 0.01:
+    # Normalise to exactly 100 so the fixed layout fills the measure, by
+    # filling rather than scaling. Scaling was the bug: the columns were
+    # clamped to the ceiling and then multiplied back up to reach 100,
+    # which put the widest one over the ceiling again -- 59% of a
+    # two-column grid, which is what the ceiling exists to prevent. Here
+    # the shortfall is poured into whatever headroom there is, so no
+    # column can pass its ceiling however the numbers fall.
+    w = [min(ceiling, max(floor, x)) for x in w]
+    for _ in range(8):
+        short = 100.0 - sum(w)
+        if abs(short) < 1e-6:
             break
-        w = [min(ceiling, max(floor, x)) for x in w]
-    t = sum(w)
-    return [x / t * 100.0 for x in w]
+        if short > 0:
+            room = [max(0.0, ceiling - x) for x in w]
+        else:
+            room = [max(0.0, x - floor) for x in w]
+        total = sum(room)
+        if total < 1e-9:
+            break
+        for i in range(n):
+            w[i] += short * room[i] / total
+    return w
 
 
 def banner(text, widths, fill, sz=17, color='FFFFFF', pad=90):

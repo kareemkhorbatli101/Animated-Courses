@@ -526,6 +526,19 @@ def p20_untouched(ch, say):
                      if S.BLANKCELL.match(clean(str(c)))]
             if len(blank) >= len(content):
                 continue        # the chapter's own worksheet, left blank
+            # Or a grid that is arithmetic all the way down: "1,422,000 +
+            # 133,800 = 1,555,800; - 142,200 = 1,413,600 liters". A number
+            # is never gapped -- recalling one off a word list is a memory
+            # trick -- so there is nothing here the rules allow to be
+            # taken out, and demanding it is demanding the forbidden.
+            words = [w for c in content
+                     for w in re.findall(r"[A-Za-z][A-Za-z\-']{4,}", c)
+                     if w.lower() not in V.WG.STOP]
+            # Distinct words: both cells of the budget grid end on
+            # "liters", and one word repeated is one candidate, which is
+            # not enough to gap a grid with.
+            if len(set(w.lower() for w in words)) < 2:
+                continue
             say('%s: a grid printed whole, with %d cells of content: %s'
                 % (H['id'], len(content), b.get('title', '')[:46]))
 

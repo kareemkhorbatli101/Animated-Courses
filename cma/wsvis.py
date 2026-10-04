@@ -863,24 +863,39 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
     NW = 250.0
     DW = CW - NW - 32
     answers, k = [], first
-    extra = []
+    # Which text each row that keeps its label gives a word of. Normally
+    # the explanation beside it; where there is none -- a chapter that
+    # states its two stages in one clause each and nothing more -- the
+    # label itself, because a row too long to blank whole would otherwise
+    # ask nothing at all. The panel on activity-based costing had two
+    # such rows, produced no gaps, and took its three sentences off the
+    # sheet with it.
+    extra, inname = [], []
     for i, (nm, sub) in enumerate(items):
-        keep = (sub or '') if (i in gaps or gap == 'body') else ''
+        keep, where = (sub or ''), 'body'
         if i in gaps and gap == 'body':
             keep = ''
+        if not keep.strip() and i not in gaps and len(clean(nm)) > WHOLE:
+            keep, where = nm, 'name'
         hits = _inner(keep, [a for a, _b in items]
                       + [x for sub2 in extra for x in sub2], spares,
                       _howmany(keep)) if len(keep) > 28 else []
         extra.append(hits)
+        inname.append(where == 'name')
     for i, (nm, sub) in enumerate(items):
         blank = i in gaps
         name = nm
         body = sub or ''
         if extra[i] and not (blank and gap == 'body'):
             for h in extra[i]:
-                body = re.sub(r'\b%s\b' % re.escape(h),
-                              '\u2423%s\u2423' % h, body, count=1,
-                              flags=re.I)
+                if inname[i]:
+                    name = re.sub(r'\b%s\b' % re.escape(h),
+                                  '\u2423%s\u2423' % h, name, count=1,
+                                  flags=re.I)
+                else:
+                    body = re.sub(r'\b%s\b' % re.escape(h),
+                                  '\u2423%s\u2423' % h, body, count=1,
+                                  flags=re.I)
         if blank and gap == 'body' and body:
             answers.append(body)
             body = '(%d) %s' % (k, '_' * 30)
@@ -890,11 +905,15 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
             name = None
             k += 1
         for h in (extra[i] or []):
-            if '\u2423%s\u2423' % h in body:
-                body = body.replace('\u2423%s\u2423' % h,
-                                    '(%d) ______' % k, 1)
-                answers.append(h)
-                k += 1
+            tag = '\u2423%s\u2423' % h
+            if name and tag in name:
+                name = name.replace(tag, '(%d) ______' % k, 1)
+            elif tag in body:
+                body = body.replace(tag, '(%d) ______' % k, 1)
+            else:
+                continue
+            answers.append(h)
+            k += 1
         nh = (A.wrapped_h(name, NW - 24, 14, bold=True) if name else 26)
         rh = max(nh, A.wrapped_h(body, DW, 13) if body else 0) + 22
         col, fill = PAL[i % len(PAL)]

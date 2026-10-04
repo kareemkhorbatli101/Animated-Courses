@@ -55,11 +55,15 @@ FIGREF = re.compile(r'\bFigure\s+F?\d{1,4}[-.–]\d{1,3}\b')
 # example sets out the halva's budget year by year" names its own subject
 # and opens a block perfectly well. Books 2 and 3 open their worked
 # examples that way, and twenty-eight blocks were reported as hanging.
-NOTDANGLE = re.compile(r'^(?:this|that|these|those)\s+'
+NOTDANGLE = re.compile(r'^(?:(?:this|that|these|those)\s+'
                        r'(?:example|exercise|section|chapter|case|method|'
                        r'approach|rule|test|table|figure|step|study|'
                        r'report|statement|schedule|worksheet|entry|'
-                       r'standard|model|policy|note)\b', re.I)
+                       r'standard|model|policy|note)\b'
+                       # "Both regression and learning curves turn past
+                       # data into better estimates" names what it is
+                       # about; "both of them" does not.
+                       r'|both\s+(?!of\b)[a-z-]+\s+and\b)', re.I)
 DANGLE = re.compile(r'^(these|this|that|those|it|they|them|such|here|both|'
                     r'either|neither|so|then|however|therefore|also|but|and|'
                     r'its|their|finally|lastly|moreover|furthermore|again|'
@@ -158,6 +162,22 @@ BOOKREF = re.compile(
     r'[^,.;:)]*\)?', re.I)
 
 
+# A pointer at a figure, but only where the figure is WHERE something is
+# and not WHAT the sentence is about. "Every relative share in Figure
+# F302-13 equals the unit's share" is a sentence about relative share;
+# "Figure F216-04 shows a yearly saving of $100,000" is a sentence about
+# a figure, and nothing is left of it once the figure goes, so it is
+# dropped whole as before.
+FIGNO = r'(?:Figure|Table|Exhibit)\s+F?\d{1,4}[-.\u2013]\d{1,3}\b'
+FIGCLAUSE = re.compile(
+    r'\s*\(\s*(?:see\s+)?' + FIGNO + r'\s*\)'
+    r'|\s*,?\s*(?:as\s+)?(?:listed|shown|set\s+out|given|summar[iy]zed'
+    r'|summarised|illustrated|drawn|reported|presented)\s+(?:in|by)\s+'
+    + FIGNO + r'\s*,?'
+    r'|\s+(?:in|of|at|from|on)\s+' + FIGNO,
+    re.I)
+
+
 def unbooked(text):
     """The sentence without the clause that points into the book.
 
@@ -167,7 +187,14 @@ def unbooked(text):
     the five words go and the sentence stays. Only when the pointer IS
     the sentence does the sentence go with it.
     """
-    out = BOOKREF.sub('', clean(text))
+    # The pointer at a figure is a clause too. Dropping the sentence
+    # whole took "Benchmarking helps create an advantage in four ways"
+    # off the sheet of book 2 section 15.5 and left the sentence after it
+    # opening on "It sets targets", with nothing on the page for "It" to
+    # mean. A sentence that is ONLY the pointer still goes, because what
+    # is left of it is too short to be prose.
+    out = FIGCLAUSE.sub(' ', clean(text))
+    out = BOOKREF.sub('', out)
     out = re.sub(r'\s*([,;:])\s*([,;:])', r'\1', out)
     out = re.sub(r'\s*,\s*:', ':', out)
     # The pointer takes the preposition that introduced it with it.
@@ -176,6 +203,7 @@ def unbooked(text):
     # "like the receivables in Chapter 6: the company" as "in : the".
     out = re.sub(r'(?:,\s*)?\b(?:from|in|of|like|as|see|per|under)\s*'
                  r'(?=[.:;]|$)', '', out)
+    out = re.sub(r',\s*,', ',', out)
     out = re.sub(r'\s{2,}', ' ', out).strip(' ,;')
     out = re.sub(r'\s+([.,;:])', r'\1', out)
     if out and not out.endswith('.'):
@@ -196,7 +224,10 @@ def prose_sents(text):
         if not is_proseline(ln):
             continue
         for x in split_sentences(clean(ln)):
-            if not is_prose(x) or not english_only(x):
+            # Shape first, then the clauses come out, and only then the
+            # tests that a figure reference would fail. The other order
+            # threw the sentence away before its pointer could be cut.
+            if not is_proseline(x) or not english_only(x):
                 continue
             x = unbooked(x)
             if not is_prose(x):
@@ -390,7 +421,7 @@ def segments(sec, tbls):
             continue
         if is_proseline(ln):
             for sent in split_sentences(x):
-                if not is_prose(sent) or not english_only(sent):
+                if not is_proseline(sent) or not english_only(sent):
                     continue
                 sent = unbooked(sent)
                 if not is_prose(sent) or SELFREF.search(sent):
@@ -461,6 +492,35 @@ def candidates(sent, terms):
     return out
 
 
+def _spread(sents, terms, picks, want, per, freq):
+    """Take up to `per` gaps from each sentence, adding to what is there.
+
+    Every rule the block has lives here: a word the block prints twice is
+    never taken, a block never opens on a gap, two gaps are never twelve
+    characters apart, and no two answers read alike.
+    """
+    picks = list(picks)
+    for si, sent in enumerate(sents):
+        got = sum(1 for p in picks if p[3] == si)
+        for a, b, w, _rank in candidates(sent, terms):
+            if got >= per or len(picks) >= want:
+                break
+            if freq[w.lower()] != 1 or len(
+                    re.findall(r'(?<![\w-])%s(?![\w-])' % re.escape(w),
+                               ' '.join(sents), re.I)) != 1:
+                continue
+            if si == 0 and a == 0:
+                continue            # a block may not open on a gap
+            if any(_same(w, x[2]) for x in picks):
+                continue            # "current" and "noncurrent" in one list
+            if any(abs(a - x[1]) < 12 or abs(b - x[0]) < 12
+                   for x in picks if x[3] == si):
+                continue            # never two gaps side by side
+            picks.append((a, b, w, si))
+            got += 1
+    return picks
+
+
 def gap_block(sents, terms, seed, spare_pool=()):
     """One summary block: the sentences, gapped, with a word list.
 
@@ -483,25 +543,19 @@ def gap_block(sents, terms, seed, spare_pool=()):
     # out of the running for both
     freq = collections.Counter(
         w.lower() for w in re.findall(r"\b[A-Za-z][A-Za-z\-']+\b", text))
-    picks, per = [], max(1, (want + len(sents) - 1) // len(sents))
-    for si, sent in enumerate(sents):
-        got = 0
-        for a, b, w, _rank in candidates(sent, terms):
-            if got >= per or len(picks) >= want:
-                break
-            if freq[w.lower()] != 1 or len(
-                    re.findall(r'(?<![\w-])%s(?![\w-])' % re.escape(w),
-                               text, re.I)) != 1:
-                continue
-            if si == 0 and a == 0:
-                continue            # a block may not open on a gap
-            if any(_same(w, x[2]) for x in picks):
-                continue            # "current" and "noncurrent" in one list
-            if any(abs(a - x[1]) < 12 or abs(b - x[0]) < 12
-                   for x in picks if x[3] == si):
-                continue            # never two gaps side by side
-            picks.append((a, b, w, si))
-            got += 1
+    # Spread first, then fill. The even share across sentences is what
+    # keeps the gaps off one line, but it is a share of what the block
+    # CAN give: "Multiplying the old volume by the new margin ignores the
+    # cases lost" offers five words and the sentence after it offers none
+    # of its own, because both of its candidates appear twice. Capped at
+    # one each, the block found a single gap, fell below the floor of two
+    # and printed with nothing to do on it. So the cap is lifted on a
+    # second pass over whatever is left.
+    picks = []
+    for per in (max(1, (want + len(sents) - 1) // len(sents)), want):
+        picks = _spread(sents, terms, picks, want, per, freq)
+        if len(picks) >= want:
+            break
     if len(picks) < 2:
         return None
     # rebuild the block with the gaps in reading order
@@ -674,7 +728,16 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
         # A handful of exceptions does not make a column of amounts into a
         # column of text: one cell reading "none" in a statement of cash
         # flows, two explanatory notes among six figures.
-        if len(nums) >= 3 and len(vals) - len(nums) <= max(2, len(vals) // 7):
+        # Three numbers is evidence; so is unanimity. A two-row
+        # allocation grid has every cell of every column a number and
+        # only two of each, so the three-value bar never cleared and the
+        # gaps went to the amounts, where every one was refused -- and
+        # the grid printed whole with its percentages in it.
+        if not vals:
+            continue
+        if len(nums) == len(vals) or (
+                len(nums) >= 3
+                and len(vals) - len(nums) <= max(2, len(vals) // 7)):
             numeric.append(j)
     first = len(numeric) == len(head) - 1
     cols = [0] if first else range(1, len(head))
@@ -772,6 +835,29 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
                for b in range(len(vals))):
             continue
         keep.append(c)
+    # A cell the clash filter removed can still give up a word INSIDE it.
+    # The debt-classification grid answers "Noncurrent", "All noncurrent"
+    # and "Noncurrent; disclose", each of which contains another, so every
+    # one of them went and the grid printed whole with its answers in it.
+    # One word out of such a cell clashes with nothing and is the same
+    # reading.
+    kept = [c[2].lower() for c in keep]
+    for c in cells:
+        if c in keep or len(keep) >= max(3, len(cells) // 2):
+            continue
+        v = clean(body[c[0]][c[1]])
+        ph = cell_phrase(v, terms, label=False)
+        if not ph or len(ph) < 5 or NUMONLY.match(ph):
+            continue
+        if any(inside(ph.lower(), x) or inside(x, ph.lower())
+               or prefixed(ph.lower(), x) or prefixed(x, ph.lower())
+               for x in kept):
+            continue
+        mk = re.sub(r'\b%s\b' % re.escape(ph), MARK, v, count=1)
+        if MARK not in mk or visible_in(ph, mk):
+            continue
+        keep.append((c[0], c[1], ph, mk))
+        kept.append(ph.lower())
     cells = keep
     # Two is the floor, the same as a paragraph's -- except on a grid so
     # small that one gap is all it has. Three refused a four-row answer
@@ -787,6 +873,19 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
     # Rounded up, not to nearest: a five-cell table at 42 per cent rounds
     # to two, which leaves a reader almost nothing to do.
     want = max(2, min(10, -(-len(cells) * 45 // 100)))
+    def _rendered(chosen):
+        """The grid as the reader meets it, for telling rows apart."""
+        where = dict(((c[0], c[1]), c) for c in chosen)
+        out = []
+        for i2, r in enumerate(body):
+            o = [clean(x) or ' ' for x in r]
+            for j2 in range(len(head)):
+                c = where.get((i2, j2))
+                if c is not None:
+                    o[j2] = c[3] if c[3] is not None else ''
+            out.append(tuple(o))
+        return out
+
     percol = collections.Counter(c[1] for c in cells)
     pick, byrow, bycol, taken = [], collections.Counter(), \
         collections.Counter(), set()
@@ -802,6 +901,17 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
             continue
         if c[2].lower() in taken:
             continue           # one slot per entry in the word list
+        # A gap must not make its row the twin of another. The
+        # cost-of-quality report gaps the item names, and two of its
+        # items cost 150,000 each, so both rows came out as
+        # "____ | 150,000", with two different names in the word list
+        # and nothing on the sheet to tell them apart. The candidate is
+        # passed over and the next one tried, rather than the gap being
+        # given back: dropping it shrank two of book 1's grids below
+        # what they need to be worth printing.
+        trial = _rendered(pick + [c])
+        if len(set(trial)) != len(trial):
+            continue
         pick.append(c)
         taken.add(c[2].lower())
         byrow[c[0]] += 1
@@ -812,6 +922,22 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
     if len(pick) < (1 if len(cells) <= 3 else 2):
         return None
     pick.sort(key=lambda c: (c[0], c[1]))
+
+    def _rendered(chosen):
+        """The grid as the reader meets it, for telling rows apart."""
+        where = dict(((c[0], c[1]), c) for c in chosen)
+        out = []
+        for i2, r in enumerate(body):
+            o = [clean(x) or ' ' for x in r]
+            for j2 in range(len(head)):
+                c = where.get((i2, j2))
+                if c is not None:
+                    o[j2] = c[3] if c[3] is not None else ''
+            out.append(tuple(o))
+        return out
+
+    if len(pick) < (1 if content <= 4 else 2):
+        return None
     at = dict(((c[0], c[1]), c) for c in pick)
     # The renderer treats an empty cell as a writing slot, so a cell the
     # chapter itself leaves empty — a journal's row number on the second
@@ -884,8 +1010,13 @@ SELFREF = re.compile(
 # students who do not read French, and the standing instruction for them
 # is that no French appears. So a French gloss in brackets is cut out of a
 # sentence, and a sentence whose subject IS the French word is dropped.
+# Both cases. The lowercase set alone let "Étalonnage" stand as a heading
+# on a sheet of book 2, because a French word at the start of a line is
+# capitalised and its accent with it.
 FRACC = re.compile(u'[\u00e0\u00e2\u00e4\u00e7\u00e8\u00e9\u00ea\u00eb'
-                   u'\u00ee\u00ef\u00f4\u00f6\u00f9\u00fb\u0153]')
+                   u'\u00ee\u00ef\u00f4\u00f6\u00f9\u00fb\u0153'
+                   u'\u00c0\u00c2\u00c4\u00c7\u00c8\u00c9\u00ca\u00cb'
+                   u'\u00ce\u00cf\u00d4\u00d6\u00d9\u00db\u0152]')
 FRWORD = re.compile(r'\b(?:French|en fran\w+|le|la|les|des|du|aux?)\s+'
                     r'[a-z\u00e0-\u00ff]', re.I)
 GLOSS = re.compile(u'\\s*[\\(\uff08][^()\uff08\uff09]{0,80}[\\)\uff09]')
@@ -909,9 +1040,7 @@ def deglossed(text):
     out = PARENS.sub(drop, text)
     # A trailing ", r\u00e9serves" or ", \u0627\u062d\u062a\u064a\u0627\u0637\u064a\u0627\u062a" in a list goes the same way.
     out = re.sub(u'\\s*,\\s*[^,.;]*[\u0600-\u06ff][^,.;]*', '', out)
-    out = re.sub(u'\\s*,\\s*[^,.;]*'
-                 u'[\u00e0\u00e2\u00e4\u00e7\u00e8\u00e9\u00ea\u00eb\u00ee\u00ef\u00f4\u00f6\u00f9\u00fb\u0153]'
-                 u'[^,.;]*', '', out)
+    out = re.sub(u'\\s*,\\s*[^,.;]*' + FRACC.pattern + u'[^,.;]*', '', out)
     # A gloss can also open the sentence: "Arabic \u0645\u062e\u0635\u0635 \u0627\u0644\u062a\u0642\u064a\u064a\u0645, the
     # valuation allowance, is a contra-asset." Dropping the opening leaves
     # "the valuation allowance, is", so the comma the gloss needed goes
@@ -1099,8 +1228,8 @@ def prose_figures(sec, tbls, terms, seed):
             blocks.append(dict(kind='prose', carry=[], _underhead=True,
                                _pos=place(lead[0]), **g) if g
                           else dict(kind='plain', text=' '.join(lead)))
-        blocks.append(dict(kind='form', form=form, title=title,
-                           data=got, seed=sk, sents=sorted(used)))
+        blocks.append(dict(kind='form', form=form, title=title, data=got,
+                           seed=sk, sents=[x for x in run if x in used]))
         out.append((place(run[0]), blocks, set(run)))
         taken.update(run)
         return True
@@ -1334,12 +1463,41 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
         if b.get('kind') != 'prose' or not b.get('carry'):
             continue
         sents = split_sentences(b['book']) + b['carry']
-        g = gap_block(sents, terms, seed + 999, [])
+        # With a pool, like every other block. Without one a re-gapped
+        # block of exactly two gaps could not find a wrong answer, so it
+        # failed and its carried sentences printed as plain text.
+        g = gap_block(sents, terms, seed + 999,
+                      shuffled([t for t in terms if 4 < len(t) < 28]
+                               + wordpool, seed + 999))
         if g:
             b.update(g)
         else:
             final.append(dict(kind='plain', text=' '.join(b['carry'])))
         b['carry'] = []
+    # A sentence too short to stand as its own block joins the block
+    # AFTER it where there is none before it. "Everything turns on the
+    # opportunity cost, and that depends on capacity" opened a sheet as
+    # eleven words with nothing to do on them, because the carry rule
+    # only ever looked backwards.
+    merged, i = [], 0
+    while i < len(final):
+        b = final[i]
+        nxt = final[i + 1] if i + 1 < len(final) else None
+        if b['kind'] == 'plain' and nxt is not None \
+                and nxt['kind'] == 'prose':
+            sents = split_sentences(b['text']) \
+                + split_sentences(nxt['book'])
+            g = gap_block(sents, terms, seed + 555,
+                          shuffled([t for t in terms if 4 < len(t) < 28]
+                                   + wordpool, seed + 555))
+            if g:
+                nxt.update(g)
+                nxt['_pos'] = b.get('_pos', nxt.get('_pos', 0))
+                i += 1
+                continue
+        merged.append(b)
+        i += 1
+    final = merged
     return [b for b in final if not (b['kind'] == 'divider'
                                      and b is final[-1])]
 
@@ -1442,7 +1600,27 @@ def number_and_draw(blocks, terms, seed):
                     harvest(v)
             fig = fn(title=b['title'], seed=b['seed'], first=n,
                      spares=own + shuffled(spares, b['seed']), **b['data'])
-            if fig is None:
+            if fig is None or not fig['answers']:
+                # A form that turns out to have nothing to fill in gives
+                # its sentences BACK. Dropping the block was dropping
+                # them: they had already been taken out of the prose, and
+                # three sentences of section 1.3 of book 2 left the sheet
+                # that way without any pass noticing, because every pass
+                # read what was on the sheet.
+                said = b.get('sents') or []
+                if said:
+                    g = gap_block(said, terms, b['seed'] + 5, spares)
+                    if g:
+                        # And it is numbered where it stands, like any
+                        # other block. Appending it unnumbered left the
+                        # sheet claiming a gap that the key could not
+                        # find.
+                        out.append(dict(kind='prose', carry=[], _first=n,
+                                        _underhead=True, _pos=0, **g))
+                        n += len(g['answers'])
+                    else:
+                        out.append(dict(kind='plain',
+                                        text=' '.join(said)))
                 continue
             fig['_sents'] = b.get('sents') or []
             fig['_cells'] = b.get('cells') or []
@@ -1552,9 +1730,40 @@ def build_section(d, si, bk=1, seed=None):
 
 
 def build_chapter(bk=1, n=1):
-    """Every section of the chapter, as one handout each."""
+    """Every section of the chapter, as one handout each.
+
+    A chapter is built section by section, and a section knows nothing
+    about its neighbours -- which is right for everything except what it
+    asks. Three charts in chapter 10 of book 2 drew different data and
+    asked for the same word, because the same departments recur and each
+    chart gaps one of them; two sheets of chapter 16 webbed the same four
+    chapter terms. The reader meets both, and writing "Beverages" on the
+    third sheet teaches nothing.
+
+    So the chapter watches what has been asked, and a section whose
+    figure repeats an earlier one is rebuilt on another seed. The data is
+    untouched; only which labels it gives up changes. Where no seed
+    separates them -- a figure with two labels, one of which must go --
+    the last build stands, because an exact repeat is still better than
+    no figure.
+    """
     d = PB.parse(n, bk)
-    return [build_section(d, si, bk) for si in range(len(d['sections']))]
+    out, asked = [], set()
+
+    def sig(H):
+        return set((b['form'], tuple(sorted(b['answers'])))
+                   for b in H['blocks'] if b['kind'] == 'fig')
+
+    for si in range(len(d['sections'])):
+        H = build_section(d, si, bk)
+        for bump in range(1, 7):
+            if not (sig(H) & asked):
+                break
+            H = build_section(d, si, bk,
+                              seed=(n * 977 + si * 31) + bump * 613)
+        asked |= sig(H)
+        out.append(H)
+    return out
 
 
 # ------------------------------------------------------------------- checks
