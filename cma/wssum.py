@@ -28,6 +28,7 @@ sys.path.insert(0, HERE)
 
 import parsebook as PB          # noqa: E402
 import wsgen as WG              # noqa: E402
+import wsvis as VIS             # noqa: E402
 
 clean = WG.clean
 shuffled = WG.shuffled
@@ -176,6 +177,12 @@ def tables_in(d, sec):
         if not sh:
             continue
         head, body = sh
+        # A table whose other columns are all empty is a worksheet the
+        # chapter left blank for the reader. It has no content to gap and
+        # no answers, so printing it teaches nothing.
+        if len(head) > 1 and not any(clean(c) for r in body
+                                     for c in r[1:]):
+            continue
         key = '|'.join(head) + '#' + '|'.join(r[0] for r in body)
         if key in seen:
             continue
@@ -585,13 +592,22 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
             continue
 
         if kind == 'table':
-            g = gap_table(v, seed + 100 + k)
             # The caption says what the table is for; the first column name
             # often does not. Without it the worked journal was headed "#".
             title = (caps.get(v[0]) or lasthead
                      or ' \u2014 '.join(_nobullet(x) for x in v[1][:2]))
             lasthead = ''        # a heading titles one thing, not two
             k += 1
+            # A table is drawn in the richest form its own shape allows.
+            # Nothing is drawn on a guess: where no form fits, it stays a
+            # grid, which is what every table was before.
+            forms = VIS.shapes(v[1], v[2])
+            if forms:
+                name, data = forms[0]
+                out.append(dict(kind='form', form=name, title=title,
+                                data=data, seed=seed + 100 + k))
+                continue
+            g = gap_table(v, seed + 100 + k)
             if g:
                 out.append(dict(kind='table', title=title, **g))
             else:
@@ -654,6 +670,88 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
                                    and b is out[-1])]
 
 
+def meanings(sec, terms, tbls=()):
+    """(term, what it means) pairs the section states, for the web.
+
+    wsgen has an extractor of its own, but it only matches a sentence that
+    opens on the bare term, so "A debit is an entry on the left side" is
+    missed because the sentence opens on "A debit". Across chapter 1 that
+    found meanings for section 1.1 and almost nothing else. This one looks
+    for each term of the section's own glossary in turn, allows the article
+    in front of it, and takes three shapes of definition:
+
+        A debit is an entry on the left side of an account.
+        Relevance means the information can make a difference.
+        Normal balance: the side on which an account increases.
+    """
+    out, seen = [], set()
+    for t in (tbls or []):
+        _i, head, body = t
+        if len(head) != 2:
+            continue
+        h1 = clean(head[1]).lower()
+        if not any(w in h1 for w in ('mean', 'what it', 'definition',
+                                     'explanation', 'in financial')):
+            continue
+        for r in body:
+            if len(r) > 1 and clean(r[0]) and clean(r[1]):
+                if clean(r[0]).lower() not in seen:
+                    seen.add(clean(r[0]).lower())
+                    out.append((clean(r[0]), clean(r[1])))
+    sents = [x for ln in sec['text'].split('\n') if is_prose(ln)
+             for x in split_sentences(clean(ln))]
+    for term in terms:
+        if term.lower() in seen or not 3 < len(term) < 40:
+            continue
+        pat = re.compile(
+            r'^(?:An?|The)?\s*%s\s*(?:\(.*?\))?\s*(?:is|means|are)\s+'
+            r'(?!also\b|not\b|the (?:two|three|four)\b)(.{12,110}?)[.;]'
+            % re.escape(term), re.I)
+        colon = re.compile(r'^%s\s*:\s+(.{12,110}?)[.;]'
+                           % re.escape(term), re.I)
+        for sent in sents:
+            m = pat.match(sent) or colon.match(sent)
+            if not m:
+                continue
+            dfn = clean(m.group(1))
+            if DANGLE.match(dfn) or len(dfn) < 12:
+                continue
+            seen.add(term.lower())
+            out.append((term, dfn))
+            break
+    return out
+
+
+def number_and_draw(blocks, terms, seed):
+    """Give every gap its number, and draw the figures with theirs in them.
+
+    A paragraph's gaps can be numbered when the sheet is laid out, because
+    the number is a run of text beside the slot. A figure's cannot: it is
+    an image, and its numbers have to be drawn inside it. So the numbering
+    happens here, in reading order, before anything is rendered — and the
+    renderer uses the numbers it is given rather than counting again.
+    """
+    spares = [t for t in terms if 4 < len(t) < 34]
+    n = 1
+    out = []
+    for b in blocks:
+        if b['kind'] == 'form':
+            fn = VIS.BUILD[b['form']]
+            fig = fn(title=b['title'], seed=b['seed'], first=n,
+                     spares=shuffled(spares, b['seed']), **b['data'])
+            if not fig['answers']:
+                continue           # nothing to fill in is not an exercise
+            fig['_first'] = n
+            n += len(fig['answers'])
+            out.append(fig)
+            continue
+        if b['kind'] in ('prose', 'table'):
+            b['_first'] = n
+            n += len(b['answers'])
+        out.append(b)
+    return out
+
+
 def build_section(d, si, bk=1, seed=None):
     """One handout: a section of the chapter, as gapped summaries."""
     sec = d['sections'][si]
@@ -674,10 +772,46 @@ def build_section(d, si, bk=1, seed=None):
         uniq.append(t)
     blocks = blocks_for(sec, tbls, uniq, seed, caption_for(d, sec),
                         [clean(e) for e, _a in local])
+    # The section's own glossary, as a web around its subject. This is the
+    # one diagram that does not depend on a table having the right shape,
+    # and it covers 45 of the book's 94 sections; the rest share a
+    # chapter-level glossary and get none.
+    defs = meanings(sec, [clean(e) for e, _a in local], tbls)
+    bydef = dict((t.lower(), dd) for t, dd in defs)
+    pairs = [(e, bydef.get(clean(e).lower(), ''))
+             for e, _a in local if bydef.get(clean(e).lower())]
+    # Where the section states what its words mean, the web pairs each term
+    # with its meaning. Where it does not — and half the sections of the
+    # book do not — it pairs each term with its Arabic, which is the
+    # section's own glossary and is the thing these readers most need: the
+    # idea they have in Arabic against the English the exam will use.
+    kind = 'meaning'
+    if len(pairs) < 4 and len(local) >= 4:
+        pairs = [(clean(e), clean(a)) for e, a in local]
+        kind = 'arabic'
+    if len(pairs) >= 4:
+        blocks.append(dict(
+            kind='form', form='web',
+            title=('The words this section uses' if kind == 'meaning'
+                   else 'The English this section uses, and its Arabic'),
+            data=dict(subject=clean(sec['title']), pairs=pairs[:6]),
+            seed=seed + 55))
+    # The chapter's own section order is a sequence, so the first sheet of
+    # every chapter opens on a flow of the chapter itself. It is the one
+    # diagram guaranteed everywhere.
+    if si == 0:
+        # The title is what is gapped and the number is what anchors it.
+        # The other way round a reader fills the gaps by counting, which
+        # tests nothing about the chapter.
+        steps = [(clean(x['title'])[:46], 'section %s' % clean(x['no']))
+                 for x in d['sections']]
+        blocks.insert(0, dict(kind='form', form='flow',
+                              title='Chapter %d, section by section' % n,
+                              data=dict(steps=steps), seed=seed + 66))
+    blocks = number_and_draw(blocks, uniq, seed)
     nsent = sum(len(split_sentences(b.get('book') or b.get('text') or ''))
                 for b in blocks if b['kind'] in ('prose', 'plain'))
-    ngaps = sum(len(b['answers']) for b in blocks
-                if b['kind'] in ('prose', 'table'))
+    ngaps = sum(len(b.get('answers') or []) for b in blocks)
     return dict(id='%d.%d' % (n, si + 1), n=si + 1, pages=0,
                 sec=no, title=clean(sec['title']),
                 sub='Chapter %d \u00b7 section %s' % (n, no),
@@ -729,7 +863,33 @@ def check(hs, bk=1, n=1):
         if miss:
             bad.append('%s: %d sentences of section %s are on no block: %.60r'
                        % (hid, len(miss), H['sec'], miss[0]))
+        forms = collections.Counter(b.get('form') or b['kind']
+                                    for b in H['blocks'])
+        # A sheet of four or more exercises that uses only one form is
+        # reported: the whole point of the forms is that a reader meets
+        # more than one way of being asked.
+        exer = sum(v for k, v in forms.items()
+                   if k not in ('divider', 'plain', 'ref'))
+        if exer >= 4 and len([k for k, v in forms.items()
+                              if k not in ('divider', 'plain', 'ref')]) < 2:
+            bad.append('%s: %d exercises, all of one form' % (hid, exer))
         for b in H['blocks']:
+            if b['kind'] == 'fig':
+                ans, bank = b['answers'], b['bank']
+                if not ans:
+                    bad.append('%s: a figure with nothing to fill in' % hid)
+                if len(bank) <= len(ans):
+                    bad.append('%s: a figure list has %d for %d gaps'
+                               % (hid, len(bank), len(ans)))
+                if len({x.lower() for x in bank}) != len(bank):
+                    bad.append('%s: a figure list repeats an entry' % hid)
+                for a in ans:
+                    if a not in bank:
+                        bad.append('%s: figure answer %r not in its list'
+                                   % (hid, a))
+                if not b.get('png') or not b.get('h'):
+                    bad.append('%s: a figure did not render' % hid)
+                continue
             if b['kind'] not in ('prose', 'table'):
                 continue
             ans, bank = b['answers'], b['bank']

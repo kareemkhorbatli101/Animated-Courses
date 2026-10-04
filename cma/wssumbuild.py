@@ -70,6 +70,15 @@ class Doc(wsdoc.WDoc):
             100.0, CREAM, 70)])], [100.0], CREAM, 4))
         self.blank()
 
+    def figblock(self, fig):
+        """A figure with its gaps already numbered inside it."""
+        self.body.append(para(
+            [run(fig['title'], b=True, color=INDIGO, sz=18)],
+            '<w:spacing w:before="44" w:after="10"/>'))
+        if fig.get('note'):
+            self.body.append(wsdoc._p(fig['note'], 15, False, GREY, 0, 12))
+        self.figure(fig['png'], fig['w'], fig['h'])
+
     def plainsum(self, text, sz=19):
         self.body.append(para([run(text, sz=sz)],
                               '<w:spacing w:before="20" w:after="20" '
@@ -144,7 +153,7 @@ def render_sheet(d, H, pre=0):
     d.body.append(wsdoc._p(
         'Fill every gap. Each word list holds one word more than there are '
         'gaps.', 17, False, GREY, 10, 40))
-    spans, n, nsum = [], 1, 0
+    spans, nsum = [], 0
     for b in H['blocks']:
         a = len(d.body)
         if b['kind'] == 'divider':
@@ -152,21 +161,21 @@ def render_sheet(d, H, pre=0):
         elif b['kind'] == 'prose':
             nsum += 1
             d.sumhead(nsum, 'gaps %d–%d'
-                      % (n, n + len(b['answers']) - 1))
-            d.gapped(b['parts'], n)
+                      % (b['_first'], b['_first'] + len(b['answers']) - 1))
+            d.gapped(b['parts'], b['_first'])
             d.wordlist(b['bank'])
-            b['_first'], b['_sum'] = n, nsum
-            n += len(b['answers'])
+            b['_sum'] = nsum
         elif b['kind'] == 'plain':
             # Too short to take three gaps out of without wrecking it. It is
             # still part of the summary, so it goes on as a line of text
             # rather than as a numbered block with nothing to fill in.
             d.plainsum(b['text'])
         elif b['kind'] == 'table':
-            d.gaptable(b['title'], b['head'], b['rows'], n)
+            d.gaptable(b['title'], b['head'], b['rows'], b['_first'])
             d.wordlist(b['bank'])
-            b['_first'] = n
-            n += len(b['answers'])
+        elif b['kind'] == 'fig':
+            d.figblock(b)
+            d.wordlist(b['bank'])
         else:
             d.reftable(b['title'], b['head'], b['rows'])
         spans.append((a, len(d.body)))
@@ -178,7 +187,7 @@ def render_sheet(d, H, pre=0):
         spans.append((a, len(d.body)))
     before = sum(h(x) for x in d.body[pre:start])
     pages = 1 + wsbuild.paginate(d, [('x',)] * len(spans), spans, before)
-    H['gapcount'] = n - 1
+    H['gapcount'] = sum(len(b.get('answers') or []) for b in H['blocks'])
     return pages
 
 
@@ -186,7 +195,7 @@ def render_key(d, H):
     d.keyhead('Answer key · %s  %s' % (H['sec'], H['title']))
     pairs = []
     for b in H['blocks']:
-        if b['kind'] in ('prose', 'table') and '_first' in b:
+        if '_first' in b and b.get('answers'):
             for i, a in enumerate(b['answers']):
                 pairs.append((b['_first'] + i, a))
     d.keylist(sorted(pairs))
