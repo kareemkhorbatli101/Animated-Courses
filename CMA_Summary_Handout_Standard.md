@@ -58,11 +58,102 @@ what is worth recalling and the amounts are the clue. A cell too long to
 copy off a word list keeps its text and gives up one phrase inside it. A
 whole column is never emptied. A value several rows share stays a
 candidate — that is what a classification table teaches — but only one of
-its occurrences is ever gapped.
+its occurrences is ever gapped. A column heading that *asks* —
+"Controllable by the plant manager?" — does not count as printing the
+answer: it names the axis, and "Controllable" and "Not controllable" are
+two different answers on it.
 
 **A figure gives up about half its labels, never all.** A card too long to
 blank whole keeps its label and gives up a word inside it; a card that
 keeps its label gives up a word of its description.
+
+### No answer is printed anywhere else on its sheet
+
+This is the rule the whole sheet is judged by, not the block. Applied
+block by block it let a word be gapped in a paragraph and printed in the
+grid under it, and **1,874 of the books' 8,020 gaps — 23 per cent — could
+be filled by looking down the page instead of thinking.** It is now 3.5
+per cent, and what is left is a term appearing in some unrelated sentence
+rather than its own definition sitting beside its slot.
+
+It is enforced in four places and in one direction each, because the two
+halves of a duplication are not worth the same:
+
+| | gives way to | because |
+|---|---|---|
+| a paragraph's gap | the other paragraphs and the printed grids | the sheet's text is one text |
+| a grid's gap | the paragraphs, then the other grids | a grid has twenty cells to choose between and a paragraph has to be printed whole |
+| a figure's gap | the printed grids | a figure has four or five labels; the paragraph is the one that should give way, and it does, above |
+| a figure's gap | what an earlier sheet asked **in the same form** | a chapter map gapping "Operating lease" and a web gapping it are not the same question |
+
+Two of those give way again when holding to them would cost more than it
+buys. A grid that can find nothing under the sheet-wide rule is gapped
+against its own row instead, because a grid printed whole with its
+answers in it is the worse failure. A block the rule takes below two gaps
+— the floor at which it would be dropped from the sheet — is gapped
+without it. The figure's rule never gives way: a figure that finds
+nothing falls back to its grid.
+
+**A translation is exempt.** A web of English against Arabic asks for the
+mapping, and the mapping is the one thing no paragraph and no grid on the
+sheet carries; the glossary table that *would* carry it is never printed.
+Judged like any other figure it cost twenty-two webs, because the
+chapter's journals print "actual costing" as a column heading — which
+narrows the choice and does not supply the answer.
+
+**Where a section has its own glossary the web is clued by the Arabic,
+not by a meaning the section states in words.** Both are its vocabulary,
+but the prose keeps the definition it states — it is the section's
+summary and has to — so a web clued by that same definition asks the
+reader to copy the word out of the paragraph above it. Taking the
+definitions *out* of the prose was tried and reverted: a section's
+definitions are scattered down its paragraphs with their examples between
+them, so removing them left "Three of them describe the balance sheet at
+one date. Examples: cash, accounts receivable. Examples: accounts
+payable. It is the owners' claim."
+
+### A figure replaces its table, so it has to carry it
+
+The grid is not printed under a figure drawn from it — printed both ways,
+the figure's answers would sit in the grid beside it. So a form that
+draws half a table takes the other half off the sheet, and **119 figures
+across the four books did**: a nine-line journal drawn as three bars of
+its debit column, with the accounts and the credits gone; a seven-column
+lease schedule drawn as a flow of years against opening liability.
+
+- **A form may leave at most one of the table's columns undrawn.** A
+  column mostly drawn is a column the figure carries; a column not drawn
+  at all is the chapter's own data taken off the sheet. Held instead to
+  every cell, the rule refused the good partial figures with the bad
+  whole ones and left books 2, 3 and 4 with two forms each.
+- **A tree carries the row's other columns on its card**, and the rows
+  the chapter leaves out of the classification — a worked example's own
+  answer line — in a band under it.
+- **A chart carries them under the bar's label**, and is refused outright
+  for a journal (account lines written under a blank first cell) or a
+  reconciliation (amounts it subtracts), neither of which bars can draw.
+- Where the cards make a figure taller than a page it is drawn again
+  without them, and if it is still too tall the form is given up and the
+  table stays a grid, where every cell is printed or gapped.
+
+### A worksheet and its key are one grid
+
+Every chapter of these books ends on a worksheet with cells left as
+underscores, and, in its answer pages, the key to it: `Item | Answer`.
+Printed as they stand the two did real damage. Where the chapter's index
+puts both on one section — every chapter of book 4 — the sheet asked the
+question and printed the answer under it, and fifteen classification
+trees drew a root reading `________`. Where it puts them on different
+sections — books 1 to 3 — the key landed on a sheet with no question on
+it at all.
+
+So they are merged, across the chapter rather than within a section. The
+blank takes the part of the answer that belongs to the column the chapter
+left blank — the label before the dash, or, where the key says "Why:",
+the clause after it — and the Why column takes the key's own fuller
+wording. The key then comes off the sheet, because the handout carries a
+key of its own. Nothing is guessed: the two are paired only where the
+key answers *every* blank row, matching on the row's own first cell.
 
 ## 3. The forms, and what the text must say for each
 
@@ -79,7 +170,7 @@ fits, the content stays a gapped grid or a paragraph.
 | **contrast** | a two- or three-column comparison, one side per row gapped |
 | **sides** | sentences naming one framework and not the other; or two sets the title joins with "and" and a pivot sentence divides |
 | **bridge** | a stated computation whose parts reconcile to its total; or a COLUMN of a table whose entries sum to its own last row, within half a percent. The arithmetic is the detector: where it does not add up, it was not a build-up and nothing is drawn |
-| **panel** | a count the chapter states ("in one of three ways") *and* that many sentences opening the same way; or three or more consecutive "If X, Y" tests |
+| **panel** | a count the chapter states ("in one of three ways") *and* that many sentences opening the same way; or three or more consecutive "If X, Y" tests; or a two-column table of cases against the one category each falls under, each named once, the label column the shorter of the two |
 | **branch** | "If X, it does A." answered by the very next sentence, opening "Otherwise" |
 
 A figure drawn from prose takes a **span** — the unbroken run from its
@@ -160,15 +251,40 @@ other book is almost always a convention, not a defect in the sheets.
 | | book 1 | book 2 | book 3 | book 4 |
 |---|---|---|---|---|
 | sheets | 94 | 116 | 106 | 108 |
-| gaps | 2,410 | 1,928 | 1,612 | 2,070 |
-| gaps per sheet | 25.6 | 16.6 | 15.2 | 19.2 |
-| figures per sheet | 1.83 | 1.35 | 1.36 | 1.05 |
-| sheets with no figure | 3 (3%) | 22 (19%) | 19 (18%) | 30 (28%) |
+| gaps | 2,273 | 1,801 | 1,547 | 1,868 |
+| gaps per sheet | 24.2 | 15.5 | 14.6 | 17.3 |
+| figures per sheet | 1.71 | 1.27 | 1.30 | 0.94 |
+| sheets with no figure | 6 (6%) | 23 (20%) | 22 (21%) | 33 (31%) |
 | …of those, with no grid either | 1 | 5 | 1 | 16 |
-| forms used | 10 | 6 | 6 | 4 |
-| findings | **0** | **0** | **0** | **0** |
+| forms used | 10 | 7 | 7 | 5 |
+| findings | 1 | **0** | **0** | **0** |
 
-**424 handouts, 8,020 gaps, 0 findings across four books.**
+**424 handouts, 7,489 gaps, 1 finding across four books**, and of those
+gaps **269 — 3.5 per cent — have their answer printed somewhere else on
+their own sheet**, against 1,874 of 8,020 (23 per cent) before the
+sheet-wide rules above.
+
+The one finding is book 1's treasury-stock journal (4.2) printing
+whole. Its
+Account column names "Cash" on three of its nine lines and "Treasury
+stock" on three more, and one slot per entry in the word list leaves it
+one gap, below the floor. Two slots sharing a word is what the exam's own
+drag-and-drop does, but the word list is a list and the key is a list,
+and a reader who meets "Cash" once against two slots cannot tell which it
+answers. That is a change to the bank and the key, not to the gapping,
+and it has not been made.
+
+**The totals moved down and the sheets got better.** 531 fewer gaps and
+seven more sheets without a figure, against 1,605 fewer gaps a reader
+could fill by copying and three more forms in use. What went was mostly
+not work: 15 of book 4's trees were rooted on a cell reading `________`
+and asked which case belonged under a blank label; 22 webs asked for a
+word the grid beneath them printed; 119 figures were drawing part of a
+table and taking the rest of it off the sheet.
+
+Also fixed in the same pass: **50 figures across the four books were
+losing the ends of their titles**, drawn as one line on a canvas that
+holds about sixty characters at 20pt. Titles now wrap.
 
 ### Book 4, and what it took
 

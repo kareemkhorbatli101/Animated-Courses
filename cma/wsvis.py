@@ -52,6 +52,13 @@ PAL = [(A.INDIGO, A.INDIGO_L), (A.AMBER, A.AMBER_L),
        (A.TEAL, A.TEAL_L), (A.RED, A.RED_L)]
 
 NUM = re.compile(r'^\(?-?[\d,]+(?:\.\d+)?\)?%?$')
+# A cell the chapter left for the reader to fill in.
+BLANK = re.compile(u'^[_\u2014\u2013. \u00b7]{2,}$')
+# As tall as a sheet's figure may be, the same limit the reading pass
+# holds them to.
+PAGE_H = 1180
+# A cell the chapter writes as a dash to mean "none here".
+DASHONLY = re.compile(u'^[\u2014\u2013_. -]+$')
 # A totals line is the sum of the rows above it, not another row. On a
 # scale it is not a point at all: an ageing schedule runs current, 1-30,
 # 31-60, over 90 — and then "Total", which sits nowhere on that scale.
@@ -168,7 +175,18 @@ def _is_index(head_j, vals):
 
 
 def as_chart(head, body):
-    """Magnitudes to compare: one numeric column against named rows."""
+    """Magnitudes to compare: one numeric column against named rows.
+
+    Not a journal and not a reconciliation. A journal writes its account
+    lines under a blank first cell, and a reconciliation writes
+    subtractions as negative amounts; bars can draw neither, so drawn as
+    a chart the treasury-stock journal kept three debits and lost six
+    account lines and every credit, and the tax reconciliation lost
+    every line it subtracts. Both are tables the sheet should print as
+    grids, where every figure of them is there to be read.
+    """
+    if any(not clean(r[0]) for r in body):
+        return None
     for j in range(1, len(head)):
         if not _numcol(body, j):
             continue
@@ -184,6 +202,8 @@ def as_chart(head, body):
             continue
         rows = [(clean(r[0]), _num(r[j])) for r in body
                 if clean(r[0]) and _num(r[j]) is not None]
+        if any(v is not None and v <= 0 for v in allv):
+            continue
         rows = [(a, v) for a, v in rows
                 if v > 0 and len(a) <= 34 and not TOTALROW.match(a)]
         if not 3 <= len(rows) <= 10:
@@ -194,8 +214,39 @@ def as_chart(head, body):
         # picture stops carrying the comparison it exists to carry.
         if top / max(1.0, bot) > 60:
             continue
-        return dict(col=clean(head[j]), rows=rows)
+        # What the row's other columns say, carried under its label.
+        # A journal of nine lines drawn as three bars of its debit
+        # column had the accounts and the credits nowhere on the sheet,
+        # because the grid is not printed under the figure.
+        keep = set(a for a, _v in rows)
+        notes = {}
+        for r in body:
+            nm = clean(r[0])
+            if nm not in keep:
+                continue
+            bits = []
+            for j2 in range(1, len(head)):
+                v2 = clean(r[j2]) if j2 < len(r) else ''
+                if j2 == j or not v2 or DASHONLY.match(v2):
+                    continue
+                hd = clean(head[j2])
+                bits.append(('%s: %s' % (hd, v2)) if hd else v2)
+            if bits:
+                notes[nm] = u' \u00b7 '.join(bits)
+        return dict(col=clean(head[j]), rows=rows, notes=notes)
     return None
+
+
+def _prefix(a, b):
+    """Does `b` begin with `a` and then go on to qualify it?
+
+    On a word boundary and then a separator, so "Current asset" is not a
+    prefix of "Current assets of the division" by accident of spelling.
+    """
+    a, b = clean(a).lower(), clean(b).lower()
+    if not a or a == b or not b.startswith(a):
+        return False
+    return bool(re.match(r'^[\s:,;(\u2014\u2013-]', b[len(a):]))
 
 
 def as_tree(head, body):
@@ -203,6 +254,15 @@ def as_tree(head, body):
     best = None
     for j in range(1, len(head)):
         vals = [clean(r[j]) for r in body]
+        # "Not controllable" and "Not controllable by the plant manager
+        # (set by purchasing and the market)" are one category written
+        # two ways, and the chapter writes it both ways in one column.
+        # Read as two, a worksheet of seven rows had four categories with
+        # one member each, so it was not a classification, and the sheet
+        # printed it whole with its answers in it.
+        short = sorted((x for x in set(vals) if x), key=len)
+        vals = [next((y for y in short if y == x or _prefix(y, x)), x)
+                for x in vals]
         uniq = [x for x in dict.fromkeys(vals) if x]
         # Five groups is still a classification — the five element types
         # are exactly that, and capping at four threw the table away.
@@ -210,9 +270,72 @@ def as_tree(head, body):
             continue
         if any(len(x) > 30 for x in uniq):
             continue
-        members = [(v, [clean(r[0]) for r in body if clean(r[j]) == v
-                        and clean(r[0])]) for v in uniq]
+        # What the row's OTHER columns say, carried onto the member's
+        # card. A tree used to draw the row's name and the column it
+        # grouped by and nothing else, so thirty-nine tables of three
+        # columns and more lost everything else they held -- the olive
+        # overhead table lost "Fixed per year 420,000" from every row of
+        # it -- and the grid they came from is not printed, because the
+        # tree is drawn instead.
+        detail = []
+        for i2 in range(len(body)):
+            bits = []
+            for j2 in range(1, len(head)):
+                v2 = clean(body[i2][j2]) if j2 < len(body[i2]) else ''
+                if j2 == j or not v2 or DASHONLY.match(v2):
+                    continue
+                hd = clean(head[j2])
+                # "What happens: Cash is paid before the expense is
+                # incurred", not "What happens Cash is paid": the
+                # column heading names what follows it, and run
+                # together the two read as one broken sentence.
+                bits.append(('%s: %s' % (hd, v2)) if hd else v2)
+            # Not cut: a card that reads "Orontes example Hotel pays in
+            # adva" has lost the end of a sentence the chapter wrote,
+            # and the grid it came from is not printed. Where the cards
+            # make the figure taller than a page, treefig draws it again
+            # with no cards at all rather than with half-sentences on
+            # them.
+            # And, where the row's own category was collapsed into a
+            # shorter one, the way the chapter wrote it: the tree's
+            # group reads "Fixed" and this row said "Fixed (budgeted)".
+            mine = clean(body[i2][j]) if j < len(body[i2]) else ''
+            if mine and vals[i2] and mine != vals[i2]:
+                bits.insert(0, mine)
+            detail.append(u' \u00b7 '.join(bits))
+        # By the collapsed value and by position, not by comparing the
+        # cell again: the rows written the long way round would have
+        # matched no group at all, and two of the seven rows of the
+        # controllability worksheet went missing from the drawing.
+        members = [(v, [clean(body[i][0]) for i in range(len(body))
+                        if vals[i] == v and clean(body[i][0])])
+                   for v in uniq]
+        # Carried in a DICT, not inside the groups. Everything a figure's
+        # data holds in a list is harvested as a wrong answer for its
+        # word list, so details nested in the groups put "Total equity No
+        # change" into three word lists as a thing a reader might write.
+        notes = dict((clean(body[i][0]), detail[i])
+                     for i in range(len(body))
+                     if clean(body[i][0]) and detail[i])
+        # A row the chapter leaves out of the classification -- the
+        # worked example's own answer, "Oils overhead cost function |
+        # (blank) | 2,100,569 | $20" -- belongs under the tree rather
+        # than in it. It was in no group, so it was drawn nowhere, and
+        # the grid that held it is not printed either.
+        foot = [(clean(body[i][0])
+                 + ((u' \u00b7 ' + detail[i]) if detail[i] else ''))
+                for i in range(len(body))
+                if clean(body[i][0]) and not vals[i]]
         if any(len(m) < 1 for _v, m in members):
+            continue
+        # Every named row lands in exactly one group, or this is not a
+        # classification of this table. The note under the drawing says
+        # "Every item belongs to exactly one group", and for one
+        # worksheet it was not true: two rows matched no group and were
+        # simply not drawn, and the grid they came from was not printed
+        # either, so the sheet lost them.
+        if sum(len(m) for _v, m in members) != sum(
+                1 for i, r in enumerate(body) if vals[i] and clean(r[0])):
             continue
         # Most groups have to hold more than one thing. A column of dates
         # has a "group" per date holding one row each, which is an index
@@ -227,8 +350,49 @@ def as_tree(head, body):
             continue
         score = sum(len(m) for _v, m in members)
         if best is None or score > best[0]:
-            best = (score, dict(root=clean(head[j]), groups=members))
+            best = (score, dict(root=clean(head[j]), groups=members,
+                                notes=notes, foot=foot))
     return best[1] if best else None
+
+
+def as_cases(head, body):
+    """Cases against the category each one falls under, one per row.
+
+    Not a classification -- that is a tree, and a tree needs a group to
+    hold more than one thing. This is the matching exercise the chapters
+    set directly: "Fadi's access | Category", four duties against the
+    four kinds of duty, each named once. Drawn as a panel, the category
+    is the slot and the case is the clue, which is the way round the
+    reader can reason: given "releasing a payment run" a reader can
+    reach "custody", and given "custody" there is nothing to work from.
+
+    The label column has to be the SHORT one, or a glossary of term
+    against meaning would read as a case against its category. Across
+    four books this fires eleven times and every one of them is the
+    chapter asking the reader to classify something.
+    """
+    if len(head) != 2 or not 3 <= len(body) <= 6:
+        return None
+    a = [clean(r[0]) for r in body]
+    b = [clean(r[1]) for r in body]
+    if any(not x for x in a + b):
+        return None
+    if any(NUM.match(x) or BLANK.match(x) for x in a + b):
+        return None
+    if not all(12 <= len(x) <= 76 for x in a):
+        return None
+    if not all(4 <= len(x) <= 34 for x in b):
+        return None
+    # Named once each, on both sides: a repeated category is a tree, and
+    # a repeated case is a table of something else.
+    if len(set(x.lower() for x in b)) != len(b):
+        return None
+    if len(set(x.lower() for x in a)) != len(a):
+        return None
+    if sum(len(x) for x in a) < 1.6 * sum(len(x) for x in b):
+        return None
+    return dict(head=clean(head[0]) + u' \u2014 ' + clean(head[1]),
+                items=list(zip(a, b)), gap='body')
 
 
 def as_flow(head, body):
@@ -670,7 +834,7 @@ def as_halves(sents, title=''):
                 lrows=left[:4], rrows=right[:4])
 
 
-def branchfig(title, cond, yes, no, seed, first, terms=(), spares=()):
+def branchfig(title, cond, yes, no, seed, first, terms=(), spares=(), avoid=()):
     """A two-way test: the condition, and what follows either way.
 
     One outcome goes whole and the other loses one decisive phrase. Taking
@@ -683,7 +847,7 @@ def branchfig(title, cond, yes, no, seed, first, terms=(), spares=()):
             ('No', no, A.AMBER, A.AMBER_L)]
     part = outs[1 - whole][1]
     answers = [clean(outs[whole][1])]
-    hits = _inner(part, answers, terms, _howmany(part))
+    hits = _inner(part, answers, terms, _howmany(part), avoid)
     # A long condition gives up one word too. The rule is that the
     # condition is never BLANKED -- a reader who cannot see what is being
     # tested has nothing to reason from -- and a ninety-character
@@ -691,10 +855,10 @@ def branchfig(title, cond, yes, no, seed, first, terms=(), spares=()):
     # A lower bar than a card's, because a condition is never blanked
     # whole and so never loses its shape: seventy characters is already a
     # clause a reader can read around one hole.
-    chits = (_inner(cond, answers + hits, terms, 1)
+    chits = (_inner(cond, answers + hits, terms, 1, avoid)
              if len(clean(cond)) > 70 else [])
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 22
+    y = _title(c, title) + 22
     CW = W - 96
     ctext, k = _sub(cond, chits, first)
     hh = A.wrapped_h(ctext, CW - 28, 15, bold=True) + 26
@@ -844,7 +1008,7 @@ def as_rules(sents):
                 items=best, gap='body')
 
 
-def panelfig(title, head, items, seed, first, gap='name', spares=()):
+def panelfig(title, head, items, seed, first, gap='name', spares=(), avoid=()):
     """A counted set: the claim, then its members, each a row of its own.
 
     No arrows. A panel is a set, not a sequence, and an arrow between its
@@ -858,7 +1022,7 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
     the other way round there is nothing to reason from.
     """
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 20
+    y = _title(c, title) + 20
     CW = W - 48
     if head:
         hh = A.wrapped_h(head, CW - 28, 15, bold=True) + 24
@@ -867,7 +1031,8 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
                   True)
         y += hh + 12
     gaps = _pick(items, seed, nomax=max(1, len(items) - 1),
-                 labels=[(b if gap == 'body' else a) for a, b in items])
+                 labels=[(b if gap == 'body' else a) for a, b in items],
+                 avoid=avoid)
     NW = 250.0
     DW = CW - NW - 32
     answers, k = [], first
@@ -887,7 +1052,7 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
             keep, where = nm, 'name'
         hits = _inner(keep, [a for a, _b in items]
                       + [x for sub2 in extra for x in sub2], spares,
-                      _howmany(keep)) if len(keep) > 28 else []
+                      _howmany(keep), avoid) if len(keep) > 28 else []
         extra.append(hits)
         inname.append(where == 'name')
     for i, (nm, sub) in enumerate(items):
@@ -1000,7 +1165,66 @@ def as_bridge_table(head, body):
 
 DETECT = [('graph', as_graph), ('bridge', as_bridge_table),
           ('flow', as_flow), ('contrast', as_contrast),
-          ('chart', as_chart), ('tree', as_tree)]
+          ('chart', as_chart), ('tree', as_tree),
+          # Last: a classification whose groups repeat is a tree, and a
+          # table that is a series or a set of magnitudes is better drawn
+          # as one. This is what is left -- a row per case, each with the
+          # one category it falls under.
+          ('panel', as_cases)]
+
+
+def _flat(v, out, depth=0):
+    if depth > 6:
+        return
+    if isinstance(v, dict):
+        for x in v.values():
+            _flat(x, out, depth + 1)
+    elif isinstance(v, (list, tuple)):
+        for x in v:
+            _flat(x, out, depth + 1)
+    else:
+        out.append(str(v))
+
+
+def _letters(s):
+    return re.sub(r'[^0-9a-z]', '', str(s).lower())
+
+
+def carries(data, head, body):
+    """Does this form carry every COLUMN the table has?
+
+    A figure REPLACES its table: the grid is not printed under it, because
+    printed both ways the figure's answers would sit in the grid beside
+    it. So a form that draws half the table takes the other half off the
+    sheet, and across the four books a hundred and nineteen figures did.
+    Three of the worst: a nine-line journal drawn as three bars of its
+    debit column, with the accounts and the credits gone; a seven-column
+    lease schedule drawn as a flow of years against opening liability,
+    with five columns gone; the same schedule drawn as a graph of the
+    payment, which is the one column that does not move.
+
+    A column, not a cell. Holding a form to every cell refused the good
+    partial figures with the bad whole ones -- an ageing schedule that
+    draws all four of its columns and leaves out the total line is a
+    true picture of the table, and the strict rule left books 2, 3 and 4
+    with two forms each. A column mostly drawn is a column the figure
+    carries; a column not drawn at all is the chapter's own data taken
+    off the sheet.
+    """
+    flat = []
+    _flat(data, flat)
+    blob = _letters(' '.join(flat))
+    lost = 0
+    for j in range(len(head)):
+        vals = [clean(r[j]) for r in body
+                if j < len(r) and clean(r[j])
+                and not BLANK.match(clean(r[j])) and len(clean(r[j])) > 3]
+        if not vals:
+            continue
+        got = sum(1 for v in vals if _letters(v)[:26] in blob)
+        if got * 2 < len(vals):
+            lost += 1
+    return lost <= 1
 
 
 def shapes(head, body):
@@ -1013,7 +1237,7 @@ def shapes(head, body):
     out = []
     for name, fn in DETECT:
         got = fn(head, body)
-        if got:
+        if got and carries(got, head, body):
             out.append((name, got))
     return out
 
@@ -1036,7 +1260,7 @@ WHOLE = 58
 
 
 def _pick(items, seed, share=SHARE, nomax=None, noadjacent=False,
-          labels=None):
+          labels=None, avoid=()):
     """Which of these labels to take out.
 
     Never all of them: what is left is how a reader works out what is
@@ -1063,8 +1287,26 @@ def _pick(items, seed, share=SHARE, nomax=None, noadjacent=False,
             continue
         if labels and len(clean(labels[i])) > WHOLE:
             continue
+        # And never a label the sheet already prints in plain text. The
+        # word web sits above the section's own grid, and the grid names
+        # the same terms: a third of every figure's answers could be
+        # copied off the page rather than recalled.
+        if labels and _onpage(labels[i], avoid):
+            continue
         out.append(i)
     return sorted(out)
+
+
+def _title(c, title):
+    """The figure's title across the top of it, wrapped.
+
+    Drawn as one line it ran off both edges: "An example of a December
+    sale collected in January: accrual basis versus cash basis" is
+    ninety characters, and this canvas holds about sixty at 20pt. Fifty
+    of the books' five hundred and sixty-eight figures were losing the
+    ends of their titles that way.
+    """
+    return c.wrapped(W / 2.0, 30, title, W - 56, 20, A.INDIGO, True)
 
 
 def _slotnum(c, x, y, w, h, n):
@@ -1076,6 +1318,19 @@ def _slotnum(c, x, y, w, h, n):
     c.slot(x, y, w, h)
     c.text(x + w / 2.0, y + h / 2.0 + 5, '(%d)' % n, 15, A.GREY_L, True)
     return h
+
+
+def _onpage(label, avoid):
+    """Is this label already printed, in words, somewhere on the sheet?
+
+    A whole phrase, on word boundaries: "control risk" is given away by a
+    grid that prints "control risk", not by one that prints "risk".
+    """
+    label = clean(label or '')
+    if not avoid or len(label) < 4:
+        return False
+    return bool(re.search(r'(?<![\w-])%s(?![\w-])' % re.escape(label.lower()),
+                          avoid))
 
 
 def _clash(a, b):
@@ -1092,7 +1347,7 @@ def _clash(a, b):
 LONG_CARD = 104
 
 
-def _inner(text, answers, terms=(), limit=1):
+def _inner(text, answers, terms=(), limit=1, avoid=()):
     """The decisive words inside a card, in the order they are written.
 
     A figure used to give up only its labels, and a flow of four stages
@@ -1129,6 +1384,8 @@ def _inner(text, answers, terms=(), limit=1):
         if any(a < y + 18 and x - 18 < b for x, y, _w in out):
             continue
         if any(_clash(w, z) for z in list(answers) + [x[2] for x in out]):
+            continue
+        if _onpage(w, avoid):
             continue
         out.append((a, b, w))
     return [w for _a, _b, w in sorted(out)]
@@ -1207,7 +1464,7 @@ def _fig(kind, title, c, answers, bank, note=''):
                 answers=answers, bank=bank, note=note, _nums=nums)
 
 
-def flowfig(title, steps, seed, first, spares=()):
+def flowfig(title, steps, seed, first, spares=(), avoid=()):
     """A sequence, with some of its stages missing.
 
     Three ways a stage can give something up, in order of preference. A
@@ -1220,9 +1477,9 @@ def flowfig(title, steps, seed, first, spares=()):
     and nothing asks for eighty-five characters of transcription.
     """
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 22
+    y = _title(c, title) + 22
     gaps = _pick(steps, seed, noadjacent=True,
-                 labels=[nm for nm, _s in steps])
+                 labels=[nm for nm, _s in steps], avoid=avoid)
     n = len(steps)
     gap = 14
     bw = (W - 56 - gap * (n - 1)) / float(n)
@@ -1235,7 +1492,7 @@ def flowfig(title, steps, seed, first, spares=()):
             continue
         src = 'sub' if sub and len(sub) >= 24 else 'nm'
         text = sub if src == 'sub' else nm
-        hits = (_inner(text, taken, spares, _howmany(text))
+        hits = (_inner(text, taken, spares, _howmany(text), avoid)
                 if len(text or '') >= 24 else [])
         taken.extend(hits)
         inner.append((src, hits))
@@ -1284,14 +1541,47 @@ def flowfig(title, steps, seed, first, spares=()):
                 'Each stage leads to the next.')
 
 
-def treefig(title, root, groups, seed, first, spares=()):
+def _fits(draw, notes):
+    """The figure with its notes, or without them, or not at all.
+
+    The notes carry the table's other columns, so they are content, not
+    decoration -- but a figure taller than a page cannot be read, and a
+    reader who cannot see it whole learns nothing from it. So it is
+    drawn again without them, and if it is still too tall the form is
+    given up and the table stays a grid, where every cell is printed or
+    gapped and nothing is lost either way.
+    """
+    for keep in (notes, None):
+        got = draw(keep)
+        if got is None or got['h'] <= PAGE_H:
+            return got
+    return None
+
+
+def treefig(title, root, groups, seed, first, spares=(), avoid=(),
+            notes=None, foot=()):
     """A classification, with some members missing from their group.
 
     A whole group is never emptied: a group with no members left shows
     nothing about what belongs in it.
+
+    A member carries what the row's OTHER columns say, where the table
+    had any: "Fixed per year 420,000", "Orontes example the January
+    rent". Without it a tree drawn from a table of four columns put two
+    of them on the sheet and silently dropped the rest, and the grid is
+    not printed, because the tree is drawn in its place. Where that
+    makes the figure taller than a page it is drawn again without them,
+    since a figure a reader cannot see whole teaches nothing.
     """
+    return _fits(lambda nt: _treefig(title, root, groups, seed, first,
+                                     spares, avoid, nt, foot), notes)
+
+
+def _treefig(title, root, groups, seed, first, spares=(), avoid=(),
+             notes=None, foot=()):
+    notes = notes or {}
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 8
+    y = _title(c, title) + 8
     y = c.text(W / 2.0, y + 16, 'grouped by %s' % root.lower(), 15,
                A.GREY, False) + 18
     n = len(groups)
@@ -1304,38 +1594,65 @@ def treefig(title, root, groups, seed, first, spares=()):
         hh = c.card(x, y, bw, gname, None, fill, col, 2.2, tsz=15, minh=40,
                     pad=8)
         yy = y + hh + 8
+        names = list(members)
+        subs = [notes.get(x, '') for x in names]
         mine = _pick(members, seed + 7 * gi,
-                     nomax=max(1, len(members) - 1), labels=list(members))
-        for mi, m in enumerate(members):
+                     nomax=max(1, len(members) - 1), labels=names,
+                     avoid=avoid)
+        for mi in range(len(members)):
             if mi in mine:
                 _slotnum(c, x, yy, bw, 30, k)
-                answers.append(m)
+                answers.append(names[mi])
                 k += 1
                 yy += 35
+                # The row's other columns stay under the slot: they are
+                # what a reader works from to name the row.
+                if subs[mi]:
+                    yy += c.note(x, yy, bw, subs[mi], A.PAPER, A.GREY_L,
+                                 A.GREY, 13, 6) + 5
             else:
-                yy += c.card(x, yy, bw, m, None, A.PAPER, A.GREY_L, 1.5,
+                yy += c.card(x, yy, bw, names[mi], subs[mi] or None,
+                             A.PAPER, A.GREY_L, 1.5,
                              tsz=13, tcol=A.INK, minh=28, pad=5) + 5
         bot = max(bot, yy)
+    for row in (foot or ()):
+        bot += 8
+        bot += c.note(24, bot, W - 48, row, A.SOFT, A.GREY_L, A.INK, 14, 8)
     return _fig('tree', title, c, answers, _bank(answers, spares, seed + 1),
                 'Every item belongs to exactly one group.')
 
 
-def chartfig(title, col, rows, seed, first, spares=()):
+def chartfig(title, col, rows, seed, first, spares=(), avoid=(),
+             notes=None):
+    """Magnitudes as bars. See _chartfig; this one keeps it to a page."""
+    return _fits(lambda nt: _chartfig(title, col, rows, seed, first,
+                                      spares, avoid, nt), notes)
+
+
+def _chartfig(title, col, rows, seed, first, spares=(), avoid=(),
+              notes=None):
     """Magnitudes as bars, drawn to scale, with some labels missing.
 
     The bar heights are never gaps. They are drawn from the figures the
     chapter states, and their length is the clue: reading the length and
     naming what it belongs to is the exercise.
+
+    Under each label goes what the row's other columns say, where the
+    table had any. The bars draw one column; the grid that held the rest
+    is not printed, because the chart is drawn in its place.
     """
+    notes = notes or {}
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 8
+    y = _title(c, title) + 8
     y = c.text(W / 2.0, y + 16, col, 15, A.GREY) + 20
     top = max(v for _a, v in rows)
     LAB, BARW = 230.0, W - 230.0 - 110.0
-    gaps = _pick(rows, seed, nomax=max(1, len(rows) // 2))
+    gaps = _pick(rows, seed, nomax=max(1, len(rows) // 2),
+                 labels=[r[0] for r in rows], avoid=avoid)
     answers, k = [], first
+    yy = y
     for i, (name, v) in enumerate(rows):
-        yy = y + i * 40
+        sub = notes.get(name, '')
         if i in gaps:
             _slotnum(c, 24, yy, LAB - 34, 30, k)
             answers.append(name)
@@ -1348,12 +1665,17 @@ def chartfig(title, col, rows, seed, first, spares=()):
         c.rect(LAB, yy + 4, bw, 22, A.INDIGO_L, A.INDIGO, 1.6, 3)
         c.text(LAB + bw + 8, yy + 20, '{:,.0f}'.format(v), 14, A.INDIGO,
                True, 'start')
-    c.line(LAB, y - 6, LAB, y + len(rows) * 40 - 6, A.GREY_L, 1.4)
+        hh = 30
+        if sub:
+            hh += c.wrapped(LAB + 6, yy + 46, sub, W - LAB - 40, 13,
+                            A.GREY, False, 'start') - (yy + 30)
+        yy += hh + 10
+    c.line(LAB, y - 6, LAB, yy - 10, A.GREY_L, 1.4)
     return _fig('chart', title, c, answers, _bank(answers, spares, seed + 1),
                 'The bars are drawn to scale.')
 
 
-def graphfig(title, periods, rows, seed, first, spares=()):
+def graphfig(title, periods, rows, seed, first, spares=(), avoid=()):
     """A quantity over periods, with some period labels missing.
 
     Two things have to be settled before anything is drawn. Series of very
@@ -1378,7 +1700,7 @@ def graphfig(title, periods, rows, seed, first, spares=()):
             best = (grp, hi)
     rows = [rows[i] for i in sorted(best[0])] if best else rows
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 24
+    y = _title(c, title) + 24
     LABW = 176.0
     PH, PW = 200.0, W - 90.0 - LABW
     x0, y0 = 90.0, y
@@ -1399,7 +1721,8 @@ def graphfig(title, periods, rows, seed, first, spares=()):
     # the scale each point sits at — which is a real question when the
     # scale is an ageing of receivables and not a run of years.
     bygap = 'series' if len(rows) >= 2 else 'period'
-    gaps = (_pick(rows, seed, nomax=max(1, len(rows) // 2))
+    gaps = (_pick(rows, seed, nomax=max(1, len(rows) // 2),
+                  labels=[r[0] for r in rows], avoid=avoid)
             if bygap == 'series' else [])
     for si, (nm, series) in enumerate(rows):
         col = [A.INDIGO, A.AMBER, A.TEAL, A.RED][si % 4]
@@ -1438,10 +1761,10 @@ def graphfig(title, periods, rows, seed, first, spares=()):
                 note)
 
 
-def contrastfig(title, left, right, rows, seed, first, spares=()):
+def contrastfig(title, left, right, rows, seed, first, spares=(), avoid=()):
     """Two sides, row by row, with some cells missing from each."""
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 22
+    y = _title(c, title) + 22
     LW = 200.0
     CW = (W - 48 - LW - 16) / 2.0
     c.rect(24 + LW + 8, y, CW, 34, A.INDIGO_L, A.INDIGO, 2, 5)
@@ -1457,7 +1780,8 @@ def contrastfig(title, left, right, rows, seed, first, spares=()):
     cells = [(i, s) for i in range(len(rows)) for s in (0, 1)]
     gaps, byrow = set(), set()
     for g in _pick(cells, seed, nomax=max(1, len(cells) // 2),
-                   labels=[rows[i][1 + sd] for i, sd in cells]):
+                   labels=[rows[i][1 + sd] for i, sd in cells],
+                   avoid=avoid):
         i, side = cells[g]
         if i in byrow:
             continue
@@ -1493,7 +1817,7 @@ def contrastfig(title, left, right, rows, seed, first, spares=()):
                 'The two sides differ only where the rows say.')
 
 
-def bridgefig(title, total, value, parts, seed, first, spares=()):
+def bridgefig(title, total, value, parts, seed, first, spares=(), avoid=()):
     """A stated computation, drawn so the arithmetic is visible.
 
     Each part is a signed bar from a common left edge, so their lengths
@@ -1502,10 +1826,11 @@ def bridgefig(title, total, value, parts, seed, first, spares=()):
     so the gaps go on the labels.
     """
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 22
+    y = _title(c, title) + 22
     LAB, BARW = 250.0, W - 250.0 - 120.0
     top = max([abs(v) for _l, _s, v in parts] + [abs(value), 1.0])
-    gaps = _pick(parts, seed, nomax=max(1, len(parts) // 2))
+    gaps = _pick(parts, seed, nomax=max(1, len(parts) // 2),
+                 labels=[l for l, _s, _v in parts], avoid=avoid)
     answers, k = [], first
     for i, (lab, sign, v) in enumerate(parts):
         yy = y + i * 40
@@ -1541,7 +1866,7 @@ def bridgefig(title, total, value, parts, seed, first, spares=()):
 
 
 def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
-             spares=()):
+             spares=(), avoid=()):
     """What each framework says, in two columns, with a phrase taken out.
 
     The rows are NOT paired: the chapter states what each side does without
@@ -1564,7 +1889,7 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
         # the integrated-reporting sheet with three gaps for its whole
         # section.
         for ri, sent in enumerate(rows):
-            hits = _inner(sent, answers, terms, _howmany(sent))
+            hits = _inner(sent, answers, terms, _howmany(sent), avoid)
             if not hits:
                 continue
             chosen[(ci, ri)] = hits
@@ -1572,7 +1897,7 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
     if not answers:
         return None
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 22
+    y = _title(c, title) + 22
     CW = (W - 48 - 16) / 2.0
     tops = []
     for ci, (nm, rows, col, fill) in enumerate(cols):
@@ -1596,24 +1921,41 @@ def sidesfig(title, left, right, lrows, rrows, seed, first, terms=(),
                 'The two columns are not matched row by row.')
 
 
-def webfig(title, subject, pairs, seed, first, spares=()):
-    """The section's terms around its subject, some of them missing."""
+def webfig(title, subject, pairs, seed, first, spares=(), avoid=()):
+    """The section's terms around its subject, some of them missing.
+
+    A spoke carries two parts or three. Two is the term against what it
+    means, or against its Arabic. Three is the term, what it means, and
+    the chapter's own instance of it -- "Control risk | the risk that a
+    control fails to prevent an error | the Dubai warehouse counts its
+    own stock" -- which is how book 4 writes its vocabulary, in forty
+    tables. Drawn with two parts and printed again as a grid beside it,
+    the example was lost and the term was on the page twice.
+    """
+    pairs = [tuple(p) + ('',) if len(p) == 2 else tuple(p) for p in pairs]
+    three = any(p[2] for p in pairs)
     c = A.Canvas(W)
-    y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 20
+    y = _title(c, title) + 20
     c.rect(W / 2.0 - 150, y, 300, 40, A.INDIGO_L, A.INDIGO, 2.4, 7)
     c.centred(W / 2.0, y + 20, subject, 280, 16, A.INDIGO, True)
     y += 48
-    TW_, DW = 210.0, W - 48 - 210.0 - 16
-    gaps = _pick(pairs, seed, labels=[t for t, _d in pairs])
+    TW_ = 190.0 if three else 210.0
+    rest = W - 48 - TW_ - 16
+    DW = rest * 0.58 if three else rest
+    EW = rest - DW - 14 if three else 0
+    gaps = _pick(pairs, seed, labels=[t for t, _d, _e in pairs],
+                 avoid=avoid)
     answers, k = [], first
     # A spine down the left with a stub to each term. Drawing a line from
     # the hub to every term instead sent them diagonally across the boxes.
     spine = 14.0
     c.line(W / 2.0, y - 10, spine, y - 10, A.INDIGO_M, 1.4)
     rowtops = []
-    for i, (term, dfn) in enumerate(pairs):
+    for i, (term, dfn, exa) in enumerate(pairs):
         hh = max(34, A.wrapped_h(dfn, DW - 20, 14) + 20,
                  A.wrapped_h(term, TW_ - 16, 15, bold=True) + 20)
+        if three and exa:
+            hh = max(hh, A.wrapped_h(exa, EW - 18, 13) + 20)
         rowtops.append((y, hh))
         c.line(spine, y + hh / 2.0, 24, y + hh / 2.0, A.INDIGO_M, 1.4)
         if i in gaps:
@@ -1624,15 +1966,23 @@ def webfig(title, subject, pairs, seed, first, spares=()):
             c.rect(24, y, TW_, hh, A.SOFT, A.INDIGO, 1.8, 5)
             c.centred(24 + TW_ / 2.0, y + hh / 2.0, term, TW_ - 16, 15,
                       A.INDIGO, True)
-        c.rect(24 + TW_ + 16, y, DW, hh, A.PAPER, A.GREY_L, 1.3, 5)
-        c.centred(24 + TW_ + 16 + DW / 2.0, y + hh / 2.0, dfn, DW - 20, 14,
-                  A.INK)
+        x = 24 + TW_ + 16
+        c.rect(x, y, DW, hh, A.PAPER, A.GREY_L, 1.3, 5)
+        c.centred(x + DW / 2.0, y + hh / 2.0, dfn, DW - 20, 14, A.INK)
+        if three:
+            x += DW + 14
+            c.rect(x, y, EW, hh, A.CREAM if hasattr(A, 'CREAM') else A.SOFT,
+                   A.AMBER, 1.3, 5)
+            if exa:
+                c.centred(x + EW / 2.0, y + hh / 2.0, exa, EW - 18, 13,
+                          A.GREY)
         y += hh + 7
     if rowtops:
         c.line(spine, rowtops[0][0] - 10, spine,
                rowtops[-1][0] + rowtops[-1][1] / 2.0, A.INDIGO_M, 1.4)
     return _fig('web', title, c, answers, _bank(answers, spares, seed + 1),
-                'Each term sits against what it means.')
+                'Each term sits against what it means'
+                + (', and an instance of it.' if three else '.'))
 
 
 BUILD = {'branch': branchfig, 'panel': panelfig,

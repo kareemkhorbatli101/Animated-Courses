@@ -433,6 +433,20 @@ def shaped_any(tb):
     return head, body
 
 
+def chapter_tables(d):
+    """Every table of the chapter, section by section, in order.
+
+    Cached on the parsed chapter: the worksheet merge needs the whole
+    chapter to pair a worksheet with its key, and building the list once
+    per section made the chapter quadratic in its own tables.
+    """
+    got = d.get('_alltbls')
+    if got is None:
+        got = [t for sec in d['sections'] for t in tables_in(d, sec)]
+        d['_alltbls'] = got
+    return got
+
+
 def tables_in(d, sec):
     """Every data table the chapter places in this section, in order.
 
@@ -624,7 +638,7 @@ def candidates(sent, terms):
     return out
 
 
-def _spread(sents, terms, picks, want, per, freq):
+def _spread(sents, terms, picks, want, per, freq, avoid=''):
     """Take up to `per` gaps from each sentence, adding to what is there.
 
     Every rule the block has lives here: a word the block prints twice is
@@ -643,6 +657,15 @@ def _spread(sents, terms, picks, want, per, freq):
                 continue
             if si == 0 and a == 0:
                 continue            # a block may not open on a gap
+            # Once on the SHEET, not once in the block. The rule was
+            # always that a word the reader can see is not a question;
+            # applied to the block alone it left a word gapped in a
+            # paragraph and printed in the grid under it, which is most
+            # of a thousand gaps a reader could fill by looking down the
+            # page instead of thinking.
+            if avoid and re.search(
+                    r'(?<![\w-])%s(?![\w-])' % re.escape(w), avoid, re.I):
+                continue
             if any(_same(w, x[2]) for x in picks):
                 continue            # "current" and "noncurrent" in one list
             if any(abs(a - x[1]) < 12 or abs(b - x[0]) < 12
@@ -653,7 +676,7 @@ def _spread(sents, terms, picks, want, per, freq):
     return picks
 
 
-def gap_block(sents, terms, seed, spare_pool=()):
+def gap_block(sents, terms, seed, spare_pool=(), avoid=''):
     """One summary block: the sentences, gapped, with a word list.
 
     Gaps are spread across the block rather than bunched in one sentence,
@@ -685,9 +708,18 @@ def gap_block(sents, terms, seed, spare_pool=()):
     # second pass over whatever is left.
     picks = []
     for per in (max(1, (want + len(sents) - 1) // len(sents)), want):
-        picks = _spread(sents, terms, picks, want, per, freq)
+        picks = _spread(sents, terms, picks, want, per, freq, avoid)
         if len(picks) >= want:
             break
+    # And a last pass with the sheet-wide avoid lifted, but only for a
+    # block the rule has taken HALF its gaps from. A word the paragraph
+    # above also prints is a weaker gap, and a block short of one or two
+    # of them is still a good block; a block down to one gap out of six
+    # is not, and below two it is dropped from the sheet altogether.
+    # Lifting the rule on every shortfall put three hundred copyable
+    # gaps back; lifting it on the halved blocks alone costs a handful.
+    if avoid and len(picks) < 2:
+        picks = _spread(sents, terms, picks, want, want, freq, '')
     if len(picks) < 2:
         return None
     # rebuild the block with the gaps in reading order
@@ -819,7 +851,7 @@ def cell_phrase(v, terms=(), label=True):
     return words[0] if words else None
 
 
-def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
+def gap_table(t, seed, share=0.5, terms=(), title='', pool=(), avoid=''):
     """A table of the chapter with some of it taken out.
 
     A table is a summary in tabular form, so it is gapped the same way the
@@ -908,9 +940,22 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
             # The heading of the table counts as printed too: a grid
             # headed "Common temporary and permanent differences" answers
             # every gap in its own Type column.
+            # And the rest of the sheet: the paragraphs above the grid
+            # and the other grids on it. "Equipment" was the answer to a
+            # cell of the trial balance while the paragraph beside it
+            # read "depreciation reduces equipment".
+            # A column heading that ASKS is not a heading that answers.
+            # "Controllable by the plant manager?" names the axis, and
+            # "Controllable" and "Not controllable" are two different
+            # answers on it, so a reader still has to decide -- but the
+            # word is there in the question, and the rule refused every
+            # cell of the column and printed the chapter's own worksheet
+            # whole, with its answers in it.
             around = ' '.join(clean(c) for c2, c in enumerate(body[i])
                               if c2 != j) + ' ' + ' '.join(
-                                  clean(h) for h in head) + ' ' + clean(title)
+                                  clean(h) for h in head
+                                  if not clean(h).endswith('?')) + ' ' \
+                + clean(title) + ' ' + (avoid or '')
             lab = re.match(r'^([^:]{4,44}):\s', v) if uselabel[j] else None
             if lab and len(v) > len(clean(lab.group(1))) + 8:
                 ph = clean(lab.group(1))
@@ -986,7 +1031,11 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
                for x in kept):
             continue
         mk = re.sub(r'\b%s\b' % re.escape(ph), MARK, v, count=1)
-        if MARK not in mk or visible_in(ph, mk):
+        # And not a word the rest of the sheet prints, like every other
+        # candidate: this is the path that recovers a cell the clash
+        # filter dropped, and it was the one path that did not look.
+        if MARK not in mk or visible_in(ph, mk) \
+                or (avoid and visible_in(ph, avoid)):
             continue
         keep.append((c[0], c[1], ph, mk))
         kept.append(ph.lower())
@@ -1031,8 +1080,15 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
         # the other columns are what say what kind of thing the answer is.
         if percol[c[1]] > 1 and bycol[c[1]] >= percol[c[1]] - 1:
             continue
+        # One slot per entry in the word list. Two slots sharing a word
+        # is what the exam's own drag-and-drop does, and the treasury-
+        # stock journal needs it -- it names "Cash" on three of its nine
+        # lines and finds one gap without it -- but the word list is a
+        # list, the key is a list, and a reader who meets "Cash" once
+        # against two slots cannot tell which it answers. That is a
+        # change to the bank and the key, not to the gapping.
         if c[2].lower() in taken:
-            continue           # one slot per entry in the word list
+            continue
         # A gap must not make its row the twin of another. The
         # cost-of-quality report gaps the item names, and two of its
         # items cost 150,000 each, so both rows came out as
@@ -1114,7 +1170,14 @@ def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
             return False
         return not any(inside(x, a) or inside(a, x)
                        or prefixed(x, a) or prefixed(a, x) for a in low)
-    extra = VIS.pick_spare(answers, [x for x in spares if usable(x)],
+    # Shape first among the spares a grid can offer, as elsewhere: a
+    # seven-word sentence among five-word answers strikes out without
+    # being read.
+    sizes = [len(a.split()) for a in answers] or [1]
+    slack = max(1, int(round(0.25 * max(sizes))))
+    fit = [x for x in spares if usable(x)
+           and min(sizes) - slack <= len(x.split()) <= max(sizes) + slack]
+    extra = VIS.pick_spare(answers, fit or [x for x in spares if usable(x)],
                            seed + 3)
     bank = answers + ([extra] if extra else [])
     return dict(head=[clean(h) for h in head], rows=rows,
@@ -1447,7 +1510,7 @@ def prose_figures(sec, tbls, terms, seed, cells=()):
 
 
 def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
-               cells=()):
+               cells=(), skip=(), drop=()):
     """The section as gapped summary blocks, in the order it is written.
 
     The chapter's own sub-headings become dividers between the summaries,
@@ -1471,7 +1534,9 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
     # — and the rule that every sentence appears exactly once keeps
     # holding.
     pfigs = prose_figures(sec, tbls, terms, seed, cells)
-    eaten = set()
+    # And the sentences the vocabulary web restates, which it draws as
+    # its spokes and so takes with it, exactly as a prose figure does.
+    eaten = set(drop or ())
     for _pos, _blks, used in pfigs:
         eaten |= used
     allsents = prose_sents(sec['text'], cells)
@@ -1483,8 +1548,48 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
             continue
         seenw.add(w.lower())
         wordpool.append(w)
+    segs = prepare(sec, tbls)
+    allruns = [x for kind, v in [(g[0], g[1]) for g in segs]
+               if kind == 'prose' for x in v]
+    # Which tables the sheet PRINTS, and which it draws. A table drawn
+    # as a figure is inside an image the reader is filling in, so its
+    # cells are not on the page in words and nothing need avoid them.
+    # Counting them as printed cost the paragraphs around every figure
+    # their best gaps.
+    drawn = set(skip)
+    for _ti, _h, _b in tbls:
+        if _ti not in skip and VIS.shapes(_h, _b):
+            drawn.add(_ti)
+    percell = dict(
+        (ti, ' '.join(clean(c) for r in [head] + list(body) for c in r))
+        for ti, head, body in tbls)
+    gridtext = ' '.join(v for ti, v in sorted(percell.items())
+                        if ti not in drawn)
+    allprose = ' '.join(allruns)
+
+    def elsewhere(run):
+        """Everything on this sheet that is not this block."""
+        mine = set(run)
+        return ' '.join([x for x in allruns if x not in mine]) \
+            + ' ' + gridtext
+
+    def notthisgrid(ti):
+        """The sheet as the reader meets it, apart from this grid.
+
+        A grid's answers were judged against its own row, its heading and
+        its caption, which is the sheet it used to be on. On the sheet it
+        is really on, a hundred and forty-six of its answers were printed
+        in a paragraph above it and thirty-five in another grid. The
+        paragraph is the section's own summary and has to be printed
+        whole, so it is the grid that gives way -- which it can afford
+        to, having twenty cells to choose between.
+        """
+        return allprose + ' ' + ' '.join(
+            v for ti2, v in sorted(percell.items())
+            if ti2 not in drawn and ti2 != ti)
+
     out, k, lasthead = [], 0, ''
-    for seg in prepare(sec, tbls):
+    for seg in segs:
         kind, v = seg[0], seg[1]
         if kind == 'head':
             out.append(dict(kind='divider', title=v))
@@ -1492,6 +1597,13 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
             continue
 
         if kind == 'table':
+            # A table the web is drawing is not printed again as a grid.
+            # Printed both ways the terms were on the page twice, so
+            # every gap in the web could be filled by reading the grid
+            # under it, and the grid's third column -- the chapter's own
+            # instance of each term -- had nowhere else to go.
+            if v[0] in skip:
+                continue
             # The caption says what the table is for; the first column name
             # often does not. Without it the worked journal was headed "#".
             title = (caps.get(v[0]) or lasthead
@@ -1512,14 +1624,29 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
                 out.append(dict(kind='form', form=name, title=title,
                                 cells=[clean(c) for r in [v[1]] + list(v[2])
                                        for c in r if clean(c)],
-                                data=data, seed=seed + 100 + k))
+                                # The table itself travels with the
+                                # figure, so that a figure which turns
+                                # out to have nothing to fill in can fall
+                                # back to the grid instead of taking the
+                                # table off the sheet with it.
+                                raw=v, data=data, seed=seed + 100 + k))
                 continue
             others = [clean(c) for ot in tbls if ot[0] != v[0]
                       for r in [ot[1]] + list(ot[2]) for c in r
                       if clean(c) and not NUMONLY.match(clean(c))
                       and not BLANKCELL.match(clean(c))]
+            # The sheet-wide avoid first, and the grid's own row second.
+            # Held to the sheet, fifteen small grids -- an exam-view box
+            # of four cells, a four-row worksheet -- found nothing they
+            # could take and printed whole, which is the worse of the
+            # two failures: a gap a sharp reader could fill by reading
+            # the paragraph above it is still a gap, and a grid with the
+            # answers in it is not an exercise at all.
             g = gap_table(v, seed + 100 + k, terms=terms,
-                          title=title, pool=others)
+                          title=title, pool=others,
+                          avoid=notthisgrid(v[0])) \
+                or gap_table(v, seed + 100 + k, terms=terms,
+                             title=title, pool=others)
             if g:
                 out.append(dict(kind='table', title=title, **g))
             else:
@@ -1567,7 +1694,8 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
             pool = (shuffled(spare[:nlocal], seed + k)
                     + shuffled(spare[nlocal:], seed + k)
                     + shuffled(wordpool, seed + k))
-            g = gap_block(run, terms, seed + 7 * k, pool)
+            g = gap_block(run, terms, seed + 7 * k, pool,
+                          elsewhere(run))
             k += 1
             if g:
                 # "Finally, the notes begin with a summary" opens on a
@@ -1591,7 +1719,14 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
                 if out and out[-1].get('kind') == 'prose':
                     out[-1]['carry'].extend(run)
                 else:
-                    out.append(dict(kind='plain', text=' '.join(run)))
+                    # It keeps its own context: when it is later merged
+                    # into the block after it, the merged block opens on
+                    # THIS text, so it is this text's antecedent that
+                    # decides whether the block hangs.
+                    out.append(dict(
+                        kind='plain', text=' '.join(run),
+                        _underhead=(not out) or out[-1]['kind'] in (
+                            'divider', 'table', 'ref', 'form')))
     # The prose figures go back in where their first sentence was, so the
     # section still reads in the order the chapter wrote it.
     for pos, blks, _used in sorted(pfigs, key=lambda x: -x[0]):
@@ -1617,7 +1752,8 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
         # failed and its carried sentences printed as plain text.
         g = gap_block(sents, terms, seed + 999,
                       shuffled([t for t in terms if 4 < len(t) < 28]
-                               + wordpool, seed + 999))
+                               + wordpool, seed + 999),
+                      elsewhere(sents))
         if g:
             b.update(g)
         else:
@@ -1636,12 +1772,19 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
                 and nxt['kind'] == 'prose':
             sents = split_sentences(b['text']) \
                 + split_sentences(nxt['book'])
+            # With the sheet's own avoid, like every other block. Both
+            # re-gapping paths -- the carried sentence and the short
+            # block merged into the one after it -- were gapping without
+            # one, which is where twenty-two of the words a reader could
+            # copy off another paragraph came from.
             g = gap_block(sents, terms, seed + 555,
                           shuffled([t for t in terms if 4 < len(t) < 28]
-                                   + wordpool, seed + 555))
+                                   + wordpool, seed + 555),
+                          elsewhere(sents))
             if g:
                 nxt.update(g)
                 nxt['_pos'] = b.get('_pos', nxt.get('_pos', 0))
+                nxt['_underhead'] = b.get('_underhead', False)
                 i += 1
                 continue
         merged.append(b)
@@ -1657,7 +1800,148 @@ MEANHEAD = re.compile(r'mean|what it|definition|explanation|in financial'
                       r'|stands for|requires|involves', re.I)
 
 
-def meanings(sec, terms, tbls=()):
+KEYHEAD = re.compile(r'^(item|question)$', re.I)
+WHYANS = re.compile(r'^Why\s*:\s*(.+)$', re.I | re.S)
+ANSSPLIT = re.compile(u'\\s+[\u2014\u2013]\\s+')
+
+
+def _fill(ws, key):
+    """The worksheet with its blanks filled from the key, or None.
+
+    The two are paired only where the key answers EVERY blank row of the
+    worksheet, matching on the row's own first cell. A key that answers
+    two blanks out of four is the key to something else.
+    """
+    i, head, body = ws
+    blanks = {}
+    for ri, r in enumerate(body):
+        at = [j for j in range(1, len(r)) if BLANKCELL.match(clean(r[j]))]
+        if len(at) == 1:
+            blanks[ri] = at[0]
+    if not blanks:
+        return None
+    ans = dict((clean(r[0]).lower(), clean(r[1]))
+               for r in key[2] if len(r) > 1 and clean(r[0]))
+    if any(clean(body[ri][0]).lower() not in ans for ri in blanks):
+        return None
+    rows = [list(r) for r in body]
+    for ri, j in blanks.items():
+        a = ans[clean(body[ri][0]).lower()]
+        why = WHYANS.match(a)
+        if why:
+            x = clean(why.group(1))
+            rows[ri][j] = x[:1].upper() + x[1:]
+            continue
+        parts = ANSSPLIT.split(a, 1)
+        rows[ri][j] = clean(parts[0])
+        # And the reason beside it, in the column the chapter keeps for
+        # reasons. The worksheet's own wording there is the hint for a
+        # blank this sheet no longer leaves blank, and the key's is the
+        # same author's fuller version of the same statement, so nothing
+        # of either table is lost.
+        last = len(rows[ri]) - 1
+        if len(parts) > 1 and last != j and last > 0 and clean(rows[ri][last]):
+            r2 = clean(parts[1])
+            rows[ri][last] = r2[:1].upper() + r2[1:]
+    return (i, head, [tuple(r) for r in rows])
+
+
+def filled_worksheet(tbls, pool=None):
+    """The chapter's blank worksheets, filled in from its own answer keys.
+
+    Every chapter of these books ends on a worksheet -- "What happened |
+    Which input control? | Why", or "Tahini & Spreads cost | Behavior",
+    with cells left as underscores -- and, in its answer pages, the key
+    to it: "Item | Answer", where the answer is "Mixed", or "Validity
+    check -- the code is tested against the master file and is not
+    found", or "Why: the record count taken before entry no longer
+    agrees".
+
+    Printed as they stand, the two did the handout real damage. Where the
+    chapter's index puts both on one section -- which is every chapter of
+    book 4 -- the sheet asked the question and printed the answer under
+    it, and fifteen classification trees drew a root reading "________"
+    and asked the reader to recall which case belonged under it. Where it
+    puts them on different sections -- which is books 1 to 3 -- the key
+    landed on a sheet with no question on it at all, a grid of bare
+    answers, and the vocabulary web of that section could gap nothing,
+    because the key printed the words.
+
+    So the two are merged, across the chapter rather than within a
+    section. The blank takes the part of the answer that belongs to the
+    column the chapter left blank -- the label before the dash, or, where
+    the key says "Why:", the clause after it -- and the Why column takes
+    the key's own fuller wording. The key then comes off the sheet,
+    because the handout carries a key of its own, on the back.
+
+    Nothing is guessed: see _fill for what has to line up.
+
+    `pool` is every table of the chapter, so a worksheet in section 2.5
+    can be filled from a key the index files under 2.6. Returns (tables,
+    dropped).
+    """
+    tbls = list(tbls or [])
+    pool = list(pool if pool is not None else tbls)
+    keys = [t for t in pool
+            if len(t[1]) == 2 and KEYHEAD.match(clean(t[1][0]))
+            and clean(t[1][1]).lower() == 'answer']
+    if not keys:
+        return tbls, []
+    iskey = set(t[0] for t in keys)
+    # Which worksheet each key answers, decided over the whole chapter so
+    # that both sections agree about it.
+    fills, spent = {}, set()
+    for ws in pool:
+        if ws[0] in iskey:
+            continue
+        for key in keys:
+            if key[0] in spent:
+                continue
+            got = _fill(ws, key)
+            if got is not None:
+                fills[ws[0]] = got
+                spent.add(key[0])
+                break
+    out, dropped = [], []
+    for t in tbls:
+        if t[0] in spent:
+            dropped.append(t[0])
+        elif t[0] in fills:
+            out.append(fills[t[0]])
+        else:
+            out.append(t)
+    return out, dropped
+
+
+def term_table(tbls):
+    """The section's own table of terms, if it has one.
+
+    "Risk | What it means | At Orontes" is the chapter teaching its
+    vocabulary, and a word web is a better exercise for it than a grid.
+    Returns (index, rows) where each row is (term, meaning, instance) and
+    the instance may be empty, so the web can draw two parts or three.
+    """
+    for i, head, body in (tbls or []):
+        # Two columns or three, never more: the web carries a term, what
+        # it means and one instance of it, so a table with a fourth
+        # column would lose it. Those stay grids.
+        if not 2 <= len(head) <= 3:
+            continue
+        if not MEANHEAD.search(clean(head[1]).lower()):
+            continue
+        rows = []
+        for r in body:
+            a, b = clean(r[0]), clean(r[1]) if len(r) > 1 else ''
+            e = clean(r[2]) if len(r) > 2 else ''
+            if not a or not b or len(a) > 46:
+                continue
+            rows.append((a, b[:150], e[:120]))
+        if len(rows) >= 3:
+            return i, rows[:6], [clean(x) for x in head]
+    return None, [], []
+
+
+def meanings(sec, terms, tbls=(), cells=()):
     """(term, what it means) pairs the section states, for the web.
 
     wsgen has an extractor of its own, but it only matches a sentence that
@@ -1689,10 +1973,12 @@ def meanings(sec, terms, tbls=()):
             if len(r) > 1 and clean(r[0]) and clean(r[1]):
                 if clean(r[0]).lower() not in seen:
                     seen.add(clean(r[0]).lower())
-                    out.append((clean(r[0]), clean(r[1])))
-    sents = [deglossed(x) for ln in sec['text'].split('\n')
-             if is_proseline(ln) for x in split_sentences(clean(ln))
-             if english_only(x)]
+                    out.append((clean(r[0]), clean(r[1]), ''))
+    # The section's prose exactly as the sheet reads it, so the sentence
+    # a meaning came from can be matched against the blocks and taken out
+    # of them: the web restates it, and printed both ways the paragraph
+    # answered the web.
+    sents = prose_sents(sec['text'], cells)
     for term in terms:
         if term.lower() in seen or not 3 < len(term) < 40:
             continue
@@ -1710,12 +1996,48 @@ def meanings(sec, terms, tbls=()):
             if DANGLE.match(dfn) or len(dfn) < 12:
                 continue
             seen.add(term.lower())
-            out.append((term, dfn))
+            # The sentence is handed back only where the spoke carries
+            # the WHOLE of it. The pattern stops at the first full stop
+            # or semicolon, so "A debit is an entry on the left side; it
+            # increases assets" would have had its second clause taken
+            # off the sheet with the first.
+            whole = sent if m.end() >= len(sent) - 1 else ''
+            out.append((term, dfn, whole))
             break
     return out
 
 
-def number_and_draw(blocks, terms, seed, order=None):
+def shown_words(blocks, me, grids_only=False):
+    """Everything the sheet prints in plain text, apart from this block.
+
+    A gap is only a question while its answer is not already on the page.
+    The visible half of a gapped paragraph counts, and so does every cell
+    of a grid that was not itself taken out; a figure's own labels do not,
+    because they are inside an image the reader is filling in.
+    """
+    out = []
+    for b in blocks:
+        if b is me:
+            continue
+        if b['kind'] in ('prose', 'plain') and grids_only:
+            continue
+        if b['kind'] == 'prose':
+            txt = ' '.join(x for x in b.get('parts', [])
+                           if not isinstance(x, int))
+        elif b['kind'] == 'plain':
+            txt = b.get('text', '')
+        elif b['kind'] in ('table', 'ref'):
+            txt = ' '.join(
+                clean(str(c)).replace(MARK, ' ')
+                for r in [b.get('head', [])] + list(b.get('rows', []))
+                for c in r)
+        else:
+            continue
+        out.append(clean(txt))
+    return ' '.join(out).lower()
+
+
+def number_and_draw(blocks, terms, seed, asked=None, order=None):
     """Give every gap its number, and draw the figures with theirs in them.
 
     A paragraph's gaps can be numbered when the sheet is laid out, because
@@ -1725,12 +2047,50 @@ def number_and_draw(blocks, terms, seed, order=None):
     renderer uses the numbers it is given rather than counting again.
     """
     spares = [t for t in terms if 4 < len(t) < 34]
+    asked = asked or {}
     order = order or {}
     n = 1
     out = []
     for b in blocks:
         if b['kind'] == 'form':
             fn = VIS.BUILD[b['form']]
+            # What the sheet already prints in plain text, so no figure
+            # gaps a word the reader can copy off the page. A word web
+            # sits above the section's own grid and names the same terms,
+            # and a third of every figure's answers could be had that
+            # way rather than recalled.
+            # What this sheet already prints, and what earlier sheets of
+            # the chapter have already asked: the same word web drawn
+            # twice in one chapter asks the reader to write "Beverages"
+            # on the second sheet having just written it on the first.
+            # Only what the GRIDS print, and what earlier sheets of the
+            # chapter have asked. Not the prose: a figure has four or
+            # five labels to choose between and a paragraph has a
+            # hundred words, so the paragraph is the one that should
+            # give way -- and it now does, by the same rule, inside
+            # gap_block. Making the figure give way instead cost book 1
+            # a quarter of its diagrams and book 4 a third.
+            # What earlier sheets of the chapter have already asked IN
+            # THIS FORM. Across forms it was far too blunt: the chapter
+            # map on the first sheet gaps the section titles, so a
+            # chapter whose sections are called "Presentation" and
+            # "Operating lease" could never web its own vocabulary
+            # again, though a map asking which section is called
+            # "Operating lease" and a web asking which term the Arabic
+            # names are not the same question at all.
+            # Two kinds of avoidance, and they are not equally strong.
+            # A label the sheet PRINTS is a free answer, so that one is
+            # absolute. A label an earlier sheet of the chapter asked in
+            # the same form is merely stale, so that one gives way: the
+            # last section of a chapter is usually a worked example that
+            # revisits the chapter's own vocabulary, and held to the
+            # strict rule seven sheets of book 4 lost their figure
+            # because every word on them had been asked once already --
+            # which is worse than asking a reader to write
+            # "authorization" a second time.
+            hard = '' if b.get('translation') else \
+                shown_words(blocks, b, grids_only=True)
+            stale = asked.get(b['form'], '')
             # The figure's own labels come first in the spare pool. They
             # are the same kind of thing as its answers and the same
             # length, where the chapter's glossary is phrases of two or
@@ -1759,8 +2119,14 @@ def number_and_draw(blocks, terms, seed, order=None):
             for v in b['data'].values():
                 if isinstance(v, (list, tuple)):
                     harvest(v)
-            fig = fn(title=b['title'], seed=b['seed'], first=n,
-                     spares=own + shuffled(spares, b['seed']), **b['data'])
+            fig = None
+            for avoid in ([(hard + ' ' + stale).strip(), hard]
+                          if stale else [hard]):
+                fig = fn(title=b['title'], seed=b['seed'], first=n,
+                         spares=own + shuffled(spares, b['seed']),
+                         avoid=avoid, **b['data'])
+                if fig and fig['answers']:
+                    break
             if fig is None or not fig['answers']:
                 # A form that turns out to have nothing to fill in gives
                 # its sentences BACK. Dropping the block was dropping
@@ -1768,6 +2134,25 @@ def number_and_draw(blocks, terms, seed, order=None):
                 # three sentences of section 1.3 of book 2 left the sheet
                 # that way without any pass noticing, because every pass
                 # read what was on the sheet.
+                raw = b.get('raw')
+                if raw is not None:
+                    # A table that cannot be drawn is still a table.
+                    g = gap_table(raw, b['seed'] + 9, terms=terms,
+                                  title=b['title'],
+                                  avoid=shown_words(blocks, b)) \
+                        or gap_table(raw, b['seed'] + 9, terms=terms,
+                                     title=b['title'])
+                    if g:
+                        g['_first'] = n
+                        n += len(g['answers'])
+                        out.append(dict(kind='table', title=b['title'],
+                                        **g))
+                    else:
+                        out.append(dict(
+                            kind='ref', title=b['title'],
+                            head=[clean(x) for x in raw[1]],
+                            rows=[[clean(c) for c in r] for r in raw[2]]))
+                    continue
                 said = b.get('sents') or []
                 if said:
                     g = gap_block(said, terms, b['seed'] + 5, spares)
@@ -1788,6 +2173,11 @@ def number_and_draw(blocks, terms, seed, order=None):
                         out.append(dict(kind='plain',
                                         text=' '.join(said)))
                 continue
+            # So a later pass knows the clue was the Arabic, and that a
+            # label this figure asks for may be printed elsewhere on the
+            # sheet without the answer being there.
+            if b.get('translation'):
+                fig['_translation'] = True
             fig['_sents'] = b.get('sents') or []
             fig['_cells'] = b.get('cells') or []
             # How many members the form was drawn from, so a later pass can
@@ -1813,13 +2203,17 @@ def number_and_draw(blocks, terms, seed, order=None):
     return out
 
 
-def build_section(d, si, bk=1, seed=None):
+def build_section(d, si, bk=1, seed=None, asked=None):
     """One handout: a section of the chapter, as gapped summaries."""
     sec = d['sections'][si]
     no = clean(sec['no'])
     n = d['n']
     seed = seed if seed is not None else n * 977 + si * 31
-    tbls = tables_in(d, sec)
+    # The chapter's blank worksheet and the key to it, merged into one
+    # filled grid, so no sheet prints the answer to another sheet's
+    # question. Over the whole chapter, because the index files the two
+    # under different sections in books 1 to 3.
+    tbls, _keyed = filled_worksheet(tables_in(d, sec), chapter_tables(d))
     local = section_terms(sec)
     # The section's own glossary first — those are the words it is teaching
     # — then the chapter's, so a term introduced earlier can still be gapped.
@@ -1832,16 +2226,41 @@ def build_section(d, si, bk=1, seed=None):
         seen.add(t.lower())
         uniq.append(t)
     cells = cell_sents(raw_cells(d, sec))
-    blocks = blocks_for(sec, tbls, uniq, seed, caption_for(d, sec),
-                        [clean(e) for e, _a in local], cells)
+    # A table of term against meaning is drawn as the web and not printed
+    # again as a grid under it.
+    tt_i, tt_rows, tt_head = term_table(tbls)
     # The section's own glossary, as a web around its subject. This is the
     # one diagram that does not depend on a table having the right shape,
     # and it covers 45 of the book's 94 sections; the rest share a
     # chapter-level glossary and get none.
-    defs = meanings(sec, [clean(e) for e, _a in local], tbls)
-    bydef = dict((t.lower(), dd) for t, dd in defs)
-    pairs = [(e, bydef.get(clean(e).lower(), ''))
-             for e, _a in local if bydef.get(clean(e).lower())]
+    # From the prose always, and from a table only where the web is
+    # drawing that table instead of printing it. A vocabulary table of
+    # four columns -- "Threat | What it is | Why it matters | Example" --
+    # stays a grid, because a spoke carries three parts and a fourth box
+    # would be fifteen characters wide; and a web built from the first
+    # two columns of a grid the sheet still prints asks nothing, because
+    # the grid holds the answers. Six sheets of book 4 lost their figure
+    # that way. Left to the Arabic instead, the section webs its own
+    # vocabulary against the language the reader thinks in, and the grid
+    # keeps all four of its columns.
+    defs = meanings(sec, [clean(e) for e, _a in local],
+                    [t for t in tbls if t[0] == tt_i], cells)
+    # And the same again counting the tables the sheet still prints. A
+    # vocabulary table of four columns -- "Threat | What it is | Why it
+    # matters | Example" -- stays a grid, because a spoke carries three
+    # parts and a fourth box would be fifteen characters wide. A web
+    # built from the first two columns of a grid printed under it asks
+    # nothing, so those meanings come last, after the Arabic: last is
+    # still better than no figure at all, and it is what the sheets of
+    # the worked examples have.
+    griddefs = meanings(sec, [clean(e) for e, _a in local],
+                        tbls, cells)
+    bydef = dict((t.lower(), (dd, sn)) for t, dd, sn in defs)
+    # (term, what it means, the chapter's instance of it, the sentence
+    # the meaning was taken from). The instance comes only from a table
+    # the web is drawing; the sentence only from the prose, and it is
+    # what the web then takes OUT of the prose.
+    pairs = []
     # Where the section states what its words mean, the web pairs each term
     # with its meaning. Where it does not — and half the sections of the
     # book do not — it pairs each term with its Arabic, which is the
@@ -1855,18 +2274,40 @@ def build_section(d, si, bk=1, seed=None):
     # what makes a sheet of book 3 read like a sheet of book 1.
     WEB = 3
     kind = 'meaning'
+    # The section's own table of terms comes first, with its third column
+    # -- the chapter's instance of each term -- carried into the web,
+    # because the grid that used to hold it is no longer printed.
+    if tt_rows:
+        # A table's rows carry the chapter's own instance of each term in
+        # place of a sentence to take out: the grid they came from is not
+        # printed, so there is nothing to take.
+        pairs, kind = [(a, b, e, '') for a, b, e in tt_rows], 'meaning'
     # A meaning the chapter states in a table is the section's
     # vocabulary whether or not the section also lists the word in a
     # glossary. Looking the table's rows up in the glossary first meant
     # book 4 -- which names its terms in tables and keeps almost no
     # glossaries -- threw away forty tables of exactly this.
-    if len(pairs) < WEB and len(defs) >= WEB:
-        seenp = set(clean(e).lower() for e, _d in pairs)
-        pairs = pairs + [(t, dd) for t, dd in defs
-                         if clean(t).lower() not in seenp]
+    # The section's own glossary, as English against Arabic, BEFORE a
+    # meaning the section states in its prose. Both are the section's
+    # vocabulary, but the prose keeps the definition it states -- it is
+    # the section's summary and has to -- so a web clued by that same
+    # definition asks the reader to copy the word out of the paragraph
+    # above. Clued by the Arabic it asks for the one thing no paragraph
+    # and no grid on the sheet carries, and it is the thing these
+    # readers most need.
     if len(pairs) < WEB and len(local) >= WEB:
-        pairs = [(clean(e), clean(a)) for e, a in local]
+        pairs = [(clean(e), clean(a), '', '') for e, a in local]
         kind = 'arabic'
+    if len(pairs) < WEB and len(defs) >= WEB:
+        seenp = set(clean(p[0]).lower() for p in pairs)
+        pairs = pairs + [(t, dd, '', sn) for t, dd, sn in defs
+                         if clean(t).lower() not in seenp]
+        kind = 'meaning'
+    if len(pairs) < WEB and len(griddefs) >= WEB:
+        seenp = set(clean(p[0]).lower() for p in pairs)
+        pairs = pairs + [(t, dd, '', sn) for t, dd, sn in griddefs
+                         if clean(t).lower() not in seenp]
+        kind = 'meaning'
     if len(pairs) < WEB:
         # Half the sections carry no glossary of their own: the chapter
         # puts one at the front and the sections draw on it. So the web is
@@ -1879,15 +2320,58 @@ def build_section(d, si, bk=1, seed=None):
             if not e or not a or len(e) > 44:
                 continue
             if re.search(r'\b%s\b' % re.escape(e), sec['text'], re.I):
-                used.append((e, bydef.get(e.lower()) or a))
+                # The Arabic, not a meaning the section states. A web
+                # whose clue is an English meaning is answerable from the
+                # grid that prints it, and the exemption below -- which
+                # is what lets a translation ask for a word the sheet
+                # also prints -- holds only while the clue really is the
+                # Arabic.
+                used.append((e, a, '', ''))
         if len(used) >= WEB:
             pairs, kind = used, 'arabic'
-    if len(pairs) >= WEB:
+    web = pairs[:6] if len(pairs) >= WEB else []
+    # The sentences the web restates are NOT taken out of the prose,
+    # though a prose figure's are. The definitions of a section are
+    # scattered down its paragraphs with their examples between them --
+    # "An asset is a present right... Examples: cash, accounts
+    # receivable... A liability is a present obligation... Examples:
+    # accounts payable..." -- so taking the definitions left the
+    # paragraph reading "Three of them describe the balance sheet at one
+    # date. Examples: cash, accounts receivable. Examples: accounts
+    # payable. It is the owners' claim." A prose figure takes an unbroken
+    # SPAN for exactly this reason, and a glossary is not a span. The
+    # duplication is answered instead by what the web uses as its clue:
+    # see the Arabic branch below.
+    blocks = blocks_for(sec, tbls, uniq, seed, caption_for(d, sec),
+                        [clean(e) for e, _a in local], cells,
+                        {tt_i} if tt_i is not None else set())
+    if web:
         blocks.append(dict(
             kind='form', form='web',
             title=('The words this section uses' if kind == 'meaning'
                    else 'The English this section uses, and its Arabic'),
-            data=dict(subject=clean(sec['title']), pairs=pairs[:6]),
+            data=dict(subject=clean(sec['title']),
+                      pairs=[p[:3] for p in web]),
+            # A web of English against Arabic asks for the mapping, and
+            # the mapping is the one thing no grid on the sheet carries.
+            # Judged like any other figure it lost twenty-two webs across
+            # the four books, because the chapter's journals and cost
+            # tables print "actual costing" as a column heading -- which
+            # narrows the choice and does not supply the answer. The
+            # glossary grid that WOULD supply it is never printed on a
+            # sheet.
+            translation=(kind == 'arabic'
+                         and all(ARABIC.search(p[1]) for p in web)),
+            # The cells travel with it, so the coverage passes still see
+            # the table on the sheet now that the grid is gone.
+            cells=(tt_head + [c for r in tt_rows for c in r if c])
+            if tt_rows else [],
+            # And the table itself, so that a web whose every term is
+            # already printed in the section's prose -- and so has
+            # nothing it may gap -- falls back to the grid rather than
+            # taking the chapter's vocabulary off the sheet.
+            raw=((tt_i, tt_head, [list(r) for r in tt_rows])
+                 if tt_rows else None),
             seed=seed + 55))
     # The chapter's own section order is a sequence, so the first sheet of
     # every chapter opens on a flow of the chapter itself. It is the one
@@ -1902,7 +2386,7 @@ def build_section(d, si, bk=1, seed=None):
                               title='Chapter %d, section by section' % n,
                               data=dict(steps=steps), seed=seed + 66))
     blocks = number_and_draw(
-        blocks, uniq, seed,
+        blocks, uniq, seed, asked,
         dict((x, i) for i, x in enumerate(prose_sents(sec['text'], cells))))
     nsent = sum(len(split_sentences(b.get('book') or b.get('text') or ''))
                 for b in blocks if b['kind'] in ('prose', 'plain'))
@@ -1933,20 +2417,32 @@ def build_chapter(bk=1, n=1):
     no figure.
     """
     d = PB.parse(n, bk)
-    out, asked = [], set()
+    out, asked, said = [], set(), collections.defaultdict(list)
 
     def sig(H):
         return set((b['form'], tuple(sorted(b['answers'])))
                    for b in H['blocks'] if b['kind'] == 'fig')
 
+    def text():
+        return dict((f, ' '.join(v).lower()) for f, v in said.items())
+
     for si in range(len(d['sections'])):
-        H = build_section(d, si, bk)
+        # Everything the chapter has asked so far, handed to the next
+        # sheet so its figures do not ask it again. Rebuilding on another
+        # seed was the first attempt and it only works while the figure
+        # has spare labels to choose between; a web of three terms has
+        # three combinations and runs out.
+        H = build_section(d, si, bk, asked=text())
         for bump in range(1, 7):
             if not (sig(H) & asked):
                 break
             H = build_section(d, si, bk,
-                              seed=(n * 977 + si * 31) + bump * 613)
+                              seed=(n * 977 + si * 31) + bump * 613,
+                              asked=text())
         asked |= sig(H)
+        for b in H['blocks']:
+            if b['kind'] == 'fig':
+                said[b['form']] += [clean(a) for a in b['answers']]
         out.append(H)
     return out
 
