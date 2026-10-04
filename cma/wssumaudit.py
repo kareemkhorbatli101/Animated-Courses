@@ -221,7 +221,7 @@ def p07_opening(ch, say):
         for b in H['blocks']:
             if b['kind'] == 'prose':
                 txt = clean(_text_of(b))
-                if S.DANGLE.match(txt) and prev not in (
+                if S.dangling(txt) and prev not in (
                         'divider', 'table', 'ref', 'fig', 'plain'):
                     say('%s prose opens mid-thought: %s'
                         % (H['id'], txt[:64]))
@@ -530,11 +530,148 @@ def p20_untouched(ch, say):
                 % (H['id'], len(content), b.get('title', '')[:46]))
 
 
+def p21_guessable(ch, say):
+    """21. No gap a reader can fill without knowing the answer.
+
+    Two ways that happens, and both are visible from the sheet alone.
+
+    The answer is printed somewhere else in the same block, ungapped, so
+    the reader copies it across instead of recalling it. Prose is already
+    safe -- a word that appears twice in a block is never gapped -- but a
+    grid and a figure were not, and a grid is exactly where it happens: a
+    classification that appears in one row's slot and in another row's
+    text.
+
+    Or the word list gives itself away by shape. A list of four phrases of
+    three or four words each, with one single word among them, is a list
+    whose wrong answer can be struck out without reading anything.
+    """
+    def visible(txt, a):
+        return txt and re.search(r'(?<![\w-])%s(?![\w-])' % re.escape(a),
+                                 txt, re.I)
+
+    for H in ch:
+        for b in H['blocks']:
+            ans = _answers(b)
+            if not ans:
+                continue
+            # Where the reader can see the answer WITHOUT having worked it
+            # out. In a grid that is this row and the headings, not the
+            # whole table: a classification table prints "Asset" against
+            # four different items, and seeing it on another row says
+            # nothing about whether THIS row is one. In the same row, or
+            # in the column heading, it says everything.
+            k = 0
+            if b['kind'] == 'table':
+                head = ' '.join(clean(x) for x in b.get('head', []))
+                title = clean(b.get('title', ''))
+                for r in b.get('rows', []):
+                    rest = ' '.join(clean(str(c)).replace(S.MARK, ' ')
+                                    for c in r)
+                    holes = sum(1 for c in r
+                                if str(c) == '' or S.MARK in str(c))
+                    for a in ans[k:k + holes]:
+                        a = clean(a)
+                        if len(a) < 5:
+                            continue
+                        for where, txt in (('row', rest),
+                                           ('heading', head + ' ' + title)):
+                            if visible(txt, a):
+                                say('%s table: the answer %r is printed in '
+                                    'its own %s' % (H['id'], a[:40], where))
+                    k += holes
+            elif b['kind'] == 'prose':
+                shown = ' '.join(x for x in b.get('parts', [])
+                                 if not isinstance(x, int))
+                for a in ans:
+                    if len(clean(a)) >= 5 and visible(shown, clean(a)):
+                        say('%s prose: the answer %r is printed in the same '
+                            'block' % (H['id'], clean(a)[:40]))
+            low = [x.lower() for x in ans]
+            spare = [x for x in _bank(b) if x.lower() not in low]
+            if not spare or len(ans) < 2:
+                continue
+            sizes = [len(x.split()) for x in ans]
+            lo, hi = min(sizes), max(sizes)
+            for x in spare:
+                if not lo - 1 <= len(x.split()) <= hi + 1:
+                    say('%s %s: the spare word %r is %d words against '
+                        'answers of %d to %d, so it strikes out without '
+                        'reading' % (H['id'], b['kind'], x[:34],
+                                     len(x.split()), lo, hi))
+
+
+def p22_roundtrip(ch, say):
+    """22. Every gapped block, refilled from its own key, is what the book says.
+
+    The sheet is the book with holes in it. That claim is only true if
+    putting the answers back gives the book's own words, and between the
+    source and the sheet the text passes through sentence splitting, gloss
+    cutting, cross-reference cutting, gap insertion and -- for a grid --
+    a marker substituted into a cell and taken out again. Any one of those
+    can drop a word without any other pass noticing, because every other
+    pass reads the sheet rather than comparing it to the source.
+    """
+    def norm(x):
+        return re.sub(r'\s+', ' ', clean(str(x))).strip(' .').lower()
+
+    for H in ch:
+        for b in H['blocks']:
+            ans = _answers(b)
+            if not ans:
+                continue
+            if b['kind'] == 'prose':
+                out, k = [], 0
+                for part in b['parts']:
+                    if isinstance(part, int):
+                        if k >= len(ans):
+                            say('%s prose: more gaps than answers' % H['id'])
+                            break
+                        out.append(ans[k])
+                        k += 1
+                    else:
+                        out.append(part)
+                else:
+                    if k != len(ans):
+                        say('%s prose: %d answers for %d gaps'
+                            % (H['id'], len(ans), k))
+                    if norm(''.join(out)) != norm(b.get('book', '')):
+                        say('%s prose: refilled text is not the book\'s: %s'
+                            % (H['id'], norm(''.join(out))[:64]))
+                continue
+            if b['kind'] != 'table':
+                continue
+            full = b.get('full') or []
+            k, bad = 0, False
+            for i, r in enumerate(b.get('rows', [])):
+                for j, c in enumerate(list(r)):
+                    c = str(c)
+                    if c == '':
+                        got, k = (ans[k] if k < len(ans) else ''), k + 1
+                    elif S.MARK in c:
+                        got = c.replace(S.MARK,
+                                        ans[k] if k < len(ans) else '')
+                        k += 1
+                    else:
+                        got = c
+                    if i < len(full) and j < len(full[i]) \
+                            and norm(got) != norm(full[i][j]):
+                        bad = True
+                        say('%s table: refilled cell is not the book\'s: '
+                            '%r against %r'
+                            % (H['id'], norm(got)[:40], norm(full[i][j])[:40]))
+                if bad:
+                    break
+            if not bad and k != len(ans):
+                say('%s table: %d answers used of %d' % (H['id'], k, len(ans)))
+
+
 PASSES = [p01_coverage, p02_bank, p03_numbering, p04_key, p05_distractor,
           p06_density, p07_opening, p08_selfref, p09_furniture,
           p10_language, p11_figure, p12_honesty, p13_legible, p14_table,
           p15_sequence, p16_distinct, p17_grounded, p18_size,
-          p19_tables, p20_untouched]
+          p19_tables, p20_untouched, p21_guessable,
+          p22_roundtrip]
 
 
 def audit(bk=1, n=1, verbose=True):
@@ -581,7 +718,12 @@ def audit(bk=1, n=1, verbose=True):
 
 
 def main(argv):
-    chs = [int(argv[1])] if len(argv) > 1 else list(range(1, 19))
+    # wsrun.py is the front door; this stays runnable on its own for one
+    # book, and takes the book as the second argument rather than
+    # assuming the one it was written against.
+    import wsrun
+    bk = int(argv[2]) if len(argv) > 2 else 1
+    chs = [int(argv[1])] if len(argv) > 1 else wsrun.chapters(bk)
     allhard = []
     for n in chs:
         print('\nChapter %d' % n)
@@ -590,7 +732,7 @@ def main(argv):
         # chapter 15 once left chapters 16 to 18 unaudited and the summary
         # line still said how many findings there were.
         try:
-            hard, soft = audit(1, n)
+            hard, soft = audit(bk, n)
         except Exception as exc:
             print('  FAIL 1   0. The chapter builds at all.')
             print('           - %s: %s' % (type(exc).__name__, exc))

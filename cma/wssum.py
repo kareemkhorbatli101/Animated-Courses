@@ -44,12 +44,32 @@ CAP = re.compile(r'^\s*(Figure|Table|Exhibit)\s+[A-Z]?\d[\d.\-]*\.?\s', re.I)
 ITEMID = re.compile(r'\b(?:SC\d{1,3}-\d{1,2}|P\d{1,2}-\d{2}|P\d{2}|'
                     r'C\d{1,3}-\d)\b')
 # A pointer to something the sheet does not print.
-FIGREF = re.compile(r'\bFigure\s+F\d\d-\d\d')
+# Book 1 numbers its figures F05-01 and book 2 numbers them F213-01, so
+# two digits was book 1's convention rather than the books'. With the
+# narrow pattern every figure reference in books 2 and 3 read as prose and
+# landed on the sheets, which is the one thing these handouts must not do:
+# they replace the book, so they cannot point into it.
+FIGREF = re.compile(r'\bFigure\s+F?\d{1,4}[-.–]\d{1,3}\b')
 # A sentence that hangs off one it does not print cannot open a summary.
+# A demonstrative followed by a concrete noun is not dangling: "This
+# example sets out the halva's budget year by year" names its own subject
+# and opens a block perfectly well. Books 2 and 3 open their worked
+# examples that way, and twenty-eight blocks were reported as hanging.
+NOTDANGLE = re.compile(r'^(?:this|that|these|those)\s+'
+                       r'(?:example|exercise|section|chapter|case|method|'
+                       r'approach|rule|test|table|figure|step|study|'
+                       r'report|statement|schedule|worksheet|entry|'
+                       r'standard|model|policy|note)\b', re.I)
 DANGLE = re.compile(r'^(these|this|that|those|it|they|them|such|here|both|'
                     r'either|neither|so|then|however|therefore|also|but|and|'
                     r'its|their|finally|lastly|moreover|furthermore|again|'
                     r'in addition|for example|in contrast)\b', re.I)
+
+
+def dangling(text):
+    """Does this open on a word with nothing in front of it to refer to?"""
+    t = clean(text)
+    return bool(DANGLE.match(t)) and not NOTDANGLE.match(t)
 # A full stop inside one of these does not end a sentence.
 ABBREV = re.compile(
     r'(?:\b(?:U\.S|U\.K|E\.U|e\.g|i\.e|etc|vs|No|Nos|Inc|Co|Corp|Ltd|Jr|Sr|'
@@ -469,7 +489,9 @@ def gap_block(sents, terms, seed, spare_pool=()):
         for a, b, w, _rank in candidates(sent, terms):
             if got >= per or len(picks) >= want:
                 break
-            if freq[w.lower()] != 1:
+            if freq[w.lower()] != 1 or len(
+                    re.findall(r'(?<![\w-])%s(?![\w-])' % re.escape(w),
+                               text, re.I)) != 1:
                 continue
             if si == 0 and a == 0:
                 continue            # a block may not open on a gap
@@ -498,8 +520,9 @@ def gap_block(sents, terms, seed, spare_pool=()):
     # not contain an answer or sit inside one: a list holding both
     # "conceptual" and "conceptual framework" gives one gap two defensible
     # answers, which is worse than no spare at all.
-    spare = next((x for x in spare_pool
-                  if not any(_same(x, w) for w in answers)), None)
+    spare = VIS.pick_spare(
+        answers, [x for x in spare_pool
+                  if not any(_same(x, w) for w in answers)], seed + 17)
     if spare is None:
         # Nothing in the pool clears the clash test. Rather than hand over
         # a list with exactly as many words as gaps — which a reader
@@ -557,6 +580,21 @@ def inside(a, b):
     return bool(re.search(r'(?<![\w-])%s(?![\w-])' % re.escape(a), b))
 
 
+def visible_in(a, text):
+    """Is this answer already printed in that text?
+
+    The boundary ignores an apostrophe and a hyphen, so "parent" counts as
+    printed by "parent's". A frequency count over word tokens does not:
+    it reads "parent" and "parent's" as two different words, and gapped
+    the one the other spells out two lines above.
+    """
+    a, text = clean(a), clean(text or '')
+    if not a or not text:
+        return False
+    return bool(re.search(r'(?<![\w-])%s(?![\w-])' % re.escape(a),
+                          text, re.I))
+
+
 def prefixed(a, b):
     """Does `b` begin with `a`, and then go on?
 
@@ -595,7 +633,7 @@ def cell_phrase(v, terms=(), label=True):
     return words[0] if words else None
 
 
-def gap_table(t, seed, share=0.5, terms=()):
+def gap_table(t, seed, share=0.5, terms=(), title='', pool=()):
     """A table of the chapter with some of it taken out.
 
     A table is a summary in tabular form, so it is gapped the same way the
@@ -668,21 +706,37 @@ def gap_table(t, seed, share=0.5, terms=()):
             # "Noncurrent asset: all deferred taxes are noncurrent", and
             # the first then read as contained in the second, so both
             # went and the table had too little left to gap.
+            # A value the rest of its own row prints, or the column
+            # heading, is copied across rather than recalled: a row
+            # reading "Sales revenue | ____" with "Revenue" as the
+            # answer asks nothing.
+            # The heading of the table counts as printed too: a grid
+            # headed "Common temporary and permanent differences" answers
+            # every gap in its own Type column.
+            around = ' '.join(clean(c) for c2, c in enumerate(body[i])
+                              if c2 != j) + ' ' + ' '.join(
+                                  clean(h) for h in head) + ' ' + clean(title)
             lab = re.match(r'^([^:]{4,44}):\s', v) if uselabel[j] else None
             if lab and len(v) > len(clean(lab.group(1))) + 8:
                 ph = clean(lab.group(1))
                 mk = re.sub(r'\b%s\b' % re.escape(ph), MARK, v, count=1)
-                if MARK in mk:
+                if MARK in mk and not visible_in(ph, around) \
+                        and not visible_in(ph, mk):
                     cells.append((i, j, ph, mk))
                     continue
             if len(v) <= WHOLE_CELL:
-                cells.append((i, j, v, None))
+                if not visible_in(v, around):
+                    cells.append((i, j, v, None))
                 continue
             ph = cell_phrase(v, terms, label=uselabel[j])
             if not ph or NUMONLY.match(ph):
                 continue
             mk = re.sub(r'\b%s\b' % re.escape(ph), MARK, v, count=1)
-            if MARK not in mk:
+            # And the rest of the cell the phrase was taken from: only
+            # the first occurrence becomes the slot, so a second one two
+            # words later prints the answer beside its own gap.
+            if MARK not in mk or visible_in(ph, around) \
+                    or visible_in(ph, mk):
                 continue
             cells.append((i, j, ph, mk))
     # A value several rows share is NOT dropped. Dropping it emptied the
@@ -719,26 +773,43 @@ def gap_table(t, seed, share=0.5, terms=()):
             continue
         keep.append(c)
     cells = keep
-    # Two is the floor, the same as a paragraph's. Three refused a
-    # four-row answer table whose two usable cells were a better exercise
-    # than printing the table whole, which is what refusing it meant.
-    if len(cells) < 2:
+    # Two is the floor, the same as a paragraph's -- except on a grid so
+    # small that one gap is all it has. Three refused a four-row answer
+    # table whose two usable cells were a better exercise than printing
+    # the table whole, and two refused a two-row one whose other cell
+    # says "unfavorable" twice and so cannot be gapped at all. Refusing
+    # it means printing the answers, which is the worse of the two.
+    content = sum(1 for i in range(len(body)) for j in cols
+                  if clean(body[i][j]) and not NUMONLY.match(clean(body[i][j]))
+                  and not BLANKCELL.match(clean(body[i][j])))
+    if len(cells) < (1 if content <= 4 else 2):
         return None
     # Rounded up, not to nearest: a five-cell table at 42 per cent rounds
     # to two, which leaves a reader almost nothing to do.
     want = max(2, min(10, -(-len(cells) * 45 // 100)))
-    pick, byrow, taken = [], collections.Counter(), set()
+    percol = collections.Counter(c[1] for c in cells)
+    pick, byrow, bycol, taken = [], collections.Counter(), \
+        collections.Counter(), set()
     for c in shuffled(cells, seed):
         if len(pick) >= want:
             break
         if byrow[c[0]] >= max(1, (len(head) - 1) // 2):
+            continue
+        # And never a whole column. A column with every cell blank is a
+        # column with nothing to reason from: the row names the item, and
+        # the other columns are what say what kind of thing the answer is.
+        if percol[c[1]] > 1 and bycol[c[1]] >= percol[c[1]] - 1:
             continue
         if c[2].lower() in taken:
             continue           # one slot per entry in the word list
         pick.append(c)
         taken.add(c[2].lower())
         byrow[c[0]] += 1
-    if len(pick) < 2:
+        bycol[c[1]] += 1
+    # Two gaps normally, but one on a grid that only has two cells worth
+    # taking: one gap and one worked row is a small exercise, and printing
+    # the whole thing is no exercise at all.
+    if len(pick) < (1 if len(cells) <= 3 else 2):
         return None
     pick.sort(key=lambda c: (c[0], c[1]))
     at = dict(((c[0], c[1]), c) for c in pick)
@@ -766,7 +837,17 @@ def gap_table(t, seed, share=0.5, terms=()):
         for r in body:
             v = clean(r[j])
             if v and not NUMONLY.match(v) and not BLANKCELL.match(v):
+                # Both shapes: the phrase inside the cell, for short
+                # answers, and the whole cell, for the long ones. A grid
+                # whose answers run to nine words had nothing of its own
+                # length to offer as a wrong one.
                 spares.append(cell_phrase(v, terms) or v)
+                spares.append(v)
+    # And the section's other grids. A two-row answer table of
+    # computations has no sibling of its own shape, but the worksheet it
+    # answers does: "50% x 90,000 = 45,000" is the ideal wrong answer for
+    # a slot wanting "50% x 45,000 = 22,500".
+    spares += [x for x in pool if x]
     spares += [t for t in terms if 4 < len(t) < 40]
     low = [a.lower() for a in answers]
 
@@ -775,7 +856,8 @@ def gap_table(t, seed, share=0.5, terms=()):
             return False
         return not any(inside(x, a) or inside(a, x)
                        or prefixed(x, a) or prefixed(a, x) for a in low)
-    extra = next((x for x in shuffled(spares, seed + 3) if usable(x)), None)
+    extra = VIS.pick_spare(answers, [x for x in spares if usable(x)],
+                           seed + 3)
     bank = answers + ([extra] if extra else [])
     return dict(head=[clean(h) for h in head], rows=rows,
                 answers=answers, bank=shuffled(bank, seed + 1),
@@ -1111,6 +1193,13 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
         eaten |= used
     allsents = prose_sents(sec['text'])
     order = dict((x, i) for i, x in enumerate(allsents))
+    wordpool = []
+    seenw = set()
+    for w in re.findall(r"[A-Za-z][A-Za-z\-']{6,}", ' '.join(allsents)):
+        if w.lower() in STOP or w.lower() in seenw:
+            continue
+        seenw.add(w.lower())
+        wordpool.append(w)
     out, k, lasthead = [], 0, ''
     for seg in prepare(sec, tbls):
         kind, v = seg[0], seg[1]
@@ -1142,7 +1231,12 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
                                        for c in r if clean(c)],
                                 data=data, seed=seed + 100 + k))
                 continue
-            g = gap_table(v, seed + 100 + k, terms=terms)
+            others = [clean(c) for ot in tbls if ot[0] != v[0]
+                      for r in [ot[1]] + list(ot[2]) for c in r
+                      if clean(c) and not NUMONLY.match(clean(c))
+                      and not BLANKCELL.match(clean(c))]
+            g = gap_table(v, seed + 100 + k, terms=terms,
+                          title=title, pool=others)
             if g:
                 out.append(dict(kind='table', title=title, **g))
             else:
@@ -1173,7 +1267,7 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
             # one prose segment straight into another with no heading
             # between them, carrying back is right: "Finally, the notes
             # begin with a summary" has to follow what it is final to.
-            while run and DANGLE.match(run[0]) and out \
+            while run and dangling(run[0]) and out \
                     and out[-1].get('kind') == 'prose':
                 out[-1]['carry'].append(run.pop(0))
             if not run:
@@ -1182,8 +1276,14 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
             # chapter's, then joined — shuffling the whole pool threw away
             # the preference and offered "cost of goods sold" as a wrong
             # answer on the sheet about who reads the statements.
+            # The glossary is phrases and a prose answer is usually one
+            # word, so a list of single words offered "right of setoff"
+            # as its only wrong answer. The section's own distinctive
+            # words join the pool, so a spare of the right shape exists
+            # to be found.
             pool = (shuffled(spare[:nlocal], seed + k)
-                    + shuffled(spare[nlocal:], seed + k))
+                    + shuffled(spare[nlocal:], seed + k)
+                    + shuffled(wordpool, seed + k))
             g = gap_block(run, terms, seed + 7 * k, pool)
             k += 1
             if g:
@@ -1303,8 +1403,26 @@ def number_and_draw(blocks, terms, seed):
     for b in blocks:
         if b['kind'] == 'form':
             fn = VIS.BUILD[b['form']]
+            # The figure's own labels come first in the spare pool. They
+            # are the same kind of thing as its answers and the same
+            # length, where the chapter's glossary is phrases of two or
+            # three words against figure answers of six or seven.
+            own = []
+            for v in b['data'].values():
+                if not isinstance(v, (list, tuple)):
+                    continue
+                for item in v:
+                    for x in (item if isinstance(item, (list, tuple))
+                              else [item]):
+                        x = clean(x) if isinstance(x, str) else ''
+                        # A writing slot the chapter drew with underscores
+                        # is not a word, and offering "________" as the
+                        # wrong answer is worse than offering none.
+                        if 4 < len(x) < 80 and not BLANKCELL.match(x) \
+                                and MARK not in x:
+                            own.append(x)
             fig = fn(title=b['title'], seed=b['seed'], first=n,
-                     spares=shuffled(spares, b['seed']), **b['data'])
+                     spares=own + shuffled(spares, b['seed']), **b['data'])
             if fig is None:
                 continue
             fig['_sents'] = b.get('sents') or []
@@ -1545,7 +1663,7 @@ def check(hs, bk=1, n=1):
                 first = b['parts'][0]
                 if not (isinstance(first, str) and first.strip()):
                     bad.append('%s: a block opens on a gap' % hid)
-                if DANGLE.match(b['book']) and not b.get('_underhead'):
+                if dangling(b['book']) and not b.get('_underhead'):
                     bad.append('%s: a block opens mid-thought: %.40r'
                                % (hid, b['book']))
             else:

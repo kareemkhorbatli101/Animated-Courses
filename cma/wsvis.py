@@ -1024,13 +1024,39 @@ def _inner(text, answers, terms=()):
     return hit
 
 
+def pick_spare(answers, spares, seed):
+    """A wrong answer shaped like the right ones.
+
+    A list of four phrases of six or seven words with one two-word entry
+    among them is a list whose wrong answer strikes out without reading
+    anything. So a spare of the same length as the answers comes first, a
+    spare within a word of them next, and only then any spare at all.
+    """
+    low = [a.lower() for a in answers]
+    sizes = [len(a.split()) for a in answers] or [1]
+    lo, hi = min(sizes), max(sizes)
+
+    def ok(x):
+        x = clean(x or '')
+        return bool(x) and x.lower() not in low \
+            and not any(_clash(x, a) for a in low)
+    pool = [clean(x) for x in shuffled(list(spares), seed) if ok(x)]
+    for want in (lambda n: lo <= n <= hi, lambda n: lo - 1 <= n <= hi + 1):
+        hit = next((x for x in pool if want(len(x.split()))), None)
+        if hit:
+            return hit
+    # Nothing of the right length. Then the closest there is, rather than
+    # whichever came first: a list of nine-word answers was offered a
+    # four-word glossary entry while an eleven-word cell of the same
+    # table sat unused in the pool.
+    mid = (lo + hi) / 2.0
+    return min(pool, key=lambda x: abs(len(x.split()) - mid)) \
+        if pool else None
+
+
 def _bank(answers, spares, seed):
     """The word list: the answers plus one that is not among them."""
-    low = [a.lower() for a in answers]
-    extra = next((s for s in spares
-                  if s.lower() not in low
-                  and not any(s.lower() in a or a in s.lower() for a in low)),
-                 None)
+    extra = pick_spare(answers, spares, seed)
     return shuffled(list(answers) + ([extra] if extra else []), seed)
 
 
