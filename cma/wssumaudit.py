@@ -54,10 +54,16 @@ def _stem(w):
     return w
 
 
-def _confusable(a, b):
+def _confusable(a, b, grid=False):
     a, b = clean(a).lower(), clean(b).lower()
     if a == b:
         return True
+    if grid:
+        # In a grid the row names its own item, so "Asset" against
+        # "Contra-asset" is the classification the sheet teaches. Only a
+        # genuine sub-phrase is ambiguous.
+        return (S.inside(a, b) or S.inside(b, a)
+                or S.prefixed(a, b) or S.prefixed(b, a))
     if len(a) > 4 and len(b) > 4 and (a in b or b in a):
         return True
     return _stem(a) == _stem(b) and len(a) > 4
@@ -134,9 +140,10 @@ def p02_bank(ch, say):
                 elif low.count(a.lower()) > 1:
                     say('%s %s: answer twice in its word list: %r'
                         % (H['id'], b['kind'], a[:40]))
+            grid = b['kind'] in ('table', 'ref')
             for i, a in enumerate(ans):
                 for c in ans[i + 1:]:
-                    if _confusable(a, c):
+                    if _confusable(a, c, grid):
                         say('%s %s: two answers a reader cannot tell apart: '
                             '%r / %r' % (H['id'], b['kind'], a[:30], c[:30]))
 
@@ -367,6 +374,11 @@ def p14_table(ch, say):
             seen = set()
             for r in cells:
                 k = tuple(clean(str(x)) for x in r)
+                # Rows of a worksheet the chapter left blank are all the
+                # same row, and that is the chapter's layout, not a
+                # repetition on the sheet.
+                if all(not x or S.BLANKCELL.match(x) for x in k):
+                    continue
                 if k in seen and any(k):
                     say('%s table: a row appears twice: %s'
                         % (H['id'], ' | '.join(k)[:60]))
@@ -492,19 +504,30 @@ def p19_tables(ch, say):
 
 
 def p20_untouched(ch, say):
-    """20. Nothing on a sheet is printed without anything to do on it.
+    """20. Nothing is printed whole that the reader could have worked on.
 
-    A grid printed whole, with no cell taken out, is a reference the
-    reader reads past. Some are unavoidable -- a table of two columns
-    where every cell is a number has nothing gappable -- so this reports
-    them rather than failing, and the number is what matters: it was 27
-    across the book.
+    This was a soft note saying some grids were unavoidable, and the note
+    was wrong: of the 32 grids printed whole across the book, not one was
+    unavoidable and not one was a blank worksheet. Among them were the
+    chapter's own answer tables -- "Municipal bond interest | Permanent
+    difference" -- so the sheet asked the question and printed the answer
+    beside it. A grid the chapter itself left blank for the reader is the
+    one honest case, and that is what this now allows.
     """
     for H in ch:
         for b in H['blocks']:
-            if b['kind'] == 'ref':
-                say('%s: a grid with nothing to fill in: %s'
-                    % (H['id'], b.get('title', '')[:50]), soft=True)
+            if b['kind'] != 'ref':
+                continue
+            content = [clean(str(c)) for r in b.get('rows', [])
+                       for c in list(r)[1:]]
+            content = [c for c in content
+                       if c and not S.BLANKCELL.match(c)]
+            blank = [c for r in b.get('rows', []) for c in list(r)[1:]
+                     if S.BLANKCELL.match(clean(str(c)))]
+            if len(blank) >= len(content):
+                continue        # the chapter's own worksheet, left blank
+            say('%s: a grid printed whole, with %d cells of content: %s'
+                % (H['id'], len(content), b.get('title', '')[:46]))
 
 
 PASSES = [p01_coverage, p02_bank, p03_numbering, p04_key, p05_distractor,

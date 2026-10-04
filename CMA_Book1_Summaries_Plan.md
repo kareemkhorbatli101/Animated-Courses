@@ -188,3 +188,59 @@ is repeated.
 - sheets with no figure at all: **6**, down from 14. Of those six, five still carry a gapped grid; **one sheet in the book (4.4) has neither**, because its 330 words are three mechanisms described in plain paragraphs and its glossary holds two words. Nothing is drawn on a guess.
 - only **2 graphs** in the whole book, and this is the source, not the toolchain: a line graph needs a quantity measured across three or more periods, and the book states one twice.
 - **4 sheets sit 1 to 2 gaps below the density standard** (5.3, 9.3, 17.3, 18.5). Each is a short section whose prose is almost entirely consumed by one figure. Reported rather than fixed by lowering the standard.
+
+---
+
+# The third pass: the grids
+
+The second pass ended with pass 20 reporting 32 grids "printed whole" as a
+soft note, and a comment saying some were unavoidable. The comment was
+wrong, and checking it was the whole of the third pass.
+
+**Not one of the 32 was unavoidable.** Among them were the chapter's own
+answer tables, printed with the answers in them:
+
+> `Municipal bond interest | Permanent difference`
+> `Tadmor Retail (75%) | Full consolidation`
+> `Bank loan | Split between current and noncurrent`
+
+The sheet asked the question and printed the answer beside it. Six causes,
+each a rule that was right in the case it was written for and wrong one
+step outside it:
+
+| cause | effect | now |
+|---|---|---|
+| a cell over 56 characters could not be gapped at all | the answer tables, whose cells are all explanations | too long to blank whole → it keeps its text and gives up one phrase inside it, the same rule the figures use |
+| a value two rows shared was dropped as a duplicate | the classification tables, where sharing a value *is* the lesson | the value stays a candidate; at most one of its occurrences is ever gapped |
+| "Current asset" counted as contained in "**non**current asset" | the classification tables again, emptied by the next rule down | containment is a phrase with whitespace boundaries, so a hyphen and a prefix do not cross it — while "cash flows, balance sheet" inside "income statement, cash flows, balance sheet" still matches |
+| `$0.37` did not read as an amount | one cell in a 26-row statement made the whole column look like text | a currency sign and a percent sign are part of a number |
+| one cell reading "none" disqualified a 36-row column | the statements of cash flows | a column is amounts by weight of evidence, not unanimously |
+| the label before a colon was taken from every cell that had one | chapter 4, where all four labels are "Retained earnings" | the label is used only where it tells the rows apart — a column-level decision, not a cell-level one |
+
+And two the build-time checks caught the moment the change landed, which
+is what they are for: a slot can now sit *inside* a cell, so counting
+empty cells no longer counts the gaps; and on a four-row table every
+candidate is used, so the word list had no wrong answer left to offer and
+the last gap could be had by elimination.
+
+## Result
+
+| | before | after |
+|---|---|---|
+| grids printed whole | 32 | **1** |
+| …and that one | — | chapter 4's `Item \| Answer`, where all four cells say "Retained earnings: …" and the only phrase that tells them apart is the amount |
+| grids the chapter left blank for the reader | counted as defects | recognised and left alone |
+| gaps in the book | 2,109 | **2,241** |
+
+Pass 20 is no longer a soft note. It fails, and it allows exactly one
+thing: a grid whose blank cells outnumber its filled ones, which is the
+chapter's own worksheet.
+
+## Still open
+
+Unchanged from the second pass, and still reported rather than argued
+away:
+
+- **4 sheets 1–2 gaps below the density standard** (5.3, 9.3, 17.3, 18.5) — short sections whose prose is almost entirely consumed by one figure
+- **6 sheets with no figure**, one of them (4.4) with no grid either
+- **2 graphs in the book**, because the book states one time series twice

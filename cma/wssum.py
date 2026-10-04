@@ -532,13 +532,82 @@ def gap_block(sents, terms, seed, spare_pool=()):
 
 
 # ------------------------------------------------------------------ tables
-def gap_table(t, seed, share=0.5):
-    """A table of the chapter with some cells taken out.
+# A cell short enough to copy off a word list is blanked whole. Past this
+# it keeps its text and gives up one phrase inside it — the same rule the
+# figures use, and for the same reason: filling a slot with seventy
+# characters of someone else's sentence is transcription, not recall.
+WHOLE_CELL = 56
+MARK = '\x00'
+
+
+def inside(a, b):
+    """Is `a` a separate phrase within `b`?
+
+    Not a run of letters, and not a part of a hyphenated word. "Asset"
+    inside "contra-asset" and "current liability" inside "noncurrent
+    liability" are the classifications a grid exists to teach, and a row
+    names its own item, so a reader has to choose between them rather
+    than guess. What is genuinely ambiguous is a list inside a longer
+    list: "cash flows, balance sheet" inside "income statement, cash
+    flows, balance sheet".
+    """
+    a, b = clean(a).lower(), clean(b).lower()
+    if not a or a == b:
+        return False
+    return bool(re.search(r'(?<![\w-])%s(?![\w-])' % re.escape(a), b))
+
+
+def prefixed(a, b):
+    """Does `b` begin with `a`, and then go on?
+
+    "No" and "No: 5 of 30 years (17%)" are two answers for one slot
+    however short the first is, so this one carries no length floor: a
+    reader who writes "No" in the slot that wanted the second has not
+    been caught out by anything the sheet taught.
+    """
+    a, b = clean(a).lower(), clean(b).lower()
+    if not a or a == b or not b.startswith(a):
+        return False
+    return bool(re.match(r'^[\s:,;(\u2014\u2013-]', b[len(a):]))
+
+
+def cell_phrase(v, terms=(), label=True):
+    """The one phrase inside a long cell that is worth taking out.
+
+    The chapter writes its answer cells as "Noncurrent asset: it is not
+    expected to be turned into cash within a year" — a classification, a
+    colon, and why. The classification is the whole of what the row
+    teaches, so that is the gap, and the reason that follows is what a
+    reader works from. Where there is no colon, the section's own
+    vocabulary comes next, and the cell's longest distinctive word last.
+    """
+    m = re.match(r'^([^:]{4,44}):\s', v) if label else None
+    if m:
+        return clean(m.group(1))
+    for t in sorted(terms, key=len, reverse=True):
+        if not 4 < len(t) <= 44:
+            continue
+        mm = re.search(r'\b%s\b' % re.escape(t), v, re.I)
+        if mm:
+            return v[mm.start():mm.end()]
+    words = sorted((w for w in re.findall(r"[A-Za-z][A-Za-z\-']{6,}", v)
+                    if w.lower() not in STOP), key=len, reverse=True)
+    return words[0] if words else None
+
+
+def gap_table(t, seed, share=0.5, terms=()):
+    """A table of the chapter with some of it taken out.
 
     A table is a summary in tabular form, so it is gapped the same way the
     prose is. The first column always stays: it is what names the row, and a
     row with no name cannot be reasoned about. A cell that another row also
     holds is never gapped, for the same reason a repeated word is not.
+
+    A cell too long to blank whole is not skipped. Skipping it printed
+    thirty-two grids across the book with nothing to do on them, and among
+    them were the chapter's own answer tables — "Municipal bond interest |
+    Permanent difference" — so the sheet asked the question and printed
+    the answer beside it.
     """
     _i, head, body = t
     # An amount is never gapped. A trial balance gapped on its figures asks
@@ -550,16 +619,78 @@ def gap_table(t, seed, share=0.5):
     # A table of names against amounts is the exception: there the amounts
     # are the clue and the name is the thing worth recalling, so that is
     # the column the gaps go in. Otherwise a trial balance yields nothing.
-    numeric = [j for j in range(1, len(head))
-               if all(not clean(r[j]) or NUMONLY.match(clean(r[j]))
-                      for r in body)]
+    # A column of amounts, judged by weight of evidence rather than by
+    # every cell. One cell reading "none" in a thirty-six-row statement of
+    # cash flows made the whole column look like text, so the gaps went to
+    # the amounts, every amount was refused, and the statement printed
+    # whole.
+    numeric = []
+    for j in range(1, len(head)):
+        # A cell the chapter left for the reader to fill in is evidence of
+        # nothing, so it votes neither way. Counting it as an amount made
+        # the Classification column of a blank worksheet look numeric, and
+        # the gaps would have gone to the questions.
+        vals = [clean(r[j]) for r in body
+                if clean(r[j]) and not BLANKCELL.match(clean(r[j]))]
+        nums = [v for v in vals if NUMONLY.match(v)]
+        # A handful of exceptions does not make a column of amounts into a
+        # column of text: one cell reading "none" in a statement of cash
+        # flows, two explanatory notes among six figures.
+        if len(nums) >= 3 and len(vals) - len(nums) <= max(2, len(vals) // 7):
+            numeric.append(j)
     first = len(numeric) == len(head) - 1
     cols = [0] if first else range(1, len(head))
-    cells = [(i, j) for i in range(len(body)) for j in cols
-             if clean(body[i][j]) and len(clean(body[i][j])) <= 56
-             and not NUMONLY.match(clean(body[i][j]))]
-    seen = collections.Counter(clean(body[i][j]) for i, j in cells)
-    cells = [(i, j) for i, j in cells if seen[clean(body[i][j])] == 1]
+    # Whether the label before a colon is worth taking is a property of
+    # the COLUMN, not of one cell. In chapter 5 the labels are Operating,
+    # Investing, Financing -- the whole of what the row teaches. In
+    # chapter 4 every one of them is "Retained earnings", so a sheet built
+    # on them would ask the same question four times and answer it in the
+    # heading. The label is used only where it tells the rows apart.
+    uselabel = {}
+    for j in cols:
+        labs = set()
+        for r in body:
+            v = clean(r[j])
+            m = re.match(r'^([^:]{4,44}):\s', v)
+            if m and len(v) > len(clean(m.group(1))) + 8:
+                labs.add(clean(m.group(1)).lower())
+        uselabel[j] = len(labs) >= 2
+    # (row, column, the answer, the cell as it is printed or None for whole)
+    cells = []
+    for i in range(len(body)):
+        for j in cols:
+            v = clean(body[i][j])
+            if not v or NUMONLY.match(v) or BLANKCELL.match(v):
+                continue
+            # The label before a colon is the answer whatever the cell's
+            # length. Taking it only from the long cells made one row
+            # offer "Noncurrent asset" and the next the whole of
+            # "Noncurrent asset: all deferred taxes are noncurrent", and
+            # the first then read as contained in the second, so both
+            # went and the table had too little left to gap.
+            lab = re.match(r'^([^:]{4,44}):\s', v) if uselabel[j] else None
+            if lab and len(v) > len(clean(lab.group(1))) + 8:
+                ph = clean(lab.group(1))
+                mk = re.sub(r'\b%s\b' % re.escape(ph), MARK, v, count=1)
+                if MARK in mk:
+                    cells.append((i, j, ph, mk))
+                    continue
+            if len(v) <= WHOLE_CELL:
+                cells.append((i, j, v, None))
+                continue
+            ph = cell_phrase(v, terms, label=uselabel[j])
+            if not ph or NUMONLY.match(ph):
+                continue
+            mk = re.sub(r'\b%s\b' % re.escape(ph), MARK, v, count=1)
+            if MARK not in mk:
+                continue
+            cells.append((i, j, ph, mk))
+    # A value several rows share is NOT dropped. Dropping it emptied the
+    # chapter's classification tables, where sharing a value is the whole
+    # point: three items are permanent differences, and that is what the
+    # row teaches. What the word list cannot take is two slots claiming
+    # one entry, so the value stays a candidate and at most one of its
+    # occurrences is ever gapped.
     # "Cash flows, balance sheet" sits inside "Income statement, cash flows,
     # balance sheet", so a list holding both gives one slot two defensible
     # entries. Neither is gapped.
@@ -568,30 +699,49 @@ def gap_table(t, seed, share=0.5):
     # clean(body[i][j])` to skip the cell itself, but clean() returns a new
     # string every call, so the test was always true, every cell matched
     # itself, and every table on every sheet lost all its gaps.
-    vals = [clean(body[i][j]).lower() for i, j in cells]
+    vals = [c[2].lower() for c in cells]
     keep = []
-    for a, (i, j) in enumerate(cells):
+    for a, c in enumerate(cells):
         me = vals[a]
-        if len(me) > 5 and any(b != a and me in vals[b]
-                               for b in range(len(vals))):
+        # Equal is not contained. Allowing a shared value as a candidate
+        # and then asking whether it sits inside another made every one of
+        # its own copies answer yes, so the classification tables emptied
+        # again by the next rule down.
+        # Contained AS A PHRASE, not as a run of letters. "Current asset"
+        # sits inside "noncurrent asset" the way "ear" sits inside
+        # "year", and dropping both left the classification tables with
+        # too few cells to gap -- while the case the rule is for,
+        # "cash flows, balance sheet" inside "income statement, cash
+        # flows, balance sheet", still matches on word boundaries.
+        if any(b != a and ((len(me) > 5 and inside(me, vals[b]))
+                           or prefixed(me, vals[b]) or prefixed(vals[b], me))
+               for b in range(len(vals))):
             continue
-        keep.append((i, j))
+        keep.append(c)
     cells = keep
-    if len(cells) < 3:
+    # Two is the floor, the same as a paragraph's. Three refused a
+    # four-row answer table whose two usable cells were a better exercise
+    # than printing the table whole, which is what refusing it meant.
+    if len(cells) < 2:
         return None
     # Rounded up, not to nearest: a five-cell table at 42 per cent rounds
     # to two, which leaves a reader almost nothing to do.
     want = max(2, min(10, -(-len(cells) * 45 // 100)))
-    pick, byrow = [], collections.Counter()
-    for i, j in shuffled(cells, seed):
+    pick, byrow, taken = [], collections.Counter(), set()
+    for c in shuffled(cells, seed):
         if len(pick) >= want:
             break
-        if byrow[i] >= max(1, (len(head) - 1) // 2):
+        if byrow[c[0]] >= max(1, (len(head) - 1) // 2):
             continue
-        pick.append((i, j))
-        byrow[i] += 1
+        if c[2].lower() in taken:
+            continue           # one slot per entry in the word list
+        pick.append(c)
+        taken.add(c[2].lower())
+        byrow[c[0]] += 1
     if len(pick) < 2:
         return None
+    pick.sort(key=lambda c: (c[0], c[1]))
+    at = dict(((c[0], c[1]), c) for c in pick)
     # The renderer treats an empty cell as a writing slot, so a cell the
     # chapter itself leaves empty — a journal's row number on the second
     # line of an entry — has to be handed over as a space. Otherwise the
@@ -600,13 +750,32 @@ def gap_table(t, seed, share=0.5):
     for i, r in enumerate(body):
         out = [clean(c) or ' ' for c in r]
         for j in range(len(head)):
-            if (i, j) in pick:
-                out[j] = ''
+            c = at.get((i, j))
+            if c is not None:
+                out[j] = c[3] if c[3] is not None else ''
         rows.append(out)
-    answers = [clean(body[i][j]) for i, j in sorted(pick)]
-    spares = [clean(body[i][j]) for i, j in cells if (i, j) not in pick]
-    extra = next((x for x in shuffled(spares, seed + 3)
-                  if x not in answers), None)
+    answers = [c[2] for c in pick]
+    # A spare has to come from somewhere. On a four-row table every
+    # candidate is used, so there was none, and a reader could finish the
+    # last gap by elimination. The column's other values come first,
+    # because they are the same kind of thing; the section's vocabulary
+    # after that.
+    spares = [c[2] for c in cells if (c[0], c[1]) not in at]
+    cols_used = sorted(set(c[1] for c in pick))
+    for j in cols_used:
+        for r in body:
+            v = clean(r[j])
+            if v and not NUMONLY.match(v) and not BLANKCELL.match(v):
+                spares.append(cell_phrase(v, terms) or v)
+    spares += [t for t in terms if 4 < len(t) < 40]
+    low = [a.lower() for a in answers]
+
+    def usable(x):
+        if not x or x.lower() in low:
+            return False
+        return not any(inside(x, a) or inside(a, x)
+                       or prefixed(x, a) or prefixed(a, x) for a in low)
+    extra = next((x for x in shuffled(spares, seed + 3) if usable(x)), None)
     bank = answers + ([extra] if extra else [])
     return dict(head=[clean(h) for h in head], rows=rows,
                 answers=answers, bank=shuffled(bank, seed + 1),
@@ -689,7 +858,16 @@ def english_only(text):
 
 
 ARABIC = re.compile(u'[\u0600-\u06ff]')
-NUMONLY = re.compile(u'^[\\d,.()\u2014\u2013 \u2212-]+$')
+# The chapter leaves some of its own tables for the reader to fill in, and
+# writes the blank as a run of underscores. That is a writing slot, not a
+# value: gapping it offers "________" as an answer on a word list.
+BLANKCELL = re.compile(u'^[_\u2014\u2013. \u00b7]{2,}$')
+# An amount keeps its currency sign and its percent sign. Without them
+# "$0.37" read as text, so the earnings-per-share row made the whole
+# column of a statement look non-numeric, and the gaps went to the one
+# cell in twenty-six that was not a figure.
+NUMONLY = re.compile(u'^[$\u00a3\u20ac\u00a5]?[\\d,.()%\u2014\u2013 \u2212-]+'
+                     u'(?:\\s*(?:USD|EUR|SYP|AED|JOD|%))?$')
 
 
 def _nobullet(x):
@@ -964,7 +1142,7 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
                                        for c in r if clean(c)],
                                 data=data, seed=seed + 100 + k))
                 continue
-            g = gap_table(v, seed + 100 + k)
+            g = gap_table(v, seed + 100 + k, terms=terms)
             if g:
                 out.append(dict(kind='table', title=title, **g))
             else:
@@ -1336,11 +1514,21 @@ def check(hs, bk=1, n=1):
                 if a not in bank:
                     bad.append('%s: the answer %r is not in its list'
                                % (hid, a))
-            # a word list that holds one answer inside another gives a gap
-            # two defensible answers
+            # A word list that holds one answer inside another gives a gap
+            # two defensible answers. In a grid the test is word
+            # boundaries, not letters: a row names its own item, so
+            # "Current asset" against "Noncurrent asset" is the
+            # classification the sheet is teaching, and only a genuine
+            # sub-phrase -- "cash flows, balance sheet" inside "income
+            # statement, cash flows, balance sheet" -- is ambiguous.
             for x in bank:
                 for y in bank:
-                    if x is not y and len(x) > 5 and x.lower() in y.lower():
+                    if x is y or len(x) <= 5:
+                        continue
+                    hit = (inside(x, y) or prefixed(x, y)
+                           if b['kind'] == 'table'
+                           else x.lower() in y.lower())
+                    if hit:
                         bad.append('%s: the list holds both %r and %r'
                                    % (hid, x, y))
             if b['kind'] == 'prose':
@@ -1361,7 +1549,10 @@ def check(hs, bk=1, n=1):
                     bad.append('%s: a block opens mid-thought: %.40r'
                                % (hid, b['book']))
             else:
-                blanks = sum(1 for r in b['rows'] for c in r if c == '')
+                # A slot is a whole empty cell OR one marked inside a
+                # cell the chapter wrote too long to blank entirely.
+                blanks = sum(1 for r in b['rows'] for c in r
+                             if c == '' or MARK in str(c))
                 if blanks != len(ans):
                     bad.append('%s: table has %d slots against %d answers'
                                % (hid, blanks, len(ans)))

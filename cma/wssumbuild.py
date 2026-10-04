@@ -95,14 +95,28 @@ class Doc(wsdoc.WDoc):
         for i, r in enumerate(rows):
             cs = []
             for j, c in enumerate(list(r)[:len(w)]):
+                c = str(c)
                 if c == '':
                     cs.append(cell(
                         para([run('(%d)' % k, b=True, color=PERI, sz=14)],
                              '<w:spacing w:before="46" w:after="46"/>'),
                         w[j], PAPER, 80))
                     k += 1
+                elif wssum.MARK in c:
+                    # A cell too long to blank whole keeps its text and
+                    # gives up one phrase inside it, so the slot sits in
+                    # the line rather than replacing it.
+                    a, _m, b = c.partition(wssum.MARK)
+                    cs.append(cell(para(
+                        [run(a, sz=15)]
+                        + [run(' (%d) ' % k, b=True, color=PERI, sz=14),
+                           run(' ' * 14, u=True, sz=15), run(' ', sz=15)]
+                        + [run(b, sz=15)],
+                        '<w:spacing w:before="28" w:after="28"/>'),
+                        w[j], CREAM if i % 2 else None, 80))
+                    k += 1
                 else:
-                    cs.append(cell(wsdoc._p(str(c), 15, before=28, after=28),
+                    cs.append(cell(wsdoc._p(c, 15, before=28, after=28),
                                    w[j], CREAM if i % 2 else None, 80))
             out.append(row(cs))
         self.body.append(table(out, w, INDIGO, 6))
