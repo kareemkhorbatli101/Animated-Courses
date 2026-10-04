@@ -124,6 +124,8 @@ student meets it:
 | 20 | nothing printed whole that the reader could have worked on |
 | 21 | no gap a reader can fill without knowing the answer |
 | 22 | every gapped block, refilled from its own key, is what the book says |
+| 23 | every numbered gap a figure draws is in the answer key |
+| 24 | every sentence the generator leaves out, it leaves out for a reason |
 
 Pass 22 is the one that compares the sheet to the source rather than
 reading the sheet alone: between the book and the handout the text passes
@@ -158,51 +160,58 @@ other book is almost always a convention, not a defect in the sheets.
 | | book 1 | book 2 | book 3 |
 |---|---|---|---|
 | sheets | 94 | 116 | 106 |
-| gaps | 2,317 | 1,832 | 1,542 |
-| gaps per sheet | 24.6 | 15.8 | 14.5 |
-| gaps per 100 words of prose | 7.7 | 8.1 | 7.8 |
+| gaps | 2,406 | 1,924 | 1,602 |
+| gaps per sheet | 25.6 | 16.6 | 15.1 |
+| prose words carried | 21,775 | 14,906 | 11,823 |
 | figures per sheet | 1.82 | 1.34 | 1.32 |
 | sheets with no figure | 3 (3%) | 23 (20%) | 21 (20%) |
 | …of those, with no grid either | 1 | 5 | 1 |
 | forms used | 10 | 6 | 6 |
 | findings | **0** | **0** | **0** |
 
+316 handouts, 5,932 gaps, every one of the 24 passes and the build checks
+clean on all three books.
+
 ### Where the books differ, and why
 
-The one number that says the standard holds across all three is **gaps per
-100 words of prose: 7.7, 8.1, 7.8**. Each book works its own source
-equally hard.
+Book 1 is financial reporting: it argues, compares and defines, so its
+prose carries contrasts, two-way tests and counted sets, and its chapters
+name three and a half terms a section. Books 2 and 3 are cost accounting:
+they compute and allocate, their sections are shorter, and their content
+lives in tables of numbers. Four of book 1's forms — contrast, sides,
+panel, branch — fire in them **never**, and forcing them would mean
+asserting an opposition or a test the chapters do not make. A structural
+rule loose enough to read their three-column tables as contrasts also
+read `Technique | Idea | Example` as two sides, so that route was dropped
+rather than loosened.
 
-Everything else follows from what the books ARE. Book 1 is financial
-reporting: it argues, compares and defines, so its prose carries
-contrasts, two-way tests and counted sets, and its chapters name three
-and a half terms a section. Books 2 and 3 are cost accounting: they
-compute and allocate, their sections are half as long, and their content
-lives in tables of numbers.
+What the three books share instead is their own shapes: the **period**
+however a book names one (book 1 reports in years, books 2 and 3 budget
+in quarters), the **bridge from a table** (a column whose entries sum to
+its own last row, arithmetic as the detector), and the **word web** at
+three spokes rather than four.
 
-So three of book 1's forms — **contrast, sides, panel, branch** — fire in
-books 2 and 3 **never**, and forcing them would mean asserting an
-opposition or a test the chapters do not make. Two things were done
-instead, and both are the books' own shapes rather than book 1's:
+### The last pass, and what it found
 
-- **the period, however a book names one.** `YEARH` knew years, because
-  book 1 reports in years. Books 2 and 3 budget in quarters, and sixteen
-  quarterly schedules — exactly the tables a line is the right picture
-  for — were being read as ordinary grids. Graphs in book 3: 1 → 9.
-- **the bridge from a table.** A column whose entries sum to its own last
-  row is a build-up, and a waterfall is what shows one. The arithmetic is
-  the detector, so nothing is drawn on a guess. This is the one form the
-  three books share in strength: 7, 11 and 4.
+Passes 23 and 24 were written to answer "no regressions, no omissions"
+with evidence rather than inference, and both found real defects:
 
-And one threshold moved: **a word web now needs three spokes, not four.**
-Four was right for book 1; book 3 has thirty-six sections with exactly
-three terms. Webs: book 2 39 → 71, book 3 24 → 54, and book 1 gained ten
-of its own. Sheets with no figure at all fell from 29% and 32% to 20% in
-both, and from 6% to 3% in book 1.
-
-**What the 20% is.** Of the 44 figure-less sheets in books 2 and 3, 38
-carry a gapped grid — the section's own table, with cells taken out of
-it, which is a visual exercise even though it is not a diagram. **Six
-sheets in the three books carry neither**, and every one of them is a
-section of under 120 words of prose naming two terms or fewer. There is
-nothing there to draw.
+- **A figure can draw a slot it never records.** Gap numbers are drawn
+  *inside* the image, so the key and the picture could disagree and every
+  pass still read clean. `panelfig` was numbering a blanked label from a
+  counter that later gaps had already advanced, so the key claimed a
+  number the sheet never showed. The numbers are now taken off the canvas
+  and travel with the figure.
+- **A line was being judged by one of its sentences.** Three separate
+  times: a paragraph that mentioned a figure, a line that opened on a
+  lowercase word, a line whose first sentence was a pointer. Each threw
+  away the rest of the line. A LINE is now rejected only for what it is
+  as a whole — a box label, a row of capitals — and every other test
+  belongs to one sentence. **Prose carried rose from 3,198 sentences to
+  6,034.**
+- Three smaller ones in the same area: `unbooked` was manufacturing
+  sentences by appending a full stop to fragments; `deglossed` turned
+  "French résultat means profit, not result in general" into "Not result
+  in general." and `english_only` then approved it; and a box, which the
+  parser stores as a one-column table, was being counted as a grid, so
+  its prose had no position and its blocks read out of order.

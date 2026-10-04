@@ -129,9 +129,15 @@ def is_proseline(line):
     of one sentence, so it is screened one sentence at a time, below.
     """
     x = clean(line)
-    if not x or x.isupper() or CAP.match(x) or BOX.match(x):
-        return False
-    if not x[0].isupper() or not x.endswith('.'):
+    # A LINE is rejected only for what it is as a whole: a box label, a
+    # row of capitals. Everything else -- the capital it opens on, the
+    # full stop it ends with, the figure it names -- is a property of one
+    # SENTENCE, and judging the line by it threw the rest of the line
+    # away three separate times. "Figure F03-03 puts the same numbers
+    # into both layouts. The single-step form is simpler to read, but it
+    # hides useful information." is one line; the first sentence is a
+    # pointer and the second is the section's point.
+    if not x or x.isupper() or BOX.match(x):
         return False
     if re.match(r'^[A-E][.)]\s', x):
         return False
@@ -148,6 +154,16 @@ def is_prose(line):
     """
     x = clean(line)
     if not is_proseline(x):
+        return False
+    # And here is where those properties belong.
+    if not x.endswith('.') or CAP.match(x):
+        return False
+    # The capital belongs HERE, on the sentence, not on the line it came
+    # from. The chapter's false-friend entries read "income and revenue -
+    # Arabic ... Revenue is the gross amount from sales.", so the line
+    # opens lowercase and the rule threw away twenty-six sentences of
+    # exactly the guidance these readers need.
+    if not x[0].isupper():
         return False
     if ITEMID.search(x) or FIGREF.search(x):
         return False
@@ -178,6 +194,11 @@ FIGCLAUSE = re.compile(
     re.I)
 
 
+TRAIL = re.compile(r'\s*(?:[,;:]\s*)?\b(?:which\s+is\s+what|which|that|'
+                   r'when|while|as|and|or|but|than|what|who|whose|where|'
+                   r'because|if)\s*\.$', re.I)
+
+
 def unbooked(text):
     """The sentence without the clause that points into the book.
 
@@ -193,6 +214,7 @@ def unbooked(text):
     # opening on "It sets targets", with nothing on the page for "It" to
     # mean. A sentence that is ONLY the pointer still goes, because what
     # is left of it is too short to be prose.
+    had_stop = clean(text).endswith('.')
     out = FIGCLAUSE.sub(' ', clean(text))
     out = BOOKREF.sub('', out)
     out = re.sub(r'\s*([,;:])\s*([,;:])', r'\1', out)
@@ -203,15 +225,84 @@ def unbooked(text):
     # "like the receivables in Chapter 6: the company" as "in : the".
     out = re.sub(r'(?:,\s*)?\b(?:from|in|of|like|as|see|per|under)\s*'
                  r'(?=[.:;]|$)', '', out)
+    # The word that introduced the pointer goes with it. "It stays open
+    # until year-end, when Chapter 8 closes it" came out as "...until
+    # year-end, when." -- the clause was removed and the subordinator
+    # that led into it was left holding the full stop. A preposition is
+    # NOT in this list: "an activity customers are willing to pay for" is
+    # a sentence, and cutting it back would be the fix doing the damage.
+    for _n in range(3):
+        cut = TRAIL.sub('', out)
+        if cut == out:
+            break
+        out = cut + '.'
+    # And a bracket the pointer was inside: "(Section 7.5, the case set
+    # and Chapter 12)" lost its closing bracket with the pointer.
+    if out.count('(') > out.count(')'):
+        out = out[:out.rindex('(')].rstrip(' ,;:') + '.'
     out = re.sub(r',\s*,', ',', out)
     out = re.sub(r'\s{2,}', ' ', out).strip(' ,;')
     out = re.sub(r'\s+([.,;:])', r'\1', out)
-    if out and not out.endswith('.'):
+    # The full stop goes back only if there was one. Adding it regardless
+    # turned fragments into sentences: "Investors (shareholders) -
+    # PRIMARY" is a cell of the users table and has no full stop, and
+    # with one appended it read as prose and the coverage check asked for
+    # it on a sheet.
+    # The cuts above each put the full stop back so the next pattern can
+    # anchor on it; here it comes off again if the text never had one.
+    if not had_stop:
+        out = out.rstrip('. ')
+    elif out and not out.endswith('.'):
         out += '.'
     return clean(out)
 
 
-def prose_sents(text):
+def raw_cells(d, sec):
+    """Every cell of every table the chapter puts in this section.
+
+    tables_in applies quality filters -- it drops the glossaries, the
+    front matter, the worksheets with nothing in them -- which is right
+    for deciding what to PRINT and wrong for deciding what is already a
+    cell. A cell of a table the sheet does not print is still not prose.
+    """
+    want = clean(sec['no'])
+    out = []
+    for i, tb in enumerate(d['tables']):
+        if clean(d['tsec'].get(str(i), '')) != want:
+            continue
+        # A box arrives as a table of one column, and its body is prose:
+        # the chapter's exam traps and false-friend alerts are written in
+        # sentences. Counting them as cells took that prose out of
+        # prose_sents, which left the blocks built from it with no
+        # position and the sheet reading out of the chapter's order.
+        if not tb or len(tb[0]) < 2:
+            continue
+        out.append((i, list(tb[0]), [list(r) for r in tb[1:]]))
+    return out
+
+
+def cell_sents(tbls):
+    """Every sentence that is already a cell of one of these tables.
+
+    A cell can read exactly like a sentence -- "Investors (shareholders)
+    - PRIMARY.", "What does the company have and owe?" -- and the sheet
+    shows it as a cell, where it belongs. Without this it is read as
+    prose as well, and the coverage check then asks for it twice.
+    """
+    out = set()
+    for t in (tbls or []):
+        for r in [t[1]] + list(t[2]):
+            for c in r:
+                v = clean(c)
+                if not v:
+                    continue
+                out.add(v.lower())
+                for x in split_sentences(v):
+                    out.add(clean(x).lower())
+    return out
+
+
+def prose_sents(text, cells=()):
     """Every sentence of the chapter's own prose in this text, cleaned.
 
     One place, so the cleaning is the same everywhere. It used to be an
@@ -222,6 +313,20 @@ def prose_sents(text):
     out = []
     for ln in text.split('\n'):
         if not is_proseline(ln):
+            continue
+        # A caption line IS the whole line -- "Figure F01-01. Users of
+        # financial statements and what they need." -- and it describes a
+        # drawing the handout does not reproduce, so all of it goes. That
+        # is different from a sentence that merely names a figure in
+        # passing, which keeps the paragraph it sits in.
+        if CAPLINE.match(clean(ln)):
+            continue
+        # And a question of the chapter's own bank. The item number sits
+        # on the first sentence of the line -- "SC2-6 At December 31 a
+        # company breaks a covenant..." -- so testing sentence by
+        # sentence let the rest of the question through as prose, and the
+        # sheet, which stops at the bank, could never carry it.
+        if ITEMID.search(clean(ln)):
             continue
         for x in split_sentences(clean(ln)):
             # Shape first, then the clauses come out, and only then the
@@ -236,6 +341,9 @@ def prose_sents(text):
             # into a book the reader has not got. These sheets replace the
             # book, so a pointer is the one kind of sentence they drop.
             if SELFREF.search(x):
+                continue
+            if cells and (x.lower() in cells
+                          or deglossed(x).lower() in cells):
                 continue
             out.append(deglossed(x))
     return out
@@ -1057,11 +1165,23 @@ def deglossed(text):
 
 
 def english_only(text):
-    """Is there anything left of this sentence that is not French?"""
-    t = deglossed(text)
-    if not t or FRACC.search(t):
+    """Is there anything left of this sentence that is not French?
+
+    An accent is not the only mark of it. "The balance sheet is le bilan"
+    carries none, and a French article in front of a French noun is as
+    plain a signal as an accent -- plainer, in a book that teaches the
+    false friends between the two languages.
+    """
+    # On the ORIGINAL, before any gloss is cut. "French resultat means
+    # profit, not result in general" is a sentence about a French word,
+    # and cutting its accented clauses first left "Not result in
+    # general." -- which carries no accent, reads as English and is
+    # nonsense.
+    raw = clean(text)
+    if re.match(r'^(?:In\s+|The\s+)?(?:French|Arabic)\b', raw, re.I):
         return False
-    if re.match(r'^(French|In French|The French)\b', t, re.I):
+    t = deglossed(text)
+    if not t or FRACC.search(t) or FRWORD.search(t):
         return False
     if ARABIC.search(t):
         return False
@@ -1159,7 +1279,7 @@ def prepare(sec, tbls):
     return out
 
 
-def prose_figures(sec, tbls, terms, seed):
+def prose_figures(sec, tbls, terms, seed, cells=()):
     """Figures the section's PROSE supports, and the sentences they use.
 
     A figure drawn from prose has to take those sentences with it.
@@ -1181,7 +1301,7 @@ def prose_figures(sec, tbls, terms, seed):
 
     Returns a list of (position, [blocks], consumed).
     """
-    sents = [x for x in prose_sents(sec['text'])
+    sents = [x for x in prose_sents(sec['text'], cells)
              if not SELFREF.search(x) and not FURNITURE.match(x)]
     out, taken = [], set()
 
@@ -1302,7 +1422,8 @@ def prose_figures(sec, tbls, terms, seed):
     return out
 
 
-def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
+def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
+               cells=()):
     """The section as gapped summary blocks, in the order it is written.
 
     The chapter's own sub-headings become dividers between the summaries,
@@ -1325,11 +1446,11 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
     # sentence is gapped twice — once in a paragraph and once in a picture
     # — and the rule that every sentence appears exactly once keeps
     # holding.
-    pfigs = prose_figures(sec, tbls, terms, seed)
+    pfigs = prose_figures(sec, tbls, terms, seed, cells)
     eaten = set()
     for _pos, _blks, used in pfigs:
         eaten |= used
-    allsents = prose_sents(sec['text'])
+    allsents = prose_sents(sec['text'], cells)
     order = dict((x, i) for i, x in enumerate(allsents))
     wordpool = []
     seenw = set()
@@ -1555,7 +1676,7 @@ def meanings(sec, terms, tbls=()):
     return out
 
 
-def number_and_draw(blocks, terms, seed):
+def number_and_draw(blocks, terms, seed, order=None):
     """Give every gap its number, and draw the figures with theirs in them.
 
     A paragraph's gaps can be numbered when the sheet is laid out, because
@@ -1565,6 +1686,7 @@ def number_and_draw(blocks, terms, seed):
     renderer uses the numbers it is given rather than counting again.
     """
     spares = [t for t in terms if 4 < len(t) < 34]
+    order = order or {}
     n = 1
     out = []
     for b in blocks:
@@ -1615,8 +1737,13 @@ def number_and_draw(blocks, terms, seed):
                         # other block. Appending it unnumbered left the
                         # sheet claiming a gap that the key could not
                         # find.
+                        # Where its own first sentence stands, not nought:
+                        # a position of nought reads as the top of the
+                        # section and puts the block out of the chapter's
+                        # order.
                         out.append(dict(kind='prose', carry=[], _first=n,
-                                        _underhead=True, _pos=0, **g))
+                                        _underhead=True,
+                                        _pos=order.get(said[0], 0), **g))
                         n += len(g['answers'])
                     else:
                         out.append(dict(kind='plain',
@@ -1665,8 +1792,9 @@ def build_section(d, si, bk=1, seed=None):
             continue
         seen.add(t.lower())
         uniq.append(t)
+    cells = cell_sents(raw_cells(d, sec))
     blocks = blocks_for(sec, tbls, uniq, seed, caption_for(d, sec),
-                        [clean(e) for e, _a in local])
+                        [clean(e) for e, _a in local], cells)
     # The section's own glossary, as a web around its subject. This is the
     # one diagram that does not depend on a table having the right shape,
     # and it covers 45 of the book's 94 sections; the rest share a
@@ -1725,7 +1853,9 @@ def build_section(d, si, bk=1, seed=None):
         blocks.insert(0, dict(kind='form', form='flow',
                               title='Chapter %d, section by section' % n,
                               data=dict(steps=steps), seed=seed + 66))
-    blocks = number_and_draw(blocks, uniq, seed)
+    blocks = number_and_draw(
+        blocks, uniq, seed,
+        dict((x, i) for i, x in enumerate(prose_sents(sec['text'], cells))))
     nsent = sum(len(split_sentences(b.get('book') or b.get('text') or ''))
                 for b in blocks if b['kind'] in ('prose', 'plain'))
     ngaps = sum(len(b.get('answers') or []) for b in blocks)
@@ -1787,7 +1917,7 @@ def check(hs, bk=1, n=1):
     for si, H in enumerate(hs):
         sec = d['sections'][si]
         hid = H['id']
-        avail = prose_sents(sec['text'])
+        avail = prose_sents(sec['text'], cell_sents(raw_cells(d, sec)))
         # A journal's explanation cell holds a whole sentence, sometimes
         # two, so the comparison has to be sentence by sentence. Comparing
         # whole cell values reported four sentences as missing that a

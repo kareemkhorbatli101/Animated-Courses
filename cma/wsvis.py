@@ -893,6 +893,7 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
     for i, (nm, sub) in enumerate(items):
         blank = i in gaps
         name = nm
+        nameno = None
         body = sub or ''
         if extra[i] and not (blank and gap == 'body'):
             for h in extra[i]:
@@ -910,6 +911,11 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
             k += 1
         elif blank and gap == 'name':
             answers.append(name)
+            # The number is taken HERE, not read back off k when the row
+            # is drawn: the gaps inside the same row advance k first, so
+            # "k - 1" at drawing time was some later gap's number and the
+            # one the key claimed was never drawn at all.
+            nameno = k
             name = None
             k += 1
         for h in (extra[i] or []):
@@ -929,7 +935,7 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
         c.rect(24, y, NW, rh, A.PAPER if name is None else fill, col, 1.6, 6)
         if name is None:
             c.slot(34, y + rh / 2.0 - 13, NW - 20, 26)
-            c.text(24 + NW / 2.0, y + rh / 2.0 + 5, '(%d)' % (k - 1), 15,
+            c.text(24 + NW / 2.0, y + rh / 2.0 + 5, '(%d)' % nameno, 15,
                    A.GREY_L, True)
         else:
             c.centred(24 + NW / 2.0, y + rh / 2.0, name, NW - 24, 14, col,
@@ -1180,9 +1186,25 @@ def _bank(answers, spares, seed):
 
 
 def _fig(kind, title, c, answers, bank, note=''):
+    """The finished figure, with the gap numbers it actually drew.
+
+    A figure's numbers are drawn INSIDE the image, so nothing downstream
+    can read them back: if a builder draws a slot it does not record, or
+    records an answer it never drew a slot for, the answer key is wrong
+    and every pass still reads clean. The numbers are therefore taken off
+    the canvas before it is rendered and travel with the figure, so a
+    pass can hold the key against what the reader will see.
+
+    A figure's own content can hold brackets -- a label like "Guiding
+    principle (7)", an amount like "(400)" -- so these are the numbers
+    the image CONTAINS, and the test is that every number the key claims
+    is among them, not that there is nothing else.
+    """
     png, w, h = c.render()
+    nums = sorted(set(int(m) for m in re.findall(r'\((\d{1,3})\)',
+                                                 c.svg())))
     return dict(kind='fig', form=kind, title=title, png=png, w=w, h=h,
-                answers=answers, bank=bank, note=note)
+                answers=answers, bank=bank, note=note, _nums=nums)
 
 
 def flowfig(title, steps, seed, first, spares=()):

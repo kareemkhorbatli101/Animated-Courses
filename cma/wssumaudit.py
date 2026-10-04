@@ -99,7 +99,8 @@ def p01_coverage(ch, say):
     """1. Every sentence of every section is on its sheet exactly once."""
     for H in ch:
         sec = H['_sec']
-        want = S.prose_sents(sec['text'])
+        want = S.prose_sents(sec['text'],
+                              S.cell_sents(S.raw_cells(H['_doc'], sec)))
         # What the sheet is allowed to leave out is what wssum itself
         # drops, so the generator's own rule is the one applied here:
         # a stricter pattern of its own reported three sentences missing
@@ -462,8 +463,9 @@ def p18_size(ch, say):
         # glossary, none of which a summary sheet carries, so measuring
         # against it failed forty-seven sheets for the book's shape
         # rather than the handout's.
-        nwords = sum(len(x.split())
-                     for x in S.prose_sents(H['_sec']['text']))
+        nwords = sum(len(x.split()) for x in S.prose_sents(
+            H['_sec']['text'],
+            S.cell_sents(S.raw_cells(H['_doc'], H['_sec']))))
         nt = sum(1 for b in H['blocks'] if b['kind'] in ('table', 'ref'))
         floor = max(4, nwords // 14 + nt)
         if g < floor:
@@ -606,8 +608,15 @@ def p21_guessable(ch, say):
                 continue
             sizes = [len(x.split()) for x in ans]
             lo, hi = min(sizes), max(sizes)
+            # The tolerance is proportional. A word either side is right
+            # for answers of two or three words, where a fourth is
+            # conspicuous; against answers of nine, a spare of seven is
+            # not something a reader strikes out at a glance, and holding
+            # it to eight was holding the sheet to a difference nobody
+            # can see.
+            slack = max(1, int(round(0.25 * hi)))
             for x in spare:
-                if not lo - 1 <= len(x.split()) <= hi + 1:
+                if not lo - slack <= len(x.split()) <= hi + slack:
                     say('%s %s: the spare word %r is %d words against '
                         'answers of %d to %d, so it strikes out without '
                         'reading' % (H['id'], b['kind'], x[:34],
@@ -679,12 +688,94 @@ def p22_roundtrip(ch, say):
                 say('%s table: %d answers used of %d' % (H['id'], k, len(ans)))
 
 
+def p23_figurekey(ch, say):
+    """23. Every numbered gap a figure draws is in the answer key.
+
+    The one claim nothing else could check. A figure's gap numbers are
+    drawn inside its image, so the key and the picture can disagree
+    without any pass noticing: an answer recorded for a slot that was
+    never drawn leaves a number in the key that is nowhere on the sheet,
+    and a slot drawn without an answer leaves a reader filling in a blank
+    the key cannot mark.
+    """
+    for H in ch:
+        for b in H['blocks']:
+            if b['kind'] != 'fig':
+                continue
+            want = list(range(b['_first'],
+                              b['_first'] + len(_answers(b))))
+            drawn = set(b.get('_nums') or [])
+            missing = [k for k in want if k not in drawn]
+            if missing:
+                say('%s %s: the key numbers %s but the figure draws no '
+                    'such slot' % (H['id'], b['form'], missing[:6]))
+
+
+def p24_dropped(ch, say):
+    """24. Every sentence the generator leaves out, it leaves out for a reason.
+
+    Pass 1 proves that what the generator KEEPS reaches the sheet. This is
+    the other half, and the half that can hide an omission: a sentence the
+    generator quietly declines is gone from the handout and from every
+    other pass, because every other pass reads the sheet. So each sentence
+    of the source that does not reach prose_sents has to answer to one of
+    the reasons the standard allows -- it is the chapter's furniture, its
+    question bank, a caption, a pointer into the book, French, a glossary
+    row, a cell of a table, or not a sentence at all. Anything else is
+    content that fell out, and it is named here.
+    """
+    for H in ch:
+        sec, d = H['_sec'], H['_doc']
+        kept = set(S.prose_sents(sec['text'],
+                                 S.cell_sents(S.raw_cells(d, sec))))
+        # Every cell of every table the chapter puts here, not only the
+        # ones the sheet prints: a sentence that is a cell is on the
+        # sheet as a cell, which is where it belongs.
+        cells = S.cell_sents(S.raw_cells(d, sec))
+        stop = False
+        for ln in sec['text'].split('\n'):
+            line = clean(ln)
+            if not line:
+                continue
+            if re.match(r'^(SECTION CHECK|Test yourself)', line, re.I):
+                stop = True
+            if stop or S.title_of(line, sec['no'], sec['title']):
+                continue
+            if re.match(r'^(%s)\b' % '|'.join(S.PB.BOXES), line):
+                continue
+            # A caption line is skipped WHOLE, as the generator skips it:
+            # splitting it gives "Figure F03-03." and then the caption
+            # itself, which no longer looks like a caption.
+            if S.CAPLINE.match(line) or S.ITEMID.search(line):
+                continue
+            for x in S.split_sentences(line):
+                x = clean(x)
+                if not x or x in kept or S.unbooked(x) in kept:
+                    continue
+                if x.lower() in cells or line.lower() in cells:
+                    continue
+                if not x.endswith('.') or not x[0].isupper() or x.isupper():
+                    continue                     # a label or a list item
+                if len(x.split()) < 4:
+                    continue                     # too short to be prose
+                if S.CAPLINE.match(x) or S.FIGREF.search(x):
+                    continue                     # a caption or a pointer
+                if S.FURNITURE.match(x) or re.match(r'^[A-E][.)]\s', x):
+                    continue
+                if not S.english_only(x) or S.ARABIC.search(x):
+                    continue
+                if S.SELFREF.search(x) or not S.is_prose(S.unbooked(x)):
+                    continue                     # a pointer into the book
+                say('%s: a sentence of the section is on no sheet and has '
+                    'no reason to be left out: %s' % (H['id'], x[:72]))
+
+
 PASSES = [p01_coverage, p02_bank, p03_numbering, p04_key, p05_distractor,
           p06_density, p07_opening, p08_selfref, p09_furniture,
           p10_language, p11_figure, p12_honesty, p13_legible, p14_table,
           p15_sequence, p16_distinct, p17_grounded, p18_size,
           p19_tables, p20_untouched, p21_guessable,
-          p22_roundtrip]
+          p22_roundtrip, p23_figurekey, p24_dropped]
 
 
 def audit(bk=1, n=1, verbose=True):
