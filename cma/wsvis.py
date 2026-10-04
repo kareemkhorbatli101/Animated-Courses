@@ -448,10 +448,33 @@ def chartfig(title, col, rows, seed, first, spares=()):
 
 
 def graphfig(title, periods, rows, seed, first, spares=()):
-    """A quantity over periods, with some period labels missing."""
+    """A quantity over periods, with some period labels missing.
+
+    Two things have to be settled before anything is drawn. Series of very
+    different size cannot share an axis: the bond schedule puts a carrying
+    amount near 102,000 beside an interest figure near 5,000, and plotted
+    together the three smaller lines lie flat on the axis and say nothing.
+    So only the series within one band are drawn — the largest such group
+    — and the rest are left out rather than flattened.
+
+    And the series names sit to the right of the last point, so the plot
+    has to stop early enough to leave room for them. It did not, and they
+    ran off the edge of the figure.
+    """
+    # keep the biggest group of series that share a scale
+    tops = sorted(((max(abs(v) for v in ser) or 1.0), i)
+                  for i, (_nm, ser) in enumerate(rows))
+    best = None
+    for a, (hi, _i) in enumerate(tops):
+        grp = [j for lo, j in tops if lo <= hi * 10 and lo >= hi / 10.0]
+        if best is None or len(grp) > len(best[0]) or (
+                len(grp) == len(best[0]) and hi > best[1]):
+            best = (grp, hi)
+    rows = [rows[i] for i in sorted(best[0])] if best else rows
     c = A.Canvas(W)
     y = c.text(W / 2.0, 30, title, 20, A.INDIGO, True) + 24
-    PH, PW = 200.0, W - 150.0
+    LABW = 176.0
+    PH, PW = 200.0, W - 90.0 - LABW
     x0, y0 = 90.0, y
     vals = [v for _nm, s in rows for v in s]
     hi, lo = max(vals), min(min(vals), 0)
@@ -460,6 +483,12 @@ def graphfig(title, periods, rows, seed, first, spares=()):
     c.line(x0, y0 + PH, x0 + PW, y0 + PH, A.GREY_L, 1.6)
     n = len(periods)
     step = PW / float(max(1, n - 1))
+    # The gaps go on the SERIES, not on the periods. Asking which year
+    # follows 2025 and 2026 tests counting; asking which line is the cash
+    # interest makes a reader read the lines — the one that never moves is
+    # the coupon, the one that drifts down is the revenue.
+    answers, k = [], first
+    gaps = _pick(rows, seed, nomax=max(1, len(rows) // 2))
     for si, (nm, series) in enumerate(rows):
         col = [A.INDIGO, A.AMBER, A.TEAL, A.RED][si % 4]
         pts = [(x0 + i * step, y0 + PH - PH * ((v - lo) / span))
@@ -469,22 +498,22 @@ def graphfig(title, periods, rows, seed, first, spares=()):
                    col, 2.4)
         for px, py in pts:
             c.circle(px, py, 4.5, col, A.PAPER, 1.5)
-        c.text(x0 + PW + 6, pts[-1][1] + 5, nm[:18], 13, col, True, 'start')
-    gaps = _pick(periods, seed, nomax=max(1, n // 2))
-    answers, k = [], first
-    for i, p in enumerate(periods):
-        px = x0 + i * step
-        if i in gaps:
-            _slotnum(c, px - 38, y0 + PH + 10, 76, 26, k)
-            answers.append(p)
+        lx = x0 + PW + 10
+        if si in gaps:
+            _slotnum(c, lx, pts[-1][1] - 15, LABW - 16, 30, k)
+            answers.append(nm)
             k += 1
         else:
-            c.text(px, y0 + PH + 28, p, 14, A.INK, True)
+            c.labwrap(lx + (LABW - 20) / 2.0, pts[-1][1] + 4, nm,
+                      LABW - 20, 13, col, True)
+    for i, p in enumerate(periods):
+        c.text(x0 + i * step, y0 + PH + 28, p, 14, A.INK, True)
     c.text(x0 - 10, y0 + 6, '{:,.0f}'.format(hi), 13, A.GREY, False, 'end')
     c.text(x0 - 10, y0 + PH, '{:,.0f}'.format(lo), 13, A.GREY, False, 'end')
     c.rect(0, y0 + PH + 44, 1, 1, 'none')
+    c.rect(0, y0 + PH + 40, 1, 1, 'none')
     return _fig('graph', title, c, answers, _bank(answers, spares, seed + 1),
-                'Read the periods off the line.')
+                'Name each line from how it moves.')
 
 
 def contrastfig(title, left, right, rows, seed, first, spares=()):
@@ -500,9 +529,17 @@ def contrastfig(title, left, right, rows, seed, first, spares=()):
     c.centred(24 + LW + 16 + CW + CW / 2.0, y + 17, right, CW - 16, 15,
               A.AMBER, True)
     y += 42
+    # One side of a row at most. A row with both sides blank has nothing
+    # left to reason from: the whole point of a contrast is that the other
+    # side tells you what this side has to differ from.
     cells = [(i, s) for i in range(len(rows)) for s in (0, 1)]
-    gaps = set(cells[g] for g in _pick(cells, seed,
-                                       nomax=max(1, len(cells) // 2)))
+    gaps, byrow = set(), set()
+    for g in _pick(cells, seed, nomax=max(1, len(cells) // 2)):
+        i, side = cells[g]
+        if i in byrow:
+            continue
+        byrow.add(i)
+        gaps.add((i, side))
     answers, k = [], first
     for i, (lab, a, b) in enumerate(rows):
         hs = []
@@ -512,8 +549,11 @@ def contrastfig(title, left, right, rows, seed, first, spares=()):
                 hs.append(('slot', x, txt))
             else:
                 hs.append(('card', x, txt))
-        hh = max(A.wrapped_h(t, CW - 20, 14) + 20 for _m, _x, t in hs)
-        hh = max(34, hh)
+        # The row is as tall as its tallest cell, the label included. Sizing
+        # it from the two sides alone let "Development costs: Orontes's new
+        # sparkling-juice line, 300,000" spill out of the top of its box.
+        hh = max([A.wrapped_h(t, CW - 20, 14) + 20 for _m, _x, t in hs]
+                 + [A.wrapped_h(lab, LW - 16, 14, bold=True) + 20, 34])
         c.rect(24, y, LW, hh, A.SOFT, A.GREY_L, 1.4, 5)
         c.centred(24 + LW / 2.0, y + hh / 2.0, lab, LW - 16, 14, A.INK, True)
         for mode, x, txt in hs:

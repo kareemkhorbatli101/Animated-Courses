@@ -47,30 +47,32 @@ A **bridge chart from a stated computation** ("net income was 80: revenue of 300
 
 A **flow from ordered prose** ("first… then… finally…") appears in 14 sections across 11 chapters, but the ordinal words mark an order of explanation at least as often as an order of events, and the sentence does not say which. Drawing the wrong one asserts a process the chapter does not describe.
 
-## What each chapter gets
+## What each chapter gets, as built
 
-| ch | sections | diagrams | flow | web | tree | contrast | chart | graph | grid |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | 6 | **12** | 3 | 6 | 2 | 1 | 0 | 0 | 4 |
-| 2 | 5 | **5** | 1 | 3 | 1 | 0 | 0 | 0 | 6 |
-| 3 | 5 | **6** | 1 | 3 | 1 | 1 | 0 | 0 | 5 |
-| 4 | 5 | **6** | 1 | 2 | 2 | 0 | 1 | 0 | 4 |
-| 5 | 5 | **5** | 1 | 1 | 3 | 0 | 0 | 0 | 4 |
-| 6 | 3 | **7** | 2 | 3 | 1 | 0 | 1 | 0 | 2 |
-| 7 | 5 | **9** | 2 | 4 | 0 | 0 | 3 | 0 | 2 |
-| 8 | 5 | **5** | 1 | 2 | 2 | 0 | 0 | 0 | 3 |
-| 9 | 4 | **7** | 1 | 3 | 2 | 0 | 0 | 1 | 3 |
-| 10 | 5 | **5** | 1 | 3 | 1 | 0 | 0 | 0 | 3 |
-| 11 | 6 | **8** | 1 | 3 | 2 | 1 | 1 | 0 | 4 |
-| 12 | 5 | **5** | 1 | 1 | 0 | 1 | 2 | 0 | 5 |
-| 13 | 5 | **7** | 1 | 4 | 0 | 0 | 2 | 0 | 7 |
-| 14 | 6 | **6** | 2 | 2 | 1 | 1 | 0 | 0 | 4 |
-| 15 | 6 | **6** | 1 | 0 | 2 | 1 | 2 | 0 | 4 |
-| 16 | 6 | **5** | 1 | 2 | 1 | 0 | 1 | 0 | 7 |
-| 17 | 6 | **9** | 1 | 2 | 3 | 3 | 0 | 0 | 2 |
-| 18 | 6 | **3** | 1 | 1 | 1 | 0 | 0 | 0 | 7 |
+| ch | sheets | pages | gaps | figures | grids | flow | web | tree | contrast | chart | graph |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 6 | 19 | 169 | **12** | 4 | 3 | 6 | 2 | 1 | 0 | 0 |
+| 2 | 5 | 10 | 109 | **6** | 6 | 1 | 4 | 1 | 0 | 0 | 0 |
+| 3 | 5 | 11 | 85 | **7** | 5 | 1 | 4 | 1 | 1 | 0 | 0 |
+| 4 | 5 | 10 | 80 | **7** | 4 | 1 | 3 | 2 | 0 | 1 | 0 |
+| 5 | 5 | 11 | 70 | **6** | 4 | 1 | 2 | 3 | 0 | 0 | 0 |
+| 6 | 3 | 9 | 86 | **7** | 2 | 2 | 3 | 1 | 0 | 1 | 0 |
+| 7 | 5 | 13 | 121 | **10** | 2 | 2 | 5 | 0 | 0 | 3 | 0 |
+| 8 | 5 | 10 | 91 | **6** | 3 | 1 | 3 | 2 | 0 | 0 | 0 |
+| 9 | 4 | 10 | 102 | **7** | 3 | 1 | 3 | 2 | 0 | 0 | 1 |
+| 10 | 5 | 10 | 105 | **5** | 3 | 1 | 3 | 1 | 0 | 0 | 0 |
+| 11 | 6 | 13 | 97 | **10** | 4 | 1 | 5 | 2 | 1 | 1 | 0 |
+| 12 | 5 | 9 | 55 | **5** | 5 | 1 | 1 | 0 | 1 | 2 | 0 |
+| 13 | 5 | 11 | 71 | **7** | 7 | 1 | 4 | 0 | 0 | 2 | 0 |
+| 14 | 6 | 11 | 70 | **10** | 4 | 2 | 6 | 1 | 1 | 0 | 0 |
+| 15 | 6 | 12 | 80 | **10** | 4 | 1 | 4 | 2 | 1 | 2 | 0 |
+| 16 | 6 | 13 | 87 | **8** | 7 | 1 | 5 | 1 | 0 | 1 | 0 |
+| 17 | 6 | 10 | 69 | **9** | 2 | 1 | 2 | 3 | 3 | 0 | 0 |
+| 18 | 6 | 12 | 85 | **6** | 7 | 1 | 4 | 1 | 0 | 0 | 0 |
 
-**116 diagrams and 76 gapped grids across book 1**, on top of the paragraph summaries. No chapter has fewer than three diagrams; chapter 18 is thinnest at 3, chapters 1 and 17 richest at 12 and 9.
+**94 sheets, 204 pages, 1632 gaps, 138 figures and 76 gapped grids.** Of the 94 sheets, 87 carry a figure or a grid; the seven that do not — 4.4, 5.3, 9.3, 10.3, 10.4, 17.3 and 18.5 — are sections with no table at all and almost no glossary, so there is nothing to draw that the chapter does not say in prose.
+
+The **graph** is one figure in the whole book, because one table in the whole book is a series over periods. It names its lines rather than its years: asking which year follows 2025 and 2026 tests counting, while asking which line is the cash interest makes a reader read the lines.
 
 ## The gapping rules
 
@@ -112,17 +114,3 @@ Every sheet is refused unless all of these hold:
 - every figure renders and reports a height, so nothing is cut off
 - **a sheet of four or more exercises that uses only one form is reported**
 
-## Chapter 1, as built
-
-| sheet | section | pages | gaps | paragraphs | grids | figures |
-|---|---|---|---|---|---|---|
-| 1.1 | Who uses financial statements, and why? | 4 | 43 | 5 | 1 | flow, flow, web |
-| 1.2 | The building blocks: elements and the accounting equation | 2 | 21 | 2 | 0 | web |
-| 1.3 | Double entry: debits and credits | 4 | 28 | 5 | 1 | web |
-| 1.4 | The accrual basis and the matching principle | 2 | 27 | 4 | 0 | tree, web |
-| 1.5 | Who writes the rules? U.S. GAAP and IFRS | 3 | 26 | 3 | 0 | contrast, web |
-| 1.6 | A first look at the four statements | 3 | 21 | 2 | 1 | tree, web |
-
-**18 pages, 166 gaps, 11 figures.** Checks: all pass.
-
-Chapter 1 carries no **chart** and no **graph**. Its only numeric tables are the worked journal and the trial balance, and both are indexed rather than measured — charting them produced the bars labelled 1, 2, 3 that check 3 above describes. The charts arrive in chapters 4, 6, 7, 11, 12, 13, 15 and 16; the one graph is in chapter 9.

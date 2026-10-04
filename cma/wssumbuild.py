@@ -213,10 +213,15 @@ def render_key(d, H):
 
 
 def build(bk=1, n=1, out=None, chapters=None):
-    """Every section of a chapter as one document: sheet then key."""
-    hs = wssum.build_chapter(bk, n)
-    d = Doc('CMA Part 1 · Book %d · Chapter %d' % (bk, n),
-            'Summary handouts')
+    """A chapter, or a run of them, as one document: sheet then key."""
+    chapters = list(chapters) if chapters else [n]
+    hs = []
+    for ch in chapters:
+        hs += wssum.build_chapter(bk, ch)
+    title = ('CMA Part 1 · Book %d · Chapter %d' % (bk, chapters[0])
+             if len(chapters) == 1
+             else 'CMA Part 1 · Book %d' % bk)
+    d = Doc(title, 'Summary handouts')
     for H in hs:
         pre = len(d.body)
         pages = render_sheet(d, H, pre)
@@ -227,8 +232,10 @@ def build(bk=1, n=1, out=None, chapters=None):
         khdr = d.header('Answer key · %s' % H['id'], 'Answer key')
         render_key(d, H)
         d.page_break_section(hdr=khdr, restart=True)
-    out = out or os.path.join(os.path.dirname(HERE),
-                              'CMA_Summaries_B%d_Ch%02d.docx' % (bk, n))
+    out = out or os.path.join(
+        os.path.dirname(HERE),
+        ('CMA_Summaries_B%d_Ch%02d.docx' % (bk, chapters[0])
+         if len(chapters) == 1 else 'CMA_Summaries_Book%d.docx' % bk))
     d.save(out)
     return hs, out
 

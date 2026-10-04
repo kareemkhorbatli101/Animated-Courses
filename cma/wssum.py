@@ -101,6 +101,10 @@ def is_prose(line):
         return False
     if ITEMID.search(x) or FIGREF.search(x):
         return False
+    # "A. Orontes includes the cartons in inventory" is an option of one of
+    # the chapter's own questions, not a sentence of its prose.
+    if re.match(r'^[A-E][.)]\s', x):
+        return False
     return len(x) >= 30
 
 
@@ -286,15 +290,28 @@ def segments(sec, tbls):
 def _stem(w):
     """Enough of a word to tell "expense" from "expenses" and no more."""
     w = w.lower().strip('.,;:()\u201c\u201d')
-    for suf in ('ies', 'es', 's'):
-        if len(w) > 4 and w.endswith(suf):
+    for suf in ("'s", 'ies', 'edly', 'ing', 'ies', 'ed', 'ly', 'es', 's'):
+        if len(w) > 5 and w.endswith(suf):
             return w[:-len(suf)]
     return w
 
 
 def _same(a, b):
-    """Would these two read as the same answer in a word list?"""
-    return _stem(a) == _stem(b)
+    """Would these two read as the same answer in a word list?
+
+    Not only a singular against its plural. A list holding "current" and
+    "noncurrent", or "realized" and "unrealized", or "Orontes" and
+    "Orontes's", gives at least one gap two defensible answers — a reader
+    who writes the shorter one into the longer one's slot has written
+    something the list offers. Containment in either direction counts, and
+    so does the stem once the ordinary endings are off.
+    """
+    x, y = a.lower().strip(), b.lower().strip()
+    if _stem(x) == _stem(y):
+        return True
+    if len(min(x, y, key=len)) > 4 and (x in y or y in x):
+        return True
+    return False
 
 
 def candidates(sent, terms):
@@ -359,7 +376,7 @@ def gap_block(sents, terms, seed, spare_pool=()):
             if si == 0 and a == 0:
                 continue            # a block may not open on a gap
             if any(_same(w, x[2]) for x in picks):
-                continue            # "expense" and "expenses" in one list
+                continue            # "current" and "noncurrent" in one list
             if any(abs(a - x[1]) < 12 or abs(b - x[0]) < 12
                    for x in picks if x[3] == si):
                 continue            # never two gaps side by side
@@ -383,11 +400,35 @@ def gap_block(sents, terms, seed, spare_pool=()):
     # not contain an answer or sit inside one: a list holding both
     # "conceptual" and "conceptual framework" gives one gap two defensible
     # answers, which is worse than no spare at all.
-    low = [w.lower() for w in answers]
     spare = next((x for x in spare_pool
-                  if not any(x.lower() in w or w in x.lower()
-                             or _same(x, w) for w in low)), None)
-    bank = list(answers) + ([spare] if spare else [])
+                  if not any(_same(x, w) for w in answers)), None)
+    if spare is None:
+        # Nothing in the pool clears the clash test. Rather than hand over
+        # a list with exactly as many words as gaps — which a reader
+        # finishes by counting — the last gap is given back to the text,
+        # and the word that was going to be its answer becomes the spare.
+        while len(answers) > 2 and spare is None:
+            cand = answers[-1]
+            if not any(_same(cand, w) for w in answers[:-1]):
+                spare = cand
+            answers = answers[:-1]
+        if spare is None:
+            return None
+        parts, kept = [], list(answers)
+        pos = 0
+        for si, sent in enumerate(sents):
+            mine = sorted((pp for pp in picks if pp[3] == si),
+                          key=lambda x: x[0])
+            pos = 0
+            for a, b, w, _s in mine:
+                if w not in kept:
+                    continue
+                kept.remove(w)
+                parts.append(sent[pos:a])
+                parts.append(max(11, len(w) + 2))
+                pos = b
+            parts.append(sent[pos:] + ' ')
+    bank = list(answers) + [spare]
     return dict(parts=parts, answers=answers,
                 bank=shuffled(bank, seed), book=text)
 
@@ -543,8 +584,13 @@ def prepare(sec, tbls):
     out, stop = [], False
     for seg in segments(sec, tbls):
         kind, v = seg[0], seg[1]
-        if stop:
-            break
+        # The question bank ends the section's prose, but a table whose
+        # header never appeared on a line of its own is placed after
+        # everything else, so it lands beyond that marker. Breaking there
+        # threw away the tables of fourteen sections, which is why those
+        # sheets had no picture of any kind on them.
+        if stop and kind != 'table':
+            continue
         if kind == 'head':
             if title_of(v, sec['no'], sec['title']):
                 continue
@@ -629,10 +675,13 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
             runs[-2].extend(runs.pop())
         for ri, run in enumerate(runs):
             # A block that opens mid-thought joins the one before it — but
-            # only inside the same run. Carrying across a heading moved a
-            # sentence about the five verbs into the block about primary
-            # users and lost the heading it belonged under.
-            while ri and run and DANGLE.match(run[0]) and out \
+            # never across a heading. Carrying across one moved a sentence
+            # about the five verbs into the block about primary users and
+            # lost the heading it belonged under. Inside a run, and from
+            # one prose segment straight into another with no heading
+            # between them, carrying back is right: "Finally, the notes
+            # begin with a summary" has to follow what it is final to.
+            while run and DANGLE.match(run[0]) and out \
                     and out[-1].get('kind') == 'prose':
                 out[-1]['carry'].append(run.pop(0))
             if not run:
@@ -646,11 +695,15 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=()):
             g = gap_block(run, terms, seed + 7 * k, pool)
             k += 1
             if g:
-                # A block directly under a heading may open on "It" or
-                # "These": the heading is what it refers back to.
-                under = bool(out) and out[-1]['kind'] == 'divider'
+                # "Finally, the notes begin with a summary" opens on a
+                # dangling word, but what it is final TO is the table
+                # directly above it. A heading, a table and a figure all
+                # put the antecedent on the page; only a block with
+                # nothing before it is really hanging.
+                ctx = bool(out) and out[-1]['kind'] in (
+                    'divider', 'table', 'ref', 'form')
                 out.append(dict(kind='prose', carry=[],
-                                _underhead=under, **g))
+                                _underhead=ctx, **g))
             else:
                 # Too short to gap three words out of without wrecking it.
                 # It still belongs on the sheet, so it goes on unchanged
@@ -789,6 +842,21 @@ def build_section(d, si, bk=1, seed=None):
     if len(pairs) < 4 and len(local) >= 4:
         pairs = [(clean(e), clean(a)) for e, a in local]
         kind = 'arabic'
+    if len(pairs) < 4:
+        # Half the sections carry no glossary of their own: the chapter
+        # puts one at the front and the sections draw on it. So the web is
+        # built from the chapter's terms that THIS section actually uses,
+        # which are its vocabulary whether or not it repeats the list.
+        # Without this a third of the book's sheets had no figure at all.
+        used = []
+        for e, a in PB.term_pairs(n):
+            e, a = clean(e), clean(a)
+            if not e or not a or len(e) > 44:
+                continue
+            if re.search(r'\b%s\b' % re.escape(e), sec['text'], re.I):
+                used.append((e, bydef.get(e.lower()) or a))
+        if len(used) >= 4:
+            pairs, kind = used, 'arabic'
     if len(pairs) >= 4:
         blocks.append(dict(
             kind='form', form='web',
@@ -852,14 +920,20 @@ def check(hs, bk=1, n=1):
                     if clean(c):
                         tcells.add(clean(c))
                         tcells |= set(split_sentences(clean(c)))
-        on = []
-        for b in H['blocks']:
-            on += split_sentences(b.get('book') or b.get('text') or '')
+        # Compared as text, not as a list of sentences. The splitter holds
+        # a fragment open after a capital and a full stop — which is what
+        # keeps "U.S. GAAP" together — and that also glues "outside PP&E."
+        # to the sentence after it. Splitting a whole block and splitting
+        # it line by line then disagree, and two sentences of section 2.2
+        # were reported missing from a block that held them.
+        on = ' \n '.join(b.get('book') or b.get('text') or ''
+                         for b in H['blocks'])
         # Every sentence of the section is on the sheet, unless it is a cell
         # of one of its tables (the sheet shows it there) or the chapter
         # talking about itself.
         miss = [x for x in avail if x not in on and x not in tcells
-                and not SELFREF.search(x) and not FURNITURE.match(x)]
+                and not SELFREF.search(x) and not FURNITURE.match(x)
+                and x not in ' \n '.join(tcells)]
         if miss:
             bad.append('%s: %d sentences of section %s are on no block: %.60r'
                        % (hid, len(miss), H['sec'], miss[0]))
