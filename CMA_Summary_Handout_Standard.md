@@ -78,7 +78,7 @@ fits, the content stays a gapped grid or a paragraph.
 | **graph** | a quantity across three or more periods or ordered bands |
 | **contrast** | a two- or three-column comparison, one side per row gapped |
 | **sides** | sentences naming one framework and not the other; or two sets the title joins with "and" and a pivot sentence divides |
-| **bridge** | a stated computation whose parts reconcile to its total — if they do not sum, it was misread and is not drawn |
+| **bridge** | a stated computation whose parts reconcile to its total; or a COLUMN of a table whose entries sum to its own last row, within half a percent. The arithmetic is the detector: where it does not add up, it was not a build-up and nothing is drawn |
 | **panel** | a count the chapter states ("in one of three ways") *and* that many sentences opening the same way; or three or more consecutive "If X, Y" tests |
 | **branch** | "If X, it does A." answered by the very next sentence, opening "Otherwise" |
 
@@ -158,29 +158,51 @@ other book is almost always a convention, not a defect in the sheets.
 | | book 1 | book 2 | book 3 |
 |---|---|---|---|
 | sheets | 94 | 116 | 106 |
-| gaps | 2,301 | 1,766 | 1,484 |
-| outstanding findings | **0** | **0** | **0** |
+| gaps | 2,317 | 1,832 | 1,542 |
+| gaps per sheet | 24.6 | 15.8 | 14.5 |
+| gaps per 100 words of prose | 7.7 | 8.1 | 7.8 |
+| figures per sheet | 1.82 | 1.34 | 1.32 |
+| sheets with no figure | 3 (3%) | 23 (20%) | 21 (20%) |
+| …of those, with no grid either | 1 | 5 | 1 |
+| forms used | 10 | 6 | 6 |
+| findings | **0** | **0** | **0** |
 
-**All three books are clean against all 22 passes and the build checks.**
-316 handouts, 5,551 gaps.
+### Where the books differ, and why
 
-Working books 2 and 3 took 25 findings down to nothing, and all but three
-of the causes were in the toolchain rather than in those books -- rules
-that were right in the case they were written for:
+The one number that says the standard holds across all three is **gaps per
+100 words of prose: 7.7, 8.1, 7.8**. Each book works its own source
+equally hard.
 
-| cause | what it did |
-|---|---|
-| a form that produced no gaps was dropped **after** its sentences had been taken out of the prose | three sentences of book 2 section 1.3 left the sheet, and every pass read clean because every pass reads the sheet |
-| a figure's lead-in, and a re-gapped carried block, were built with an empty spare pool | a block of exactly two gaps cannot give one back to find a wrong answer, so it printed as plain text with nothing to do on it |
-| the per-sentence share of gaps was a cap, not a share | a 28-word block offering five candidates in one sentence and none in the next took one gap, fell below the floor of two, and printed whole |
-| a figure reference was cut only when it was the whole sentence | "Benchmarking helps create an advantage in four ways, listed in Figure F215-12" went, and the sentence after it opened on "It" with nothing to refer to. Now the *clause* is cut -- but only where the figure is where something is, not what the sentence is about |
-| the French screen read lowercase accents only | "Étalonnage" stood as a heading on a book 2 sheet, and pass 10 was blind to it because it used the same pattern. The pass now uses the generator's own |
-| a gap could make its row the twin of another | two items costing 150,000 each both became "____ \| 150,000", with two names in the word list and nothing to tell the rows apart |
-| a column needed three numbers to count as amounts | a two-row allocation grid has two of everything, so the gaps went to the percentages, every one was refused, and the grid printed whole |
-| column widths were clamped and then scaled back up to 100 | which put the widest column over the ceiling again -- 59% of a two-column grid |
-| the same figure could be drawn on two sheets of one chapter | three charts in book 2 chapter 10 all asked for "Beverages". The chapter now watches what has been asked and rebuilds a repeat on another seed |
+Everything else follows from what the books ARE. Book 1 is financial
+reporting: it argues, compares and defines, so its prose carries
+contrasts, two-way tests and counted sets, and its chapters name three
+and a half terms a section. Books 2 and 3 are cost accounting: they
+compute and allocate, their sections are half as long, and their content
+lives in tables of numbers.
 
-Two pass-20 exemptions were added, both because the pass was demanding
-what the rules forbid: a grid the chapter itself leaves blank for the
-reader, and a grid that is arithmetic all the way down, where every cell
-is a number and a number is never gapped.
+So three of book 1's forms — **contrast, sides, panel, branch** — fire in
+books 2 and 3 **never**, and forcing them would mean asserting an
+opposition or a test the chapters do not make. Two things were done
+instead, and both are the books' own shapes rather than book 1's:
+
+- **the period, however a book names one.** `YEARH` knew years, because
+  book 1 reports in years. Books 2 and 3 budget in quarters, and sixteen
+  quarterly schedules — exactly the tables a line is the right picture
+  for — were being read as ordinary grids. Graphs in book 3: 1 → 9.
+- **the bridge from a table.** A column whose entries sum to its own last
+  row is a build-up, and a waterfall is what shows one. The arithmetic is
+  the detector, so nothing is drawn on a guess. This is the one form the
+  three books share in strength: 7, 11 and 4.
+
+And one threshold moved: **a word web now needs three spokes, not four.**
+Four was right for book 1; book 3 has thirty-six sections with exactly
+three terms. Webs: book 2 39 → 71, book 3 24 → 54, and book 1 gained ten
+of its own. Sheets with no figure at all fell from 29% and 32% to 20% in
+both, and from 6% to 3% in book 1.
+
+**What the 20% is.** Of the 44 figure-less sheets in books 2 and 3, 38
+carry a gapped grid — the section's own table, with cells taken out of
+it, which is a visual exercise even though it is not a diagram. **Six
+sheets in the three books carry neither**, and every one of them is a
+section of under 120 words of prose naming two terms or fewer. There is
+nothing there to draw.

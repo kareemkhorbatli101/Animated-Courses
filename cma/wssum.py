@@ -1680,11 +1680,18 @@ def build_section(d, si, bk=1, seed=None):
     # book do not — it pairs each term with its Arabic, which is the
     # section's own glossary and is the thing these readers most need: the
     # idea they have in Arabic against the English the exam will use.
+    # Three spokes, not four. Four was right for book 1, whose chapters
+    # name three and a half terms a section; books 2 and 3 name two, and
+    # book 3 has thirty-six sections with exactly three. A web of three
+    # is still the section's own vocabulary against the English the exam
+    # will use, which is the thing these readers most need, and it is
+    # what makes a sheet of book 3 read like a sheet of book 1.
+    WEB = 3
     kind = 'meaning'
-    if len(pairs) < 4 and len(local) >= 4:
+    if len(pairs) < WEB and len(local) >= WEB:
         pairs = [(clean(e), clean(a)) for e, a in local]
         kind = 'arabic'
-    if len(pairs) < 4:
+    if len(pairs) < WEB:
         # Half the sections carry no glossary of their own: the chapter
         # puts one at the front and the sections draw on it. So the web is
         # built from the chapter's terms that THIS section actually uses,
@@ -1697,9 +1704,9 @@ def build_section(d, si, bk=1, seed=None):
                 continue
             if re.search(r'\b%s\b' % re.escape(e), sec['text'], re.I):
                 used.append((e, bydef.get(e.lower()) or a))
-        if len(used) >= 4:
+        if len(used) >= WEB:
             pairs, kind = used, 'arabic'
-    if len(pairs) >= 4:
+    if len(pairs) >= WEB:
         blocks.append(dict(
             kind='form', form='web',
             title=('The words this section uses' if kind == 'meaning'

@@ -57,7 +57,15 @@ NUM = re.compile(r'^\(?-?[\d,]+(?:\.\d+)?\)?%?$')
 # 31-60, over 90 — and then "Total", which sits nowhere on that scale.
 TOTALROW = re.compile(r'^(total|totals|sum|subtotal|grand total|'
                       r'net|balance)\b', re.I)
-YEARH = re.compile(r'^(?:year\s*)?(\d{1,2}|20\d\d|20X\d)$', re.I)
+# A period, however the book names one. Years were book 1's way of it,
+# because book 1 is financial reporting; books 2 and 3 are budgeting and
+# they count in quarters, so sixteen quarterly schedules -- exactly the
+# tables a line is the right picture for -- were read as ordinary grids.
+YEARH = re.compile(r'^(?:year|period|month|week|quarter)?\s*'
+                   r'(?:\d{1,2}|20\d\d|20X\d|'
+                   r'q[1-4](?:\s*20\d\d)?|20\d\d\s*q[1-4]|'
+                   r'(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)'
+                   r'[a-z]*(?:\s*20\d\d)?)$', re.I)
 # A second column that opens on one of these is an action, so the first
 # column is a stage of a process rather than a category.
 ACTION = re.compile(r'^(include|decide|enter|show|explain|record|measure|'
@@ -937,7 +945,55 @@ def panelfig(title, head, items, seed, first, gap='name', spares=()):
                 'The rows are a set, not a sequence.')
 
 
-DETECT = [('graph', as_graph), ('flow', as_flow), ('contrast', as_contrast),
+def _cellnum(x):
+    """A table cell as a number, with brackets read as negative."""
+    x = clean(x).replace(',', '').replace('$', '').replace('\u2212', '-')
+    neg = x.startswith('(') and x.endswith(')')
+    x = x.strip('()').strip()
+    if not x or not re.match(r'^-?\d+(?:\.\d+)?$', x):
+        return None
+    return -float(x) if neg else float(x)
+
+
+def as_bridge_table(head, body):
+    """A column of parts that adds up to the total at the foot of it.
+
+    The arithmetic is the detector. A column whose entries sum to its own
+    last row, within half a percent, is a build-up -- an opening balance
+    carried to a closing one, a standard cost carried to an actual, a
+    cost of quality split four ways -- and a waterfall is what shows a
+    build-up. Where the column does not add up, it was not a build-up and
+    nothing is drawn, exactly as the sentence bridge works.
+
+    Books 2 and 3 are full of these and book 1 has eight, so this is one
+    form all three share, which is the point of them being a series.
+    """
+    if not 4 <= len(body) <= 9:
+        return None
+    for j in range(1, len(head)):
+        vals = [(clean(r[0]), _cellnum(r[j])) for r in body]
+        if any(v is None for _l, v in vals) or not all(l for l, _v in vals):
+            continue
+        label, total = vals[-1]
+        if not (TOTALROW.match(label) or 'total' in label.lower()
+                or 'balance' in label.lower() or 'net ' in label.lower()):
+            continue
+        parts = [(l, -1 if v < 0 else 1, abs(v)) for l, v in vals[:-1]]
+        if len({l.lower() for l, _s, _v in parts}) != len(parts):
+            continue
+        if any(len(l) > 46 for l, _s, _v in parts):
+            continue
+        got = sum(sg * v for _l, sg, v in parts)
+        if abs(got - total) > max(1.0, abs(total) * 0.005):
+            continue
+        if abs(total) < 1:
+            continue
+        return dict(total=label, value=total, parts=parts)
+    return None
+
+
+DETECT = [('graph', as_graph), ('bridge', as_bridge_table),
+          ('flow', as_flow), ('contrast', as_contrast),
           ('chart', as_chart), ('tree', as_tree)]
 
 
