@@ -1,0 +1,616 @@
+Chapter 6
+Systems Security: Threats, Access and Segregation
+أمن الأنظمة: التهديدات والوصول والفصل بين المهام
+Part I was about controls in general. Part II is about controls where the records live in a computer, which changes what can go wrong and who can do it. The principles do not change; their application does.
+Figure F406-01 shows the chapter.
+Figure F406-01. Chapter 6 roadmap: who, what and where.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.2.a
+describe how the segregation of accounting duties can enhance systems security
+Describe how the segregation of accounting duties can enhance systems security.
+Full treatment + Extended Example
+E.2.b
+identify threats to information systems, including input manipulation, program alteration, direct file alteration, data theft, sabotage, viruses, Trojan horses, theft, and phishing
+Identify threats to information systems, including input manipulation, program alteration, direct file alteration, data theft and sabotage.
+Full treatment
+E.2.d
+identify procedures to limit access to physical hardware
+Identify procedures to limit access to physical hardware.
+Full treatment
+E.2.e
+identify means by which management can protect programs and databases from unauthorized use
+Identify means by which management can protect programs and databases from unauthorized use.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+systems analyst
+محلل النظم
+analyste de systèmes
+librarian
+أمين المكتبة
+bibliothécaire des programmes
+input manipulation
+التلاعب بالمدخلات
+manipulation des données saisies
+program alteration
+تعديل البرامج
+altération de programme
+direct file alteration
+التعديل المباشر للملفات
+altération directe des fichiers
+physical access control
+الرقابة على الوصول المادي
+contrôle d'accès physique
+logical access control
+الرقابة على الوصول المنطقي
+contrôle d'accès logique
+least privilege
+أقل الصلاحيات
+moindre privilège
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 separated authorization, recording, custody and reconciliation. This chapter applies the same idea to the people who build and run the system, where one person with the right access can do all four at once.
+6.1  Segregation inside the systems function
+A computer concentrates power. A clerk who alters one invoice affects one transaction; a programmer who alters one routine affects every transaction it touches, silently, until someone notices. That is why the systems function has its own segregation rules.
+Figure F406-02 lists the combinations to avoid and what each would allow.
+Figure F406-02. Combinations of systems access to avoid
+Combination to avoid
+What it would allow
+The control
+Programmer with access to live data
+Can write code that benefits him and run it on real records
+Separate development from operations
+Operator who can change programs
+Can alter a program, run it, and restore the original
+Program changes go through the librarian
+Librarian who also programs
+Controls the versions and writes them
+Keep version control independent
+Analyst with production access
+Designs the control and can bypass it
+Design and operation stay apart
+One person holding all system passwords
+Every separation above becomes theoretical
+Split administrative access and log its use
+The last row matters most in a small company. Every separation above becomes theoretical if one administrator holds all the passwords, which is why administrative access is split where possible and logged where it is not.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+systems analyst
+محلل النظم
+analyste de systèmes
+librarian
+أمين المكتبة
+bibliothécaire des programmes
+English (exam term)
+العربية
+Français
+systems analyst
+محلل النظم
+analyste de systèmes
+librarian
+أمين المكتبة
+bibliothécaire des programmes
+SECTION CHECK   Test yourself
+SC406-1  Why does a computer system need its own segregation rules?
+A.	One person changing a routine affects every transaction it touches, silently
+B.	Computers make more errors than people
+C.	Auditors require a separate IT department
+D.	Systems staff are less trustworthy
+SC406-2  A programmer can move his own code changes into production. What should the control be?
+A.	The programmer documents each change
+B.	Changes are made only at night
+C.	The programmer signs a code of conduct
+D.	Someone other than the programmer moves code into live use
+Answers and explanations are at the end of the chapter.
+6.2  Threats to information systems
+Figure F406-03 names the six threats the exam lists, with an example of each.
+Figure F406-03. Six threats to information systems
+Threat (E.2.b)
+What it is
+Why it matters
+Example
+Input manipulation
+Entering false or altered data
+The commonest of all, and needs no technical skill
+A fictitious supplier invoice keyed in
+Program alteration
+Changing the code itself
+Hard to detect without change control
+A routine that rounds pennies into one account
+Direct file alteration
+Editing the data file, bypassing the application
+Leaves no application audit trail
+A balance changed in the database directly
+Data theft
+Copying data out
+Often an insider, often undetected
+A customer list taken on a leaving day
+Sabotage
+Destroying data or equipment
+May be a disgruntled employee
+Records deleted after a dismissal
+Malware and ransomware
+Hostile software that spreads or encrypts
+Arrives by phishing far more often than by attack
+Files encrypted and a payment demanded
+Input manipulation is the commonest by a wide margin, and it is worth noticing why. It needs no technical skill at all: the person simply enters something false into a system working exactly as designed. The Chapter 1 supplier fraud was input manipulation, not hacking.
+Direct file alteration deserves attention for the opposite reason. It bypasses the application, so the application's own audit trail shows nothing. Detecting it needs controls at the database level: restricted access, and logging that the database administrator cannot quietly switch off.
+Malware and ransomware attract the most attention, but the route in is usually mundane. Most arrive through a person opening an attachment or entering a password on a false page, which makes them a training and access problem as much as a technical one.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+input manipulation
+التلاعب بالمدخلات
+manipulation des données saisies
+program alteration
+تعديل البرامج
+altération de programme
+direct file alteration
+التعديل المباشر للملفات
+altération directe des fichiers
+English (exam term)
+العربية
+Français
+input manipulation
+التلاعب بالمدخلات
+manipulation des données saisies
+program alteration
+تعديل البرامج
+altération de programme
+direct file alteration
+التعديل المباشر للملفات
+altération directe des fichiers
+SECTION CHECK   Test yourself
+SC406-3  Which threat requires no technical skill at all?
+A.	Program alteration
+B.	Input manipulation
+C.	Direct file alteration
+D.	Malware deployment
+SC406-4  Why is direct file alteration particularly hard to detect?
+A.	It happens very quickly
+B.	It can only be done remotely
+C.	It bypasses the application, so the application's audit trail shows nothing
+D.	It leaves no change to the data
+Answers and explanations are at the end of the chapter.
+6.3  The five systems roles
+Figure F406-04 names the five roles the exam expects and, for each, the access it must not have.
+Figure F406-04. The five IT roles and what each must not have.
+Read the right-hand column as the whole point of the arrangement. The systems analyst designs, the programmer writes, the computer operator runs, the librarian controls the versions, and data control checks what went in and what came out. No one of them can both change the system and use it unobserved.
+SECTION CHECK   Test yourself
+SC406-5  Which role controls program versions and documentation?
+A.	The systems analyst
+B.	The librarian
+C.	The computer operator
+D.	The data control group
+SC406-6  What must the systems analyst NOT have?
+A.	Knowledge of the business process
+B.	Contact with users
+C.	Access to live programs or data
+D.	Authority to propose a design
+Answers and explanations are at the end of the chapter.
+6.4  Physical and logical access
+Access control has two halves, shown in Figure F406-05. Physical access controls decide who can reach the machine. Logical access controls decide who can reach the programs and the data.
+Figure F406-05. Physical access against logical access.
+Physical controls are the older idea and still necessary. A server room needs a lock, a record of who entered, and a procedure for destroying old drives. A disk carried out of the building defeats every password on it.
+The physical controls also cover equipment that leaves the room. Laptops and portable drives carry the same data outside every lock the company owns. Disposal, encryption of portable media and a register of what has been issued therefore belong here rather than with the logical controls.
+Figure F406-06 takes the logical controls in turn.
+Figure F406-06. Logical access controls
+Logical access control (E.2.e)
+What it does
+Note
+Unique user identification
+Every action can be traced to one person
+Shared logins make accountability impossible
+Authentication
+Proves the person is who the ID claims
+Multi-factor is now the normal standard
+Authorization and least privilege
+Each person has the minimum access the job needs
+Access tends to accumulate as people change roles
+Access reviews
+Someone checks periodically who holds what
+Catches the accumulation above
+Logging and monitoring
+A record of who did what, reviewed by someone
+A log nobody reads is not a control
+Removal on exit
+Access ends when employment ends
+Chapter 2 treated this as a personnel control too
+Least privilege is the one that decays fastest. Access accumulates as people change roles, because granting is easy and revoking is forgotten. The access review exists to find the clerk who still holds the rights of a job she left two years ago.
+EXAM TRAP   A log nobody reads is not a control
+Logging appears in almost every list of access controls, and it earns its place only if someone reviews it. A question describing extensive logging with no review is describing a detective control that detects nothing.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+physical access control
+الرقابة على الوصول المادي
+contrôle d'accès physique
+logical access control
+الرقابة على الوصول المنطقي
+contrôle d'accès logique
+least privilege
+أقل الصلاحيات
+moindre privilège
+English (exam term)
+العربية
+Français
+physical access control
+الرقابة على الوصول المادي
+contrôle d'accès physique
+logical access control
+الرقابة على الوصول المنطقي
+contrôle d'accès logique
+least privilege
+أقل الصلاحيات
+moindre privilège
+SECTION CHECK   Test yourself
+SC406-7  Which is a physical access control?
+A.	A visitor log for the server room
+B.	Multi-factor authentication
+C.	Role-based permissions
+D.	A quarterly access review
+SC406-8  Why do access reviews exist?
+A.	Because passwords expire
+B.	Because auditors require an annual list
+C.	Because systems are replaced every few years
+D.	Because access accumulates as people change roles, since granting is easy and revoking is forgotten
+Answers and explanations are at the end of the chapter.
+6.5  Extended Example 6A: one programmer, four duties
+This example takes a single arrangement at Orontes and shows how one person's access collapsed the four duties of Chapter 3 into one pair of hands. It is exam-core.
+1. The arrangement
+When Orontes installed its payables system, one developer built it and stayed on to support it. He writes the code, moves his own changes into production, holds the database administrator password, and is the person who investigates when a payment query arises.
+2. Mapping it to the four duties
+He can create a supplier record directly in the database, which is authorization. He can alter the posting routine, which is recording. Releasing a payment run gives him effective custody. And he investigates the queries that would reveal any of it, which is reconciliation. One person, four duties.
+3. Which threats become available
+Program alteration, because he changes code with no independent review. Direct file alteration, because he holds the database password and can edit records outside the application. Data theft, because he can extract the supplier and payment history. In the second case the application's audit trail would show nothing.
+4. What the controls should be
+Separate development from production: he may write code, but someone else moves it into live use. Take the database password away and give it to a separate administrator, logged and reviewed. Move payment release to the cashier. Move query investigation to accounts payable.
+5. What it costs
+Almost nothing in money, and something real in convenience: a change that took him an afternoon now needs another person. That is the trade the chapter is about, and the answer at Orontes is clear, because the alternative is one person able to move cash without trace.
+6. Your turn
+YOUR TURN   Identify four threats
+Complete the blank cells of Figure F406-07. Answers are at the end of the chapter.
+Figure F406-07. Your turn: identify four threats (complete the blanks)
+What happened
+Which threat?
+Why
+A clerk keys an invoice for goods never received
+________
+No technical skill is needed
+A developer adds code diverting rounding differences
+Program alteration
+________
+A balance is edited straight in the database
+________
+The application audit trail shows nothing
+Files are encrypted and a payment demanded
+________
+Usually arrives through phishing
+7. Tie line
+WORKED EXAMPLE   The pattern behind the example
+Map the person's ACCESS to the four duties, not their job title.
+Development and production must be separate, whatever the company's size.
+Administrative passwords are a duty in themselves, and must be held and logged separately.
+A control that is inconvenient is not therefore wrong.
+8. How the exam asks it
+EXAM TRAP   Exam view
+A case describes who has which system access and asks for the weakness. Translate access into duties before answering: the ability to edit a database record is authorization and recording at once, whatever the person is called.
+9. Self-check
+SECTION CHECK   Test yourself
+SC406-9  Use Extended Example 6A. The developer can create a supplier record directly in the database. Which of Chapter 3's duties is that?
+A.	Custody only
+B.	Reconciliation only
+C.	None, because it is a technical act
+D.	Authorization and recording at once
+SC406-10  Use Extended Example 6A. What should happen to the database administrator password?
+A.	It is written down and kept by the chief financial officer
+B.	It is changed monthly by the developer
+C.	It moves to a separate administrator, with use logged and reviewed
+D.	It is shared between the developer and the operator
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F406-08 brings the chapter together.
+Figure F406-08. Chapter 6 summary map: the key rule for each section.
+A computer concentrates power, so the systems function has its own segregation: the analyst designs, the programmer writes, the operator runs, the librarian controls versions and data control checks input and output, and no one of them may both change the system and use it unobserved. The threats are input manipulation, which is the commonest and needs no skill, program alteration, direct file alteration, data theft, sabotage, and malware. Physical access controls decide who can reach the machine; logical access controls decide who can reach the data, through unique identification, authentication, least privilege, access reviews, logging that someone actually reads, and removal on exit.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P406-01  The computer operator must NOT be able to:
+A.	change programs
+B.	run scheduled jobs
+C.	report a failed run
+D.	mount storage media
+P406-02  In a small company with two IT staff, what is the best response to limited segregation?
+A.	Abandon segregation as impossible
+B.	Separate what can be separated, log administrative actions, and add supervisory review
+C.	Give both staff full access for flexibility
+D.	Outsource all controls to the auditor
+P406-03  Why is one administrator holding every system password a serious weakness?
+A.	Every other separation becomes theoretical
+B.	Passwords may be forgotten
+C.	It slows down support
+D.	It breaches data protection law
+P406-04  Entering an invoice for goods that were never received is:
+A.	program alteration
+B.	sabotage
+C.	input manipulation
+D.	direct file alteration
+P406-05  A routine is changed so that rounding differences accumulate in one account. This is:
+A.	input manipulation
+B.	data theft
+C.	sabotage
+D.	program alteration
+P406-06  An employee copies the customer list before leaving. This is:
+A.	sabotage
+B.	data theft
+C.	program alteration
+D.	input manipulation
+P406-07  Most ransomware reaches a company through:
+A.	a direct technical attack on the firewall
+B.	a supplier's invoice system
+C.	physical access to a server
+D.	a person opening an attachment or entering credentials on a false page
+P406-08  Secure disposal of old drives matters because:
+A.	a disk carried out of the building defeats every password on it
+B.	drives are expensive to replace
+C.	it is required by the exchange rules
+D.	it reduces storage costs
+P406-09  A company has strong passwords but an unlocked server room. What is the exposure?
+A.	None, because the passwords protect the data
+B.	Only the risk of equipment theft
+C.	Someone can remove or access hardware directly, bypassing the logical controls
+D.	Only a health and safety issue
+P406-10  Why must each person have a unique user identification?
+A.	So that passwords can be reset
+B.	So that every action can be traced to one person
+C.	To reduce licence costs
+D.	To speed up logins
+P406-11  Least privilege means:
+A.	junior staff have no access
+B.	each person has the minimum access the job requires
+C.	access is granted only by the board
+D.	passwords are changed frequently
+P406-12  A company logs every database change but nobody reviews the logs. The logging is:
+A.	not functioning as a control, because detection requires someone to look
+B.	an effective preventive control
+C.	sufficient, because the record exists
+D.	a physical access control
+P406-13  Which control most directly addresses an employee who changed roles three times and kept every permission?
+A.	Multi-factor authentication
+B.	A locked server room
+C.	A periodic access review
+D.	Encryption of the database
+P406-14  Data control's responsibility is to check input and output. What must it NOT have?
+A.	Access to exception reports
+B.	Contact with user departments
+C.	A record of batch totals
+D.	Custody of the assets being reported on
+P406-15  Records are deleted shortly after an employee is dismissed. This is best classified as:
+A.	sabotage
+B.	data theft
+C.	input manipulation
+D.	program alteration
+P406-16  What is the underlying principle of systems segregation?
+A.	Technical staff should not handle accounting records
+B.	Nobody should be able both to change the system and to use it unobserved
+C.	Every system needs five separate people
+D.	Developers should not meet users
+Case question: the developer who never left
+When Orontes installed its payables system six years ago, an external developer named Fadi built it. He was then hired permanently to support it, and no one has reviewed the arrangement since. Fadi writes the code, moves his own changes into production, and holds the database administrator password.
+He also holds a user account in the payables application with rights to release a payment run, which was granted during a staff shortage two years ago and never removed. When a supplier queries a payment, accounts payable forwards the query to Fadi because he can read the database directly and answer fastest. Orontes has no separate database administrator and no written procedure for moving code into production.
+The group controller, Rania, has been asked to review systems security before the Gulf expansion. She has found no evidence of wrongdoing. Fadi is well regarded and has twice worked unpaid weekends to recover from a failed upgrade.
+The chief financial officer is reluctant to change anything, arguing that Fadi is the only person who understands the system and that imposing controls on a trusted employee would be insulting and would slow down support.
+Use the scenario above for items C406-1 to C406-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C406-1  Classify each ability. (On the exam screen you would drag each item into a box.)
+Categories: Authorization · Recording · Custody · Reconciliation
+Fadi's access
+Category
+Creating a supplier record directly in the database
+Altering the posting routine in the code
+Releasing a payment run
+Investigating supplier payment queries
+C406-2  Enter the number of the four functional duties that Fadi can perform.
+Answer: ____________
+C406-3  Which threat does Fadi's database password make available that the application would not reveal? [select]
+Options: direct file alteration, because it bypasses the application audit trail   |   input manipulation, because he can key false invoices   |   sabotage, because he could delete the system   |   malware, because he can install software
+C406-4  The payment release right granted during a staff shortage illustrates: [select]
+Options: access accumulating because granting is easy and revoking is forgotten   |   a deliberate breach of policy by Fadi   |   a failure of physical access control   |   a necessary exception that should be made permanent
+C406-5  The chief financial officer argues that controls would insult a trusted employee. Rania should answer that: [select]
+Options: segregation assumes nothing about character; it limits what any one person could do unobserved   |   trust should indeed replace controls where an employee is well regarded   |   the controls can be deferred until after the Gulf expansion   |   Fadi should be asked to confirm in writing that he has done nothing wrong
+C406-6  Which change should come first? [select]
+Options: someone other than Fadi moves code into production, and the database password moves to a separate administrator   |   Fadi documents every change he makes   |   the payment release right is reviewed at the next annual audit   |   a second developer is recruited before anything changes
+C406-7  Giving each person only the access their job requires is called least ____.
+Choose the word or phrase for the blank: privilege   |   authority   |   custody   |   exposure
+Case question: the developer who never left
+When Orontes installed its payables system six years ago, an external developer named Fadi built it. He was then hired permanently to support it, and no one has reviewed the arrangement since. Fadi writes the code, moves his own changes into production, and holds the database administrator password.
+He also holds a user account in the payables application with rights to release a payment run, which was granted during a staff shortage two years ago and never removed. When a supplier queries a payment, accounts payable forwards the query to Fadi because he can read the database directly and answer fastest. Orontes has no separate database administrator and no written procedure for moving code into production.
+The group controller, Rania, has been asked to review systems security before the Gulf expansion. She has found no evidence of wrongdoing. Fadi is well regarded and has twice worked unpaid weekends to recover from a failed upgrade.
+The chief financial officer is reluctant to change anything, arguing that Fadi is the only person who understands the system and that imposing controls on a trusted employee would be insulting and would slow down support.
+Use the scenario above for items C406-1 to C406-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C406-1  Classify each ability. (On the exam screen you would drag each item into a box.)
+Categories: Authorization · Recording · Custody · Reconciliation
+Fadi's access
+Category
+Creating a supplier record directly in the database
+Altering the posting routine in the code
+Releasing a payment run
+Investigating supplier payment queries
+C406-2  Enter the number of the four functional duties that Fadi can perform.
+Answer: ____________
+C406-3  Which threat does Fadi's database password make available that the application would not reveal? [select]
+Options: direct file alteration, because it bypasses the application audit trail   |   input manipulation, because he can key false invoices   |   sabotage, because he could delete the system   |   malware, because he can install software
+C406-4  The payment release right granted during a staff shortage illustrates: [select]
+Options: access accumulating because granting is easy and revoking is forgotten   |   a deliberate breach of policy by Fadi   |   a failure of physical access control   |   a necessary exception that should be made permanent
+C406-5  The chief financial officer argues that controls would insult a trusted employee. Rania should answer that: [select]
+Options: segregation assumes nothing about character; it limits what any one person could do unobserved   |   trust should indeed replace controls where an employee is well regarded   |   the controls can be deferred until after the Gulf expansion   |   Fadi should be asked to confirm in writing that he has done nothing wrong
+C406-6  Which change should come first? [select]
+Options: someone other than Fadi moves code into production, and the database password moves to a separate administrator   |   Fadi documents every change he makes   |   the payment release right is reviewed at the next annual audit   |   a second developer is recruited before anything changes
+C406-7  Giving each person only the access their job requires is called least ____.
+Choose the word or phrase for the blank: privilege   |   authority   |   custody   |   exposure
+Answers and explanations
+Section checks
+SC406-1  Answer A. The computer concentrates the effect of a single change.
+B is wrong. Computers repeat whatever they are told, accurately.
+C is wrong. No such requirement exists.
+D is wrong. Segregation assumes nothing about character.
+SC406-2  Answer D. Development must be separated from operations.
+A is wrong. Documentation written by the same person proves little.
+B is wrong. Timing changes nothing.
+C is wrong. A signature is not a control over access.
+SC406-3  Answer B. The person simply enters something false into a system working as designed.
+A is wrong. Changing code requires programming skill.
+C is wrong. Editing the database requires database access and skill.
+D is wrong. Deploying malware requires some technical means.
+SC406-4  Answer C. Detection needs controls at the database level instead.
+A is wrong. Speed is not the reason.
+B is wrong. It is usually done by someone with internal access.
+D is wrong. The data is changed; that is the point.
+SC406-5  Answer B. Version control is kept independent of both writing and running.
+A is wrong. The analyst designs the system.
+C is wrong. The operator runs the jobs.
+D is wrong. Data control checks input and output.
+SC406-6  Answer C. Designing a control and being able to bypass it cannot sit together.
+A is wrong. That knowledge is essential to the role.
+B is wrong. User contact is part of designing well.
+D is wrong. Proposing the design is the role itself.
+SC406-7  Answer A. It records who could physically reach the hardware.
+B is wrong. That is logical: it controls reaching the data.
+C is wrong. That is logical.
+D is wrong. That reviews logical permissions.
+SC406-8  Answer D. The review finds rights nobody needs any more.
+A is wrong. Expiry is a separate mechanism.
+B is wrong. A list produced for an auditor is not a review.
+C is wrong. Replacement does not address accumulation.
+SC406-9  Answer D. He decides the supplier exists and enters it in the records.
+A is wrong. Custody is holding the asset.
+B is wrong. Reconciliation compares records with reality.
+C is wrong. Access translates directly into duties.
+SC406-10  Answer C. Administrative access is a duty in itself.
+A is wrong. Storing it elsewhere does not separate the duty.
+B is wrong. He still holds it.
+D is wrong. A shared credential makes actions untraceable.
+Your turn
+Item
+Answer
+A clerk keys an invoice for goods never received
+Input manipulation — false data entered into a system working exactly as designed
+A developer adds code diverting rounding differences
+Why: the code itself was changed, so every transaction it touches is affected until someone notices
+A balance is edited straight in the database
+Direct file alteration — the application was bypassed, so its audit trail shows nothing
+Files are encrypted and a payment demanded
+Malware, specifically ransomware — usually arriving through a person rather than a technical attack
+Multiple-choice questions
+P406-01  Answer A. Running and changing must be separate.
+B is wrong. That is the role.
+C is wrong. Reporting failures is expected.
+D is wrong. An operational task.
+P406-02  Answer B. Partial separation plus review beats none.
+A is wrong. Some separation is always possible.
+C is wrong. That removes what separation exists.
+D is wrong. The auditor cannot operate management's controls.
+P406-03  Answer A. Access overrides whatever the organization chart says.
+B is wrong. An availability issue, not a control one.
+C is wrong. Speed is not the point.
+D is wrong. That is a separate question.
+P406-04  Answer C. False data entered into a system working as designed.
+A is wrong. No code was changed.
+B is wrong. Nothing was destroyed.
+D is wrong. The application was used normally.
+P406-05  Answer D. The code itself was changed.
+A is wrong. No false data was entered.
+B is wrong. Nothing was copied out.
+C is wrong. Nothing was destroyed.
+P406-06  Answer B. Data taken out of the organization.
+A is wrong. Nothing was destroyed.
+C is wrong. No code was changed.
+D is wrong. Nothing false was entered.
+P406-07  Answer D. That makes it a training and access problem as much as a technical one.
+A is wrong. Far less common than the human route.
+B is wrong. Possible, but not the usual route.
+C is wrong. Rarely necessary.
+P406-08  Answer A. Physical possession removes the protection of logical controls.
+B is wrong. Cost is not the control reason.
+C is wrong. No such exchange rule.
+D is wrong. Storage cost is unrelated.
+P406-09  Answer C. Physical and logical controls protect against different routes.
+A is wrong. Physical possession defeats passwords.
+B is wrong. The data is at risk too.
+D is wrong. The exposure is to the information.
+P406-10  Answer B. Shared logins make accountability impossible.
+A is wrong. Resets are possible either way.
+C is wrong. Unique IDs usually cost more.
+D is wrong. Speed is irrelevant.
+P406-11  Answer B. It limits the damage any one account can do.
+A is wrong. Seniority is not the test; the job is.
+C is wrong. Boards do not grant system access.
+D is wrong. That is a password policy.
+P406-12  Answer A. A detective control that detects nothing.
+B is wrong. Logging does not prevent anything.
+C is wrong. A record nobody reads changes no outcome.
+D is wrong. It concerns data, not hardware.
+P406-13  Answer C. The review finds accumulated rights nobody needs.
+A is wrong. That confirms identity, not entitlement.
+B is wrong. Physical access is a different route.
+D is wrong. Encryption protects data at rest, not entitlement.
+P406-14  Answer D. Checking and holding cannot sit together.
+A is wrong. Exception reports are its working material.
+B is wrong. Contact is necessary.
+C is wrong. Batch totals are its tool.
+P406-15  Answer A. Destruction rather than copying or falsifying.
+B is wrong. Nothing was copied out.
+C is wrong. Nothing false was entered.
+D is wrong. No code was changed.
+P406-16  Answer B. It is Chapter 3's principle applied to the system itself.
+A is wrong. Too narrow; the issue is change plus use.
+C is wrong. Small companies separate what they can.
+D is wrong. Contact with users improves the design.
+Case question: the developer who never left
+C406-1
+Fadi's access
+Category
+Creating a supplier record directly in the database
+Authorization
+Altering the posting routine in the code
+Recording
+Releasing a payment run
+Custody
+Investigating supplier payment queries
+Reconciliation
+Classify each of Fadi's abilities by the functional duty it gives him.
+C406-2  Answer: 4.
+2 is wrong: this answer understates his access; the database password alone spans two.
+1 is wrong: this answer counts only his formal job title.
+C406-3  Answer: direct file alteration, because it bypasses the application audit trail.
+input manipulation, because he can key false invoices is wrong: this answer that is available to any clerk and does show in the application.
+sabotage, because he could delete the system is wrong: this answer possible, but destruction would be noticed at once.
+malware, because he can install software is wrong: this answer not what database access specifically enables.
+C406-4  Answer: access accumulating because granting is easy and revoking is forgotten.
+a deliberate breach of policy by Fadi is wrong: this answer the right was granted to him, not taken.
+a failure of physical access control is wrong: this answer this concerns rights in the application, not the hardware.
+a necessary exception that should be made permanent is wrong: this answer the shortage ended two years ago.
+C406-5  Answer: segregation assumes nothing about character; it limits what any one person could do unobserved.
+trust should indeed replace controls where an employee is well regarded is wrong: this answer control design cannot rest on an assessment of character.
+the controls can be deferred until after the Gulf expansion is wrong: this answer expansion increases the exposure rather than reducing it.
+Fadi should be asked to confirm in writing that he has done nothing wrong is wrong: this answer an inquiry of the person concerned is the weakest possible evidence.
+C406-6  Answer: someone other than Fadi moves code into production, and the database password moves to a separate administrator.
+Fadi documents every change he makes is wrong: this answer documentation by the same person is not independent evidence.
+the payment release right is reviewed at the next annual audit is wrong: this answer the right should be removed now, not reviewed in a year.
+a second developer is recruited before anything changes is wrong: this answer the password and production access can move immediately, without hiring.
+C406-7  Answer: privilege.
+authority is wrong: this answer authority concerns approval limits, not system rights.
+custody is wrong: this answer custody is one of the four functional duties.
+exposure is wrong: this answer not a term used for access control.
+PART II — SYSTEMS CONTROLS AND CONTINUITY

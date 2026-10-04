@@ -1,0 +1,703 @@
+Chapter 10
+ERP, Databases and Enterprise Performance Management
+تخطيط موارد المؤسسة وقواعد البيانات وإدارة الأداء
+Chapter 9 ended with a question nobody at Orontes could answer cheaply: what did one case of oil cost, and why. This chapter answers it, and then asks what a company does with the answer once it has it.
+Figure F410-01 shows the path.
+Figure F410-01. Chapter 10 roadmap: one system, one store, one view.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.1.d
+define ERP and identify and explain the advantages and disadvantages of ERP
+Define ERP and identify and explain its advantages and disadvantages.
+Full treatment
+F.1.e
+explain how ERP helps overcome the challenges of separate financial and nonfinancial systems, integrating all aspects of an organization’s activities
+Explain how ERP helps overcome the challenges of separate financial and nonfinancial systems.
+Full treatment
+F.1.f
+define relational database and demonstrate an understanding of a database management system
+Define a relational database and demonstrate an understanding of a database management system.
+Full treatment
+F.1.g
+define data warehouse and data mart
+Define data warehouse and data mart.
+Full treatment
+F.1.h
+define enterprise performance management (EPM) (also known as corporate performance management (CPM) or business performance management (BPM))
+Define enterprise performance management, also known as corporate or business performance management.
+Full treatment
+F.1.i
+discuss how EPM can facilitate business planning and performance management
+Discuss how enterprise performance management can facilitate business planning and performance management.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+enterprise resource planning (ERP)
+تخطيط موارد المؤسسة
+progiciel de gestion intégré (PGI/ERP)
+module
+وحدة برمجية
+module
+integration
+التكامل
+intégration
+relational database
+قاعدة البيانات العلائقية
+base de données relationnelle
+primary key
+المفتاح الأساسي
+clé primaire
+foreign key
+المفتاح الأجنبي
+clé étrangère
+referential integrity
+التكامل المرجعي
+intégrité référentielle
+database management system (DBMS)
+نظام إدارة قواعد البيانات
+système de gestion de base de données
+data warehouse
+مستودع البيانات
+entrepôt de données
+data mart
+سوق البيانات
+magasin de données
+enterprise performance management (EPM)
+إدارة أداء المؤسسة
+gestion de la performance d'entreprise
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 9 listed six challenges of keeping systems separate. This chapter takes them one at a time and shows what an integrated system does about each, so Figure F409-05 is worth rereading first.
+10.1  What enterprise resource planning is
+enterprise resource planning (ERP) is a single suite of software modules running on one shared database, covering production, purchasing, sales, payroll, finance and more. Figure F410-02 shows the change it makes.
+Figure F410-02. Separate systems before, and one ERP on one database after.
+The defining feature is the shared database, not the breadth of the modules. Several separate systems that exchange files are still several systems. One system means one stored value for each fact, which is where every advantage below comes from.
+Those advantages come at a price, and the exam expects both sides. Figure F410-03 pairs them.
+Figure F410-03. The advantages and disadvantages of ERP
+ERP characteristic
+Advantage
+Disadvantage
+Integration
+One entry serves every module that needs it
+A long and costly implementation
+One version of the data
+Everyone works from the same figure
+Processes must change to fit the software, or customisation costs rise
+Real-time information
+A manager sees today, not last month
+Heavy demands on training and change management
+Standard processes
+The same method across divisions and countries
+Less flexibility for a division that genuinely differs
+Stronger control and audit trail
+One set of access rules and one trail
+A single point of failure if it stops
+Scalability
+New sites and companies are added to the same system
+Dependence on one vendor, and the cost of leaving
+The second row is the one that sinks implementations. An ERP embodies a way of working, so a company either changes its processes to match the software or pays to change the software. Companies that assume a third option exists are the ones whose projects run years late.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+enterprise resource planning (ERP)
+تخطيط موارد المؤسسة
+progiciel de gestion intégré (PGI/ERP)
+module
+وحدة برمجية
+module
+integration
+التكامل
+intégration
+English (exam term)
+العربية
+Français
+enterprise resource planning (ERP)
+تخطيط موارد المؤسسة
+progiciel de gestion intégré (PGI/ERP)
+module
+وحدة برمجية
+module
+integration
+التكامل
+intégration
+SECTION CHECK   Test yourself
+SC410-1  What defines an ERP system?
+A.	Software that covers more than five business functions
+B.	One suite of modules running on one shared database
+C.	Any system bought from a single vendor
+D.	A system that produces financial statements
+SC410-2  Which is a genuine disadvantage of ERP?
+A.	Data must be entered twice
+B.	Reports arrive more slowly
+C.	Control is weakened
+D.	Processes must change to fit the software, or customisation costs rise
+Answers and explanations are at the end of the chapter.
+10.2  How ERP answers the six challenges
+Figure F410-04 takes the six challenges of Chapter 9 in order and shows what integration does to each.
+Figure F410-04. How ERP answers the six challenges of Chapter 9
+Challenge from Chapter 9
+How ERP answers it
+At Orontes
+Duplicate data entry
+The fact is entered once, in the module where it arises
+Production output is keyed at the line and is immediately available for costing
+Data that disagrees
+There is only one stored value, so disagreement is impossible
+The 1,500-case difference of Chapter 9 cannot arise
+Reconciliation effort
+Nothing to reconcile between modules
+The two days a month are released for analysis
+Delay
+Posting is immediate, not monthly
+Margin visible the next morning, not in the third week
+No single view
+One database holds the customer, product and order together
+Profit by product is a query, not a project
+Weak transfer control
+No transfer exists to fail
+The unreconciled upload disappears with the interface
+One mechanism produces all six answers: the fact is stored once. Because production output is a row in the same database the ledger reads, it cannot be keyed twice, cannot disagree with itself, needs no reconciliation, arrives without delay and can be joined to a customer or a product.
+The sixth answer is the one candidates overlook. The unreconciled monthly upload of Chapter 9 does not become a better-controlled upload; it ceases to exist, because there is nothing to transfer between. Removing a control weakness by removing the thing that needed controlling is the strongest form of the remedy.
+EXAM TRAP   Integration is not the same as interfacing
+Two systems that send each other files are interfaced. One system holding one copy of the data is integrated. A question describing nightly file transfers between modules is describing interfaced systems, whatever the vendor calls the product.
+SECTION CHECK   Test yourself
+SC410-3  By what single mechanism does ERP answer all six challenges of separate systems?
+A.	Each fact is stored once
+B.	Nightly file transfers are automated
+C.	More staff are trained
+D.	Reports are standardised
+SC410-4  What happens to the unreconciled monthly upload of Chapter 9 under an ERP?
+A.	It is better controlled
+B.	It runs nightly instead of monthly
+C.	It ceases to exist, because there is nothing to transfer between
+D.	It is reconciled automatically
+Answers and explanations are at the end of the chapter.
+10.3  Relational databases
+A relational database stores data in tables of rows and columns, with tables linked by shared values rather than by position. Figure F410-05 shows two Orontes tables and the link between them.
+Figure F410-05. A relational database: two tables joined by a key.
+A primary key uniquely identifies each row: no two suppliers may share a supplier number, and none may be left blank. A foreign key is a column in one table holding the primary key of another, which is how the invoice knows which supplier it belongs to.
+Two control consequences follow directly. The supplier name is stored once, so correcting it corrects every invoice at the same moment. And an invoice cannot reference a supplier that does not exist, because the database refuses a foreign key with no matching primary key. That is referential integrity, and it is the validity check of Chapter 7 enforced by the database itself.
+A database management system (DBMS) is the software that holds the tables, enforces the keys, decides who may read or change what, and answers queries. The distinction the exam tests is simple: the tables are the data, and the management system is what guards and serves them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+relational database
+قاعدة البيانات العلائقية
+base de données relationnelle
+primary key
+المفتاح الأساسي
+clé primaire
+foreign key
+المفتاح الأجنبي
+clé étrangère
+referential integrity
+التكامل المرجعي
+intégrité référentielle
+database management system (DBMS)
+نظام إدارة قواعد البيانات
+système de gestion de base de données
+English (exam term)
+العربية
+Français
+relational database
+قاعدة البيانات العلائقية
+base de données relationnelle
+primary key
+المفتاح الأساسي
+clé primaire
+foreign key
+المفتاح الأجنبي
+clé étrangère
+referential integrity
+التكامل المرجعي
+intégrité référentielle
+database management system (DBMS)
+نظام إدارة قواعد البيانات
+système de gestion de base de données
+SECTION CHECK   Test yourself
+SC410-5  A primary key:
+A.	links one table to another
+B.	stores the most important data
+C.	uniquely identifies each row of a table
+D.	is the first column of any table
+SC410-6  Referential integrity means that:
+A.	a foreign key must match an existing primary key, so no orphan record can exist
+B.	every table has a primary key
+C.	data is backed up consistently
+D.	users may not delete records
+Answers and explanations are at the end of the chapter.
+10.4  Data warehouses and data marts
+An operational system is built to process one transaction quickly. Analysis asks the opposite question, reading millions of rows at once, and running that against the live system would slow down the people working in it. That is why analysis happens somewhere else.
+A data warehouse is a separate store holding history across every subject, loaded from the operational systems, read but never updated by transactions. A data mart is a smaller store serving one department or subject, usually drawn from the warehouse. Figure F410-06 compares them.
+Figure F410-06. Data warehouse against data mart
+Data warehouse
+Data mart
+Purpose
+Supports analysis and decisions across the enterprise
+Supports one department or subject
+Scope
+All subjects: customers, products, suppliers, plants
+One subject, such as sales or production
+Source
+Loaded from the operational systems, often overnight
+Usually drawn from the warehouse
+Time span
+History, kept for years so trends can be seen
+The period that department needs
+Changed by users?
+No. It is read, not updated by transactions
+No, for the same reason
+Why not just query the live system?
+Heavy analysis would slow the system people are working in
+Same reason, on a smaller scale
+The relationship is one of scope, not of quality. A mart is not a lesser warehouse; it is a warehouse's worth of structure applied to one subject, so that the sales team can answer its own questions without waiting for, or disturbing, anyone else.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data warehouse
+مستودع البيانات
+entrepôt de données
+data mart
+سوق البيانات
+magasin de données
+English (exam term)
+العربية
+Français
+data warehouse
+مستودع البيانات
+entrepôt de données
+data mart
+سوق البيانات
+magasin de données
+SECTION CHECK   Test yourself
+SC410-7  Why is analysis run against a data warehouse rather than the live system?
+A.	The live system holds no history
+B.	Warehouses are more accurate
+C.	Auditors require it
+D.	Reading millions of rows at once would slow the system people are working in
+SC410-8  A data mart differs from a data warehouse mainly in:
+A.	accuracy: its data is less reliable
+B.	scope: it serves one department or subject
+C.	age: it holds only current data
+D.	ownership: it belongs to the IT department
+Answers and explanations are at the end of the chapter.
+10.5  Enterprise performance management
+enterprise performance management (EPM), also called corporate or business performance management, is the set of processes and software that links strategy to plans, budgets, forecasts, reporting and review. Figure F410-07 sets out what it covers.
+Figure F410-07. What enterprise performance management covers
+EPM activity
+What it does
+At Orontes
+Strategy
+Turn objectives into measurable targets
+The Gulf expansion becomes a volume and margin target
+Planning and budgeting
+Build the plan from drivers, not last year plus a percentage
+Cases times price, with named assumptions
+Forecasting
+Re-forecast as conditions change, not once a year
+A rolling forecast updated monthly
+Consolidation and reporting
+Combine divisions and report one result
+Three divisions and Levant into one group figure
+Monitoring
+Compare actual with plan and show the gap
+The variance analysis of Book 2
+Review and act
+Decide what to change, and feed it back into the plan
+The balanced scorecard of Book 3, Chapter 18
+It is not a synonym for ERP, and the difference is worth stating plainly. An ERP records what happened; enterprise performance management decides what should happen, measures whether it did, and feeds the answer back into the next plan. One is the system of record, the other the system of management.
+Four things follow for planning, and they are what a Level C question asks about. Planning becomes driver-based rather than incremental: the budget is built from cases and prices and rates, so a change in any assumption flows through without rebuilding the model. Forecasting becomes continuous rather than annual.
+Reporting becomes comparison rather than description, because plan and actual sit in the same place. And review becomes connected to the next plan, which is the loop Book 3 described in the balanced scorecard: a measure that nobody acts on is only a number.
+The software matters less than the discipline. A company can manage performance well with a spreadsheet and badly with an expensive suite, because what the term describes is a set of linked processes rather than a product. The suite makes the processes cheaper to run, not more likely to exist.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+enterprise performance management (EPM)
+إدارة أداء المؤسسة
+gestion de la performance d'entreprise
+English (exam term)
+العربية
+Français
+enterprise performance management (EPM)
+إدارة أداء المؤسسة
+gestion de la performance d'entreprise
+SECTION CHECK   Test yourself
+SC410-9  How does enterprise performance management differ from ERP?
+A.	ERP records what happened; EPM decides what should happen and whether it did
+B.	They are two names for the same thing
+C.	EPM is the database behind ERP
+D.	ERP is used by finance and EPM by operations
+SC410-10  Which is NOT part of enterprise performance management?
+A.	Planning and budgeting
+B.	Recording each supplier invoice as it arrives
+C.	Forecasting
+D.	Consolidation and reporting
+Answers and explanations are at the end of the chapter.
+10.6  Extended Example 10A: what Orontes gains, and what it gives up
+This example judges the Orontes ERP proposal rather than describing it. F.1.i is a Level C outcome, so the exam will ask what performance management makes possible and whether it is worth having.
+1. The question from Chapter 9
+The sales director asked what one case of premium oil cost and how much was labour. Under the present arrangement the answer took two days and arrived unverifiable. On an integrated system it is a query: the batch, its hours, its materials and its output all sit in one database.
+2. What that changes about planning
+Once cost per case is available on demand, the budget can be built from drivers rather than from last year. Volume times price gives revenue; volume times cost per case gives cost; and a change in the olive price flows through to margin without anyone rebuilding the model.
+3. What it changes about review
+The variance analysis of Book 2 could already explain a difference after the month closed. With plan and actual in one place, the same analysis becomes available while the month is still running, which is the difference between explaining a loss and preventing one.
+4. What Orontes gives up
+Three things, and none of them trivial. A long implementation during which attention goes to the project rather than the business. Processes changed to match the software, including some that the plant believes are better than the standard. And dependence on one vendor, with the cost of leaving rising each year.
+5. The judgement
+For a company expanding into the Gulf the case is strong, because the questions it will need to answer are exactly the ones separate systems cannot answer: which products earn most in which market, and what a change in volume does to cost. A company not growing might rationally defer.
+6. What would make it fail
+Not the software. Implementations fail when a company tries to keep every existing process, customises heavily to do so, and then cannot upgrade. The discipline that makes integration work is accepting a standard process unless there is a real reason not to.
+7. Your turn
+YOUR TURN   Name four things
+Complete the blank cells of Figure F410-08. Answers are at the end of the chapter.
+Figure F410-08. Your turn: name four things (complete the blanks)
+Description
+What is it?
+Why
+One store of history, covering every subject, loaded overnight
+________
+It serves the whole enterprise
+A subset for the sales department only
+Data mart
+________
+Uniquely identifies each row of a table
+________
+No two rows may share it
+Points from one table back to another
+________
+It prevents an orphan record
+8. Tie line
+WORKED EXAMPLE   The pattern behind the judgement
+Integration is worth most to a company whose questions span its systems.
+The gain is not the software but the ability to plan from drivers and review in time to act.
+The cost is paid in process change and vendor dependence, not only in licence fees.
+Heavy customisation destroys the benefit it was bought to protect.
+9. How the exam asks it
+EXAM TRAP   Exam view
+A Level C question asks whether performance management helps, or what it makes possible. Name the mechanism, not the benefit: driver-based planning, continuous forecasting, plan and actual together, and review feeding the next plan. Answering that it improves decisions earns nothing.
+10. Self-check
+SECTION CHECK   Test yourself
+SC410-11  Use Extended Example 10A. What makes driver-based planning possible at Orontes?
+A.	The budget is approved earlier
+B.	More staff work on the budget
+C.	The ledger closes faster
+D.	Cost per case becomes available on demand, so the budget can be built from volume, price and rates
+SC410-12  Use Extended Example 10A. What would most likely make the implementation fail?
+A.	Choosing the wrong vendor
+B.	Training too many staff
+C.	Keeping every existing process by customising heavily, after which the system cannot be upgraded
+D.	Starting with the finance module
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F410-09 brings the chapter together.
+Figure F410-09. Chapter 10 summary map: the key rule for each section.
+Enterprise resource planning is one suite of modules on one shared database, and the shared database is what defines it. Its advantages are integration, one version of the data, real-time information, standard processes, stronger control and scalability; its costs are a long implementation, processes forced to match the software, training, lost flexibility, a single point of failure and vendor dependence. It answers all six challenges of separate systems by one mechanism: each fact is stored once. A relational database holds rows and columns joined by primary and foreign keys, with referential integrity enforced by the database management system. A data warehouse holds history across every subject; a data mart serves one. Enterprise performance management links strategy to plans, forecasts, reporting and review, making planning driver-based and review timely enough to act on.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P410-01  Two systems that exchange files nightly are best described as:
+A.	interfaced
+B.	integrated
+C.	an ERP
+D.	a data warehouse
+P410-02  Which is an advantage of ERP?
+A.	Lower implementation cost
+B.	One version of each figure across the business
+C.	Greater flexibility for each division
+D.	Independence from any one vendor
+P410-03  Why is a single point of failure a disadvantage of ERP?
+A.	The database cannot be backed up
+B.	Only one person can use it at a time
+C.	It cannot be audited
+D.	If the system stops, every function stops with it
+P410-04  Under an ERP, why can two figures for monthly output not disagree?
+A.	The systems reconcile each night
+B.	The ledger is adjusted to the plant figure
+C.	There is only one stored value
+D.	A supervisor checks both
+P410-05  Which challenge of separate systems does ERP NOT remove by itself?
+A.	Duplicate data entry
+B.	Delay in reporting
+C.	Data that disagrees
+D.	Staff resisting a change in how they work
+P410-06  In a relational database, data is stored in:
+A.	a single long file
+B.	tables of rows and columns
+C.	folders by department
+D.	spreadsheets linked by formulas
+P410-07  An invoice table holds a SupplierID column. In that table, SupplierID is:
+A.	a foreign key
+B.	a primary key
+C.	a check digit
+D.	a hash total
+P410-08  Why does storing the supplier name once improve control?
+A.	It saves storage space
+B.	It speeds up the network
+C.	Correcting it corrects every invoice at the same moment
+D.	It prevents unauthorized access
+P410-09  A database management system:
+A.	is the data itself
+B.	is a type of report
+C.	stores the tables, enforces the keys, controls access and answers queries
+D.	replaces the need for backups
+P410-10  A data warehouse is:
+A.	the live transaction system
+B.	a separate store of history across every subject, read rather than updated
+C.	a backup of the database
+D.	a department's own spreadsheet
+P410-11  A sales team wants its own store of customer and order history. This is best described as:
+A.	a data mart
+B.	a data warehouse
+C.	an operational database
+D.	an ERP module
+P410-12  Which statement about a data warehouse is correct?
+A.	It replaces the operational system
+B.	It holds only the current month
+C.	Users key data directly into it
+D.	It is read for analysis and not updated by transactions
+P410-13  Enterprise performance management is also known as:
+A.	enterprise resource planning
+B.	a database management system
+C.	corporate or business performance management
+D.	a data warehouse
+P410-14  A company says performance management will improve its decisions. As an answer to how it facilitates planning, this is:
+A.	complete
+B.	wrong, because decisions do not improve
+C.	inadequate, because the benefit is too small
+D.	inadequate, because it names a benefit rather than a mechanism
+P410-15  What does putting plan and actual in the same place make possible?
+A.	Reporting becomes comparison rather than description, in time to act
+B.	The budget is approved sooner
+C.	Fewer reports are needed
+D.	The audit is cheaper
+P410-16  Which best describes driver-based planning?
+A.	Last year's figures increased by a percentage
+B.	The budget is built from volumes, prices and rates, so changing one assumption flows through
+C.	Each department proposes its own total
+D.	The board sets a target and divisions divide it
+Case question: the implementation that wanted everything
+The Orontes board has approved an ERP to replace the plant, payroll and accounting systems of Chapter 9. The vendor's standard purchasing process requires a goods received note to be matched against the order before an invoice can be posted, which is close to, but not identical with, the process the Amman plant has used for years.
+The plant manager has asked for forty-one modifications so that the software matches existing practice exactly. The project manager estimates that these would add nine months and would need to be reapplied at every upgrade. The finance director has asked whether this matters. Orontes has not run a project of this size before, and the plant manager has said publicly that he expects the system to adapt to the plant rather than the reverse.
+Separately, the sales director wants the new system queried directly for a report listing every order, line by line, for the past three years, refreshed hourly. The IT manager has objected but has not explained why.
+The board has asked Rania to advise on the modifications, on the sales director's request, and on what the company should expect the new system to make possible that the old arrangement could not.
+Use the scenario above for items C410-1 to C410-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C410-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: An ERP advantage · An ERP disadvantage · A matter for a data warehouse
+Feature or request
+Category
+One stored value for monthly output
+Processes must change to match the software
+Three years of order lines refreshed for analysis
+Reapplying modifications at every upgrade
+C410-2  Enter the number of modifications the plant manager has requested.
+Answer: ____________
+C410-3  On the forty-one modifications, Rania should advise that: [select]
+Options: heavy customisation destroys the benefit integration was bought for, because the system can no longer be upgraded cheaply   |   they should be accepted, since the plant knows its own process   |   they are a technical matter for the vendor   |   they will reduce the implementation cost
+C410-4  Why has the IT manager objected to querying the live system for three years of order lines hourly? [select]
+Options: heavy analysis would slow the system the business is working in   |   the data does not exist   |   the sales director lacks authority   |   the query would breach data protection law
+C410-5  What should Rania recommend for the sales director's report? [select]
+Options: build it against a data warehouse or a sales data mart, loaded from the live system   |   refuse the request   |   run it only at night against the live system   |   keep the old spreadsheet process
+C410-6  What should the board expect the new system to make possible that the old could not? [select]
+Options: planning built from drivers, and plan compared with actual while the month is still running   |   lower software licence fees   |   fewer staff in the plant   |   an unqualified audit opinion
+C410-7  The rule that a foreign key must match an existing primary key, so no orphan record can exist, is called referential ____.
+Choose the word or phrase for the blank: integrity   |   validity   |   accuracy   |   completeness
+Case question: the implementation that wanted everything
+The Orontes board has approved an ERP to replace the plant, payroll and accounting systems of Chapter 9. The vendor's standard purchasing process requires a goods received note to be matched against the order before an invoice can be posted, which is close to, but not identical with, the process the Amman plant has used for years.
+The plant manager has asked for forty-one modifications so that the software matches existing practice exactly. The project manager estimates that these would add nine months and would need to be reapplied at every upgrade. The finance director has asked whether this matters. Orontes has not run a project of this size before, and the plant manager has said publicly that he expects the system to adapt to the plant rather than the reverse.
+Separately, the sales director wants the new system queried directly for a report listing every order, line by line, for the past three years, refreshed hourly. The IT manager has objected but has not explained why.
+The board has asked Rania to advise on the modifications, on the sales director's request, and on what the company should expect the new system to make possible that the old arrangement could not.
+Use the scenario above for items C410-1 to C410-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C410-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: An ERP advantage · An ERP disadvantage · A matter for a data warehouse
+Feature or request
+Category
+One stored value for monthly output
+Processes must change to match the software
+Three years of order lines refreshed for analysis
+Reapplying modifications at every upgrade
+C410-2  Enter the number of modifications the plant manager has requested.
+Answer: ____________
+C410-3  On the forty-one modifications, Rania should advise that: [select]
+Options: heavy customisation destroys the benefit integration was bought for, because the system can no longer be upgraded cheaply   |   they should be accepted, since the plant knows its own process   |   they are a technical matter for the vendor   |   they will reduce the implementation cost
+C410-4  Why has the IT manager objected to querying the live system for three years of order lines hourly? [select]
+Options: heavy analysis would slow the system the business is working in   |   the data does not exist   |   the sales director lacks authority   |   the query would breach data protection law
+C410-5  What should Rania recommend for the sales director's report? [select]
+Options: build it against a data warehouse or a sales data mart, loaded from the live system   |   refuse the request   |   run it only at night against the live system   |   keep the old spreadsheet process
+C410-6  What should the board expect the new system to make possible that the old could not? [select]
+Options: planning built from drivers, and plan compared with actual while the month is still running   |   lower software licence fees   |   fewer staff in the plant   |   an unqualified audit opinion
+C410-7  The rule that a foreign key must match an existing primary key, so no orphan record can exist, is called referential ____.
+Choose the word or phrase for the blank: integrity   |   validity   |   accuracy   |   completeness
+Answers and explanations
+Section checks
+SC410-1  Answer B. The shared database, not the breadth of the modules.
+A is wrong. Breadth without a shared database is still separate systems.
+C is wrong. One vendor may still sell several separate products.
+D is wrong. Every accounting system does that.
+SC410-2  Answer D. An ERP embodies a way of working.
+A is wrong. That is the problem ERP removes.
+B is wrong. Reporting becomes faster.
+C is wrong. Control and the audit trail usually improve.
+SC410-3  Answer A. One stored value cannot be keyed twice or disagree with itself.
+B is wrong. Automated transfers still mean two copies.
+C is wrong. Training does not change where the data lives.
+D is wrong. A consequence, not the mechanism.
+SC410-4  Answer C. Removing the thing that needed controlling is the strongest remedy.
+A is wrong. The transfer is gone, not improved.
+B is wrong. Frequency is not the issue.
+D is wrong. There is nothing left to reconcile.
+SC410-5  Answer C. No two rows may share it, and none may be blank.
+A is wrong. That is a foreign key.
+B is wrong. Importance is not the test.
+D is wrong. Position is irrelevant.
+SC410-6  Answer A. It is the validity check of Chapter 7 enforced by the database itself.
+B is wrong. True of good design, but not what the term means.
+C is wrong. That is a storage control.
+D is wrong. Deletion is permitted, subject to the keys.
+SC410-7  Answer D. Operational systems are built to process one transaction quickly.
+A is wrong. It holds some, but that is not the main reason.
+B is wrong. The warehouse is loaded from the same data.
+C is wrong. No such requirement.
+SC410-8  Answer B. A mart is a warehouse's structure applied to one subject.
+A is wrong. It is usually drawn from the warehouse itself.
+C is wrong. It holds whatever history that subject needs.
+D is wrong. Ownership is not the distinction.
+SC410-9  Answer A. One is the system of record, the other the system of management.
+B is wrong. They serve different purposes.
+C is wrong. The database is part of the ERP.
+D is wrong. Both are used across the business.
+SC410-10  Answer B. That is transaction processing, which the ERP does.
+A is wrong. A core EPM activity.
+C is wrong. A core EPM activity.
+D is wrong. A core EPM activity.
+SC410-11  Answer D. A change in any assumption then flows through without rebuilding the model.
+A is wrong. Timing of approval is not the mechanism.
+B is wrong. Effort is not the mechanism.
+C is wrong. A faster close helps reporting, not driver-based planning.
+SC410-12  Answer C. Customisation destroys the benefit integration was bought for.
+A is wrong. A risk, but not the usual cause.
+B is wrong. Under-training is the risk, not over-training.
+D is wrong. Sequence is a project decision, not the failure mode.
+Your turn
+Item
+Answer
+One store of history, covering every subject, loaded overnight
+A data warehouse — it serves the whole enterprise and is read rather than updated
+A subset for the sales department only
+Why: a mart applies the same structure to one subject, so that department can answer its own questions without disturbing anyone
+Uniquely identifies each row of a table
+A primary key — no two rows may share it and none may be blank
+Points from one table back to another
+A foreign key — it must match an existing primary key, which prevents an orphan record
+Multiple-choice questions
+P410-01  Answer A. Two copies of the data still exist.
+B is wrong. Integration means one stored copy.
+C is wrong. An ERP shares one database.
+D is wrong. A warehouse is a store for analysis.
+P410-02  Answer B. Everyone works from the same stored value.
+A is wrong. Implementation is long and costly.
+C is wrong. Standardisation reduces local flexibility.
+D is wrong. Vendor dependence increases.
+P410-03  Answer D. Integration concentrates dependence as well as data.
+A is wrong. It can and must be.
+B is wrong. ERPs are multi-user by design.
+C is wrong. The audit trail improves.
+P410-04  Answer C. Disagreement needs two copies.
+A is wrong. Reconciliation implies two copies.
+B is wrong. No adjustment is needed.
+D is wrong. A check implies something to check against.
+P410-05  Answer D. Technology does not change behaviour.
+A is wrong. Removed: the fact is entered once.
+B is wrong. Removed: posting is immediate.
+C is wrong. Removed: one stored value.
+P410-06  Answer B. Tables linked by shared values.
+A is wrong. That is a flat file.
+C is wrong. Folders are a file system, not a database.
+D is wrong. Spreadsheets are not a relational database.
+P410-07  Answer A. It holds the primary key of the supplier table.
+B is wrong. The invoice number identifies the invoice row.
+C is wrong. That is an input control.
+D is wrong. That is a batch control.
+P410-08  Answer C. No copy can be left stale.
+A is wrong. True but trivial.
+B is wrong. Unrelated.
+D is wrong. Access is a separate control.
+P410-09  Answer C. The tables are the data; the DBMS guards and serves them.
+A is wrong. The tables are the data.
+B is wrong. Reports are output.
+D is wrong. Backups remain essential.
+P410-10  Answer B. Loaded from the operational systems for analysis.
+A is wrong. That is the operational system.
+C is wrong. A backup is for recovery, not analysis.
+D is wrong. That is neither warehouse nor mart.
+P410-11  Answer A. One subject, usually drawn from the warehouse.
+B is wrong. A warehouse spans every subject.
+C is wrong. Operational systems process transactions.
+D is wrong. A module processes transactions too.
+P410-12  Answer D. It is loaded from the operational systems, often overnight.
+A is wrong. Both are needed, for different purposes.
+B is wrong. It keeps history for years.
+C is wrong. That would make it an operational system.
+P410-13  Answer C. Three names for the same set of processes.
+A is wrong. That is the system of record.
+B is wrong. That guards the tables.
+D is wrong. That is a store for analysis.
+P410-14  Answer D. The mechanisms are driver-based planning, continuous forecasting, plan with actual, and review feeding the plan.
+A is wrong. It explains nothing about how.
+B is wrong. Decisions may well improve; that is not the issue.
+C is wrong. The size of the benefit is not the objection.
+P410-15  Answer A. Explaining a loss and preventing one are different things.
+B is wrong. Approval timing is a separate matter.
+C is wrong. Report count is not the point.
+D is wrong. Audit cost is incidental.
+P410-16  Answer B. The model responds to a change without being rebuilt.
+A is wrong. That is incremental budgeting.
+C is wrong. That is bottom-up budgeting.
+D is wrong. That is top-down allocation.
+Case question: the implementation that wanted everything
+C410-1
+Feature or request
+Category
+One stored value for monthly output
+An ERP advantage
+Processes must change to match the software
+An ERP disadvantage
+Three years of order lines refreshed for analysis
+A matter for a data warehouse
+Reapplying modifications at every upgrade
+An ERP disadvantage
+Classify each item by what it concerns.
+C410-2  Answer: 41.
+9 is wrong: this answer that is the delay in months, not the number of modifications.
+0 is wrong: this answer modifications have been requested; the question is whether to accept them.
+C410-3  Answer: heavy customisation destroys the benefit integration was bought for, because the system can no longer be upgraded cheaply.
+they should be accepted, since the plant knows its own process is wrong: this answer the standard process should be accepted unless there is a real reason not to.
+they are a technical matter for the vendor is wrong: this answer the cost falls on Orontes at every future upgrade.
+they will reduce the implementation cost is wrong: this answer the estimate adds nine months.
+C410-4  Answer: heavy analysis would slow the system the business is working in.
+the data does not exist is wrong: this answer the data exists; where it is read from is the issue.
+the sales director lacks authority is wrong: this answer nothing suggests an authority problem.
+the query would breach data protection law is wrong: this answer these are the company's own order records.
+C410-5  Answer: build it against a data warehouse or a sales data mart, loaded from the live system.
+refuse the request is wrong: this answer the request is reasonable; only the source is wrong.
+run it only at night against the live system is wrong: this answer it is wanted hourly, and the warehouse exists for exactly this.
+keep the old spreadsheet process is wrong: this answer that reintroduces the manual work the ERP removes.
+C410-6  Answer: planning built from drivers, and plan compared with actual while the month is still running.
+lower software licence fees is wrong: this answer licence and implementation costs rise, not fall.
+fewer staff in the plant is wrong: this answer a possible consequence, but not what integration makes possible.
+an unqualified audit opinion is wrong: this answer the opinion depends on the controls and the statements, not on the software.
+C410-7  Answer: integrity.
+validity is wrong: this answer a validity check is the application-level equivalent.
+accuracy is wrong: this answer accuracy concerns whether a value is correct, not whether it matches.
+completeness is wrong: this answer completeness concerns whether anything is missing.
+PART III — INFORMATION SYSTEMS

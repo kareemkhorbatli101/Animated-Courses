@@ -1,0 +1,787 @@
+Chapter 11
+Data Governance, the Data Life Cycle and Cyber Controls
+حوكمة البيانات ودورة حياة البيانات وضوابط الأمن السيبراني
+Chapter 10 put every fact in one place. That makes the next question unavoidable: who decides what may be done with it, how long it is kept, and who is answerable when it is wrong or stolen.
+Figure F411-01 shows the chapter.
+Figure F411-01. Chapter 11 roadmap: decide, do, defend.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.2.a
+define data governance and data management
+Define data governance and data management.
+Full treatment
+F.2.b
+demonstrate a general understanding of data governance frameworks, including COSO’s Internal Control—Integrated framework
+Demonstrate a general understanding of data governance frameworks, including COSO's Internal Control-Integrated Framework.
+Full treatment
+F.2.c
+identify the stages of the data life cycle, i.e., data capture, data maintenance, data synthesis, data usage, data analytics, data publication, data archival, and data purging
+Identify the stages of the data life cycle.
+Full treatment
+F.2.d
+demonstrate an understanding of data preprocessing and the steps to convert data for further analysis, including data consolidation, data cleaning (cleansing), data transformation, and data reduction
+Demonstrate an understanding of data preprocessing: consolidation, cleaning, transformation and reduction.
+Full treatment + Extended Example
+F.2.e
+discuss the importance of having a documented record retention (or records management) policy
+Discuss the importance of having a documented record retention policy.
+Full treatment + Extended Example
+F.2.f
+identify and explain controls and tools to detect and thwart cyberattacks, such as penetration and vulnerability testing, biometrics, advanced firewalls, and access controls
+Identify and explain controls and tools to detect and thwart cyberattacks.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+synthesis
+التوليف
+synthèse
+analytics
+التحليلات
+analytique
+purging
+الإتلاف
+purge
+data cleaning
+تنظيف البيانات
+nettoyage des données
+data reduction
+تقليص البيانات
+réduction des données
+data governance
+حوكمة البيانات
+gouvernance des données
+data management
+إدارة البيانات
+gestion des données
+data owner
+مالك البيانات
+propriétaire des données
+data dictionary
+قاموس البيانات
+dictionnaire de données
+data life cycle
+دورة حياة البيانات
+cycle de vie des données
+archival
+الأرشفة
+archivage
+preprocessing
+المعالجة الأولية
+prétraitement
+record retention policy
+سياسة الاحتفاظ بالسجلات
+politique de conservation des documents
+litigation hold
+تعليق الإتلاف للتقاضي
+conservation pour litige
+vulnerability scanning
+فحص الثغرات
+analyse de vulnérabilités
+penetration testing
+اختبار الاختراق
+test d'intrusion
+biometrics
+القياسات الحيوية
+biométrie
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 defined the control environment as deciding who answers for what. This chapter applies that idea to a particular asset, and Chapter 6's access controls reappear here as part of the defence against attack.
+11.1  Governance and management
+Data governance is the exercise of authority and decision rights over data: who owns it, what may be done with it, and to what standard it is held. Data management is the work of carrying those decisions out. Figure F411-02 separates them.
+Figure F411-02. Data governance against data management
+Data governance
+Data management
+Question it answers
+Who decides, and by what authority?
+How is it actually done?
+Typical outputs
+Policies, ownership, decision rights, standards
+Architecture, loading, quality work, storage
+Who does it
+A council or committee, with named data owners
+Technical and operational teams
+Example at Orontes
+Deciding that the plant owns production data
+Loading it nightly and fixing bad records
+In one line
+Governance decides
+Management does
+The distinction is worth holding firmly, because the exam tests it directly and because companies confuse it in practice. Governance decides; management does. A company with a technically excellent data team and no decision rights has management without governance, and nobody can say who is allowed to change a definition.
+The practical expression of governance is the data owner: a named person, usually in the business rather than in the technology function, who answers for the quality and the use of one domain of data.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data governance
+حوكمة البيانات
+gouvernance des données
+data management
+إدارة البيانات
+gestion des données
+data owner
+مالك البيانات
+propriétaire des données
+English (exam term)
+العربية
+Français
+data governance
+حوكمة البيانات
+gouvernance des données
+data management
+إدارة البيانات
+gestion des données
+data owner
+مالك البيانات
+propriétaire des données
+SECTION CHECK   Test yourself
+SC411-1  Data governance is best summarised as:
+A.	loading and storing data correctly
+B.	deciding who owns data, what may be done with it and to what standard
+C.	writing the queries that analyse data
+D.	backing up the database
+SC411-2  A company has a skilled data team but nobody authorised to decide what a figure means. It has:
+A.	governance without management
+B.	both in balance
+C.	management without governance
+D.	neither
+Answers and explanations are at the end of the chapter.
+11.2  Applying a control framework to data
+The exam asks specifically how COSO's Internal Control framework applies to data governance. The answer is that it is not changed at all: the same five components of Chapter 5 are asked about a different asset. Figure F411-03 works through them.
+Figure F411-03. The five COSO components applied to data.
+Two components do most of the work here. Information and communication becomes the question of whether anyone knows what data exists and what it means, which is why a data dictionary matters. Monitoring becomes the question of whether data quality is measured at all.
+Other frameworks exist and are worth recognising by name. COBIT addresses the governance of information and technology more broadly, and the NIST Cybersecurity Framework addresses security specifically. None of them replaces COSO; they apply it to narrower subjects.
+SECTION CHECK   Test yourself
+SC411-3  How does COSO's framework apply to data governance?
+A.	It must be rewritten for data
+B.	It does not apply to data
+C.	Only the control activities component applies
+D.	Unchanged: the same five components are asked about a different asset
+SC411-4  A data dictionary serves which COSO component most directly?
+A.	Information and communication
+B.	Control activities
+C.	Monitoring activities
+D.	Risk assessment
+Answers and explanations are at the end of the chapter.
+11.3  The data life cycle
+Data has a life, and the exam names eight stages of it. Figure F411-04 sets them out in order.
+Figure F411-04. The eight stages of the data life cycle.
+The order matters less than the two distinctions inside it. Synthesis creates new values from existing ones, such as a cost per case derived from hours and output, and those derived values need governing exactly as captured ones do. Analytics examines data for patterns, which is the subject of Part IV.
+The pair most often confused is the last two. Archival removes data from the live system but does not destroy it: the data still exists, still has to be protected, and is still discoverable in a dispute. Purging destroys it. A company that believes archiving has discharged its obligations has misunderstood both.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data life cycle
+دورة حياة البيانات
+cycle de vie des données
+synthesis
+التوليف
+synthèse
+analytics
+التحليلات
+analytique
+archival
+الأرشفة
+archivage
+purging
+الإتلاف
+purge
+data dictionary
+قاموس البيانات
+dictionnaire de données
+English (exam term)
+العربية
+Français
+data life cycle
+دورة حياة البيانات
+cycle de vie des données
+synthesis
+التوليف
+synthèse
+analytics
+التحليلات
+analytique
+archival
+الأرشفة
+archivage
+purging
+الإتلاف
+purge
+data dictionary
+قاموس البيانات
+dictionnaire de données
+SECTION CHECK   Test yourself
+SC411-5  Which stage creates new values from existing ones?
+A.	Capture
+B.	Synthesis
+C.	Publication
+D.	Archival
+SC411-6  What is the difference between archival and purging?
+A.	They are two words for the same thing
+B.	Archiving destroys data; purging keeps it
+C.	Archiving applies to paper and purging to digital records
+D.	Archived data still exists and must still be protected; purged data is destroyed
+Answers and explanations are at the end of the chapter.
+11.4  Preprocessing: getting data ready
+Raw data is rarely fit for analysis. Preprocessing is the work of making it so, and the exam names four steps. Figure F411-05 sets them out.
+Figure F411-05. The four steps of preprocessing
+Preprocessing step (F.2.d)
+What it does
+At Orontes
+Consolidation
+Bring the sources together into one set
+Plant output, payroll hours and ledger cost in one table
+Cleaning (cleansing)
+Remove duplicates, fix errors, handle missing values and outliers
+Two spellings of one supplier merged; a blank rate filled or flagged
+Transformation
+Put the data into the form the analysis needs
+Dates to quarters, amounts to a single currency, categories coded
+Reduction
+Cut the data to what the analysis actually needs
+Twelve monthly columns replaced by four quarterly ones
+data cleaning absorbs most of the effort in practice. It covers duplicates, plain errors, missing values and outliers, and each of those raises a judgement rather than a rule. A missing rate can be deleted, estimated or flagged, and the three choices give three different answers downstream.
+data reduction is the step candidates misread. It does not mean throwing data away carelessly; it means cutting the data to what the analysis needs, so that the result is readable and the computation is manageable. Twelve monthly columns become four quarterly ones because the question is about seasons, not months.
+EXAM TRAP   Preprocessing is not analysis
+Every one of these four steps happens before the analysis begins. A question describing the fitting of a model or the search for a pattern has left preprocessing behind. The test is whether the data is being prepared or interrogated.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+preprocessing
+المعالجة الأولية
+prétraitement
+data cleaning
+تنظيف البيانات
+nettoyage des données
+data reduction
+تقليص البيانات
+réduction des données
+English (exam term)
+العربية
+Français
+preprocessing
+المعالجة الأولية
+prétraitement
+data cleaning
+تنظيف البيانات
+nettoyage des données
+data reduction
+تقليص البيانات
+réduction des données
+SECTION CHECK   Test yourself
+SC411-7  Merging two spellings of one supplier into a single record is:
+A.	cleaning
+B.	consolidation
+C.	transformation
+D.	reduction
+SC411-8  An order shows a quantity a hundred times the usual. The analyst should:
+A.	delete it as an outlier
+B.	replace it with the average
+C.	find out whether it is a decimal error or a genuine bulk order
+D.	leave it and note the result is unreliable
+Answers and explanations are at the end of the chapter.
+11.5  Why a retention policy must be written
+A record retention policy states how long each kind of record is kept and when it is destroyed. Figure F411-06 sets out why having it written down matters, which is what this Level C outcome asks you to discuss.
+Figure F411-06. Why a written retention policy matters
+Why a written policy matters (F.2.e)
+The reason
+At Orontes
+Legal and tax requirements
+Records must exist for as long as a law or authority may ask
+Jordanian tax and company law periods
+Audit and contract needs
+Evidence must survive long enough to support a claim or an audit
+Supplier contracts and the records behind them
+Privacy obligations
+Personal data must be deleted once its purpose has ended
+Jordan's Personal Data Protection Law, in force since 2024
+Cost and risk of keeping
+Data held beyond its purpose costs money and can still be stolen
+Twelve years of customer records nobody uses
+Consistency
+Everyone destroys to the same rule, or destruction looks selective
+One schedule, applied by everyone
+Litigation hold
+Routine destruction stops once a dispute is foreseeable
+Deleting on schedule during a dispute looks deliberate
+Two of those reasons deserve emphasis. Consistency protects the company: when everyone destroys to the same published schedule, destruction is routine. When destruction is decided case by case, every deletion invites the question of why that record and not another.
+A litigation hold is the other. Once a dispute or an investigation is foreseeable, routine destruction must stop for the records concerned. Continuing to delete on schedule during a dispute is how an innocent company acquires the appearance of a guilty one, and Chapter 4 showed that obstructing an investigation carries up to twenty years.
+Keeping everything forever is not the safe alternative, which is the point candidates miss. Data held past its purpose costs money, can still be stolen, and under Jordan's data protection law, in force since 2024, personal data must be deleted once the purpose has ended. The policy exists to answer both directions.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+record retention policy
+سياسة الاحتفاظ بالسجلات
+politique de conservation des documents
+litigation hold
+تعليق الإتلاف للتقاضي
+conservation pour litige
+English (exam term)
+العربية
+Français
+record retention policy
+سياسة الاحتفاظ بالسجلات
+politique de conservation des documents
+litigation hold
+تعليق الإتلاف للتقاضي
+conservation pour litige
+SECTION CHECK   Test yourself
+SC411-9  Why does consistency in applying a retention policy protect the company?
+A.	It reduces storage cost
+B.	It satisfies the external auditor
+C.	It speeds up searches
+D.	Destruction to a published schedule is routine; destruction decided case by case invites questions
+SC411-10  A dispute becomes foreseeable. What must happen to the records concerned?
+A.	They are archived immediately
+B.	They are destroyed to the normal schedule
+C.	Routine destruction stops for those records
+D.	They are sent to the external auditor
+Answers and explanations are at the end of the chapter.
+11.6  Controls and tools against cyberattack
+Figure F411-07 lists the controls and tools the exam names, and says whether each prevents or detects.
+Figure F411-07. Controls and tools against cyberattack
+Control or tool (F.2.f)
+What it is
+Prevent or detect
+At Orontes
+Vulnerability scanning
+Automated search for known weaknesses
+Detect
+Weekly, across all servers
+Penetration testing
+An authorized simulated attack by skilled testers
+Detect
+Annually, and after major change
+Biometrics
+Authentication by a physical characteristic
+Prevent
+Entry to the server room
+Advanced firewalls
+Application-aware filtering with intrusion prevention
+Prevent
+At the internet boundary
+Access controls
+Unique identity, least privilege, periodic review
+Prevent
+Every system, every user
+Intrusion detection and SIEM
+Logs collected centrally, correlated and alerted on
+Detect
+Continuous, with someone watching
+The pair most often confused is the first two. Vulnerability scanning is automated and looks for known weaknesses across everything, which makes it broad, cheap and shallow. Penetration testing is a skilled person attempting an authorized attack, which makes it narrow, expensive and deep. A scan finds the unlocked door; a test finds out what someone could do once through it.
+Biometrics authenticates by a physical characteristic rather than something known or carried, which removes the sharing and theft that defeat passwords. It is a stronger authentication, not a different kind of control: the access rules of Chapter 6 still decide what the authenticated person may do.
+WATCH: NOT YET TESTABLE   As of October 2026
+The NIST Cybersecurity Framework was revised to version 2.0 in February 2024, adding a sixth function, Govern, to the existing Identify, Protect, Detect, Respond and Recover. The addition makes the same point this chapter opens with: security is a governance question before it is a technical one.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+vulnerability scanning
+فحص الثغرات
+analyse de vulnérabilités
+penetration testing
+اختبار الاختراق
+test d'intrusion
+biometrics
+القياسات الحيوية
+biométrie
+English (exam term)
+العربية
+Français
+vulnerability scanning
+فحص الثغرات
+analyse de vulnérabilités
+penetration testing
+اختبار الاختراق
+test d'intrusion
+biometrics
+القياسات الحيوية
+biométrie
+SECTION CHECK   Test yourself
+SC411-11  What distinguishes penetration testing from vulnerability scanning?
+A.	A scan is manual and a test is automated
+B.	A scan is automated and broad; a test is a skilled authorized attack that is narrow and deep
+C.	A test is run weekly and a scan annually
+D.	They are the same activity
+SC411-12  Biometrics is a form of:
+A.	authentication
+B.	authorization
+C.	encryption
+D.	detection
+Answers and explanations are at the end of the chapter.
+11.7  Extended Example 11A: preparing the Gulf customer data
+This example prepares one real dataset for analysis and then asks how long any of it should be kept. F.2.e is a Level C outcome, so the second half asks for a judgement.
+1. The dataset
+Orontes wants to analyse three years of Gulf orders. The data sits in the new ERP, but the first two years were loaded from the old system, and the loading was imperfect.
+2. Consolidation
+Orders, deliveries and customer records come from three tables and must be joined. The join is possible because each carries the customer key of Chapter 10, which is the first practical dividend of a relational design.
+3. Cleaning
+The old system allowed free text, so one distributor appears as three spellings and must be merged to one. Fourteen orders have no delivery date. Two orders show a quantity a hundred times the usual, which is either a decimal error or a genuine bulk order, and the analyst must find out which rather than guess.
+4. Transformation
+Amounts are held in three currencies and must be converted to one. Dates become quarters, because the question is about seasonality. Customer size becomes a category rather than a number, so that small and large distributors can be compared.
+5. Reduction
+Thirty-six monthly columns become twelve quarterly ones, and forty product codes become six families. Nothing true is lost, because the question concerns seasons and families, not months and codes.
+6. Then the retention question
+The dataset contains the names, telephone numbers and addresses of individual buyers at each distributor. That is personal data, and it falls under Jordan's law for Orontes and under Saudi law for Saudi residents. The analysis needs the orders; it does not need the buyers' names.
+7. The judgement
+The right answer is to remove the personal identifiers during preprocessing, which serves the analysis and the obligation at once. Where identifiers are genuinely needed, the retention policy must state how long and the data must be purged, not merely archived, when that period ends.
+8. Your turn
+YOUR TURN   Name four preprocessing steps
+Complete the blank cells of Figure F411-08. Answers are at the end of the chapter.
+Figure F411-08. Your turn: name four preprocessing steps (complete the blanks)
+What was done
+Which step?
+Why
+Two spellings of one supplier are merged
+________
+It removes duplicates and fixes errors
+Monthly columns become quarterly ones
+Reduction
+________
+Amounts in three currencies become one
+________
+The data is put into the form the analysis needs
+Plant, payroll and ledger data are brought together
+________
+The sources are combined into one set
+9. Tie line
+WORKED EXAMPLE   The pattern behind the example
+Consolidate, clean, transform, reduce: in that order, and all before any analysis.
+An outlier is investigated, not deleted, until its cause is known.
+Removing personal identifiers can serve the analysis and the law at the same time.
+When a retention period ends, the data is purged, not archived.
+10. How the exam asks it
+EXAM TRAP   Exam view
+A question describes something done to data and asks which step it is. Ask what the step achieves: bringing sources together is consolidation, fixing what is wrong is cleaning, changing the form is transformation, and cutting the volume is reduction.
+11. Self-check
+SECTION CHECK   Test yourself
+SC411-13  Use Extended Example 11A. Why can the three tables be joined at all?
+A.	They were loaded on the same day
+B.	They are all in the same currency
+C.	They have the same number of rows
+D.	Each carries the customer key, so the relational design links them
+SC411-14  Use Extended Example 11A. What should be done with the buyers' names and telephone numbers?
+A.	Keep them indefinitely in case they are useful
+B.	Archive them and consider the obligation discharged
+C.	Remove them during preprocessing, since the analysis needs the orders and not the people
+D.	Publish them with the analysis
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F411-09 brings the chapter together.
+Figure F411-09. Chapter 11 summary map: the key rule for each section.
+Data governance exercises authority and decision rights over data; data management carries those decisions out. Governance decides and management does. COSO's framework applies to data unchanged: the same five components are asked about a different asset. The life cycle runs capture, maintenance, synthesis, usage, analytics, publication, archival and purging, and archival is not purging. Preprocessing consolidates, cleans, transforms and reduces, all before analysis begins. A written retention policy keeps records as long as law and evidence require, destroys them consistently, and stops destruction once a dispute is foreseeable. Controls against attack include vulnerability scanning and penetration testing, biometrics, advanced firewalls, access controls and continuous monitoring.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P411-01  A data owner is usually:
+A.	the head of the technology function
+B.	a named person in the business who answers for one domain of data
+C.	the external auditor
+D.	whoever created the record
+P411-02  Which is an output of data governance rather than data management?
+A.	A policy stating who may change a customer record
+B.	A nightly load of the warehouse
+C.	Fixing a corrupted file
+D.	Tuning a slow query
+P411-03  Under COSO applied to data, monitoring activities means:
+A.	measuring whether the data stays fit for use
+B.	watching who logs in
+C.	scanning for viruses
+D.	reviewing the data dictionary
+P411-04  Which framework addresses security specifically rather than internal control generally?
+A.	COSO Internal Control
+B.	COSO ERM
+C.	The data life cycle
+D.	The NIST Cybersecurity Framework
+P411-05  Which is the first stage of the data life cycle?
+A.	Maintenance
+B.	Synthesis
+C.	Capture
+D.	Usage
+P411-06  Sending a dataset to a regulator is which stage?
+A.	Usage
+B.	Publication
+C.	Analytics
+D.	Archival
+P411-07  A company archives seven years of records and believes it has met its obligations. It has overlooked that:
+A.	archiving is more expensive than purging
+B.	archives cannot be searched
+C.	archived data still exists, must still be protected, and is still discoverable
+D.	the auditor must approve archiving
+P411-08  Converting three currencies into one is:
+A.	consolidation
+B.	transformation
+C.	cleaning
+D.	reduction
+P411-09  Replacing thirty-six monthly columns with twelve quarterly ones is:
+A.	cleaning
+B.	consolidation
+C.	synthesis
+D.	reduction
+P411-10  Which statement about data reduction is correct?
+A.	It cuts the data to what the analysis needs, without losing what the question requires
+B.	It discards data at random to save space
+C.	It deletes all outliers
+D.	It happens after the model is fitted
+P411-11  Fourteen orders have no delivery date. Which is NOT a legitimate response?
+A.	Deleting those fourteen records
+B.	Estimating the date from the order date and usual lead time
+C.	Flagging them and excluding them from the delivery analysis
+D.	Changing them to today's date so the dataset is complete
+P411-12  Why is keeping every record forever not the safe option?
+A.	Storage is unlimited but slow
+B.	It costs money, the data can still be stolen, and privacy law may require deletion
+C.	Auditors object to large archives
+D.	Old records are always inaccurate
+P411-13  Under Jordan's data protection law, personal data must be:
+A.	deleted once the purpose for holding it has ended
+B.	kept for seven years
+C.	archived rather than purged
+D.	published on request
+P411-14  Which pairing is correct?
+A.	Vulnerability scanning prevents; access controls detect
+B.	Both prevent
+C.	Vulnerability scanning detects; access controls prevent
+D.	Both detect
+P411-15  What does a security information and event management system do?
+A.	Collects logs centrally, correlates them and raises alerts
+B.	Encrypts data in transit
+C.	Backs up the database
+D.	Blocks traffic by address and port
+P411-16  Which is a detective rather than a preventive control?
+A.	Biometric entry to the server room
+B.	An advanced firewall
+C.	Penetration testing
+D.	Least privilege access
+Case question: the records nobody would delete
+Orontes has never had a written retention policy. Each department decides for itself what to keep, and the practice has been to keep everything. The new ERP holds twelve years of customer records, including the names, telephone numbers and home addresses of individual buyers at each Gulf distributor. No department has ever been told how long its records should be kept, and nobody has been asked to decide.
+The sales director wants three years of order data analysed for seasonality. The data sits in three tables, uses three currencies, contains one distributor recorded under three spellings, and includes fourteen orders with no delivery date and two with quantities a hundred times the usual.
+Separately, a dispute has arisen with a former distributor in the United Arab Emirates, and lawyers have been instructed. A clerk in sales, tidying old files, has begun deleting correspondence with that distributor because it is more than two years old.
+Rania has been asked to advise on the analysis, on the personal data, and on the clerk's tidying. Jordan's Personal Data Protection Law has applied in full to Orontes since March 2025.
+Use the scenario above for items C411-1 to C411-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C411-1  Classify each action. (On the exam screen you would drag each item into a box.)
+Categories: Consolidation · Cleaning · Transformation · Reduction
+Action required
+Category
+Joining the three tables into one set
+Merging the three spellings of one distributor
+Converting three currencies into one
+Replacing monthly columns with quarterly ones
+C411-2  Enter the number of orders with no delivery date.
+Answer: ____________
+C411-3  On the two orders with quantities a hundred times the usual, Rania should advise: [select]
+Options: investigate whether each is a decimal error or a genuine bulk order before deciding anything   |   delete both as outliers   |   replace both with the average order size   |   leave both and note that the analysis is unreliable
+C411-4  On the buyers' names, telephone numbers and home addresses, the right course is to: [select]
+Options: remove the personal identifiers during preprocessing, since the analysis needs orders rather than people   |   keep them, because they may be useful later   |   archive them and treat the obligation as discharged   |   move them to a spreadsheet outside the ERP
+C411-5  On the clerk deleting correspondence with the distributor now in dispute: [select]
+Options: it must stop at once, because a litigation hold applies when a dispute is foreseeable   |   it may continue, because the records are more than two years old   |   it may continue if a manager approves each deletion   |   it should be accelerated to reduce the volume
+C411-6  Which statement best supports writing a retention policy at Orontes? [select]
+Options: it answers both how long to keep records and when to destroy them, consistently and in advance   |   it will reduce storage costs   |   it will satisfy the external auditor   |   it will speed up the ERP
+C411-7  Removing data from the live system while it still exists in store is called ____.
+Choose the word or phrase for the blank: archival   |   purging   |   cleaning   |   publication
+Case question: the records nobody would delete
+Orontes has never had a written retention policy. Each department decides for itself what to keep, and the practice has been to keep everything. The new ERP holds twelve years of customer records, including the names, telephone numbers and home addresses of individual buyers at each Gulf distributor. No department has ever been told how long its records should be kept, and nobody has been asked to decide.
+The sales director wants three years of order data analysed for seasonality. The data sits in three tables, uses three currencies, contains one distributor recorded under three spellings, and includes fourteen orders with no delivery date and two with quantities a hundred times the usual.
+Separately, a dispute has arisen with a former distributor in the United Arab Emirates, and lawyers have been instructed. A clerk in sales, tidying old files, has begun deleting correspondence with that distributor because it is more than two years old.
+Rania has been asked to advise on the analysis, on the personal data, and on the clerk's tidying. Jordan's Personal Data Protection Law has applied in full to Orontes since March 2025.
+Use the scenario above for items C411-1 to C411-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C411-1  Classify each action. (On the exam screen you would drag each item into a box.)
+Categories: Consolidation · Cleaning · Transformation · Reduction
+Action required
+Category
+Joining the three tables into one set
+Merging the three spellings of one distributor
+Converting three currencies into one
+Replacing monthly columns with quarterly ones
+C411-2  Enter the number of orders with no delivery date.
+Answer: ____________
+C411-3  On the two orders with quantities a hundred times the usual, Rania should advise: [select]
+Options: investigate whether each is a decimal error or a genuine bulk order before deciding anything   |   delete both as outliers   |   replace both with the average order size   |   leave both and note that the analysis is unreliable
+C411-4  On the buyers' names, telephone numbers and home addresses, the right course is to: [select]
+Options: remove the personal identifiers during preprocessing, since the analysis needs orders rather than people   |   keep them, because they may be useful later   |   archive them and treat the obligation as discharged   |   move them to a spreadsheet outside the ERP
+C411-5  On the clerk deleting correspondence with the distributor now in dispute: [select]
+Options: it must stop at once, because a litigation hold applies when a dispute is foreseeable   |   it may continue, because the records are more than two years old   |   it may continue if a manager approves each deletion   |   it should be accelerated to reduce the volume
+C411-6  Which statement best supports writing a retention policy at Orontes? [select]
+Options: it answers both how long to keep records and when to destroy them, consistently and in advance   |   it will reduce storage costs   |   it will satisfy the external auditor   |   it will speed up the ERP
+C411-7  Removing data from the live system while it still exists in store is called ____.
+Choose the word or phrase for the blank: archival   |   purging   |   cleaning   |   publication
+Answers and explanations
+Section checks
+SC411-1  Answer B. Governance decides; management does.
+A is wrong. That is data management.
+C is wrong. That is analysis, which management enables.
+D is wrong. That is a storage control.
+SC411-2  Answer C. The work is done but the decision rights are missing.
+A is wrong. The team is doing the work, so management exists.
+B is wrong. One side is missing.
+D is wrong. The team is managing the data.
+SC411-3  Answer D. Ownership, risk, controls, information and monitoring all have data meanings.
+A is wrong. No modification is needed.
+B is wrong. The exam asks specifically how it does apply.
+C is wrong. All five apply.
+SC411-4  Answer A. It records what data exists and what it means.
+B is wrong. Controls act on the data; the dictionary describes it.
+C is wrong. Monitoring measures quality.
+D is wrong. Risk assessment identifies what could go wrong.
+SC411-5  Answer B. A cost per case derived from hours and output.
+A is wrong. Capture is where data enters.
+C is wrong. Publication sends it outside.
+D is wrong. Archival moves it out of the live system.
+SC411-6  Answer D. Archived data remains discoverable in a dispute.
+A is wrong. Only one of them ends the data's existence.
+B is wrong. That reverses them.
+C is wrong. The medium is irrelevant.
+SC411-7  Answer A. It removes a duplicate and fixes an error.
+B is wrong. Consolidation brings separate sources together.
+C is wrong. Transformation changes the form of the data.
+D is wrong. Reduction cuts the volume.
+SC411-8  Answer C. An outlier is investigated, not removed, until its cause is known.
+A is wrong. Deleting a real order distorts the analysis.
+B is wrong. Replacing a possibly true value invents data.
+D is wrong. Investigating costs little and settles it.
+SC411-9  Answer D. Selective destruction looks deliberate even when it is innocent.
+A is wrong. A real benefit, but not the protection.
+B is wrong. The auditor is not the reason.
+C is wrong. Speed is incidental.
+SC411-10  Answer C. Continuing to delete on schedule during a dispute looks deliberate.
+A is wrong. Archiving is not what a hold requires; preservation is.
+B is wrong. That is exactly what must stop.
+D is wrong. The auditor has no role in a litigation hold.
+SC411-11  Answer B. A scan finds the unlocked door; a test finds what could be done through it.
+A is wrong. That reverses them.
+C is wrong. The frequencies are usually the other way round.
+D is wrong. They differ in depth, cost and method.
+SC411-12  Answer A. It proves who the person is, by a physical characteristic.
+B is wrong. Authorization decides what the person may then do.
+C is wrong. Encryption makes data unreadable.
+D is wrong. It prevents rather than detects.
+SC411-13  Answer D. The first practical dividend of the keys of Chapter 10.
+A is wrong. Loading date does not create a link.
+B is wrong. Currency is handled in transformation.
+C is wrong. Row counts are irrelevant to a join.
+SC411-14  Answer C. It serves the analysis and the obligation at once.
+A is wrong. Personal data must be deleted once its purpose has ended.
+B is wrong. Archived data still exists and still carries the obligation.
+D is wrong. That would compound the breach.
+Your turn
+Item
+Answer
+Two spellings of one supplier are merged
+Cleaning — it removes duplicates and fixes errors before any analysis begins
+Monthly columns become quarterly ones
+Why: the data is cut to what the analysis actually needs, since the question concerns seasons rather than months
+Amounts in three currencies become one
+Transformation — the data is put into the form the analysis requires
+Plant, payroll and ledger data are brought together
+Consolidation — separate sources are combined into one set
+Multiple-choice questions
+P411-01  Answer B. Accountability sits with the business, not the custodian.
+A is wrong. Technology holds the data; the business owns it.
+C is wrong. The auditor has no ownership role.
+D is wrong. Creation is not ownership.
+P411-02  Answer A. Decision rights are governance.
+B is wrong. That is management carrying out the decision.
+C is wrong. Operational work.
+D is wrong. Operational work.
+P411-03  Answer A. Data quality measures, reviewed by someone.
+B is wrong. That is an access control activity.
+C is wrong. That is a security tool.
+D is wrong. The dictionary serves information and communication.
+P411-04  Answer D. It applies control thinking to a narrower subject.
+A is wrong. That is the general internal control framework.
+B is wrong. That addresses enterprise risk.
+C is wrong. That is a sequence of stages, not a framework.
+P411-05  Answer C. The data must enter before anything else happens to it.
+A is wrong. Second.
+B is wrong. Third.
+D is wrong. Fourth.
+P411-06  Answer B. The data leaves the organization.
+A is wrong. Usage is within the business.
+C is wrong. Analytics examines for patterns.
+D is wrong. Archival moves it out of the live system, not out of the company.
+P411-07  Answer C. Only purging ends the data's existence.
+A is wrong. Cost is not the point.
+B is wrong. They can be searched, which is part of the problem.
+D is wrong. No such approval is required.
+P411-08  Answer B. The data is put into the form the analysis needs.
+A is wrong. Consolidation brings the sources together.
+C is wrong. Nothing was wrong with the original values.
+D is wrong. Nothing is cut.
+P411-09  Answer D. The data is cut to what the analysis needs.
+A is wrong. Nothing is being corrected.
+B is wrong. No separate sources are being joined.
+C is wrong. Synthesis is a life cycle stage, not a preprocessing step.
+P411-10  Answer A. Months become quarters because the question is about seasons.
+B is wrong. Reduction is deliberate, not careless.
+C is wrong. Outliers are investigated during cleaning.
+D is wrong. All preprocessing precedes analysis.
+P411-11  Answer D. Inventing a value misstates the data.
+A is wrong. A legitimate option, if the loss of fourteen records is acceptable.
+B is wrong. Legitimate, if the estimate is disclosed.
+C is wrong. Legitimate and often the safest.
+P411-12  Answer B. The policy answers both directions, not only how long to keep.
+A is wrong. Speed is not the objection.
+C is wrong. Auditors do not object to retention.
+D is wrong. Age does not make a record wrong.
+P411-13  Answer A. Purpose, not a fixed period, governs personal data.
+B is wrong. That is a general accounting retention idea, not this rule.
+C is wrong. Archiving does not end the holding.
+D is wrong. Subjects have rights, but publication is not one.
+P411-14  Answer C. A scan finds weaknesses; access controls stop entry.
+A is wrong. That reverses them.
+B is wrong. Scanning finds rather than stops.
+D is wrong. Access controls stop rather than find.
+P411-15  Answer A. It is detection, and it needs someone watching.
+B is wrong. That is encryption.
+C is wrong. That is a storage control.
+D is wrong. That is a firewall.
+P411-16  Answer C. It finds what an attacker could achieve; it does not stop them.
+A is wrong. It prevents entry.
+B is wrong. It prevents unwanted traffic.
+D is wrong. It prevents excess access.
+Case question: the records nobody would delete
+C411-1
+Action required
+Category
+Joining the three tables into one set
+Consolidation
+Merging the three spellings of one distributor
+Cleaning
+Converting three currencies into one
+Transformation
+Replacing monthly columns with quarterly ones
+Reduction
+Classify each action by the preprocessing step it belongs to.
+C411-2  Answer: 14.
+2 is wrong: this answer that is the number of extreme quantities, not of missing dates.
+3 is wrong: this answer that is the number of spellings of one distributor.
+C411-3  Answer: investigate whether each is a decimal error or a genuine bulk order before deciding anything.
+delete both as outliers is wrong: this answer deleting a real bulk order would distort the seasonality analysis.
+replace both with the average order size is wrong: this answer that invents data in place of a value that may be true.
+leave both and note that the analysis is unreliable is wrong: this answer the cause can be established cheaply, so uncertainty is unnecessary.
+C411-4  Answer: remove the personal identifiers during preprocessing, since the analysis needs orders rather than people.
+keep them, because they may be useful later is wrong: this answer personal data must be deleted once its purpose has ended.
+archive them and treat the obligation as discharged is wrong: this answer archived data still exists and still carries the obligation.
+move them to a spreadsheet outside the ERP is wrong: this answer that worsens the position by removing them from the system's controls.
+C411-5  Answer: it must stop at once, because a litigation hold applies when a dispute is foreseeable.
+it may continue, because the records are more than two years old is wrong: this answer age does not matter once a hold applies.
+it may continue if a manager approves each deletion is wrong: this answer approval does not cure destruction during a dispute; it documents it.
+it should be accelerated to reduce the volume is wrong: this answer that is how an innocent company acquires the appearance of a guilty one.
+C411-6  Answer: it answers both how long to keep records and when to destroy them, consistently and in advance.
+it will reduce storage costs is wrong: this answer a real benefit, but not the reason the policy protects the company.
+it will satisfy the external auditor is wrong: this answer the auditor is not the reason for the policy.
+it will speed up the ERP is wrong: this answer performance is incidental.
+C411-7  Answer: archival.
+purging is wrong: this answer purging destroys the data.
+cleaning is wrong: this answer cleaning corrects data; it does not move it.
+publication is wrong: this answer publication sends data outside the organization.
+PART III — INFORMATION SYSTEMS

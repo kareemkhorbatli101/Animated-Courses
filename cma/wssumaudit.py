@@ -222,7 +222,7 @@ def p07_opening(ch, say):
         for b in H['blocks']:
             if b['kind'] == 'prose':
                 txt = clean(_text_of(b))
-                if S.dangling(txt) and prev not in (
+                if S.dangling(txt) and prev is not None and prev not in (
                         'divider', 'table', 'ref', 'fig', 'plain'):
                     say('%s prose opens mid-thought: %s'
                         % (H['id'], txt[:64]))
@@ -785,7 +785,8 @@ def audit(bk=1, n=1, verbose=True):
     # The tables matter because a figure drawn from one answers in its
     # cells -- "Prepaid rent", "40,000 x 25% = 10,000" -- and a grounding
     # pass that reads only the prose calls every one of them invented.
-    chap = ' '.join([x['title'] + ' ' + x['no'] + ' ' + x['text']
+    chap = ' '.join([x['title'] + ' ' + x['no'] + ' '
+                     + 'section ' + clean(x['no']) + ' ' + x['text']
                      for x in d['sections']]
                     + [clean(c) for t in d['tables'] for r in t for c in r])
     for si, H in enumerate(ch):

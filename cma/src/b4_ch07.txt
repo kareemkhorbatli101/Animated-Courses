@@ -1,0 +1,633 @@
+Chapter 7
+Application, Processing and Storage Controls
+ضوابط التطبيقات والمعالجة والتخزين
+Chapter 6 asked who could reach the system. This chapter asks what the system itself does with the data once someone legitimate is using it. It also shows how a reader can see the controls in a process by looking at a picture of it.
+Figure F407-01 shows the path.
+Figure F407-01. Chapter 7 roadmap: in, through, out and kept.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.2.c
+demonstrate an understanding of how system development controls are used to enhance the accuracy, validity, safety, security, and adaptability of systems input, processing, output, and storage functions
+Demonstrate an understanding of how system development controls enhance accuracy, validity, safety, security and adaptability.
+Full treatment
+E.2.f
+identify input controls, processing controls, and output controls and describe why each of these controls is necessary
+Identify input, processing and output controls and describe why each is necessary.
+Full treatment + Extended Example
+E.2.g
+identify and describe the types of storage controls and demonstrate an understanding of when and why they are used
+Identify and describe the types of storage control and understand when and why they are used.
+Full treatment
+E.2.k
+demonstrate an understanding of how flowcharts of activities are used to assess controls
+Demonstrate an understanding of how flowcharts of activities are used to assess controls.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+system development control
+ضوابط تطوير النظم
+contrôle de développement des systèmes
+adaptability
+القابلية للتكيف
+adaptabilité
+input control
+ضوابط المدخلات
+contrôle des entrées
+batch total
+الإجمالي الدفعي
+total de lot
+hash total
+الإجمالي الرقابي
+total de contrôle
+incremental backup
+النسخ الاحتياطي التزايدي
+sauvegarde incrémentielle
+differential backup
+النسخ الاحتياطي التفاضلي
+sauvegarde différentielle
+flowchart
+مخطط التدفق
+organigramme
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 3 said that prenumbered forms make completeness testable. This chapter does the same job inside the application, where batch totals replace the sequence and the computer does the counting.
+7.1  System development controls
+Controls are cheapest when they are designed into a system and most expensive when they are added afterwards. System development controls are the ones applied while the system is being built, and Figure F407-02 names the five things they protect.
+Figure F407-02. What system development controls protect
+What development controls protect (E.2.c)
+What it means
+How it is achieved
+Accuracy
+The system computes what it is supposed to compute
+Test with known data and compare the result
+Validity
+Only genuine, authorized transactions are processed
+Authorization checks designed into the program
+Safety
+Data is not lost or corrupted when something fails
+Recovery routines and transaction rollback
+Security
+Only the right people can reach the system
+Access rights built in, not added afterwards
+Adaptability
+The system can be changed as the business changes
+Documentation and modular design
+Over all of them
+Users involved, stages approved, testing in a separate environment, changes controlled
+The system development controls of Chapter 12
+Adaptability is the one candidates overlook. A system that cannot be changed safely will be changed unsafely, because the business will not stop to accommodate it. Documentation and modular design are control matters, not merely technical housekeeping.
+Across all five sits a familiar requirement. Users are involved from the start, each stage is formally approved, testing is carried out in an environment separate from the live one, and every later change is controlled. Chapter 12 returns to the development life cycle in full.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+system development control
+ضوابط تطوير النظم
+contrôle de développement des systèmes
+adaptability
+القابلية للتكيف
+adaptabilité
+English (exam term)
+العربية
+Français
+system development control
+ضوابط تطوير النظم
+contrôle de développement des systèmes
+adaptability
+القابلية للتكيف
+adaptabilité
+SECTION CHECK   Test yourself
+SC407-1  Why are controls cheapest when designed into a system?
+A.	Designers charge less than auditors
+B.	Live systems cannot be changed
+C.	Adding them to a live system means changing what already works and retesting it
+D.	Users prefer new systems
+SC407-2  Why does adaptability belong among the things development controls protect?
+A.	Adaptable systems cost less to run
+B.	Auditors require modular design
+C.	It has no control significance
+D.	A system that cannot be changed safely will be changed unsafely
+Answers and explanations are at the end of the chapter.
+7.2  Input, processing and output controls
+Figure F407-03 shows the three stages and what each one asks.
+Figure F407-03. Input, processing and output controls, and what each asks.
+The economics are the whole argument for input controls. An error caught as it is keyed costs a moment. The same error found in the output has already passed through every calculation in between, and tracing it back through them costs far more than preventing it would have.
+Figure F407-04 sets out the input controls the exam names.
+Figure F407-04. Input controls and what each one tests
+Input control (E.2.f)
+What it tests
+Example
+Field check
+The data is the right type
+Letters rejected in a quantity field
+Format check
+The data has the right shape
+A date entered as 2026-13-45 is rejected
+Range or limit check
+The value falls between sensible bounds
+An hourly rate above 500 is queried
+Reasonableness check
+The value makes sense beside another field
+A 900-case order from a customer who buys 20
+Validity check
+The code exists on the master file
+An unknown supplier number is rejected
+Check digit
+An extra digit computed from the rest
+A mistyped account number fails the arithmetic
+Batch totals
+Financial, hash or record count compared before and after
+Twenty invoices entered; twenty posted
+Closed-loop verification
+The system displays what the code means
+The supplier name appears for confirmation
+Batch totals come in three kinds and the distinction is tested. A financial total adds amounts; a record count counts documents; a hash total adds something meaningless, such as supplier numbers, purely so that a change shows up. The hash total has no accounting meaning at all, which is exactly why it works.
+Processing controls keep the data right while it is being handled: run-to-run totals carry a figure from one stage to the next, sequence checks confirm nothing is skipped, and error logs capture what was rejected. Output controls then reconcile what left against what entered, send reports only to named recipients, and dispose of them securely.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+input control
+ضوابط المدخلات
+contrôle des entrées
+batch total
+الإجمالي الدفعي
+total de lot
+hash total
+الإجمالي الرقابي
+total de contrôle
+English (exam term)
+العربية
+Français
+input control
+ضوابط المدخلات
+contrôle des entrées
+batch total
+الإجمالي الدفعي
+total de lot
+hash total
+الإجمالي الرقابي
+total de contrôle
+SECTION CHECK   Test yourself
+SC407-3  A supplier number that does not exist on the master file is rejected by a:
+A.	validity check
+B.	range check
+C.	reasonableness check
+D.	field check
+SC407-4  What is a hash total?
+A.	The total value of the invoices in a batch
+B.	A total of values with no accounting meaning, computed only so that a change becomes visible
+C.	A count of the documents in a batch
+D.	The total of all debits in the ledger
+Answers and explanations are at the end of the chapter.
+7.3  Storage controls
+Figure F407-05 sets out the storage controls and the trade-off each one makes.
+Figure F407-05. Storage controls and their trade-offs
+Storage control (E.2.g)
+What it does
+Trade-off
+Typical
+Full backup
+Copies everything
+Slowest to take, fastest to restore
+Weekly
+Incremental backup
+Copies changes since the last backup of ANY type
+Fastest to take, slowest to restore
+Nightly
+Differential backup
+Copies changes since the last FULL backup
+Between the two on both counts
+Nightly, where restore speed matters
+Mirroring or replication
+A continuously maintained second copy
+Protects against hardware failure, not against error
+Continuous
+Off-site or cloud copy
+A copy held away from the site
+The only protection against fire or flood
+At least one copy, always
+Immutable or air-gapped copy
+A copy that cannot be altered or reached online
+The protection against ransomware
+At least one copy
+The distinction between incremental and differential backups is the one the exam tests. An incremental copies what has changed since the last backup of any kind. It is quick to take and slow to restore, because every incremental since the last full backup must be applied in order. A differential copies what has changed since the last full backup. It grows larger each night but needs only two restores.
+Two further points are worth knowing. Mirroring protects against a disk failing but not against a mistake, because the error is copied faithfully to the mirror. And a copy that cannot be altered or reached online is now the standard protection against ransomware, which otherwise encrypts the backups along with everything else.
+EXAM TRAP   RAID is not a backup
+Mirroring and RAID give resilience against hardware failure. They do not protect against deletion, corruption or encryption, because whatever happens to the original happens immediately to the copy. A question offering RAID as the answer to data loss is offering the wrong answer.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+incremental backup
+النسخ الاحتياطي التزايدي
+sauvegarde incrémentielle
+differential backup
+النسخ الاحتياطي التفاضلي
+sauvegarde différentielle
+English (exam term)
+العربية
+Français
+incremental backup
+النسخ الاحتياطي التزايدي
+sauvegarde incrémentielle
+differential backup
+النسخ الاحتياطي التفاضلي
+sauvegarde différentielle
+SECTION CHECK   Test yourself
+SC407-5  An incremental backup copies:
+A.	everything that changed since the last full backup
+B.	everything that changed since the last backup of any type
+C.	everything, every time
+D.	only files marked by the user
+SC407-6  Why is mirroring not a backup?
+A.	Mirrors are stored on the same disk
+B.	Mirroring is too slow
+C.	Mirrors cannot be restored
+D.	A deletion or corruption is copied immediately to the mirror
+Answers and explanations are at the end of the chapter.
+7.4  Reading a flowchart for controls
+A flowchart draws a process as a sequence of steps, decisions and documents. For a control reviewer it does something no written procedure does: it shows, in one picture, who holds which duty and where a document is created or lost.
+Figure F407-06. A purchasing flowchart read for control weaknesses.
+Figure F407-06 shows the redesigned Orontes purchasing cycle. Four questions answer most of what a reviewer needs. Who performs each step, and does any one name appear too often? Where are the decision points, and what rule governs each? Which documents are created, and are they accounted for? Does anything leave the chart without a check?
+Applied here, the chart shows four different people, a decision point governed by a stated limit, and a document at every step. The weakness the chart would have revealed before the redesign was a single name appearing in four boxes.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+flowchart
+مخطط التدفق
+organigramme
+English (exam term)
+العربية
+Français
+flowchart
+مخطط التدفق
+organigramme
+SECTION CHECK   Test yourself
+SC407-7  What does a flowchart show a control reviewer that a written procedure does not?
+A.	Who holds which duty, and where a document is created or lost, in one picture
+B.	The cost of each step
+C.	How long each step takes
+D.	The legal basis for the process
+SC407-8  Reviewing the flowchart in Figure F407-06, which feature shows the segregation is sound?
+A.	The chart has a decision diamond
+B.	The chart runs from top to bottom
+C.	Four different people perform the four steps after the decision
+D.	Payment is the last step
+Answers and explanations are at the end of the chapter.
+7.5  Extended Example 7A: a batch of invoices, and where each control catches it
+This example follows one batch of twenty supplier invoices through the Orontes system and shows which control catches which error. It is exam-core: questions give an error and ask which control would find it.
+1. The batch
+Accounts payable keys twenty invoices as one batch. Before keying, the clerk records three batch totals: twenty documents, a financial total of the invoice amounts, and a hash total of the supplier numbers.
+2. Four errors occur
+One invoice is keyed with the quantity in the rate field. One carries a supplier number that does not exist. One is keyed twice. And one is for a supplier that exists, but with a mistyped number that happens to belong to a different real supplier.
+3. Which control catches which
+The field or format check rejects the first as it is keyed. The validity check rejects the second, because the code is not on the master file. The record count catches the third: twenty-one documents posted against twenty counted.
+4. The one that is hardest to catch
+The fourth error passes the validity check, because the mistyped number is a real supplier. It passes the record count and the financial total, because the amount is right. Only the hash total of supplier numbers catches it, or closed-loop verification showing the supplier name on screen before the clerk confirms.
+5. Why that matters
+This is the case that justifies the hash total, which otherwise looks like arithmetic for its own sake. A total with no accounting meaning catches an error that every meaningful total misses, because the error substitutes one valid value for another.
+6. Your turn
+YOUR TURN   Match four errors to their controls
+Complete the blank cells of Figure F407-07. Answers are at the end of the chapter.
+Figure F407-07. Your turn: match four errors to their controls (complete the blanks)
+What happened
+Which input control?
+Why
+An hourly rate of 5,000 is entered
+________
+The value is outside sensible bounds
+Twenty invoices are keyed but nineteen post
+Batch total
+________
+A supplier number that does not exist is keyed
+________
+The code is not on the master file
+A mistyped account number is caught by arithmetic
+________
+An extra digit is computed from the rest
+7. Tie line
+WORKED EXAMPLE   The pattern behind the example
+Field, format and range checks catch data that is the wrong shape.
+Validity checks catch codes that do not exist.
+Record counts and financial totals catch things missing or added.
+Only a hash total or closed-loop verification catches one valid code substituted for another.
+8. How the exam asks it
+EXAM TRAP   Exam view
+Ask what kind of error it is before choosing a control. Wrong shape, absent code, wrong count, or one valid value swapped for another. The last of these is the one most candidates get wrong, and it has only two answers.
+9. Self-check
+SECTION CHECK   Test yourself
+SC407-9  Use Extended Example 7A. Which error passes the validity check, the record count and the financial total?
+A.	A quantity keyed into the rate field
+B.	A mistyped supplier number that happens to belong to a different real supplier
+C.	A supplier number that does not exist
+D.	An invoice keyed twice
+SC407-10  Use Extended Example 7A. Which two controls would catch that error?
+A.	A hash total of supplier numbers, or closed-loop verification
+B.	A financial total or a record count
+C.	A range check or a limit check
+D.	A sequence check or an error log
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F407-08 brings the chapter together.
+Figure F407-08. Chapter 7 summary map: the key rule for each section.
+System development controls protect accuracy, validity, safety, security and adaptability, and they are cheapest when designed in rather than added afterwards. Input controls catch errors where correction costs least, through field, format, range, reasonableness and validity checks, check digits, batch totals and closed-loop verification. Processing controls keep the data right in transit and output controls reconcile what leaves against what entered. Storage controls run full, incremental and differential, with an off-site copy and an immutable one, and mirroring is not a backup. A flowchart shows in one picture who holds which duty and where a document is created or lost.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P407-01  Which is NOT one of the five things development controls protect?
+A.	Accuracy
+B.	Validity
+C.	Profitability
+D.	Adaptability
+P407-02  Testing a new system should be carried out:
+A.	on live data, for realism
+B.	by the programmer who wrote it, alone
+C.	after the system goes live
+D.	in an environment separate from the live one
+P407-03  A date entered as 2026-13-45 is rejected by a:
+A.	format check
+B.	validity check
+C.	reasonableness check
+D.	check digit
+P407-04  A 900-case order from a customer who normally buys 20 is queried by a:
+A.	field check
+B.	validity check
+C.	reasonableness check
+D.	sequence check
+P407-05  A check digit works by:
+A.	counting the documents in a batch
+B.	computing an extra digit from the rest of the number
+C.	comparing the total before and after entry
+D.	displaying the name for confirmation
+P407-06  Twenty invoices are counted before entry and twenty-one post. Which control revealed it?
+A.	A hash total
+B.	A validity check
+C.	A format check
+D.	A record count
+P407-07  Closed-loop verification means:
+A.	the batch is entered twice by two clerks
+B.	the output total is reconciled to the input total
+C.	the system displays what the entered code means, for confirmation
+D.	the transaction is reversed and re-entered
+P407-08  Run-to-run totals are an example of:
+A.	an input control
+B.	a processing control
+C.	an output control
+D.	a storage control
+P407-09  Why do input controls matter more than output controls for cost?
+A.	Output controls are optional
+B.	Input controls are automatic
+C.	Output reports are rarely read
+D.	An error found at output has already passed through every calculation in between
+P407-10  A differential backup copies:
+A.	everything changed since the last full backup
+B.	everything changed since the last backup of any type
+C.	only the files the user selects
+D.	everything, every time
+P407-11  Which backup type is fastest to take but slowest to restore?
+A.	Differential
+B.	Full
+C.	Incremental
+D.	Mirror
+P407-12  Which protects against ransomware encrypting the backups too?
+A.	An immutable or air-gapped copy
+B.	A nightly incremental backup
+C.	RAID
+D.	A mirror on a second server
+P407-13  Why must at least one backup copy be held off site?
+A.	Off-site copies restore faster
+B.	The law requires it
+C.	It reduces storage cost
+D.	It is the only protection against fire or flood at the main site
+P407-14  Which question does a reviewer ask first when reading a flowchart for controls?
+A.	How many steps are there?
+B.	Who performs each step, and does one name appear too often?
+C.	Is the chart drawn to standard symbols?
+D.	How long does the process take?
+P407-15  A flowchart shows one person's name in four consecutive boxes. This indicates:
+A.	a concentration of duties that should be separated
+B.	an efficient process
+C.	good documentation
+D.	nothing, without knowing the amounts
+P407-16  Which control reconciles what left the system against what entered it?
+A.	An input control
+B.	An output control
+C.	A storage control
+D.	A development control
+Case question: the night the batch would not balance
+At the Orontes head office, accounts payable keys supplier invoices in batches of twenty. Before keying, a clerk records three control figures for each batch: the number of documents, the total of the invoice amounts, and a total of the supplier numbers that has no accounting meaning.
+One evening a batch posts with the document count and the invoice total both agreeing, but the third figure differs. The clerk who keyed the batch says the work was careful and suggests the third figure be ignored, since the money agrees and the count agrees.
+The systems team has also reported that the nightly backup now takes four hours and the weekend restore test failed, because one of the nightly files was unreadable. Backups are taken nightly to a server in the same room and copied to a cloud service once a month. The team has asked whether a nightly copy that can be read but not changed would be worth the extra storage cost.
+Rania, the controller, has been asked what the mismatched figure means, whether the clerk's suggestion is safe, and what should change about the backup arrangement before the Gulf expansion increases the volume.
+Use the scenario above for items C407-1 to C407-7.
+How to enter answers: Select one option for each item.
+C407-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Input control · Processing control · Storage control
+Control figure or practice
+Category
+The count of documents taken before keying
+The total of supplier numbers with no accounting meaning
+Run-to-run totals carried between stages
+The monthly copy to a cloud service
+C407-2  The third control figure is a: [select]
+Options: hash total   |   financial total   |   record count   |   check digit
+C407-3  Given that the count and the money both agree, the mismatch most likely means: [select]
+Options: one valid supplier number was substituted for another   |   an invoice was omitted   |   an invoice was keyed twice   |   an amount was keyed incorrectly
+C407-4  Is the clerk's suggestion to ignore the figure safe? [select]
+Options: No, because a payment may be about to go to the wrong supplier   |   Yes, because the money and the count agree   |   Yes, because the figure has no accounting meaning   |   Only if the amounts are below the approval limit
+C407-5  The backup server in the same room as the live system means that: [select]
+Options: a fire or flood would destroy both copies at once   |   restores will be slow   |   the nightly backup takes four hours   |   the cloud copy is unnecessary
+C407-6  The failed restore test, caused by one unreadable nightly file, points to which backup type? [select]
+Options: incremental, where every file since the last full backup must be applied in order   |   differential, which needs only two restores   |   full, which restores on its own   |   mirroring, which is continuous
+C407-7  A copy that cannot be altered or reached online, held as protection against ransomware, is described as ____.
+Choose the word or phrase for the blank: immutable   |   incremental   |   differential   |   mirrored
+Case question: the night the batch would not balance
+At the Orontes head office, accounts payable keys supplier invoices in batches of twenty. Before keying, a clerk records three control figures for each batch: the number of documents, the total of the invoice amounts, and a total of the supplier numbers that has no accounting meaning.
+One evening a batch posts with the document count and the invoice total both agreeing, but the third figure differs. The clerk who keyed the batch says the work was careful and suggests the third figure be ignored, since the money agrees and the count agrees.
+The systems team has also reported that the nightly backup now takes four hours and the weekend restore test failed, because one of the nightly files was unreadable. Backups are taken nightly to a server in the same room and copied to a cloud service once a month. The team has asked whether a nightly copy that can be read but not changed would be worth the extra storage cost.
+Rania, the controller, has been asked what the mismatched figure means, whether the clerk's suggestion is safe, and what should change about the backup arrangement before the Gulf expansion increases the volume.
+Use the scenario above for items C407-1 to C407-7.
+How to enter answers: Select one option for each item.
+C407-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Input control · Processing control · Storage control
+Control figure or practice
+Category
+The count of documents taken before keying
+The total of supplier numbers with no accounting meaning
+Run-to-run totals carried between stages
+The monthly copy to a cloud service
+C407-2  The third control figure is a: [select]
+Options: hash total   |   financial total   |   record count   |   check digit
+C407-3  Given that the count and the money both agree, the mismatch most likely means: [select]
+Options: one valid supplier number was substituted for another   |   an invoice was omitted   |   an invoice was keyed twice   |   an amount was keyed incorrectly
+C407-4  Is the clerk's suggestion to ignore the figure safe? [select]
+Options: No, because a payment may be about to go to the wrong supplier   |   Yes, because the money and the count agree   |   Yes, because the figure has no accounting meaning   |   Only if the amounts are below the approval limit
+C407-5  The backup server in the same room as the live system means that: [select]
+Options: a fire or flood would destroy both copies at once   |   restores will be slow   |   the nightly backup takes four hours   |   the cloud copy is unnecessary
+C407-6  The failed restore test, caused by one unreadable nightly file, points to which backup type? [select]
+Options: incremental, where every file since the last full backup must be applied in order   |   differential, which needs only two restores   |   full, which restores on its own   |   mirroring, which is continuous
+C407-7  A copy that cannot be altered or reached online, held as protection against ransomware, is described as ____.
+Choose the word or phrase for the blank: immutable   |   incremental   |   differential   |   mirrored
+Answers and explanations
+Section checks
+SC407-1  Answer C. Retrofitting costs more than building it in.
+A is wrong. Fees are not the reason.
+B is wrong. They can, at a cost.
+D is wrong. Preference is irrelevant.
+SC407-2  Answer D. The business will not stop to accommodate a rigid system.
+A is wrong. Running cost is a different matter.
+B is wrong. No such audit requirement.
+C is wrong. The exam lists it explicitly.
+SC407-3  Answer A. Validity tests whether the code exists.
+B is wrong. A range check tests whether a value falls between bounds.
+C is wrong. Reasonableness compares one field with another.
+D is wrong. A field check tests the data type.
+SC407-4  Answer B. Its meaninglessness is exactly what makes it useful.
+A is wrong. That is a financial total.
+C is wrong. That is a record count.
+D is wrong. That is a trial balance figure.
+SC407-5  Answer B. Quick to take, slow to restore, because each one must be applied in order.
+A is wrong. That is a differential backup.
+C is wrong. That is a full backup.
+D is wrong. Selection is not how the types are defined.
+SC407-6  Answer D. It protects against hardware failure only.
+A is wrong. They are usually separate disks; that is not the issue.
+B is wrong. It is continuous and fast.
+C is wrong. A mirror can be used; it is just not a point in time.
+SC407-7  Answer A. The picture makes a single name in several boxes obvious.
+B is wrong. Flowcharts do not carry cost.
+C is wrong. Timing is not shown.
+D is wrong. That belongs in a policy.
+SC407-8  Answer C. No one name appears more than once.
+A is wrong. A decision point alone proves nothing about duties.
+B is wrong. Direction is a drawing convention.
+D is wrong. Order does not establish separation.
+SC407-9  Answer B. One valid value has been substituted for another.
+A is wrong. The field or format check rejects it at entry.
+C is wrong. The validity check rejects it.
+D is wrong. The record count catches the extra document.
+SC407-10  Answer A. Both reveal that the code itself changed.
+B is wrong. Both figures are unaffected by the substitution.
+C is wrong. The value is within range.
+D is wrong. Those are processing controls, applied after entry.
+Your turn
+Item
+Answer
+An hourly rate of 5,000 is entered
+Range or limit check — the value falls outside the bounds set for that field
+Twenty invoices are keyed but nineteen post
+Why: the record count taken before entry no longer agrees with the number posted, so one document is missing
+A supplier number that does not exist is keyed
+Validity check — the code is tested against the supplier master file and is not found
+A mistyped account number is caught by arithmetic
+Check digit — an extra digit computed from the rest of the number no longer agrees
+Multiple-choice questions
+P407-01  Answer C. The five are accuracy, validity, safety, security and adaptability.
+A is wrong. One of the five.
+B is wrong. One of the five.
+D is wrong. One of the five.
+P407-02  Answer D. A test must not be able to damage real records.
+A is wrong. That risks corrupting real data.
+B is wrong. The author is not an independent tester.
+C is wrong. That is not testing; that is hoping.
+P407-03  Answer A. The data does not have the right shape.
+B is wrong. Validity tests whether a code exists on a file.
+C is wrong. Reasonableness compares with another field.
+D is wrong. A check digit is computed arithmetic.
+P407-04  Answer C. The value makes no sense beside the customer's history.
+A is wrong. The data type is correct.
+B is wrong. The customer exists.
+D is wrong. That is a processing control.
+P407-05  Answer B. A mistyped number fails the arithmetic.
+A is wrong. That is a record count.
+C is wrong. That is a batch total.
+D is wrong. That is closed-loop verification.
+P407-06  Answer D. The count of documents differs.
+A is wrong. A hash total would also change, but the count is the direct test.
+B is wrong. Both invoices may be valid.
+C is wrong. The shape of the data is fine.
+P407-07  Answer C. The clerk sees the supplier name before confirming.
+A is wrong. That is double keying.
+B is wrong. That is an output control.
+D is wrong. That is a correction, not a control.
+P407-08  Answer B. They carry a figure from one processing stage to the next.
+A is wrong. Input controls act before entry.
+C is wrong. Output controls act on what leaves.
+D is wrong. Storage controls concern copies.
+P407-09  Answer D. Tracing it back costs far more than preventing it.
+A is wrong. Both are needed.
+B is wrong. Many are, but that is not the reason.
+C is wrong. They should be reviewed.
+P407-10  Answer A. It grows nightly but needs only two restores.
+B is wrong. That is incremental.
+C is wrong. Selection is not the definition.
+D is wrong. That is a full backup.
+P407-11  Answer C. Every incremental since the last full backup must be applied in order.
+A is wrong. Larger to take, quicker to restore.
+B is wrong. Slowest to take, fastest to restore.
+D is wrong. A mirror is continuous and is not a backup.
+P407-12  Answer A. It cannot be altered or reached online.
+B is wrong. It can be encrypted along with everything else.
+C is wrong. RAID is resilience, not a backup.
+D is wrong. The encryption is mirrored instantly.
+P407-13  Answer D. Every copy in one building shares one fate.
+A is wrong. They usually restore more slowly.
+B is wrong. No general legal rule.
+C is wrong. It usually costs more.
+P407-14  Answer B. Concentration of duties is the weakness to look for.
+A is wrong. Count alone says nothing.
+C is wrong. Presentation is secondary.
+D is wrong. Duration is not a control matter.
+P407-15  Answer A. That is exactly the weakness the chart exists to show.
+B is wrong. Efficient and uncontrolled are not the same.
+C is wrong. The chart documents a problem.
+D is wrong. The concentration is a weakness whatever the amounts.
+P407-16  Answer B. Output controls check completeness of what is produced.
+A is wrong. Input controls act before entry.
+C is wrong. Storage controls concern copies.
+D is wrong. Development controls apply while building.
+Case question: the night the batch would not balance
+C407-1
+Control figure or practice
+Category
+The count of documents taken before keying
+Input control
+The total of supplier numbers with no accounting meaning
+Input control
+Run-to-run totals carried between stages
+Processing control
+The monthly copy to a cloud service
+Storage control
+Classify each item by the kind of control it is.
+C407-2  Answer: hash total.
+financial total is wrong: this answer that is the total of the invoice amounts, which agreed.
+record count is wrong: this answer that is the number of documents, which also agreed.
+check digit is wrong: this answer a check digit is computed within a single number.
+C407-3  Answer: one valid supplier number was substituted for another.
+an invoice was omitted is wrong: this answer the record count would have differed.
+an invoice was keyed twice is wrong: this answer both the count and the money would have differed.
+an amount was keyed incorrectly is wrong: this answer the financial total would have differed.
+C407-4  Answer: No, because a payment may be about to go to the wrong supplier.
+Yes, because the money and the count agree is wrong: this answer those are exactly the figures a substitution does not disturb.
+Yes, because the figure has no accounting meaning is wrong: this answer its lack of meaning is why it catches this error.
+Only if the amounts are below the approval limit is wrong: this answer the wrong payee is a problem at any amount.
+C407-5  Answer: a fire or flood would destroy both copies at once.
+restores will be slow is wrong: this answer a local copy restores quickly; that is not the weakness.
+the nightly backup takes four hours is wrong: this answer duration is a capacity question, not a location one.
+the cloud copy is unnecessary is wrong: this answer the off-site copy is the one protection against the site being lost.
+C407-6  Answer: incremental, where every file since the last full backup must be applied in order.
+differential, which needs only two restores is wrong: this answer a single bad differential would not break the whole chain.
+full, which restores on its own is wrong: this answer a full backup does not depend on other files.
+mirroring, which is continuous is wrong: this answer mirroring keeps no nightly files.
+C407-7  Answer: immutable.
+incremental is wrong: this answer that describes what the backup copies, not its protection.
+differential is wrong: this answer also a description of scope, not protection.
+mirrored is wrong: this answer a mirror is encrypted along with the original.
+PART II — SYSTEMS CONTROLS AND CONTINUITY

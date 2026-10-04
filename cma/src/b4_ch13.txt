@@ -1,0 +1,694 @@
+Chapter 13
+Big Data and Business Intelligence
+البيانات الضخمة وذكاء الأعمال
+Part IV is about getting answers out of data. It opens here with what the data is and why there is suddenly so much of it, and ends five chapters later with how to present an answer without misleading anybody.
+Figure F413-01 shows the chapter.
+Figure F413-01. Chapter 13 roadmap: more data, made useful, by capability.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.4.a
+define Big Data and explain the volume, velocity, variety, and veracity of Big Data; and describe the opportunities and challenges of leveraging insight from this data
+Define Big Data and explain volume, velocity, variety and veracity, with the opportunities and challenges of using it.
+Full treatment
+F.4.b
+explain how structured, semi-structured, and unstructured data is used by a business enterprise
+Explain how structured, semi-structured and unstructured data are used by a business.
+Full treatment
+F.4.c
+describe the progression of data, from data to information to knowledge to insight to action
+Describe the progression from data to information to knowledge to insight to action.
+Full treatment + Extended Example
+F.4.d
+describe the opportunities and challenges of managing data analytics
+Describe the opportunities and challenges of managing data analytics.
+Full treatment
+F.4.e
+explain why data and data science capability are strategic assets
+Explain why data and data science capability are strategic assets.
+Full treatment
+F.4.f
+define business intelligence (BI) (i.e., the collection of applications, tools, and best practices that transform data into actionable information in order to make better decisions and optimize performance)
+Define business intelligence.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+Big Data
+البيانات الضخمة
+mégadonnées
+veracity
+الموثوقية
+véracité
+structured data
+البيانات المهيكلة
+données structurées
+semi-structured data
+البيانات شبه المهيكلة
+données semi-structurées
+unstructured data
+البيانات غير المهيكلة
+données non structurées
+insight
+البصيرة التحليلية
+analyse approfondie
+data science capability
+القدرة على علم البيانات
+capacité en science des données
+business intelligence (BI)
+ذكاء الأعمال
+informatique décisionnelle
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 11 took one dataset through preprocessing, and Chapter 10 put it in a warehouse for analysis. This part now asks what the analysis itself can find, using the Beverages demand data that Book 3 budgeted.
+13.1  What makes data Big
+Big Data is data whose volume, speed or variety puts it beyond what traditional tools were built to handle. Figure F413-02 sets out the four characteristics the exam names.
+Figure F413-02. The four Vs of Big Data.
+COMMON ERROR IN OTHER BOOKS   'The five Vs of Big Data'
+Many guides add a fifth V, value, and some add others. The official outcome names four: volume, velocity, variety and veracity. Answer with four unless a question gives you a different list to work from.
+Veracity is the one that matters most to an accountant, and the one most often skipped. It asks whether the data can be trusted, and Chapter 11 showed what that means in practice: one distributor recorded under three spellings, fourteen orders with no delivery date. Volume without veracity produces confident answers that are wrong.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Big Data
+البيانات الضخمة
+mégadonnées
+veracity
+الموثوقية
+véracité
+English (exam term)
+العربية
+Français
+Big Data
+البيانات الضخمة
+mégadonnées
+veracity
+الموثوقية
+véracité
+SECTION CHECK   Test yourself
+SC413-1  How many characteristics of Big Data does the official outcome name?
+A.	Five
+B.	Three
+C.	Seven
+D.	Four
+SC413-2  Three spellings of one distributor and fourteen missing delivery dates are a problem of:
+A.	veracity
+B.	volume
+C.	velocity
+D.	variety
+Answers and explanations are at the end of the chapter.
+13.2  Structured, semi-structured and unstructured data
+Variety is easier to grasp once the three kinds are named. Figure F413-03 sets them out with how a business actually uses each.
+Figure F413-03. Structured, semi-structured and unstructured data
+Kind of data (F.4.b)
+What it means
+At Orontes
+How it is used
+Structured
+Fits rows and columns with a fixed meaning
+The order table of Chapter 10
+Queried directly; the easiest to analyse
+Semi-structured
+Carries tags or keys but no rigid table
+A supplier's electronic invoice file
+Readable by machine once the tags are understood
+Unstructured
+No predefined form at all
+Customer emails, photographs of damaged pallets, call recordings
+The largest share, and the hardest to use
+Structured data is what Chapter 10 described: rows and columns with a fixed meaning, which a query can read directly. It is the minority of what a company holds and the overwhelming majority of what it analyses, for the simple reason that it is the easiest to use.
+Unstructured data is the opposite and the larger share: emails, photographs, recordings, free text. A photograph of a damaged pallet contains information no table holds, and extracting it has until recently needed a person. That is what has changed, and it is why variety now appears beside volume.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+structured data
+البيانات المهيكلة
+données structurées
+semi-structured data
+البيانات شبه المهيكلة
+données semi-structurées
+unstructured data
+البيانات غير المهيكلة
+données non structurées
+English (exam term)
+العربية
+Français
+structured data
+البيانات المهيكلة
+données structurées
+semi-structured data
+البيانات شبه المهيكلة
+données semi-structurées
+unstructured data
+البيانات غير المهيكلة
+données non structurées
+SECTION CHECK   Test yourself
+SC413-3  A photograph of a damaged pallet is:
+A.	structured data
+B.	unstructured data
+C.	semi-structured data
+D.	not data at all
+SC413-4  Which statement about the three kinds of data is correct?
+A.	Most company data is structured
+B.	Semi-structured data cannot be read by machine
+C.	Unstructured data is the largest share and the hardest to use
+D.	Structured data is the hardest to analyse
+Answers and explanations are at the end of the chapter.
+13.3  From data to action
+Data by itself decides nothing. Figure F413-04 shows the five steps by which it becomes a decision, using the Beverages figures.
+Figure F413-04. From data to action, in five steps.
+Read it upward and the dependencies are clear. Action needs insight into why a pattern holds; insight needs the knowledge that a pattern exists; knowledge needs enough information to see across cases; and information is a fact placed in context. Each step is worth more than the one below it, and none can be skipped.
+The step companies stop at is knowledge. Knowing that the third quarter is always the peak is useful, but it does not say whether to schedule the extra shift to the calendar or to the weather. Chapter 15 will show that the Beverages peak follows temperature far more than it follows the promotion calendar, and that is an insight rather than a pattern.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+insight
+البصيرة التحليلية
+analyse approfondie
+English (exam term)
+العربية
+Français
+insight
+البصيرة التحليلية
+analyse approfondie
+SECTION CHECK   Test yourself
+SC413-5  'The third quarter is always the peak' is an example of:
+A.	information
+B.	insight
+C.	knowledge
+D.	action
+SC413-6  Why can an action not follow directly from knowledge?
+A.	Knowledge says what happens but not why, so the right response is unclear
+B.	Knowledge is usually wrong
+C.	Actions require approval
+D.	Knowledge is not quantified
+Answers and explanations are at the end of the chapter.
+13.4  Opportunities and challenges
+Figure F413-05 pairs each opportunity with the challenge that accompanies it, which is how the exam asks about both.
+Figure F413-05. Opportunities and their matching challenges
+Opportunity (F.4.a, F.4.d)
+Matching challenge
+Better decisions
+Patterns too large or too fast for a person to see
+Data quality: an answer from poor data is still poor
+Speed
+Answers while there is still time to act
+Skills: the people who can do this are scarce and expensive
+New questions
+Questions nobody could previously afford to ask
+Cost: storage, tools and time add up before any benefit
+Customer understanding
+Behaviour across every channel, not just sales
+Privacy and law: Chapter 11's obligations still apply
+Operational insight
+Sensor and process data alongside financial data
+Acting on it: an insight nobody acts on changes nothing
+Competitive position
+Capability competitors cannot quickly copy
+Spurious patterns: more data means more false findings
+The last row deserves attention because it worsens as data grows. With enough variables, patterns appear by chance alone: two series that happen to move together, with no connection between them. More data finds more such patterns, not fewer, and only judgement about what could plausibly cause what separates them from real findings.
+The challenge that defeats most projects, though, is the ordinary one in the fifth row. An insight that reaches nobody with the authority to act changes nothing, and the cost of producing it has been spent.
+SECTION CHECK   Test yourself
+SC413-7  Why does more data produce more spurious patterns?
+A.	Large datasets are less accurate
+B.	With enough variables, some will move together by chance alone
+C.	Analysts become careless
+D.	Software cannot handle the volume
+SC413-8  Which challenge most often defeats an analytics project?
+A.	The software is too slow
+B.	There is not enough data
+C.	The analysis is mathematically wrong
+D.	Nobody with authority acts on the answer
+Answers and explanations are at the end of the chapter.
+13.5  Why data and capability are strategic assets
+Figure F413-06 sets out why data counts as a strategic asset rather than merely a useful one.
+Figure F413-06. Why data and capability are strategic assets
+Why data is a strategic asset (F.4.e)
+What it means
+At Orontes
+It is hard to copy
+A competitor can buy the same software but not your history
+Three years of Gulf order patterns
+It compounds
+Each year of data makes the next analysis better
+Seasonality is clearer with three years than with one
+It is specific to you
+Your data describes your customers and your processes
+Nobody else holds the Orontes plant records
+The capability matters more
+Data without people who can use it earns nothing
+The analyst who knows which question to ask
+It enables, not decides
+It improves the odds; management still chooses
+The Gulf decision of Book 3 remains a judgement
+The fourth row carries the argument. A competitor can buy the same software tomorrow, and could in principle buy similar data. What cannot be bought quickly is the data science capability: people who know which question is worth asking, which answer is suspect, and how to say so to a board.
+The last row is the honest qualification. Data improves the odds of a good decision; it does not make the decision. Book 3's Gulf expansion rested on figures but remained a judgement about risk and ambition, and no quantity of data would have removed that.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data science capability
+القدرة على علم البيانات
+capacité en science des données
+English (exam term)
+العربية
+Français
+data science capability
+القدرة على علم البيانات
+capacité en science des données
+SECTION CHECK   Test yourself
+SC413-9  Why is data described as a strategic asset?
+A.	It appears on the balance sheet
+B.	It can be sold for a high price
+C.	It is specific to the company, compounds over time and cannot quickly be copied
+D.	It never becomes obsolete
+SC413-10  What matters more than the data itself?
+A.	The size of the database
+B.	The brand of the software
+C.	The speed of the network
+D.	The capability of people who know what to ask and which answers to doubt
+Answers and explanations are at the end of the chapter.
+13.6  Business intelligence
+business intelligence (BI) is the collection of applications, tools and best practices that turn data into information people can act on. Figure F413-07 unpacks that definition.
+Figure F413-07. What business intelligence covers
+Business intelligence (F.4.f)
+What it covers
+At Orontes
+Applications
+The software people actually use to ask questions
+Dashboards and reporting tools
+Tools
+What moves and prepares the data behind them
+The warehouse and loading of Chapter 10
+Best practices
+How the work is organised so answers can be trusted
+Agreed definitions, one version of each measure
+Purpose
+Turning data into information that can be acted on
+Not a report, but a decision
+What it is not
+A synonym for analytics or for a dashboard
+Analytics is a technique; BI is the whole arrangement
+The third element is the one that is usually missing. Applications and tools can be bought; agreed definitions cannot. If two dashboards show different figures for the same measure because nobody settled what it means, the arrangement has failed however good the software is.
+EXAM TRAP   Business intelligence is not a dashboard
+A dashboard is one application within business intelligence. The term covers the whole arrangement: the applications, the tools that feed them, and the practices that make the numbers trustworthy. A question equating the two has narrowed it too far.
+Business intelligence looks backward and sideways: what happened, where, and compared with what. Part IV goes further, into what will happen and what should be done, which is the distinction between the four types of analytics that Chapter 15 sets out.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+business intelligence (BI)
+ذكاء الأعمال
+informatique décisionnelle
+English (exam term)
+العربية
+Français
+business intelligence (BI)
+ذكاء الأعمال
+informatique décisionnelle
+SECTION CHECK   Test yourself
+SC413-11  Business intelligence is:
+A.	a dashboard
+B.	the applications, tools and best practices that turn data into actionable information
+C.	the same as data analytics
+D.	a department
+SC413-12  Two dashboards show different figures for the same measure. Which element of business intelligence has failed?
+A.	Best practices, because the definition was never agreed
+B.	The applications
+C.	The tools
+D.	None: dashboards often differ
+Answers and explanations are at the end of the chapter.
+13.7  Extended Example 13A: one number becomes a decision
+This example takes a single Beverages figure and walks it up the progression to an action. It is exam-core, because the exam gives a statement and asks which step it represents.
+1. Data
+The number is 240,000. On its own it means nothing at all: it could be cases, dinars, kilometres or an account code.
+2. Information
+Place it in context and it becomes information: 240,000 cases sold in 2028 Q3. Now it can be compared with something, which is the whole purpose of context.
+3. Knowledge
+Set it beside the other quarters and a pattern appears. The third quarter is the peak in both years, at 240,400 cases in 2027 and 240,000 in 2028. That is knowledge: a regularity across cases rather than a single fact.
+4. Insight
+Knowledge says what happens; insight says why. The third quarter is also the hottest, at 34 degrees against 15 in the first. Chapter 15 will show that temperature explains the pattern and that promotion weeks explain much less of it.
+5. Action
+The decision follows from the insight, not from the pattern. If the peak follows the weather rather than the promotion calendar, the extra shift should be scheduled to forecast temperature, and promotion spending in the hottest weeks may be buying demand that would have arrived anyway.
+6. Why the last step is the hard one
+Everything up to insight is analysis and can be delegated. The action requires somebody with the authority to change the shift pattern, and willing to accept an analyst's finding over a long-standing assumption. That is the capability the fourth row of Figure F413-06 describes, and it is not bought with software.
+7. Your turn
+YOUR TURN   Name four characteristics
+Complete the blank cells of Figure F413-08. Answers are at the end of the chapter.
+Figure F413-08. Your turn: name four characteristics (complete the blanks)
+What is described
+Which V?
+Why
+Millions of order lines held over three years
+________
+It describes how much
+Plant sensors reporting every few seconds
+Velocity
+________
+Numbers, emails and photographs together
+________
+It describes how many kinds
+Three spellings of one distributor
+________
+It describes how trustworthy
+8. Tie line
+WORKED EXAMPLE   The pattern behind the progression
+A fact alone is data; a fact in context is information.
+A regularity across cases is knowledge; an explanation of it is insight.
+Only insight supports an action, because only insight says why.
+Most organizations stop at knowledge and act on the calendar instead.
+9. How the exam asks it
+EXAM TRAP   Exam view
+A question gives a statement and asks which step it is. Test it: is it a bare fact, a fact with context, a pattern, an explanation, or a decision? The commonest error is calling a pattern an insight.
+10. Self-check
+SECTION CHECK   Test yourself
+SC413-13  Use Extended Example 13A. 'The peak follows the heat rather than the promotion calendar' is:
+A.	knowledge
+B.	insight
+C.	information
+D.	data
+SC413-14  Use Extended Example 13A. Why is the final step the hard one?
+A.	It needs someone with authority willing to accept a finding over a long-standing assumption
+B.	It needs better software
+C.	It needs more data
+D.	It needs a larger analytics team
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F413-09 brings the chapter together.
+Figure F413-09. Chapter 13 summary map: the key rule for each section.
+Big Data is data beyond what traditional tools were built to handle, described by four characteristics: volume, velocity, variety and veracity. Data comes structured, semi-structured and unstructured, and the unstructured share is the largest and the hardest to use. It becomes useful through a progression from data to information to knowledge to insight to action, and only insight supports a decision because only insight says why. Every opportunity carries a matching challenge, of which the most common is that nobody acts on the answer. Data is a strategic asset because it is specific and compounds, but the capability to use it matters more than the data itself. Business intelligence is the applications, tools and practices that together turn data into something actionable.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P413-01  Velocity refers to:
+A.	how much data there is
+B.	how many kinds there are
+C.	how trustworthy it is
+D.	how fast data arrives
+P413-02  Why does veracity matter most to an accountant?
+A.	Accountants work with small datasets
+B.	It is the easiest to measure
+C.	An answer from untrustworthy data is confidently wrong
+D.	It determines storage cost
+P413-03  Numbers, free text and sensor readings analysed together illustrate:
+A.	volume
+B.	variety
+C.	velocity
+D.	veracity
+P413-04  A supplier's electronic invoice file carrying tags for each field is:
+A.	structured data
+B.	unstructured data
+C.	semi-structured data
+D.	metadata
+P413-05  Why is structured data analysed more than the other kinds?
+A.	It can be queried directly, so it is the easiest to use
+B.	It is the largest share
+C.	It is more accurate
+D.	It is cheaper to store
+P413-06  '240,000' with no context is:
+A.	information
+B.	knowledge
+C.	insight
+D.	data
+P413-07  What turns data into information?
+A.	Volume
+B.	Context
+C.	A pattern
+D.	A decision
+P413-08  At which step do most organizations stop?
+A.	Knowledge
+B.	Data
+C.	Insight
+D.	Action
+P413-09  Which pairing of opportunity and challenge is correct?
+A.	Faster answers, but lower data volume
+B.	Better decisions, but fewer customers
+C.	New questions, but weaker software
+D.	Faster answers, but scarce and expensive skills
+P413-10  Two unrelated series move together over three years. The analyst should:
+A.	report the correlation as a finding
+B.	collect more data until the pattern strengthens
+C.	ask whether either could plausibly cause the other before reporting it
+D.	discard both series
+P413-11  Why does data compound as an asset?
+A.	Storage becomes cheaper
+B.	Older data is more accurate
+C.	Regulators require longer retention
+D.	Each year of history makes the next analysis better
+P413-12  Which statement is the honest qualification to calling data strategic?
+A.	It guarantees a better outcome
+B.	It improves the odds of a good decision but does not make the decision
+C.	It replaces management judgement
+D.	It is worthless without Big Data tools
+P413-13  Which element of business intelligence cannot be purchased?
+A.	Agreed definitions of each measure
+B.	The dashboard software
+C.	The data warehouse
+D.	The loading tools
+P413-14  The purpose of business intelligence is to produce:
+A.	more reports
+B.	larger datasets
+C.	information that can be acted on
+D.	faster queries
+P413-15  Big Data is best defined as data that:
+A.	occupies more than one terabyte
+B.	comes from the internet
+C.	is collected automatically
+D.	exceeds what traditional tools were built to handle, in volume, speed or variety
+P413-16  Which sequence is correct?
+A.	Data, knowledge, information, insight, action
+B.	Data, information, knowledge, insight, action
+C.	Information, data, insight, knowledge, action
+D.	Data, insight, knowledge, information, action
+Case question: the dashboard that nobody trusted
+Orontes has built a sales dashboard on the new ERP. It refreshes hourly and shows revenue, cases sold and margin by division, by product family and by market. The board was pleased with it for two months.
+Then the Beverages director and the Foods director presented different margin figures for the same month at the same meeting. Both had taken their number from the dashboard. It emerged that the two divisions had never agreed whether margin is calculated before or after the allocation of distribution cost, and each had configured the view accordingly. No one was given responsibility for defining the measures when the dashboard was built, and the project was treated as a technical exercise.
+Separately, an analyst has reported that cases sold correlate strongly with the number of staff birthdays recorded in the payroll system over the past three years. He has proposed investigating further.
+The sales director has also asked why the dashboard shows what happened but never says what to do about it, and whether more data would fix that. Rania has been asked to answer all three points.
+Use the scenario above for items C413-1 to C413-7.
+How to enter answers: Select one option for each item.
+C413-1  Classify each statement. (On the exam screen you would drag each item into a box.)
+Categories: Data · Information · Knowledge · Insight
+Statement from the case
+Category
+240,000
+240,000 cases in the third quarter
+The third quarter is the peak every year
+The peak follows temperature rather than the promotion calendar
+C413-2  The two directors' conflicting margin figures show a failure of: [select]
+Options: best practices, because no agreed definition of margin was settled   |   the applications, because the dashboard is faulty   |   the tools, because the data loaded incorrectly   |   veracity, because the underlying data is untrustworthy
+C413-3  What should Rania recommend about the margin definition? [select]
+Options: one agreed definition of each measure, applied across every division   |   that each division keep its own definition and label it clearly   |   that the dashboard be withdrawn   |   that margin be removed from the dashboard
+C413-4  On the correlation between cases sold and staff birthdays, Rania should advise that: [select]
+Options: with enough variables some will move together by chance, so plausible cause must be asked before investigating   |   the finding is important and should be investigated at once   |   more data should be collected until the pattern is confirmed   |   the payroll data should be deleted
+C413-5  The dashboard shows what happened but not what to do. This is because it delivers: [select]
+Options: information and knowledge, but not insight into why the pattern holds   |   data only   |   insight but not action   |   action without knowledge
+C413-6  Would more data fix that? [select]
+Options: no: reaching insight needs analysis of why the pattern holds, and then someone willing to act   |   yes: a larger dataset would reveal the causes   |   yes: hourly refresh should become continuous   |   no: the dashboard should simply be replaced
+C413-7  The characteristic of Big Data concerning whether the data can be trusted is ____.
+Choose the word or phrase for the blank: veracity   |   volume   |   velocity   |   variety
+Case question: the dashboard that nobody trusted
+Orontes has built a sales dashboard on the new ERP. It refreshes hourly and shows revenue, cases sold and margin by division, by product family and by market. The board was pleased with it for two months.
+Then the Beverages director and the Foods director presented different margin figures for the same month at the same meeting. Both had taken their number from the dashboard. It emerged that the two divisions had never agreed whether margin is calculated before or after the allocation of distribution cost, and each had configured the view accordingly. No one was given responsibility for defining the measures when the dashboard was built, and the project was treated as a technical exercise.
+Separately, an analyst has reported that cases sold correlate strongly with the number of staff birthdays recorded in the payroll system over the past three years. He has proposed investigating further.
+The sales director has also asked why the dashboard shows what happened but never says what to do about it, and whether more data would fix that. Rania has been asked to answer all three points.
+Use the scenario above for items C413-1 to C413-7.
+How to enter answers: Select one option for each item.
+C413-1  Classify each statement. (On the exam screen you would drag each item into a box.)
+Categories: Data · Information · Knowledge · Insight
+Statement from the case
+Category
+240,000
+240,000 cases in the third quarter
+The third quarter is the peak every year
+The peak follows temperature rather than the promotion calendar
+C413-2  The two directors' conflicting margin figures show a failure of: [select]
+Options: best practices, because no agreed definition of margin was settled   |   the applications, because the dashboard is faulty   |   the tools, because the data loaded incorrectly   |   veracity, because the underlying data is untrustworthy
+C413-3  What should Rania recommend about the margin definition? [select]
+Options: one agreed definition of each measure, applied across every division   |   that each division keep its own definition and label it clearly   |   that the dashboard be withdrawn   |   that margin be removed from the dashboard
+C413-4  On the correlation between cases sold and staff birthdays, Rania should advise that: [select]
+Options: with enough variables some will move together by chance, so plausible cause must be asked before investigating   |   the finding is important and should be investigated at once   |   more data should be collected until the pattern is confirmed   |   the payroll data should be deleted
+C413-5  The dashboard shows what happened but not what to do. This is because it delivers: [select]
+Options: information and knowledge, but not insight into why the pattern holds   |   data only   |   insight but not action   |   action without knowledge
+C413-6  Would more data fix that? [select]
+Options: no: reaching insight needs analysis of why the pattern holds, and then someone willing to act   |   yes: a larger dataset would reveal the causes   |   yes: hourly refresh should become continuous   |   no: the dashboard should simply be replaced
+C413-7  The characteristic of Big Data concerning whether the data can be trusted is ____.
+Choose the word or phrase for the blank: veracity   |   volume   |   velocity   |   variety
+Answers and explanations
+Section checks
+SC413-1  Answer D. Volume, velocity, variety and veracity.
+A is wrong. Several guides add value as a fifth; the outcome does not.
+B is wrong. That omits one of the four.
+C is wrong. No source gives seven.
+SC413-2  Answer A. The question is whether the data can be trusted.
+B is wrong. Volume is how much.
+C is wrong. Velocity is how fast.
+D is wrong. Variety is how many kinds.
+SC413-3  Answer B. It has no predefined form.
+A is wrong. Structured data fits rows and columns.
+C is wrong. Semi-structured data carries tags or keys.
+D is wrong. It contains information no table holds.
+SC413-4  Answer C. Emails, images and recordings outweigh the tables.
+A is wrong. Structured data is the minority of what is held.
+B is wrong. Its tags make it machine-readable.
+D is wrong. It is the easiest, which is why it is analysed most.
+SC413-5  Answer C. A regularity across cases, not an explanation of it.
+A is wrong. Information is one fact in context.
+B is wrong. Insight says why the pattern holds.
+D is wrong. No decision has been taken.
+SC413-6  Answer A. Schedule to the calendar or to the weather? Only insight answers.
+B is wrong. A pattern may be perfectly real.
+C is wrong. Approval is a separate matter.
+D is wrong. Knowledge can be fully quantified and still not explain.
+SC413-7  Answer B. Only judgement about plausible cause separates them from real findings.
+A is wrong. Accuracy is a separate question from coincidence.
+C is wrong. The effect is statistical, not human.
+D is wrong. Capacity is not the issue.
+SC413-8  Answer D. The cost of producing the insight has then been spent for nothing.
+A is wrong. A technical irritation rather than a defeat.
+B is wrong. Shortage of data is rarely the modern problem.
+C is wrong. Less common than the answer being ignored.
+SC413-9  Answer C. A competitor can buy the software but not your history.
+A is wrong. Internally generated data is generally not capitalised.
+B is wrong. Selling it would destroy the advantage, and may be unlawful.
+D is wrong. Old data can become irrelevant.
+SC413-10  Answer D. Capability cannot be bought quickly.
+A is wrong. More data without capability earns nothing.
+B is wrong. Software is available to competitors too.
+C is wrong. Infrastructure is a commodity.
+SC413-11  Answer B. The whole arrangement, not one part of it.
+A is wrong. A dashboard is one application within it.
+C is wrong. Analytics is a technique used within it.
+D is wrong. It is an arrangement, not an organizational unit.
+SC413-12  Answer A. Definitions cannot be bought with the software.
+B is wrong. Both applications work; they were given different rules.
+C is wrong. The data moved correctly.
+D is wrong. One measure should have one value.
+SC413-13  Answer B. It explains why the pattern holds.
+A is wrong. Knowledge was that the third quarter peaks.
+C is wrong. Information is one fact in context.
+D is wrong. Data is a bare fact.
+SC413-14  Answer A. Everything up to insight can be delegated; the decision cannot.
+B is wrong. Software is not what is missing.
+C is wrong. The data already supports the finding.
+D is wrong. Size of team does not confer authority.
+Your turn
+Item
+Answer
+Millions of order lines held over three years
+Volume — it describes how much data there is
+Plant sensors reporting every few seconds
+Why: velocity describes how fast data arrives, and sensor data arrives far faster than monthly reporting
+Numbers, emails and photographs together
+Variety — it describes how many different kinds of data are involved
+Three spellings of one distributor
+Veracity — it describes how far the data can be trusted
+Multiple-choice questions
+P413-01  Answer D. Plant sensors reporting every few seconds rather than monthly.
+A is wrong. That is volume.
+B is wrong. That is variety.
+C is wrong. That is veracity.
+P413-02  Answer C. Volume without veracity produces authoritative errors.
+A is wrong. Size is not the point.
+B is wrong. It is among the hardest to assess.
+D is wrong. Cost relates to volume.
+P413-03  Answer B. Many kinds of data at once.
+A is wrong. Volume is quantity.
+C is wrong. Velocity is speed.
+D is wrong. Veracity is trustworthiness.
+P413-04  Answer C. Tags without a rigid table.
+A is wrong. There is no fixed table.
+B is wrong. The tags give it form.
+D is wrong. Metadata describes data; this is the data.
+P413-05  Answer A. Ease, not quantity, explains the preference.
+B is wrong. It is the minority of what is held.
+C is wrong. Accuracy depends on capture, not form.
+D is wrong. Storage cost is not the reason.
+P413-06  Answer D. A bare fact that could mean anything.
+A is wrong. Information needs context.
+B is wrong. Knowledge needs a pattern.
+C is wrong. Insight needs an explanation.
+P413-07  Answer B. Cases, in a named quarter, for a named division.
+A is wrong. More bare facts are still data.
+C is wrong. A pattern gives knowledge.
+D is wrong. A decision is action.
+P413-08  Answer A. They know the pattern and act on the calendar rather than the cause.
+B is wrong. Most get at least to information.
+C is wrong. Reaching insight is the harder achievement.
+D is wrong. Action is the final step, not the sticking point.
+P413-09  Answer D. Each opportunity carries a matching cost.
+A is wrong. Volume is not reduced by speed.
+B is wrong. No such relationship.
+C is wrong. Software capability is rising, not falling.
+P413-10  Answer C. Judgement about plausible cause separates findings from coincidence.
+A is wrong. That is how a spurious pattern becomes a decision.
+B is wrong. More data produces more coincidences, not fewer.
+D is wrong. The series may each be useful separately.
+P413-11  Answer D. Seasonality is clearer with three years than with one.
+A is wrong. Cost is unrelated to analytical value.
+B is wrong. Age does not improve accuracy.
+C is wrong. Retention rules are a constraint, not a benefit.
+P413-12  Answer B. Book 3's Gulf expansion rested on figures but remained a judgement.
+A is wrong. No analysis guarantees an outcome.
+C is wrong. Judgement is still required.
+D is wrong. Useful analysis predates Big Data tools.
+P413-13  Answer A. Best practices must be settled by the organization itself.
+B is wrong. Available from many vendors.
+C is wrong. Available as a product or a service.
+D is wrong. Also purchasable.
+P413-14  Answer C. Not a report, but a decision.
+A is wrong. Reports are a means.
+B is wrong. Size is not the objective.
+D is wrong. Speed serves the purpose; it is not the purpose.
+P413-15  Answer D. The definition is relative to the tools, not a fixed size.
+A is wrong. No size threshold defines it.
+B is wrong. Source is irrelevant.
+C is wrong. Collection method is irrelevant.
+P413-16  Answer B. Each step depends on the one before it.
+A is wrong. Information precedes knowledge.
+C is wrong. Data precedes information.
+D is wrong. Insight is the fourth step, not the second.
+Case question: the dashboard that nobody trusted
+C413-1
+Statement from the case
+Category
+240,000
+Data
+240,000 cases in the third quarter
+Information
+The third quarter is the peak every year
+Knowledge
+The peak follows temperature rather than the promotion calendar
+Insight
+Classify each statement by its step in the progression.
+C413-2  Answer: best practices, because no agreed definition of margin was settled.
+the applications, because the dashboard is faulty is wrong: this answer the dashboard did what each division configured it to do.
+the tools, because the data loaded incorrectly is wrong: this answer the data loaded correctly; the definitions differed.
+veracity, because the underlying data is untrustworthy is wrong: this answer the data is sound; the measure was never defined.
+C413-3  Answer: one agreed definition of each measure, applied across every division.
+that each division keep its own definition and label it clearly is wrong: this answer two values for one measure defeats the purpose of a shared dashboard.
+that the dashboard be withdrawn is wrong: this answer the arrangement needs definitions, not removal.
+that margin be removed from the dashboard is wrong: this answer margin is the measure the board most needs.
+C413-4  Answer: with enough variables some will move together by chance, so plausible cause must be asked before investigating.
+the finding is important and should be investigated at once is wrong: this answer that is how a coincidence becomes a decision.
+more data should be collected until the pattern is confirmed is wrong: this answer more data produces more coincidences, not fewer.
+the payroll data should be deleted is wrong: this answer the data is legitimate; the inference was not.
+C413-5  Answer: information and knowledge, but not insight into why the pattern holds.
+data only is wrong: this answer the figures are in context and compared across periods.
+insight but not action is wrong: this answer no explanation of cause is offered anywhere on it.
+action without knowledge is wrong: this answer the dashboard recommends nothing.
+C413-6  Answer: no: reaching insight needs analysis of why the pattern holds, and then someone willing to act.
+yes: a larger dataset would reveal the causes is wrong: this answer volume alone does not supply explanation.
+yes: hourly refresh should become continuous is wrong: this answer velocity addresses timeliness, not causation.
+no: the dashboard should simply be replaced is wrong: this answer the tool is not the limitation.
+C413-7  Answer: veracity.
+volume is wrong: this answer volume describes how much.
+velocity is wrong: this answer velocity describes how fast.
+variety is wrong: this answer variety describes how many kinds.
+PART IV — DATA ANALYTICS

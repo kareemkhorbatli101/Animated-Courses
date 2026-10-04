@@ -1,0 +1,704 @@
+Chapter 12
+System Development, Automation and Emerging Technology
+تطوير النظم والأتمتة والتقنيات الناشئة
+Chapters 9 to 11 described systems that already exist. This chapter asks how a system comes to exist in the first place, how it is improved, and which of the newer technologies are worth the attention they attract.
+Figure F412-01 shows the chapter.
+Figure F412-01. Chapter 12 roadmap: build it, improve it, extend it.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.3.a
+define the system development life cycle, including systems analysis, conceptual design, physical design, implementation and conversion, and operations and maintenance
+Define the system development life cycle and its five stages.
+Full treatment
+F.3.b
+explain the role of business process analysis in improving system performance
+Explain the role of business process analysis in improving system performance.
+Full treatment
+F.3.c
+define robotic process automation (RPA) and its benefits
+Define robotic process automation and its benefits.
+Full treatment
+F.3.d
+evaluate where technologies can improve efficiency and effectiveness of processing accounting data and information (e.g., artificial intelligence (AI))
+Evaluate where technologies can improve the efficiency and effectiveness of processing accounting data.
+Full treatment + Extended Example
+F.3.e
+define cloud computing and describe how it can improve efficiency
+Define cloud computing and describe how it can improve efficiency.
+Full treatment
+F.3.f
+define software-as-a-service (SaaS) and explain its advantages and disadvantages
+Define software as a service and explain its advantages and disadvantages.
+Full treatment
+F.3.g
+recognize potential applications of blockchain, distributed ledger, and smart contracts
+Recognize potential applications of blockchain, distributed ledger and smart contracts.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+system development life cycle (SDLC)
+دورة حياة تطوير النظم
+cycle de vie du développement de systèmes
+conceptual design
+التصميم المفاهيمي
+conception conceptuelle
+physical design
+التصميم المادي
+conception physique
+business process analysis
+تحليل عمليات الأعمال
+analyse des processus
+robotic process automation (RPA)
+الأتمتة الآلية للعمليات
+automatisation robotisée des processus
+cloud computing
+الحوسبة السحابية
+informatique en nuage
+software as a service (SaaS)
+البرمجيات كخدمة
+logiciel en tant que service
+blockchain
+سلسلة الكتل
+chaîne de blocs
+distributed ledger
+السجل الموزع
+registre distribué
+smart contract
+العقد الذكي
+contrat intelligent
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 listed system development controls and said that Chapter 12 would return to the life cycle itself. This is that chapter, and Chapter 10's ERP implementation is the project it describes.
+12.1  The system development life cycle
+The system development life cycle (SDLC) is the ordered sequence by which a system is planned, built and run. Figure F412-02 shows the five stages the exam names.
+Figure F412-02. The five stages of the system development life cycle.
+The two design stages are the pair candidates confuse. Conceptual design answers what the system should do, in the language of the business. Physical design answers how it will do it: the files, the programs, the screens and the controls. One is a decision about purpose, the other about construction.
+Conversion deserves a word of its own. Moving from the old system to the new can be done directly, in parallel, as a pilot in one site, or in phases. Running both systems in parallel is the safest and the most expensive, and the choice is a judgement about what a failure would cost.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+system development life cycle (SDLC)
+دورة حياة تطوير النظم
+cycle de vie du développement de systèmes
+conceptual design
+التصميم المفاهيمي
+conception conceptuelle
+physical design
+التصميم المادي
+conception physique
+English (exam term)
+العربية
+Français
+system development life cycle (SDLC)
+دورة حياة تطوير النظم
+cycle de vie du développement de systèmes
+conceptual design
+التصميم المفاهيمي
+conception conceptuelle
+physical design
+التصميم المادي
+conception physique
+SECTION CHECK   Test yourself
+SC412-1  Which stage decides what the system should do, in the language of the business?
+A.	Physical design
+B.	Systems analysis
+C.	Implementation and conversion
+D.	Conceptual design
+SC412-2  Running the old and new systems together during conversion is:
+A.	the cheapest option
+B.	not permitted
+C.	the safest and the most expensive option
+D.	the same as a pilot conversion
+Answers and explanations are at the end of the chapter.
+12.2  Business process analysis
+Business process analysis examines how work is actually done, in order to improve it. Figure F412-03 sets out the steps.
+Figure F412-03. The steps of business process analysis
+Step in business process analysis
+What it involves
+At Orontes
+1 Map the current process
+Draw what actually happens, not what the manual says
+The flowchart of Chapter 7
+2 Measure it
+Volumes, time taken, error rates, cost per transaction
+Two days a month reconciling systems
+3 Find the waste
+Steps that add no value, rework, waiting, duplicate handling
+The same hours keyed into two systems
+4 Design the improved process
+Remove the waste, then decide what to automate
+One entry, read by every module
+5 Implement and measure again
+Prove the change worked, or find out why it did not
+Compare the new cycle time with the old
+Its role in system performance rests on a single principle, and it is the most useful sentence in this chapter. Automating a bad process does not fix it: it makes the same errors faster and at greater volume, and makes them harder to see because nobody is handling them any more.
+The first step is where the work is. Mapping what actually happens, rather than what the manual says, routinely reveals steps that exist only because someone once needed them. Chapter 7's flowchart is the tool, and the question is the same: who does this, and why.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+business process analysis
+تحليل عمليات الأعمال
+analyse des processus
+English (exam term)
+العربية
+Français
+business process analysis
+تحليل عمليات الأعمال
+analyse des processus
+SECTION CHECK   Test yourself
+SC412-3  Why must process analysis precede automation?
+A.	Automation is expensive
+B.	Automating a bad process makes the same errors faster and harder to see
+C.	Analysis is required by the standard
+D.	Robots cannot be reprogrammed
+SC412-4  The first step of business process analysis is to map:
+A.	what actually happens
+B.	what the manual says should happen
+C.	what the new system will do
+D.	what competitors do
+Answers and explanations are at the end of the chapter.
+12.3  Robotic process automation
+robotic process automation (RPA) uses software robots to carry out rule-based steps on structured data, working through existing screens as a person would. Figure F412-04 sets out what it does and where it stops.
+Figure F412-04. What robotic process automation does, and where it stops
+Robotic process automation (F.3.c)
+What it means
+At Orontes
+What it does
+Software robots copy rule-based keyboard and mouse steps on structured data
+Matching invoices to orders and flagging exceptions
+Benefits
+Speed, accuracy, operation outside working hours, a complete log of every action
+A three-hour reconciliation finished overnight
+No change to systems
+It works through existing screens, so no integration project is needed
+Useful where an ERP cannot yet reach
+Limitation: brittleness
+A changed screen or report layout stops the robot
+A vendor update breaks the invoice matching
+Limitation: scope
+Only stable, rule-based, structured work; judgement defeats it
+Deciding whether an unusual order is genuine
+Control requirement
+A robot needs its own identity, access rights and segregation
+A robot that can both post and approve is one person with two duties
+Its appeal is that it needs no integration project. Where an ERP cannot yet reach, or where two systems must be joined and neither can be changed, a robot can do the keying that a person was doing, overnight and without error.
+The control point is the one most often missed. A robot is a user: it needs its own identity, its own access rights and its own place in the segregation of duties. A robot that can both post a transaction and approve it is one person holding two duties, and Chapter 3 applies to it exactly as to anybody else.
+EXAM TRAP   A robot is not judgement
+Robotic process automation handles stable, rule-based work on structured data. If the task requires deciding whether something is reasonable, it is outside the technique, however it is described. Adding artificial intelligence to the description does not change what the robot itself does.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+robotic process automation (RPA)
+الأتمتة الآلية للعمليات
+automatisation robotisée des processus
+English (exam term)
+العربية
+Français
+robotic process automation (RPA)
+الأتمتة الآلية للعمليات
+automatisation robotisée des processus
+SECTION CHECK   Test yourself
+SC412-5  Robotic process automation is suited to work that is:
+A.	rule-based, repetitive and based on structured data
+B.	judgemental and varied
+C.	based on unstructured documents
+D.	performed once a year
+SC412-6  A robot is configured to post journal entries and also to approve them. What is wrong?
+A.	Robots cannot post entries
+B.	Approval must always be manual
+C.	It holds two duties that must be separated, exactly as a person would
+D.	Nothing, because a robot cannot commit fraud
+Answers and explanations are at the end of the chapter.
+12.4  Cloud computing and software as a service
+Cloud computing is on-demand access to a shared pool of computing resources over a network. The recognised definition gives it five characteristics: self-service on demand, broad network access, resources pooled across customers, rapid elasticity, and metered use. Figure F412-05 shows the three service models.
+Figure F412-05. The three cloud service models and who manages what.
+Efficiency comes from three of those characteristics. Metered use turns a capital purchase into an operating cost paid only for what is consumed. Elasticity means capacity can rise for a peak and fall again. And self-service means a server is available in minutes rather than after a procurement cycle.
+Four deployment models cut across the three service models. A private cloud serves one organization, a community cloud a group with shared concerns, a public cloud anyone who pays, and a hybrid combines them. The distinction the exam tests is simply that service models and deployment models are different questions.
+software as a service (SaaS) is the model Orontes is most likely to meet: the provider runs the application and the company simply uses it. Figure F412-06 sets out both sides.
+Figure F412-06. The advantages and disadvantages of software as a service
+Advantage of SaaS
+Disadvantage
+Cost
+No large purchase; pay as you use
+Recurring cost forever, which may exceed a purchase
+Updates
+The provider updates everything for everyone
+You cannot refuse or defer an update you dislike
+Access
+Reachable from anywhere with a connection
+Useless without the connection
+Scale
+Add users or capacity on demand
+Costs scale up as readily as down
+Maintenance
+The provider handles servers, patching and backup
+You rely on the provider's controls, not your own
+Data
+Stored and protected by the provider
+Residency may breach local law; exit is costly
+Two disadvantages deserve weight. The company relies on the provider's controls rather than its own, which is why a report on those controls is normally obtained and read. And data residency can matter legally: Chapter 11 showed that Jordanian and Saudi law both constrain where personal data may be held.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+cloud computing
+الحوسبة السحابية
+informatique en nuage
+software as a service (SaaS)
+البرمجيات كخدمة
+logiciel en tant que service
+English (exam term)
+العربية
+Français
+cloud computing
+الحوسبة السحابية
+informatique en nuage
+software as a service (SaaS)
+البرمجيات كخدمة
+logiciel en tant que service
+SECTION CHECK   Test yourself
+SC412-7  Which is a cloud service model?
+A.	Hybrid cloud
+B.	Private cloud
+C.	Community cloud
+D.	Platform as a service
+SC412-8  Which is a genuine disadvantage of software as a service?
+A.	A large purchase is required upfront
+B.	The company relies on the provider's controls rather than its own
+C.	Updates must be installed by the company
+D.	It cannot be reached remotely
+Answers and explanations are at the end of the chapter.
+12.5  Blockchain, distributed ledgers and smart contracts
+A blockchain is a distributed, append-only ledger of cryptographically linked blocks, agreed between participants by consensus rather than by a central authority. A distributed ledger is the wider class, and a smart contract is code held on such a ledger that executes itself when its conditions are met.
+Figure F412-07 states what each term means and where the technology actually stands.
+Figure F412-07. Blockchain terms and their status
+Term (F.3.g)
+What it means
+Status as at October 2026
+Blockchain
+A distributed, append-only ledger of cryptographically linked blocks, agreed by consensus
+Real, and narrow in use
+Distributed ledger
+The wider class, including ledgers where membership is controlled
+The form enterprises actually use
+Smart contract
+Code on a ledger that executes itself when conditions are met
+Real, but only as reliable as its code
+What did materialise
+Accounting and audit of crypto assets, tokenised funds, stablecoin payments, some trade finance and provenance
+Narrower than predicted
+What did not
+Replacing accounting systems. The Australian exchange cancelled its blockchain settlement replacement in 2022
+A large and public failure
+Triple-entry accounting
+A proposal that a shared ledger entry replaces two sets of books
+Recognised by no standard-setter
+WATCH: NOT YET TESTABLE   An honest assessment, as at October 2026
+Between 2018 and 2022 it was widely predicted that blockchain would replace accounting systems. That did not happen. The Australian securities exchange cancelled its blockchain settlement replacement in 2022 after large write-offs, and no standard-setter recognises triple-entry accounting. What did materialise is narrower: accounting and audit of crypto assets, tokenised funds, stablecoin payments, and some trade finance and provenance work. A candidate who can say what the technology is and where it genuinely applies is better prepared than one who repeats the predictions.
+The exam asks you to recognise potential applications, so know the realistic ones. Where several parties must share one record and do not fully trust each other, a distributed ledger has something to offer. Where one company keeps its own books, a database is simpler, faster and cheaper.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+blockchain
+سلسلة الكتل
+chaîne de blocs
+distributed ledger
+السجل الموزع
+registre distribué
+smart contract
+العقد الذكي
+contrat intelligent
+English (exam term)
+العربية
+Français
+blockchain
+سلسلة الكتل
+chaîne de blocs
+distributed ledger
+السجل الموزع
+registre distribué
+smart contract
+العقد الذكي
+contrat intelligent
+SECTION CHECK   Test yourself
+SC412-9  A smart contract is:
+A.	a legally drafted contract stored electronically
+B.	a contract negotiated by artificial intelligence
+C.	code on a distributed ledger that executes itself when conditions are met
+D.	a contract between two blockchains
+SC412-10  Where does a distributed ledger have most to offer?
+A.	Where one company keeps its own books
+B.	Where several parties must share one record and do not fully trust each other
+C.	Wherever data must be stored securely
+D.	Wherever transactions are numerous
+Answers and explanations are at the end of the chapter.
+12.6  Extended Example 12A: judging four proposals
+F.3.d asks you to evaluate where a technology would improve the processing of accounting data. This example judges four proposals put to the Orontes board, accepting two and refusing two.
+Figure F412-04 and Figure F412-06 supply the evidence this evaluation needs, because each sets out not only what a technology does but what it costs and where it stops.
+1. The test to apply
+Three questions settle most proposals. Which process does this change, and is that process worth keeping at all? What specifically improves: cost, speed, accuracy or capability? And what new risk or control requirement does it create?
+2. Proposal one: a robot to match invoices
+Accounts payable spends three hours a day matching invoices to orders and goods received notes. The work is rule-based and the data is structured, so a robot fits. It improves speed and accuracy, and it creates one new requirement: the robot needs its own identity and must not also approve payment. Accept.
+3. Proposal two: moving the expenses system to a hosted service
+The expenses system is small, standard and not a competitive advantage. A hosted service removes the maintenance and the upgrades. The risks are dependence on the provider and the location of the data, both manageable for expenses. Accept, after reading the provider's controls report and confirming where the data sits.
+4. Proposal three: a blockchain for the supplier ledger
+A consultant proposes recording supplier balances on a blockchain, to make them tamper-evident. But Orontes keeps its own books, there is no group of mutually distrustful parties needing one shared record, and the ERP database with proper access controls already prevents undetected alteration. Refuse: it answers a problem the company does not have.
+5. Proposal four: automating the current month-end close
+The close takes eleven days, and the proposal is to automate it as it stands. The first question defeats it: the process includes two days reconciling systems that the ERP has now merged, and a manual upload that no longer exists. Refuse for now, analyse the process, and automate what survives.
+6. Your turn
+YOUR TURN   Name four stages
+Complete the blank cells of Figure F412-08. Answers are at the end of the chapter.
+Figure F412-08. Your turn: name four stages (complete the blanks)
+The activity
+Which stage?
+Why
+What does the business need, and what happens now?
+________
+It precedes any design
+Files, programs, screens and controls are specified
+Physical design
+________
+Build, test, train and move the data
+________
+The system goes live
+Run it and change it as the business changes
+________
+It feeds the next analysis
+7. Tie line
+WORKED EXAMPLE   The pattern behind the judgements
+Ask what process changes before asking what technology is proposed.
+A technology that answers a problem the company does not have is refused, however capable.
+Automating a process nobody has examined preserves its waste.
+Every acceptance carries a new control requirement; name it at the time.
+8. How the exam asks it
+EXAM TRAP   Exam view
+A Level C question gives a technology and a situation and asks whether it helps. Name the process, the specific gain and the new risk. An answer that praises the technology in general, without naming the process it changes, earns nothing.
+9. Self-check
+SECTION CHECK   Test yourself
+SC412-11  Use Extended Example 12A. Why is the blockchain supplier ledger refused?
+A.	The technology does not work
+B.	It would cost too much
+C.	The consultant is unqualified
+D.	It answers a problem Orontes does not have: there is no group of mutually distrustful parties
+SC412-12  Use Extended Example 12A. Why is automating the month-end close refused for now?
+A.	The process still contains work the ERP has made unnecessary, so automating it would preserve the waste
+B.	The close is not important enough
+C.	Automation is too expensive
+D.	The close cannot be automated
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F412-09 brings the chapter together.
+Figure F412-09. Chapter 12 summary map: the key rule for each section.
+The system development life cycle runs systems analysis, conceptual design, physical design, implementation and conversion, and operations and maintenance, with users involved throughout and each stage approved before the next. Business process analysis maps what actually happens and removes waste before anything is automated, because automating a bad process makes the same errors faster. Robotic process automation carries out rule-based steps on structured data without changing the underlying systems, and a robot needs its own identity and its own segregation of duties. Cloud computing gives on-demand, metered, elastic access to shared resources, and software as a service trades maintenance for dependence on the provider's controls and the location of the data. Blockchain's realistic applications are narrow, and the claim that it would replace accounting systems did not materialise.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P412-01  Which is the first stage of the system development life cycle?
+A.	Conceptual design
+B.	Physical design
+C.	Implementation
+D.	Systems analysis
+P412-02  Specifying the files, programs, screens and controls is:
+A.	conceptual design
+B.	systems analysis
+C.	physical design
+D.	operations and maintenance
+P412-03  Why is operations and maintenance part of the life cycle rather than outside it?
+A.	It is where most staff work
+B.	Maintenance reveals needs that feed the next analysis
+C.	It is the longest stage
+D.	Auditors require it to be included
+P412-04  Which step of process analysis identifies rework and waiting?
+A.	Finding the waste
+B.	Mapping the current process
+C.	Measuring it
+D.	Implementing the change
+P412-05  A company automates its purchase approval exactly as it stands, including a step nobody can explain. The likely result is:
+A.	the step disappears automatically
+B.	the process becomes cheaper overall
+C.	the unnecessary step is performed faster and permanently
+D.	the error rate falls to zero
+P412-06  Which is a benefit of robotic process automation?
+A.	It can decide whether an order is reasonable
+B.	It works through existing screens, so no integration project is needed
+C.	It reads unstructured contracts
+D.	It never needs maintenance
+P412-07  A vendor update changes a screen layout and the robot stops working. This illustrates:
+A.	a control failure
+B.	poor judgement
+C.	a licensing problem
+D.	brittleness
+P412-08  Which is one of the five characteristics of cloud computing?
+A.	Metered use
+B.	Private deployment
+C.	Software as a service
+D.	Encryption
+P412-09  How does metered use improve efficiency?
+A.	The provider charges less than a supplier would
+B.	A capital purchase becomes an operating cost paid only for what is consumed
+C.	Servers never fail
+D.	Staff need no training
+P412-10  In which service model does the customer manage the most?
+A.	Platform as a service
+B.	Software as a service
+C.	They are equal
+D.	Infrastructure as a service
+P412-11  Why does data residency matter when choosing a hosted service?
+A.	Distant data is slower to read
+B.	Providers charge by country
+C.	Local law may constrain where personal data is held
+D.	Auditors cannot visit foreign data centres
+P412-12  Which is an advantage of software as a service?
+A.	The provider updates the software for everyone
+B.	The company chooses when to upgrade
+C.	The company controls where the data is held
+D.	There is no recurring cost
+P412-13  A blockchain is best described as:
+A.	a type of database owned by one company
+B.	an encryption method
+C.	a distributed, append-only ledger agreed by consensus
+D.	a cloud deployment model
+P412-14  What is the current status of triple-entry accounting?
+A.	A proposal that no standard-setter recognises
+B.	Required under U.S. GAAP
+C.	Permitted under IFRS
+D.	Used by most large companies
+P412-15  A proposal says a new tool will 'transform efficiency'. As an evaluation, this is:
+A.	sufficient if the vendor provides references
+B.	sufficient for a Level C answer
+C.	wrong, because no tool improves efficiency
+D.	inadequate, because it does not name the process, the gain or the new risk
+P412-16  Which question should be asked FIRST when a technology is proposed?
+A.	What does it cost?
+B.	Which process does this change, and is that process worth keeping?
+C.	Which vendor is best?
+D.	How long will it take to install?
+Case question: four proposals and a consultant
+The Orontes ERP has been live for six months. Four proposals are now before the board. The first is a software robot to match supplier invoices against orders and goods received notes, work that accounts payable currently performs for three hours each day and which follows fixed rules on structured data.
+The second is to move the small expenses system to a hosted service run by the supplier, removing the maintenance and the upgrades. The expenses system is standard, is not a competitive advantage, and holds the home addresses of staff who claim mileage.
+The third comes from an external consultant, who proposes recording supplier balances on a blockchain so that they become tamper-evident. Orontes keeps its own books and no other party shares the supplier ledger.
+The fourth is to automate the month-end close exactly as it is performed today. The close takes eleven days and still includes two days reconciling the plant and ledger figures, which the ERP now holds as one value, and a manual upload that no longer exists. No one has examined the close since the ERP went live, and the finance team has asked only for it to run faster.
+Use the scenario above for items C412-1 to C412-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C412-1  Classify each proposal. (On the exam screen you would drag each item into a box.)
+Categories: Accept · Refuse
+Proposal
+Category
+The invoice-matching robot
+The hosted expenses service
+The blockchain supplier ledger
+Automating the close as it stands
+C412-2  Enter the number of days the month-end close currently takes.
+Answer: ____________
+C412-3  The invoice-matching robot is suitable because the work is: [select]
+Options: rule-based, repetitive and performed on structured data   |   judgemental but high in volume   |   performed on unstructured documents   |   carried out only at the month end
+C412-4  What control requirement does the robot create? [select]
+Options: it needs its own identity and must not also approve payment   |   it must be supervised by a person at all times   |   it must be switched off outside working hours   |   it must be approved by the external auditor
+C412-5  Before accepting the hosted expenses service, Orontes should: [select]
+Options: read the provider's controls report and confirm where the data will be held   |   negotiate a lower price   |   require the provider to stop issuing updates   |   transfer the data without changing anything
+C412-6  The blockchain proposal should be refused because: [select]
+Options: no group of mutually distrustful parties shares the ledger, so a controlled database answers the need   |   blockchain technology does not work   |   the consultant has a conflict of interest   |   the board does not understand it
+C412-7  Examining how work is actually done, before deciding what to automate, is called business ____ analysis.
+Choose the word or phrase for the blank: process   |   systems   |   risk   |   variance
+Case question: four proposals and a consultant
+The Orontes ERP has been live for six months. Four proposals are now before the board. The first is a software robot to match supplier invoices against orders and goods received notes, work that accounts payable currently performs for three hours each day and which follows fixed rules on structured data.
+The second is to move the small expenses system to a hosted service run by the supplier, removing the maintenance and the upgrades. The expenses system is standard, is not a competitive advantage, and holds the home addresses of staff who claim mileage.
+The third comes from an external consultant, who proposes recording supplier balances on a blockchain so that they become tamper-evident. Orontes keeps its own books and no other party shares the supplier ledger.
+The fourth is to automate the month-end close exactly as it is performed today. The close takes eleven days and still includes two days reconciling the plant and ledger figures, which the ERP now holds as one value, and a manual upload that no longer exists. No one has examined the close since the ERP went live, and the finance team has asked only for it to run faster.
+Use the scenario above for items C412-1 to C412-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C412-1  Classify each proposal. (On the exam screen you would drag each item into a box.)
+Categories: Accept · Refuse
+Proposal
+Category
+The invoice-matching robot
+The hosted expenses service
+The blockchain supplier ledger
+Automating the close as it stands
+C412-2  Enter the number of days the month-end close currently takes.
+Answer: ____________
+C412-3  The invoice-matching robot is suitable because the work is: [select]
+Options: rule-based, repetitive and performed on structured data   |   judgemental but high in volume   |   performed on unstructured documents   |   carried out only at the month end
+C412-4  What control requirement does the robot create? [select]
+Options: it needs its own identity and must not also approve payment   |   it must be supervised by a person at all times   |   it must be switched off outside working hours   |   it must be approved by the external auditor
+C412-5  Before accepting the hosted expenses service, Orontes should: [select]
+Options: read the provider's controls report and confirm where the data will be held   |   negotiate a lower price   |   require the provider to stop issuing updates   |   transfer the data without changing anything
+C412-6  The blockchain proposal should be refused because: [select]
+Options: no group of mutually distrustful parties shares the ledger, so a controlled database answers the need   |   blockchain technology does not work   |   the consultant has a conflict of interest   |   the board does not understand it
+C412-7  Examining how work is actually done, before deciding what to automate, is called business ____ analysis.
+Choose the word or phrase for the blank: process   |   systems   |   risk   |   variance
+Answers and explanations
+Section checks
+SC412-1  Answer D. Purpose, before construction.
+A is wrong. That decides how: files, programs, screens and controls.
+B is wrong. Analysis establishes the need and what happens now.
+C is wrong. That is building and going live.
+SC412-2  Answer C. The choice weighs cost against what a failure would cost.
+A is wrong. Both systems must be operated at once.
+B is wrong. It is a recognised method.
+D is wrong. A pilot runs the new system in one site only.
+SC412-3  Answer B. Nobody is handling the errors any more.
+A is wrong. Cost is a separate consideration.
+C is wrong. No standard requires it.
+D is wrong. They can be, at a cost.
+SC412-4  Answer A. The gap between the two is usually where the waste is.
+B is wrong. The manual describes an intention.
+C is wrong. That comes after the current process is understood.
+D is wrong. Benchmarking is a different exercise.
+SC412-5  Answer A. The robot copies steps a person was performing.
+B is wrong. Judgement is outside the technique.
+C is wrong. Unstructured data defeats a rule-based robot.
+D is wrong. Volume is what makes it worthwhile.
+SC412-6  Answer C. A robot is a user and belongs in the segregation of duties.
+A is wrong. Posting is well within its scope.
+B is wrong. Approval can be automated within limits.
+D is wrong. A robot can be configured or compromised to do harm.
+SC412-7  Answer D. The three models are infrastructure, platform and software as a service.
+A is wrong. That is a deployment model.
+B is wrong. That is a deployment model.
+C is wrong. That is a deployment model.
+SC412-8  Answer B. Which is why a report on those controls is obtained and read.
+A is wrong. That is an advantage of the model: there is no large purchase.
+C is wrong. The provider updates everything.
+D is wrong. Remote access is one of its advantages.
+SC412-9  Answer C. It is only as reliable as its code.
+A is wrong. Storing a document electronically is not a smart contract.
+B is wrong. Negotiation is not the definition.
+D is wrong. No such arrangement.
+SC412-10  Answer B. Otherwise a database is simpler, faster and cheaper.
+A is wrong. A database answers that better.
+C is wrong. Encryption and access controls address storage security.
+D is wrong. Volume is not the criterion.
+SC412-11  Answer D. The ERP database with access controls already prevents undetected alteration.
+A is wrong. It works; it is simply the wrong tool here.
+B is wrong. Cost is secondary to the absence of a problem.
+C is wrong. The proposal is judged, not the proposer.
+SC412-12  Answer A. Analyse the process, then automate what survives.
+B is wrong. Eleven days is a significant cost.
+C is wrong. Cost is not the objection.
+D is wrong. Much of it can be, once examined.
+Your turn
+Item
+Answer
+What does the business need, and what happens now?
+Systems analysis — it establishes the need and the current position before any design begins
+Files, programs, screens and controls are specified
+Why: physical design settles how the system will do what conceptual design decided it should do
+Build, test, train and move the data
+Implementation and conversion — the point at which the system goes live
+Run it and change it as the business changes
+Operations and maintenance — and what it reveals feeds the next systems analysis
+Multiple-choice questions
+P412-01  Answer D. The need and the current position come first.
+A is wrong. Second.
+B is wrong. Third.
+C is wrong. Fourth.
+P412-02  Answer C. How the system will do what was decided.
+A is wrong. Conceptual design decides what, in business terms.
+B is wrong. Analysis establishes the need.
+D is wrong. That is running it afterwards.
+P412-03  Answer B. The cycle returns to its beginning.
+A is wrong. Staffing is not the reason.
+C is wrong. Length is not the reason.
+D is wrong. No such requirement.
+P412-04  Answer A. Steps that add no value are identified once the process is mapped and measured.
+B is wrong. Mapping records what happens.
+C is wrong. Measurement quantifies it.
+D is wrong. Implementation comes last.
+P412-05  Answer C. Automation preserves whatever it is given.
+A is wrong. Automation does not question the process.
+B is wrong. The waste is retained and now embedded.
+D is wrong. Rule-based errors are repeated faithfully.
+P412-06  Answer B. Useful where systems cannot be changed.
+A is wrong. That requires judgement.
+C is wrong. Unstructured data is outside its scope.
+D is wrong. A changed screen layout stops it.
+P412-07  Answer D. The robot depends on the screens looking as expected.
+A is wrong. No control has failed; the robot has stopped.
+B is wrong. No judgement was involved.
+C is wrong. Licensing is unaffected.
+P412-08  Answer A. Alongside self-service, broad access, pooling and elasticity.
+B is wrong. That is a deployment model.
+C is wrong. That is a service model.
+D is wrong. A security control, not a defining characteristic.
+P412-09  Answer B. Capacity no longer has to be bought ahead of need.
+A is wrong. Price is not guaranteed to be lower.
+C is wrong. Hardware still fails; the provider handles it.
+D is wrong. Training is still needed.
+P412-10  Answer D. The provider supplies machines; the customer runs everything above them.
+A is wrong. The provider also runs the platform.
+B is wrong. The provider runs everything.
+C is wrong. The division differs by model.
+P412-11  Answer C. Chapter 11 showed Jordanian and Saudi rules both apply.
+A is wrong. A performance point, not the legal one.
+B is wrong. Pricing is a commercial matter.
+D is wrong. Controls reports exist for that reason.
+P412-12  Answer A. Maintenance passes to the provider.
+B is wrong. That control is lost, which is a disadvantage.
+C is wrong. Residency is the provider's decision.
+D is wrong. The cost recurs for as long as it is used.
+P412-13  Answer C. Blocks are cryptographically linked and cannot be altered unnoticed.
+A is wrong. Single ownership removes the reason to use it.
+B is wrong. It uses cryptography but is not itself encryption.
+D is wrong. That is a different subject.
+P412-14  Answer A. It remains a concept rather than a practice.
+B is wrong. No such requirement exists.
+C is wrong. IFRS does not address it.
+D is wrong. It is not in general use.
+P412-15  Answer D. Evaluation requires the specifics.
+A is wrong. References do not identify the process changed.
+B is wrong. A general claim earns nothing.
+C is wrong. Tools can improve efficiency; the claim is simply unevidenced.
+P412-16  Answer B. A technology applied to a process that should not exist improves nothing.
+A is wrong. Cost matters, but only once the process is identified.
+C is wrong. Selection follows the decision to proceed.
+D is wrong. Timing follows too.
+Case question: four proposals and a consultant
+C412-1
+Proposal
+Category
+The invoice-matching robot
+Accept
+The hosted expenses service
+Accept
+The blockchain supplier ledger
+Refuse
+Automating the close as it stands
+Refuse
+Classify each proposal by the recommendation it should receive.
+C412-2  Answer: 11.
+2 is wrong: this answer that is the part spent reconciling, not the whole close.
+3 is wrong: this answer that is the daily hours of invoice matching.
+C412-3  Answer: rule-based, repetitive and performed on structured data.
+judgemental but high in volume is wrong: this answer judgement is outside the technique whatever the volume.
+performed on unstructured documents is wrong: this answer unstructured data defeats a rule-based robot.
+carried out only at the month end is wrong: this answer it is performed daily, which is what makes it worth automating.
+C412-4  Answer: it needs its own identity and must not also approve payment.
+it must be supervised by a person at all times is wrong: this answer that removes the benefit; segregation is the requirement.
+it must be switched off outside working hours is wrong: this answer overnight operation is one of its advantages.
+it must be approved by the external auditor is wrong: this answer the auditor does not approve management's controls.
+C412-5  Answer: read the provider's controls report and confirm where the data will be held.
+negotiate a lower price is wrong: this answer commercially sensible, but it does not address reliance on the provider's controls.
+require the provider to stop issuing updates is wrong: this answer the provider updates everyone; that is part of the model.
+transfer the data without changing anything is wrong: this answer the staff home addresses make residency a legal question.
+C412-6  Answer: no group of mutually distrustful parties shares the ledger, so a controlled database answers the need.
+blockchain technology does not work is wrong: this answer it works; it is the wrong tool for this problem.
+the consultant has a conflict of interest is wrong: this answer nothing suggests one, and the proposal is judged on its merits.
+the board does not understand it is wrong: this answer unfamiliarity is not a reason to refuse.
+C412-7  Answer: process.
+systems is wrong: this answer systems analysis is the first stage of the development life cycle.
+risk is wrong: this answer risk assessment is a COSO component.
+variance is wrong: this answer variance analysis compares actual with standard.
+PART IV
+Data analytics
+Chapters 13 to 18
+PART IV — DATA ANALYTICS

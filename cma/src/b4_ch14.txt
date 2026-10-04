@@ -1,0 +1,590 @@
+Chapter 14
+Data Mining and SQL
+التنقيب في البيانات ولغة الاستعلام الهيكلية
+Chapter 13 ended with a distinction: knowledge is a pattern, and insight explains it. This chapter is about the work of finding both, and about why that work loops back on itself so often.
+Figure F414-01 shows the chapter.
+Figure F414-01. Chapter 14 roadmap: ask, dig, go back.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.4.g
+define data mining
+Define data mining.
+Full treatment
+F.4.h
+describe the challenges of data mining
+Describe the challenges of data mining.
+Full treatment
+F.4.i
+explain why data mining is an iterative process and both an art and a science
+Explain why data mining is an iterative process and both an art and a science.
+Full treatment
+F.4.j
+explain the purpose of Structured Query Language (SQL)
+Explain the purpose of Structured Query Language.
+Full treatment
+F.4.k
+describe how an analyst would mine large data sets to reveal patterns and provide insights
+Describe how an analyst would mine a large dataset to reveal patterns and provide insights.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+data mining
+التنقيب في البيانات
+exploration de données
+association
+الارتباط
+association
+iterative process
+العملية التكرارية
+processus itératif
+Structured Query Language (SQL)
+لغة الاستعلام الهيكلية
+langage de requête structurée
+join
+الربط
+jointure
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 11 prepared a dataset and Chapter 10 held it in a relational database. This chapter asks the database questions, and the keys of Figure F410-05 are what make the questions answerable.
+14.1  What data mining is
+Data mining is the search through data for patterns, relationships and anomalies that were not known in advance. The last part of that definition distinguishes it from reporting. A report answers a question somebody already had; mining looks for what nobody thought to ask.
+Figure F414-02. What data mining looks for, and what it does not deliver
+What data mining looks for (F.4.g)
+What it means
+At Orontes
+Patterns
+Regularities that repeat across cases
+Third-quarter demand rises every year
+Relationships
+Variables that move together
+Cases sold against mean temperature
+Anomalies
+Cases that do not fit the pattern
+Two orders a hundred times the usual size
+Groupings
+Natural clusters within the data
+Distributors that order like each other
+Not: proof of cause
+Mining finds association, not causation
+Heat and demand move together; the data cannot say why
+Figure F414-02 sets out what mining looks for, and its last row sets out what it does not deliver. Mining finds association, meaning that two things occur together. It cannot by itself establish that one causes the other, and Chapter 13's staff birthdays showed how readily association appears without cause.
+That limitation is not a weakness of the technique but of the data. Causation is established by reasoning about mechanism, or by an experiment, and a dataset of past orders contains neither.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data mining
+التنقيب في البيانات
+exploration de données
+association
+الارتباط
+association
+English (exam term)
+العربية
+Français
+data mining
+التنقيب في البيانات
+exploration de données
+association
+الارتباط
+association
+SECTION CHECK   Test yourself
+SC414-1  What distinguishes data mining from reporting?
+A.	Mining looks for what nobody thought to ask
+B.	Mining uses larger datasets
+C.	Mining is performed by computers
+D.	Mining is always automated
+SC414-2  Data mining establishes:
+A.	causation directly
+B.	neither association nor causation
+C.	causation if the dataset is large enough
+D.	association, not causation
+Answers and explanations are at the end of the chapter.
+14.2  The challenges
+Figure F414-03 sets out the six challenges the exam expects, each illustrated from work this book has already done.
+Figure F414-03. The challenges of data mining
+Challenge (F.4.h)
+Why it is hard
+At Orontes
+Data quality
+Poor data yields a confident wrong answer
+Chapter 11's three spellings and missing dates
+Size and cost
+Large datasets need storage, tools and time
+Three years of order lines across three systems
+Privacy and law
+Personal data constrains what may be held and used
+Jordan's law, applied since 2025
+Spurious findings
+More variables mean more coincidences
+Cases against staff birthdays
+Overfitting
+A model that fits this data perfectly may predict nothing
+Chapter 16 returns to this
+Knowing when to stop
+There is always another cut of the data
+Two weeks of analysis for a decision due Friday
+The first remains the largest. Preparation routinely consumes most of the effort in a mining project. Chapter 11 showed why: duplicates, missing values and outliers each demand a judgement, and the judgements change the answer.
+The last is the one nobody warns about. There is always another cut of the data, another variable to add, another period to extend. An analysis still improving when the decision is taken has failed as surely as one that was wrong. Knowing when the answer is good enough is a skill rather than a rule.
+SECTION CHECK   Test yourself
+SC414-3  Which challenge consumes most of the effort in a typical mining project?
+A.	Choosing the software
+B.	Writing the report
+C.	Preparing the data
+D.	Buying storage
+SC414-4  Why is knowing when to stop a genuine challenge?
+A.	Analysts are paid by the hour
+B.	There is always another cut of the data, and an analysis unfinished at the decision has failed
+C.	Software licences expire
+D.	Data becomes stale
+Answers and explanations are at the end of the chapter.
+14.3  Why mining is iterative, and both art and science
+Figure F414-04 shows the cycle an analyst actually follows.
+Figure F414-04. The data mining cycle and its loops.
+It is drawn with return arrows because it is never a straight line. A failed evaluation sends the analyst back to the model, to the preparation, or to the question itself. That happens more than once in any real project. A first model that disappoints is the normal case, not a failure of competence.
+The phrase art and science describes the same cycle from a different angle. Figure F414-05 takes each part of the work and says which it is.
+Figure F414-05. Which parts of the work are art and which are science
+Part of the work
+Art or science?
+Why
+Choosing the question
+Art
+Which question would actually change a decision?
+Preparing the data
+Science, with judgement
+The rules are known; the choices about missing values are not
+Selecting a technique
+Science
+Clustering, classification or regression, by the kind of question
+Reading the result
+Art
+Is this plausible, and is it worth acting on?
+Testing the result
+Science
+Hold-out samples and goodness of fit, as in Chapter 16
+Deciding to stop
+Art
+No formula says the analysis is finished
+The science is the part that can be written down. It covers how to prepare data, which technique suits which question, and how to test a result. The art is everything the method cannot settle, and the two that matter most sit at the ends. Choosing a question that would actually change a decision is judgement, and so is deciding that the work is finished.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+iterative process
+العملية التكرارية
+processus itératif
+English (exam term)
+العربية
+Français
+iterative process
+العملية التكرارية
+processus itératif
+SECTION CHECK   Test yourself
+SC414-5  Why is data mining described as iterative?
+A.	Evaluation routinely sends the analyst back to the model, the preparation or the question
+B.	The same query is run many times
+C.	Data is loaded repeatedly
+D.	Reports are issued monthly
+SC414-6  Which part of the work is art rather than science?
+A.	Selecting a technique for the kind of question
+B.	Testing a result with a hold-out sample
+C.	Choosing a question that would change a decision
+D.	Transforming dates into quarters
+Answers and explanations are at the end of the chapter.
+14.4  Structured Query Language
+Structured Query Language (SQL), usually called SQL, is the standard language for asking a relational database for data and for changing what it holds. Its purpose is what the exam asks about, so Figure F414-06 sets out what a query actually says.
+Figure F414-06. The parts of a SQL query.
+Read it as six questions in order. Which columns do I want, from which table, linked to what, keeping which rows, summarised how, and sorted how. A join is the clause that earns the relational design of Chapter 10: without the shared key, the orders and the customers could not be read together at all.
+A management accountant is not expected to write production queries. The expectation is to know what SQL is for and to read a simple query. It also includes seeing why an answer depends on which rows were kept and which were not.
+EXAM TRAP   The filter decides the answer
+Two analysts querying the same table can report different totals if one keeps cancelled orders and the other does not. When a figure is disputed, the first question is what the query filtered out, not whether the data is wrong.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Structured Query Language (SQL)
+لغة الاستعلام الهيكلية
+langage de requête structurée
+join
+الربط
+jointure
+English (exam term)
+العربية
+Français
+Structured Query Language (SQL)
+لغة الاستعلام الهيكلية
+langage de requête structurée
+join
+الربط
+jointure
+SECTION CHECK   Test yourself
+SC414-7  The purpose of SQL is to:
+A.	build dashboards
+B.	ask a relational database for data and change what it holds
+C.	clean data automatically
+D.	fit statistical models
+SC414-8  Two analysts query the same table and report different totals. The first thing to check is:
+A.	whether the data is corrupt
+B.	which software they used
+C.	when each query was run
+D.	what each query filtered out
+Answers and explanations are at the end of the chapter.
+14.5  Extended Example 14A: mining the Beverages demand data
+F.4.k asks how an analyst would actually mine a dataset. This example does it, on the Beverages data that Chapter 15 will model formally.
+The cycle of Figure F414-04 is the structure this example follows, step by step.
+1. Understand the business
+The question is whether the extra production shift should be scheduled to the promotion calendar, as now, or to something else. That is a question worth asking, because the answer would change a decision taken every quarter.
+2. Understand the data
+There are 8 quarters of history: cases sold, average price, mean temperature and promotion weeks. Eight observations is few, and the analyst should say so now rather than discover it later.
+3. Prepare it
+The preparation is Chapter 11's: consolidate the sources, clean what is wrong, transform dates into quarters, and reduce to the columns the question needs. Nothing here is new, and it is where most of the time goes.
+4. Look before modelling
+A first query ranks the quarters by cases. The peak quarters are the third of each year, at 240,400 cases in 2027 and 240,000 in 2028. The same quarters carry the highest temperatures, 33 and 34 degrees. Promotion weeks in those quarters were 6 and 5, which is not the highest in the dataset.
+5. Form a hypothesis
+The pattern suggests demand follows temperature more closely than promotion. That is a hypothesis, not a finding, and it is exactly the point at which an analyst is most likely to stop too early and report it as a result.
+6. Model and evaluate
+Chapter 15 fits a regression to test it, and finds that every coefficient carries the expected sign: price negative, temperature positive, promotion positive. The hypothesis survives, but the promotion effect is real as well, which the eyeball analysis had understated.
+7. Where the loop bites
+That last sentence is the iteration. The first look suggested promotion barely mattered; the model says it matters, just less than temperature. Had the analyst reported after step four, the recommendation would have been to cut promotion spending, and it would have been wrong.
+8. Your turn
+YOUR TURN   Name four SQL clauses
+Complete the blank cells of Figure F414-07. Answers are at the end of the chapter.
+Figure F414-07. Your turn: name four SQL clauses (complete the blanks)
+What is wanted
+Which SQL clause?
+Why
+Which columns to show
+________
+It names the output
+Which rows to keep
+WHERE
+________
+How to link a second table
+________
+It matches on the key of Chapter 10
+How to summarise by customer
+________
+It collapses many rows into one per group
+9. Tie line
+WORKED EXAMPLE   The pattern behind the example
+Start from the decision, not from the data.
+Look at the data before modelling it, and say how much of it there is.
+Treat what the first look suggests as a hypothesis, never as a finding.
+The model exists to test the hypothesis, and may qualify it rather than confirm it.
+10. How the exam asks it
+EXAM TRAP   Exam view
+A question describes an analyst at some point in the work and asks what should happen next. Follow the cycle: understand, prepare, model, evaluate, deploy. If the evaluation has not been done, the answer is not yet a finding.
+11. Self-check
+SECTION CHECK   Test yourself
+SC414-9  Use Extended Example 14A. After the first look at the data, the analyst has:
+A.	a hypothesis
+B.	a finding
+C.	an insight
+D.	a recommendation
+SC414-10  Use Extended Example 14A. What did the model change about the first impression?
+A.	It reversed the conclusion entirely
+B.	It confirmed temperature matters most but showed promotion matters too
+C.	It confirmed the first impression exactly
+D.	It showed neither variable matters
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F414-08 brings the chapter together.
+Figure F414-08. Chapter 14 summary map: the key rule for each section.
+Data mining searches data for patterns, relationships and anomalies not known in advance, and it finds association rather than cause. Its challenges are data quality, size and cost, privacy, spurious findings, overfitting, and knowing when to stop. It is iterative because evaluation routinely sends the analyst back to the model, the preparation or the question, and it is both art and science because the method can be written down while the choice of question and the decision to stop cannot. Structured Query Language asks a relational database which columns, from which table, joined how, keeping which rows, grouped and sorted how. An analyst mines a dataset by starting from the decision, looking before modelling, treating a first impression as a hypothesis, and testing it.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P414-01  Which is an anomaly rather than a pattern?
+A.	Third-quarter demand rising every year
+B.	Distributors that order alike
+C.	Two orders a hundred times the usual size
+D.	Cases moving with temperature
+P414-02  Mining finds that two product families sell together. The correct conclusion is:
+A.	one causes the other
+B.	they should always be bundled
+C.	the data is faulty
+D.	they are associated, and a reason should now be sought
+P414-03  Which challenge does Jordan's data protection law create for mining?
+A.	Datasets must be smaller
+B.	Analysis must be performed abroad
+C.	Personal data constrains what may be held and used
+D.	Results must be published
+P414-04  Overfitting is a challenge because a model may:
+A.	fit this data perfectly yet predict nothing
+B.	take too long to run
+C.	use too many rows
+D.	be hard to explain
+P414-05  Which is NOT among the challenges of data mining?
+A.	Data quality
+B.	A shortage of questions to ask
+C.	Spurious findings
+D.	Privacy and law
+P414-06  A first model disappoints. This is:
+A.	evidence the data is unusable
+B.	a failure of competence
+C.	a reason to abandon the question
+D.	the normal case, and the analyst returns to an earlier step
+P414-07  Which is science rather than art?
+A.	Deciding the analysis is finished
+B.	Judging whether a result is plausible
+C.	Choosing which question to ask
+D.	Testing a result with a hold-out sample
+P414-08  In the mining cycle, what follows evaluation if the result is unconvincing?
+A.	A return to the model, the preparation or the question
+B.	Deployment anyway
+C.	Collection of more data, always
+D.	Abandonment of the project
+P414-09  Which SQL clause decides which rows are kept?
+A.	SELECT
+B.	GROUP BY
+C.	WHERE
+D.	ORDER BY
+P414-10  A JOIN clause works because:
+A.	the tables have the same number of rows
+B.	the two tables share a key, as Chapter 10 described
+C.	the tables were loaded together
+D.	the database sorts them identically
+P414-11  What is a management accountant expected to do with SQL?
+A.	Write production queries
+B.	Administer the database
+C.	Know its purpose, read a simple query and see how the filter shapes the answer
+D.	Nothing; it is a technical matter
+P414-12  GROUP BY customer, quarter produces:
+A.	one row per customer
+B.	one row per customer per quarter
+C.	every original row
+D.	a sorted list
+P414-13  Where should an analyst start?
+A.	From the decision the analysis could change
+B.	From the largest available dataset
+C.	From the newest technique
+D.	From the data that is easiest to obtain
+P414-14  Why should an analyst look at the data before modelling it?
+A.	To save computing cost
+B.	Because models are unreliable
+C.	To avoid preprocessing
+D.	To form a hypothesis and to see how much data there actually is
+P414-15  An analyst reports a first impression as a conclusion. The main risk is that:
+A.	the report will be too short
+B.	an untested impression may be qualified or reversed by the model
+C.	the data will change
+D.	the software will fail
+P414-16  Mining identifies distributors that order in similar ways. This is:
+A.	an anomaly
+B.	a relationship between two variables
+C.	a grouping
+D.	a causal finding
+Case question: the analyst who reported too early
+An analyst at Orontes has been asked whether the extra production shift in Beverages should continue to be scheduled to the promotion calendar. She has eight quarters of data: cases sold, average price, mean temperature and the number of promotion weeks. She has not previously worked with this dataset, and nobody has told her how the shift schedule is currently decided.
+She ranks the quarters by cases and finds that the peak quarters are the third of each year, which are also the hottest. The promotion weeks in those quarters are not the highest in the dataset. She writes a note recommending that promotion spending be cut, because demand appears to follow the weather instead.
+Before the note goes to the board, her manager asks whether the relationship has been tested. It has not. A regression is then fitted, and it shows that temperature is indeed the stronger driver but that promotion weeks also carry a positive and material coefficient.
+Separately, the analyst has noticed that cases sold correlate with the number of pallets returned damaged, and has asked whether this should be investigated as a cause of demand.
+Use the scenario above for items C414-1 to C414-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C414-1  Classify each activity. (On the exam screen you would drag each item into a box.)
+Categories: Understand the business · Prepare the data · Model · Evaluate
+Stage of the work
+Category
+Asking whether the shift schedule should change
+Transforming dates into quarters
+Fitting the regression
+Asking whether the relationship has been tested
+C414-2  Enter the number of quarters of data available.
+Answer: ____________
+C414-3  At the point the note was written, what did the analyst actually have? [select]
+Options: a hypothesis, because nothing had been tested   |   a finding, because the pattern was clear   |   an insight, because she had explained the pattern   |   a recommendation supported by evidence
+C414-4  What was wrong with recommending that promotion spending be cut? [select]
+Options: the first look understated the promotion effect, which the model later showed to be real   |   promotion spending is never worth cutting   |   the dataset was too small to say anything at all   |   the analyst lacked authority to recommend
+C414-5  The manager's question illustrates which step of the cycle? [select]
+Options: evaluate   |   model   |   prepare the data   |   deploy
+C414-6  On the correlation between cases sold and damaged pallets returned, the right response is: [select]
+Options: treat it as an association and ask whether either could plausibly cause the other, noting that more sales simply means more pallets   |   investigate it as a cause of demand   |   report it to the board as a finding   |   remove the pallet data from the dataset
+C414-7  The SQL clause that decides which rows are kept is ____.
+Choose the word or phrase for the blank: WHERE   |   SELECT   |   GROUP BY   |   ORDER BY
+Case question: the analyst who reported too early
+An analyst at Orontes has been asked whether the extra production shift in Beverages should continue to be scheduled to the promotion calendar. She has eight quarters of data: cases sold, average price, mean temperature and the number of promotion weeks. She has not previously worked with this dataset, and nobody has told her how the shift schedule is currently decided.
+She ranks the quarters by cases and finds that the peak quarters are the third of each year, which are also the hottest. The promotion weeks in those quarters are not the highest in the dataset. She writes a note recommending that promotion spending be cut, because demand appears to follow the weather instead.
+Before the note goes to the board, her manager asks whether the relationship has been tested. It has not. A regression is then fitted, and it shows that temperature is indeed the stronger driver but that promotion weeks also carry a positive and material coefficient.
+Separately, the analyst has noticed that cases sold correlate with the number of pallets returned damaged, and has asked whether this should be investigated as a cause of demand.
+Use the scenario above for items C414-1 to C414-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C414-1  Classify each activity. (On the exam screen you would drag each item into a box.)
+Categories: Understand the business · Prepare the data · Model · Evaluate
+Stage of the work
+Category
+Asking whether the shift schedule should change
+Transforming dates into quarters
+Fitting the regression
+Asking whether the relationship has been tested
+C414-2  Enter the number of quarters of data available.
+Answer: ____________
+C414-3  At the point the note was written, what did the analyst actually have? [select]
+Options: a hypothesis, because nothing had been tested   |   a finding, because the pattern was clear   |   an insight, because she had explained the pattern   |   a recommendation supported by evidence
+C414-4  What was wrong with recommending that promotion spending be cut? [select]
+Options: the first look understated the promotion effect, which the model later showed to be real   |   promotion spending is never worth cutting   |   the dataset was too small to say anything at all   |   the analyst lacked authority to recommend
+C414-5  The manager's question illustrates which step of the cycle? [select]
+Options: evaluate   |   model   |   prepare the data   |   deploy
+C414-6  On the correlation between cases sold and damaged pallets returned, the right response is: [select]
+Options: treat it as an association and ask whether either could plausibly cause the other, noting that more sales simply means more pallets   |   investigate it as a cause of demand   |   report it to the board as a finding   |   remove the pallet data from the dataset
+C414-7  The SQL clause that decides which rows are kept is ____.
+Choose the word or phrase for the blank: WHERE   |   SELECT   |   GROUP BY   |   ORDER BY
+Answers and explanations
+Section checks
+SC414-1  Answer A. A report answers a question somebody already had.
+B is wrong. Size is not the distinction.
+C is wrong. Both use computers.
+D is wrong. Mining requires continual human judgement.
+SC414-2  Answer D. Cause is established by mechanism or experiment, not by past records.
+A is wrong. Occurring together is not causing.
+B is wrong. Association is exactly what it finds.
+C is wrong. A larger dataset gives more associations, not more cause.
+SC414-3  Answer C. Duplicates, missing values and outliers each demand a judgement.
+A is wrong. A one-off decision.
+B is wrong. The smallest part of the work.
+D is wrong. A procurement matter.
+SC414-4  Answer B. No formula says the work is good enough.
+A is wrong. Payment is not the issue.
+C is wrong. Licensing is unrelated.
+D is wrong. Staleness is a different problem.
+SC414-5  Answer A. A first model that disappoints is the normal case.
+B is wrong. Repetition of a query is not iteration of the process.
+C is wrong. Loading is a technical routine.
+D is wrong. Reporting frequency is unrelated.
+SC414-6  Answer C. No method settles which question is worth asking.
+A is wrong. The technique follows from the question type.
+B is wrong. Testing is a defined procedure.
+D is wrong. A mechanical preprocessing step.
+SC414-7  Answer B. It is the standard language of the relational database.
+A is wrong. Dashboards are applications built on top of queries.
+C is wrong. Cleaning is preprocessing work.
+D is wrong. Modelling uses statistical tools.
+SC414-8  Answer D. The filter decides the answer.
+A is wrong. The same table served both.
+B is wrong. SQL is standard across tools.
+C is wrong. Possible, but the filter is the usual cause.
+SC414-9  Answer A. Nothing has been tested yet.
+B is wrong. A finding requires evaluation.
+C is wrong. Insight requires an explanation that has been tested.
+D is wrong. A recommendation on untested grounds is the error the example warns about.
+SC414-10  Answer B. Reporting after the first look would have wrongly cut promotion spending.
+A is wrong. Temperature did remain the stronger driver.
+C is wrong. The promotion effect had been understated.
+D is wrong. Both coefficients carry their expected signs.
+Your turn
+Item
+Answer
+Which columns to show
+SELECT — it names the output of the query
+Which rows to keep
+Why: WHERE filters the rows before anything is summarised, so it determines what the answer covers
+How to link a second table
+JOIN ... ON — it matches the two tables on the shared key of Chapter 10
+How to summarise by customer
+GROUP BY — it collapses many rows into one per group
+Multiple-choice questions
+P414-01  Answer C. It does not fit the pattern.
+A is wrong. That is a pattern.
+B is wrong. That is a grouping.
+D is wrong. That is a relationship.
+P414-02  Answer D. Association invites investigation, not action.
+A is wrong. Cause is not established by co-occurrence.
+B is wrong. A decision taken on association alone may be wrong.
+C is wrong. Nothing suggests an error.
+P414-03  Answer C. Chapter 11's obligations apply to the analyst too.
+A is wrong. Size is not restricted; purpose is.
+B is wrong. Residency rules point the other way.
+D is wrong. No publication requirement.
+P414-04  Answer A. Chapter 16 returns to it.
+B is wrong. Run time is a practical matter.
+C is wrong. More rows usually help.
+D is wrong. Explainability is a separate concern.
+P414-05  Answer B. Questions are never the scarce resource.
+A is wrong. The largest challenge.
+C is wrong. Worsens as data grows.
+D is wrong. Constrains what may be used.
+P414-06  Answer D. Iteration is built into the method.
+A is wrong. The data may be fine.
+B is wrong. Experienced analysts expect it.
+C is wrong. The question may still be the right one.
+P414-07  Answer D. The procedure can be written down.
+A is wrong. No formula settles it.
+B is wrong. Plausibility is judgement.
+C is wrong. The question is chosen, not derived.
+P414-08  Answer A. The loop is the method.
+B is wrong. Deploying an unconvincing result is the error.
+C is wrong. Sometimes, but not always the right return.
+D is wrong. Premature.
+P414-09  Answer C. It filters before anything is summarised.
+A is wrong. SELECT names the columns.
+B is wrong. GROUP BY summarises.
+D is wrong. ORDER BY sorts.
+P414-10  Answer B. Without the shared key the tables cannot be read together.
+A is wrong. Row counts are irrelevant.
+C is wrong. Loading time creates no link.
+D is wrong. Sorting is not a relationship.
+P414-11  Answer C. Understanding what was excluded is an accounting skill.
+A is wrong. Beyond the expectation.
+B is wrong. That is a database administrator's role.
+D is wrong. The filter affects every reported figure.
+P414-12  Answer B. Grouping collapses rows to the combination named.
+A is wrong. Quarter is in the grouping too.
+C is wrong. Grouping summarises.
+D is wrong. Sorting is ORDER BY.
+P414-13  Answer A. A question that changes nothing is not worth answering.
+B is wrong. Size does not make a question worthwhile.
+C is wrong. The technique follows the question.
+D is wrong. Convenience is not relevance.
+P414-14  Answer D. Eight observations is few, and saying so early is honest.
+A is wrong. Cost is trivial here.
+B is wrong. Models are how the hypothesis is tested.
+C is wrong. Preprocessing still has to happen.
+P414-15  Answer B. The promotion effect in the example was understated by the first look.
+A is wrong. Length is not the issue.
+C is wrong. The data is fixed.
+D is wrong. Software reliability is unrelated.
+P414-16  Answer C. A natural cluster within the data.
+A is wrong. An anomaly does not fit the pattern.
+B is wrong. A relationship links variables, not cases.
+D is wrong. No cause has been established.
+Case question: the analyst who reported too early
+C414-1
+Stage of the work
+Category
+Asking whether the shift schedule should change
+Understand the business
+Transforming dates into quarters
+Prepare the data
+Fitting the regression
+Model
+Asking whether the relationship has been tested
+Evaluate
+Classify each activity by its step in the mining cycle.
+C414-2  Answer: 8.
+2 is wrong: this answer that is the number of years, not of quarters.
+3 is wrong: this answer that is the number of driver variables.
+C414-3  Answer: a hypothesis, because nothing had been tested.
+a finding, because the pattern was clear is wrong: this answer clarity is not evidence; the relationship was untested.
+an insight, because she had explained the pattern is wrong: this answer a proposed explanation is not a tested one.
+a recommendation supported by evidence is wrong: this answer the evidence came only after the regression.
+C414-4  Answer: the first look understated the promotion effect, which the model later showed to be real.
+promotion spending is never worth cutting is wrong: this answer it might be, on evidence; the objection is that there was none.
+the dataset was too small to say anything at all is wrong: this answer eight quarters is few but the model was still informative.
+the analyst lacked authority to recommend is wrong: this answer analysts may recommend; the basis was the problem.
+C414-5  Answer: evaluate.
+model is wrong: this answer no model existed at that point.
+prepare the data is wrong: this answer preparation was already complete.
+deploy is wrong: this answer deployment is putting a tested result where a decision is made.
+C414-6  Answer: treat it as an association and ask whether either could plausibly cause the other, noting that more sales simply means more pallets.
+investigate it as a cause of demand is wrong: this answer the causation plainly runs the other way, if it runs at all.
+report it to the board as a finding is wrong: this answer an untested association is not a finding.
+remove the pallet data from the dataset is wrong: this answer the data is legitimate; the inference was not.
+C414-7  Answer: WHERE.
+SELECT is wrong: this answer SELECT names the columns to show.
+GROUP BY is wrong: this answer GROUP BY summarises rows into groups.
+ORDER BY is wrong: this answer ORDER BY sorts the answer.
+PART IV — DATA ANALYTICS

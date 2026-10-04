@@ -1,0 +1,693 @@
+Chapter 4
+Sarbanes-Oxley, the PCAOB and the Foreign Corrupt Practices Act
+قانون ساربينز-أوكسلي ومجلس الرقابة وقانون الممارسات الأجنبية الفاسدة
+The first three chapters described controls that a sensible company would want anyway. This chapter is about the controls a company must have because the law says so, and about the body that decides how auditors test them.
+Figure F404-01 shows the three sources.
+Figure F404-01. Chapter 4 roadmap: Sarbanes-Oxley, the PCAOB, the FCPA.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.1.p
+describe the major internal control provisions of the Sarbanes-Oxley Act
+Describe the major internal control provisions of the Sarbanes-Oxley Act.
+Full treatment
+E.1.q
+identify the role of the Public Company Accounting Oversight Board (PCAOB) in providing guidance on the auditing of internal controls
+Identify the role of the PCAOB in providing guidance on auditing internal control.
+Full treatment
+E.1.r
+differentiate between a top-down (risk-based) approach and a bottom-up approach to auditing internal controls
+Differentiate between a top-down, risk-based approach and a bottom-up approach to auditing internal controls.
+Full treatment + Extended Example
+E.1.s
+identify the PCAOB preferred approach to auditing internal controls
+Identify the PCAOB's preferred approach to auditing internal controls.
+Full treatment
+E.1.t
+identify and describe the major internal control provisions of the Foreign Corrupt Practices Act
+Identify and describe the major internal control provisions of the Foreign Corrupt Practices Act.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+Sarbanes-Oxley Act
+قانون ساربينز-أوكسلي
+loi Sarbanes-Oxley
+internal control over financial reporting (ICFR)
+الرقابة الداخلية على التقارير المالية
+contrôle interne de l'information financière
+Public Company Accounting Oversight Board (PCAOB)
+مجلس الرقابة على محاسبة الشركات العامة
+conseil de surveillance de la comptabilité
+accelerated filer
+الجهة المصدرة المعجلة
+déposant accéléré
+top-down approach
+النهج من الأعلى إلى الأسفل
+approche descendante
+bottom-up approach
+النهج من الأسفل إلى الأعلى
+approche ascendante
+Foreign Corrupt Practices Act (FCPA)
+قانون الممارسات الأجنبية الفاسدة
+loi sur les pratiques de corruption à l'étranger
+internal accounting controls
+ضوابط المحاسبة الداخلية
+contrôles comptables internes
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 2 said the audit committee appoints the external auditor. The Sarbanes-Oxley Act is where that requirement comes from, along with the certifications the CEO and CFO sign.
+4.1  The Sarbanes-Oxley sections that matter
+The Sarbanes-Oxley Act of 2002 followed a run of accounting failures. Five of its sections concern internal control directly, and Figure F404-02 sets them out.
+Figure F404-02. The Sarbanes-Oxley sections that concern internal control
+Section
+What it requires
+Who it binds
+302
+Certify each quarterly and annual report: it fairly presents, we are responsible for controls, and we have disclosed deficiencies and fraud
+CEO and CFO
+404(a)
+Annual management report assessing the effectiveness of internal control over financial reporting
+Management of every issuer
+404(b)
+Auditor attests to and reports on internal control, in an integrated audit
+Auditors of accelerated and large accelerated filers
+906
+Criminal certification. Knowing violation up to $1m and 10 years; willful up to $5m and 20 years
+CEO and CFO
+802
+Destroying or falsifying records to obstruct an investigation, up to 20 years; auditors retain workpapers
+Anyone; auditors for the retention rule
+Section 302 and Section 906 both require the CEO and CFO to certify, and candidates often ask why there are two. Section 302 is the civil certification about the content of the report and the controls behind it. Section 906 is the criminal one, carrying up to twenty years for a willful violation.
+Section 404 has two halves that are often confused. Part (a) requires management to assess internal control over financial reporting each year. Part (b) requires the external auditor to attest to it, and that half does not apply to every company.
+COMMON ERROR IN OTHER BOOKS   'Auditors must keep workpapers for seven years'
+The statute, Section 802 says five years. The SEC's own rule and the PCAOB's standard then require seven. Both numbers are correct in their place, and a question may test either. Say five if asked about the Act, and seven if asked about the SEC or PCAOB requirement.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Sarbanes-Oxley Act
+قانون ساربينز-أوكسلي
+loi Sarbanes-Oxley
+internal control over financial reporting (ICFR)
+الرقابة الداخلية على التقارير المالية
+contrôle interne de l'information financière
+English (exam term)
+العربية
+Français
+Sarbanes-Oxley Act
+قانون ساربينز-أوكسلي
+loi Sarbanes-Oxley
+internal control over financial reporting (ICFR)
+الرقابة الداخلية على التقارير المالية
+contrôle interne de l'information financière
+SECTION CHECK   Test yourself
+SC404-1  Which section requires the CEO and CFO to certify that the report fairly presents and that they are responsible for internal control?
+A.	Section 404(a)
+B.	Section 302
+C.	Section 802
+D.	Section 906
+SC404-2  How long must auditors retain workpapers under the statute itself, section 802?
+A.	Seven years
+B.	Three years
+C.	Five years
+D.	Ten years
+Answers and explanations are at the end of the chapter.
+4.2  Who must obtain an auditor attestation
+Section 404(b) binds accelerated filers and large accelerated filers. Non-accelerated filers were permanently exempted by the Dodd-Frank Act in 2010. Figure F404-03 shows the division, and records a proposal that has not been adopted.
+Figure F404-03. Who must obtain an auditor attestation on internal control.
+COMMON ERROR IN OTHER BOOKS   'Smaller reporting companies are exempt from 404(b)'
+Only if they are also non-accelerated. Since the SEC's 2020 amendments the two labels overlap but are not the same. A smaller reporting company with a float of $75 million or more, and revenue of $100 million or more, is still an accelerated filer and still needs the attestation.
+WATCH: NOT YET TESTABLE   As of October 2026
+In May 2026 the SEC proposed raising the large accelerated threshold to $2 billion. It would also remove the accelerated filer and smaller reporting company categories, leaving about 81% of companies exempt from the Section 404 attestation. It had not been adopted when this book went to review. Learn the current rules, and expect the exam to test the principle rather than the threshold.
+SECTION CHECK   Test yourself
+SC404-3  Which companies must obtain an auditor attestation on internal control under 404(b)?
+A.	All issuers
+B.	Only large accelerated filers
+C.	Only companies with a material weakness
+D.	Accelerated and large accelerated filers
+SC404-4  A smaller reporting company has a public float of $90 million and revenue of $140 million. Is it exempt from 404(b)?
+A.	No, because it is still an accelerated filer
+B.	Yes, because it is a smaller reporting company
+C.	Yes, because its float is below $700 million
+D.	Only if it has no material weakness
+Answers and explanations are at the end of the chapter.
+4.3  What the PCAOB does
+The Public Company Accounting Oversight Board was created by the Act itself. Before 2002 the audit profession set its own standards and inspected itself; the PCAOB replaced that arrangement. Figure F404-04 sets out its four roles.
+Figure F404-04. What the PCAOB does
+PCAOB role (E.1.q)
+What it does
+Why it matters
+Registration
+Audit firms of issuers must register with the PCAOB
+No registration, no audit of a public company
+Standard setting
+Issues auditing standards, subject to SEC approval
+AS 2201 governs the audit of internal control
+Inspection
+Inspects registered firms' audit work
+Findings drive firm-wide remediation
+Enforcement
+Investigates and disciplines firms and individuals
+Sanctions up to barring an auditor
+For this chapter the second role is the one that matters. The PCAOB issues the auditing standards, subject to approval by the SEC, and the standard governing an audit of internal control over financial reporting is AS 2201.
+COMMON ERROR IN OTHER BOOKS   'Auditing Standard No. 5'
+Many study guides still call it AS No. 5. The PCAOB renumbered its standards in 2016 and it is now AS 2201. The content did not change, but the old name signals a book that has not been updated.
+A second point is worth knowing because candidates mix it up. The SEC gives guidance to management on its own 404(a) assessment; the PCAOB gives guidance to auditors on the 404(b) attestation. Different bodies, different audiences, same subject.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Public Company Accounting Oversight Board (PCAOB)
+مجلس الرقابة على محاسبة الشركات العامة
+conseil de surveillance de la comptabilité
+accelerated filer
+الجهة المصدرة المعجلة
+déposant accéléré
+English (exam term)
+العربية
+Français
+Public Company Accounting Oversight Board (PCAOB)
+مجلس الرقابة على محاسبة الشركات العامة
+conseil de surveillance de la comptabilité
+accelerated filer
+الجهة المصدرة المعجلة
+déposant accéléré
+SECTION CHECK   Test yourself
+SC404-5  Which body issues the auditing standards for audits of public companies?
+A.	The AICPA
+B.	The PCAOB, subject to SEC approval
+C.	The FASB
+D.	COSO
+SC404-6  Guidance to MANAGEMENT on its own 404(a) assessment comes from:
+A.	the SEC
+B.	the PCAOB
+C.	COSO
+D.	the audit committee
+Answers and explanations are at the end of the chapter.
+4.4  Top-down against bottom-up
+AS 2201 requires the auditor to use a top-down approach to select the controls to test. This is the PCAOB's required and preferred approach, and the exam asks for it by name.
+Figure F404-05. The five steps of the top-down, risk-based approach.
+Figure F404-05 shows the five steps. The auditor starts at the financial statements and the risk of material misstatement. From there the path runs to entity-level controls, then to significant accounts and their assertions, then to the likely sources of misstatement. Only then are the controls selected.
+A bottom-up approach does the opposite. It starts with a list of controls and tests them, hoping that the coverage turns out to be adequate. Figure F404-06 compares the two directly.
+Figure F404-06. Top-down against bottom-up
+Top-down, risk-based
+Bottom-up
+Starting point
+The financial statements and the risk of material misstatement
+Individual process-level controls
+Direction
+From risk down to the controls that address it
+From the controls up to whatever they happen to cover
+Scope
+Only controls that address an identified risk
+Potentially every control in the company
+Entity-level controls
+Tested first, and may reduce testing below
+Often tested last or not at all
+Cost and evidence
+Less testing, better targeted
+More testing, much of it irrelevant
+PCAOB position
+Required by AS 2201.21
+Not the standard
+The difference is not merely efficiency, though a top-down audit does cost less. It is about evidence. A bottom-up audit can test a hundred controls and still miss the one that matters, because nothing in the method connects the testing to the risk.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+top-down approach
+النهج من الأعلى إلى الأسفل
+approche descendante
+bottom-up approach
+النهج من الأسفل إلى الأعلى
+approche ascendante
+English (exam term)
+العربية
+Français
+top-down approach
+النهج من الأعلى إلى الأسفل
+approche descendante
+bottom-up approach
+النهج من الأسفل إلى الأعلى
+approche ascendante
+SECTION CHECK   Test yourself
+SC404-7  Which approach does the PCAOB require for selecting controls to test?
+A.	Bottom-up
+B.	Either, at the auditor's discretion
+C.	Top-down, risk-based
+D.	Statistical sampling of all controls
+SC404-8  An audit plan begins by listing every control in the purchasing cycle and testing each in turn. How should this be judged?
+A.	Top-down, because it is thorough
+B.	Acceptable, because more testing is always better
+C.	Top-down, because purchasing is a significant account
+D.	Bottom-up: it may test many controls and still miss the one that matters
+Answers and explanations are at the end of the chapter.
+4.5  The Foreign Corrupt Practices Act
+The Foreign Corrupt Practices Act of 1977 has two sets of provisions, and only one of them is about bribery. Figure F404-07 sets them out.
+Figure F404-07. The two sets of FCPA provisions
+FCPA provision (E.1.t)
+What it says
+Who it binds
+Anti-bribery
+Prohibits corruptly offering anything of value to a foreign official to obtain or keep business
+Issuers, domestic concerns, and others acting in U.S. territory
+Books and records
+Keep books in reasonable detail that accurately and fairly reflect transactions and dispositions of assets
+Issuers only
+Internal accounting controls
+Maintain a system giving reasonable assurance over authorization, recording, access and periodic comparison
+Issuers only
+Exception
+Facilitating payments for routine governmental action, such as processing a visa
+Narrowly read
+Defenses
+The payment was lawful under written local law; or a reasonable bona fide expenditure
+Two affirmative defenses
+The accounting provisions are the ones this exam cares about. They require an issuer to keep books in reasonable detail that accurately and fairly reflect its transactions. They also require a system of internal accounting controls giving reasonable assurance over four things: that transactions are authorized; that they are recorded so that statements can be prepared; that access to assets is authorized; and that recorded assets are compared with actual assets at reasonable intervals.
+Two points follow that are easy to miss. The accounting provisions bind issuers only, while the anti-bribery provisions reach much wider. And a company can breach the accounting provisions with no bribe anywhere in the picture, because poor records and weak controls are themselves the offence.
+EXAM TRAP   The FCPA does not require COSO
+The Act requires a system of internal accounting controls giving reasonable assurance over the four matters listed above. It names no framework. Most companies use COSO because it is the recognised one, not because the FCPA says so.
+WATCH: NOT YET TESTABLE   As of October 2026
+The statute has not changed. Enforcement has. It was paused in February 2025 and restarted in June 2025 under Department of Justice guidelines setting four priorities, with a further policy in March 2026. Separately, the Foreign Extortion Prevention Act of December 2023 made it a crime for a foreign official to demand a bribe. Expect the exam to test the statute rather than the enforcement posture.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+Foreign Corrupt Practices Act (FCPA)
+قانون الممارسات الأجنبية الفاسدة
+loi sur les pratiques de corruption à l'étranger
+internal accounting controls
+ضوابط المحاسبة الداخلية
+contrôles comptables internes
+English (exam term)
+العربية
+Français
+Foreign Corrupt Practices Act (FCPA)
+قانون الممارسات الأجنبية الفاسدة
+loi sur les pratiques de corruption à l'étranger
+internal accounting controls
+ضوابط المحاسبة الداخلية
+contrôles comptables internes
+SECTION CHECK   Test yourself
+SC404-9  The FCPA accounting provisions apply to:
+A.	all U.S. companies
+B.	issuers only
+C.	any company trading abroad
+D.	foreign officials
+SC404-10  Can a company breach the FCPA accounting provisions without any bribe having been paid?
+A.	Yes: inaccurate books or inadequate accounting controls are themselves the offence
+B.	No, a bribe is always required
+C.	Only if a foreign official was involved
+D.	Only if the SEC proves intent to bribe
+Answers and explanations are at the end of the chapter.
+4.6  Extended Example 4A: planning an audit of the Orontes controls
+This example walks the top-down approach through one Orontes audit and shows what a bottom-up auditor would have done instead. It is exam-core, and E.1.r is one of only six Level C outcomes in this book, so expect to be asked to judge rather than recall.
+1. Step one: the financial statements
+The auditor starts by asking where a material misstatement could appear in the Orontes statements. Inventory is large and includes spices that are valuable and portable. Revenue includes Gulf export sales with unusual terms. Those two attract attention; the small items do not.
+2. Step two: entity-level controls
+Next the auditor tests the controls that run across everything: the control environment described in Chapter 1, the period-end reporting process, and the controls over management override. Strong entity-level controls can reduce the testing needed below, which is why they come second and not last.
+3. Step three: significant accounts and assertions
+Inventory is a significant account, but not every assertion about it matters equally. Existence is the assertion at risk for portable spices; valuation matters for slow-moving stock. The auditor names the assertion, not just the account.
+4. Step four: likely sources of misstatement
+How could inventory existence actually go wrong at Orontes? Stock could be removed from the spice store and the record adjusted, which is the pairing Chapter 3 examined. That is a specific, testable route, not a general worry.
+5. Step five: the controls to test
+Only now does the auditor choose: the separation of the storekeeper from the stock records, the independent count, and the reconciliation of depot records to plant dispatches. Three controls, each tied to an identified risk.
+6. What a bottom-up auditor would have done
+A bottom-up auditor would have asked for the list of controls and started testing. Many hours would go on purchase order approvals and payroll authorisations, which are real controls over immaterial risks. The spice store might be reached eventually, and might not. Nothing in the method would reveal the gap.
+7. Your turn
+YOUR TURN   Match each requirement to its SOX section
+Complete the blank cells of Figure F404-08. Answers are at the end of the chapter.
+Figure F404-08. Your turn: match the requirement to the section (complete the blanks)
+Requirement
+Which SOX section?
+Note
+The CEO and CFO certify the annual report
+________
+Both officers sign
+Management assesses internal control each year
+404(a)
+________
+The auditor reports on internal control
+________
+Only for accelerated and large accelerated filers
+Destroying records to obstruct an investigation
+________
+Up to 20 years
+8. What is current and what is proposed
+Figure F404-09 separates the rules in force from those still under consideration. The distinction matters for an exam candidate: answer on current law unless a question says otherwise.
+Figure F404-09. What is current law and what is only proposed
+Item
+What it says
+Source
+Status
+404(b) exemption
+Non-accelerated filers exempt; an SRC qualifies only if also non-accelerated
+SEC amendments, April 2020
+current law
+Filer thresholds
+Would raise large accelerated to $2bn and remove the SRC category
+SEC Release 33-11419, 19 May 2026
+PROPOSED only
+PCAOB QC 1000
+A firm's system of quality control
+Adopted May 2024, postponed to 15 Dec 2026
+not yet effective
+Technology-assisted analysis
+Amendments to AS 1105 and AS 2301
+Adopted June 2024
+effective for years from 15 Dec 2025
+FCPA enforcement
+Paused Feb 2025; restarted under DOJ Guidelines of June 2025 with four priorities
+DOJ
+statute unchanged
+9. Tie line
+WORKED EXAMPLE   The pattern behind the approach
+Start at the statements, because that is where materiality is decided.
+Test entity-level controls early, because they can reduce work below.
+Name the assertion at risk, not just the account.
+Select controls last, and only those addressing an identified risk.
+10. How the exam asks it
+EXAM TRAP   Exam view
+A question may describe an audit plan and ask whether it is top-down. Look at where it starts. If the first step is a list of controls, it is bottom-up, whatever it is called. If the first step is the risk of material misstatement, it is top-down.
+11. Self-check
+SECTION CHECK   Test yourself
+SC404-11  Use Extended Example 4A. Why does the auditor test entity-level controls at step two rather than last?
+A.	Because they are the easiest to test
+B.	Because the PCAOB inspects them first
+C.	Because strong entity-level controls can reduce the testing needed below them
+D.	Because they are the only controls management documents
+SC404-12  Use Extended Example 4A. What does naming the assertion, rather than just the account, achieve?
+A.	It satisfies a disclosure requirement
+B.	It reduces the materiality threshold
+C.	It transfers the work to management
+D.	It identifies which specific risk the controls must address, such as existence rather than valuation
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F404-10 brings the chapter together.
+Figure F404-10. Chapter 4 summary map: the key rule for each section.
+Sarbanes-Oxley requires the CEO and CFO to certify reports under section 302 and, criminally, under section 906; management to assess internal control annually under 404(a); and the auditor to attest under 404(b) for accelerated and large accelerated filers only. Section 802 governs record retention. The PCAOB registers, inspects, disciplines and sets standards for auditors of issuers, and its AS 2201 requires a top-down, risk-based approach that starts at the financial statements and ends at the controls to test. The Foreign Corrupt Practices Act prohibits bribery of foreign officials and, for issuers, requires accurate books and a system of internal accounting controls.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P404-01  Section 404(a) requires:
+A.	the auditor to attest to internal control
+B.	the CEO to certify the quarterly report
+C.	management to assess internal control over financial reporting each year
+D.	auditors to retain workpapers
+P404-02  What distinguishes section 906 from section 302?
+A.	906 is the criminal certification, carrying imprisonment for a willful violation
+B.	906 applies only to the CFO
+C.	906 applies only to annual reports
+D.	906 concerns record retention
+P404-03  Which exempted non-accelerated filers permanently from 404(b)?
+A.	The Sarbanes-Oxley Act itself
+B.	The SEC's 2026 proposal
+C.	The JOBS Act of 2012
+D.	The Dodd-Frank Act of 2010
+P404-04  Under the SEC's own rule, how long must auditors keep workpapers?
+A.	Five years
+B.	Seven years
+C.	Three years
+D.	Indefinitely
+P404-05  Which is NOT a role of the PCAOB?
+A.	Registering audit firms
+B.	Setting accounting standards
+C.	Inspecting audit work
+D.	Disciplining auditors
+P404-06  Which standard governs the audit of internal control over financial reporting?
+A.	AS 2201
+B.	AS No. 5, under its current name
+C.	COSO 2013
+D.	ASC 404
+P404-07  The first step of the top-down approach is:
+A.	listing the controls in each cycle
+B.	testing entity-level controls
+C.	the financial statements and the risk of material misstatement
+D.	selecting a sample of transactions
+P404-08  An auditor claims that testing more controls always gives better evidence. How should this be judged?
+A.	Right, because coverage is what matters
+B.	Right, provided the sample sizes are large
+C.	Wrong, because testing is expensive
+D.	Wrong: evidence depends on whether the controls tested address identified risks
+P404-09  In the top-down approach, where do entity-level controls sit?
+A.	Last, after all process controls
+B.	They are not tested
+C.	Only if a material weakness is suspected
+D.	Step two, before significant accounts are considered
+P404-10  Which best describes the scope of testing under a top-down approach?
+A.	Only controls that address an identified risk of material misstatement
+B.	Every control the company operates
+C.	A fixed percentage of controls in each cycle
+D.	Controls chosen at random
+P404-11  Which is one of the four matters the FCPA internal accounting controls must give reasonable assurance about?
+A.	The company uses the COSO framework
+B.	Recorded assets are compared with existing assets at reasonable intervals
+C.	No facilitating payments are made
+D.	The audit committee meets quarterly
+P404-12  The FCPA facilitating payments exception covers:
+A.	any payment under a stated amount
+B.	payments made through an agent
+C.	routine governmental action, such as processing a visa
+D.	payments disclosed in the accounts
+P404-13  Which statement about the FCPA anti-bribery provisions is correct?
+A.	They apply to issuers only
+B.	They apply only outside the United States
+C.	They reach issuers, domestic concerns and others acting in U.S. territory
+D.	They were repealed in 2025
+P404-14  Section 802 principally concerns:
+A.	destroying or falsifying records to obstruct an investigation, and record retention
+B.	management's assessment of internal control
+C.	the independence of the audit committee
+D.	the auditor's attestation
+P404-15  Why was the PCAOB created?
+A.	Because the SEC was abolished
+B.	To replace the FASB
+C.	To audit public companies directly
+D.	Because the audit profession had previously set its own standards and inspected itself
+P404-16  As at October 2026, the SEC's proposal to raise filer thresholds is:
+A.	in force from May 2026
+B.	proposed but not adopted, so current rules still apply
+C.	withdrawn
+D.	in force for large accelerated filers only
+Case question: the filer that thought it was exempt
+Cedar Foods is a U.S.-listed food company and a competitor of Orontes in the Gulf. Its public float is 90 million dollars and its annual revenue is 140 million dollars. Its chief financial officer has told the board that, as a smaller reporting company, Cedar is exempt from the auditor attestation on internal control and need only file management's own assessment.
+Cedar's auditor disagrees and has proposed an integrated audit. The audit plan the firm has submitted begins by listing every control in the revenue and purchasing cycles and testing each one in sequence, working upward from there.
+Separately, Cedar's Gulf subsidiary has been paying a local agent to speed up customs clearance. The payments are recorded in the books as consultancy fees. No bribe has been alleged, and the agent says the payments simply cover processing. Cedar's accounting records do not describe what the payments were for.
+The board has asked its new controller to advise on three questions: whether Cedar is in fact exempt from the attestation, whether the audit plan follows the required approach, and whether the Gulf payments raise any issue under United States law.
+Use the scenario above for items C404-1 to C404-7.
+How to enter answers: Select one option for each item.
+C404-1  Classify each requirement. (On the exam screen you would drag each item into a box.)
+Categories: Sarbanes-Oxley · PCAOB standard · Foreign Corrupt Practices Act
+Requirement
+Category
+Management must assess internal control annually
+The auditor must use a top-down approach
+Books must accurately and fairly reflect transactions
+The CEO and CFO must certify the annual report
+C404-2  Is Cedar exempt from the section 404(b) auditor attestation? [select]
+Options: No, because with a float of $75m or more and revenue of $100m or more it is still an accelerated filer   |   Yes, because it is a smaller reporting company   |   Yes, because its float is below $700 million   |   Only if its management assessment finds no material weakness
+C404-3  The audit plan, which begins by listing every control and testing each in sequence, is: [select]
+Options: bottom-up, and so not the approach AS 2201 requires   |   top-down, because it is comprehensive   |   top-down, because it covers significant accounts   |   acceptable either way, at the auditor's discretion
+C404-4  What should the audit plan have started with instead? [select]
+Options: the financial statements and where a material misstatement could appear   |   the list of entity-level controls   |   a sample of transactions from each cycle   |   management's own assessment
+C404-5  On the Gulf payments, the controller should advise that: [select]
+Options: recording them as consultancy fees without describing their purpose may breach the FCPA accounting provisions, whether or not any bribe occurred   |   there is no issue, because no bribe has been alleged   |   the FCPA does not apply because the payments were made outside the United States   |   the payments are lawful because they were disclosed in the accounts
+C404-6  Which statement about the FCPA's requirements for Cedar is correct? [select]
+Options: as an issuer, Cedar must keep books in reasonable detail and maintain internal accounting controls   |   Cedar must adopt the COSO framework   |   the accounting provisions apply only if a foreign official received money   |   the accounting provisions apply to Cedar's agent as well
+C404-7  The standard that requires a top-down, risk-based audit of internal control is AS ____.
+Choose the word or phrase for the blank: 2201   |   No. 5   |   1105   |   6115
+Case question: the filer that thought it was exempt
+Cedar Foods is a U.S.-listed food company and a competitor of Orontes in the Gulf. Its public float is 90 million dollars and its annual revenue is 140 million dollars. Its chief financial officer has told the board that, as a smaller reporting company, Cedar is exempt from the auditor attestation on internal control and need only file management's own assessment.
+Cedar's auditor disagrees and has proposed an integrated audit. The audit plan the firm has submitted begins by listing every control in the revenue and purchasing cycles and testing each one in sequence, working upward from there.
+Separately, Cedar's Gulf subsidiary has been paying a local agent to speed up customs clearance. The payments are recorded in the books as consultancy fees. No bribe has been alleged, and the agent says the payments simply cover processing. Cedar's accounting records do not describe what the payments were for.
+The board has asked its new controller to advise on three questions: whether Cedar is in fact exempt from the attestation, whether the audit plan follows the required approach, and whether the Gulf payments raise any issue under United States law.
+Use the scenario above for items C404-1 to C404-7.
+How to enter answers: Select one option for each item.
+C404-1  Classify each requirement. (On the exam screen you would drag each item into a box.)
+Categories: Sarbanes-Oxley · PCAOB standard · Foreign Corrupt Practices Act
+Requirement
+Category
+Management must assess internal control annually
+The auditor must use a top-down approach
+Books must accurately and fairly reflect transactions
+The CEO and CFO must certify the annual report
+C404-2  Is Cedar exempt from the section 404(b) auditor attestation? [select]
+Options: No, because with a float of $75m or more and revenue of $100m or more it is still an accelerated filer   |   Yes, because it is a smaller reporting company   |   Yes, because its float is below $700 million   |   Only if its management assessment finds no material weakness
+C404-3  The audit plan, which begins by listing every control and testing each in sequence, is: [select]
+Options: bottom-up, and so not the approach AS 2201 requires   |   top-down, because it is comprehensive   |   top-down, because it covers significant accounts   |   acceptable either way, at the auditor's discretion
+C404-4  What should the audit plan have started with instead? [select]
+Options: the financial statements and where a material misstatement could appear   |   the list of entity-level controls   |   a sample of transactions from each cycle   |   management's own assessment
+C404-5  On the Gulf payments, the controller should advise that: [select]
+Options: recording them as consultancy fees without describing their purpose may breach the FCPA accounting provisions, whether or not any bribe occurred   |   there is no issue, because no bribe has been alleged   |   the FCPA does not apply because the payments were made outside the United States   |   the payments are lawful because they were disclosed in the accounts
+C404-6  Which statement about the FCPA's requirements for Cedar is correct? [select]
+Options: as an issuer, Cedar must keep books in reasonable detail and maintain internal accounting controls   |   Cedar must adopt the COSO framework   |   the accounting provisions apply only if a foreign official received money   |   the accounting provisions apply to Cedar's agent as well
+C404-7  The standard that requires a top-down, risk-based audit of internal control is AS ____.
+Choose the word or phrase for the blank: 2201   |   No. 5   |   1105   |   6115
+Answers and explanations
+Section checks
+SC404-1  Answer B. The civil certification covers the report and the controls behind it.
+A is wrong. That is management's annual assessment of control.
+C is wrong. That concerns records and their destruction.
+D is wrong. That is the criminal certification.
+SC404-2  Answer C. The SEC rule and the PCAOB standard then require seven.
+A is wrong. That is the SEC and PCAOB requirement, not the statute.
+B is wrong. No source gives three.
+D is wrong. No source gives ten.
+SC404-3  Answer D. Non-accelerated filers were permanently exempted by Dodd-Frank.
+A is wrong. Non-accelerated filers are exempt.
+B is wrong. Accelerated filers are included too.
+C is wrong. The obligation does not depend on the result.
+SC404-4  Answer A. Float of $75m or more with revenue of $100m or more keeps accelerated status.
+B is wrong. The two labels overlap but are not the same.
+C is wrong. That threshold separates large accelerated from accelerated.
+D is wrong. The result does not change the obligation.
+SC404-5  Answer B. The Act transferred standard setting from the profession to the PCAOB.
+A is wrong. The AICPA sets standards for non-issuer audits.
+C is wrong. The FASB sets accounting standards.
+D is wrong. COSO publishes a control framework, not auditing standards.
+SC404-6  Answer A. The PCAOB guides auditors; the SEC guides management.
+B is wrong. The PCAOB's audience is the auditor.
+C is wrong. COSO supplies a framework, not regulatory guidance.
+D is wrong. The committee oversees; it does not issue guidance.
+SC404-7  Answer C. AS 2201 requires it.
+A is wrong. That is the approach the standard rejects.
+B is wrong. The standard is not optional.
+D is wrong. Sampling is a technique, not an approach to selection.
+SC404-8  Answer D. Nothing in the method connects the testing to the risk.
+A is wrong. Starting from a control list is the definition of bottom-up.
+B is wrong. More testing of the wrong controls proves less, not more.
+C is wrong. Naming an account afterwards does not make the plan top-down.
+SC404-9  Answer B. The anti-bribery provisions reach wider; the accounting provisions do not.
+A is wrong. Private companies are outside the accounting provisions.
+C is wrong. Trading abroad does not bring a company within them.
+D is wrong. Officials are covered by a separate 2023 statute.
+SC404-10  Answer A. The two sets of provisions operate independently.
+B is wrong. The accounting provisions stand on their own.
+C is wrong. No official need be involved.
+D is wrong. Intent to bribe belongs to the other provisions.
+SC404-11  Answer C. Their strength changes how much work the rest of the audit needs.
+A is wrong. Ease is not the reason for the ordering.
+B is wrong. Inspection order is unrelated.
+D is wrong. Management documents far more than these.
+SC404-12  Answer D. Different assertions call for different controls.
+A is wrong. This is audit planning, not disclosure.
+B is wrong. Materiality is decided separately.
+C is wrong. The auditor's work remains the auditor's.
+Your turn
+Item
+Answer
+The CEO and CFO certify the annual report
+Section 302 — the civil certification covering the report and the controls behind it
+Management assesses internal control each year
+Why: 404(a) places the assessment on management of every issuer, whatever its filer status
+The auditor reports on internal control
+Section 404(b) — and only for accelerated and large accelerated filers
+Destroying records to obstruct an investigation
+Section 802 — up to twenty years
+Multiple-choice questions
+P404-01  Answer C. Part (a) is management's own assessment.
+A is wrong. That is part (b).
+B is wrong. That is section 302.
+D is wrong. That is section 802.
+P404-02  Answer A. Up to twenty years for a willful violation.
+B is wrong. Both officers certify under both sections.
+C is wrong. Scope is not the distinction.
+D is wrong. That is section 802.
+P404-03  Answer D. Section 989G made the exemption permanent.
+A is wrong. SOX imposed the requirement; Dodd-Frank created the exemption.
+B is wrong. That proposal has not been adopted.
+C is wrong. The JOBS Act gave emerging growth companies a temporary exemption.
+P404-04  Answer B. The statute says five; the SEC rule and PCAOB standard say seven.
+A is wrong. Five is the statutory figure in section 802.
+C is wrong. No source gives three.
+D is wrong. The requirement is finite.
+P404-05  Answer B. Accounting standards are the FASB's.
+A is wrong. A PCAOB role.
+C is wrong. A PCAOB role.
+D is wrong. A PCAOB role.
+P404-06  Answer A. Renumbered from AS No. 5 in 2016.
+B is wrong. AS No. 5 is the former name, not the current one.
+C is wrong. COSO is a control framework, not an auditing standard.
+D is wrong. No such codification reference exists.
+P404-07  Answer C. Everything else follows from where a material misstatement could appear.
+A is wrong. That is the bottom-up starting point.
+B is wrong. That is step two.
+D is wrong. Sampling comes much later.
+P404-08  Answer D. Relevance, not volume, determines the strength of the evidence.
+A is wrong. Coverage of irrelevant controls proves nothing.
+B is wrong. A large sample of the wrong control is still the wrong control.
+C is wrong. Cost is real but is not the main objection.
+P404-09  Answer D. Their strength can reduce the testing needed below.
+A is wrong. That reverses the method.
+B is wrong. They are explicitly part of the approach.
+C is wrong. They are tested in every integrated audit.
+P404-10  Answer A. Selection follows from the risks identified in the earlier steps.
+B is wrong. That is the bottom-up scope.
+C is wrong. No percentage rule exists.
+D is wrong. Random selection ignores risk.
+P404-11  Answer B. Periodic comparison is one of the four.
+A is wrong. The Act names no framework.
+C is wrong. Facilitating payments are an anti-bribery matter.
+D is wrong. Committee practice comes from SOX and the exchanges.
+P404-12  Answer C. The exception is narrow and does not cover discretionary decisions.
+A is wrong. There is no monetary threshold.
+B is wrong. Using an agent does not create an exception.
+D is wrong. Disclosure does not legitimise a bribe.
+P404-13  Answer C. Their reach is wider than the accounting provisions.
+A is wrong. That describes the accounting provisions.
+B is wrong. Acts in U.S. territory are covered.
+D is wrong. Enforcement policy changed; the statute did not.
+P404-14  Answer A. It carries up to twenty years for obstruction.
+B is wrong. That is 404(a).
+C is wrong. That is section 301.
+D is wrong. That is 404(b).
+P404-15  Answer D. The Act replaced self-regulation with independent oversight.
+A is wrong. The SEC continues and must approve PCAOB standards.
+B is wrong. The FASB still sets accounting standards.
+C is wrong. The PCAOB oversees auditors; it does not audit companies.
+P404-16  Answer B. Answer on current law unless a question says otherwise.
+A is wrong. Proposal is not adoption.
+C is wrong. It had not been withdrawn.
+D is wrong. Nothing has taken effect.
+Case question: the filer that thought it was exempt
+C404-1
+Requirement
+Category
+Management must assess internal control annually
+Sarbanes-Oxley
+The auditor must use a top-down approach
+PCAOB standard
+Books must accurately and fairly reflect transactions
+Foreign Corrupt Practices Act
+The CEO and CFO must certify the annual report
+Sarbanes-Oxley
+Classify each requirement by the source that imposes it.
+C404-2  Answer: No, because with a float of $75m or more and revenue of $100m or more it is still an accelerated filer.
+Yes, because it is a smaller reporting company is wrong: this answer the two categories overlap but are not the same.
+Yes, because its float is below $700 million is wrong: this answer that threshold separates large accelerated from accelerated.
+Only if its management assessment finds no material weakness is wrong: this answer the obligation does not depend on the outcome.
+C404-3  Answer: bottom-up, and so not the approach AS 2201 requires.
+top-down, because it is comprehensive is wrong: this answer comprehensiveness is not the test; the starting point is.
+top-down, because it covers significant accounts is wrong: this answer covering them by accident is not the same as starting from risk.
+acceptable either way, at the auditor's discretion is wrong: this answer the standard requires the top-down approach.
+C404-4  Answer: the financial statements and where a material misstatement could appear.
+the list of entity-level controls is wrong: this answer those are step two, not step one.
+a sample of transactions from each cycle is wrong: this answer sampling comes after the controls are selected.
+management's own assessment is wrong: this answer the auditor forms an independent view.
+C404-5  Answer: recording them as consultancy fees without describing their purpose may breach the FCPA accounting provisions, whether or not any bribe occurred.
+there is no issue, because no bribe has been alleged is wrong: this answer the accounting provisions stand independently of the anti-bribery ones.
+the FCPA does not apply because the payments were made outside the United States is wrong: this answer Cedar is an issuer, so the accounting provisions apply to its records.
+the payments are lawful because they were disclosed in the accounts is wrong: this answer they were not accurately described, which is the point.
+C404-6  Answer: as an issuer, Cedar must keep books in reasonable detail and maintain internal accounting controls.
+Cedar must adopt the COSO framework is wrong: this answer the Act names no framework.
+the accounting provisions apply only if a foreign official received money is wrong: this answer they apply to the records themselves.
+the accounting provisions apply to Cedar's agent as well is wrong: this answer they bind issuers, not their agents.
+C404-7  Answer: 2201.
+No. 5 is wrong: this answer that is the former name, renumbered in 2016.
+1105 is wrong: this answer that standard concerns audit evidence.
+6115 is wrong: this answer that concerns reporting on a previously reported material weakness.
+PART I — INTERNAL CONTROL AND GOVERNANCE

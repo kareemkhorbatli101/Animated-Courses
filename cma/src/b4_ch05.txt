@@ -1,0 +1,742 @@
+Chapter 5
+COSO, Risk Types, Testing and Remediation
+إطار كوزو وأنواع المخاطر والاختبار والمعالجة
+This chapter closes the loop that Chapter 1 opened. It defines the three risks precisely, sets out the framework in full, and then follows a deficiency from the moment it is found to the moment it can honestly be called fixed.
+Figure F405-01 shows the cycle.
+Figure F405-01. Chapter 5 roadmap: assess, test, remediate.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.1.n
+define inherent risk, control risk, and detection risk
+Define inherent risk, control risk and detection risk.
+Full treatment
+E.1.o
+define and distinguish between preventive controls and detective controls
+Define and distinguish between preventive and detective controls.
+Full treatment
+E.1.u
+identify and describe the five major components of COSO’s Internal Control— Integrated Framework
+Identify and describe the five components of the COSO Internal Control framework.
+Full treatment
+E.1.v
+assess the level of internal control risk within an organization and recommend risk mitigation strategies
+Assess the level of internal control risk in an organization and recommend mitigation strategies.
+Full treatment + Extended Example
+E.1.w
+demonstrate an understanding of external auditor responsibilities, including the types of audit opinions that external auditors issue
+Demonstrate an understanding of external auditor responsibilities, including the types of opinion.
+Full treatment
+E.1.x
+identify and explain methods for testing the adequacy of internal controls, including inquiry, observation, inspection, and re-performance
+Identify and explain the methods for testing internal controls.
+Full treatment
+E.1.y
+explain how to remediate internal control deficiencies
+Explain how to remediate internal control deficiencies.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+audit risk
+مخاطر التدقيق
+risque d'audit
+material misstatement
+التحريف الجوهري
+anomalie significative
+preventive control
+الرقابة الوقائية
+contrôle préventif
+detective control
+الرقابة الكاشفة
+contrôle de détection
+present and functioning
+قائم ويعمل
+présent et opérationnel
+adverse opinion
+رأي سلبي
+opinion défavorable
+re-performance
+إعادة الأداء
+réexécution
+material weakness
+نقطة ضعف جوهرية
+faiblesse significative
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 used the three risks to explain what control risk is, and Chapter 4 described the top-down approach the auditor follows. This chapter defines the risks formally and takes the testing further.
+5.1  The three risks, defined
+Chapter 1 introduced the three risks in passing. Figure F405-02 defines each one, and says who can do anything about it.
+Figure F405-02. The three risks and who can change each
+Risk
+Definition
+Who can change it
+Inherent risk
+Susceptibility to material misstatement BEFORE considering any control
+Management, by changing what the business does
+Control risk
+The risk that internal control will not prevent or detect it in time
+Management, by designing and operating better controls
+Detection risk
+The risk that the auditor's procedures fail to find it
+The auditor, by changing the nature, timing and extent of testing
+Audit risk
+inherent x control x detection
+The risk of giving a wrong opinion
+Inherent risk is susceptibility before any control is considered. Control risk is the risk that the system fails to prevent or detect the misstatement in time. Detection risk is the risk that the auditor's own procedures miss it. Together they give audit risk, the risk of an unmodified opinion on statements that are materially misstated.
+The practical point is who holds each lever. Management acts on inherent risk by changing the business and on control risk by changing the system. The auditor acts only on detection risk, by testing more, differently, or closer to the year end.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+audit risk
+مخاطر التدقيق
+risque d'audit
+material misstatement
+التحريف الجوهري
+anomalie significative
+English (exam term)
+العربية
+Français
+audit risk
+مخاطر التدقيق
+risque d'audit
+material misstatement
+التحريف الجوهري
+anomalie significative
+SECTION CHECK   Test yourself
+SC405-1  Inherent risk is susceptibility to material misstatement:
+A.	after controls have been applied
+B.	before any control is considered
+C.	after the auditor has tested
+D.	only in cash balances
+SC405-2  Management acts directly on:
+A.	inherent risk and control risk
+B.	detection risk only
+C.	audit risk directly
+D.	none of the three
+Answers and explanations are at the end of the chapter.
+5.2  Preventive and detective controls
+A preventive control acts before an error or fraud can occur. A detective control finds it afterwards. Figure F405-03 sets them side by side.
+Figure F405-03. Preventive against detective controls
+Preventive
+Detective
+When it acts
+Before the error or fraud occurs
+After it has occurred
+What it does
+Stops it happening
+Finds it so it can be corrected
+Examples
+Authorization limits, segregation of duties, input validation, locked stores
+Reconciliations, exception reports, stock counts, supervisory review
+Cost of failure
+The loss never happens
+The loss happens but is recovered or corrected
+Why both
+Prevention is cheaper but cannot catch everything
+Detection proves prevention is working
+Both are needed, and for different reasons. Prevention is cheaper, because the loss never happens. Detection is what proves prevention is working: without a reconciliation nobody knows whether the authorization limits are being respected.
+EXAM TRAP   Classify by when, not by how important
+A control is preventive or detective according to when it acts, not how valuable it is. A stock count is detective even though it may be the single most useful control in the warehouse.
+Some controls do both. A supervisor who reviews a payment before it is released is preventing an error, and the same review across a month's payments detects the ones that slipped through. The exam asks when the control acts in the case described, not what it could do in principle.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+preventive control
+الرقابة الوقائية
+contrôle préventif
+detective control
+الرقابة الكاشفة
+contrôle de détection
+English (exam term)
+العربية
+Français
+preventive control
+الرقابة الوقائية
+contrôle préventif
+detective control
+الرقابة الكاشفة
+contrôle de détection
+SECTION CHECK   Test yourself
+SC405-3  Which is a detective control?
+A.	An authorization limit
+B.	Segregation of duties
+C.	A locked store
+D.	A monthly bank reconciliation
+SC405-4  A stock count is classified as detective because:
+A.	it is less important than prevention
+B.	it is performed annually
+C.	it acts after the loss has occurred, whatever its value to the business
+D.	it is performed by an independent team
+Answers and explanations are at the end of the chapter.
+5.3  The five components in full
+Chapter 1 named the five components. Figure F405-04 shows them with the number of principles each carries, seventeen in all.
+Figure F405-04. The five COSO components and their principles.
+The framework sets a demanding test for effectiveness. All five components must be present and functioning, and they must be operating together in an integrated manner. A company with excellent control activities and no monitoring does not have effective internal control; it has four fifths of a system.
+COMMON ERROR IN OTHER BOOKS   'COSO issued 2023 guidance on internal control over financial reporting'
+COSO's 2023 supplement concerns internal control over sustainability reporting, not financial reporting. A separate publication on generative AI followed in 2026. The 2013 framework itself has not been revised.
+The order of the five is not arbitrary. The control environment comes first because it decides whether the rest function at all, and monitoring comes last because it looks back at everything above it. A question that asks which component a failure belongs to is usually asking where in that order the breakdown began.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+present and functioning
+قائم ويعمل
+présent et opérationnel
+English (exam term)
+العربية
+Français
+present and functioning
+قائم ويعمل
+présent et opérationnel
+SECTION CHECK   Test yourself
+SC405-5  How many principles support the five components?
+A.	Five
+B.	Seventeen
+C.	Twelve
+D.	Twenty
+SC405-6  A company has strong control activities but performs no monitoring. Is its internal control effective?
+A.	Yes, if the control activities are strong enough
+B.	Yes, because monitoring is optional
+C.	No, because all five components must be present, functioning and operating together
+D.	Only if the auditor agrees
+Answers and explanations are at the end of the chapter.
+5.4  The external auditor's responsibilities and opinions
+The external auditor expresses an opinion on whether the financial statements are fairly presented. For an accelerated filer the auditor also expresses an opinion on internal control over financial reporting, as Chapter 4 explained. Figure F405-05 shows the opinions available on each.
+Figure F405-05. The opinions available on the statements and on internal control
+Opinion
+When it is given
+On the statements
+On internal control
+Unqualified (unmodified)
+The statements are fairly presented in all material respects
+Available
+Available: control is effective
+Qualified
+A material but not pervasive misstatement or scope limitation
+Available
+NOT available on internal control
+Adverse
+A material and pervasive misstatement
+Available
+Issued if ANY material weakness exists
+Disclaimer
+Insufficient evidence, with a pervasive effect
+Available
+Issued for a scope limitation
+COMMON ERROR IN OTHER BOOKS   'The auditor can give a qualified opinion on internal control'
+On internal control the opinion is unqualified or adverse only. There is no qualified opinion: internal control either is effective or it is not, and a single material weakness makes it adverse. A scope limitation leads to a disclaimer or to withdrawal.
+The two opinions are independent of each other. A company can receive an adverse opinion on internal control and an unqualified opinion on its financial statements in the same report, because the auditor may have done enough extra substantive work to be satisfied about the numbers despite the weak controls.
+The auditor is responsible for obtaining reasonable assurance that the statements are free from material misstatement, whether caused by error or fraud. That responsibility does not transfer to the auditor what management owes: preparing the statements and maintaining the controls behind them remain management's work.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+adverse opinion
+رأي سلبي
+opinion défavorable
+English (exam term)
+العربية
+Français
+adverse opinion
+رأي سلبي
+opinion défavorable
+SECTION CHECK   Test yourself
+SC405-7  Which opinion is NOT available on internal control over financial reporting?
+A.	Qualified
+B.	Unqualified
+C.	Adverse
+D.	Disclaimer
+SC405-8  Can a company receive an adverse opinion on internal control and an unqualified opinion on its statements?
+A.	No, the two must agree
+B.	Only if the weakness arose after the year end
+C.	Only for non-accelerated filers
+D.	Yes, if the auditor did enough extra substantive work to be satisfied about the numbers
+Answers and explanations are at the end of the chapter.
+5.5  Testing the adequacy of controls
+Four methods are available, and the standard ranks them by the strength of the evidence they give. Figure F405-06 shows the ranking.
+Figure F405-06. The four testing methods, ranked by the evidence they give.
+Inquiry asks someone whether the control is performed. Observation watches it being performed. Inspection examines the document the control produced. Re-performance does the control again and compares the result. Each gives more evidence than the one before.
+Inquiry alone is never sufficient. The person asked may be mistaken, may be describing what should happen rather than what does, or may be the person responsible for the failure. A walkthrough follows a single transaction from start to finish and typically uses all four methods at once.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+re-performance
+إعادة الأداء
+réexécution
+English (exam term)
+العربية
+Français
+re-performance
+إعادة الأداء
+réexécution
+SECTION CHECK   Test yourself
+SC405-9  Which testing method gives the strongest evidence?
+A.	Inspection
+B.	Observation
+C.	Re-performance
+D.	Inquiry
+SC405-10  Why is inquiry alone never sufficient?
+A.	The person may be mistaken, describing what should happen, or responsible for the failure
+B.	It takes too long
+C.	It cannot be documented
+D.	It is not permitted by the standard
+Answers and explanations are at the end of the chapter.
+5.6  From deficiency to remediation
+Not every failure is equally serious. Figure F405-07 sets out the three levels of severity and what each one means in practice.
+Figure F405-07. Three levels of deficiency
+Severity
+Definition
+Consequence
+Control deficiency
+The control does not allow staff, in the normal course of their work, to prevent or detect misstatements on a timely basis
+Management decides whether to fix it
+Significant deficiency
+Less severe than a material weakness, but important enough to merit the attention of those overseeing reporting
+Reported to the audit committee
+Material weakness
+A reasonable possibility that a material misstatement will not be prevented or detected on a timely basis
+Internal control cannot be called effective; disclosed
+A material weakness is the one that matters most, because its existence prevents management from concluding that internal control is effective. The test combines likelihood and magnitude: a reasonable possibility that a material misstatement would not be prevented or detected on a timely basis.
+COMMON ERROR IN OTHER BOOKS   'A material weakness is a misstatement above a percentage of income'
+There is no numeric threshold. The test is whether there is a reasonable possibility that a material misstatement would go undetected. A weakness can exist where no misstatement has yet occurred at all.
+Figure F405-08 sets out the six steps of remediation.
+Figure F405-08. The six steps of remediation
+Step (E.1.y)
+What it involves
+At Orontes
+1. Find the root cause
+Why did the control fail: design, operation, or neither?
+A control that was never assigned to anyone
+2. Redesign
+Change the control, or add one that addresses the cause
+Name supplier approval in a job description
+3. Implement
+Put it into operation and tell the people affected
+Update the procedure and train the staff
+4. Operate for a period
+A control must run long enough to be tested
+Usually at least one quarter
+5. Test
+Evidence that it now works, not just that it exists
+Re-perform a sample of approvals
+6. Conclude and disclose
+Management states whether the weakness is remediated
+Reported in the next assessment
+Step four is the one companies try to skip. A control must operate for long enough to be tested before anyone can say it works, which in practice means at least a quarter. Announcing a fix is not remediating a weakness.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+material weakness
+نقطة ضعف جوهرية
+faiblesse significative
+English (exam term)
+العربية
+Français
+material weakness
+نقطة ضعف جوهرية
+faiblesse significative
+SECTION CHECK   Test yourself
+SC405-11  What distinguishes a material weakness from a significant deficiency?
+A.	A loss above five per cent of income
+B.	Whether the auditor found it
+C.	Whether it has been disclosed
+D.	A reasonable possibility that a MATERIAL misstatement would go undetected
+SC405-12  A company redesigns a failed control and announces the fix in the same month. Is the weakness remediated?
+A.	Yes, because the design has changed
+B.	No, because the new control has not yet operated for a period and been tested
+C.	Yes, once the audit committee is told
+D.	Only if the auditor agrees in writing
+Answers and explanations are at the end of the chapter.
+5.7  Extended Example 5A: assessing and mitigating the Orontes control risk
+This example assesses the level of control risk across Orontes and recommends what to do about it. E.1.v is a Level C outcome, one of only six in this book, so the exam will ask for a judgement and a recommendation rather than a definition.
+1. Where the risk is highest
+Figure F405-09 sets out the assessment. Three areas stand out. Purchasing, because of the failure in Chapter 1. The Levant depot, where one person holds custody and the records. And the Gulf export channel, where terms are unusual and oversight is distant.
+Figure F405-09. Extended Example 5A: control risk assessed area by area
+Area
+Control risk
+Why
+Recommended mitigation
+Purchasing
+Moderate
+Duties now segregated and reviewed independently; collusion remains possible
+Keep the design and test it each quarter
+Levant depot
+High
+One person holds custody of the stock and maintains the records; nothing has changed
+Move the records to another person and reconcile depot records to plant dispatches
+Gulf export channel
+Moderate
+Unusual terms and distant oversight, but amounts pass through the group's systems
+Require a second approval on non-standard terms; review the customer master file quarterly
+2. Assessing each one
+Purchasing now has segregated duties and an independent review, so control risk has fallen from high to moderate, limited mainly by the possibility of collusion. The depot remains high: nothing has changed there yet. The Gulf channel is moderate, because the risk is real but the amounts pass through the group's own systems.
+3. Recommending mitigation
+For the depot, move the stock records away from the custodian and have group finance reconcile depot records to plant dispatches. For the Gulf channel, require a second approval on non-standard terms and review the customer master file quarterly. For purchasing, keep what is in place and test it.
+4. Judging the severity
+The depot weakness is a material weakness if the stock held there is material to the group, because one person can remove stock and adjust the record without anyone comparing the two. If the depot is small, it is a significant deficiency: still reported to the audit committee, but not fatal to the assessment.
+5. Remediating it
+The root cause is not dishonesty but design: nobody separated the duties when the depot was set up. Redesign moves the records; implementation means telling both people and updating the procedure; the control then runs for a quarter before anyone tests it; and only after testing can management say the weakness is remediated.
+6. Your turn
+YOUR TURN   Judge four situations
+Complete the blank cells of Figure F405-10. Answers are at the end of the chapter.
+Figure F405-10. Your turn: judge four situations (complete the blanks)
+Situation
+How severe?
+Why
+A reconciliation that nobody performs
+________
+Design is sound; operation failed
+Approval limits that were never set
+Design deficiency
+________
+One person approves and pays, and the amounts are material
+________
+A reasonable possibility of material misstatement
+A minor posting error found and corrected monthly
+________
+Below the threshold for audit committee attention
+7. Tie line
+WORKED EXAMPLE   The pattern behind the assessment
+Assess control risk area by area, not for the company as a whole.
+Rate it against what the controls actually do, not what the manual says.
+Judge severity by likelihood and magnitude together, with no percentage rule.
+Remediation is not complete until the new control has run and been tested.
+8. How the exam asks it
+EXAM TRAP   Exam view
+A Level C question gives a situation and asks you to assess and recommend. Name the risk, rate it high, moderate or low with a reason, then give a specific mitigation. A general answer such as improve controls earns nothing.
+9. Self-check
+SECTION CHECK   Test yourself
+SC405-13  Use Extended Example 5A. Why is control risk at the Levant depot assessed higher than in purchasing?
+A.	The depot holds more valuable goods
+B.	The depot is further from head office
+C.	Purchasing has been redesigned and reviewed, while nothing at the depot has changed
+D.	The depot has fewer staff
+SC405-14  Use Extended Example 5A. Which recommendation is specific enough to be useful?
+A.	Improve controls at the depot
+B.	Increase supervision generally
+C.	Train the staff in internal control
+D.	Move the stock records away from the custodian and reconcile depot records to plant dispatches
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F405-11 brings the chapter together.
+Figure F405-11. Chapter 5 summary map: the key rule for each section.
+Inherent risk exists before controls, control risk is the system failing, and detection risk is the auditor's own; only the last is the auditor's to change. Preventive controls act before an error and detective controls after, and both are needed. The COSO framework has five components and seventeen principles, all of which must be present, functioning and operating together. On internal control the auditor's opinion is unqualified or adverse only. Controls are tested by inquiry, observation, inspection and re-performance, in rising order of evidence, and inquiry alone is never enough. A deficiency is remediated only when the new control has operated for a period and been tested.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P405-01  Detection risk is the risk that:
+A.	the auditor's procedures fail to find a misstatement that exists
+B.	internal control fails
+C.	the business is inherently exposed
+D.	management overrides a control
+P405-02  If inherent and control risk are both assessed as high, the auditor should:
+A.	increase detection risk to compensate
+B.	reduce detection risk by testing more, differently, or closer to the year end
+C.	reduce control risk directly
+D.	issue an adverse opinion
+P405-03  Which is a preventive control?
+A.	A monthly exception report
+B.	An annual stock count
+C.	Requiring two signatures above an approval limit
+D.	A supplier statement reconciliation
+P405-04  Why does a company need detective controls even where prevention is strong?
+A.	Detection is cheaper
+B.	Detection is what shows whether the preventive controls are actually working
+C.	Auditors require two of each
+D.	Prevention is optional
+P405-05  Which component carries the most principles?
+A.	Control environment, with five
+B.	Risk assessment, with four
+C.	Control activities, with three
+D.	Monitoring activities, with two
+P405-06  What must be true before internal control can be called effective?
+A.	No misstatement has occurred
+B.	The auditor has tested every control
+C.	Management has written a procedures manual
+D.	All five components are present, functioning and operating together
+P405-07  COSO's 2023 supplemental guidance concerns:
+A.	internal control over financial reporting
+B.	internal control over sustainability reporting
+C.	enterprise risk management
+D.	generative artificial intelligence
+P405-08  An adverse opinion on the financial statements is given when a misstatement is:
+A.	material and pervasive
+B.	material but not pervasive
+C.	immaterial
+D.	suspected but unproven
+P405-09  A single material weakness in internal control leads to:
+A.	a qualified opinion on internal control
+B.	a disclaimer
+C.	an adverse opinion on internal control
+D.	no change to either opinion
+P405-10  Which method is the auditor using when a sample of reconciliations is prepared again and the results compared?
+A.	Inspection
+B.	Observation
+C.	Inquiry
+D.	Re-performance
+P405-11  A walkthrough is best described as:
+A.	a tour of the premises
+B.	an inquiry of the controller
+C.	following one transaction from start to finish, usually using all four methods
+D.	a reconciliation performed by the auditor
+P405-12  A significant deficiency is:
+A.	any control that failed once
+B.	the same as a material weakness
+C.	a deficiency the auditor chose not to report
+D.	less severe than a material weakness but important enough to merit the attention of those overseeing reporting
+P405-13  Which step of remediation do companies most often skip?
+A.	Finding the root cause
+B.	Operating the new control for long enough to be tested
+C.	Telling the staff affected
+D.	Redesigning the control
+P405-14  A division's manual describes strong controls, but staff say several are never performed. How should control risk be assessed?
+A.	High, because the assessment rests on what the controls actually do
+B.	Low, because the design is strong
+C.	Moderate, averaging design and operation
+D.	It cannot be assessed without the auditor
+P405-15  Which is the better mitigation recommendation for a depot where one person holds custody and the records?
+A.	Remind the custodian of his responsibilities
+B.	Increase the insurance cover
+C.	Move the records to another person and reconcile depot records to dispatch records monthly
+D.	Count the stock twice a year instead of once
+P405-16  Audit risk is:
+A.	the product of inherent, control and detection risk
+B.	the sum of the three
+C.	equal to detection risk
+D.	set by the audit committee
+Case question: the weakness that was announced but not fixed
+At the end of 2028 the external auditor reported a material weakness at Orontes: one purchasing clerk could both approve suppliers and release payments. Management responded in January by issuing a revised procedure that moved supplier approval to the purchasing manager and named the duty in his job description.
+In February the chief financial officer told the audit committee that the weakness had been remediated and asked for it to be removed from the register. The revised procedure had been circulated, the purchasing manager had acknowledged it, and no further losses had been found.
+The controller, Rania, disagreed. She pointed out that the new control had operated for six weeks, that nobody had yet tested whether the purchasing manager was in fact approving suppliers, and that the only evidence offered was the manager's own statement that he was.
+The audit committee has asked Rania to set out what remains to be done, what kind of evidence would be sufficient, and what the position would be in the annual report if the work is not finished before the year end. Orontes is an accelerated filer, so its auditor reports on internal control as well as on the financial statements.
+Use the scenario above for items C405-1 to C405-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C405-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Already done · Still outstanding
+Step taken or still outstanding
+Category
+The control was redesigned and the duty named in a job description
+The revised procedure was circulated to staff
+The new control has operated for a sufficient period
+Someone independent has tested that the control works
+C405-2  Has the material weakness been remediated? [select]
+Options: No, because the new control has neither operated for a sufficient period nor been tested   |   Yes, because the design has been corrected   |   Yes, because no further losses have been found   |   Yes, once the audit committee accepts the report
+C405-3  The only evidence offered is the purchasing manager's statement that he approves suppliers. This is: [select]
+Options: inquiry, which is never sufficient on its own   |   observation, which is adequate here   |   inspection of documentation   |   re-performance
+C405-4  What evidence would be sufficient? [select]
+Options: inspecting a sample of approvals, and re-performing some of them, after the control has run for a quarter   |   a second written confirmation from the purchasing manager   |   a statement from the chief financial officer   |   removing the weakness from the register and monitoring losses
+C405-5  Enter the number of remediation steps, of the six, that remain outstanding.
+Answer: ____________
+C405-6  If the work is not finished before the year end, the auditor's opinion on internal control would be: [select]
+Options: adverse, because a material weakness still exists at the reporting date   |   qualified, because the weakness is being addressed   |   unqualified, because management has acted   |   a disclaimer, because evidence is incomplete
+C405-7  Testing a control by carrying it out again and comparing the result is called ____.
+Choose the word or phrase for the blank: re-performance   |   inspection   |   observation   |   inquiry
+Case question: the weakness that was announced but not fixed
+At the end of 2028 the external auditor reported a material weakness at Orontes: one purchasing clerk could both approve suppliers and release payments. Management responded in January by issuing a revised procedure that moved supplier approval to the purchasing manager and named the duty in his job description.
+In February the chief financial officer told the audit committee that the weakness had been remediated and asked for it to be removed from the register. The revised procedure had been circulated, the purchasing manager had acknowledged it, and no further losses had been found.
+The controller, Rania, disagreed. She pointed out that the new control had operated for six weeks, that nobody had yet tested whether the purchasing manager was in fact approving suppliers, and that the only evidence offered was the manager's own statement that he was.
+The audit committee has asked Rania to set out what remains to be done, what kind of evidence would be sufficient, and what the position would be in the annual report if the work is not finished before the year end. Orontes is an accelerated filer, so its auditor reports on internal control as well as on the financial statements.
+Use the scenario above for items C405-1 to C405-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C405-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Already done · Still outstanding
+Step taken or still outstanding
+Category
+The control was redesigned and the duty named in a job description
+The revised procedure was circulated to staff
+The new control has operated for a sufficient period
+Someone independent has tested that the control works
+C405-2  Has the material weakness been remediated? [select]
+Options: No, because the new control has neither operated for a sufficient period nor been tested   |   Yes, because the design has been corrected   |   Yes, because no further losses have been found   |   Yes, once the audit committee accepts the report
+C405-3  The only evidence offered is the purchasing manager's statement that he approves suppliers. This is: [select]
+Options: inquiry, which is never sufficient on its own   |   observation, which is adequate here   |   inspection of documentation   |   re-performance
+C405-4  What evidence would be sufficient? [select]
+Options: inspecting a sample of approvals, and re-performing some of them, after the control has run for a quarter   |   a second written confirmation from the purchasing manager   |   a statement from the chief financial officer   |   removing the weakness from the register and monitoring losses
+C405-5  Enter the number of remediation steps, of the six, that remain outstanding.
+Answer: ____________
+C405-6  If the work is not finished before the year end, the auditor's opinion on internal control would be: [select]
+Options: adverse, because a material weakness still exists at the reporting date   |   qualified, because the weakness is being addressed   |   unqualified, because management has acted   |   a disclaimer, because evidence is incomplete
+C405-7  Testing a control by carrying it out again and comparing the result is called ____.
+Choose the word or phrase for the blank: re-performance   |   inspection   |   observation   |   inquiry
+Answers and explanations
+Section checks
+SC405-1  Answer B. It belongs to the transaction or balance itself.
+A is wrong. That reflects control risk as well.
+C is wrong. That is detection risk.
+D is wrong. It applies to any assertion.
+SC405-2  Answer A. By changing the business and by changing the system.
+B is wrong. Detection risk is the auditor's.
+C is wrong. Audit risk is the product, not a lever.
+D is wrong. Two of the three are management's.
+SC405-3  Answer D. It finds a difference after the event.
+A is wrong. That stops the transaction before it happens.
+B is wrong. That prevents one person acting alone.
+C is wrong. That prevents access.
+SC405-4  Answer C. Timing decides the classification, not importance.
+A is wrong. It may be the most useful control there is.
+B is wrong. Frequency is not the test.
+D is wrong. Independence makes it reliable, not detective.
+SC405-5  Answer B. Five, four, three, three and two across the components.
+A is wrong. That is the number of components.
+C is wrong. Not the published number.
+D is wrong. Twenty belongs to the ERM framework.
+SC405-6  Answer C. The test is demanding and admits no substitution.
+A is wrong. Strength in one component cannot replace another.
+B is wrong. Monitoring is one of the five.
+D is wrong. Management reaches its own conclusion first.
+SC405-7  Answer A. Control is either effective or it is not.
+B is wrong. Issued when control is effective.
+C is wrong. Issued if any material weakness exists.
+D is wrong. Issued for a scope limitation.
+SC405-8  Answer D. The opinions address different questions.
+A is wrong. They are independent of each other.
+B is wrong. Timing is not the reason.
+C is wrong. Non-accelerated filers receive no control opinion at all.
+SC405-9  Answer C. The auditor carries out the control and compares the result.
+A is wrong. Strong, but weaker than doing it again.
+B is wrong. Shows only what happens while watched.
+D is wrong. The weakest of the four.
+SC405-10  Answer A. An answer is not evidence that the control operated.
+B is wrong. It is the quickest method.
+C is wrong. Inquiries are documented routinely.
+D is wrong. It is permitted, but not on its own.
+SC405-11  Answer D. Likelihood and magnitude together, with no numeric rule.
+A is wrong. No percentage threshold exists.
+B is wrong. Who found it does not change severity.
+C is wrong. Disclosure follows the classification.
+SC405-12  Answer B. Design is not operation, and operation is not evidence.
+A is wrong. A design that has never run proves nothing.
+C is wrong. Reporting is not remediation.
+D is wrong. Management concludes, after testing.
+SC405-13  Answer C. The assessment rests on what the controls now do.
+A is wrong. Value affects inherent risk, not control risk.
+B is wrong. Distance alone is not the reason.
+D is wrong. Small teams can still separate duties.
+SC405-14  Answer D. It names the duty to move and the check to add.
+A is wrong. Too general to act on.
+B is wrong. Supervision of what, by whom?
+C is wrong. Training does not separate the duties.
+Your turn
+Item
+Answer
+A reconciliation that nobody performs
+Control deficiency at least — the design is sound but the control does not operate, so it prevents or detects nothing
+Approval limits that were never set
+Why: there is no control to operate, so the deficiency is in the design rather than in how it is carried out
+One person approves and pays, and the amounts are material
+Material weakness — a reasonable possibility that a material misstatement would not be prevented or detected
+A minor posting error found and corrected monthly
+Control deficiency — the detective control works, and the amounts are below the threshold for audit committee attention
+Multiple-choice questions
+P405-01  Answer A. It belongs to the audit, not the company.
+B is wrong. That is control risk.
+C is wrong. That is inherent risk.
+D is wrong. Override is a limitation, not a risk category.
+P405-02  Answer B. Detection risk is the only lever the auditor holds.
+A is wrong. That raises audit risk, not lowers it.
+C is wrong. Control risk belongs to management.
+D is wrong. High risk is not itself a basis for an opinion.
+P405-03  Answer C. It stops the payment before it is made.
+A is wrong. An exception report is detective.
+B is wrong. A count finds losses afterwards.
+D is wrong. A reconciliation detects differences.
+P405-04  Answer B. Without a check, nobody knows whether the limits are respected.
+A is wrong. Prevention is usually the cheaper of the two.
+C is wrong. No such requirement exists.
+D is wrong. Prevention is the first line.
+P405-05  Answer A. It is the foundation and the most detailed.
+B is wrong. Four, which is fewer.
+C is wrong. Three.
+D is wrong. Two, the fewest.
+P405-06  Answer D. That is the framework's own test.
+A is wrong. Effectiveness is about the system, not the outcome in one year.
+B is wrong. The auditor tests selectively.
+C is wrong. A manual is not a functioning system.
+P405-07  Answer B. It applied the framework to sustainability information.
+A is wrong. The 2013 framework already covers that and was not revised.
+C is wrong. That is the separate 2017 framework.
+D is wrong. That came later, in 2026.
+P405-08  Answer A. Pervasiveness separates adverse from qualified.
+B is wrong. That gives a qualified opinion.
+C is wrong. Immaterial matters do not modify the opinion.
+D is wrong. Suspicion is not a basis for an opinion.
+P405-09  Answer C. Control is effective or it is not.
+A is wrong. No qualified opinion exists on internal control.
+B is wrong. A disclaimer follows a scope limitation.
+D is wrong. The control opinion is directly affected.
+P405-10  Answer D. The auditor carries out the control independently.
+A is wrong. Inspection examines the document rather than redoing the work.
+B is wrong. Observation watches the control being performed.
+C is wrong. Inquiry asks about it.
+P405-11  Answer C. It traces the transaction through the whole process.
+A is wrong. A physical tour proves nothing about the controls.
+B is wrong. That is inquiry alone.
+D is wrong. That is re-performance of one control.
+P405-12  Answer D. It sits between a control deficiency and a material weakness.
+A is wrong. A single failure may be only a control deficiency.
+B is wrong. The thresholds differ.
+C is wrong. It is reported to the audit committee.
+P405-13  Answer B. Announcing a fix is faster than proving one.
+A is wrong. Usually attempted, even if imperfectly.
+C is wrong. Communication is rarely the omission.
+D is wrong. Redesign is the visible part.
+P405-14  Answer A. A control that does not operate does not reduce risk.
+B is wrong. Design alone does not control anything.
+C is wrong. There is no averaging rule.
+D is wrong. Management assesses its own control risk.
+P405-15  Answer C. It separates the duties and adds an independent check.
+A is wrong. A reminder changes nothing structural.
+B is wrong. Insurance limits loss; it does not control it.
+D is wrong. A more frequent count by the same person is no more independent.
+P405-16  Answer A. The three combine to give the risk of a wrong opinion.
+B is wrong. They multiply.
+C is wrong. Detection risk is one component.
+D is wrong. The committee does not set it.
+Case question: the weakness that was announced but not fixed
+C405-1
+Step taken or still outstanding
+Category
+The control was redesigned and the duty named in a job description
+Already done
+The revised procedure was circulated to staff
+Already done
+The new control has operated for a sufficient period
+Still outstanding
+Someone independent has tested that the control works
+Still outstanding
+Classify each item by the stage of remediation it belongs to.
+C405-2  Answer: No, because the new control has neither operated for a sufficient period nor been tested.
+Yes, because the design has been corrected is wrong: this answer a design that has not run is not evidence that it works.
+Yes, because no further losses have been found is wrong: this answer absence of a known loss is not evidence of an operating control.
+Yes, once the audit committee accepts the report is wrong: this answer acceptance does not substitute for testing.
+C405-3  Answer: inquiry, which is never sufficient on its own.
+observation, which is adequate here is wrong: this answer nobody watched the control being performed.
+inspection of documentation is wrong: this answer no document has been examined.
+re-performance is wrong: this answer nobody carried out the control again.
+C405-4  Answer: inspecting a sample of approvals, and re-performing some of them, after the control has run for a quarter.
+a second written confirmation from the purchasing manager is wrong: this answer repeating an inquiry does not strengthen it.
+a statement from the chief financial officer is wrong: this answer a more senior inquiry is still an inquiry.
+removing the weakness from the register and monitoring losses is wrong: this answer waiting for a loss is not testing a control.
+C405-5  Answer: 4.
+2 is wrong: this answer counts the steps already completed.
+6 is wrong: this answer counts all six steps.
+C405-6  Answer: adverse, because a material weakness still exists at the reporting date.
+qualified, because the weakness is being addressed is wrong: this answer there is no qualified opinion on internal control.
+unqualified, because management has acted is wrong: this answer action without evidence does not remove the weakness.
+a disclaimer, because evidence is incomplete is wrong: this answer a disclaimer follows a scope limitation, not a known weakness.
+C405-7  Answer: re-performance.
+inspection is wrong: this answer inspection examines a document the control produced.
+observation is wrong: this answer observation watches the control being performed.
+inquiry is wrong: this answer inquiry asks someone whether it is performed.
+PART II
+Systems controls and continuity
+Chapters 6 to 8
+PART II — SYSTEMS CONTROLS AND CONTINUITY

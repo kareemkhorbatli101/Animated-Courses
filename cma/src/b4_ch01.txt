@@ -1,0 +1,603 @@
+Chapter 1
+Control Risk, Objectives and the Control Environment
+مخاطر الرقابة وأهدافها وبيئة الرقابة
+Books 1 to 3 asked what the numbers are, what they cost and whether they met the plan. This book asks a different question: can the numbers be relied on at all? That depends on internal control, and internal control starts with the subject of this chapter.
+Figure F401-01 shows the path.
+Figure F401-01. Chapter 1 roadmap: risk, objectives, environment.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.1.a
+demonstrate an understanding of internal control risk and the management of internal control risk
+Demonstrate an understanding of internal control risk and how it is managed.
+Full treatment
+E.1.b
+identify and describe internal control objectives
+Identify and describe the internal control objectives.
+Full treatment
+E.1.c
+explain how a company’s organizational structure, policies, objectives, and goals, as well as its management philosophy and style, influence the scope and effectiveness of the control environment
+Explain how structure, policies, objectives, goals and management philosophy affect the control environment.
+Full treatment
+E.1.g
+describe how internal controls are designed to provide reasonable (but not absolute) assurance regarding achievement of an entity’s objectives involving (i) effectiveness and efficiency of operations, (ii) reliability of financial reporting, and (iii) compliance with applicable laws and regulations
+Describe how internal controls give reasonable, but not absolute, assurance.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+internal control
+الرقابة الداخلية
+contrôle interne
+control risk
+مخاطر الرقابة
+risque lié au contrôle
+inherent risk
+المخاطر الملازمة
+risque inhérent
+detection risk
+مخاطر الاكتشاف
+risque de non-détection
+control environment
+بيئة الرقابة
+environnement de contrôle
+tone at the top
+النهج الذي تحدده الإدارة العليا
+ton donné par la direction
+reasonable assurance
+التأكيد المعقول
+assurance raisonnable
+management override
+تجاوز الإدارة للضوابط
+contournement par la direction
+WHAT YOU ALREADY KNOW   What you already know
+Book 3, Chapter 15 asked who should answer for a result. This chapter asks what makes the result trustworthy in the first place. The Orontes company, its divisions and Levant Distribution are the same throughout.
+1.1  Internal control risk and how it is managed
+Internal control is a process, carried out by the board, management and other staff, designed to give reasonable assurance that the organization's objectives will be achieved. It is a process, not a document: a written procedure that nobody follows is not a control.
+Control risk is the risk that internal control will not prevent or detect a material misstatement in time. It sits beside two others. Inherent risk is how exposed something is before any control is considered, and detection risk is the risk that the auditor's own work misses the problem. Figure F401-02 distinguishes them.
+Figure F401-02. The three risks, and the one the auditor controls
+Risk
+What it means
+At Orontes
+Inherent risk
+How open an assertion is to material misstatement BEFORE considering any control
+Spices are small, valuable and easy to carry out
+Control risk
+The risk that internal control will not prevent or detect that misstatement in time
+One storekeeper both receives and records stock
+Detection risk
+The risk that the auditor's own procedures miss it
+The auditor samples only large issues and misses many small ones
+Audit risk
+inherent x control x detection
+The only one the auditor can change is detection risk
+The three multiply to give audit risk. Management can reduce inherent risk by changing what the business does, and control risk by designing better controls, but only the auditor can change detection risk, by testing more or differently.
+Managing control risk is a cycle: identify what could go wrong, design a control, operate it, monitor whether it works, and fix it when it does not. Chapter 5 completes that cycle with testing and remediation.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+internal control
+الرقابة الداخلية
+contrôle interne
+control risk
+مخاطر الرقابة
+risque lié au contrôle
+inherent risk
+المخاطر الملازمة
+risque inhérent
+English (exam term)
+العربية
+Français
+internal control
+الرقابة الداخلية
+contrôle interne
+control risk
+مخاطر الرقابة
+risque lié au contrôle
+inherent risk
+المخاطر الملازمة
+risque inhérent
+SECTION CHECK   Test yourself
+SC401-1  Internal control is best described as:
+A.	a manual of written procedures
+B.	the work of the internal audit department
+C.	a process carried out by people throughout the organization
+D.	a report signed by the chief financial officer
+SC401-2  Which risk can the external auditor change?
+A.	Inherent risk
+B.	Detection risk
+C.	Control risk
+D.	None of them
+Answers and explanations are at the end of the chapter.
+1.2  The three control objectives
+Internal control serves three categories of objective, set out in Figure F401-03. Everything a control does falls into one of them.
+Figure F401-03. The three categories of control objective
+Objective category
+What it covers
+At Orontes
+Operations
+Effectiveness and efficiency, including safeguarding assets
+Spoilage below target; stock not stolen
+Reporting
+Internal AND external, financial AND non-financial
+The monthly management pack; the audited accounts; the energy figures of Book 3
+Compliance
+With applicable laws and regulations
+Food safety rules; Jordan's data protection law
+The second category is the one most often misremembered. It is reporting, not financial reporting: it covers internal reports as well as external ones, and non-financial information as well as financial. The energy and water figures of Book 3, Chapter 18 fall under it just as the audited accounts do.
+COMMON ERROR IN OTHER BOOKS   'Reliability of financial reporting'
+Many study guides still say the second objective is reliability of financial reporting (their wording). That was the wording of the 1992 framework. The 2013 framework widened it to reporting, meaning internal and external, financial and non-financial. A question that offers both wordings is testing exactly this.
+Safeguarding of assets is not a fourth category. It sits inside operations, because losing an asset is an operating failure, though it usually shows up in reporting too.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+detection risk
+مخاطر الاكتشاف
+risque de non-détection
+English (exam term)
+العربية
+Français
+detection risk
+مخاطر الاكتشاف
+risque de non-détection
+SECTION CHECK   Test yourself
+SC401-3  Which is NOT one of the three categories of control objective?
+A.	Safeguarding of assets
+B.	Operations
+C.	Reporting
+D.	Compliance
+SC401-4  Which statement about the reporting objective is correct?
+A.	It covers external financial reporting only
+B.	It covers audited financial statements only
+C.	It covers reports to regulators only
+D.	It covers internal and external reporting, financial and non-financial
+Answers and explanations are at the end of the chapter.
+1.3  The control environment
+The control environment is the set of standards, processes and structures that provide the basis for carrying out internal control across the organization. It is the first of the five components shown in Figure F401-04, and it is first for a reason: it decides whether the other four work.
+Figure F401-04. The five components of the COSO framework.
+Figure F401-05 takes the elements the exam names and shows what each one decides.
+Figure F401-05. What shapes the control environment
+Element of the control environment
+What it decides
+Why it matters
+Management philosophy and style
+Whether targets are pursued at any cost, or within limits
+A plant manager rewarded only on output will cut inspection
+Organizational structure
+Who reports to whom, and where authority stops
+Levant Distribution reports to the group, not to the division it serves
+Policies, objectives and goals
+What the company says it wants and will not do
+The code of conduct; the Chapter 1 objectives of Book 3
+Competence
+Whether people can do the job they are given
+A clerk asked to review a reconciliation he does not understand
+Accountability
+Whether anyone answers for a failure
+A missed control that nobody is asked about
+Management philosophy and style matter more than any single procedure. If a plant manager is rewarded only on output, inspection will be cut, whatever the manual says. This is what is meant by the tone at the top: not a slogan, but what people conclude from watching what management rewards and tolerates.
+Structure matters in the same practical way. Levant Distribution reports to the group rather than to the division it serves, so the manager who negotiates its prices is not the manager who approves its results.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+control environment
+بيئة الرقابة
+environnement de contrôle
+tone at the top
+النهج الذي تحدده الإدارة العليا
+ton donné par la direction
+English (exam term)
+العربية
+Français
+control environment
+بيئة الرقابة
+environnement de contrôle
+tone at the top
+النهج الذي تحدده الإدارة العليا
+ton donné par la direction
+SECTION CHECK   Test yourself
+SC401-5  A plant manager is rewarded only on output. What is the likely effect on the control environment?
+A.	No effect, because the procedures are written down
+B.	Controls will be strengthened to protect the bonus
+C.	Only the compliance objective is affected
+D.	Inspection and quality controls will be cut, whatever the manual says
+SC401-6  The control environment is described as the foundation because it:
+A.	is the most expensive component
+B.	is the only component the board sees
+C.	decides whether the other four components work
+D.	replaces the need for control activities
+Answers and explanations are at the end of the chapter.
+1.4  Reasonable, not absolute, assurance
+No system of internal control can give absolute assurance. The standard is reasonable assurance: a high level of confidence, not a guarantee. Figure F401-06 gives the six reasons.
+Figure F401-06. Why assurance is reasonable rather than absolute.
+Two of them deserve attention because the exam returns to them. Collusion defeats a separation of duties designed for one person acting alone: the clerk who raises an invoice and the supervisor who approves it can agree together. Management override is the harder one, because the people who design and enforce the controls are the people best placed to step around them.
+The cost-benefit limit is not an excuse but a design principle. A control that costs more than the loss it prevents makes the company worse off, so the question is always whether the control is worth its cost, not whether it is perfect.
+EXAM TRAP   Reasonable means high, not weak
+Reasonable assurance is a high level of assurance. A question that treats it as 'some comfort' or 'better than nothing' has the sense wrong. The word acknowledges the six limits, not a low standard.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+reasonable assurance
+التأكيد المعقول
+assurance raisonnable
+management override
+تجاوز الإدارة للضوابط
+contournement par la direction
+English (exam term)
+العربية
+Français
+reasonable assurance
+التأكيد المعقول
+assurance raisonnable
+management override
+تجاوز الإدارة للضوابط
+contournement par la direction
+SECTION CHECK   Test yourself
+SC401-7  Reasonable assurance means:
+A.	a high level of assurance, short of a guarantee
+B.	some comfort, better than nothing
+C.	assurance at a reasonable cost only
+D.	the same as absolute assurance
+SC401-8  Two employees agree together to defeat a separation of duties. Which limitation is this?
+A.	Management override
+B.	Collusion
+C.	Human error
+D.	A missing control
+Answers and explanations are at the end of the chapter.
+1.5  Extended Example 1A: reading a failure back to its cause
+This example takes a real failure at Orontes and traces it back through the framework. It is exam-core: questions give you the failure and ask which component or which limitation explains it.
+1. What happened
+A purchasing clerk at the Amman plant was able to add a supplier to the approved list and to release payments to it. Over fourteen months, payments went to a supplier that delivered nothing. The loss was found when a new controller reconciled supplier records against goods received.
+2. Which risk was this?
+Inherent risk was high: payments to new suppliers are easy to disguise and hard to verify. Control risk was also high, because one person held two duties that should have been separated. Detection risk was high too, since nobody reconciled suppliers to receipts until the new controller arrived.
+3. Which component failed?
+Control activities failed first: the duties were not separated, which Chapter 3 examines. But monitoring activities failed as well, because fourteen months passed before anyone looked. And the control environment was weak underneath both: nobody owned supplier approval, so no one was accountable when it went wrong.
+4. Which objective was missed?
+All three. Operations, because cash left the company for nothing. Reporting, because purchases and payables were misstated for more than a year. Compliance, because the payments breached the company's own procurement policy.
+5. Could a control have stopped it?
+Separating supplier approval from payment release would have stopped this particular fraud, and it costs almost nothing. But it would not stop two people agreeing together, which is collusion, and it would not stop a director instructing the clerk, which is management override. Reasonable assurance is the honest claim; absolute assurance is not available at any price.
+6. Tie line
+WORKED EXAMPLE   Everything connects
+High inherent risk plus high control risk plus high detection risk gave a high audit risk.
+Control activities failed, monitoring failed, and the control environment allowed both.
+All three objectives were missed: operations, reporting and compliance.
+The fix is cheap, but it buys reasonable assurance, not certainty.
+7. Your turn
+YOUR TURN   Classify four more failures
+Complete the blank cells of Figure F401-07. Answers are at the end of the chapter.
+Figure F401-07. Your turn: classify four failures (complete the blanks)
+What happened
+Which risk is it?
+Why
+A supplier invoice is paid twice
+________
+The payables clerk can both approve and release payment
+Stock records differ from the count
+Control risk
+________
+A new food safety rule is missed
+________
+Nobody is responsible for tracking regulatory change
+The auditor's sample misses a small fraud
+________
+Sampling cannot examine every transaction
+8. How the exam asks it
+EXAM TRAP   Exam view
+A case gives a failure and asks which component, which objective or which limitation it illustrates. Work backwards: what was supposed to stop this, why did it not, and was there anything that could have? If the answer is that two people agreed together, the answer is collusion, not a missing control.
+9. Self-check
+SECTION CHECK   Test yourself
+SC401-9  Use Extended Example 1A. Why was detection risk high as well?
+A.	The clerk was dishonest
+B.	Payments to new suppliers are easy to disguise
+C.	Nobody reconciled suppliers to goods received until a new controller arrived
+D.	The duties were not separated
+SC401-10  Use Extended Example 1A. What could separating supplier approval from payment release NOT have prevented?
+A.	This particular fraud
+B.	A director instructing the clerk to pay
+C.	Payments to a supplier that delivered nothing
+D.	The misstatement of payables
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F401-08 brings the chapter together.
+Figure F401-08. Chapter 1 summary map: the key rule for each section.
+Internal control is a process giving reasonable assurance about objectives in three categories: operations, reporting and compliance, where reporting means internal and external, financial and non-financial. Control risk is the risk that control fails to prevent or detect a misstatement, and it sits alongside inherent and detection risk. The control environment is the foundation: structure, philosophy, policies, competence and accountability decide whether every other control works. Assurance is reasonable, never absolute, because of judgment, error, collusion, management override, external events and the cost of control.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P401-01  Control risk is the risk that:
+A.	internal control fails to prevent or detect a misstatement in time
+B.	the business is exposed before controls are considered
+C.	the auditor's procedures miss a misstatement
+D.	management chooses the wrong strategy
+P401-02  Inventory of saffron is small, valuable and easy to carry. Which risk is high before any control is considered?
+A.	Control risk
+B.	Detection risk
+C.	Audit risk only
+D.	Inherent risk
+P401-03  Management can act directly on:
+A.	detection risk only
+B.	all three risks equally
+C.	inherent risk and control risk
+D.	audit risk only
+P401-04  Keeping spoilage below target is an objective of which category?
+A.	Operations
+B.	Reporting
+C.	Compliance
+D.	None of them
+P401-05  Orontes reports energy use per case in its integrated report. Which objective covers the reliability of that figure?
+A.	Operations
+B.	Compliance
+C.	It is not covered by internal control
+D.	Reporting
+P401-06  Meeting Jordan's data protection requirements is an objective of which category?
+A.	Operations
+B.	Compliance
+C.	Reporting
+D.	Governance
+P401-07  Which best shows a weak control environment?
+A.	A control costs more than the loss it prevents
+B.	An auditor samples rather than testing everything
+C.	A supplier fails to deliver
+D.	Nobody is asked about a control that was missed for a year
+P401-08  Why does organizational structure belong to the control environment?
+A.	It determines the chart of accounts
+B.	It sets the audit fee
+C.	It decides where authority stops and who approves whose work
+D.	It has no effect on control
+P401-09  The phrase 'tone at the top' refers to:
+A.	what staff conclude from what management rewards and tolerates
+B.	the formal code of conduct
+C.	the chairman's statement in the annual report
+D.	the audit committee's charter
+P401-10  A control is designed properly and operates properly, but a director instructs staff to bypass it. Which limitation is this?
+A.	Collusion
+B.	Management override
+C.	Human error
+D.	External events
+P401-11  Why can internal control never give absolute assurance?
+A.	Because controls are always badly designed
+B.	Because of judgment, error, collusion, override, external events and cost
+C.	Because auditors cannot test everything
+D.	Because management does not want it
+P401-12  A company declines a control because it would cost more than the losses it would prevent. This is:
+A.	a failure of the control environment
+B.	management override
+C.	never acceptable
+D.	a legitimate cost-benefit judgement, and one of the recognised limitations
+P401-13  Which action reduces control risk rather than inherent risk?
+A.	Ceasing to hold high-value inventory on site
+B.	Increasing the audit sample
+C.	Separating the approval of suppliers from the release of payments
+D.	Insuring against theft
+P401-14  A theft of inventory affects which objective categories?
+A.	Operations and reporting
+B.	Operations only
+C.	Compliance only
+D.	Reporting only
+P401-15  Which element of the control environment is most directly weakened when a company hires a clerk who cannot do the work?
+A.	Organizational structure
+B.	Management philosophy
+C.	Commitment to competence
+D.	Accountability
+P401-16  Audit risk is best described as:
+A.	the sum of inherent and control risk
+B.	the product of inherent, control and detection risk
+C.	the same as control risk
+D.	the risk that the company fails
+Case question: the supplier that delivered nothing
+Orontes Foods has found that a purchasing clerk at the Amman plant was able to add a supplier to the approved list and also to release payments to that supplier. Over fourteen months, payments went to a company that delivered no goods.
+The clerk had been in the role for three years. The written procurement policy required supplier approval by the purchasing manager, but the manager had delegated the task verbally during a busy period and never took it back. No one reviewed the approved supplier list.
+The loss came to light when a new controller, Rania, reconciled the supplier master file against goods received notes for the first time. The plant manager's bonus depends only on output and cost per case, and he told the board he had no reason to look at supplier records.
+The board has asked Rania to explain which risks were high, which components of internal control failed, which objectives were missed, and whether a cheap control would have prevented the loss entirely. Orontes has three divisions and a subsidiary, and the same procurement policy applies across all of them, so the board also wants to know whether the weakness could exist elsewhere.
+Use the scenario above for items C401-1 to C401-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C401-1  Classify each fact. (On the exam screen you would drag each item into a box.)
+Categories: Inherent risk · Control risk · Detection risk
+Fact from the case
+Category
+Payments to new suppliers are easy to disguise
+One clerk both approved suppliers and released payments
+Nobody reconciled suppliers to goods received for fourteen months
+The approved supplier list was never reviewed
+C401-2  Which component of internal control failed FIRST? [select]
+Options: Control activities   |   Monitoring activities   |   Information and communication   |   Risk assessment
+C401-3  Enter the number of the three objective categories that were missed.
+Answer: ____________
+C401-4  The plant manager's bonus depends only on output and cost per case. This illustrates a weakness in: [select]
+Options: management philosophy and style   |   organizational structure   |   commitment to competence   |   information and communication
+C401-5  Separating supplier approval from payment release would NOT have prevented: [select]
+Options: a director instructing the clerk to pay anyway   |   this particular fraud   |   payments to a supplier that delivered nothing   |   the overstatement of purchases
+C401-6  Rania should tell the board that internal control can offer: [select]
+Options: reasonable assurance, because judgment, collusion and override remain   |   absolute assurance once duties are separated   |   no useful assurance, since controls can always be bypassed   |   assurance only over the reporting objective
+C401-7  A failure caused by those who design or enforce a control stepping around it is called management ____.
+Choose the word or phrase for the blank: override   |   collusion   |   error   |   sampling
+Case question: the supplier that delivered nothing
+Orontes Foods has found that a purchasing clerk at the Amman plant was able to add a supplier to the approved list and also to release payments to that supplier. Over fourteen months, payments went to a company that delivered no goods.
+The clerk had been in the role for three years. The written procurement policy required supplier approval by the purchasing manager, but the manager had delegated the task verbally during a busy period and never took it back. No one reviewed the approved supplier list.
+The loss came to light when a new controller, Rania, reconciled the supplier master file against goods received notes for the first time. The plant manager's bonus depends only on output and cost per case, and he told the board he had no reason to look at supplier records.
+The board has asked Rania to explain which risks were high, which components of internal control failed, which objectives were missed, and whether a cheap control would have prevented the loss entirely. Orontes has three divisions and a subsidiary, and the same procurement policy applies across all of them, so the board also wants to know whether the weakness could exist elsewhere.
+Use the scenario above for items C401-1 to C401-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C401-1  Classify each fact. (On the exam screen you would drag each item into a box.)
+Categories: Inherent risk · Control risk · Detection risk
+Fact from the case
+Category
+Payments to new suppliers are easy to disguise
+One clerk both approved suppliers and released payments
+Nobody reconciled suppliers to goods received for fourteen months
+The approved supplier list was never reviewed
+C401-2  Which component of internal control failed FIRST? [select]
+Options: Control activities   |   Monitoring activities   |   Information and communication   |   Risk assessment
+C401-3  Enter the number of the three objective categories that were missed.
+Answer: ____________
+C401-4  The plant manager's bonus depends only on output and cost per case. This illustrates a weakness in: [select]
+Options: management philosophy and style   |   organizational structure   |   commitment to competence   |   information and communication
+C401-5  Separating supplier approval from payment release would NOT have prevented: [select]
+Options: a director instructing the clerk to pay anyway   |   this particular fraud   |   payments to a supplier that delivered nothing   |   the overstatement of purchases
+C401-6  Rania should tell the board that internal control can offer: [select]
+Options: reasonable assurance, because judgment, collusion and override remain   |   absolute assurance once duties are separated   |   no useful assurance, since controls can always be bypassed   |   assurance only over the reporting objective
+C401-7  A failure caused by those who design or enforce a control stepping around it is called management ____.
+Choose the word or phrase for the blank: override   |   collusion   |   error   |   sampling
+Answers and explanations
+Section checks
+SC401-1  Answer C. It is something done continuously, not a document.
+A is wrong. A procedure nobody follows is not a control.
+B is wrong. Internal audit monitors control; it is not the control itself.
+D is wrong. A certification reports on control; it is not control.
+SC401-2  Answer B. The auditor changes it by altering the nature, timing and extent of testing.
+A is wrong. Inherent risk belongs to the business and its transactions.
+C is wrong. Control risk belongs to management's system.
+D is wrong. Detection risk is the auditor's own.
+SC401-3  Answer A. Safeguarding sits inside operations; it is not a separate category.
+B is wrong. A category.
+C is wrong. A category.
+D is wrong. A category.
+SC401-4  Answer D. The 2013 framework widened the category from financial reporting to reporting.
+A is wrong. This was the 1992 wording, narrowed to financial reporting.
+B is wrong. Internal management reports are included too.
+C is wrong. That would be part of compliance, not the whole of reporting.
+SC401-5  Answer D. Staff act on what is rewarded, not on what is written.
+A is wrong. A written procedure does not survive an incentive pointing the other way.
+B is wrong. The incentive rewards output, not control.
+C is wrong. Operations and reporting are affected as well.
+SC401-6  Answer C. Weak tone and unclear accountability undermine every other control.
+A is wrong. Cost is not the reason.
+B is wrong. The board sees more than this.
+D is wrong. Control activities are still needed.
+SC401-7  Answer A. The word acknowledges real limits, not a low standard.
+B is wrong. This reads the standard as weak; it is high.
+C is wrong. Cost is one limitation, not the definition.
+D is wrong. Absolute assurance is not attainable.
+SC401-8  Answer B. A separation designed for one person acting alone cannot stop two acting together.
+A is wrong. Override is management stepping around the control, not staff colluding.
+C is wrong. This was deliberate, not a mistake.
+D is wrong. The control existed and was properly designed.
+SC401-9  Answer C. Detection risk concerns whether the checking work would find the problem.
+A is wrong. That describes the motive, not a risk category.
+B is wrong. That is inherent risk.
+D is wrong. That is control risk.
+SC401-10  Answer B. Management override defeats a control that staff alone would be stopped by.
+A is wrong. It would have stopped exactly this.
+C is wrong. It would have stopped these too.
+D is wrong. That followed from the payments, which would have been stopped.
+Your turn
+Item
+Answer
+A supplier invoice is paid twice
+Control risk — one clerk can both approve and release payment, so nothing stops the duplicate
+Stock records differ from the count
+Why: the recording and the custody of stock are not separated, so an error or theft is not detected
+A new food safety rule is missed
+Control risk — no control exists to track regulatory change, which is a compliance objective
+The auditor's sample misses a small fraud
+Detection risk — sampling cannot examine every transaction, which is the auditor's own limitation
+Multiple-choice questions
+P401-01  Answer A. It is about the system failing, not the business or the auditor.
+B is wrong. That is inherent risk.
+C is wrong. That is detection risk.
+D is wrong. That is a business risk, not a control risk.
+P401-02  Answer D. Inherent risk looks at the exposure itself.
+A is wrong. Control risk depends on the controls in place.
+B is wrong. Detection risk is the auditor's.
+C is wrong. Audit risk is the product of all three.
+P401-03  Answer C. Management changes what the business does and how it is controlled.
+A is wrong. Detection risk belongs to the auditor.
+B is wrong. Detection risk is outside management's control.
+D is wrong. Audit risk is a product, not a lever.
+P401-04  Answer A. Effectiveness and efficiency of operations.
+B is wrong. Reporting concerns the information produced.
+C is wrong. Compliance concerns laws and regulations.
+D is wrong. Every control objective falls in one of the three.
+P401-05  Answer D. Reporting covers non-financial information as well as financial.
+A is wrong. Using less energy is operations; reporting it reliably is reporting.
+B is wrong. No law requires the figure here.
+C is wrong. Internal control covers it precisely because the category is wide.
+P401-06  Answer B. Compliance with applicable laws and regulations.
+A is wrong. Operations is about effectiveness and efficiency.
+C is wrong. Reporting is about the information produced.
+D is wrong. Governance is not one of the three categories.
+P401-07  Answer D. Accountability is an element of the environment.
+A is wrong. That is a cost-benefit judgement, which is a limitation.
+B is wrong. That is detection risk.
+C is wrong. That is an external event.
+P401-08  Answer C. Reporting lines decide whether approval is independent.
+A is wrong. That is an accounting matter.
+B is wrong. Fees are not part of the environment.
+D is wrong. Structure is explicitly part of it.
+P401-09  Answer A. Behaviour teaches more than documents.
+B is wrong. A code is a document; the tone is what happens.
+C is wrong. A statement is not behaviour.
+D is wrong. A charter sets duties, not tone.
+P401-10  Answer B. Those who enforce controls can step around them.
+A is wrong. Collusion is two or more people agreeing together.
+C is wrong. This was deliberate.
+D is wrong. The cause was internal.
+P401-11  Answer B. These six are inherent limitations of any system.
+A is wrong. Even a well-designed system has limits.
+C is wrong. That is detection risk, only one part.
+D is wrong. The limits exist regardless of intent.
+P401-12  Answer D. A control that makes the company worse off is not worth having.
+A is wrong. Weighing cost against benefit is proper management.
+B is wrong. No control is being bypassed.
+C is wrong. Cost-benefit is explicitly recognised.
+P401-13  Answer C. It strengthens the system that prevents or detects a misstatement.
+A is wrong. That removes the underlying exposure, so it reduces inherent risk.
+B is wrong. That reduces detection risk.
+D is wrong. Insurance transfers loss; it does not reduce control risk.
+P401-14  Answer A. The asset is lost and the records are now wrong.
+B is wrong. The accounts are misstated as well.
+C is wrong. No law is breached by the loss itself.
+D is wrong. The loss of the asset is an operating failure too.
+P401-15  Answer C. People must be able to perform the duties assigned.
+A is wrong. The reporting lines may be sound.
+B is wrong. Philosophy concerns attitude to risk and targets.
+D is wrong. Accountability is about answering for results.
+P401-16  Answer B. The three combine to give the risk of a wrong audit opinion.
+A is wrong. They multiply, and detection risk is included.
+C is wrong. Control risk is only one component.
+D is wrong. That is a business risk.
+Case question: the supplier that delivered nothing
+C401-1
+Fact from the case
+Category
+Payments to new suppliers are easy to disguise
+Inherent risk
+One clerk both approved suppliers and released payments
+Control risk
+Nobody reconciled suppliers to goods received for fourteen months
+Detection risk
+The approved supplier list was never reviewed
+Control risk
+Classify each fact by the risk it illustrates.
+C401-2  Answer: Control activities.
+Monitoring activities is wrong: this answer monitoring failed too, but only after the duties were already combined.
+Information and communication is wrong: this answer the information existed; nobody compared it.
+Risk assessment is wrong: this answer the risk was known and a policy existed for it.
+C401-3  Answer: 3.
+1 is wrong: this answer operations was not the only category missed.
+2 is wrong: this answer compliance with the company's own policy was missed too.
+C401-4  Answer: management philosophy and style.
+organizational structure is wrong: this answer the reporting lines were not the problem here.
+commitment to competence is wrong: this answer nothing suggests he could not do the work.
+information and communication is wrong: this answer the incentive, not the information flow, shaped his attention.
+C401-5  Answer: a director instructing the clerk to pay anyway.
+this particular fraud is wrong: this answer it would have stopped exactly this.
+payments to a supplier that delivered nothing is wrong: this answer these would have been stopped.
+the overstatement of purchases is wrong: this answer this followed from payments that would have been stopped.
+C401-6  Answer: reasonable assurance, because judgment, collusion and override remain.
+absolute assurance once duties are separated is wrong: this answer no system reaches absolute assurance.
+no useful assurance, since controls can always be bypassed is wrong: this answer reasonable assurance is a high standard, not a worthless one.
+assurance only over the reporting objective is wrong: this answer control serves all three objective categories.
+C401-7  Answer: override.
+collusion is wrong: this answer collusion is two or more people agreeing together.
+error is wrong: this answer an override is deliberate.
+sampling is wrong: this answer sampling is an auditor's limitation.
+PART I — INTERNAL CONTROL AND GOVERNANCE

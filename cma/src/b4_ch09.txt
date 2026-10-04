@@ -1,0 +1,592 @@
+Chapter 9
+The Accounting Information System and Its Cycles
+نظام المعلومات المحاسبية ودوراته
+Parts I and II were about protecting what the system holds. Part III is about the system itself. It asks what the system does, how it is organised, and what happens when a company has several that do not speak to each other.
+Figure F409-01 shows the chapter.
+Figure F409-01. Chapter 9 roadmap: capture, process, report.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.1.a
+identify the role of the accounting information system (AIS) in the value chain
+Identify the role of the accounting information system in the value chain.
+Full treatment
+F.1.b
+demonstrate an understanding of the accounting information system cycles, including revenue to cash; expenditures; production; human resources and payroll; financing; and property, plant, and equipment, as well as the general ledger and reporting system
+Demonstrate an understanding of the accounting information system cycles, including revenue to cash, expenditures, production, human resources and payroll, and general ledger and reporting.
+Full treatment + Extended Example
+F.1.c
+identify and explain the challenges of having separate financial and nonfinancial systems
+Identify and explain the challenges of having separate financial and nonfinancial systems.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+accounting information system
+نظام المعلومات المحاسبية
+système d'information comptable
+value chain
+سلسلة القيمة
+chaîne de valeur
+transaction cycle
+دورة المعاملات
+cycle de transactions
+revenue cycle
+دورة الإيرادات
+cycle des revenus
+expenditure cycle
+دورة النفقات
+cycle des dépenses
+production cycle
+دورة الإنتاج
+cycle de production
+general ledger and reporting cycle
+دورة دفتر الأستاذ العام والتقارير
+cycle du grand livre et du reporting
+nonfinancial system
+النظام غير المالي
+système non financier
+single view
+الرؤية الموحدة
+vue unique
+WHAT YOU ALREADY KNOW   What you already know
+Books 1 and 2 used the output of this system constantly: trial balances, cost records and variance reports. This chapter is about where those numbers come from before anyone analyses them.
+9.1  What an accounting information system does
+An accounting information system captures, processes, stores and reports the economic events of a business. Figure F409-02 sets out those functions with an Orontes example of each.
+Figure F409-02. What an accounting information system does
+What an AIS does
+Meaning
+At Orontes
+Capture
+Record each economic event as it happens
+A goods received note raised at the gate
+Process
+Classify, value and summarise the events
+The invoice matched and posted to payables
+Store
+Keep the record so it can be found again
+The supplier account and the audit trail
+Report
+Present the result to whoever must decide
+The payables ageing of Book 1, Chapter 6
+Control
+Ensure what is captured is complete and authorized
+The input controls of Chapter 7
+The fifth row is the one that connects this chapter to the rest of the book. A system that captures and reports but does not control what it captures produces numbers nobody should rely on, which is why Chapters 6 and 7 came first.
+Notice what the definition does not say. It does not confine the system to financial data. The cases produced, the hours worked and the energy used are all economic events, and a modern system captures them alongside the amounts.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+accounting information system
+نظام المعلومات المحاسبية
+système d'information comptable
+value chain
+سلسلة القيمة
+chaîne de valeur
+English (exam term)
+العربية
+Français
+accounting information system
+نظام المعلومات المحاسبية
+système d'information comptable
+value chain
+سلسلة القيمة
+chaîne de valeur
+SECTION CHECK   Test yourself
+SC409-1  An accounting information system:
+A.	prepares the tax return only
+B.	replaces the general ledger
+C.	captures, processes, stores and reports the economic events of a business
+D.	is the same as the finance department
+SC409-2  Does an accounting information system hold non-financial data?
+A.	Yes: volumes, hours and energy used are economic events too
+B.	No, only amounts in currency
+C.	Only if the company has an ERP
+D.	Only for internal reporting
+Answers and explanations are at the end of the chapter.
+9.2  The system within the value chain
+The value chain divides a business into the primary activities that create the product and the support activities that make them possible. Figure F409-03 shows where the accounting information system sits.
+Figure F409-03. The accounting information system within the value chain.
+It is a support activity, and it is unusual among them because it touches every primary activity rather than one. Inbound logistics generates receipts, operations generates production records, sales generates invoices, and service generates warranty claims. Each becomes an entry.
+The practical consequence is that the system is the only place where the whole business can be seen at once. That is why its design decides what management can ask. A system organised only around the ledger cannot answer a question about a product or a customer.
+SECTION CHECK   Test yourself
+SC409-3  In the value chain, the accounting information system is:
+A.	a primary activity
+B.	outside the value chain
+C.	part of outbound logistics
+D.	a support activity that touches every primary activity
+SC409-4  Why is the system the only place the whole business can be seen at once?
+A.	It is the largest system the company owns
+B.	Every primary activity generates events that become entries in it
+C.	It reports to the board
+D.	It is audited annually
+Answers and explanations are at the end of the chapter.
+9.3  The transaction cycles
+Transactions are grouped into cycles, each covering a sequence of related events. Figure F409-04 shows the four operating cycles and the ledger they all feed.
+Figure F409-04. The four transaction cycles feeding the general ledger.
+The revenue cycle, often called revenue to cash, runs from the customer order to the collection of cash. The expenditure cycle, or expenditure to disbursement, runs from the purchase request to the payment. The production cycle converts materials into finished goods, and the payroll cycle turns hours into wages.
+The general ledger and reporting cycle is the fifth, and it differs from the others. It originates few transactions of its own: its work is to receive the summarised results of the other four, close the period, produce the statements, and hold the audit trail that leads back from any total to the entries behind it.
+Each cycle has its own documents, master files and controls. That is why Chapter 3 could discuss segregation cycle by cycle. A weakness in one cycle rarely stays there, because the ledger receives whatever the cycle sends it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+transaction cycle
+دورة المعاملات
+cycle de transactions
+revenue cycle
+دورة الإيرادات
+cycle des revenus
+expenditure cycle
+دورة النفقات
+cycle des dépenses
+production cycle
+دورة الإنتاج
+cycle de production
+general ledger and reporting cycle
+دورة دفتر الأستاذ العام والتقارير
+cycle du grand livre et du reporting
+English (exam term)
+العربية
+Français
+transaction cycle
+دورة المعاملات
+cycle de transactions
+revenue cycle
+دورة الإيرادات
+cycle des revenus
+expenditure cycle
+دورة النفقات
+cycle des dépenses
+production cycle
+دورة الإنتاج
+cycle de production
+general ledger and reporting cycle
+دورة دفتر الأستاذ العام والتقارير
+cycle du grand livre et du reporting
+SECTION CHECK   Test yourself
+SC409-5  The cycle running from the customer order to the collection of cash is the:
+A.	expenditure cycle
+B.	production cycle
+C.	revenue cycle
+D.	general ledger cycle
+SC409-6  How does the general ledger and reporting cycle differ from the other four?
+A.	It is the largest in transaction volume
+B.	It originates few transactions of its own and mainly receives summaries
+C.	It has no controls
+D.	It operates only at the year end
+Answers and explanations are at the end of the chapter.
+9.4  The cost of separate systems
+Most companies arrive at several systems rather than choosing them. A plant buys software to schedule production, sales buys something to track customers, and finance keeps the ledger it has always had. Each works. Figure F409-05 sets out what it costs to leave them apart.
+Figure F409-05. The challenges of separate financial and nonfinancial systems
+Challenge (F.1.c)
+What it means
+At Orontes
+Duplicate data entry
+The same fact is keyed into two systems
+Production enters output; accounting enters it again for costing
+Data that disagrees
+Two systems hold different versions of the same figure
+The plant says 240,000 cases; the ledger says 238,500
+Reconciliation effort
+Staff spend time explaining the difference, not analysing it
+Two days a month closing the gap
+Delay
+Information waits for a transfer or a monthly extract
+Managers see last month's margin in the third week
+No single view
+Nobody can see one customer or product end to end
+Profit by product needs three systems and a spreadsheet
+Weak control
+The transfer between systems is where errors hide
+A manual upload nobody reconciles
+The first two challenges are the ones candidates name, and the fifth is the one that matters most. When no system holds the whole picture, a question as ordinary as which product earns the most becomes a project rather than a query. By the time it is answered the month has moved on.
+There is a control dimension too. The transfer between two systems is where errors hide, because it belongs to neither. A monthly upload that nobody reconciles is exactly the kind of gap Chapter 3 would call a missing independent check.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+nonfinancial system
+النظام غير المالي
+système non financier
+single view
+الرؤية الموحدة
+vue unique
+English (exam term)
+العربية
+Français
+nonfinancial system
+النظام غير المالي
+système non financier
+single view
+الرؤية الموحدة
+vue unique
+SECTION CHECK   Test yourself
+SC409-7  Which challenge of separate systems is the most far-reaching?
+A.	No single view of a customer or product end to end
+B.	The cost of two software licences
+C.	Staff needing two passwords
+D.	Different screen layouts
+SC409-8  Why is the transfer between two systems a control weakness?
+A.	Transfers are always manual
+B.	Transfers cannot be logged
+C.	Transfers happen at night
+D.	It belongs to neither system, so errors there are often unreconciled
+Answers and explanations are at the end of the chapter.
+9.5  Extended Example 9A: one case of oil, four cycles
+This example follows a single case of olive oil from the purchase of the olives to the collection of cash, naming the cycle at each step. It is exam-core: questions give an event and ask which cycle it belongs to.
+1. Buying the olives
+The purchasing department raises a request, the manager approves it, the storekeeper receives the delivery and accounts payable pays the farmer. That is the expenditure cycle from end to end, and it creates a payable and then removes it.
+2. Making the oil
+Materials are issued to the pressing line, labour is recorded against the batch and overhead is applied at the rate Book 2 established. The production cycle moves the cost from raw materials through work in process to finished goods.
+3. Paying the people who made it
+The hours recorded against that batch also flow through the payroll cycle, which calculates gross pay, deducts what must be deducted and pays the net amount. The same hours therefore appear in two cycles, for two different purposes.
+4. Selling it
+A Gulf distributor orders, the warehouse ships, the system invoices and the cash arrives sixty days later. That is the revenue cycle, and it creates a receivable and then removes it.
+5. Where the separate systems hurt
+At Orontes the production system holds the batch and its hours, payroll holds the same hours, and the ledger holds the cost. Nothing joins them automatically. To ask what that case of oil actually cost, somebody must export from three systems and match them by hand.
+6. What the ledger sees
+The ledger receives four summarised postings and knows the margin on the case. It cannot say whether the margin came from a good price, a cheap harvest or an efficient shift, because the detail that would answer that stayed behind in the cycles.
+7. Your turn
+YOUR TURN   Name four cycles
+Complete the blank cells of Figure F409-06. Answers are at the end of the chapter.
+Figure F409-06. Your turn: name four cycles (complete the blanks)
+The steps
+Which cycle?
+Why
+Order, deliver, invoice, collect
+________
+It ends with cash coming in
+Request, order, receive, pay
+Expenditure to disbursement
+________
+Issue materials, apply labour and overhead
+________
+It ends with finished goods
+Hire, record time, pay
+________
+It ends with wages and deductions
+8. Tie line
+WORKED EXAMPLE   The pattern behind the example
+Name the cycle by where the sequence ends: cash in, cash out, finished goods, or wages.
+One event may belong to two cycles, as hours belong to production and payroll.
+The ledger receives summaries, not detail.
+Separate systems mean the detail cannot be reassembled without manual work.
+9. How the exam asks it
+EXAM TRAP   Exam view
+A question names an activity and asks for the cycle. Follow it to its end. Issuing materials ends in finished goods, so it is production; recording the hours of the same worker ends in a wage payment, so it is payroll.
+10. Self-check
+SECTION CHECK   Test yourself
+SC409-9  Use Extended Example 9A. The hours recorded against a batch belong to:
+A.	the production cycle only
+B.	both the production cycle and the payroll cycle
+C.	the payroll cycle only
+D.	the general ledger cycle
+SC409-10  Use Extended Example 9A. Why can the ledger not say whether the margin came from a cheap harvest or an efficient shift?
+A.	The ledger is not reconciled
+B.	The margin was not calculated
+C.	The detail that would answer it stayed behind in the separate cycles
+D.	The ledger holds only cash transactions
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F409-07 brings the chapter together.
+Figure F409-07. Chapter 9 summary map: the key rule for each section.
+An accounting information system captures, processes, stores, reports and controls the economic events of a business, financial and non-financial alike. In the value chain it is a support activity that touches every primary one, which makes it the only place the whole business can be seen at once. Transactions are grouped into cycles: revenue to cash, expenditure to disbursement, production, and human resources and payroll, each feeding a general ledger and reporting cycle that closes the period and holds the audit trail. Keeping financial and non-financial systems separate costs duplicate entry, figures that disagree, reconciliation effort, delay, the loss of any single view, and a transfer between systems that belongs to nobody.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P409-01  Which is NOT one of the functions of an accounting information system?
+A.	Capturing economic events
+B.	Storing records
+C.	Reporting results
+D.	Setting the selling price
+P409-02  A goods received note raised at the gate is an example of the system:
+A.	capturing an economic event
+B.	reporting a result
+C.	storing a record
+D.	controlling access
+P409-03  Which is a primary activity in the value chain?
+A.	Procurement
+B.	Technology development
+C.	Operations
+D.	Firm infrastructure
+P409-04  A purchase request, order, receipt and payment make up the:
+A.	expenditure cycle
+B.	revenue cycle
+C.	production cycle
+D.	payroll cycle
+P409-05  Issuing materials and applying overhead to a batch belongs to the:
+A.	expenditure cycle
+B.	production cycle
+C.	revenue cycle
+D.	general ledger cycle
+P409-06  Which accounts does the revenue cycle principally affect?
+A.	Purchases, payables and cash payments
+B.	Work in process and finished goods
+C.	Wages and payroll taxes
+D.	Sales, receivables and cash receipts
+P409-07  The general ledger cycle holds:
+A.	the audit trail leading back from any total to the entries behind it
+B.	every original document
+C.	the production schedule
+D.	the customer master file
+P409-08  Which cycle turns hours into wages?
+A.	Production
+B.	Human resources and payroll
+C.	Expenditure
+D.	Revenue
+P409-09  Which is a challenge of separate financial and nonfinancial systems?
+A.	Fewer staff are needed
+B.	Reports arrive sooner
+C.	Controls are stronger
+D.	The same fact must be keyed twice
+P409-10  The plant reports 240,000 cases and the ledger shows 238,500. This illustrates:
+A.	a production error
+B.	a pricing error
+C.	data that disagrees between systems
+D.	a control deficiency in the ledger
+P409-11  Why does profit by product take three systems and a spreadsheet at Orontes?
+A.	The ledger is not closed
+B.	The products are too numerous
+C.	No system holds revenue, cost and volume for one product together
+D.	The spreadsheet is faster
+P409-12  Managers see last month's margin in the third week of this month. Which challenge is this?
+A.	Delay, because information waits for a transfer or extract
+B.	Duplicate entry
+C.	Weak control
+D.	No single view
+P409-13  Why does Chapter 7 on input controls come before this chapter in the book?
+A.	Input controls are more important than cycles
+B.	The cycles cannot be understood without them
+C.	It is an arbitrary ordering
+D.	A system that does not control what it captures produces numbers nobody should rely on
+P409-14  A warranty claim recorded after a sale belongs to which activity of the value chain?
+A.	Operations
+B.	Service
+C.	Marketing and sales
+D.	Inbound logistics
+P409-15  Two days a month spent explaining a difference between systems is best described as:
+A.	reconciliation effort that produces no analysis
+B.	an efficient control
+C.	a necessary audit procedure
+D.	duplicate data entry
+P409-16  Which statement about the cycles is correct?
+A.	They share one master file
+B.	Only the ledger cycle has controls
+C.	A weakness in one cycle stays in that cycle
+D.	Each has its own documents, master files and controls
+Case question: what did the case of oil cost?
+Orontes runs three systems that do not connect. The plant system schedules production and records the hours and the cases produced on each batch. A separate payroll system holds the same hours for the purpose of paying wages. The accounting system holds the ledger and the costs. None of the three systems was chosen; each was bought by a different department over the past nine years.
+The sales director has asked a simple question: what did one case of premium olive oil cost to make last month, and how much of that was labour? The controller's team exported data from all three systems and spent two days matching batches by date and shift before producing an answer.
+While matching, the team found that the plant system recorded 240,000 cases for the month and the ledger showed 238,500. Nobody could explain the difference, and the monthly upload from the plant system to the ledger is not reconciled by anyone.
+The board is considering whether to replace all three with a single system. The finance director has asked Rania to set out what the present arrangement actually costs, beyond the licence fees, before any proposal is prepared.
+Use the scenario above for items C409-1 to C409-7.
+How to enter answers: Select one option for each item.
+C409-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Revenue to cash · Expenditure to disbursement · Production · Human resources and payroll
+Event or record
+Category
+Invoicing a Gulf distributor
+Paying the olive farmer
+Issuing materials to the pressing line
+Calculating deductions from a worker's gross pay
+C409-2  The hours recorded on a batch appear in two systems because: [select]
+Options: the same event serves two cycles, carrying labour cost into production and driving the wage calculation   |   the plant system is unreliable   |   payroll needs a second copy for backup   |   the ledger requires duplicate entry
+C409-3  The two days spent matching batches by hand is an example of: [select]
+Options: reconciliation effort caused by having no single view   |   a necessary month-end control   |   an audit requirement   |   production inefficiency
+C409-4  The unexplained difference of 1,500 cases points most directly to: [select]
+Options: the unreconciled transfer between the plant system and the ledger   |   an error in the plant system   |   an error in the ledger   |   theft of finished goods
+C409-5  Why can the ledger alone not answer the sales director's question? [select]
+Options: it receives summarised postings, so the detail explaining the cost stayed in the cycles   |   the ledger is not closed   |   the ledger holds only cash transactions   |   the question is about a non-financial measure
+C409-6  Which cost of the present arrangement should Rania put FIRST in her note to the board? [select]
+Options: no single view, so ordinary questions become projects and answers arrive too late to act on   |   the licence fees for three systems   |   the inconvenience of three logins   |   the different screen layouts
+C409-7  The cycle that receives summaries from the others, closes the period and holds the audit trail is the general ____ and reporting cycle.
+Choose the word or phrase for the blank: ledger   |   journal   |   expenditure   |   revenue
+Case question: what did the case of oil cost?
+Orontes runs three systems that do not connect. The plant system schedules production and records the hours and the cases produced on each batch. A separate payroll system holds the same hours for the purpose of paying wages. The accounting system holds the ledger and the costs. None of the three systems was chosen; each was bought by a different department over the past nine years.
+The sales director has asked a simple question: what did one case of premium olive oil cost to make last month, and how much of that was labour? The controller's team exported data from all three systems and spent two days matching batches by date and shift before producing an answer.
+While matching, the team found that the plant system recorded 240,000 cases for the month and the ledger showed 238,500. Nobody could explain the difference, and the monthly upload from the plant system to the ledger is not reconciled by anyone.
+The board is considering whether to replace all three with a single system. The finance director has asked Rania to set out what the present arrangement actually costs, beyond the licence fees, before any proposal is prepared.
+Use the scenario above for items C409-1 to C409-7.
+How to enter answers: Select one option for each item.
+C409-1  Classify each item. (On the exam screen you would drag each item into a box.)
+Categories: Revenue to cash · Expenditure to disbursement · Production · Human resources and payroll
+Event or record
+Category
+Invoicing a Gulf distributor
+Paying the olive farmer
+Issuing materials to the pressing line
+Calculating deductions from a worker's gross pay
+C409-2  The hours recorded on a batch appear in two systems because: [select]
+Options: the same event serves two cycles, carrying labour cost into production and driving the wage calculation   |   the plant system is unreliable   |   payroll needs a second copy for backup   |   the ledger requires duplicate entry
+C409-3  The two days spent matching batches by hand is an example of: [select]
+Options: reconciliation effort caused by having no single view   |   a necessary month-end control   |   an audit requirement   |   production inefficiency
+C409-4  The unexplained difference of 1,500 cases points most directly to: [select]
+Options: the unreconciled transfer between the plant system and the ledger   |   an error in the plant system   |   an error in the ledger   |   theft of finished goods
+C409-5  Why can the ledger alone not answer the sales director's question? [select]
+Options: it receives summarised postings, so the detail explaining the cost stayed in the cycles   |   the ledger is not closed   |   the ledger holds only cash transactions   |   the question is about a non-financial measure
+C409-6  Which cost of the present arrangement should Rania put FIRST in her note to the board? [select]
+Options: no single view, so ordinary questions become projects and answers arrive too late to act on   |   the licence fees for three systems   |   the inconvenience of three logins   |   the different screen layouts
+C409-7  The cycle that receives summaries from the others, closes the period and holds the audit trail is the general ____ and reporting cycle.
+Choose the word or phrase for the blank: ledger   |   journal   |   expenditure   |   revenue
+Answers and explanations
+Section checks
+SC409-1  Answer C. Those four functions, with control over what is captured.
+A is wrong. Far narrower than the system's purpose.
+B is wrong. The ledger is part of the system, not its replacement.
+D is wrong. A department is people; the system is how events are recorded.
+SC409-2  Answer A. The definition is not confined to money.
+B is wrong. That is the narrow view the outcome rejects.
+C is wrong. An ERP integrates them; it does not make them economic events.
+D is wrong. External reports use non-financial measures too.
+SC409-3  Answer D. Each primary activity generates events it must record.
+A is wrong. Primary activities create the product itself.
+B is wrong. It is one of the support activities.
+C is wrong. That is one primary activity among five.
+SC409-4  Answer B. Nothing else receives from all of them.
+A is wrong. Size is not the reason.
+C is wrong. Reporting lines are not the reason.
+D is wrong. Audit does not confer the view.
+SC409-5  Answer C. Revenue to cash.
+A is wrong. That runs from request to payment.
+B is wrong. That converts materials into finished goods.
+D is wrong. That receives summaries from the others.
+SC409-6  Answer B. Its work is closing, reporting and holding the audit trail.
+A is wrong. The operating cycles generate far more transactions.
+C is wrong. It has its own controls.
+D is wrong. It operates every period.
+SC409-7  Answer A. An ordinary question becomes a project.
+B is wrong. A real cost, but a small one.
+C is wrong. An inconvenience, not a business limitation.
+D is wrong. Cosmetic.
+SC409-8  Answer D. Nobody owns the gap between two owners.
+A is wrong. Many are automated and still unreconciled.
+B is wrong. They can be logged, if someone chooses to.
+C is wrong. Timing is not the issue.
+SC409-9  Answer B. The same event serves two purposes.
+A is wrong. They also drive the wage calculation.
+C is wrong. They also carry labour cost into work in process.
+D is wrong. The ledger receives only the summaries.
+SC409-10  Answer C. Summaries reach the ledger; explanations do not.
+A is wrong. Reconciliation would not add the missing detail.
+B is wrong. The margin is known; its causes are not.
+D is wrong. The ledger holds accruals too.
+Your turn
+Item
+Answer
+Order, deliver, invoice, collect
+Revenue to cash — it ends with cash coming in from the customer
+Request, order, receive, pay
+Why: the sequence ends with cash going out to the supplier, which is what defines the expenditure cycle
+Issue materials, apply labour and overhead
+Production — it ends with finished goods ready to sell
+Hire, record time, pay
+Human resources and payroll — it ends with wages paid and deductions accounted for
+Multiple-choice questions
+P409-01  Answer D. Pricing is a management decision the system informs.
+A is wrong. A core function.
+B is wrong. A core function.
+C is wrong. A core function.
+P409-02  Answer A. The event is recorded as it happens.
+B is wrong. Reporting comes later.
+C is wrong. Storage follows capture.
+D is wrong. Access control is a different matter.
+P409-03  Answer C. The five primary activities create the product.
+A is wrong. A support activity.
+B is wrong. A support activity.
+D is wrong. A support activity.
+P409-04  Answer A. Expenditure to disbursement.
+B is wrong. That ends with cash coming in.
+C is wrong. That ends with finished goods.
+D is wrong. That ends with wages.
+P409-05  Answer B. It converts materials into finished goods.
+A is wrong. Buying the materials was expenditure; issuing them is production.
+C is wrong. Nothing is sold yet.
+D is wrong. The ledger receives the summary afterwards.
+P409-06  Answer D. The cycle runs from order to collection.
+A is wrong. Those are the expenditure cycle.
+B is wrong. Those are production.
+C is wrong. Those are payroll.
+P409-07  Answer A. It receives summaries but preserves the route back.
+B is wrong. Documents stay with their cycles.
+C is wrong. That belongs to production.
+D is wrong. That belongs to revenue.
+P409-08  Answer B. Hire, record time, pay, account for deductions.
+A is wrong. Production uses the hours for cost, not for pay.
+C is wrong. That pays suppliers.
+D is wrong. That collects from customers.
+P409-09  Answer D. Duplicate entry is the first cost.
+A is wrong. More staff time is needed, not less.
+B is wrong. Reports arrive later.
+C is wrong. The transfer weakens control.
+P409-10  Answer C. Two systems hold different versions of one figure.
+A is wrong. Either figure may be right; the problem is that they differ.
+B is wrong. Volume is not price.
+D is wrong. The weakness is in the gap, not in one system.
+P409-11  Answer C. That is what losing the single view costs.
+A is wrong. Closing would not join the systems.
+B is wrong. Number of products is not the obstacle.
+D is wrong. The spreadsheet is a workaround, not a preference.
+P409-12  Answer A. The information exists but arrives too late to act on.
+B is wrong. That is about keying the same fact twice.
+C is wrong. Control is a separate consequence.
+D is wrong. The view may exist, eventually.
+P409-13  Answer D. Capture without control is not reliable capture.
+A is wrong. Both matter; the question is sequence.
+B is wrong. The cycles can be described independently.
+C is wrong. The ordering is deliberate.
+P409-14  Answer B. Service follows delivery and generates its own entries.
+A is wrong. Operations makes the product.
+C is wrong. The sale is already complete.
+D is wrong. That concerns incoming materials.
+P409-15  Answer A. The time buys agreement, not understanding.
+B is wrong. It is a cost of the gap, not a control.
+C is wrong. No auditor requires it.
+D is wrong. That is the keying, not the explaining.
+P409-16  Answer D. Which is why segregation can be discussed cycle by cycle.
+A is wrong. Each cycle keeps its own.
+B is wrong. All of them have controls.
+C is wrong. The ledger receives whatever the cycle sends.
+Case question: what did the case of oil cost?
+C409-1
+Event or record
+Category
+Invoicing a Gulf distributor
+Revenue to cash
+Paying the olive farmer
+Expenditure to disbursement
+Issuing materials to the pressing line
+Production
+Calculating deductions from a worker's gross pay
+Human resources and payroll
+Classify each item by the transaction cycle it belongs to.
+C409-2  Answer: the same event serves two cycles, carrying labour cost into production and driving the wage calculation.
+the plant system is unreliable is wrong: this answer reliability is not why the hours appear twice.
+payroll needs a second copy for backup is wrong: this answer this is not a backup arrangement.
+the ledger requires duplicate entry is wrong: this answer duplicate entry is a consequence of separate systems, not a requirement.
+C409-3  Answer: reconciliation effort caused by having no single view.
+a necessary month-end control is wrong: this answer it produces agreement, not assurance, and no control is being performed.
+an audit requirement is wrong: this answer no auditor asked for it.
+production inefficiency is wrong: this answer the plant worked normally; the systems did not.
+C409-4  Answer: the unreconciled transfer between the plant system and the ledger.
+an error in the plant system is wrong: this answer either figure may be right; the gap is unexamined.
+an error in the ledger is wrong: this answer same objection: nobody has looked.
+theft of finished goods is wrong: this answer possible, but nothing yet points to it rather than to a recording difference.
+C409-5  Answer: it receives summarised postings, so the detail explaining the cost stayed in the cycles.
+the ledger is not closed is wrong: this answer closing would not add detail the ledger never received.
+the ledger holds only cash transactions is wrong: this answer it holds accruals and costs too.
+the question is about a non-financial measure is wrong: this answer cost per case is financial, and in any case the system records non-financial data too.
+C409-6  Answer: no single view, so ordinary questions become projects and answers arrive too late to act on.
+the licence fees for three systems is wrong: this answer a real cost, but the smallest of those listed.
+the inconvenience of three logins is wrong: this answer an irritation, not a business limitation.
+the different screen layouts is wrong: this answer cosmetic.
+C409-7  Answer: ledger.
+journal is wrong: this answer the journal is a book of original entry within a cycle.
+expenditure is wrong: this answer that cycle ends with cash going out.
+revenue is wrong: this answer that cycle ends with cash coming in.
+PART III — INFORMATION SYSTEMS

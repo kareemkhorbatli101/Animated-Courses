@@ -16,12 +16,13 @@ import xml.etree.ElementTree as ET
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 HERE = os.path.dirname(os.path.abspath(__file__))
 UP = '/root/.claude/uploads/d2ecb935-98b0-524f-8ee9-37faa42d8a33/'
-# The two books are authored to the same conventions, so one extractor serves
-# both: only the file and the output prefix differ.
+# The books are authored to the same conventions, so one extractor serves
+# all of them: only the file and the output prefix differ.
 BOOKS = {
     1: UP + '638db64a-CMA_P1_SecA_Ch01-18_book_REVIEW_EDITION.docx',
     2: UP + 'ca83676e-CMA_P1_Book2_REVIEW_EDITION.docx',
     3: UP + '30b2c1ee-CMA_P1_Book3_REVIEW_EDITION.docx',
+    4: UP + '4ca511a4-CMA_P1_Book4_volume_v1.0.docx',
 }
 BOOK = BOOKS[1]
 

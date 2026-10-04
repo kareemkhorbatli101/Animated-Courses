@@ -1,0 +1,769 @@
+Chapter 15
+Types of Analytics and Regression
+أنواع التحليلات وتحليل الانحدار
+Chapter 14 left a hypothesis untested: that Beverages demand follows temperature more closely than the promotion calendar. This chapter tests it, and in doing so covers the one calculation in this part of the syllabus.
+Figure F415-01 shows the chapter.
+Figure F415-01. Chapter 15 roadmap: which question, which technique, how good.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.4.l
+explain the challenge of fitting an analytics model to the data
+Explain the challenge of fitting an analytics model to the data.
+Full treatment
+F.4.m
+define the different types of data analytics, including descriptive, diagnostic, predictive, and prescriptive
+Define descriptive, diagnostic, predictive and prescriptive analytics.
+Full treatment
+F.4.n
+define clustering and classification, and determine when each of these analytic techniques would be the appropriate tool to use
+Define clustering and classification and determine when each is the appropriate tool.
+Full treatment
+F.4.o
+demonstrate an understanding of multiple regression and logistic regression and recognize when these techniques are appropriate
+Demonstrate an understanding of multiple and logistic regression and when each is appropriate.
+Full treatment
+F.4.p
+calculate the result of multiple regression equations as applied to a specific situation
+Calculate the result of a multiple regression equation applied to a situation.
+Full treatment + Extended Example
+F.4.q
+demonstrate an understanding of the coefficient of determination (R squared) and the correlation coefficient (R)
+Demonstrate an understanding of the coefficient of determination and the correlation coefficient.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+descriptive analytics
+التحليلات الوصفية
+analytique descriptive
+diagnostic analytics
+التحليلات التشخيصية
+analytique diagnostique
+predictive analytics
+التحليلات التنبؤية
+analytique prédictive
+prescriptive analytics
+التحليلات الإرشادية
+analytique prescriptive
+underfitting
+القصور في المطابقة
+sous-ajustement
+overfitting
+الإفراط في المطابقة
+surajustement
+clustering
+التجميع العنقودي
+regroupement
+classification
+التصنيف
+classification
+multiple regression
+الانحدار المتعدد
+régression multiple
+logistic regression
+الانحدار اللوجستي
+régression logistique
+intercept
+الجزء الثابت
+ordonnée à l'origine
+correlation coefficient
+معامل الارتباط
+coefficient de corrélation
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+WHAT YOU ALREADY KNOW   What you already know
+Book 2 used the high-low method to split a mixed cost into fixed and variable parts. Regression does the same job properly, using every observation rather than two, and this chapter is where that promise is kept.
+15.1  The four types of analytics
+Analytics is usually divided into four types by the question each answers. Figure F415-02 sets them out.
+Figure F415-02. The four types of analytics
+Type (F.4.m)
+Question
+What it does
+At Orontes
+Descriptive
+What happened?
+Reporting and summarising past data
+Cases sold by quarter
+Diagnostic
+Why did it happen?
+Drilling into causes and relationships
+The third quarter peak follows temperature
+Predictive
+What will happen?
+Modelling to forecast
+Next summer's expected demand
+Prescriptive
+What should we do?
+Optimising a decision under constraints
+How many shifts to schedule, given capacity
+The order is one of increasing value and difficulty. descriptive analytics is the reporting most companies already do well. diagnostic analytics explains what the reporting showed, and that is where Chapter 13's distinction between knowledge and insight lives.
+predictive analytics says what will happen, which is this chapter's subject. prescriptive analytics goes further and recommends what to do given the constraints. That is where Book 2's linear programming would sit if a company joined the two.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+descriptive analytics
+التحليلات الوصفية
+analytique descriptive
+diagnostic analytics
+التحليلات التشخيصية
+analytique diagnostique
+predictive analytics
+التحليلات التنبؤية
+analytique prédictive
+prescriptive analytics
+التحليلات الإرشادية
+analytique prescriptive
+English (exam term)
+العربية
+Français
+descriptive analytics
+التحليلات الوصفية
+analytique descriptive
+diagnostic analytics
+التحليلات التشخيصية
+analytique diagnostique
+predictive analytics
+التحليلات التنبؤية
+analytique prédictive
+prescriptive analytics
+التحليلات الإرشادية
+analytique prescriptive
+SECTION CHECK   Test yourself
+SC415-1  Which type of analytics answers 'why did it happen?'
+A.	Descriptive
+B.	Predictive
+C.	Diagnostic
+D.	Prescriptive
+SC415-2  Recommending how many shifts to schedule, given plant capacity, is:
+A.	predictive analytics
+B.	prescriptive analytics
+C.	diagnostic analytics
+D.	descriptive analytics
+Answers and explanations are at the end of the chapter.
+15.2  The challenge of fitting a model
+A model is a simplification of reality chosen to be useful. The central difficulty is that the data contains both the pattern you want and noise you do not, and no model can separate them perfectly. Figure F415-03 shows what goes wrong at each extreme.
+Figure F415-03. Underfitting, a good fit, and overfitting.
+underfitting means the model is too simple to capture the pattern: a flat line through a rising relationship explains almost nothing. overfitting is the subtler and more dangerous failure. A complicated model can be made to pass through every observed point. It then fits the past perfectly and predicts the future worse than a straight line would.
+The reason is that it has learned the noise as well as the signal, and the noise will not repeat. The defence is to test a model against data it has never seen, which Chapter 16 returns to, and to prefer the simplest model that does the job.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+underfitting
+القصور في المطابقة
+sous-ajustement
+overfitting
+الإفراط في المطابقة
+surajustement
+English (exam term)
+العربية
+Français
+underfitting
+القصور في المطابقة
+sous-ajustement
+overfitting
+الإفراط في المطابقة
+surajustement
+SECTION CHECK   Test yourself
+SC415-3  A model passes through every observed point. The most likely problem is:
+A.	overfitting: it has learned the noise and will predict badly
+B.	underfitting: it is too simple
+C.	nothing: it is the best possible model
+D.	the data is wrong
+SC415-4  What is the practical defence against overfitting?
+A.	Add more variables
+B.	Fit a more flexible curve
+C.	Report only the R squared
+D.	Test the model against data it has not seen, and prefer the simplest model that works
+Answers and explanations are at the end of the chapter.
+15.3  Clustering and classification
+Both techniques put cases into groups, and the exam asks which is appropriate when. Figure F415-04 answers it.
+Figure F415-04. Clustering against classification
+Technique (F.4.n)
+What it assumes
+What it does
+At Orontes
+Clustering
+Unsupervised: no labels exist
+Finds natural groups by similarity
+Which distributors behave alike, when nobody has said
+Classification
+Supervised: labels exist
+Assigns a case to a known category
+Is this order likely to be returned, given past returns
+How to choose
+Ask whether the categories are already known
+If they are, classify; if not, cluster
+Return or not is known; distributor types are not
+The test is a single question: are the categories already known? classification needs labelled history. It learns from cases whose answer is known, and then assigns new ones. clustering needs no labels at all, because it looks for natural groupings and leaves the analyst to decide what, if anything, they mean.
+At Orontes, whether an order was returned is recorded, so predicting returns is classification. Which distributors behave alike has never been recorded by anyone, so finding that out is clustering.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+clustering
+التجميع العنقودي
+regroupement
+classification
+التصنيف
+classification
+English (exam term)
+العربية
+Français
+clustering
+التجميع العنقودي
+regroupement
+classification
+التصنيف
+classification
+SECTION CHECK   Test yourself
+SC415-5  Orontes records whether each order was returned and wants to predict future returns. The appropriate technique is:
+A.	clustering, because the groups are unknown
+B.	classification, because the categories are already known
+C.	multiple regression, because returns are a quantity
+D.	descriptive analytics
+SC415-6  Nobody has ever categorised Orontes distributors, and the company wants to know which behave alike. This calls for:
+A.	classification
+B.	logistic regression
+C.	diagnostic analytics
+D.	clustering
+Answers and explanations are at the end of the chapter.
+15.4  Multiple and logistic regression
+multiple regression estimates how a quantity depends on several variables at once. logistic regression does the same job where the thing being predicted is a yes or a no. Figure F415-05 distinguishes them.
+Figure F415-05. Multiple against logistic regression
+Technique (F.4.o)
+Predicts
+The output is
+The question it answers
+Multiple regression
+A quantity
+Cases, revenue, cost, hours
+How many cases will we sell?
+Logistic regression
+A yes or no
+Probability between 0 and 1
+Will this customer pay late?
+Choosing
+Look at what is being predicted
+A number or a category
+If the answer is a quantity, use multiple regression
+The choice follows entirely from what is being predicted. A quantity, such as cases or cost or hours, calls for multiple regression. A category, such as whether a customer will pay late, calls for logistic regression, whose output is a probability between zero and one rather than a number of cases.
+A multiple regression equation takes the form of an intercept plus a coefficient for each variable multiplied by that variable's value. Each coefficient says how much the result changes when that variable rises by one, holding the others constant. That last clause is what makes it more useful than looking at one variable alone.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+multiple regression
+الانحدار المتعدد
+régression multiple
+logistic regression
+الانحدار اللوجستي
+régression logistique
+English (exam term)
+العربية
+Français
+multiple regression
+الانحدار المتعدد
+régression multiple
+logistic regression
+الانحدار اللوجستي
+régression logistique
+SECTION CHECK   Test yourself
+SC415-7  Which technique suits predicting whether a customer will pay late?
+A.	Logistic regression
+B.	Multiple regression
+C.	Clustering
+D.	Descriptive analytics
+SC415-8  A regression coefficient tells you how much the result changes when that variable rises by one:
+A.	ignoring the other variables
+B.	only if the other variables are zero
+C.	holding the other variables constant
+D.	only in the first period
+Answers and explanations are at the end of the chapter.
+15.5  Using the equation
+Fitting the eight quarters of Beverages data to price, mean temperature and promotion weeks gives the equation below. Only this calculation is examinable in this part of the syllabus, so it is worth being able to do it without hesitation.
+WORKED EXAMPLE   The fitted equation
+Cases = 339,267 − 8,085 × price + 1,457 × temperature + 2,706 × promotion weeks
+Price carries a negative coefficient: raise the price and sell fewer cases.
+Temperature and promotion carry positive coefficients: both raise demand.
+Every sign is what a reader would expect, and that is worth checking in any regression before trusting it. A coefficient with the wrong sign usually means the variables are entangled with each other rather than that the world has changed.
+Figure F415-06. Beverages demand against temperature, with the fitted line.
+Figure F415-06 plots the eight quarters against temperature, with the fitted line and the worked prediction marked. The points do not sit exactly on the line because price and promotion also move, and the line holds those at the values used for the prediction.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+intercept
+الجزء الثابت
+ordonnée à l'origine
+English (exam term)
+العربية
+Français
+intercept
+الجزء الثابت
+ordonnée à l'origine
+SECTION CHECK   Test yourself
+SC415-9  In the Beverages equation, what sign does the price coefficient carry?
+A.	Positive, because higher prices mean higher revenue
+B.	Negative, because raising the price sells fewer cases
+C.	Zero, because price does not matter
+D.	It depends on the quarter
+SC415-10  What does the standard error of the estimate measure?
+A.	The share of variation explained
+B.	The strength of the correlation
+C.	The typical distance of an observation from the fitted line, in cases
+D.	The number of variables used
+Answers and explanations are at the end of the chapter.
+15.6  How well does the model fit?
+Figure F415-07 sets out the measures the exam names, with what each tells you and what none of them tells you.
+Figure F415-07. Measures of fit
+Measure (F.4.q)
+Range
+What it tells you
+Note
+Correlation coefficient, R
+Between -1 and +1
+Direction and strength of a straight-line relationship
+Negative means they move oppositely
+Coefficient of determination, R squared
+Between 0 and 1
+The share of variation in the result that the model explains
+0.90 means 90 per cent explained
+The link
+R squared is R multiplied by itself, in simple regression
+So R of -0.8 gives R squared of 0.64
+The sign disappears when squared
+Adjusted R squared
+Always at or below R squared
+Penalises adding variables that do not help
+Use it to compare models of different sizes
+Standard error of the estimate
+In the units of the result
+The typical distance of a point from the line
+Smaller is better
+What none of them prove
+Not cause
+A high R squared on unrelated series is still a coincidence
+Chapter 14's warning applies
+The correlation coefficient runs from minus one to plus one and describes a straight-line relationship: its sign gives the direction, its size the strength. The coefficient of determination is that number squared, so it runs from zero to one and gives the share of the variation in the result that the model explains.
+Squaring destroys the sign, which is the point candidates most often miss. A correlation of -0.8 and one of plus 0.8 both give an R squared of 0.64. Both describe an equally strong relationship, running in opposite directions.
+EXAM TRAP   A high R squared is not proof
+R squared measures how much variation the model accounts for, not whether the relationship is real. Chapter 13's cases and staff birthdays could produce a respectable R squared and would still be a coincidence. Judgement about plausible cause comes first, and the statistic second.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+correlation coefficient
+معامل الارتباط
+coefficient de corrélation
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+English (exam term)
+العربية
+Français
+correlation coefficient
+معامل الارتباط
+coefficient de corrélation
+coefficient of determination
+معامل التحديد
+coefficient de détermination
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+SECTION CHECK   Test yourself
+SC415-11  A correlation coefficient of minus 0.8 gives an R squared of:
+A.	minus 0.64
+B.	minus 0.8
+C.	0.8
+D.	0.64
+SC415-12  What does an R squared of 0.90 mean?
+A.	The model accounts for 90 per cent of the variation in the result
+B.	The model is right 90 per cent of the time
+C.	There is a 90 per cent chance the relationship is real
+D.	Ninety per cent of the data was used
+Answers and explanations are at the end of the chapter.
+15.7  Extended Example 15A: predicting next quarter's demand
+This example performs the one calculation this part of the syllabus examines, and then asks how far the answer can be trusted. It is exam-core.
+1. The question
+Beverages expects to hold the price at $20.00 next quarter, the forecast mean temperature is 26 degrees, and 4 promotion weeks are planned. How many cases should the plant expect?
+2. The calculation
+WORKED EXAMPLE   Applying the equation
+Intercept: 339,267
+Price: −8,085 × 20.00 = (161,700)
+Temperature: 1,457 × 26 = 37,882
+Promotion: 2,706 × 4 = 10,824
+Expected demand: 226,273 cases
+3. The commonest arithmetic error
+Treating the price coefficient as positive gives 549,673 cases, which is far too high. The sign is part of the coefficient, and dropping it is the mistake the exam most often tests in this calculation.
+4. How good is the fit?
+The model's R squared is 0.9989, so it accounts for almost all the variation in quarterly cases. The adjusted figure is 0.9982, slightly lower because it penalises the three variables used. The standard error is 555 cases, which is the typical distance of an observation from the line.
+5. What that does not mean
+An R squared this high on 8 observations should make a reader cautious rather than confident. With few observations and three variables, a model can fit the past closely without predicting well, which is the overfitting of section 15.2. The honest statement is that the relationship looks strong and needs more quarters to confirm.
+6. Answering Chapter 14's question
+The temperature coefficient of 1,457 cases a degree, applied to a seasonal swing of some twenty degrees, moves demand far more than the promotion coefficient of 2,706 applied to a few weeks. Temperature dominates. But promotion is positive and material, so the Chapter 14 analyst who proposed cutting it was wrong.
+7. Your turn
+YOUR TURN   Name four types of analytics
+Complete the blank cells of Figure F415-08. Answers are at the end of the chapter.
+Figure F415-08. Your turn: name four types of analytics (complete the blanks)
+The question asked
+Which type?
+Why
+What happened last quarter?
+________
+It summarises the past
+Why did the third quarter peak?
+Diagnostic
+________
+How many cases next summer?
+________
+It forecasts
+How many shifts should we schedule?
+________
+It recommends a course of action
+8. Tie line
+WORKED EXAMPLE   Everything ties
+339,267 + ((161,700)) + 37,882 + 10,824 = 226,273 cases.
+Each coefficient carries the sign a reader would expect.
+R squared 0.9989, adjusted 0.9982, standard error 555 cases.
+9. How the exam asks it
+EXAM TRAP   Exam view
+The calculation is always the same shape: multiply each coefficient by its value, add the intercept, and watch the signs. If the question gives an R squared, it is usually asking what share of variation is explained, not whether the model is right.
+10. Self-check
+SECTION CHECK   Test yourself
+SC415-13  Use Extended Example 15A. What is the expected demand?
+A.	549,673 cases
+B.	226,273 cases
+C.	339,267 cases
+D.	240,000 cases
+SC415-14  Use Extended Example 15A. Why should an R squared of 0.9989 on 8 observations make a reader cautious?
+A.	R squared is unreliable above 0.9
+B.	The data must have been altered
+C.	Three variables are too few
+D.	With few observations and three variables, a model can fit the past closely without predicting well
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F415-09 brings the chapter together.
+Figure F415-09. Chapter 15 summary map: the key rule for each section.
+Analytics divides into four types by the question asked: descriptive for what happened, diagnostic for why, predictive for what will happen and prescriptive for what to do. Fitting a model means separating pattern from noise, and a model too simple underfits while one too complex overfits and predicts worse than a straight line. Clustering groups unlabelled data and classification assigns labelled data to known categories. Multiple regression predicts a quantity and logistic regression a yes or no. The equation is applied by multiplying each coefficient by its value and adding the intercept, keeping the signs. The correlation coefficient runs from minus one to plus one, and its square, the coefficient of determination, gives the share of variation the model explains, though neither establishes cause.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P415-01  Reporting cases sold by quarter is:
+A.	descriptive analytics
+B.	diagnostic analytics
+C.	predictive analytics
+D.	prescriptive analytics
+P415-02  Which type is hardest and most valuable?
+A.	Descriptive
+B.	Diagnostic
+C.	Prescriptive
+D.	Predictive
+P415-03  A flat line drawn through a clearly rising relationship is:
+A.	overfitting
+B.	a good fit
+C.	logistic regression
+D.	underfitting
+P415-04  Why does an overfitted model predict badly?
+A.	It uses too little data
+B.	Its coefficients are too small
+C.	It has learned noise that will not repeat
+D.	It has no intercept
+P415-05  Clustering is described as unsupervised because:
+A.	no labels exist for it to learn from
+B.	nobody reviews the result
+C.	it runs automatically
+D.	it needs no data
+P415-06  The single question that decides between clustering and classification is:
+A.	how much data is there?
+B.	are the categories already known?
+C.	how many variables are there?
+D.	is the outcome a quantity?
+P415-07  The output of a logistic regression is:
+A.	a probability between zero and one
+B.	a number of cases
+C.	a cluster label
+D.	an R squared
+P415-08  Multiple regression is preferred to examining one variable at a time because:
+A.	it needs less data
+B.	it shows each variable's effect while holding the others constant
+C.	it is easier to calculate
+D.	it always has a higher R squared
+P415-09  Applying a regression equation means:
+A.	adding all the coefficients together
+B.	multiplying the coefficients by each other
+C.	multiplying each coefficient by its value and adding the intercept
+D.	taking the average of the coefficients
+P415-10  A coefficient of minus 8,085 on price, applied to a price of 20.00, contributes:
+A.	plus 161,700
+B.	minus 8,085
+C.	plus 404
+D.	minus 161,700
+P415-11  Why do the plotted points not sit exactly on the fitted line in Figure F415-06?
+A.	The data is wrong
+B.	Price and promotion also vary, and the line holds them constant
+C.	The model is overfitted
+D.	The scale is misleading
+P415-12  The correlation coefficient runs:
+A.	from minus one to plus one
+B.	from zero to one
+C.	from zero to one hundred
+D.	without limit
+P415-13  Adjusted R squared is used to:
+A.	measure the direction of a relationship
+B.	estimate the standard error
+C.	test whether a relationship is real
+D.	compare models that use different numbers of variables
+P415-14  Two unrelated series produce an R squared of 0.85. This shows that:
+A.	the series must be related after all
+B.	R squared was calculated wrongly
+C.	R squared measures explained variation, not whether the relationship is real
+D.	more data is needed
+P415-15  Which pair is correctly matched?
+A.	Descriptive: why did it happen
+B.	Predictive: what will happen
+C.	Diagnostic: what should we do
+D.	Prescriptive: what happened
+P415-16  Which model should be preferred, other things being equal?
+A.	The one with the most variables
+B.	The one with the highest R squared
+C.	The simplest one that does the job
+D.	The one that fits every point
+Case question: the forecast for the hot quarter
+The Beverages division has fitted a regression to eight quarters of data. Cases sold are explained by price, mean temperature and the number of promotion weeks. The price coefficient is negative, and the temperature and promotion coefficients are both positive.
+The model reports an R squared of 0.9989, an adjusted R squared of 0.9982 and a standard error of 555 cases. The divisional accountant has described the model to the board as 'virtually certain' and has proposed using it to set the production plan for the next two years. No hold-out sample was kept, and the model has not been tested against any data it did not see during fitting.
+A junior analyst has raised two points. First, that eight observations and three variables is a small basis for such a claim. Second, that the same technique could be used to predict whether a given distributor will pay late, since that too is recorded in the system.
+The plant manager has separately asked what the model says demand will be if price is held at 20.00, forecast temperature is 26 degrees and four promotion weeks are planned.
+Use the scenario above for items C415-1 to C415-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C415-1  Classify each question. (On the exam screen you would drag each item into a box.)
+Categories: Descriptive · Diagnostic · Predictive · Prescriptive
+Question asked
+Category
+What were cases sold last quarter?
+Why did the third quarter peak?
+How many cases next summer?
+How many shifts should we run?
+C415-2  Using the fitted equation, enter the expected demand in cases for the plant manager's assumptions.
+Answer: ____________
+C415-3  On the accountant's description of the model as 'virtually certain', the right view is: [select]
+Options: R squared measures explained variation, and eight observations with three variables may indicate overfitting   |   the description is fair, since the R squared is very high   |   the description is fair, since the standard error is small   |   the model cannot be judged without more statistics
+C415-4  Using the model to plan production for two years is risky mainly because: [select]
+Options: a model fitted to eight quarters may not hold outside the range and period it was fitted to   |   regression cannot forecast at all   |   the coefficients will change signs   |   two years is too short a horizon
+C415-5  For predicting whether a distributor will pay late, the appropriate technique is: [select]
+Options: logistic regression, because the outcome is a yes or no   |   multiple regression, because the data is numerical   |   clustering, because the groups are unknown   |   descriptive analytics
+C415-6  What does the negative price coefficient mean? [select]
+Options: raising the price reduces the number of cases sold, holding temperature and promotion constant   |   raising the price reduces revenue   |   price and demand are unrelated   |   the model has an error
+C415-7  The share of variation in the result that a model explains is given by the coefficient of ____.
+Choose the word or phrase for the blank: determination   |   correlation   |   variation   |   regression
+Case question: the forecast for the hot quarter
+The Beverages division has fitted a regression to eight quarters of data. Cases sold are explained by price, mean temperature and the number of promotion weeks. The price coefficient is negative, and the temperature and promotion coefficients are both positive.
+The model reports an R squared of 0.9989, an adjusted R squared of 0.9982 and a standard error of 555 cases. The divisional accountant has described the model to the board as 'virtually certain' and has proposed using it to set the production plan for the next two years. No hold-out sample was kept, and the model has not been tested against any data it did not see during fitting.
+A junior analyst has raised two points. First, that eight observations and three variables is a small basis for such a claim. Second, that the same technique could be used to predict whether a given distributor will pay late, since that too is recorded in the system.
+The plant manager has separately asked what the model says demand will be if price is held at 20.00, forecast temperature is 26 degrees and four promotion weeks are planned.
+Use the scenario above for items C415-1 to C415-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C415-1  Classify each question. (On the exam screen you would drag each item into a box.)
+Categories: Descriptive · Diagnostic · Predictive · Prescriptive
+Question asked
+Category
+What were cases sold last quarter?
+Why did the third quarter peak?
+How many cases next summer?
+How many shifts should we run?
+C415-2  Using the fitted equation, enter the expected demand in cases for the plant manager's assumptions.
+Answer: ____________
+C415-3  On the accountant's description of the model as 'virtually certain', the right view is: [select]
+Options: R squared measures explained variation, and eight observations with three variables may indicate overfitting   |   the description is fair, since the R squared is very high   |   the description is fair, since the standard error is small   |   the model cannot be judged without more statistics
+C415-4  Using the model to plan production for two years is risky mainly because: [select]
+Options: a model fitted to eight quarters may not hold outside the range and period it was fitted to   |   regression cannot forecast at all   |   the coefficients will change signs   |   two years is too short a horizon
+C415-5  For predicting whether a distributor will pay late, the appropriate technique is: [select]
+Options: logistic regression, because the outcome is a yes or no   |   multiple regression, because the data is numerical   |   clustering, because the groups are unknown   |   descriptive analytics
+C415-6  What does the negative price coefficient mean? [select]
+Options: raising the price reduces the number of cases sold, holding temperature and promotion constant   |   raising the price reduces revenue   |   price and demand are unrelated   |   the model has an error
+C415-7  The share of variation in the result that a model explains is given by the coefficient of ____.
+Choose the word or phrase for the blank: determination   |   correlation   |   variation   |   regression
+Answers and explanations
+Section checks
+SC415-1  Answer C. It drills into causes and relationships.
+A is wrong. Descriptive reports what happened.
+B is wrong. Predictive forecasts what will happen.
+D is wrong. Prescriptive recommends what to do.
+SC415-2  Answer B. It optimises a decision under constraints.
+A is wrong. Forecasting demand would be predictive; choosing the shifts is not.
+C is wrong. Diagnostic explains the past.
+D is wrong. Descriptive summarises it.
+SC415-3  Answer A. Noise does not repeat, so the fit does not carry forward.
+B is wrong. A model through every point is too complex, not too simple.
+C is wrong. A perfect fit to the past is a warning, not a result.
+D is wrong. The data may be perfectly sound.
+SC415-4  Answer D. A hold-out sample exposes a model that has learned noise.
+A is wrong. More variables make overfitting more likely.
+B is wrong. Flexibility is the cause, not the cure.
+C is wrong. R squared rises as the model overfits.
+SC415-5  Answer B. Labelled history exists, so the model learns from it.
+A is wrong. The labels exist; clustering would waste them.
+C is wrong. Returned or not is a category, not a quantity.
+D is wrong. The question is predictive.
+SC415-6  Answer D. No labels exist, so the groups must be found.
+A is wrong. Classification needs categories already defined.
+B is wrong. Logistic regression predicts a yes or no.
+C is wrong. The task is grouping, not explaining.
+SC415-7  Answer A. The outcome is a yes or no, so the output is a probability.
+B is wrong. That predicts a quantity.
+C is wrong. Clustering groups rather than predicts.
+D is wrong. Descriptive analytics reports the past.
+SC415-8  Answer C. That clause is what makes multiple regression more useful than looking at one variable alone.
+A is wrong. The others are held, not ignored.
+B is wrong. The others may take any value.
+D is wrong. It applies across the fitted range.
+SC415-9  Answer B. Every sign in the model is what a reader would expect.
+A is wrong. That confuses revenue with volume.
+C is wrong. The coefficient is substantial.
+D is wrong. A coefficient is constant across the fitted data.
+SC415-10  Answer C. It is expressed in the units of the result.
+A is wrong. That is R squared.
+B is wrong. That is the correlation coefficient.
+D is wrong. That affects the adjusted figure, not this one.
+SC415-11  Answer D. Squaring destroys the sign.
+A is wrong. R squared cannot be negative.
+B is wrong. That is the correlation itself.
+C is wrong. That is the magnitude of the correlation, unsquared.
+SC415-12  Answer A. It measures explained variation, nothing else.
+B is wrong. It says nothing about being right.
+C is wrong. It is not a probability that the relationship exists.
+D is wrong. All the data is used.
+SC415-13  Answer B. Intercept plus each coefficient times its value, signs kept.
+A is wrong. This treats the price coefficient as positive.
+C is wrong. This is the intercept alone.
+D is wrong. This is an observed quarter, not the prediction.
+SC415-14  Answer D. That is the overfitting risk of section 15.2.
+A is wrong. No threshold makes the statistic unreliable.
+B is wrong. Nothing suggests alteration.
+C is wrong. Three variables on eight observations is many, not few.
+Your turn
+Item
+Answer
+What happened last quarter?
+Descriptive — it summarises what has already occurred
+Why did the third quarter peak?
+Why: diagnostic analytics drills into the causes and relationships behind what the reporting showed
+How many cases next summer?
+Predictive — it forecasts a future value
+How many shifts should we schedule?
+Prescriptive — it recommends a course of action given the constraints
+Multiple-choice questions
+P415-01  Answer A. It summarises what happened.
+B is wrong. Diagnostic explains why.
+C is wrong. Predictive forecasts.
+D is wrong. Prescriptive recommends.
+P415-02  Answer C. It recommends an action under constraints.
+A is wrong. The easiest and the most common.
+B is wrong. Harder than descriptive, easier than prescriptive.
+D is wrong. Valuable, but it stops short of recommending.
+P415-03  Answer D. The model is too simple to capture the pattern.
+A is wrong. Overfitting is too complex, not too simple.
+B is wrong. It explains almost nothing.
+C is wrong. That predicts a yes or no.
+P415-04  Answer C. The past fits perfectly and the future does not follow.
+A is wrong. It may use all the data available.
+B is wrong. Size of coefficients is not the issue.
+D is wrong. An intercept is present.
+P415-05  Answer A. It finds groups rather than being told them.
+B is wrong. The result should certainly be reviewed.
+C is wrong. Automation is not the meaning.
+D is wrong. It needs data like any technique.
+P415-06  Answer B. Known categories mean classification.
+A is wrong. Volume does not decide the technique.
+C is wrong. Nor does the number of variables.
+D is wrong. That decides between the two regressions.
+P415-07  Answer A. The outcome predicted is a yes or no.
+B is wrong. That is multiple regression.
+C is wrong. That is clustering.
+D is wrong. That is a measure of fit.
+P415-08  Answer B. Variables move together, and the technique separates them.
+A is wrong. It needs more, not less.
+C is wrong. It is harder to compute by hand.
+D is wrong. A higher R squared is not the justification.
+P415-09  Answer C. Keeping each sign as given.
+A is wrong. The values matter as well as the coefficients.
+B is wrong. Coefficients are not multiplied together.
+D is wrong. Averaging has no meaning here.
+P415-10  Answer D. The sign travels with the coefficient.
+A is wrong. That drops the negative sign.
+B is wrong. That omits the multiplication.
+C is wrong. That divides instead of multiplying.
+P415-11  Answer B. The line shows temperature's effect alone.
+A is wrong. The data is as recorded.
+C is wrong. An overfitted model would pass through every point.
+D is wrong. The axes are labelled and regular.
+P415-12  Answer A. Its sign gives the direction of the relationship.
+B is wrong. That is R squared.
+C is wrong. It is not a percentage.
+D is wrong. It is bounded.
+P415-13  Answer D. It penalises variables that do not help.
+A is wrong. Direction comes from the correlation coefficient.
+B is wrong. The standard error is separate.
+C is wrong. No statistic establishes that.
+P415-14  Answer C. Judgement about plausible cause comes first.
+A is wrong. Coincidence produces high values readily.
+B is wrong. The arithmetic may be perfectly correct.
+D is wrong. More data would not make a coincidence meaningful.
+P415-15  Answer B. Forecasting is the predictive question.
+A is wrong. That is diagnostic.
+C is wrong. That is prescriptive.
+D is wrong. That is descriptive.
+P415-16  Answer C. Simplicity is the defence against learning noise.
+A is wrong. More variables invite overfitting.
+B is wrong. R squared rises as a model overfits.
+D is wrong. That is the definition of overfitting.
+Case question: the forecast for the hot quarter
+C415-1
+Question asked
+Category
+What were cases sold last quarter?
+Descriptive
+Why did the third quarter peak?
+Diagnostic
+How many cases next summer?
+Predictive
+How many shifts should we run?
+Prescriptive
+Classify each question by the type of analytics it calls for.
+C415-2  Answer: 226,273.
+549,673 is wrong: this answer this treats the price coefficient as positive.
+339,267 is wrong: this answer this is the intercept alone, with no variables applied.
+C415-3  Answer: R squared measures explained variation, and eight observations with three variables may indicate overfitting.
+the description is fair, since the R squared is very high is wrong: this answer a high R squared is exactly what an overfitted model produces.
+the description is fair, since the standard error is small is wrong: this answer the standard error describes the fit to the same small sample.
+the model cannot be judged without more statistics is wrong: this answer the sample size and variable count already support a judgement.
+C415-4  Answer: a model fitted to eight quarters may not hold outside the range and period it was fitted to.
+regression cannot forecast at all is wrong: this answer forecasting is precisely what predictive analytics does.
+the coefficients will change signs is wrong: this answer nothing suggests the relationships will reverse.
+two years is too short a horizon is wrong: this answer the concern is that it is long relative to the data.
+C415-5  Answer: logistic regression, because the outcome is a yes or no.
+multiple regression, because the data is numerical is wrong: this answer the inputs are numerical but the outcome is a category.
+clustering, because the groups are unknown is wrong: this answer whether a customer paid late is recorded, so labels exist.
+descriptive analytics is wrong: this answer the question is predictive.
+C415-6  Answer: raising the price reduces the number of cases sold, holding temperature and promotion constant.
+raising the price reduces revenue is wrong: this answer the model predicts cases, not revenue.
+price and demand are unrelated is wrong: this answer a substantial negative coefficient shows the opposite.
+the model has an error is wrong: this answer a negative price coefficient is exactly what a reader should expect.
+C415-7  Answer: determination.
+correlation is wrong: this answer the correlation coefficient gives direction and strength, not the share explained.
+variation is wrong: this answer not a term used for this measure.
+regression is wrong: this answer a regression coefficient is the effect of one variable.
+PART IV — DATA ANALYTICS

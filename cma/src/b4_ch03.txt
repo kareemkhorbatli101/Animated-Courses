@@ -1,0 +1,670 @@
+Chapter 3
+Control Activities: Segregation of Duties and Safeguarding
+أنشطة الرقابة: الفصل بين المهام وحماية الأصول
+Chapter 1 named the five components and said that control activities are the actions that address a risk. This chapter is about those actions. They are the least glamorous part of internal control and the part that does most of the daily work.
+Figure F403-01 shows the three ideas.
+Figure F403-01. Chapter 3 roadmap: separate, protect, verify.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.1.i
+define and give examples of segregation of duties
+Define segregation of duties and give examples.
+Full treatment
+E.1.j
+explain why the following four types of functional responsibilities should be performed by different departments or different people within the same function: (i) authority to execute transactions, (ii) recording transactions, (iii) custody of assets involved in the transactions, and (iv) periodic reconciliations of the existing assets to recorded amounts
+Explain why authorization, recording, custody and reconciliation must be performed by different people.
+Full treatment + Extended Example
+E.1.k
+demonstrate an understanding of the importance of independent checks and verification
+Demonstrate an understanding of the importance of independent checks and verification.
+Full treatment
+E.1.l
+identify examples of safeguarding controls
+Identify examples of safeguarding controls.
+Full treatment
+E.1.m
+explain how the use of prenumbered forms, as well as specific policies and procedures detailing who is authorized to receive specific documents, is a means of control
+Explain how prenumbered forms and authority limits strengthen control.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+segregation of duties
+الفصل بين المهام
+séparation des tâches
+control activity
+نشاط الرقابة
+activité de contrôle
+authorization
+التفويض
+autorisation
+custody
+الحيازة
+garde des actifs
+independent check
+التحقق المستقل
+vérification indépendante
+custodial accountability
+المساءلة عن العهدة
+responsabilité de garde
+safeguarding control
+ضوابط حماية الأصول
+contrôle de protection des actifs
+prenumbered form
+نموذج مرقم مسبقا
+formulaire prénuméroté
+authority limit
+حد الصلاحية
+limite d'autorisation
+WHAT YOU ALREADY KNOW   What you already know
+The purchasing clerk in Chapter 1 could both approve a supplier and release payment to it. That single sentence describes a failure of segregation of duties, which is where this chapter begins.
+3.1  What segregation of duties means
+Segregation of duties means splitting a transaction so that no one person can both carry it out and conceal it. It is the most powerful control activity available, and usually the cheapest, because it costs an organizing decision rather than money.
+Figure F403-02 gives examples across the areas the exam uses.
+Figure F403-02. Segregation of duties across five areas
+Area
+What separation looks like
+Which duties are split
+Cash receipts
+The cashier who receives cash does not post the ledger or do the bank reconciliation
+Custody separated from recording and reconciliation
+Purchasing
+The buyer who approves a supplier does not release the payment
+Authorization separated from custody of cash
+Payroll
+The person who adds a new employee does not approve the payroll run
+Authorization separated from recording
+Inventory
+The storekeeper does not maintain the stock records or perform the count
+Custody separated from recording and verification
+Systems
+The programmer does not have access to live data or production programs
+Development separated from operations
+Notice what the examples have in common. In each case the person who can take or misdirect something is not the person who records it, and neither of them is the person who later checks that records and reality agree.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+segregation of duties
+الفصل بين المهام
+séparation des tâches
+control activity
+نشاط الرقابة
+activité de contrôle
+English (exam term)
+العربية
+Français
+segregation of duties
+الفصل بين المهام
+séparation des tâches
+control activity
+نشاط الرقابة
+activité de contrôle
+SECTION CHECK   Test yourself
+SC403-1  Segregation of duties means:
+A.	splitting a transaction so no one person can carry it out and conceal it
+B.	giving every employee a written job description
+C.	rotating staff between departments each year
+D.	having two people perform the same task
+SC403-2  Which arrangement shows proper segregation in cash receipts?
+A.	The cashier receives cash and posts the ledger
+B.	The cashier receives cash and reconciles the bank
+C.	One clerk performs all three to ensure consistency
+D.	The cashier receives cash; a second person posts the ledger; a third reconciles the bank
+Answers and explanations are at the end of the chapter.
+3.2  The four functional responsibilities
+The exam names four responsibilities that should be held by different people, or at least by different departments. Figure F403-03 shows them, and the pairings that create danger.
+Figure F403-03. The four duties and the dangerous pairs.
+Figure F403-04 defines each one precisely, because the distinction between authorization and custody is where candidates most often slip.
+Figure F403-04. The four functional responsibilities
+Functional responsibility (E.1.j)
+What it means
+At Orontes
+Authority to execute transactions
+Deciding that the transaction should happen at all
+The purchasing manager approves a new supplier
+Recording transactions
+Entering it in the accounting records
+The accounts clerk posts the invoice
+Custody of assets
+Holding or controlling the asset itself
+The cashier holds the cash; the storekeeper holds the stock
+Periodic reconciliation
+Comparing the records with the assets actually there
+A third person reconciles the bank statement
+The logic is always the same. A person who holds only one of the four can make a mistake or commit a fraud, but someone else will see it. A person who holds two can make the entry and remove the evidence, which is why the pairs matter more than the individual duties.
+EXAM TRAP   Two duties, not one, create the risk
+A question that describes someone performing one of the four duties describes a normal job. Look for the second duty. The answer is almost always the pair, not the person.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+authorization
+التفويض
+autorisation
+custody
+الحيازة
+garde des actifs
+English (exam term)
+العربية
+Français
+authorization
+التفويض
+autorisation
+custody
+الحيازة
+garde des actifs
+SECTION CHECK   Test yourself
+SC403-3  Which is NOT one of the four functional responsibilities that must be separated?
+A.	Authorizing the transaction
+B.	Recording the transaction
+C.	Budgeting the transaction
+D.	Custody of the asset
+SC403-4  A storekeeper both holds the stock and maintains the stock records. Which duties are combined?
+A.	Authorization and custody
+B.	Custody and recording
+C.	Recording and reconciliation
+D.	Authorization and recording
+Answers and explanations are at the end of the chapter.
+3.3  Independent checks and verification
+An independent check is a comparison performed by someone who did not do the work being checked. The word independent is the whole of the control: a reconciliation performed by the person who made the entries proves nothing, because the same misunderstanding or the same intent produced both.
+Figure F403-05 lists the checks the exam expects, who must perform each, and what it would catch.
+Figure F403-05. Independent checks and who must perform them
+Independent check
+Who must perform it
+What it would catch
+Bank reconciliation
+Someone who neither handles cash nor posts the ledger
+Cash recorded but never banked
+Stock count
+A team that does not include the storekeeper
+Stock recorded but not present
+Supplier statement reconciliation
+Accounts payable, not the buyer
+Invoices paid twice or paid to the wrong party
+Review of exception reports
+A supervisor, not the clerk who caused the exception
+Overrides and unusual amounts
+Internal audit
+A function reporting to the audit committee, not to the manager audited
+Weaknesses the line would not report on itself
+Independent checks are detective rather than preventive. They do not stop the error; they find it afterwards. That is why they sit alongside segregation rather than replacing it, and why their value depends entirely on someone acting when a difference appears.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+independent check
+التحقق المستقل
+vérification indépendante
+English (exam term)
+العربية
+Français
+independent check
+التحقق المستقل
+vérification indépendante
+SECTION CHECK   Test yourself
+SC403-5  Why must a bank reconciliation be performed by someone who neither handles cash nor posts the ledger?
+A.	Otherwise the same person's error or intent produced both sides of the comparison
+B.	Because it takes too long for one person
+C.	Because the bank requires it
+D.	Because it is a preventive control
+SC403-6  An independent check is best described as:
+A.	a preventive control
+B.	a safeguarding control
+C.	an authorization control
+D.	a detective control
+Answers and explanations are at the end of the chapter.
+3.4  Safeguarding assets
+A safeguarding control limits who can physically reach an asset and establishes who is answerable for it. These matter most where assets are portable and valuable, which at Orontes means cash, saffron and the spice store rather than the bottling line. Figure F403-06 lists the kinds the exam expects.
+Figure F403-06. Safeguarding controls
+Safeguarding control (E.1.l)
+Examples
+What it achieves
+Physical barriers
+Locked stores, fenced yards, safes, restricted areas
+Stops the simple taking of an asset
+Access control
+Badges, keys, biometrics, visitor logs
+Records who was able to reach the asset
+Environmental protection
+Fire suppression, cold-chain alarms, backup power
+Protects assets from loss as well as theft
+Custodial accountability
+One named custodian per store or cash float
+Makes a shortage someone's responsibility
+Periodic counts
+Independent counts compared with records
+Detects loss that prevention missed
+Insurance and bonding
+Cover for losses, and fidelity bonds on staff handling cash
+Limits the damage once a loss occurs
+Custodial accountability deserves attention because it is often forgotten. A store with three keyholders and no named custodian has no one to ask when stock is short. Assigning one custodian turns a general loss into a specific question.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+custodial accountability
+المساءلة عن العهدة
+responsabilité de garde
+safeguarding control
+ضوابط حماية الأصول
+contrôle de protection des actifs
+English (exam term)
+العربية
+Français
+custodial accountability
+المساءلة عن العهدة
+responsabilité de garde
+safeguarding control
+ضوابط حماية الأصول
+contrôle de protection des actifs
+SECTION CHECK   Test yourself
+SC403-7  Which is a safeguarding control?
+A.	A monthly variance report
+B.	A locked spice store with one named custodian
+C.	A prenumbered purchase order
+D.	An approval limit of 50,000
+SC403-8  A store has three keyholders and no named custodian. What is the control weakness?
+A.	The store is not locked
+B.	Stock cannot be counted
+C.	No one answers for a shortage
+D.	The records cannot be posted
+Answers and explanations are at the end of the chapter.
+3.5  Prenumbered forms and authority limits
+A prenumbered form carries a sequential number printed before use. Figure F403-07 shows why that simple feature is a control.
+Figure F403-07. How a prenumbered sequence exposes a missing document.
+The sequence makes completeness testable. Anyone can account for the numbers used, and a gap is a question that somebody must answer. Without it, a document that was destroyed, or never raised at all, leaves no trace.
+Authority limits work the same way from the other direction. If the policy names who may receive goods and who may approve a payment, and up to what amount, then an unapproved transaction has nobody who could legitimately have made it. The limit converts a vague expectation into a testable rule.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+prenumbered form
+نموذج مرقم مسبقا
+formulaire prénuméroté
+authority limit
+حد الصلاحية
+limite d'autorisation
+English (exam term)
+العربية
+Français
+prenumbered form
+نموذج مرقم مسبقا
+formulaire prénuméroté
+authority limit
+حد الصلاحية
+limite d'autorisation
+SECTION CHECK   Test yourself
+SC403-9  Goods received notes are prenumbered and note 1005 is missing from the file. What does the sequence prove?
+A.	That a document is unaccounted for and someone must explain it
+B.	That the amounts on the other notes are correct
+C.	That stock was stolen
+D.	That the supplier was not paid
+SC403-10  Prenumbered forms principally control:
+A.	accuracy
+B.	valuation
+C.	authorization
+D.	completeness
+Answers and explanations are at the end of the chapter.
+3.6  Extended Example 3A: redesigning the Orontes purchasing cycle
+This example takes the failure of Chapter 1 and rebuilds the cycle properly. It is exam-core: questions give a flawed arrangement and ask which duty to move.
+1. The cycle as it was
+One purchasing clerk could add a supplier to the approved list, raise the order, confirm that goods had arrived and release the payment. Of the four responsibilities, he held authorization, recording and effective custody of the cash leaving the company. Only reconciliation sat elsewhere, and nobody performed it.
+2. Which duty to move first
+Supplier approval moves to the purchasing manager, named in the job description rather than delegated verbally. That single change breaks the authorization and custody pair, which is the pairing that let money leave the company.
+3. The redesigned cycle
+Authorization sits with the purchasing manager, who approves suppliers and orders above a stated limit. Recording sits with the accounts clerk, who posts invoices. Custody sits with the storekeeper, who receives goods, and with the cashier, who releases payment. Reconciliation sits with a fourth person, who compares the supplier statement with the ledger each month.
+4. What else changes
+Goods received notes are prenumbered, so a delivery that was never recorded leaves a gap. A payment above the limit needs two signatures. The supplier master file is printed and reviewed quarterly by someone outside purchasing, which is an independent check on the authorization itself.
+5. What it still cannot do
+If the purchasing manager and the cashier agree together, the design fails. That is collusion, and Chapter 1 explained that no separation defeats it. The redesign buys reasonable assurance against one person acting alone, which is what segregation is for.
+6. Your turn
+YOUR TURN   Four arrangements to diagnose
+Complete the blank cells of Figure F403-08. Answers are at the end of the chapter.
+Figure F403-08. Your turn: diagnose four arrangements (complete the blanks)
+Situation
+Which duties are combined?
+Why it matters
+The storekeeper also keeps the stock records
+________
+He can remove stock and adjust the record to match
+The cashier performs the bank reconciliation
+Custody and reconciliation
+________
+The buyer approves suppliers and releases payment
+________
+He can approve a payment to himself and collect it
+The clerk who posts an error also reviews the exception report
+________
+She can certify that her own mistake is acceptable
+7. Tie line
+WORKED EXAMPLE   The pattern behind the redesign
+Name the four duties in the cycle, then ask who holds each one.
+Any person holding two is the weakness; move whichever is easiest to move.
+Add an independent check on the duty that remains most powerful.
+Prenumber the documents, so that completeness can be tested afterwards.
+8. How the exam asks it
+EXAM TRAP   Exam view
+A case describes a cycle and asks for the weakness, or for the control that would fix it. Map each person to the four duties before answering. The weakness is the person with two, and the fix is the cheapest move that separates them.
+9. Self-check
+SECTION CHECK   Test yourself
+SC403-11  Use Extended Example 3A. Which single change breaks the most dangerous pairing?
+A.	Prenumbering the goods received notes
+B.	Reviewing the supplier master file quarterly
+C.	Moving supplier approval to the purchasing manager
+D.	Requiring two signatures above the limit
+SC403-12  Use Extended Example 3A. What can the redesigned cycle still not prevent?
+A.	A single clerk approving a fictitious supplier
+B.	The purchasing manager and the cashier agreeing together
+C.	An unrecorded delivery
+D.	A payment above the approval limit
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F403-09 brings the chapter together.
+Figure F403-09. Chapter 3 summary map: the key rule for each section.
+Segregation of duties splits a transaction so that no one person can both carry it out and conceal it. Four responsibilities must be held separately: authority to execute, recording, custody of the asset, and periodic reconciliation. Independent checks are performed by someone who did not do the work being checked, and they detect rather than prevent. Safeguarding controls limit physical access and name a custodian who answers for what is held. Prenumbered forms make completeness testable, and authority limits turn an expectation into a rule that can be tested.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P403-01  Segregation of duties is usually described as the cheapest control because it:
+A.	needs no supervision
+B.	removes the need for reconciliations
+C.	replaces the external audit
+D.	costs an organizing decision rather than money
+P403-02  In a systems department, which separation matters most?
+A.	Programmers have no access to live data or production programs
+B.	Programmers report to the CFO
+C.	Programmers work different hours from operators
+D.	Programmers hold the backup tapes
+P403-03  A manager approves a payment and personally collects the cheque. Which pairing is this?
+A.	Recording and custody
+B.	Authorization and custody
+C.	Authorization and recording
+D.	Recording and reconciliation
+P403-04  Which pairing would let someone make an error and then certify that the records agree?
+A.	Authorization and custody
+B.	Custody and recording
+C.	Recording and reconciliation
+D.	Authorization and reconciliation
+P403-05  Periodic reconciliation means:
+A.	approving transactions in batches
+B.	comparing the records with the assets actually there
+C.	posting entries at the period end
+D.	counting the staff
+P403-06  Why does the exam stress that the four duties may sit in different departments as well as with different people?
+A.	Because departments are more reliable than people
+B.	Because the law requires departments
+C.	Because it reduces payroll cost
+D.	Because a small company may not have four people, but can still split the function
+P403-07  Who should reconcile supplier statements to the ledger?
+A.	The buyer, who knows the supplier
+B.	The supplier
+C.	Accounts payable, not the buyer
+D.	The storekeeper
+P403-08  An independent check reveals a difference but nobody investigates. The control is:
+A.	ineffective, because its value depends on action
+B.	effective, because the difference was found
+C.	preventive rather than detective
+D.	a safeguarding control
+P403-09  Internal audit is an independent check because it:
+A.	employs qualified accountants
+B.	visits every department
+C.	reports to the audit committee rather than to the manager audited
+D.	issues an opinion on the financial statements
+P403-10  Which safeguarding control limits the damage once a loss has already occurred?
+A.	Insurance and fidelity bonding
+B.	A locked store
+C.	Badge access
+D.	A visitor log
+P403-11  Independent periodic counts of inventory are a safeguarding control because they:
+A.	stop theft occurring
+B.	detect losses that prevention missed
+C.	value the inventory correctly
+D.	authorize stock movements
+P403-12  Which weakness does a prenumbered document sequence address?
+A.	An amount is entered incorrectly
+B.	A supplier is approved without checks
+C.	Inventory is valued above market
+D.	A transaction that was never recorded leaves no trace
+P403-13  An authority limit is effective only if the policy also:
+A.	is reviewed by the external auditor
+B.	is published to suppliers
+C.	is set in the articles of incorporation
+D.	names who may approve, and up to what amount
+P403-14  A policy stating who may receive goods at the gate principally prevents:
+A.	an arithmetic error on the invoice
+B.	an unauthorized person accepting a delivery that was never ordered
+C.	an overvalued inventory balance
+D.	a late supplier payment
+P403-15  A small division has only two accounting staff. What is the best response?
+A.	Abandon segregation, since it cannot be complete
+B.	Give both staff full access for flexibility
+C.	Split the four duties as far as possible and add compensating supervisory review
+D.	Ask the external auditor to perform the reconciliations
+P403-16  Segregation of duties protects against one person acting alone. What does it NOT defeat?
+A.	Collusion between two or more people
+B.	A single clerk's error
+C.	An unauthorized payment by one employee
+D.	Theft by the custodian alone
+Case question: the Levant Distribution depot
+Levant Distribution runs a depot outside Amman that holds packaged goods for delivery to Gulf customers. The depot has four staff. Samir receives deliveries from the Orontes plants and signs for them, holds the keys to the store, and also maintains the depot's stock records on a spreadsheet.
+Nadia raises delivery notes for outgoing loads and approves which customers may collect without prepayment. She reports to the depot manager, Khalid, who approves write-offs of damaged stock and performs the monthly stock count himself because, he says, he knows the goods best.
+Delivery notes are written on pads bought from a stationer and are not numbered. Damaged stock is removed from the store by Samir and written off on Khalid's verbal approval. The depot's stock records have never been reconciled to the plant's dispatch records. Levant has no internal audit function, and the depot has not been visited by anyone from the group finance team for two years.
+The group controller, Rania, has been asked to report on the depot's control weaknesses, to say which single change would do most good, and to advise whether the arrangement could be made safe without hiring anyone.
+Use the scenario above for items C403-1 to C403-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C403-1  Classify each duty. (On the exam screen you would drag each item into a box.)
+Categories: Authorization · Recording · Custody · Reconciliation
+Person and duty
+Category
+Samir holds the keys to the store
+Samir maintains the stock records
+Nadia approves customers for collection without prepayment
+Khalid performs the monthly stock count
+C403-2  Enter the number of the four functional responsibilities that Samir holds.
+Answer: ____________
+C403-3  The most dangerous combination at the depot is: [select]
+Options: Samir holding both custody of the stock and the stock records   |   Nadia raising delivery notes and approving customers   |   Khalid approving write-offs and managing the depot   |   Nadia reporting to Khalid
+C403-4  Khalid performing the monthly stock count himself is a weakness because: [select]
+Options: he also approves the write-offs that the count would reveal   |   he is not qualified to count   |   counting is not a manager's job   |   the count should be done weekly
+C403-5  The unnumbered delivery note pads mean that: [select]
+Options: a load dispatched without a note would leave no trace   |   the amounts on the notes may be wrong   |   customers cannot be billed   |   the stock cannot be valued
+C403-6  Which single change would do most good without hiring anyone? [select]
+Options: move the stock records away from Samir to Nadia, and have Rania reconcile depot records to plant dispatches   |   buy prenumbered delivery note pads   |   ask Khalid to count more often   |   install a second lock on the store
+C403-7  A comparison performed by someone who did not do the work being checked is called an ____ check.
+Choose the word or phrase for the blank: independent   |   internal   |   annual   |   authorized
+Case question: the Levant Distribution depot
+Levant Distribution runs a depot outside Amman that holds packaged goods for delivery to Gulf customers. The depot has four staff. Samir receives deliveries from the Orontes plants and signs for them, holds the keys to the store, and also maintains the depot's stock records on a spreadsheet.
+Nadia raises delivery notes for outgoing loads and approves which customers may collect without prepayment. She reports to the depot manager, Khalid, who approves write-offs of damaged stock and performs the monthly stock count himself because, he says, he knows the goods best.
+Delivery notes are written on pads bought from a stationer and are not numbered. Damaged stock is removed from the store by Samir and written off on Khalid's verbal approval. The depot's stock records have never been reconciled to the plant's dispatch records. Levant has no internal audit function, and the depot has not been visited by anyone from the group finance team for two years.
+The group controller, Rania, has been asked to report on the depot's control weaknesses, to say which single change would do most good, and to advise whether the arrangement could be made safe without hiring anyone.
+Use the scenario above for items C403-1 to C403-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C403-1  Classify each duty. (On the exam screen you would drag each item into a box.)
+Categories: Authorization · Recording · Custody · Reconciliation
+Person and duty
+Category
+Samir holds the keys to the store
+Samir maintains the stock records
+Nadia approves customers for collection without prepayment
+Khalid performs the monthly stock count
+C403-2  Enter the number of the four functional responsibilities that Samir holds.
+Answer: ____________
+C403-3  The most dangerous combination at the depot is: [select]
+Options: Samir holding both custody of the stock and the stock records   |   Nadia raising delivery notes and approving customers   |   Khalid approving write-offs and managing the depot   |   Nadia reporting to Khalid
+C403-4  Khalid performing the monthly stock count himself is a weakness because: [select]
+Options: he also approves the write-offs that the count would reveal   |   he is not qualified to count   |   counting is not a manager's job   |   the count should be done weekly
+C403-5  The unnumbered delivery note pads mean that: [select]
+Options: a load dispatched without a note would leave no trace   |   the amounts on the notes may be wrong   |   customers cannot be billed   |   the stock cannot be valued
+C403-6  Which single change would do most good without hiring anyone? [select]
+Options: move the stock records away from Samir to Nadia, and have Rania reconcile depot records to plant dispatches   |   buy prenumbered delivery note pads   |   ask Khalid to count more often   |   install a second lock on the store
+C403-7  A comparison performed by someone who did not do the work being checked is called an ____ check.
+Choose the word or phrase for the blank: independent   |   internal   |   annual   |   authorized
+Answers and explanations
+Section checks
+SC403-1  Answer A. The split removes the ability to act and hide the act.
+B is wrong. Useful, but it does not split the transaction.
+C is wrong. Rotation is a related but different control.
+D is wrong. Duplication is waste, not segregation.
+SC403-2  Answer D. Custody, recording and reconciliation are each held separately.
+A is wrong. Custody and recording combined.
+B is wrong. Custody and reconciliation combined.
+C is wrong. All three in one pair of hands.
+SC403-3  Answer C. The fourth is periodic reconciliation, not budgeting.
+A is wrong. One of the four.
+B is wrong. One of the four.
+D is wrong. One of the four.
+SC403-4  Answer B. He can remove stock and adjust the record to match.
+A is wrong. He does not approve the transactions.
+C is wrong. He does not perform the independent count.
+D is wrong. Authorization sits elsewhere.
+SC403-5  Answer A. Independence is the whole of the control.
+B is wrong. Time is not the reason.
+C is wrong. Banks do not set internal control.
+D is wrong. It detects rather than prevents.
+SC403-6  Answer D. It finds an error after it has occurred.
+A is wrong. It does not stop the error happening.
+B is wrong. Safeguarding limits access to assets.
+C is wrong. Authorization approves transactions.
+SC403-7  Answer B. It limits access and names who answers for the asset.
+A is wrong. That is a monitoring control.
+C is wrong. That controls completeness of documents.
+D is wrong. That is an authority limit.
+SC403-8  Answer C. Custodial accountability makes a loss someone's responsibility.
+A is wrong. It is locked; the question is who answers.
+B is wrong. Counting is still possible.
+D is wrong. Recording is unaffected.
+SC403-9  Answer A. The sequence tests completeness, not accuracy or cause.
+B is wrong. Numbering says nothing about the amounts.
+C is wrong. A gap is a question, not a conclusion.
+D is wrong. Payment is a separate matter.
+SC403-10  Answer D. They make it possible to account for every document.
+A is wrong. A number says nothing about what is written on the form.
+B is wrong. Valuation is an accounting judgement.
+C is wrong. Authority limits control authorization.
+SC403-11  Answer C. It separates authorization from the custody of cash leaving the company.
+A is wrong. Useful for completeness, but it does not split a duty.
+B is wrong. That is a detective check, applied after the fact.
+D is wrong. Valuable, but the approval duty stays in the same hands.
+SC403-12  Answer B. Collusion defeats a separation built for one person acting alone.
+A is wrong. Approval has moved away from the clerk.
+C is wrong. Prenumbered notes make that visible.
+D is wrong. The two-signature rule addresses that.
+Your turn
+Item
+Answer
+The storekeeper also keeps the stock records
+Custody and recording — he can remove stock and adjust the record to match
+The cashier performs the bank reconciliation
+Why: the person holding the cash certifies that the records agree with it, so a shortage can be hidden
+The buyer approves suppliers and releases payment
+Authorization and custody — he can approve a payment to himself and collect it
+The clerk who posts an error also reviews the exception report
+Recording and reconciliation — she can certify that her own mistake is acceptable
+Multiple-choice questions
+P403-01  Answer D. Rearranging who does what rarely adds cost.
+A is wrong. Supervision is still needed.
+B is wrong. Reconciliations remain essential.
+C is wrong. The audit is separate.
+P403-02  Answer A. Development must be separated from operations.
+B is wrong. A reporting line does not separate access.
+C is wrong. Hours are not a control.
+D is wrong. That gives a programmer custody as well.
+P403-03  Answer B. He approves the payment and then takes the asset.
+A is wrong. He did not enter it in the books.
+C is wrong. Recording sits with the accounts clerk.
+D is wrong. He performs no reconciliation.
+P403-04  Answer C. The person checking is the person who made the entries.
+A is wrong. That allows self-payment, not self-certification.
+B is wrong. That allows taking and concealing an asset.
+D is wrong. Possible, but the entries were made elsewhere.
+P403-05  Answer B. It tests whether the books describe reality.
+A is wrong. That is authorization.
+C is wrong. That is recording.
+D is wrong. Not a control responsibility.
+P403-06  Answer D. Scale should not defeat the principle.
+A is wrong. A department is only its people.
+B is wrong. No such legal requirement.
+C is wrong. Cost is not the point.
+P403-07  Answer C. The person who ordered should not verify what was paid.
+A is wrong. That is the person whose decisions are being checked.
+B is wrong. An outside party cannot be an internal check.
+D is wrong. Custody should not verify payment.
+P403-08  Answer A. A detection that leads to nothing changes nothing.
+B is wrong. Finding without acting leaves the loss in place.
+C is wrong. It detects; that is not the issue here.
+D is wrong. It does not restrict access.
+P403-09  Answer C. Independence comes from the reporting line.
+A is wrong. Qualification does not confer independence.
+B is wrong. Coverage is not independence.
+D is wrong. That is the external auditor's role.
+P403-10  Answer A. It transfers part of the loss rather than preventing it.
+B is wrong. That prevents access.
+C is wrong. That restricts access.
+D is wrong. That records access.
+P403-11  Answer B. Counting compares records with what is actually there.
+A is wrong. A count is detective, not preventive.
+C is wrong. Valuation is an accounting matter.
+D is wrong. Authorization is separate.
+P403-12  Answer D. The gap in the sequence is the evidence.
+A is wrong. Numbering does not test accuracy.
+B is wrong. That needs an authorization control.
+C is wrong. Valuation is unrelated.
+P403-13  Answer D. An unnamed approver cannot be tested against.
+A is wrong. Audit review does not create the rule.
+B is wrong. Suppliers are outside the control.
+C is wrong. This is a policy matter, not an articles matter.
+P403-14  Answer B. The limit removes anyone who could legitimately have accepted it.
+A is wrong. That is an accuracy matter.
+C is wrong. That is valuation.
+D is wrong. Payment timing is separate.
+P403-15  Answer C. Partial separation plus review is better than none.
+A is wrong. Partial separation still removes the worst pairings.
+B is wrong. That removes what separation exists.
+D is wrong. The auditor cannot perform management's controls.
+P403-16  Answer A. Two people together can defeat a separation built for one.
+B is wrong. Another person would see the error.
+C is wrong. Approval sits elsewhere.
+D is wrong. Recording and reconciliation sit elsewhere.
+Case question: the Levant Distribution depot
+C403-1
+Person and duty
+Category
+Samir holds the keys to the store
+Custody
+Samir maintains the stock records
+Recording
+Nadia approves customers for collection without prepayment
+Authorization
+Khalid performs the monthly stock count
+Reconciliation
+Classify each person by the functional responsibilities they hold.
+C403-2  Answer: 2.
+1 is wrong: this answer he holds more than one, which is the weakness.
+4 is wrong: this answer he does not authorize or reconcile.
+C403-3  Answer: Samir holding both custody of the stock and the stock records.
+Nadia raising delivery notes and approving customers is wrong: this answer a weakness, but she holds no custody of the goods.
+Khalid approving write-offs and managing the depot is wrong: this answer approval by a manager is normal; the problem is who else is involved.
+Nadia reporting to Khalid is wrong: this answer a reporting line is not a combination of duties.
+C403-4  Answer: he also approves the write-offs that the count would reveal.
+he is not qualified to count is wrong: this answer qualification is not the issue; independence is.
+counting is not a manager's job is wrong: this answer seniority is not the test.
+the count should be done weekly is wrong: this answer frequency is a separate question.
+C403-5  Answer: a load dispatched without a note would leave no trace.
+the amounts on the notes may be wrong is wrong: this answer numbering controls completeness, not accuracy.
+customers cannot be billed is wrong: this answer billing can proceed from the notes that exist.
+the stock cannot be valued is wrong: this answer valuation is an accounting matter.
+C403-6  Answer: move the stock records away from Samir to Nadia, and have Rania reconcile depot records to plant dispatches.
+buy prenumbered delivery note pads is wrong: this answer worth doing, but it leaves custody and recording in one pair of hands.
+ask Khalid to count more often is wrong: this answer a more frequent count by the same person is no more independent.
+install a second lock on the store is wrong: this answer access is not the main weakness here.
+C403-7  Answer: independent.
+internal is wrong: this answer internal describes where it happens, not who performs it.
+annual is wrong: this answer frequency does not make a check independent.
+authorized is wrong: this answer authorization is a separate functional responsibility.
+PART I — INTERNAL CONTROL AND GOVERNANCE

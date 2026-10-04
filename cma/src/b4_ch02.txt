@@ -1,0 +1,643 @@
+Chapter 2
+Corporate Governance: the Board, the Officers and the Hierarchy
+حوكمة الشركات: مجلس الإدارة والمسؤولون والتسلسل الهرمي
+Chapter 1 ended with the control environment, and said that accountability is one of its elements. This chapter asks the obvious next question: accountable to whom? The answer is a chain that runs from the shareholders who own the company to the clerk who follows a procedure.
+Figure F402-01 shows that chain.
+Figure F402-01. Chapter 2 roadmap: shareholders, board, officers.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.1.d
+identify the Board of Directors’ responsibilities with respect to ensuring that the company is operated in the best interest of shareholders
+Identify the board's responsibilities for seeing that the company is run in the shareholders' interest.
+Full treatment
+E.1.e
+identify the hierarchy of corporate governance (i.e., articles of incorporation, bylaws, policies, and procedures)
+Identify the hierarchy of corporate governance: articles of incorporation, bylaws, policies and procedures.
+Full treatment
+E.1.f
+demonstrate an understanding of corporate governance, including rights and responsibilities of the CEO, the CFO, the Board of Directors, the audit committee, managers, and other stakeholders; and the procedures for making corporate decisions
+Demonstrate an understanding of corporate governance, including the rights and responsibilities of the CEO, the CFO, the board, the audit committee and the shareholders.
+Full treatment + Extended Example
+E.1.h
+explain why personnel policies and procedures are integral to an efficient control environment
+Explain why personnel policies and procedures are integral to an efficient control environment.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+corporate governance
+حوكمة الشركات
+gouvernance d'entreprise
+audit committee
+لجنة التدقيق
+comité d'audit
+duty of care
+واجب العناية
+devoir de diligence
+duty of loyalty
+واجب الولاء
+devoir de loyauté
+articles of incorporation
+عقد التأسيس
+statuts constitutifs
+bylaws
+النظام الداخلي
+règlement intérieur
+mandatory leave
+الإجازة الإلزامية
+congé obligatoire
+job rotation
+تدوير الوظائف
+rotation des postes
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 1 described the control environment and said the tone at the top decides whether other controls work. This chapter names the people who set that tone and says what each of them answers for.
+2.1  What corporate governance is
+Corporate governance is the system by which a company is directed and held to account. It exists because the people who own a company are usually not the people who run it. The owners need some way to be sure their money is used in their interest.
+Figure F402-02 shows who answers to whom. Read it from the top: shareholders elect the board, the board appoints and assesses the officers, and the board, through its audit committee, appoints the external auditor.
+Figure F402-02. Who answers to whom in a governed company.
+One line in that diagram does the most work. The external auditor is appointed by, and reports to, the audit committee rather than the management whose statements are being audited. An auditor hired and paid by the chief financial officer could not credibly give an opinion on that officer's accounts.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+corporate governance
+حوكمة الشركات
+gouvernance d'entreprise
+audit committee
+لجنة التدقيق
+comité d'audit
+English (exam term)
+العربية
+Français
+corporate governance
+حوكمة الشركات
+gouvernance d'entreprise
+audit committee
+لجنة التدقيق
+comité d'audit
+SECTION CHECK   Test yourself
+SC402-1  Corporate governance exists mainly because:
+A.	the law requires a board of directors
+B.	auditors demand it
+C.	shareholders want higher dividends
+D.	the people who own a company are usually not the people who run it
+SC402-2  Who appoints and oversees the external auditor?
+A.	The chief financial officer
+B.	The chief executive officer
+C.	The audit committee
+D.	The internal audit department
+Answers and explanations are at the end of the chapter.
+2.2  What the board is responsible for
+Directors owe the company a duty of care: they must inform themselves before deciding. They also owe a duty of loyalty: the company's interest comes before their own. Figure F402-03 sets out what those duties require in practice.
+Figure F402-03. What the board is responsible for
+Board responsibility (E.1.d)
+What it means
+At Orontes
+Set the tone
+Integrity and ethical values start at the board
+Approves the code of conduct and acts on breaches
+Oversee strategy
+Challenge and approve the plan, not write it
+Approved the Gulf expansion of Book 3
+Oversee risk and control
+Satisfy itself that controls exist and work
+Receives the control testing of Chapter 5
+Appoint and assess the CEO
+Hire, pay, evaluate and if necessary replace
+Sets the incentives that shape behaviour
+Oversee reporting
+Through the audit committee, oversee the accounts and the auditor
+Approves the annual report
+Act for shareholders
+Duties of care and loyalty; no self-dealing
+Declines a contract with a director's own company
+The distinction the exam tests most often is between oversight and management. A board challenges and approves a strategy; it does not write it. It satisfies itself that controls exist and work; it does not operate them. A board that starts managing has stopped overseeing, because it can no longer review its own work independently.
+EXAM TRAP   Oversight is not management
+If a question describes a board approving a capital project, that is oversight. If it describes a board negotiating the contract, something has gone wrong. Look for who decides and who reviews: they should not be the same people.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+duty of care
+واجب العناية
+devoir de diligence
+duty of loyalty
+واجب الولاء
+devoir de loyauté
+English (exam term)
+العربية
+Français
+duty of care
+واجب العناية
+devoir de diligence
+duty of loyalty
+واجب الولاء
+devoir de loyauté
+SECTION CHECK   Test yourself
+SC402-3  Which action is oversight rather than management?
+A.	Negotiating the supply contract
+B.	Challenging and approving the capital plan
+C.	Choosing the equipment supplier
+D.	Setting the production schedule
+SC402-4  A director who declines to approve a contract with a company he part-owns is observing the:
+A.	duty of loyalty
+B.	duty of care
+C.	business judgment rule
+D.	quorum requirement
+Answers and explanations are at the end of the chapter.
+2.3  The hierarchy of governance documents
+A company is governed by a stack of documents, each one operating within the limits of the one above it. Figure F402-04 sets out the hierarchy the exam names.
+Figure F402-04. The hierarchy of governance documents.
+The articles of incorporation are filed with the state and create the company: its name, purpose and authorized shares. The bylaws are the company's internal rulebook on how the board meets and how officers are appointed. Policies state what the company intends, and procedures say step by step how to do it.
+Two things follow. First, a lower document can never contradict a higher one: a procedure breaching a policy is void, and so is a bylaw breaching the articles. Second, the difficulty of changing them rises as you go up. Management rewrites a procedure, the board approves a policy, and the shareholders must vote to change the articles.
+Figure F402-05 sets out the rights and responsibilities of each party in the chain, which the exam asks about directly.
+Figure F402-05. Rights and responsibilities along the chain
+Who
+Rights and responsibilities (E.1.f)
+In one line
+Shareholders
+Elect and remove directors; vote on the articles, mergers and pay; inspect books; receive declared dividends
+Vote; they do not manage
+Board of directors
+Oversight of strategy, risk, control and reporting; duties of care and loyalty
+Direct and monitor; they do not run operations
+Audit committee
+Appoint, pay and oversee the external auditor; handle complaints; every member independent
+Oversee reporting and the auditor
+CEO
+Runs operations and carries out strategy; signs the certifications
+Manage the company
+CFO
+Financial reporting and the design of internal control over it; signs the certifications
+Own the numbers
+The audit committee deserves particular attention. Every member must be independent. That means taking no consulting or advisory fee from the company, and not being an affiliated person. The committee appoints, pays and oversees the external auditor, and must provide a route for complaints, including anonymous ones.
+COMMON ERROR IN OTHER BOOKS   'Every audit committee must have a financial expert'
+Many guides say this. The requirement is to disclose whether at least one audit committee financial expert serves, and if none does, to say why not. A company may lawfully have none, provided it explains itself. Exchange rules separately require members to be financially literate, which is a lower bar.
+Figure F402-06 lists the governance requirements that have moved recently, with their status. Two are worth noting now: the clawback rules took effect at the end of 2023, and Nasdaq's board diversity rules were struck down by the courts in December 2024 and are no longer in force.
+Figure F402-06. Governance requirements and their current status
+Requirement
+What it says
+Source
+Status
+Audit committee independence
+Every member independent; the committee appoints and oversees the auditor
+SOX 301 and SEC Rule 10A-3
+current
+Audit committee financial expert
+Disclose WHETHER one serves, and why not if none does
+SOX 407
+current
+Clawback of incentive pay
+Recovery required after a restatement
+SEC Rule 10D-1; policies due 1 Dec 2023
+current
+Cybersecurity disclosure
+Material incident on Form 8-K within four business days
+SEC rules adopted 26 July 2023
+current
+Board diversity disclosure
+Nasdaq's rules were VACATED by the Fifth Circuit on 11 Dec 2024
+Alliance for Fair Board Recruitment v. SEC
+no longer in force
+WATCH: NOT YET TESTABLE   As of October 2026
+Governance requirements change more often than accounting standards. The dates in Figure F402-06 are current as this book went to review. Check the position before relying on any of them in practice, and expect the exam to test the principle rather than the date.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+articles of incorporation
+عقد التأسيس
+statuts constitutifs
+bylaws
+النظام الداخلي
+règlement intérieur
+English (exam term)
+العربية
+Français
+articles of incorporation
+عقد التأسيس
+statuts constitutifs
+bylaws
+النظام الداخلي
+règlement intérieur
+SECTION CHECK   Test yourself
+SC402-5  Which document must be amended to increase the number of authorized shares?
+A.	The bylaws
+B.	A board policy
+C.	The articles of incorporation
+D.	An operating procedure
+SC402-6  A procedure that conflicts with a board policy is:
+A.	valid, because procedures are more detailed
+B.	valid until the board objects
+C.	a matter for the shareholders to resolve
+D.	void, because a lower document cannot contradict a higher one
+Answers and explanations are at the end of the chapter.
+2.4  Why personnel policy is a control
+Controls are carried out by people. That single fact makes hiring, training, supervision and dismissal part of internal control rather than a separate human resources matter. Figure F402-07 takes each practice and says what it is actually controlling.
+Figure F402-07. Personnel practices as controls
+Personnel practice (E.1.h)
+Why it is a control
+What it looks like
+Hiring
+A control is only as good as the person performing it
+Check references and qualifications before appointment
+Training
+Someone who does not understand a reconciliation cannot review one
+Train on the control, not only on the system
+Supervision
+Work that is never reviewed drifts
+A second person checks a sample of the clerk's work
+Rotation and mandatory leave
+A fraud that needs daily attention is exposed when its author is away
+Two consecutive weeks away each year
+Clear job descriptions
+Nobody can be held to account for a duty they were never given
+Supplier approval named in the role, not delegated verbally
+Exit procedures
+Access that outlives employment is an open door
+System access removed on the last day
+Mandatory leave and job rotation deserve a word, because their purpose is not obvious. A fraud that must be tended daily, such as moving money between accounts to hide a shortfall, is exposed when someone else sits at the desk. Two consecutive weeks is the usual requirement, because one week can be survived.
+The chapter 1 failure shows the cost of getting this wrong. The purchasing manager delegated supplier approval verbally and never took it back. The duty appeared in nobody's job description, so nobody could be held to account for it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+mandatory leave
+الإجازة الإلزامية
+congé obligatoire
+job rotation
+تدوير الوظائف
+rotation des postes
+English (exam term)
+العربية
+Français
+mandatory leave
+الإجازة الإلزامية
+congé obligatoire
+job rotation
+تدوير الوظائف
+rotation des postes
+SECTION CHECK   Test yourself
+SC402-7  Why is mandatory leave a control?
+A.	Rested staff make fewer errors
+B.	A fraud needing daily attention is exposed when someone else does the work
+C.	It reduces the wage bill
+D.	It satisfies employment law
+SC402-8  Personnel policies belong to internal control because:
+A.	every control is carried out by a person
+B.	human resources reports to the CFO
+C.	staff costs are material
+D.	the auditor tests payroll
+Answers and explanations are at the end of the chapter.
+2.5  Extended Example 2A: four decisions and who makes them
+This example takes four decisions facing Orontes and asks, for each one, which document governs it and who must act. It is exam-core: questions in this area are nearly always of exactly this shape.
+1. Raising the number of authorized shares
+Orontes wants to issue new shares to fund the Gulf expansion, but has already issued all the shares its articles authorize. The articles of incorporation must be amended, which requires a shareholder vote. The board cannot do this alone, however clear the commercial case.
+2. Changing the quorum for board meetings
+The board wants to reduce the quorum from five directors to four. This is a bylaw matter, and the board can amend its own bylaws, provided the amendment does not conflict with the articles or with state law.
+3. Requiring two signatures on large payments
+After the supplier fraud, the board wants every payment above a threshold to carry two signatures. This is a policy: the board approves it, and management writes the procedure that puts it into effect, naming the systems, the limits and the authorised signatories.
+4. Dismissing the external auditor
+The chief financial officer is unhappy with the auditor's questions and wants a different firm. He cannot make that decision. The external auditor is appointed, paid and overseen by the audit committee, precisely so that the officers whose statements are audited cannot remove an auditor who challenges them.
+5. Your turn
+YOUR TURN   Four more decisions
+Complete the blank cells of Figure F402-08. Answers are at the end of the chapter.
+Figure F402-08. Your turn: which document governs the decision? (complete the blanks)
+What is being decided
+Which document?
+Why
+Changing the number of authorized shares
+________
+Requires a shareholder vote
+Setting the quorum for a board meeting
+Bylaws
+________
+Requiring two signatures on payments above 50,000
+________
+Approved by the board as a matter of policy
+The exact screens a clerk uses to raise a payment
+________
+Written and amended by management
+6. Tie line
+WORKED EXAMPLE   The pattern behind all four
+Ask first which document governs the decision, because that decides who may act.
+The higher the document, the harder it is to change: management, then board, then shareholders.
+Where a decision would let someone review their own work, the structure moves it elsewhere.
+The audit committee exists to hold one such line: the auditor answers to it, not to management.
+7. How the exam asks it
+EXAM TRAP   Exam view
+Expect a decision and four candidate documents, or a decision and four candidate decision-makers. Work out which level of the hierarchy the matter sits at. If the decision affects the company's existence or its share capital, it is the articles and therefore the shareholders.
+8. Self-check
+SECTION CHECK   Test yourself
+SC402-9  Use Extended Example 2A. Why can the CFO not dismiss the external auditor?
+A.	Because only shareholders may dismiss an auditor
+B.	Because the auditor has a fixed-term contract
+C.	Because the CEO must agree as well
+D.	Because the audit committee appoints and oversees the auditor, so management cannot remove one who challenges it
+SC402-10  Use Extended Example 2A. Who may reduce the board's quorum from five directors to four?
+A.	The shareholders, by amending the articles
+B.	The chairman alone
+C.	The board, by amending the bylaws
+D.	Management, by writing a procedure
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F402-09 brings the chapter together.
+Figure F402-09. Chapter 2 summary map: the key rule for each section.
+Corporate governance is the system by which a company is directed and held to account, and it exists because owners are not managers. The board oversees strategy, risk, control and reporting, appoints and assesses the CEO, and owes duties of care and loyalty; it does not manage. Governance documents form a hierarchy of law, articles of incorporation, bylaws, policies and procedures, and no lower document may contradict a higher one. Every audit committee member must be independent, and the committee, not management, appoints and oversees the external auditor. Personnel policies are themselves controls, because every control is carried out by a person.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P402-01  The board's role in relation to strategy is to:
+A.	challenge and approve it
+B.	write it
+C.	ignore it
+D.	delegate it to the auditor
+P402-02  Which best describes the board's duty of care?
+A.	To avoid conflicts of interest
+B.	To inform itself properly before deciding
+C.	To maximise the share price
+D.	To attend every meeting
+P402-03  A board sets the CEO's bonus entirely on output volume. What governance risk does this create?
+A.	The bonus may be too small to motivate
+B.	Shareholders cannot vote on pay
+C.	The auditor will qualify the opinion
+D.	The incentive may push the CEO to cut controls that slow output
+P402-04  Which document is filed with the state to create the company?
+A.	The bylaws
+B.	The articles of incorporation
+C.	The code of conduct
+D.	The procedures manual
+P402-05  Which list puts the hierarchy in order, highest authority first?
+A.	Law, articles, bylaws, policies, procedures
+B.	Articles, law, policies, bylaws, procedures
+C.	Bylaws, articles, law, procedures, policies
+D.	Procedures, policies, bylaws, articles, law
+P402-06  Which change is hardest to make?
+A.	Amending the bylaws
+B.	Approving a new policy
+C.	Amending the articles of incorporation
+D.	Rewriting a procedure
+P402-07  Which requirement applies to every member of the audit committee?
+A.	Being a qualified accountant
+B.	Holding shares in the company
+C.	Independence
+D.	Being an executive of the company
+P402-08  What does the rule on an audit committee financial expert actually require?
+A.	Disclosure of whether one serves, and why not if none does
+B.	That at least one serves, without exception
+C.	That every member is one
+D.	Nothing; it is a recommendation only
+P402-09  Which is a shareholder right rather than a responsibility?
+A.	Managing day-to-day operations
+B.	Electing and removing directors
+C.	Preparing the financial statements
+D.	Designing internal control
+P402-10  Who signs the certifications on the quarterly and annual reports?
+A.	The board chairman alone
+B.	The audit committee
+C.	The external auditor
+D.	The CEO and the CFO
+P402-11  What is the current position on Nasdaq's board diversity disclosure rules?
+A.	They apply to all listed companies
+B.	They apply only to large accelerated filers
+C.	They were vacated by the courts in December 2024 and are no longer in force
+D.	They were never adopted
+P402-12  A duty is delegated verbally and never written into any job description. Which control weakness follows most directly?
+A.	The duty costs more to perform
+B.	The auditor cannot test it
+C.	The policy becomes void
+D.	Nobody can be held accountable for the duty
+P402-13  Removing a leaver's system access on the last day is an example of:
+A.	an exit procedure acting as a control
+B.	a training control
+C.	job rotation
+D.	a board responsibility
+P402-14  Which personnel practice most directly addresses the risk that an employee conceals a fraud needing constant attention?
+A.	Reference checking at hiring
+B.	Mandatory consecutive leave
+C.	Annual appraisal
+D.	A written code of conduct
+P402-15  The board satisfies itself that controls exist and work. Through which body does it usually do this for financial reporting?
+A.	The remuneration committee
+B.	The executive committee
+C.	The shareholders' meeting
+D.	The audit committee
+P402-16  A bylaw is adopted that conflicts with the articles of incorporation. The bylaw is:
+A.	void to the extent of the conflict
+B.	valid, because it is more recent
+C.	valid, because the board adopted it
+D.	valid until a court rules otherwise
+Case question: the chairman who wants both jobs
+The chairman of Orontes Foods has proposed that he also take the role of chief executive, arguing that the company is moving quickly into the Gulf and needs one person able to decide. He has asked the board to approve the change at its next meeting.
+The bylaws say the chairman and the chief executive must be different people. The articles of incorporation are silent on the question. Two of the seven directors are executives of the company, and the other five are independent. One of the independent directors is the chairman's brother-in-law. The chairman has held the role for nine years and was previously the company's finance director.
+The chairman has also suggested that, to save cost, the audit committee could meet twice a year rather than four times, and that the external auditor could report to him directly so that the board hears a single consistent account.
+The chief financial officer supports the proposal. Rania, the controller, has been asked to brief the board on what it may and may not do, and on which parts of the proposal would weaken governance even if they were lawful.
+Use the scenario above for items C402-1 to C402-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C402-1  Classify each element. (On the exam screen you would drag each item into a box.)
+Categories: Governed by the bylaws · Governed by the audit committee · A board judgement, not a document
+Element of the proposal
+Category
+Whether the chairman may also be chief executive
+How often the audit committee meets
+To whom the external auditor reports
+Whether combining the roles is wise for Orontes
+C402-2  To let the chairman also serve as chief executive, the board must first: [select]
+Options: amend the bylaws   |   amend the articles of incorporation   |   obtain a shareholder vote on the appointment   |   do nothing, because the articles are silent
+C402-3  Enter the number of the seven directors who are independent, before considering any relationship.
+Answer: ____________
+C402-4  The independent director who is the chairman's brother-in-law raises a question about: [select]
+Options: whether he is genuinely independent   |   his duty of care   |   the quorum for the meeting   |   the validity of the bylaws
+C402-5  On the proposal that the external auditor report directly to the chairman, Rania should advise that: [select]
+Options: the auditor must report to the audit committee, which appoints and oversees it   |   the arrangement is acceptable if the board is informed   |   the chief financial officer should receive the report instead   |   the auditor may choose who to report to
+C402-6  Which part of the proposal would weaken governance even if it were lawful? [select]
+Options: combining the chairman and chief executive roles, because one person would then lead both oversight and management   |   moving to four audit committee meetings   |   appointing a new independent director   |   disclosing the change to shareholders
+C402-7  A director who puts the company's interest ahead of his own is observing the duty of ____.
+Choose the word or phrase for the blank: loyalty   |   care   |   disclosure   |   diligence
+Case question: the chairman who wants both jobs
+The chairman of Orontes Foods has proposed that he also take the role of chief executive, arguing that the company is moving quickly into the Gulf and needs one person able to decide. He has asked the board to approve the change at its next meeting.
+The bylaws say the chairman and the chief executive must be different people. The articles of incorporation are silent on the question. Two of the seven directors are executives of the company, and the other five are independent. One of the independent directors is the chairman's brother-in-law. The chairman has held the role for nine years and was previously the company's finance director.
+The chairman has also suggested that, to save cost, the audit committee could meet twice a year rather than four times, and that the external auditor could report to him directly so that the board hears a single consistent account.
+The chief financial officer supports the proposal. Rania, the controller, has been asked to brief the board on what it may and may not do, and on which parts of the proposal would weaken governance even if they were lawful.
+Use the scenario above for items C402-1 to C402-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C402-1  Classify each element. (On the exam screen you would drag each item into a box.)
+Categories: Governed by the bylaws · Governed by the audit committee · A board judgement, not a document
+Element of the proposal
+Category
+Whether the chairman may also be chief executive
+How often the audit committee meets
+To whom the external auditor reports
+Whether combining the roles is wise for Orontes
+C402-2  To let the chairman also serve as chief executive, the board must first: [select]
+Options: amend the bylaws   |   amend the articles of incorporation   |   obtain a shareholder vote on the appointment   |   do nothing, because the articles are silent
+C402-3  Enter the number of the seven directors who are independent, before considering any relationship.
+Answer: ____________
+C402-4  The independent director who is the chairman's brother-in-law raises a question about: [select]
+Options: whether he is genuinely independent   |   his duty of care   |   the quorum for the meeting   |   the validity of the bylaws
+C402-5  On the proposal that the external auditor report directly to the chairman, Rania should advise that: [select]
+Options: the auditor must report to the audit committee, which appoints and oversees it   |   the arrangement is acceptable if the board is informed   |   the chief financial officer should receive the report instead   |   the auditor may choose who to report to
+C402-6  Which part of the proposal would weaken governance even if it were lawful? [select]
+Options: combining the chairman and chief executive roles, because one person would then lead both oversight and management   |   moving to four audit committee meetings   |   appointing a new independent director   |   disclosing the change to shareholders
+C402-7  A director who puts the company's interest ahead of his own is observing the duty of ____.
+Choose the word or phrase for the blank: loyalty   |   care   |   disclosure   |   diligence
+Answers and explanations
+Section checks
+SC402-1  Answer D. Owners need assurance that managers act in their interest.
+A is wrong. The legal requirement follows from the need, it is not the need.
+B is wrong. Auditors are part of the system, not its reason.
+C is wrong. Dividends are a separate matter.
+SC402-2  Answer C. An auditor hired by management could not credibly audit management's statements.
+A is wrong. The CFO's own statements are what the auditor examines.
+B is wrong. The CEO is subject to the audit, not in charge of it.
+D is wrong. Internal audit is a separate internal function.
+SC402-3  Answer B. The board reviews and approves; management decides and acts.
+A is wrong. Negotiating is managing.
+C is wrong. Selecting a supplier is an operating decision.
+D is wrong. Scheduling is operational.
+SC402-4  Answer A. Loyalty means putting the company ahead of personal interest.
+B is wrong. Care concerns being properly informed before deciding.
+C is wrong. That protects informed decisions made in good faith.
+D is wrong. A quorum is the number needed to meet.
+SC402-5  Answer C. Share capital is created by the articles, so shareholders must vote.
+A is wrong. Bylaws govern meetings and officers, not share capital.
+B is wrong. A policy cannot create shares.
+D is wrong. A procedure cannot create shares.
+SC402-6  Answer D. The hierarchy decides which prevails.
+A is wrong. Detail does not confer authority.
+B is wrong. The conflict makes it void from the start.
+C is wrong. Shareholders are not involved at this level.
+SC402-7  Answer B. The substitute sees what the usual postholder was concealing.
+A is wrong. True but not the control purpose.
+C is wrong. Leave is paid; there is no saving.
+D is wrong. Compliance is a side effect, not the control.
+SC402-8  Answer A. A control is only as good as the person performing it.
+B is wrong. Reporting lines are not the reason.
+C is wrong. Materiality of cost is a different matter.
+D is wrong. Payroll testing is about the expense, not the control environment.
+SC402-9  Answer D. The structure protects the auditor's independence from management.
+A is wrong. The audit committee holds this responsibility.
+B is wrong. Contract length is not the reason.
+C is wrong. Both officers are subject to the audit.
+SC402-10  Answer C. Quorum is a bylaw matter, within the limits of the articles and the law.
+A is wrong. The articles do not usually set the board quorum.
+B is wrong. No officer may change the rules alone.
+D is wrong. A procedure cannot alter a bylaw.
+Your turn
+Item
+Answer
+Changing the number of authorized shares
+Articles of incorporation — share capital is created by the articles, so the shareholders must vote
+Setting the quorum for a board meeting
+Why: the bylaws govern how the board meets, and the board may amend them within the articles and the law
+Requiring two signatures on payments above 50,000
+A board policy — management then writes the procedure that carries it out
+The exact screens a clerk uses to raise a payment
+A procedure — written and amended by management, within the policy above it
+Multiple-choice questions
+P402-01  Answer A. Oversight means reviewing what management proposes.
+B is wrong. Writing strategy is management's work.
+C is wrong. Strategy is central to oversight.
+D is wrong. The auditor has no strategic role.
+P402-02  Answer B. Care concerns the quality of the decision process.
+A is wrong. That is the duty of loyalty.
+C is wrong. No duty guarantees a price.
+D is wrong. Attendance supports the duty but is not its definition.
+P402-03  Answer D. Incentives shape the tone at the top.
+A is wrong. Size is not the governance issue.
+B is wrong. Say-on-pay votes exist separately.
+C is wrong. An opinion does not follow from a bonus design.
+P402-04  Answer B. The articles bring the company into existence.
+A is wrong. Bylaws are internal and not filed to create the company.
+C is wrong. A code is a policy.
+D is wrong. Procedures are written by management.
+P402-05  Answer A. Each level operates within the limits of the one above.
+B is wrong. Law sits above the articles.
+C is wrong. The order is inverted in part.
+D is wrong. This is the reverse order.
+P402-06  Answer C. It requires a shareholder vote and a state filing.
+A is wrong. The board can usually amend bylaws itself.
+B is wrong. The board approves policies.
+D is wrong. Management rewrites procedures.
+P402-07  Answer C. No consulting fees and not an affiliated person.
+A is wrong. Financial literacy is required; a qualification is not.
+B is wrong. Shareholding is not required and could compromise independence.
+D is wrong. An executive could not be independent.
+P402-08  Answer A. The obligation is to disclose, not to appoint.
+B is wrong. A company may have none if it explains why.
+C is wrong. Far beyond the requirement.
+D is wrong. Disclosure is mandatory.
+P402-09  Answer B. Shareholders vote; they do not manage.
+A is wrong. That belongs to management.
+C is wrong. That is the CFO's responsibility.
+D is wrong. Management designs control; the board oversees it.
+P402-10  Answer D. Both officers certify the report and the controls behind it.
+A is wrong. The chairman does not certify.
+B is wrong. The committee oversees; it does not certify.
+C is wrong. The auditor gives an opinion, not a certification.
+P402-11  Answer C. The Fifth Circuit struck them down and Nasdaq did not appeal.
+A is wrong. They no longer apply to anyone.
+B is wrong. Filer status was never the test.
+D is wrong. They were adopted and operated before being vacated.
+P402-12  Answer D. Accountability requires the duty to be assigned.
+A is wrong. Cost is unaffected.
+B is wrong. It can still be tested, if anyone knows to.
+C is wrong. The policy stands; the assignment failed.
+P402-13  Answer A. Access that outlives employment is an open door.
+B is wrong. Training is a different practice.
+C is wrong. Rotation moves current staff between duties.
+D is wrong. This is operational, not a board matter.
+P402-14  Answer B. Someone else occupies the role while the author is away.
+A is wrong. Useful at entry, but it does not expose an ongoing concealment.
+C is wrong. An appraisal reviews performance, not records.
+D is wrong. A code states expectations; it does not detect.
+P402-15  Answer D. Oversight of reporting and the auditor sits with the audit committee.
+A is wrong. That committee deals with pay.
+B is wrong. An executive committee is management.
+C is wrong. Shareholders do not oversee controls directly.
+P402-16  Answer A. A lower document cannot contradict a higher one.
+B is wrong. Recency does not override hierarchy.
+C is wrong. The board cannot exceed the articles.
+D is wrong. It is void from the start, not pending challenge.
+Case question: the chairman who wants both jobs
+C402-1
+Element of the proposal
+Category
+Whether the chairman may also be chief executive
+Governed by the bylaws
+How often the audit committee meets
+Governed by the audit committee
+To whom the external auditor reports
+Governed by the audit committee
+Whether combining the roles is wise for Orontes
+A board judgement, not a document
+Classify each element by the document or body that governs it.
+C402-2  Answer: amend the bylaws.
+amend the articles of incorporation is wrong: this answer the articles are silent, so the restriction sits in the bylaws.
+obtain a shareholder vote on the appointment is wrong: this answer appointing officers is a board matter under the bylaws.
+do nothing, because the articles are silent is wrong: this answer the bylaws bind the board until amended.
+C402-3  Answer: 5.
+2 is wrong: this answer counts the executive directors instead.
+7 is wrong: this answer counts the whole board.
+C402-4  Answer: whether he is genuinely independent.
+his duty of care is wrong: this answer care concerns being informed, not relationships.
+the quorum for the meeting is wrong: this answer quorum is a question of numbers present.
+the validity of the bylaws is wrong: this answer the bylaws are unaffected by who sits on the board.
+C402-5  Answer: the auditor must report to the audit committee, which appoints and oversees it.
+the arrangement is acceptable if the board is informed is wrong: this answer it would place the auditor under the person being audited.
+the chief financial officer should receive the report instead is wrong: this answer that is the officer whose statements are examined.
+the auditor may choose who to report to is wrong: this answer the committee's role is set by rule, not by preference.
+C402-6  Answer: combining the chairman and chief executive roles, because one person would then lead both oversight and management.
+moving to four audit committee meetings is wrong: this answer the proposal was to reduce meetings, and four is not a weakening.
+appointing a new independent director is wrong: this answer that would strengthen oversight.
+disclosing the change to shareholders is wrong: this answer disclosure supports governance.
+C402-7  Answer: loyalty.
+care is wrong: this answer care concerns informing oneself before deciding.
+disclosure is wrong: this answer disclosure is a reporting obligation, not a fiduciary duty.
+diligence is wrong: this answer diligence describes care, not loyalty.
+PART I — INTERNAL CONTROL AND GOVERNANCE

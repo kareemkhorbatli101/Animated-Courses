@@ -194,6 +194,9 @@ FIGCLAUSE = re.compile(
     re.I)
 
 
+SELFCLAUSE = re.compile(
+    r'[,;]\s*(?:and\s+|but\s+|which\s+|so\s+)?[^,;]*'
+    r'\bthis\s+(?:chapter|book|section|volume|part)\b[^,;.]*', re.I)
 TRAIL = re.compile(r'\s*(?:[,;:]\s*)?\b(?:which\s+is\s+what|which|that|'
                    r'when|while|as|and|or|but|than|what|who|whose|where|'
                    r'because|if)\s*\.$', re.I)
@@ -217,6 +220,11 @@ def unbooked(text):
     had_stop = clean(text).endswith('.')
     out = FIGCLAUSE.sub(' ', clean(text))
     out = BOOKREF.sub('', out)
+    # And an aside that points at the book itself: "Its role rests on a
+    # single principle, AND IT IS THE MOST USEFUL SENTENCE IN THIS
+    # CHAPTER". Book 4 writes several of these, and dropping the sentence
+    # for the sake of the aside took the principle with it.
+    out = SELFCLAUSE.sub('', out)
     out = re.sub(r'\s*([,;:])\s*([,;:])', r'\1', out)
     out = re.sub(r'\s*,\s*:', ':', out)
     # The pointer takes the preposition that introduced it with it.
@@ -365,6 +373,11 @@ FRONT = re.compile(r'\b(los|level|depth here|key terms?|'
                    r'after this chapter)\b', re.I)
 
 
+XREFCOL = re.compile(r'^(?:in|where|see|from)\b.{0,24}\b'
+                     r'(?:this\s+)?(?:book|chapter|volume|part)\b'
+                     r'|^(?:this\s+)?(?:book|chapter|volume)\b', re.I)
+
+
 def shaped_any(tb):
     """A table of the chapter, shaped for a summary sheet.
 
@@ -388,6 +401,17 @@ def shaped_any(tb):
     # does not carry that statement is missing the thing it is about.
     if n < 2 or n > 9 or any(len(r) != n for r in tb):
         return None
+    # Book 4 gives several of its tables a column that points back into
+    # the book -- "Where this book met it", "In this book" -- holding
+    # entries like "Chapter 16's warning". On a handout that is a pointer
+    # at something the reader has not got, which is the one thing these
+    # sheets may not carry, and it is not content either way. The column
+    # goes; the rest of the table stays.
+    drop = [j for j in range(len(tb[0]))
+            if XREFCOL.match(clean(tb[0][j]))]
+    if drop and len(tb[0]) - len(drop) >= 2:
+        tb = [[c for j, c in enumerate(r) if j not in drop] for r in tb]
+        n = len(tb[0])
     head = [clean(c)[:48] for c in tb[0]]
     # A statement's top-left cell is often blank, because the column
     # holds the line items and needs no name. Any OTHER blank header means
@@ -1551,7 +1575,11 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
                 # directly above it. A heading, a table and a figure all
                 # put the antecedent on the page; only a block with
                 # nothing before it is really hanging.
-                ctx = bool(out) and out[-1]['kind'] in (
+                # The sheet's own title bar is a heading too, so the
+                # block that opens a sheet is never hanging: "It is drawn
+                # with return arrows" sits under "14.3 Why mining is
+                # iterative", which is what "It" means.
+                ctx = (not out) or out[-1]['kind'] in (
                     'divider', 'table', 'ref', 'form')
                 out.append(dict(kind='prose', carry=[],
                                 _underhead=ctx,
@@ -1623,6 +1651,12 @@ def blocks_for(sec, tbls, terms, seed, caps=(), local_terms=(),
                                      and b is final[-1])]
 
 
+# A column heading that says the column holds what the first one means.
+MEANHEAD = re.compile(r'mean|what it|definition|explanation|in financial'
+                      r'|what this|covers|decides|does|is for|purpose'
+                      r'|stands for|requires|involves', re.I)
+
+
 def meanings(sec, terms, tbls=()):
     """(term, what it means) pairs the section states, for the web.
 
@@ -1640,11 +1674,16 @@ def meanings(sec, terms, tbls=()):
     out, seen = [], set()
     for t in (tbls or []):
         _i, head, body = t
-        if len(head) != 2:
+        # The first TWO columns, however many the table has. Book 4
+        # writes its vocabulary as "Risk | What it means | At Orontes" and
+        # "Board responsibility | What it means | At Orontes" -- forty
+        # tables of term against meaning with an example beside them --
+        # and a rule that read only two-column tables saw none of it, so
+        # thirty-nine per cent of the book's sheets carried no figure.
+        if len(head) < 2:
             continue
         h1 = clean(head[1]).lower()
-        if not any(w in h1 for w in ('mean', 'what it', 'definition',
-                                     'explanation', 'in financial')):
+        if not MEANHEAD.search(h1):
             continue
         for r in body:
             if len(r) > 1 and clean(r[0]) and clean(r[1]):
@@ -1816,6 +1855,15 @@ def build_section(d, si, bk=1, seed=None):
     # what makes a sheet of book 3 read like a sheet of book 1.
     WEB = 3
     kind = 'meaning'
+    # A meaning the chapter states in a table is the section's
+    # vocabulary whether or not the section also lists the word in a
+    # glossary. Looking the table's rows up in the glossary first meant
+    # book 4 -- which names its terms in tables and keeps almost no
+    # glossaries -- threw away forty tables of exactly this.
+    if len(pairs) < WEB and len(defs) >= WEB:
+        seenp = set(clean(e).lower() for e, _d in pairs)
+        pairs = pairs + [(t, dd) for t, dd in defs
+                         if clean(t).lower() not in seenp]
     if len(pairs) < WEB and len(local) >= WEB:
         pairs = [(clean(e), clean(a)) for e, a in local]
         kind = 'arabic'

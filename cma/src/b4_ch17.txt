@@ -1,0 +1,697 @@
+Chapter 17
+Simulation, Sensitivity and Expected Value
+المحاكاة وتحليل الحساسية والقيمة المتوقعة
+Chapters 15 and 16 produced a single predicted number. This chapter asks what to do with the uncertainty around it, which is the question a board actually faces.
+Figure F417-01 shows the chapter.
+Figure F417-01. Chapter 17 roadmap: one number, one at a time, all at once.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+B.3.g
+calculate the expected value of random variables
+Calculate the expected value of random variables.
+Full treatment + Extended Example
+B.3.h
+identify the benefits and shortcomings of the expected value technique
+Identify the benefits and shortcomings of the expected value technique.
+Full treatment
+B.3.i
+use probability values to estimate future cash flows
+Use probability values to estimate future cash flows.
+Full treatment
+F.4.w
+define sensitivity analysis and identify when it would be the appropriate tool to use
+Define sensitivity analysis and identify when it is the appropriate tool.
+Full treatment
+F.4.z
+demonstrate an understanding of what-if (or goal-seeking) analysis
+Demonstrate an understanding of what-if and goal-seeking analysis.
+Full treatment
+F.4.x
+demonstrate an understanding of the uses of simulation models, including the Monte Carlo technique
+Demonstrate an understanding of simulation models, including the Monte Carlo technique.
+Full treatment + Extended Example
+F.4.y
+identify the benefits and limitations of sensitivity analysis and simulation models
+Identify the benefits and limitations of sensitivity analysis and simulation models.
+Full treatment
+F.4.u
+explain how to use predictive analytics techniques to draw insights and make recommendations
+Explain how to use predictive analytics to draw insights and make recommendations.
+Full treatment
+F.4.aa
+identify and explain the limitations of data analytics
+Identify and explain the limitations of data analytics.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+expected value
+القيمة المتوقعة
+valeur attendue
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+what-if analysis
+تحليل ماذا لو
+analyse de scénarios
+goal seeking
+البحث عن الهدف
+recherche de valeur cible
+simulation model
+نموذج المحاكاة
+modèle de simulation
+Monte Carlo technique
+أسلوب مونت كارلو
+méthode de Monte-Carlo
+percentile
+المئين
+centile
+WHAT YOU ALREADY KNOW   What you already know
+Book 3 budgeted the Gulf expansion on one set of assumptions. This chapter takes that same project and asks what happens when the assumptions move, which is why three of its outcomes come from Section B rather than Section F.
+17.1  Expected value
+The expected value of an uncertain quantity is each possible outcome multiplied by its probability, and the results added together. Figure F417-02 does this for the Gulf export expansion.
+Figure F417-02. Expected value of the Gulf expansion
+Scenario
+Cases
+Probability
+Contribution after fixed cost
+Pessimistic
+150,000
+0.25
+330,000
+Most likely
+240,000
+0.50
+1,068,000
+Optimistic
+320,000
+0.25
+1,724,000
+Expected value
+237,500
+1.00
+1,047,500
+The expected volume of 237,500 cases is not the middle scenario and not the simple average of the three, which would be 236,667. The probabilities do the work: the most likely case carries half the weight, and the two extremes a quarter each.
+The same arithmetic estimates a future cash flow. At a margin of 8.20 a case and fixed costs of 900,000, the expected contribution is 1,047,500. Each scenario's own contribution is shown beside it, and they range from 330,000 to 1,724,000.
+Where cash flows fall in different years, each year's expected flow is computed this way and then discounted. That is how Book 1 Chapter 17 handled an investment appraisal. The two steps must not be combined.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+expected value
+القيمة المتوقعة
+valeur attendue
+English (exam term)
+العربية
+Français
+expected value
+القيمة المتوقعة
+valeur attendue
+SECTION CHECK   Test yourself
+SC417-1  The expected value is calculated by:
+A.	averaging the outcomes
+B.	taking the most likely outcome
+C.	multiplying each outcome by its probability and adding the results
+D.	taking the midpoint of the range
+SC417-2  The expected volume is 237,500 cases. At 8.20 a case with fixed costs of 900,000, the expected contribution is:
+A.	1,047,500
+B.	1,068,000
+C.	1,947,500
+D.	2,500,000
+Answers and explanations are at the end of the chapter.
+17.2  What expected value cannot tell you
+Figure F417-03 pairs the benefits of the technique with its shortcomings.
+Figure F417-03. The benefits and shortcomings of expected value
+Expected value (B.3.h)
+Benefit
+Shortcoming
+Uses all the information
+Every outcome and its likelihood enter the figure
+Nobody actually receives the expected value
+Comparable across options
+One number per option, so options can be ranked
+It hides the spread entirely
+Correct over many repetitions
+The long-run average of a repeated decision
+A once-only decision is not a long run
+Simple to compute and explain
+Multiply and add
+The probabilities are usually estimates, not facts
+It ignores the decision-maker's attitude to risk
+Two of those shortcomings decide real cases. The first is that nobody receives the expected value: the outcomes here are 330,000, 1,068,000 and 1,724,000, and 1,047,500 is not among them. It is a weighted average, not a forecast of what will happen.
+The second is that it is correct over many repetitions. A company choosing between two suppliers every week is in a long run; a company deciding once whether to enter the Gulf is not. For a single large decision, the spread of outcomes matters as much as their average, which is what the rest of this chapter addresses.
+SECTION CHECK   Test yourself
+SC417-3  Why does nobody receive the expected value?
+A.	It is always wrong
+B.	It is only an estimate of the mean
+C.	The probabilities never sum to one
+D.	It is a weighted average, and often no possible outcome equals it
+SC417-4  For which decision is expected value least suitable on its own?
+A.	A supplier choice made weekly
+B.	A single large decision taken once
+C.	A routine stock reorder
+D.	A repeated pricing decision
+Answers and explanations are at the end of the chapter.
+17.3  Sensitivity, what-if and goal seeking
+Three related techniques vary the assumptions deliberately. Figure F417-04 distinguishes them.
+Figure F417-04. Sensitivity, what-if, goal seeking and simulation
+Technique
+What it does
+The question it answers
+Varies
+Sensitivity analysis
+Change ONE assumption and see how far the answer moves
+Which assumption deserves the most work?
+One at a time
+What-if analysis
+Change an input and read the new answer
+What happens if volume falls by a fifth?
+Any number of inputs
+Goal seeking
+Set the answer you need and solve for the input
+What volume is needed to break even?
+Works backwards
+Simulation
+Vary every assumption together, thousands of times
+What is the whole range of outcomes?
+All at once, with probabilities
+sensitivity analysis changes one assumption at a time and records how far the answer moves. Its purpose is not to forecast but to rank: it tells you which assumption deserves the most effort in estimating, and which can be left rough.
+Figure F417-05. Sensitivity: how far each assumption moves the answer.
+Figure F417-05 applies it to the expansion. A ten per cent change in margin or in volume moves contribution by +18.6%, while the same change in fixed cost moves it by +8.6%. Margin and volume therefore deserve the careful estimate, and the fixed cost can be approximate.
+what-if analysis is the everyday use of the same model: change an input and read the new answer. goal seeking runs it backwards. It sets the answer required and solves for the input that would produce it, which is how a break-even volume is found.
+Both are everyday spreadsheet work rather than specialist techniques, and that is their value. A manager who can ask the model a question and get an answer in a minute will ask more questions. The assumptions then get tested far more often than any formal review would test them.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+what-if analysis
+تحليل ماذا لو
+analyse de scénarios
+goal seeking
+البحث عن الهدف
+recherche de valeur cible
+English (exam term)
+العربية
+Français
+sensitivity analysis
+تحليل الحساسية
+analyse de sensibilité
+what-if analysis
+تحليل ماذا لو
+analyse de scénarios
+goal seeking
+البحث عن الهدف
+recherche de valeur cible
+SECTION CHECK   Test yourself
+SC417-5  The purpose of sensitivity analysis is to:
+A.	forecast the outcome more accurately
+B.	produce a distribution of outcomes
+C.	solve for a required input
+D.	rank the assumptions by how far each moves the answer
+SC417-6  Finding the volume needed to break even is:
+A.	what-if analysis
+B.	goal seeking
+C.	sensitivity analysis
+D.	simulation
+Answers and explanations are at the end of the chapter.
+17.4  Simulation and the Monte Carlo technique
+Sensitivity moves one assumption at a time, which is its limitation: in reality they all move at once, and sometimes together. A simulation model varies them all, repeatedly, each draw taken from a distribution rather than a single value.
+The Monte Carlo technique is the standard method. Each trial draws a volume, a margin and a fixed cost at random from their ranges, computes the outcome, and records it. Doing that thousands of times builds up the distribution of outcomes rather than a single number.
+Figure F417-06. The distribution of simulated outcomes.
+Figure F417-06 shows 1,000 trials of the expansion. The mean of the trials is 1,027,152, close to the single expected value of 1,047,500, which is reassuring rather than surprising. The information the expected value could not give is the spread: 539,260 to 1,503,517 covers nine trials in ten.
+That range is what a board needs. It converts a decision from a single number into a question about whether the worst plausible outcome is survivable. That is the question that ought to be asked.
+Simulation has costs of its own. It needs a distribution for every assumption rather than a single figure, which is more work and more judgement. It is harder to explain to a board than one number. And its apparent sophistication can lend unearned authority to inputs that were guessed.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+simulation model
+نموذج المحاكاة
+modèle de simulation
+Monte Carlo technique
+أسلوب مونت كارلو
+méthode de Monte-Carlo
+percentile
+المئين
+centile
+English (exam term)
+العربية
+Français
+simulation model
+نموذج المحاكاة
+modèle de simulation
+Monte Carlo technique
+أسلوب مونت كارلو
+méthode de Monte-Carlo
+percentile
+المئين
+centile
+SECTION CHECK   Test yourself
+SC417-7  How does simulation differ from sensitivity analysis?
+A.	It varies every assumption together, repeatedly, rather than one at a time
+B.	It uses more accurate data
+C.	It produces a single better number
+D.	It requires no probabilities
+SC417-8  What does the simulation give that the expected value cannot?
+A.	A more accurate mean
+B.	Proof that the project will succeed
+C.	The spread of outcomes, so the worst plausible case can be judged
+D.	The probabilities themselves
+Answers and explanations are at the end of the chapter.
+17.5  From prediction to recommendation
+The syllabus asks how predictive techniques are used to draw insights and make recommendations, and the answer is a sequence rather than a technique. Predict the outcome, test which assumptions it depends on, simulate the range, and then state what should be done and under what conditions.
+A recommendation that names no condition is weaker than one that does. Compare it with the Chapter 15 analyst. Saying demand will be about 226,273 cases is a prediction; saying the plant should schedule to forecast temperature is a recommendation.
+The honest form adds the conditions under which the recommendation would change. Here that is a volume below the fifth percentile, a margin materially below 8.20, or a change in the Gulf market that breaks the pattern the model was fitted to.
+SECTION CHECK   Test yourself
+SC417-9  What turns a prediction into a recommendation?
+A.	Expressing it more precisely
+B.	Adding a confidence interval
+C.	Running more simulation trials
+D.	Stating what should be done, and the conditions under which that would change
+SC417-10  Which is a recommendation rather than a prediction?
+A.	Demand will be about 226,000 cases
+B.	The model explains most of the variation
+C.	Schedule the extra shift to forecast temperature, and review if margin falls
+D.	The third quarter is the peak
+Answers and explanations are at the end of the chapter.
+17.6  The limitations of data analytics
+This is the last outcome of Part IV and the one that keeps the rest in proportion. Figure F417-07 sets out what analytics cannot do, each limitation illustrated from earlier in this book.
+Figure F417-07. The limitations of data analytics
+Limitation of data analytics (F.4.aa)
+What it means
+Where this book met it
+Data quality
+An answer is only as good as what went in
+Chapter 11's duplicates and gaps
+Association, not cause
+Correlation never establishes causation
+Chapter 14's staff birthdays
+The past may not continue
+Every model assumes it does
+Chapter 16's warning
+What is not measured
+Reputation, morale and relationships rarely appear in the data
+The distributor who is difficult but loyal
+Probabilities are estimates
+A model built on guesses inherits them
+The 0.25 and 0.50 in this chapter
+Privacy and ethics
+What can be analysed is not always what should be
+Chapter 11's obligations
+It informs, it does not decide
+Management remains accountable for the choice
+The board still votes on the Gulf expansion
+The fifth row deserves particular attention in this chapter. The probabilities of 0.25, 0.50 and 0.25 were not measured; somebody estimated them. Every figure computed from them inherits that judgement, however many decimal places the simulation reports.
+EXAM TRAP   Precision is not accuracy
+A simulation reporting a fifth percentile to the nearest pound looks precise, and is only as accurate as the ranges it was given. A question offering a very exact figure from very rough assumptions is testing whether the candidate notices.
+The last row is the one to carry out of Part IV. Analytics informs a decision; it does not make one. The board still votes on the Gulf expansion, and remains accountable for the vote whatever the model said.
+SECTION CHECK   Test yourself
+SC417-11  A simulation reports a fifth percentile to the nearest pound. This is:
+A.	evidence of a well-built model
+B.	precise but not necessarily accurate, since the input ranges were estimates
+C.	a reason to trust the figure
+D.	required practice
+SC417-12  Which limitation applies to every technique in this chapter?
+A.	It informs a decision; management still makes and answers for it
+B.	It requires expensive software
+C.	It cannot handle more than three variables
+D.	It applies only to manufacturing
+Answers and explanations are at the end of the chapter.
+17.7  Extended Example 17A: the Gulf expansion under uncertainty
+This example works the calculation the exam sets and then shows what the single figure conceals. It is exam-core.
+1. The expected volume
+WORKED EXAMPLE   Weighting the three scenarios
+Pessimistic: 150,000 × 0.25
+Most likely: 240,000 × 0.50
+Optimistic: 320,000 × 0.25
+Expected volume: 237,500 cases
+2. The expected cash flow
+At 8.20 a case the expected contribution before fixed cost is 1,947,500. Deducting fixed costs of 900,000 gives 1,047,500, against an investment of 2,500,000.
+3. The commonest error
+Averaging the three volumes without their probabilities gives 236,667 cases rather than 237,500. The difference is small here because the probabilities are nearly symmetrical, and it would not be if they were not.
+4. Which assumption matters
+Sensitivity analysis says margin and volume equally, at +18.6% for a ten per cent change, and fixed cost half as much at +8.6%. Estimating effort should follow that ranking.
+5. What the simulation adds
+1,000 trials give a mean of 1,027,152, a median of 1,035,130, and a fifth-to-ninety-fifth range of 539,260 to 1,503,517. No trial in this run produced a loss, which is itself worth reporting.
+6. The recommendation
+Proceed, because even the fifth percentile of 539,260 covers the fixed cost comfortably. Review if the margin falls materially below 8.20, because margin is one of the two assumptions the answer depends on most.
+7. Your turn
+YOUR TURN   Name four techniques
+Complete the blank cells of Figure F417-08. Answers are at the end of the chapter.
+Figure F417-08. Your turn: name four techniques (complete the blanks)
+What is done
+Which technique?
+Why
+Change one assumption and see what moves
+________
+It finds which input matters most
+Set the target and solve for the input
+Goal seeking
+________
+Vary everything together, many times
+________
+It gives the whole distribution
+Each outcome times its probability, summed
+________
+It gives one number
+8. Tie line
+WORKED EXAMPLE   Everything ties
+Expected volume 237,500 cases; expected contribution 1,047,500.
+Simple average 236,667 cases, which is the distractor.
+Simulation mean 1,027,152, within a few per cent of the expected value.
+Fifth to ninety-fifth percentile: 539,260 to 1,503,517.
+9. How the exam asks it
+EXAM TRAP   Exam view
+The calculation is always outcome times probability, summed. The trap is the unweighted average. Where a question asks what simulation adds over expected value, the answer is the distribution, not a better single number.
+10. Self-check
+SECTION CHECK   Test yourself
+SC417-13  Use Extended Example 17A. What is the expected volume?
+A.	236,667 cases
+B.	240,000 cases
+C.	237,500 cases
+D.	320,000 cases
+SC417-14  Use Extended Example 17A. The simulation mean is 1,027,152 against an expected value of 1,047,500. This closeness is:
+A.	expected, and a check that the simulation was set up correctly
+B.	a coincidence
+C.	evidence the simulation adds nothing
+D.	a sign of an error
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F417-09 brings the chapter together.
+Figure F417-09. Chapter 17 summary map: the key rule for each section.
+The expected value is each outcome multiplied by its probability and summed, and the same arithmetic estimates a future cash flow. It uses all the information and allows options to be ranked, but nobody receives it, it hides the spread, and it is correct only over many repetitions. Sensitivity analysis changes one assumption at a time to find which matters most; what-if changes inputs freely; goal seeking sets the answer and solves for the input. Simulation, usually by the Monte Carlo technique, varies every assumption together across thousands of trials and produces the whole distribution of outcomes. A recommendation names the action and the conditions under which it would change. And analytics has limits. They are data quality, association rather than cause, the assumption that the past continues, what is never measured, estimated probabilities, privacy, and the fact that it informs a decision rather than making one.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P417-01  Probabilities in an expected value calculation must:
+A.	be equal
+B.	sum to one
+C.	exceed 0.5 each
+D.	be whole numbers
+P417-02  Which figure is the distractor the exam sets for the expected volume?
+A.	237,500
+B.	150,000
+C.	900,000
+D.	236,667, the unweighted average
+P417-03  To estimate a future cash flow using probabilities, you:
+A.	take the highest cash flow
+B.	take the lowest, to be prudent
+C.	weight each possible cash flow by its probability and sum them
+D.	ignore the probabilities and use the midpoint
+P417-04  Which is a benefit of the expected value technique?
+A.	It reduces each option to one comparable number
+B.	It shows the range of outcomes
+C.	It reflects attitude to risk
+D.	It removes uncertainty
+P417-05  Two projects have the same expected value but very different spreads. Expected value alone:
+A.	prefers the wider spread
+B.	cannot distinguish them
+C.	prefers the narrower spread
+D.	shows which is better
+P417-06  Sensitivity analysis shows margin moves the answer twice as far as fixed cost. The practical implication is:
+A.	reduce the fixed cost
+B.	increase the margin
+C.	ignore fixed cost entirely
+D.	spend more effort estimating margin than fixed cost
+P417-07  Sensitivity analysis varies:
+A.	all assumptions together
+B.	no assumptions
+C.	one assumption at a time
+D.	only the output
+P417-08  What-if analysis differs from goal seeking because:
+A.	what-if uses probabilities
+B.	what-if changes an input and reads the answer, while goal seeking sets the answer and solves for the input
+C.	goal seeking varies everything at once
+D.	they are the same
+P417-09  In a Monte Carlo simulation, each trial:
+A.	uses the most likely value for every assumption
+B.	changes one assumption
+C.	repeats the previous trial
+D.	draws each assumption at random from its range and computes the outcome
+P417-10  The output of a simulation is:
+A.	a distribution of outcomes
+B.	a single best estimate
+C.	a ranking of assumptions
+D.	a required input value
+P417-11  A limitation shared by sensitivity analysis and simulation is that:
+A.	both depend on ranges and probabilities that somebody estimated
+B.	both need thousands of trials
+C.	both vary one assumption at a time
+D.	both ignore fixed costs
+P417-12  Which limitation concerns what never appears in the data?
+A.	Data quality
+B.	The past may not continue
+C.	Privacy and ethics
+D.	Reputation, morale and relationships are rarely measured
+P417-13  The probabilities used in this chapter were:
+A.	measured from historical data
+B.	required by the standard
+C.	estimated by someone, so every figure derived from them inherits that judgement
+D.	derived from the simulation
+P417-14  A sound recommendation from predictive work names:
+A.	the technique used
+B.	the action and the conditions under which it would change
+C.	the R squared achieved
+D.	the number of trials run
+P417-15  Why is it reassuring that the simulation mean is close to the expected value?
+A.	Both describe the same average, so disagreement would signal a set-up error
+B.	It proves the project will succeed
+C.	It shows the simulation is unnecessary
+D.	It makes the probabilities more reliable
+P417-16  The expected value technique ignores:
+A.	the probabilities
+B.	the possible outcomes
+C.	the decision-maker's attitude to risk
+D.	the arithmetic
+Case question: the number nobody will receive
+The Orontes board is deciding on the Gulf export expansion, which requires an investment of 2,500,000. Three volume scenarios have been estimated: a pessimistic 150,000 cases with probability 0.25, a most likely 240,000 with probability 0.50, and an optimistic 320,000 with probability 0.25. The margin is 8.20 a case and fixed costs are 900,000.
+The finance director has calculated a single expected contribution and presented it to the board as the figure the project will deliver. A board member has asked what would happen if the margin came under pressure, and another has asked what the worst realistic outcome would be.
+An analyst has since run a simulation of one thousand trials, varying volume, margin and fixed cost together. The mean of the trials is close to the expected value, but the fifth percentile is far below it and the ninety-fifth far above.
+The probabilities were estimated in a meeting by the sales and production managers. Nobody has recorded how they were arrived at, and the simulation output has been reported to the nearest pound. No one has asked what the project would be worth if volume fell below the pessimistic case.
+Use the scenario above for items C417-1 to C417-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C417-1  Classify each question. (On the exam screen you would drag each item into a box.)
+Categories: Expected value · Sensitivity analysis · Goal seeking · Simulation
+Question from the board
+Category
+What is the single probability-weighted outcome?
+Which assumption moves the answer most?
+What volume is needed to break even?
+What is the whole range of possible outcomes?
+C417-2  Enter the expected volume in cases.
+Answer: ____________
+C417-3  Enter the expected contribution after fixed cost.
+Answer: ____________
+C417-4  On the finance director describing the expected value as the figure the project will deliver: [select]
+Options: it is a weighted average, and none of the three scenarios produces it   |   the description is accurate   |   it is accurate only if the most likely scenario occurs   |   it is accurate because the probabilities sum to one
+C417-5  Which technique answers the board member asking about margin pressure? [select]
+Options: sensitivity analysis, which shows how far a change in margin moves the answer   |   expected value, recalculated   |   goal seeking, to find the required margin   |   none; the question cannot be answered
+C417-6  What does the simulation add that the expected value could not? [select]
+Options: the spread of outcomes, so the worst realistic case can be judged   |   a more accurate single figure   |   proof that the project will succeed   |   better probabilities
+C417-7  On reporting the simulation output to the nearest pound, when the probabilities were estimated in a meeting: [select]
+Options: the output is precise but no more accurate than the estimates behind it   |   the precision is justified by the thousand trials   |   the figures should be reported to even greater precision   |   the simulation should be discarded
+Case question: the number nobody will receive
+The Orontes board is deciding on the Gulf export expansion, which requires an investment of 2,500,000. Three volume scenarios have been estimated: a pessimistic 150,000 cases with probability 0.25, a most likely 240,000 with probability 0.50, and an optimistic 320,000 with probability 0.25. The margin is 8.20 a case and fixed costs are 900,000.
+The finance director has calculated a single expected contribution and presented it to the board as the figure the project will deliver. A board member has asked what would happen if the margin came under pressure, and another has asked what the worst realistic outcome would be.
+An analyst has since run a simulation of one thousand trials, varying volume, margin and fixed cost together. The mean of the trials is close to the expected value, but the fifth percentile is far below it and the ninety-fifth far above.
+The probabilities were estimated in a meeting by the sales and production managers. Nobody has recorded how they were arrived at, and the simulation output has been reported to the nearest pound. No one has asked what the project would be worth if volume fell below the pessimistic case.
+Use the scenario above for items C417-1 to C417-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C417-1  Classify each question. (On the exam screen you would drag each item into a box.)
+Categories: Expected value · Sensitivity analysis · Goal seeking · Simulation
+Question from the board
+Category
+What is the single probability-weighted outcome?
+Which assumption moves the answer most?
+What volume is needed to break even?
+What is the whole range of possible outcomes?
+C417-2  Enter the expected volume in cases.
+Answer: ____________
+C417-3  Enter the expected contribution after fixed cost.
+Answer: ____________
+C417-4  On the finance director describing the expected value as the figure the project will deliver: [select]
+Options: it is a weighted average, and none of the three scenarios produces it   |   the description is accurate   |   it is accurate only if the most likely scenario occurs   |   it is accurate because the probabilities sum to one
+C417-5  Which technique answers the board member asking about margin pressure? [select]
+Options: sensitivity analysis, which shows how far a change in margin moves the answer   |   expected value, recalculated   |   goal seeking, to find the required margin   |   none; the question cannot be answered
+C417-6  What does the simulation add that the expected value could not? [select]
+Options: the spread of outcomes, so the worst realistic case can be judged   |   a more accurate single figure   |   proof that the project will succeed   |   better probabilities
+C417-7  On reporting the simulation output to the nearest pound, when the probabilities were estimated in a meeting: [select]
+Options: the output is precise but no more accurate than the estimates behind it   |   the precision is justified by the thousand trials   |   the figures should be reported to even greater precision   |   the simulation should be discarded
+Answers and explanations
+Section checks
+SC417-1  Answer C. The probabilities do the weighting.
+A is wrong. That ignores the probabilities.
+B is wrong. That ignores the other outcomes.
+D is wrong. The midpoint has no probability behind it.
+SC417-2  Answer A. Contribution before fixed cost, less the fixed cost.
+B is wrong. That is the most likely scenario alone.
+C is wrong. That omits the fixed cost.
+D is wrong. That is the investment.
+SC417-3  Answer D. The outcomes here are three specific figures, and the expected value is not among them.
+A is wrong. It is correctly computed; it is simply not an outcome.
+B is wrong. It is the mean, exactly.
+C is wrong. They do sum to one.
+SC417-4  Answer B. The technique is correct over many repetitions.
+A is wrong. That is a long run.
+C is wrong. Repeated, so the average applies.
+D is wrong. Also repeated.
+SC417-5  Answer D. It says where estimating effort should go.
+A is wrong. It is not a forecasting technique.
+B is wrong. That is simulation.
+C is wrong. That is goal seeking.
+SC417-6  Answer B. The answer is set and the input solved for.
+A is wrong. What-if changes an input and reads the answer.
+C is wrong. Sensitivity ranks assumptions.
+D is wrong. Simulation produces a distribution.
+SC417-7  Answer A. In reality the assumptions all move at once.
+B is wrong. The same data serves both.
+C is wrong. It produces a distribution, not a better point.
+D is wrong. It needs a distribution for each assumption.
+SC417-8  Answer C. The range from 539,260 to 1,503,517 covers nine trials in ten.
+A is wrong. The two means agree closely, as they should.
+B is wrong. Nothing proves that.
+D is wrong. Those were supplied to it as estimates.
+SC417-9  Answer D. A recommendation naming no condition is the weaker one.
+A is wrong. Precision is not advice.
+B is wrong. Useful, but still a prediction.
+C is wrong. More trials refine the distribution, not the advice.
+SC417-10  Answer C. It names an action and a condition.
+A is wrong. A prediction.
+B is wrong. A statement about the model.
+D is wrong. A pattern.
+SC417-11  Answer B. Precision and accuracy are different things.
+A is wrong. Reporting precision says nothing about quality.
+C is wrong. It should prompt the opposite.
+D is wrong. No such requirement.
+SC417-12  Answer A. The board still votes on the expansion.
+B is wrong. A spreadsheet suffices for all of them.
+C is wrong. All handle many variables.
+D is wrong. They apply to any decision under uncertainty.
+SC417-13  Answer C. Each volume weighted by its probability.
+A is wrong. That is the unweighted average of the three.
+B is wrong. That is the most likely scenario alone.
+D is wrong. That is the optimistic scenario.
+SC417-14  Answer A. The value of the simulation is the spread, not the mean.
+B is wrong. The two should agree if both are right.
+C is wrong. It adds the distribution.
+D is wrong. Disagreement would be the warning.
+Your turn
+Item
+Answer
+Change one assumption and see what moves
+Sensitivity analysis — it finds which input the answer depends on most
+Set the target and solve for the input
+Why: goal seeking works backwards from a required answer, which is how a break-even volume is found
+Vary everything together, many times
+Simulation, usually by the Monte Carlo technique — it gives the whole distribution of outcomes
+Each outcome times its probability, summed
+Expected value — it gives one number, which is both its convenience and its weakness
+Multiple-choice questions
+P417-01  Answer B. They cover all the possible outcomes.
+A is wrong. Equal probabilities are a special case.
+C is wrong. Impossible for three outcomes.
+D is wrong. They are proportions.
+P417-02  Answer D. It ignores the probabilities.
+A is wrong. That is the correct answer.
+B is wrong. That is the pessimistic scenario.
+C is wrong. That is the fixed cost.
+P417-03  Answer C. The same arithmetic as any expected value.
+A is wrong. That assumes the best case.
+B is wrong. Prudence is not a substitute for arithmetic.
+D is wrong. The probabilities are the information.
+P417-04  Answer A. Options can then be ranked.
+B is wrong. It hides the range entirely.
+C is wrong. It ignores risk attitude.
+D is wrong. The uncertainty remains.
+P417-05  Answer B. That is exactly why simulation is used.
+A is wrong. It expresses no preference about spread.
+C is wrong. Nor this one.
+D is wrong. The two are identical on this measure.
+P417-06  Answer D. It directs estimating effort, not action.
+A is wrong. The analysis says nothing about what to change.
+B is wrong. Again, it ranks assumptions rather than recommending.
+C is wrong. It still moves the answer by nearly nine per cent.
+P417-07  Answer C. That is what isolates each one's effect.
+A is wrong. That is simulation.
+B is wrong. Varying is the method.
+D is wrong. That is goal seeking.
+P417-08  Answer B. One runs forwards, the other backwards.
+A is wrong. Neither requires them.
+C is wrong. That is simulation.
+D is wrong. They work in opposite directions.
+P417-09  Answer D. Thousands of such trials build the distribution.
+A is wrong. That would give the same answer every time.
+B is wrong. That is sensitivity analysis.
+C is wrong. Each trial is independent.
+P417-10  Answer A. Which is what the expected value could not supply.
+B is wrong. A single estimate is what it improves on.
+C is wrong. That is sensitivity analysis.
+D is wrong. That is goal seeking.
+P417-11  Answer A. Every figure computed inherits that judgement.
+B is wrong. Sensitivity needs only a few.
+C is wrong. Simulation varies them together.
+D is wrong. Both can include fixed costs.
+P417-12  Answer D. A difficult but loyal distributor does not show up in the figures.
+A is wrong. That concerns the data that is there.
+B is wrong. That concerns the model's assumption.
+C is wrong. That concerns what may be analysed.
+P417-13  Answer C. However many decimals the output carries.
+A is wrong. Nothing in the case says so.
+B is wrong. No standard sets them.
+D is wrong. They were inputs to it, not outputs.
+P417-14  Answer B. Conditions are what make advice actionable.
+A is wrong. Method belongs in the appendix.
+C is wrong. A statistic is not advice.
+D is wrong. Nor is a trial count.
+P417-15  Answer A. The simulation's contribution is the spread, not the mean.
+B is wrong. Nothing proves that.
+C is wrong. The distribution is the point.
+D is wrong. They remain estimates.
+P417-16  Answer C. Two decision-makers may rank the same expected values differently.
+A is wrong. Those are central to it.
+B is wrong. All are included.
+D is wrong. It is arithmetic.
+Case question: the number nobody will receive
+C417-1
+Question from the board
+Category
+What is the single probability-weighted outcome?
+Expected value
+Which assumption moves the answer most?
+Sensitivity analysis
+What volume is needed to break even?
+Goal seeking
+What is the whole range of possible outcomes?
+Simulation
+Classify each question by the technique that answers it.
+C417-2  Answer: 237,500.
+236,667 is wrong: this answer this is the unweighted average of the three scenarios.
+240,000 is wrong: this answer this is the most likely scenario alone.
+C417-3  Answer: 1,047,500.
+1,947,500 is wrong: this answer this omits the fixed cost.
+1,068,000 is wrong: this answer this is the contribution of the most likely scenario alone.
+C417-4  Answer: it is a weighted average, and none of the three scenarios produces it.
+the description is accurate is wrong: this answer no possible outcome equals the expected value here.
+it is accurate only if the most likely scenario occurs is wrong: this answer the most likely scenario produces a different figure again.
+it is accurate because the probabilities sum to one is wrong: this answer summing to one makes the arithmetic valid, not the figure attainable.
+C417-5  Answer: sensitivity analysis, which shows how far a change in margin moves the answer.
+expected value, recalculated is wrong: this answer that gives another single figure without showing the dependence.
+goal seeking, to find the required margin is wrong: this answer useful, but the member asked about the effect of a change, not a target.
+none; the question cannot be answered is wrong: this answer it is exactly what sensitivity analysis exists for.
+C417-6  Answer: the spread of outcomes, so the worst realistic case can be judged.
+a more accurate single figure is wrong: this answer its mean agrees with the expected value, as it should.
+proof that the project will succeed is wrong: this answer no technique supplies proof.
+better probabilities is wrong: this answer the same estimated probabilities went into it.
+C417-7  Answer: the output is precise but no more accurate than the estimates behind it.
+the precision is justified by the thousand trials is wrong: this answer more trials refine the arithmetic, not the inputs.
+the figures should be reported to even greater precision is wrong: this answer that compounds the false impression.
+the simulation should be discarded is wrong: this answer it is informative; only its reported precision is misleading.
+PART IV — DATA ANALYTICS

@@ -1,0 +1,624 @@
+Chapter 18
+Data Visualization
+العرض المرئي للبيانات
+Everything in Part IV has produced an answer. This chapter is about the last step, which decides whether anybody acts on it: showing the answer to someone who was not part of the analysis.
+Figure F418-01 shows the chapter.
+Figure F418-01. Chapter 18 roadmap: choose, draw, say.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.4.cc
+evaluate data visualization options and select the best presentation approach (e.g., histograms, box plots, scatterplots, dot plots, tables, dashboards, bar charts, pie charts, line charts, bubble charts) for a given scenario
+Evaluate data visualization options and select the best presentation approach.
+Full treatment + Extended Example
+F.4.bb
+utilize table and graph design best practices to avoid distortion in the communication of complex information
+Use table and graph design best practices to avoid distortion when communicating complex information.
+Full treatment
+F.4.dd
+understand the benefits and limitations of visualization techniques
+Understand the benefits and limitations of visualization techniques.
+Full treatment
+F.4.ee
+communicate results, conclusions, and recommendations in an impactful manner using effective visualization techniques
+Communicate results, conclusions and recommendations impactfully using effective visualization.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+data visualization
+العرض المرئي للبيانات
+visualisation des données
+scatter plot
+مخطط الانتشار
+nuage de points
+histogram
+المدرج التكراري
+histogramme
+box plot
+مخطط الصندوق
+boîte à moustaches
+dashboard
+لوحة المؤشرات
+tableau de bord
+truncated axis
+المحور المقطوع
+axe tronqué
+WHAT YOU ALREADY KNOW   What you already know
+Every figure in this book is an example of what this chapter teaches. The scatter plot of Chapter 15, the decomposition of Chapter 16 and the histogram of Chapter 17 were each chosen for the question they had to answer. This chapter makes that choice explicit.
+18.1  Choosing the form
+The choice of chart follows from what the reader must see, not from what is available in the software. Figure F418-02 sets out the usual cases.
+Figure F418-02. Choosing the form of a visualization
+What the reader must see (F.4.cc)
+Best form
+In this book
+A comparison across categories
+Bar chart
+Cases by division, or by product family
+A trend over time
+Line chart
+The eight quarters of Chapter 16
+A relationship between two variables
+Scatter plot
+Cases against temperature, Figure F415-06
+A distribution of many values
+Histogram or box plot
+The simulated outcomes of Figure F417-06
+Composition of a whole
+Stacked bar, or a table
+Cost by element; avoid a pie beyond a few slices
+Exact values that will be read off
+Table
+The expected value computation of Figure F417-02
+Several measures watched over time
+Dashboard
+The sales dashboard of Chapter 13
+Three of those have been used already. A scatter plot showed cases against temperature because the question was whether two variables move together. A histogram showed the simulated outcomes because the question was about the shape of a distribution. A line chart showed the eight quarters because the question was about movement over time.
+The last two rows deserve a note. A dashboard suits several measures watched repeatedly, and Chapter 13 showed what happens when its definitions are not agreed. And a table is the right answer more often than people expect: where exact values will be read off and compared, a table beats any chart.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+scatter plot
+مخطط الانتشار
+nuage de points
+histogram
+المدرج التكراري
+histogramme
+box plot
+مخطط الصندوق
+boîte à moustaches
+dashboard
+لوحة المؤشرات
+tableau de bord
+English (exam term)
+العربية
+Français
+scatter plot
+مخطط الانتشار
+nuage de points
+histogram
+المدرج التكراري
+histogramme
+box plot
+مخطط الصندوق
+boîte à moustaches
+dashboard
+لوحة المؤشرات
+tableau de bord
+SECTION CHECK   Test yourself
+SC418-1  Which form best shows a relationship between two variables?
+A.	A scatter plot
+B.	A bar chart
+C.	A pie chart
+D.	A table
+SC418-2  When is a table the better choice than a chart?
+A.	When there are many observations
+B.	When exact values will be read off and compared
+C.	When the audience is non-technical
+D.	Never
+Answers and explanations are at the end of the chapter.
+18.2  How a true chart misleads
+Distortion rarely involves a false number. Figure F418-03 shows the same four quarters of 2028 drawn two ways.
+Figure F418-03. The same four figures drawn misleadingly and honestly.
+On the left the axis begins at 205,000, and the third-quarter bar towers over the first. On the right it begins at zero, and the four quarters are visibly similar. The third quarter exceeds the first by 14 per cent, which the right-hand chart conveys and the left-hand chart does not.
+Every figure in the left-hand chart is correct. Nothing has been invented, nothing omitted, and the axis is honestly labelled. It misleads because a bar's length is read as its value, and truncating the axis breaks that relationship while leaving the chart technically defensible.
+COMMON ERROR IN OTHER BOOKS   'The axis was labelled, so the chart is honest'
+A label does not undo the distortion, because readers take the message from the shape before reading the axis. For a bar chart the rule is simple and worth keeping: start at zero. A line chart may begin elsewhere, because a line's message is its slope rather than its length, but the choice should still be stated.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+truncated axis
+المحور المقطوع
+axe tronqué
+English (exam term)
+العربية
+Français
+truncated axis
+المحور المقطوع
+axe tronqué
+SECTION CHECK   Test yourself
+SC418-3  Why does truncating a bar chart's axis mislead?
+A.	The numbers become false
+B.	The labels become unreadable
+C.	It hides some categories
+D.	A bar's length is read as its value, and truncation breaks that relationship
+SC418-4  A truncated axis is clearly labelled. Is the chart honest?
+A.	Yes, because nothing is hidden
+B.	Yes, because the numbers are correct
+C.	No, because readers take the message from the shape before reading the axis
+D.	Only if the audience is technical
+Answers and explanations are at the end of the chapter.
+18.3  Design practices worth following
+Figure F418-04 collects the rules, each with the reason behind it, because a rule whose reason is understood survives the case it does not quite fit.
+Figure F418-04. Design practices and the reason for each
+Practice (F.4.bb)
+Why
+Note
+Start a bar chart's axis at zero
+A bar's length is the message; truncating it lies about the ratio
+A line chart may start elsewhere, if labelled
+Keep the aspect ratio honest
+Stretching a chart vertically steepens every trend
+Choose it before seeing the result
+Label directly where you can
+A legend makes the eye travel; a label does not
+Put the series name at the end of the line
+Order categories meaningfully
+By size, or by time; not by the alphabet
+Unless the reader will look a category up
+Remove what does not inform
+Gridlines, borders and effects compete with the data
+Every mark should carry meaning
+One message per exhibit
+A chart saying three things usually says none
+Draw the second chart
+Show the caveat
+Sample size, excluded rows, estimated inputs
+Chapter 17's probabilities were estimates
+The aspect ratio deserves more attention than it usually gets. Stretching a chart vertically steepens every trend in it, and the stretch is invisible to a reader who never sees the alternative. Choosing the proportions before seeing the result removes the temptation.
+Removing what does not inform is the rule that improves most charts. Gridlines, borders, shadows and three-dimensional effects compete with the data for the reader's attention, and the data always loses something in the contest.
+SECTION CHECK   Test yourself
+SC418-5  Why should the aspect ratio be chosen before seeing the result?
+A.	Stretching a chart vertically steepens every trend, and the stretch is invisible to the reader
+B.	It saves time
+C.	Software requires it
+D.	It makes charts consistent in size
+SC418-6  Which practice improves most charts?
+A.	Adding a three-dimensional effect
+B.	Using more colours
+C.	Adding a legend
+D.	Removing gridlines, borders and effects that do not inform
+Answers and explanations are at the end of the chapter.
+18.4  What a picture can and cannot do
+Figure F418-05 pairs each benefit of visualization with the limitation that accompanies it, and the pairing is deliberate: each limitation is the same property seen from the other side.
+Figure F418-05. The benefits of visualization and their matching limitations
+Visualization (F.4.dd)
+Benefit
+Matching limitation
+The eye is fast
+A pattern visible in a second would take minutes in a table
+The same speed makes a distorted chart persuasive
+It reaches non-specialists
+A board reads a chart it would not read as output
+It can imply precision the data lacks
+It reveals the unexpected
+Outliers and gaps show themselves
+It can suggest patterns that are coincidence
+It compresses volume
+Thousands of trials in one picture
+Compression hides the individual case
+It aids memory
+A reader recalls a shape, not a number
+A wrong shape is remembered just as well
+It supports the argument
+The claim and its evidence sit together
+It never establishes cause
+The first pair carries the argument. The eye reads a pattern in a second that a table would take minutes to yield. That same speed is why a distorted chart persuades before anybody has checked the axis. Speed is the benefit and the danger together.
+The last limitation is the one Part IV has repeated. A chart showing two series moving together is a picture of an association, and Chapter 14's staff birthdays would make a perfectly convincing one.
+SECTION CHECK   Test yourself
+SC418-7  The speed with which the eye reads a chart is:
+A.	only a benefit
+B.	both its main benefit and the reason a distorted chart persuades
+C.	only a risk
+D.	irrelevant to accuracy
+SC418-8  A chart shows two series moving closely together. This establishes:
+A.	that one causes the other
+B.	that the data is accurate
+C.	an association, and nothing about cause
+D.	that the model fits
+Answers and explanations are at the end of the chapter.
+18.5  Communicating the result
+An exhibit has to carry its meaning to someone who did not do the analysis and will not ask questions. Figure F418-06 shows the difference that makes.
+Figure F418-06. Leading with the message rather than the method.
+The strongest single change is in the title. A title naming the axes leaves the reader to work out what matters, and some will not. A title stating the finding tells them what to look for, and the chart then has one job: to show that the claim is true.
+The other three rules follow from it. One message per exhibit, because a chart saying three things usually says none. The chart supports the title, by highlighting the part that carries the claim. And the caveat is shown rather than hidden, because an audience that discovers an omission later distrusts everything else.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data visualization
+العرض المرئي للبيانات
+visualisation des données
+English (exam term)
+العربية
+Français
+data visualization
+العرض المرئي للبيانات
+visualisation des données
+SECTION CHECK   Test yourself
+SC418-9  The strongest single improvement to most exhibits is:
+A.	a larger chart
+B.	more data
+C.	a title stating the finding rather than naming the axes
+D.	a brighter colour scheme
+SC418-10  Why should a caveat appear on the exhibit rather than in a footnote elsewhere?
+A.	Footnotes are not permitted
+B.	It makes the exhibit longer
+C.	It satisfies the auditor
+D.	An audience that discovers an omission later distrusts everything else
+Answers and explanations are at the end of the chapter.
+18.6  Extended Example 18A: presenting the Gulf decision to the board
+F.4.cc is a Level C outcome, so the exam asks you to choose between visualization options and defend the choice. This example does that for the decision of Chapter 17.
+1. What the board must see
+Not the method. The board must see three things: that the expansion is expected to contribute 1,047,500, that the realistic range runs from 539,260 to 1,503,517, and that even the low end covers the fixed cost. Three facts, and the decision follows from them.
+2. Rejecting the obvious options
+A table of 1,000 trial results shows everything and communicates nothing. A single number is what the finance director already tried, and it provoked the question about the worst case. A pie chart has no role here, because nothing is a share of a whole.
+3. The choice
+A histogram of the simulated outcomes, as in Figure F417-06, with the fifth and ninety-fifth percentiles marked and the fixed-cost line drawn across it. The shape answers the worst-case question visually, and the marked percentiles answer it numerically.
+4. The title
+Not 'Distribution of simulated contribution'. Something closer to: even the pessimistic tenth of outcomes covers the fixed cost. That is the finding, and the chart exists to show that it is true.
+5. The caveat, shown not hidden
+A line under the chart recording that the probabilities were estimated by management rather than measured. Chapter 17 made that point and it belongs on the exhibit, because the board is entitled to weigh it.
+6. What would be dishonest
+Truncating the horizontal axis to begin at the fifth percentile, which would make every outcome look comfortable. Or drawing only the mean, which is what started the argument. Both would be defensible in the sense that no number would be false.
+7. Your turn
+YOUR TURN   Choose four forms
+Complete the blank cells of Figure F418-07. Answers are at the end of the chapter.
+Figure F418-07. Your turn: choose four forms (complete the blanks)
+What must be shown
+Which form?
+Why
+A relationship between two variables
+________
+Each point is one observation
+A trend over eight quarters
+Line chart
+________
+The distribution of 1,000 simulated outcomes
+________
+It shows the shape and the spread
+Exact figures the reader will read off
+________
+Precision matters more than shape
+8. Tie line
+WORKED EXAMPLE   The pattern behind the choice
+Start from what the reader must see, not from what the analysis produced.
+Reject the options that show everything or show too little, and say why.
+Title the exhibit with the finding, not with the axes.
+Put the caveat on the exhibit, where it will be read.
+9. How the exam asks it
+EXAM TRAP   Exam view
+A Level C question gives a situation and several chart options. Name what the reader must see, choose the form that shows it, and say what the rejected options would have failed to convey. Choosing correctly without the reason earns less than the reason deserves.
+10. Self-check
+SECTION CHECK   Test yourself
+SC418-11  Use Extended Example 18A. Why is a table of 1,000 trial results rejected?
+A.	It shows everything and communicates nothing
+B.	It would be inaccurate
+C.	Tables are never appropriate
+D.	The board prefers charts
+SC418-12  Use Extended Example 18A. Which would be dishonest?
+A.	Marking the fifth and ninety-fifth percentiles
+B.	Truncating the horizontal axis to begin at the fifth percentile
+C.	Drawing the fixed-cost line across the chart
+D.	Stating the probabilities were estimated
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F418-08 brings the chapter together.
+Figure F418-08. Chapter 18 summary map: the key rule for each section.
+The form of a chart follows from what the reader must see. A bar chart serves comparison, a line a trend, a scatter plot a relationship, a histogram or box plot a distribution, and a table the case where exact values will be read off. Distortion rarely requires a false number: truncating a bar chart's axis breaks the relationship between length and value while leaving every figure correct. Bars start at zero, the aspect ratio is chosen before the result is seen, labels go directly on the data, and whatever does not inform is removed. Visualization is fast, reaches non-specialists and reveals the unexpected, and each of those strengths is also how a misleading chart succeeds. An exhibit carries one message, states its finding in the title, supports that finding with the chart, and shows its caveat rather than hiding it.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P418-01  Which form best shows a distribution of many values?
+A.	A line chart
+B.	A pie chart
+C.	A bar chart of categories
+D.	A histogram or box plot
+P418-02  Which form suits movement over eight quarters?
+A.	A scatter plot
+B.	A line chart
+C.	A histogram
+D.	A pie chart
+P418-03  When is a pie chart inappropriate?
+A.	When there are exactly two categories
+B.	When the audience is technical
+C.	When nothing being shown is a share of a whole
+D.	When colours are unavailable
+P418-04  A dashboard suits:
+A.	several measures watched repeatedly over time
+B.	a single finding presented once
+C.	exact values read off for a calculation
+D.	a relationship between two variables
+P418-05  A bar chart's axis should start at:
+A.	the smallest value
+B.	a round number near the data
+C.	zero
+D.	whatever shows the pattern best
+P418-06  May a line chart's axis begin above zero?
+A.	No, never
+B.	Only for financial data
+C.	Only if the range is small
+D.	Yes, because a line's message is its slope rather than its length, though the choice should be stated
+P418-07  Why label a series directly rather than with a legend?
+A.	Legends are not supported
+B.	A legend makes the eye travel between the key and the data
+C.	Direct labels use less space
+D.	Legends are hard to print
+P418-08  Categories in a bar chart should usually be ordered:
+A.	by size or by time
+B.	alphabetically
+C.	by colour
+D.	at random
+P418-09  Which pairing of benefit and limitation is correct?
+A.	It is fast, and therefore always accurate
+B.	It reaches non-specialists, and therefore proves cause
+C.	It compresses volume, and compression hides the individual case
+D.	It aids memory, and therefore cannot be wrong
+P418-10  Visualization can imply:
+A.	nothing beyond the numbers shown
+B.	a precision the underlying data does not support
+C.	the cause of a relationship
+D.	the quality of the analysis
+P418-11  How many messages should one exhibit carry?
+A.	Two or three
+B.	As many as the data supports
+C.	There is no limit
+D.	One
+P418-12  Which title is stronger?
+A.	Demand peaks in the third quarter, with the weather
+B.	Quarterly case volumes, 2028
+C.	Figure 6
+D.	Cases by quarter and temperature
+P418-13  After the title states a finding, the chart's job is to:
+A.	show every variable available
+B.	repeat the title
+C.	list the method used
+D.	show that the claim is true, highlighting the part that carries it
+P418-14  A Level C question asks you to choose a visualization. The fullest answer:
+A.	names the chosen form
+B.	lists all the available forms
+C.	names what the reader must see, chooses the form, and says what the rejected options would fail to convey
+D.	describes how to build the chart
+P418-15  The third quarter exceeds the first by 14 per cent. A chart truncating the axis at 205,000 makes it look:
+A.	several times larger
+B.	about the same
+C.	slightly smaller
+D.	exactly 14 per cent larger
+P418-16  What does visualization reveal that a summary statistic does not?
+A.	The mean
+B.	Outliers and gaps, which show themselves in a picture
+C.	The standard error
+D.	The probability of an outcome
+Case question: the chart that proved too much
+The Orontes sales director has prepared a single slide for the board. It shows a bar chart of 2028 quarterly case volumes with the vertical axis beginning at 205,000, under the title 'Quarterly case volumes, 2028'. The third-quarter bar is more than three times the height of the first.
+His conclusion, stated verbally, is that the summer promotion campaign transformed demand and should be doubled next year. The underlying figures are correct and the axis is clearly labelled. The board has thirty minutes for the item and will see the slide once, on a screen, without the underlying workings.
+The same slide carries a second chart, showing cases sold alongside the number of distributor visits made by the sales team over the same period. The two series move together closely. No note records that the promotion weeks were fewest in the peak quarter.
+Rania has been asked to review the slide before it goes to the board. She has the regression of Chapter 15 and the decomposition of Chapter 16 available. She has been asked to comment on the slide itself rather than to redo the analysis behind it.
+Use the scenario above for items C418-1 to C418-7.
+How to enter answers: Select one option for each item.
+C418-1  Classify each feature. (On the exam screen you would drag each item into a box.)
+Categories: Sound · Defect
+Feature of the slide
+Category
+The underlying figures are correct
+The bar chart's axis begins at 205,000
+Two charts and two messages on one slide
+The title names the axes rather than the finding
+C418-2  On the truncated axis, Rania should advise that: [select]
+Options: a bar's length is read as its value, so the axis should start at zero even though it is labelled   |   the chart is acceptable because the axis is labelled   |   the chart is acceptable because no figure is false   |   the axis should start at the smallest value, for clarity
+C418-3  On the claim that the promotion campaign transformed demand: [select]
+Options: the decomposition shows most of the peak is seasonal, and promotion weeks were fewest in that quarter   |   the claim follows from the chart   |   the claim cannot be assessed   |   the claim is correct but understated
+C418-4  The second chart, showing cases and distributor visits moving together, establishes: [select]
+Options: an association only, and more sales may well cause more visits rather than the reverse   |   that visits drive sales   |   that sales drive visits   |   nothing at all, so it should be deleted
+C418-5  On putting two charts and two messages on one slide: [select]
+Options: one message per exhibit, so the second chart belongs on its own slide or not at all   |   two charts are more persuasive than one   |   it is acceptable if both are correct   |   the board expects dense slides
+C418-6  What title would Rania recommend for the first chart? [select]
+Options: one stating the finding, such as that the third quarter peaks with the weather each year   |   'Quarterly case volumes, 2028', which is accurate   |   'Figure 1'   |   'Cases by quarter', which names the axes
+C418-7  An axis that begins above zero, exaggerating differences in a bar chart, is described as ____.
+Choose the word or phrase for the blank: truncated   |   scaled   |   inverted   |   logarithmic
+Case question: the chart that proved too much
+The Orontes sales director has prepared a single slide for the board. It shows a bar chart of 2028 quarterly case volumes with the vertical axis beginning at 205,000, under the title 'Quarterly case volumes, 2028'. The third-quarter bar is more than three times the height of the first.
+His conclusion, stated verbally, is that the summer promotion campaign transformed demand and should be doubled next year. The underlying figures are correct and the axis is clearly labelled. The board has thirty minutes for the item and will see the slide once, on a screen, without the underlying workings.
+The same slide carries a second chart, showing cases sold alongside the number of distributor visits made by the sales team over the same period. The two series move together closely. No note records that the promotion weeks were fewest in the peak quarter.
+Rania has been asked to review the slide before it goes to the board. She has the regression of Chapter 15 and the decomposition of Chapter 16 available. She has been asked to comment on the slide itself rather than to redo the analysis behind it.
+Use the scenario above for items C418-1 to C418-7.
+How to enter answers: Select one option for each item.
+C418-1  Classify each feature. (On the exam screen you would drag each item into a box.)
+Categories: Sound · Defect
+Feature of the slide
+Category
+The underlying figures are correct
+The bar chart's axis begins at 205,000
+Two charts and two messages on one slide
+The title names the axes rather than the finding
+C418-2  On the truncated axis, Rania should advise that: [select]
+Options: a bar's length is read as its value, so the axis should start at zero even though it is labelled   |   the chart is acceptable because the axis is labelled   |   the chart is acceptable because no figure is false   |   the axis should start at the smallest value, for clarity
+C418-3  On the claim that the promotion campaign transformed demand: [select]
+Options: the decomposition shows most of the peak is seasonal, and promotion weeks were fewest in that quarter   |   the claim follows from the chart   |   the claim cannot be assessed   |   the claim is correct but understated
+C418-4  The second chart, showing cases and distributor visits moving together, establishes: [select]
+Options: an association only, and more sales may well cause more visits rather than the reverse   |   that visits drive sales   |   that sales drive visits   |   nothing at all, so it should be deleted
+C418-5  On putting two charts and two messages on one slide: [select]
+Options: one message per exhibit, so the second chart belongs on its own slide or not at all   |   two charts are more persuasive than one   |   it is acceptable if both are correct   |   the board expects dense slides
+C418-6  What title would Rania recommend for the first chart? [select]
+Options: one stating the finding, such as that the third quarter peaks with the weather each year   |   'Quarterly case volumes, 2028', which is accurate   |   'Figure 1'   |   'Cases by quarter', which names the axes
+C418-7  An axis that begins above zero, exaggerating differences in a bar chart, is described as ____.
+Choose the word or phrase for the blank: truncated   |   scaled   |   inverted   |   logarithmic
+Answers and explanations
+Section checks
+SC418-1  Answer A. Each point is one observation, plotted against both.
+B is wrong. A bar chart compares categories.
+C is wrong. A pie shows shares of a whole.
+D is wrong. A table gives exact values, not the shape.
+SC418-2  Answer B. Precision matters more than shape.
+A is wrong. Many observations usually favour a chart.
+C is wrong. A chart often suits that audience better.
+D is wrong. Tables are right more often than people expect.
+SC418-3  Answer D. Every figure stays correct, which is what makes it effective.
+A is wrong. No number is altered.
+B is wrong. The labels are fine.
+C is wrong. All categories remain.
+SC418-4  Answer C. A label does not undo the distortion.
+A is wrong. The distortion is in the shape, not in an omission.
+B is wrong. Correct numbers can still mislead.
+D is wrong. Technical readers are misled by shape too.
+SC418-5  Answer A. Choosing first removes the temptation.
+B is wrong. Time is not the issue.
+C is wrong. No such requirement.
+D is wrong. Consistency is a side benefit.
+SC418-6  Answer D. Decoration competes with the data for attention.
+A is wrong. It distorts the comparison.
+B is wrong. Colour should carry meaning or be absent.
+C is wrong. Direct labels beat a legend where possible.
+SC418-7  Answer B. The same property, seen from either side.
+A is wrong. It is also how distortion succeeds.
+C is wrong. It is genuinely useful.
+D is wrong. It bears directly on how a reader judges.
+SC418-8  Answer C. Chapter 14's staff birthdays would make a convincing picture.
+A is wrong. No chart establishes cause.
+B is wrong. Accuracy is a separate question.
+D is wrong. No model is being tested.
+SC418-9  Answer C. It tells the reader what to look for.
+A is wrong. Size does not convey meaning.
+B is wrong. More data often says less.
+D is wrong. Colour is decoration unless it carries meaning.
+SC418-10  Answer D. Showing it protects the whole analysis.
+A is wrong. They are permitted; they are just not read.
+B is wrong. Length is not the purpose.
+C is wrong. The auditor is not the audience.
+SC418-11  Answer A. The board must see three facts, not a thousand rows.
+B is wrong. It would be perfectly accurate.
+C is wrong. Tables are right where exact values are read off.
+D is wrong. Preference is not the reason.
+SC418-12  Answer B. Every outcome would then look comfortable, with no false number.
+A is wrong. That is what answers the worst-case question.
+C is wrong. That shows what the outcome must cover.
+D is wrong. That is the caveat, honestly shown.
+Your turn
+Item
+Answer
+A relationship between two variables
+A scatter plot — each point is one observation placed against both variables
+A trend over eight quarters
+Why: a line chart shows movement over time, and the slope between points carries the message
+The distribution of 1,000 simulated outcomes
+A histogram — it shows the shape of the distribution and the spread around its centre
+Exact figures the reader will read off
+A table — where precision matters more than shape, a table beats any chart
+Multiple-choice questions
+P418-01  Answer D. Both show shape and spread.
+A is wrong. A line shows movement over time.
+B is wrong. A pie shows shares.
+C is wrong. That compares categories.
+P418-02  Answer B. Time on one axis, with a connected series.
+A is wrong. That shows a relationship between two variables.
+C is wrong. That shows a distribution.
+D is wrong. Nothing is a share of a whole.
+P418-03  Answer C. That is the only thing it expresses.
+A is wrong. Two shares of a whole are fine, if crude.
+B is wrong. Audience is not the test.
+D is wrong. A practical limitation, not a conceptual one.
+P418-04  Answer A. Chapter 13 showed what happens when its definitions are not agreed.
+B is wrong. One finding needs one exhibit.
+C is wrong. That is a table.
+D is wrong. That is a scatter plot.
+P418-05  Answer C. Length is read as value.
+A is wrong. That is the truncation that misleads.
+B is wrong. Still truncation.
+D is wrong. That is choosing the conclusion first.
+P418-06  Answer D. The rule differs because the visual encoding differs.
+A is wrong. The bar rule does not transfer directly.
+B is wrong. Subject matter is irrelevant.
+C is wrong. Range is not the criterion.
+P418-07  Answer B. Put the name where the reader is already looking.
+A is wrong. They are universally supported.
+C is wrong. Often the opposite.
+D is wrong. Printing is not the issue.
+P418-08  Answer A. Unless the reader will look a specific category up.
+B is wrong. Alphabetical order carries no meaning about the data.
+C is wrong. Colour is not an ordering.
+D is wrong. Random order conveys nothing.
+P418-09  Answer C. Each limitation is the same property from the other side.
+A is wrong. Speed and accuracy are unrelated.
+B is wrong. Nothing proves cause.
+D is wrong. A wrong shape is remembered just as well.
+P418-10  Answer B. A smooth curve from eight observations looks more certain than it is.
+A is wrong. A chart carries implications beyond its numbers.
+C is wrong. It cannot.
+D is wrong. A well-drawn chart may present poor analysis.
+P418-11  Answer D. A chart saying three things usually says none.
+A is wrong. Draw the second chart.
+B is wrong. What the data supports is not what a reader absorbs.
+C is wrong. Attention is the limit.
+P418-12  Answer A. It states the finding the chart then demonstrates.
+B is wrong. That names the contents, not the finding.
+C is wrong. That names nothing.
+D is wrong. That names the axes.
+P418-13  Answer D. Title and evidence working together.
+A is wrong. That dilutes the message.
+B is wrong. Repetition adds nothing.
+C is wrong. Method belongs in an appendix.
+P418-14  Answer C. Choosing correctly without the reason earns less than the reason deserves.
+A is wrong. The choice without the reason is half an answer.
+B is wrong. A list is not an evaluation.
+D is wrong. Construction is not the question.
+P418-15  Answer A. The bar lengths no longer stand in the ratio of the values.
+B is wrong. That is what the honest chart shows.
+C is wrong. It is larger, on either chart.
+D is wrong. Only the zero-based chart conveys the true ratio.
+P418-16  Answer B. Which is why Chapter 16 plotted the series before modelling it.
+A is wrong. A statistic gives that directly.
+C is wrong. Also a statistic.
+D is wrong. That comes from the model.
+Case question: the chart that proved too much
+C418-1
+Feature of the slide
+Category
+The underlying figures are correct
+Sound
+The bar chart's axis begins at 205,000
+Defect
+Two charts and two messages on one slide
+Defect
+The title names the axes rather than the finding
+Defect
+Classify each feature by whether it is sound or a defect.
+C418-2  Answer: a bar's length is read as its value, so the axis should start at zero even though it is labelled.
+the chart is acceptable because the axis is labelled is wrong: this answer readers take the message from the shape before reading the axis.
+the chart is acceptable because no figure is false is wrong: this answer correct numbers are exactly what makes the distortion effective.
+the axis should start at the smallest value, for clarity is wrong: this answer that is the truncation being objected to.
+C418-3  Answer: the decomposition shows most of the peak is seasonal, and promotion weeks were fewest in that quarter.
+the claim follows from the chart is wrong: this answer the chart shows a rise, not its cause.
+the claim cannot be assessed is wrong: this answer the regression and the decomposition both bear on it.
+the claim is correct but understated is wrong: this answer the evidence points the other way.
+C418-4  Answer: an association only, and more sales may well cause more visits rather than the reverse.
+that visits drive sales is wrong: this answer the chart cannot distinguish the direction.
+that sales drive visits is wrong: this answer plausible, but equally unproven by the chart.
+nothing at all, so it should be deleted is wrong: this answer the association is worth knowing; the causal claim is not supported.
+C418-5  Answer: one message per exhibit, so the second chart belongs on its own slide or not at all.
+two charts are more persuasive than one is wrong: this answer a slide saying two things usually says neither.
+it is acceptable if both are correct is wrong: this answer correctness is not the objection.
+the board expects dense slides is wrong: this answer expectation does not improve comprehension.
+C418-6  Answer: one stating the finding, such as that the third quarter peaks with the weather each year.
+'Quarterly case volumes, 2028', which is accurate is wrong: this answer accurate, but it leaves the reader to find the point.
+'Figure 1' is wrong: this answer it names nothing at all.
+'Cases by quarter', which names the axes is wrong: this answer naming the axes is not stating a finding.
+C418-7  Answer: truncated.
+scaled is wrong: this answer every axis is scaled; the issue is where it begins.
+inverted is wrong: this answer an inverted axis runs the other way.
+logarithmic is wrong: this answer a logarithmic axis compresses large values, which is a different device.

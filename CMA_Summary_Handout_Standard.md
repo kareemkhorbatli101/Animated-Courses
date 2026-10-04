@@ -157,61 +157,59 @@ other book is almost always a convention, not a defect in the sheets.
 
 ## 6. Where it stands
 
-| | book 1 | book 2 | book 3 |
-|---|---|---|---|
-| sheets | 94 | 116 | 106 |
-| gaps | 2,406 | 1,924 | 1,602 |
-| gaps per sheet | 25.6 | 16.6 | 15.1 |
-| prose words carried | 21,775 | 14,906 | 11,823 |
-| figures per sheet | 1.82 | 1.34 | 1.32 |
-| sheets with no figure | 3 (3%) | 23 (20%) | 21 (20%) |
-| …of those, with no grid either | 1 | 5 | 1 |
-| forms used | 10 | 6 | 6 |
-| findings | **0** | **0** | **0** |
+| | book 1 | book 2 | book 3 | book 4 |
+|---|---|---|---|---|
+| sheets | 94 | 116 | 106 | 108 |
+| gaps | 2,410 | 1,928 | 1,612 | 2,070 |
+| gaps per sheet | 25.6 | 16.6 | 15.2 | 19.2 |
+| figures per sheet | 1.83 | 1.35 | 1.36 | 1.05 |
+| sheets with no figure | 3 (3%) | 22 (19%) | 19 (18%) | 30 (28%) |
+| …of those, with no grid either | 1 | 5 | 1 | 16 |
+| forms used | 10 | 6 | 6 | 4 |
+| findings | **0** | **0** | **0** | **0** |
 
-316 handouts, 5,932 gaps, every one of the 24 passes and the build checks
-clean on all three books.
+**424 handouts, 8,020 gaps, 0 findings across four books.**
 
-### Where the books differ, and why
+### Book 4, and what it took
 
-Book 1 is financial reporting: it argues, compares and defines, so its
-prose carries contrasts, two-way tests and counted sets, and its chapters
-name three and a half terms a section. Books 2 and 3 are cost accounting:
-they compute and allocate, their sections are shorter, and their content
-lives in tables of numbers. Four of book 1's forms — contrast, sides,
-panel, branch — fire in them **never**, and forcing them would mean
-asserting an opposition or a test the chapters do not make. A structural
-rule loose enough to read their three-column tables as contrasts also
-read `Technique | Idea | Example` as two sides, so that route was dropped
-rather than loosened.
+Book 4 (internal controls, systems, data analytics) ran **9 findings on
+its first pass**, against book 2's 149 — the generalisation work held.
+Four causes, three of them book 4 conventions:
 
-What the three books share instead is their own shapes: the **period**
-however a book names one (book 1 reports in years, books 2 and 3 budget
-in quarters), the **bridge from a table** (a column whose entries sum to
-its own last row, arithmetic as the detector), and the **word web** at
-three spokes rather than four.
+- **a cross-reference column.** Book 4 gives several tables a column
+  headed "Where this book met it" or "In this book", holding entries like
+  "Chapter 16's warning". That is a pointer at a book the reader has not
+  got, and it is not content either way. The column is dropped and the
+  rest of the table stays.
+- **an aside that points at the book itself** — "Its role rests on a
+  single principle, *and it is the most useful sentence in this
+  chapter*". Dropping the sentence for the sake of the aside took the
+  principle with it; the clause is cut instead.
+- **a block opening a sheet on "It" or "This is"**, where the antecedent
+  was a figure-pointer sentence. The sheet's own title bar is a heading,
+  so the block that opens a sheet is never hanging: "It is drawn with
+  return arrows" sits under "14.3 Why mining is iterative", which is what
+  "It" means.
 
-### The last pass, and what it found
+And one that improved every book: **a meaning the chapter states in a
+table counts whether or not the word is also in a glossary.** Book 4
+writes its vocabulary as `Risk | What it means | At Orontes` — forty
+tables of it — and a rule that read only two-column tables, and then only
+looked the rows up in the section glossary, saw none of it. Book 4's
+figure-less sheets fell from 39% to 28%, and books 2 and 3 gained webs too.
 
-Passes 23 and 24 were written to answer "no regressions, no omissions"
-with evidence rather than inference, and both found real defects:
+### Why book 4 uses four forms
 
-- **A figure can draw a slot it never records.** Gap numbers are drawn
-  *inside* the image, so the key and the picture could disagree and every
-  pass still read clean. `panelfig` was numbering a blanked label from a
-  counter that later gaps had already advanced, so the key claimed a
-  number the sheet never showed. The numbers are now taken off the canvas
-  and travel with the figure.
-- **A line was being judged by one of its sentences.** Three separate
-  times: a paragraph that mentioned a figure, a line that opened on a
-  lowercase word, a line whose first sentence was a pointer. Each threw
-  away the rest of the line. A LINE is now rejected only for what it is
-  as a whole — a box label, a row of capitals — and every other test
-  belongs to one sentence. **Prose carried rose from 3,198 sentences to
-  6,034.**
-- Three smaller ones in the same area: `unbooked` was manufacturing
-  sentences by appending a full stop to fragments; `deglossed` turned
-  "French résultat means profit, not result in general" into "Not result
-  in general." and `english_only` then approved it; and a box, which the
-  parser stores as a one-column table, was being counted as a grid, so
-  its prose had no position and its blocks read out of order.
+It is a vocabulary book. Its chapter on **time series** contains no
+numeric table at all — every table in it is `term | what it is | example`
+— so chart fires once, and graph and bridge not at all. Nothing is being
+missed; there is nothing of that shape to draw.
+
+Its 16 sheets with neither figure nor grid are short expository sections
+naming **one or two terms** between them and carrying no table. A web
+needs three spokes. One detector was prototyped for them — a section
+titled "The five systems roles" whose five roles sit in one sentence —
+and **rejected**: across the four books it fired fifteen times and was
+right about twice, matching "The liability still grows by interest, falls
+by payments" to the word "two" in a title. A form drawn on a coincidence
+is worse than no form.

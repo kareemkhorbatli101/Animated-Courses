@@ -1,0 +1,765 @@
+Chapter 8
+Network Risk, Encryption, Backup and Continuity
+مخاطر الشبكات والتشفير والنسخ الاحتياطي واستمرارية الأعمال
+Chapter 7 kept the data right inside the application. This chapter follows it out of the building: across a network nobody controls, and then into the question of what happens when the building itself is gone.
+Figure F408-01 shows the path.
+Figure F408-01. Chapter 8 roadmap: in transit, at the border, after the worst.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+E.2.h
+identify and describe the inherent risks of using the internet as compared to data transmissions over secured transmission lines
+Identify and describe the inherent risks of using the internet compared with secured transmission lines.
+Full treatment
+E.2.i
+define data encryption and describe why there is a much greater need for data encryption methods when using the internet
+Define data encryption and describe why the need for it is much greater on the internet.
+Full treatment
+E.2.j
+identify a firewall and its uses
+Identify a firewall and its uses.
+Full treatment
+E.2.l
+explain the importance of backing up all program and data files regularly, and storing the backups at a secure remote site
+Explain the importance of backing up program and data files regularly and storing them at a secure remote site.
+Full treatment
+E.2.m
+define business continuity planning
+Define business continuity planning.
+Full treatment
+E.2.n
+define the objective of a disaster recovery plan and identify the components of such a plan including hot, warm, and cold sites
+Define the objective of a disaster recovery plan and identify its components, including hot, warm and cold sites.
+Full treatment + Extended Example
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+leased line
+خط مؤجر
+ligne louée
+internet
+الإنترنت
+internet
+data encryption
+تشفير البيانات
+chiffrement des données
+symmetric encryption
+التشفير المتماثل
+chiffrement symétrique
+asymmetric encryption
+التشفير غير المتماثل
+chiffrement asymétrique
+digital signature
+التوقيع الرقمي
+signature numérique
+firewall
+جدار الحماية
+pare-feu
+remote site
+الموقع البعيد
+site distant
+business continuity planning
+تخطيط استمرارية الأعمال
+plan de continuité d'activité
+disaster recovery planning
+تخطيط التعافي من الكوارث
+plan de reprise après sinistre
+business impact analysis
+تحليل الأثر على الأعمال
+analyse d'impact sur l'activité
+recovery time objective
+هدف وقت الاستعادة
+objectif de délai de reprise
+recovery point objective
+هدف نقطة الاستعادة
+objectif de point de reprise
+WHAT YOU ALREADY KNOW   What you already know
+Chapter 7 covered the types of backup: full, incremental and differential. This chapter asks a different question about the same copies, namely where they are kept and what they are for.
+8.1  Why the internet is riskier
+A leased line is a connection the company pays for and nobody else uses. The internet is a shared road. The traffic crosses equipment owned by strangers, by a route chosen at the time, and anything on that route can in principle read or alter what passes. Figure F408-02 lists the risks that follow.
+Figure F408-02. The risks of the internet compared with a private line
+Internet risk (E.2.h)
+Why it arises
+What it looks like
+Main defence
+Interception
+Traffic crosses networks nobody controls
+Reading data in transit
+Encryption
+Man in the middle
+An attacker relays and may alter the conversation
+Altering a payment instruction
+Encryption with authentication
+Spoofing
+A false identity for a site, sender or address
+A convincing but fake supplier portal
+Certificates, authentication
+Tampering
+Data changed in transit
+An invoice amount altered on the way
+Integrity checks, hashing
+Denial of service
+The service is flooded until it fails
+An order site unavailable for a day
+Filtering, capacity, provider defences
+Malware delivery
+Hostile software carried over the connection
+Ransomware from an attachment
+Filtering, patching, training
+The difference is one of exposure rather than of kind. A private line can be tapped, and an insider can read either one. But the internet places the traffic within reach of far more people, none of whom the company has any relationship with.
+That is also why the internet is used anyway. A leased line to every Gulf customer would cost more than the business they bring. The practical answer is not to avoid the shared road but to make the traffic unreadable while it is on it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+leased line
+خط مؤجر
+ligne louée
+internet
+الإنترنت
+internet
+man in the middle
+هجوم الوسيط
+attaque de l'intercepteur
+English (exam term)
+العربية
+Français
+leased line
+خط مؤجر
+ligne louée
+internet
+الإنترنت
+internet
+man in the middle
+هجوم الوسيط
+attaque de l'intercepteur
+SECTION CHECK   Test yourself
+SC408-1  The main reason the internet carries more risk than a leased line is that:
+A.	internet connections are slower
+B.	leased lines cannot be tapped
+C.	the internet has no encryption available
+D.	the traffic crosses equipment owned by strangers, by a route chosen at the time
+SC408-2  An attacker relays and alters a conversation between two parties who believe they are speaking directly. This is:
+A.	a denial of service attack
+B.	spoofing a website
+C.	a man-in-the-middle attack
+D.	tampering with stored data
+Answers and explanations are at the end of the chapter.
+8.2  Data encryption
+Data encryption converts readable data into a form that cannot be understood without a key. Figure F408-03 shows the two families and how they fit together.
+Figure F408-03. Symmetric and asymmetric encryption compared.
+Symmetric encryption uses one key for both directions. It is fast and suits bulk data, but it leaves a problem. The key itself must reach the other party somehow, and sending it over the same untrusted network defeats the purpose.
+Asymmetric encryption solves that. Each party has a pair of keys, and what one encrypts only the other can decrypt. Anyone may hold the public key, so nothing secret has to be exchanged first. Reversing the pair gives a digital signature: encrypting with the private key proves who sent the message, since only that person holds it.
+In practice the two are combined. A secure web connection uses asymmetric methods to agree a symmetric key, then uses that faster key for the conversation itself.
+WATCH: NOT YET TESTABLE   As of October 2026
+The current standard for traffic in transit is TLS, with version 1.2 the minimum accepted. Separately, the United States standards body published its first post-quantum encryption standards in August 2024, anticipating machines that could break today's asymmetric methods. Neither detail is likely to be examined; the principles above are.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+data encryption
+تشفير البيانات
+chiffrement des données
+symmetric encryption
+التشفير المتماثل
+chiffrement symétrique
+asymmetric encryption
+التشفير غير المتماثل
+chiffrement asymétrique
+digital signature
+التوقيع الرقمي
+signature numérique
+English (exam term)
+العربية
+Français
+data encryption
+تشفير البيانات
+chiffrement des données
+symmetric encryption
+التشفير المتماثل
+chiffrement symétrique
+asymmetric encryption
+التشفير غير المتماثل
+chiffrement asymétrique
+digital signature
+التوقيع الرقمي
+signature numérique
+SECTION CHECK   Test yourself
+SC408-3  What problem does asymmetric encryption solve that symmetric encryption does not?
+A.	Getting a key to the other party without sending a secret first
+B.	Encrypting large volumes quickly
+C.	Storing data securely at rest
+D.	Preventing denial of service
+SC408-4  A digital signature is created by encrypting with:
+A.	the recipient's public key
+B.	the sender's private key
+C.	the recipient's private key
+D.	a shared symmetric key
+Answers and explanations are at the end of the chapter.
+8.3  Firewalls
+A firewall sits between two networks and allows or blocks traffic according to rules. It is a border post: everything crossing is examined against a list of what is permitted, and whatever is not permitted is refused. Figure F408-04 sets out the types.
+Figure F408-04. Types of firewall
+Type of firewall (E.2.j)
+What it does
+Note
+Packet filtering
+Allows or blocks by address and port
+Cheap and fast; blind to content
+Stateful inspection
+Tracks whole conversations, not single packets
+Blocks traffic that does not belong to a session
+Proxy or application gateway
+Stands between the two sides and inspects content
+Slower; sees what the traffic actually contains
+Next-generation
+Application-aware, with intrusion prevention built in
+The common corporate standard
+Web application firewall
+Protects one application from hostile requests
+Used in front of a public website
+Firewalls have three common uses. They guard the boundary between the company and the internet. They divide the internal network so a compromise in one part does not reach another. And they create a protected zone for servers that must be reachable from outside.
+EXAM TRAP   What a firewall does not do
+A firewall does not stop phishing, because the user invites the traffic in. It does not stop an insider, who is already inside. And it does not stop malware carried on a device brought into the building. A question offering a firewall as the answer to any of these is offering the wrong answer.
+A firewall is a rule set, and a rule set ages. Ports opened for a project that ended, addresses permitted for a supplier no longer used, and exceptions granted in an emergency all accumulate exactly as system access does. The rules need the same periodic review that Chapter 6 required for user rights.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+firewall
+جدار الحماية
+pare-feu
+English (exam term)
+العربية
+Français
+firewall
+جدار الحماية
+pare-feu
+SECTION CHECK   Test yourself
+SC408-5  A firewall:
+A.	encrypts data in transit
+B.	backs up files automatically
+C.	allows or blocks traffic between networks according to rules
+D.	detects fraud in transactions
+SC408-6  Which threat does a firewall NOT address?
+A.	An unauthorized connection attempt from outside
+B.	An employee who enters credentials on a false page
+C.	Traffic to a blocked port
+D.	A connection from a blocked address
+Answers and explanations are at the end of the chapter.
+8.4  Why the backup must leave the building
+Chapter 7 described the types of backup. The question here is simpler and more often got wrong: where the copies are kept.
+Every copy in one building shares one fate. A fire, a flood or a burst pipe destroys the live system and the backup together. The company then discovers it had been taking backups faithfully for years to no purpose. That is the whole argument for a remote site.
+The common rule of thumb is three copies, on two kinds of media, with one of them off site. Regularity matters as much as location: a copy taken monthly means losing up to a month of work, which for most businesses is the same as losing everything. And programs must be copied as well as data, because restoring records into a system nobody can rebuild is only half a recovery.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+remote site
+الموقع البعيد
+site distant
+English (exam term)
+العربية
+Français
+remote site
+الموقع البعيد
+site distant
+SECTION CHECK   Test yourself
+SC408-7  Why must at least one backup copy be held away from the main site?
+A.	Every copy in one building shares one fate
+B.	Remote copies restore faster
+C.	It reduces the cost of storage
+D.	The auditor cannot see local copies
+SC408-8  Why must programs be backed up as well as data?
+A.	Programs change more often than data
+B.	Program files are smaller
+C.	Licences require it
+D.	Restoring records into a system nobody can rebuild is only half a recovery
+Answers and explanations are at the end of the chapter.
+8.5  Business continuity and disaster recovery
+Business continuity planning is the work of making sure the critical functions of the business can keep running during and after a disruption. Disaster recovery planning is the part of it that restores the systems and the data. Figure F408-05 separates them.
+Figure F408-05. Business continuity planning against disaster recovery planning
+Business continuity plan (E.2.m)
+Disaster recovery plan (E.2.n)
+Purpose
+Keep critical business functions running during and after a disruption
+Restore the IT systems and the data
+Scope
+The whole business: people, premises, suppliers, communications
+Systems, data, networks
+Starts from
+The business impact analysis: what must not stop, and for how long
+The criticality ranking the analysis produced
+Key measures
+Maximum tolerable outage for each function
+Recovery time objective and recovery point objective
+Relationship
+The wider plan
+The IT part of the wider plan
+Both start from the business impact analysis, which asks what must not stop, for how long it could stop without serious harm, and what it would cost per day. Without that analysis every system looks critical and the plan protects nothing in particular.
+Figure F408-06 lists what a disaster recovery plan must contain.
+Figure F408-06. The components of a disaster recovery plan
+Component of a disaster recovery plan
+What it covers
+Note
+Roles and a recovery team
+Who decides to invoke the plan, and who does what
+Named people, with deputies
+Critical application ranking
+Which systems are restored first
+From the business impact analysis
+Backups and an alternate site
+Where the data and the processing will come from
+Hot, warm or cold, per Figure F408-07
+Communication plan
+How staff, customers and suppliers are told
+Contact details held off site as well
+Recovery procedures
+The steps, in order, to bring systems back
+Written to be followed under pressure
+Testing and updating
+Proof that the plan works, and maintenance of it
+A plan never tested is an assumption
+The last component carries the most weight. A plan that has never been tested is a set of assumptions. The assumption that fails is usually a small one: a contact list held only on the system that is down, or a backup nobody has ever tried to restore.
+Continuity planning covers more than systems. It asks where staff would work, how customers and suppliers would be told, which premises could be used, and who may authorise spending in the first hours. A company whose systems recover into an unusable building has recovered nothing.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+business continuity planning
+تخطيط استمرارية الأعمال
+plan de continuité d'activité
+disaster recovery planning
+تخطيط التعافي من الكوارث
+plan de reprise après sinistre
+business impact analysis
+تحليل الأثر على الأعمال
+analyse d'impact sur l'activité
+English (exam term)
+العربية
+Français
+business continuity planning
+تخطيط استمرارية الأعمال
+plan de continuité d'activité
+disaster recovery planning
+تخطيط التعافي من الكوارث
+plan de reprise après sinistre
+business impact analysis
+تحليل الأثر على الأعمال
+analyse d'impact sur l'activité
+SECTION CHECK   Test yourself
+SC408-9  Business continuity planning is:
+A.	making sure critical business functions can keep running during and after a disruption
+B.	restoring the IT systems after a failure
+C.	insuring the premises
+D.	testing the backups
+SC408-10  Which component of a disaster recovery plan is most often missing?
+A.	A list of critical applications
+B.	A recovery team
+C.	Backup arrangements
+D.	Regular testing
+Answers and explanations are at the end of the chapter.
+8.6  Hot, warm and cold sites
+An alternate site is where processing resumes when the main site cannot be used. Figure F408-07 shows the three kinds.
+Figure F408-07. Hot, warm and cold recovery sites.
+The choice is an economic one, and two measures decide it. The recovery time objective is the longest the business can be without the system. The recovery point objective is the most data it can afford to lose, measured in time, which decides how often backups must run.
+A four-hour recovery time objective needs a hot site, whatever it costs. A tolerance of two weeks makes a cold site perfectly rational. Paying for a hot site where a cold one would do is as much a failure of judgement as the reverse, because the money has to come from somewhere.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+recovery time objective
+هدف وقت الاستعادة
+objectif de délai de reprise
+recovery point objective
+هدف نقطة الاستعادة
+objectif de point de reprise
+English (exam term)
+العربية
+Français
+recovery time objective
+هدف وقت الاستعادة
+objectif de délai de reprise
+recovery point objective
+هدف نقطة الاستعادة
+objectif de point de reprise
+SECTION CHECK   Test yourself
+SC408-11  A site with space, power and environmental controls but no equipment is a:
+A.	warm site
+B.	cold site
+C.	hot site
+D.	mirrored site
+SC408-12  What does the recovery point objective decide?
+A.	Which alternate site is needed
+B.	How long recovery may take
+C.	How often backups must be taken
+D.	Who leads the recovery team
+Answers and explanations are at the end of the chapter.
+8.7  Extended Example 8A: choosing a recovery arrangement for Orontes
+This example works through the choice for three Orontes systems and shows why one answer does not fit them all. It is exam-core: questions give a tolerance and ask for the site.
+1. The business impact analysis
+Three systems matter. The plant control system runs the bottling lines and stops production within minutes of failing. The payables and receivables system can wait a working day without serious harm. The management reporting system can wait two weeks, because the month-end pack can be rebuilt.
+2. Setting the objectives
+Plant control is given a recovery time objective of four hours and a recovery point objective of fifteen minutes. Payables and receivables get one day and four hours. Management reporting gets two weeks and one day.
+3. Choosing the sites
+Plant control needs a hot site with near-continuous replication, because four hours allows no time to configure anything. Payables and receivables can use a warm site: the hardware waits, and a day is enough to restore and configure. Management reporting can use a cold site, since two weeks is time to bring equipment in.
+4. What the backup schedule must then be
+The recovery point objective sets the backup frequency, and this is the connection candidates miss. Fifteen minutes of tolerable loss means replication rather than nightly backups. Four hours means copies several times a day. One day means the nightly backup is enough.
+5. The cheapest improvement
+Orontes currently holds every copy in the server room beside the live machines. Moving one copy off site costs very little and removes the single risk that would otherwise defeat all three plans at once, which is a fire in that room.
+6. Your turn
+YOUR TURN   Match four requirements
+Complete the blank cells of Figure F408-08. Answers are at the end of the chapter.
+Figure F408-08. Your turn: match four requirements (complete the blanks)
+Requirement or facility
+What is it?
+Why
+The business can be without the system for four hours
+________
+It measures acceptable downtime
+At most one hour of data may be lost
+Recovery point objective
+________
+A site with space and power but no equipment
+________
+Days to weeks to recover
+A site fully equipped with current data
+________
+Minutes to hours to recover
+7. Tie line
+WORKED EXAMPLE   The pattern behind the choice
+Start from the business impact analysis, not from the technology.
+The recovery time objective chooses the site: hours means hot, days means warm, weeks means cold.
+The recovery point objective chooses the backup frequency.
+One copy off site protects every plan against the loss of the building.
+8. How the exam asks it
+EXAM TRAP   Exam view
+A question gives a tolerance and four site options. Match the time: minutes or hours is hot, hours to days is warm, days to weeks is cold. If it gives a data loss tolerance instead, it is asking about backup frequency, not about the site.
+9. Self-check
+SECTION CHECK   Test yourself
+SC408-13  Use Extended Example 8A. Why does plant control need a hot site?
+A.	A four-hour recovery time objective leaves no time to configure anything
+B.	The system holds the most data
+C.	It is the most expensive system
+D.	It is used by the most people
+SC408-14  Use Extended Example 8A. A fifteen-minute recovery point objective means:
+A.	a nightly backup is sufficient
+B.	a weekly full backup is sufficient
+C.	replication rather than nightly backups
+D.	a cold site is adequate
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F408-09 brings the chapter together.
+Figure F408-09. Chapter 8 summary map: the key rule for each section.
+The internet is a shared road, exposing traffic to interception, spoofing, tampering and denial of service, which is why encryption matters far more there than on a private line. Symmetric encryption is fast but must distribute a key; asymmetric encryption avoids that and also gives digital signatures; the two are used together. A firewall filters traffic by rule, but stops neither phishing nor insiders. Backups must be regular, must cover programs as well as data, and must include a copy held away from the site. Business continuity planning keeps the business running and disaster recovery restores the systems, both starting from the business impact analysis. The recovery time objective chooses between a hot, warm and cold site; the recovery point objective chooses the backup frequency.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P408-01  Which is a risk specifically increased by using the internet rather than a private line?
+A.	Error by an employee
+B.	Interception by parties the company has no relationship with
+C.	Hardware failure
+D.	Power loss
+P408-02  A company's order site is flooded with traffic until customers cannot reach it. This is:
+A.	spoofing
+B.	interception
+C.	tampering
+D.	denial of service
+P408-03  Symmetric encryption uses:
+A.	a public key and a private key
+B.	no key at all
+C.	a different key for every message, never reused
+D.	one key for both encryption and decryption
+P408-04  To send a confidential message, the sender encrypts with:
+A.	the recipient's private key
+B.	the recipient's public key
+C.	the sender's private key
+D.	the sender's public key
+P408-05  A secure web connection typically:
+A.	uses asymmetric methods to agree a symmetric key, then encrypts with that
+B.	uses asymmetric encryption throughout
+C.	uses symmetric encryption throughout
+D.	uses no encryption for public pages
+P408-06  A firewall placed between departments inside one company is used for:
+A.	encrypting internal traffic
+B.	backing up departmental files
+C.	segmentation, so a compromise in one part does not reach another
+D.	authenticating users
+P408-07  Which firewall type inspects what the traffic actually contains?
+A.	A packet-filtering firewall
+B.	No firewall can do this
+C.	A stateful inspection firewall only
+D.	A proxy or application gateway
+P408-08  Backing up monthly rather than nightly means:
+A.	up to a month of work could be lost
+B.	faster restores
+C.	lower risk of corruption
+D.	no need for an off-site copy
+P408-09  The common rule of thumb for backup copies is:
+A.	two copies, both on site
+B.	three copies, two kinds of media, one off site
+C.	one copy, replicated continuously
+D.	four copies, all in the cloud
+P408-10  What does a business impact analysis establish?
+A.	The cost of the IT department
+B.	Which supplier is cheapest
+C.	What must not stop, for how long it could, and at what cost
+D.	How many staff are needed
+P408-11  Which is wider in scope?
+A.	Disaster recovery planning
+B.	Business continuity planning
+C.	They cover the same ground
+D.	Neither covers premises
+P408-12  A business can tolerate two weeks without its reporting system. Which site is appropriate?
+A.	A cold site
+B.	A hot site
+C.	A warm site
+D.	Continuous replication
+P408-13  A four-hour recovery time objective requires:
+A.	a cold site, to save cost
+B.	a warm site, which is the usual compromise
+C.	no alternate site at all
+D.	a hot site, because there is no time to configure anything
+P408-14  Which measure is expressed as the amount of data that may be lost?
+A.	The recovery time objective
+B.	The maximum tolerable outage
+C.	The recovery point objective
+D.	The business impact analysis
+P408-15  Why is a contact list held only on the main system a problem?
+A.	It is unavailable precisely when the plan is invoked
+B.	It takes up storage
+C.	It breaches data protection law
+D.	It cannot be updated
+P408-16  Why do companies use the internet despite its risks?
+A.	The risks are imaginary
+B.	Encryption removes all risk
+C.	A private line to every counterparty would cost more than the business brings
+D.	Private lines are no longer available
+Case question: the backup in the server room
+Orontes keeps every backup copy on a dedicated server standing beside the live machines in the head office server room. Copies are taken nightly. The Gulf expansion means that export orders will arrive over the internet from distributors in Saudi Arabia and the United Arab Emirates, rather than by telephone as now. The server room has a single smoke detector and no suppression system, and the building has flooded once in the past five years.
+The IT manager has proposed buying a next-generation firewall and says that this will secure the new arrangement. He has also suggested that encryption is unnecessary because the firewall will block anyone who should not be connecting.
+A business impact analysis has been completed. It finds that the plant control system cannot stop for more than four hours, that the payables system can wait a working day, and that management reporting can wait two weeks. No alternate site has been arranged for any of them.
+Rania, the controller, has been asked to advise the board on the firewall proposal, on the encryption question, on the backup arrangement, and on what alternate site each of the three systems needs.
+Use the scenario above for items C408-1 to C408-7.
+How to enter answers: Select one option for each item.
+C408-1  Classify each system. (On the exam screen you would drag each item into a box.)
+Categories: Hot site · Warm site · Cold site
+System
+Category
+Plant control, four hours
+Payables, one working day
+Management reporting, two weeks
+C408-2  On the IT manager's claim that encryption is unnecessary, Rania should advise that: [select]
+Options: a firewall controls who may connect, but does not protect data already crossing the internet   |   he is correct, provided the firewall is next-generation   |   encryption is only needed for data at rest   |   encryption would slow the orders unacceptably
+C408-3  Which risk does the firewall genuinely reduce? [select]
+Options: an unauthorized connection attempt from outside the network   |   a distributor's password stolen by a false login page   |   an employee copying data to a personal drive   |   data read while crossing the internet
+C408-4  The single greatest weakness in the backup arrangement is that: [select]
+Options: every copy is in the same room as the live system, so one fire destroys both   |   copies are taken nightly rather than hourly   |   the backup server is dedicated rather than shared   |   the copies are not encrypted
+C408-5  Which measure determines how often the plant control system must be backed up? [select]
+Options: its recovery point objective, the amount of data that may be lost   |   its recovery time objective, the acceptable downtime   |   the cost of the alternate site   |   the maximum tolerable outage of the payables system
+C408-6  Which action gives the greatest protection for the least money? [select]
+Options: move one backup copy away from the head office site   |   buy the next-generation firewall   |   arrange a hot site for all three systems   |   increase the backup frequency to hourly
+C408-7  The plan that keeps the whole business running, of which disaster recovery is the IT part, is called business ____ planning.
+Choose the word or phrase for the blank: continuity   |   recovery   |   impact   |   resilience
+Case question: the backup in the server room
+Orontes keeps every backup copy on a dedicated server standing beside the live machines in the head office server room. Copies are taken nightly. The Gulf expansion means that export orders will arrive over the internet from distributors in Saudi Arabia and the United Arab Emirates, rather than by telephone as now. The server room has a single smoke detector and no suppression system, and the building has flooded once in the past five years.
+The IT manager has proposed buying a next-generation firewall and says that this will secure the new arrangement. He has also suggested that encryption is unnecessary because the firewall will block anyone who should not be connecting.
+A business impact analysis has been completed. It finds that the plant control system cannot stop for more than four hours, that the payables system can wait a working day, and that management reporting can wait two weeks. No alternate site has been arranged for any of them.
+Rania, the controller, has been asked to advise the board on the firewall proposal, on the encryption question, on the backup arrangement, and on what alternate site each of the three systems needs.
+Use the scenario above for items C408-1 to C408-7.
+How to enter answers: Select one option for each item.
+C408-1  Classify each system. (On the exam screen you would drag each item into a box.)
+Categories: Hot site · Warm site · Cold site
+System
+Category
+Plant control, four hours
+Payables, one working day
+Management reporting, two weeks
+C408-2  On the IT manager's claim that encryption is unnecessary, Rania should advise that: [select]
+Options: a firewall controls who may connect, but does not protect data already crossing the internet   |   he is correct, provided the firewall is next-generation   |   encryption is only needed for data at rest   |   encryption would slow the orders unacceptably
+C408-3  Which risk does the firewall genuinely reduce? [select]
+Options: an unauthorized connection attempt from outside the network   |   a distributor's password stolen by a false login page   |   an employee copying data to a personal drive   |   data read while crossing the internet
+C408-4  The single greatest weakness in the backup arrangement is that: [select]
+Options: every copy is in the same room as the live system, so one fire destroys both   |   copies are taken nightly rather than hourly   |   the backup server is dedicated rather than shared   |   the copies are not encrypted
+C408-5  Which measure determines how often the plant control system must be backed up? [select]
+Options: its recovery point objective, the amount of data that may be lost   |   its recovery time objective, the acceptable downtime   |   the cost of the alternate site   |   the maximum tolerable outage of the payables system
+C408-6  Which action gives the greatest protection for the least money? [select]
+Options: move one backup copy away from the head office site   |   buy the next-generation firewall   |   arrange a hot site for all three systems   |   increase the backup frequency to hourly
+C408-7  The plan that keeps the whole business running, of which disaster recovery is the IT part, is called business ____ planning.
+Choose the word or phrase for the blank: continuity   |   recovery   |   impact   |   resilience
+Answers and explanations
+Section checks
+SC408-1  Answer D. Exposure, not a difference in kind.
+A is wrong. Speed is not a control matter.
+B is wrong. A private line can be tapped too; the exposure is simply smaller.
+C is wrong. Encryption is widely available and is the answer.
+SC408-2  Answer C. The attacker sits between and both sides are deceived.
+A is wrong. That floods a service until it fails.
+B is wrong. Spoofing presents a false identity, without relaying.
+D is wrong. This concerns data in transit.
+SC408-3  Answer A. Anyone may hold the public key.
+B is wrong. Symmetric is the faster of the two.
+C is wrong. Both can protect data at rest.
+D is wrong. Encryption does not address availability.
+SC408-4  Answer B. Only the sender holds it, so only the sender could have produced it.
+A is wrong. That gives confidentiality, not proof of origin.
+C is wrong. The sender does not hold it.
+D is wrong. Both parties hold it, so it proves nothing about which one sent the message.
+SC408-5  Answer C. It is a border post with a list of what is permitted.
+A is wrong. That is encryption.
+B is wrong. That is a storage control.
+D is wrong. That is an application control.
+SC408-6  Answer B. The user invites the traffic in; the firewall sees an ordinary request.
+A is wrong. That is exactly what it blocks.
+C is wrong. Port filtering is its basic function.
+D is wrong. Address filtering too.
+SC408-7  Answer A. A fire or flood takes the live system and the backup together.
+B is wrong. They usually restore more slowly.
+C is wrong. It generally costs more.
+D is wrong. Visibility is not the reason.
+SC408-8  Answer D. Both halves are needed to resume processing.
+A is wrong. Data usually changes far more often.
+B is wrong. Size is not the reason.
+C is wrong. Licensing is a separate matter.
+SC408-9  Answer A. It covers the whole business, not only the systems.
+B is wrong. That is disaster recovery, the IT part of it.
+C is wrong. Insurance limits loss; it does not keep the business running.
+D is wrong. That is one component of the recovery plan.
+SC408-10  Answer D. An untested plan is a set of assumptions.
+A is wrong. Usually present, from the impact analysis.
+B is wrong. Usually named in the document.
+C is wrong. Usually the first thing arranged.
+SC408-11  Answer B. Equipment must be brought in, so recovery takes days to weeks.
+A is wrong. A warm site already has hardware and connectivity.
+C is wrong. A hot site is fully equipped with current data.
+D is wrong. That is continuous replication.
+SC408-12  Answer C. It is the most data the business can afford to lose, measured in time.
+A is wrong. The recovery TIME objective decides that.
+B is wrong. Again the time objective.
+D is wrong. That is a staffing matter.
+SC408-13  Answer A. The tolerance chooses the site.
+B is wrong. Volume is not the criterion.
+C is wrong. Cost of the system is irrelevant.
+D is wrong. User numbers are not the criterion.
+SC408-14  Answer C. Only fifteen minutes of work may be lost.
+A is wrong. That would risk losing a day.
+B is wrong. That would risk losing a week.
+D is wrong. The site follows the time objective, not the point objective.
+Your turn
+Item
+Answer
+The business can be without the system for four hours
+Recovery time objective — it measures acceptable downtime, and four hours points to a hot site
+At most one hour of data may be lost
+Why: the recovery point objective is measured in time but describes data, so it sets how often backups must run
+A site with space and power but no equipment
+Cold site — equipment must be brought in and installed, so recovery takes days to weeks
+A site fully equipped with current data
+Hot site — it can take over in minutes to hours, and costs the most
+Multiple-choice questions
+P408-01  Answer B. The traffic crosses equipment owned by strangers.
+A is wrong. Equally likely on either.
+C is wrong. Unrelated to the route.
+D is wrong. Unrelated to the route.
+P408-02  Answer D. Availability is the target, not confidentiality.
+A is wrong. No false identity is involved.
+B is wrong. Nothing is being read.
+C is wrong. Nothing is being altered.
+P408-03  Answer D. Fast, but the key must be shared somehow.
+A is wrong. That is asymmetric.
+B is wrong. A key is essential.
+C is wrong. That describes a one-time pad, a special case.
+P408-04  Answer B. Only the recipient's private key can then open it.
+A is wrong. The sender does not hold it.
+C is wrong. That creates a signature, readable by anyone.
+D is wrong. Anyone holding the matching private key is the sender, not the recipient.
+P408-05  Answer A. It combines the strengths of both.
+B is wrong. Too slow for the whole conversation.
+C is wrong. The key could not be exchanged safely.
+D is wrong. Modern practice encrypts everything.
+P408-06  Answer C. Internal boundaries limit how far an incident spreads.
+A is wrong. Firewalls filter; they do not encrypt.
+B is wrong. That is a storage control.
+D is wrong. That is an access control.
+P408-07  Answer D. It stands between the two sides and examines content.
+A is wrong. That sees addresses and ports only.
+B is wrong. Application-aware firewalls do.
+C is wrong. Stateful inspection tracks sessions rather than content.
+P408-08  Answer A. Frequency determines how much work is at risk.
+B is wrong. Restore speed is unrelated to frequency.
+C is wrong. Corruption risk is unchanged.
+D is wrong. The off-site copy is still essential.
+P408-09  Answer B. It spreads the risk across media and locations.
+A is wrong. Both share one fate.
+C is wrong. Replication copies errors instantly.
+D is wrong. One provider is one point of failure.
+P408-10  Answer C. Without it every system looks critical.
+A is wrong. That is a budgeting exercise.
+B is wrong. Procurement is separate.
+D is wrong. Staffing follows from the plan, not the analysis.
+P408-11  Answer B. Disaster recovery is the IT part of continuity planning.
+A is wrong. It is the narrower of the two.
+C is wrong. One contains the other.
+D is wrong. Continuity planning covers premises.
+P408-12  Answer A. Two weeks is time enough to bring equipment in.
+B is wrong. Paying for hours of recovery where weeks will do wastes money.
+C is wrong. More than is needed.
+D is wrong. Far more than is needed.
+P408-13  Answer D. Hours allow only for switching over, not for building.
+A is wrong. A cold site takes days to weeks.
+B is wrong. A warm site takes hours to days, which may exceed four hours.
+C is wrong. Then recovery could not happen at all.
+P408-14  Answer C. It is measured in time but describes data loss.
+A is wrong. That is downtime.
+B is wrong. That is also about duration.
+D is wrong. That is the study producing both.
+P408-15  Answer A. The small assumption that fails under pressure.
+B is wrong. Storage is trivial.
+C is wrong. A separate question.
+D is wrong. It can be updated while the system runs.
+P408-16  Answer C. The answer is to make the traffic unreadable, not to avoid the road.
+A is wrong. The risks are real.
+B is wrong. It addresses confidentiality, not availability.
+D is wrong. They remain available.
+Case question: the backup in the server room
+C408-1
+System
+Category
+Plant control, four hours
+Hot site
+Payables, one working day
+Warm site
+Management reporting, two weeks
+Cold site
+Classify each system by the alternate site its tolerance requires.
+C408-2  Answer: a firewall controls who may connect, but does not protect data already crossing the internet.
+he is correct, provided the firewall is next-generation is wrong: this answer no firewall protects traffic once it is on the shared road.
+encryption is only needed for data at rest is wrong: this answer the greater need is precisely for data in transit.
+encryption would slow the orders unacceptably is wrong: this answer symmetric encryption is fast and is used for exactly this.
+C408-3  Answer: an unauthorized connection attempt from outside the network.
+a distributor's password stolen by a false login page is wrong: this answer phishing invites the traffic in, so the firewall sees an ordinary request.
+an employee copying data to a personal drive is wrong: this answer an insider is already inside the boundary.
+data read while crossing the internet is wrong: this answer that is what encryption addresses.
+C408-4  Answer: every copy is in the same room as the live system, so one fire destroys both.
+copies are taken nightly rather than hourly is wrong: this answer frequency matters, but it is the location that defeats every plan at once.
+the backup server is dedicated rather than shared is wrong: this answer a dedicated server is good practice.
+the copies are not encrypted is wrong: this answer worth doing, but it does not address losing the building.
+C408-5  Answer: its recovery point objective, the amount of data that may be lost.
+its recovery time objective, the acceptable downtime is wrong: this answer that chooses the site, not the backup frequency.
+the cost of the alternate site is wrong: this answer cost constrains the choice but does not set the frequency.
+the maximum tolerable outage of the payables system is wrong: this answer each system has its own objectives.
+C408-6  Answer: move one backup copy away from the head office site.
+buy the next-generation firewall is wrong: this answer worth doing for the new internet orders, but it does nothing about losing the building.
+arrange a hot site for all three systems is wrong: this answer two of the three tolerate far longer outages, so this wastes money.
+increase the backup frequency to hourly is wrong: this answer more frequent copies in the same room still share one fate.
+C408-7  Answer: continuity.
+recovery is wrong: this answer recovery planning is the narrower, IT part.
+impact is wrong: this answer the impact analysis is the study that informs the plan.
+resilience is wrong: this answer not the term the outcome uses.
+PART III
+Information systems
+Chapters 9 to 12
+PART III — INFORMATION SYSTEMS

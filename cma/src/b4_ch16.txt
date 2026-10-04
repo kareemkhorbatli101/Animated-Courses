@@ -1,0 +1,680 @@
+Chapter 16
+Time Series and the Quality of a Model
+تحليل السلاسل الزمنية وجودة النموذج
+Chapter 15 explained demand by what moved alongside it. This chapter explains it by when it happened, which is a different question and needs a different method.
+Figure F416-01 shows the chapter.
+Figure F416-01. Chapter 16 roadmap: split it, judge it, look first.
+Learning objectives
+LOS
+Official statement (ICMA, 2024)
+In plain words
+Depth here
+F.4.r
+demonstrate an understanding of time series analyses, including trend, cyclical, seasonal, and irregular patterns
+Demonstrate an understanding of time series analysis, including trend, cyclical, seasonal and irregular patterns.
+Full treatment + Extended Example
+F.4.s
+identify and explain the benefits and limitations of regression analysis and time series analysis
+Identify and explain the benefits and limitations of regression analysis and time series analysis.
+Full treatment
+F.4.t
+define standard error of the estimate, goodness of fit, and confidence interval
+Define standard error of the estimate, goodness of fit and confidence interval.
+Full treatment
+F.4.v
+describe exploratory data analysis and how it is used to reveal patterns and discover insights
+Describe exploratory data analysis and how it reveals patterns and insights.
+Full treatment
+The official statements are quoted from the ICMA Learning Outcome Statements (effective September 1, 2024). The plain-words column restates them in simpler English. The exam may test any outcome up to Level C.
+Key terms in this chapter
+English (exam term)
+العربية
+Français
+trend
+الاتجاه العام
+tendance
+cyclical variation
+التغير الدوري
+variation cyclique
+seasonal variation
+التغير الموسمي
+variation saisonnière
+irregular variation
+التغير العشوائي
+variation irrégulière
+moving average
+المتوسط المتحرك
+coût moyen pondéré après chaque entrée (CMUP)
+seasonal factor
+المعامل الموسمي
+coefficient saisonnier
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+goodness of fit
+جودة المطابقة
+qualité de l'ajustement
+confidence interval
+فترة الثقة
+intervalle de confiance
+exploratory data analysis
+التحليل الاستكشافي للبيانات
+analyse exploratoire des données
+WHAT YOU ALREADY KNOW   What you already know
+Book 2 forecast sales from a trend line and Book 3 budgeted four quarters that rose and fell. This chapter gives the technique behind both, and uses the same eight quarters Chapter 15 modelled.
+16.1  The four components of a time series
+Any series measured over time can be thought of as four things added together. Figure F416-02 names them.
+Figure F416-02. The four components of a time series
+Component (F.4.r)
+What it is
+At Orontes
+In this data
+Trend
+The long-run direction, over years
+Underlying growth as the Gulf market opens
+Rising across the two years
+Cyclical
+Swings longer than a year, tied to the economy
+A regional downturn lasting several years
+Not visible in only two years of data
+Seasonal
+A pattern that repeats within the year
+Hot quarters sell more
+The third quarter peaks in both years
+Irregular
+What is left: random, unrepeatable
+A port strike delaying one shipment
+The small residual after the other three
+trend is the long-run direction and seasonal variation is the pattern that repeats within the year. Those two are usually the visible ones. cyclical variation is slower and tied to the wider economy. It needs many years of data before it can be told apart from trend at all.
+irregular variation is what remains: a port strike, a heatwave, a single large order. It is unrepeatable by definition, which is why no model should try to explain it. A model that fits the irregular component is the overfitting of Chapter 15.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+trend
+الاتجاه العام
+tendance
+cyclical variation
+التغير الدوري
+variation cyclique
+seasonal variation
+التغير الموسمي
+variation saisonnière
+irregular variation
+التغير العشوائي
+variation irrégulière
+English (exam term)
+العربية
+Français
+trend
+الاتجاه العام
+tendance
+cyclical variation
+التغير الدوري
+variation cyclique
+seasonal variation
+التغير الموسمي
+variation saisonnière
+irregular variation
+التغير العشوائي
+variation irrégulière
+SECTION CHECK   Test yourself
+SC416-1  A pattern that repeats within the year is:
+A.	cyclical variation
+B.	trend
+C.	irregular variation
+D.	seasonal variation
+SC416-2  Why should no model try to explain the irregular component?
+A.	It is always small
+B.	It is unrepeatable by definition, so fitting it is overfitting
+C.	It cannot be measured
+D.	It is the same every year
+Answers and explanations are at the end of the chapter.
+16.2  Separating the components
+The standard method is a moving average. Averaging four consecutive quarters removes the seasonal pattern, because every average contains one of each quarter. Most of the irregular variation cancels as well. What is left is close to the trend.
+Figure F416-03. The Beverages series decomposed into trend and seasonal factors.
+Figure F416-03 does this to the Beverages data. The first panel is the series as recorded, with its clear peak in the third quarter of each year. The second is the four-quarter centred moving average, which rises from 219,750 to 223,662 cases and is far smoother. The third shows what is left once the trend is taken out.
+Those remainders are the seasonal factors: 20,003 cases in the third quarter and (13,022) in the first, a swing of 33,025 cases between the best quarter and the worst. They are adjusted so that the four sum to zero, because a season redistributes the year's demand rather than adding to it.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+moving average
+المتوسط المتحرك
+coût moyen pondéré après chaque entrée (CMUP)
+seasonal factor
+المعامل الموسمي
+coefficient saisonnier
+English (exam term)
+العربية
+Français
+moving average
+المتوسط المتحرك
+coût moyen pondéré après chaque entrée (CMUP)
+seasonal factor
+المعامل الموسمي
+coefficient saisonnier
+SECTION CHECK   Test yourself
+SC416-3  Why does a four-quarter moving average remove the seasonal pattern?
+A.	Every average contains one of each quarter
+B.	Averaging always removes variation
+C.	Four quarters is the longest useful period
+D.	The seasons cancel by chance
+SC416-4  Why are seasonal factors adjusted to sum to zero?
+A.	Negative factors are not allowed
+B.	It makes them easier to read
+C.	A season redistributes the year's demand rather than adding to it
+D.	The trend requires it
+Answers and explanations are at the end of the chapter.
+16.3  What both techniques can and cannot do
+Figure F416-04 sets out the benefits and limitations of regression and time series analysis, marking which applies to which.
+Figure F416-04. Benefits and limitations of regression and time series analysis
+Benefit or limitation (F.4.s)
+What it means
+Applies to
+Uses every observation
+The high-low method of Book 2 used two
+Both
+Quantifies the relationship
+A coefficient, not an impression
+Regression
+Separates mixed effects
+Temperature from promotion from price
+Regression
+Reveals repeating patterns
+The seasonal factor for each quarter
+Time series
+LIMIT: assumes the past continues
+A changed market invalidates both
+Both
+LIMIT: assumes a straight-line relationship
+Within the range observed
+Regression
+LIMIT: needs enough history
+Two years cannot show a cycle
+Time series
+LIMIT: association, not cause
+Chapter 14's warning stands
+Both
+The limitation that matters most applies to both, and it is simply stated: each technique assumes that the pattern in the past will continue. A regression fitted before a competitor entered the Gulf market will keep predicting the old volumes. A seasonal factor from two normal years will not survive a year in which the pattern breaks.
+The benefit that matters most also applies to both. Each uses every observation rather than a chosen few. That is why Book 2's high-low method, resting on two points, was described there as a rough approximation.
+SECTION CHECK   Test yourself
+SC416-5  Which limitation applies to BOTH regression and time series analysis?
+A.	Each assumes a straight-line relationship
+B.	Each assumes the pattern in the past will continue
+C.	Each needs many years of history
+D.	Each predicts only a yes or no
+SC416-6  What advantage do both techniques have over Book 2's high-low method?
+A.	They need no data preparation
+B.	They establish cause
+C.	They use every observation rather than two
+D.	They are quicker to calculate
+Answers and explanations are at the end of the chapter.
+16.4  Judging how good a model is
+Three measures are named by the syllabus, and Figure F416-05 distinguishes them.
+Figure F416-05. Standard error, goodness of fit and confidence interval
+Measure (F.4.t)
+What it is
+In this model
+Note
+Standard error of the estimate
+The typical distance of an observation from the fitted line
+In the units of the result, so 555 cases here
+Smaller is better
+Goodness of fit
+How closely the model matches the observed data
+R squared is the usual measure, 0.9989 here
+High fit with few observations invites caution
+Confidence interval
+A range around the estimate, with a stated level of confidence
+The estimate plus or minus a multiple of the standard error
+A wider interval is a more honest one
+The standard error of the estimate is the typical distance of an observation from the fitted line, expressed in the units of the thing being predicted. For the Beverages model it is 555 cases, which is readable directly: a prediction is typically wrong by about that much.
+goodness of fit asks how closely the model matches what was observed, and R squared is the usual measure of it. A confidence interval turns a single estimate into a range, by adding and subtracting a multiple of the standard error. It also states how confident one is that the true value lies inside it.
+EXAM TRAP   A narrow interval is not a better one
+A confidence interval is honest about uncertainty, not a measure of skill. An interval that is narrow because the model overfits a small sample is worse than a wide one that reflects what the data can actually support.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+goodness of fit
+جودة المطابقة
+qualité de l'ajustement
+confidence interval
+فترة الثقة
+intervalle de confiance
+English (exam term)
+العربية
+Français
+standard error of the estimate
+الخطأ المعياري للتقدير
+erreur type de l'estimation
+goodness of fit
+جودة المطابقة
+qualité de l'ajustement
+confidence interval
+فترة الثقة
+intervalle de confiance
+SECTION CHECK   Test yourself
+SC416-7  The standard error of the estimate is expressed:
+A.	in the units of the thing being predicted
+B.	as a percentage
+C.	between zero and one
+D.	between minus one and plus one
+SC416-8  A model produces a very narrow confidence interval on a small sample. This is:
+A.	evidence the model is better
+B.	evidence the data is accurate
+C.	irrelevant to the model's quality
+D.	a warning, because the interval may reflect overfitting rather than precision
+Answers and explanations are at the end of the chapter.
+16.5  Exploratory data analysis
+exploratory data analysis is the practice of examining data with summaries and plots before fitting anything to it. Figure F416-06 sets out what it involves.
+Figure F416-06. What exploratory data analysis involves
+Exploratory step (F.4.v)
+What it does
+At Orontes
+Plot the series
+See the shape before assuming one
+The third-quarter peak is visible without any model
+Look at the spread
+Find outliers and impossible values
+Chapter 11's two orders a hundred times the usual
+Compare the periods
+See whether the pattern repeats
+Two years both peak in the third quarter
+Cross-plot the variables
+See which relationships are worth modelling
+Cases against temperature, as in Figure F415-06
+Ask what is missing
+Absent data shapes the answer too
+Fourteen orders with no delivery date
+Then model
+The model tests what the eye suggested
+Chapter 15's regression
+Its value is that the eye finds things no summary statistic reports. The third-quarter peak in Figure F416-03 is visible immediately, before any moving average is computed, and so are the outliers and the gaps that Chapter 11 had to deal with.
+It also protects against the opposite error. A model fitted without looking can produce a respectable R squared on data that contains an obvious impossibility, and nobody will notice until someone acts on the answer.
+TERM BRIDGE   Key words in this section
+English (exam term)
+العربية
+Français
+exploratory data analysis
+التحليل الاستكشافي للبيانات
+analyse exploratoire des données
+English (exam term)
+العربية
+Français
+exploratory data analysis
+التحليل الاستكشافي للبيانات
+analyse exploratoire des données
+SECTION CHECK   Test yourself
+SC416-9  What does exploratory data analysis do that a summary statistic does not?
+A.	It calculates the trend
+B.	It lets the eye find shapes, outliers and gaps before any model is fitted
+C.	It proves a relationship
+D.	It replaces the model
+SC416-10  Why does fitting a model without looking at the data first create risk?
+A.	A respectable R squared can come from data containing an obvious impossibility
+B.	The model will not converge
+C.	The software will fail
+D.	The data will be unusable
+Answers and explanations are at the end of the chapter.
+16.6  Extended Example 16A: decomposing the Beverages series
+This example performs the decomposition and then says what it is and is not good for. It is exam-core.
+1. Compute the trend
+A four-quarter moving average is taken, then centred so that it lines up with an actual quarter. With 8 observations this gives 4 trend values, from 2027 Q3 to 2028 Q2. The two quarters at each end have no trend value, which is a real cost of the method.
+2. Take the trend out
+Subtracting the trend from the actual leaves the seasonal and irregular components together. In 2027 Q3, actual demand was 240,400 cases against a trend of 219,750, leaving 20,650.
+3. Average to get the seasonal factor
+Where a quarter appears more than once, averaging its remainders cancels most of the irregular part and leaves the seasonal factor. Adjusting the four so they sum to zero gives (13,022), 691, 20,003 and (7,672) for the first to the fourth quarter.
+4. What it is good for
+The factors say how much of the third-quarter peak is simply the season. A manager who congratulates the sales team on a 20,003-case rise in the third quarter is congratulating them on the weather. The same manager should not treat the first-quarter fall as a failure.
+5. What it is not good for
+Two years is very little. Each seasonal factor here rests on two observations, so a single unusual quarter moves it substantially. The cyclical component cannot be seen at all. The honest statement is a direction and a rough size, not a precise forecast.
+6. Your turn
+YOUR TURN   Name four components
+Complete the blank cells of Figure F416-07. Answers are at the end of the chapter.
+Figure F416-07. Your turn: name four components (complete the blanks)
+What is described
+Which component?
+Why
+The long-run direction over years
+________
+It is the underlying growth
+A pattern repeating within the year
+Seasonal
+________
+Swings longer than a year, tied to the economy
+________
+Two years cannot show it
+What is left after the other three
+________
+It does not repeat
+7. Tie line
+WORKED EXAMPLE   Everything ties
+Trend rises from 219,750 to 223,662 cases across the 4 computed quarters.
+2027 Q3: actual 240,400 − trend 219,750 = 20,650.
+Seasonal factors (13,022), 691, 20,003, (7,672) sum to zero.
+The swing from worst quarter to best is 33,025 cases.
+8. How the exam asks it
+EXAM TRAP   Exam view
+A question names a movement and asks which component it is. Ask how long it lasts: within a year is seasonal, over years is trend, several years and tied to the economy is cyclical, and once only is irregular.
+9. Self-check
+SECTION CHECK   Test yourself
+SC416-11  Use Extended Example 16A. How many trend values does the moving average give from 8 quarters?
+A.	8
+B.	Two
+C.	Eight
+D.	4
+SC416-12  Use Extended Example 16A. A manager congratulates the team on the third-quarter rise. The right response is:
+A.	the congratulation is deserved
+B.	the rise shows the promotion worked
+C.	most of it is the seasonal factor, so performance should be judged against a season-adjusted expectation
+D.	the rise shows the trend is steepening
+Answers and explanations are at the end of the chapter.
+Chapter summary
+Figure F416-08 brings the chapter together.
+Figure F416-08. Chapter 16 summary map: the key rule for each section.
+A time series combines trend, cyclical, seasonal and irregular components. A four-quarter centred moving average removes the seasonal pattern and most of the noise, leaving the trend; subtracting the trend and averaging by quarter gives seasonal factors, which are adjusted to sum to zero. Both regression and time series analysis use every observation and quantify what they find, and both assume the past pattern will continue. The standard error of the estimate gives the typical distance from the line in the units of the result, goodness of fit measures how closely the model matches the data, and a confidence interval expresses the estimate as a range. Exploratory data analysis comes before all of it, because the eye finds what no statistic reports.
+Practice
+Answer the multiple-choice questions first. Then try the case question: like the exam, it gives a short case and an exhibit, followed by independent items (drag-and-drop, select from a list, fill in the blank and calculations). The answers explain why each wrong option is wrong, so read them even when you are right.
+Multiple-choice questions
+P416-01  Underlying growth as a new market opens is:
+A.	trend
+B.	seasonal variation
+C.	cyclical variation
+D.	irregular variation
+P416-02  A port strike delays one shipment. This is:
+A.	seasonal variation
+B.	irregular variation
+C.	trend
+D.	cyclical variation
+P416-03  Why can the cyclical component not be identified in two years of data?
+A.	Cycles affect only large companies
+B.	Cycles are always negative
+C.	Cycles are the same as seasons
+D.	Cycles run over several years, so two years cannot distinguish one from trend
+P416-04  Subtracting the trend from the actual leaves:
+A.	the trend only
+B.	the cyclical component only
+C.	the seasonal and irregular components together
+D.	nothing
+P416-05  The Beverages seasonal factor for the third quarter is:
+A.	(13,022) cases
+B.	219,750 cases
+C.	Zero
+D.	20,003 cases
+P416-06  What is lost by using a moving average?
+A.	The seasonal pattern
+B.	Observations at each end of the series have no trend value
+C.	The trend itself
+D.	Nothing
+P416-07  A regression fitted before a competitor entered the market will:
+A.	keep predicting the old volumes
+B.	adjust automatically
+C.	produce a negative R squared
+D.	fail to compute
+P416-08  Which benefit belongs specifically to time series analysis?
+A.	Separating the effects of several variables
+B.	Establishing cause
+C.	Revealing patterns that repeat over time
+D.	Quantifying a coefficient per variable
+P416-09  Goodness of fit measures:
+A.	the typical error in the units of the result
+B.	the range around an estimate
+C.	how closely the model matches the data it was fitted to
+D.	whether the relationship is causal
+P416-10  A confidence interval is built by:
+A.	squaring the correlation coefficient
+B.	averaging the seasonal factors
+C.	taking the highest and lowest observations
+D.	adding and subtracting a multiple of the standard error from the estimate
+P416-11  The Beverages standard error is 555 cases. This means:
+A.	a prediction is typically wrong by about that much
+B.	the model explains that share of variation
+C.	the interval is that wide
+D.	the trend rises by that much
+P416-12  Which belongs to exploratory data analysis?
+A.	Fitting the regression
+B.	Plotting the series to see its shape
+C.	Computing the confidence interval
+D.	Deploying the model
+P416-13  Asking what data is missing matters because:
+A.	missing data is always an error
+B.	it is required by the standard
+C.	it speeds up the analysis
+D.	absent data shapes the answer too
+P416-14  The swing between the best and worst quarter at Beverages is:
+A.	20,003 cases
+B.	33,025 cases
+C.	3,912 cases
+D.	555 cases
+P416-15  How long must a movement last to be called cyclical rather than seasonal?
+A.	Longer than a quarter
+B.	Longer than a month
+C.	Longer than a year
+D.	Longer than a decade
+P416-16  A seasonal factor derived from two normal years will:
+A.	not survive a year in which the pattern changes
+B.	apply indefinitely
+C.	become more accurate over time without new data
+D.	prove the cause of the season
+Case question: congratulating the weather
+The Beverages division has eight quarters of sales history. Demand peaks in the third quarter of each year and falls back in the first. A four-quarter centred moving average has been computed, giving four trend values that rise steadily across the period.
+Subtracting the trend and averaging by quarter gives seasonal factors of -13,022 for the first quarter, +691 for the second, +20,003 for the third and -7,672 for the fourth. The four have been adjusted so that they sum to zero.
+At the quarterly review the divisional director congratulated the sales team on a large rise in the third quarter and asked for the same again next quarter. He has also asked the analyst to identify the economic cycle in the data, and whether the model can give a forecast accurate to within a few hundred cases.
+The analyst has not yet plotted the series, having gone straight to the computation. The standard error of the estimate for the related regression is 555 cases. No one has yet asked whether the pattern of the past two years can be expected to hold into the next.
+Use the scenario above for items C416-1 to C416-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C416-1  Classify each movement. (On the exam screen you would drag each item into a box.)
+Categories: Trend · Seasonal · Cyclical · Irregular
+Movement described
+Category
+Steadily rising demand as the Gulf market opens
+The third quarter peaking every year
+A multi-year regional downturn
+A port strike delaying one shipment
+C416-2  Enter the swing in cases between the best and the worst quarter, measured by the seasonal factors.
+Answer: ____________
+C416-3  On the director's congratulation of the sales team: [select]
+Options: most of the rise is the seasonal factor, so performance should be judged against a season-adjusted expectation   |   the congratulation is well earned, since sales did rise   |   the rise shows the promotion weeks worked   |   the rise shows the trend is steepening
+C416-4  On asking for 'the same again next quarter': [select]
+Options: the fourth quarter carries a negative seasonal factor, so a fall should be expected rather than treated as failure   |   the request is reasonable if the team works harder   |   the fourth quarter should exceed the third   |   the seasonal factors do not apply to future quarters
+C416-5  On identifying the economic cycle in this data: [select]
+Options: two years is too short to separate a cycle from the trend   |   the cycle is the third-quarter peak   |   the cycle is visible in the moving average   |   the cycle is the irregular component
+C416-6  On a forecast accurate to within a few hundred cases: [select]
+Options: the standard error of 555 cases means predictions are typically wrong by about that much, so such precision cannot be promised   |   the model can achieve it, given the high R squared   |   accuracy depends only on the trend   |   the confidence interval should simply be narrowed
+C416-7  Examining data with summaries and plots before fitting any model is called ____ data analysis.
+Choose the word or phrase for the blank: exploratory   |   descriptive   |   predictive   |   confirmatory
+Case question: congratulating the weather
+The Beverages division has eight quarters of sales history. Demand peaks in the third quarter of each year and falls back in the first. A four-quarter centred moving average has been computed, giving four trend values that rise steadily across the period.
+Subtracting the trend and averaging by quarter gives seasonal factors of -13,022 for the first quarter, +691 for the second, +20,003 for the third and -7,672 for the fourth. The four have been adjusted so that they sum to zero.
+At the quarterly review the divisional director congratulated the sales team on a large rise in the third quarter and asked for the same again next quarter. He has also asked the analyst to identify the economic cycle in the data, and whether the model can give a forecast accurate to within a few hundred cases.
+The analyst has not yet plotted the series, having gone straight to the computation. The standard error of the estimate for the related regression is 555 cases. No one has yet asked whether the pattern of the past two years can be expected to hold into the next.
+Use the scenario above for items C416-1 to C416-7.
+How to enter answers: Select one option for each item. Where an item asks for a count, enter a whole number.
+C416-1  Classify each movement. (On the exam screen you would drag each item into a box.)
+Categories: Trend · Seasonal · Cyclical · Irregular
+Movement described
+Category
+Steadily rising demand as the Gulf market opens
+The third quarter peaking every year
+A multi-year regional downturn
+A port strike delaying one shipment
+C416-2  Enter the swing in cases between the best and the worst quarter, measured by the seasonal factors.
+Answer: ____________
+C416-3  On the director's congratulation of the sales team: [select]
+Options: most of the rise is the seasonal factor, so performance should be judged against a season-adjusted expectation   |   the congratulation is well earned, since sales did rise   |   the rise shows the promotion weeks worked   |   the rise shows the trend is steepening
+C416-4  On asking for 'the same again next quarter': [select]
+Options: the fourth quarter carries a negative seasonal factor, so a fall should be expected rather than treated as failure   |   the request is reasonable if the team works harder   |   the fourth quarter should exceed the third   |   the seasonal factors do not apply to future quarters
+C416-5  On identifying the economic cycle in this data: [select]
+Options: two years is too short to separate a cycle from the trend   |   the cycle is the third-quarter peak   |   the cycle is visible in the moving average   |   the cycle is the irregular component
+C416-6  On a forecast accurate to within a few hundred cases: [select]
+Options: the standard error of 555 cases means predictions are typically wrong by about that much, so such precision cannot be promised   |   the model can achieve it, given the high R squared   |   accuracy depends only on the trend   |   the confidence interval should simply be narrowed
+C416-7  Examining data with summaries and plots before fitting any model is called ____ data analysis.
+Choose the word or phrase for the blank: exploratory   |   descriptive   |   predictive   |   confirmatory
+Answers and explanations
+Section checks
+SC416-1  Answer D. Hot quarters sell more, every year.
+A is wrong. Cyclical movement runs over several years.
+B is wrong. Trend is the long-run direction.
+C is wrong. Irregular variation does not repeat.
+SC416-2  Answer B. A port strike will not recur on schedule.
+A is wrong. It can be large in a given period.
+C is wrong. It is what remains after the other three.
+D is wrong. That would make it seasonal.
+SC416-3  Answer A. The seasons are included equally in each average.
+B is wrong. It depends on matching the period of the pattern.
+C is wrong. The length matches the season, not a maximum.
+D is wrong. It is by construction, not by chance.
+SC416-4  Answer C. What one quarter gains, others give up.
+A is wrong. Two of the four here are negative.
+B is wrong. Convenience is not the reason.
+D is wrong. The trend is computed separately.
+SC416-5  Answer B. A changed market invalidates both.
+A is wrong. That is a regression limitation.
+C is wrong. That constrains time series more.
+D is wrong. Neither is confined to that.
+SC416-6  Answer C. Which is why high-low was called a rough approximation.
+A is wrong. Preparation is still required.
+B is wrong. Neither establishes cause.
+D is wrong. High-low is the quicker of the three.
+SC416-7  Answer A. So 555 cases is read directly.
+B is wrong. It is not a proportion.
+C is wrong. That is R squared.
+D is wrong. That is the correlation coefficient.
+SC416-8  Answer D. A wider interval can be the more honest one.
+A is wrong. Narrowness is not skill.
+B is wrong. It says nothing about accuracy of the data.
+C is wrong. It bears directly on how far the model should be trusted.
+SC416-9  Answer B. The third-quarter peak is visible before any computation.
+A is wrong. That is decomposition.
+C is wrong. Nothing proves a relationship.
+D is wrong. It comes before the model, not instead of it.
+SC416-10  Answer A. Nobody notices until someone acts on the answer.
+B is wrong. It may fit perfectly well.
+C is wrong. Software does not object to bad data.
+D is wrong. It will be used, which is the problem.
+SC416-11  Answer D. Two quarters at each end have no trend value.
+A is wrong. Observations are lost at both ends.
+B is wrong. Too few.
+C is wrong. That is the number of observations, not of trend values.
+SC416-12  Answer C. The factor is what the calendar contributes.
+A is wrong. It rewards the weather.
+B is wrong. Promotion is a separate and smaller effect.
+D is wrong. The trend is the smooth component, not the peak.
+Your turn
+Item
+Answer
+The long-run direction over years
+Trend — it is the underlying growth or decline, visible only across years
+A pattern repeating within the year
+Why: seasonal variation returns at the same point each year, so the third quarter peaks in both years here
+Swings longer than a year, tied to the economy
+Cyclical variation — and two years of data cannot show it
+What is left after the other three
+Irregular variation — random and unrepeatable, which is why no model should try to fit it
+Multiple-choice questions
+P416-01  Answer A. The long-run direction.
+B is wrong. Seasonal variation repeats within the year.
+C is wrong. Cyclical movement follows the economy.
+D is wrong. Irregular variation does not persist.
+P416-02  Answer B. A one-off that will not repeat.
+A is wrong. It does not recur each year.
+C is wrong. It does not persist.
+D is wrong. It is not tied to the economic cycle.
+P416-03  Answer D. The data is too short to separate them.
+A is wrong. Size is irrelevant.
+B is wrong. Cycles run both ways.
+C is wrong. Seasons repeat within the year.
+P416-04  Answer C. Averaging by quarter then separates them.
+A is wrong. The trend has just been removed.
+B is wrong. Not identifiable here.
+D is wrong. A substantial remainder is left.
+P416-05  Answer D. The largest positive factor of the four.
+A is wrong. That is the first quarter, and negative.
+B is wrong. That is a trend value.
+C is wrong. Only the four together sum to zero.
+P416-06  Answer B. A real cost when the series is short.
+A is wrong. Removing it is the purpose.
+C is wrong. The trend is what remains.
+D is wrong. Endpoints are lost.
+P416-07  Answer A. It assumes the past pattern continues.
+B is wrong. Models do not notice the world changing.
+C is wrong. R squared cannot be negative.
+D is wrong. It computes happily and wrongly.
+P416-08  Answer C. The seasonal factor is its characteristic output.
+A is wrong. That is regression.
+B is wrong. Neither does.
+D is wrong. That is regression.
+P416-09  Answer C. R squared is the usual measure.
+A is wrong. That is the standard error.
+B is wrong. That is the confidence interval.
+D is wrong. No measure establishes that.
+P416-10  Answer D. And stating the level of confidence.
+A is wrong. That gives R squared.
+B is wrong. That gives zero, by construction.
+C is wrong. That is the range of the data, not of the estimate.
+P416-11  Answer A. It is expressed in cases, so it reads directly.
+B is wrong. That is R squared, a proportion.
+C is wrong. The interval is a multiple of it.
+D is wrong. That is the trend rise.
+P416-12  Answer B. It all happens before the modelling.
+A is wrong. That is the model step.
+C is wrong. That follows the model.
+D is wrong. That is the last step of all.
+P416-13  Answer D. Fourteen orders with no delivery date affect any delivery analysis.
+A is wrong. It may be legitimately absent.
+B is wrong. No standard requires it.
+C is wrong. It usually adds work.
+P416-14  Answer B. The third-quarter factor less the first-quarter factor.
+A is wrong. That is the third-quarter factor alone.
+C is wrong. That is the rise in the trend.
+D is wrong. That is the standard error.
+P416-15  Answer C. Within the year is seasonal; across years is cyclical.
+A is wrong. A quarterly pattern is seasonal.
+B is wrong. Far too short.
+D is wrong. Cycles are usually shorter than that.
+P416-16  Answer A. Both techniques assume the past continues.
+B is wrong. Nothing applies indefinitely.
+C is wrong. Accuracy needs more observations.
+D is wrong. Cause is not established.
+Case question: congratulating the weather
+C416-1
+Movement described
+Category
+Steadily rising demand as the Gulf market opens
+Trend
+The third quarter peaking every year
+Seasonal
+A multi-year regional downturn
+Cyclical
+A port strike delaying one shipment
+Irregular
+Classify each movement by the time series component it represents.
+C416-2  Answer: 33,025.
+20,003 is wrong: this answer that is the third-quarter factor alone, not the swing.
+3,912 is wrong: this answer that is the rise in the trend, not the seasonal swing.
+C416-3  Answer: most of the rise is the seasonal factor, so performance should be judged against a season-adjusted expectation.
+the congratulation is well earned, since sales did rise is wrong: this answer it rewards the calendar rather than anything the team did.
+the rise shows the promotion weeks worked is wrong: this answer promotion is a separate and much smaller effect.
+the rise shows the trend is steepening is wrong: this answer the trend is the smooth component, and it rises gently.
+C416-4  Answer: the fourth quarter carries a negative seasonal factor, so a fall should be expected rather than treated as failure.
+the request is reasonable if the team works harder is wrong: this answer effort does not change the season.
+the fourth quarter should exceed the third is wrong: this answer its factor is negative and the third is the year's peak.
+the seasonal factors do not apply to future quarters is wrong: this answer applying them forward is exactly their purpose, subject to the pattern holding.
+C416-5  Answer: two years is too short to separate a cycle from the trend.
+the cycle is the third-quarter peak is wrong: this answer that repeats within the year, so it is seasonal.
+the cycle is visible in the moving average is wrong: this answer the moving average here shows trend, over too short a period to reveal a cycle.
+the cycle is the irregular component is wrong: this answer the irregular component is what does not repeat at all.
+C416-6  Answer: the standard error of 555 cases means predictions are typically wrong by about that much, so such precision cannot be promised.
+the model can achieve it, given the high R squared is wrong: this answer R squared measures fit to the sample, not the precision of a forecast.
+accuracy depends only on the trend is wrong: this answer season and irregular variation both affect the actual outcome.
+the confidence interval should simply be narrowed is wrong: this answer narrowing an interval to taste misstates the uncertainty.
+C416-7  Answer: exploratory.
+descriptive is wrong: this answer descriptive analytics reports what happened; this is a step before modelling.
+predictive is wrong: this answer prediction comes after the model is fitted.
+confirmatory is wrong: this answer not the term the outcome uses.
+PART IV — DATA ANALYTICS
