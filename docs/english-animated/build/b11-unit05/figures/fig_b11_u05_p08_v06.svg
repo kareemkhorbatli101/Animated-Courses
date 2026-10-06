@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Six weeks, and the thing nobody was measuring</title>
+<desc>A line chart of rota changes, planning certainty, override requests and consecutive Sunday shifts across six weeks after automation.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">4</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">7</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">10</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">14</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 215.7 L 366.7 314.3 L 563.3 478.6 L 760.0 544.3 L 956.7 544.3 L 1153.3 544.3 L 1350.0 544.3" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="215.71428571428572" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="366.66666666666663" cy="314.2857142857143" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="478.57142857142856" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="760.0" cy="544.2857142857143" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="544.2857142857143" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="1153.3333333333333" cy="544.2857142857143" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="544.2857142857143" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<text x="1364.0" y="549.2857142857143" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">rota changes per week</text>
+<path d="M 170.0 445.7 L 366.7 511.4 L 563.3 577.1 L 760.0 610.0 L 956.7 610.0 L 1153.3 610.0 L 1350.0 610.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="445.7142857142857" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="366.66666666666663" cy="511.42857142857144" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="577.1428571428571" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="760.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="610.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1153.3333333333333" cy="610.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1350.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<text x="1364.0" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">nights worked back-to-back</text>
+<path d="M 170.0 610.0 L 366.7 577.1 L 563.3 544.3 L 760.0 577.1 L 956.7 610.0 L 1153.3 610.0 L 1350.0 610.0" fill="none" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="366.66666666666663" cy="577.1428571428571" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="544.2857142857143" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="760.0" cy="577.1428571428571" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="1153.3333333333333" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="1350.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<text x="1364.0" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">override requests</text>
+<path d="M 170.0 610.0 L 366.7 610.0 L 563.3 577.1 L 760.0 544.3 L 956.7 511.4 L 1153.3 478.6 L 1350.0 478.6" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="366.66666666666663" cy="610.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="577.1428571428571" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="760.0" cy="544.2857142857143" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="511.42857142857144" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1153.3333333333333" cy="478.57142857142856" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="478.57142857142856" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="483.57142857142856" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">consecutive Sundays, one person</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Six weeks, and the thing nobody was measuring</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three of these were in the specification. The fourth was not measured until the log existed.</text>
+<text x="170.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 0</text>
+<text x="366.66666666666663" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 1</text>
+<text x="563.3333333333333" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 2</text>
+<text x="760.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 3</text>
+<text x="956.6666666666666" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 4</text>
+<text x="1153.3333333333333" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 5</text>
+<text x="1350.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 6</text>
+<rect x="170" y="670" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The override line going to zero is not good news. It means people stopped asking.</text>
+<text x="170" y="744.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The first two lines are what the system was built to improve, and it improved them. The</text>
+<text x="170" y="765.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">fourth line was not in the specification, so for six weeks nobody was looking at it.</text>
+</g>
+</svg>

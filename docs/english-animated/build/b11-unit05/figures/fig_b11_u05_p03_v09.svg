@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>Three conditionals, side by side</title>
+<desc>A branching diagram from one if-clause into zero, first and second conditionals with their forms and what each one claims about reality.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="360.0" r="12" fill="#1C2B33"/>
+<text x="160" y="402.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">if …</text>
+</g>
+<g id="20_subject">
+<path d="M 160 360.0 C 770.0 360.0 770.0 160.0 1340 160.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1340,160.0 1324,152.0 1324,168.0" fill="#2E6F5E"/>
+<path d="M 160 360.0 C 770.0 360.0 770.0 370.0 1340 370.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1340,370.0 1324,362.0 1324,378.0" fill="#1F4E5F"/>
+<path d="M 160 360.0 C 770.0 360.0 770.0 580.0 1340 580.0" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="1340,580.0 1324,572.0 1324,588.0" fill="#8C6A9E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three conditionals, side by side</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The past form in the third one is not about the past. It marks distance from reality.</text>
+<text x="1356" y="150.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">ZERO — present + present · a rule, always true</text>
+<text x="1356" y="174.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If you work nights, you get two days off.</text>
+<text x="1356" y="360.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">FIRST — present + will · a real possibility</text>
+<text x="1356" y="384.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If she asks, I'll explain it to her.</text>
+<text x="1356" y="570.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">SECOND — past + would · not real, or very unlikely</text>
+<text x="1356" y="594.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If it were up to me, I'd let people swap.</text>
+<rect x="160" y="628" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="662.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;If we switch it off, we go back&quot; puts it on the table. &quot;If we switched it off, we'd go back&quot;</text>
+<text x="180" y="683.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">takes it off. Same facts, different politics.</text>
+</g>
+</svg>

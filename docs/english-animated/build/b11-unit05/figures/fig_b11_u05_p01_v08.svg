@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>The shape of an automated decision</title>
+<desc>A flow network from input through threshold and algorithm to output, with audit, override and fallback branches, one drawn dashed because it is absent.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="180" y1="400" x2="680" y2="440" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="500" y1="240" x2="680" y2="440" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+<line x1="680" y1="440" x2="1020" y2="300" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1020" y1="300" x2="1020" y2="620" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="1020" y1="620" x2="680" y2="440" stroke="#A8372E" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="1020" y1="300" x2="1360" y2="440" stroke="#D9A441" stroke-width="3" stroke-linecap="round"/>
+<line x1="1020" y1="620" x2="1360" y2="440" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+</g>
+<g id="20_subject">
+<circle cx="180" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="180" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">IN</text>
+<text x="180" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Input</text>
+<text x="180" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">availability, hours, seniority</text>
+<circle cx="500" cy="240" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="500" y="245" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">≥</text>
+<text x="500" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Threshold</text>
+<text x="500" y="332" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">two nights, max</text>
+<circle cx="680" cy="440" r="58" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="680" y="445" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">fn</text>
+<text x="680" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The algorithm</text>
+<text x="680" y="544" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">weights and breaks ties</text>
+<circle cx="1020" cy="300" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1020" y="305" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">OUT</text>
+<text x="1020" y="372" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Output</text>
+<text x="1020" y="392" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the rota, published</text>
+<circle cx="1020" cy="620" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1020" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">!</text>
+<text x="1020" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Override</text>
+<text x="1020" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">email, 48 hours</text>
+<circle cx="1360" cy="440" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1360" y="445" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">LOG</text>
+<text x="1360" y="512" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Audit trail</text>
+<text x="1360" y="532" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">who changed what</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The shape of an automated decision</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six stages. The dashed one is the one this system does not have.</text>
+<rect x="372.0" y="405.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="430.0" y="424.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">raw data</text>
+<rect x="532.0" y="325.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="590.0" y="344.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the hard rule</text>
+<rect x="792.0" y="355.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="850.0" y="374.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">every Friday</text>
+<rect x="962.0" y="445.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1020.0" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">if somebody objects</text>
+<rect x="792.0" y="515.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="850.0" y="534.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">manual change</text>
+<rect x="1132.0" y="355.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1190.0" y="374.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">logged</text>
+<rect x="1132.0" y="515.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1190.0" y="534.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">not logged</text>
+</g>
+</svg>

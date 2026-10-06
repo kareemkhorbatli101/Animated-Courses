@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>The same ten minutes, chaired and not chaired</title>
+<desc>Two meeting timelines side by side: one circling without a decision, one reaching a named action with a date.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">forty minutes, no decision</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">ten minutes, one decision</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="157.0" y="522" width="46" height="40" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="227.0" y="506" width="46" height="56" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="297.0" y="528" width="46" height="34" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="367.0" y="500" width="46" height="62" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="437.0" y="532" width="46" height="30" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 547.0 478 l 26 26 M 573.0 478 l -26 26" fill="none" stroke="#A8372E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">&quot;revisit at a future meeting&quot;</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="925.0" y="514" width="70" height="48" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1025.0" y="442" width="70" height="120" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1125.0" y="498" width="70" height="64" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 1276.0 492 l 10 12 l 20 -26" fill="none" stroke="#2E6F5E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1120.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">Obi · three quotes · 14 March</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The same ten minutes, chaired and not chaired</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A holds the lease. Learner B holds the inspection. Neither sees the other.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Describe only. Find out whose obligation this is.</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8 differences — find them all</text>
+</g>
+</svg>

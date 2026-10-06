@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>Two people at a propped-open fire door</title>
+<desc>Two people standing by a fire door held open with a fire extinguisher, with speech and thought bubbles.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="690" rx="0" fill="#ECEDE8"/>
+<rect x="0" y="690" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="690" x2="1600" y2="690" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<line x1="1380" y1="690" x2="1380" y2="600.0" stroke="#6E7B82" stroke-width="6" stroke-linecap="round"/>
+<rect x="1333.2" y="558.6" width="93.60000000000001" height="43.2" rx="4" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+<text x="1380" y="585.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">FIRE DOOR</text>
+<rect x="1180" y="641.6" width="59.400000000000006" height="48.400000000000006" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1180" y1="661.4" x2="1239.4" y2="661.4" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="20_subject">
+<ellipse cx="480" cy="714.4117647058823" rx="32.352941176470594" ry="7.352941176470589" fill="#1C2B33" opacity="0.10"/>
+<path d="M 466.7647058823529 710 L 469.70588235294116 595.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.2352941176471 710 L 490.29411764705884 595.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 480.0 518.8235294117648 L 480 600.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="35.294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 452.05882352941177 520.2941176470589 L 507.94117647058823 520.2941176470589" fill="none" stroke="#8C6A9E" stroke-width="19.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 452.05882352941177 523.2352941176471 L 447.6470588235294 609.7058823529412" fill="none" stroke="#8C6A9E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="447.6470588235294" cy="614.1176470588235" r="7.352941176470589" fill="#6B4229"/>
+<path d="M 507.94117647058823 523.2352941176471 L 546.1764705882352 515.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="552.0588235294117" cy="514.4117647058824" r="7.352941176470589" fill="#6B4229"/>
+<path d="M 480.0 511.47058823529414 L 480.0 504.11764705882354" fill="none" stroke="#6B4229" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="480.0" cy="485.0" r="22.058823529411768" fill="#6B4229"/>
+<path d="M 457.94117647058823 482.05882352941177 A 22.058823529411768 22.058823529411768 0 0 1 502.05882352941177 482.05882352941177" fill="none" stroke="#2A2320" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 456.4705882352941 485.0 L 456.4705882352941 514.4117647058823" fill="none" stroke="#2A2320" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 503.5294117647059 485.0 L 503.5294117647059 514.4117647058823" fill="none" stroke="#2A2320" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="477.05882352941177" cy="486.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<circle cx="491.764705882353" cy="486.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<path d="M 478.5294117647059 496.7647058823529 Q 484.4117647058824 499.70588235294116 490.29411764705884 496.7647058823529" fill="none" stroke="#8A5A48" stroke-width="2.3529411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="480" y="748.2352941176471" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Wanjiru</text>
+<text x="480" y="774.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">runs the space</text>
+<ellipse cx="960" cy="714.4470588235295" rx="32.61176470588235" ry="7.411764705882353" fill="#1C2B33" opacity="0.10"/>
+<path d="M 946.6588235294117 710 L 949.6235294117647 594.08" fill="none" stroke="#3A4A55" stroke-width="14.823529411764707" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 973.3411764705883 710 L 970.3764705882353 594.08" fill="none" stroke="#3A4A55" stroke-width="14.823529411764707" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 960.0 517.2941176470588 L 960 600.0094117647059" fill="none" stroke="#1F4E5F" stroke-width="35.576470588235296" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 931.8352941176471 518.7764705882353 L 988.1647058823529 518.7764705882353" fill="none" stroke="#1F4E5F" stroke-width="19.27058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 931.8352941176471 523.2235294117646 L 979.2705882352941 549.9058823529411" fill="none" stroke="#1F4E5F" stroke-width="13.341176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="982.2352941176471" cy="551.3882352941176" r="7.411764705882353" fill="#F0D3B4"/>
+<path d="M 988.1647058823529 523.2235294117646 L 940.7294117647059 555.835294117647" fill="none" stroke="#1F4E5F" stroke-width="13.341176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="937.7647058823529" cy="557.3176470588235" r="7.411764705882353" fill="#F0D3B4"/>
+<path d="M 960.0 509.88235294117646 L 960.0 502.47058823529414" fill="none" stroke="#F0D3B4" stroke-width="14.823529411764707" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="960.0" cy="483.2" r="22.235294117647058" fill="#F0D3B4"/>
+<path d="M 937.7647058823529 480.2352941176471 A 22.235294117647058 22.235294117647058 0 0 1 982.2352941176471 480.2352941176471" fill="none" stroke="#2A2320" stroke-width="10.376470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="948.1411764705882" cy="484.6823529411765" r="2.6682352941176473" fill="#2A2320"/>
+<circle cx="962.9647058823529" cy="484.6823529411765" r="2.6682352941176473" fill="#2A2320"/>
+<path d="M 949.6235294117647 495.05882352941177 Q 955.5529411764705 498.0235294117647 961.4823529411764 495.05882352941177" fill="none" stroke="#8A5A48" stroke-width="2.371764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="960" y="748.5411764705882" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Obi</text>
+<text x="960" y="775.2235294117647" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">second floor</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two people at a propped-open fire door</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Neither of them put the wedge there. Both of them have walked past it this week.</text>
+<rect x="315.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="387.6,179.6 440.4,179.6 480,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="389.6" y1="179.6" x2="438.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="480.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">It was brought in after something.</text>
+<rect x="330.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="470.0" cy="408.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="520" cy="490" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="480.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I have never been told what.</text>
+<rect x="795.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="867.6,199.2 920.4,199.2 960,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="869.6" y1="199.2" x2="918.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="960.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I didn't know it was a rule.</text>
+<text x="960.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I knew it was a sign.</text>
+</g>
+</svg>
