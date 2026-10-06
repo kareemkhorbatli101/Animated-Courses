@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<title>A meeting in four steps</title>
+<desc>A four-panel strip of a small meeting: starting, bringing somebody in, agreeing and writing it down.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="520" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="86.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="86.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<rect x="436.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="462.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="462.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<rect x="812.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="838.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="838.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<rect x="1188.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="1214.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="1214.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="372" x2="392.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="180.0" cy="373.94117647058823" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 174.1764705882353 372 L 175.47058823529412 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 185.8235294117647 372 L 184.52941176470588 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 180.0 287.88235294117646 L 180.0 323.9882352941176" fill="none" stroke="#8C6A9E" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 167.7058823529412 288.52941176470586 L 192.2941176470588 288.52941176470586" fill="none" stroke="#8C6A9E" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 167.7058823529412 289.8235294117647 L 165.76470588235296 327.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="165.76470588235296" cy="329.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 192.2941176470588 289.8235294117647 L 197.47058823529412 268.4705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="198.1176470588235" cy="265.88235294117646" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 180.0 284.6470588235294 L 180.0 281.4117647058823" fill="none" stroke="#8D5A3B" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180.0" cy="273.0" r="9.705882352941178" fill="#8D5A3B"/>
+<path d="M 170.2941176470588 271.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 189.7058823529412 271.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="176.76470588235293" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="183.23529411764707" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 177.41176470588235 278.1764705882353 Q 180.0 279.47058823529414 182.58823529411765 278.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="280.0" cy="373.90588235294115" rx="13.976470588235294" ry="3.176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 274.2823529411765 372 L 275.5529411764706 322.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 285.7176470588235 372 L 284.4470588235294 322.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 280.0 289.41176470588226 L 280.0 324.86117647058825" fill="none" stroke="#1F4E5F" stroke-width="15.24705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 267.9294117647059 290.0470588235293 L 292.0705882352941 290.0470588235293" fill="none" stroke="#1F4E5F" stroke-width="8.258823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 267.9294117647059 291.3176470588234 L 266.02352941176474 328.6729411764706" fill="none" stroke="#1F4E5F" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="266.02352941176474" cy="330.57882352941175" r="3.176470588235294" fill="#E8C39E"/>
+<path d="M 292.0705882352941 291.3176470588234 L 293.97647058823526 328.6729411764706" fill="none" stroke="#1F4E5F" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="293.97647058823526" cy="330.57882352941175" r="3.176470588235294" fill="#E8C39E"/>
+<path d="M 280.0 286.23529411764696 L 280.0 283.0588235294117" fill="none" stroke="#E8C39E" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="280.0" cy="274.79999999999995" r="9.529411764705882" fill="#E8C39E"/>
+<path d="M 270.47058823529414 273.52941176470586 A 9.529411764705882 9.529411764705882 0 0 1 289.52941176470586 273.52941176470586" fill="none" stroke="#2A2320" stroke-width="4.447058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="276.8235294117647" cy="275.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<circle cx="283.1764705882353" cy="275.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<path d="M 277.45882352941175 279.8823529411764 Q 280.0 281.15294117647056 282.54117647058825 279.8823529411764" fill="none" stroke="#8A5A48" stroke-width="1.016470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="456.0" y1="372" x2="768.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="556.0" cy="373.94117647058823" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 550.1764705882352 372 L 551.4705882352941 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 561.8235294117648 372 L 560.5294117647059 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 556.0 287.88235294117646 L 556.0 323.9882352941176" fill="none" stroke="#1F4E5F" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 543.7058823529412 288.52941176470586 L 568.2941176470588 288.52941176470586" fill="none" stroke="#1F4E5F" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 543.7058823529412 289.8235294117647 L 541.7647058823529 327.8705882352941" fill="none" stroke="#1F4E5F" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="541.7647058823529" cy="329.81176470588235" r="3.235294117647059" fill="#E8C39E"/>
+<path d="M 568.2941176470588 289.8235294117647 L 585.1176470588235 286.5882352941176" fill="none" stroke="#1F4E5F" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="587.7058823529411" cy="285.94117647058823" r="3.235294117647059" fill="#E8C39E"/>
+<path d="M 556.0 284.6470588235294 L 556.0 281.4117647058823" fill="none" stroke="#E8C39E" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="556.0" cy="273.0" r="9.705882352941178" fill="#E8C39E"/>
+<path d="M 546.2941176470588 271.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 565.7058823529412 271.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="552.7647058823529" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="559.2352941176471" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 553.4117647058823 278.1764705882353 Q 556.0 279.47058823529414 558.5882352941177 278.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="656.0" cy="373.90588235294115" rx="13.976470588235294" ry="3.176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 650.2823529411764 372 L 651.5529411764705 322.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 661.7176470588236 372 L 660.4470588235295 322.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 656.0 289.41176470588226 L 656.0 324.86117647058825" fill="none" stroke="#8C6A9E" stroke-width="15.24705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 643.9294117647058 290.0470588235293 L 668.0705882352942 290.0470588235293" fill="none" stroke="#8C6A9E" stroke-width="8.258823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 643.9294117647058 291.3176470588234 L 642.0235294117647 328.6729411764706" fill="none" stroke="#8C6A9E" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="642.0235294117647" cy="330.57882352941175" r="3.176470588235294" fill="#8D5A3B"/>
+<path d="M 668.0705882352942 291.3176470588234 L 669.9764705882353 328.6729411764706" fill="none" stroke="#8C6A9E" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="669.9764705882353" cy="330.57882352941175" r="3.176470588235294" fill="#8D5A3B"/>
+<path d="M 656.0 286.23529411764696 L 656.0 283.0588235294117" fill="none" stroke="#8D5A3B" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="656.0" cy="274.79999999999995" r="9.529411764705882" fill="#8D5A3B"/>
+<path d="M 646.4705882352941 273.52941176470586 A 9.529411764705882 9.529411764705882 0 0 1 665.5294117647059 273.52941176470586" fill="none" stroke="#2A2320" stroke-width="4.447058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="652.8235294117648" cy="275.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<circle cx="659.1764705882352" cy="275.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<path d="M 653.4588235294118 279.8823529411764 Q 656.0 281.15294117647056 658.5411764705882 279.8823529411764" fill="none" stroke="#8A5A48" stroke-width="1.016470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="832.0" y1="372" x2="1144.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="932.0" cy="373.94117647058823" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 926.1764705882352 372 L 927.4705882352941 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 937.8235294117648 372 L 936.5294117647059 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 932.0 287.88235294117646 L 932.0 323.9882352941176" fill="none" stroke="#2E6F5E" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 919.7058823529412 288.52941176470586 L 944.2941176470588 288.52941176470586" fill="none" stroke="#2E6F5E" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 919.7058823529412 289.8235294117647 L 917.7647058823529 327.8705882352941" fill="none" stroke="#2E6F5E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="917.7647058823529" cy="329.81176470588235" r="3.235294117647059" fill="#F0D3B4"/>
+<path d="M 944.2941176470588 289.8235294117647 L 946.2352941176471 327.8705882352941" fill="none" stroke="#2E6F5E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="946.2352941176471" cy="329.81176470588235" r="3.235294117647059" fill="#F0D3B4"/>
+<path d="M 932.0 284.6470588235294 L 932.0 281.4117647058823" fill="none" stroke="#F0D3B4" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="932.0" cy="273.0" r="9.705882352941178" fill="#F0D3B4"/>
+<path d="M 922.2941176470588 271.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 941.7058823529412 271.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="928.7647058823529" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="935.2352941176471" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 929.4117647058823 278.1764705882353 Q 932.0 279.47058823529414 934.5882352941177 278.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1038.0 292 l 10 12 l 20 -26" fill="none" stroke="#2E6F5E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1208.0" y1="372" x2="1520.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="1324.0" y="264" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="1334.0" y1="278" x2="1382.0" y2="278" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1334.0" y1="292" x2="1382.0" y2="292" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1334.0" y1="306" x2="1382.0" y2="306" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1334.0" y1="320" x2="1382.0" y2="320" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1334.0" y1="334" x2="1382.0" y2="334" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<text x="1358.0" y="182" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">two sentences, written</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A meeting in four steps</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Ten minutes. One decision. Everybody speaks twice.</text>
+<text x="70.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;Shall we start?&quot;</text>
+<text x="446.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;Siti, what do you think?&quot;</text>
+<text x="822.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;Yes, let's do that.&quot;</text>
+<text x="1198.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;So - Tuesday. Agreed?&quot;</text>
+<line x1="60" y1="484" x2="1540" y2="484" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 6"/>
+<text x="60" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">0 min</text>
+<text x="1540" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="400" font-style="normal">10 min</text>
+</g>
+</svg>

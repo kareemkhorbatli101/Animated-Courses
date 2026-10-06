@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>Four answers to one question</title>
+<desc>A network of the things people mean by where are you from - birthplace, upbringing, papers, accent and belonging - with the links between them labelled.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="190" y1="400" x2="540" y2="230" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="190" y1="400" x2="540" y2="570" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="540" y1="230" x2="920" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="540" y1="570" x2="920" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="920" y1="400" x2="1300" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="540" y1="230" x2="1300" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="190" y1="400" x2="1300" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="190" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="190" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="190" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Born in</text>
+<text x="190" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one line on one paper</text>
+<circle cx="540" cy="230" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="540" y="235" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="540" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Brought up in</text>
+<text x="540" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">where the accent came from</text>
+<circle cx="540" cy="570" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="540" y="575" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="540" y="642" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The papers</text>
+<text x="540" y="662" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">passport, visa, citizen</text>
+<circle cx="920" cy="400" r="54" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="920" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="920" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Where you live</text>
+<text x="920" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and have for years</text>
+<circle cx="1300" cy="400" r="54" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1300" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1300" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Belong</text>
+<text x="1300" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and this one is not yours to decide</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four answers to one question</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five nodes. Nobody who is asked this question twice gets to use only one of them.</text>
+<rect x="307.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="365.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">often not the same place</text>
+<rect x="307.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="365.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sometimes decides them</text>
+<rect x="672.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="730.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">you moved away</text>
+<rect x="672.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="730.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">or you did not</text>
+<rect x="1052.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1110.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">after long enough</text>
+<rect x="862.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="920.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the accent, which people hear first</text>
+<rect x="687.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="745.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">&quot;but where are you REALLY from&quot;</text>
+</g>
+</svg>

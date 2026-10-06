@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560">
+<title>The slot you can delete</title>
+<desc>A passive sentence with brackets marking the thing, the action and the optional by-phrase that can be deleted.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="560" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="227.77777777777777" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The</text>
+<text x="363.3333333333333" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">sign</text>
+<text x="498.88888888888886" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">was</text>
+<text x="634.4444444444443" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">put</text>
+<text x="770.0" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">up</text>
+<text x="905.5555555555554" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">last</text>
+<text x="1041.111111111111" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">year</text>
+<text x="1176.6666666666665" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">by</text>
+<text x="1312.2222222222222" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Hafiz</text>
+<path d="M 166.0 314.0 L 166.0 328.0 L 425.1111111111111 328.0 L 425.1111111111111 314.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 437.1111111111111 314.0 L 437.1111111111111 328.0 L 1102.8888888888887 328.0 L 1102.8888888888887 314.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1114.8888888888887 368.0 L 1114.8888888888887 382.0 L 1374.0 382.0 L 1374.0 368.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The slot you can delete</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Every passive sentence has a by-slot. Most of the time it is empty on purpose.</text>
+<text x="295.55555555555554" y="352.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">the thing, promoted to first</text>
+<text x="769.9999999999999" y="352.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">be + past participle</text>
+<text x="1244.4444444444443" y="406.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">delete this and the sentence still works</text>
+</g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Your first morning</title>
+<desc>An experienced trader explaining the market to a newcomer, with speech bubbles naming who does what and where.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="650" rx="0" fill="#ECE9E2"/>
+<rect x="0" y="650" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="650" x2="1600" y2="650" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="680" y="592.5" width="225.0" height="87.5" rx="0" fill="#E4D7C3" stroke="#1C2B33" stroke-width="1.8"/>
+<polygon points="662.5,592.5 922.5,592.5 892.5,540.0 692.5,540.0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.8"/>
+<circle cx="717.5" cy="575.0" r="13.75" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="767.5" cy="575.0" r="13.75" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="817.5" cy="575.0" r="13.75" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="867.5" cy="575.0" r="13.75" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<rect x="1300" y="631.6" width="59.400000000000006" height="48.400000000000006" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1300" y1="651.4" x2="1359.4" y2="651.4" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="20_subject">
+<ellipse cx="470" cy="674.2705882352941" rx="31.317647058823532" ry="7.11764705882353" fill="#1C2B33" opacity="0.10"/>
+<path d="M 457.18823529411765 670 L 460.0352941176471 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 482.81176470588235 670 L 479.9647058823529 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 470.0 484.9411764705883 L 470 564.3741176470588" fill="none" stroke="#8C6A9E" stroke-width="34.16470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 442.9529411764706 486.364705882353 L 497.0470588235294 486.364705882353" fill="none" stroke="#8C6A9E" stroke-width="18.50588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 442.9529411764706 489.2117647058824 L 438.6823529411765 572.915294117647" fill="none" stroke="#8C6A9E" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="438.6823529411765" cy="577.1858823529411" r="7.11764705882353" fill="#8D5A3B"/>
+<path d="M 497.0470588235294 489.2117647058824 L 534.0588235294118 482.09411764705885" fill="none" stroke="#8C6A9E" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="539.7529411764706" cy="480.6705882352942" r="7.11764705882353" fill="#8D5A3B"/>
+<path d="M 470.0 477.82352941176475 L 470.0 470.7058823529412" fill="none" stroke="#8D5A3B" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="470.0" cy="452.20000000000005" r="21.35294117647059" fill="#8D5A3B"/>
+<path d="M 445.79999999999995 457.89411764705886 A 23.35294117647059 23.35294117647059 0 0 1 494.20000000000005 457.89411764705886 L 494.20000000000005 474.9764705882353 L 445.79999999999995 474.9764705882353 Z" fill="#6B7F8C" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="467.15294117647056" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<circle cx="481.38823529411764" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<path d="M 468.5764705882353 463.5882352941177 Q 474.2705882352941 466.4352941176471 479.9647058823529 463.5882352941177" fill="none" stroke="#8A5A48" stroke-width="2.2776470588235296" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="707.0117647058823" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Siti</text>
+<text x="470" y="732.635294117647" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">thirty-one years</text>
+<ellipse cx="980" cy="674.2" rx="30.799999999999997" ry="7.0" fill="#1C2B33" opacity="0.10"/>
+<path d="M 967.4 670 L 970.2 560.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 992.6 670 L 989.8 560.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 980.0 488.0 L 980 566.12" fill="none" stroke="#C86B2B" stroke-width="33.599999999999994" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 953.4 489.4 L 1006.6 489.4" fill="none" stroke="#C86B2B" stroke-width="18.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 953.4 492.2 L 949.1999999999999 574.52" fill="none" stroke="#C86B2B" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="949.1999999999999" cy="578.72" r="7.0" fill="#E8C39E"/>
+<path d="M 1006.6 492.2 L 1010.8000000000001 574.52" fill="none" stroke="#C86B2B" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1010.8000000000001" cy="578.72" r="7.0" fill="#E8C39E"/>
+<path d="M 980.0 481.0 L 980.0 474.0" fill="none" stroke="#E8C39E" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="980.0" cy="455.8" r="21.0" fill="#E8C39E"/>
+<path d="M 959.0 453.0 A 21.0 21.0 0 0 1 1001.0 453.0" fill="none" stroke="#2A2320" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="968.8" cy="457.2" r="2.52" fill="#2A2320"/>
+<circle cx="982.8" cy="457.2" r="2.52" fill="#2A2320"/>
+<path d="M 970.1999999999999 467.0 Q 975.8 469.8 981.4 467.0" fill="none" stroke="#8A5A48" stroke-width="2.2399999999999998" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="980" y="706.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Farah</text>
+<text x="980" y="731.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eleven months</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Your first morning</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them has worked here nine years. One of them starts today.</text>
+<rect x="305.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="377.6,199.2 430.4,199.2 470,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="379.6" y1="199.2" x2="428.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="470.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Mr Tan is the person who writes the rota.</text>
+<text x="470.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The office is the place where you report a broken light.</text>
+<rect x="815.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="887.6,179.6 940.4,179.6 980,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="889.6" y1="179.6" x2="938.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="980.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">And the van that brings the ice?</text>
+</g>
+</svg>

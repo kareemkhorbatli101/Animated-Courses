@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>What a device can see, and who gets it</title>
+<desc>A network from a phone and its sensors through the account and the settings to the company and its partners, with the partners shown as the unknown node.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="180" y1="400" x2="520" y2="230" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="180" y1="400" x2="520" y2="570" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="230" x2="900" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="570" x2="900" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="900" y1="400" x2="1290" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="180" y1="400" x2="1290" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="180" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="180" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="180" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The device</text>
+<text x="180" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">screen, camera, microphone</text>
+<circle cx="520" cy="230" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="520" y="235" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="520" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The settings</text>
+<text x="520" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what you turned off</text>
+<circle cx="520" cy="570" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="520" y="575" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="520" y="642" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The account</text>
+<text x="520" y="662" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">password, notifications</text>
+<circle cx="900" cy="400" r="54" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="900" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The company</text>
+<text x="900" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">keeps it, for a while</text>
+<circle cx="1290" cy="400" r="54" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="1290" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1290" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Who else?</text>
+<text x="1290" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the question nobody answers</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What a device can see, and who gets it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five nodes. The last one is the only one that is hard to find out.</text>
+<rect x="292.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">you can change this</text>
+<rect x="292.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and this</text>
+<rect x="652.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="710.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">what is left after you turn things off</text>
+<rect x="652.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="710.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">everything you signed up to</text>
+<rect x="1037.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1095.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">clause 11, in smaller type</text>
+<rect x="677.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="735.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and it never passes through a setting</text>
+</g>
+</svg>

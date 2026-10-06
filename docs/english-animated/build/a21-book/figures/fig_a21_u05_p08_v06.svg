@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>What the market takes, hour by hour</title>
+<desc>A bar chart of market takings by hour split between restaurant buyers and the public, showing restaurant trade concentrated before seven.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="420" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="570.0" x2="1350" y2="570.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="575.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0.0</text>
+<line x1="170" y1="465.0" x2="1350" y2="465.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="470.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2.5</text>
+<line x1="170" y1="360.0" x2="1350" y2="360.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="365.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">5.0</text>
+<line x1="170" y1="255.0" x2="1350" y2="255.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">7.5</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">10.0</text>
+</g>
+<g id="20_subject">
+<rect x="198.0952380952381" y="439.8" width="63.214285714285715" height="130.2" rx="0" fill="#1F4E5F"/>
+<rect x="394.7619047619047" y="385.2" width="63.214285714285715" height="184.8" rx="0" fill="#1F4E5F"/>
+<rect x="591.4285714285713" y="477.6" width="63.214285714285715" height="92.39999999999998" rx="0" fill="#1F4E5F"/>
+<rect x="788.0952380952381" y="553.2" width="63.214285714285715" height="16.799999999999955" rx="0" fill="#1F4E5F"/>
+<rect x="984.7619047619047" y="565.8" width="63.214285714285715" height="4.2000000000000455" rx="0" fill="#1F4E5F"/>
+<rect x="1181.4285714285713" y="570.0" width="63.214285714285715" height="0.0" rx="0" fill="#1F4E5F"/>
+<rect x="268.3333333333333" y="561.6" width="63.214285714285715" height="8.399999999999977" rx="0" fill="#D9A441"/>
+<rect x="464.99999999999994" y="544.8" width="63.214285714285715" height="25.200000000000045" rx="0" fill="#D9A441"/>
+<rect x="661.6666666666665" y="511.2" width="63.214285714285715" height="58.80000000000001" rx="0" fill="#D9A441"/>
+<rect x="858.3333333333333" y="448.2" width="63.214285714285715" height="121.80000000000001" rx="0" fill="#D9A441"/>
+<rect x="1055.0" y="418.8" width="63.214285714285715" height="151.2" rx="0" fill="#D9A441"/>
+<rect x="1251.6666666666665" y="469.2" width="63.214285714285715" height="100.80000000000001" rx="0" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What the market takes, hour by hour</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One Tuesday, counted at the gate. The buyers are not the same people all morning.</text>
+<rect x="1390" y="170" width="18" height="18" rx="0" fill="#1F4E5F"/>
+<text x="1416" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">restaurant buyers</text>
+<rect x="1390" y="204" width="18" height="18" rx="0" fill="#D9A441"/>
+<text x="1416" y="219" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the public</text>
+<text x="268.3333333333333" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">04-05</text>
+<text x="464.99999999999994" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">05-06</text>
+<text x="661.6666666666666" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">06-07</text>
+<text x="858.3333333333334" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">07-08</text>
+<text x="1055.0" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">08-09</text>
+<text x="1251.6666666666665" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">09-10</text>
+<rect x="170" y="630" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="655" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The 04-06 block is 7.5 of a 21.3 morning. A van costing 1,100 a month has to protect about a third of the day.</text>
+<text x="170" y="704.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Restaurant buying is nearly over by seven. Public buying has barely started. Those two facts</text>
+<text x="170" y="725.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">are what the slot change actually moves.</text>
+</g>
+</svg>

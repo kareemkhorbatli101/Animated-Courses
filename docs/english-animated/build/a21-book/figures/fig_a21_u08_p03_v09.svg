@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>One sign, four strengths</title>
+<desc>A branching diagram from a single rule into four levels of obligation: forbidden, no choice, expected but ignored, and free.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="360.0" r="12" fill="#1C2B33"/>
+<text x="160" y="402.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">the rule says...</text>
+</g>
+<g id="20_subject">
+<path d="M 160 360.0 C 440.6 360.0 440.6 160.0 721.2 160.0" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#A8372E"/>
+<path d="M 160 360.0 C 440.6 360.0 440.6 300.0 721.2 300.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,300.0 705.2,292.0 705.2,308.0" fill="#1F4E5F"/>
+<path d="M 160 360.0 C 440.6 360.0 440.6 440.0 721.2 440.0" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,440.0 705.2,432.0 705.2,448.0" fill="#C86B2B"/>
+<path d="M 160 360.0 C 440.6 360.0 440.6 580.0 721.2 580.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,580.0 705.2,572.0 705.2,588.0" fill="#2E6F5E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One sign, four strengths</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The sign says WASH YOUR HANDS. What it means depends entirely on who says it to you.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="start" font-weight="700" font-style="normal">FORBIDDEN</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">mustn't | not allowed to - the stall stops</text>
+<text x="739.2" y="292.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">NO CHOICE</text>
+<text x="739.2" y="318.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">have to | must - and there is nothing to discuss</text>
+<text x="739.2" y="432.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">EXPECTED, OFTEN IGNORED</text>
+<text x="739.2" y="458.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">be supposed to | be meant to | should | ought |</text>
+<text x="739.2" y="475.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">you'd better</text>
+<text x="739.2" y="572.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">FREE</text>
+<text x="739.2" y="598.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">don't have to | no need to | it's up to you</text>
+<rect x="160" y="624" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="648.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">mustn't and don't have to are not a pair. mustn't is forbidden; don't have to means you may</text>
+<text x="184" y="669.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">if you want.</text>
+</g>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The tag, and the indirect question</title>
+<desc>Two panels comparing a question tag, drawn as a short exchange, and an indirect question, drawn as a longer one.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="460" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">THE TAG</text>
+<rect x="820.0" y="130" width="720.0" height="460" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">THE INDIRECT QUESTION</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="542" x2="760.0" y2="542" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="260.0" cy="543.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 254.0705882352941 542 L 255.38823529411764 490.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 265.9294117647059 542 L 264.61176470588236 490.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 260.0 456.35294117647055 L 260.0 493.11529411764707" fill="none" stroke="#1F4E5F" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 247.48235294117646 457.01176470588234 L 272.5176470588235 457.01176470588234" fill="none" stroke="#1F4E5F" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 247.48235294117646 458.32941176470587 L 252.75294117647059 487.84470588235297" fill="none" stroke="#1F4E5F" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 272.5176470588235 458.32941176470587 L 267.2470588235294 487.84470588235297" fill="none" stroke="#1F4E5F" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="260.0" cy="487.84470588235297" r="3.623529411764706" fill="#C98E63"/>
+<path d="M 260.0 453.05882352941177 L 260.0 449.7647058823529" fill="none" stroke="#C98E63" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="260.0" cy="441.2" r="9.882352941176471" fill="#C98E63"/>
+<path d="M 250.11764705882354 439.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 269.88235294117646 439.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="256.70588235294116" cy="441.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="263.29411764705884" cy="441.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 257.36470588235295 446.4705882352941 Q 260.0 447.7882352941176 262.63529411764705 446.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="370.0" cy="543.9411764705883" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 364.1764705882353 542 L 365.47058823529414 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 375.8235294117647 542 L 374.52941176470586 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 370.0 457.88235294117646 L 370.0 493.9882352941176" fill="none" stroke="#8C6A9E" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 357.70588235294116 458.52941176470586 L 382.29411764705884 458.52941176470586" fill="none" stroke="#8C6A9E" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 357.70588235294116 459.8235294117647 L 355.7647058823529 497.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="355.7647058823529" cy="499.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 382.29411764705884 459.8235294117647 L 384.2352941176471 497.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="384.2352941176471" cy="499.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 370.0 454.6470588235294 L 370.0 451.4117647058823" fill="none" stroke="#8D5A3B" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="370.0" cy="443.0" r="9.705882352941178" fill="#8D5A3B"/>
+<path d="M 360.29411764705884 441.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 379.70588235294116 441.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="366.7647058823529" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="373.2352941176471" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 367.4117647058824 448.1764705882353 Q 370.0 449.47058823529414 372.5882352941176 448.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">&quot;...didn't you?&quot;  -  yes or no, in a second</text>
+<line x1="840.0" y1="542" x2="1520.0" y2="542" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="1020.0" cy="543.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1014.0705882352942 542 L 1015.3882352941176 490.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1025.929411764706 542 L 1024.6117647058823 490.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1020.0 456.35294117647055 L 1020.0 493.11529411764707" fill="none" stroke="#2E6F5E" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1007.4823529411765 457.01176470588234 L 1032.5176470588235 457.01176470588234" fill="none" stroke="#2E6F5E" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1007.4823529411765 458.32941176470587 L 1005.5058823529412 497.06823529411764" fill="none" stroke="#2E6F5E" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1005.5058823529412" cy="499.04470588235296" r="3.2941176470588234" fill="#F0D3B4"/>
+<path d="M 1032.5176470588235 458.32941176470587 L 1049.6470588235295 455.035294117647" fill="none" stroke="#2E6F5E" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1052.2823529411764" cy="454.37647058823524" r="3.2941176470588234" fill="#F0D3B4"/>
+<path d="M 1020.0 453.05882352941177 L 1020.0 449.7647058823529" fill="none" stroke="#F0D3B4" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1020.0" cy="441.2" r="9.882352941176471" fill="#F0D3B4"/>
+<path d="M 1010.1176470588235 439.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 1029.8823529411766 439.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1016.7058823529412" cy="441.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="1023.2941176470588" cy="441.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 1017.364705882353 446.4705882352941 Q 1020.0 447.7882352941176 1022.635294117647 446.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1140.0" cy="543.9411764705883" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1134.1764705882354 542 L 1135.4705882352941 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1145.8235294117646 542 L 1144.5294117647059 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1140.0 457.88235294117646 L 1140.0 493.9882352941176" fill="none" stroke="#C86B2B" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1127.7058823529412 458.52941176470586 L 1152.2941176470588 458.52941176470586" fill="none" stroke="#C86B2B" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1127.7058823529412 459.8235294117647 L 1125.764705882353 497.8705882352941" fill="none" stroke="#C86B2B" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1125.764705882353" cy="499.81176470588235" r="3.235294117647059" fill="#6B4229"/>
+<path d="M 1152.2941176470588 459.8235294117647 L 1154.235294117647 497.8705882352941" fill="none" stroke="#C86B2B" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1154.235294117647" cy="499.81176470588235" r="3.235294117647059" fill="#6B4229"/>
+<path d="M 1140.0 454.6470588235294 L 1140.0 451.4117647058823" fill="none" stroke="#6B4229" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1140.0" cy="443.0" r="9.705882352941178" fill="#6B4229"/>
+<path d="M 1130.2941176470588 441.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 1149.7058823529412 441.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1136.764705882353" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="1143.235294117647" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 1137.4117647058824 448.1764705882353 Q 1140.0 449.47058823529414 1142.5882352941176 448.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1196.0" y="434" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="1206.0" y1="448" x2="1254.0" y2="448" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1206.0" y1="462" x2="1254.0" y2="462" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1206.0" y1="476" x2="1254.0" y2="476" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1206.0" y1="490" x2="1254.0" y2="490" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1206.0" y1="504" x2="1254.0" y2="504" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<text x="1120.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">&quot;Could you tell me...?&quot;  -  and they explain</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The tag, and the indirect question</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them is quicker. The other gets a longer answer.</text>
+<text x="800.0" y="634" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which one would you use with somebody you have never met?</text>
+<text x="800.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">6 differences — find them all</text>
+</g>
+</svg>

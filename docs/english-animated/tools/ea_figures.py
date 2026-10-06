@@ -694,8 +694,8 @@ def v9_grammar(spec):
                         size=T_LABEL, anchor='middle', fill=INK_SOFT, style='italic'))
 
     if spec.get('rule'):
-        lab.append(rect(160, h - 92, W - 380, 54, fill=PAPER_DEEP, rx=6))
-        body, _ = wrap(180, h - 58, spec['rule'], size=T_LABEL, width=96, fill=INK, weight='500')
+        body, bh = wrap(184, h - 72, spec['rule'], size=T_LABEL, width=92, fill=INK, weight='500')
+        lab.append(rect(160, h - 96, W - 320, bh + 34, fill=PAPER_DEEP, rx=6))
         lab.append(body)
     head = figure_title(W, spec['title'], spec.get('sub'))
     return svg(W, h, [group('10_context', '\n'.join(ctx)),

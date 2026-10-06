@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>By hand, and by machine</title>
+<desc>Two panels comparing hand finishing and machine finishing, with the output rate and the visible difference in each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="460" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">BY HAND</text>
+<rect x="820.0" y="130" width="720.0" height="460" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">BY MACHINE, AT THE FACTORY</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="542" x2="760.0" y2="542" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="310.0" cy="544.2941176470588" rx="16.823529411764703" ry="3.8235294117647056" fill="#1C2B33" opacity="0.10"/>
+<path d="M 303.11764705882354 542 L 304.6470588235294 482.2" fill="none" stroke="#3A4A55" stroke-width="7.647058823529411" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 316.88235294117646 542 L 315.3529411764706 482.2" fill="none" stroke="#3A4A55" stroke-width="7.647058823529411" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 310.0 442.5882352941177 L 310.0 485.25882352941176" fill="none" stroke="#2E6F5E" stroke-width="18.352941176470587" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 295.47058823529414 443.3529411764706 L 324.52941176470586 443.3529411764706" fill="none" stroke="#2E6F5E" stroke-width="9.941176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 295.47058823529414 444.8823529411765 L 301.5882352941176 479.1411764705882" fill="none" stroke="#2E6F5E" stroke-width="6.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 324.52941176470586 444.8823529411765 L 318.4117647058824 479.1411764705882" fill="none" stroke="#2E6F5E" stroke-width="6.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="310.0" cy="479.1411764705882" r="4.205882352941176" fill="#6B4229"/>
+<path d="M 310.0 438.764705882353 L 310.0 434.9411764705883" fill="none" stroke="#6B4229" stroke-width="7.647058823529411" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="310.0" cy="425.0" r="11.470588235294116" fill="#6B4229"/>
+<path d="M 298.52941176470586 423.47058823529414 A 11.470588235294116 11.470588235294116 0 0 1 321.47058823529414 423.47058823529414" fill="none" stroke="#2A2320" stroke-width="5.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="306.1764705882353" cy="425.7647058823529" r="1.3764705882352941" fill="#2A2320"/>
+<circle cx="313.8235294117647" cy="425.7647058823529" r="1.3764705882352941" fill="#2A2320"/>
+<path d="M 306.94117647058823 431.11764705882354 Q 310.0 432.6470588235294 313.05882352941177 431.11764705882354" fill="none" stroke="#8A5A48" stroke-width="1.223529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">forty an hour, and you can see the marks</text>
+<line x1="840.0" y1="542" x2="1520.0" y2="542" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="930.0" y="452" width="180" height="90" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 1200.0 512 L 1260.0 512" fill="none" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1260.0,512 1248.0,505 1248.0,519" fill="#C86B2B"/>
+<text x="1120.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">four hundred an hour, all identical</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">By hand, and by machine</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same product, two methods, and two things the label will not tell you.</text>
+<text x="800.0" y="634" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which one does the label mention, and why that one?</text>
+<text x="800.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">6 differences — find them all</text>
+</g>
+</svg>
