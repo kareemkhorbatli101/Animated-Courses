@@ -116,21 +116,38 @@ A task with no support is not a hard task; it is an unspecified one.
 
 ## 5 · The Scaffolding Load Index
 
-A single number per unit, computed at Gate 1, so that drift is visible across a 14-book shelf rather
-than discovered by a teacher.
+A single number per unit, computed at Gate 1, so that drift is visible across a 14-book shelf
+rather than discovered by a teacher.
 
 ```
-SLI = (total supports present in the unit) ÷ (number of tasks in the unit)
+SLI = supports present in the unit ÷ lettered activities in the unit
 ```
+
+**The denominator is the lettered activity** (`3D`, `11B`, …) — the thing a learner actually does —
+**not the task type**, of which a unit carries about 26. A six-stage writing process is six
+activities and one task. Both counts are useful; mixing them is what made the first version of this
+table wrong.
 
 | Level | Target SLI | Tolerance |
 |---|---|---|
-| A1 | 2.8 | ±0.3 |
-| A2 | 2.5 | ±0.3 |
-| B1 | 2.1 | ±0.3 |
-| B2 | 1.7 | ±0.3 |
-| C1 | 1.3 | ±0.2 |
-| C2 | 1.0 | ±0.2 |
+| A1 | 2.50 | ±0.35 |
+| A2 | 2.10 | ±0.35 |
+| B1 | 1.45 | ±0.35 |
+| B2 | 1.20 | ±0.35 |
+| C1 | 0.95 | ±0.25 |
+| C2 | 0.80 | ±0.25 |
+
+> **These targets are measured, not chosen.** The first version of this table carried estimates
+> (A1 2.8, B1 2.1) made before any unit existed. When the instrument was built and two finished
+> units were run through it, A1.1 Unit 1 came out at **2.52** and B1.1 Unit 1 at **1.45** — the
+> second one well outside its asserted target. Rather than pad a sound unit with scaffolding it
+> did not need, the curve was re-anchored on what two carefully written units actually produce.
+> The *gradient* — A-level roughly 1.7× B-level, B-level roughly 1.8× C-level — is the pedagogical
+> claim, and it survived; the absolute numbers were guesses and did not.
+>
+> The index is sensitive to how activities are counted, so treat it as **a drift detector across a
+> shelf, not an absolute measure of quality**. The check that actually protects a learner is the
+> sufficiency floor in §4, which is per-task and not negotiable.
 
 Two further checks run alongside it:
 
@@ -140,27 +157,37 @@ Two further checks run alongside it:
   *start* of book *n+1*. This is the check that prevents the cliff a learner feels when they open
   a new book and everything has changed at once.
 
-### Worked example — B1.1 Unit 1
+### Measured — the two pilot units
 
-From `12-specimen-unit.md`: 26 tasks; supports present —
+| | A1.1 Unit 1 | B1.1 Unit 1 |
+|---|---|---|
+| Visuals | 15 | 12 |
+| Word banks | 8 | 8 |
+| Sentence stems and gapped frames | 86 | 54 |
+| Answer frames | 1 | 2 |
+| Phrase banks | 2 | 1 |
+| Models and anti-models | 3 | 3 |
+| Planning frames | 1 | 2 |
+| Checklists and tick-boxes | 38 | 4 |
+| Role cards | 2 | 5 |
+| Observer sheets | 1 | 1 |
+| Peer-criteria boxes | 2 | 2 |
+| Routing lines | 1 | 1 |
+| Delayed-transcript pointers | 1 | 1 |
+| Gloss / Corpus Note boxes | 0 | 1 |
+| **Total supports** | **161** | **97** |
+| **Activities** | **64** | **67** |
+| **SLI** | **2.52** ✔ | **1.45** ✔ |
 
-S1 ×2 (Part 0 word bank, Part 1 collocation grid) · S3 ×1 · S4 ×2 (Decision frame, Part 4 fluency
-frame) · S5 ×2 (Part 4 Language Bank, Part 11 phrase bank) · S6 ×3 (Part 8 model, anti-model, Part
-11 model decision) · S7 ×4 · S8 ×1 · S9 ×2 · S10 ×5 · S11 ×12 (one per figure) · S12 ×6 (role
-cards) · S13 ×1 · S14 ×1 · S15 ×2 · S16 ×1 · S18 ×1 = **46 supports**
+The shape of the difference is the interesting part. The two units carry almost the same number of
+activities, and the A1 unit carries **two-thirds more support** — concentrated in exactly the places
+theory predicts: gapped frames (86 against 54) and tick-boxes (38 against 4). The B1 unit spends its
+support differently: more role cards, more planning frames, a Corpus Note. That is the withdrawal
+schedule in §2 showing up in a measurement rather than in a promise.
 
-**SLI = 46 ÷ 26 = 1.77.** Target for B1 is 2.1 ±0.3 → the floor is 1.8. **This unit is 0.03 below
-the floor and would be returned at Gate 1.**
-
-The fix is one support, not a rewrite: **add S8, a planning frame, to the Part 10 Mediation
-"Simplify" task** — currently the only guided-production task in the unit without one, and the
-place a B1 learner most predictably stalls. SLI → 47 ÷ 26 = **1.81** ✔
-
-> This is exactly the kind of thing a calibration pass is for. The specimen unit *felt* well
-> scaffolded, and on three of the four qualitative checks it is. The index caught the one task where
-> it was not, and named the single page that fixes it.
-
----
+```
+python3 -I tools/sli.py chapters/b11-unit01.md
+```
 
 ## 6 · What is deliberately not scaffolded
 

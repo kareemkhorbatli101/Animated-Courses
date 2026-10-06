@@ -217,9 +217,10 @@ the inference task in `12-specimen-unit.md` Part 2.
 
 | | |
 |---|---|
-| Tasks per unit | ~26 (measured on the specimen unit: 26) |
+| Tasks per unit | ~26 **task-type instances** (a six-stage writing process is one task) |
+| Activities per unit | ~65 lettered activities (measured: A1.1 U1 = 64, B1.1 U1 = 67) |
 | Units | 140 |
-| **Total task instances** | **~3,640** |
+| **Total task instances** | **~3,640** (activities: ~9,100) |
 | Types available | 64 |
 | **Mean uses per type across the shelf** | **~57** |
 
@@ -271,6 +272,8 @@ is 4, and the other six units must reach for L3, L4, L5, L7, L8, L10 or L11 inst
 
 A unit's 26 tasks distribute roughly like this, and Gate 1 flags any family at zero outside its
 permitted levels:
+
+Counts below are **task-type instances**, not activities.
 
 | Family | Tasks/unit | Notes |
 |---|---|---|

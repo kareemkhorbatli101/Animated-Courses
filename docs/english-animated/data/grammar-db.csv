@@ -1,0 +1,173 @@
+structure,introduced_at,returns_at,return_count
+be-present,A1.1U1,A1.1U2 A1.2U4,2
+subject-pronouns,A1.1U1,,0
+pres-simple-aff,A1.1U2,A1.1U3 A1.1U8,2
+pres-simple-3rd,A1.1U3,A1.1U7 A2.1U4,2
+q-do-does,A1.1U3,A1.1U4 A2.1U10,2
+can-modal,A1.1U4,A1.1U5 A1.2U5 A1.2U7,3
+there-is-are,A1.1U5,A1.1U6 A1.1U9,2
+some-any,A1.1U5,A2.2U10,1
+countable-uncount,A1.1U6,A1.2U3 A2.2U9,2
+how-much-many,A1.1U6,,0
+adv-frequency,A1.1U7,,0
+like-ing,A1.1U7,A2.1U6,1
+pres-continuous,A1.1U8,A1.1U10 A1.2U6,2
+preps-place,A1.1U9,,0
+imperatives,A1.1U9,,0
+be-past,A1.1U10,,0
+past-simple-reg,A1.1U10,A1.2U1 A2.1U7,2
+past-simple-irreg,A1.2U1,A1.2U2 A2.1U2 A2.1U3 A2.2U3 A2.2U4,5
+past-simple-neg-q,A1.2U2,A1.2U8,1
+comparatives,A1.2U3,A1.2U10 B1.1U10,2
+possessive-s,A1.2U4,,0
+possessive-adj,A1.2U4,,0
+should-advice,A1.2U5,A2.1U8 A2.2U6,2
+will-future,A1.2U6,A1.2U9 A2.1U5 A2.2U7,3
+must-mustnt,A1.2U7,A2.1U8 B1.1U4,2
+have-to,A1.2U7,B1.1U4,1
+pres-perfect-exp,A1.2U8,A2.1U1,1
+going-to,A1.2U9,A2.2U7 B1.1U3,2
+pres-cont-future,A1.2U9,B1.1U3,1
+superlatives,A1.2U10,B1.1U10,1
+too-enough,A1.2U10,A2.1U9,1
+pres-perf-vs-past,A2.1U1,A2.2U2,1
+for-since,A2.1U1,,0
+past-continuous,A2.1U2,A2.1U3 A2.2U3,2
+while-when,A2.1U2,,0
+used-to,A2.1U3,B1.2U1,1
+rel-defining,A2.1U4,A2.2U8 B1.1U8,2
+conditional-1,A2.1U5,A2.2U1 B1.2U3 B1.3U4,3
+time-clauses,A2.1U5,,0
+gerund-infinitive,A2.1U6,B1.1U7 B1.2U7,2
+passive-simple,A2.1U7,B1.1U6,1
+be-allowed-to,A2.1U8,,0
+supposed-to,A2.1U8,,0
+so-such,A2.1U9,B1.3U3,1
+adv-manner,A2.1U9,,0
+q-tags,A2.1U10,B1.3U5,1
+indirect-q,A2.1U10,,0
+conditional-2,A2.2U1,B1.1U5 B1.2U2 B1.2U10,3
+pres-perfect-cont,A2.2U2,B1.1U2,1
+past-perfect,A2.2U3,B1.1U1 B1.2U3,2
+reported-statements,A2.2U4,A2.2U5 B1.1U9,2
+reported-q-commands,A2.2U5,,0
+deduction-present,A2.2U6,B1.2U4,1
+future-continuous,A2.2U7,B1.2U5,1
+rel-nondefining,A2.2U8,B1.1U8 B1.3U1,2
+quantifiers-of,A2.2U9,B1.2U9,1
+articles-system,A2.2U10,B1.2U8,1
+determiners,A2.2U10,,0
+narrative-tense-contrast,B1.1U1,B2.1U1,1
+pres-perf-simple-vs-cont,B1.1U2,B2.1U2,1
+future-four-way,B1.1U3,B2.1U4,1
+modality-obligation,B1.1U4,B2.2U5 B2.2U9,2
+modality-past,B1.1U4,,0
+conditional-0,B1.1U5,,0
+conditional-contrast,B1.1U5,B2.1U5,1
+passive-all-tenses,B1.1U6,B1.2U6 B1.3U7 B2.1U7 B2.2U2,4
+by-with,B1.1U6,,0
+verb-obj-infinitive,B1.1U7,B1.3U9,1
+verb-obj-gerund,B1.1U7,,0
+rel-reduced,B1.1U8,B1.3U2 B2.2U4,2
+rel-preposition,B1.1U8,,0
+reporting-verb-range,B1.1U9,B1.3U6,1
+degree-modifiers,B1.1U10,,0
+the-more-the,B1.1U10,,0
+be-used-to,B1.2U1,,0
+would-habitual,B1.2U1,,0
+conditional-3,B1.2U2,B1.2U10 B1.3U8,2
+conditional-mixed,B1.2U3,C1.1U4,1
+deduction-past,B1.2U4,B2.1U3,1
+future-perfect,B1.2U5,,0
+passive-modal,B1.2U6,,0
+causative-have,B1.2U6,,0
+verb-pattern-meaning,B1.2U7,,0
+articles-advanced,B1.2U8,C1.1U8,1
+quantifiers-advanced,B1.2U9,B2.3U7,1
+wish-if-only,B1.2U10,,0
+rel-of-which-whom,B1.3U1,,0
+participle-clauses,B1.3U2,B2.2U4,1
+contrast-although-despite,B1.3U3,B2.1U9 B2.2U6,2
+purpose-result,B1.3U4,,0
+cleft-it,B1.3U5,B1.3U10 B2.1U8,2
+cleft-what,B1.3U5,B2.1U6,1
+reporting-verb-patterns,B1.3U6,,0
+passive-reporting,B1.3U7,B2.2U8,1
+hypothetical-past-modals,B1.3U8,,0
+phrasal-verb-grammar,B1.3U9,B2.3U9,1
+inversion-negative-adv,B1.3U10,B2.1U10,1
+aspect-simple-vs-cont,B2.1U1,B2.2U10,1
+perfect-aspect-discourse,B2.1U2,,0
+modality-epistemic,B2.1U3,B2.2U1 C1.1U5,2
+future-in-past,B2.1U4,,0
+conditional-alternatives,B2.1U5,,0
+pseudo-cleft,B2.1U6,B2.2U7 C1.1U7,2
+info-focus,B2.1U6,,0
+nominalisation,B2.1U7,B2.2U3 B2.3U2,2
+ellipsis,B2.1U8,B2.3U8 C2.1U7,2
+substitution,B2.1U8,,0
+discourse-marker-system,B2.1U9,B2.3U3,1
+inversion-full,B2.1U10,B2.3U10 C1.1U7,2
+hedging,B2.2U1,B2.3U6 B2.3U10,2
+boosting,B2.2U1,,0
+passive-info-structure,B2.2U2,,0
+complex-noun-phrase,B2.2U3,C1.2U3,1
+formal-rel-participle,B2.2U4,C1.1U10,1
+subjunctive-formal,B2.2U5,B2.3U1,1
+concessive-while-albeit,B2.2U6,B2.3U5 C1.2U10,2
+fronting,B2.2U7,B2.3U4 C1.1U1,2
+end-weight,B2.2U7,C1.1U1,1
+attribution-distancing,B2.2U8,,0
+modal-remoteness-politeness,B2.2U9,,0
+aspect-narrative-grounding,B2.2U10,C1.1U9,1
+register-grammatical-choice,B2.3U1,C1.2U8 C2.1U10,2
+grammatical-metaphor,B2.3U2,C1.1U6 C1.2U4,2
+cohesion-reference,B2.3U3,C1.1U2,1
+thematic-progression,B2.3U4,,0
+argument-concession-counter,B2.3U5,C1.2U9,1
+stance-adverbs,B2.3U6,C1.1U3 C2.2U1,2
+vague-language,B2.3U7,C1.2U1,1
+spoken-grammar-heads-tails,B2.3U8,C2.1U7,1
+fixed-frames,B2.3U9,C1.2U2 C1.2U6,2
+irony-understatement-grammar,B2.3U10,C1.2U5,1
+theme-rheme,C1.1U1,C2.1U1,1
+given-new,C1.1U1,,0
+text-level-cohesion,C1.1U2,C1.2U7,1
+engagement-systems,C1.1U3,C2.1U5 C2.2U1,2
+counterfactual-complex,C1.1U4,,0
+modality-deontic-dynamic,C1.1U5,,0
+abstraction-in-argument,C1.1U6,C2.1U4 C2.2U8,2
+rhetorical-marked-order,C1.1U7,C2.1U3,1
+articles-abstract-reference,C1.1U8,,0
+aspect-and-genre,C1.1U9,,0
+multiple-subordination,C1.1U10,C2.1U2 C2.1U6,2
+precision-approximation,C1.2U1,,0
+delexical-light-verbs,C1.2U2,,0
+colligation,C1.2U3,C2.2U3,1
+metaphor-grammar,C1.2U4,,0
+litotes,C1.2U5,C2.2U6,1
+formula-violation,C1.2U6,C2.2U9,1
+editing-diagnosis,C1.2U7,C2.2U5,1
+register-switching-in-text,C1.2U8,,0
+persuasion-grammar,C1.2U9,C2.2U7,1
+refutation-frames,C1.2U10,C2.2U7,1
+prose-rhythm,C2.1U1,C2.1U9 C2.2U4,2
+periodic-loose,C2.1U2,,0
+parallelism-tricolon,C2.1U3,C2.1U9,1
+authority-distance,C2.1U4,C2.1U8,1
+solidarity-grammar,C2.1U5,,0
+scope-ambiguity,C2.1U6,,0
+compression-registers,C2.1U7,,0
+specialist-genre-syntax,C2.1U8,C2.2U2,1
+poetic-grammar,C2.1U9,,0
+englishes-variation,C2.1U10,C2.2U9,1
+voice-persona,C2.2U1,C2.2U10,1
+genre-transformation,C2.2U2,C2.2U10,1
+transfer-features,C2.2U3,,0
+spoken-essay-grammar,C2.2U4,,0
+audience-design,C2.2U5,,0
+implicature-misdirection,C2.2U6,,0
+sustained-argument,C2.2U7,,0
+expert-mediation,C2.2U8,,0
+style-deviation-cost,C2.2U9,,0
+final-synthesis,C2.2U10,,0

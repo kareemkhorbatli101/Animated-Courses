@@ -64,19 +64,23 @@ building's cat, who has a name tag and a task about it).
 
 | U | Domain | Unit Question | Outcome Task | File | The Decision (A1 scale) | Anchor figures |
 |---|---|---|---|---|---|---|
-| 1 | D1 | Who is in this room? | Introduce yourself and one other person | **CULTURE** · Register Map (hello) | Which greeting for which person — three situations | V1 the entrance hall · V7 three greetings · V9 *be* visual |
+| 1 | D1 | Who is in this room? | Introduce yourself and one other person | **WORK** · The Interview (the front desk) | Which greeting for which person — three situations | V1 the entrance hall · V7 three greetings · V9 *be* visual |
 | 2 | D4 | What does your body do all day? | Describe your day in 8 sentences | **STUDY** · Note Systems (simple) | Early start or late start — argue for one | V3 a day in six panels · V2 body cutaway · V10 /s/ /z/ /ɪz/ |
-| 3 | D7 | What is on your screen? | Compare screen habits with a partner, report back | **WORK** · The Inbox (3 messages) | Phone on or off in class | V5 a phone home screen · V6 simple bar chart · V4 two screens |
-| 4 | D10 | Who decides the rules here? | Write five rules for a place you know | **CULTURE** · Unwritten Rules | One rule to change in this building | V1 the stairwell with signs · V5 a notice board · V9 *can* ladder |
+| 3 | D7 | What is on your screen? | Compare screen habits with a partner, report back | **CULTURE** · Register Map (hello) | Phone on or off in class | V5 a phone home screen · V6 simple bar chart · V4 two screens |
+| 4 | D10 | Who decides the rules here? | Write five rules for a place you know | **WORK** · The Safety Brief | One rule to change in this building | V1 the stairwell with signs · V5 a notice board · V9 *can* ladder |
 | 5 | D3 | How do you learn a word? | Give a 1-minute tour of your learning space | **STUDY** · Source Check (which dictionary?) | Notebook or phone for new words | V1 the classroom · V8 a floor plan · V12 synthesis |
-| 6 | D6 | Where does breakfast come from? | Run a market stall: buy and sell | **WORK** · The Difficult Message (a wrong order) | Cheap and far, or dear and near | V1 the market · V5 a receipt · V2 a cutaway of a loaf |
-| 7 | D9 | What do you do for fun? | Recommend one free activity and say why | **CULTURE** · What's Funny Here? (simple) | Saturday: alone or with people | V4 two weekends · V6 a class survey · V7 invitation dialogue |
-| 8 | D2 | What is a job, really? | Interview someone about their job and report | **WORK** · The Meeting (two people) | Marco needs help on Saturdays. Who, and how? | V1 the café at 8am · V5 a job ad · V3 making coffee in five steps |
-| 9 | D5 | How do you find your way? | Direct a lost visitor from the station to the school | **STUDY** · Reading at Speed (a map) | Walk, bus or taxi — with reasons | V8 the neighbourhood map · V5 a transport ticket · V1 the street |
+| 6 | D6 | Where does breakfast come from? | Run a market stall: buy and sell | **CULTURE** · Hospitality and Obligation | Cheap and far, or dear and near | V1 the market · V5 a receipt · V2 a cutaway of a loaf |
+| 7 | D9 | What do you do for fun? | Recommend one free activity and say why | **WORK** · The Difficult Message (a wrong order) | Saturday: alone or with people | V4 two weekends · V6 a class survey · V7 invitation dialogue |
+| 8 | D2 | What is a job, really? | Interview someone about their job and report | **STUDY** · Reading at Speed (a job ad) | Marco needs help on Saturdays. Who, and how? | V1 the café at 8am · V5 a job ad · V3 making coffee in five steps |
+| 9 | D5 | How do you find your way? | Direct a lost visitor from the station to the school | **CULTURE** · Unwritten Rules (queueing) | Walk, bus or taxi — with reasons | V8 the neighbourhood map · V5 a transport ticket · V1 the street |
 | 10 | D8 | What is this worth? | Report what you bought, where, and what it cost | **WORK** · The Handover (a simple one) | Keep it, mend it, or replace it | V5 a price tag and a receipt · V4 new vs mended · V12 synthesis |
 
+**File placement.** A1.1 follows the canonical pattern in `15-rotation-maps.md` §2 —
+W S C W S C W S C W — so no File type falls in two consecutive units. An earlier draft of this
+table did not, and was corrected in calibration pass 3.
+
 **Note on A1 Decisions.** At A1 the Decision Task is real but small: two options, a visual, a
-four-line answer frame, and a model decision of 40 words. The cognitive move — *weigh, choose,
+four-line answer frame, and a model decision of 40–55 words. The cognitive move — *weigh, choose,
 justify* — is identical to B1; only the language is smaller. The corpus never attempts this below
 B1; there is no reason not to.
 

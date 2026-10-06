@@ -49,7 +49,28 @@ It is designed as a direct answer to three things in the brief:
 | **13** | [Scaffolding Spine](13-scaffolding-spine.md) | 18 supports, the withdrawal schedule, the sufficiency floor and the Scaffolding Load Index |
 | **14** | [Specimen Texts](14-specimen-texts.md) | 18 real specimens — reading, listening, writing models, speaking answers — measured against band |
 | **15** | [Rotation Maps](15-rotation-maps.md) | 36 File formats across 140 slots; genre, listening and task-variety rotations, with the arithmetic |
-| **16** | [Calibration Log](16-calibration-log.md) | **Pass 1: 24 findings, 21 fixed.** What drifted, what regressed, what was missing, and what is still unchecked |
+| **16** | [Calibration Log](16-calibration-log.md) | **Passes 1–3: 37 findings, 34 fixed.** What drifted, what regressed, what was missing, and what still cannot be checked |
+
+### The chapters
+
+| | File | What it is |
+|---|---|---|
+| ▶ | [**A1.1 Unit 1 · The Yellow Building**](chapters/a11-unit01.md) | The first unit of the first book, written in full. 15 figures, 35 active items, 22 pp |
+| ▶ | [**B1.1 Unit 1 · Ground Floor**](chapters/b11-unit01.md) | The pilot unit, written in full. 12 figures, 45 active items, 20 pp |
+
+### The data and the tools
+
+| File | What it holds |
+|---|---|
+| `data/structures.tsv` | all 140 units: the canonical structures each introduces and returns |
+| `data/lexis-source.tsv` | all 800 active items of A1.1 and B1.1, typed |
+| `data/grammar-db.csv` · `data/recycle-schedule.csv` · `data/lexis-db.csv` | generated |
+| `tools/grammar_db.py` | 172 structures, four laws |
+| `tools/recycle_schedule.py` | Part 12 grammar slots; the coverage law |
+| `tools/lexis_db.py` | count, composition, duplicates, the recycling law |
+| `tools/measure_specimens.py` | specimen text lengths and complexity |
+| `tools/check_chapter.py` | a written unit against figures, lexis, parts, line tags, rubrics |
+| `tools/sli.py` | scaffolding load against the level curve |
 
 **If you read three:** `02` (the architecture), `11` (what to build first), `12` (what it looks like
 on the page). **If you want to know whether it holds up:** `16` (the calibration log) and `14` (the
@@ -59,8 +80,7 @@ texts, measured).
 
 ## Calibration state
 
-Pass 1 complete — see `16`. 24 findings: 8 drift, 4 regression, 9 omission, 3 verified clean.
-All 21 defects fixed; three documents and one checking tool added.
+Three passes complete — see `16`. **37 findings, 34 fixed** (3 were checks that came back clean).
 
 | Check | State |
 |---|---|
@@ -71,7 +91,12 @@ All 21 defects fixed; three documents and one checking tool added.
 | 140-unit spine agrees with the domain matrix | **PASS** |
 | Figure distribution sums to the stated totals | **PASS** |
 | Specimen unit Scaffolding Load Index ≥ B1 floor | **PASS** — 1.81 against a floor of 1.8 |
-| Lexical database, grammar database, can-do inventory | **not yet built** — Phase 0, blocking (`16` §6) |
+| Grammar database — 172 structures, 4 laws | **PASS** — `tools/grammar_db.py --check` |
+| Every structure met ≥2× after it is introduced | **PASS** — 530 encounters, `tools/recycle_schedule.py` |
+| Lexical database — 800 items, composition + recycling | **PASS** — `tools/lexis_db.py --check` |
+| A1.1 Unit 1 and B1.1 Unit 1 against the full spec | **PASS** — `tools/check_chapter.py` |
+| Can-do inventory mapped to CEFR CV descriptors | **not yet built** — Phase 0 |
+| Figures drawn · audio recorded · classroom trial | **not yet** — Phase 1 (`16` §9) |
 
 ---
 
@@ -118,4 +143,6 @@ Part 0 is the opening spread; Parts 1–12 are the twelve parts proper.
 4. Confirm the **engine budget**: twelve 3D sets and four blocking engine items (`09` §6).
 5. Tell me any constraint not reflected here — market, licensing, page extent, regional requirement.
 
-On approval, the next deliverable is **B1.1 Unit 1, written complete** against `12`.
+**B1.1 Unit 1 and A1.1 Unit 1 are written.** Read those first — they are the thing to judge.
+On approval, the next deliverables are the remaining 18 units of the two pilot books, the figure
+briefs turned into artwork, and the can-do inventory.

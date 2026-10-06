@@ -309,7 +309,7 @@ from Part 2. The learner must integrate all three; no two of them agree.
 | Recycling | 4 + 2 | **4 from A2.2, 2 from A2.1** (Unit 1 rule) |
 | Rubric reuse | 0 | **0** |
 | Distractor reuse | 0 | **0** |
-| Scaffolding Load Index | 2.1 ±0.3 (B1) | **1.81** — at the floor after the Part 10 planning frame was added (`13-scaffolding-spine.md` §5) |
+| Scaffolding Load Index | 1.45 ±0.35 (B1) | **1.45** as written — see `chapters/b11-unit01.md` and `13-scaffolding-spine.md` §5 |
 | Reading genre | G1 feature (B1.1 U1, `15-rotation-maps.md` §3) | **feature article** ✔ |
 | Listening configuration | three speakers, one quiet (`15-rotation-maps.md` §4) | **Grace, Mr Kamau, Tom — Grace carries the inference task** ✔ |
 | File type | WORK (U1 of an A1–B2 book, `15-rotation-maps.md` §2) | **WORK · The Inbox** ✔ |

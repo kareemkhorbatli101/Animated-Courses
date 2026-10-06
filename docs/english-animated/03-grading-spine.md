@@ -159,22 +159,34 @@ B1 writing is a 150–200-word job.
 
 ## 6 · Grammar load
 
-| Book | New structures/book | Returning structures/book | Primary targets/unit | Exceptions taught | Metalanguage |
-|---|---|---|---|---|---|
-| A1.1 | 14 | 0 | 1 new | 0 | 6 terms |
-| A1.2 | 14 | 6 | 1 new + 1 return | 1 | 10 |
-| A2.1 | 15 | 8 | 1 + 1 | 2 | 14 |
-| A2.2 | 15 | 9 | 1 + 1 | 2 | 18 |
-| B1.1 | 16 | 10 | 1 + 1 | 3 | 22 |
-| B1.2 | 16 | 11 | 1 + 1 | 3 | 25 |
-| B1.3 | 16 | 12 | 1 + 1 | 3 | 28 |
-| B2.1 | 15 | 14 | 1 + 1 | 4 | 32 |
-| B2.2 | 15 | 15 | 1 + 1 | 4 | 35 |
-| B2.3 | 15 | 15 | 1 + 1 | 4 | 38 |
-| C1.1 | 12 | 18 | 1 + 1 | 5 | 42 |
-| C1.2 | 12 | 18 | 1 + 1 | 5 | 45 |
-| C2.1 | 10 | 20 | 1 + 1 | unrestricted | 48 |
-| C2.2 | 10 | 20 | 1 + 1 | unrestricted | 50 |
+| Book | New structures | G2 returns | Part 12 grammar recycle slots | Targets/unit |
+|---|---|---|---|---|
+| A1.1 | 17 | 9 | 17 | 1 + 1 |
+| A1.2 | 14 | 10 | 26 | 1 + 1 |
+| A2.1 | 16 | 12 | 28 | 1 + 1 |
+| A2.2 | 11 | 12 | 27 | 1 + 1 |
+| B1.1 | 16 | 14 | 27 | 1 + 1 |
+| B1.2 | 12 | 12 | 28 | 1 + 1 |
+| B1.3 | 11 | 10 | 27 | 1 + 1 |
+| B2.1 | 12 | 10 | 27 | 1 + 1 |
+| B2.2 | 12 | 11 | 28 | 1 + 1 |
+| B2.3 | 10 | 11 | 27 | 1 + 1 |
+| C1.1 | 11 | 12 | 28 | 1 + 1 |
+| C1.2 | 10 | 10 | 27 | 1 + 1 |
+| C2.1 | 10 | 12 | 27 | 1 + 1 |
+| C2.2 | 10 | 14 | 27 | 1 + 1 |
+| **Shelf** | **172** | **159** | **371** | |
+
+These are **measured from `data/structures.tsv`**, not estimated: that file names, for all 140
+units, the canonical structures each one introduces and returns. A unit's single G1 cell usually
+introduces two structures (A1.1 Unit 3 introduces the third-person *-s* and *do/does* questions
+together), which is why 140 units carry 172 structures.
+
+`tools/grammar_db.py` holds four laws over it — no structure introduced twice, no return before its
+introduction, no return in its own unit, and level-banded spacing between encounters (1 unit at A,
+3 at B, 4 at C). `tools/recycle_schedule.py` fills the Part 12 grammar slots so that **every
+structure is met at least twice after the unit that introduces it**, which 159 G2 slots alone
+cannot do for 172 structures. Both run as gates.
 
 New-structure count *falls* after B2.1. At C-level the work is not acquiring forms but choosing
 between forms the learner already has, in discourse. That is why C-level units carry fewer new
