@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660">
+<title>Forwards, and backwards</title>
+<desc>Two parallel sentences compared, one telling two events in the order they happened and one telling them in reverse with the past perfect.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="489.625" height="52" rx="5" fill="#C86B2B"/>
+<text x="404.8125" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">He moved the car.</text>
+<rect x="655.625" y="144" width="222.75" height="52" rx="5" fill="#1F4E5F"/>
+<text x="767.0" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">Then</text>
+<rect x="884.375" y="144" width="489.625" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1129.1875" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">it flooded. (no had)</text>
+<rect x="160" y="344" width="379.2631578947369" height="52" rx="5" fill="#2E6F5E"/>
+<text x="349.63157894736844" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">It flooded.</text>
+<rect x="545.2631578947369" y="344" width="507.68421052631584" height="52" rx="5" fill="#1F4E5F"/>
+<text x="799.1052631578948" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">He HAD moved the car</text>
+<rect x="1058.9473684210527" y="344" width="315.0526315789474" height="52" rx="5" fill="#C86B2B"/>
+<text x="1216.4736842105265" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">two days earlier.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Forwards, and backwards</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same two events, told in two directions. Only one of them needs had.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">ACTIVE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">PASSIVE</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same event, different first word</text>
+<rect x="160" y="564" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="588.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The words that invite the past perfect: by the time, already, before, until, once,</text>
+<text x="184" y="609.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">previously, the night before, up to that point.</text>
+</g>
+</svg>

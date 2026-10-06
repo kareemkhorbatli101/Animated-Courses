@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>What an inquiry is actually asking</title>
+<desc>A network from the event through what was known, who was told, who decided and the finding of the inquiry, with the gap between knowing and telling marked.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="520" y1="230" x2="520" y2="570" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="230" x2="180" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="520" y1="570" x2="900" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="180" y1="400" x2="900" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="900" y1="400" x2="1290" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="230" x2="1290" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="180" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="180" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="180" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">What happened</text>
+<text x="180" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the water, at 22.40</text>
+<circle cx="520" cy="230" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="520" y="235" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="520" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">What was known</text>
+<text x="520" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the forecast, at 13.40</text>
+<circle cx="520" cy="570" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="520" y="575" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="520" y="642" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Who was told</text>
+<text x="520" y="662" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">four people</text>
+<circle cx="900" cy="400" r="54" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="900" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Who decided</text>
+<text x="900" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and with what in front of them</text>
+<circle cx="1290" cy="400" r="54" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1290" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1290" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The finding</text>
+<text x="1290" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eleven pages on a drain</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What an inquiry is actually asking</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five nodes. Only one of them is about what happened; the rest are about what was known.</text>
+<rect x="462.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="520.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">nine hours, and four doors</text>
+<rect x="292.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and nobody connected the two</text>
+<rect x="652.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="710.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">two laughed, one said nothing</text>
+<rect x="482.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="540.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">by then it was already running</text>
+<rect x="1037.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1095.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">eight months and eleven pages</text>
+<rect x="847.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="905.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the chain failed at the council, not in the town</text>
+</g>
+</svg>

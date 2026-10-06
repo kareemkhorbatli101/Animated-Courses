@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Eight months of it</title>
+<desc>A hall manager and a contractor on a site, with speech bubbles contrasting the perfect simple and the perfect continuous.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="650" rx="0" fill="#E9ECEC"/>
+<rect x="0" y="650" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="650" x2="1600" y2="650" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<line x1="1180" y1="680" x2="1342.0" y2="680" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1180" y1="610" x2="1342.0" y2="610" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1180" y1="540" x2="1342.0" y2="540" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1180" y1="470" x2="1342.0" y2="470" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1180" y1="680" x2="1180" y2="410.0" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1250" y1="680" x2="1250" y2="410.0" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1320" y1="680" x2="1320" y2="410.0" stroke="#9A8F7E" stroke-width="4" stroke-linecap="round"/>
+<rect x="700" y="627.2" width="64.8" height="52.8" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="700" y1="648.8" x2="764.8" y2="648.8" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="20_subject">
+<ellipse cx="470" cy="674.2705882352941" rx="31.317647058823532" ry="7.11764705882353" fill="#1C2B33" opacity="0.10"/>
+<path d="M 457.18823529411765 670 L 460.0352941176471 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 482.81176470588235 670 L 479.9647058823529 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 470.0 484.9411764705883 L 470 564.3741176470588" fill="none" stroke="#2E6F5E" stroke-width="34.16470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 442.9529411764706 486.364705882353 L 497.0470588235294 486.364705882353" fill="none" stroke="#2E6F5E" stroke-width="18.50588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 442.9529411764706 489.2117647058824 L 438.6823529411765 572.915294117647" fill="none" stroke="#2E6F5E" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="438.6823529411765" cy="577.1858823529411" r="7.11764705882353" fill="#E8C39E"/>
+<path d="M 497.0470588235294 489.2117647058824 L 534.0588235294118 482.09411764705885" fill="none" stroke="#2E6F5E" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="539.7529411764706" cy="480.6705882352942" r="7.11764705882353" fill="#E8C39E"/>
+<path d="M 470.0 477.82352941176475 L 470.0 470.7058823529412" fill="none" stroke="#E8C39E" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="470.0" cy="452.20000000000005" r="21.35294117647059" fill="#E8C39E"/>
+<path d="M 448.6470588235294 449.3529411764706 A 21.35294117647059 21.35294117647059 0 0 1 491.3529411764706 449.3529411764706" fill="none" stroke="#2A2320" stroke-width="9.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="498.47058823529414" cy="447.92941176470595" r="9.964705882352941" fill="#2A2320" stroke="none" stroke-width="1.5"/>
+<circle cx="467.15294117647056" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<circle cx="481.38823529411764" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<path d="M 468.5764705882353 463.5882352941177 Q 474.2705882352941 466.4352941176471 479.9647058823529 463.5882352941177" fill="none" stroke="#8A5A48" stroke-width="2.2776470588235296" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="707.0117647058823" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Sinead</text>
+<text x="470" y="732.635294117647" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">runs the hall</text>
+<ellipse cx="950" cy="674.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 937.2941176470588 670 L 940.1176470588235 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 962.7058823529412 670 L 959.8823529411765 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950.0 486.47058823529414 L 950 565.2470588235294" fill="none" stroke="#1F4E5F" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 923.1764705882352 487.8823529411765 L 976.8235294117648 487.8823529411765" fill="none" stroke="#1F4E5F" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 923.1764705882352 492.11764705882354 L 968.3529411764706 517.5294117647059" fill="none" stroke="#1F4E5F" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="971.1764705882352" cy="518.9411764705883" r="7.058823529411765" fill="#C98E63"/>
+<path d="M 976.8235294117648 492.11764705882354 L 931.6470588235294 523.1764705882354" fill="none" stroke="#1F4E5F" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="928.8235294117648" cy="524.5882352941177" r="7.058823529411765" fill="#C98E63"/>
+<path d="M 950.0 479.4117647058824 L 950.0 472.3529411764706" fill="none" stroke="#C98E63" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="950.0" cy="454.0" r="21.176470588235297" fill="#C98E63"/>
+<path d="M 927.4117647058824 452.5882352941176 A 22.176470588235297 22.176470588235297 0 0 1 972.5882352941176 452.5882352941176 Z" fill="#30555F" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950.0 452.5882352941176 L 913.2941176470588 451.1764705882353 L 916.1176470588235 456.8235294117647 L 950.0 456.8235294117647 Z" fill="#26454E" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="938.7058823529412" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="952.8235294117646" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 940.1176470588235 465.29411764705884 Q 945.7647058823529 468.11764705882354 951.4117647058823 465.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="950" y="706.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the contractor</text>
+<text x="950" y="732.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">four sites</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Eight months of it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them has been phoning. One of them has four other sites.</text>
+<rect x="305.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="377.6,199.2 430.4,199.2 470,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="379.6" y1="199.2" x2="428.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="470.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I've phoned him four times.</text>
+<text x="470.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I've been phoning him all week.</text>
+<rect x="785.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="857.6,199.2 910.4,199.2 950,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="859.6" y1="199.2" x2="908.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="950.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">We've done the roof.</text>
+<text x="950.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">We've been doing the roof since June.</text>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660">
+<title>The result, and the activity</title>
+<desc>Two parallel sentences compared, one present perfect simple with a number and one present perfect continuous with a duration.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="332.88888888888886" height="52" rx="5" fill="#C86B2B"/>
+<text x="326.44444444444446" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">We</text>
+<rect x="498.88888888888886" y="144" width="434.55555555555554" height="52" rx="5" fill="#1F4E5F"/>
+<text x="716.1666666666666" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">'ve done</text>
+<rect x="939.4444444444443" y="144" width="434.55555555555554" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1156.7222222222222" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the roof - HOW MANY</text>
+<rect x="160" y="344" width="284.4761904761905" height="52" rx="5" fill="#C86B2B"/>
+<text x="302.23809523809524" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">We</text>
+<rect x="450.4761904761905" y="344" width="458.76190476190476" height="52" rx="5" fill="#1F4E5F"/>
+<text x="679.8571428571429" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">'ve been doing</text>
+<rect x="915.2380952380952" y="344" width="458.76190476190476" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1144.6190476190475" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the roof since June - HOW LONG</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The result, and the activity</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Same eight months. One form counts what is done; the other measures how long.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">ACTIVE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">PASSIVE</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same event, different first word</text>
+<rect x="160" y="564" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="588.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">How many? takes the simple. How long? takes the continuous. The continuous dislikes numbers:</text>
+<text x="184" y="609.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">I have been phoning him four times does not work.</text>
+</g>
+</svg>

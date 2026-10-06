@@ -30,6 +30,9 @@ def v1_scene(spec):
     ctx, sub, det, lab = [], [], [], []
     ctx.append(rect(0, 0, W, gl, fill=sky))
     SH = spec.get('storey_h', 118)
+    # Building labels sit on the sky, so they take their colour from it.
+    _lum = sum(int(sky.lstrip('#')[i:i+2], 16) for i in (0, 2, 4)) / 3
+    _sky_ink = PRIMARY if _lum > 120 else '#E3EAEC'
 
     # A distant skyline behind everything, so the sky is never a blank slab.
     # Deterministic from the title, so a figure looks the same on every build.
@@ -78,7 +81,7 @@ def v1_scene(spec):
                     ctx.append(rect(wx, wy, 32, 46, fill='#9FB4BD', stroke=INK, sw=1, opacity=.9))
         if b.get('label'):
             lab.append(text(x + bw / 2, top - 24, b['label'], size=T_LABEL,
-                            anchor='middle', weight='600', fill=PRIMARY))
+                            anchor='middle', weight='600', fill=_sky_ink))
 
     for p in spec.get('props', []):
         sub.append(_prop(p))
@@ -99,11 +102,14 @@ def v1_scene(spec):
         det.append(circle(m['x'], m['y'], 16, fill=WHITE, stroke=ACCENT, sw=2.6, opacity=.96))
         det.append(text(m['x'], m['y'] + 5, str(i), size=T_MICRO, anchor='middle',
                         weight='700', fill=ACCENT))
+    # A scrim behind the header and the label band, so a V1 set at night still reads.
+    scrim = (rect(0, 0, W, 118, fill=PAPER, opacity=.82)
+             + '\n' + rect(0, gl + 2, W, band - 2, fill=PAPER, opacity=.78))
     head = figure_title(W, spec['title'], spec.get('sub'))
     return svg(W, h, [group('10_context', '\n'.join(ctx)),
                       group('20_subject', '\n'.join(sub)),
                       group('30_detail', '\n'.join(det)),
-                      group('40_callouts', head + '\n' + '\n'.join(lab))],
+                      group('40_callouts', scrim + '\n' + head + '\n' + '\n'.join(lab))],
                title=spec['title'], desc=spec.get('alt', ''))
 
 
