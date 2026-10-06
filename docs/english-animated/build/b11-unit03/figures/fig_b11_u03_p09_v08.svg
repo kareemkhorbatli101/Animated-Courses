@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>What happens to a name when it crosses</title>
+<desc>A network showing four transformations of names between writing systems and languages, labelled translate, transliterate, respell and keep.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="230" y1="400" x2="760" y2="150" stroke="#A8372E" stroke-width="3" stroke-linecap="round"/>
+<line x1="230" y1="400" x2="760" y2="350" stroke="#C86B2B" stroke-width="4" stroke-linecap="round"/>
+<line x1="230" y1="400" x2="760" y2="550" stroke="#D9A441" stroke-width="3" stroke-linecap="round"/>
+<line x1="230" y1="400" x2="760" y2="720" stroke="#2E6F5E" stroke-width="4" stroke-linecap="round"/>
+<line x1="760" y1="150" x2="1330" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="760" y1="350" x2="1330" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="760" y1="550" x2="1330" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="760" y1="720" x2="1330" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+</g>
+<g id="20_subject">
+<circle cx="230" cy="400" r="56" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="230" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">name</text>
+<text x="230" y="482" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The name as given</text>
+<text x="230" y="502" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">in its own language</text>
+<circle cx="760" cy="150" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="760" y="155" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">→</text>
+<text x="760" y="222" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Translated</text>
+<text x="760" y="242" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Giuseppe → Joseph</text>
+<circle cx="760" cy="350" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="760" y="355" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">≈</text>
+<text x="760" y="422" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Transliterated</text>
+<text x="760" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">محمد → Mohamed</text>
+<circle cx="760" cy="550" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="760" y="555" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">~</text>
+<text x="760" y="622" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Respelled for sound</text>
+<text x="760" y="642" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Siobhán → Shivawn</text>
+<circle cx="760" cy="720" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="760" y="725" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">=</text>
+<text x="760" y="792" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Kept</text>
+<text x="760" y="812" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Nguyễn → Nguyen</text>
+<circle cx="1330" cy="400" r="58" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1330" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">?</text>
+<text x="1330" y="484" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Who decided?</text>
+<text x="1330" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the person, or the system</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What happens to a name when it crosses</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four routes. Only one of them is a decision the person made.</text>
+<rect x="437.0" y="260.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="495.0" y="279.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">meaning carried</text>
+<rect x="437.0" y="360.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="495.0" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sound carried</text>
+<rect x="437.0" y="460.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="495.0" y="479.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sound guessed</text>
+<rect x="437.0" y="545.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="495.0" y="564.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">marks dropped</text>
+<rect x="987.0" y="460.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1045.0" y="479.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">usually the system</text>
+<rect x="987.0" y="545.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1045.0" y="564.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">usually the person</text>
+</g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<title>The registration form everybody fills in once</title>
+<desc>A registration form with separate boxes for legal name, family name, given name, preferred name, name as it appears on documents, and how to say it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="980" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="770" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="770" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">JENGO HOUSE · TENANT REGISTRATION</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SECTION 1 — IDENTITY</text>
+<line x1="130" y1="258" x2="910" y2="258" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="280" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Legal name (as on passport)</text>
+<text x="410" y="280" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<text x="140" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">FAMILY NAME (block capitals)</text>
+<text x="410" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<text x="140" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Given name(s)</text>
+<text x="410" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<text x="140" y="376" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Initials</text>
+<text x="410" y="376" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______</text>
+<text x="140" y="408" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Preferred name / what you go by</text>
+<text x="410" y="408" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<text x="140" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">How should we say it?</text>
+<text x="410" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<line x1="130" y1="472" x2="910" y2="472" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="508" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SECTION 2 — STATUS</text>
+<text x="140" y="538" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Citizenship</text>
+<text x="410" y="538" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<text x="140" y="570" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Residence status</text>
+<text x="410" y="570" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">[ ] citizen  [ ] resident  [ ] visa  [ ] other</text>
+<text x="140" y="602" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Proof of address enclosed</text>
+<text x="410" y="602" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">[ ] yes   [ ] to follow</text>
+<line x1="130" y1="634" x2="910" y2="634" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="656.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">The name in Section 1 line 1 will appear on your lease, your invoices and your payment</text>
+<text x="140" y="673.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">reference and can only be changed on production of a document. The preferred name will</text>
+<text x="140" y="690.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">appear on your door plate, in the directory and on your lanyard and may be changed at</text>
+<text x="140" y="708.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">any time by email. Where the two differ, correspondence will use line 1.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The registration form everybody fills in once</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six boxes for a name. They do not all want the same thing.</text>
+<circle cx="934" cy="289.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 289.4 L 1024 289.4 L 1024 289.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="294.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The one that goes on everything</text>
+<text x="1040" y="314.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">official</text>
+<circle cx="934" cy="343.29999999999995" r="4.5" fill="#C86B2B"/>
+<path d="M 934 343.29999999999995 L 1024 343.29999999999995 L 1024 343.29999999999995" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="348.29999999999995" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Block capitals — because systems</text>
+<text x="1040" y="368.59999999999997" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">lose the order</text>
+<circle cx="934" cy="435.7" r="4.5" fill="#C86B2B"/>
+<path d="M 934 435.7 L 1024 435.7 L 1024 435.7" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="440.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The only box you control</text>
+<text x="1040" y="461.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">afterwards</text>
+<circle cx="934" cy="481.9" r="4.5" fill="#C86B2B"/>
+<path d="M 934 481.9 L 1024 481.9 L 1024 481.9" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="486.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Almost no form asks this. This one</text>
+<text x="1040" y="507.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">does</text>
+<circle cx="934" cy="597.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 597.4 L 1024 597.4 L 1024 597.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="602.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four options, and &quot;other&quot; is a</text>
+<text x="1040" y="622.6999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">text field</text>
+<circle cx="934" cy="797.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 797.6 L 1024 797.6 L 1024 797.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="802.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Read this line. It is the whole</text>
+<text x="1040" y="822.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">unit</text>
+</g>
+</svg>

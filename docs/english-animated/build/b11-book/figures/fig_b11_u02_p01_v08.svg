@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>One jacket: who touches it, and who is paid when</title>
+<desc>A network diagram of six nodes from cloth mill to customer, with payment timing on each edge.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="300" x2="520" y2="220" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="220" x2="820" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="820" y1="400" x2="560" y2="600" stroke="#2E6F5E" stroke-width="4" stroke-linecap="round"/>
+<line x1="820" y1="400" x2="1180" y2="280" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="1180" y1="280" x2="1420" y2="560" stroke="#8C6A9E" stroke-width="6" stroke-linecap="round"/>
+<line x1="1180" y1="280" x2="820" y2="400" stroke="#A8372E" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+</g>
+<g id="20_subject">
+<circle cx="200" cy="300" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="200" y="305" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">mill</text>
+<text x="200" y="372" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Cloth mill</text>
+<text x="200" y="392" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">paid on order</text>
+<circle cx="520" cy="220" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="520" y="225" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">w/sale</text>
+<text x="520" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Wholesaler</text>
+<text x="520" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">paid in 30 days</text>
+<circle cx="820" cy="400" r="58" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="820" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">M</text>
+<text x="820" y="484" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Mariam</text>
+<text x="820" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">paid on delivery</text>
+<circle cx="560" cy="600" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="560" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">×4</text>
+<text x="560" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Four machinists</text>
+<text x="560" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">paid weekly</text>
+<circle cx="1180" cy="280" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1180" y="285" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">buyer</text>
+<text x="1180" y="352" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The buyer</text>
+<text x="1180" y="372" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">pays in 60 days</text>
+<circle cx="1420" cy="560" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1420" y="565" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">£</text>
+<text x="1420" y="632" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The customer</text>
+<text x="1420" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">pays at once</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One jacket: who touches it, and who is paid when</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each arrow is money moving. The thickness is roughly what moves.</text>
+<rect x="302.0" y="245.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="360.0" y="264.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">cloth</text>
+<rect x="612.0" y="295.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="670.0" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">1,420 up front</text>
+<rect x="632.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="690.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">weekly, whatever happens</text>
+<rect x="942.0" y="325.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1000.0" y="344.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">forty jackets</text>
+<rect x="1242.0" y="405.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1300.0" y="424.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">retail, ×2.4</text>
+<rect x="942.0" y="325.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1000.0" y="344.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">paid 60 days later</text>
+</g>
+</svg>

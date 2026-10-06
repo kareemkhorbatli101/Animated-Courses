@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>Where 4,800 actually goes</title>
+<desc>A waterfall chart breaking a 4,800 selling price into cloth, trims, lining, labour, overheads and the remaining margin.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="400" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="550.0" x2="1350" y2="550.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="555.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="450.0" x2="1350" y2="450.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="455.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">1,300</text>
+<line x1="170" y1="350.0" x2="1350" y2="350.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="355.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2,600</text>
+<line x1="170" y1="250.0" x2="1350" y2="250.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="255.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">3,900</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">5,200</text>
+</g>
+<g id="20_subject">
+<rect x="200.34285714285716" y="180.76923076923077" width="107.8857142857143" height="369.2307692307692" rx="0" fill="#1F4E5F"/>
+<text x="254.2857142857143" y="170.76923076923077" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">4,800</text>
+<rect x="368.9142857142857" y="180.76923076923077" width="107.8857142857143" height="100.15384615384613" rx="0" fill="#A8372E"/>
+<text x="422.8571428571429" y="170.76923076923077" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-1,302</text>
+<rect x="537.4857142857143" y="280.9230769230769" width="107.8857142857143" height="23.846153846153868" rx="0" fill="#A8372E"/>
+<text x="591.4285714285714" y="270.9230769230769" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-310</text>
+<rect x="706.0571428571429" y="304.7692307692308" width="107.8857142857143" height="9.076923076923038" rx="0" fill="#A8372E"/>
+<text x="760.0000000000001" y="294.7692307692308" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-118</text>
+<rect x="874.6285714285715" y="313.8461538461538" width="107.8857142857143" height="126.92307692307696" rx="0" fill="#A8372E"/>
+<text x="928.5714285714287" y="303.8461538461538" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-1,650</text>
+<rect x="1043.2" y="440.7692307692308" width="107.8857142857143" height="26.153846153846132" rx="0" fill="#A8372E"/>
+<text x="1097.142857142857" y="430.7692307692308" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-340</text>
+<rect x="1211.7714285714287" y="466.9230769230769" width="107.8857142857143" height="83.0769230769231" rx="0" fill="#1F4E5F"/>
+<text x="1265.7142857142858" y="456.9230769230769" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1,080</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Where 4,800 actually goes</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Check this against the number you wrote down in Part 0B.</text>
+<text x="254.28571428571428" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">selling price</text>
+<text x="422.85714285714283" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">cloth</text>
+<text x="591.4285714285714" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">trims</text>
+<text x="760.0000000000001" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">lining</text>
+<text x="928.5714285714287" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">labour</text>
+<text x="1097.142857142857" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">overheads</text>
+<text x="1265.7142857142858" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what is left</text>
+<rect x="170" y="610" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="635" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Eleven hours of sampling are not on this chart, because nobody paid for them.</text>
+<text x="170" y="684.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Labour is the largest single line and the first one a buyer asks to reduce. Cloth is the</text>
+<text x="170" y="705.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">largest they never mention, because it is the only one with a public price.</text>
+</g>
+</svg>

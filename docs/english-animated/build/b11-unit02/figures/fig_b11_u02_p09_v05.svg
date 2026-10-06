@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<title>Three sources, one claim</title>
+<desc>Three summarised sources making the same claim, with publisher, funder, sample and method.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="980" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="770" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="770" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">THE SAME CLAIM, THREE TIMES</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">A — Industry newsletter, March 2026</text>
+<text x="140" y="258.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Independent workshops come in 8–12% below factory pricing on</text>
+<text x="140" y="279.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">comparable garments.&quot; No method stated. No sample size. Links to</text>
+<text x="140" y="301.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a press release.</text>
+<text x="140" y="337.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Published by</text>
+<text x="410" y="337.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a trade newsletter</text>
+<text x="140" y="369.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Paid for by</text>
+<text x="410" y="369.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not stated</text>
+<line x1="130" y1="401.25" x2="910" y2="401.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="437.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">B — Peer-reviewed study, 2024</text>
+<text x="140" y="467.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Compares unit price across 214 orders in one city over 18</text>
+<text x="140" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">months. Finds a mean difference of 9.4%, significant. Excludes</text>
+<text x="140" y="510.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">rework, delay and cancellation, which the authors state clearly</text>
+<text x="140" y="532.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">in the limitations section.</text>
+<text x="140" y="568.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Published by</text>
+<text x="410" y="568.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a university press</text>
+<text x="140" y="600.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Paid for by</text>
+<text x="410" y="600.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a research council</text>
+<text x="140" y="632.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Measured</text>
+<text x="410" y="632.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">invoice price only</text>
+<line x1="130" y1="664.25" x2="910" y2="664.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="700.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">C — Buyer's procurement guide, 2025</text>
+<text x="140" y="730.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Our members report savings of 8–12%.&quot; Members are buyers. The</text>
+<text x="140" y="752.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">figure is self-reported and not audited. The guide recommends a</text>
+<text x="140" y="773.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">sourcing platform owned by the organisation that publishes it.</text>
+<text x="140" y="809.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Published by</text>
+<text x="410" y="809.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a buyers' association</text>
+<text x="140" y="841.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Paid for by</text>
+<text x="410" y="841.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">its members, and a platform fee</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three sources, one claim</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">All three say small workshops are 8–12% cheaper. Rank them before you read the small print.</text>
+<circle cx="934" cy="274.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 274.0 L 1024 274.0 L 1024 274.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="279.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">No method at all — and it reads</text>
+<text x="1040" y="299.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the most confident</text>
+<circle cx="934" cy="351.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 351.0 L 1024 351.0 L 1024 351.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="356.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nobody will say who paid</text>
+<circle cx="934" cy="474.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 474.2 L 1024 474.2 L 1024 474.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="479.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">214 orders, 18 months. This is</text>
+<text x="1040" y="499.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">real work</text>
+<circle cx="934" cy="551.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 551.2 L 1024 551.2 L 1024 551.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="556.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">…and it measures only the invoice</text>
+<circle cx="934" cy="689.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 689.8 L 1024 689.8 L 1024 689.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="694.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Self-reported by the people who</text>
+<text x="1040" y="715.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">benefit</text>
+<circle cx="934" cy="797.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 797.6 L 1024 797.6 L 1024 797.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="802.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The publisher sells the solution</text>
+</g>
+</svg>

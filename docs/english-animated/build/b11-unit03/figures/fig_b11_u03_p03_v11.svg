@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>Why this answer sounds like a brush-off</title>
+<desc>Two panels comparing &quot;I will send it&quot; offered as a pre-existing plan against the correct present continuous.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="640" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="80.0" y="120" width="700.0" height="340" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="116.0" cy="158" r="20" fill="#A8372E"/>
+<text x="116.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✗</text>
+<rect x="820.0" y="120" width="700.0" height="340" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="856.0" cy="158" r="20" fill="#2E6F5E"/>
+<text x="856.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
+</g>
+<g id="20_subject">
+<text x="152.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">— Have you sorted the lease? — I'll do it.</text>
+<line x1="318.0" y1="220" x2="318.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="318.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">you asked</text>
+<circle cx="514.0" cy="270" r="12" fill="#A8372E"/>
+<path d="M 514.0 270 L 346.0 270" fill="none" stroke="#A8372E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="514.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">decided now, because you asked</text>
+<text x="104.0" y="428.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">will puts the decision after the question. The listener hears that nothing existed</text>
+<text x="104.0" y="448.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">until they raised it — which may be true, and is rarely what you want them to hear.</text>
+<text x="892.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">— Have you sorted the lease? — I'm doing it on Thursday.</text>
+<line x1="1254.0" y1="220" x2="1254.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="1254.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">you asked</text>
+<circle cx="1002.0" cy="270" r="12" fill="#2E6F5E"/>
+<path d="M 1002.0 270 L 1226.0 270" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1002.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">already arranged</text>
+<text x="844.0" y="428.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The present continuous puts the plan before the question. Same information, completely</text>
+<text x="844.0" y="448.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">different impression of whether you were on top of it.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Why this answer sounds like a brush-off</text>
+<rect x="80" y="532" width="1440" height="62" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
+<text x="104" y="560" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
+<text x="104" y="584.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The writer thought will was the neutral, polite future. It is the one that says &quot;I had not thought about</text>
+<text x="104" y="605.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">this until you spoke&quot;.</text>
+</g>
+</svg>

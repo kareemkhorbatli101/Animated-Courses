@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>Four futures — which one are you choosing?</title>
+<desc>A branching diagram from one decision point to four future forms, each labelled with what it signals and an example.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="350.0" r="12" fill="#1C2B33"/>
+<text x="160" y="392.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">next Thursday</text>
+</g>
+<g id="20_subject">
+<path d="M 160 350.0 C 770.0 350.0 770.0 160.0 1340 160.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1340,160.0 1324,152.0 1324,168.0" fill="#1F4E5F"/>
+<path d="M 160 350.0 C 770.0 350.0 770.0 293.33333333333337 1340 293.33333333333337" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1340,293.33333333333337 1324,285.33333333333337 1324,301.33333333333337" fill="#C86B2B"/>
+<path d="M 160 350.0 C 770.0 350.0 770.0 426.6666666666667 1340 426.6666666666667" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="1340,426.6666666666667 1324,418.6666666666667 1324,434.6666666666667" fill="#8C6A9E"/>
+<path d="M 160 350.0 C 770.0 350.0 770.0 560.0 1340 560.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1340,560.0 1324,552.0 1324,568.0" fill="#2E6F5E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four futures — which one are you choosing?</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">None of these is more correct. They commit you to different things.</text>
+<text x="1356" y="150.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">present continuous — an arrangement</text>
+<text x="1356" y="174.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm seeing him on Thursday.  (he knows too)</text>
+<text x="1356" y="283.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">going to — an intention formed before now</text>
+<text x="1356" y="307.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm going to tell him.  (decided Monday)</text>
+<text x="1356" y="416.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">will — decided at this moment</text>
+<text x="1356" y="440.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'll tell him, if you want.  (decided for you, just now)</text>
+<text x="1356" y="550.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">present simple — a timetable</text>
+<text x="1356" y="574.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The lease runs out in March.  (not yours to move)</text>
+<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Choosing the wrong one is not a grammar mistake. It is a commitment you did not mean to make, or</text>
+<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">a vagueness the other person can hear.</text>
+</g>
+</svg>

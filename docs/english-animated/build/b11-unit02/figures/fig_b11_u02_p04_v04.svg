@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>Two ways of showing the same price</title>
+<desc>Two panels: a one-line invoice total, and the same figure broken into five costed lines.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">what the buyer sees</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">what it is made of</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="356.0" y="434" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="366.0" y1="448" x2="414.0" y2="448" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="462" x2="414.0" y2="462" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="476" x2="414.0" y2="476" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="490" x2="414.0" y2="490" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="504" x2="414.0" y2="504" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<text x="390.0" y="352" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">4,800</text>
+<text x="390.0" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">one number, one name</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="911.0" y="394" width="58" height="168" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="991.0" y="526" width="58" height="36" rx="0" fill="#8C6A9E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1071.0" y="366" width="58" height="196" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1151.0" y="522" width="58" height="40" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1231.0" y="434" width="58" height="128" rx="0" fill="#D9A441" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="1120.0" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="600" font-style="normal">cloth · trims · labour · overheads · margin</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two ways of showing the same price</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A sees the invoice. Learner B sees the breakdown. Neither sees the other.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Only one of these can be argued with. Find out which, by describing.</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

@@ -363,8 +363,8 @@ def v5_realia(spec):
 
 # ── V6 · Data Visual ───────────────────────────────────────────────────────
 def v6_data(spec):
-    h = spec.get('height', 740)
-    x0, y0, pw, ph = 170, 150, W - 420, h - 300
+    h = spec.get('height', 800)
+    x0, y0, pw, ph = 170, 150, W - 420, h - 360
     kind = spec.get('kind', 'bar')
     ctx, sub, lab = [], [], []
     ctx.append(rect(x0, y0, pw, ph, fill=WHITE, stroke=RULE, sw=1.6))
@@ -419,12 +419,14 @@ def v6_data(spec):
     for i, l in enumerate(labels):
         lx = x0 + i * step + (0 if kind == 'line' else step / 2)
         lab.append(text(lx, y0 + ph + 28, l, size=T_MICRO, anchor='middle', fill=INK_SOFT))
-    if spec.get('note'):
-        body, _ = wrap(x0, h - 70, spec['note'], size=T_LABEL, width=96, fill=INK, style='italic')
-        lab.append(body)
+    fy = y0 + ph + 60
     if spec.get('warning'):
-        lab.append(rect(x0, h - 108, pw, 34, fill='#F7E7D6', stroke=ACCENT, sw=1.4, rx=4))
-        lab.append(text(x0 + 14, h - 85, spec['warning'], size=T_LABEL, weight='600', fill=ACCENT))
+        lab.append(rect(x0, fy, pw, 38, fill='#F7E7D6', stroke=ACCENT, sw=1.4, rx=4))
+        lab.append(text(x0 + 16, fy + 25, spec['warning'], size=T_LABEL, weight='600', fill=ACCENT))
+        fy += 58
+    if spec.get('note'):
+        body, _ = wrap(x0, fy + 16, spec['note'], size=T_LABEL, width=92, fill=INK, style='italic')
+        lab.append(body)
     head = figure_title(W, spec['title'], spec.get('sub'))
     return svg(W, h, [group('10_context', '\n'.join(ctx)),
                       group('20_subject', '\n'.join(sub)),

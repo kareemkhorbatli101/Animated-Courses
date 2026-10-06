@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<title>The costing sheet</title>
+<desc>A workshop costing sheet listing materials, labour hours and rate, overheads, total cost, selling price and margin, with one line costed at zero.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="790" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="790" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">MARIAM OKELLO · GROUND FLOOR, JENGO HOUSE</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">COSTING — JACKET, STYLE 114, BATCH OF 40</text>
+<line x1="130" y1="258" x2="910" y2="258" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="262" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="282" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">LINE</text>
+<text x="302.0" y="282" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DETAIL</text>
+<text x="454.0" y="282" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">QTY</text>
+<text x="606.0" y="282" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">RATE</text>
+<text x="758.0" y="282" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">COST</text>
+<text x="150.0" y="312" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Cloth</text>
+<text x="302.0" y="312" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">wool/poly 340gsm</text>
+<text x="454.0" y="312" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2.1 m</text>
+<text x="606.0" y="312" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">620</text>
+<text x="758.0" y="312" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,302</text>
+<line x1="140" y1="322" x2="900" y2="322" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="342" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Lining</text>
+<text x="302.0" y="342" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">viscose twill</text>
+<text x="454.0" y="342" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1.4 m</text>
+<text x="606.0" y="342" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">84</text>
+<text x="758.0" y="342" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">118</text>
+<line x1="140" y1="352" x2="900" y2="352" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="372" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Trims</text>
+<text x="302.0" y="372" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">thread/fusing/btn</text>
+<text x="454.0" y="372" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<text x="606.0" y="372" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<text x="758.0" y="372" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">186</text>
+<line x1="140" y1="382" x2="900" y2="382" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="402" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Labels</text>
+<text x="302.0" y="402" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">woven + care</text>
+<text x="454.0" y="402" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3</text>
+<text x="606.0" y="402" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">41</text>
+<text x="758.0" y="402" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">124</text>
+<line x1="140" y1="412" x2="900" y2="412" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="432" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Cutting</text>
+<text x="302.0" y="432" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal"></text>
+<text x="454.0" y="432" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1.5 h</text>
+<text x="606.0" y="432" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">150</text>
+<text x="758.0" y="432" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">225</text>
+<line x1="140" y1="442" x2="900" y2="442" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="462" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Making</text>
+<text x="302.0" y="462" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal"></text>
+<text x="454.0" y="462" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">8.0 h</text>
+<text x="606.0" y="462" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">150</text>
+<text x="758.0" y="462" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,200</text>
+<line x1="140" y1="472" x2="900" y2="472" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="492" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Finishing</text>
+<text x="302.0" y="492" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">press, check, bag</text>
+<text x="454.0" y="492" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1.5 h</text>
+<text x="606.0" y="492" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">150</text>
+<text x="758.0" y="492" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">225</text>
+<line x1="140" y1="502" x2="900" y2="502" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="522" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Overheads</text>
+<text x="302.0" y="522" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">rent/power/service</text>
+<text x="454.0" y="522" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<text x="606.0" y="522" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<text x="758.0" y="522" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">340</text>
+<line x1="140" y1="532" x2="900" y2="532" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="552" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Sampling</text>
+<text x="302.0" y="552" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">11 h, three rounds</text>
+<text x="454.0" y="552" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">11 h</text>
+<text x="606.0" y="552" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="758.0" y="552" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<line x1="140" y1="562" x2="900" y2="562" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="590" x2="910" y2="590" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="612" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">TOTAL COST PER PIECE</text>
+<text x="410" y="612" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">3,720</text>
+<text x="140" y="644" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">SELLING PRICE</text>
+<text x="410" y="644" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">4,800</text>
+<text x="140" y="676" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">MARGIN</text>
+<text x="410" y="676" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">1,080  (22.5%)</text>
+<line x1="130" y1="708" x2="910" y2="708" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="730.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Rates are the workshop rate, not the machinist rate. Overheads are apportioned across</text>
+<text x="140" y="747.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">a normal month at 92 pieces. Cloth price is the one figure that moves with the market</text>
+<text x="140" y="764.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">and is quoted at today. Sampling time is carried by the workshop and is not charged to</text>
+<text x="140" y="782.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">any order.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The costing sheet</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Everything is on it, including the line that is priced at zero.</text>
+<circle cx="934" cy="325.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 325.4 L 1024 325.4 L 1024 325.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="330.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The only figure that moves with</text>
+<text x="1040" y="350.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the market</text>
+<circle cx="934" cy="467.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 467.6 L 1024 467.6 L 1024 467.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="472.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Eleven hours, given in hours</text>
+<text x="1040" y="492.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">before money</text>
+<circle cx="934" cy="546.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 546.6 L 1024 546.6 L 1024 546.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="551.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Apportioned, not guessed — across</text>
+<text x="1040" y="571.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">92 pieces</text>
+<circle cx="934" cy="594.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 594.0 L 1024 594.0 L 1024 594.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="599.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Eleven hours at zero. Somebody</text>
+<text x="1040" y="619.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">paid for it</text>
+<circle cx="934" cy="688.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 688.8 L 1024 688.8 L 1024 688.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="693.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">3,720 is the honest floor</text>
+<circle cx="934" cy="752.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 752.0 L 1024 752.0 L 1024 752.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="757.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">22.5% is thinner than it looks on</text>
+<text x="1040" y="777.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">forty</text>
+<circle cx="934" cy="846.8000000000001" r="4.5" fill="#C86B2B"/>
+<path d="M 934 846.8000000000001 L 1024 846.8000000000001 L 1024 846.8000000000001" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="851.8000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The small print explains the zero</text>
+</g>
+</svg>

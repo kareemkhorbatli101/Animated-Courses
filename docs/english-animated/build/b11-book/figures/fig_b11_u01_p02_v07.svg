@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>Three people, one street, ten years</title>
+<desc>Three people standing in different places on the same street, with speech and thought bubbles.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="690" rx="0" fill="#E8EFF1"/>
+<rect x="0" y="690" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="690" x2="1600" y2="690" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="1180" y="540.0" width="220.0" height="150.0" rx="0" fill="#C4CBB8" stroke="#1C2B33" stroke-width="2"/>
+<line x1="1180.0" y1="540.0" x2="1180.0" y2="690" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+<line x1="1240.0" y1="540.0" x2="1240.0" y2="690" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+<line x1="1300.0" y1="540.0" x2="1300.0" y2="690" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+<rect x="1210.0" y="570.0" width="72.0" height="94.0" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1218.0" y1="586.0" x2="1274.0" y2="586.0" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1218.0" y1="599.0" x2="1274.0" y2="599.0" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1218.0" y1="612.0" x2="1274.0" y2="612.0" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1218.0" y1="625.0" x2="1274.0" y2="625.0" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1218.0" y1="638.0" x2="1274.0" y2="638.0" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1218.0" y1="651.0" x2="1274.0" y2="651.0" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<rect x="120" y="641.0" width="125.99999999999999" height="49.0" rx="0" fill="#E4D7C3" stroke="#1C2B33" stroke-width="1.8"/>
+<polygon points="110.2,641.0 255.79999999999998,641.0 239.0,611.6 127.0,611.6" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.8"/>
+<circle cx="141.0" cy="631.2" r="7.699999999999999" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="169.0" cy="631.2" r="7.699999999999999" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="197.0" cy="631.2" r="7.699999999999999" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="225.0" cy="631.2" r="7.699999999999999" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+</g>
+<g id="20_subject">
+<ellipse cx="330" cy="714.4117647058823" rx="32.352941176470594" ry="7.352941176470589" fill="#1C2B33" opacity="0.10"/>
+<path d="M 316.7647058823529 710 L 319.70588235294116 595.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 343.2352941176471 710 L 340.29411764705884 595.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 330.0 518.8235294117648 L 330 600.8823529411765" fill="none" stroke="#2E6F5E" stroke-width="35.294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 302.05882352941177 520.2941176470589 L 357.94117647058823 520.2941176470589" fill="none" stroke="#2E6F5E" stroke-width="19.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 302.05882352941177 523.2352941176471 L 313.8235294117647 589.1176470588235" fill="none" stroke="#2E6F5E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 357.94117647058823 523.2352941176471 L 346.1764705882353 589.1176470588235" fill="none" stroke="#2E6F5E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330" cy="589.1176470588235" r="8.088235294117649" fill="#6B4229"/>
+<path d="M 330.0 511.47058823529414 L 330.0 504.11764705882354" fill="none" stroke="#6B4229" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330.0" cy="485.0" r="22.058823529411768" fill="#6B4229"/>
+<path d="M 307.94117647058823 482.05882352941177 A 22.058823529411768 22.058823529411768 0 0 1 352.05882352941177 482.05882352941177" fill="none" stroke="#2A2320" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 306.4705882352941 485.0 L 306.4705882352941 514.4117647058823" fill="none" stroke="#2A2320" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 353.5294117647059 485.0 L 353.5294117647059 514.4117647058823" fill="none" stroke="#2A2320" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="327.05882352941177" cy="486.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<circle cx="341.764705882353" cy="486.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<path d="M 328.5294117647059 496.7647058823529 Q 334.4117647058824 499.70588235294116 340.29411764705884 496.7647058823529" fill="none" stroke="#8A5A48" stroke-width="2.3529411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="330" y="748.2352941176471" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Grace</text>
+<text x="330" y="774.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">cleaner, six years</text>
+<ellipse cx="820" cy="714.4117647058823" rx="32.352941176470594" ry="7.352941176470589" fill="#1C2B33" opacity="0.10"/>
+<path d="M 806.7647058823529 710 L 809.7058823529412 595.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 833.2352941176471 710 L 830.2941176470588 595.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 820.0 518.8235294117648 L 820 600.8823529411765" fill="none" stroke="#A8372E" stroke-width="35.294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 792.0588235294117 520.2941176470589 L 847.9411764705883 520.2941176470589" fill="none" stroke="#A8372E" stroke-width="19.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 792.0588235294117 523.2352941176471 L 787.6470588235294 609.7058823529412" fill="none" stroke="#A8372E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="787.6470588235294" cy="614.1176470588235" r="7.352941176470589" fill="#F0D3B4"/>
+<path d="M 847.9411764705883 523.2352941176471 L 886.1764705882354 515.8823529411765" fill="none" stroke="#A8372E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="892.0588235294118" cy="514.4117647058824" r="7.352941176470589" fill="#F0D3B4"/>
+<path d="M 820.0 511.47058823529414 L 820.0 504.11764705882354" fill="none" stroke="#F0D3B4" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="820.0" cy="485.0" r="22.058823529411768" fill="#F0D3B4"/>
+<path d="M 797.9411764705883 482.05882352941177 A 22.058823529411768 22.058823529411768 0 0 1 842.0588235294117 482.05882352941177" fill="none" stroke="#B9B2AA" stroke-width="10.294117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="812.6470588235294" cy="486.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<circle cx="827.3529411764706" cy="486.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<path d="M 814.1176470588235 496.7647058823529 Q 820.0 499.70588235294116 825.8823529411765 496.7647058823529" fill="none" stroke="#8A5A48" stroke-width="2.3529411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="820" y="748.2352941176471" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Mr Kamau</text>
+<text x="820" y="774.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">landlord</text>
+<ellipse cx="1290" cy="714.3764705882353" rx="32.09411764705882" ry="7.294117647058823" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1276.870588235294 710 L 1279.7882352941176 595.92" fill="none" stroke="#3A4A55" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1303.129411764706 710 L 1300.2117647058824 595.92" fill="none" stroke="#3A4A55" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1290.0 520.3529411764706 L 1290 601.755294117647" fill="none" stroke="#1F4E5F" stroke-width="35.01176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1262.2823529411764 521.8117647058824 L 1317.7176470588236 521.8117647058824" fill="none" stroke="#1F4E5F" stroke-width="18.96470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1262.2823529411764 526.1882352941177 L 1308.964705882353 552.4470588235295" fill="none" stroke="#1F4E5F" stroke-width="13.129411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1311.8823529411766" cy="553.9058823529411" r="7.294117647058823" fill="#E8C39E"/>
+<path d="M 1317.7176470588236 526.1882352941177 L 1271.035294117647 558.2823529411764" fill="none" stroke="#1F4E5F" stroke-width="13.129411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1268.1176470588234" cy="559.7411764705882" r="7.294117647058823" fill="#E8C39E"/>
+<path d="M 1290.0 513.0588235294118 L 1290.0 505.7647058823529" fill="none" stroke="#E8C39E" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1290.0" cy="486.8" r="21.88235294117647" fill="#E8C39E"/>
+<path d="M 1268.1176470588234 483.88235294117646 A 21.88235294117647 21.88235294117647 0 0 1 1311.8823529411766 483.88235294117646" fill="none" stroke="#2A2320" stroke-width="10.211764705882352" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1278.3294117647058" cy="488.25882352941176" r="2.6258823529411766" fill="#2A2320"/>
+<circle cx="1292.9176470588234" cy="488.25882352941176" r="2.6258823529411766" fill="#2A2320"/>
+<path d="M 1279.7882352941176 498.47058823529414 Q 1285.6235294117646 501.38823529411764 1291.4588235294116 498.47058823529414" fill="none" stroke="#8A5A48" stroke-width="2.3341176470588234" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1290" y="747.9294117647058" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Tom</text>
+<text x="1290" y="774.1882352941177" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">consultant</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three people, one street, ten years</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each is turned towards something different. That is the task.</text>
+<rect x="165.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="237.6,199.2 290.4,199.2 330,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="239.6" y1="199.2" x2="288.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="330.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The building is better now.</text>
+<text x="330.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I'm not going to say it isn't.</text>
+<rect x="180.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="320.0" cy="408.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="370" cy="490" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="330.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">They don't know my name.</text>
+<rect x="655.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="727.6,179.6 780.4,179.6 820,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="729.6" y1="179.6" x2="778.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="820.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">It's progress.</text>
+<rect x="1125.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="1197.6,179.6 1250.4,179.6 1290,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="1199.6" y1="179.6" x2="1248.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="1290.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Nobody told us anything.</text>
+</g>
+</svg>

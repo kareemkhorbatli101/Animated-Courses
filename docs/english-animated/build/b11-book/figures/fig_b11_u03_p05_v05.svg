@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<title>The name-change form</title>
+<desc>An official name-change application form listing required documents, witnesses, fees and processing times.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="790" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="790" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">REGISTRY OF PERSONS · FORM NC/2</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">APPLICATION TO RECORD A CHANGE OF NAME</text>
+<line x1="130" y1="258" x2="910" y2="258" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="280" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Form fee</text>
+<text x="410" y="280" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,000</text>
+<text x="140" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Name to be recorded</text>
+<text x="410" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<text x="140" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Name as currently held</text>
+<text x="410" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">_______________________________</text>
+<line x1="130" y1="376" x2="910" y2="376" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="412" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">Documents to be enclosed</text>
+<rect x="140" y="424" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">#</text>
+<text x="340.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DOCUMENT</text>
+<text x="530.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">ORIGINAL?</text>
+<text x="720.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">FEE</text>
+<text x="150.0" y="474" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1</text>
+<text x="340.0" y="474" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Birth certificate</text>
+<text x="530.0" y="474" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">original</text>
+<text x="720.0" y="474" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<line x1="140" y1="484" x2="900" y2="484" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="504" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2</text>
+<text x="340.0" y="504" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">National identity card</text>
+<text x="530.0" y="504" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">certified copy</text>
+<text x="720.0" y="504" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">400</text>
+<line x1="140" y1="514" x2="900" y2="514" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="534" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3</text>
+<text x="340.0" y="534" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Passport (if held)</text>
+<text x="530.0" y="534" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">certified copy</text>
+<text x="720.0" y="534" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">400</text>
+<line x1="140" y1="544" x2="900" y2="544" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="564" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4</text>
+<text x="340.0" y="564" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Proof of address, under 3 months</text>
+<text x="530.0" y="564" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">original</text>
+<text x="720.0" y="564" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<line x1="140" y1="574" x2="900" y2="574" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="594" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">5</text>
+<text x="340.0" y="594" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Statutory declaration</text>
+<text x="530.0" y="594" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">original, sworn</text>
+<text x="720.0" y="594" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2,500</text>
+<line x1="140" y1="604" x2="900" y2="604" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="624" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6</text>
+<text x="340.0" y="624" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Two passport photographs</text>
+<text x="530.0" y="624" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">—</text>
+<text x="720.0" y="624" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">600</text>
+<line x1="140" y1="634" x2="900" y2="634" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="662" x2="910" y2="662" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="698" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">Witnesses</text>
+<text x="140" y="728.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The statutory declaration must be witnessed by two persons who</text>
+<text x="140" y="749.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">have known the applicant for not less than five years and who</text>
+<text x="140" y="771.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">are not related to the applicant by blood or marriage.</text>
+<line x1="130" y1="807.25" x2="910" y2="807.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="829.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Applications are processed in the order received. The registry does not give an</text>
+<text x="140" y="846.65" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">estimated processing time. Gazette publication, where required, is arranged separately</text>
+<text x="140" y="864.05" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">and carries its own fee. The former name is retained on the record and will continue</text>
+<text x="140" y="881.45" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">to appear on any document issued before the date of change. Changing the name held by</text>
+<text x="140" y="898.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">any other body is the responsibility of the applicant.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The name-change form</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Count the fees. They are not in one place.</text>
+<circle cx="934" cy="254.3" r="4.5" fill="#C86B2B"/>
+<path d="M 934 254.3 L 1024 254.3 L 1024 254.3" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="259.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One fee, before you have read</text>
+<text x="1040" y="279.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">anything</text>
+<circle cx="934" cy="467.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 467.6 L 1024 467.6 L 1024 467.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="472.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Six documents. Two must be</text>
+<text x="1040" y="492.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">originals</text>
+<circle cx="934" cy="530.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 530.8 L 1024 530.8 L 1024 530.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="535.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A sworn declaration — the</text>
+<text x="1040" y="556.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">expensive line</text>
+<circle cx="934" cy="657.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 657.2 L 1024 657.2 L 1024 657.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="662.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two people, five years, not family</text>
+<circle cx="934" cy="783.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 783.6 L 1024 783.6 L 1024 783.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="788.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">No processing time is given</text>
+<text x="1040" y="808.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">anywhere</text>
+<circle cx="934" cy="846.8000000000001" r="4.5" fill="#C86B2B"/>
+<path d="M 934 846.8000000000001 L 1024 846.8000000000001 L 1024 846.8000000000001" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="851.8000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The old name stays on the record</text>
+<text x="1040" y="872.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">for ever</text>
+<circle cx="934" cy="878.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 878.4 L 1024 878.4 L 1024 878.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="883.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nineteen other institutions are</text>
+<text x="1040" y="903.6999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">your problem</text>
+</g>
+</svg>

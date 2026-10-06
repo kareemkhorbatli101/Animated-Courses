@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>Sixty metres of Ngong Lane, then and now</title>
+<desc>A plan view of seven plots along a street, each labelled with its current and former use.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="90" y="180" width="147.72727272727272" height="220" rx="0" fill="#E6DCC9" stroke="#1C2B33" stroke-width="2"/>
+<rect x="90" y="180" width="147.72727272727272" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<rect x="237.72727272727272" y="180" width="29.545454545454543" height="220" rx="0" fill="#F3D9BE" stroke="#1C2B33" stroke-width="2"/>
+<rect x="237.72727272727272" y="180" width="29.545454545454543" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<rect x="267.27272727272725" y="180" width="236.36363636363635" height="220" rx="0" fill="#DCE6EA" stroke="#1C2B33" stroke-width="2"/>
+<rect x="267.27272727272725" y="180" width="236.36363636363635" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<rect x="503.6363636363636" y="180" width="295.45454545454544" height="220" rx="0" fill="#C8D4DB" stroke="#1C2B33" stroke-width="2"/>
+<rect x="503.6363636363636" y="180" width="295.45454545454544" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<rect x="799.090909090909" y="180" width="265.9090909090909" height="220" rx="0" fill="#C8D4DB" stroke="#1C2B33" stroke-width="2"/>
+<rect x="799.090909090909" y="180" width="265.9090909090909" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<rect x="1065.0" y="180" width="147.72727272727272" height="220" rx="0" fill="#D5DCCB" stroke="#1C2B33" stroke-width="2"/>
+<rect x="1065.0" y="180" width="147.72727272727272" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<rect x="1212.7272727272727" y="180" width="177.27272727272725" height="220" rx="0" fill="#DCE6EA" stroke="#1C2B33" stroke-width="2"/>
+<rect x="1212.7272727272727" y="180" width="177.27272727272725" height="220" rx="0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-dasharray="8 6"/>
+<line x1="90" y1="430" x2="1390" y2="430" stroke="#1C2B33" stroke-width="2" stroke-linecap="round"/>
+<text x="90" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Ngong Lane · east side</text>
+</g>
+<g id="20_subject">
+<text x="100" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">workshops</text>
+<text x="100" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: workshops</text>
+<text x="247.72727272727272" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">stall</text>
+<text x="247.72727272727272" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: stall</text>
+<rect x="240.72727272727272" y="183" width="23.545454545454543" height="214" rx="0" fill="none" stroke="#C86B2B" stroke-width="3"/>
+<text x="277.27272727272725" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Jengo House</text>
+<text x="277.27272727272725" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: timber store</text>
+<text x="513.6363636363636" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">2014 tower</text>
+<text x="513.6363636363636" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: open ground</text>
+<text x="809.090909090909" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">2019 tower</text>
+<text x="809.090909090909" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: matatu parking</text>
+<text x="1075.0" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">site hoarding</text>
+<text x="1075.0" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: two shops</text>
+<text x="1222.7272727272727" y="216.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">offices</text>
+<text x="1222.7272727272727" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">was: bicycle repair</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Sixty metres of Ngong Lane, then and now</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Shaded = what it is now. Dashed outline = what it was in 2010. One shape has not changed.</text>
+<line x1="90" y1="610" x2="210" y2="610" stroke="#1C2B33" stroke-width="3" stroke-linecap="round"/>
+<line x1="90" y1="602" x2="90" y2="618" stroke="#1C2B33" stroke-width="3" stroke-linecap="round"/>
+<line x1="210" y1="602" x2="210" y2="618" stroke="#1C2B33" stroke-width="3" stroke-linecap="round"/>
+<text x="150.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">10 m</text>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The result, or the activity</title>
+<desc>A timeline showing a perfect simple as a span closing on a solid dot at now, and a perfect continuous as an open lens still running at now.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="520" x2="1380" y2="520" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,520 1364,512 1364,528" fill="#1C2B33"/>
+<line x1="1184.8" y1="360" x2="1184.8" y2="554" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1184.8" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<line x1="428.4" y1="466" x2="1184.8" y2="466" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="428.4" cy="466" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="1184.8" cy="466" r="7" fill="#1F4E5F"/>
+<path d="M 306.4 338 Q 794.4000000000001 316 1282.4 338" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 306.4 378 Q 794.4000000000001 400 1282.4 378" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="306.4" y1="338" x2="306.4" y2="378" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="1282.4" y1="338" x2="1282.4" y2="378" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The result, or the activity</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Both reach now. The difference is what you are pointing at.</text>
+<text x="428.4" y="418" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">the result, counted up to now</text>
+<text x="428.4" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I've made forty.  →  how many?</text>
+<text x="306.4" y="276" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">the activity, still running</text>
+<text x="306.4" y="298" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I've been making them for nine years.  →  how long?</text>
+<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Both forms reach now. Use the simple when you can count it; use the continuous when you can time</text>
+<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">it.</text>
+</g>
+</svg>
