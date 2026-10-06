@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>One section, two documents, one correction</title>
+<desc>An infographic following one paragraph of an inquiry report into a newspaper, through the headline and the omission to the correction.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The three</text>
+<text x="52" y="184.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">accounts</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What happened</text>
+<text x="52" y="334.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">to 4.6</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Readers</text>
+<text x="52" y="484.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">reached</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The verbs</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="390.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="540.0" y="166" width="338.0000000000001" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="878.0000000000001" y="166" width="571.9999999999999" height="50" rx="4" fill="#A8372E" opacity="0.9"/>
+<circle cx="592.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="592.0" y1="340" x2="592.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="826.0" cy="340" r="10" fill="#1F4E5F"/>
+<line x1="826.0" y1="340" x2="826.0" y2="400" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="956.0" cy="340" r="10" fill="#C86B2B"/>
+<line x1="956.0" y1="340" x2="956.0" y2="400" stroke="#C86B2B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1060.0" cy="340" r="10" fill="#A8372E"/>
+<line x1="1060.0" y1="340" x2="1060.0" y2="400" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1424.0" cy="340" r="10" fill="#9AA7AE"/>
+<line x1="1424.0" y1="340" x2="1424.0" y2="400" stroke="#9AA7AE" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 540 540 L 800 540 L 1060 454 L 1190 454 L 1320 531 L 1450 531" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="540.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="800.0" cy="539.6177777777779" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1060.0" cy="454.00000000000955" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1190.0" cy="454.00000000000955" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1320.0" cy="531.400000000001" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="531.400000000001" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="618.0" y1="616" x2="618.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="618.0,616 670.0,628 618.0,640" fill="#D9A441"/>
+<line x1="1008.0" y1="616" x2="1008.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1008.0,616 1060.0,628 1008.0,640" fill="#D9A441"/>
+<line x1="1242.0" y1="616" x2="1242.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1242.0,616 1294.0,628 1242.0,640" fill="#D9A441"/>
+<line x1="1437.0" y1="616" x2="1437.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1437.0,616 1489.0,628 1437.0,640" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One section, two documents, one correction</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the report. Half sees the article. Rebuild what was said by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">three times, forty minutes apart</text>
+<text x="550.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">all three accepted as honest</text>
+<text x="888.0000000000001" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">claims, insists, admits</text>
+<text x="592.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">written: &quot;we do not regard any account as unreliable&quot;</text>
+<text x="826.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">filed with the annex attached</text>
+<text x="956.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">cut for length</text>
+<text x="1060.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">headline written</text>
+<text x="1424.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">correction, 31 words, page four</text>
+<text x="1456" y="535.400000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">≈900</text>
+<text x="624.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the report uses said, six times</text>
+<text x="1014.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the article uses three different verbs</text>
+<text x="1248.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;is understood to have&quot; - no source</text>
+<text x="1443.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;The inquiry made no such finding&quot;</text>
+<line x1="150.0" y1="712" x2="150.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the night</text>
+<line x1="410.0" y1="712" x2="410.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">evidence</text>
+<line x1="670.0" y1="712" x2="670.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">report</text>
+<line x1="930.0" y1="712" x2="930.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">page 1</text>
+<line x1="1190.0" y1="712" x2="1190.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">page 4</text>
+<line x1="1450.0" y1="712" x2="1450.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">day 11</text>
+</g>
+</svg>

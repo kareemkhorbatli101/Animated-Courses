@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>Six weeks, nine questions, one gap</title>
+<desc>An infographic of a survey from the brief through the fieldwork to publication, showing what was asked, who was asked and what was found afterwards.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The survey</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What was</text>
+<text x="52" y="334.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">missed</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Responses in</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The arguments</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="208.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="358.0" y="166" width="728.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="1086.0" y="166" width="364.0" height="50" rx="4" fill="#D9A441" opacity="0.9"/>
+<circle cx="280.0" cy="340" r="10" fill="#A8372E"/>
+<line x1="280.0" y1="340" x2="280.0" y2="400" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="410.0" cy="340" r="10" fill="#9AA7AE"/>
+<line x1="410.0" y1="340" x2="410.0" y2="400" stroke="#9AA7AE" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="774.0" cy="340" r="10" fill="#8C6A9E"/>
+<line x1="774.0" y1="340" x2="774.0" y2="400" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1190.0" cy="340" r="10" fill="#D9A441"/>
+<line x1="1190.0" y1="340" x2="1190.0" y2="400" stroke="#D9A441" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1398.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="1398.0" y1="340" x2="1398.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 358 540 L 540 522 L 735 493 L 930 466 L 1086 454 L 1450 454" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="358.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="540.0" cy="522.4090909094907" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="735.0" cy="493.0909090919752" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="930.0" cy="465.72727272896077" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1086.0" cy="454.0000000019545" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="454.0000000019545" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="488.0" y1="616" x2="488.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="488.0,616 540.0,628 488.0,640" fill="#D9A441"/>
+<line x1="865.0000000000001" y1="616" x2="865.0000000000001" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="865.0000000000001,616 917.0000000000001,628 865.0000000000001,640" fill="#D9A441"/>
+<line x1="1164.0" y1="616" x2="1164.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1164.0,616 1216.0,628 1164.0,640" fill="#D9A441"/>
+<line x1="1424.0" y1="616" x2="1424.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1424.0,616 1476.0,628 1424.0,640" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Six weeks, nine questions, one gap</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the form. Half sees the explainer. Rebuild the survey by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">nine questions agreed in one afternoon</text>
+<text x="368.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">fifty-one doors, six weeks</text>
+<text x="1096.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">published with a note</text>
+<text x="280.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">nobody asks where the water came from</text>
+<text x="410.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">register drawn up - correctly</text>
+<text x="774.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">four people add the question by hand</text>
+<text x="1190.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">&quot;what this survey does not cover&quot;</text>
+<text x="1398.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">two hours, and a drawer of 1961 drawings</text>
+<text x="1456" y="458.0000000019545" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">44</text>
+<text x="494.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">a response rate most surveys would envy</text>
+<text x="871.0000000000001" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">every question clear, nobody led</text>
+<text x="1170.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">you cannot answer a question you did not ask</text>
+<text x="1430.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">shown to an engineer in 2009 and called superseded</text>
+<line x1="150.0" y1="712" x2="150.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">brief</text>
+<line x1="410.0" y1="712" x2="410.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">drafting</text>
+<line x1="670.0" y1="712" x2="670.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">week 1</text>
+<line x1="930.0" y1="712" x2="930.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">week 6</text>
+<line x1="1190.0" y1="712" x2="1190.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">note</text>
+<line x1="1450.0" y1="712" x2="1450.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">interview</text>
+</g>
+</svg>
