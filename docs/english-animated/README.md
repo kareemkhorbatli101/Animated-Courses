@@ -51,6 +51,8 @@ It is designed as a direct answer to three things in the brief:
 | **15** | [Rotation Maps](15-rotation-maps.md) | 36 File formats across 140 slots; genre, listening and task-variety rotations, with the arithmetic |
 | **16** | [Calibration Log](16-calibration-log.md) | **Passes 1–3: 37 findings, 34 fixed.** What drifted, what regressed, what was missing, and what still cannot be checked |
 
+| **17** | [Contents — A2 and B1](17-contents-a2-b1.md) | All 50 units of the five A2 and B1 books: system, outcome, reading genre, File and Decision |
+
 ### The chapters
 
 | | File | What it is |

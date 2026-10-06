@@ -83,10 +83,16 @@ the right spacing for a genuine revisit.
 | C10 | **Silence, Interruption, Turn-taking** | Who speaks, when, and what a pause means |
 | C11 | **Naming, Address and Status** | What you call someone, and what it costs to get it wrong |
 
-**Rule: a format may not appear twice in the same book, and returns only at a higher shelf.**
+**Rule: a format may appear at most once per book, and never in two consecutive books.**
 *The Meeting* at A2 is two people agreeing a time; at B1 it is chaired and minuted; at B2 it has a
 hidden agenda; at C1 it is a hearing. Same format, four altitudes — the same device that governs
 the topic domains in `05`.
+
+> **Corrected in pass 4.** This rule first read *"returns only at a higher shelf"*, which is
+> arithmetically impossible: the Foundation shelf alone has 16 Work slots and there are only 13
+> Work formats, so a format must recur inside a shelf. The replacement — at most once per book,
+> never in consecutive books — is achievable and checkable, and it still guarantees that any two
+> encounters of a format are at least two books and ~200 hours apart.
 
 ---
 
