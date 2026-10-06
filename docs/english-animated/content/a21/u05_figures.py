@@ -1,0 +1,266 @@
+"""A2.1 Unit 5 - If the Van Comes at Six - fourteen figures, as data."""
+FIGURES = {
+"fig_a21_u05_p00_v01": dict(type='V1', height=830, storey_h=150,
+ title='Outside the station, 05.05',
+ sub='Four of these people are going to miss something. Three of them do not know it yet.',
+ alt='A city street outside a railway station at dawn with a bus stop, a taxi rank, roadworks, '
+     'a departure board and travellers with luggage.',
+ sky='#E2E7EA', ground='#9DA2A6', ground_line=660,
+ buildings=[dict(x=20, w=640, storeys=3, colour='#CFD4D6', label='the station'),
+   dict(x=700, w=380, storeys=2, colour='#D6D0C4', label='the bus station'),
+   dict(x=1120, w=460, storeys=4, colour='#C6C2BC', label='Jalan Ipoh')],
+ props=[dict(kind='hoarding', x=880, y=660, s=1.0),
+   dict(kind='scaffold', x=1280, y=660, s=1.0),
+   dict(kind='van', x=1460, y=660, s=.9, colour='#D9A441'),
+   dict(kind='box', x=200, y=660, s=1.1), dict(kind='box', x=270, y=660, s=1.0),
+   dict(kind='table', x=560, y=660, s=1.0),
+   dict(kind='sign', x=120, y=660, s=.8, text='05:40'),
+   dict(kind='sign', x=760, y=660, s=.7, text='BUS')],
+ people=[dict(x=330, y=660, h=86, skin=1, cloth=0, hair='short', arm='hold'),
+   dict(x=400, y=660, h=85, skin=3, cloth=2, hair='long', arm='down'),
+   dict(x=620, y=660, h=86, skin=2, cloth=4, hair='wrap', arm='raise'),
+   dict(x=820, y=660, h=85, skin=0, cloth=1, hair='cap', arm='point'),
+   dict(x=1060, y=660, h=86, skin=4, cloth=3, hair='bun', arm='hold'),
+   dict(x=1400, y=660, h=85, skin=2, cloth=0, hair='short', arm='down')],
+ names=[dict(x=330, t='queue for the 05.22'), dict(x=400, t='reading the timetable'),
+   dict(x=620, t='the 05.40 connection'), dict(x=820, t='roadworks since February'),
+   dict(x=1060, t='no ticket yet'), dict(x=1400, t='the taxi rank, empty'),
+   dict(x=120, t='the departure board'), dict(x=760, t='the bus stop')],
+ markers=[dict(x=330, y=548), dict(x=620, y=548), dict(x=820, y=548), dict(x=1060, y=548),
+   dict(x=1400, y=548), dict(x=120, y=592), dict(x=760, y=600), dict(x=1280, y=560),
+   dict(x=200, y=610), dict(x=560, y=612)]),
+
+"fig_a21_u05_p01_v08": dict(type='V8', height=780,
+ title='One journey, four places it can break',
+ sub='Five stages. Every arrow is a place where a plan needs a second half.',
+ alt='A network of a journey from home through bus, station, connection and arrival, with the '
+     'break points marked on each link.',
+ nodes={
+  'hom': dict(x=190, y=400, short='1', name='Home', sub='set off at 04.50', colour='#2E6F5E'),
+  'bus': dict(x=540, y=250, short='2', name='The bus', sub='05.22, if it runs', colour='#C86B2B'),
+  'roa': dict(x=540, y=560, short='3', name='Roadworks', sub='since February', colour='#A8372E'),
+  'sta': dict(x=910, y=400, short='4', name='Sentral', sub='platform 6, gate 2', r=54, colour='#1F4E5F'),
+  'arr': dict(x=1290, y=400, short='5', name='Arrival', sub='06.40, or 07.10', r=54, colour='#D9A441')},
+ edges=[dict(a='hom', b='bus', label='eight minutes on foot', sw=5),
+   dict(a='bus', b='sta', label='if it is under four minutes down', sw=5),
+   dict(a='bus', b='roa', label='Jalan Ipoh', sw=4, colour='#A8372E'),
+   dict(a='roa', b='sta', label='adds twenty minutes', sw=4, dash='5 5', colour='#A8372E'),
+   dict(a='sta', b='arr', label='the 05.40 connection', sw=5),
+   dict(a='roa', b='arr', label='or the 07.10, ninety minutes later', sw=2, dash='6 6',
+        colour='#9AA7AE')]),
+
+"fig_a21_u05_p01_v02": dict(type='V2', height=780,
+ title='The station, in section',
+ sub='Four levels. The minutes are lost on the one nobody plans for.',
+ alt='A railway station drawn in section with the street, the ticket hall, the concourse and the '
+     'platforms, each labelled with how long it takes and what goes wrong there.',
+ floors=[dict(was='the street', now='Bus stop and taxi rank - 0 min, if the bus comes', year='', fill='#E8E4DC'),
+   dict(was='ticket hall', now='Machines and a queue - 3 min, or 11 at 05.15', year='', fill='#E4ECEF'),
+   dict(was='the concourse', now='Departure board, and the walk - 4 min', year='', fill='#F6F0E4'),
+   dict(was='the platforms', now='Gate closes 2 min before. Nobody plans for this', year='', fill='#F2EDE2')],
+ callouts=[dict(at=0.12, text='The only part of the journey you cannot influence'),
+   dict(at=0.38, text='Eight minutes of variation hiding in one queue'),
+   dict(at=0.62, text='The walk is always the same. It is the only honest number'),
+   dict(at=0.88, text='Two minutes, and they are not on any timetable')]),
+
+"fig_a21_u05_p02_v07": dict(type='V7', height=800,
+ title='The slot moves to six',
+ sub='One of them loses two hours. One of them has to write the notice.',
+ alt='A fish trader and a market manager talking across crates, with speech bubbles about what '
+     'will happen if the van arrives at six.',
+ bg='#E9ECEC',
+ set=[dict(kind='crate', x=660, y=680, s=1.3), dict(kind='crate', x=740, y=680, s=1.3),
+   dict(kind='box', x=1300, y=680, s=1.1)],
+ people=[dict(x=440, h=242, skin=3, cloth=1, hair='short', arm='point', facing='right',
+   label='Ravi', role='fish, in at four', says=["If the van comes at six, I'll open at half past.",
+     "I won't open at all unless the fish is here by five."]),
+  dict(x=960, h=240, skin=1, cloth=0, hair='grey', arm='folded', facing='left',
+   label='Mr Tan', role='the manager', says=['By the time it gets here, the restaurants '
+     'will have gone.'])]),
+
+"fig_a21_u05_p03_v09": dict(type='V9', kind='timeline', height=700,
+ title='The condition comes first, the result comes second',
+ sub='Both halves are about the future. Only one of them is allowed to say will.',
+ alt='A timeline showing an if-clause in the present tense and a will-clause for the result, '
+     'with time clauses marked underneath.',
+ now=0.22, axis_y=490,
+ bands=[dict(type='before', lane=1, **{'from': 0.26, 'to': 0.46},
+     label='IF + present - the condition', example='If the van comes at six...'),
+   dict(type='reach', lane=3, **{'from': 0.52}, label="WILL - the result",
+     example="...I'll open at half past."),
+   dict(type='event', lane=5, **{'from': 0.52}, label='AS SOON AS / UNTIL / BY THE TIME + present',
+     example="I'll start as soon as it arrives.")],
+ rule='After if, unless, when, as soon as, until and by the time, English uses the present even '
+      'though you mean the future. Never If it will rain.'),
+
+"fig_a21_u05_p03_v09b": dict(type='V9', kind='branch', height=700,
+ title='The road forks at four o\'clock',
+ sub='One condition, three ends. A plan is the drawing, not the hope.',
+ alt='A branching diagram from a single condition into three outcomes: the van on time, the van '
+     'late, and the van not coming at all.',
+ root='if the van...',
+ branches=[dict(label='...comes at four', example="we unload and open as usual", colour='#2E6F5E'),
+   dict(label='...comes at six', example="I'll open at half past and lose the restaurants",
+        colour='#C86B2B'),
+   dict(label="...doesn't come", example="unless it is here by five, I won't open at all",
+        colour='#A8372E'),
+   dict(label='...is early, which happens', example='nobody has a plan for this one',
+        colour='#9AA7AE', dash='6 6')]),
+
+"fig_a21_u05_p04_v04": dict(type='V4', height=720,
+ title='A plan, and a hope',
+ sub='Learner A has the van. Learner B has the stall. Both say they have a plan.',
+ alt='Two panels compared: one showing a plan with named fallbacks and times, the other showing '
+     'a single arrow with nothing behind it.',
+ differences=6, prompt='Which of these could somebody act on tomorrow morning?',
+ left=dict(label='A PLAN', art=[
+   dict(kind='block', x=110, y=0, w=120, bh=50, colour='#2E6F5E'),
+   dict(kind='block', x=250, y=70, w=120, bh=40, colour='#C86B2B'),
+   dict(kind='block', x=250, y=130, w=120, bh=40, colour='#9AA7AE'),
+   dict(kind='label', x=300, y=210, text='04:00, else 04:40, else the cold store',
+        colour='#2E6F5E')]),
+ right=dict(label='A HOPE', art=[
+   dict(kind='block', x=110, y=0, w=120, bh=50, colour='#2E6F5E'),
+   dict(kind='arrow', x=280, y=10),
+   dict(kind='label', x=300, y=210, text='"we will deal with it"', colour='#A8372E')])),
+
+"fig_a21_u05_p05_v05": dict(type='V5', height=1000,
+ title='The printed timetable, and the notice beside it',
+ sub='Five services in one hour, and one of them has a footnote that changes everything.',
+ alt='A station timetable for the five o clock hour with connection times, plus a refund notice '
+     'and a footnote about a service that runs on weekdays only.',
+ rows=[dict(t='org', text='KL SENTRAL  -  DEPARTURES 05.00 - 06.30'),
+   dict(t='grid', cols=['DEPART', 'ARRIVE', 'CONNECTS 05.40?'],
+     data=[['05.02', '05.19', 'yes'], ['05.22', '05.38', 'yes - 2 min'],
+           ['05.46', '06.03', 'no'], ['06.15 *', '06.31', 'no - but see note'],
+           ['07.10', '07.26', 'next option']]),
+   dict(t='rule'),
+   dict(t='head', text='NOTE *'),
+   dict(t='para', text='The 06.15 runs Monday to Friday only and is held for the 06.40 '
+     'connection when the 05.22 is cancelled. It is not shown on the app.'),
+   dict(t='rule'),
+   dict(t='head', text='REFUNDS'),
+   dict(t='kv', k='Delay over 30 min', v='50 % of fare', mono=True),
+   dict(t='kv', k='Delay over 60 min', v='full fare', mono=True),
+   dict(t='kv', k='Cancellation', v='full fare', mono=True),
+   dict(t='kv', k='Claim within', v='28 days', mono=True),
+   dict(t='para', text='Missed connections with another operator are not covered. Claims must '
+     'name the service, not the journey.'),
+   dict(t='rule'),
+   dict(t='sign', text='STICKER OVER THE BOTTOM CORNER:'),
+   dict(t='para', text='"Roadworks Jalan Ipoh - allow 20 min. Since February."')],
+ callouts=[dict(at=0.18, text='Two minutes of margin, and the reviewer had eighteen'),
+   dict(at=0.26, text='The service the app never mentions'),
+   dict(at=0.42, text='Weekdays only - and held, which is the useful word'),
+   dict(at=0.62, text='Thirty minutes before anything is owed'),
+   dict(at=0.78, text='Name the service, not the journey. This is where claims fail'),
+   dict(at=0.94, text='A sticker doing the job the timetable should have done')]),
+
+"fig_a21_u05_p06_v03a": dict(type='V3', height=640,
+ title='Condition, time, deadline',
+ sub='Three different jobs that all look like if.',
+ alt='A four-panel strip distinguishing a condition, a point in time, a deadline and an '
+     'insurance clause.',
+ axis_start='uncertain', axis_end='fixed',
+ panels=[dict(caption='IF - it may not happen at all', art=[
+     dict(kind='block', x=120, y=0, w=90, bh=50, colour='#C86B2B'),
+     dict(kind='gap', x=240, y=0, w=90, bh=50),
+     dict(kind='label', x=160, y=180, text='if it rains / unless', colour='#C86B2B')]),
+   dict(caption='AS SOON AS - it will happen, we do not know when', art=[
+     dict(kind='arrow', x=200, y=30),
+     dict(kind='label', x=160, y=180, text='as soon as / whenever', colour='#1F4E5F')]),
+   dict(caption='UNTIL - it stops at a point', art=[
+     dict(kind='block', x=100, y=10, w=200, bh=44, colour='#2E6F5E'),
+     dict(kind='cross', x=340, y=90),
+     dict(kind='label', x=160, y=185, text='until / by the time', colour='#2E6F5E')]),
+   dict(caption='AT THE LATEST - and not one minute after', art=[
+     dict(kind='label', x=160, y=80, text='06:00', colour='#A8372E'),
+     dict(kind='label', x=160, y=185, text='no later than / in time', colour='#A8372E')])]),
+
+"fig_a21_u05_p06_v04b": dict(type='V4', height=700,
+ title='Unless, and if not',
+ sub='The same meaning, and one of them makes people stop and think.',
+ alt='Two sentences compared, one using unless and one using if not, drawn as the same fork '
+     'from different sides.',
+ differences=6, prompt='Which one would you put on a notice, and why?',
+ left=dict(label='UNLESS it is here by five', art=[
+   dict(kind='block', x=130, y=0, w=180, bh=50, colour='#A8372E'),
+   dict(kind='cross', x=390, y=70),
+   dict(kind='label', x=300, y=200, text='one word, already negative', colour='#A8372E')]),
+ right=dict(label='IF it is NOT here by five', art=[
+   dict(kind='block', x=130, y=0, w=180, bh=50, colour='#1F4E5F'),
+   dict(kind='gap', x=340, y=0, w=90, bh=50),
+   dict(kind='cross', x=390, y=70),
+   dict(kind='label', x=300, y=200, text='two words, and clearer out loud', colour='#1F4E5F')])),
+
+"fig_a21_u05_p07_v10": dict(type='V10', kind='pitch', height=660,
+ title='Up, then down',
+ sub='The first half is not finished, so the voice does not finish either.',
+ alt='Three conditional sentences drawn as pitch contours rising on the if-clause and falling '
+     'on the result.',
+ contours=[dict(text='If the van comes at six, | I\'ll open at half past.',
+     points=[0, .4, .7, .9, .5, .2, -.2, -.5], meaning='rise, then fall - a plan'),
+   dict(text='Unless it rains, | we\'ll set off at four.',
+     points=[.2, .6, .9, .4, .1, -.2, -.4, -.6], meaning='the same shape, with unless'),
+   dict(text='If you leave now | you\'ll make it.',
+     points=[.1, -.2, -.5, -.3, -.4, -.6, -.7, -.8], meaning='all down - a warning')]),
+
+"fig_a21_u05_p08_v06": dict(type='V6', kind='bar', height=780,
+ title='What the market takes, hour by hour',
+ sub='One Tuesday, counted at the gate. The buyers are not the same people all morning.',
+ alt='A bar chart of market takings by hour split between restaurant buyers and the public, '
+     'showing restaurant trade concentrated before seven.',
+ labels=['04-05', '05-06', '06-07', '07-08', '08-09', '09-10'],
+ ymin=0, ymax=10, fmt='{:,.1f}',
+ series=[dict(name='restaurant buyers', values=[3.1, 4.4, 2.2, 0.4, 0.1, 0.0], colour='#1F4E5F'),
+   dict(name='the public', values=[0.2, 0.6, 1.4, 2.9, 3.6, 2.4], colour='#D9A441')],
+ note='Restaurant buying is nearly over by seven. Public buying has barely started. Those two '
+      'facts are what the slot change actually moves.',
+ warning='The 04-06 block is 7.5 of a 21.3 morning. A van costing 1,100 a month has to protect '
+         'about a third of the day.'),
+
+"fig_a21_u05_p09_v03b": dict(type='V3', height=640,
+ title='Four questions that test a claim',
+ sub='None of them is rude. All four of them are usually skipped.',
+ alt='A four-panel strip showing the questions were you there, when was that, who told you and '
+     'how do you know, each with what it tests.',
+ axis_start='a claim', axis_end='a source',
+ panels=[dict(caption='"Were you there?"', art=[
+     dict(kind='person', x=150, y=0, h=112, skin=2, cloth=3, arm='point'),
+     dict(kind='label', x=160, y=185, text='how direct', colour='#1F4E5F')]),
+   dict(caption='"When was that?"', art=[
+     dict(kind='label', x=160, y=70, text='05:22', colour='#C86B2B'),
+     dict(kind='label', x=160, y=185, text='how fresh', colour='#C86B2B')]),
+   dict(caption='"Who told you?"', art=[
+     dict(kind='person', x=110, y=0, h=110, skin=0, cloth=1),
+     dict(kind='arrow', x=230, y=40),
+     dict(kind='label', x=160, y=185, text='the chain', colour='#8C6A9E')]),
+   dict(caption='"How do you know?"', art=[
+     dict(kind='doc', x=170, y=20),
+     dict(kind='label', x=160, y=190, text='the method', colour='#2E6F5E')])]),
+
+"fig_a21_u05_p10_v12": dict(type='V12', height=840,
+ title='The morning the slot moved',
+ sub='Half the class sees the timetable. Half sees the road. Rebuild the morning by speaking.',
+ alt='An infographic of a market morning from four to ten showing deliveries, buyer types, the '
+     'slot change and the cost of each option.',
+ span=['04:00', '10:00'], ticks=6,
+ tick_labels=['04:00', '05:00', '06:00', '07:00', '08:00', '10:00'],
+ bands=[dict(name='Deliveries', type='bars', items=[
+   dict(**{'from': 0.0, 'to': 0.14}, label='the old slot', colour='#2E6F5E'),
+   dict(**{'from': 0.33, 'to': 0.46}, label='the new slot', colour='#C86B2B'),
+   dict(**{'from': 0.18, 'to': 0.28}, label='the 05.15 nobody knew about', colour='#8C6A9E')]),
+  dict(name='Who is buying', type='events', items=[
+   dict(at=0.08, label='restaurants arrive', colour='#1F4E5F'),
+   dict(at=0.42, label='restaurants have gone', colour='#A8372E'),
+   dict(at=0.52, label='the public starts', colour='#D9A441'),
+   dict(at=0.80, label='the busiest hour', colour='#D9A441')]),
+  dict(name='Takings', type='line',
+   points=[(0, 3.3), (0.17, 5.0), (0.33, 3.6), (0.5, 3.3), (0.67, 3.7), (1.0, 2.4)],
+   end_label='21.3'),
+  dict(name='The options', type='flags', items=[
+   dict(at=0.12, label='private van: 1,100 a month'),
+   dict(at=0.40, label='accept: lose the restaurant block'),
+   dict(at=0.66, label='object: 14 days, never won'),
+   dict(at=0.92, label='and the 05.15, found by accident')])]),
+}

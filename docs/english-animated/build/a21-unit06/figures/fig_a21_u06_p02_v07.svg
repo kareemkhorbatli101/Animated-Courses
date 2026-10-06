@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Hafiz and Siti, and 2,600 ringgit</title>
+<desc>A young man and an older trader talking across a stall about a phone system and a chiller, with speech bubbles showing verb patterns.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="650" rx="0" fill="#EEE9DE"/>
+<rect x="0" y="650" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="650" x2="1600" y2="650" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="680" y="589.0" width="234.0" height="91.0" rx="0" fill="#E4D7C3" stroke="#1C2B33" stroke-width="1.8"/>
+<polygon points="661.8,589.0 932.2,589.0 901.0,534.4 693.0,534.4" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.8"/>
+<circle cx="719.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="771.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="823.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="875.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<rect x="1300" y="627.2" width="64.8" height="52.8" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1300" y1="648.8" x2="1364.8" y2="648.8" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="20_subject">
+<ellipse cx="450" cy="674.2705882352941" rx="31.317647058823532" ry="7.11764705882353" fill="#1C2B33" opacity="0.10"/>
+<path d="M 437.18823529411765 670 L 440.0352941176471 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 462.81176470588235 670 L 459.9647058823529 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 450.0 484.9411764705883 L 450 564.3741176470588" fill="none" stroke="#4A5A66" stroke-width="34.16470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 422.9529411764706 486.364705882353 L 477.0470588235294 486.364705882353" fill="none" stroke="#4A5A66" stroke-width="18.50588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 422.9529411764706 489.2117647058824 L 418.6823529411765 572.915294117647" fill="none" stroke="#4A5A66" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="418.6823529411765" cy="577.1858823529411" r="7.11764705882353" fill="#E8C39E"/>
+<path d="M 477.0470588235294 489.2117647058824 L 514.0588235294118 482.09411764705885" fill="none" stroke="#4A5A66" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="519.7529411764706" cy="480.6705882352942" r="7.11764705882353" fill="#E8C39E"/>
+<path d="M 450.0 477.82352941176475 L 450.0 470.7058823529412" fill="none" stroke="#E8C39E" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="450.0" cy="452.20000000000005" r="21.35294117647059" fill="#E8C39E"/>
+<path d="M 428.6470588235294 449.3529411764706 A 21.35294117647059 21.35294117647059 0 0 1 471.3529411764706 449.3529411764706" fill="none" stroke="#2A2320" stroke-width="9.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="447.15294117647056" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<circle cx="461.38823529411764" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<path d="M 448.5764705882353 463.5882352941177 Q 454.2705882352941 466.4352941176471 459.9647058823529 463.5882352941177" fill="none" stroke="#8A5A48" stroke-width="2.2776470588235296" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="450" y="707.0117647058823" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Hafiz</text>
+<text x="450" y="732.635294117647" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">three years</text>
+<ellipse cx="950" cy="674.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 937.2941176470588 670 L 940.1176470588235 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 962.7058823529412 670 L 959.8823529411765 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950.0 486.47058823529414 L 950 565.2470588235294" fill="none" stroke="#8C6A9E" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 923.1764705882352 487.8823529411765 L 976.8235294117648 487.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 923.1764705882352 492.11764705882354 L 968.3529411764706 517.5294117647059" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="971.1764705882352" cy="518.9411764705883" r="7.058823529411765" fill="#8D5A3B"/>
+<path d="M 976.8235294117648 492.11764705882354 L 931.6470588235294 523.1764705882354" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="928.8235294117648" cy="524.5882352941177" r="7.058823529411765" fill="#8D5A3B"/>
+<path d="M 950.0 479.4117647058824 L 950.0 472.3529411764706" fill="none" stroke="#8D5A3B" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="950.0" cy="454.0" r="21.176470588235297" fill="#8D5A3B"/>
+<path d="M 926.0 459.6470588235294 A 23.176470588235297 23.176470588235297 0 0 1 974.0 459.6470588235294 L 974.0 476.5882352941176 L 926.0 476.5882352941176 Z" fill="#6B7F8C" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="938.7058823529412" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="952.8235294117646" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 940.1176470588235 465.29411764705884 Q 945.7647058823529 468.11764705882354 951.4117647058823 465.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="950" y="706.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Siti</text>
+<text x="950" y="732.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">thirty-one years</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Hafiz and Siti, and 2,600 ringgit</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them has already done the research. One of them has thirty-one years of it.</text>
+<rect x="285.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="357.6,199.2 410.4,199.2 450,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="359.6" y1="199.2" x2="408.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="450.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I've decided to ask the customers first.</text>
+<text x="450.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I don't mind asking them.</text>
+<rect x="785.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="857.6,199.2 910.4,199.2 950,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="859.6" y1="199.2" x2="908.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="950.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">We can't afford to do both.</text>
+<text x="950.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I'd avoid buying anything second-hand.</text>
+</g>
+</svg>

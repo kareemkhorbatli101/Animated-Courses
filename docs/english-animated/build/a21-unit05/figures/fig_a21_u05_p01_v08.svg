@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>One journey, four places it can break</title>
+<desc>A network of a journey from home through bus, station, connection and arrival, with the break points marked on each link.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="190" y1="400" x2="540" y2="250" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="540" y1="250" x2="910" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="540" y1="250" x2="540" y2="560" stroke="#A8372E" stroke-width="4" stroke-linecap="round"/>
+<line x1="540" y1="560" x2="910" y2="400" stroke="#A8372E" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="910" y1="400" x2="1290" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="540" y1="560" x2="1290" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="190" cy="400" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="190" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="190" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Home</text>
+<text x="190" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">set off at 04.50</text>
+<circle cx="540" cy="250" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="540" y="255" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="540" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The bus</text>
+<text x="540" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">05.22, if it runs</text>
+<circle cx="540" cy="560" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="540" y="565" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="540" y="632" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Roadworks</text>
+<text x="540" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">since February</text>
+<circle cx="910" cy="400" r="54" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="910" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="910" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Sentral</text>
+<text x="910" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">platform 6, gate 2</text>
+<circle cx="1290" cy="400" r="54" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1290" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1290" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Arrival</text>
+<text x="1290" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">06.40, or 07.10</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One journey, four places it can break</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five stages. Every arrow is a place where a plan needs a second half.</text>
+<rect x="307.0" y="310.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="365.0" y="329.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">eight minutes on foot</text>
+<rect x="667.0" y="310.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="725.0" y="329.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">if it is under four minutes down</text>
+<rect x="482.0" y="390.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="540.0" y="409.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Jalan Ipoh</text>
+<rect x="667.0" y="465.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="725.0" y="484.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">adds twenty minutes</text>
+<rect x="1042.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1100.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the 05.40 connection</text>
+<rect x="857.0" y="465.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="915.0" y="484.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">or the 07.10, ninety minutes later</text>
+</g>
+</svg>

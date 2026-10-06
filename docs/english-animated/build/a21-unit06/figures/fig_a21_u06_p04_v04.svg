@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>Two quotations, one stall</title>
+<desc>Two panels compared: a refrigerated cabinet with a price and a warranty, and a phone order system with an annual fee.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the chiller</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the phone system</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="110.0" y="452" width="180" height="110" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="440.0" cy="563.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 434.0705882352941 562 L 435.38823529411764 510.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 445.9294117647059 562 L 444.61176470588236 510.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 440.0 476.35294117647055 L 440.0 513.1152941176471" fill="none" stroke="#8C6A9E" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 427.4823529411765 477.01176470588234 L 452.5176470588235 477.01176470588234" fill="none" stroke="#8C6A9E" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 427.4823529411765 478.32941176470587 L 425.50588235294117 517.0682352941177" fill="none" stroke="#8C6A9E" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="425.50588235294117" cy="519.044705882353" r="3.2941176470588234" fill="#8D5A3B"/>
+<path d="M 452.5176470588235 478.32941176470587 L 454.49411764705883 517.0682352941177" fill="none" stroke="#8C6A9E" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="454.49411764705883" cy="519.044705882353" r="3.2941176470588234" fill="#8D5A3B"/>
+<path d="M 440.0 473.05882352941177 L 440.0 469.7647058823529" fill="none" stroke="#8D5A3B" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="440.0" cy="461.2" r="9.882352941176471" fill="#8D5A3B"/>
+<path d="M 430.11764705882354 459.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 449.88235294117646 459.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="436.70588235294116" cy="461.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="443.29411764705884" cy="461.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 437.36470588235295 466.4705882352941 Q 440.0 467.7882352941176 442.63529411764705 466.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="352" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">2,400 new  /  900 used  -  a thing you own</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="986.0" y="474" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="996.0" y1="488" x2="1044.0" y2="488" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="996.0" y1="502" x2="1044.0" y2="502" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="996.0" y1="516" x2="1044.0" y2="516" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="996.0" y1="530" x2="1044.0" y2="530" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="996.0" y1="544" x2="1044.0" y2="544" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<ellipse cx="1180.0" cy="563.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1174.070588235294 562 L 1175.3882352941177 510.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1185.929411764706 562 L 1184.6117647058823 510.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180.0 476.35294117647055 L 1180.0 513.1152941176471" fill="none" stroke="#4A5A66" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1167.4823529411765 477.01176470588234 L 1192.5176470588235 477.01176470588234" fill="none" stroke="#4A5A66" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1167.4823529411765 478.32941176470587 L 1165.5058823529412 517.0682352941177" fill="none" stroke="#4A5A66" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1165.5058823529412" cy="519.044705882353" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 1192.5176470588235 478.32941176470587 L 1194.4941176470588 517.0682352941177" fill="none" stroke="#4A5A66" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1194.4941176470588" cy="519.044705882353" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 1180.0 473.05882352941177 L 1180.0 469.7647058823529" fill="none" stroke="#E8C39E" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1180.0" cy="461.2" r="9.882352941176471" fill="#E8C39E"/>
+<path d="M 1170.1176470588234 459.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 1189.8823529411766 459.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1176.7058823529412" cy="461.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="1183.2941176470588" cy="461.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 1177.3647058823528 466.4705882352941 Q 1180.0 467.7882352941176 1182.6352941176472 466.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1220.0 522 L 1280.0 522" fill="none" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1280.0,522 1268.0,515 1268.0,529" fill="#C86B2B"/>
+<text x="1120.0" y="352" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">2,350 a year  -  a thing you rent</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two quotations, one stall</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the chiller. Learner B has the phone system. Both cost about 2,400.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which of these can be sold again in three years?</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

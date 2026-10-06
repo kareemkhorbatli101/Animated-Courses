@@ -622,15 +622,16 @@ def v9_grammar(spec):
         ctx.append(circle(x0, sy, 12, fill=INK))
         ctx.append(text(x0, sy + 42, spec.get('root', 'if…'), size=T_LABEL,
                         anchor='middle', weight='700', fill=INK))
+        xe = x0 + (x1 - x0) * 0.46          # branches stop early; the words get the right half
         for i, br in enumerate(spec['branches']):
             ey = 160 + i * ((h - 300) / max(1, len(spec['branches']) - 1))
             col = br.get('colour', SHADE[i % 6])
-            sub.append(path(f'M {x0} {sy} C {(x0+x1)/2} {sy} {(x0+x1)/2} {ey} {x1 - 40} {ey}',
+            sub.append(path(f'M {x0} {sy} C {(x0+xe)/2} {sy} {(x0+xe)/2} {ey} {xe} {ey}',
                             stroke=col, sw=3.4, dash=br.get('dash')))
-            sub.append(poly([(x1 - 40, ey), (x1 - 56, ey - 8), (x1 - 56, ey + 8)], fill=col))
-            lab.append(text(x1 - 24, ey - 10, br['label'], size=T_CALLOUT, weight='700', fill=col))
-            lab.append(text(x1 - 24, ey + 14, br['example'], size=T_MICRO, fill=INK_SOFT,
-                            style='italic'))
+            sub.append(poly([(xe, ey), (xe - 16, ey - 8), (xe - 16, ey + 8)], fill=col))
+            lab.append(text(xe + 18, ey - 8, br['label'], size=T_CALLOUT, weight='700', fill=col))
+            lab.append(wrap(xe + 18, ey + 18, br['example'], size=T_MICRO, width=52,
+                            fill=INK_SOFT, style='italic')[0])
 
     elif kind == 'scope':                          # a bracket over part of a sentence
         sy = h / 2
