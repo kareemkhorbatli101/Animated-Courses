@@ -29,10 +29,28 @@ def v1_scene(spec):
     band = h - gl                              # label band below it
     ctx, sub, det, lab = [], [], [], []
     ctx.append(rect(0, 0, W, gl, fill=sky))
+    SH = spec.get('storey_h', 118)
+
+    # A distant skyline behind everything, so the sky is never a blank slab.
+    # Deterministic from the title, so a figure looks the same on every build.
+    if spec.get('skyline', True):
+        seed = sum(ord(c) * (i + 3) for i, c in enumerate(spec.get('title', '')))
+        x = -40
+        k = 0
+        while x < W + 40:
+            k += 1
+            bw = 60 + (seed * k * 7) % 150
+            bh = 40 + (seed * k * 13) % int(max(60, SH * 1.9))
+            ctx.append(rect(x, gl - bh, bw, bh, fill=INK, opacity=.085, stroke='none'))
+            if (seed * k) % 3 == 0:                       # a roof box, now and then
+                ctx.append(rect(x + bw * .25, gl - bh - 16, bw * .3, 16,
+                                fill=INK, opacity=.085, stroke='none'))
+            x += bw + 14 + (seed * k * 3) % 40
+        ctx.append(rect(0, gl - 34, W, 34, fill=sky, opacity=.45))   # horizon haze
+
     ctx.append(rect(0, gl, W, band, fill=ground))
     ctx.append(rect(0, gl, W, 26, fill=INK, opacity=.07))
     ctx.append(line(0, gl, W, gl, stroke=INK, sw=2.2, opacity=.35))
-    SH = spec.get('storey_h', 118)
 
     for b in spec.get('buildings', []):
         x, bw, st, col = b['x'], b['w'], b['storeys'], b.get('colour', '#D8CFC2')

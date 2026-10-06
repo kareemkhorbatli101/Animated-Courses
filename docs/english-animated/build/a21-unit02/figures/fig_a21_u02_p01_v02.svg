@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>The cold room, in section</title>
+<desc>A cold room drawn in section with four shelf levels labelled by temperature and by what is stored there.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="154" y="104" width="592" height="582" rx="0" fill="#F3ECE0"/>
+<rect x="170" y="120" width="560" height="550" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4"/>
+<rect x="170" y="120.0" width="560" height="137.5" rx="0" fill="#DCE6EA" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="257.5" width="560" height="137.5" rx="0" fill="#E4ECEF" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="395.0" width="560" height="137.5" rx="0" fill="#F6F0E4" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="532.5" width="560" height="137.5" rx="0" fill="#F2EDE2" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 730 670" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the fan</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Cold comes out here - 8 degrees at the grille</text>
+<text x="190" y="289.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">top shelf</text>
+<text x="190" y="315.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Leaves and herbs - they wilt first</text>
+<text x="190" y="427.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">middle shelf</text>
+<text x="190" y="453.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Tomatoes - 12 degrees, never below ten</text>
+<text x="190" y="564.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the floor</text>
+<text x="190" y="590.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Root vegetables and anything in a sack</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The cold room, in section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Cold falls. That is the whole reason the shelves are arranged like this.</text>
+<circle cx="736" cy="186.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 186.0 L 866 186.0 L 866 186.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="191.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The coldest point in the room</text>
+<circle cx="736" cy="318.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 318.0 L 866 318.0 L 866 318.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="323.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nearest the fan, out first</text>
+<circle cx="736" cy="461.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 461.0 L 866 461.0 L 866 461.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="466.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Below ten they stop ripening</text>
+<text x="880" y="486.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">for good</text>
+<circle cx="736" cy="604.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 604.0 L 866 604.0 L 866 604.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="609.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Warmest shelf, and it does not</text>
+<text x="880" y="629.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">matter here</text>
+</g>
+</svg>

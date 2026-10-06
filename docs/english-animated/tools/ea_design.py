@@ -198,6 +198,19 @@ def person(x, y, h=170, skin=0, cloth=0, lean=0, arm='down', hair='short',
     elif hair == 'grey':
         o.append(path(f'M {x - head_r + lean_x} {head_cy - 2*s} A {head_r} {head_r} 0 0 1 '
                       f'{x + head_r + lean_x} {head_cy - 2*s}', stroke='#B9B2AA', sw=7 * s, fill='none'))
+    elif hair == 'cap':
+        # a working cap: crown over the top of the head, peak to the facing side
+        o.append(path(f'M {x - head_r - 1*s + lean_x} {head_cy - 1*s} A {head_r + 1} {head_r + 1} 0 0 1 '
+                      f'{x + head_r + 1*s + lean_x} {head_cy - 1*s} Z', fill='#30555F', stroke='none'))
+        peak = 1 if facing != 'left' else -1
+        o.append(path(f'M {x + lean_x} {head_cy - 1*s} L {x + peak * (head_r + 11*s) + lean_x} '
+                      f'{head_cy - 2*s} L {x + peak * (head_r + 9*s) + lean_x} {head_cy + 2*s} '
+                      f'L {x + lean_x} {head_cy + 2*s} Z', fill='#26454E', stroke='none'))
+    elif hair == 'bun':
+        o.append(path(f'M {x - head_r + lean_x} {head_cy - 2*s} A {head_r} {head_r} 0 0 1 '
+                      f'{x + head_r + lean_x} {head_cy - 2*s}', stroke='#2A2320', sw=7 * s, fill='none'))
+        o.append(circle(x - (head_r + 5*s) * (1 if facing == 'left' else -1) + lean_x,
+                        head_cy - 3*s, 7 * s, fill='#2A2320', stroke='none'))
     # face: two eyes, a mouth line. Facing changes eye offset only.
     ex = {'front': 0, 'left': -3 * s, 'right': 3 * s}[facing]
     o.append(circle(x + lean_x + ex - 5 * s, head_cy + 1 * s, 1.8 * s, fill='#2A2320'))
