@@ -4,7 +4,7 @@
 > distractor — *"a mistake in the code"* — used **29 times** verbatim in an auto book, a furniture
 > book and a trade book (`00-diagnosis.md` §3.3).
 
-English Animated specifies **48 task types** in nine families, each with a declared cognitive level,
+English Animated specifies **64 task types** in nine families, each with a declared cognitive level,
 a level band, and a rule for use. A writer selects from the taxonomy; a writer may not invent a
 seventh rubric and call it a unit.
 
@@ -192,5 +192,6 @@ The writer's dials:
 | **Interlocutor** | Cooperative → neutral → briefed to disagree → briefed to interrupt |
 | **Stakes** | Private → partner → group → recorded → published |
 
-A single task type therefore spans A1 to C2 without redesign. This is how 48 types cover 140 units
-without the learner ever meeting the same exercise twice.
+A single task type therefore spans A1 to C2 without redesign. This is how 64 types cover 140 units
+without the learner ever meeting the same exercise twice — the arithmetic is checked in
+`15-rotation-maps.md` §5.

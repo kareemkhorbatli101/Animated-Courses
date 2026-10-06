@@ -104,11 +104,11 @@ inside it shifts. This is what makes the series feel graded rather than repetiti
 
 | Component | Extent | Notes |
 |---|---|---|
-| **Student's Book** | 160–208 pp | 10 units × 12 parts + 2 Milestone reviews + reference |
-| **Workbook** | 96–128 pp | Second-exposure practice, one spread per Part, full answer key |
-| **Teacher's Edition** | 224–288 pp | Interleaved pages, timings, staging, anticipated errors, culture notes, three lesson paths (fast / standard / extended) |
+| **Student's Book** | 208–264 pp | 10 units (22 pp at A, 20 at B, 18 at C) + 2 Milestone spreads (8 pp) + 24–32 pp back matter |
+| **Workbook** | 96–128 pp | 8 pp per unit — one page for each of the nine practice parts, minus the two that are performance-only — plus 24 pp key and reference |
+| **Teacher's Edition** | 288–336 pp | Interleaved pages, timings, staging, anticipated errors, culture notes, three lesson paths (fast / standard / extended) |
 | **Animated Asset Library** | 90–160 assets | Layered source + still export + scene JSON for the engine |
-| **Audio** | 70–110 tracks | 2.5–4 h; scripted, semi-scripted and unscripted; accent-banded (§5) |
+| **Audio** | 70–110 tracks | 1.5 h at A1 rising to 4.5 h at C2 (`03-grading-spine.md` §3); scripted, semi-scripted and unscripted; accent-banded (§5) |
 | **Video** | 20 per book | 10 Dialogue Stages + 10 Documentary shorts, rendered by the repo engine |
 | **Assessment Pack** | — | Diagnostic, 10 unit quizzes, 2 milestone tests, exit test, speaking & writing rubrics, exam-mapped practice |
 | **Platform course** | — | Catalogue entry under `courses/`, `course/1` schema, per-unit scenes |

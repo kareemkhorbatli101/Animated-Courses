@@ -150,8 +150,8 @@ activity · 8 interview someone about their job · 9 direct a lost visitor · 10
 | 6 | D3 | Why put it *there*? | cleft & pseudo-cleft for information structure | cleft sentences | explanation, teaching, clarity | focus & theme lexis | nuclear stress & theme | manage information flow |
 | 7 | D6 | What does the chart not say? | nominalisation | passive | data, climate, measurement | abstract noun formation | stress in derived nouns | write densely |
 | 8 | D9 | What was left out? | ellipsis and substitution | spoken grammar | editing, adaptation, brevity | *one/do so/such* | reduced forms & pausing | compress and imply |
-| 9 | D5 | How does a text move? | discourse markers: the full system | linkers | structure, navigation, argument | signposting lexis | marker intonation | guide a reader |
-| 10 | D2 | Who is being blamed? | inversion for emphasis: full range | inversion (intro) | accountability, framing | marked word order | emphatic contours | write for rhetorical effect |
+| 9 | D2 | Who is this written for? | discourse markers: the full system | linkers | editorial work, house style, desks and deadlines | signposting lexis | marker intonation | guide a reader |
+| 10 | D5 | Whose city is in the headline? | inversion for emphasis: full range | inversion (intro) | datelines, framing, naming a neighbourhood | marked word order | emphatic contours | write for rhetorical effect |
 
 ---
 
@@ -218,10 +218,10 @@ activity · 8 interview someone about their job · 9 direct a lost visitor · 10
 | 4 | D3 | What is a building *like*? | metaphor and its grammar | grammatical metaphor | design, cognition, teaching | metaphor families | metaphor prominence | think in metaphor |
 | 5 | D10 | Did they mean the opposite? | irony, understatement, litotes | humour & irony | criticism, politics | ironic markers | ironic contours | say less, mean more |
 | 6 | D7 | What happens when you break the phrase? | formulaic language and deliberate violation | fixed frames | advertising, slogans, AI text | formula & deviation | deviation stress | be memorable |
-| 7 | D1 | Can one text wear two voices? | register-switching within a text | register | correspondence, identity | register shift markers | shifting register aloud | modulate voice |
-| 8 | D8 | What makes an argument move people? | the grammar of persuasion | rhetoric structures | campaigning, pitching | persuasive syntax | persuasive delivery | persuade |
-| 9 | D5 | How do you say "yes, but no"? | the grammar of concession and refutation | concessive structures | planning disputes, review | refutation frames | concessive-refutative tune | refute gracefully |
-| 10 | D4 | What makes a sentence worse? | editing: diagnosis and repair | all | revision, clarity, care | editorial lexis | reading aloud to diagnose | edit your own prose |
+| 7 | D4 | What makes a sentence worse? | editing: diagnosis and repair | all | revision, clarity, care | editorial lexis | reading aloud to diagnose | edit your own prose |
+| 8 | D1 | Can one text wear two voices? | register-switching within a text | register | correspondence, identity | register shift markers | shifting register aloud | modulate voice |
+| 9 | D8 | What makes an argument move people? | the grammar of persuasion | rhetoric structures | campaigning, pitching | persuasive syntax | persuasive delivery | persuade |
+| 10 | D5 | How do you say "yes, but no"? | the grammar of concession and refutation | concessive structures | planning disputes, review | refutation frames | concessive-refutative tune | refute gracefully |
 
 ---
 
@@ -252,10 +252,10 @@ activity · 8 interview someone about their job · 9 direct a lost visitor · 10
 | 4 | D5 | How do you write a sentence to be *heard*? | the grammar of the spoken essay | rhythm, parallelism | place, journey, broadcast | spoken-written hybrid | script-to-speech | write for the ear |
 | 5 | D2 | Who is this actually for? | editing for a reader who is not you | editing | commissioning, pitching | audience design | reading as the reader | edit for audience |
 | 6 | D9 | How do you lead someone astray? | the grammar of misdirection | ambiguity, implicature | narrative, suspense, deepfake | implicature devices | misdirecting delivery | imply and withhold |
-| 7 | D10 | Can you hold a claim for 2,000 words? | argument at length | argument structures | investigation, justice | sustained argument | sustained delivery | argue at length |
+| 7 | D6 | Can you hold a claim for 2,000 words? | argument at length | argument structures | land, climate, long-form investigation | sustained argument | sustained delivery | argue at length |
 | 8 | D3 | Can you make this clear to anyone? | mediation at the highest level | mediation | expertise, public understanding | mediation devices | adaptive register | mediate expertly |
-| 9 | D7 | When is breaking the rule right? | style: rules, violation, and cost | all | style guides, AI drafting | prescriptive vs descriptive | confident deviation | own your style |
-| 10 | D6 | What will you make? | the final project | all | self-selected | self-selected | performance | produce and defend a major work |
+| 9 | D10 | Who decides what counts as good English? | style: rules, violation, and cost | all | style guides, gatekeeping, standard and non-standard | prescriptive vs descriptive | confident deviation | own your style |
+| 10 | D7 | What will you make, and who will read it? | the final project | all | publication, platforms, attention | self-selected | performance | produce and defend a major work |
 
 ---
 

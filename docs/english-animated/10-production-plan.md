@@ -4,8 +4,8 @@
 
 ## 1 · The unit of production
 
-One unit = 28.5 pp of Student's Book + 6 pp Workbook + 8 pp Teacher's Edition + ~12 figures +
-~8 audio tracks + 2 videos + 1 platform build. Fourteen books × 10 units = **140 units**.
+One unit = 20 pp of Student's Book (22 at A, 18 at C) + 8 pp Workbook + ~30 pp Teacher's Edition +
+12 figures + ~9 audio tracks + 2 videos + 1 platform build. Fourteen books × 10 units = **140 units**.
 
 Nothing is written until the **Series Bible** (§2) is signed off. The single largest cause of
 failure in a multi-level course is level 1 defining the architecture that level 6 then has to live

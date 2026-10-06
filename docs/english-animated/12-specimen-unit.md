@@ -72,6 +72,11 @@ on the same frontage. **27 nameable elements.** Animation states: TRAVERSE, HOTS
 | Stretch | **Collocation grid:** which of *rent · permission · a block · a stall · the kerb* goes with *raise · grant · put up · run · re-lay*? Then: which combination does nobody say? | L5 |
 | Own | Describe a street you know using six of these items and one you had to look up. | — |
 
+**Figure:** `fig_b11_u01_p01_v08` — **V8 Map / Network.** Sixty metres of the street drawn as a
+plan, each frontage shaded by what it is now and outlined by what it was in 2010. The tailor's
+stall is the only shape that does not change. Feeds the cline task directly: learners place the
+seven verbs against the seven plots. Animation: MORPH (2010 ⇄ 2026), HOTSPOT.
+
 **Corpus Note.** *"In a 1.2-billion-word corpus, ***redevelop*** appears beside* **site**, **area**
 *and* **scheme** *— almost never beside* **home**. *What is that choice doing?"* → L11.
 
@@ -94,6 +99,12 @@ completely on meaning.
 | **Inference** — *Grace never says she is worried. How do you know she is?* Cite the evidence | S5 | AN |
 | **Attitude** — Mr Kamau says "it's progress". Which *sound* tells you how he feels about it? | S4 | AN |
 | **Noticing** — six sentences from the audio on the page. *Which describe the background? Which describe a single completed event? Which describe something that had already happened before the story started?* **→ feeds Part 3. The grammar is not named.** | G1 | AN |
+
+**Figure:** `fig_b11_u01_p02_v07` — **V7 Dialogue Stage.** The three speakers, drawn full-figure
+in the places they actually stand: Grace in the stairwell with a mop bucket, Mr Kamau on the
+pavement facing the hoarding, Tom at a window looking out. Body language carries the attitude the
+audio carries — who is turned towards the new building and who is turned away. Speech balloons for
+one line each; thought balloons for what none of them says aloud. Serves the attitude-read task.
 
 **2B · Decoding clinic.** 42 seconds of Grace at full speed, four replays:
 *(1) how many words in the first sentence? (2) catch the three numbers (3) where do two words join
@@ -127,6 +138,7 @@ order.*
 | **Fluency sprint** | **4/3/2** — describe your street. Four minutes, then three, then two, same content, new partner each time. Fluency measured, not accuracy. (P1) |
 | **Functional core** | *Describing change and attributing it.* Language Bank, 11 chunks across three formality bands: *it's not what it was · the whole area's been done up · the character of the street has altered considerably.* Information gap: two learners hold photographs of the same street in 2010 and 2026. (P2) |
 | **Performance** | **The residents' meeting.** Six role cards, each with a stated position and a **hidden brief** the others do not see — Grace needs the hours, not the building; Mr Kamau has already signed something. Twenty minutes, unmanaged turn-taking. (P4) |
+| **Figure** | `fig_b11_u01_p04_v04` — **V4 Comparison Pair.** The same forty metres of frontage in 2010 and 2026, identical framing, **nine planted differences** at three levels of obviousness. The two learners in the information gap each see one panel only. Animation: MORPH. |
 | **Observer** | One learner per group listens only for: *who was interrupted, and who was never asked a question?* Reports in 30 seconds. |
 | **Self-assessment** | Two criteria only: *Did I give a reason every time I disagreed?* · *Did I bring in someone who had not spoken?* |
 
@@ -201,6 +213,7 @@ Task needs and the Part 5 texts are full of.
 | **Draft 1** | 140 words |
 | **Peer review** | **Two criteria only:** *Can I tell the order of events without re-reading?* · *Do I know who gained and who lost?* Both reviewers sign (W5) |
 | **Draft 2** | Redraft |
+| **Figure** | `fig_b11_u01_p08_v02` — **V2 Cutaway.** Jengo House in section, four storeys, each floor labelled with what it was built for and what it is used for now. The ground floor has changed use three times and the callouts say when. The model paragraph is written *from* this figure, so learners can see where a writer's facts came from. |
 | **Publish** | Posted to the platform wall; **one of these becomes the source text for Unit 2's Part 10 mediation task** (W6) |
 
 ---
@@ -232,7 +245,7 @@ decisions underneath. Dense; worth summarising.
 | Task | Type |
 |---|---|
 | **Relay** — half the class reads the left of the infographic, half the right. Reconstruct it together, speaking only | M1 |
-| **Simplify** — explain the planning notice from Part 5 to Grace, who has eleven minutes and no legal English | M2 |
+| **Simplify** — explain the planning notice from Part 5 to Grace, who has eleven minutes and no legal English. **Planning frame supplied:** *what it is → what it means for her → what she can still do → by when* | M2 |
 | **Compress** — the 290-word article into 60 words for a neighbourhood noticeboard. Then defend three cuts | M3 |
 | **Online interaction** — write the noticeboard post as a message in a residents' group chat. Tone must survive a screenshot | — |
 | **Cross-language** | Relay one of these in your own language, then back into English. What moved? | M6 |
@@ -249,8 +262,10 @@ A developer offers to buy Jengo House. The price is good. Six tenants, three pos
 - **Mariam** wants to refuse — her workshop cannot move; the machines are built into the floor.
 - **Grace** has not been asked, and has worked there six years on a handshake.
 
-**Evidence in three formats:** the offer letter (V5 realia) · a chart of what comparable tenants
-paid after similar sales (V6) · Grace's recorded voice, 40 seconds, from Part 2.
+**Evidence in three formats:** the offer letter, reproduced in full as text · `fig_b11_u01_p11_v06`
+— **V6 Data Visual**, what comparable tenants paid in the three years after four similar sales
+nearby, with the one outlier that everybody quotes · Grace's recorded voice, 40 seconds, lifted
+from Part 2. The learner must integrate all three; no two of them agree.
 
 | Stage | |
 |---|---|
@@ -288,11 +303,16 @@ paid after similar sales (V6) · Grace's recorded voice, 40 seconds, from Part 2
 | Max parts per language point | ≤4 | **narrative tenses: Parts 2, 3, 6, 8 = 4** ✔ |
 | Evaluate/create tasks | ≥3 | **7** — P0 Say it · R7 · R8 · P4 · W2 · T3 · T1 |
 | Task families used | ≥6 | **9** — L, G, R, S, P, W, M, T, V |
-| Figures | 12 | **12**, all cited by a task ✔ |
-| Figure types | ≥6 | **V1 V5 V6 V9 V10 V11 V12** = 7 |
+| Figures | 12 | **12**, all named and all cited by a task ✔ |
+| Figure types | ≥8 distinct (B1) | **V1 V2 V4 V5×2 V6 V7 V8 V9 V10 V11 V12** = 11 distinct ✔ |
+| Pages | 20 (B-level) | **20** |
 | Recycling | 4 + 2 | **4 from A2.2, 2 from A2.1** (Unit 1 rule) |
 | Rubric reuse | 0 | **0** |
 | Distractor reuse | 0 | **0** |
+| Scaffolding Load Index | 2.1 ±0.3 (B1) | **1.81** — at the floor after the Part 10 planning frame was added (`13-scaffolding-spine.md` §5) |
+| Reading genre | G1 feature (B1.1 U1, `15-rotation-maps.md` §3) | **feature article** ✔ |
+| Listening configuration | three speakers, one quiet (`15-rotation-maps.md` §4) | **Grace, Mr Kamau, Tom — Grace carries the inference task** ✔ |
+| File type | WORK (U1 of an A1–B2 book, `15-rotation-maps.md` §2) | **WORK · The Inbox** ✔ |
 
 **Compare with the unit it replaces.** EAT Unit 1 gives one grammar point nineteen of its slots,
 six task families, seventeen decorative figures none of which is used by a task, 6,260 words, and

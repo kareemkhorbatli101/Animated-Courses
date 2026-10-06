@@ -76,22 +76,27 @@ learner is invited to disagree with · a text written by a non-native user of En
 
 ## 3 · Listening
 
-| Book | Main (2A) | Decoding clinic (2B) | Total audio/unit | Speed (wpm) | Hesitation/false starts | Speakers in longest text |
+| Book | Main (2A) | Decoding clinic (2B) | Unit audio, all parts | Speed (wpm) | Hesitation/false starts | Speakers in longest text |
 |---|---|---|---|---|---|---|
-| A1.1 | 45–60 s | 20 s | 3 min | 90–100 | none | 2 |
-| A1.2 | 60–75 s | 25 s | 3.5 min | 95–105 | none | 2 |
-| A2.1 | 75–90 s | 30 s | 4.5 min | 105–115 | minimal | 2 |
-| A2.2 | 90–110 s | 30 s | 5 min | 110–120 | minimal | 3 |
-| B1.1 | 110–140 s | 40 s | 6 min | 120–130 | light | 3 |
-| B1.2 | 140–170 s | 40 s | 7 min | 125–135 | light | 3 |
-| B1.3 | 170–200 s | 45 s | 8 min | 130–140 | natural | 3 |
-| B2.1 | 200–240 s | 45 s | 9 min | 140–150 | natural | 4 |
-| B2.2 | 240–280 s | 50 s | 10 min | 145–155 | natural + overlap | 4 |
-| B2.3 | 280–330 s | 50 s | 11 min | 150–160 | natural + overlap | 5 |
-| C1.1 | 330–400 s | 60 s | 13 min | 155–170 | unscripted | 5 |
-| C1.2 | 400–450 s | 60 s | 14 min | 160–175 | unscripted | 5+ |
-| C2.1 | 450–550 s | 60 s | 16 min | 165–185 | unscripted, degraded audio | 6 |
-| C2.2 | 500–600 s | 60 s | 18 min | 170–190+ | unscripted, degraded audio | 6 |
+| A1.1 | 45–60 s | 20 s | 7 min | 90–100 | none | 2 |
+| A1.2 | 60–75 s | 25 s | 8 min | 95–105 | none | 2 |
+| A2.1 | 75–90 s | 30 s | 9 min | 105–115 | minimal | 2 |
+| A2.2 | 90–110 s | 30 s | 10 min | 110–120 | minimal | 3 |
+| B1.1 | 110–140 s | 40 s | 12 min | 120–130 | light | 3 |
+| B1.2 | 140–170 s | 40 s | 13 min | 125–135 | light | 3 |
+| B1.3 | 170–200 s | 45 s | 14 min | 130–140 | natural | 3 |
+| B2.1 | 200–240 s | 45 s | 16 min | 140–150 | natural | 4 |
+| B2.2 | 240–280 s | 50 s | 17 min | 145–155 | natural + overlap | 4 |
+| B2.3 | 280–330 s | 50 s | 18 min | 150–160 | natural + overlap | 5 |
+| C1.1 | 330–400 s | 60 s | 20 min | 155–170 | unscripted | 5 |
+| C1.2 | 400–450 s | 60 s | 21 min | 160–175 | unscripted | 5+ |
+| C2.1 | 450–550 s | 60 s | 23 min | 165–185 | unscripted, degraded audio | 6 |
+| C2.2 | 500–600 s | 60 s | 25 min | 170–190+ | unscripted, degraded audio | 6 |
+
+**Unit audio, all parts** counts every recorded minute in the unit, not only Part 2: the two
+listening texts, the Vocabulary Lab audio, the Speaking models, the Pronunciation Lab, the Decision
+evidence and the Part 12 review. Per book this gives **1.3 h at A1.1 rising to 4.3 h at C2.2**,
+including the Milestone Long Listens — the figure quoted in `01-series-architecture.md` §4.
 
 **Scripting ramp.** A1–A2 fully scripted and performed. B1 scripted from a real recording,
 re-performed with hesitation restored. B2 semi-scripted: speakers briefed, not scripted. C1–C2
@@ -198,14 +203,17 @@ course rather than a better-looking one.
 
 ## 8 · Figures and visual density
 
-| Book | Figures/unit | Figures/book | Type-V1 scenes | Cutaways/process | Realia/data | Grammar visuals |
-|---|---|---|---|---|---|---|
-| A1.1–A1.2 | 15 | 150 | 10 | 20 | 15 | 30 |
-| A2.1–A2.2 | 14 | 140 | 10 | 25 | 25 | 28 |
-| B1.1–B1.3 | 12 | 120 | 10 | 25 | 30 | 22 |
-| B2.1–B2.3 | 10 | 100 | 10 | 22 | 32 | 16 |
-| C1.1–C1.2 | 8 | 80 | 10 | 16 | 34 | 10 |
-| C2.1–C2.2 | 7 | 70 | 10 | 12 | 36 | 6 |
+| Book | Figures/unit | Figures/book | Minimum distinct types/unit |
+|---|---|---|---|
+| A1.1–A1.2 | 15 | 150 | 9 |
+| A2.1–A2.2 | 14 | 140 | 9 |
+| B1.1–B1.3 | 12 | 120 | 8 |
+| B2.1–B2.3 | 10 | 100 | 8 |
+| C1.1–C1.2 | 8 | 80 | 6 |
+| C2.1–C2.2 | 7 | 70 | 5 |
+
+The per-type breakdown that produces these totals is in `07-visual-system.md` §4; the two tables
+are held in agreement by Gate 1.
 
 Figure count falls as level rises; *information density per figure* rises sharply. An A1
 Establishing Scene carries 20 nameable objects; a C2 data visual carries a contested claim.

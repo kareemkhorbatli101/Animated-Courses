@@ -39,16 +39,39 @@ It is designed as a direct answer to three things in the brief:
 | **03** | [Grading Spine](03-grading-spine.md) | Every number: vocabulary, text length, audio speed, output length, task cognition, figure density |
 | **04** | [Language Spine](04-language-spine.md) | All 140 units: grammar targets, lexical sets, pronunciation, function |
 | **05** | [Topic Matrix](05-topic-matrix.md) | Ten domains × 14 books; how topicality is kept current without reprinting |
-| **06** | [Task Taxonomy](06-task-taxonomy.md) | 48 task types in nine families, with rules of use and difficulty dials |
+| **06** | [Task Taxonomy](06-task-taxonomy.md) | 64 task types in nine families, with rules of use and difficulty dials |
 | **07** | [Visual System](07-visual-system.md) | Twelve figure types, production standards, the animation layer, the brief template |
 | **08** | [Assessment](08-assessment.md) | Six layers from placement to portfolio; exam mapping; teacher analytics |
 | **09** | [Platform & Engine](09-platform-and-engine.md) | One source, five outputs; repository layout; the engine work that blocks the pilot |
 | **10** | [Production Plan](10-production-plan.md) | Phases, waves, five QA gates, team, costing, risk register |
 | **11** | [Pilot Books](11-pilot-books.md) | **Recommendation: B1.1 + A1.1, plus one C2.2 calibration unit** — with full unit maps |
 | **12** | [Specimen Unit](12-specimen-unit.md) | B1.1 Unit 1 blueprinted part by part, with its gate audit |
+| **13** | [Scaffolding Spine](13-scaffolding-spine.md) | 18 supports, the withdrawal schedule, the sufficiency floor and the Scaffolding Load Index |
+| **14** | [Specimen Texts](14-specimen-texts.md) | 18 real specimens — reading, listening, writing models, speaking answers — measured against band |
+| **15** | [Rotation Maps](15-rotation-maps.md) | 36 File formats across 140 slots; genre, listening and task-variety rotations, with the arithmetic |
+| **16** | [Calibration Log](16-calibration-log.md) | **Pass 1: 24 findings, 21 fixed.** What drifted, what regressed, what was missing, and what is still unchecked |
 
 **If you read three:** `02` (the architecture), `11` (what to build first), `12` (what it looks like
-on the page).
+on the page). **If you want to know whether it holds up:** `16` (the calibration log) and `14` (the
+texts, measured).
+
+---
+
+## Calibration state
+
+Pass 1 complete — see `16`. 24 findings: 8 drift, 4 regression, 9 omission, 3 verified clean.
+All 21 defects fixed; three documents and one checking tool added.
+
+| Check | State |
+|---|---|
+| Specimen texts in band (18) | **PASS** — `tools/measure_specimens.py --check` |
+| Reading complexity gradient monotonic A1→C2 | **PASS** — 9.3 · 12.3 · 14.3 · 18.7 · 22.5 · 23.9 |
+| Domain matrix: 14 rows × 10 domains, 0 adjacency clashes | **PASS** |
+| Genre matrix: 14 rows × 10 genres, 0 adjacency clashes | **PASS** |
+| 140-unit spine agrees with the domain matrix | **PASS** |
+| Figure distribution sums to the stated totals | **PASS** |
+| Specimen unit Scaffolding Load Index ≥ B1 floor | **PASS** — 1.81 against a floor of 1.8 |
+| Lexical database, grammar database, can-do inventory | **not yet built** — Phase 0, blocking (`16` §6) |
 
 ---
 

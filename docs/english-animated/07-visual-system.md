@@ -168,21 +168,27 @@ timeline, the chain. Dense enough to be worth summarising.
 
 ## 4 · Distribution per unit
 
-| Type | A-level | B-level | C-level |
-|---|---|---|---|
-| V1 Establishing Scene | 1 | 1 | 1 |
-| V2 Cutaway | 2 | 1 | 1 |
-| V3 Process Strip | 2 | 1 | 0–1 |
-| V4 Comparison Pair | 2 | 1 | 1 |
-| V5 Annotated Realia | 1 | 2 | 2 |
-| V6 Data Visual | 0–1 | 1 | 2 |
-| V7 Dialogue Stage | 2 | 1 | 1 |
-| V8 Map / Network | 1 | 1 | 1 |
-| V9 Grammar Visual | 3 | 2 | 1 |
-| V10 Phonetics | 1 | 1 | 1 |
-| V11 Error Autopsy | 1 | 1 | 0–1 |
-| V12 Synthesis | 1 | 1 | 1 |
-| **Total** | **~15** | **~12** | **~8** |
+| Type | A1 | A2 | B1 | B2 | C1 | C2 |
+|---|---|---|---|---|---|---|
+| V1 Establishing Scene | 1 | 1 | 1 | 1 | 1 | 1 |
+| V2 Cutaway | 2 | 1 | 1 | 1 | 1 | — |
+| V3 Process Strip | 2 | 2 | — | — | — | — |
+| V4 Comparison Pair | 2 | 2 | 1 | 1 | — | — |
+| V5 Annotated Realia | 1 | 1 | 2 | 2 | 2 | 2 |
+| V6 Data Visual | — | 1 | 1 | 1 | 1 | 1 |
+| V7 Dialogue Stage | 1 | 1 | 1 | 1 | — | — |
+| V8 Map / Network | 1 | 1 | 1 | — | — | — |
+| V9 Grammar Visual | 2 | 2 | 1 | 1 | 1 | 1 |
+| V10 Phonetics | 1 | 1 | 1 | 1 | 1 | 1 |
+| V11 Error Autopsy | 1 | — | 1 | — | — | — |
+| V12 Synthesis | 1 | 1 | 1 | 1 | 1 | 1 |
+| **Total** | **15** | **14** | **12** | **10** | **8** | **7** |
+| **Distinct types** | **11** | **11** | **11** | **9** | **6** | **5** |
+
+These columns are the authority; `03-grading-spine.md` §8 carries the same totals and Gate 1 holds
+the two in agreement. A type marked **—** at a level does not disappear from the series: V3 Process
+Strips move to the Workbook at B1+, and V4 Comparison Pairs survive at C-level inside V6 data
+visuals (two framings of the same figures).
 
 Count falls as level rises; density per figure rises sharply.
 

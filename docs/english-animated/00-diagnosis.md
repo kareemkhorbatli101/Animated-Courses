@@ -158,7 +158,7 @@ Each is traceable to a finding above and is enforced by a gate in `10-production
 | 1 | Every unit runs **three declared lines** (World / System / Performance), tagged on every part | 3.1 |
 | 2 | **No language point may own more than 4 of the 12 parts.** Two grammar targets and two lexical sets per unit | 3.1 |
 | 3 | **Audio and reading texts never explain grammar.** Grammar is noticed in text, taught in the Grammar Lab | 3.2 |
-| 4 | **44-type task taxonomy**; no type twice in a unit without variation; ≥2 tasks per unit at evaluate/create level | 3.3 |
+| 4 | **64-type task taxonomy**; no type twice in a unit without variation; a banded minimum of evaluate/create tasks per unit (2 at A, rising to 6 at C2) | 3.3 |
 | 5 | **No figure without a task.** Every illustration is the object of at least one exercise | 3.4 |
 | 6 | **Twelve figure types**, realistically detailed and information-dense, each with a declared pedagogical job | 3.4 |
 | 7 | A **Pronunciation & Fluency Lab** in every unit, on a six-year phonological spine | 3.5 |

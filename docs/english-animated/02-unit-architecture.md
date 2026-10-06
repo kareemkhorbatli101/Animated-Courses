@@ -74,25 +74,29 @@ every 50 minutes, which is both better pedagogy and better reading.
 
 ## 3 · The twelve parts
 
-**Part 0 is the opening spread; Parts 1–12 are the twelve parts proper.** Pages are for a B1 book; A-level units run ~2 pp longer (more white space, more scaffold),
-C-level ~2 pp shorter (denser text).
+**Part 0 is the opening spread; Parts 1–12 are the twelve parts proper.** Pages below are for a
+B1 book.
 
 | # | Part | Line | pp | Core time |
 |---|---|---|---|---|
 | 0 | **The Big Picture** — opening spread | A | 2 | 20 min |
-| 1 | **Vocabulary Lab 1** — the topic set | B | 2 | 50 min |
-| 2 | **Listening** | A | 2 | 60 min |
-| 3 | **Grammar Lab 1** — the new target | B | 3 | 70 min |
-| 4 | **Speaking** | C | 2 | 60 min |
-| 5 | **Reading** | A | 3 | 70 min |
-| 6 | **Vocabulary Lab 2 / Grammar Lab 2** — the system set & returning target | B | 2 | 50 min |
-| 7 | **Pronunciation & Fluency Lab** | B | 1.5 | 35 min |
-| 8 | **Writing** | C | 2 | 60 min + home |
-| 9 | **The File** — WORK / STUDY / CULTURE | A+C | 3 | 70 min |
-| 10 | **Mediation & Interaction** | C | 2 | 50 min |
-| 11 | **The Decision** | C | 2 | 60 min |
-| 12 | **Landing** — review, recycle, can-do, glossary | all | 2 | 45 min |
-| | **Total** | | **28.5 pp** | **~11.5 h** in class |
+| 1 | **Vocabulary Lab 1** — the topic set | B | 1.5 | 50 min |
+| 2 | **Listening** | A | 1.5 | 60 min |
+| 3 | **Grammar Lab 1** — the new target | B | 2 | 70 min |
+| 4 | **Speaking** | C | 1 | 60 min |
+| 5 | **Reading** | A | 2 | 70 min |
+| 6 | **Vocabulary Lab 2 / Grammar Lab 2** — the system set & returning target | B | 1.5 | 50 min |
+| 7 | **Pronunciation & Fluency Lab** | B | 1 | 35 min |
+| 8 | **Writing** | C | 1.5 | 60 min + home |
+| 9 | **The File** — WORK / STUDY / CULTURE | A+C | 2 | 70 min |
+| 10 | **Mediation & Interaction** | C | 1.5 | 50 min |
+| 11 | **The Decision** | C | 1.5 | 60 min |
+| 12 | **Landing** — review, recycle, can-do, glossary | all | 1 | 45 min |
+| | **Total** | | **20 pp** | **~11.5 h** in class |
+
+A-level units run to **22 pp** (more white space, larger type, more scaffold); C-level to **18 pp**
+(denser text, fewer figures). Ten units plus two 4-page Milestone spreads plus 24–32 pp of back
+matter gives a Student's Book of **208–264 pp** (`01-series-architecture.md` §4).
 
 ### Why this order
 
@@ -356,7 +360,7 @@ These are enforced at QA (`10-production-plan.md` §5), not left to the writer's
 | 5 | No transcript on the page beside the listening task. |
 | 6 | Every figure is the object of at least one task. |
 | 7 | No task type appears twice in a unit in the same form. |
-| 8 | ≥2 tasks per unit at *evaluate* or *create* level. |
+| 8 | Minimum *evaluate/create* tasks per unit met: 2 at A, 3 at B1, 4 at B2, 5 at C1, 6 at C2. |
 | 9 | Part 12 recycles 4 items from earlier in the book and 2 from the previous book. |
 | 10 | Every unit converges on one named Outcome Task. |
 | 11 | Every unit contains at least one text or task a motivated adult would engage with outside a classroom. |
