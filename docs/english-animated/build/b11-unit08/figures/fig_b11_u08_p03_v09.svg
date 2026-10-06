@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>What you can leave out, and what you cannot</title>
+<desc>A sentence with brackets showing which relative pronoun can be removed and which cannot.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="261.6666666666667" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<text x="465.00000000000006" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">grower</text>
+<text x="668.3333333333334" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">who</text>
+<text x="871.6666666666666" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I</text>
+<text x="1075.0" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">buy</text>
+<text x="1278.3333333333335" y="350.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">from</text>
+<path d="M 572.6666666666667 384.0 L 572.6666666666667 398.0 L 1374.0 398.0 L 1374.0 384.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 369.33333333333337 438.0 L 369.33333333333337 452.0 L 1374.0 452.0 L 1374.0 438.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 166.0 492.0 L 166.0 506.0 L 1374.0 506.0 L 1374.0 492.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What you can leave out, and what you cannot</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">You may drop the relative pronoun only when it is the object. Drop the subject and the sentence loses its spine.</text>
+<text x="973.3333333333334" y="422.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">who is the OBJECT of buy from - you may drop it</text>
+<text x="871.6666666666667" y="476.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">the grower I buy from - still complete</text>
+<text x="770.0" y="530.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">but: the grower WHO SUPPLIES me - subject, never droppable</text>
+<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">If dropping the pronoun leaves two verbs with nothing between them, you dropped the wrong one.</text>
+<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">And that never follows a preposition: of which, not of that.</text>
+</g>
+</svg>

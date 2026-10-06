@@ -1,0 +1,242 @@
+"""B1.1 Unit 7 · Show Me Once — the twelve figures, as data."""
+FIGURES = {
+"fig_b11_u07_p00_v01": dict(type='V1', height=900, storey_h=150,
+ title='Four handovers happening at once',
+ sub='Twelve things are changing hands in this picture. One of these handovers will fail.',
+ alt='A building cut open across four floors with four pairs of people handing over keys, tools, '
+     'folders and a laptop.',
+ sky='#E7EDEA', ground='#B7AB97', ground_line=720,
+ buildings=[dict(x=60, w=1480, storeys=4, colour='#F4EEE2', cutaway=True,
+   floor_labels=['storage — boxes, labelled by one person',
+                 'studios — a tool being handed over', 'the workspace — a login screen',
+                 'entrance — keys and a note'])],
+ props=[dict(kind='table', x=460, y=720, s=1.6), dict(kind='table', x=1020, y=720, s=1.6),
+        dict(kind='box', x=250, y=720, s=1.0), dict(kind='crate', x=1300, y=720, s=1.0),
+        dict(kind='sign', x=1450, y=720, s=.7, text='KEYS')],
+ people=[dict(x=350, y=720, h=86, skin=0, cloth=1, hair='long', arm='hold'),
+         dict(x=420, y=720, h=84, skin=2, cloth=3, hair='short', arm='hold'),
+         dict(x=960, y=720, h=86, skin=4, cloth=0, hair='grey', arm='point'),
+         dict(x=1030, y=720, h=85, skin=1, cloth=2, hair='wrap', arm='hold')],
+ names=[dict(x=385,t='Mariam and the apprentice'), dict(x=250,t='boxes, labelled'),
+        dict(x=995,t='Felix and Ruth'), dict(x=1300,t='the folder'),
+        dict(x=1450,t='keys, with a note'), dict(x=700,t='the screen, logged in as somebody else')],
+ markers=[dict(x=385,y=660),dict(x=995,y=660),dict(x=250,y=692),dict(x=1300,y=694),
+          dict(x=700,y=560),dict(x=320,y=420),dict(x=1120,y=300),dict(x=1450,y=676)]),
+
+"fig_b11_u07_p01_v08": dict(type='V8', height=820,
+ title='How a skill travels, and where it leaks',
+ sub='Three of these arrows carry most of it. The dashed one carries almost nothing.',
+ alt='A network from an expert through demonstration, practice and correction to competence, with '
+     'a written-document route drawn separately and thinner.',
+ nodes={
+  'exp':  dict(x=200,  y=420, short='X', name='The expert', sub='stopped noticing years ago', r=58, colour='#1F4E5F'),
+  'dem':  dict(x=560,  y=200, short='SEE', name='Demonstration', sub='watch the hands', colour='#C86B2B'),
+  'doc':  dict(x=560,  y=660, short='DOC', name='The document', sub='forty pages, mostly screenshots', colour='#9AA7AE'),
+  'try':  dict(x=960,  y=360, short='DO', name='Practice', sub='get it wrong once', colour='#2E6F5E'),
+  'corr': dict(x=960,  y=680, short='FIX', name='Correction', sub='late, not during', colour='#D9A441'),
+  'comp': dict(x=1350, y=480, short='✓', name='Competence', sub='can teach it on', r=58, colour='#8C6A9E')},
+ edges=[dict(a='exp', b='dem', label='the normal case', sw=6),
+        dict(a='exp', b='doc', label='written in the evenings', sw=3, colour='#9AA7AE'),
+        dict(a='dem', b='try', label='see one, do one', sw=6),
+        dict(a='try', b='corr', label='what went wrong', sw=4, colour='#D9A441'),
+        dict(a='corr', b='comp', label='teach one', sw=5),
+        dict(a='doc', b='comp', label='where to put what you find out', sw=3, dash='7 5'),
+        dict(a='exp', b='comp', label='the exceptions — never transmitted', sw=2, dash='4 6', colour='#A8372E')]),
+
+"fig_b11_u07_p02_v07": dict(type='V7', height=840,
+ title='Four days to hand it over',
+ sub='One of them is holding the tool. Watch whose hands you are being asked to look at.',
+ alt='Two people at a cutting table, one demonstrating and one about to try, with speech and '
+     'thought bubbles.',
+ bg='#EFEADF',
+ set=[dict(kind='table', x=560, y=690, s=2.2), dict(kind='crate', x=1340, y=690, s=1.0)],
+ people=[dict(x=560, h=252, skin=0, cloth=1, hair='long', arm='point', facing='right',
+              label='Mariam', role='leaves on Friday',
+              says=['Watch my hands, not my face.'], thinks=['Let her get it wrong once.']),
+         dict(x=1020, h=248, skin=2, cloth=3, hair='short', arm='hold', facing='left',
+              label='the apprentice', role='day two',
+              says=['Got it.'])]),
+
+"fig_b11_u07_p03_v09": dict(type='V9', kind='scope', height=680,
+ title='What can follow an object',
+ sub='The pattern lives in the verb, not in the meaning. let and allow mean the same and behave '
+     'differently.',
+ alt='A sentence with brackets showing the three patterns that can follow an object: to plus verb, '
+     'bare verb, and -ing.',
+ words=['I', 'saw', 'her', 'do', 'it'],
+ focus=[2, 3],
+ brackets=[dict(**{'from': 2, 'to': 3}, lane=0, label='object + BARE verb — the whole act, start to finish', colour='#1F4E5F'),
+   dict(**{'from': 2, 'to': 4}, lane=1, label='I saw her DOING it — a moment, caught in passing', colour='#C86B2B'),
+   dict(**{'from': 1, 'to': 4}, lane=2, label='I wanted her TO DO it — want, ask, tell, allow, force, teach', colour='#2E6F5E')],
+ rule='let and make take the bare verb. allow and force mean almost the same and take to. '
+      'The verb decides, not the meaning.'),
+
+"fig_b11_u07_p03_v11": dict(type='V11', height=640,
+ title='Why this sentence says you only saw part of it',
+ alt='Two panels contrasting "I saw him leaving" against "I saw him leave" in a witness statement.',
+ wrong=dict(sentence='I saw him leaving the building, so he definitely left.',
+            boundary=0.50, boundary_label='what you watched', event=0.22,
+            event_label='a moment, in passing',
+            why='The -ing form describes a glimpse. It does not claim you watched the whole thing, '
+                'so it cannot support "definitely". A lawyer will take this apart.'),
+ right=dict(sentence='I saw him leave the building, so he definitely left.',
+            boundary=0.50, boundary_label='what you watched', event=0.78,
+            event_label='the whole act',
+            why='The bare verb claims the complete action: you watched it from start to finish. '
+                'That is what the second half of the sentence needs.'),
+ misconception='The writer thought -ing was simply the more descriptive version. It is the '
+               'shorter one — it reports a slice, not the event.'),
+
+"fig_b11_u07_p04_v04": dict(type='V4', height=720,
+ title='Two ways to teach the same thing in five minutes',
+ sub='Learner A has the instructions. Learner B has the object. A may speak and may not touch.',
+ alt='Two five-minute teaching sequences side by side, one where the teacher does most of the '
+     'doing and one where the learner does.',
+ differences=8, prompt='Describe only. Hands behind your back.',
+ left=dict(label='the teacher does it', art=[
+   dict(kind='person', x=140, y=0, h=120, skin=0, cloth=1, arm='hold'),
+   dict(kind='block', x=250, y=0, w=50, bh=140, colour='#1F4E5F'),
+   dict(kind='block', x=310, y=0, w=50, bh=140, colour='#1F4E5F'),
+   dict(kind='block', x=370, y=0, w=50, bh=140, colour='#1F4E5F'),
+   dict(kind='person', x=510, y=0, h=120, skin=2, cloth=3, arm='down'),
+   dict(kind='label', x=330, y=230, text='5 minutes · learner touches it once', colour='#A8372E')]),
+ right=dict(label='the learner does it', art=[
+   dict(kind='person', x=140, y=0, h=120, skin=0, cloth=1, arm='folded'),
+   dict(kind='block', x=250, y=0, w=50, bh=52, colour='#1F4E5F'),
+   dict(kind='block', x=310, y=0, w=50, bh=180, colour='#2E6F5E'),
+   dict(kind='block', x=370, y=0, w=50, bh=180, colour='#2E6F5E'),
+   dict(kind='person', x=510, y=0, h=120, skin=2, cloth=3, arm='hold'),
+   dict(kind='label', x=330, y=250, text='5 minutes · learner touches it four times', colour='#2E6F5E')])),
+
+"fig_b11_u07_p05_v05": dict(type='V5', height=1020,
+ title='Page 19, before and after',
+ sub='The second version was written by the person who did not know. That is why it works.',
+ alt='Page 19 of a handover document shown in its original form and after the successor added '
+     'the branch she discovered.',
+ rows=[dict(t='org', text='HANDOVER — p.19 · RECONCILIATION'),
+   dict(t='head', text='VERSION 1 — written by Felix'),
+   dict(t='para', text='Run the usual check. Compare the totals. If they do not match, investigate '
+        'and escalate if necessary. File when complete.'),
+   dict(t='kv', k='Words', v='24', mono=True),
+   dict(t='kv', k='Numbers', v='none', mono=True, bold=True),
+   dict(t='rule'),
+   dict(t='head', text='VERSION 2 — after Ruth'),
+   dict(t='para', text='Run it on WEDNESDAY, not Tuesday. The figures come in late on Tuesday and '
+        'you will be reconciling against half a day.'),
+   dict(t='para', text='Compare the two totals. Within 2%: file it. More than 2% apart, in this '
+        'order: (1) check the source file — it is wrong about half the time. (2) If the source '
+        'file is fine, wait and run it again on Monday. A payment can land between the two pulls '
+        'and it looks exactly like an error.'),
+   dict(t='para', text='Above 10%, stop and ask somebody. Do not fix it.'),
+   dict(t='kv', k='Words', v='96', mono=True),
+   dict(t='kv', k='Numbers', v='four', mono=True, bold=True),
+   dict(t='rule'),
+   dict(t='small', text='Added by R.A., version 2, after a 6% mismatch that was not an error. '
+        'Felix had been waiting until Monday for six years without noticing that he did it.')],
+ callouts=[dict(at=0.16, text='"The usual check" — usual to whom?'),
+   dict(at=0.23, text='Four instructions, no number anywhere'),
+   dict(at=0.44, text='The day, and the reason for the day'),
+   dict(at=0.58, text='A branch, in order, with a probability on it'),
+   dict(at=0.68, text='This is the one Felix could not have written'),
+   dict(at=0.76, text='A ceiling, and permission to stop'),
+   dict(at=0.93, text='Six years of doing it without knowing he did it')]),
+
+"fig_b11_u07_p06_v02": dict(type='V2', height=820,
+ title='Six verbs, six patterns, one meaning',
+ sub='All six describe stopping somebody. The grammar after each one is different.',
+ alt='A sectioned diagram of six verbs of prevention and permission, each with the pattern it '
+     'requires after the object.',
+ floors=[dict(was='let', now='let someone DO it', year='bare verb', fill='#DCE6EA'),
+   dict(was='make', now='make someone DO it', year='bare verb', fill='#E4ECEF'),
+   dict(was='allow', now='allow someone TO DO it', year='+ to', fill='#F2EDE2'),
+   dict(was='force', now='force someone TO DO it', year='+ to', fill='#F6F0E4'),
+   dict(was='prevent', now='prevent someone FROM DOING it', year='+ from -ing', fill='#F6E6D6'),
+   dict(was='accuse', now='accuse someone OF DOING it', year='+ of -ing', fill='#F3DCDC')],
+ callouts=[dict(at=0.10, text='Bare verb. No to, ever'),
+   dict(at=0.30, text='Same pattern, opposite meaning'),
+   dict(at=0.52, text='Means almost exactly "let", and takes to'),
+   dict(at=0.72, text='Means almost exactly "make", and takes to'),
+   dict(at=0.93, text='Here the preposition changes, not just the form')]),
+
+"fig_b11_u07_p07_v10": dict(type='V10', kind='stress', height=720,
+ title='The stress sits on the particle',
+ sub='In a three-word verb the small word carries the beat. Move it and you change the job.',
+ alt='Six multi-word verbs with the stressed particle marked, and two minimal pairs where moving '
+     'the stress changes the instruction.',
+ items=[dict(syllables=['go','O','ver','it'], strong=[1], note='check it'),
+   dict(syllables=['GO','o','ver','it'], strong=[0], note='do it again'),
+   dict(syllables=['walk','you','THROUGH','it'], strong=[2], note='step by step, with you'),
+   dict(syllables=['pass','it','ON'], strong=[2], note='to the next person'),
+   dict(syllables=['take','it','IN'], strong=[2], note='understand and retain'),
+   dict(syllables=['put','UP','with','it'], strong=[1], note='tolerate')]),
+
+"fig_b11_u07_p08_v06": dict(type='V6', kind='line', height=820,
+ title='What survives a handover',
+ sub='The same procedure, traced through two handovers and six months.',
+ alt='A line chart showing retention of four kinds of knowledge — the normal case, the timing, the '
+     'exceptions and the reasons — across two handovers and six months.',
+ labels=['taught', 'handover 1', 'handover 2', 'six months'],
+ ymin=0, ymax=100, fmt='{:,.0f}%',
+ series=[dict(name='the normal case', values=[100, 92, 86, 84], colour='#2E6F5E'),
+   dict(name='when to do it, and why then', values=[100, 71, 44, 38], colour='#1F4E5F'),
+   dict(name='what goes wrong, and what to do', values=[100, 48, 19, 14], colour='#D9A441'),
+   dict(name='why it was designed that way', values=[100, 36, 9, 2], colour='#A8372E')],
+ note='The normal case survives almost anything, because it is practised daily. The exceptions '
+      'are met once a quarter and are gone in two handovers — which is exactly when somebody '
+      'needs them and nobody is left who has seen one.',
+ warning='The bottom line is the part the author is usually proudest of.'),
+
+"fig_b11_u07_p09_v05": dict(type='V5', height=940,
+ title='The handover checklist nobody fills in',
+ sub='Four columns. Most handovers complete the first two and leave the others blank.',
+ alt='A handover checklist with four columns — task, timing, failure modes and who to ask — mostly '
+     'completed in the first two columns only.',
+ rows=[dict(t='org', text='HANDOVER CHECKLIST · OUTGOING POST HOLDER'),
+   dict(t='kv', k='Leaving', v='F. Mutiso'), dict(t='kv', k='Incoming', v='R. Adeyemi'),
+   dict(t='kv', k='Overlap', v='4 working days', mono=True, bold=True),
+   dict(t='rule'),
+   dict(t='grid', cols=['TASK', 'WHEN', 'WHAT GOES WRONG', 'WHO TO ASK'],
+     data=[['Reconciliation', 'Wed', '— ', '—'],
+           ['Supplier payments', 'Fri', '—', '—'],
+           ['Month-end pack', 'last working day', 'late figures', '—'],
+           ['Quarterly return', 'Q+14 days', '—', '—'],
+           ['Audit sample', 'on request', '—', 'Priya']]),
+   dict(t='rule'),
+   dict(t='head', text='Known gaps declared by the outgoing holder'),
+   dict(t='para', text='Nothing declared.'),
+   dict(t='rule'),
+   dict(t='small', text='The outgoing holder completes columns 1 and 2 in an average of eleven '
+        'minutes. Columns 3 and 4 are left blank in roughly four handovers out of five, not '
+        'because the knowledge is withheld but because the question "what goes wrong?" has no '
+        'answer available to somebody for whom it has stopped going wrong.')],
+ callouts=[dict(at=0.21, text='Four days is the whole budget'),
+   dict(at=0.36, text='Column 1 and 2 — eleven minutes, complete'),
+   dict(at=0.48, text='Column 3 — one entry out of five'),
+   dict(at=0.54, text='Column 4 — one name, and she was asked later'),
+   dict(at=0.70, text='"Nothing declared" is almost never true'),
+   dict(at=0.90, text='And here is why it is not dishonesty')]),
+
+"fig_b11_u07_p10_v12": dict(type='V12', height=880,
+ title='Nine days, four emails, eighteen months',
+ sub='Half the class sees the document; half sees what the successor found out. Neither sees both.',
+ alt='An infographic tracking a handover across nine days and eighteen months, showing what was '
+     'written, what was discovered, and what was deleted.',
+ span=['day 1', '18 months'], ticks=6,
+ tick_labels=['Thu', 'Mon', 'Fri', 'month 3', 'month 9', 'month 18'],
+ bands=[dict(name='What was written', type='events', items=[
+     dict(at=0.00, label='40 pages attached', colour='#1F4E5F'),
+     dict(at=0.26, label='two gaps found', colour='#D9A441'),
+     dict(at=0.46, label='p.19 rewritten by Ruth', colour='#2E6F5E'),
+     dict(at=0.72, label='version 3', colour='#2E6F5E'),
+     dict(at=0.97, label="version 4 — a third is Ruth's", colour='#2E6F5E')]),
+   dict(name='What was deleted', type='bars', items=[
+     dict(**{'from': 0.0, 'to': 0.52}, label='"why it was designed this way" — 6 pages', colour='#A8372E'),
+     dict(**{'from': 0.0, 'to': 1.0}, label='screenshots — still 60% of it', colour='#9AA7AE')]),
+   dict(name='Questions Ruth had to ask somebody else', type='line',
+     points=[(0,0),(0.2,2),(0.4,6),(0.6,3),(0.8,1),(1.0,0)], end_label='0'),
+   dict(name='The exceptions', type='flags', items=[
+     dict(at=0.44, label='6% mismatch, not an error'),
+     dict(at=0.60, label='Priya knew; it was never written'),
+     dict(at=0.80, label='added by the person who hit it'),
+     dict(at=0.99, label='Felix minded, and said nothing')])]),
+}

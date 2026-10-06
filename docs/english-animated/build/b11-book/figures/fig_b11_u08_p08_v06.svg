@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Eleven shillings, and where they go</title>
+<desc>A waterfall chart breaking an eleven-shilling price premium into transport, cooperative fee, market levy, stall margin and the amount reaching the grower.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">3</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">6</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">10</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">13</text>
+</g>
+<g id="20_subject">
+<rect x="205.4" y="220.76923076923077" width="125.86666666666666" height="389.2307692307692" rx="0" fill="#1F4E5F"/>
+<text x="268.3333333333333" y="210.76923076923077" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">11</text>
+<rect x="402.0666666666666" y="220.76923076923077" width="125.86666666666666" height="49.53846153846155" rx="0" fill="#A8372E"/>
+<text x="464.99999999999994" y="210.76923076923077" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-1</text>
+<rect x="598.7333333333332" y="270.3076923076923" width="125.86666666666666" height="31.846153846153868" rx="0" fill="#A8372E"/>
+<text x="661.6666666666665" y="260.3076923076923" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-1</text>
+<rect x="795.4" y="302.1538461538462" width="125.86666666666666" height="28.30769230769232" rx="0" fill="#A8372E"/>
+<text x="858.3333333333333" y="292.1538461538462" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-1</text>
+<rect x="992.0666666666666" y="330.4615384615385" width="125.86666666666666" height="31.84615384615381" rx="0" fill="#A8372E"/>
+<text x="1055.0" y="320.4615384615385" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">-1</text>
+<rect x="1188.7333333333333" y="362.3076923076923" width="125.86666666666666" height="247.69230769230768" rx="0" fill="#1F4E5F"/>
+<text x="1251.6666666666667" y="352.3076923076923" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">7</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Eleven shillings, and where they go</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The premium on a kilo of in-season tomatoes, traced to the end.</text>
+<text x="268.3333333333333" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the premium</text>
+<text x="464.99999999999994" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">transport</text>
+<text x="661.6666666666666" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">co-op fee</text>
+<text x="858.3333333333334" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">market levy</text>
+<text x="1055.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stall margin</text>
+<text x="1251.6666666666665" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">reaches Esther</text>
+<rect x="170" y="670" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">This is one stall, one crop, one season. It is not a benchmark.</text>
+<text x="170" y="744.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Seven of the eleven arrives. That is unusually high, and it is high because the crate goes</text>
+<text x="170" y="765.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">forty kilometres on one vehicle and is handled twice. At four hundred kilometres the same</text>
+<text x="170" y="787.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">premium would deliver about three.</text>
+</g>
+</svg>

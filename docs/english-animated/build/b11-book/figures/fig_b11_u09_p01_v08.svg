@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>From the event to what people remember</title>
+<desc>A network from an event through witness, account, transcript, published piece and memory, with the irreversible steps marked.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="180" y1="420" x2="500" y2="240" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="500" y1="240" x2="500" y2="640" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="500" y1="640" x2="900" y2="440" stroke="#D9A441" stroke-width="5" stroke-linecap="round"/>
+<line x1="900" y1="440" x2="1230" y2="240" stroke="#A8372E" stroke-width="5" stroke-linecap="round"/>
+<line x1="1230" y1="240" x2="1350" y2="680" stroke="#A8372E" stroke-width="5" stroke-linecap="round"/>
+<line x1="180" y1="420" x2="1350" y2="680" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="180" cy="420" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="180" y="425" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">EV</text>
+<text x="180" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The event</text>
+<text x="180" y="512" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">happened once</text>
+<circle cx="500" cy="240" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="500" y="245" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">SAW</text>
+<text x="500" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The witness</text>
+<text x="500" y="332" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">saw part of it</text>
+<circle cx="500" cy="640" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="500" y="645" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">SAID</text>
+<text x="500" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The account</text>
+<text x="500" y="732" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">4,000 words, recorded</text>
+<circle cx="900" cy="440" r="58" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="900" y="445" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">ED</text>
+<text x="900" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The edit</text>
+<text x="900" y="544" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">600 words, one quote</text>
+<circle cx="1230" cy="240" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1230" y="245" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">PUB</text>
+<text x="1230" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Published</text>
+<text x="1230" y="332" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">under a headline</text>
+<circle cx="1350" cy="680" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1350" y="685" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">MEM</text>
+<text x="1350" y="752" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">What people remember</text>
+<text x="1350" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eleven words</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">From the event to what people remember</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six stages. Something is lost at every arrow, and two of them are irreversible.</text>
+<rect x="282.0" y="315.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="340.0" y="334.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">you saw part</text>
+<rect x="442.0" y="425.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="500.0" y="444.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">you said part of that</text>
+<rect x="642.0" y="525.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="700.0" y="544.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">she kept 1.5%</text>
+<rect x="1007.0" y="325.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1065.0" y="344.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">irreversible</text>
+<rect x="1232.0" y="445.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1290.0" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">irreversible</text>
+<rect x="707.0" y="535.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="765.0" y="554.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">what actually happened</text>
+</g>
+</svg>

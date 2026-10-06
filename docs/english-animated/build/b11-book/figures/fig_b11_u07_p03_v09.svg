@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>What can follow an object</title>
+<desc>A sentence with brackets showing the three patterns that can follow an object: to plus verb, bare verb, and -ing.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="282.0" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I</text>
+<text x="526.0" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">saw</text>
+<text x="770.0" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">her</text>
+<text x="1014.0" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">do</text>
+<text x="1258.0" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">it</text>
+<path d="M 654.0 374.0 L 654.0 388.0 L 1130.0 388.0 L 1130.0 374.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 654.0 428.0 L 654.0 442.0 L 1374.0 442.0 L 1374.0 428.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 410.0 482.0 L 410.0 496.0 L 1374.0 496.0 L 1374.0 482.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What can follow an object</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The pattern lives in the verb, not in the meaning. let and allow mean the same and behave differently.</text>
+<text x="892.0" y="412.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">object + BARE verb — the whole act, start to finish</text>
+<text x="1014.0" y="466.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">I saw her DOING it — a moment, caught in passing</text>
+<text x="892.0" y="520.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">I wanted her TO DO it — want, ask, tell, allow, force, teach</text>
+<rect x="160" y="588" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="622.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">let and make take the bare verb. allow and force mean almost the same and take to. The verb</text>
+<text x="180" y="643.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">decides, not the meaning.</text>
+</g>
+</svg>

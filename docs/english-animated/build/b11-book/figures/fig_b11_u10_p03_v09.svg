@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>How big is the difference?</title>
+<desc>A weighted bar showing degree modifiers from slightly through considerably to nowhere near, all describing the same nine per cent difference.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="276.0" width="99.4320987654321" height="68" rx="5" fill="#9AA7AE"/>
+<text x="209.71604938271605" y="317.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">slightly</text>
+<rect x="265.4320987654321" y="276.0" width="129.55555555555557" height="68" rx="5" fill="#8C6A9E"/>
+<text x="330.2098765432099" y="317.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">somewhat</text>
+<rect x="400.98765432098764" y="276.0" width="234.98765432098767" height="68" rx="5" fill="#1F4E5F"/>
+<text x="518.4814814814815" y="317.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">considerably</text>
+<rect x="641.9753086419753" y="276.0" width="234.98765432098767" height="68" rx="5" fill="#1F4E5F"/>
+<text x="759.4691358024692" y="317.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">far</text>
+<rect x="882.9629629629629" y="276.0" width="280.17283950617286" height="68" rx="5" fill="#2E6F5E"/>
+<text x="1023.0493827160494" y="317.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">a great deal</text>
+<rect x="1169.1358024691358" y="276.0" width="204.8641975308642" height="68" rx="5" fill="#A8372E"/>
+<text x="1271.567901234568" y="317.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">nowhere near</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">How big is the difference?</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The number does not change. The modifier is the offer.</text>
+<text x="209.71604938271605" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">tiny</text>
+<text x="330.2098765432099" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">moderate</text>
+<text x="518.4814814814815" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">large</text>
+<text x="759.4691358024692" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">large</text>
+<text x="1023.0493827160494" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">enormous</text>
+<text x="1271.567901234568" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">not at all</text>
+<text x="160" y="418.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Every one of these can describe nine per cent. The person across the table hears the word, not the number. very cannot modify a comparative: much better, far better, never very better.</text>
+</g>
+</svg>

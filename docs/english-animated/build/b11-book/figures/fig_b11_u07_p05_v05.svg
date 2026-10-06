@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020">
+<title>Page 19, before and after</title>
+<desc>Page 19 of a handover document shown in its original form and after the successor added the branch she discovered.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1020" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="810" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="810" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">HANDOVER — p.19 · RECONCILIATION</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">VERSION 1 — written by Felix</text>
+<text x="140" y="258.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Run the usual check. Compare the totals. If they do not match,</text>
+<text x="140" y="279.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">investigate and escalate if necessary. File when complete.</text>
+<text x="140" y="315.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Words</text>
+<text x="410" y="315.5" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">24</text>
+<text x="140" y="347.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Numbers</text>
+<text x="410" y="347.5" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">none</text>
+<line x1="130" y1="379.5" x2="910" y2="379.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="415.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">VERSION 2 — after Ruth</text>
+<text x="140" y="445.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Run it on WEDNESDAY, not Tuesday. The figures come in late on</text>
+<text x="140" y="467.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Tuesday and you will be reconciling against half a day.</text>
+<text x="140" y="503.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Compare the two totals. Within 2%: file it. More than 2% apart,</text>
+<text x="140" y="524.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">in this order: (1) check the source file — it is wrong about</text>
+<text x="140" y="546.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">half the time. (2) If the source file is fine, wait and run it</text>
+<text x="140" y="568.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">again on Monday. A payment can land between the two pulls and it</text>
+<text x="140" y="590.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">looks exactly like an error.</text>
+<text x="140" y="625.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Above 10%, stop and ask somebody. Do not fix it.</text>
+<text x="140" y="661.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Words</text>
+<text x="410" y="661.5" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">96</text>
+<text x="140" y="693.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Numbers</text>
+<text x="410" y="693.5" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">four</text>
+<line x1="130" y1="725.5" x2="910" y2="725.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="747.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Added by R.A., version 2, after a 6% mismatch that was not an error. Felix had been</text>
+<text x="140" y="764.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">waiting until Monday for six years without noticing that he did it.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Page 19, before and after</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The second version was written by the person who did not know. That is why it works.</text>
+<circle cx="934" cy="249.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 249.6 L 1024 249.6 L 1024 249.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="254.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;The usual check&quot; — usual to whom?</text>
+<circle cx="934" cy="306.3" r="4.5" fill="#C86B2B"/>
+<path d="M 934 306.3 L 1024 306.3 L 1024 306.3" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="311.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four instructions, no number</text>
+<text x="1040" y="331.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">anywhere</text>
+<circle cx="934" cy="476.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 476.4 L 1024 476.4 L 1024 476.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="481.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The day, and the reason for the</text>
+<text x="1040" y="501.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">day</text>
+<circle cx="934" cy="589.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 589.8 L 1024 589.8 L 1024 589.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="594.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A branch, in order, with a</text>
+<text x="1040" y="615.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">probability on it</text>
+<circle cx="934" cy="670.8000000000001" r="4.5" fill="#C86B2B"/>
+<path d="M 934 670.8000000000001 L 1024 670.8000000000001 L 1024 670.8000000000001" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="675.8000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">This is the one Felix could not</text>
+<text x="1040" y="696.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">have written</text>
+<circle cx="934" cy="735.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 735.6 L 1024 735.6 L 1024 735.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="740.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A ceiling, and permission to stop</text>
+<circle cx="934" cy="873.3000000000001" r="4.5" fill="#C86B2B"/>
+<path d="M 934 873.3000000000001 L 1024 873.3000000000001 L 1024 873.3000000000001" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="878.3000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Six years of doing it without</text>
+<text x="1040" y="898.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">knowing he did it</text>
+</g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Where a rule comes from, and where it goes</title>
+<desc>A network from statute through regulator, policy, procedure and notice to practice, with the enforcement and review arrows drawn dashed.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="200" x2="560" y2="140" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="560" y1="140" x2="560" y2="440" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="560" y1="440" x2="960" y2="300" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="960" y1="300" x2="1340" y2="440" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="560" y1="440" x2="1340" y2="440" stroke="#A8372E" stroke-width="5" stroke-linecap="round"/>
+<line x1="1340" y1="440" x2="960" y2="700" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+<line x1="960" y1="700" x2="560" y2="440" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+</g>
+<g id="20_subject">
+<circle cx="200" cy="200" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="200" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">LAW</text>
+<text x="200" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Statute</text>
+<text x="200" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">parliament</text>
+<circle cx="560" cy="140" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="560" y="145" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">REG</text>
+<text x="560" y="212" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Regulation</text>
+<text x="560" y="232" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">in force 2021</text>
+<circle cx="560" cy="440" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="560" y="445" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">POL</text>
+<text x="560" y="512" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Policy</text>
+<text x="560" y="532" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the landlord's agent, 2019</text>
+<circle cx="960" cy="300" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="960" y="305" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">PROC</text>
+<text x="960" y="372" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Procedure</text>
+<text x="960" y="392" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what the notice says</text>
+<circle cx="1340" cy="440" r="58" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1340" y="445" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">DO</text>
+<text x="1340" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Practice</text>
+<text x="1340" y="544" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what actually happens</text>
+<circle cx="960" cy="700" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="960" y="705" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">REV</text>
+<text x="960" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Review</text>
+<text x="960" y="792" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">scheduled 2020</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Where a rule comes from, and where it goes</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three of these arrows have never been used in this building.</text>
+<rect x="322.0" y="155.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="380.0" y="174.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">gives effect to</text>
+<rect x="502.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="560.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">organisation must have one</text>
+<rect x="702.0" y="355.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="760.0" y="374.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">written down</text>
+<rect x="1092.0" y="355.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1150.0" y="374.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">enforcement</text>
+<rect x="892.0" y="425.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="950.0" y="444.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">what people do instead</text>
+<rect x="1092.0" y="555.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1150.0" y="574.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">never fed back</text>
+<rect x="702.0" y="555.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="760.0" y="574.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">would amend it</text>
+</g>
+</svg>

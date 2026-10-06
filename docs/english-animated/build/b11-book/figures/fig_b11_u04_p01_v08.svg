@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Who owes what to whom</title>
+<desc>A network of six parties — landlord, tenants, individual, insurer, inspector and regulator — with the duties between them, two of which are unconfirmed.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="820" y1="120" x2="820" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="820" y1="120" x2="330" y2="330" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="330" x2="820" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="820" y1="400" x2="1330" y2="330" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="1330" y1="330" x2="820" y2="700" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="820" y1="400" x2="820" y2="700" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+<line x1="1330" y1="680" x2="820" y2="400" stroke="#D9A441" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="820" cy="120" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="820" y="125" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">REG</text>
+<text x="820" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The regulator</text>
+<text x="820" y="212" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">sets the rule</text>
+<circle cx="330" cy="330" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="330" y="335" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">INSP</text>
+<text x="330" y="402" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The inspector</text>
+<text x="330" y="422" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">reports, does not enforce</text>
+<circle cx="820" cy="400" r="56" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="820" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">LL</text>
+<text x="820" y="482" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The landlord</text>
+<text x="820" y="502" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">owns the common parts</text>
+<circle cx="1330" cy="330" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1330" y="335" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">TEN</text>
+<text x="1330" y="402" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The tenants</text>
+<text x="1330" y="422" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">occupy, do not own</text>
+<circle cx="820" cy="700" r="56" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="820" y="705" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">YOU</text>
+<text x="820" y="782" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The individual</text>
+<text x="820" y="802" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">bears it either way</text>
+<circle cx="1330" cy="680" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1330" y="685" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">INS</text>
+<text x="1330" y="752" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The insurer</text>
+<text x="1330" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">asks questions later</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Who owes what to whom</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each line is a duty. Two of them are drawn dashed, because nobody has ever confirmed them.</text>
+<rect x="762.0" y="245.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="820.0" y="264.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">duty of care</text>
+<rect x="517.0" y="210.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="575.0" y="229.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">appoints</text>
+<rect x="517.0" y="350.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="575.0" y="369.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">reports &quot;for attention&quot;</text>
+<rect x="1017.0" y="350.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1075.0" y="369.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the lease</text>
+<rect x="1017.0" y="500.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1075.0" y="519.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">no formal duty</text>
+<rect x="762.0" y="535.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="820.0" y="554.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">duty of care, in principle</text>
+<rect x="1017.0" y="525.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1075.0" y="544.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">asks about the report</text>
+</g>
+</svg>

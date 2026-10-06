@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>Two ways to teach the same thing in five minutes</title>
+<desc>Two five-minute teaching sequences side by side, one where the teacher does most of the doing and one where the learner does.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the teacher does it</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the learner does it</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="200.0" cy="564.1176470588235" rx="15.529411764705884" ry="3.5294117647058827" fill="#1C2B33" opacity="0.10"/>
+<path d="M 193.64705882352942 562 L 195.05882352941177 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 206.35294117647058 562 L 204.94117647058823 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 200.0 470.235294117647 L 200.0 509.6235294117647" fill="none" stroke="#C86B2B" stroke-width="16.941176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 186.58823529411765 470.9411764705882 L 213.41176470588235 470.9411764705882" fill="none" stroke="#C86B2B" stroke-width="9.176470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 186.58823529411765 472.35294117647055 L 192.23529411764707 503.9764705882353" fill="none" stroke="#C86B2B" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 213.41176470588235 472.35294117647055 L 207.76470588235293 503.9764705882353" fill="none" stroke="#C86B2B" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200.0" cy="503.9764705882353" r="3.882352941176471" fill="#E8C39E"/>
+<path d="M 200.0 466.70588235294116 L 200.0 463.17647058823525" fill="none" stroke="#E8C39E" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200.0" cy="454.0" r="10.588235294117649" fill="#E8C39E"/>
+<path d="M 189.41176470588235 452.5882352941176 A 10.588235294117649 10.588235294117649 0 0 1 210.58823529411765 452.5882352941176" fill="none" stroke="#2A2320" stroke-width="4.9411764705882355" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="196.47058823529412" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<circle cx="203.52941176470588" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<path d="M 197.1764705882353 459.6470588235294 Q 200.0 461.05882352941177 202.8235294117647 459.6470588235294" fill="none" stroke="#8A5A48" stroke-width="1.1294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="285.0" y="422" width="50" height="140" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="345.0" y="422" width="50" height="140" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="405.0" y="422" width="50" height="140" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="570.0" cy="564.1176470588235" rx="15.529411764705884" ry="3.5294117647058827" fill="#1C2B33" opacity="0.10"/>
+<path d="M 563.6470588235294 562 L 565.0588235294117 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 576.3529411764706 562 L 574.9411764705883 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 570.0 470.235294117647 L 570.0 509.6235294117647" fill="none" stroke="#8C6A9E" stroke-width="16.941176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 556.5882352941177 470.9411764705882 L 583.4117647058823 470.9411764705882" fill="none" stroke="#8C6A9E" stroke-width="9.176470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 556.5882352941177 472.35294117647055 L 554.4705882352941 513.8588235294118" fill="none" stroke="#8C6A9E" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="554.4705882352941" cy="515.9764705882353" r="3.5294117647058827" fill="#8D5A3B"/>
+<path d="M 583.4117647058823 472.35294117647055 L 585.5294117647059 513.8588235294118" fill="none" stroke="#8C6A9E" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="585.5294117647059" cy="515.9764705882353" r="3.5294117647058827" fill="#8D5A3B"/>
+<path d="M 570.0 466.70588235294116 L 570.0 463.17647058823525" fill="none" stroke="#8D5A3B" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="570.0" cy="454.0" r="10.588235294117649" fill="#8D5A3B"/>
+<path d="M 559.4117647058823 452.5882352941176 A 10.588235294117649 10.588235294117649 0 0 1 580.5882352941177 452.5882352941176" fill="none" stroke="#2A2320" stroke-width="4.9411764705882355" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="566.4705882352941" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<circle cx="573.5294117647059" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<path d="M 567.1764705882352 459.6470588235294 Q 570.0 461.05882352941177 572.8235294117648 459.6470588235294" fill="none" stroke="#8A5A48" stroke-width="1.1294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="390.0" y="332" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">5 minutes · learner touches it once</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="960.0" cy="564.1176470588235" rx="15.529411764705884" ry="3.5294117647058827" fill="#1C2B33" opacity="0.10"/>
+<path d="M 953.6470588235294 562 L 955.0588235294117 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 966.3529411764706 562 L 964.9411764705883 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 960.0 470.235294117647 L 960.0 509.6235294117647" fill="none" stroke="#C86B2B" stroke-width="16.941176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 946.5882352941177 470.9411764705882 L 973.4117647058823 470.9411764705882" fill="none" stroke="#C86B2B" stroke-width="9.176470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 946.5882352941177 473.0588235294117 L 969.1764705882352 485.7647058823529" fill="none" stroke="#C86B2B" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="970.5882352941177" cy="486.4705882352941" r="3.5294117647058827" fill="#E8C39E"/>
+<path d="M 973.4117647058823 473.0588235294117 L 950.8235294117648 488.5882352941176" fill="none" stroke="#C86B2B" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="949.4117647058823" cy="489.2941176470588" r="3.5294117647058827" fill="#E8C39E"/>
+<path d="M 960.0 466.70588235294116 L 960.0 463.17647058823525" fill="none" stroke="#E8C39E" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="960.0" cy="454.0" r="10.588235294117649" fill="#E8C39E"/>
+<path d="M 949.4117647058823 452.5882352941176 A 10.588235294117649 10.588235294117649 0 0 1 970.5882352941177 452.5882352941176" fill="none" stroke="#2A2320" stroke-width="4.9411764705882355" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="956.4705882352941" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<circle cx="963.5294117647059" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<path d="M 957.1764705882352 459.6470588235294 Q 960.0 461.05882352941177 962.8235294117648 459.6470588235294" fill="none" stroke="#8A5A48" stroke-width="1.1294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1045.0" y="510" width="50" height="52" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1105.0" y="382" width="50" height="180" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1165.0" y="382" width="50" height="180" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="1330.0" cy="564.1176470588235" rx="15.529411764705884" ry="3.5294117647058827" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1323.6470588235295 562 L 1325.0588235294117 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1336.3529411764705 562 L 1334.9411764705883 506.8" fill="none" stroke="#3A4A55" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1330.0 470.235294117647 L 1330.0 509.6235294117647" fill="none" stroke="#8C6A9E" stroke-width="16.941176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1316.5882352941176 470.9411764705882 L 1343.4117647058824 470.9411764705882" fill="none" stroke="#8C6A9E" stroke-width="9.176470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1316.5882352941176 472.35294117647055 L 1322.235294117647 503.9764705882353" fill="none" stroke="#8C6A9E" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1343.4117647058824 472.35294117647055 L 1337.764705882353 503.9764705882353" fill="none" stroke="#8C6A9E" stroke-width="6.352941176470589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1330.0" cy="503.9764705882353" r="3.882352941176471" fill="#8D5A3B"/>
+<path d="M 1330.0 466.70588235294116 L 1330.0 463.17647058823525" fill="none" stroke="#8D5A3B" stroke-width="7.058823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1330.0" cy="454.0" r="10.588235294117649" fill="#8D5A3B"/>
+<path d="M 1319.4117647058824 452.5882352941176 A 10.588235294117649 10.588235294117649 0 0 1 1340.5882352941176 452.5882352941176" fill="none" stroke="#2A2320" stroke-width="4.9411764705882355" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1326.4705882352941" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<circle cx="1333.5294117647059" cy="454.70588235294116" r="1.2705882352941178" fill="#2A2320"/>
+<path d="M 1327.1764705882354 459.6470588235294 Q 1330.0 461.05882352941177 1332.8235294117646 459.6470588235294" fill="none" stroke="#8A5A48" stroke-width="1.1294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1150.0" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">5 minutes · learner touches it four times</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two ways to teach the same thing in five minutes</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the instructions. Learner B has the object. A may speak and may not touch.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Describe only. Hands behind your back.</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8 differences — find them all</text>
+</g>
+</svg>

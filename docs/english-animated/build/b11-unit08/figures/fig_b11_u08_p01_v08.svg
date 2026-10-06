@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>From the soil to the shelf</title>
+<desc>A network from soil through grower, cooperative, transport, market and shelf, with an aggregation step where traceability is lost.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="180" y1="420" x2="520" y2="240" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="240" x2="520" y2="640" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="520" y1="640" x2="980" y2="340" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="900" y1="700" x2="980" y2="340" stroke="#A8372E" stroke-width="5" stroke-linecap="round"/>
+<line x1="980" y1="340" x2="1350" y2="460" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="520" y1="240" x2="1350" y2="460" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+</g>
+<g id="20_subject">
+<circle cx="180" cy="420" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="180" y="425" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">SOIL</text>
+<text x="180" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Eleven acres</text>
+<text x="180" y="512" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Limuru, 40 km</text>
+<circle cx="520" cy="240" r="56" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="520" y="245" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">EW</text>
+<text x="520" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Esther</text>
+<text x="520" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Nov to June</text>
+<circle cx="520" cy="640" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="520" y="645" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">406</text>
+<text x="520" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The cooperative</text>
+<text x="520" y="732" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">406 members, one crate</text>
+<circle cx="900" cy="700" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="900" y="705" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">MER</text>
+<text x="900" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Meru</text>
+<text x="900" y="792" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">400 km, all year</text>
+<circle cx="980" cy="340" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="980" y="345" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">MKT</text>
+<text x="980" y="412" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The market</text>
+<text x="980" y="432" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">crates mixed on the floor</text>
+<circle cx="1350" cy="460" r="56" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1350" y="465" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">LBL</text>
+<text x="1350" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The label</text>
+<text x="1350" y="562" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">says LOCAL</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">From the soil to the shelf</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six stages. The dashed arrow is the one nobody can trace after it happens.</text>
+<rect x="292.0" y="315.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="334.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">what she plants</text>
+<rect x="462.0" y="425.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="520.0" y="444.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">her crates, marked</text>
+<rect x="692.0" y="475.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="750.0" y="494.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">406 members, one price</text>
+<rect x="882.0" y="505.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="940.0" y="524.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">July to October</text>
+<rect x="1107.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1165.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">traceability lost here</text>
+<rect x="877.0" y="335.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="935.0" y="354.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">40 km, in season</text>
+</g>
+</svg>

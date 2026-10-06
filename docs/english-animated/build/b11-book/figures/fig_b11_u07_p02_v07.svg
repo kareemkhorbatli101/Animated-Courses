@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>Four days to hand it over</title>
+<desc>Two people at a cutting table, one demonstrating and one about to try, with speech and thought bubbles.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="690" rx="0" fill="#EFEADF"/>
+<rect x="0" y="690" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="690" x2="1600" y2="690" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="560" y="588.8" width="264.0" height="17.6" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.4"/>
+<line x1="586.4" y1="606.4" x2="586.4" y2="690" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<line x1="797.6" y1="606.4" x2="797.6" y2="690" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<rect x="1340" y="654.0" width="86.0" height="36.0" rx="0" fill="#B9C7CC" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1346.0" y1="660.0" x2="1420.0" y2="660.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="1346.0" y1="671.0" x2="1420.0" y2="671.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="1346.0" y1="682.0" x2="1420.0" y2="682.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+</g>
+<g id="20_subject">
+<ellipse cx="560" cy="714.4470588235295" rx="32.61176470588235" ry="7.411764705882353" fill="#1C2B33" opacity="0.10"/>
+<path d="M 546.6588235294117 710 L 549.6235294117647 594.08" fill="none" stroke="#3A4A55" stroke-width="14.823529411764707" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 573.3411764705883 710 L 570.3764705882353 594.08" fill="none" stroke="#3A4A55" stroke-width="14.823529411764707" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 560.0 517.2941176470588 L 560 600.0094117647059" fill="none" stroke="#C86B2B" stroke-width="35.576470588235296" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 531.8352941176471 518.7764705882353 L 588.1647058823529 518.7764705882353" fill="none" stroke="#C86B2B" stroke-width="19.27058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 531.8352941176471 521.7411764705882 L 527.3882352941176 608.9035294117648" fill="none" stroke="#C86B2B" stroke-width="13.341176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="527.3882352941176" cy="613.3505882352941" r="7.411764705882353" fill="#E8C39E"/>
+<path d="M 588.1647058823529 521.7411764705882 L 626.7058823529411 514.3294117647058" fill="none" stroke="#C86B2B" stroke-width="13.341176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="632.635294117647" cy="512.8470588235293" r="7.411764705882353" fill="#E8C39E"/>
+<path d="M 560.0 509.88235294117646 L 560.0 502.47058823529414" fill="none" stroke="#E8C39E" stroke-width="14.823529411764707" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="560.0" cy="483.2" r="22.235294117647058" fill="#E8C39E"/>
+<path d="M 537.7647058823529 480.2352941176471 A 22.235294117647058 22.235294117647058 0 0 1 582.2352941176471 480.2352941176471" fill="none" stroke="#2A2320" stroke-width="10.376470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 536.2823529411764 483.2 L 536.2823529411764 512.8470588235294" fill="none" stroke="#2A2320" stroke-width="10.376470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 583.7176470588236 483.2 L 583.7176470588236 512.8470588235294" fill="none" stroke="#2A2320" stroke-width="10.376470588235295" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="557.0352941176471" cy="484.6823529411765" r="2.6682352941176473" fill="#2A2320"/>
+<circle cx="571.8588235294118" cy="484.6823529411765" r="2.6682352941176473" fill="#2A2320"/>
+<path d="M 558.5176470588236 495.05882352941177 Q 564.4470588235295 498.0235294117647 570.3764705882353 495.05882352941177" fill="none" stroke="#8A5A48" stroke-width="2.371764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="560" y="748.5411764705882" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Mariam</text>
+<text x="560" y="775.2235294117647" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">leaves on Friday</text>
+<ellipse cx="1020" cy="714.3764705882353" rx="32.09411764705882" ry="7.294117647058823" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1006.8705882352941 710 L 1009.7882352941176 595.92" fill="none" stroke="#3A4A55" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1033.129411764706 710 L 1030.2117647058824 595.92" fill="none" stroke="#3A4A55" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1020.0 520.3529411764706 L 1020 601.755294117647" fill="none" stroke="#8C6A9E" stroke-width="35.01176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 992.2823529411764 521.8117647058824 L 1047.7176470588236 521.8117647058824" fill="none" stroke="#8C6A9E" stroke-width="18.96470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 992.2823529411764 524.7294117647059 L 1003.9529411764706 590.0847058823529" fill="none" stroke="#8C6A9E" stroke-width="13.129411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1047.7176470588236 524.7294117647059 L 1036.0470588235294 590.0847058823529" fill="none" stroke="#8C6A9E" stroke-width="13.129411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1020" cy="590.0847058823529" r="8.023529411764706" fill="#8D5A3B"/>
+<path d="M 1020.0 513.0588235294118 L 1020.0 505.7647058823529" fill="none" stroke="#8D5A3B" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1020.0" cy="486.8" r="21.88235294117647" fill="#8D5A3B"/>
+<path d="M 998.1176470588235 483.88235294117646 A 21.88235294117647 21.88235294117647 0 0 1 1041.8823529411766 483.88235294117646" fill="none" stroke="#2A2320" stroke-width="10.211764705882352" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1008.3294117647059" cy="488.25882352941176" r="2.6258823529411766" fill="#2A2320"/>
+<circle cx="1022.9176470588235" cy="488.25882352941176" r="2.6258823529411766" fill="#2A2320"/>
+<path d="M 1009.7882352941176 498.47058823529414 Q 1015.6235294117647 501.38823529411764 1021.4588235294118 498.47058823529414" fill="none" stroke="#8A5A48" stroke-width="2.3341176470588234" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1020" y="747.9294117647058" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the apprentice</text>
+<text x="1020" y="774.1882352941177" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">day two</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four days to hand it over</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them is holding the tool. Watch whose hands you are being asked to look at.</text>
+<rect x="395.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="467.6,179.6 520.4,179.6 560,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="469.6" y1="179.6" x2="518.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="560.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Watch my hands, not my face.</text>
+<rect x="410.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="550.0" cy="408.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="600" cy="490" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="560.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Let her get it wrong once.</text>
+<rect x="855.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="927.6,179.6 980.4,179.6 1020,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="929.6" y1="179.6" x2="978.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="1020.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Got it.</text>
+</g>
+</svg>

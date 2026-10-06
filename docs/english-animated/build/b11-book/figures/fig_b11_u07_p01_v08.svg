@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>How a skill travels, and where it leaks</title>
+<desc>A network from an expert through demonstration, practice and correction to competence, with a written-document route drawn separately and thinner.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="420" x2="560" y2="200" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="200" y1="420" x2="560" y2="660" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+<line x1="560" y1="200" x2="960" y2="360" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="960" y1="360" x2="960" y2="680" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<line x1="960" y1="680" x2="1350" y2="480" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="560" y1="660" x2="1350" y2="480" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="200" y1="420" x2="1350" y2="480" stroke="#A8372E" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+</g>
+<g id="20_subject">
+<circle cx="200" cy="420" r="58" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="200" y="425" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">X</text>
+<text x="200" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The expert</text>
+<text x="200" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stopped noticing years ago</text>
+<circle cx="560" cy="200" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="560" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">SEE</text>
+<text x="560" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Demonstration</text>
+<text x="560" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">watch the hands</text>
+<circle cx="560" cy="660" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="560" y="665" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">DOC</text>
+<text x="560" y="732" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The document</text>
+<text x="560" y="752" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">forty pages, mostly screenshots</text>
+<circle cx="960" cy="360" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="960" y="365" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">DO</text>
+<text x="960" y="432" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Practice</text>
+<text x="960" y="452" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">get it wrong once</text>
+<circle cx="960" cy="680" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="960" y="685" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">FIX</text>
+<text x="960" y="752" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Correction</text>
+<text x="960" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">late, not during</text>
+<circle cx="1350" cy="480" r="58" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1350" y="485" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
+<text x="1350" y="564" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Competence</text>
+<text x="1350" y="584" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">can teach it on</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">How a skill travels, and where it leaks</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three of these arrows carry most of it. The dashed one carries almost nothing.</text>
+<rect x="322.0" y="295.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="380.0" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the normal case</text>
+<rect x="322.0" y="525.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="380.0" y="544.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">written in the evenings</text>
+<rect x="702.0" y="265.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="760.0" y="284.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">see one, do one</text>
+<rect x="902.0" y="505.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="960.0" y="524.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">what went wrong</text>
+<rect x="1097.0" y="565.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1155.0" y="584.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">teach one</text>
+<rect x="897.0" y="555.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="955.0" y="574.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">where to put what you find out</text>
+<rect x="717.0" y="435.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="775.0" y="454.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the exceptions — never transmitted</text>
+</g>
+</svg>

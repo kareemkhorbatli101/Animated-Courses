@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>The procedure, and what people do</title>
+<desc>Two step sequences side by side, one from a written procedure and one observed in practice, differing in three places.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">what is written</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">what happens</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="146.0" y="444" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="156.0" y1="458" x2="204.0" y2="458" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="156.0" y1="472" x2="204.0" y2="472" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="156.0" y1="486" x2="204.0" y2="486" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="156.0" y1="500" x2="204.0" y2="500" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="156.0" y1="514" x2="204.0" y2="514" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<path d="M 260.0 482 L 320.0 482" fill="none" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="320.0,482 308.0,475 308.0,489" fill="#C86B2B"/>
+<rect x="356.0" y="444" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="366.0" y1="458" x2="414.0" y2="458" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="472" x2="414.0" y2="472" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="486" x2="414.0" y2="486" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="500" x2="414.0" y2="500" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="366.0" y1="514" x2="414.0" y2="514" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<path d="M 470.0 482 L 530.0 482" fill="none" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="530.0,482 518.0,475 518.0,489" fill="#C86B2B"/>
+<rect x="566.0" y="444" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="576.0" y1="458" x2="624.0" y2="458" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="576.0" y1="472" x2="624.0" y2="472" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="576.0" y1="486" x2="624.0" y2="486" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="576.0" y1="500" x2="624.0" y2="500" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="576.0" y1="514" x2="624.0" y2="514" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<text x="390.0" y="332" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">check · lock · sign the book</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="906.0" y="444" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="916.0" y1="458" x2="964.0" y2="458" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="916.0" y1="472" x2="964.0" y2="472" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="916.0" y1="486" x2="964.0" y2="486" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="916.0" y1="500" x2="964.0" y2="500" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="916.0" y1="514" x2="964.0" y2="514" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<path d="M 1020.0 482 L 1080.0 482" fill="none" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1080.0,482 1068.0,475 1068.0,489" fill="#C86B2B"/>
+<rect x="1116.0" y="444" width="68" height="88" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<path d="M 1230.0 482 L 1290.0 482" fill="none" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1290.0,482 1278.0,475 1278.0,489" fill="#C86B2B"/>
+<rect x="1326.0" y="444" width="68" height="88" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.8"/>
+<line x1="1336.0" y1="458" x2="1384.0" y2="458" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1336.0" y1="472" x2="1384.0" y2="472" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1336.0" y1="486" x2="1384.0" y2="486" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1336.0" y1="500" x2="1384.0" y2="500" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<line x1="1336.0" y1="514" x2="1384.0" y2="514" stroke="#55646D" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+<path d="M 1137.0 388 l 26 26 M 1163.0 388 l -26 26" fill="none" stroke="#A8372E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1150.0" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">check · (nobody locks) · sign the book</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The procedure, and what people do</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the written steps. Learner B has the observed steps. Find the three gaps.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Describe only. Do not show the page.</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8 differences — find them all</text>
+</g>
+</svg>
