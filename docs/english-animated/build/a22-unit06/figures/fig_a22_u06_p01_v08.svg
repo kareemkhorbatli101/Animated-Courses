@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>One boat, three roads, one form</title>
+<desc>A network from the empty boat through three explanations to the insurance form, with the evidence that closes each road marked on the links.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="400" x2="510" y2="200" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="170" y1="400" x2="510" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="170" y1="400" x2="510" y2="600" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="510" y1="200" x2="1120" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="510" y1="400" x2="1120" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="510" y1="600" x2="1120" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="170" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The boat</text>
+<text x="170" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">two miles out, hatch open</text>
+<circle cx="510" cy="200" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="510" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="510" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Mooring failure</text>
+<text x="510" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the rope says no</text>
+<circle cx="510" cy="400" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="510" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="510" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Engine failure</text>
+<text x="510" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the tank says unlikely</text>
+<circle cx="510" cy="600" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="510" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="510" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">He untied it</text>
+<text x="510" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the lifejacket says no</text>
+<circle cx="1120" cy="400" r="54" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1120" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1120" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The form</text>
+<text x="1120" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one box, three amounts</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One boat, three roads, one form</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five nodes. Two of the roads are closed by physical evidence and the form has no box for the third.</text>
+<rect x="282.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="340.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">what Mossie said at nine</text>
+<rect x="282.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="340.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">possible, and nobody has looked</text>
+<rect x="282.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="340.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">fits the rope, fits nothing else</text>
+<rect x="757.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="815.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">pays 18,000</text>
+<rect x="757.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="815.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">pays 18,000</text>
+<rect x="757.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="815.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">no box at all</text>
+</g>
+</svg>
