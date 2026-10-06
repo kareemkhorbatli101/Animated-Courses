@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>Three past tenses, one story</title>
+<desc>A timeline with three bands: a dot for a completed event, a lens bracket for background, and a dotted span ending at a boundary for what was already true.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="520" x2="1380" y2="520" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,520 1364,512 1364,528" fill="#1C2B33"/>
+<line x1="1258.0" y1="360" x2="1258.0" y2="554" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1258.0" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<circle cx="843.2" cy="466" r="11" fill="#1F4E5F"/>
+<line x1="843.2" y1="466" x2="843.2" y2="520" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 550.4000000000001 338 Q 843.2 316 1136.0 338" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 550.4000000000001 378 Q 843.2 400 1136.0 378" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="550.4000000000001" y1="338" x2="550.4000000000001" y2="378" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="1136.0" y1="338" x2="1136.0" y2="378" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="221.0" y1="250" x2="452.8" y2="250" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="452.8" y1="228" x2="452.8" y2="272" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three past tenses, one story</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The shapes carry the meaning. The names come afterwards.</text>
+<text x="843.2" y="414" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">one completed event</text>
+<text x="843.2" y="436" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">They took the timber out.</text>
+<text x="550.4000000000001" y="276" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">what was going on around it</text>
+<text x="550.4000000000001" y="298" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The building was standing empty.</text>
+<text x="221.0" y="202" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">already true before the story</text>
+<text x="221.0" y="224" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">By then they had started.</text>
+<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The past perfect is not &quot;more past&quot;. It marks what was already true when the story began.</text>
+</g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>What tenants paid after four nearby sales</title>
+<desc>A line chart of four comparable sales, three showing rent rising sharply and one falling.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">80</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">112</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">145</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">178</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">210</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 539.2 L 563.3 440.2 L 956.7 323.4 L 1350.0 227.8" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="539.2307692307693" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="440.15384615384613" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="323.38461538461536" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="227.8461538461538" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="232.8461538461538" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">Riverside Works</text>
+<path d="M 170.0 539.2 L 563.3 472.0 L 956.7 372.9 L 1350.0 284.5" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="539.2307692307693" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="472.0" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="372.92307692307696" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="1350.0" cy="284.46153846153845" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<text x="1364.0" y="289.46153846153845" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Lenana Court</text>
+<path d="M 170.0 539.2 L 563.3 429.5 L 956.7 341.1 L 1350.0 188.9" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="539.2307692307693" r="5" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="429.53846153846155" r="5" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="341.07692307692304" r="5" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="188.92307692307696" r="5" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="2.6"/>
+<text x="1364.0" y="193.92307692307696" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="start" font-weight="600" font-style="normal">Kabete Yard</text>
+<path d="M 170.0 539.2 L 563.3 549.8 L 956.7 560.5 L 1350.0 571.1" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="539.2307692307693" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="563.3333333333333" cy="549.8461538461538" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="956.6666666666666" cy="560.4615384615385" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="571.0769230769231" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<text x="1364.0" y="576.0769230769231" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">Mbagathi Rooms</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What tenants paid after four nearby sales</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Rent in the three years after the building changed hands, indexed to the year of sale.</text>
+<text x="170.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">sale year</text>
+<text x="563.3333333333333" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+1 year</text>
+<text x="956.6666666666666" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+2 years</text>
+<text x="1350.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+3 years</text>
+<text x="170" y="690.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Mbagathi Rooms is the sale everybody quotes. It is also the only one of the four where the buyer</text>
+<text x="170" y="711.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">was a tenants' cooperative. This buyer is not.</text>
+<rect x="170" y="652" width="1180" height="34" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="184" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Three of four went up. One went down. Which one is in the offer letter?</text>
+</g>
+</svg>

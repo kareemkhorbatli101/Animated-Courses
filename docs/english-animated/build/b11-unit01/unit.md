@@ -7,17 +7,11 @@
 
 ## Part 0 · The Big Picture ◆ **A · THE WORLD**
 
-> **FIGURE `fig_b11_u01_p00_v01` · V1 Establishing Scene · full bleed across the spread**
-> *Jengo House and sixty metres of Ngong Lane, 10.40 on a Tuesday morning.* Four storeys, cut away
-> on the left so two interiors are visible: a shared workspace on the first floor, an empty unit on
-> the ground floor with paper over the glass. On the street: a matatu pulling away, a hoarding
-> around a half-built block next door with a planning notice taped to it, Mwangi's tailoring stall
-> under a canvas awning, a water bowser, a man re-laying paving slabs, a woman carrying a sewing
-> machine, three generations of shopfront on the same frontage. **27 nameable elements.**
-> *Second-look detail:* the planning notice on the hoarding is the same document reproduced in
-> Part 5, and its date has passed.
-> *Animation:* TRAVERSE (camera walks the street left to right, 32 s), HOTSPOT (27 regions).
-> *Alt text:* A busy city street with a four-storey building cut open to show two floors inside…
+
+![A city street with a four-storey building cut open to show four floors inside, two towers, a half-built site behind a hoarding, a tailor's stall under an awning, and eight people working.](figures/fig_b11_u01_p00_v01.png){width=6.6in}
+
+*Ngong Lane, 10.40 on a Tuesday — Jengo House is cut open on the left. The stall on the corner has been there thirty-one years.*
+
 
 # Who is a city built for?
 
@@ -61,12 +55,11 @@ Tap or look at the picture in Part 0 and find the thing each word names. Write t
 > **plot** · **frontage** · **hoarding** · **scaffolding** · **kerb** · **pavement** ·
 > **tenant** · **landlord** · **rent** · **derelict** · **demolish** · **redevelop**
 
-> **FIGURE `fig_b11_u01_p01_v08` · V8 Map / Network**
-> Sixty metres of Ngong Lane drawn as a plan from above. Each frontage is shaded by **what it is
-> now** and outlined by **what it was in 2010**. Seven plots. Mwangi's stall is the only shape that
-> does not change between the two states. A scale bar runs along the bottom; two metres is marked,
-> so learners can see how small the stall is against the towers.
-> *Animation:* MORPH (2010 ⇄ 2026), HOTSPOT.
+
+![A plan view of seven plots along a street, each labelled with its current and former use.](figures/fig_b11_u01_p01_v08.png){width=6.6in}
+
+*Sixty metres of Ngong Lane, then and now — Shaded = what it is now. Dashed outline = what it was in 2010. One shape has not changed.*
+
 
 **Use the plan.** Which plot changed most? Which changed least? Put the seven plots in order —
 then do 1B with the same seven, and see whether your two orders agree.
@@ -130,12 +123,11 @@ Tell a partner. Your partner's job: which word did you look up?
 
 ### 2A · Three people on the same street 🔊 Track 1.1
 
-> **FIGURE `fig_b11_u01_p02_v07` · V7 Dialogue Stage**
-> The three speakers, full figure, in the places they actually stand. Grace in the stairwell with
-> a mop bucket, one hand on the rail, turned towards the camera. Mr Kamau on the pavement, facing
-> the hoarding, hands behind his back. Tom at a first-floor window, looking out and down, coffee
-> in hand. Speech balloon for one line each. **Thought balloons carry what none of them says
-> aloud** — that is the content of the figure, and the task below depends on it.
+
+![Three people standing in different places on the same street, with speech and thought bubbles.](figures/fig_b11_u01_p02_v07.png){width=6.6in}
+
+*Three people, one street, ten years — Each is turned towards something different. That is the task.*
+
 
 **Before you listen.** Look at the picture in Part 0 again. Who do you think will be pleased about
 the changes to this street, and who will not? Why?
@@ -201,13 +193,11 @@ sentences.
 
 ### 3B · See
 
-> **FIGURE `fig_b11_u01_p03_v09` · V9 Grammar Visual**
-> One timeline running left to right with a NOW marker at the right-hand end. Three bands above it:
-> a **solid dot** on the line for the single completed event (*they took it out*); a **lens
-> bracket** stretched over a span, with the event dot inside it, for the background (*it was
-> empty*); a **dotted span ending in a vertical boundary**, sitting to the left of everything else,
-> for what was already true (*they had started*). Nothing is named in the figure except the three
-> shapes. *Animation:* REVEAL — one band at a time, 34 s of narration.
+
+![A timeline with three bands: a dot for a completed event, a lens bracket for background, and a dotted span ending at a boundary for what was already true.](figures/fig_b11_u01_p03_v09.png){width=6.6in}
+
+*Three past tenses, one story — The shapes carry the meaning. The names come afterwards.*
+
 
 ### 3C · Know
 
@@ -263,11 +253,11 @@ your story started**. If they cannot, tell it again.
 **0–3 →** Workbook pp. 6–8 before you go on. **4–5 →** the Contrast Clinic in Part 6 will fix it.
 **6 →** the extension task on p. 19.
 
-> **FIGURE `fig_b11_u01_p03_v11` · V11 Error Autopsy**
-> *"By the time I arrived, they demolished it."* The timeline from 3B is redrawn with the event dot
-> sitting on the **wrong side** of the boundary marker, so the arrow of the sentence crosses itself.
-> Beside it, the corrected version. The misconception is named in one line: **the writer treated
-> the past perfect as decoration. It is the thing that fixes the order.**
+
+![Two panels comparing a wrong and a right sentence, with the event marker on the wrong side of the boundary in the first.](figures/fig_b11_u01_p03_v11.png){width=6.6in}
+
+*Why this sentence puts the events in the wrong order — Why this sentence puts the events in the wrong order*
+
 
 ---
 
@@ -281,13 +271,11 @@ Same content every time. Do not add anything. The only thing that changes is you
 
 ### 4B · The functional core — describing change, and saying who did it
 
-> **FIGURE `fig_b11_u01_p04_v04` · V4 Comparison Pair**
-> The same forty metres of frontage in 2010 and in 2026, identical camera position and framing,
-> with **nine planted differences** at three levels of obviousness: three you see at once (the
-> tower, the hoarding, the resurfaced road), three you find on a second look (the shopfronts, the
-> awning, the street lamp), three you find only if you are looking (the drain cover, the painted
-> kerb, the number of parked matatus). *Animation:* MORPH.
-> **Learner A sees the 2010 panel. Learner B sees 2026. Neither sees the other.**
+
+![Two drawings of the same street frontage, sixteen years apart, with nine differences.](figures/fig_b11_u01_p04_v04.png){width=6.6in}
+
+*The same forty metres, 2010 and 2026 — Learner A sees the left panel. Learner B sees the right. Neither sees the other.*
+
 
 **Language Bank** — three levels of formality. Choose, do not mix.
 
@@ -394,12 +382,11 @@ Work out what each word means from the sentence around it. **Then rate how sure 
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_b11_u01_p05_v05` · V5 Annotated Realia · full page**
-> The planning notice from the hoarding in Part 0, reproduced at **full legibility**: the local
-> authority letterhead, application reference, site address, a description of the proposal in
-> planning language, the date of publication, the twenty-one-day objection window, and the small
-> print naming where representations must be sent. Seven callouts, ≤8 words each.
-> **The dates are real and the objection window has closed.** Learners find this themselves.
+
+![A reproduction of a local-authority planning notice with reference number, site address, description of the proposal, publication date and objection deadline.](figures/fig_b11_u01_p05_v05.png){width=6.6in}
+
+*The planning notice on the hoarding — Everything on it is legible. Read the small print before you answer question 5.*
+
 
 **Read the notice and answer.**
 
@@ -473,11 +460,11 @@ what happened.
 
 ### Why Grace was hard to follow
 
-> **FIGURE `fig_b11_u01_p07_v10` · V10 Phonetics Visual**
-> Five phrases from Track 1.1, each shown twice: as written, then as spoken, with the dropped
-> consonant **greyed to 20% and the joined words physically touching**. A pitch contour runs
-> beneath each, drawn over the waveform. *Animation:* SYNC — the contour draws itself in real time
-> as the audio plays, at 1×, 0.75× and 0.5×.
+
+![Five phrases shown as written and as spoken, with the dropped consonants greyed out.](figures/fig_b11_u01_p07_v10.png){width=6.6in}
+
+*Why Grace was hard to follow — Nothing is being swallowed carelessly. English does this on purpose, and fast.*
+
 
 ### 7A · Hear
 
@@ -511,13 +498,11 @@ Record the first and the third. Listen to both.
 
 ### How a place changed · 140 words
 
-> **FIGURE `fig_b11_u01_p08_v02` · V2 Cutaway**
-> Jengo House in section, four storeys, the front wall removed. Each floor carries two labels:
-> **what it was built for** (1978) and **what it is used for now**. The ground floor has changed
-> use three times and the callouts give the years. A leader line marks the structural column the
-> 2014 refit had to leave in place, which is why the first-floor layout is the shape it is.
-> The model paragraph below is written **from this figure**, so you can see where a writer's facts
-> come from.
+
+![A four-storey building drawn in section, each floor labelled with its original and current use, with the ground floor showing three changes of use.](figures/fig_b11_u01_p08_v02.png){width=6.6in}
+
+*Jengo House in section — Each floor carries what it was built for, and what it is used for now.*
+
 
 ### 8A · Read the model
 
@@ -586,10 +571,11 @@ task**, so someone will have to explain yours to a person who has never been the
 
 Six messages reached Jengo House between 8.00 and 11.30 on one Tuesday.
 
-> **FIGURE `fig_b11_u01_p09_v05` · V5 Annotated Realia · full page**
-> The inbox reproduced as a real mail client: sender, subject line, timestamp, read/unread state,
-> one with an attachment, one that is the fourth message in a thread, one flagged. The preview
-> lines are long enough to mislead — two messages look urgent and are not. Six callouts.
+
+![An email inbox with six messages, showing sender, subject, time and read state.](figures/fig_b11_u01_p09_v05.png){width=6.6in}
+
+*One Tuesday morning in the inbox — Six messages between 08.02 and 11.26. Two look urgent and are not.*
+
 
 | | From | Subject | 🕗 |
 |---|---|---|---|
@@ -638,11 +624,11 @@ something.** Bring it. You do not have to say who sent it.
 
 ## Part 10 · Mediation & Interaction ◆ **C · THE PERFORMANCE**
 
-> **FIGURE `fig_b11_u01_p10_v12` · V12 Synthesis Infographic · full page**
-> Ten years of Ngong Lane on one page: a timeline across the bottom; above it, a band for the
-> buildings (what went up, what came down), a band for the businesses (who stayed, who left, where
-> they went), a line for rents indexed to 2016, and a row of planning decisions underneath with
-> their dates. Dense. It is meant to be too much to summarise comfortably.
+
+![A multi-band infographic showing buildings, businesses, rents and planning decisions across ten years of one street.](figures/fig_b11_u01_p10_v12.png){width=6.6in}
+
+*Ngong Lane, 2016–2026 — Everything this unit has told you, on one page. Half the class sees the left of it.*
+
 
 ### 10A · Relay
 
@@ -697,11 +683,11 @@ Six tenants. Three positions.
 2. **The figures**, below.
 3. **The voice.** Grace, forty seconds, lifted from Track 1.1.
 
-> **FIGURE `fig_b11_u01_p11_v06` · V6 Data Visual**
-> What comparable tenants paid in the three years after four similar sales within two kilometres.
-> Four lines. **One of them goes down** — and that is the case everybody quotes. The learner has to
-> notice that the outlier had a different kind of buyer before the chart means anything at all.
-> *Animation:* INTERROGATE — the axis re-scales and the outlier can be switched off.
+
+![A line chart of four comparable sales, three showing rent rising sharply and one falling.](figures/fig_b11_u01_p11_v06.png){width=6.6in}
+
+*What tenants paid after four nearby sales — Rent in the three years after the building changed hands, indexed to the year of sale.*
+
 
 ### 11B · Steelman — first
 
