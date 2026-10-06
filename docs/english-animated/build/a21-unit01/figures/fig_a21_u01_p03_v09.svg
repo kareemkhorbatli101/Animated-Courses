@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>Finished, or still going</title>
+<desc>A timeline showing a past simple period that ends before now, and a present perfect period that reaches now, with for and since marked.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="480" x2="1380" y2="480" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,480 1364,472 1364,488" fill="#1C2B33"/>
+<line x1="1233.6" y1="320" x2="1233.6" y2="514" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1233.6" y="538" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<circle cx="428.4" cy="426" r="11" fill="#1F4E5F"/>
+<line x1="428.4" y1="426" x2="428.4" y2="480" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<line x1="648.0" y1="318" x2="1233.6" y2="318" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="648.0" cy="318" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="1233.6" cy="318" r="7" fill="#1F4E5F"/>
+<line x1="257.6" y1="210" x2="330.8" y2="210" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="330.8" y1="188" x2="330.8" y2="232" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Finished, or still going</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Both are in the past. Only one of them reaches today.</text>
+<text x="428.4" y="374" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">past simple - finished</text>
+<text x="428.4" y="396" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I worked at the fish stall for two years.</text>
+<text x="648.0" y="270" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">present perfect - still true now</text>
+<text x="648.0" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I've worked here for three years.</text>
+<text x="257.6" y="162" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">SINCE - a point</text>
+<text x="257.6" y="184" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">since 1995  |  FOR - a length: for three years</text>
+<rect x="160" y="588" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="622.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">since + a point (1995, Monday, I was ten). for + a length (three years, two weeks). Never since</text>
+<text x="180" y="643.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">three years.</text>
+</g>
+</svg>

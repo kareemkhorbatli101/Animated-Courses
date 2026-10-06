@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+<title>The market noticeboard</title>
+<desc>A market noticeboard with licence fees, trading hours, permanent table rules and a handwritten note about a stall that is free on Tuesdays.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="940" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="730" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="730" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">PASAR CHOW KIT - TRADERS NOTICE</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">1 - LICENCE</text>
+<rect x="140" y="240" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="260" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">TYPE</text>
+<text x="403.33333333333337" y="260" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">PER MONTH</text>
+<text x="656.6666666666667" y="260" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">PAY BY</text>
+<text x="150.0" y="290" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Daily table</text>
+<text x="403.33333333333337" y="290" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">95</text>
+<text x="656.6666666666667" y="290" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the 1st</text>
+<line x1="140" y1="300" x2="900" y2="300" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="320" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Monthly table</text>
+<text x="403.33333333333337" y="320" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">340</text>
+<text x="656.6666666666667" y="320" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the 1st</text>
+<line x1="140" y1="330" x2="900" y2="330" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="350" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Permanent table</text>
+<text x="403.33333333333337" y="350" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">390</text>
+<text x="656.6666666666667" y="350" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the 1st</text>
+<line x1="140" y1="360" x2="900" y2="360" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="388" x2="910" y2="388" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="424" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">2 - HOURS</text>
+<text x="140" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Market opens</text>
+<text x="410" y="454" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">04:00</text>
+<text x="140" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Last entry for vehicles</text>
+<text x="410" y="486" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">05:30</text>
+<text x="140" y="518" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Market closes</text>
+<text x="410" y="518" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">14:00</text>
+<line x1="130" y1="550" x2="910" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="586" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">3 - PERMANENT TABLES</text>
+<text x="140" y="616.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Traders may apply for a permanent table after three continuous</text>
+<text x="140" y="637.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">years of monthly trading. Two missed months end the continuous</text>
+<text x="140" y="659.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">period and the count begins again.</text>
+<line x1="130" y1="695.25" x2="910" y2="695.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="727.25" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">HANDWRITTEN, PINNED BELOW:</text>
+<text x="140" y="757.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Table 19 free Tuesdays only. Ask Mei Ling. Not the fish end.&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The market noticeboard</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three printed notices and one written by hand. The handwritten one is the useful one.</text>
+<circle cx="934" cy="266.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 266.0 L 1024 266.0 L 1024 266.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="271.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">340 a month, before you sell</text>
+<text x="1040" y="291.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">anything</text>
+<circle cx="934" cy="309.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 309.8 L 1024 309.8 L 1024 309.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="314.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Only 50 more for permanent - but</text>
+<text x="1040" y="335.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">see rule 3</text>
+<circle cx="934" cy="441.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 441.2 L 1024 441.2 L 1024 441.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="446.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Vehicles out by half past five</text>
+<circle cx="934" cy="587.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 587.2 L 1024 587.2 L 1024 587.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="592.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three continuous years</text>
+<circle cx="934" cy="631.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 631.0 L 1024 631.0 L 1024 631.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="636.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two missed months and you start</text>
+<text x="1040" y="656.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">again</text>
+<circle cx="934" cy="777.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 777.0 L 1024 777.0 L 1024 777.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="782.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The only notice with a name on it</text>
+</g>
+</svg>

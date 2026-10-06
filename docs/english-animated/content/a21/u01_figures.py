@@ -1,0 +1,246 @@
+"""A2.1 Unit 1 - Three Years at the Stall - fourteen figures, as data."""
+FIGURES = {
+"fig_a21_u01_p00_v01": dict(type='V1', height=900, storey_h=130,
+ title='Pasar Chow Kit, 04.40',
+ sub='Forty-one traders. One started last week. One has been here thirty years.',
+ alt='A covered market before dawn with stalls, crates, scales, awnings and traders setting up.',
+ sky='#E6E4DE', ground='#B5A38A', ground_line=700,
+ buildings=[dict(x=70, w=1460, storeys=1, colour='#E0D6C2', label='the covered market')],
+ props=[dict(kind='stall', x=160, y=700, s=.9, colour='#C86B2B'),
+   dict(kind='stall', x=460, y=700, s=.9, colour='#2E6F5E'),
+   dict(kind='stall', x=760, y=700, s=.9, colour='#8C6A9E'),
+   dict(kind='stall', x=1060, y=700, s=.9, colour='#D9A441'),
+   dict(kind='crate', x=360, y=700, s=1.1), dict(kind='crate', x=660, y=700, s=1.1),
+   dict(kind='crate', x=1300, y=700, s=1.1), dict(kind='box', x=1380, y=700, s=1.1),
+   dict(kind='table', x=1240, y=700, s=1.2),
+   dict(kind='sign', x=1460, y=700, s=.7, text='04:00')],
+ people=[dict(x=230, y=700, h=76, skin=2, cloth=3, hair='wrap', arm='hold'),
+   dict(x=300, y=700, h=74, skin=1, cloth=0, hair='short', arm='hold'),
+   dict(x=540, y=700, h=76, skin=4, cloth=2, hair='long', arm='point'),
+   dict(x=840, y=700, h=75, skin=0, cloth=4, hair='short', arm='down'),
+   dict(x=1140, y=700, h=76, skin=3, cloth=1, hair='grey', arm='hold')],
+ names=[dict(x=230, t='Siti, since 1995'), dict(x=300, t='Hafiz, three years'),
+   dict(x=540, t='Mei Ling, noodles'), dict(x=840, t='Ravi, fish, in at four'),
+   dict(x=1140, t='started last week'), dict(x=1460, t='the market clock')],
+ markers=[dict(x=230, y=650), dict(x=300, y=652), dict(x=540, y=646), dict(x=840, y=648),
+   dict(x=1140, y=648), dict(x=1300, y=672), dict(x=1460, y=630), dict(x=660, y=672)]),
+
+"fig_a21_u01_p01_v08": dict(type='V8', height=760,
+ title='How you get good at something',
+ sub='Five stages. The dashed line is the one people try to skip.',
+ alt='A network from beginner through watching, practising, making mistakes and correcting to '
+     'confidence, with a dashed shortcut from beginner to confident.',
+ nodes={
+  'beg':  dict(x=200, y=400, short='1', name='Beginner', sub='you watch', colour='#1F4E5F'),
+  'prac': dict(x=560, y=250, short='2', name='Practise', sub='you try', colour='#2E6F5E'),
+  'mist': dict(x=560, y=560, short='3', name='Mistake', sub='every time', colour='#C86B2B'),
+  'corr': dict(x=940, y=400, short='4', name='Correct it', sub='and repeat', r=54, colour='#8C6A9E'),
+  'conf': dict(x=1320, y=400, short='5', name='Confident', sub='you can explain it', r=54, colour='#D9A441')},
+ edges=[dict(a='beg', b='prac', label='have a go', sw=5),
+   dict(a='prac', b='mist', label='always', sw=5),
+   dict(a='mist', b='corr', label='somebody shows you', sw=5),
+   dict(a='corr', b='prac', label='again', sw=4),
+   dict(a='corr', b='conf', label='after a long time', sw=5),
+   dict(a='beg', b='conf', label='the shortcut nobody has found', sw=2, dash='6 6', colour='#9AA7AE')]),
+
+"fig_a21_u01_p02_v07": dict(type='V7', height=800,
+ title='Siti and Hafiz at the stall',
+ sub='One of them is weighing. One of them is watching the weighing.',
+ alt='An older trader and a young man at a market stall with scales between them, speech bubbles '
+     'showing how long each has been there.',
+ bg='#EFEAE0',
+ set=[dict(kind='stall', x=640, y=680, s=1.3, colour='#C86B2B'), dict(kind='crate', x=1280, y=680, s=1.2)],
+ people=[dict(x=520, h=240, skin=2, cloth=3, hair='wrap', arm='hold', facing='right',
+   label='Siti', role='since 1995', says=["I've been here since 1995."]),
+  dict(x=1020, h=238, skin=1, cloth=0, hair='short', arm='point', facing='left',
+   label='Hafiz', role='three years',
+   says=["I've worked here for three years.", "I'm still slow with the scales."])]),
+
+"fig_a21_u01_p03_v09": dict(type='V9', kind='timeline', height=680,
+ title='Finished, or still going',
+ sub='Both are in the past. Only one of them reaches today.',
+ alt='A timeline showing a past simple period that ends before now, and a present perfect period '
+     'that reaches now, with for and since marked.',
+ now=0.88, axis_y=480,
+ bands=[dict(type='event', lane=1, **{'from': 0.22}, label='past simple - finished',
+     example='I worked at the fish stall for two years.'),
+   dict(type='reach', lane=3, **{'from': 0.40}, label='present perfect - still true now',
+     example="I've worked here for three years."),
+   dict(type='before', lane=5, **{'from': 0.08, 'to': 0.14}, label='SINCE - a point',
+     example='since 1995  |  FOR - a length: for three years')],
+ rule='since + a point (1995, Monday, I was ten). for + a length (three years, two weeks). '
+      'Never since three years.'),
+
+"fig_a21_u01_p04_v04": dict(type='V4', height=700,
+ title='Two traders, two Mondays',
+ sub='Learner A has the start dates. Learner B has the jobs. Find out who has been here longest.',
+ alt='Two market stalls side by side with different numbers of crates, customers and years on a '
+     'hand-painted sign.',
+ differences=7, prompt='Describe only. Do not show the page.',
+ left=dict(label='stall one', art=[
+   dict(kind='block', x=140, y=0, w=90, bh=70, colour='#C86B2B'),
+   dict(kind='person', x=290, y=0, h=110, skin=2, cloth=3),
+   dict(kind='crate', x=380, y=0), dict(kind='crate', x=440, y=0),
+   dict(kind='label', x=300, y=200, text='since 1995  -  one person', colour='#1F4E5F')]),
+ right=dict(label='stall two', art=[
+   dict(kind='block', x=140, y=0, w=90, bh=70, colour='#2E6F5E'),
+   dict(kind='person', x=290, y=0, h=110, skin=0, cloth=4),
+   dict(kind='person', x=360, y=0, h=108, skin=4, cloth=1),
+   dict(kind='label', x=300, y=200, text='since March  -  two people', colour='#1F4E5F')])),
+
+"fig_a21_u01_p05_v05": dict(type='V5', height=940,
+ title='The market noticeboard',
+ sub='Three printed notices and one written by hand. The handwritten one is the useful one.',
+ alt='A market noticeboard with licence fees, trading hours, permanent table rules and a '
+     'handwritten note about a stall that is free on Tuesdays.',
+ rows=[dict(t='org', text='PASAR CHOW KIT - TRADERS NOTICE'),
+   dict(t='head', text='1 - LICENCE'),
+   dict(t='grid', cols=['TYPE', 'PER MONTH', 'PAY BY'],
+     data=[['Daily table', '95', 'the 1st'], ['Monthly table', '340', 'the 1st'],
+           ['Permanent table', '390', 'the 1st']]),
+   dict(t='rule'),
+   dict(t='head', text='2 - HOURS'),
+   dict(t='kv', k='Market opens', v='04:00', mono=True),
+   dict(t='kv', k='Last entry for vehicles', v='05:30', mono=True),
+   dict(t='kv', k='Market closes', v='14:00', mono=True),
+   dict(t='rule'),
+   dict(t='head', text='3 - PERMANENT TABLES'),
+   dict(t='para', text='Traders may apply for a permanent table after three continuous years of '
+     'monthly trading. Two missed months end the continuous period and the count begins again.'),
+   dict(t='rule'),
+   dict(t='sign', text='HANDWRITTEN, PINNED BELOW:'),
+   dict(t='para', text='"Table 19 free Tuesdays only. Ask Mei Ling. Not the fish end."')],
+ callouts=[dict(at=0.20, text='340 a month, before you sell anything'),
+   dict(at=0.26, text='Only 50 more for permanent - but see rule 3'),
+   dict(at=0.44, text='Vehicles out by half past five'),
+   dict(at=0.64, text='Three continuous years'),
+   dict(at=0.70, text='Two missed months and you start again'),
+   dict(at=0.90, text='The only notice with a name on it')]),
+
+"fig_a21_u01_p06_v03a": dict(type='V3', height=620,
+ title='A point, or a length',
+ sub='The same thirty years, drawn two ways.',
+ alt='A four-panel strip showing a timeline marked with a point in 1995 and the same timeline '
+     'marked as a thirty-year span.',
+ axis_start='1995', axis_end='now',
+ panels=[dict(caption='SINCE 1995 - you point at the beginning', art=[
+     dict(kind='label', x=160, y=170, text='1995', colour='#C86B2B'),
+     dict(kind='block', x=70, y=0, w=16, bh=120, colour='#C86B2B'),
+     dict(kind='arrow', x=200, y=60)]),
+   dict(caption='FOR thirty years - you measure the whole thing', art=[
+     dict(kind='block', x=160, y=0, w=200, bh=40, colour='#2E6F5E'),
+     dict(kind='label', x=160, y=170, text='30 years', colour='#2E6F5E')]),
+   dict(caption='Both are true. Both reach today.', art=[
+     dict(kind='tick', x=160, y=80),
+     dict(kind='label', x=160, y=180, text='I have been here', colour='#1F4E5F')]),
+   dict(caption='SINCE thirty years is not English.', art=[
+     dict(kind='cross', x=160, y=80),
+     dict(kind='label', x=160, y=180, text='since 30 years', colour='#A8372E')])]),
+
+"fig_a21_u01_p07_v10": dict(type='V10', kind='elision', height=600,
+ title='Three words that become one',
+ sub='Nobody says I have been. Everybody understands it.',
+ alt='Four present-perfect phrases shown written and spoken, with the reduced sounds marked.',
+ pairs=[dict(written='I have been', spoken='aɪv_bɪn', dropped='_', note='two sounds, not three'),
+   dict(written='she has been', spoken='ʃiːz_bɪn', dropped='_', note="'s here is /z/"),
+   dict(written='we have worked', spoken='wiːv_wɜːkt', dropped='_', note='have becomes /v/'),
+   dict(written='How long have you', spoken='haʊlɒŋ_əvjə', dropped='_', note='have /əv/, you /jə/'),
+   dict(written='since nineteen ninety-five', spoken='sɪns_naɪntiːnaɪntifaɪv', dropped='_',
+        note='or just: since ninety-five')]),
+
+"fig_a21_u01_p08_v06": dict(type='V6', kind='bar', height=760,
+ title='How long the traders have been here',
+ sub='Forty-one traders in this part of the market.',
+ alt='A bar chart of market traders grouped by how many years they have traded, showing a large '
+     'group under two years and a second group over twenty.',
+ labels=['under 1 yr', '1-2 yrs', '3-5 yrs', '6-10 yrs', '11-20 yrs', 'over 20 yrs'],
+ ymin=0, ymax=14, fmt='{:,.0f}',
+ series=[dict(name='traders', values=[5, 9, 4, 6, 6, 11], colour='#1F4E5F')],
+ note='Almost nobody stays between three and five years. The traders who get past five tend to '
+      'stay for twenty.',
+ warning='Three years is also when you can apply for a permanent table. Look at the gap again.'),
+
+"fig_a21_u01_p09_v03b": dict(type='V3', height=620,
+ title='A meeting in four steps',
+ sub='Ten minutes. One decision. Everybody speaks twice.',
+ alt='A four-panel strip of a small meeting: starting, bringing somebody in, agreeing and '
+     'writing it down.',
+ axis_start='0 min', axis_end='10 min',
+ panels=[dict(caption='"Shall we start?"', art=[
+     dict(kind='person', x=120, y=0, h=110, skin=2, cloth=3, arm='raise'),
+     dict(kind='person', x=220, y=0, h=108, skin=0, cloth=0)]),
+   dict(caption='"Siti, what do you think?"', art=[
+     dict(kind='person', x=120, y=0, h=110, skin=0, cloth=0, arm='point'),
+     dict(kind='person', x=220, y=0, h=108, skin=2, cloth=3)]),
+   dict(caption='"Yes, let\'s do that."', art=[
+     dict(kind='person', x=120, y=0, h=110, skin=4, cloth=2),
+     dict(kind='tick', x=240, y=70)]),
+   dict(caption='"So - Tuesday. Agreed?"', art=[
+     dict(kind='doc', x=170, y=20),
+     dict(kind='label', x=170, y=190, text='two sentences, written', colour='#2E6F5E')])]),
+
+"fig_a21_u01_p10_v12": dict(type='V12', height=820,
+ title='Thirty years at one table',
+ sub='Half the class sees the left. Half sees the right. Rebuild it by speaking.',
+ alt='An infographic of one trader across thirty years showing who taught her, what changed, and '
+     'how many traders arrived and left.',
+ span=['1995', 'now'], ticks=6,
+ tick_labels=['1995', '2000', '2008', '2015', '2022', 'now'],
+ bands=[dict(name='Siti', type='bars', items=[
+   dict(**{'from': 0.0, 'to': 1.0}, label='same table, every day', colour='#2E6F5E'),
+   dict(**{'from': 0.88, 'to': 1.0}, label='Hafiz, three years', colour='#C86B2B')]),
+  dict(name='What changed', type='events', items=[
+   dict(at=0.00, label='her aunt hands it over', colour='#1F4E5F'),
+   dict(at=0.30, label='the roof goes on', colour='#8C6A9E'),
+   dict(at=0.62, label='card payments', colour='#8C6A9E'),
+   dict(at=0.90, label='opening moved to 04:00', colour='#D9A441')]),
+  dict(name='Traders in this row', type='line',
+   points=[(0, 28), (0.2, 33), (0.45, 39), (0.7, 44), (0.9, 41), (1.0, 41)], end_label='41'),
+  dict(name='Who left', type='flags', items=[
+   dict(at=0.26, label='six, in one year'), dict(at=0.58, label='the fish end moved'),
+   dict(at=0.84, label='nine new in two years'), dict(at=0.98, label='almost nobody stays five')])]),
+
+"fig_a21_u01_p01_v02": dict(type='V2', height=760,
+ title="Inside Siti's stall",
+ sub='Everything on this table has a place, and she put it there in 1995.',
+ alt='A market stall shown in section with its shelves labelled: the scales, the cash box, the '
+     'ice, the price cards and the crates underneath.',
+ floors=[dict(was='built 1995', now='The awning - keeps the sun off the leaves', year='', fill='#F2EDE2'),
+   dict(was='the top shelf', now='Price cards, written every morning', year='', fill='#E4ECEF'),
+   dict(was='the table', now='Scales, cash box, knife', year='', fill='#F6F0E4'),
+   dict(was='underneath', now='Crates and ice - what is not out yet', year='', fill='#F2EDE2')],
+ callouts=[dict(at=0.12, text='Changed twice in thirty years'),
+   dict(at=0.38, text='Rewritten every morning at four'),
+   dict(at=0.62, text='The scales Hafiz is still slow with'),
+   dict(at=0.88, text='Half the stock is down here')]),
+
+"fig_a21_u01_p03_v09b": dict(type='V9', kind='ladder', height=700,
+ title='How finished is it?',
+ sub='Five ways of talking about time, from over and done to still happening.',
+ alt='A ladder of time expressions from a finished past through recent past to something still '
+     'going on now.',
+ top_label='still going', bottom_label='finished',
+ steps=[dict(form="I've worked here for 3 years", meaning='started before, still true today'),
+   dict(form="I've just finished", meaning='a minute ago, and you can still see it'),
+   dict(form="I've already done it", meaning='before now, and sooner than expected'),
+   dict(form="I haven't done it yet", meaning='not now, but it is still expected'),
+   dict(form='I worked there in 2019', meaning='finished. Over. A closed box')],
+ rule='If the time is finished (yesterday, in 2019, last week), use the past simple. If it is not '
+      'finished (today, this year, since 1995), the present perfect is available.'),
+
+"fig_a21_u01_p06_v04b": dict(type='V4', height=700,
+ title='Two sentences, one difference',
+ sub='The same trader. One of these says she is still there.',
+ alt='Two sentences compared side by side, one in the past simple ending before now and one in '
+     'the present perfect reaching now.',
+ differences=6, prompt='What else changes when the tense changes?',
+ left=dict(label='I WORKED there', art=[
+   dict(kind='block', x=140, y=0, w=160, bh=60, colour='#9AA7AE'),
+   dict(kind='gap', x=380, y=0, w=120, bh=60),
+   dict(kind='cross', x=440, y=90),
+   dict(kind='label', x=300, y=200, text='finished - she is not there now', colour='#9AA7AE')]),
+ right=dict(label="I'VE WORKED there", art=[
+   dict(kind='block', x=140, y=0, w=300, bh=60, colour='#2E6F5E'),
+   dict(kind='tick', x=460, y=70),
+   dict(kind='label', x=300, y=200, text='still true - she is there today', colour='#2E6F5E')])),
+}

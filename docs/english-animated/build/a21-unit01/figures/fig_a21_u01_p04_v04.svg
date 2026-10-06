@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>Two traders, two Mondays</title>
+<desc>Two market stalls side by side with different numbers of crates, customers and years on a hand-painted sign.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="460" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">stall one</text>
+<rect x="820.0" y="130" width="720.0" height="460" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">stall two</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="542" x2="760.0" y2="542" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="155.0" y="472" width="90" height="70" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="350.0" cy="543.9411764705883" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 344.1764705882353 542 L 345.47058823529414 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 355.8235294117647 542 L 354.52941176470586 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 350.0 457.88235294117646 L 350.0 493.9882352941176" fill="none" stroke="#8C6A9E" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 337.70588235294116 458.52941176470586 L 362.29411764705884 458.52941176470586" fill="none" stroke="#8C6A9E" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 337.70588235294116 459.8235294117647 L 335.7647058823529 497.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="335.7647058823529" cy="499.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 362.29411764705884 459.8235294117647 L 364.2352941176471 497.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="364.2352941176471" cy="499.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 350.0 454.6470588235294 L 350.0 451.4117647058823" fill="none" stroke="#8D5A3B" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="350.0" cy="443.0" r="9.705882352941178" fill="#8D5A3B"/>
+<path d="M 340.29411764705884 441.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 359.70588235294116 441.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="346.7647058823529" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="353.2352941176471" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 347.4117647058824 448.1764705882353 Q 350.0 449.47058823529414 352.5882352941176 448.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">since 1995  -  one person</text>
+<line x1="840.0" y1="542" x2="1520.0" y2="542" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="915.0" y="472" width="90" height="70" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="1110.0" cy="543.9411764705883" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1104.1764705882354 542 L 1105.4705882352941 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1115.8235294117646 542 L 1114.5294117647059 491.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1110.0 457.88235294117646 L 1110.0 493.9882352941176" fill="none" stroke="#4A5A66" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1097.7058823529412 458.52941176470586 L 1122.2941176470588 458.52941176470586" fill="none" stroke="#4A5A66" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1097.7058823529412 459.8235294117647 L 1095.764705882353 497.8705882352941" fill="none" stroke="#4A5A66" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1095.764705882353" cy="499.81176470588235" r="3.235294117647059" fill="#E8C39E"/>
+<path d="M 1122.2941176470588 459.8235294117647 L 1124.235294117647 497.8705882352941" fill="none" stroke="#4A5A66" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1124.235294117647" cy="499.81176470588235" r="3.235294117647059" fill="#E8C39E"/>
+<path d="M 1110.0 454.6470588235294 L 1110.0 451.4117647058823" fill="none" stroke="#E8C39E" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1110.0" cy="443.0" r="9.705882352941178" fill="#E8C39E"/>
+<path d="M 1100.2941176470588 441.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 1119.7058823529412 441.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1106.764705882353" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="1113.235294117647" cy="443.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 1107.4117647058824 448.1764705882353 Q 1110.0 449.47058823529414 1112.5882352941176 448.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1180.0" cy="543.9058823529411" rx="13.976470588235294" ry="3.176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1174.2823529411764 542 L 1175.5529411764705 492.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1185.7176470588236 542 L 1184.4470588235295 492.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180.0 459.41176470588226 L 1180.0 494.86117647058825" fill="none" stroke="#C86B2B" stroke-width="15.24705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1167.929411764706 460.0470588235293 L 1192.070588235294 460.0470588235293" fill="none" stroke="#C86B2B" stroke-width="8.258823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1167.929411764706 461.3176470588234 L 1166.0235294117647 498.6729411764706" fill="none" stroke="#C86B2B" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1166.0235294117647" cy="500.57882352941175" r="3.176470588235294" fill="#F0D3B4"/>
+<path d="M 1192.070588235294 461.3176470588234 L 1193.9764705882353 498.6729411764706" fill="none" stroke="#C86B2B" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1193.9764705882353" cy="500.57882352941175" r="3.176470588235294" fill="#F0D3B4"/>
+<path d="M 1180.0 456.23529411764696 L 1180.0 453.0588235294117" fill="none" stroke="#F0D3B4" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1180.0" cy="444.79999999999995" r="9.529411764705882" fill="#F0D3B4"/>
+<path d="M 1170.4705882352941 443.52941176470586 A 9.529411764705882 9.529411764705882 0 0 1 1189.5294117647059 443.52941176470586" fill="none" stroke="#2A2320" stroke-width="4.447058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1176.8235294117646" cy="445.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<circle cx="1183.1764705882354" cy="445.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<path d="M 1177.4588235294118 449.8823529411764 Q 1180.0 451.15294117647056 1182.5411764705882 449.8823529411764" fill="none" stroke="#8A5A48" stroke-width="1.016470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1120.0" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">since March  -  two people</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two traders, two Mondays</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the start dates. Learner B has the jobs. Find out who has been here longest.</text>
+<text x="800.0" y="634" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Describe only. Do not show the page.</text>
+<text x="800.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

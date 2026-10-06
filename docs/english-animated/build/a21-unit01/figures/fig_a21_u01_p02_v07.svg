@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Siti and Hafiz at the stall</title>
+<desc>An older trader and a young man at a market stall with scales between them, speech bubbles showing how long each has been there.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="650" rx="0" fill="#EFEAE0"/>
+<rect x="0" y="650" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="650" x2="1600" y2="650" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="640" y="589.0" width="234.0" height="91.0" rx="0" fill="#E4D7C3" stroke="#1C2B33" stroke-width="1.8"/>
+<polygon points="621.8,589.0 892.2,589.0 861.0,534.4 653.0,534.4" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.8"/>
+<circle cx="679.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="731.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="783.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<circle cx="835.0" cy="570.8" r="14.3" fill="#C7873E" stroke="#1C2B33" stroke-width="1.2"/>
+<rect x="1280" y="636.8" width="103.2" height="43.199999999999996" rx="0" fill="#B9C7CC" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1287.2" y1="644.0" x2="1376.0" y2="644.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="1287.2" y1="657.2" x2="1376.0" y2="657.2" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="1287.2" y1="670.4" x2="1376.0" y2="670.4" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+</g>
+<g id="20_subject">
+<ellipse cx="520" cy="674.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 507.29411764705884 670 L 510.11764705882354 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 532.7058823529412 670 L 529.8823529411765 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520.0 486.47058823529414 L 520 565.2470588235294" fill="none" stroke="#8C6A9E" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.1764705882353 487.8823529411765 L 546.8235294117648 487.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.1764705882353 490.7058823529412 L 504.47058823529414 553.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 546.8235294117648 490.7058823529412 L 535.5294117647059 553.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520" cy="553.9529411764706" r="7.764705882352942" fill="#8D5A3B"/>
+<path d="M 520.0 479.4117647058824 L 520.0 472.3529411764706" fill="none" stroke="#8D5A3B" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520.0" cy="454.0" r="21.176470588235297" fill="#8D5A3B"/>
+<path d="M 496.0 459.6470588235294 A 23.176470588235297 23.176470588235297 0 0 1 544.0 459.6470588235294 L 544.0 476.5882352941176 L 496.0 476.5882352941176 Z" fill="#6B7F8C" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="517.1764705882354" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="531.2941176470588" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 518.5882352941177 465.29411764705884 Q 524.2352941176471 468.11764705882354 529.8823529411765 465.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="520" y="706.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Siti</text>
+<text x="520" y="732.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">since 1995</text>
+<ellipse cx="1020" cy="674.2" rx="30.799999999999997" ry="7.0" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1007.4 670 L 1010.2 560.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1032.6 670 L 1029.8 560.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1020.0 488.0 L 1020 566.12" fill="none" stroke="#1F4E5F" stroke-width="33.599999999999994" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 993.4 489.4 L 1046.6 489.4" fill="none" stroke="#1F4E5F" stroke-width="18.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 993.4 492.2 L 989.1999999999999 574.52" fill="none" stroke="#1F4E5F" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="989.1999999999999" cy="578.72" r="7.0" fill="#C98E63"/>
+<path d="M 1046.6 492.2 L 1083.0 485.2" fill="none" stroke="#1F4E5F" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1088.6" cy="483.8" r="7.0" fill="#C98E63"/>
+<path d="M 1020.0 481.0 L 1020.0 474.0" fill="none" stroke="#C98E63" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1020.0" cy="455.8" r="21.0" fill="#C98E63"/>
+<path d="M 999.0 453.0 A 21.0 21.0 0 0 1 1041.0 453.0" fill="none" stroke="#2A2320" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1008.8" cy="457.2" r="2.52" fill="#2A2320"/>
+<circle cx="1022.8" cy="457.2" r="2.52" fill="#2A2320"/>
+<path d="M 1010.1999999999999 467.0 Q 1015.8 469.8 1021.4 467.0" fill="none" stroke="#8A5A48" stroke-width="2.2399999999999998" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1020" y="706.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Hafiz</text>
+<text x="1020" y="731.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">three years</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Siti and Hafiz at the stall</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them is weighing. One of them is watching the weighing.</text>
+<rect x="355.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="427.6,179.6 480.4,179.6 520,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="429.6" y1="179.6" x2="478.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="520.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I've been here since 1995.</text>
+<rect x="855.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="927.6,199.2 980.4,199.2 1020,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="929.6" y1="199.2" x2="978.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="1020.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I've worked here for three years.</text>
+<text x="1020.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I'm still slow with the scales.</text>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>How finished is it?</title>
+<desc>A ladder of time expressions from a finished past through recent past to something still going on now.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="606.0" y1="150.0" x2="674.0" y2="150.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="255.0" x2="674.0" y2="255.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="360.0" x2="674.0" y2="360.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="465.0" x2="674.0" y2="465.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="570.0" x2="674.0" y2="570.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="640.0" y1="130" x2="640.0" y2="590" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="698.0" y="156.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I've worked here for 3 years</text>
+<text x="940.0" y="156.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">started before, still true today</text>
+<text x="698.0" y="261.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I've just finished</text>
+<text x="940.0" y="261.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a minute ago, and you can still see it</text>
+<text x="698.0" y="366.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I've already done it</text>
+<text x="940.0" y="366.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">before now, and sooner than expected</text>
+<text x="698.0" y="471.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I haven't done it yet</text>
+<text x="940.0" y="471.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not now, but it is still expected</text>
+<text x="698.0" y="576.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I worked there in 2019</text>
+<text x="940.0" y="576.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">finished. Over. A closed box</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">How finished is it?</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five ways of talking about time, from over and done to still happening.</text>
+<text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">still going</text>
+<text x="590.0" y="606" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">finished</text>
+<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
+<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">If the time is finished (yesterday, in 2019, last week), use the past simple. If it is not</text>
+<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">finished (today, this year, since 1995), the present perfect is available.</text>
+</g>
+</svg>

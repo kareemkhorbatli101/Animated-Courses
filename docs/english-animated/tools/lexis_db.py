@@ -23,7 +23,8 @@ HERE = pathlib.Path(__file__).resolve().parent
 SRC = HERE.parent / 'data' / 'lexis-source.tsv'
 OUT = HERE.parent / 'data' / 'lexis-db.csv'
 
-TARGET = {'A1.1': 35, 'B1.1': 45}
+TARGET = {'A1.1': 35, 'A1.2': 35, 'A2.1': 40, 'A2.2': 40,
+          'B1.1': 45, 'B1.2': 45, 'B1.3': 45}
 # band -> (word, collocation, phrasal, fixed) as proportions
 PROFILE = {'A': (.70, .20, .05, .05), 'B': (.50, .30, .12, .08)}
 TOL = .09
@@ -98,6 +99,8 @@ def main():
     print("composition")
     for book in TARGET:
         sub = [r for r in rows if r['book'] == book]
+        if not sub:
+            continue
         c = Counter(r['type'] for r in sub)
         got = tuple(c[t] / len(sub) for t in 'wcpf')
         want = PROFILE[book[0]]
