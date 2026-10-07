@@ -281,3 +281,223 @@ The second adds commas, and the commas make the clause non-defining: there is on
 **12A** · Recycle — ten items
 1 who / that · 2 where · 3 that / which · 4 charge · 5 takes · 6 used · 7 anymore · 8 While · 9 works · 10 are
 
+
+---
+
+## A2.1 · Unit 5 · If the Van Comes at Six
+
+**0B** · Guess it
+The woman running for the bus that has already closed its doors; the man asleep at the stop with his bag between his feet; the family at the ticket window with a queue of nine in front of them; and the driver reading the roadworks sign, who will miss his slot. Each of them will miss a connection, and three of the four do not know it yet.
+
+**1B** · Sort — whose fault is it?
+> **the operator** — a cancelled train · breakdown
+> **nobody** — roadworks · traffic · delay
+> **the traveller** — arriving early · missing the connection · late
+**The argument about *delay*:** it sits in *nobody* because a delay is usually the sum of several things. Argue it into *the operator* — they publish the timetable and chose the margin — or into *the traveller*, who chose the 05.22 with eighteen minutes of margin all in one place. Any of the three is defensible; the reasoning is the task.
+
+**2A** · The slot moves to six 🔊 Track 5.1
+**1** F · **2** T · **3** T · **4** T
+**Table** — Siti: will open at half past six; if that fails she loses an hour of trade, which she can absorb. Ravi: will not open at all unless the fish is there by five; if that fails he loses the restaurant buyers and the whole day. Mr Tan: will try to find a second slot; if that fails somebody loses two hours every day and he decides who.
+
+**Noticing** — **What will happen:** 1 (*If the van comes at six, I'll open at half past*) and 2 (*I won't open at all unless…*). **When:** 3 (*As soon as it arrives…*) and 4 (*By the time it gets here…*).
+
+**3D** · Use — controlled
+1 arrives · 2 will not open · 3 will start · 4 comes · 5 is · 6 will have gone · 7 finds · 8 will lose
+
+**3E** · Use — guided
+1 As soon as the ice arrives, I'll start.  
+2 Unless it rains, we won't cancel. *(or* We won't cancel unless it rains.*)*  
+3 Wait here until I come back.  
+4 By the time the traffic clears, the market will be closed.  
+5 Unless you leave now, you'll miss the connection.
+
+**5C** · Answer
+1 A route, a fare and a time.  
+2 05.22, for a 05.40 connection at Sentral.  
+3 Roadworks on Jalan Ipoh, which have been there since February.  
+4 The 07.10 — an hour and a half later. *(The 05.46 arrives too late to connect.)*  
+5 "You will make this unless the bus is more than three minutes down."  
+6 The fare calculator, which is honest about what a refund is worth and how long it takes.
+
+**5D** · Vocabulary in context
+**a route** — the way from one place to another, with its stages · **margin** — the spare time between arriving and having to leave again · **down** — behind schedule, by the stated number of minutes · **the only option** — the single service that works, which is what the app never says · **honest about** — telling you the unwelcome part as well
+
+**5E** · The counter-text
+1 Three: the 05.02, the 05.22 and the 05.46.  
+2 **The 06.15** — but it does not make the 05.40. It is held for the 06.40 connection when the 05.22 is cancelled, it runs Monday to Friday only, and it is not shown on the app. If the question is strictly the 05.40, the answer is that nothing makes it and the next option is the 07.10.  
+3 Fifty per cent of the fare for a delay over thirty minutes, the full fare over sixty minutes or for a cancellation, claimed within twenty-eight days. Missed connections with another operator are not covered, and a claim must name the service, not the journey.  
+4 The 06.15. "The 06.15 runs Monday to Friday only and is held for the 06.40 connection when the 05.22 is cancelled. It is not shown on the app."
+
+**6A** · Sort — a condition, a time, or a deadline?
+> **CONDITION** — in case · unless · if it rains
+> **DEADLINE** — at the latest · in time · no later than
+> **TIME** — until · by the time · whenever · as soon as
+
+**6B** · Chunk completion
+1 in case · 2 latest · 3 later · 4 in · 5 case · 6 or
+
+**6C** · Three ways of saying now
+1 **straight away** — now, before anything else; it says the matter outranks whatever they are doing.  
+2 **as soon as possible** — soon, and they choose when; it says urgent without saying drop everything.  
+3 **whenever you can** — no deadline at all; it tells the other person they are not being chased, which is sometimes the whole message.
+
+**6D** · Contrast Clinic — if, unless, when or until
+> **1** If
+> **2** when / as soon as
+> **3** until
+> **4** unless
+> **5** By
+> **6** Unless
+
+**7C** · Make it mean something
+The rising version is a plan: the rise on *now* keeps the sentence open and hands the listener the decision. The falling version is a warning — it closes the first half, so the second half arrives as a consequence rather than an offer. Most people would rather be told the first.
+
+**12A** · Recycle — ten items
+1 rains · 2 arrives · 3 unless · 4 until · 5 case · 6 who / that · 7 in · 8 used · 9 when · 10 leaves
+
+
+---
+
+## A2.1 · Unit 6 · The Chiller or the Phone
+
+**0B** · Guess it
+**Cheap and bad value:** the plastic crates stacked by the gate. They are thin, three are already split at the corner, and there is a bag of broken ones behind them. **Expensive and good value:** the brass scales on Siti's table. They are the oldest thing in the picture, the pan is worn smooth, and they are still the ones she uses.
+
+**1B** · Sort — the number, or the judgement?
+> **the judgement** — expensive · bargain · value · cheap · worth
+> **the number** — price · cost · discount
+**The judgement column is bigger** — five against three. Only three of the eight words name a number; the rest are opinions about one, and in a market the argument is almost never about the number.
+
+**2A** · One machine or one system 🔊 Track 6.1
+**1** b) a phone system · **2** b) in the hot months · **3** a) asked customers · **4** a) to decide today
+**Table** — Hafiz: a phone order system; about 1,800 with the first year's fees; it would save the trade they lose when customers cannot get through. Siti: a chiller; 2,400 new; it would save the produce they lose in the hot months.
+
+**Noticing** — **+ to:** 1 (*decided to ask*) and 3 (*can't afford to do*). **+ -ing:** 2 (*don't mind asking*) and 4 (*avoid buying*).
+
+**3D** · Use — controlled
+1 to ask · 2 spending · 3 to decide · 4 waiting · 5 to look · 6 arguing
+
+**3E** · Use — guided
+1 to buy · 2 waiting · 3 trying · 4 to sell · 5 finding · 6 to deliver · 7 to accept · 8 waiting
+
+**5C** · Answer
+1 Nineteen ringgit, five months; ninety ringgit, eleven years.  
+2 About forty-five a year for the cheap one; about eight a year for the expensive one.  
+3 Because the expensive kettle asks for ninety today, and the cheap one asks for nineteen today and the rest later.  
+4 The later cost arrives as inconvenience rather than as bills — a kettle that fails, a morning spent replacing it — so it is never added up.  
+5 When you have thirty ringgit. You cannot buy the cheap-in-the-long-run option with money you do not have.  
+6 That the arithmetic is correct and the advice is usually given by people who have never had to choose — so it is also a description of how much easier everything is when you can pay in advance.
+
+**5D** · Vocabulary in context
+**last** *(verb)* — keep working, for a stated time · **in instalments** — paid in parts over time, here as trouble rather than money · **in the long run** — over years, not this month · **distrust** — not believe, with a reason · **pay in advance** — have the money now, which is the thing the argument quietly assumes
+
+**5E** · The counter-text
+1 A: 2,400, three years' warranty on parts and labour. B: 900, six months on the motor only — and delivery is 140 extra.  
+2 A: about 520 a year. B: about 680. The second-hand machine is cheaper until **year nine**, when the totals cross at 7,080 against 7,160.  
+3 The compressor — the warranty covers the motor only. *(Delivery is also excluded, at 140.)*  
+4 "Motor only. Compressor is not covered — K." Seven words, and the compressor costs 740.
+
+**6A** · Sort — to, or -ing?
+> **+ -ing** — avoid · suggest · enjoy · mind
+> **+ to** — refuse · manage · offer · decide · hope · plan · promise
+**The one in neither:** *stop* — but it is not on this list. On this list every verb belongs to one column; the one worth arguing about is *suggest*, which takes *-ing* and a that-clause but never a plain *to*-infinitive, which is the commonest error at this level.
+
+**6B** · Chunk completion
+1 to · 2 to · 3 buying · 4 cooking · 5 about
+
+**6C** · The verbs that need a preposition
+1 thinking about buying · 2 good at finding · 3 instead of taking · 4 spend on · 5 saving for
+
+**6D** · Contrast Clinic — which form
+> **1** to pay
+> **2** to replace
+> **3** holding
+> **4** waiting
+> **5** to get
+> **6** selling
+
+**7C** · Make it mean something
+The second — stress on **ASKING** — is the honest version. It concedes that the asking is easy and admits what is actually worrying the speaker, which is what the answer will be. The first simply denies being bothered, which is what people say when they are.
+
+**12A** · Recycle — ten items
+1 to buy · 2 waiting · 3 to sell · 4 waste · 5 money · 6 rains · 7 arrives · 8 who / that · 9 when · 10 does
+
+
+---
+
+## A2.1 · Unit 7 · Four Hundred Kilometres
+
+**0B** · Guess it
+**PACKED IN SELANGOR BY SRI MURNI SDN BHD**, on the garlic. It is true: the bag was filled in Selangor, thirty-eight kilometres away. It leaves out where the garlic was grown — Shandong, four thousand two hundred and ninety kilometres — and there is no requirement that it say so.
+
+**1B** · Sort — a place, a paper, or a feeling?
+> **a place** — country · village · town
+> **a paper** — passport · citizen · visa
+> **a feeling** — belong · accent · home · roots
+**The one that moves:** *home*. To an official it is an address — a place. To the person being asked it is a feeling, and often not the same country. *(Accept* citizen *for the same reason: a paper to a border officer and a feeling to the holder.)*
+
+**2A** · The sign says local 🔊 Track 7.1
+**1** F · **2** F · **3** F · **4** T
+**Table** — Tomatoes: Cameron Highlands, 172 km, "GROWN IN CAMERON HIGHLANDS". Long beans: Nakhon Pathom, Thailand, 1,140 km, "PRODUCT OF THAILAND". Garlic: Shandong, China, 4,290 km, "PACKED IN SELANGOR".
+
+**Noticing** — **Name the person:** 1 (*Somebody put the sign up*) and 3 (*They grow the garlic in China*). **Do not:** 2 and 4. **The passives sound more like a label** — which is exactly why labels use them.
+
+**3D** · Use — controlled
+1 are grown · 2 are brought · 3 is not grown · 4 is imported · 5 packed · 6 was put up
+
+**3E** · Use — guided
+1 The beans are grown in Johor.  
+2 The scales were stolen on Tuesday.  
+3 This house was built by my grandfather. *(agent kept — he is the point)*  
+4 The garlic is packed in Selangor.  
+5 The noticeboard has been moved.
+
+**5C** · Answer
+1 No. There is no law about the word and it is not defined anywhere.  
+2 Twenty-nine of forty-one used the word; eleven of those twenty-nine sold at least one imported item.  
+3 Because the obvious story would be deception, and there was none: all eleven had the boxes stacked behind the stall with the country of origin printed on the side. The behaviour is not hiding, which means something else is going on.  
+4 Grown in Malaysia; not from a supermarket; I know the man who brings it; you are buying it from me and not from somebody in an office.  
+5 The fourth. It is a claim about who you are handing your money to, not about geography — and on that measure all twenty-nine signs were true.  
+6 That the boxes are still on the floor and the sign is at eye level, and that somebody chose that — a person, even if nobody can now remember which one.
+
+**5D** · Vocabulary in context
+**regulated** — controlled by law · **defined** — given a fixed meaning somewhere official · **at eye level** — where a customer looks, which is a choice · **on that measure** — judged by that definition rather than another · **openly** — without concealment, which is what makes the finding interesting
+
+**5E** · The counter-text
+1 Labels 1 and 2 give a place — Cameron Highlands and Thailand. Label 3 gives a company, Sri Murni Sdn Bhd, and a packing location.  
+2 The garlic — 4,290 km from Shandong. **Its label does not say so**; it gives 38 km, the distance from the packer.  
+3 It means where the bag was filled. It does **not** mean where anything was grown, and nothing requires it to.  
+4 The garlic. **Yes** — there is no law about the word *local* and no requirement to state origin on this label. That is the finding of the whole unit: the misleading label is the legal one.
+
+**6A** · Sort — grown, made, or moved?
+> **moved** — taken · sent · brought
+> **sold** — sold
+> **made** — built · made
+> **grown** — grown
+> **given** — given
+**The two that move:** *taken* is *moved* and also *removed* — taken from a field, taken away. *brought* is *moved* and, with *up*, *grown*: a person is brought up, a crop is brought down. *(The columns in the chapter are grown / made / moved; treat* sold *and* given *as the arguable extras.)*
+
+**6B** · Chunk completion
+1 in · 2 in · 3 by · 4 at · 5 hand · 6 machine
+
+**6C** · Three words that hide a step
+Model answers, each written twice.  
+**packed:** *The garlic is packed in Selangor.* → *The garlic is grown in Shandong and packed in Selangor.*  
+**processed:** *The fish is processed in Penang.* → *The fish is caught off Vietnam and processed in Penang.*  
+**distributed:** *The rice is distributed from a depot in Klang.* → *The rice is grown in Kedah and distributed from a depot in Klang.*  
+In each pair the first sentence is true and tells you nothing about origin.
+
+**6D** · Contrast Clinic — active or passive
+> **1** **The scales were stolen** — nobody knows who, so naming a vague *somebody* adds nothing.
+> **2** **We made a mistake** — the passive here exists only to remove the person, which is the one use the unit is suspicious of.
+> **3** Either, and they are about different things: the first is about him, the second about the house. Choose by what the paragraph is about.
+> **4** **The sign was put up last year** — the agent is genuinely unknown, which is the point of the reading.
+> **5** **Garlic is grown in China** — *they* names nobody, and the passive is what a label would say.
+> **6** **The crates are brought down overnight** — the crates are the topic and the driver is not in the sentence anywhere else.
+
+**7C** · Make it mean something
+The second — stress on **SELANGOR** — is the accusation. Contrastive stress on the place sets it against another place, and the implied other place is *here*, which is what the sign above the stall claims. The first simply reports what happens in Selangor.
+
+**12A** · Recycle — ten items
+1 is grown · 2 was built · 3 in · 4 born · 5 up · 6 to buy · 7 waiting · 8 rains · 9 used · 10 are
+
