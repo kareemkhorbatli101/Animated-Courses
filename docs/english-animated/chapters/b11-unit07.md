@@ -132,8 +132,8 @@ delivery. **Who is holding the tool?**
 5. *She made me do it again.*
 6. *I heard you ask about the tension.*
 
-> **A.** object + **-ing** object + **bare** verb · **B.** object + **to** + verb ·
-> **C.** 
+> **A.** object + **to** + verb · **B.** object + **-ing** ·
+> **C.** object + **bare** verb
 
 ### 2B · Decoding clinic 🔊 Track 7.2
 

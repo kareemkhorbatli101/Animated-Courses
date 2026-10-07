@@ -128,7 +128,14 @@ def shuffle_abcd(text, chapter, report):
             lines.append(' · '.join(cur))
         out = '\n'.join('> ' + l + (' ·' if i < len(lines) - 1 else '')
                         for i, l in enumerate(lines))
-        return out + ''.join('\n> ' + t for t in trailing)
+        out += ''.join('\n> ' + t for t in trailing)
+        # never emit a legend that does not read back as the same set of
+        # glosses: a gloss carrying bold of its own once broke the rebuild
+        back, _ = _legend_parts(out)
+        if sorted(g for _, g in back) != sorted(glosses):
+            report.append(('abcd', 'SKIPPED — would not read back', '', ''))
+            return block
+        return out
 
     return pat.sub(go, text)
 

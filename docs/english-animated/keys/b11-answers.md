@@ -385,3 +385,161 @@ result in · thereby · hence · consequently · as a result · which means that
 **12A** · Recycle — twelve items
 1 press / logs · 2 were / would change · 3 edge · 4 oversight · 5 thereby · 6 as long / provided · 7 mustn't · 8 am seeing · 9 has been making · 10 priced · 11 who / that · 12 will wait
 
+
+---
+
+## B1.1 · Unit 6 · The Rule Nobody Follows
+
+**0B** · Guess it
+The no-cooking notice (a kettle and a microwave are on the shelf beneath it), the no-storage notice (boxes are stacked against it), and the bicycle notice (a bike is chained to the first-floor rail behind it). In each case the evidence is the thing the notice forbids, placed in front of the notice and visibly settled — dust, a cable tie gone grey, a box with a date on it.
+
+**1B** · Sort — cline of authority
+**Hardest → easiest to change:** a statute · a regulation · a lease clause · a published policy · a written procedure · a notice on a door · standard practice.  
+**Where it stops being a rule:** most classes mark it between the written procedure and the notice on the door, because the notice is the first one nobody has to agree to. A good counter-argument puts the line lower — standard practice is cited in court, and a notice on a door is not. Defend the mark, not the order.
+
+**2A** · It's on the door 🔊 Track 6.1
+**1** A · **2** B · **3** C · **4** B · **5** A · **6** B
+**Noticing** — the six sentences are keyed above.
+
+**Gist** — No. Nobody says so; the conversation ends with the wedge still in place.
+
+**Detail** — Fire-door rule: 2019, by the managing agent, after a fire; last applied at the 2019 inspection. Key-return rule: 2019, by the managing agent; applied continuously, because it is the only one with a charge attached. No-cooking rule: 2014, by nobody anybody can name; never applied.
+
+**Inference** — *It was brought in after something* is the most important sentence because it is the whole unit in seven words: an agentless passive, a vague noun, and a rule that everybody obeys the shape of and nobody can account for. The *something* was a fire, and the fact that nobody says so is why the rule has no force.
+
+**Attitude** — the falling-rising tone on *know* and the slight pause before it. He knew. A genuine *I didn't know* is flat and quick.
+
+**3D** · Use — controlled
+1 The fire door was propped open again. *(agent dropped — nobody will say who)*  
+2 The rule was brought in by the managing agent after a fire in 2019. *(agent kept — it is the point)*  
+3 The policy has not been reviewed since 2022. *(agent dropped — there is no doer)*  
+4 The wedge will be removed before the inspection. *(agent dropped — and this is the sentence the unit is suspicious of)*  
+5 Keys must be returned to the box by six. *(agent dropped — a rule addressed to everybody)*  
+6 The door was wedged with an extinguisher by a tenant. *(instrument and agent both kept)*
+
+**3E** · Use — guided
+1 *It was decided not to enforce it.* **Gains:** it stops being one person's judgement and becomes institutional. **Loses:** the person who can be asked why.  
+2 *The policy was written in 2019.* **Gains:** the focus moves to the document and its date. **Loses:** the fact that the author was the landlord's agent, which is the reason it reads as it does.  
+3 *The rule has been ignored for a year.* **Gains:** it becomes a property of the rule rather than an accusation. **Loses:** the two tenants, and with them any possibility of enforcement.
+
+**5C** · Close reading
+1 That a rule does not apply any more. It is never produced in writing because there is nothing to produce.  
+2 Making a rule takes a decision somebody can point at afterwards; unmaking one takes the same decision with none of the credit and all of the exposure. So rules only ever accumulate.  
+3 Paragraph three. The writer used to think the accumulation was simply untidy and that the answer was a periodic cull.  
+4 It holds a space — it can be produced at a moment of crisis, and the decade of being ignored will not help you then. And it marks a boundary: everybody knows the door should not be propped, and they know it from the notice, not from enforcement.  
+5 A live rule that has quietly become dead without anybody noticing — because then nobody is shrugging. The organisation believes it is operating and the people believe it was never serious; neither side is lying, and the gap is where the incident comes from.  
+6 That the honest version of *which rules do we believe are working?* can only be answered by somebody who does not already know the answer. It matters because every person inside the organisation does already know, which is what makes the audit useless.
+
+**5D** · Vocabulary in context
+**repealed** — formally cancelled, by the same kind of act that created it · **accumulate** — build up without anything removing them · **asymmetry** — the imbalance between the cost of making and unmaking · **cull** — a deliberate clearing-out · **produced** (at a moment of crisis) — brought out and relied on · **operating** (the rule is operating) — in force and having an effect, as against merely existing
+
+**5E** · The counter-text
+1 Nine.  
+2 Issued March 2019, by "The Management" — which names nobody.  
+3 **Rule 2** (keys returned by 18:00) is the only one with a consequence: a replacement is charged. The other eight have a dash in the *if breached* column.  
+4 Rule 1: fire doors must not be propped open, since 2019 — and the *if breached* column is empty. The notice says nothing at all will happen.  
+5 The small print: "The Management reserves the right to vary, waive or not enforce any of these conditions at its discretion." A rule the issuer may decline to enforce at will is not a rule; it is a notice about a preference.
+
+**6A** · Sort — how hidden is the doer?
+**Completely hidden → almost named:**  
+mistakes were made · steps have been taken · it was decided · it is understood · be brought about · be done away with · notionally · duly · hereby · retrospectively · is thought to be · is said to · is widely regarded as · it emerged that · it turned out that · supposedly · purportedly · ostensibly · reportedly · allegedly · apparently · unilaterally · nobody will say who.  
+*The two to argue about: **nobody will say who** is at the named end because it concedes that a doer exists and is being withheld — which is more informative than any passive. **unilaterally** names no one and tells you there was exactly one of them.*
+
+**6B** · Chunk completion
+1 It was understood · 2 was done away · 3 Steps have been taken · 4 emerged · 5 unilaterally
+
+**6C** · Register sort
+**Official notice:** hereby · duly · retrospectively · notionally · be brought about. **Newspaper:** allegedly · reportedly · purportedly · ostensibly · is said to · is widely regarded as. **Speech only:** nobody will say who · it turned out that · be done away with. **In two:** it is understood · supposedly · apparently · is thought to be · it emerged that · mistakes were made *(notice and newspaper)*.
+
+**6D** · Contrast Clinic — *by* against *with*, agent against instrument
+> **1** with — an instrument.
+> **2** by — an agent.
+> **3** by — an agent.
+> **4** by … using *(or* from*)* — the agent takes *by*, the template is a means and prefers *using* or *from*; *with* is possible and reads oddly.
+> **5** by — an agent, in name only, which is the joke.
+> **6** with … by — instrument first, agent second, which is the normal order when both appear.
+
+**7C** · Make it mean something
+The fast version is for a meeting: it is how the sentence is actually said, and slowing it down would sound like a correction. The fully articulated version is for a recorded line, a dictation, or any moment when somebody has to write the words down — because the lost /t/ in *enforced twice* is exactly where a transcript goes wrong.
+
+**12A** · Recycle — twelve items
+1 is inspected · 2 was brought · 3 by … with · 4 accordance · 5 emerged · 6 Steps have been · 7 press / logs · 8 mustn't · 9 am seeing · 10 breaks · 11 which · 12 was inspected
+
+
+---
+
+## B1.1 · Unit 7 · Show Me Once
+
+**0B** · Guess it
+The one at the desk, with the leaver reading from a screen and the arriver holding nothing. In the other two handovers the arriver has the tool, the keyboard or the cloth in their hands. The one that will fail is the one where the knowledge is being described rather than done — which is the forty-page document in Part 5.
+
+**1B** · Sort — cline of control
+**Most teacher-controlled → most learner-controlled:** instruct · demonstrate · model · cue · prompt · stand back.  
+**Where teaching stops:** most marks fall between *model* and *cue*, because a cue is the first move that requires the learner to produce something. A defensible alternative is between *cue* and *prompt* — a prompt supplies part of the answer, a cue only points at it. Compare marks; the argument is the task.
+
+**2A** · Four days to hand over 🔊 Track 7.1
+**1** A · **2** A · **3** C · **4** B · **5** C · **6** B
+**Noticing** — the six sentences are keyed above.
+
+**Gist** — the tension. She decides not to explain it, and lets the apprentice get it wrong once instead.
+
+**Detail** — First time: she says *hold it like this* and does it herself, slowly, with the apprentice watching. Second time: she says almost nothing and puts her hands over the apprentice's. Third time: she says *go on then* and stands back, and does not touch the cloth at all.
+
+**Inference** — to herself. Nobody else is in the room at that point, and the sentence is the instruction she is giving herself not to intervene.
+
+**Attitude** — the second *got it*, which is shorter, lower and has no rise at the end. The first rises, which is the sound of somebody hoping they have got it.
+
+**3D** · Use — controlled
+1 to hold · 2 do · 3 use · 4 cutting · 5 to notice · 6 explaining
+
+**3E** · Use — guided
+1 She allowed me to use the machine. *(allow takes* to*; let takes the bare infinitive)*  
+2 He forced us to stay late. *(force takes* to*; make takes the bare infinitive)*  
+3 I watched her cutting it. *(the* -ing *makes it part of the action rather than all of it)*  
+4 They wanted me to come back. *(want takes* to*, like tell — but tell can take a that clause and want cannot)*
+
+**5C** · Close reading
+1 Forty pages, and most of it is screenshots.  
+2 That p.19 says "run the usual check" without saying what the usual check is; and that p.31 carries a note saying "ask Felix about the Tuesday thing".  
+3 It was a note Felix wrote to himself. The Tuesday thing is that the figures come in late on Tuesdays, so the reconciliation is run on Wednesday.  
+4 It has made the handover describe the parts he still notices and omit the parts he does not — which are exactly the parts six years of practice have made automatic, and therefore the parts a new person needs.  
+5 That a gap of more than two per cent can be caused by a payment landing between the two pulls, in which case you wait and run it again on Monday. It was not in the document because Felix did not know it — he had been doing it without noticing.  
+6 On the grounds that the forty pages were the only reason Ruth knew p.19 was where to put the missing paragraph. The document could not contain the knowledge, and it could carry the structure the knowledge belongs in.
+
+**5D** · Vocabulary in context
+**reconciliation** — checking two records of the same thing against each other · **pull** (between the two pulls) — one extraction of data from a system · **land** (a payment lands) — arrive and register, at a moment nobody controls · **the usual check** — the phrase that marks knowledge the writer has stopped seeing · **screenshots** — pictures of a screen, which carry steps and not reasons · **source file** — the original record the two totals are reconciled against
+
+**5E** · The counter-text
+1 "Run the usual check." Nothing else.  
+2 What the usual check is (compare the two totals); the threshold (more than about two per cent); and what to do when the source file is fine (a payment landed between the two pulls — wait and run it again on Monday).  
+3 Felix could have written the first two: he knows them and simply did not notice he knew. He could **not** have written the third, because he did not know it — Ruth got it from Priya.  
+4 The two per cent threshold.  
+5 "Run the usual check." It is an instruction only to somebody who already knows what it means, which is the definition of a handover that cannot hand anything over.
+
+**6A** · Sort — which pattern?
+> **+ to** — want someone to · teach someone to · enable someone to · advise someone to · remind someone to · persuade someone to · expect someone to · allow someone to · invite someone to · help someone to · ask someone to · encourage someone to · force someone to · tell someone to · urge someone to
+> **+ of / on / for -ing** — accuse someone of · congratulate someone on · warn someone about · blame someone for · warn someone against
+> **+ from -ing** — stop someone from · prevent someone from
+*help someone to* also works without the *to* (*help her carry it*), which is the one verb on this list that takes both. *warn* appears twice because it takes three patterns, which is what 6C is about.
+
+**6B** · Chunk completion
+1 warned … against · 2 blamed … for · 3 congratulated … on · 4 prevents / stops … from · 5 enabled … to
+
+**6C** · The three warnings
+**warn someone to:** *She warned me to keep my hand clear of the needle.* — an instruction. **warn someone against:** *She warned me against using the big scissors on the first day.* — do not do it. **warn someone about:** *She warned me about the tension on that machine.* — information, with no instruction attached, and the listener decides what to do with it.
+
+**6D** · Contrast Clinic — *to*, bare, and *-ing*
+> **1** fit — bare infinitive: the whole action, start to finish.
+> **2** sign — *make* takes the bare infinitive.
+> **3** fitting — *-ing*: part of the action, caught in progress.
+> **4** to sign — *force* takes *to*.
+> **5** to go — *allow* takes *to*.
+> **6** go — *let* takes the bare infinitive.
+**1 / 3:** the bare infinitive says he saw all of it; the *-ing* says he saw some of it on his way past. **5 / 6:** the grammar differs and the register does too — *allow* is institutional and implies a rule, *let* is personal and implies a decision by one person.
+
+**7C** · Make it mean something
+Stress on **go** means *do it again* — the stress falls on the verb of repetition. Stress on **over** means *check it* — the particle carries the meaning, as it does in most phrasal verbs. Two jobs, one phrase, and in a handover the difference is an afternoon.
+
+**12A** · Recycle — twelve items
+1 to check · 2 borrow · 3 leave · 4 warned … against · 5 on · 6 into · 7 was brought · 8 press / logs · 9 mustn't · 10 am seeing · 11 who / that · 12 was not allowed
+
