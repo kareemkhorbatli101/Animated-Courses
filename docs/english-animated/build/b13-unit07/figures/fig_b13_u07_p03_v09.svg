@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>Where the people who say it go</title>
+<desc>Two sentence diagrams comparing people say he was asked to leave with he is said to have been asked to leave, with the claimers shown as a deleted element.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="262.4" height="52" rx="5" fill="#C86B2B"/>
+<text x="291.2" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">Four people</text>
+<rect x="428.4" y="144" width="189.2" height="52" rx="5" fill="#1F4E5F"/>
+<text x="523.0" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">say</text>
+<rect x="623.5999999999999" y="144" width="408.8" height="52" rx="5" fill="#2E6F5E"/>
+<text x="827.9999999999999" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">he was asked to leave</text>
+<rect x="1038.3999999999999" y="144" width="335.6" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1206.1999999999998" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">and you can ask which four</text>
+<rect x="160" y="344" width="408.8" height="52" rx="5" fill="#2E6F5E"/>
+<text x="364.4" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">He</text>
+<rect x="574.8" y="344" width="335.6" height="52" rx="5" fill="#1F4E5F"/>
+<text x="742.5999999999999" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">is said to have been asked</text>
+<rect x="916.4" y="344" width="189.2" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1011.0" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">to leave</text>
+<rect x="1111.6" y="344" width="262.4" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1242.8" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">by whom? deleted</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Where the people who say it go</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same claim, twice. In the second one nobody is left to ask.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">ACTIVE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">PASSIVE</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same event, different first word</text>
+<rect x="160" y="540.75" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
+<text x="184" y="567.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Both sentences report the same claim. The second one puts the person in the subject slot and</text>
+<text x="184" y="589.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">removes the people making it, which is why it prints and why it does more damage. Reporting</text>
+<text x="184" y="611.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">responsibly means putting the four back whenever you have them.</text>
+</g>
+</svg>

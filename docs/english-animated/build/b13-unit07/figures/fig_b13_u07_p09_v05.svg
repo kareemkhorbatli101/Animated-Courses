@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<title>One safety brief, four deliveries</title>
+<desc>Four versions of a workplace safety brief compared for compliance, recall, behaviour and whether anybody afterwards reported anything.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="850" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="850" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">WORK FILE  -  THE SAFETY BRIEF  -  SAME CONTENT, FOUR DELIVERIES</text>
+<rect x="140" y="196" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">VERSION</text>
+<text x="403.33333333333337" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">LENGTH</text>
+<text x="656.6666666666667" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">METHOD</text>
+<text x="150.0" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A</text>
+<text x="403.33333333333337" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4 min</text>
+<text x="656.6666666666667" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">read from the laminated card, start to finish</text>
+<line x1="140" y1="256" x2="900" y2="256" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B</text>
+<text x="403.33333333333337" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4 min</text>
+<text x="656.6666666666667" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">read, then &quot;any questions?&quot; (none)</text>
+<line x1="140" y1="286" x2="900" y2="286" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C</text>
+<text x="403.33333333333337" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">90 s</text>
+<text x="656.6666666666667" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">walked: exits pointed at, hazards touched</text>
+<line x1="140" y1="316" x2="900" y2="316" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">D</text>
+<text x="403.33333333333337" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4 min</text>
+<text x="656.6666666666667" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">one question asked of each person, by name</text>
+<line x1="140" y1="346" x2="900" y2="346" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="374" x2="910" y2="374" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="410" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">TESTED COLD, NEXT DAY</text>
+<rect x="140" y="422" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">VERSION</text>
+<text x="340.0" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SIGNED</text>
+<text x="530.0" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">RECALLED 3 ITEMS</text>
+<text x="720.0" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DID IT UNDER PRESSURE</text>
+<text x="150.0" y="472" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A</text>
+<text x="340.0" y="472" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">12 of 12</text>
+<text x="530.0" y="472" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2 of 12</text>
+<text x="720.0" y="472" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not tested</text>
+<line x1="140" y1="482" x2="900" y2="482" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="502" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B</text>
+<text x="340.0" y="502" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">12 of 12</text>
+<text x="530.0" y="502" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3 of 12</text>
+<text x="720.0" y="502" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not tested</text>
+<line x1="140" y1="512" x2="900" y2="512" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="532" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C</text>
+<text x="340.0" y="532" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">12 of 12</text>
+<text x="530.0" y="532" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">9 of 12</text>
+<text x="720.0" y="532" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">8 of 12</text>
+<line x1="140" y1="542" x2="900" y2="542" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="562" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">D</text>
+<text x="340.0" y="562" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">12 of 12</text>
+<text x="530.0" y="562" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">10 of 12</text>
+<text x="720.0" y="562" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">9 of 12</text>
+<line x1="140" y1="572" x2="900" y2="572" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="600.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">All four are legally complete. All four produce a signature.</text>
+<text x="140" y="621.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Version A is the one most often used, because it is the one that</text>
+<text x="140" y="643.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">can be delivered by somebody who has not read the room.</text>
+<line x1="130" y1="679.25" x2="910" y2="679.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="715.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE FOURTH THING A BRIEF IS FOR</text>
+<text x="140" y="745.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Near misses reported, the month after A</text>
+<text x="410" y="745.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="140" y="777.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">after B</text>
+<text x="410" y="777.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="140" y="809.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">after C</text>
+<text x="410" y="809.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1</text>
+<text x="140" y="841.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">after D</text>
+<text x="410" y="841.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6</text>
+<line x1="130" y1="873.25" x2="910" y2="873.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="905.25" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">WHAT VERSION D DID THAT THE OTHERS DID NOT:</text>
+<text x="140" y="935.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;She asked each of us one question, by name, and when somebody</text>
+<text x="140" y="957.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">got it wrong she said so and moved on. Nothing happened to them.</text>
+<text x="140" y="978.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">That is the whole thing. Nothing happened to them, in front of</text>
+<text x="140" y="1000.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">everybody.&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One safety brief, four deliveries</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same four minutes, and only one of them produces a report of a near miss.</text>
+<circle cx="934" cy="222.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 222.0 L 1024 222.0 L 1024 222.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Ninety seconds, walked, beats four</text>
+<text x="1040" y="247.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">minutes read</text>
+<circle cx="934" cy="426.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 426.0 L 1024 426.0 L 1024 426.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="431.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two of twelve. Legally complete,</text>
+<text x="1040" y="451.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">operationally nothing</text>
+<circle cx="934" cy="494.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 494.0 L 1024 494.0 L 1024 494.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="499.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nine of twelve did it under</text>
+<text x="1040" y="519.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">pressure - from ninety seconds</text>
+<circle cx="934" cy="613.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 613.0 L 1024 613.0 L 1024 613.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="618.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Delivered by somebody who has not</text>
+<text x="1040" y="638.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">read the room. That is the appeal</text>
+<circle cx="934" cy="783.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 783.0 L 1024 783.0 L 1024 783.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="788.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Zero, zero, one, six - and only</text>
+<text x="1040" y="808.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the last column is the real</text>
+<text x="1040" y="828.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">measure</text>
+<circle cx="934" cy="919.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 919.0 L 1024 919.0 L 1024 919.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="924.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nothing happened to them, in front</text>
+<text x="1040" y="944.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">of everybody</text>
+</g>
+</svg>

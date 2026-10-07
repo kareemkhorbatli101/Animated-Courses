@@ -725,9 +725,11 @@ def v9_grammar(spec):
                         size=T_LABEL, anchor='middle', fill=INK_SOFT, style='italic'))
 
     if spec.get('rule'):
-        body, bh = wrap(184, h - 72, spec['rule'], size=T_LABEL, width=92, fill=INK, weight='500')
-        lab.append(rect(160, h - 96, W - 320, bh + 34, fill=PAPER_DEEP, rx=6))
-        lab.append(body)
+        _probe, bh = wrap(0, 0, spec['rule'], size=T_LABEL, width=92, fill=INK, weight='500')
+        top = h - 40 - (bh + 34)                   # sit the box on the bottom margin
+        lab.append(rect(160, top, W - 320, bh + 34, fill=PAPER_DEEP, rx=6))
+        lab.append(wrap(184, top + 24 + T_LABEL * 0.2, spec['rule'], size=T_LABEL, width=92,
+                        fill=INK, weight='500')[0])
     head = figure_title(W, spec['title'], spec.get('sub'))
     return svg(W, h, [group('10_context', '\n'.join(ctx)),
                       group('20_subject', '\n'.join(sub)),

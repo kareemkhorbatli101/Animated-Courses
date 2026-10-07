@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>Three versions, and four lines of record</title>
+<desc>Two panels compared: three spoken versions of a claim and a four-line complaints register that does not contain it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">what is said, week three</text>
+<rect x="820.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the 2019 register, in full</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="602" x2="760.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="200.0" cy="603.8705882352941" rx="13.71764705882353" ry="3.1176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 194.38823529411764 602 L 195.63529411764705 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 205.61176470588236 602 L 204.36470588235295 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 200.0 520.9411764705883 L 200.0 555.7341176470588" fill="none" stroke="#C86B2B" stroke-width="14.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 188.1529411764706 521.564705882353 L 211.8470588235294 521.564705882353" fill="none" stroke="#C86B2B" stroke-width="8.105882352941176" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 188.1529411764706 522.8117647058824 L 186.28235294117647 559.4752941176471" fill="none" stroke="#C86B2B" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="186.28235294117647" cy="561.3458823529412" r="3.1176470588235294" fill="#E8C39E"/>
+<path d="M 211.8470588235294 522.8117647058824 L 213.71764705882353 559.4752941176471" fill="none" stroke="#C86B2B" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="213.71764705882353" cy="561.3458823529412" r="3.1176470588235294" fill="#E8C39E"/>
+<path d="M 200.0 517.8235294117648 L 200.0 514.7058823529412" fill="none" stroke="#E8C39E" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200.0" cy="506.6" r="9.352941176470589" fill="#E8C39E"/>
+<path d="M 190.64705882352942 505.3529411764706 A 9.352941176470589 9.352941176470589 0 0 1 209.35294117647058 505.3529411764706" fill="none" stroke="#2A2320" stroke-width="4.364705882352942" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="196.88235294117646" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<circle cx="203.11764705882354" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<path d="M 197.50588235294117 511.5882352941177 Q 200.0 512.8352941176471 202.49411764705883 511.5882352941177" fill="none" stroke="#8A5A48" stroke-width="0.9976470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="290.0" cy="603.8352941176471" rx="13.458823529411767" ry="3.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 284.49411764705883 602 L 285.7176470588235 554.16" fill="none" stroke="#3A4A55" stroke-width="6.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 295.50588235294117 602 L 294.2823529411765 554.16" fill="none" stroke="#3A4A55" stroke-width="6.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 290.0 522.4705882352941 L 290.0 556.6070588235294" fill="none" stroke="#8C6A9E" stroke-width="14.682352941176472" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 278.3764705882353 523.0823529411765 L 301.6235294117647 523.0823529411765" fill="none" stroke="#8C6A9E" stroke-width="7.952941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 278.3764705882353 524.3058823529412 L 276.54117647058825 560.2776470588235" fill="none" stroke="#8C6A9E" stroke-width="5.5058823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="276.54117647058825" cy="562.1129411764706" r="3.058823529411765" fill="#F0D3B4"/>
+<path d="M 301.6235294117647 524.3058823529412 L 303.45882352941175 560.2776470588235" fill="none" stroke="#8C6A9E" stroke-width="5.5058823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="303.45882352941175" cy="562.1129411764706" r="3.058823529411765" fill="#F0D3B4"/>
+<path d="M 290.0 519.4117647058824 L 290.0 516.3529411764706" fill="none" stroke="#F0D3B4" stroke-width="6.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="290.0" cy="508.40000000000003" r="9.176470588235295" fill="#F0D3B4"/>
+<path d="M 280.8235294117647 507.1764705882353 A 9.176470588235295 9.176470588235295 0 0 1 299.1764705882353 507.1764705882353" fill="none" stroke="#2A2320" stroke-width="4.282352941176471" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="286.94117647058823" cy="509.0117647058824" r="1.1011764705882354" fill="#2A2320"/>
+<circle cx="293.05882352941177" cy="509.0117647058824" r="1.1011764705882354" fill="#2A2320"/>
+<path d="M 287.5529411764706 513.2941176470589 Q 290.0 514.5176470588235 292.4470588235294 513.2941176470589" fill="none" stroke="#8A5A48" stroke-width="0.9788235294117649" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="380.0" cy="603.8705882352941" rx="13.71764705882353" ry="3.1176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 374.38823529411764 602 L 375.63529411764705 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 385.61176470588236 602 L 384.36470588235295 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 380.0 520.9411764705883 L 380.0 555.7341176470588" fill="none" stroke="#1F4E5F" stroke-width="14.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 368.15294117647056 521.564705882353 L 391.84705882352944 521.564705882353" fill="none" stroke="#1F4E5F" stroke-width="8.105882352941176" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 368.15294117647056 522.8117647058824 L 366.28235294117644 559.4752941176471" fill="none" stroke="#1F4E5F" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="366.28235294117644" cy="561.3458823529412" r="3.1176470588235294" fill="#6B4229"/>
+<path d="M 391.84705882352944 522.8117647058824 L 393.71764705882356 559.4752941176471" fill="none" stroke="#1F4E5F" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="393.71764705882356" cy="561.3458823529412" r="3.1176470588235294" fill="#6B4229"/>
+<path d="M 380.0 517.8235294117648 L 380.0 514.7058823529412" fill="none" stroke="#6B4229" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="380.0" cy="506.6" r="9.352941176470589" fill="#6B4229"/>
+<path d="M 370.6470588235294 505.3529411764706 A 9.352941176470589 9.352941176470589 0 0 1 389.3529411764706 505.3529411764706" fill="none" stroke="#2A2320" stroke-width="4.364705882352942" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="376.88235294117646" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<circle cx="383.11764705882354" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<path d="M 377.50588235294117 511.5882352941177 Q 380.0 512.8352941176471 382.49411764705883 511.5882352941177" fill="none" stroke="#8A5A48" stroke-width="0.9976470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">three versions · nine people · no first-hand source</text>
+<line x1="840.0" y1="602" x2="1520.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="845.0" y="548" width="230" height="14" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="860.0" y="518" width="200" height="14" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="852.5" y="488" width="215" height="14" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="870.0" y="458" width="180" height="14" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="1120.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">four entries · none of them this · no name</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three versions, and four lines of record</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has what is said. Learner B has what is written down.</text>
+<text x="800.0" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which single element appears in both, and is that element checkable?</text>
+<text x="800.0" y="726" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

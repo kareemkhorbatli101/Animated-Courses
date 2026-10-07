@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>How three versions spread, week by week</title>
+<desc>A line chart showing the number of people who had heard each of three versions of a rumour over three weeks, with first-hand hearers flat at one.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">20</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">40</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">60</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">80</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 587.0 L 406.0 529.5 L 642.0 431.8 L 878.0 311.0 L 1114.0 219.0 L 1350.0 201.8" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="587.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="406.0" cy="529.5" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="642.0" cy="431.75" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="878.0" cy="311.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1114.0" cy="219.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="201.75" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="206.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">heard version 1</text>
+<path d="M 170.0 610.0 L 406.0 598.5 L 642.0 546.8 L 878.0 460.5 L 1114.0 357.0 L 1350.0 328.2" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="406.0" cy="598.5" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="642.0" cy="546.75" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="878.0" cy="460.5" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="1114.0" cy="357.0" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<circle cx="1350.0" cy="328.25" r="5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6"/>
+<text x="1364.0" y="333.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">heard version 2</text>
+<path d="M 170.0 610.0 L 406.0 610.0 L 642.0 610.0 L 878.0 575.5 L 1114.0 483.5 L 1350.0 408.8" fill="none" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="406.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="642.0" cy="610.0" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="878.0" cy="575.5" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="1114.0" cy="483.5" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<circle cx="1350.0" cy="408.75" r="5" fill="#FFFFFF" stroke="#D9A441" stroke-width="2.6"/>
+<text x="1364.0" y="413.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">heard version 3</text>
+<path d="M 170.0 604.2 L 406.0 604.2 L 642.0 604.2 L 878.0 604.2 L 1114.0 604.2 L 1350.0 604.2" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="604.25" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="406.0" cy="604.25" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="642.0" cy="604.25" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="878.0" cy="604.25" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1114.0" cy="604.25" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1350.0" cy="604.25" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<text x="1364.0" y="609.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">heard it first-hand</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">How three versions spread, week by week</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">People who had heard each version, and people who had heard it first-hand.</text>
+<text x="170.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 1</text>
+<text x="406.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 1.5</text>
+<text x="642.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 2</text>
+<text x="878.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 2.5</text>
+<text x="1114.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 3</text>
+<text x="1350.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 3.5</text>
+<rect x="170" y="670" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Seventy-one people had heard the first version by week three. The number who had heard it from</text>
+<text x="186" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">anybody who heard it first-hand never moved off one.</text>
+<text x="170" y="771.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Counted from a reconstruction afterwards, so the totals are low rather than high. Each</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">version is counted once per person.</text>
+</g>
+</svg>
