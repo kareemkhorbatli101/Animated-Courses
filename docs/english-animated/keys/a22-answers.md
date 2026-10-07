@@ -443,3 +443,152 @@ The contrastive *MUST* has already been contradicted once — you only stress th
 **12A** · Recycle — ten items
 1 must have broken · 2 can't have been · 3 might have been · 4 out · 5 up · 6 was built *(A2.1 U7)* · 7 told · 8 had already started · 9 were · 10 are not allowed to
 
+
+---
+
+## A2.2 · Unit 7 · This Time Next Year
+
+**0B** · Guess it
+Peadar, the narrator, and one of the two apprentices. Peadar: there is a kitbag by the pier bollard and the Galway boat's name chalked on the shed door. The narrator: she is the only one holding a college envelope. The apprentice: he is standing with the boatyard group and is the one with nothing in his hands — the second berth has not been confirmed.
+
+**1B** · Sort — a thing you get, or a thing you do?
+> **a thing you do** — qualify · apply
+> **a thing you get** — training · promotion · chance · course · contract
+> **both** — plan
+**The one that is both:** *plan*. You make a plan and you are given one — a training plan, a plan for the hall — and people confuse them because *we have a plan* can mean *we decided something* or *somebody handed us a document*.
+
+**2A** · The Galway boat 🔊 Track 7.1
+**1** c) two seasons · **2** c) three weeks at a time · **3** b) at college · **4** a) still waiting
+**Table** — Peadar: will be in Galway, taking a bigger boat out at four; the refit has to be finished first; he is not saying that clause 9 leaves him unpaid from 1 March. Aoife: will be at college in Dublin; nothing has to happen first, which is the point; she is not saying that hers is the only plan with no *if* in it. Sinéad: will be here; the plasterboard has to arrive; she is not saying what happens if the committee stops paying the insurance.
+
+**Noticing** — **The decision:** 1 (*I'll take it*). The other three describe a future that is simply going on.
+
+**3D** · Use — controlled
+1 will be living · 2 will be taking · 3 starts · 4 will be studying · 5 will be · 6 will still be waiting · 7 is not going · 8 will be doing
+
+**3E** · Use — guided
+1 In October I'll be studying on the course.  
+2 Next year he'll be taking a bigger boat out at four.  
+3 This time next year we'll be using the hall. *(or* …we'll still be rebuilding it.*)*  
+4 By then she'll be working in Dublin.  
+5 By Christmas they'll still be waiting for the plasterboard.
+
+**5C** · Answer
+1 In February. If he goes: the boatyard loses its best customer; Tomás's cousin does not take on the two apprentices; and the writer's brother applies to the college in Sligo instead.  
+2 The college in Sligo — which he does not want, and which he will probably get.  
+3 The hall will not reopen until the plasterboard arrives. If it is still shut in January, the committee must decide whether to keep paying insurance on a building nobody can use. If they stop, Sinéad will be running a community with nowhere to put it.  
+4 "I will be at college in Dublin by October."  
+5 Because it is also the only one entirely about her. Putting the certain thing last, after everybody else's conditionals, is a way of not noticing that she is the one with a plan.  
+6 That a small town is not a set of individual plans but one plan with eleven authors, and nobody has the whole document.
+
+**5D** · Vocabulary in context
+**counted it out** — worked through the consequences one by one · **take on** — employ, here the two apprentices · **comes down to** — depends ultimately on · **which he will probably get** — the quiet sting: he will succeed at the thing he does not want · **eleven authors** — the number of people whose decisions are in the plan
+
+**5E** · The counter-text
+1 Experienced hand on an 18 m vessel in Galway; two seasons — twenty months, with no break clause before month ten.  
+2 Twenty-one nights at a time, three weeks on and ten days off. It is in the **contract summary**, not the advert — the advert does not mention nights at all.  
+3 The advert says "accommodation available". The contract says shared, at 140 a month — *available*, not included.  
+4 **Clause 9.** If the vessel's refit is not completed, the start date moves to the first sailing — and the engagement is not paid between 1 March and that date.
+
+**6A** · Sort — soon, far off, or in between?
+> **far off** — in a year's time · this time next · eventually
+> **in between** — ahead · onwards · by then · later
+> **soon** — meanwhile · soon · shortly
+
+**6B** · Chunk completion
+1 next · 2 end · 3 time · 4 work · 5 start · 6 up
+
+**6C** · Three that are not as sure as they sound
+1 *I expect to be finished by March, and I have been wrong about this before.* — *hopefully* hides who is doing the hoping.  
+2 *I think he will take it, though he has not said so.* — *likely* states a probability nobody has measured.  
+3 *The hall will reopen when the plasterboard arrives, and nobody will say when that is.* — *eventually* promises a time and refuses to name one.
+
+**6D** · Contrast Clinic — will, going to, or will be -ing
+> **1** Will … be coming — the future continuous is the polite enquiry, because it asks about an arrangement rather than a decision.
+> **2** will have been waiting — a duration up to a point.
+> **3** 'll get — decided at this moment.
+> **4** 'll be living — an ongoing future.
+> **5** 'm going to apply — a decision already taken.
+> **6** 'll know — states do not take the continuous.
+
+**7C** · Make it mean something
+*I **WILL** be there* is the promise: the stress answers a doubt, and what it offers is the speaker's word. *I'll be there* is the timetable: it reports an arrangement that already exists and asks nobody to trust anything.
+
+**12A** · Recycle — ten items
+1 will be living · 2 will be · 3 Will … be coming · 4 for · 5 up · 6 must have broken · 7 to measure · 8 told · 9 have been waiting · 10 rains
+
+
+---
+
+## A2.2 · Unit 8 · The Only Building Above the Line
+
+**0B** · Guess it
+**Above:** the hall. Its door sill is drawn three steps up from the street and there is no tide mark on it. **Barely below:** the old school. Its sill is one step up and the render carries a faint horizontal line just under the window — the 1.9 metre mark, a hand's width below the glass.
+
+**1B** · Sort — natural, built, or ruined?
+> **natural** — bay · cliff · headland
+> **ruined** — ruin
+> **built** — hall · church · lighthouse · harbour · pier
+**The one in two columns:** *harbour*. It is a natural inlet and a built structure, and the three-hundred-year argument is exactly about which — whether the town made the harbour or the harbour made the town.
+
+**2A** · The tour 🔊 Track 8.1
+**1** F · **2** T · **3** F · **4** T
+**Table** — The hall: 1884, a corn store, became a hall in 1931; the plaque does not say it is the only building above the flood line, that two hundred people were in it on the night, or that there is a proposal to sell it. The pier: 1886, rebuilt 1931; the plaque does not say it was destroyed twice. The ruin: date unknown; there is no plaque at all.
+
+**Noticing** — **Sentence 2** implies there is another hall. The commas in sentence 1 make the clause non-defining: there is one hall, and by the way it was built in 1884. Without them the clause picks out which hall is meant.
+
+**3D** · Use — controlled
+1 which · 2 who · 3 where · 4 of which · 5 of which · 6 which
+
+**3E** · Use — guided
+1 The lighthouse, which was built in 1902, is still working.  
+2 Tomás, who wrote the survey, has been here four years.  
+3 The bay, where the tide comes in fastest, fills in forty minutes.  
+4 There are eleven landmarks, three of which have plaques.  
+5 The old school, whose roof was replaced last year, is empty.
+
+**5C** · Answer
+1 An hour long; it opened in June.  
+2 The plaques are brass, which will outlast the funding; and the text was written by somebody who had read the parish records rather than the tourist board's previous leaflet.  
+3 It gives 1884 as a corn store, 1931 as a hall, and the name of the merchant who paid for it. It does not say that the hall is the only building in the lower town above the 1.9 metre line, that two hundred people were in it on the night of the storm, or that there is a proposal to sell it.  
+4 Two hundred.  
+5 Because a heritage plaque is not a news bulletin and nobody expects it to be. The fault is that the trail is the only written account a visitor will ever read, and it stops in 1931.  
+6 The brass.
+
+**5D** · Vocabulary in context
+**signposted** — marked along the route so you can follow it · **a lie by omission** — true in everything it says and misleading in what it leaves out · **the parish records** — the local written history, as against the tourist leaflet · **a news bulletin** — something the plaque is not, which the reviewer concedes · **it stops in 1931** — the whole criticism, in four words
+
+**5E** · The counter-text
+1 1884 and 1931. The name on it is the Dolan family — presented by them, and built for Dolan & Sons.  
+2 410,000 as is; 180,000 plus a retained upper floor if split into two units. The basis is **vacant possession**, which assumes the community use ends — and there is no valuation anywhere of the building in continued community use.  
+3 4.1 metres above sea level, against a January flood level of 1.9 — and it adds that the site is not within the flood envelope and no flood resilience works are required.  
+4 "Not within the flood envelope" — because it is the only building in the lower town of which that is true, and that is the sentence the plaque leaves out.
+
+**6A** · Sort — adds, contrasts, or changes the subject?
+> **adds** — which is why · moreover · besides · also
+> **contrasts** — actually · although · however
+> **changes the subject** — by the way
+**The one that does two jobs:** *actually*. It contrasts (*actually, it was 1931*) and it changes the subject (*actually, while I think of it…*). *besides* is the second candidate — it adds, and in speech it often dismisses.
+
+**6B** · Chunk completion
+1 of · 2 of · 3 way · 4 why · 5 across · 6 says
+
+**6C** · Three that are not interchangeable
+1 **However** — it joins two sentences, after a full stop or semicolon. *Although* would need one clause, not two sentences; *actually* would correct something nobody said.  
+2 **Although** — it joins two clauses inside one sentence. *However* would leave a comma splice; *actually* would make the first clause a correction.  
+3 **actually** — it corrects the date the listener was about to assume. *However* and *although* would both need a second idea, and there is only one here.
+
+**6D** · Contrast Clinic — commas or no commas
+> **1** **Add commas:** *The hall, which was built in 1884, is the oldest.* There is one hall. Without commas the sentence implies there are others.
+> **2** **Add commas.** There is one pier.
+> **3** **No commas.** The clause identifies which woman.
+> **4** **Add commas.** A name is already unique, so the clause can only be non-defining.
+> **5** **No commas.** The clause says which building.
+> **6** **No commas** — and *that* is right here, because *only* makes the clause defining.
+
+**7C** · Make it mean something
+**With commas:** one brother. **Without:** more than one, and the clause says which. The pause does carry it — most partners get it from the pause alone, and the ones who do not are usually hearing a pause that was not there, which is why the comma has to be on the page.
+
+**12A** · Recycle — ten items
+1 which · 2 who · 3 of which · 4 from · 5 across · 6 will be living · 7 must have broken · 8 told · 9 had already started · 10 who / that
+
