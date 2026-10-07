@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "looks wrong",
+   "size": 28,
+   "bbox": [
+    73.6,
+    271.0,
+    265.6,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "dated",
+   "size": 30,
+   "bbox": [
+    395.9,
+    269.5,
+    493.7,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thirty years",
+   "size": 28,
+   "bbox": [
+    627.6,
+    271.0,
+    812.4,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a period",
+   "size": 30,
+   "bbox": [
+    925.4,
+    269.5,
+    1065.0,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "history",
+   "size": 30,
+   "bbox": [
+    1211.0,
+    269.5,
+    1329.8,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "How a recent thing becomes an old thing, in five stages with an arrow to the next: it looks wrong, it looks dated, about thirty years pass, it becomes a period, and in the end it reads as history.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "62199a426d591b5360126ebe25e161f9689e989df2d49d7b2be50fd5a3147dd9"
+}

@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  577
+ ],
+ "bounds": [
+  74.0,
+  28.6,
+  1366.0,
+  548.7
+ ],
+ "texts": [
+  {
+   "text": "Amina",
+   "size": 34,
+   "bbox": [
+    219.7,
+    203.5,
+    340.3,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has not changed the shelves",
+   "size": 26,
+   "bbox": [
+    92.7,
+    245.0,
+    467.3,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tomas",
+   "size": 34,
+   "bbox": [
+    659.7,
+    203.5,
+    780.3,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has worked nights since",
+   "size": 28,
+   "bbox": [
+    551.3,
+    244.2,
+    888.7,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "twenty-four",
+   "size": 28,
+   "bbox": [
+    638.8,
+    276.2,
+    801.2,
+    300.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    1109.6,
+    203.5,
+    1210.4,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has lived in three of the five flats",
+   "size": 22,
+   "bbox": [
+    978.0,
+    248.1,
+    1342.0,
+    268.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    483.5,
+    323.5,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has changed nothing at all",
+   "size": 28,
+   "bbox": [
+    93.1,
+    524.2,
+    466.9,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    483.5,
+    839.0,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has seen off two owners",
+   "size": 28,
+   "bbox": [
+    549.8,
+    524.2,
+    890.2,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has learned all of their names",
+   "size": 24,
+   "bbox": [
+    980.5,
+    526.6,
+    1339.5,
+    548.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "What has changed for each of the six people at number 14, and what has not: Amina has not changed the shelves of her shop in eleven years, Tomas has worked nights since he was twenty-four, Maya has lived in three of the five flats, Dani has changed nothing at all, Mr Okonkwo has seen off two owners, and Yuki has learned all of their names.",
+ "placed_in": [
+  4.9375,
+  1.9791666666666667
+ ],
+ "sha256": "3561970ed632b45620a8d32d55704556cf0f9672e507696a9e84f99374715bec"
+}

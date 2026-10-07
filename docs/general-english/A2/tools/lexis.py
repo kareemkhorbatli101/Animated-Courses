@@ -19,6 +19,17 @@ def freq2000() -> set[str]:
 # 'n' and a bare 'd' are unsound: they turn `bin` into `bi` and `and` into `an`.
 SUFFIXES = ['s', 'es', 'ed', 'ing', 'er', 'est', 'ly']
 
+# Stripping is ONE level deep on purpose. It costs us the doubly-derived
+# agentive plurals -- `designers` and `builders` read as B1+ although `design`
+# and `build` are A2, because only `designer`/`builder` are reachable and
+# neither headword is on the lemmatised list. Tested on 2026-10-07: a
+# transitive two-level closure recovers those two (and `arguers`) but leaks
+# `tenses` -> `tens` -> `ten` and `shutters` -> `shutter` -> `shut`, which are
+# not the same words at all, and the leak direction is the dangerous one -- it
+# silently whitelists off-band vocabulary. The wordlists are sourced, so
+# adding plurals to them is not available either (see PROVENANCE.md). Write
+# around it instead: `the people who designed it` is in fact the lighter read.
+
 def bases(w: str):
     yield w
     for suf in SUFFIXES:

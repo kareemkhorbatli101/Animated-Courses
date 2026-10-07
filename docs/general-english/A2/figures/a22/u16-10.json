@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "Records",
+   "size": 32,
+   "bbox": [
+    207.5,
+    217.2,
+    352.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back thirty years later,",
+   "size": 26,
+   "bbox": [
+    131.7,
+    269.1,
+    428.3,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "because they are slow",
+   "size": 26,
+   "bbox": [
+    134.2,
+    301.1,
+    425.8,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Trams",
+   "size": 32,
+   "bbox": [
+    666.0,
+    217.2,
+    774.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hard to move, which is why",
+   "size": 22,
+   "bbox": [
+    568.9,
+    272.2,
+    871.1,
+    292.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "they went and why they return",
+   "size": 22,
+   "bbox": [
+    549.5,
+    300.2,
+    890.5,
+    320.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The bicycle lane",
+   "size": 32,
+   "bbox": [
+    1014.5,
+    217.2,
+    1305.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "kept in the Netherlands,",
+   "size": 26,
+   "bbox": [
+    1002.6,
+    269.1,
+    1317.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "and back out of it",
+   "size": 26,
+   "bbox": [
+    1045.6,
+    301.1,
+    1274.4,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three things people threw away and then wanted again: records, which came back thirty years later because they are slow and you have to choose; trams, which are hard to move, the reason they were taken out and the reason they are being laid again; and bicycle lanes, which the Dutch cities kept and which have travelled back out of the Netherlands to the countries that invented them.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "a0537288ca13f3339d9971424d308953689d84279ce013234aca40665a06d4fc"
+}

@@ -329,13 +329,49 @@
    "on": "#FFFFFF"
   },
   {
+   "text": "6",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1638.2,
+    263.9,
+    1673.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Then and Now",
+   "size": 42,
+   "bbox": [
+    330,
+    1637.5,
+    667.3,
+    1673.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "present perfect vs past simple",
+   "size": 38,
+   "bbox": [
+    1280,
+    1639.8,
+    1858.3,
+    1673.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
    "text": "By the end you will be able to",
    "size": 54,
    "bbox": [
     220,
-    1678.1,
+    1750.1,
     1127.1,
-    1725.7
+    1797.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -345,9 +381,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1767.5,
+    1839.5,
     258.0,
-    1803.9
+    1875.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -357,9 +393,9 @@
    "size": 40,
    "bbox": [
     320,
-    1768.2,
+    1840.2,
     1535.9,
-    1803.9
+    1875.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -369,9 +405,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1833.5,
+    1905.5,
     258.0,
-    1869.9
+    1941.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -381,9 +417,9 @@
    "size": 40,
    "bbox": [
     320,
-    1834.2,
+    1906.2,
     1140.3,
-    1869.9
+    1941.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -393,9 +429,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1899.5,
+    1971.5,
     258.0,
-    1935.9
+    2007.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -405,9 +441,9 @@
    "size": 40,
    "bbox": [
     320,
-    1900.2,
+    1972.2,
     1403.0,
-    1935.9
+    2007.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -417,9 +453,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1965.5,
+    2037.5,
     258.0,
-    2001.9
+    2073.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -429,9 +465,9 @@
    "size": 40,
    "bbox": [
     320,
-    1966.2,
+    2038.2,
     1044.9,
-    2001.9
+    2073.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -441,9 +477,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2031.5,
+    2103.5,
     258.0,
-    2067.9
+    2139.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -453,9 +489,9 @@
    "size": 40,
    "bbox": [
     320,
-    2032.2,
+    2104.2,
     1360.4,
-    2067.9
+    2139.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -465,9 +501,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2097.5,
+    2169.5,
     258.0,
-    2133.9
+    2205.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -477,9 +513,9 @@
    "size": 40,
    "bbox": [
     320,
-    2098.2,
+    2170.2,
     1126.9,
-    2133.9
+    2205.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -498,7 +534,7 @@
   }
  ],
  "alt": "Back cover of English for Daily Life A2 volume 2: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
- "sha256": "4377c48dfb7ce3460b1255355b0b026baae906de1e16cc5a88a03128546c8988",
+ "sha256": "5543dde312458ecef7241660de78ea13cc24d658029c4a90ef3a3817176f1e88",
  "theme": "a22",
  "volume": 2,
  "title": "Out in the World",
@@ -509,14 +545,16 @@
   "Weather and What Might Happen",
   "Rules and Places",
   "Health and Feeling Better",
-  "Experiences"
+  "Experiences",
+  "Then and Now"
  ],
  "grammar": [
   "going to",
   "will",
   "must/have to/mustn't/don't have to",
   "should/shouldn't - advice",
-  "present perfect - experience"
+  "present perfect - experience",
+  "present perfect vs past simple"
  ],
  "can_do": [
   "I can talk about arrangements using the present continuous.",
@@ -526,5 +564,5 @@
   "I can talk about the weather and say what it will do.",
   "I can use will, won\u2019t and might correctly."
  ],
- "unit_count": 5
+ "unit_count": 6
 }

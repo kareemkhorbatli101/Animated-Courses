@@ -1,5 +1,12 @@
 # Append-only. Every fact asserted about a character is recorded here at the
 # moment it is written. Check F04 rejects any later sentence that contradicts it.
+#
+# Back-filled on 2026-10-07 for volume A2.2. Appending stopped at Unit 10 and
+# units 11-15 went in without their facts being recorded, which is the drift
+# this file exists to stop: F04 can only mechanically adjudicate ages and
+# Amina's opening hours, so the free-text facts are the only record that keeps
+# a later unit from contradicting an earlier one. `ages_also` carries an age a
+# character legitimately reaches later in the course, so F04 accepts both.
 address: 14 Alder Street
 street: Alder Street
 building:
@@ -28,6 +35,15 @@ people:
       - knocked on Yuki's door on her fifth day with a note
       - makes small books by hand, one at a time
       - reads the whole thing twice before she touches anything
+      - is meeting her sister off the nine o'clock train on Saturday (U11)
+      - takes a coat whatever anybody says; is never cold and never right (U12)
+      - checks the front door is shut and comes back up two floors to check (U13)
+      - says you should look it up, and has frightened herself twice doing it (U14)
+      - has read the same book four times and understood it differently each time (U15)
+      - has lived in three of the five flats in four years (U16)
+      - has used the same camera since she was fifteen; it takes film (U16)
+      - has taken nine thousand photographs on her mobile and looked at none (U16)
+      - says the corner has always been the phone shop (U16)
     first_unit: 1
   Tomas:
     full: Tomas Nilsen
@@ -46,6 +62,11 @@ people:
       - finishes a night shift around eight in the morning
       - worked eleven of the last twelve Saturday nights
       - missed Maya's birthday dinner and sent a photograph of the cake
+      - mustn't be late, and says that is the hospital talking and not him (U13)
+      - says rest and water, which is right and is never what anybody wants (U14)
+      - will not say what is wrong with somebody on a staircase (U14)
+      - has slept in an airport three times and mentions it like a bus stop (U15)
+      - started at the city hospital at twenty-four and has been on nights ever since (U16)
     first_unit: 1
   Amina:
     full: Amina Chaudhry
@@ -64,6 +85,17 @@ people:
       - sells no meat, because there is no room for a fridge
       - painted GREEN SHOP across her window instead of a number
       - builds her window display quickly, because the shop is open while she works
+      - knows everybody's Saturday and never asks (U11)
+      - hears all six forecasts before nine every morning (U12)
+      - says her shoulder tells her when it will rain, and it is right more often than the radio (U12)
+      - lost two days of trade and a freezer in a storm (U12)
+      - has one rule she will not break and one she breaks every week, like everybody in the street (U13)
+      - gets told how to feel better about four times a week (U14)
+      - says you should eat something, whatever is wrong with you (U14)
+      - has never been on a plane (U15)
+      - has not changed the shelves since she opened, eleven years ago (U16)
+      - remembers the corner as a bread shop, because it was one for the two
+        years before she opened her own shop (U16)
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -82,6 +114,16 @@ people:
       - finds his way by the shops, and gets there
       - cooks fast and loudly and cleans up badly
       - reads a recipe out of order and starts at step four
+      - said yes to the dinner and then asked what he could cook (U11)
+      - books by telephone and writes nothing down (U11)
+      - says it will be fine, and is wrong about this every week (U12)
+      - slept through the storm on the first floor (U12)
+      - says you shouldn't worry, and says it about everything (U14)
+      - was in bed all week being sick after saying he is never ill (U14)
+      - has lost his papers in two countries (U15)
+      - came to Alder Street last year and has changed nothing, including a
+        light bulb that went in June (U16)
+      - has never thought about what the corner used to be (U16)
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -101,7 +143,17 @@ people:
       - since February cannot carry a full bag up four floors without stopping
       - gives directions by shops that closed years ago
       - repairs slowly and once, and what he repairs outlasts the watchers
+      - keeps every rule there is and makes two more of his own (U13)
+      - made the rule about the bins twenty years ago and never needed a sign (U13)
+      - says you should go outside for ten minutes, which works more often than it should (U14)
+      - turned seventy-one during volume two; carried bread up four flights at that age (U14)
+      - has lived in four cities and will not say which he liked (U15)
+      - arrived at number 14 before any of the others and has seen off two owners (U16)
+      - says the corner was a tool shop, which it was for twenty of its thirty years (U16)
+      - bought a hinge there in his first week and still has it (U16)
+      - has minded about the market moving for seven months and said nothing (U16)
     first_unit: 1
+    ages_also: [71]
   Yuki:
     full: Yuki Tanaka
     age: 34
@@ -117,6 +169,11 @@ people:
       - cannot swim; could float at eight; is learning as an adult
       - is learning to make a bowl, and threw the first four away
       - writes directions down and reads them again at every junction
+      - asks what the rule is first, which nobody else in the building ever did (U13)
+      - learned nine of the building's eleven unwritten rules in her first month (U13)
+      - ate something in a market and has never found out what it was (U15)
+      - arrived in March and has already learned every name in the building (U16)
+      - asked all five of the others what the corner used to be (U16)
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
@@ -130,6 +187,12 @@ walk_ons:
   - {name: the Toronto tool library, unit: 8, country: Canada}
   - {name: the Dutch junction numbers, unit: 9, country: Netherlands}
   - {name: the stone-layers of Lisbon, unit: 10, country: Portugal}
+  - {name: the Bergen bus shelters, unit: 11, country: Norway}
+  - {name: the monsoon watchers, unit: 12, country: India}
+  - {name: the Irish indoor rule, unit: 13, country: Ireland}
+  - {name: the Wellington triage nurses, unit: 14, country: New Zealand}
+  - {name: the name-cutters of the temple, unit: 15, country: Egypt}
+  - {name: the rebuilders of Warsaw, unit: 16, country: Poland}
 
 places:
   - Alder Street

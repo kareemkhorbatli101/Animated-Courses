@@ -32,14 +32,44 @@ def f03(u, ctx):
                 bad.append(f'{first} given {other}\'s job')
     return expect(not bad, '; '.join(bad))
 
+# The book writes ages out in words far more often than in digits, and the
+# original digit-only pattern let `at seventy-one` past a ledger that said 70
+# (Unit 14, found 2026-10-07). Both spellings now count, and both the
+# copula and an `at <age>` apposition are read, which is the shape the prose
+# actually uses.
+WORD_AGE = {}
+for _t, _b in (('twenty', 20), ('thirty', 30), ('forty', 40), ('fifty', 50),
+               ('sixty', 60), ('seventy', 70), ('eighty', 80), ('ninety', 90)):
+    WORD_AGE[_t] = _b
+    for _i, _u in enumerate(('one', 'two', 'three', 'four', 'five', 'six',
+                             'seven', 'eight', 'nine'), start=1):
+        WORD_AGE[f'{_t}-{_u}'] = _b + _i
+# Only a PRESENT-tense claim can contradict a recorded age. `at twenty-four`
+# in `Tomas started at the hospital at twenty-four` is a past age and is
+# history, not a conflict; `at 14` is the street number. Reading `at` as an
+# age produced both of those as false positives on 2026-10-07, so the pattern
+# keeps the copula and `aged` and nothing else.
+AGE_RE = re.compile(r'\b(?:is|was)\s+(?:now\s+)?(\d{1,2}|[a-z]+(?:-[a-z]+)?)'
+                    r'(?=\s*(?:,|\.|and\b|now\b|years old\b|$))'
+                    r'|\baged\s+(\d{1,2}|[a-z]+(?:-[a-z]+)?)\b', re.I)
+
+
 @check('F04', 'ledgers/cast.facts', 'No sentence contradicts a fact already in the cast ledger')
 def f04(u, ctx):
     bad = []
     ages = {k: v.get('age') for k, v in ctx.cast['people'].items()}
     for k, a in ages.items():
-        for m in re.finditer(rf'{re.escape(k)}[^.]{{0,30}}\bis (\d{{1,2}})\b', u.text):
-            if int(m.group(1)) != a:
-                bad.append(f'{k} aged {m.group(1)}, ledger says {a}')
+        if a is None:
+            continue
+        allowed = {int(a)} | {int(x) for x in ctx.cast['people'][k].get('ages_also', [])}
+        for m in re.finditer(rf'{re.escape(k)}[^.]{{0,40}}', u.text):
+            for am in AGE_RE.finditer(m.group(0)):
+                tok = (am.group(1) or am.group(2)).lower()
+                n = int(tok) if tok.isdigit() else WORD_AGE.get(tok)
+                if n is None or not 10 <= n <= 99:
+                    continue
+                if n not in allowed:
+                    bad.append(f'{k} aged {tok}, ledger says {sorted(allowed)}')
     # Amina's opening day is the fact most likely to drift
     # the ledger fact is about Amina's shop, not about every door in the book
     if re.search(r'\b(Amina|the corner shop|the shop downstairs)\b[^.]{0,60}'

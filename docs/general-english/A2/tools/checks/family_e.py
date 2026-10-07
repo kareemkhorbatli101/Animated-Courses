@@ -303,6 +303,33 @@ def e24(u, ctx):
     bad += re.findall(r'\b(January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2},', u.text)
     return expect(not bad, f'non-British date/time: {bad[:5]}')
 
+# Hoisted to module level on 2026-10-07: tools/diag.py had its own copy
+# of this list, so a fix here silently missed there.
+E25_ADJ = {'closed', 'open', 'tired', 'interested', 'worried', 'married', 'pleased',
+       'bored', 'excited', 'finished', 'broken', 'gone', 'done',
+       'surprised', 'frightened', 'embarrassed', 'annoyed', 'confused',
+       'wooden', 'golden', 'often', 'given',
+       'green', 'even', 'seven', 'dozen', 'oven', 'sudden', 'happen',
+       'seven', 'eleven', 'children', 'women', 'kitchen', 'written',
+       'ten', 'frozen', 'garden', 'listen', 'spoken',
+       # `I have used it since I was fifteen` is not a passive. The -en
+       # alternation swallows every teen number, and `between`/`often`
+       # sit in the same trap; added 2026-10-07 after U16.
+       'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen',
+       'eighteen', 'nineteen', 'between', 'queen', 'screen', 'teen'}
+# Three shapes, not one: the old pattern required the auxiliary to sit against
+# the participle and knew nothing of modal or gerund passives, so `is often
+# made`, `can be found` and `without being asked` all read as clean.
+# The participle alternation is -ed/-en plus the irregulars that end in
+# neither, which had hidden `is read`, `was taught`, `can be built` and
+# `being told`. `lost` stays out: `I was lost` is adjectival at A2.
+E25_PART = (r'(\w+(?:ed|en)|read|put|cut|set|built|kept|sent|left|made|sold|told|'
+        r'held|found|brought|taught|paid|met|won|hit|let|shut|cost|spent)')
+E25_PATS = (r'\b(?:is|are|was|were)\s+(?:not|never|often|usually|always|still|also|only)?\s*' + E25_PART + r'\b',
+        r'\b(?:can|could|must|should|may|might|will|would)\s+be\s+' + E25_PART + r'\b',
+        r'\b(?:been|being)\s+' + E25_PART + r'\b')
+E25_CLEFT = re.compile(r'\b(what|all)\b[^.!?]{0,70}$', re.I)
+
 @check('E25', 'ledgers/grammar', 'No passive voice before its unit, outside the exempt list')
 def e25(u, ctx):
     pas = next((un for un, r in ctx.grammar['spine'].items() if 'passive' in str(r['point'])), 99)
@@ -312,36 +339,17 @@ def e25(u, ctx):
     # A2, not the passive. Only a true agentless passive counts.
     # `used` came off this list on 2026-10-07: predicative `is used` is a passive,
     # not an adjective, and the entry had been hiding one in a Part 8 reading.
-    ADJ = {'closed', 'open', 'tired', 'interested', 'worried', 'married', 'pleased',
-           'bored', 'excited', 'finished', 'broken', 'gone', 'done',
-           'surprised', 'frightened', 'embarrassed', 'annoyed', 'confused',
-           'wooden', 'golden', 'often', 'given',
-           'green', 'even', 'seven', 'dozen', 'oven', 'sudden', 'happen',
-           'seven', 'eleven', 'children', 'women', 'kitchen', 'written',
-           'ten', 'frozen', 'garden', 'listen', 'spoken'}
-    # Three shapes, not one: the old pattern required the auxiliary to sit against
-    # the participle and knew nothing of modal or gerund passives, so `is often
-    # made`, `can be found` and `without being asked` all read as clean.
-    # The participle alternation is -ed/-en plus the irregulars that end in
-    # neither, which had hidden `is read`, `was taught`, `can be built` and
-    # `being told`. `lost` stays out: `I was lost` is adjectival at A2.
-    PART = (r'(\w+(?:ed|en)|read|put|cut|set|built|kept|sent|left|made|sold|told|'
-            r'held|found|brought|taught|paid|met|won|hit|let|shut|cost|spent)')
-    PATS = (r'\b(?:is|are|was|were)\s+(?:not|never|often|usually|always|still|also|only)?\s*' + PART + r'\b',
-            r'\b(?:can|could|must|should|may|might|will|would)\s+be\s+' + PART + r'\b',
-            r'\b(?:been|being)\s+' + PART + r'\b')
     body = ' '.join(u.sentences)
     # `What I do instead is read one more chapter` is a cleft, not a passive:
     # `is` carries a bare infinitive whose subject is the what-clause. The same
     # shape covers `What it really does is get`, `All you can do is wait`. The
     # guard looks back for an unclosed what/all-clause in the same sentence.
-    CLEFT = re.compile(r'\b(what|all)\b[^.!?]{0,70}$', re.I)
     hits = []
-    for pat in PATS:
+    for pat in E25_PATS:
         for m in re.finditer(pat, body, re.I):
-            if m.group(1).lower() in ADJ:
+            if m.group(1).lower() in E25_ADJ:
                 continue
-            if CLEFT.search(body[:m.start()]):
+            if E25_CLEFT.search(body[:m.start()]):
                 continue
             hits.append(m.group(0))
     return expect(not hits, f'{len(hits)} passive forms before U{pas}: {hits[:4]}')

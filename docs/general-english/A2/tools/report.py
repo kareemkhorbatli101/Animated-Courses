@@ -8,7 +8,16 @@ import runner as R, checks as C
 def main(book='a21'):
     reg = C.load_all()
     res = json.load(open(os.path.join(ROOT, 'reports', f'{book}-last.json')))
-    mut = json.load(open(os.path.join(ROOT, 'reports', f'{book}-mutations.json')))
+    # The mutation suite runs against one fixture book only -- every fixture is a
+    # literal string from it, and the mutations test the shared check code, not a
+    # volume's prose. So A2.2 has no report of its own and reads A2.1's, exactly
+    # as check K14 does. Hardcoding `{book}-mutations.json` crashed this script
+    # on a22 (fixed 2026-10-07, the same defect K14 had).
+    from mutations import FIXTURE_BOOK
+    mpath = os.path.join(ROOT, 'reports', f'{book}-mutations.json')
+    if not os.path.exists(mpath):
+        mpath = os.path.join(ROOT, 'reports', f'{FIXTURE_BOOK}-mutations.json')
+    mut = json.load(open(mpath))
     s = res['summary']
     fams = {}
     for k, v in res['results'].items():

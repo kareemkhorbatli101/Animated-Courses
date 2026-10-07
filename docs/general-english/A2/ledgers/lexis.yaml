@@ -64,7 +64,7 @@ units:
     words: [actor, artist, author, athlete, builder, farmer, painter, singer, tailor, waiter]
   20:
     book: A2.2
-    words: [news, text, reply, false, rumour, article, interview, envelope, stamp, reporter]
+    words: [news, text, reply, "false", rumour, article, interview, envelope, stamp, reporter]
 
 # Fixed expressions that merely contain a glossary word without carrying its
 # meaning. Measured in the source: it says `of course` seven times, from Unit 1

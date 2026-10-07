@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "There used to be a market here.",
+   "size": 28,
+   "bbox": [
+    105.0,
+    60.7,
+    615.0,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying what was there before",
+   "size": 28,
+   "bbox": [
+    870.3,
+    60.7,
+    1339.7,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It has been like this since the spring.",
+   "size": 26,
+   "bbox": [
+    88.0,
+    176.5,
+    632.0,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "giving a starting point for now",
+   "size": 28,
+   "bbox": [
+    863.3,
+    175.7,
+    1346.7,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It was better, and I would say that anyway.",
+   "size": 22,
+   "bbox": [
+    93.6,
+    294.6,
+    626.4,
+    314.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "admitting your opinion may be wrong",
+   "size": 22,
+   "bbox": [
+    871.3,
+    294.6,
+    1338.7,
+    314.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have not been back for years.",
+   "size": 28,
+   "bbox": [
+    113.9,
+    405.7,
+    606.1,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying your information is old",
+   "size": 28,
+   "bbox": [
+    868.6,
+    405.7,
+    1341.4,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things people say about change, each with an arrow to what it does: saying what was there before, giving a starting point for now, admitting your own opinion may be wrong, and saying that your information is old.",
+ "placed_in": [
+  6.270833333333333,
+  2.15625
+ ],
+ "sha256": "fea287078f5c20aee0a3505b906e0ed886e2cf751c8aee78b71117abb0de746f"
+}

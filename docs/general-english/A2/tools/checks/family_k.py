@@ -53,6 +53,18 @@ def k06(units, ctx):
 def k07(units, ctx):
     led = ctx.lexis['units']
     missing = []
+    # An unquoted glossary word that YAML reads as a boolean is lost silently:
+    # `false` in Unit 20's list parsed as the boolean False, and every consumer
+    # then matched the string "false" instead of the word (found 2026-10-07,
+    # before Unit 20 was written). YAML coerces y/n/yes/no/on/off/true/false in
+    # any case, so the ledger is type-checked here rather than trusted. Entries
+    # for units not yet written are checked too, which is the point -- the
+    # whole list is fixed up front.
+    for un, rec in sorted(led.items()):
+        for w in rec.get('words', []):
+            if not isinstance(w, str):
+                missing.append(f'U{un}: {w!r} is {type(w).__name__}, '
+                               f'not a string -- quote it in ledgers/lexis.yaml')
     for u in units:
         g = next((s for s in u.subs if s.heading.endswith('Glossary')), None)
         words = []

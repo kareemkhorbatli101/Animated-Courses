@@ -337,6 +337,47 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         C(0, -6, 26, fill=P['tanl'])
         C(-16, 10, 17, fill=P['tanl'])
         C(16, 10, 17, fill=P['tanl'])
+    elif name == 'camera':
+        R(-42, -22, 84, 50, fill=P['card'], r=6)           # the body
+        R(-18, -34, 30, 12, fill=P['ink'], r=3)            # the viewfinder hump
+        C(-4, 3, 19, fill=P['bg'])                         # the lens
+        C(-4, 3, 10, fill=P['blue'], sw=0)
+        C(26, -12, 5, fill=P['tand'], sw=0)                # the shutter
+    elif name == 'record':
+        C(0, 0, 40, fill=P['ink'])
+        C(0, 0, 24, fill=P['ink'], sw=2)
+        C(0, 0, 13, fill=P['tand'], sw=0)
+        C(0, 0, 3, fill=P['bg'], sw=0)                     # the spindle hole
+    elif name == 'mobile':
+        R(-24, -42, 48, 84, fill=P['card'], r=8)
+        R(-17, -34, 34, 58, fill=P['blue'], r=3)           # the screen
+        L(-7, 32, 7, 32, sw=4)                             # the button
+    elif name == 'computer':
+        R(-44, -34, 88, 54, fill=P['card'], r=5)
+        R(-36, -27, 72, 40, fill=P['blue'], r=2)           # the screen
+        L(-4, 20, 4, 20, sw=5)                             # the stem
+        L(-28, 32, 28, 32, sw=6)                           # the stand
+    elif name == 'tram':
+        R(-44, -30, 88, 50, fill=P['card'], r=6)
+        R(-34, -22, 26, 20, fill=P['blue'], r=2)
+        R(8, -22, 26, 20, fill=P['blue'], r=2)
+        L(0, -30, 0, -44, sw=4)                            # the pole
+        L(-22, -44, 22, -44, stroke=P['tand'], sw=4)       # the wire
+        C(-24, 24, 7, fill=P['ink'], sw=0)
+        C(24, 24, 7, fill=P['ink'], sw=0)
+        L(-50, 34, 50, 34, sw=4)                           # the rail
+    elif name == 'bicycle':
+        C(-26, 14, 18, fill=P['bg'], sw=4)
+        C(26, 14, 18, fill=P['bg'], sw=4)
+        L(-26, 14, 0, -14, sw=4); L(0, -14, 26, 14, sw=4)
+        L(-26, 14, 26, 14, sw=4); L(0, -14, -8, -26, sw=4)
+        L(-18, -30, 2, -30, stroke=P['blue'], sw=5)        # the handlebars
+    elif name == 'painting':
+        R(-44, -34, 88, 68, fill=P['tand'], r=3)           # the frame
+        R(-35, -26, 70, 52, fill=P['bg'], r=1)
+        f.path(f'M {cx-35*s:.1f} {cy+26*s:.1f} L {cx-10*s:.1f} {cy-8*s:.1f} '
+               f'L {cx+12*s:.1f} {cy+26*s:.1f} Z', fill=P['tanl'])
+        C(18, -12, 8, fill=P['blue'], sw=0)
     else:
         C(0, 0, 30, fill=P['grey'])
 
@@ -875,6 +916,41 @@ def life_line(f: Fig, x, y, w, h):
     f.line(bx, by - 34, bx, by + 34, stroke=P['rule'], sw=5)
     f.line(bx, by - 34, bx + 26, by - 34, stroke=P['rule'], sw=5)
     f.line(bx, by + 34, bx + 26, by + 34, stroke=P['rule'], sw=5)
+
+
+def change_line(f: Fig, x, y, w, h):
+    """One street's time as a line, with the five kinds of time phrase drawn as
+    five different marks, so a learner can tell a point from a length and a
+    finished stretch from an unfinished one without reading the words: a closed
+    box for a finished month, a circle with the line running on for a starting
+    point, a capped bar for a measured length, a circle with a stem for a point
+    counted back from now, and an open bracket for a period still running.
+    Hit points step down as they step right, so no two leaders cross (G15)."""
+    def ly_at(fx):
+        return y + h * (0.22 + 0.56 * fx)
+    f.line(x + 50, ly_at(0.07), x + w * 0.90, ly_at(0.90), stroke=P['ink'], sw=6)
+    xs = [0.13, 0.30, 0.47, 0.64, 0.80]
+    # in March: a finished month, closed on both sides
+    bx, by = x + w * xs[0], ly_at(xs[0])
+    f.rect(bx - 22, by - 19, 44, 38, fill=P['deep'], stroke=P['ink'], r=4)
+    # since March: a starting point, with the line carrying on past it
+    cx2, cy2 = x + w * xs[1], ly_at(xs[1])
+    f.circle(cx2, cy2, 19, fill=P['tan'], sw=4)
+    f.line(cx2 + 26, cy2 + 10, cx2 + 74, cy2 + 34, stroke=P['tand'], sw=5)
+    # for four years: a measured length, capped at both ends
+    ax, ay = x + w * xs[2], ly_at(xs[2])
+    f.line(ax - 48, ay - 20, ax + 48, ay + 24, stroke=P['blue'], sw=7)
+    f.line(ax - 48, ay - 38, ax - 48, ay - 2, stroke=P['ink'], sw=5)
+    f.line(ax + 48, ay + 6, ax + 48, ay + 42, stroke=P['ink'], sw=5)
+    # four years ago: one point, counted back from now
+    dx, dy = x + w * xs[3], ly_at(xs[3])
+    f.circle(dx, dy, 19, fill=P['deep'], sw=4)
+    f.line(dx, dy - 56, dx, dy - 26, stroke=P['tand'], sw=4)
+    # this year: a period that has not finished
+    ex, ey = x + w * xs[4], ly_at(xs[4])
+    f.line(ex - 10, ey - 36, ex - 10, ey + 36, stroke=P['rule'], sw=5)
+    f.line(ex - 10, ey - 36, ex + 20, ey - 36, stroke=P['rule'], sw=5)
+    f.line(ex - 10, ey + 36, ex + 20, ey + 36, stroke=P['rule'], sw=5)
 
 
 def compare_pair(f: Fig, x, y, w, h):

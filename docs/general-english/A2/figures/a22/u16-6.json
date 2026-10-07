@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  428
+ ],
+ "bounds": [
+  47,
+  21.2,
+  1393,
+  407.2
+ ],
+ "texts": [
+  {
+   "text": "eleven years ago",
+   "size": 24,
+   "bbox": [
+    74.7,
+    138.3,
+    305.3,
+    159.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina opened",
+   "size": 28,
+   "bbox": [
+    76.9,
+    267.9,
+    303.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the shop",
+   "size": 28,
+   "bbox": [
+    121.0,
+    303.9,
+    259.0,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at twenty-four",
+   "size": 30,
+   "bbox": [
+    332.5,
+    134.4,
+    577.5,
+    161.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas started",
+   "size": 28,
+   "bbox": [
+    342.9,
+    267.9,
+    567.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at the hospital",
+   "size": 28,
+   "bbox": [
+    339.3,
+    303.9,
+    570.7,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four years ago",
+   "size": 30,
+   "bbox": [
+    597.1,
+    134.4,
+    842.9,
+    161.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya moved in",
+   "size": 28,
+   "bbox": [
+    601.1,
+    267.9,
+    838.9,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "in the spring",
+   "size": 34,
+   "bbox": [
+    862.7,
+    131.2,
+    1107.3,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the market moved",
+   "size": 24,
+   "bbox": [
+    860.8,
+    270.3,
+    1109.2,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "this morning",
+   "size": 34,
+   "bbox": [
+    1127.9,
+    131.2,
+    1372.1,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the square is",
+   "size": 28,
+   "bbox": [
+    1146.8,
+    267.9,
+    1353.2,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "still quiet",
+   "size": 28,
+   "bbox": [
+    1174.7,
+    303.9,
+    1325.3,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One street on a line, from eleven years ago to this morning: Amina opened the shop eleven years ago, Tomas started at the hospital at twenty-four, Maya moved in four years ago, the market moved in the spring, and the square is still quiet this morning.",
+ "placed_in": [
+  5.625,
+  1.6770833333333333
+ ],
+ "sha256": "7cfe59349bac4deffb5c239c7bbe0b1ed6014daa86fd9c6cd2de0c88ea682028"
+}
