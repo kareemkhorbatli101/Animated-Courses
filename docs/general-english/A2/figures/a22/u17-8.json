@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask what it is made of",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    486.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask whether it was",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    436.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "made by hand",
+   "size": 28,
+   "bbox": [
+    138.0,
+    238.9,
+    361.7,
+    263.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask how long one takes",
+   "size": 28,
+   "bbox": [
+    138.0,
+    290.9,
+    509.0,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about the slow part",
+   "size": 28,
+   "bbox": [
+    138.0,
+    346.9,
+    512.5,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 telling",
+   "size": 34,
+   "bbox": [
+    916.4,
+    58.2,
+    1223.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "name the material",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1129.1,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say it was made by hand",
+   "size": 26,
+   "bbox": [
+    838.0,
+    205.7,
+    1200.4,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give one length of time",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1206.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "explain the slow part",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1172.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: ask what it is made of, ask whether it was made by hand, ask how long one takes, ask about the slow part. Card B, telling: name the material, say it was made by hand, give one length of time, explain the slow part.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "00273fb8222d3c3b66c2db9c964d42c4d8d17c51a3223739c9960ec88dd82f1f"
+}

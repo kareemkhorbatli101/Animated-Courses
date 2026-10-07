@@ -7,10 +7,10 @@ one can pick up from this file alone.
 
 | | A2.1 *Everyday Life* | A2.2 *Out in the World* |
 |---|---|---|
-| Units | 1–10, **complete** | 11–16 written, 17–20 to go |
-| Checks | 1,913 executions, 0 failures | 1,165 executions, 0 failures |
-| Pages | 386 | 234 |
-| Figures | 140 | 84 |
+| Units | 1–10, **complete** | 11–17 written, 18–20 to go |
+| Checks | 1,913 executions, 0 failures | 1,352 executions, 0 failures |
+| Pages | 386 | 274 |
+| Figures | 140 | 98 |
 | Book | `build/EFDL-A2.1-EverydayLife-u01-10.docx` | `build/EFDL-A2.2-OutintheWorld-u11-NN.docx` |
 
 Run `python3 tools/runner.py` and `python3 tools/runner.py --book a22` to see the
@@ -72,8 +72,8 @@ These recur in every draft. Anticipating them saves a round:
   consecutive the same, no letter over 40% in a unit, book chi² under 7.815.
   Pick the unit's ten-letter sequence *before* writing the key, then reorder the
   options so the right answer lands on the chosen letter. A2.2 stands at
-  A15 B15 C15 D15 after Unit 16 (chi² 0.00), so units 17–20 want 10 of each
-  letter spread 2/3 per unit.
+  A18 B17 C18 D17 after Unit 17 (chi² 0.06), so units 18–20 want roughly 7 of
+  each letter, spread 2/3 per unit.
 - **Duplicate question stems (C27).** Book-scoped, and it bites on the generic
   ones: *Which sentence is correct?* collided between U15 and U16. Make every
   grammar-review stem name its own point (*Which sentence uses `for`
@@ -125,6 +125,35 @@ content defects separately.
 - **`tools/diag.py`** prints the full untruncated list for any E check on one
   unit: `python3 tools/diag.py a22 16 E02 E04 E25`. The runner truncates to ten
   items, which is how a long tail hid in Units 8 and 9.
+- **`Fig.path` needs every `Q` to carry all four coordinates.** `Q x y Z` is two
+  arguments short and `_path_points` raises on the `Z`. Close a curve on its own
+  start point instead.
+- **YAML colons inside a cast fact.** `owns a coat older than Dani: it has been
+  relined` parses as a mapping and the ledger stops loading. Use a semicolon.
+
+## Traps specific to units 18–20
+
+Each of the last three units is blocked by the unit after it, so the order
+matters:
+
+- **Unit 18 (first conditional).** The marker is
+  `\bif\b[^.!?]{0,90}\bwill\b`, bounded to one sentence — it used to run
+  across the whole unit body and match an `if` in Part 1 against a `will` in
+  Part 1's writing model. The real risk in this unit is the opposite one:
+  drifting past the first conditional into the second or third (*if the wind
+  had turned, I would have lost it*), which no check catches and which is two
+  levels above A2. Both Part 6 models in the first draft did it.
+- **Unit 19 (defining relative clauses).** Every earlier unit has been written
+  around the U19 marker, so Unit 19 is the one unit that may finally use
+  `the man who mends`. Watch the reverse: its own glossary (actor, artist,
+  author, athlete, builder, farmer, painter, singer, tailor, waiter) is all
+  job words, and E20's occupational blocklist plus F11's stereotyping gate
+  both sit close to this topic. Describe what a person does, never what people
+  of that job are like.
+- **Unit 20 (reported speech).** Markers are `told me/him/her/them/us …`,
+  `said that` and `asked me/him/… if/whether/where/when/why/what`. Nothing
+  earlier may use them, so by Unit 20 they are all free — but the glossary
+  word `false` must stay quoted in `ledgers/lexis.yaml` (K07 now enforces it).
 
 ## Things measured against the source book, not assumed
 

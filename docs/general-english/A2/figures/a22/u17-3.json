@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  415
+ ],
+ "bounds": [
+  67.0,
+  20.6,
+  1373.0,
+  394.6
+ ],
+ "texts": [
+  {
+   "text": "A bottle",
+   "size": 34,
+   "bbox": [
+    143.2,
+    340.6,
+    296.3,
+    371.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A coat",
+   "size": 34,
+   "bbox": [
+    492.8,
+    340.6,
+    613.7,
+    371.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A bowl",
+   "size": 34,
+   "bbox": [
+    822.3,
+    340.6,
+    951.2,
+    371.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A book",
+   "size": 34,
+   "bbox": [
+    1154.3,
+    340.6,
+    1286.2,
+    371.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four things the table asks about, each on its own card: a bottle, a coat, a bowl and a book.",
+ "placed_in": [
+  5.625,
+  1.625
+ ],
+ "sha256": "b342e4f0eac52a6fe1ce0925f8452543b28d97eef17102e3d1fc8ba5cced3f5d"
+}

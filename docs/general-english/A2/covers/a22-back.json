@@ -365,13 +365,49 @@
    "on": "#FFFFFF"
   },
   {
+   "text": "7",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1710.2,
+    263.9,
+    1745.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "How Things Are Made",
+   "size": 42,
+   "bbox": [
+    330,
+    1709.5,
+    845.0,
+    1745.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "active and passive",
+   "size": 38,
+   "bbox": [
+    1280,
+    1711.8,
+    1634.6,
+    1745.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
    "text": "By the end you will be able to",
    "size": 54,
    "bbox": [
     220,
-    1750.1,
+    1822.1,
     1127.1,
-    1797.7
+    1869.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -381,9 +417,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1839.5,
+    1911.5,
     258.0,
-    1875.9
+    1947.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -393,9 +429,9 @@
    "size": 40,
    "bbox": [
     320,
-    1840.2,
+    1912.2,
     1535.9,
-    1875.9
+    1947.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -405,9 +441,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1905.5,
+    1977.5,
     258.0,
-    1941.9
+    2013.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -417,9 +453,9 @@
    "size": 40,
    "bbox": [
     320,
-    1906.2,
+    1978.2,
     1140.3,
-    1941.9
+    2013.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -429,9 +465,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1971.5,
+    2043.5,
     258.0,
-    2007.9
+    2079.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -441,9 +477,9 @@
    "size": 40,
    "bbox": [
     320,
-    1972.2,
+    2044.2,
     1403.0,
-    2007.9
+    2079.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -453,9 +489,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2037.5,
+    2109.5,
     258.0,
-    2073.9
+    2145.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -465,9 +501,9 @@
    "size": 40,
    "bbox": [
     320,
-    2038.2,
+    2110.2,
     1044.9,
-    2073.9
+    2145.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -477,9 +513,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2103.5,
+    2175.5,
     258.0,
-    2139.9
+    2211.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -489,9 +525,9 @@
    "size": 40,
    "bbox": [
     320,
-    2104.2,
+    2176.2,
     1360.4,
-    2139.9
+    2211.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -501,9 +537,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2169.5,
+    2241.5,
     258.0,
-    2205.9
+    2277.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -513,9 +549,9 @@
    "size": 40,
    "bbox": [
     320,
-    2170.2,
+    2242.2,
     1126.9,
-    2205.9
+    2277.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -534,7 +570,7 @@
   }
  ],
  "alt": "Back cover of English for Daily Life A2 volume 2: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
- "sha256": "5543dde312458ecef7241660de78ea13cc24d658029c4a90ef3a3817176f1e88",
+ "sha256": "1a048daa7b9f8c7ec4e67f8339adb53522cfc2f28720927b7d315dda84050cff",
  "theme": "a22",
  "volume": 2,
  "title": "Out in the World",
@@ -546,7 +582,8 @@
   "Rules and Places",
   "Health and Feeling Better",
   "Experiences",
-  "Then and Now"
+  "Then and Now",
+  "How Things Are Made"
  ],
  "grammar": [
   "going to",
@@ -554,7 +591,8 @@
   "must/have to/mustn't/don't have to",
   "should/shouldn't - advice",
   "present perfect - experience",
-  "present perfect vs past simple"
+  "present perfect vs past simple",
+  "active and passive"
  ],
  "can_do": [
   "I can talk about arrangements using the present continuous.",
@@ -564,5 +602,5 @@
   "I can talk about the weather and say what it will do.",
   "I can use will, won\u2019t and might correctly."
  ],
- "unit_count": 6
+ "unit_count": 7
 }

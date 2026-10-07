@@ -372,6 +372,51 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         L(-26, 14, 0, -14, sw=4); L(0, -14, 26, 14, sw=4)
         L(-26, 14, 26, 14, sw=4); L(0, -14, -8, -26, sw=4)
         L(-18, -30, 2, -30, stroke=P['blue'], sw=5)        # the handlebars
+    elif name == 'bottle':
+        R(-13, -16, 26, 50, fill=P['blue'], r=5)           # the body
+        R(-6, -40, 12, 24, fill=P['blue'], r=3)            # the neck
+        R(-9, -46, 18, 8, fill=P['tand'], r=3)             # the cap
+        L(-7, 0, 7, 0, stroke=P['bg'], sw=3)               # the label
+    elif name == 'bowl':
+        f.path(f'M {cx-40*s:.1f} {cy-8*s:.1f} Q {cx:.1f} {cy+42*s:.1f} '
+               f'{cx+40*s:.1f} {cy-8*s:.1f} Z', fill=P['tanl'])
+        L(-44, -8, 44, -8, sw=4)                           # the rim
+        L(-16, 30, 16, 30, stroke=P['tand'], sw=4)         # the foot
+    elif name == 'coat':
+        f.path(f'M {cx-30*s:.1f} {cy-28*s:.1f} L {cx:.1f} {cy-36*s:.1f} '
+               f'L {cx+30*s:.1f} {cy-28*s:.1f} L {cx+34*s:.1f} {cy+34*s:.1f} '
+               f'L {cx-34*s:.1f} {cy+34*s:.1f} Z', fill=P['deep'])
+        L(0, -34, 0, 34, stroke=P['bg'], sw=4)             # the front edge
+        C(8, -8, 5, fill=P['tand'], sw=0)                  # the buttons
+        C(8, 10, 5, fill=P['tanl'], sw=0)
+    elif name == 'needle':
+        L(-30, 26, 26, -26, stroke=P['grey'], sw=5)
+        C(28, -30, 7, fill=P['bg'], sw=4)                  # the eye
+        f.path(f'M {cx-34*s:.1f} {cy+30*s:.1f} Q {cx-6*s:.1f} {cy+10*s:.1f} '
+               f'{cx+2*s:.1f} {cy+34*s:.1f}', fill='none', stroke=P['tand'], sw=4)
+    elif name == 'bin':
+        R(-28, -24, 56, 58, fill=P['card'], r=5)
+        R(-34, -34, 68, 12, fill=P['deep'], r=4)           # the lid
+        L(-10, -40, 10, -40, sw=5)                         # the handle
+        for k in (-12, 0, 12):
+            L(k, -14, k, 26, stroke=P['rule'], sw=3)
+    elif name == 'water':
+        # every Q carries its full four coordinates and the path closes on the
+        # start point: `Q x y Z` leaves the parser two arguments short.
+        f.path(f'M {cx:.1f} {cy-38*s:.1f} '
+               f'Q {cx+30*s:.1f} {cy+2*s:.1f} {cx+16*s:.1f} {cy+26*s:.1f} '
+               f'Q {cx:.1f} {cy+42*s:.1f} {cx-16*s:.1f} {cy+26*s:.1f} '
+               f'Q {cx-30*s:.1f} {cy+2*s:.1f} {cx:.1f} {cy-38*s:.1f} Z',
+               fill=P['blue'])
+        C(-6, 14, 7, fill=P['bg'], sw=0)                   # the highlight
+    elif name == 'factory':
+        R(-44, -10, 88, 44, fill=P['card'], r=4)
+        R(-30, -40, 16, 30, fill=P['deep'], r=3)           # the chimney
+        for k in (-8, 10, 28):
+            f.path(f'M {cx+(k-14)*s:.1f} {cy-10*s:.1f} L {cx+(k-4)*s:.1f} '
+                   f'{cy-26*s:.1f} L {cx+(k+6)*s:.1f} {cy-10*s:.1f} Z',
+                   fill=P['blue'])
+        L(-50, 34, 50, 34, sw=4)
     elif name == 'painting':
         R(-44, -34, 88, 68, fill=P['tand'], r=3)           # the frame
         R(-35, -26, 70, 52, fill=P['bg'], r=1)
@@ -951,6 +996,36 @@ def change_line(f: Fig, x, y, w, h):
     f.line(ex - 10, ey - 36, ex - 10, ey + 36, stroke=P['rule'], sw=5)
     f.line(ex - 10, ey - 36, ex + 20, ey - 36, stroke=P['rule'], sw=5)
     f.line(ex - 10, ey + 36, ex + 20, ey + 36, stroke=P['rule'], sw=5)
+
+
+def voice_steps(f: Fig, x, y, w, h):
+    """Five sentences about one window, drawn as five boxes that drift from a
+    named maker to no maker at all. The maker's box empties out as the steps
+    descend: filled, half, outline, dashed, gone. A learner can see that the
+    passive is a scale and not a switch. Hit points step down as they step
+    right, so no two leaders cross (G15)."""
+    def ly_at(fx):
+        return y + h * (0.22 + 0.56 * fx)
+    xs = [0.13, 0.30, 0.47, 0.64, 0.80]
+    f.line(x + 50, ly_at(0.05), x + w * 0.92, ly_at(0.92), stroke=P['rule'], sw=4)
+    for i, fx in enumerate(xs):
+        cx2, cy2 = x + w * fx, ly_at(fx)
+        # the thing: always there, always the same
+        f.rect(cx2 - 4, cy2 - 17, 34, 34, fill=P['blue'], stroke=P['ink'], r=5)
+        # the maker: fades out step by step
+        mx, my = cx2 - 54, cy2 - 15
+        if i == 0:
+            f.rect(mx, my, 30, 30, fill=P['deep'], stroke=P['ink'], r=5)
+        elif i == 1:
+            f.rect(mx, my, 30, 30, fill=P['bg'], stroke=P['ink'], r=5)
+            f.rect(mx, my + 15, 30, 15, fill=P['deep'], r=0, sw=0)
+        elif i == 2:
+            f.rect(mx, my, 30, 30, fill=P['bg'], stroke=P['ink'], r=5)
+        elif i == 3:
+            for k in range(3):
+                f.line(mx, my + 2 + k * 13, mx + 30, my + 2 + k * 13,
+                       stroke=P['rule'], sw=3)
+        # i == 4: the maker's box is simply not drawn
 
 
 def compare_pair(f: Fig, x, y, w, h):

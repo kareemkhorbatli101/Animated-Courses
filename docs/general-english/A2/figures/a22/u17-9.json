@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "the clay",
+   "size": 30,
+   "bbox": [
+    102.9,
+    269.5,
+    236.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one factory",
+   "size": 30,
+   "bbox": [
+    348.2,
+    269.5,
+    541.4,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a second",
+   "size": 30,
+   "bbox": [
+    644.9,
+    234.5,
+    795.1,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "factory",
+   "size": 30,
+   "bbox": [
+    659.8,
+    269.5,
+    780.2,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a shop",
+   "size": 30,
+   "bbox": [
+    939.2,
+    269.5,
+    1051.2,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "your room",
+   "size": 30,
+   "bbox": [
+    1183.4,
+    269.5,
+    1357.4,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "One cup in five stages with an arrow to the next: the clay, one factory, a second factory in another country, a shop, and finally the room it is used in \u2014 with no single person having held all of it.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "742dc759263370a705efd3467a651a96600132b0c165e40c485a2b7702a7db3d"
+}

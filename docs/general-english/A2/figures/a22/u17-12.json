@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "It is made of wool.",
+   "size": 28,
+   "bbox": [
+    213.9,
+    60.7,
+    506.1,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "naming the material",
+   "size": 28,
+   "bbox": [
+    944.1,
+    60.7,
+    1265.9,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It was made by hand.",
+   "size": 28,
+   "bbox": [
+    190.5,
+    175.7,
+    529.5,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying a person made it, not a machine",
+   "size": 22,
+   "bbox": [
+    860.0,
+    179.6,
+    1350.0,
+    199.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It can be mended.",
+   "size": 28,
+   "bbox": [
+    217.3,
+    290.7,
+    502.7,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying the thing still has a life in it",
+   "size": 24,
+   "bbox": [
+    868.4,
+    293.1,
+    1341.6,
+    314.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It is not made any more.",
+   "size": 28,
+   "bbox": [
+    166.3,
+    405.7,
+    553.7,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying nobody produces it now",
+   "size": 28,
+   "bbox": [
+    859.2,
+    405.7,
+    1350.8,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things people say about how a thing was made, each with an arrow to what it does: naming the material, saying a person made it rather than a machine, saying the thing can still be mended, and saying that nobody produces it any more.",
+ "placed_in": [
+  6.270833333333333,
+  2.15625
+ ],
+ "sha256": "23a88891d5b5f0ed287ca87bb9cc6de306e33c0a8fc9677e35868974d9ec2162"
+}

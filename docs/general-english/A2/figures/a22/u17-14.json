@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  433
+ ],
+ "bounds": [
+  57,
+  21.5,
+  1383,
+  411.4
+ ],
+ "texts": [
+  {
+   "text": "I can say what a thing is made of and where",
+   "size": 28,
+   "bbox": [
+    156,
+    46.2,
+    853.4,
+    70.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use the passive in the present and the past",
+   "size": 28,
+   "bbox": [
+    156,
+    126.1,
+    930.2,
+    150.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can describe how something is made, in stages",
+   "size": 28,
+   "bbox": [
+    156,
+    206.1,
+    924.8,
+    230.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can write about how a thing is made in 50\u201370 words",
+   "size": 28,
+   "bbox": [
+    156,
+    286.1,
+    999.6,
+    310.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can talk about why a thing cannot be mended",
+   "size": 28,
+   "bbox": [
+    156,
+    366.1,
+    901.6,
+    390.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "PLUS",
+   "size": 22,
+   "bbox": [
+    1266.9,
+    370.1,
+    1330.0,
+    390.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each, the last one marked Plus.",
+ "placed_in": [
+  6.270833333333333,
+  1.8854166666666667
+ ],
+ "sha256": "00446cdd97d8cd4b1d7f7ddeddae8826ba85a9f96200fce9467691d6c64771c8"
+}

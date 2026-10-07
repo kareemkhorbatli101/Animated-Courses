@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   203.2,
+   167.0,
+   846,
+   45.3
+  ],
+  [
+   312.0,
+   211.7,
+   846,
+   155.3
+  ],
+  [
+   420.8,
+   256.3,
+   846,
+   265.3
+  ],
+  [
+   529.6,
+   301.0,
+   846,
+   375.3
+  ],
+  [
+   632.0,
+   343.3,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Five sentences drawn as five pairs of boxes stepping down to the right. The right-hand box, the thing being talked about, is the same in every pair. The left-hand box, the maker, empties out step by step: solid, then half full, then an outline, then three loose lines, and in the last pair it is not drawn at all. Five numbered lines run to the right for the learner to write each sentence.",
+ "placed_in": [
+  6.270833333333333,
+  2.3125
+ ],
+ "sha256": "950b90d3c5343142c991d2e883e25c8058bb05966b4ae518cc6b70b1cdf85768"
+}

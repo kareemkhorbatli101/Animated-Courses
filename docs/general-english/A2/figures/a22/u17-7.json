@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 17.2",
+   "size": 28,
+   "bbox": [
+    185.3,
+    50.1,
+    348.1,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya and Yuki",
+   "size": 32,
+   "bbox": [
+    136.5,
+    287.0,
+    396.8,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the four bowls thrown away",
+   "size": 24,
+   "bbox": [
+    99.9,
+    358.5,
+    433.5,
+    380.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 17.3",
+   "size": 28,
+   "bbox": [
+    638.6,
+    50.1,
+    801.4,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Mr Okonkwo",
+   "size": 30,
+   "bbox": [
+    534.6,
+    288.6,
+    905.4,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the coat relined twice",
+   "size": 26,
+   "bbox": [
+    578.9,
+    356.9,
+    861.1,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 17.4",
+   "size": 28,
+   "bbox": [
+    1091.9,
+    50.1,
+    1254.7,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six people, six things",
+   "size": 26,
+   "bbox": [
+    1036.4,
+    356.9,
+    1310.3,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Maya asks Yuki why four bowls were thrown away, Dani asks Mr Okonkwo how old his coat is and learns it has been relined twice, and Amina describes what each of the six makes or mends.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "427b4032c102c6de9b654b5b48e4a79f51dad221a2f8973c4dcf9d4496f32dce"
+}

@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  812
+ ],
+ "bounds": [
+  0,
+  30,
+  1440,
+  782
+ ],
+ "texts": [
+  {
+   "text": "UNIT 17",
+   "size": 40,
+   "bbox": [
+    90,
+    104.4,
+    267.7,
+    140.0
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "How Things Are Made",
+   "size": 72,
+   "bbox": [
+    90,
+    163.7,
+    972.9,
+    226.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "GRAMMAR",
+   "size": 26,
+   "bbox": [
+    106,
+    366.5,
+    259.4,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Active and passive",
+   "size": 36,
+   "bbox": [
+    106,
+    413.5,
+    486.5,
+    445.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "IN THIS UNIT",
+   "size": 26,
+   "bbox": [
+    786,
+    366.5,
+    973.7,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "By the end you can",
+   "size": 30,
+   "bbox": [
+    70,
+    588.2,
+    394.3,
+    614.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can say what a thing is made of and where.",
+   "size": 30,
+   "bbox": [
+    128,
+    640.2,
+    886.6,
+    666.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use the passive in the present and the past.",
+   "size": 30,
+   "bbox": [
+    128,
+    696.2,
+    968.8,
+    722.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can describe how something is made, in stages.",
+   "size": 30,
+   "bbox": [
+    128,
+    752.2,
+    963.0,
+    778.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The opening page of Unit 17, How Things Are Made: the grammar point is the active against the passive, and three things the learner will be able to do by the end of the unit.",
+ "placed_in": [
+  6.270833333333333,
+  3.53125
+ ],
+ "sha256": "3415e811d1270ced507e8e2be648d7c8b59ecf7555e814571b0ed910117fac86"
+}

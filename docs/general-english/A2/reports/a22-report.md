@@ -1,22 +1,22 @@
 # A22 check report
 
-**1 executions · 0 pass · 1 FAIL · 0 adjudication gate · 0 skip**
+**1352 executions · 1266 pass · 0 FAIL · 85 adjudication gate · 1 skip**
 
-Units validated: [11, 12, 13, 14, 15, 16]
+Units validated: [11, 12, 13, 14, 15, 16, 17]
 
 | Family | Checks | pass | FAIL | gate | skip |
 |---|---|---|---|---|---|
-| A · Structure | 30 | 0 | 0 | 0 | 0 |
-| B · Scaffolding quota | 22 | 0 | 0 | 0 | 0 |
-| C · Exercise integrity | 28 | 0 | 0 | 0 | 0 |
-| D · Answer key | 14 | 0 | 0 | 0 | 0 |
-| E · Language and level | 26 | 0 | 0 | 0 | 0 |
-| F · Topic and content | 18 | 0 | 0 | 0 | 0 |
-| G · Figures | 24 | 0 | 0 | 0 | 0 |
-| H · DOCX typography | 22 | 0 | 0 | 0 | 0 |
-| I · Covers | 12 | 0 | 0 | 0 | 0 |
-| J · Build | 16 | 0 | 0 | 0 | 0 |
-| K · Regression guards | 18 | 0 | 1 | 0 | 0 |
+| A · Structure | 30 | 210 | 0 | 0 | 0 |
+| B · Scaffolding quota | 22 | 154 | 0 | 0 | 0 |
+| C · Exercise integrity | 28 | 142 | 0 | 42 | 0 |
+| D · Answer key | 14 | 91 | 0 | 7 | 0 |
+| E · Language and level | 26 | 170 | 0 | 0 | 0 |
+| F · Topic and content | 18 | 72 | 0 | 36 | 0 |
+| G · Figures | 24 | 168 | 0 | 0 | 0 |
+| H · DOCX typography | 22 | 136 | 0 | 0 | 0 |
+| I · Covers | 12 | 12 | 0 | 0 | 0 |
+| J · Build | 16 | 87 | 0 | 0 | 1 |
+| K · Regression guards | 18 | 24 | 0 | 0 | 0 |
 
 ## Mutation test
 

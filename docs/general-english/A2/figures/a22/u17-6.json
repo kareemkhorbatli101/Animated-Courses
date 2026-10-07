@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  428
+ ],
+ "bounds": [
+  47,
+  21.2,
+  1393,
+  407.2
+ ],
+ "texts": [
+  {
+   "text": "first",
+   "size": 34,
+   "bbox": [
+    150.8,
+    131.2,
+    229.2,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the clay is shaped",
+   "size": 24,
+   "bbox": [
+    67.9,
+    270.3,
+    312.1,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "then",
+   "size": 34,
+   "bbox": [
+    411.1,
+    131.2,
+    498.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the foot is cut",
+   "size": 28,
+   "bbox": [
+    344.1,
+    267.9,
+    565.9,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "after that",
+   "size": 34,
+   "bbox": [
+    627.4,
+    131.2,
+    812.6,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it is dried slowly",
+   "size": 26,
+   "bbox": [
+    599.2,
+    268.7,
+    840.8,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "next",
+   "size": 34,
+   "bbox": [
+    942.3,
+    131.2,
+    1027.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the glaze is put on",
+   "size": 22,
+   "bbox": [
+    869.5,
+    271.8,
+    1100.5,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "last",
+   "size": 34,
+   "bbox": [
+    1214.5,
+    131.2,
+    1285.5,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it is sold",
+   "size": 28,
+   "bbox": [
+    1182.9,
+    267.9,
+    1317.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One cup from the clay to the shelf, on a line: the clay is shaped, the foot is cut, it is dried slowly, the glaze is put on, and it is sold.",
+ "placed_in": [
+  5.625,
+  1.6770833333333333
+ ],
+ "sha256": "371096ca9e53be184f153b8a5a85bfab53870377a47fbf2bd753b5d3d112acd8"
+}

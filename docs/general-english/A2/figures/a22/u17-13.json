@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Water leaving",
+   "size": 34,
+   "bbox": [
+    231.4,
+    67.8,
+    498.6,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sewage",
+   "size": 27,
+   "bbox": [
+    313.5,
+    282.5,
+    416.5,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "into the pipes",
+   "size": 27,
+   "bbox": [
+    272.2,
+    328.5,
+    457.8,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nobody drinks it",
+   "size": 27,
+   "bbox": [
+    255.9,
+    374.5,
+    474.1,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Water coming back",
+   "size": 34,
+   "bbox": [
+    920.9,
+    67.8,
+    1289.1,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "through membranes",
+   "size": 27,
+   "bbox": [
+    966.8,
+    282.5,
+    1243.2,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cleaned with light",
+   "size": 27,
+   "bbox": [
+    984.7,
+    328.5,
+    1225.3,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cleaner than the reservoir",
+   "size": 27,
+   "bbox": [
+    929.2,
+    374.5,
+    1280.8,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Water leaving a city beside the same water coming back. Leaving: sewage, into the pipes, and nobody drinks it. Coming back: pushed through membranes with holes too small to see, cleaned again with light, and cleaner than the water already in the reservoir.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "165af4bec66194f1d63788f2c276303372e823bb381df84dee5a743ac90eadd1"
+}

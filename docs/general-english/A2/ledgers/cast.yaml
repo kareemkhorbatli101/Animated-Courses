@@ -44,6 +44,8 @@ people:
       - has used the same camera since she was fifteen; it takes film (U16)
       - has taken nine thousand photographs on her mobile and looked at none (U16)
       - says the corner has always been the phone shop (U16)
+      - makes small books by hand, one at a time, and sells about four a year (U17)
+      - gives most of the books she makes away (U17)
     first_unit: 1
   Tomas:
     full: Tomas Nilsen
@@ -67,6 +69,7 @@ people:
       - will not say what is wrong with somebody on a staircase (U14)
       - has slept in an airport three times and mentions it like a bus stop (U15)
       - started at the city hospital at twenty-four and has been on nights ever since (U16)
+      - sews because the hospital taught him, and the hospital is strict about it (U17)
     first_unit: 1
   Amina:
     full: Amina Chaudhry
@@ -96,6 +99,9 @@ people:
       - has not changed the shelves since she opened, eleven years ago (U16)
       - remembers the corner as a bread shop, because it was one for the two
         years before she opened her own shop (U16)
+      - painted GREEN SHOP across her own window herself (U17)
+      - keeps the bottles behind the till, because the glass is worth something (U17)
+      - knows who in the building makes and who buys (U17)
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -124,6 +130,7 @@ people:
       - came to Alder Street last year and has changed nothing, including a
         light bulb that went in June (U16)
       - has never thought about what the corner used to be (U16)
+      - has made nothing, and has cooked one meal for eight people, badly (U17)
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -152,6 +159,10 @@ people:
       - says the corner was a tool shop, which it was for twenty of its thirty years (U16)
       - bought a hinge there in his first week and still has it (U16)
       - has minded about the market moving for seven months and said nothing (U16)
+      - owns a coat older than Dani; it has been relined twice and the buttons
+        were changed, and two of them do not match (U17)
+      - the coat was made in a factory where the station is now (U17)
+      - has bought almost nothing in forty years (U17)
     first_unit: 1
     ages_also: [71]
   Yuki:
@@ -174,6 +185,10 @@ people:
       - ate something in a market and has never found out what it was (U15)
       - arrived in March and has already learned every name in the building (U16)
       - asked all five of the others what the corner used to be (U16)
+      - threw the first four bowls away; the first had no fault, except that
+        you could see how it was made (U17)
+      - the newest bowl has been under a cloth since March, unglazed, and the
+        glaze is the part she cannot get right (U17)
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
@@ -193,6 +208,7 @@ walk_ons:
   - {name: the Wellington triage nurses, unit: 14, country: New Zealand}
   - {name: the name-cutters of the temple, unit: 15, country: Egypt}
   - {name: the rebuilders of Warsaw, unit: 16, country: Poland}
+  - {name: the NEWater plants, unit: 17, country: Singapore}
 
 places:
   - Alder Street
