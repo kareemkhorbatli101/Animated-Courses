@@ -1,20 +1,55 @@
-# A2 — how to resume this build
+# A2 — the finished course, and how to work on it
 
 Everything here is reproducible from the repository. If a session ends, a new
 one can pick up from this file alone.
 
-## Where it stands
+## Where it stands: **complete**
 
 | | A2.1 *Everyday Life* | A2.2 *Out in the World* |
 |---|---|---|
-| Units | 1–10, **complete** | 11–19 written, 20 to go |
-| Checks | 1,913 executions, 0 failures | 1,726 executions, 0 failures |
-| Pages | 386 | 354 |
-| Figures | 140 | 126 |
-| Book | `build/EFDL-A2.1-EverydayLife-u01-10.docx` | `build/EFDL-A2.2-OutintheWorld-u11-NN.docx` |
+| Units | 1–10, **complete** | 11–20, **complete** |
+| Checks | 1,913 executions, 0 failures | 1,913 executions, 0 failures |
+| Words | 51,922 | 52,156 |
+| Pages | 386 | 396 |
+| Figures | 140 | 140 |
+| MCQ letters | balanced | A25 B25 C25 D25, chi² 0.00 |
+| Book | `build/EFDL-A2.1-EverydayLife-u01-10.docx` | `build/EFDL-A2.2-OutintheWorld-u11-20.docx` |
+
+Twenty units, 230 checks, 3,826 check executions at zero failures, 280 figures,
+200 glossary words, two covers, two full answer keys. The mutation suite reports
+212/212 caught, 0 escaped. Each unit also passed its own targeted pass of N×10
+executions, from 10 after Unit 1 to 200 after Unit 20.
 
 Run `python3 tools/runner.py` and `python3 tools/runner.py --book a22` to see the
 live state. Both must end `0 FAIL`.
+
+### The grammar spine, as built
+
+| | A2.1 *Everyday Life* | | A2.2 *Out in the World* |
+|---|---|---|---|
+| 1 | present simple, frequency adverbs | 11 | going to, present continuous for arrangements |
+| 2 | there is/are, some/any, much/many | 12 | will, might |
+| 3 | present continuous vs present simple | 13 | must / have to / mustn't |
+| 4 | countable/uncountable, articles | 14 | should |
+| 5 | past simple — was/were, regular | 15 | present perfect — experience |
+| 6 | past simple — irregular | 16 | present perfect vs past simple |
+| 7 | comparatives and superlatives | 17 | active and passive |
+| 8 | can/can't, could | 18 | first conditional |
+| 9 | prepositions | 19 | defining relative clauses |
+| 10 | imperatives, sequencers, adverbs | 20 | reported speech |
+
+## If the course is extended
+
+The loop below built all twenty units and would build a twenty-first. Two things
+have to be decided before any new unit is written, because both are cross-unit
+constraints that cannot be fixed afterwards:
+
+- **The glossary words**, in `ledgers/lexis.yaml`, for every new unit at once.
+  E26 forbids a later unit's glossary word from appearing unglossed in an
+  earlier one, so picking them unit by unit boxes the last units in. All 200
+  of the existing ones were chosen before Unit 11 was written.
+- **The Part 8 country**, in `ledgers/cast.yaml`. All twenty in `F12`'s list are
+  now used. A twenty-first unit needs a new country added to that list first.
 
 ## The loop, per unit N
 
@@ -71,9 +106,9 @@ These recur in every draft. Anticipating them saves a round:
 - **MCQ letters.** `python3 tools/mcq_balance.py a2X` before building. No two
   consecutive the same, no letter over 40% in a unit, book chi² under 7.815.
   Pick the unit's ten-letter sequence *before* writing the key, then reorder the
-  options so the right answer lands on the chosen letter. A2.2 stands at
-  A22 B23 C22 D23 after Unit 19 (chi² 0.04), so Unit 20 wants
-  **A3 B2 C3 D2** to finish the volume level at 25 each.
+  options so the right answer lands on the chosen letter. Both volumes finished
+  dead level — A2.2 at A25 B25 C25 D25, chi² 0.00 over 100 questions — because
+  each unit's sequence was chosen from the running totals rather than at random.
 - **T/F/NG sets (C19).** The seeded `0.` example does not count towards the
   three verdicts, because the key writes it as `True *(given)*` and the check
   reads only bare verdicts. So **items 1–3 must themselves span True, False and
@@ -86,20 +121,22 @@ These recur in every draft. Anticipating them saves a round:
 - **Unit total words (K11).** Every part can sit inside its own budget while the
   unit total still breaks the 4,560–5,280 envelope. Check the total, not just
   the parts; prose added to fix E09 plantings is what pushes it over.
-- **Part 8 country (F12).** One country per unit, never repeated. Used so far:
-  South Korea, Brazil, Japan, Morocco, Iceland, Peru, Kenya, Canada,
-  Netherlands, Portugal (A2.1); Norway, India, Ireland, New Zealand, Egypt,
-  Poland (A2.2). Remaining for units 17–20: **Vietnam, Singapore, Ghana,
-  Mexico** — exactly four countries for exactly four units, so none is free to
-  waste. F12 is book-scoped, so an A2.1 country would pass the check and still
-  be a repeat inside one course; do not. Matched to each unit's grammar and
-  glossary ahead of time, because four countries and four units leaves no room
-  to discover a clash late:
+- **Part 8 country (F12).** One country per unit, never repeated. All twenty
+  in F12's list are now used: South Korea, Brazil, Japan, Morocco, Iceland,
+  Peru, Kenya, Canada, Netherlands, Portugal (A2.1); Norway, India, Ireland,
+  New Zealand, Egypt, Poland, Singapore, Mexico, Ghana, Vietnam (A2.2). F12 is
+  book-scoped, so an A2.1 country would pass the check and still be a repeat
+  inside one course. A twenty-first unit needs a new country added to the list
+  in `tools/checks/family_f.py` first, with its cities in `_cities`.
+
+  The last four were matched to their unit's grammar and glossary before any of
+  them was written, because four countries and four units leaves no room to
+  discover a clash late:
 
 | Unit | Grammar | Part 8 | The story |
 |---|---|---|---|
-| 17 | active and passive | **Singapore** | used water cleaned and sold back as drinking water — carries `recycle`, `waste`, `produce` and is all passive by nature |
-| 18 | first conditional | **Mexico** | the earthquake alarm that gives the city about a minute — carries `emergency`, `danger`, `safe`, `careful`, `risk`, `chance` |
+| 17 | active and passive | **Singapore** | used water cleaned and sold back as drinking water — carries `recycle`, `waste`, `produce`, and is all passive by nature |
+| 18 | first conditional | **Mexico** | the earthquake alarm that gives the city about a minute — carries `emergency`, `danger`, `safe`, `risk`, `chance` |
 | 19 | defining relative clauses | **Ghana** | the kente weavers of Bonwire — carries `tailor`, `artist`, `builder`, `farmer`, and every sentence wants a *who* |
 | 20 | reported speech | **Vietnam** | the ward loudspeakers that read out the morning news — carries `news`, `article`, `reporter`, `rumour`, and reported speech is the whole point |
 
@@ -146,18 +183,20 @@ content defects separately.
 - **A figure's `alt` text is checked too (G18/G24),** not just its labels. A
   label fix that leaves the alt text paraphrasing the old wording still fails.
   Change both in the same edit.
-- **Spelling out a year does not satisfy F15, and digits do not survive it.**
-  `in 1998` and `in 1987` both failed; `about twenty-five years ago` and
-  `long ago` pass and read better at A2.
+- **F15 rejects any four-digit year.** The pattern is `\b(19|20)\d{2}\b`, so
+  `in 1998` and `in 1987` both failed. Replacing the year with a relative
+  distance — `about twenty-five years ago`, `long ago` — passes and reads
+  better at A2, which is the point of the check: a book with a year in it is
+  a book that dates.
 - **A26 wants the literal headers.** The Part 2 Focus Box table must carry
   `**Form**`, `**Use**` and `**Example**`. A cleverer header row (`Said like
   this` / `Reported like this`) fails, and the fix is to keep the three
   columns and put the cleverness in the cells.
 
-## Traps specific to units 18–20
+## How the last three units were constrained
 
-Each of the last three units is blocked by the unit after it, so the order
-matters:
+Kept as a record of why they were written in this order — each was blocked by
+the unit after it:
 
 - **Unit 18 (first conditional).** The marker is
   `\bif\b[^.!?]{0,90}\bwill\b`, bounded to one sentence — it used to run

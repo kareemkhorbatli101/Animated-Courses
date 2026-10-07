@@ -53,12 +53,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "Nine units \u00b7 Core and Plus tracks",
+   "text": "Ten units \u00b7 Core and Plus tracks",
    "size": 54,
    "bbox": [
-    741.7,
+    758.8,
     2580.2,
-    1738.3,
+    1721.2,
     2627.8
    ],
    "fill": "#6E88AC",
@@ -90,7 +90,7 @@
   }
  ],
  "alt": "Front cover of English for Daily Life A2 volume 2, Out in the World. A band of flat illustrations in blue and tan over a pale panel, with the series name, the volume title and the level.",
- "sha256": "66703f21bc5918cda590ac1f99cea8f0af4c56c62ecea7d2b1384a6406cbfb39",
+ "sha256": "a515c0fef1b72346fc25a0ab625da84c4a57857a208bead53f21c38acfa483d0",
  "theme": "a22",
  "volume": 2,
  "title": "Out in the World",

@@ -54,6 +54,10 @@ people:
       - takes in the letters for the man who cleans Mill Lane, and so knows
         his name is Mr Hall; has not corrected Amina, who has called him the
         caretaker for nine years (U19)
+      - said she had not seen the van at all, because she was reading (U20)
+      - knows about Yuki's notebook, does not like it, and has not said so (U20)
+      - did not reply to a message of Dani's for four days, because he asked
+        whether she was free and then said what they were doing (U20)
     first_unit: 1
   Tomas:
     full: Tomas Nilsen
@@ -81,6 +85,8 @@ people:
       - the hospital rings everybody when the roads are bad, and rings the next
         name if he does not answer; he always answers (U18)
       - the street describes him as the one who works nights (U19)
+      - said the van had been outside an hour; he was sure, and he had come in
+        at the end (U20)
     first_unit: 1
   Amina:
     full: Amina Chaudhry
@@ -120,6 +126,9 @@ people:
       - calls the man who cleans Mill Lane the caretaker, and has for nine
         years (U19)
       - buys her potatoes from the same farmer at the market (U19)
+      - said the van had been outside twenty minutes, and she was looking at
+        it (U20)
+      - knows about Yuki's notebook and says so, loudly and often (U20)
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -154,6 +163,9 @@ people:
       - the street describes him as the boy whose cooking you can smell on the
         stairs (U19)
       - has a brother who is an athlete and runs before it is light (U19)
+      - said somebody had told him the van was a bigger one (U20)
+      - has asked to read his own page in Yuki's notebook twice, and said
+        nothing about it either time (U20)
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -192,6 +204,12 @@ people:
         and says one thing a month (U19)
       - says the woman in flat 1 is the only person in the building who has
         never asked him anything, and says it as praise (U19)
+      - said nothing about the van for six days and then said one sentence,
+        and his was the only account that mentioned the driver (U20)
+      - gave an interview to a paper long ago and has mentioned it ever
+        since (U20)
+      - has never mentioned Yuki's notebook, and she reads that as
+        permission (U20)
     first_unit: 1
     ages_also: [71]
   Yuki:
@@ -226,6 +244,11 @@ people:
         (U19)
       - has written the woman in flat 1 a note twice and posted neither; she
         keeps both notes in her notebook (U19)
+      - keeps a notebook started in her first month, because she could not
+        keep the names and faces together; six pages have names on them, and
+        it has settled four arguments in two years and started none (U20)
+      - wrote down what each of the six said about the van, with the day
+        beside it, which is the only reason anybody knows they disagree (U20)
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
@@ -248,6 +271,7 @@ walk_ons:
   - {name: the NEWater plants, unit: 17, country: Singapore}
   - {name: the September earthquake drill, unit: 18, country: Mexico}
   - {name: the kente weavers of Bonwire, unit: 19, country: Ghana}
+  - {name: the ward loudspeakers of Hanoi, unit: 20, country: Vietnam}
 
 places:
   - Alder Street
