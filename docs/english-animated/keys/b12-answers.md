@@ -821,7 +821,7 @@ The laminated card of extension numbers taped inside a cupboard door, and the ha
 **Would have listened:** *If only somebody had told me. I spent fourteen months deciding that the thing I noticed in week three was normal.* **Would not have listened:** *If only somebody had told me. They did, in the first fortnight, and I remember thinking it was the kind of thing people say.* The second is the honest version, and it is the one almost nobody writes.
 
 **6E** · Contrast Clinic
-> **1** ?
+> **1** I wish I knew.
 > **2** I wish somebody had told me. *(or* If only somebody had told me.*)*
 > **3** Suppose we asked them.
 > **4** I wish I could help.

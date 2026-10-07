@@ -72,6 +72,32 @@ def shuffle_mcq(text, chapter, report):
     return pat.sub(go, text)
 
 
+def _legend_parts(block):
+    """(entries, trailing lines) for a lettered legend blockquote.
+
+    Read line by line rather than by flattening, because a legend may both wrap
+    across lines and carry an instruction line of its own.  A line with no
+    `**X.**` marker continues the previous gloss when it begins in lower case;
+    otherwise it is prose that happens to sit inside the same blockquote, and is
+    handed back untouched.
+    """
+    got, trailing = [], []
+    for raw in block.split(chr(10)):
+        line = raw[2:] if raw.startswith('> ') else raw
+        marks = list(re.finditer(r'\*\*([A-Z])\.\*\*', line))
+        if not marks:
+            if got and not trailing and line[:1].islower():
+                got[-1] = (got[-1][0], (got[-1][1] + ' ' + line.strip()).strip())
+            elif line.strip():
+                trailing.append(line.strip())
+            continue
+        for i, mk in enumerate(marks):
+            a = mk.end()
+            z = marks[i + 1].start() if i + 1 < len(marks) else len(line)
+            got.append((mk.group(1), line[a:z].strip().rstrip('·').strip()))
+    return got, trailing
+
+
 def shuffle_abcd(text, chapter, report):
     """`> **A.** arranged … · **B.** my intention …` — the labels stay in
     place and the glosses move, so item n no longer maps to option n."""
@@ -79,14 +105,9 @@ def shuffle_abcd(text, chapter, report):
 
     def go(m):
         block = m.group(0)
-        flat = re.sub(r'\n> ', ' ', block)[2:]
-        parts = re.split(r'\s*·\s*', flat)
-        got = []
-        for p in parts:
-            mm = re.match(r'\*\*([A-Z])\.\*\*\s*(.*)', p.strip())
-            if not mm:
-                return block
-            got.append((mm.group(1), mm.group(2).strip()))
+        got, trailing = _legend_parts(block)
+        if not got:
+            return block
         if len(got) < 3:
             return block
         glosses = [g for _, g in got]
@@ -105,8 +126,9 @@ def shuffle_abcd(text, chapter, report):
                 cur = []
         if cur:
             lines.append(' · '.join(cur))
-        return '\n'.join('> ' + l + (' ·' if i < len(lines) - 1 else '')
-                         for i, l in enumerate(lines))
+        out = '\n'.join('> ' + l + (' ·' if i < len(lines) - 1 else '')
+                        for i, l in enumerate(lines))
+        return out + ''.join('\n> ' + t for t in trailing)
 
     return pat.sub(go, text)
 

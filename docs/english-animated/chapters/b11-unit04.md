@@ -127,8 +127,9 @@ Why not?**
 5. *We mustn't block that door.*
 6. *We weren't allowed to block it.*
 
-> **A.** prohibition And then: **which three are about now, and which three are about then?** · **B.** no obligation ·
+> **A.** no obligation · **B.** prohibition ·
 > **C.** obligation
+> And then: **which three are about now, and which three are about then?**
 
 ### 2B · Decoding clinic 🔊 Track 4.2
 

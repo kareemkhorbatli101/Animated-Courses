@@ -52,17 +52,37 @@ def read_mcq(body):
     return out
 
 
+def _legend_parts(block):
+    """(entries, trailing lines) for a lettered legend blockquote.
+
+    Read line by line rather than by flattening, because a legend may both wrap
+    across lines and carry an instruction line of its own.  A line with no
+    `**X.**` marker continues the previous gloss when it begins in lower case;
+    otherwise it is prose that happens to sit inside the same blockquote, and is
+    handed back untouched.
+    """
+    got, trailing = [], []
+    for raw in block.split(chr(10)):
+        line = raw[2:] if raw.startswith('> ') else raw
+        marks = list(re.finditer(r'\*\*([A-Z])\.\*\*', line))
+        if not marks:
+            if got and not trailing and line[:1].islower():
+                got[-1] = (got[-1][0], (got[-1][1] + ' ' + line.strip()).strip())
+            elif line.strip():
+                trailing.append(line.strip())
+            continue
+        for i, mk in enumerate(marks):
+            a = mk.end()
+            z = marks[i + 1].start() if i + 1 < len(marks) else len(line)
+            got.append((mk.group(1), line[a:z].strip().rstrip('·').strip()))
+    return got, trailing
+
+
 def read_abcd(body):
     m = re.search(r'(?ms)^> \*\*A\.\*\* .*?(?=\n\n|\n---|\Z)', body)
     if not m:
         return []
-    flat = re.sub(r'\n> ', ' ', m.group(0))[2:]
-    out = []
-    for p in re.split(r'\s*·\s*', flat):
-        mm = re.match(r'\*\*([A-Z])\.\*\*\s*(.*)', p.strip())
-        if mm:
-            out.append((mm.group(1), mm.group(2).strip().rstrip('·').strip()))
-    return out
+    return _legend_parts(m.group(0))[0]
 
 
 def read_tf(body):

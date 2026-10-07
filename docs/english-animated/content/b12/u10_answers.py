@@ -103,7 +103,7 @@ ANSWERS = [
   'and it is the one almost nobody writes.')),
 
 ('6E', dict(clinic={
-  "I don't know.  *(now)*": 'I wish I knew.',
+  "I don't know": 'I wish I knew.',
   'Nobody told me': 'I wish somebody had told me. *(or* If only somebody had told me.*)*',
   'What if we asked them?': 'Suppose we asked them.',
   "I can't help": 'I wish I could help.',
