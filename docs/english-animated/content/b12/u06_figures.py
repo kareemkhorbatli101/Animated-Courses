@@ -1,0 +1,258 @@
+"""B1.2 Unit 6 - Four Hours on the Phone - twelve figures, as data."""
+FIGURES = {
+"fig_b12_u06_p00_v01": dict(type='V1', height=840, storey_h=155,
+ title='Outpatients, 10.40',
+ sub='Eleven things to find. Four of them are done to somebody rather than by them.',
+ alt='A hospital outpatient department with a reception desk, a trolley being pushed, a curtain '
+     'being drawn, an interpreter poster, a phone on hold and a relative on a chair.',
+ sky='#E1E6E7', ground='#A2A8A8', ground_line=680,
+ buildings=[dict(x=20, w=560, storeys=3, colour='#D4D0C6', label='outpatients'),
+   dict(x=650, w=360, storeys=2, colour='#CBC7BC', label='the clinic rooms'),
+   dict(x=1080, w=500, storeys=2, colour='#C2BEB4', label='day theatre')],
+ props=[dict(kind='table', x=200, y=680, s=1.5), dict(kind='doc', x=200, y=608),
+   dict(kind='hoarding', x=420, y=680, s=.95),
+   dict(kind='box', x=700, y=680, s=1.1), dict(kind='crate', x=800, y=680, s=1.1),
+   dict(kind='sign', x=120, y=680, s=.7, text='4 h 11'),
+   dict(kind='sign', x=620, y=680, s=.7, text='CONSENT'),
+   dict(kind='sign', x=1510, y=680, s=.7, text='THU')],
+ people=[dict(x=280, y=680, h=88, skin=2, cloth=1, hair='bun', arm='hold'),
+   dict(x=520, y=680, h=87, skin=3, cloth=2, hair='long', arm='down'),
+   dict(x=620, y=680, h=88, skin=1, cloth=4, hair='grey', arm='down'),
+   dict(x=880, y=680, h=87, skin=2, cloth=0, hair='short', arm='point'),
+   dict(x=1200, y=680, h=88, skin=4, cloth=3, hair='cap', arm='hold')],
+ names=[dict(x=280, t='Rosa, reception, the phone'), dict(x=520, t='the daughter, in the corridor'),
+   dict(x=620, t='the patient, waiting'), dict(x=880, t='Dr Benitez, consenting'),
+   dict(x=1200, t='Ignacio, with the trolley'), dict(x=120, t='the median wait'),
+   dict(x=1510, t='when it will be done')],
+ markers=[dict(x=280, y=560), dict(x=520, y=560), dict(x=620, y=560), dict(x=880, y=560),
+   dict(x=1200, y=560), dict(x=120, y=612), dict(x=620, y=612), dict(x=1510, y=612),
+   dict(x=200, y=632), dict(x=420, y=620), dict(x=800, y=628)]),
+
+"fig_b12_u06_p01_v08": dict(type='V8', height=800,
+ title='A patient journey, and who is the subject of each step',
+ sub='Six stages. The patient is the subject of two of them and the object of four.',
+ alt='A network of a patient journey from referral through consultation, consent, procedure and '
+     'discharge, with who acts at each stage marked.',
+ nodes={
+  'ref': dict(x=170, y=400, short='1', name='Referral', sub='done to you, in March', colour='#9AA7AE'),
+  'lis': dict(x=510, y=200, short='2', name='The list', sub='you are put on it', colour='#9AA7AE'),
+  'con': dict(x=510, y=600, short='3', name='Consent', sub='you sign. You are the subject', colour='#2E6F5E'),
+  'pro': dict(x=880, y=400, short='4', name='The procedure', sub='under local, awake', colour='#C86B2B'),
+  'dis': dict(x=1240, y=240, short='5', name='Discharge', sub='same day, with a letter', r=54, colour='#1F4E5F'),
+  'fol': dict(x=1240, y=580, short='6', name='Follow-up', sub='you have to arrange it', r=54,
+    colour='#D9A441')},
+ edges=[dict(a='ref', b='lis', label='you are not told when', sw=5),
+   dict(a='lis', b='con', label='eight weeks, or seven months', sw=5),
+   dict(a='con', b='pro', label='the one step you act in', sw=6),
+   dict(a='pro', b='dis', label='you are taken, and brought back', sw=5),
+   dict(a='dis', b='fol', label='a letter written to your doctor, not you', sw=4, dash='5 5'),
+   dict(a='con', b='fol', label='and you have to ask for all of it', sw=2, dash='6 6',
+        colour='#9AA7AE')]),
+
+"fig_b12_u06_p02_v07": dict(type='V7', height=820,
+ title='Her daughter is in the corridor',
+ sub='One of them has to write something down. One of them has made the phone call twice.',
+ alt='A receptionist and a doctor at a clinic desk with a phone off the hook, speech bubbles '
+     'using passives and a causative.',
+ bg='#E8EBEC',
+ set=[dict(kind='table', x=700, y=700, s=1.5), dict(kind='doc', x=700, y=628)],
+ people=[dict(x=470, h=250, skin=2, cloth=1, hair='bun', arm='hold', facing='right',
+   label='Rosa', role='reception', says=["She's been referred by her own doctor.",
+     'She should have been seen in March.']),
+  dict(x=980, h=248, skin=2, cloth=0, hair='short', arm='point', facing='left',
+   label='Dr Benitez', role='consenting her', says=['It can be done under local.',
+     "She's having it done on Thursday."])]),
+
+"fig_b12_u06_p03_v09": dict(type='V9', kind='mirror', height=680,
+ title='Done to you, and arranged by you',
+ sub='The same Thursday. The difference is which word the sentence starts with.',
+ alt='Two parallel sentences compared, one a passive with the patient as the affected party and '
+     'one a causative with the patient as the subject.',
+ active=dict(parts=[dict(w=1.2, role='affected', text='It'),
+   dict(w=1.6, role='action', text='will be done to her'),
+   dict(w=1.3, role='hidden', text='(by whom?)')]),
+ passive=dict(parts=[dict(w=1.0, role='agent', text='She'),
+   dict(w=1.6, role='action', text="'s having it DONE"),
+   dict(w=1.4, role='affected', text='on Thursday')]),
+ rule='The causative keeps the patient as the subject while making clear that somebody else does '
+      'the work. She is having it done is not she is doing it, and it is not it is being done '
+      'to her.'),
+
+"fig_b12_u06_p03_v11": dict(type='V11', height=700,
+ title='The causative that turns into a confession',
+ alt='Two panels comparing a causative with the past participle and a sentence without it, '
+     'showing who performs the action in each.',
+ wrong=dict(sentence='She is doing the procedure on Thursday.',
+            boundary=0.48, boundary_label='the subject: the patient',
+            event=0.78, event_label='and she performs it',
+            why='Without the causative structure, the subject performs the verb. This sentence '
+                'says the patient will carry out her own procedure, which in a clinical note is '
+                'either a serious error or a very unusual Thursday.'),
+ right=dict(sentence='She is having the procedure done on Thursday.',
+            boundary=0.48, boundary_label='the subject: still the patient',
+            event=0.24, event_label='and somebody else performs it',
+            why='Have + object + past participle keeps her as the subject of the sentence while '
+                'handing the action to somebody unnamed. She arranged it; a surgeon does it; '
+                'and the sentence is about her.'),
+ misconception='Learners drop the participle because the sentence already seems complete. The '
+               'participle is the whole causative: without it, the subject does the work.'),
+
+"fig_b12_u06_p04_v04": dict(type='V4', height=740,
+ title='The policy, and the day',
+ sub='Learner A has the policy. Learner B has the patient\'s account of the same Thursday.',
+ alt='Two panels compared: a printed policy document and a corridor with a patient, a daughter '
+     'and a clock.',
+ differences=7, prompt='At which three points do the policy and the day fail to meet?',
+ left=dict(label='the policy', art=[
+   dict(kind='doc', x=200, y=0),
+   dict(kind='label', x=300, y=120, text='clause 4.2', colour='#1F4E5F'),
+   dict(kind='label', x=300, y=210, text='registered interpreter, always',
+        colour='#1F4E5F')]),
+ right=dict(label='the corridor', art=[
+   dict(kind='person', x=200, y=0, h=112, skin=1, cloth=4),
+   dict(kind='person', x=290, y=0, h=110, skin=3, cloth=2),
+   dict(kind='label', x=300, y=120, text='4 h 20', colour='#A8372E'),
+   dict(kind='label', x=300, y=210, text='a daughter of forty-one, and a clinic running over',
+        colour='#A8372E')])),
+
+"fig_b12_u06_p05_v05": dict(type='V5', height=1060,
+ title='The interpreting policy, and the service figures',
+ sub='A correct policy, and the queue that makes it a rule about what gets written down.',
+ alt='A hospital interpreting policy with its prohibition and exceptions, alongside the '
+     'telephone service performance figures including median wait and abandonment rate.',
+ rows=[dict(t='org', text='HOSPITAL REGIONAL  -  INTERPRETING POLICY  -  CL-4'),
+   dict(t='head', text='CLAUSE 4.2'),
+   dict(t='para', text='"Family members, including adult family members, must not interpret in '
+     'clinical consultations. A registered interpreter must be used."'),
+   dict(t='head', text='THE EXCEPTIONS'),
+   dict(t='grid', cols=['EXCEPTION', 'DEFINED?', 'MUST BE RECORDED?'],
+     data=[['Emergency', 'yes - "risk to life"', 'yes'],
+           ['Patient refuses an interpreter', 'no', 'yes'],
+           ['Routine / non-clinical', 'NOT AN EXCEPTION', '-']]),
+   dict(t='para', text='Any use of a family member outside the two exceptions is a breach and '
+     'must be recorded on the clinical record.'),
+   dict(t='rule'),
+   dict(t='org', text='TELEPHONE SERVICE  -  LAST YEAR'),
+   dict(t='grid', cols=['MEASURE', 'FIGURE', ''],
+     data=[['Requests made', '3,140', ''], ['Median wait', '4 h 11 min', ''],
+           ['90th percentile wait', '7 h 40 min', ''], ['Abandoned before connection', '1,870', ''],
+           ['Abandonment rate', '60 %', '']]),
+   dict(t='kv', k='Breaches recorded last year', v='4', mono=True),
+   dict(t='rule'),
+   dict(t='sign', text='THE EMERGENCY CLAUSE, IN FULL:'),
+   dict(t='para', text='"An emergency is a situation in which delay would present a risk to '
+     'life. Clinic overrun, patient distress and staff availability do not constitute an '
+     'emergency."')],
+ callouts=[dict(at=0.10, text='The policy is right, and the reasons are not procedural'),
+   dict(at=0.26, text='Two exceptions, and routine consent is not one of them'),
+   dict(at=0.56, text='Four hours eleven at the median. Seven forty at the ninetieth'),
+   dict(at=0.64, text='Sixty per cent abandoned - and nobody records what happened instead'),
+   dict(at=0.72, text='Four breaches recorded, against 1,870 abandoned calls'),
+   dict(at=0.94, text='Clinic overrun is not an emergency, which is the whole problem')]),
+
+"fig_b12_u06_p07_v10": dict(type='V10', kind='stress', height=720,
+ title='The word that moves the stress',
+ sub='In a causative the participle takes the stress, and that is most of what tells a listener '
+     'which one they heard.',
+ alt='Five short sentences with the stressed syllables drawn as large dots, contrasting '
+     'causatives with ordinary active sentences.',
+ items=[dict(syllables=["she's", 'hav', 'ing', 'it', 'DONE'], strong=[4],
+     note='somebody else does it'),
+   dict(syllables=["she's", 'DO', 'ing', 'it'], strong=[1], note='she does it'),
+   dict(syllables=['I', 'had', 'my', 'notes', 'SENT'], strong=[4], note='I arranged it'),
+   dict(syllables=['I', 'SENT', 'my', 'notes'], strong=[1], note='I did it'),
+   dict(syllables=['she', 'HAD', 'her', 'hair', 'cut'], strong=[1],
+     note='stress on had: somebody made her')]),
+
+"fig_b12_u06_p08_v02": dict(type='V2', height=800,
+ title='The route from the ward to theatre, in section',
+ sub='Four levels, four handovers, and the patient is the subject of none of them.',
+ alt='A hospital drawn in section showing the ward, the lift, the theatre corridor and day '
+     'theatre, with the handover at each level labelled.',
+ floors=[dict(was='the ward', now='Collected at about eleven. You are not told which theatre',
+     year='', fill='#E4ECEF'),
+   dict(was='the lift', now='Four minutes. The first of three handovers', year='',
+     fill='#F6F0E4'),
+   dict(was='the theatre corridor', now='Checked against the wristband by somebody you never see '
+     'again', year='', fill='#EFE2DD'),
+   dict(was='day theatre', now='Under local. Awake. Pressure, not pain, and nobody warns you',
+     year='', fill='#E6EFE9')],
+ callouts=[dict(at=0.12, text='The last place anybody uses your name'),
+   dict(at=0.38, text='Handover one of three, and each one is a passive sentence'),
+   dict(at=0.62, text='The wristband is doing the work your voice would do'),
+   dict(at=0.88, text='The one thing patients report afterwards, and the one thing not in the '
+     'leaflet')]),
+
+"fig_b12_u06_p09_v05": dict(type='V5', height=1040,
+ title='Four minutes, three languages',
+ sub='Where a three-way consultation breaks, and which break nobody notices.',
+ alt='A transcript summary of a four-minute interpreted consultation, marked with the clinical '
+     'content, the breaks and the repairs.',
+ rows=[dict(t='org', text='INTERPRETED CONSULTATION  -  04:12  -  SUMMARY'),
+   dict(t='grid', cols=['TIME', 'WHAT HAPPENS', 'CLINICAL?'],
+     data=[['0:00 - 0:48', 'connection, identity checks', 'no'],
+           ['0:48 - 1:10', 'clinician explains the procedure', 'yes'],
+           ['1:10 - 1:34', 'interpreter summarises - 24 s for 22 s', 'yes'],
+           ['1:34 - 2:02', 'patient asks about the anaesthetic', 'yes'],
+           ['2:02 - 2:09', 'interpreter answers her directly', 'NO'],
+           ['2:09 - 3:20', 'clinician speaks to the interpreter, not the patient', 'yes'],
+           ['3:20 - 4:00', 'consent taken, repaired, signed', 'yes']]),
+   dict(t='kv', k='Minutes of clinical content', v='2 of 4', mono=True),
+   dict(t='rule'),
+   dict(t='head', text='THE BREAK NOBODY NOTICES'),
+   dict(t='para', text='At 1:10 the interpreter summarises rather than interprets. The patient '
+     'is not told that the procedure can be stopped at any point, because that sentence was '
+     'compressed out. Nobody in the room is aware of this, including the interpreter.'),
+   dict(t='rule'),
+   dict(t='head', text='THE REPAIR THAT WORKED'),
+   dict(t='para', text='"Please interpret everything she said, including that."'),
+   dict(t='rule'),
+   dict(t='sign', text='WHAT WAS NOT INTERPRETED AT ALL:'),
+   dict(t='para', text='"My daughter is outside. She has been outside for four hours."')],
+ callouts=[dict(at=0.17, text='Forty-eight seconds before anybody says anything clinical'),
+   dict(at=0.26, text='Twenty-four seconds of interpreting for twenty-two of speech'),
+   dict(at=0.35, text='The interpreter answers. This is the invisible break'),
+   dict(at=0.44, text='And now the clinician is talking about her, in front of her'),
+   dict(at=0.72, text='One sentence compressed out, and it was the one about stopping'),
+   dict(at=0.94, text='Not interpreted, because it is not clinical. It is the whole day')]),
+
+"fig_b12_u06_p10_v12": dict(type='V12', height=880,
+ title='One policy, one queue, twelve records',
+ sub='Half the class sees the policy. Half sees the figures. Rebuild the problem by speaking.',
+ alt='An infographic of an interpreting policy across eighteen months showing requests, waits, '
+     'abandonments, recorded breaches and a renegotiated contract.',
+ span=['last year', 'next year'], ticks=6,
+ tick_labels=['Jan', 'the Thursday', '+6 wk', 'Q3', 'Q4', 'renewal'],
+ bands=[dict(name='The service', type='bars', items=[
+   dict(**{'from': 0.0, 'to': 0.82}, label='median wait 4 h 11, 60 % abandoned',
+     colour='#A8372E'),
+   dict(**{'from': 0.82, 'to': 1.0}, label='two-hour target for routine requests',
+     colour='#2E6F5E')]),
+  dict(name='What was recorded', type='events', items=[
+   dict(at=0.08, label='four breaches recorded in the whole year', colour='#9AA7AE'),
+   dict(at=0.26, label='one breach, with the wait written beside it', colour='#1F4E5F'),
+   dict(at=0.40, label='governance committee: no concern recorded', colour='#9AA7AE'),
+   dict(at=0.62, label='eleven more, nine of them by people who saw his', colour='#2E6F5E'),
+   dict(at=0.90, label='business case quotes the twelve records', colour='#D9A441')]),
+  dict(name='Breaches recorded per quarter', type='line',
+   points=[(0, 1), (0.26, 2), (0.5, 5), (0.7, 12), (0.9, 14), (1.0, 14)], end_label='14'),
+  dict(name='What was never measured', type='flags', items=[
+   dict(at=0.16, label='1,870 abandoned calls, and what happened instead'),
+   dict(at=0.46, label='routine use of family members, everywhere, always'),
+   dict(at=0.70, label='a sentence compressed out of a consent'),
+   dict(at=0.96, label='and twelve one-line records did it')])]),
+
+"fig_b12_u06_p11_v06": dict(type='V6', kind='bar', height=800,
+ title='Requests, waits and abandonments, by time of day',
+ sub='Three thousand one hundred and forty requests, and the queue is worst when the clinics are.',
+ alt='A bar chart of interpreting requests and abandonment rate by time of day, with both '
+     'peaking in the mid-morning clinic period.',
+ labels=['08-10', '10-12', '12-14', '14-16', '16-18', '18-08'],
+ ymin=0, ymax=900, fmt='{:,.0f}',
+ series=[dict(name='requests', values=[410, 870, 520, 760, 390, 190], colour='#1F4E5F'),
+   dict(name='abandoned', values=[180, 610, 290, 520, 190, 80], colour='#A8372E')],
+ note='The abandonment rate peaks at seventy per cent between ten and twelve, which is exactly '
+      'when routine consents are taken.',
+ warning='Nothing in this chart records what happened to the 1,870 consultations that abandoned. '
+         'That is not a gap in the data. It is the finding.'),
+}

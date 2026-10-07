@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Requests, waits and abandonments, by time of day</title>
+<desc>A bar chart of interpreting requests and abandonment rate by time of day, with both peaking in the mid-morning clinic period.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="440" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="590.0" x2="1350" y2="590.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="595.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="480.0" x2="1350" y2="480.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="485.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">225</text>
+<line x1="170" y1="370.0" x2="1350" y2="370.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="375.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">450</text>
+<line x1="170" y1="260.0" x2="1350" y2="260.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="265.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">675</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">900</text>
+</g>
+<g id="20_subject">
+<rect x="198.0952380952381" y="389.55555555555554" width="63.214285714285715" height="200.44444444444446" rx="0" fill="#1F4E5F"/>
+<rect x="394.7619047619047" y="164.66666666666669" width="63.214285714285715" height="425.3333333333333" rx="0" fill="#1F4E5F"/>
+<rect x="591.4285714285713" y="335.7777777777778" width="63.214285714285715" height="254.22222222222217" rx="0" fill="#1F4E5F"/>
+<rect x="788.0952380952381" y="218.44444444444446" width="63.214285714285715" height="371.55555555555554" rx="0" fill="#1F4E5F"/>
+<rect x="984.7619047619047" y="399.3333333333333" width="63.214285714285715" height="190.66666666666669" rx="0" fill="#1F4E5F"/>
+<rect x="1181.4285714285713" y="497.1111111111111" width="63.214285714285715" height="92.88888888888891" rx="0" fill="#1F4E5F"/>
+<rect x="268.3333333333333" y="502.0" width="63.214285714285715" height="88.0" rx="0" fill="#A8372E"/>
+<rect x="464.99999999999994" y="291.77777777777777" width="63.214285714285715" height="298.22222222222223" rx="0" fill="#A8372E"/>
+<rect x="661.6666666666665" y="448.2222222222222" width="63.214285714285715" height="141.77777777777783" rx="0" fill="#A8372E"/>
+<rect x="858.3333333333333" y="335.7777777777778" width="63.214285714285715" height="254.22222222222217" rx="0" fill="#A8372E"/>
+<rect x="1055.0" y="497.1111111111111" width="63.214285714285715" height="92.88888888888891" rx="0" fill="#A8372E"/>
+<rect x="1251.6666666666665" y="550.8888888888889" width="63.214285714285715" height="39.111111111111086" rx="0" fill="#A8372E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Requests, waits and abandonments, by time of day</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three thousand one hundred and forty requests, and the queue is worst when the clinics are.</text>
+<rect x="1390" y="170" width="18" height="18" rx="0" fill="#1F4E5F"/>
+<text x="1416" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">requests</text>
+<rect x="1390" y="204" width="18" height="18" rx="0" fill="#A8372E"/>
+<text x="1416" y="219" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">abandoned</text>
+<text x="268.3333333333333" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">08-10</text>
+<text x="464.99999999999994" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">10-12</text>
+<text x="661.6666666666666" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">12-14</text>
+<text x="858.3333333333334" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">14-16</text>
+<text x="1055.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">16-18</text>
+<text x="1251.6666666666665" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">18-08</text>
+<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Nothing in this chart records what happened to the 1,870 consultations that abandoned. That is not a gap in the data. It is the finding.</text>
+<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The abandonment rate peaks at seventy per cent between ten and twelve, which is exactly when</text>
+<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">routine consents are taken.</text>
+</g>
+</svg>
