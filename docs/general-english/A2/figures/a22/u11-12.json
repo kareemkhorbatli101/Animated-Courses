@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "Are you doing anything on Saturday?",
+   "size": 26,
+   "bbox": [
+    87.3,
+    61.5,
+    632.7,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking before you explain",
+   "size": 28,
+   "bbox": [
+    900.6,
+    60.7,
+    1309.4,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can do Thursday, but not before seven.",
+   "size": 22,
+   "bbox": [
+    108.5,
+    179.6,
+    611.5,
+    199.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying yes to part of it",
+   "size": 28,
+   "bbox": [
+    925.8,
+    175.7,
+    1284.2,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Something has come up, I am sorry.",
+   "size": 26,
+   "bbox": [
+    96.6,
+    291.5,
+    623.4,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "changing it, without the detail",
+   "size": 28,
+   "bbox": [
+    864.1,
+    290.7,
+    1345.9,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Shall we say the week after?",
+   "size": 28,
+   "bbox": [
+    133.5,
+    405.7,
+    586.5,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offering a new day",
+   "size": 28,
+   "bbox": [
+    958.2,
+    405.7,
+    1251.8,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things people say when they arrange or change something, each with an arrow to what it does: asking before you explain, saying yes to part of it, changing it without giving the detail, and offering a new day.",
+ "placed_in": [
+  6.270833333333333,
+  2.15625
+ ],
+ "sha256": "342060d221e69f8681d371606104dbe253a5e794e0ea9a95f3c19d26040e55fb"
+}

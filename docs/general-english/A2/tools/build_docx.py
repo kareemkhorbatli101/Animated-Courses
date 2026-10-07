@@ -233,7 +233,10 @@ def write_manifest():
 
 if __name__ == '__main__':
     book = sys.argv[1] if len(sys.argv) > 1 else 'a21'
-    units = [int(a) for a in sys.argv[2:]] or list(range(1, 11))
+    units = [int(a) for a in sys.argv[2:]] or sorted(
+        int(re.search(rf'{book}-u(\d\d)\.md', f).group(1))
+        for f in os.listdir(os.path.join(ROOT, 'units'))
+        if re.fullmatch(rf'{book}-u\d\d\.md', f))
     for n in units:
         o = build_unit(book, n)
         if o:

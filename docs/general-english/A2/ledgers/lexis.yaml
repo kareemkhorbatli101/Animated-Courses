@@ -31,6 +31,40 @@ units:
   10:
     book: A2.1
     words: [step, mix, pour, press, glue, layer, brush, carefully, finally, tidy]
+  # A2.2 glossaries chosen all at once, before Unit 11 was written. E26 forbids a
+  # later unit's glossary word from appearing unglossed in an earlier unit, and
+  # A2.1 is now frozen, so every one of these hundred words had to be absent from
+  # A2.1's prose. Picking them unit by unit would have boxed the last units in.
+  11:
+    book: A2.2
+    words: [diary, booking, meeting, invite, host, party, holiday, remind, prepare, hotel]
+  12:
+    book: A2.2
+    words: [storm, shower, temperature, degree, ice, fog, wind, sunny, freeze, flood]
+  13:
+    book: A2.2
+    words: [law, allowed, silence, smoking, member, private, uniform, licence, guard, fee]
+  14:
+    book: A2.2
+    words: [pain, headache, medicine, pill, healthy, sick, doctor, fever, throat, dentist]
+  15:
+    book: A2.2
+    words: [experience, abroad, adventure, camping, festival, exhibition, tour, memory, island, desert]
+  16:
+    book: A2.2
+    words: [modern, century, childhood, nowadays, camera, record, engine, gas, computer, mobile]
+  17:
+    book: A2.2
+    words: [factory, material, metal, plastic, wool, glass, recycle, waste, produce, cloth]
+  18:
+    book: A2.2
+    words: [unless, chance, risk, safe, accident, emergency, danger, careful, luck, jam]
+  19:
+    book: A2.2
+    words: [actor, artist, author, athlete, builder, farmer, painter, singer, tailor, waiter]
+  20:
+    book: A2.2
+    words: [news, text, reply, false, rumour, article, interview, envelope, stamp, reporter]
 
 # Fixed expressions that merely contain a glossary word without carrying its
 # meaning. Measured in the source: it says `of course` seven times, from Unit 1

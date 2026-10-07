@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "a paper diary",
+   "size": 32,
+   "bbox": [
+    159.6,
+    217.2,
+    400.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "holds what one person can",
+   "size": 26,
+   "bbox": [
+    104.6,
+    269.1,
+    455.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "really do",
+   "size": 26,
+   "bbox": [
+    223.7,
+    301.1,
+    336.3,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a shared calendar",
+   "size": 32,
+   "bbox": [
+    558.0,
+    217.2,
+    882.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "anybody can put",
+   "size": 26,
+   "bbox": [
+    610.7,
+    269.1,
+    829.3,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "something in it",
+   "size": 26,
+   "bbox": [
+    622.4,
+    301.1,
+    817.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a phone reminder",
+   "size": 32,
+   "bbox": [
+    999.5,
+    217.2,
+    1320.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "kindest to the forgetful,",
+   "size": 26,
+   "bbox": [
+    1006.2,
+    269.1,
+    1313.8,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "worst after that",
+   "size": 26,
+   "bbox": [
+    1058.8,
+    301.1,
+    1261.2,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three ways people keep a week: a paper diary, which holds about what one person can really do because the page runs out; a shared calendar at work, where anybody can put something in; and a phone reminder, kindest to a forgetful person and worst for anybody who then stops remembering at all.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "f3cecfb6ff1672b5092c943303bf55966f4e40e44df61a040dbe223667691fd5"
+}

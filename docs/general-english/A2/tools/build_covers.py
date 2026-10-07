@@ -15,7 +15,8 @@ VOL = {'a21': dict(volume=1, title='Everyday Life',
                    theme=dict(icons=['home', 'person', 'shop', 'bus', 'clock'],
                               strap='Six people, one street, every morning.')),
        'a22': dict(volume=2, title='Out in the World',
-                   theme=dict(icons=['bus', 'sun', 'school', 'cup', 'moon'],
+                   theme=dict(icons=['bus', 'sun', 'school', 'sign', 'moon'],
+                              panel='dark',
                               strap='Plans, rules, stories and the road out.'))}
 
 BLURB = {
@@ -36,7 +37,9 @@ BLURB = {
          "worked example at the top of almost every task, a filled model before every "
          "piece of writing, a word bank under every gap-fill, and a checklist before "
          "you hand anything in. The Core track is for everybody; the Plus track is "
-         "there when you want it. Answers for every closed question are in the book."),
+         "there when you want it, and optional when you are not. Answers for every "
+         "closed question are in the book, and every open task has marking points "
+         "and a sample answer for the person teaching it."),
 }
 
 

@@ -5,8 +5,16 @@ its check exists to catch. K15 asserts every non-gate check has one; K14 asserts
 every exercisable one is actually caught.
 
 kind:  'unit' | 'key' | 'ctx' | 'fig' | 'docx' | 'cover'
+
+Every anchor below is a literal string from A2.1, so the suite runs against that
+book and only that book. That is not a gap: the mutations test the CHECK CODE,
+which both volumes share, and re-anchoring the same 217 mutations in A2.2's text
+would prove nothing further about any check. K14 therefore reads the report from
+FIXTURE_BOOK whichever volume is being validated.
 """
 import re
+
+FIXTURE_BOOK = 'a21'
 
 def U(old, new, n=1):
     def f(t):

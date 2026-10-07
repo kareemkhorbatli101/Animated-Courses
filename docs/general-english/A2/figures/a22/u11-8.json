@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 arranging",
+   "size": 34,
+   "bbox": [
+    183.5,
+    58.2,
+    556.5,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask before you explain",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    497.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the day and the time",
+   "size": 26,
+   "bbox": [
+    138.0,
+    205.7,
+    515.5,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say who else is coming",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    500.1,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "accept help",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    320.8,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 answering",
+   "size": 34,
+   "bbox": [
+    878.4,
+    58.2,
+    1261.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say what you are doing",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1206.0,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask one question",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1107.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say yes or no plainly",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1162.0,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer one thing",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1073.3,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, arranging: ask before you explain, give the day and the time, say who else is coming, accept help. Card B, answering: say what you are doing, ask one question, say yes or no plainly, offer one thing.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "7aef5aeb1ddf5eb366549ffd227a2269a99e96bca6126bcd6ddb984eaef6fb87"
+}

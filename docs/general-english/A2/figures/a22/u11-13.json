@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "A booked bed",
+   "size": 34,
+   "bbox": [
+    234.0,
+    67.8,
+    496.0,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a name on a list",
+   "size": 27,
+   "bbox": [
+    256.4,
+    282.5,
+    473.6,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "paid in advance",
+   "size": 27,
+   "bbox": [
+    257.6,
+    328.5,
+    472.4,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "yours alone",
+   "size": 27,
+   "bbox": [
+    286.2,
+    374.5,
+    443.8,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "A bed nobody booked",
+   "size": 34,
+   "bbox": [
+    897.2,
+    67.8,
+    1312.8,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one key for the whole chain",
+   "size": 27,
+   "bbox": [
+    917.6,
+    282.5,
+    1292.4,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "move up when it fills",
+   "size": 27,
+   "bbox": [
+    964.5,
+    328.5,
+    1245.5,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the wet and late one first",
+   "size": 27,
+   "bbox": [
+    934.2,
+    374.5,
+    1275.8,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Two ways of getting a bed for the night. A booked bed: a name on a list, paid in advance, and yours alone. A bed nobody booked: one key that opens the whole chain, everybody moves up when it fills, and the person who arrives wet and late gets it first.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "f37caef7983df01f6cc683c09b384c230ee3d1e3584344bf6b877ad426bbdfb5"
+}

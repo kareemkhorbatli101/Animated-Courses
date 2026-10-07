@@ -47,13 +47,20 @@ def front(volume, title, units, theme, n_units_label='Ten units'):
     c = Cover(f'Front cover of English for Daily Life A2 volume {volume}, {title}. '
               f'A band of flat illustrations in blue and tan over a pale panel, with '
               f'the series name, the volume title and the level.')
-    # a full-bleed pale panel with a deep band, in the idiom of the interior figures
-    c.rect(0, 0, CW, 1180, fill=P['card'], stroke=P['card'], r=0, sw=0)
-    c.rect(0, 1180, CW, 26, fill=P['ink'], stroke=P['ink'], r=0, sw=0)
+    # a full-bleed panel with a band under it, in the idiom of the interior
+    # figures. Volume one takes the pale panel; volume two takes the ink one, so
+    # the two are different books at thumbnail size (check I10).
+    dark = theme.get('panel') == 'dark'
+    panel = P['ink'] if dark else P['card']
+    on_panel = P['bg'] if dark else P['ink']
+    sub = P['tanl'] if dark else P['deep']
+    c.rect(0, 0, CW, 1180, fill=panel, stroke=panel, r=0, sw=0)
+    c.rect(0, 1180, CW, 26, fill=P['tan'] if dark else P['ink'],
+           stroke=P['tan'] if dark else P['ink'], r=0, sw=0)
 
-    _text(c, 'ENGLISH FOR DAILY LIFE', CW / 2, 420, 88, fill=P['ink'], on=P['card'])
-    _text(c, f'A2 · Volume {volume}', CW / 2, 580, 68, fill=P['deep'], on=P['card'])
-    _text(c, title, CW / 2, 900, 158, fill=P['ink'], on=P['card'])
+    _text(c, 'ENGLISH FOR DAILY LIFE', CW / 2, 420, 88, fill=on_panel, on=panel)
+    _text(c, f'A2 · Volume {volume}', CW / 2, 580, 68, fill=sub, on=panel)
+    _text(c, title, CW / 2, 900, 158, fill=on_panel, on=panel)
 
     # the scene: the street the book is set in, at the scale of a cover
     icons = theme['icons']

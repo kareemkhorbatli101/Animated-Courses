@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who you are",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    402.9,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "This is Yuki from the top flat.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1041.7,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The day and the time",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    549.6,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Saturday at seven.",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    915.5,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you are doing",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    522.5,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am going to cook.",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    920.1,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A way out",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    357.0,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tell me today if Saturday is wrong.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1119.6,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the message the learner is about to write, in four steps: who you are, the day and the time, what you are doing, and a way out for the reader.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "05af30452b17245fb0e0148a1e40a98b298ed0c12e776b71071af985178bd43e"
+}

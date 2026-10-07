@@ -91,7 +91,8 @@ def build(book='a21'):
     tmp = os.path.join(ROOT, 'build', f'.{book}-book.md')
     open(tmp, 'w', encoding='utf-8').write('\n\n'.join(parts))
     out = os.path.join(ROOT, 'build', f'EFDL-A2.{vol}-{title.replace(" ", "")}-'
-                                      f'u01-{max(u.num for u in units):02d}.docx')
+                                      f'u{min(u.num for u in units):02d}-'
+                                      f'{max(u.num for u in units):02d}.docx')
     for old in os.listdir(os.path.join(ROOT, 'build')):
         if old.startswith(f'EFDL-A2.{vol}-') and old.endswith(('.docx', '.pdf')):
             os.remove(os.path.join(ROOT, 'build', old))

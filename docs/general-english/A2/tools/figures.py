@@ -673,6 +673,39 @@ def work_surface(f: Fig, x, y, w, h):
            stroke=P['ink'], r=4)
 
 
+def week_page(f: Fig, x, y, w, h):
+    """One week in a diary, seen as a page. The rows carry different weights so
+    that an arrangement with a time, a decision with none, a hope and an open
+    day are all readable from the drawing. Hit points run down as they run
+    right, so label_me's leaders fan out instead of crossing."""
+    f.rect(x + 50, y + 40, w - 100, h - 80, fill=P['bg'], stroke=P['ink'], r=10)
+    f.line(x + 50, y + 92, x + w - 50, y + 92, stroke=P['ink'], sw=4)   # the header
+    rows, top = 5, y + 92
+    rh = (h - 80 - 52) / rows
+    for i in range(rows):
+        ry = top + i * rh
+        if i:
+            f.line(x + 50, ry, x + w - 50, ry, stroke=P['rule'], sw=2)
+        f.rect(x + 66, ry + rh * 0.28, w * 0.09, rh * 0.42,
+               fill=P['card'], stroke=P['ink'], r=4)                     # the day
+    # row 1: an arrangement, with a clock block and a second person
+    f.rect(x + w * 0.26, top + rh * 0.26, w * 0.34, rh * 0.46,
+           fill=P['blue'], stroke=P['ink'], r=5)
+    f.circle(x + w * 0.66, top + rh * 0.49, rh * 0.20, fill=P['deep'], sw=3)
+    # row 2: a decision, written but not booked - an outline only
+    f.rect(x + w * 0.26, top + rh * 1.26, w * 0.30, rh * 0.46,
+           fill=P['bg'], stroke=P['ink'], r=5)
+    # row 3: a hope - a short dashed-looking mark
+    for k in range(3):
+        f.rect(x + w * (0.27 + k * 0.07), top + rh * 2.40, w * 0.045, rh * 0.18,
+               fill=P['tanl'], stroke='none', r=2, sw=0)
+    # row 4: a thing that repeats, shown as three blocks across the row
+    for k in range(3):
+        f.rect(x + w * (0.30 + k * 0.14), top + rh * 3.26, w * 0.11, rh * 0.46,
+               fill=P['tan'], stroke=P['ink'], r=4)
+    # row 5: an open day - nothing at all but the rule
+
+
 def compare_pair(f: Fig, x, y, w, h):
     """Two objects side by side, so wider, deeper, thicker, lighter and stronger
     are visible rather than asserted."""

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  428
+ ],
+ "bounds": [
+  47,
+  21.2,
+  1393,
+  407.2
+ ],
+ "texts": [
+  {
+   "text": "Monday",
+   "size": 34,
+   "bbox": [
+    115.1,
+    131.2,
+    264.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a meeting at ten",
+   "size": 26,
+   "bbox": [
+    68.0,
+    268.7,
+    312.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Wednesday",
+   "size": 34,
+   "bbox": [
+    345.2,
+    131.2,
+    564.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing",
+   "size": 28,
+   "bbox": [
+    394.0,
+    267.9,
+    516.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Friday",
+   "size": 34,
+   "bbox": [
+    661.1,
+    131.2,
+    778.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "dinner at eight",
+   "size": 28,
+   "bbox": [
+    602.0,
+    267.9,
+    838.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Saturday",
+   "size": 34,
+   "bbox": [
+    898.5,
+    131.2,
+    1071.5,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "seven at number 14",
+   "size": 22,
+   "bbox": [
+    861.2,
+    271.8,
+    1108.8,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "this year",
+   "size": 34,
+   "bbox": [
+    1165.4,
+    131.2,
+    1334.6,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "learning to drive",
+   "size": 26,
+   "bbox": [
+    1127.6,
+    268.7,
+    1372.4,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One week on a line: a meeting at ten on Monday, nothing on Wednesday, dinner at eight on Friday, seven o\u2019clock at number 14 on Saturday, and somewhere beyond the week, learning to drive this year.",
+ "placed_in": [
+  5.625,
+  1.6770833333333333
+ ],
+ "sha256": "b32a7b3f5d4ba255d28ca1b7e78aec4379bfc0a2ed14b388af74b201cb30721d"
+}

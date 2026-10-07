@@ -118,9 +118,21 @@ def k13(units, ctx):
     red = [k for k, v in ctx.results.items() if v == 'FAIL']
     return expect(not red or not ctx.releasing, f'release attempted with {len(red)} red checks')
 
+def _fixture_report(ctx, fixture_book):
+    import json as _j
+    p = os.path.join(ctx.root, 'reports', f'{fixture_book}-mutations.json')
+    return _j.load(open(p)) if os.path.exists(p) else None
+
+
 @check('K14', 'fixtures', 'The check suite is mutation-tested against known-bad fixtures', scope='book')
 def k14(units, ctx):
+    # The fixtures are literal strings from one book, so the suite runs there and
+    # the report is read from there whichever volume is being validated. The
+    # mutations test the shared check code, not a volume's prose.
+    from mutations import FIXTURE_BOOK
     r = ctx.mutation_report
+    if r is None and ctx.book != FIXTURE_BOOK:
+        r = _fixture_report(ctx, FIXTURE_BOOK)
     if r is None:
         return fail('mutation test has not been run')
     if r['caught'] != r['total']:
