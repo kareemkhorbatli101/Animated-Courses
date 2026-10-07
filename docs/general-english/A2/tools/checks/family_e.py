@@ -11,7 +11,8 @@ def _exempt(u, ctx):
     names = set()
     for p in ctx.cast['people'].values():
         names |= {w.lower() for w in str(p['full']).split()}
-    names |= {w['name'].lower() for w in ctx.cast.get('walk_ons', [])}
+    names |= {str(w['name']).lower() for w in ctx.cast.get('walk_ons', [])
+              if w.get('name')}
     for pl in ctx.cast.get('places', []):
         names |= {w.lower() for w in pl.split()}
     for w in ctx.cast.get('street', '').split():
@@ -192,7 +193,7 @@ def e12(u, ctx):
 def e13(u, ctx):
     US = {r'\bcolor\b': 'colour', r'\bcenter\b': 'centre', r'\bneighbor': 'neighbour',
           r'\bfavorite\b': 'favourite', r'\btraveled\b': 'travelled', r'\bpractice\b(?= \w+ing)': 'practise',
-          r'\w+ize\b': '-ise', r'\w+ization\b': '-isation', r'\bgray\b': 'grey',
+          r'\b(?!size|prize|seize)\w{4,}ize\b': '-ise', r'\w+ization\b': '-isation', r'\bgray\b': 'grey',
           r'\btheater\b': 'theatre', r'\bapartment\b': 'flat', r'\bsidewalk\b': 'pavement',
           r'\bvacation\b': 'holiday', r'\bfall\b(?= \d{4})': 'autumn', r'\bmom\b': 'mum'}
     bad = [f'{m}->{v}' for m, v in US.items() if re.search(m, u.text, re.I)]
@@ -301,7 +302,8 @@ def e25(u, ctx):
     # A2, not the passive. Only a true agentless passive counts.
     ADJ = {'closed', 'open', 'tired', 'interested', 'worried', 'married', 'pleased',
            'bored', 'excited', 'finished', 'used', 'broken', 'gone', 'done',
-           'wooden', 'golden', 'open', 'often', 'given', 'closed'}
+           'wooden', 'golden', 'open', 'often', 'given', 'closed',
+           'seven', 'eleven', 'children', 'women', 'kitchen', 'written'}
     hits = [m.group(0) for m in re.finditer(r'\b(?:is|are|was|were)\s+(\w+(?:ed|en))\b',
                                            ' '.join(u.sentences), re.I)
             if m.group(1).lower() not in ADJ]

@@ -28,9 +28,13 @@ spine:
 markers:
   # Past simple: lexical past forms and did-support, not every word ending -ed
   # (needed, tired, married are A2 adjectives and participles).
+  # `is closed` and `is opened` are adjectival far more often than passive at A2,
+  # so they are not evidence of the past simple and are left out of this list.
   5:  ['\bwas\b', '\bwere\b', '\bdid(n.t)?\b',
-       '\b(walked|worked|watched|started|finished|wanted|lived|played|opened|closed|asked|answered|called|arrived|stayed|moved|cooked|cleaned|visited|happened|looked|listened|carried|studied|tried|liked|helped|waited)\b']
-  11: ['\bgoing to\b']
+       '\b(walked|worked|watched|started|finished|wanted|lived|played|asked|answered|called|arrived|stayed|moved|cooked|cleaned|visited|happened|looked|listened|carried|studied|tried|liked|helped|waited)\b']
+  # `going to the library` is the present continuous plus a preposition, not the
+  # going-to future. The marker needs the verb that follows.
+  11: ['\bgoing to (be|do|have|get|take|make|see|go|say|work|live|start|finish|buy|meet|try|visit|call|tell|help|stay|move|leave|come|rain|snow|catch|wait|look|put|give|bring|send|read|write|eat|sleep|open|close|cook|clean|pay|cost|change|stop)\b']
   12: ['\bwill\b', '\bmight\b']
   13: ['\bmust\b', '\bhave to\b', "\\bmustn't\\b"]
   14: ['\bshould\b']

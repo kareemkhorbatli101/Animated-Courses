@@ -23,6 +23,7 @@ DOCXKIND = {'docx', 'styles', 'core', 'zip'}
 COVERKIND = {'cover', 'covermeta', 'coverpx'}
 PDFKIND = {'pdf'}
 UNIT2KIND = {'unit2', 'key2'}
+KEYALLKIND = {'keyall'}
 MULTIUNIT = {'needs_units'}
 NOFAIL = {'needs_check'}
 STATIC = {'registry', 'rename', 'sha'}
@@ -181,6 +182,15 @@ def run(book='a21', verbose=False):
                     shutil.copy(src, os.path.join(dst, os.path.basename(src)))
                     _mutate_zip(os.path.join(dst, os.path.basename(src)), kind, fn)
                     ctx.root = tmp
+                elif kind in KEYALLKIND:
+                    # a book-wide check needs the fault in EVERY unit's key
+                    for n2, k2 in list(ctx._keys.items()):
+                        t = open(k2.path, encoding='utf-8').read()
+                        t = re.sub(r'\*\*[A-D]\)\*\*', '**A)**', t)
+                        mp = os.path.join(tmp, os.path.basename(k2.path))
+                        open(mp, 'w', encoding='utf-8').write(t)
+                        ctx._keys[n2] = M.parse_key(mp)
+                    ctx.for_unit(u)
                 elif kind in UNIT2KIND:
                     # break the SECOND unit, so a cross-unit check has something to find
                     if len(base_units) < 2:
@@ -212,8 +222,23 @@ def run(book='a21', verbose=False):
                         for w in earlier:
                             tail = re.sub(rf'\b{re.escape(w)}\b', 'thing', tail, flags=re.I)
                         t2 = head + sep + tail
-                    elif fn == 'same_country':
-                        t2 = t2.replace('Brazil', 'South Korea')
+                    elif fn == 'repeat_country':
+                        # give the newest unit a country an earlier unit already used
+                        import yaml as _y
+                        used = None
+                        for x in sorted(base_units, key=lambda z: z.num):
+                            if x.num >= u2.num:
+                                break
+                            p8 = x.part('Part 8')
+                            for c in ('South Korea', 'Seoul', 'Brazil', 'Japan', 'Tokyo'):
+                                if any(c in l for l in (p8.leading if p8 else [])):
+                                    used = c
+                        if used:
+                            h2, sep2, tail2 = t2.partition('**Part 8 ·')
+                            tail2 = re.sub(r'(?m)^(> .{60,})$',
+                                           lambda mm: mm.group(1) + f' This happened in {used}.',
+                                           tail2, count=1)
+                            t2 = h2 + sep2 + tail2
                     mp = os.path.join(tmp, os.path.basename(u2.path))
                     open(mp, 'w', encoding='utf-8').write(t2)
                     try:

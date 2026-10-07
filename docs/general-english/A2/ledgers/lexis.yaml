@@ -7,3 +7,6 @@ units:
   2:
     book: A2.1
     words: [balcony, cupboard, rent, entrance, landing, view, roof, garden, furniture, lift]
+  3:
+    book: A2.1
+    words: [market, bridge, crossing, bench, library, traffic, crowd, ticket, timetable, fare]

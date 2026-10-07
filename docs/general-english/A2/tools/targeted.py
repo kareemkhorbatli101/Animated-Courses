@@ -77,17 +77,28 @@ def run(book='a21', unit=None, budget=None):
     ctx.partial = len(units) < ctx.expected_units
     ctx.unit_executions = sum(1 for c in reg.values() if c.scope == 'unit') * len(units)
 
-    plan, by_unit = [], sorted(units, key=lambda x: -x.num)
-    for cid in order(book, reg):
+    # Half the budget buys BREADTH - one execution each, on the newest unit, of as
+    # many distinct checks as it covers. The other half buys DEPTH - the same
+    # checks re-run on the earlier units, highest priority first. A targeted pass
+    # that only ever ran ten checks deeper would never look anywhere new.
+    by_unit = sorted(units, key=lambda x: -x.num)
+    ordered = order(book, reg)
+    newest = by_unit[0]
+    breadth, depth = [], []
+    for cid in ordered:
         chk = reg[cid]
-        if chk.scope == 'book':
-            plan.append((cid, None))
-        else:
-            for u in by_unit:
-                plan.append((cid, u))
-        if len(plan) >= budget:
+        breadth.append((cid, None if chk.scope == 'book' else newest.num))
+        if chk.scope != 'book':
+            depth += [(cid, u.num) for u in by_unit[1:]]
+    half = (budget + 1) // 2
+    plan_k, seen = breadth[:half], set(breadth[:half])
+    for item in depth + breadth[half:]:
+        if len(plan_k) >= budget:
             break
-    plan = plan[:budget]
+        if item not in seen:
+            plan_k.append(item); seen.add(item)
+    bynum = {u.num: u for u in units}
+    plan = [(cid, bynum.get(n)) for cid, n in plan_k[:budget]]
 
     rows, fails = [], []
     for cid, u in plan:

@@ -41,8 +41,11 @@ def f04(u, ctx):
             if int(m.group(1)) != a:
                 bad.append(f'{k} aged {m.group(1)}, ledger says {a}')
     # Amina's opening day is the fact most likely to drift
-    if re.search(r'\bopens?\b(?![^.]{0,20}except)[^.]{0,20}\bon Sunday\b', u.text, re.I):
-        bad.append('shop opens on Sunday; ledger says every day except Sunday')
+    # the ledger fact is about Amina's shop, not about every door in the book
+    if re.search(r'\b(Amina|the corner shop|the shop downstairs)\b[^.]{0,60}'
+                 r'\bopens?\b(?![^.]{0,20}except)[^.]{0,30}\bon Sunday\b',
+                 u.text, re.I):
+        bad.append('Amina’s shop opens on Sunday; ledger says every day except Sunday')
     return expect(not bad, '; '.join(bad))
 
 @check('F05', 'rubric.story_shape', "No unit repeats another unit's story shape", scope='book', gate=True)

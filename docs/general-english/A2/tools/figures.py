@@ -559,6 +559,26 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def streetscape(f: Fig, x, y, w, h):
+    """A street from the side: a bridge over it, traffic, a crossing, a bench,
+    a market. The object Unit 3's label-me figure asks the learner to name."""
+    road_y = y + h * 0.62
+    f.rect(x + 30, road_y, w - 60, 72, fill=P['grey'], stroke=P['ink'], r=0, sw=3)
+    for k in range(6):                      # the crossing
+        f.rect(x + w * 0.44 + k * 26, road_y + 6, 16, 60, fill=P['bg'],
+               stroke='none', r=0, sw=0)
+    f.rect(x + 40, y + 60, w - 80, 22, fill=P['tan'], stroke=P['ink'], r=4)   # bridge
+    f.rect(x + 56, y + 82, 24, road_y - y - 82, fill=P['tand'], stroke=P['ink'], r=2)
+    f.rect(x + w - 104, y + 82, 24, road_y - y - 82, fill=P['tand'],
+           stroke=P['ink'], r=2)
+    icon(f, 'bus', x + w * 0.24, road_y + 4, s=0.52)                          # traffic
+    icon(f, 'bus', x + w * 0.34, road_y + 4, s=0.42)
+    f.rect(x + w * 0.66, road_y + 92, 150, 16, fill=P['deep'], stroke=P['ink'], r=6)
+    f.rect(x + w * 0.69, road_y + 108, 14, 42, fill=P['ink'], stroke='none', r=0, sw=0)
+    f.rect(x + w * 0.83, road_y + 108, 14, 42, fill=P['ink'], stroke='none', r=0, sw=0)
+    icon(f, 'shop', x + w * 0.20, road_y + 128, s=0.62)                       # market
+
+
 def building(f: Fig, x, y, w, h):
     """A block from the side: roof, balcony, stairs, entrance, garden."""
     bx, bw = x + w * 0.26, w * 0.44

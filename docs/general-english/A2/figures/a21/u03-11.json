@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The place and the fact",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    568.6,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The market opens at six every morning.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1190.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What is the same every day",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    660.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The same four tables are there.",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    1081.2,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the moment",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    443.7,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the moment she is putting the boxes into a van.",
+   "size": 22,
+   "bbox": [
+    670,
+    283.8,
+    1230.7,
+    303.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "One more thing happening",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    643.7,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Two people are still looking.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1029.9,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the paragraph the learner is about to write, in four steps: the place and a fact about it, what is the same every day, what is happening at the moment, and one more thing happening now.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "4c0d62a3523ac0ff2b9dddae5022dafa6d1e1873cd3e16d273e154ca06a30fbd"
+}

@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "the market",
+   "size": 30,
+   "bbox": [
+    76.3,
+    234.5,
+    262.9,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "opens",
+   "size": 30,
+   "bbox": [
+    118.8,
+    269.5,
+    220.4,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the library",
+   "size": 30,
+   "bbox": [
+    355.8,
+    234.5,
+    533.8,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "opens",
+   "size": 30,
+   "bbox": [
+    394.0,
+    269.5,
+    495.6,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the traffic",
+   "size": 30,
+   "bbox": [
+    636.4,
+    234.5,
+    803.6,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stops",
+   "size": 30,
+   "bbox": [
+    673.9,
+    269.5,
+    766.1,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the city",
+   "size": 30,
+   "bbox": [
+    931.0,
+    234.5,
+    1059.4,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "goes home",
+   "size": 30,
+   "bbox": [
+    903.1,
+    269.5,
+    1087.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the last train",
+   "size": 26,
+   "bbox": [
+    1174.8,
+    271.8,
+    1366.0,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "One day in the city in five stages, each with an arrow to the next: the market opens, the library opens, the traffic stops, the city goes home, and the last train leaves.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "c7cb93e1a365435e2ea369153515537a662c2e4773a87bbec8a0e021634343ea"
+}
