@@ -331,8 +331,19 @@ def e25(u, ctx):
             r'\b(?:can|could|must|should|may|might|will|would)\s+be\s+' + PART + r'\b',
             r'\b(?:been|being)\s+' + PART + r'\b')
     body = ' '.join(u.sentences)
-    hits = [m.group(0) for pat in PATS for m in re.finditer(pat, body, re.I)
-            if m.group(1).lower() not in ADJ]
+    # `What I do instead is read one more chapter` is a cleft, not a passive:
+    # `is` carries a bare infinitive whose subject is the what-clause. The same
+    # shape covers `What it really does is get`, `All you can do is wait`. The
+    # guard looks back for an unclosed what/all-clause in the same sentence.
+    CLEFT = re.compile(r'\b(what|all)\b[^.!?]{0,70}$', re.I)
+    hits = []
+    for pat in PATS:
+        for m in re.finditer(pat, body, re.I):
+            if m.group(1).lower() in ADJ:
+                continue
+            if CLEFT.search(body[:m.start()]):
+                continue
+            hits.append(m.group(0))
     return expect(not hits, f'{len(hits)} passive forms before U{pas}: {hits[:4]}')
 
 @check('E26', 'ledgers/lexis', "No later unit's glossary word used earlier without a gloss")

@@ -47,6 +47,7 @@ markers:
   # that gap. The adverb slot and the full participle list close it.
   15: ['\b(has|have|has not|have not|hasn.t|haven.t)\s+(?:just|already|never|ever|always|recently|still|not|only|also)?\s*(been|had|seen|done|made|gone|taken|written|eaten|thought|found|brought|bought|caught|taught|left|kept|lost|met|told|read|put|come|run|begun|spoken|known|given|chosen|driven|forgotten|broken|won|sent|built|felt|held|heard|said|sat|stood|understood|become|grown|drawn|flown|worn|shown|thrown|slept|paid|stolen|\w+ed)\b',
        '\b(Have|Has) (you|he|she|they|we|I) ever\b',
+       '\b(has|have)\s+(i|you|he|she|it|we|they|anybody|somebody|nobody)\s+(?:ever|just|already|never)?\s*(been|had|seen|done|made|gone|taken|written|eaten|thought|found|brought|bought|caught|taught|left|kept|lost|met|told|read|put|come|run|begun|spoken|known|given|chosen|driven|forgotten|broken|won|sent|built|felt|held|heard|said|sat|stood|understood|become|grown|drawn|flown|worn|shown|thrown|slept|paid|stolen|\w+ed)\b',
        '\b(could|would|should|might) have \w+']
   17: ['\bis made\b', '\bare made\b', '\bwas made\b', '\bwere made\b']
   18: ['\bif\b[^.!?]{0,90}\bwill\b']

@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "soup",
+   "size": 32,
+   "bbox": [
+    236.6,
+    217.2,
+    323.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "warm water and salt,",
+   "size": 26,
+   "bbox": [
+    142.1,
+    269.1,
+    417.9,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "which is most of it",
+   "size": 26,
+   "bbox": [
+    161.5,
+    301.1,
+    398.5,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "steam",
+   "size": 32,
+   "bbox": [
+    664.5,
+    217.2,
+    775.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing to the illness,",
+   "size": 26,
+   "bbox": [
+    578.8,
+    269.1,
+    861.2,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "twenty good minutes",
+   "size": 26,
+   "bbox": [
+    581.9,
+    301.1,
+    858.1,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "honey",
+   "size": 32,
+   "bbox": [
+    1104.9,
+    217.2,
+    1215.1,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it coats a throat, and a",
+   "size": 26,
+   "bbox": [
+    1011.8,
+    269.1,
+    1308.2,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "child will take it",
+   "size": 26,
+   "bbox": [
+    1058.4,
+    301.1,
+    1261.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three old remedies and what each one really does: soup, which gets warm water and salt into somebody who stopped drinking; steam, which does nothing to the illness and twenty good minutes to a blocked nose; and honey, which coats a throat that hurts and tastes good enough that a child will take it.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "78ed34b05357fc89c510de2a877c7eca3777b448b8d346aa532a29da77e949cb"
+}

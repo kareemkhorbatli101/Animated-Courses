@@ -298,6 +298,21 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         L(-30, 0, 30, 0, stroke=P['ink'], sw=4)
         C(16, -20, 5, fill=P['ink'], sw=2)
         C(16, 20, 5, fill=P['ink'], sw=2)
+    elif name == 'pill':
+        R(-34, -14, 68, 28, fill=P['card'], r=14)
+        L(0, -14, 0, 14, sw=4)
+        C(-17, 0, 5, fill=P['tand'], sw=0)
+    elif name == 'bed':
+        R(-46, -2, 92, 26, fill=P['card'], r=4)           # the mattress
+        R(-46, -26, 20, 24, fill=P['blue'], r=4)          # the headboard
+        R(-30, -12, 26, 12, fill=P['bg'], r=4)            # the pillow
+        L(-46, 24, -46, 38, sw=4); L(46, 24, 46, 38, sw=4)
+    elif name == 'thermometer':
+        R(-7, -44, 14, 62, fill=P['card'], r=7)
+        C(0, 26, 15, fill=P['tand'])
+        R(-4, -10, 8, 36, fill=P['tand'], r=4)
+        for k in range(4):
+            L(7, -34 + k * 12, 14, -34 + k * 12, stroke=P['deep'], sw=3)
     elif name == 'tree':
         L(0, 8, 0, 40, stroke=P['tand'], sw=7)             # the trunk
         C(0, -6, 26, fill=P['tanl'])
@@ -790,6 +805,26 @@ def rule_wall(f: Fig, x, y, w, h):
         else:                                        # a fee: two coins
             f.circle(cx2 - r * 0.45, cy2 + r * 0.2, r * 0.7, fill=P['tanl'], sw=4)
             f.circle(cx2 + r * 0.45, cy2 - r * 0.2, r * 0.7, fill=P['tan'], sw=4)
+
+
+def advice_ladder(f: Fig, x, y, w, h):
+    """Five rungs from no pressure to no choice. The rungs widen and darken as
+    they climb, so how strong each piece of advice is readable from the shape,
+    and the hit points step down left to right so no two leaders cross."""
+    base, top = y + h * 0.84, y + h * 0.16
+    n = 5
+    step = (base - top) / (n - 1)
+    fills = [P['bg'], P['card'], P['blue'], P['deep'], P['ink']]
+    for i in range(n):
+        ry = base - i * step
+        bw = w * (0.26 + i * 0.11)
+        f.rect(x + w * 0.10, ry - h * 0.07, bw, h * 0.11,
+               fill=fills[i], stroke=P['ink'], r=6)
+    # an arrow up the side, so the direction is not left to the reader
+    ax = x + w * 0.90
+    f.line(ax, base, ax, top + h * 0.05, stroke=P['accent'], sw=6)
+    f.path(f'M {ax:.1f} {top - h * 0.02:.1f} L {ax - 14:.1f} {top + h * 0.06:.1f} '
+           f'L {ax + 14:.1f} {top + h * 0.06:.1f} Z', fill=P['accent'])
 
 
 def compare_pair(f: Fig, x, y, w, h):
