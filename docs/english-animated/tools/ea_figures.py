@@ -350,10 +350,18 @@ def v5_realia(spec):
             sub.append(text(dx + 30, y + 14, row['text'], size=T_HEAD, weight='700', fill=INK))
             y += 44
         elif t == 'org':
-            sub.append(rect(dx, dy, dw, 70, fill=PAPER_DEEP))
-            sub.append(text(dx + 30, dy + 44, row['text'], size=T_HEAD, weight='700', fill=PRIMARY,
-                            spacing=1.2))
-            y = dy + 94
+            # the masthead band belongs at the top of the sheet; a second one is a
+            # section head on a second document, and is drawn in place
+            if y <= dy + 40:
+                sub.append(rect(dx, dy, dw, 70, fill=PAPER_DEEP))
+                sub.append(text(dx + 30, dy + 44, row['text'], size=T_HEAD, weight='700',
+                                fill=PRIMARY, spacing=1.2))
+                y = dy + 94
+            else:
+                sub.append(rect(dx + 20, y - 18, dw - 40, 44, fill=PAPER_DEEP, rx=4))
+                sub.append(text(dx + 36, y + 12, row['text'], size=T_BODY, weight='700',
+                                fill=PRIMARY, spacing=1.0))
+                y += 60
         elif t == 'kv':
             sub.append(text(dx + 30, y, row['k'], size=T_LABEL, fill=INK_SOFT))
             sub.append(text(dx + 300, y, row['v'], size=T_LABEL, fill=INK,
@@ -804,7 +812,7 @@ def v10_phon(spec):
                                   for j, p in enumerate(pts))
             sub.append(path(d, stroke=ACCENT, sw=4))
             sub.append(text(200, y0 - 6, c['text'], size=T_BODY, weight='600', fill=INK))
-            lab.append(text(W - 230, y0 + 66, c['meaning'], size=T_CALLOUT,
+            lab.append(text(W - 230, y0 - 6, c['meaning'], size=T_CALLOUT,
                             anchor='end', fill=PRIMARY, weight='600'))
     elif kind == 'stress':
         for i, s in enumerate(spec['items']):

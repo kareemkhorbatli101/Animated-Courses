@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<title>The claim and the correction</title>
+<desc>The rival newspaper's original claim and its subsequent correction set out with their word counts, placement, aspect and what each one does and does not say.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="850" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="850" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">THE ORIGINAL  -  TUESDAY 15.52  -  HOME PAGE, LEAD</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;The company is cutting four hundred jobs at its Thunder Bay</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">plant, with an announcement expected on Thursday.&quot;</text>
+<rect x="140" y="253.5" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="273.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">FEATURE</text>
+<text x="403.33333333333337" y="273.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">ORIGINAL</text>
+<text x="656.6666666666667" y="273.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">CORRECTION</text>
+<text x="150.0" y="303.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WORDS</text>
+<text x="403.33333333333337" y="303.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">21</text>
+<text x="656.6666666666667" y="303.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">34</text>
+<line x1="140" y1="313.5" x2="900" y2="313.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="333.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PLACEMENT</text>
+<text x="403.33333333333337" y="333.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HOME PAGE LEAD</text>
+<text x="656.6666666666667" y="333.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PAGE 11</text>
+<line x1="140" y1="343.5" x2="900" y2="343.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="363.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ASPECT</text>
+<text x="403.33333333333337" y="363.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">IS CUTTING</text>
+<text x="656.6666666666667" y="363.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HAS CONFIRMED</text>
+<line x1="140" y1="373.5" x2="900" y2="373.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="393.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HEDGES</text>
+<text x="403.33333333333337" y="393.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="656.6666666666667" y="393.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<line x1="140" y1="403.5" x2="900" y2="403.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="423.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NUMBER</text>
+<text x="403.33333333333337" y="423.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">400</text>
+<text x="656.6666666666667" y="423.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">310</text>
+<line x1="140" y1="433.5" x2="900" y2="433.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="453.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">TIMING CLAIM</text>
+<text x="403.33333333333337" y="453.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THURSDAY</text>
+<text x="656.6666666666667" y="453.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NONE</text>
+<line x1="140" y1="463.5" x2="900" y2="463.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="483.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SOURCES NAMED</text>
+<text x="403.33333333333337" y="483.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="656.6666666666667" y="483.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1 (THE COMPANY)</text>
+<line x1="140" y1="493.5" x2="900" y2="493.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="513.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">TIME ON SITE</text>
+<text x="403.33333333333337" y="513.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3 DAYS</text>
+<text x="656.6666666666667" y="513.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PERMANENT</text>
+<line x1="140" y1="523.5" x2="900" y2="523.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="551.5" x2="910" y2="551.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="587.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE CORRECTION, FRIDAY, IN FULL</text>
+<text x="140" y="617.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;On Tuesday we reported that the company was cutting four</text>
+<text x="140" y="639.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">hundred jobs at its Thunder Bay plant. The company has confirmed</text>
+<text x="140" y="661.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">three hundred and ten. We are happy to clarify.&quot;</text>
+<line x1="130" y1="696.75" x2="910" y2="696.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="732.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT THE CORRECTION DOES NOT SAY</text>
+<text x="140" y="762.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">That the timing claim was wrong</text>
+<text x="410" y="762.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not mentioned</text>
+<text x="140" y="794.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Where the 400 came from</text>
+<text x="410" y="794.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not mentioned</text>
+<text x="140" y="826.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">That the share price moved</text>
+<text x="410" y="826.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not mentioned</text>
+<text x="140" y="858.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Who wrote it</text>
+<text x="410" y="858.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no byline</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The claim and the correction</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The original ran at 15.52 on Tuesday. The correction ran on Friday, on page eleven.</text>
+<circle cx="934" cy="205.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 205.0 L 1024 205.0 L 1024 205.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="210.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Twenty-one words, and three</text>
+<text x="1040" y="230.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">separate claims in them</text>
+<circle cx="934" cy="358.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 358.0 L 1024 358.0 L 1024 358.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="363.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Is cutting against has confirmed -</text>
+<text x="1040" y="383.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the whole unit is in those two</text>
+<circle cx="934" cy="426.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 426.0 L 1024 426.0 L 1024 426.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="431.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four hundred against three hundred</text>
+<text x="1040" y="451.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">and ten</text>
+<circle cx="934" cy="511.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 511.0 L 1024 511.0 L 1024 511.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="516.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The timing claim is simply dropped</text>
+<text x="1040" y="536.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">rather than corrected</text>
+<circle cx="934" cy="851.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 851.0 L 1024 851.0 L 1024 851.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="856.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Happy to clarify is doing a great</text>
+<text x="1040" y="876.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">deal of work</text>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860">
+<title>The voice does not fall until the condition is finished</title>
+<desc>Four pitch contours over conditional sentences, showing the level or rising tune across a fronted condition and the fall only on the main clause.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="860" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="230" x2="1360" y2="230" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="410" x2="1360" y2="410" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="590" x2="1360" y2="590" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="770" x2="1360" y2="770" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<path d="M 200 209 L 393 199 L 587 194 L 780 188 L 973 199 L 1167 220 L 1360 261" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Provided the piece was disclosed, we will cap it.</text>
+<path d="M 200 384 L 393 394 L 587 420 L 780 405 L 973 410 L 1167 420 L 1360 436" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">We will cap it, provided the piece was disclosed.</text>
+<path d="M 200 574 L 393 564 L 587 548 L 780 538 L 973 564 L 1167 590 L 1360 626" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Unless you tell us first, the cap does not apply.</text>
+<path d="M 200 760 L 393 749 L 587 739 L 780 734 L 973 749 L 1167 775 L 1360 812" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">But for the disclosure rule, there would be no cap.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The voice does not fall until the condition is finished</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Front the condition and it is the news. Put it last and it is a detail.</text>
+<text x="1370" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">fronted - level, then one fall at the end</text>
+<text x="1370" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">last - two small falls, and it sounds routine</text>
+<text x="1370" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">the exception rises, the consequence falls</text>
+<text x="1370" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">a condition on the past - and a long fall</text>
+</g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Aspect is a claim about shape, not about time</title>
+<desc>A timeline showing the same event rendered four ways: as a closed point, as an open band, as a point seen from a later vantage, and as a band running up to a later vantage.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="610" x2="1380" y2="610" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,610 1364,602 1364,618" fill="#1C2B33"/>
+<line x1="1209.2" y1="450" x2="1209.2" y2="644" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1209.2" y="668" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<circle cx="526.0" cy="556" r="11" fill="#1F4E5F"/>
+<line x1="526.0" y1="556" x2="526.0" y2="610" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 428.4 482 Q 611.4 460 794.4 482" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 428.4 522 Q 611.4 544 794.4 522" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="428.4" y1="482" x2="428.4" y2="522" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="794.4" y1="482" x2="794.4" y2="522" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="526.0" y1="394" x2="1209.2" y2="394" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="526.0" cy="394" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="1209.2" cy="394" r="7" fill="#1F4E5F"/>
+<line x1="330.8" y1="286" x2="1209.2" y2="286" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="1209.2" y1="264" x2="1209.2" y2="308" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Aspect is a claim about shape, not about time</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same event, drawn four ways. Time is the horizontal axis and aspect is the shape.</text>
+<text x="526.0" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">SIMPLE - closed</text>
+<text x="526.0" y="526" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The company cut 400 jobs. -- complete, countable, final</text>
+<text x="428.4" y="420" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">CONTINUOUS - open</text>
+<text x="428.4" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The company is cutting jobs. -- in progress, and the number may still move</text>
+<text x="526.0" y="346" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">PERFECT - seen from now</text>
+<text x="526.0" y="368" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The company has cut 400 jobs. -- closed, and it matters because of now</text>
+<text x="330.8" y="238" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">PERFECT CONTINUOUS - duration up to now</text>
+<text x="330.8" y="260" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The company has been cutting jobs since March.</text>
+</g>
+</svg>

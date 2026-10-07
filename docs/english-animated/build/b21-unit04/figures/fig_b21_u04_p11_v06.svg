@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>The horizon that walks away</title>
+<desc>A line chart comparing the year each forecast was made with the opening year it predicted, showing the gap between them staying roughly constant.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2012</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2018</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2023</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2028</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2034</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 463.6 L 406.0 421.8 L 642.0 380.0 L 878.0 317.3 L 1114.0 275.5 L 1350.0 212.7" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="463.6363636363636" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="406.0" cy="421.8181818181818" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="642.0" cy="380.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="878.0" cy="317.27272727272725" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1114.0" cy="275.45454545454544" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="212.72727272727275" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="217.72727272727275" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">the opening year forecast</text>
+<path d="M 170.0 568.2 L 406.0 526.4 L 642.0 484.5 L 878.0 442.7 L 1114.0 400.9 L 1350.0 359.1" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="568.1818181818181" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="406.0" cy="526.3636363636364" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="642.0" cy="484.54545454545456" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="878.0" cy="442.72727272727275" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1114.0" cy="400.9090909090909" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1350.0" cy="359.0909090909091" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<text x="1364.0" y="364.0909090909091" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">the year the forecast was made</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The horizon that walks away</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Every time the forecast was made, the opening stayed about six years ahead of it.</text>
+<text x="170.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2014</text>
+<text x="406.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2016</text>
+<text x="642.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2018</text>
+<text x="878.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2020</text>
+<text x="1114.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2022</text>
+<text x="1350.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2024</text>
+<rect x="170" y="670" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Each new date was reported as news. None of the six was reported beside the date it replaced, so a</text>
+<text x="186" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">reader meeting any one of them alone would see a plan on track.</text>
+<text x="170" y="771.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The distance between the two lines is the forecast horizon. It has never once closed, which</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">is the signature of a schedule that is being re-stated rather than re-estimated.</text>
+</g>
+</svg>

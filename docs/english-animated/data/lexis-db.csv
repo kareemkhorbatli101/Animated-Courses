@@ -2849,3 +2849,503 @@ B1.3,10,L2,p,set out,U10P10 U10P8 nextbookP12 nextbookP12
 B1.3,10,L2,p,look back,U10P8 U10P10 nextbookP12 nextbookP12
 B1.3,10,L2,p,rise to,U10P10 U10P4 nextbookP12 nextbookP12
 B1.3,10,L2,f,not for one moment,U10P11 U10P8 nextbookP12 nextbookP12
+B2.1,1,L1,w,verification,U1P5 U1P10 U4P12 U5P9
+B2.1,1,L1,w,evidence,U1P4 U1P11 U7P12 U10P2
+B2.1,1,L1,w,claim,U1P10 U1P8 U5P12 U9P2
+B2.1,1,L1,w,source,U1P10 U1P4 U4P12 U6P10
+B2.1,1,L1,w,corroboration,U1P4 U1P11 U3P12 U6P5
+B2.1,1,L1,w,embargo,U1P4 U1P11 U6P12 U7P10
+B2.1,1,L1,w,correction,U1P3 U1P8 U4P12 U6P2
+B2.1,1,L1,w,retraction,U1P10 U1P4 U7P12 U10P9
+B2.1,1,L1,w,stringer,U1P8 U1P3 U2P12 U10P5
+B2.1,1,L1,w,dateline,U1P4 U1P11 U2P12 U5P2
+B2.1,1,L1,w,provenance,U1P4 U1P8 U2P12 U10P9
+B2.1,1,L1,w,attribution,U1P5 U1P10 U2P12 U6P9
+B2.1,1,L1,c,stand a story up,U1P5 U1P11 U2P12 U10P10
+B2.1,1,L1,c,a single source,U1P8 U1P10 U2P12 U5P10
+B2.1,1,L1,c,on the record,U1P8 U1P11 U2P12 U7P2
+B2.1,1,L1,c,off the record,U1P5 U1P4 U7P12 U10P10
+B2.1,1,L1,c,a working assumption,U1P11 U1P4 U5P12 U10P10
+B2.1,1,L1,c,run a correction,U1P11 U1P8 U2P12 U3P2
+B2.1,1,L1,c,hold the line,U1P11 U1P10 U3P12 U10P2
+B2.1,1,L1,c,a verified account,U1P11 U1P8 U7P12 U9P9
+B2.1,1,L1,c,the cost of being first,U1P10 U1P3 U3P12 U9P5
+B2.1,1,L1,c,a story with legs,U1P11 U1P5 U4P12 U7P9
+B2.1,1,L1,p,stand up,U1P11 U1P3 U7P12 U8P9
+B2.1,1,L1,p,back up,U1P11 U1P4 U2P12 U4P5
+B2.1,1,L1,p,hold off,U1P3 U1P4 U8P12 U9P10
+B2.1,1,L1,f,we can't stand it up,U1P3 U1P11 U2P12 U8P10
+B2.1,1,L1,f,it checks out,U1P8 U1P3 U3P12 U6P2
+B2.1,1,L1,f,who else has it?,U1P8 U1P11 U3P12 U10P5
+B2.1,1,L2,w,ongoing,U1P10 U1P4 U8P12 U9P9
+B2.1,1,L2,w,momentary,U1P5 U1P8 U3P12 U6P5
+B2.1,1,L2,w,habitual,U1P4 U1P11 U3P12 U7P10
+B2.1,1,L2,w,iterative,U1P4 U1P5 U3P12 U7P10
+B2.1,1,L2,w,provisional,U1P3 U1P8 U5P12 U8P9
+B2.1,1,L2,w,settled,U1P5 U1P3 U2P12 U3P10
+B2.1,1,L2,w,unfolding,U1P11 U1P10 U2P12 U10P5
+B2.1,1,L2,w,emergent,U1P10 U1P4 U2P12 U7P9
+B2.1,1,L2,c,as it stands,U1P5 U1P4 U5P12 U6P2
+B2.1,1,L2,c,at the time of writing,U1P11 U1P5 U3P12 U7P10
+B2.1,1,L2,c,has been developing,U1P11 U1P4 U4P12 U6P2
+B2.1,1,L2,c,is being treated as,U1P8 U1P5 U8P12 U10P5
+B2.1,1,L2,c,was being described as,U1P3 U1P4 U3P12 U10P5
+B2.1,1,L2,c,is understood to,U1P8 U1P11 U7P12 U10P9
+B2.1,1,L2,c,had been expecting,U1P5 U1P3 U2P12 U7P10
+B2.1,1,L2,c,is thought to have,U1P5 U1P10 U3P12 U8P2
+B2.1,1,L2,p,play out,U1P3 U1P10 U2P12 U7P2
+B2.1,1,L2,p,bear out,U1P8 U1P3 U7P12 U9P9
+B2.1,1,L2,p,pan out,U1P11 U1P10 U7P12 U9P10
+B2.1,1,L2,f,the situation is developing,U1P4 U1P10 U3P12 U4P2
+B2.1,1,L2,f,we understand that,U1P4 U1P8 U2P12 U3P10
+B2.1,1,L2,f,it now appears that,U1P4 U1P5 U7P12 U9P10
+B2.1,2,L1,w,byline,U2P3 U2P4 U4P12 U10P2
+B2.1,2,L1,w,masthead,U2P5 U2P3 U7P12 U9P2
+B2.1,2,L1,w,readership,U2P3 U2P4 U3P12 U10P9
+B2.1,2,L1,w,constituency,U2P8 U2P5 U5P12 U9P9
+B2.1,2,L1,w,columnist,U2P4 U2P5 U5P12 U10P9
+B2.1,2,L1,w,editorial,U2P8 U2P11 U5P12 U10P5
+B2.1,2,L1,w,outlet,U2P5 U2P11 U5P12 U7P10
+B2.1,2,L1,w,audience,U2P11 U2P10 U6P12 U10P5
+B2.1,2,L1,w,bureau,U2P4 U2P5 U3P12 U9P9
+B2.1,2,L1,w,syndication,U2P8 U2P4 U8P12 U10P10
+B2.1,2,L1,w,correspondent,U2P3 U2P5 U7P12 U9P2
+B2.1,2,L1,w,voice,U2P4 U2P5 U9P12 U10P2
+B2.1,2,L1,c,speak for,U2P11 U2P5 U7P12 U8P9
+B2.1,2,L1,c,on behalf of,U2P8 U2P10 U8P12 U9P5
+B2.1,2,L1,c,our readers,U2P11 U2P4 U7P12 U8P9
+B2.1,2,L1,c,the paper's view,U2P10 U2P5 U8P12 U10P9
+B2.1,2,L1,c,a named writer,U2P5 U2P3 U4P12 U5P5
+B2.1,2,L1,c,an unsigned piece,U2P11 U2P3 U3P12 U8P2
+B2.1,2,L1,c,local to the story,U2P3 U2P8 U4P12 U9P5
+B2.1,2,L1,c,parachute journalism,U2P5 U2P11 U7P12 U9P10
+B2.1,2,L1,c,the community affected,U2P4 U2P5 U3P12 U7P2
+B2.1,2,L1,c,whose paper is it,U2P3 U2P4 U3P12 U6P2
+B2.1,2,L1,p,speak up,U2P11 U2P4 U4P12 U6P9
+B2.1,2,L1,p,stand in,U2P10 U2P8 U5P12 U7P5
+B2.1,2,L1,p,write up,U2P4 U2P8 U4P12 U9P2
+B2.1,2,L1,f,we have always said,U2P5 U2P11 U5P12 U7P10
+B2.1,2,L1,f,this paper believes,U2P10 U2P11 U6P12 U8P10
+B2.1,2,L1,f,who is the we here?,U2P3 U2P8 U3P12 U9P5
+B2.1,2,L2,w,inclusive,U2P4 U2P11 U4P12 U5P5
+B2.1,2,L2,w,exclusive,U2P5 U2P3 U8P12 U9P2
+B2.1,2,L2,w,collective,U2P5 U2P4 U4P12 U6P5
+B2.1,2,L2,w,impersonal,U2P4 U2P11 U7P12 U10P9
+B2.1,2,L2,w,generic,U2P11 U2P10 U4P12 U10P10
+B2.1,2,L2,w,institutional,U2P5 U2P4 U4P12 U10P10
+B2.1,2,L2,w,corporate,U2P10 U2P3 U7P12 U10P2
+B2.1,2,L2,w,anonymous,U2P5 U2P3 U3P12 U6P10
+B2.1,2,L2,c,the royal we,U2P8 U2P11 U4P12 U10P5
+B2.1,2,L2,c,one might say,U2P10 U2P11 U4P12 U10P9
+B2.1,2,L2,c,it is widely held,U2P4 U2P8 U4P12 U8P10
+B2.1,2,L2,c,the present writer,U2P4 U2P10 U5P12 U10P10
+B2.1,2,L2,c,in this paper,U2P8 U2P11 U8P12 U10P9
+B2.1,2,L2,c,speaking personally,U2P5 U2P4 U7P12 U8P9
+B2.1,2,L2,c,as a reader,U2P11 U2P5 U5P12 U9P5
+B2.1,2,L2,c,the general view,U2P5 U2P3 U6P12 U8P2
+B2.1,2,L2,p,own up,U2P5 U2P4 U4P12 U6P5
+B2.1,2,L2,p,take over,U2P8 U2P10 U3P12 U6P2
+B2.1,2,L2,p,sign off,U2P8 U2P11 U8P12 U10P10
+B2.1,2,L2,f,speaking for myself,U2P8 U2P3 U6P12 U7P9
+B2.1,2,L2,f,we take the view that,U2P8 U2P4 U5P12 U9P10
+B2.1,2,L2,f,that is not our position,U2P4 U2P3 U4P12 U9P2
+B2.1,3,L1,w,risk,U3P5 U3P8 U6P12 U8P5
+B2.1,3,L1,w,hazard,U3P10 U3P8 U7P12 U10P9
+B2.1,3,L1,w,exposure,U3P8 U3P3 U7P12 U10P9
+B2.1,3,L1,w,incidence,U3P11 U3P3 U5P12 U8P5
+B2.1,3,L1,w,prevalence,U3P4 U3P10 U6P12 U9P2
+B2.1,3,L1,w,baseline,U3P5 U3P11 U5P12 U10P10
+B2.1,3,L1,w,confidence,U3P5 U3P3 U5P12 U10P5
+B2.1,3,L1,w,interval,U3P5 U3P10 U4P12 U5P9
+B2.1,3,L1,w,significance,U3P11 U3P10 U9P12 U10P2
+B2.1,3,L1,w,correlation,U3P4 U3P3 U8P12 U10P5
+B2.1,3,L1,w,causation,U3P10 U3P5 U6P12 U9P5
+B2.1,3,L1,w,cohort,U3P8 U3P4 U6P12 U8P10
+B2.1,3,L1,c,absolute risk,U3P3 U3P11 U5P12 U6P10
+B2.1,3,L1,c,relative risk,U3P3 U3P11 U6P12 U8P2
+B2.1,3,L1,c,a doubling of risk,U3P10 U3P3 U4P12 U5P5
+B2.1,3,L1,c,the base rate,U3P11 U3P4 U4P12 U6P5
+B2.1,3,L1,c,statistically significant,U3P5 U3P8 U5P12 U7P5
+B2.1,3,L1,c,a causal link,U3P4 U3P11 U7P12 U8P10
+B2.1,3,L1,c,the margin of error,U3P3 U3P5 U8P12 U9P2
+B2.1,3,L1,c,peer reviewed,U3P4 U3P3 U5P12 U9P10
+B2.1,3,L1,c,a preprint,U3P5 U3P3 U6P12 U8P10
+B2.1,3,L1,c,a press release,U3P4 U3P11 U4P12 U8P2
+B2.1,3,L1,p,scale up,U3P8 U3P4 U5P12 U6P10
+B2.1,3,L1,p,rule out,U3P11 U3P5 U6P12 U7P10
+B2.1,3,L1,p,bear in mind,U3P4 U3P3 U4P12 U8P10
+B2.1,3,L1,f,the evidence does not support that,U3P5 U3P8 U7P12 U8P5
+B2.1,3,L1,f,it may well be,U3P3 U3P10 U4P12 U10P10
+B2.1,3,L1,f,we cannot rule it out,U3P11 U3P5 U5P12 U7P9
+B2.1,3,L2,w,conceivably,U3P11 U3P3 U5P12 U8P2
+B2.1,3,L2,w,arguably,U3P8 U3P5 U7P12 U8P2
+B2.1,3,L2,w,presumably,U3P4 U3P11 U4P12 U7P10
+B2.1,3,L2,w,ostensibly,U3P11 U3P8 U6P12 U9P2
+B2.1,3,L2,w,allegedly,U3P3 U3P5 U4P12 U9P2
+B2.1,3,L2,w,reportedly,U3P4 U3P3 U4P12 U7P5
+B2.1,3,L2,w,demonstrably,U3P5 U3P11 U6P12 U9P2
+B2.1,3,L2,w,unequivocally,U3P4 U3P11 U4P12 U8P10
+B2.1,3,L2,c,is likely to,U3P5 U3P10 U5P12 U6P9
+B2.1,3,L2,c,is bound to,U3P11 U3P10 U4P12 U6P10
+B2.1,3,L2,c,might well have,U3P10 U3P8 U7P12 U9P10
+B2.1,3,L2,c,could hardly have,U3P3 U3P4 U5P12 U8P2
+B2.1,3,L2,c,must surely be,U3P4 U3P8 U5P12 U9P5
+B2.1,3,L2,c,may or may not,U3P10 U3P11 U4P12 U8P9
+B2.1,3,L2,c,is said to,U3P4 U3P8 U4P12 U5P10
+B2.1,3,L2,c,has yet to be,U3P11 U3P10 U5P12 U10P9
+B2.1,3,L2,p,hedge about,U3P3 U3P8 U6P12 U10P2
+B2.1,3,L2,p,come down on,U3P4 U3P3 U6P12 U10P9
+B2.1,3,L2,p,hold back,U3P8 U3P5 U4P12 U8P2
+B2.1,3,L2,f,on the balance of probability,U3P5 U3P11 U9P12 U10P10
+B2.1,3,L2,f,to the best of our knowledge,U3P4 U3P5 U4P12 U7P9
+B2.1,3,L2,f,that is overstating it,U3P5 U3P3 U5P12 U9P5
+B2.1,4,L1,w,forecast,U4P8 U4P3 U7P12 U10P9
+B2.1,4,L1,w,projection,U4P8 U4P5 U9P12 U10P2
+B2.1,4,L1,w,scenario,U4P8 U4P10 U5P12 U6P9
+B2.1,4,L1,w,trajectory,U4P5 U4P11 U7P12 U9P10
+B2.1,4,L1,w,revision,U4P3 U4P5 U5P12 U9P10
+B2.1,4,L1,w,hindsight,U4P8 U4P4 U5P12 U9P2
+B2.1,4,L1,w,foresight,U4P5 U4P8 U5P12 U7P9
+B2.1,4,L1,w,contingency,U4P4 U4P11 U8P12 U10P10
+B2.1,4,L1,w,overrun,U4P10 U4P5 U6P12 U7P10
+B2.1,4,L1,w,shortfall,U4P11 U4P5 U5P12 U7P2
+B2.1,4,L1,w,horizon,U4P3 U4P10 U6P12 U8P9
+B2.1,4,L1,w,assumption,U4P10 U4P8 U7P12 U8P9
+B2.1,4,L1,c,on current trends,U4P8 U4P5 U5P12 U10P5
+B2.1,4,L1,c,a worst case,U4P10 U4P4 U5P12 U9P9
+B2.1,4,L1,c,the central estimate,U4P4 U4P8 U7P12 U8P9
+B2.1,4,L1,c,revised downwards,U4P5 U4P8 U6P12 U7P10
+B2.1,4,L1,c,with hindsight,U4P4 U4P5 U5P12 U6P2
+B2.1,4,L1,c,as things turned out,U4P8 U4P11 U8P12 U9P10
+B2.1,4,L1,c,the plan was to,U4P10 U4P3 U6P12 U7P9
+B2.1,4,L1,c,a missed deadline,U4P11 U4P10 U6P12 U8P5
+B2.1,4,L1,c,an optimistic forecast,U4P5 U4P4 U7P12 U8P2
+B2.1,4,L1,c,the gap between,U4P8 U4P3 U6P12 U10P10
+B2.1,4,L1,p,fall through,U4P8 U4P4 U7P12 U9P2
+B2.1,4,L1,p,come off,U4P3 U4P10 U7P12 U10P5
+B2.1,4,L1,p,hold up,U4P10 U4P8 U5P12 U10P9
+B2.1,4,L1,f,it was supposed to be,U4P4 U4P3 U5P12 U8P10
+B2.1,4,L1,f,that never happened,U4P11 U4P10 U6P12 U8P5
+B2.1,4,L1,f,nobody saw it coming,U4P11 U4P8 U5P12 U10P5
+B2.1,4,L2,w,eventually,U4P11 U4P10 U6P12 U8P9
+B2.1,4,L2,w,ultimately,U4P10 U4P4 U8P12 U10P2
+B2.1,4,L2,w,subsequently,U4P8 U4P11 U7P12 U8P10
+B2.1,4,L2,w,originally,U4P5 U4P4 U8P12 U10P9
+B2.1,4,L2,w,formerly,U4P5 U4P3 U7P12 U9P2
+B2.1,4,L2,w,latterly,U4P5 U4P8 U6P12 U10P2
+B2.1,4,L2,w,prospectively,U4P11 U4P8 U5P12 U9P9
+B2.1,4,L2,w,retrospectively,U4P3 U4P10 U7P12 U10P5
+B2.1,4,L2,c,was going to,U4P8 U4P10 U5P12 U8P2
+B2.1,4,L2,c,was due to,U4P3 U4P11 U6P12 U10P5
+B2.1,4,L2,c,was about to,U4P11 U4P8 U5P12 U6P10
+B2.1,4,L2,c,would have been,U4P8 U4P3 U5P12 U7P2
+B2.1,4,L2,c,had intended to,U4P11 U4P3 U5P12 U6P10
+B2.1,4,L2,c,was to have been,U4P8 U4P4 U5P12 U7P5
+B2.1,4,L2,c,would later,U4P5 U4P10 U8P12 U10P5
+B2.1,4,L2,c,as it would turn out,U4P8 U4P5 U7P12 U10P5
+B2.1,4,L2,p,back out,U4P5 U4P8 U5P12 U8P2
+B2.1,4,L2,p,pull out,U4P11 U4P10 U5P12 U8P9
+B2.1,4,L2,p,call off,U4P8 U4P10 U5P12 U9P9
+B2.1,4,L2,f,it would be years before,U4P4 U4P8 U5P12 U7P2
+B2.1,4,L2,f,that was the plan,U4P11 U4P3 U5P12 U7P2
+B2.1,4,L2,f,in the event,U4P11 U4P8 U7P12 U8P2
+B2.1,5,L1,w,clause,U5P3 U5P4 U6P12 U9P5
+B2.1,5,L1,w,term,U5P3 U5P4 U6P12 U10P5
+B2.1,5,L1,w,undertaking,U5P3 U5P10 U7P12 U8P5
+B2.1,5,L1,w,waiver,U5P10 U5P3 U8P12 U10P10
+B2.1,5,L1,w,indemnity,U5P11 U5P4 U7P12 U9P9
+B2.1,5,L1,w,precedent,U5P10 U5P11 U6P12 U9P2
+B2.1,5,L1,w,covenant,U5P4 U5P5 U6P12 U8P10
+B2.1,5,L1,w,breach,U5P5 U5P3 U7P12 U8P10
+B2.1,5,L1,w,remedy,U5P8 U5P5 U6P12 U9P10
+B2.1,5,L1,w,settlement,U5P8 U5P4 U6P12 U10P2
+B2.1,5,L1,w,arbitration,U5P3 U5P10 U7P12 U10P5
+B2.1,5,L1,w,concession,U5P10 U5P3 U8P12 U9P5
+B2.1,5,L1,c,subject to contract,U5P4 U5P8 U9P12 U10P10
+B2.1,5,L1,c,on the understanding that,U5P8 U5P10 U7P12 U10P10
+B2.1,5,L1,c,without prejudice,U5P4 U5P8 U7P12 U9P10
+B2.1,5,L1,c,a material breach,U5P4 U5P8 U7P12 U10P10
+B2.1,5,L1,c,in good faith,U5P11 U5P4 U7P12 U9P2
+B2.1,5,L1,c,the governing law,U5P3 U5P5 U8P12 U10P2
+B2.1,5,L1,c,a break clause,U5P10 U5P4 U8P12 U10P5
+B2.1,5,L1,c,terms and conditions,U5P5 U5P4 U7P12 U9P5
+B2.1,5,L1,c,a side letter,U5P5 U5P4 U7P12 U10P10
+B2.1,5,L1,c,to the extent that,U5P8 U5P5 U6P12 U7P9
+B2.1,5,L1,p,hammer out,U5P3 U5P10 U9P12 U10P10
+B2.1,5,L1,p,draw up,U5P8 U5P11 U7P12 U8P2
+B2.1,5,L1,p,water down,U5P3 U5P11 U6P12 U7P10
+B2.1,5,L1,f,that is not what we agreed,U5P5 U5P10 U6P12 U7P10
+B2.1,5,L1,f,we can live with that,U5P10 U5P4 U6P12 U8P5
+B2.1,5,L1,f,it depends what you mean by,U5P8 U5P5 U7P12 U10P5
+B2.1,5,L2,w,provided,U5P11 U5P3 U7P12 U9P2
+B2.1,5,L2,w,supposing,U5P4 U5P11 U6P12 U8P10
+B2.1,5,L2,w,unless,U5P5 U5P3 U8P12 U10P5
+B2.1,5,L2,w,otherwise,U5P8 U5P10 U6P12 U9P2
+B2.1,5,L2,w,failing,U5P10 U5P4 U8P12 U9P5
+B2.1,5,L2,w,absent,U5P4 U5P10 U7P12 U9P2
+B2.1,5,L2,w,notwithstanding,U5P10 U5P5 U6P12 U8P5
+B2.1,5,L2,w,insofar,U5P5 U5P10 U6P12 U7P10
+B2.1,5,L2,c,as long as,U5P5 U5P10 U8P12 U9P2
+B2.1,5,L2,c,on condition that,U5P4 U5P11 U6P12 U7P2
+B2.1,5,L2,c,in the event that,U5P11 U5P5 U6P12 U10P10
+B2.1,5,L2,c,but for,U5P4 U5P10 U7P12 U9P10
+B2.1,5,L2,c,were it not for,U5P10 U5P4 U7P12 U8P10
+B2.1,5,L2,c,given that,U5P4 U5P11 U6P12 U8P10
+B2.1,5,L2,c,assuming that,U5P10 U5P3 U8P12 U9P5
+B2.1,5,L2,c,only if,U5P5 U5P8 U6P12 U10P10
+B2.1,5,L2,p,fall back on,U5P8 U5P10 U8P12 U9P2
+B2.1,5,L2,p,hold out for,U5P10 U5P11 U8P12 U10P9
+B2.1,5,L2,p,give in,U5P5 U5P4 U6P12 U8P10
+B2.1,5,L2,f,but for that,U5P3 U5P8 U7P12 U10P2
+B2.1,5,L2,f,all other things being equal,U5P8 U5P11 U6P12 U7P9
+B2.1,5,L2,f,that is conditional on,U5P4 U5P10 U6P12 U7P5
+B2.1,6,L1,w,explanation,U6P3 U6P4 U8P12 U9P2
+B2.1,6,L1,w,emphasis,U6P4 U6P11 U7P12 U10P9
+B2.1,6,L1,w,clarity,U6P8 U6P11 U7P12 U8P5
+B2.1,6,L1,w,ambiguity,U6P4 U6P5 U7P12 U9P5
+B2.1,6,L1,w,paraphrase,U6P5 U6P4 U7P12 U8P10
+B2.1,6,L1,w,analogy,U6P8 U6P11 U9P12 U10P5
+B2.1,6,L1,w,scaffolding,U6P5 U6P3 U8P12 U10P10
+B2.1,6,L1,w,misconception,U6P10 U6P3 U8P12 U9P10
+B2.1,6,L1,w,demonstration,U6P10 U6P5 U9P12 U10P9
+B2.1,6,L1,w,prerequisite,U6P8 U6P4 U7P12 U9P5
+B2.1,6,L1,w,intuition,U6P4 U6P3 U7P12 U10P5
+B2.1,6,L1,w,abstraction,U6P4 U6P10 U7P12 U10P2
+B2.1,6,L1,c,the key point is,U6P8 U6P10 U8P12 U9P10
+B2.1,6,L1,c,what matters here,U6P3 U6P5 U7P12 U10P10
+B2.1,6,L1,c,a worked example,U6P10 U6P5 U8P12 U10P9
+B2.1,6,L1,c,in other words,U6P4 U6P3 U8P12 U10P5
+B2.1,6,L1,c,to put it another way,U6P3 U6P4 U8P12 U10P2
+B2.1,6,L1,c,the thing to notice,U6P10 U6P3 U8P12 U9P10
+B2.1,6,L1,c,a common misconception,U6P4 U6P8 U9P12 U10P9
+B2.1,6,L1,c,step by step,U6P5 U6P10 U8P12 U9P9
+B2.1,6,L1,c,from first principles,U6P5 U6P8 U7P12 U9P2
+B2.1,6,L1,c,the short answer,U6P4 U6P10 U7P12 U8P10
+B2.1,6,L1,p,go over,U6P5 U6P11 U9P12 U10P9
+B2.1,6,L1,p,break down,U6P10 U6P11 U7P12 U9P5
+B2.1,6,L1,p,spell out,U6P10 U6P11 U7P12 U9P2
+B2.1,6,L1,f,let me put it another way,U6P10 U6P3 U9P12 U10P5
+B2.1,6,L1,f,the point I am making is,U6P5 U6P8 U7P12 U10P10
+B2.1,6,L1,f,that is the whole idea,U6P3 U6P10 U9P12 U10P10
+B2.1,6,L2,w,namely,U6P8 U6P11 U8P12 U10P10
+B2.1,6,L2,w,specifically,U6P5 U6P3 U7P12 U10P9
+B2.1,6,L2,w,precisely,U6P5 U6P3 U9P12 U10P5
+B2.1,6,L2,w,chiefly,U6P4 U6P11 U9P12 U10P2
+B2.1,6,L2,w,notably,U6P11 U6P8 U8P12 U9P2
+B2.1,6,L2,w,essentially,U6P8 U6P3 U9P12 U10P2
+B2.1,6,L2,w,fundamentally,U6P11 U6P4 U8P12 U9P2
+B2.1,6,L2,w,crucially,U6P8 U6P4 U8P12 U10P9
+B2.1,6,L2,c,what matters is,U6P8 U6P10 U9P12 U10P10
+B2.1,6,L2,c,the reason is that,U6P3 U6P8 U7P12 U8P2
+B2.1,6,L2,c,all I did was,U6P4 U6P10 U7P12 U9P2
+B2.1,6,L2,c,the thing that,U6P4 U6P8 U7P12 U8P9
+B2.1,6,L2,c,where it goes wrong is,U6P10 U6P4 U8P12 U9P5
+B2.1,6,L2,c,what happened was,U6P4 U6P3 U9P12 U10P2
+B2.1,6,L2,c,that is why,U6P3 U6P8 U7P12 U9P2
+B2.1,6,L2,c,it was then that,U6P3 U6P10 U7P12 U9P5
+B2.1,6,L2,p,boil down to,U6P10 U6P4 U8P12 U9P10
+B2.1,6,L2,p,come down to,U6P4 U6P3 U7P12 U9P5
+B2.1,6,L2,p,point out,U6P11 U6P5 U8P12 U9P2
+B2.1,6,L2,f,it is not that,U6P8 U6P11 U9P12 U10P2
+B2.1,6,L2,f,what I mean is,U6P10 U6P8 U9P12 U10P5
+B2.1,6,L2,f,this is the bit that,U6P3 U6P8 U8P12 U10P2
+B2.1,7,L1,w,measurement,U7P5 U7P3 U8P12 U10P5
+B2.1,7,L1,w,calibration,U7P5 U7P3 U9P12 U10P2
+B2.1,7,L1,w,anomaly,U7P10 U7P3 U8P12 U10P2
+B2.1,7,L1,w,benchmark,U7P5 U7P11 U8P12 U9P10
+B2.1,7,L1,w,aggregation,U7P11 U7P5 U8P12 U10P9
+B2.1,7,L1,w,granularity,U7P5 U7P4 U8P12 U9P9
+B2.1,7,L1,w,resolution,U7P11 U7P10 U8P12 U9P9
+B2.1,7,L1,w,variance,U7P3 U7P8 U8P12 U10P5
+B2.1,7,L1,w,uncertainty,U7P10 U7P3 U8P12 U9P9
+B2.1,7,L1,w,proxy,U7P11 U7P4 U9P12 U10P9
+B2.1,7,L1,w,metric,U7P8 U7P11 U9P12 U10P10
+B2.1,7,L1,w,series,U7P11 U7P4 U8P12 U10P9
+B2.1,7,L1,c,a rolling average,U7P5 U7P4 U8P12 U9P2
+B2.1,7,L1,c,the y axis,U7P3 U7P10 U8P12 U9P10
+B2.1,7,L1,c,a truncated scale,U7P10 U7P4 U8P12 U9P2
+B2.1,7,L1,c,a cherry-picked window,U7P3 U7P8 U8P12 U10P10
+B2.1,7,L1,c,year on year,U7P11 U7P4 U8P12 U9P9
+B2.1,7,L1,c,the underlying data,U7P5 U7P3 U8P12 U9P5
+B2.1,7,L1,c,a data point,U7P11 U7P8 U8P12 U9P2
+B2.1,7,L1,c,a reporting period,U7P10 U7P5 U8P12 U10P9
+B2.1,7,L1,c,a confidence band,U7P5 U7P8 U9P12 U10P2
+B2.1,7,L1,c,the raw figures,U7P5 U7P3 U8P12 U10P2
+B2.1,7,L1,p,smooth out,U7P10 U7P4 U8P12 U9P10
+B2.1,7,L1,p,filter out,U7P10 U7P11 U9P12 U10P9
+B2.1,7,L1,p,level off,U7P10 U7P4 U8P12 U9P10
+B2.1,7,L1,f,the chart does not show,U7P5 U7P10 U9P12 U10P10
+B2.1,7,L1,f,that is a different question,U7P3 U7P5 U8P12 U9P9
+B2.1,7,L1,f,compared with what?,U7P4 U7P8 U8P12 U10P10
+B2.1,7,L2,w,reduction,U7P3 U7P5 U9P12 U10P2
+B2.1,7,L2,w,expansion,U7P8 U7P10 U9P12 U10P2
+B2.1,7,L2,w,deterioration,U7P5 U7P8 U9P12 U10P5
+B2.1,7,L2,w,improvement,U7P3 U7P8 U8P12 U10P10
+B2.1,7,L2,w,implementation,U7P4 U7P3 U9P12 U10P5
+B2.1,7,L2,w,acknowledgement,U7P10 U7P4 U8P12 U9P2
+B2.1,7,L2,w,assessment,U7P11 U7P10 U8P12 U10P10
+B2.1,7,L2,w,derivation,U7P3 U7P5 U8P12 U10P5
+B2.1,7,L2,c,the reduction of,U7P11 U7P3 U8P12 U10P10
+B2.1,7,L2,c,a deterioration in,U7P8 U7P3 U8P12 U9P9
+B2.1,7,L2,c,the implementation of,U7P3 U7P8 U8P12 U10P2
+B2.1,7,L2,c,an increase in,U7P10 U7P3 U9P12 U10P10
+B2.1,7,L2,c,subject to revision,U7P3 U7P4 U8P12 U9P9
+B2.1,7,L2,c,in the order of,U7P3 U7P8 U9P12 U10P5
+B2.1,7,L2,c,a matter of,U7P11 U7P8 U8P12 U9P10
+B2.1,7,L2,c,the question of,U7P8 U7P5 U9P12 U10P5
+B2.1,7,L2,p,account for,U7P4 U7P10 U9P12 U10P10
+B2.1,7,L2,p,allow for,U7P3 U7P8 U8P12 U10P2
+B2.1,7,L2,p,factor in,U7P5 U7P11 U8P12 U10P2
+B2.1,7,L2,f,that is a nominalisation,U7P8 U7P4 U9P12 U10P2
+B2.1,7,L2,f,who did what to whom,U7P3 U7P10 U8P12 U9P10
+B2.1,7,L2,f,the verb has gone missing,U7P5 U7P4 U8P12 U10P5
+B2.1,8,L1,w,edit,U8P10 U8P4 U9P12 U10P2
+B2.1,8,L1,w,cut,U8P11 U8P5 U9P12 U10P2
+B2.1,8,L1,w,trim,U8P4 U8P10 U9P12 U10P9
+B2.1,8,L1,w,abstract,U8P11 U8P5 U9P12 U10P10
+B2.1,8,L1,w,caption,U8P11 U8P10 U9P12 U10P9
+B2.1,8,L1,w,standfirst,U8P5 U8P3 U9P12 U10P5
+B2.1,8,L1,w,kicker,U8P3 U8P11 U9P12 U10P9
+B2.1,8,L1,w,redundancy,U8P4 U8P8 U9P12 U10P5
+B2.1,8,L1,w,verbosity,U8P8 U8P5 U9P12 U10P9
+B2.1,8,L1,w,concision,U8P10 U8P11 U9P12 U10P10
+B2.1,8,L1,w,draft,U8P10 U8P5 U9P12 U10P9
+B2.1,8,L1,w,proof,U8P8 U8P11 U9P12 U10P9
+B2.1,8,L1,c,a first pass,U8P4 U8P3 U9P12 U10P2
+B2.1,8,L1,c,kill a paragraph,U8P5 U8P4 U9P12 U10P10
+B2.1,8,L1,c,tighten it up,U8P11 U8P8 U9P12 U10P5
+B2.1,8,L1,c,the word count,U8P3 U8P5 U9P12 U10P5
+B2.1,8,L1,c,down to length,U8P10 U8P5 U9P12 U10P5
+B2.1,8,L1,c,an edited version,U8P10 U8P11 U9P12 U10P9
+B2.1,8,L1,c,a working draft,U8P8 U8P4 U9P12 U10P9
+B2.1,8,L1,c,the final cut,U8P3 U8P11 U9P12 U10P9
+B2.1,8,L1,c,a hard cut,U8P10 U8P11 U9P12 U10P2
+B2.1,8,L1,c,what survives,U8P11 U8P5 U9P12 U10P9
+B2.1,8,L1,p,cut down,U8P10 U8P5 U9P12 U10P2
+B2.1,8,L1,p,chop out,U8P8 U8P11 U9P12 U10P10
+B2.1,8,L1,p,pare back,U8P11 U8P4 U9P12 U10P5
+B2.1,8,L1,f,it can go,U8P10 U8P5 U9P12 U10P5
+B2.1,8,L1,f,we are over by forty,U8P4 U8P8 U9P12 U10P9
+B2.1,8,L1,f,nobody will miss it,U8P5 U8P10 U9P12 U10P10
+B2.1,8,L2,w,one,U8P11 U8P10 U9P12 U10P2
+B2.1,8,L2,w,ones,U8P10 U8P3 U9P12 U10P10
+B2.1,8,L2,w,so,U8P10 U8P5 U9P12 U10P9
+B2.1,8,L2,w,such,U8P5 U8P4 U9P12 U10P10
+B2.1,8,L2,w,neither,U8P10 U8P3 U9P12 U10P9
+B2.1,8,L2,w,either,U8P5 U8P10 U9P12 U10P9
+B2.1,8,L2,w,likewise,U8P11 U8P3 U9P12 U10P5
+B2.1,8,L2,w,elsewhere,U8P4 U8P10 U9P12 U10P10
+B2.1,8,L2,c,do so,U8P8 U8P5 U9P12 U10P10
+B2.1,8,L2,c,do it,U8P4 U8P10 U9P12 U10P2
+B2.1,8,L2,c,the same,U8P11 U8P4 U9P12 U10P2
+B2.1,8,L2,c,if so,U8P3 U8P11 U9P12 U10P5
+B2.1,8,L2,c,if not,U8P4 U8P5 U9P12 U10P10
+B2.1,8,L2,c,as such,U8P8 U8P11 U9P12 U10P5
+B2.1,8,L2,c,the former,U8P3 U8P4 U9P12 U10P5
+B2.1,8,L2,c,the latter,U8P4 U8P3 U9P12 U10P2
+B2.1,8,L2,p,leave out,U8P5 U8P10 U9P12 U10P9
+B2.1,8,L2,p,stand in for,U8P3 U8P8 U9P12 U10P2
+B2.1,8,L2,p,do without,U8P11 U8P5 U9P12 U10P10
+B2.1,8,L2,f,so does mine,U8P8 U8P10 U9P12 U10P2
+B2.1,8,L2,f,neither did I,U8P11 U8P10 U9P12 U10P5
+B2.1,8,L2,f,I will if you will,U8P11 U8P4 U9P12 U10P2
+B2.1,9,L1,w,desk,U9P10 U9P8 U10P12 nextbookP12
+B2.1,9,L1,w,deadline,U9P10 U9P8 U10P12 nextbookP12
+B2.1,9,L1,w,spike,U9P4 U9P11 U10P12 nextbookP12
+B2.1,9,L1,w,slot,U9P8 U9P3 U10P12 nextbookP12
+B2.1,9,L1,w,splash,U9P5 U9P10 U10P12 nextbookP12
+B2.1,9,L1,w,subeditor,U9P5 U9P10 U10P12 nextbookP12
+B2.1,9,L1,w,copytaster,U9P3 U9P8 U10P12 nextbookP12
+B2.1,9,L1,w,galley,U9P4 U9P3 U10P12 nextbookP12
+B2.1,9,L1,w,conference,U9P11 U9P8 U10P12 nextbookP12
+B2.1,9,L1,w,style guide,U9P4 U9P8 U10P12 nextbookP12
+B2.1,9,L1,w,house style,U9P5 U9P10 U10P12 nextbookP12
+B2.1,9,L1,w,wire,U9P5 U9P3 U10P12 nextbookP12
+B2.1,9,L1,c,the back of the book,U9P8 U9P4 U10P12 nextbookP12
+B2.1,9,L1,c,above the fold,U9P8 U9P11 U10P12 nextbookP12
+B2.1,9,L1,c,a late change,U9P4 U9P10 U10P12 nextbookP12
+B2.1,9,L1,c,hold the front page,U9P5 U9P10 U10P12 nextbookP12
+B2.1,9,L1,c,on the stone,U9P11 U9P5 U10P12 nextbookP12
+B2.1,9,L1,c,the second edition,U9P3 U9P5 U10P12 nextbookP12
+B2.1,9,L1,c,a slow news day,U9P3 U9P4 U10P12 nextbookP12
+B2.1,9,L1,c,the news list,U9P3 U9P11 U10P12 nextbookP12
+B2.1,9,L1,c,a running order,U9P5 U9P3 U10P12 nextbookP12
+B2.1,9,L1,c,filed on time,U9P10 U9P11 U10P12 nextbookP12
+B2.1,9,L1,p,send through,U9P8 U9P10 U10P12 nextbookP12
+B2.1,9,L1,p,turn around,U9P8 U9P11 U10P12 nextbookP12
+B2.1,9,L1,p,sit on,U9P5 U9P11 U10P12 nextbookP12
+B2.1,9,L1,f,we are going with it,U9P8 U9P5 U10P12 nextbookP12
+B2.1,9,L1,f,that is a splash,U9P4 U9P10 U10P12 nextbookP12
+B2.1,9,L1,f,it will not make the paper,U9P11 U9P3 U10P12 nextbookP12
+B2.1,9,L2,w,however,U9P11 U9P4 U10P12 nextbookP12
+B2.1,9,L2,w,nevertheless,U9P10 U9P8 U10P12 nextbookP12
+B2.1,9,L2,w,meanwhile,U9P8 U9P5 U10P12 nextbookP12
+B2.1,9,L2,w,accordingly,U9P10 U9P11 U10P12 nextbookP12
+B2.1,9,L2,w,hence,U9P5 U9P8 U10P12 nextbookP12
+B2.1,9,L2,w,thereby,U9P4 U9P8 U10P12 nextbookP12
+B2.1,9,L2,w,whereby,U9P4 U9P3 U10P12 nextbookP12
+B2.1,9,L2,w,thereafter,U9P3 U9P8 U10P12 nextbookP12
+B2.1,9,L2,c,in the first place,U9P3 U9P5 U10P12 nextbookP12
+B2.1,9,L2,c,that said,U9P11 U9P10 U10P12 nextbookP12
+B2.1,9,L2,c,for one thing,U9P4 U9P8 U10P12 nextbookP12
+B2.1,9,L2,c,as it happens,U9P11 U9P3 U10P12 nextbookP12
+B2.1,9,L2,c,to begin with,U9P4 U9P8 U10P12 nextbookP12
+B2.1,9,L2,c,by contrast,U9P4 U9P11 U10P12 nextbookP12
+B2.1,9,L2,c,in any case,U9P3 U9P8 U10P12 nextbookP12
+B2.1,9,L2,c,on the other hand,U9P11 U9P4 U10P12 nextbookP12
+B2.1,9,L2,p,move on,U9P3 U9P8 U10P12 nextbookP12
+B2.1,9,L2,p,come back to,U9P11 U9P5 U10P12 nextbookP12
+B2.1,9,L2,p,go on to,U9P11 U9P5 U10P12 nextbookP12
+B2.1,9,L2,f,having said that,U9P11 U9P5 U10P12 nextbookP12
+B2.1,9,L2,f,the point being,U9P8 U9P10 U10P12 nextbookP12
+B2.1,9,L2,f,which brings me to,U9P4 U9P11 U10P12 nextbookP12
+B2.1,10,L1,w,framing,U10P11 U10P5 nextbookP12 nextbookP12
+B2.1,10,L1,w,headline,U10P8 U10P11 nextbookP12 nextbookP12
+B2.1,10,L1,w,neighbourhood,U10P8 U10P10 nextbookP12 nextbookP12
+B2.1,10,L1,w,gentrification,U10P10 U10P3 nextbookP12 nextbookP12
+B2.1,10,L1,w,displacement,U10P4 U10P11 nextbookP12 nextbookP12
+B2.1,10,L1,w,zoning,U10P3 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,w,tenure,U10P3 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,w,boundary,U10P10 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,w,ward,U10P3 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,w,demographic,U10P3 U10P4 nextbookP12 nextbookP12
+B2.1,10,L1,w,stereotype,U10P5 U10P4 nextbookP12 nextbookP12
+B2.1,10,L1,w,resident,U10P5 U10P10 nextbookP12 nextbookP12
+B2.1,10,L1,c,the north end,U10P8 U10P3 nextbookP12 nextbookP12
+B2.1,10,L1,c,a problem neighbourhood,U10P11 U10P3 nextbookP12 nextbookP12
+B2.1,10,L1,c,long-term residents,U10P5 U10P10 nextbookP12 nextbookP12
+B2.1,10,L1,c,the same six streets,U10P4 U10P3 nextbookP12 nextbookP12
+B2.1,10,L1,c,named in the headline,U10P11 U10P10 nextbookP12 nextbookP12
+B2.1,10,L1,c,a postcode in a headline,U10P10 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,c,who is quoted,U10P3 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,c,the first paragraph,U10P3 U10P8 nextbookP12 nextbookP12
+B2.1,10,L1,c,an outsider's view,U10P5 U10P4 nextbookP12 nextbookP12
+B2.1,10,L1,c,the local paper,U10P3 U10P10 nextbookP12 nextbookP12
+B2.1,10,L1,p,move in,U10P11 U10P3 nextbookP12 nextbookP12
+B2.1,10,L1,p,price out,U10P3 U10P4 nextbookP12 nextbookP12
+B2.1,10,L1,p,build over,U10P5 U10P11 nextbookP12 nextbookP12
+B2.1,10,L1,f,nobody from there was asked,U10P8 U10P3 nextbookP12 nextbookP12
+B2.1,10,L1,f,that is not what it is called,U10P5 U10P10 nextbookP12 nextbookP12
+B2.1,10,L1,f,whose city is this?,U10P8 U10P10 nextbookP12 nextbookP12
+B2.1,10,L2,w,rarely,U10P4 U10P11 nextbookP12 nextbookP12
+B2.1,10,L2,w,seldom,U10P3 U10P11 nextbookP12 nextbookP12
+B2.1,10,L2,w,scarcely,U10P8 U10P10 nextbookP12 nextbookP12
+B2.1,10,L2,w,hardly,U10P10 U10P4 nextbookP12 nextbookP12
+B2.1,10,L2,w,nowhere,U10P5 U10P8 nextbookP12 nextbookP12
+B2.1,10,L2,w,never,U10P10 U10P3 nextbookP12 nextbookP12
+B2.1,10,L2,w,little,U10P4 U10P10 nextbookP12 nextbookP12
+B2.1,10,L2,w,only,U10P5 U10P3 nextbookP12 nextbookP12
+B2.1,10,L2,c,not only,U10P8 U10P5 nextbookP12 nextbookP12
+B2.1,10,L2,c,no sooner,U10P4 U10P8 nextbookP12 nextbookP12
+B2.1,10,L2,c,only then,U10P11 U10P4 nextbookP12 nextbookP12
+B2.1,10,L2,c,at no point,U10P10 U10P11 nextbookP12 nextbookP12
+B2.1,10,L2,c,under no circumstances,U10P5 U10P8 nextbookP12 nextbookP12
+B2.1,10,L2,c,so rarely does,U10P8 U10P4 nextbookP12 nextbookP12
+B2.1,10,L2,c,such was the,U10P10 U10P5 nextbookP12 nextbookP12
+B2.1,10,L2,c,little did,U10P5 U10P10 nextbookP12 nextbookP12
+B2.1,10,L2,p,set out,U10P11 U10P5 nextbookP12 nextbookP12
+B2.1,10,L2,p,single out,U10P5 U10P10 nextbookP12 nextbookP12
+B2.1,10,L2,p,point up,U10P4 U10P11 nextbookP12 nextbookP12
+B2.1,10,L2,f,never before had,U10P11 U10P4 nextbookP12 nextbookP12
+B2.1,10,L2,f,not once did,U10P4 U10P8 nextbookP12 nextbookP12
+B2.1,10,L2,f,only when,U10P3 U10P8 nextbookP12 nextbookP12

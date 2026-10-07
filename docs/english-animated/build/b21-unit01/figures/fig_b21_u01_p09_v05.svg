@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<title>Four claims a learner makes, and the evidence behind them</title>
+<desc>A table of four claims learners commonly make about their own English with the evidence, corroboration, date of last test and the cost of each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="980" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="770" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="770" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">CLAIMS ABOUT MY OWN ENGLISH  -  AN AUDIT</text>
+<rect x="140" y="196" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">CLAIM</text>
+<text x="403.33333333333337" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">EVIDENCE</text>
+<text x="656.6666666666667" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">LAST TESTED</text>
+<text x="150.0" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;MY GRAMMAR IS BAD&quot;</text>
+<text x="403.33333333333337" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ONE MARKED ESSAY</text>
+<text x="656.6666666666667" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2021</text>
+<line x1="140" y1="256" x2="900" y2="256" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;I CAN'T UNDERSTAND FILMS&quot;</text>
+<text x="403.33333333333337" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ONE FILM, SOUND LOW</text>
+<text x="656.6666666666667" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2022</text>
+<line x1="140" y1="286" x2="900" y2="286" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;MY ACCENT IS THE PROBLEM&quot;</text>
+<text x="403.33333333333337" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ONE COMMENT, 2019</text>
+<text x="656.6666666666667" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2019</text>
+<line x1="140" y1="316" x2="900" y2="316" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;I HAVE A BAD MEMORY&quot;</text>
+<text x="403.33333333333337" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NONE</text>
+<text x="656.6666666666667" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NEVER</text>
+<line x1="140" y1="346" x2="900" y2="346" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="374" x2="910" y2="374" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="410" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT EACH ONE HAS COST</text>
+<text x="140" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;My grammar is bad&quot;</text>
+<text x="410" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">four years of avoiding writing</text>
+<text x="140" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;I can't understand films&quot;</text>
+<text x="410" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no unscripted input at all</text>
+<text x="140" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;My accent is the problem&quot;</text>
+<text x="410" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">reduced speaking, raised anxiety</text>
+<text x="140" y="536" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;I have a bad memory&quot;</text>
+<text x="410" y="536" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no system, because systems are for other people</text>
+<line x1="130" y1="568" x2="910" y2="568" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="604" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">CORROBORATION</text>
+<text x="140" y="634" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Claims with a second source</text>
+<text x="410" y="634" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0 of 4</text>
+<text x="140" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Claims with a date</text>
+<text x="410" y="666" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3 of 4</text>
+<text x="140" y="698" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Claims tested in the last year</text>
+<text x="410" y="698" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0 of 4</text>
+<line x1="130" y1="730" x2="910" y2="730" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="752.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Every one of these would be held by a standards editor. All four</text>
+<text x="140" y="773.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">have been running as settled fact for between two and six years,</text>
+<text x="140" y="795.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">and each of them is doing more damage than the deficiency it</text>
+<text x="140" y="817.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">describes.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four claims a learner makes, and the evidence behind them</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each claim was made this term. Each has been acted on for years.</text>
+<circle cx="934" cy="227.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 227.8 L 1024 227.8 L 1024 227.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="232.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One essay, four years ago, marked</text>
+<text x="1040" y="253.10000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">by one person</text>
+<circle cx="934" cy="289.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 289.4 L 1024 289.4 L 1024 289.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="294.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One film, and the sound was low</text>
+<circle cx="934" cy="381.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 381.8 L 1024 381.8 L 1024 381.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="386.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">No evidence at all, and the</text>
+<text x="1040" y="407.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">longest-running of the four</text>
+<circle cx="934" cy="582.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 582.0 L 1024 582.0 L 1024 582.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="587.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The cost is never the belief. It</text>
+<text x="1040" y="607.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is the behaviour it licenses</text>
+<circle cx="934" cy="813.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 813.0 L 1024 813.0 L 1024 813.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="818.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">None of the four would survive the</text>
+<text x="1040" y="838.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">questions in 9C</text>
+</g>
+</svg>

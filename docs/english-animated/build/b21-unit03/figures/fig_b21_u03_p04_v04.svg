@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<title>The same study, written twice</title>
+<desc>Two accounts of the same finding side by side, one from a university press release and one from the preprint it describes.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="740" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="500" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the release</text>
+<rect x="820.0" y="130" width="720.0" height="500" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the preprint</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="582" x2="760.0" y2="582" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="80.0" y="418" width="260" height="24" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="95.0" y="452" width="230" height="24" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="120.0" y="486" width="180" height="24" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="360.0" y="364" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">&quot;doubles&quot; x3 · base rate 0 · interval 0 · 310 words</text>
+<line x1="840.0" y1="582" x2="1520.0" y2="582" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="840.0" y="418" width="260" height="24" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="870.0" y="452" width="200" height="24" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<rect x="845.0" y="486" width="250" height="24" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="1120.0" y="364" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">&quot;4 to 8 per 10,000&quot; · interval 1.2-3.3 · no causal claim</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The same study, written twice</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One release, one abstract, one figure between them.</text>
+<text x="800.0" y="674" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Find the six. One of the two documents contains a number a reader could act on. Which, and where in the text does it come?</text>
+<text x="800.0" y="706" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">6 differences — find them all</text>
+</g>
+</svg>

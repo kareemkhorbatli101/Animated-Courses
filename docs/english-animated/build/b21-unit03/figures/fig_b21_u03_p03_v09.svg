@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The certainty ladder</title>
+<desc>A vertical ladder of epistemic modals from must and is bound to at the top, through will, should, may and might, to cannot at the bottom, each with the commitment it makes.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="606.0" y1="150.0" x2="674.0" y2="150.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="246.0" x2="674.0" y2="246.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="342.0" x2="674.0" y2="342.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="438.0" x2="674.0" y2="438.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="534.0" x2="674.0" y2="534.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="630.0" x2="674.0" y2="630.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="640.0" y1="130" x2="640.0" y2="650" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="698.0" y="156.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">must · is bound to</text>
+<text x="940.0" y="156.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the strongest inference short of proof</text>
+<text x="698.0" y="252.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">will · is likely to</text>
+<text x="940.0" y="252.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">confident; the ordinary language of a forecast</text>
+<text x="698.0" y="348.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">should</text>
+<text x="940.0" y="348.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">expected, with room to be wrong</text>
+<text x="698.0" y="444.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">may · might · could</text>
+<text x="940.0" y="444.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">possible; no commitment of any kind</text>
+<text x="698.0" y="540.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">may or may not</text>
+<text x="940.0" y="540.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">explicitly balanced: a refusal to place the claim</text>
+<text x="698.0" y="636.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">cannot · could not</text>
+<text x="940.0" y="636.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">excluded by the evidence you actually have</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The certainty ladder</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six settings, one finding. Add a perfect to any rung and the deduction moves to the past: must have been, might well have been, could hardly have been.</text>
+<text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">it is so</text>
+<text x="590.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">it is not so</text>
+</g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="990" viewBox="0 0 1600 990">
+<title>Twenty minutes, two newspapers, one correction</title>
+<desc>An infographic of the twenty minutes before the market close showing what each paper knew, what each published, the traffic each received, and the permanence of each piece of text.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="990" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What was</text>
+<text x="52" y="184.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">known</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The rival</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The Herald</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Page views,</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">thousands</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="730" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="764.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What nobody</text>
+<text x="52" y="784.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">measured</text>
+<line x1="150" y1="850" x2="1450" y2="850" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="202.0" cy="190" r="10" fill="#C86B2B"/>
+<line x1="202.0" y1="190" x2="202.0" y2="250" stroke="#C86B2B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="540.0" cy="190" r="10" fill="#C86B2B"/>
+<line x1="540.0" y1="190" x2="540.0" y2="250" stroke="#C86B2B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="956.0" cy="190" r="10" fill="#9AA7AE"/>
+<line x1="956.0" y1="190" x2="956.0" y2="250" stroke="#9AA7AE" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1346.0" cy="190" r="10" fill="#2E6F5E"/>
+<line x1="1346.0" y1="190" x2="1346.0" y2="250" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<rect x="384.0" y="316" width="1066.0" height="50" rx="4" fill="#A8372E" opacity="0.9"/>
+<rect x="1346.0" y="466" width="104.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<path d="M 150 690 L 540 653 L 930 604 L 1190 642 L 1450 679" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="540.0" cy="653.2708333337159" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="930.0" cy="604.0000000008959" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1190.0" cy="641.6250000005039" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="679.250000000112" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="280.0" y1="766" x2="280.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="280.0,766 332.0,778 280.0,790" fill="#D9A441"/>
+<line x1="826.0" y1="766" x2="826.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="826.0,766 878.0,778 826.0,790" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Twenty minutes, two newspapers, one correction</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The three bands the newsroom argued about, and the fourth it never measured.</text>
+<text x="202.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">one source, one screenshot</text>
+<text x="540.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">still one source</text>
+<text x="956.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">second plant has not called back</text>
+<text x="1346.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">a second account, partial</text>
+<text x="394.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">published 15.52 · &quot;is cutting 400&quot;</text>
+<text x="1356.0" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">published 09.10 · &quot;is understood to be considering&quot;</text>
+<text x="1456" y="683.250000000112" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">12k</text>
+<text x="286.0" y="816.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the correction was shared 40,000 times and is permanent</text>
+<text x="832.0" y="816.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">no figure exists for what a correction costs six months</text>
+<text x="832.0" y="832.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">later</text>
+<line x1="150.0" y1="862" x2="150.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">15.40</text>
+<line x1="475.0" y1="862" x2="475.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="475.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">15.52</text>
+<line x1="800.0" y1="862" x2="800.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="800.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">16.00</text>
+<line x1="1125.0" y1="862" x2="1125.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1125.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">21.00</text>
+<line x1="1450.0" y1="862" x2="1450.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">09.10</text>
+</g>
+</svg>
