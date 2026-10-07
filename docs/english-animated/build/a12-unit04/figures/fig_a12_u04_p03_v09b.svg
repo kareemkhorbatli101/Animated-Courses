@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660">
+<title>The hook attaches to the owner</title>
+<desc>Two sentence diagrams, the first showing the possessive s attached to the owner and the second showing of doing the same job with the order reversed.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="360.0" height="52" rx="5" fill="#C86B2B"/>
+<text x="340.0" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">my sister's</text>
+<rect x="526.0" y="144" width="329.5" height="52" rx="5" fill="#2E6F5E"/>
+<text x="690.75" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">coat</text>
+<rect x="861.5" y="144" width="512.5" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1117.75" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">the owner comes first</text>
+<rect x="160" y="344" width="257.7837837837838" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="288.8918918918919" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">the</text>
+<rect x="423.7837837837838" y="344" width="323.72972972972974" height="52" rx="5" fill="#2E6F5E"/>
+<text x="585.6486486486486" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">door</text>
+<rect x="753.5135135135135" y="344" width="191.83783783783784" height="52" rx="5" fill="#1F4E5F"/>
+<text x="849.4324324324325" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">of</text>
+<rect x="951.3513513513514" y="344" width="422.64864864864865" height="52" rx="5" fill="#C86B2B"/>
+<text x="1162.6756756756756" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the coach</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The hook attaches to the owner</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">'s goes on the person who owns, never on the thing owned. Of does the same job backwards.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">WITH 'S</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">WITH OF</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same meaning, opposite order, and the hook is always on the owner</text>
+<rect x="160" y="520.75" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
+<text x="184" y="547.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">People take ’s: my sister’s coat, the guard’s keys. Things usually take of: the door of the</text>
+<text x="184" y="569.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">coach, the end of the line. Both are correct with either, and the wrong choice sounds</text>
+<text x="184" y="591.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">foreign rather than wrong.</text>
+</g>
+</svg>

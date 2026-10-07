@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<title>Counting backwards from now</title>
+<desc>A timeline running back from NOW with two days ago, last night, last summer and a long time ago placed along it, and the day before shown hanging off a point already in the past.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="740" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="550" x2="1380" y2="550" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,550 1364,542 1364,558" fill="#1C2B33"/>
+<line x1="1282.4" y1="390" x2="1282.4" y2="584" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1282.4" y="608" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<line x1="1184.8" y1="496" x2="1282.4" y2="496" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="1184.8" cy="496" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="1282.4" cy="496" r="7" fill="#1F4E5F"/>
+<circle cx="1014.0" cy="442" r="11" fill="#1F4E5F"/>
+<line x1="1014.0" y1="442" x2="1014.0" y2="550" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="574.8" cy="496" r="11" fill="#1F4E5F"/>
+<line x1="574.8" y1="496" x2="574.8" y2="550" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<line x1="233.2" y1="388" x2="477.2" y2="388" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="477.2" y1="366" x2="477.2" y2="410" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<circle cx="477.2" cy="334" r="11" fill="#1F4E5F"/>
+<line x1="477.2" y1="334" x2="477.2" y2="550" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Counting backwards from now</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Ago measures. The other markers name. They are two different jobs.</text>
+<text x="1184.8" y="448" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">two days ago</text>
+<text x="1184.8" y="470" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the number comes first</text>
+<text x="1014.0" y="390" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">last night</text>
+<text x="1014.0" y="412" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">names a time - no the, no on</text>
+<text x="574.8" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">last summer</text>
+<text x="574.8" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">names a season that has finished</text>
+<text x="233.2" y="340" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">a long time ago</text>
+<text x="233.2" y="362" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">refuses to give a number, on purpose</text>
+<text x="477.2" y="282" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">the day before</text>
+<text x="477.2" y="304" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">before a day that was already in the past</text>
+</g>
+</svg>

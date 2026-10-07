@@ -120,3 +120,23 @@ B1.3	9	L1	register;slang;idiom;colloquial;formal;jargon;accent;code-switch;fluen
 B1.3	9	L2	up;out;off;over;through;down;on;away;back;into;around;c|put up with;c|get away with;c|look forward to;c|run out of;c|go along with;c|catch up on;c|do away with;p|take over;p|bring up;f|say that again in writing
 B1.3	10	L1	address;audience;rhetoric;cadence;pause;podium;applause;gravity;occasion;tribute;acknowledgement;promotion;c|take the floor;c|a few words;c|on this occasion;c|in all my years;c|the night shift;c|a step up;p|stand down;p|take on;p|turn down;f|never have I been so;f|I did not ask for this
 B1.3	10	L2	never;rarely;seldom;little;hardly;scarcely;nowhere;nor;neither;only;no sooner;c|not until;c|at no point;c|under no circumstances;c|only then;c|no sooner had;c|little did we know;c|not once;p|set out;p|look back;p|rise to;f|not for one moment
+A1.2	1	L1	arrive;leave;begin;happen;passenger;crew;ticket;seat;delay;shift;report;mistake;lucky;awful;busy;calm;c|start the shift;c|check the tickets;c|serve the meals;c|make an announcement;p|turn up;p|sort out
+A1.2	1	L2	first;then;next;finally;before;while;suddenly;c|after that;c|at first;c|in the end;c|the next day;f|What happened?;f|You'll never believe it.
+A1.2	2	L1	journey;trip;platform;luggage;suitcase;backpack;timetable;return;single;window;aisle;heavy;far;wait;slow;guard;c|miss the train;c|change trains;c|book a ticket;c|a return ticket;p|set off;p|pick up
+A1.2	2	L2	ago;last;yesterday;recently;earlier;later;c|two days ago;c|last night;c|last summer;c|the day before;c|a long time ago;f|How long ago?;f|It was ages ago.
+A1.2	3	L1	price;quality;cheap;expensive;better;worse;strong;weak;plastic;metal;wood;cloth;new;old;same;different;c|good value;c|last longer;c|cost more;c|the same as;p|break down;p|throw away
+A1.2	3	L2	than;more;less;much;quite;really;c|a bit;c|as big as;c|not as good as;c|more expensive than;c|much better;f|What's the difference?;f|It depends.
+A1.2	4	L1	family;mother;father;sister;brother;son;daughter;wife;husband;grandmother;cousin;uncle;aunt;married;alone;together;c|get married;c|look like;c|live with;c|a big family;p|bring up;p|grow up
+A1.2	4	L2	whose;my;your;his;her;our;their;mine;yours;c|belong to;c|a friend of mine;f|Whose is this?;f|It's not mine.
+A1.2	5	L1	health;doctor;medicine;pain;headache;cold;cough;ill;sick;well;rest;water;exercise;stress;hungry;warm;c|take medicine;c|see a doctor;c|have a cold;c|feel better;p|lie down;p|give up
+A1.2	5	L2	should;shouldn't;breathe;stretch;bend;lift;stand;carry;hurt;c|Why don't you…?;c|You should…;f|You'll feel better.;f|Take it easy.
+A1.2	6	L1	future;change;machine;robot;energy;electric;car;city;job;world;year;soon;grow;disappear;improve;replace;c|in ten years;c|get better;c|get worse;c|a lot of people;p|find out;p|work out
+A1.2	6	L2	maybe;probably;perhaps;certainly;sure;definitely;possible;impossible;hope;c|I think…;c|I don't think…;f|We'll see.;f|Who knows?
+A1.2	7	L1	law;rule;safety;danger;warning;emergency;exit;seatbelt;helmet;speed;fine;licence;permit;allowed;illegal;legal;c|wear a seatbelt;c|pay a fine;c|break the law;c|follow the rules;p|fill in;p|hand over
+A1.2	7	L2	must;mustn't;obey;need;necessary;compulsory;duty;right;responsible;c|have to;c|don't have to;f|You must not…;f|It's not allowed.
+A1.2	8	L1	experience;skill;moment;adventure;abroad;foreign;language;swim;drive;cook;fly;climb;sing;ride;win;lose;c|learn a skill;c|pass a test;c|try something new;c|win a prize;p|take up;p|carry on
+A1.2	8	L2	ever;never;always;already;yet;been;gone;done;seen;c|Have you ever…?;c|I've never…;f|Not yet.;f|Only once.
+A1.2	9	L1	weather;rain;snow;wind;sun;cloud;storm;ice;degrees;cool;wet;dry;season;spring;autumn;sky;c|check the forecast;c|cancel a plan;c|a bit of rain;c|forty below;p|put off;p|call off
+A1.2	9	L2	tonight;tomorrow;weekend;tomorrow morning;this;afternoon;evening;winter;summer;c|going to;c|next week;f|What are you doing…?;f|It depends on the weather.
+A1.2	10	L1	best;worst;longest;shortest;hardest;easiest;strangest;favourite;amazing;boring;interesting;funny;true;story;memory;ending;c|the best thing;c|the worst part;c|a true story;c|at the end;p|turn out;p|end up
+A1.2	10	L2	too;enough;most;least;very;so;absolutely;almost;nearly;c|the most beautiful;c|not enough time;f|It's too long.;f|That's the best part.

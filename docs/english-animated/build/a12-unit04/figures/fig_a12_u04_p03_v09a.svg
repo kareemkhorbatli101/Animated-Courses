@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540">
+<title>Holding a noun, or standing alone</title>
+<desc>Two groups of word boxes: possessive adjectives each drawn holding a noun, and possessive pronouns each standing alone with an empty space where the noun was.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="540" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="206.0" width="136.33333333333334" height="68" rx="5" fill="#1F4E5F"/>
+<text x="228.16666666666669" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">my</text>
+<rect x="302.33333333333337" y="206.0" width="177.0" height="68" rx="5" fill="#9AA7AE"/>
+<text x="390.83333333333337" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">bag</text>
+<rect x="485.33333333333337" y="206.0" width="136.33333333333334" height="68" rx="5" fill="#1F4E5F"/>
+<text x="553.5" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">her</text>
+<rect x="627.6666666666667" y="206.0" width="177.0" height="68" rx="5" fill="#9AA7AE"/>
+<text x="716.1666666666667" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">coat</text>
+<rect x="810.6666666666667" y="206.0" width="177.0" height="68" rx="5" fill="#C86B2B"/>
+<text x="899.1666666666667" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">mine</text>
+<rect x="993.6666666666667" y="206.0" width="177.0" height="68" rx="5" fill="#C86B2B"/>
+<text x="1082.1666666666667" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">hers</text>
+<rect x="1176.6666666666667" y="206.0" width="197.33333333333334" height="68" rx="5" fill="#2E6F5E"/>
+<text x="1275.3333333333335" y="247.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">his</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Holding a noun, or standing alone</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The left-hand words need a noun after them. The right-hand ones refuse one.</text>
+<text x="228.16666666666669" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">needs a noun</text>
+<text x="390.83333333333337" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and here it is</text>
+<text x="553.5" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">needs a noun</text>
+<text x="716.1666666666667" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and here it is</text>
+<text x="899.1666666666667" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stands alone</text>
+<text x="1082.1666666666667" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stands alone</text>
+<text x="1275.3333333333335" y="302.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">does both, and only this one</text>
+<text x="160" y="348.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">My, your, his, her, our, their go in front of a noun. Mine, yours, his, hers, ours, theirs go on their own. His is in both lists and it is the only word that is.</text>
+</g>
+</svg>

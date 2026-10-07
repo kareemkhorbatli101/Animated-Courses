@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The past marked twice, again</title>
+<desc>Two panels comparing Did you bought it with Did you buy it, the first showing the past marked on both did and the verb.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="80.0" y="120" width="700.0" height="409.0" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="116.0" cy="158" r="20" fill="#A8372E"/>
+<text x="116.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✗</text>
+<rect x="820.0" y="120" width="700.0" height="409.0" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="856.0" cy="158" r="20" fill="#2E6F5E"/>
+<text x="856.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
+</g>
+<g id="20_subject">
+<text x="152.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Did you bought it?</text>
+<line x1="290.0" y1="220" x2="290.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="290.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">Did</text>
+<circle cx="500.0" cy="270" r="12" fill="#A8372E"/>
+<path d="M 500.0 270 L 318.0 270" fill="none" stroke="#A8372E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="500.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">bought - and did is already past</text>
+<text x="104.0" y="464.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Did is the past of do. Once it is at the front of the sentence, the listener knows when</text>
+<text x="104.0" y="484.40000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">this happened before they reach the verb at all. Marking it again is the same error as</text>
+<text x="104.0" y="504.70000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Does she checks, one unit of the last book, in a new costume.</text>
+<text x="892.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Did you buy it?</text>
+<line x1="1030.0" y1="220" x2="1030.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="1030.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">Did</text>
+<circle cx="1212.0" cy="270" r="12" fill="#2E6F5E"/>
+<path d="M 1212.0 270 L 1058.0 270" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1212.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">buy - plain, and that is not a present tense</text>
+<text x="844.0" y="464.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The bare form after did is not the present. It is the dictionary form, which English</text>
+<text x="844.0" y="484.40000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">uses whenever a helper has already said when. The same applies after didn't: I didn't</text>
+<text x="844.0" y="504.70000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">buy it, never I didn't bought it.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The past marked twice, again</text>
+<rect x="80" y="561.0" width="1440" height="131.0" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
+<text x="104" y="587.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
+<text x="104" y="608.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Irregular verbs make this worse, because bought feels like a different word rather than an ending - so</text>
+<text x="104" y="630.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">it does not feel like doubling up. It is. Buy and bought are the same verb wearing two labels, and only</text>
+<text x="104" y="652.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">one label is allowed.</text>
+</g>
+</svg>

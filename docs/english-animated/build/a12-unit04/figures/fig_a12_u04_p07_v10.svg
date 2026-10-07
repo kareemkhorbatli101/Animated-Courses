@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>One apostrophe, three sounds</title>
+<desc>Three columns of possessive forms sorted by the sound the ending makes, with the rule written under each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="112.0" y="130" width="442.6666666666667" height="460" rx="8" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="112.0" y="130" width="442.6666666666667" height="64" rx="8" fill="#1F4E5F"/>
+<line x1="140.0" y1="532" x2="526.6666666666667" y2="532" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<rect x="578.6666666666667" y="130" width="442.6666666666667" height="460" rx="8" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="578.6666666666667" y="130" width="442.6666666666667" height="64" rx="8" fill="#2E6F5E"/>
+<line x1="606.6666666666667" y1="532" x2="993.3333333333335" y2="532" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<rect x="1045.3333333333335" y="130" width="442.6666666666667" height="460" rx="8" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="1045.3333333333335" y="130" width="442.6666666666667" height="64" rx="8" fill="#C86B2B"/>
+<line x1="1073.3333333333335" y1="532" x2="1460.0000000000002" y2="532" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="333.33333333333337" y="174" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">/s/</text>
+<text x="333.33333333333337" y="310" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Dev's</text>
+<text x="333.33333333333337" y="342.3" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Kate's</text>
+<text x="333.33333333333337" y="374.6" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the guard's</text>
+<text x="333.33333333333337" y="406.90000000000003" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">my aunt's</text>
+<text x="333.33333333333337" y="439.20000000000005" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the cat's</text>
+<text x="800.0000000000001" y="174" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">/z/</text>
+<text x="800.0000000000001" y="310" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Sam's</text>
+<text x="800.0000000000001" y="342.3" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Ruth's</text>
+<text x="800.0000000000001" y="374.6" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">my brother's</text>
+<text x="800.0000000000001" y="406.90000000000003" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the children's</text>
+<text x="800.0000000000001" y="439.20000000000005" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the dog's</text>
+<text x="1266.6666666666667" y="174" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">/ɪz/</text>
+<text x="1266.6666666666667" y="310" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Ross's</text>
+<text x="1266.6666666666667" y="342.3" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the nurse's</text>
+<text x="1266.6666666666667" y="374.6" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">George's</text>
+<text x="1266.6666666666667" y="406.90000000000003" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">my niece's</text>
+<text x="1266.6666666666667" y="439.20000000000005" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the horse's</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One apostrophe, three sounds</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Exactly the rule you learned for plurals, and for he-she-it. The third time it is free.</text>
+<text x="333.33333333333337" y="228.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">after a quiet sound</text>
+<text x="333.33333333333337" y="558.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the same rule as cats and works and asked - three</text>
+<text x="333.33333333333337" y="575.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">units, one rule</text>
+<text x="800.0000000000001" y="228.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">after a loud sound</text>
+<text x="800.0000000000001" y="558.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a vowel or /m/ /n/ /l/ /r/ before it, and your voice</text>
+<text x="800.0000000000001" y="575.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">stays on</text>
+<text x="1266.6666666666667" y="228.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">after a hissing sound</text>
+<text x="1266.6666666666667" y="558.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the word already ends in a hiss, so a vowel has to</text>
+<text x="1266.6666666666667" y="575.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">come between</text>
+</g>
+</svg>

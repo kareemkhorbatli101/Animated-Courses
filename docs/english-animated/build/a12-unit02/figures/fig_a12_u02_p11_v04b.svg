@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>The platform at twenty past six</title>
+<desc>Two drawings of the same platform at the same hour, one at a scheduled stop with four people waiting and one in winter with a single person and the train passing in the background.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the scheduled stop</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the winter request stop</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="90.0" y="410" width="240" height="22" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="110.0" y="442" width="200" height="22" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="140.0" y="474" width="140" height="22" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="360.0" y="352" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">4 people · 3 bags · lamp on · the train stops</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="935.0" y="410" width="70" height="22" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="850.0" y="442" width="240" height="22" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<rect x="850.0" y="474" width="240" height="22" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="1120.0" y="352" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">1 person · 1 bag · lamp off · the train goes past</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The platform at twenty past six</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The scheduled stop on the left. The winter request stop on the right.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Find the six. One of them is on the station wall, and it is the reason the right-hand picture looks like that.</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">6 differences — find them all</text>
+</g>
+</svg>

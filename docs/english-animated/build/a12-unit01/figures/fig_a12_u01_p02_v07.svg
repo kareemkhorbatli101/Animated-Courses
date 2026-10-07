@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>The corridor, two in the morning</title>
+<desc>A service manager and a new attendant standing in a train corridor at two in the morning with a notebook on a folding table between them, each with two speech balloons and a thought balloon.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="670" rx="0" fill="#DDE3E4"/>
+<rect x="0" y="670" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="670" x2="1600" y2="670" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="760" y="586.4" width="192.0" height="12.8" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.4"/>
+<line x1="779.2" y1="599.2" x2="779.2" y2="660" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<line x1="932.8" y1="599.2" x2="932.8" y2="660" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<rect x="820" y="577.6" width="36.4" height="36.4" rx="3" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.5"/>
+<path d="M 856.4 586.0 q 14.0 8.399999999999999 0 16.799999999999997" fill="none" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1340" y="616.0" width="54.0" height="44.0" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1340" y1="634.0" x2="1394.0" y2="634.0" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="20_subject">
+<ellipse cx="520" cy="694.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 507.29411764705884 690 L 510.11764705882354 579.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 532.7058823529412 690 L 529.8823529411765 579.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520.0 506.47058823529414 L 520 585.2470588235294" fill="none" stroke="#8C6A9E" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.1764705882353 507.8823529411765 L 546.8235294117648 507.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.1764705882353 510.7058823529412 L 504.47058823529414 573.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 546.8235294117648 510.7058823529412 L 535.5294117647059 573.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520" cy="573.9529411764706" r="7.764705882352942" fill="#F0D3B4"/>
+<path d="M 520.0 499.4117647058824 L 520.0 492.3529411764706" fill="none" stroke="#F0D3B4" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520.0" cy="474.0" r="21.176470588235297" fill="#F0D3B4"/>
+<path d="M 498.8235294117647 471.1764705882353 A 21.176470588235297 21.176470588235297 0 0 1 541.1764705882352 471.1764705882353" fill="none" stroke="#2A2320" stroke-width="9.882352941176471" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="517.1764705882354" cy="475.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="531.2941176470588" cy="475.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 518.5882352941177 485.29411764705884 Q 524.2352941176471 488.11764705882354 529.8823529411765 485.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="520" y="726.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Dev</text>
+<text x="520" y="752.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">nine days on the job</text>
+<ellipse cx="1080" cy="694.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1067.2941176470588 690 L 1070.1176470588234 579.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1092.7058823529412 690 L 1089.8823529411766 579.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1080.0 506.47058823529414 L 1080 585.2470588235294" fill="none" stroke="#C86B2B" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1053.1764705882354 507.8823529411765 L 1106.8235294117646 507.8823529411765" fill="none" stroke="#C86B2B" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1053.1764705882354 510.7058823529412 L 1048.9411764705883 593.7176470588236" fill="none" stroke="#C86B2B" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1048.9411764705883" cy="597.9529411764706" r="7.058823529411765" fill="#E8C39E"/>
+<path d="M 1106.8235294117646 510.7058823529412 L 1143.5294117647059 503.64705882352945" fill="none" stroke="#C86B2B" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1149.1764705882351" cy="502.2352941176471" r="7.058823529411765" fill="#E8C39E"/>
+<path d="M 1080.0 499.4117647058824 L 1080.0 492.3529411764706" fill="none" stroke="#E8C39E" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1080.0" cy="474.0" r="21.176470588235297" fill="#E8C39E"/>
+<path d="M 1058.8235294117646 471.1764705882353 A 21.176470588235297 21.176470588235297 0 0 1 1101.1764705882354 471.1764705882353" fill="none" stroke="#B9B2AA" stroke-width="9.882352941176471" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1068.7058823529412" cy="475.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="1082.8235294117646" cy="475.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 1070.1176470588234 485.29411764705884 Q 1075.764705882353 488.11764705882354 1081.4117647058824 485.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1080" y="726.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Nadia</text>
+<text x="1080" y="752.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eleven years, and four hundred reports</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The corridor, two in the morning</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Nine days against eleven years, and a notebook between them.</text>
+<rect x="355.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="427.6,199.2 480.4,199.2 520,455" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="429.6" y1="199.2" x2="478.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="520.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">We left at eleven. I went to the kitchen.</text>
+<text x="520.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Ruth got up. We made two hundred sandwiches.</text>
+<rect x="370.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="510.0" cy="398.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="560" cy="470" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="520.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Do I say I was frightened?</text>
+<rect x="915.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="987.6,199.2 1040.4,199.2 1080,455" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="989.6" y1="199.2" x2="1038.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="1080.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Nobody said anything. Nobody complained.</text>
+<text x="1080.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">What happened at half past eleven?</text>
+<rect x="930.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="1070.0" cy="398.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="1120" cy="470" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="1080.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">There is no box on the form for this.</text>
+</g>
+</svg>

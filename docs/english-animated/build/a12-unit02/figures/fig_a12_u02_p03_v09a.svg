@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>One weight, and it moves to the front</title>
+<desc>Two sentence diagrams. In the first, the past ending sits on the verb; in the second, did carries the past at the front and the verb is bare.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="299.0" height="52" rx="5" fill="#C86B2B"/>
+<text x="309.5" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">You</text>
+<rect x="465.0" y="144" width="489.625" height="52" rx="5" fill="#1F4E5F"/>
+<text x="709.8125" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">bought</text>
+<rect x="960.625" y="144" width="413.375" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1167.3125" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the ticket</text>
+<rect x="160" y="344" width="268.5" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="294.25" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">Did</text>
+<rect x="434.5" y="344" width="238.0" height="52" rx="5" fill="#C86B2B"/>
+<text x="553.5" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">you</text>
+<rect x="678.5" y="344" width="299.0" height="52" rx="5" fill="#1F4E5F"/>
+<text x="828.0" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">buy</text>
+<rect x="983.5" y="344" width="390.5" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1178.75" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the ticket ?</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One weight, and it moves to the front</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">In the positive the past sits on the verb. In a question it has moved onto did.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">POSITIVE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">QUESTION</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ the past is marked once, and did takes it when did is there</text>
+<rect x="160" y="540.75" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
+<text x="184" y="567.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Did and didn't are the same for every person - did I, did you, did she, did they. The verb</text>
+<text x="184" y="589.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">after them is the plain dictionary form, including irregular verbs: Did you go, never Did</text>
+<text x="184" y="611.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">you went.</text>
+</g>
+</svg>
