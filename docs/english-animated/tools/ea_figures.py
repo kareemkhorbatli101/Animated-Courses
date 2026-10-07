@@ -808,8 +808,10 @@ def v10_phon(spec):
             ctx.append(line(200, y0 + 60, W - 240, y0 + 60, stroke=RULE, sw=1.4, dash='5 5'))
             pts = c['points']
             n = len(pts)
-            d = 'M ' + ' L '.join(f'{200 + (W - 440) * j / (n - 1):.0f} {y0 + 60 - p * 52:.0f}'
-                                  for j, p in enumerate(pts))
+            d = 'M ' + ' L '.join(
+                f'{200 + (W - 440) * j / (n - 1):.0f} '
+                f'{y0 + 60 - max(-1.0, min(1.0, p)) * 52:.0f}'
+                for j, p in enumerate(pts))
             sub.append(path(d, stroke=ACCENT, sw=4))
             sub.append(text(200, y0 - 6, c['text'], size=T_BODY, weight='600', fill=INK))
             lab.append(text(W - 230, y0 - 6, c['meaning'], size=T_CALLOUT,

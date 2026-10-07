@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1140" viewBox="0 0 1600 1140">
+<title>The chart page, every noun unpacked</title>
+<desc>A city air-quality report page annotated to show its nominalisations, the agent hidden in each, and the four changes to the series that the chart does not display.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1140" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="930" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="930" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">CITY OF TORONTO  -  AIR QUALITY REPORT 2023  -  P.12</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WARD 7: A 40% REDUCTION IN EXCEEDANCES</text>
+<text x="140" y="258.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;A reduction in exceedance days of forty per cent has been</text>
+<text x="140" y="279.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">achieved since the baseline year. The implementation of revised</text>
+<text x="140" y="301.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">monitoring arrangements is reflected in the series. The</text>
+<text x="140" y="323.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">assessment is subject to revision.&quot;</text>
+<text x="140" y="359.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Footnote, p.40: &quot;Monitoring location revised 2021. Series not</text>
+<text x="140" y="380.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">directly comparable.&quot;</text>
+<line x1="130" y1="416.5" x2="910" y2="416.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="420.5" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="440.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT CHANGED</text>
+<text x="403.33333333333337" y="440.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHEN</text>
+<text x="656.6666666666667" y="440.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHERE IT IS SAID</text>
+<text x="150.0" y="470.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE MONITOR MOVED 1.4 KM</text>
+<text x="403.33333333333337" y="470.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2021</text>
+<text x="656.6666666666667" y="470.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">FOOTNOTE, P.40</text>
+<line x1="140" y1="480.5" x2="900" y2="480.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="500.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">REPORTING PERIOD</text>
+<text x="403.33333333333337" y="500.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2021-22</text>
+<text x="656.6666666666667" y="500.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NOWHERE</text>
+<line x1="140" y1="510.5" x2="900" y2="510.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="530.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ONE YEAR IS 9 MONTHS</text>
+<text x="403.33333333333337" y="530.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2021-22</text>
+<text x="656.6666666666667" y="530.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NOWHERE</text>
+<line x1="140" y1="540.5" x2="900" y2="540.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="560.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">BASELINE 2016 TO 2018</text>
+<text x="403.33333333333337" y="560.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2023</text>
+<text x="656.6666666666667" y="560.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NOWHERE</text>
+<line x1="140" y1="570.5" x2="900" y2="570.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="590.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Y AXIS STARTS AT</text>
+<text x="403.33333333333337" y="590.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">18</text>
+<text x="656.6666666666667" y="590.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ON THE CHART</text>
+<line x1="140" y1="600.5" x2="900" y2="600.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="620.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">UNIVERSITY SITE 2016</text>
+<text x="403.33333333333337" y="620.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">41 DAYS</text>
+<text x="656.6666666666667" y="620.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NOT IN THE REPORT</text>
+<line x1="140" y1="630.5" x2="900" y2="630.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="650.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">UNIVERSITY SITE 2023</text>
+<text x="403.33333333333337" y="650.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">39 DAYS</text>
+<text x="656.6666666666667" y="650.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NOT IN THE REPORT</text>
+<line x1="140" y1="660.5" x2="900" y2="660.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="680.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">DOCUMENTS LISTING ALL FOUR</text>
+<text x="403.33333333333337" y="680.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="656.6666666666667" y="680.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="690.5" x2="900" y2="690.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="718.5" x2="910" y2="718.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="754.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHO IS THE AGENT OF EACH NOUN</text>
+<text x="140" y="784.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;a reduction ... achieved&quot;</text>
+<text x="410" y="784.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">nobody named, no place, no date</text>
+<text x="140" y="816.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;the implementation of&quot;</text>
+<text x="410" y="816.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the city, in 2021</text>
+<text x="140" y="848.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;monitoring location revised&quot;</text>
+<text x="410" y="848.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the city moved it to a park</text>
+<text x="140" y="880.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;subject to revision&quot;</text>
+<text x="410" y="880.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a warning, and the only honest phrase here</text>
+<line x1="130" y1="912.5" x2="910" y2="912.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="934.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Every decision on this page has been defended in public, one at</text>
+<text x="140" y="956.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a time. The absence is not a decision anybody made, which is</text>
+<text x="140" y="978.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">what makes it hard to answer.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The chart page, every noun unpacked</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four decisions, each defensible, and no document in which all four appear.</text>
+<circle cx="934" cy="194.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 194.4 L 1024 194.4 L 1024 194.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="199.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A ratio in the heading and no</text>
+<text x="1040" y="219.70000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">baseline beside it</text>
+<circle cx="934" cy="306.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 306.0 L 1024 306.0 L 1024 306.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="311.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three abstract nouns and not one</text>
+<text x="1040" y="331.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">person in the paragraph</text>
+<circle cx="934" cy="399.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 399.0 L 1024 399.0 L 1024 399.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Eleven words on page forty,</text>
+<text x="1040" y="424.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">carrying the whole story</text>
+<circle cx="934" cy="659.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 659.4 L 1024 659.4 L 1024 659.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="664.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three rows that say NOWHERE, and</text>
+<text x="1040" y="684.6999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">they are the three that matter</text>
+<circle cx="934" cy="994.1999999999999" r="4.5" fill="#C86B2B"/>
+<path d="M 934 994.1999999999999 L 1024 994.1999999999999 L 1024 994.1999999999999" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="999.1999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Each one defensible; the set of</text>
+<text x="1040" y="1019.4999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">four never defended at all</text>
+</g>
+</svg>

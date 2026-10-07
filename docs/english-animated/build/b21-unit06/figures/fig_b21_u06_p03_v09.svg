@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
+<title>Two clefts, two positions for the point</title>
+<desc>One sentence drawn twice as chunks, with brackets marking the focus early in an it-cleft and at the end in a pseudo-cleft.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="500" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="236.25" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">It was</text>
+<text x="388.75" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">the fare box</text>
+<text x="541.25" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">that they sold</text>
+<text x="693.75" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">—</text>
+<text x="846.25" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">What</text>
+<text x="998.75" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">they did</text>
+<text x="1151.25" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">was sell</text>
+<text x="1303.75" y="250.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">the fare box</text>
+<path d="M 166.0 284.0 L 166.0 298.0 L 611.5 298.0 L 611.5 284.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 776.0 284.0 L 776.0 298.0 L 1374.0 298.0 L 1374.0 284.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 318.5 355.6 L 318.5 369.6 L 459.0 369.6 L 459.0 355.6" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1233.5 355.6 L 1233.5 369.6 L 1374.0 369.6 L 1374.0 355.6" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two clefts, two positions for the point</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The frame carries no information. What it carries is a position.</text>
+<text x="388.75" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">IT-CLEFT: the focus arrives second, and everything after</text>
+<text x="388.75" y="341.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">that is presupposed</text>
+<text x="1075.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">PSEUDO-CLEFT: four words of empty frame, and the focus lands last</text>
+<text x="388.75" y="393.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">the news, early</text>
+<text x="1303.75" y="393.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">the news, last</text>
+</g>
+</svg>

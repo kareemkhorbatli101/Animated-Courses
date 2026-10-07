@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Two instruments, one ward</title>
+<desc>A line chart of exceedance days from 2016 to 2023 comparing the city monitor, which moved in 2021, with a university monitor left at the original junction.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">12</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">25</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">38</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">50</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 232.8 L 338.6 242.0 L 507.1 260.4 L 675.7 260.4 L 844.3 278.8 L 1012.9 389.2 L 1181.4 398.4 L 1350.0 407.6" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="232.8" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="338.57142857142856" cy="242.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="507.14285714285717" cy="260.4" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="675.7142857142858" cy="260.4" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="844.2857142857143" cy="278.8" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1012.8571428571429" cy="389.20000000000005" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1181.4285714285716" cy="398.4" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="407.6" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="412.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">city monitor, moved 2021</text>
+<path d="M 170.0 232.8 L 338.6 242.0 L 507.1 251.2 L 675.7 260.4 L 844.3 269.6 L 1012.9 260.4 L 1181.4 251.2 L 1350.0 251.2" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="232.8" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="338.57142857142856" cy="242.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="507.14285714285717" cy="251.2" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="675.7142857142858" cy="260.4" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="844.2857142857143" cy="269.6" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1012.8571428571429" cy="260.4" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1181.4285714285716" cy="251.2" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1350.0" cy="251.2" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<text x="1364.0" y="256.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">university, same site</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two instruments, one ward</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Exceedance days a year, from zero, with both series on the same axis.</text>
+<text x="170.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2016</text>
+<text x="338.57142857142856" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2017</text>
+<text x="507.14285714285717" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2018</text>
+<text x="675.7142857142858" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2019</text>
+<text x="844.2857142857143" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2020</text>
+<text x="1012.8571428571429" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2021</text>
+<text x="1181.4285714285716" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2022</text>
+<text x="1350.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2023</text>
+<rect x="170" y="670" width="1180" height="87.25" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Drawn from zero, with both series, the forty per cent reduction is visible as a step in one line and</text>
+<text x="186" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">no step at all in the other. The city's chart carries neither the second series nor the step,</text>
+<text x="186" y="740.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">because the step is not in its data.</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The two series are identical until 2021 and then diverge by sixteen days in one year.</text>
+<text x="170" y="815.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Nothing in the air changed that fast; the instrument changed address.</text>
+</g>
+</svg>

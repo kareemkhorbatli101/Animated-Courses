@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160">
+<title>One paragraph, four orders</title>
+<desc>Four versions of a newspaper first paragraph annotated with the position of the main point in each, the frame used and the proportion of readers who understood it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1160" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="950" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="950" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">CADET EXERCISE  -  PARAGRAPH ONE  -  FOUR VERSIONS</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A. &quot;The city has finalised a financing package for the east-end</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">line, involving a range of instruments including a</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">securitisation of future farebox revenue.&quot;</text>
+<text x="140" y="293.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B. &quot;It was the fare box that the city sold, in 2016, to pay for</text>
+<text x="140" y="315.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the east-end line.&quot;</text>
+<text x="140" y="350.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C. &quot;What the city did in 2016 was sell the next thirty years of</text>
+<text x="140" y="372.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ticket income.&quot;</text>
+<text x="140" y="408.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">D. &quot;A fare rise did not pay for the east-end line. What paid for</text>
+<text x="140" y="430.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">it was the next thirty years of tickets.&quot;</text>
+<line x1="130" y1="465.75" x2="910" y2="465.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="469.75" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="489.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">VERSION</text>
+<text x="403.33333333333337" y="489.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">POINT AT WORD</text>
+<text x="656.6666666666667" y="489.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">UNDERSTOOD</text>
+<text x="150.0" y="519.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A  PLAIN, SUBORDINATED</text>
+<text x="403.33333333333337" y="519.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">19</text>
+<text x="656.6666666666667" y="519.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">38%</text>
+<line x1="140" y1="529.75" x2="900" y2="529.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="549.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B  IT-CLEFT</text>
+<text x="403.33333333333337" y="549.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4</text>
+<text x="656.6666666666667" y="549.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">61%</text>
+<line x1="140" y1="559.75" x2="900" y2="559.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="579.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C  PSEUDO-CLEFT</text>
+<text x="403.33333333333337" y="579.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">9</text>
+<text x="656.6666666666667" y="579.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">74%</text>
+<line x1="140" y1="589.75" x2="900" y2="589.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="609.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">D  MISCONCEPTION FIRST</text>
+<text x="403.33333333333337" y="609.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">14</text>
+<text x="656.6666666666667" y="609.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">66%</text>
+<line x1="140" y1="619.75" x2="900" y2="619.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="639.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A  WORD COUNT</text>
+<text x="403.33333333333337" y="639.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">41</text>
+<text x="656.6666666666667" y="639.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="649.75" x2="900" y2="649.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="669.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C  WORD COUNT</text>
+<text x="403.33333333333337" y="669.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">17</text>
+<text x="656.6666666666667" y="669.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="679.75" x2="900" y2="679.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="699.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B AND D SAME LENGTH</text>
+<text x="403.33333333333337" y="699.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">22</text>
+<text x="656.6666666666667" y="699.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="709.75" x2="900" y2="709.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="729.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PRINTED IN 2016</text>
+<text x="403.33333333333337" y="729.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A</text>
+<text x="656.6666666666667" y="729.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="739.75" x2="900" y2="739.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="767.75" x2="910" y2="767.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="803.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT EACH FRAME BUYS</text>
+<text x="140" y="833.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;it was X that&quot;</text>
+<text x="410" y="833.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the focus early, the rest agreed</text>
+<text x="140" y="865.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;what the city did was&quot;</text>
+<text x="410" y="865.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the focus last, where it is kept</text>
+<text x="140" y="897.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;a fare rise did not&quot;</text>
+<text x="410" y="897.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">clears the reader's wrong idea first</text>
+<text x="140" y="929.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">no frame at all</text>
+<text x="410" y="929.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the point lands in a subclause</text>
+<line x1="130" y1="961.75" x2="910" y2="961.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="983.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Version A is the best-written sentence on this sheet by every</text>
+<text x="140" y="1005.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">rule the subeditors were taught, and the only one most readers</text>
+<text x="140" y="1027.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">could not restate.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One paragraph, four orders</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same four facts, and where the point arrives in each.</text>
+<circle cx="934" cy="196.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 196.0 L 1024 196.0 L 1024 196.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="201.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Forty-one words, all true, and the</text>
+<text x="1040" y="221.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">verb is a nominalisation</text>
+<circle cx="934" cy="329.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 329.0 L 1024 329.0 L 1024 329.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="334.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four words in, and the rest of the</text>
+<text x="1040" y="354.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">sentence is now background</text>
+<circle cx="934" cy="443.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 443.0 L 1024 443.0 L 1024 443.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Five words of frame, and the point</text>
+<text x="1040" y="468.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">at the end where it stays</text>
+<circle cx="934" cy="709.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 709.0 L 1024 709.0 L 1024 709.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="714.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two rows that say the length was</text>
+<text x="1040" y="734.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">not the variable</text>
+<circle cx="934" cy="1013.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 1013.0 L 1024 1013.0 L 1024 1013.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="1018.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Best written and least understood,</text>
+<text x="1040" y="1038.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">on the same sheet</text>
+</g>
+</svg>

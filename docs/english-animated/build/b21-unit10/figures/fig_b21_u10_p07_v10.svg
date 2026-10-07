@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860">
+<title>Marked order needs the jump that goes with it</title>
+<desc>Four pitch contours over inverted and uninverted sentences, showing where the voice jumps on the fronted adverb and where a flat delivery loses the emphasis.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="860" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="230" x2="1360" y2="230" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="410" x2="1360" y2="410" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="590" x2="1360" y2="590" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="770" x2="1360" y2="770" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<path d="M 200 214 L 393 220 L 587 225 L 780 235 L 973 246 L 1167 256 L 1360 261" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">We rarely name it.</text>
+<path d="M 200 361 L 393 379 L 587 394 L 780 405 L 973 415 L 1167 431 L 1360 446" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Rarely do we name it.</text>
+<path d="M 200 569 L 393 543 L 587 564 L 780 574 L 973 585 L 1167 600 L 1360 626" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Not once did the culture pages name it.</text>
+<path d="M 200 754 L 393 749 L 587 744 L 780 723 L 973 749 L 1167 770 L 1360 801" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Only when it is crime do we name it.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Marked order needs the jump that goes with it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Inversion without the pitch jump sounds like a mistake. The two travel together.</text>
+<text x="1370" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">ordinary order, flat, forgettable</text>
+<text x="1370" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">the jump is on the first word</text>
+<text x="1370" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">the jump waits for the second word</text>
+<text x="1370" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">the jump waits for the content word</text>
+</g>
+</svg>

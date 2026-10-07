@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1140" viewBox="0 0 1600 1140">
+<title>Eighty-one headlines, sorted by section</title>
+<desc>A headline log annotated by section showing how often a ward is named in the headline, how often a resident is quoted, and the names used in place of the ward.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1140" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="930" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="930" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">HEADLINE LOG  -  WARD 7  -  TWO YEARS, 81 PIECES</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;POLICE SEEK WITNESSES IN WARD 7&quot; — news, Tuesday. &quot;HALL REOPENS</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">AFTER FOUR YEARS&quot; — culture, Friday. Both pieces are about the</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">same six streets.</text>
+<line x1="130" y1="293.25" x2="910" y2="293.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="297.25" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SECTION</text>
+<text x="403.33333333333337" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WARD NAMED</text>
+<text x="656.6666666666667" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">RESIDENT QUOTED</text>
+<text x="150.0" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CRIME  (34 PIECES)</text>
+<text x="403.33333333333337" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">71%</text>
+<text x="656.6666666666667" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">11%</text>
+<line x1="140" y1="357.25" x2="900" y2="357.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PLANNING  (22)</text>
+<text x="403.33333333333337" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">18%</text>
+<text x="656.6666666666667" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">34%</text>
+<line x1="140" y1="387.25" x2="900" y2="387.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">BUSINESS  (14)</text>
+<text x="403.33333333333337" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6%</text>
+<text x="656.6666666666667" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">8%</text>
+<line x1="140" y1="417.25" x2="900" y2="417.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CULTURE  (11)</text>
+<text x="403.33333333333337" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0%</text>
+<text x="656.6666666666667" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">52%</text>
+<line x1="140" y1="447.25" x2="900" y2="447.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ALL SECTIONS</text>
+<text x="403.33333333333337" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">38%</text>
+<text x="656.6666666666667" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">21%</text>
+<line x1="140" y1="477.25" x2="900" y2="477.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="497.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE SAME SIX STREETS</text>
+<text x="403.33333333333337" y="497.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">62 OF 81</text>
+<text x="656.6666666666667" y="497.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="507.25" x2="900" y2="507.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="527.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WARD POPULATION</text>
+<text x="403.33333333333337" y="527.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">40,000</text>
+<text x="656.6666666666667" y="527.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="537.25" x2="900" y2="537.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="557.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">RULE IN THE STYLE GUIDE</text>
+<text x="403.33333333333337" y="557.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NONE</text>
+<text x="656.6666666666667" y="557.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="567.25" x2="900" y2="567.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="595.25" x2="910" y2="595.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="631.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT IT IS CALLED WHEN IT IS NOT CALLED WARD 7</text>
+<text x="140" y="661.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;the north end&quot;</text>
+<text x="410" y="661.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">used by everybody who lives elsewhere</text>
+<text x="140" y="693.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;a problem neighbourhood&quot;</text>
+<text x="410" y="693.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">describes the coverage, not the place</text>
+<text x="140" y="725.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;the Lake and Seventh area&quot;</text>
+<text x="410" y="725.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">used only in planning stories</text>
+<text x="140" y="757.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">no name at all</text>
+<text x="410" y="757.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the culture pages, every time</text>
+<line x1="130" y1="789.25" x2="910" y2="789.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="811.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Every one of these eighty-one headlines is accurate. The pattern</text>
+<text x="140" y="833.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">they make is not in any of them, and nobody chose it.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Eighty-one headlines, sorted by section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Where the ward is named, where it is not, and what it is called instead.</text>
+<circle cx="934" cy="194.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 194.4 L 1024 194.4 L 1024 194.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="199.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two headlines, one week, one set</text>
+<text x="1040" y="219.70000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">of six streets</text>
+<circle cx="934" cy="361.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 361.8 L 1024 361.8 L 1024 361.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="366.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Seventy-one in one row and nought</text>
+<text x="1040" y="387.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">in another, and no rule between</text>
+<text x="1040" y="407.40000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">them</text>
+<circle cx="934" cy="566.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 566.4 L 1024 566.4 L 1024 566.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="571.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The section that quotes residents</text>
+<text x="1040" y="591.6999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">most names the place least</text>
+<circle cx="934" cy="864.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 864.0 L 1024 864.0 L 1024 864.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="869.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four names for one ward, and</text>
+<text x="1040" y="889.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">residents use none of them</text>
+<circle cx="934" cy="1003.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 1003.5 L 1024 1003.5 L 1024 1003.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="1008.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Every headline true, and the</text>
+<text x="1040" y="1028.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">pattern chosen by nobody</text>
+</g>
+</svg>

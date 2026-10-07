@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Four first paragraphs, six hundred readers</title>
+<desc>A bar chart comparing four versions of a first paragraph on the share of readers who stated the point correctly and the share who read past paragraph three.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">25</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">50</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">75</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">100</text>
+</g>
+<g id="20_subject">
+<rect x="212.14285714285714" y="435.2" width="94.82142857142858" height="174.8" rx="0" fill="#2E6F5E"/>
+<rect x="507.14285714285717" y="329.40000000000003" width="94.82142857142858" height="280.59999999999997" rx="0" fill="#2E6F5E"/>
+<rect x="802.1428571428571" y="269.6" width="94.82142857142858" height="340.4" rx="0" fill="#2E6F5E"/>
+<rect x="1097.142857142857" y="306.4" width="94.82142857142858" height="303.6" rx="0" fill="#2E6F5E"/>
+<rect x="317.50000000000006" y="407.6" width="94.82142857142858" height="202.39999999999998" rx="0" fill="#C86B2B"/>
+<rect x="612.5" y="375.4" width="94.82142857142858" height="234.60000000000002" rx="0" fill="#C86B2B"/>
+<rect x="907.5" y="320.2" width="94.82142857142858" height="289.8" rx="0" fill="#C86B2B"/>
+<rect x="1202.5" y="343.20000000000005" width="94.82142857142858" height="266.79999999999995" rx="0" fill="#C86B2B"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four first paragraphs, six hundred readers</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same four facts, four orders, and what readers did with each.</text>
+<rect x="1390" y="170" width="18" height="18" rx="0" fill="#2E6F5E"/>
+<text x="1416" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">stated the point (%)</text>
+<rect x="1390" y="204" width="18" height="18" rx="0" fill="#C86B2B"/>
+<text x="1416" y="219" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">read past para 3 (%)</text>
+<text x="317.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">plain order</text>
+<text x="612.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it-cleft</text>
+<text x="907.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what-cleft</text>
+<text x="1202.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">point in 7 words</text>
+<rect x="170" y="670" width="1180" height="87.25" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The seven-word rule performs well here and badly in practice: it was tested on one story, where the</text>
+<text x="186" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">point happened to fit. A rule that must fit every story will produce seven bad words at the top of</text>
+<text x="186" y="740.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">the hardest ones.</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The what-cleft wins on both measures, and it is the version every style guide in the</text>
+<text x="170" y="815.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">building tells a subeditor to delete.</text>
+</g>
+</svg>
