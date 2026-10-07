@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<title>The rota policy, and the rota</title>
+<desc>A hospital night rota policy showing consecutive-shift limits, approval requirements and rest periods, alongside the actual rota with handwritten amendments.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="850" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="850" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">HOSPITAL REGIONAL  -  NIGHT ROTA POLICY  -  HR-11</text>
+<text x="140" y="214" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Maximum consecutive nights</text>
+<text x="410" y="214" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">12</text>
+<text x="140" y="246" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Recommended maximum</text>
+<text x="410" y="246" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">7</text>
+<text x="140" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Minimum rest after a run</text>
+<text x="410" y="278" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">48 h</text>
+<text x="140" y="310.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Voluntary additional nights above seven require the approval of</text>
+<text x="140" y="331.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the department lead. Approval may be given retrospectively.</text>
+<text x="140" y="353.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Nothing in this policy requires the department lead to be told</text>
+<text x="140" y="375.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">in advance.</text>
+<line x1="130" y1="411.0" x2="910" y2="411.0" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="447.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE ACTUAL ROTA</text>
+<rect x="140" y="459.0" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="479.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">NIGHTS</text>
+<text x="403.33333333333337" y="479.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">HOW ADDED</text>
+<text x="656.6666666666667" y="479.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">APPROVED</text>
+<text x="150.0" y="509.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1 - 4</text>
+<text x="403.33333333333337" y="509.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">printed rota</text>
+<text x="656.6666666666667" y="509.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">yes</text>
+<line x1="140" y1="519.0" x2="900" y2="519.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="539.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">5 - 6</text>
+<text x="403.33333333333337" y="539.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">cover for absence</text>
+<text x="656.6666666666667" y="539.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">retrospectively</text>
+<line x1="140" y1="549.0" x2="900" y2="549.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="569.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">7 - 9</text>
+<text x="403.33333333333337" y="569.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">added by hand</text>
+<text x="656.6666666666667" y="569.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">retrospectively</text>
+<line x1="140" y1="579.0" x2="900" y2="579.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="599.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">10 - 11</text>
+<text x="403.33333333333337" y="599.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">added by hand</text>
+<text x="656.6666666666667" y="599.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">not recorded</text>
+<line x1="140" y1="609.0" x2="900" y2="609.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="629.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">12</text>
+<text x="403.33333333333337" y="629.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">on the printed rota</text>
+<text x="656.6666666666667" y="629.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">yes</text>
+<line x1="140" y1="639.0" x2="900" y2="639.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="667.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Rest taken between nights</text>
+<text x="410" y="667.0" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">9 h 20 avg</text>
+<text x="140" y="699.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Night rate premium</text>
+<text x="410" y="699.0" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">+33 %</text>
+<line x1="130" y1="731.0" x2="910" y2="731.0" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="763.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">ADDED TO THE ROTA IN BIRO, BESIDE NIGHT 8:</text>
+<text x="140" y="793.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;C says she is fine. - asked 02.40&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The rota policy, and the rota</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">A printed policy, a printed rota, and a clause added to the rota in biro.</text>
+<circle cx="934" cy="205.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 205.0 L 1024 205.0 L 1024 205.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="210.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Twelve permitted, seven</text>
+<text x="1040" y="230.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">recommended, and nobody reads the</text>
+<text x="1040" y="250.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">second</text>
+<circle cx="934" cy="307.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 307.0 L 1024 307.0 L 1024 307.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="312.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Approval may be retrospective,</text>
+<text x="1040" y="332.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">which makes it a record and not a</text>
+<text x="1040" y="352.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">check</text>
+<circle cx="934" cy="528.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 528.0 L 1024 528.0 L 1024 528.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="533.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four of the eleven were ever on a</text>
+<text x="1040" y="553.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">printed rota</text>
+<circle cx="934" cy="596.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 596.0 L 1024 596.0 L 1024 596.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="601.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two nights with no approval</text>
+<text x="1040" y="621.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">recorded at all</text>
+<circle cx="934" cy="732.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 732.0 L 1024 732.0 L 1024 732.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="737.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nine hours twenty between nights,</text>
+<text x="1040" y="757.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">including the journey</text>
+<circle cx="934" cy="910.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 910.5 L 1024 910.5 L 1024 910.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="915.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Somebody did ask, at twenty to</text>
+<text x="1040" y="935.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">three, and wrote it down</text>
+</g>
+</svg>

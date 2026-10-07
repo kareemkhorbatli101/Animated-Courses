@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>One phrase, four populations</title>
+<desc>A network from one phrase in a report into four departmental populations, with the disputed group of day cases shown at the centre.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="400" x2="520" y2="180" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="400" x2="520" y2="620" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="400" x2="900" y2="180" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="520" y1="620" x2="900" y2="620" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="180" x2="1270" y2="400" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="520" y1="620" x2="1270" y2="400" stroke="#A8372E" stroke-width="6" stroke-linecap="round"/>
+<line x1="900" y1="180" x2="1270" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="170" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">&quot;the patients&quot;</text>
+<text x="170" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">no definition given</text>
+<circle cx="520" cy="180" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="520" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="520" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Finance</text>
+<text x="520" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a bed number: 1,740</text>
+<circle cx="520" cy="620" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="520" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="520" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Coding</text>
+<text x="520" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">an overnight stay: 1,340</text>
+<circle cx="900" cy="180" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="900" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The ward</text>
+<text x="900" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">who was on the board: 1,610</text>
+<circle cx="900" cy="620" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="900" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="900" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Regional</text>
+<text x="900" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">whatever was sent: 1,340</text>
+<circle cx="1270" cy="400" r="56" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1270" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1270" y="482" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">400 day cases</text>
+<text x="1270" y="502" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">in two, out of two</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One phrase, four populations</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six nodes. The four hundred people in the middle are in two of them and not the others.</text>
+<rect x="287.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="345.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">for the purposes of the tariff</text>
+<rect x="287.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="345.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the national coding standard</text>
+<rect x="477.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="535.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">nobody asked the ward</text>
+<rect x="652.0" y="605.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="710.0" y="624.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sent on, unlabelled</text>
+<rect x="837.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="895.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">in</text>
+<rect x="837.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="895.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">out</text>
+<rect x="1027.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1085.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">in, informally</text>
+</g>
+</svg>

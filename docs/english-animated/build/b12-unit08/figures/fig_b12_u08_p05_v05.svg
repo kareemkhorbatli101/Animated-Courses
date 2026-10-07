@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<title>The report page, and the four departmental figures</title>
+<desc>A hospital report page with a headline waiting-time figure and the four different departmental figures for the same month, with the sources of each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="850" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="850" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">HOSPITAL REGIONAL  -  QUARTERLY REPORT  -  PAGE 11</text>
+<text x="140" y="228" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE SENTENCE</text>
+<text x="140" y="258.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;The patients waited an average of 41 days from referral to</text>
+<text x="140" y="279.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">first appointment.&quot;</text>
+<text x="140" y="315.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Definition given on this page</text>
+<text x="410" y="315.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">none</text>
+<text x="140" y="347.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Definition given anywhere in the report</text>
+<text x="410" y="347.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">none</text>
+<line x1="130" y1="379.5" x2="910" y2="379.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="415.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE SAME MONTH, FOUR WAYS</text>
+<rect x="140" y="427.5" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="447.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SOURCE</text>
+<text x="403.33333333333337" y="447.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">POPULATION</text>
+<text x="656.6666666666667" y="447.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DAYS</text>
+<text x="150.0" y="477.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Finance</text>
+<text x="403.33333333333337" y="477.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,740 - any bed number</text>
+<text x="656.6666666666667" y="477.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">41</text>
+<line x1="140" y1="487.5" x2="900" y2="487.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="507.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Clinical coding</text>
+<text x="403.33333333333337" y="507.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,340 - overnight only</text>
+<text x="656.6666666666667" y="507.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">47</text>
+<line x1="140" y1="517.5" x2="900" y2="517.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="537.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The ward</text>
+<text x="403.33333333333337" y="537.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,610 - on the board at 08.00</text>
+<text x="656.6666666666667" y="537.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">38</text>
+<line x1="140" y1="547.5" x2="900" y2="547.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="567.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Regional return</text>
+<text x="403.33333333333337" y="567.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,340 - as sent</text>
+<text x="656.6666666666667" y="567.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">58</text>
+<line x1="140" y1="577.5" x2="900" y2="577.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="605.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The regional figure is higher because it counts from referral</text>
+<text x="140" y="627.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">received rather than referral dated, which adds about eleven</text>
+<text x="140" y="649.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">days and is documented in the regional guidance and nowhere</text>
+<text x="140" y="670.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">here.</text>
+<text x="140" y="706.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Range</text>
+<text x="410" y="706.5" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">38 to 58 days</text>
+<text x="140" y="738.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Used in the headline</text>
+<text x="410" y="738.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">finance</text>
+<line x1="130" y1="770.5" x2="910" y2="770.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="802.5" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">STICKY NOTE ON THE PAGE, IN THE INFORMATION MANAGER'S HAND:</text>
+<text x="140" y="832.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Which patients? - asked 2011, 2016, 2019, and now.&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The report page, and the four departmental figures</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One sentence, no definition, and four numbers that are all correct.</text>
+<circle cx="934" cy="222.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 222.0 L 1024 222.0 L 1024 222.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The definite plural, and no</text>
+<text x="1040" y="247.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">antecedent anywhere</text>
+<circle cx="934" cy="290.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 290.0 L 1024 290.0 L 1024 290.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="295.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">No definition on the page, or in</text>
+<text x="1040" y="315.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the document</text>
+<circle cx="934" cy="460.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 460.0 L 1024 460.0 L 1024 460.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="465.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four hundred people and six days</text>
+<text x="1040" y="485.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">between the first two rows</text>
+<circle cx="934" cy="562.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 562.0 L 1024 562.0 L 1024 562.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="567.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The ward counts at eight in the</text>
+<text x="1040" y="587.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">morning, which nobody else does</text>
+<circle cx="934" cy="732.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 732.0 L 1024 732.0 L 1024 732.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="737.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Eleven days, documented in a</text>
+<text x="1040" y="757.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">guidance nobody here has read</text>
+<circle cx="934" cy="919.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 919.0 L 1024 919.0 L 1024 919.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="924.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four times in thirteen years, by</text>
+<text x="1040" y="944.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the same person</text>
+</g>
+</svg>

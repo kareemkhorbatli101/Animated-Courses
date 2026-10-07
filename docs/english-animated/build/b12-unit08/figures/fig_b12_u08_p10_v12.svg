@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="880" viewBox="0 0 1600 880">
+<title>Thirteen years of two definitions</title>
+<desc>An infographic from 2011 to the present showing two admission definitions, the systems that used each, and the four occasions the question was asked.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="880" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Finance</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Clinical</text>
+<text x="52" y="334.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">coding</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What happened</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Times the</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">question was</text>
+<text x="52" y="654.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">asked</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="730" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="764.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What it cost</text>
+<line x1="150" y1="850" x2="1450" y2="850" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="1300.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="150.0" y="316" width="1300.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<circle cx="150.0" cy="490" r="10" fill="#1F4E5F"/>
+<line x1="150.0" y1="490" x2="150.0" y2="550" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="202.0" cy="490" r="10" fill="#D9A441"/>
+<line x1="202.0" y1="490" x2="202.0" y2="550" stroke="#D9A441" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="254.0" cy="490" r="10" fill="#A8372E"/>
+<line x1="254.0" y1="490" x2="254.0" y2="550" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="826.0" cy="490" r="10" fill="#8C6A9E"/>
+<line x1="826.0" y1="490" x2="826.0" y2="550" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1268.0" cy="490" r="10" fill="#2E6F5E"/>
+<line x1="1268.0" y1="490" x2="1268.0" y2="550" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 150 690 L 618 661 L 826 633 L 1268 604 L 1450 604" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150.0" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="618.0" cy="661.3333333428889" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="826.0" cy="632.6666666857777" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1268.0" cy="604.0000000286667" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="604.0000000286667" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="410.0" y1="766" x2="410.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="410.0,766 462.0,778 410.0,790" fill="#D9A441"/>
+<line x1="930.0" y1="766" x2="930.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="930.0,766 982.0,778 930.0,790" fill="#D9A441"/>
+<line x1="1320.0" y1="766" x2="1320.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1320.0,766 1372.0,778 1320.0,790" fill="#D9A441"/>
+<line x1="1437.0" y1="766" x2="1437.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1437.0,766 1489.0,778 1437.0,790" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Thirteen years of two definitions</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the 2011 minutes. Half sees the current report. Rebuild it by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">a bed number - day cases in</text>
+<text x="160.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">overnight stay - national standard</text>
+<text x="150.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">both positions agreed to be correct</text>
+<text x="202.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">action: circulate both definitions</text>
+<text x="254.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">note written. Nobody would own it</text>
+<text x="826.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">single reporting system - uses finance, does not say so</text>
+<text x="1268.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">definition published, prior year restated</text>
+<text x="1456" y="608.0000000286667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">4</text>
+<text x="416.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">four hundred people, in two figures and out of two</text>
+<text x="936.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">a system that chose silently</text>
+<text x="1326.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">this year 41 to 47, last year 39 to 46</text>
+<text x="1443.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">and somebody now asks in half the meetings</text>
+<line x1="150.0" y1="862" x2="150.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2011</text>
+<line x1="410.0" y1="862" x2="410.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2016</text>
+<line x1="670.0" y1="862" x2="670.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2019</text>
+<line x1="930.0" y1="862" x2="930.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2022</text>
+<line x1="1190.0" y1="862" x2="1190.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the report</text>
+<line x1="1450.0" y1="862" x2="1450.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">now</text>
+</g>
+</svg>
