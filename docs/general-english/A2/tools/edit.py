@@ -16,10 +16,13 @@ class Editor:
         self.applied = 0
 
     def sub(self, old: str, new: str, count: int = 1):
+        """count=0 means every occurrence. str.replace reads 0 as "none" and
+        would report the edit as applied while changing nothing, which cost a
+        round once already."""
         if old not in self.text:
             self.missed.append(old[:70])
             return self
-        self.text = self.text.replace(old, new, count)
+        self.text = self.text.replace(old, new, -1 if count == 0 else count)
         self.applied += 1
         return self
 

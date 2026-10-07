@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "A sign with a name",
+   "size": 34,
+   "bbox": [
+    181.9,
+    67.8,
+    548.1,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a place name",
+   "size": 27,
+   "bbox": [
+    273.5,
+    282.5,
+    456.5,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you need the map",
+   "size": 27,
+   "bbox": [
+    241.4,
+    328.5,
+    488.6,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "no use to a stranger",
+   "size": 27,
+   "bbox": [
+    228.2,
+    374.5,
+    501.8,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "A sign with a number",
+   "size": 34,
+   "bbox": [
+    900.7,
+    67.8,
+    1309.3,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a number of two figures",
+   "size": 27,
+   "bbox": [
+    943.1,
+    282.5,
+    1266.9,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the next numbers in each direction",
+   "size": 27,
+   "bbox": [
+    867.8,
+    328.5,
+    1342.2,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "anybody able to count",
+   "size": 27,
+   "bbox": [
+    953.4,
+    374.5,
+    1256.6,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Two kinds of sign. One carries a place name, which only helps somebody who already knows the map. The other carries a number of two figures and the next numbers in each direction, which helps anybody able to count.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "3ed8d64fe3fce7cfbe40a26913ddf3d58f5f8179c2cb9ce5d558e24e803e7c29"
+}

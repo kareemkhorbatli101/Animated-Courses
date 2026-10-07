@@ -310,13 +310,23 @@ def e25(u, ctx):
         return ok(f'passive is taught at U{pas}')
     # `the shop is closed`, `the door is open`, `she is tired` are adjectival at
     # A2, not the passive. Only a true agentless passive counts.
+    # `used` came off this list on 2026-10-07: predicative `is used` is a passive,
+    # not an adjective, and the entry had been hiding one in a Part 8 reading.
     ADJ = {'closed', 'open', 'tired', 'interested', 'worried', 'married', 'pleased',
-           'bored', 'excited', 'finished', 'used', 'broken', 'gone', 'done',
-           'wooden', 'golden', 'open', 'often', 'given', 'closed',
+           'bored', 'excited', 'finished', 'broken', 'gone', 'done',
+           'surprised', 'frightened', 'embarrassed', 'annoyed', 'confused',
+           'wooden', 'golden', 'often', 'given',
+           'green', 'even', 'seven', 'dozen', 'oven', 'sudden', 'happen',
            'seven', 'eleven', 'children', 'women', 'kitchen', 'written',
-           'ten', 'often', 'golden', 'frozen', 'garden', 'listen'}
-    hits = [m.group(0) for m in re.finditer(r'\b(?:is|are|was|were)\s+(\w+(?:ed|en))\b',
-                                           ' '.join(u.sentences), re.I)
+           'ten', 'frozen', 'garden', 'listen', 'spoken'}
+    # Three shapes, not one: the old pattern required the auxiliary to sit against
+    # the participle and knew nothing of modal or gerund passives, so `is often
+    # made`, `can be found` and `without being asked` all read as clean.
+    PATS = (r'\b(?:is|are|was|were)\s+(?:not|never|often|usually|always|still|also|only)?\s*(\w+(?:ed|en))\b',
+            r'\b(?:can|could|must|should|may|might|will|would)\s+be\s+(\w+(?:ed|en))\b',
+            r'\b(?:been|being)\s+(\w+(?:ed|en))\b')
+    body = ' '.join(u.sentences)
+    hits = [m.group(0) for pat in PATS for m in re.finditer(pat, body, re.I)
             if m.group(1).lower() not in ADJ]
     return expect(not hits, f'{len(hits)} passive forms before U{pas}: {hits[:4]}')
 

@@ -24,6 +24,7 @@ people:
       - starts work at nine
       - is studying for an exam; leaves work early on Tuesdays
       - can find any book in under a minute
+      - walks with the map open and still turns the wrong way
       - knocked on Yuki's door on her fifth day with a note
     first_unit: 1
   Tomas:
@@ -37,6 +38,7 @@ people:
       - usually works three days a week
       - some weeks works nights; sleeps mornings, gets up at four
       - is patient with people who are frightened
+      - knows every back lane between Alder Street and the hospital
       - finishes a night shift around eight in the morning
       - worked eleven of the last twelve Saturday nights
       - missed Maya's birthday dinner and sent a photograph of the cake
@@ -56,6 +58,7 @@ people:
       - keeps four spare keys in a tin under the till
       - has a son who thinks the notebook should stop
       - sells no meat, because there is no room for a fridge
+      - painted GREEN SHOP across her window instead of a number
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -70,6 +73,7 @@ people:
       - carries a bike down the stairs every day
       - forgot his wallet and missed the coach one Tuesday
       - leaves a spare key in Amina's tin
+      - finds his way by the shops, and gets there
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -87,6 +91,7 @@ people:
       - mends what he has and buys almost nothing
       - can play the piano, badly, and says badly is enough
       - since February cannot carry a full bag up four floors without stopping
+      - gives directions by shops that closed years ago
     first_unit: 1
   Yuki:
     full: Yuki Tanaka
@@ -100,6 +105,8 @@ people:
       - after three weeks knew four of the six people at number 14
       - has the top flat, flat 5, with a small balcony and two plants
       - pays six hundred a month, which includes the water
+      - cannot swim; could float at eight; is learning as an adult
+      - writes directions down and reads them again at every junction
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
@@ -111,6 +118,7 @@ walk_ons:
   - {name: the Lima railway, unit: 6, country: Peru}
   - {name: the jua kali workshops, unit: 7, country: Kenya}
   - {name: the Toronto tool library, unit: 8, country: Canada}
+  - {name: the Dutch junction numbers, unit: 9, country: Netherlands}
 
 places:
   - Alder Street

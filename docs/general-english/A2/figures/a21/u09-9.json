@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "the same way",
+   "size": 24,
+   "bbox": [
+    76.3,
+    273.4,
+    262.9,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one draws",
+   "size": 30,
+   "bbox": [
+    357.4,
+    234.5,
+    532.2,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a line",
+   "size": 30,
+   "bbox": [
+    398.3,
+    269.5,
+    491.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one draws",
+   "size": 30,
+   "bbox": [
+    632.6,
+    234.5,
+    807.4,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the area",
+   "size": 30,
+   "bbox": [
+    648.9,
+    269.5,
+    791.1,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the road is",
+   "size": 30,
+   "bbox": [
+    904.1,
+    234.5,
+    1086.3,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "closed",
+   "size": 30,
+   "bbox": [
+    941.0,
+    269.5,
+    1049.4,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "only one finds",
+   "size": 24,
+   "bbox": [
+    1175.2,
+    244.4,
+    1365.6,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a new way",
+   "size": 24,
+   "bbox": [
+    1199.5,
+    273.4,
+    1341.3,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "Two ways of knowing one walk, in five stages with an arrow to the next: both people walk the same way home, one draws it as a line of turns, the other draws the whole area, then the road is closed, and only the second one finds a new way.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "22d81fc21ed248dc8399145b114c45c916fac72423624a43f6b10fb41b4b80d8"
+}

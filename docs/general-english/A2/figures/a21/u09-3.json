@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  571
+ ],
+ "bounds": [
+  67.0,
+  28.3,
+  1373.0,
+  542.3
+ ],
+ "texts": [
+  {
+   "text": "A junction",
+   "size": 34,
+   "bbox": [
+    178.4,
+    217.3,
+    372.3,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A square",
+   "size": 34,
+   "bbox": [
+    635.1,
+    217.3,
+    804.9,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A roundabout",
+   "size": 34,
+   "bbox": [
+    1033.6,
+    217.3,
+    1295.7,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A lane",
+   "size": 34,
+   "bbox": [
+    215.3,
+    488.3,
+    335.3,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A bridge",
+   "size": 34,
+   "bbox": [
+    638.7,
+    488.3,
+    801.3,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A block",
+   "size": 34,
+   "bbox": [
+    1094.5,
+    488.3,
+    1234.8,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Six kinds of place, each on its own card: a junction, a square, a roundabout, a lane, a bridge and a block.",
+ "placed_in": [
+  4.989583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "bbf2ddb56e26bb5e50fc61a614f644cdfc9493fa5604a2edacd8ec40840b1c68"
+}

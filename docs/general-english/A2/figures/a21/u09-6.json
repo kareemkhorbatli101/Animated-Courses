@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  428
+ ],
+ "bounds": [
+  47,
+  21.2,
+  1393,
+  407.2
+ ],
+ "texts": [
+  {
+   "text": "the stop",
+   "size": 34,
+   "bbox": [
+    110.2,
+    131.2,
+    269.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "get off by the",
+   "size": 28,
+   "bbox": [
+    82.9,
+    267.9,
+    297.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bridge",
+   "size": 28,
+   "bbox": [
+    138.7,
+    303.9,
+    241.3,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back",
+   "size": 34,
+   "bbox": [
+    410.0,
+    131.2,
+    500.0,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "towards the",
+   "size": 28,
+   "bbox": [
+    360.0,
+    267.9,
+    550.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "junction",
+   "size": 28,
+   "bbox": [
+    390.9,
+    303.9,
+    519.1,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "second left",
+   "size": 34,
+   "bbox": [
+    613.5,
+    131.2,
+    826.5,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a lane with no sign",
+   "size": 22,
+   "bbox": [
+    602.4,
+    271.8,
+    837.6,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the corner",
+   "size": 34,
+   "bbox": [
+    885.2,
+    131.2,
+    1084.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a green shop",
+   "size": 28,
+   "bbox": [
+    882.0,
+    267.9,
+    1088.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "above it",
+   "size": 34,
+   "bbox": [
+    1172.2,
+    131.2,
+    1327.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "number 14",
+   "size": 28,
+   "bbox": [
+    1164.7,
+    267.9,
+    1335.3,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One walk as five steps on a line: get off at the stop by the bridge, walk back towards the junction, take the second road on the left into a lane with no sign, go on to the green shop on the corner, and number 14 is above it.",
+ "placed_in": [
+  5.625,
+  1.6770833333333333
+ ],
+ "sha256": "424c7e8a0bc16a80e2ab5d99ef9593ec7327a824b5e2160792b212163813b82b"
+}

@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Where to get off",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    467.3,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Get off at the stop by the bridge.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1099.2,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Which way",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    370.9,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Walk back towards the junction.",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    1085.9,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "One landmark",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    427.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Look for the green shop on the corner.",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    1169.3,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What too far looks like",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    573.8,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If you reach the square, turn round.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1133.7,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the directions the learner is about to write, in four steps: where to get off, which way to walk, one landmark to look for, and what too far looks like.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "fbfc4d346092f0d8977debc5714c25db201f454b735eb8dd6181284aaad25672"
+}

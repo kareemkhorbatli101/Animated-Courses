@@ -232,6 +232,34 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         R(20, -10, 16, 20, fill=P['bg'], r=8)        # handle
         R(-20, -14, 32, 8, fill=P['tand'], r=3)      # the drink
         L(-30, 26, 30, 26, sw=5)
+    elif name == 'sign':
+        L(0, 44, 0, -20, sw=6)                             # the pole
+        R(-6, -46, 52, 20, fill=P['card'], r=3)            # the upper board
+        L(-2, -36, 36, -36, stroke=P['deep'], sw=3)
+        R(-46, -20, 52, 20, fill=P['card'], r=3)           # the lower board
+        L(-40, -10, -4, -10, stroke=P['deep'], sw=3)
+    elif name == 'bridge':
+        L(-52, 42, 52, 42, stroke=P['blue'], sw=5)         # the water
+        L(-46, 24, -46, 42, stroke=P['tand'], sw=4)        # the piers
+        L(-16, 24, -16, 42, stroke=P['tand'], sw=4)
+        L(16, 24, 16, 42, stroke=P['tand'], sw=4)
+        L(46, 24, 46, 42, stroke=P['tand'], sw=4)
+        R(-50, 6, 100, 18, fill=P['tan'], r=3)             # the deck
+        R(-36, -20, 13, 26, fill=P['blue'], r=3)           # the towers
+        R(23, -20, 13, 26, fill=P['blue'], r=3)
+    elif name == 'sign_number':
+        L(0, 44, 0, -18, sw=6)                             # the pole
+        R(-30, -50, 60, 44, fill=P['card'], r=4)           # one square board
+        R(-19, -42, 16, 18, fill=P['deep'], r=2)           # the two figures
+        R(1, -42, 16, 18, fill=P['deep'], r=2)
+        L(-22, -16, 22, -16, stroke=P['tand'], sw=4)       # the next numbers
+        L(-22, -16, -14, -22, stroke=P['tand'], sw=4)
+        L(22, -16, 14, -10, stroke=P['tand'], sw=4)
+    elif name == 'tree':
+        L(0, 8, 0, 40, stroke=P['tand'], sw=7)             # the trunk
+        C(0, -6, 26, fill=P['tanl'])
+        C(-16, 10, 17, fill=P['tanl'])
+        C(16, 10, 17, fill=P['tanl'])
     else:
         C(0, 0, 30, fill=P['grey'])
 
@@ -575,6 +603,36 @@ def politeness_ladder(f: Fig, x, y, w, h):
                stroke=P['ink'], r=4)
     icon(f, 'person', x + w * 0.10, bot - 40, s=0.46)
     icon(f, 'cup', x + w * 0.10, top + 40, s=0.40)
+
+
+def street_plan(f: Fig, x, y, w, h):
+    """A plan of one street from above, with one building cut open. Opposite,
+    between, behind and next to are readable from a plan; below is not, so the
+    building on the right is drawn in section, shop under flat. Hit points run
+    left to right as they run down the drawing, so no two leaders cross."""
+    rt, rb = y + h * 0.40, y + h * 0.50
+    f.rect(x + 30, rt, w - 60, rb - rt, fill=P['grey'], stroke=P['ink'], r=4)
+    for k in range(7):                                     # the centre line
+        f.rect(x + 56 + k * (w - 140) / 7, (rt + rb) / 2 - 4, 40, 8,
+               fill=P['bg'], stroke='none', r=2, sw=0)
+    # the terrace above the road: three in a row, so the middle one is between
+    for i, fill in enumerate((P['card'], P['blue'], P['card'])):
+        f.rect(x + w * (0.12 + i * 0.14), y + h * 0.14, w * 0.12, h * 0.26,
+               fill=fill, stroke=P['ink'], r=6)
+    # two below the road: the first is opposite the middle one, the second next to it
+    f.rect(x + w * 0.26, rb, w * 0.12, h * 0.20, fill=P['tan'], stroke=P['ink'], r=6)
+    f.rect(x + w * 0.42, rb, w * 0.12, h * 0.20, fill=P['card'], stroke=P['ink'], r=6)
+    # the square, open, with its bench
+    f.rect(x + w * 0.58, rb, w * 0.18, h * 0.22, fill=P['tanl'], stroke=P['ink'], r=8)
+    f.rect(x + w * 0.63, rb + h * 0.09, w * 0.08, 12, fill=P['tand'],
+           stroke=P['ink'], r=4)
+    # the low building behind the square
+    f.rect(x + w * 0.59, rb + h * 0.25, w * 0.16, h * 0.12,
+           fill=P['card'], stroke=P['ink'], r=6)
+    # the building on the right, cut open: a flat over a shop
+    f.rect(x + w * 0.84, rb, w * 0.12, h * 0.19, fill=P['card'], stroke=P['ink'], r=6)
+    f.rect(x + w * 0.84, rb + h * 0.19, w * 0.12, h * 0.19, fill=P['deep'],
+           stroke=P['ink'], r=6)
 
 
 def compare_pair(f: Fig, x, y, w, h):

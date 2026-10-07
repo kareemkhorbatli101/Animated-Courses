@@ -25,6 +25,9 @@ units:
   8:
     book: A2.1
     words: [favour, lend, borrow, advice, course, lesson, beginner, patient, instrument, able]
+  9:
+    book: A2.1
+    words: [junction, roundabout, lane, square, address, block, towards, ahead, below, far]
 
 # Fixed expressions that merely contain a glossary word without carrying its
 # meaning. Measured in the source: it says `of course` seven times, from Unit 1
