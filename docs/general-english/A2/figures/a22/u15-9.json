@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "nine smooth",
+   "size": 26,
+   "bbox": [
+    78.7,
+    240.8,
+    260.5,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "days",
+   "size": 26,
+   "bbox": [
+    135.7,
+    271.8,
+    203.5,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two bad hours",
+   "size": 24,
+   "bbox": [
+    347.7,
+    273.4,
+    541.9,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the strongest",
+   "size": 24,
+   "bbox": [
+    628.2,
+    244.4,
+    811.8,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "moment",
+   "size": 24,
+   "bbox": [
+    664.3,
+    273.4,
+    775.7,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the last one",
+   "size": 28,
+   "bbox": [
+    900.9,
+    271.0,
+    1089.5,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the story",
+   "size": 30,
+   "bbox": [
+    1193.6,
+    234.5,
+    1347.2,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you tell",
+   "size": 30,
+   "bbox": [
+    1206.8,
+    269.5,
+    1334.0,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "How one holiday becomes one story, in five stages with an arrow to the next: nine smooth days, two bad hours, the strongest moment, the last one, and then the only story anybody tells afterwards.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "6459f245b82efe71145a2664a795f877f2f349d9731b77b141ca2a0e099864d5"
+}

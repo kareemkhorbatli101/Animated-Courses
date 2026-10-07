@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  428
+ ],
+ "bounds": [
+  47,
+  21.2,
+  1393,
+  407.2
+ ],
+ "texts": [
+  {
+   "text": "long ago",
+   "size": 34,
+   "bbox": [
+    107.0,
+    131.2,
+    273.0,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "slept outside once",
+   "size": 24,
+   "bbox": [
+    65.4,
+    270.3,
+    314.6,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "after that",
+   "size": 34,
+   "bbox": [
+    362.4,
+    131.2,
+    547.6,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "went abroad",
+   "size": 28,
+   "bbox": [
+    355.6,
+    267.9,
+    554.4,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "then",
+   "size": 34,
+   "bbox": [
+    676.1,
+    131.2,
+    763.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four countries",
+   "size": 28,
+   "bbox": [
+    608.5,
+    267.9,
+    831.5,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "this year",
+   "size": 34,
+   "bbox": [
+    900.4,
+    131.2,
+    1069.6,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "already twice",
+   "size": 28,
+   "bbox": [
+    878.7,
+    267.9,
+    1091.3,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "still",
+   "size": 34,
+   "bbox": [
+    1214.3,
+    131.2,
+    1285.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "never flown",
+   "size": 28,
+   "bbox": [
+    1157.2,
+    267.9,
+    1342.8,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One life on a line: slept outside once long ago, then went abroad, then four countries, abroad already twice this year, and still never flown.",
+ "placed_in": [
+  5.625,
+  1.6770833333333333
+ ],
+ "sha256": "cc0371279693e447283a0abc238bab64c5e1941fb87168dc9adad6e84a64cb61"
+}

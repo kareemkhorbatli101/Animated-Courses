@@ -313,6 +313,25 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         R(-4, -10, 8, 36, fill=P['tand'], r=4)
         for k in range(4):
             L(7, -34 + k * 12, 14, -34 + k * 12, stroke=P['deep'], sw=3)
+    elif name == 'plane':
+        f.path(f'M {cx-48*s:.1f} {cy+6*s:.1f} L {cx+40*s:.1f} {cy-6*s:.1f} '
+               f'L {cx+48*s:.1f} {cy+2*s:.1f} L {cx-40*s:.1f} {cy+18*s:.1f} Z',
+               fill=P['blue'])
+        f.path(f'M {cx-6*s:.1f} {cy+2*s:.1f} L {cx+6*s:.1f} {cy-30*s:.1f} '
+               f'L {cx+18*s:.1f} {cy-26*s:.1f} L {cx+8*s:.1f} {cy+6*s:.1f} Z',
+               fill=P['deep'])
+    elif name == 'tent':
+        f.path(f'M {cx-44*s:.1f} {cy+28*s:.1f} L {cx:.1f} {cy-34*s:.1f} '
+               f'L {cx+44*s:.1f} {cy+28*s:.1f} Z', fill=P['tan'])
+        f.path(f'M {cx-12*s:.1f} {cy+28*s:.1f} L {cx:.1f} {cy-6*s:.1f} '
+               f'L {cx+12*s:.1f} {cy+28*s:.1f} Z', fill=P['ink'])
+        L(-52, 28, 52, 28, sw=5)
+    elif name == 'island':
+        L(-50, 24, 50, 24, stroke=P['blue'], sw=6)
+        f.path(f'M {cx-34*s:.1f} {cy+24*s:.1f} Q {cx:.1f} {cy-6*s:.1f} '
+               f'{cx+34*s:.1f} {cy+24*s:.1f} Z', fill=P['tanl'])
+        L(6, 6, 6, -24, stroke=P['tand'], sw=5)
+        C(6, -30, 14, fill=P['tanl'])
     elif name == 'tree':
         L(0, 8, 0, 40, stroke=P['tand'], sw=7)             # the trunk
         C(0, -6, 26, fill=P['tanl'])
@@ -825,6 +844,37 @@ def advice_ladder(f: Fig, x, y, w, h):
     f.line(ax, base, ax, top + h * 0.05, stroke=P['accent'], sw=6)
     f.path(f'M {ax:.1f} {top - h * 0.02:.1f} L {ax - 14:.1f} {top + h * 0.06:.1f} '
            f'L {ax + 14:.1f} {top + h * 0.06:.1f} Z', fill=P['accent'])
+
+
+def life_line(f: Fig, x, y, w, h):
+    """A life as one line, with four things on it and a gap at the end. The
+    marks differ in shape so experience, a repeat, a never and a not-yet are
+    told apart by the drawing: a filled circle for done, two circles for twice,
+    an empty circle with a line through for never, and an open bracket for the
+    part not reached. Hit points step down to the right."""
+    def ly_at(fx):
+        return y + h * (0.24 + 0.52 * fx)
+    f.line(x + 60, ly_at(0.09), x + w * 0.845, ly_at(0.845), stroke=P['ink'], sw=6)
+    xs = [0.14, 0.33, 0.52, 0.71]
+    # done once: a filled circle
+    f.circle(x + w * xs[0], ly_at(xs[0]), 20, fill=P['deep'], sw=4)
+    # done twice: two filled circles together
+    f.circle(x + w * xs[1] - 15, ly_at(xs[1]) - 4, 17, fill=P['deep'], sw=4)
+    f.circle(x + w * xs[1] + 17, ly_at(xs[1]) + 4, 17, fill=P['deep'], sw=4)
+    # never: an empty circle with a line through it
+    cy3 = ly_at(xs[2])
+    f.circle(x + w * xs[2], cy3, 20, fill=P['bg'], sw=4)
+    f.line(x + w * xs[2] - 16, cy3 + 16, x + w * xs[2] + 16, cy3 - 16,
+           stroke=P['ink'], sw=5)
+    # already: a filled circle with a mark of distance above it
+    cy4 = ly_at(xs[3])
+    f.circle(x + w * xs[3], cy4, 20, fill=P['tan'], sw=4)
+    f.line(x + w * xs[3], cy4 - 36, x + w * xs[3], cy4 - 24, stroke=P['tand'], sw=4)
+    # not yet: the line stops and an open bracket waits
+    bx, by = x + w * 0.855, ly_at(0.875)
+    f.line(bx, by - 34, bx, by + 34, stroke=P['rule'], sw=5)
+    f.line(bx, by - 34, bx + 26, by - 34, stroke=P['rule'], sw=5)
+    f.line(bx, by + 34, bx + 26, by + 34, stroke=P['rule'], sw=5)
 
 
 def compare_pair(f: Fig, x, y, w, h):

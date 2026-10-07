@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you have done",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    537.2,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have walked across a city at four in the morning.",
+   "size": 22,
+   "bbox": [
+    670,
+    64.8,
+    1222.3,
+    84.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Once, and with who",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    524.2,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Once, with two people I had known a week.",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    1236.6,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you have forgotten",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    614.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have taken better holidays and forgotten them.",
+   "size": 22,
+   "bbox": [
+    670,
+    283.8,
+    1207.8,
+    303.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you have not",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    509.7,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have never forgotten one street of that walk.",
+   "size": 24,
+   "bbox": [
+    670,
+    391.7,
+    1226.4,
+    413.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the piece the learner is about to write, in four steps: what you have done, roughly when, what you have forgotten, and the one thing you have not.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "887f9cff02cfe0a397da111f7ea34d62e3d91a837cf2aecac8342a4cf86a2306"
+}

@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   209.6,
+   176.4,
+   846,
+   45.3
+  ],
+  [
+   331.2,
+   222.9,
+   846,
+   155.3
+  ],
+  [
+   452.8,
+   269.0,
+   846,
+   265.3
+  ],
+  [
+   574.4,
+   315.5,
+   846,
+   375.3
+  ],
+  [
+   680.0,
+   355.9,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One life drawn as a line running left to right, with four marks on it and an open bracket at the end: a single filled circle, two filled circles together, an empty circle with a line through it, a filled circle well before the end, and then the bracket where the line stops. Five numbered lines run to the right for the learner to write each word.",
+ "placed_in": [
+  6.270833333333333,
+  2.3125
+ ],
+ "sha256": "05f1013d3d3c74960c7bc492ad5162fd7016fa043311059a5157a427b478734e"
+}

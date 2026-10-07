@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  812
+ ],
+ "bounds": [
+  0,
+  30,
+  1440,
+  782
+ ],
+ "texts": [
+  {
+   "text": "UNIT 15",
+   "size": 40,
+   "bbox": [
+    90,
+    104.4,
+    267.7,
+    140.0
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Experiences",
+   "size": 72,
+   "bbox": [
+    90,
+    163.7,
+    580.7,
+    226.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "GRAMMAR",
+   "size": 26,
+   "bbox": [
+    106,
+    366.5,
+    259.4,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The present perfect: ever and never",
+   "size": 26,
+   "bbox": [
+    106,
+    420.5,
+    637.8,
+    444.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "IN THIS UNIT",
+   "size": 26,
+   "bbox": [
+    786,
+    366.5,
+    973.7,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "By the end you can",
+   "size": 30,
+   "bbox": [
+    70,
+    588.2,
+    394.3,
+    614.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can talk about things I have done, with no date.",
+   "size": 30,
+   "bbox": [
+    128,
+    640.2,
+    963.8,
+    666.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use ever, never, already and yet correctly.",
+   "size": 30,
+   "bbox": [
+    128,
+    696.2,
+    930.2,
+    722.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can write about an experience in 50\u201370 words.",
+   "size": 30,
+   "bbox": [
+    128,
+    752.2,
+    939.6,
+    778.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The opening page of Unit 15, Experiences: the grammar point is the present perfect with ever and never, and three things the learner will be able to do by the end of the unit.",
+ "placed_in": [
+  6.270833333333333,
+  3.53125
+ ],
+ "sha256": "441b20eb388d1254d97f6daf652f481ec49f188101997811986785d58b678d02"
+}

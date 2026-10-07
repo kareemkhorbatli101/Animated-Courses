@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "Norway",
+   "size": 32,
+   "bbox": [
+    212.2,
+    217.2,
+    347.8,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "three nights of waiting, a",
+   "size": 26,
+   "bbox": [
+    116.8,
+    269.1,
+    443.2,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "third see nothing",
+   "size": 26,
+   "bbox": [
+    169.0,
+    301.1,
+    391.0,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Kenya",
+   "size": 32,
+   "bbox": [
+    664.4,
+    217.2,
+    775.6,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the animals do not know",
+   "size": 26,
+   "bbox": [
+    559.4,
+    269.1,
+    880.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "anybody is watching",
+   "size": 26,
+   "bbox": [
+    586.1,
+    301.1,
+    853.9,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Peru",
+   "size": 32,
+   "bbox": [
+    1118.1,
+    217.2,
+    1201.9,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a train, a long walk, and",
+   "size": 26,
+   "bbox": [
+    1002.6,
+    269.1,
+    1317.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody sure it is worth it",
+   "size": 26,
+   "bbox": [
+    997.9,
+    301.1,
+    1322.1,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three places people travel a long way to see: the north of Norway, where people wait three nights in the cold and about a third see nothing; Kenya, where the animals crossing the river do not know anybody is watching; and Peru, at the end of a train ride and a long walk that nobody is sure is worth it.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "16a689d7b1faaa4f4c870179f1e8fbd99c2fccd714c19eed6a4788d26c5f2884"
+}
