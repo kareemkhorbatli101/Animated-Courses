@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="880" viewBox="0 0 1600 880">
+<title>From March to the Thursday</title>
+<desc>An infographic of a near miss showing three earlier reports, the labelling changes, the broken scanner and the eighteen minutes on the day itself.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="880" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The cupboard</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The scanner</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What was</text>
+<text x="52" y="484.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">filed</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Reports a</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">month</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="730" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="764.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What nobody</text>
+<text x="52" y="784.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">did</text>
+<line x1="150" y1="850" x2="1450" y2="850" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="208.0" height="50" rx="4" fill="#9AA7AE" opacity="0.9"/>
+<rect x="358.0" y="166" width="182.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="540.0" y="166" width="676.0" height="50" rx="4" fill="#A8372E" opacity="0.9"/>
+<rect x="1216.0" y="166" width="234.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="150.0" y="316" width="1300.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<circle cx="202.0" cy="490" r="10" fill="#1F4E5F"/>
+<line x1="202.0" y1="490" x2="202.0" y2="550" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="618.0" cy="490" r="10" fill="#1F4E5F"/>
+<line x1="618.0" y1="490" x2="618.0" y2="550" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="826.0" cy="490" r="10" fill="#9AA7AE"/>
+<line x1="826.0" y1="490" x2="826.0" y2="550" stroke="#9AA7AE" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1008.0" cy="490" r="10" fill="#A8372E"/>
+<line x1="1008.0" y1="490" x2="1008.0" y2="550" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1320.0" cy="490" r="10" fill="#2E6F5E"/>
+<line x1="1320.0" y1="490" x2="1320.0" y2="550" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 150 690 L 540 690 L 930 661 L 1216 661 L 1346 604 L 1450 604" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="540.0" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="930.0" cy="661.3333333428889" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1216.0" cy="661.3333333428889" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1346.0" cy="604.0000000286667" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="604.0000000286667" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="436.0" y1="766" x2="436.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="436.0,766 488.0,778 436.0,790" fill="#D9A441"/>
+<line x1="774.0" y1="766" x2="774.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="774.0,766 826.0,778 774.0,790" fill="#D9A441"/>
+<line x1="1086.0" y1="766" x2="1086.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1086.0,766 1138.0,778 1086.0,790" fill="#D9A441"/>
+<line x1="1398.0" y1="766" x2="1398.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1398.0,766 1450.0,778 1398.0,790" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">From March to the Thursday</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the timeline. Half sees the reports. Rebuild the year by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">labelled as built</text>
+<text x="368.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">relabelled</text>
+<text x="550.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">relabelled back - no one told pharmacy</text>
+<text x="1226.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">separated and recoded</text>
+<text x="160.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">broken, and on the order list</text>
+<text x="202.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">report 1, signed</text>
+<text x="618.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">report 2, signed - auto-reply at 04.11</text>
+<text x="826.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">report 3, not filed</text>
+<text x="1008.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">20 mg prepared. Caught at 16.08</text>
+<text x="1320.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">both options kept, rates printed on the form</text>
+<text x="1456" y="608.0000000286667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">7</text>
+<text x="442.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">nobody told pharmacy why</text>
+<text x="780.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">nobody read the free-text box</text>
+<text x="1092.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">nobody thanked the porter in writing</text>
+<text x="1404.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">and now one person reads it on Fridays</text>
+<line x1="150.0" y1="862" x2="150.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Mar</text>
+<line x1="410.0" y1="862" x2="410.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Apr</text>
+<line x1="670.0" y1="862" x2="670.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Jun</text>
+<line x1="930.0" y1="862" x2="930.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the Thursday</text>
+<line x1="1190.0" y1="862" x2="1190.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sep</text>
+<line x1="1450.0" y1="862" x2="1450.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Dec</text>
+</g>
+</svg>
