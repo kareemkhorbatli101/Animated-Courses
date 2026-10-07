@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "ten for boots",
+   "size": 26,
+   "bbox": [
+    74.2,
+    271.8,
+    265.0,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one winter",
+   "size": 30,
+   "bbox": [
+    354.0,
+    269.5,
+    535.6,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ten again",
+   "size": 30,
+   "bbox": [
+    640.0,
+    269.5,
+    800.0,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ten winters",
+   "size": 30,
+   "bbox": [
+    898.6,
+    269.5,
+    1091.8,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a hundred in all",
+   "size": 22,
+   "bbox": [
+    1172.8,
+    274.9,
+    1368.0,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "The cheap boots over ten years, in five stages, each with an arrow to the next: ten for boots, one winter, ten again, ten winters, and a hundred in all at the end.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "72c8508b5741bd5734f424bdce79051206c29658d544eb151b8beebefa543221"
+}

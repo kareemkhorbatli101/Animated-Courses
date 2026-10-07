@@ -81,6 +81,8 @@ people:
       - has an appointment at the clinic on Thursday
       - lives on the fourth floor and has the best view in the street
       - keeps forty years of newspapers
+      - owns a coat older than Dani, relined twice, with different buttons
+      - mends what he has and buys almost nothing
     first_unit: 1
   Yuki:
     full: Yuki Tanaka
@@ -103,6 +105,7 @@ walk_ons:
   - {name: the sellers of Fez, unit: 4, country: Morocco}
   - {name: the Iceland trial, unit: 5, country: Iceland}
   - {name: the Lima railway, unit: 6, country: Peru}
+  - {name: the jua kali workshops, unit: 7, country: Kenya}
 
 places:
   - Alder Street

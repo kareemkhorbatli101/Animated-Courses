@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Thrown away",
+   "size": 34,
+   "bbox": [
+    238.3,
+    67.8,
+    491.7,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a dead fridge",
+   "size": 27,
+   "bbox": [
+    274.9,
+    282.5,
+    455.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a shoe with no sole",
+   "size": 27,
+   "bbox": [
+    234.6,
+    328.5,
+    495.4,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nothing to be done",
+   "size": 27,
+   "bbox": [
+    236.5,
+    374.5,
+    493.5,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Repaired",
+   "size": 34,
+   "bbox": [
+    1018.8,
+    67.8,
+    1191.2,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the motor goes into a second",
+   "size": 27,
+   "bbox": [
+    906.5,
+    282.5,
+    1303.5,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a new sole from a tyre",
+   "size": 27,
+   "bbox": [
+    953.5,
+    328.5,
+    1256.5,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it lasts longer",
+   "size": 27,
+   "bbox": [
+    1013.0,
+    374.5,
+    1197.0,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "A broken thing and the two roads out of it. Thrown away: a dead fridge, a shoe with no sole, nothing to be done. Repaired: the motor goes into a second fridge, a new sole comes from a tyre, and it lasts longer.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "eb094c30a6662ec38aafffe552e1f9c880497500edf404378cb59d85650b55ba"
+}

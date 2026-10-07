@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The first thing",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    431.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The grey coat is cheaper and lighter.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1148.0,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The second thing",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    481.3,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The green one is warmer and lasts ten years.",
+   "size": 24,
+   "bbox": [
+    670,
+    172.7,
+    1214.6,
+    194.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Which is better value",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    550.8,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The green one is better value over ten years.",
+   "size": 24,
+   "bbox": [
+    670,
+    282.2,
+    1214.4,
+    303.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you would take",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    547.4,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I would take the green one.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1027.1,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the paragraph the learner is about to write, in four steps: the first thing, the second thing, which is better value, and which you would take.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "740d9b351c540283d4027e1ad64d2eda4e0367c064c4bf810f751e44a7e7ebe9"
+}

@@ -313,7 +313,8 @@ def e25(u, ctx):
     ADJ = {'closed', 'open', 'tired', 'interested', 'worried', 'married', 'pleased',
            'bored', 'excited', 'finished', 'used', 'broken', 'gone', 'done',
            'wooden', 'golden', 'open', 'often', 'given', 'closed',
-           'seven', 'eleven', 'children', 'women', 'kitchen', 'written'}
+           'seven', 'eleven', 'children', 'women', 'kitchen', 'written',
+           'ten', 'often', 'golden', 'frozen', 'garden', 'listen'}
     hits = [m.group(0) for m in re.finditer(r'\b(?:is|are|was|were)\s+(\w+(?:ed|en))\b',
                                            ' '.join(u.sentences), re.I)
             if m.group(1).lower() not in ADJ]

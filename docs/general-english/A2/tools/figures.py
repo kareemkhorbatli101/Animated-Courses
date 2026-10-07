@@ -559,6 +559,27 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def compare_pair(f: Fig, x, y, w, h):
+    """Two objects side by side, so wider, deeper, thicker, lighter and stronger
+    are visible rather than asserted."""
+    base = y + h * 0.70
+    # the small one
+    f.rect(x + 60, base - 108, 150, 108, fill=P['card'], stroke=P['ink'], r=10)
+    f.rect(x + 60, base - 108, 150, 22, fill=P['blue'], stroke=P['ink'], r=8)
+    f.line(x + 60, base + 26, x + 210, base + 26, stroke=P['rule'], sw=5)
+    # the big one
+    f.rect(x + 300, base - 150, 250, 150, fill=P['card'], stroke=P['ink'], r=12)
+    f.rect(x + 300, base - 150, 250, 34, fill=P['deep'], stroke=P['ink'], r=10)
+    f.line(x + 300, base + 26, x + 550, base + 26, stroke=P['rule'], sw=5)
+    # the depth of each, shown as a side panel
+    f.rect(x + 212, base - 96, 26, 96, fill=P['grey'], stroke=P['ink'], r=4)
+    f.rect(x + 552, base - 132, 54, 132, fill=P['grey'], stroke=P['ink'], r=4)
+    # a weight under each, to make lighter and heavier visible
+    f.circle(x + 135, base + 76, 20, fill=P['tanl'], sw=3)
+    f.circle(x + 400, base + 76, 20, fill=P['tan'], sw=3)
+    f.circle(x + 450, base + 76, 20, fill=P['tan'], sw=3)
+
+
 def station(f: Fig, x, y, w, h):
     """A station from the side: gate, seat, luggage, coach, a board with a delay."""
     ground = y + h * 0.74

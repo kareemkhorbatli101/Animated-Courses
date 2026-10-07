@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  571
+ ],
+ "bounds": [
+  67.0,
+  28.3,
+  1373.0,
+  542.3
+ ],
+ "texts": [
+  {
+   "text": "Quality",
+   "size": 34,
+   "bbox": [
+    206.5,
+    217.3,
+    344.2,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Value",
+   "size": 34,
+   "bbox": [
+    666.8,
+    217.3,
+    773.2,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Brand",
+   "size": 34,
+   "bbox": [
+    1107.6,
+    217.3,
+    1221.8,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Battery",
+   "size": 34,
+   "bbox": [
+    203.7,
+    488.3,
+    347.0,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Screen",
+   "size": 34,
+   "bbox": [
+    654.1,
+    488.3,
+    785.9,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Deal",
+   "size": 34,
+   "bbox": [
+    1121.7,
+    488.3,
+    1207.6,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Six things people weigh up when they choose, each on its own card: quality, value, brand, battery, screen and deal.",
+ "placed_in": [
+  4.989583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "cb462bb00f3d2b5b03840f9a0ca2a8c7783465df52e6f40bc818889b29085744"
+}
