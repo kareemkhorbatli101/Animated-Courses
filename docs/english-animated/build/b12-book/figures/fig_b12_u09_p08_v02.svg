@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>The waiting list, in section</title>
+<desc>A waiting list drawn in four layers from those seen within six weeks down to those waiting over two years, with counts on each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="154" y="104" width="592" height="602" rx="0" fill="#F3ECE0"/>
+<rect x="170" y="120" width="560" height="570" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4"/>
+<rect x="170" y="120.0" width="560" height="142.5" rx="0" fill="#E6EFE9" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="262.5" width="560" height="142.5" rx="0" fill="#F6F0E4" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="405.0" width="560" height="142.5" rx="0" fill="#EFE2DD" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="547.5" width="560" height="142.5" rx="0" fill="#F0E2E0" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 730 690" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">within six weeks</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">6,298 people. 94 per cent. The published figure</text>
+<text x="190" y="294.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">six weeks to a year</text>
+<text x="190" y="320.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">214 people. In no published number at all</text>
+<text x="190" y="437.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">one to two years</text>
+<text x="190" y="463.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">137 people. Median nine months is drawn from here</text>
+<text x="190" y="579.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">over two years</text>
+<text x="190" y="605.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">51 people. The row that was struck out</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The waiting list, in section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four layers. The headline describes the top one and the letter is about the bottom.</text>
+<circle cx="736" cy="188.39999999999998" r="4.5" fill="#C86B2B"/>
+<path d="M 736 188.39999999999998 L 866 188.39999999999998 L 866 188.39999999999998" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="193.39999999999998" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The only layer the headline</text>
+<text x="880" y="213.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">describes</text>
+<circle cx="736" cy="336.6" r="4.5" fill="#C86B2B"/>
+<path d="M 736 336.6 L 866 336.6 L 866 336.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="341.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two hundred and fourteen</text>
+<text x="880" y="361.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">people in no sentence anywhere</text>
+<circle cx="736" cy="473.4" r="4.5" fill="#C86B2B"/>
+<path d="M 736 473.4 L 866 473.4 L 866 473.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="478.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Where the nine-month median</text>
+<text x="880" y="498.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">actually comes from</text>
+<circle cx="736" cy="621.6" r="4.5" fill="#C86B2B"/>
+<path d="M 736 621.6 L 866 621.6 L 866 621.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="626.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Fifty-one people, one row,</text>
+<text x="880" y="646.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">struck out and reinstated</text>
+</g>
+</svg>

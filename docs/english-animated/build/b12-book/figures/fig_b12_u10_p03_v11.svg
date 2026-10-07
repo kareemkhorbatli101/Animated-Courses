@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The wish English will not allow</title>
+<desc>Two panels comparing I wish I would stop with I wish I could stop, showing who the verb is a complaint about.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="80.0" y="120" width="700.0" height="430.75" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="116.0" cy="158" r="20" fill="#A8372E"/>
+<text x="116.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✗</text>
+<rect x="820.0" y="120" width="700.0" height="430.75" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="856.0" cy="158" r="20" fill="#2E6F5E"/>
+<text x="856.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
+</g>
+<g id="20_subject">
+<text x="152.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">I wish I would stop doing that.</text>
+<line x1="430.0" y1="220" x2="430.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="430.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">wish + would = a complaint</text>
+<circle cx="626.0" cy="270" r="12" fill="#A8372E"/>
+<path d="M 626.0 270 L 458.0 270" fill="none" stroke="#A8372E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="626.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">about your own choices</text>
+<text x="104.0" y="485.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Wish + would complains about somebody else's behaviour, which you cannot control.</text>
+<text x="104.0" y="506.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Turned on yourself it asks the listener to believe that your own actions are outside</text>
+<text x="104.0" y="526.45" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">your control, which English treats as incoherent rather than merely sad.</text>
+<text x="892.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">I wish I could stop doing that.</text>
+<line x1="1170.0" y1="220" x2="1170.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="1170.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">wish + could = ability</text>
+<circle cx="988.0" cy="270" r="12" fill="#2E6F5E"/>
+<path d="M 988.0 270 L 1142.0 270" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="988.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">about what you are able to do</text>
+<text x="844.0" y="485.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Could names an ability you do not have, which is exactly what somebody in this position</text>
+<text x="844.0" y="506.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">means, and which is both grammatical and true.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The wish English will not allow</text>
+<rect x="80" y="582.75" width="1440" height="109.25" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
+<text x="104" y="608.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
+<text x="104" y="630.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Learners build wish + would by analogy with every other wish, and the analogy holds for every subject</text>
+<text x="104" y="652.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">except the first person. The restriction is about meaning, not form.</text>
+</g>
+</svg>

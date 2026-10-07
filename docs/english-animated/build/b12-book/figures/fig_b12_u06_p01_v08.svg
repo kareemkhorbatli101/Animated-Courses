@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>A patient journey, and who is the subject of each step</title>
+<desc>A network of a patient journey from referral through consultation, consent, procedure and discharge, with who acts at each stage marked.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="400" x2="510" y2="200" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="510" y1="200" x2="510" y2="600" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="510" y1="600" x2="880" y2="400" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="880" y1="400" x2="1240" y2="240" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1240" y1="240" x2="1240" y2="580" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="510" y1="600" x2="1240" y2="580" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="400" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="170" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Referral</text>
+<text x="170" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">done to you, in March</text>
+<circle cx="510" cy="200" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="510" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="510" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The list</text>
+<text x="510" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">you are put on it</text>
+<circle cx="510" cy="600" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="510" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="510" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Consent</text>
+<text x="510" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">you sign. You are the subject</text>
+<circle cx="880" cy="400" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="880" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="880" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The procedure</text>
+<text x="880" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">under local, awake</text>
+<circle cx="1240" cy="240" r="54" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="1240" y="245" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1240" y="320" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Discharge</text>
+<text x="1240" y="340" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">same day, with a letter</text>
+<circle cx="1240" cy="580" r="54" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1240" y="585" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1240" y="660" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Follow-up</text>
+<text x="1240" y="680" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">you have to arrange it</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A patient journey, and who is the subject of each step</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six stages. The patient is the subject of two of them and the object of four.</text>
+<rect x="282.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="340.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">you are not told when</text>
+<rect x="452.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="510.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">eight weeks, or seven months</text>
+<rect x="637.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="695.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the one step you act in</text>
+<rect x="1002.0" y="305.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1060.0" y="324.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">you are taken, and brought back</text>
+<rect x="1182.0" y="395.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1240.0" y="414.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a letter written to your doctor, not you</text>
+<rect x="817.0" y="575.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="875.0" y="594.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and you have to ask for all of it</text>
+</g>
+</svg>

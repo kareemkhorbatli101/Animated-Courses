@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<title>Finished by then, or still going then</title>
+<desc>A timeline with a future point marked, showing a completed action before it, an ongoing action across it and a duration running up to it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="740" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="500" x2="1380" y2="500" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,500 1364,492 1364,508" fill="#1C2B33"/>
+<line x1="330.8" y1="340" x2="330.8" y2="534" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="330.8" y="558" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<line x1="404.0" y1="446" x2="916.4" y2="446" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="916.4" y1="424" x2="916.4" y2="468" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<line x1="843.2" y1="338" x2="330.8" y2="338" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="843.2" cy="338" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="330.8" cy="338" r="7" fill="#1F4E5F"/>
+<line x1="330.8" y1="230" x2="1038.4" y2="230" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="1038.4" y1="208" x2="1038.4" y2="252" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Finished by then, or still going then</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three future forms, one deadline, and they answer three different questions.</text>
+<text x="404.0" y="398" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">WILL HAVE + pp - finished by then</text>
+<text x="404.0" y="420" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">By March we will have passed eleven thousand.</text>
+<text x="843.2" y="290" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">WILL BE + -ing - going on then</text>
+<text x="843.2" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">By March we will be running at ninety per cent.</text>
+<text x="330.8" y="182" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">WILL HAVE BEEN + -ing - how long by then</text>
+<text x="330.8" y="204" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">By June we will have been working on it for two years.</text>
+<rect x="160" y="644" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="668.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">By means at or before. Until means up to and not after, and they are not interchangeable. By</text>
+<text x="184" y="689.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the time takes a present tense, like every other time clause.</text>
+</g>
+</svg>

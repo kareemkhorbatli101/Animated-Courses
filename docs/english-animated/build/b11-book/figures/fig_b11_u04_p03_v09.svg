@@ -38,7 +38,7 @@
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Two of these are opposites that look like variants.</text>
 <text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">no choice</text>
 <text x="590.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">forbidden</text>
-<rect x="160" y="688" width="1220" height="54" rx="6" fill="#F3ECE0"/>
-<text x="180" y="722.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">mustn't and don't have to are opposites, not variants. One forbids; one releases.</text>
+<rect x="160" y="684" width="1280" height="55.75" rx="6" fill="#F3ECE0"/>
+<text x="184" y="708.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">mustn't and don't have to are opposites, not variants. One forbids; one releases.</text>
 </g>
 </svg>

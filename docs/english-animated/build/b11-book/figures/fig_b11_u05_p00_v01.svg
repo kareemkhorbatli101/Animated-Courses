@@ -6,6 +6,20 @@
 </g>
 <g id="10_context">
 <rect x="0" y="0" width="1600" height="720" rx="0" fill="#E9EDF0"/>
+<rect x="-40" y="459" width="194" height="261" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="174" y="523" width="178" height="197" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="378" y="587" width="162" height="133" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="418.5" y="571" width="48.6" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="572" y="651" width="146" height="69" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="756" y="430" width="130" height="290" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="930" y="494" width="114" height="226" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="958.5" y="478" width="34.199999999999996" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1094" y="558" width="98" height="162" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1208" y="622" width="82" height="98" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1312" y="401" width="66" height="319" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1328.5" y="385" width="19.8" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1406" y="465" width="200" height="255" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="0" y="686" width="1600" height="34" rx="0" fill="#E9EDF0" opacity="0.45"/>
 <rect x="0" y="720" width="1600" height="180" rx="0" fill="#B5AB99"/>
 <rect x="0" y="720" width="1600" height="26" rx="0" fill="#1C2B33" opacity="0.07"/>
 <line x1="0" y1="720" x2="1600" y2="720" stroke="#1C2B33" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/>
@@ -132,6 +146,8 @@
 <text x="520" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8</text>
 </g>
 <g id="40_callouts">
+<rect x="0" y="0" width="1600" height="118" rx="0" fill="#FBF7F0" opacity="0.82"/>
+<rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The shared office, Monday, 08.20</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Two rotas in this room. They do not match. One of them is the one people follow.</text>
 <rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>

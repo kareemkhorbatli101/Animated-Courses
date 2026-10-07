@@ -6,6 +6,19 @@
 </g>
 <g id="10_context">
 <rect x="0" y="0" width="1600" height="720" rx="0" fill="#E4E9EC"/>
+<rect x="-40" y="618" width="203" height="102" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="184" y="556" width="196" height="164" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="408" y="494" width="189" height="226" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="455.25" y="478" width="56.699999999999996" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="632" y="432" width="182" height="288" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="856" y="655" width="175" height="65" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1080" y="593" width="168" height="127" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1122.0" y="577" width="50.4" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1264" y="531" width="161" height="189" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1448" y="469" width="154" height="251" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1632" y="407" width="147" height="313" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1668.75" y="391" width="44.1" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="0" y="686" width="1600" height="34" rx="0" fill="#E4E9EC" opacity="0.45"/>
 <rect x="0" y="720" width="1600" height="180" rx="0" fill="#B3A896"/>
 <rect x="0" y="720" width="1600" height="26" rx="0" fill="#1C2B33" opacity="0.07"/>
 <line x1="0" y1="720" x2="1600" y2="720" stroke="#1C2B33" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/>
@@ -85,6 +98,8 @@
 <text x="1100" y="305" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8</text>
 </g>
 <g id="40_callouts">
+<rect x="0" y="0" width="1600" height="118" rx="0" fill="#FBF7F0" opacity="0.82"/>
+<rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Jengo House, 06.50, before anybody else</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things here record somebody working. One person has no record anywhere.</text>
 <rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>

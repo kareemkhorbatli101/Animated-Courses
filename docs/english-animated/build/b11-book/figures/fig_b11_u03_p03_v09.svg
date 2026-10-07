@@ -9,28 +9,29 @@
 <text x="160" y="392.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">next Thursday</text>
 </g>
 <g id="20_subject">
-<path d="M 160 350.0 C 770.0 350.0 770.0 160.0 1340 160.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-<polygon points="1340,160.0 1324,152.0 1324,168.0" fill="#1F4E5F"/>
-<path d="M 160 350.0 C 770.0 350.0 770.0 293.33333333333337 1340 293.33333333333337" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-<polygon points="1340,293.33333333333337 1324,285.33333333333337 1324,301.33333333333337" fill="#C86B2B"/>
-<path d="M 160 350.0 C 770.0 350.0 770.0 426.6666666666667 1340 426.6666666666667" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
-<polygon points="1340,426.6666666666667 1324,418.6666666666667 1324,434.6666666666667" fill="#8C6A9E"/>
-<path d="M 160 350.0 C 770.0 350.0 770.0 560.0 1340 560.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-<polygon points="1340,560.0 1324,552.0 1324,568.0" fill="#2E6F5E"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 160.0 721.2 160.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#1F4E5F"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 293.33333333333337 721.2 293.33333333333337" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,293.33333333333337 705.2,285.33333333333337 705.2,301.33333333333337" fill="#C86B2B"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 426.6666666666667 721.2 426.6666666666667" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="721.2,426.6666666666667 705.2,418.6666666666667 705.2,434.6666666666667" fill="#8C6A9E"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 560.0 721.2 560.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,560.0 705.2,552.0 705.2,568.0" fill="#2E6F5E"/>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four futures — which one are you choosing?</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">None of these is more correct. They commit you to different things.</text>
-<text x="1356" y="150.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">present continuous — an arrangement</text>
-<text x="1356" y="174.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm seeing him on Thursday.  (he knows too)</text>
-<text x="1356" y="283.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">going to — an intention formed before now</text>
-<text x="1356" y="307.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm going to tell him.  (decided Monday)</text>
-<text x="1356" y="416.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">will — decided at this moment</text>
-<text x="1356" y="440.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'll tell him, if you want.  (decided for you, just now)</text>
-<text x="1356" y="550.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">present simple — a timetable</text>
-<text x="1356" y="574.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The lease runs out in March.  (not yours to move)</text>
-<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
-<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Choosing the wrong one is not a grammar mistake. It is a commitment you did not mean to make, or</text>
-<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">a vagueness the other person can hear.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">present continuous — an arrangement</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm seeing him on Thursday. (he knows too)</text>
+<text x="739.2" y="285.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">going to — an intention formed before now</text>
+<text x="739.2" y="311.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm going to tell him. (decided Monday)</text>
+<text x="739.2" y="418.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">will — decided at this moment</text>
+<text x="739.2" y="444.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'll tell him, if you want. (decided for you, just</text>
+<text x="739.2" y="462.06666666666666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">now)</text>
+<text x="739.2" y="552.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">present simple — a timetable</text>
+<text x="739.2" y="578.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">The lease runs out in March. (not yours to move)</text>
+<rect x="160" y="604" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="628.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Choosing the wrong one is not a grammar mistake. It is a commitment you did not mean to</text>
+<text x="184" y="649.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">make, or a vagueness the other person can hear.</text>
 </g>
 </svg>

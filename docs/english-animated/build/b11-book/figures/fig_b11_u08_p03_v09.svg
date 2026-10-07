@@ -24,8 +24,8 @@
 <text x="973.3333333333334" y="422.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">who is the OBJECT of buy from - you may drop it</text>
 <text x="871.6666666666667" y="476.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">the grower I buy from - still complete</text>
 <text x="770.0" y="530.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">but: the grower WHO SUPPLIES me - subject, never droppable</text>
-<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
-<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">If dropping the pronoun leaves two verbs with nothing between them, you dropped the wrong one.</text>
-<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">And that never follows a preposition: of which, not of that.</text>
+<rect x="160" y="604" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="628.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">If dropping the pronoun leaves two verbs with nothing between them, you dropped the wrong</text>
+<text x="184" y="649.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">one. And that never follows a preposition: of which, not of that.</text>
 </g>
 </svg>

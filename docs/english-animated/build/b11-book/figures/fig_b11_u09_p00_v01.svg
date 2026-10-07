@@ -6,6 +6,20 @@
 </g>
 <g id="10_context">
 <rect x="0" y="0" width="1600" height="720" rx="0" fill="#E9ECEF"/>
+<rect x="-40" y="427" width="97" height="293" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="84" y="459" width="134" height="261" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="258" y="491" width="171" height="229" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="300.75" y="475" width="51.3" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="482" y="523" width="208" height="197" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="716" y="555" width="95" height="165" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="850" y="587" width="132" height="133" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="883.0" y="571" width="39.6" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1034" y="619" width="169" height="101" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1228" y="651" width="206" height="69" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1472" y="398" width="93" height="322" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1495.25" y="382" width="27.9" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1616" y="430" width="130" height="290" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="0" y="686" width="1600" height="34" rx="0" fill="#E9ECEF" opacity="0.45"/>
 <rect x="0" y="720" width="1600" height="180" rx="0" fill="#B6AC99"/>
 <rect x="0" y="720" width="1600" height="26" rx="0" fill="#1C2B33" opacity="0.07"/>
 <line x1="0" y1="720" x2="1600" y2="720" stroke="#1C2B33" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/>
@@ -114,6 +128,8 @@
 <text x="1320" y="699" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8</text>
 </g>
 <g id="40_callouts">
+<rect x="0" y="0" width="1600" height="118" rx="0" fill="#FBF7F0" opacity="0.82"/>
+<rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The interview, 14.10</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things in this room are recording. One person has not agreed to any of them.</text>
 <rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>

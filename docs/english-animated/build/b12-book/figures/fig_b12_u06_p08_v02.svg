@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>The route from the ward to theatre, in section</title>
+<desc>A hospital drawn in section showing the ward, the lift, the theatre corridor and day theatre, with the handover at each level labelled.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="154" y="104" width="592" height="602" rx="0" fill="#F3ECE0"/>
+<rect x="170" y="120" width="560" height="570" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4"/>
+<rect x="170" y="120.0" width="560" height="142.5" rx="0" fill="#E4ECEF" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="262.5" width="560" height="142.5" rx="0" fill="#F6F0E4" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="405.0" width="560" height="142.5" rx="0" fill="#EFE2DD" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="547.5" width="560" height="142.5" rx="0" fill="#E6EFE9" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 730 690" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the ward</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Collected at about eleven. You are not told which theatre</text>
+<text x="190" y="294.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the lift</text>
+<text x="190" y="320.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Four minutes. The first of three handovers</text>
+<text x="190" y="437.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the theatre corridor</text>
+<text x="190" y="463.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Checked against the wristband by somebody you never see again</text>
+<text x="190" y="579.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">day theatre</text>
+<text x="190" y="605.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Under local. Awake. Pressure, not pain, and nobody warns you</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The route from the ward to theatre, in section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four levels, four handovers, and the patient is the subject of none of them.</text>
+<circle cx="736" cy="188.39999999999998" r="4.5" fill="#C86B2B"/>
+<path d="M 736 188.39999999999998 L 866 188.39999999999998 L 866 188.39999999999998" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="193.39999999999998" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The last place anybody uses</text>
+<text x="880" y="213.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">your name</text>
+<circle cx="736" cy="336.6" r="4.5" fill="#C86B2B"/>
+<path d="M 736 336.6 L 866 336.6 L 866 336.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="341.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Handover one of three, and</text>
+<text x="880" y="361.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">each one is a passive sentence</text>
+<circle cx="736" cy="473.4" r="4.5" fill="#C86B2B"/>
+<path d="M 736 473.4 L 866 473.4 L 866 473.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="478.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The wristband is doing the</text>
+<text x="880" y="498.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">work your voice would do</text>
+<circle cx="736" cy="621.6" r="4.5" fill="#C86B2B"/>
+<path d="M 736 621.6 L 866 621.6 L 866 621.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="626.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The one thing patients report</text>
+<text x="880" y="646.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">afterwards, and the one thing</text>
+<text x="880" y="667.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">not in the leaflet</text>
+</g>
+</svg>

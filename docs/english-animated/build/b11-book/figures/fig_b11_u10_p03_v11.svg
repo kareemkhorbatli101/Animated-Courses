@@ -5,10 +5,10 @@
 <rect x="0" y="0" width="1600" height="640" rx="0" fill="#FBF7F0"/>
 </g>
 <g id="10_context">
-<rect x="80.0" y="120" width="700.0" height="340" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<rect x="80.0" y="120" width="700.0" height="370.75" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
 <circle cx="116.0" cy="158" r="20" fill="#A8372E"/>
 <text x="116.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✗</text>
-<rect x="820.0" y="120" width="700.0" height="340" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<rect x="820.0" y="120" width="700.0" height="370.75" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
 <circle cx="856.0" cy="158" r="20" fill="#2E6F5E"/>
 <text x="856.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
 </g>
@@ -19,23 +19,23 @@
 <circle cx="248.0" cy="270" r="12" fill="#A8372E"/>
 <path d="M 248.0 270 L 402.0 270" fill="none" stroke="#A8372E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="248.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">very + comparative</text>
-<text x="104.0" y="428.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">very intensifies an adjective: very good, very fair. A comparative is already a</text>
-<text x="104.0" y="448.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">measurement of a gap, and very has no way to size a gap. English uses much, far, a lot</text>
-<text x="104.0" y="468.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">or considerably instead.</text>
+<text x="104.0" y="425.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">very intensifies an adjective: very good, very fair. A comparative is already a</text>
+<text x="104.0" y="446.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">measurement of a gap, and very has no way to size a gap. English uses much, far, a lot</text>
+<text x="104.0" y="466.45000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">or considerably instead.</text>
 <text x="892.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">The new rate is much better than the old one.</text>
 <line x1="1170.0" y1="220" x2="1170.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
 <text x="1170.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">adjective / comparative</text>
 <circle cx="1352.0" cy="270" r="12" fill="#2E6F5E"/>
 <path d="M 1352.0 270 L 1198.0 270" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="1352.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">much + comparative</text>
-<text x="844.0" y="428.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">much, far, a lot, considerably and substantially all size the gap. They are not</text>
-<text x="844.0" y="448.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">stronger versions of very; they are a different kind of word doing a different job.</text>
+<text x="844.0" y="425.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">much, far, a lot, considerably and substantially all size the gap. They are not</text>
+<text x="844.0" y="446.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">stronger versions of very; they are a different kind of word doing a different job.</text>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Why very cannot do this job</text>
-<rect x="80" y="532" width="1440" height="62" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
-<text x="104" y="560" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
-<text x="104" y="584.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The writer thought very was a general intensifier. It intensifies a quality. Sizing a difference needs a</text>
-<text x="104" y="605.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">different set of words entirely.</text>
+<rect x="80" y="522.75" width="1440" height="109.25" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
+<text x="104" y="548.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
+<text x="104" y="570.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The writer thought very was a general intensifier. It intensifies a quality. Sizing a difference needs a</text>
+<text x="104" y="592.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">different set of words entirely.</text>
 </g>
 </svg>

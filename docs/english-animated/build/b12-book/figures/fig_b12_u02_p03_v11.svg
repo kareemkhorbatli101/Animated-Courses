@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>The commonest conditional error in English</title>
+<desc>Two panels comparing a sentence with would in the if-clause and the correct past perfect version, with the logic of each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="80.0" y="120" width="700.0" height="410.75" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="116.0" cy="158" r="20" fill="#A8372E"/>
+<text x="116.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✗</text>
+<rect x="820.0" y="120" width="700.0" height="410.75" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="856.0" cy="158" r="20" fill="#2E6F5E"/>
+<text x="856.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
+</g>
+<g id="20_subject">
+<text x="152.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">If I wouldn't have looked, she would have had it.</text>
+<line x1="402.0" y1="220" x2="402.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="402.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">the condition</text>
+<circle cx="612.0" cy="270" r="12" fill="#A8372E"/>
+<path d="M 612.0 270 L 430.0 270" fill="none" stroke="#A8372E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="612.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">would, twice</text>
+<text x="104.0" y="465.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Would belongs to the result, not to the condition. Putting it in both halves makes the</text>
+<text x="104.0" y="486.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">sentence say that the looking was itself a consequence of something else - and then the</text>
+<text x="104.0" y="506.45000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">result has nothing to hang from.</text>
+<text x="892.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">If I hadn't looked, she would have had it.</text>
+<line x1="1142.0" y1="220" x2="1142.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="1142.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">the condition: past perfect</text>
+<circle cx="1366.0" cy="270" r="12" fill="#2E6F5E"/>
+<path d="M 1366.0 270 L 1170.0 270" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1366.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">the result: would have</text>
+<text x="844.0" y="465.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The past perfect carries the unreal condition and would have carries the unreal result.</text>
+<text x="844.0" y="486.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Each half does one job, and the sentence has somewhere to start.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The commonest conditional error in English</text>
+<rect x="80" y="562.75" width="1440" height="109.25" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
+<text x="104" y="588.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
+<text x="104" y="610.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The two halves feel parallel, so learners make them look parallel. They are not parallel: one is a</text>
+<text x="104" y="632.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">hypothesis and the other is its consequence, and English marks them with different machinery.</text>
+</g>
+</svg>

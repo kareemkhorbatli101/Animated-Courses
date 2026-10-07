@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>The canteen budget</title>
+<desc>A porter and a doctor talking across a canteen table with a menu board behind them, speech bubbles contrasting used to, would and be used to.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="670" rx="0" fill="#E9ECEC"/>
+<rect x="0" y="670" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="670" x2="1600" y2="670" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="700" y="626.4" width="192.0" height="12.8" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.4"/>
+<line x1="719.2" y1="639.2" x2="719.2" y2="700" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<line x1="872.8" y1="639.2" x2="872.8" y2="700" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+
+</g>
+<g id="20_subject">
+<ellipse cx="460" cy="694.4117647058823" rx="32.352941176470594" ry="7.352941176470589" fill="#1C2B33" opacity="0.10"/>
+<path d="M 446.7647058823529 690 L 449.70588235294116 575.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 473.2352941176471 690 L 470.29411764705884 575.0" fill="none" stroke="#3A4A55" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 460.0 498.8235294117647 L 460 580.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="35.294117647058826" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 432.05882352941177 500.29411764705884 L 487.94117647058823 500.29411764705884" fill="none" stroke="#8C6A9E" stroke-width="19.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 432.05882352941177 503.2352941176471 L 443.8235294117647 569.1176470588235" fill="none" stroke="#8C6A9E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 487.94117647058823 503.2352941176471 L 476.1764705882353 569.1176470588235" fill="none" stroke="#8C6A9E" stroke-width="13.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="460" cy="569.1176470588235" r="8.088235294117649" fill="#F0D3B4"/>
+<path d="M 460.0 491.47058823529414 L 460.0 484.11764705882354" fill="none" stroke="#F0D3B4" stroke-width="14.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="460.0" cy="465.0" r="22.058823529411768" fill="#F0D3B4"/>
+<path d="M 436.4705882352941 463.52941176470586 A 23.058823529411768 23.058823529411768 0 0 1 483.5294117647059 463.52941176470586 Z" fill="#30555F" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 460.0 463.52941176470586 L 498.2352941176471 462.05882352941177 L 495.29411764705884 467.94117647058823 L 460.0 467.94117647058823 Z" fill="#26454E" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="457.05882352941177" cy="466.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<circle cx="471.764705882353" cy="466.47058823529414" r="2.647058823529412" fill="#2A2320"/>
+<path d="M 458.5294117647059 476.7647058823529 Q 464.4117647058824 479.70588235294116 470.29411764705884 476.7647058823529" fill="none" stroke="#8A5A48" stroke-width="2.3529411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="460" y="728.2352941176471" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Ignacio</text>
+<text x="460" y="754.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">porter, 22 years</text>
+<ellipse cx="980" cy="694.3764705882353" rx="32.09411764705882" ry="7.294117647058823" fill="#1C2B33" opacity="0.10"/>
+<path d="M 966.8705882352941 690 L 969.7882352941176 575.92" fill="none" stroke="#3A4A55" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 993.1294117647059 690 L 990.2117647058824 575.92" fill="none" stroke="#3A4A55" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 980.0 500.3529411764706 L 980 581.755294117647" fill="none" stroke="#4A5A66" stroke-width="35.01176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 952.2823529411764 501.81176470588235 L 1007.7176470588236 501.81176470588235" fill="none" stroke="#4A5A66" stroke-width="18.96470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 952.2823529411764 506.18823529411765 L 998.964705882353 532.4470588235295" fill="none" stroke="#4A5A66" stroke-width="13.129411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1001.8823529411765" cy="533.9058823529411" r="7.294117647058823" fill="#E8C39E"/>
+<path d="M 1007.7176470588236 506.18823529411765 L 961.035294117647 538.2823529411764" fill="none" stroke="#4A5A66" stroke-width="13.129411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="958.1176470588235" cy="539.7411764705882" r="7.294117647058823" fill="#E8C39E"/>
+<path d="M 980.0 493.05882352941177 L 980.0 485.7647058823529" fill="none" stroke="#E8C39E" stroke-width="14.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="980.0" cy="466.8" r="21.88235294117647" fill="#E8C39E"/>
+<path d="M 958.1176470588235 463.88235294117646 A 21.88235294117647 21.88235294117647 0 0 1 1001.8823529411765 463.88235294117646" fill="none" stroke="#B9B2AA" stroke-width="10.211764705882352" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="968.3294117647059" cy="468.25882352941176" r="2.6258823529411766" fill="#2A2320"/>
+<circle cx="982.9176470588235" cy="468.25882352941176" r="2.6258823529411766" fill="#2A2320"/>
+<path d="M 969.7882352941176 478.47058823529414 Q 975.6235294117647 481.38823529411764 981.4588235294118 478.47058823529414" fill="none" stroke="#8A5A48" stroke-width="2.3341176470588234" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="980" y="727.9294117647058" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Dr Herrera</text>
+<text x="980" y="754.1882352941177" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">emergency</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The canteen budget</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them has eaten there every night for twenty-two years. One of them signs it off.</text>
+<rect x="295.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="367.6,199.2 420.4,199.2 460,455" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="369.6" y1="199.2" x2="418.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="460.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">We used to cook everything here.</text>
+<text x="460.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">He would always come down at three in the morning.</text>
+<rect x="815.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="887.6,199.2 940.4,199.2 980,455" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="889.6" y1="199.2" x2="938.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="980.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I'm used to the new menu now.</text>
+<text x="980.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">You get used to it faster than you think.</text>
+</g>
+</svg>

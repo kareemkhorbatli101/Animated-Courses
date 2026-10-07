@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Three gaps, and where each one is filled</title>
+<desc>A network of the three things first-year doctors said they needed, with the route by which each is actually learned.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="400" x2="520" y2="180" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="520" y1="180" x2="1270" y2="180" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="520" y1="620" x2="1270" y2="620" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="400" x2="520" y2="620" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="900" y1="400" x2="170" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="900" y1="400" x2="1270" y2="620" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="170" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The curriculum</text>
+<text x="170" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">820 hours, 14 domains</text>
+<circle cx="520" cy="180" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="520" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="520" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Who to ask</text>
+<text x="520" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">half of all answers</text>
+<circle cx="520" cy="620" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="520" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="520" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Saying I do not know</text>
+<text x="520" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the first fortnight, or never</text>
+<circle cx="900" cy="400" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="900" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">What is normal</text>
+<text x="900" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">about a year to work out</text>
+<circle cx="1270" cy="180" r="52" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1270" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1270" y="258" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">A hand-drawn map</text>
+<text x="1270" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">made by a porter</text>
+<circle cx="1270" cy="620" r="52" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1270" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1270" y="698" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">A corridor</text>
+<text x="1270" y="718" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">somebody said it in front of you</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three gaps, and where each one is filled</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six nodes. One of the three gaps can be put in a curriculum and it is the one nobody does.</text>
+<rect x="287.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="345.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">nearest domain: 2 hours, week nine</text>
+<rect x="837.0" y="165.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="895.0" y="184.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">eleven hours of looking, then somebody draws one</text>
+<rect x="837.0" y="605.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="895.0" y="624.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">modelling, and it happens in two weeks or not at all</text>
+<rect x="287.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="345.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">not in it, and probably cannot be</text>
+<rect x="477.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="535.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">not in it either</text>
+<rect x="1027.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1085.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and by year two you stop being able to tell</text>
+</g>
+</svg>

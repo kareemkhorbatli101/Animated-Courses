@@ -6,6 +6,17 @@
 </g>
 <g id="10_context">
 <rect x="0" y="0" width="1600" height="720" rx="0" fill="#E7EDEA"/>
+<rect x="-40" y="408" width="203" height="312" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="214" y="421" width="196" height="299" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="458" y="434" width="189" height="286" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="505.25" y="418" width="56.699999999999996" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="692" y="447" width="182" height="273" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="916" y="460" width="175" height="260" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1130" y="473" width="168" height="247" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1172.0" y="457" width="50.4" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1334" y="486" width="161" height="234" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1528" y="499" width="154" height="221" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="0" y="686" width="1600" height="34" rx="0" fill="#E7EDEA" opacity="0.45"/>
 <rect x="0" y="720" width="1600" height="180" rx="0" fill="#B7AB97"/>
 <rect x="0" y="720" width="1600" height="26" rx="0" fill="#1C2B33" opacity="0.07"/>
 <line x1="0" y1="720" x2="1600" y2="720" stroke="#1C2B33" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/>
@@ -113,6 +124,8 @@
 <text x="1450" y="681" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8</text>
 </g>
 <g id="40_callouts">
+<rect x="0" y="0" width="1600" height="118" rx="0" fill="#FBF7F0" opacity="0.82"/>
+<rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four handovers happening at once</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things are changing hands in this picture. One of these handovers will fail.</text>
 <rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>

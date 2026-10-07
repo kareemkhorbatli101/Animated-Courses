@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<title>Four conditionals, and two of them are mixed</title>
+<desc>A branching diagram from one situation into second, third and two mixed conditionals, each with its two time frames marked.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="740" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="370.0" r="12" fill="#1C2B33"/>
+<text x="160" y="412.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">the post was not advertised in March...</text>
+</g>
+<g id="20_subject">
+<path d="M 160 370.0 C 440.6 370.0 440.6 160.0 721.2 160.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#2E6F5E"/>
+<path d="M 160 370.0 C 440.6 370.0 440.6 306.66666666666663 721.2 306.66666666666663" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,306.66666666666663 705.2,298.66666666666663 705.2,314.66666666666663" fill="#1F4E5F"/>
+<path d="M 160 370.0 C 440.6 370.0 440.6 453.3333333333333 721.2 453.3333333333333" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,453.3333333333333 705.2,445.3333333333333 705.2,461.3333333333333" fill="#C86B2B"/>
+<path d="M 160 370.0 C 440.6 370.0 440.6 600.0 721.2 600.0" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,600.0 705.2,592.0 705.2,608.0" fill="#8C6A9E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four conditionals, and two of them are mixed</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Ask what time each half is really in. English takes the if-half from one type and the result from another.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">SECOND: unreal now -&gt; unreal now</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If we advertised more widely, we would get more</text>
+<text x="739.2" y="195.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">applicants</text>
+<text x="739.2" y="298.66666666666663" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">THIRD: unreal past -&gt; unreal past</text>
+<text x="739.2" y="324.66666666666663" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If we had advertised in March, we would have</text>
+<text x="739.2" y="342.0666666666666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">appointed in June</text>
+<text x="739.2" y="445.3333333333333" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">MIXED A: unreal PAST -&gt; unreal PRESENT</text>
+<text x="739.2" y="471.3333333333333" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If we had advertised in March, we would have</text>
+<text x="739.2" y="488.7333333333333" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">somebody BY NOW</text>
+<text x="739.2" y="592.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">MIXED B: unreal PRESENT -&gt; unreal PAST</text>
+<text x="739.2" y="618.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">If I WERE permanent, I would have said something in</text>
+<text x="739.2" y="635.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">March</text>
+<rect x="160" y="644" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="668.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">By now, today and at the moment in the result half are almost always signals for mixed A. A</text>
+<text x="184" y="689.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">permanent state in the if half - if I were, if he spoke - is the signal for mixed B.</text>
+</g>
+</svg>

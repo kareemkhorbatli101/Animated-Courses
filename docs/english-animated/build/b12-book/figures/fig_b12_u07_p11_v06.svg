@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Error rate by consecutive night</title>
+<desc>A line chart of error rate against number of consecutive night shifts, rising sharply after the seventh night in both the literature and local data.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="440" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="590.0" x2="1350" y2="590.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="595.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0.0</text>
+<line x1="170" y1="480.0" x2="1350" y2="480.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="485.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">1.0</text>
+<line x1="170" y1="370.0" x2="1350" y2="370.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="375.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">2.0</text>
+<line x1="170" y1="260.0" x2="1350" y2="260.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="265.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">3.0</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">4.0</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 480.0 L 406.0 469.0 L 642.0 447.0 L 878.0 381.0 L 1114.0 304.0 L 1350.0 216.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="480.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="406.0" cy="469.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="642.0" cy="447.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="878.0" cy="381.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1114.0" cy="304.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<circle cx="1350.0" cy="216.0" r="5" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="2.6"/>
+<text x="1364.0" y="221.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">published literature</text>
+<path d="M 170.0 480.0 L 406.0 480.0 L 642.0 458.0 L 878.0 403.0 L 1114.0 271.0 L 1350.0 249.0" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="480.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="406.0" cy="480.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="642.0" cy="458.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="878.0" cy="403.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1114.0" cy="271.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="249.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="254.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">this hospital</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Error rate by consecutive night</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The published literature, and this hospital's own figures, on the same axes.</text>
+<text x="170.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">n1-2</text>
+<text x="406.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">n3-4</text>
+<text x="642.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">n5-6</text>
+<text x="878.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">n7-8</text>
+<text x="1114.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">n9-10</text>
+<text x="1350.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">n11-12</text>
+<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The policy permits twelve. The recommendation is seven. The curve bends between them, and the recommendation is the sentence nobody reads.</text>
+<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Both curves bend after the sixth night, which is also the night Carla says she stopped</text>
+<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">thinking about it. The local numbers are small and the shape is the same.</text>
+</g>
+</svg>

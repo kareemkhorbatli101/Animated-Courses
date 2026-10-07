@@ -6,6 +6,24 @@
 </g>
 <g id="10_context">
 <rect x="0" y="0" width="1600" height="720" rx="0" fill="#E8EDEA"/>
+<rect x="-40" y="646" width="136" height="74" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="124" y="612" width="62" height="108" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="228" y="578" width="138" height="142" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="262.5" y="562" width="41.4" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="382" y="544" width="64" height="176" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="476" y="510" width="140" height="210" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="660" y="476" width="66" height="244" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="676.5" y="460" width="19.8" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="744" y="442" width="142" height="278" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="918" y="408" width="68" height="312" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1032" y="659" width="144" height="61" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1068.0" y="643" width="43.199999999999996" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1196" y="625" width="70" height="95" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1300" y="591" width="146" height="129" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1494" y="557" width="72" height="163" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1512.0" y="541" width="21.599999999999998" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1588" y="523" width="148" height="197" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="0" y="686" width="1600" height="34" rx="0" fill="#E8EDEA" opacity="0.45"/>
 <rect x="0" y="720" width="1600" height="180" rx="0" fill="#B9AC97"/>
 <rect x="0" y="720" width="1600" height="26" rx="0" fill="#1C2B33" opacity="0.07"/>
 <line x1="0" y1="720" x2="1600" y2="720" stroke="#1C2B33" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/>
@@ -116,6 +134,8 @@
 <text x="820" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8</text>
 </g>
 <g id="40_callouts">
+<rect x="0" y="0" width="1600" height="118" rx="0" fill="#FBF7F0" opacity="0.82"/>
+<rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Jengo House, the parts nobody owns</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things in this picture are somebody's responsibility. Three have no name against them.</text>
 <rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>

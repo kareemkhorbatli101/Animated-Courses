@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Six objects, and what each one closes</title>
+<desc>A network of six objects in a hospital bay connected to the stories they are consistent with and the stories they rule out.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="230" x2="900" y2="580" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="570" x2="900" y2="580" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="540" y1="400" x2="1280" y2="400" stroke="#A8372E" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="230" x2="1280" y2="400" stroke="#A8372E" stroke-width="5" stroke-linecap="round"/>
+<line x1="900" y1="220" x2="900" y2="580" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="170" y1="570" x2="1280" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="230" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="170" y="235" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Two pairs of gloves</text>
+<text x="170" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and a third, sealed</text>
+<circle cx="170" cy="570" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="170" y="575" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="170" y="642" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The dressing pack</text>
+<text x="170" y="662" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">opened, not used</text>
+<circle cx="540" cy="400" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="540" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="540" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The crash trolley</text>
+<text x="540" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">still sealed</text>
+<circle cx="900" cy="220" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="900" y="225" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The coffee</text>
+<text x="900" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">cold. Older than all of it</text>
+<circle cx="900" cy="580" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="900" y="585" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="900" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">A transfer</text>
+<text x="900" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the likeliest story</text>
+<circle cx="1280" cy="400" r="54" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1280" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1280" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">An arrest</text>
+<text x="1280" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">ruled out, not impossible</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Six objects, and what each one closes</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Consistency proves nothing. Only inconsistency removes a story.</text>
+<rect x="477.0" y="390.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="535.0" y="409.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">exactly two people, twice or once each</text>
+<rect x="477.0" y="560.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="535.0" y="579.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">started and stopped - or wrong pack</text>
+<rect x="852.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="910.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sealed, so unlikely</text>
+<rect x="667.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="725.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">an arrest needs more than two</text>
+<rect x="842.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="900.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">nothing. It fits every story</text>
+<rect x="667.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="725.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">consistent with both, and so it decides nothing</text>
+</g>
+</svg>

@@ -26,8 +26,8 @@
 <text x="428.4" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I've made forty.  →  how many?</text>
 <text x="306.4" y="276" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">the activity, still running</text>
 <text x="306.4" y="298" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I've been making them for nine years.  →  how long?</text>
-<rect x="160" y="608" width="1220" height="54" rx="6" fill="#F3ECE0"/>
-<text x="180" y="642.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Both forms reach now. Use the simple when you can count it; use the continuous when you can time</text>
-<text x="180" y="663.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">it.</text>
+<rect x="160" y="604" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="628.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Both forms reach now. Use the simple when you can count it; use the continuous when you can</text>
+<text x="184" y="649.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">time it.</text>
 </g>
 </svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>The department, in section</title>
+<desc>A hospital department drawn in section showing the consultant office, the registrar room, the shop floor and the student room, with staffing levels on each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="154" y="104" width="592" height="602" rx="0" fill="#F3ECE0"/>
+<rect x="170" y="120" width="560" height="570" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4"/>
+<rect x="170" y="120.0" width="560" height="142.5" rx="0" fill="#EFE2DD" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="262.5" width="560" height="142.5" rx="0" fill="#E4ECEF" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="405.0" width="560" height="142.5" rx="0" fill="#E6EFE9" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="547.5" width="560" height="142.5" rx="0" fill="#F2EDE2" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 730 690" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the consultant office</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Three posts. Two filled, one vacant eleven months</text>
+<text x="190" y="294.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the registrars</text>
+<text x="190" y="320.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Six posts, six filled, and two of them acting up</text>
+<text x="190" y="437.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the shop floor</text>
+<text x="190" y="463.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Where the locum actually works, and where he is good</text>
+<text x="190" y="579.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the student room</text>
+<text x="190" y="605.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Four fifth-years. Supervision is the vacant post's job</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The department, in section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four levels, and the post that is empty is the one that holds the other three up.</text>
+<circle cx="736" cy="188.39999999999998" r="4.5" fill="#C86B2B"/>
+<path d="M 736 188.39999999999998 L 866 188.39999999999998 L 866 188.39999999999998" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="193.39999999999998" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One empty desk, and ninety-one</text>
+<text x="880" y="213.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">million pesos of cover</text>
+<circle cx="736" cy="336.6" r="4.5" fill="#C86B2B"/>
+<path d="M 736 336.6 L 866 336.6 L 866 336.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="341.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Acting up means doing it</text>
+<text x="880" y="361.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">without the title or the pay</text>
+<circle cx="736" cy="473.4" r="4.5" fill="#C86B2B"/>
+<path d="M 736 473.4 L 866 473.4 L 866 473.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="478.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nobody disputes that he is</text>
+<text x="880" y="498.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">good. That has never been the</text>
+<text x="880" y="519.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">question</text>
+<circle cx="736" cy="621.6" r="4.5" fill="#C86B2B"/>
+<path d="M 736 621.6 L 866 621.6 L 866 621.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="626.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nobody has supervised them</text>
+<text x="880" y="646.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">properly since January</text>
+</g>
+</svg>
