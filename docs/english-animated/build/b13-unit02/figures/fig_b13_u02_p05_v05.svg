@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080">
+<title>The access statement and the audit sheet</title>
+<desc>A university access statement beside an audit sheet of measurements, with the contradicted claims marked and one row noted as untested.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1080" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="870" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="870" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">UNIVERSITY  -  ACCESS STATEMENT  -  EXTRACT, CURRENT VERSION</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;All teaching buildings on the Parkville campus have a step-free</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">entrance. Where the principal entrance is stepped, a step-free</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">alternative is signed from the principal entrance.&quot;</text>
+<rect x="140" y="275.25" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="295.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">BUILDING</text>
+<text x="403.33333333333337" y="295.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">STEP-FREE ENTRANCE</text>
+<text x="656.6666666666667" y="295.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">LAST REVIEWED</text>
+<text x="150.0" y="325.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Menzies</text>
+<text x="403.33333333333337" y="325.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ramp, principal entrance</text>
+<text x="656.6666666666667" y="325.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2014</text>
+<line x1="140" y1="335.25" x2="900" y2="335.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="355.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Harcourt</text>
+<text x="403.33333333333337" y="355.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">rear entrance, signed</text>
+<text x="656.6666666666667" y="355.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2014</text>
+<line x1="140" y1="365.25" x2="900" y2="365.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="393.25" x2="910" y2="393.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="429.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">AUDIT SHEET  -  B. TRAN, STUDENT UNION  -  THURSDAY</text>
+<rect x="140" y="441.25" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="461.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">MEASURE</text>
+<text x="403.33333333333337" y="461.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">FOUND</text>
+<text x="656.6666666666667" y="461.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">STANDARD</text>
+<text x="150.0" y="491.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Menzies ramp gradient</text>
+<text x="403.33333333333337" y="491.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1:11</text>
+<text x="656.6666666666667" y="491.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1:14</text>
+<line x1="140" y1="501.25" x2="900" y2="501.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="521.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Menzies door, opening force</text>
+<text x="403.33333333333337" y="521.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">44 N</text>
+<text x="656.6666666666667" y="521.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">30 N max</text>
+<line x1="140" y1="531.25" x2="900" y2="531.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="551.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Menzies handrail</text>
+<text x="403.33333333333337" y="551.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">one side only</text>
+<text x="656.6666666666667" y="551.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">both sides</text>
+<line x1="140" y1="561.25" x2="900" y2="561.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="581.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Harcourt principal entrance</text>
+<text x="403.33333333333337" y="581.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">six steps</text>
+<text x="656.6666666666667" y="581.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">-</text>
+<line x1="140" y1="591.25" x2="900" y2="591.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="611.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Harcourt rear entrance</text>
+<text x="403.33333333333337" y="611.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">step-free, into a plant room</text>
+<text x="656.6666666666667" y="611.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">must reach a corridor</text>
+<line x1="140" y1="621.25" x2="900" y2="621.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="641.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Harcourt signage from principal</text>
+<text x="403.33333333333337" y="641.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">none found</text>
+<text x="656.6666666666667" y="641.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">required</text>
+<line x1="140" y1="651.25" x2="900" y2="651.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="671.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Harcourt lift</text>
+<text x="403.33333333333337" y="671.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">none</text>
+<text x="656.6666666666667" y="671.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">-</text>
+<line x1="140" y1="681.25" x2="900" y2="681.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="709.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Four claims in the statement are contradicted by measurement. A</text>
+<text x="140" y="731.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">fifth is true as written and misleading in use: the Harcourt</text>
+<text x="140" y="752.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">rear entrance is step-free, and it is step-free into a plant</text>
+<text x="140" y="774.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">room.</text>
+<line x1="130" y1="810.25" x2="910" y2="810.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="846.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">VOLUME, COUNTED OVER TWO WEEKS</text>
+<text x="140" y="876.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Menzies, people per week</text>
+<text x="410" y="876.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2,100</text>
+<text x="140" y="908.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Harcourt, people per week</text>
+<text x="410" y="908.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">400</text>
+<text x="140" y="940.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Menzies, entering by the ramp</text>
+<text x="410" y="940.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about 60</text>
+<text x="140" y="972.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Harcourt, unable to enter at all</text>
+<text x="410" y="972.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about 8</text>
+<line x1="130" y1="1004.25" x2="910" y2="1004.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="1036.25" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">NOT TESTED:</text>
+<text x="140" y="1066.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Fire evacuation route, both buildings. I lacked the authority</text>
+<text x="140" y="1088.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">to open the doors and did not test it. This is the row I would</text>
+<text x="140" y="1109.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">most like somebody else to do.&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The access statement and the audit sheet</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Two documents about the same two buildings, printed eleven years apart.</text>
+<circle cx="934" cy="198.3" r="4.5" fill="#C86B2B"/>
+<path d="M 934 198.3 L 1024 198.3 L 1024 198.3" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="203.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Signed from the principal entrance</text>
+<text x="1040" y="223.60000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">- that is the clause to hold</text>
+<circle cx="934" cy="276.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 276.6 L 1024 276.6 L 1024 276.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="281.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Last reviewed in 2014, and it was</text>
+<text x="1040" y="301.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">true in 2014</text>
+<circle cx="934" cy="407.1" r="4.5" fill="#C86B2B"/>
+<path d="M 934 407.1 L 1024 407.1 L 1024 407.1" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="412.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three faults in a ramp that still</text>
+<text x="1040" y="432.40000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">counts as provision</text>
+<circle cx="934" cy="520.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 520.2 L 1024 520.2 L 1024 520.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="525.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Step-free, and it opens into a</text>
+<text x="1040" y="545.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">plant room</text>
+<circle cx="934" cy="572.4000000000001" r="4.5" fill="#C86B2B"/>
+<path d="M 934 572.4000000000001 L 1024 572.4000000000001 L 1024 572.4000000000001" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="577.4000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">No signage, which the statement</text>
+<text x="1040" y="597.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">requires of itself</text>
+<circle cx="934" cy="659.4" r="4.5" fill="#C86B2B"/>
+<path d="M 934 659.4 L 1024 659.4 L 1024 659.4" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="664.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">True as written. Useless in</text>
+<text x="1040" y="684.6999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">practice</text>
+<circle cx="934" cy="816.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 816.0 L 1024 816.0 L 1024 816.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="821.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Sixty against eight - and the</text>
+<text x="1040" y="841.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">capital line sees 2,100 against</text>
+<text x="1040" y="861.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">400</text>
+<circle cx="934" cy="946.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 946.5 L 1024 946.5 L 1024 946.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="951.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The auditor names what she did not</text>
+<text x="1040" y="971.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">do, which is why the rest is</text>
+<text x="1040" y="992.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">believable</text>
+</g>
+</svg>

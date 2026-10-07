@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<title>Whose subject is the participle borrowing?</title>
+<desc>One sentence shown with brackets marking the participle clause and arrows to the subject of the main clause, correct in one version and absurd in the other.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="520" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="227.77777777777777" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Lacking</text>
+<text x="363.3333333333333" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">a</text>
+<text x="498.88888888888886" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">ramp</text>
+<text x="634.4444444444443" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">,</text>
+<text x="770.0" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<text x="905.5555555555554" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">building</text>
+<text x="1041.111111111111" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">has</text>
+<text x="1176.6666666666665" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">no</text>
+<text x="1312.2222222222222" y="260.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">route</text>
+<path d="M 166.0 294.0 L 166.0 308.0 L 560.6666666666666 308.0 L 560.6666666666666 294.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 708.2222222222222 346.0 L 708.2222222222222 360.0 L 967.3333333333333 360.0 L 967.3333333333333 346.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 979.3333333333333 346.0 L 979.3333333333333 360.0 L 1374.0 360.0 L 1374.0 346.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Whose subject is the participle borrowing?</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same opening clause, twice. Once it attaches to a building and once to a route.</text>
+<text x="363.3333333333333" y="332.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">no subject of its own - it borrows one</text>
+<text x="837.7777777777777" y="384.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">and this is what it borrows: a</text>
+<text x="837.7777777777777" y="403.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">building CAN lack a ramp</text>
+<text x="1176.6666666666665" y="384.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">swap in the route and the sentence says the route</text>
+<text x="1176.6666666666665" y="403.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">lacks a ramp</text>
+</g>
+</svg>

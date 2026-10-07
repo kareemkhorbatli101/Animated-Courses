@@ -67,7 +67,8 @@ def v1_scene(spec):
                 y = top + i * SH
                 ctx.append(line(x, y, x + bw, y, stroke=INK, sw=1.6, opacity=.55))
                 if i < len(fl):
-                    lab.append(rect(x + bw - 186, y + SH / 2 - 15, 174, 26,
+                    _bw = max(120, len(str(fl[i])) * T_MICRO * 0.56 + 24)
+                    lab.append(rect(x + bw - 12 - _bw, y + SH / 2 - 15, _bw, 26,
                                     fill=WHITE, opacity=.88, rx=4))
                     lab.append(text(x + bw - 16, y + SH / 2 + 4, fl[i], size=T_MICRO,
                                     fill=INK_SOFT, weight='600', anchor='end'))
@@ -91,9 +92,17 @@ def v1_scene(spec):
                           hair=pp.get('hair', 'short'), arm=pp.get('arm', 'down'),
                           lean=pp.get('lean', 0)))
 
-    # label band: two rows, alternating, so nothing collides
-    for i, nm in enumerate(spec.get('names', [])):
-        row = i % 2
+    # label band: rows packed greedily by measured width, so nothing collides
+    rows = []                                   # each row is a list of (left, right)
+    for nm in sorted(spec.get('names', []), key=lambda n: n['x']):
+        half = len(str(nm['t'])) * T_MICRO * 0.29 + 10
+        a, z = nm['x'] - half, nm['x'] + half
+        row = 0
+        while row < len(rows) and any(not (z < ra or a > rz) for ra, rz in rows[row]):
+            row += 1
+        if row == len(rows):
+            rows.append([])
+        rows[row].append((a, z))
         lab.append(line(nm['x'], gl + 6, nm['x'], gl + 34 + row * 30, stroke=INK_SOFT,
                         sw=1.2, opacity=.7))
         lab.append(text(nm['x'], gl + 50 + row * 30, nm['t'], size=T_MICRO,
@@ -445,9 +454,11 @@ def v6_data(spec):
         lab.append(text(lx, y0 + ph + 28, l, size=T_MICRO, anchor='middle', fill=INK_SOFT))
     fy = y0 + ph + 60
     if spec.get('warning'):
-        lab.append(rect(x0, fy, pw, 38, fill='#F7E7D6', stroke=ACCENT, sw=1.4, rx=4))
-        lab.append(text(x0 + 16, fy + 25, spec['warning'], size=T_LABEL, weight='600', fill=ACCENT))
-        fy += 58
+        wbody, wh = wrap(x0 + 16, fy + 27, spec['warning'], size=T_LABEL, width=100,
+                         weight='600', fill=ACCENT)
+        lab.append(rect(x0, fy, pw, wh + 22, fill='#F7E7D6', stroke=ACCENT, sw=1.4, rx=4))
+        lab.append(wbody)
+        fy += wh + 42
     if spec.get('note'):
         body, _ = wrap(x0, fy + 16, spec['note'], size=T_LABEL, width=92, fill=INK, style='italic')
         lab.append(body)
@@ -648,15 +659,29 @@ def v9_grammar(spec):
             sub.append(text(wx, sy, w, size=T_HEAD, anchor='middle',
                             weight='700' if i in spec.get('focus', []) else '400',
                             fill=PRIMARY if i in spec.get('focus', []) else INK))
+        # lay the lanes out from the tallest wrapped label in the lane above
+        lanes = sorted({br.get('lane', 0) for br in spec['brackets']})
+        lane_y, cur = {}, sy + 34
+        for ln in lanes:
+            lane_y[ln] = cur
+            tallest = 1
+            for br in spec['brackets']:
+                if br.get('lane', 0) != ln:
+                    continue
+                span = (br['to'] + 1 - br['from']) * gap - 12
+                wch = max(20, int(span / (T_CALLOUT * 0.56)))
+                tallest = max(tallest, -(-len(str(br['label'])) // wch))
+            cur += 52 + (tallest - 1) * T_CALLOUT * 1.4
         for br in spec['brackets']:
             a = x0 + br['from'] * gap + 6
             z = x0 + (br['to'] + 1) * gap - 6
-            by = sy + 34 + br.get('lane', 0) * 54
+            by = lane_y[br.get('lane', 0)]
             col = br.get('colour', ACCENT)
             sub.append(path(f'M {a} {by} L {a} {by + 14} L {z} {by + 14} L {z} {by}',
                             stroke=col, sw=2.6))
-            lab.append(text((a + z) / 2, by + 38, br['label'], size=T_CALLOUT,
-                            anchor='middle', weight='600', fill=col))
+            wch = max(20, int((z - a) / (T_CALLOUT * 0.56)))
+            lab.append(wrap((a + z) / 2, by + 38, br['label'], size=T_CALLOUT, width=wch,
+                            lh=1.4, anchor='middle', weight='600', fill=col)[0])
 
     elif kind == 'weight':                         # end-weight / information structure
         sy = h / 2 - 30

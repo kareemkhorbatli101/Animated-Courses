@@ -1,0 +1,301 @@
+"""B1.3 Unit 2 - One Lift, Two Buildings - twelve figures, as data."""
+FIGURES = {
+"fig_b13_u02_p00_v01": dict(type='V1', height=840, storey_h=152,
+ title='Two buildings, one budget, Thursday, 09.40',
+ sub='Twelve things to find. Four are the official provision. Four are what people actually do.',
+ alt='A campus with a ramped building and a stepped building side by side, a lift with a notice '
+     'on it, a worn path across grass, a propped fire door and a bell marked ring for assistance.',
+ sky='#DCE3E5', ground='#A2A8A6', ground_line=676,
+ buildings=[dict(x=20, w=560, storeys=3, colour='#D2CEC4', label='Menzies - a ramp, 1:11'),
+   dict(x=660, w=430, storeys=3, colour='#C7C3B8', label='Harcourt - six steps, no ramp'),
+   dict(x=1170, w=410, storeys=2, colour='#BEBAB0', label='Estates, and the capital line')],
+ props=[dict(kind='tree', x=620, y=676, s=1.0), dict(kind='tree', x=1130, y=676, s=.9),
+   dict(kind='hoarding', x=330, y=676, s=1.0),
+   dict(kind='box', x=1470, y=676, s=1.1),
+   dict(kind='table', x=1300, y=676, s=1.3),
+   dict(kind='sign', x=110, y=676, s=.7, text='RAMP'),
+   dict(kind='sign', x=880, y=676, s=.7, text='REAR'),
+   dict(kind='sign', x=1040, y=676, s=.7, text='LIFT')],
+ people=[dict(x=210, y=676, h=88, skin=0, cloth=1, hair='long', arm='hold'),
+   dict(x=440, y=676, h=87, skin=3, cloth=0, hair='cap', arm='point'),
+   dict(x=760, y=676, h=88, skin=4, cloth=3, hair='short', arm='down'),
+   dict(x=960, y=676, h=87, skin=1, cloth=2, hair='bun', arm='folded'),
+   dict(x=1370, y=676, h=88, skin=2, cloth=4, hair='grey', arm='hold')],
+ names=[dict(x=210, t='Bec, with a tape measure'),
+   dict(x=440, t='Dan, who uses a wheelchair'),
+   dict(x=760, t='the propped fire door'),
+   dict(x=960, t='Mei, timetabled into Harcourt'),
+   dict(x=1370, t='the Director of Estates'),
+   dict(x=110, t='1:11 where it should be 1:14'),
+   dict(x=880, t='step-free, into a plant room'),
+   dict(x=1040, t='OUT OF ORDER, since Tuesday')],
+ markers=[dict(x=210, y=556), dict(x=440, y=556), dict(x=760, y=556), dict(x=960, y=556),
+   dict(x=1370, y=556), dict(x=110, y=610), dict(x=880, y=610), dict(x=1040, y=610),
+   dict(x=330, y=622), dict(x=1300, y=628), dict(x=620, y=614), dict(x=1470, y=626)]),
+
+"fig_b13_u02_p01_v08": dict(type='V8', height=800,
+ title='Where provision and use come apart',
+ sub='Six nodes. Three are on paper and three are what somebody does on a Thursday morning.',
+ alt='A network from provision and the access statement through the only route and out of order '
+     'to work around and shut out.',
+ nodes={
+  'prv': dict(x=170, y=230, short='1', name='Provision', sub='what the budget bought',
+              colour='#1F4E5F'),
+  'sta': dict(x=170, y=570, short='2', name='The statement', sub='what it says is there',
+              colour='#9AA7AE'),
+  'onl': dict(x=540, y=400, short='3', name='The only route', sub='no alternative behind it',
+              colour='#C86B2B'),
+  'oto': dict(x=900, y=230, short='4', name='Out of order', sub='and the route is gone',
+              colour='#D9A441'),
+  'wrk': dict(x=900, y=600, short='5', name='Work around', sub='a propped door, a long way round',
+              colour='#2E6F5E'),
+  'shu': dict(x=1270, y=400, short='6', name='Shut out', sub='no step to describe after step one',
+              r=56, colour='#A8372E')},
+ edges=[dict(a='prv', b='onl', label='one lift, one ramp, no spare', sw=6),
+   dict(a='sta', b='onl', label='described, and not re-checked since 2014', sw=2, dash='6 6',
+        colour='#9AA7AE'),
+   dict(a='onl', b='oto', label='and a notice on it', sw=6),
+   dict(a='oto', b='wrk', label='if you can', sw=6, colour='#2E6F5E'),
+   dict(a='oto', b='shu', label='if you cannot', sw=6),
+   dict(a='wrk', b='shu', label='until the work-around runs out too', sw=2, dash='6 6',
+        colour='#9AA7AE')]),
+
+"fig_b13_u02_p02_v07": dict(type='V7', height=820,
+ title='The audit, reported in the corridor',
+ sub='One of them has walked both routes. One of them has the capital line.',
+ alt='A student union officer with a tape measure and clipboard talking to the Director of '
+     'Estates, their speech shown in participle clauses.',
+ bg='#E7EBEC',
+ set=[dict(kind='table', x=700, y=700, s=1.4), dict(kind='doc', x=700, y=628)],
+ people=[dict(x=470, h=250, skin=0, cloth=1, hair='long', arm='point', facing='right',
+   label='Bec', role='walked both routes, with a tape',
+   says=['Having walked both routes, I would put it in B.',
+     'Lacking a ramp, B has no route at all.']),
+  dict(x=980, h=248, skin=2, cloth=4, hair='grey', arm='hold', facing='left',
+   label='the Director', role='holds the capital line',
+   says=['Given the numbers, A is the obvious choice.',
+     'The route marked on the map, taken by nobody, adds four hundred metres.'])]),
+
+"fig_b13_u02_p03_v09": dict(type='V9', kind='scope', height=520,
+ title='Whose subject is the participle borrowing?',
+ sub='The same opening clause, twice. Once it attaches to a building and once to a route.',
+ alt='One sentence shown with brackets marking the participle clause and arrows to the subject '
+     'of the main clause, correct in one version and absurd in the other.',
+ words=['Lacking', 'a', 'ramp', ',', 'the', 'building', 'has', 'no', 'route'],
+ focus=[0, 5],
+ brackets=[dict(**{'from': 0, 'to': 2}, lane=0, label='no subject of its own - it borrows one',
+     colour='#C86B2B'),
+   dict(**{'from': 4, 'to': 5}, lane=1, label='and this is what it borrows: a building CAN lack '
+     'a ramp', colour='#2E6F5E'),
+   dict(**{'from': 6, 'to': 8}, lane=1, label='swap in the route and the sentence says the route '
+     'lacks a ramp', colour='#A8372E')]),
+
+"fig_b13_u02_p03_v11": dict(type='V11', height=720,
+ title='The hanging participle, and what it actually claims',
+ alt='Two panels comparing lacking a ramp the route is impossible with lacking a ramp the '
+     'building has no route.',
+ wrong=dict(sentence='Lacking a ramp, the route is impossible.',
+            boundary=0.42, boundary_label='the participle clause ends',
+            event=0.72, event_label='and the subject it lands on is the route',
+            why='A participle clause has no subject of its own, so it takes the subject of the '
+                'main clause. The main clause subject here is the route, which means the '
+                'sentence claims the route lacks a ramp. A route cannot lack a ramp. The route '
+                'is the thing a ramp would be.'),
+ right=dict(sentence='Lacking a ramp, the building has no route.',
+            boundary=0.42, boundary_label='the participle clause ends',
+            event=0.70, event_label='and it lands on the building, which can lack things',
+            why='Change the main clause subject and the same four opening words become true. '
+                'Nothing in the participle clause moved. In an audit this is the difference '
+                'between naming a fault in a building and describing a route as if it had '
+                'failed by itself.'),
+ misconception='Writers check whether a participle clause is grammatical. The grammar is almost '
+               'always fine. What has to be checked is which noun the main clause offers it, '
+               'because the clause will take whatever is there and say it without hesitating.'),
+
+"fig_b13_u02_p04_v04": dict(type='V4', height=760,
+ title='The access statement, and the tape measure',
+ sub='Learner A has the statement. Learner B has the audit. Four claims do not survive.',
+ alt='Two panels compared: a printed access statement listing step-free entrances and an audit '
+     'sheet with measurements and a photograph of a plant room.',
+ differences=7, prompt='Which four claims does the audit contradict, and which one is only '
+                       'misleading rather than false?',
+ left=dict(label='the access statement, as published', art=[
+   dict(kind='block', x=140, y=20, w=240, bh=24, colour='#9AA7AE'),
+   dict(kind='block', x=140, y=62, w=200, bh=24, colour='#9AA7AE'),
+   dict(kind='block', x=140, y=104, w=230, bh=24, colour='#9AA7AE'),
+   dict(kind='block', x=140, y=146, w=170, bh=24, colour='#9AA7AE'),
+   dict(kind='label', x=300, y=220, text='"Step-free entrances to all teaching buildings"',
+        colour='#9AA7AE')]),
+ right=dict(label='the audit sheet, Thursday', art=[
+   dict(kind='person', x=150, y=0, h=108, skin=0, cloth=1),
+   dict(kind='gap', x=240, y=14, w=56, bh=86),
+   dict(kind='block', x=320, y=60, w=56, bh=46, colour='#A8372E'),
+   dict(kind='label', x=300, y=220, text='1:11 · 44 N · six steps · a plant room',
+        colour='#A8372E')])),
+
+"fig_b13_u02_p05_v05": dict(type='V5', height=1080,
+ title='The access statement and the audit sheet',
+ sub='Two documents about the same two buildings, printed eleven years apart.',
+ alt='A university access statement beside an audit sheet of measurements, with the contradicted '
+     'claims marked and one row noted as untested.',
+ rows=[dict(t='org', text='UNIVERSITY  -  ACCESS STATEMENT  -  EXTRACT, CURRENT VERSION'),
+   dict(t='para', text='"All teaching buildings on the Parkville campus have a step-free '
+     'entrance. Where the principal entrance is stepped, a step-free alternative is signed from '
+     'the principal entrance."'),
+   dict(t='grid', cols=['BUILDING', 'STEP-FREE ENTRANCE', 'LAST REVIEWED'],
+     data=[['Menzies', 'ramp, principal entrance', '2014'],
+           ['Harcourt', 'rear entrance, signed', '2014']]),
+   dict(t='rule'),
+   dict(t='head', text='AUDIT SHEET  -  B. TRAN, STUDENT UNION  -  THURSDAY'),
+   dict(t='grid', cols=['MEASURE', 'FOUND', 'STANDARD'],
+     data=[['Menzies ramp gradient', '1:11', '1:14'],
+           ['Menzies door, opening force', '44 N', '30 N max'],
+           ['Menzies handrail', 'one side only', 'both sides'],
+           ['Harcourt principal entrance', 'six steps', '-'],
+           ['Harcourt rear entrance', 'step-free, into a plant room', 'must reach a corridor'],
+           ['Harcourt signage from principal', 'none found', 'required'],
+           ['Harcourt lift', 'none', '-']]),
+   dict(t='para', text='Four claims in the statement are contradicted by measurement. A fifth '
+     'is true as written and misleading in use: the Harcourt rear entrance is step-free, and it '
+     'is step-free into a plant room.'),
+   dict(t='rule'),
+   dict(t='head', text='VOLUME, COUNTED OVER TWO WEEKS'),
+   dict(t='kv', k='Menzies, people per week', v='2,100', mono=True),
+   dict(t='kv', k='Harcourt, people per week', v='400', mono=True),
+   dict(t='kv', k='Menzies, entering by the ramp', v='about 60', mono=True),
+   dict(t='kv', k='Harcourt, unable to enter at all', v='about 8', mono=True),
+   dict(t='rule'),
+   dict(t='sign', text='NOT TESTED:'),
+   dict(t='para', text='"Fire evacuation route, both buildings. I lacked the authority to open '
+     'the doors and did not test it. This is the row I would most like somebody else to do."')],
+ callouts=[dict(at=0.09, text='Signed from the principal entrance - that is the clause to hold'),
+   dict(at=0.18, text='Last reviewed in 2014, and it was true in 2014'),
+   dict(at=0.33, text='Three faults in a ramp that still counts as provision'),
+   dict(at=0.46, text='Step-free, and it opens into a plant room'),
+   dict(at=0.52, text='No signage, which the statement requires of itself'),
+   dict(at=0.62, text='True as written. Useless in practice'),
+   dict(at=0.80, text='Sixty against eight - and the capital line sees 2,100 against 400'),
+   dict(at=0.95, text='The auditor names what she did not do, which is why the rest is '
+     'believable')]),
+
+"fig_b13_u02_p07_v10": dict(type='V10', kind='stress', height=600,
+ title='A reduced clause keeps the beats and drops the syllables',
+ sub='Three stresses before the pause, whichever version you say.',
+ alt='Four phrases marked for syllable stress, comparing a participle clause with its full '
+     'clause equivalent.',
+ items=[dict(syllables=['HAV', 'ing', 'WALKED', 'both', 'ROUTES'], strong=[0, 2, 4],
+     note='three stresses, five syllables'),
+   dict(syllables=['af', 'ter', 'I', 'had', 'WALKED', 'both', 'ROUTES'], strong=[4, 6],
+     note='four weak syllables more'),
+   dict(syllables=['LACK', 'ing', 'a', 'RAMP'], strong=[0, 3],
+     note='two stresses, and the a disappears'),
+   dict(syllables=['HAV', 'ing', 'SAID', 'that'], strong=[0, 2],
+     note='stress on said, then the pause does the work')]),
+
+"fig_b13_u02_p08_v02": dict(type='V2', height=820,
+ title='The Harcourt rear entrance, in section',
+ sub='Four layers. Each one was true when it was written.',
+ alt='A cutaway of a rear entrance showing a step-free threshold leading into a plant room, with '
+     'the database field that still describes it as an entrance.',
+ floors=[dict(was='the sign', now='None. The statement requires one and nobody checked', year='',
+     fill='#F2EDE2'),
+   dict(was='the threshold', now='Step-free. Genuinely, measurably step-free', year='',
+     fill='#E4ECEF'),
+   dict(was='what is behind it', now='A plant room. No corridor, no door onward', year='',
+     fill='#EFE2DD'),
+   dict(was='the database field', now='ENTRANCE: STEP-FREE - correct in 2014, never re-read',
+     year='', fill='#F6F0E4')],
+ callouts=[dict(at=0.12, text='The missing sign is the only fault anybody could have seen'),
+   dict(at=0.38, text='The true sentence, and it is the one doing the damage'),
+   dict(at=0.62, text='Eight people a week stop here, at step one'),
+   dict(at=0.88, text='Eleven years, and no lie anywhere in the chain')]),
+
+"fig_b13_u02_p09_v05": dict(type='V5', height=1040,
+ title='Nine minutes, nine questions',
+ sub='A seminar on research design. One question took four of the nine minutes.',
+ alt='A record of nine seminar questions sorted into clarification, extension, challenge and '
+     'display, with the length of each answer.',
+ rows=[dict(t='org', text='SEMINAR  -  RESEARCH DESIGN  -  NINE QUESTIONS IN NINE MINUTES'),
+   dict(t='grid', cols=['#', 'KIND', 'ANSWER'],
+     data=[['1', 'display', '20 s - "yes, that is one view"'],
+           ['2', 'clarification', '35 s - and four people wrote it down'],
+           ['3', 'display', '15 s'],
+           ['4', 'challenge', '4 min 10 s - the step from graph 2 to the conclusion'],
+           ['5', 'clarification', '25 s'],
+           ['6', 'extension', '50 s'],
+           ['7', 'unanswerable', '40 s - three questions inside one sentence'],
+           ['8', 'extension', '45 s'],
+           ['9', 'clarification', '"I do not know. Ask me on Thursday."']]),
+   dict(t='para', text='The longest answer came from the only challenge. The two shortest came '
+     'from the two display questions, which were the two the asker had rehearsed.'),
+   dict(t='rule'),
+   dict(t='head', text='QUESTION 7, AS ASKED'),
+   dict(t='para', text='"So is it the sample or the method or is it just that nobody has done '
+     'this before, because if it is the sample then surely the whole thing is, I mean, do you '
+     'see what I mean?"'),
+   dict(t='kv', k='Questions inside it', v='three', mono=True),
+   dict(t='kv', k='Answerable as asked', v='no', mono=False),
+   dict(t='kv', k='What the tutor did', v='answered the first one and said so', mono=False),
+   dict(t='rule'),
+   dict(t='head', text='QUESTION 9, AND WHAT CAME OF IT'),
+   dict(t='para', text='"I do not follow the step from the second graph to the conclusion." The '
+     'tutor said she could not answer it in the room, put it on the board, and opened the next '
+     'session with it.'),
+   dict(t='rule'),
+   dict(t='sign', text='THANH, WHO HAS ASKED ONE QUESTION IN NINE WEEKS:'),
+   dict(t='para', text='"I write the question down first. By the time I have written it, '
+     'somebody else has asked something and the room has moved on. The one I did ask was the '
+     'one I had written the week before."')],
+ callouts=[dict(at=0.16, text='Twenty seconds for the question that was about the asker'),
+   dict(at=0.26, text='Four minutes, and it was the only challenge in the room'),
+   dict(at=0.33, text='Three questions in one sentence, and none of them got asked'),
+   dict(at=0.55, text='Naming which one you are answering is the whole repair'),
+   dict(at=0.76, text='I do not know, with a date attached, is an answer'),
+   dict(at=0.94, text='Writing it first is the fix and the obstacle at the same time')]),
+
+"fig_b13_u02_p10_v12": dict(type='V12', height=900,
+ title='Eleven years of one sentence',
+ sub='Half the class sees the statement. Half sees the audit. Rebuild it by speaking.',
+ alt='An infographic from 2014 to next year showing the rear entrance, the database field, the '
+     'audit and the correction.',
+ span=['2014', 'next year'], ticks=6,
+ tick_labels=['2014', '2017', '2021', 'the audit', 'the lift', '+1 yr'],
+ bands=[dict(name='The rear entrance', type='bars', items=[
+   dict(**{'from': 0.0, 'to': 0.14}, label='an entrance, onto a corridor', colour='#2E6F5E'),
+   dict(**{'from': 0.14, 'to': 1.0}, label='a plant room, and still a field saying ENTRANCE',
+     colour='#A8372E')]),
+  dict(name='What was reviewed', type='bars', items=[
+   dict(**{'from': 0.0, 'to': 0.08}, label='reviewed on site', colour='#1F4E5F'),
+   dict(**{'from': 0.08, 'to': 0.72}, label='generated from the field, every year',
+     colour='#9AA7AE'),
+   dict(**{'from': 0.86, 'to': 1.0}, label='corrected, after eleven months', colour='#2E6F5E')]),
+  dict(name='What happened', type='events', items=[
+   dict(at=0.06, label='plant moved in. Nobody told the database', colour='#D9A441'),
+   dict(at=0.30, label='two timetabling queries, answered from the statement', colour='#A8372E'),
+   dict(at=0.58, label='Bec walks both routes with a tape', colour='#1F4E5F'),
+   dict(at=0.72, label='Harcourt funded. Menzies ramp regraded from maintenance',
+     colour='#8C6A9E'),
+   dict(at=0.94, label='queried in all three capital reviews since', colour='#C86B2B')]),
+  dict(name='People unable to enter, per week', type='line',
+   points=[(0, 0), (0.14, 8), (0.4, 8), (0.58, 8), (0.76, 1), (1.0, 0)], end_label='0'),
+  dict(name='What nobody did', type='flags', items=[
+   dict(at=0.20, label='walk to the entrance the statement names'),
+   dict(at=0.46, label='ask why a 2014 review was still current in 2021'),
+   dict(at=0.66, label='notice the ramp was a maintenance job, not a capital one'),
+   dict(at=0.98, label='change what the field is allowed to say without a site visit')])]),
+
+"fig_b13_u02_p11_v06": dict(type='V6', kind='bar', height=820,
+ title='Users, exclusions and cost for each option',
+ sub='Three options, and the two columns the capital line reads are not the same column.',
+ alt='A grouped bar chart comparing Menzies, Harcourt and the ramp-only option by users per '
+     'week, people excluded and cost.',
+ labels=['Menzies lift', 'Harcourt lift', 'Ramp only'],
+ ymin=0, ymax=2200, fmt='{:,.0f}',
+ series=[dict(name='users per week', values=[2100, 400, 2100], colour='#1F4E5F'),
+   dict(name='cannot enter', values=[0, 8, 0], colour='#A8372E'),
+   dict(name='cost, $00s', values=[1800, 1750, 340], colour='#D9A441')],
+ note='Menzies serves five times the people. Harcourt is the only option where the number of '
+      'people who cannot enter at all is not zero.',
+ warning='The red bar for Harcourt is eight people. At this scale it is two pixels high, and '
+         'the capital line is assessed on the blue one. That is the whole argument.'),
+}

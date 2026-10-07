@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>Forty small beds, or eight merged ones</title>
+<desc>Two panels compared: a grid of forty metre-square beds and a field of eight long merged plots, with yield figures.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">forty beds, twelve crops</text>
+<rect x="820.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">eight merged plots, four crops</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="602" x2="760.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="177.0" y="436" width="46" height="46" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="237.0" y="436" width="46" height="46" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="297.0" y="436" width="46" height="46" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="357.0" y="436" width="46" height="46" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="460.0" cy="603.8352941176471" rx="13.458823529411767" ry="3.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 454.49411764705883 602 L 455.7176470588235 554.16" fill="none" stroke="#3A4A55" stroke-width="6.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 465.50588235294117 602 L 464.2823529411765 554.16" fill="none" stroke="#3A4A55" stroke-width="6.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 460.0 522.4705882352941 L 460.0 556.6070588235294" fill="none" stroke="#1F4E5F" stroke-width="14.682352941176472" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 448.3764705882353 523.0823529411765 L 471.6235294117647 523.0823529411765" fill="none" stroke="#1F4E5F" stroke-width="7.952941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 448.3764705882353 524.3058823529412 L 446.54117647058825 560.2776470588235" fill="none" stroke="#1F4E5F" stroke-width="5.5058823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="446.54117647058825" cy="562.1129411764706" r="3.058823529411765" fill="#6B4229"/>
+<path d="M 471.6235294117647 524.3058823529412 L 473.45882352941175 560.2776470588235" fill="none" stroke="#1F4E5F" stroke-width="5.5058823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="473.45882352941175" cy="562.1129411764706" r="3.058823529411765" fill="#6B4229"/>
+<path d="M 460.0 519.4117647058824 L 460.0 516.3529411764706" fill="none" stroke="#6B4229" stroke-width="6.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="460.0" cy="508.40000000000003" r="9.176470588235295" fill="#6B4229"/>
+<path d="M 450.8235294117647 507.1764705882353 A 9.176470588235295 9.176470588235295 0 0 1 469.1764705882353 507.1764705882353" fill="none" stroke="#2A2320" stroke-width="4.282352941176471" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="456.94117647058823" cy="509.0117647058824" r="1.1011764705882354" fill="#2A2320"/>
+<circle cx="463.05882352941177" cy="509.0117647058824" r="1.1011764705882354" fill="#2A2320"/>
+<path d="M 457.5529411764706 513.2941176470589 Q 460.0 514.5176470588235 462.4470588235294 513.2941176470589" fill="none" stroke="#8A5A48" stroke-width="0.9788235294117649" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">94 kg · 12 cycles · 20 students</text>
+<line x1="840.0" y1="602" x2="1520.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="845.0" y="436" width="230" height="70" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1195.0" y="502" width="50" height="80" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="1120.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">480 kg · 4 cycles · students visit</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Forty small beds, or eight merged ones</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the design brief. Learner B has last year's harvest.</text>
+<text x="800.0" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which requirement was met exactly, and what did meeting it cost?</text>
+<text x="800.0" y="726" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Where provision and use come apart</title>
+<desc>A network from provision and the access statement through the only route and out of order to work around and shut out.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="230" x2="540" y2="400" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="570" x2="540" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="540" y1="400" x2="900" y2="230" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="900" y1="230" x2="900" y2="600" stroke="#2E6F5E" stroke-width="6" stroke-linecap="round"/>
+<line x1="900" y1="230" x2="1270" y2="400" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="900" y1="600" x2="1270" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="230" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="170" y="235" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Provision</text>
+<text x="170" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what the budget bought</text>
+<circle cx="170" cy="570" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="170" y="575" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="170" y="642" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The statement</text>
+<text x="170" y="662" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what it says is there</text>
+<circle cx="540" cy="400" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="540" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="540" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The only route</text>
+<text x="540" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">no alternative behind it</text>
+<circle cx="900" cy="230" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="900" y="235" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Out of order</text>
+<text x="900" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and the route is gone</text>
+<circle cx="900" cy="600" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="900" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="900" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Work around</text>
+<text x="900" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a propped door, a long way round</text>
+<circle cx="1270" cy="400" r="56" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1270" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1270" y="482" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Shut out</text>
+<text x="1270" y="502" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">no step to describe after step one</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Where provision and use come apart</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six nodes. Three are on paper and three are what somebody does on a Thursday morning.</text>
+<rect x="297.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="355.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">one lift, one ramp, no spare</text>
+<rect x="297.0" y="470.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="355.0" y="489.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">described, and not re-checked since 2014</text>
+<rect x="662.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="720.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and a notice on it</text>
+<rect x="842.0" y="400.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="900.0" y="419.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">if you can</text>
+<rect x="1027.0" y="300.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1085.0" y="319.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">if you cannot</text>
+<rect x="1027.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1085.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">until the work-around runs out too</text>
+</g>
+</svg>
