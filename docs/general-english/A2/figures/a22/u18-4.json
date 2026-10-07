@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   203.2,
+   167.0,
+   846,
+   45.3
+  ],
+  [
+   312.0,
+   211.7,
+   846,
+   155.3
+  ],
+  [
+   420.8,
+   256.3,
+   846,
+   265.3
+  ],
+  [
+   529.6,
+   301.0,
+   846,
+   375.3
+  ],
+  [
+   632.0,
+   343.3,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One evening drawn as a line that forks five times, stepping down to the right. Two of the forks are solid, for the things that will happen; three are dashed with an open circle at the end, for the things that may happen and may not. Five numbered lines run to the right for the learner to write each joining word.",
+ "placed_in": [
+  6.270833333333333,
+  2.3125
+ ],
+ "sha256": "d6e58afb085030c1fdffa4e14a2c7d53fb5f78ca17e76045a9741026813d7eff"
+}

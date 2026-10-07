@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask what will happen",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    472.0,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask if there is no time",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    484.4,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what comes first",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    464.8,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about your own absence",
+   "size": 24,
+   "bbox": [
+    138.0,
+    319.3,
+    524.7,
+    340.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 deciding",
+   "size": 34,
+   "bbox": [
+    895.9,
+    58.2,
+    1244.1,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "name one thing you will do",
+   "size": 24,
+   "bbox": [
+    838.0,
+    151.3,
+    1205.1,
+    172.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give one thing up out loud",
+   "size": 26,
+   "bbox": [
+    838.0,
+    205.7,
+    1226.1,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "name the first thing",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1154.1,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you will do alone",
+   "size": 26,
+   "bbox": [
+    838.0,
+    317.7,
+    1225.9,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: ask what will happen, ask about the case where there is no time, ask what comes first, ask what happens if you are out. Card B, deciding: name one thing you will do, give one thing up out loud, name the first thing, say what you will do alone.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "a22c8e10d2a0030877bb8fbe2887cdb78b79c38c45bea2200f2decbf053564b8"
+}

@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "the alarm",
+   "size": 30,
+   "bbox": [
+    87.9,
+    269.5,
+    251.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody moves",
+   "size": 22,
+   "bbox": [
+    354.9,
+    274.9,
+    534.7,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "they look up",
+   "size": 26,
+   "bbox": [
+    628.7,
+    271.8,
+    811.3,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the first to",
+   "size": 30,
+   "bbox": [
+    904.6,
+    234.5,
+    1085.8,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stand",
+   "size": 30,
+   "bbox": [
+    947.6,
+    269.5,
+    1042.8,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the rest move",
+   "size": 24,
+   "bbox": [
+    1176.0,
+    273.4,
+    1364.8,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "What happens in a building in the first seconds of an alarm, in five stages with an arrow to the next: the alarm sounds, almost nobody moves, they look up and then at each other, the first person to stand decides it, and the rest move.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "0ed45b139f9a1aecd6a278f15860515c63f8e12d22268b2a5748410ed6c44c94"
+}

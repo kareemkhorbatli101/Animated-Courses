@@ -46,6 +46,9 @@ people:
       - says the corner has always been the phone shop (U16)
       - makes small books by hand, one at a time, and sells about four a year (U17)
       - gives most of the books she makes away (U17)
+      - will put her books on the top shelf if the water comes up, and says she
+        will be the one to wake Dani (U18)
+      - moved her books off the floor once and felt silly on the Monday (U18)
     first_unit: 1
   Tomas:
     full: Tomas Nilsen
@@ -70,6 +73,8 @@ people:
       - has slept in an airport three times and mentions it like a bus stop (U15)
       - started at the city hospital at twenty-four and has been on nights ever since (U16)
       - sews because the hospital taught him, and the hospital is strict about it (U17)
+      - the hospital rings everybody when the roads are bad, and rings the next
+        name if he does not answer; he always answers (U18)
     first_unit: 1
   Amina:
     full: Amina Chaudhry
@@ -102,6 +107,8 @@ people:
       - painted GREEN SHOP across her own window herself (U17)
       - keeps the bottles behind the till, because the glass is worth something (U17)
       - knows who in the building makes and who buys (U17)
+      - lost a freezer when the water came up in the spring, and will move the
+        new one first; the list is in her head and has four things on it (U18)
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -131,6 +138,8 @@ people:
         light bulb that went in June (U16)
       - has never thought about what the corner used to be (U16)
       - has made nothing, and has cooked one meal for eight people, badly (U17)
+      - will sleep through a flood unless somebody wakes him (U18)
+      - ate the chocolate out of the emergency bag once and replaced it (U18)
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -163,6 +172,8 @@ people:
         were changed, and two of them do not match (U17)
       - the coat was made in a factory where the station is now (U17)
       - has bought almost nothing in forty years (U17)
+      - will do nothing at all if the water comes up, and has been right twice (U18)
+      - questioned the bag by the door and then put his keys in it (U18)
     first_unit: 1
     ages_also: [71]
   Yuki:
@@ -189,6 +200,9 @@ people:
         you could see how it was made (U17)
       - the newest bowl has been under a cloth since March, unglazed, and the
         glaze is the part she cannot get right (U17)
+      - put a bag by the front door in April, on a Saturday, telling nobody
+        first; it holds a lamp, six telephone numbers, two sets of spare keys
+        and a bar of chocolate (U18)
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
@@ -209,6 +223,7 @@ walk_ons:
   - {name: the name-cutters of the temple, unit: 15, country: Egypt}
   - {name: the rebuilders of Warsaw, unit: 16, country: Poland}
   - {name: the NEWater plants, unit: 17, country: Singapore}
+  - {name: the September earthquake drill, unit: 18, country: Mexico}
 
 places:
   - Alder Street

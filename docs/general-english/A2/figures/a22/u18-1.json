@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  812
+ ],
+ "bounds": [
+  0,
+  30,
+  1440,
+  782
+ ],
+ "texts": [
+  {
+   "text": "UNIT 18",
+   "size": 40,
+   "bbox": [
+    90,
+    104.4,
+    267.7,
+    140.0
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "If and When",
+   "size": 72,
+   "bbox": [
+    90,
+    163.7,
+    580.4,
+    226.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "GRAMMAR",
+   "size": 26,
+   "bbox": [
+    106,
+    366.5,
+    259.4,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The first conditional",
+   "size": 36,
+   "bbox": [
+    106,
+    413.5,
+    515.1,
+    445.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "IN THIS UNIT",
+   "size": 26,
+   "bbox": [
+    786,
+    366.5,
+    973.7,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "By the end you can",
+   "size": 30,
+   "bbox": [
+    70,
+    588.2,
+    394.3,
+    614.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can say what I will do if something happens.",
+   "size": 30,
+   "bbox": [
+    128,
+    640.2,
+    902.4,
+    666.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use if, when and unless with the right tense.",
+   "size": 30,
+   "bbox": [
+    128,
+    696.2,
+    976.1,
+    722.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can agree a plan with somebody else.",
+   "size": 30,
+   "bbox": [
+    128,
+    752.2,
+    789.5,
+    778.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The opening page of Unit 18, If and When: the grammar point is the first conditional, and three things the learner will be able to do by the end of the unit.",
+ "placed_in": [
+  6.270833333333333,
+  3.53125
+ ],
+ "sha256": "a6a949ed70b02c22f7629c57602f46d710db0b81e7821c20345ef9115da90558"
+}

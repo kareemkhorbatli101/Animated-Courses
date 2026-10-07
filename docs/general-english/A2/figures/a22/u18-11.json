@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The if half",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    361.3,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If the trains stop\u2026",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    910.5,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you will do",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    472.5,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I will walk to the bridge.",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    981.8,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The unless half",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    447.0,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Unless it is raining hard\u2026",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    1002.8,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who you will ring",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    484.4,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I will ring Amina.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    887.3,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the piece the learner is about to write, in four steps: the thing that might happen, what you will do, the one thing that would change it, and who you will ring.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "abccb34f14cecda83cd82ff9f640630857d6d917faa2bb9e425036f3731cad1f"
+}

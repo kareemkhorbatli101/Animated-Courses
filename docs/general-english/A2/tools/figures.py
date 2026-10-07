@@ -417,6 +417,102 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
                    f'{cy-26*s:.1f} L {cx+(k+6)*s:.1f} {cy-10*s:.1f} Z',
                    fill=P['blue'])
         L(-50, 34, 50, 34, sw=4)
+    elif name == 'siren':
+        R(-26, -10, 52, 30, fill=P['card'], r=6)           # the box
+        f.path(f'M {cx-20*s:.1f} {cy-10*s:.1f} L {cx:.1f} {cy-40*s:.1f} '
+               f'L {cx+20*s:.1f} {cy-10*s:.1f} Z', fill=P['tand'])
+        for k, r in ((1, 30), (2, 42)):                    # the sound going out
+            f.path(f'M {cx+r*s:.1f} {cy-26*s:.1f} Q {cx+(r+10)*s:.1f} {cy-6*s:.1f} '
+                   f'{cx+r*s:.1f} {cy+14*s:.1f}', fill='none', stroke=P['ink'], sw=3)
+        L(-30, 20, 30, 20, sw=4)
+    elif name == 'lamp':
+        f.path(f'M {cx-24*s:.1f} {cy-6*s:.1f} L {cx-12*s:.1f} {cy-34*s:.1f} '
+               f'L {cx+12*s:.1f} {cy-34*s:.1f} L {cx+24*s:.1f} {cy-6*s:.1f} Z',
+               fill=P['tan'])
+        C(0, 4, 11, fill=P['tanl'], sw=3)
+        L(0, 14, 0, 36, stroke=P['ink'], sw=5)
+        L(-14, 36, 14, 36, sw=5)
+    elif name == 'bag':
+        R(-30, -12, 60, 46, fill=P['tan'], r=6)
+        f.path(f'M {cx-16*s:.1f} {cy-12*s:.1f} Q {cx:.1f} {cy-44*s:.1f} '
+               f'{cx+16*s:.1f} {cy-12*s:.1f}', fill='none', stroke=P['ink'], sw=5)
+        L(-30, 6, 30, 6, stroke=P['tand'], sw=4)
+    elif name == 'key':
+        C(-20, 0, 13, fill=P['bg'], sw=4)
+        L(-7, 0, 28, 0, sw=5)
+        L(18, 0, 18, 14, sw=5)
+        L(28, 0, 28, 12, sw=5)
+    elif name == 'crack':
+        R(-40, 10, 80, 24, fill=P['tanl'], r=3)            # the ground
+        f.path(f'M {cx-20*s:.1f} {cy+10*s:.1f} L {cx-6*s:.1f} {cy+22*s:.1f} '
+               f'L {cx+8*s:.1f} {cy+12*s:.1f} L {cx+20*s:.1f} {cy+26*s:.1f}',
+               fill='none', stroke=P['ink'], sw=4)
+        for k, dy in ((0, -22), (-18, -12), (18, -12)):    # the shake above it
+            L(k, dy, k, dy - 14, stroke=P['tand'], sw=4)
+    elif name == 'loom':
+        R(-42, -34, 10, 68, fill=P['tand'], r=3)           # the uprights
+        R(32, -34, 10, 68, fill=P['tand'], r=3)
+        for k in range(-3, 4):                             # the warp threads
+            L(k * 10, -28, k * 10, 28, stroke=P['blue'], sw=3)
+        L(-42, -6, 42, -6, stroke=P['ink'], sw=5)          # the beater
+        L(-42, 14, 42, 14, stroke=P['deep'], sw=5)
+    elif name == 'cloth':
+        R(-38, -30, 76, 60, fill=P['bg'], r=3)
+        for k in range(3):
+            R(-38, -30 + k * 20, 76, 10, fill=P['blue'], r=0, sw=0)
+        for k in range(-3, 4):
+            L(k * 11, -30, k * 11, 30, stroke=P['tand'], sw=3)
+    elif name == 'plaque':
+        R(-40, -26, 80, 52, fill=P['tand'], r=4)
+        R(-32, -18, 64, 36, fill=P['tanl'], r=2)
+        L(-22, -6, 22, -6, stroke=P['ink'], sw=4)
+        L(-22, 6, 10, 6, stroke=P['ink'], sw=4)
+    elif name == 'shoe':
+        f.path(f'M {cx-40*s:.1f} {cy+20*s:.1f} L {cx-36*s:.1f} {cy-6*s:.1f} '
+               f'Q {cx-10*s:.1f} {cy-14*s:.1f} {cx+6*s:.1f} {cy-2*s:.1f} '
+               f'L {cx+36*s:.1f} {cy+8*s:.1f} L {cx+38*s:.1f} {cy+20*s:.1f} Z',
+               fill=P['deep'])
+        R(-40, 20, 24, 12, fill=P['ink'], r=2)             # the heel
+        L(-30, 18, 30, 18, stroke=P['bg'], sw=3)
+    elif name == 'envelope':
+        R(-42, -26, 84, 52, fill=P['bg'], r=3)
+        f.path(f'M {cx-42*s:.1f} {cy-26*s:.1f} L {cx:.1f} {cy+4*s:.1f} '
+               f'L {cx+42*s:.1f} {cy-26*s:.1f}', fill='none', stroke=P['ink'], sw=4)
+        R(20, -22, 18, 14, fill=P['tand'], r=2)            # the stamp corner
+    elif name == 'stamp':
+        R(-30, -34, 60, 68, fill=P['tanl'], r=3)
+        R(-21, -25, 42, 50, fill=P['bg'], r=2)
+        C(0, -4, 11, fill=P['blue'], sw=0)
+        L(-13, 16, 13, 16, stroke=P['ink'], sw=4)
+    elif name == 'newspaper':
+        R(-42, -30, 84, 60, fill=P['bg'], r=3)
+        R(-34, -22, 68, 10, fill=P['ink'], r=2)            # the masthead
+        for k in range(4):
+            L(-34, -4 + k * 9, 2, -4 + k * 9, stroke=P['rule'], sw=3)
+            L(10, -4 + k * 9, 34, -4 + k * 9, stroke=P['rule'], sw=3)
+    elif name == 'notebook':
+        R(-32, -38, 64, 76, fill=P['card'], r=4)
+        R(-32, -38, 12, 76, fill=P['deep'], r=4)           # the spine
+        for k in range(5):
+            L(-12, -24 + k * 13, 22, -24 + k * 13, stroke=P['rule'], sw=3)
+    elif name == 'loudspeaker':
+        f.path(f'M {cx-6*s:.1f} {cy-14*s:.1f} L {cx+26*s:.1f} {cy-34*s:.1f} '
+               f'L {cx+26*s:.1f} {cy+14*s:.1f} L {cx-6*s:.1f} {cy-2*s:.1f} Z',
+               fill=P['deep'])
+        R(-22, -14, 16, 26, fill=P['blue'], r=3)
+        L(6, 14, 6, 40, stroke=P['tand'], sw=5)            # the pole
+        for r in (34, 46):
+            f.path(f'M {cx+r*s:.1f} {cy-26*s:.1f} Q {cx+(r+10)*s:.1f} {cy-10*s:.1f} '
+                   f'{cx+r*s:.1f} {cy+6*s:.1f}', fill='none', stroke=P['ink'], sw=3)
+    elif name == 'horse':
+        f.path(f'M {cx-34*s:.1f} {cy+4*s:.1f} L {cx+14*s:.1f} {cy+4*s:.1f} '
+               f'L {cx+26*s:.1f} {cy-16*s:.1f} L {cx+38*s:.1f} {cy-14*s:.1f} '
+               f'L {cx+30*s:.1f} {cy+2*s:.1f} L {cx+20*s:.1f} {cy+10*s:.1f} '
+               f'L {cx-34*s:.1f} {cy+12*s:.1f} Z', fill=P['tand'])
+        L(-24, 12, -28, 34, stroke=P['ink'], sw=5)
+        L(-8, 12, -4, 34, stroke=P['ink'], sw=5)
+        L(8, 12, 12, 34, stroke=P['ink'], sw=5)
+        L(-34, 4, -40, -8, stroke=P['tand'], sw=5)         # the tail
     elif name == 'painting':
         R(-44, -34, 88, 68, fill=P['tand'], r=3)           # the frame
         R(-35, -26, 70, 52, fill=P['bg'], r=1)
@@ -1026,6 +1122,92 @@ def voice_steps(f: Fig, x, y, w, h):
                 f.line(mx, my + 2 + k * 13, mx + 30, my + 2 + k * 13,
                        stroke=P['rule'], sw=3)
         # i == 4: the maker's box is simply not drawn
+
+
+def branch_line(f: Fig, x, y, w, h):
+    """One evening as a line that forks. Each fork is drawn with the certain
+    branch solid and the uncertain one dashed, so `if` and `when` are told
+    apart by the drawing and not only by the word: a solid fork is something
+    that will happen, a dashed fork is something that may. Hit points step
+    down as they step right, so no two leaders cross (G15)."""
+    def ly_at(fx):
+        return y + h * (0.22 + 0.56 * fx)
+    xs = [0.13, 0.30, 0.47, 0.64, 0.80]
+    f.line(x + 50, ly_at(0.05), x + w * 0.92, ly_at(0.92), stroke=P['ink'], sw=6)
+    for i, fx in enumerate(xs):
+        cx2, cy2 = x + w * fx, ly_at(fx)
+        up = cy2 - h * 0.17
+        if i in (1, 4):                       # certain: a solid branch
+            f.line(cx2, cy2, cx2 + w * 0.07, up, stroke=P['deep'], sw=5)
+            f.circle(cx2 + w * 0.07, up, 13, fill=P['deep'], sw=4)
+        else:                                 # uncertain: a dashed branch
+            for k in range(4):
+                t0, t1 = k / 4 + 0.04, (k + 1) / 4 - 0.04
+                f.line(cx2 + w * 0.07 * t0, cy2 + (up - cy2) * t0,
+                       cx2 + w * 0.07 * t1, cy2 + (up - cy2) * t1,
+                       stroke=P['tand'], sw=5)
+            f.circle(cx2 + w * 0.07, up, 13, fill=P['bg'], sw=4)
+        f.circle(cx2, cy2, 9, fill=P['ink'], sw=0)
+
+
+def join_line(f: Fig, x, y, w, h):
+    """Five pairs of boxes, each pair joined by a short link whose shape says
+    what kind of thing the joining word takes: a filled circle for a person, a
+    square for a thing, both for the word that takes either, a flat bar for a
+    place, and a hooked link for the one that marks belonging. The link is what
+    the learner is labelling, so it is drawn larger than the boxes. Hit points
+    step down as they step right, so no two leaders cross (G15)."""
+    def ly_at(fx):
+        return y + h * (0.22 + 0.56 * fx)
+    xs = [0.13, 0.30, 0.47, 0.64, 0.80]
+    for i, fx in enumerate(xs):
+        cx2, cy2 = x + w * fx, ly_at(fx)
+        f.rect(cx2 - 64, cy2 - 15, 30, 30, fill=P['card'], stroke=P['ink'], r=5)
+        f.rect(cx2 + 34, cy2 - 15, 30, 30, fill=P['card'], stroke=P['ink'], r=5)
+        f.line(cx2 - 34, cy2, cx2 + 34, cy2, stroke=P['rule'], sw=4)
+        if i == 0:                                   # who: a person
+            f.circle(cx2, cy2, 17, fill=P['deep'], sw=4)
+        elif i == 1:                                 # which: a thing
+            f.rect(cx2 - 15, cy2 - 15, 30, 30, fill=P['blue'], stroke=P['ink'], r=4)
+        elif i == 2:                                 # that: either
+            f.circle(cx2 - 9, cy2, 13, fill=P['deep'], sw=4)
+            f.rect(cx2 - 2, cy2 - 11, 22, 22, fill=P['blue'], stroke=P['ink'], r=4)
+        elif i == 3:                                 # where: a place
+            f.rect(cx2 - 20, cy2 + 2, 40, 13, fill=P['tanl'], stroke=P['ink'], r=3)
+            f.line(cx2 - 20, cy2 + 2, cx2 + 20, cy2 + 2, stroke=P['tand'], sw=4)
+        else:                                        # whose: belonging
+            f.circle(cx2 - 12, cy2, 13, fill=P['deep'], sw=4)
+            f.path(f'M {cx2 - 2:.1f} {cy2 - 8:.1f} Q {cx2 + 16:.1f} {cy2:.1f} '
+                   f'{cx2 - 2:.1f} {cy2 + 8:.1f}', fill='none',
+                   stroke=P['ink'], sw=4)
+
+
+def report_steps(f: Fig, x, y, w, h):
+    """Five pairs: what was said, and the same thing reported. The spoken box
+    keeps its quotation marks and the reported box does not, and the arrow
+    between them carries one tick for each step the tense moves back -- none
+    for a word that does not change, one for a tense that goes back one step.
+    The question pair loses a mark as well as a tense, drawn as a struck-out
+    question mark. Hit points step down as they step right (G15)."""
+    def ly_at(fx):
+        return y + h * (0.22 + 0.56 * fx)
+    xs = [0.13, 0.30, 0.47, 0.64, 0.80]
+    steps = [1, 1, 1, 0, 1]
+    for i, fx in enumerate(xs):
+        cx2, cy2 = x + w * fx, ly_at(fx)
+        # the spoken half, with its quotation marks
+        f.rect(cx2 - 66, cy2 - 16, 34, 32, fill=P['bg'], stroke=P['ink'], r=5)
+        f.line(cx2 - 60, cy2 - 10, cx2 - 57, cy2 - 3, stroke=P['ink'], sw=3)
+        f.line(cx2 - 52, cy2 - 10, cx2 - 49, cy2 - 3, stroke=P['ink'], sw=3)
+        # the reported half, plain
+        f.rect(cx2 + 32, cy2 - 16, 34, 32, fill=P['card'], stroke=P['ink'], r=5)
+        f.line(cx2 - 30, cy2, cx2 + 28, cy2, stroke=P['rule'], sw=4)
+        for k in range(steps[i]):                  # one tick per step back
+            f.line(cx2 - 4 + k * 10, cy2 - 9, cx2 - 4 + k * 10, cy2 + 9,
+                   stroke=P['deep'], sw=5)
+        if i == 2:                                 # the reported question
+            f.circle(cx2 + 49, cy2 - 26, 12, fill=P['bg'], sw=3)
+            f.line(cx2 + 40, cy2 - 35, cx2 + 58, cy2 - 17, stroke=P['ink'], sw=4)
 
 
 def compare_pair(f: Fig, x, y, w, h):

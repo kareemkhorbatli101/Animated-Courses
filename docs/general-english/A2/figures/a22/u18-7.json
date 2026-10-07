@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 18.2",
+   "size": 28,
+   "bbox": [
+    185.3,
+    50.1,
+    348.1,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and Amina",
+   "size": 32,
+   "bbox": [
+    127.2,
+    287.0,
+    406.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what we will do if the",
+   "size": 26,
+   "bbox": [
+    128.2,
+    356.9,
+    405.1,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "water comes up",
+   "size": 26,
+   "bbox": [
+    162.3,
+    388.9,
+    371.0,
+    412.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 18.3",
+   "size": 28,
+   "bbox": [
+    638.6,
+    50.1,
+    801.4,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Tomas",
+   "size": 32,
+   "bbox": [
+    577.5,
+    287.0,
+    862.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the call that comes when",
+   "size": 26,
+   "bbox": [
+    555.7,
+    356.9,
+    884.3,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the roads are bad",
+   "size": 26,
+   "bbox": [
+    604.8,
+    388.9,
+    835.2,
+    412.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 18.4",
+   "size": 28,
+   "bbox": [
+    1091.9,
+    50.1,
+    1254.7,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six people, six plans",
+   "size": 26,
+   "bbox": [
+    1041.7,
+    356.9,
+    1304.9,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Yuki asks Amina what will happen if the water comes up and ends up owning the list, Dani asks Tomas whether the hospital rings him when the roads are bad, and Amina says what each of the six will do.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "ab423dfb92e1daf3d8cfa2058b64f03e1b0a4cd5f80da662305d3eaef5997a44"
+}

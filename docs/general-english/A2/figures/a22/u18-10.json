@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "Four hours",
+   "size": 32,
+   "bbox": [
+    182.7,
+    217.2,
+    377.3,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "enough to move a car and",
+   "size": 26,
+   "bbox": [
+    108.2,
+    269.1,
+    451.8,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a freezer",
+   "size": 26,
+   "bbox": [
+    222.1,
+    301.1,
+    337.9,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Eleven minutes",
+   "size": 32,
+   "bbox": [
+    581.5,
+    217.2,
+    858.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "almost nothing, and",
+   "size": 26,
+   "bbox": [
+    589.4,
+    269.1,
+    850.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "people go back indoors",
+   "size": 26,
+   "bbox": [
+    568.3,
+    301.1,
+    871.7,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "One minute",
+   "size": 32,
+   "bbox": [
+    1055.1,
+    217.2,
+    1264.9,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "enough to stop a train and",
+   "size": 26,
+   "bbox": [
+    986.6,
+    269.1,
+    1333.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "open a fire station door",
+   "size": 26,
+   "bbox": [
+    1007.6,
+    301.1,
+    1312.4,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three warnings and the time each one buys: four hours, which is enough to empty a street because a car and a freezer can be moved; eleven minutes, which does almost nothing and in two cities made things worse because people went back indoors for their papers; and one minute, which is enough to stop a train and open a fire station door.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "5044207fddc2f7b77a2ec6ac61e7283e99c4b69e6a4832fec07b655495fe929f"
+}

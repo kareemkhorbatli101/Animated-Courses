@@ -57,8 +57,35 @@ class Ctx:
             return ''
 
 
+def _load_yaml(*parts):
+    """Read one YAML file, and say which file and which line broke if it does.
+
+    A bare colon inside an unquoted ledger fact (`a coat older than Dani: it
+    has been relined`) makes YAML read the string as a mapping, and PyYAML's
+    own traceback is twenty frames of composer internals with the filename
+    only at the very bottom. This happened twice while writing A2.2, so the
+    message now names the file, the line and the usual cause."""
+    path = os.path.join(ROOT, *parts)
+    try:
+        return yaml.safe_load(open(path, encoding='utf-8'))
+    except yaml.YAMLError as e:
+        mark = getattr(e, 'problem_mark', None)
+        where = f' line {mark.line + 1}, column {mark.column + 1}' if mark else ''
+        line = ''
+        if mark:
+            try:
+                line = open(path, encoding='utf-8').read().split('\n')[mark.line]
+            except Exception:
+                pass
+        raise SystemExit(
+            f'{os.path.join(*parts)}{where}: {getattr(e, "problem", e)}\n'
+            f'  {line.strip()}\n'
+            '  A bare ": " inside an unquoted value is read as a mapping. '
+            'Use a semicolon, or quote the whole value.') from None
+
+
 def load_ctx(book='a21') -> Ctx:
-    y = lambda *p: yaml.safe_load(open(os.path.join(ROOT, *p), encoding='utf-8'))
+    y = _load_yaml
     c = Ctx(book=book,
             book_label={'a21': 'A2.1', 'a22': 'A2.2'}[book],
             volume_title={'a21': 'Everyday Life', 'a22': 'Out in the World'}[book])

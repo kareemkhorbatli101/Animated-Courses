@@ -7,10 +7,10 @@ one can pick up from this file alone.
 
 | | A2.1 *Everyday Life* | A2.2 *Out in the World* |
 |---|---|---|
-| Units | 1–10, **complete** | 11–17 written, 18–20 to go |
-| Checks | 1,913 executions, 0 failures | 1,352 executions, 0 failures |
-| Pages | 386 | 274 |
-| Figures | 140 | 98 |
+| Units | 1–10, **complete** | 11–18 written, 19–20 to go |
+| Checks | 1,913 executions, 0 failures | 1,539 executions, 0 failures |
+| Pages | 386 | 313 |
+| Figures | 140 | 112 |
 | Book | `build/EFDL-A2.1-EverydayLife-u01-10.docx` | `build/EFDL-A2.2-OutintheWorld-u11-NN.docx` |
 
 Run `python3 tools/runner.py` and `python3 tools/runner.py --book a22` to see the
@@ -72,8 +72,13 @@ These recur in every draft. Anticipating them saves a round:
   consecutive the same, no letter over 40% in a unit, book chi² under 7.815.
   Pick the unit's ten-letter sequence *before* writing the key, then reorder the
   options so the right answer lands on the chosen letter. A2.2 stands at
-  A18 B17 C18 D17 after Unit 17 (chi² 0.06), so units 18–20 want roughly 7 of
-  each letter, spread 2/3 per unit.
+  A20 B20 C20 D20 after Unit 18 (chi² 0.00), so units 19 and 20 want 5 of each
+  letter: 2/3 per unit, the split reversed between them.
+- **T/F/NG sets (C19).** The seeded `0.` example does not count towards the
+  three verdicts, because the key writes it as `True *(given)*` and the check
+  reads only bare verdicts. So **items 1–3 must themselves span True, False and
+  Not Given**. This cost a round in both Unit 17 and Unit 18; check it while
+  writing the key, not after.
 - **Duplicate question stems (C27).** Book-scoped, and it bites on the generic
   ones: *Which sentence is correct?* collided between U15 and U16. Make every
   grammar-review stem name its own point (*Which sentence uses `for`
@@ -130,6 +135,14 @@ content defects separately.
   start point instead.
 - **YAML colons inside a cast fact.** `owns a coat older than Dani: it has been
   relined` parses as a mapping and the ledger stops loading. Use a semicolon.
+  This happened twice, so `runner._load_yaml` now names the file, the line and
+  the cause instead of raising twenty frames of PyYAML composer internals.
+- **Figure label words (G18) have no stemming.** `stand` in the unit does not
+  cover `stands` on a figure, and `moves` does not cover `moved`. Copy the
+  phrase out of the unit rather than paraphrasing it, or expect a round of
+  one-word corrections.
+- **Long step labels in `writing_frame` (G14).** Four or more words in the
+  left-hand column overlaps the example beside it. Keep them to three.
 
 ## Traps specific to units 18–20
 
