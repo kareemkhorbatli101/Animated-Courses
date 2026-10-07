@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  595
+ ],
+ "bounds": [
+  57.0,
+  29.5,
+  1383.0,
+  565.5
+ ],
+ "texts": [
+  {
+   "text": "\u201cThe van is outside.\u201d",
+   "size": 38,
+   "bbox": [
+    142.1,
+    56.4,
+    597.9,
+    89.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "said like this \u2014 the present",
+   "size": 32,
+   "bbox": [
+    123.3,
+    139.1,
+    616.7,
+    167.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "now",
+   "size": 24,
+   "bbox": [
+    342.1,
+    326.6,
+    397.9,
+    348.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The words as they were said,",
+   "size": 30,
+   "bbox": [
+    122.5,
+    390.7,
+    617.5,
+    417.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "with the mark.",
+   "size": 30,
+   "bbox": [
+    245.9,
+    430.7,
+    494.1,
+    457.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "She said the van was outside.",
+   "size": 34,
+   "bbox": [
+    783.2,
+    59.5,
+    1356.8,
+    89.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "reported like this \u2014 one step back",
+   "size": 28,
+   "bbox": [
+    799.1,
+    142.2,
+    1340.9,
+    166.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "now",
+   "size": 24,
+   "bbox": [
+    1042.1,
+    326.6,
+    1097.9,
+    348.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "No mark, and the tense goes back a step.",
+   "size": 24,
+   "bbox": [
+    787.6,
+    394.6,
+    1352.4,
+    416.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The unit\u2019s grammar as two columns. On the left the words as they were said, in the present and inside quotation marks. On the right the same thing reported: the marks are gone and the tense has moved back one step, which is the only change the learner has to make.",
+ "placed_in": [
+  6.270833333333333,
+  2.59375
+ ],
+ "sha256": "ce3e57cafe379b53d73e920cc585b7ac17c8a124f79c54a4302667566b1c950e"
+}

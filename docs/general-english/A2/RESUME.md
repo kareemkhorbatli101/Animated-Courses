@@ -7,10 +7,10 @@ one can pick up from this file alone.
 
 | | A2.1 *Everyday Life* | A2.2 *Out in the World* |
 |---|---|---|
-| Units | 1–10, **complete** | 11–18 written, 19–20 to go |
-| Checks | 1,913 executions, 0 failures | 1,539 executions, 0 failures |
-| Pages | 386 | 313 |
-| Figures | 140 | 112 |
+| Units | 1–10, **complete** | 11–19 written, 20 to go |
+| Checks | 1,913 executions, 0 failures | 1,726 executions, 0 failures |
+| Pages | 386 | 354 |
+| Figures | 140 | 126 |
 | Book | `build/EFDL-A2.1-EverydayLife-u01-10.docx` | `build/EFDL-A2.2-OutintheWorld-u11-NN.docx` |
 
 Run `python3 tools/runner.py` and `python3 tools/runner.py --book a22` to see the
@@ -72,8 +72,8 @@ These recur in every draft. Anticipating them saves a round:
   consecutive the same, no letter over 40% in a unit, book chi² under 7.815.
   Pick the unit's ten-letter sequence *before* writing the key, then reorder the
   options so the right answer lands on the chosen letter. A2.2 stands at
-  A20 B20 C20 D20 after Unit 18 (chi² 0.00), so units 19 and 20 want 5 of each
-  letter: 2/3 per unit, the split reversed between them.
+  A22 B23 C22 D23 after Unit 19 (chi² 0.04), so Unit 20 wants
+  **A3 B2 C3 D2** to finish the volume level at 25 each.
 - **T/F/NG sets (C19).** The seeded `0.` example does not count towards the
   three verdicts, because the key writes it as `True *(given)*` and the check
   reads only bare verdicts. So **items 1–3 must themselves span True, False and
@@ -143,6 +143,16 @@ content defects separately.
   one-word corrections.
 - **Long step labels in `writing_frame` (G14).** Four or more words in the
   left-hand column overlaps the example beside it. Keep them to three.
+- **A figure's `alt` text is checked too (G18/G24),** not just its labels. A
+  label fix that leaves the alt text paraphrasing the old wording still fails.
+  Change both in the same edit.
+- **Spelling out a year does not satisfy F15, and digits do not survive it.**
+  `in 1998` and `in 1987` both failed; `about twenty-five years ago` and
+  `long ago` pass and read better at A2.
+- **A26 wants the literal headers.** The Part 2 Focus Box table must carry
+  `**Form**`, `**Use**` and `**Example**`. A cleverer header row (`Said like
+  this` / `Reported like this`) fails, and the fix is to keep the three
+  columns and put the cleverness in the cells.
 
 ## Traps specific to units 18–20
 

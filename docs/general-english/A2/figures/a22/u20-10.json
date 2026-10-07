@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "A messenger",
+   "size": 32,
+   "bbox": [
+    163.0,
+    217.2,
+    397.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "about a hundred and sixty",
+   "size": 26,
+   "bbox": [
+    108.4,
+    269.1,
+    451.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "kilometres a day",
+   "size": 26,
+   "bbox": [
+    171.6,
+    301.1,
+    388.4,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Towers on hilltops",
+   "size": 32,
+   "bbox": [
+    556.2,
+    217.2,
+    883.8,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "across France in two",
+   "size": 26,
+   "bbox": [
+    587.2,
+    269.1,
+    852.8,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hours, and not in fog",
+   "size": 26,
+   "bbox": [
+    584.4,
+    301.1,
+    855.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The telegraph",
+   "size": 32,
+   "bbox": [
+    1033.5,
+    217.2,
+    1286.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a message moved with",
+   "size": 26,
+   "bbox": [
+    1009.1,
+    269.1,
+    1310.9,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing moving",
+   "size": 26,
+   "bbox": [
+    1057.8,
+    301.1,
+    1262.2,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three old ways of carrying news: a messenger on a horse, who managed about a hundred and sixty kilometres a day and was the limit for three thousand years; towers on hilltops with arms read through a telescope, which carried a short sentence across France in two hours but could not work at night or in fog; and the telegraph, the real break, because it was the first time a message could move without anything moving.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "8d55bbb2265ab7700ac01a9a9c83b237397c56e654b99dc6a4adacc262e5470e"
+}

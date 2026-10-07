@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "Mill Lane",
+   "size": 32,
+   "bbox": [
+    198.8,
+    217.2,
+    361.2,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no mill; a family called Mill",
+   "size": 26,
+   "bbox": [
+    106.5,
+    269.1,
+    453.5,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "paid for the road",
+   "size": 26,
+   "bbox": [
+    171.1,
+    301.1,
+    388.9,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Half of one city",
+   "size": 32,
+   "bbox": [
+    582.4,
+    217.2,
+    857.6,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the daughters of the man",
+   "size": 24,
+   "bbox": [
+    566.1,
+    270.7,
+    873.9,
+    292.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "who built them, then cousins",
+   "size": 24,
+   "bbox": [
+    545.9,
+    300.7,
+    894.1,
+    322.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Forty streets",
+   "size": 32,
+   "bbox": [
+    1043.2,
+    217.2,
+    1276.8,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one woman who ran a",
+   "size": 26,
+   "bbox": [
+    1015.5,
+    269.1,
+    1304.5,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "school, and one small book",
+   "size": 26,
+   "bbox": [
+    982.7,
+    301.1,
+    1337.3,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three places named after a person: Mill Lane, which has no mill and is named after a family called Mill who paid for the road; half of one city whose roads carry the names of the daughters of the man who built them, and then his cousins, because there were only eleven daughters; and about forty streets across England named after one woman who ran a school for children who could not hear, each chosen by a town office that had read the same small book.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "6537aa8d529afdad116256ca9d448cc08641f6b2c6bf1566312ccaed879dbaf5"
+}

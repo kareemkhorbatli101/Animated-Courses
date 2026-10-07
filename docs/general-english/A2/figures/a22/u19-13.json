@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "On the loom",
+   "size": 34,
+   "bbox": [
+    247.9,
+    67.8,
+    482.1,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "thin strips",
+   "size": 27,
+   "bbox": [
+    297.3,
+    282.5,
+    432.7,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "planned before the first thread",
+   "size": 27,
+   "bbox": [
+    157.0,
+    328.5,
+    573.0,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "lines that repeat",
+   "size": 27,
+   "bbox": [
+    253.6,
+    374.5,
+    476.4,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "On the cloth",
+   "size": 34,
+   "bbox": [
+    987.0,
+    67.8,
+    1223.0,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "sewn side by side",
+   "size": 27,
+   "bbox": [
+    985.3,
+    282.5,
+    1224.7,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a name for every pattern",
+   "size": 27,
+   "bbox": [
+    935.0,
+    328.5,
+    1275.0,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a sentence said by the cloth",
+   "size": 27,
+   "bbox": [
+    913.9,
+    374.5,
+    1296.1,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "A pattern on a loom beside the cloth it becomes. On the loom: narrow strips, woven on a frame a man sits inside, planned before the first thread goes on. On the cloth: the strips sewn side by side, a name for every pattern, and a cloth that says something when it is worn.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "bd16f699f6f0ebd31d65b73c79170a16c95116055d6519f51964822118ba0db4"
+}

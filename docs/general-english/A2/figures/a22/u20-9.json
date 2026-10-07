@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "the first",
+   "size": 30,
+   "bbox": [
+    101.7,
+    234.5,
+    237.5,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "witness",
+   "size": 30,
+   "bbox": [
+    104.7,
+    269.5,
+    234.5,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I think it was",
+   "size": 26,
+   "bbox": [
+    349.4,
+    271.8,
+    540.2,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the colour goes",
+   "size": 22,
+   "bbox": [
+    623.7,
+    274.9,
+    816.3,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the hour goes",
+   "size": 24,
+   "bbox": [
+    901.0,
+    273.4,
+    1089.4,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it was twenty",
+   "size": 24,
+   "bbox": [
+    1178.8,
+    244.4,
+    1362.0,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "minutes",
+   "size": 24,
+   "bbox": [
+    1215.7,
+    273.4,
+    1325.1,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "One sentence passed along five people, in five stages with an arrow to the next: the first witness says she thinks it was about twenty minutes, then the colour goes, then the hour goes, and the fifth person says it was twenty minutes \u2014 shorter and surer, with nobody having lied anywhere along the line.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "62df4eea1ee7b538ad1efc28865706845d1d14fb957decf0cd946398748c8de4"
+}

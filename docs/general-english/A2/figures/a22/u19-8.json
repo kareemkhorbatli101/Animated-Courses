@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask who it was",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    370.9,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask where",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    299.5,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say you know the one",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    481.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask why they mentioned you",
+   "size": 24,
+   "bbox": [
+    138.0,
+    319.3,
+    527.6,
+    340.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 telling",
+   "size": 34,
+   "bbox": [
+    916.4,
+    58.2,
+    1223.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "name the person by",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1153.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what they do",
+   "size": 28,
+   "bbox": [
+    838.0,
+    182.9,
+    1045.4,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "narrow it with one more detail",
+   "size": 22,
+   "bbox": [
+    838.0,
+    238.8,
+    1216.6,
+    258.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wait to be recognised",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1180.6,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the reason last",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    1152.5,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: ask who it was, ask where, say you know the one, ask why they mentioned you. Card B, telling: name the person by what they do, narrow it with one more detail, wait to be recognised, give the reason last.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "acbffb5fcfb54824c5e53c3271a11f0af70e66b451372143357007bd83e5bd44"
+}

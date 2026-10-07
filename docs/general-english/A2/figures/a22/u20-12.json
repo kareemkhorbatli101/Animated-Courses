@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "She said to tell you she can\u2019t come.",
+   "size": 26,
+   "bbox": [
+    98.3,
+    61.5,
+    621.7,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "passing on a message you were given",
+   "size": 22,
+   "bbox": [
+    869.4,
+    64.6,
+    1340.6,
+    84.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Apparently there was a van.",
+   "size": 28,
+   "bbox": [
+    136.6,
+    175.7,
+    583.4,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "passing it on without standing behind it",
+   "size": 22,
+   "bbox": [
+    856.0,
+    179.6,
+    1354.0,
+    199.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Don\u2019t say I told you.",
+   "size": 28,
+   "bbox": [
+    200.4,
+    290.7,
+    519.6,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking to be left out of it",
+   "size": 28,
+   "bbox": [
+    907.5,
+    290.7,
+    1302.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I\u2019ll ask her and let you know.",
+   "size": 28,
+   "bbox": [
+    131.8,
+    405.7,
+    588.2,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "refusing to guess, and",
+   "size": 28,
+   "bbox": [
+    927.6,
+    388.7,
+    1282.4,
+    413.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "promising to find out",
+   "size": 28,
+   "bbox": [
+    938.4,
+    422.7,
+    1271.6,
+    447.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things people say when they pass on a message, each with an arrow to what it does: passing on a message you were given to pass on, passing something on without standing behind it, asking to be left out of it, and refusing to guess while promising to find out.",
+ "placed_in": [
+  6.270833333333333,
+  2.15625
+ ],
+ "sha256": "300260665174816150367a884394e420d46154e109c2f5511995db161725a41b"
+}

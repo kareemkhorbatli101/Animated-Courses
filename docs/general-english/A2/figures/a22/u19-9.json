@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "a new face",
+   "size": 30,
+   "bbox": [
+    78.6,
+    269.5,
+    260.6,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a description",
+   "size": 26,
+   "bbox": [
+    348.9,
+    271.8,
+    540.7,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the street",
+   "size": 30,
+   "bbox": [
+    635.7,
+    234.5,
+    804.3,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "uses it",
+   "size": 30,
+   "bbox": [
+    663.8,
+    269.5,
+    776.2,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it sticks",
+   "size": 30,
+   "bbox": [
+    928.6,
+    269.5,
+    1061.8,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the name is",
+   "size": 24,
+   "bbox": [
+    1191.1,
+    244.4,
+    1349.7,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "never learned",
+   "size": 24,
+   "bbox": [
+    1176.1,
+    273.4,
+    1364.7,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "How a street holds a person it has not been introduced to, in five stages with an arrow to the next: a new face arrives, a description is made of them, the street uses the description, the description sticks, and the name is never learned at all.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "da9fa50b4611b0276ea1751b880e65c624e2780761d65358dd4b963c921cff8c"
+}

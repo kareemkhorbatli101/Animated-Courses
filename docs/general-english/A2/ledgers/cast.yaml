@@ -49,6 +49,11 @@ people:
       - will put her books on the top shelf if the water comes up, and says she
         will be the one to wake Dani (U18)
       - moved her books off the floor once and felt silly on the Monday (U18)
+      - the street describes her as the one who carries books, in both
+        directions (U19)
+      - takes in the letters for the man who cleans Mill Lane, and so knows
+        his name is Mr Hall; has not corrected Amina, who has called him the
+        caretaker for nine years (U19)
     first_unit: 1
   Tomas:
     full: Tomas Nilsen
@@ -75,6 +80,7 @@ people:
       - sews because the hospital taught him, and the hospital is strict about it (U17)
       - the hospital rings everybody when the roads are bad, and rings the next
         name if he does not answer; he always answers (U18)
+      - the street describes him as the one who works nights (U19)
     first_unit: 1
   Amina:
     full: Amina Chaudhry
@@ -109,6 +115,11 @@ people:
       - knows who in the building makes and who buys (U17)
       - lost a freezer when the water came up in the spring, and will move the
         new one first; the list is in her head and has four things on it (U18)
+      - knows which bus is late from who comes in for a paper, after nine
+        years of it (U19)
+      - calls the man who cleans Mill Lane the caretaker, and has for nine
+        years (U19)
+      - buys her potatoes from the same farmer at the market (U19)
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -140,6 +151,9 @@ people:
       - has made nothing, and has cooked one meal for eight people, badly (U17)
       - will sleep through a flood unless somebody wakes him (U18)
       - ate the chocolate out of the emergency bag once and replaced it (U18)
+      - the street describes him as the boy whose cooking you can smell on the
+        stairs (U19)
+      - has a brother who is an athlete and runs before it is light (U19)
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -174,6 +188,10 @@ people:
       - has bought almost nothing in forty years (U17)
       - will do nothing at all if the water comes up, and has been right twice (U18)
       - questioned the bag by the door and then put his keys in it (U18)
+      - the street describes him as the man who watches from the fourth floor
+        and says one thing a month (U19)
+      - says the woman in flat 1 is the only person in the building who has
+        never asked him anything, and says it as praise (U19)
     first_unit: 1
     ages_also: [71]
   Yuki:
@@ -203,6 +221,11 @@ people:
       - put a bag by the front door in April, on a Saturday, telling nobody
         first; it holds a lamp, six telephone numbers, two sets of spare keys
         and a bar of chocolate (U18)
+      - the street describes her as the one who knows everybody's name, which
+        is the only one of the six descriptions nobody chose for themselves
+        (U19)
+      - has written the woman in flat 1 a note twice and posted neither; she
+        keeps both notes in her notebook (U19)
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
@@ -224,9 +247,11 @@ walk_ons:
   - {name: the rebuilders of Warsaw, unit: 16, country: Poland}
   - {name: the NEWater plants, unit: 17, country: Singapore}
   - {name: the September earthquake drill, unit: 18, country: Mexico}
+  - {name: the kente weavers of Bonwire, unit: 19, country: Ghana}
 
 places:
   - Alder Street
+  - Mill Lane
   - the corner shop
   - the city hospital
   - the bookshop

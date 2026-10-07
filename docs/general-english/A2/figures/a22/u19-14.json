@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  433
+ ],
+ "bounds": [
+  57,
+  21.5,
+  1383,
+  411.4
+ ],
+ "texts": [
+  {
+   "text": "I can describe a person by what they do",
+   "size": 28,
+   "bbox": [
+    156,
+    46.2,
+    788.4,
+    70.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use who, which, that and where correctly",
+   "size": 28,
+   "bbox": [
+    156,
+    126.1,
+    896.0,
+    150.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can point somebody out to somebody else",
+   "size": 28,
+   "bbox": [
+    156,
+    206.1,
+    845.0,
+    230.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can describe a person in 50\u201370 words without using a name",
+   "size": 28,
+   "bbox": [
+    156,
+    286.1,
+    1121.9,
+    310.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can correct somebody about a name without a quarrel",
+   "size": 28,
+   "bbox": [
+    156,
+    366.1,
+    1036.4,
+    390.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "PLUS",
+   "size": 22,
+   "bbox": [
+    1266.9,
+    370.1,
+    1330.0,
+    390.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each, the last one marked Plus.",
+ "placed_in": [
+  6.270833333333333,
+  1.8854166666666667
+ ],
+ "sha256": "bcd0d735bcaaf8fc2195bc8a36378034f36fe82daad09080d0df0bddf852fe6d"
+}

@@ -98,27 +98,27 @@ FIGURES = {
             'and the name is never learned at all.'),
 
  10: lambda: F.world_strip(
-        [('Mill Lane', 'plaque', 'no mill; a family called Mill paid for the paving'),
-         ('A Birmingham suburb', 'home', 'the daughters of the man who built them, then cousins'),
-         ('Forty streets', 'plaque', 'one woman who ran a school, and one pamphlet')],
+        [('Mill Lane', 'plaque', 'no mill; a family called Mill paid for the road'),
+         ('Half of one city', 'home', 'the daughters of the man who built them, then cousins'),
+         ('Forty streets', 'plaque', 'one woman who ran a school, and one small book')],
         height=460,
         alt='Three places named after a person: Mill Lane, which has no mill and is '
-            'named after a family called Mill who paid for the paving; a Birmingham '
-            'suburb whose roads carry the names of the daughters of the man who '
-            'built them, and then his cousins, because there were only eleven '
-            'daughters; and about forty streets across England named after one '
-            'woman who ran a school for the deaf, each chosen by a council that had '
-            'read the same pamphlet.'),
+            'named after a family called Mill who paid for the road; half of one '
+            'city whose roads carry the names of the daughters of the man who built '
+            'them, and then his cousins, because there were only eleven daughters; '
+            'and about forty streets across England named after one woman who ran a '
+            'school for children who could not hear, each chosen by a town office '
+            'that had read the same small book.'),
 
  11: lambda: F.writing_frame(
         [('The person', 'There is a man who walks a dog past my window.'),
          ('What they did', 'He is the person who told me which bin day it was.'),
          ('How long', 'I have lived here four years.'),
-         ('What has never happened', 'I have never had a conversation with him.')],
+         ('What never happens', 'I have never had a conversation with him.')],
         height=520,
         alt='The shape of the piece the learner is about to write, in four steps: '
             'the person, described by what they do; one thing they did; how long you '
-            'have been there; and the thing that has never happened.'),
+            'have been there; and the thing that never happens.'),
 
  12: lambda: F.function_map(
         [('The one with the red bag.', 'narrowing it by what you can see now'),
@@ -132,14 +132,14 @@ FIGURES = {
             'wrong guess without explaining it.'),
 
  13: lambda: F.before_after(
-        ('On the loom', ['narrow strips', 'planned before the first thread',
-                         'a pattern that repeats'], 'loom'),
-        ('On the cloth', ['sewn edge to edge', 'a name for every pattern',
+        ('On the loom', ['thin strips', 'planned before the first thread',
+                         'lines that repeat'], 'loom'),
+        ('On the cloth', ['sewn side by side', 'a name for every pattern',
                           'a sentence said by the cloth'], 'cloth'),
         height=520,
         alt='A pattern on a loom beside the cloth it becomes. On the loom: narrow '
             'strips, woven on a frame a man sits inside, planned before the first '
-            'thread goes on. On the cloth: the strips sewn edge to edge, a name for '
+            'thread goes on. On the cloth: the strips sewn side by side, a name for '
             'every pattern, and a cloth that says something when it is worn.'),
 
  14: lambda: F.progress_strip(

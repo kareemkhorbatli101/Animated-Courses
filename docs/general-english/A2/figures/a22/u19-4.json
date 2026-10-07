@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   203.2,
+   167.0,
+   846,
+   45.3
+  ],
+  [
+   312.0,
+   211.7,
+   846,
+   155.3
+  ],
+  [
+   420.8,
+   256.3,
+   846,
+   265.3
+  ],
+  [
+   529.6,
+   301.0,
+   846,
+   375.3
+  ],
+  [
+   632.0,
+   343.3,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Five pairs of boxes stepping down to the right, each pair joined by one link. The link shows what kind of thing the joining word takes: a filled circle for a person, a square for a thing, a circle and a square together for the word that takes either, a flat bar for a place, and a circle with a hook for the one that marks belonging. Five numbered lines run to the right for the learner to write each joining word.",
+ "placed_in": [
+  6.270833333333333,
+  2.3125
+ ],
+ "sha256": "cdced5f3c6b5719be6cb134a5e57c9b543c67d3d983a1bfcd98ea54bbf927855"
+}
