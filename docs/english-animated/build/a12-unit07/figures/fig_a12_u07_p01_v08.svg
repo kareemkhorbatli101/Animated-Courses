@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Four rules, four authors</title>
+<desc>Four rules on the train joined to who made each one - the government, the company, the crew and nobody - with labels showing the consequence of breaking each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="300" y1="200" x2="800" y2="120" stroke="#A8372E" stroke-width="6" stroke-linecap="round"/>
+<line x1="800" y1="120" x2="800" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="260" y1="600" x2="800" y2="400" stroke="#C86B2B" stroke-width="5" stroke-linecap="round"/>
+<line x1="1240" y1="200" x2="800" y2="400" stroke="#2E6F5E" stroke-width="5" stroke-linecap="round"/>
+<line x1="1300" y1="600" x2="800" y2="700" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="800" y1="700" x2="800" y2="400" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+</g>
+<g id="20_subject">
+<circle cx="800" cy="400" r="56" fill="#FFFFFF" stroke="#1C2B33" stroke-width="3"/>
+<text x="800" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">V</text>
+<text x="800" y="482" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the vestibule</text>
+<text x="800" y="502" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">1.5 metres square</text>
+<circle cx="300" cy="200" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="300" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">G</text>
+<text x="300" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the government</text>
+<text x="300" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the law</text>
+<circle cx="260" cy="600" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="260" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">C</text>
+<text x="260" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the company</text>
+<text x="260" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the rules</text>
+<circle cx="1240" cy="200" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1240" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">K</text>
+<text x="1240" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the crew</text>
+<text x="1240" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what is actually done</text>
+<circle cx="1300" cy="600" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="1300" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">—</text>
+<text x="1300" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">nobody</text>
+<text x="1300" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and everybody follows it</text>
+<circle cx="800" cy="120" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="800" y="125" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="800" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">do not open the door</text>
+<text x="800" y="212" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">while moving</text>
+<circle cx="800" cy="700" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="800" y="705" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="800" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">stand on the right</text>
+<text x="800" y="792" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">nobody wrote this</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four rules, four authors</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each line carries what happens if you break it. Two of the lines end in nothing at all.</text>
+<rect x="492.0" y="145.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="550.0" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">illegal · a fine of $500</text>
+<rect x="742.0" y="245.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="800.0" y="264.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sign 1, printed 2011</text>
+<rect x="472.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="530.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">sign 2 and 3 · an email could change them</text>
+<rect x="962.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1020.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">checked every trip · and that is a rule too</text>
+<rect x="992.0" y="635.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1050.0" y="654.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">no sign, no penalty, no exceptions</text>
+<rect x="742.0" y="535.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="800.0" y="554.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and everybody does it</text>
+</g>
+</svg>

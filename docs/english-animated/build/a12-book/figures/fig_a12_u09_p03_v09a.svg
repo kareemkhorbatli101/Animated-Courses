@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>Three futures, three starting points</title>
+<desc>A timeline with three arrows, each beginning at a different point: will at the moment of speaking, going to earlier at the decision or the evidence, and the present continuous earlier still at the arrangement.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="590" x2="1380" y2="590" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,590 1364,582 1364,598" fill="#1C2B33"/>
+<line x1="843.2" y1="430" x2="843.2" y2="624" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="843.2" y="648" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<line x1="843.2" y1="536" x2="1258.0" y2="536" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="2 7"/>
+<polygon points="1258.0,536 1245.0,529 1245.0,543" fill="#8C6A9E"/>
+<line x1="526.0" y1="428" x2="1258.0" y2="428" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="1258.0" y1="406" x2="1258.0" y2="450" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<line x1="257.6" y1="320" x2="1258.0" y2="320" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="1258.0" y1="298" x2="1258.0" y2="342" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three futures, three starting points</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The arrow starts where the decision was made, not where the thing happens.</text>
+<text x="843.2" y="488" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="600" font-style="normal">WILL</text>
+<text x="843.2" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'll tell them. -- decided as the words leave your mouth</text>
+<text x="526.0" y="380" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">BE GOING TO</text>
+<text x="526.0" y="402" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I'm going to check at four. -- decided this morning, or the sky says so</text>
+<text x="257.6" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">PRESENT CONTINUOUS</text>
+<text x="257.6" y="294" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">We're leaving at six. -- arranged, and other people were told</text>
+</g>
+</svg>

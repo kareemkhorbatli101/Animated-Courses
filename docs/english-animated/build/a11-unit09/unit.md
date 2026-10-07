@@ -86,7 +86,7 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which, and why?**
 
-> corner · left · square · opposite · station · behind · right · between · hill · church
+> hill · left · right · station · behind · square · between · church · opposite · corner
 
 | **A PLACE** | **A DIRECTION** | **BOTH** |
 |---|---|---|
@@ -426,12 +426,12 @@ The reading says one in four never arrives.
 
 Six items. ***on***, ***in*** or ***at***?
 
-1. ______ Monday
-2. ______ the morning
-3. ______ six o'clock
-4. ______ night
-5. ______ the first of May
-6. ______ the weekend
+1. ______ the first of May
+2. ______ six o'clock
+3. ______ Monday
+4. ______ the weekend
+5. ______ the morning
+6. ______ night
 
 ---
 

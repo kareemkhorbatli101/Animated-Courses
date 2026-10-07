@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Which word you push</title>
+<desc>One sentence drawn five times as circles with a different circle enlarged each time, and the question each version answers beside it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<circle cx="240" cy="144" r="16" fill="#1F4E5F"/>
+<text x="240" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">THAT'S</text>
+<circle cx="358" cy="144" r="8" fill="#9AA7AE"/>
+<text x="358" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<circle cx="476" cy="144" r="8" fill="#9AA7AE"/>
+<text x="476" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">best</text>
+<circle cx="594" cy="144" r="8" fill="#9AA7AE"/>
+<text x="594" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">part</text>
+<circle cx="240" cy="232" r="8" fill="#9AA7AE"/>
+<text x="240" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">that's</text>
+<circle cx="358" cy="232" r="16" fill="#1F4E5F"/>
+<text x="358" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">THE</text>
+<circle cx="476" cy="232" r="8" fill="#9AA7AE"/>
+<text x="476" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">best</text>
+<circle cx="594" cy="232" r="8" fill="#9AA7AE"/>
+<text x="594" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">part</text>
+<circle cx="240" cy="320" r="8" fill="#9AA7AE"/>
+<text x="240" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">that's</text>
+<circle cx="358" cy="320" r="8" fill="#9AA7AE"/>
+<text x="358" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<circle cx="476" cy="320" r="16" fill="#1F4E5F"/>
+<text x="476" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">BEST</text>
+<circle cx="594" cy="320" r="8" fill="#9AA7AE"/>
+<text x="594" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">part</text>
+<circle cx="240" cy="408" r="8" fill="#9AA7AE"/>
+<text x="240" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">that's</text>
+<circle cx="358" cy="408" r="8" fill="#9AA7AE"/>
+<text x="358" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<circle cx="476" cy="408" r="8" fill="#9AA7AE"/>
+<text x="476" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">best</text>
+<circle cx="594" cy="408" r="16" fill="#1F4E5F"/>
+<text x="594" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">PART</text>
+<circle cx="240" cy="496" r="8" fill="#9AA7AE"/>
+<text x="240" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it's</text>
+<circle cx="358" cy="496" r="8" fill="#9AA7AE"/>
+<text x="358" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a</text>
+<circle cx="476" cy="496" r="16" fill="#1F4E5F"/>
+<text x="476" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">TRUE</text>
+<circle cx="594" cy="496" r="8" fill="#9AA7AE"/>
+<text x="594" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">sto-ry</text>
+<circle cx="240" cy="584" r="8" fill="#9AA7AE"/>
+<text x="240" y="630" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it's</text>
+<circle cx="358" cy="584" r="8" fill="#9AA7AE"/>
+<text x="358" y="630" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a</text>
+<circle cx="476" cy="584" r="8" fill="#9AA7AE"/>
+<text x="476" y="630" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">true</text>
+<circle cx="594" cy="584" r="16" fill="#1F4E5F"/>
+<text x="594" y="630" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">STO-ry</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Which word you push</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same four words, five times. Each push answers a different question.</text>
+<text x="1340" y="170" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">not the other bit - this bit</text>
+<text x="1340" y="258" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">the one and only best part</text>
+<text x="1340" y="346" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">not just good. Best</text>
+<text x="1340" y="434" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">and there is more of it coming</text>
+<text x="1340" y="522" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">you are defending it against doubt</text>
+<text x="1340" y="610" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">a story, not a report</text>
+</g>
+</svg>

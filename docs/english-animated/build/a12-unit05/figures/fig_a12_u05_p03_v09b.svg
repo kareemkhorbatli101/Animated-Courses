@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660">
+<title>Why don't you, taken apart</title>
+<desc>A sentence drawn as words with brackets marking the question shape above and the meaning below, showing that the expected reply is not an explanation.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="247.14285714285714" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Why</text>
+<text x="421.42857142857144" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">don't</text>
+<text x="595.7142857142857" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">you</text>
+<text x="770.0" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">see</text>
+<text x="944.2857142857142" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">a</text>
+<text x="1118.5714285714284" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">doctor</text>
+<text x="1292.857142857143" y="330.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">?</text>
+<path d="M 166.0 364.0 L 166.0 378.0 L 676.8571428571429 378.0 L 676.8571428571429 364.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 688.8571428571429 364.0 L 688.8571428571429 378.0 L 1374.0 378.0 L 1374.0 364.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 166.0 416.0 L 166.0 430.0 L 1374.0 430.0 L 1374.0 416.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Why don't you, taken apart</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">A negative question in form. A suggestion in meaning. The answer is not a reason.</text>
+<text x="421.42857142857144" y="402.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">the FORM: a negative question, as if asking for a reason</text>
+<text x="1031.4285714285716" y="402.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the VERB: plain, as after should and can</text>
+<text x="770.0" y="454.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">the MEANING: a suggestion. The expected answer is yes or no, never because.</text>
+</g>
+</svg>

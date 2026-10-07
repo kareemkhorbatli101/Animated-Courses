@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>One job, nine things it needs</title>
+<desc>One job at the centre joined to nine things it actually requires, with each line labelled by where that skill is learned.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="300" y1="180" x2="800" y2="400" stroke="#C86B2B" stroke-width="5" stroke-linecap="round"/>
+<line x1="220" y1="440" x2="800" y2="400" stroke="#2E6F5E" stroke-width="6" stroke-linecap="round"/>
+<line x1="330" y1="690" x2="800" y2="400" stroke="#C86B2B" stroke-width="5" stroke-linecap="round"/>
+<line x1="800" y1="730" x2="800" y2="400" stroke="#8C6A9E" stroke-width="5" stroke-linecap="round"/>
+<line x1="1280" y1="690" x2="800" y2="400" stroke="#8C6A9E" stroke-width="5" stroke-linecap="round"/>
+<line x1="1380" y1="430" x2="800" y2="400" stroke="#2E6F5E" stroke-width="4" stroke-linecap="round"/>
+<line x1="1260" y1="180" x2="800" y2="400" stroke="#D9A441" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 6"/>
+</g>
+<g id="20_subject">
+<circle cx="800" cy="400" r="58" fill="#FFFFFF" stroke="#1C2B33" stroke-width="3"/>
+<text x="800" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">J</text>
+<text x="800" y="484" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the job</text>
+<text x="800" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">sleeping-car attendant</text>
+<circle cx="300" cy="180" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="300" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="300" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">speak to a frightened person</text>
+<text x="300" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned anywhere</text>
+<circle cx="220" cy="440" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="220" y="445" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="220" y="512" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">nine hours standing</text>
+<text x="220" y="532" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned here</text>
+<circle cx="330" cy="690" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="330" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="330" y="762" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">decide alone at 03.00</text>
+<text x="330" y="782" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned anywhere</text>
+<circle cx="800" cy="730" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="800" y="735" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="800" y="802" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">work in a second language</text>
+<text x="800" y="822" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned elsewhere</text>
+<circle cx="1280" cy="690" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1280" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1280" y="762" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">run a kitchen alone</text>
+<text x="1280" y="782" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned elsewhere</text>
+<circle cx="1380" cy="430" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="1380" y="435" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1380" y="502" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the paperwork</text>
+<text x="1380" y="522" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned here</text>
+<circle cx="1260" cy="180" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1260" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">7</text>
+<text x="1260" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">carry on in year nineteen</text>
+<text x="1260" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">learned nowhere</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One job, nine things it needs</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each line says where that skill is learned. Only two of the nine are learned on this job.</text>
+<rect x="492.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="550.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a hospital, a bar, a family</text>
+<rect x="452.0" y="405.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="510.0" y="424.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">here, and it takes about four months</text>
+<rect x="507.0" y="530.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="565.0" y="549.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">anywhere nobody was watching</text>
+<rect x="742.0" y="550.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="800.0" y="569.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">before you arrived</text>
+<rect x="982.0" y="530.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1040.0" y="549.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">eleven weeks when the chef left</text>
+<rect x="1032.0" y="400.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1090.0" y="419.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">here, in about three weeks</text>
+<rect x="972.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1030.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">nobody teaches this and the form cannot see it</text>
+</g>
+</svg>

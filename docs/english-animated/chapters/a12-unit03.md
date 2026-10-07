@@ -88,7 +88,7 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which two, and why?**
 
-> metal · cheap · plastic · quality · wood · strong · cloth · price · new · weak
+> metal · plastic · weak · cloth · quality · cheap · new · price · strong · wood
 
 | **WHAT IT IS MADE OF** | **WHAT YOU THINK OF IT** | **BOTH** |
 |---|---|---|
@@ -159,7 +159,7 @@ Do not write your name. The class guesses whose things they are.
 **Listen again. True or false?**
 
 1. The synthetic cover is cheaper. ☐ T ☐ F
-2. The cloth cover lasts longer. ☐ T ☐ F
+2. The cloth cover is the cheaper of the two. ☐ T ☐ F
 3. The synthetic one can be repaired. ☐ T ☐ F
 4. They cost the same over ten years. ☐ T ☐ F
 
@@ -424,12 +424,12 @@ The comparison sheet says synthetic saves thirty thousand dollars.
 
 Six items. ***-er*** or ***more***?
 
-1. cheap → ______
-2. expensive → ______
-3. strong → ______
-4. difficult → ______
-5. heavy → ______
-6. useful → ______
+1. heavy → ______
+2. useful → ______
+3. difficult → ______
+4. expensive → ______
+5. cheap → ______
+6. strong → ______
 
 ---
 

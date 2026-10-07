@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>Inside the rule, or outside it</title>
+<desc>Two sentence diagrams, the first with must and the speaker inside the rule, the second with have to and an arrow arriving from outside the page.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="164.8" height="52" rx="5" fill="#C86B2B"/>
+<text x="242.4" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<rect x="330.8" y="144" width="213.6" height="52" rx="5" fill="#1F4E5F"/>
+<text x="437.6" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">must</text>
+<rect x="550.4" y="144" width="482.0" height="52" rx="5" fill="#2E6F5E"/>
+<text x="791.4" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">get more sleep</text>
+<rect x="1038.4" y="144" width="335.6" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1206.2" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">nobody told me this</text>
+<rect x="160" y="344" width="164.8" height="52" rx="5" fill="#C86B2B"/>
+<text x="242.4" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<rect x="330.8" y="344" width="262.4" height="52" rx="5" fill="#1F4E5F"/>
+<text x="462.0" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">have to</text>
+<rect x="599.2" y="344" width="408.8" height="52" rx="5" fill="#2E6F5E"/>
+<text x="803.6" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">wear a helmet</text>
+<rect x="1014.0" y="344" width="360.0" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1194.0" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">somebody else decided</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Inside the rule, or outside it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The grammar is nearly identical. Who is making the rule is not.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">MUST - the speaker</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">HAVE TO - the world</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same obligation, different author</text>
+<rect x="160" y="562.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="589.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Have to behaves like an ordinary verb: he HAS to, did you HAVE to, I HAD to. Must has no</text>
+<text x="184" y="611.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">past and no s, so had to does the past for both of them.</text>
+</g>
+</svg>

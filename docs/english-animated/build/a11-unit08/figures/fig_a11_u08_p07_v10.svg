@@ -68,9 +68,11 @@
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The words that shrink</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Written at full length above, said at half length below. The shaded letters are not heard.</text>
-<text x="1370" y="150" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">two words, one beat</text>
-<text x="1370" y="236" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">is becomes a z on the end of she</text>
-<text x="1370" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">are disappears into one r</text>
-<text x="1370" y="408" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">four words, two beats, no g at the end</text>
+<text x="1360" y="144.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">two words, one beat</text>
+<text x="1360" y="230.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">is becomes a z on the end</text>
+<text x="1360" y="248.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">of she</text>
+<text x="1360" y="316.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">are disappears into one r</text>
+<text x="1360" y="402.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">four words, two beats, no</text>
+<text x="1360" y="420.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">g at the end</text>
 </g>
 </svg>

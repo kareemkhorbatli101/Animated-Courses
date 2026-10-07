@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The words that hold a story together</title>
+<desc>A timeline with the sequence words first, then, next, after that and finally placed in order, suddenly marked above the line as an interruption, and while drawn as a bracket over two simultaneous events.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="570" x2="1380" y2="570" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,570 1364,562 1364,578" fill="#1C2B33"/>
+<line x1="1306.8" y1="410" x2="1306.8" y2="604" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1306.8" y="628" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<circle cx="208.8" cy="516" r="11" fill="#1F4E5F"/>
+<line x1="208.8" y1="516" x2="208.8" y2="570" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="452.8" cy="516" r="11" fill="#1F4E5F"/>
+<line x1="452.8" y1="516" x2="452.8" y2="570" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="696.8" cy="516" r="11" fill="#1F4E5F"/>
+<line x1="696.8" y1="516" x2="696.8" y2="570" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="916.4" cy="516" r="11" fill="#1F4E5F"/>
+<line x1="916.4" y1="516" x2="916.4" y2="570" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1209.2" cy="516" r="11" fill="#1F4E5F"/>
+<line x1="1209.2" y1="516" x2="1209.2" y2="570" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="355.20000000000005" cy="354" r="11" fill="#1F4E5F"/>
+<line x1="355.20000000000005" y1="354" x2="355.20000000000005" y2="570" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 696.8 388 Q 867.6 366 1038.4 388" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 696.8 428 Q 867.6 450 1038.4 428" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="696.8" y1="388" x2="696.8" y2="428" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="1038.4" y1="388" x2="1038.4" y2="428" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The words that hold a story together</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five on the line, one above it, and one drawn as a bracket over two things at once.</text>
+<text x="208.8" y="464" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">first</text>
+<text x="208.8" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">We left at eleven</text>
+<text x="452.8" y="464" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">then</text>
+<text x="452.8" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the dining car closed</text>
+<text x="696.8" y="464" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">next</text>
+<text x="696.8" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I went to the kitchen</text>
+<text x="916.4" y="464" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">after that</text>
+<text x="916.4" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">Ruth got up</text>
+<text x="1209.2" y="464" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">finally</text>
+<text x="1209.2" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">Nadia made the announcement</text>
+<text x="355.20000000000005" y="302" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">SUDDENLY</text>
+<text x="355.20000000000005" y="324" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">nobody planned this one</text>
+<text x="696.8" y="326" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">WHILE</text>
+<text x="696.8" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">two things at once, and the long one takes while</text>
+</g>
+</svg>

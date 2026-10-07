@@ -87,7 +87,7 @@ Write each word under the right picture.
 
 Put each word in the right box. **One of them belongs in both. Which, and why?**
 
-> desk · homework · pen · paper · chair · exercise · notebook · word · page · answer
+> page · pen · word · notebook · desk · homework · chair · exercise · paper · answer
 
 | **YOU CAN COUNT IT** | **YOU CANNOT COUNT IT** | **BOTH** |
 |---|---|---|
@@ -157,7 +157,7 @@ Do not write your name. The class guesses whose bag it is.
 
 1. There are eleven chairs in the room. ☐ T ☐ F
 2. There aren't any pencils. ☐ T ☐ F
-3. There is a lot of paper. ☐ T ☐ F
+3. There are twelve desks. ☐ T ☐ F
 4. There are some notebooks, but not enough. ☐ T ☐ F
 
 **Noticing.** Four sentences from the recording.
@@ -425,11 +425,11 @@ The text in 5B says there are four.
 
 Six items. ***is*** or ***are***?
 
-1. There ______ a lot of paper in the cupboard.
+1. There ______ one dictionary.
 2. There ______ eleven desks.
-3. There ______ some water in the bottle.
-4. There ______ three children in the corridor.
-5. There ______ one dictionary.
+3. There ______ three children in the corridor.
+4. There ______ some water in the bottle.
+5. There ______ a lot of paper in the cupboard.
 6. There ______ two shelves and both of them are empty.
 
 ---

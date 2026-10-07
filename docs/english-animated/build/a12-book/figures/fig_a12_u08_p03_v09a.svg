@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>A band with no dot in it</title>
+<desc>A timeline with the whole of a life shaded as one band with no point marked, beside a second timeline with a single dot labelled last Tuesday.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="530" x2="1380" y2="530" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,530 1364,522 1364,538" fill="#1C2B33"/>
+<line x1="1258.0" y1="370" x2="1258.0" y2="564" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1258.0" y="588" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<line x1="208.8" y1="314" x2="1258.0" y2="314" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="208.8" cy="314" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="1258.0" cy="314" r="7" fill="#1F4E5F"/>
+<circle cx="794.4" cy="476" r="11" fill="#1F4E5F"/>
+<line x1="794.4" y1="476" x2="794.4" y2="530" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A band with no dot in it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The present perfect shades your whole life. The past simple puts a dot in it.</text>
+<text x="208.8" y="266" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">PRESENT PERFECT - somewhere in all of this</text>
+<text x="208.8" y="288" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I have worked abroad. She has done this for 23 years.</text>
+<text x="794.4" y="424" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">PAST SIMPLE - here, on this day</text>
+<text x="794.4" y="446" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I worked there last year. She started in 2002.</text>
+</g>
+</svg>

@@ -87,7 +87,7 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which, and why?**
 
-> bread · egg · milk · apple · rice · tomato · water · chicken · cheese · fish
+> chicken · water · cheese · apple · tomato · fish · milk · rice · egg · bread
 
 | **ONE, TWO, THREE** | **YOU CANNOT COUNT IT** | **BOTH** |
 |---|---|---|
@@ -427,10 +427,10 @@ Six items. ***much*** or ***many***?
 
 1. How ______ eggs do you want?
 2. How ______ bread is there?
-3. How ______ bottles are there?
-4. How ______ water do we need?
-5. How ______ is a kilo of rice?
-6. How ______ apples are in the box?
+3. How ______ apples are in the box?
+4. How ______ is a kilo of rice?
+5. How ______ bottles are there?
+6. How ______ water do we need?
 
 ---
 

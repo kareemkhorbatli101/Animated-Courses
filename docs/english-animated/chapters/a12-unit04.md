@@ -89,7 +89,8 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which two, and why?**
 
-> mother · married · cousin · together · aunt · alone · brother · family · daughter · husband
+> cousin · alone · mother · husband · married · brother · family · aunt · daughter ·
+> together
 
 | **A PERSON** | **A SITUATION** | **BOTH** |
 |---|---|---|
@@ -430,10 +431,10 @@ The web page describes an offer for families.
 Six items. ***my*** or ***mine***?
 
 1. That bag isn't ______ .
-2. ______ sister lives in Jasper.
-3. Is this coat ______ ?
+2. The blue one is ______ .
+3. ______ sister lives in Jasper.
 4. ______ seat is 14.
-5. The blue one is ______ .
+5. Is this coat ______ ?
 6. ______ aunt brought me up.
 
 ---

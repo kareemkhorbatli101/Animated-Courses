@@ -87,7 +87,8 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which, and why?**
 
-> nurse · kitchen · driver · office · cook · hospital · cleaner · factory · manager · school
+> hospital · kitchen · cook · nurse · office · factory · cleaner · manager · school ·
+> driver
 
 | **A PERSON** | **A PLACE** | **BOTH** |
 |---|---|---|
@@ -430,12 +431,12 @@ Say one sentence.
 
 Six items. Present ***simple*** or present ***continuous***?
 
-1. She ______ the floor every evening. *(clean)*
-2. Look — she ______ the floor now. *(clean)*
-3. He ______ coffee about forty times a morning. *(make)*
-4. He ______ coffee at this moment. *(make)*
-5. They ______ customers all day on Saturday. *(serve)*
-6. Listen — somebody ______ the phone. *(answer)*
+1. He ______ coffee at this moment. *(make)*
+2. They ______ customers all day on Saturday. *(serve)*
+3. Listen — somebody ______ the phone. *(answer)*
+4. He ______ coffee about forty times a morning. *(make)*
+5. She ______ the floor every evening. *(clean)*
+6. Look — she ______ the floor now. *(clean)*
 
 ---
 

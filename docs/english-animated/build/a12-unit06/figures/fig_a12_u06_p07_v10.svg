@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>The word that shrank to one sound</title>
+<desc>Six pronouns with will attached, written at full length and then as spoken, with the wi shaded out in each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="174" x2="1430" y2="174" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="260" x2="1430" y2="260" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="346" x2="1430" y2="346" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="432" x2="1430" y2="432" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="518" x2="1430" y2="518" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="604" x2="1430" y2="604" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">I will</text>
+<text x="760" y="150" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I</text>
+<text x="860" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="880" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="190" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">he will</text>
+<text x="760" y="236" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="860" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">e</text>
+<text x="880" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">e</text>
+<text x="900" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="920" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="190" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">it will</text>
+<text x="760" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal" opacity="0.22">i</text>
+<text x="860" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+<text x="880" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="900" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="190" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">they will</text>
+<text x="760" y="408" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+<text x="860" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="880" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">a</text>
+<text x="900" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">y</text>
+<text x="920" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="940" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="190" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">that will</text>
+<text x="760" y="494" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+<text x="860" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="880" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">a</text>
+<text x="900" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+<text x="920" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="940" y="494" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">l</text>
+<text x="190" y="580" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">will not</text>
+<text x="760" y="580" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="580" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">w</text>
+<text x="860" y="580" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">o</text>
+<text x="880" y="580" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="900" y="580" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal" opacity="0.22">n</text>
+<text x="920" y="580" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The word that shrank to one sound</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Written in full above, said below. In every one, the wi has gone.</text>
+<text x="1360" y="144.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">one sound left of a</text>
+<text x="1360" y="162.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">four-letter word</text>
+<text x="1360" y="230.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the l joins the pronoun</text>
+<text x="1360" y="316.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">two beats become one</text>
+<text x="1360" y="402.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">same again</text>
+<text x="1360" y="488.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">and this one too</text>
+<text x="1360" y="574.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the only one that changes</text>
+<text x="1360" y="592.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the vowel instead</text>
+</g>
+</svg>

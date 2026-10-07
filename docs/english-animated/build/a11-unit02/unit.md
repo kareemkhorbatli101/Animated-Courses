@@ -88,7 +88,7 @@ Write each word under the right picture.
 
 Put each word in the right box. **One word can go in both. Which, and why?**
 
-> wash · tired · eat · hungry · sleep · happy · drink · thirsty · work · study
+> sleep · drink · happy · tired · wash · hungry · work · study · eat · thirsty
 
 | **YOU DO IT** | **YOU FEEL IT** | **BOTH** |
 |---|---|---|
@@ -430,11 +430,11 @@ The text says Dona Filipa starts at **five**.
 
 Six items. ***at***, ***on*** or ***in***?
 
-1. ______ six o'clock
+1. ______ night
 2. ______ Monday
-3. ______ the morning
-4. ______ night
-5. ______ Saturday afternoon
+3. ______ Saturday afternoon
+4. ______ six o'clock
+5. ______ the morning
 6. ______ half past eight
 
 ---

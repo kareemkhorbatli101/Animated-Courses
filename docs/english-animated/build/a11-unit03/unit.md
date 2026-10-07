@@ -83,13 +83,14 @@ Write each word under the right picture.
 *One phone, in section — Eleven things. Eleven words. Put each word on the right layer.*
 
 
-### 1C · Sort — a thing, or a thing you do?
+### 1C · Sort — where does it live?
 
-Put each word in the right box. **One of them can go in both. Which, and why?**
+Put each word in the right box. **Two of them are not things at all. Which two?**
 
-> photo · message · video · online · app · screen · camera · notification · map · internet
+> internet · message · photo · notification · map · camera · screen · app · video ·
+> online
 
-| **A THING** | **A THING YOU DO** | **BOTH** |
+| **YOU CAN TOUCH IT** | **IT IS ON THE SCREEN** | **NEITHER** |
 |---|---|---|
 | | | |
 
@@ -427,12 +428,12 @@ The report says the phone is picked up ninety-six times a day.
 
 Six items. ***do*** or ***does***?
 
-1. ______ she take photos?
-2. ______ they log in every day?
-3. How often ______ he charge the battery?
+1. Where ______ Teresa put her phone?
+2. How often ______ he charge the battery?
+3. Which app ______ your brother open first?
 4. ______ you turn off your phone?
-5. Which app ______ your brother open first?
-6. Where ______ Teresa put her phone?
+5. ______ she take photos?
+6. ______ they log in every day?
 
 ---
 

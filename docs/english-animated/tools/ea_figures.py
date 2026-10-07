@@ -704,7 +704,9 @@ def v9_grammar(spec):
             lab.append(text(x + pw / 2 - 3, sy + 62, p['role'], size=T_MICRO,
                             anchor='middle', fill=INK_SOFT))
             x += pw
-        lab.append(text(x0, sy + 108, spec.get('note', ''), size=T_LABEL, fill=INK, style='italic'))
+        if spec.get('note'):
+            lab.append(wrap(x0, sy + 108, spec['note'], size=T_LABEL, width=96, lh=1.45,
+                            fill=INK, style='italic')[0])
 
     elif kind == 'mirror':                         # active / passive, same event
         side_labels = spec.get('labels', ['ACTIVE', 'PASSIVE'])
@@ -789,7 +791,8 @@ def v10_phon(spec):
                                 opacity=0.22 if drop else 1.0,
                                 weight='400' if drop else '700', family=MONO))
                 x += 20
-            lab.append(text(W - 230, y, e['note'], size=T_CALLOUT, fill=INK_SOFT, style='italic'))
+            lab.append(wrap(W - 240, y - 6, e['note'], size=T_CALLOUT, width=26, lh=1.35,
+                            fill=INK_SOFT, style='italic')[0])
             ctx.append(line(170, y + 24, W - 170, y + 24, stroke=RULE, sw=1))
     elif kind == 'pitch':
         for i, c in enumerate(spec['contours']):
@@ -922,12 +925,25 @@ def v12_synth(spec):
                 lab.append(text(ex, y + 36, e['label'], size=T_MICRO, anchor='middle',
                                 fill=INK, weight='600'))
         elif t == 'bars':
+            # bars may be nested (a subset drawn over a total); keep the labels
+            # off each other by pushing a colliding one to the bar's right end
+            taken = []
             for e in b['items']:
                 ex = x0 + (x1 - x0) * e['from']
                 ez = x0 + (x1 - x0) * e['to']
                 sub.append(rect(ex, y + 36, max(6, ez - ex), 50,
                                 fill=e.get('colour', GREEN), rx=4, opacity=.9))
-                lab.append(text(ex + 10, y + 68, e['label'], size=T_MICRO, fill=WHITE, weight='700'))
+                w = len(str(e['label'])) * T_MICRO * 0.56
+                lx, anchor = ex + 10, 'start'
+                if any(lx < b2 and a2 < lx + w for a2, b2 in taken):
+                    lx, anchor = ez - 10, 'end'
+                    if any(lx - w < b2 and a2 < lx for a2, b2 in taken):
+                        lx, anchor = ez + 12, 'start'
+                a2 = lx if anchor == 'start' else lx - w
+                taken.append((a2, a2 + w))
+                lab.append(text(lx, y + 68, e['label'], size=T_MICRO,
+                                fill=WHITE if anchor != 'start' or lx < ez else INK,
+                                anchor=anchor, weight='700'))
         elif t == 'line':
             pts = b['points']
             lo, hi = min(p[1] for p in pts), max(p[1] for p in pts)

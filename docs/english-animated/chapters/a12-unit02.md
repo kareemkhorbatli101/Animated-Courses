@@ -89,7 +89,8 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which two, and why?**
 
-> platform · suitcase · timetable · backpack · aisle · luggage · window · ticket · shelter · seat
+> aisle · suitcase · shelter · platform · luggage · window · seat · backpack · timetable ·
+> ticket
 
 | **PART OF THE STATION OR TRAIN** | **SOMETHING YOU CARRY** | **BOTH** |
 |---|---|---|
@@ -162,7 +163,7 @@ went wrong. Do not write your name. The class guesses whose journey it is.
 1. She bought a return ticket. ☐ T ☐ F
 2. She didn't book in advance. ☐ T ☐ F
 3. She travelled last summer. ☐ T ☐ F
-4. Tom didn't know she was coming. ☐ T ☐ F
+4. She bought the ticket this morning. ☐ T ☐ F
 
 **Noticing.** Four sentences from the recording.
 
@@ -424,11 +425,11 @@ The timetable has four times crossed out and one printed line about winter.
 
 Six items. ***ago*** or ***last***?
 
-1. two days ______
-2. ______ night
-3. a long time ______
-4. ______ summer
-5. three years ______
+1. three years ______
+2. ______ summer
+3. ______ night
+4. a long time ______
+5. two days ______
 6. ______ week
 
 ---

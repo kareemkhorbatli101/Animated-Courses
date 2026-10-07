@@ -88,7 +88,7 @@ Write each word under the right picture.
 
 Put each word in the right box. **Two of them can go in both. Which two, and why?**
 
-> delay · lucky · shift · awful · crew · busy · report · calm · mistake · ticket
+> awful · calm · crew · lucky · ticket · report · shift · busy · delay · mistake
 
 | **PART OF THE JOB** | **HOW IT FELT** | **BOTH** |
 |---|---|---|
@@ -161,7 +161,7 @@ name. The class guesses whose day it is.
 
 1. The train left on time. ☐ T ☐ F
 2. Dev made an announcement. ☐ T ☐ F
-3. Nadia was asleep when it happened. ☐ T ☐ F
+3. The dining car closed at nine. ☐ T ☐ F
 4. Nobody complained. ☐ T ☐ F
 
 **Noticing.** Four sentences from the recording.
@@ -422,12 +422,12 @@ The log describes a four-hour delay and no incidents.
 
 Six items. ***while*** or ***when***?
 
-1. ______ the train stopped, everybody looked up.
+1. ______ the passengers were sleeping, the crew was working.
 2. ______ we were making sandwiches, Nadia made the announcement.
-3. ______ I arrived, the dining car was already closed.
-4. ______ Ruth was cooking, Dev was checking the tickets.
+3. ______ Ruth was cooking, Dev was checking the tickets.
+4. ______ I arrived, the dining car was already closed.
 5. ______ the freight train moved, we left.
-6. ______ the passengers were sleeping, the crew was working.
+6. ______ the train stopped, everybody looked up.
 
 ---
 
