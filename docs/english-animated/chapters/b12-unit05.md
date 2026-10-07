@@ -58,8 +58,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> target · assumption · baseline · deadline · variance · milestone · demand · throughput ·
-> forecast
+> throughput · target · milestone · deadline · forecast · baseline · variance ·
+> assumption · demand
 
 **One of them is a belief that everybody treats as a number.** Which, and what does that cost?
 
@@ -121,9 +121,9 @@ risen nine per cent for two years running. **Guess: why has nobody changed it?**
 **Listen again. Choose the best answer.**
 
 1. At four per cent the list reaches **8,000 / 11,000 / 16,000** by year three.
-2. At nine per cent it reaches **8,000 / 11,000 / 16,000**.
+2. At nine per cent it reaches **11,000 / 8,000 / 16,000**.
 3. A plan built on nine per cent would be **approved / refused / returned for revision**.
-4. The assumption was last reviewed in **2019 / 2022 / never**.
+4. The assumption was last reviewed in **never / 2022 / 2019**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -369,8 +369,8 @@ The model has a cell with a footnote giving the real figure.
 
 Three columns.
 
-> by · shortly · imminently · eventually · ultimately · thereafter · meanwhile ·
-> progressively · cumulatively · annually · henceforth
+> meanwhile · thereafter · progressively · ultimately · imminently · eventually ·
+> cumulatively · annually · henceforth · by · shortly
 
 ### 6B · Chunk completion
 
@@ -405,13 +405,13 @@ once for something you do not believe.
 
 Eight items. Future simple, continuous, perfect or perfect continuous.
 
-1. At four tomorrow I ______ (present) this.
-2. By four tomorrow I ______ (present) this.
-3. By June we ______ (work) on it for two years.
-4. By the time it opens, the list ______ (double).
-5. By then we ______ (know). *(a state)*
+1. By the time it opens, the list ______ (double).
+2. By next March we ______ (reach) ninety per cent. *(an event completed)*
+3. By four tomorrow I ______ (present) this.
+4. At four tomorrow I ______ (present) this.
+5. By June we ______ (work) on it for two years.
 6. Next March we ______ (run) at ninety per cent. *(a state of affairs)*
-7. By next March we ______ (reach) ninety per cent. *(an event completed)*
+7. By then we ______ (know). *(a state)*
 8. By 2029 we ______ (run out) of corridor.
 
 ---

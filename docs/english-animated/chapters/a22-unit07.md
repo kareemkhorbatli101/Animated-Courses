@@ -56,7 +56,7 @@ Match each word to one place on the map.
 
 Two columns.
 
-> apply · promotion · qualify · contract · training · plan · course · chance
+> qualify · training · promotion · chance · course · contract · apply · plan
 
 **One of them is both, and that is why people confuse them.** Which?
 
@@ -119,10 +119,10 @@ what you will be doing on a weekday morning, and one thing that will decide it.
 
 **Listen again. Choose.**
 
-1. The contract is for **one season / two seasons / three years**.
-2. Peadar will be away **four nights a week / three weeks at a time / permanently**.
-3. Aoife will be **at college / working here / not sure**.
-4. The hall will be **finished / still waiting / sold**.
+1. The contract is for **one season / three years / two seasons**.
+2. Peadar will be away **four nights a week / permanently / three weeks at a time**.
+3. Aoife will be **working here / at college / not sure**.
+4. The hall will be **still waiting / finished / sold**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -354,8 +354,8 @@ Two sentences.
 
 Three columns.
 
-> soon · shortly · eventually · by then · this time next · in a year's time · later ·
-> onwards · meanwhile · ahead
+> in a year's time · ahead · meanwhile · soon · onwards · this time next · by then ·
+> shortly · later · eventually
 
 ### 6B · Chunk completion
 
@@ -386,11 +386,11 @@ Each of these looks like a prediction and is actually a hedge.
 
 Six items.
 
-1. *(the phone rings)* I ______ get it.
-2. I ______ apply in March. *(decided last week)*
-3. This time next year I ______ live in Galway.
-4. ______ you ______ come to the meeting? *(polite enquiry)*
-5. By then we ______ wait eleven months for that plasterboard.
+1. ______ you ______ come to the meeting? *(polite enquiry)*
+2. By then we ______ wait eleven months for that plasterboard.
+3. *(the phone rings)* I ______ get it.
+4. This time next year I ______ live in Galway.
+5. I ______ apply in March. *(decided last week)*
 6. I ______ know by March. *(a state)*
 
 ---

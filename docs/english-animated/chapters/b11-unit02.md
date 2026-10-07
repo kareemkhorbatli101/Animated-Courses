@@ -352,10 +352,10 @@ exactly that. Would you send it to the buyer?** Two sentences. The second begins
 Put the twenty-one items into two columns: **this points at a result** · **this points at an
 activity**. Three can go in both — say why.
 
-> so far · up to now · ongoing · outstanding · finalised · incomplete · cumulative ·
-> intermittent · provisional · repeatedly · gradually · steadily · throughout · all morning ·
-> twice already · bit by bit · in one go · for the last six months · keep at · get through ·
-> I've been meaning to…
+> finalised · outstanding · incomplete · steadily · repeatedly · keep at · ongoing ·
+> all morning · gradually · twice already · for the last six months · intermittent ·
+> up to now · bit by bit · in one go · provisional · I've been meaning to… · cumulative ·
+> get through · so far · throughout
 
 ### 6B · Chunk completion
 
@@ -380,12 +380,12 @@ Which adjectives go with which nouns? Find the one combination nobody says.
 
 Six items. Only the time expression decides.
 
-1. She ______ (cut) forty of them.
-2. She ______ (cut) cloth since seven.
-3. We ______ (speak) to three suppliers.
+1. She ______ (cut) cloth since seven.
+2. He ______ (chase) that invoice for a month.
+3. She ______ (cut) forty of them.
 4. We ______ (speak) to suppliers all week.
-5. He ______ (send) the invoice twice.
-6. He ______ (chase) that invoice for a month.
+5. We ______ (speak) to three suppliers.
+6. He ______ (send) the invoice twice.
 
 **Then, in one sentence each, say what the difference actually is.**
 

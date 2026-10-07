@@ -56,8 +56,8 @@ Use the network. Name the word at each stage.
 
 Order these from **hardest to change** to **easiest**.
 
-> a statute · a regulation · a lease clause · a published policy · a written procedure ·
-> standard practice · a notice on a door
+> a written procedure · standard practice · a regulation · a statute ·
+> a published policy · a notice on a door · a lease clause
 
 **Where does it stop being a rule and start being a habit?** Mark it, and defend the mark.
 
@@ -134,8 +134,8 @@ is that the most important sentence in the recording?**
 5. *It is enforced twice a year.*
 6. *Nobody has enforced it since 2022.*
 
-> **A.** the doer is named · **B.** the doer is hidden · **C.** the *instrument* is named, not the
-> doer
+> **A.** the doer is hidden · **B.** the doer is named ·
+> **C.** the *instrument* is named, not the doer
 
 ### 2B · Decoding clinic 🔊 Track 6.2
 
@@ -366,11 +366,11 @@ rewriting it is…"*
 
 Put all twenty-one on a line from **completely hidden** to **almost named**.
 
-> allegedly · reportedly · apparently · supposedly · purportedly · ostensibly · notionally ·
-> retrospectively · unilaterally · duly · hereby · it was decided · it is understood ·
-> steps have been taken · mistakes were made · is widely regarded as · is thought to be ·
-> it emerged that · it turned out that · is said to · be brought about · be done away with ·
-> nobody will say who
+> retrospectively · it is understood · be brought about · reportedly · be done away with ·
+> hereby · nobody will say who · unilaterally · mistakes were made · supposedly ·
+> allegedly · ostensibly · is thought to be · purportedly · duly · is said to ·
+> apparently · is widely regarded as · steps have been taken · it was decided ·
+> it turned out that · notionally · it emerged that
 
 ### 6B · Chunk completion
 
@@ -390,10 +390,10 @@ Six items.
 
 1. The door was wedged ______ a fire extinguisher.
 2. The policy was written ______ the managing agent.
-3. The lock was forced ______ a screwdriver ______ somebody who knew the building.
-4. The notice was signed ______ "The Management".
-5. The report was produced ______ an inspector, ______ a standard template.
-6. The rule was brought in ______ the landlord after a fire.
+3. The rule was brought in ______ the landlord after a fire.
+4. The report was produced ______ an inspector, ______ a standard template.
+5. The notice was signed ______ "The Management".
+6. The lock was forced ______ a screwdriver ______ somebody who knew the building.
 
 ---
 

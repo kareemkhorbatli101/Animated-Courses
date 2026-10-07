@@ -53,7 +53,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> toy · cousin · memory · playground · neighbour · song · holiday · game · photo · childhood
+> neighbour · holiday · song · childhood · photo · memory · playground · game · toy ·
+> cousin
 
 **One of them belongs in two columns.** Which, and why?
 
@@ -341,8 +342,8 @@ The new menu says the broth is **the house speciality** and is first on the list
 
 Three columns.
 
-> back then · nowadays · rarely · in those days · these days · hardly ever · never ·
-> most of the time · ever
+> in those days · ever · nowadays · most of the time · never · rarely · back then ·
+> these days · hardly ever
 
 | **THEN** | **NOW** | **HOW OFTEN** |
 |---|---|---|
@@ -376,9 +377,9 @@ Put one of the three in each sentence, and say why the other two are worse.
 Six items. *used to*, *still*, or *anymore*?
 
 1. I ______ live in that street. *(I moved in 2015)*
-2. I ______ live in that street. *(I have never moved)*
-3. We don't speak ______ .
-4. She ______ to be very quiet.
+2. She ______ to be very quiet.
+3. I ______ live in that street. *(I have never moved)*
+4. We don't speak ______ .
 5. Do they ______ open on Sundays?
 6. Nobody waits forty minutes ______ .
 

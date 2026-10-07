@@ -57,7 +57,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> scroll · autoplay · engagement · dwell · notification · retention · prompt · metric · feed
+> autoplay · engagement · notification · retention · feed · scroll · prompt · metric ·
+> dwell
 
 **Two of them are the same event described from opposite sides.** Which pair?
 
@@ -120,8 +121,8 @@ students who work has risen. **Guess: what is he going to be asked to do?**
 
 1. Attendance has fallen from **80 to 40 / 60 to 30 / 45 to 22** per cent.
 2. The pass rate for students in paid work has risen by **4 / 11 / 19** points.
-3. The recordings are watched **live / within a week / at two in the morning**.
-4. The committee's objection is about **learning / money / the look of the room**.
+3. The recordings are watched **at two in the morning / live / within a week**.
+4. The committee's objection is about **learning / the look of the room / money**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -369,8 +370,8 @@ Three sentences.
 
 Four columns.
 
-> moreover · conversely · namely · incidentally · additionally · respectively · likewise ·
-> of which · at which point · the latter of which
+> namely · likewise · moreover · at which point · conversely · additionally ·
+> the latter of which · of which · incidentally · respectively
 
 ### 6B · Chunk completion
 
@@ -407,14 +408,14 @@ A sentence that is only ever written after a list.
 
 Eight items. Defining, non-defining, *of which / of whom*, or sentential *which*.
 
-1. Only the students in work did better.
-2. All the students did better, and all of them are in work.
-3. 41 students. 31 of them work.
-4. Attendance halved. Nobody disputes this.
-5. Eleven lectures. Four were not recorded.
-6. The recordings are watched at night. There are eleven of them.
-7. Two cohorts. The second had recordings from week one.
-8. The pass rate rose. That is the disputed figure.
+1. Two cohorts. The second had recordings from week one.
+2. The pass rate rose. That is the disputed figure.
+3. The recordings are watched at night. There are eleven of them.
+4. Only the students in work did better.
+5. Attendance halved. Nobody disputes this.
+6. All the students did better, and all of them are in work.
+7. 41 students. 31 of them work.
+8. Eleven lectures. Four were not recorded.
 
 ---
 

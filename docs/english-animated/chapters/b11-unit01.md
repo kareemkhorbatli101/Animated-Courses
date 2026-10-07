@@ -75,7 +75,7 @@ then do 1B with the same seven, and see whether your two orders agree.
 
 Put these seven verbs in order, from the one that changes least to the one that changes most.
 
-> repaint · refit · extend · convert · **do up** · **redevelop** · **demolish**
+> repaint · **redevelop** · refit · convert · extend · **demolish** · **do up**
 
 Compare with a partner. You will not agree about all of them. The useful question is *what are you
 measuring* — how much of the building survives, how much it costs, or how long people have to leave?
@@ -166,8 +166,8 @@ not which word?
 5. *The people who were here then have gone.*
 6. *By the time I came back, they had already started.*
 
-> **A.** This happened once and finished. · **B.** This was going on, around the story. ·
-> **C.** This was already true before the story started.
+> **A.** This was going on, around the story. · **B.** This was already true before the story started. ·
+> **C.** This happened once and finished.
 
 *You do not need to name the tenses. You will do that in Part 3.*
 
@@ -457,8 +457,8 @@ Put all twenty-one markers into four zones. Some belong in more than one — say
 
 Six items. In each, **only the time marker decides**.
 
-1. When the notice went up, the objection period ______ (already / close).
-2. The objection period ______ (close) on the fourteenth.
+1. The objection period ______ (close) on the fourteenth.
+2. When the notice went up, the objection period ______ (already / close).
 3. By 2016, four businesses ______ (leave).
 4. In 2016, four businesses ______ (leave).
 5. She read the notice the day after it ______ (expire).

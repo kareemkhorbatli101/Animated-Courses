@@ -56,7 +56,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> median · cohort · trend · outlier · sample · distribution · percentile · rate · denominator
+> sample · distribution · outlier · percentile · rate · median · denominator · cohort ·
+> trend
 
 **One of them is a measure that is routinely reported without its population.** Which, and what
 happens when it is?
@@ -118,8 +119,8 @@ accurate. **Guess: what does it hide?**
 **Listen again. Choose the best answer.**
 
 1. The six per cent is about **40 / 400 / 4,000** people.
-2. Their median wait is **six weeks / nine months / two years**.
-3. The 94 per cent figure is **wrong / right / rounded up**.
+2. Their median wait is **nine months / six weeks / two years**.
+3. The 94 per cent figure is **rounded up / wrong / right**.
 4. The patients' group has asked for **the median / the distribution / an apology**.
 
 **Noticing.** Four sentences from the recording.
@@ -374,8 +375,8 @@ The comparison table shows this hospital **fourth of twelve**.
 
 Three columns.
 
-> marginally · slightly · somewhat · broadly · roughly · approximately · substantially ·
-> considerably · notably · largely · comparatively
+> substantially · comparatively · marginally · slightly · notably · broadly ·
+> approximately · considerably · largely · roughly · somewhat
 
 **Four of them belong in the third column and are regularly used as if they belonged in the
 second.** Which?
@@ -413,14 +414,14 @@ second.** Which?
 
 Eight items. Choose the quantifier or hedge, and justify the strength.
 
-1. 94 per cent. *(reassuring)*
-2. 94 per cent. *(counting the exception)*
-3. 6 per cent. *(as a minority worth noticing)*
-4. 2 out of 400. *(a hedge on zero)*
-5. A rise of 2.1 points. *(tightest honest hedge)*
-6. 6,700 ± 40. *(spoken)*
+1. A rise of 2.1 points. *(tightest honest hedge)*
+2. Three pathways out of eleven. *(where the delay sits)*
+3. 6,700 ± 40. *(spoken)*
+4. 6 per cent. *(as a minority worth noticing)*
+5. 2 out of 400. *(a hedge on zero)*
+6. 94 per cent. *(counting the exception)*
 7. 11 per cent below. *(approximate, spoken)*
-8. Three pathways out of eleven. *(where the delay sits)*
+8. 94 per cent. *(reassuring)*
 
 ---
 

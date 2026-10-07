@@ -58,8 +58,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> post · reference · speciality · shortlist · mentor · appointment · vacancy · trajectory ·
-> supervisor
+> shortlist · post · appointment · supervisor · vacancy · trajectory · speciality ·
+> reference · mentor
 
 **One of them is in the first column for the person and the second column for the institution.**
 Which?
@@ -121,7 +121,7 @@ what a permanent post would. **Guess: what is stopping them from recruiting?**
 
 1. The post has been vacant for **four months / eleven months / two years**.
 2. A locum costs about **1.4 / 2.0 / 3.2** times a permanent doctor.
-3. Recruitment would take about **six weeks / three months / a year**.
+3. Recruitment would take about **three months / a year / six weeks**.
 4. Dr Benítez would stay permanently if **the money improved / the rota changed / he were asked
    properly**.
 
@@ -366,7 +366,8 @@ The vacancy notice has been live for **eleven months** with four applicants.
 
 Three columns: **spoken · written · very formal**.
 
-> so · therefore · consequently · hence · accordingly · thereby · which meant that · as a result
+> consequently · hence · therefore · accordingly · so · as a result · thereby ·
+> which meant that
 
 **One of them is almost never correct in the way learners use it.** Which, and why?
 
@@ -403,14 +404,14 @@ and for somebody whose path was not.
 
 Eight items. Second, third, mixed A or mixed B.
 
-1. We didn't advertise. We have nobody now.
-2. We didn't advertise. We had nobody in June.
-3. I'm not permanent. I didn't say anything in March.
-4. I'm not permanent. I don't say anything.
+1. They cut the budget. There are two supervisors now.
+2. He speaks no Spanish. He didn't get the job.
+3. We didn't advertise. We have nobody now.
+4. The train ran. *(it didn't)* Her life is different. *(it isn't)*
 5. She took the bus. *(she didn't)* She is a paediatrician. *(she isn't)*
-6. He speaks no Spanish. He didn't get the job.
-7. The train ran. *(it didn't)* Her life is different. *(it isn't)*
-8. They cut the budget. There are two supervisors now.
+6. I'm not permanent. I didn't say anything in March.
+7. I'm not permanent. I don't say anything.
+8. We didn't advertise. We had nobody in June.
 
 ---
 

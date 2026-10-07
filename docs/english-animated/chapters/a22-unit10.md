@@ -55,7 +55,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> identity · reputation · community · local · outsider · memory · belong · newcomer
+> identity · newcomer · belong · local · reputation · outsider · memory · community
 
 **One of them is given to you by other people, always.** Which?
 
@@ -118,10 +118,10 @@ back*. **Guess: who objects, and on what grounds?**
 
 **Listen again. Choose.**
 
-1. The campaign would run for **one season / three years / indefinitely**.
-2. Eimear objects because the story is **false / incomplete / embarrassing**.
-3. The agency offers to **change the words / drop the campaign / add a page**.
-4. The decision will be made by **the agency / the committee / a public meeting**.
+1. The campaign would run for **indefinitely / one season / three years**.
+2. Eimear objects because the story is **embarrassing / false / incomplete**.
+3. The agency offers to **change the words / add a page / drop the campaign**.
+4. The decision will be made by **a public meeting / the agency / the committee**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -354,7 +354,8 @@ The brochure says **"a community of fifty-one households"**.
 
 Two columns, and put the right article beside each.
 
-> hall · memory · boat · truth · community · pier · identity · reputation · wall · change
+> change · identity · boat · reputation · wall · pier · truth · community · memory ·
+> hall
 
 **Two of the abstract ones can also be concrete.** Which, and in what sentence?
 
@@ -383,12 +384,12 @@ Two columns, and put the right article beside each.
 
 Six items.
 
-1. ______ water came in at ten.
-2. ______ water is heavier than people think.
-3. ______ memory is unreliable.
-4. ______ memory of that night is unreliable.
+1. It's ______ story of this town.
+2. ______ memory of that night is unreliable.
+3. ______ water came in at ten.
+4. ______ memory is unreliable.
 5. It's ______ story about ______ town.
-6. It's ______ story of this town.
+6. ______ water is heavier than people think.
 
 ---
 

@@ -54,7 +54,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> pressure · silence · honest · direct · awkward · notebook · consent · follow-up · anonymous
+> awkward · consent · notebook · pressure · honest · anonymous · direct · follow-up ·
+> silence
 
 **One of them belongs to whoever is most frightened.** Which, and why?
 
@@ -116,9 +117,9 @@ Think of a time you were asked a question you did not want to answer. Tell a par
 
 **Listen again. Choose.**
 
-1. The survey asked **where the water came from / how deep it was / whether people felt safe**.
+1. The survey asked **whether people felt safe / where the water came from / how deep it was**.
 2. Fifty-one households were asked and **all / most / about half** replied.
-3. The question about the drain was **not asked / asked badly / asked of the wrong people**.
+3. The question about the drain was **asked badly / not asked / asked of the wrong people**.
 4. Redoing it would take **two / six / fourteen** weeks.
 
 **Noticing.** Four sentences from the recording.
@@ -354,7 +355,7 @@ The form has a handwritten question on some copies.
 
 Two columns.
 
-> ask · tell · say · want · order · advise · remind · beg · invite · encourage · refuse
+> order · invite · want · beg · refuse · ask · advise · encourage · remind · say · tell
 
 **One of them can go in both columns and means two different things.** Which?
 
@@ -389,10 +390,10 @@ Six items.
 
 1. *"Where do you live?"*
 2. *"Have you seen it?"*
-3. *"Wait here."*
-4. *"Don't move anything."*
+3. *"Don't move anything."*
+4. *"Why didn't you ask the harbour master?"*
 5. *"Would you mind signing this?"*
-6. *"Why didn't you ask the harbour master?"*
+6. *"Wait here."*
 
 ---
 

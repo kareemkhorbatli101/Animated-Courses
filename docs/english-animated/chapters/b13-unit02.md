@@ -59,7 +59,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> ramp · exemption · barrier · provision · disability · signage · accommodation · access ·
+> ramp · disability · accommodation · provision · barrier · signage · access · exemption ·
 > inclusion
 
 **One of them is routinely treated as a property of the person and is a property of the
@@ -120,10 +120,10 @@ one lift. **Guess: which building has the stronger case on paper?**
 
 **Listen again. Choose the best answer.**
 
-1. Building A has **a ramp / a lift / neither**.
+1. Building A has **neither / a ramp / a lift**.
 2. Building B has **a ramp / a lift / neither**.
-3. The busier building is **A / B / they are the same**.
-4. The cheaper installation is **A / B / they are the same**.
+3. The busier building is **B / they are the same / A**.
+4. The cheaper installation is **A / they are the same / B**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -383,8 +383,8 @@ The audit says that entrance **opens into a plant room**.
 
 Three columns.
 
-> having · lacking · facing · given · taken · seen · considering · based · followed ·
-> surrounded · due
+> given · due · based · followed · taken · lacking · surrounded · facing · having ·
+> considering · seen
 
 ### 6B · Chunk completion
 
@@ -436,14 +436,14 @@ A formal connector that is itself a participle clause.
 
 Eight items. Reduce each one, or say why it cannot be reduced.
 
-1. Because it lacks a ramp, the building excludes people.
-2. After she had measured both, she changed her mind.
-3. The route which is marked on the map adds 400 m.
-4. Because the lift was out, the class was moved. *(watch the subject)*
+1. Because the lift was out, the class was moved. *(watch the subject)*
+2. Since nobody asked the students, the statement went unchallenged.
+3. Because I had walked it, I knew the map was wrong.
+4. The students who are waiting at the rear door cannot get in.
 5. If the figures are taken together, they disagree.
-6. Since nobody asked the students, the statement went unchallenged.
-7. The students who are waiting at the rear door cannot get in.
-8. Because I had walked it, I knew the map was wrong.
+6. After she had measured both, she changed her mind.
+7. The route which is marked on the map adds 400 m.
+8. Because it lacks a ramp, the building excludes people.
 
 ---
 

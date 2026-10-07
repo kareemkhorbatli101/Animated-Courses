@@ -55,7 +55,7 @@ Use the network. Name the word at each stage.
 
 Order these from **most controlled by the teacher** to **most controlled by the learner**.
 
-> instruct · demonstrate · model · prompt · cue · stand back
+> stand back · model · demonstrate · instruct · cue · prompt
 
 **Where does teaching stop and watching start?** Mark it. Compare marks.
 
@@ -132,7 +132,8 @@ delivery. **Who is holding the tool?**
 5. *She made me do it again.*
 6. *I heard you ask about the tension.*
 
-> **A.** object + **to** + verb · **B.** object + **bare** verb · **C.** object + **-ing**
+> **A.** object + **to** + verb · **B.** object + **-ing** ·
+> **C.** object + **bare** verb
 
 ### 2B · Decoding clinic 🔊 Track 7.2
 
@@ -360,11 +361,12 @@ true. The second begins *"The forty pages did the thing that…"*
 
 Sort all twenty-one into three columns: **+ to** · **+ from -ing** · **+ of / on / for -ing**.
 
-> persuade someone to · encourage someone to · urge someone to · warn someone against · advise someone to ·
-> remind someone to · allow someone to · expect someone to · want someone to · ask someone to ·
-> tell someone to · help someone to · teach someone to · force someone to · invite someone to ·
-> enable someone to · prevent someone from · stop someone from · accuse someone of ·
-> congratulate someone on · blame someone for · warn someone about
+> want someone to · accuse someone of · congratulate someone on · teach someone to ·
+> enable someone to · advise someone to · remind someone to · persuade someone to ·
+> expect someone to · allow someone to · warn someone about · invite someone to ·
+> help someone to · ask someone to · stop someone from · blame someone for ·
+> encourage someone to · force someone to · tell someone to · prevent someone from ·
+> urge someone to · warn someone against
 
 ### 6B · Chunk completion
 
@@ -384,12 +386,12 @@ Three patterns, three meanings. Write a sentence for each, all about the same ma
 
 Six items.
 
-1. She let me ______ (go) early.
-2. She allowed me ______ (go) early.
-3. I watched him ______ (fit) the whole thing — forty minutes.
-4. I watched him ______ (fit) it as I walked past.
-5. They made us ______ (sign) it.
-6. They forced us ______ (sign) it.
+1. I watched him ______ (fit) the whole thing — forty minutes.
+2. They made us ______ (sign) it.
+3. I watched him ______ (fit) it as I walked past.
+4. They forced us ______ (sign) it.
+5. She allowed me ______ (go) early.
+6. She let me ______ (go) early.
 
 **Then: in pairs 1/2 and 5/6, what changed apart from the grammar?**
 

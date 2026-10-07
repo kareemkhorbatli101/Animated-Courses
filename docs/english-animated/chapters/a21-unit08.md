@@ -55,7 +55,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> gloves · fine · inspection · mask · forbidden · soap · warning · helmet · licence · knife
+> forbidden · warning · fine · gloves · licence · soap · helmet · knife · inspection ·
+> mask
 
 **One of them is in two columns at once.** Which, and why?
 
@@ -123,7 +124,7 @@ one rule that does not, and one rule nobody has ever explained to you.
 1. The handwash must be within **one / two / three** metres.
 2. Siti **has to / doesn't have to / is supposed to** close while it is fixed.
 3. The gloves are **required / recommended / forbidden**.
-4. The fine is **100 / 400 / nothing, this time**.
+4. The fine is **nothing, this time / 100 / 400**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -355,7 +356,8 @@ The report gives a deadline of **seven days** for one item.
 
 Put these on a line from strongest to weakest.
 
-> must · should · be supposed to · be allowed to · ought · need · you'd better · it's up to you
+> it's up to you · ought · need · should · must · you'd better · be supposed to ·
+> be allowed to
 
 ### 6B · Chunk completion
 
@@ -385,12 +387,12 @@ Put the right one in each, and then explain the difference to a partner in one s
 
 Six items.
 
-1. You ______ wear a helmet here. *(the law)*
-2. You ______ wear a mask here. *(your choice)*
-3. We ______ to wash the boards every two hours. *(the rule, often ignored)*
-4. You ______ park there. *(forbidden)*
-5. You ______ tell her today. *(strong advice)*
-6. You ______ bring anything. *(no need)*
+1. You ______ wear a mask here. *(your choice)*
+2. We ______ to wash the boards every two hours. *(the rule, often ignored)*
+3. You ______ bring anything. *(no need)*
+4. You ______ wear a helmet here. *(the law)*
+5. You ______ park there. *(forbidden)*
+6. You ______ tell her today. *(strong advice)*
 
 ---
 

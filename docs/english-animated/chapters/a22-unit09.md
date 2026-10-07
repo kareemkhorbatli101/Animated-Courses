@@ -54,7 +54,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> fund · allocate · fair · grant · priority · equal · request · relief · limited
+> allocate · equal · priority · grant · fair · request · fund · limited · relief
 
 **One of them only becomes a judgement when there is not enough.** Which?
 
@@ -357,8 +357,8 @@ The allocation sheet totals **€238,500**.
 
 Two columns, and write the right quantifier beside each.
 
-> claims · money · people · relief · forms · supply · dehumidifiers · funding · requests ·
-> fuel
+> requests · claims · supply · fuel · funding · dehumidifiers · money · relief · forms ·
+> people
 
 ### 6B · Chunk completion
 
@@ -388,12 +388,12 @@ Two columns, and write the right quantifier beside each.
 
 Six items.
 
-1. ______ of the money is left. *(zero)*
-2. ______ of the claimants is lying. *(zero of four)*
-3. ______ of the last two has insurance. *(zero of two)*
-4. ______ of them have been waiting. *(more than half)*
-5. ______ of the two will do. *(one or the other)*
-6. We funded ______ four, partly.
+1. ______ of the two will do. *(one or the other)*
+2. We funded ______ four, partly.
+3. ______ of them have been waiting. *(more than half)*
+4. ______ of the last two has insurance. *(zero of two)*
+5. ______ of the money is left. *(zero)*
+6. ______ of the claimants is lying. *(zero of four)*
 
 ---
 

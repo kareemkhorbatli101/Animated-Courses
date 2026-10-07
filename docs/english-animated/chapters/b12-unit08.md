@@ -56,8 +56,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> category · criterion · overlap · dataset · boundary · ambiguity · classification · record ·
-> abstraction
+> category · dataset · ambiguity · criterion · overlap · classification · record ·
+> boundary · abstraction
 
 **One of them only exists because two of the others were drawn carelessly.** Which?
 
@@ -119,9 +119,9 @@ departments read this differently. **Guess: what is the biggest disagreement?**
 
 **Listen again. Choose the best answer.**
 
-1. The four numbers range from **38 to 44 / 31 to 58 / 41 to 41**.
-2. The report's own definition is **in the text / in a footnote / nowhere**.
-3. The phrase that causes it is **the patients / an average / 41 days**.
+1. The four numbers range from **41 to 41 / 31 to 58 / 38 to 44**.
+2. The report's own definition is **in a footnote / in the text / nowhere**.
+3. The phrase that causes it is **an average / 41 days / the patients**.
 4. Nobody has raised it because **nobody noticed / everybody noticed / nobody owns the report**.
 
 **Noticing.** Four sentences from the recording.
@@ -373,8 +373,8 @@ The report has **no definition anywhere on it**.
 
 Three columns.
 
-> certain · given · such · any · particular · generic · specific · the former · the latter ·
-> respective · as a whole
+> as a whole · such · the latter · the former · given · any · respective · specific ·
+> generic · certain · particular
 
 ### 6B · Chunk completion
 
@@ -409,14 +409,14 @@ in a meeting where it is welcome and in one where it is not.
 
 Eight items. Choose the article or determiner, and name the meaning.
 
-1. ______ patients wait too long. *(everybody)*
-2. ______ patients waited 41 days. *(this group)*
-3. ______ patient waits 41 days. *(a type)*
-4. ______ patient is rarely consulted. *(the category, formal)*
-5. ______ patients are excluded. *(the kind just described)*
-6. For a ______ month, the return is due on the fifth. *(in a formula)*
-7. ______ departments produced their own figures. *(each its own)*
-8. Of the two, ______ is lower. *(the second)*
+1. ______ patient waits 41 days. *(a type)*
+2. ______ patient is rarely consulted. *(the category, formal)*
+3. ______ departments produced their own figures. *(each its own)*
+4. Of the two, ______ is lower. *(the second)*
+5. For a ______ month, the return is due on the fifth. *(in a formula)*
+6. ______ patients waited 41 days. *(this group)*
+7. ______ patients wait too long. *(everybody)*
+8. ______ patients are excluded. *(the kind just described)*
 
 ---
 

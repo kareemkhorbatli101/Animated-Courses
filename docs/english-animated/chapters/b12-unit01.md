@@ -56,7 +56,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> portion · staple · budget · recipe · processed · canteen · generation · seasonal · household
+> generation · budget · canteen · processed · portion · staple · seasonal · recipe ·
+> household
 
 **One of them changes column the moment there is less money.** Which, and why?
 
@@ -116,9 +117,9 @@ eat there too. **Guess: who argues for the cheaper food, and on what grounds?**
 **Listen again. Choose the best answer.**
 
 1. The canteen serves **200 / 400 / 650** meals a day.
-2. Staff meals are **free / subsidised / full price**.
+2. Staff meals are **full price / free / subsidised**.
 3. The cheaper menu would save about **4 / 11 / 19** per cent.
-4. Ignacio's objection is about **taste / dignity / cost**.
+4. Ignacio's objection is about **dignity / taste / cost**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -362,8 +363,8 @@ The current menu shows fish served **only at lunch**.
 
 Three columns.
 
-> routine · gradually · custom · increasingly · tradition · steadily · constantly · overnight ·
-> typically · practice
+> overnight · routine · gradually · steadily · constantly · practice · typically ·
+> tradition · custom · increasingly
 
 ### 6B · Chunk completion
 
@@ -397,14 +398,14 @@ Three columns.
 
 Eight items. *used to*, *would*, *be used to* or *get used to*.
 
-1. There ______ be a garden here.
-2. Every night he ______ come down at three.
-3. I ______ the smell now. I didn't at first.
-4. You'll ______ the hours.
-5. She ______ work in paediatrics.
-6. ______ you ______ to work weekends?
-7. He isn't ______ being told what to do.
-8. We ______ have four cooks. Now there are two.
+1. She ______ work in paediatrics.
+2. There ______ be a garden here.
+3. He isn't ______ being told what to do.
+4. Every night he ______ come down at three.
+5. We ______ have four cooks. Now there are two.
+6. I ______ the smell now. I didn't at first.
+7. ______ you ______ to work weekends?
+8. You'll ______ the hours.
 
 ---
 

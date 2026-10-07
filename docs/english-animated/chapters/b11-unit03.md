@@ -55,8 +55,8 @@ Find each word on the registration form, and say which box it belongs in.
 
 Put these in order, from **easiest to change** to **hardest**.
 
-> nickname · spelling on an email · the name on a lanyard · the name on a payslip ·
-> the name on a passport · citizenship
+> the name on a passport · citizenship · the name on a payslip · spelling on an email ·
+> nickname · the name on a lanyard
 
 Where exactly does it stop being a choice? Mark the point. People disagree about where it is.
 
@@ -124,8 +124,8 @@ to another. **Which one is she more likely to actually do?**
 3. *I'll ask him, if you want.*
 4. *The lease runs out in March.*
 
-> **A.** arranged with another person · **B.** my intention, decided before now ·
-> **C.** decided at this moment, for you · **D.** a fact on a timetable
+> **A.** a fact on a timetable · **B.** decided at this moment, for you ·
+> **C.** arranged with another person · **D.** my intention, decided before now
 
 ---
 
@@ -369,12 +369,12 @@ Which of these would you write in a contract, and which only say out loud? Four 
 
 Six items. Context decides.
 
-1. — There's someone at the door. — I ______ go.
+1. She ______ (start) on the fourteenth — contract's signed.
 2. We ______ (announce) it on Monday; the press release is written.
 3. The building ______ (close) at seven, every day.
-4. I ______ (not sign) that, and I've thought about it for a week.
-5. Don't worry, I ______ (sort) it out.
-6. She ______ (start) on the fourteenth — contract's signed.
+4. Don't worry, I ______ (sort) it out.
+5. I ______ (not sign) that, and I've thought about it for a week.
+6. — There's someone at the door. — I ______ go.
 
 ---
 

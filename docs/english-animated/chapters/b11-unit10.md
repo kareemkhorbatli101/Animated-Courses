@@ -57,8 +57,8 @@ Use the network. Name the word at each node.
 
 Order from **most secure** to **least**.
 
-> a permanent contract · a fixed-term contract · a rolling contract · zero-hours ·
-> paid in cash · a handshake
+> paid in cash · a rolling contract · zero-hours · a fixed-term contract ·
+> a permanent contract · a handshake
 
 **Mark where the law stops helping you.** Then find out whether you marked it in the right place.
 
@@ -135,7 +135,8 @@ What else is she talking about?**
 5. *It's far more than the going rate.*
 6. *The more hours she takes, the less she can choose.*
 
-> **A.** a small difference · **B.** a large one · **C.** a relationship between two things
+> **A.** a small difference · **B.** a relationship between two things ·
+> **C.** a large one
 
 ### 2B · Decoding clinic 🔊 Track 10.2
 
@@ -366,9 +367,10 @@ real, and…"*
 
 Put all twenty-one on a line from **no difference** to **enormous difference**.
 
-> far · much · slightly · considerably · marginally · substantially · significantly · somewhat ·
-> barely · appreciably · infinitely · a great deal · nowhere near · every bit as · just as ·
-> not nearly · the more… the more · the sooner… the better · by far · a good deal · if anything
+> somewhat · every bit as · much · marginally · slightly · a good deal · not nearly ·
+> just as · the more… the more · by far · infinitely · if anything · far · nowhere near ·
+> a great deal · significantly · considerably · substantially · the sooner… the better ·
+> appreciably · barely
 >
 > *and three that size a change rather than a gap:* **knock back** · **scale up** ·
 > **not by a long way**

@@ -54,7 +54,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> claim · source · journalist · accurate · account · editor · exact · version · trust · doubt
+> accurate · doubt · claim · source · version · account · exact · editor · trust ·
+> journalist
 
 **One of them is in two columns at once.** Which?
 
@@ -352,7 +353,8 @@ The article's headline says **"Witnesses contradict each other."**
 
 Two columns.
 
-> say · tell · state · add · mention · repeat · insist · admit · reveal · reply · announce
+> reveal · insist · repeat · add · reply · mention · tell · admit · state · say ·
+> announce
 
 **One of them is neutral in a report and loaded in a newspaper.** Which?
 
@@ -385,12 +387,12 @@ Each one tells the reader what to think before they have read the content.
 
 Six items. Report each one, shifting what needs to shift.
 
-1. *"I am at the door."*
-2. *"I checked it twice."*
-3. *"I will send it tomorrow."*
-4. *"I can't remember."*
+1. *"I checked it twice."*
+2. *"I will send it tomorrow."*
+3. *"I am at the door."*
+4. *"I didn't say that."*
 5. *"The drain is still blocked."* *(and it is)*
-6. *"I didn't say that."*
+6. *"I can't remember."*
 
 ---
 

@@ -63,8 +63,8 @@ arguing anyway. Say why you stopped.* You will record it again at the end of thi
 
 ### 1B · Sort — the room, the argument, or the person?
 
-> dominate · defer · silence · take a position · the floor · common ground · talk over ·
-> concede the point · play devil's advocate
+> play devil's advocate · defer · take a position · dominate · common ground ·
+> concede the point · silence · the floor · talk over
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -131,10 +131,10 @@ The four phrasal verbs of a disagreement.
 
 **Listen again. Choose the best answer.**
 
-1. Marcus is **usually right / usually wrong / hard to say**.
-2. Priya intervenes **twice / once / not at all**.
-3. Thanh **does not speak / speaks once / speaks twice**.
-4. The seminar reaches **a conclusion / a compromise / neither**.
+1. Marcus is **hard to say / usually wrong / usually right**.
+2. Priya intervenes **not at all / once / twice**.
+3. Thanh **speaks once / speaks twice / does not speak**.
+4. The seminar reaches **neither / a compromise / a conclusion**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -383,8 +383,8 @@ The transcript shows one student being talked over **twice** in week nine.
 
 Three columns: **a lot · a little · none at all**.
 
-> admittedly · granted · to be fair · up to a point · that said · even so ·
-> all the same · nevertheless · nonetheless · on the other hand · and yet · still
+> even so · and yet · nevertheless · admittedly · still · granted · all the same ·
+> up to a point · nonetheless · that said · to be fair · on the other hand
 
 ### 6B · Chunk completion
 
@@ -426,14 +426,14 @@ It can be a whole sentence. Say the strongest case for something, stop, and writ
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. Although he is right, but nobody agrees.
-2. Despite he is right, nobody agrees.
-3. In spite of being right, he lost the room.
-4. Marcus speaks a lot, whereas Thanh is quiet.
-5. He is right, however nobody agrees.
+1. He is right, however nobody agrees.
+2. In spite of being right, he lost the room.
+3. Marcus speaks a lot, whereas Thanh is quiet.
+4. Nevertheless of the evidence, she did nothing.
+5. Although he is right, but nobody agrees.
 6. Though, he is right.
 7. He is loud. He is right, though.
-8. Nevertheless of the evidence, she did nothing.
+8. Despite he is right, nobody agrees.
 
 ---
 

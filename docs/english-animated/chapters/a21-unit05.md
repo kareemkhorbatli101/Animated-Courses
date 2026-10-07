@@ -54,8 +54,8 @@ Match each word to one place on the map.
 
 Three columns: **the traveller · the operator · nobody**.
 
-> traffic · roadworks · breakdown · delay · late · a cancelled train · missing the connection ·
-> arriving early
+> a cancelled train · breakdown · roadworks · traffic · arriving early · delay ·
+> missing the connection · late
 
 **Put *delay* in one column. Then argue for a different one.**
 
@@ -338,8 +338,8 @@ The timetable shows a 06.15 service — with a footnote.
 
 Three columns.
 
-> unless · as soon as · at the latest · if it rains · until · no later than · by the time ·
-> in case · whenever · in time
+> in case · at the latest · until · unless · by the time · in time · if it rains ·
+> no later than · whenever · as soon as
 
 | **CONDITION** | **TIME** | **DEADLINE** |
 |---|---|---|
@@ -373,11 +373,11 @@ Put one in each, and say what each one tells the other person about how urgent i
 Six items.
 
 1. ______ it rains, we'll stay in.
-2. ______ it rains, we'll go. *(we only go in dry weather)*
+2. I'll phone ______ I land.
 3. Wait here ______ I get back.
-4. I'll phone ______ I land.
-5. You'll miss it ______ you leave now.
-6. ______ the time we arrive, they'll have closed.
+4. You'll miss it ______ you leave now.
+5. ______ the time we arrive, they'll have closed.
+6. ______ it rains, we'll go. *(we only go in dry weather)*
 
 ---
 

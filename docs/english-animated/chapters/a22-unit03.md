@@ -54,7 +54,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> evidence · blame · inquiry · fault · witness · responsible · record · cause · minute · report
+> responsible · witness · evidence · record · blame · inquiry · report · minute · cause ·
+> fault
 
 **One of them moves column the moment somebody writes it down.** Which?
 
@@ -356,8 +357,8 @@ The inquiry timeline records the forecast change at **13.40**.
 
 Three columns.
 
-> before · after · already · by the time · previously · once · then · afterwards ·
-> the night before · until · just · up to that point
+> up to that point · the night before · before · just · after · already · by the time ·
+> once · afterwards · previously · then · until
 
 ### 6B · Chunk completion
 
@@ -390,10 +391,10 @@ Three columns.
 Six items. Choose, and say why.
 
 1. He ______ (move) the car on Thursday. Then it ______ (flood).
-2. It ______ (flood) on Saturday. He ______ (move) the car two days earlier.
-3. By the time we ______ (arrive), they ______ (go).
-4. She ______ (keep) the sandbags since 2019 and never ______ (use) them.
-5. Once the drain ______ (reverse), it ______ (be) too late.
+2. Once the drain ______ (reverse), it ______ (be) too late.
+3. She ______ (keep) the sandbags since 2019 and never ______ (use) them.
+4. By the time we ______ (arrive), they ______ (go).
+5. It ______ (flood) on Saturday. He ______ (move) the car two days earlier.
 6. I ______ (not know) the forecast ______ (change).
 
 ---

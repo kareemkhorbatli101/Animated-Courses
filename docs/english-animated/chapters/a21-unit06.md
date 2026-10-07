@@ -55,7 +55,7 @@ Match each word to one place on the map.
 
 Two columns.
 
-> price · worth · cost · value · bargain · expensive · cheap · discount
+> expensive · bargain · value · price · cheap · worth · cost · discount
 
 **A *price* is printed. *Worth* is argued about.** Which column is bigger, and why?
 
@@ -119,9 +119,9 @@ what it cost, how long you have had it, and whether it was worth it.
 **Listen again. Choose.**
 
 1. Hafiz wants to spend the money on **a chiller / a phone system / a van**.
-2. Siti says the stall loses produce **every day / twice a week / in the hot months**.
-3. Hafiz has already **tried it / asked customers / read about it**.
-4. Siti refuses **to decide today / to talk about it / to let him do it**.
+2. Siti says the stall loses produce **twice a week / in the hot months / every day**.
+3. Hafiz has already **asked customers / tried it / read about it**.
+4. Siti refuses **to decide today / to let him do it / to talk about it**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -349,7 +349,8 @@ The quotations show the new chiller costing **more per year to run** than the se
 
 Two columns. Put each verb where it belongs.
 
-> decide · enjoy · refuse · avoid · promise · mind · hope · suggest · manage · plan · offer
+> avoid · suggest · enjoy · refuse · manage · offer · mind · decide · hope · plan ·
+> promise
 
 | **+ to** | **+ -ing** |
 |---|---|
@@ -385,12 +386,12 @@ Fill each gap. **Remember what follows a preposition.**
 
 Six items.
 
-1. I can't afford ______ (replace) it.
-2. Do you mind ______ (hold) this?
-3. We've given up ______ (wait) for him.
-4. They refused ______ (pay) the difference.
-5. She suggested ______ (sell) it second-hand.
-6. I managed ______ (get) a discount.
+1. They refused ______ (pay) the difference.
+2. I can't afford ______ (replace) it.
+3. Do you mind ______ (hold) this?
+4. We've given up ______ (wait) for him.
+5. I managed ______ (get) a discount.
+6. She suggested ______ (sell) it second-hand.
 
 ---
 

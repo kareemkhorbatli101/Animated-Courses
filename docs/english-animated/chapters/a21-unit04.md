@@ -55,7 +55,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> manager · task · shift · colleague · job · staff · role · boss · team
+> staff · team · shift · manager · boss · role · colleague · job · task
 
 **Two of them can go in two columns.** Which, and why?
 
@@ -116,9 +116,9 @@ Think of a place you have worked, studied or lived in. Tell a partner **three se
 
 **Listen again. Choose.**
 
-1. The person who has the cold store key is **Mr Tan / Nurul / a trader**.
-2. Nurul arrives **every Monday / on a rota / without warning**.
-3. The place where you report a broken light is **the office / the gate / nowhere**.
+1. The person who has the cold store key is **Nurul / a trader / Mr Tan**.
+2. Nurul arrives **every Monday / without warning / on a rota**.
+3. The place where you report a broken light is **the gate / the office / nowhere**.
 4. The thing nobody is responsible for is **the drain / the ice / the rota**.
 
 **Noticing.** Four sentences from the recording.
@@ -344,8 +344,8 @@ Two sentences.
 
 Two columns, and be honest.
 
-> stressful · steady · interesting · tiring · well-paid · badly-paid · boring · skilled ·
-> seasonal · useful · helpful · difficult
+> stressful · steady · helpful · interesting · badly-paid · difficult · skilled · boring ·
+> useful · seasonal · well-paid · tiring
 
 | **I'd take it** | **I wouldn't** |
 |---|---|
@@ -381,12 +381,12 @@ Put the right one in each.
 
 Six items.
 
-1. The person ______ opens the gate.
+1. The market ______ I have worked for nine years.
 2. The room ______ we keep the ice.
-3. The van ______ broke down.
-4. The job ______ nobody wants.
-5. The inspector ______ came on Thursday.
-6. The market ______ I have worked for nine years.
+3. The job ______ nobody wants.
+4. The van ______ broke down.
+5. The person ______ opens the gate.
+6. The inspector ______ came on Thursday.
 
 ---
 

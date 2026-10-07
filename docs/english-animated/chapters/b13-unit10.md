@@ -65,8 +65,8 @@ end of this unit.
 
 ### 1B · Sort — before, during, or after?
 
-> occasion · tribute · acknowledgement · promotion · take the floor · a few words ·
-> on this occasion · in all my years · a step up
+> acknowledgement · on this occasion · promotion · take the floor · occasion · a step up ·
+> in all my years · tribute · a few words
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -135,10 +135,10 @@ more money and a title. **Guess: has anybody asked her?**
 
 **Listen again. Choose the best answer.**
 
-1. The move is **a promotion / a restructure / both**.
+1. The move is **a restructure / a promotion / both**.
 2. Josie was told **before / after / at the same time as** the announcement.
-3. Her manager thinks she is **pleased / reluctant / difficult**.
-4. The leaving event has **already been booked / not been booked / been cancelled**.
+3. Her manager thinks she is **pleased / difficult / reluctant**.
+4. The leaving event has **been cancelled / already been booked / not been booked**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -400,8 +400,8 @@ The log shows **two hundred and nine entries in one week**, of which most are no
 
 Three columns: **needs *do / did* · uses an existing auxiliary · uses *be***.
 
-> never · rarely · seldom · little · hardly · scarcely · nowhere · nor · neither ·
-> only · no sooner
+> scarcely · no sooner · nor · little · only · neither · never · hardly · rarely ·
+> nowhere · seldom
 
 ### 6B · Chunk completion
 
@@ -442,14 +442,14 @@ Three columns: **needs *do / did* · uses an existing auxiliary · uses *be***.
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. Never I have been so sure.
-2. Never have I been so sure.
-3. No sooner had it been signed when my name was on it.
-4. No sooner had it been signed than my name was on it.
-5. Not until Friday anybody asked.
+1. Only then she answered.
+2. Nor was there any warning.
+3. Not until Friday anybody asked.
+4. No sooner had it been signed when my name was on it.
+5. Never I have been so sure.
 6. Not until Friday did anybody ask.
-7. Only then she answered.
-8. Nor was there any warning.
+7. Never have I been so sure.
+8. No sooner had it been signed than my name was on it.
 
 ---
 

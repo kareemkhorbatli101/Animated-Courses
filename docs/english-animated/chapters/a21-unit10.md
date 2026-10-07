@@ -55,7 +55,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> agenda · vote · minutes · suggestion · decision · opinion · argument · meeting
+> opinion · agenda · suggestion · minutes · argument · vote · decision · meeting
 
 **One of them happens at all three stages.** Which, and give an example of each.
 
@@ -118,9 +118,9 @@ the notice. **Guess: does anybody mention that before the vote?**
 
 **Listen again. Choose.**
 
-1. The notice went up **last week / last month / nobody knows**.
-2. Farah speaks **first / last / not at all**.
-3. Mei Ling raises the reading problem **directly / as a question / not at all**.
+1. The notice went up **last month / last week / nobody knows**.
+2. Farah speaks **last / first / not at all**.
+3. Mei Ling raises the reading problem **as a question / directly / not at all**.
 4. The vote is **taken / postponed / taken and then re-taken**.
 
 **Noticing.** Four sentences from the recording.
@@ -360,8 +360,9 @@ The notice says objections must be **in writing, to the office, within fourteen 
 
 Put these on a line from most direct to least.
 
-> *When did it go up?* · *Could you tell me when it went up?* · *Do you know when it went up?* ·
-> *I was wondering when it went up.* · *Tell me when it went up.*
+> *I was wondering when it went up.* · *Tell me when it went up.* ·
+> *Do you know when it went up?* · *Could you tell me when it went up?* ·
+> *When did it go up?*
 
 ### 6B · Chunk completion
 
@@ -392,12 +393,12 @@ Each of these makes a sentence easier to refuse. Put one in each, and say what i
 
 Six items. **Write the better version for the situation given.**
 
-1. You want to check a date with a colleague. *(you are fairly sure)*
-2. You want a date from a stranger in an office.
-3. You suspect somebody forgot, and you want them to admit it.
-4. You want to know whether a meeting is still happening.
-5. You want to disagree without an argument.
-6. You want to interrupt four people who are all talking.
+1. You want to disagree without an argument.
+2. You want to know whether a meeting is still happening.
+3. You want to check a date with a colleague. *(you are fairly sure)*
+4. You want a date from a stranger in an office.
+5. You want to interrupt four people who are all talking.
+6. You suspect somebody forgot, and you want them to admit it.
 
 ---
 

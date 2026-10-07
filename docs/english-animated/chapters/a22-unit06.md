@@ -54,7 +54,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> clue · strange · theory · empty · suspect · obvious · missing · mystery · unlikely
+> unlikely · clue · strange · missing · suspect · empty · obvious · theory · mystery
 
 **One of them is a fact that is always described as a feeling.** Which?
 
@@ -350,7 +350,7 @@ The form has a box for **"mooring failure"** and none for anything else that fit
 
 Put these on a line from certain to barely possible.
 
-> definitely · surely · obviously · clearly · presumably · apparently · possibly
+> surely · clearly · obviously · presumably · possibly · apparently · definitely
 
 **Two of them are about what other people say, not about what you know.** Which?
 
@@ -384,11 +384,11 @@ Put these on a line from certain to barely possible.
 Six items.
 
 1. The light is on. Somebody ______ be in.
-2. The light is on, but his car is gone. He ______ be in.
+2. He's been at sea forty years. He ______ have made that mistake.
 3. Perhaps she ______ have forgotten.
-4. The rope was untied, so it ______ have broken.
+4. The light is on, but his car is gone. He ______ be in.
 5. There's no fuel in the can. It ______ have run out.
-6. He's been at sea forty years. He ______ have made that mistake.
+6. The rope was untied, so it ______ have broken.
 
 ---
 

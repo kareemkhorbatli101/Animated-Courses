@@ -55,8 +55,8 @@ Match each word to one place on the map.
 
 Three columns, from the picture in Part 0.
 
-> the roof · the kitchen floor · the hall windows · the drain · the sea wall survey ·
-> the slipway · the plasterboard · the temporary road
+> the temporary road · the hall windows · the kitchen floor · the plasterboard ·
+> the sea wall survey · the slipway · the drain · the roof
 
 **One of them is in two columns depending on who you ask.** Which?
 
@@ -119,10 +119,10 @@ Think of something near you that has been under repair for a long time. Tell a p
 
 **Listen again. Choose.**
 
-1. The roof took **three weeks / three months / it is not done**.
-2. They have been waiting for plasterboard **since June / since August / all year**.
+1. The roof took **it is not done / three weeks / three months**.
+2. They have been waiting for plasterboard **since June / all year / since August**.
 3. The contractor has **two / three / four** other sites.
-4. Sinéad has been phoning **daily / weekly / on and off**.
+4. Sinéad has been phoning **daily / on and off / weekly**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -350,8 +350,8 @@ The progress report says **68 per cent complete.**
 
 Three columns.
 
-> since · for · all week · lately · constantly · recently · throughout · on and off ·
-> day after day · non-stop · still · yet
+> non-stop · lately · yet · on and off · constantly · recently · all week · since · for ·
+> throughout · day after day · still
 
 | **A POINT** | **A LENGTH** | **HOW OFTEN** |
 |---|---|---|
@@ -386,12 +386,12 @@ Put one in each, and say why the other two would be wrong.
 
 Six items.
 
-1. I ______ (read) that book three times.
-2. I ______ (read) that book all week.
-3. They ______ (build) four of the six.
+1. We ______ (own) this house for twenty years.
+2. I ______ (read) that book three times.
+3. How many times ______ you ______ (phone) him?
 4. They ______ (build) it since January.
-5. We ______ (own) this house for twenty years.
-6. How many times ______ you ______ (phone) him?
+5. They ______ (build) four of the six.
+6. I ______ (read) that book all week.
 
 ---
 

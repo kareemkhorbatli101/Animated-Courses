@@ -54,7 +54,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> passport · home · village · visa · belong · roots · country · citizen · accent · town
+> country · passport · belong · citizen · accent · village · home · roots · visa · town
 
 **One of them changes column depending on who is asking.** Which?
 
@@ -350,7 +350,7 @@ The delivery record shows garlic arriving from a **Selangor packer**, not from a
 
 Three columns.
 
-> grown · made · built · sold · sent · brought · taken · given
+> taken · sold · built · grown · sent · made · given · brought
 
 **Two of them could be in two columns.** Which, and with what?
 
@@ -380,10 +380,10 @@ Each of these tells you something was done — and hides where the thing started
 Six items. Choose the better one, and say why.
 
 1. Somebody stole the scales. / The scales were stolen.
-2. My grandfather built this house. / This house was built by my grandfather.
-3. They grow garlic in China. / Garlic is grown in China.
-4. Mistakes were made. / We made a mistake.
-5. The sign was put up last year. / Somebody put the sign up last year.
+2. Mistakes were made. / We made a mistake.
+3. My grandfather built this house. / This house was built by my grandfather.
+4. The sign was put up last year. / Somebody put the sign up last year.
+5. They grow garlic in China. / Garlic is grown in China.
 6. The crates are brought down overnight. / They bring the crates down overnight.
 
 ---

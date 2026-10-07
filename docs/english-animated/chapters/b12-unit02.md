@@ -56,7 +56,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> error · report · culture · harm · blame · disclosure · incident · prevent · anonymous
+> incident · report · blame · culture · disclosure · harm · error · anonymous · prevent
 
 **One of them belongs in the third column and is always argued about as if it were in the
 second.** Which?
@@ -117,10 +117,10 @@ Think of a near miss you know about — anywhere, any job, any kitchen. Tell a p
 
 **Listen again. Choose the best answer.**
 
-1. The error was caught **at the cupboard / at the bedside / after it was given**.
-2. The person who caught it was a **nurse / porter / student**.
-3. The form was filed **signed / anonymously / not at all**.
-4. The last three reports about that cupboard were **acted on / filed / lost**.
+1. The error was caught **at the cupboard / after it was given / at the bedside**.
+2. The person who caught it was a **porter / nurse / student**.
+3. The form was filed **signed / not at all / anonymously**.
+4. The last three reports about that cupboard were **lost / filed / acted on**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -368,8 +368,8 @@ The summary shows **signed reports with a 61 per cent action rate**.
 
 Three columns: **how close · how lucky · how it looks afterwards**.
 
-> nearly · barely · narrowly · fortunately · luckily · thankfully · hindsight · almost ·
-> as it turned out
+> fortunately · nearly · almost · barely · luckily · narrowly · as it turned out ·
+> thankfully · hindsight
 
 ### 6B · Chunk completion
 
@@ -404,14 +404,14 @@ and which is more useful in a report?**
 
 Eight items. Third conditional, inverted form, *but for*, or *if only*.
 
-1. The scanner was broken. The error reached the bedside.
+1. Nobody acted in March. The cupboard is still wrong. *(result now)*
 2. Ignacio was passing. He caught it.
-3. She didn't file the third form. *(regret only)*
-4. Nobody acted in March. The cupboard is still wrong. *(result now)*
-5. She signed the first two. They were investigated.
-6. *(formal, in a report)* Ignacio was there. Nothing happened.
-7. I didn't know. I prepared it.
-8. He read the wristband. She is alive.
+3. *(formal, in a report)* Ignacio was there. Nothing happened.
+4. He read the wristband. She is alive.
+5. She didn't file the third form. *(regret only)*
+6. I didn't know. I prepared it.
+7. She signed the first two. They were investigated.
+8. The scanner was broken. The error reached the bedside.
 
 ---
 

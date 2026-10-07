@@ -55,7 +55,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> cliff · pier · ruin · bay · church · headland · lighthouse · hall · harbour
+> bay · ruin · hall · cliff · church · headland · lighthouse · harbour · pier
 
 **One of them is in two columns, and the argument about which is three hundred years old.**
 Which?
@@ -353,7 +353,7 @@ The valuation describes it as **"a corn store, converted, in community use"**.
 
 Three columns.
 
-> also · besides · moreover · however · although · by the way · actually · which is why
+> which is why · moreover · actually · although · besides · also · however · by the way
 
 **One of them can do two of the three jobs.** Which?
 
@@ -387,10 +387,10 @@ Three columns.
 Six items. **Add commas where the clause is non-defining, and say what changes.**
 
 1. The hall which was built in 1884 is the oldest.
-2. The woman who runs the hall is called Sinéad.
-3. Sinéad who runs the hall has been here nine years.
-4. The building where the meeting was held has been sold.
-5. The pier which was rebuilt in 1931 is closed again.
+2. The pier which was rebuilt in 1931 is closed again.
+3. The woman who runs the hall is called Sinéad.
+4. Sinéad who runs the hall has been here nine years.
+5. The building where the meeting was held has been sold.
 6. The only building that is above the line is the hall.
 
 ---

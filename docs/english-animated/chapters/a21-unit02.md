@@ -55,7 +55,7 @@ Match each word to one place on the map.
 
 Two columns.
 
-> soil · scales · water · a price card · sun · ice · rain · a van · seed · a licence
+> a van · ice · a licence · rain · a price card · scales · seed · water · soil · sun
 
 **One of them is in both columns.** Which one, and why?
 
@@ -119,7 +119,7 @@ apologising?**
 1. Zul left the farm at **03:10 / 03:40 / 04:10**.
 2. It was raining **when he left / while he was loading / all morning**.
 3. Ravi had been waiting **ten / twenty / forty** minutes.
-4. Mei Ling's broth was **finished / still cooking / cold**.
+4. Mei Ling's broth was **still cooking / cold / finished**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -346,7 +346,7 @@ The delivery note says the cold room reading was **9°C**.
 
 Put each one in the right column.
 
-> earlier · while · afterwards · meanwhile · later · just as · then · at the same time
+> at the same time · afterwards · while · earlier · meanwhile · later · then · just as
 
 | **BEFORE** | **DURING** | **AFTER** |
 |---|---|---|
@@ -381,11 +381,11 @@ Read these four. **In which one is *suddenly* doing real work?**
 Six items. Past simple or past continuous?
 
 1. At six o'clock I ______ (drive) to the market.
-2. At six o'clock I ______ (arrive) at the market.
-3. While we ______ (unload), it ______ (start) to rain.
-4. It ______ (rain) all morning. *(and that is the whole story)*
+2. While we ______ (unload), it ______ (start) to rain.
+3. At six o'clock I ______ (arrive) at the market.
+4. What ______ you ______ (do) when the power ______ (go) off?
 5. She ______ (carry on) working while everybody else ______ (stop).
-6. What ______ you ______ (do) when the power ______ (go) off?
+6. It ______ (rain) all morning. *(and that is the whole story)*
 
 ---
 

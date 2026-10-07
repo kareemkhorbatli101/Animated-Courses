@@ -55,8 +55,8 @@ Use the network. Name the word at each stage.
 
 Order from **closest** to **furthest**.
 
-> what happened · what you saw · what you said you saw · what was written down ·
-> what was published · what people now remember
+> what was written down · what you saw · what was published · what you said you saw ·
+> what happened · what people now remember
 
 **Mark where it stops being evidence.**
 
@@ -132,8 +132,8 @@ it work?**
 5. *She confirmed the landlord had refused.*
 6. *She alleged the landlord had refused.*
 
-> **A.** neutral · **B.** the writer doubts it · **C.** the claim costs the speaker something ·
-> **D.** it was already known
+> **A.** the claim costs the speaker something · **B.** it was already known ·
+> **C.** neutral · **D.** the writer doubts it
 
 ### 2B · Decoding clinic 🔊 Track 9.2
 
@@ -361,9 +361,10 @@ settle is…"*
 
 Sort all twenty-one into five groups: **neutral · doubting · conceding · confirming · refusing**.
 
-> admit · deny · claim · insist · allege · concede · maintain · acknowledge · confirm · refuse ·
-> recall · stress · point out · go on to say · be quoted as saying · according to ·
-> put it another way · back up · stand by · words to that effect · no comment
+> confirm · according to · be quoted as saying · point out · back up · claim · admit ·
+> go on to say · stand by · put it another way · maintain · no comment ·
+> words to that effect · concede · stress · recall · acknowledge · refuse · insist ·
+> deny · allege
 
 ### 6B · Chunk completion
 
@@ -384,9 +385,9 @@ Six items. The reported words do not change.
 
 > *"The landlord refused to pay."*
 
-1. She ______ that the landlord refused to pay. *(neutral)*
+1. She ______ that the landlord refused to pay. *(it costs her to say so)*
 2. She ______ that the landlord refused to pay. *(you doubt it)*
-3. She ______ that the landlord refused to pay. *(it costs her to say so)*
+3. She ______ that the landlord refused to pay. *(neutral)*
 4. She ______ that the landlord refused to pay. *(you already knew)*
 5. She ______ that the landlord refused to pay. *(she is being contradicted and will not move)*
 6. She ______ that the landlord refused to pay. *(legally unproven)*

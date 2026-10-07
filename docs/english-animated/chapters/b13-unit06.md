@@ -63,8 +63,8 @@ matter much more than it looked.* You will record it again at the end of this un
 
 ### 1B · Sort — the money, the document, or the story?
 
-> naming rights · spin · briefing · retraction · the small print · strings attached ·
-> on the record · in exchange for · a sticking point
+> naming rights · in exchange for · the small print · retraction · spin · briefing ·
+> a sticking point · on the record · strings attached
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -132,10 +132,10 @@ agreement runs to nine pages. **Guess: which page is the problem?**
 
 **Listen again. Choose the best answer.**
 
-1. The sticking point is **the name / clause 9.4 / the money**.
-2. The sponsor says the clause is **standard / new / negotiable**.
+1. The sticking point is **the name / the money / clause 9.4**.
+2. The sponsor says the clause is **standard / negotiable / new**.
 3. The Dean has **signed / refused / asked for time**.
-4. Somebody uses the word *stakeholder* **once / twice / four times**.
+4. Somebody uses the word *stakeholder* **four times / once / twice**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -387,8 +387,8 @@ Three of four comparable agreements have **no review clause at all**.
 
 Four columns: ***of* · *for* · *on* · *against***.
 
-> accuse somebody · blame somebody · congratulate somebody · warn somebody · insist ·
-> remind somebody · advise somebody
+> insist · congratulate somebody · advise somebody · warn somebody · accuse somebody ·
+> blame somebody · remind somebody
 
 ### 6B · Chunk completion
 
@@ -433,14 +433,14 @@ He **denied doing** it. He **admitted** writing the first draft. He **insisted o
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. They accused them to write a veto.
-2. They accused them of writing a veto.
-3. He insisted to see the draft.
-4. He insisted on seeing the draft.
-5. She congratulated them for the gift.
-6. She warned them against saying it.
-7. He denied to write it.
-8. He reminded her to read it.
+1. They accused them of writing a veto.
+2. She warned them against saying it.
+3. She congratulated them for the gift.
+4. He insisted to see the draft.
+5. He denied to write it.
+6. He reminded her to read it.
+7. They accused them to write a veto.
+8. He insisted on seeing the draft.
 
 ---
 

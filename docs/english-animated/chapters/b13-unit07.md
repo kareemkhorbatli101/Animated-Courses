@@ -65,8 +65,8 @@ checked, and that you still half believe.* You will record it again at the end o
 
 ### 1B · Sort — the claim, the checking, or the damage?
 
-> circulate · substantiate · unverified · credible · it is said that · widely believed ·
-> no evidence that · a matter of record · take it seriously
+> substantiate · take it seriously · no evidence that · it is said that · credible ·
+> circulate · a matter of record · widely believed · unverified
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -135,9 +135,9 @@ Nobody has made a complaint. **Guess: what does the head of department do?**
 **Listen again. Choose the best answer.**
 
 1. The three versions are **the same / related / unconnected**.
-2. A formal complaint has been made **by one person / by nobody / by the department**.
-3. The head of department wants to **act now / wait / find the source**.
-4. Somebody says the phrase *due process* **approvingly / dismissively / twice**.
+2. A formal complaint has been made **by one person / by the department / by nobody**.
+3. The head of department wants to **find the source / act now / wait**.
+4. Somebody says the phrase *due process* **twice / dismissively / approvingly**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -387,8 +387,8 @@ The panel record shows **three interviewers** where the usual number is four.
 
 Three columns: **neutral · doubtful · openly sceptical**.
 
-> reportedly · allegedly · apparently · supposedly · ostensibly · purportedly ·
-> seemingly · arguably · presumably
+> reportedly · ostensibly · apparently · supposedly · purportedly · allegedly ·
+> seemingly · presumably · arguably
 
 ### 6B · Chunk completion
 
@@ -434,14 +434,14 @@ this unit and the one most often left out.
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. He is said that he left.
-2. It is said that he left.
-3. He is said to have left.
-4. He is thought to have been interviewed by two people.
-5. It is thought him to be fifty.
-6. He is believed to be fifty.
-7. According to sources, nobody has complained.
-8. None of which have been established.
+1. He is believed to be fifty.
+2. It is thought him to be fifty.
+3. He is said that he left.
+4. None of which have been established.
+5. It is said that he left.
+6. He is said to have left.
+7. He is thought to have been interviewed by two people.
+8. According to sources, nobody has complained.
 
 ---
 

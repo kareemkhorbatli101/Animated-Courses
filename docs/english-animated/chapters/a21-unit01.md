@@ -55,8 +55,8 @@ Match each word to the right place on the picture.
 
 Put these in two columns.
 
-> I understood it. · I forgot it. · I made a mistake. · I explained it to somebody.
-> · I had to repeat it. · I got better at it.
+> I had to repeat it. · I made a mistake. · I forgot it. · I got better at it. ·
+> I explained it to somebody. · I understood it.
 
 **One of them could go in both columns.** Which, and why?
 
@@ -326,7 +326,7 @@ The noticeboard says you need **three years** before you can apply for a permane
 
 Put each one in the right column.
 
-> 2019 · three years · Monday · a long time · breakfast · six months · I was ten · ages
+> Monday · ages · three years · breakfast · I was ten · a long time · 2019 · six months
 
 | **a POINT** (use *since*) | **a LENGTH** (use *for*) |
 |---|---|
@@ -359,12 +359,12 @@ Put each word in the right sentence: **already · yet · still · recently · la
 
 Six items. Past simple or present perfect?
 
-1. I ______ (work) here since March.
-2. I ______ (work) there in 2019.
-3. She ______ (live) in three countries. *(in her life)*
-4. She ______ (live) in Penang from 2015 to 2018.
-5. ______ you ever ______ (try) it?
-6. ______ you ______ (try) it yesterday?
+1. She ______ (live) in three countries. *(in her life)*
+2. ______ you ever ______ (try) it?
+3. ______ you ______ (try) it yesterday?
+4. I ______ (work) here since March.
+5. I ______ (work) there in 2019.
+6. She ______ (live) in Penang from 2015 to 2018.
 
 ---
 

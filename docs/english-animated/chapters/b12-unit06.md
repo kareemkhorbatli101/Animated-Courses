@@ -58,8 +58,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> ward · referral · consent · theatre · admission · discharge · procedure · follow-up ·
-> consultation
+> theatre · procedure · ward · admission · consent · consultation · discharge ·
+> follow-up · referral
 
 **Two of them are an event and a document with the same name.** Which, and how can you tell
 which is meant?
@@ -121,10 +121,10 @@ interpreting service must be used. **Guess: how long is the queue?**
 
 **Listen again. Choose the best answer.**
 
-1. The telephone service queue is about **forty minutes / two hours / four hours**.
-2. The daughter is **sixteen / twenty-four / forty-one**.
-3. The policy exists mainly to protect **the hospital / the patient / the family**.
-4. The procedure is **urgent / today, not urgent / next week**.
+1. The telephone service queue is about **two hours / forty minutes / four hours**.
+2. The daughter is **sixteen / forty-one / twenty-four**.
+3. The policy exists mainly to protect **the hospital / the family / the patient**.
+4. The procedure is **today, not urgent / next week / urgent**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -373,7 +373,7 @@ Three sentences.
 
 Three columns.
 
-> make · let · allow · require · oblige · entitle · cause · get · have · permit
+> require · have · allow · permit · make · entitle · cause · let · get · oblige
 
 **Two of them change column when they go into the passive.** Which?
 
@@ -410,14 +410,14 @@ something that happened to them. **The words do not change. What does?**
 
 Eight items. Passive, modal passive, perfect passive or causative.
 
-1. Her doctor referred her.
-2. Somebody should have seen her in March.
-3. They can do it under local.
-4. She is arranging for somebody to do it on Thursday.
-5. The policy does not permit her daughter to interpret.
-6. They forced her to wait.
-7. Nobody explained it to her.
-8. I arranged for my notes to be sent. *(informal)*
+1. They can do it under local.
+2. They forced her to wait.
+3. I arranged for my notes to be sent. *(informal)*
+4. Somebody should have seen her in March.
+5. She is arranging for somebody to do it on Thursday.
+6. Nobody explained it to her.
+7. Her doctor referred her.
+8. The policy does not permit her daughter to interpret.
 
 ---
 

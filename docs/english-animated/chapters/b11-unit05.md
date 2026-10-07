@@ -55,8 +55,8 @@ Use the network. Name the word at each stage.
 
 Put these six decisions in order, from **easiest to automate** to **hardest**.
 
-> who gets the last desk · when the bins go out · who covers a sick shift ·
-> who gets a reference · who is let go · who is told first
+> who covers a sick shift · when the bins go out · who gets the last desk ·
+> who is told first · who is let go · who gets a reference
 
 **Mark the point where you would stop.** Then find somebody who marked it somewhere else.
 
@@ -133,7 +133,8 @@ already knows that is not the point?**
 5. *If she asks, I'll explain it to her.*
 6. *If it were up to me, I'd let people swap.*
 
-> **A.** always true · **B.** a real possibility, now or soon · **C.** not real — imagined
+> **A.** always true · **B.** not real — imagined ·
+> **C.** a real possibility, now or soon
 
 ### 2B · Decoding clinic 🔊 Track 5.2
 
@@ -359,10 +360,10 @@ should cost thirty seconds.** Two sentences on whether both can be true. The sec
 
 Put all twenty-one on a line from **a direct cause** to **a loose association**.
 
-> consequence · outcome · trade-off · repercussion · knock-on · inadvertently · consequently ·
-> thereby · otherwise · conversely · hence · as a result · which means that · the upshot is ·
-> provided that · as long as · in which case · worst case · end up · result in ·
-> one thing leads to another
+> one thing leads to another · otherwise · trade-off · as a result · inadvertently ·
+> which means that · conversely · hence · as long as · consequence · in which case ·
+> repercussion · consequently · outcome · worst case · the upshot is · thereby · end up ·
+> knock-on · result in · provided that
 
 ### 6B · Chunk completion
 
@@ -381,11 +382,11 @@ Which of these would you write in a report, and which only say out loud? Four be
 Six items. The context decides.
 
 1. If you ______ (press) override, it ______ (log) your name. *(every time)*
-2. If she ______ (not come) in tomorrow, I ______ (cover) it. *(real)*
-3. If I ______ (be) the landlord, I ______ (fix) it. *(not real)*
-4. If we ______ (switch) it off today, we ______ (lose) the audit trail. *(real)*
-5. If water ______ (get) in, the board ______ (fail). *(always)*
-6. If they ______ (ask) us first, none of this ______ (happen). *(not real)*
+2. If I ______ (be) the landlord, I ______ (fix) it. *(not real)*
+3. If we ______ (switch) it off today, we ______ (lose) the audit trail. *(real)*
+4. If they ______ (ask) us first, none of this ______ (happen). *(not real)*
+5. If she ______ (not come) in tomorrow, I ______ (cover) it. *(real)*
+6. If water ______ (get) in, the board ______ (fail). *(always)*
 
 ---
 

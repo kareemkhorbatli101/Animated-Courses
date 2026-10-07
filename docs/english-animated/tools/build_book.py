@@ -89,6 +89,16 @@ in the series plan.
         parts.append(md2 + '\n\n')
         print(f'   unit {n}: {len(figs)} figures')
 
+    # the answer key, as a back section of the same volume
+    key = ROOT / 'keys' / f'{book}-answers.md'
+    if key.exists():
+        body = key.read_text(encoding='utf-8')
+        body = body.split('\n', 1)[1] if body.startswith('# ') else body
+        parts.append('# Answer Key\n' + body + '\n\n')
+        print('   answer key appended')
+    else:
+        print('   WARNING no answer key')
+
     src = out / 'book.md'
     src.write_text('\n'.join(parts), encoding='utf-8')
     name = f'EnglishAnimated_{code.replace(".", "")}_{title.replace(" ", "")}'

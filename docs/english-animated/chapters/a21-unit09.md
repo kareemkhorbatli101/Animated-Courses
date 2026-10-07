@@ -54,7 +54,7 @@ Match each word to one place on the map.
 
 Two columns.
 
-> share · track · delete · follow · record · block · access · sign up · privacy · data
+> data · follow · record · access · privacy · share · sign up · delete · block · track
 
 **Two of them are in both columns depending on who is holding the phone.** Which?
 
@@ -354,8 +354,8 @@ The 2026 contract answers **two** of them.
 
 Two columns. **Two words go in both.**
 
-> quick · quickly · slow · slowly · careful · carefully · bad · badly · good · well ·
-> loud · loudly · quiet · quietly · clear · clearly · hard · fast
+> hard · loud · quick · well · badly · fast · loudly · quickly · quietly · slowly · slow ·
+> bad · clear · good · careful · carefully · quiet · clearly
 
 ### 6B · Chunk completion
 
@@ -386,12 +386,12 @@ Correct each sentence. **One of them is already correct.**
 
 Six items.
 
-1. It's ______ expensive for us.
-2. It's ______ expensive that nobody has bought one.
-3. It isn't cheap ______ .
-4. It's ______ a good system.
-5. There are ______ many settings.
-6. We haven't got ______ information.
+1. There are ______ many settings.
+2. It isn't cheap ______ .
+3. It's ______ expensive that nobody has bought one.
+4. We haven't got ______ information.
+5. It's ______ expensive for us.
+6. It's ______ a good system.
 
 ---
 

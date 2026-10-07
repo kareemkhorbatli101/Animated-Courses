@@ -63,8 +63,8 @@ this unit.
 
 ### 1B · Sort — the garden, the document, or the decision?
 
-> yield · plot · harvest · curriculum · a design brief · in practice · by design ·
-> at the expense of · the whole point
+> yield · a design brief · plot · curriculum · in practice · the whole point · by design ·
+> at the expense of · harvest
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -132,10 +132,10 @@ campus kitchen has started taking from it. **Guess: what is the argument about?*
 
 **Listen again. Choose the best answer.**
 
-1. The twelve small squares exist **for yield / for teaching / for both**.
-2. The kitchen wants **more crops / fewer crops / the same crops**.
+1. The twelve small squares exist **for teaching / for both / for yield**.
+2. The kitchen wants **the same crops / fewer crops / more crops**.
 3. The two uses are **compatible / incompatible / compatible at a small scale**.
-4. Somebody has already **scaled down / scaled up / changed nothing**.
+4. Somebody has already **scaled down / changed nothing / scaled up**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -382,8 +382,8 @@ The kitchen wants **more of the things people actually eat**.
 
 Three columns.
 
-> so that · in order to · so as to · such that · because · since · as · therefore ·
-> thus · hence · consequently · whereby · owing to
+> consequently · so as to · so that · such that · therefore · whereby · because ·
+> owing to · as · hence · in order to · thus · since
 
 ### 6B · Chunk completion
 
@@ -424,14 +424,14 @@ The sentence that closes an explanation. It only works if what came before it wa
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. The beds are small in order to students can reach the middle.
-2. The beds are small so that students can reach the middle.
-3. The yield is such low that nobody notices.
-4. It is such a low yield that nobody notices.
-5. Owing to the yield is low, the kitchen looked elsewhere.
+1. It is such a low yield that nobody notices.
+2. The beds cannot be merged; hence the twelve crops.
+3. Owing to the yield is low, the kitchen looked elsewhere.
+4. The yield is such low that nobody notices.
+5. The beds are small so that students can reach the middle.
 6. Owing to the low yield, the kitchen looked elsewhere.
 7. We planted twelve crops so as to showing twelve cycles.
-8. The beds cannot be merged; hence the twelve crops.
+8. The beds are small in order to students can reach the middle.
 
 ---
 

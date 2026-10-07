@@ -92,7 +92,7 @@ reception desk in section, with twelve objects and twelve empty labels.)
 
 Put each word in the right box. **Two words can go in both. Which two, and why?**
 
-> name · city · class · teacher · country · student · friend · address · school · woman
+> country · woman · class · city · name · friend · address · teacher · school · student
 
 | **PEOPLE** | **PLACES** | **BOTH** |
 |---|---|---|

@@ -58,8 +58,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> curriculum · apprenticeship · blind spot · feedback · mentorship · ignorance · insight ·
-> competence · confidence
+> insight · ignorance · blind spot · mentorship · curriculum · competence · feedback ·
+> apprenticeship · confidence
 
 **One of them moves column depending entirely on who your supervisor was.** Which?
 
@@ -122,9 +122,9 @@ he is good. They are not the same field. **Guess: which does his supervisor reco
 **Listen again. Choose the best answer.**
 
 1. The shortage speciality has **two / nine / twenty-two** unfilled posts in the region.
-2. He is better at the other one by **a little / a lot / he does not know**.
-3. His supervisor's advice is **clear / deliberately not clear / about something else**.
-4. Carla's contribution is about **money / staying / what nobody told her**.
+2. He is better at the other one by **he does not know / a little / a lot**.
+3. His supervisor's advice is **deliberately not clear / about something else / clear**.
+4. Carla's contribution is about **what nobody told her / staying / money**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -373,8 +373,8 @@ The curriculum gives the nearest domain **two hours, in week nine**.
 
 Three columns.
 
-> wish · rather · suppose · if only · ideally · preferably · hypothetically · supposedly ·
-> regrettably · admittedly · frankly
+> supposedly · frankly · regrettably · wish · ideally · rather · preferably · if only ·
+> suppose · hypothetically · admittedly
 
 **Two of them are not about the future at all and are regularly used as if they were.** Which?
 
@@ -413,12 +413,12 @@ Eight items. Give the *wish*, *if only*, *would rather* or *suppose* form.
 
 1. I don't know. *(now)*
 2. Nobody told me. *(the past)*
-3. She keeps changing it. *(a complaint)*
+3. What if we asked them? *(hypothesis)*
 4. I can't help. *(ability, now)*
 5. I didn't ask. *(with force)*
-6. Please don't say anything. *(preference, politely)*
-7. What if we asked them? *(hypothesis)*
-8. I was too sure in my first year. *(the past, about yourself)*
+6. She keeps changing it. *(a complaint)*
+7. I was too sure in my first year. *(the past, about yourself)*
+8. Please don't say anything. *(preference, politely)*
 
 ---
 

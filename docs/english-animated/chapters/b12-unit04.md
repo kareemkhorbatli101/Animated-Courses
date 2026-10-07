@@ -58,8 +58,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> trace · consistent · sequence · residue · inconsistent · timeline · angle · reconstruct ·
-> evidence
+> sequence · inconsistent · residue · evidence · consistent · reconstruct · trace ·
+> timeline · angle
 
 **One of them is not evidence until you have two of something else.** Which, and why?
 
@@ -119,9 +119,9 @@ available. **Guess: what will they disagree about?**
 **Listen again. Choose the best answer.**
 
 1. They agree that there were **one / two / at least two** people.
-2. The dressing pack suggests somebody **started and stopped / never started / finished**.
+2. The dressing pack suggests somebody **finished / started and stopped / never started**.
 3. The cold coffee has been there for about **ten minutes / forty minutes / two hours**.
-4. The one thing they cannot explain is the **phone / door wedge / monitor**.
+4. The one thing they cannot explain is the **door wedge / phone / monitor**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -373,8 +373,8 @@ Three sentences.
 
 Three columns.
 
-> certainly · definitely · undoubtedly · doubtless · presumably · plausibly · arguably ·
-> conceivably · seemingly · apparently · implausibly
+> apparently · plausibly · doubtless · presumably · certainly · implausibly ·
+> conceivably · undoubtedly · seemingly · definitely · arguably
 
 **Two of them belong in the third column and are regularly used as if they belonged in the
 first.** Which?
@@ -412,14 +412,14 @@ first.** Which?
 
 Eight items. Give the certainty level asked for, about the past.
 
-1. Two people were here. *(near certain)*
-2. Nobody else was here. *(near certain, negative)*
-3. He was called away. *(strengthened possible)*
-4. It was an arrest. *(improbable)*
-5. She made the coffee. *(weak possible)*
-6. The monitor was switched on before the gloves were used. *(probable)*
-7. The door was wedged by the porter. *(you are reporting what somebody else said)*
-8. The decision was made on arrival order. *(you could argue it)*
+1. The monitor was switched on before the gloves were used. *(probable)*
+2. He was called away. *(strengthened possible)*
+3. It was an arrest. *(improbable)*
+4. She made the coffee. *(weak possible)*
+5. Nobody else was here. *(near certain, negative)*
+6. Two people were here. *(near certain)*
+7. The decision was made on arrival order. *(you could argue it)*
+8. The door was wedged by the porter. *(you are reporting what somebody else said)*
 
 ---
 

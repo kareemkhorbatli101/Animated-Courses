@@ -63,8 +63,8 @@ once to a twelve-year-old.* You will record it again at the end of this unit.
 
 ### 1B · Sort — the writing, the marking, or the speaker?
 
-> fluency · vocabulary · marking · penalty · mark down · native-like · plain English ·
-> in your own words · the house style
+> native-like · the house style · fluency · penalty · marking · vocabulary ·
+> plain English · mark down · in your own words
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -132,10 +132,10 @@ correct. **Guess: what is the marker's reason?**
 
 **Listen again. Choose the best answer.**
 
-1. The marker thinks the English is **wrong / unidiomatic / unclear**.
-2. The student has **asked for a remark / accepted it / asked what the rule is**.
-3. The criterion mentions **grammar / expression / nothing about language**.
-4. The unit chair has seen this **for the first time / before / eleven times this year**.
+1. The marker thinks the English is **wrong / unclear / unidiomatic**.
+2. The student has **asked what the rule is / accepted it / asked for a remark**.
+3. The criterion mentions **expression / nothing about language / grammar**.
+4. The unit chair has seen this **eleven times this year / before / for the first time**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -385,7 +385,7 @@ Eleven reports have **lost marks** for language this year.
 
 Four columns: **completely · continuing · away from · towards**.
 
-> up · out · off · over · through · down · on · away · back · into · around
+> down · off · back · on · over · around · up · into · away · through · out
 
 ### 6B · Chunk completion
 
@@ -431,13 +431,13 @@ Part 2, and it is also what the student should have been told in week one.
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
 1. He could not put it up with.
-2. He could not put up with it.
-3. She marked down her.
-4. She marked her down.
+2. She marked her down.
+3. He could not put up with it.
+4. She got across it.
 5. She got across the idea.
-6. She got across it.
-7. We are looking forward to it.
-8. We are looking it forward to.
+6. She marked down her.
+7. We are looking it forward to.
+8. We are looking forward to it.
 
 ---
 

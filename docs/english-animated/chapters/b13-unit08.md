@@ -63,8 +63,8 @@ did their own job correctly.* You will record it again at the end of this unit.
 
 ### 1B · Sort — the system, the person, or the aftermath?
 
-> escalate · warning · trigger · review · with hindsight · in retrospect ·
-> fall through the cracks · flag it up · the duty of care · nobody owned it
+> with hindsight · in retrospect · nobody owned it · the duty of care · warning ·
+> fall through the cracks · flag it up · escalate · trigger · review
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -134,11 +134,11 @@ three?**
 
 **Listen again. Choose the best answer.**
 
-1. The three warnings went to **one person / two people / three people**.
-2. The threshold for an automatic alert is **three absences / four / six**.
+1. The three warnings went to **two people / one person / three people**.
+2. The threshold for an automatic alert is **six / four / three absences**.
 3. Somebody says *it was not my responsibility* **and is right / and is wrong / and nobody
    answers**.
-4. The handover happened in **week 2 / week 6 / week 9**.
+4. The handover happened in **week 2 / week 9 / week 6**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -394,8 +394,8 @@ The template has **eleven sections** and runs to **four pages**.
 
 Three columns: **certain · probable · possible**.
 
-> clearly · demonstrably · foreseeably · conceivably · might well have · could have ·
-> should have · ought to have
+> clearly · should have · conceivably · foreseeably · could have · ought to have ·
+> demonstrably · might well have
 
 ### 6B · Chunk completion
 
@@ -438,14 +438,14 @@ Three words, placed after a *should have*, and they turn an accusation into a fi
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. She needn't have come in — so she stayed at home.
+1. He should have asked, and he didn't.
 2. She needn't have come in, but she did.
-3. He should have asked, and he didn't.
-4. He should asked.
-5. It ought to have included the open cases.
-6. It ought have included the open cases.
-7. He might well have been missed twice.
-8. He could have asked, and nothing told him to, so it is his fault.
+3. She needn't have come in — so she stayed at home.
+4. He could have asked, and nothing told him to, so it is his fault.
+5. He might well have been missed twice.
+6. It ought to have included the open cases.
+7. It ought have included the open cases.
+8. He should asked.
 
 ---
 

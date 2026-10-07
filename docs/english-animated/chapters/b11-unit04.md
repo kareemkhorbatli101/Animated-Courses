@@ -55,7 +55,8 @@ Use the network. Each line is a duty. Name the word at each node.
 
 Order these from **absolute** to **optional**.
 
-> a right · a duty of care · standard practice · a recommendation · a courtesy · a preference
+> a courtesy · a preference · a duty of care · standard practice · a right ·
+> a recommendation
 
 **Where does it stop being enforceable?** Mark it. Then argue about where you marked it.
 
@@ -126,8 +127,8 @@ Why not?**
 5. *We mustn't block that door.*
 6. *We weren't allowed to block it.*
 
-> **A.** obligation · **B.** no obligation · **C.** prohibition
-> And then: **which three are about now, and which three are about then?**
+> **A.** prohibition And then: **which three are about now, and which three are about then?** · **B.** no obligation ·
+> **C.** obligation
 
 ### 2B · Decoding clinic 🔊 Track 4.2
 
@@ -317,9 +318,10 @@ sentences on how that is possible. The second begins *"The gap is…"*
 
 Put all twenty-one on a line from **binding** to **entirely optional**.
 
-> mandatory · compulsory · obliged · required · binding · permitted · voluntary · optional ·
-> exempt · banned · discretionary · be supposed to · be meant to · have no choice but to ·
-> be free to · didn't have to · should have · needn't have · get out of · let off · it's up to you
+> discretionary · obliged · be supposed to · be meant to · optional · compulsory ·
+> needn't have · have no choice but to · voluntary · banned · be free to · let off ·
+> required · get out of · it's up to you · permitted · didn't have to · exempt · binding ·
+> should have · mandatory
 
 ### 6B · Chunk completion
 
@@ -337,12 +339,12 @@ Which of these appear in a contract, and which only in speech? Five appear in bo
 
 Six items. Only the meaning decides.
 
-1. You ______ touch that — it's live.
-2. You ______ stay late; we've finished.
-3. Visitors ______ go past this point.
+1. Staff ______ prop that door open under any circumstances.
+2. Visitors ______ go past this point.
+3. You ______ stay late; we've finished.
 4. You ______ book; just turn up.
 5. We ______ have called a meeting, but it helped.
-6. Staff ______ prop that door open under any circumstances.
+6. You ______ touch that — it's live.
 
 **Then: say in one sentence what each pair would mean if you got it the wrong way round.**
 

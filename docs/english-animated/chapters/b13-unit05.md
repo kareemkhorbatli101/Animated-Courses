@@ -63,8 +63,8 @@ until the last sentence.* You will record it again at the end of this unit.
 
 ### 1B · Sort — before, during, or after the reveal?
 
-> foreshadow · withhold · a slow build · the thing nobody saw · it turns out ·
-> save it for · and that is when · emphasis · focus
+> the thing nobody saw · foreshadow · withhold · and that is when · it turns out · focus ·
+> a slow build · emphasis · save it for
 
 **Three columns. Two of them belong in more than one.** Say which and why.
 
@@ -130,10 +130,10 @@ eleven weeks and written the best essays in the group. **Guess: what does she do
 
 **Listen again. Choose the best answer.**
 
-1. Priya thinks the criterion is **right / wrong / unenforceable**.
-2. Dr Ahmadi says the mark is **hers / the department's / nobody's**.
-3. Thanh **has asked about it / has not asked / asked in week two**.
-4. The deadline is **Friday / Monday / already past**.
+1. Priya thinks the criterion is **unenforceable / wrong / right**.
+2. Dr Ahmadi says the mark is **the department's / nobody's / hers**.
+3. Thanh **asked in week two / has not asked / has asked about it**.
+4. The deadline is **Monday / already past / Friday**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -381,8 +381,8 @@ The handbook says participation means **contributing regularly to seminar discus
 
 Three columns: **a person or thing · an action · a degree**.
 
-> it · what · all · the thing · the reason · the one · merely · precisely · exactly ·
-> specifically · particularly
+> specifically · the one · what · particularly · all · merely · precisely · the thing ·
+> exactly · it · the reason
 
 ### 6B · Chunk completion
 
@@ -425,14 +425,14 @@ Three columns: **a person or thing · an action · a degree**.
 
 Eight items. **Four are wrong. Correct them and say what the rule is.**
 
-1. It was failed the criterion.
-2. It was the criterion that failed.
-3. What I did was read them in order.
-4. What I did was reading them in order.
-5. All I did was asked a question.
-6. All I did was ask a question.
-7. The reason why he said nothing is simple.
-8. It was not until then she saw it.
+1. What I did was reading them in order.
+2. All I did was ask a question.
+3. It was failed the criterion.
+4. The reason why he said nothing is simple.
+5. It was not until then she saw it.
+6. It was the criterion that failed.
+7. What I did was read them in order.
+8. All I did was asked a question.
 
 ---
 

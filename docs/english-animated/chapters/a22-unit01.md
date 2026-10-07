@@ -55,7 +55,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> wall · prepare · lucky · damage · protect · foolish · shelter · safe · recover · rubble
+> protect · recover · wall · rubble · prepare · shelter · damage · foolish · lucky ·
+> safe
 
 **Two of them are only ever said afterwards.** Which, and why?
 
@@ -353,7 +354,7 @@ The policy covers **alternative accommodation for up to 90 days**.
 
 Put these on a line from most certain to least.
 
-> certainly · probably · maybe · supposing · honestly · otherwise
+> honestly · otherwise · probably · certainly · maybe · supposing
 
 **Two of them are not about certainty at all.** Which, and what are they doing?
 
@@ -385,11 +386,11 @@ Put one in each, and then say what each one assumes the listener already knows.
 Six items. Choose the form, and say why that one.
 
 1. If it ______ (rain) tomorrow, we ______ (cancel). *(the forecast says it will)*
-2. If it ______ (rain) every day for a month, the wall ______ (not hold). *(it never has)*
-3. If I ______ (be) you, I ______ (go) now.
+2. If I ______ (see) him, I ______ (tell) him. *(I probably will see him)*
+3. If it ______ (rain) every day for a month, the wall ______ (not hold). *(it never has)*
 4. If you ______ (leave) now, you ______ (catch) the four o'clock.
 5. If the hall ______ (not be) there, where ______ people ______ (go) ?
-6. If I ______ (see) him, I ______ (tell) him. *(I probably will see him)*
+6. If I ______ (be) you, I ______ (go) now.
 
 ---
 

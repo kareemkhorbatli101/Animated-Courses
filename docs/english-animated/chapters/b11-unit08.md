@@ -55,7 +55,8 @@ Use the network. Name the word at each stage.
 
 Order from **changes in a season** to **takes a generation**.
 
-> what you plant · how you irrigate · the soil · who you sell to · the rotation · the terraces
+> the soil · who you sell to · the rotation · what you plant · the terraces ·
+> how you irrigate
 
 **Mark the point where it stops being this year's decision.**
 
@@ -364,9 +365,10 @@ sentences on whether it helped. The second begins *"The number is true, and…"*
 
 Sort all twenty-one. Six belong in both.
 
-> whereby · wherein · whose · thereof · respectively · namely · notably · chiefly · largely ·
-> partly · solely · in which · of which · of whom · at which point · the extent to which ·
-> none of which · most of which · stem from · give rise to · all of which is to say
+> notably · whose · whereby · wherein · none of which · partly · of which · stem from ·
+> at which point · chiefly · the extent to which · all of which is to say · of whom ·
+> most of which · namely · solely · largely · give rise to · thereof · respectively ·
+> in which
 
 ### 6B · Chunk completion
 
@@ -385,11 +387,11 @@ and would still be said out loud.**
 
 Six items. Reduce where you can; mark where you cannot and say why.
 
-1. The grower who supplies us has eleven acres.
-2. The grower who we buy from has eleven acres.
-3. The variety which was planted in 2019 needs less water.
-4. The cooperative which sets the price has four hundred members.
-5. The hedge which was planted in 1984 is still there.
+1. The grower who we buy from has eleven acres.
+2. The grower who supplies us has eleven acres.
+3. The cooperative which sets the price has four hundred members.
+4. The hedge which was planted in 1984 is still there.
+5. The variety which was planted in 2019 needs less water.
 6. The field which lies fallow this year was planted in 2023.
 
 ---

@@ -56,8 +56,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> craving · trigger · willpower · dependence · distraction · relapse · attention · substitute ·
-> abstinence
+> dependence · distraction · trigger · relapse · craving · willpower · attention ·
+> substitute · abstinence
 
 **One of them is almost always described as being in the mind and is almost always in the
 situation.** Which?
@@ -118,8 +118,8 @@ it. **Guess: what is the argument against it?**
 **Listen again. Choose the best answer.**
 
 1. The rota permits up to **seven / ten / twelve** consecutive nights.
-2. She is doing it because of **preference / money / childcare**.
-3. The colleague's objection is about **her / the patients / both**.
+2. She is doing it because of **money / preference / childcare**.
+3. The colleague's objection is about **both / her / the patients**.
 4. Her own account of the eleventh night is **confident / vague / detailed**.
 
 **Noticing.** Four sentences from the recording.
@@ -368,8 +368,8 @@ The incident log for those eleven nights shows **two near misses, neither involv
 
 Three columns.
 
-> enjoy · decide · stop · avoid · remember · manage · try · forget · consider · prefer ·
-> go on · resent · need
+> go on · try · forget · manage · consider · stop · avoid · prefer · decide · remember ·
+> need · resent · enjoy
 
 **Two of them take both with almost no change of meaning.** Which?
 
@@ -404,14 +404,14 @@ Two words that are an apology, an explanation and a refusal of responsibility at
 
 Eight items. Choose the form and explain the meaning you have chosen.
 
-1. I stopped ______ (smoke) in 2019.
-2. On the way home I stopped ______ (buy) milk.
-3. I remember ______ (lock) it.
+1. I remember ______ (lock) it.
+2. Try ______ (finish) by four.
+3. He went on ______ (work) all night.
 4. I remembered ______ (lock) it.
-5. Try ______ (move) it to the other side.
-6. Try ______ (finish) by four.
-7. He went on ______ (work) all night.
-8. The window needs ______ (clean).
+5. I stopped ______ (smoke) in 2019.
+6. Try ______ (move) it to the other side.
+7. The window needs ______ (clean).
+8. On the way home I stopped ______ (buy) milk.
 
 ---
 
