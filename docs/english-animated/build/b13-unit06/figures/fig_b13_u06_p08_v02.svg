@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>A report of a meeting, in section</title>
+<desc>A cutaway of a meeting report in four layers from the claims and the counter-claims to the sticking point and the silences.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="154" y="104" width="592" height="622" rx="0" fill="#F3ECE0"/>
+<rect x="170" y="120" width="560" height="590" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4"/>
+<rect x="170" y="120.0" width="560" height="147.5" rx="0" fill="#E4ECEF" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="267.5" width="560" height="147.5" rx="0" fill="#EFE2DD" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="415.0" width="560" height="147.5" rx="0" fill="#F6F0E4" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="562.5" width="560" height="147.5" rx="0" fill="#F2EDE2" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 720 692 L 730 710" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the claims</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Each with a named owner and the verb's own preposition</text>
+<text x="190" y="299.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the counter-claims</text>
+<text x="190" y="325.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Same treatment, same precision, no softening</text>
+<text x="190" y="447.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the sticking point</text>
+<text x="190" y="473.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">One word: request, not suggest. Not &quot;publication&quot;</text>
+<text x="190" y="594.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">what was not said</text>
+<text x="190" y="620.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">The comparable agreements were in the room, in a folder</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A report of a meeting, in section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four layers. Every claim in the top two has a name on it.</text>
+<circle cx="736" cy="190.8" r="4.5" fill="#C86B2B"/>
+<path d="M 736 190.8 L 866 190.8 L 866 190.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="195.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A claim with no owner is the</text>
+<text x="880" y="216.10000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">most dangerous line in a</text>
+<text x="880" y="236.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">document</text>
+<circle cx="736" cy="344.2" r="4.5" fill="#C86B2B"/>
+<path d="M 736 344.2 L 866 344.2 L 866 344.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="349.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">If one side is reported more</text>
+<text x="880" y="369.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">precisely, the report has</text>
+<text x="880" y="389.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">taken a side</text>
+<circle cx="736" cy="485.8" r="4.5" fill="#C86B2B"/>
+<path d="M 736 485.8 L 866 485.8 L 866 485.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="490.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">They disagreed about</text>
+<text x="880" y="511.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">publication is not a sticking</text>
+<text x="880" y="531.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">point. It is a topic</text>
+<circle cx="736" cy="639.2" r="4.5" fill="#C86B2B"/>
+<path d="M 736 639.2 L 866 639.2 L 866 639.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="644.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A silence is reportable, and</text>
+<text x="880" y="664.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">it is often the only thing</text>
+<text x="880" y="684.8000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">that is</text>
+</g>
+</svg>

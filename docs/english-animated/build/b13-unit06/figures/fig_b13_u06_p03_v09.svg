@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The preposition is part of the verb</title>
+<desc>A branching diagram of reporting verb patterns, each branch showing the preposition and an example sentence.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="380.0" r="12" fill="#1C2B33"/>
+<text x="160" y="422.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">she reported it</text>
+</g>
+<g id="20_subject">
+<path d="M 160 380.0 C 440.6 380.0 440.6 160.0 721.2 160.0" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#A8372E"/>
+<path d="M 160 380.0 C 440.6 380.0 440.6 252.0 721.2 252.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,252.0 705.2,244.0 705.2,260.0" fill="#1F4E5F"/>
+<path d="M 160 380.0 C 440.6 380.0 440.6 344.0 721.2 344.0" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,344.0 705.2,336.0 705.2,352.0" fill="#C86B2B"/>
+<path d="M 160 380.0 C 440.6 380.0 440.6 436.0 721.2 436.0" fill="none" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,436.0 705.2,428.0 705.2,444.0" fill="#D9A441"/>
+<path d="M 160 380.0 C 440.6 380.0 440.6 528.0 721.2 528.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,528.0 705.2,520.0 705.2,536.0" fill="#2E6F5E"/>
+<path d="M 160 380.0 C 440.6 380.0 440.6 620.0 721.2 620.0" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,620.0 705.2,612.0 705.2,628.0" fill="#8C6A9E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The preposition is part of the verb</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">There is no rule behind this. Learn the verb with what follows it, or you have not learned the verb.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="start" font-weight="700" font-style="normal">of + -ing</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">accuse somebody of writing it · remind somebody of</text>
+<text x="739.2" y="195.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">the date</text>
+<text x="739.2" y="244.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">to + infinitive</text>
+<text x="739.2" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">persuade / urge / advise somebody to wait</text>
+<text x="739.2" y="336.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">for + -ing or noun</text>
+<text x="739.2" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">blame somebody for the delay</text>
+<text x="739.2" y="428.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="700" font-style="normal">on + noun</text>
+<text x="739.2" y="454.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">congratulate somebody on the gift · insist on seeing</text>
+<text x="739.2" y="471.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">it</text>
+<text x="739.2" y="520.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">against + -ing</text>
+<text x="739.2" y="546.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">warn somebody against saying it</text>
+<text x="739.2" y="612.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">bare -ing, no object</text>
+<text x="739.2" y="638.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">deny writing it · admit writing it</text>
+</g>
+</svg>

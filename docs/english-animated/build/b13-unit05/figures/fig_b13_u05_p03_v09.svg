@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540">
+<title>One sentence, three ways to point at it</title>
+<desc>A sentence shown with brackets marking the parts that an it-cleft, a wh-cleft and an all-cleft each put in the spotlight.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="540" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="282.0" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The</text>
+<text x="526.0" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">criterion</text>
+<text x="770.0" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">failed</text>
+<text x="1014.0" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<text x="1258.0" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">student</text>
+<path d="M 410.0 304.0 L 410.0 318.0 L 642.0 318.0 L 642.0 304.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 654.0 304.0 L 654.0 318.0 L 1374.0 318.0 L 1374.0 304.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 166.0 375.6 L 166.0 389.6 L 1374.0 389.6 L 1374.0 375.6" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One sentence, three ways to point at it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The words do not move. The cleft decides which part the reader is to hold.</text>
+<text x="526.0" y="342.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">it was the criterion that</text>
+<text x="526.0" y="361.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">failed</text>
+<text x="1014.0" y="342.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">what the criterion did was fail the student</text>
+<text x="770.0" y="413.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">flat: no spotlight at all, and the reader chooses - which is the risk</text>
+</g>
+</svg>
