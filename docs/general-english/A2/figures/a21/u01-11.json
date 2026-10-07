@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who and when",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    439.8,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina opens her shop at seven.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1089.9,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "First, then",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    367.0,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "First she puts the bread on the shelf, then",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    1216.2,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Usually",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    314.0,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "She usually closes at six.",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    995.4,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the moment",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    443.7,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the moment she is serving a new customer.",
+   "size": 24,
+   "bbox": [
+    670,
+    391.7,
+    1229.5,
+    413.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the paragraph the learner is about to write, in four steps: who and when, then first and then, then a usually sentence, and last one sentence about what is happening at the moment.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "c75b9703e07dd167d63d4ec6ec0a400e911ae9a7188b3c205d16cdeedcd5e802"
+}

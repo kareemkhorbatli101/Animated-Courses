@@ -1,96 +1,144 @@
 {
  "canvas": [
   1440,
-  571
+  812
  ],
  "bounds": [
-  67.0,
-  28.3,
-  1373.0,
-  542.3
+  0,
+  30,
+  1440,
+  782
  ],
  "texts": [
   {
-   "text": "Nurse",
-   "size": 34,
+   "text": "UNIT 1",
+   "size": 40,
    "bbox": [
-    219.0,
-    217.3,
-    331.7,
-    247.7
+    90,
+    104.4,
+    239.9,
+    140.0
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "People and Routines",
+   "size": 72,
+   "bbox": [
+    90,
+    163.7,
+    925.9,
+    226.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "GRAMMAR",
+   "size": 26,
+   "bbox": [
+    106,
+    366.5,
+    259.4,
+    390.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Shop assistant",
-   "size": 34,
+   "text": "Present simple and",
+   "size": 36,
    "bbox": [
-    578.4,
-    217.3,
-    861.6,
-    247.7
+    106,
+    413.5,
+    497.8,
+    445.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Teacher",
-   "size": 34,
+   "text": "present continuous",
+   "size": 36,
    "bbox": [
-    1090.2,
-    217.3,
-    1239.1,
-    247.7
+    106,
+    457.5,
+    499.4,
+    489.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Bus driver",
-   "size": 34,
+   "text": "IN THIS UNIT",
+   "size": 26,
    "bbox": [
-    176.9,
-    488.3,
-    373.8,
-    518.7
+    786,
+    366.5,
+    973.7,
+    390.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Cook",
-   "size": 34,
+   "text": "By the end you can",
+   "size": 30,
    "bbox": [
-    672.9,
-    488.3,
-    767.1,
-    518.7
+    70,
+    588.2,
+    394.3,
+    614.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Student",
-   "size": 34,
+   "text": "I can name the people around me: neighbour, flatmate, colleague.",
+   "size": 30,
    "bbox": [
-    1088.3,
-    488.3,
-    1241.1,
-    518.7
+    128,
+    640.2,
+    1248.3,
+    666.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use the present simple for routines and the present continuous for now.",
+   "size": 26,
+   "bbox": [
+    128,
+    698.5,
+    1269.8,
+    722.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can describe a person\u2019s day in 50\u201370 words.",
+   "size": 30,
+   "bbox": [
+    128,
+    752.2,
+    896.7,
+    778.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 6,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Six cards, each showing a job and the place that job is done: a nurse at a hospital, a shop assistant at a shop, a teacher at a school, a bus driver on a bus, a cook in a kitchen and a student with books.",
+ "alt": "The opening page of Unit 1, People and Routines: the grammar point is the present simple and the present continuous, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  4.989583333333333,
-  1.9791666666666667
+  6.270833333333333,
+  3.53125
  ],
- "sha256": "f35500cf841973612be02907ceaabacd6918d59e3d31e1b6767981f1a4b03b0d"
+ "sha256": "cd969b93a2d7b19daf203c731e9f2112132a6d878b63da597e8a24781b6904af"
 }

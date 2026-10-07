@@ -84,13 +84,15 @@ def h07(u, ctx):
     s = _skip(ctx, u)
     if s: return s
     d = _xml(_docx(ctx, u))
+    col = ctx.typo['layout']['tables']['border_colour'] \
+        if ctx.typo['departures'].get('layout') == 'refined' else 'auto'
     bad = 0
     for tp in re.findall(r'<w:tblPr>.*?</w:tblPr>', d, re.S):
         for e in ctx.typo['tables']['edges']:
-            if f'<w:{e} w:val="single" w:color="auto" w:sz="4"' not in tp:
+            if f'<w:{e} w:val="single" w:color="{col}" w:sz="4"' not in tp:
                 bad += 1
                 break
-    return expect(bad == 0, f'{bad} tables with non-conforming borders')
+    return expect(bad == 0, f'{bad} tables with borders not single/{col}/sz=4')
 
 @check('H08', 'typography.tables', 'Table count within the expected per-unit range')
 def h08(u, ctx):
@@ -155,8 +157,10 @@ def h13(u, ctx):
     s = _skip(ctx, u)
     if s: return s
     d = _xml(_docx(ctx, u))
+    # a bold run inside a table cell is a matching stem, not a heading
+    body = re.sub(r'<w:tbl>.*?</w:tbl>', '', d, flags=re.S)
     bad = []
-    for p in re.findall(r'<w:p\b.*?</w:p>', d, re.S):
+    for p in re.findall(r'<w:p\b.*?</w:p>', body, re.S):
         runs = re.findall(r'<w:r\b.*?</w:r>', p, re.S)
         txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', p)).strip()
         if not txt or '<w:drawing>' in p:
@@ -256,7 +260,9 @@ def h21(u, ctx):
     # The source book is 133 pages for 10 units: 13.3 a unit, measured by
     # converting it with LibreOffice. An earlier 18-page estimate came from a
     # different reference.docx with larger type and is superseded.
-    lo, hi = (11, 17) if u else (150, 230)
+    pu = ctx.typo['departures'].get('pages_per_unit', {'min': 11, 'max': 17})
+    pv = ctx.typo['departures'].get('pages_per_volume', {'min': 150, 'max': 230})
+    lo, hi = (pu['min'], pu['max']) if u else (pv['min'], pv['max'])
     return expect(lo <= n <= hi, f'{n} pages, want {lo}-{hi}')
 
 @check('H22', 'build', 'No missing glyph (tofu) anywhere in the rendered PDF')

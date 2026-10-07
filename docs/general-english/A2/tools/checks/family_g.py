@@ -21,26 +21,34 @@ def _meta(ctx, u, n):
     p = _figpath(ctx, u, n, 'json')
     return json.load(open(p)) if os.path.exists(p) else None
 
+def _slots(ctx):
+    return sorted(ctx.spec['figures']['slots'])
+
+
 def _present(ctx, u):
-    return [n for n in (1, 2, 3, 4) if os.path.exists(_figpath(ctx, u, n, 'png'))]
+    return [n for n in _slots(ctx) if os.path.exists(_figpath(ctx, u, n, 'png'))]
 
 def _skip_if_absent(ctx, u):
     return None if _present(ctx, u) else ok('SKIP: no figures rendered yet (P1 gate)')
 
 
-@check('G01', 'golden.figures.per_unit', 'Exactly 4 figure captions per unit')
+@check('G01', 'golden.figures.per_unit', 'Exactly as many figure captions as the spec sets')
 def g01(u, ctx):
-    return expect(len(u.figures) == 4, f'{len(u.figures)} captions')
+    want = ctx.spec['figures']['per_unit']
+    return expect(len(u.figures) == want, f'{len(u.figures)} captions, want {want}')
 
-@check('G02', 'golden.figures', 'Figures numbered N.1-N.4, no gaps, no duplicates')
+@check('G02', 'golden.figures', 'Figures numbered from 1 up, no gaps, no duplicates')
 def g02(u, ctx):
     nums = sorted(n for _, n, _ in u.figures)
     units = {m for m, _, _ in u.figures}
-    return expect(nums == [1, 2, 3, 4] and units == {u.num}, f'numbers {nums}, unit prefixes {units}')
+    want = _slots(ctx)
+    return expect(nums == want and units == {u.num},
+                  f'numbers {nums} want {want}; unit prefixes {units}')
 
-@check('G03', 'golden.figures.slots', 'Slot placement: N.4 Warm Up, N.1+N.2 Part 1, N.3 Part 5')
+@check('G03', 'golden.figures.slots', 'Every figure sits in the part the spec gives it')
 def g03(u, ctx):
-    want = {1: 'Part 1', 2: 'Part 1', 3: 'Part 5', 4: 'Warm Up'}
+    want = {k: v['part'] for k, v in ctx.spec['figures']['slots'].items()
+            if v['part'] != 'Unit'}
     got = {}
     for p in u.parts:
         for src in [p.leading] + [s.lines for s in p.subs]:
@@ -48,14 +56,20 @@ def g03(u, ctx):
                 m = M.FIGCAP.match(l)
                 if m:
                     got[int(m.group(2))] = p.name
+    # the opener sits above the first part header, so it has no part
+    opener = [k for k, v in ctx.spec['figures']['slots'].items() if v['part'] == 'Unit']
     bad = [f'{k}: {got.get(k)} want {v}' for k, v in want.items() if got.get(k) != v]
+    bad += [f'{k}: opener should sit before Part 1, found in {got[k]}'
+            for k in opener if k in got]
     return expect(not bad, '; '.join(bad))
 
 @check('G04', 'golden.figures.caption_pattern', 'Caption format *Figure N.M · Text.*')
 def g04(u, ctx):
     caps = [l for l in u.lines if l.startswith('*Figure')]
     bad = [c for c in caps if not M.FIGCAP.match(c)]
-    return expect(len(caps) == 4 and not bad, f'{len(caps)} captions, malformed {bad}')
+    want = ctx.spec['figures']['per_unit']
+    return expect(len(caps) == want and not bad,
+                  f'{len(caps)} captions (want {want}), malformed {bad}')
 
 @check('G05', 'golden.figures.caption_pattern', 'Caption ends in a full stop')
 def g05(u, ctx):
@@ -142,9 +156,12 @@ def g11(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
     fp = ctx.typo['figure_placement']
-    BW, BH, DPI = fp['box_in']['w'], fp['box_in']['h'], fp['round_to_dpi']
+    DPI = fp['round_to_dpi']
+    fg = ctx.spec['figures']
     bad = []
     for n in _present(ctx, u):
+        b = fg.get('box_by_slot', {}).get(n) or fg['box_default']
+        BW, BH = b['w'], b['h']
         pw, ph, _, _ = _png_size(_figpath(ctx, u, n, 'png'))
         sc = min(BW / pw, BH / ph)
         w = math.floor(pw * sc * DPI + 0.5) / DPI
@@ -157,18 +174,20 @@ def g11(u, ctx):
                 bad.append(f'{n}: metadata {m["placed_in"]} != law {w:.4f}x{h:.4f}')
     return expect(not bad, '; '.join(bad))
 
-@check('G12', 'golden.figures.slots', 'Each figure caption sits directly under its own heading')
+@check('G12', 'golden.figures.slots', 'No figure is left dangling at the end of a section')
 def g12(u, ctx):
     bad = []
     for p in u.parts:
-        for sub in p.subs:
-            idx = [i for i, l in enumerate(sub.lines) if M.FIGCAP.match(l)]
+        for src, where in [(p.leading, p.name)] + [(s.lines, s.heading) for s in p.subs]:
+            idx = [i for i, l in enumerate(src) if M.FIGCAP.match(l)]
             for i in idx:
-                before = [l for l in sub.lines[:i] if l.strip()]
-                if before:
-                    bad.append(f'{sub.heading}: {len(before)} line(s) before the figure')
-    # the Warm Up figure sits under its own sub-heading too
+                after = [l for l in src[i + 1:] if l.strip()]
+                if not after:
+                    bad.append(f'{where}: figure is the last thing in the section')
+                elif M.FIGCAP.match(after[0]):
+                    bad.append(f'{where}: two figures with no text between them')
     return expect(not bad, '; '.join(bad))
+
 
 @check('G13', 'golden.figures.min_glyph_px', 'No rendered glyph below 22 px')
 def g13(u, ctx):
@@ -270,7 +289,9 @@ def g18(u, ctx):
             continue
         for t in m.get('texts', []):
             for w in L.tokens(t['text']):
-                if len(w) > 2 and w.lower() not in body:
+                # lexis.tokens folds the typographic apostrophe, so the body must be
+                # folded the same way or every possessive reads as missing
+                if len(w) > 2 and w.lower() not in body.replace('\u2019', "'"):
                     bad.append(f'{n}: "{w}" not in the unit text')
     return expect(not bad, '; '.join(sorted(set(bad))[:8]))
 
@@ -278,34 +299,37 @@ def g18(u, ctx):
 def g19(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    m = _meta(ctx, u, 2)
+    slot = ctx.spec['figures']['label_me_slot']
+    m = _meta(ctx, u, slot)
     if not m:
-        return ok('SKIP: figure 2 not rendered')
-    sub = next((x for x in u.subs if any('Figure %d.2' % u.num in l for l in x.lines)), None)
+        return ok(f'SKIP: figure {slot} not rendered')
+    sub = next((x for x in u.subs if any(f'Figure {u.num}.{slot} ' in l for l in x.lines)), None)
     mt = M.matchings(sub) if sub else None
     want = len(mt.a) if mt else 0
     got = len(m.get('leaders', []))
-    return expect(got == want, f'figure 2 has {got} rules, task has {want} items')
+    return expect(got == want, f'figure {slot} has {got} rules, task has {want} items')
 
 @check('G20', 'golden.figures.slots', 'Category-set figure has as many cards as the table has rows')
 def g20(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    m = _meta(ctx, u, 1)
+    slot = ctx.spec['figures']['category_set_slot']
+    m = _meta(ctx, u, slot)
     if not m:
-        return ok('SKIP: figure 1 not rendered')
-    sub = next((x for x in u.subs if any('Figure %d.1' % u.num in l for l in x.lines)), None)
+        return ok(f'SKIP: figure {slot} not rendered')
+    sub = next((x for x in u.subs if any(f'Figure {u.num}.{slot} ' in l for l in x.lines)), None)
     rows = len([l for l in (sub.lines if sub else []) if l.startswith('|') and l.count('|') >= 3]) - 2
     got = m.get('cards', 0)
-    return expect(got >= max(rows, 1), f'figure 1 has {got} cards, table has {max(rows,0)} rows')
+    return expect(got >= max(rows, 1), f'figure {slot} has {got} cards, table has {max(rows,0)} rows')
 
 @check('G21', 'golden.figures.slots', 'Process strip has an arrow between every adjacent pair')
 def g21(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    m = _meta(ctx, u, 3)
+    slot = ctx.spec['figures']['process_strip_slot']
+    m = _meta(ctx, u, slot)
     if not m:
-        return ok('SKIP: figure 3 not rendered')
+        return ok(f'SKIP: figure {slot} not rendered')
     st, ar = m.get('stages', 0), m.get('arrows', 0)
     return expect(st >= 2 and ar == st - 1, f'{st} stages, {ar} arrows')
 

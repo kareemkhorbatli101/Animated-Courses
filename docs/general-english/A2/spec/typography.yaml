@@ -11,7 +11,9 @@ font:
   name: Calibri
   slots: [ascii, cs, eastAsia, hAnsi]
   default_half_points: 22               # 11 pt
-  allowed_half_points: [18, 20, 22, 24, 28, 40]
+  allowed_half_points: [18, 20, 22, 24, 28, 40]   # unchanged: the refined
+                                                 # layout reuses the source's
+                                                 # own six sizes and adds none
   pdf_substitute: Carlito               # metric-compatible
 styles:
   paragraph_styles_permitted: [ListParagraph]
@@ -29,7 +31,86 @@ figure_placement:
   fit: contain                           # preserve aspect, fit inside box
   round_to_dpi: 96                       # then round each dimension to a whole 96-DPI px
   rounding: half_up
-# Declared departures from the source, approved 2026-10-07.
+# ---------------------------------------------------------------------------
+# DECLARED DEPARTURES from the source, approved 2026-10-07 and extended on
+# 2026-10-07 after review: "too crammed ... I want visuals at the beginning of
+# every unit and almost in every page".
+#
+# The source sets 42 sub-sections of solid 11pt Calibri with no paragraph
+# spacing, no heading hierarchy beyond bold, no page breaks and no cell
+# padding. It is legible but it is a wall. Everything below is a deliberate
+# change; the measured source values stay above so the diff is always visible.
+# ---------------------------------------------------------------------------
 departures:
   page_numbers: true
   running_footer: "Unit {unit} · {part}"
+  layout: refined
+  # 11-17 pages was the source's own density. The refined layout gives every
+  # part its own page, 1.15 line spacing, 6pt paragraph spacing, padded cells
+  # and 14 figures a unit, and runs 20-32. That is the point of the change.
+  pages_per_unit: {min: 20, max: 34}
+  pages_per_volume: {min: 230, max: 380}
+
+layout:
+  body:
+    line_rule: auto
+    line: 276                 # 1.15
+    space_after_twips: 120
+    space_before_twips: 0
+  unit_title:
+    half_points: 40           # 20 pt
+    colour: "1F3864"
+    rule_below: true
+    space_after_twips: 240
+  strap:
+    half_points: 20           # 10 pt
+    colour: "6E88AC"
+    italic: true
+    space_after_twips: 360
+  part_header:
+    half_points: 28           # 14 pt
+    colour: "FFFFFF"
+    shading: "1F3864"
+    page_break_before: true
+    space_before_twips: 0
+    space_after_twips: 160
+    indent_twips: 142
+  track_label:
+    half_points: 18           # 9 pt
+    colour: "6E88AC"
+    italic: true
+    space_after_twips: 240
+  sub_header:
+    half_points: 24           # 12 pt
+    colour: "1F3864"
+    space_before_twips: 280
+    space_after_twips: 100
+    rule_below: true
+  instruction:
+    shading: "EEF3F9"
+    left_border: {colour: "6E88AC", sz: 18}
+    indent_twips: 170
+    space_before_twips: 100
+    space_after_twips: 140
+  callout:                    # Gloss, Word bank, Model, Check, Remember, ...
+    shading: "F7F9FC"
+    left_border: {colour: "009688", sz: 18}
+    indent_twips: 170
+    space_before_twips: 100
+    space_after_twips: 140
+  mcq_option:
+    indent_twips: 454
+    space_after_twips: 40
+  figure:
+    space_before_twips: 200
+    space_after_twips: 80
+  caption:
+    half_points: 18           # 9 pt
+    colour: "6E88AC"
+    italic: true
+    space_after_twips: 240
+  tables:
+    cell_margin_twips: {top: 70, bottom: 70, left: 110, right: 110}
+    border_colour: "AEB6C2"
+    row_shading_alt: null
+    column_a_shading: "F7F9FC"

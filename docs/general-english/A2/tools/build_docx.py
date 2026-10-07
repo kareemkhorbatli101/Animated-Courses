@@ -13,10 +13,22 @@ import json, math, os, re, shutil, subprocess, sys, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path[:0] = [HERE]
-import model as M  # noqa: E402
+import model as M        # noqa: E402
+import docx_style as DS  # noqa: E402
+import yaml              # noqa: E402
 
 BW, BH, DPI = 5.625, 1.9791666666666667, 96
 FOOTER_ID = 'rIdFooterA2'
+
+
+def _spec():
+    return yaml.safe_load(open(os.path.join(ROOT, 'spec', 'golden.yaml'), encoding='utf-8'))
+
+
+def box_for(slot):
+    fg = _spec()['figures']
+    b = fg.get('box_by_slot', {}).get(slot) or fg.get('box_default', {'w': BW, 'h': BH})
+    return b['w'], b['h']
 
 
 def _png_size(p):
@@ -25,9 +37,10 @@ def _png_size(p):
         return struct.unpack('>II', f.read(24)[16:24])
 
 
-def placed(png):
+def placed(png, slot=None):
     w, h = _png_size(png)
-    sc = min(BW / w, BH / h)
+    bw, bh = box_for(slot)
+    sc = min(bw / w, bh / h)
     return (math.floor(w * sc * DPI + 0.5) / DPI, math.floor(h * sc * DPI + 0.5) / DPI)
 
 
@@ -83,6 +96,7 @@ def _add_ppr(p: str, xml: str) -> str:
 
 
 def postprocess(docx, title, label):
+    """Everything pandoc does not do, driven by spec/typography.yaml."""
     zin = zipfile.ZipFile(docx)
     parts = {n: zin.read(n) for n in zin.namelist()}
     zin.close()
@@ -100,12 +114,15 @@ def postprocess(docx, title, label):
         rid = re.search(r'r:embed="(rId\d+)"', blk)
         if not rid:
             return blk
-        name = 'word/' + target.get(rid.group(1), '')
+        tgt = target.get(rid.group(1), '')
+        name = 'word/' + tgt
         if name not in parts:
             return blk
-        import struct, io
+        import struct
         px = struct.unpack('>II', parts[name][16:24])
-        sc = min(BW / px[0], BH / px[1])
+        mslot = re.search(r'u\d\d-(\d+)\.png$', tgt)
+        bw, bh = box_for(int(mslot.group(1)) if mslot else None)
+        sc = min(bw / px[0], bh / px[1])
         w = math.floor(px[0] * sc * DPI + 0.5) / DPI
         h = math.floor(px[1] * sc * DPI + 0.5) / DPI
         cx, cy = int(round(w * EMU)), int(round(h * EMU))
@@ -131,48 +148,11 @@ def postprocess(docx, title, label):
         return tbl.replace(first, '', 1) if not texts else tbl
     d = re.sub(r'<w:tbl>.*?</w:tbl>', drop_empty_header, d, flags=re.S)
 
-    # 1. table borders on all six edges, inline, exactly as the source has them
-    def fix_tbl(m):
-        tp = m.group(0)
-        tp = re.sub(r'<w:tblBorders>.*?</w:tblBorders>', '', tp, flags=re.S)
-        return tp.replace('</w:tblPr>', BORDERS + '</w:tblPr>')
-    d = re.sub(r'<w:tblPr>.*?</w:tblPr>', fix_tbl, d, flags=re.S)
-
-    # 2. centre every paragraph that holds a figure; keep the caption with it
-    def fix_para(m):
-        p = m.group(0)
-        if '<w:drawing>' not in p:
-            return p
-        if 'w:jc w:val="center"' in p:
-            return p
-        return _add_ppr(p, '<w:keepNext/><w:jc w:val="center"/>')
-    d = re.sub(r'<w:p\b.*?</w:p>', fix_para, d, flags=re.S)
-
-    # 2b. cantSplit on every table row: a row never breaks across a page, so a
-    #     Column A stem can never land on one page with its answer rule on the next.
-    def no_split(m):
-        tr = m.group(0)
-        if '<w:cantSplit/>' in tr:
-            return tr
-        if '<w:trPr>' in tr:
-            return tr.replace('<w:trPr>', '<w:trPr><w:cantSplit/>', 1)
-        return re.sub(r'(<w:tr\b[^>]*>)', r'\1<w:trPr><w:cantSplit/></w:trPr>', tr, count=1)
-    d = re.sub(r'<w:tr\b.*?</w:tr>', no_split, d, flags=re.S)
-
-    # 3. keepNext on every bold-only heading paragraph, so none is orphaned
-    def keepnext(m):
-        p = m.group(0)
-        runs = re.findall(r'<w:r\b.*?</w:r>', p, re.S)
-        if not runs or '<w:drawing>' in p:
-            return p
-        bolded = all(re.search(r'<w:b\s*/>', r) or re.search(r'<w:i\s*/>', r)
-                     or not re.search(r'<w:t[^>]*>[^<]', r) for r in runs)
-        if not bolded:
-            return p
-        if '<w:keepNext/>' in p:
-            return p
-        return _add_ppr(p, '<w:keepNext/>')
-    d = re.sub(r'<w:p\b.*?</w:p>', keepnext, d, flags=re.S)
+    # 1-3. the refined layout: every paragraph classified and dressed, tables
+    #      padded and ruled. spec/typography.yaml is the single source for it.
+    typo = yaml.safe_load(open(os.path.join(ROOT, 'spec', 'typography.yaml'),
+                               encoding='utf-8'))
+    d = DS.apply(d, typo)
 
     # 4. the approved departure: a centred footer carrying the page number
     if '<w:footerReference' not in d:

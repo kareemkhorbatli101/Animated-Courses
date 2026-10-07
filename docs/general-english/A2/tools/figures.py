@@ -334,6 +334,231 @@ def scene(items, height=560, alt='', cols=3):
     return f
 
 
+def unit_opener(number, title, grammar, can_do, icons, height=760, alt=''):
+    """N.1 - the page the unit opens on: what it is about, the one grammar point,
+    and what the learner will be able to do. Orientation, not decoration."""
+    f = Fig(height, alt)
+    f.rect(0, 0, W, 250, fill=P['ink'], stroke=P['ink'], r=0, sw=0)
+    f.text(f'UNIT {number}', 90, 104, size=40, fill=P['tanl'], anchor='start', on=P['ink'])
+    lines, sz = fit_lines(title, W - 180, size_hi=72, size_lo=44)
+    f.text(lines[0], 90, 186, size=sz, fill=P['bg'], anchor='start', on=P['ink'])
+
+    f.rect(70, 300, 620, 190, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+    f.text('GRAMMAR', 106, 356, size=26, fill=P['ink'], anchor='start', on=P['card'])
+    gl, gsz = fit_lines(grammar, 560, size_hi=36, size_lo=26)
+    for i, ln in enumerate(gl[:2]):
+        f.text(ln, 106, 410 + i * (gsz + 8), size=gsz, anchor='start', on=P['card'])
+
+    f.rect(750, 300, 620, 190, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+    f.text('IN THIS UNIT', 786, 356, size=26, fill=P['ink'], anchor='start', on=P['card'])
+    n = len(icons)
+    for i, ic in enumerate(icons):
+        icon(f, ic, 820 + i * min(140, 540 / max(1, n - 0.2)), 432, s=0.84)
+
+    f.text('By the end you can', 70, 580, size=30, fill=P['ink'], anchor='start')
+    y = 632
+    for line in can_do[:3]:
+        ln, sz2 = fit_lines(line, W - 230, size_hi=30, size_lo=24)
+        f.rect(74, y - 22, 26, 26, fill=P['bg'], stroke=P['accent'], r=5, sw=4)
+        f.text(ln[0], 128, y, size=sz2, anchor='start')
+        y += 56
+    return f
+
+
+def grammar_contrast(left, right, height=640, alt=''):
+    """N.5 - the unit's one grammar point as a two-column contrast, each side
+    with its own timeline. `left`/`right` = (label, form, example, marks)."""
+    f = Fig(height, alt)
+    for k, (label, form, example, marks) in enumerate((left, right)):
+        x = 60 + k * (W / 2 - 20)
+        w = W / 2 - 100
+        f.rect(x, 50, w, height - 110, fill=P['card'], stroke='#CED4DD', r=18, sw=3)
+        # both headers are ink: white on P['deep'] is 3.6:1, under the 4.5 floor.
+        # the two sides are told apart by the timeline marks, not by the band.
+        f.rect(x, 50, w, 76, fill=P['ink'], stroke='none', r=18, sw=0)
+        ll, lsz = fit_lines(label, w - 40, size_hi=38, size_lo=28)
+        f.text(ll[0], x + w / 2, 102, size=lsz, fill=P['bg'], on=P['ink'])
+        fl, fsz = fit_lines(form, w - 50, size_hi=32, size_lo=24)
+        for i, ln in enumerate(fl[:2]):
+            f.text(ln, x + w / 2, 180 + i * (fsz + 8), size=fsz, fill=P['ink'], on=P['card'])
+        # the timeline
+        ty = 310
+        f.line(x + 44, ty, x + w - 44, ty, stroke=P['ink'], sw=5)
+        for frac in marks:
+            f.circle(x + 44 + (w - 88) * frac, ty, 13,
+                     fill=P['accent'] if k else P['tan'], sw=3)
+        f.text('now', x + 44 + (w - 88) * 0.5, ty + 52, size=24,
+               fill=P['ink'], on=P['card'])
+        el, esz = fit_lines(example, w - 50, size_hi=30, size_lo=24)
+        for i, ln in enumerate(el[:3]):
+            f.text(ln, x + w / 2, 430 + i * (esz + 10), size=esz, on=P['card'])
+    return f
+
+
+def timeline(points, height=460, alt=''):
+    """N.6 - one day on a line, with the markers the practice task asks about."""
+    f = Fig(height, alt)
+    f.rect(50, 40, W - 100, height - 80, fill=P['card'], stroke='#CED4DD', r=20, sw=3)
+    y = height / 2
+    INSET = 190                   # wide enough that an end label stays on the canvas
+    f.line(INSET, y, W - INSET, y, stroke=P['ink'], sw=6)
+    n = len(points)
+    for i, (when, what) in enumerate(points):
+        x = INSET + (W - 2 * INSET) * (i / max(1, n - 1))
+        f.circle(x, y, 16, fill=P['tan'], sw=4)
+        slot = (W - 2 * INSET) / max(1, n - 1)
+        wl, wsz = fit_lines(when, slot - 16, size_hi=34, size_lo=24)
+        f.text(wl[0], x, y - 58, size=wsz, on=P['card'])
+        tl, tsz = fit_lines(what, slot - 14, size_hi=28, size_lo=22)
+        for j, ln in enumerate(tl[:2]):
+            f.text(ln, x, y + 74 + j * (tsz + 8), size=tsz, fill=P['ink'], on=P['card'])
+    return f
+
+
+def speakers(cards, height=560, alt=''):
+    """N.7 - who is speaking in each listening, and what the track is about."""
+    f = Fig(height, alt)
+    n = len(cards)
+    pad, gap = 60, 40
+    cw = (W - 2 * pad - gap * (n - 1)) / n
+    for i, (track, who, ic, topic) in enumerate(cards):
+        x = pad + i * (cw + gap)
+        f.rect(x, 60, cw, height - 140, fill=P['card'], stroke='#CED4DD', r=18, sw=3)
+        f.rect(x, 60, cw, 62, fill=P['ink'], stroke='none', r=18, sw=0)
+        f.text(track, x + cw / 2, 104, size=28, fill=P['bg'], on=P['ink'])
+        icon(f, ic, x + cw / 2, 230, s=1.25)
+        wl, wsz = fit_lines(who, cw - 36, size_hi=32, size_lo=24)
+        for j, ln in enumerate(wl[:2]):
+            f.text(ln, x + cw / 2, 344 + j * (wsz + 6), size=wsz, on=P['card'])
+        tl, tsz = fit_lines(topic, cw - 30, size_hi=26, size_lo=22)
+        for j, ln in enumerate(tl[:2]):
+            f.text(ln, x + cw / 2, 410 + j * (tsz + 6), size=tsz,
+                   fill=P['ink'], on=P['card'], bold=False)
+    return f
+
+
+def cue_cards(a, b, height=560, alt=''):
+    """N.8 - the two role-play cards, as cards, so the pair can see their own."""
+    f = Fig(height, alt)
+    for k, (title, items, ic) in enumerate((a, b)):
+        x = 60 + k * (W / 2 - 20)
+        w = W / 2 - 100
+        f.rect(x, 50, w, height - 110, fill=P['bg'], stroke=P['ink'], r=20, sw=4)
+        f.rect(x, 50, w, 80, fill=P['ink'], stroke='none', r=20, sw=0)
+        f.text(title, x + w / 2, 104, size=34, fill=P['bg'], on=P['ink'])
+        icon(f, ic, x + w - 92, 198, s=0.78)
+        y = 190
+        for it in items[:4]:
+            il, isz = fit_lines(it, w - 230, size_hi=28, size_lo=22)
+            f.circle(x + 44, y - 8, 9, fill=P['accent'], sw=0)
+            for j, ln in enumerate(il[:2]):
+                f.text(ln, x + 78, y + j * (isz + 6), size=isz, anchor='start')
+            y += 56 + (len(il[:2]) - 1) * 30
+    return f
+
+
+def world_strip(places, height=460, alt=''):
+    """N.10 - the same hour of the day in different places, for the second read."""
+    f = Fig(height, alt)
+    n = len(places)
+    pad = 60
+    cw = (W - 2 * pad) / n
+    for i, (place, ic, fact) in enumerate(places):
+        cx = pad + cw * (i + 0.5)
+        f.rect(pad + cw * i + 14, 50, cw - 28, height - 110,
+               fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+        icon(f, ic, cx, 162, s=min(1.15, cw * 0.30 / 56))
+        pl, psz = fit_lines(place, cw - 44, size_hi=32, size_lo=24)
+        f.text(pl[0], cx, 268, size=psz, on=P['card'])
+        fl, fsz = fit_lines(fact, cw - 40, size_hi=26, size_lo=22)
+        for j, ln in enumerate(fl[:3]):
+            f.text(ln, cx, 316 + j * (fsz + 6), size=fsz, fill=P['ink'],
+                   on=P['card'], bold=False)
+    return f
+
+
+def writing_frame(steps, height=520, alt=''):
+    """N.11 - the shape of the paragraph the learner is about to write."""
+    f = Fig(height, alt)
+    n = len(steps)
+    pad = 70
+    bh = (height - 2 * 50 - (n - 1) * 18) / n
+    for i, (label, example) in enumerate(steps):
+        y = 50 + i * (bh + 18)
+        f.rect(pad, y, W - 2 * pad, bh, fill=P['card'], stroke='#CED4DD', r=14, sw=3)
+        f.rect(pad, y, 14, bh, fill=P['accent'], stroke='none', r=0, sw=0)
+        f.text(f'{i+1}', pad + 62, y + bh / 2 + 11, size=32, fill=P['ink'], on=P['card'])
+        f.text(label, pad + 120, y + bh / 2 + 11, size=30, anchor='start', on=P['card'])
+        el, esz = fit_lines(example, W - 2 * pad - 640, size_hi=26, size_lo=22)
+        f.text(el[0], pad + 600, y + bh / 2 + 9, size=esz, fill=P['ink'],
+               anchor='start', on=P['card'], bold=False)
+    return f
+
+
+def function_map(pairs, height=580, alt=''):
+    """N.12 - what you say on the left, what it does on the right, arrows between.
+    Rows are parallel, so no arrow can cross another."""
+    f = Fig(height, alt)
+    n = len(pairs)
+    top, rh = 60, (height - 120) / n
+    for i, (phrase, purpose) in enumerate(pairs):
+        y = top + i * rh
+        f.rect(60, y, 600, rh - 20, fill=P['bg'], stroke=P['ink'], r=12, sw=3)
+        pl, psz = fit_lines(phrase, 548, size_hi=28, size_lo=22)
+        for j, ln in enumerate(pl[:2]):
+            f.text(ln, 360, y + rh / 2 - 4 + (j - (len(pl[:2]) - 1) / 2) * (psz + 6),
+                   size=psz)
+        f.arrow(700, y + rh / 2 - 10, 790)
+        f.rect(830, y, 550, rh - 20, fill=P['card'], stroke='#CED4DD', r=12, sw=3)
+        ql, qsz = fit_lines(purpose, 500, size_hi=28, size_lo=22)
+        for j, ln in enumerate(ql[:2]):
+            f.text(ln, 1105, y + rh / 2 - 4 + (j - (len(ql[:2]) - 1) / 2) * (qsz + 6),
+                   size=qsz, fill=P['ink'], on=P['card'])
+    return f
+
+
+def before_after(before, after, height=520, alt=''):
+    """N.13 - the Global Story as one change: what it was, what it became."""
+    f = Fig(height, alt)
+    for k, (title, items, ic) in enumerate((before, after)):
+        x = 60 + k * (W / 2 + 20)
+        w = W / 2 - 110
+        f.rect(x, 60, w, height - 130, fill=P['card'] if k else P['bg'],
+               stroke='#CED4DD' if k else P['rule'], r=18, sw=3)
+        f.text(title, x + w / 2, 128, size=34, fill=P['ink'],
+               on=P['card'] if k else P['bg'])
+        icon(f, ic, x + w / 2, 236, s=1.1)
+        y = 338
+        for it in items[:3]:
+            il, isz = fit_lines(it, w - 70, size_hi=27, size_lo=22)
+            for j, ln in enumerate(il[:2]):
+                f.text(ln, x + w / 2, y + j * (isz + 6), size=isz, fill=P['ink'],
+                       on=P['card'] if k else P['bg'], bold=False)
+            y += 46 + (len(il[:2]) - 1) * 28
+    f.arrow(W / 2 - 46, height / 2 - 30, W / 2 + 46)
+    return f
+
+
+def progress_strip(lines, height=520, alt=''):
+    """N.14 - the Can-Do list as a strip the learner ticks, with the Plus one marked."""
+    f = Fig(height, alt)
+    n = len(lines)
+    top = 60
+    rh = (height - 120) / n
+    for i, (text, plus) in enumerate(lines):
+        y = top + i * rh
+        f.rect(60, y, W - 120, rh - 16, fill=P['card'] if plus else P['bg'],
+               stroke='#CED4DD', r=12, sw=3)
+        f.rect(84, y + rh / 2 - 24, 36, 36, fill=P['bg'], stroke=P['accent'], r=6, sw=4)
+        tl, tsz = fit_lines(text, W - 320, size_hi=28, size_lo=22)
+        f.text(tl[0], 156, y + rh / 2 + 2, size=tsz, anchor='start',
+               on=P['card'] if plus else P['bg'])
+        if plus:
+            f.text('PLUS', W - 110, y + rh / 2 + 2, size=22, fill=P['ink'],
+                   anchor='end', on=P['card'])
+    return f
+
+
 def day_column(f: Fig, x, y, w, h):
     """A day from dawn at the top to midnight at the bottom: the object the
     learner labels in Unit 1's Figure N.2."""
@@ -379,7 +604,7 @@ def tighten(f: Fig, margin: int | None = None) -> Fig:
 
 
 def emit(f: Fig, book: str, unit: int, slot: int):
-    import cairosvg
+    import cairosvg, yaml
     f = tighten(f)
     out = os.path.join(ROOT, 'figures', book)
     os.makedirs(out, exist_ok=True)
@@ -389,7 +614,11 @@ def emit(f: Fig, book: str, unit: int, slot: int):
     cairosvg.svg2png(bytestring=svg.encode(), write_to=base + '.png',
                      output_width=W, output_height=f.h, background_color='#FFFFFF')
     png = open(base + '.png', 'rb').read()
-    BW, BH, DPI = 5.625, 1.9791666666666667, 96
+    _g = yaml.safe_load(open(os.path.join(ROOT, 'spec', 'golden.yaml'), encoding='utf-8'))
+    _fg = _g['figures']
+    _b = _fg.get('box_by_slot', {}).get(slot) or _fg.get(
+        'box_default', {'w': 5.625, 'h': 1.9791666666666667})
+    BW, BH, DPI = _b['w'], _b['h'], 96
     sc = min(BW / W, BH / f.h)
     placed = [math.floor(W * sc * DPI + 0.5) / DPI, math.floor(f.h * sc * DPI + 0.5) / DPI]
     meta = {'canvas': [W, f.h], 'bounds': [round(v, 1) for v in f.bounds],

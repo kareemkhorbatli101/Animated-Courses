@@ -1,168 +1,115 @@
 {
  "canvas": [
   1440,
-  577
+  531
  ],
  "bounds": [
-  74.0,
-  28.6,
-  1366.0,
-  548.7
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Maya",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    229.6,
-    203.5,
-    330.4,
-    233.9
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "bookshop",
-   "size": 28,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    212.2,
-    244.2,
-    347.8,
-    268.7
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "Tomas",
-   "size": 34,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    659.7,
-    203.5,
-    780.3,
-    233.9
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "hospital",
-   "size": 28,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    664.5,
-    244.2,
-    775.5,
-    268.7
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "Amina",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    1099.7,
-    203.5,
-    1220.3,
-    233.9
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "corner shop",
-   "size": 28,
-   "bbox": [
-    1076.9,
-    244.2,
-    1243.1,
-    268.7
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Dani",
-   "size": 34,
-   "bbox": [
-    236.5,
-    483.5,
-    323.5,
-    513.9
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "student",
-   "size": 28,
-   "bbox": [
-    226.5,
-    524.2,
-    333.5,
-    548.7
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Mr Okonkwo",
-   "size": 34,
-   "bbox": [
-    601.0,
-    483.5,
-    839.0,
-    513.9
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "teacher",
-   "size": 28,
-   "bbox": [
-    666.4,
-    524.2,
-    773.6,
-    548.7
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Yuki",
-   "size": 34,
-   "bbox": [
-    1119.7,
-    483.5,
-    1200.3,
-    513.9
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "works at home",
-   "size": 28,
-   "bbox": [
-    1056.1,
-    524.2,
-    1263.9,
-    548.7
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   414.4,
+   76.3,
+   846,
+   45.3
+  ],
+  [
+   478.4,
+   170.3,
+   846,
+   155.3
+  ],
+  [
+   414.4,
+   264.3,
+   846,
+   265.3
+  ],
+  [
+   478.4,
+   358.3,
+   846,
+   375.3
+  ],
+  [
+   414.4,
+   452.3,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The six people of 14 Alder Street standing in a row at eight in the morning, each with the place they belong to: Maya and the bookshop, Tomas and the hospital, Amina and the corner shop, Dani the student, Mr Okonkwo the teacher, and Yuki who works at home.",
+ "alt": "A single day drawn as a column of five bands, light at the top and dark at the bottom, with a sun, a clock and a moon beside it. Five numbered lines run to the right for the learner to write dawn, midday, afternoon, evening and midnight.",
  "placed_in": [
-  4.9375,
-  1.9791666666666667
+  6.270833333333333,
+  2.3125
  ],
- "sha256": "a7ceed349036367f72c884779c11e032be0874c01a33903fbfb07e5c282f8d54"
+ "sha256": "882b6a38311af149760371be2275f9a0b260dbe8c7da652a342aaa949116b761"
 }

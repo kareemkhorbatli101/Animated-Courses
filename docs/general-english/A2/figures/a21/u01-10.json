@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "Spain",
+   "size": 32,
+   "bbox": [
+    229.4,
+    217.2,
+    330.6,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "some shops close in the",
+   "size": 26,
+   "bbox": [
+    123.4,
+    269.1,
+    436.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "early afternoon",
+   "size": 26,
+   "bbox": [
+    180.3,
+    301.1,
+    379.7,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Japan",
+   "size": 32,
+   "bbox": [
+    669.6,
+    217.2,
+    770.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "station staff help people",
+   "size": 26,
+   "bbox": [
+    561.9,
+    269.1,
+    878.1,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "onto the trains",
+   "size": 26,
+   "bbox": [
+    624.1,
+    301.1,
+    815.9,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the north of Europe",
+   "size": 32,
+   "bbox": [
+    982.6,
+    217.2,
+    1337.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the working day finishes at",
+   "size": 26,
+   "bbox": [
+    983.8,
+    269.1,
+    1336.2,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four or five",
+   "size": 26,
+   "bbox": [
+    1088.4,
+    301.1,
+    1231.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The same day in three places: in Spain some shops close in the early afternoon, in Japan station staff help people onto the trains in the morning, and in the north of Europe the working day finishes at four or five.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "21abbe97d203399fe268f62374a455ca3c810214cd845ee496ffe1ff838cbe98"
+}
