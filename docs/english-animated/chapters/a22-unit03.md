@@ -232,7 +232,7 @@ The next goes one step further back. **Five steps, then stop.**
 
 ### 4B · The functional core — giving an account
 
-> **FIGURE `fig_a22_u03_p04_v04` · V4 Comparison Pair`**
+> **FIGURE `fig_a22_u03_p04_v04` · V4 Comparison Pair**
 
 **Language Bank**
 
@@ -486,7 +486,7 @@ On the wall, with the inquiry timeline from Part 5E beside it.
 
 # CULTURE FILE · Hospitality and Obligation
 
-> **FIGURE `fig_a22_u03_p09_v03b` · V3 Process Strip`**
+> **FIGURE `fig_a22_u03_p09_v03b` · V3 Process Strip**
 
 ### 9A · Four doors 🔊 Track 3.4
 

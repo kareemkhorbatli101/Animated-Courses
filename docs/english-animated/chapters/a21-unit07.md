@@ -65,7 +65,7 @@ Three columns.
 An accent tells people where you learned to speak. **It does not tell them where you are from.**
 **Give one example from your own country.**
 
-> **FIGURE `fig_a21_u07_p01_v02` · V2 Cutaway`**
+> **FIGURE `fig_a21_u07_p01_v02` · V2 Cutaway**
 
 **Look at the family house in section.** Three generations, three floors.
 **Which floor was built first, and who was born in a different country?**

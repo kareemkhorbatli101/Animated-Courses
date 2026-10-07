@@ -66,7 +66,7 @@ Two columns.
 A second-hand chiller costs 900. A new one costs 2,400.
 **Is the second-hand one cheap?** You cannot answer that yet. **What do you need to know first?**
 
-> **FIGURE `fig_a21_u06_p01_v02` · V2 Cutaway`**
+> **FIGURE `fig_a21_u06_p01_v02` · V2 Cutaway**
 
 **Look at the chiller in section.** Four parts, four costs.
 **Which part fails first, and what does replacing it cost compared with the whole machine?**
@@ -432,7 +432,7 @@ Three times, faster.
 
 ### Worth paying more for · 90 words
 
-> **FIGURE `fig_a21_u06_p08_v06` · V6 Data Visual`**
+> **FIGURE `fig_a21_u06_p08_v06` · V6 Data Visual**
 
 ### 8A · Read the model
 
@@ -478,7 +478,7 @@ On the wall, with the two quotations from Part 5E beside it.
 
 # CULTURE FILE · What's Funny Here?
 
-> **FIGURE `fig_a21_u06_p09_v03b` · V3 Process Strip`**
+> **FIGURE `fig_a21_u06_p09_v03b` · V3 Process Strip**
 
 ### 9A · Three jokes about money 🔊 Track 6.4
 

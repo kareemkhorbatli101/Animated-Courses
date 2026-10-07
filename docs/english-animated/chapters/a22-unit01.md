@@ -234,7 +234,7 @@ take and one they would leave. **No repeating an object.**
 
 ### 4B · The functional core — saying what you would do
 
-> **FIGURE `fig_a22_u01_p04_v04` · V4 Comparison Pair`**
+> **FIGURE `fig_a22_u01_p04_v04` · V4 Comparison Pair**
 
 **Language Bank**
 
@@ -432,7 +432,7 @@ Three times, faster, with *'d* every time.
 
 ### What I would do differently · 90 words
 
-> **FIGURE `fig_a22_u01_p08_v06` · V6 Data Visual`**
+> **FIGURE `fig_a22_u01_p08_v06` · V6 Data Visual**
 
 ### 8A · Read the model
 

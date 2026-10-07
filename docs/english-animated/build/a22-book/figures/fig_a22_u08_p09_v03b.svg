@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<title>Four moves in a seminar</title>
+<desc>A four-panel strip of a seminar: coming in, building on somebody, disagreeing gently and bringing somebody in.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="520" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="86.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="86.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<rect x="436.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="462.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="462.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<rect x="812.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="838.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="838.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<rect x="1188.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="1214.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="1214.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="372" x2="392.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="230.0" cy="373.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 224.0705882352941 372 L 225.38823529411764 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 235.9294117647059 372 L 234.61176470588236 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 230.0 286.35294117647055 L 230.0 323.11529411764707" fill="none" stroke="#C86B2B" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 217.48235294117646 287.01176470588234 L 242.51764705882354 287.01176470588234" fill="none" stroke="#C86B2B" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 217.48235294117646 288.32941176470587 L 215.50588235294117 327.06823529411764" fill="none" stroke="#C86B2B" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="215.50588235294117" cy="329.04470588235296" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 242.51764705882354 288.32941176470587 L 247.78823529411767 266.5882352941176" fill="none" stroke="#C86B2B" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="248.44705882352943" cy="263.9529411764706" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 230.0 283.05882352941177 L 230.0 279.7647058823529" fill="none" stroke="#E8C39E" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="230.0" cy="271.2" r="9.882352941176471" fill="#E8C39E"/>
+<path d="M 220.11764705882354 269.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 239.88235294117646 269.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="226.7058823529412" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="233.2941176470588" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 227.36470588235295 276.4705882352941 Q 230.0 277.7882352941176 232.63529411764705 276.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="220.0" y="187" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">coming in</text>
+<line x1="456.0" y1="372" x2="768.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="556.0" cy="373.94117647058823" rx="14.23529411764706" ry="3.235294117647059" fill="#1C2B33" opacity="0.10"/>
+<path d="M 550.1764705882352 372 L 551.4705882352941 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 561.8235294117648 372 L 560.5294117647059 321.4" fill="none" stroke="#3A4A55" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 556.0 287.88235294117646 L 556.0 323.9882352941176" fill="none" stroke="#8C6A9E" stroke-width="15.529411764705884" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 543.7058823529412 288.52941176470586 L 568.2941176470588 288.52941176470586" fill="none" stroke="#8C6A9E" stroke-width="8.411764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 543.7058823529412 289.8235294117647 L 541.7647058823529 327.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="541.7647058823529" cy="329.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 568.2941176470588 289.8235294117647 L 570.2352941176471 327.8705882352941" fill="none" stroke="#8C6A9E" stroke-width="5.8235294117647065" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="570.2352941176471" cy="329.81176470588235" r="3.235294117647059" fill="#8D5A3B"/>
+<path d="M 556.0 284.6470588235294 L 556.0 281.4117647058823" fill="none" stroke="#8D5A3B" stroke-width="6.470588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="556.0" cy="273.0" r="9.705882352941178" fill="#8D5A3B"/>
+<path d="M 546.2941176470588 271.70588235294116 A 9.705882352941178 9.705882352941178 0 0 1 565.7058823529412 271.70588235294116" fill="none" stroke="#2A2320" stroke-width="4.529411764705882" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="552.7647058823529" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<circle cx="559.2352941176471" cy="273.6470588235294" r="1.1647058823529413" fill="#2A2320"/>
+<path d="M 553.4117647058823 278.1764705882353 Q 556.0 279.47058823529414 558.5882352941177 278.1764705882353" fill="none" stroke="#8A5A48" stroke-width="1.035294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="676.0" cy="373.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 670.0705882352942 372 L 671.3882352941176 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 681.9294117647058 372 L 680.6117647058824 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 676.0 286.35294117647055 L 676.0 323.11529411764707" fill="none" stroke="#2E6F5E" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 663.4823529411765 287.01176470588234 L 688.5176470588235 287.01176470588234" fill="none" stroke="#2E6F5E" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 663.4823529411765 288.32941176470587 L 661.5058823529412 327.06823529411764" fill="none" stroke="#2E6F5E" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="661.5058823529412" cy="329.04470588235296" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 688.5176470588235 288.32941176470587 L 705.6470588235294 285.035294117647" fill="none" stroke="#2E6F5E" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="708.2823529411764" cy="284.37647058823524" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 676.0 283.05882352941177 L 676.0 279.7647058823529" fill="none" stroke="#E8C39E" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="676.0" cy="271.2" r="9.882352941176471" fill="#E8C39E"/>
+<path d="M 666.1176470588235 269.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 685.8823529411765 269.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="672.7058823529412" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="679.2941176470588" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 673.364705882353 276.4705882352941 Q 676.0 277.7882352941176 678.635294117647 276.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="596.0" y="187" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">and you used her name</text>
+<line x1="832.0" y1="372" x2="1144.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="892.0" y="304" width="100" height="48" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1012.0" y="304" width="100" height="48" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="972.0" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">disagreeing without attacking</text>
+<line x1="1208.0" y1="372" x2="1520.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="1358.0" cy="373.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1352.070588235294 372 L 1353.3882352941177 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1363.929411764706 372 L 1362.6117647058823 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1358.0 286.35294117647055 L 1358.0 323.11529411764707" fill="none" stroke="#1F4E5F" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1345.4823529411765 287.01176470588234 L 1370.5176470588235 287.01176470588234" fill="none" stroke="#1F4E5F" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1345.4823529411765 288.32941176470587 L 1343.5058823529412 327.06823529411764" fill="none" stroke="#1F4E5F" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1343.5058823529412" cy="329.04470588235296" r="3.2941176470588234" fill="#C98E63"/>
+<path d="M 1370.5176470588235 288.32941176470587 L 1387.6470588235295 285.035294117647" fill="none" stroke="#1F4E5F" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1390.2823529411764" cy="284.37647058823524" r="3.2941176470588234" fill="#C98E63"/>
+<path d="M 1358.0 283.05882352941177 L 1358.0 279.7647058823529" fill="none" stroke="#C98E63" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1358.0" cy="271.2" r="9.882352941176471" fill="#C98E63"/>
+<path d="M 1348.1176470588234 269.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 1367.8823529411766 269.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1354.7058823529412" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="1361.2941176470588" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 1355.3647058823528 276.4705882352941 Q 1358.0 277.7882352941176 1360.6352941176472 276.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1348.0" y="187" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="600" font-style="normal">bringing somebody in - and this is the chair's job</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four moves in a seminar</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The fourth is the one that changes the room, and almost nobody makes the fifth.</text>
+<text x="70.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;Can I pick up on that?&quot;</text>
+<text x="446.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;Building on what Maire said...&quot;</text>
+<text x="822.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;I'd put it slightly differently.&quot;</text>
+<text x="1198.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">&quot;Tomas, you've worked on one of these.&quot;</text>
+<line x1="60" y1="484" x2="1540" y2="484" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 6"/>
+<text x="60" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">minute 0</text>
+<text x="1540" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="400" font-style="normal">minute 15</text>
+</g>
+</svg>

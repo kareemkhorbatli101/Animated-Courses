@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>The tour</title>
+<desc>A hall manager and a heritage officer outside a stone building, with speech bubbles contrasting defining and non-defining relative clauses.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="650" rx="0" fill="#E8EBEB"/>
+<rect x="0" y="650" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="650" x2="1600" y2="650" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<line x1="1280" y1="680" x2="1280" y2="595.0" stroke="#6E7B82" stroke-width="6" stroke-linecap="round"/>
+<rect x="1235.8" y="555.9" width="88.39999999999999" height="40.8" rx="4" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+<text x="1280" y="581.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">1884</text>
+<rect x="680" y="640.4" width="94.60000000000001" height="39.6" rx="0" fill="#B9C7CC" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="686.6" y1="647.0" x2="768.0" y2="647.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="686.6" y1="659.1" x2="768.0" y2="659.1" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="686.6" y1="671.2" x2="768.0" y2="671.2" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+</g>
+<g id="20_subject">
+<ellipse cx="470" cy="674.2705882352941" rx="31.317647058823532" ry="7.11764705882353" fill="#1C2B33" opacity="0.10"/>
+<path d="M 457.18823529411765 670 L 460.0352941176471 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 482.81176470588235 670 L 479.9647058823529 558.68" fill="none" stroke="#3A4A55" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 470.0 484.9411764705883 L 470 564.3741176470588" fill="none" stroke="#2E6F5E" stroke-width="34.16470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 442.9529411764706 486.364705882353 L 497.0470588235294 486.364705882353" fill="none" stroke="#2E6F5E" stroke-width="18.50588235294118" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 442.9529411764706 489.2117647058824 L 438.6823529411765 572.915294117647" fill="none" stroke="#2E6F5E" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="438.6823529411765" cy="577.1858823529411" r="7.11764705882353" fill="#E8C39E"/>
+<path d="M 497.0470588235294 489.2117647058824 L 534.0588235294118 482.09411764705885" fill="none" stroke="#2E6F5E" stroke-width="12.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="539.7529411764706" cy="480.6705882352942" r="7.11764705882353" fill="#E8C39E"/>
+<path d="M 470.0 477.82352941176475 L 470.0 470.7058823529412" fill="none" stroke="#E8C39E" stroke-width="14.23529411764706" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="470.0" cy="452.20000000000005" r="21.35294117647059" fill="#E8C39E"/>
+<path d="M 448.6470588235294 449.3529411764706 A 21.35294117647059 21.35294117647059 0 0 1 491.3529411764706 449.3529411764706" fill="none" stroke="#2A2320" stroke-width="9.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="498.47058823529414" cy="447.92941176470595" r="9.964705882352941" fill="#2A2320" stroke="none" stroke-width="1.5"/>
+<circle cx="467.15294117647056" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<circle cx="481.38823529411764" cy="453.62352941176476" r="2.5623529411764707" fill="#2A2320"/>
+<path d="M 468.5764705882353 463.5882352941177 Q 474.2705882352941 466.4352941176471 479.9647058823529 463.5882352941177" fill="none" stroke="#8A5A48" stroke-width="2.2776470588235296" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="707.0117647058823" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Sinead</text>
+<text x="470" y="732.635294117647" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">nine years</text>
+<ellipse cx="970" cy="674.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 957.2941176470588 670 L 960.1176470588235 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 982.7058823529412 670 L 979.8823529411765 559.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 970.0 486.47058823529414 L 970 565.2470588235294" fill="none" stroke="#8C6A9E" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 943.1764705882352 487.8823529411765 L 996.8235294117648 487.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 943.1764705882352 490.7058823529412 L 954.4705882352941 553.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 996.8235294117648 490.7058823529412 L 985.5294117647059 553.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="970" cy="553.9529411764706" r="7.764705882352942" fill="#8D5A3B"/>
+<path d="M 970.0 479.4117647058824 L 970.0 472.3529411764706" fill="none" stroke="#8D5A3B" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="970.0" cy="454.0" r="21.176470588235297" fill="#8D5A3B"/>
+<path d="M 948.8235294117648 451.1764705882353 A 21.176470588235297 21.176470588235297 0 0 1 991.1764705882352 451.1764705882353" fill="none" stroke="#2A2320" stroke-width="9.882352941176471" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="958.7058823529412" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="972.8235294117646" cy="455.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 960.1176470588235 465.29411764705884 Q 965.7647058823529 468.11764705882354 971.4117647058823 465.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="970" y="706.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the heritage officer</text>
+<text x="970" y="732.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">county office</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The tour</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of them wants a listing. The other has not said what the visit is for.</text>
+<rect x="305.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="377.6,199.2 430.4,199.2 470,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="379.6" y1="199.2" x2="428.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="470.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The hall, which was built in 1884, is the oldest building here.</text>
+<text x="470.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The pier, where the boats used to land, was rebuilt in 1931.</text>
+<rect x="805.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="877.6,179.6 930.4,179.6 970,435" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="879.6" y1="179.6" x2="928.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="970.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The hall that was built in 1884? Is there another?</text>
+</g>
+</svg>

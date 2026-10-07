@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1010" viewBox="0 0 1600 1010">
+<title>The insurance claim form</title>
+<desc>A marine insurance claim form listing three causes of loss, the payout and evidence required for each, and a settlement timescale.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1010" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="800" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="800" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">WESTERN MARINE  -  CLAIM FORM MC-3  (VESSEL, TOTAL LOSS)</text>
+<text x="140" y="214" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Vessel</text>
+<text x="410" y="214" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Ballinmore, 7.4 m</text>
+<text x="140" y="246" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Policy</text>
+<text x="410" y="246" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">MV-2219</text>
+<text x="140" y="278.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Tick ONE cause only. Where more than one box is ticked the claim</text>
+<text x="140" y="299.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">is referred and settlement is suspended pending survey.</text>
+<line x1="130" y1="335.5" x2="910" y2="335.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="371.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">CAUSE OF LOSS</text>
+<rect x="140" y="383.5" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="403.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">BOX</text>
+<text x="403.33333333333337" y="403.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">PAYS</text>
+<text x="656.6666666666667" y="403.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">EVIDENCE REQUIRED</text>
+<text x="150.0" y="433.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A  Mooring failure</text>
+<text x="403.33333333333337" y="433.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">18,000</text>
+<text x="656.6666666666667" y="433.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the mooring, or a photograph of it</text>
+<line x1="140" y1="443.5" x2="900" y2="443.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="463.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B  Mechanical failure</text>
+<text x="403.33333333333337" y="463.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">18,000</text>
+<text x="656.6666666666667" y="463.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">engineer report on the vessel</text>
+<line x1="140" y1="473.5" x2="900" y2="473.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="493.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C  Cause unknown</text>
+<text x="403.33333333333337" y="493.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6,000</text>
+<text x="656.6666666666667" y="493.5" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">none</text>
+<line x1="140" y1="503.5" x2="900" y2="503.5" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="531.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Box B requires the vessel. The vessel has not been recovered.</text>
+<line x1="130" y1="567.25" x2="910" y2="567.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">TIME TO SETTLE</text>
+<text x="140" y="633.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Box A</text>
+<text x="410" y="633.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">21 days</text>
+<text x="140" y="665.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Box B</text>
+<text x="410" y="665.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4-9 months</text>
+<text x="140" y="697.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Box C</text>
+<text x="410" y="697.25" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">21 days</text>
+<line x1="130" y1="729.25" x2="910" y2="729.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="765.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DECLARATION</text>
+<text x="140" y="795.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">I declare that the cause stated is true to the best of my</text>
+<text x="140" y="817.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">knowledge. A false declaration voids this policy and may be a</text>
+<text x="140" y="838.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">criminal offence.</text>
+<line x1="130" y1="874.5" x2="910" y2="874.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="906.5" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">BOX A: TICKED, CROSSED OUT, TICKED AGAIN, THEN CROSSED OUT:</text>
+<text x="140" y="936.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Rope untied, not broken. Photographs attached. - A.H.,</text>
+<text x="140" y="958.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">assessor&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The insurance claim form</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three boxes, one tick, and one box that has been ticked, crossed out and ticked again.</text>
+<circle cx="934" cy="232.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 232.0 L 1024 232.0 L 1024 232.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="237.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One box. The whole decision is</text>
+<text x="1040" y="257.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">this sentence</text>
+<circle cx="934" cy="392.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 392.0 L 1024 392.0 L 1024 392.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="397.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Box A: twenty-one days, and the</text>
+<text x="1040" y="417.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">rope says it is not true</text>
+<circle cx="934" cy="440.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 440.0 L 1024 440.0 L 1024 440.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="445.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Box B: needs a boat that is two</text>
+<text x="1040" y="465.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">miles out</text>
+<circle cx="934" cy="488.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 488.0 L 1024 488.0 L 1024 488.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="493.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Box C: honest, and a third of the</text>
+<text x="1040" y="513.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">money</text>
+<circle cx="934" cy="728.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 728.0 L 1024 728.0 L 1024 728.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="733.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A false declaration voids the</text>
+<text x="1040" y="753.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">policy</text>
+<circle cx="934" cy="864.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 864.0 L 1024 864.0 L 1024 864.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="869.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Ticked twice by somebody, and</text>
+<text x="1040" y="889.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">crossed out by the assessor</text>
+</g>
+</svg>

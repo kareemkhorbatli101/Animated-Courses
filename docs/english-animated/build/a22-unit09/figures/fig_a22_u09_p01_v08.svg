@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>Four meanings of fair</title>
+<desc>A network from a limited fund into four allocation methods - equal, proportional, by need and first come - and the consequence of each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="180" y1="400" x2="520" y2="180" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="180" y1="400" x2="520" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="180" y1="400" x2="520" y2="620" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="180" x2="1120" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="520" y1="400" x2="1120" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="520" y1="620" x2="1120" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="180" cy="400" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="180" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="180" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">180,000</text>
+<text x="180" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and 238,500 asked for</text>
+<circle cx="520" cy="180" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="520" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="520" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Equal</text>
+<text x="520" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">45,000 each</text>
+<circle cx="520" cy="400" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="520" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="520" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Proportional</text>
+<text x="520" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">about 75 % each</text>
+<circle cx="520" cy="620" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="520" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="520" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">By need</text>
+<text x="520" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the two with no insurance</text>
+<circle cx="1120" cy="400" r="54" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1120" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1120" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">What happens</text>
+<text x="1120" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and this is the only test</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four meanings of fair</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five nodes. Everybody in the room agrees on the word and on nothing else.</text>
+<rect x="292.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">clean and defensible</text>
+<rect x="292.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">rewards the optimistic estimate</text>
+<rect x="292.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="350.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and you have to say it out loud</text>
+<rect x="762.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="820.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">two projects stall. The money sits</text>
+<rect x="762.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="820.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">four half-finished things</text>
+<rect x="762.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="820.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">two finished things and two angry people</text>
+</g>
+</svg>

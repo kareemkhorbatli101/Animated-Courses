@@ -238,7 +238,7 @@ Your teacher names a thing a device could do: *count how many people walk past*.
 
 ### 4B · The functional core — saying what is too much
 
-> **FIGURE `fig_a21_u09_p04_v04` · V4 Comparison Pair`**
+> **FIGURE `fig_a21_u09_p04_v04` · V4 Comparison Pair**
 
 **Language Bank**
 
@@ -348,7 +348,7 @@ The 2026 contract answers **two** of them.
 
 ### How, and how much
 
-> **FIGURE `fig_a21_u09_p06_v03a` · V3 Process Strip`**
+> **FIGURE `fig_a21_u09_p06_v03a` · V3 Process Strip**
 
 ### 6A · Sort — adjective or adverb?
 
@@ -378,7 +378,7 @@ Correct each sentence. **One of them is already correct.**
 4. They explained it clearly.
 5. He answered quick.
 
-> **FIGURE `fig_a21_u09_p06_v04b` · V4 Comparison Pair`**
+> **FIGURE `fig_a21_u09_p06_v04b` · V4 Comparison Pair**
 
 **Six differences.** Find them, then answer the question under the picture.
 

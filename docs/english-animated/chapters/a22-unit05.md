@@ -64,7 +64,7 @@ Three columns.
 
 A silence is an answer. **What does it answer, and how would you record it in a notebook?**
 
-> **FIGURE `fig_a22_u05_p01_v02` · V2 Cutaway`**
+> **FIGURE `fig_a22_u05_p01_v02` · V2 Cutaway**
 
 **Look at the survey office, in section.** Four levels, four stages of a question.
 **At which level was the wrong question written, and who was in the room?**
@@ -160,7 +160,7 @@ Look at the four sentences in Part 2.
 
 ### 3B · See
 
-> **FIGURE `fig_a22_u05_p03_v09` · V9 Grammar Visual · scope`**
+> **FIGURE `fig_a22_u05_p03_v09` · V9 Grammar Visual · scope**
 
 Now look at the second picture. **Three shapes: a wh- question, a yes/no question, and an
 instruction. Which one needs *if* or *whether*?**
@@ -480,7 +480,7 @@ On the wall, with the survey form from Part 5E beside it.
 
 # STUDY FILE · Data in an Argument
 
-> **FIGURE `fig_a22_u05_p09_v03b` · V3 Process Strip`**
+> **FIGURE `fig_a22_u05_p09_v03b` · V3 Process Strip**
 
 ### 9A · The same forty-four answers 🔊 Track 5.4
 

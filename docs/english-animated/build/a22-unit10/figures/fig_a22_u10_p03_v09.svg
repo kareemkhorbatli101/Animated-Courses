@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="580" viewBox="0 0 1600 580">
+<title>One word, two towns</title>
+<desc>Two near-identical sentences with brackets marking the indefinite and definite articles and what each one implies.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="580" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="227.77777777777777" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A</text>
+<text x="363.3333333333333" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">town</text>
+<text x="498.88888888888886" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">came</text>
+<text x="634.4444444444443" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">back</text>
+<text x="770.0" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">/</text>
+<text x="905.5555555555554" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">THE</text>
+<text x="1041.111111111111" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">town</text>
+<text x="1176.6666666666665" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">came</text>
+<text x="1312.2222222222222" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">back</text>
+<path d="M 166.0 324.0 L 166.0 338.0 L 696.2222222222222 338.0 L 696.2222222222222 324.0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 843.7777777777777 324.0 L 843.7777777777777 338.0 L 1374.0 338.0 L 1374.0 324.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 843.7777777777777 378.0 L 843.7777777777777 392.0 L 967.3333333333333 392.0 L 967.3333333333333 378.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One word, two towns</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The only difference between these two sentences is an article, and they are about different places.</text>
+<text x="431.1111111111111" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">any town. A general claim</text>
+<text x="1108.888888888889" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">this one, and we both know which</text>
+<text x="905.5555555555554" y="416.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">one word, and the whole argument is here</text>
+</g>
+</svg>

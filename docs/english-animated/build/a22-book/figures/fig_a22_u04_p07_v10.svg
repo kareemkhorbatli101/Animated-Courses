@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>Where the stress goes when you report</title>
+<desc>Five reported sentences with the stressed syllables drawn as large dots, showing how stressing the reporting verb adds doubt.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<circle cx="240" cy="144" r="8" fill="#9AA7AE"/>
+<text x="240" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she</text>
+<circle cx="358" cy="144" r="8" fill="#9AA7AE"/>
+<text x="358" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">said</text>
+<circle cx="476" cy="144" r="8" fill="#9AA7AE"/>
+<text x="476" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she'd</text>
+<circle cx="594" cy="144" r="16" fill="#1F4E5F"/>
+<text x="594" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">CHECKED</text>
+<circle cx="712" cy="144" r="8" fill="#9AA7AE"/>
+<text x="712" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it</text>
+<circle cx="240" cy="232" r="8" fill="#9AA7AE"/>
+<text x="240" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she</text>
+<circle cx="358" cy="232" r="16" fill="#1F4E5F"/>
+<text x="358" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">SAID</text>
+<circle cx="476" cy="232" r="8" fill="#9AA7AE"/>
+<text x="476" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she'd</text>
+<circle cx="594" cy="232" r="8" fill="#9AA7AE"/>
+<text x="594" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">checked</text>
+<circle cx="712" cy="232" r="8" fill="#9AA7AE"/>
+<text x="712" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it</text>
+<circle cx="240" cy="320" r="8" fill="#9AA7AE"/>
+<text x="240" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">he</text>
+<circle cx="358" cy="320" r="8" fill="#9AA7AE"/>
+<text x="358" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">in</text>
+<circle cx="476" cy="320" r="16" fill="#1F4E5F"/>
+<text x="476" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">SIST</text>
+<circle cx="594" cy="320" r="8" fill="#9AA7AE"/>
+<text x="594" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">ed</text>
+<circle cx="712" cy="320" r="8" fill="#9AA7AE"/>
+<text x="712" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it</text>
+<circle cx="830" cy="320" r="8" fill="#9AA7AE"/>
+<text x="830" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">was</text>
+<circle cx="948" cy="320" r="16" fill="#1F4E5F"/>
+<text x="948" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">HALF</text>
+<circle cx="1066" cy="320" r="8" fill="#9AA7AE"/>
+<text x="1066" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">past</text>
+<circle cx="240" cy="408" r="8" fill="#9AA7AE"/>
+<text x="240" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">ac</text>
+<circle cx="358" cy="408" r="16" fill="#1F4E5F"/>
+<text x="358" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">CORD</text>
+<circle cx="476" cy="408" r="8" fill="#9AA7AE"/>
+<text x="476" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">ing</text>
+<circle cx="594" cy="408" r="8" fill="#9AA7AE"/>
+<text x="594" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">to</text>
+<circle cx="712" cy="408" r="8" fill="#9AA7AE"/>
+<text x="712" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<circle cx="830" cy="408" r="8" fill="#9AA7AE"/>
+<text x="830" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">in</text>
+<circle cx="948" cy="408" r="16" fill="#1F4E5F"/>
+<text x="948" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">QUIR</text>
+<circle cx="1066" cy="408" r="8" fill="#9AA7AE"/>
+<text x="1066" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">y</text>
+<circle cx="240" cy="496" r="8" fill="#9AA7AE"/>
+<text x="240" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she</text>
+<circle cx="358" cy="496" r="8" fill="#9AA7AE"/>
+<text x="358" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">told</text>
+<circle cx="476" cy="496" r="8" fill="#9AA7AE"/>
+<text x="476" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">me</text>
+<circle cx="594" cy="496" r="8" fill="#9AA7AE"/>
+<text x="594" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she</text>
+<circle cx="712" cy="496" r="8" fill="#9AA7AE"/>
+<text x="712" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">had</text>
+<circle cx="830" cy="496" r="16" fill="#1F4E5F"/>
+<text x="830" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">CHECKED</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Where the stress goes when you report</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">A flat report leaves the reporting verb alone. Stress it and you have taken a side.</text>
+<text x="1340" y="170" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">flat - the content is the news</text>
+<text x="1340" y="258" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">loaded - and I am not sure I believe her</text>
+<text x="1340" y="346" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">the verb already carries it; stress adds more</text>
+<text x="1340" y="434" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">the source, named and stressed</text>
+<text x="1340" y="522" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">told me, unstressed, and the fact arrives last</text>
+</g>
+</svg>

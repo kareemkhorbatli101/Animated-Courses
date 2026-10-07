@@ -322,7 +322,7 @@ Guess from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a22_u02_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a22_u02_p05_v05` · V5 Annotated Realia**
 
 **Read the contractor's progress report and answer.**
 
@@ -378,7 +378,7 @@ Put one in each, and say why the other two would be wrong.
 2. I've been very tired ______ .
 3. They're ______ waiting for the plasterboard.
 
-> **FIGURE `fig_a22_u02_p06_v04b` · V4 Comparison Pair`**
+> **FIGURE `fig_a22_u02_p06_v04b` · V4 Comparison Pair**
 
 **Six differences.** Find them, then answer the question under the picture.
 

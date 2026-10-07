@@ -322,7 +322,7 @@ Guess from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a22_u06_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a22_u06_p05_v05` · V5 Annotated Realia**
 
 **Read the insurance claim form and answer.**
 
@@ -344,7 +344,7 @@ The form has a box for **"mooring failure"** and none for anything else that fit
 
 ### How sure is sure
 
-> **FIGURE `fig_a22_u06_p06_v03a` · V3 Process Strip`**
+> **FIGURE `fig_a22_u06_p06_v03a` · V3 Process Strip**
 
 ### 6A · Sort — how certain?
 
@@ -481,7 +481,7 @@ On the wall, with the claim form from Part 5E beside it.
 
 # CULTURE FILE · English as a Lingua Franca
 
-> **FIGURE `fig_a22_u06_p09_v03b` · V3 Process Strip`**
+> **FIGURE `fig_a22_u06_p09_v03b` · V3 Process Strip**
 
 ### 9A · Four people, no native speakers 🔊 Track 6.4
 

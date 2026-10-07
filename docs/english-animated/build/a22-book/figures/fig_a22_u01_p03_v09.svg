@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>Two conditionals, two distances</title>
+<desc>A branching diagram from one situation into a first conditional for a real possibility and a second conditional for an imagined one.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="350.0" r="12" fill="#1C2B33"/>
+<text x="160" y="392.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">if the water...</text>
+</g>
+<g id="20_subject">
+<path d="M 160 350.0 C 440.6 350.0 440.6 160.0 721.2 160.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#2E6F5E"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 293.33333333333337 721.2 293.33333333333337" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,293.33333333333337 705.2,285.33333333333337 705.2,301.33333333333337" fill="#1F4E5F"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 426.6666666666667 721.2 426.6666666666667" fill="none" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,426.6666666666667 705.2,418.6666666666667 705.2,434.6666666666667" fill="#8C6A9E"/>
+<path d="M 160 350.0 C 440.6 350.0 440.6 560.0 721.2 560.0" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<polygon points="721.2,560.0 705.2,552.0 705.2,568.0" fill="#A8372E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two conditionals, two distances</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The grammar is not about time. It is about how far away you think the thing is.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">FIRST: ...comes tonight, we WILL move</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">a real possibility - the forecast says so</text>
+<text x="739.2" y="285.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">SECOND: ...came again, we WOULD move</text>
+<text x="739.2" y="311.33333333333337" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">imagined, unlikely, or just held at a distance</text>
+<text x="739.2" y="418.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="700" font-style="normal">SECOND, about the past: ...had come, we WOULD HAVE moved</text>
+<text x="739.2" y="444.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">and this one cannot be changed at all</text>
+<text x="739.2" y="552.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="start" font-weight="700" font-style="normal">never: if it WOULD come</text>
+<text x="739.2" y="578.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">would lives in the result half, never in the if half</text>
+<rect x="160" y="604" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="628.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The past tense after if is not past time. It is distance. The less likely a thing is, the</text>
+<text x="184" y="649.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">further back the verb goes.</text>
+</g>
+</svg>

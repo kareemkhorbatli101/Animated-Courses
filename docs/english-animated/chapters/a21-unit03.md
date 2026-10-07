@@ -508,7 +508,7 @@ Explain to the group why the time is part of it.
 
 ## Part 10 · Mediation & Interaction ◆ **C · THE PERFORMANCE**
 
-> **FIGURE `fig_a21_u03_p10_v12` · V12 Synthesis Infographic`**
+> **FIGURE `fig_a21_u03_p10_v12` · V12 Synthesis Infographic**
 
 ### 10A · Relay
 

@@ -66,7 +66,7 @@ Three columns.
 A knife is dangerous. A dirty knife is more dangerous, and it does not look it.
 **Give one more example from your own work or home.**
 
-> **FIGURE `fig_a21_u08_p01_v02` · V2 Cutaway`**
+> **FIGURE `fig_a21_u08_p01_v02` · V2 Cutaway**
 
 **Look at the food stall in section.** Four zones, four rules.
 **Which zone has the rule that was written last, and what happened to make somebody write it?**

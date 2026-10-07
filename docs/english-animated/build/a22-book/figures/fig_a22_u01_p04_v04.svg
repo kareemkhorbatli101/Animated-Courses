@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>Thursday, and Saturday</title>
+<desc>Two panels of the same street, one with cars parked and a shed closed, the other with water, sandbags and a boat on its side.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">Thursday</text>
+<rect x="820.0" y="130" width="720.0" height="480" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">Saturday, 02.00</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="562" x2="760.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="100.0" y="472" width="160" height="90" rx="0" fill="#D7D2C6" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="380.0" cy="563.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 374.0705882352941 562 L 375.38823529411764 510.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 385.9294117647059 562 L 384.61176470588236 510.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 380.0 476.35294117647055 L 380.0 513.1152941176471" fill="none" stroke="#1F4E5F" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 367.4823529411765 477.01176470588234 L 392.5176470588235 477.01176470588234" fill="none" stroke="#1F4E5F" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 367.4823529411765 478.32941176470587 L 365.50588235294117 517.0682352941177" fill="none" stroke="#1F4E5F" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="365.50588235294117" cy="519.044705882353" r="3.2941176470588234" fill="#C98E63"/>
+<path d="M 392.5176470588235 478.32941176470587 L 394.49411764705883 517.0682352941177" fill="none" stroke="#1F4E5F" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="394.49411764705883" cy="519.044705882353" r="3.2941176470588234" fill="#C98E63"/>
+<path d="M 380.0 473.05882352941177 L 380.0 469.7647058823529" fill="none" stroke="#C98E63" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="380.0" cy="461.2" r="9.882352941176471" fill="#C98E63"/>
+<path d="M 370.11764705882354 459.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 389.88235294117646 459.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="376.70588235294116" cy="461.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="383.29411764705884" cy="461.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 377.36470588235295 466.4705882352941 Q 380.0 467.7882352941176 382.63529411764705 466.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="362" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">one car moved, and people laughing</text>
+<line x1="840.0" y1="562" x2="1520.0" y2="562" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="860.0" y="472" width="160" height="90" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="730.0" y="438" width="380" height="24" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 1167.0 488 l 26 26 M 1193.0 488 l -26 26" fill="none" stroke="#A8372E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1120.0" y="362" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">twelve centimetres, fourteen houses</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Thursday, and Saturday</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the Thursday. Learner B has the Saturday. The same street.</text>
+<text x="800.0" y="654" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which two differences were decisions, and which five were weather?</text>
+<text x="800.0" y="686" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

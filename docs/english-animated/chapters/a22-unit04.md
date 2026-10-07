@@ -324,7 +324,7 @@ Guess from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a22_u04_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a22_u04_p05_v05` · V5 Annotated Realia**
 
 **Read the newspaper article about the same section and answer.**
 
@@ -346,7 +346,7 @@ The article's headline says **"Witnesses contradict each other."**
 
 ### Verbs that report, and what they smuggle in
 
-> **FIGURE `fig_a22_u04_p06_v03a` · V3 Process Strip`**
+> **FIGURE `fig_a22_u04_p06_v03a` · V3 Process Strip**
 
 ### 6A · Sort — neutral, or loaded?
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>The pause, and what happens after it</title>
+<desc>Three pitch contours comparing a sentence with a non-defining clause between pauses and the same sentence run together as a defining clause.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="230" x2="1360" y2="230" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="410" x2="1360" y2="410" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="590" x2="1360" y2="590" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<path d="M 200 204 L 366 214 L 531 199 L 697 209 L 863 220 L 1029 209 L 1194 225 L 1360 251" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">The hall, | which was built in 1884, | is the oldest building here.</text>
+<path d="M 200 389 L 366 392 L 531 394 L 697 394 L 863 397 L 1029 400 L 1194 405 L 1360 426" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">The hall that was built in 1884 is the oldest building here.</text>
+<path d="M 200 559 L 366 574 L 531 561 L 697 569 L 863 580 L 1029 572 L 1194 585 L 1360 616" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Sinead, | who has run it for nine years, | says it should stay.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The pause, and what happens after it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">A non-defining clause sits between two pauses, and the voice drops a step after each.</text>
+<text x="1370" y="236" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">two pauses, and the pitch resets lower after each</text>
+<text x="1370" y="416" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">no pauses at all - and two halls</text>
+<text x="1370" y="596" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">a name is always non-defining</text>
+</g>
+</svg>

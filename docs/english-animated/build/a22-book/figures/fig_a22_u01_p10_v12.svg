@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>One night, and the eight months after it</title>
+<desc>An infographic of a flood and its aftermath showing the night itself, the drying, the insurance timeline and the funding decision.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The houses</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What happened</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Houses still</text>
+<text x="52" y="484.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">out</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The money</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="182.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="332.0" y="166" width="208.0" height="50" rx="4" fill="#1F4E5F" opacity="0.9"/>
+<rect x="540.0" y="166" width="806.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="1346.0" y="166" width="104.0" height="50" rx="4" fill="#D9A441" opacity="0.9"/>
+<circle cx="202.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="202.0" y1="340" x2="202.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="358.0" cy="340" r="10" fill="#A8372E"/>
+<line x1="358.0" y1="340" x2="358.0" y2="400" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="436.0" cy="340" r="10" fill="#D9A441"/>
+<line x1="436.0" y1="340" x2="436.0" y2="400" stroke="#D9A441" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="748.0" cy="340" r="10" fill="#8C6A9E"/>
+<line x1="748.0" y1="340" x2="748.0" y2="400" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="956.0" cy="340" r="10" fill="#A8372E"/>
+<line x1="956.0" y1="340" x2="956.0" y2="400" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 332 454 L 540 454 L 800 474 L 1060 507 L 1320 533 L 1450 540" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="332.0" cy="454.0000000066154" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="540.0" cy="454.0000000066154" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="800.0" cy="473.8461538512426" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1060.0" cy="506.92307692562133" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1320.0" cy="533.3846153851242" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="618.0" y1="616" x2="618.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="618.0,616 670.0,628 618.0,640" fill="#D9A441"/>
+<line x1="904.0" y1="616" x2="904.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="904.0,616 956.0,628 904.0,640" fill="#D9A441"/>
+<line x1="1164.0" y1="616" x2="1164.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1164.0,616 1216.0,628 1164.0,640" fill="#D9A441"/>
+<line x1="1411.0" y1="616" x2="1411.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1411.0,616 1463.0,628 1411.0,640" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One night, and the eight months after it</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the night. Half sees the recovery. Rebuild the year by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">dry</text>
+<text x="342.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">under water</text>
+<text x="550.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">drying - eight months</text>
+<text x="1356.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">floors going back down</text>
+<text x="202.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Donal moves the car, and is laughed at</text>
+<text x="358.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the drain reverses at about ten</text>
+<text x="436.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Sinead opens the hall</text>
+<text x="748.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">claims notified - 30 day limit</text>
+<text x="956.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">90 days of accommodation runs out</text>
+<text x="1456" y="544.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">1</text>
+<text x="624.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">flood excess: 2,500 each</text>
+<text x="910.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">sheds not covered</text>
+<text x="1170.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">1.8 million offered</text>
+<text x="1417.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">and a survey nobody likes</text>
+<line x1="150.0" y1="712" x2="150.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Thu</text>
+<line x1="410.0" y1="712" x2="410.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sat 02:00</text>
+<line x1="670.0" y1="712" x2="670.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Feb</text>
+<line x1="930.0" y1="712" x2="930.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Apr</text>
+<line x1="1190.0" y1="712" x2="1190.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Jul</text>
+<line x1="1450.0" y1="712" x2="1450.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sep</text>
+</g>
+</svg>

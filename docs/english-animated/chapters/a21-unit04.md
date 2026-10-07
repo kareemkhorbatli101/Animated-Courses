@@ -164,7 +164,7 @@ Look at the four sentences in Part 2.
 Now look at the second picture. **A relative clause is a bracket. Where does it open and
 where does it close?**
 
-> **FIGURE `fig_a21_u04_p03_v09b` · V9 Grammar Visual · scope`**
+> **FIGURE `fig_a21_u04_p03_v09b` · V9 Grammar Visual · scope**
 
 ### 3C · Know
 
@@ -315,7 +315,7 @@ Guess from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a21_u04_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a21_u04_p05_v05` · V5 Annotated Realia**
 
 **Read the market handbook extract and answer.**
 
@@ -373,7 +373,7 @@ Put the right one in each.
 3. That's a ______ piece of advice.
 4. Thank you — you've been very ______ .
 
-> **FIGURE `fig_a21_u04_p06_v04b` · V4 Comparison Pair`**
+> **FIGURE `fig_a21_u04_p06_v04b` · V4 Comparison Pair**
 
 **Six differences.** Find them, then answer the question under the picture.
 
@@ -428,7 +428,7 @@ Three times, faster — but keep the breath before *who*.
 
 ### Who to ask · 90 words
 
-> **FIGURE `fig_a21_u04_p08_v06` · V6 Data Visual`**
+> **FIGURE `fig_a21_u04_p08_v06` · V6 Data Visual**
 
 ### 8A · Read the model
 

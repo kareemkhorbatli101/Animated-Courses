@@ -67,7 +67,7 @@ Two columns.
 **Leaving is an event. Settling is a judgement, usually made by other people.**
 **After how long does somebody stop being new where you live?**
 
-> **FIGURE `fig_a22_u07_p01_v02` · V2 Cutaway`**
+> **FIGURE `fig_a22_u07_p01_v02` · V2 Cutaway**
 
 **Look at the boatyard, in section.** Four levels, four futures.
 **Which level will have changed most in a year, and which will look identical?**
@@ -325,7 +325,7 @@ Guess from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a22_u07_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a22_u07_p05_v05` · V5 Annotated Realia**
 
 **Read the job advert and the contract summary, and answer.**
 

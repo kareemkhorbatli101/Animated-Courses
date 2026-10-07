@@ -220,7 +220,7 @@ learning English?* Sixty seconds. Then everybody moves one place to the left.
 
 ### 4B · The functional core — asking how long
 
-> **FIGURE `fig_a21_u01_p04_v04` · V4 Comparison Pair`**
+> **FIGURE `fig_a21_u01_p04_v04` · V4 Comparison Pair**
 
 **Language Bank**
 
@@ -298,7 +298,7 @@ Guess the meaning from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a21_u01_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a21_u01_p05_v05` · V5 Annotated Realia**
 
 **Read the market noticeboard and answer.**
 
@@ -372,7 +372,7 @@ Six items. Past simple or present perfect?
 
 ### Three words that become one
 
-> **FIGURE `fig_a21_u01_p07_v10` · V10 Phonetics`**
+> **FIGURE `fig_a21_u01_p07_v10` · V10 Phonetics**
 
 ### 7A · Hear 🔊 Track 1.3
 
@@ -405,7 +405,7 @@ Twenty seconds: **three things you have done, and how long for.** Three times, f
 
 ### Something I can do · 80 words
 
-> **FIGURE `fig_a21_u01_p08_v06` · V6 Data Visual`**
+> **FIGURE `fig_a21_u01_p08_v06` · V6 Data Visual**
 
 ### 8A · Read the model
 
@@ -488,7 +488,7 @@ Bring the number.
 
 ## Part 10 · Mediation & Interaction ◆ **C · THE PERFORMANCE**
 
-> **FIGURE `fig_a21_u01_p10_v12` · V12 Synthesis Infographic`**
+> **FIGURE `fig_a21_u01_p10_v12` · V12 Synthesis Infographic**
 
 ### 10A · Relay
 

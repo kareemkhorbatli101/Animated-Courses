@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<title>A thing, a kind of thing, and the thing</title>
+<desc>A four-panel strip showing a bare noun, an indefinite article, a definite article and a demonstrative, each with its example.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="520" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="86.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="86.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<rect x="436.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="462.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="462.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<rect x="812.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="838.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="838.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<rect x="1188.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="1214.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="1214.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="372" x2="392.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="135.0" y="308" width="50" height="44" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="205.0" y="308" width="50" height="44" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="275.0" y="308" width="50" height="44" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="220.0" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">towns change / truth matters</text>
+<line x1="456.0" y1="372" x2="768.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="581.0" y="308" width="70" height="44" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="596.0" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">a town / a story / a kind of</text>
+<line x1="832.0" y1="372" x2="1144.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="957.0" y="308" width="70" height="44" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 1098.0 322 l 10 12 l 20 -26" fill="none" stroke="#2E6F5E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="972.0" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the town / the truth about it</text>
+<line x1="1208.0" y1="372" x2="1520.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="1348.0" cy="373.9764705882353" rx="14.494117647058824" ry="3.2941176470588234" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1342.070588235294 372 L 1343.3882352941177 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1353.929411764706 372 L 1352.6117647058823 320.48" fill="none" stroke="#3A4A55" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1348.0 286.35294117647055 L 1348.0 323.11529411764707" fill="none" stroke="#C86B2B" stroke-width="15.811764705882354" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1335.4823529411765 287.01176470588234 L 1360.5176470588235 287.01176470588234" fill="none" stroke="#C86B2B" stroke-width="8.564705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1335.4823529411765 288.32941176470587 L 1333.5058823529412 327.06823529411764" fill="none" stroke="#C86B2B" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1333.5058823529412" cy="329.04470588235296" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 1360.5176470588235 288.32941176470587 L 1377.6470588235295 285.035294117647" fill="none" stroke="#C86B2B" stroke-width="5.929411764705883" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1380.2823529411764" cy="284.37647058823524" r="3.2941176470588234" fill="#E8C39E"/>
+<path d="M 1348.0 283.05882352941177 L 1348.0 279.7647058823529" fill="none" stroke="#E8C39E" stroke-width="6.588235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1348.0" cy="271.2" r="9.882352941176471" fill="#E8C39E"/>
+<path d="M 1338.1176470588234 269.88235294117646 A 9.882352941176471 9.882352941176471 0 0 1 1357.8823529411766 269.88235294117646" fill="none" stroke="#2A2320" stroke-width="4.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1344.7058823529412" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<circle cx="1351.2941176470588" cy="271.8588235294118" r="1.1858823529411764" fill="#2A2320"/>
+<path d="M 1345.3647058823528 276.4705882352941 Q 1348.0 277.7882352941176 1350.6352941176472 276.4705882352941" fill="none" stroke="#8A5A48" stroke-width="1.0541176470588236" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1348.0" y="187" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">this town / that winter / such a story</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A thing, a kind of thing, and the thing</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four steps from a noun with nothing in front of it to one with a finger pointing at it.</text>
+<text x="70.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">NO ARTICLE - all of them, everywhere</text>
+<text x="446.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A - one of several, first mention</text>
+<text x="822.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">THE - and we both know which</text>
+<text x="1198.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">THIS - and I am pointing at it</text>
+<line x1="60" y1="484" x2="1540" y2="484" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 6"/>
+<text x="60" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">general</text>
+<text x="1540" y="510" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="400" font-style="normal">this one</text>
+</g>
+</svg>

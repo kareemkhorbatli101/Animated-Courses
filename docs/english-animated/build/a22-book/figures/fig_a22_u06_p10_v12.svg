@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>From the mooring to the form</title>
+<desc>An infographic of a marine loss from the night of the disappearance through the search and the claim to the settlement.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The boat</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The</text>
+<text x="52" y="334.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">explanations</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What the</text>
+<text x="52" y="484.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">claim is</text>
+<text x="52" y="504.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">worth</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The arguments</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="182.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="332.0" y="166" width="208.0" height="50" rx="4" fill="#A8372E" opacity="0.9"/>
+<rect x="540.0" y="166" width="910.0" height="50" rx="4" fill="#9AA7AE" opacity="0.9"/>
+<circle cx="410.0" cy="340" r="10" fill="#C86B2B"/>
+<line x1="410.0" y1="340" x2="410.0" y2="400" stroke="#C86B2B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="722.0" cy="340" r="10" fill="#1F4E5F"/>
+<line x1="722.0" y1="340" x2="722.0" y2="400" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="800.0" cy="340" r="10" fill="#8C6A9E"/>
+<line x1="800.0" y1="340" x2="800.0" y2="400" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1086.0" cy="340" r="10" fill="#A8372E"/>
+<line x1="1086.0" y1="340" x2="1086.0" y2="400" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1398.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="1398.0" y1="340" x2="1398.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 540 454 L 735 540 L 930 540 L 1190 540 L 1385 454 L 1450 454" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="540.0" cy="454.00000000000716" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="735.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="930.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1190.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1385.0" cy="454.00000000000716" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="454.00000000000716" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="462.0" y1="616" x2="462.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="462.0,616 514.0,628 462.0,640" fill="#D9A441"/>
+<line x1="878.0000000000001" y1="616" x2="878.0000000000001" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="878.0000000000001,616 930.0000000000001,628 878.0000000000001,640" fill="#D9A441"/>
+<line x1="1164.0" y1="616" x2="1164.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1164.0,616 1216.0,628 1164.0,640" fill="#D9A441"/>
+<line x1="1437.0" y1="616" x2="1437.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1437.0,616 1489.0,628 1437.0,640" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">From the mooring to the form</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the rope. Half sees the form. Rebuild the case by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">on its mooring</text>
+<text x="342.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">missing</text>
+<text x="550.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">two miles out, not recovered</text>
+<text x="410.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">&quot;it must have broken its mooring&quot; - before anyone looked</text>
+<text x="722.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the rope: untied, turns still in it</text>
+<text x="800.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the lifejacket, on the hook since Sunday</text>
+<text x="1086.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">search closed</text>
+<text x="1398.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">&quot;circumstances not determined, no owner fault&quot;</text>
+<text x="1456" y="458.00000000000716" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">18,000</text>
+<text x="468.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">rope that breaks does not look like that</text>
+<text x="884.0000000000001" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">box B needs a boat nobody can reach</text>
+<text x="1170.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the honest box pays a third</text>
+<text x="1443.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">a heading that is not on the household form</text>
+<line x1="150.0" y1="712" x2="150.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sun</text>
+<line x1="410.0" y1="712" x2="410.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Tue 11.30</text>
+<line x1="670.0" y1="712" x2="670.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the form</text>
+<line x1="930.0" y1="712" x2="930.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the rope</text>
+<line x1="1190.0" y1="712" x2="1190.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">March</text>
+<line x1="1450.0" y1="712" x2="1450.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+6 mo</text>
+</g>
+</svg>

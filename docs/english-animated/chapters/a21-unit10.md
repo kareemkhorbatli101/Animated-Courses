@@ -332,7 +332,7 @@ Guess from the text. Then check.
 
 ### 5E · The counter-text
 
-> **FIGURE `fig_a21_u10_p05_v05` · V5 Annotated Realia`**
+> **FIGURE `fig_a21_u10_p05_v05` · V5 Annotated Realia**
 
 **Read the notice itself and answer.**
 

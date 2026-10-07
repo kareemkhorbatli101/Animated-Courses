@@ -65,7 +65,7 @@ Three columns: **the traveller · the operator · nobody**.
 
 Which of these four do you have a legal right to in your country? **Check with a partner.**
 
-> **FIGURE `fig_a21_u05_p01_v02` · V2 Cutaway`**
+> **FIGURE `fig_a21_u05_p01_v02` · V2 Cutaway**
 
 **Look at the station in section.** Four levels, four ways of being late.
 **Which level costs the most minutes, and why does nobody plan for it?**
@@ -385,7 +385,7 @@ Six items.
 
 ### Up, then down
 
-> **FIGURE `fig_a21_u05_p07_v10` · V10 Phonetics`**
+> **FIGURE `fig_a21_u05_p07_v10` · V10 Phonetics**
 
 ### 7A · Hear 🔊 Track 5.3
 

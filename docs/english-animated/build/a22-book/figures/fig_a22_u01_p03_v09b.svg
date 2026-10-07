@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+<title>From certain to impossible</title>
+<desc>A ladder from a certain future at the top through likely and unlikely to impossible at the bottom, with the matching form on each rung.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="720" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="606.0" y1="150.0" x2="674.0" y2="150.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="260.0" x2="674.0" y2="260.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="370.0" x2="674.0" y2="370.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="480.0" x2="674.0" y2="480.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="590.0" x2="674.0" y2="590.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="640.0" y1="130" x2="640.0" y2="610" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="698.0" y="156.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">When it floods, we move the car</text>
+<text x="940.0" y="156.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">when, not if. It will happen</text>
+<text x="698.0" y="266.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">If it floods, we will move the car</text>
+<text x="940.0" y="266.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a real possibility this winter</text>
+<text x="698.0" y="376.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">If it flooded, we would move the car</text>
+<text x="940.0" y="376.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">unlikely, or kept at a distance</text>
+<text x="698.0" y="486.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">If I were you, I would move it</text>
+<text x="940.0" y="486.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">impossible - I am not you</text>
+<text x="698.0" y="596.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">If I had known, I would have moved it</text>
+<text x="940.0" y="596.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the past. Nothing can be done</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">From certain to impossible</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five rungs. The second conditional lives on the middle three and is comfortable there.</text>
+<text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">certain</text>
+<text x="590.0" y="626" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">impossible now</text>
+<rect x="160" y="624" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="648.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">were, not was, after if I. If I were you is the fixed form; if I was you is heard everywhere</text>
+<text x="184" y="669.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">and is still the one to avoid in writing.</text>
+</g>
+</svg>

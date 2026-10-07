@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>One hundred and eighty thousand, March to December</title>
+<desc>An infographic of a relief fund from the claims arriving in March through the reduction, the vote and the unspent balance returning in December.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The fund</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What happened</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Unallocated</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The four</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">meanings of</text>
+<text x="52" y="654.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">fair</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="962.0" height="50" rx="4" fill="#D9A441" opacity="0.9"/>
+<rect x="1112.0" y="166" width="286.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="1398.0" y="166" width="52.0" height="50" rx="4" fill="#A8372E" opacity="0.9"/>
+<circle cx="176.0" cy="340" r="10" fill="#9AA7AE"/>
+<line x1="176.0" y1="340" x2="176.0" y2="400" stroke="#9AA7AE" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="358.0" cy="340" r="10" fill="#8C6A9E"/>
+<line x1="358.0" y1="340" x2="358.0" y2="400" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1112.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="1112.0" y1="340" x2="1112.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1216.0" cy="340" r="10" fill="#1F4E5F"/>
+<line x1="1216.0" y1="340" x2="1216.0" y2="400" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1294.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="1294.0" y1="340" x2="1294.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 150 454 L 670 454 L 1112 454 L 1190 514 L 1398 538 L 1450 540" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="454.00000000047777" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="670.0" cy="454.00000000047777" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1112.0" cy="454.00000000047777" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1190.0" cy="513.7222222223683" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1398.0" cy="538.041111111122" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="540.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="410.0" y1="616" x2="410.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="410.0,616 462.0,628 410.0,640" fill="#D9A441"/>
+<line x1="722.0" y1="616" x2="722.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="722.0,616 774.0,628 722.0,640" fill="#D9A441"/>
+<line x1="982.0" y1="616" x2="982.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="982.0,616 1034.0,628 982.0,640" fill="#D9A441"/>
+<line x1="1346.0" y1="616" x2="1346.0" y2="684" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1346.0,616 1398.0,628 1346.0,640" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One hundred and eighty thousand, March to December</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the sheet. Half sees the column. Rebuild the decision by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">180,000, unallocated</text>
+<text x="1122.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">125,000 paid out</text>
+<text x="1408.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">4,100 returned</text>
+<text x="176.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">two claims in. Quietly assumed into the budget</text>
+<text x="358.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">claim 2 reduced by 7,500 - not minuted</text>
+<text x="1112.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">vote: by need, 6 to 3, two hours</text>
+<text x="1216.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">an insured claimant asks for a letter</text>
+<text x="1294.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">his insurer settles in April because of it</text>
+<text x="1456" y="544.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">0</text>
+<text x="416.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">equal: 45,000 each, and nothing finishes</text>
+<text x="728.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">proportional: rewards the optimistic estimate</text>
+<text x="988.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">by need: and you have to say it out loud</text>
+<text x="1352.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">first come: it had already partly happened</text>
+<line x1="150.0" y1="712" x2="150.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Mar</text>
+<line x1="410.0" y1="712" x2="410.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Apr</text>
+<line x1="670.0" y1="712" x2="670.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Jul</text>
+<line x1="930.0" y1="712" x2="930.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Oct</text>
+<line x1="1190.0" y1="712" x2="1190.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the vote</text>
+<line x1="1450.0" y1="712" x2="1450.0" y2="726" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Dec</text>
+</g>
+</svg>
