@@ -592,3 +592,154 @@ Peadar, the narrator, and one of the two apprentices. Peadar: there is a kitbag 
 **12A** · Recycle — ten items
 1 which · 2 who · 3 of which · 4 from · 5 across · 6 will be living · 7 must have broken · 8 told · 9 had already started · 10 who / that
 
+
+---
+
+## A2.2 · Unit 9 · Four Claims, Enough for Three
+
+**0B** · Guess it
+The guest-house owner and the man at the back by the door. The guest-house owner has her claim folder closed on her knee and is the only person not looking at the figures on the board — she has no insurance and has already decided she will not plead for it in a room. The man by the door has brought nothing at all and is standing, which is what people do when they have come to listen rather than to ask.
+
+**1B** · Sort — the money, the process, or the judgement?
+> **the process** — allocate · priority · request
+> **the judgement** — equal · fair · limited
+> **the money** — grant · fund · relief
+**Only a judgement when there is not enough:** *priority*. With enough money it is merely an order of work. With 180,000 against 246,000 it becomes a statement about whose loss matters more, which is why nobody uses the word in the meeting.
+
+**2A** · One hundred and eighty thousand 🔊 Track 9.1
+**1** c) 246,000 · **2** b) Most · **3** b) Neither · **4** a) all four partly
+**Table** — 1: the hall, floor and wiring, 52,000; partly insured; it is the only building the whole town uses. 2: the terrace, four households, 61,500; insured; four families are still displaced. 3: the guest house, 58,000; no insurance; it is somebody's entire income. 4: the boatyard, slip and shed, 67,000; no insurance; eleven jobs depend on it.
+
+**Noticing** — **About money:** 4 (*None of it can be carried over*). You can tell from the verb: *none of it **can***, singular, with an uncountable noun. The other three take plural verbs or *of them*.
+
+**3D** · Use — controlled
+1 None · 2 Most · 3 neither · 4 None · 5 all · 6 some · 7 all
+
+**3E** · Use — guided
+1 **None** — zero out of more than two. *Neither* would need exactly two.  
+2 **Neither** — zero out of exactly two. *None* is possible and loses the two-ness.  
+3 **Most** — more than half. *Both* would need two; *all* would be too strong.  
+4 **Some** — a bit, but not much. *(Accept* a little*.)* *Any* would need a negative or a question.  
+5 **Either** — one or the other of exactly two. *Both* would mean the committee must take the pair.
+
+**5C** · Answer
+1 €180,000; €246,000 asked for; four claims.  
+2 Forty-five thousand each leaves two of them with less than half of what they need, which means neither of those two can start work at all. Equal shares of an insufficient sum can be the least useful way of spending it.  
+3 Whoever estimated most optimistically in March.  
+4 Because it requires saying out loud that the other two matter less.  
+5 **First come.** Two of the four submitted in March and have been quietly assumed into the budget ever since.  
+6 That picking none of the four and splitting the difference is also a choice — and the only one that nobody will later be able to explain.
+
+**5D** · Vocabulary in context
+**defensible** — able to be justified if challenged, which is not the same as right · **an insufficient sum** — not enough, whatever you do with it · **optimistically** — high, in March, when nobody knew · **privately believe in** — think is right and will not say · **splitting the difference** — taking a middle course with no principle behind it
+
+**5E** · The counter-text
+1 Claim 1, the hall floor and wiring, 52,000. Claim 2, the terrace, four households, 61,500. Claim 3, the guest house, 58,000. Claim 4, the boatyard slip and shed, 67,000. Total 238,500 — a shortfall of 58,500.  
+2 **Claim 2**, by 7,500 — from 69,000 in March to 61,500 in April. The reduction is not minuted, and the margin note says he found a cheaper contractor and nobody asked him to.  
+3 8,000 held, none of it spent. **Nothing may be carried over:** any sum unspent at 31 December returns to the county.  
+4 Which claims are insured — claims 1 and 2 yes, claims 3 and 4 no. It is the column the *by need* argument rests on, and it is the only column the reading never quotes.
+
+**6A** · Sort — countable or uncountable?
+> **countable** — requests · claims · dehumidifiers · forms · people
+> **uncountable** — supply · fuel · funding · money · relief
+**Quantifiers:** *many / a few / several* with the countable column; *much / a little / a great deal of* with the uncountable one. *supply* is countable in the plural (*supplies ran out*), which is the one worth arguing about.
+
+**6B** · Chunk completion
+1 of · 2 of · 3 of · 4 of · 5 up · 6 not
+
+**6C** · Three that are only ever about two
+1 ✗ *Both of the four* → **Two of the four claims are from businesses.** *Both* takes exactly two.  
+2 ✗ *Neither of the three* → **None of the three has insurance.**  
+3 ✓ **Already correct.**  
+4 ✗ *Neither of them have* → **Neither of them has replied.** *Neither* takes a singular verb in careful written English.
+
+**6D** · Contrast Clinic — which quantifier
+> **1** Either
+> **2** all
+> **3** Most
+> **4** Neither
+> **5** None
+> **6** None
+
+**7C** · Make it mean something
+*We funded **THREE** of them* answers an accusation — somebody has said the committee funded fewer, or none, and the stress corrects the number. *We funded three of **THEM*** corrects who, not how many, and is answering a different accusation: that the money went somewhere else.
+
+**12A** · Recycle — ten items
+1 All · 2 None · 3 Neither · 4 out · 5 round · 6 which · 7 will be living · 8 must have broken · 9 told · 10 so
+
+
+---
+
+## A2.2 · Unit 10 · The Town That Came Back
+
+**0B** · Guess it
+The tide mark on the hall wall. Everything else has been painted over, and that one line has been cut round — you can see the brush edge above and below it. **Who decided:** the committee, at the meeting where they voted to keep the hall. Nothing in the picture says so, and the brush edge says somebody was told not to paint it.
+
+**1B** · Sort — about a person, a place, or both?
+> **about a person** — identity · newcomer · reputation · outsider
+> **both** — belong · memory
+> **about a place** — local · community
+**Given to you by other people, always:** *reputation*. You cannot have one by yourself. *(Accept* outsider *for the same reason — it is a status conferred, never claimed.)*
+
+**2A** · The brochure 🔊 Track 10.1
+**1** c) three years · **2** c) incomplete · **3** b) add a page · **4** a) a public meeting
+**Table** — The agency wants the line and three years of use; it is afraid of a town that argues with its own campaign. Sinéad wants the visitors and the money; she is afraid of the hall closing before the plasterboard arrives. Eimear wants the seven households in the story; she is afraid of a town that spent a year insisting on accurate times agreeing to a sentence it would not accept about anybody else.
+
+**Noticing** — **Any town:** 1 and 3. **This one:** 2 and 4. The word doing the work is **the**.
+
+**3D** · Use — controlled
+1 An / The · 2 a · 3 The · 4 a · 5 the · 6 the · 7 the
+
+**3E** · Use — guided
+1 The water came in at about ten. *(this water)*  
+2 — *(nothing)* Water is heavier than people think. *(water in general)*  
+3 She wrote a letter. The letter was two pages long.  
+4 — *(nothing)* Truth matters.  
+5 The truth about the drain took fourteen months.  
+6 It is a story about a town, not the story of this one.
+
+**5C** · Answer
+1 Because the photographs are of real people doing real things, nobody is pretending the hall is finished, and the line is three years of unpaid work.  
+2 From somebody in the town, in the hall, in February. Nobody wrote down who.  
+3 Seven of fifty-one. Two sold, two were bought out, and three are simply not here with the houses shut.  
+4 Fourteen per cent. Nobody markets a place with a number like that, and the people who left are not available to be photographed.  
+5 The town did come back — with seven households fewer, a sea wall decision it has not made, and a hall it has decided to keep without quite saying why. *Came back* is true and is not the whole of it.  
+6 That the story is true and is also an edit — and it is aimed at the town itself, which has spent a year insisting on accurate times and is about to accept a sentence about itself it would not accept about anybody else.
+
+**5D** · Vocabulary in context
+**the cynical one** — the easy article the writer refuses to write · **bought out** — paid to leave, which is not the same as selling · **an edit** — a true account with things taken out · **insisting on** — demanding, over a year, which is what makes the acceptance awkward · **available to be photographed** — the quiet reason the seven are missing from the brochure
+
+**5E** · The counter-text
+1 "THE TOWN THAT CAME BACK", with six photographs.  
+2 **Appear:** 51 households, 8 months, 200 people, 1884. **Do not:** the seven households who have gone, the fourteen per cent, and anything about how far from finished the hall is.  
+3 "Campaign funded by the county council and the regional tourism fund. Photographs by residents."  
+4 Photograph 4: "the hall, in use again". The hall is in use and is not finished — and no caption anywhere says it is finished, which is how the page stays true.
+
+**6A** · Sort — concrete or abstract?
+> **abstract** — change · identity · reputation · truth · community · memory
+> **concrete** — boat · wall · pier · hall
+**Articles:** the concrete nouns take *a/the* freely. The abstract ones take no article when general (*truth matters*) and *the* when particular (*the truth about that night*).  
+**Two abstract ones that can be concrete:** *community* — *a community of fifty-one households* is a countable group of people. *change* — *have you got change?* and *a change of clothes* are both physical.
+
+**6B** · Chunk completion
+1 thing · 2 of · 3 who · 4 end · 5 up · 6 that
+
+**6C** · Abstract nouns and the article
+**memory:** *Memory is unreliable.* · *The memory of that night is unreliable.* · *A memory nobody else has.*  
+**change:** *Change is slow.* · *The change in the harbour took eleven years.* · *A change that nobody voted for.*  
+**community:** *Community is what kept the hall open.* · *The community in the lower town is smaller now.* · *A community of fifty-one households.*
+
+**6D** · Contrast Clinic — a, the, or nothing
+> **1** the
+> **2** The
+> **3** The
+> **4** — *(nothing)*
+> **5** a / a
+> **6** — *(nothing)*
+
+**7C** · Make it mean something
+The second claims the town as the subject of a known story rather than an example of a kind. *The* asserts that both the story and the town are already identified — which is exactly what a campaign is for, and exactly what Eimear objects to, because it makes one account the account.
+
+**12A** · Recycle — ten items
+1 The · 2 — *(nothing)* · 3 a / a · 4 them · 5 that · 6 Neither · 7 which · 8 will be living *(Unit 7)* · 9 had already started · 10 is
+
