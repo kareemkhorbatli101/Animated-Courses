@@ -149,9 +149,11 @@ def render(sec, payload, body, problems):
     if 'clinic' in payload:
         items = read_numbered(body)
         bits = []
+        def norm(x):
+            return re.sub(r'\s+', ' ', x).strip().lower()
         for n, it in enumerate(items, 1):
             hit = [v for k, v in payload['clinic'].items()
-                   if it.lower().startswith(k.lower())]
+                   if norm(it).startswith(norm(k))]
             if len(hit) != 1:
                 problems.append(f'{sec} item {n}: {len(hit)} key entries match '
                                 f'{it[:44]!r}')

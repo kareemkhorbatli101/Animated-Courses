@@ -543,3 +543,244 @@ Stress on **go** means *do it again* — the stress falls on the verb of repetit
 **12A** · Recycle — twelve items
 1 to check · 2 borrow · 3 leave · 4 warned … against · 5 on · 6 into · 7 was brought · 8 press / logs · 9 mustn't · 10 am seeing · 11 who / that · 12 was not allowed
 
+
+---
+
+## B1.1 · Unit 8 · Four Hundred Kilometres
+
+**0B** · Guess it
+The middle field. The evidence: no crop rows and no bare worked soil either — it carries an even low cover with flowering weeds through it, the gate has grass grown across the opening, and there are no wheel ruts going in. The two outer fields have rows at different heights, which is the rotation.
+
+**1B** · Sort — how fast can you change it?
+**Changes in a season → takes a generation:** what you plant · who you sell to · the rotation · how you irrigate · the soil · the terraces.  
+**Where it stops being this year's decision:** between *the rotation* and *how you irrigate* for most groups — irrigation needs capital and usually a neighbour's agreement. A good argument puts it earlier: a rotation is a three-to-seven year commitment the moment you start it.
+
+**2A** · It says local on the box 🔊 Track 8.1
+**1** A · **2** B · **3** A · **4** B · **5** C · **6** B
+**Noticing** — the six sentences are keyed above.
+
+**Gist** — four hundred kilometres. It is July, and July produce comes from Meru.
+
+**Detail** — The grower's: 40 km, +11 a kilo, November to June. The other supplier's: 400 km, cheaper, all year.
+
+**Inference** — that the ones in July are not hers. The past tense and the explicit *in March* do the work; she has told the truth about March in order not to say anything about July.
+
+**Attitude** — the flat, falling *that* with no rise and no pause after it. A real discovery takes a breath and a question; this one closes the subject, which is how you know he had decided not to ask.
+
+**3D** · Use — controlled
+1 The farm supplying the market is in the next county.  
+2 The crates loaded on Tuesday went out first.  
+3 **Cannot be reduced.** *Who* is the object of *met*, not the subject — you can only drop it: *The grower I met last year has stopped.*  
+4 The cooperative setting the price has four hundred members.  
+5 **Cannot be reduced.** *Which* is the object of *planted* — *The variety they planted in 2019 needs less water.*  
+6 The hedge planted to stop erosion is forty years old.
+
+**3E** · Use — guided
+1 The cooperative of which she is a member.  
+2 The season on which we depend.  
+3 The three growers from whom we buy.  
+4 First the repair: *The extent to which things have changed.* It is already in the formal pattern — the original was missing *which*.
+
+**5C** · Close reading
+1 Because any distance is correct somewhere and absurd somewhere else: thirty miles is reasonable in a dense country and meaningless in a sparse one, and a rule written for one landscape fails in the next valley.  
+2 It is signalling — a claim about the kind of supply chain the buyer is joining: short, visible, with a person at the end of it who could in principle be visited.  
+3 **Seasonality:** a shop selling a crop twelve months a year is importing for part of it and the label does not change in July. **Aggregation:** a cooperative of four hundred members can truthfully say produce comes from its members while a given crate has no traceable field. **Processing:** grown four hundred kilometres away, packed ten away, is *locally packed* under several voluntary schemes and looks identical on a label.  
+4 A buyer who knows nothing uses it as a weak signal and is usually not badly misled. Insisting on a number ends in certification.  
+5 Because certification costs money, and the growers who cannot afford it are precisely the smallholders the word was supposed to protect. A precise word does not make the system more honest; it makes it more expensive to enter.  
+6 Printing the distance, the month, and the name of the farm the crate came from. None requires a scheme; all are harder to write on a label than the word *local*, which is the actual reason they are absent.
+
+**5D** · Vocabulary in context
+**oversight** — here the *failure to notice* sense, and the sentence denies it · **radius** — a distance measured outward from a point · **signalling** — conveying what kind of thing this is rather than a fact about it · **aggregation** — many growers' produce pooled, after which no crate has a field · **traceable** — able to be followed back to a specific source · **voluntary scheme** — a certification nobody is obliged to join, which is why it costs and why it excludes
+
+**5E** · The counter-text
+1 Label A claims to be local, four times, and states no grower, no distance and no picking date — only that it was packed at Ruiru, 10 km. Label B states the grower, the distance (40 km), the picking and packing dates, the season, what happens outside the season, and the price split.  
+2 Label A falls into **processing** (packed ten kilometres away, grown somewhere unstated) and into **seasonality** (no month anywhere). Label B falls into none: it names the July to October source as Meru, 400 km.  
+3 Label A gives a distance — 10 km — and it is the **packing** distance, which is not the one you would want. Label B gives the growing distance, which is.  
+4 Label B gives *picked Tuesday, packed Tuesday, same day*. Label A gives no date at all; what is missing next to *packed at Ruiru* is **when**, and without it the ten kilometres tells you nothing.  
+5 **Label B is both**, which is the trap in the question — but the useful answer is that Label A is not dishonest. Every word on it is true. It is uninformative, and the unit's point is that truthful and informative are separate tests.
+
+**6A** · Sort — speech, writing, or both?
+> **both** — notably · whose · partly · of which · namely · largely
+> **writing** — whereby · wherein · none of which · chiefly · the extent to which · of whom · most of which · solely · give rise to · thereof · respectively · in which
+> **speech** — stem from · at which point · all of which is to say
+The six in both are the ones with no Latinate flavour and no legal history: *whose*, *of which*, *notably*, *partly*, *namely*, *largely*. *at which point* is arguable in both — it is common in speech and in minutes.
+
+**6B** · Chunk completion
+1 whereby · 2 most of which · 3 The extent to which · 4 stems from · 5 namely
+
+**6C** · Register sort
+**Would survive on a label:** namely · partly · largely. **Report only:** whereby · wherein · thereof · the extent to which · respectively · give rise to · none of which · of whom · solely · chiefly · in which · of which · notably. **In neither, and still said out loud:** all of which is to say · stem from · at which point.
+
+**6D** · Contrast Clinic — reduce it, or don't
+> **1** **Cannot be reduced.** *Who* is the object of *from*. Drop it instead: *The grower we buy from…*
+> **2** The grower supplying us has eleven acres.
+> **3** The cooperative setting the price has four hundred members.
+> **4** The hedge planted in 1984 is still there.
+> **5** The variety planted in 2019 needs less water.
+> **6** The field lying fallow this year was planted in 2023.
+
+**7C** · Make it mean something
+The natural breath points are after *this year*, after *less water*, and before *most of whose members*. Three breaths, four units. Readers who breathe only twice lose the listener at *belongs to*, because by then three noun phrases are open at once. Compare marks: the disagreement is almost always about whether to breathe before or after *which was planted*.
+
+**12A** · Recycle — twelve items
+1 who / that — **yes, it can be dropped** *(object of* spoke to*)* · 2 packed · 3 of which · 4 arable · 5 fallow · 6 The extent to which · 7 to check · 8 was brought · 9 press / logs · 10 mustn't · 11 who / that · 12 grown
+
+
+---
+
+## B1.1 · Unit 9 · Whose Story
+
+**0B** · Guess it
+The person at the end of the table with the notebook closed and their chair pushed back from it. Everybody else is inside the recorder's arc and leaning in; that one has moved out of it, has nothing on the table, and is the only person not looking at the device.
+
+**1B** · Sort — cline of distance from the event
+**Closest → furthest:** what happened · what you saw · what you said you saw · what was written down · what was published · what people now remember.  
+**Where it stops being evidence:** most groups mark it after *what was written down*, because publication introduces an editor. A harder and better mark is after *what you saw* — everything from *what you said you saw* onwards is testimony, and the unit is about what happens between those two lines.
+
+**2A** · What she's actually here for 🔊 Track 9.1
+**1** C · **2** D · **3** A · **4** D · **5** B · **6** D
+**Noticing** — the six sentences are keyed above. *(Insist* is doubting in a different register: it reports that the speaker is being contradicted and will not move, which is why it reads as defensive.)*
+
+**Gist** — a piece about a landlord refusing to pay for accessibility work and tenants being left to it.
+
+**Detail** — First five minutes: the building, the lease, the 2019 report. Last five minutes: she keeps returning to whether anybody has been injured — which is the sentence the piece needs and the thing nobody can say.
+
+**Inference** — Wanjiru is trying to move the quote to somebody whose position it would not damage. It does not work: the journalist writes down that she said it, and *"I'd rather you spoke to Mariam"* is itself quotable.
+
+**Attitude** — the second. The first and third are level and quick, marking a turn; the second falls and is longer, and is the only one that agrees with anything.
+
+**3D** · Use — controlled
+1 said / claimed / alleged — *said* reports it, *claimed* doubts it, *alleged* marks it legally unproven  
+2 denied  
+3 pointed  
+4 admitted / conceded — both say it cost her something; *conceded* implies she was argued into it  
+5 refused  
+6 confirmed / disclosed — *confirmed* means it was already known, *disclosed* that it was not
+
+**3E** · Use — guided
+1 **Neutral:** *He said he had not known the toilet was an issue.* **Doubting:** *He claimed he had not known…* **Conceding:** *He admitted he had not known…* — and *admitted* is the trap: not knowing is not a confession, so the conceding verb invents a fault. **Publish:** the neutral one.  
+2 **Neutral:** *They said they had offered to pay half.* **Doubting:** *They claimed…* **Conceding:** *They acknowledged…* **Publish:** the neutral one, unless the offer is disputed, in which case *claimed* is honest and *said* is not.  
+3 **Neutral:** *He said nobody had raised it with him.* **Doubting:** *He maintained…* **Conceding:** *He conceded…* **Publish:** the neutral one — and note that *maintained* is the verb that makes a person look like they are losing.
+
+**5C** · Close reading
+1 Eleven words; the piece was six hundred.  
+2 Not to damage him. The explanation took two minutes and the eleven words took four seconds, and she had six hundred words for the whole piece.  
+3 That he had chosen the eleven words — not the edit, the words.  
+4 A telling of the story shaped for effect: there is a pause in it that gets a reaction. It is a performance of being wronged, and it is the version he was good at.  
+5 He says the dull version first, so that if it is the only thing he says it is the only thing that can be used. The cost is that he is quoted much less often.  
+6 Against the system that selects for the sharp phrase — and, by the last clause, against everybody who keeps reaching for one, the writer included. It is an accusation that cannot be delivered to a person, which is why it is in the last clause.
+
+**5D** · Vocabulary in context
+**accurate** — true as recorded, which the piece turns out not to settle · **length limit** — the word count that does the cutting · **reach for** — choose, quickly and half-consciously, because it is to hand · **performance** — speech shaped for an audience rather than for the truth · **dull** (the dull version) — the unquotable, accurate one · **quoted** — selected and printed, which is a thing done to you and partly by you
+
+**5E** · The counter-text
+1 Sixty-one of four thousand one hundred — about 1.5 per cent.  
+2 "Not the work — the paperwork." It follows the quote immediately in the recording and would have cost eleven words. It belongs directly after *"It was a shambles," he said.*  
+3 **admits** — in the headline. In the transcript he is answering a question he was asked, which is not an admission.  
+4 "The former director said the organisation had grown too quickly." It is the journalist's summary of *we were four people doing the work of nine… growing that fast* — a fair paraphrase that is not a sentence he said.  
+5 **No.** Every printed word is in the transcript or is a fair paraphrase of it. The piece is accurate and misleading at the same time, which is the whole argument of the unit.
+
+**6A** · Sort — what does the verb add?
+> **confirming** — confirm · point out · back up · stand by
+> **neutral** — according to · be quoted as saying · go on to say · put it another way · words to that effect · recall
+> **doubting** — claim · maintain · stress · insist · allege
+> **conceding** — admit · concede · acknowledge
+> **refusing** — no comment · refuse · deny
+*stress* is doubting only by implication — it reports that the speaker thought emphasis was needed, which a reader hears as defensiveness. Accept it as neutral if a learner argues the case; the argument is the point.
+
+**6B** · Chunk completion
+1 stood by · 2 put … another way · 3 no comment · 4 According to · 5 words to that effect
+
+**6C** · Register sort
+**News report:** according to · be quoted as saying · claim · allege · admit · confirm · deny · refuse · insist. **Court transcript:** concede · acknowledge · maintain · stand by · recall · words to that effect. **Speech only:** no comment · put it another way · back up · go on to say. **In all three:** admit · deny · confirm · point out.
+
+**6D** · Contrast Clinic — one claim, six verbs
+> **1** admitted *(or* conceded*)*
+> **2** claimed
+> **3** said
+> **4** confirmed
+> **5** insisted *(or* maintained*)*
+> **6** alleged
+**A lawyer insists on *alleged*.** It is the only one of the six that reports the claim without the publication adopting it — *said* and *confirmed* both commit the publisher to something, and *claimed* implies a judgement the publisher would have to defend.
+
+**7C** · Make it mean something
+Stress on **admitted** is unsympathetic: the admission is the news, and the sentence is about his having been caught. Stress on **forgotten** is sympathetic: the forgetting is the news, and the admitting is taken for granted — which is the version that treats him as somebody telling the truth.
+
+**12A** · Recycle — twelve items
+1 denied being · 2 pointed · 3 refused · 4 off · 5 true · 6 conflict · 7 who / that — **yes, it can be dropped** · 8 to check · 9 was brought · 10 were / would change · 11 had not received · 12 which
+
+
+---
+
+## B1.1 · Unit 10 · A Fair Day
+
+**0B** · Guess it
+Grace. Everybody else in the picture has something with their name on it — a lanyard, a pigeonhole, a name on a door, a rota. She has a mop bucket and a key, and the key is on the committee's ring, not hers. Six years, and the only evidence she works there is that the building is clean.
+
+**1B** · Sort — cline of security
+**Most secure → least:** a permanent contract · a fixed-term contract · a rolling contract · zero-hours · paid in cash · a handshake.  
+**Where the law stops helping:** most people mark it after zero-hours. In most jurisdictions that is **wrong** — a zero-hours worker and a cash-in-hand worker usually both have statutory rights, and the thing that fails is not the law but the evidence. The line to mark is where the written record stops, which is one step earlier than people think, and that is the finding of the unit.
+
+**2A** · Six years 🔊 Track 10.1
+**1** A · **2** C · **3** C · **4** C · **5** C · **6** B
+**Noticing** — the six sentences are keyed above.
+
+**Gist** — not straightforwardly. She wants the money and the sick pay and does not want the fixed hours; she never says no, and she never says yes.
+
+**Detail** — Hours: now set by her; under the contract twelve a week, fixed Monday to Friday at times agreed with the committee. Pay: now 477 an hour, cash, weekly; proposed 520 an hour, transfer, monthly. Flexibility: now total; under the contract, none on weekdays — and Tuesdays are not mentioned anywhere.
+
+**Inference** — the loss. *More than I thought* is about the money and about how much the arrangement has been worth to her all along — six years of goodwill she had not priced, and which clause 9 supersedes at signature.
+
+**Attitude** — the first. It is level and quick. The second falls and is slower, with a pause before it, which is the sound of somebody who has a preferred answer.
+
+**3D** · Use — controlled
+1 considerably / substantially · 2 marginally / slightly · 3 appreciably / significantly · 4 the more · 5 the less · 6 nowhere
+
+**3E** · Use — guided
+1 **Larger:** *It's a great deal better than before.* **Smaller:** *It's marginally better than before.*  
+2 **Larger:** *There's a substantial difference in the hours.* **Smaller:** *There's slightly more in the hours.*  
+3 **Larger:** *The rate has gone up significantly.* **Smaller:** *The rate has gone up a little.* In each case the number is identical and the modifier is the whole offer.
+
+**5C** · Close reading
+1 Four hundred and eighty interviews across four cities over three years.  
+2 Romanticising informality — the standard failure of the sympathetic account; and treating it as exploitation waiting to be formalised — the standard failure of the policy account.  
+3 A long informal arrangement builds credit on both sides: the worker who stayed, the employer who paid in hard months. The credit is real and valuable, and it is destroyed by formalisation.  
+4 Twelve months' notice. *(In the agreement in 5E it is three months, which is worse still.)*  
+5 The finding that in both cases she followed through, the workers ended up marginally better paid and substantially less free, and in one case the arrangement ended within a year. The reviewer objects because it is the most important finding in four hundred and eighty interviews and it is in a footnote.  
+6 The book — from being read as an argument against writing things down. The reviewer thinks it would have been read that way, that the honest version would have said it anyway, and that the book was good enough to carry it.
+
+**5D** · Vocabulary in context
+**exhaustive** — complete, leaving nothing out · **romanticise** — treat as better than it is because it is informal · **informality** — arrangements with no written terms · **ledger** — a running account of what each side is owed · **accumulate** — build up over time without anybody recording it · **formalisation** — writing the arrangement down, which is also what destroys the ledger
+
+**5E** · The counter-text
+1 477 an hour now; 520 proposed — about nine per cent.  
+2 Twelve hours a week, Monday to Friday, at times agreed with the Tenants Committee. She currently sets her own hours and works elsewhere on Tuesdays.  
+3 Statutory sick pay, three months' notice either way, and a written agreement — three things she has none of.  
+4 Six years of accumulated obligation. Clause 9 says the agreement supersedes all prior arrangements between the parties, so at the moment of signature the ledger is set to zero. Nothing on the page says so, and the covering email does not mention it.  
+5 Three months, either way. **Against six years** — the arrangement that is being replaced is twenty-four times longer than the protection replacing it, and that trade is the whole unit.
+
+**6A** · Sort — the scale
+**No difference → enormous difference:**  
+every bit as · just as · barely · marginally · slightly · somewhat · appreciably · if anything · much · significantly · considerably · substantially · a good deal · a great deal · far · by far · not nearly · nowhere near · infinitely.  
+*The relationship pair — **the more… the more** and **the sooner… the better** — does not belong on the line at all: it sizes a dependency, not a gap. Say so rather than placing them.*  
+*The three that size a change:* **scale up** *(make bigger),* **knock back** *(reduce, usually by refusal),* **not by a long way** *(a gap, at the far end).*  
+*Note that **not nearly** and **nowhere near** are large gaps stated negatively, which is where most groups go wrong.*
+
+**6B** · Chunk completion
+1 by far · 2 every bit · 3 If anything · 4 The sooner / the better · 5 nowhere near
+
+**6C** · Register sort
+**Contract:** substantially · significantly · appreciably · not less than · considerably. **Speech only:** every bit as · a good deal · by far · nowhere near · not by a long way · knock back. **Both (five):** much · far · slightly · marginally · somewhat. **Reviews only:** infinitely.
+
+**6D** · Contrast Clinic — the modifier is the offer
+> **1** marginally higher / significantly higher — both describe nine per cent.
+> **2** slightly more hours / a good deal more hours — both describe four.
+> **3** somewhat better / far better — the same offer, twice.
+**Who benefits:** the side making the offer wants the small modifier when the change is a cost to them and the large one when it is a concession. Here the committee wants *significantly higher* for the rate and *slightly more* for the hours — the same sentence pair, chosen in opposite directions, from one set of numbers.
+
+**7C** · Make it mean something
+**Relief:** rising-falling on *lot*, the whole phrase quick and light, with the stress early. **Suspicion:** level stress spread across *a lot more*, slower, with a pause before *than I thought* and a slight rise at the end — which turns the sentence into a question about why.
+
+**12A** · Recycle — twelve items
+1 marginally / slightly · 2 The / the · 3 nowhere · 4 half · 5 books · 6 unsocial · 7 pointed · 8 who / that — **yes, it can be dropped** · 9 to check · 10 was brought · 11 does not sign / will change · 12 has worked / has been working
+
