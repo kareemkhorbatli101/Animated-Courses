@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<title>The same line, announced twice</title>
+<desc>Two front-page announcements of the same transit line side by side, one from 2014 and one from this year, with their dates and costs.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="740" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="500" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">October 2014</text>
+<rect x="820.0" y="130" width="720.0" height="500" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">March, this year</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="582" x2="760.0" y2="582" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="85.0" y="418" width="250" height="24" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="105.0" y="452" width="210" height="24" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="85.0" y="486" width="250" height="24" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="360.0" y="364" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">opens spring 2019 · $2.4bn · 40 years since the last</text>
+<line x1="840.0" y1="582" x2="1520.0" y2="582" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="845.0" y="418" width="250" height="24" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="845.0" y="452" width="250" height="24" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="875.0" y="486" width="190" height="24" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="1120.0" y="364" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">opens 2031 · $6.1bn · no mention of 2019, 2023 or 2027</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The same line, announced twice</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">October 2014 and March this year, on the same front page, ten years apart.</text>
+<text x="800.0" y="674" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Find the six. One of the two pages contains the figure the other one replaced. Which, and what has it been renamed?</text>
+<text x="800.0" y="706" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">6 differences — find them all</text>
+</g>
+</svg>

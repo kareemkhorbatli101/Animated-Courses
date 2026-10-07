@@ -60,8 +60,8 @@ Match each word to one layer of the cutaway.
 
 Three columns. **Two of the twelve are the same thing, judged from the two ends of the room.**
 
-> prerequisite · explanation · ambiguity · demonstration · clarity · intuition · paraphrase ·
-> misconception · analogy · emphasis · scaffolding · abstraction
+> explanation · ambiguity · scaffolding · intuition · analogy · clarity · paraphrase ·
+> abstraction · misconception · prerequisite · demonstration · emphasis
 
 ### 1C · Meet — the five phrases that put a point in focus
 
@@ -363,7 +363,8 @@ Version D says *what the city did was sell the next thirty years of ticket incom
 
 Three columns.
 
-> namely · chiefly · essentially · specifically · notably · fundamentally · precisely · crucially
+> notably · precisely · specifically · essentially · chiefly · namely · crucially ·
+> fundamentally
 
 ### 6B · Chunk completion
 
@@ -396,13 +397,13 @@ third one do that the others cannot?
 
 Eight items. Rewrite each sentence so that the element in brackets is the news.
 
-1. The city borrowed against the fare box in 2016. *(the fare box)*
-2. The city borrowed against the fare box in 2016. *(2016)*
-3. The council approved it without a vote. *(without a vote)*
-4. Nobody told the transit board. *(nobody)*
-5. The fare rise pays the interest. *(the interest)*
-6. The cadets rewrite it four ways. *(four ways)*
-7. The subeditors hate the version that works. *(the version that works)*
+1. Nobody told the transit board. *(nobody)*
+2. The cadets rewrite it four ways. *(four ways)*
+3. The subeditors hate the version that works. *(the version that works)*
+4. The city borrowed against the fare box in 2016. *(2016)*
+5. The council approved it without a vote. *(without a vote)*
+6. The city borrowed against the fare box in 2016. *(the fare box)*
+7. The fare rise pays the interest. *(the interest)*
 8. Six hundred readers could repeat it back. *(repeat it back)*
 
 ---

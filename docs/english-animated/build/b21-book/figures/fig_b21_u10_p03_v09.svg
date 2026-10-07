@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The verb comes forward, and the sentence changes weight</title>
+<desc>Two sentence diagrams of the same statement, the first in ordinary order and the second with the negative adverb fronted and the auxiliary inverted.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="379.2631578947368" height="52" rx="5" fill="#C86B2B"/>
+<text x="349.63157894736844" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">The culture pages</text>
+<rect x="545.2631578947369" y="144" width="282.94736842105266" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="686.7368421052632" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">never</text>
+<rect x="834.2105263157896" y="144" width="282.94736842105266" height="52" rx="5" fill="#1F4E5F"/>
+<text x="975.684210526316" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">named</text>
+<rect x="1123.1578947368423" y="144" width="250.84210526315792" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1248.5789473684213" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">it</text>
+<rect x="160" y="344" width="299.0" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="309.5" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">Not once</text>
+<rect x="465.0" y="344" width="207.5" height="52" rx="5" fill="#1F4E5F"/>
+<text x="568.75" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">did</text>
+<rect x="678.5" y="344" width="390.5" height="52" rx="5" fill="#C86B2B"/>
+<text x="873.75" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the culture pages</text>
+<rect x="1075.0" y="344" width="299.0" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1224.5" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">name it</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The verb comes forward, and the sentence changes weight</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same fact, twice. Nothing is added and one word has moved to the front.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">ORDINARY ORDER</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">MARKED ORDER</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the auxiliary comes forward, and if there is none, do is supplied</text>
+</g>
+</svg>

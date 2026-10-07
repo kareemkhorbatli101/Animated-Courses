@@ -61,8 +61,8 @@ Match each word to one layer of the cutaway.
 Three columns. **One of the twelve is also a verb, and it is the verb nobody wants done to their
 story.**
 
-> subeditor · slot · style guide · desk · spike · wire · copytaster · splash · house style ·
-> conference · galley · deadline
+> galley · desk · wire · splash · subeditor · copytaster · conference · spike · slot ·
+> house style · style guide · deadline
 
 ### 1C · Meet — the five places a story can be
 
@@ -127,7 +127,7 @@ newsletter has sixty-one thousand subscribers. The app has more readers than the
 1. The guide was last fully revised in 1998. ☐ T ☐ F
 2. The newsletter has more subscribers than the paper has readers. ☐ T ☐ F
 3. The print desk wants markers banned entirely. ☐ T ☐ F
-4. The app version is the shortest of the three. ☐ T ☐ F
+4. The app version is made by cutting the print version. ☐ T ☐ F
 
 **Noticing.** Six sentences from the recording.
 
@@ -368,7 +368,8 @@ The newsletter writer says a reader who loses their place *does not come back*.
 
 Four columns.
 
-> however · accordingly · meanwhile · whereby · nevertheless · hence · thereafter · thereby
+> however · nevertheless · meanwhile · thereafter · thereby · whereby · accordingly ·
+> hence
 
 ### 6B · Chunk completion
 
@@ -401,14 +402,14 @@ unfinished let the speaker do?
 
 Eight items. Rewrite each pair as one sentence with the marker the relationship requires.
 
-1. The app has more readers. It has no style guide. *(contrast)*
+1. You may dispute the count. The survey is separate. *(dismissal)*
 2. The guide was revised in 1998. It says nothing about newsletters. *(result)*
-3. The markers were counted. The readers were surveyed. *(sequence)*
-4. The newsletter is informal. It is the most read thing the paper makes. *(concession)*
-5. You may dispute the count. The survey is separate. *(dismissal)*
-6. The print desk objected. The newsletter went out unchanged. *(simultaneous)*
-7. The guide has one voice. The paper has three readers. *(formal contrast, written)*
-8. The rule was agreed. Every channel now states its own density. *(formal result, written)*
+3. The rule was agreed. Every channel now states its own density. *(formal result, written)*
+4. The print desk objected. The newsletter went out unchanged. *(simultaneous)*
+5. The guide has one voice. The paper has three readers. *(formal contrast, written)*
+6. The newsletter is informal. It is the most read thing the paper makes. *(concession)*
+7. The markers were counted. The readers were surveyed. *(sequence)*
+8. The app has more readers. It has no style guide. *(contrast)*
 
 ---
 

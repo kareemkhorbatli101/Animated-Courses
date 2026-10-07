@@ -59,8 +59,8 @@ Match each word to one layer of the cutaway.
 
 Three columns.
 
-> verification · correction · corroboration · retraction · embargo · attribution · provenance ·
-> claim · evidence · source
+> correction · source · embargo · corroboration · retraction · claim · provenance ·
+> verification · evidence · attribution
 
 ### 1C · Meet — the words that describe a story's state
 
@@ -123,7 +123,7 @@ would move a share price.
 
 **Listen again. True or false?**
 
-1. The reporter has two independent sources. ☐ T ☐ F
+1. The reporter has one source and a screenshot. ☐ T ☐ F
 2. The claim was made on the record. ☐ T ☐ F
 3. A rival outlet has the same story. ☐ T ☐ F
 4. The editor decides to publish before the close. ☐ T ☐ F
@@ -361,11 +361,12 @@ Write two sentences.
 
 ### Words that carry aspect without a verb
 
-### 6A · Sort — finished, in progress, or not yet started?
+### 6A · Sort — closed, running, or unsettled?
 
 Three columns.
 
-> ongoing · settled · provisional · unfolding · emergent · habitual · momentary · iterative
+> settled · ongoing · emergent · provisional · iterative · habitual · unfolding ·
+> momentary
 
 ### 6B · Chunk completion
 
@@ -396,14 +397,14 @@ what does the third require?
 
 Eight items. For each, write the sentence with the aspect that matches the evidence given.
 
-1. Board minutes seen. 400 confirmed. *(cut)*
-2. One caller, no documents. *(cut)*
-3. Losses in every quarter since March. *(lose)*
-4. A number that changed three times on Monday. *(change)*
-5. A plan for Thursday that was abandoned on Tuesday. *(announce)*
-6. A regulator's decision published this morning. *(reject)*
-7. A process that began in 2019 and has not finished. *(restructure)*
-8. A single event last March, closed. *(close)*
+1. A plan for Thursday that was abandoned on Tuesday. *(announce)*
+2. Losses in every quarter since March. *(lose)*
+3. Board minutes seen. 400 confirmed. *(cut)*
+4. A single event last March, closed. *(close)*
+5. A process that began in 2019 and has not finished. *(restructure)*
+6. A number that changed three times on Monday. *(change)*
+7. A regulator's decision published this morning. *(reject)*
+8. One caller, no documents. *(cut)*
 
 ---
 

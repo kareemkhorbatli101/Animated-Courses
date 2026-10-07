@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>Standing in 2014, looking forward</title>
+<desc>A timeline from 2012 to 2034 showing the 2014 vantage point, the future that was expected from it, the opening that did not happen, and the current forecast.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="710" x2="1380" y2="710" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,710 1364,702 1364,718" fill="#1C2B33"/>
+<line x1="935.92" y1="550" x2="935.92" y2="744" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="935.92" y="768" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<circle cx="271.02" cy="656" r="11" fill="#1F4E5F"/>
+<line x1="271.02" y1="656" x2="271.02" y2="710" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<line x1="271.02" y1="548" x2="547.96" y2="548" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="2 7"/>
+<polygon points="547.96,548 534.96,541 534.96,555" fill="#8C6A9E"/>
+<circle cx="547.96" cy="440" r="11" fill="#1F4E5F"/>
+<line x1="547.96" y1="440" x2="547.96" y2="710" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<line x1="271.02" y1="332" x2="935.92" y2="332" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="271.02" cy="332" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="935.92" cy="332" r="7" fill="#1F4E5F"/>
+<line x1="935.92" y1="224" x2="1214.08" y2="224" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="2 7"/>
+<polygon points="1214.08,224 1201.08,217 1201.08,231" fill="#8C6A9E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Standing in 2014, looking forward</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same stretch of time, seen from inside the plan and from here.</text>
+<text x="271.02" y="604" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">the vantage point - October 2014</text>
+<text x="271.02" y="626" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">It was going to open in 2019.</text>
+<text x="271.02" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="600" font-style="normal">FUTURE IN THE PAST - what lay ahead then</text>
+<text x="271.02" y="522" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">It was due to open in the spring of 2019.</text>
+<text x="547.96" y="388" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">spring 2019 - nothing opened</text>
+<text x="547.96" y="410" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">It would have opened, but for the harbour.</text>
+<text x="271.02" y="284" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">FROM HERE - the whole plan is past</text>
+<text x="271.02" y="306" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">It was to have been the first line in forty years.</text>
+<text x="935.92" y="176" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="600" font-style="normal">the current forecast</text>
+<text x="935.92" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">On current trends, 2031.</text>
+</g>
+</svg>

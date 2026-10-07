@@ -61,8 +61,8 @@ Match each word to one layer of the cutaway.
 Three columns. **One of the twelve is not in the document at all, and is the reason the other
 eleven are written the way they are.**
 
-> clause · breach · waiver · remedy · term · indemnity · arbitration · undertaking ·
-> concession · covenant · settlement · precedent
+> remedy · arbitration · concession · undertaking · covenant · breach · clause ·
+> settlement · term · precedent · indemnity · waiver
 
 ### 1C · Meet — the five phrases that keep a negotiation alive
 
@@ -372,7 +372,8 @@ The association says it is *unenforceable in practice*.
 
 Three columns.
 
-> provided · unless · notwithstanding · supposing · failing · insofar · absent · otherwise
+> absent · insofar · notwithstanding · provided · unless · otherwise · supposing ·
+> failing
 
 ### 6B · Chunk completion
 
@@ -405,14 +406,14 @@ it protecting the speaker from?
 
 Eight items. Rewrite each sentence so that the condition changes in the way the bracket says.
 
-1. If you tell us, we will cap it. *(nothing else will do)*
-2. If you don't tell us, the cap goes. *(an exception, not a threat)*
-3. We capped it because the rule exists. *(a condition on the past)*
-4. If there is no agreement, the old contract continues. *(one formal word)*
-5. The cap applies to disclosed pieces. *(make the condition explicit and written)*
+1. If there is no agreement, the old contract continues. *(one formal word)*
+2. The cap applies to disclosed pieces. *(make the condition explicit and written)*
+3. Tell us first, or there is no cap. *(state the consequence with one adverb)*
+4. If you tell us, we will cap it. *(nothing else will do)*
+5. The clause stands, although the log says three claims. *(a formal concessive qualifier)*
 6. Perhaps nothing was disclosed. *(invite the other side to think it through)*
-7. The clause stands, although the log says three claims. *(a formal concessive qualifier)*
-8. Tell us first, or there is no cap. *(state the consequence with one adverb)*
+7. We capped it because the rule exists. *(a condition on the past)*
+8. If you don't tell us, the cap goes. *(an exception, not a threat)*
 
 ---
 

@@ -60,8 +60,8 @@ Match each word to one layer of the cutaway.
 
 Four columns. **One of the twelve is both a stage and an action, and the stress tells you which.**
 
-> draft · edit · redundancy · caption · proof · cut · verbosity · standfirst · abstract ·
-> trim · concision · kicker
+> redundancy · draft · verbosity · cut · kicker · proof · edit · trim · concision ·
+> abstract · caption · standfirst
 
 ### 1C · Meet — the five things that happen at six o'clock
 
@@ -124,9 +124,9 @@ contract.
 **Listen again. True or false?**
 
 1. The story is eight hundred words over. ☐ T ☐ F
-2. The ringed paragraph is seventy-three words. ☐ T ☐ F
-3. The subeditor wants to cut the quotes. ☐ T ☐ F
-4. The page goes to the stone at six. ☐ T ☐ F
+2. The ringed paragraph is thirty-seven words. ☐ T ☐ F
+3. The subeditor cuts the ringed paragraph. ☐ T ☐ F
+4. The first pass finds three hundred words of repetition. ☐ T ☐ F
 
 **Noticing.** Six exchanges from the recording.
 
@@ -368,7 +368,7 @@ them.
 
 Four columns.
 
-> one · so · neither · elsewhere · ones · likewise · such · either
+> neither · so · elsewhere · likewise · one · such · ones · either
 
 ### 6B · Chunk completion
 
@@ -400,14 +400,14 @@ speaker actually asking for?
 
 Eight items. Rewrite each one as short as it can be and still be rebuilt.
 
-1. The second quote can go and the third quote can go as well.
-2. I have cut both of the two quotations.
-3. She would not cut it, and I would not cut it either.
-4. He asked me to file the story and I filed the story.
-5. The long version is better than the short version.
-6. If it is down to length, send it to the stone.
-7. The paragraph is unreadable and because it is unreadable it goes first.
-8. The first quotation carries the argument; the second quotation agrees with the first quotation.
+1. She would not cut it, and I would not cut it either.
+2. The first quotation carries the argument; the second quotation agrees with the first quotation.
+3. I have cut both of the two quotations.
+4. If it is down to length, send it to the stone.
+5. The second quote can go and the third quote can go as well.
+6. The paragraph is unreadable and because it is unreadable it goes first.
+7. He asked me to file the story and I filed the story.
+8. The long version is better than the short version.
 
 ---
 

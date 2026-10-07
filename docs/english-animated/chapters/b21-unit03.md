@@ -61,8 +61,8 @@ Match each word to one layer of the cutaway.
 Three columns. **Two of the twelve are swapped for one another in print almost daily, and that
 swap is the subject of this unit.**
 
-> cohort · incidence · risk · confidence · prevalence · correlation · interval · exposure ·
-> hazard · baseline · causation · significance
+> confidence · risk · hazard · incidence · prevalence · significance · baseline ·
+> exposure · correlation · interval · causation · cohort
 
 ### 1C · Meet — the five phrases a risk story turns on
 
@@ -367,8 +367,8 @@ The preprint says *an increase from four to eight cases per ten thousand person-
 
 Three columns.
 
-> presumably · allegedly · demonstrably · conceivably · reportedly · unequivocally ·
-> arguably · ostensibly
+> arguably · demonstrably · conceivably · unequivocally · reportedly · allegedly ·
+> ostensibly · presumably
 
 ### 6B · Chunk completion
 
@@ -403,13 +403,13 @@ is a correction.** Match them, and say which one a scientist would use about the
 Eight items. Rewrite each sentence so that the certainty moves to the level in brackets.
 
 1. Night shifts cause the condition. *(one cohort, no causal claim possible)*
-2. The effect is chance. *(all but excluded, past form)*
-3. Perhaps the release was written by the press office. *(strong inference about the past)*
-4. The study is wrong. *(you have read the abstract only)*
-5. It will be replicated next year. *(a hope with no evidence)*
-6. Everybody knows night work is dangerous. *(what you can actually demonstrate)*
-7. The authors approved the release. *(you have been told, by one person)*
-8. There is no effect. *(the interval includes both almost nothing and a large effect)*
+2. Perhaps the release was written by the press office. *(strong inference about the past)*
+3. Everybody knows night work is dangerous. *(what you can actually demonstrate)*
+4. The effect is chance. *(all but excluded, past form)*
+5. The study is wrong. *(you have read the abstract only)*
+6. There is no effect. *(the interval includes both almost nothing and a large effect)*
+7. It will be replicated next year. *(a hope with no evidence)*
+8. The authors approved the release. *(you have been told, by one person)*
 
 ---
 

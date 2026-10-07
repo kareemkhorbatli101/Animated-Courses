@@ -61,8 +61,8 @@ Match each word to one layer of the cutaway.
 Three columns. **One of the twelve is a number standing in for a number nobody could get, and it
 is the one most often reported as if it were the thing itself.**
 
-> measurement · granularity · benchmark · calibration · variance · proxy · aggregation ·
-> resolution · metric · uncertainty · series · anomaly
+> series · granularity · anomaly · benchmark · resolution · uncertainty · aggregation ·
+> calibration · measurement · proxy · metric · variance
 
 ### 1C · Meet — the five things a chart can do to you
 
@@ -125,7 +125,7 @@ The data desk has the raw figures and a map with two pins on it.
 **Listen again. True or false?**
 
 1. The city's monitor was moved in 2021. ☐ T ☐ F
-2. The university's monitor is on the original site. ☐ T ☐ F
+2. The university's monitor was moved at the same time. ☐ T ☐ F
 3. The city's chart begins at zero. ☐ T ☐ F
 4. The baseline year was changed in the 2023 report. ☐ T ☐ F
 
@@ -365,8 +365,8 @@ them.
 
 Three columns.
 
-> reduction · improvement · implementation · expansion · deterioration · assessment ·
-> acknowledgement · derivation
+> implementation · acknowledgement · assessment · improvement · expansion · reduction ·
+> deterioration · derivation
 
 ### 6B · Chunk completion
 
@@ -399,14 +399,14 @@ which, and which of the three can also mean "make up a proportion of"?
 
 Eight items. Rewrite each sentence as the bracket says.
 
-1. The city moved the monitor in 2021. *(pack it into a noun phrase)*
-2. A reduction in exceedances has been achieved. *(unpack it, with a person and a date)*
+1. The air got worse at the junction. *(pack it, formally)*
+2. The city moved the monitor in 2021. *(pack it into a noun phrase)*
 3. The reporting period was changed. *(name who changed it and when)*
-4. The air got worse at the junction. *(pack it, formally)*
-5. The implementation of the period followed. *(say who implemented what)*
-6. The baseline was moved from 2016 to 2018. *(pack it, and keep the dates)*
-7. They did not acknowledge the move. *(pack it into a subject)*
-8. The error is roughly ten per cent. *(use a four-word formal frame)*
+4. The error is roughly ten per cent. *(use a four-word formal frame)*
+5. A reduction in exceedances has been achieved. *(unpack it, with a person and a date)*
+6. They did not acknowledge the move. *(pack it into a subject)*
+7. The baseline was moved from 2016 to 2018. *(pack it, and keep the dates)*
+8. The implementation of the period followed. *(say who implemented what)*
 
 ---
 

@@ -62,8 +62,8 @@ Match each word to one layer of the cutaway.
 Three columns. **Two of the twelve are words residents almost never use about the place they live,
 and both of them are used about it constantly.**
 
-> neighbourhood · resident · framing · ward · tenure · headline · boundary · demographic ·
-> stereotype · zoning · gentrification · displacement
+> framing · displacement · neighbourhood · headline · resident · stereotype · zoning ·
+> gentrification · boundary · tenure · ward · demographic
 
 ### 1C · Meet — the five phrases a place acquires
 
@@ -129,7 +129,7 @@ over two years. The news editor has never seen the rule written down, because it
 
 1. She counted eighty-one headlines. ☐ T ☐ F
 2. The rule is written in the style guide. ☐ T ☐ F
-3. The ward is named in most crime headlines. ☐ T ☐ F
+3. The ward is named in most planning headlines. ☐ T ☐ F
 4. The culture pages have never named it. ☐ T ☐ F
 
 **Noticing.** Six sentences from the recording.
@@ -368,7 +368,7 @@ The log shows seventy-one per cent in crime and nought in culture.
 
 Four columns.
 
-> rarely · hardly · nowhere · only · seldom · scarcely · never · little
+> only · little · rarely · nowhere · seldom · never · hardly · scarcely
 
 ### 6B · Chunk completion
 
@@ -401,14 +401,14 @@ ward.** Which, and what would the paper say it was doing instead?
 
 Eight items. Rewrite each one in marked order, beginning with the word in brackets.
 
-1. Nobody had counted them before. *(never before)*
-2. The culture pages did not name it once. *(not once)*
-3. We use the ward only when the story is about crime. *(only when)*
-4. The letter arrived and the editor called immediately. *(no sooner)*
-5. A resident was not consulted at any point. *(at no point)*
-6. The reaction was so great that the rule changed. *(such)*
-7. It appears in good news so rarely that readers assume there is none. *(so rarely)*
-8. We did not know the rule had never been written. *(little)*
+1. The culture pages did not name it once. *(not once)*
+2. A resident was not consulted at any point. *(at no point)*
+3. The letter arrived and the editor called immediately. *(no sooner)*
+4. We use the ward only when the story is about crime. *(only when)*
+5. We did not know the rule had never been written. *(little)*
+6. Nobody had counted them before. *(never before)*
+7. The reaction was so great that the rule changed. *(such)*
+8. It appears in good news so rarely that readers assume there is none. *(so rarely)*
 
 ---
 

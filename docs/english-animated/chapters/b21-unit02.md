@@ -60,8 +60,8 @@ Match each word to one layer of the cutaway.
 
 Three columns. **Two of the twelve belong in two columns and that is the point of the unit.**
 
-> columnist · masthead · readership · correspondent · outlet · audience · bureau · editorial ·
-> constituency · voice
+> editorial · outlet · bureau · voice · columnist · constituency · audience · masthead ·
+> readership · correspondent
 
 ### 1C · Meet — the phrases that claim a mandate
 
@@ -123,7 +123,7 @@ through the archive.
 
 **Listen again. True or false?**
 
-1. The paper took the opposite position in 2017. ☐ T ☐ F
+1. The paper took the same position in 2017 as it takes now. ☐ T ☐ F
 2. The editorial will carry a byline. ☐ T ☐ F
 3. Nobody in the room was at the paper in 2017. ☐ T ☐ F
 4. The researcher is asked to find a form of words. ☐ T ☐ F
@@ -360,8 +360,8 @@ them.
 
 Three columns.
 
-> inclusive · exclusive · collective · impersonal · generic · institutional · corporate ·
-> anonymous
+> institutional · exclusive · collective · inclusive · generic · anonymous · impersonal ·
+> corporate
 
 ### 6B · Chunk completion
 
@@ -391,14 +391,14 @@ you know?
 
 Eight items. Rewrite each sentence so that responsibility moves to the place in brackets.
 
-1. Mistakes were made. *(to a named person)*
-2. We have always opposed it. *(to a dated decision)*
-3. It is widely held that the plan will fail. *(to the writer)*
-4. The paper regrets the error. *(to the desk that made it)*
-5. One might say the figures are unreliable. *(to a named analyst)*
-6. Our readers expect better. *(to a survey, with a number)*
+1. The paper regrets the error. *(to the desk that made it)*
+2. One might say the figures are unreliable. *(to a named analyst)*
+3. The community affected was consulted. *(to the three people who were asked)*
+4. It is widely held that the plan will fail. *(to the writer)*
+5. Mistakes were made. *(to a named person)*
+6. We have always opposed it. *(to a dated decision)*
 7. This paper believes in transparency. *(to an editorial board, with a date)*
-8. The community affected was consulted. *(to the three people who were asked)*
+8. Our readers expect better. *(to a survey, with a number)*
 
 ---
 

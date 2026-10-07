@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Three perfects, three vantage points</title>
+<desc>A timeline showing a present perfect reaching to now, a past perfect reaching to an earlier point, and a future perfect reaching to a point ahead of now.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="630" x2="1380" y2="630" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,630 1364,622 1364,638" fill="#1C2B33"/>
+<line x1="1014.0" y1="470" x2="1014.0" y2="664" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1014.0" y="688" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<circle cx="306.4" cy="576" r="11" fill="#1F4E5F"/>
+<line x1="306.4" y1="576" x2="306.4" y2="630" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<line x1="526.0" y1="468" x2="1014.0" y2="468" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="526.0" cy="468" r="7" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<circle cx="1014.0" cy="468" r="7" fill="#1F4E5F"/>
+<line x1="306.4" y1="360" x2="648.0" y2="360" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="648.0" y1="338" x2="648.0" y2="382" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<line x1="1014.0" y1="252" x2="1306.8" y2="252" stroke="#8C6A9E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="2 7"/>
+<polygon points="1306.8,252 1293.8,245 1293.8,259" fill="#8C6A9E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three perfects, three vantage points</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Each perfect imports a past event into a different present.</text>
+<text x="306.4" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">the event, 2017</text>
+<text x="306.4" y="546" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">We said the opposite. -- a dated point</text>
+<text x="526.0" y="420" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="600" font-style="normal">PRESENT PERFECT - relevant now</text>
+<text x="526.0" y="442" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">We have said this since 2019.</text>
+<text x="306.4" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">PAST PERFECT - relevant to a past point</text>
+<text x="306.4" y="334" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">We had said the opposite, until 2019.</text>
+<text x="1014.0" y="204" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="start" font-weight="600" font-style="normal">FUTURE PERFECT - complete by a point ahead</text>
+<text x="1014.0" y="226" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">By March we will have held it for six years.</text>
+</g>
+</svg>

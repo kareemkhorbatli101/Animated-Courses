@@ -60,8 +60,8 @@ Match each word to one layer of the cutaway.
 
 Three columns. **Two of the twelve are the same word looking in opposite directions.**
 
-> forecast · trajectory · revision · projection · horizon · hindsight · scenario · overrun ·
-> assumption · foresight · shortfall · contingency
+> forecast · trajectory · revision · horizon · foresight · hindsight · scenario ·
+> projection · contingency · assumption · overrun · shortfall
 
 ### 1C · Meet — the five phrases that carry a forecast
 
@@ -364,8 +364,8 @@ The 2024 documents say *a worst case of 2029 was modelled in 2016*.
 
 Three columns.
 
-> subsequently · originally · retrospectively · eventually · formerly · prospectively ·
-> latterly · ultimately
+> retrospectively · eventually · ultimately · latterly · subsequently · prospectively ·
+> originally · formerly
 
 ### 6B · Chunk completion
 
@@ -397,14 +397,14 @@ event.** Which is which, and what is the difference between the other two?
 
 Eight items. Rewrite each sentence so that the vantage point moves to the place in brackets.
 
-1. The line did not open in 2019. *(standing in 2014)*
-2. They did not sign. *(a near miss)*
-3. The budget rose to six point one billion. *(the narrator, with more to come)*
+1. Nobody expected the second delay. *(and the documents did)*
+2. The paper got one forecast in four right. *(looking back deliberately)*
+3. It opened in 2031. *(as a prediction made in 2014)*
 4. The harbour caused a delay. *(formal, written, reproachful)*
-5. It opened in 2031. *(as a prediction made in 2014)*
-6. Nobody expected the second delay. *(and the documents did)*
-7. The paper got one forecast in four right. *(looking back deliberately)*
-8. The contractor left the project. *(a stated intention that changed)*
+5. The budget rose to six point one billion. *(the narrator, with more to come)*
+6. The line did not open in 2019. *(standing in 2014)*
+7. The contractor left the project. *(a stated intention that changed)*
+8. They did not sign. *(a near miss)*
 
 ---
 
