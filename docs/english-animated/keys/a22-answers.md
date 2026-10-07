@@ -296,3 +296,150 @@ Resident A's kitchen clock and Resident B's radio programme. Both are independen
 **12A** · Recycle — ten items
 1 was · 2 told · 3 to · 4 record · 5 correction · 6 had already started · 7 had changed · 8 have been waiting *(Unit 2)* · 9 were · 10 was built
 
+
+---
+
+## A2.2 · Unit 5 · The Wrong Question
+
+**0B** · Guess it
+The open notebook on the interviewer's knee, and the door he is standing in. The notebook: people shorten their answers when they can see the writing. The doorway: standing on the step with the householder inside means the interview is being conducted at the boundary, which keeps it short and keeps the neighbours in earshot.
+
+**1B** · Sort — the interviewer, the person, or the room?
+> **the person** — awkward · consent · honest
+> **the interviewer** — notebook · direct · follow-up
+> **the room** — pressure · anonymous · silence
+**It belongs to whoever is most frightened:** *silence*. In an interview the silence is owned by whoever is least comfortable with it — and a good interviewer gives it away on purpose, which is the hardest technique in the unit.
+
+**2A** · Fifty-one doors 🔊 Track 5.1
+**1** c) how deep it was · **2** b) most · **3** b) not asked · **4** b) six
+**Table** — Q1: how deep the water was at its highest; a number, in centimetres; nobody asked where it came from. Q4: whether they received a warning; yes or no, with an open follow-up; nobody asked whether the warning reached them in time to act. Q9: *anything else?*; nine of forty-four wrote anything; nobody asked the harbour master.
+
+**Noticing** — **The words themselves:** 1 and 3. **Reports:** 2 and 4. **In sentence 2** the word order goes back to statement order — *how deep the water had been*, not *how deep was the water* — and the auxiliary disappears.
+
+**3D** · Use — controlled
+1 had been · 2 had measured · 3 not to guess · 4 whether / if · 5 to keep · 6 where · 7 had come
+
+**3E** · Use — guided
+1 He asked where the water had come from.  
+2 He asked whether they had looked at the drain.  
+3 He told them to keep the photographs.  
+4 He told them not to throw anything away.  
+5 He asked whether they would be willing to be named.
+
+**5C** · Answer
+1 A list of questions, and a decision about who is asked.  
+2 Fifty-one households, forty-four responses, six weeks.  
+3 It asked how deep the water had been, when it arrived, what was damaged, whether people had received a warning, and whether they intended to stay. It did **not** ask where the water came from — the question the money depended on.  
+4 "You cannot find an answer to a question you did not ask."  
+5 The harbour master, who has watched that drain for twenty-two years. He does not live in a flooded house, so he was not on the register the list was correctly drawn from.  
+6 Redoing it takes six weeks; publishing it as it stands takes an afternoon. **The warning** is the second half: it will be quoted for ten years.
+
+**5D** · Vocabulary in context
+**response rate** — the proportion who answered, here 44 of 51 · **nobody was led** — no question pushed people towards an answer · **the flood plain** — the area the register covers, which is how the harbour master was excluded · **drawn up** — compiled, correctly · **as it stands** — unchanged, with the gap still in it
+
+**5E** · The counter-text
+1 Nine questions; two are open — 5 and 9.  
+2 Question 9, *Anything else?* It is the only place the source could be mentioned, and it is the last box on the second side. Nine of forty-four completed it.  
+3 It allows the answers to be used in anonymous and aggregated form in the council's report. It does **not** allow anybody to be quoted by name — which is why the harbour master could not have been used even if he had been asked.  
+4 "10. Where do you think the water came from? (I think it was the old drain — R.)" — added by hand to four copies.
+
+**6A** · Sort — does it need a person after it?
+> **needs a person** — order · invite · want · beg · advise · encourage · remind · tell
+> **no person** — refuse · say
+> **both** — ask
+**The one in both:** *ask*. *He asked whether…* takes no person and means a question; *He asked me to wait* takes a person and means a request. Two different verbs wearing one spelling.
+
+**6B** · Chunk completion
+1 to · 2 not · 3 to · 4 whether / if · 5 off · 6 know
+
+**6C** · Three ways of saying no
+1 **refused** · 2 **avoided** · 3 **No comment**  
+**Which tells you most:** *avoided*. A refusal and a *no comment* tell you only that there is something there; four minutes about the wall tells you what the something is about.
+
+**6D** · Contrast Clinic — report it
+> **1** He asked where I lived.
+> **2** He asked whether I had seen it.
+> **3** He told me not to move anything.
+> **4** She asked why they had not asked the harbour master.
+> **5** He asked me to sign it.
+> **6** She told me to wait there.
+
+**7C** · Make it mean something
+The rising version is useful when you are checking that you have understood a report somebody else has given you — turning their statement back into a question without contradicting them. It is also how you ask a second question while appearing to repeat the first, which is the move the survey needed and did not have.
+
+**12A** · Recycle — ten items
+1 it had been · 2 to measure · 3 whether / if · 4 question · 5 record · 6 told · 7 to · 8 had already started · 9 have been waiting · 10 is
+
+
+---
+
+## A2.2 · Unit 6 · Two Miles Out, and Empty
+
+**0B** · Guess it
+The coiled rope, the open hatch and the lifejacket on the shed hook. A boat that broke away does not have its rope coiled by somebody who knew how; a boat drifting in a sea does not usually have its hatch left open; and a man who never went out without a lifejacket in forty years did not go out. **What would explain them:** somebody untied it deliberately, in no hurry, from the pier — which is the one explanation nobody has written down.
+
+**1B** · Sort — a fact, a feeling, or a story?
+> **a feeling** — unlikely · strange · suspect
+> **a fact** — clue · missing · empty · obvious
+> **a story** — theory · mystery
+**A fact always described as a feeling:** *obvious*. Something is either true or not; *obvious* reports how it struck the speaker. Mossie had been saying it must have broken its mooring since nine, before anybody looked at the rope, and he called it obvious.
+
+**2A** · Three explanations 🔊 Track 6.1
+**1** F · **2** T · **3** T · **4** F
+**Table** — It broke its mooring: the boat was adrift and the tide turned at two; against it, the rope was untied with the turns still in it. The engine failed: possible in principle; against it, the tank was almost full and the vessel has not been recovered to check. He took it out: nothing supports it; against it, the lifejacket is on the hook and he had not gone out without it in forty years.
+
+**Noticing, most sure first:** 3 (*can't have*) is nearly impossible — but as a statement the speaker is nearly certain of. **1** *must have* — nearly certain. **4** *it's possible that* — open. **2** *might have been* — open, and the weakest. *(Accept 3 first or 1 first if the learner distinguishes certainty about the event from certainty about its impossibility.)*
+
+**3D** · Use — controlled
+1 must have broken · 2 might have been · 3 can't have taken · 4 could have failed · 5 unlikely · 6 will never know
+
+**3E** · Use — guided
+1 The rope must have broken.  
+2 The current might have taken it.  
+3 He can't have been on board.  
+4 Somebody must have moved it.  
+5 Nobody might have noticed until morning. → better: *It's possible that nobody noticed until morning* / *Nobody may have noticed until morning.*
+
+**5C** · Answer
+1 Half past eleven on the Tuesday, two miles out, drifting east, hatch open, with a fuel can and a coil of rope aboard.  
+2 That it must have broken its mooring. He had been saying it since nine — before anybody had looked at the rope.  
+3 It had not been cut and it had not frayed. It had been **untied**, by somebody who tied things for a living, because the turns were still in it. It matters because it rules out the only theory anybody wants.  
+4 On the hook in the shed, where it had been on Sunday and is now. The insurance man asked whether anybody had actually seen him put it on, on any particular day.  
+5 Because nobody watches a man they have known for forty years put on a lifejacket. The absence of a witness is not evidence of anything, and the question is designed so that it is.  
+6 That the explanation on the form was chosen because it is the cheapest of the three to be true — not because it is the most likely.
+
+**5D** · Vocabulary in context
+**drifting east** — moving with the tide, not under power · **the turns were still in it** — the rope kept the shape of a knot that was undone, not broken · **on the hook** — in its usual place, which is the whole of the evidence · **that is not a theory** — a refusal to have a fact reclassified as an opinion · **the cheapest of the three to be true** — the one that costs the insurer least
+
+**5E** · The counter-text
+1 Three causes; **one** only. Ticking more than one refers the claim and suspends settlement pending survey.  
+2 Box A mooring failure 18,000; Box B mechanical failure 18,000; Box C cause unknown 6,000 — **the lowest**.  
+3 A: the mooring, or a photograph of it. B: an engineer's report on the vessel — which has not been recovered. C: none.  
+4 Box A. Ticked, crossed out, ticked again, then crossed out, with the assessor's note: "Rope untied, not broken. Photographs attached. — A.H." So the honest box is C, and C pays a third.
+
+**6A** · Sort — how certain?
+**Certain → barely possible:** definitely · clearly · obviously · surely · presumably · apparently · possibly.  
+**The two about what other people say:** *apparently* reports somebody else, and *surely* appeals to what everybody would agree — neither is a claim about what the speaker knows. *(Accept* presumably *as a third: it fills a gap with logic rather than knowledge.)*
+
+**6B** · Chunk completion
+1 have · 2 have · 3 have · 4 that · 5 out · 6 settles
+
+**6C** · Two that sound like certainty and are not
+1 **Presumably** — it is in the tide table, so it is logic rather than report. *(Accept* apparently *if the learner reads the table as a source.)*  
+2 **Presumably** — nobody saw it; the hatch is the gap being filled.  
+3 **Apparently** — the harbour master said so, which is exactly what *apparently* reports.
+
+**6D** · Contrast Clinic — must, might or can't
+> **1** must
+> **2** can't
+> **3** might
+> **4** can't
+> **5** must
+> **6** can't
+
+**7C** · Make it mean something
+The contrastive *MUST* has already been contradicted once — you only stress the modal when somebody has pushed back. The weak *must've* is the first time the thought has been said aloud. In the story Mossie is on the stressed version by nine in the morning, which is the detail the narrator's father found interesting.
+
+**12A** · Recycle — ten items
+1 must have broken · 2 can't have been · 3 might have been · 4 out · 5 up · 6 was built *(A2.1 U7)* · 7 told · 8 had already started · 9 were · 10 are not allowed to
+
