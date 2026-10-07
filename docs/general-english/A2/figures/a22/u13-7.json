@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 13.2",
+   "size": 28,
+   "bbox": [
+    185.3,
+    50.1,
+    348.1,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and a guard",
+   "size": 32,
+   "bbox": [
+    114.6,
+    287.0,
+    418.7,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the guard and the bag",
+   "size": 26,
+   "bbox": [
+    120.7,
+    356.9,
+    412.6,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 13.3",
+   "size": 28,
+   "bbox": [
+    638.6,
+    50.1,
+    801.4,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Amina",
+   "size": 32,
+   "bbox": [
+    577.5,
+    287.0,
+    862.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the rules of the shop",
+   "size": 26,
+   "bbox": [
+    585.1,
+    356.9,
+    854.9,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 13.4",
+   "size": 28,
+   "bbox": [
+    1091.9,
+    50.1,
+    1254.7,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six people, six rules",
+   "size": 26,
+   "bbox": [
+    1044.6,
+    356.9,
+    1302.1,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: a gallery guard tells Yuki what she must and need not leave at the door, Amina lists the four rules of her shop to Dani, and Amina describes the one rule each of the six will not break.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "d0a09c3afda8cc4ec4896b0f2d0de1e39bf719115fd1db67433443d12dd0e439"
+}

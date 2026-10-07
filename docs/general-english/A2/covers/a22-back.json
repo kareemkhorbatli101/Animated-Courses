@@ -221,13 +221,49 @@
    "on": "#FFFFFF"
   },
   {
+   "text": "3",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1422.2,
+    263.9,
+    1457.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Rules and Places",
+   "size": 42,
+   "bbox": [
+    330,
+    1421.5,
+    729.6,
+    1457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "must/have to/mustn't/don't have to",
+   "size": 38,
+   "bbox": [
+    1280,
+    1423.8,
+    1955.2,
+    1457.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
    "text": "By the end you will be able to",
    "size": 54,
    "bbox": [
     220,
-    1462.1,
+    1534.1,
     1127.1,
-    1509.7
+    1581.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -237,9 +273,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1551.5,
+    1623.5,
     258.0,
-    1587.9
+    1659.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -249,9 +285,9 @@
    "size": 40,
    "bbox": [
     320,
-    1552.2,
+    1624.2,
     1535.9,
-    1587.9
+    1659.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -261,9 +297,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1617.5,
+    1689.5,
     258.0,
-    1653.9
+    1725.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -273,9 +309,9 @@
    "size": 40,
    "bbox": [
     320,
-    1618.2,
+    1690.2,
     1140.3,
-    1653.9
+    1725.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -285,9 +321,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1683.5,
+    1755.5,
     258.0,
-    1719.9
+    1791.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -297,9 +333,9 @@
    "size": 40,
    "bbox": [
     320,
-    1684.2,
+    1756.2,
     1403.0,
-    1719.9
+    1791.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -309,9 +345,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1749.5,
+    1821.5,
     258.0,
-    1785.9
+    1857.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -321,9 +357,9 @@
    "size": 40,
    "bbox": [
     320,
-    1750.2,
+    1822.2,
     1044.9,
-    1785.9
+    1857.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -333,9 +369,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1815.5,
+    1887.5,
     258.0,
-    1851.9
+    1923.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -345,9 +381,9 @@
    "size": 40,
    "bbox": [
     320,
-    1816.2,
+    1888.2,
     1360.4,
-    1851.9
+    1923.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -357,9 +393,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1881.5,
+    1953.5,
     258.0,
-    1917.9
+    1989.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -369,9 +405,9 @@
    "size": 40,
    "bbox": [
     320,
-    1882.2,
+    1954.2,
     1126.9,
-    1917.9
+    1989.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -390,7 +426,7 @@
   }
  ],
  "alt": "Back cover of English for Daily Life A2 volume 2: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
- "sha256": "ec20ae61ada6bc681400ce9cf0ff9b7db54ad18557a87e5f0b03576bda6195a5",
+ "sha256": "0196da96f512bac39bd97e0974bf240069b7ea2e860d91406cb0ba978ae740ed",
  "theme": "a22",
  "volume": 2,
  "title": "Out in the World",
@@ -398,11 +434,13 @@
  "blurb": "Volume two takes the same six people and the same ten-part unit out of the street and into the rest of life: plans, weather, rules, health, experience, how things are made, what might happen and what other people said. It ends at the border between A2 and B1. As in volume one, every unit carries a worked example at the top of almost every task, a filled model before every piece of writing, a word bank under every gap-fill, and a checklist before you hand anything in. The Core track is for everybody; the Plus track is there when you want it, and optional when you are not. Answers for every closed question are in the book, and every open task has marking points and a sample answer for the person teaching it.",
  "units": [
   "Plans and Arrangements",
-  "Weather and What Might Happen"
+  "Weather and What Might Happen",
+  "Rules and Places"
  ],
  "grammar": [
   "going to",
-  "will"
+  "will",
+  "must/have to/mustn't/don't have to"
  ],
  "can_do": [
   "I can talk about arrangements using the present continuous.",
@@ -412,5 +450,5 @@
   "I can talk about the weather and say what it will do.",
   "I can use will, won\u2019t and might correctly."
  ],
- "unit_count": 2
+ "unit_count": 3
 }

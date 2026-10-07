@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "a reason",
+   "size": 28,
+   "bbox": [
+    101.5,
+    238.0,
+    237.7,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you can see",
+   "size": 28,
+   "bbox": [
+    76.1,
+    271.0,
+    263.1,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "fairness",
+   "size": 30,
+   "bbox": [
+    376.9,
+    269.5,
+    512.7,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "somebody will",
+   "size": 24,
+   "bbox": [
+    623.1,
+    244.4,
+    816.9,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "mention it",
+   "size": 24,
+   "bbox": [
+    650.1,
+    273.4,
+    789.9,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the rule is kept",
+   "size": 22,
+   "bbox": [
+    900.8,
+    274.9,
+    1089.6,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "take one away",
+   "size": 22,
+   "bbox": [
+    1180.9,
+    274.9,
+    1359.9,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "What a rule needs, in five stages with an arrow to the next: a reason you can see, fairness, somebody willing to mention it, and then the rule is kept. Take any one of the three away and the notice stays on the wall and means nothing.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "9e4a4632312c803e3831c8a99664240d3933fcd970bd578b55d8d0ebc7866c16"
+}

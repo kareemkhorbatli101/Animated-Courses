@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "a pool",
+   "size": 32,
+   "bbox": [
+    224.7,
+    217.2,
+    335.3,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the lane: fast one side,",
+   "size": 26,
+   "bbox": [
+    130.6,
+    269.1,
+    429.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "slow the other",
+   "size": 26,
+   "bbox": [
+    186.8,
+    301.1,
+    373.2,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a cinema",
+   "size": 32,
+   "bbox": [
+    639.0,
+    217.2,
+    801.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the aisle seat, and whose",
+   "size": 26,
+   "bbox": [
+    554.1,
+    269.1,
+    885.9,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "knees move",
+   "size": 26,
+   "bbox": [
+    641.0,
+    301.1,
+    799.0,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a night train",
+   "size": 32,
+   "bbox": [
+    1047.5,
+    217.2,
+    1272.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the quiet carriage, nobody",
+   "size": 26,
+   "bbox": [
+    987.2,
+    269.1,
+    1332.8,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wrote it down",
+   "size": 26,
+   "bbox": [
+    1071.2,
+    301.1,
+    1248.8,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three places and the one rule each lives by: in a pool the lane, fast on one side and slow on the other; in a cinema the aisle seat and whose knees move; and on a night train the quiet carriage at the end, which nobody ever wrote down.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "582a583e138d3e07b149b93507cbd4be86039417aad6f95df636d96f17fe4996"
+}

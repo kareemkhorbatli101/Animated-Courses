@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "The room before",
+   "size": 34,
+   "bbox": [
+    205.8,
+    67.8,
+    524.2,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "smoke indoors",
+   "size": 27,
+   "bbox": [
+    266.7,
+    282.5,
+    463.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "thirty years of custom",
+   "size": 27,
+   "bbox": [
+    215.8,
+    328.5,
+    514.2,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u201cit will never hold\u201d",
+   "size": 27,
+   "bbox": [
+    239.0,
+    374.5,
+    491.0,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The room after",
+   "size": 34,
+   "bbox": [
+    961.6,
+    67.8,
+    1248.4,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the rule came in on a Monday",
+   "size": 27,
+   "bbox": [
+    903.1,
+    282.5,
+    1306.9,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "kept by the end of that week",
+   "size": 27,
+   "bbox": [
+    909.7,
+    328.5,
+    1300.3,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no guards, almost no fines",
+   "size": 27,
+   "bbox": [
+    925.5,
+    374.5,
+    1284.5,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "One room before the rule and after it. Before: smoke indoors, thirty years of custom, and everybody saying it would never hold. After: the rule came in on a Monday, almost everybody was keeping it by the end of that week, with no guards and almost no fines.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "e3f7c12264db4259541eee5db838c5df77dadba43bc4758214a4f8eefe01c21c"
+}

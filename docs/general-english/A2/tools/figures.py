@@ -282,6 +282,22 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         for dy, w2 in ((-16, 44), (2, 58), (20, 36)):
             R(-w2 // 2, dy, w2, 8, fill=P['grey'], r=4, sw=2)
         C(26, 2, 12, fill=P['bg'])
+    elif name == 'notice':
+        R(-34, -40, 68, 68, fill=P['card'], r=5)           # the board
+        L(-22, -24, 22, -24, stroke=P['ink'], sw=5)
+        L(-22, -8, 14, -8, stroke=P['deep'], sw=3)
+        L(-22, 6, 22, 6, stroke=P['deep'], sw=3)
+        L(0, 28, 0, 46, sw=6)                              # the post
+    elif name == 'guard':
+        C(0, -34, 17)
+        R(-10, -44, 20, 8, fill=P['ink'], r=2)             # the cap
+        R(-22, -14, 44, 48, fill=P['deep'], r=14)          # the uniform
+        R(-4, -10, 8, 14, fill=P['tanl'], r=2)             # the badge
+    elif name == 'locker':
+        R(-30, -38, 60, 76, fill=P['card'], r=5)
+        L(-30, 0, 30, 0, stroke=P['ink'], sw=4)
+        C(16, -20, 5, fill=P['ink'], sw=2)
+        C(16, 20, 5, fill=P['ink'], sw=2)
     elif name == 'tree':
         L(0, 8, 0, 40, stroke=P['tand'], sw=7)             # the trunk
         C(0, -6, 26, fill=P['tanl'])
@@ -740,6 +756,40 @@ def sky_strip(f: Fig, x, y, w, h):
     for k in range(3):
         f.rect(x + w * 0.76, y + h * (0.62 + k * 0.08), w * 0.22, h * 0.05,
                fill=P['grey'], stroke='none', r=6, sw=0)
+
+
+def rule_wall(f: Fig, x, y, w, h):
+    """A wall with four notices on it and one empty hook. The learner labels the
+    kind of rule each notice carries, so the four have to look different: a
+    crossed circle for forbidden, a tick for necessary, an open square for free,
+    and a key for members. The hooks step down to the right so the leaders fan
+    out instead of crossing."""
+    f.line(x + 40, y + h * 0.90, x + w - 40, y + h * 0.90, stroke=P['rule'], sw=5)
+    spots = [(0.12, 0.24), (0.33, 0.34), (0.54, 0.46), (0.74, 0.58), (0.90, 0.72)]
+    bw, bh = w * 0.14, h * 0.26
+    for i, (fx, fy) in enumerate(spots):
+        bx, by = x + w * fx - bw / 2, y + h * fy - bh / 2
+        f.rect(bx, by, bw, bh, fill=P['card'], stroke=P['ink'], r=5)
+        cx2, cy2 = bx + bw / 2, by + bh * 0.46
+        r = min(bw, bh) * 0.24
+        if i == 0:                                   # forbidden: a crossed circle
+            f.circle(cx2, cy2, r, fill=P['bg'], sw=4)
+            f.line(cx2 - r * 0.7, cy2 + r * 0.7, cx2 + r * 0.7, cy2 - r * 0.7,
+                   stroke=P['ink'], sw=5)
+        elif i == 1:                                 # necessary: a tick
+            f.line(cx2 - r, cy2, cx2 - r * 0.2, cy2 + r * 0.7, stroke=P['ink'], sw=6)
+            f.line(cx2 - r * 0.2, cy2 + r * 0.7, cx2 + r, cy2 - r * 0.8,
+                   stroke=P['ink'], sw=6)
+        elif i == 2:                                 # free: an open square
+            f.rect(cx2 - r, cy2 - r, r * 2, r * 2, fill=P['bg'], stroke=P['ink'], r=3)
+        elif i == 3:                                 # members: a key
+            f.circle(cx2 - r * 0.5, cy2, r * 0.55, fill=P['bg'], sw=4)
+            f.line(cx2 - r * 0.1, cy2, cx2 + r, cy2, stroke=P['ink'], sw=5)
+            f.line(cx2 + r * 0.6, cy2, cx2 + r * 0.6, cy2 + r * 0.5,
+                   stroke=P['ink'], sw=5)
+        else:                                        # a fee: two coins
+            f.circle(cx2 - r * 0.45, cy2 + r * 0.2, r * 0.7, fill=P['tanl'], sw=4)
+            f.circle(cx2 + r * 0.45, cy2 - r * 0.2, r * 0.7, fill=P['tan'], sw=4)
 
 
 def compare_pair(f: Fig, x, y, w, h):

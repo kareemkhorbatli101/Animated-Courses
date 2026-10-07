@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask one thing at a time",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    504.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about the fee",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    415.4,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "check what is forbidden",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    516.2,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thank them",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    320.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 telling",
+   "size": 34,
+   "bbox": [
+    916.4,
+    58.2,
+    1223.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say what is necessary",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1183.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say plainly what is free",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1204.2,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "name the thing people forget",
+   "size": 22,
+   "bbox": [
+    838.0,
+    264.8,
+    1203.9,
+    284.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "do not explain it",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1097.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: ask one thing at a time, ask about the fee, check what is forbidden, thank them. Card B, telling: say what is necessary, say plainly what is free, name the one thing people forget, do not explain the rule.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "8dbaa3941155c7ed52fb345e234f3d215020003362e76c583ec8b54b2b290495"
+}

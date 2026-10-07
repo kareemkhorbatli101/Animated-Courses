@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  433
+ ],
+ "bounds": [
+  57,
+  21.5,
+  1383,
+  411.4
+ ],
+ "texts": [
+  {
+   "text": "I can say what is necessary, forbidden and not necessary",
+   "size": 28,
+   "bbox": [
+    156,
+    46.2,
+    1058.3,
+    70.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use must, have to, mustn\u2019t and don\u2019t have to correctly",
+   "size": 28,
+   "bbox": [
+    156,
+    126.1,
+    1108.0,
+    150.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can ask what the rules of a place are",
+   "size": 28,
+   "bbox": [
+    156,
+    206.1,
+    759.3,
+    230.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can write the rules for a shared space in 50\u201370 words",
+   "size": 28,
+   "bbox": [
+    156,
+    286.1,
+    1022.8,
+    310.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can ask why a rule exists without arguing",
+   "size": 28,
+   "bbox": [
+    156,
+    366.1,
+    836.3,
+    390.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "PLUS",
+   "size": 22,
+   "bbox": [
+    1266.9,
+    370.1,
+    1330.0,
+    390.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each, the last one marked Plus.",
+ "placed_in": [
+  6.270833333333333,
+  1.8854166666666667
+ ],
+ "sha256": "84fa5ffc6bf558624cab8c0723b9488dd89a7d0f0a0dca469759a271aa92c003"
+}
