@@ -76,7 +76,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> wall · prepare · lucky · damage · protect · foolish · shelter · safe · recover · rubble
+> protect · recover · wall · rubble · prepare · shelter · damage · foolish · lucky ·
+> safe
 
 **Two of them are only ever said afterwards.** Which, and why?
 
@@ -402,7 +403,7 @@ The policy covers **alternative accommodation for up to 90 days**.
 
 Put these on a line from most certain to least.
 
-> certainly · probably · maybe · supposing · honestly · otherwise
+> honestly · otherwise · probably · certainly · maybe · supposing
 
 **Two of them are not about certainty at all.** Which, and what are they doing?
 
@@ -438,11 +439,11 @@ Put one in each, and then say what each one assumes the listener already knows.
 Six items. Choose the form, and say why that one.
 
 1. If it ______ (rain) tomorrow, we ______ (cancel). *(the forecast says it will)*
-2. If it ______ (rain) every day for a month, the wall ______ (not hold). *(it never has)*
-3. If I ______ (be) you, I ______ (go) now.
+2. If I ______ (see) him, I ______ (tell) him. *(I probably will see him)*
+3. If it ______ (rain) every day for a month, the wall ______ (not hold). *(it never has)*
 4. If you ______ (leave) now, you ______ (catch) the four o'clock.
 5. If the hall ______ (not be) there, where ______ people ______ (go) ?
-6. If I ______ (see) him, I ______ (tell) him. *(I probably will see him)*
+6. If I ______ (be) you, I ______ (go) now.
 
 ---
 
@@ -797,8 +798,8 @@ Match each word to one place on the map.
 
 Three columns, from the picture in Part 0.
 
-> the roof · the kitchen floor · the hall windows · the drain · the sea wall survey ·
-> the slipway · the plasterboard · the temporary road
+> the temporary road · the hall windows · the kitchen floor · the plasterboard ·
+> the sea wall survey · the slipway · the drain · the roof
 
 **One of them is in two columns depending on who you ask.** Which?
 
@@ -869,10 +870,10 @@ Think of something near you that has been under repair for a long time. Tell a p
 
 **Listen again. Choose.**
 
-1. The roof took **three weeks / three months / it is not done**.
-2. They have been waiting for plasterboard **since June / since August / all year**.
+1. The roof took **it is not done / three weeks / three months**.
+2. They have been waiting for plasterboard **since June / all year / since August**.
 3. The contractor has **two / three / four** other sites.
-4. Sinéad has been phoning **daily / weekly / on and off**.
+4. Sinéad has been phoning **daily / on and off / weekly**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -1120,8 +1121,8 @@ The progress report says **68 per cent complete.**
 
 Three columns.
 
-> since · for · all week · lately · constantly · recently · throughout · on and off ·
-> day after day · non-stop · still · yet
+> non-stop · lately · yet · on and off · constantly · recently · all week · since · for ·
+> throughout · day after day · still
 
 | **A POINT** | **A LENGTH** | **HOW OFTEN** |
 |---|---|---|
@@ -1160,12 +1161,12 @@ Put one in each, and say why the other two would be wrong.
 
 Six items.
 
-1. I ______ (read) that book three times.
-2. I ______ (read) that book all week.
-3. They ______ (build) four of the six.
+1. We ______ (own) this house for twenty years.
+2. I ______ (read) that book three times.
+3. How many times ______ you ______ (phone) him?
 4. They ______ (build) it since January.
-5. We ______ (own) this house for twenty years.
-6. How many times ______ you ______ (phone) him?
+5. They ______ (build) four of the six.
+6. I ______ (read) that book all week.
 
 ---
 
@@ -1523,7 +1524,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> evidence · blame · inquiry · fault · witness · responsible · record · cause · minute · report
+> responsible · witness · evidence · record · blame · inquiry · report · minute · cause ·
+> fault
 
 **One of them moves column the moment somebody writes it down.** Which?
 
@@ -1853,8 +1855,8 @@ The inquiry timeline records the forecast change at **13.40**.
 
 Three columns.
 
-> before · after · already · by the time · previously · once · then · afterwards ·
-> the night before · until · just · up to that point
+> up to that point · the night before · before · just · after · already · by the time ·
+> once · afterwards · previously · then · until
 
 ### 6B · Chunk completion
 
@@ -1891,10 +1893,10 @@ Three columns.
 Six items. Choose, and say why.
 
 1. He ______ (move) the car on Thursday. Then it ______ (flood).
-2. It ______ (flood) on Saturday. He ______ (move) the car two days earlier.
-3. By the time we ______ (arrive), they ______ (go).
-4. She ______ (keep) the sandbags since 2019 and never ______ (use) them.
-5. Once the drain ______ (reverse), it ______ (be) too late.
+2. Once the drain ______ (reverse), it ______ (be) too late.
+3. She ______ (keep) the sandbags since 2019 and never ______ (use) them.
+4. By the time we ______ (arrive), they ______ (go).
+5. It ______ (flood) on Saturday. He ______ (move) the car two days earlier.
 6. I ______ (not know) the forecast ______ (change).
 
 ---
@@ -2249,7 +2251,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> claim · source · journalist · accurate · account · editor · exact · version · trust · doubt
+> accurate · doubt · claim · source · version · account · exact · editor · trust ·
+> journalist
 
 **One of them is in two columns at once.** Which?
 
@@ -2575,7 +2578,8 @@ The article's headline says **"Witnesses contradict each other."**
 
 Two columns.
 
-> say · tell · state · add · mention · repeat · insist · admit · reveal · reply · announce
+> reveal · insist · repeat · add · reply · mention · tell · admit · state · say ·
+> announce
 
 **One of them is neutral in a report and loaded in a newspaper.** Which?
 
@@ -2612,12 +2616,12 @@ Each one tells the reader what to think before they have read the content.
 
 Six items. Report each one, shifting what needs to shift.
 
-1. *"I am at the door."*
-2. *"I checked it twice."*
-3. *"I will send it tomorrow."*
-4. *"I can't remember."*
+1. *"I checked it twice."*
+2. *"I will send it tomorrow."*
+3. *"I am at the door."*
+4. *"I didn't say that."*
 5. *"The drain is still blocked."* *(and it is)*
-6. *"I didn't say that."*
+6. *"I can't remember."*
 
 ---
 
@@ -2970,7 +2974,8 @@ Match each word to one place on the map.
 
 Three columns.
 
-> pressure · silence · honest · direct · awkward · notebook · consent · follow-up · anonymous
+> awkward · consent · notebook · pressure · honest · anonymous · direct · follow-up ·
+> silence
 
 **One of them belongs to whoever is most frightened.** Which, and why?
 
@@ -3040,9 +3045,9 @@ Think of a time you were asked a question you did not want to answer. Tell a par
 
 **Listen again. Choose.**
 
-1. The survey asked **where the water came from / how deep it was / whether people felt safe**.
+1. The survey asked **whether people felt safe / where the water came from / how deep it was**.
 2. Fifty-one households were asked and **all / most / about half** replied.
-3. The question about the drain was **not asked / asked badly / asked of the wrong people**.
+3. The question about the drain was **asked badly / not asked / asked of the wrong people**.
 4. Redoing it would take **two / six / fourteen** weeks.
 
 **Noticing.** Four sentences from the recording.
@@ -3298,7 +3303,7 @@ The form has a handwritten question on some copies.
 
 Two columns.
 
-> ask · tell · say · want · order · advise · remind · beg · invite · encourage · refuse
+> order · invite · want · beg · refuse · ask · advise · encourage · remind · say · tell
 
 **One of them can go in both columns and means two different things.** Which?
 
@@ -3337,10 +3342,10 @@ Six items.
 
 1. *"Where do you live?"*
 2. *"Have you seen it?"*
-3. *"Wait here."*
-4. *"Don't move anything."*
+3. *"Don't move anything."*
+4. *"Why didn't you ask the harbour master?"*
 5. *"Would you mind signing this?"*
-6. *"Why didn't you ask the harbour master?"*
+6. *"Wait here."*
 
 ---
 
@@ -3696,7 +3701,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> clue · strange · theory · empty · suspect · obvious · missing · mystery · unlikely
+> unlikely · clue · strange · missing · suspect · empty · obvious · theory · mystery
 
 **One of them is a fact that is always described as a feeling.** Which?
 
@@ -4020,7 +4025,7 @@ The form has a box for **"mooring failure"** and none for anything else that fit
 
 Put these on a line from certain to barely possible.
 
-> definitely · surely · obviously · clearly · presumably · apparently · possibly
+> surely · clearly · obviously · presumably · possibly · apparently · definitely
 
 **Two of them are about what other people say, not about what you know.** Which?
 
@@ -4058,11 +4063,11 @@ Put these on a line from certain to barely possible.
 Six items.
 
 1. The light is on. Somebody ______ be in.
-2. The light is on, but his car is gone. He ______ be in.
+2. He's been at sea forty years. He ______ have made that mistake.
 3. Perhaps she ______ have forgotten.
-4. The rope was untied, so it ______ have broken.
+4. The light is on, but his car is gone. He ______ be in.
 5. There's no fuel in the can. It ______ have run out.
-6. He's been at sea forty years. He ______ have made that mistake.
+6. The rope was untied, so it ______ have broken.
 
 ---
 
@@ -4422,7 +4427,7 @@ Match each word to one place on the map.
 
 Two columns.
 
-> apply · promotion · qualify · contract · training · plan · course · chance
+> qualify · training · promotion · chance · course · contract · apply · plan
 
 **One of them is both, and that is why people confuse them.** Which?
 
@@ -4493,10 +4498,10 @@ what you will be doing on a weekday morning, and one thing that will decide it.
 
 **Listen again. Choose.**
 
-1. The contract is for **one season / two seasons / three years**.
-2. Peadar will be away **four nights a week / three weeks at a time / permanently**.
-3. Aoife will be **at college / working here / not sure**.
-4. The hall will be **finished / still waiting / sold**.
+1. The contract is for **one season / three years / two seasons**.
+2. Peadar will be away **four nights a week / permanently / three weeks at a time**.
+3. Aoife will be **working here / at college / not sure**.
+4. The hall will be **still waiting / finished / sold**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -4748,8 +4753,8 @@ Two sentences.
 
 Three columns.
 
-> soon · shortly · eventually · by then · this time next · in a year's time · later ·
-> onwards · meanwhile · ahead
+> in a year's time · ahead · meanwhile · soon · onwards · this time next · by then ·
+> shortly · later · eventually
 
 ### 6B · Chunk completion
 
@@ -4784,11 +4789,11 @@ Each of these looks like a prediction and is actually a hedge.
 
 Six items.
 
-1. *(the phone rings)* I ______ get it.
-2. I ______ apply in March. *(decided last week)*
-3. This time next year I ______ live in Galway.
-4. ______ you ______ come to the meeting? *(polite enquiry)*
-5. By then we ______ wait eleven months for that plasterboard.
+1. ______ you ______ come to the meeting? *(polite enquiry)*
+2. By then we ______ wait eleven months for that plasterboard.
+3. *(the phone rings)* I ______ get it.
+4. This time next year I ______ live in Galway.
+5. I ______ apply in March. *(decided last week)*
 6. I ______ know by March. *(a state)*
 
 ---
@@ -5154,7 +5159,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> cliff · pier · ruin · bay · church · headland · lighthouse · hall · harbour
+> bay · ruin · hall · cliff · church · headland · lighthouse · harbour · pier
 
 **One of them is in two columns, and the argument about which is three hundred years old.**
 Which?
@@ -5480,7 +5485,7 @@ The valuation describes it as **"a corn store, converted, in community use"**.
 
 Three columns.
 
-> also · besides · moreover · however · although · by the way · actually · which is why
+> which is why · moreover · actually · although · besides · also · however · by the way
 
 **One of them can do two of the three jobs.** Which?
 
@@ -5518,10 +5523,10 @@ Three columns.
 Six items. **Add commas where the clause is non-defining, and say what changes.**
 
 1. The hall which was built in 1884 is the oldest.
-2. The woman who runs the hall is called Sinéad.
-3. Sinéad who runs the hall has been here nine years.
-4. The building where the meeting was held has been sold.
-5. The pier which was rebuilt in 1931 is closed again.
+2. The pier which was rebuilt in 1931 is closed again.
+3. The woman who runs the hall is called Sinéad.
+4. Sinéad who runs the hall has been here nine years.
+5. The building where the meeting was held has been sold.
 6. The only building that is above the line is the hall.
 
 ---
@@ -5880,7 +5885,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> fund · allocate · fair · grant · priority · equal · request · relief · limited
+> allocate · equal · priority · grant · fair · request · fund · limited · relief
 
 **One of them only becomes a judgement when there is not enough.** Which?
 
@@ -6211,8 +6216,8 @@ The allocation sheet totals **€238,500**.
 
 Two columns, and write the right quantifier beside each.
 
-> claims · money · people · relief · forms · supply · dehumidifiers · funding · requests ·
-> fuel
+> requests · claims · supply · fuel · funding · dehumidifiers · money · relief · forms ·
+> people
 
 ### 6B · Chunk completion
 
@@ -6246,12 +6251,12 @@ Two columns, and write the right quantifier beside each.
 
 Six items.
 
-1. ______ of the money is left. *(zero)*
-2. ______ of the claimants is lying. *(zero of four)*
-3. ______ of the last two has insurance. *(zero of two)*
-4. ______ of them have been waiting. *(more than half)*
-5. ______ of the two will do. *(one or the other)*
-6. We funded ______ four, partly.
+1. ______ of the two will do. *(one or the other)*
+2. We funded ______ four, partly.
+3. ______ of them have been waiting. *(more than half)*
+4. ______ of the last two has insurance. *(zero of two)*
+5. ______ of the money is left. *(zero)*
+6. ______ of the claimants is lying. *(zero of four)*
 
 ---
 
@@ -6606,7 +6611,7 @@ Match each word to one place on the map.
 
 Three columns.
 
-> identity · reputation · community · local · outsider · memory · belong · newcomer
+> identity · newcomer · belong · local · reputation · outsider · memory · community
 
 **One of them is given to you by other people, always.** Which?
 
@@ -6677,10 +6682,10 @@ back*. **Guess: who objects, and on what grounds?**
 
 **Listen again. Choose.**
 
-1. The campaign would run for **one season / three years / indefinitely**.
-2. Eimear objects because the story is **false / incomplete / embarrassing**.
-3. The agency offers to **change the words / drop the campaign / add a page**.
-4. The decision will be made by **the agency / the committee / a public meeting**.
+1. The campaign would run for **indefinitely / one season / three years**.
+2. Eimear objects because the story is **embarrassing / false / incomplete**.
+3. The agency offers to **change the words / add a page / drop the campaign**.
+4. The decision will be made by **a public meeting / the agency / the committee**.
 
 **Noticing.** Four sentences from the recording.
 
@@ -6933,7 +6938,8 @@ The brochure says **"a community of fifty-one households"**.
 
 Two columns, and put the right article beside each.
 
-> hall · memory · boat · truth · community · pier · identity · reputation · wall · change
+> change · identity · boat · reputation · wall · pier · truth · community · memory ·
+> hall
 
 **Two of the abstract ones can also be concrete.** Which, and in what sentence?
 
@@ -6966,12 +6972,12 @@ Two columns, and put the right article beside each.
 
 Six items.
 
-1. ______ water came in at ten.
-2. ______ water is heavier than people think.
-3. ______ memory is unreliable.
-4. ______ memory of that night is unreliable.
+1. It's ______ story of this town.
+2. ______ memory of that night is unreliable.
+3. ______ water came in at ten.
+4. ______ memory is unreliable.
 5. It's ______ story about ______ town.
-6. It's ______ story of this town.
+6. ______ water is heavier than people think.
 
 ---
 
@@ -7277,5 +7283,753 @@ honest option cost somebody money.**
 
 > **Look back at your recording from Unit 1, Part 0C.** Listen to it once.
 > Then record the same thirty seconds again. **One sentence: what is different?**
+
+
+
+# Answer Key
+
+> Open tasks — speaking, writing, discussion — are not keyed. Their
+> success criteria are in the unit, at 4E and 8E.
+
+## A2.2 · Unit 1 · Twelve Centimetres
+
+**0B** · Guess it
+Worst at the low end of Strand Road, by the yard drains. The tide marks on the three houses are at different heights — ankle, knee and a hand's width above the sill — and the lowest house is the one where the road dips and the drain is. The water did not come over the wall; it came up through the yard.
+
+**1B** · Sort — a thing, an action, or a judgement?
+> **an action** — protect · recover · prepare
+> **a thing** — wall · rubble · shelter · damage
+> **a judgement** — foolish · lucky · safe
+**Only ever said afterwards:** *foolish* and *lucky*. Nobody is lucky or foolish in advance — both words need the outcome, which is the whole argument about Donal and his car.
+
+**2A** · Thursday, and the top road 🔊 Track 1.1
+**1** T · **2** T · **3** F · **4** T
+**Table** — Donal: moved the car to the top road on the Thursday; would move it on the Wednesday. Eimear: thought about the sandbags and left them in the shed; would put them out and would not wait to see what anybody else did. Sinéad: opened the hall on the Friday night; would open it earlier and would not wait for the council.
+
+**Noticing** — **The future:** 1 (*If it happened again, I'd move it*) and 4 (*I wouldn't do anything differently*). **The past:** 2 (*I'd have gone earlier*) and 3 — which is about a past choice stated as a standing preference. *(Accept 3 as either if the learner argues it.)*
+
+**3D** · Use — controlled
+1 happened · 2 would move · 3 had been · 4 would not have lost · 5 were · 6 would not wait · 7 were · 8 would not be
+
+**3E** · Use — guided
+1 If I had the money, I would move.  
+2 If we were ready, we wouldn't worry.  
+3 If he asked, somebody would help him.  
+4 If the hall were open, people wouldn't sleep in cars.  
+5 If I were you, I could decide.
+
+**5C** · Answer
+1 The drain in the yard started going the wrong way, at about ten. It does not come in the door first.  
+2 Since 2019 — about five years. She had kept them from a warning that came to nothing.  
+3 Because Donal had moved his car, everyone was being funny about it, and she did not want to be the second one.  
+4 She would not wait to see what anybody else did. She will **not** promise that she would actually put the sandbags out — that is easy to say in September and she does not know what she would do in January.  
+5 Because you cannot put a new floor down until the old one is dry, and you cannot tell when it is dry — so you wait, lay one, and sometimes you are wrong.  
+6 The sandbags are a thing she did not do. The waiting is the reason she did not do it. One is a mistake and the other is a habit, and only the second is worth changing.
+
+**5D** · Vocabulary in context
+**came to nothing** — the 2019 warning, where nothing happened · **being funny about it** — teasing Donal, mildly and publicly · **the second one** — the second person to look foolish, which is worse than the first · **in September** — long after, when it is easy to be brave · **you cannot tell when it is dry** — the honest limit that makes the eight months unavoidable
+
+**5E** · The counter-text
+1 Flood: 2,500. Storm damage: 350 — about seven times less, for the thing that is more likely to happen here.  
+2 Gradual damp; items stored below ground level; floor coverings laid less than twelve months before the claim; garden structures including sheds and their contents. **Eimear lost** the floor covering *(hers was eight months old)* and the contents of the shed — and the sandbags were in the shed.  
+3 Fifteen working days, after being notified within thirty days.  
+4 "Flood cover may be withdrawn at renewal following a claim." It is in bold because it is the only line about next year — and because a claimant who reads it may decide not to claim, which is what the bold is for.
+
+**6A** · Sort — how sure, and how honest?
+**Most certain → least:** certainly · probably · maybe · supposing.  
+**The two that are not about certainty:** *honestly* is about the speaker — it marks what follows as costing them something. *otherwise* is about consequence — it names what happens if you do not.
+
+**6B** · Chunk completion
+1 were · 2 position · 3 have · 4 rather · 5 otherwise · 6 thought
+
+**6C** · Three words that change the whole sentence
+1 **instead** — assumes the listener knows what she did not do *(wait)*.  
+2 **Otherwise** — assumes the listener knows what happens if they do not *(the water comes)*.  
+3 **differently** — assumes the listener knows what she did the first time, and is being asked to compare.
+
+**6D** · Contrast Clinic — first or second conditional
+> **1** rains / will cancel — **first**: the forecast says it will, so it is a real possibility.
+> **2** see / will tell — **first**: probable.
+> **3** rained / would not hold — **second**: it never has, so it is imagined.
+> **4** leave / will catch — **first**: it is available right now.
+> **5** were not / would … go — **second**: the hall is there.
+> **6** were / would go — **second**: I am not you, and never will be.
+
+**7C** · Make it mean something
+Model: *I **WOULD** do it — but the sandbags are in the shed and the shed is behind the water.* The contrastive stress on *would* always has a *but* coming; the plain *I'd do it* needs nothing after it.
+
+**12A** · Recycle — ten items
+1 happened / would move · 2 were · 3 rather · 4 risk · 5 of · 6 rains · 7 are not allowed to · 8 was built · 9 when · 10 since
+
+
+---
+
+## A2.2 · Unit 2 · Nowhere Near Finished
+
+**0B** · Guess it
+The scaffolding, the temporary road and the hall roof. The scaffolding has weathered — the boards are grey and there is grass at the base of the uprights. The temporary road has ruts worn into it and a pothole already patched. The roof has new tiles that have dulled and two gaps near the ridge that have not.
+
+**1B** · Sort — finished, going on, or not started?
+> **going on** — the temporary road · the hall windows · the sea wall survey
+> **not started** — the kitchen floor · the plasterboard · the slipway
+> **finished** — the drain · the roof
+**The one that depends who you ask:** *the roof*. The contractor's report says 100 per cent complete; the door log says two ridge tiles are missing and you can see daylight. Finished or going on, depending entirely on which document you are holding.
+
+**2A** · Eight months of it 🔊 Track 2.1
+**1** c) three months · **2** a) since June · **3** b) three · **4** b) on and off
+**Table** — Roof: started 6 May, finished 2 June *(disputed)*; two ridge tiles missing. Windows: started, 2 of 4 done; the contractor is on another site. Floor: not started; waiting for plasterboard since June.
+
+**Noticing** — **A result:** 1 (*We've done the roof*) and 3 (*I've phoned him four times*). **The activity:** 2 (*We've been doing the roof since June*) and 4 (*I've been phoning him all week*).
+
+**3D** · Use — controlled
+1 have been working · 2 have finished · 3 has not started · 4 have been waiting · 5 has phoned · 6 has been phoning · 7 has not answered
+
+**3E** · Use — guided
+1 have written — three is a countable result.  
+2 have been writing — *all morning* is a span.  
+3 **Either.** *has lived* and *has been living* are both correct with a state verb and a *since* phrase; the continuous adds a slight sense of impermanence.  
+4 have fixed — finished.  
+5 have been fixing — *since June* is a span and it is not finished.  
+6 have known — *know* is not normally used in the continuous.
+
+**5C** · Answer
+1 Eleven volunteers, six hours, on 14 January.  
+2 Survey on 2 February; contractor appointed on 9 March — five weeks, and no paper in between.  
+3 Two entries, in two hands. The first says the roof is done and the men have moved to the school. The second says the roof is **not** done — two ridge tiles missing, and you can see daylight.  
+4 Ordered 11 June; still not delivered on 1 September — nearly three months.  
+5 Windows: two of four. Floor: not started.  
+6 Because four different people have kept it, which means nobody was given the job. It tells you the hall is being run by whoever is there — and it is also why the log is more reliable than the report: four people had to agree for an entry to stand uncorrected.
+
+**5D** · Vocabulary in context
+**isolated** — disconnected for safety, so the kitchen cannot be used · **w/c** — week commencing · **appointed** — formally given the contract · **ridge tiles** — the tiles along the top of the roof, where the daylight is · ***2 of 4*** — two of the four windows, which is the shortest sentence in the log and the clearest
+
+**5E** · The counter-text
+1 Sixty-eight per cent.  
+2 As a change of supplier, outside the contractor's control — and no extension of time is claimed at this stage, which is the sentence that matters: it concedes the delay is his to absorb while describing it as somebody else's fault.  
+3 **The roof** — the log says daylight through the ridge. *(The other two marked complete, strip-out and electrical first fix, the log does not dispute; the real disputes are the roof, the 50 per cent on windows, which the log records as two of four, and the 68 per cent overall.)*  
+4 30 November. It has moved **three** times — from 30 June to 31 July to 30 September to 30 November.
+
+**6A** · Sort — a point, a length, or a frequency?
+> **HOW OFTEN** — non-stop · on and off · constantly · day after day
+> **A LENGTH** — lately · all week · for · throughout
+> **A POINT** — yet · recently · since · still
+
+**6B** · Chunk completion
+1 week · 2 on · 3 after · 4 throughout · 5 still · 6 yet
+
+**6C** · Three that are nearly the same
+1 **lately** — a question about the recent period. *Recently* also works; *still* would be wrong because it needs a continuing state.  
+2 **recently** — a state continuing to now. *Lately* also works. *Still* would mean she had been tired before and has not stopped, which is a different claim.  
+3 **still** — a continuing state, and the only one of the three that is not about recency. *Lately* and *recently* would both be odd with a present continuous that has lasted three months.
+
+**6D** · Contrast Clinic — simple or continuous
+> **1** have owned — *own* is a state verb and does not take the continuous.
+> **2** have read — three is a countable result.
+> **3** have … phoned — the question counts completed calls.
+> **4** have been building — a span, unfinished.
+> **5** have built — a countable result.
+> **6** have been reading — a span, and no number offered.
+
+**7C** · Make it mean something
+*We've **BEEN** waiting* is a complaint about the other person: the stress on the auxiliary answers somebody who has implied you have not. *We've been **WAITING*** is a complaint about the situation — it puts the news on the activity and says that waiting is the whole of what has happened.
+
+**12A** · Recycle — ten items
+1 have been waiting · 2 have phoned · 3 near · 4 up · 5 after · 6 were · 7 rather · 8 for · 9 who / that · 10 was built
+
+
+---
+
+## A2.2 · Unit 3 · Who Was Warned, and When
+
+**0B** · Guess it
+Donal, Eimear and the council duty officer. Donal is the only person whose car is not on the street. Eimear is standing at her shed door with the bolt drawn back and has not opened it. The duty officer is the one in the parked car at the top of the road with the phone face-up on the dashboard — the revision was sent to that phone at 13.40.
+
+**1B** · Sort — a fact, a judgement, or a procedure?
+> **a judgement** — responsible · blame · fault
+> **a fact** — witness · evidence · record · cause
+> **a procedure** — inquiry · report · minute
+**The one that moves when it is written down:** *record*. Spoken, it is a judgement — *for the record*, as Eimear uses it. Written, it becomes a fact that other documents have to argue with, which is exactly what she is doing and why she says it is not evidence.
+
+**2A** · The order of the night 🔊 Track 3.1
+**1** T · **2** T · **3** T · **4** T
+**Order (1–6):** 1 the forecast changed · 2 Donal moved his car · 3 Eimear decided not to use the sandbags · 4 the drain reversed · 5 the hall opened · 6 the water reached the doors.
+
+**Noticing** — **Plain past:** 1 (*The forecast changed on the Thursday*). The other three all put one past event before another: 2 with *had changed*, 3 with *had already started*, 4 with *after he had moved it*.
+
+**3D** · Use — controlled
+1 had already reached · 2 had moved · 3 had changed · 4 decided · 5 had moved · 6 had not known · 7 had changed
+
+**3E** · Use — guided
+1 He moved the car after the forecast had changed. *(or* The forecast had changed before he moved the car.*)*  
+2 The drain had reversed before anybody noticed the tide.  
+3 She had put the sandbags in the shed in 2019, five years before the water came.  
+4 The hall had opened before the first family arrived.  
+5 He had warned four people, and nobody acted.
+
+**5C** · Answer
+1 The forecast had changed that morning — the surge had gone from 1.1 metres to 1.6 — and the yard drain had backed up twice in November.  
+2 Four. Two of them laughed, kindly — and he says he would have laughed too.  
+3 Because he did not want to be the man knocking on doors about a forecast.  
+4 She did not laugh, and she thought about the sandbags and decided against them. She did **not** say anything when the other two laughed.  
+5 That Donal was right and was treated as though he were being silly, and that she joined in by saying nothing. She says it is not evidence because it is about how people behaved, not about what caused the flood.  
+6 That if he had knocked on eleven doors she does not think it would have made any difference. It is protecting **Donal** — from becoming the story about one man who should have done more.
+
+**5D** · Vocabulary in context
+**surge** — the rise in sea level above the normal tide · **backed up** — ran the wrong way and filled · **laughed kindly** — without malice, which makes it harder to answer · **joined in by saying nothing** — the admission the whole submission exists for · **would have made any difference** — the third conditional she uses to protect somebody else
+
+**5E** · The counter-text
+1 Forecast revised at 13.40; drain reversed at 21.50.  
+2 From 13.40 to the first water at 23.30 — **nine hours and fifty minutes**.  
+3 "Council duty officer reads revision" and "Any council warning to residents".  
+4 The 21.50 drain reversal. The resident says "about ten"; photographic metadata gives 21.50. The difference is **forty minutes**, and the inquiry has adopted the metadata.
+
+**6A** · Sort — earlier, same time, or later?
+> **earlier** — up to that point · the night before · before · already · previously · until
+> **same time** — just · by the time · once
+> **later** — after · afterwards · then
+
+**6B** · Chunk completion
+1 time · 2 soon · 3 before · 4 point · 5 through · 6 already
+
+**6C** · Two that look the same
+1 By the time she phoned, he had already left.  
+2 By the time the last family arrived, the hall was full.  
+3 By the time the vote was taken, nobody had read the notice.
+
+**6D** · Contrast Clinic — past simple or past perfect
+> **1** moved / flooded — two plain pasts in order, so no perfect is needed.
+> **2** had reversed / was — the reversal came first and the lateness followed.
+> **3** had kept / had … used — both before the night the story is told about.
+> **4** arrived / had gone — *by the time* needs the perfect in the other half.
+> **5** flooded / had moved — *two days earlier* puts the move before.
+> **6** did not know / had changed — the change was earlier than the not knowing.
+
+**7C** · Make it mean something
+The argument is with the inquiry, or with whoever has said in evidence that he did not move it. Contrastive stress on *HAD* only makes sense against a denial. The plain *he'd moved it* is just chronology, and it is what a witness statement should sound like.
+
+**12A** · Recycle — ten items
+1 had already started · 2 had changed · 3 into · 4 hindsight · 5 out · 6 have been waiting · 7 have phoned · 8 were · 9 when · 10 used
+
+
+---
+
+## A2.2 · Unit 4 · Forty Minutes Apart
+
+**0B** · Guess it
+Resident A's kitchen clock and Resident B's radio programme. Both are independent of each other, both would be given in good faith, and both are wrong — the clock by eleven minutes fast, the programme because it ended at 23.15 and not at half past. Two sources agreeing does not make either of them right.
+
+**1B** · Sort — the thing said, the person, or the test?
+> **the test** — accurate · doubt · exact · trust
+> **the thing said** — claim · version · account
+> **the person** — source · editor · journalist
+**The one in two columns:** *source*. It is the person who told you and the document you got it from — *a source close to the inquiry* and *a primary source* are different things, and a newspaper uses the ambiguity on purpose.
+
+**2A** · Three times, one night 🔊 Track 4.1
+**1** T · **2** T · **3** F · **4** F
+**Table** — Eimear: eleven o'clock; at her kitchen door; very sure, and she checked a clock. Donal: half past eleven; listening to the radio; very sure, and he insists. Sinéad: does not give a clock time at all; opening the hall; openly unsure, and says she went by when the hall filled.
+
+**Noticing** — **The words themselves:** 1 and the direct quotation inside it. **Reporting:** 2, 3 and 4. **The one that is not neutral:** 4 — *insisted* tells the reader he was being contradicted and would not move.
+
+**3D** · Use — controlled
+1 was / had been · 2 had checked · 3 was · 4 had not looked · 5 had gone / went · 6 showed · 7 had adopted
+
+**3E** · Use — guided
+1 Eimear said she had checked the clock.  
+2 Donal insisted it had been half past, not eleven.  
+3 Sinéad explained that she had not looked at a clock.  
+4 The inquiry stated that it had adopted the photographic time.  
+5 The council refused to comment.
+
+**5C** · Answer
+1 Forty minutes.  
+2 It was eleven minutes fast.  
+3 By a radio programme he knew ended at half past. The programme in fact ended at 23.15 — fifteen minutes out.  
+4 The point at which the hall was full. Hall records show capacity at 23.25.  
+5 23.30, from photographic metadata.  
+6 That none of the three is unreliable. Each used the best instrument they had, and each instrument was wrong by five to twenty minutes, which is normal. An account matching the metadata exactly would be more unusual than these three and would deserve more scrutiny, not less.
+
+**5D** · Vocabulary in context
+**reconciling** — making different accounts fit together · **capacity** — the point at which the hall was full · **metadata** — the data a photograph carries about itself · **the best instrument available** — whatever each person had to hand, which is the inquiry's defence of them · **deserve more scrutiny** — be examined harder, because it is too good
+
+**5E** · The counter-text
+1 "WITNESSES CONTRADICT EACH OTHER OVER FLOOD TIMING." It implies the residents are unreliable and at odds — which is the opposite of what 4.6 says.  
+2 It quotes 4.1 to 4.5. It leaves out **4.6**, the paragraph saying all three accounts are honest and that an exact match would be more suspicious.  
+3 Resident A **claims**; Resident B **insists**; Resident C **admits**. Three loaded verbs for three accounts the report calls honest.  
+4 "The inquiry is understood to have found the residents' evidence of limited value." No paragraph of the report says this.
+
+**6A** · Sort — neutral, or loaded?
+> **loaded** — reveal · insist · admit
+> **neutral** — repeat · add · reply · mention · tell · state · say · announce
+**Neutral in a report, loaded in a newspaper:** *announce*. In minutes it simply means said formally; in a headline it implies self-importance. *(Accept* repeat*, which in a newspaper implies the speaker has been told already.)*
+
+**6B** · Chunk completion
+1 that · 2 that · 3 to · 4 comment · 5 out · 6 effect
+
+**6C** · Three that change the reader's mind
+1 *She said that she had checked a clock.* **Lost:** the suggestion that checking a clock was something to confess. **Gained:** a sentence the reader can judge.  
+2 *He said that the programme ended at 23.15.* **Lost:** the sense that this was hidden. **Gained:** the fact, which is more useful than the drama.  
+3 *She said that the hall was full by then.* **Lost:** the writer's doubt. **Gained:** the reader's right to their own.
+
+**6D** · Contrast Clinic — report it
+> **1** She said she had checked it twice.
+> **2** He said he would send it the next day.
+> **3** She said she was at the door.
+> **4** He said he had not said that.
+> **5** She said the drain is still blocked. *(no shift — it is still true)*
+> **6** He said he could not remember.
+
+**7C** · Make it mean something
+*He said it was **HALF PAST*** is the report version: the stress is on the content, and the sentence simply passes the fact on. *He **SAID** it was half past* is the conversation afterwards: the stress on the verb separates what he said from what turned out to be true, and a report should not do that.
+
+**12A** · Recycle — ten items
+1 was · 2 told · 3 to · 4 record · 5 correction · 6 had already started · 7 had changed · 8 have been waiting *(Unit 2)* · 9 were · 10 was built
+
+
+---
+
+## A2.2 · Unit 5 · The Wrong Question
+
+**0B** · Guess it
+The open notebook on the interviewer's knee, and the door he is standing in. The notebook: people shorten their answers when they can see the writing. The doorway: standing on the step with the householder inside means the interview is being conducted at the boundary, which keeps it short and keeps the neighbours in earshot.
+
+**1B** · Sort — the interviewer, the person, or the room?
+> **the person** — awkward · consent · honest
+> **the interviewer** — notebook · direct · follow-up
+> **the room** — pressure · anonymous · silence
+**It belongs to whoever is most frightened:** *silence*. In an interview the silence is owned by whoever is least comfortable with it — and a good interviewer gives it away on purpose, which is the hardest technique in the unit.
+
+**2A** · Fifty-one doors 🔊 Track 5.1
+**1** c) how deep it was · **2** b) most · **3** b) not asked · **4** b) six
+**Table** — Q1: how deep the water was at its highest; a number, in centimetres; nobody asked where it came from. Q4: whether they received a warning; yes or no, with an open follow-up; nobody asked whether the warning reached them in time to act. Q9: *anything else?*; nine of forty-four wrote anything; nobody asked the harbour master.
+
+**Noticing** — **The words themselves:** 1 and 3. **Reports:** 2 and 4. **In sentence 2** the word order goes back to statement order — *how deep the water had been*, not *how deep was the water* — and the auxiliary disappears.
+
+**3D** · Use — controlled
+1 had been · 2 had measured · 3 not to guess · 4 whether / if · 5 to keep · 6 where · 7 had come
+
+**3E** · Use — guided
+1 He asked where the water had come from.  
+2 He asked whether they had looked at the drain.  
+3 He told them to keep the photographs.  
+4 He told them not to throw anything away.  
+5 He asked whether they would be willing to be named.
+
+**5C** · Answer
+1 A list of questions, and a decision about who is asked.  
+2 Fifty-one households, forty-four responses, six weeks.  
+3 It asked how deep the water had been, when it arrived, what was damaged, whether people had received a warning, and whether they intended to stay. It did **not** ask where the water came from — the question the money depended on.  
+4 "You cannot find an answer to a question you did not ask."  
+5 The harbour master, who has watched that drain for twenty-two years. He does not live in a flooded house, so he was not on the register the list was correctly drawn from.  
+6 Redoing it takes six weeks; publishing it as it stands takes an afternoon. **The warning** is the second half: it will be quoted for ten years.
+
+**5D** · Vocabulary in context
+**response rate** — the proportion who answered, here 44 of 51 · **nobody was led** — no question pushed people towards an answer · **the flood plain** — the area the register covers, which is how the harbour master was excluded · **drawn up** — compiled, correctly · **as it stands** — unchanged, with the gap still in it
+
+**5E** · The counter-text
+1 Nine questions; two are open — 5 and 9.  
+2 Question 9, *Anything else?* It is the only place the source could be mentioned, and it is the last box on the second side. Nine of forty-four completed it.  
+3 It allows the answers to be used in anonymous and aggregated form in the council's report. It does **not** allow anybody to be quoted by name — which is why the harbour master could not have been used even if he had been asked.  
+4 "10. Where do you think the water came from? (I think it was the old drain — R.)" — added by hand to four copies.
+
+**6A** · Sort — does it need a person after it?
+> **needs a person** — order · invite · want · beg · advise · encourage · remind · tell
+> **no person** — refuse · say
+> **both** — ask
+**The one in both:** *ask*. *He asked whether…* takes no person and means a question; *He asked me to wait* takes a person and means a request. Two different verbs wearing one spelling.
+
+**6B** · Chunk completion
+1 to · 2 not · 3 to · 4 whether / if · 5 off · 6 know
+
+**6C** · Three ways of saying no
+1 **refused** · 2 **avoided** · 3 **No comment**  
+**Which tells you most:** *avoided*. A refusal and a *no comment* tell you only that there is something there; four minutes about the wall tells you what the something is about.
+
+**6D** · Contrast Clinic — report it
+> **1** He asked where I lived.
+> **2** He asked whether I had seen it.
+> **3** He told me not to move anything.
+> **4** She asked why they had not asked the harbour master.
+> **5** He asked me to sign it.
+> **6** She told me to wait there.
+
+**7C** · Make it mean something
+The rising version is useful when you are checking that you have understood a report somebody else has given you — turning their statement back into a question without contradicting them. It is also how you ask a second question while appearing to repeat the first, which is the move the survey needed and did not have.
+
+**12A** · Recycle — ten items
+1 it had been · 2 to measure · 3 whether / if · 4 question · 5 record · 6 told · 7 to · 8 had already started · 9 have been waiting · 10 is
+
+
+---
+
+## A2.2 · Unit 6 · Two Miles Out, and Empty
+
+**0B** · Guess it
+The coiled rope, the open hatch and the lifejacket on the shed hook. A boat that broke away does not have its rope coiled by somebody who knew how; a boat drifting in a sea does not usually have its hatch left open; and a man who never went out without a lifejacket in forty years did not go out. **What would explain them:** somebody untied it deliberately, in no hurry, from the pier — which is the one explanation nobody has written down.
+
+**1B** · Sort — a fact, a feeling, or a story?
+> **a feeling** — unlikely · strange · suspect
+> **a fact** — clue · missing · empty · obvious
+> **a story** — theory · mystery
+**A fact always described as a feeling:** *obvious*. Something is either true or not; *obvious* reports how it struck the speaker. Mossie had been saying it must have broken its mooring since nine, before anybody looked at the rope, and he called it obvious.
+
+**2A** · Three explanations 🔊 Track 6.1
+**1** F · **2** T · **3** T · **4** F
+**Table** — It broke its mooring: the boat was adrift and the tide turned at two; against it, the rope was untied with the turns still in it. The engine failed: possible in principle; against it, the tank was almost full and the vessel has not been recovered to check. He took it out: nothing supports it; against it, the lifejacket is on the hook and he had not gone out without it in forty years.
+
+**Noticing, most sure first:** 3 (*can't have*) is nearly impossible — but as a statement the speaker is nearly certain of. **1** *must have* — nearly certain. **4** *it's possible that* — open. **2** *might have been* — open, and the weakest. *(Accept 3 first or 1 first if the learner distinguishes certainty about the event from certainty about its impossibility.)*
+
+**3D** · Use — controlled
+1 must have broken · 2 might have been · 3 can't have taken · 4 could have failed · 5 unlikely · 6 will never know
+
+**3E** · Use — guided
+1 The rope must have broken.  
+2 The current might have taken it.  
+3 He can't have been on board.  
+4 Somebody must have moved it.  
+5 Nobody might have noticed until morning. → better: *It's possible that nobody noticed until morning* / *Nobody may have noticed until morning.*
+
+**5C** · Answer
+1 Half past eleven on the Tuesday, two miles out, drifting east, hatch open, with a fuel can and a coil of rope aboard.  
+2 That it must have broken its mooring. He had been saying it since nine — before anybody had looked at the rope.  
+3 It had not been cut and it had not frayed. It had been **untied**, by somebody who tied things for a living, because the turns were still in it. It matters because it rules out the only theory anybody wants.  
+4 On the hook in the shed, where it had been on Sunday and is now. The insurance man asked whether anybody had actually seen him put it on, on any particular day.  
+5 Because nobody watches a man they have known for forty years put on a lifejacket. The absence of a witness is not evidence of anything, and the question is designed so that it is.  
+6 That the explanation on the form was chosen because it is the cheapest of the three to be true — not because it is the most likely.
+
+**5D** · Vocabulary in context
+**drifting east** — moving with the tide, not under power · **the turns were still in it** — the rope kept the shape of a knot that was undone, not broken · **on the hook** — in its usual place, which is the whole of the evidence · **that is not a theory** — a refusal to have a fact reclassified as an opinion · **the cheapest of the three to be true** — the one that costs the insurer least
+
+**5E** · The counter-text
+1 Three causes; **one** only. Ticking more than one refers the claim and suspends settlement pending survey.  
+2 Box A mooring failure 18,000; Box B mechanical failure 18,000; Box C cause unknown 6,000 — **the lowest**.  
+3 A: the mooring, or a photograph of it. B: an engineer's report on the vessel — which has not been recovered. C: none.  
+4 Box A. Ticked, crossed out, ticked again, then crossed out, with the assessor's note: "Rope untied, not broken. Photographs attached. — A.H." So the honest box is C, and C pays a third.
+
+**6A** · Sort — how certain?
+**Certain → barely possible:** definitely · clearly · obviously · surely · presumably · apparently · possibly.  
+**The two about what other people say:** *apparently* reports somebody else, and *surely* appeals to what everybody would agree — neither is a claim about what the speaker knows. *(Accept* presumably *as a third: it fills a gap with logic rather than knowledge.)*
+
+**6B** · Chunk completion
+1 have · 2 have · 3 have · 4 that · 5 out · 6 settles
+
+**6C** · Two that sound like certainty and are not
+1 **Presumably** — it is in the tide table, so it is logic rather than report. *(Accept* apparently *if the learner reads the table as a source.)*  
+2 **Presumably** — nobody saw it; the hatch is the gap being filled.  
+3 **Apparently** — the harbour master said so, which is exactly what *apparently* reports.
+
+**6D** · Contrast Clinic — must, might or can't
+> **1** must
+> **2** can't
+> **3** might
+> **4** can't
+> **5** must
+> **6** can't
+
+**7C** · Make it mean something
+The contrastive *MUST* has already been contradicted once — you only stress the modal when somebody has pushed back. The weak *must've* is the first time the thought has been said aloud. In the story Mossie is on the stressed version by nine in the morning, which is the detail the narrator's father found interesting.
+
+**12A** · Recycle — ten items
+1 must have broken · 2 can't have been · 3 might have been · 4 out · 5 up · 6 was built *(A2.1 U7)* · 7 told · 8 had already started · 9 were · 10 are not allowed to
+
+
+---
+
+## A2.2 · Unit 7 · This Time Next Year
+
+**0B** · Guess it
+Peadar, the narrator, and one of the two apprentices. Peadar: there is a kitbag by the pier bollard and the Galway boat's name chalked on the shed door. The narrator: she is the only one holding a college envelope. The apprentice: he is standing with the boatyard group and is the one with nothing in his hands — the second berth has not been confirmed.
+
+**1B** · Sort — a thing you get, or a thing you do?
+> **a thing you do** — qualify · apply
+> **a thing you get** — training · promotion · chance · course · contract
+> **both** — plan
+**The one that is both:** *plan*. You make a plan and you are given one — a training plan, a plan for the hall — and people confuse them because *we have a plan* can mean *we decided something* or *somebody handed us a document*.
+
+**2A** · The Galway boat 🔊 Track 7.1
+**1** c) two seasons · **2** c) three weeks at a time · **3** b) at college · **4** a) still waiting
+**Table** — Peadar: will be in Galway, taking a bigger boat out at four; the refit has to be finished first; he is not saying that clause 9 leaves him unpaid from 1 March. Aoife: will be at college in Dublin; nothing has to happen first, which is the point; she is not saying that hers is the only plan with no *if* in it. Sinéad: will be here; the plasterboard has to arrive; she is not saying what happens if the committee stops paying the insurance.
+
+**Noticing** — **The decision:** 1 (*I'll take it*). The other three describe a future that is simply going on.
+
+**3D** · Use — controlled
+1 will be living · 2 will be taking · 3 starts · 4 will be studying · 5 will be · 6 will still be waiting · 7 is not going · 8 will be doing
+
+**3E** · Use — guided
+1 In October I'll be studying on the course.  
+2 Next year he'll be taking a bigger boat out at four.  
+3 This time next year we'll be using the hall. *(or* …we'll still be rebuilding it.*)*  
+4 By then she'll be working in Dublin.  
+5 By Christmas they'll still be waiting for the plasterboard.
+
+**5C** · Answer
+1 In February. If he goes: the boatyard loses its best customer; Tomás's cousin does not take on the two apprentices; and the writer's brother applies to the college in Sligo instead.  
+2 The college in Sligo — which he does not want, and which he will probably get.  
+3 The hall will not reopen until the plasterboard arrives. If it is still shut in January, the committee must decide whether to keep paying insurance on a building nobody can use. If they stop, Sinéad will be running a community with nowhere to put it.  
+4 "I will be at college in Dublin by October."  
+5 Because it is also the only one entirely about her. Putting the certain thing last, after everybody else's conditionals, is a way of not noticing that she is the one with a plan.  
+6 That a small town is not a set of individual plans but one plan with eleven authors, and nobody has the whole document.
+
+**5D** · Vocabulary in context
+**counted it out** — worked through the consequences one by one · **take on** — employ, here the two apprentices · **comes down to** — depends ultimately on · **which he will probably get** — the quiet sting: he will succeed at the thing he does not want · **eleven authors** — the number of people whose decisions are in the plan
+
+**5E** · The counter-text
+1 Experienced hand on an 18 m vessel in Galway; two seasons — twenty months, with no break clause before month ten.  
+2 Twenty-one nights at a time, three weeks on and ten days off. It is in the **contract summary**, not the advert — the advert does not mention nights at all.  
+3 The advert says "accommodation available". The contract says shared, at 140 a month — *available*, not included.  
+4 **Clause 9.** If the vessel's refit is not completed, the start date moves to the first sailing — and the engagement is not paid between 1 March and that date.
+
+**6A** · Sort — soon, far off, or in between?
+> **far off** — in a year's time · this time next · eventually
+> **in between** — ahead · onwards · by then · later
+> **soon** — meanwhile · soon · shortly
+
+**6B** · Chunk completion
+1 next · 2 end · 3 time · 4 work · 5 start · 6 up
+
+**6C** · Three that are not as sure as they sound
+1 *I expect to be finished by March, and I have been wrong about this before.* — *hopefully* hides who is doing the hoping.  
+2 *I think he will take it, though he has not said so.* — *likely* states a probability nobody has measured.  
+3 *The hall will reopen when the plasterboard arrives, and nobody will say when that is.* — *eventually* promises a time and refuses to name one.
+
+**6D** · Contrast Clinic — will, going to, or will be -ing
+> **1** Will … be coming — the future continuous is the polite enquiry, because it asks about an arrangement rather than a decision.
+> **2** will have been waiting — a duration up to a point.
+> **3** 'll get — decided at this moment.
+> **4** 'll be living — an ongoing future.
+> **5** 'm going to apply — a decision already taken.
+> **6** 'll know — states do not take the continuous.
+
+**7C** · Make it mean something
+*I **WILL** be there* is the promise: the stress answers a doubt, and what it offers is the speaker's word. *I'll be there* is the timetable: it reports an arrangement that already exists and asks nobody to trust anything.
+
+**12A** · Recycle — ten items
+1 will be living · 2 will be · 3 Will … be coming · 4 for · 5 up · 6 must have broken · 7 to measure · 8 told · 9 have been waiting · 10 rains
+
+
+---
+
+## A2.2 · Unit 8 · The Only Building Above the Line
+
+**0B** · Guess it
+**Above:** the hall. Its door sill is drawn three steps up from the street and there is no tide mark on it. **Barely below:** the old school. Its sill is one step up and the render carries a faint horizontal line just under the window — the 1.9 metre mark, a hand's width below the glass.
+
+**1B** · Sort — natural, built, or ruined?
+> **natural** — bay · cliff · headland
+> **ruined** — ruin
+> **built** — hall · church · lighthouse · harbour · pier
+**The one in two columns:** *harbour*. It is a natural inlet and a built structure, and the three-hundred-year argument is exactly about which — whether the town made the harbour or the harbour made the town.
+
+**2A** · The tour 🔊 Track 8.1
+**1** F · **2** T · **3** F · **4** T
+**Table** — The hall: 1884, a corn store, became a hall in 1931; the plaque does not say it is the only building above the flood line, that two hundred people were in it on the night, or that there is a proposal to sell it. The pier: 1886, rebuilt 1931; the plaque does not say it was destroyed twice. The ruin: date unknown; there is no plaque at all.
+
+**Noticing** — **Sentence 2** implies there is another hall. The commas in sentence 1 make the clause non-defining: there is one hall, and by the way it was built in 1884. Without them the clause picks out which hall is meant.
+
+**3D** · Use — controlled
+1 which · 2 who · 3 where · 4 of which · 5 of which · 6 which
+
+**3E** · Use — guided
+1 The lighthouse, which was built in 1902, is still working.  
+2 Tomás, who wrote the survey, has been here four years.  
+3 The bay, where the tide comes in fastest, fills in forty minutes.  
+4 There are eleven landmarks, three of which have plaques.  
+5 The old school, whose roof was replaced last year, is empty.
+
+**5C** · Answer
+1 An hour long; it opened in June.  
+2 The plaques are brass, which will outlast the funding; and the text was written by somebody who had read the parish records rather than the tourist board's previous leaflet.  
+3 It gives 1884 as a corn store, 1931 as a hall, and the name of the merchant who paid for it. It does not say that the hall is the only building in the lower town above the 1.9 metre line, that two hundred people were in it on the night of the storm, or that there is a proposal to sell it.  
+4 Two hundred.  
+5 Because a heritage plaque is not a news bulletin and nobody expects it to be. The fault is that the trail is the only written account a visitor will ever read, and it stops in 1931.  
+6 The brass.
+
+**5D** · Vocabulary in context
+**signposted** — marked along the route so you can follow it · **a lie by omission** — true in everything it says and misleading in what it leaves out · **the parish records** — the local written history, as against the tourist leaflet · **a news bulletin** — something the plaque is not, which the reviewer concedes · **it stops in 1931** — the whole criticism, in four words
+
+**5E** · The counter-text
+1 1884 and 1931. The name on it is the Dolan family — presented by them, and built for Dolan & Sons.  
+2 410,000 as is; 180,000 plus a retained upper floor if split into two units. The basis is **vacant possession**, which assumes the community use ends — and there is no valuation anywhere of the building in continued community use.  
+3 4.1 metres above sea level, against a January flood level of 1.9 — and it adds that the site is not within the flood envelope and no flood resilience works are required.  
+4 "Not within the flood envelope" — because it is the only building in the lower town of which that is true, and that is the sentence the plaque leaves out.
+
+**6A** · Sort — adds, contrasts, or changes the subject?
+> **adds** — which is why · moreover · besides · also
+> **contrasts** — actually · although · however
+> **changes the subject** — by the way
+**The one that does two jobs:** *actually*. It contrasts (*actually, it was 1931*) and it changes the subject (*actually, while I think of it…*). *besides* is the second candidate — it adds, and in speech it often dismisses.
+
+**6B** · Chunk completion
+1 of · 2 of · 3 way · 4 why · 5 across · 6 says
+
+**6C** · Three that are not interchangeable
+1 **However** — it joins two sentences, after a full stop or semicolon. *Although* would need one clause, not two sentences; *actually* would correct something nobody said.  
+2 **Although** — it joins two clauses inside one sentence. *However* would leave a comma splice; *actually* would make the first clause a correction.  
+3 **actually** — it corrects the date the listener was about to assume. *However* and *although* would both need a second idea, and there is only one here.
+
+**6D** · Contrast Clinic — commas or no commas
+> **1** **Add commas:** *The hall, which was built in 1884, is the oldest.* There is one hall. Without commas the sentence implies there are others.
+> **2** **Add commas.** There is one pier.
+> **3** **No commas.** The clause identifies which woman.
+> **4** **Add commas.** A name is already unique, so the clause can only be non-defining.
+> **5** **No commas.** The clause says which building.
+> **6** **No commas** — and *that* is right here, because *only* makes the clause defining.
+
+**7C** · Make it mean something
+**With commas:** one brother. **Without:** more than one, and the clause says which. The pause does carry it — most partners get it from the pause alone, and the ones who do not are usually hearing a pause that was not there, which is why the comma has to be on the page.
+
+**12A** · Recycle — ten items
+1 which · 2 who · 3 of which · 4 from · 5 across · 6 will be living · 7 must have broken · 8 told · 9 had already started · 10 who / that
+
+
+---
+
+## A2.2 · Unit 9 · Four Claims, Enough for Three
+
+**0B** · Guess it
+The guest-house owner and the man at the back by the door. The guest-house owner has her claim folder closed on her knee and is the only person not looking at the figures on the board — she has no insurance and has already decided she will not plead for it in a room. The man by the door has brought nothing at all and is standing, which is what people do when they have come to listen rather than to ask.
+
+**1B** · Sort — the money, the process, or the judgement?
+> **the process** — allocate · priority · request
+> **the judgement** — equal · fair · limited
+> **the money** — grant · fund · relief
+**Only a judgement when there is not enough:** *priority*. With enough money it is merely an order of work. With 180,000 against 246,000 it becomes a statement about whose loss matters more, which is why nobody uses the word in the meeting.
+
+**2A** · One hundred and eighty thousand 🔊 Track 9.1
+**1** c) 246,000 · **2** b) Most · **3** b) Neither · **4** a) all four partly
+**Table** — 1: the hall, floor and wiring, 52,000; partly insured; it is the only building the whole town uses. 2: the terrace, four households, 61,500; insured; four families are still displaced. 3: the guest house, 58,000; no insurance; it is somebody's entire income. 4: the boatyard, slip and shed, 67,000; no insurance; eleven jobs depend on it.
+
+**Noticing** — **About money:** 4 (*None of it can be carried over*). You can tell from the verb: *none of it **can***, singular, with an uncountable noun. The other three take plural verbs or *of them*.
+
+**3D** · Use — controlled
+1 None · 2 Most · 3 neither · 4 None · 5 all · 6 some · 7 all
+
+**3E** · Use — guided
+1 **None** — zero out of more than two. *Neither* would need exactly two.  
+2 **Neither** — zero out of exactly two. *None* is possible and loses the two-ness.  
+3 **Most** — more than half. *Both* would need two; *all* would be too strong.  
+4 **Some** — a bit, but not much. *(Accept* a little*.)* *Any* would need a negative or a question.  
+5 **Either** — one or the other of exactly two. *Both* would mean the committee must take the pair.
+
+**5C** · Answer
+1 €180,000; €246,000 asked for; four claims.  
+2 Forty-five thousand each leaves two of them with less than half of what they need, which means neither of those two can start work at all. Equal shares of an insufficient sum can be the least useful way of spending it.  
+3 Whoever estimated most optimistically in March.  
+4 Because it requires saying out loud that the other two matter less.  
+5 **First come.** Two of the four submitted in March and have been quietly assumed into the budget ever since.  
+6 That picking none of the four and splitting the difference is also a choice — and the only one that nobody will later be able to explain.
+
+**5D** · Vocabulary in context
+**defensible** — able to be justified if challenged, which is not the same as right · **an insufficient sum** — not enough, whatever you do with it · **optimistically** — high, in March, when nobody knew · **privately believe in** — think is right and will not say · **splitting the difference** — taking a middle course with no principle behind it
+
+**5E** · The counter-text
+1 Claim 1, the hall floor and wiring, 52,000. Claim 2, the terrace, four households, 61,500. Claim 3, the guest house, 58,000. Claim 4, the boatyard slip and shed, 67,000. Total 238,500 — a shortfall of 58,500.  
+2 **Claim 2**, by 7,500 — from 69,000 in March to 61,500 in April. The reduction is not minuted, and the margin note says he found a cheaper contractor and nobody asked him to.  
+3 8,000 held, none of it spent. **Nothing may be carried over:** any sum unspent at 31 December returns to the county.  
+4 Which claims are insured — claims 1 and 2 yes, claims 3 and 4 no. It is the column the *by need* argument rests on, and it is the only column the reading never quotes.
+
+**6A** · Sort — countable or uncountable?
+> **countable** — requests · claims · dehumidifiers · forms · people
+> **uncountable** — supply · fuel · funding · money · relief
+**Quantifiers:** *many / a few / several* with the countable column; *much / a little / a great deal of* with the uncountable one. *supply* is countable in the plural (*supplies ran out*), which is the one worth arguing about.
+
+**6B** · Chunk completion
+1 of · 2 of · 3 of · 4 of · 5 up · 6 not
+
+**6C** · Three that are only ever about two
+1 ✗ *Both of the four* → **Two of the four claims are from businesses.** *Both* takes exactly two.  
+2 ✗ *Neither of the three* → **None of the three has insurance.**  
+3 ✓ **Already correct.**  
+4 ✗ *Neither of them have* → **Neither of them has replied.** *Neither* takes a singular verb in careful written English.
+
+**6D** · Contrast Clinic — which quantifier
+> **1** Either
+> **2** all
+> **3** Most
+> **4** Neither
+> **5** None
+> **6** None
+
+**7C** · Make it mean something
+*We funded **THREE** of them* answers an accusation — somebody has said the committee funded fewer, or none, and the stress corrects the number. *We funded three of **THEM*** corrects who, not how many, and is answering a different accusation: that the money went somewhere else.
+
+**12A** · Recycle — ten items
+1 All · 2 None · 3 Neither · 4 out · 5 round · 6 which · 7 will be living · 8 must have broken · 9 told · 10 so
+
+
+---
+
+## A2.2 · Unit 10 · The Town That Came Back
+
+**0B** · Guess it
+The tide mark on the hall wall. Everything else has been painted over, and that one line has been cut round — you can see the brush edge above and below it. **Who decided:** the committee, at the meeting where they voted to keep the hall. Nothing in the picture says so, and the brush edge says somebody was told not to paint it.
+
+**1B** · Sort — about a person, a place, or both?
+> **about a person** — identity · newcomer · reputation · outsider
+> **both** — belong · memory
+> **about a place** — local · community
+**Given to you by other people, always:** *reputation*. You cannot have one by yourself. *(Accept* outsider *for the same reason — it is a status conferred, never claimed.)*
+
+**2A** · The brochure 🔊 Track 10.1
+**1** c) three years · **2** c) incomplete · **3** b) add a page · **4** a) a public meeting
+**Table** — The agency wants the line and three years of use; it is afraid of a town that argues with its own campaign. Sinéad wants the visitors and the money; she is afraid of the hall closing before the plasterboard arrives. Eimear wants the seven households in the story; she is afraid of a town that spent a year insisting on accurate times agreeing to a sentence it would not accept about anybody else.
+
+**Noticing** — **Any town:** 1 and 3. **This one:** 2 and 4. The word doing the work is **the**.
+
+**3D** · Use — controlled
+1 An / The · 2 a · 3 The · 4 a · 5 the · 6 the · 7 the
+
+**3E** · Use — guided
+1 The water came in at about ten. *(this water)*  
+2 — *(nothing)* Water is heavier than people think. *(water in general)*  
+3 She wrote a letter. The letter was two pages long.  
+4 — *(nothing)* Truth matters.  
+5 The truth about the drain took fourteen months.  
+6 It is a story about a town, not the story of this one.
+
+**5C** · Answer
+1 Because the photographs are of real people doing real things, nobody is pretending the hall is finished, and the line is three years of unpaid work.  
+2 From somebody in the town, in the hall, in February. Nobody wrote down who.  
+3 Seven of fifty-one. Two sold, two were bought out, and three are simply not here with the houses shut.  
+4 Fourteen per cent. Nobody markets a place with a number like that, and the people who left are not available to be photographed.  
+5 The town did come back — with seven households fewer, a sea wall decision it has not made, and a hall it has decided to keep without quite saying why. *Came back* is true and is not the whole of it.  
+6 That the story is true and is also an edit — and it is aimed at the town itself, which has spent a year insisting on accurate times and is about to accept a sentence about itself it would not accept about anybody else.
+
+**5D** · Vocabulary in context
+**the cynical one** — the easy article the writer refuses to write · **bought out** — paid to leave, which is not the same as selling · **an edit** — a true account with things taken out · **insisting on** — demanding, over a year, which is what makes the acceptance awkward · **available to be photographed** — the quiet reason the seven are missing from the brochure
+
+**5E** · The counter-text
+1 "THE TOWN THAT CAME BACK", with six photographs.  
+2 **Appear:** 51 households, 8 months, 200 people, 1884. **Do not:** the seven households who have gone, the fourteen per cent, and anything about how far from finished the hall is.  
+3 "Campaign funded by the county council and the regional tourism fund. Photographs by residents."  
+4 Photograph 4: "the hall, in use again". The hall is in use and is not finished — and no caption anywhere says it is finished, which is how the page stays true.
+
+**6A** · Sort — concrete or abstract?
+> **abstract** — change · identity · reputation · truth · community · memory
+> **concrete** — boat · wall · pier · hall
+**Articles:** the concrete nouns take *a/the* freely. The abstract ones take no article when general (*truth matters*) and *the* when particular (*the truth about that night*).  
+**Two abstract ones that can be concrete:** *community* — *a community of fifty-one households* is a countable group of people. *change* — *have you got change?* and *a change of clothes* are both physical.
+
+**6B** · Chunk completion
+1 thing · 2 of · 3 who · 4 end · 5 up · 6 that
+
+**6C** · Abstract nouns and the article
+**memory:** *Memory is unreliable.* · *The memory of that night is unreliable.* · *A memory nobody else has.*  
+**change:** *Change is slow.* · *The change in the harbour took eleven years.* · *A change that nobody voted for.*  
+**community:** *Community is what kept the hall open.* · *The community in the lower town is smaller now.* · *A community of fifty-one households.*
+
+**6D** · Contrast Clinic — a, the, or nothing
+> **1** the
+> **2** The
+> **3** The
+> **4** — *(nothing)*
+> **5** a / a
+> **6** — *(nothing)*
+
+**7C** · Make it mean something
+The second claims the town as the subject of a known story rather than an example of a kind. *The* asserts that both the story and the town are already identified — which is exactly what a campaign is for, and exactly what Eimear objects to, because it makes one account the account.
+
+**12A** · Recycle — ten items
+1 The · 2 — *(nothing)* · 3 a / a · 4 them · 5 that · 6 Neither · 7 which · 8 will be living *(Unit 7)* · 9 had already started · 10 is
+
 
 
