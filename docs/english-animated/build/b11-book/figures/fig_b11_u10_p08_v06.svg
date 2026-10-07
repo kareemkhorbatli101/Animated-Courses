@@ -40,10 +40,10 @@
 <text x="858.3333333333334" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">notice value</text>
 <text x="1055.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Tuesdays lost</text>
 <text x="1251.6666666666665" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">net</text>
-<rect x="170" y="670" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The Tuesday figure is an estimate. Nobody has asked her what she earns on a Tuesday.</text>
-<text x="170" y="744.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The first three bars are costed and are in the covering email. The fourth is the other work</text>
-<text x="170" y="765.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">she does on Tuesdays and Thursdays, which the agreement does not mention and which nobody</text>
-<text x="170" y="787.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">has priced. It is the largest single number on the chart after the starting value.</text>
+<rect x="170" y="670" width="1180" height="43.75" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The Tuesday figure is an estimate. Nobody has asked her what she earns on a Tuesday.</text>
+<text x="170" y="749.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The first three bars are costed and are in the covering email. The fourth is the other work</text>
+<text x="170" y="771.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">she does on Tuesdays and Thursdays, which the agreement does not mention and which nobody</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">has priced. It is the largest single number on the chart after the starting value.</text>
 </g>
 </svg>

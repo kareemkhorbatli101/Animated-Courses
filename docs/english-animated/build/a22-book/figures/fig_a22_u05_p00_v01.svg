@@ -194,19 +194,19 @@
 <text x="270.0" y="336" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the council office</text>
 <text x="760.0" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the harbour hut</text>
 <text x="1290.0" y="336" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the flood plain terrace</text>
-<line x1="170" y1="666" x2="170" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="170" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Tomas, six weeks of doors</text>
-<line x1="430" y1="666" x2="430" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="430" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Aoife, recording consent</text>
+<line x1="120" y1="666" x2="120" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="120" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">fifty-one households</text>
+<line x1="170" y1="666" x2="170" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="170" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Tomas, six weeks of doors</text>
+<line x1="430" y1="666" x2="430" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="430" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Aoife, recording consent</text>
 <line x1="700" y1="666" x2="700" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="700" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the harbour master, not on the list</text>
+<line x1="980" y1="666" x2="980" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="980" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the drawings, in a drawer</text>
 <line x1="1080" y1="666" x2="1080" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1080" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sinead, household 31</text>
 <line x1="1420" y1="666" x2="1420" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1420" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Donal, household 9</text>
-<line x1="120" y1="666" x2="120" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="120" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">fifty-one households</text>
-<line x1="980" y1="666" x2="980" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="980" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the drawings, in a drawer</text>
 </g>
 </svg>

@@ -36,9 +36,10 @@
 <text x="858.3333333333334" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">10 m in</text>
 <text x="1055.0" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">14 m in</text>
 <text x="1251.6666666666665" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">far end</text>
-<rect x="170" y="630" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="655" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Farah is at six metres. So the pitch, not the trader, is most of the difference between her and everybody else.</text>
-<text x="170" y="704.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The corner takes forty per cent more than a pitch six metres in. After ten metres the line</text>
-<text x="170" y="725.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">is almost flat - the damage is all done in the first few steps.</text>
+<rect x="170" y="630" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="657.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Farah is at six metres. So the pitch, not the trader, is most of the difference between her and</text>
+<text x="186" y="678.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">everybody else.</text>
+<text x="170" y="731.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The corner takes forty per cent more than a pitch six metres in. After ten metres the line</text>
+<text x="170" y="753.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">is almost flat - the damage is all done in the first few steps.</text>
 </g>
 </svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The same finding, two registers</title>
+<desc>Two panels compared: a technical sentence with a measured range and a popular version in which the range has quietly disappeared.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">for the journal</text>
+<rect x="820.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">for a newspaper</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="602" x2="760.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="80.0" y="552" width="240" height="20" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="100.0" y="516" width="200" height="20" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="120.0" y="480" width="160" height="20" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="360.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Q10 of 2.1, across 8-24 °C</text>
+<line x1="840.0" y1="602" x2="1520.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="840.0" y="552" width="240" height="20" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="860.0" y="516" width="200" height="20" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="880.0" y="480" width="160" height="20" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="1120.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">&quot;doubles with every ten degrees&quot; - and no range</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The same finding, two registers</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the technical version. Learner B has the version for a newspaper.</text>
+<text x="800.0" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which fact has quietly changed, and is the change an error or a simplification?</text>
+<text x="800.0" y="726" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

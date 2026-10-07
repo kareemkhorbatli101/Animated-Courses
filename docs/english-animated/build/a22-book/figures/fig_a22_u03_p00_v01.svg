@@ -184,19 +184,19 @@
 <text x="670.0" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#E3EAEC" text-anchor="middle" font-weight="600" font-style="normal">the hall - lights on</text>
 <text x="1030.0" y="336" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#E3EAEC" text-anchor="middle" font-weight="600" font-style="normal">9 Strand Road</text>
 <text x="1405.0" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#E3EAEC" text-anchor="middle" font-weight="600" font-style="normal">the harbour wall</text>
-<line x1="230" y1="666" x2="230" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="230" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Eimear - the drain in her yard</text>
-<line x1="420" y1="666" x2="420" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="420" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Donal - car already gone</text>
+<line x1="120" y1="666" x2="120" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="120" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the church clock</text>
+<line x1="230" y1="666" x2="230" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="230" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Eimear - the drain in her yard</text>
+<line x1="420" y1="666" x2="420" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="420" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Donal - car already gone</text>
 <line x1="620" y1="666" x2="620" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="620" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sinead - opening the hall</text>
-<line x1="860" y1="666" x2="860" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="860" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Peadar - watching the tide</text>
+<line x1="860" y1="666" x2="860" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="860" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Peadar - watching the tide</text>
 <line x1="1300" y1="666" x2="1300" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1300" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Aoife - filming, 22.40</text>
-<line x1="120" y1="666" x2="120" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="120" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the church clock</text>
-<line x1="1420" y1="666" x2="1420" y2="694" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="1420" y="710" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the revised surge</text>
+<line x1="1420" y1="666" x2="1420" y2="724" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="1420" y="740" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the revised surge</text>
 </g>
 </svg>

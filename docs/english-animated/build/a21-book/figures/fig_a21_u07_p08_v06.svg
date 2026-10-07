@@ -36,9 +36,9 @@
 <text x="858.3333333333334" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">beans</text>
 <text x="1055.0" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">cabbage</text>
 <text x="1251.6666666666665" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">garlic</text>
-<rect x="170" y="630" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="655" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The sign over all of them says LOCAL, which is not defined in law and so cannot be wrong.</text>
-<text x="170" y="704.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Three products travel less than 250 km. One travels more than four thousand, and its label</text>
-<text x="170" y="725.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">gives a town thirty-eight kilometres away.</text>
+<rect x="170" y="630" width="1180" height="43.75" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="657.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The sign over all of them says LOCAL, which is not defined in law and so cannot be wrong.</text>
+<text x="170" y="709.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Three products travel less than 250 km. One travels more than four thousand, and its label</text>
+<text x="170" y="731.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">gives a town thirty-eight kilometres away.</text>
 </g>
 </svg>

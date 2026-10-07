@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The question operation, used for emphasis</title>
+<desc>Two sentence diagrams comparing I have never been so clear with never have I been so clear, showing the auxiliary moving in front of the subject.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="192.6046511627907" height="52" rx="5" fill="#C86B2B"/>
+<text x="256.30232558139534" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<rect x="358.6046511627907" y="144" width="277.72093023255815" height="52" rx="5" fill="#1F4E5F"/>
+<text x="497.4651162790698" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">have never been</text>
+<rect x="642.3255813953488" y="144" width="391.2093023255814" height="52" rx="5" fill="#2E6F5E"/>
+<text x="837.9302325581394" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">so clear</text>
+<rect x="1039.53488372093" y="144" width="334.4651162790698" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1206.767441860465" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">ordinary order - no emphasis</text>
+<rect x="160" y="344" width="220.97674418604652" height="52" rx="5" fill="#2E6F5E"/>
+<text x="270.48837209302326" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">Never</text>
+<rect x="386.9767441860465" y="344" width="220.97674418604652" height="52" rx="5" fill="#1F4E5F"/>
+<text x="497.4651162790698" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">have</text>
+<rect x="613.953488372093" y="344" width="192.6046511627907" height="52" rx="5" fill="#C86B2B"/>
+<text x="710.2558139534884" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<rect x="812.5581395348837" y="344" width="277.72093023255815" height="52" rx="5" fill="#1F4E5F"/>
+<text x="951.4186046511628" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">been so clear</text>
+<rect x="1096.2790697674418" y="344" width="277.72093023255815" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1235.139534883721" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">and a pause after Never</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The question operation, used for emphasis</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Front the negative and the sentence inverts exactly as a question does.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">ACTIVE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">PASSIVE</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same event, different first word</text>
+<rect x="160" y="560.75" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
+<text x="184" y="587.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The auxiliary moves in front of the subject, exactly as in a question. If there is no</text>
+<text x="184" y="609.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">auxiliary, English supplies do or did: nobody asked becomes not until Friday did anybody</text>
+<text x="184" y="631.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">ask. No sooner takes than, never when.</text>
+</g>
+</svg>

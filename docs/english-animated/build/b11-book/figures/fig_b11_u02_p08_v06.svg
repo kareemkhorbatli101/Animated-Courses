@@ -43,9 +43,9 @@
 <text x="928.5714285714287" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">labour</text>
 <text x="1097.142857142857" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">overheads</text>
 <text x="1265.7142857142858" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what is left</text>
-<rect x="170" y="610" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="635" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Eleven hours of sampling are not on this chart, because nobody paid for them.</text>
-<text x="170" y="684.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Labour is the largest single line and the first one a buyer asks to reduce. Cloth is the</text>
-<text x="170" y="705.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">largest they never mention, because it is the only one with a public price.</text>
+<rect x="170" y="610" width="1180" height="43.75" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="637.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Eleven hours of sampling are not on this chart, because nobody paid for them.</text>
+<text x="170" y="689.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Labour is the largest single line and the first one a buyer asks to reduce. Cloth is the</text>
+<text x="170" y="711.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">largest they never mention, because it is the only one with a public price.</text>
 </g>
 </svg>

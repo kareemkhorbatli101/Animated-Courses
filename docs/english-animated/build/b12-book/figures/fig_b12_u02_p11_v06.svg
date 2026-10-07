@@ -44,9 +44,10 @@
 <text x="878.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">yr 4</text>
 <text x="1114.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">yr 5</text>
 <text x="1350.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">this yr</text>
-<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Both sides of this argument have been quoting one of these two lines for four years. Nobody had put them on the same chart.</text>
-<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Reports fell by nearly two thirds when signatures were introduced. Actions rose, because a</text>
-<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">named report can be followed up and an anonymous one cannot.</text>
+<rect x="170" y="650" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="677.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Both sides of this argument have been quoting one of these two lines for four years. Nobody had put</text>
+<text x="186" y="698.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">them on the same chart.</text>
+<text x="170" y="751.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Reports fell by nearly two thirds when signatures were introduced. Actions rose, because a</text>
+<text x="170" y="773.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">named report can be followed up and an anonymous one cannot.</text>
 </g>
 </svg>

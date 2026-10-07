@@ -65,9 +65,9 @@
 <text x="956.6666666666666" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 4</text>
 <text x="1153.3333333333333" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 5</text>
 <text x="1350.0" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 6</text>
-<rect x="170" y="670" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="695" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The override line going to zero is not good news. It means people stopped asking.</text>
-<text x="170" y="744.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The first two lines are what the system was built to improve, and it improved them. The</text>
-<text x="170" y="765.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">fourth line was not in the specification, so for six weeks nobody was looking at it.</text>
+<rect x="170" y="670" width="1180" height="43.75" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The override line going to zero is not good news. It means people stopped asking.</text>
+<text x="170" y="749.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The first two lines are what the system was built to improve, and it improved them. The</text>
+<text x="170" y="771.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">fourth line was not in the specification, so for six weeks nobody was looking at it.</text>
 </g>
 </svg>

@@ -38,9 +38,10 @@
 <text x="612.5" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">applicants/post</text>
 <text x="907.5" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">attrition at 4 yr</text>
 <text x="1202.5" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">attrition at 8 yr</text>
-<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Nine unfilled posts and thirty-one per cent attrition is one number, not two. The second causes the first, and only the first is ever advertised.</text>
-<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The shortage speciality fills about one post in four and loses a third of those who take one</text>
-<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">within four years. Recruiting harder into it has been tried twice.</text>
+<rect x="170" y="650" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="677.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Nine unfilled posts and thirty-one per cent attrition is one number, not two. The second causes the</text>
+<text x="186" y="698.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">first, and only the first is ever advertised.</text>
+<text x="170" y="751.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The shortage speciality fills about one post in four and loses a third of those who take one</text>
+<text x="170" y="773.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">within four years. Recruiting harder into it has been tried twice.</text>
 </g>
 </svg>

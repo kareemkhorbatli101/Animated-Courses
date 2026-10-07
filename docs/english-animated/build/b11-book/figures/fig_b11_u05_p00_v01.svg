@@ -150,13 +150,13 @@
 <rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The shared office, Monday, 08.20</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Two rotas in this room. They do not match. One of them is the one people follow.</text>
-<rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1408" y="180.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="199.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">storage</text>
-<rect x="1354" y="330.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1408" y="330.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="349.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">studios</text>
-<rect x="1354" y="480.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1315.84" y="480.0" width="212.16000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="499.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">THE WORKSPACE — eleven desks</text>
-<rect x="1354" y="630.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1408" y="630.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="649.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">entrance</text>
 <line x1="250" y1="726" x2="250" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="250" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">whiteboard rota — hand-edited</text>
@@ -164,11 +164,11 @@
 <text x="430" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Grace, four Sundays running</text>
 <line x1="600" y1="726" x2="600" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="600" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Tom, who built it</text>
-<line x1="940" y1="726" x2="940" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="940" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the screen rota</text>
+<line x1="940" y1="726" x2="940" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="940" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the screen rota</text>
 <line x1="1230" y1="726" x2="1230" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1230" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">sign-in sheet</text>
-<line x1="1450" y1="726" x2="1450" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="1450" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">key board</text>
+<line x1="1450" y1="726" x2="1450" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="1450" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">key board</text>
 </g>
 </svg>

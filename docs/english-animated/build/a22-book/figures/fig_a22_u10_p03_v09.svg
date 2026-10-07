@@ -19,13 +19,15 @@
 <text x="1312.2222222222222" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">back</text>
 <path d="M 166.0 324.0 L 166.0 338.0 L 696.2222222222222 338.0 L 696.2222222222222 324.0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 843.7777777777777 324.0 L 843.7777777777777 338.0 L 1374.0 338.0 L 1374.0 324.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M 843.7777777777777 378.0 L 843.7777777777777 392.0 L 967.3333333333333 392.0 L 967.3333333333333 378.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 843.7777777777777 376.0 L 843.7777777777777 390.0 L 967.3333333333333 390.0 L 967.3333333333333 376.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One word, two towns</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The only difference between these two sentences is an article, and they are about different places.</text>
 <text x="431.1111111111111" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">any town. A general claim</text>
 <text x="1108.888888888889" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">this one, and we both know which</text>
-<text x="905.5555555555554" y="416.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">one word, and the whole argument is here</text>
+<text x="905.5555555555554" y="414.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">one word, and the</text>
+<text x="905.5555555555554" y="433.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">whole argument is</text>
+<text x="905.5555555555554" y="453.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">here</text>
 </g>
 </svg>

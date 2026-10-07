@@ -28,8 +28,8 @@
 <text x="648.0" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I've worked here for three years.</text>
 <text x="257.6" y="162" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">SINCE - a point</text>
 <text x="257.6" y="184" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">since 1995  |  FOR - a length: for three years</text>
-<rect x="160" y="584" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
-<text x="184" y="608.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">since + a point (1995, Monday, I was ten). for + a length (three years, two weeks). Never</text>
-<text x="184" y="629.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">since three years.</text>
+<rect x="160" y="562.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="589.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">since + a point (1995, Monday, I was ten). for + a length (three years, two weeks). Never</text>
+<text x="184" y="611.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">since three years.</text>
 </g>
 </svg>

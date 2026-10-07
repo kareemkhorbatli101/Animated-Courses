@@ -38,9 +38,10 @@
 <text x="612.5" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">B: radio programme</text>
 <text x="907.5" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">C: hall filling</text>
 <text x="1202.5" y="598" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">metadata</text>
-<rect x="170" y="630" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="655" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Being right and being careful are not the same thing here, and a report that only prints the times makes the careful one look worst.</text>
-<text x="170" y="704.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Resident B gave the closest time and had the largest instrument error. Resident A gave the</text>
-<text x="170" y="725.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">furthest time and had checked an actual clock.</text>
+<rect x="170" y="630" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="657.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Being right and being careful are not the same thing here, and a report that only prints the times</text>
+<text x="186" y="678.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">makes the careful one look worst.</text>
+<text x="170" y="731.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Resident B gave the closest time and had the largest instrument error. Resident A gave the</text>
+<text x="170" y="753.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">furthest time and had checked an actual clock.</text>
 </g>
 </svg>

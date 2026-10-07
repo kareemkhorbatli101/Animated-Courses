@@ -134,22 +134,22 @@
 <rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The notices in Jengo House</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Sixteen notices in this building. Three have been ignored for over a year.</text>
-<rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1329.28" y="180.0" width="198.72000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="199.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">storage — one notice, 2014</text>
-<rect x="1354" y="330.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1322.56" y="330.0" width="205.44000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="349.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">studios — fire door propped</text>
-<rect x="1354" y="480.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1315.84" y="480.0" width="212.16000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="499.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the workspace — kitchen rota</text>
-<rect x="1354" y="630.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1322.56" y="630.0" width="205.44000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="649.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">entrance — the rules notice</text>
 <line x1="200" y1="726" x2="200" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="200" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the rules notice, 2019</text>
-<line x1="455" y1="726" x2="455" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="455" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stored against the door</text>
+<line x1="455" y1="726" x2="455" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="455" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stored against the door</text>
 <line x1="640" y1="726" x2="640" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="640" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Wanjiru</text>
-<line x1="900" y1="726" x2="900" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="900" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the desk</text>
+<line x1="900" y1="726" x2="900" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="900" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the desk</text>
 <line x1="1240" y1="726" x2="1240" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1240" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">extinguisher, used as a wedge</text>
 <line x1="1430" y1="726" x2="1430" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>

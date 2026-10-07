@@ -44,9 +44,10 @@
 <text x="878.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">yr 3</text>
 <text x="1114.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">yr 4</text>
 <text x="1350.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">yr 5</text>
-<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The two lines are drawn from the same baseline and differ only in one cell of one spreadsheet, which has not been reviewed since 2019.</text>
-<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The gap is 371 after one year, 790 after two and 1,263 after three. The new ward adds</text>
-<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">capacity for 600.</text>
+<rect x="170" y="650" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="677.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The two lines are drawn from the same baseline and differ only in one cell of one spreadsheet, which</text>
+<text x="186" y="698.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">has not been reviewed since 2019.</text>
+<text x="170" y="751.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The gap is 371 after one year, 790 after two and 1,263 after three. The new ward adds</text>
+<text x="170" y="773.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">capacity for 600.</text>
 </g>
 </svg>

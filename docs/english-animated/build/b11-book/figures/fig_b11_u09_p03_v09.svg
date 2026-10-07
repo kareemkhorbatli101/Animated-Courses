@@ -35,8 +35,8 @@
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The reported words do not change. The verb changes what the reader concludes.</text>
 <text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">the writer agrees</text>
 <text x="590.0" y="706" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">the writer disagrees</text>
-<rect x="160" y="704" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
-<text x="184" y="728.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Change one verb and the reader concludes something different, with no reported word altered.</text>
-<text x="184" y="749.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">It is an edit that leaves no fingerprint.</text>
+<rect x="160" y="682.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="709.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Change one verb and the reader concludes something different, with no reported word altered.</text>
+<text x="184" y="731.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">It is an edit that leaves no fingerprint.</text>
 </g>
 </svg>

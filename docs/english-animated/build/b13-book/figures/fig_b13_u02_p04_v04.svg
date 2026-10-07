@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The access statement, and the tape measure</title>
+<desc>Two panels compared: a printed access statement listing step-free entrances and an audit sheet with measurements and a photograph of a plant room.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the access statement, as published</text>
+<rect x="820.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the audit sheet, Thursday</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="602" x2="760.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="80.0" y="558" width="240" height="24" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="100.0" y="516" width="200" height="24" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="85.0" y="474" width="230" height="24" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="115.0" y="432" width="170" height="24" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="360.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">&quot;Step-free entrances to all teaching buildings&quot;</text>
+<line x1="840.0" y1="602" x2="1520.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="970.0" cy="603.9058823529411" rx="13.976470588235294" ry="3.176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 964.2823529411764 602 L 965.5529411764705 552.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 975.7176470588236 602 L 974.4470588235295 552.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 970.0 519.4117647058823 L 970.0 554.8611764705882" fill="none" stroke="#C86B2B" stroke-width="15.24705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 957.9294117647058 520.0470588235294 L 982.0705882352942 520.0470588235294" fill="none" stroke="#C86B2B" stroke-width="8.258823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 957.9294117647058 521.3176470588235 L 956.0235294117647 558.6729411764707" fill="none" stroke="#C86B2B" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="956.0235294117647" cy="560.5788235294118" r="3.176470588235294" fill="#E8C39E"/>
+<path d="M 982.0705882352942 521.3176470588235 L 983.9764705882353 558.6729411764707" fill="none" stroke="#C86B2B" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="983.9764705882353" cy="560.5788235294118" r="3.176470588235294" fill="#E8C39E"/>
+<path d="M 970.0 516.235294117647 L 970.0 513.0588235294117" fill="none" stroke="#E8C39E" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="970.0" cy="504.79999999999995" r="9.529411764705882" fill="#E8C39E"/>
+<path d="M 960.4705882352941 503.52941176470586 A 9.529411764705882 9.529411764705882 0 0 1 979.5294117647059 503.52941176470586" fill="none" stroke="#2A2320" stroke-width="4.447058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="966.8235294117648" cy="505.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<circle cx="973.1764705882352" cy="505.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<path d="M 967.4588235294118 509.8823529411764 Q 970.0 511.15294117647056 972.5411764705882 509.8823529411764" fill="none" stroke="#8A5A48" stroke-width="1.016470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1032.0" y="502" width="56" height="86" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<rect x="1112.0" y="496" width="56" height="46" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="1120.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">1:11 · 44 N · six steps · a plant room</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The access statement, and the tape measure</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the statement. Learner B has the audit. Four claims do not survive.</text>
+<text x="800.0" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which four claims does the audit contradict, and which one is only misleading rather than false?</text>
+<text x="800.0" y="726" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

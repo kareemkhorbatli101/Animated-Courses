@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The same four seconds, told two ways</title>
+<desc>Two panels compared: a story that plants a detail early and one that explains everything at the end.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">planted early, used late</text>
+<rect x="820.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">explained at the end</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="602" x2="760.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="85.0" y="436" width="230" height="26" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="165.0" y="480" width="70" height="26" rx="0" fill="#D9A441" stroke="#1C2B33" stroke-width="1.6"/>
+<ellipse cx="460.0" cy="603.8705882352941" rx="13.71764705882353" ry="3.1176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 454.38823529411764 602 L 455.63529411764705 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 465.61176470588236 602 L 464.36470588235295 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 460.0 520.9411764705883 L 460.0 555.7341176470588" fill="none" stroke="#1F4E5F" stroke-width="14.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 448.15294117647056 521.564705882353 L 471.84705882352944 521.564705882353" fill="none" stroke="#1F4E5F" stroke-width="8.105882352941176" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 448.15294117647056 522.8117647058824 L 446.28235294117644 559.4752941176471" fill="none" stroke="#1F4E5F" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="446.28235294117644" cy="561.3458823529412" r="3.1176470588235294" fill="#6B4229"/>
+<path d="M 471.84705882352944 522.8117647058824 L 473.71764705882356 559.4752941176471" fill="none" stroke="#1F4E5F" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="473.71764705882356" cy="561.3458823529412" r="3.1176470588235294" fill="#6B4229"/>
+<path d="M 460.0 517.8235294117648 L 460.0 514.7058823529412" fill="none" stroke="#6B4229" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="460.0" cy="506.6" r="9.352941176470589" fill="#6B4229"/>
+<path d="M 450.6470588235294 505.3529411764706 A 9.352941176470589 9.352941176470589 0 0 1 469.3529411764706 505.3529411764706" fill="none" stroke="#2A2320" stroke-width="4.364705882352942" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="456.88235294117646" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<circle cx="463.11764705882354" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<path d="M 457.50588235294117 511.5882352941177 Q 460.0 512.8352941176471 462.49411764705883 511.5882352941177" fill="none" stroke="#8A5A48" stroke-width="0.9976470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">four seconds, given as background in line 3</text>
+<line x1="840.0" y1="602" x2="1520.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="845.0" y="436" width="230" height="26" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="845.0" y="480" width="230" height="26" rx="0" fill="#A8372E" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="1195.0" y="502" width="50" height="84" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="1120.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">&quot;which was unfortunate, given that he was capable&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The same four seconds, told two ways</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has the first half. Learner B has the last line.</text>
+<text x="800.0" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Where does the second version tell the reader what to feel, and what does the first one do instead?</text>
+<text x="800.0" y="726" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

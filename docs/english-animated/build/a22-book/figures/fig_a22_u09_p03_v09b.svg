@@ -18,13 +18,15 @@
 <text x="1303.75" y="290.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">them</text>
 <path d="M 166.0 324.0 L 166.0 338.0 L 764.0 338.0 L 764.0 324.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 928.5 324.0 L 928.5 338.0 L 1374.0 338.0 L 1374.0 324.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M 623.5 378.0 L 623.5 392.0 L 764.0 392.0 L 764.0 378.0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 623.5 376.0 L 623.5 390.0 L 764.0 390.0 L 764.0 376.0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Where of is compulsory</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three slots, and only one of them can be empty.</text>
 <text x="465.0" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">before THE: of is optional</text>
 <text x="1151.25" y="362.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">before a pronoun: of is compulsory</text>
-<text x="693.75" y="416.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">all claims (no of, no the) = every claim anywhere</text>
+<text x="693.75" y="414.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">all claims (no of,</text>
+<text x="693.75" y="433.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">no the) = every</text>
+<text x="693.75" y="453.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">claim anywhere</text>
 </g>
 </svg>

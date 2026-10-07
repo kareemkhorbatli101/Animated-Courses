@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>One seminar, twelve weeks</title>
+<desc>An infographic across twelve weeks showing airtime, the number of students speaking, the format change in week ten and the committee deadline.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">The format</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Marcus</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What happened</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Students who</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">spoke, of</text>
+<text x="52" y="654.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">eleven</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="730" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="764.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What nobody</text>
+<text x="52" y="784.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">did</text>
+<line x1="150" y1="850" x2="1450" y2="850" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="858.0" height="50" rx="4" fill="#9AA7AE" opacity="0.9"/>
+<rect x="1008.0" y="166" width="260.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="1268.0" y="166" width="182.0" height="50" rx="4" fill="#A8372E" opacity="0.9"/>
+<rect x="150.0" y="316" width="182.0" height="50" rx="4" fill="#D9A441" opacity="0.9"/>
+<rect x="332.0" y="316" width="676.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="1008.0" y="316" width="260.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<circle cx="280.0" cy="490" r="10" fill="#D9A441"/>
+<line x1="280.0" y1="490" x2="280.0" y2="550" stroke="#D9A441" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="722.0" cy="490" r="10" fill="#A8372E"/>
+<line x1="722.0" y1="490" x2="722.0" y2="550" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1034.0" cy="490" r="10" fill="#2E6F5E"/>
+<line x1="1034.0" y1="490" x2="1034.0" y2="550" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1190.0" cy="490" r="10" fill="#8C6A9E"/>
+<line x1="1190.0" y1="490" x2="1190.0" y2="550" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1385.0" cy="490" r="10" fill="#A8372E"/>
+<line x1="1385.0" y1="490" x2="1385.0" y2="550" stroke="#A8372E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 150 629 L 332 653 L 722 690 L 1060 629 L 1268 604 L 1450 690" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="628.571428580204" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="332.0" cy="653.1428571481224" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="722.0" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1060.0" cy="628.571428580204" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1268.0" cy="604.0000000122857" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="436.0" y1="766" x2="436.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="436.0,766 488.0,778 436.0,790" fill="#D9A441"/>
+<line x1="800.0" y1="766" x2="800.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="800.0,766 852.0,778 800.0,790" fill="#D9A441"/>
+<line x1="1138.0" y1="766" x2="1138.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1138.0,766 1190.0,778 1138.0,790" fill="#D9A441"/>
+<line x1="1424.0" y1="766" x2="1424.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="1424.0,766 1476.0,778 1424.0,790" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One seminar, twelve weeks</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Half the class sees the report. Half sees the transcript. Rebuild the term by speaking.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">open discussion, as published</text>
+<text x="1018.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">two minutes writing, then round the table</text>
+<text x="1278.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">back to the published criterion</text>
+<text x="160.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">8 min</text>
+<text x="342.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">rising to 17 min, every week</text>
+<text x="1018.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">6 min, and did not notice</text>
+<text x="280.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">week 3: the gap starts widening</text>
+<text x="722.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">week 9: Thanh speaks for eleven seconds and is right</text>
+<text x="1034.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">week 10: format changed, nine of eleven speak</text>
+<text x="1190.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">week 12: notes written from memory, one row blank</text>
+<text x="1385.0" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">paper misses the November committee by four days</text>
+<text x="1456" y="694.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">4</text>
+<text x="442.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">record anything during the class</text>
+<text x="806.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">ask the three who never spoke whether they had read it</text>
+<text x="1144.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">write the format change down while it was working</text>
+<text x="1430.0" y="816" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">put the paper in before the deadline</text>
+<line x1="150.0" y1="862" x2="150.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 1</text>
+<line x1="410.0" y1="862" x2="410.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="410.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 3</text>
+<line x1="670.0" y1="862" x2="670.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="670.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 9</text>
+<line x1="930.0" y1="862" x2="930.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="930.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 10</text>
+<line x1="1190.0" y1="862" x2="1190.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1190.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">wk 12</text>
+<line x1="1450.0" y1="862" x2="1450.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">next yr</text>
+</g>
+</svg>

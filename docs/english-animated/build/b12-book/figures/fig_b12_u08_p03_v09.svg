@@ -19,15 +19,17 @@
 <text x="1312.2222222222222" y="300.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The patients</text>
 <path d="M 166.0 334.0 L 166.0 348.0 L 289.55555555555554 348.0 L 289.55555555555554 334.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 437.1111111111111 334.0 L 437.1111111111111 348.0 L 696.2222222222222 348.0 L 696.2222222222222 334.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M 843.7777777777777 388.0 L 843.7777777777777 402.0 L 1102.8888888888887 402.0 L 1102.8888888888887 388.0" fill="none" stroke="#8C6A9E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M 1250.4444444444443 388.0 L 1250.4444444444443 402.0 L 1374.0 402.0 L 1374.0 388.0" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 843.7777777777777 405.6 L 843.7777777777777 419.6 L 1102.8888888888887 419.6 L 1102.8888888888887 405.6" fill="none" stroke="#8C6A9E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1250.4444444444443 405.6 L 1250.4444444444443 419.6 L 1374.0 419.6 L 1374.0 405.6" fill="none" stroke="#A8372E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four ways of saying everybody, and one of them is not</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The fourth is never generic. It always means those ones, and the reader has to know which.</text>
-<text x="227.77777777777777" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">all of them, as a class</text>
+<text x="227.77777777777777" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">all of them, as a</text>
+<text x="227.77777777777777" y="391.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">class</text>
 <text x="566.6666666666666" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">any one, as a type</text>
-<text x="973.3333333333333" y="426.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="middle" font-weight="600" font-style="normal">the category, formal</text>
-<text x="1312.2222222222222" y="426.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">THOSE ones - never generic</text>
+<text x="973.3333333333333" y="443.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#8C6A9E" text-anchor="middle" font-weight="600" font-style="normal">the category, formal</text>
+<text x="1312.2222222222222" y="443.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">THOSE ones - never</text>
+<text x="1312.2222222222222" y="463.20000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">generic</text>
 </g>
 </svg>

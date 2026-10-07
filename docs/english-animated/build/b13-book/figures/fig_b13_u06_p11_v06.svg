@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+<title>Review clauses in twelve comparable agreements</title>
+<desc>A bar chart of twelve comparable research agreements showing review periods in days and the number of amendment requests made.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="840" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="480" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="630.0" x2="1350" y2="630.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="635.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="510.0" x2="1350" y2="510.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="515.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">3</text>
+<line x1="170" y1="390.0" x2="1350" y2="390.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="395.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">6</text>
+<line x1="170" y1="270.0" x2="1350" y2="270.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="275.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">9</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">12</text>
+</g>
+<g id="20_subject">
+<rect x="203.71428571428572" y="350.0" width="75.85714285714286" height="280.0" rx="0" fill="#1F4E5F"/>
+<rect x="439.7142857142857" y="550.0" width="75.85714285714286" height="80.0" rx="0" fill="#1F4E5F"/>
+<rect x="675.7142857142857" y="590.0" width="75.85714285714286" height="40.0" rx="0" fill="#1F4E5F"/>
+<rect x="911.7142857142857" y="550.0" width="75.85714285714286" height="80.0" rx="0" fill="#1F4E5F"/>
+<rect x="1147.7142857142858" y="630.0" width="75.85714285714286" height="0.0" rx="0" fill="#1F4E5F"/>
+<rect x="288.0" y="630.0" width="75.85714285714286" height="0.0" rx="0" fill="#A8372E"/>
+<rect x="524.0" y="630.0" width="75.85714285714286" height="0.0" rx="0" fill="#A8372E"/>
+<rect x="760.0" y="630.0" width="75.85714285714286" height="0.0" rx="0" fill="#A8372E"/>
+<rect x="996.0" y="590.0" width="75.85714285714286" height="40.0" rx="0" fill="#A8372E"/>
+<rect x="1232.0" y="630.0" width="75.85714285714286" height="0.0" rx="0" fill="#A8372E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Review clauses in twelve comparable agreements</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">How many have one, how long it runs, and what was ever requested under it.</text>
+<rect x="1390" y="170" width="18" height="18" rx="0" fill="#1F4E5F"/>
+<text x="1416" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">agreements</text>
+<rect x="1390" y="204" width="18" height="18" rx="0" fill="#A8372E"/>
+<text x="1416" y="219" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">requests ever made</text>
+<text x="288.0" y="658" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">None at all</text>
+<text x="524.0" y="658" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Notify only</text>
+<text x="760.0" y="658" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">14-day review</text>
+<text x="996.0" y="658" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">30-day review</text>
+<text x="1232.0" y="658" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Longer</text>
+<rect x="170" y="690" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="717.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Seven of twelve have no review clause at all, which is what makes standard the wrong word - and one</text>
+<text x="186" y="738.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">request in eleven years is what makes the clause harmless once it is public.</text>
+<text x="170" y="791.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Twelve agreements across four faculties, over eleven years. One amendment has ever been</text>
+<text x="170" y="813.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">requested under any of them.</text>
+</g>
+</svg>

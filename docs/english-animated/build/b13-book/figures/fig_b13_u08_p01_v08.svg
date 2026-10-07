@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Three warnings, and the place none of them met</title>
+<desc>A network of three separate warnings each reaching one person, with the point where they would have been combined shown as an empty node.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="180" x2="1030" y2="250" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="400" x2="1030" y2="250" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="620" x2="1030" y2="250" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="180" x2="620" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="170" y1="620" x2="620" y2="400" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="1030" y1="250" x2="1300" y2="560" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="180" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="170" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="252" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Week 3</text>
+<text x="170" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">four absences, automatic</text>
+<circle cx="170" cy="400" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="170" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="170" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Week 6</text>
+<text x="170" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the handover, eleven sections</text>
+<circle cx="170" cy="620" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="170" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="170" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Week 9</text>
+<text x="170" y="712" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a second flag, another system</text>
+<circle cx="620" cy="400" r="58" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="620" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="620" y="484" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Nobody owns this</text>
+<text x="620" y="504" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">no role description has it</text>
+<circle cx="1030" cy="250" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="1030" y="255" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1030" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Three people</text>
+<text x="1030" y="342" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">each did what the role said</text>
+<circle cx="1300" cy="560" r="54" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1300" y="565" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1300" y="640" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Week 11</text>
+<text x="1300" y="660" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">withdrew</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Three warnings, and the place none of them met</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six nodes. Every arrow is correct. The node in the middle does not exist.</text>
+<rect x="542.0" y="200.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="600.0" y="219.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">to coordinator 1</text>
+<rect x="542.0" y="310.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="600.0" y="329.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and the role changes hands</text>
+<rect x="542.0" y="420.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="600.0" y="439.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">to coordinator 2, who asks for context</text>
+<rect x="337.0" y="275.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="395.0" y="294.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">would have met here</text>
+<rect x="337.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="395.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and here</text>
+<rect x="1107.0" y="390.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1165.0" y="409.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">three correct actions, one outcome</text>
+</g>
+</svg>

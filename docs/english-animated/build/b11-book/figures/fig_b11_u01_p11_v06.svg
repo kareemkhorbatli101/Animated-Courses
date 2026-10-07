@@ -50,9 +50,9 @@
 <text x="563.3333333333333" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+1 year</text>
 <text x="956.6666666666666" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+2 years</text>
 <text x="1350.0" y="578" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">+3 years</text>
-<rect x="170" y="610" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="635" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Three of four went up. One went down. Which one is in the offer letter?</text>
-<text x="170" y="684.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Mbagathi Rooms is the sale everybody quotes. It is also the only one of the four where the</text>
-<text x="170" y="705.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">buyer was a tenants' cooperative. This buyer is not.</text>
+<rect x="170" y="610" width="1180" height="43.75" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="637.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Three of four went up. One went down. Which one is in the offer letter?</text>
+<text x="170" y="689.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Mbagathi Rooms is the sale everybody quotes. It is also the only one of the four where the</text>
+<text x="170" y="711.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">buyer was a tenants' cooperative. This buyer is not.</text>
 </g>
 </svg>

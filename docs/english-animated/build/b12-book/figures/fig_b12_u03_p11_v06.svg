@@ -38,9 +38,10 @@
 <text x="612.5" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">recruit</text>
 <text x="907.5" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">appoint him</text>
 <text x="1202.5" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">do nothing</text>
-<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
-<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Recruiting is cheaper than renewing and costs three months of a department running three doctors short in its busiest quarter, which is not a number this chart can hold.</text>
-<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Appointing him is the cheapest option and the one with the least time short. It has been</text>
-<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">available for three months and nobody has spoken a sentence out loud.</text>
+<rect x="170" y="650" width="1180" height="65.5" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="677.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">Recruiting is cheaper than renewing and costs three months of a department running three doctors</text>
+<text x="186" y="698.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">short in its busiest quarter, which is not a number this chart can hold.</text>
+<text x="170" y="751.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Appointing him is the cheapest option and the one with the least time short. It has been</text>
+<text x="170" y="773.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">available for three months and nobody has spoken a sentence out loud.</text>
 </g>
 </svg>

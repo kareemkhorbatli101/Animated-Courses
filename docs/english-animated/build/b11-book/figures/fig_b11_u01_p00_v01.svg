@@ -236,28 +236,28 @@
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Ngong Lane, 10.40 on a Tuesday</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Jengo House is cut open on the left. The stall on the corner has been there thirty-one years.</text>
 <text x="185.0" y="512" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">workshops</text>
-<rect x="444" y="353.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="498" y="353.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="614" y="372.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">storage</text>
-<rect x="444" y="465.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="498" y="465.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="614" y="484.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">studios</text>
-<rect x="444" y="577.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="498" y="577.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="614" y="596.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the workspace</text>
-<rect x="444" y="689.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="459.6" y="689.0" width="158.4" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="614" y="708.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">EMPTY — ground floor</text>
 <text x="480.0" y="288" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Jengo House</text>
 <text x="820.0" y="176" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">2014 tower</text>
 <text x="1415.0" y="64" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">2019 tower</text>
 <line x1="182" y1="766" x2="182" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="182" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Mwangi</text>
-<line x1="430" y1="766" x2="430" y2="824" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="430" y="840" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">two tenants</text>
+<line x1="430" y1="766" x2="430" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="430" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">two tenants</text>
 <line x1="596" y1="766" x2="596" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="596" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">re-laying the pavement</text>
-<line x1="876" y1="766" x2="876" y2="824" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="876" y="840" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the water bowser</text>
+<line x1="876" y1="766" x2="876" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="876" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the water bowser</text>
 <line x1="1105" y1="766" x2="1105" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1105" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">site hoarding</text>
-<line x1="1252" y1="766" x2="1252" y2="824" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="1252" y="840" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">matatu stop</text>
+<line x1="1252" y1="766" x2="1252" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="1252" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">matatu stop</text>
 </g>
 </svg>

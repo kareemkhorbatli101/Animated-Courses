@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>The minutes, and the corridor</title>
+<desc>Two panels compared: formal meeting minutes and an informal corridor conversation, with one claim appearing in only one of them.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="60.0" y="130" width="720.0" height="42" rx="6" fill="#1F4E5F"/>
+<rect x="60.0" y="160" width="720.0" height="12" rx="0" fill="#1F4E5F"/>
+<text x="420.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the minutes, circulated</text>
+<rect x="820.0" y="130" width="720.0" height="520" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="820.0" y="130" width="720.0" height="42" rx="6" fill="#C86B2B"/>
+<rect x="820.0" y="160" width="720.0" height="12" rx="0" fill="#C86B2B"/>
+<text x="1180.0" y="159" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the corridor, ninety seconds</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="602" x2="760.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="85.0" y="560" width="230" height="22" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="100.0" y="522" width="200" height="22" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="92.5" y="484" width="215" height="22" rx="0" fill="#9AA7AE" stroke="#1C2B33" stroke-width="1.6"/>
+<text x="360.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">&quot;a frank exchange of views&quot;</text>
+<line x1="840.0" y1="602" x2="1520.0" y2="602" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<ellipse cx="980.0" cy="603.9058823529411" rx="13.976470588235294" ry="3.176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 974.2823529411764 602 L 975.5529411764705 552.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 985.7176470588236 602 L 984.4470588235295 552.32" fill="none" stroke="#3A4A55" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 980.0 519.4117647058823 L 980.0 554.8611764705882" fill="none" stroke="#C86B2B" stroke-width="15.24705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 967.9294117647058 520.0470588235294 L 992.0705882352942 520.0470588235294" fill="none" stroke="#C86B2B" stroke-width="8.258823529411764" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 967.9294117647058 521.3176470588235 L 966.0235294117647 558.6729411764707" fill="none" stroke="#C86B2B" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="966.0235294117647" cy="560.5788235294118" r="3.176470588235294" fill="#E8C39E"/>
+<path d="M 992.0705882352942 521.3176470588235 L 993.9764705882353 558.6729411764707" fill="none" stroke="#C86B2B" stroke-width="5.717647058823529" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="993.9764705882353" cy="560.5788235294118" r="3.176470588235294" fill="#E8C39E"/>
+<path d="M 980.0 516.235294117647 L 980.0 513.0588235294117" fill="none" stroke="#E8C39E" stroke-width="6.352941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="980.0" cy="504.79999999999995" r="9.529411764705882" fill="#E8C39E"/>
+<path d="M 970.4705882352941 503.52941176470586 A 9.529411764705882 9.529411764705882 0 0 1 989.5294117647059 503.52941176470586" fill="none" stroke="#2A2320" stroke-width="4.447058823529412" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="976.8235294117648" cy="505.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<circle cx="983.1764705882352" cy="505.435294117647" r="1.143529411764706" fill="#2A2320"/>
+<path d="M 977.4588235294118 509.8823529411764 Q 980.0 511.15294117647056 982.5411764705882 509.8823529411764" fill="none" stroke="#8A5A48" stroke-width="1.016470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1090.0" cy="603.8705882352941" rx="13.71764705882353" ry="3.1176470588235294" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1084.3882352941177 602 L 1085.6352941176472 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1095.6117647058823 602 L 1094.3647058823528 553.24" fill="none" stroke="#3A4A55" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1090.0 520.9411764705883 L 1090.0 555.7341176470588" fill="none" stroke="#8C6A9E" stroke-width="14.964705882352941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1078.1529411764707 521.564705882353 L 1101.8470588235293 521.564705882353" fill="none" stroke="#8C6A9E" stroke-width="8.105882352941176" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1078.1529411764707 522.8117647058824 L 1076.2823529411767 559.4752941176471" fill="none" stroke="#8C6A9E" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1076.2823529411767" cy="561.3458823529412" r="3.1176470588235294" fill="#F0D3B4"/>
+<path d="M 1101.8470588235293 522.8117647058824 L 1103.7176470588233 559.4752941176471" fill="none" stroke="#8C6A9E" stroke-width="5.6117647058823525" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1103.7176470588233" cy="561.3458823529412" r="3.1176470588235294" fill="#F0D3B4"/>
+<path d="M 1090.0 517.8235294117648 L 1090.0 514.7058823529412" fill="none" stroke="#F0D3B4" stroke-width="6.235294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1090.0" cy="506.6" r="9.352941176470589" fill="#F0D3B4"/>
+<path d="M 1080.6470588235295 505.3529411764706 A 9.352941176470589 9.352941176470589 0 0 1 1099.3529411764705 505.3529411764706" fill="none" stroke="#2A2320" stroke-width="4.364705882352942" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1086.8823529411766" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<circle cx="1093.1176470588234" cy="507.22352941176473" r="1.1223529411764706" fill="#2A2320"/>
+<path d="M 1087.5058823529412 511.5882352941177 Q 1090.0 512.8352941176471 1092.4941176470588 511.5882352941177" fill="none" stroke="#8A5A48" stroke-width="0.9976470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1120.0" y="382" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">&quot;we are not going to say that&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The minutes, and the corridor</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Learner A has what was minuted. Learner B has what two people said on the way out.</text>
+<text x="800.0" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">Which claim appears in one and not the other, and which version would you put in a report?</text>
+<text x="800.0" y="726" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7 differences — find them all</text>
+</g>
+</svg>

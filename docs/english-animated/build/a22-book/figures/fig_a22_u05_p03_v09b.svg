@@ -30,8 +30,8 @@
 <text x="739.2" y="444.6666666666667" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">&quot;Measure it.&quot; -&gt; he told me TO measure it</text>
 <text x="739.2" y="552.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="start" font-weight="700" font-style="normal">NEGATIVE INSTRUCTION</text>
 <text x="739.2" y="578.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">&quot;Don't guess.&quot; -&gt; he told me NOT TO guess</text>
-<rect x="160" y="604" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
-<text x="184" y="628.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Instruction verbs need a person: tell somebody to, ask somebody to, want somebody to. Say</text>
-<text x="184" y="649.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">never takes this pattern at all.</text>
+<rect x="160" y="582.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="609.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Instruction verbs need a person: tell somebody to, ask somebody to, want somebody to. Say</text>
+<text x="184" y="631.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">never takes this pattern at all.</text>
 </g>
 </svg>

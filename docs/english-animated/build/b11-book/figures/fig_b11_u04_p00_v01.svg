@@ -138,25 +138,25 @@
 <rect x="0" y="722" width="1600" height="178" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Jengo House, the parts nobody owns</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things in this picture are somebody's responsibility. Three have no name against them.</text>
-<rect x="1354" y="180.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1383.04" y="180.0" width="144.96" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="199.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">storage — one exit</text>
-<rect x="1354" y="330.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1322.56" y="330.0" width="205.44000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="349.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">studios — fire door propped</text>
-<rect x="1354" y="480.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1356.16" y="480.0" width="171.84" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="499.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the workspace — cables</text>
-<rect x="1354" y="630.0" width="174" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<rect x="1322.56" y="630.0" width="205.44000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1524" y="649.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">ENTRANCE — no accessible WC</text>
 <line x1="240" y1="726" x2="240" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="240" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">fire exit, blocked</text>
-<line x1="455" y1="726" x2="455" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="455" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stored in the corridor</text>
+<line x1="455" y1="726" x2="455" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="455" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stored in the corridor</text>
 <line x1="620" y1="726" x2="620" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="620" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Wanjiru</text>
-<line x1="900" y1="726" x2="900" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="900" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the desk</text>
+<line x1="900" y1="726" x2="900" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="900" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the desk</text>
 <line x1="1240" y1="726" x2="1240" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1240" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">first-aid box, 2019</text>
-<line x1="1430" y1="726" x2="1430" y2="784" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="1430" y="800" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">three steps, no ramp</text>
+<line x1="1430" y1="726" x2="1430" y2="754" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="1430" y="770" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">three steps, no ramp</text>
 </g>
 </svg>

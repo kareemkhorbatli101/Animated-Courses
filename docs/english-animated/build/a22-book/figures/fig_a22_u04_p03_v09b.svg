@@ -29,8 +29,8 @@
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five reporting verbs. Only the bottom one leaves the reader free.</text>
 <text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">the reader has been told what to think</text>
 <text x="590.0" y="626" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">flat</text>
-<rect x="160" y="624" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
-<text x="184" y="648.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The reporting verb is the cheapest place in a sentence to hide an opinion, which is why it</text>
-<text x="184" y="669.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is the first thing an editor changes.</text>
+<rect x="160" y="602.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="629.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The reporting verb is the cheapest place in a sentence to hide an opinion, which is why it</text>
+<text x="184" y="651.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is the first thing an editor changes.</text>
 </g>
 </svg>

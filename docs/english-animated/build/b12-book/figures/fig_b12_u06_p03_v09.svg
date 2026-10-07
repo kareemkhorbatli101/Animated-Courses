@@ -27,9 +27,9 @@
 <text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">ACTIVE</text>
 <text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">PASSIVE</text>
 <text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same event, different first word</text>
-<rect x="160" y="584" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
-<text x="184" y="608.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The causative keeps the patient as the subject while making clear that somebody else does</text>
-<text x="184" y="629.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the work. She is having it done is not she is doing it, and it is not it is being done to</text>
-<text x="184" y="651.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">her.</text>
+<rect x="160" y="540.75" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
+<text x="184" y="567.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The causative keeps the patient as the subject while making clear that somebody else does</text>
+<text x="184" y="589.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the work. She is having it done is not she is doing it, and it is not it is being done to</text>
+<text x="184" y="611.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">her.</text>
 </g>
 </svg>
