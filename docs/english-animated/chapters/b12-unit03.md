@@ -122,8 +122,7 @@ what a permanent post would. **Guess: what is stopping them from recruiting?**
 1. The post has been vacant for **four months / eleven months / two years**.
 2. A locum costs about **1.4 / 2.0 / 3.2** times a permanent doctor.
 3. Recruitment would take about **three months / a year / six weeks**.
-4. Dr Benítez would stay permanently if **the money improved / the rota changed / he were asked
-   properly**.
+4. He would stay permanently if **he were asked / the rota changed / the money improved**.
 
 **Noticing.** Four sentences from the recording.
 

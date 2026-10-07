@@ -136,8 +136,7 @@ three?**
 
 1. The three warnings went to **two people / one person / three people**.
 2. The threshold for an automatic alert is **six / four / three absences**.
-3. Somebody says *it was not my responsibility* **and is right / and is wrong / and nobody
-   answers**.
+3. *It was not my responsibility* is said **and is wrong / and nobody answers / and is right**.
 4. The handover happened in **week 2 / week 9 / week 6**.
 
 **Noticing.** Four sentences from the recording.
