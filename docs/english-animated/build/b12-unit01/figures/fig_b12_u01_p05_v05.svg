@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<title>Two canteen menus, thirty-one years apart</title>
+<desc>Two hospital canteen menus compared, listing hot dishes, prices, staff subsidy and a note about what a staff meal costs the hospital.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="850" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="850" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">HOSPITAL REGIONAL  -  COMEDOR  -  1994</text>
+<rect x="140" y="196" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DISH</text>
+<text x="403.33333333333337" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">PRICE</text>
+<text x="656.6666666666667" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SERVED</text>
+<text x="150.0" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Fish of the day</text>
+<text x="403.33333333333337" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">340</text>
+<text x="656.6666666666667" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">lunch and supper</text>
+<line x1="140" y1="256" x2="900" y2="256" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Cazuela</text>
+<text x="403.33333333333337" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">290</text>
+<text x="656.6666666666667" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">lunch and supper</text>
+<line x1="140" y1="286" x2="900" y2="286" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Beans and rice</text>
+<text x="403.33333333333337" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">210</text>
+<text x="656.6666666666667" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="316" x2="900" y2="316" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Bread (baked here)</text>
+<text x="403.33333333333337" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">40</text>
+<text x="656.6666666666667" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="346" x2="900" y2="346" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="366" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Fruit, in season</text>
+<text x="403.33333333333337" y="366" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">60</text>
+<text x="656.6666666666667" y="366" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="376" x2="900" y2="376" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="396" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Tinned fruit</text>
+<text x="403.33333333333337" y="396" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">45</text>
+<text x="656.6666666666667" y="396" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="406" x2="900" y2="406" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="434" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Hot dishes</text>
+<text x="410" y="434" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6</text>
+<text x="140" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Staff price</text>
+<text x="410" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">half</text>
+<text x="140" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Night service</text>
+<text x="410" y="498" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">22.00 - 06.00</text>
+<line x1="130" y1="530" x2="910" y2="530" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">COMEDOR  -  THIS YEAR</text>
+<rect x="140" y="196" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DISH</text>
+<text x="403.33333333333337" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">PRICE</text>
+<text x="656.6666666666667" y="216" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SERVED</text>
+<text x="150.0" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Fish of the day</text>
+<text x="403.33333333333337" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2,950</text>
+<text x="656.6666666666667" y="246" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">lunch only</text>
+<line x1="140" y1="256" x2="900" y2="256" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Cazuela</text>
+<text x="403.33333333333337" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2,400</text>
+<text x="656.6666666666667" y="276" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">lunch and supper</text>
+<line x1="140" y1="286" x2="900" y2="286" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Beans and rice</text>
+<text x="403.33333333333337" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,850</text>
+<text x="656.6666666666667" y="306" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="316" x2="900" y2="316" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Bread (delivered)</text>
+<text x="403.33333333333337" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">450</text>
+<text x="656.6666666666667" y="336" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="346" x2="900" y2="346" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="366" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Tinned fruit</text>
+<text x="403.33333333333337" y="366" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">600</text>
+<text x="656.6666666666667" y="366" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">all day</text>
+<line x1="140" y1="376" x2="900" y2="376" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="396" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Salad bar (per 100 g)</text>
+<text x="403.33333333333337" y="396" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">390</text>
+<text x="656.6666666666667" y="396" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">lunch only</text>
+<line x1="140" y1="406" x2="900" y2="406" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="434" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Hot dishes</text>
+<text x="410" y="434" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4</text>
+<text x="140" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Staff price</text>
+<text x="410" y="466" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">subsidised 55 %</text>
+<text x="140" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Night service</text>
+<text x="410" y="498" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">22.00 - 06.00</text>
+<line x1="130" y1="530" x2="910" y2="530" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="562" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">COST NOTE, FOOT OF THE CURRENT MENU, STAFF COPIES ONLY:</text>
+<text x="140" y="592.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;A subsidised staff meal costs the hospital 2,180. The subsidy</text>
+<text x="140" y="613.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">is funded from the catering budget, which has fallen 19 % in</text>
+<text x="140" y="635.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">real terms since 2019. The subsidy is reviewed each March.&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two canteen menus, thirty-one years apart</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Typed in 1994 and laminated now, and only one of them has a cost note on it.</text>
+<circle cx="934" cy="196.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 196.5 L 1024 196.5 L 1024 196.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="201.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Six hot dishes, and the bread was</text>
+<text x="1040" y="221.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">baked downstairs</text>
+<circle cx="934" cy="264.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 264.5 L 1024 264.5 L 1024 264.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="269.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Fish twice a day, and it was the</text>
+<text x="1040" y="289.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">second cheapest hot dish</text>
+<circle cx="934" cy="375.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 375.0 L 1024 375.0 L 1024 375.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="380.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Half price for staff, with no</text>
+<text x="1040" y="400.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">percentage anywhere</text>
+<circle cx="934" cy="596.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 596.0 L 1024 596.0 L 1024 596.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="601.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Fish at lunch only - and the night</text>
+<text x="1040" y="621.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">shift is asleep at lunch</text>
+<circle cx="934" cy="681.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 681.0 L 1024 681.0 L 1024 681.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="686.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Bread is delivered now. The</text>
+<text x="1040" y="706.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">basement bakery closed in 1998</text>
+<circle cx="934" cy="919.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 919.0 L 1024 919.0 L 1024 919.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="924.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The only sentence on either menu</text>
+<text x="1040" y="944.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">with a budget in it</text>
+</g>
+</svg>

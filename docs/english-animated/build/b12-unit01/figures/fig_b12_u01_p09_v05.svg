@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+<title>The annual review form</title>
+<desc>A staff annual review form with six sections covering objectives, achievement, development and any other matters, with notes on which boxes trigger action.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1040" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="830" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="830" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">HOSPITAL REGIONAL  -  ANNUAL REVIEW  -  FORM RH-2</text>
+<text x="140" y="214" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Employee</text>
+<text x="410" y="214" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">R. Fuentes, reception</text>
+<text x="140" y="246" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">In post</text>
+<text x="410" y="246" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">14 years</text>
+<text x="140" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Reviewer</text>
+<text x="410" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">line manager</text>
+<line x1="130" y1="310" x2="910" y2="310" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="346" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE SIX BOXES</text>
+<rect x="140" y="358" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">BOX</text>
+<text x="403.33333333333337" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT IT ASKS</text>
+<text x="656.6666666666667" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">TRIGGERS ACTION?</text>
+<text x="150.0" y="408" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1  Objectives set</text>
+<text x="403.33333333333337" y="408" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">last year's, listed</text>
+<text x="656.6666666666667" y="408" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no</text>
+<line x1="140" y1="418" x2="900" y2="418" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="438" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2  Achievement</text>
+<text x="403.33333333333337" y="438" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">met / partly / not met</text>
+<text x="656.6666666666667" y="438" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no</text>
+<line x1="140" y1="448" x2="900" y2="448" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="468" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3  Strengths</text>
+<text x="403.33333333333337" y="468" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">free text</text>
+<text x="656.6666666666667" y="468" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no</text>
+<line x1="140" y1="478" x2="900" y2="478" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="498" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4  Development needs</text>
+<text x="403.33333333333337" y="498" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">free text</text>
+<text x="656.6666666666667" y="498" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">yes - training budget</text>
+<line x1="140" y1="508" x2="900" y2="508" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="528" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">5  Objectives for next year</text>
+<text x="403.33333333333337" y="528" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">free text</text>
+<text x="656.6666666666667" y="528" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">yes - reviewed in Dec</text>
+<line x1="140" y1="538" x2="900" y2="538" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="558" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6  Any other matters (optional)</text>
+<text x="403.33333333333337" y="558" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">free text</text>
+<text x="656.6666666666667" y="558" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no</text>
+<line x1="140" y1="568" x2="900" y2="568" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="140" y="596.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Box 6 is marked optional on the form and is not read by anybody</text>
+<text x="140" y="617.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">above the line manager. Boxes 4 and 5 are extracted into a</text>
+<text x="140" y="639.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">departmental summary each April.</text>
+<line x1="130" y1="675.25" x2="910" y2="675.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="711.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT ROSA RAISED</text>
+<text x="140" y="741.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">That reception is the first point of contact for every complaint</text>
+<text x="140" y="763.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about waiting times, that nobody has ever recorded how many, and</text>
+<text x="140" y="784.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">that she has been counting them herself since February.</text>
+<text x="140" y="820.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Her count, Feb-Sep</text>
+<text x="410" y="820.5" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1,140</text>
+<text x="140" y="852.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">Official figure</text>
+<text x="410" y="852.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">none held</text>
+<line x1="130" y1="884.5" x2="910" y2="884.5" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="916.5" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">WHERE IT WENT:</text>
+<text x="140" y="946.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;Box 5. Objective for next year: establish a complaints log at</text>
+<text x="140" y="968.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">reception. - agreed, both signed.&quot;</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The annual review form</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six boxes, two of them optional, and none of them is where Rosa's point goes.</text>
+<circle cx="934" cy="302.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 302.6 L 1024 302.6 L 1024 302.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="307.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Six boxes, and four of them go</text>
+<text x="1040" y="327.90000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">nowhere</text>
+<circle cx="934" cy="485.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 485.2 L 1024 485.2 L 1024 485.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="490.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Box 4 and box 5 are the only two</text>
+<text x="1040" y="510.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">that leave the room</text>
+<circle cx="934" cy="551.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 551.6 L 1024 551.6 L 1024 551.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="556.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Box 6 is optional, unread, and</text>
+<text x="1040" y="576.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">where this would naturally have</text>
+<text x="1040" y="597.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">gone</text>
+<circle cx="934" cy="734.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 734.2 L 1024 734.2 L 1024 734.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="739.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Eleven hundred and forty, counted</text>
+<text x="1040" y="759.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">by one person, unasked</text>
+<circle cx="934" cy="784.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 784.0 L 1024 784.0 L 1024 784.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="789.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">And the official figure is that</text>
+<text x="1040" y="809.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">there is no figure</text>
+<circle cx="934" cy="900.1999999999999" r="4.5" fill="#C86B2B"/>
+<path d="M 934 900.1999999999999 L 1024 900.1999999999999 L 1024 900.1999999999999" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="905.1999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Box 5, because box 5 is extracted</text>
+<text x="1040" y="925.4999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">in April</text>
+</g>
+</svg>

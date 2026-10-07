@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="740" viewBox="0 0 1600 740">
+<title>Four ways of saying what is normal</title>
+<desc>A ladder of habit forms from used to and would at the bottom through be used to and get used to at the top, with what each one can and cannot carry.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="740" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="606.0" y1="150.0" x2="674.0" y2="150.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="265.0" x2="674.0" y2="265.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="380.0" x2="674.0" y2="380.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="495.0" x2="674.0" y2="495.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="610.0" x2="674.0" y2="610.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="640.0" y1="130" x2="640.0" y2="630" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="698.0" y="156.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">You'll GET USED TO it</text>
+<text x="940.0" y="156.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the process. Not there yet, and on the way</text>
+<text x="698.0" y="271.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I'm USED TO the night shift</text>
+<text x="940.0" y="271.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a present familiarity. + noun or -ing</text>
+<text x="698.0" y="386.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">He WOULD come down at three</text>
+<text x="940.0" y="386.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a repeated past action. Never a state</text>
+<text x="698.0" y="501.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">We USED TO have a bakery</text>
+<text x="940.0" y="501.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a past state, and it has stopped</text>
+<text x="698.0" y="616.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">DIDN'T USE TO / DID YOU USE TO</text>
+<text x="940.0" y="616.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">no d in the negative or the question</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four ways of saying what is normal</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Two of these are about a past that stopped. Two are about a present you have accepted.</text>
+<text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">a present you have accepted</text>
+<text x="590.0" y="646" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">a past that stopped</text>
+<rect x="160" y="644" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="668.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">In used to cook, to belongs to the infinitive. In used to the menu, to is a preposition, so</text>
+<text x="184" y="689.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">what follows is a noun or an -ing form: I am used to cooking, never I am used to cook.</text>
+</g>
+</svg>

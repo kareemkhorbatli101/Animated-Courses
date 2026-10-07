@@ -793,10 +793,20 @@ def v11_error(spec):
     h = spec.get('height', 620)
     ctx, sub, lab = [], [], []
     pw = (W - 200) / 2
+    cw = int(pw / 8)                       # characters that fit across a panel
+    # Size the panels and the band to the text they actually have to hold.
+    why_lines = max(len(wrap(0, 0, spec[k]['why'], size=T_CALLOUT, width=cw)[0].split('\n'))
+                    for k in ('wrong', 'right'))
+    mis_lines = len(wrap(0, 0, spec['misconception'], size=T_LABEL, width=104)[0].split('\n'))
+    band_h = 44 + (mis_lines + 1) * T_LABEL * 1.45
+    why_h = why_lines * T_CALLOUT * 1.45
+    panel_bottom = h - band_h - 40
+    panel_h = panel_bottom - 120
+    why_y = panel_bottom - why_h - 4
     for i, (key, col, mark) in enumerate([('wrong', RED, '✗'), ('right', GREEN, '✓')]):
         s = spec[key]
         x = 80 + i * (pw + 40)
-        ctx.append(rect(x, 120, pw, h - 300, fill=WHITE, stroke=col, sw=2.6, rx=8))
+        ctx.append(rect(x, 120, pw, panel_h, fill=WHITE, stroke=col, sw=2.6, rx=8))
         ctx.append(circle(x + 36, 158, 20, fill=col))
         ctx.append(text(x + 36, 166, mark, size=T_HEAD, anchor='middle', weight='700', fill=WHITE))
         sub.append(text(x + 72, 166, s['sentence'], size=T_BODY, weight='600', fill=INK))
@@ -812,11 +822,14 @@ def v11_error(spec):
                         stroke=col, sw=3))
         sub.append(text(ex, ay - 30, s['event_label'], size=T_CALLOUT, anchor='middle',
                         weight='600', fill=col))
-        body, _ = wrap(x + 24, h - 212, s['why'], size=T_CALLOUT, width=int(pw / 8), fill=INK)
+        body, _ = wrap(x + 24, why_y, s['why'], size=T_CALLOUT, width=cw, fill=INK)
         sub.append(body)
-    lab.append(rect(80, h - 108, W - 160, 62, fill='#F7E7D6', stroke=ACCENT, sw=1.6, rx=6))
-    lab.append(text(104, h - 80, 'What the writer thought:', size=T_LABEL, weight='700', fill=ACCENT))
-    body, _ = wrap(104, h - 56, spec['misconception'], size=T_LABEL, width=104, fill=INK)
+    by = h - band_h - 8
+    lab.append(rect(80, by, W - 160, band_h, fill='#F7E7D6', stroke=ACCENT, sw=1.6, rx=6))
+    lab.append(text(104, by + 26, 'What the writer thought:', size=T_LABEL, weight='700',
+                    fill=ACCENT))
+    body, _ = wrap(104, by + 26 + T_LABEL * 1.45, spec['misconception'], size=T_LABEL,
+                   width=104, fill=INK)
     lab.append(body)
     head = figure_title(W, spec['title'], spec.get('sub'))
     return svg(W, h, [group('10_context', '\n'.join(ctx)),
