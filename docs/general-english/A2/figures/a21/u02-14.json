@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  433
+ ],
+ "bounds": [
+  57,
+  21.5,
+  1383,
+  411.4
+ ],
+ "texts": [
+  {
+   "text": "I can name the rooms and parts of a building",
+   "size": 28,
+   "bbox": [
+    156,
+    46.2,
+    867.8,
+    70.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use there is and there are",
+   "size": 28,
+   "bbox": [
+    156,
+    126.1,
+    652.7,
+    150.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can understand somebody describing a flat",
+   "size": 28,
+   "bbox": [
+    156,
+    206.1,
+    860.9,
+    230.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can describe a room in 50\u201370 words",
+   "size": 28,
+   "bbox": [
+    156,
+    286.1,
+    742.3,
+    310.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can report a problem and ask for a repair",
+   "size": 28,
+   "bbox": [
+    156,
+    366.1,
+    831.0,
+    390.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "PLUS",
+   "size": 22,
+   "bbox": [
+    1266.9,
+    370.1,
+    1330.0,
+    390.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each, the last one marked Plus.",
+ "placed_in": [
+  6.270833333333333,
+  1.8854166666666667
+ ],
+ "sha256": "1a11a12a6121bf0c9dbfb7f1772ba34c3c47c56f9dd6e01e344069d5a1d495c0"
+}

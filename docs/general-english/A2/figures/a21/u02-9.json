@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "an empty flat",
+   "size": 24,
+   "bbox": [
+    79.1,
+    273.4,
+    260.1,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a bed and",
+   "size": 30,
+   "bbox": [
+    361.1,
+    234.5,
+    528.5,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a table",
+   "size": 30,
+   "bbox": [
+    386.1,
+    269.5,
+    503.5,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a cupboard",
+   "size": 30,
+   "bbox": [
+    625.1,
+    269.5,
+    814.9,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "plants and a",
+   "size": 26,
+   "bbox": [
+    904.3,
+    240.8,
+    1086.1,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "photograph",
+   "size": 26,
+   "bbox": [
+    909.5,
+    271.8,
+    1080.9,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a home",
+   "size": 30,
+   "bbox": [
+    1208.3,
+    269.5,
+    1332.5,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "From empty flat to home in five stages, each with an arrow to the next: an empty flat, then a bed and a table, then a cupboard, then plants and a photograph, and at the end a home.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "57eea98f9b04b6158ea13b9d20c96c58ee1f7de1a648af7af553f2186821ef75"
+}

@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What room",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    376.8,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There are three things in Dani\u2019s kitchen.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1194.5,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is / there are",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    514.7,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a cupboard, a small table and one chair",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    1187.4,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What there is not much of",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    632.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is not much space.",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    998.0,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who uses it, and why",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    552.0,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani cooks with the door open.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1075.7,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the paragraph the learner is about to write, in four steps: which room, then what there is in it, then what there is not much of, and last who uses it and why.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "a9fab42bef41d68dd8c1efd72ec647e2bc748ef1775ad8da2e6c30811d29ee04"
+}

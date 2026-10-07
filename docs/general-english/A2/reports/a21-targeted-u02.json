@@ -1,0 +1,23 @@
+{
+ "book": "a21",
+ "after_unit": 2,
+ "budget": 20,
+ "executions": 20,
+ "pass": 20,
+ "fail": 0,
+ "gate": 0,
+ "skip": 0,
+ "checks_used": [
+  "C04",
+  "C09",
+  "C14",
+  "C15",
+  "E06",
+  "E07",
+  "E08",
+  "E09",
+  "E25",
+  "E26"
+ ],
+ "failures": []
+}

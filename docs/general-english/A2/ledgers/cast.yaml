@@ -2,6 +2,12 @@
 # moment it is written. Check F04 rejects any later sentence that contradicts it.
 address: 14 Alder Street
 street: Alder Street
+building:
+  floors: 4
+  flats: 5
+  lift: false
+  ground_floor: Amina's corner shop
+  empty_flat: first floor, next to Dani
 
 people:
   Maya:
@@ -52,6 +58,8 @@ people:
     facts:
       - cooks badly; burned the rice once
       - carries large bags of rice home
+      - lives on the first floor, flat 3, next to the empty flat
+      - carries a bike down the stairs every day
     first_unit: 1
   Okonkwo:
     full: Mr Okonkwo
@@ -63,6 +71,8 @@ people:
       - reads his newspaper in the afternoon
       - watches the street from his window
       - has an appointment at the clinic on Thursday
+      - lives on the fourth floor and has the best view in the street
+      - keeps forty years of newspapers
     first_unit: 1
   Yuki:
     full: Yuki Tanaka
@@ -74,11 +84,14 @@ people:
       - moved in on a Saturday in March
       - knew nobody in the city when she arrived
       - after three weeks knew four of the six people at number 14
+      - has the top flat, flat 5, with a small balcony and two plants
+      - pays six hundred a month, which includes the water
     first_unit: 1
 
 # One-unit walk-ons from the Part 8 Global Story. Never recur.
 walk_ons:
-  - {name: Hana, unit: 1, country: South Korea}
+  - {name: Jun, unit: 1, country: South Korea}
+  - {name: Clara, unit: 2, country: Brazil}
 
 places:
   - Alder Street

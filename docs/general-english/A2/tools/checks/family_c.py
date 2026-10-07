@@ -173,8 +173,9 @@ def c15(u, ctx):
         ans = [v.strip('*') for k, v in items.items() if k > 0]
         seeded = [a.strip('*') for a in (re.findall(r'\*\*(.+?)\*\*', ' '.join(M.seeded(s))) or [])]
         used = Counter(ans + seeded)
-        unused = [w for w in wb if used.get(w, 0) == 0]
-        twice = [w for w in wb if used.get(w, 0) > 1]
+        low = {k.lower(): v for k, v in used.items()}
+        unused = [w for w in wb if low.get(w.lower(), 0) == 0]
+        twice = [w for w in wb if low.get(w.lower(), 0) > 1]
         if unused or twice:
             bad.append(f'{s.heading}: unused={unused} twice={twice}')
     return expect(not bad, '; '.join(bad))

@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 2.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and the agent",
+   "size": 32,
+   "bbox": [
+    96.3,
+    287.0,
+    437.0,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "looking at the flat",
+   "size": 26,
+   "bbox": [
+    151.5,
+    356.9,
+    381.9,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 2.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Mr Okonkwo",
+   "size": 30,
+   "bbox": [
+    534.6,
+    288.6,
+    905.4,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a problem on the stairs",
+   "size": 26,
+   "bbox": [
+    568.6,
+    356.9,
+    871.4,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 2.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "five flats, five homes",
+   "size": 26,
+   "bbox": [
+    1037.4,
+    356.9,
+    1309.3,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Yuki and the agent look at the flat, Dani and Mr Okonkwo talk about a problem on the stairs, and Amina describes five flats and five homes.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "b77750cac7a7f97634cf9c67076502b5d72ffce089118bdb21ae4dc550fa9183"
+}

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the flat",
+   "size": 34,
+   "bbox": [
+    207.7,
+    58.2,
+    532.3,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "welcome them",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    367.7,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say how many rooms",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    469.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "answer one question honestly",
+   "size": 22,
+   "bbox": [
+    138.0,
+    264.8,
+    511.4,
+    284.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one good thing, one less good",
+   "size": 22,
+   "bbox": [
+    138.0,
+    320.8,
+    513.2,
+    340.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 looking",
+   "size": 34,
+   "bbox": [
+    907.2,
+    58.2,
+    1232.8,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask about storage",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1124.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about noise",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1087.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about the rent",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1131.4,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you think",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1137.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, the person showing the flat: welcome them, say how many rooms, answer one question honestly, one good thing and one less good thing. Card B, the person looking: ask about storage, about noise and about the rent, then say what you think.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "5795637be18def21f24d3383abc714be16999b4f5a83445f82889453d97a7297"
+}

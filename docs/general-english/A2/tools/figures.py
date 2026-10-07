@@ -559,6 +559,26 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def building(f: Fig, x, y, w, h):
+    """A block from the side: roof, balcony, stairs, entrance, garden."""
+    bx, bw = x + w * 0.26, w * 0.44
+    top, bot = y + 60, y + h - 86
+    f.rect(bx, top, bw, bot - top, fill=P['bg'], stroke=P['ink'], r=0, sw=4)
+    f.path(f'M {bx - 34:.1f} {top:.1f} L {bx + bw / 2:.1f} {top - 54:.1f} '
+           f'L {bx + bw + 34:.1f} {top:.1f} Z', fill=P['tan'])
+    floors = 4
+    fh = (bot - top) / floors
+    for i in range(1, floors):
+        f.line(bx, top + i * fh, bx + bw, top + i * fh, stroke=P['rule'], sw=3)
+    for i in range(floors):
+        f.rect(bx + 26, top + i * fh + 20, bw * 0.30, fh - 48, fill=P['blue'], r=4)
+    f.rect(bx + bw - 54, top + fh * 0.6, 54, 44, fill=P['card'], stroke=P['ink'], r=4)
+    f.rect(bx + bw * 0.52, bot - 70, 54, 70, fill=P['deep'], stroke=P['ink'], r=4)
+    f.line(x + 30, bot, x + w - 30, bot, stroke=P['ink'], sw=5)
+    for k in range(3):
+        icon(f, 'sun', x + w * 0.12 + k * 26, bot + 42, s=0.22)
+
+
 def day_column(f: Fig, x, y, w, h):
     """A day from dawn at the top to midnight at the bottom: the object the
     learner labels in Unit 1's Figure N.2."""

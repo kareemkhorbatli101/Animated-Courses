@@ -22,6 +22,7 @@ ARTEFACT = {'needs_artefact'}
 DOCXKIND = {'docx', 'styles', 'core', 'zip'}
 COVERKIND = {'cover', 'covermeta', 'coverpx'}
 PDFKIND = {'pdf'}
+UNIT2KIND = {'unit2', 'key2'}
 MULTIUNIT = {'needs_units'}
 NOFAIL = {'needs_check'}
 STATIC = {'registry', 'rename', 'sha'}
@@ -180,6 +181,58 @@ def run(book='a21', verbose=False):
                     shutil.copy(src, os.path.join(dst, os.path.basename(src)))
                     _mutate_zip(os.path.join(dst, os.path.basename(src)), kind, fn)
                     ctx.root = tmp
+                elif kind in UNIT2KIND:
+                    # break the SECOND unit, so a cross-unit check has something to find
+                    if len(base_units) < 2:
+                        deferred.append((cid, 'needs a second unit')); continue
+                    u2 = sorted(base_units, key=lambda x: -x.num)[0]
+                    u1 = sorted(base_units, key=lambda x: x.num)[0]
+                    t2 = open(u2.path, encoding='utf-8').read()
+                    if fn == 'same_glossary':
+                        g1 = [l for l in open(u1.path, encoding='utf-8').read().split('\n')
+                              if l.startswith('> ') and ' · ' in l and len(l.split('·')) == 10]
+                        t2 = re.sub(r'(?m)^> [a-z].*·.*·.*$', g1[-1], t2, count=1)
+                    elif fn == 'same_story_opening':
+                        t1 = open(u1.path, encoding='utf-8').read()
+                        h1 = t1.split('**Part 8 ·')[1]
+                        l1 = next(l for l in h1.split('\n')
+                                  if l.startswith('> ') and len(l) > 60)
+                        h2, sep2, tail2 = t2.partition('**Part 8 ·')
+                        tail2 = re.sub(r'(?m)^> .{60,}$', l1.replace('\\', ''),
+                                       tail2, count=1)
+                        t2 = h2 + sep2 + tail2
+                    elif fn == 'no_recycling':
+                        # strip every earlier-unit glossary word from the Spiral Review
+                        import yaml as _y
+                        led = _y.safe_load(open(os.path.join(ROOT, 'ledgers',
+                                                             'lexis.yaml')))['units']
+                        earlier = [str(w) for n2, r2 in led.items() if n2 < u2.num
+                                   for w in r2.get('words', [])]
+                        head, sep, tail = t2.partition('**Part 10: Spiral Review**')
+                        for w in earlier:
+                            tail = re.sub(rf'\b{re.escape(w)}\b', 'thing', tail, flags=re.I)
+                        t2 = head + sep + tail
+                    elif fn == 'same_country':
+                        t2 = t2.replace('Brazil', 'South Korea')
+                    mp = os.path.join(tmp, os.path.basename(u2.path))
+                    open(mp, 'w', encoding='utf-8').write(t2)
+                    try:
+                        mu = M.parse(mp)
+                    except Exception as e:
+                        caught.append((cid, f'unparseable: {e}')); continue
+                    units = [x if x.num != mu.num else mu for x in base_units]
+                    if kind == 'key2':
+                        k2 = ctx._keys.get(u2.num)
+                        stems = [l for l in open(u1.path, encoding='utf-8').read().split('\n')
+                                 if re.match(r'^\*\*\d+\. .+\*\*$', l.strip())]
+                        if stems:
+                            t2b = re.sub(r'(?m)^\*\*\d+\. .+\*\*$', stems[0], t2, count=1)
+                            open(mp, 'w', encoding='utf-8').write(t2b)
+                            mu = M.parse(mp)
+                            units = [x if x.num != mu.num else mu for x in base_units]
+                    # a unit-scope check must be handed the MUTATED unit
+                    u = mu
+                    ctx.for_unit(u)
                 elif kind in PDFKIND:
                     srcp = os.path.join(ROOT, 'build', f'{book}-u{u.num:02d}.pdf')
                     srcd = os.path.join(ROOT, 'build', f'{book}-u{u.num:02d}.docx')

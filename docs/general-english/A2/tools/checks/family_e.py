@@ -300,7 +300,8 @@ def e25(u, ctx):
     # `the shop is closed`, `the door is open`, `she is tired` are adjectival at
     # A2, not the passive. Only a true agentless passive counts.
     ADJ = {'closed', 'open', 'tired', 'interested', 'worried', 'married', 'pleased',
-           'bored', 'excited', 'finished', 'used', 'broken', 'gone', 'done'}
+           'bored', 'excited', 'finished', 'used', 'broken', 'gone', 'done',
+           'wooden', 'golden', 'open', 'often', 'given', 'closed'}
     hits = [m.group(0) for m in re.finditer(r'\b(?:is|are|was|were)\s+(\w+(?:ed|en))\b',
                                            ' '.join(u.sentences), re.I)
             if m.group(1).lower() not in ADJ]
