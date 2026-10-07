@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+<title>Four paragraphs that change subject every sentence</title>
+<desc>A study sheet showing learner paragraphs whose subject changes in every sentence, the topic each paragraph is actually about, and the passive that would hold it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="940" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="730" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="730" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">STUDY FILE  -  THE PASSIVE YOU WERE TAUGHT TO AVOID</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">You were told the passive is weak writing, and then you met it</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">on every page of everything you read professionally. Both of</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">those are true.</text>
+<line x1="130" y1="293.25" x2="910" y2="293.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="297.25" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE PARAGRAPH IS ABOUT</text>
+<text x="403.33333333333337" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SUBJECTS USED</text>
+<text x="656.6666666666667" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT WOULD HOLD IT</text>
+<text x="150.0" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE SAMPLE</text>
+<text x="403.33333333333337" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WE, I, THE LAB, IT</text>
+<text x="656.6666666666667" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE SAMPLE WAS ...</text>
+<line x1="140" y1="357.25" x2="900" y2="357.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE APPLICATION</text>
+<text x="403.33333333333337" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">YOU, THEY, THE OFFICE</text>
+<text x="656.6666666666667" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE APPLICATION IS ...</text>
+<line x1="140" y1="387.25" x2="900" y2="387.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE MACHINE</text>
+<text x="403.33333333333337" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SOMEBODY, WE, IT</text>
+<text x="656.6666666666667" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE MACHINE IS ...</text>
+<line x1="140" y1="417.25" x2="900" y2="417.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE RULE</text>
+<text x="403.33333333333337" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PEOPLE, THEY, ONE</text>
+<text x="656.6666666666667" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE RULE IS ...</text>
+<line x1="140" y1="447.25" x2="900" y2="447.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE STORY</text>
+<text x="403.33333333333337" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HE, SHE, THEY</text>
+<text x="656.6666666666667" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">KEEP THE ACTIVE - IT IS A STORY</text>
+<line x1="140" y1="477.25" x2="900" y2="477.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="505.25" x2="910" y2="505.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="541.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHERE EACH PIECE OF ADVICE IS TRUE</text>
+<text x="140" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">use the active</text>
+<text x="410" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">in a story about people doing things</text>
+<text x="140" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the passive is weak</text>
+<text x="410" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">when the agent matters and is hidden</text>
+<text x="140" y="635.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the passive is right</text>
+<text x="410" y="635.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">in a method, a rule or a specification</text>
+<text x="140" y="667.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the test</text>
+<text x="410" y="667.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">what is this paragraph about? Keep it in subject position</text>
+<line x1="130" y1="699.25" x2="910" y2="699.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="721.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Underline the subject of every sentence in a paragraph you have</text>
+<text x="140" y="743.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">written. If it changes more than once, the paragraph is about</text>
+<text x="140" y="764.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">more than one thing.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four paragraphs that change subject every sentence</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">A learner taught to avoid the passive writes a paragraph about four different things.</text>
+<circle cx="934" cy="207.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 207.6 L 1024 207.6 L 1024 207.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="212.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two true pieces of advice that</text>
+<text x="1040" y="232.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">contradict each other</text>
+<circle cx="934" cy="441.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 441.2 L 1024 441.2 L 1024 441.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="446.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four subjects in four sentences,</text>
+<text x="1040" y="466.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">and one topic throughout</text>
+<circle cx="934" cy="660.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 660.2 L 1024 660.2 L 1024 660.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="665.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The last row is the one where the</text>
+<text x="1040" y="685.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">advice you were given holds</text>
+<circle cx="934" cy="813.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 813.5 L 1024 813.5 L 1024 813.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="818.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One underline per sentence is the</text>
+<text x="1040" y="838.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">whole diagnosis</text>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Four specification styles, one requirement</title>
+<desc>A bar chart comparing four specification styles on the share of suppliers reading a clause the same way and the number of clarification questions per hundred pages.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">25</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">50</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">75</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">100</text>
+</g>
+<g id="20_subject">
+<rect x="212.14285714285714" y="435.2" width="94.82142857142858" height="174.8" rx="0" fill="#2E6F5E"/>
+<rect x="507.14285714285717" y="200.59999999999997" width="94.82142857142858" height="409.40000000000003" rx="0" fill="#2E6F5E"/>
+<rect x="802.1428571428571" y="223.60000000000002" width="94.82142857142858" height="386.4" rx="0" fill="#2E6F5E"/>
+<rect x="1097.142857142857" y="283.40000000000003" width="94.82142857142858" height="326.59999999999997" rx="0" fill="#2E6F5E"/>
+<rect x="317.50000000000006" y="324.8" width="94.82142857142858" height="285.2" rx="0" fill="#C86B2B"/>
+<rect x="612.5" y="527.2" width="94.82142857142858" height="82.79999999999995" rx="0" fill="#C86B2B"/>
+<rect x="907.5" y="513.4" width="94.82142857142858" height="96.60000000000002" rx="0" fill="#C86B2B"/>
+<rect x="1202.5" y="453.6" width="94.82142857142858" height="156.39999999999998" rx="0" fill="#C86B2B"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four specification styles, one requirement</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same requirement issued four ways to the same three bidders.</text>
+<rect x="1390" y="170" width="18" height="18" rx="0" fill="#2E6F5E"/>
+<text x="1416" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">same reading (%)</text>
+<rect x="1390" y="204" width="18" height="18" rx="0" fill="#C86B2B"/>
+<text x="1416" y="219" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">questions per 100 pages</text>
+<text x="317.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">dense phrases</text>
+<text x="612.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one sentence each</text>
+<text x="907.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">dense + diagram</text>
+<text x="1202.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">plain prose</text>
+<rect x="170" y="670" width="1180" height="87.25" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The second series is a count, not a percentage. It shares the axis because both happen to run from</text>
+<text x="186" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">nought to a hundred here; compare each series with itself across the four styles, and not with the</text>
+<text x="186" y="740.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">other.</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">One sentence per requirement wins on both measures and doubles the length of the document.</text>
+<text x="170" y="815.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">The diagram gets within five points of it for one line a clause.</text>
+</g>
+</svg>

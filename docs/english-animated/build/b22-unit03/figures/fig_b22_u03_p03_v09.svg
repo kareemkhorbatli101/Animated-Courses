@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560">
+<title>Everything to the left, one word in the middle</title>
+<desc>A fourteen-word noun phrase drawn as chunks with brackets marking the pre-modifiers, the head noun and the post-modifier.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="560" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="247.14285714285714" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">the</text>
+<text x="421.42857142857144" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">automated</text>
+<text x="595.7142857142857" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">crane</text>
+<text x="770.0" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">handover</text>
+<text x="944.2857142857142" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">latency</text>
+<text x="1118.5714285714284" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">REQUIREMENTS</text>
+<text x="1292.857142857143" y="280.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">for berth 4</text>
+<path d="M 340.2857142857143 314.0 L 340.2857142857143 328.0 L 1025.4285714285713 328.0 L 1025.4285714285713 314.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1037.4285714285713 314.0 L 1037.4285714285713 328.0 L 1199.7142857142858 328.0 L 1199.7142857142858 314.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1211.7142857142858 314.0 L 1211.7142857142858 328.0 L 1374.0 328.0 L 1374.0 314.0" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 166.0 366.0 L 166.0 380.0 L 328.2857142857143 380.0 L 328.2857142857143 366.0" fill="none" stroke="#9AA7AE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Everything to the left, one word in the middle</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four pre-modifiers, one head, one post-modifier. Read it from the head backwards.</text>
+<text x="682.8571428571428" y="352.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">FOUR PRE-MODIFIERS: each may attach to any noun on its right</text>
+<text x="1118.5714285714284" y="352.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">THE HEAD</text>
+<text x="1292.857142857143" y="352.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">POST-MODIFIER</text>
+<text x="247.14285714285714" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">the phrase starts</text>
+<text x="247.14285714285714" y="423.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="middle" font-weight="600" font-style="normal">here</text>
+</g>
+</svg>
