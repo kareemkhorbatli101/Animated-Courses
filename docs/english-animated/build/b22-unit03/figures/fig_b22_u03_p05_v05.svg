@@ -10,27 +10,27 @@
 </g>
 <g id="20_subject">
 <rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
-<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">BERTH 4 AUTOMATION PACKAGE  -  CLAUSE 7.4.2</text>
-<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;The automated rail-mounted gantry crane remote operation</text>
-<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">handover latency requirements for berth 4 shall be met in full.&quot;</text>
-<text x="140" y="271.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Annex C, test method: &quot;console input to confirmed crane</text>
-<text x="140" y="293.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">response, measured end to end.&quot; No figure is given in the clause</text>
-<text x="140" y="315.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">itself.</text>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">GATE 4 NIGHT-SHIFT PACKAGE  -  CLAUSE 7.4.2</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">&quot;The night shift supervisor handover delay performance</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">monitoring requirements at gate 4 shall be met in full.&quot;</text>
+<text x="140" y="271.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Annex C, test method: &quot;from the outgoing supervisor's first word</text>
+<text x="140" y="293.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">to confirmed handover, measured end to end.&quot; No figure is given</text>
+<text x="140" y="315.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">in the clause itself.</text>
 <line x1="130" y1="350.75" x2="910" y2="350.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
 <rect x="140" y="354.75" width="760" height="30" rx="0" fill="#F3ECE0"/>
 <text x="150.0" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SUPPLIER</text>
 <text x="403.33333333333337" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT THEY READ AS THE HEAD</text>
 <text x="656.6666666666667" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">PRICED</text>
 <text x="150.0" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A</text>
-<text x="403.33333333333337" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CRANE REQUIREMENTS</text>
-<text x="656.6666666666667" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NEW CONTROL HARDWARE</text>
+<text x="403.33333333333337" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SUPERVISOR COVER</text>
+<text x="656.6666666666667" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">EXTRA NIGHT COVER</text>
 <line x1="140" y1="414.75" x2="900" y2="414.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
 <text x="150.0" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">B</text>
 <text x="403.33333333333337" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HANDOVER REQUIREMENTS</text>
 <text x="656.6666666666667" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A SOFTWARE LAYER</text>
 <line x1="140" y1="444.75" x2="900" y2="444.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
 <text x="150.0" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">C</text>
-<text x="403.33333333333337" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">AUTOMATED HANDOVER</text>
+<text x="403.33333333333337" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">AUTOMATIC HANDOVER</text>
 <text x="656.6666666666667" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NEITHER - ALREADY DONE</text>
 <line x1="140" y1="474.75" x2="900" y2="474.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
 <text x="150.0" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SPREAD BETWEEN BIDS</text>
@@ -55,13 +55,13 @@
 <line x1="140" y1="624.75" x2="900" y2="624.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
 <line x1="130" y1="652.75" x2="910" y2="652.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
 <text x="140" y="688.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT EACH PRE-MODIFIER COULD ATTACH TO</text>
-<text x="140" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">automated</text>
-<text x="410" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">crane, operation, handover or latency</text>
-<text x="140" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">rail-mounted</text>
-<text x="410" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">crane only - a physical fact saves it</text>
-<text x="140" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">remote</text>
-<text x="410" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">operation or handover</text>
-<text x="140" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">for berth 4</text>
+<text x="140" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">night</text>
+<text x="410" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">shift, supervisor, handover or delay</text>
+<text x="140" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">night shift</text>
+<text x="410" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">supervisor only - a human fact saves it</text>
+<text x="140" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">shift</text>
+<text x="410" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">supervisor or handover</text>
+<text x="140" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">at gate 4</text>
 <text x="410" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">requirements - post-modifiers do not stray</text>
 <line x1="130" y1="846.75" x2="910" y2="846.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
 <text x="140" y="868.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Three engineers wrote this over nine weeks. It was proofread for</text>

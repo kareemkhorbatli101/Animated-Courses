@@ -58,7 +58,7 @@
 <rect x="355.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
 <polygon points="427.6,199.2 480.4,199.2 520,475" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
 <line x1="429.6" y1="199.2" x2="478.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<text x="520.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Automated modifies the crane.</text>
+<text x="520.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Supervisor modifies the handover.</text>
 <text x="520.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">That is the constraint.</text>
 <rect x="370.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
 <circle cx="510.0" cy="408.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>

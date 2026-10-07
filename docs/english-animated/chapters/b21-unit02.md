@@ -26,7 +26,7 @@ claiming to speak for. Two hundred words.**
 **Find twelve things in this picture.** Three of them carry somebody's name and two deliberately
 do not.
 
-> the masthead on the wall · a leader-page proof with no byline · a photograph of the 1974 staff ·
+> the paper's name on the wall · a leader-page proof with no byline · a photograph of the 1974 staff ·
 > a bound archive volume · a columnist's framed first piece · a screen showing a reader comment ·
 > an empty chair at the leader conference · a style guide open at page 9 · a list of this week's
 > op-eds · a letter from a reader · a map of the city with one ward circled · a clock
@@ -52,15 +52,15 @@ this unit.
 
 Match each word to one layer of the cutaway.
 
-> **byline** · **masthead** · **readership** · **constituency** · **columnist** ·
-> **editorial** · **outlet** · **audience** · **bureau** · **syndication** ·
+> **byline** · **spokesperson** · **readership** · **constituency** · **columnist** ·
+> **editorial** · **outlet** · **audience** · **membership** · **following** ·
 > **correspondent** · **voice**
 
-### 1B · Sort — a person, an institution, or a group of readers?
+### 1B · Sort — a person, an institution, or a group you are claiming?
 
-Three columns. **Two of the twelve belong in two columns and that is the point of the unit.**
+Three columns. **Two of the ten belong in two columns and that is the point of the unit.**
 
-> editorial · outlet · bureau · voice · columnist · constituency · audience · masthead ·
+> editorial · outlet · membership · voice · columnist · constituency · audience · spokesperson ·
 > readership · correspondent
 
 ### 1C · Meet — the phrases that claim a mandate
@@ -77,11 +77,11 @@ Three columns. **Two of the twelve belong in two columns and that is the point o
 
 Complete each one, and say which of the five is the only one that could be checked.
 
-> **a named writer** · **an unsigned piece** · **local to the story** · **parachute
-> journalism** · **whose paper is it**
+> **a named writer** · **an unsigned piece** · **local to the story** · **an outsider's
+> account** · **whose paper is it**
 
 1. The leader page carries ______ ______ ______ every day and has done since 1911.
-2. A reporter flown in for three days produces ______ ______ , whatever the quality.
+2. A reporter flown in for three days files ______ ______ ______ , whatever the quality.
 3. The stringer is ______ ______ ______ ______ and was not asked to write it.
 4. Readers can argue with ______ ______ ______ ; nobody can argue with an institution.
 5. The question under all of this is ______ ______ ______ ______ .
@@ -649,11 +649,12 @@ Record 0C again. **Compare.** How many of your inherited opinions did you name t
 
 ### 12E · Glossary — fifty items, as a map
 
-> **THE PEOPLE** · columnist · correspondent · stringer · voice
-> **THE INSTITUTION** · byline · masthead · editorial · outlet · bureau · syndication
-> **THE READERS** · readership · audience · constituency
+> **THE PEOPLE WHO SPEAK** · byline · columnist · correspondent · spokesperson
+> **THE INSTITUTION THAT SPEAKS** · editorial · outlet · voice
+> **THE GROUP YOU COUNT** · readership · audience · membership
+> **THE GROUP YOU CLAIM** · constituency · following
 > **THE CLAIMS** · speak for · on behalf of · our readers · the paper's view · the community affected
-> **THE DESCRIPTIONS** · a named writer · an unsigned piece · local to the story · parachute journalism · whose paper is it
+> **THE DESCRIPTIONS** · a named writer · an unsigned piece · local to the story · an outsider's account · whose paper is it
 > **WHAT PEOPLE DO** · speak up · stand in · write up · own up · take over · sign off
 > **IN THE ROOM** · we have always said · this paper believes · who is the we here?
 > **THE REFERENCE** · inclusive · exclusive · collective · impersonal · generic · institutional · corporate · anonymous

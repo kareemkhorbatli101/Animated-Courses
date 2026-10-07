@@ -14,30 +14,30 @@
 <path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 720 692 L 730 710" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="20_subject">
-<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">where copy comes from</text>
-<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">wire · desk · conference</text>
-<text x="190" y="299.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">who touches it</text>
-<text x="190" y="325.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">subeditor · copytaster</text>
-<text x="190" y="447.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">where it ends up</text>
-<text x="190" y="473.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">splash · slot · galley · spike</text>
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">people and the rooms they are in</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">desk · conference · subscriber</text>
+<text x="190" y="299.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">a time or a shape</text>
+<text x="190" y="325.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">deadline · slot · turnaround · format · brief</text>
+<text x="190" y="447.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">what carries it</text>
+<text x="190" y="473.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">channel · circulation</text>
 <text x="190" y="594.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">what governs all of it</text>
-<text x="190" y="620.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">style guide · house style · deadline</text>
+<text x="190" y="620.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">style guide · house style</text>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One newsroom, in section</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve words, and the layer each one lives on. Copy falls from the top.</text>
 <circle cx="736" cy="190.8" r="4.5" fill="#C86B2B"/>
 <path d="M 736 190.8 L 866 190.8 L 866 190.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="880" y="195.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three sources, and two of them</text>
-<text x="880" y="216.10000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">are rooms</text>
+<text x="880" y="195.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three words, and one of them</text>
+<text x="880" y="216.10000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is furniture and a committee</text>
 <circle cx="736" cy="344.2" r="4.5" fill="#C86B2B"/>
 <path d="M 736 344.2 L 866 344.2 L 866 344.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="880" y="349.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two jobs, and one of them</text>
-<text x="880" y="369.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">decides what is never read</text>
+<text x="880" y="349.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Five words, and not one of</text>
+<text x="880" y="369.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">them is about the writing</text>
 <circle cx="736" cy="485.8" r="4.5" fill="#C86B2B"/>
 <path d="M 736 485.8 L 866 485.8 L 866 485.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="880" y="490.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four destinations, and one of</text>
-<text x="880" y="511.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">them is a verb</text>
+<text x="880" y="490.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two words, and the second is</text>
+<text x="880" y="511.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">the only one anybody counts</text>
 <circle cx="736" cy="639.2" r="4.5" fill="#C86B2B"/>
 <path d="M 736 639.2 L 866 639.2 L 866 639.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="880" y="644.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two of these are written down;</text>

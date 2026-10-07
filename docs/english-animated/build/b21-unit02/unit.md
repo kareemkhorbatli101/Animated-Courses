@@ -8,7 +8,7 @@
 ## Part 0 · The Big Picture ◆ **A · THE WORLD**
 
 
-![The editorial floor of a newspaper with a masthead on the wall, a bound archive volume, a framed first column, an unsigned leader proof on a screen and an empty chair at the conference table.](figures/fig_b21_u02_p00_v01.png){width=6.6in}
+![The editorial floor of a newspaper with the paper's name on the wall, a bound archive volume, a framed first column, an unsigned leader proof on a screen and an empty chair at the conference table.](figures/fig_b21_u02_p00_v01.png){width=6.6in}
 
 *The leader floor, Thursday afternoon — Twelve things to find. Three carry a name and two deliberately do not.*
 
@@ -30,7 +30,7 @@ claiming to speak for. Two hundred words.**
 **Find twelve things in this picture.** Three of them carry somebody's name and two deliberately
 do not.
 
-> the masthead on the wall · a leader-page proof with no byline · a photograph of the 1974 staff ·
+> the paper's name on the wall · a leader-page proof with no byline · a photograph of the 1974 staff ·
 > a bound archive volume · a columnist's framed first piece · a screen showing a reader comment ·
 > an empty chair at the leader conference · a style guide open at page 9 · a list of this week's
 > op-eds · a letter from a reader · a map of the city with one ward circled · a clock
@@ -51,7 +51,7 @@ this unit.
 ## Part 1 · Vocabulary Lab 1 ◆ **B · THE SYSTEM**
 
 
-![A cutaway of a newspaper's voice in four layers, from the named individual through the desk and the institution to the readership it claims to speak for.](figures/fig_b21_u02_p01_v02.png){width=6.6in}
+![A cutaway of a newspaper's voice in four layers, from the named individual through the institution to the group it counts and the group it claims to speak for.](figures/fig_b21_u02_p01_v02.png){width=6.6in}
 
 *One voice, in section — Twelve words, and the layer each one speaks from.*
 
@@ -60,16 +60,16 @@ this unit.
 
 Match each word to one layer of the cutaway.
 
-> **byline** · **masthead** · **readership** · **constituency** · **columnist** ·
-> **editorial** · **outlet** · **audience** · **bureau** · **syndication** ·
+> **byline** · **spokesperson** · **readership** · **constituency** · **columnist** ·
+> **editorial** · **outlet** · **audience** · **membership** · **following** ·
 > **correspondent** · **voice**
 
-### 1B · Sort — a person, an institution, or a group of readers?
+### 1B · Sort — a person, an institution, or a group you are claiming?
 
-Three columns. **Two of the twelve belong in two columns and that is the point of the unit.**
+Three columns. **Two of the ten belong in two columns and that is the point of the unit.**
 
-> columnist · masthead · readership · correspondent · outlet · audience · bureau · editorial ·
-> constituency · voice
+> editorial · outlet · membership · voice · columnist · constituency · audience · spokesperson ·
+> readership · correspondent
 
 ### 1C · Meet — the phrases that claim a mandate
 
@@ -85,11 +85,11 @@ Three columns. **Two of the twelve belong in two columns and that is the point o
 
 Complete each one, and say which of the five is the only one that could be checked.
 
-> **a named writer** · **an unsigned piece** · **local to the story** · **parachute
-> journalism** · **whose paper is it**
+> **a named writer** · **an unsigned piece** · **local to the story** · **an outsider's
+> account** · **whose paper is it**
 
 1. The leader page carries ______ ______ ______ every day and has done since 1911.
-2. A reporter flown in for three days produces ______ ______ , whatever the quality.
+2. A reporter flown in for three days files ______ ______ ______ , whatever the quality.
 3. The stringer is ______ ______ ______ ______ and was not asked to write it.
 4. Readers can argue with ______ ______ ______ ; nobody can argue with an institution.
 5. The question under all of this is ______ ______ ______ ______ .
@@ -135,7 +135,7 @@ through the archive.
 
 **Listen again. True or false?**
 
-1. The paper took the opposite position in 2017. ☐ T ☐ F
+1. The paper took the same position in 2017 as it takes now. ☐ T ☐ F
 2. The editorial will carry a byline. ☐ T ☐ F
 3. Nobody in the room was at the paper in 2017. ☐ T ☐ F
 4. The researcher is asked to find a form of words. ☐ T ☐ F
@@ -384,8 +384,8 @@ them.
 
 Three columns.
 
-> inclusive · exclusive · collective · impersonal · generic · institutional · corporate ·
-> anonymous
+> institutional · exclusive · collective · inclusive · generic · anonymous · impersonal ·
+> corporate
 
 ### 6B · Chunk completion
 
@@ -415,14 +415,14 @@ you know?
 
 Eight items. Rewrite each sentence so that responsibility moves to the place in brackets.
 
-1. Mistakes were made. *(to a named person)*
-2. We have always opposed it. *(to a dated decision)*
-3. It is widely held that the plan will fail. *(to the writer)*
-4. The paper regrets the error. *(to the desk that made it)*
-5. One might say the figures are unreliable. *(to a named analyst)*
-6. Our readers expect better. *(to a survey, with a number)*
+1. The paper regrets the error. *(to the desk that made it)*
+2. One might say the figures are unreliable. *(to a named analyst)*
+3. The community affected was consulted. *(to the three people who were asked)*
+4. It is widely held that the plan will fail. *(to the writer)*
+5. Mistakes were made. *(to a named person)*
+6. We have always opposed it. *(to a dated decision)*
 7. This paper believes in transparency. *(to an editorial board, with a date)*
-8. The community affected was consulted. *(to the three people who were asked)*
+8. Our readers expect better. *(to a survey, with a number)*
 
 ---
 
@@ -689,11 +689,12 @@ Record 0C again. **Compare.** How many of your inherited opinions did you name t
 
 ### 12E · Glossary — fifty items, as a map
 
-> **THE PEOPLE** · columnist · correspondent · stringer · voice
-> **THE INSTITUTION** · byline · masthead · editorial · outlet · bureau · syndication
-> **THE READERS** · readership · audience · constituency
+> **THE PEOPLE WHO SPEAK** · byline · columnist · correspondent · spokesperson
+> **THE INSTITUTION THAT SPEAKS** · editorial · outlet · voice
+> **THE GROUP YOU COUNT** · readership · audience · membership
+> **THE GROUP YOU CLAIM** · constituency · following
 > **THE CLAIMS** · speak for · on behalf of · our readers · the paper's view · the community affected
-> **THE DESCRIPTIONS** · a named writer · an unsigned piece · local to the story · parachute journalism · whose paper is it
+> **THE DESCRIPTIONS** · a named writer · an unsigned piece · local to the story · an outsider's account · whose paper is it
 > **WHAT PEOPLE DO** · speak up · stand in · write up · own up · take over · sign off
 > **IN THE ROOM** · we have always said · this paper believes · who is the we here?
 > **THE REFERENCE** · inclusive · exclusive · collective · impersonal · generic · institutional · corporate · anonymous

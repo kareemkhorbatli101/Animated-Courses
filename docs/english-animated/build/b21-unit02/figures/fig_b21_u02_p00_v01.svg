@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
 <title>The leader floor, Thursday afternoon</title>
-<desc>The editorial floor of a newspaper with a masthead on the wall, a bound archive volume, a framed first column, an unsigned leader proof on a screen and an empty chair at the conference table.</desc>
+<desc>The editorial floor of a newspaper with the paper's name on the wall, a bound archive volume, a framed first column, an unsigned leader proof on a screen and an empty chair at the conference table.</desc>
 <g id="00_ground">
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#FBF7F0"/>
 </g>
@@ -192,8 +192,8 @@
 <rect x="0" y="702" width="1600" height="198" rx="0" fill="#FBF7F0" opacity="0.78"/>
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The leader floor, Thursday afternoon</text>
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things to find. Three carry a name and two deliberately do not.</text>
-<rect x="282.71999999999997" y="360.0" width="185.28000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="464" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the masthead on the wall</text>
+<rect x="255.83999999999997" y="360.0" width="212.16000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="464" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the paper's name on the wall</text>
 <rect x="276.0" y="490.0" width="192.00000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="464" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the 1974 staff photograph</text>
 <rect x="235.67999999999998" y="620.0" width="232.32000000000002" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>

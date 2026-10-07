@@ -27,8 +27,8 @@ match where they are reading it. Two hundred words.**
 different readers.
 
 > the style guide, 214 pages · the newsletter draft on a screen · the app preview, held up ·
-> the page proof, above the fold · the news list for the day · the running order, pinned ·
-> the spike, with two stories on it · the wire feed, scrolling ·
+> the page proof, the top of the page marked · the running order, pinned ·
+> the circulation board, three channels · the brief for tomorrow, one page ·
 > a note that says WHO IS THIS FOR? · the conference table, empty ·
 > a clock showing 11:30 · a subscriber count: 61,000
 
@@ -49,52 +49,53 @@ unit.
 
 > **FIGURE `fig_b21_u09_p01_v02` · V2 Cutaway**
 
-### 1A · Meet — the words of a newsroom
+### 1A · Meet — the words of a publication
 
 Match each word to one layer of the cutaway.
 
-> **desk** · **deadline** · **spike** · **slot** · **splash** · **subeditor** · **copytaster** ·
-> **galley** · **conference** · **style guide** · **house style** · **wire**
+> **desk** · **deadline** · **channel** · **slot** · **circulation** · **subscriber** · **format** ·
+> **turnaround** · **conference** · **style guide** · **house style** · **brief**
 
-### 1B · Sort — a person or a group, a place or a time, or a document?
+### 1B · Sort — people, a time or a shape, or what carries it?
 
-Three columns. **One of the twelve is also a verb, and it is the verb nobody wants done to their
-story.**
+Three columns. **One of the twelve is a piece of furniture and a group of people, and in this
+building it is almost always the second.**
 
-> galley · desk · wire · splash · subeditor · copytaster · conference · spike · slot ·
+> turnaround · desk · brief · circulation · subscriber · format · conference · channel · slot ·
 > house style · style guide · deadline
 
-### 1C · Meet — the five places a story can be
+### 1C · Meet — the five phrases a deadline produces
 
 | | |
 |---|---|
-| **above the fold** | The top half of page one. The only part visible on a newsstand. |
-| **the back of the book** | The pages nobody turns to, where good writing goes to be unread. |
-| **on the stone** | Made up, laid out, and almost impossible to change. |
-| **the second edition** | Another chance, four hours later, for a fifth of the readers. |
-| **a slow news day** | When a story runs that would not have run on Tuesday. |
+| **the top of the page** | The part everybody sees and almost nobody scrolls past. |
+| **a tight deadline** | Not a short one. One with nothing after it. |
+| **in good time** | Early enough that somebody else can still change their mind. |
+| **a quiet week** | When a piece runs that would not have run in a busy one. |
+| **the last word** | Not the final sentence. The person who decides there will be no more. |
 
 ### 1D · Collocation Lab
 
-Complete each one, and say which of the five is a measure of a person rather than a story.
+Complete each one, and say which of the five is a measure of a person rather than of a piece of
+writing.
 
-> **a late change** · **hold the front page** · **the news list** · **a running order** ·
+> **a late change** · **a final version** · **a house voice** · **a running order** ·
 > **filed on time**
 
 1. ______ ______ ______ goes round at nine and is argued about until eleven thirty.
-2. The newsletter has ______ ______ ______ ; the paper has a page.
-3. Nobody has said ______ ______ ______ ______ in this building since 1994.
-4. ______ ______ ______ after six costs money and is sometimes worth it.
+2. ______ ______ ______ after six costs money and is sometimes worth it.
+3. The guide exists to produce ______ ______ ______ , and it now has to produce three.
+4. Nobody sends ______ ______ ______ on a Friday without being asked twice.
 5. She has ______ ______ ______ every day for nine years, which is rarer than it sounds.
 
 ### 1E · The phrasal verbs, and the three fixed expressions
 
 > **send through** · **turn around** · **sit on**
 >
-> **f** *we are going with it* · **f** *that is a splash* · **f** *it will not make the paper*
+> **f** *we are going with it* · **f** *that can wait* · **f** *it will not make the cut*
 
-**Two of these fixed expressions are decisions and one is a judgement.** Which is the judgement,
-and who in the room is allowed to make it?
+**Two of these fixed expressions decide what happens today and one decides what happens never.**
+Which is which, and who in the room is allowed to say the third?
 
 ### 1F · Own it
 
@@ -641,7 +642,7 @@ Write **three sentences**: the decision, the evidence, and the thing it will not
 > 12. ______ ______ ______ . *(three words — holding the floor, unfinished)*
 > 13. Can you ______ ______ the file before six? *(two words)*
 > 14. We can ______ ______ two thousand words by Thursday. *(two words)*
-> 15. They will ______ ______ it until the second edition. *(two words)*
+> 15. They will ______ ______ it until Monday. *(two words)*
 
 ### 12B · Consolidate — one task, everything in it
 
@@ -661,13 +662,13 @@ Record 0C again. **Compare.** How many different markers did you use the first t
 
 ### 12E · Glossary — fifty items, as a map
 
-> **PEOPLE AND GROUPS** · subeditor · copytaster · desk · conference
-> **PLACES AND TIMES** · slot · splash · spike · galley · deadline
-> **DOCUMENTS AND SOURCES** · style guide · house style · wire
-> **WHERE A STORY CAN BE** · above the fold · the back of the book · on the stone · the second edition · a slow news day
-> **THE DAY'S PAPERWORK** · a late change · hold the front page · the news list · a running order · filed on time
+> **PEOPLE AND THE ROOMS THEY ARE IN** · desk · conference · subscriber
+> **A TIME OR A SHAPE** · deadline · slot · turnaround · format · brief
+> **WHAT CARRIES IT AND WHAT GOVERNS IT** · channel · circulation · style guide · house style
+> **WHAT A DEADLINE PRODUCES** · a tight deadline · the top of the page · in good time · a quiet week · the last word
+> **THE DAY'S PAPERWORK** · a late change · a final version · a house voice · a running order · filed on time
 > **WHAT DESKS DO** · send through · turn around · sit on · move on · come back to · go on to
-> **IN THE ROOM** · we are going with it · that is a splash · it will not make the paper
+> **IN THE ROOM** · we are going with it · that can wait · it will not make the cut
 > **THE CONNECTORS** · however · nevertheless · meanwhile · accordingly · hence · thereby · whereby · thereafter
 > **THE FRAMES** · in the first place · that said · for one thing · as it happens · to begin with · by contrast · in any case · on the other hand
 > **HOLDING THE FLOOR** · having said that · the point being · which brings me to

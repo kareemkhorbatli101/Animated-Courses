@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
 <title>One system, in section</title>
-<desc>A cutaway of a logistics system in four layers, from what moves through it and what limits it to how well it holds together and how it is shaped and supplied.</desc>
+<desc>A cutaway of a system in four layers, from how much there is and where it stops to how it is kept up and how it is shaped.</desc>
 <g id="00_ground">
 <rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
 </g>
@@ -14,32 +14,32 @@
 <path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 720 692 L 730 710" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="20_subject">
-<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">what moves through it</text>
-<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">throughput · inventory · cadence</text>
-<text x="190" y="299.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">what limits it</text>
-<text x="190" y="325.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">bottleneck · capacity · headroom</text>
-<text x="190" y="447.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">how well it holds</text>
-<text x="190" y="473.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">resilience · interoperability · latency</text>
-<text x="190" y="594.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">how it is shaped and supplied</text>
-<text x="190" y="620.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">topology · utilisation · provisioning</text>
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">how much there is</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">capacity · demand · inventory · shortage</text>
+<text x="190" y="299.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">where it stops</text>
+<text x="190" y="325.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">bottleneck · delay · backlog · overload</text>
+<text x="190" y="447.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">how it is kept up</text>
+<text x="190" y="473.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">maintenance · breakdown</text>
+<text x="190" y="594.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">how it is shaped</text>
+<text x="190" y="620.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">resilience · layout</text>
 </g>
 <g id="40_callouts">
 <text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One system, in section</text>
-<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve words, and the layer each one lives on. Only two layers appear in a tender.</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve words, and the layer each one lives on. Only two layers reach a tender.</text>
 <circle cx="736" cy="190.8" r="4.5" fill="#C86B2B"/>
 <path d="M 736 190.8 L 866 190.8 L 866 190.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="880" y="195.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three words, and only the</text>
-<text x="880" y="216.10000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">first ever reaches a press</text>
-<text x="880" y="236.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">release</text>
+<text x="880" y="195.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four words, and only the first</text>
+<text x="880" y="216.10000000000002" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">ever reaches a press release</text>
 <circle cx="736" cy="344.2" r="4.5" fill="#C86B2B"/>
 <path d="M 736 344.2 L 866 344.2 L 866 344.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="880" y="349.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Capacity and headroom are the</text>
-<text x="880" y="369.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">same number from opposite ends</text>
+<text x="880" y="349.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A delay is what the system</text>
+<text x="880" y="369.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">does; a backlog is what you</text>
+<text x="880" y="389.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">wait in</text>
 <circle cx="736" cy="485.8" r="4.5" fill="#C86B2B"/>
 <path d="M 736 485.8 L 866 485.8 L 866 485.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="880" y="490.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The layer a specification is</text>
-<text x="880" y="511.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">about, and the hardest to</text>
-<text x="880" y="531.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">write</text>
+<text x="880" y="490.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One of these two is planned</text>
+<text x="880" y="511.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">and the other is the reason</text>
+<text x="880" y="531.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">for it</text>
 <circle cx="736" cy="639.2" r="4.5" fill="#C86B2B"/>
 <path d="M 736 639.2 L 866 639.2 L 866 639.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="880" y="644.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Decided years earlier, by</text>

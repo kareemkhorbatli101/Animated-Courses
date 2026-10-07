@@ -203,13 +203,13 @@
 <text x="1024" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the clarification log, 212 questions</text>
 <rect x="782.24" y="490.0" width="245.76000000000002" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1024" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">three bid summaries, three prices</text>
-<rect x="876.3199999999999" y="620.0" width="151.68" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="1024" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the berth 4 drawing</text>
+<rect x="889.76" y="620.0" width="138.24" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1024" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the gate 4 roster</text>
 <text x="800.0" y="286" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the evidence</text>
-<rect x="1355.84" y="360.0" width="212.16000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="1564" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the remote-operation console</text>
-<rect x="1302.08" y="490.0" width="265.92" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="1564" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the stacking yard, beyond the window</text>
+<rect x="1396.16" y="360.0" width="171.84" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1564" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the night shift roster</text>
+<rect x="1362.56" y="490.0" width="205.44000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1564" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the gate, beyond the window</text>
 <rect x="1448" y="620.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1564" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the diagram</text>
 <text x="1350.0" y="286" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the terminal</text>
@@ -224,7 +224,7 @@
 <line x1="660" y1="706" x2="660" y2="764" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="660" y="780" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the ruler, used as a pointer</text>
 <line x1="1075" y1="706" x2="1075" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="1075" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">berth 4, rail-served, deep water</text>
+<text x="1075" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">gate 4, four supervisor posts</text>
 <line x1="1250" y1="706" x2="1250" y2="764" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="1250" y="780" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the diagram, with one word circled</text>
 <line x1="1350" y1="706" x2="1350" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>

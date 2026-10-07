@@ -6,27 +6,29 @@ ANSWERS = [
   '*push alert*, so the channel with the most readers is the one with no written rules at all.')),
 
 ('1B', dict(sort={
-  'subeditor': 'a person or a group', 'copytaster': 'a person or a group',
-  'desk': 'a person or a group', 'conference': 'a person or a group',
-  'slot': 'a place or a time', 'splash': 'a place or a time', 'spike': 'a place or a time',
-  'galley': 'a place or a time', 'deadline': 'a place or a time',
-  'style guide': 'a document', 'house style': 'a document', 'wire': 'a document'},
-  text='**The one that is also a verb:** *spike* — to spike a story is to kill it, and the '
-  'object on the desk is where killed stories used to go. *Desk* and *conference* are in the '
-  'first column because in a newsroom both are groups of people before they are furniture; '
-  'accept either in the second with that argument. *Wire* is a source rather than a document '
-  'in the strict sense — accept a fourth column.')),
+  'desk': 'people', 'conference': 'people', 'subscriber': 'people',
+  'deadline': 'a time or a shape', 'slot': 'a time or a shape',
+  'turnaround': 'a time or a shape', 'format': 'a time or a shape',
+  'brief': 'a time or a shape',
+  'channel': 'what carries it', 'circulation': 'what carries it',
+  'style guide': 'what carries it', 'house style': 'what carries it'},
+  text='**The piece of furniture that is a group of people:** *desk*. *The desk decided* never '
+  'means the table decided, and *conference* behaves the same way — both are rooms, objects and '
+  'committees, and in this building almost always the committee.\n\n'
+  '*Brief* and *format* are worth arguing over: a brief is a document before it is a shape, and '
+  'a format is a shape before it is anything. Accept either in a column of its own if the '
+  'learner can say which sense they mean.')),
 
-('1D', dict(text='1 The news list · 2 a running order · 3 hold the front page · '
-  '4 A late change · 5 filed on time\n'
+('1D', dict(text='1 The running order · 2 A late change · 3 a house voice · '
+  '4 a final version · 5 filed on time\n'
   '**A measure of a person:** *filed on time* — every day for nine years. The other four are '
-  'properties of the day\'s paper.')),
+  'properties of the thing being made, not of whoever made it.')),
 
-('1E', dict(text='***That is a splash*** is the judgement; the other two are decisions. '
-  'The news editor makes it, and only the news editor: it says a story is strong enough for '
-  'page one before anybody has decided to run it there, and it commits nothing. The decisions '
-  '— *we are going with it* and *it will not make the paper* — can be reversed; the judgement '
-  'is quoted back at you for a fortnight.')),
+('1E', dict(text='***We are going with it*** and ***that can wait*** decide what happens '
+  'today; ***it will not make the cut*** decides what happens never.\n'
+  'The third is the one that needs authority, because the first two are reversible by anybody '
+  'who is still awake at six and the third is not reversible at all. It is also the only one of '
+  'the three that will be quoted back at the person who said it.')),
 
 ('2A', dict(tf=[True, False, False, True],
   text='**Table** — *the paper*: nine markers per thousand words; the reader is somebody '

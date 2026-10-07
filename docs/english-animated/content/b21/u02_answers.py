@@ -6,17 +6,19 @@ ANSWERS = [
   'expensive, because an unsigned institution can say *always* and an archive can date it.')),
 
 ('1B', dict(sort={
-  'columnist': 'a person', 'correspondent': 'a person',
-  'editorial': 'an institution', 'outlet': 'an institution', 'bureau': 'an institution',
-  'masthead': 'an institution', 'voice': 'an institution',
-  'constituency': 'a group of readers', 'audience': 'a group of readers',
-  'readership': 'a group of readers'},
+  'columnist': 'a person', 'correspondent': 'a person', 'spokesperson': 'a person',
+  'editorial': 'an institution', 'outlet': 'an institution', 'voice': 'an institution',
+  'constituency': 'a group you are claiming', 'audience': 'a group you are claiming',
+  'readership': 'a group you are claiming', 'membership': 'a group you are claiming'},
   text='**The two that sit in two columns:** *voice* — a columnist has one and so does the '
-  'paper, and the unit is about the second borrowing the first; and *constituency* — a group of '
-  'readers, and also a group somebody claims to speak for, which is the political sense and the '
-  'reason the word is in this list at all.')),
+  'paper, and the unit is about the second borrowing the first; and *membership* — a group you '
+  'can count to the nearest person, and also the thing an organisation invokes when it wants to '
+  'speak for more people than have agreed to anything.\n\n'
+  '*Constituency* and *audience* are worth arguing over: both are claimed rather than counted, '
+  'which is why they are in the third column and *readership* and *membership* are the two that '
+  'could be checked.')),
 
-('1D', dict(text='1 an unsigned piece · 2 parachute journalism · 3 local to the story · '
+('1D', dict(text='1 an unsigned piece · 2 an outsider\'s account · 3 local to the story · '
   '4 a named writer · 5 whose paper is it\n'
   '**The one that could be checked:** *local to the story*. Where somebody lives is a fact with '
   'an address. The other four are judgements, and two of them are judgements about judgements.')),

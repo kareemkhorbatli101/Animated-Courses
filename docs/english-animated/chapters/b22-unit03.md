@@ -29,8 +29,8 @@ different ways.
 > the tender document, 340 pages · clause 7.4.2, highlighted ·
 > the clarification log, 212 questions · three bid summaries, three prices ·
 > a whiteboard with one noun phrase broken into brackets ·
-> the stacking yard beyond the window · a crane remote-operation console ·
-> the berth 4 drawing · a ruler used as a pointer · a diagram with one word circled ·
+> the gate beyond the window · the night shift roster ·
+> the gate 4 drawing · a ruler used as a pointer · a diagram with one word circled ·
 > a clock at 14.05 · a box of highlighters, all dead
 
 ### 0B · Guess it
@@ -53,17 +53,17 @@ detail as you can manage.* You will record it again at the end of this unit.
 
 Match each word to one layer of the cutaway.
 
-> **throughput** · **bottleneck** · **capacity** · **resilience** · **interoperability** ·
-> **latency** · **utilisation** · **topology** · **inventory** · **headroom** · **cadence** ·
-> **provisioning**
+> **delay** · **bottleneck** · **capacity** · **resilience** · **demand** ·
+> **backlog** · **breakdown** · **maintenance** · **inventory** · **layout** · **shortage** ·
+> **overload**
 
-### 1B · Sort — how much goes through, where it stops, or how the whole thing is built?
+### 1B · Sort — how much there is, where it stops, or how the whole thing is built?
 
-Three columns. **Two of the twelve are the same measurement from opposite ends: one says how much
-is being used and the other how much is left.**
+Three columns. **Two of the twelve are the same event from opposite ends: one is what the system
+does and the other is what you wait for.**
 
-> throughput · bottleneck · resilience · capacity · latency · interoperability · utilisation ·
-> headroom · topology · inventory · cadence · provisioning
+> backlog · bottleneck · resilience · capacity · delay · demand · breakdown ·
+> layout · maintenance · inventory · shortage · overload
 
 ### 1C · Meet — the five phrases a specification turns on
 
@@ -84,8 +84,8 @@ Complete each one, and say which of the five is the only one with a time in it.
 
 1. The terminal is sized for ______ ______ , which occurs on about nine days a year.
 2. ______ ______ ______ is twenty-two hours for a feeder and four days for a deep-sea call.
-3. ______ ______ ______ takes two cranes out for six weeks every second year.
-4. The clause specifies the latency ______ ______ ______ , from console to crane and back.
+3. ______ ______ ______ takes two gates out for six weeks every second year.
+4. The clause specifies the handover ______ ______ ______ , from outgoing shift to incoming.
 5. The specification carries a twenty per cent ______ ______ , which three suppliers priced three ways.
 
 ### 1E · The phrasal verbs, and the three fixed expressions
@@ -133,10 +133,10 @@ three million euros.
 
 **Noticing.** Four versions of the same requirement.
 
-1. *the automated gantry crane handover latency requirements for berth 4*
-2. *the latency requirements for handover of the automated gantry cranes at berth 4*
-3. *the requirements for handover latency on automated gantry cranes at berth 4*
-4. *at berth 4, handover latency on automated gantry cranes shall not exceed 400 ms*
+1. *the night shift supervisor handover delay requirements at gate 4*
+2. *the delay requirements for handover by the night shift supervisors at gate 4*
+3. *the requirements for handover delay by night shift supervisors at gate 4*
+4. *at gate 4, handover by the night shift supervisor shall not exceed twenty minutes*
 
 **All four describe one thing. Find the head noun in each of the first three, and say which of the
 four could be priced without a question.**
@@ -172,15 +172,15 @@ Look at the four versions in Part 2 again.
 
 | | | |
 |---|---|---|
-| **the head** | the last noun before any *of*, *for*, *at* or relative clause | *…latency **requirements** for berth 4* |
-| **pre-modifiers** | adjectives and nouns stacked to the left, no limit | *automated gantry crane handover latency* |
-| **post-modifiers** | prepositional phrases, relatives, participles, to the right | *…for berth 4, which is rail-served* |
-| **the reading rule** | work right to left from the head | *requirements ← latency ← handover ← crane* |
-| **the ambiguity** | each pre-modifier may attach to any noun on its right | *automated* — the crane, or the handover? |
-| **the cure** | one post-modifier, or one verb | *handover latency shall not exceed 400 ms* |
+| **the head** | the last noun before any *of*, *for*, *at* or relative clause | *…delay **requirements** at gate 4* |
+| **pre-modifiers** | adjectives and nouns stacked to the left, no limit | *night shift supervisor handover delay* |
+| **post-modifiers** | prepositional phrases, relatives, participles, to the right | *…at gate 4, which runs all night* |
+| **the reading rule** | work right to left from the head | *requirements ← delay ← handover ← supervisor* |
+| **the ambiguity** | each pre-modifier may attach to any noun on its right | *supervisor* — the handover, or the delay? |
+| **the cure** | one post-modifier, or one verb | *handover shall not exceed twenty minutes* |
 
-> **A noun phrase is a clause with the verb taken out.** *The automation of the cranes was
-> deployed* becomes *crane automation deployment*, and three words have replaced nine. The density
+> **A noun phrase is a clause with the verb taken out.** *The automation of the gates was
+> deployed* becomes *gate automation deployment*, and three words have replaced nine. The density
 > is the point; the cost is that nobody can tell what did what to what.
 
 > **English stacks nouns to the left and English readers parse from the head.** That is why a long
@@ -203,8 +203,8 @@ Look at the four versions in Part 2 again.
 
 Turn each clause into a noun phrase.
 
-> They deploy automation on the cranes. → (1) ______
-> The system schedules the allocation of berths. → (2) ______
+> They deploy automation at the gates. → (1) ______
+> The system schedules the allocation of shifts. → (2) ______
 > Customs clearance was delayed. → (3) ______
 > They integrated the terminal operating system. → (4) ______
 > The waterway network inland was extended. → (5) ______
@@ -213,11 +213,11 @@ Turn each clause into a noun phrase.
 
 Unpack each noun phrase into a sentence with a verb and name every participant.
 
-1. crane automation deployment delays
+1. gate automation deployment delays
 2. container handling terminal capacity constraints
 3. terminal operating system integration requirements
-4. berth allocation scheduling cadence
-5. inland waterway network provisioning headroom
+4. shift allocation scheduling problems
+5. staff training programme delivery targets
 
 ### 3F · Use — open
 
@@ -226,21 +226,21 @@ aloud and then asks *what modifies what?* **Six rounds each.**
 
 ### 3G · Error autopsy
 
-> ✗ *the automated of the gantry crane handover latency*
-> ✗ *the handover latency requirements which for berth 4*
-> ✗ *the berth 4 for handover latency requirements*
+> ✗ *the night of the shift supervisor handover delay*
+> ✗ *the handover delay requirements which at gate 4*
+> ✗ *the gate 4 at handover delay requirements*
 
 For each, name the rule and say what the writer was reaching for.
 
 ### 3H · Check — eight items
 
-> 1. They deploy automation on the cranes. → ______ *(three words)*
-> 2. The system schedules berth allocation. → ______ *(three words)*
+> 1. They deploy automation at the gates. → ______ *(three words)*
+> 2. The system schedules shift allocation. → ______ *(three words)*
 > 3. Customs clearance was delayed. → ______ *(three words)*
 > 4. They integrated the terminal operating system. → ______ *(five words)*
-> 5. In *automated gantry crane handover latency requirements*, name the head.
-> 6. ✗ *the berth 4 for handover latency requirements* → correct it.
-> 7. Rewrite *crane automation deployment delays* as a sentence with two participants.
+> 5. In *night shift supervisor handover delay requirements*, name the head.
+> 6. ✗ *the gate 4 at handover delay requirements* → correct it.
+> 7. Rewrite *gate automation deployment delays* as a sentence with two participants.
 > 8. Rewrite item 5 so that it can only be read one way.
 
 ---
@@ -260,12 +260,12 @@ ends when somebody cannot say what the head is** — and everybody counts the wo
 
 | | |
 |---|---|
-| **packing** | *container handling · terminal operating · customs clearance · cold-chain* |
+| **packing** | *customer service · staff training · food safety · waste collection* |
 | **anchoring the head** | *requirements for · capacity at · access to · integrity of* |
 | **unpacking** | *what modifies what · read it backwards · three nouns in a row* |
 | **pricing it** | *it depends on the volume · that is the constraint · there is no slack* |
 
-**Information gap.** Learner A has clause 7.4.2. Learner B has the drawing of berth 4.
+**Information gap.** Learner A has clause 7.4.2. Learner B has the gate 4 shift roster.
 **Agree on one sentence that a supplier could price.** Ten minutes.
 
 ### 4C · The performance — three minutes ⏺
@@ -300,16 +300,16 @@ The title is **"Two point three million euros."**
 
 **Two point three million euros**
 
-The tender for the berth 4 automation package runs to three hundred and forty pages. Clause 7.4.2
-specifies, in a single noun phrase of fourteen words, the handover latency between the remote
-console and the crane.
+The tender for the gate 4 night-shift package runs to three hundred and forty pages. Clause 7.4.2
+specifies, in a single noun phrase of fourteen words, the maximum handover delay between
+the outgoing and the incoming night supervisor.
 
 Three suppliers bid. Their prices differ by two point three million euros, and the whole of the
 difference sits in that clause.
 
-Supplier A read the phrase as a requirement about the cranes, and priced new control hardware.
+Supplier A read the phrase as a requirement about supervisors, and priced extra night cover.
 Supplier B read it as a requirement about the handover, and priced a software layer. Supplier C
-read *automated* as modifying *handover* rather than *crane*, and priced neither, on the grounds
+read *supervisor* as modifying *delay* rather than *handover*, and priced neither, on the grounds
 that the handover is already automated.
 
 All three readings are grammatical. Two of them are wrong, and the tender does not contain a
@@ -354,8 +354,8 @@ Infer from the text, then check.
 
 ### 5F · Two texts
 
-The clause says *automated gantry crane handover latency requirements for berth 4*.
-The drawing says *console to crane, 400 ms, berth 4 only*.
+The clause says *night shift supervisor handover delay requirements at gate 4*.
+The roster says *outgoing to incoming, twenty minutes, gate 4 only*.
 
 **Which is the specification?** Write two sentences, and use the word *interoperability* in one of
 them.
@@ -370,26 +370,26 @@ them.
 
 Three columns.
 
-> container · handling · deployment · terminal · scheduling · integration · automation ·
+> service · handling · deployment · network · scheduling · integration · automation ·
 > allocation
 
 ### 6B · Chunk completion
 
-1. Rotterdam is Europe's largest ______ ______ ______ . *(three words)*
-2. Berth 4 will be served by ______ ______ ______ ______ . *(four words)*
-3. Barges reach the hinterland over ______ ______ ______ ______ . *(four words)*
-4. Every movement is booked through ______ ______ ______ ______ . *(four words)*
-5. Only two of the four berths have ______ ______ . *(two words)*
-6. The eastern quay was built for ______ ______ ______ . *(three words)*
-7. Eleven of the two hundred claims concern ______ ______ ______ ______ . *(four words)*
-8. Reefer boxes are audited for ______ ______ . *(two words)*
+1. Complaints are answered by ______ ______ ______ ______ . *(four words)*
+2. The gates are reached over ______ ______ ______ ______ . *(four words)*
+3. Every new supervisor completes ______ ______ ______ ______ . *(four words)*
+4. The canteen passed ______ ______ ______ ______ last March. *(four words)*
+5. Each gate must display ______ ______ ______ ______ . *(four words)*
+6. Staff records are held under ______ ______ ______ ______ . *(four words)*
+7. The upper yard is served by ______ ______ ______ ______ . *(four words)*
+8. Bins are emptied by ______ ______ ______ ______ . *(four words)*
 
 ### 6C · Three that are not interchangeable
 
-> *a container handling terminal* · *a terminal operating system* · *a customs clearance delay*
+> *a customer service department* · *a food safety inspection* · *a water supply system*
 
-**Say which one names a place, which one names software, and which one names an event — and in
-each case find the head.**
+**Say which one names a group of people, which one names an event, and which one names a thing —
+and in each case find the head.**
 
 ### 6D · The phrasal verbs and the fixed expressions
 
@@ -404,9 +404,9 @@ Match them, and say which you would use first on a strange clause.
 
 Eight items. Pack or unpack each one as the bracket says.
 
-1. They deploy automation on the cranes. *(pack to three words)*
-2. crane automation deployment delays *(unpack, naming two participants)*
-3. The system schedules the allocation of berths. *(pack to three words)*
+1. They deploy automation at the gates. *(pack to three words)*
+2. gate automation deployment delays *(unpack, naming two participants)*
+3. The system schedules the allocation of shifts. *(pack to three words)*
 4. container handling terminal capacity constraints *(unpack into a sentence with a number)*
 5. Customs clearance was delayed. *(pack to three words)*
 6. terminal operating system integration requirements *(unpack, naming who integrates what)*
@@ -423,23 +423,23 @@ Eight items. Pack or unpack each one as the bracket says.
 
 ### 7A · Hear 🔊 Track 3.3
 
-> *the automated gantry crane handover latency REQUIREMENTS* — one unit, level, falling on the head
-> *the requirements | for handover latency | on automated cranes* — three units, three small falls
-> *handover latency | shall not exceed | four hundred milliseconds* — a sentence, and the number lands
+> *the night shift supervisor handover delay REQUIREMENTS* — one unit, level, falling on the head
+> *the requirements | for handover delay | on night shifts* — three units, three small falls
+> *the handover | shall not exceed | twenty minutes* — a sentence, and the number lands
 
 ### 7B · Say
 
 Say all three. Then say this without pausing anywhere:
 
-> *the automated gantry crane handover latency requirements* — eight words, one breath, one fall,
+> *the night shift supervisor handover delay requirements* — seven words, one breath, one fall,
 > and if you pause in the middle your listener will attach the next word to the wrong noun.
 
 ### 7C · Make it mean something
 
 Say these two:
 
-> *automated | gantry crane handover* — the pause makes *automated* modify the whole thing
-> *automated gantry crane | handover* — and now it modifies the crane only
+> *night shift | supervisor handover* — the pause makes *night shift* modify the whole thing
+> *night shift supervisor | handover* — and now it modifies the supervisor only
 
 **A pause inside a noun phrase is a bracket you can hear,** and in a specification read aloud it is
 often the only thing telling a supplier which reading you meant.
@@ -457,14 +457,14 @@ each time.** Three times, faster.
 
 ### 8A · Read the model
 
-> At berth 4, handover latency between the remote console and the crane shall not exceed four
-> hundred milliseconds. `[one sentence, one verb, one number: nothing here can be read two ways]`
+> At gate 4, handover between the outgoing and the incoming supervisor shall not exceed twenty
+> minutes. `[one sentence, one verb, one number: nothing here can be read two ways]`
 >
-> This applies to all four automated rail-mounted gantry cranes, and to no other equipment.
+> This applies to all four night shift supervisor posts, and to no other staff.
 > `[a four-word pre-modified phrase, which is safe because the head is the last word and the scope
 > is stated]`
 >
-> Measurement shall be end to end, from the operator's input to confirmed crane response, in
+> Measurement shall be end to end, from the outgoing supervisor's first word to confirmed handover, in
 > accordance with the test method at annex C. `[two post-modifiers doing what six pre-modifiers
 > were doing before, and twice as long]`
 >
@@ -480,7 +480,7 @@ each time.** Three times, faster.
 
 ### 8B · The anti-model
 
-> Automated rail-mounted gantry crane remote operation handover latency performance requirements for berth 4 container handling terminal operations shall be in accordance with applicable system integration provisioning standards.
+> Night shift supervisor handover delay performance monitoring requirements for gate 4 staff scheduling allocation purposes shall be in accordance with applicable service integration deployment standards.
 
 One sentence, twenty-six words, fourteen of them nouns, no number, and three defensible readings.
 **Rewrite it as four sentences, each with one number or one reference.**
@@ -555,7 +555,7 @@ Half the class has clause 7.4.2. Half has the three bid summaries.
 
 ### 10B · Simplify — for one reader
 
-A supplier writes: *Does "automated" apply to the crane or to the handover?*
+A supplier writes: *Does "supervisor" apply to the handover or to the delay?*
 **Reply in four sentences,** and publish the answer rather than sending it.
 
 ### 10C · Online
@@ -633,19 +633,19 @@ Write **three sentences**: the decision, the evidence, and the clause you would 
 
 ### 12A · Recycle — fifteen items
 
-> 1. They deploy automation on the cranes. → ______ *(three words)*
-> 2. The system schedules berth allocation. → ______ *(three words)*
+> 1. They deploy automation at the gates. → ______ *(three words)*
+> 2. The system schedules shift allocation. → ______ *(three words)*
 > 3. Customs clearance was delayed. → ______ *(three words)*
 > 4. Rotterdam is Europe's largest ______ ______ ______ . *(three words)*
 > 5. Every movement is booked through ______ ______ ______ ______ . *(four words)*
 > 6. Barges reach the hinterland over ______ ______ ______ ______ . *(four words)*
-> 7. Only two berths have ______ ______ . *(two words)*
+> 7. Only two gates have ______ ______ . *(two words)*
 > 8. Reefer boxes are audited for ______ ______ . *(two words)*
 > 9. The terminal is sized for ______ ______ . *(two words)*
 > 10. Latency is measured ______ ______ ______ . *(three words)*
 > 11. ______ ______ ______ ______ ______ ______ . *(six words — the test to run on a strange clause)*
 > 12. ______ ______ ______ ______ . *(four words — the end of the argument)*
-> 13. The queue will ______ ______ if one crane stops. *(two words)*
+> 13. The queue will ______ ______ if one gate stops. *(two words)*
 > 14. Spare capacity is what you ______ ______ in advance. *(two words)*
 > 15. The new system will ______ ______ in April. *(two words)*
 
@@ -667,15 +667,15 @@ Record 0C again. **Compare.** How many *of*-phrases did you use the first time?
 
 ### 12E · Glossary — fifty items, as a map
 
-> **HOW MUCH GOES THROUGH** · throughput · capacity · utilisation · inventory
-> **WHERE IT STOPS** · bottleneck · latency · headroom
-> **HOW IT IS BUILT** · resilience · interoperability · topology · cadence · provisioning
+> **HOW MUCH THERE IS** · capacity · demand · inventory · shortage
+> **WHERE IT STOPS** · bottleneck · delay · backlog · overload
+> **HOW IT IS BUILT AND KEPT UP** · resilience · layout · maintenance · breakdown
 > **THE FIVE SPECIFICATION PHRASES** · a single point of failure · the critical path · spare capacity · lead time · a service level
 > **THE NUMBERS IN IT** · peak demand · end to end · scheduled maintenance · turnaround time · design margin
 > **WHAT ENGINEERS DO** · scale back · build in · roll out · stack up · take up · set up
 > **IN THE ROOM** · it depends on the volume · that is the constraint · there is no slack
-> **THE STACKABLE NOUNS** · container · handling · terminal · automation · deployment · integration · allocation · scheduling
-> **THE PHRASES THEY BUILD** · a container handling terminal · an automated stacking crane · the inland waterway network · a terminal operating system · rail-served capacity · deep-water access · a customs clearance delay · cold-chain integrity
+> **THE STACKABLE NOUNS** · service · handling · network · automation · deployment · integration · allocation · scheduling
+> **THE PHRASES THEY BUILD** · a customer service department · a city transport network · a staff training programme · a food safety inspection · an emergency response plan · a data protection policy · a water supply system · a waste collection service
 > **TAKING ONE APART** · three nouns in a row · what modifies what · read it backwards
 
 ### 12F · Next

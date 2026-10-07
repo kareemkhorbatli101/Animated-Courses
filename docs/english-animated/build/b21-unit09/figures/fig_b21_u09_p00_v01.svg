@@ -186,10 +186,10 @@
 <text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Twelve things to find. Three of them are the same sentence written for three readers.</text>
 <rect x="269.28" y="360.0" width="198.72000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="464" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the style guide, 214 pages</text>
-<rect x="242.39999999999998" y="490.0" width="225.60000000000002" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="464" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the page proof, above the fold</text>
-<rect x="348" y="620.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="464" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the news list</text>
+<rect x="235.67999999999998" y="490.0" width="232.32000000000002" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="464" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the page proof, top of the page</text>
+<rect x="329.76" y="620.0" width="138.24" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="464" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the running order</text>
 <text x="250.0" y="286" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the paper</text>
 <rect x="795.68" y="360.0" width="232.32000000000002" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1024" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the newsletter draft, on screen</text>
@@ -200,13 +200,13 @@
 <text x="800.0" y="286" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the newsletter</text>
 <rect x="1382.72" y="360.0" width="185.28000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
 <text x="1564" y="379.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the app preview, held up</text>
-<rect x="1382.72" y="490.0" width="185.28000000000003" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="1564" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the wire feed, scrolling</text>
+<rect x="1402.88" y="490.0" width="165.12" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1564" y="509.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the circulation board</text>
 <rect x="1448" y="620.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
-<text x="1564" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the spike</text>
+<text x="1564" y="639.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the brief</text>
 <text x="1350.0" y="286" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the app</text>
 <line x1="115" y1="706" x2="115" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
-<text x="115" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the spike, with two stories on it</text>
+<text x="115" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the brief for tomorrow, one page</text>
 <line x1="200" y1="706" x2="200" y2="764" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
 <text x="200" y="780" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Dennis - the guide is 214 pages</text>
 <line x1="300" y1="706" x2="300" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>

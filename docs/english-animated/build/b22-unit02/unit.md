@@ -51,25 +51,25 @@ naming everybody and once naming nobody.* You will record it again at the end of
 ## Part 1 · Vocabulary Lab 1 ◆ **B · THE SYSTEM**
 
 
-![A cutaway of a port operation in four layers, from the goods and the place through the people who move them and the permissions, to who answers for it.](figures/fig_b22_u02_p01_v02.png){width=6.6in}
+![A cutaway of an operation in four layers, from what moved and what should have happened through who was supposed to see it, to what follows when it fails.](figures/fig_b22_u02_p01_v02.png){width=6.6in}
 
-*One operation, in section — Twelve words, and the layer each one lives on. Only two of them contain people.*
+*One operation, in section — Twelve words, and the layer each one lives on. Only one of them contains a person.*
 
 
 ### 1A · Meet — the words of an operation
 
 Match each word to one layer of the cutaway.
 
-> **consignment** · **manifest** · **berth** · **quay** · **gantry** · **stevedore** ·
-> **haulier** · **clearance** · **custody** · **liability** · **oversight** · **escalation**
+> **consignment** · **procedure** · **authorisation** · **supervisor** · **record** · **negligence** ·
+> **clearance** · **custody** · **liability** · **oversight** · **escalation** · **breach**
 
-### 1B · Sort — the goods and the place, the people who move them, or who answers for it?
+### 1B · Sort — what moved, who was supposed to see it, or what happens when it goes wrong?
 
-Three columns. **Two of the twelve name people. Count how many times either of them appears in the
-report in Part 5.**
+Three columns. **One of the twelve names a person and eleven name things, which is the shape of
+the report in Part 5. Count how often that one appears in it.**
 
-> consignment · stevedore · clearance · berth · liability · manifest · haulier · oversight ·
-> quay · custody · gantry · escalation
+> consignment · supervisor · clearance · breach · liability · procedure · negligence · oversight ·
+> authorisation · custody · record · escalation
 
 ### 1C · Meet — the five phrases an incident report lives on
 
@@ -707,9 +707,9 @@ Record 0C again. **Compare.** Which of your two versions was easier, and what do
 
 ### 12E · Glossary — fifty items, as a map
 
-> **THE GOODS AND THE PLACE** · consignment · manifest · berth · quay · gantry
-> **THE PEOPLE WHO MOVE THEM** · stevedore · haulier
-> **WHO ANSWERS FOR IT** · clearance · custody · liability · oversight · escalation
+> **WHAT MOVED, AND WHAT WAS WRITTEN DOWN** · consignment · record · procedure · clearance
+> **WHO WAS SUPPOSED TO SEE IT** · supervisor · authorisation · oversight
+> **WHAT HAPPENS WHEN IT GOES WRONG** · breach · negligence · liability · custody · escalation
 > **THE REPORT'S FURNITURE** · chain of custody · standard operating procedure · the shift handover · a near miss · root cause
 > **THE SENTENCES IT USES** · at some point · the goods were released · a procedural failure · on whose authority · signed off by
 > **WHAT THE SHIFT DOES** · sign off · hand over · flag up · look into · follow up · put down to
