@@ -23,6 +23,7 @@ people:
       - commutes twenty minutes by bus
       - starts work at nine
       - is studying for an exam; leaves work early on Tuesdays
+      - can find any book in under a minute
       - knocked on Yuki's door on her fifth day with a note
     first_unit: 1
   Tomas:
@@ -35,6 +36,7 @@ people:
     facts:
       - usually works three days a week
       - some weeks works nights; sleeps mornings, gets up at four
+      - is patient with people who are frightened
       - finishes a night shift around eight in the morning
       - worked eleven of the last twelve Saturday nights
       - missed Maya's birthday dinner and sent a photograph of the cake
@@ -83,6 +85,8 @@ people:
       - keeps forty years of newspapers
       - owns a coat older than Dani, relined twice, with different buttons
       - mends what he has and buys almost nothing
+      - can play the piano, badly, and says badly is enough
+      - since February cannot carry a full bag up four floors without stopping
     first_unit: 1
   Yuki:
     full: Yuki Tanaka
@@ -106,6 +110,7 @@ walk_ons:
   - {name: the Iceland trial, unit: 5, country: Iceland}
   - {name: the Lima railway, unit: 6, country: Peru}
   - {name: the jua kali workshops, unit: 7, country: Kenya}
+  - {name: the Toronto tool library, unit: 8, country: Canada}
 
 places:
   - Alder Street

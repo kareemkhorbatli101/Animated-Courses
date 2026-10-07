@@ -22,3 +22,14 @@ units:
   7:
     book: A2.1
     words: [quality, value, brand, battery, screen, deal, repair, model, second-hand, offer]
+  8:
+    book: A2.1
+    words: [favour, lend, borrow, advice, course, lesson, beginner, patient, instrument, able]
+
+# Fixed expressions that merely contain a glossary word without carrying its
+# meaning. Measured in the source: it says `of course` seven times, from Unit 1
+# on, as a discourse marker, and uses the noun `course` only in its own back
+# matter ("End of the Course"). So `of course` is one lexical unit and is not an
+# occurrence of `course`. E26 strips these before it matches.
+fixed_phrases:
+  - of course

@@ -55,6 +55,13 @@ markers:
 # PLUS track carries narrative past from Unit 1; the CORE track does not.
 # Only the past-simple points are exempt there; every other point obeys the
 # spine everywhere, PLUS included.
+# Rubric voice is out of E06's scope on purpose, and the source settles it.
+# Its Unit 1 carries, verbatim: '-> Harvest: you will see the present simple
+# and present continuous again in the Part 5 reading', '3. What should Khaled
+# do if he is not sure?' and a Part 9 Answer frame built on 'I think ... should'.
+# So the book's instructions to the learner use `will` and `should` from Unit 1
+# while its teaching sentences do not. E06 therefore reads blockquote prose and
+# skips lines opening with a device label; widening it would fail the source book.
 narrative_exempt_parts: ['Part 7', 'Part 8', 'Part 9']
 narrative_exempt_points: [5, 6]
 # Regexes stripped before any marker is applied.

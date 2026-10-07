@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "A library then",
+   "size": 34,
+   "bbox": [
+    233.0,
+    67.8,
+    497.0,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "books",
+   "size": 27,
+   "bbox": [
+    325.1,
+    282.5,
+    404.9,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a card",
+   "size": 27,
+   "bbox": [
+    322.9,
+    328.5,
+    407.1,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "quiet",
+   "size": 27,
+   "bbox": [
+    330.5,
+    374.5,
+    399.5,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "A library now",
+   "size": 34,
+   "bbox": [
+    977.4,
+    67.8,
+    1232.6,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a drill, a bike, a ladder",
+   "size": 27,
+   "bbox": [
+    953.8,
+    282.5,
+    1256.2,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a small membership",
+   "size": 27,
+   "bbox": [
+    967.3,
+    328.5,
+    1242.7,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "somebody teaches you",
+   "size": 27,
+   "bbox": [
+    948.3,
+    374.5,
+    1261.7,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "What a library used to lend and what it lends now. Then: books, a card and quiet. Now: a drill, a bike or a ladder, a small membership, and somebody who teaches you how to use it.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "7ce92c593b5241d079918ac3bbc76e5e76e773ec424575731445076df254c867"
+}

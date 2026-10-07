@@ -56,7 +56,7 @@ def e02(u, ctx):
     ex = _exempt(u, ctx)
     off = {t.lower() for t in _running(u)
            if t.lower() not in ex and L.is_b1plus(t) and not CONTR.match(t.lower())}
-    return expect(not off, f'ungloss ed B1+ words: {sorted(off)[:10]}')
+    return expect(not off, f'{len(off)} unglossed B1+ words: {sorted(off)[:10]}')
 
 @check('E03', 'golden.language.mean_sentence_words_max', 'Mean sentence length <= 14 words')
 def e03(u, ctx):
@@ -325,6 +325,9 @@ def e26(u, ctx):
     later = {str(w).lower() for un, rec in ctx.lexis['units'].items()
              if int(un) > u.num for w in rec.get('words', [])}
     body = ' '.join(u.sentences).lower()
+    # `of course` is a discourse marker, not the noun `course`; see lexis.fixed_phrases.
+    for ph in ctx.lexis.get('fixed_phrases', []):
+        body = body.replace(str(ph).lower(), ' ')
     glossed = ' '.join(l for l in u.lines if '**Gloss:**' in l).lower()
     hits = [w for w in later if re.search(rf'\b{re.escape(w)}\b', body) and w not in glossed]
     return expect(not hits, f'future glossary words used unglossed: {sorted(hits)[:8]}')

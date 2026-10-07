@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "language exchange",
+   "size": 32,
+   "bbox": [
+    104.3,
+    217.2,
+    455.7,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thirty minutes each,",
+   "size": 26,
+   "bbox": [
+    148.5,
+    269.1,
+    411.5,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody pays",
+   "size": 26,
+   "bbox": [
+    196.8,
+    301.1,
+    363.2,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Finland",
+   "size": 32,
+   "bbox": [
+    653.1,
+    217.2,
+    786.9,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "an evening college in",
+   "size": 26,
+   "bbox": [
+    580.9,
+    269.1,
+    859.1,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "almost every town",
+   "size": 26,
+   "bbox": [
+    599.0,
+    301.1,
+    841.0,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Canada",
+   "size": 32,
+   "bbox": [
+    1093.0,
+    217.2,
+    1227.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "libraries lend a bike, a",
+   "size": 26,
+   "bbox": [
+    1015.9,
+    269.1,
+    1304.1,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "drill, an hour with a tutor",
+   "size": 26,
+   "bbox": [
+    997.5,
+    301.1,
+    1322.5,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three ways people teach each other: a language exchange where each speaks for thirty minutes and nobody pays, an evening college in almost every town in Finland, and libraries in Canada that lend a bike, a drill or an hour with a tutor.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "dbcfb7a89b28b122cd6f9f1dba6573bf08abcd41064b39ea9048cbfa17ed00d7"
+}

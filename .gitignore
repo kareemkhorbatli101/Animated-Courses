@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# LibreOffice leaves these beside a PDF it is converting
+.~lock.*#
+lu*.tmp

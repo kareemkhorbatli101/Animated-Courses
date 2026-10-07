@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 8.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Amina",
+   "size": 32,
+   "bbox": [
+    124.2,
+    287.0,
+    409.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking a favour",
+   "size": 26,
+   "bbox": [
+    166.3,
+    356.9,
+    367.1,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 8.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and the teacher",
+   "size": 32,
+   "bbox": [
+    532.9,
+    287.0,
+    907.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the first lesson",
+   "size": 26,
+   "bbox": [
+    623.6,
+    356.9,
+    816.4,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 8.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "five people, five favours",
+   "size": 26,
+   "bbox": [
+    1016.4,
+    356.9,
+    1330.2,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Dani asks Amina a favour, Yuki has her first swimming lesson, and Amina describes five people and the favours they ask.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "845bde75ab85eb076df6a94488404bb45a681a00c9c56a2de2e46ea5a206a55c"
+}

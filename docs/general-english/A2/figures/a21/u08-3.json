@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  571
+ ],
+ "bounds": [
+  67.0,
+  28.3,
+  1373.0,
+  542.3
+ ],
+ "texts": [
+  {
+   "text": "Swimming",
+   "size": 34,
+   "bbox": [
+    176.0,
+    217.3,
+    374.6,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Driving",
+   "size": 34,
+   "bbox": [
+    650.5,
+    217.3,
+    789.5,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Cooking",
+   "size": 34,
+   "bbox": [
+    1087.4,
+    217.3,
+    1241.9,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A language",
+   "size": 34,
+   "bbox": [
+    167.4,
+    488.3,
+    383.3,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "An instrument",
+   "size": 34,
+   "bbox": [
+    582.7,
+    488.3,
+    857.3,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Sewing",
+   "size": 34,
+   "bbox": [
+    1095.1,
+    488.3,
+    1234.2,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Six things people learn, each on its own card: swimming, driving, cooking, a language, an instrument and sewing.",
+ "placed_in": [
+  4.989583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "a06ec57f455d489975b3a02a9aa0252ee564e56c8b2a4166c6d9b714e3eaf301"
+}

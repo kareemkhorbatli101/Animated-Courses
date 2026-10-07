@@ -50,7 +50,22 @@ def b08(u, ctx):
     return expect(not bad, '; '.join(bad))
 
 _quota('word_bank',         'B09', '`Word bank:` in 4-5')
-_quota('gloss',             'B10', '`Gloss:` == 4')
+@check('B10', 'golden.devices.gloss', '`Gloss:` == 4, each carrying 2-5 items')
+def b10(u, ctx):
+    d = ctx.spec['devices']['gloss']
+    n = _count(u, d['pattern'])
+    if n != d['exact']:
+        return fail(f'gloss = {n}, want {d["exact"]}')
+    lo, hi = d['items_min'], d['items_max']
+    bad = []
+    for l in u.lines:
+        if '**Gloss:**' not in l:
+            continue
+        k = len([x for x in l.split('\u00b7') if x.strip()])
+        if not lo <= k <= hi:
+            bad.append(f'{k} items: {l[:60]}')
+    return expect(not bad, f'gloss blocks outside {lo}-{hi}: {bad}')
+
 _quota('useful_language',   'B11', 'Useful language/phrases/questions == 5')
 _quota('model_exchange',    'B12', '`Model exchange:` == 2')
 

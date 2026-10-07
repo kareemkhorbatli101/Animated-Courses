@@ -559,6 +559,24 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def politeness_ladder(f: Fig, x, y, w, h):
+    """A ladder: the plainest ask at the bottom, the politest at the top. The
+    rungs are what the learner labels."""
+    cx = x + w * 0.46
+    lw = w * 0.52
+    top, bot = y + 60, y + h - 70
+    f.rect(cx - lw / 2, top, 22, bot - top, fill=P['tan'], stroke=P['ink'], r=6)
+    f.rect(cx + lw / 2 - 22, top, 22, bot - top, fill=P['tan'], stroke=P['ink'], r=6)
+    n = 5
+    step = (bot - top - 60) / (n - 1)
+    for i in range(n):
+        ry = top + 30 + i * step
+        f.rect(cx - lw / 2 + 18, ry, lw - 36, 16, fill=P['card'],
+               stroke=P['ink'], r=4)
+    icon(f, 'person', x + w * 0.10, bot - 40, s=0.46)
+    icon(f, 'cup', x + w * 0.10, top + 40, s=0.40)
+
+
 def compare_pair(f: Fig, x, y, w, h):
     """Two objects side by side, so wider, deeper, thicker, lighter and stronger
     are visible rather than asserted."""

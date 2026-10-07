@@ -101,7 +101,11 @@ devices:
   check_before:       {exact: 5,  pattern: '\*\*Check before you finish:\*\*'}
   useful_language:    {exact: 5,  pattern: 'Useful (language|phrases|questions):'}
   word_bank:          {min: 4, max: 5, pattern: '\*\*Word bank:\*\*'}
-  gloss:              {exact: 4,  pattern: '\*\*Gloss:\*\*'}
+  # Source Gloss blocks carry 2 or 3 items (measured: 25 threes, 15 twos).
+  # We allow up to 5 because E02 enforces a lexical band the source never
+  # enforced on itself, so some blocks must carry a fourth or fifth word.
+  # Recorded as a departure, not a defect; B10 caps it so it cannot drift.
+  gloss:              {exact: 4,  pattern: '\*\*Gloss:\*\*', items_min: 2, items_max: 5}
   before_you_listen:  {exact: 3,  pattern: 'Before you listen:'}
   model_exchange:     {exact: 2,  pattern: 'Model exchange:'}
   stretch:            {exact: 2,  pattern: '\*Stretch \[PLUS\]:'}

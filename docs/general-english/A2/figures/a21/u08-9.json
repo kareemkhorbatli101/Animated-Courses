@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "week one",
+   "size": 30,
+   "bbox": [
+    89.0,
+    269.5,
+    250.2,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "clearly bad",
+   "size": 30,
+   "bbox": [
+    351.3,
+    269.5,
+    538.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "week six",
+   "size": 30,
+   "bbox": [
+    646.9,
+    269.5,
+    793.1,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a little better",
+   "size": 24,
+   "bbox": [
+    904.5,
+    273.4,
+    1085.9,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one year",
+   "size": 30,
+   "bbox": [
+    1196.5,
+    269.5,
+    1344.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "Learning a skill in five stages, each with an arrow to the next: week one, being clearly bad, week six, a little better, and one year. The first six weeks are the part most adults never get past.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "c88b739ecad17f77804ac00e7a3b7df2d60639f1566a6c8163f8a22f424ff01a"
+}
