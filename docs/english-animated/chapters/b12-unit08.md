@@ -119,7 +119,7 @@ departments read this differently. **Guess: what is the biggest disagreement?**
 
 **Listen again. Choose the best answer.**
 
-1. The four numbers range from **41 to 41 / 31 to 58 / 38 to 44**.
+1. The four numbers range from **38 to 44 / 38 to 58 / 41 to 41**.
 2. The report's own definition is **in a footnote / in the text / nowhere**.
 3. The phrase that causes it is **an average / 41 days / the patients**.
 4. Nobody has raised it because **nobody noticed / everybody noticed / nobody owns the report**.
