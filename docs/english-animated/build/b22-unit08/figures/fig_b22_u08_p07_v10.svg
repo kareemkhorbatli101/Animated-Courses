@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860">
+<title>Quotation marks you can hear</title>
+<desc>Four pitch contours over reported speech showing audible quotation marks, an unmarked report, a stressed quoted word and a two-remove report.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="860" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="230" x2="1360" y2="230" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="410" x2="1360" y2="410" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="590" x2="1360" y2="590" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="770" x2="1360" y2="770" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<path d="M 200 209 L 393 220 L 587 222 L 780 222 L 973 222 L 1167 214 L 1360 266" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">He said - I assumed the gantry was clear - and stopped.</text>
+<path d="M 200 389 L 393 392 L 587 394 L 780 400 L 973 405 L 1167 420 L 1360 446" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">He said he assumed the gantry was clear.</text>
+<path d="M 200 574 L 393 580 L 587 574 L 780 559 L 973 541 L 1167 569 L 1360 616" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">He said he KNEW.</text>
+<path d="M 200 754 L 393 757 L 587 760 L 780 760 L 973 765 L 1167 775 L 1360 801" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">He is understood to have told them so.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Quotation marks you can hear</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Two pauses and a flatter, faster run: that is what a quotation sounds like.</text>
+<text x="1370" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">two pauses, and the quoted run is flat</text>
+<text x="1370" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">no pauses: the words are yours now</text>
+<text x="1370" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">stressing a quoted word is an argument</text>
+<text x="1370" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">two removes, and the tune flattens with it</text>
+</g>
+</svg>

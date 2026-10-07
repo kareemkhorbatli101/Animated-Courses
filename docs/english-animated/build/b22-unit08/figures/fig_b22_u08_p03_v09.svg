@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>One sentence, six verbs, six distances</title>
+<desc>A branching diagram from one reported statement into six attribution verbs, each with what the reporter is committing to.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="410.0" r="12" fill="#1C2B33"/>
+<text x="160" y="452.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">&quot;the gantry was clear&quot;</text>
+</g>
+<g id="20_subject">
+<path d="M 160 410.0 C 440.6 410.0 440.6 160.0 721.2 160.0" fill="none" stroke="#9AA7AE" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#9AA7AE"/>
+<path d="M 160 410.0 C 440.6 410.0 440.6 264.0 721.2 264.0" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,264.0 705.2,256.0 705.2,272.0" fill="#A8372E"/>
+<path d="M 160 410.0 C 440.6 410.0 440.6 368.0 721.2 368.0" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,368.0 705.2,360.0 705.2,376.0" fill="#C86B2B"/>
+<path d="M 160 410.0 C 440.6 410.0 440.6 472.0 721.2 472.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,472.0 705.2,464.0 705.2,480.0" fill="#1F4E5F"/>
+<path d="M 160 410.0 C 440.6 410.0 440.6 576.0 721.2 576.0" fill="none" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,576.0 705.2,568.0 705.2,584.0" fill="#D9A441"/>
+<path d="M 160 410.0 C 440.6 410.0 440.6 680.0 721.2 680.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,680.0 705.2,672.0 705.2,688.0" fill="#2E6F5E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One sentence, six verbs, six distances</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The attribution verb is a claim by the reporter, not by the speaker.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#9AA7AE" text-anchor="start" font-weight="700" font-style="normal">said</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">NEUTRAL: the reporter takes no position at all</text>
+<text x="739.2" y="256.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="start" font-weight="700" font-style="normal">claimed</text>
+<text x="739.2" y="282.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">DOUBT: the reporter signals they do not endorse it</text>
+<text x="739.2" y="360.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">conceded</text>
+<text x="739.2" y="386.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">GROUND GIVEN: the speaker lost something by saying</text>
+<text x="739.2" y="403.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">it</text>
+<text x="739.2" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">maintained</text>
+<text x="739.2" y="490.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">GROUND HELD: the speaker was under pressure and held</text>
+<text x="739.2" y="568.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="700" font-style="normal">is said to have</text>
+<text x="739.2" y="594.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">TWO REMOVES: somebody unnamed is the source</text>
+<text x="739.2" y="672.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">stopped short of</text>
+<text x="739.2" y="698.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">AN ABSENCE: nothing was said, and that is the news</text>
+</g>
+</svg>

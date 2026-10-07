@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<title>Four drafts, and which half each one keeps</title>
+<desc>Four drafts of a committee position annotated to show the connector used, what follows it, and which fact ends up in the main clause.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1100" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="890" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="890" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">ETHICS COMMITTEE  -  STANDING POSITION  -  DRAFTS 1 TO 4</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1. &quot;While the programme regrettably entails some reduction in</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">headcount, the safety benefits are substantial.&quot;</text>
+<text x="140" y="271.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2. &quot;The safety benefits are substantial, albeit at a cost in</text>
+<text x="140" y="293.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">headcount.&quot;</text>
+<text x="140" y="329.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3. &quot;For all the safety gain, ninety-four posts go, of which the</text>
+<text x="140" y="350.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">scheme places sixty-one.&quot;</text>
+<text x="140" y="386.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4. &quot;Granted, the safety gain is real. Nonetheless, thirty-three</text>
+<text x="140" y="408.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">people will not be placed.&quot;</text>
+<line x1="130" y1="444.0" x2="910" y2="444.0" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="448.0" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="468.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">DRAFT</text>
+<text x="403.33333333333337" y="468.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT FOLLOWS THE CONNECTOR</text>
+<text x="656.6666666666667" y="468.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">READER KEEPS</text>
+<text x="150.0" y="498.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1  WHILE</text>
+<text x="403.33333333333337" y="498.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A FULL CLAUSE</text>
+<text x="656.6666666666667" y="498.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE SAFETY GAIN</text>
+<line x1="140" y1="508.0" x2="900" y2="508.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="528.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2  ALBEIT</text>
+<text x="403.33333333333337" y="528.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A PHRASE, NO VERB</text>
+<text x="656.6666666666667" y="528.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE SAFETY GAIN</text>
+<line x1="140" y1="538.0" x2="900" y2="538.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="558.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3  FOR ALL</text>
+<text x="403.33333333333337" y="558.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A NOUN PHRASE</text>
+<text x="656.6666666666667" y="558.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE 94 POSTS</text>
+<line x1="140" y1="568.0" x2="900" y2="568.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="588.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4  GRANTED ... NONETHELESS</text>
+<text x="403.33333333333337" y="588.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">TWO SENTENCES</text>
+<text x="656.6666666666667" y="588.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE 33</text>
+<line x1="140" y1="598.0" x2="900" y2="598.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="618.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NUMBERS IN THE CONCESSION, 1</text>
+<text x="403.33333333333337" y="618.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="656.6666666666667" y="618.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="628.0" x2="900" y2="628.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="648.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NUMBERS IN THE CONCESSION, 3</text>
+<text x="403.33333333333337" y="648.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2</text>
+<text x="656.6666666666667" y="648.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="658.0" x2="900" y2="658.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="678.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">QUOTED BY THE UNION</text>
+<text x="403.33333333333337" y="678.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">DRAFT 3</text>
+<text x="656.6666666666667" y="678.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="688.0" x2="900" y2="688.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="708.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">RETRAINING TAKE-UP AFTER</text>
+<text x="403.33333333333337" y="708.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">51% TO 84%</text>
+<text x="656.6666666666667" y="708.0" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="718.0" x2="900" y2="718.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="746.0" x2="910" y2="746.0" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="782.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT EACH CONNECTOR TAKES</text>
+<text x="140" y="812.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">while / whilst</text>
+<text x="410" y="812.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a full clause, with a subject and a verb</text>
+<text x="140" y="844.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">albeit</text>
+<text x="410" y="844.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a phrase only - never a clause</text>
+<text x="140" y="876.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">for all</text>
+<text x="410" y="876.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a noun phrase, and it concedes a quantity</text>
+<text x="140" y="908.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">notwithstanding</text>
+<text x="410" y="908.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a noun phrase, before or after it</text>
+<line x1="130" y1="940.0" x2="910" y2="940.0" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="962.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Draft 1 concedes &quot;some reduction in headcount&quot;, which has no</text>
+<text x="140" y="983.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">number in it and therefore costs the port nothing to say.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four drafts, and which half each one keeps</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same two facts, four orders, and one concession that costs the port nothing.</text>
+<circle cx="934" cy="191.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 191.2 L 1024 191.2 L 1024 191.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="196.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">A concession with no number is not</text>
+<text x="1040" y="216.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">a concession</text>
+<circle cx="934" cy="298.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 298.0 L 1024 298.0 L 1024 298.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="303.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Albeit takes a phrase, and a</text>
+<text x="1040" y="323.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">learner writing albeit it has been</text>
+<text x="1040" y="343.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">caught</text>
+<circle cx="934" cy="387.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 387.0 L 1024 387.0 L 1024 387.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="392.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two numbers inside the concession,</text>
+<text x="1040" y="412.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">and the cost in the main clause</text>
+<circle cx="934" cy="671.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 671.8 L 1024 671.8 L 1024 671.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="676.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Draft 3 is the one the other side</text>
+<text x="1040" y="697.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">quoted unaltered</text>
+<circle cx="934" cy="965.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 965.5 L 1024 965.5 L 1024 965.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="970.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The concession that costs you</text>
+<text x="1040" y="990.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">something is the one believed</text>
+</g>
+</svg>

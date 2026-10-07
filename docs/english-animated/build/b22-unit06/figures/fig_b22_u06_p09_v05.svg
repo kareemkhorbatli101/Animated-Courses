@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+<title>Four concessions, all of them with but</title>
+<desc>A study sheet of learner paragraphs that concede repeatedly with but, showing what the listener hears and the single structured concession that would replace them.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="940" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="730" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="730" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">STUDY FILE  -  THE CONCESSION YOU MAKE BY ACCIDENT</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Conceding with but is correct and puts the halves the right way</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">round. Doing it four times in a paragraph leaves eight halves</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">and no position.</text>
+<line x1="130" y1="293.25" x2="910" y2="293.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="297.25" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT WAS SAID</text>
+<text x="403.33333333333337" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">BUTS</text>
+<text x="656.6666666666667" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT WOULD REPLACE IT</text>
+<text x="150.0" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">GOOD BUT EXPENSIVE BUT IT WORKS</text>
+<text x="403.33333333333337" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2</text>
+<text x="656.6666666666667" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ALBEIT EXPENSIVE</text>
+<line x1="140" y1="357.25" x2="900" y2="357.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">I AGREE BUT ALSO I DISAGREE</text>
+<text x="403.33333333333337" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1</text>
+<text x="656.6666666666667" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">UP TO A POINT</text>
+<line x1="140" y1="387.25" x2="900" y2="387.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">IT IS TRUE BUT NOT ALWAYS TRUE</text>
+<text x="403.33333333333337" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1</text>
+<text x="656.6666666666667" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WHILE IT IS TRUE</text>
+<line x1="140" y1="417.25" x2="900" y2="417.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HE IS RIGHT BUT SO IS SHE</text>
+<text x="403.33333333333337" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1</text>
+<text x="656.6666666666667" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">BOTH THINGS ARE TRUE</text>
+<line x1="140" y1="447.25" x2="900" y2="447.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">IN A 90-SECOND TURN</text>
+<text x="403.33333333333337" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">7</text>
+<text x="656.6666666666667" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THREE, ONE EACH</text>
+<line x1="140" y1="477.25" x2="900" y2="477.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="505.25" x2="910" y2="505.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="541.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE THREE STRUCTURES WORTH OWNING</text>
+<text x="140" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">although / while</text>
+<text x="410" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a clause: the full, writeable concession</text>
+<text x="140" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">albeit</text>
+<text x="410" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a phrase: the cheapest concession in English</text>
+<text x="140" y="635.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">granted / admittedly</text>
+<text x="410" y="635.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">a whole move in one word, spoken</text>
+<text x="140" y="667.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">up to a point</text>
+<text x="410" y="667.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">concede the fact, refuse the conclusion</text>
+<line x1="130" y1="699.25" x2="910" y2="699.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="721.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Concede the same real objection three times in three structures,</text>
+<text x="140" y="743.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">and say which one you would write and which you would say.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four concessions, all of them with but</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The right move, made four times in a paragraph, until nobody can find the position.</text>
+<circle cx="934" cy="207.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 207.6 L 1024 207.6 L 1024 207.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="212.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Nothing here is wrong. All of it</text>
+<text x="1040" y="232.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is the same move</text>
+<circle cx="934" cy="441.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 441.2 L 1024 441.2 L 1024 441.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="446.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Seven buts in ninety seconds, and</text>
+<text x="1040" y="466.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">no position survives</text>
+<circle cx="934" cy="674.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 674.8 L 1024 674.8 L 1024 674.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="679.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three structures, used once each,</text>
+<text x="1040" y="700.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is the whole fix</text>
+<circle cx="934" cy="813.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 813.5 L 1024 813.5 L 1024 813.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="818.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The last one concedes the fact and</text>
+<text x="1040" y="838.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">refuses the conclusion</text>
+</g>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<title>Thirty-one quotations, four of them not</title>
+<desc>An inquiry report page annotated to show which quoted passages are verbatim, which are paraphrases, and what each attribution verb claims.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1100" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="890" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="890" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">INQUIRY INTO THE GANTRY INCIDENT  -  FINDING 4  -  DRAFT</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">TRANSCRIPT, P.61: &quot;I assumed the gantry was clear. I had not</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">walked the lane that morning.&quot;</text>
+<text x="140" y="271.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">FINDING 4: &quot;The supervisor stated: 'I knew the gantry was</text>
+<text x="140" y="293.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">clear.' He is understood to have told colleagues the same. He</text>
+<text x="140" y="315.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">would not be drawn on the handover.&quot;</text>
+<line x1="130" y1="350.75" x2="910" y2="350.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="354.75" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">IN THE REPORT</text>
+<text x="403.33333333333337" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">COUNT</text>
+<text x="656.6666666666667" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">CHECKABLE</text>
+<text x="150.0" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PASSAGES IN QUOTATION MARKS</text>
+<text x="403.33333333333337" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">31</text>
+<text x="656.6666666666667" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="414.75" x2="900" y2="414.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">OF THOSE, VERBATIM</text>
+<text x="403.33333333333337" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">27</text>
+<text x="656.6666666666667" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">YES</text>
+<line x1="140" y1="444.75" x2="900" y2="444.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">OF THOSE, PARAPHRASE</text>
+<text x="403.33333333333337" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4</text>
+<text x="656.6666666666667" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">NO</text>
+<line x1="140" y1="474.75" x2="900" y2="474.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WITH A PAGE REFERENCE</text>
+<text x="403.33333333333337" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0</text>
+<text x="656.6666666666667" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="504.75" x2="900" y2="504.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="524.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WORDS CHANGED ON P.61</text>
+<text x="403.33333333333337" y="524.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1</text>
+<text x="656.6666666666667" y="524.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="534.75" x2="900" y2="534.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="554.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WITNESSES HEARD</text>
+<text x="403.33333333333337" y="554.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">14</text>
+<text x="656.6666666666667" y="554.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="564.75" x2="900" y2="564.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="584.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">TRANSCRIPT PAGES</text>
+<text x="403.33333333333337" y="584.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">118</text>
+<text x="656.6666666666667" y="584.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="594.75" x2="900" y2="594.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="614.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CORRECTIONS REQUESTED, YEAR 1</text>
+<text x="403.33333333333337" y="614.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2%</text>
+<text x="656.6666666666667" y="614.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="624.75" x2="900" y2="624.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="652.75" x2="910" y2="652.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="688.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT EACH VERB IN FINDING 4 COMMITS THE INQUIRY TO</text>
+<text x="140" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;stated&quot;</text>
+<text x="410" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">these are the exact words - and they are not</text>
+<text x="140" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;is understood to have&quot;</text>
+<text x="410" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">an unnamed source, and none was heard</text>
+<text x="140" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">&quot;would not be drawn&quot;</text>
+<text x="410" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">an absence, accurately reported</text>
+<text x="140" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">no page reference</text>
+<text x="410" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">nothing here can be checked in one move</text>
+<line x1="130" y1="846.75" x2="910" y2="846.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="868.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">The drafter understood quotation marks as a courtesy to the</text>
+<text x="140" y="890.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">reader. They are a claim about the words, and four of thirty-one</text>
+<text x="140" y="912.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">make a claim that is false.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Thirty-one quotations, four of them not</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">What is inside the marks, where it came from, and what each verb commits the inquiry to.</text>
+<circle cx="934" cy="191.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 191.2 L 1024 191.2 L 1024 191.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="196.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two sentences, both of them the</text>
+<text x="1040" y="216.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">witness's own</text>
+<circle cx="934" cy="315.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 315.8 L 1024 315.8 L 1024 315.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="320.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Three borrowed sentences, three</text>
+<text x="1040" y="341.1" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">different distances, one page</text>
+<text x="1040" y="361.40000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">reference short</text>
+<circle cx="934" cy="565.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 565.0 L 1024 565.0 L 1024 565.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="570.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Twenty-seven exact and four not,</text>
+<text x="1040" y="590.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">and nothing marks which is which</text>
+<circle cx="934" cy="849.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 849.8 L 1024 849.8 L 1024 849.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="854.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The absence is the only one of the</text>
+<text x="1040" y="875.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">three reported correctly</text>
+<circle cx="934" cy="965.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 965.5 L 1024 965.5 L 1024 965.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="970.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Quotation marks are a claim, not a</text>
+<text x="1040" y="990.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">courtesy</text>
+</g>
+</svg>

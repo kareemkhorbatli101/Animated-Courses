@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+<title>Nine reports, two verbs</title>
+<desc>A study sheet showing learner reports using only say and tell, what each moment actually was, and the verb that would have carried it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="940" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="730" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="730" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">STUDY FILE  -  HE SAID, SHE SAID, THEY SAID</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Reporting with say and tell is correct in every case here. It is</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">also the only information the listener gets about what kind of</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">moment each one was.</text>
+<line x1="130" y1="293.25" x2="910" y2="293.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="297.25" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT YOU SAID</text>
+<text x="403.33333333333337" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT THE MOMENT WAS</text>
+<text x="656.6666666666667" y="317.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">THE VERB</text>
+<text x="150.0" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HE SAID HE HAD NOT CHECKED</text>
+<text x="403.33333333333337" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HE LOST SOMETHING</text>
+<text x="656.6666666666667" y="347.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CONCEDED</text>
+<line x1="140" y1="357.25" x2="900" y2="357.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SHE SAID IT WAS CLEAR, AGAIN</text>
+<text x="403.33333333333337" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SHE WAS UNDER PRESSURE</text>
+<text x="656.6666666666667" y="377.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">MAINTAINED</text>
+<line x1="140" y1="387.25" x2="900" y2="387.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HE SAID IT WAS NOT HIS FAULT</text>
+<text x="403.33333333333337" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">YOU DO NOT BELIEVE IT</text>
+<text x="656.6666666666667" y="407.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CLAIMED</text>
+<line x1="140" y1="417.25" x2="900" y2="417.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SHE SAID NO</text>
+<text x="403.33333333333337" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">A FLAT REFUSAL</text>
+<text x="656.6666666666667" y="437.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">DENIED</text>
+<line x1="140" y1="447.25" x2="900" y2="447.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">HE SAID SOMETHING BACK</text>
+<text x="403.33333333333337" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THERE WAS SOMETHING TO ANSWER</text>
+<text x="656.6666666666667" y="467.25" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">COUNTERED</text>
+<line x1="140" y1="477.25" x2="900" y2="477.25" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="505.25" x2="910" y2="505.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="541.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHAT THE VERB CARRIES THAT SAID CANNOT</text>
+<text x="140" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">who gave ground</text>
+<text x="410" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">conceded, acknowledged</text>
+<text x="140" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">who held it</text>
+<text x="410" y="603.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">maintained, insisted, asserted, denied</text>
+<text x="140" y="635.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">what you think of it</text>
+<text x="410" y="635.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">claimed - and it is actionable if unfair</text>
+<text x="140" y="667.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">that there was an exchange</text>
+<text x="410" y="667.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">countered, responded</text>
+<line x1="130" y1="699.25" x2="910" y2="699.25" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="721.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Report one real conversation in eight sentences with at least</text>
+<text x="140" y="743.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">five different verbs, and ask somebody who won it from the verbs</text>
+<text x="140" y="764.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">alone.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Nine reports, two verbs</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Accurate, flat, and carrying none of the reporter's own position.</text>
+<circle cx="934" cy="207.6" r="4.5" fill="#C86B2B"/>
+<path d="M 934 207.6 L 1024 207.6 L 1024 207.6" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="212.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Every row on the left is correct</text>
+<text x="1040" y="232.9" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">English</text>
+<circle cx="934" cy="441.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 441.2 L 1024 441.2 L 1024 441.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="446.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Five moments, one verb, and the</text>
+<text x="1040" y="466.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">listener learns nothing about any</text>
+<text x="1040" y="486.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">of them</text>
+<circle cx="934" cy="674.8" r="4.5" fill="#C86B2B"/>
+<path d="M 934 674.8 L 1024 674.8 L 1024 674.8" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="679.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Claimed is the only one of the six</text>
+<text x="1040" y="700.0999999999999" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">that can be unfair</text>
+<circle cx="934" cy="813.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 813.5 L 1024 813.5 L 1024 813.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="818.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The verbs alone should say who won</text>
+</g>
+</svg>

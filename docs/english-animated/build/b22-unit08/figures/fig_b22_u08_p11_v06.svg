@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Four quotation policies, one inquiry service</title>
+<desc>A bar chart comparing four quotation policies on the share of quoted passages traceable to a transcript page and the share of witnesses who asked to correct the draft.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="460" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="610.0" x2="1350" y2="610.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="615.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="495.0" x2="1350" y2="495.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="500.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">25</text>
+<line x1="170" y1="380.0" x2="1350" y2="380.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="385.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">50</text>
+<line x1="170" y1="265.0" x2="1350" y2="265.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="270.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">75</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">100</text>
+</g>
+<g id="20_subject">
+<rect x="212.14285714285714" y="550.2" width="94.82142857142858" height="59.799999999999955" rx="0" fill="#2E6F5E"/>
+<rect x="507.14285714285717" y="352.4" width="94.82142857142858" height="257.6" rx="0" fill="#2E6F5E"/>
+<rect x="802.1428571428571" y="163.8" width="94.82142857142858" height="446.2" rx="0" fill="#2E6F5E"/>
+<rect x="1097.142857142857" y="177.60000000000002" width="94.82142857142858" height="432.4" rx="0" fill="#2E6F5E"/>
+<rect x="317.50000000000006" y="600.8" width="94.82142857142858" height="9.200000000000045" rx="0" fill="#C86B2B"/>
+<rect x="612.5" y="582.4" width="94.82142857142858" height="27.600000000000023" rx="0" fill="#C86B2B"/>
+<rect x="907.5" y="522.6" width="94.82142857142858" height="87.39999999999998" rx="0" fill="#C86B2B"/>
+<rect x="1202.5" y="499.6" width="94.82142857142858" height="110.39999999999998" rx="0" fill="#C86B2B"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four quotation policies, one inquiry service</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Four years, the same inquiry team, the same kinds of hearing.</text>
+<rect x="1390" y="170" width="18" height="18" rx="0" fill="#2E6F5E"/>
+<text x="1416" y="185" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">traceable in one move (%)</text>
+<rect x="1390" y="204" width="18" height="18" rx="0" fill="#C86B2B"/>
+<text x="1416" y="219" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">witnesses asking to correct (%)</text>
+<text x="317.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">paraphrase in marks</text>
+<text x="612.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">verbatim, no refs</text>
+<text x="907.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">verbatim + page refs</text>
+<text x="1202.5" y="638" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">marked paraphrase</text>
+<rect x="170" y="670" width="1180" height="87.25" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="697.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">The last column scores slightly lower on traceability and highest on corrections, because a marked</text>
+<text x="186" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">paraphrase invites a witness to argue with the inquiry's summary - which is an argument worth having</text>
+<text x="186" y="740.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">before publication rather than after.</text>
+<text x="170" y="793.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Correction requests rise with traceability, which is the cost everybody predicts. Four</text>
+<text x="170" y="815.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">fifths of the requests are to sentences the inquiry wrote, not sentences witnesses said.</text>
+</g>
+</svg>

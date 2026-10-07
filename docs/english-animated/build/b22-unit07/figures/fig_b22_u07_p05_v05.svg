@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<title>Six screens, and where each one ends</title>
+<desc>A six-screen kiosk flow annotated with the critical action on each screen, the last word of each instruction and the error rate.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1100" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="118" y="130" width="820" height="890" rx="0" fill="#1C2B33" opacity="0.1"/>
+<rect x="110" y="120" width="820" height="890" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<rect x="110" y="120" width="820" height="70" rx="0" fill="#F3ECE0"/>
+<text x="140" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal" letter-spacing="1.2">EAST GATE KIOSK  -  SIX SCREENS  -  2,900 ARRIVALS A DAY</text>
+<text x="140" y="214.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SCREEN 3: &quot;Please ensure that the booking reference, which can</text>
+<text x="140" y="235.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">be found on your transport order, is entered in full including</text>
+<text x="140" y="257.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the prefix.&quot;</text>
+<text x="140" y="293.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE CARD, TAPED TO THE SAME KIOSK, IN MARKER PEN: &quot;2 LETTERS</text>
+<text x="140" y="315.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">FIRST.&quot;</text>
+<line x1="130" y1="350.75" x2="910" y2="350.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="140" y="354.75" width="760" height="30" rx="0" fill="#F3ECE0"/>
+<text x="150.0" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">SCREEN</text>
+<text x="403.33333333333337" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">ENDS ON</text>
+<text x="656.6666666666667" y="374.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">ERROR RATE</text>
+<text x="150.0" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1  VEHICLE PLATE</text>
+<text x="403.33333333333337" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PLATE</text>
+<text x="656.6666666666667" y="404.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">1%</text>
+<line x1="140" y1="414.75" x2="900" y2="414.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2  HAULIER CODE</text>
+<text x="403.33333333333337" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">SYSTEM</text>
+<text x="656.6666666666667" y="434.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4%</text>
+<line x1="140" y1="444.75" x2="900" y2="444.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3  BOOKING REFERENCE</text>
+<text x="403.33333333333337" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">PREFIX</text>
+<text x="656.6666666666667" y="464.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">14%</text>
+<line x1="140" y1="474.75" x2="900" y2="474.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">4  TRAILER NUMBER</text>
+<text x="403.33333333333337" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">CAB</text>
+<text x="656.6666666666667" y="494.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">2%</text>
+<line x1="140" y1="504.75" x2="900" y2="504.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="524.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">5  CONFIRMATION</text>
+<text x="403.33333333333337" y="524.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">DISPLAYED</text>
+<text x="656.6666666666667" y="524.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="534.75" x2="900" y2="534.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="554.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">6  LANE ALLOCATION</text>
+<text x="403.33333333333337" y="554.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">ALLOCATED</text>
+<text x="656.6666666666667" y="554.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="564.75" x2="900" y2="564.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="584.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">THE TAPED CARD</text>
+<text x="403.33333333333337" y="584.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">FIRST</text>
+<text x="656.6666666666667" y="584.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">3%</text>
+<line x1="140" y1="594.75" x2="900" y2="594.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<text x="150.0" y="614.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">WORDS ON SCREEN 3</text>
+<text x="403.33333333333337" y="614.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">24</text>
+<text x="656.6666666666667" y="614.75" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">--</text>
+<line x1="140" y1="624.75" x2="900" y2="624.75" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="652.75" x2="910" y2="652.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="688.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="700" font-style="normal">WHY SCREEN 3 FAILS THOUGH IT ENDS ON THE POINT</text>
+<text x="140" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">three falls, not one</text>
+<text x="410" y="718.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">three corrections, and only one applies</text>
+<text x="140" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the heavy clause</text>
+<text x="410" y="750.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">sits in the middle, where nobody reads</text>
+<text x="140" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">twenty-four words</text>
+<text x="410" y="782.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">the gate arm moves at about the fifth</text>
+<text x="140" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the card: four words</text>
+<text x="410" y="814.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">at the top, where the hand already is</text>
+<line x1="130" y1="846.75" x2="910" y2="846.75" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<text x="140" y="868.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Screens 5 and 6 end on verbs that describe what the system does.</text>
+<text x="140" y="890.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Nobody has ever measured those two, because nothing visibly goes</text>
+<text x="140" y="912.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">wrong on them.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Six screens, and where each one ends</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The critical action on each, and the word the driver is left holding.</text>
+<circle cx="934" cy="191.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 191.2 L 1024 191.2 L 1024 191.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="196.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Twenty-four words, and the first</text>
+<text x="1040" y="216.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">five are a politeness</text>
+<circle cx="934" cy="280.2" r="4.5" fill="#C86B2B"/>
+<path d="M 934 280.2 L 1024 280.2 L 1024 280.2" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="285.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Four words, in marker pen, with a</text>
+<text x="1040" y="305.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">three per cent error rate</text>
+<circle cx="934" cy="529.4000000000001" r="4.5" fill="#C86B2B"/>
+<path d="M 934 529.4000000000001 L 1024 529.4000000000001 L 1024 529.4000000000001" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="534.4000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">One screen in six carries three</text>
+<text x="1040" y="554.7" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">quarters of the errors</text>
+<circle cx="934" cy="832.0" r="4.5" fill="#C86B2B"/>
+<path d="M 934 832.0 L 1024 832.0 L 1024 832.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="837.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Ending on the right word is not</text>
+<text x="1040" y="857.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">enough if you end three times</text>
+<circle cx="934" cy="965.5" r="4.5" fill="#C86B2B"/>
+<path d="M 934 965.5 L 1024 965.5 L 1024 965.5" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1040" y="970.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The two unmeasured screens are the</text>
+<text x="1040" y="990.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">two with no visible failure</text>
+</g>
+</svg>
