@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  812
+ ],
+ "bounds": [
+  0,
+  30,
+  1440,
+  782
+ ],
+ "texts": [
+  {
+   "text": "UNIT 6",
+   "size": 40,
+   "bbox": [
+    90,
+    104.4,
+    239.9,
+    140.0
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Journeys and Mishaps",
+   "size": 72,
+   "bbox": [
+    90,
+    163.7,
+    977.9,
+    226.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "GRAMMAR",
+   "size": 26,
+   "bbox": [
+    106,
+    366.5,
+    259.4,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Past simple: irregular verbs",
+   "size": 34,
+   "bbox": [
+    106,
+    415.0,
+    639.7,
+    445.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "IN THIS UNIT",
+   "size": 26,
+   "bbox": [
+    786,
+    366.5,
+    973.7,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "By the end you can",
+   "size": 30,
+   "bbox": [
+    70,
+    588.2,
+    394.3,
+    614.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can name the main things you take and lose on a journey.",
+   "size": 30,
+   "bbox": [
+    128,
+    640.2,
+    1129.8,
+    666.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use irregular past verbs and past time phrases.",
+   "size": 30,
+   "bbox": [
+    128,
+    696.2,
+    1026.9,
+    722.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can describe a journey that went wrong in 50\u201370 words.",
+   "size": 30,
+   "bbox": [
+    128,
+    752.2,
+    1099.8,
+    778.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The opening page of Unit 6, Journeys and Mishaps: the grammar point is the past simple with irregular verbs, and three things the learner will be able to do by the end of the unit.",
+ "placed_in": [
+  6.270833333333333,
+  3.53125
+ ],
+ "sha256": "d3248a03349f68291abeb118cb55d6967b1feba019fdbdbed5be275caba20e47"
+}

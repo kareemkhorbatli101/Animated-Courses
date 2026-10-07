@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "you leave",
+   "size": 30,
+   "bbox": [
+    88.2,
+    269.5,
+    251.0,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the first bus",
+   "size": 28,
+   "bbox": [
+    348.3,
+    271.0,
+    541.3,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the connection",
+   "size": 22,
+   "bbox": [
+    627.5,
+    274.9,
+    812.5,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the second bus",
+   "size": 22,
+   "bbox": [
+    901.0,
+    274.9,
+    1089.4,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you arrive",
+   "size": 30,
+   "bbox": [
+    1184.4,
+    269.5,
+    1356.4,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "A journey in five stages, each with an arrow to the next: you leave, the first bus, the connection, the second bus, and you arrive. The connection is the link that breaks.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "36e814e041197b26937c0acf2c4d92e3c22391b8a20b6be5094eedd0b1638785"
+}

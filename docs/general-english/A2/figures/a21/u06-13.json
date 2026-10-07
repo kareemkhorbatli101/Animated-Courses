@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "At the coast",
+   "size": 34,
+   "bbox": [
+    248.6,
+    67.8,
+    481.4,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sea level",
+   "size": 27,
+   "bbox": [
+    305.0,
+    282.5,
+    425.0,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the ordinary air",
+   "size": 27,
+   "bbox": [
+    260.4,
+    328.5,
+    469.6,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "five hours by car",
+   "size": 27,
+   "bbox": [
+    251.6,
+    374.5,
+    478.4,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Four and a half thousand",
+   "size": 34,
+   "bbox": [
+    864.4,
+    67.8,
+    1345.6,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "oxygen in the carriages",
+   "size": 27,
+   "bbox": [
+    945.9,
+    282.5,
+    1264.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "zigzags up the mountain",
+   "size": 27,
+   "bbox": [
+    938.1,
+    328.5,
+    1271.9,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "eleven hours by train",
+   "size": 27,
+   "bbox": [
+    961.0,
+    374.5,
+    1249.0,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "The railway from Lima, at the bottom and at the top. At the coast: sea level, ordinary air, five hours by car. Four and a half thousand metres up: oxygen in the carriages, zigzags cut into the mountain, and eleven hours by train.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "d88776d0f9aad418db80035a5f0417113910efe6b88b8e7ebec5b23385c420ea"
+}

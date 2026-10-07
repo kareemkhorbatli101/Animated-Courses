@@ -559,6 +559,33 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def station(f: Fig, x, y, w, h):
+    """A station from the side: gate, seat, luggage, coach, a board with a delay."""
+    ground = y + h * 0.74
+    f.line(x + 30, ground, x + w - 30, ground, stroke=P['ink'], sw=5)
+    # the board
+    f.rect(x + w * 0.60, y + 50, w * 0.34, 92, fill=P['ink'], stroke=P['ink'], r=8)
+    for k in range(3):
+        f.rect(x + w * 0.62, y + 64 + k * 26, w * 0.18, 14, fill=P['tanl'],
+               stroke='none', r=3, sw=0)
+        f.rect(x + w * 0.83, y + 64 + k * 26, w * 0.08, 14, fill=P['accent'],
+               stroke='none', r=3, sw=0)
+    # the gate
+    f.rect(x + 54, ground - 150, 20, 150, fill=P['grey'], stroke=P['ink'], r=3)
+    f.rect(x + 160, ground - 150, 20, 150, fill=P['grey'], stroke=P['ink'], r=3)
+    f.rect(x + 74, ground - 118, 86, 16, fill=P['accent'], stroke=P['ink'], r=4)
+    # the seat
+    f.rect(x + w * 0.24, ground - 52, 128, 16, fill=P['tan'], stroke=P['ink'], r=4)
+    f.rect(x + w * 0.24 + 8, ground - 36, 14, 36, fill=P['ink'], stroke='none', r=0, sw=0)
+    f.rect(x + w * 0.24 + 106, ground - 36, 14, 36, fill=P['ink'], stroke='none',
+           r=0, sw=0)
+    # the luggage
+    f.rect(x + w * 0.42, ground - 74, 62, 74, fill=P['deep'], stroke=P['ink'], r=6)
+    f.rect(x + w * 0.42 + 22, ground - 96, 18, 24, fill=P['bg'], stroke=P['ink'], r=4)
+    # the coach
+    icon(f, 'bus', x + w * 0.52, ground - 54, s=0.72)
+
+
 def landscape(f: Fig, x, y, w, h):
     """The countryside from the side: hill, forest, lake, path, village."""
     ground = y + h * 0.66

@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "When you left",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    426.6,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I left home at six for a train at seven.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1154.2,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What went wrong",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    489.6,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Then I found I had the wrong day on the ticket.",
+   "size": 24,
+   "bbox": [
+    670,
+    172.7,
+    1235.3,
+    194.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What somebody did",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    526.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The man at the window changed it.",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    1131.0,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "How it ended",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    413.9,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I arrived two hours late and nobody minded.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1249.2,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the paragraph the learner is about to write, in four steps: when you left, what went wrong, what somebody did about it, and how it ended.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "a9e3272d36ccf829026d0d7eb343821ed38d62cbd765bece4a70608772a40373"
+}

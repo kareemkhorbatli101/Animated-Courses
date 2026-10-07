@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the listener",
+   "size": 34,
+   "bbox": [
+    166.5,
+    58.2,
+    573.5,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask what happened",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    446.7,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say something kind",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    445.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what happened next",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    526.8,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask how late",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    337.6,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the teller",
+   "size": 34,
+   "bbox": [
+    888.9,
+    58.2,
+    1251.1,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say when you left",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1116.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you forgot",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1153.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what went wrong next",
+   "size": 26,
+   "bbox": [
+    838.0,
+    261.7,
+    1225.6,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "finish with one good thing",
+   "size": 26,
+   "bbox": [
+    838.0,
+    317.7,
+    1222.6,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, the listener: ask what happened, say something kind, ask what happened next, ask how late. Card B, the teller: say when you left, what you forgot, what went wrong next, and finish with one good thing.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "b366c2d62414d9584e5cdf53b3d75f7b6cc0422ebbd328b192c10603f388ca03"
+}

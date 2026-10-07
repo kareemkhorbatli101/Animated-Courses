@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  571
+ ],
+ "bounds": [
+  67.0,
+  28.3,
+  1373.0,
+  542.3
+ ],
+ "texts": [
+  {
+   "text": "Suitcase",
+   "size": 34,
+   "bbox": [
+    193.8,
+    217.3,
+    356.8,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Wallet",
+   "size": 34,
+   "bbox": [
+    659.1,
+    217.3,
+    780.9,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Charger",
+   "size": 34,
+   "bbox": [
+    1088.2,
+    217.3,
+    1241.2,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Umbrella",
+   "size": 34,
+   "bbox": [
+    188.6,
+    488.3,
+    362.1,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Coach",
+   "size": 34,
+   "bbox": [
+    662.2,
+    488.3,
+    777.8,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Taxi",
+   "size": 34,
+   "bbox": [
+    1127.0,
+    488.3,
+    1202.3,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Six things you take on a journey, each on its own card: suitcase, wallet, charger, umbrella, coach and taxi.",
+ "placed_in": [
+  4.989583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "7284a55006498a5148abbaf8f71e3736551d9b0339e3eb14edcc9e66af82f9fa"
+}

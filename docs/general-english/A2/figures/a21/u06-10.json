@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "the Andes",
+   "size": 32,
+   "bbox": [
+    188.9,
+    217.2,
+    371.1,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "eleven hours to climb what",
+   "size": 26,
+   "bbox": [
+    103.1,
+    269.1,
+    456.9,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a car does in five",
+   "size": 26,
+   "bbox": [
+    168.3,
+    301.1,
+    391.7,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Norway",
+   "size": 32,
+   "bbox": [
+    652.2,
+    217.2,
+    787.8,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a ferry every half hour",
+   "size": 26,
+   "bbox": [
+    573.9,
+    269.1,
+    866.1,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "across the water",
+   "size": 26,
+   "bbox": [
+    611.7,
+    301.1,
+    828.3,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Bangladesh",
+   "size": 32,
+   "bbox": [
+    1054.7,
+    217.2,
+    1265.3,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a boat is faster when the",
+   "size": 26,
+   "bbox": [
+    997.5,
+    269.1,
+    1322.5,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "road is under water",
+   "size": 26,
+   "bbox": [
+    1032.9,
+    301.1,
+    1287.1,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three journeys that take longer than they look: eleven hours up into the Andes, a ferry every half hour in Norway, and a boat instead of a road in Bangladesh in the wet season.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "a9cb040e0e20ff87e80e570436b2686d85adc787e567d272cd80eff0d469b7d2"
+}

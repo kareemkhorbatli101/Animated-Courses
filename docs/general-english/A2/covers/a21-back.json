@@ -41,12 +41,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "gives them the present and the past: what is, what they do, and what happened. Five",
+   "text": "gives them the present and the past: what is, what they do, and what happened. Six",
    "size": 46,
    "bbox": [
     220,
     611.8,
-    2196.7,
+    2174.5,
     651.9
    ],
    "fill": "#1F3864",
@@ -329,13 +329,49 @@
    "on": "#FFFFFF"
   },
   {
+   "text": "6",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1638.2,
+    263.9,
+    1673.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Journeys and Mishaps",
+   "size": 42,
+   "bbox": [
+    330,
+    1637.5,
+    847.9,
+    1673.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "past simple - irregular verbs",
+   "size": 38,
+   "bbox": [
+    1280,
+    1639.8,
+    1816.3,
+    1673.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
    "text": "By the end you will be able to",
    "size": 54,
    "bbox": [
     220,
-    1678.1,
+    1750.1,
     1127.1,
-    1725.7
+    1797.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -345,9 +381,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1767.5,
+    1839.5,
     258.0,
-    1803.9
+    1875.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -357,9 +393,9 @@
    "size": 40,
    "bbox": [
     320,
-    1768.2,
+    1840.2,
     1654.6,
-    1803.9
+    1875.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -369,9 +405,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1833.5,
+    1905.5,
     258.0,
-    1869.9
+    1941.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -381,9 +417,9 @@
    "size": 40,
    "bbox": [
     320,
-    1834.2,
+    1906.2,
     1867.2,
-    1869.9
+    1941.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -393,9 +429,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1899.5,
+    1971.5,
     258.0,
-    1935.9
+    2007.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -405,9 +441,9 @@
    "size": 40,
    "bbox": [
     320,
-    1900.2,
+    1972.2,
     1517.6,
-    1935.9
+    2007.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -417,9 +453,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    1965.5,
+    2037.5,
     258.0,
-    2001.9
+    2073.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -429,9 +465,9 @@
    "size": 40,
    "bbox": [
     320,
-    1966.2,
+    2038.2,
     1234.8,
-    2001.9
+    2073.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -441,9 +477,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2031.5,
+    2103.5,
     258.0,
-    2067.9
+    2139.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -453,9 +489,9 @@
    "size": 40,
    "bbox": [
     320,
-    2032.2,
+    2104.2,
     1235.7,
-    2067.9
+    2139.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -465,9 +501,9 @@
    "size": 42,
    "bbox": [
     242.0,
-    2097.5,
+    2169.5,
     258.0,
-    2133.9
+    2205.9
    ],
    "fill": "#009688",
    "on": "#FFFFFF"
@@ -477,9 +513,9 @@
    "size": 40,
    "bbox": [
     320,
-    2098.2,
+    2170.2,
     1625.8,
-    2133.9
+    2205.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -498,25 +534,27 @@
   }
  ],
  "alt": "Back cover of English for Daily Life A2 volume 1: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
- "sha256": "824d86da265a0421e6e8e3d81117bcfc1f363764411c5409f5c590dec680bdd5",
+ "sha256": "96716912bfb87d07aeea4a306259c8a8a3048de6584454e8a3ff25ea7187bd31",
  "theme": "a21",
  "volume": 1,
  "title": "Everyday Life",
  "level": "A2",
- "blurb": "English for Daily Life takes an adult beginner who already knows a little English and gives them the present and the past: what is, what they do, and what happened. Five units follow six people who live at one address, so the vocabulary comes back week after week instead of arriving once and leaving. Every unit has the same ten parts, the same twelve kinds of exercise and the same support: a worked example at the top of almost every task, a model before every piece of writing, a word bank under every gap-fill and a checklist before you hand anything in. The Core track is for everybody. The Plus track at the back of each unit is there when you are ready for it, and optional when you are not. Answers for every closed question are in the book.",
+ "blurb": "English for Daily Life takes an adult beginner who already knows a little English and gives them the present and the past: what is, what they do, and what happened. Six units follow six people who live at one address, so the vocabulary comes back week after week instead of arriving once and leaving. Every unit has the same ten parts, the same twelve kinds of exercise and the same support: a worked example at the top of almost every task, a model before every piece of writing, a word bank under every gap-fill and a checklist before you hand anything in. The Core track is for everybody. The Plus track at the back of each unit is there when you are ready for it, and optional when you are not. Answers for every closed question are in the book.",
  "units": [
   "People and Routines",
   "Home and Neighbourhood",
   "A Day in the City",
   "Food and Shopping",
-  "Last Weekend"
+  "Last Weekend",
+  "Journeys and Mishaps"
  ],
  "grammar": [
   "present simple",
   "there is/are",
   "present continuous vs present simple",
   "countable/uncountable",
-  "past simple - was/were and regular verbs"
+  "past simple - was/were and regular verbs",
+  "past simple - irregular verbs"
  ],
  "can_do": [
   "I can name the people around me: neighbour, flatmate, colleague.",
@@ -526,5 +564,5 @@
   "I can name the rooms and parts of a building.",
   "I can use there is and there are, and some, any, much and many."
  ],
- "unit_count": 5
+ "unit_count": 6
 }

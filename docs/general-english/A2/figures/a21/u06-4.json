@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   427.2,
+   76.3,
+   846,
+   45.3
+  ],
+  [
+   401.6,
+   179.7,
+   846,
+   155.3
+  ],
+  [
+   452.8,
+   283.1,
+   846,
+   265.3
+  ],
+  [
+   414.4,
+   377.1,
+   846,
+   375.3
+  ],
+  [
+   440.0,
+   461.7,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "A station drawn from the side, with a gate, a seat, luggage, a coach and a board showing a delay. Five numbered lines run to the right for the learner to write each word.",
+ "placed_in": [
+  6.270833333333333,
+  2.3125
+ ],
+ "sha256": "e2be80edc8a644bdb4e5220521dada2ddaf84666111934b6c854975f127ea4ea"
+}
