@@ -264,6 +264,24 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
                 dark = (row + col) % 2 == 0
                 R(-46 + col * 24, -26 + row * 18, 20, 14,
                   fill=P['ink'] if dark else P['card'], r=2, sw=2)
+    elif name == 'cloud':
+        C(-20, 4, 22, fill=P['card']); C(12, 2, 26, fill=P['card'])
+        R(-34, 4, 70, 24, fill=P['card'], r=12)
+    elif name == 'rain':
+        C(-18, -14, 20, fill=P['card']); C(12, -16, 24, fill=P['card'])
+        R(-32, -14, 64, 22, fill=P['card'], r=11)
+        for k in (-20, 0, 20):
+            L(k, 14, k - 8, 42, stroke=P['blue'], sw=5)
+    elif name == 'snow':
+        C(-18, -14, 20, fill=P['card']); C(12, -16, 24, fill=P['card'])
+        R(-32, -14, 64, 22, fill=P['card'], r=11)
+        for k in (-20, 0, 20):
+            L(k - 9, 20, k + 9, 38, stroke=P['deep'], sw=4)
+            L(k + 9, 20, k - 9, 38, stroke=P['deep'], sw=4)
+    elif name == 'wind':
+        for dy, w2 in ((-16, 44), (2, 58), (20, 36)):
+            R(-w2 // 2, dy, w2, 8, fill=P['grey'], r=4, sw=2)
+        C(26, 2, 12, fill=P['bg'])
     elif name == 'tree':
         L(0, 8, 0, 40, stroke=P['tand'], sw=7)             # the trunk
         C(0, -6, 26, fill=P['tanl'])
@@ -704,6 +722,24 @@ def week_page(f: Fig, x, y, w, h):
         f.rect(x + w * (0.30 + k * 0.14), top + rh * 3.26, w * 0.11, rh * 0.46,
                fill=P['tan'], stroke=P['ink'], r=4)
     # row 5: an open day - nothing at all but the rule
+
+
+def sky_strip(f: Fig, x, y, w, h):
+    """Five skies in a row, each told apart by shape rather than by colour: a
+    clear sun, a cloud, a cloud with rain falling, a cloud with crossed flakes,
+    and a band of fog across the whole panel. The hit points step down as they
+    step right so label_me's leaders fan out."""
+    ground = y + h * 0.84
+    f.line(x + 40, ground, x + w - 40, ground, stroke=P['ink'], sw=5)
+    cx = [0.10, 0.29, 0.49, 0.69, 0.89]
+    icon(f, 'sun', x + w * cx[0], y + h * 0.30, s=1.15)
+    icon(f, 'cloud', x + w * cx[1], y + h * 0.36, s=1.20)
+    icon(f, 'rain', x + w * cx[2], y + h * 0.42, s=1.20)
+    icon(f, 'snow', x + w * cx[3], y + h * 0.50, s=1.20)
+    # the fog: three flat bands low down, with nothing visible behind them
+    for k in range(3):
+        f.rect(x + w * 0.76, y + h * (0.62 + k * 0.08), w * 0.22, h * 0.05,
+               fill=P['grey'], stroke='none', r=6, sw=0)
 
 
 def compare_pair(f: Fig, x, y, w, h):

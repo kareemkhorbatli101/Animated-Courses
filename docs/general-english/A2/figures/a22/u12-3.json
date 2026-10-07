@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  571
+ ],
+ "bounds": [
+  67.0,
+  28.3,
+  1373.0,
+  542.3
+ ],
+ "texts": [
+  {
+   "text": "Heavy rain",
+   "size": 34,
+   "bbox": [
+    172.2,
+    217.3,
+    378.4,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Ice",
+   "size": 34,
+   "bbox": [
+    692.1,
+    217.3,
+    747.9,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Fog",
+   "size": 34,
+   "bbox": [
+    1129.9,
+    217.3,
+    1199.4,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Thirty degrees",
+   "size": 34,
+   "bbox": [
+    134.9,
+    488.3,
+    415.8,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A storm",
+   "size": 34,
+   "bbox": [
+    644.9,
+    488.3,
+    795.1,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A flood",
+   "size": 34,
+   "bbox": [
+    1097.5,
+    488.3,
+    1231.9,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Six kinds of weather, each on its own card: heavy rain, ice, fog, thirty degrees, a storm and a flood.",
+ "placed_in": [
+  4.989583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "0f4bcc584b57f031a061762f3e0084c03c192748f630d47ecf9356844c0c8050"
+}

@@ -49,7 +49,7 @@ markers:
        '\b(Have|Has) (you|he|she|they|we|I) ever\b',
        '\b(could|would|should|might) have \w+']
   17: ['\bis made\b', '\bare made\b', '\bwas made\b', '\bwere made\b']
-  18: ['\bif .+ will\b']
+  18: ['\bif\b[^.!?]{0,90}\bwill\b']
   # Defining relative clause: a head noun plus a relative pronoun plus a verb,
   # not a bare "who", "which" or "that" (question word, conjunction, determiner).
   19: ['\b(person|people|man|woman|thing|things|place|places|one|shop|street|book|day)\s+(who|which|that)\s+\w+']

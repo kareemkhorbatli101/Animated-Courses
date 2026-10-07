@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "A year of dust",
+   "size": 34,
+   "bbox": [
+    230.0,
+    67.8,
+    500.0,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a dry country",
+   "size": 27,
+   "bbox": [
+    274.4,
+    282.5,
+    455.6,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the radio says nothing",
+   "size": 27,
+   "bbox": [
+    213.7,
+    328.5,
+    516.3,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "everybody stands outside",
+   "size": 27,
+   "bbox": [
+    190.4,
+    374.5,
+    539.6,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The week the rain arrives",
+   "size": 34,
+   "bbox": [
+    859.7,
+    67.8,
+    1350.3,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it reaches the south coast",
+   "size": 27,
+   "bbox": [
+    929.5,
+    282.5,
+    1280.5,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six weeks moving north",
+   "size": 27,
+   "bbox": [
+    944.4,
+    328.5,
+    1265.6,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the harvest turns on it",
+   "size": 27,
+   "bbox": [
+    954.1,
+    374.5,
+    1255.9,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Two halves of one year. A year of dust: a dry country, the radio with nothing to say, and everybody standing outside. The week the rain arrives: it reaches the south coast, moves north for six weeks, and the whole harvest turns on whether it is early, late or thin.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "e45fc6c4fda68b5bb0b680b057238c39cb11f08e5d3d3ae8d9ea37cc27802416"
+}

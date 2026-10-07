@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "sixty in a",
+   "size": 30,
+   "bbox": [
+    92.5,
+    234.5,
+    246.7,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hundred",
+   "size": 30,
+   "bbox": [
+    98.5,
+    269.5,
+    240.7,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six wet",
+   "size": 30,
+   "bbox": [
+    384.6,
+    234.5,
+    505.0,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "mornings",
+   "size": 30,
+   "bbox": [
+    365.3,
+    269.5,
+    524.3,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four dry ones",
+   "size": 24,
+   "bbox": [
+    629.3,
+    273.4,
+    810.7,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the Saturday",
+   "size": 22,
+   "bbox": [
+    914.8,
+    247.9,
+    1075.6,
+    267.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you remember",
+   "size": 22,
+   "bbox": [
+    904.8,
+    274.9,
+    1085.6,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "\u201cit is never",
+   "size": 30,
+   "bbox": [
+    1175.5,
+    234.5,
+    1365.3,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "right\u201d",
+   "size": 30,
+   "bbox": [
+    1219.4,
+    269.5,
+    1321.4,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "Why a forecast is not believed, in five stages with an arrow to the next: sixty in a hundred means six wet mornings out of ten and four dry ones, but the one dry Saturday somebody called off is the one they remember, and so the forecast is never right.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "9d5b83b3c90c218e9674a5a5beab03a923704915beece270ba8a07c5d4439635"
+}

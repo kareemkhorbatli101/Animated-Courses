@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "the south of Spain",
+   "size": 32,
+   "bbox": [
+    113.9,
+    217.2,
+    446.1,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "small windows, thick shutters",
+   "size": 22,
+   "bbox": [
+    117.2,
+    272.2,
+    442.8,
+    292.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Bergen",
+   "size": 32,
+   "bbox": [
+    655.4,
+    217.2,
+    784.6,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wooden houses on stone",
+   "size": 26,
+   "bbox": [
+    558.3,
+    269.1,
+    881.7,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the far north of Japan",
+   "size": 32,
+   "bbox": [
+    964.5,
+    217.2,
+    1355.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "low roofs, doors that open",
+   "size": 26,
+   "bbox": [
+    989.7,
+    269.1,
+    1330.3,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "inwards",
+   "size": 26,
+   "bbox": [
+    1109.4,
+    301.1,
+    1210.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three places and what the weather built: small windows and thick shutters in the south of Spain, wooden houses built on stone in Bergen, and low roofs with doors that open inwards in the far north of Japan.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "dd723d2f966c85b8801767fe311fa5d1e2431dec2abe2b3eca76aec126f6f519"
+}
