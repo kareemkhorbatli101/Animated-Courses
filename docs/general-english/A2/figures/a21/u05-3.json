@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  571
+ ],
+ "bounds": [
+  67.0,
+  28.3,
+  1373.0,
+  542.3
+ ],
+ "texts": [
+  {
+   "text": "Beach",
+   "size": 34,
+   "bbox": [
+    217.2,
+    217.3,
+    333.5,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Museum",
+   "size": 34,
+   "bbox": [
+    639.5,
+    217.3,
+    800.5,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Forest",
+   "size": 34,
+   "bbox": [
+    1103.9,
+    217.3,
+    1225.4,
+    247.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Lake",
+   "size": 34,
+   "bbox": [
+    230.6,
+    488.3,
+    320.0,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Village",
+   "size": 34,
+   "bbox": [
+    654.5,
+    488.3,
+    785.5,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Path",
+   "size": 34,
+   "bbox": [
+    1121.0,
+    488.3,
+    1208.4,
+    518.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Six places people go at the weekend, each on its own card: beach, museum, forest, lake, village and path.",
+ "placed_in": [
+  4.989583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "d0e1d58c7a9d485287a176274c6b99c8fe564b4308a5c961f961df6b192aa752"
+}

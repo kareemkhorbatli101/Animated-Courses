@@ -299,7 +299,7 @@ No option is wrong. The task is the reasoning, and the frame must be used.
 
 Marking points: ☐ a choice stated in the first sentence ☐ a *because* reason ☐ a second point after *Also* ☐ a comparison with one rejected option ☐ 50–70 words.
 
-> Sample (57 words): *I think I should put a message in the group chat, because then everybody knows at the same time and nobody is the one person who did nothing. Also, a message is easy to answer later. This is better than knocking on the door, because some people do not want a stranger at the door in their first week.*
+> Sample (59 words): *I think I should put a message in the group chat, because then everybody knows at the same time and nobody is the one person who did nothing. Also, a message is easy to answer later. This is better than knocking on the door, because some people do not want a stranger at the door in their first week.*
 
 The three options, and the strongest case for each:
 - **(a) a note through the door** — works for a shy person or somebody who works from home; it asks nothing of them immediately.

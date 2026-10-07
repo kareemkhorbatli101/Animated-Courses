@@ -1,22 +1,22 @@
 # A21 check report
 
-**791 executions · 741 pass · 0 FAIL · 49 adjudication gate · 1 skip**
+**978 executions · 916 pass · 0 FAIL · 61 adjudication gate · 1 skip**
 
-Units validated: [1, 2, 3, 4]
+Units validated: [1, 2, 3, 4, 5]
 
 | Family | Checks | pass | FAIL | gate | skip |
 |---|---|---|---|---|---|
-| A · Structure | 30 | 120 | 0 | 0 | 0 |
-| B · Scaffolding quota | 22 | 88 | 0 | 0 | 0 |
-| C · Exercise integrity | 28 | 82 | 0 | 24 | 0 |
-| D · Answer key | 14 | 52 | 0 | 4 | 0 |
-| E · Language and level | 26 | 98 | 0 | 0 | 0 |
-| F · Topic and content | 18 | 42 | 0 | 21 | 0 |
-| G · Figures | 24 | 96 | 0 | 0 | 0 |
-| H · DOCX typography | 22 | 79 | 0 | 0 | 0 |
+| A · Structure | 30 | 150 | 0 | 0 | 0 |
+| B · Scaffolding quota | 22 | 110 | 0 | 0 | 0 |
+| C · Exercise integrity | 28 | 102 | 0 | 30 | 0 |
+| D · Answer key | 14 | 65 | 0 | 5 | 0 |
+| E · Language and level | 26 | 122 | 0 | 0 | 0 |
+| F · Topic and content | 18 | 52 | 0 | 26 | 0 |
+| G · Figures | 24 | 120 | 0 | 0 | 0 |
+| H · DOCX typography | 22 | 98 | 0 | 0 | 0 |
 | I · Covers | 12 | 12 | 0 | 0 | 0 |
-| J · Build | 16 | 51 | 0 | 0 | 1 |
-| K · Regression guards | 18 | 21 | 0 | 0 | 0 |
+| J · Build | 16 | 63 | 0 | 0 | 1 |
+| K · Regression guards | 18 | 22 | 0 | 0 | 0 |
 
 ## Mutation test
 

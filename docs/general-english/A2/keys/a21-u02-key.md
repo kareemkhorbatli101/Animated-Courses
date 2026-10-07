@@ -162,7 +162,7 @@ Card B must produce: questions about storage, noise and rent, and a verdict.
 
 Marking points: ☐ about one minute ☐ what there is ☐ what there is not much of ☐ a reason for liking it or not.
 
-> Sample (52 words): *I want to talk about my kitchen. There is a window over the sink and there are two shelves, and that is almost everything. There is not much space, so two people cannot cook there. I like it anyway, because the window looks at the garden and the light is good.*
+> Sample (51 words): *I want to talk about my kitchen. There is a window over the sink and there are two shelves, and that is almost everything. There is not much space, so two people cannot cook there. I like it anyway, because the window looks at the garden and the light is good.*
 
 ---
 
@@ -197,13 +197,13 @@ Each task already prints a model. These are the marking points and a second samp
 
 Marking points: ☐ at least one *there is* and one *there are* ☐ at least one *much* or *many* ☐ who uses it ☐ 50–70 words.
 
-> Sample (58 words): *There are two chairs and a very low table in Mr Okonkwo’s living room. There are newspapers on every shelf, and there are more under the window. There is not much room to walk. He uses it every afternoon, and from his chair he can see the whole street, which is the point of the room.*
+> Sample (56 words): *There are two chairs and a very low table in Mr Okonkwo’s living room. There are newspapers on every shelf, and there are more under the window. There is not much room to walk. He uses it every afternoon, and from his chair he can see the whole street, which is the point of the room.*
 
 **Part 6: A Good Place to Live (50–70 words)**
 
 Marking points: ☐ a clear opinion in the first sentence ☐ two or three reasons, each with *because* or a linker ☐ 50–70 words.
 
-> Sample (55 words): *A good place to live is not the quietest one. There are streets near me where nothing happens and nobody knows anybody. I would rather have a little noise and a shop that is open late. In my opinion the test is simple: can you borrow something from a neighbour without feeling strange?*
+> Sample (53 words): *A good place to live is not the quietest one. There are streets near me where nothing happens and nobody knows anybody. I would rather have a little noise and a shop that is open late. In my opinion the test is simple: can you borrow something from a neighbour without feeling strange?*
 
 **Part 6: A Message About a Problem (50–70 words)**
 
@@ -215,7 +215,7 @@ Marking points: ☐ polite, not accusing ☐ the problem stated once and clearly
 
 Marking points: ☐ three or four things named ☐ at least one *there is not* ☐ 40–60 words.
 
-> Sample (46 words): *In my ideal home there is one room that is only for quiet. There are no screens in it and there is not much furniture: a chair, a lamp, a shelf. Everything else can be noisy. There is a door, and the door closes properly.*
+> Sample (45 words): *In my ideal home there is one room that is only for quiet. There are no screens in it and there is not much furniture: a chair, a lamp, a shelf. Everything else can be noisy. There is a door, and the door closes properly.*
 
 ---
 
@@ -295,7 +295,7 @@ The three options, and the strongest case for each:
 - **(b) ask the neighbours** — cheap, friendly, and usually enough; somebody in a building of five normally knows something.
 - **(c) write to the owner or the council** — the only option that can actually resolve it, but it makes a small thing official and you may not have the facts yet.
 
-> Sample (51 words): *I think I should write to the council, because the post is not safe on an open landing and nobody else can stop it arriving. Also, it has gone on for months. This is better than asking the neighbours, because we asked each other already and nobody knows anything.*
+> Sample (49 words): *I think I should write to the council, because the post is not safe on an open landing and nobody else can stop it arriving. Also, it has gone on for months. This is better than asking the neighbours, because we asked each other already and nobody knows anything.*
 
 ---
 

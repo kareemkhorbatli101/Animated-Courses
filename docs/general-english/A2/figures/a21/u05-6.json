@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "/t/",
+   "size": 32,
+   "bbox": [
+    260.7,
+    217.2,
+    299.3,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "walked \u00b7 cooked \u00b7 watched",
+   "size": 26,
+   "bbox": [
+    108.0,
+    269.1,
+    452.0,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "/d/",
+   "size": 32,
+   "bbox": [
+    696.9,
+    217.2,
+    743.1,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stayed \u00b7 opened \u00b7 arrived",
+   "size": 26,
+   "bbox": [
+    556.7,
+    269.1,
+    883.3,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "/\u026ad/",
+   "size": 32,
+   "bbox": [
+    1128.1,
+    217.2,
+    1191.9,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "rested \u00b7 waited \u00b7 wanted",
+   "size": 26,
+   "bbox": [
+    1002.3,
+    269.1,
+    1317.7,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three sounds of the -ed ending: /t/ in walked, cooked and watched; /d/ in stayed, opened and arrived; and /\u026ad/ in rested, waited and wanted, which is the only group that adds a beat.",
+ "placed_in": [
+  5.625,
+  1.5416666666666667
+ ],
+ "sha256": "7edb7fc10b2b44475c17c3477cf51d9645fde8f051b4539a316756d9e3c0fa90"
+}

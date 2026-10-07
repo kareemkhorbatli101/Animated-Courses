@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  812
+ ],
+ "bounds": [
+  0,
+  30,
+  1440,
+  782
+ ],
+ "texts": [
+  {
+   "text": "UNIT 5",
+   "size": 40,
+   "bbox": [
+    90,
+    104.4,
+    239.9,
+    140.0
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Last Weekend",
+   "size": 72,
+   "bbox": [
+    90,
+    163.7,
+    658.9,
+    226.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "GRAMMAR",
+   "size": 26,
+   "bbox": [
+    106,
+    366.5,
+    259.4,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Past simple: was, were and",
+   "size": 36,
+   "bbox": [
+    106,
+    413.5,
+    660.9,
+    445.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "regular verbs",
+   "size": 36,
+   "bbox": [
+    106,
+    457.5,
+    379.3,
+    489.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "IN THIS UNIT",
+   "size": 26,
+   "bbox": [
+    786,
+    366.5,
+    973.7,
+    390.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "By the end you can",
+   "size": 30,
+   "bbox": [
+    70,
+    588.2,
+    394.3,
+    614.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can name places outside the city and talk about the weather.",
+   "size": 30,
+   "bbox": [
+    128,
+    640.2,
+    1187.1,
+    666.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use was, were and regular past verbs.",
+   "size": 30,
+   "bbox": [
+    128,
+    696.2,
+    867.8,
+    722.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can describe my last weekend in 50\u201370 words.",
+   "size": 30,
+   "bbox": [
+    128,
+    752.2,
+    934.7,
+    778.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The opening page of Unit 5, Last Weekend: the grammar point is the past simple with was, were and regular verbs, and three things the learner will be able to do by the end of the unit.",
+ "placed_in": [
+  6.270833333333333,
+  3.53125
+ ],
+ "sha256": "3243636da8960344487255482afc04efc0539a4f2148d4c4f39a8904fcc1e33e"
+}

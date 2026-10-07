@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "the Middle East",
+   "size": 32,
+   "bbox": [
+    139.4,
+    217.2,
+    420.6,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Friday and Saturday are",
+   "size": 26,
+   "bbox": [
+    124.1,
+    269.1,
+    435.9,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the days off",
+   "size": 26,
+   "bbox": [
+    202.8,
+    301.1,
+    357.2,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Nepal",
+   "size": 32,
+   "bbox": [
+    668.0,
+    217.2,
+    772.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one day off for a long time",
+   "size": 26,
+   "bbox": [
+    546.9,
+    269.1,
+    893.1,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Iceland",
+   "size": 32,
+   "bbox": [
+    1094.6,
+    217.2,
+    1225.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "tested a four-day week for",
+   "size": 26,
+   "bbox": [
+    988.4,
+    269.1,
+    1331.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four years",
+   "size": 26,
+   "bbox": [
+    1094.0,
+    301.1,
+    1226.0,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The days off in three places: Friday and Saturday in much of the Middle East, one day off for a long time in Nepal, and a four-day week tested for four years in Iceland.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "3648b0174f5bde5a9eacee129547e28fe7d180896f15a7065c40c1b44775a361"
+}

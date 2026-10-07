@@ -36,6 +36,8 @@ people:
       - usually works three days a week
       - some weeks works nights; sleeps mornings, gets up at four
       - finishes a night shift around eight in the morning
+      - worked eleven of the last twelve Saturday nights
+      - missed Maya's birthday dinner and sent a photograph of the cake
     first_unit: 1
   Amina:
     full: Amina Chaudhry
@@ -96,6 +98,7 @@ walk_ons:
   - {name: Jun, unit: 1, country: South Korea}
   - {name: Clara, unit: 2, country: Brazil}
   - {name: the sellers of Fez, unit: 4, country: Morocco}
+  - {name: the Iceland trial, unit: 5, country: Iceland}
 
 places:
   - Alder Street

@@ -203,7 +203,7 @@ Each task already prints a model. These are the marking points and a second samp
 
 Marking points: ☐ one countable food with *a few* ☐ one uncountable food with *a little* or *a lot of* ☐ who eats it ☐ 50–70 words.
 
-> Sample (58 words): *Maya makes the same pasta every Sunday. She needs a lot of tomatoes, a little salt and three or four cloves of garlic, and nothing else at all. It takes twenty minutes and it is better the next day. She cooks enough for two, because Tomas comes home at some point and he is always hungry.*
+> Sample (56 words): *Maya makes the same pasta every Sunday. She needs a lot of tomatoes, a little salt and three or four cloves of garlic, and nothing else at all. It takes twenty minutes and it is better the next day. She cooks enough for two, because Tomas comes home at some point and he is always hungry.*
 
 **Part 6: Small Shop or Big Shop? (50–70 words)**
 
@@ -259,7 +259,7 @@ Marking points: ☐ the problem raised without blame ☐ the facts given plainly
 
 Marking points: ☐ when you shopped ☐ the mistake, specifically ☐ the amount ☐ a tone that is not angry ☐ 50–80 words.
 
-> Sample (62 words): *Good morning. I was at your shop yesterday at about four. Looking at the receipt at home, I see the milk is on it twice. It is only one pound ten and I am not worried, but I thought you would want to know, in case the till is doing it to everybody. I am usually in on Saturdays. Thank you. Maya Oduya*
+> Sample (63 words): *Good morning. I was at your shop yesterday at about four. Looking at the receipt at home, I see the milk is on it twice. It is only one pound ten and I am not worried, but I thought you would want to know, in case the till is doing it to everybody. I am usually in on Saturdays. Thank you. Maya Oduya*
 
 ---
 
@@ -300,7 +300,7 @@ The three options, and the strongest case for each:
 - **(a) keep the book** — it is cheap, it is why the street uses the shop at all, and two bad debts in eleven years is a very small cost.
 - **(b) stop it** — a small shop has almost no margin; the son is right that it is money the business cannot really spare, and it is simpler for whoever runs the shop next.
 
-> Sample (54 words): *I think I should keep it only for people I have known a long time, because that is where the risk is smallest. Also, I can still say yes to almost everybody. This is better than keeping it for anybody, because one bad month would cost me more than the goodwill is worth.*
+> Sample (53 words): *I think I should keep it only for people I have known a long time, because that is where the risk is smallest. Also, I can still say yes to almost everybody. This is better than keeping it for anybody, because one bad month would cost me more than the goodwill is worth.*
 - **(c) keep it for people you have known a long time** — most of the benefit with most of the risk removed, but it creates two kinds of customer in a street of four hundred people, and everybody will know which kind they are.
 
 ---

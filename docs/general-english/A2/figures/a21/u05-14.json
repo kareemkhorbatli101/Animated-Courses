@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  433
+ ],
+ "bounds": [
+  57,
+  21.5,
+  1383,
+  411.4
+ ],
+ "texts": [
+  {
+   "text": "I can name places outside the city and talk about the weather",
+   "size": 28,
+   "bbox": [
+    156,
+    46.2,
+    1137.9,
+    70.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use was, were and regular past verbs",
+   "size": 28,
+   "bbox": [
+    156,
+    126.1,
+    835.9,
+    150.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can understand people talking about their weekend",
+   "size": 28,
+   "bbox": [
+    156,
+    206.1,
+    996.6,
+    230.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can describe my last weekend in 50\u201370 words",
+   "size": 28,
+   "bbox": [
+    156,
+    286.1,
+    898.3,
+    310.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can sort out a plan that did not happen",
+   "size": 28,
+   "bbox": [
+    156,
+    366.1,
+    798.3,
+    390.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "PLUS",
+   "size": 22,
+   "bbox": [
+    1266.9,
+    370.1,
+    1330.0,
+    390.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each, the last one marked Plus.",
+ "placed_in": [
+  6.270833333333333,
+  1.8854166666666667
+ ],
+ "sha256": "127512b1114b65abee5b23128d4b99e30d579dce69de14e96a117403e84290dd"
+}

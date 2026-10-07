@@ -205,19 +205,19 @@ Marking points: ☐ one present-simple fact about every day ☐ one present-cont
 
 Marking points: ☐ a clear opinion ☐ two or three reasons ☐ one concession or problem named ☐ 50–70 words.
 
-> Sample (57 words): *For me the bus is the best way, because I can read and because it costs less than everything else. It is slow at six, but at six everything is slow. People say cycling is faster and they are right, but I do not want to arrive at work wet. The bus is the comfortable answer.*
+> Sample (56 words): *For me the bus is the best way, because I can read and because it costs less than everything else. It is slow at six, but at six everything is slow. People say cycling is faster and they are right, but I do not want to arrive at work wet. The bus is the comfortable answer.*
 
 **Part 6: A Message About Meeting (50–70 words)**
 
 Marking points: ☐ a place and a time ☐ how to get there, with one detail ☐ one sentence about yourself ☐ 50–70 words.
 
-> Sample (60 words): *Hi Dani. Shall we meet at the bench by the park entrance at two on Sunday? The 12 bus stops right there and it runs every twenty minutes on Sundays. If you walk from your side it is about half an hour, and the bridge is the quick way. I am at the market first, so message me if you are early.*
+> Sample (62 words): *Hi Dani. Shall we meet at the bench by the park entrance at two on Sunday? The 12 bus stops right there and it runs every twenty minutes on Sundays. If you walk from your side it is about half an hour, and the bridge is the quick way. I am at the market first, so message me if you are early.*
 
 **Part 6: Reflection — My Favourite Hour (40–60 words)**
 
 Marking points: ☐ an hour named ☐ what is happening at that hour ☐ a reason ☐ 40–60 words.
 
-> Sample (49 words): *I like ten at night best. The traffic is gone and the shops are shut, and the only people out are walking dogs or coming off a late shift. The city is doing nothing, and it is the one hour when it belongs to whoever is awake.*
+> Sample (47 words): *I like ten at night best. The traffic is gone and the shops are shut, and the only people out are walking dogs or coming off a late shift. The city is doing nothing, and it is the one hour when it belongs to whoever is awake.*
 
 ---
 

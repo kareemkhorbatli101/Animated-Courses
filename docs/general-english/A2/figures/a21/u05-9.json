@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "workers",
+   "size": 28,
+   "bbox": [
+    106.5,
+    238.0,
+    232.7,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "campaigned",
+   "size": 28,
+   "bbox": [
+    73.5,
+    271.0,
+    265.7,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "owners said no",
+   "size": 22,
+   "bbox": [
+    351.2,
+    274.9,
+    538.4,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a factory",
+   "size": 30,
+   "bbox": [
+    644.5,
+    234.5,
+    795.5,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "tried it",
+   "size": 30,
+   "bbox": [
+    661.9,
+    269.5,
+    778.1,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the work still",
+   "size": 26,
+   "bbox": [
+    898.6,
+    240.8,
+    1091.8,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "happened",
+   "size": 26,
+   "bbox": [
+    922.4,
+    271.8,
+    1068.0,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "five days",
+   "size": 30,
+   "bbox": [
+    1195.0,
+    234.5,
+    1345.8,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "and two",
+   "size": 30,
+   "bbox": [
+    1202.3,
+    269.5,
+    1338.5,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "How the weekend arrived, in five stages, each with an arrow to the next: workers campaigned, owners said no, one factory tried it, the work still happened, and five days and two became normal.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "fde99873180e22b2056d785d3e41fc3d5d1e29cddf3570be20084e3131212e65"
+}

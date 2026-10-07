@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Forty hours",
+   "size": 34,
+   "bbox": [
+    254.5,
+    67.8,
+    475.5,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "five days",
+   "size": 27,
+   "bbox": [
+    304.0,
+    282.5,
+    426.0,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "tired workers",
+   "size": 27,
+   "bbox": [
+    276.5,
+    328.5,
+    453.5,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the same work",
+   "size": 27,
+   "bbox": [
+    264.8,
+    374.5,
+    465.2,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Thirty-six",
+   "size": 34,
+   "bbox": [
+    1013.9,
+    67.8,
+    1196.1,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four days",
+   "size": 27,
+   "bbox": [
+    1041.7,
+    282.5,
+    1168.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the same pay",
+   "size": 27,
+   "bbox": [
+    1012.7,
+    328.5,
+    1197.3,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the same work",
+   "size": 27,
+   "bbox": [
+    1004.8,
+    374.5,
+    1205.2,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Iceland before and after the trial. Before: forty hours over five days, with tired workers. After: thirty-six hours over four days, on the same pay, and the same work got done.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "e70ee05f197dd96277f943ccde00292da327af4009f798a6e3534bbac79e3a68"
+}

@@ -21,8 +21,11 @@ def _exempt(u, ctx):
     for l in u.lines:
         if '**Gloss:**' in l or 'glossary' in l.lower():
             glossed |= {t.lower() for t in L.tokens(l)}
-    for w in ctx.lexis['units'].get(u.num, {}).get('words', []):  # taught words
-        glossed |= {t.lower() for t in L.tokens(str(w))}
+    # every glossary word up to and including this unit has been taught
+    for un, rec in ctx.lexis['units'].items():
+        if int(un) <= u.num:
+            for w in rec.get('words', []):
+                glossed |= {t.lower() for t in L.tokens(str(w))}
     # a glossed headword covers its regular inflections
     infl = set()
     for w in glossed:
@@ -91,9 +94,16 @@ def e06(u, ctx):
             if p.name not in parts:
                 continue
             for src in [p.leading] + [s.lines for s in p.subs]:
+                RUBRIC = ('Card ', 'Student ', 'Useful ', 'Model exchange',
+                          'Answer frame', 'Phrase bank', 'Discussion frames',
+                          'Gloss:', 'Word bank', 'Plan (', 'Check ', 'Before you')
                 for l in src:
-                    if l.startswith('> ') and not l[2:].lstrip().startswith(('**', '○')):
-                        out.append(l[2:])
+                    if not l.startswith('> ') or l[2:].lstrip().startswith(('**', '○')):
+                        continue
+                    body = l[2:].lstrip()
+                    if body.startswith(RUBRIC):
+                        continue          # rubric the book supplies, not prose
+                    out.append(body)
         t = ' '.join(out)
         for pat in ctx.grammar.get('exempt_patterns', []):
             t = re.sub(pat, ' ', t, flags=re.I)

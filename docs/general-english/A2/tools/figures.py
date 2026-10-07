@@ -559,6 +559,30 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def landscape(f: Fig, x, y, w, h):
+    """The countryside from the side: hill, forest, lake, path, village."""
+    ground = y + h * 0.66
+    f.path(f'M {x + 30:.1f} {ground:.1f} L {x + w * 0.22:.1f} {y + h * 0.22:.1f} '
+           f'L {x + w * 0.44:.1f} {ground:.1f} Z', fill=P['blue'])          # hill
+    for k in range(5):                                                      # forest
+        cx = x + w * 0.46 + k * 34
+        f.path(f'M {cx - 22:.1f} {ground:.1f} L {cx:.1f} {ground - 76:.1f} '
+               f'L {cx + 22:.1f} {ground:.1f} Z', fill=P['deep'])
+        f.rect(cx - 7, ground, 14, 22, fill=P['tand'], stroke=P['ink'], r=2)
+    f.rect(x + 30, ground + 34, w - 60, h * 0.24, fill=P['card'],
+           stroke=P['rule'], r=0, sw=3)                                     # ground
+    f.rect(x + w * 0.10, ground + 58, w * 0.26, 54, fill=P['blue'],
+           stroke=P['ink'], r=24)                                           # lake
+    f.path(f'M {x + w * 0.42:.1f} {ground + h * 0.24 + 30:.1f} '
+           f'L {x + w * 0.56:.1f} {ground + 60:.1f} '
+           f'L {x + w * 0.52:.1f} {ground + 40:.1f}', stroke=P['tan'], sw=9)  # path
+    for k in range(3):                                                      # village
+        bx = x + w * 0.70 + k * 56
+        f.rect(bx, ground + 44, 44, 48, fill=P['bg'], stroke=P['ink'], r=3)
+        f.path(f'M {bx - 8:.1f} {ground + 44:.1f} L {bx + 22:.1f} {ground + 16:.1f} '
+               f'L {bx + 52:.1f} {ground + 44:.1f} Z', fill=P['tan'])
+
+
 def counter(f: Fig, x, y, w, h):
     """A shop counter from the front: basket, till, receipt, change, bag."""
     top = y + h * 0.46

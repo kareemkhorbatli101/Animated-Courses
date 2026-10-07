@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 5.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya and Dani",
+   "size": 32,
+   "bbox": [
+    133.5,
+    287.0,
+    399.9,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what did you do?",
+   "size": 26,
+   "bbox": [
+    155.2,
+    356.9,
+    378.1,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 5.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and the clerk",
+   "size": 32,
+   "bbox": [
+    557.5,
+    287.0,
+    882.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "booking a trip",
+   "size": 26,
+   "bbox": [
+    629.7,
+    356.9,
+    810.3,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 5.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "five weekends",
+   "size": 26,
+   "bbox": [
+    1080.3,
+    356.9,
+    1266.3,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Maya and Dani ask each other what they did, Yuki books a trip with a clerk, and Amina describes five weekends in one building.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "e321ddb5277ef9327c0859d2d1338810a02ccabc66a77855c1a839a7674a2991"
+}
