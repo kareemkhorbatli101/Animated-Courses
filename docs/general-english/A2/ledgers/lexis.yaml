@@ -1,0 +1,6 @@
+# Append-only glossary ledger. 10 words a unit, 200 across both books.
+# E10 and E11 reject any repeat; E09 requires three plantings before Part 10.
+units:
+  1:
+    book: A2.1
+    words: [routine, shift, flatmate, neighbour, colleague, commute, appointment, busy, usually, "at the moment"]

@@ -1,0 +1,87 @@
+# Append-only. Every fact asserted about a character is recorded here at the
+# moment it is written. Check F04 rejects any later sentence that contradicts it.
+address: 14 Alder Street
+street: Alder Street
+
+people:
+  Maya:
+    full: Maya Oduya
+    age: 26
+    pronouns: she/her
+    job: bookshop assistant
+    home: flat 2, 14 Alder Street
+    flatmate: Tomas
+    facts:
+      - gets up at half past six
+      - makes coffee, then listens to the radio
+      - commutes twenty minutes by bus
+      - starts work at nine
+      - is studying for an exam; leaves work early on Tuesdays
+      - knocked on Yuki's door on her fifth day with a note
+    first_unit: 1
+  Tomas:
+    full: Tomas Nilsen
+    age: 31
+    pronouns: he/him
+    job: nurse at the city hospital
+    home: flat 2, 14 Alder Street
+    flatmate: Maya
+    facts:
+      - usually works three days a week
+      - some weeks works nights; sleeps mornings, gets up at four
+      - finishes a night shift around eight in the morning
+    first_unit: 1
+  Amina:
+    full: Amina Chaudhry
+    age: 58
+    pronouns: she/her
+    job: runs the corner shop downstairs
+    home: 14 Alder Street, ground floor
+    facts:
+      - opens the shop at seven every morning
+      - opens every day except Sunday
+      - closes at six, and at two on Saturday
+      - knows almost everybody in the street
+    first_unit: 1
+  Dani:
+    full: Dani Rossi
+    age: 19
+    pronouns: he/him
+    job: student
+    home: flat 3, 14 Alder Street
+    facts:
+      - cooks badly; burned the rice once
+      - carries large bags of rice home
+    first_unit: 1
+  Okonkwo:
+    full: Mr Okonkwo
+    age: 70
+    pronouns: he/him
+    job: retired teacher
+    home: flat 4, 14 Alder Street
+    facts:
+      - reads his newspaper in the afternoon
+      - watches the street from his window
+      - has an appointment at the clinic on Thursday
+    first_unit: 1
+  Yuki:
+    full: Yuki Tanaka
+    age: 34
+    pronouns: she/her
+    job: works from home
+    home: top flat, 14 Alder Street
+    facts:
+      - moved in on a Saturday in March
+      - knew nobody in the city when she arrived
+      - after three weeks knew four of the six people at number 14
+    first_unit: 1
+
+# One-unit walk-ons from the Part 8 Global Story. Never recur.
+walk_ons:
+  - {name: Hana, unit: 1, country: South Korea}
+
+places:
+  - Alder Street
+  - the corner shop
+  - the city hospital
+  - the bookshop

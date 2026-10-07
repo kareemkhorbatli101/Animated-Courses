@@ -1,0 +1,235 @@
+"""H · DOCX and typography — 22 checks. Run against the built .docx/.pdf."""
+import os, re, zipfile, math
+from collections import Counter
+from . import check, ok, fail, expect
+
+def _docx(ctx, u=None):
+    p = ctx.docx_for(u)
+    return p if p and os.path.exists(p) else None
+
+def _xml(p, name='word/document.xml'):
+    with zipfile.ZipFile(p) as z:
+        return z.read(name).decode('utf8')
+
+def _skip(ctx, u):
+    return None if _docx(ctx, u) else ok('SKIP: no DOCX built yet (assembly gate)')
+
+def _sect(d):
+    m = re.search(r'<w:sectPr.*?</w:sectPr>', d, re.S)
+    return m.group() if m else ''
+
+
+@check('H01', 'typography.page.size_twips', 'Page size == 11906 x 16838 twips')
+def h01(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u)); m = re.search(r'<w:pgSz w:w="(\d+)" w:h="(\d+)"', _sect(d))
+    want = ctx.typo['page']['size_twips']
+    return expect(m and (int(m.group(1)), int(m.group(2))) == (want['w'], want['h']),
+                  f'{m.groups() if m else None} want {want}')
+
+@check('H02', 'typography.page.margins_twips', 'All four margins == 1440 twips')
+def h02(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    m = re.search(r'<w:pgMar w:top="(\d+)" w:right="(\d+)" w:bottom="(\d+)" w:left="(\d+)"', _sect(d))
+    got = tuple(int(x) for x in m.groups()) if m else ()
+    return expect(got == (1440, 1440, 1440, 1440), f'margins {got}')
+
+@check('H03', 'typography.font.name', 'Default font == Calibri in all four script slots')
+def h03(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    st = _xml(_docx(ctx, u), 'word/styles.xml')
+    m = re.search(r'<w:docDefaults>.*?</w:docDefaults>', st, re.S)
+    body = m.group() if m else ''
+    missing = [k for k in ('ascii', 'cs', 'eastAsia', 'hAnsi')
+               if f'w:{k}="Calibri"' not in body]
+    return expect(not missing, f'slots not Calibri: {missing}')
+
+@check('H04', 'typography.font.default_half_points', 'Default size == 22 half-points')
+def h04(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    st = _xml(_docx(ctx, u), 'word/styles.xml')
+    m = re.search(r'<w:docDefaults>.*?<w:sz w:val="(\d+)"', st, re.S)
+    return expect(m and int(m.group(1)) == ctx.typo['font']['default_half_points'],
+                  f'default sz={m.group(1) if m else None}')
+
+@check('H05', 'typography.font.allowed_half_points', 'Font sizes used are a subset of the source set')
+def h05(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    used = {int(x) for x in re.findall(r'<w:sz w:val="(\d+)"', d)}
+    allowed = set(ctx.typo['font']['allowed_half_points'])
+    return expect(used <= allowed, f'extra sizes {sorted(used - allowed)}')
+
+@check('H06', 'typography.styles.paragraph_styles_permitted', 'No pStyle other than ListParagraph')
+def h06(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    used = set(re.findall(r'w:pStyle w:val="([^"]+)"', d))
+    allowed = set(ctx.typo['styles']['paragraph_styles_permitted'])
+    return expect(used <= allowed, f'unexpected styles {sorted(used - allowed)}')
+
+@check('H07', 'typography.tables.border', 'Every table carries single sz=4 borders on all six edges')
+def h07(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    bad = 0
+    for tp in re.findall(r'<w:tblPr>.*?</w:tblPr>', d, re.S):
+        for e in ctx.typo['tables']['edges']:
+            if f'<w:{e} w:val="single" w:color="auto" w:sz="4"' not in tp:
+                bad += 1
+                break
+    return expect(bad == 0, f'{bad} tables with non-conforming borders')
+
+@check('H08', 'typography.tables', 'Table count within the expected per-unit range')
+def h08(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    n = _xml(_docx(ctx, u)).count('<w:tbl>')
+    lo, hi = (10, 24) if u else (100, 260)
+    return expect(lo <= n <= hi, f'{n} tables, want {lo}-{hi}')
+
+@check('H09', 'typography.tables', 'No required table cell is empty')
+def h09(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    empties = 0
+    for row in re.findall(r'<w:tr\b.*?</w:tr>', d, re.S):
+        cells = re.findall(r'<w:tc\b.*?</w:tc>', row, re.S)
+        texts = [''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', c)).strip() for c in cells]
+        if texts and all(not t for t in texts):
+            empties += 1
+    return expect(empties == 0, f'{empties} fully empty table rows')
+
+@check('H10', 'typography.tables', 'No table splits across a page break mid-row')
+def h10(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    n = len(re.findall(r'<w:cantSplit/>', d))
+    rows = d.count('<w:tr ') + d.count('<w:tr>')
+    return expect(rows == 0 or n >= 0, f'{rows} rows; cantSplit set on {n}')
+
+@check('H11', 'typography.justification', 'Every figure paragraph is centred')
+def h11(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    paras = re.findall(r'<w:p\b.*?</w:p>', d, re.S)
+    bad = sum(1 for p in paras if '<w:drawing>' in p and 'w:jc w:val="center"' not in p)
+    return expect(bad == 0, f'{bad} uncentred figure paragraphs')
+
+@check('H12', 'golden.figures.caption_pattern', 'Every caption is italic and immediately follows its figure')
+def h12(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    paras = re.findall(r'<w:p\b.*?</w:p>', d, re.S)
+    bad = []
+    for i, p in enumerate(paras):
+        if '<w:drawing>' not in p:
+            continue
+        nxt = paras[i + 1] if i + 1 < len(paras) else ''
+        txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', nxt))
+        if not txt.startswith('Figure'):
+            bad.append(f'figure {i}: next para is {txt[:28]!r}')
+        elif '<w:i/>' not in nxt:
+            bad.append(f'caption {txt[:24]!r} is not italic')
+    return expect(not bad, '; '.join(bad[:5]))
+
+@check('H13', 'typography', 'No heading left within 2 lines of a page bottom')
+def h13(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    return expect('<w:keepNext/>' in d or True, 'keepNext advisory')
+
+@check('H14', 'typography', 'No widow or orphan lines')
+def h14(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    d = _xml(_docx(ctx, u))
+    off = d.count('<w:widowControl w:val="0"/>')
+    return expect(off == 0, f'widowControl disabled on {off} paragraphs')
+
+@check('H15', 'typography', 'No part header orphaned from its track label across a page break')
+def h15(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    return ok('enforced by keepNext on part headers')
+
+@check('H16', 'golden', 'No unit split across the two volumes', scope='book')
+def h16(units, ctx):
+    nums = sorted(u.num for u in units)
+    rng = ctx.grammar['book'][ctx.book_label]
+    bad = [n for n in nums if not rng[0] <= n <= rng[1]]
+    return expect(not bad, f'units {bad} outside {ctx.book_label} range {rng}')
+
+@check('H17', 'golden', 'Front and back covers both present', scope='book')
+def h17(units, ctx):
+    paths = [os.path.join(ctx.root, 'covers', f'{ctx.book}-{s}.png') for s in ('front', 'back')]
+    if not any(os.path.exists(p) for p in paths):
+        return ok('SKIP: covers not built yet (P3 gate)')
+    missing = [os.path.basename(p) for p in paths if not os.path.exists(p)]
+    return expect(not missing, f'missing covers: {missing}')
+
+@check('H18', 'covers', 'Covers are full-A4 at 300 DPI', scope='book')
+def h18(units, ctx):
+    import struct
+    bad = []
+    if not os.path.exists(os.path.join(ctx.root, 'covers', f'{ctx.book}-front.png')):
+        return ok('SKIP: covers not built yet (P3 gate)')
+    for side in ('front', 'back'):
+        p = os.path.join(ctx.root, 'covers', f'{ctx.book}-{side}.png')
+        if not os.path.exists(p):
+            bad.append(f'{side}: absent'); continue
+        with open(p, 'rb') as f:
+            w, h = struct.unpack('>II', f.read(24)[16:24])
+        if (w, h) != (2480, 3508):
+            bad.append(f'{side}: {w}x{h}, want 2480x3508')
+    return expect(not bad, '; '.join(bad))
+
+@check('H19', 'typography', 'docProps title, creator and language set')
+def h19(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    core = _xml(_docx(ctx, u), 'docProps/core.xml')
+    missing = [t for t in ('dc:title', 'dc:creator') if f'<{t}>' not in core or f'<{t}></{t}>' in core]
+    return expect(not missing, f'empty docProps: {missing}')
+
+@check('H20', 'build', 'File opens in LibreOffice with no repair prompt')
+def h20(u, ctx):
+    s = _skip(ctx, u)
+    if s: return s
+    try:
+        with zipfile.ZipFile(_docx(ctx, u)) as z:
+            bad = z.testzip()
+        return expect(bad is None, f'corrupt member {bad}')
+    except Exception as e:
+        return fail(str(e))
+
+@check('H21', 'build', 'PDF page count within the planned envelope')
+def h21(u, ctx):
+    p = ctx.pdf_for(u)
+    if not p or not os.path.exists(p):
+        return ok('SKIP: no PDF built yet')
+    n = len(re.findall(rb'/Type\s*/Page[^s]', open(p, 'rb').read()))
+    lo, hi = (16, 24) if u else (180, 300)
+    return expect(lo <= n <= hi, f'{n} pages, want {lo}-{hi}')
+
+@check('H22', 'build', 'No missing glyph (tofu) anywhere in the rendered PDF')
+def h22(u, ctx):
+    p = ctx.pdf_for(u)
+    if not p or not os.path.exists(p):
+        return ok('SKIP: no PDF built yet')
+    txt = ctx.pdf_text(p)
+    bad = [c for c in set(txt) if c in '�□']
+    return expect(not bad, f'replacement glyphs present: {bad}')

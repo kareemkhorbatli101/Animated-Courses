@@ -1,0 +1,76 @@
+# Each point is introduced exactly once. Check K09 enforces uniqueness,
+# E06 enforces that nothing appears before the unit that teaches it.
+book: {A2.1: [1, 10], A2.2: [11, 20]}
+spine:
+  1:  {point: present simple, frequency adverbs,      topic: People and Routines}
+  2:  {point: there is/are, some/any, much/many,      topic: Home and Neighbourhood}
+  3:  {point: present continuous vs present simple,   topic: A Day in the City}
+  4:  {point: countable/uncountable, quantifiers, articles, topic: Food and Shopping}
+  5:  {point: past simple - was/were and regular verbs, topic: Last Weekend}
+  6:  {point: past simple - irregular verbs, past time phrases, topic: Journeys and Mishaps}
+  7:  {point: comparatives and superlatives,          topic: Choosing and Comparing}
+  8:  {point: can/can't, could - ability and polite asks, topic: Help and Ability}
+  9:  {point: prepositions of place, time and movement, topic: Finding Your Way}
+  10: {point: imperatives, sequencers, adverbs of manner, topic: Doing and Making}
+  11: {point: going to, present continuous for arrangements, topic: Plans and Arrangements}
+  12: {point: will, might - predictions and offers,   topic: Weather and What Might Happen}
+  13: {point: must/have to/mustn't/don't have to,     topic: Rules and Places}
+  14: {point: should/shouldn't - advice,              topic: Health and Feeling Better}
+  15: {point: present perfect - experience, ever/never, topic: Experiences}
+  16: {point: present perfect vs past simple,         topic: Then and Now}
+  17: {point: active and passive,                     topic: How Things Are Made}
+  18: {point: first conditional, time clauses,        topic: If and When}
+  19: {point: defining relative clauses,              topic: People, Places and Things}
+  20: {point: reported speech, indirect questions,    topic: News, Stories and Messages}
+
+# Markers that betray a grammar point. E06 fails if a marker appears before its unit,
+# unless the phrase is on the exempt list.
+markers:
+  # Past simple: lexical past forms and did-support, not every word ending -ed
+  # (needed, tired, married are A2 adjectives and participles).
+  5:  ['\bwas\b', '\bwere\b', '\bdid(n.t)?\b',
+       '\b(walked|worked|watched|started|finished|wanted|lived|played|opened|closed|asked|answered|called|arrived|stayed|moved|cooked|cleaned|visited|happened|looked|listened|carried|studied|tried|liked|helped|waited)\b']
+  11: ['\bgoing to\b']
+  12: ['\bwill\b', '\bmight\b']
+  13: ['\bmust\b', '\bhave to\b', "\\bmustn't\\b"]
+  14: ['\bshould\b']
+  # Present perfect: the auxiliary, not the adverb. "never" and "ever" are
+  # frequency adverbs taught in Unit 1 and must not trip this.
+  15: ['\b(has|have|has not|have not|hasn.t|haven.t) (been|had|seen|done|made|gone|taken|written|eaten|\w+ed)\b',
+       '\b(Have|Has) (you|he|she|they|we|I) ever\b']
+  17: ['\bis made\b', '\bare made\b', '\bwas made\b', '\bwere made\b']
+  18: ['\bif .+ will\b']
+  # Defining relative clause: a head noun plus a relative pronoun plus a verb,
+  # not a bare "who", "which" or "that" (question word, conjunction, determiner).
+  19: ['\b(person|people|man|woman|thing|things|place|places|one|shop|street|book|day)\s+(who|which|that)\s+\w+']
+  20: ['\btold (me|him|her|them|us) (that |to )?\w+', '\bsaid that\b',
+       '\basked (me|him|her|them|us) (if|whether|where|when|why|what)\b']
+# Measured in the source, not assumed. Its Unit 1 Part 3 scripts contain NO past
+# simple at all, but its Part 7B dialogue does ("I helped my uncle before"), and
+# its Part 8 and Part 9 texts are narrated in the past throughout. So the whole
+# PLUS track carries narrative past from Unit 1; the CORE track does not.
+# Only the past-simple points are exempt there; every other point obeys the
+# spine everywhere, PLUS included.
+narrative_exempt_parts: ['Part 7', 'Part 8', 'Part 9']
+narrative_exempt_points: [5, 6]
+# Regexes stripped before any marker is applied.
+exempt_patterns:
+  - '\ba (man|woman|person|girl|boy|friend|neighbour|teacher|student|nurse) called \w+'
+  - '\bcalled \w+,'
+exempt_phrases:
+  - "I'd like"
+  - "Would you like"
+  - "Thank you"
+  - "never mind"
+  - "I think that"
+  - "the one that"
+  - "What's that"
+  - "you must be"
+  - "I should"
+  - "never mind"
+  - "never lose"
+  - "should be"
+  - "has to"
+  - "that is"
+  - "that it"
+  - "so that"

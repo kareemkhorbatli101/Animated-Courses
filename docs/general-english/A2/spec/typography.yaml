@@ -1,0 +1,35 @@
+# Extracted from EFD_Book_U1-U10_Illustrated_StudentBook_2.docx. Do not edit by hand.
+source_file: EFD_Book_U1-U10_Illustrated_StudentBook_2.docx
+page:
+  size_twips: {w: 11906, h: 16838}     # A4 portrait
+  orient: portrait
+  margins_twips: {top: 1440, right: 1440, bottom: 1440, left: 1440}
+  header_offset_twips: 708
+  footer_offset_twips: 708
+  text_width_twips: 9026
+font:
+  name: Calibri
+  slots: [ascii, cs, eastAsia, hAnsi]
+  default_half_points: 22               # 11 pt
+  allowed_half_points: [18, 20, 22, 24, 28, 40]
+  pdf_substitute: Carlito               # metric-compatible
+styles:
+  paragraph_styles_permitted: [ListParagraph]
+  headings_are_word_styles: false        # source uses bold runs in body paragraphs
+tables:
+  border: {val: single, color: auto, sz: 4}   # 0.5 pt
+  edges: [top, left, bottom, right, insideH, insideV]
+  table_style: null
+justification:
+  used: [center]                         # figures only
+figure_placement:
+  # The law that reproduces all 40 source placements to the EMU.
+  render_px_width: 1440
+  box_in: {w: 5.625, h: 1.9791666666666667}
+  fit: contain                           # preserve aspect, fit inside box
+  round_to_dpi: 96                       # then round each dimension to a whole 96-DPI px
+  rounding: half_up
+# Declared departures from the source, approved 2026-10-07.
+departures:
+  page_numbers: true
+  running_footer: "Unit {unit} · {part}"

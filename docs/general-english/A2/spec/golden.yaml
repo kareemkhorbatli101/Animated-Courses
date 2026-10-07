@@ -1,0 +1,185 @@
+# The frozen architecture. Measured from all ten units of the source book.
+# Hash-locked: check K01 compares sha256 of this file against spec/golden.sha256.
+schema_version: 1
+source:
+  file: EFD_Book_U1-U10_Illustrated_StudentBook_2.docx
+  units: 10
+  words: 43756
+  figures: 40
+  measured_on: 2026-10-07
+
+unit:
+  bold_headings: 110
+  subsections: 42
+  words: {target: 4790, min: 4450, max: 5120}   # 4375 source + ~415 of filled models
+  source_words: 4375
+  figures: 4
+  audio_tracks: 5
+  glossary_words: 10
+  can_do_lines: 5
+  writing_tasks: 5
+
+title_pattern: '^\*\*Unit (\d+): (.+)\*\*$'
+strap_pattern: '^\*English for Daily Life · Level: A2 · Tracks: \[CORE\] Warm-Up \+ Parts 1–6 · \[PLUS\] Parts 7–10\*$'
+
+track_labels:
+  permitted:
+    - '[CORE] Core track · in-class starter'
+    - '[CORE] Core track · pre-class input'
+    - '[CORE] Core track · pre-class input · scripts printed inline'
+    - '[CORE] Core track · in-class output'
+    - '[CORE] Core track · in-class / homework'
+    - '[PLUS] Plus track (optional) · stronger learners'
+    - '[PLUS] Plus track · pre-read / discuss'
+    - '[PLUS] Plus track · pre-read / decide'
+    - '[CORE + PLUS] · homework / self-study'
+
+# The 42 sub-sections, in order. `id` is stable; `heading` is a regex.
+# `kind` drives the exercise-integrity checks.
+sections:
+  - {part: 'Warm Up', header: '**Warm Up**', track: '[CORE] Core track · in-class starter', subs: [
+      {id: w1, kind: matching,   heading: '^\*\*Warm-up: .+\*\*$'},
+      {id: w2, kind: gapfill,    heading: '^\*\*Warm-up: .+\*\*$'},
+      {id: w3, kind: fig_mcq,    heading: '^\*\*Warm-up: .+\*\*$', figure: 4}]}
+  - {part: 'Part 1', header: '**Part 1 · Vocabulary and Terminology**', track: '[CORE] Core track · pre-class input', subs: [
+      {id: p1a, kind: matching,    heading: '^\*\*Part 1: .+\*\*$', seeded: true, standalone_seed: true},
+      {id: p1b, kind: pronunciation, heading: '^\*\*Part 1: Pronunciation\*\*$', track_audio: 1},
+      {id: p1c, kind: table_fill,  heading: '^\*\*Part 1: .+\*\*$', figure: 1, seeded: true},
+      {id: p1d, kind: matching,    heading: '^\*\*Part 1: .+\*\*$', figure: 2},
+      {id: p1e, kind: mcq,         heading: '^\*\*Part 1: .+\*\*$', items: 3},
+      {id: p1f, kind: gapfill,     heading: '^\*\*Part 1: .+\*\*$', gaps: 4},
+      {id: p1g, kind: short_write, heading: '^\*\*Part 1: .+\*\*$', model: true}]}
+  - {part: 'Part 2', header: '**Part 2 · Grammar — .+**', track: '[CORE] Core track · pre-class input', subs: [
+      {id: p2a, kind: notice,       heading: '^\*\*Part 2: Notice\*\*$'},
+      {id: p2b, kind: focus_box,    heading: '^\*\*Part 2: Grammar Focus Box\*\*$'},
+      {id: p2c, kind: gapfill,      heading: '^\*\*Part 2: Controlled Practice\*\*$', gaps: 4, seeded: true},
+      {id: p2d, kind: gapfill,      heading: '^\*\*Part 2: .+\*\*$', gaps: 4, seeded: true},
+      {id: p2e, kind: correct_sent, heading: '^\*\*Part 2: Correct the Sentence\*\*$', items: 4},
+      {id: p2f, kind: freer,        heading: '^\*\*Part 2: Freer Practice\*\*$'},
+      {id: p2g, kind: mcq,          heading: '^\*\*Part 2: Grammar Review\*\*$', items: 2, harvest: true}]}
+  - {part: 'Part 3', header: '**Part 3 · Listening**', track: '[CORE] Core track · pre-class input · scripts printed inline', subs: [
+      {id: p3a, kind: script_tfng,  heading: '^\*\*Part 3: .+\*\*$', track_audio: 2, items: 3, seeded: true},
+      {id: p3b, kind: script_qa,    heading: '^\*\*Part 3: .+\*\*$', track_audio: 3, items: 3, seeded: true},
+      {id: p3c, kind: script_match, heading: '^\*\*Part 3: .+\*\*$', track_audio: 4, seeded: true}]}
+  - {part: 'Part 4', header: '**Part 4 · Speaking**', track: '[CORE] Core track · in-class output', subs: [
+      {id: p4a, kind: discuss,    heading: '^\*\*Part 4: .+\*\*$'},
+      {id: p4b, kind: infogap,    heading: '^\*\*Part 4: Find the Difference \(pairwork\)\*\*$'},
+      {id: p4c, kind: roleplay,   heading: '^\*\*Part 4: .+\*\*$'},
+      {id: p4d, kind: presentation, heading: '^\*\*Part 4: Mini-Presentation\*\*$'}]}
+  - {part: 'Part 5', header: '**Part 5 · Reading**', track: '[CORE] Core track · pre-class input', subs: [
+      {id: p5a, kind: text_mcq,   heading: '^\*\*Part 5: .+\*\*$', figure: 3, items: 3, seeded: true},
+      {id: p5b, kind: matching,   heading: '^\*\*Part 5: Vocabulary in Context\*\*$'},
+      {id: p5c, kind: text_qa,    heading: '^\*\*Part 5: .+\*\*$', items: 3, seeded: true}]}
+  - {part: 'Part 6', header: '**Part 6 · Writing**', track: '[CORE] Core track · in-class / homework', subs: [
+      {id: p6a, kind: writing, heading: '^\*\*Part 6: .+\(50–70 words\)\*\*$', words: [50,70], model: true, plan: true},
+      {id: p6b, kind: writing, heading: '^\*\*Part 6: .+\(50–70 words\)\*\*$', words: [50,70], model: true},
+      {id: p6c, kind: writing, heading: '^\*\*Part 6: .+\(50–70 words\)\*\*$', words: [50,70], model: true, plan: true},
+      {id: p6d, kind: writing, heading: '^\*\*Part 6: Reflection — .+\(40–60 words\)\*\*$', words: [40,60], model: true}]}
+  - {part: 'Part 7', header: '**Part 7 · Real-World File — .+**', track: '[PLUS] Plus track (optional) · stronger learners', subs: [
+      {id: p7a, kind: matching,  heading: '^\*\*7A: Phrase Bank\*\*$'},
+      {id: p7b, kind: script_qa, heading: '^\*\*7B: .+\*\*$', track_audio: 5, items: 3, seeded: true},
+      {id: p7c, kind: ordering,  heading: '^\*\*7C: .+\*\*$', steps: 5, seeded: true},
+      {id: p7d, kind: roleplay,  heading: '^\*\*7D: .+\*\*$'},
+      {id: p7e, kind: writing,   heading: '^\*\*7E: .+\(50–80 words\)\*\*$', words: [50,80], model: true}]}
+  - {part: 'Part 8', header: '**Part 8 · Global Story — .+**', track: '[PLUS] Plus track · pre-read / discuss', leading: {id: p8a, kind: text_qa, items: 3, seeded: true}, subs: [
+      {id: p8b, kind: matching, heading: '^\*\*Part 8: Vocabulary in Context\*\*$'},
+      {id: p8c, kind: discuss,  heading: '^\*\*Part 8: Discussion\*\*$', frames: true}]}
+  - {part: 'Part 9', header: '**Part 9 · Close to Home — .+**', track: '[PLUS] Plus track · pre-read / decide', leading: {id: p9a, kind: text_qa, items: 3, seeded: true}, subs: [
+      {id: p9b, kind: decision, heading: '^\*\*Part 9: Decision Task\*\*$', options: 3, model: true}]}
+  - {part: 'Part 10', header: '**Part 10 · Review and Can-Do**', track: '[CORE + PLUS] · homework / self-study', subs: [
+      {id: p10a, kind: gapfill, heading: '^\*\*Part 10: Spiral Review\*\*$', gaps: 8, seeded: true},
+      {id: p10b, kind: cando,   heading: '^\*\*Part 10: Can-Do\*\*$', lines: 5},
+      {id: p10c, kind: glossary,heading: '^\*\*Part 10: Glossary\*\*$', words: 10}]}
+
+# Exact counts, per unit.
+devices:
+  seeded_zero:        {exact: 14, pattern: '^0\. '}
+  not_needed:         {exact: 7,  pattern: 'is not needed'}
+  model_read_first:   {exact: 7,  pattern: '\*\*Model — read this first:\*\*'}
+  before_you_read:    {exact: 5,  pattern: 'Before you read:'}
+  check_before:       {exact: 5,  pattern: '\*\*Check before you finish:\*\*'}
+  useful_language:    {exact: 5,  pattern: 'Useful (language|phrases|questions):'}
+  word_bank:          {min: 4, max: 5, pattern: '\*\*Word bank:\*\*'}
+  gloss:              {exact: 4,  pattern: '\*\*Gloss:\*\*'}
+  before_you_listen:  {exact: 3,  pattern: 'Before you listen:'}
+  model_exchange:     {exact: 2,  pattern: 'Model exchange:'}
+  stretch:            {exact: 2,  pattern: '\*Stretch \[PLUS\]:'}
+  remember:           {exact: 1,  pattern: '\*\*Remember:\*\*'}
+  watch_out:          {exact: 1,  pattern: '\*\*Watch out!\*\*'}
+  harvest:            {exact: 1,  pattern: '→ Harvest:'}
+  answer_frame:       {exact: 1,  pattern: 'Answer frame:'}
+  phrase_bank:        {exact: 1,  pattern: '7A: Phrase Bank'}
+  discussion_frames:  {exact: 1,  pattern: 'Discussion frames:'}
+  plan_frame:         {min: 1, max: 2, pattern: '\*\*Plan \(fill in, then write\):\*\*'}
+  pronunciation:      {exact: 1,  pattern: '\*\*Part 1: Pronunciation\*\*'}
+
+# Per-part word budgets, measured across all ten source units, then adjusted
+# for the one declared departure that changes length: the source's seven
+# `Model — read this first:` headers are EMPTY (defect D2). Filling them adds
+# prose the source does not carry, so each affected part's envelope is widened
+# by its own model allowance. `source_*` keeps the raw measurement visible, so
+# check K05 can still diff against the book as it actually is.
+word_budget:
+  'Warm Up': {target: 318, min: 290, max: 350,  source_target: 318, models: 0}
+  'Part 1':  {target: 635, min: 595, max: 695,  source_target: 590, models: 1}
+  'Part 2':  {target: 462, min: 415, max: 515,  source_target: 462, models: 0}
+  'Part 3':  {target: 499, min: 410, max: 570,  source_target: 499, models: 0}
+  'Part 4':  {target: 328, min: 295, max: 390,  source_target: 328, models: 0}
+  'Part 5':  {target: 580, min: 495, max: 645,  source_target: 580, models: 0}
+  'Part 6':  {target: 505, min: 450, max: 560,  source_target: 265, models: 4}
+  'Part 7':  {target: 543, min: 495, max: 595,  source_target: 477, models: 1}
+  'Part 8':  {target: 336, min: 305, max: 380,  source_target: 336, models: 0}
+  'Part 9':  {target: 349, min: 310, max: 395,  source_target: 289, models: 1}
+  'Part 10': {target: 197, min: 175, max: 255,  source_target: 197, models: 0}
+model_allowance_words: {min: 40, max: 80}
+
+figures:
+  per_unit: 4
+  caption_pattern: '^\*Figure (\d+)\.(\d+) · (.+)\.\*$'
+  slots:
+    1: {part: 'Part 1', job: category_set, feeds: table_fill}
+    2: {part: 'Part 1', job: label_me,     feeds: matching}
+    3: {part: 'Part 5', job: process_strip, feeds: text_mcq}
+    4: {part: 'Warm Up', job: scene,        feeds: fig_mcq}
+  px_width: 1440
+  px_height: {min: 320, max: 880}
+  max_bytes: 61440
+  min_glyph_px: 22
+  max_empty_band_fraction: 0.08
+  min_contrast_ratio: 4.5
+
+mcq:
+  options: 4
+  option_pattern: '^> ○ ([A-D])\) '
+  max_letter_share_per_unit: 0.40
+  chi2_p_min: 0.05
+
+language:
+  max_sentence_words: 25
+  mean_sentence_words_max: 14
+  max_clause_depth: 2
+  fk_grade_max: 5.0
+  min_a2_coverage: 0.90
+  target_grammar_min_occurrences: 8
+  glossary_plantings_before_part10: 3
+  spelling: en-GB
+  time_format: '\d{1,2}\.\d{2}'
+
+# Three defects measured in the source that this course does not reproduce.
+source_defects_not_reproduced:
+  - id: D1
+    what: 'No answer key exists; the only mechanism is 135 seeded `0.` items.'
+    fix: 'Keep all seeded items and add a full key per unit.'
+    enforced_by: [D01, D03, D04]
+  - id: D2
+    what: 'All 70 `Model — read this first:` headers are empty.'
+    fix: 'Every model filled, at the right length and register.'
+    enforced_by: [B04]
+  - id: D3
+    what: 'Part 10 Spiral Review offers 5 word-bank items for 8 gaps.'
+    fix: 'One bank word per gap, every unit.'
+    enforced_by: [C14, C15]
+  - id: D4
+    what: 'Figure 1.2 leader lines cross; a third of the canvas is empty band.'
+    fix: 'Non-crossing leaders, tight bounding box.'
+    enforced_by: [G15, G17]
