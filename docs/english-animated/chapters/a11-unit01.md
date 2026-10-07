@@ -85,16 +85,18 @@ You will listen to this again on the last page of this unit.
 > **name · country · city · student · teacher · class · friend · man · woman · people ·
 > address · email**
 
-Write each word under the right picture. (Figure `fig_a11_u01_p01_v02a` · **V2 Cutaway** — the
-reception desk in section, with twelve objects and twelve empty labels.)
+Write each word under the right picture.
+
+> **FIGURE `fig_a11_u01_p01_v02a` · V2 Cutaway**
+> The reception desk in section, with twelve objects and twelve empty labels.
 
 ### 1C · Sort — people or places?
 
-Put each word in the right box. **Two words can go in both. Which two, and why?**
+Put each word in the right box. **Two of them are neither. Which two, and what are they?**
 
 > country · woman · class · city · name · friend · address · teacher · school · student
 
-| **PEOPLE** | **PLACES** | **BOTH** |
+| **PEOPLE** | **PLACES** | **NEITHER** |
 |---|---|---|
 | | | |
 
@@ -173,8 +175,8 @@ Give the card to your teacher. The class guesses whose card it is.
 
 1. Ana knows Yusuf's name. ☐ T ☐ F
 2. Yusuf spells his name for her. ☐ T ☐ F
-3. Teresa is Yusuf's teacher. ☐ T ☐ F
-4. The cat has a name. ☐ T ☐ F
+3. Yusuf is in room 2. ☐ T ☐ F
+4. The grey cat has the name tag. ☐ T ☐ F
 
 **Notice.** Here are four sentences from the recording.
 
@@ -392,10 +394,10 @@ check with a partner.
 
 **Read the sheet.**
 
-1. How many people signed in before 9.00?
-2. Who is from Nigeria?
-3. One person wrote 9.5. What time do you think that is?
-4. One name is very hard to read. **What would you do?**
+1. How many people signed in before nine o'clock?
+2. Who signed in first, and where do they work?
+3. The rules at the top ask for three things. **Which of the three does the sixth line have?**
+4. One line is different from all the others. **What would you do about it?**
 
 ### 5F · Two texts
 

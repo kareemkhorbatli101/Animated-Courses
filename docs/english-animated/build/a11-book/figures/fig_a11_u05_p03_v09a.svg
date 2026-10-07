@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
+<title>The verb looks forwards, not backwards</title>
+<desc>Two rows of boxes. In the first, there is is followed by one object; in the second, there are is followed by a row of identical objects, with an arrow pointing forwards from the verb to what it agrees with.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="500" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="186.0" width="189.2" height="68" rx="5" fill="#9AA7AE"/>
+<text x="254.60000000000002" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">There</text>
+<rect x="355.2" y="186.0" width="164.8" height="68" rx="5" fill="#1F4E5F"/>
+<text x="437.6" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">is</text>
+<rect x="526.0" y="186.0" width="311.2" height="68" rx="5" fill="#2E6F5E"/>
+<text x="681.6" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">a board</text>
+<rect x="843.2" y="186.0" width="164.8" height="68" rx="5" fill="#C86B2B"/>
+<text x="925.6" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">are</text>
+<rect x="1014.0" y="186.0" width="360.0" height="68" rx="5" fill="#2E6F5E"/>
+<text x="1194.0" y="227.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">eleven desks</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The verb looks forwards, not backwards</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">There is not a thing. The thing arrives after the verb, and the verb agrees with that.</text>
+<text x="254.60000000000002" y="282.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">not a thing</text>
+<text x="437.6" y="282.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one</text>
+<text x="681.6" y="282.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">→ the verb agrees with this</text>
+<text x="925.6" y="282.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">more than one</text>
+<text x="1194.0" y="282.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">→ and with this</text>
+<text x="160" y="328.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">There holds the front of the sentence open and means nothing. Look past it, find the thing, and count it: one board, so is; eleven desks, so are.</text>
+</g>
+</svg>

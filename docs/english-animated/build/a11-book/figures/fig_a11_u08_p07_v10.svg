@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>The words that shrink</title>
+<desc>Four phrases written out in full and then as they are actually said, with the dropped sounds shaded.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="640" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="174" x2="1430" y2="174" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="260" x2="1430" y2="260" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="346" x2="1430" y2="346" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<line x1="170" y1="432" x2="1430" y2="432" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">I am working</text>
+<text x="760" y="150" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">I</text>
+<text x="860" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">m</text>
+<text x="880" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">w</text>
+<text x="900" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">o</text>
+<text x="920" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">r</text>
+<text x="940" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">k</text>
+<text x="960" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">i</text>
+<text x="980" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">n</text>
+<text x="1000" y="150" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">g</text>
+<text x="190" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">she is working</text>
+<text x="760" y="236" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">s</text>
+<text x="860" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="880" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">e</text>
+<text x="900" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">e</text>
+<text x="920" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">z</text>
+<text x="940" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">w</text>
+<text x="960" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">o</text>
+<text x="980" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">r</text>
+<text x="1000" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">k</text>
+<text x="1020" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal" opacity="0.22">i</text>
+<text x="1040" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">n</text>
+<text x="1060" y="236" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">g</text>
+<text x="190" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">they are working</text>
+<text x="760" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+<text x="860" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="880" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal" opacity="0.22">a</text>
+<text x="900" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">i</text>
+<text x="920" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">r</text>
+<text x="940" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">w</text>
+<text x="960" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">o</text>
+<text x="980" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">r</text>
+<text x="1000" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">k</text>
+<text x="1020" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">i</text>
+<text x="1040" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">n</text>
+<text x="1060" y="322" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">g</text>
+<text x="190" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">what are you doing</text>
+<text x="760" y="408" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal">→</text>
+<text x="840" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">w</text>
+<text x="860" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="880" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal" opacity="0.22">a</text>
+<text x="900" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">t</text>
+<text x="920" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">c</text>
+<text x="940" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">h</text>
+<text x="960" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#9AA7AE" text-anchor="start" font-weight="400" font-style="normal" opacity="0.22">a</text>
+<text x="980" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">d</text>
+<text x="1000" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">o</text>
+<text x="1020" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">o</text>
+<text x="1040" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">i</text>
+<text x="1060" y="408" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">n</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The words that shrink</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Written at full length above, said at half length below. The shaded letters are not heard.</text>
+<text x="1370" y="150" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">two words, one beat</text>
+<text x="1370" y="236" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">is becomes a z on the end of she</text>
+<text x="1370" y="322" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">are disappears into one r</text>
+<text x="1370" y="408" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">four words, two beats, no g at the end</text>
+</g>
+</svg>

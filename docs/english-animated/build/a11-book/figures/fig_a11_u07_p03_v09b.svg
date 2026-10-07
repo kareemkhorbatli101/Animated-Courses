@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>From always down to never</title>
+<desc>A vertical frequency ladder from always at the top through usually, often, sometimes and hardly ever to never at the bottom, with longer frequency phrases set beside it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="606.0" y1="150.0" x2="674.0" y2="150.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="246.0" x2="674.0" y2="246.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="342.0" x2="674.0" y2="342.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="438.0" x2="674.0" y2="438.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="534.0" x2="674.0" y2="534.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="606.0" y1="630.0" x2="674.0" y2="630.0" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="640.0" y1="130" x2="640.0" y2="650" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="698.0" y="156.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">always</text>
+<text x="940.0" y="156.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">100% · every day · and it goes after am, is, are</text>
+<text x="698.0" y="252.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">usually</text>
+<text x="940.0" y="252.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about 80% · most days</text>
+<text x="698.0" y="348.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">often</text>
+<text x="940.0" y="348.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about 60% · every week</text>
+<text x="698.0" y="444.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">sometimes</text>
+<text x="940.0" y="444.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about 40% · twice a month · at the weekend</text>
+<text x="698.0" y="540.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">hardly ever</text>
+<text x="940.0" y="540.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about 5% · two words, and almost never</text>
+<text x="698.0" y="636.0" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">never</text>
+<text x="940.0" y="636.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">0% · already negative, so no don't with it</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">From always down to never</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six words on the ladder, and the longer phrases beside them at the height they mean.</text>
+<text x="590.0" y="122" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="end" font-weight="700" font-style="normal">every time</text>
+<text x="590.0" y="666" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="end" font-weight="700" font-style="normal">no times</text>
+</g>
+</svg>

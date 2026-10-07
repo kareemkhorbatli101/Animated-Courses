@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>On the bench, four o'clock</title>
+<desc>Two students sitting on a park bench with a guitar between them, each with two speech balloons and a thought balloon.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="670" rx="0" fill="#DEE8DA"/>
+<rect x="0" y="670" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="670" x2="1600" y2="670" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="760" y="586.4" width="192.0" height="12.8" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.4"/>
+<line x1="779.2" y1="599.2" x2="779.2" y2="660" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<line x1="932.8" y1="599.2" x2="932.8" y2="660" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<rect x="1410.9" y="582.0" width="18.2" height="78.0" rx="0" fill="#6B5440"/>
+<circle cx="1420" cy="548.2" r="54.6" fill="#4E7A55"/>
+<rect x="1300" y="616.0" width="54.0" height="44.0" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1300" y1="634.0" x2="1354.0" y2="634.0" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="20_subject">
+<ellipse cx="520" cy="694.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 507.29411764705884 690 L 510.11764705882354 579.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 532.7058823529412 690 L 529.8823529411765 579.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520.0 506.47058823529414 L 520 585.2470588235294" fill="none" stroke="#C86B2B" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.1764705882353 507.8823529411765 L 546.8235294117648 507.8823529411765" fill="none" stroke="#C86B2B" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 493.1764705882353 510.7058823529412 L 504.47058823529414 573.9529411764706" fill="none" stroke="#C86B2B" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 546.8235294117648 510.7058823529412 L 535.5294117647059 573.9529411764706" fill="none" stroke="#C86B2B" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520" cy="573.9529411764706" r="7.764705882352942" fill="#8D5A3B"/>
+<path d="M 520.0 499.4117647058824 L 520.0 492.3529411764706" fill="none" stroke="#8D5A3B" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520.0" cy="474.0" r="21.176470588235297" fill="#8D5A3B"/>
+<path d="M 497.4117647058823 472.5882352941176 A 22.176470588235297 22.176470588235297 0 0 1 542.5882352941176 472.5882352941176 Z" fill="#30555F" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 520.0 472.5882352941176 L 556.7058823529412 471.1764705882353 L 553.8823529411765 476.8235294117647 L 520.0 476.8235294117647 Z" fill="#26454E" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="517.1764705882354" cy="475.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="531.2941176470588" cy="475.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 518.5882352941177 485.29411764705884 Q 524.2352941176471 488.11764705882354 529.8823529411765 485.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="520" y="726.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Emre</text>
+<text x="520" y="752.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">he plays most evenings</text>
+<ellipse cx="1080" cy="694.2" rx="30.799999999999997" ry="7.0" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1067.4 690 L 1070.2 580.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1092.6 690 L 1089.8 580.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1080.0 508.0 L 1080 586.12" fill="none" stroke="#2E6F5E" stroke-width="33.599999999999994" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1053.4 509.4 L 1106.6 509.4" fill="none" stroke="#2E6F5E" stroke-width="18.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1053.4 512.2 L 1049.2 594.52" fill="none" stroke="#2E6F5E" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1049.2" cy="598.72" r="7.0" fill="#6B4229"/>
+<path d="M 1106.6 512.2 L 1110.8 594.52" fill="none" stroke="#2E6F5E" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1110.8" cy="598.72" r="7.0" fill="#6B4229"/>
+<path d="M 1080.0 501.0 L 1080.0 494.0" fill="none" stroke="#6B4229" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1080.0" cy="475.8" r="21.0" fill="#6B4229"/>
+<path d="M 1059.0 473.0 A 21.0 21.0 0 0 1 1101.0 473.0" fill="none" stroke="#2A2320" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1052.0" cy="471.6" r="9.799999999999999" fill="#2A2320" stroke="none" stroke-width="1.5"/>
+<circle cx="1068.8" cy="477.2" r="2.52" fill="#2A2320"/>
+<circle cx="1082.8" cy="477.2" r="2.52" fill="#2A2320"/>
+<path d="M 1070.2 487.0 Q 1075.8 489.8 1081.3999999999999 487.0" fill="none" stroke="#8A5A48" stroke-width="2.2399999999999998" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1080" y="726.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Lin</text>
+<text x="1080" y="751.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she has never played anything</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">On the bench, four o'clock</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">There is a guitar between them and it belongs to neither of them.</text>
+<rect x="355.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="427.6,199.2 480.4,199.2 520,455" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="429.6" y1="199.2" x2="478.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="520.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I love playing. I usually play in the evening.</text>
+<text x="520.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I never go swimming. I hate it.</text>
+<rect x="370.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="510.0" cy="398.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="560" cy="470" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="520.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Should I offer it to her?</text>
+<rect x="915.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="987.6,199.2 1040.4,199.2 1080,455" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="989.6" y1="199.2" x2="1038.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="1080.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I don't like running. I quite like cycling.</text>
+<text x="1080.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I hardly ever watch films in English.</text>
+<rect x="930.0" y="300" width="300" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#55646D" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="1070.0" cy="398.8" r="6" fill="#FFFFFF" stroke="#55646D" stroke-width="1.5"/>
+<circle cx="1120" cy="470" r="3.5" fill="#FFFFFF" stroke="#55646D" stroke-width="1.4"/>
+<text x="1080.0" y="322.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">If I say I can't play, he will offer.</text>
+</g>
+</svg>

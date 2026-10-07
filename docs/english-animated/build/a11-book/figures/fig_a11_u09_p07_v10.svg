@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<title>Two words, one stress</title>
+<desc>Six compound words and three ordinary phrases drawn as pairs of circles, with the large circle on the first word in the compounds and on the second in the phrases.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="820" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<circle cx="240" cy="144" r="16" fill="#1F4E5F"/>
+<text x="240" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">BUS</text>
+<circle cx="358" cy="144" r="8" fill="#9AA7AE"/>
+<text x="358" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">stop</text>
+<circle cx="240" cy="232" r="16" fill="#1F4E5F"/>
+<text x="240" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">TRAF-fic</text>
+<circle cx="358" cy="232" r="8" fill="#9AA7AE"/>
+<text x="358" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">lights</text>
+<circle cx="240" cy="320" r="16" fill="#1F4E5F"/>
+<text x="240" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">POST</text>
+<circle cx="358" cy="320" r="8" fill="#9AA7AE"/>
+<text x="358" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">of-fice</text>
+<circle cx="240" cy="408" r="8" fill="#9AA7AE"/>
+<text x="240" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a big</text>
+<circle cx="358" cy="408" r="16" fill="#1F4E5F"/>
+<text x="358" y="454" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">STREET</text>
+<circle cx="240" cy="496" r="8" fill="#9AA7AE"/>
+<text x="240" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the next</text>
+<circle cx="358" cy="496" r="16" fill="#1F4E5F"/>
+<text x="358" y="542" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">COR-ner</text>
+<circle cx="240" cy="584" r="8" fill="#9AA7AE"/>
+<text x="240" y="630" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a</text>
+<circle cx="358" cy="584" r="16" fill="#1F4E5F"/>
+<text x="358" y="630" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">GREEN-house</text>
+<circle cx="240" cy="672" r="8" fill="#9AA7AE"/>
+<text x="240" y="718" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a green</text>
+<circle cx="358" cy="672" r="16" fill="#1F4E5F"/>
+<text x="358" y="718" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">HOUSE</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two words, one stress</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">In a compound the first word is louder. In an ordinary phrase it is the second.</text>
+<text x="1340" y="170" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">a compound - one thing, with a name</text>
+<text x="1340" y="258" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">a compound</text>
+<text x="1340" y="346" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">a compound</text>
+<text x="1340" y="434" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">an ordinary phrase - adjective + noun</text>
+<text x="1340" y="522" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">an ordinary phrase</text>
+<text x="1340" y="610" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">a building for plants</text>
+<text x="1340" y="698" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#55646D" text-anchor="end" font-weight="400" font-style="italic">a house that is green</text>
+</g>
+</svg>

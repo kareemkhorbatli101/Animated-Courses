@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+<title>The box behind now</title>
+<desc>A timeline with a wide band for the present and a closed box behind it for the past, labelled yesterday, with the past forms inside it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="510" x2="1380" y2="510" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,510 1364,502 1364,518" fill="#1C2B33"/>
+<line x1="1062.8" y1="350" x2="1062.8" y2="544" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="1062.8" y="568" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<line x1="233.2" y1="294" x2="916.4" y2="294" stroke="#D9A441" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="916.4" y1="272" x2="916.4" y2="316" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<path d="M 965.2 436 Q 1148.2 414 1331.2 436" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 965.2 476 Q 1148.2 498 1331.2 476" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="965.2" y1="436" x2="965.2" y2="476" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="1331.2" y1="436" x2="1331.2" y2="476" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The box behind now</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Everything inside the box wears -ed. Am, is and are become two words only.</text>
+<text x="233.2" y="246" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#D9A441" text-anchor="start" font-weight="600" font-style="normal">THE PAST - closed, finished, and it has an edge</text>
+<text x="233.2" y="268" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I tried · she asked · they wanted · it WAS · they WERE</text>
+<text x="965.2" y="374" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">NOW - the tenses you already have</text>
+<text x="965.2" y="396" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I try · she asks · it is · they are · she is trying</text>
+</g>
+</svg>

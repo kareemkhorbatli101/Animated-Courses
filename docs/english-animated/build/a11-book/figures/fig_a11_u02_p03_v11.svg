@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>Two verbs in one slot</title>
+<desc>Two panels comparing I am work with I work, showing two verbs competing for a single slot in the first and one verb in the second.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="80.0" y="120" width="700.0" height="410.75" rx="8" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="116.0" cy="158" r="20" fill="#A8372E"/>
+<text x="116.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✗</text>
+<rect x="820.0" y="120" width="700.0" height="410.75" rx="8" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="856.0" cy="158" r="20" fill="#2E6F5E"/>
+<text x="856.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">✓</text>
+</g>
+<g id="20_subject">
+<text x="152.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">I am work at six.</text>
+<line x1="290.0" y1="220" x2="290.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="290.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<circle cx="472.00000000000006" cy="270" r="12" fill="#A8372E"/>
+<path d="M 472.00000000000006 270 L 318.0 270" fill="none" stroke="#A8372E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="472.00000000000006" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#A8372E" text-anchor="middle" font-weight="600" font-style="normal">am AND work - two verbs, one slot</text>
+<text x="104.0" y="465.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">There is room for one verb here and two have arrived. English takes am for things you</text>
+<text x="104.0" y="486.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">are and work for things you do, and it will not take both at once. A listener hears am</text>
+<text x="104.0" y="506.45000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">and waits for a job or a place, and then gets a verb instead.</text>
+<text x="892.0" y="166" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">I work at six.</text>
+<line x1="1030.0" y1="220" x2="1030.0" y2="340" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+<text x="1030.0" y="366" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<circle cx="1170.0" cy="270" r="12" fill="#2E6F5E"/>
+<path d="M 1170.0 270 L 1058.0 270" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1170.0" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">work - one verb, and then the time</text>
+<text x="844.0" y="465.85" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">One verb, and the time after it. This is the shape of almost everything you will say</text>
+<text x="844.0" y="486.15000000000003" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">about your own life: a person, a thing they do, and when they do it. Three parts, in</text>
+<text x="844.0" y="506.45000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">that order.</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two verbs in one slot</text>
+<rect x="80" y="562.75" width="1440" height="109.25" rx="6" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.6"/>
+<text x="104" y="588.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">What the writer thought:</text>
+<text x="104" y="610.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">Am, is and are are not helpers here. You learned I am a student in Unit 1 and the am stuck. For an</text>
+<text x="104" y="632.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="normal">action, drop it: I work, I get up, I study. Say it aloud: I work at six - not I am work at six.</text>
+</g>
+</svg>

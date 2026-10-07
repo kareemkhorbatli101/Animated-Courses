@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>A wide lens and a narrow one</title>
+<desc>A timeline with a wide lens bracket over the whole week labelled present simple and a narrow one over this minute labelled present continuous, with the same verb under each.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="160" y1="490" x2="1380" y2="490" stroke="#1C2B33" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="1380,490 1364,482 1364,498" fill="#1C2B33"/>
+<line x1="916.4" y1="330" x2="916.4" y2="524" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<text x="916.4" y="548" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal" letter-spacing="2">NOW</text>
+</g>
+<g id="20_subject">
+<path d="M 208.8 254 Q 770.0 232 1331.2 254" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 208.8 294 Q 770.0 316 1331.2 294" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="208.8" y1="254" x2="208.8" y2="294" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="1331.2" y1="254" x2="1331.2" y2="294" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<path d="M 843.2 416 Q 916.4000000000001 394 989.6 416" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 843.2 456 Q 916.4000000000001 478 989.6 456" fill="none" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="843.2" y1="416" x2="843.2" y2="456" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+<line x1="989.6" y1="416" x2="989.6" y2="456" stroke="#2E6F5E" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A wide lens and a narrow one</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The same verb, twice. What changes is how much of the week you can see.</text>
+<text x="208.8" y="192" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">PRESENT SIMPLE - true about the whole week</text>
+<text x="208.8" y="214" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">She answers the phone. She cleans the office every morning.</text>
+<text x="843.2" y="354" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">PRESENT CONTINUOUS - true about this minute</text>
+<text x="843.2" y="376" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">She is answering the phone right now.</text>
+</g>
+</svg>

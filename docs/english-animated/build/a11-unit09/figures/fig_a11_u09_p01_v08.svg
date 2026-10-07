@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>Four ways out of one square</title>
+<desc>The square drawn as a network with the metro, the tram stop, the bus stop and four streets, with lines labelled by how long each route takes and what it costs.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="330" y1="200" x2="800" y2="400" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="280" y1="560" x2="800" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="760" y1="700" x2="800" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="1300" y1="200" x2="800" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="1300" y1="580" x2="800" y2="400" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="800" y1="400" x2="1420" y2="390" stroke="#A8372E" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="800" cy="400" r="60" fill="#FFFFFF" stroke="#1C2B33" stroke-width="3"/>
+<text x="800" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">●</text>
+<text x="800" y="486" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the square</text>
+<text x="800" y="506" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">four ways out</text>
+<circle cx="330" cy="200" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="330" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">M</text>
+<text x="330" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the metro</text>
+<text x="330" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">4 min, underground</text>
+<circle cx="280" cy="560" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="280" y="565" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">T</text>
+<text x="280" y="632" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the tram</text>
+<text x="280" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">11 min, you can see</text>
+<circle cx="760" cy="700" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="760" y="705" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">B</text>
+<text x="760" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the bus</text>
+<text x="760" y="792" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">9 min, wrong side</text>
+<circle cx="1300" cy="200" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1300" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">X</text>
+<text x="1300" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the taxi</text>
+<text x="1300" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">6 min, 7 EUR</text>
+<circle cx="1300" cy="580" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="1300" y="585" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">F</text>
+<text x="1300" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">on foot</text>
+<text x="1300" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">22 min, always</text>
+<circle cx="1420" cy="390" r="52" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1420" y="395" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">▲</text>
+<text x="1420" y="468" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the school</text>
+<text x="1420" y="488" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">400 m, and up</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four ways out of one square</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Every line has a time and a cost on it. Two of them take the same time and only one is flat.</text>
+<rect x="507.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="565.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">4 min · 1.65 EUR</text>
+<rect x="482.0" y="465.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="540.0" y="484.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">11 min · 1.65 EUR</text>
+<rect x="722.0" y="535.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="780.0" y="554.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">9 min · and then cross</text>
+<rect x="992.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1050.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">6 min · cannot go up</text>
+<rect x="992.0" y="475.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1050.0" y="494.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">22 min · free</text>
+<rect x="1052.0" y="380.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1110.0" y="399.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">10 min up this hill</text>
+</g>
+</svg>

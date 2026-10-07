@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>Not joins on, and can jumps</title>
+<desc>Two sentence diagrams. In the first, not joins can to make can not; in the second, can moves to the front of the sentence. The verb after it is plain in both.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="640" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="226.38095238095238" height="52" rx="5" fill="#C86B2B"/>
+<text x="273.1904761904762" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<rect x="392.3809523809524" y="144" width="371.6190476190476" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="578.1904761904761" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">can + n't</text>
+<rect x="770.0" y="144" width="255.42857142857144" height="52" rx="5" fill="#1F4E5F"/>
+<text x="897.7142857142858" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">use</text>
+<rect x="1031.4285714285716" y="144" width="342.57142857142856" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1202.7142857142858" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the lift</text>
+<rect x="160" y="344" width="255.42857142857144" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="287.7142857142857" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">Can</text>
+<rect x="421.42857142857144" y="344" width="226.38095238095238" height="52" rx="5" fill="#C86B2B"/>
+<text x="534.6190476190476" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<rect x="653.8095238095239" y="344" width="284.4761904761905" height="52" rx="5" fill="#1F4E5F"/>
+<text x="796.047619047619" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">leave</text>
+<rect x="944.2857142857143" y="344" width="429.7142857142857" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1159.142857142857" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">this here ?</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Not joins on, and can jumps</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">For a negative, not joins the back of can. For a question, can goes to the front.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">NEGATIVE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">QUESTION</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ can never takes an s, and the verb after it never takes to</text>
+<rect x="160" y="522.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="549.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Can is the same for I, you, he, she, we and they. There is no does in the question and no to</text>
+<text x="184" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">after it: Can she use it, never Can she uses it and never Can she to use it.</text>
+</g>
+</svg>

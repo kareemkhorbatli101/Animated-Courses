@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>The s is only in one place at a time</title>
+<desc>Two sentence diagrams. In the first, she checks carries the s on the verb; in the second, does has taken the s to the front and the verb is left bare.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="640" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="306.8205128205128" height="52" rx="5" fill="#C86B2B"/>
+<text x="313.4102564102564" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">She</text>
+<rect x="472.8205128205128" y="144" width="369.38461538461536" height="52" rx="5" fill="#1F4E5F"/>
+<text x="657.5128205128206" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">checkS</text>
+<rect x="848.2051282051282" y="144" width="525.7948717948718" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1111.102564102564" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">her phone at six</text>
+<rect x="160" y="344" width="279.531914893617" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="299.7659574468085" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">DoeS</text>
+<rect x="445.531914893617" y="344" width="227.61702127659575" height="52" rx="5" fill="#C86B2B"/>
+<text x="559.3404255319149" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">she</text>
+<rect x="679.1489361702128" y="344" width="253.5744680851064" height="52" rx="5" fill="#1F4E5F"/>
+<text x="805.936170212766" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">check</text>
+<rect x="938.7234042553191" y="344" width="435.27659574468083" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1156.3617021276596" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">her phone at six ?</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The s is only in one place at a time</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">When does arrives at the front, it takes the s with it. The verb gives it up.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">A FACT</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">A QUESTION</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ one s per sentence, and the helper gets it</text>
+<rect x="160" y="522.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="549.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Does already has the s. The verb after it goes back to its plain form: Does she check, not</text>
+<text x="184" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Does she checks. The same is true of the negative: She doesn't check.</text>
+</g>
+</svg>

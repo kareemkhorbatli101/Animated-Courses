@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="890" viewBox="0 0 1600 890">
+<title>Pouring four hours into Sunday</title>
+<desc>Five panels showing four hours being poured into one Sunday: the first hour going in easily, the second slowly, the third spilling and the fourth not going in at all.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="890" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="60.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="86.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="86.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<rect x="436.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="462.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="462.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<rect x="812.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="838.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="838.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<rect x="1188.0" y="120" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="1214.0" cy="146" r="16" fill="#1F4E5F"/>
+<text x="1214.0" y="152" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<rect x="60.0" y="490" width="352.0" height="300" rx="6" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="86.0" cy="516" r="16" fill="#1F4E5F"/>
+<text x="86.0" y="522" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+</g>
+<g id="20_subject">
+<line x1="80.0" y1="372" x2="392.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="155.0" y="252" width="110" height="120" rx="0" fill="#1F4E5F" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="456.0" y1="372" x2="768.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="531.0" y="282" width="110" height="90" rx="0" fill="#2E6F5E" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="832.0" y1="372" x2="1144.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="907.0" y="316" width="110" height="56" rx="0" fill="#D9A441" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="1208.0" y1="372" x2="1520.0" y2="372" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="1283.0" y="346" width="110" height="26" rx="0" fill="#C86B2B" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="80.0" y1="742" x2="392.0" y2="742" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+<rect x="155.0" y="662" width="110" height="70" rx="0" fill="none" stroke="#9AA7AE" stroke-width="1.8" stroke-dasharray="7 5"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Pouring four hours into Sunday</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Five panels. Watch where it stops going in.</text>
+<text x="70.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The plan: four hours</text>
+<text x="446.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Hour 1 - it goes in</text>
+<text x="822.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Hour 2 - slower</text>
+<text x="1198.0" y="448.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Hour 3 - it spills</text>
+<text x="70.0" y="818.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Hour 4 - nothing</text>
+</g>
+</svg>

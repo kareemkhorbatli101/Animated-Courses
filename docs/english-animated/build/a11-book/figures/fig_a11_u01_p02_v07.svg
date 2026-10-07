@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>Monday morning, nine o'clock</title>
+<desc>A new student and a receptionist at a desk, speaking, with short speech balloons using am, is and are.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="630" rx="0" fill="#EDE6D8"/>
+<rect x="0" y="630" width="1600" height="150" rx="0" fill="#C9BCA8"/>
+<line x1="0" y1="630" x2="1600" y2="630" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+<rect x="700" y="591.0" width="180.0" height="12.0" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.4"/>
+<line x1="718.0" y1="603.0" x2="718.0" y2="660" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<line x1="862.0" y1="603.0" x2="862.0" y2="660" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+
+</g>
+<g id="20_subject">
+<ellipse cx="470" cy="654.2352941176471" rx="31.058823529411768" ry="7.058823529411765" fill="#1C2B33" opacity="0.10"/>
+<path d="M 457.29411764705884 650 L 460.11764705882354 539.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 482.70588235294116 650 L 479.88235294117646 539.6" fill="none" stroke="#3A4A55" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 470.0 466.47058823529414 L 470 545.2470588235294" fill="none" stroke="#8C6A9E" stroke-width="33.88235294117647" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 443.1764705882353 467.8823529411765 L 496.8235294117647 467.8823529411765" fill="none" stroke="#8C6A9E" stroke-width="18.35294117647059" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 443.1764705882353 470.7058823529412 L 454.47058823529414 533.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 496.8235294117647 470.7058823529412 L 485.52941176470586 533.9529411764706" fill="none" stroke="#8C6A9E" stroke-width="12.705882352941178" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="470" cy="533.9529411764706" r="7.764705882352942" fill="#F0D3B4"/>
+<path d="M 470.0 459.4117647058824 L 470.0 452.3529411764706" fill="none" stroke="#F0D3B4" stroke-width="14.11764705882353" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="470.0" cy="434.0" r="21.176470588235297" fill="#F0D3B4"/>
+<path d="M 448.8235294117647 431.1764705882353 A 21.176470588235297 21.176470588235297 0 0 1 491.1764705882353 431.1764705882353" fill="none" stroke="#2A2320" stroke-width="9.882352941176471" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="467.1764705882353" cy="435.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<circle cx="481.29411764705884" cy="435.4117647058824" r="2.5411764705882356" fill="#2A2320"/>
+<path d="M 468.5882352941177 445.29411764705884 Q 474.2352941176471 448.11764705882354 479.88235294117646 445.29411764705884" fill="none" stroke="#8A5A48" stroke-width="2.258823529411765" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="686.7058823529412" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Yusuf</text>
+<text x="470" y="712.1176470588235" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">he is new</text>
+<ellipse cx="980" cy="654.2" rx="30.799999999999997" ry="7.0" fill="#1C2B33" opacity="0.10"/>
+<path d="M 967.4 650 L 970.2 540.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 992.6 650 L 989.8 540.52" fill="none" stroke="#3A4A55" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 980.0 468.0 L 980 546.12" fill="none" stroke="#2E6F5E" stroke-width="33.599999999999994" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 953.4 469.4 L 1006.6 469.4" fill="none" stroke="#2E6F5E" stroke-width="18.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 953.4 472.2 L 949.1999999999999 554.52" fill="none" stroke="#2E6F5E" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="949.1999999999999" cy="558.72" r="7.0" fill="#C98E63"/>
+<path d="M 1006.6 472.2 L 1043.0 465.2" fill="none" stroke="#2E6F5E" stroke-width="12.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1048.6" cy="463.8" r="7.0" fill="#C98E63"/>
+<path d="M 980.0 461.0 L 980.0 454.0" fill="none" stroke="#C98E63" stroke-width="14.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="980.0" cy="435.8" r="21.0" fill="#C98E63"/>
+<path d="M 959.0 433.0 A 21.0 21.0 0 0 1 1001.0 433.0" fill="none" stroke="#2A2320" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="952.0" cy="431.6" r="9.799999999999999" fill="#2A2320" stroke="none" stroke-width="1.5"/>
+<circle cx="968.8" cy="437.2" r="2.52" fill="#2A2320"/>
+<circle cx="982.8" cy="437.2" r="2.52" fill="#2A2320"/>
+<path d="M 970.1999999999999 447.0 Q 975.8 449.8 981.4 447.0" fill="none" stroke="#8A5A48" stroke-width="2.2399999999999998" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="980" y="686.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">Ana</text>
+<text x="980" y="711.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">she is here every day</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Monday morning, nine o'clock</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">He is new. She is here every day.</text>
+<rect x="305.0" y="140" width="330" height="59.199999999999996" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="377.6,199.2 430.4,199.2 470,415" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="379.6" y1="199.2" x2="428.4" y2="199.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="470.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Hello. I am Yusuf.</text>
+<text x="470.0" y="181.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">I am from Egypt.</text>
+<rect x="815.0" y="140" width="330" height="39.599999999999994" rx="10" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<polygon points="887.6,179.6 940.4,179.6 980,415" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="1.8"/>
+<line x1="889.6" y1="179.6" x2="938.4" y2="179.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<text x="980.0" y="162.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">You are in room 3. Teresa is your teacher.</text>
+</g>
+</svg>

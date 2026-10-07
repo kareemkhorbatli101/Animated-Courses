@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<title>Two tunes, and the question decides</title>
+<desc>Two pitch contours over spoken questions. The first rises at the end, marked as a yes or no question; the second falls at the end, marked as a question with a question word.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="980" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="200" y1="230" x2="1360" y2="230" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="410" x2="1360" y2="410" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="590" x2="1360" y2="590" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="200" y1="770" x2="1360" y2="770" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+</g>
+<g id="20_subject">
+<path d="M 200 225 L 490 220 L 780 225 L 1070 214 L 1360 168" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="164" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Do you check it at night?</text>
+<path d="M 200 353 L 490 363 L 780 379 L 1070 389 L 1360 436" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">Where do you put it at night?</text>
+<path d="M 200 559 L 490 564 L 780 574 L 1070 580 L 1360 621" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="524" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">You check it at night.</text>
+<path d="M 200 760 L 490 760 L 780 765 L 1070 749 L 1360 702" fill="none" stroke="#C86B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="704" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">You check it at night?</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Two tunes, and the question decides</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The words can be almost the same. The end of the line is not.</text>
+<text x="1370" y="236" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">yes / no question - the voice goes UP</text>
+<text x="1370" y="416" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">question word - the voice goes DOWN</text>
+<text x="1370" y="596" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">not a question at all - down, and flat</text>
+<text x="1370" y="776" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="end" font-weight="600" font-style="normal">the same seven words - up, and surprised</text>
+</g>
+</svg>

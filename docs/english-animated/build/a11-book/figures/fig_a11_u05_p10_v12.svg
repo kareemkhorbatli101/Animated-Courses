@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1140" viewBox="0 0 1600 1140">
+<title>One term, one word list</title>
+<desc>An infographic following one term's vocabulary from the lesson that taught it, through later lessons, into students' own speech, and on to what is still known in June.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="1140" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Taught</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Met again</text>
+<text x="52" y="334.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">later</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Used by a</text>
+<text x="52" y="484.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">student</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Still there</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">in June</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="730" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="764.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Survival</text>
+<line x1="150" y1="850" x2="1450" y2="850" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="880" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="914.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What this</text>
+<text x="52" y="934.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">shows</text>
+<line x1="150" y1="1000" x2="1450" y2="1000" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="1300.0" height="50" rx="4" fill="#1F4E5F" opacity="0.9"/>
+<rect x="150.0" y="316" width="806.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="969.0" y="316" width="481.0" height="50" rx="4" fill="#9AA7AE" opacity="0.9"/>
+<rect x="150.0" y="466" width="442.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="605.0" y="466" width="845.0" height="50" rx="4" fill="#9AA7AE" opacity="0.9"/>
+<rect x="150.0" y="616" width="351.0" height="50" rx="4" fill="#D9A441" opacity="0.9"/>
+<rect x="514.0" y="616" width="936.0" height="50" rx="4" fill="#9AA7AE" opacity="0.9"/>
+<path d="M 150 754 L 579 799 L 1008 832 L 1450 840" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="754.0000000003386" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="579.0" cy="798.6929133859894" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1008.0" cy="832.2125984252275" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="840.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="228.0" y1="916" x2="228.0" y2="984" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="228.0,916 280.0,928 228.0,940" fill="#D9A441"/>
+<line x1="670.0" y1="916" x2="670.0" y2="984" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="670.0,916 722.0,928 670.0,940" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One term, one word list</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Three hundred and fifty words were taught. Follow them to June.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">350 words, every one of them explained</text>
+<text x="160.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">218 words appeared in a later lesson</text>
+<text x="979.0" y="348" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">132 never appeared again</text>
+<text x="160.0" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">119 came out of a student's own mouth</text>
+<text x="615.0" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">231 were only ever read or heard</text>
+<text x="160.0" y="648" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">96 words</text>
+<text x="524.0" y="648" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">254 gone, and they were all taught equally well</text>
+<text x="1456" y="844.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">96</text>
+<text x="234.0" y="966.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">a word met once more survives three times as often</text>
+<text x="676.0" y="966.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">nearly every word that survived was used by the student</text>
+<line x1="150.0" y1="1012" x2="150.0" y2="1026" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="1050" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">taught</text>
+<line x1="583.3333333333333" y1="1012" x2="583.3333333333333" y2="1026" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="583.3333333333333" y="1050" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">met again</text>
+<line x1="1016.6666666666666" y1="1012" x2="1016.6666666666666" y2="1026" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1016.6666666666666" y="1050" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">used</text>
+<line x1="1450.0" y1="1012" x2="1450.0" y2="1026" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="1050" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">June</text>
+</g>
+</svg>

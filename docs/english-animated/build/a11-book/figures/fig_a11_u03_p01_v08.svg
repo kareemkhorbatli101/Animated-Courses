@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>Nothing on a phone works alone</title>
+<desc>A phone in the centre joined by labelled lines to six things - the screen, the battery, the camera, the internet, an app and a password - with each line naming what that part does for the phone rather than what it is called.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="800" y1="400" x2="430" y2="200" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="800" y1="400" x2="400" y2="560" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="800" y1="400" x2="800" y2="680" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="800" y1="400" x2="1200" y2="200" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1240" y1="520" x2="1200" y2="200" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="800" y1="400" x2="1240" y2="520" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1240" y1="520" x2="1470" y2="330" stroke="#A8372E" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="800" cy="400" r="62" fill="#FFFFFF" stroke="#1C2B33" stroke-width="3"/>
+<text x="800" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">P</text>
+<text x="800" y="488" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the phone</text>
+<text x="800" y="508" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one object</text>
+<circle cx="430" cy="200" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="430" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">S</text>
+<text x="430" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the screen</text>
+<text x="430" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">what you see</text>
+<circle cx="400" cy="560" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="400" y="565" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">B</text>
+<text x="400" y="632" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the battery</text>
+<text x="400" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">100 to 14</text>
+<circle cx="800" cy="680" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="800" y="685" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">C</text>
+<text x="800" y="752" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the camera</text>
+<text x="800" y="772" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">two, you use one</text>
+<circle cx="1200" cy="200" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1200" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">I</text>
+<text x="1200" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the internet</text>
+<text x="1200" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">not in the phone</text>
+<circle cx="1240" cy="520" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1240" y="525" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">A</text>
+<text x="1240" y="592" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">an app</text>
+<text x="1240" y="612" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">ninety of them</text>
+<circle cx="1470" cy="330" r="44" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1470" y="335" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">*</text>
+<text x="1470" y="400" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">a password</text>
+<text x="1470" y="420" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">in your head</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Nothing on a phone works alone</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six parts, and a line that says what each one does for the others.</text>
+<rect x="557.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="615.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">shows it to you</text>
+<rect x="542.0" y="465.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="600.0" y="484.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">gives it four hours</text>
+<rect x="742.0" y="525.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="800.0" y="544.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">takes the photo</text>
+<rect x="942.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1000.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">goes out and comes back</text>
+<rect x="1162.0" y="345.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1220.0" y="364.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">is useless without it</text>
+<rect x="962.0" y="445.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1020.0" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">opens it</text>
+<rect x="1297.0" y="410.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1355.0" y="429.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">asks you for it</text>
+</g>
+</svg>

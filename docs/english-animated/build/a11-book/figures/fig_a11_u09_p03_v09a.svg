@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>Words that sit still, and words that move</title>
+<desc>A sentence drawn as words with brackets marking the place prepositions as still and the movement prepositions as arrows.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<text x="236.25" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">The school</text>
+<text x="388.75" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">is</text>
+<text x="541.25" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">opposite</text>
+<text x="693.75" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">the church</text>
+<text x="846.25" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">—</text>
+<text x="998.75" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">Go</text>
+<text x="1151.25" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">up</text>
+<text x="1303.75" y="340.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#1C2B33" text-anchor="middle" font-weight="400" font-style="normal">the hill</text>
+<path d="M 318.5 374.0 L 318.5 388.0 L 764.0 388.0 L 764.0 374.0" fill="none" stroke="#1F4E5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 928.5 374.0 L 928.5 388.0 L 1374.0 388.0 L 1374.0 374.0" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 928.5 445.6 L 928.5 459.6 L 1069.0 459.6 L 1069.0 445.6" fill="none" stroke="#2E6F5E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Words that sit still, and words that move</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Place words put a dot on the map. Movement words draw a line across it.</text>
+<text x="541.25" y="412.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">STILL: next to · opposite · behind · between · in front</text>
+<text x="541.25" y="431.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">of · on the corner</text>
+<text x="1151.25" y="412.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">MOVING: up · down · along · across · into · out of ·</text>
+<text x="1151.25" y="431.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">past</text>
+<text x="998.75" y="483.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">And the instruction</text>
+<text x="998.75" y="503.20000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">has no subject at</text>
+<text x="998.75" y="522.8000000000001" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">all. Go, turn, take,</text>
+<text x="998.75" y="542.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">walk - the plain</text>
+<text x="998.75" y="562.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">verb, with don't in</text>
+<text x="998.75" y="581.6" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">front of it for the</text>
+<text x="998.75" y="601.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">negative.</text>
+</g>
+</svg>

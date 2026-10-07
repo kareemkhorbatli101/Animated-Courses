@@ -21,6 +21,11 @@ BOOKS = {
  'b11': ('B1.1', 'Taking a Position', 'Jengo House, Nairobi'),
  'b12': ('B1.2', 'Weighing It Up', 'Hospital Regional, Valdivia'),
  'b13': ('B1.3', 'Making the Case', 'a university campus, Melbourne'),
+ 'a11': ('A1.1', 'Starting Out', 'Escola Monte, Lisbon'),
+ 'a12': ('A1.2', 'Getting Around', 'an intercity train line, Canada'),
+ 'b21': ('B2.1', 'Reading Between Lines', 'a newsroom, Toronto'),
+ 'b22': ('B2.2', 'Holding the Floor', 'a port and its logistics chain, Rotterdam'),
+ 'b23': ('B2.3', 'Thinking in English', 'a climate research station, Iceland'),
 }
 
 

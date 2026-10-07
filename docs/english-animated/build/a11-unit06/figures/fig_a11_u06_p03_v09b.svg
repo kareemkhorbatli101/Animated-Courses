@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>The container is the bridge</title>
+<desc>Two sentence diagrams. In the first, a number tries to attach directly to bread; in the second, the number attaches to loaves and of bread hangs beneath it.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="640" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="238.0" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="279.0" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">two</text>
+<rect x="404.0" y="144" width="421.0" height="52" rx="5" fill="#2E6F5E"/>
+<text x="614.5" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">bread</text>
+<rect x="831.0" y="144" width="543.0" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1102.5" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">— nothing for the number to land on</text>
+<rect x="160" y="344" width="218.73684210526315" height="52" rx="5" fill="#C86B2B"/>
+<text x="269.36842105263156" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">two</text>
+<rect x="384.7368421052631" y="344" width="347.1578947368421" height="52" rx="5" fill="#1F4E5F"/>
+<text x="558.3157894736842" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">loaves</text>
+<rect x="737.8947368421052" y="344" width="218.73684210526315" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="847.2631578947368" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">of</text>
+<rect x="962.6315789473683" y="344" width="411.36842105263156" height="52" rx="5" fill="#2E6F5E"/>
+<text x="1168.3157894736842" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">bread</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The container is the bridge</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Bread cannot take a number. A loaf can, and it carries the bread across with it.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">NO BRIDGE</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">WITH A BRIDGE</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ the number lands on the container, not on the food</text>
+<rect x="160" y="522.5" width="1280" height="77.5" rx="6" fill="#F3ECE0"/>
+<text x="184" y="549.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Any uncountable food becomes countable the moment you name its container or its weight: a</text>
+<text x="184" y="571.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">bottle of water, a kilo of rice, a slice of cheese, a bit of sugar.</text>
+</g>
+</svg>

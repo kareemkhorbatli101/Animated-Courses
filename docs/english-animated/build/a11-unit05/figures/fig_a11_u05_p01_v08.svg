@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>What moves between the things in a room</title>
+<desc>A network of six classroom objects - board, desk, cupboard, notebook, dictionary and homework - joined by labelled lines showing what travels between them, with the homework line leaving the room and returning the next day.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="300" y1="220" x2="1080" y2="220" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="300" y1="580" x2="700" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round"/>
+<line x1="700" y1="400" x2="1080" y2="220" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="1080" y1="220" x2="1080" y2="580" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1080" y1="580" x2="1080" y2="220" stroke="#9AA7AE" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="1080" y1="220" x2="1420" y2="400" stroke="#D9A441" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="300" cy="220" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="300" y="225" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">B</text>
+<text x="300" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the board</text>
+<text x="300" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">yesterday, still on it</text>
+<circle cx="700" cy="400" r="54" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="700" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">D</text>
+<text x="700" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the desk</text>
+<text x="700" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eleven, three wobble</text>
+<circle cx="300" cy="580" r="46" fill="#FFFFFF" stroke="#9AA7AE" stroke-width="3"/>
+<text x="300" y="585" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="700" font-style="normal">C</text>
+<text x="300" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the cupboard</text>
+<text x="300" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one shelf</text>
+<circle cx="1080" cy="220" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="1080" y="225" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">N</text>
+<text x="1080" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the notebook</text>
+<text x="1080" y="312" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">four spare</text>
+<circle cx="1080" cy="580" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1080" y="585" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">?</text>
+<text x="1080" y="652" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the dictionary</text>
+<text x="1080" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one, face down</text>
+<circle cx="1420" cy="400" r="50" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="1420" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">H</text>
+<text x="1420" y="476" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the homework</text>
+<text x="1420" y="496" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">it leaves</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">What moves between the things in a room</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six objects, and a line for every journey a word can make. One line leaves the room.</text>
+<rect x="632.0" y="205.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="690.0" y="224.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a word, copied</text>
+<rect x="442.0" y="475.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="500.0" y="494.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a pen, if there is one</text>
+<rect x="832.0" y="295.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="890.0" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a sentence, written</text>
+<rect x="1022.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1080.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">a word you did not know</text>
+<rect x="1022.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1080.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">and a meaning, back</text>
+<rect x="1192.0" y="295.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1250.0" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">out of the building, and back tomorrow</text>
+</g>
+</svg>

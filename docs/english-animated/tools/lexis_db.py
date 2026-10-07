@@ -24,9 +24,11 @@ SRC = HERE.parent / 'data' / 'lexis-source.tsv'
 OUT = HERE.parent / 'data' / 'lexis-db.csv'
 
 TARGET = {'A1.1': 35, 'A1.2': 35, 'A2.1': 40, 'A2.2': 40,
-          'B1.1': 45, 'B1.2': 45, 'B1.3': 45}
-# band -> (word, collocation, phrasal, fixed) as proportions
-PROFILE = {'A': (.70, .20, .05, .05), 'B': (.50, .30, .12, .08)}
+          'B1.1': 45, 'B1.2': 45, 'B1.3': 45,
+          'B2.1': 50, 'B2.2': 50, 'B2.3': 50}
+# level -> (word, collocation, phrasal, fixed), from 03-grading-spine.md
+PROFILE = {'A1': (.70, .20, .05, .05), 'A2': (.70, .20, .05, .05),
+           'B1': (.50, .30, .12, .08), 'B2': (.40, .35, .13, .12)}
 TOL = .09
 RECYCLE_MIN = 4
 # the parts that can carry a recycled item, and the skill each exercises
@@ -103,7 +105,7 @@ def main():
             continue
         c = Counter(r['type'] for r in sub)
         got = tuple(c[t] / len(sub) for t in 'wcpf')
-        want = PROFILE[book[0]]
+        want = PROFILE[book[:2]]
         ok = all(abs(g - w) <= TOL for g, w in zip(got, want))
         print(f"  {book}  words {got[0]:.0%} (target {want[0]:.0%})  "
               f"colloc {got[1]:.0%} ({want[1]:.0%})  "

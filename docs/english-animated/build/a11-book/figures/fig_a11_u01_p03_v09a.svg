@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620">
+<title>Who gets which word</title>
+<desc>A branching diagram sorting the subject pronouns into three groups, one for am, one for is and one for are.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="620" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="160" cy="310.0" r="12" fill="#1C2B33"/>
+<text x="160" y="352.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="700" font-style="normal">I / he / they ...</text>
+</g>
+<g id="20_subject">
+<path d="M 160 310.0 C 440.6 310.0 440.6 160.0 721.2 160.0" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,160.0 705.2,152.0 705.2,168.0" fill="#C86B2B"/>
+<path d="M 160 310.0 C 440.6 310.0 440.6 320.0 721.2 320.0" fill="none" stroke="#1F4E5F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,320.0 705.2,312.0 705.2,328.0" fill="#1F4E5F"/>
+<path d="M 160 310.0 C 440.6 310.0 440.6 480.0 721.2 480.0" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="721.2,480.0 705.2,472.0 705.2,488.0" fill="#2E6F5E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Who gets which word</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One person speaking. One person spoken about. More than one.</text>
+<text x="739.2" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">am - one person, and it is me</text>
+<text x="739.2" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">I am a student.</text>
+<text x="739.2" y="312.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">is - one person or thing, spoken about</text>
+<text x="739.2" y="338.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">he · she · it -- She is a teacher.</text>
+<text x="739.2" y="472.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="start" font-weight="700" font-style="normal">are - more than one, or the person in front of you</text>
+<text x="739.2" y="498.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">you · we · they -- They are in room 3.</text>
+</g>
+</svg>

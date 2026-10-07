@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<title>Who is allowed to go which way</title>
+<desc>A network of six places in a building - entrance, stairs, lift, corridor, toilet and exit - joined by labelled lines saying who may use each route, with two routes drawn as dotted lines.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="760" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="220" y1="400" x2="620" y2="400" stroke="#9AA7AE" stroke-width="7" stroke-linecap="round"/>
+<line x1="620" y1="400" x2="1000" y2="200" stroke="#9AA7AE" stroke-width="7" stroke-linecap="round"/>
+<line x1="620" y1="400" x2="1000" y2="600" stroke="#C86B2B" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 6"/>
+<line x1="1000" y1="200" x2="1360" y2="330" stroke="#9AA7AE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1000" y1="600" x2="1360" y2="330" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="620" y1="400" x2="1360" y2="620" stroke="#A8372E" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<circle cx="220" cy="400" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="220" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="220" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the entrance</text>
+<text x="220" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one, for everybody</text>
+<circle cx="620" cy="400" r="54" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="620" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">C</text>
+<text x="620" y="480" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the corridor</text>
+<text x="620" y="500" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">two wide</text>
+<circle cx="1000" cy="200" r="46" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="1000" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">S</text>
+<text x="1000" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the stairs</text>
+<text x="1000" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">four floors</text>
+<circle cx="1000" cy="600" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="1000" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">L</text>
+<text x="1000" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the lift</text>
+<text x="1000" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">staff only, it says</text>
+<circle cx="1360" cy="330" r="46" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1360" y="335" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">T</text>
+<text x="1360" y="402" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the toilet</text>
+<text x="1360" y="422" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">second floor</text>
+<circle cx="1360" cy="620" r="48" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="1360" y="625" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">E</text>
+<text x="1360" y="694" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">the exit</text>
+<text x="1360" y="714" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">three, two locked</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Who is allowed to go which way</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six places, and a line for every route. Two of the lines are dotted, and they are the ones worth reading.</text>
+<rect x="362.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="420.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">everybody, all day</text>
+<rect x="752.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="810.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">everybody</text>
+<rect x="752.0" y="485.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="810.0" y="504.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">staff - and a piece of paper says so</text>
+<rect x="1122.0" y="250.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1180.0" y="269.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">up two floors, and a queue at eleven</text>
+<rect x="1122.0" y="450.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1180.0" y="469.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">would be one button</text>
+<rect x="932.0" y="495.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="990.0" y="514.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">locked, except the middle one</text>
+</g>
+</svg>

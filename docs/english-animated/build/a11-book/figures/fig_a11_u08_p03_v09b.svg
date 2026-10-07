@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660">
+<title>The same verb, two widths</title>
+<desc>Two sentence diagrams of the same event. The first spreads across the whole week with a plain verb; the second is one minute wide and carries is and -ing as extra pieces.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+
+</g>
+<g id="20_subject">
+<rect x="160" y="144" width="218.08163265306123" height="52" rx="5" fill="#C86B2B"/>
+<text x="269.0408163265306" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">She</text>
+<rect x="384.0816326530612" y="144" width="267.8775510204082" height="52" rx="5" fill="#1F4E5F"/>
+<text x="518.0204081632653" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">cleans</text>
+<rect x="657.9591836734694" y="144" width="367.46938775510205" height="52" rx="5" fill="#2E6F5E"/>
+<text x="841.6938775510205" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the office</text>
+<rect x="1031.4285714285716" y="144" width="342.57142857142856" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1202.7142857142858" y="177" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">every morning</text>
+<rect x="160" y="344" width="178.1509433962264" height="52" rx="5" fill="#C86B2B"/>
+<text x="249.0754716981132" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">She</text>
+<rect x="344.1509433962264" y="344" width="155.1320754716981" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="421.7169811320755" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">is</text>
+<rect x="505.2830188679245" y="344" width="293.24528301886795" height="52" rx="5" fill="#1F4E5F"/>
+<text x="651.9056603773585" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">cleaning</text>
+<rect x="804.5283018867924" y="344" width="339.2830188679245" height="52" rx="5" fill="#2E6F5E"/>
+<text x="974.1698113207547" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">the office</text>
+<rect x="1149.811320754717" y="344" width="224.18867924528303" height="52" rx="5" fill="none" stroke="#9AA7AE" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1261.9056603773583" y="377" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#9AA7AE" text-anchor="middle" font-weight="400" font-style="italic">now</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">The same verb, two widths</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">One of these is true about the week. The other is true about this minute.</text>
+<text x="140" y="178" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">EVERY DAY</text>
+<text x="140" y="378" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#9AA7AE" text-anchor="end" font-weight="700" font-style="normal" letter-spacing="1.5">RIGHT NOW</text>
+<text x="800.0" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">↕ same person, same verb, two kinds of truth</text>
+<rect x="160" y="520.75" width="1280" height="99.25" rx="6" fill="#F3ECE0"/>
+<text x="184" y="547.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The present continuous is two extra pieces on the same verb: a form of be, and -ing. Take</text>
+<text x="184" y="569.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">both off and you are back in the present simple. Put both on and the sentence shrinks to</text>
+<text x="184" y="591.25" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">this minute.</text>
+</g>
+</svg>

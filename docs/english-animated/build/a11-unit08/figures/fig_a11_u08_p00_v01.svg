@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<title>Four workplaces at twenty past eleven</title>
+<desc>Four workplaces drawn side by side at the same moment - a cafe kitchen, a school office, a hospital corridor and a small factory - each with somebody doing something outside their job title.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="980" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="0" y="0" width="1600" height="700" rx="0" fill="#D4DADC"/>
+<rect x="-40" y="575" width="115" height="125" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="124" y="490" width="170" height="210" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="338" y="625" width="75" height="75" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="356.75" y="609" width="22.5" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="452" y="540" width="130" height="160" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="616" y="455" width="185" height="245" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="830" y="590" width="90" height="110" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="852.5" y="574" width="27.0" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="944" y="505" width="145" height="195" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1108" y="640" width="200" height="60" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1322" y="555" width="105" height="145" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1348.25" y="539" width="31.5" height="16" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="1476" y="470" width="160" height="230" rx="0" fill="#1C2B33" stroke="none" stroke-width="1.5" opacity="0.085"/>
+<rect x="0" y="666" width="1600" height="34" rx="0" fill="#D4DADC" opacity="0.45"/>
+<rect x="0" y="700" width="1600" height="280" rx="0" fill="#A59B8A"/>
+<rect x="0" y="700" width="1600" height="26" rx="0" fill="#1C2B33" opacity="0.07"/>
+<line x1="0" y1="700" x2="1600" y2="700" stroke="#1C2B33" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/>
+<rect x="20" y="468" width="360" height="232" rx="0" fill="#D8C48C" stroke="#1C2B33" stroke-width="2"/>
+<rect x="20" y="458" width="368" height="12" rx="0" fill="#D8C48C" stroke="#1C2B33" stroke-width="2"/>
+<rect x="20" y="468" width="360" height="232" rx="0" fill="#FFFFFF" opacity="0.9"/>
+<line x1="20" y1="468" x2="380" y2="468" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<line x1="20" y1="584" x2="380" y2="584" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<path d="M 20 468 L 28 492 L 12 516 L 28 540 L 12 564 L 28 588 L 12 612 L 28 636 L 12 660 L 28 684 L 20 700" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="440" y="352" width="340" height="348" rx="0" fill="#C3BBA6" stroke="#1C2B33" stroke-width="2"/>
+<rect x="440" y="342" width="348" height="12" rx="0" fill="#C3BBA6" stroke="#1C2B33" stroke-width="2"/>
+<rect x="440" y="352" width="340" height="348" rx="0" fill="#FFFFFF" opacity="0.9"/>
+<line x1="440" y1="352" x2="780" y2="352" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<line x1="440" y1="468" x2="780" y2="468" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<line x1="440" y1="584" x2="780" y2="584" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<path d="M 440 352 L 448 376 L 432 400 L 448 424 L 432 448 L 448 472 L 432 496 L 448 520 L 432 544 L 448 568 L 432 592 L 448 616 L 432 640 L 448 664 L 432 688 L 440 700" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="840" y="468" width="360" height="232" rx="0" fill="#BFCBCF" stroke="#1C2B33" stroke-width="2"/>
+<rect x="840" y="458" width="368" height="12" rx="0" fill="#BFCBCF" stroke="#1C2B33" stroke-width="2"/>
+<rect x="840" y="468" width="360" height="232" rx="0" fill="#FFFFFF" opacity="0.9"/>
+<line x1="840" y1="468" x2="1200" y2="468" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<line x1="840" y1="584" x2="1200" y2="584" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<path d="M 840 468 L 848 492 L 832 516 L 848 540 L 832 564 L 848 588 L 832 612 L 848 636 L 832 660 L 848 684 L 840 700" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1260" y="468" width="320" height="232" rx="0" fill="#B3AE9E" stroke="#1C2B33" stroke-width="2"/>
+<rect x="1260" y="458" width="328" height="12" rx="0" fill="#B3AE9E" stroke="#1C2B33" stroke-width="2"/>
+<rect x="1260" y="468" width="320" height="232" rx="0" fill="#FFFFFF" opacity="0.9"/>
+<line x1="1260" y1="468" x2="1580" y2="468" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<line x1="1260" y1="584" x2="1580" y2="584" stroke="#1C2B33" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+<path d="M 1260 468 L 1268 492 L 1252 516 L 1268 540 L 1252 564 L 1268 588 L 1252 612 L 1268 636 L 1252 660 L 1268 684 L 1260 700" fill="none" stroke="#C86B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<rect x="300" y="658.4" width="41.6" height="41.6" rx="3" fill="#FFFFFF" stroke="#1C2B33" stroke-width="1.5"/>
+<path d="M 341.6 668.0 q 16.0 9.600000000000001 0 19.200000000000003" fill="none" stroke="#1C2B33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="240" y="654.0" width="120.0" height="8.0" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.4"/>
+<line x1="252.0" y1="662.0" x2="252.0" y2="700" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<line x1="348.0" y1="662.0" x2="348.0" y2="700" stroke="#8A6E52" stroke-width="6" stroke-linecap="round"/>
+<rect x="560" y="656.0" width="46.0" height="7.0" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.3"/>
+<rect x="598.0" y="608.0" width="8.0" height="52.0" rx="0" fill="#8A6E52" stroke="#1C2B33" stroke-width="1.3"/>
+<line x1="565.0" y1="663.0" x2="565.0" y2="700" stroke="#8A6E52" stroke-width="5" stroke-linecap="round"/>
+<line x1="601.0" y1="663.0" x2="601.0" y2="700" stroke="#8A6E52" stroke-width="5" stroke-linecap="round"/>
+<rect x="680" y="656.0" width="54.0" height="44.0" rx="0" fill="#C9A97A" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="680" y1="674.0" x2="734.0" y2="674.0" stroke="#1C2B33" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+<rect x="960" y="664.0" width="86.0" height="36.0" rx="0" fill="#B9C7CC" stroke="#1C2B33" stroke-width="1.6"/>
+<line x1="966.0" y1="670.0" x2="1040.0" y2="670.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="966.0" y1="681.0" x2="1040.0" y2="681.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<line x1="966.0" y1="692.0" x2="1040.0" y2="692.0" stroke="#1C2B33" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<rect x="1380" y="630.0" width="150.0" height="50.0" rx="24" fill="#7E9BA6" stroke="#1C2B33" stroke-width="1.8"/>
+<circle cx="1414.0" cy="688.0" r="15.0" fill="#33414A" stroke="#1C2B33" stroke-width="1.5"/>
+<circle cx="1496.0" cy="688.0" r="15.0" fill="#33414A" stroke="#1C2B33" stroke-width="1.5"/>
+<path d="M 1530.0 644.0 q 24.0 4.0 20.0 30.0" fill="none" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="420" y1="700" x2="420" y2="630.0" stroke="#6E7B82" stroke-width="6" stroke-linecap="round"/>
+<rect x="383.6" y="597.8" width="72.8" height="33.599999999999994" rx="4" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2"/>
+<text x="420" y="618.8" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">11:20</text>
+<ellipse cx="180" cy="701.5176470588235" rx="11.129411764705882" ry="2.5294117647058822" fill="#1C2B33" opacity="0.10"/>
+<path d="M 175.4470588235294 700 L 176.45882352941177 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 184.5529411764706 700 L 183.54117647058823 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 180.0 634.2352941176471 L 180 662.4635294117647" fill="none" stroke="#1F4E5F" stroke-width="12.141176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 170.38823529411764 634.7411764705882 L 189.61176470588236 634.7411764705882" fill="none" stroke="#1F4E5F" stroke-width="6.576470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 170.38823529411764 635.7529411764706 L 174.43529411764706 658.4164705882354" fill="none" stroke="#1F4E5F" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 189.61176470588236 635.7529411764706 L 185.56470588235294 658.4164705882354" fill="none" stroke="#1F4E5F" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="658.4164705882354" r="2.7823529411764705" fill="#6B4229"/>
+<path d="M 180.0 631.7058823529412 L 180.0 629.1764705882354" fill="none" stroke="#6B4229" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180.0" cy="622.6" r="7.588235294117647" fill="#6B4229"/>
+<path d="M 171.90588235294118 622.0941176470589 A 8.588235294117647 8.588235294117647 0 0 1 188.09411764705882 622.0941176470589 Z" fill="#30555F" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 180.0 622.0941176470589 L 193.1529411764706 621.5882352941177 L 192.14117647058822 623.6117647058824 L 180.0 623.6117647058824 Z" fill="#26454E" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="177.47058823529412" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<circle cx="182.52941176470588" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<path d="M 177.9764705882353 626.6470588235294 Q 180.0 627.6588235294117 182.0235294117647 626.6470588235294" fill="none" stroke="#8A5A48" stroke-width="0.8094117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="500" cy="701.5176470588235" rx="11.129411764705882" ry="2.5294117647058822" fill="#1C2B33" opacity="0.10"/>
+<path d="M 495.4470588235294 700 L 496.45882352941175 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 504.5529411764706 700 L 503.54117647058825 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 500.0 634.2352941176471 L 500 662.4635294117647" fill="none" stroke="#2E6F5E" stroke-width="12.141176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 490.38823529411764 634.7411764705882 L 509.61176470588236 634.7411764705882" fill="none" stroke="#2E6F5E" stroke-width="6.576470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 490.38823529411764 635.7529411764706 L 488.8705882352941 665.4988235294118" fill="none" stroke="#2E6F5E" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="488.8705882352941" cy="667.0164705882354" r="2.5294117647058822" fill="#C98E63"/>
+<path d="M 509.61176470588236 635.7529411764706 L 522.7647058823529 633.2235294117647" fill="none" stroke="#2E6F5E" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="524.7882352941176" cy="632.7176470588236" r="2.5294117647058822" fill="#C98E63"/>
+<path d="M 500.0 631.7058823529412 L 500.0 629.1764705882354" fill="none" stroke="#C98E63" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="500.0" cy="622.6" r="7.588235294117647" fill="#C98E63"/>
+<path d="M 492.4117647058824 621.5882352941177 A 7.588235294117647 7.588235294117647 0 0 1 507.5882352941176 621.5882352941177" fill="none" stroke="#B9B2AA" stroke-width="3.541176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="497.47058823529414" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<circle cx="502.52941176470586" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<path d="M 497.9764705882353 626.6470588235294 Q 500.0 627.6588235294117 502.0235294117647 626.6470588235294" fill="none" stroke="#8A5A48" stroke-width="0.8094117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="620" cy="701.5176470588235" rx="11.129411764705882" ry="2.5294117647058822" fill="#1C2B33" opacity="0.10"/>
+<path d="M 615.4470588235295 700 L 616.4588235294118 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 624.5529411764705 700 L 623.5411764705882 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 620.0 634.2352941176471 L 620 662.4635294117647" fill="none" stroke="#8C6A9E" stroke-width="12.141176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 610.3882352941176 634.7411764705882 L 629.6117647058824 634.7411764705882" fill="none" stroke="#8C6A9E" stroke-width="6.576470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 610.3882352941176 635.7529411764706 L 614.435294117647 658.4164705882354" fill="none" stroke="#8C6A9E" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 629.6117647058824 635.7529411764706 L 625.564705882353 658.4164705882354" fill="none" stroke="#8C6A9E" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="620" cy="658.4164705882354" r="2.7823529411764705" fill="#F0D3B4"/>
+<path d="M 620.0 631.7058823529412 L 620.0 629.1764705882354" fill="none" stroke="#F0D3B4" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="620.0" cy="622.6" r="7.588235294117647" fill="#F0D3B4"/>
+<path d="M 612.4117647058823 621.5882352941177 A 7.588235294117647 7.588235294117647 0 0 1 627.5882352941177 621.5882352941177" fill="none" stroke="#2A2320" stroke-width="3.541176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="630.1176470588235" cy="621.0823529411765" r="3.541176470588235" fill="#2A2320" stroke="none" stroke-width="1.5"/>
+<circle cx="617.4705882352941" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<circle cx="622.5294117647059" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<path d="M 617.9764705882353 626.6470588235294 Q 620.0 627.6588235294117 622.0235294117647 626.6470588235294" fill="none" stroke="#8A5A48" stroke-width="0.8094117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="900" cy="701.5176470588235" rx="11.129411764705882" ry="2.5294117647058822" fill="#1C2B33" opacity="0.10"/>
+<path d="M 895.4470588235295 700 L 896.4588235294118 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 904.5529411764705 700 L 903.5411764705882 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 900.0 634.2352941176471 L 900 662.4635294117647" fill="none" stroke="#4A5A66" stroke-width="12.141176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 890.3882352941176 634.7411764705882 L 909.6117647058824 634.7411764705882" fill="none" stroke="#4A5A66" stroke-width="6.576470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 890.3882352941176 635.7529411764706 L 888.8705882352941 665.4988235294118" fill="none" stroke="#4A5A66" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="888.8705882352941" cy="667.0164705882354" r="2.5294117647058822" fill="#8D5A3B"/>
+<path d="M 909.6117647058824 635.7529411764706 L 911.1294117647059 665.4988235294118" fill="none" stroke="#4A5A66" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="911.1294117647059" cy="667.0164705882354" r="2.5294117647058822" fill="#8D5A3B"/>
+<path d="M 900.0 631.7058823529412 L 900.0 629.1764705882354" fill="none" stroke="#8D5A3B" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="900.0" cy="622.6" r="7.588235294117647" fill="#8D5A3B"/>
+<path d="M 892.4117647058823 621.5882352941177 A 7.588235294117647 7.588235294117647 0 0 1 907.5882352941177 621.5882352941177" fill="none" stroke="#2A2320" stroke-width="3.541176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="897.4705882352941" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<circle cx="902.5294117647059" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<path d="M 897.9764705882353 626.6470588235294 Q 900.0 627.6588235294117 902.0235294117647 626.6470588235294" fill="none" stroke="#8A5A48" stroke-width="0.8094117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1320" cy="701.5176470588235" rx="11.129411764705882" ry="2.5294117647058822" fill="#1C2B33" opacity="0.10"/>
+<path d="M 1315.4470588235295 700 L 1316.4588235294118 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1324.5529411764705 700 L 1323.5411764705882 660.44" fill="none" stroke="#3A4A55" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1320.0 634.2352941176471 L 1320 662.4635294117647" fill="none" stroke="#C86B2B" stroke-width="12.141176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1310.3882352941177 634.7411764705882 L 1329.6117647058823 634.7411764705882" fill="none" stroke="#C86B2B" stroke-width="6.576470588235294" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1310.3882352941177 636.2588235294118 L 1326.5764705882352 645.364705882353" fill="none" stroke="#C86B2B" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1327.5882352941176" cy="645.8705882352941" r="2.5294117647058822" fill="#E8C39E"/>
+<path d="M 1329.6117647058823 636.2588235294118 L 1313.4235294117648 647.3882352941176" fill="none" stroke="#C86B2B" stroke-width="4.552941176470588" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1312.4117647058824" cy="647.8941176470588" r="2.5294117647058822" fill="#E8C39E"/>
+<path d="M 1320.0 631.7058823529412 L 1320.0 629.1764705882354" fill="none" stroke="#E8C39E" stroke-width="5.0588235294117645" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1320.0" cy="622.6" r="7.588235294117647" fill="#E8C39E"/>
+<path d="M 1312.4117647058824 621.5882352941177 A 7.588235294117647 7.588235294117647 0 0 1 1327.5882352941176 621.5882352941177" fill="none" stroke="#2A2320" stroke-width="3.541176470588235" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1317.4705882352941" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<circle cx="1322.5294117647059" cy="623.1058823529412" r="0.9105882352941176" fill="#2A2320"/>
+<path d="M 1317.9764705882353 626.6470588235294 Q 1320.0 627.6588235294117 1322.0235294117647 626.6470588235294" fill="none" stroke="#8A5A48" stroke-width="0.8094117647058824" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="30_detail">
+<circle cx="180" cy="582" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="180" y="587" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<circle cx="500" cy="582" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="500" y="587" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<circle cx="620" cy="582" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="620" y="587" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<circle cx="900" cy="582" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="900" y="587" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<circle cx="1320" cy="582" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="1320" y="587" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<circle cx="420" cy="636" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="420" y="641" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<circle cx="300" cy="650" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="300" y="655" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">7</text>
+<circle cx="1380" cy="640" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="1380" y="645" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">8</text>
+<circle cx="240" cy="656" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="240" y="661" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">9</text>
+<circle cx="560" cy="664" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="560" y="669" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">10</text>
+<circle cx="960" cy="660" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="960" y="665" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">11</text>
+<circle cx="680" cy="652" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="680" y="657" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">12</text>
+<circle cx="300" cy="584" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="300" y="589" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">13</text>
+<circle cx="1000" cy="584" r="16" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.6" opacity="0.96"/>
+<text x="1000" y="589" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">14</text>
+</g>
+<g id="40_callouts">
+<rect x="0" y="0" width="1600" height="118" rx="0" fill="#FBF7F0" opacity="0.82"/>
+<rect x="0" y="702" width="1600" height="278" rx="0" fill="#FBF7F0" opacity="0.78"/>
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Four workplaces at twenty past eleven</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Fourteen things to find. In every one of them, somebody is doing something that is not in their job title.</text>
+<rect x="248" y="511.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="364" y="530.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the flat above</text>
+<rect x="95.36000000000001" y="627.0" width="272.64" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="364" y="646.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the kitchen - forty coffees by eleven</text>
+<text x="200.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the cafe</text>
+<rect x="648" y="395.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="764" y="414.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the corridor</text>
+<rect x="508.79999999999995" y="511.0" width="259.20000000000005" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="764" y="530.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the office - and nobody at the desk</text>
+<rect x="648" y="627.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="764" y="646.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the entrance</text>
+<text x="610.0" y="328" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the school</text>
+<rect x="1068" y="511.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1184" y="530.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the ward</text>
+<rect x="868.3199999999999" y="627.0" width="319.68" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1184" y="646.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the corridor - a shift that started at seven</text>
+<text x="1020.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the hospital</text>
+<rect x="1448" y="511.0" width="120" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1564" y="530.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the roof</text>
+<rect x="1302.08" y="627.0" width="265.92" height="26" rx="4" fill="#FFFFFF" opacity="0.88"/>
+<text x="1564" y="646.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="600" font-style="normal">the floor - one machine, not working</text>
+<text x="1420.0" y="444" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">the factory</text>
+<line x1="180" y1="706" x2="180" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="180" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Marco - a cook, washing up</text>
+<line x1="300" y1="706" x2="300" y2="764" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="300" y="780" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the fortieth coffee</text>
+<line x1="420" y1="706" x2="420" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="420" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the clock: twenty past eleven</text>
+<line x1="500" y1="706" x2="500" y2="794" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="500" y="810" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Dona Filipa - a cleaner, answering the phone</text>
+<line x1="620" y1="706" x2="620" y2="764" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="620" y="780" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Ana - at a desk she is not sitting at</text>
+<line x1="900" y1="706" x2="900" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="900" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a nurse - five hours into a twelve-hour shift</text>
+<line x1="1320" y1="706" x2="1320" y2="734" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="1320" y="750" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">an engineer - no uniform</text>
+<line x1="1380" y1="706" x2="1380" y2="764" stroke="#55646D" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<text x="1380" y="780" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the machine that is not working</text>
+</g>
+</svg>

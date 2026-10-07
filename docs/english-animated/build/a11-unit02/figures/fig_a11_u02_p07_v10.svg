@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>One letter, three sounds</title>
+<desc>Three columns sorting words that all end in s by the sound of that ending - s, z and iz - with the rule for each column written under the phonetic symbol.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="112.0" y="130" width="442.6666666666667" height="440" rx="8" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="112.0" y="130" width="442.6666666666667" height="64" rx="8" fill="#1F4E5F"/>
+<line x1="140.0" y1="512" x2="526.6666666666667" y2="512" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<rect x="578.6666666666667" y="130" width="442.6666666666667" height="440" rx="8" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="578.6666666666667" y="130" width="442.6666666666667" height="64" rx="8" fill="#2E6F5E"/>
+<line x1="606.6666666666667" y1="512" x2="993.3333333333335" y2="512" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+<rect x="1045.3333333333335" y="130" width="442.6666666666667" height="440" rx="8" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<rect x="1045.3333333333335" y="130" width="442.6666666666667" height="64" rx="8" fill="#C86B2B"/>
+<line x1="1073.3333333333335" y1="512" x2="1460.0000000000002" y2="512" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<text x="333.33333333333337" y="174" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">/s/</text>
+<text x="333.33333333333337" y="310" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">cats</text>
+<text x="333.33333333333337" y="342.3" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">books</text>
+<text x="333.33333333333337" y="374.6" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">eats</text>
+<text x="333.33333333333337" y="406.90000000000003" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">works</text>
+<text x="333.33333333333337" y="439.20000000000005" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">stops</text>
+<text x="800.0000000000001" y="174" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">/z/</text>
+<text x="800.0000000000001" y="310" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">days</text>
+<text x="800.0000000000001" y="342.3" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">eyes</text>
+<text x="800.0000000000001" y="374.6" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">legs</text>
+<text x="800.0000000000001" y="406.90000000000003" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">opens</text>
+<text x="800.0000000000001" y="439.20000000000005" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">feels</text>
+<text x="1266.6666666666667" y="174" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal">/ɪz/</text>
+<text x="1266.6666666666667" y="310" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">buses</text>
+<text x="1266.6666666666667" y="342.3" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">watches</text>
+<text x="1266.6666666666667" y="374.6" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">washes</text>
+<text x="1266.6666666666667" y="406.90000000000003" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">closes</text>
+<text x="1266.6666666666667" y="439.20000000000005" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">finishes</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One letter, three sounds</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Nothing changes in the spelling. What decides the sound is the letter in front of it.</text>
+<text x="333.33333333333337" y="228.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="middle" font-weight="600" font-style="normal">after a quiet sound, the s stays quiet</text>
+<text x="333.33333333333337" y="538.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">your voice is off for /t/ /k/ /p/ /f/, so it stays off</text>
+<text x="333.33333333333337" y="555.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">for the s</text>
+<text x="800.0000000000001" y="228.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#2E6F5E" text-anchor="middle" font-weight="600" font-style="normal">after a loud sound, the s turns on too</text>
+<text x="800.0000000000001" y="538.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">your voice is on for a vowel and for /n/ /g/ /l/, so</text>
+<text x="800.0000000000001" y="555.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">it stays on</text>
+<text x="1266.6666666666667" y="228.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#C86B2B" text-anchor="middle" font-weight="600" font-style="normal">after a hissing sound, a whole syllable appears</text>
+<text x="1266.6666666666667" y="538.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">two hisses cannot touch, so English puts a small vowel</text>
+<text x="1266.6666666666667" y="555.4" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">between them</text>
+</g>
+</svg>

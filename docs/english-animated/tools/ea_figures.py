@@ -173,6 +173,14 @@ def _prop(p):
         o.append(rect(x, y - 46 * s, 120 * s, 8 * s, fill='#8A6E52', stroke=INK, sw=1.4))
         o.append(line(x + 12 * s, y - 38 * s, x + 12 * s, y, stroke='#8A6E52', sw=6))
         o.append(line(x + 108 * s, y - 38 * s, x + 108 * s, y, stroke='#8A6E52', sw=6))
+    elif k == 'chair':
+        o.append(rect(x, y - 44 * s, 46 * s, 7 * s, fill='#8A6E52', stroke=INK, sw=1.3))
+        o.append(rect(x + 38 * s, y - 92 * s, 8 * s, 52 * s, fill='#8A6E52', stroke=INK, sw=1.3))
+        o.append(line(x + 5 * s, y - 37 * s, x + 5 * s, y, stroke='#8A6E52', sw=5))
+        o.append(line(x + 41 * s, y - 37 * s, x + 41 * s, y, stroke='#8A6E52', sw=5))
+    elif k == 'cup':
+        o.append(rect(x, y - 26 * s, 26 * s, 26 * s, rx=3, fill=WHITE, stroke=INK, sw=1.5))
+        o.append(path(f'M {x + 26*s} {y - 20*s} q {10*s} {6*s} 0 {12*s}', stroke=INK, sw=2))
     elif k == 'box':
         o.append(rect(x, y - 44 * s, 54 * s, 44 * s, fill='#C9A97A', stroke=INK, sw=1.6))
         o.append(line(x, y - 26 * s, x + 54 * s, y - 26 * s, stroke=INK, sw=1.2, opacity=.6))
@@ -699,10 +707,11 @@ def v9_grammar(spec):
         lab.append(text(x0, sy + 108, spec.get('note', ''), size=T_LABEL, fill=INK, style='italic'))
 
     elif kind == 'mirror':                         # active / passive, same event
+        side_labels = spec.get('labels', ['ACTIVE', 'PASSIVE'])
         for i, side in enumerate(['active', 'passive']):
             s = spec[side]
             y = 170 + i * 200
-            lab.append(text(x0 - 20, y + 8, side.upper(), size=T_MICRO, anchor='end',
+            lab.append(text(x0 - 20, y + 8, side_labels[i], size=T_MICRO, anchor='end',
                             weight='700', fill=MUTED, spacing=1.5))
             parts = s['parts']
             tot = sum(p['w'] for p in parts)
@@ -721,7 +730,8 @@ def v9_grammar(spec):
                     sub.append(text(x + pw / 2 - 3, y + 7, p['text'], size=T_LABEL,
                                     anchor='middle', weight='700', fill=WHITE))
                 x += pw
-        lab.append(text(W / 2, 170 + 108, '↕ same event, different first word',
+        lab.append(text(W / 2, 170 + 108,
+                        spec.get('between', '↕ same event, different first word'),
                         size=T_LABEL, anchor='middle', fill=INK_SOFT, style='italic'))
 
     if spec.get('rule'):
@@ -808,6 +818,28 @@ def v10_phon(spec):
                 x += 118
             lab.append(text(W - 260, y, s.get('note', ''), size=T_CALLOUT,
                             anchor='end', fill=INK_SOFT, style='italic'))
+    elif kind == 'groups':                         # one spelling, several sounds
+        gs = spec['groups']
+        gw = (W - 200) / len(gs)
+        for i, g in enumerate(gs):
+            x = 100 + i * gw
+            col = g.get('colour', SHADE[i % 6])
+            ctx.append(rect(x + 12, 130, gw - 24, h - 240, fill=WHITE, stroke=RULE, sw=2, rx=8))
+            ctx.append(rect(x + 12, 130, gw - 24, 64, fill=col, rx=8))
+            sub.append(text(x + gw / 2, 174, g['ipa'], size=T_TITLE, anchor='middle',
+                            weight='700', fill=WHITE, family=MONO))
+            cw = max(16, int((gw - 70) / (T_CALLOUT * 0.56)))
+            lab.append(wrap(x + gw / 2, 228, g['rule'], size=T_CALLOUT, width=cw,
+                            anchor='middle', weight='600', fill=col)[0])
+            y = 310
+            for wd in g['words']:
+                sub.append(text(x + gw / 2, y, wd, size=T_BODY, anchor='middle',
+                                weight='600', fill=INK, family=MONO))
+                y += T_BODY * 1.9
+            if g.get('before'):
+                ctx.append(line(x + 40, h - 168, x + gw - 40, h - 168, stroke=RULE, sw=1))
+                lab.append(wrap(x + gw / 2, h - 142, g['before'], size=T_MICRO, width=cw + 4,
+                                anchor='middle', fill=INK_SOFT, style='italic')[0])
     head = figure_title(W, spec['title'], spec.get('sub'))
     return svg(W, h, [group('10_context', '\n'.join(ctx)),
                       group('20_subject', '\n'.join(sub)),
@@ -913,7 +945,14 @@ def v12_synth(spec):
                 sub.append(line(ex, y + 36, ex, y + 104, stroke=INK_SOFT, sw=2))
                 sub.append(poly([(ex, y + 36), (ex + 52, y + 48), (ex, y + 60)],
                                 fill=e.get('colour', GOLD)))
-                lab.append(text(ex + 6, y + 86, e['label'], size=T_MICRO, fill=INK_SOFT)) 
+                # keep the label inside the plate: wrap it, and flip it left of the
+                # pole when there is not room to the right
+                room = x1 - ex - 12
+                flip = room < 240
+                cw = max(18, int((room if not flip else ex - x0 - 12) / (T_MICRO * 0.56)))
+                lab.append(wrap(ex + (-6 if flip else 6), y + 86, e['label'], size=T_MICRO,
+                                width=min(cw, 60), lh=1.35,
+                                anchor='end' if flip else 'start', fill=INK_SOFT)[0])
         y += 150
     for i in range(n_ticks):
         tx = x0 + (x1 - x0) * i / (n_ticks - 1)

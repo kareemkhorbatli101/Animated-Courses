@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<title>A short sound and a long one</title>
+<desc>Two mouth cross-sections side by side showing the tongue position for the short i and the long ee, with minimal pairs.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="680" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<circle cx="470.0" cy="330" r="170" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+<circle cx="1130.0" cy="330" r="170" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="2"/>
+</g>
+<g id="20_subject">
+<path d="M 340.0 420 Q 430.0 448 580.0 400" fill="none" stroke="#C98E8E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 340.0 260 Q 440.0 230 580.0 274" fill="none" stroke="#C98E8E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 350.0 402 Q 489.2 346.6 556.0 382" fill="none" stroke="#B8625E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="320.0" y="312" width="14" height="56" rx="6" fill="#C98E8E"/>
+<path d="M 1000.0 420 Q 1090.0 448 1240.0 400" fill="none" stroke="#C98E8E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1000.0 260 Q 1100.0 230 1240.0 274" fill="none" stroke="#C98E8E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1010.0 402 Q 1169.0 328.4 1216.0 382" fill="none" stroke="#B8625E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="980.0" y="312" width="14" height="86" rx="6" fill="#C98E8E"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A short sound and a long one</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The tongue hardly moves. The difference is the length, and it changes the word.</text>
+<text x="470.0" y="545" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">/i/</text>
+<text x="470.0" y="580" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">short, and the tongue is a little lower</text>
+<text x="470.0" y="612" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">ship · this · it · live · fill</text>
+<rect x="446.0" y="630" width="48" height="14" rx="7" fill="#C86B2B"/>
+<text x="1130.0" y="545" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">/ii/</text>
+<text x="1130.0" y="580" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">long, and the tongue is high and forward</text>
+<text x="1130.0" y="612" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">sheep · these · eat · leave · feel</text>
+<rect x="1055.0" y="630" width="150" height="14" rx="7" fill="#C86B2B"/>
+</g>
+</svg>

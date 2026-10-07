@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="990" viewBox="0 0 1600 990">
+<title>One breakfast, as distance and time</title>
+<desc>An infographic of one breakfast across four bands: how far each item travelled, how long it took, what it cost, and how many pairs of hands touched it between the field and the cup.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="990" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="40" y="130" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="164.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Distance</text>
+<line x1="150" y1="250" x2="1450" y2="250" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="280" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="314.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Time</text>
+<line x1="150" y1="400" x2="1450" y2="400" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="430" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="464.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Cost in the</text>
+<text x="52" y="484.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">cup</text>
+<line x1="150" y1="550" x2="1450" y2="550" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="580" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="614.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">Hands that</text>
+<text x="52" y="634.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">touched it</text>
+<line x1="150" y1="700" x2="1450" y2="700" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="40" y="730" width="104" height="120" rx="5" fill="#F3ECE0"/>
+<text x="52" y="764.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">What this</text>
+<text x="52" y="784.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1F4E5F" text-anchor="start" font-weight="700" font-style="normal">shows</text>
+<line x1="150" y1="850" x2="1450" y2="850" stroke="#D8CFC2" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<g id="20_subject">
+<rect x="150.0" y="166" width="78.0" height="50" rx="4" fill="#2E6F5E" opacity="0.9"/>
+<rect x="254.0" y="166" width="78.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<rect x="358.0" y="166" width="130.0" height="50" rx="4" fill="#1F4E5F" opacity="0.9"/>
+<rect x="514.0" y="166" width="182.0" height="50" rx="4" fill="#D9A441" opacity="0.9"/>
+<rect x="722.0" y="166" width="728.0" height="50" rx="4" fill="#8C6A9E" opacity="0.9"/>
+<circle cx="228.0" cy="340" r="10" fill="#2E6F5E"/>
+<line x1="228.0" y1="340" x2="228.0" y2="400" stroke="#2E6F5E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="436.0" cy="340" r="10" fill="#C86B2B"/>
+<line x1="436.0" y1="340" x2="436.0" y2="400" stroke="#C86B2B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="722.0" cy="340" r="10" fill="#1F4E5F"/>
+<line x1="722.0" y1="340" x2="722.0" y2="400" stroke="#1F4E5F" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1034.0" cy="340" r="10" fill="#D9A441"/>
+<line x1="1034.0" y1="340" x2="1034.0" y2="400" stroke="#D9A441" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="1346.0" cy="340" r="10" fill="#8C6A9E"/>
+<line x1="1346.0" y1="340" x2="1346.0" y2="400" stroke="#8C6A9E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 4"/>
+<rect x="150.0" y="466" width="390.0" height="50" rx="4" fill="#8C6A9E" opacity="0.9"/>
+<rect x="566.0" y="466" width="312.0000000000001" height="50" rx="4" fill="#1F4E5F" opacity="0.9"/>
+<rect x="904.0" y="466" width="546.0" height="50" rx="4" fill="#C86B2B" opacity="0.9"/>
+<path d="M 150 690 L 540 677 L 930 650 L 1450 604" fill="none" stroke="#C86B2B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="690.0" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="540.0" cy="676.7692307702486" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="930.0" cy="650.3076923107456" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<circle cx="1450.0" cy="604.0000000066154" r="4.5" fill="#FFFFFF" stroke="#C86B2B" stroke-width="2.4"/>
+<line x1="280.0" y1="766" x2="280.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="280.0,766 332.0,778 280.0,790" fill="#D9A441"/>
+<line x1="774.0" y1="766" x2="774.0" y2="834" stroke="#55646D" stroke-width="2" stroke-linecap="round"/>
+<polygon points="774.0,766 826.0,778 774.0,790" fill="#D9A441"/>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One breakfast, as distance and time</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">The cheapest thing on the plate travelled furthest and was touched by the most people.</text>
+<text x="160.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">water - 0 km</text>
+<text x="264.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">bread - 2 streets</text>
+<text x="368.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">milk - 11 km</text>
+<text x="524.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">egg - 40 km</text>
+<text x="732.0" y="198" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">coffee - 6,000 km</text>
+<text x="228.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">water: no time at all</text>
+<text x="436.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">bread: four hours</text>
+<text x="722.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">milk: one night</text>
+<text x="1034.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">egg: six days</text>
+<text x="1346.0" y="316" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">coffee: three weeks at sea</text>
+<text x="160.0" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">coffee - 11 cents</text>
+<text x="576.0" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">milk - 8 cents</text>
+<text x="914.0" y="498" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="700" font-style="normal">bread - 37 cents</text>
+<text x="1456" y="608.0000000066154" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#C86B2B" text-anchor="start" font-weight="700" font-style="normal">14</text>
+<text x="286.0" y="816.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">the thing that came furthest is the cheapest thing on the</text>
+<text x="286.0" y="832.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">plate</text>
+<text x="780.0" y="816.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">fourteen people touched the coffee and you can name none of</text>
+<text x="780.0" y="832.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="start" font-weight="400" font-style="normal">them</text>
+<line x1="150.0" y1="862" x2="150.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="150.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">grown</text>
+<line x1="583.3333333333333" y1="862" x2="583.3333333333333" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="583.3333333333333" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">moved</text>
+<line x1="1016.6666666666666" y1="862" x2="1016.6666666666666" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1016.6666666666666" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">sold</text>
+<line x1="1450.0" y1="862" x2="1450.0" y2="876" stroke="#9AA7AE" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1450.0" y="900" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eaten</text>
+</g>
+</svg>

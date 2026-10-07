@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780">
+<title>One working day, in section</title>
+<desc>A cutaway of one working day from the first hour to the last, with the tasks in each band and the middle band drawn twice as thick.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="154" y="104" width="592" height="582" rx="0" fill="#F3ECE0"/>
+<rect x="170" y="120" width="560" height="550" rx="0" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4"/>
+<rect x="170" y="120.0" width="560" height="137.5" rx="0" fill="#E8EEF0" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="257.5" width="560" height="137.5" rx="0" fill="#F3EADA" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="395.0" width="560" height="137.5" rx="0" fill="#EFE6DC" stroke="#1C2B33" stroke-width="1.6"/>
+<rect x="170" y="532.5" width="560" height="137.5" rx="0" fill="#F1EDE2" stroke="#1C2B33" stroke-width="1.6"/>
+<path d="M 730 120 L 740 146 L 720 172 L 740 198 L 720 224 L 740 250 L 720 276 L 740 302 L 720 328 L 740 354 L 720 380 L 740 406 L 720 432 L 740 458 L 720 484 L 740 510 L 720 536 L 740 562 L 720 588 L 740 614 L 720 640 L 740 666 L 730 670" fill="#FFFFFF" stroke="#1C2B33" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="20_subject">
+<text x="190" y="152.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">05.00 to 07.00</text>
+<text x="190" y="178.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">open the building · clean the floor · nobody else here</text>
+<text x="190" y="289.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">07.00 to 08.30</text>
+<text x="190" y="315.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">answer the phone · the delivery drivers · the boxes</text>
+<text x="190" y="427.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">08.30 to 11.00</text>
+<text x="190" y="453.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">the three floors · the chairs · the bins · the radiator, again</text>
+<text x="190" y="564.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="start" font-weight="400" font-style="italic">11.00 to 13.00</text>
+<text x="190" y="590.5" font-family="Inter, DejaVu Sans, sans-serif" font-size="17" fill="#1C2B33" text-anchor="start" font-weight="600" font-style="normal">the second building · and the shift says it ended at eight</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">One working day, in section</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Eleven tasks. Eleven words. The band in the middle is twice as thick as the others.</text>
+<circle cx="736" cy="186.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 186.0 L 866 186.0 L 866 186.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="191.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">Two hours before anybody can</text>
+<text x="880" y="211.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">see the work being done</text>
+<circle cx="736" cy="329.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 329.0 L 866 329.0 L 866 329.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="334.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">None of this hour and a half</text>
+<text x="880" y="354.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">is in the contract</text>
+<circle cx="736" cy="461.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 461.0 L 866 461.0 L 866 461.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="466.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">This is the part the word</text>
+<text x="880" y="486.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">cleaner describes</text>
+<circle cx="736" cy="604.0" r="4.5" fill="#C86B2B"/>
+<path d="M 736 604.0 L 866 604.0 L 866 604.0" fill="none" stroke="#C86B2B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880" y="609.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">The shift ended. The work did</text>
+<text x="880" y="629.3" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="start" font-weight="500" font-style="normal">not</text>
+</g>
+</svg>
