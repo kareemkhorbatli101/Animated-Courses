@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>A career, drawn as the things that were not decided</title>
+<desc>A network of career stages from training through an interview, a rotation and a post to where somebody is now, with chance events marked on the links.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<line x1="170" y1="400" x2="520" y2="200" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="520" y1="600" x2="520" y2="200" stroke="#A8372E" stroke-width="5" stroke-linecap="round"/>
+<line x1="520" y1="200" x2="900" y2="400" stroke="#9AA7AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 5"/>
+<line x1="900" y1="400" x2="1250" y2="240" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="1250" y1="240" x2="1250" y2="580" stroke="#9AA7AE" stroke-width="6" stroke-linecap="round"/>
+<line x1="170" y1="400" x2="1250" y2="580" stroke="#9AA7AE" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+</g>
+<g id="20_subject">
+<circle cx="170" cy="400" r="46" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="3"/>
+<text x="170" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="middle" font-weight="700" font-style="normal">1</text>
+<text x="170" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Training</text>
+<text x="170" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and what you wanted then</text>
+<circle cx="520" cy="200" r="46" fill="#FFFFFF" stroke="#D9A441" stroke-width="3"/>
+<text x="520" y="205" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#D9A441" text-anchor="middle" font-weight="700" font-style="normal">2</text>
+<text x="520" y="272" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The interview</text>
+<text x="520" y="292" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">a Tuesday, in Temuco</text>
+<circle cx="520" cy="600" r="46" fill="#FFFFFF" stroke="#A8372E" stroke-width="3"/>
+<text x="520" y="605" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="middle" font-weight="700" font-style="normal">3</text>
+<text x="520" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The cancellation</text>
+<text x="520" y="692" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">one train, no decision</text>
+<circle cx="900" cy="400" r="46" fill="#FFFFFF" stroke="#C86B2B" stroke-width="3"/>
+<text x="900" y="405" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="middle" font-weight="700" font-style="normal">4</text>
+<text x="900" y="472" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The rotation</text>
+<text x="900" y="492" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">the one still open</text>
+<circle cx="1250" cy="240" r="54" fill="#FFFFFF" stroke="#1F4E5F" stroke-width="3"/>
+<text x="1250" y="245" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">5</text>
+<text x="1250" y="320" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">The post</text>
+<text x="1250" y="340" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">eighteen years</text>
+<circle cx="1250" cy="580" r="54" fill="#FFFFFF" stroke="#8C6A9E" stroke-width="3"/>
+<text x="1250" y="585" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#8C6A9E" text-anchor="middle" font-weight="700" font-style="normal">6</text>
+<text x="1250" y="660" font-family="Inter, DejaVu Sans, sans-serif" font-size="14" fill="#1C2B33" text-anchor="middle" font-weight="600" font-style="normal">Who you became</text>
+<text x="1250" y="680" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">and it is different</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">A career, drawn as the things that were not decided</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six nodes. Only two of the arrows were anybody's choice.</text>
+<rect x="287.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="345.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">arranged a whole year around it</text>
+<rect x="462.0" y="385.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="520.0" y="404.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">no train, and a bus that was 40 min</text>
+<rect x="652.0" y="285.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="710.0" y="304.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the decision on the platform</text>
+<rect x="1017.0" y="305.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1075.0" y="324.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">because it was the only one open</text>
+<rect x="1192.0" y="395.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="1250.0" y="414.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">emergency changes what you are like</text>
+<rect x="652.0" y="475.0" width="116" height="26" rx="12" fill="#FBF7F0"/>
+<text x="710.0" y="494.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="italic">the paediatrician who does not exist</text>
+</g>
+</svg>
