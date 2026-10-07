@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<title>Attendance, attainment and the four unrecorded weeks</title>
+<desc>A line chart of attendance and pass rate over six years, with four weeks of hardware failure showing a sharp attendance spike.</desc>
+<g id="00_ground">
+<rect x="0" y="0" width="1600" height="800" rx="0" fill="#FBF7F0"/>
+</g>
+<g id="10_context">
+<rect x="170" y="150" width="1180" height="440" rx="0" fill="#FFFFFF" stroke="#D8CFC2" stroke-width="1.6"/>
+<line x1="170" y1="590.0" x2="1350" y2="590.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="595.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">0</text>
+<line x1="170" y1="480.0" x2="1350" y2="480.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="485.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">25</text>
+<line x1="170" y1="370.0" x2="1350" y2="370.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="375.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">50</text>
+<line x1="170" y1="260.0" x2="1350" y2="260.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="265.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">75</text>
+<line x1="170" y1="150.0" x2="1350" y2="150.0" stroke="#D8CFC2" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+<text x="156" y="155.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="end" font-weight="400" font-style="normal">100</text>
+</g>
+<g id="20_subject">
+<path d="M 170.0 392.0 L 406.0 453.6 L 642.0 471.2 L 878.0 484.4 L 1114.0 488.8 L 1350.0 493.2" fill="none" stroke="#A8372E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="392.0" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="406.0" cy="453.6" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="642.0" cy="471.2" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="878.0" cy="484.4" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1114.0" cy="488.8" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="493.2" r="5" fill="#FFFFFF" stroke="#A8372E" stroke-width="2.6"/>
+<text x="1364.0" y="498.2" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#A8372E" text-anchor="start" font-weight="600" font-style="normal">attendance %</text>
+<path d="M 170.0 233.6 L 406.0 238.0 L 642.0 229.2 L 878.0 233.6 L 1114.0 224.8 L 1350.0 229.2" fill="none" stroke="#2E6F5E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.0" cy="233.59999999999997" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="406.0" cy="238.0" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="642.0" cy="229.20000000000005" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="878.0" cy="233.59999999999997" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="1114.0" cy="224.8" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<circle cx="1350.0" cy="229.20000000000005" r="5" fill="#FFFFFF" stroke="#2E6F5E" stroke-width="2.6"/>
+<text x="1364.0" y="234.20000000000005" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#2E6F5E" text-anchor="start" font-weight="600" font-style="normal">pass rate %</text>
+</g>
+<g id="40_callouts">
+<text x="800.0" y="46" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#1F4E5F" text-anchor="middle" font-weight="700" font-style="normal">Attendance, attainment and the four unrecorded weeks</text>
+<text x="800.0" y="72" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">Six years of one unit, with the four hardware failures marked.</text>
+<text x="170.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2019</text>
+<text x="406.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2020</text>
+<text x="642.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2021</text>
+<text x="878.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2022</text>
+<text x="1114.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">2023</text>
+<text x="1350.0" y="618" font-family="Inter, DejaVu Sans, sans-serif" font-size="12" fill="#55646D" text-anchor="middle" font-weight="400" font-style="normal">now</text>
+<rect x="170" y="650" width="1180" height="38" rx="4" fill="#F7E7D6" stroke="#C86B2B" stroke-width="1.4"/>
+<text x="186" y="675" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#C86B2B" text-anchor="start" font-weight="600" font-style="normal">In the four weeks when the recording failed, attendance averaged 37 per cent. That is the only controlled comparison anybody has, it lasted a month, and it was an accident.</text>
+<text x="170" y="724.0" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">Attendance has fallen 23 points. The pass rate has moved two, which is inside the normal</text>
+<text x="170" y="745.75" font-family="Inter, DejaVu Sans, sans-serif" font-size="15" fill="#1C2B33" text-anchor="start" font-weight="400" font-style="italic">year-to-year range.</text>
+</g>
+</svg>
