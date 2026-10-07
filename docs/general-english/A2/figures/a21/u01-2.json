@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   414.4,
+   76.3,
+   846,
+   45.3
+  ],
+  [
+   478.4,
+   170.3,
+   846,
+   155.3
+  ],
+  [
+   414.4,
+   264.3,
+   846,
+   265.3
+  ],
+  [
+   478.4,
+   358.3,
+   846,
+   375.3
+  ],
+  [
+   414.4,
+   452.3,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "A single day drawn as a column of five bands, light at the top and dark at the bottom, with a sun, a clock and a moon beside it. Five numbered lines run to the right for the learner to write dawn, midday, afternoon, evening and midnight.",
+ "placed_in": [
+  5.364583333333333,
+  1.9791666666666667
+ ],
+ "sha256": "882b6a38311af149760371be2275f9a0b260dbe8c7da652a342aaa949116b761"
+}

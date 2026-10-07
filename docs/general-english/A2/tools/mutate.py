@@ -12,16 +12,48 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path[:0] = [HERE, os.path.join(HERE, 'checks')]
 
+import json as _json              # noqa: E402
 import model as M                 # noqa: E402
 import checks as C                # noqa: E402
 import runner as R                # noqa: E402
 from mutations import MUTATIONS   # noqa: E402
 
-ARTEFACT = {'fig', 'docx', 'styles', 'core', 'zip', 'cover', 'covermeta', 'coverpx',
+ARTEFACT = {'docx', 'styles', 'core', 'zip', 'cover', 'covermeta', 'coverpx',
             'needs_artefact'}
 MULTIUNIT = {'needs_units'}
 NOFAIL = {'needs_check'}
 STATIC = {'registry', 'rename', 'sha'}
+
+
+def _apply_png(path, meta):
+    """Realise the pixel-level faults a figure mutation can name."""
+    from PIL import Image
+    im = Image.open(path).convert('RGB')
+    changed = False
+    w = meta.pop('width', None)
+    if w:
+        im = im.resize((w, im.height)); changed = True
+    h = meta.pop('height', None)
+    if h:
+        im = im.resize((im.width, h)); changed = True
+    if meta.pop('contaminate', None):
+        px = im.load()
+        for y in range(0, im.height, 3):
+            for x in range(0, im.width, 3):
+                px[x, y] = (255, 0, 255)
+        changed = True
+    if meta.pop('mode', None):
+        im = im.convert('P'); im.save(path); return
+    if meta.pop('bloat', None):
+        px = im.load()
+        import random
+        random.seed(1)
+        for y in range(im.height):
+            for x in range(im.width):
+                px[x, y] = tuple(min(255, c + random.randint(0, 3)) for c in px[x, y])
+        changed = True
+    if changed:
+        im.save(path)
 
 
 def _verdict(chk, subject, ctx):
@@ -80,6 +112,29 @@ def run(book='a21', verbose=False):
                     mp = os.path.join(tmp, os.path.basename(kpath))
                     open(mp, 'w', encoding='utf-8').write(fn(good_key))
                     ctx._keys[u.num] = M.parse_key(mp); ctx.for_unit(u)
+                elif kind == 'fig':
+                    # mutate the figure sidecars (and, where the mutation names a
+                    # pixel-level fault, the PNG) in a scratch copy of figures/
+                    src = os.path.join(ROOT, 'figures', book)
+                    if not os.path.isdir(src) or not os.listdir(src):
+                        deferred.append((cid, 'fig: no figures rendered')); continue
+                    dst = os.path.join(tmp, 'figures', book)
+                    shutil.rmtree(os.path.join(tmp, 'figures'), ignore_errors=True)
+                    os.makedirs(os.path.dirname(dst), exist_ok=True)
+                    shutil.copytree(src, dst)
+                    ctx.root = tmp
+                    for jf in sorted(os.listdir(dst)):
+                        if not jf.endswith('.json'):
+                            continue
+                        meta = _json.load(open(os.path.join(dst, jf)))
+                        try:
+                            meta = fn(meta) or meta
+                        except Exception:
+                            continue
+                        _apply_png(os.path.join(dst, jf[:-5] + '.png'), meta)
+                        _json.dump(meta, open(os.path.join(dst, jf), 'w'))
+                    # the spec and ledgers still live in the real root
+                    ctx.spec_root = ROOT
                 elif kind == 'ctx':
                     fn(ctx)
                 elif kind in STATIC:

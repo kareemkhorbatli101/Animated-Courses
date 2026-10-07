@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "Tomas finishes",
+   "size": 22,
+   "bbox": [
+    78.6,
+    274.9,
+    260.6,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina opens",
+   "size": 26,
+   "bbox": [
+    350.1,
+    271.8,
+    539.5,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya catches",
+   "size": 24,
+   "bbox": [
+    628.3,
+    244.4,
+    811.7,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the bus",
+   "size": 24,
+   "bbox": [
+    669.1,
+    273.4,
+    770.9,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani starts",
+   "size": 30,
+   "bbox": [
+    901.9,
+    269.5,
+    1088.5,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    1179.4,
+    240.8,
+    1361.4,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "watches",
+   "size": 26,
+   "bbox": [
+    1209.9,
+    271.8,
+    1330.9,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "Five stages of one morning on Alder Street in order, each with an arrow to the next: Tomas finishes a night shift, Amina opens the shop, Maya catches the bus, Dani starts his class, Mr Okonkwo watches from his window.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "192bb875d28aa06221988e8f36d6c54a7f31db4db2239647a29444e5feb37cc0"
+}

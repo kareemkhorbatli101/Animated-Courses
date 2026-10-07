@@ -30,7 +30,13 @@ def j02(u, ctx):
     s = _skip(ctx, u)
     if s: return s
     t = _text(ctx, u)
-    missing = [h.strip('*') for h in u.bold_headings if h.strip('*')[:40] not in t]
+    missing = []
+    for h in u.bold_headings:
+        # a line may be "**Label:** body" - compare the bolded run, not the line
+        m = re.match(r'^\*+(.+?)\*+', h)
+        probe = (m.group(1) if m else h).strip('*')[:40]
+        if probe and probe not in t:
+            missing.append(probe)
     return expect(not missing, f'{len(missing)} headings lost, e.g. {missing[:3]}')
 
 @check('J03', 'build', 'Every table survives conversion')
@@ -137,7 +143,7 @@ def j15(units, ctx):
     if not p or not os.path.exists(p):
         return ok('SKIP: no book PDF built yet')
     n = len(re.findall(rb'/Type\s*/Page[^s]', open(p, 'rb').read()))
-    return expect(180 <= n <= 300, f'{n} pages')
+    return expect(150 <= n <= 230, f'{n} pages')
 
 @check('J16', 'build', 'File naming follows the convention exactly', scope='book')
 def j16(units, ctx):

@@ -23,19 +23,23 @@ def _sect(d):
 def h01(u, ctx):
     s = _skip(ctx, u)
     if s: return s
-    d = _xml(_docx(ctx, u)); m = re.search(r'<w:pgSz w:w="(\d+)" w:h="(\d+)"', _sect(d))
+    d = _sect(_xml(_docx(ctx, u)))
+    m = re.search(r'<w:pgSz\b[^>]*>', d)
+    attrs = dict(re.findall(r'w:(\w+)="(\d+)"', m.group() if m else ''))
     want = ctx.typo['page']['size_twips']
-    return expect(m and (int(m.group(1)), int(m.group(2))) == (want['w'], want['h']),
-                  f'{m.groups() if m else None} want {want}')
+    got = (int(attrs.get('w', 0)), int(attrs.get('h', 0)))
+    return expect(got == (want['w'], want['h']), f'{got} want {(want["w"], want["h"])}')
 
 @check('H02', 'typography.page.margins_twips', 'All four margins == 1440 twips')
 def h02(u, ctx):
     s = _skip(ctx, u)
     if s: return s
-    d = _xml(_docx(ctx, u))
-    m = re.search(r'<w:pgMar w:top="(\d+)" w:right="(\d+)" w:bottom="(\d+)" w:left="(\d+)"', _sect(d))
-    got = tuple(int(x) for x in m.groups()) if m else ()
-    return expect(got == (1440, 1440, 1440, 1440), f'margins {got}')
+    d = _sect(_xml(_docx(ctx, u)))
+    m = re.search(r'<w:pgMar\b[^>]*>', d)
+    a = dict(re.findall(r'w:(\w+)="(-?\d+)"', m.group() if m else ''))
+    want = ctx.typo['page']['margins_twips']
+    got = {k: int(a.get(k, -1)) for k in ('top', 'right', 'bottom', 'left')}
+    return expect(all(got[k] == want[k] for k in got), f'margins {got} want {want}')
 
 @check('H03', 'typography.font.name', 'Default font == Calibri in all four script slots')
 def h03(u, ctx):
@@ -141,7 +145,7 @@ def h12(u, ctx):
         txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', nxt))
         if not txt.startswith('Figure'):
             bad.append(f'figure {i}: next para is {txt[:28]!r}')
-        elif '<w:i/>' not in nxt:
+        elif not re.search(r'<w:i\s*/>', nxt):
             bad.append(f'caption {txt[:24]!r} is not italic')
     return expect(not bad, '; '.join(bad[:5]))
 
@@ -222,7 +226,10 @@ def h21(u, ctx):
     if not p or not os.path.exists(p):
         return ok('SKIP: no PDF built yet')
     n = len(re.findall(rb'/Type\s*/Page[^s]', open(p, 'rb').read()))
-    lo, hi = (16, 24) if u else (180, 300)
+    # The source book is 133 pages for 10 units: 13.3 a unit, measured by
+    # converting it with LibreOffice. An earlier 18-page estimate came from a
+    # different reference.docx with larger type and is superseded.
+    lo, hi = (11, 17) if u else (150, 230)
     return expect(lo <= n <= hi, f'{n} pages, want {lo}-{hi}')
 
 @check('H22', 'build', 'No missing glyph (tofu) anywhere in the rendered PDF')

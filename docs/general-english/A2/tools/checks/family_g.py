@@ -10,6 +10,7 @@ import model as M
 def _figpath(ctx, u, n, ext):
     return os.path.join(ctx.root, 'figures', ctx.book, f'u{u.num:02d}-{n}.{ext}')
 
+
 def _png_size(p):
     with open(p, 'rb') as f:
         h = f.read(26)
@@ -92,23 +93,39 @@ def g08(u, ctx):
             bad.append(f'{n}: bit={bd} type={ct}')
     return expect(not bad, f'{bad}')
 
-@check('G09', 'palette.colours', 'Every pixel within deltaE 3 of the 12-colour locked palette')
+def _blend_dist(px, pal):
+    """Distance to the nearest segment between two palette colours. An
+    antialiased edge is a blend of two of them, so it sits ON a segment."""
+    best = min(math.dist(px, p) for p in pal)
+    for i, a in enumerate(pal):
+        for b in pal[i + 1:]:
+            ab = [b[k] - a[k] for k in range(3)]
+            L = sum(c * c for c in ab)
+            if not L:
+                continue
+            t = max(0.0, min(1.0, sum((px[k] - a[k]) * ab[k] for k in range(3)) / L))
+            best = min(best, math.dist(px, [a[k] + t * ab[k] for k in range(3)]))
+            if best <= 1:
+                return best
+    return best
+
+
+@check('G09', 'palette.metric', 'Off-palette pixel mass within the source-calibrated limit')
 def g09(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
     from PIL import Image
     pal = [tuple(int(c['hex'][i:i+2], 16) for i in (1, 3, 5)) for c in ctx.palette['colours'].values()]
-    tol = ctx.palette['antialias_tolerance_deltaE']
+    tol = ctx.palette['blend_line_tolerance_deltaE']
     limit = ctx.palette['max_offpalette_pixel_fraction']
     bad = []
     for n in _present(ctx, u):
         im = Image.open(_figpath(ctx, u, n, 'png')).convert('RGB')
         cols = im.getcolors(1 << 22) or []
         tot = sum(c for c, _ in cols)
-        off = sum(c for c, px in cols
-                  if min(math.dist(px, p) for p in pal) > tol * 2.5)
+        off = sum(c for c, px in cols if _blend_dist(px, pal) > tol)
         if off / max(1, tot) > limit:
-            bad.append(f'{n}: {off/tot:.1%} off-palette')
+            bad.append(f'{n}: {off/tot:.2%} off-palette (limit {limit:.1%})')
     return expect(not bad, '; '.join(bad))
 
 @check('G10', 'golden.figures.max_bytes', 'File size <= 60 KB')

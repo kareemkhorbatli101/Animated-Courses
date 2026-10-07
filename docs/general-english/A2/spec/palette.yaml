@@ -13,5 +13,19 @@ colours:
   grey:            {hex: "#9AA6B2", share: 0.0019, role: secondary grey}
   accent:          {hex: "#009688", share: 0.0015, role: the single accent - ticks, arrows}
   brown:           {hex: "#8A5A3B", share: 0.0013, role: leather, dark wood}
+# Calibrated against the source's own 40 figures, not guessed.
+#
+# Measuring each pixel's distance to the NEAREST PALETTE COLOUR fails the source
+# book itself: up to 3.6% of a source figure's pixels sit that far out, because
+# every antialiased edge is a blend of two palette colours and lands between them.
+#
+# Measuring distance to the nearest LINE BETWEEN TWO PALETTE COLOURS tolerates
+# those blends and still catches a foreign hue. Worst source figure under that
+# metric: 1.197%. Worst of this course's figures: 0.000%. The limit is set at
+# 1.5% - above the source, far below anything an off-palette colour produces.
+metric: distance_to_nearest_palette_blend_line
+blend_line_tolerance_deltaE: 12
+max_offpalette_pixel_fraction: 0.015
+source_worst_measured: 0.01197
+# kept for the cover check, which has no antialiasing budget to speak of
 antialias_tolerance_deltaE: 3
-max_offpalette_pixel_fraction: 0.025
