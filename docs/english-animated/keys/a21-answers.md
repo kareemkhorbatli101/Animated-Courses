@@ -501,3 +501,214 @@ The second — stress on **SELANGOR** — is the accusation. Contrastive stress 
 **12A** · Recycle — ten items
 1 is grown · 2 was built · 3 in · 4 born · 5 up · 6 to buy · 7 waiting · 8 rains · 9 used · 10 are
 
+
+---
+
+## A2.1 · Unit 8 · Two Metres From the Stall
+
+**0B** · Guess it
+The handwash basin is two metres away behind a stack of crates; the drain cover is pushed aside; and nobody on the row is wearing gloves. **Would any of them hurt anybody?** The handwash would — the inspector's argument in 5B is that distance turns washing from automatic into a decision. The drain is a smell rather than a risk, and the gloves are the one most people assume matters and the inspector does not.
+
+**1B** · Sort — a thing, a rule, or a consequence?
+> **a rule** — forbidden · licence · inspection
+> **a consequence** — warning · fine
+> **a thing** — gloves · soap · helmet · knife · mask
+**The one in two columns:** *warning*. It is a consequence — what happens after a failure — and it is also a rule, in the sense of a notice telling you what not to do. *(Accept* inspection *as a rule and a consequence for the same reason.)*
+
+**2A** · The inspection 🔊 Track 8.1
+**1** a) one · **2** b) doesn't have to · **3** b) recommended · **4** a) nothing, this time
+**Table** — Handwash: within one metre; it is 2.1 m; seven days to move it. Gloves: available for staff; they are available and nobody wears them; pass, no action. Drain: cover in place; displaced; thirty days.
+
+**Noticing** — **Absolute:** 1 (*You have to move it*) and 4 (*You're not allowed to serve*). **Room:** 2 (*You're supposed to wear gloves*) and 3 (*You don't have to close*).
+
+**3D** · Use — controlled
+1 have to wash · 2 are supposed to wear · 3 are not allowed to serve · 4 do not have to close · 5 should move · 6 up
+
+**3E** · Use — guided
+1 You're supposed to wear gloves.  
+2 You're not really meant to park here.  
+3 You ought to report it the same day.  
+4 Smoking isn't allowed. *(or* You're not supposed to smoke.*)*  
+5 You shouldn't leave the knife out.
+
+**5C** · Answer
+1 Because a stall that is clean on Tuesday because she said she was coming on Tuesday tells her nothing. She wants to see the ordinary day.  
+2 Handwash in the wrong place — because somebody moved it to make room for a crate in 2019 and nobody moved it back.  
+3 At one metre the basin is in the way, so you wash your hands between the money and the food without deciding to. At three metres you have to decide, and nobody decides forty times an hour.  
+4 Until the end of the month.  
+5 About twice a year, and both times for something she could smell from the aisle.  
+6 She writes it down. About a third of the time they are right, and nobody reads it.
+
+**5D** · Vocabulary in context
+**the ordinary day** — the stall as it is when nobody is watching · **paperwork** — rules with no purpose behind them, which she is denying · **in the way** — physically between you and what you are doing, which is the whole argument · **from the aisle** — without going in; a measure of how bad it was · **about a third of the time** — the proportion of complaints she thinks are justified
+
+**5E** · The counter-text
+1 Seven items; three require action — handwash, boards washed two-hourly, and the drain cover.  
+2 Handwash: seven days. Boards and drain: thirty days. A first missed deadline is a 400 fine; a second re-grades the stall to C, which requires closure.  
+3 Grade B: satisfactory, with items requiring action. Grade A is where nothing requires action; Grade C requires closure.  
+4 Box 7, staff gloves. It was ticked and crossed out, with "Available, not worn" written beside it — so the stall passes the rule and fails the thing the rule was for.
+
+**6A** · Sort — how strong?
+**Strongest → weakest:** must · be not allowed to · have to *(implied by *must*)* · need · you'd better · ought · should · be supposed to · it's up to you.  
+*The useful argument is where to put **you'd better**: it is weak in form and strong in use, because it carries a consequence the speaker is not stating.*
+
+**6B** · Chunk completion
+1 to · 2 to · 3 to · 4 to · 5 need · 6 better
+
+**6C** · Two that are not opposites
+1 mustn't · 2 don't have to · 3 mustn't · 4 don't have to  
+**The difference in one sentence:** *mustn't* forbids the action; *don't have to* removes the obligation and leaves you free to do it or not.
+
+**6D** · Contrast Clinic — which form
+> **1** don't have to *(or* it's up to you*)*
+> **2** are supposed
+> **3** don't need to *(or* needn't*)*
+> **4** must / have to
+> **5** mustn't *(or* are not allowed to*)*
+> **6** 'd better *(or* should*)*
+
+**7C** · Make it mean something
+*You're SUPPOSED to* is a colleague's sentence: the stress on *supposed* concedes that the rule exists and is not being followed, which only somebody inside the row can say. *You HAVE to* is the inspector's: it states an obligation and closes the conversation.
+
+**12A** · Recycle — ten items
+1 are not allowed to · 2 supposed · 3 have · 4 hands · 5 than · 6 is grown · 7 was built · 8 to replace · 9 who / that · 10 must
+
+
+---
+
+## A2.1 · Unit 9 · Free Wifi, Nine Cameras
+
+**0B** · Guess it
+The one on the corner of the cold store. It is angled down and inward, at the staff door and the cash tin on the shelf beside it — not at the aisle, not at the gate, and not at anything a customer would walk past. Everybody assumes the cameras watch shoppers; that one watches the people who work there.
+
+**1B** · Sort — something you do, or something done to you?
+> **something done to you** — data · record · access · privacy · track
+> **something you do** — follow · share · sign up · delete · block
+**The two that switch:** *follow* and *share*. You follow somebody and you are followed; you share something and your data is shared. The word does not change and the person holding the phone decides which it is.
+
+**2A** · The offer 🔊 Track 9.1
+**1** T · **2** F · **3** F · **4** T
+**Table** — The cameras: they say the cameras count people; they do not say they also collect device identifiers, dwell time and direction of travel. The wifi: they say it is free; they do not say the term is five years with no notice before year five. The data: they say the market gets a monthly summary; they do not say the supplier owns all of it and may share it with commercial partners.
+
+**Noticing** — **A limit:** 1 (*too expensive*) and 2 (*not enough money*). **A strong feeling:** 3 (*so many*) and 4 (*such a simple system*).
+
+**3D** · Use — controlled
+1 too · 2 too · 3 what · 4 enough · 5 such · 6 carefully
+
+**3E** · Use — guided
+1 too · 2 too many · 3 enough · 4 such · 5 enough · 6 too
+
+**5C** · Answer
+1 On 3 March 2011, above the gate. Nobody — the committee was not told.  
+2 Counting vehicles.  
+3 How a camera counts vehicles without recording. It is a good question because it shows the two answers cannot both be true, and it needs no technical knowledge to ask.  
+4 What is recorded, how long it is kept, and who can see it.  
+5 Carried seven votes to one. Mr Chin voted against, saying the committee had more important things to do and nobody was interested in a market gate.  
+6 That no reply was ever recorded; that the cameras were removed in 2014 during the roof works and never reinstalled; and that the letter is in box 11 and **was never sent**. The minutes record a decision that was never carried out.
+
+**5D** · Vocabulary in context
+**the proposal was carried** — the vote passed it · **voted against** — was the one vote on the other side · **action** — the item recording who must do what, which is the only part of a minute that does anything · **reinstalled** — put back, which these never were · **the archivist's note** — a later addition saying what actually happened
+
+**5E** · The counter-text
+1 Thirty-six months, and the supplier owns it. The market may request an aggregated monthly summary.  
+2 Four streams: footfall count, dwell time, direction of travel, and device identifiers. And *footfall* is not further defined in the agreement.  
+3 It gets the installation and five years of network at nil cost. It gives all the data, ownership of it, and five years with no notice before year five.  
+4 Clause 11, set in smaller type: "The supplier may share collected data with commercial partners. A list of current partners is available on request."
+
+**6A** · Sort — adjective or adverb?
+> **both** — hard · well · fast
+> **adjective** — loud · quick · slow · bad · clear · good · careful · quiet
+> **adverb** — badly · loudly · quickly · quietly · slowly · carefully · clearly
+**The ones in both:** *hard* and *fast* keep the same form as adverbs (*work hard*, *drive fast*). *well* is the adverb of *good* and is also an adjective meaning *healthy* (*I am well*), which is the third one most classes miss.
+
+**6B** · Chunk completion
+1 too · 2 nearly · 3 Too · 4 too · 5 enough · 6 slow
+
+**6C** · The adverbs that do not take -ly
+1 She works very **hard**. · 2 He drives too **fast**. · 3 The system works very **well**. · 4 **Already correct.** · 5 He answered **quickly**.
+
+**6D** · Contrast Clinic — too, so, such or enough
+> **1** too
+> **2** enough
+> **3** so
+> **4** enough
+> **5** too
+> **6** such
+
+**7C** · Make it mean something
+Impressed: the vowel in *so* is long and rising, and the sentence ends high — it is close to a compliment. Appalled: *so* is shorter and falls, with a slight pause before *many*, and the sentence ends low. The words are identical, and the market would hear the difference immediately.
+
+**12A** · Recycle — ten items
+1 too · 2 too · 3 enough · 4 such · 5 well · 6 supposed · 7 are not allowed to · 8 is grown · 9 to buy · 10 bigger
+
+
+---
+
+## A2.1 · Unit 10 · Three People Who Cannot Read the Notice
+
+**0B** · Guess it
+Mei Ling and Mr Tan. Mei Ling is the one the three traders at the back keep glancing at; Mr Tan is the one with his chair turned slightly out of the circle, which is where the person who will have to decide sits. The one holding the agenda is the secretary, who will write down whatever the other two settle.
+
+**1B** · Sort — before, during, or after?
+> **all three** — opinion
+> **before** — agenda · suggestion
+> **after** — minutes · decision
+> **during** — argument · vote · meeting
+**The one at all three stages:** *opinion*. **Before:** you arrive with one. **During:** you give one, and it changes. **After:** you have one about what was decided, and that is the one that decides whether the decision holds.
+
+**2A** · The vote on Thursday 🔊 Track 10.1
+**1** b) last week · **2** c) not at all · **3** a) as a question · **4** b) postponed
+**Table** — Mr Tan wants the vote taken and over; he says the notice was up for fifteen days; nobody answers him, which is the problem. Mei Ling wants somebody to have told the three traders; she asks whether anybody went and told them; Mr Tan answers her. Farah wants the vote postponed; she says nothing at all; nobody answers somebody who has not spoken.
+
+**Noticing** — **Tags:** 1 and 2. **Indirect questions:** 3 and 4. The indirect pair **sounds softer**; the tag pair is **harder to answer**, because a tag asks for agreement and leaves only yes or an argument.
+
+**3D** · Use — controlled
+1 didn't you · 2 have they · 3 when it went up · 4 if everybody can read it · 5 shouldn't we · 6 am I
+
+**3E** · Use — guided
+1 aren't you · 2 has she · 3 didn't they · 4 is it · 5 can't we · 6 did they
+
+**5C** · Answer
+1 On 3 June, on the board by the office, for fifteen days.  
+2 Three. Two read no English at all and one reads very little.  
+3 Whether anybody went and told them. Not whether the notice was legal, and not whether the vote should be postponed.  
+4 She is not asking them to postpone.  
+5 He admits nobody did and that he did not think of it; he postpones the vote to the 24th; and he says he will go to all three personally, with the notice read aloud at the start of the next three meetings.  
+6 Not because the rule was broken — it was not, the notice was up for fifteen days against fourteen required. He postpones because he does not want to discover afterwards that three people were voted about rather than voted with.
+
+**5D** · Vocabulary in context
+**that is not my point** — a refusal to be answered on the wrong question · **postpone** — move to a later date · **personally** — in person, by the manager himself, which is the whole repair · **the alternative** — what happens if you do not · **I would rather not find out** — he does not want to learn afterwards what he could learn now
+
+**5E** · The counter-text
+1 From 1 August the market opens at 05.00 instead of 04.00, except the fish and ice bays, which may open at 04.30 if they apply in writing.  
+2 Object in writing to the office, within fourteen days of posting — by **17 June**. The vote is on 18 June, so there is one day between the deadline and the vote.  
+3 Two hundred and six words, and one sentence of forty-one — which is well above what the notice needs to be and is the sentence carrying the only thing a fish trader has to act on.  
+4 The proposed rule. **Rewritten as three:** *From 1 August the market will open at 05.00, not 04.00. The fish and ice bays may open at 04.30. To do that, apply in writing to the office at least fourteen days before you want to start.*
+
+**6A** · Sort — how direct?
+**Most direct → least:** *Tell me when it went up.* · *When did it go up?* · *Do you know when it went up?* · *Could you tell me when it went up?* · *I was wondering when it went up.*
+
+**6B** · Chunk completion
+1 tell · 2 whether / if · 3 mind · 4 wondering · 5 shouldn't · 6 aren't
+
+**6C** · The softeners
+1 **Sorry** — costs you a little standing; you are apologising for taking the floor back.  
+2 **actually** — costs you the appearance of agreement you had until that word.  
+3 **Perhaps** — costs you authorship of the idea; it becomes a thought in the room rather than yours.  
+4 **Could** — costs you the right to simply speak; you have asked permission and can be refused.  
+5 **might** — costs you the claim; if it turns out to be wrong you never said it was right.
+
+**6D** · Contrast Clinic — tag or indirect question
+> **1** *I was wondering whether we should look at it the other way round.* — an indirect question, because it can be declined without anybody losing.
+> **2** *Do you know if the meeting is still going ahead?* — indirect, neutral, no assumption.
+> **3** *It's the 24th, isn't it?* — a tag, because you are checking rather than asking.
+> **4** *Could you tell me when it was posted?* — the politest indirect form, for somebody who owes you nothing.
+> **5** *Sorry — could I just ask something?* — a softener plus a request, because an interruption needs permission.
+> **6** *Nobody told them, did they?* — a tag, because it asks for agreement and the only honest answer is no.
+
+**7C** · Make it mean something
+The third — falling, with a pause before the tag — is not asking and not accusing. It is giving the other person a moment to say it themselves. In the recording it is the one that works: Mr Tan answers *nobody did* into the pause, before the tag has finished arriving.
+
+**12A** · Recycle — ten items
+1 didn't you · 2 have they · 3 where · 4 say · 5 wondering · 6 too · 7 too · 8 supposed · 9 rains · 10 does
+
