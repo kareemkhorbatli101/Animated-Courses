@@ -48,6 +48,9 @@ people:
       - opens every day except Sunday
       - closes at six, and at two on Saturday
       - knows almost everybody in the street
+      - keeps a notebook under the till for people who pay on Friday
+      - has a son who thinks the notebook should stop
+      - sells no meat, because there is no room for a fridge
     first_unit: 1
   Dani:
     full: Dani Rossi
@@ -92,6 +95,7 @@ people:
 walk_ons:
   - {name: Jun, unit: 1, country: South Korea}
   - {name: Clara, unit: 2, country: Brazil}
+  - {name: the sellers of Fez, unit: 4, country: Morocco}
 
 places:
   - Alder Street

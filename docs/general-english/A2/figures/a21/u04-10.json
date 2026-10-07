@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "Europe",
+   "size": 32,
+   "bbox": [
+    216.5,
+    217.2,
+    343.5,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bread, butter and",
+   "size": 26,
+   "bbox": [
+    165.6,
+    269.1,
+    394.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "something sweet",
+   "size": 26,
+   "bbox": [
+    168.5,
+    301.1,
+    391.5,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Japan",
+   "size": 32,
+   "bbox": [
+    669.6,
+    217.2,
+    770.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "rice, as normal at eight as",
+   "size": 26,
+   "bbox": [
+    549.8,
+    269.1,
+    890.2,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at night",
+   "size": 26,
+   "bbox": [
+    669.4,
+    301.1,
+    770.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Egypt",
+   "size": 32,
+   "bbox": [
+    1108.1,
+    217.2,
+    1211.9,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "beans with oil and bread",
+   "size": 26,
+   "bbox": [
+    999.5,
+    269.1,
+    1320.5,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The first meal of the day in three places: bread, butter and something sweet in much of Europe; rice in Japan, as normal at eight in the morning as at night; and beans with oil and bread in Egypt.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "9e9c4091cdeac4390e96bb6e2265f3ef3533fab1ac4781df08f0312fe90adbc1"
+}

@@ -559,6 +559,38 @@ def progress_strip(lines, height=520, alt=''):
     return f
 
 
+def counter(f: Fig, x, y, w, h):
+    """A shop counter from the front: basket, till, receipt, change, bag."""
+    top = y + h * 0.46
+    f.rect(x + 40, top, w - 80, h * 0.40, fill=P['tan'], stroke=P['ink'], r=8)
+    f.rect(x + 40, top, w - 80, 18, fill=P['tand'], stroke=P['ink'], r=4)
+    # basket
+    f.rect(x + w * 0.08, top - 74, 118, 70, fill=P['blue'], stroke=P['ink'], r=10)
+    for k in range(4):
+        f.line(x + w * 0.08 + 22 + k * 24, top - 70, x + w * 0.08 + 22 + k * 24,
+               top - 8, stroke=P['ink'], sw=3)
+    # till
+    f.rect(x + w * 0.30, top - 96, 134, 92, fill=P['card'], stroke=P['ink'], r=8)
+    f.rect(x + w * 0.30 + 18, top - 82, 98, 32, fill=P['deep'], stroke=P['ink'], r=4)
+    for r_ in range(2):
+        for c_ in range(4):
+            f.rect(x + w * 0.30 + 20 + c_ * 24, top - 42 + r_ * 18, 16, 12,
+                   fill=P['grey'], stroke=P['ink'], r=2, sw=2)
+    # receipt
+    f.rect(x + w * 0.54, top - 104, 74, 108, fill=P['bg'], stroke=P['ink'], r=4)
+    for k in range(5):
+        f.line(x + w * 0.54 + 12, top - 88 + k * 18, x + w * 0.54 + 62,
+               top - 88 + k * 18, stroke=P['rule'], sw=3)
+    # change
+    for k in range(3):
+        f.circle(x + w * 0.72 + k * 34, top - 26, 20, fill=P['tanl'], sw=3)
+    # bag
+    f.rect(x + w * 0.86, top - 92, 104, 92, fill=P['card'], stroke=P['ink'], r=6)
+    f.path(f'M {x + w * 0.86 + 26:.1f} {top - 92:.1f} L {x + w * 0.86 + 34:.1f} '
+           f'{top - 120:.1f} L {x + w * 0.86 + 70:.1f} {top - 120:.1f} '
+           f'L {x + w * 0.86 + 78:.1f} {top - 92:.1f}')
+
+
 def streetscape(f: Fig, x, y, w, h):
     """A street from the side: a bridge over it, traffic, a crossing, a bench,
     a market. The object Unit 3's label-me figure asks the learner to name."""

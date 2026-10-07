@@ -53,12 +53,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "Three units \u00b7 Core and Plus tracks",
+   "text": "Four units \u00b7 Core and Plus tracks",
    "size": 54,
    "bbox": [
-    723.6,
+    742.7,
     2580.2,
-    1756.4,
+    1737.3,
     2627.8
    ],
    "fill": "#6E88AC",
@@ -90,7 +90,7 @@
   }
  ],
  "alt": "Front cover of English for Daily Life A2 volume 1, Everyday Life. A band of flat illustrations in blue and tan over a pale panel, with the series name, the volume title and the level.",
- "sha256": "7fb2ea08daab59c64b6795d3ec8072d7d1d57d92ca75aa00c9df528f556f07e4",
+ "sha256": "3683f8f35bb1dacbe52e6499ce42574eb99809d4c8e4a0f01fb30d9683c65b9b",
  "theme": "a21",
  "volume": 1,
  "title": "Everyday Life",

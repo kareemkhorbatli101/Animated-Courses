@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  67,
+  23.4,
+  1373,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    59.7,
+    143.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you cook, how often",
+   "size": 30,
+   "bbox": [
+    190,
+    61.3,
+    632.1,
+    87.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani cooks rice three times a week.",
+   "size": 26,
+   "bbox": [
+    670,
+    61.6,
+    1135.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    169.2,
+    143.1,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A lot of",
+   "size": 30,
+   "bbox": [
+    190,
+    170.8,
+    313.0,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "He needs a lot of rice.",
+   "size": 26,
+   "bbox": [
+    670,
+    171.2,
+    956.2,
+    194.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    278.8,
+    143.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A few and a little",
+   "size": 30,
+   "bbox": [
+    190,
+    280.3,
+    479.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a few onions and a little oil",
+   "size": 26,
+   "bbox": [
+    670,
+    280.6,
+    1020.7,
+    304.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    388.3,
+    143.1,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who eats it, and where",
+   "size": 30,
+   "bbox": [
+    190,
+    389.8,
+    583.3,
+    416.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "He eats it on the floor with the radio on.",
+   "size": 26,
+   "bbox": [
+    670,
+    390.2,
+    1191.7,
+    413.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the paragraph the learner is about to write, in four steps: what you cook and how often, what you need a lot of, what you need a few and a little of, and who eats it and where.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "ada5bb83c05c7a1a3a9c2400b1799f69c47f162c09d54c762b78a94aa736451d"
+}

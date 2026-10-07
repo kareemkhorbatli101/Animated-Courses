@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 4.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Amina",
+   "size": 32,
+   "bbox": [
+    124.2,
+    287.0,
+    409.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "in the corner shop again",
+   "size": 26,
+   "bbox": [
+    107.9,
+    356.9,
+    425.4,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 4.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and the stallholder",
+   "size": 28,
+   "bbox": [
+    531.7,
+    290.1,
+    908.3,
+    314.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at the market",
+   "size": 26,
+   "bbox": [
+    631.2,
+    356.9,
+    808.8,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 4.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "five people, five baskets",
+   "size": 26,
+   "bbox": [
+    1015.0,
+    356.9,
+    1331.6,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Dani and Amina in the corner shop, Yuki buying from a stallholder at the market, and Amina on what five baskets tell her about five people.",
+ "placed_in": [
+  6.270833333333333,
+  2.0625
+ ],
+ "sha256": "4474447be58ec52b12e08044c9420ebce0cba929c7a46fa2055075cb56d90dd2"
+}

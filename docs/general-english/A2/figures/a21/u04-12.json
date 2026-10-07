@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "How much is this?",
+   "size": 28,
+   "bbox": [
+    217.2,
+    60.7,
+    502.8,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking the price",
+   "size": 28,
+   "bbox": [
+    977.7,
+    60.7,
+    1232.3,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Have you got any rice?",
+   "size": 28,
+   "bbox": [
+    179.5,
+    175.7,
+    540.5,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking whether the shop has something",
+   "size": 22,
+   "bbox": [
+    855.9,
+    179.6,
+    1354.1,
+    199.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I think the change is wrong.",
+   "size": 28,
+   "bbox": [
+    138.4,
+    290.7,
+    581.6,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying there is a problem, carefully",
+   "size": 24,
+   "bbox": [
+    864.5,
+    293.1,
+    1345.5,
+    314.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Could I have a bag, please?",
+   "size": 28,
+   "bbox": [
+    143.7,
+    405.7,
+    576.3,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking politely for something",
+   "size": 28,
+   "bbox": [
+    873.0,
+    405.7,
+    1337.0,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things you say in a shop, each with an arrow to what it does: asking the price, asking whether the shop has something, saying there is a problem carefully, and asking politely for something.",
+ "placed_in": [
+  6.270833333333333,
+  2.15625
+ ],
+ "sha256": "264a4fe8d86c384b77bc6e45b0b978f67a9487af99cba0d42fb27c1aeec17d4c"
+}

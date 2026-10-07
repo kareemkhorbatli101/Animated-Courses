@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  560
+ ],
+ "bounds": [
+  74.0,
+  27.8,
+  1366.0,
+  532.7
+ ],
+ "texts": [
+  {
+   "text": "Bread",
+   "size": 34,
+   "bbox": [
+    223.5,
+    187.5,
+    336.5,
+    217.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "by the door",
+   "size": 28,
+   "bbox": [
+    199.2,
+    228.2,
+    360.8,
+    252.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Milk",
+   "size": 34,
+   "bbox": [
+    680.1,
+    187.5,
+    759.9,
+    217.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the fridge",
+   "size": 28,
+   "bbox": [
+    651.6,
+    228.2,
+    788.4,
+    252.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Rice",
+   "size": 34,
+   "bbox": [
+    1119.5,
+    187.5,
+    1200.5,
+    217.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the second aisle",
+   "size": 28,
+   "bbox": [
+    1045.9,
+    228.2,
+    1274.1,
+    252.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tea",
+   "size": 34,
+   "bbox": [
+    247.7,
+    467.5,
+    312.3,
+    497.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "next to the coffee",
+   "size": 28,
+   "bbox": [
+    155.4,
+    508.2,
+    404.6,
+    532.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tins",
+   "size": 34,
+   "bbox": [
+    680.4,
+    467.5,
+    759.6,
+    497.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the back shelf",
+   "size": 28,
+   "bbox": [
+    621.2,
+    508.2,
+    818.8,
+    532.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Onions",
+   "size": 34,
+   "bbox": [
+    1093.7,
+    467.5,
+    1226.3,
+    497.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a basket by the door",
+   "size": 28,
+   "bbox": [
+    1015.2,
+    508.2,
+    1304.8,
+    532.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "What Amina sells and where it is: bread by the door, milk in the fridge, rice in the second aisle, tea next to the coffee, tins on the back shelf, and a basket of onions by the door.",
+ "placed_in": [
+  5.09375,
+  1.9791666666666667
+ ],
+ "sha256": "3f67bfe70a119edf9906644fdc0647f6016deb9ced6e3471844a5938bfb560ef"
+}

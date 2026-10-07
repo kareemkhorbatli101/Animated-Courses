@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the customer",
+   "size": 34,
+   "bbox": [
+    150.2,
+    58.2,
+    589.8,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask the price",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    343.0,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask for an amount",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    426.1,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask for one more thing",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    498.7,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "pay and take the change",
+   "size": 26,
+   "bbox": [
+    138.0,
+    317.7,
+    500.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the stallholder",
+   "size": 34,
+   "bbox": [
+    837.0,
+    58.2,
+    1303.0,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "give a price",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1022.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask how much or how many",
+   "size": 24,
+   "bbox": [
+    838.0,
+    207.3,
+    1213.5,
+    228.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "add up",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    946.7,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the change and the",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1221.8,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "receipt",
+   "size": 28,
+   "bbox": [
+    838.0,
+    350.9,
+    949.4,
+    375.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, the customer: ask the price, ask for an amount, ask for one more thing, pay and take the change. Card B, the stallholder: give a price, ask how much or how many, add up, give the change and the receipt.",
+ "placed_in": [
+  6.270833333333333,
+  2.2083333333333335
+ ],
+ "sha256": "6f4e8ee4f3b82813711dd6fd5ce198e8ebe3384eadba969b3ffc561b204120eb"
+}

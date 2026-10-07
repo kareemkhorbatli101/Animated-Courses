@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "The old market",
+   "size": 34,
+   "bbox": [
+    220.2,
+    67.8,
+    509.8,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you ask, they say a number",
+   "size": 27,
+   "bbox": [
+    176.9,
+    282.5,
+    553.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a neighbour pays less",
+   "size": 27,
+   "bbox": [
+    217.2,
+    328.5,
+    512.8,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the talking is the point",
+   "size": 27,
+   "bbox": [
+    212.3,
+    374.5,
+    517.7,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The big shop",
+   "size": 34,
+   "bbox": [
+    981.7,
+    67.8,
+    1228.3,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a label on everything",
+   "size": 27,
+   "bbox": [
+    961.5,
+    282.5,
+    1248.5,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the same price for everybody",
+   "size": 27,
+   "bbox": [
+    905.2,
+    328.5,
+    1304.8,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "faster, and nothing to say",
+   "size": 27,
+   "bbox": [
+    930.6,
+    374.5,
+    1279.4,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "The old market and the big shop. In the market you ask and they say a number, a neighbour pays less, and the talking is the point. In the big shop there is a label on everything, the same price for everybody, and it is faster with nothing to say.",
+ "placed_in": [
+  6.270833333333333,
+  1.9166666666666667
+ ],
+ "sha256": "9255d842a8fbd2fa24944bf5d970ad93208299ad1127a45db619c297b7cf3f38"
+}

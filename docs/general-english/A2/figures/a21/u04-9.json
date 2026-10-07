@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "on the farm",
+   "size": 28,
+   "bbox": [
+    77.1,
+    271.0,
+    262.1,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "to the market",
+   "size": 24,
+   "bbox": [
+    352.0,
+    273.4,
+    537.6,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "to the shop",
+   "size": 30,
+   "bbox": [
+    623.4,
+    269.5,
+    816.6,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "in the basket",
+   "size": 26,
+   "bbox": [
+    899.0,
+    271.8,
+    1091.4,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "on the table",
+   "size": 28,
+   "bbox": [
+    1174.5,
+    271.0,
+    1366.3,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "Food in five stages from the field to the table, each with an arrow to the next: grown, to the market, to the shop, into the basket, and on the table.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "1152e3fbfe68c7b3ef9aaa5c3bfa68ef8124aa7acd7dfddc3888c3a1278d5409"
+}
