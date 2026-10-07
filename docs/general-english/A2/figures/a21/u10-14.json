@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  433
+ ],
+ "bounds": [
+  57,
+  21.5,
+  1383,
+  411.4
+ ],
+ "texts": [
+  {
+   "text": "I can tell somebody how to make or repair something",
+   "size": 28,
+   "bbox": [
+    156,
+    46.2,
+    1000.5,
+    70.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use first, then, after that and finally in order",
+   "size": 28,
+   "bbox": [
+    156,
+    126.1,
+    947.3,
+    150.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can say how to do something, using adverbs",
+   "size": 28,
+   "bbox": [
+    156,
+    206.1,
+    880.2,
+    230.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can write instructions in 50\u201370 words",
+   "size": 28,
+   "bbox": [
+    156,
+    286.1,
+    767.9,
+    310.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can teach somebody a job one step at a time",
+   "size": 28,
+   "bbox": [
+    156,
+    366.1,
+    886.1,
+    390.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "PLUS",
+   "size": 22,
+   "bbox": [
+    1266.9,
+    370.1,
+    1330.0,
+    390.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each, the last one marked Plus.",
+ "placed_in": [
+  6.270833333333333,
+  1.8854166666666667
+ ],
+ "sha256": "a104b3c1d4220d8c862eb71f34cfef148f9f0dcb1a34addbe656a7fc314022ed"
+}

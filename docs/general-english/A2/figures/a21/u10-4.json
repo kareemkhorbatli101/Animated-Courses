@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   190.4,
+   207.9,
+   846,
+   45.3
+  ],
+  [
+   312.0,
+   264.3,
+   846,
+   155.3
+  ],
+  [
+   468.8,
+   301.9,
+   846,
+   265.3
+  ],
+  [
+   622.4,
+   330.1,
+   846,
+   375.3
+  ],
+  [
+   705.6,
+   367.7,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "A work surface seen from above, with the things laid out in the order they are used: a bowl, a spoon, the work itself with one layer over another, a tube of glue and a brush. Five numbered lines run to the right for the learner to write each word.",
+ "placed_in": [
+  6.270833333333333,
+  2.3125
+ ],
+ "sha256": "a3d3e5f0a5696b3a8f2f47da4b5a159878acd7f8918535015edf6e4a9d9d2212"
+}

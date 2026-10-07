@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "a flat-pack box",
+   "size": 32,
+   "bbox": [
+    146.0,
+    217.2,
+    414.0,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no words at all, only diagrams",
+   "size": 22,
+   "bbox": [
+    113.9,
+    272.2,
+    446.1,
+    292.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a recipe",
+   "size": 32,
+   "bbox": [
+    647.6,
+    217.2,
+    792.4,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "every thing first, in a list",
+   "size": 26,
+   "bbox": [
+    560.7,
+    269.1,
+    879.3,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a safety card",
+   "size": 32,
+   "bbox": [
+    1042.2,
+    217.2,
+    1277.8,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "symbols, for somebody",
+   "size": 26,
+   "bbox": [
+    1008.5,
+    269.1,
+    1311.5,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "frightened",
+   "size": 26,
+   "bbox": [
+    1092.4,
+    301.1,
+    1227.6,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three kinds of instruction and who each one is for: a flat-pack box with no words at all, only diagrams; a recipe that puts every thing first in a list; and a safety card of symbols, for somebody frightened and in a hurry.",
+ "placed_in": [
+  6.270833333333333,
+  1.71875
+ ],
+ "sha256": "5e9c2c2e1e4964d5563d4c21566aad1209c994771b2094e918151fd3c14bcbf2"
+}

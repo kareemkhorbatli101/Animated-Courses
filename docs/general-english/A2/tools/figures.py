@@ -255,6 +255,15 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         L(-22, -16, 22, -16, stroke=P['tand'], sw=4)       # the next numbers
         L(-22, -16, -14, -22, stroke=P['tand'], sw=4)
         L(22, -16, 14, -10, stroke=P['tand'], sw=4)
+    elif name == 'slab':
+        R(-46, -24, 92, 48, fill=P['grey'], r=4)           # one poured surface
+        L(-46, 0, 46, 0, stroke=P['rule'], sw=3)
+    elif name == 'stones':
+        for row in range(3):                               # small cubes, laid
+            for col in range(4):
+                dark = (row + col) % 2 == 0
+                R(-46 + col * 24, -26 + row * 18, 20, 14,
+                  fill=P['ink'] if dark else P['card'], r=2, sw=2)
     elif name == 'tree':
         L(0, 8, 0, 40, stroke=P['tand'], sw=7)             # the trunk
         C(0, -6, 26, fill=P['tanl'])
@@ -633,6 +642,35 @@ def street_plan(f: Fig, x, y, w, h):
     f.rect(x + w * 0.84, rb, w * 0.12, h * 0.19, fill=P['card'], stroke=P['ink'], r=6)
     f.rect(x + w * 0.84, rb + h * 0.19, w * 0.12, h * 0.19, fill=P['deep'],
            stroke=P['ink'], r=6)
+
+
+def work_surface(f: Fig, x, y, w, h):
+    """A bench from above, the things laid out in the order they are used. Each
+    one sits a little lower than the one to its left, so the hit points run down
+    as they run right and label_me's leaders fan out instead of crossing."""
+    f.line(x + 40, y + h * 0.16, x + w - 40, y + h * 0.20, stroke=P['rule'], sw=4)
+    # the bowl, first and highest
+    f.circle(x + w * 0.11, y + h * 0.38, h * 0.13, fill=P['card'], sw=4)
+    f.circle(x + w * 0.11, y + h * 0.38, h * 0.08, fill=P['tand'], sw=3)
+    # the spoon: a round head over a handle
+    f.rect(x + w * 0.29, y + h * 0.46, 15, h * 0.28, fill=P['grey'],
+           stroke=P['ink'], r=7)
+    f.circle(x + w * 0.29 + 7, y + h * 0.42, h * 0.08, fill=P['grey'], sw=3)
+    # the work: one layer laid over another
+    f.rect(x + w * 0.44, y + h * 0.42, w * 0.17, h * 0.30, fill=P['card'],
+           stroke=P['ink'], r=4)
+    f.rect(x + w * 0.47, y + h * 0.47, w * 0.17, h * 0.30, fill=P['tanl'],
+           stroke=P['ink'], r=4)
+    # the glue: a tube with a pointed top
+    f.rect(x + w * 0.755, y + h * 0.50, w * 0.06, h * 0.28, fill=P['blue'],
+           stroke=P['ink'], r=6)
+    f.rect(x + w * 0.77, y + h * 0.42, w * 0.03, h * 0.09, fill=P['deep'],
+           stroke=P['ink'], r=3)
+    # the brush, last and lowest: a handle with a dark head
+    f.rect(x + w * 0.90, y + h * 0.46, 14, h * 0.24, fill=P['tand'],
+           stroke=P['ink'], r=5)
+    f.rect(x + w * 0.893, y + h * 0.68, 26, h * 0.12, fill=P['ink'],
+           stroke=P['ink'], r=4)
 
 
 def compare_pair(f: Fig, x, y, w, h):

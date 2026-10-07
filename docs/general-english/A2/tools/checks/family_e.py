@@ -322,9 +322,14 @@ def e25(u, ctx):
     # Three shapes, not one: the old pattern required the auxiliary to sit against
     # the participle and knew nothing of modal or gerund passives, so `is often
     # made`, `can be found` and `without being asked` all read as clean.
-    PATS = (r'\b(?:is|are|was|were)\s+(?:not|never|often|usually|always|still|also|only)?\s*(\w+(?:ed|en))\b',
-            r'\b(?:can|could|must|should|may|might|will|would)\s+be\s+(\w+(?:ed|en))\b',
-            r'\b(?:been|being)\s+(\w+(?:ed|en))\b')
+    # The participle alternation is -ed/-en plus the irregulars that end in
+    # neither, which had hidden `is read`, `was taught`, `can be built` and
+    # `being told`. `lost` stays out: `I was lost` is adjectival at A2.
+    PART = (r'(\w+(?:ed|en)|read|put|cut|set|built|kept|sent|left|made|sold|told|'
+            r'held|found|brought|taught|paid|met|won|hit|let|shut|cost|spent)')
+    PATS = (r'\b(?:is|are|was|were)\s+(?:not|never|often|usually|always|still|also|only)?\s*' + PART + r'\b',
+            r'\b(?:can|could|must|should|may|might|will|would)\s+be\s+' + PART + r'\b',
+            r'\b(?:been|being)\s+' + PART + r'\b')
     body = ' '.join(u.sentences)
     hits = [m.group(0) for pat in PATS for m in re.finditer(pat, body, re.I)
             if m.group(1).lower() not in ADJ]

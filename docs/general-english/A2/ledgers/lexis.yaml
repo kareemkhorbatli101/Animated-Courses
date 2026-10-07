@@ -28,6 +28,9 @@ units:
   9:
     book: A2.1
     words: [junction, roundabout, lane, square, address, block, towards, ahead, below, far]
+  10:
+    book: A2.1
+    words: [step, mix, pour, press, glue, layer, brush, carefully, finally, tidy]
 
 # Fixed expressions that merely contain a glossary word without carrying its
 # meaning. Measured in the source: it says `of course` seven times, from Unit 1

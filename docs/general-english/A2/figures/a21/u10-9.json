@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  57.0,
+  16.3,
+  1383.0,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "the expert",
+   "size": 30,
+   "bbox": [
+    81.0,
+    234.5,
+    258.2,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "writes it",
+   "size": 30,
+   "bbox": [
+    99.4,
+    269.5,
+    239.8,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a step goes",
+   "size": 28,
+   "bbox": [
+    353.6,
+    238.0,
+    536.0,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "missing",
+   "size": 28,
+   "bbox": [
+    384.0,
+    271.0,
+    505.6,
+    295.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a beginner",
+   "size": 30,
+   "bbox": [
+    628.9,
+    234.5,
+    811.1,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "reads it",
+   "size": 30,
+   "bbox": [
+    655.1,
+    269.5,
+    784.9,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the hands stop",
+   "size": 22,
+   "bbox": [
+    902.3,
+    274.9,
+    1088.1,
+    294.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "there is",
+   "size": 30,
+   "bbox": [
+    1205.5,
+    234.5,
+    1335.3,
+    261.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the step",
+   "size": 30,
+   "bbox": [
+    1200.1,
+    269.5,
+    1340.6,
+    296.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 5,
+ "arrows": 4,
+ "alt": "Why instructions go wrong, in five stages with an arrow to the next: the expert writes it down, a step goes missing because the hand does it without asking, a beginner reads it, the beginner\u2019s hands stop, and the place where they stopped is the missing step.",
+ "placed_in": [
+  5.625,
+  1.28125
+ ],
+ "sha256": "47a2609c170440033854ad3dced530cb7504458fbc2199ec60bd255abfa32682"
+}

@@ -261,7 +261,7 @@ Marking points: ☐ what and when ☐ the fault ☐ what you are asking for ☐ 
 
 ---
 
-**Part 8 · Global Story — The Street Where Everything Is Mended**
+**Part 8 · Global Story — The Street That Repairs Everything**
 
 0. Hot sun. *(given)*
 1. Because the workshops are in the open air.
