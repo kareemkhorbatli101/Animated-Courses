@@ -6,7 +6,7 @@ DEFERRED, not caught — K14 counts only the exercisable ones, and the report na
 what is still deferred so it cannot be quietly forgotten.
 """
 from __future__ import annotations
-import copy, json, os, shutil, sys, tempfile, traceback
+import copy, json, os, re, shutil, sys, tempfile, traceback
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -18,8 +18,10 @@ import checks as C                # noqa: E402
 import runner as R                # noqa: E402
 from mutations import MUTATIONS   # noqa: E402
 
-ARTEFACT = {'docx', 'styles', 'core', 'zip', 'cover', 'covermeta', 'coverpx',
-            'needs_artefact'}
+ARTEFACT = {'needs_artefact'}
+DOCXKIND = {'docx', 'styles', 'core', 'zip'}
+COVERKIND = {'cover', 'covermeta', 'coverpx'}
+PDFKIND = {'pdf'}
 MULTIUNIT = {'needs_units'}
 NOFAIL = {'needs_check'}
 STATIC = {'registry', 'rename', 'sha'}
@@ -54,6 +56,63 @@ def _apply_png(path, meta):
         changed = True
     if changed:
         im.save(path)
+
+
+MEMBER = {'docx': 'word/document.xml', 'styles': 'word/styles.xml',
+          'core': 'docProps/core.xml'}
+
+
+def _mutate_zip(path, kind, fn):
+    import zipfile
+    zin = zipfile.ZipFile(path)
+    parts = {n: zin.read(n) for n in zin.namelist()}
+    zin.close()
+    if kind == 'zip':
+        raw = bytearray(open(path, 'rb').read())
+        # corrupt a stored member's bytes, leaving the central directory intact,
+        # so only a CRC check (which testzip does) can notice
+        for i in range(200, min(len(raw), 4000)):
+            raw[i] ^= 0xFF
+        open(path, 'wb').write(bytes(raw))
+        return
+    name = MEMBER[kind]
+    parts[name] = fn(parts[name].decode('utf8')).encode('utf8')
+    with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as z:
+        for n, b in parts.items():
+            z.writestr(n, b)
+
+
+def _mutate_cover(cdir, book, kind, fn):
+    from PIL import Image
+    for side in ('front', 'back'):
+        png = os.path.join(cdir, f'{book}-{side}.png')
+        jsn = os.path.join(cdir, f'{book}-{side}.json')
+        if kind == 'cover':
+            r = fn(side)
+            if r is None:
+                os.remove(png)
+            elif r != 'keep':
+                Image.open(png).resize(r).save(png)
+            continue
+        if not os.path.exists(jsn):
+            continue
+        meta = _json.load(open(jsn))
+        meta = fn(meta) or meta
+        if kind == 'coverpx':
+            im = Image.open(png).convert('RGB')
+            if meta.pop('contaminate', None):
+                px = im.load()
+                for y in range(0, im.height, 2):
+                    for x in range(0, im.width, 2):
+                        px[x, y] = (255, 0, 255)
+            if meta.pop('clone', None):
+                other = os.path.join(cdir, f'{book}-{side}.png')
+                im = Image.open(other).convert('RGB')
+            r = meta.pop('resize', None)
+            if r:
+                im = im.resize(r)
+            im.save(png)
+        _json.dump(meta, open(jsn, 'w'))
 
 
 def _verdict(chk, subject, ctx):
@@ -112,6 +171,41 @@ def run(book='a21', verbose=False):
                     mp = os.path.join(tmp, os.path.basename(kpath))
                     open(mp, 'w', encoding='utf-8').write(fn(good_key))
                     ctx._keys[u.num] = M.parse_key(mp); ctx.for_unit(u)
+                elif kind in DOCXKIND:
+                    src = os.path.join(ROOT, 'build', f'{book}-u{u.num:02d}.docx')
+                    if not os.path.exists(src):
+                        deferred.append((cid, 'docx not built')); continue
+                    dst = os.path.join(tmp, 'build')
+                    shutil.rmtree(dst, ignore_errors=True); os.makedirs(dst)
+                    shutil.copy(src, os.path.join(dst, os.path.basename(src)))
+                    _mutate_zip(os.path.join(dst, os.path.basename(src)), kind, fn)
+                    ctx.root = tmp
+                elif kind in PDFKIND:
+                    srcp = os.path.join(ROOT, 'build', f'{book}-u{u.num:02d}.pdf')
+                    srcd = os.path.join(ROOT, 'build', f'{book}-u{u.num:02d}.docx')
+                    if not os.path.exists(srcp):
+                        deferred.append((cid, 'pdf not built')); continue
+                    dst = os.path.join(tmp, 'build')
+                    shutil.rmtree(dst, ignore_errors=True); os.makedirs(dst)
+                    shutil.copy(srcd, os.path.join(dst, os.path.basename(srcd)))
+                    raw = open(srcp, 'rb').read()
+                    if fn == 'one_page':
+                        raw = re.sub(rb'/Type\s*/Page([^s])', rb'/Typ3 /Page\1', raw, count=90)
+                    elif fn == 'no_pages':
+                        raw = re.sub(rb'/Type\s*/Page([^s])', rb'/Typ3 /Page\1', raw)
+                    open(os.path.join(dst, os.path.basename(srcp)), 'wb').write(raw)
+                    ctx.root = tmp
+                    if fn == 'tofu':
+                        ctx.pdf_text = lambda p: 'a page with \ufffd in it'
+                elif kind in COVERKIND:
+                    src = os.path.join(ROOT, 'covers')
+                    if not os.path.isdir(src) or not os.listdir(src):
+                        deferred.append((cid, 'covers not built')); continue
+                    dst = os.path.join(tmp, 'covers')
+                    shutil.rmtree(dst, ignore_errors=True)
+                    shutil.copytree(src, dst)
+                    _mutate_cover(dst, book, kind, fn)
+                    ctx.root = tmp
                 elif kind == 'fig':
                     # mutate the figure sidecars (and, where the mutation names a
                     # pixel-level fault, the PNG) in a scratch copy of figures/

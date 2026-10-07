@@ -1,0 +1,328 @@
+{
+ "canvas": [
+  2480,
+  3508
+ ],
+ "texts": [
+  {
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 62,
+   "bbox": [
+    811.8,
+    154.8,
+    1668.2,
+    209.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A2 \u00b7 Volume 1 \u00b7 Everyday Life",
+   "size": 52,
+   "bbox": [
+    812.1,
+    271.8,
+    1667.9,
+    317.8
+   ],
+   "fill": "#6E88AC",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "English for Daily Life takes an adult beginner who already knows a little English and",
+   "size": 46,
+   "bbox": [
+    220,
+    546.5,
+    2152.3,
+    586.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "gives them the present and the past: what is, what they do, and what happened. One",
+   "size": 46,
+   "bbox": [
+    220,
+    611.8,
+    2199.0,
+    651.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "unit follow six people who live at one address, so the vocabulary comes back week",
+   "size": 46,
+   "bbox": [
+    220,
+    677.1,
+    2135.2,
+    717.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "after week instead of arriving once and leaving. Every unit has the same ten parts,",
+   "size": 46,
+   "bbox": [
+    220,
+    742.4,
+    2134.7,
+    782.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the same twelve kinds of exercise and the same support: a worked example at the top",
+   "size": 46,
+   "bbox": [
+    220,
+    807.7,
+    2218.1,
+    847.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "of almost every task, a model before every piece of writing, a word bank under every",
+   "size": 46,
+   "bbox": [
+    220,
+    873.1,
+    2190.8,
+    913.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "gap-fill and a checklist before you hand anything in. The Core track is for",
+   "size": 46,
+   "bbox": [
+    220,
+    938.4,
+    1901.6,
+    978.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "everybody. The Plus track at the back of each unit is there when you are ready for",
+   "size": 46,
+   "bbox": [
+    220,
+    1003.7,
+    2113.0,
+    1043.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "it, and optional when you are not. Answers for every closed question are in the book.",
+   "size": 46,
+   "bbox": [
+    220,
+    1069.0,
+    2182.4,
+    1109.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "In this book",
+   "size": 54,
+   "bbox": [
+    220,
+    1188.1,
+    579.8,
+    1235.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "1",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1278.2,
+    263.9,
+    1313.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "People and Routines",
+   "size": 42,
+   "bbox": [
+    330,
+    1277.5,
+    817.6,
+    1313.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "present simple",
+   "size": 38,
+   "bbox": [
+    1280,
+    1279.8,
+    1562.0,
+    1313.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "By the end you will be able to",
+   "size": 54,
+   "bbox": [
+    220,
+    1390.1,
+    1127.1,
+    1437.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1479.5,
+    258.0,
+    1515.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can name the people around me: neighbour, flatmate, colleague.",
+   "size": 40,
+   "bbox": [
+    320,
+    1480.2,
+    1654.6,
+    1515.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1545.5,
+    258.0,
+    1581.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use the present simple for routines and the present continuous for now.",
+   "size": 40,
+   "bbox": [
+    320,
+    1546.2,
+    1867.2,
+    1581.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1611.5,
+    258.0,
+    1647.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can understand a short conversation between neighbours.",
+   "size": 40,
+   "bbox": [
+    320,
+    1612.2,
+    1517.6,
+    1647.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1677.5,
+    258.0,
+    1713.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can describe a person\u2019s day in 50\u201370 words.",
+   "size": 40,
+   "bbox": [
+    320,
+    1678.2,
+    1234.8,
+    1713.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "CEFR A2 \u00b7 Student Book with answer key \u00b7 British English",
+   "size": 40,
+   "bbox": [
+    670.8,
+    3258.4,
+    1809.2,
+    3294.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "alt": "Back cover of English for Daily Life A2 volume 1: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
+ "sha256": "eff1c070f75e19e23dbf039afb2f037ccab77d2e0b8091154f17c969ac5a36a0",
+ "theme": "a21",
+ "volume": 1,
+ "title": "Everyday Life",
+ "level": "A2",
+ "blurb": "English for Daily Life takes an adult beginner who already knows a little English and gives them the present and the past: what is, what they do, and what happened. One unit follow six people who live at one address, so the vocabulary comes back week after week instead of arriving once and leaving. Every unit has the same ten parts, the same twelve kinds of exercise and the same support: a worked example at the top of almost every task, a model before every piece of writing, a word bank under every gap-fill and a checklist before you hand anything in. The Core track is for everybody. The Plus track at the back of each unit is there when you are ready for it, and optional when you are not. Answers for every closed question are in the book.",
+ "units": [
+  "People and Routines"
+ ],
+ "grammar": [
+  "present simple"
+ ],
+ "can_do": [
+  "I can name the people around me: neighbour, flatmate, colleague.",
+  "I can use the present simple for routines and the present continuous for now.",
+  "I can understand a short conversation between neighbours.",
+  "I can describe a person\u2019s day in 50\u201370 words."
+ ],
+ "unit_count": 1
+}

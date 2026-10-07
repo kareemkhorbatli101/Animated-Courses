@@ -58,10 +58,13 @@ def j04(u, ctx):
         d = z.read('word/document.xml').decode('utf8')
         rels = z.read('word/_rels/document.xml.rels').decode('utf8')
         media = {n for n in z.namelist() if n.startswith('word/media/')}
-    ids = set(re.findall(r'r:embed="(rId\d+)"', d))
-    targets = dict(re.findall(r'Id="(rId\d+)"[^>]*Target="([^"]+)"', rels))
-    broken = [i for i in ids if 'word/' + targets.get(i, '') not in media]
-    return expect(not broken, f'broken image rels {broken}')
+    all_embeds = re.findall(r'r:embed="([^"]+)"', d)
+    targets = dict(re.findall(r'Id="([^"]+)"[^>]*Target="([^"]+)"', rels))
+    broken = [i for i in all_embeds if 'word/' + targets.get(i, '') not in media]
+    drawings = d.count('<w:drawing>')
+    return expect(not broken and len(all_embeds) == drawings,
+                  f'broken image rels {broken[:4]}; '
+                  f'{len(all_embeds)} embeds for {drawings} drawings')
 
 @check('J05', 'build', 'DOCX to PDF renders every page')
 def j05(u, ctx):

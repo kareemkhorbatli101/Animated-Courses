@@ -148,13 +148,26 @@ def postprocess(docx, title, label):
         return _add_ppr(p, '<w:keepNext/><w:jc w:val="center"/>')
     d = re.sub(r'<w:p\b.*?</w:p>', fix_para, d, flags=re.S)
 
+    # 2b. cantSplit on every table row: a row never breaks across a page, so a
+    #     Column A stem can never land on one page with its answer rule on the next.
+    def no_split(m):
+        tr = m.group(0)
+        if '<w:cantSplit/>' in tr:
+            return tr
+        if '<w:trPr>' in tr:
+            return tr.replace('<w:trPr>', '<w:trPr><w:cantSplit/>', 1)
+        return re.sub(r'(<w:tr\b[^>]*>)', r'\1<w:trPr><w:cantSplit/></w:trPr>', tr, count=1)
+    d = re.sub(r'<w:tr\b.*?</w:tr>', no_split, d, flags=re.S)
+
     # 3. keepNext on every bold-only heading paragraph, so none is orphaned
     def keepnext(m):
         p = m.group(0)
         runs = re.findall(r'<w:r\b.*?</w:r>', p, re.S)
         if not runs or '<w:drawing>' in p:
             return p
-        if not all('<w:b/>' in r or not re.search(r'<w:t[^>]*>[^<]', r) for r in runs):
+        bolded = all(re.search(r'<w:b\s*/>', r) or re.search(r'<w:i\s*/>', r)
+                     or not re.search(r'<w:t[^>]*>[^<]', r) for r in runs)
+        if not bolded:
             return p
         if '<w:keepNext/>' in p:
             return p
@@ -216,6 +229,28 @@ def build_unit(book, unit_num, with_key=False):
     return out
 
 
+def write_manifest():
+    """SHA-256 of every shipped artefact (check J12)."""
+    import hashlib
+    man, bd = {}, os.path.join(ROOT, 'build')
+    for d, _, fs in os.walk(ROOT):
+        if os.path.basename(d) in ('__pycache__', '.git'):
+            continue
+        for f in fs:
+            if not f.endswith(('.docx', '.pdf', '.png')):
+                continue
+            p = os.path.join(d, f)
+            if f.endswith('.docx') and d == bd:
+                import zipfile
+                with zipfile.ZipFile(p) as z:
+                    man[f] = hashlib.sha256(z.read('word/document.xml')).hexdigest()
+            else:
+                man[os.path.relpath(p, ROOT)] = hashlib.sha256(open(p, 'rb').read()).hexdigest()
+    os.makedirs(os.path.join(ROOT, 'reports'), exist_ok=True)
+    json.dump(man, open(os.path.join(ROOT, 'reports', 'manifest.json'), 'w'), indent=1)
+    return len(man)
+
+
 if __name__ == '__main__':
     book = sys.argv[1] if len(sys.argv) > 1 else 'a21'
     units = [int(a) for a in sys.argv[2:]] or list(range(1, 11))
@@ -223,3 +258,4 @@ if __name__ == '__main__':
         o = build_unit(book, n)
         if o:
             print(f'built {os.path.basename(o)}  {os.path.getsize(o)//1024} KB')
+    print(f'manifest: {write_manifest()} artefacts hashed')

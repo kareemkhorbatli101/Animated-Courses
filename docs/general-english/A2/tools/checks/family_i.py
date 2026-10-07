@@ -18,28 +18,34 @@ def i01(units, ctx):
     s = _skip(ctx)
     if s: return s
     m = _meta(ctx, 'front') or {}
-    t = ' '.join(x['text'] for x in m.get('texts', []))
-    missing = [k for k in ('English for Daily Life', ctx.volume_title, 'A2') if k not in t]
+    t = ' '.join(x['text'] for x in m.get('texts', [])).lower()
+    # a cover legitimately sets the series name in caps
+    missing = [k for k in ('English for Daily Life', ctx.volume_title, 'A2')
+               if k.lower() not in t]
     return expect(not missing, f'front cover missing {missing}')
 
-@check('I02', 'palette.colours', 'Cover art uses only the locked palette', scope='book')
+@check('I02', 'palette.metric', 'Cover art uses only the locked palette', scope='book')
 def i02(units, ctx):
     s = _skip(ctx)
     if s: return s
-    import math
     from PIL import Image
-    pal = [tuple(int(c['hex'][i:i+2], 16) for i in (1, 3, 5)) for c in ctx.palette['colours'].values()]
+    from .family_g import _blend_dist
+    pal = [tuple(int(c['hex'][i:i+2], 16) for i in (1, 3, 5))
+           for c in ctx.palette['colours'].values()]
+    tol = ctx.palette['blend_line_tolerance_deltaE']
+    limit = ctx.palette['max_offpalette_pixel_fraction']
     bad = []
     for side in ('front', 'back'):
         p = _cov(ctx, side)
         if not os.path.exists(p):
             continue
-        im = Image.open(p).convert('RGB').resize((400, 566))
+        # NEAREST, so downsampling does not invent blends the artwork never had
+        im = Image.open(p).convert('RGB').resize((620, 877), Image.NEAREST)
         cols = im.getcolors(1 << 20) or []
         tot = sum(c for c, _ in cols)
-        off = sum(c for c, px in cols if min(math.dist(px, q) for q in pal) > 10)
-        if off / max(1, tot) > ctx.palette['max_offpalette_pixel_fraction']:
-            bad.append(f'{side}: {off/tot:.1%} off-palette')
+        off = sum(c for c, px in cols if _blend_dist(px, pal) > tol)
+        if off / max(1, tot) > limit:
+            bad.append(f'{side}: {off/tot:.2%} off-palette (limit {limit:.1%})')
     return expect(not bad, '; '.join(bad))
 
 @check('I03', 'covers', 'Back cover carries blurb, unit list, grammar list, can-do, level', scope='book')

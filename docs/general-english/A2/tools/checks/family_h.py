@@ -113,14 +113,15 @@ def h09(u, ctx):
             empties += 1
     return expect(empties == 0, f'{empties} fully empty table rows')
 
-@check('H10', 'typography.tables', 'No table splits across a page break mid-row')
+@check('H10', 'typography.tables', 'No table row can split across a page break')
 def h10(u, ctx):
     s = _skip(ctx, u)
     if s: return s
     d = _xml(_docx(ctx, u))
-    n = len(re.findall(r'<w:cantSplit/>', d))
-    rows = d.count('<w:tr ') + d.count('<w:tr>')
-    return expect(rows == 0 or n >= 0, f'{rows} rows; cantSplit set on {n}')
+    rows = re.findall(r'<w:tr\b.*?</w:tr>', d, re.S)
+    missing = [i for i, r in enumerate(rows) if '<w:cantSplit/>' not in r]
+    return expect(not missing, f'{len(missing)} of {len(rows)} rows may split '
+                               f'across a page (no cantSplit)')
 
 @check('H11', 'typography.justification', 'Every figure paragraph is centred')
 def h11(u, ctx):
@@ -149,12 +150,23 @@ def h12(u, ctx):
             bad.append(f'caption {txt[:24]!r} is not italic')
     return expect(not bad, '; '.join(bad[:5]))
 
-@check('H13', 'typography', 'No heading left within 2 lines of a page bottom')
+@check('H13', 'typography', 'Every heading is kept with the text that follows it')
 def h13(u, ctx):
     s = _skip(ctx, u)
     if s: return s
     d = _xml(_docx(ctx, u))
-    return expect('<w:keepNext/>' in d or True, 'keepNext advisory')
+    bad = []
+    for p in re.findall(r'<w:p\b.*?</w:p>', d, re.S):
+        runs = re.findall(r'<w:r\b.*?</w:r>', p, re.S)
+        txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', p)).strip()
+        if not txt or '<w:drawing>' in p:
+            continue
+        if not all(re.search(r'<w:b\s*/>', r) or not re.search(r'<w:t[^>]*>[^<]', r)
+                   for r in runs):
+            continue
+        if '<w:keepNext/>' not in p:
+            bad.append(txt[:34])
+    return expect(not bad, f'{len(bad)} headings without keepNext, e.g. {bad[:4]}')
 
 @check('H14', 'typography', 'No widow or orphan lines')
 def h14(u, ctx):
@@ -164,11 +176,26 @@ def h14(u, ctx):
     off = d.count('<w:widowControl w:val="0"/>')
     return expect(off == 0, f'widowControl disabled on {off} paragraphs')
 
-@check('H15', 'typography', 'No part header orphaned from its track label across a page break')
+@check('H15', 'typography', 'No part header is split from its track label')
 def h15(u, ctx):
     s = _skip(ctx, u)
     if s: return s
-    return ok('enforced by keepNext on part headers')
+    d = _xml(_docx(ctx, u))
+    paras = re.findall(r'<w:p\b.*?</w:p>', d, re.S)
+    bad = []
+    for i, p in enumerate(paras):
+        txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', p)).strip()
+        if not re.match(r'^(Part \d+ ·|Warm Up$)', txt):
+            continue
+        nxt = paras[i + 1] if i + 1 < len(paras) else ''
+        ntxt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', nxt)).strip()
+        if '<w:keepNext/>' not in p:
+            bad.append(f'{txt[:22]}: header not kept')
+        elif not ntxt.startswith(('[CORE', '[PLUS')):
+            bad.append(f'{txt[:22]}: next para is {ntxt[:22]!r}')
+        elif '<w:keepNext/>' not in nxt:
+            bad.append(f'{txt[:22]}: track label not kept')
+    return expect(not bad, '; '.join(bad[:4]))
 
 @check('H16', 'golden', 'No unit split across the two volumes', scope='book')
 def h16(units, ctx):
