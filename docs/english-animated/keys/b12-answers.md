@@ -325,3 +325,256 @@ The contrastive *MUST* belongs in the argument about the reconstruction — it a
 **12A** · Recycle — twelve items
 1 must have been · 2 can't have been · 3 might · 4 unlikely · 5 sight · 6 for · 7 stand · 8 probability · 9 had advertised / would have · 10 had not looked / would have had · 11 must have broken · 12 is grown
 
+
+---
+
+## B1.2 · Unit 5 · Four Per Cent
+
+**0B** · Guess it
+The new ward and the corridor refurbishment. The ward: the hoarding is up, the sign gives a date in the past, and the window frames are still stacked outside. The corridor: the trolleys are parked along a wall that was supposed to have been cleared, and the floor tape marking the works boundary has been walked through and never relaid.
+
+**1B** · Sort — a number, a date, or a belief?
+> **a number** — throughput · baseline · variance · demand
+> **a date** — target · milestone · deadline
+> **a belief** — forecast · assumption
+**The belief treated as a number:** *assumption*. The four per cent sits in the model in the same typeface as the baseline, is multiplied like a measurement, and has not been reviewed since 2019. What it costs is twelve hundred and sixty-three people by year three, and no document anywhere recording the gap.
+
+**2A** · The three-year model 🔊 Track 5.1
+**1** b) 11,000 · **2** c) 16,000 · **3** c) returned for revision · **4** c) 2019
+**Table** — The finance lead says the plan is affordable; assumes four per cent; if wrong, the plan is met and the service fails. Dr Herrera says the number is wrong; assumes nine; if wrong, four months are lost to a revision. Matías says both should be submitted; assumes nothing, which is the point; if he is wrong, a one-page annex is wasted.
+
+**Noticing** — Completed: **1** (*will have passed*) and **3** (*will have doubled*). Still running: **2** (*will be running*) and **4** (*will have had*, which is a state continuing to that point — accept either placing if the learner can say why).
+
+**3D** · Use — controlled
+1 will have passed · 2 will be running · 3 will have been doing · 4 opens · 5 will have doubled · 6 will have had · 7 will still be assuming · 8 will have run out
+
+**3E** · Use — guided
+1 will be sitting — **future continuous**: at a point inside the meeting. *Will sit* would make it a decision; *will have sat* would put it after the meeting.  
+2 will have finished — **future perfect**: completed before six. *Will be finishing* would put the finishing at six.  
+3 will have left — **future perfect**: before the reading. *Will leave* would make it simultaneous.  
+4 will have been working — **future perfect continuous**: a duration up to June. *Will have worked* loses the continuity the *for two years* needs.  
+5 will know — **future simple**: a state beginning at that point. *Will have known* would imply the knowing was over.
+
+**3H** · Check — eight items
+1 will have passed · 2 will be running · 3 opens / will have doubled · 4 will have been working · 5 will know · 6 will have finished by · 7 will be presenting · 8 will have run out
+
+**5C** · Comprehension — eight questions
+1 That a department's three-year plan contains a demand assumption chosen not because anybody believes it but because it produces a plan that can be approved — and that nobody writes this down, because writing it down would end it.  
+2 Because the real number produces a plan asking for money that does not exist.  
+3 It is returned for revision, which costs four months.  
+4 They notice that the department has been running on an approved plan for two years with no document saying what it actually needs. They do **not** notice that the assumption was wrong — everybody already knew that.  
+5 Not financial: that at the end of three years there will be no record of the gap.  
+6 A plan that was met, a service that is failing, and no piece of paper connecting the two.  
+7 Submit the four per cent plan **and** a one-page annex describing the nine per cent world, every year.  
+8 Because in four years somebody will ask when this started, and somebody ought to be able to answer.
+
+**5D** · Vocabulary in context
+**a quiet arrangement** — an understanding everybody acts on and nobody records · **returned for revision** — sent back, at a cost of four months · **running on an approved plan** — operating under a document that no longer describes the work · **an annex** — a short attachment that does not require the main plan to change · **connecting the two** — the missing evidence that the failure and the plan are the same story
+
+**5E** · The counter-text
+1 Baseline 7,420 at 31 March; assumed annual growth 4.0 per cent.  
+2 9.1, 8.8 and 8.4 per cent — variances of +5.1, +4.8 and +4.4. Cumulative variance +14.3 points.  
+3 8,347 at four per cent; 9,610 at nine — a difference of 1,263.  
+4 2019. The sheet does not say by whom, which is part of the point.  
+5 The growth cell: "4.0 % is the planning assumption agreed in 2019. Observed growth over the last three years has averaged 8.8 %." Twenty-six words, in six point, never quoted.
+
+**6A** · Sort — a point, a period, or a direction?
+> **a period** — meanwhile · thereafter · annually
+> **a direction** — progressively · ultimately · cumulatively
+> **a point** — imminently · eventually · henceforth · by · shortly
+*Eventually* names a point and refuses to say which, which is why it belongs in the first column and should not survive a board paper. *Henceforth* names the point a rule starts. *Annually* is a period in form and a frequency in use — accept either.
+
+**6B** · Chunk completion
+1 March · 2 year · 3 period · 4 on · 5 rate · 6 meet
+
+**6C** · Three that look like timing and are not
+1 *The ward will open in Q2 of year two.* **Gained:** a date somebody can be held to. *Ultimately* was describing an end state and promising nothing.  
+2 *The list will come down by March 2029 on current trends.* **Gained:** a testable claim. *Eventually* named a time and refused to say which.  
+3 *The assumption will be reviewed every March from 2026.* **Gained:** a first date and a frequency. *Henceforth* said a rule had started and left the start unnamed.
+
+**6E** · Contrast Clinic
+> **1** will have doubled — **future perfect**, completed before the opening.
+> **2** will have reached — **future perfect**, an event completed by a deadline.
+> **3** will have presented — **future perfect**, finished before four.
+> **4** will be presenting — **future continuous**, in progress at four.
+> **5** will have been working — **future perfect continuous**, a duration up to June.
+> **6** will be running — **future continuous**, a state of affairs rather than an event.
+> **7** will know — **future simple**; a state does not take the perfect here.
+> **8** will have run out — **future perfect**, completed by a date.
+
+**7C** · Make it mean something
+The weak *we'll've passed it* belongs in a board paper: it states the projection with nobody disputing it. The contrastive *WILL* is an argument with a person, and in a written projection it reads as defensiveness about a number that should be standing on its own.
+
+**12A** · Recycle — twelve items
+1 will have passed · 2 will be running · 3 opens / will have doubled · 4 will have been working · 5 trends · 6 assumption · 7 back · 8 rate · 9 must have been · 10 had advertised / would have · 11 None · 12 arrives
+
+
+---
+
+## B1.2 · Unit 6 · Four Hours on the Phone
+
+**0B** · Guess it
+**Deciding:** the clinician, who is holding the consent form and a pen, and the clinic manager, who is standing at the board with the list and the four-hour queue on it. **Being decided about:** the patient, whose chair faces the desk rather than the room; the daughter in the corridor, who is outside the door with a bag on her knees; and the interpreter, who is a telephone on a trolley and has no chair at all.
+
+**1B** · Sort — a place, an event, or a document?
+> **a place** — theatre · ward
+> **an event** — procedure · admission · consultation · follow-up
+> **a document** — consent · discharge · referral
+**The two that are both:** *consent* and *discharge*. Each is an event (consent is given; a patient is discharged) and a document (a consent form; a discharge letter). The article usually tells you: *the consent* is the form, *consent* is the act — and *a discharge* is the event while *the discharge* is nearly always the letter. *(referral* behaves the same way and is worth accepting.)*
+
+**2A** · Her daughter is in the corridor 🔊 Track 6.1
+**1** c) four hours · **2** a) sixteen · **3** c) the patient · **4** a) today, not urgent
+**Table** — The patient wants her daughter to interpret; the policy forbids family members; she is worried about waiting again and losing the slot. Dr Benítez wants to take consent today; the policy requires a registered interpreter; he is worried about taking consent that is not really informed. Rosa wants the telephone service used; the policy is on her side; she is worried that the clinic will overrun and that six other patients will be sent home.
+
+**Noticing** — Passives: **1**, **2**, **3**. Causative: **4** (*She's having it done*). The passive says the subject received the action without saying who did it; the causative says the subject arranged for somebody else to do it — the responsibility stays with her.
+
+**3D** · Use — controlled
+1 was referred · 2 should have been seen · 3 can be done · 4 is having · 5 is not allowed · 6 requires · 7 has been made · 8 has been explained
+
+**3E** · Use — guided
+1 She will be seen by a consultant.  
+2 She should have been told in March.  
+3 She is having her transport arranged by the hospital. *(or: She is having her transport arranged.)*  
+4 She is not permitted to have her daughter interpret.  
+5 She was made to wait four hours.
+
+**3H** · Check — eight items
+1 was referred · 2 should have been seen · 3 can be done · 4 is having · 5 is not allowed · 6 was made · 7 requires · 8 got … sent
+
+**5C** · Comprehension — eight questions
+1 That the policy is correct — because the piece that writes itself is the one about heartless bureaucracy, and that piece would be wrong.  
+2 A daughter will soften a prognosis; a son will omit a question about alcohol; a sixteen-year-old will be asked to say *terminal* to her own mother and will be in that room for the rest of her life.  
+3 Four hours and eleven minutes.  
+4 For anything serious they wait. It costs four real hours, a clinic that runs over, and other patients seen late.  
+5 For routine consultations they use the family member — and they do not record it, because recording it is a breach.  
+6 It protects patients in serious conversations, and it produces a permanent, undocumented, unmeasurable practice in routine ones.  
+7 That the queue is not a failure attached to a good policy: a rule that cannot be followed is in practice a rule about what gets written down, so the four hours are the policy's real content.  
+8 Because the obvious article blames the rule, and the rule is right. The problem is the four hours, which no article about bureaucracy would mention.
+
+**5D** · Vocabulary in context
+**the piece that writes itself** — the easy, familiar article nobody has to think to write · **soften a prognosis** — make bad news sound better than it is · **a median wait** — the middle wait, so half of all waits are longer · **the clinic runs over** — appointments slip and later patients are seen late · **a breach** — a recorded failure to follow policy, with consequences for the person who records it
+
+**5E** · The counter-text
+1 It forbids any family member, including adults, from interpreting in clinical consultations. Two exceptions: an emergency ("risk to life"), and a patient refusing an interpreter. Both must be recorded.  
+2 Median 4 h 11 min; ninetieth percentile 7 h 40 min.  
+3 3,140 requests; 1,870 abandoned before connection — an abandonment rate of 60 per cent.  
+4 Any use of a family member outside the two exceptions is a breach and must be recorded on the clinical record. *(Four breaches were recorded last year, against 1,870 abandoned calls.)*  
+5 "An emergency is a situation in which delay would present a risk to life. Clinic overrun, patient distress and staff availability do not constitute an emergency." It does not cover the routine consultation, which is where the practice actually is.
+
+**6A** · Sort — bare infinitive, *to*-infinitive, or past participle?
+> **to-infinitive** — require · allow · permit · entitle · cause · oblige
+> **past participle** — have · get
+> **bare infinitive** — make · let
+**The two that move:** *make* takes a bare infinitive in the active (*made her wait*) and a *to*-infinitive in the passive (*was made to wait*). *have* and *get* take a past participle in the causative and a *to*-infinitive in other senses (*got her to sign*) — so *get* is arguable in two columns.
+
+**6B** · Chunk completion
+1 done · 2 sent · 3 to · 4 entitled / required · 5 behalf · 6 to
+
+**6C** · Three that look like permission and are not
+1 **entitled** — a right. *Obliged* or *required* would turn her right into her duty, which is the opposite.  
+2 **required** (or *obliged*) — a duty imposed by the policy. *Entitled* would make the record optional.  
+3 **obliged** — the moral flavour is the point: there is no duty, and no rule, and that is the finding. *Required* would be factually the same and would lose the reproach.
+
+**6D** · The fixed expression
+The words do not change; the stress and the context do. Spoken as a decision, the stress falls on *out* and the sentence is about an arrangement the speaker made. Spoken as a misfortune, the stress falls on *had* and the sentence is about something done to them. English leaves the two identical on the page, which is why a clinical record has to say who decided.
+
+**6E** · Contrast Clinic
+> **1** It can be done under local. **Modal passive.**
+> **2** She was made to wait. **Passive** — and *make* takes *to* in the passive.
+> **3** I got my notes sent to the clinic. **Causative with *get*** — informal.
+> **4** She should have been seen in March. **Modal perfect passive.**
+> **5** She is having it done on Thursday. **Causative with *have*.**
+> **6** Nothing was explained to her. **Passive.**
+> **7** She was referred by her own doctor. **Passive**, agent kept.
+> **8** Her daughter is not permitted to interpret. **Passive.**
+
+**7C** · Make it mean something
+Neutral stress — *She had her hair **cut*** — is the arrangement: she went to a hairdresser. Stress on *HAD* is the misfortune: somebody made her, and the stress is the only thing marking it. The ambiguity is real in English and is why the causative needs an agent in writing whenever the difference matters.
+
+**12A** · Recycle — twelve items
+1 was referred · 2 should have been seen · 3 can be done · 4 is having · 5 was made · 6 consent · 7 forward · 8 to · 9 will have passed · 10 must have been · 11 is grown · 12 told
+
+
+---
+
+## B1.2 · Unit 7 · Eleven Nights
+
+**0B** · Guess it
+The coat on the back of the same chair and the mug on the window ledge. The coat has not moved through eleven shift changes — the hook beside it is empty every night — and the mug has a ring of eleven tide marks dried inside it. Both say that one person has been coming back to the same square metre without going home properly.
+
+**1B** · Sort — about the body, the mind, or the situation?
+> **the body** — dependence · relapse · craving · abstinence
+> **the mind** — distraction · willpower · attention
+> **the situation** — trigger · substitute
+**The one misfiled:** *willpower*. It is described as a quantity in the mind and is almost entirely situational — the same person has plenty of it on night two and none on night nine, and nothing inside them has changed except how many hours they have been awake.
+
+**2A** · Eleven nights 🔊 Track 7.1
+**1** c) twelve · **2** a) money · **3** a) both · **4** b) vague
+**Table** — Carla says she is fine and chose it; she is actually worried that she cannot remember the second check. Dr Herrera says the rota permits it; she is actually worried that permitting is being read as approving. The rota policy says twelve with a recommended seven; what it is worried about is being blamed, which is why approval may be given retrospectively.
+
+**Noticing** — **1** *stopped to think* = paused in order to think. **2** *stopped thinking* = the thinking ended. **3** *remember checking* = a memory of a past act. **4** *remembered to check* = did not forget a duty.
+
+**3D** · Use — controlled
+1 checking · 2 checking · 3 to do · 4 thinking · 5 stopping to notice · 6 drinking · 7 staying · 8 changing · 9 to raise
+
+**3E** · Use — guided
+1 *She stopped smoking* (the smoking ended) / *She stopped to smoke* (she paused in order to).  
+2 *I remember locking the door* (a memory) / *I remembered to lock the door* (I did not forget the duty).  
+3 *Try asking somebody else* (an experiment — it might work) / *Try to ask somebody else* (make the effort — it may be difficult).  
+4 *He went on explaining* (continued the same explanation) / *He went on to explain* (moved to a new point).  
+5 *I regret telling him* (I did it and wish I had not) / *I regret to tell you* (a formal preface to bad news I am about to give).
+
+**3H** · Check — eight items
+1 thinking · 2 to think · 3 checking · 4 to check · 5 changing · 6 talking · 7 to say · 8 changing *(or* to be changed*)*
+
+**5C** · Comprehension — eight questions
+1 It was four; somebody was off; she picked up two more because the night rate is a third more and she has a daughter at university in Santiago.  
+2 Around night six she stopped thinking about it. The distinction is between stopping caring and stopping thinking — it went from a thing she was doing to the shape of the week.  
+3 Somebody asked if she was all right and she said she was fine. She remembers saying it and remembers meaning it.  
+4 At two she remembers checking a drug chart — a memory of an act. After that she does not remember checking it again, believes she did, and cannot say that she did.  
+5 Because the absence of harm is what prevents the system from looking: if nothing happened there is no form, no review and no change.  
+6 A form, a review, and the rota would have been looked at.  
+7 You are not going to notice night seven; nobody notices night seven; get somebody else to count for you.  
+8 Not your hands and not your judgement — your ability to be the person who is counting.
+
+**5D** · Vocabulary in context
+**picked up two** — took two extra shifts that were not hers · **the shape of the week** — the default pattern, no longer a decision · **a defence** — something that would excuse her, which she says this is not · **looked at** — formally reviewed · **the person who is counting** — the one keeping track, which is the capacity that fails first
+
+**5E** · The counter-text
+1 Twelve. Seven is the recommended maximum, and the two numbers sit one line apart.  
+2 Voluntary additional nights above seven require the approval of the department lead. Approval may be given retrospectively, and nothing requires the lead to be told in advance.  
+3 Nights 1–4 and 12 were on the printed rota; 5–6 and 7–9 were approved retrospectively; 10–11 have no approval recorded at all. Only four of the eleven were ever on a printed rota.  
+4 A minimum rest of 48 hours after a run. Between nights she averaged 9 h 20 min, including the journey.  
+5 Beside night 8, in biro: "C says she is fine. — asked 02.40". Somebody did ask, at twenty to three, and wrote it down.
+
+**6A** · Sort — *-ing*, *to*, or both with a change of meaning?
+> **both, with a change** — go on · try · forget · stop · prefer · remember · need
+> **to** — manage · decide
+> **-ing** — consider · avoid · resent · enjoy
+**The two with almost no change:** *prefer* (*prefer walking* / *prefer to walk*) and *need* in its ordinary sense (*need to change it* / *needs changing*, where the second is passive in meaning). Everything else in the first column changes meaning sharply.
+
+**6B** · Chunk completion
+1 on · 2 off · 3 to · 4 on · 5 up · 6 off
+
+**6C** · The three that are nearly a rule
+The rule: *-ing* points at something already real, *to* at something intended. Model pairs — *I stopped cycling to work* / *I stopped to buy milk*; *I remember posting it* / *I remembered to post it*; *I will never forget meeting her* / *I forgot to meet her*. The rule holds for all three, and the usual objection — *I stopped to think, which was intended* — is actually the rule working: the thinking was intended, and the stopping was for it.
+
+**6D** · The fixed expression
+**Honest:** *The rota went past seven and I knew it on night eight. I meant to. I did not, and the reason is that saying it would have left two shifts uncovered.* **Not honest:** *Somebody should have raised the rota two years ago. I meant to. It is really a matter for the department lead.* The second sentence is the same two words doing the opposite job: it converts an intention into a defence.
+
+**6E** · Contrast Clinic
+> **1** locking — a memory of having done it.
+> **2** to finish — make the effort; it may be difficult.
+> **3** working — he continued the same activity.
+> **4** to lock — the duty was not forgotten.
+> **5** smoking — the smoking ended.
+> **6** moving — an experiment; it might work.
+> **7** cleaning — passive in meaning (*needs to be cleaned*).
+> **8** to buy — she paused in order to.
+
+**7C** · Make it mean something
+*I didn't remember to check* is a confession: it says the duty was not done. *I don't remember checking* is a gap: it says only that the memory is missing. In a note the second is the one to write, because it is the one she can be sure is true — and the process note in Part 9 keeps exactly that sentence.
+
+**12A** · Recycle — twelve items
+1 thinking · 2 to think · 3 checking · 4 to check · 5 down · 6 turkey · 7 square · 8 off · 9 is having · 10 will have passed · 11 to replace · 12 waiting
+
