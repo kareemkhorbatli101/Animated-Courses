@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "tins",
+   "size": 28,
+   "bbox": [
+    151.8,
+    59.8,
+    211.4,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "eggs",
+   "size": 28,
+   "bbox": [
+    412.9,
+    59.8,
+    488.7,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sugar",
+   "size": 28,
+   "bbox": [
+    675.3,
+    59.8,
+    764.7,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "money",
+   "size": 28,
+   "bbox": [
+    936.4,
+    59.8,
+    1042.0,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "slices",
+   "size": 28,
+   "bbox": [
+    1214.3,
+    59.8,
+    1302.5,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a few",
+   "size": 34,
+   "bbox": [
+    326.0,
+    201.1,
+    430.0,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "a little",
+   "size": 34,
+   "bbox": [
+    999.3,
+    201.1,
+    1124.7,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five things this task counts, as chips above two empty bins, one for a few and one for a little. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "4fb7fa866218bcb0e6111e4ce06298f211ccd06002b4235daee128098001acac"
+}

@@ -11,13 +11,25 @@
  ],
  "texts": [
   {
-   "text": "Show me the first step and I will copy it.",
-   "size": 24,
+   "text": "Show me the first step and I will",
+   "size": 28,
    "bbox": [
-    86.2,
-    63.1,
-    633.8,
-    84.6
+    104.2,
+    43.7,
+    615.8,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "copy it.",
+   "size": 28,
+   "bbox": [
+    301.2,
+    77.7,
+    418.8,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -71,25 +83,49 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "stopping somebody who has run ahead",
-   "size": 22,
+   "text": "stopping somebody who has",
+   "size": 28,
    "bbox": [
-    861.3,
-    294.6,
-    1348.7,
-    314.6
+    879.8,
+    273.7,
+    1330.2,
+    298.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Do that part again and I will watch.",
-   "size": 26,
+   "text": "run ahead",
+   "size": 28,
    "bbox": [
-    100.5,
-    406.5,
-    619.5,
-    430.2
+    1024.9,
+    307.7,
+    1185.1,
+    332.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Do that part again and I will",
+   "size": 28,
+   "bbox": [
+    138.0,
+    388.7,
+    582.0,
+    413.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "watch.",
+   "size": 28,
+   "bbox": [
+    307.3,
+    422.7,
+    412.7,
+    447.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +152,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "df39a27a3ad3183147665c7f54304b1af23bfc28c5721fb15a9e6b52075125d7"
+ "sha256": "c1c07b30156d63793bd36872f5fc5d4a819a7cc76b8d534c8096202d5185fc27"
 }

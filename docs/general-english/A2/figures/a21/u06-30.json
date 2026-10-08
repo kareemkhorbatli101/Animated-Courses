@@ -23,13 +23,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "saying what you lost and where",
-   "size": 26,
+   "text": "saying what you lost and",
+   "size": 28,
    "bbox": [
-    871.9,
-    61.5,
-    1338.1,
-    85.2
+    907.6,
+    43.7,
+    1302.4,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "where",
+   "size": 28,
+   "bbox": [
+    1056.2,
+    77.7,
+    1153.8,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +128,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "edb8191a9cf2c446ddaf72bcb03fefb1cba129bc45c769e5373113c53466984b"
+ "sha256": "90d6288a33204ed76f8fdd87110e0f974a890f13fc510e4fe3aa14b141a5cfb0"
 }

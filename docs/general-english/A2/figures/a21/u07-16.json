@@ -59,13 +59,25 @@
    "on": "#1F3864"
   },
   {
-   "text": "Dani and the assistant",
-   "size": 28,
+   "text": "Dani and the",
+   "size": 32,
    "bbox": [
-    541.9,
-    290.1,
-    898.1,
-    314.6
+    604.4,
+    287.0,
+    835.6,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "assistant",
+   "size": 32,
+   "bbox": [
+    637.7,
+    325.0,
+    802.3,
+    353.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +140,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "8006b235a1e30f9cbea7671dffc63ce9e12474b79341bb2a1ca79de6b072fa11"
+ "sha256": "8db02f82decff17dc8cebeb72cc4bad39d901fc3ec80c6340ee1d00ab0f48dc6"
 }

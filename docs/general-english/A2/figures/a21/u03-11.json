@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  53,
+  19.7,
+  1387,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "The market opens at six every morning.",
+   "size": 32,
+   "bbox": [
+    142,
+    49.6,
+    862.9,
+    77.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    50.0,
+    105.4,
+    74.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Right now it is opening, and the first van is arriving.",
+   "size": 32,
+   "bbox": [
+    142,
+    141.1,
+    1088.8,
+    169.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    141.5,
+    105.4,
+    165.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Buses stop at this corner.",
+   "size": 32,
+   "bbox": [
+    142,
+    232.6,
+    602.3,
+    260.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    233.0,
+    105.4,
+    257.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "At the moment three buses are standing in a line.",
+   "size": 32,
+   "bbox": [
+    142,
+    324.1,
+    1044.6,
+    352.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    324.5,
+    105.4,
+    348.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four lines from the notice with the verb ringed in each: opens, is opening, stop, are standing. Two are always true and two are happening now, and the ring is what a correct underlining looks like.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "24f8a4a2ea13bf4445b40c8f76499472db57172501ec7c01ee96e056a633308d"
+}

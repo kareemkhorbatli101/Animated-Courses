@@ -35,25 +35,49 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "There are a garden behind the building.",
-   "size": 22,
+   "text": "There are a garden behind the",
+   "size": 28,
    "bbox": [
     134,
-    173.1,
-    630.4,
-    193.0
+    152.2,
+    616.7,
+    176.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "There is not many flats on this floor.",
-   "size": 26,
+   "text": "building.",
+   "size": 28,
    "bbox": [
     134,
-    277.4,
-    665.3,
-    301.1
+    186.2,
+    273.4,
+    210.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "There is not many flats on this",
+   "size": 28,
+   "bbox": [
+    134,
+    259.7,
+    616.9,
+    284.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "floor.",
+   "size": 28,
+   "bbox": [
+    134,
+    293.7,
+    213.7,
+    318.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -80,5 +104,5 @@
   6.260416666666667,
   2.03125
  ],
- "sha256": "21a1daa2063d531b193d65b0ecdb46eb882e95000fdbd5644e3d931dc484f0ff"
+ "sha256": "3655ca9f888d17e9616012b94e4d38b5923d325bcb552c3ea5034e51542b89a8"
 }

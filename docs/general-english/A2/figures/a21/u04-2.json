@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  420
+ ],
+ "bounds": [
+  51.0,
+  20.8,
+  1389.0,
+  398.8
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    46.3,
+    97.4,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Bottle",
+   "size": 30,
+   "bbox": [
+    125.4,
+    352.0,
+    228.2,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    350.2,
+    46.3,
+    369.0,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Slice",
+   "size": 30,
+   "bbox": [
+    408.3,
+    352.0,
+    488.5,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    621.8,
+    46.3,
+    640.6,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Basket",
+   "size": 30,
+   "bbox": [
+    662.6,
+    352.0,
+    777.4,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    893.4,
+    46.3,
+    912.2,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Receipt",
+   "size": 30,
+   "bbox": [
+    927.8,
+    352.0,
+    1055.4,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    1165.0,
+    46.3,
+    1183.8,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Flour",
+   "size": 30,
+   "bbox": [
+    1219.4,
+    352.0,
+    1307.0,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five warm-up words as numbered picture cards: bottle, slice, basket, receipt, flour.",
+ "placed_in": [
+  6.260416666666667,
+  1.8229166666666667
+ ],
+ "sha256": "db9115b9bec39e5e8c1584005c07b2e25f8aac67bf0e02fbc2af0374f592c8e2"
+}

@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "cheaper",
+   "size": 28,
+   "bbox": [
+    118.0,
+    59.8,
+    245.2,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the cheapest",
+   "size": 28,
+   "bbox": [
+    348.0,
+    59.8,
+    553.6,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "older",
+   "size": 28,
+   "bbox": [
+    679.2,
+    59.8,
+    760.8,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the lightest",
+   "size": 28,
+   "bbox": [
+    897.4,
+    59.8,
+    1081.0,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "worse",
+   "size": 28,
+   "bbox": [
+    1211.1,
+    59.8,
+    1305.7,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "two things",
+   "size": 34,
+   "bbox": [
+    276.1,
+    201.1,
+    479.9,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "more than two",
+   "size": 34,
+   "bbox": [
+    921.5,
+    201.1,
+    1202.5,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five comparing words of this task as chips above two empty bins, one for comparing two things and one for comparing more than two. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "7777f5d820b4dea7a97adbc33970be62efbadfc9de141e3f324e89ef4986de1e"
+}

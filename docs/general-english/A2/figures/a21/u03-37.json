@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the corner",
+   "size": 28,
+   "bbox": [
+    141.3,
+    331.2,
+    305.7,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the shop",
+   "size": 28,
+   "bbox": [
+    485.5,
+    331.2,
+    623.5,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the main road",
+   "size": 28,
+   "bbox": [
+    774.8,
+    331.2,
+    996.2,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the bus stop",
+   "size": 28,
+   "bbox": [
+    1117.6,
+    331.2,
+    1315.4,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two hundred metres the bus stop moved, drawn along one street: the corner it used to stand on, the shop outside it where people waiting bought bread, the main road it moved to, and the stop itself.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "a25b4a5458c913f429a714dda3a77707c59bb57fb29e8d9ad68169bcb9a7134b"
+}

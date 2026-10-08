@@ -71,13 +71,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I learned at thirty-four, with a patient teacher.",
-   "size": 24,
+   "text": "I learned at thirty-four, with a patient",
+   "size": 26,
    "bbox": [
     670,
-    172.7,
-    1222.6,
-    194.2
+    156.2,
+    1155.0,
+    179.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "teacher.",
+   "size": 26,
+   "bbox": [
+    670,
+    186.2,
+    775.5,
+    209.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +176,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "fd0e1bb78a55e63186802302ad436b40a0bb651f0fc45c400cfc9e28b56b74d7"
+ "sha256": "33d3df8331a03c9632e3a552de1688c6b65095fa3361f3fa7638174437deb856"
 }

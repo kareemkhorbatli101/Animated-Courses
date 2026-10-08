@@ -59,13 +59,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "What is the same every day",
+   "text": "What is the same every",
    "size": 30,
    "bbox": [
     190,
-    170.8,
-    660.1,
-    197.5
+    154.8,
+    589.3,
+    181.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "day",
+   "size": 30,
+   "bbox": [
+    190,
+    186.8,
+    250.4,
+    213.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -107,13 +119,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "At the moment she is putting the boxes into a van.",
-   "size": 22,
+   "text": "At the moment she is putting the boxes into",
+   "size": 26,
    "bbox": [
     670,
-    283.8,
-    1230.7,
-    303.8
+    265.6,
+    1244.1,
+    289.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a van.",
+   "size": 26,
+   "bbox": [
+    670,
+    295.6,
+    750.3,
+    319.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -131,13 +155,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "One more thing happening",
+   "text": "One more thing",
    "size": 30,
    "bbox": [
     190,
-    389.8,
-    643.7,
-    416.5
+    373.8,
+    453.9,
+    400.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "happening",
+   "size": 30,
+   "bbox": [
+    190,
+    405.8,
+    369.4,
+    432.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +200,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "4c0d62a3523ac0ff2b9dddae5022dafa6d1e1873cd3e16d273e154ca06a30fbd"
+ "sha256": "512631342fec35c5a060e964eb909b0248fb0cf9ab24879bd6febd3f70573fdd"
 }

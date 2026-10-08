@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "Don\u2019t to press it.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    402.1,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Do not press it.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1086.1,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You mix it well before you start.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    640.7,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Don\u2019t to press the leaves.",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    542.6,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Pour the water careful.",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    500.7,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "9bde31584a45642b97e05a245e4393782ac0a53d2d275b0eb1acdaa2de55df91"
+}

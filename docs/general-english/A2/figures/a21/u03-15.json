@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "The market is opening at six",
+   "size": 28,
+   "bbox": [
+    134,
+    44.7,
+    583.5,
+    69.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "every day.",
+   "size": 28,
+   "bbox": [
+    134,
+    78.7,
+    296.4,
+    103.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The market opens at six.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    44.7,
+    1233.3,
+    69.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The library is opening at nine",
+   "size": 28,
+   "bbox": [
+    134,
+    152.2,
+    599.5,
+    176.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "every day.",
+   "size": 28,
+   "bbox": [
+    134,
+    186.2,
+    296.4,
+    210.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Look! The traffic stop at the",
+   "size": 28,
+   "bbox": [
+    134,
+    259.7,
+    576.3,
+    284.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bridge.",
+   "size": 28,
+   "bbox": [
+    134,
+    293.7,
+    247.2,
+    318.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I am wanting a ticket for the six",
+   "size": 28,
+   "bbox": [
+    134,
+    367.2,
+    639.0,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "o\u2019clock bus.",
+   "size": 28,
+   "bbox": [
+    134,
+    401.2,
+    321.6,
+    425.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "a2466e34eec55d00fb6690274091924c19b45b087086b7368cb90defd07b8969"
+}

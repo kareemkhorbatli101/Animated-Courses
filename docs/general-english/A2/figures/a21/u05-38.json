@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  578
+ ],
+ "bounds": [
+  47.0,
+  28.7,
+  1393.0,
+  549.7
+ ],
+ "texts": [
+  {
+   "text": "Your job needs you at the weekend. What do you do?",
+   "size": 34,
+   "bbox": [
+    209.8,
+    65.7,
+    1230.2,
+    96.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Take the hours",
+   "size": 30,
+   "bbox": [
+    136.7,
+    366.9,
+    386.0,
+    393.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the pay is better",
+   "size": 26,
+   "bbox": [
+    153.5,
+    433.2,
+    369.1,
+    456.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you miss the dinner",
+   "size": 26,
+   "bbox": [
+    132.2,
+    477.2,
+    390.5,
+    500.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Ask to change to",
+   "size": 30,
+   "bbox": [
+    577.6,
+    366.9,
+    862.4,
+    393.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "weekdays",
+   "size": 30,
+   "bbox": [
+    636.7,
+    402.9,
+    803.3,
+    429.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you keep your weekend",
+   "size": 26,
+   "bbox": [
+    565.0,
+    469.2,
+    875.0,
+    492.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you lose the extra pay",
+   "size": 26,
+   "bbox": [
+    574.1,
+    513.2,
+    865.9,
+    536.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Protect one weekend",
+   "size": 30,
+   "bbox": [
+    999.6,
+    366.9,
+    1357.7,
+    393.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a month",
+   "size": 30,
+   "bbox": [
+    1108.9,
+    402.9,
+    1248.5,
+    429.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "easy to ask for",
+   "size": 26,
+   "bbox": [
+    1082.6,
+    469.2,
+    1274.7,
+    492.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you work the other three",
+   "size": 26,
+   "bbox": [
+    1016.4,
+    513.2,
+    1340.9,
+    536.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: take the hours for the better pay and miss the dinner; ask to change to weekdays and lose the extra pay; or keep the hours but protect one weekend a month, which is easy to ask for and hard to refuse.",
+ "placed_in": [
+  6.260416666666667,
+  2.5104166666666665
+ ],
+ "sha256": "509be00d2932e7514b9bb18bc5ea867345802f191eb5ca6deb2af179e23e3145"
+}

@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  599
+ ],
+ "bounds": [
+  47.0,
+  29.7,
+  1393.0,
+  568.9
+ ],
+ "texts": [
+  {
+   "text": "Something you own is broken. What do you do?",
+   "size": 34,
+   "bbox": [
+    262.8,
+    66.7,
+    1177.2,
+    97.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mend it",
+   "size": 30,
+   "bbox": [
+    197.3,
+    367.9,
+    325.4,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a tenth of a new one",
+   "size": 26,
+   "bbox": [
+    126.5,
+    434.2,
+    396.2,
+    457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you know this one",
+   "size": 26,
+   "bbox": [
+    142.8,
+    478.2,
+    379.9,
+    501.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Buy the cheapest new",
+   "size": 30,
+   "bbox": [
+    532.8,
+    367.9,
+    907.2,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one",
+   "size": 30,
+   "bbox": [
+    688.8,
+    403.9,
+    751.2,
+    430.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you pay less today",
+   "size": 26,
+   "bbox": [
+    597.7,
+    470.2,
+    842.3,
+    493.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "broken again by the",
+   "size": 26,
+   "bbox": [
+    589.7,
+    514.2,
+    850.3,
+    537.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "spring",
+   "size": 26,
+   "bbox": [
+    679.5,
+    545.2,
+    760.5,
+    568.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Save up and buy the",
+   "size": 30,
+   "bbox": [
+    1004.7,
+    367.9,
+    1352.6,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "best",
+   "size": 30,
+   "bbox": [
+    1141.7,
+    403.9,
+    1215.7,
+    430.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it lasts",
+   "size": 26,
+   "bbox": [
+    1135.6,
+    470.2,
+    1221.7,
+    493.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you wait and you pay",
+   "size": 26,
+   "bbox": [
+    1038.7,
+    514.2,
+    1318.7,
+    537.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "more",
+   "size": 26,
+   "bbox": [
+    1145.0,
+    545.2,
+    1212.3,
+    568.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: mend it for a tenth of a new one; buy the cheapest, which is broken again by the spring; or save up and buy the best, which lasts but makes you wait and pay more.",
+ "placed_in": [
+  6.260416666666667,
+  2.6041666666666665
+ ],
+ "sha256": "0e283d2ab5ac189743d8f943d2c40ef4d2adcc036040e11dca525c156075eb84"
+}

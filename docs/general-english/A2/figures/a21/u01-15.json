@@ -59,13 +59,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "He work at the hospital every night.",
-   "size": 26,
+   "text": "He work at the hospital every",
+   "size": 28,
    "bbox": [
     134,
-    385.0,
-    665.3,
-    408.6
+    367.2,
+    603.0,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "night.",
+   "size": 28,
+   "bbox": [
+    134,
+    401.2,
+    227.5,
+    425.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -80,5 +92,5 @@
   6.260416666666667,
   2.03125
  ],
- "sha256": "c55ada2079214882ce9ecfbb1548a45977ea43d21eafb470b6eccec8f5f7fa5f"
+ "sha256": "e7d201177f984e99092608a0c1ee26a6f6354e885e545dc3b6858d3bc742954a"
 }

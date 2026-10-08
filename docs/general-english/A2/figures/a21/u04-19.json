@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "How often do you shop",
+   "size": 28,
+   "bbox": [
+    86.1,
+    323.7,
+    449.9,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "for food, and where?",
+   "size": 28,
+   "bbox": [
+    103.7,
+    357.7,
+    432.3,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What is always in your",
+   "size": 28,
+   "bbox": [
+    541.8,
+    289.7,
+    898.2,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "kitchen, and what do",
+   "size": 28,
+   "bbox": [
+    553.4,
+    323.7,
+    886.6,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you never buy?",
+   "size": 28,
+   "bbox": [
+    599.3,
+    357.7,
+    840.7,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Is there a food from",
+   "size": 28,
+   "bbox": [
+    1014.4,
+    289.7,
+    1329.6,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "your country that is",
+   "size": 28,
+   "bbox": [
+    1015.2,
+    323.7,
+    1328.8,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hard to find here?",
+   "size": 28,
+   "bbox": [
+    1030.4,
+    357.7,
+    1313.6,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "4e11e3c7103ee591dedb05f36fc1e98d7f0e940845044696cc6e9623f7c16ca0"
+}

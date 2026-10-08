@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  700
+ ],
+ "bounds": [
+  67,
+  30.0,
+  1373,
+  670.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    93.1,
+    143.1,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the train and the day",
+   "size": 30,
+   "bbox": [
+    190,
+    94.7,
+    548.3,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Good morning.",
+   "size": 26,
+   "bbox": [
+    670,
+    95.0,
+    863.1,
+    118.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    256.1,
+    143.1,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "where you sat",
+   "size": 30,
+   "bbox": [
+    190,
+    257.7,
+    429.4,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I travelled on the ten past four from.",
+   "size": 26,
+   "bbox": [
+    670,
+    258.0,
+    1145.6,
+    281.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    419.1,
+    143.1,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a description somebody",
+   "size": 30,
+   "bbox": [
+    190,
+    420.7,
+    594.9,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It is open at one corner.",
+   "size": 26,
+   "bbox": [
+    670,
+    421.0,
+    978.8,
+    444.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    582.1,
+    143.1,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "how to reach you",
+   "size": 30,
+   "bbox": [
+    190,
+    583.7,
+    482.0,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is nothing expensive.",
+   "size": 26,
+   "bbox": [
+    670,
+    584.0,
+    1029.6,
+    607.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in four steps -- the train and the day, where you sat, a description somebody, how to reach you -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  3.0416666666666665
+ ],
+ "sha256": "2f3d7b1db85b26451c27949fea6d0b6135a06740c7ad1b78bf7895c7646a09a4"
+}

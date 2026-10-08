@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "How much are the tomatoes?",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    777.4,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Stallholder",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    272.9,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "How many do you want?",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    524.3,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "And a little parsley.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    612.7,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Stallholder",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    272.9,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Parsley\u2019s free with the tomatoes.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    676.6,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Yuki: How much are the tomatoes? Stallholder: How many do you want? Yuki: And a little parsley. Stallholder: Parsley\u2019s free with the tomatoes.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "dc3560223123c90051dfb7385fc795fdc1074066c1c3f5bf7c5eb8cd72d713f5"
+}

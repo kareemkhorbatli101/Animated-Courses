@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  698
+ ],
+ "bounds": [
+  53,
+  30.0,
+  1387,
+  668.0
+ ],
+ "texts": [
+  {
+   "text": "receipt",
+   "size": 40,
+   "bbox": [
+    112,
+    80.6,
+    271.2,
+    116.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "vegetable",
+   "size": 40,
+   "bbox": [
+    112,
+    188.6,
+    336.6,
+    224.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "basket",
+   "size": 40,
+   "bbox": [
+    112,
+    296.6,
+    263.2,
+    332.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "expensive",
+   "size": 40,
+   "bbox": [
+    112,
+    404.6,
+    339.9,
+    440.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "sugar",
+   "size": 40,
+   "bbox": [
+    112,
+    512.6,
+    239.7,
+    548.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "aisle",
+   "size": 40,
+   "bbox": [
+    112,
+    620.6,
+    217.4,
+    656.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Where the stress falls in six words of this unit. Each word has a bar above every syllable, tall and dark where the stress falls and short and pale elsewhere, and the same pattern again at the right as one large dot among small ones.",
+ "placed_in": [
+  6.260416666666667,
+  3.03125
+ ],
+ "sha256": "eda968b46e54c0e2a89a804a602a05419506c04dcfcc86d3fd182a23d6a0e0dd"
+}

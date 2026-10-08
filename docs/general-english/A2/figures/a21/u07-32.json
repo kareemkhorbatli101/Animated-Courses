@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  462
+ ],
+ "bounds": [
+  53,
+  22.9,
+  1387,
+  438.9
+ ],
+ "texts": [
+  {
+   "text": "Decide what you want.",
+   "size": 30,
+   "bbox": [
+    280,
+    60.1,
+    666.7,
+    86.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Say what went wrong.",
+   "size": 30,
+   "bbox": [
+    280,
+    166.1,
+    656.6,
+    192.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Ask what they can do.",
+   "size": 30,
+   "bbox": [
+    280,
+    272.1,
+    654.9,
+    298.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Show the receipt.",
+   "size": 30,
+   "bbox": [
+    280,
+    378.1,
+    579.0,
+    404.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four steps still to be numbered, in the order the task prints them and not in the right order, each with an empty box at the left for its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.0104166666666665
+ ],
+ "sha256": "6fa052292c342c399a7487f0dec0d4e250e0023c03de099c1373da5659e0ee01"
+}

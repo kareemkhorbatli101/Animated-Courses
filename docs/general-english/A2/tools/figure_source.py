@@ -82,6 +82,64 @@ def pronunciation(lines):
     return out
 
 
+PRON_LINE = re.compile(r'^>\s*(.+?)\s*[\u2014\u2013]\s*\*\*(.+?)\*\*\s*(.*)$')
+
+
+def pron_kind(lines):
+    """What the Pronunciation sub-section actually teaches, and its rows.
+
+    Four different things across ten units, and one figure job cannot draw all
+    four honestly:
+
+      stress  `routine - **rou-TINE**`              -> sound_shape
+      sound   `walked - **/t/**`                    -> sound_groups
+      pair    `go - **went**`                       -> function_map
+      beat    `I can swim - **can** is weak: /ken/` -> annotated_lines
+
+    Returns (kind, rows).
+    """
+    rows = []
+    for l in lines:
+        m = PRON_LINE.match(l.strip())
+        if m:
+            rows.append((_clean(m.group(1)), m.group(2).strip(),
+                         _clean(m.group(3))))
+    if not rows:
+        # Unit 10 marks the beat by bolding the word INSIDE the phrase rather
+        # than naming it after a dash: `**Mix** it well - the verb takes the
+        # beat`. Same teaching point, other way round on the line.
+        beats = []
+        for l in lines:
+            m = re.match(r'^>\s*(.*?\*\*(.+?)\*\*.*?)\s*[\u2014\u2013]\s*\S',
+                         l.strip())
+            if m:
+                beats.append((_clean(m.group(1)), _clean(m.group(2))))
+        if beats:
+            return 'beat', beats
+        return 'none', []
+    if any(t for _, _, t in rows):
+        return 'beat', [(a, b) for a, b, _ in rows if t_ok(a)]
+    if all(b.startswith('/') for _, b, _ in rows):
+        groups = {}
+        for a, b, _ in rows:
+            groups.setdefault(b, []).append(a)
+        return 'sound', list(groups.items())
+    if all(re.fullmatch(r"[A-Za-z\u2019'-]+", b) for _, b, _ in rows) \
+            and any(c.isupper() for _, b, _ in rows for c in b) \
+            and any('-' in b for _, b, _ in rows):
+        out = []
+        for a, b, _ in rows:
+            syls = b.split('-')
+            st = next((i for i, x in enumerate(syls) if x.isupper()), 0)
+            out.append((a, [x.lower() for x in syls], st))
+        return 'stress', out
+    return 'pair', [(a, b) for a, b, _ in rows]
+
+
+def t_ok(_s):
+    return True
+
+
 def numbered(lines):
     return [_clean(m.group(1)) for l in lines
             for m in [re.match(r'^\d+\.\s+(.*\S)\s*$', l)] if m]
@@ -234,6 +292,41 @@ def dump(book, num):
     return u, body
 
 
+
+# The seven slots a parser cannot decide, and only what is needed to decide
+# them. Printing the whole unit for each one is how the context gets spent.
+DECIDE = {10: ('Part 1', 7), 11: ('Part 2', 1), 14: ('Part 2', 4),
+          22: ('Part 4', 4), 36: ('Part 8', 1), 37: ('Part 9', None),
+          38: ('Part 9', 1)}
+
+
+def decide(book, num):
+    ctx = R.load_ctx(book)
+    units, ctx._keys = R.discover(book)
+    u = [x for x in units if x.num == num][0]
+    print(f'##### {book} u{num:02d}: {u.title}')
+    for slot in sorted(DECIDE):
+        part, idx = DECIDE[slot]
+        p = u.part(part)
+        lines = p.leading if idx is None else p.subs[idx - 1].lines
+        head = part if idx is None else p.subs[idx - 1].heading
+        print(f'\n-- {slot} {JOB[slot]} [{head}]')
+        print(f'   task: {task(lines)}')
+        if slot == 10:
+            print(f'   model: {model(lines)}')
+        if slot == 11:
+            print(f'   lines: {json.dumps(sentences(notice(lines)), ensure_ascii=False)}')
+        if slot == 14:
+            print(f'   items: {json.dumps(numbered(lines), ensure_ascii=False)[:800]}')
+        if slot == 36:
+            print(f'   colA: {column_a(lines)}')
+        if slot == 37:
+            print(f'   reading: {reading(lines)}')
+        if slot == 38:
+            print(f'   model: {model(lines)}')
+
+
 if __name__ == '__main__':
-    dump(sys.argv[1] if len(sys.argv) > 1 else 'a21',
-         int(sys.argv[2]) if len(sys.argv) > 2 else 1)
+    _b = sys.argv[1] if len(sys.argv) > 1 else 'a21'
+    _n = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+    (decide if '--decide' in sys.argv else dump)(_b, _n)

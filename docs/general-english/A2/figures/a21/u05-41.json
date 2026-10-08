@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "museum",
+   "size": 28,
+   "bbox": [
+    108.3,
+    287.7,
+    242.1,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "picnic",
+   "size": 28,
+   "bbox": [
+    401.4,
+    287.7,
+    493.8,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "concert",
+   "size": 28,
+   "bbox": [
+    660.7,
+    287.7,
+    779.3,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "guest",
+   "size": 28,
+   "bbox": [
+    947.9,
+    287.7,
+    1036.9,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "beach",
+   "size": 28,
+   "bbox": [
+    1217.6,
+    287.7,
+    1312.0,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "forest",
+   "size": 28,
+   "bbox": [
+    128.1,
+    608.7,
+    222.3,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "village",
+   "size": 28,
+   "bbox": [
+    395.1,
+    608.7,
+    500.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "path",
+   "size": 28,
+   "bbox": [
+    683.9,
+    608.7,
+    756.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "windy",
+   "size": 28,
+   "bbox": [
+    945.5,
+    608.7,
+    1039.3,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cloudy",
+   "size": 28,
+   "bbox": [
+    1213.0,
+    608.7,
+    1316.6,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 5 as picture cards on one page: museum, picnic, concert, guest, beach, forest, village, path, windy, cloudy.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "a67c19274ec9810fb17f3b054d18c778a55cbb0c40e5abf96633cabcc92518c4"
+}

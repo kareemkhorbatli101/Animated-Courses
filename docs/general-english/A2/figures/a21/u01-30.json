@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Let me show you where the post boxes are.",
-   "size": 22,
+   "text": "Let me show you where the post",
+   "size": 28,
    "bbox": [
-    88.9,
-    179.6,
-    631.1,
-    199.6
+    102.4,
+    158.7,
+    617.6,
+    183.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "boxes are.",
+   "size": 28,
+   "bbox": [
+    277.5,
+    192.7,
+    442.5,
+    217.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -59,13 +71,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "The shop closes early on Saturday.",
-   "size": 26,
+   "text": "The shop closes early on",
+   "size": 28,
    "bbox": [
-    104.8,
-    291.5,
-    615.2,
-    315.2
+    165.3,
+    273.7,
+    554.7,
+    298.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Saturday.",
+   "size": 28,
+   "bbox": [
+    284.7,
+    307.7,
+    435.3,
+    332.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +140,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "2a378b02fc1980c07f2e9fe7f1607a7629ab770b523aa71b49f804e31316fd73"
+ "sha256": "d0e0f11c7b6e8269208ee8348ad489736278c692b3df4591341168452ffa1faf"
 }

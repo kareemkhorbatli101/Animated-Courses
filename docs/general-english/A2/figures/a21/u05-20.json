@@ -1,0 +1,216 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the lake",
+   "size": 26,
+   "bbox": [
+    83.3,
+    281.6,
+    201.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "windy",
+   "size": 26,
+   "bbox": [
+    244.0,
+    281.6,
+    331.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "but",
+   "size": 26,
+   "bbox": [
+    262.7,
+    313.6,
+    312.3,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "warm",
+   "size": 26,
+   "bbox": [
+    246.8,
+    345.6,
+    328.2,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "with a",
+   "size": 26,
+   "bbox": [
+    387.3,
+    281.6,
+    477.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "friend",
+   "size": 26,
+   "bbox": [
+    388.6,
+    313.6,
+    476.4,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "back at",
+   "size": 26,
+   "bbox": [
+    523.6,
+    281.6,
+    631.4,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "six",
+   "size": 26,
+   "bbox": [
+    556.9,
+    313.6,
+    598.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the lake",
+   "size": 26,
+   "bbox": [
+    803.3,
+    281.6,
+    921.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "windy",
+   "size": 26,
+   "bbox": [
+    964.0,
+    281.6,
+    1051.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "and cold",
+   "size": 26,
+   "bbox": [
+    945.2,
+    313.6,
+    1069.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "alone",
+   "size": 26,
+   "bbox": [
+    1112.3,
+    281.6,
+    1192.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back at",
+   "size": 26,
+   "bbox": [
+    1243.6,
+    281.6,
+    1351.4,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six",
+   "size": 26,
+   "bbox": [
+    1276.9,
+    313.6,
+    1318.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\\u2019s facts on the left and Student B\\u2019s on the right, with a fold line between them, so each student sees only their own -- which is what the task has always asked for and a pair of prose lists on one page cannot give.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "3f8f3c29c2507f1f40f1d0f70a33cc73a1e5912c54fa8a75bcc33cf3fc836cb5"
+}

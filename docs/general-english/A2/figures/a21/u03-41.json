@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "market",
+   "size": 28,
+   "bbox": [
+    119.1,
+    287.7,
+    231.3,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bridge",
+   "size": 28,
+   "bbox": [
+    396.3,
+    287.7,
+    498.9,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "crossing",
+   "size": 28,
+   "bbox": [
+    653.7,
+    287.7,
+    786.3,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bench",
+   "size": 28,
+   "bbox": [
+    944.6,
+    287.7,
+    1040.2,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "library",
+   "size": 28,
+   "bbox": [
+    1212.8,
+    287.7,
+    1316.8,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "traffic",
+   "size": 28,
+   "bbox": [
+    128.2,
+    608.7,
+    222.2,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "crowd",
+   "size": 28,
+   "bbox": [
+    399.8,
+    608.7,
+    495.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ticket",
+   "size": 28,
+   "bbox": [
+    675.1,
+    608.7,
+    764.9,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "timetable",
+   "size": 28,
+   "bbox": [
+    916.4,
+    608.7,
+    1068.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "fare",
+   "size": 28,
+   "bbox": [
+    1232.9,
+    608.7,
+    1296.7,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 3 as picture cards on one page: market, bridge, crossing, bench, library, traffic, crowd, ticket, timetable, fare.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "0a1b8ef7fe08202d1f5a27247502847f008e5e834094949af19790c48eefa4f7"
+}

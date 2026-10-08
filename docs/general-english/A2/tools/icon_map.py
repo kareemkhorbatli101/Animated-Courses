@@ -8,11 +8,70 @@ believes it. The map is explicit, auditable with `--review`, and every choice
 it cannot make it says so rather than guessing.
 """
 from __future__ import annotations
-import re
+import os, re
 
 # The order matters: the first key found in the label wins, so longer and more
 # specific keys come first within each block.
 MAP = [
+    ('careful', 'magnifier'), ('might', 'question'), ('reason', 'question'),
+    ('should', 'list'), ('where', 'pin'), ('who', 'person'),
+    ('will', 'arrow_right'), ('habit', 'cup'), ('opened', 'door'),
+    # A2.2 vocabulary (Units 11-20), mapped once for the whole volume
+    ('second-hand', 'box'), ('hand-made', 'hands'), ('has never', 'before_now'),
+    ('has not changed', 'before_now'), ('have been', 'before_now'),
+    ('am going to', 'arrow_right'), ('am meeting', 'calendar'),
+    ('is produced', 'factory'), ('will stay', 'arrow_right'),
+    ('don\u2019t have to', 'cross'), ('do not have to', 'cross'),
+    ('mustn\u2019t', 'cross'), ('shouldn\u2019t', 'cross'), ('must not', 'cross'),
+    ('actor', 'mask'), ('athlete', 'runner'), ('builder', 'hammer'),
+    ('singer', 'microphone'), ('waiter', 'tray'), ('tailor', 'needle'),
+    ('artist', 'palette'), ('painter', 'brush'), ('author', 'pencil'),
+    ('farmer', 'vegetable'), ('dentist', 'tooth'), ('pharmacist', 'pill'),
+    ('reporter', 'newspaper'), ('guide', 'notice'), ('host', 'guest'),
+    ('member', 'certificate'), ('witness', 'magnifier'),
+    ('warning', 'warning'), ('danger', 'warning'), ('risk', 'warning'),
+    ('emergency', 'siren'), ('urgent', 'siren'), ('accident', 'siren'),
+    ('ancient', 'temple'), ('temple', 'temple'), ('century', 'calendar'),
+    ('period', 'calendar'), ('custom', 'calendar'), ('dated', 'calendar'),
+    ('nowadays', 'screen'), ('modern', 'screen'), ('sensor', 'screen'),
+    ('abroad', 'plane'), ('adventure', 'mountain'), ('peak', 'mountain'),
+    ('tour', 'path'), ('holiday', 'tent'), ('shelter', 'tent'),
+    ('hotel', 'home'), ('indoors', 'home'), ('desert', 'sun'),
+    ('monsoon', 'rain'), ('storm', 'rain'), ('shower', 'rain'),
+    ('flood', 'water'), ('reservoir', 'water'), ('sewage', 'water'),
+    ('dam', 'bridge'), ('fog', 'cloud'), ('forecast', 'cloud'),
+    ('freeze', 'snow'), ('ice', 'snow'), ('earthquake', 'crack'),
+    ('fever', 'thermometer'), ('temperature', 'thermometer'),
+    ('degree', 'thermometer'), ('symptom', 'thermometer'),
+    ('headache', 'pill'), ('pain', 'pill'), ('sick', 'bed'), ('ward', 'bed'),
+    ('healthy', 'apple'), ('throat', 'person'), ('triage', 'list'),
+    ('article', 'newspaper'), ('news', 'newspaper'), ('diary', 'notebook'),
+    ('announcement', 'loudspeaker'), ('rumour', 'speech'),
+    ('compliment', 'speech'), ('nickname', 'speech'), ('excuse', 'speech'),
+    ('description', 'speech'), ('promised', 'speech'), ('told', 'speech'),
+    ('said', 'speech'), ('interview', 'speech'), ('silence', 'moon'),
+    ('calm', 'moon'), ('reply', 'envelope'), ('invite', 'envelope'),
+    ('law', 'plaque'), ('licence', 'certificate'), ('fee', 'coins'),
+    ('luck', 'star'), ('experience', 'star'), ('spontaneous', 'star'),
+    ('exhibition', 'museum'), ('festival', 'concert'), ('party', 'concert'),
+    ('stage', 'concert'), ('rehearse', 'concert'), ('material', 'cloth'),
+    ('wool', 'cloth'), ('pattern', 'cloth'), ('membrane', 'cloth'),
+    ('smooth', 'cloth'), ('weave', 'loom'), ('metal', 'chain'),
+    ('plastic', 'bottle'), ('glass', 'bottle'), ('gas', 'factory'),
+    ('engine', 'factory'), ('machine', 'factory'), ('produce', 'factory'),
+    ('waste', 'bin'), ('recycle', 'recycling'), ('drill', 'spanner'),
+    ('rebuild', 'hammer'), ('memory', 'before_now'), ('childhood', 'person'),
+    ('meeting', 'crowd'), ('prepare', 'list'), ('private', 'key'),
+    ('remind', 'alarm'), ('jam', 'traffic'), ('centre', 'pin'),
+    ('fairness', 'scales'), ('trust', 'hands'), ('reassure', 'hands'),
+    ('obey', 'tick'), ('allowed', 'tick'), ('safe', 'tick'),
+    ('harmless', 'tick'), ('certainty', 'tick'), ('false', 'cross'),
+    ('smoking', 'cross'), ('chance', 'question'), ('probably', 'question'),
+    ('unless', 'question'), ('version', 'many_things'), ('minor', 'stones'),
+    ('strip', 'ruler'), ('straight', 'arrow_up'), ('ending', 'arrow_right'),
+    ('arrival', 'airport'), ('text', 'mobile'), ('taste', 'cup'),
+    ('harvest', 'vegetable'), ('plant', 'garden'), ('uniform', 'guard'),
+    ('fashion', 'coat'), ('detail', 'magnifier'),
     # grammar terms that appear as word-bank items
     ('there is', 'one_thing'), ('there are', 'many_things'),
     ('present simple', 'home'), ('present continuous', 'bus'),
@@ -21,6 +80,40 @@ MAP = [
     ('any', 'question'), ('countable', 'stones'), ('uncountable', 'bottle'),
     ('shade', 'tree'), ('council', 'plaque'), ('permission', 'tick'),
     ('neither', 'cross'), ('both', 'many_things'),
+    # Units 3-10 vocabulary, mapped once rather than unit by unit
+    ('the cheapest', 'pricetag'), ('a few', 'stones'), ('a little', 'bottle'),
+    ('is opening', 'door'), ('opens', 'calendar'), ('do not', 'cross'), ('switchback', 'zigzag'),
+    ('second-hand', 'box'),
+    ('escalator', 'escalator'), ('underground', 'network'),
+    ('network', 'network'), ('connection', 'chain'), ('link', 'chain'),
+    ('chain', 'chain'), ('diagram', 'network'), ('route', 'path'),
+    ('carriage', 'tram'), ('passenger', 'guest'), ('queue', 'crowd'),
+    ('platform', 'tram'), ('landmark', 'bridge'), ('pole', 'sign'),
+    ('width', 'ruler'), ('scale', 'scales'), ('level', 'stairs'),
+    ('ladder', 'ladder'), ('summit', 'mountain'), ('mountain', 'mountain'),
+    ('zigzag', 'zigzag'), ('lake', 'water'), ('umbrella', 'umbrella'),
+    ('sunny', 'sun'), ('boots', 'shoe'), ('sole', 'shoe'),
+    ('tyre', 'tyre'), ('cinema', 'screen'), ('audience', 'crowd'),
+    ('generation', 'crowd'), ('union', 'crowd'), ('stranger', 'person'),
+    ('owner', 'person'), ('expert', 'teacher'), ('membership', 'certificate'),
+    ('survey', 'list'), ('campaign', 'loudspeaker'), ('trade', 'hands'),
+    ('agreement', 'hands'), ('haggle', 'speech'), ('informal', 'speech'),
+    ('explanation', 'speech'), ('assume', 'question'), ('obvious', 'magnifier'),
+    ('trial', 'magnifier'), ('carefully', 'magnifier'), ('avoid', 'cross'),
+    ('missed', 'cross'), ('caught', 'bus'), ('rested', 'bed'),
+    ('burnout', 'bed'), ('productivity', 'arrow_up'), ('progress', 'arrow_up'),
+    ('finally', 'tick'), ('could', 'tick'), ('can', 'tick'), ('skill', 'star'),
+    ('craft', 'needle'), ('design', 'pencil'), ('draft', 'pencil'),
+    ('colour', 'palette'), ('label', 'plaque'), ('stock', 'box'),
+    ('credit', 'wallet'), ('afford', 'coins'), ('margin', 'coins'),
+    ('change', 'coins'), ('cheaper', 'pricetag'), ('choice', 'question'),
+    ('deliver', 'envelope'), ('flour', 'sugar'), ('vegetable', 'vegetable'),
+    ('dish', 'bowl'), ('heavier', 'scales'), ('trip', 'suitcase'),
+    ('factory', 'factory'), ('facing', 'arrow_right'),
+    ('was', 'before_now'), ('were', 'before_now'), ('went', 'before_now'),
+    ('did', 'before_now'), ('yesterday', 'before_now'), ('ago', 'before_now'),
+    ('last night', 'before_now'), ('past', 'before_now'),
+    ('at', 'pin'), ('in', 'pin'), ('on', 'pin'),
     # people and roles
     ('shop assistant', 'shop'), ('bus driver', 'bus'), ('station staff', 'guard'),
     ('neighbour', 'home'), ('flatmate', 'person'), ('colleague', 'nurse'),
@@ -123,7 +216,23 @@ MAP = [
     ('water', 'water'), ('hot', 'thermometer'), ('cold', 'snow'),
 ]
 
-_INDEX = [(k, v) for k, v in MAP]
+def _norm(t):
+    """One normalisation, used on the label AND on every key.
+
+    The label was normalised and the keys were not, so `don\u2019t have to`
+    could never match its own entry: the label became "don t have to" and the
+    key still carried the apostrophe.
+    """
+    t = re.sub(r"[^a-z0-9 -]", ' ', (t or '').lower())
+    return ' ' + re.sub(r'\s+', ' ', t).strip() + ' '
+
+
+_INDEX = [(_norm(k).strip(), v) for k, v in MAP]
+
+
+ICON_NAMES = set(re.findall(r"name == '([a-z_]+)'", open(
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), 'figures.py'),
+    encoding='utf-8').read()))
 
 
 def pick(label: str, default: str | None = None) -> str | None:
@@ -133,14 +242,20 @@ def pick(label: str, default: str | None = None) -> str | None:
     where it is a phrase, so `bus stop` beats `bus` and `shelf` does not fire
     on `herself`.
     """
-    t = re.sub(r'[^a-z0-9 \-]', ' ', (label or '').lower())
-    t = ' ' + re.sub(r'\s+', ' ', t).strip() + ' '
+    t = _norm(label)
     for key, icon in _INDEX:
         if ' ' in key or '-' in key:
             if key in t:
                 return icon
         elif f' {key} ' in t or f' {key}s ' in t or f' {key}ing ' in t:
             return icon
+    # A label that IS an icon name needs no map entry. Eight words of A2.2
+    # vocabulary -- envelope, guard, record, stamp, loom, loudspeaker,
+    # painting, lamp -- had a glyph drawn for them already and were still
+    # reported as unmapped, because the map only knew about synonyms.
+    for w in (t.strip(), t.strip().replace(' ', '_'), t.strip().rstrip('s')):
+        if w in ICON_NAMES:
+            return w
     return default
 
 

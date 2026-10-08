@@ -107,13 +107,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I can use the present simple for facts and the present continuous for now.",
-   "size": 44,
+   "text": "I can use the present simple for facts and the present",
+   "size": 56,
    "bbox": [
     310,
-    2478.0,
-    2157.8,
-    2516.6
+    2469.4,
+    2016.3,
+    2518.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "continuous for now.",
+   "size": 56,
+   "bbox": [
+    310,
+    2535.4,
+    936.2,
+    2584.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,9 +135,9 @@
    "size": 56,
    "bbox": [
     310,
-    2599.4,
+    2665.4,
     2222.9,
-    2648.4
+    2714.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +176,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "7651990bc119530d25b401d784ff20877d1e7bf76cc985839f1038da95ee975a"
+ "sha256": "9f8cb3d7213ad344e52b21369c0f2c697ddb92f450ebf5cd2e3750ebf4251a3d"
 }

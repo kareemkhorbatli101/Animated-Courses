@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "luggage",
+   "size": 30,
+   "bbox": [
+    143.2,
+    258.6,
+    279.8,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "delay",
+   "size": 30,
+   "bbox": [
+    505.0,
+    258.6,
+    596.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "charger",
+   "size": 30,
+   "bbox": [
+    824.1,
+    258.6,
+    954.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "coach",
+   "size": 30,
+   "bbox": [
+    1179.6,
+    258.6,
+    1277.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: luggage, delay, charger, coach.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "c7e21378fa3e30445a8f0d74843a0c3f5194ac28c9f29b1dfff58539017129a2"
+}

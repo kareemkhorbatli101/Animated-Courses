@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask carefully",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    339.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the detail",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    367.2,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "accept the no",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    353.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask the next question",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    481.9,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 refusing",
+   "size": 34,
+   "bbox": [
+    898.1,
+    58.2,
+    1241.9,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask one question first",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1182.0,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say no clearly",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1055.3,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the real reason",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1155.2,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer somebody else",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1158.1,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 asking: ask carefully, give the detail, accept the no, ask the next question. Card B \u2014 refusing: ask one question first, say no clearly, give the real reason, offer somebody else.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "b2e464fca9085eabf9ce001eac147613ab10fbf7b53704f6aa0feaea9416e80d"
+}

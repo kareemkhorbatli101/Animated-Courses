@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "lend",
+   "size": 30,
+   "bbox": [
+    174.8,
+    258.6,
+    248.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "instrument",
+   "size": 30,
+   "bbox": [
+    456.8,
+    258.6,
+    644.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "patient",
+   "size": 30,
+   "bbox": [
+    828.3,
+    258.6,
+    950.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "beginner",
+   "size": 30,
+   "bbox": [
+    1152.8,
+    258.6,
+    1304.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: lend, instrument, patient, beginner.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "83b24d7a1b3fb12ac40a8480da5780f464f21266baf848fae25d9b593b793234"
+}

@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "take",
+   "size": 28,
+   "bbox": [
+    147.0,
+    59.8,
+    216.2,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "walk",
+   "size": 28,
+   "bbox": [
+    414.3,
+    59.8,
+    487.3,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sleep",
+   "size": 28,
+   "bbox": [
+    677.9,
+    59.8,
+    762.1,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "arrive",
+   "size": 28,
+   "bbox": [
+    942.5,
+    59.8,
+    1035.9,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "pay",
+   "size": 28,
+   "bbox": [
+    1230.2,
+    59.8,
+    1286.6,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "adds -ed",
+   "size": 34,
+   "bbox": [
+    295.4,
+    201.1,
+    460.6,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "changes instead",
+   "size": 34,
+   "bbox": [
+    905.2,
+    201.1,
+    1218.8,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five verbs of this task as chips above two empty bins, one for the verbs that add -ed and one for the verbs that change instead. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "e4910002bd821874dea84f4cca31b5f4a3f2bd9b563e37fdc3a69a28073067ee"
+}

@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "quality",
+   "size": 30,
+   "bbox": [
+    152.7,
+    258.6,
+    270.3,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "battery",
+   "size": 30,
+   "bbox": [
+    487.9,
+    258.6,
+    613.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "repair",
+   "size": 30,
+   "bbox": [
+    838.5,
+    258.6,
+    940.5,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "brand",
+   "size": 30,
+   "bbox": [
+    1178.8,
+    258.6,
+    1278.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: quality, battery, repair, brand.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "ca715027318ad9ebee3dff5f9535bf60410f37d510534f9bb1302e8e0c6b988d"
+}

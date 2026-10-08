@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say where you came",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    458.9,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "from",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    212.4,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "name the place",
+   "size": 28,
+   "bbox": [
+    138.0,
+    234.9,
+    380.9,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask how far",
+   "size": 28,
+   "bbox": [
+    138.0,
+    290.9,
+    321.6,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "repeat the last step",
+   "size": 28,
+   "bbox": [
+    138.0,
+    346.9,
+    451.3,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back",
+   "size": 28,
+   "bbox": [
+    138.0,
+    380.9,
+    212.2,
+    405.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 telling",
+   "size": 34,
+   "bbox": [
+    916.4,
+    58.2,
+    1223.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask where they are first",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1215.7,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two steps only",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1068.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one landmark",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1054.9,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what too far looks",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1188.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "like",
+   "size": 28,
+   "bbox": [
+    838.0,
+    350.9,
+    894.0,
+    375.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 asking: say where you came from, name the place, ask how far, repeat the last step back. Card B \u2014 telling: ask where they are first, two steps only, one landmark, say what too far looks like.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "629a810e54dba09602a0a61a7474539088473a24d5d6bce4615b6e78167f1a32"
+}

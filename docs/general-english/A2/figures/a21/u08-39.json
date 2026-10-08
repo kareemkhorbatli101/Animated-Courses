@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "lend",
+   "size": 30,
+   "bbox": [
+    174.8,
+    209.4,
+    248.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "borrow",
+   "size": 30,
+   "bbox": [
+    490.5,
+    209.4,
+    610.5,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "beginner",
+   "size": 30,
+   "bbox": [
+    813.8,
+    209.4,
+    965.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "patient",
+   "size": 30,
+   "bbox": [
+    1167.3,
+    209.4,
+    1289.7,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "can",
+   "size": 30,
+   "bbox": [
+    181.8,
+    427.4,
+    241.2,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "could",
+   "size": 30,
+   "bbox": [
+    504.8,
+    427.4,
+    596.2,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "quality",
+   "size": 30,
+   "bbox": [
+    830.7,
+    427.4,
+    948.3,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "suitcase",
+   "size": 30,
+   "bbox": [
+    1158.5,
+    427.4,
+    1298.5,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: lend, borrow, beginner, patient, can, could, quality, suitcase.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "82a57ae35dbb9fdcbe8f432d413c981d865b508f227b73deed6304345b78e995"
+}

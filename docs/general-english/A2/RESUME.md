@@ -312,3 +312,49 @@ tests of what has just been taught, where a picture would cue the answers.
 All four are in `figures.no_figure_subs` with their reasons, and `G29` checks
 the list in **both** directions: a sub-section that is excused and then gains a
 figure is a finding too, or the list rots into a list of places nobody looked.
+
+---
+
+## Phase 6: A2.1 complete at 41 figures a unit
+
+All ten units of A2.1 are on the dense layout. **410 figures, 155 icons, 0
+failures across 238 checks.** The tooling that made it safe is in `tools/` and
+is the thing to read before starting A2.2 or B1:
+
+```
+python3 tools/figure_source.py a21 7            # what each slot has to work with
+python3 tools/figure_source.py a21 7 --decide   # only the seven that need a decision
+python3 tools/gen_figures.py   a21 7 --write    # write the 20 generated slots
+python3 tools/gen_figures.py   a21 7 --captions # insert the 27 captions
+python3 tools/preflight_figures.py a21 7        # everything the suite would say, in seconds
+```
+
+Then patch the seven judgement slots with `fix_slots.patch(book, unit, slot,
+call, alt)`, preflight again, render, build, check. The loop per unit is about
+fifteen minutes, nearly all of it the build.
+
+### The seven slots that need a person
+
+| Slot | Why a parser cannot do it |
+|---|---|
+| 10 | Part 1's short writing task has no Check-before-you-finish list, so there are no step labels to copy |
+| 11 | which phrase to ring; the task says "underline the verbs", not which ones |
+| 14 | what the two or three bins are, and what the chips should say |
+| 22 | whether the task's clauses read as beat labels |
+| 37 | which four places the Part 9 reading walks past, and in what order |
+| 38 | what each branch of the decision costs, from the model and the reading |
+| 6 | only where the Pronunciation section is written in a new shape |
+
+### Four things that will bite again
+
+- **G18 has no morphology.** It is a substring test against the unit body, so
+  a singular drawn against a plural passes (`reason` inside `reasons`) and
+  `grows` against `grew` does not. Preflight catches it in two seconds; the
+  build does not catch it for ten minutes.
+- **A caption is counted prose.** `B02` counts the string `is not needed`
+  wherever it appears, captions included. Preflight checks every caption
+  against every device pattern in `golden.devices`.
+- **A canvas over ~712 px prints narrower than the text width**, because the
+  fit box solves for whichever side binds. Preflight warns.
+- **The icon map is matched on whole words**, so `bus stop` must come before
+  `bus`, and a label that is itself an icon name needs no entry at all.

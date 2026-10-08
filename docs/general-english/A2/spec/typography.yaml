@@ -95,7 +95,12 @@ departures:
   # measurement plus a page of slack per volume.
   # 2026-10-08, phase 2: raised again from 410. Giving each of the ten unit
   # openers a whole page took A2.1 from 392 to 411 and A2.2 from 401 to 420.
-  pages_per_volume: {min: 230, max: 430}
+  # 2026-10-08, phase 6: raised from 430. All ten units of A2.1 are on the
+  # 41-slot layout and the volume measures 492 pages against 411 with one
+  # dense unit -- nine more at about nine pages each, which is the forecast
+  # the per-unit measurement gives. 520 is that measurement plus a unit of
+  # slack, not a guess.
+  pages_per_volume: {min: 230, max: 520}
   # Measured 2026-10-08 on the phase-2 build: A2.1 7.0 MB DOCX / 10.3 MB PDF,
   # A2.2 7.2 / 10.5. The band is wide on purpose -- it is there to catch a
   # factor, not a percent. The dense layout will move it, and when it does the

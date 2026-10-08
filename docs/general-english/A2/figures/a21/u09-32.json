@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  462
+ ],
+ "bounds": [
+  53,
+  22.9,
+  1387,
+  438.9
+ ],
+ "texts": [
+  {
+   "text": "Say how long it takes on foot.",
+   "size": 30,
+   "bbox": [
+    280,
+    60.1,
+    785.1,
+    86.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Give two steps, and no more.",
+   "size": 30,
+   "bbox": [
+    280,
+    166.1,
+    776.4,
+    192.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tell them what to do if they go too far.",
+   "size": 30,
+   "bbox": [
+    280,
+    272.1,
+    931.1,
+    298.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Name one thing they cannot miss.",
+   "size": 30,
+   "bbox": [
+    280,
+    378.1,
+    860.2,
+    404.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four steps still to be numbered, in the order the task prints them and not in the right order, each with an empty box at the left for its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.0104166666666665
+ ],
+ "sha256": "eaa29d348acf6d9cd03290fd03edd0497667698806f98a47ff923d136ac51dce"
+}

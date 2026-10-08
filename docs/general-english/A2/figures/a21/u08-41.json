@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "favour",
+   "size": 28,
+   "bbox": [
+    124.0,
+    287.7,
+    226.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "lend",
+   "size": 28,
+   "bbox": [
+    413.3,
+    287.7,
+    481.9,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "borrow",
+   "size": 28,
+   "bbox": [
+    664.0,
+    287.7,
+    776.0,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "advice",
+   "size": 28,
+   "bbox": [
+    941.2,
+    287.7,
+    1043.6,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "course",
+   "size": 28,
+   "bbox": [
+    1212.2,
+    287.7,
+    1317.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "lesson",
+   "size": 28,
+   "bbox": [
+    124.7,
+    608.7,
+    225.7,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "beginner",
+   "size": 28,
+   "bbox": [
+    376.9,
+    608.7,
+    518.3,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "patient",
+   "size": 28,
+   "bbox": [
+    662.9,
+    608.7,
+    777.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "instrument",
+   "size": 28,
+   "bbox": [
+    905.0,
+    608.7,
+    1079.8,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "able",
+   "size": 28,
+   "bbox": [
+    1231.0,
+    608.7,
+    1298.6,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 8 as picture cards on one page: favour, lend, borrow, advice, course, lesson, beginner, patient, instrument, able.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "3b8d38ab055ee35105d96983bd38865fb96dcd10b8dc4b91b81cbb1936e31c0b"
+}

@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  698
+ ],
+ "bounds": [
+  53,
+  30.0,
+  1387,
+  668.0
+ ],
+ "texts": [
+  {
+   "text": "traffic",
+   "size": 40,
+   "bbox": [
+    112,
+    80.6,
+    246.2,
+    116.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "market",
+   "size": 40,
+   "bbox": [
+    112,
+    188.6,
+    272.2,
+    224.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "library",
+   "size": 40,
+   "bbox": [
+    112,
+    296.6,
+    260.6,
+    332.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "escalator",
+   "size": 40,
+   "bbox": [
+    112,
+    404.6,
+    320.7,
+    440.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "timetable",
+   "size": 40,
+   "bbox": [
+    112,
+    512.6,
+    329.3,
+    548.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "crossing",
+   "size": 40,
+   "bbox": [
+    112,
+    620.6,
+    301.4,
+    656.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Where the stress falls in six words of this unit. Each word has a bar above every syllable, tall and dark where the stress falls and short and pale elsewhere, and the same pattern again at the right as one large dot among small ones.",
+ "placed_in": [
+  6.260416666666667,
+  3.03125
+ ],
+ "sha256": "b4f1e2168defee10e4cb352d8a0df04e4c80772ff91105b13b4428aba788bea1"
+}

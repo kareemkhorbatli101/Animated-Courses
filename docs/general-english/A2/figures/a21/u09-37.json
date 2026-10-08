@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "number 8",
+   "size": 28,
+   "bbox": [
+    147.9,
+    331.2,
+    299.1,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "number 14",
+   "size": 28,
+   "bbox": [
+    469.2,
+    331.2,
+    639.8,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the green shop",
+   "size": 28,
+   "bbox": [
+    765.8,
+    331.2,
+    1005.2,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the top junction",
+   "size": 28,
+   "bbox": [
+    1090.1,
+    331.2,
+    1342.9,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Alder Street drawn in the order its doors actually run: number 8, then number 14 between it and number 20, then the window Amina painted GREEN SHOP across because it works better than any number, and the top junction where a car stood for eleven minutes.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "0056f5713f98f69591523b9e0635394942abdc46e5162e415e136ee72481bd97"
+}

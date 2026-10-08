@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "First",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    267.8,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "First, warm the teapot and pour the water",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1216.2,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "away.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    743.1,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Then",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    273.5,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Put in one spoon of tea for each person.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1191.5,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What not to do",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    443.7,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Do not press the leaves, because it makes it",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1247.9,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bitter.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    746.7,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- first, then, and what not to do -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "fc9678491638241128598d36d8901b50eb4a8dd82f9ac9a03afa967237c55710"
+}

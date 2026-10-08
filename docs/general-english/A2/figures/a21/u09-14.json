@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  53.0,
+  26.2,
+  1387.0,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "at twenty past",
+   "size": 28,
+   "bbox": [
+    99.9,
+    60.9,
+    330.6,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "across the square",
+   "size": 28,
+   "bbox": [
+    410.7,
+    60.9,
+    692.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "above the shop",
+   "size": 28,
+   "bbox": [
+    766.7,
+    60.9,
+    1009.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "on Saturday",
+   "size": 28,
+   "bbox": [
+    1129.0,
+    60.9,
+    1320.5,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "where",
+   "size": 34,
+   "bbox": [
+    204.8,
+    202.2,
+    323.2,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "when",
+   "size": 34,
+   "bbox": [
+    668.6,
+    202.2,
+    771.4,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "how",
+   "size": 34,
+   "bbox": [
+    1136.5,
+    202.2,
+    1215.5,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four phrases of this task as chips above three empty bins -- where, when and how. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "6deee1f32206042eec86b8827fa73b8beedf03e366f0e4707da86db39c2ed0d2"
+}

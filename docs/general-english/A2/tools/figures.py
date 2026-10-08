@@ -32,20 +32,40 @@ def tw(s, size, bold=True):
     return _font(size, bold).getlength(s)
 
 
-def fit_lines(label: str, maxw: float, size_hi: int = 34, size_lo: int = 22):
+def _wrap(words, size, maxw):
+    lines, cur = [], ''
+    for w in words:
+        t = (cur + ' ' + w).strip()
+        if not cur or tw(t, size) <= maxw:
+            cur = t
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def fit_lines(label: str, maxw: float, size_hi: int = 34, size_lo: int = 22,
+              max_lines: int = 2):
     """Largest size at or above the 22 px floor (check G13) that fits the label
-    in one or two lines. Shrinking below the floor is not an option, so a long
-    label wraps instead."""
+    in at most `max_lines` lines. Shrinking below the floor is not an option,
+    so a long label wraps instead.
+
+    The old version gave up after two lines and returned the label as ONE
+    over-wide line, which ran a discussion question clean off the canvas and
+    across its neighbour's label. Giving up now means wrapping at the floor
+    size into however many lines it takes: too tall is a layout problem a
+    caller can see, too wide is a silent collision.
+    """
+    words = label.split()
     for size in range(size_hi, size_lo - 1, -2):
         if tw(label, size) <= maxw:
             return [label], size
-    words = label.split()
-    for size in range(size_hi, size_lo - 1, -2):
-        for cut in range(len(words) - 1, 0, -1):
-            a, b = ' '.join(words[:cut]), ' '.join(words[cut:])
-            if tw(a, size) <= maxw and tw(b, size) <= maxw:
-                return [a, b], size
-    return [label], size_lo
+        lines = _wrap(words, size, maxw)
+        if len(lines) <= max_lines and all(tw(l, size) <= maxw for l in lines):
+            return lines, size
+    return _wrap(words, size_lo, maxw), size_lo
 
 
 class Fig:
@@ -1013,6 +1033,137 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         R(20, -10, 30, 30, fill=P['blue'], r=5)
         R(-30, -30, 30, 30, fill=P['card'], r=5)
         R(4, -30, 30, 30, fill=P['card'], r=5)
+    elif name == 'escalator':
+        f.path(f'M {cx-44*s:.1f} {cy+34*s:.1f} L {cx+10*s:.1f} {cy-26*s:.1f} '
+               f'L {cx+44*s:.1f} {cy-26*s:.1f}', stroke=P['grey'], sw=12)
+        for k in range(4):
+            R(-36 + k * 16, 20 - k * 16, 14, 8, fill=P['card'], r=2, sw=2)
+        f.path(f'M {cx-6*s:.1f} {cy-34*s:.1f} L {cx+6*s:.1f} {cy-48*s:.1f} '
+               f'L {cx+18*s:.1f} {cy-34*s:.1f} Z',
+               fill=P['accent'], stroke=P['accent'])
+    elif name == 'ruler':
+        R(-48, -14, 96, 28, fill=P['tanl'], r=3)
+        for k in range(-3, 4):
+            L(k * 14, -14, k * 14, -14 + (14 if k % 2 == 0 else 8),
+              stroke=P['tand'], sw=3)
+    elif name == 'pin':
+        f.path(f'M {cx:.1f} {cy+44*s:.1f} Q {cx-28*s:.1f} {cy+2*s:.1f} '
+               f'{cx-28*s:.1f} {cy-12*s:.1f} Q {cx-28*s:.1f} {cy-44*s:.1f} '
+               f'{cx:.1f} {cy-44*s:.1f} Q {cx+28*s:.1f} {cy-44*s:.1f} '
+               f'{cx+28*s:.1f} {cy-12*s:.1f} Q {cx+28*s:.1f} {cy+2*s:.1f} '
+               f'{cx:.1f} {cy+44*s:.1f} Z', fill=P['tand'])
+        C(0, -14, 11, fill=P['bg'], sw=3)
+    elif name == 'chain':
+        R(-42, -14, 44, 28, fill=P['bg'], r=14, sw=7, stroke=P['grey'])
+        R(-2, -14, 44, 28, fill=P['bg'], r=14, sw=7, stroke=P['ink'])
+    elif name == 'palette':
+        f.path(f'M {cx-40*s:.1f} {cy+6*s:.1f} Q {cx-40*s:.1f} {cy-36*s:.1f} '
+               f'{cx:.1f} {cy-36*s:.1f} Q {cx+42*s:.1f} {cy-36*s:.1f} '
+               f'{cx+42*s:.1f} {cy-2*s:.1f} Q {cx+42*s:.1f} {cy+16*s:.1f} '
+               f'{cx+18*s:.1f} {cy+12*s:.1f} Q {cx+2*s:.1f} {cy+10*s:.1f} '
+               f'{cx+6*s:.1f} {cy+26*s:.1f} Q {cx+8*s:.1f} {cy+38*s:.1f} '
+               f'{cx-14*s:.1f} {cy+34*s:.1f} Q {cx-40*s:.1f} {cy+28*s:.1f} '
+               f'{cx-40*s:.1f} {cy+6*s:.1f} Z', fill=P['card'])
+        C(-22, -12, 7, fill=P['tand'], sw=0); C(-2, -20, 7, fill=P['accent'], sw=0)
+        C(18, -12, 7, fill=P['blue'], sw=0); C(26, 4, 7, fill=P['tanl'], sw=0)
+    elif name == 'network':
+        for a0 in (0, 72, 144, 216, 288):
+            r0 = math.radians(a0 - 90)
+            L(0, 0, math.cos(r0) * 36, math.sin(r0) * 36, stroke=P['blue'], sw=5)
+            C(math.cos(r0) * 36, math.sin(r0) * 36, 11, fill=P['card'])
+        C(0, 0, 13, fill=P['accent'])
+    elif name == 'ladder':
+        L(-22, -46, -22, 46, sw=7); L(22, -46, 22, 46, sw=7)
+        for k in range(-2, 3):
+            L(-22, k * 22, 22, k * 22, stroke=P['tand'], sw=5)
+    elif name == 'mountain':
+        f.path(f'M {cx-50*s:.1f} {cy+30*s:.1f} L {cx-12*s:.1f} {cy-34*s:.1f} '
+               f'L {cx+14*s:.1f} {cy+6*s:.1f} L {cx+26*s:.1f} {cy-10*s:.1f} '
+               f'L {cx+50*s:.1f} {cy+30*s:.1f} Z', fill=P['deep'])
+        f.path(f'M {cx-22*s:.1f} {cy-18*s:.1f} L {cx-12*s:.1f} {cy-34*s:.1f} '
+               f'L {cx-2*s:.1f} {cy-18*s:.1f} Z', fill=P['bg'], stroke=P['bg'])
+    elif name == 'zigzag':
+        f.path(f'M {cx-44*s:.1f} {cy+34*s:.1f} L {cx+34*s:.1f} {cy+14*s:.1f} '
+               f'L {cx-34*s:.1f} {cy-10*s:.1f} L {cx+40*s:.1f} {cy-34*s:.1f}',
+               stroke=P['tand'], sw=8)
+    elif name == 'tyre':
+        C(0, 0, 40, fill=P['ink'])
+        C(0, 0, 20, fill=P['card'], sw=4)
+        for a0 in range(0, 360, 45):
+            r0 = math.radians(a0)
+            L(math.cos(r0) * 24, math.sin(r0) * 24,
+              math.cos(r0) * 36, math.sin(r0) * 36, stroke=P['card'], sw=4)
+    elif name == 'umbrella':
+        f.path(f'M {cx-46*s:.1f} {cy-4*s:.1f} Q {cx-46*s:.1f} {cy-44*s:.1f} '
+               f'{cx:.1f} {cy-44*s:.1f} Q {cx+46*s:.1f} {cy-44*s:.1f} '
+               f'{cx+46*s:.1f} {cy-4*s:.1f} Z', fill=P['tand'])
+        L(0, -4, 0, 32, sw=5)
+        f.path(f'M {cx:.1f} {cy+32*s:.1f} Q {cx+16*s:.1f} {cy+44*s:.1f} '
+               f'{cx+18*s:.1f} {cy+26*s:.1f}', sw=5)
+    elif name == 'vegetable':
+        f.path(f'M {cx-6*s:.1f} {cy+40*s:.1f} L {cx-22*s:.1f} {cy-14*s:.1f} '
+               f'L {cx+10*s:.1f} {cy-14*s:.1f} Z', fill=P['tand'])
+        f.path(f'M {cx-18*s:.1f} {cy-14*s:.1f} L {cx-34*s:.1f} {cy-40*s:.1f}',
+               stroke=P['accent'], sw=6)
+        f.path(f'M {cx-6*s:.1f} {cy-14*s:.1f} L {cx-2*s:.1f} {cy-44*s:.1f}',
+               stroke=P['accent'], sw=6)
+        f.path(f'M {cx+4*s:.1f} {cy-14*s:.1f} L {cx+24*s:.1f} {cy-36*s:.1f}',
+               stroke=P['accent'], sw=6)
+    elif name == 'before_now':
+        L(-44, 0, 44, 0, sw=5)
+        C(26, 0, 12, fill=P['card'])
+        f.path(f'M {cx-20*s:.1f} {cy-16*s:.1f} L {cx-44*s:.1f} {cy:.1f} '
+               f'L {cx-20*s:.1f} {cy+16*s:.1f} Z',
+               fill=P['deep'], stroke=P['deep'])
+        C(-6, 0, 9, fill=P['tan'])
+    elif name == 'warning':
+        f.path(f'M {cx:.1f} {cy-42*s:.1f} L {cx+46*s:.1f} {cy+34*s:.1f} '
+               f'L {cx-46*s:.1f} {cy+34*s:.1f} Z', fill=P['tanl'])
+        R(-5, -20, 10, 32, fill=P['ink'], r=4, sw=0)
+        C(0, 22, 6, fill=P['ink'], sw=0)
+    elif name == 'mask':
+        f.path(f'M {cx-36*s:.1f} {cy-30*s:.1f} L {cx+36*s:.1f} {cy-30*s:.1f} '
+               f'L {cx+30*s:.1f} {cy+10*s:.1f} Q {cx:.1f} {cy+42*s:.1f} '
+               f'{cx-30*s:.1f} {cy+10*s:.1f} Z', fill=P['card'])
+        C(-14, -10, 6, fill=P['ink'], sw=0); C(14, -10, 6, fill=P['ink'], sw=0)
+        f.path(f'M {cx-14*s:.1f} {cy+14*s:.1f} Q {cx:.1f} {cy+24*s:.1f} '
+               f'{cx+14*s:.1f} {cy+14*s:.1f}', sw=4)
+    elif name == 'runner':
+        C(14, -34, 13)
+        f.path(f'M {cx+12*s:.1f} {cy-20*s:.1f} L {cx-6*s:.1f} {cy+2*s:.1f} '
+               f'L {cx+8*s:.1f} {cy+18*s:.1f} L {cx+4*s:.1f} {cy+42*s:.1f}', sw=8)
+        f.path(f'M {cx-6*s:.1f} {cy+2*s:.1f} L {cx-30*s:.1f} {cy+16*s:.1f}', sw=7)
+        f.path(f'M {cx+6*s:.1f} {cy-14*s:.1f} L {cx+34*s:.1f} {cy-4*s:.1f}', sw=7)
+    elif name == 'hammer':
+        R(-10, -12, 20, 54, fill=P['tand'], r=4)
+        f.path(f'M {cx-40*s:.1f} {cy-38*s:.1f} L {cx+34*s:.1f} {cy-38*s:.1f} '
+               f'L {cx+34*s:.1f} {cy-16*s:.1f} L {cx-26*s:.1f} {cy-16*s:.1f} '
+               f'L {cx-40*s:.1f} {cy-26*s:.1f} Z', fill=P['grey'])
+    elif name == 'microphone':
+        R(-14, -44, 28, 48, fill=P['grey'], r=14)
+        for k in range(3):
+            L(-10, -36 + k * 12, 10, -36 + k * 12, stroke=P['card'], sw=3)
+        f.path(f'M {cx-26*s:.1f} {cy-4*s:.1f} Q {cx:.1f} {cy+26*s:.1f} '
+               f'{cx+26*s:.1f} {cy-4*s:.1f}', sw=5)
+        L(0, 18, 0, 40, sw=5); L(-16, 42, 16, 42, sw=5)
+    elif name == 'tray':
+        f.path(f'M {cx-48*s:.1f} {cy+10*s:.1f} L {cx+48*s:.1f} {cy+10*s:.1f} '
+               f'L {cx+38*s:.1f} {cy+24*s:.1f} L {cx-38*s:.1f} {cy+24*s:.1f} Z',
+               fill=P['grey'])
+        C(-18, -4, 13, fill=P['card']); R(2, -18, 28, 14, fill=P['tanl'], r=3)
+        f.path(f'M {cx:.1f} {cy+24*s:.1f} L {cx:.1f} {cy+40*s:.1f}', sw=6)
+    elif name == 'temple':
+        for k in (-34, -12, 10, 32):
+            R(k, -6, 12, 34, fill=P['card'], r=1)
+        f.path(f'M {cx-48*s:.1f} {cy-6*s:.1f} L {cx:.1f} {cy-38*s:.1f} '
+               f'L {cx+48*s:.1f} {cy-6*s:.1f} Z', fill=P['tand'])
+        R(-48, 28, 96, 12, fill=P['grey'], r=3)
+    elif name == 'tooth':
+        f.path(f'M {cx-30*s:.1f} {cy-26*s:.1f} Q {cx:.1f} {cy-42*s:.1f} '
+               f'{cx+30*s:.1f} {cy-26*s:.1f} Q {cx+36*s:.1f} {cy+6*s:.1f} '
+               f'{cx+16*s:.1f} {cy+40*s:.1f} Q {cx+6*s:.1f} {cy+10*s:.1f} '
+               f'{cx-6*s:.1f} {cy+10*s:.1f} Q {cx-16*s:.1f} {cy+40*s:.1f} '
+               f'{cx-36*s:.1f} {cy+6*s:.1f} Z', fill=P['card'])
     elif name == 'painting':
         R(-44, -34, 88, 68, fill=P['tand'], r=3)           # the frame
         R(-35, -26, 70, 52, fill=P['bg'], r=1)
@@ -1342,10 +1493,18 @@ def writing_frame(steps, height=520, alt=''):
         f.rect(pad, y, W - 2 * pad, bh, fill=P['card'], stroke='#CED4DD', r=14, sw=3)
         f.rect(pad, y, 14, bh, fill=P['accent'], stroke='none', r=0, sw=0)
         f.text(f'{i+1}', pad + 62, y + bh / 2 + 11, size=32, fill=P['ink'], on=P['card'])
-        f.text(label, pad + 120, y + bh / 2 + 11, size=30, anchor='start', on=P['card'])
-        el, esz = fit_lines(example, W - 2 * pad - 640, size_hi=26, size_lo=22)
-        f.text(el[0], pad + 600, y + bh / 2 + 9, size=esz, fill=P['ink'],
-               anchor='start', on=P['card'], bold=False)
+        # the label was set at a fixed 30 px and ran into the example column
+        # as soon as a step was called something longer than "Offer help"
+        ll, lsz = fit_lines(label, 450, size_hi=30, size_lo=22, max_lines=2)
+        for j, ln in enumerate(ll):
+            f.text(ln, pad + 120, y + bh / 2 + 11 - (len(ll) - 1) * 16
+                   + j * 32, size=lsz, anchor='start', on=P['card'])
+        el, esz = fit_lines(example, W - 2 * pad - 640, size_hi=26, size_lo=22,
+                            max_lines=2)
+        for j, ln in enumerate(el):
+            f.text(ln, pad + 600, y + bh / 2 + 9 - (len(el) - 1) * 15
+                   + j * 30, size=esz, fill=P['ink'],
+                   anchor='start', on=P['card'], bold=False)
     return f
 
 
@@ -1537,6 +1696,36 @@ def sound_shape(rows, height=520, alt=''):
     return f
 
 
+def sound_groups(groups, height=460, alt=''):
+    """Words sorted by the sound they end in, or by how strong a form is.
+
+    Four of the ten units teach syllable stress and get `sound_shape`; this is
+    for the ones that teach a sound -- the three ways to say an `-ed` ending,
+    the weak and strong forms of one word. The sound is the column head and
+    the words sit under it, which is the shape the learner has to hold in
+    their head anyway.
+    """
+    f = Fig(height, alt)
+    n = len(groups)
+    pad, gap = 56, 28
+    cw = (W - 2 * pad - gap * (n - 1)) / n
+    ch = height - 2 * 44
+    for i, (sound, words) in enumerate(groups):
+        x = pad + i * (cw + gap)
+        f.rect(x, 44, cw, ch, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+        f.rect(x, 44, cw, 76, fill=P['ink'], stroke=P['ink'], r=16, sw=0)
+        sl, ssz = fit_lines(sound, cw - 36, size_hi=36, size_lo=24)
+        f.text(sl[0], x + cw / 2, 96, size=ssz, fill=P['bg'], on=P['ink'])
+        y = 168
+        for w in words[:4]:
+            wl, wsz = fit_lines(w, cw - 36, size_hi=30, size_lo=22, max_lines=2)
+            for j, ln in enumerate(wl):
+                f.text(ln, x + cw / 2, y + j * (wsz + 6), size=wsz, on=P['card'])
+            y += 30 + len(wl) * (wsz + 6)
+        f.cards += 1
+    return f
+
+
 def annotated_lines(lines, height=460, alt=''):
     """Sentences with the target form ringed. `lines` = (sentence, phrase).
 
@@ -1722,9 +1911,9 @@ def question_cards(questions, height=520, alt=''):
         f.rect(x, 44, cw, 72, fill=P['ink'], stroke=P['ink'], r=22, sw=0)
         f.text(str(i + 1), x + cw / 2, 94, size=34, fill=P['bg'], on=P['ink'])
         icon(f, ic, x + cw / 2, 44 + ch * 0.44, s=min(1.1, cw * 0.28 / 56))
-        ql, qsz = fit_lines(q, cw - 44, size_hi=28)
-        base = 44 + ch - 40 - (len(ql[:2]) - 1) * (qsz + 6)
-        for j, ln in enumerate(ql[:2]):
+        ql, qsz = fit_lines(q, cw - 44, size_hi=28, max_lines=4)
+        base = 44 + ch - 40 - (len(ql) - 1) * (qsz + 6)
+        for j, ln in enumerate(ql):
             f.text(ln, x + cw / 2, base + j * (qsz + 6), size=qsz, on=P['bg'])
         f.cards += 1
     return f
@@ -1753,8 +1942,9 @@ def info_gap_pair(a, b, height=600, alt=''):
         for i, (label, ic) in enumerate(items):
             cx = x + 20 + cw * (i + 0.5)
             icon(f, ic, cx, 222, s=min(0.95, cw * 0.34 / 56))
-            ll, lsz = fit_lines(label, cw - 16, size_hi=26, size_lo=22)
-            for j, ln in enumerate(ll[:2]):
+            ll, lsz = fit_lines(label, cw - 16, size_hi=26, size_lo=22,
+                                max_lines=3)
+            for j, ln in enumerate(ll):
                 f.text(ln, cx, 312 + j * (lsz + 6), size=lsz, on=on)
         for j in range(3):
             _blank_line(f, x + 40, height - 164 + j * 42, x + w - 40)
@@ -1883,7 +2073,11 @@ def close_scene(items, height=520, alt=''):
     cw = (W - 2 * pad - 24) / n
     for i, (label, ic) in enumerate(items):
         cx = pad + 12 + cw * (i + 0.5)
-        icon(f, ic, cx, gy - 74, s=min(1.25, cw * 0.32 / 56))
+        # centred in the band and scaled to fill it. Hanging the icon a fixed
+        # 74 px above the ground line left the top third of every close_scene
+        # empty, which G17 cannot see because the band is drawn, not blank.
+        icon(f, ic, cx, (44 + gy) / 2,
+             s=min(1.9, cw * 0.34 / 56, (gy - 100) * 0.46 / 56))
         f.line(cx, gy, cx, gy + 22, stroke=P['rule'], sw=3)
         ll, lsz = fit_lines(label, cw - 18, size_hi=28, size_lo=22)
         for j, ln in enumerate(ll[:2]):

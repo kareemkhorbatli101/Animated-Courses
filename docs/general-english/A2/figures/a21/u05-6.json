@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  357
+ ],
+ "bounds": [
+  53.0,
+  17.7,
+  1387.0,
+  339.7
+ ],
+ "texts": [
+  {
+   "text": "/t/",
+   "size": 36,
+   "bbox": [
+    246.2,
+    46.2,
+    289.8,
+    78.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "walked",
+   "size": 30,
+   "bbox": [
+    208.4,
+    122.9,
+    327.6,
+    149.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cooked",
+   "size": 30,
+   "bbox": [
+    208.0,
+    188.9,
+    328.0,
+    215.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "/d/",
+   "size": 36,
+   "bbox": [
+    694.0,
+    46.2,
+    746.0,
+    78.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "stayed",
+   "size": 30,
+   "bbox": [
+    663.5,
+    122.9,
+    776.5,
+    149.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "opened",
+   "size": 30,
+   "bbox": [
+    657.2,
+    188.9,
+    782.8,
+    215.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "/\u026ad/",
+   "size": 36,
+   "bbox": [
+    1136.1,
+    46.2,
+    1207.9,
+    78.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "rested",
+   "size": 30,
+   "bbox": [
+    1117.4,
+    122.9,
+    1226.6,
+    149.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "waited",
+   "size": 30,
+   "bbox": [
+    1114.8,
+    188.9,
+    1229.2,
+    215.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The six past verbs of this unit sorted by the sound the -ed ending makes, three columns in all: /t/ takes walked and cooked, /d/ takes stayed and opened, and the longer ending takes rested and waited.",
+ "placed_in": [
+  6.260416666666667,
+  1.5520833333333333
+ ],
+ "sha256": "c3d9e0c6856ab9910b2c40f47c7671387b684adf403ec52c8c6b5489b45084d5"
+}

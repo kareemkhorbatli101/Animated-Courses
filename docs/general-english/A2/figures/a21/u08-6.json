@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  329
+ ],
+ "bounds": [
+  53,
+  16.3,
+  1387,
+  312.3
+ ],
+ "texts": [
+  {
+   "text": "I can swim",
+   "size": 32,
+   "bbox": [
+    142,
+    51.1,
+    332.5,
+    79.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    51.5,
+    105.4,
+    76.0
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "I can\u2019t swim",
+   "size": 32,
+   "bbox": [
+    142,
+    152.4,
+    359.9,
+    180.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    152.8,
+    105.4,
+    177.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Can you help?",
+   "size": 32,
+   "bbox": [
+    142,
+    253.8,
+    394.7,
+    282.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    254.2,
+    105.4,
+    278.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three phrases from this unit with the word that carries the beat ringed in each: can, can\u2019t, can.",
+ "placed_in": [
+  6.260416666666667,
+  1.4270833333333333
+ ],
+ "sha256": "4ef6106b6599fddd8b91abef4e25620160035d85a8b37862c52b0f4d3bea1387"
+}

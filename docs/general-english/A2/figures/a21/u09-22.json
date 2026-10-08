@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    150.2,
+    128.5,
+    171.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "your home",
+   "size": 28,
+   "bbox": [
+    76.5,
+    272.0,
+    244.8,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    482.2,
+    128.5,
+    503.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the first junction",
+   "size": 28,
+   "bbox": [
+    360.3,
+    272.0,
+    625.0,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    924.9,
+    128.5,
+    945.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the landmark",
+   "size": 28,
+   "bbox": [
+    829.8,
+    272.0,
+    1040.8,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 30,
+   "bbox": [
+    1256.9,
+    128.5,
+    1277.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the nearest",
+   "size": 26,
+   "bbox": [
+    1182.5,
+    240.8,
+    1352.2,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "shop",
+   "size": 26,
+   "bbox": [
+    1232.1,
+    272.8,
+    1302.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 4,
+ "arrows": 0,
+ "alt": "The one-minute talk as the four steps the task asks for, on a clock line, each block as wide as the share of the minute it should take: your home, the first junction, the landmark, and the nearest shop.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "8f49e2d889e7fb3232104a60633cdc5af24ac50427aae5b18e63da924a961ada"
+}

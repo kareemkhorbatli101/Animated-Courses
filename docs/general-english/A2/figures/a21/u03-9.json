@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "crowd",
+   "size": 30,
+   "bbox": [
+    160.3,
+    258.6,
+    262.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "traffic",
+   "size": 30,
+   "bbox": [
+    500.2,
+    258.6,
+    600.8,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "ticket",
+   "size": 30,
+   "bbox": [
+    841.4,
+    258.6,
+    937.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "library",
+   "size": 30,
+   "bbox": [
+    1172.8,
+    258.6,
+    1284.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: crowd, traffic, ticket, library.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "ef1ad28a56497c7571fde7c8480fbf0650619ff66e2914c0abfaa364606529ce"
+}

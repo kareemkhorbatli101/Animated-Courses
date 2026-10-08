@@ -47,13 +47,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "It is the third on your left, after the lights.",
-   "size": 22,
+   "text": "It is the third on your left, after",
+   "size": 28,
    "bbox": [
-    96.2,
-    179.6,
-    623.8,
-    199.6
+    110.1,
+    158.7,
+    609.9,
+    183.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the lights.",
+   "size": 28,
+   "bbox": [
+    279.0,
+    192.7,
+    441.0,
+    217.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -95,13 +107,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Do you want me to walk you to the corner?",
-   "size": 22,
+   "text": "Do you want me to walk you to",
+   "size": 28,
    "bbox": [
-    92.7,
-    409.6,
-    627.3,
-    429.6
+    115.0,
+    388.7,
+    605.0,
+    413.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the corner?",
+   "size": 28,
+   "bbox": [
+    269.7,
+    422.7,
+    450.3,
+    447.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +152,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "10eb4c3c40c1d7318c998d68b5089aa85b12a8c7e346f3d82e750fbeb619a077"
+ "sha256": "03c5d92b35d605bcc2476a34b070ec168a7f026c62713bf19862328a1c23f943"
 }

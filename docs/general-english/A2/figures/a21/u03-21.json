@@ -23,13 +23,25 @@
    "on": "#1F3864"
   },
   {
-   "text": "ask the way to one place",
-   "size": 26,
+   "text": "ask the way to one",
+   "size": 28,
    "bbox": [
     138.0,
-    149.7,
-    502.2,
+    148.9,
+    436.4,
     173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "place",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    222.1,
+    207.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -39,21 +51,33 @@
    "size": 28,
    "bbox": [
     138.0,
-    204.9,
+    234.9,
     421.9,
-    229.4
+    259.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask about opening times",
-   "size": 26,
+   "text": "ask about opening",
+   "size": 28,
    "bbox": [
     138.0,
-    261.7,
-    500.6,
-    285.4
+    290.9,
+    431.0,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "times",
+   "size": 28,
+   "bbox": [
+    138.0,
+    324.9,
+    225.8,
+    349.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -63,9 +87,9 @@
    "size": 28,
    "bbox": [
     138.0,
-    316.9,
+    376.9,
     320.0,
-    341.4
+    401.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -107,25 +131,49 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "say what is happening now",
-   "size": 24,
+   "text": "say what is happening",
+   "size": 28,
    "bbox": [
     838.0,
-    263.3,
-    1205.6,
-    284.8
+    260.9,
+    1192.0,
+    285.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "answer the opening question",
-   "size": 22,
+   "text": "now",
+   "size": 28,
    "bbox": [
     838.0,
-    320.8,
-    1200.4,
-    340.8
+    294.9,
+    903.0,
+    319.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "answer the opening",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    1151.8,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "question",
+   "size": 28,
+   "bbox": [
+    838.0,
+    380.9,
+    975.8,
+    405.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -140,5 +188,5 @@
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "466541af46b4a9d851e1a7f80f02179637878a0060b818b91ea697731c94a536"
+ "sha256": "7f8b0b12e2dcc9beada36bd1a15bfabaa33f3f1afa4578de64b916dcd9896ee8"
 }

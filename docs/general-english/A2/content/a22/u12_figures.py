@@ -13,6 +13,18 @@ FIGURES = {
             'point is will and might, and three things the learner will be able to do '
             'by the end of the unit.'),
 
+ 2: lambda: F.word_grid(
+        [('Storm', 'rain'), ('Shower', 'rain'), ('Fog', 'cloud'), ('Flood', 'water'), ('Ice', 'snow')],
+        height=460, cols=5,
+        alt='The five warm-up words as numbered picture cards: storm, shower, '
+            'fog, flood, ice.'),
+
+ 3: lambda: F.bank_strip(
+        [('temperature', 'thermometer'), ('sunny', 'sun'), ('wind', 'wind'), ('freeze', 'snow')],
+        height=400,
+        alt='The four words of the word bank, in the order the task prints '
+            'them, each with a picture: temperature, sunny, wind, freeze.'),
+
  4: lambda: F.scene(
         [('Amina', 'shop', 'it will rain, her shoulder says'),
          ('Tomas', 'nurse', 'it might snow; he rides in'),
@@ -26,6 +38,19 @@ FIGURES = {
             'might snow and rides in anyway, Maya will take a coat, Dani says it '
             'will be fine and is wrong, Mr Okonkwo says nothing and brings an '
             'umbrella, and Yuki reads the forecast twice and then asks Amina.'),
+
+ 5: lambda: F.word_grid(
+        [('Storm', 'rain'), ('Shower', 'rain'), ('Temperature', 'thermometer'), ('Fog', 'cloud'), ('Freeze', 'snow'), ('Flood', 'water'), ('Wind', 'wind')],
+        height=560, cols=4,
+        alt='The seven words of Column A as numbered picture cards: storm, '
+            'shower, temperature, fog, freeze, flood, wind, each with the '
+            'thing it means drawn beside its number.'),
+
+        # REVIEW: pronunciation section not recognised
+ 6: lambda: F.sound_shape(
+        [REVIEW],
+        height=460,
+        alt='The pronunciation point of this unit, drawn.'),
 
  7: lambda: F.category_set(
         [('Heavy rain', 'rain'), ('Ice', 'snow'), ('Fog', 'cloud'),
@@ -42,6 +67,31 @@ FIGURES = {
             'cloud with rain falling from it, a cloud with crossed flakes under it, '
             'and three flat bands low down with nothing visible behind them. Five '
             'numbered lines run to the right for the learner to write each word.'),
+
+ 9: lambda: F.bank_strip(
+        [('ice', 'snow'), ('storm', 'rain'), ('degree', 'thermometer'), ('sunny', 'sun')],
+        height=400,
+        alt='The four words of the fill-in word bank, in bank order, each '
+            'drawn: ice, storm, degree, sunny.'),
+ 10: lambda: F.writing_frame(
+        [('What it usually does', 'It rains here in short showers.'),
+         ('What happens twice a winter', 'We get fog twice a winter and the buses stop.'),
+         ('What almost never happens', 'It never freezes hard enough for ice.')],
+        height=571,
+        alt='The shape of the two or three sentences to write, in three steps '
+            '-- what the weather usually does, what happens twice a winter, '
+            'and what almost never happens -- with a line of the model beside '
+            'each one.'),
+
+ 11: lambda: F.annotated_lines(
+        [('It will rain this afternoon.', 'will'),
+         ('It might snow on Thursday.', 'might'),
+         ('It won\u2019t be warm again until April.', 'won\u2019t'),
+         ('I might take the bus.', 'might')],
+        height=440,
+        alt='Four lines from the notice with will, won\u2019t or might ringed in '
+            'each. Two are sure and two are only possible, which is the '
+            'question the task asks.'),
 
  12: lambda: F.grammar_contrast(
         ('will · won’t', 'sure',
@@ -62,6 +112,25 @@ FIGURES = {
         alt='One week of forecasts on a line: rain this afternoon for certain, '
             'possible snow on Thursday, ice on the hill on Thursday night, no buses '
             'on Friday, and warm again in April.'),
+ 14: lambda: F.sort_bins(
+        ['sure', 'possible'],
+        ['snow on Thursday', 'warm until April', 'take the bus',
+         'bring an umbrella'],
+        height=540,
+        alt='The four sentences of this task as chips above two empty bins, '
+            'one for what is sure and one for what is only possible. Which '
+            'chip goes in which bin is the exercise, so none of them is '
+            'placed.'),
+
+ 15: lambda: F.error_pairs(
+        [('It will to rain.', 'It will rain.'),
+         ('It will to rain this afternoon.', None),
+         ('It might snows on Thursday.', None),
+         ('Maybe it will perhaps rain later.', None)],
+        height=500,
+        alt='One correction worked through -- the wrong form struck out and '
+            'the right one beside it -- and then three more sentences with an '
+            'empty line for the learner to write the correct form.'),
 
  16: lambda: F.speakers(
         [('Track 12.2', 'Yuki and Amina', 'shop', 'the shoulder and the radio'),
@@ -71,6 +140,46 @@ FIGURES = {
         alt='The three listenings in this unit: Amina tells Yuki her shoulder beats '
             'the radio, Maya talks Dani out of travelling into ice, and Amina '
             'describes all six forecasts she hears before nine.'),
+
+ 17: lambda: F.dialogue_strip(
+        [('Dani', 'book', 'I\u2019m going to my brother\u2019s on Friday.'),
+         ('Maya', 'person', 'There\u2019s ice coming Thursday night.'),
+         ('Dani', 'book', 'The train will run.'),
+         ('Maya', 'person', 'The buses to the station won\u2019t run in that.')],
+        height=560,
+        alt='The second listening as speech bubbles, one speaker on each '
+            'side. Dani: I\u2019m going to my brother\u2019s on Friday. Maya: There\u2019s '
+            'ice coming Thursday night. Dani: The train will run. Maya: The '
+            'buses to the station won\u2019t run in that.'),
+
+ 18: lambda: F.match_columns(
+        [('Tomas', 'nurse'), ('Maya', 'person'), ('Mr Okonkwo', 'home'), ('Yuki', 'computer')],
+        ['says nothing and carries an umbrella',
+         'reads it twice and then asks Amina',
+         'says it might snow and rides in anyway',
+         'takes a coat whatever anybody says',
+         'checks the river before it rains'],
+        height=650,
+        alt='Four cards on the left and five on the right for the learner to '
+            'join. One of the right-hand options is not wanted, and it is '
+            'drawn so the spare one is visible rather than implied.'),
+
+ 19: lambda: F.question_cards(
+        [('What will the weather do tomorrow where you are?', 'pin'),
+         ('What weather stops everything where you live?', 'pin'),
+         ('What do you always carry, and have you ever needed it?', 'question')],
+        height=480,
+        alt='The three discussion questions as numbered cards a pair can put '
+            'on the table and take one at a time.'),
+
+ 20: lambda: F.info_gap_pair(
+        ('Student A', [('Monday rain', 'cloud')]),
+        ('Student B', [('Monday rain', 'rain')]),
+        height=560,
+        alt='Student A\\u2019s facts on the left and Student B\\u2019s on the '
+            'right, with a fold line between them, so each student sees only '
+            'their own -- which is what the task has always asked for and a '
+            'pair of prose lists on one page cannot give.'),
 
  21: lambda: F.cue_cards(
         ('Card A — warning', ['say what is coming and when', 'say what will stop',
@@ -82,6 +191,15 @@ FIGURES = {
             'coming and when, say what will stop, do not say what to do, wait. Card '
             'B, deciding: say your plan, hear the problem, change one thing, say the '
             'new plan out loud.'),
+ 22: lambda: F.talk_shape(
+        [('where you grew up', 1, 'home'),
+         ('what it will do in each season', 2, 'cloud'),
+         ('what people do about it', 2, 'umbrella')],
+        height=420,
+        alt='The one-minute talk as three beats on a clock line, each block '
+            'as wide as the share of the minute it should take: where you '
+            'grew up, what the weather will do in each season, and what '
+            'people do about it.'),
 
  23: lambda: F.process_strip(
         [('sixty in a hundred', 'cloud'), ('six wet mornings', 'rain'),
@@ -92,6 +210,12 @@ FIGURES = {
             'next: sixty in a hundred means six wet mornings out of ten and four dry '
             'ones, but the one dry Saturday somebody called off is the one they '
             'remember, and so the forecast is never right.'),
+
+ 24: lambda: F.word_grid(
+        [('forecast', 'cloud'), ('probably', 'question'), ('promised', 'speech'), ('straight', 'arrow_up')],
+        height=440, cols=4,
+        alt='The four words from the reading as numbered picture cards: '
+            'forecast, probably, promised, straight.'),
 
  25: lambda: F.world_strip(
         [('the south of Spain', 'home', 'small windows, thick shutters'),
@@ -113,6 +237,32 @@ FIGURES = {
             'what is coming and when, what it will stop, one thing the reader can '
             'do, and what you are doing yourself.'),
 
+ 27: lambda: F.writing_frame(
+        [('a clear opinion', 'It does, and not in the way people say.'),
+         ('two or three reasons', 'Cold does not make anybody serious.')],
+        height=408,
+        alt='The shape of the opinion paragraph in two steps -- a clear '
+            'opinion, two or three reasons -- with a line of the model beside '
+            'each one.'),
+
+ 28: lambda: F.writing_frame(
+        [('the plan', 'We had the whole thing planned.'),
+         ('what the weather did', 'On the Friday the forecast turned and said.'),
+         ('what you did', 'It rained for twenty minutes at two and then.')],
+        height=571,
+        alt='The shape of the message in three steps -- the plan, what the '
+            'weather did, what you did -- with a line of the model beside '
+            'each one.'),
+
+ 29: lambda: F.writing_frame(
+        [('what you would choose', 'I would choose a cold.'),
+         ('why', 'Soft and wet is four months of the same grey.'),
+         ('what you would give up', 'Cold and dry is hard, and it is also bright.')],
+        height=571,
+        alt='The shape of the reflection in three steps -- what you would '
+            'choose, why, what you would give up -- with a line of the model '
+            'beside each one.'),
+
  30: lambda: F.function_map(
         [('Rain will spread from the west by midday.', 'sure, with a time'),
          ('A shower is possible inland.', 'possible, and only somewhere'),
@@ -122,6 +272,48 @@ FIGURES = {
         alt='Four lines from a forecast, each with an arrow to how sure it is: sure '
             'with a time, possible and only somewhere, sure and a limit, and '
             'possible with a quiet warning inside it.'),
+
+ 31: lambda: F.dialogue_strip(
+        [('Maya', 'person', 'They said the river might come up on Tuesday.'),
+         ('Tomas', 'nurse', 'They say that every winter.'),
+         ('Maya', 'person', 'They were right in the winter you were.'),
+         ('Tomas', 'nurse', 'Was it bad?')],
+        height=560,
+        alt='The 7B exchange as speech bubbles, one speaker on each side. '
+            'Maya: They said the river might come up on Tuesday. Tomas: They '
+            'say that every winter. Maya: They were right in the winter you '
+            'were. Tomas: Was it bad?'),
+
+ 32: lambda: F.sequence_steps(
+        [('Say what you are doing yourself.', 'speech'),
+         ('Say how sure you are.', 'speech'),
+         ('Give one thing they can do.', 'tick'),
+         ('Say what it will stop.', 'arrow_right')],
+        height=490,
+        alt='The four steps still to be numbered, in the order the task '
+            'prints them and not in the right order, each with an empty box '
+            'at the left for its number.'),
+
+ 33: lambda: F.cue_cards(
+        ('Card A \u2014 warning',
+         ['say it once, plainly', 'say how sure you are', 'give one fact, not five', 'say what you are doing yourself'], 'warning'),
+        ('Card B \u2014 not worried',
+         ['say why you are not', 'ask one real question', 'change your mind or do not', 'say what you will actually do'], 'person'),
+        height=560,
+        alt='The two role-play cards side by side. Card A \u2014 warning: say it '
+            'once, plainly, say how sure you are, give one fact, not five, '
+            'say what you are doing yourself. Card B \u2014 not worried: say why '
+            'you are not, ask one real question, change your mind or do not, '
+            'say what you will actually do.'),
+
+ 34: lambda: F.writing_frame(
+        [('what might happen and when', 'The river might come up on Tuesday night.'),
+         ('how sure you are', 'It did the same twice before.'),
+         ('one thing to do', 'Move anything that matters off a ground floor.')],
+        height=571,
+        alt='The shape of the Part 7 writing task in three steps -- what '
+            'might happen and when, how sure you are, one thing to do -- with '
+            'a line of the model beside each one.'),
 
  35: lambda: F.before_after(
         ('A year of dust', ['a dry country', 'the radio says nothing',
@@ -134,6 +326,42 @@ FIGURES = {
             'arrives: it reaches the south coast, moves north for six weeks, and the '
             'whole harvest turns on whether it is early, late or thin.'),
 
+ 36: lambda: F.word_grid(
+        [('monsoon', 'rain'), ('harvest', 'vegetable'), ('arrival', 'airport'), ('dam', 'bridge')],
+        height=440, cols=4,
+        alt='The four words from the global story as numbered picture cards: '
+            'monsoon, harvest, arrival, dam.'),
+ 37: lambda: F.close_scene(
+        [('the river', 'water'), ('the shop door', 'shop'),
+         ('books moved up', 'book'), ('the fourth floor', 'stairs')],
+        height=460,
+        alt='The winter the river came up, drawn through number 14: the river '
+            'itself, the shop door where Amina lost two days of trade and a '
+            'freezer, the books Maya moved up and felt silly about on Monday, '
+            'and the fourth floor that lost nothing at all.'),
+
+ 38: lambda: F.decision_fork(
+        'A warning says bad weather might come, and it might not?',
+        [('Do nothing until you are sure',
+          ['no work at all', 'by then it is in the shop'], 'cross'),
+         ('Do the small cheap thing now',
+          ['ten minutes of work', 'you might feel silly'], 'tick'),
+         ('Warn everybody else as well',
+          ['five people move things up', 'some of them will not believe it'],
+          'loudspeaker')],
+        height=620,
+        alt='The decision task as one question and three branches, with what '
+            'each one costs: do nothing until you are sure, and by then the '
+            'water is in the shop; do the small cheap thing now for ten '
+            'minutes of work and the risk of feeling silly; or warn everybody '
+            'else as well.'),
+
+ 39: lambda: F.bank_strip(
+        [('storm', 'rain'), ('shower', 'rain'), ('flood', 'water'), ('temperature', 'thermometer'), ('will', 'arrow_right'), ('might', 'question'), ('diary', 'notebook'), ('junction', 'junction')],
+        height=560, cols=4,
+        alt='The eight words of the spiral review bank, in bank order: storm, '
+            'shower, flood, temperature, will, might, diary, junction.'),
+
  40: lambda: F.progress_strip(
         [('I can talk about the weather and say what it will do', False),
          ('I can use will, won’t and might correctly', False),
@@ -143,4 +371,11 @@ FIGURES = {
         height=520,
         alt='The five Can-Do lines of the unit as a strip with a box to tick beside '
             'each, the last one marked Plus.'),
+
+ 41: lambda: F.glossary_grid(
+        [('storm', 'rain'), ('shower', 'rain'), ('temperature', 'thermometer'), ('degree', 'thermometer'), ('ice', 'snow'), ('fog', 'cloud'), ('wind', 'wind'), ('sunny', 'sun'), ('freeze', 'snow'), ('flood', 'water')],
+        height=700, cols=5,
+        alt='All ten glossary words of Unit 12 as picture cards on one page: '
+            'storm, shower, temperature, degree, ice, fog, wind, sunny, '
+            'freeze, flood.'),
 }

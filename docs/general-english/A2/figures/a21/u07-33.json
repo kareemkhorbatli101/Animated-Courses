@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the customer",
+   "size": 34,
+   "bbox": [
+    150.2,
+    58.2,
+    589.8,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say what and when",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    441.9,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what went wrong",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    475.4,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "show the receipt",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    402.9,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask for advice",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    359.3,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the shop",
+   "size": 34,
+   "bbox": [
+    894.0,
+    58.2,
+    1246.0,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask for the receipt",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1130.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer two things",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1090.3,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give honest advice",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1134.9,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say why",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    964.8,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the customer: say what and when, say what went wrong, show the receipt, ask for advice. Card B \u2014 the shop: ask for the receipt, offer two things, give honest advice, say why.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "dfc4fd794fc844f0d53eaeb3cb2a2b291bf78ae9bcebea9a5bf2c5ba7ee4468b"
+}

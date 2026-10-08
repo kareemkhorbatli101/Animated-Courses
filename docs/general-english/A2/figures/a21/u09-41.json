@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "junction",
+   "size": 28,
+   "bbox": [
+    111.1,
+    287.7,
+    239.3,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "roundabout",
+   "size": 28,
+   "bbox": [
+    355.4,
+    287.7,
+    539.8,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "lane",
+   "size": 28,
+   "bbox": [
+    686.3,
+    287.7,
+    753.7,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "square",
+   "size": 28,
+   "bbox": [
+    938.2,
+    287.7,
+    1046.6,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "address",
+   "size": 28,
+   "bbox": [
+    1202.2,
+    287.7,
+    1327.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "block",
+   "size": 28,
+   "bbox": [
+    133.2,
+    608.7,
+    217.2,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "towards",
+   "size": 28,
+   "bbox": [
+    383.6,
+    608.7,
+    511.6,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ahead",
+   "size": 28,
+   "bbox": [
+    671.6,
+    608.7,
+    768.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "below",
+   "size": 28,
+   "bbox": [
+    945.5,
+    608.7,
+    1039.3,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "far",
+   "size": 28,
+   "bbox": [
+    1242.4,
+    608.7,
+    1287.2,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 9 as picture cards on one page: junction, roundabout, lane, square, address, block, towards, ahead, below, far.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "c77d3e30797943ce0ae0ef2da1a5c88e3641d3bcf03726061568ea740de86d77"
+}

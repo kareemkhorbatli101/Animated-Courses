@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I wanted to ask about the Saturday trip.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    963.8,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Clerk",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    187.8,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The weather was terrible.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    548.5,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "And this Saturday?",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    602.9,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Clerk",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    187.8,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "We start at eight and we are back at six.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    801.8,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Yuki: I wanted to ask about the Saturday trip. Clerk: The weather was terrible. Yuki: And this Saturday? Clerk: We start at eight and we are back at six.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "6d24feacf6df944dfe3234407dcf50b3ab1c60201e09a8fb5340960c875e4306"
+}

@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "He goed back for it.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    446.8,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "He went back for it.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1154.6,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She goed back for her bag.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    561.9,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Did she caught the next bus?",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    595.6,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki taked the train to the coast.",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    656.4,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "a3daf1eba4f1d71e4c455eda9b9d525271785093bdd86869e177a353fb662d42"
+}

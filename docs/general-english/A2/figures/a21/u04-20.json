@@ -1,0 +1,216 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "six eggs",
+   "size": 26,
+   "bbox": [
+    82.2,
+    281.6,
+    202.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "fresh",
+   "size": 26,
+   "bbox": [
+    249.6,
+    281.6,
+    325.4,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bread",
+   "size": 26,
+   "bbox": [
+    244.9,
+    313.6,
+    330.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a little",
+   "size": 26,
+   "bbox": [
+    384.6,
+    281.6,
+    480.4,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "milk",
+   "size": 26,
+   "bbox": [
+    401.4,
+    313.6,
+    463.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "three",
+   "size": 26,
+   "bbox": [
+    538.0,
+    281.6,
+    617.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "lemons",
+   "size": 26,
+   "bbox": [
+    524.8,
+    313.6,
+    630.2,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six eggs",
+   "size": 26,
+   "bbox": [
+    802.2,
+    281.6,
+    922.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no",
+   "size": 26,
+   "bbox": [
+    989.3,
+    281.6,
+    1025.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bread",
+   "size": 26,
+   "bbox": [
+    964.9,
+    313.6,
+    1050.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a lot of",
+   "size": 26,
+   "bbox": [
+    1100.5,
+    281.6,
+    1204.5,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "milk",
+   "size": 26,
+   "bbox": [
+    1121.4,
+    313.6,
+    1183.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one",
+   "size": 26,
+   "bbox": [
+    1270.5,
+    281.6,
+    1324.5,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "lemon",
+   "size": 26,
+   "bbox": [
+    1252.5,
+    313.6,
+    1342.5,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\\u2019s facts on the left and Student B\\u2019s on the right, with a fold line between them, so each student sees only their own -- which is what the task has always asked for and a pair of prose lists on one page cannot give.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "31d319ee3b40a06232059eaf8126ee2b69e55e84479114b1457a884eb985b852"
+}

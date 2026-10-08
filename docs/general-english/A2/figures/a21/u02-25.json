@@ -23,13 +23,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "tall blocks with a shared pool",
-   "size": 24,
+   "text": "tall blocks with a shared",
+   "size": 26,
    "bbox": [
-    104.8,
-    270.7,
-    455.2,
-    292.2
+    122.1,
+    269.1,
+    437.9,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "pool",
+   "size": 26,
+   "bbox": [
+    252.2,
+    301.1,
+    307.8,
+    324.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -47,13 +59,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "rooms built around a courtyard",
-   "size": 22,
+   "text": "rooms built around a",
+   "size": 26,
    "bbox": [
-    548.9,
-    272.2,
-    891.1,
-    292.2
+    584.7,
+    269.1,
+    855.3,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "courtyard",
+   "size": 26,
+   "bbox": [
+    657.2,
+    301.1,
+    782.8,
+    324.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -104,5 +128,5 @@
   6.260416666666667,
   1.71875
  ],
- "sha256": "4dfe3f1889ad99bf9f6b1c57181b8825ee718648bda3e4d9fb3f73175735146d"
+ "sha256": "5ae8586c66c959049fa4c07b170c0da42256166030fb059777e2cb16b4d30f15"
 }

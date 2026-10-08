@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "quality",
+   "size": 28,
+   "bbox": [
+    120.3,
+    287.7,
+    230.1,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "value",
+   "size": 28,
+   "bbox": [
+    404.8,
+    287.7,
+    490.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "brand",
+   "size": 28,
+   "bbox": [
+    673.6,
+    287.7,
+    766.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "battery",
+   "size": 28,
+   "bbox": [
+    934.0,
+    287.7,
+    1050.8,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "screen",
+   "size": 28,
+   "bbox": [
+    1212.3,
+    287.7,
+    1317.3,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "deal",
+   "size": 28,
+   "bbox": [
+    141.4,
+    608.7,
+    209.0,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "repair",
+   "size": 28,
+   "bbox": [
+    400.0,
+    608.7,
+    495.2,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "model",
+   "size": 28,
+   "bbox": [
+    671.5,
+    608.7,
+    768.5,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "second-hand",
+   "size": 28,
+   "bbox": [
+    891.4,
+    608.7,
+    1093.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer",
+   "size": 28,
+   "bbox": [
+    1227.4,
+    608.7,
+    1302.2,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 7 as picture cards on one page: quality, value, brand, battery, screen, deal, repair, model, second-hand, offer.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "a69d8c8f47c2af72df16c2053c9a20145a86cdf1f6c5239f2dc6fb9936175d14"
+}

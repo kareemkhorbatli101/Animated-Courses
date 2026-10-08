@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    150.2,
+    128.5,
+    171.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what you",
+   "size": 28,
+   "bbox": [
+    88.0,
+    238.0,
+    233.3,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "need",
+   "size": 28,
+   "bbox": [
+    121.7,
+    272.0,
+    199.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    482.2,
+    128.5,
+    503.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the first two steps",
+   "size": 28,
+   "bbox": [
+    347.4,
+    272.0,
+    637.9,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    924.9,
+    128.5,
+    945.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the last two steps",
+   "size": 28,
+   "bbox": [
+    793.1,
+    272.0,
+    1077.5,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 30,
+   "bbox": [
+    1256.9,
+    128.5,
+    1277.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what to be",
+   "size": 22,
+   "bbox": [
+    1200.9,
+    247.9,
+    1333.8,
+    267.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "careful about",
+   "size": 22,
+   "bbox": [
+    1184.3,
+    275.9,
+    1350.3,
+    295.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 4,
+ "arrows": 0,
+ "alt": "The one-minute lesson as four beats on a clock line, each block as wide as the share of the minute it should take: what you need, the first two steps, the last two steps, and what to be careful about.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "ee6a4578e7bbfe34945d2c5ad5fc4c8f24ae1dbdba4a70a12e562bc54425a509"
+}

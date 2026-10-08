@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the person who waited",
+   "size": 34,
+   "bbox": [
+    57.8,
+    58.2,
+    682.2,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say what happened",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    445.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say nobody told you",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    456.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what it cost you",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    454.3,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "accept the offer",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    389.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the office",
+   "size": 34,
+   "bbox": [
+    887.8,
+    58.2,
+    1252.2,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "apologise",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    990.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the reason",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1084.2,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "admit the mistake",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1125.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer something real",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1160.5,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the person who waited: say what happened, say nobody told you, say what it cost you, accept the offer. Card B \u2014 the office: apologise, give the reason, admit the mistake, offer something real.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "f18a62e9c92e16664582144cece03b26eb10bd79de419d91889b54f1f5b436e3"
+}

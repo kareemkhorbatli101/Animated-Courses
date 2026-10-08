@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "museum",
+   "size": 30,
+   "bbox": [
+    139.8,
+    209.4,
+    283.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "picnic",
+   "size": 30,
+   "bbox": [
+    501.0,
+    209.4,
+    600.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "village",
+   "size": 30,
+   "bbox": [
+    833.3,
+    209.4,
+    945.7,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "windy",
+   "size": 30,
+   "bbox": [
+    1178.3,
+    209.4,
+    1278.7,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was",
+   "size": 30,
+   "bbox": [
+    178.6,
+    427.4,
+    244.4,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "were",
+   "size": 30,
+   "bbox": [
+    508.9,
+    427.4,
+    592.1,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "aisle",
+   "size": 30,
+   "bbox": [
+    850.0,
+    427.4,
+    929.0,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "timetable",
+   "size": 30,
+   "bbox": [
+    1147.0,
+    427.4,
+    1310.0,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: museum, picnic, village, windy, was, were, aisle, timetable.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "561ee51fead74639dac364b7ff7b9a32692857871e1f218678663efe4733e1c5"
+}

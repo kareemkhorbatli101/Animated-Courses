@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  599
+ ],
+ "bounds": [
+  47.0,
+  29.7,
+  1393.0,
+  568.9
+ ],
+ "texts": [
+  {
+   "text": "Somebody did a job badly and it is still wrong?",
+   "size": 34,
+   "bbox": [
+    271.1,
+    66.7,
+    1168.9,
+    97.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Do it yourself",
+   "size": 30,
+   "bbox": [
+    146.9,
+    367.9,
+    375.8,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it takes two minutes",
+   "size": 26,
+   "bbox": [
+    129.0,
+    434.2,
+    393.6,
+    457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody has to hear",
+   "size": 26,
+   "bbox": [
+    135.0,
+    478.2,
+    387.7,
+    501.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "about it",
+   "size": 26,
+   "bbox": [
+    211.0,
+    509.2,
+    311.7,
+    532.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tell the person who",
+   "size": 30,
+   "bbox": [
+    554.6,
+    367.9,
+    885.4,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "did it",
+   "size": 30,
+   "bbox": [
+    675.9,
+    403.9,
+    764.1,
+    430.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "they can turn it",
+   "size": 26,
+   "bbox": [
+    619.8,
+    470.2,
+    820.2,
+    493.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the conversation takes a",
+   "size": 26,
+   "bbox": [
+    559.4,
+    514.2,
+    880.6,
+    537.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "week",
+   "size": 26,
+   "bbox": [
+    685.8,
+    545.2,
+    754.2,
+    568.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Leave it",
+   "size": 30,
+   "bbox": [
+    1111.3,
+    367.9,
+    1246.0,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing to do",
+   "size": 26,
+   "bbox": [
+    1091.5,
+    434.2,
+    1265.8,
+    457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it is still upside down",
+   "size": 26,
+   "bbox": [
+    1042.2,
+    478.2,
+    1315.2,
+    501.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: do it yourself in two minutes and nobody has to hear about it; tell the person who did it and the conversation takes a week; or leave it, and it is still upside down.",
+ "placed_in": [
+  6.260416666666667,
+  2.6041666666666665
+ ],
+ "sha256": "5ccfdfe1e8e757f215072cbf976eb4b5bee3c84f47ea30c614f5578a92fb1b05"
+}

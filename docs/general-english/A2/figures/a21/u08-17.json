@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Teacher",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    395.9,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Can you swim at all?",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    628.8,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    173.7,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "No.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    169.1,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Teacher",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    395.9,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "That\u2019s more than most people start with.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    979.9,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    173.7,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can, but I don\u2019t like it.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    510.1,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Teacher: Can you swim at all? Yuki: No. Teacher: That\u2019s more than most people start with. Yuki: I can, but I don\u2019t like it.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "5fa570d64fb4cd9e929946ad01e10f6eac41174f8bfea5fc19b82f4506c676de"
+}

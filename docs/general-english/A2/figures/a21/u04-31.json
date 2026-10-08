@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Sorry \u2014 I think the change is wrong.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    899.0,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Assistant",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    248.3,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What did you give me?",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    498.2,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "And it was eleven forty.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    683.5,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Assistant",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    248.3,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I gave you change from a ten.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    618.9,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Yuki: Sorry \u2014 I think the change is wrong. Assistant: What did you give me? Yuki: And it was eleven forty. Assistant: I gave you change from a ten.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "17502a90569a3681b92a026db5da249cd70dab5555de918161e05c4e20489383"
+}

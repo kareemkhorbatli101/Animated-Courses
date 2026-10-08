@@ -1,0 +1,288 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "left at",
+   "size": 26,
+   "bbox": [
+    97.9,
+    281.6,
+    187.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "seven",
+   "size": 26,
+   "bbox": [
+    99.4,
+    313.6,
+    185.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "forgot",
+   "size": 26,
+   "bbox": [
+    242.1,
+    281.6,
+    332.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "your",
+   "size": 26,
+   "bbox": [
+    254.4,
+    313.6,
+    320.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "wallet",
+   "size": 26,
+   "bbox": [
+    242.8,
+    345.6,
+    332.2,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "missed",
+   "size": 26,
+   "bbox": [
+    380.9,
+    281.6,
+    484.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the",
+   "size": 26,
+   "bbox": [
+    408.2,
+    313.6,
+    456.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "coach",
+   "size": 26,
+   "bbox": [
+    390.1,
+    345.6,
+    474.9,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "an hour",
+   "size": 26,
+   "bbox": [
+    521.1,
+    281.6,
+    633.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "late",
+   "size": 26,
+   "bbox": [
+    549.2,
+    313.6,
+    605.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "left at",
+   "size": 26,
+   "bbox": [
+    817.9,
+    281.6,
+    907.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "seven",
+   "size": 26,
+   "bbox": [
+    819.4,
+    313.6,
+    905.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "forgot",
+   "size": 26,
+   "bbox": [
+    962.1,
+    281.6,
+    1052.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "your",
+   "size": 26,
+   "bbox": [
+    974.4,
+    313.6,
+    1040.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "charger",
+   "size": 26,
+   "bbox": [
+    950.8,
+    345.6,
+    1064.2,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "caught",
+   "size": 26,
+   "bbox": [
+    1102.0,
+    281.6,
+    1203.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the",
+   "size": 26,
+   "bbox": [
+    1128.2,
+    313.6,
+    1176.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "coach",
+   "size": 26,
+   "bbox": [
+    1110.1,
+    345.6,
+    1194.9,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "an hour",
+   "size": 26,
+   "bbox": [
+    1241.1,
+    281.6,
+    1353.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "late",
+   "size": 26,
+   "bbox": [
+    1269.2,
+    313.6,
+    1325.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\\u2019s facts on the left and Student B\\u2019s on the right, with a fold line between them, so each student sees only their own -- which is what the task has always asked for and a pair of prose lists on one page cannot give.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "620947443a82b0a8bed0d99ce95c86e380fea9b4d6b051d51834b6bba15e3540"
+}

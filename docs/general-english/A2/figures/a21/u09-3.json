@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "address",
+   "size": 30,
+   "bbox": [
+    144.5,
+    258.6,
+    278.5,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "far",
+   "size": 30,
+   "bbox": [
+    526.5,
+    258.6,
+    574.5,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "towards",
+   "size": 30,
+   "bbox": [
+    821.0,
+    258.6,
+    958.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "lane",
+   "size": 30,
+   "bbox": [
+    1192.4,
+    258.6,
+    1264.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: address, far, towards, lane.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "2092f9f7be42296e6cdd1fed5b46808b02d84b9b080bf3dcbff81b28c09a882c"
+}

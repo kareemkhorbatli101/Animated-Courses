@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    150.2,
+    128.5,
+    171.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "which meal",
+   "size": 26,
+   "bbox": [
+    77.9,
+    240.8,
+    243.5,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you cook",
+   "size": 26,
+   "bbox": [
+    95.3,
+    272.8,
+    226.1,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    482.2,
+    128.5,
+    503.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what you need a lot of",
+   "size": 28,
+   "bbox": [
+    315.3,
+    272.0,
+    670.0,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    924.9,
+    128.5,
+    945.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what you need a little of",
+   "size": 28,
+   "bbox": [
+    741.8,
+    272.0,
+    1128.9,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 30,
+   "bbox": [
+    1256.9,
+    128.5,
+    1277.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "who you",
+   "size": 28,
+   "bbox": [
+    1201.2,
+    238.0,
+    1333.4,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cook it for",
+   "size": 28,
+   "bbox": [
+    1186.6,
+    272.0,
+    1348.0,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 4,
+ "arrows": 0,
+ "alt": "The one-minute talk as four beats on a clock line, each block as wide as the share of the minute it should take: which meal you cook, what you need a lot of, what you need a little of, and who you cook it for.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "6069fc96f511e242427301b8606514aaf333c5d866d14041fac3017dce25bf49"
+}

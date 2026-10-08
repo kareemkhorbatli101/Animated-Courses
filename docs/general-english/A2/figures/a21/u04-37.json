@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the till",
+   "size": 28,
+   "bbox": [
+    171.4,
+    331.2,
+    275.6,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the notebook",
+   "size": 28,
+   "bbox": [
+    449.1,
+    331.2,
+    659.9,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bread and milk",
+   "size": 28,
+   "bbox": [
+    766.9,
+    331.2,
+    1004.1,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Friday",
+   "size": 28,
+   "bbox": [
+    1168.0,
+    331.2,
+    1265.0,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The notebook under the till, drawn as the week it runs on: the till it lives under, the book of names and small numbers, the bread and milk a man takes with no money, and the Friday when Amina crosses the line out.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "b80e99f3fd8a4bde6d522ffb83830b9cb1f83192f6eb6016fba3e6c2d1ba36aa"
+}

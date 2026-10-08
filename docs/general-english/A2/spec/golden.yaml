@@ -198,7 +198,7 @@ figures:
   # the tree stays green. Phases 6 and 7 move every unit over, and then
   # `dense_slots` becomes `slots` and this block goes.
   dense_units:
-    a21: [1, 2]
+    a21: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     a22: []
   dense_per_unit: 41
   dense_slots:
@@ -207,7 +207,12 @@ figures:
     3:  {part: 'Warm Up', job: bank_strip,       feeds: gapfill}
     4:  {part: 'Warm Up', job: scene,            feeds: fig_mcq}
     5:  {part: 'Part 1',  job: word_grid,        feeds: matching}
-    6:  {part: 'Part 1',  job: sound_shape,      feeds: pronunciation}
+    # The job here is whichever one the unit's Pronunciation section asks
+    # for: four units teach syllable stress (sound_shape), one teaches the
+    # three sounds of -ed (sound_groups), two teach a changed form
+    # (function_map) and three teach where the beat falls in a phrase
+    # (annotated_lines). figure_source.pron_kind classifies the section.
+    6:  {part: 'Part 1',  job: pronunciation,    feeds: pronunciation}
     7:  {part: 'Part 1',  job: category_set,     feeds: table_fill}
     8:  {part: 'Part 1',  job: label_me,         feeds: matching}
     9:  {part: 'Part 1',  job: bank_strip,       feeds: gapfill}

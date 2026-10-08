@@ -107,13 +107,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Walk along the lane, towards the bridge.",
-   "size": 24,
+   "text": "Walk along the lane, towards the",
+   "size": 30,
    "bbox": [
-    792.7,
-    394.6,
-    1347.3,
-    416.1
+    789.3,
+    390.7,
+    1350.7,
+    417.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bridge.",
+   "size": 30,
+   "bbox": [
+    1009.4,
+    430.7,
+    1130.6,
+    457.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +140,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "e1af3657814c1503062e517bcea6debe646eac8e7e7b048b4a4f8c7320afb956"
+ "sha256": "2e79f9a76db3b65dd3a67dfe06f5f6837837d8bc2a4077725746f6f7a458db7b"
 }

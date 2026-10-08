@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  462
+ ],
+ "bounds": [
+  53,
+  22.9,
+  1387,
+  438.9
+ ],
+ "texts": [
+  {
+   "text": "Decide and go.",
+   "size": 30,
+   "bbox": [
+    280,
+    60.1,
+    532.5,
+    86.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Ask somebody who works there.",
+   "size": 30,
+   "bbox": [
+    280,
+    166.1,
+    829.2,
+    192.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Ask what the other ways are.",
+   "size": 30,
+   "bbox": [
+    280,
+    272.1,
+    775.6,
+    298.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Ask how long the other way takes.",
+   "size": 30,
+   "bbox": [
+    280,
+    378.1,
+    864.5,
+    404.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four steps still to be numbered, in the order the task prints them and not in the right order, each with an empty box at the left for its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.0104166666666665
+ ],
+ "sha256": "41c52a35d4681ef7bcd431acae0830cfb366c69f604452b7de6cba9f41948f24"
+}

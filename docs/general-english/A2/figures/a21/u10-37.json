@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the sign",
+   "size": 28,
+   "bbox": [
+    159.3,
+    331.2,
+    287.7,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the gate",
+   "size": 28,
+   "bbox": [
+    487.8,
+    331.2,
+    621.2,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "number 14",
+   "size": 28,
+   "bbox": [
+    800.2,
+    331.2,
+    970.8,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tuesday",
+   "size": 28,
+   "bbox": [
+    1152.5,
+    331.2,
+    1280.5,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The sign nobody turned, drawn where it hangs: the piece of wood Dani painted, the gate he tied it to in the dark, number 14 behind it, and the Tuesday Tomas noticed it and meant to fix it on the Wednesday.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "583dd58bcfe0e80c7bc3ae459d57f31b6e397fee577d96aa89a6f4173ecb53ad"
+}

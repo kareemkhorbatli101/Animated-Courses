@@ -11,13 +11,25 @@
  ],
  "texts": [
   {
-   "text": "Could you give me a hand with this?",
-   "size": 26,
+   "text": "Could you give me a hand with",
+   "size": 28,
    "bbox": [
-    94.3,
-    61.5,
-    625.7,
-    85.2
+    116.6,
+    43.7,
+    603.4,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "this?",
+   "size": 28,
+   "bbox": [
+    322.1,
+    77.7,
+    397.9,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +128,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "b5709ce97406bef1efb93a4ec9321ea1e37192b465c5e17f6954b5c18ee585db"
+ "sha256": "40821e8aab3fe54410a4c816a514d93149840bccbc69c400586bb2abf99ee69b"
 }

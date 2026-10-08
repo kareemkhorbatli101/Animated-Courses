@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    464.0,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Hold it there.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    507.5,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    173.7,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Like this?",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    272.6,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    464.0,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Press it, but not hard.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    655.4,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    173.7,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What is the difference?",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    505.0,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Mr Okonkwo: Hold it there. Yuki: Like this? Mr Okonkwo: Press it, but not hard. Yuki: What is the difference?",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "af3bfafc5d595d0f19351dbb2c761337344afa7ea30681d52c25f6e584a6460e"
+}

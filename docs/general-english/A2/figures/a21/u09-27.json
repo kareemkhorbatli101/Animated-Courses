@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  349
+ ],
+ "bounds": [
+  67,
+  17.3,
+  1373,
+  331.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    80.4,
+    143.1,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a clear opinion",
+   "size": 30,
+   "bbox": [
+    190,
+    82.0,
+    440.5,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A person is better, and not because people.",
+   "size": 26,
+   "bbox": [
+    670,
+    82.3,
+    1240.0,
+    106.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    243.4,
+    143.1,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two or three reasons",
+   "size": 30,
+   "bbox": [
+    190,
+    245.0,
+    543.7,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A map gives everything at once.",
+   "size": 26,
+   "bbox": [
+    670,
+    245.3,
+    1093.0,
+    269.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the opinion paragraph in two steps -- a clear opinion, two or three reasons -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "ee894bb2bf54497faa4265fd183ec2fd82ec2bfabf70925a1698f3f14e382ceb"
+}

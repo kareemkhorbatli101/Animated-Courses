@@ -59,13 +59,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "two numbers fix a place exactly",
-   "size": 22,
+   "text": "two numbers fix a place",
+   "size": 26,
    "bbox": [
-    544.3,
-    272.2,
-    895.7,
-    292.2
+    563.4,
+    269.1,
+    876.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "exactly",
+   "size": 26,
+   "bbox": [
+    673.0,
+    301.1,
+    767.0,
+    324.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +128,5 @@
   6.260416666666667,
   1.71875
  ],
- "sha256": "2c2f8d17fc0ea215548a06149dcf4ed630ff95ad8f3758991f297bd116737fd7"
+ "sha256": "cf8e65de49c72d458fb702c93f503739387da3409983e03434cbba05202dac4a"
 }

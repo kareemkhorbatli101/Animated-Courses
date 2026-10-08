@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "My commute takes half an hour on two buses.",
-   "size": 24,
+   "text": "My commute takes half an hour on two",
+   "size": 26,
    "bbox": [
     670,
-    59.3,
-    1225.8,
-    80.8
+    42.7,
+    1179.6,
+    66.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "buses.",
+   "size": 26,
+   "bbox": [
+    670,
+    72.7,
+    754.3,
+    96.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +140,5 @@
   6.260416666666667,
   1.5729166666666667
  ],
- "sha256": "b3c25be8df898f06a60181a31ee512887c2e551c8955e6ca24616b2dc443209e"
+ "sha256": "58321302a8a5d0895b5fffd2bf54d9a7dca2bcfe1ca483588371d754da1e3cca"
 }

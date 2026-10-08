@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  700
+ ],
+ "bounds": [
+  67,
+  30.0,
+  1373,
+  670.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    93.1,
+    143.1,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what and when",
+   "size": 30,
+   "bbox": [
+    190,
+    94.7,
+    448.4,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Good morning.",
+   "size": 26,
+   "bbox": [
+    670,
+    95.0,
+    863.1,
+    118.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    256.1,
+    143.1,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what went wrong",
+   "size": 30,
+   "bbox": [
+    190,
+    257.7,
+    484.3,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I bought a pair of boots from you three",
+   "size": 26,
+   "bbox": [
+    670,
+    243.0,
+    1176.3,
+    266.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "weeks.",
+   "size": 26,
+   "bbox": [
+    670,
+    273.0,
+    760.1,
+    296.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    419.1,
+    143.1,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what you want",
+   "size": 30,
+   "bbox": [
+    190,
+    420.7,
+    439.8,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have the receipt and I can bring them.",
+   "size": 26,
+   "bbox": [
+    670,
+    421.0,
+    1187.6,
+    444.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    582.1,
+    143.1,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a reasonable tone",
+   "size": 30,
+   "bbox": [
+    190,
+    583.7,
+    495.3,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am not asking for very much \u2014 a repair.",
+   "size": 26,
+   "bbox": [
+    670,
+    584.0,
+    1210.7,
+    607.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in four steps -- what and when, what went wrong, what you want, a reasonable tone -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  3.0416666666666665
+ ],
+ "sha256": "5978ba41172474fed66ed2b024ea5c70df43746a89ceea272cd02f8fd06c4b48"
+}

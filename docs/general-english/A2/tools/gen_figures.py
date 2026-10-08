@@ -188,16 +188,49 @@ def build(book, num):
          + ', each with the thing it means drawn beside its number.',
          f'icon not in the map for {unknowns(rows)}' if unknowns(rows) else None)
 
-    # --- 6 sound_shape, Part 1 sub 2
-    pr = S.pronunciation(L('Part 1', 2))
-    src = ',\n         '.join(
-        f"({q(w)}, [{', '.join(q(x) for x in sy)}], {st})" for w, sy, st in pr)
-    emit(6, f"F.sound_shape(\n        [{src}],\n        height={max(460, 60 + 110 * len(pr))},",
-         f"Where the stress falls in {nw(len(pr))} words of this unit. Each word has "
-         "a bar above every syllable, tall and dark where the stress falls and "
-         "short and pale elsewhere, and the same pattern again at the right as "
-         "one large dot among small ones.",
-         'no pronunciation rows parsed' if not pr else None)
+    # --- 6 the pronunciation slot, Part 1 sub 2
+    # Four of the ten units teach syllable stress, one teaches a sound, two
+    # teach a changed form and three teach where the beat falls in a phrase.
+    # One job cannot draw all four honestly, so the slot takes the job the
+    # section's own content asks for -- see figure_source.pron_kind.
+    kind, rows = S.pron_kind(L('Part 1', 2))
+    if kind == 'stress':
+        src = ',\n         '.join(
+            f"({q(w)}, [{', '.join(q(x) for x in sy)}], {st})" for w, sy, st in rows)
+        emit(6, f"F.sound_shape(\n        [{src}],\n"
+                f"        height={max(460, 60 + 110 * len(rows))},",
+             f"Where the stress falls in {nw(len(rows))} words of this unit. Each "
+             "word has a bar above every syllable, tall and dark where the stress "
+             "falls and short and pale elsewhere, and the same pattern again at "
+             "the right as one large dot among small ones.")
+    elif kind == 'sound':
+        src = ',\n         '.join(
+            f"({q(g)}, [{', '.join(q(w) for w in ws)}])" for g, ws in rows)
+        # the card has to fit its own words: a fixed 440 left two-thirds of
+        # each column empty when a group held only two
+        _h = 338 + 66 * (max(len(ws) for _, ws in rows) - 1)
+        emit(6, f"F.sound_groups(\n        [{src}],\n        height={_h},",
+             f"The words of this unit sorted by the sound they end in, "
+             f"{nw(len(rows))} columns in all: "
+             + '; '.join(f"{g} takes " + ', '.join(ws) for g, ws in rows) + '.')
+    elif kind == 'pair':
+        src = ',\n         '.join(f'({q(a)}, {q(b)})' for a, b in rows)
+        emit(6, f"F.function_map(\n        [{src}],\n"
+                f"        height={max(420, 90 + 86 * len(rows))},",
+             f"The {nw(len(rows))} forms this unit drills, each with an arrow from "
+             "the one you start with to the one you say: "
+             + ', '.join(f'{a} to {b}' for a, b in rows) + '.')
+    elif kind == 'beat':
+        src = ',\n         '.join(f'({q(a)}, {q(b)})' for a, b in rows)
+        emit(6, f"F.annotated_lines(\n        [{src}],\n"
+                f"        height={max(360, 120 + 86 * len(rows))},",
+             f"{nw(len(rows)).capitalize()} phrases from this unit with the word "
+             "that carries the beat ringed in each: "
+             + ', '.join(b for _, b in rows) + '.')
+    else:
+        emit(6, "F.sound_shape(\n        [REVIEW],\n        height=460,",
+             'The pronunciation point of this unit, drawn.',
+             'pronunciation section not recognised')
 
     # --- 9 bank_strip, Part 1 sub 6
     bk = S.word_bank(L('Part 1', 6))

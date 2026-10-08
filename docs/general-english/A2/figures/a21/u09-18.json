@@ -1,0 +1,300 @@
+{
+ "canvas": [
+  1440,
+  636
+ ],
+ "bounds": [
+  57,
+  30.0,
+  1383,
+  606.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    92.6,
+    86.8,
+    111.4,
+    111.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya",
+   "size": 30,
+   "bbox": [
+    240,
+    86.4,
+    329.0,
+    113.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    92.6,
+    233.3,
+    111.4,
+    257.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas",
+   "size": 30,
+   "bbox": [
+    240,
+    232.9,
+    346.5,
+    259.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    92.6,
+    379.8,
+    111.4,
+    404.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 30,
+   "bbox": [
+    240,
+    379.4,
+    450.0,
+    406.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    92.6,
+    526.3,
+    111.4,
+    550.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki",
+   "size": 30,
+   "bbox": [
+    240,
+    525.9,
+    311.1,
+    552.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a",
+   "size": 28,
+   "bbox": [
+    764.6,
+    74.1,
+    783.4,
+    98.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "knows every back lane in the",
+   "size": 28,
+   "bbox": [
+    814,
+    58.1,
+    1274.8,
+    82.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "area",
+   "size": 28,
+   "bbox": [
+    814,
+    90.1,
+    884.6,
+    114.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "b",
+   "size": 28,
+   "bbox": [
+    764.0,
+    190.9,
+    784.0,
+    215.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "gives directions by what is no",
+   "size": 28,
+   "bbox": [
+    814,
+    174.9,
+    1286.0,
+    199.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "longer",
+   "size": 28,
+   "bbox": [
+    814,
+    206.9,
+    915.6,
+    231.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "c",
+   "size": 28,
+   "bbox": [
+    765.7,
+    307.7,
+    782.3,
+    332.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "walks with the map open and",
+   "size": 28,
+   "bbox": [
+    814,
+    291.7,
+    1278.7,
+    316.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "still turns",
+   "size": 28,
+   "bbox": [
+    814,
+    323.7,
+    966.3,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "d",
+   "size": 28,
+   "bbox": [
+    764.0,
+    424.5,
+    784.0,
+    449.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "writes it down and reads it at",
+   "size": 28,
+   "bbox": [
+    814,
+    408.5,
+    1281.5,
+    433.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "every",
+   "size": 28,
+   "bbox": [
+    814,
+    440.5,
+    902.3,
+    465.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "e",
+   "size": 28,
+   "bbox": [
+    764.5,
+    541.3,
+    783.5,
+    565.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asks the driver to wait at the",
+   "size": 28,
+   "bbox": [
+    814,
+    525.3,
+    1275.1,
+    549.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "corner",
+   "size": 28,
+   "bbox": [
+    814,
+    557.3,
+    916.4,
+    581.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four cards on the left and five on the right for the learner to join. One of the right-hand options is not wanted, and it is drawn so the spare one is visible rather than implied.",
+ "placed_in": [
+  6.260416666666667,
+  2.7604166666666665
+ ],
+ "sha256": "a32613b58e8d6d733809a07e544cdbd8b427fabe7ea2e04a73737b090689e453"
+}

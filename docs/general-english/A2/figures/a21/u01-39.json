@@ -59,13 +59,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "present continuous",
-   "size": 26,
+   "text": "present",
+   "size": 30,
    "bbox": [
-    69.4,
-    429.7,
-    353.6,
-    453.4
+    146.2,
+    392.4,
+    276.8,
+    419.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "continuous",
+   "size": 30,
+   "bbox": [
+    118.0,
+    427.4,
+    305.0,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -116,5 +128,5 @@
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "19e48c3b55ae4e3741cef204a4c625c78224e7fdbfc978765d1cc6b5e50f0d4e"
+ "sha256": "aedbe103ed109162989f4592d4b92392b48afc87e3f107571fef8ff65ce9398e"
 }

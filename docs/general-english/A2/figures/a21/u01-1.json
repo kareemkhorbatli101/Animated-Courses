@@ -95,25 +95,49 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I can name the people around me: neighbour, flatmate, colleague.",
-   "size": 50,
+   "text": "I can name the people around me: neighbour, flatmate,",
+   "size": 56,
    "bbox": [
     310,
-    2343.3,
-    2177.2,
-    2387.2
+    2339.4,
+    2057.1,
+    2388.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I can use the present simple for routines and the present continuous for now.",
-   "size": 42,
+   "text": "colleague.",
+   "size": 56,
    "bbox": [
     310,
-    2479.6,
-    2154.7,
-    2516.0
+    2405.4,
+    635.1,
+    2454.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use the present simple for routines and the present",
+   "size": 56,
+   "bbox": [
+    310,
+    2535.4,
+    2124.0,
+    2584.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "continuous for now.",
+   "size": 56,
+   "bbox": [
+    310,
+    2601.4,
+    936.2,
+    2650.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,9 +147,9 @@
    "size": 56,
    "bbox": [
     310,
-    2599.4,
+    2731.4,
     1745.2,
-    2648.4
+    2780.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +188,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "9d2796d296a91cca8d14ff38ea71a8c1b573e9aa360528ab49d2b247deb0f58a"
+ "sha256": "d374c1a871d4634ada31fde3910c6d04031a895b192c4183c6f6f87081f134e3"
 }

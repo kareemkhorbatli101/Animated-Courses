@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What the weather was",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    571.4,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "On Saturday it was cloudy, so I stayed at",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1203.3,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "home.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    752.0,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Where you went",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    466.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "On Sunday I walked to the lake with two",
+   "size": 26,
+   "bbox": [
+    670,
+    239.2,
+    1193.7,
+    262.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "friends.",
+   "size": 26,
+   "bbox": [
+    670,
+    269.2,
+    767.9,
+    292.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you did there",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    516.3,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "We carried a picnic and ate it on the grass.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1229.4,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- what the weather was, where you went, and what you did there -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "dbe3a7a6bea93b98393ad3123ab946965c6149a0e40d92433b5c3c0d57c1d842"
+}

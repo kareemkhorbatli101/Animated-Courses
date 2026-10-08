@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  412
+ ],
+ "bounds": [
+  43,
+  20.4,
+  1397,
+  391.6
+ ],
+ "texts": [
+  {
+   "text": "the coat",
+   "size": 28,
+   "bbox": [
+    158.4,
+    333.1,
+    288.6,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the buttons",
+   "size": 28,
+   "bbox": [
+    462.2,
+    333.1,
+    646.8,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a woman two",
+   "size": 28,
+   "bbox": [
+    780.5,
+    333.1,
+    990.5,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "streets away",
+   "size": 28,
+   "bbox": [
+    784.1,
+    367.1,
+    986.9,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a new one",
+   "size": 28,
+   "bbox": [
+    1135.8,
+    333.1,
+    1297.2,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Mr Okonkwo's coat, drawn as the things that kept it going: the coat itself, older than Dani; the buttons that are not the ones it came with; the woman two streets away who relined it twice; and the new one he could buy easily and does not.",
+ "placed_in": [
+  6.260416666666667,
+  1.7916666666666667
+ ],
+ "sha256": "3271f95e7dff38c8daa45ea97056fadfc33816529e3eae5d478dcf5deee41b8b"
+}

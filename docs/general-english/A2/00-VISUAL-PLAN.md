@@ -849,3 +849,69 @@ Not fixed, and recorded as a known cost: the unit title page (title line and
 strap, then nothing) cannot share a page with the opener, because a section
 break with different margins always starts a new page. Recovering it means
 putting the title under the opener, and `A01` requires the title to be line 1.
+
+---
+
+## 19. Phase 6 as built — A2.1 complete
+
+### What changed in how the work is done
+
+Phase 5 produced one dense unit by hand. Nine more by hand would have been 243
+figures of transcription, and the two defects Unit 1 shipped with — a word the
+unit does not use, and a caption carrying a phrase the device counter watches
+for — are both transcription defects. So phase 6 built the tooling first and
+the units second:
+
+| Tool | What it removes |
+|---|---|
+| `tools/figure_source.py` | reading the unit to find each slot's material |
+| `tools/gen_figures.py` | writing twenty of the twenty-seven slots, and all 27 captions |
+| `tools/icon_map.py` | choosing 400+ icons by hand, and choosing one wrongly |
+| `tools/preflight_figures.py` | the render-build-check loop, for everything it can answer in seconds |
+| `tools/fix_slots.py` | editing a 400-line module to change one figure |
+
+Seven slots per unit still need a decision a parser cannot make: which phrase
+to ring, what the two bins are, which four places the Part 9 reading walks
+past, what each branch of the decision costs. Those were written by hand,
+against the unit's own text, 63 figures in all.
+
+### The pronunciation slot is four jobs, not one
+
+`00-VISUAL-PLAN.md` section 4 assigned `sound_shape` to slot 6 in every unit.
+Measuring the ten sub-sections found they teach four different things:
+
+| Units | Teaches | Job |
+|---|---|---|
+| 1, 2, 3, 4 | syllable stress (`rou-TINE`) | `sound_shape` |
+| 5 | the three sounds of `-ed` | `sound_groups` (new) |
+| 6, 7 | a changed form (`go → went`) | `function_map` |
+| 8, 9, 10 | where the beat falls in a phrase | `annotated_lines` |
+
+`figure_source.pron_kind` classifies the section and the generator picks the
+job. One job drawn over all four would have been decoration in six units.
+
+### Defects found by building nine more units
+
+- **`fit_lines` gave up after two lines and returned one over-wide line.** A
+  discussion question ran off the canvas and across its neighbour's label. It
+  wraps to as many lines as the caller allows now, and falls back to wrapping
+  at the floor size rather than overflowing. Too tall is a layout problem a
+  caller can see; too wide is a silent collision.
+- **`writing_frame` set its step label at a fixed 30 px** and ran into the
+  example column as soon as a step was called something longer than "Offer
+  help". It fits the label now.
+- **`sort_bins` could not take three bins** without running the third off the
+  canvas; four units need three or four.
+- **`close_scene` hung its icons a fixed 74 px above the ground line**, which
+  left the top third of every one empty. `G17` cannot see it, because the band
+  is drawn, not blank. The icons fill the band now.
+- **`icon()` drew a plain grey disc for an unknown name.** Nothing could see
+  it: `G13`, `G14` and `G16` all read the text and the bounds, and a grey
+  circle has the right bounds and no text. It raises now.
+- **The icon map normalised the label and not its own keys**, so no key
+  containing an apostrophe could ever match.
+
+### What A2.1 now is
+
+410 figures across ten units. 155 icons. Every drawn word is a word the unit
+uses, checked mechanically rather than by eye.

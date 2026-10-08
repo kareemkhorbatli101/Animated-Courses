@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  412
+ ],
+ "bounds": [
+  43,
+  20.4,
+  1397,
+  391.6
+ ],
+ "texts": [
+  {
+   "text": "the hospital",
+   "size": 28,
+   "bbox": [
+    128.8,
+    333.1,
+    318.2,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the dinner",
+   "size": 28,
+   "bbox": [
+    472.3,
+    333.1,
+    636.7,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a photograph of",
+   "size": 28,
+   "bbox": [
+    758.3,
+    333.1,
+    1012.7,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the cake",
+   "size": 28,
+   "bbox": [
+    818.3,
+    367.1,
+    952.7,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Sunday",
+   "size": 28,
+   "bbox": [
+    1158.3,
+    333.1,
+    1274.7,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Tomas's Saturday night drawn along one evening: the hospital he was at by seven, the dinner at eight that he missed, the photograph of the cake he sent instead, and the Sunday he slept through until four.",
+ "placed_in": [
+  6.260416666666667,
+  1.7916666666666667
+ ],
+ "sha256": "7d91d09967649ff1e6f29af265753cf0c042b10df0a34c2451cd187fcb7d0aeb"
+}

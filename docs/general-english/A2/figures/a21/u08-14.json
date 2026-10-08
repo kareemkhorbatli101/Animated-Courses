@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "Could you lend",
+   "size": 28,
+   "bbox": [
+    97.8,
+    59.8,
+    332.7,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani can cook rice",
+   "size": 28,
+   "bbox": [
+    407.2,
+    59.8,
+    696.3,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Can you carry this",
+   "size": 28,
+   "bbox": [
+    744.8,
+    59.8,
+    1031.8,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 28,
+   "bbox": [
+    1126.8,
+    59.8,
+    1322.8,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "ability",
+   "size": 34,
+   "bbox": [
+    317.7,
+    201.1,
+    438.3,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "request",
+   "size": 34,
+   "bbox": [
+    988.0,
+    201.1,
+    1136.0,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four sentences of this task as chips above two empty bins, one for ability and one for a request. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "f3aab8186f4d0d5576b1a434b56ea95ee12c6418cee8dd78769c309f25908d17"
+}

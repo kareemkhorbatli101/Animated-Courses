@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I waited at the stop for an hour.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    820.8,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Clerk",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    187.8,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "We stopped it at seven.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    513.8,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Nobody telephoned me.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    686.6,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Clerk",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    187.8,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "That was our mistake.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    487.2,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Yuki: I waited at the stop for an hour. Clerk: We stopped it at seven. Yuki: Nobody telephoned me. Clerk: That was our mistake.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "c20b307a2429bca6111ec8119db69a817ea4ebb9e6d4aa6ccb39eebda347e7bf"
+}

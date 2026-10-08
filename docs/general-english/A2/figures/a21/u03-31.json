@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Excuse me \u2014 the board says there is no ten.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    1032.7,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Staff",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    181.8,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is a problem on the line at the bridge.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    864.0,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Is there a later one?",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    623.9,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Staff",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    181.8,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It takes forty minutes, not twenty.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    694.8,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Yuki: Excuse me \u2014 the board says there is no ten. Staff: There is a problem on the line at the bridge. Yuki: Is there a later one? Staff: It takes forty minutes, not twenty.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "e647e0e0199bc2f754e324eeb6c751b04dd1bb5106609d821072974708e66452"
+}

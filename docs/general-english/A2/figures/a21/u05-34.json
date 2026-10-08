@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  700
+ ],
+ "bounds": [
+  67,
+  30.0,
+  1373,
+  670.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    93.1,
+    143.1,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what you booked",
+   "size": 30,
+   "bbox": [
+    190,
+    94.7,
+    479.7,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Good afternoon.",
+   "size": 26,
+   "bbox": [
+    670,
+    95.0,
+    880.8,
+    118.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    256.1,
+    143.1,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what happened",
+   "size": 30,
+   "bbox": [
+    190,
+    257.7,
+    452.2,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I booked the Saturday trip and I waited.",
+   "size": 26,
+   "bbox": [
+    670,
+    258.0,
+    1186.9,
+    281.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    419.1,
+    143.1,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what you want",
+   "size": 30,
+   "bbox": [
+    190,
+    420.7,
+    439.8,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Nobody came and nobody telephoned.",
+   "size": 26,
+   "bbox": [
+    670,
+    421.0,
+    1175.4,
+    444.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    582.1,
+    143.1,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a calm tone",
+   "size": 30,
+   "bbox": [
+    190,
+    583.7,
+    387.4,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I understand that the driver was ill.",
+   "size": 26,
+   "bbox": [
+    670,
+    584.0,
+    1128.7,
+    607.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in four steps -- what you booked, what happened, what you want, a calm tone -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  3.0416666666666665
+ ],
+ "sha256": "8a177f28845d01903a2139629d5e5748390bffff414ccbba06b0ad1aa3ae39f8"
+}

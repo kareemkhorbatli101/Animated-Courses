@@ -1,0 +1,288 @@
+{
+ "canvas": [
+  1440,
+  636
+ ],
+ "bounds": [
+  57,
+  30.0,
+  1383,
+  606.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    92.6,
+    86.8,
+    111.4,
+    111.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya",
+   "size": 30,
+   "bbox": [
+    240,
+    86.4,
+    329.0,
+    113.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    92.6,
+    233.3,
+    111.4,
+    257.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas",
+   "size": 30,
+   "bbox": [
+    240,
+    232.9,
+    346.5,
+    259.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    92.6,
+    379.8,
+    111.4,
+    404.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 30,
+   "bbox": [
+    240,
+    379.4,
+    450.0,
+    406.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    92.6,
+    526.3,
+    111.4,
+    550.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki",
+   "size": 30,
+   "bbox": [
+    240,
+    525.9,
+    311.1,
+    552.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a",
+   "size": 28,
+   "bbox": [
+    764.6,
+    74.1,
+    783.4,
+    98.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "buys the best one and keeps it",
+   "size": 28,
+   "bbox": [
+    814,
+    58.1,
+    1301.4,
+    82.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "fifteen",
+   "size": 28,
+   "bbox": [
+    814,
+    90.1,
+    918.2,
+    114.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "b",
+   "size": 28,
+   "bbox": [
+    764.0,
+    190.9,
+    784.0,
+    215.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "reads for a week and buys the",
+   "size": 28,
+   "bbox": [
+    814,
+    174.9,
+    1293.6,
+    199.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "first one",
+   "size": 28,
+   "bbox": [
+    814,
+    206.9,
+    946.5,
+    231.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "c",
+   "size": 28,
+   "bbox": [
+    765.7,
+    307.7,
+    782.3,
+    332.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "buys the cheapest and replaces",
+   "size": 28,
+   "bbox": [
+    814,
+    291.7,
+    1316.2,
+    316.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it twice",
+   "size": 28,
+   "bbox": [
+    814,
+    323.7,
+    931.2,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "d",
+   "size": 28,
+   "bbox": [
+    764.0,
+    424.5,
+    784.0,
+    449.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "borrows instead of buying",
+   "size": 28,
+   "bbox": [
+    814,
+    424.5,
+    1228.7,
+    449.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "e",
+   "size": 28,
+   "bbox": [
+    764.5,
+    541.3,
+    783.5,
+    565.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "repairs what he has and buys",
+   "size": 28,
+   "bbox": [
+    814,
+    525.3,
+    1280.9,
+    549.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing",
+   "size": 28,
+   "bbox": [
+    814,
+    557.3,
+    936.1,
+    581.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four cards on the left and five on the right for the learner to join. One of the right-hand options is not wanted, and it is drawn so the spare one is visible rather than implied.",
+ "placed_in": [
+  6.260416666666667,
+  2.7604166666666665
+ ],
+ "sha256": "b724cb53f77a976380596650c4450f7cf6f9e76958ae2a33524b55ca917e3ac0"
+}

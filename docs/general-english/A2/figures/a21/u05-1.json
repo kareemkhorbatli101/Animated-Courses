@@ -59,13 +59,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Past simple: was, were and regular verbs",
-   "size": 82,
+   "text": "Past simple: was, were and regular",
+   "size": 86,
    "bbox": [
     250,
-    1119.9,
-    2165.0,
-    1192.0
+    1117.6,
+    1958.9,
+    1192.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "verbs",
+   "size": 86,
+   "bbox": [
+    250,
+    1219.6,
+    519.5,
+    1294.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -95,13 +107,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I can name places outside the city and talk about the weather.",
-   "size": 54,
+   "text": "I can name places outside the city and talk about the",
+   "size": 56,
    "bbox": [
     310,
-    2340.2,
-    2216.4,
-    2387.8
+    2339.4,
+    1994.8,
+    2388.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "weather.",
+   "size": 56,
+   "bbox": [
+    310,
+    2405.4,
+    583.1,
+    2454.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,9 +135,9 @@
    "size": 56,
    "bbox": [
     310,
-    2469.4,
+    2535.4,
     1691.1,
-    2518.4
+    2584.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,9 +147,9 @@
    "size": 56,
    "bbox": [
     310,
-    2599.4,
+    2665.4,
     1816.1,
-    2648.4
+    2714.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +188,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "940b90a60efd377a61a31634a8bb16ee22065597ee7ae9cc14cf980d46a84133"
+ "sha256": "ab05102af7a229f1fc33507047c63da1b2bab3662f0de408f4296d331429a1f7"
 }

@@ -1,0 +1,288 @@
+{
+ "canvas": [
+  1440,
+  636
+ ],
+ "bounds": [
+  57,
+  30.0,
+  1383,
+  606.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    92.6,
+    86.8,
+    111.4,
+    111.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya",
+   "size": 30,
+   "bbox": [
+    240,
+    86.4,
+    329.0,
+    113.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    92.6,
+    233.3,
+    111.4,
+    257.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas",
+   "size": 30,
+   "bbox": [
+    240,
+    232.9,
+    346.5,
+    259.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    92.6,
+    379.8,
+    111.4,
+    404.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 30,
+   "bbox": [
+    240,
+    379.4,
+    450.0,
+    406.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    92.6,
+    526.3,
+    111.4,
+    550.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki",
+   "size": 30,
+   "bbox": [
+    240,
+    525.9,
+    311.1,
+    552.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a",
+   "size": 28,
+   "bbox": [
+    764.6,
+    74.1,
+    783.4,
+    98.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "worked three nights and slept",
+   "size": 28,
+   "bbox": [
+    814,
+    58.1,
+    1291.1,
+    82.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "through",
+   "size": 28,
+   "bbox": [
+    814,
+    90.1,
+    940.3,
+    114.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "b",
+   "size": 28,
+   "bbox": [
+    764.0,
+    190.9,
+    784.0,
+    215.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "sat outside and talked to",
+   "size": 28,
+   "bbox": [
+    814,
+    174.9,
+    1210.1,
+    199.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "everybody",
+   "size": 28,
+   "bbox": [
+    814,
+    206.9,
+    979.9,
+    231.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "c",
+   "size": 28,
+   "bbox": [
+    765.7,
+    307.7,
+    782.3,
+    332.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "walked to the lake and came",
+   "size": 28,
+   "bbox": [
+    814,
+    291.7,
+    1266.8,
+    316.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back cold",
+   "size": 28,
+   "bbox": [
+    814,
+    323.7,
+    963.4,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "d",
+   "size": 28,
+   "bbox": [
+    764.0,
+    424.5,
+    784.0,
+    449.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "travelled to another city by train",
+   "size": 28,
+   "bbox": [
+    814,
+    424.5,
+    1332.9,
+    449.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "e",
+   "size": 28,
+   "bbox": [
+    764.5,
+    541.3,
+    783.5,
+    565.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "photographed a bird and looked",
+   "size": 28,
+   "bbox": [
+    814,
+    525.3,
+    1322.8,
+    549.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it up",
+   "size": 28,
+   "bbox": [
+    814,
+    557.3,
+    886.7,
+    581.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four cards on the left and five on the right for the learner to join. One of the right-hand options is not wanted, and it is drawn so the spare one is visible rather than implied.",
+ "placed_in": [
+  6.260416666666667,
+  2.7604166666666665
+ ],
+ "sha256": "7e3734a153f7c7aad4aa8a5a2d2354dc6056ed61c8d7a6387df3f58f3a90c816"
+}

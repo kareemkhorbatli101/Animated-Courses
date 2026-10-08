@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    359.1,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas, could you take a box on Thursday?",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    997.3,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    204.2,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What time?",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    305.1,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    359.1,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Between nine and one.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    670.8,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    204.2,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I\u2019m sorry, I can\u2019t.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    401.5,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Maya: Tomas, could you take a box on Thursday? Tomas: What time? Maya: Between nine and one. Tomas: I\u2019m sorry, I can\u2019t.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "a82c37eb03c98925247be73e7180bd537fa737667c4856d838b93ec35d6ed03d"
+}

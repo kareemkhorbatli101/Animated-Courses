@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  700
+ ],
+ "bounds": [
+  67,
+  30.0,
+  1373,
+  670.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    93.1,
+    143.1,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "when you shopped",
+   "size": 30,
+   "bbox": [
+    190,
+    94.7,
+    507.8,
+    121.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Good afternoon.",
+   "size": 26,
+   "bbox": [
+    670,
+    95.0,
+    880.8,
+    118.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    256.1,
+    143.1,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what the mistake is",
+   "size": 30,
+   "bbox": [
+    190,
+    257.7,
+    522.7,
+    284.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I shopped at your till at about half past.",
+   "size": 26,
+   "bbox": [
+    670,
+    258.0,
+    1186.0,
+    281.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    419.1,
+    143.1,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "how much",
+   "size": 30,
+   "bbox": [
+    190,
+    420.7,
+    361.9,
+    447.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The tomatoes went through twice.",
+   "size": 26,
+   "bbox": [
+    670,
+    421.0,
+    1117.8,
+    444.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    582.1,
+    143.1,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a calm tone",
+   "size": 30,
+   "bbox": [
+    190,
+    583.7,
+    387.4,
+    610.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am not worried about.",
+   "size": 26,
+   "bbox": [
+    670,
+    584.0,
+    975.7,
+    607.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in four steps -- when you shopped, what the mistake is, how much, a calm tone -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  3.0416666666666665
+ ],
+ "sha256": "bd0c08a071842cac18d78b88bd9d1b74f0090a5f079fb20a4904a8001adc92af"
+}

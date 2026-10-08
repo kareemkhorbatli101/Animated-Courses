@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    172.4,
+    128.5,
+    193.2,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "where you",
+   "size": 28,
+   "bbox": [
+    100.4,
+    238.0,
+    265.2,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "went",
+   "size": 28,
+   "bbox": [
+    143.7,
+    272.0,
+    221.9,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    570.8,
+    128.5,
+    591.6,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what the weather was like",
+   "size": 28,
+   "bbox": [
+    372.8,
+    272.0,
+    789.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1102.0,
+    128.5,
+    1122.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "one thing that did not go to",
+   "size": 28,
+   "bbox": [
+    892.7,
+    238.0,
+    1332.1,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "plan",
+   "size": 28,
+   "bbox": [
+    1078.2,
+    272.0,
+    1146.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a clock line, each block as wide as the share of the minute it should take: a short one for where you went, then two longer ones for what the weather was like and one thing that did not go to plan.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "1381e39f28fc0fde55d57877a69862d39b97655dda4c37053c3edab47d4467a4"
+}

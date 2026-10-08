@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  53.0,
+  26.2,
+  1387.0,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "Finally",
+   "size": 28,
+   "bbox": [
+    162.8,
+    60.9,
+    267.7,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "slowly",
+   "size": 28,
+   "bbox": [
+    502.1,
+    60.9,
+    601.4,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Do not press",
+   "size": 28,
+   "bbox": [
+    787.9,
+    60.9,
+    988.6,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "After that",
+   "size": 28,
+   "bbox": [
+    1147.0,
+    60.9,
+    1302.5,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "order",
+   "size": 34,
+   "bbox": [
+    211.9,
+    202.2,
+    316.1,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "when",
+   "size": 34,
+   "bbox": [
+    668.6,
+    202.2,
+    771.4,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "how",
+   "size": 34,
+   "bbox": [
+    1136.5,
+    202.2,
+    1215.5,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words and phrases of this task as chips above three empty bins -- order, when and how. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "ecd28b973d297b7e4d4429f78a363ba31dc8cd303a2dd13b0956fb46aa72b1fe"
+}

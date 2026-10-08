@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  524
+ ],
+ "bounds": [
+  57,
+  26.0,
+  1383,
+  498.0
+ ],
+ "texts": [
+  {
+   "text": "cheap",
+   "size": 28,
+   "bbox": [
+    312.8,
+    45.2,
+    407.2,
+    69.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cheaper",
+   "size": 28,
+   "bbox": [
+    1041.4,
+    45.2,
+    1168.6,
+    69.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "warm",
+   "size": 28,
+   "bbox": [
+    316.1,
+    126.2,
+    403.9,
+    150.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "warmer",
+   "size": 28,
+   "bbox": [
+    1044.7,
+    126.2,
+    1165.3,
+    150.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "heavy",
+   "size": 28,
+   "bbox": [
+    312.8,
+    207.2,
+    407.2,
+    231.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "heavier",
+   "size": 28,
+   "bbox": [
+    1045.8,
+    207.2,
+    1164.2,
+    231.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "good",
+   "size": 28,
+   "bbox": [
+    320.7,
+    288.2,
+    399.3,
+    312.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "better",
+   "size": 28,
+   "bbox": [
+    1055.7,
+    288.2,
+    1154.3,
+    312.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bad",
+   "size": 28,
+   "bbox": [
+    330.5,
+    369.2,
+    389.5,
+    393.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "worse",
+   "size": 28,
+   "bbox": [
+    1057.7,
+    369.2,
+    1152.3,
+    393.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "expensive",
+   "size": 28,
+   "bbox": [
+    280.2,
+    450.2,
+    439.8,
+    474.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "more expensive",
+   "size": 28,
+   "bbox": [
+    979.8,
+    450.2,
+    1230.2,
+    474.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 6,
+ "alt": "The six forms this unit drills, each with an arrow from the one you start with to the one you say: cheap to cheaper, warm to warmer, heavy to heavier, good to better, bad to worse, expensive to more expensive.",
+ "placed_in": [
+  6.260416666666667,
+  2.28125
+ ],
+ "sha256": "431d215a92bfb61a69fbfe39f403e7cc6e0a30780aef4695da289202bf829fcb"
+}

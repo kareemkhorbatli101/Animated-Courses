@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  51.0,
+  19.7,
+  1389.0,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    45.2,
+    97.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "craft",
+   "size": 30,
+   "bbox": [
+    170.6,
+    330.9,
+    250.9,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    45.2,
+    436.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "design",
+   "size": 30,
+   "bbox": [
+    493.9,
+    330.9,
+    606.6,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    45.2,
+    776.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "trade",
+   "size": 30,
+   "bbox": [
+    844.1,
+    330.9,
+    935.4,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    45.2,
+    1115.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "level",
+   "size": 30,
+   "bbox": [
+    1188.8,
+    330.9,
+    1269.7,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words from the global story as numbered picture cards: craft, design, trade, level.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "b85e102ec52470feb84af76e2f469ab2e6ea0672e0518cd235f4ec3c06504819"
+}

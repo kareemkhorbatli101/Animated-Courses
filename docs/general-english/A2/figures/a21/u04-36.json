@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  51.0,
+  19.7,
+  1389.0,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    45.2,
+    97.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "haggle",
+   "size": 30,
+   "bbox": [
+    153.2,
+    330.9,
+    268.3,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    45.2,
+    436.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "fixed price",
+   "size": 30,
+   "bbox": [
+    461.0,
+    330.9,
+    639.5,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    45.2,
+    776.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "label",
+   "size": 30,
+   "bbox": [
+    848.4,
+    330.9,
+    931.1,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    45.2,
+    1115.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "stranger",
+   "size": 30,
+   "bbox": [
+    1156.6,
+    330.9,
+    1301.9,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words from the global story as numbered picture cards: haggle, fixed price, label, stranger.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "37534489dab03ac1227863ade886bf28e8047cf1a5b8d0cc3548015097231eba"
+}

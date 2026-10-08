@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "suitcase",
+   "size": 28,
+   "bbox": [
+    109.8,
+    287.7,
+    240.6,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "coach",
+   "size": 28,
+   "bbox": [
+    402.0,
+    287.7,
+    493.2,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "gate",
+   "size": 28,
+   "bbox": [
+    684.3,
+    287.7,
+    755.7,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wallet",
+   "size": 28,
+   "bbox": [
+    944.2,
+    287.7,
+    1040.6,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "airport",
+   "size": 28,
+   "bbox": [
+    1210.4,
+    287.7,
+    1319.2,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "luggage",
+   "size": 28,
+   "bbox": [
+    111.4,
+    608.7,
+    239.0,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "delay",
+   "size": 28,
+   "bbox": [
+    405.1,
+    608.7,
+    490.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "charger",
+   "size": 28,
+   "bbox": [
+    659.0,
+    608.7,
+    781.0,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "spare",
+   "size": 28,
+   "bbox": [
+    948.2,
+    608.7,
+    1036.6,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "taxi",
+   "size": 28,
+   "bbox": [
+    1234.8,
+    608.7,
+    1294.8,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 6 as picture cards on one page: suitcase, coach, gate, wallet, airport, luggage, delay, charger, spare, taxi.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "334f872328d40a52e26939315ea097a5825238a526d479d9e432de23a33ab1ad"
+}

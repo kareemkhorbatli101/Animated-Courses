@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the customer",
+   "size": 34,
+   "bbox": [
+    150.2,
+    58.2,
+    589.8,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say there is a problem,",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    501.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "politely",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    256.7,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you gave",
+   "size": 28,
+   "bbox": [
+    138.0,
+    234.9,
+    431.9,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wait",
+   "size": 28,
+   "bbox": [
+    138.0,
+    290.9,
+    205.8,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thank them",
+   "size": 28,
+   "bbox": [
+    138.0,
+    346.9,
+    320.0,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the assistant",
+   "size": 34,
+   "bbox": [
+    852.6,
+    58.2,
+    1287.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask what they gave",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1146.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "check",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    928.7,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say sorry",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    982.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "put it right",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1010.6,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the customer: say there is a problem, politely, say what you gave, wait, thank them. Card B \u2014 the assistant: ask what they gave, check, say sorry, put it right.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "9b3fff487fa7e34b723679c0cfe5fe785ce982636d6a733e287fe1f6430f411b"
+}

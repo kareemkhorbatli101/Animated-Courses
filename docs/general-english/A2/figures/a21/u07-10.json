@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you chose between",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    615.8,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Last month I looked at two bicycles.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1137.7,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "How the two were",
+   "size": 30,
+   "bbox": [
+    190,
+    237.9,
+    496.7,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "different",
+   "size": 30,
+   "bbox": [
+    190,
+    269.9,
+    337.2,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The second-hand one was cheaper and",
+   "size": 26,
+   "bbox": [
+    670,
+    239.2,
+    1181.2,
+    262.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "heavier.",
+   "size": 26,
+   "bbox": [
+    670,
+    269.2,
+    773.6,
+    292.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Which you chose, and why",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    638.2,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I chose the old one, because the quality was",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1250.1,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "better.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    755.4,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- what you chose between, how the two were different, and which you chose and why -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "98f49d9a4576a3830257fb5a00749aa5e9655fd9e58d40a9e58573228158bf24"
+}

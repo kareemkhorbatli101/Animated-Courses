@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "pour",
+   "size": 30,
+   "bbox": [
+    172.4,
+    209.4,
+    250.6,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "press",
+   "size": 30,
+   "bbox": [
+    504.3,
+    209.4,
+    596.7,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "glue",
+   "size": 30,
+   "bbox": [
+    852.8,
+    209.4,
+    926.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "layer",
+   "size": 30,
+   "bbox": [
+    1186.3,
+    209.4,
+    1270.7,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "carefully",
+   "size": 30,
+   "bbox": [
+    137.6,
+    427.4,
+    285.4,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "do not",
+   "size": 30,
+   "bbox": [
+    496.1,
+    427.4,
+    604.9,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "junction",
+   "size": 30,
+   "bbox": [
+    820.8,
+    427.4,
+    958.2,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "borrow",
+   "size": 30,
+   "bbox": [
+    1168.5,
+    427.4,
+    1288.5,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: pour, press, glue, layer, carefully, do not, junction, borrow.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "e23217d97a0acb2ab384073e123b5d2edb84fe6c81cde72a0f82f9cf2ca71e1a"
+}

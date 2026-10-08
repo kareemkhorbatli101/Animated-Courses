@@ -75,9 +75,21 @@
    "size": 26,
    "bbox": [
     670,
-    171.2,
+    156.2,
     1216.2,
-    194.8
+    179.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she makes tea.",
+   "size": 26,
+   "bbox": [
+    670,
+    186.2,
+    867.9,
+    209.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -143,13 +155,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "At the moment she is serving a new customer.",
-   "size": 24,
+   "text": "At the moment she is serving a new",
+   "size": 26,
    "bbox": [
     670,
-    391.7,
-    1229.5,
-    413.3
+    375.2,
+    1139.6,
+    398.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "customer.",
+   "size": 26,
+   "bbox": [
+    670,
+    405.2,
+    798.3,
+    428.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +188,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "c75b9703e07dd167d63d4ec6ec0a400e911ae9a7188b3c205d16cdeedcd5e802"
+ "sha256": "f70f605bca41c5bf452070d3e99bdbe12efb50fe2618332c38430173fd3c2f70"
 }

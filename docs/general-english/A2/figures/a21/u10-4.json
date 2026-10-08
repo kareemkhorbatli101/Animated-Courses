@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  560
+  596
  ],
  "bounds": [
   74.0,
-  27.8,
+  29.5,
   1366.0,
-  532.7
+  566.4
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 34,
    "bbox": [
     161.0,
-    187.5,
+    189.2,
     399.0,
-    217.9
+    219.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     114.7,
-    228.2,
+    229.9,
     445.3,
-    252.7
+    254.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 34,
    "bbox": [
     659.7,
-    187.5,
+    189.2,
     780.3,
-    217.9
+    219.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     542.3,
-    228.2,
+    229.9,
     897.7,
-    252.7
+    254.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 34,
    "bbox": [
     1116.5,
-    187.5,
+    189.2,
     1203.5,
-    217.9
+    219.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +75,9 @@
    "size": 28,
    "bbox": [
     1011.4,
-    228.2,
+    229.9,
     1308.6,
-    252.7
+    254.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -87,21 +87,33 @@
    "size": 34,
    "bbox": [
     229.6,
-    467.5,
+    469.2,
     330.4,
-    497.9
+    499.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "makes small books by hand",
-   "size": 26,
+   "text": "makes small books by",
+   "size": 28,
    "bbox": [
-    99.3,
-    509.0,
-    460.7,
-    532.7
+    125.0,
+    509.9,
+    435.0,
+    534.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hand",
+   "size": 28,
+   "bbox": [
+    244.8,
+    541.9,
+    315.2,
+    566.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -111,9 +123,9 @@
    "size": 34,
    "bbox": [
     659.7,
-    467.5,
+    469.2,
     780.3,
-    497.9
+    499.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -123,9 +135,9 @@
    "size": 28,
    "bbox": [
     561.5,
-    508.2,
+    509.9,
     878.5,
-    532.7
+    534.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -135,9 +147,9 @@
    "size": 34,
    "bbox": [
     1119.7,
-    467.5,
+    469.2,
     1200.3,
-    497.9
+    499.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -147,9 +159,9 @@
    "size": 28,
    "bbox": [
     975.5,
-    508.2,
+    509.9,
     1344.5,
-    532.7
+    534.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -162,7 +174,7 @@
  "alt": "What each of the six people at number 14 makes or repairs, and how: Mr Okonkwo repairs slowly and once, Amina builds her display quickly, Dani cooks fast and loudly, Maya makes small books by hand, Tomas can sew a straight line, and Yuki is learning to make a bowl.",
  "placed_in": [
   6.260416666666667,
-  2.4375
+  2.59375
  ],
- "sha256": "b3a9cfefe848af9e49aac6952d4a7f5b505a7fe1ab6f46826ad51ba15009cc16"
+ "sha256": "b0b245048ada104d3b2d2eed589999dfff2936d4f3c92f80c7bf6d2ca9c17ea9"
 }

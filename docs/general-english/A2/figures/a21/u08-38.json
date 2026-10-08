@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  592
+ ],
+ "bounds": [
+  47.0,
+  29.3,
+  1393.0,
+  562.5
+ ],
+ "texts": [
+  {
+   "text": "Somebody near you needs help and does not ask?",
+   "size": 34,
+   "bbox": [
+    239.0,
+    66.3,
+    1201.0,
+    96.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Offer directly",
+   "size": 30,
+   "bbox": [
+    149.2,
+    367.5,
+    373.5,
+    394.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "they have to say it out",
+   "size": 26,
+   "bbox": [
+    114.3,
+    433.8,
+    408.4,
+    457.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "loud",
+   "size": 26,
+   "bbox": [
+    233.3,
+    464.8,
+    289.4,
+    488.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you know they",
+   "size": 26,
+   "bbox": [
+    165.8,
+    507.8,
+    356.9,
+    531.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "understood",
+   "size": 26,
+   "bbox": [
+    187.2,
+    538.8,
+    335.4,
+    562.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Help without saying",
+   "size": 30,
+   "bbox": [
+    551.0,
+    367.5,
+    889.0,
+    394.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "anything",
+   "size": 30,
+   "bbox": [
+    645.0,
+    403.5,
+    795.0,
+    430.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it costs them nothing",
+   "size": 26,
+   "bbox": [
+    581.5,
+    469.8,
+    858.5,
+    493.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "they may not notice",
+   "size": 26,
+   "bbox": [
+    588.9,
+    513.8,
+    851.1,
+    537.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Wait until they ask",
+   "size": 30,
+   "bbox": [
+    1018.9,
+    367.5,
+    1338.4,
+    394.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing to say",
+   "size": 26,
+   "bbox": [
+    1085.3,
+    433.8,
+    1272.0,
+    457.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the ones in most need",
+   "size": 26,
+   "bbox": [
+    1033.0,
+    477.8,
+    1324.3,
+    501.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask last",
+   "size": 26,
+   "bbox": [
+    1128.8,
+    508.8,
+    1228.5,
+    532.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: offer directly and make somebody say out loud that they need help; help without saying anything, which costs them nothing; or wait until they ask, when the ones in most need ask last of all.",
+ "placed_in": [
+  6.260416666666667,
+  2.5729166666666665
+ ],
+ "sha256": "fe5c15a9f66438512a909d950ee083c78193f84d7515971b85bb98196e4ae5f1"
+}

@@ -1,0 +1,288 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the",
+   "size": 26,
+   "bbox": [
+    118.2,
+    281.6,
+    166.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "market",
+   "size": 26,
+   "bbox": [
+    90.4,
+    313.6,
+    194.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is open",
+   "size": 26,
+   "bbox": [
+    89.5,
+    345.6,
+    195.5,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "four",
+   "size": 26,
+   "bbox": [
+    257.2,
+    281.6,
+    317.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "people",
+   "size": 26,
+   "bbox": [
+    237.9,
+    313.6,
+    337.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a man is",
+   "size": 26,
+   "bbox": [
+    370.9,
+    281.6,
+    494.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "selling",
+   "size": 26,
+   "bbox": [
+    384.0,
+    313.6,
+    481.0,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "it is",
+   "size": 26,
+   "bbox": [
+    550.1,
+    281.6,
+    604.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "raining",
+   "size": 26,
+   "bbox": [
+    525.6,
+    313.6,
+    629.4,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the",
+   "size": 26,
+   "bbox": [
+    838.2,
+    281.6,
+    886.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "market",
+   "size": 26,
+   "bbox": [
+    810.4,
+    313.6,
+    914.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "is open",
+   "size": 26,
+   "bbox": [
+    809.5,
+    345.6,
+    915.5,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two",
+   "size": 22,
+   "bbox": [
+    984.5,
+    284.7,
+    1030.5,
+    304.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "people",
+   "size": 22,
+   "bbox": [
+    965.5,
+    312.7,
+    1049.5,
+    332.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "are",
+   "size": 22,
+   "bbox": [
+    987.2,
+    340.7,
+    1027.8,
+    360.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "waiting",
+   "size": 22,
+   "bbox": [
+    961.4,
+    368.7,
+    1053.6,
+    388.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a man is",
+   "size": 26,
+   "bbox": [
+    1090.9,
+    281.6,
+    1214.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "reading",
+   "size": 26,
+   "bbox": [
+    1096.2,
+    313.6,
+    1208.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it is",
+   "size": 26,
+   "bbox": [
+    1270.1,
+    281.6,
+    1324.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "raining",
+   "size": 26,
+   "bbox": [
+    1245.6,
+    313.6,
+    1349.4,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\\u2019s facts on the left and Student B\\u2019s on the right, with a fold line between them, so each student sees only their own -- which is what the task has always asked for and a pair of prose lists on one page cannot give.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "2b5e794963964eaea8ca0d23e77b34a1b542ec9c4c93969a7477cbb47c3103f0"
+}

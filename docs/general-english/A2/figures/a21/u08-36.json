@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  51.0,
+  19.7,
+  1389.0,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    45.2,
+    97.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "tool",
+   "size": 30,
+   "bbox": [
+    177.8,
+    330.9,
+    243.7,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    45.2,
+    436.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "membership",
+   "size": 30,
+   "bbox": [
+    445.0,
+    330.9,
+    655.5,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    45.2,
+    776.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ladder",
+   "size": 30,
+   "bbox": [
+    835.4,
+    330.9,
+    944.1,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    45.2,
+    1115.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "storage",
+   "size": 30,
+   "bbox": [
+    1164.4,
+    330.9,
+    1294.1,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words from the global story as numbered picture cards: tool, membership, ladder, storage.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "6139fa3526b925be86a8ef094e7370ea26afe3f158a919ac7e9b4cb5bc84fa9b"
+}
