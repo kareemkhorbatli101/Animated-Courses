@@ -1,131 +1,155 @@
 {
  "canvas": [
-  1440,
-  812
+  2480,
+  3508
  ],
  "bounds": [
   0,
-  30,
-  1440,
-  782
+  0,
+  2480,
+  3508
  ],
  "texts": [
   {
-   "text": "UNIT 3",
-   "size": 40,
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 52,
    "bbox": [
-    90,
-    104.4,
-    239.9,
-    140.0
+    190,
+    191.8,
+    908.2,
+    237.8
+   ],
+   "fill": "#8FA8C8",
+   "on": "#1F3864"
+  },
+  {
+   "text": "UNIT 3",
+   "size": 96,
+   "bbox": [
+    190,
+    299.8,
+    549.7,
+    383.8
    ],
    "fill": "#E6C78F",
    "on": "#1F3864"
   },
   {
    "text": "A Day in the City",
-   "size": 72,
+   "size": 140,
    "bbox": [
-    90,
-    163.7,
-    768.4,
-    226.2
+    190,
+    438.6,
+    1509.0,
+    560.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "GRAMMAR",
-   "size": 26,
+   "text": "THE GRAMMAR",
+   "size": 46,
    "bbox": [
-    106,
-    366.5,
-    259.4,
-    390.2
+    250,
+    1016.5,
+    638.7,
+    1056.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Present continuous and",
-   "size": 36,
+   "text": "Present continuous and present simple",
+   "size": 86,
    "bbox": [
-    106,
-    413.5,
-    588.3,
-    445.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "present simple",
-   "size": 36,
-   "bbox": [
-    106,
-    457.5,
-    409.0,
-    489.4
+    250,
+    1117.6,
+    2155.8,
+    1192.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "IN THIS UNIT",
-   "size": 26,
+   "size": 46,
    "bbox": [
-    786,
-    366.5,
-    973.7,
-    390.2
+    190,
+    1536.5,
+    522.1,
+    1576.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "By the end you can",
-   "size": 30,
+   "text": "By the end of this unit you can",
+   "size": 58,
    "bbox": [
-    70,
-    588.2,
-    394.3,
-    614.8
+    190,
+    2167.9,
+    1196.3,
+    2218.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can name the main places and things in a city.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    640.2,
-    935.6,
-    666.8
+    310,
+    2339.4,
+    1817.8,
+    2388.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can use the present simple for facts and the present continuous for now.",
-   "size": 28,
+   "size": 44,
    "bbox": [
-    128,
-    697.7,
-    1304.0,
-    722.2
+    310,
+    2478.0,
+    2157.8,
+    2516.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can describe a place at two different hours in 50\u201370 words.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    752.2,
-    1152.5,
-    778.8
+    310,
+    2599.4,
+    2222.9,
+    2648.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Core track: Warm Up and Parts 1 to 6",
+   "size": 44,
+   "bbox": [
+    190,
+    3146.0,
+    1118.0,
+    3184.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Plus track: Parts 7 to 9, when you are ready",
+   "size": 44,
+   "bbox": [
+    190,
+    3226.0,
+    1283.0,
+    3264.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -137,8 +161,8 @@
  "arrows": 0,
  "alt": "The opening page of Unit 3, A Day in the City: the grammar point is the present continuous against the present simple, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  6.270833333333333,
-  3.53125
+  8.268333333333333,
+  11.693055555555556
  ],
- "sha256": "f189a015e38bb437bf31a1ac33380fb584cfe964edb4f62f26e88eb01da9ddc3"
+ "sha256": "5a5635a6463ae7eb2d8f195d97a8dbb511d155dd657079cd56f2ca29d95f46c0"
 }

@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         8, 'Help and Ability',
         'Can, can’t and could',
         ['I can talk about what people can and cannot do.',

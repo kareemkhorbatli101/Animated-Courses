@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         6, 'Journeys and Mishaps',
         'Past simple: irregular verbs',
         ['I can name the main things you take and lose on a journey.',

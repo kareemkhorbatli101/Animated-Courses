@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         19, 'People, Places and Things',
         'Defining relative clauses',
         ['I can describe a person by what they do.',

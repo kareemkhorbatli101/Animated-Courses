@@ -255,6 +255,7 @@ people:
 walk_ons:
   - {name: Jun, unit: 1, country: South Korea}
   - {name: Clara, unit: 2, country: Brazil}
+  - {name: the Tokyo underground diagram, unit: 3, country: Japan}
   - {name: the sellers of Fez, unit: 4, country: Morocco}
   - {name: the Iceland trial, unit: 5, country: Iceland}
   - {name: the Lima railway, unit: 6, country: Peru}

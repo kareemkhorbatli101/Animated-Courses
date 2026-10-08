@@ -89,7 +89,9 @@ def build(book='a21'):
         parts.append(bm)
 
     tmp = os.path.join(ROOT, 'build', f'.{book}-book.md')
-    open(tmp, 'w', encoding='utf-8').write('\n\n'.join(parts))
+    body = '\n\n'.join(parts)
+    srcs = B.img_sources(body)
+    open(tmp, 'w', encoding='utf-8').write(body)
     out = os.path.join(ROOT, 'build', f'EFDL-A2.{vol}-{title.replace(" ", "")}-'
                                       f'u{min(u.num for u in units):02d}-'
                                       f'{max(u.num for u in units):02d}.docx')
@@ -101,7 +103,7 @@ def build(book='a21'):
                     '-o', out], check=True)
     os.remove(tmp)
     B.postprocess(out, f'English for Daily Life · A2 Volume {vol}: {title}',
-                  f'English for Daily Life · A2.{vol}')
+                  f'English for Daily Life · A2.{vol}', srcs)
     subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                     '--outdir', os.path.join(ROOT, 'build'), out],
                    capture_output=True, timeout=900)

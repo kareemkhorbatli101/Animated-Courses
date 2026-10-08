@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         3, 'A Day in the City',
         'Present continuous and present simple',
         ['I can name the main places and things in a city.',

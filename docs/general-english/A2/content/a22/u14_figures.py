@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         14, 'Health and Feeling Better',
         'Should and shouldn’t',
         ['I can say how I feel and how long it has been.',

@@ -170,23 +170,49 @@ figures:
   # each slot may name its own box. Declared departure, 2026-10-07.
   # every box edge is a whole 96-DPI pixel, because the placement law rounds to
   # one; 6.2708333 in = 602 px is the A4 text width to the pixel.
-  box_default: {w: 5.625, h: 1.9791666666666667}
+  # Raised 2026-10-08. The 1.979 in height cap was the measured source value
+  # and it squashed every figure in the book: two of Unit 16's printed 4.79 and
+  # 4.94 in wide instead of the full text width purely to stay under it. 6.268
+  # is the text width exactly (9026 twips); 3.100 is 32% of the text height.
+  # A declared departure, recorded in typography.yaml.
+  box_default: {w: 6.2604166667, h: 3.0937500000}
+  # A4 trim. Full-page images are placed at this size inside a zero-margin
+  # section with fit: fill_trim rather than contain -- see typography.yaml.
+  box_full_page: {w: 8.268333333333333, h: 11.693055555555556}
+  full_page_covers: [front, back]
+  full_page_slots: [1]      # the unit opener owns a whole page
+  # EVERY dimension here is a whole number of 96-DPI pixels, and has to be.
+  # The placement law rounds half-UP to a whole 96-DPI pixel, so a box whose
+  # own size is not a whole pixel can be overflowed by its own rounding: the
+  # text area is 601.73 px wide, and fitting to 6.268056 in rounds to 602 px
+  # = 6.270833 in, which exceeds the box it was fitted to. 5.625 in hid this
+  # for twenty units because it is exactly 540 px. Widths are 601 px, the
+  # widest whole pixel inside the text area; heights are floored to whole px.
+  # Check G11 asserts the invariant so it cannot be reintroduced.
   box_by_slot:
-    1:  {w: 6.2708333333, h: 4.60}     # the unit opener owns the first page
-    4:  {w: 6.2708333333, h: 2.90}     # label-me: the rules must be writable
-    5:  {w: 6.2708333333, h: 2.95}     # the grammar contrast is the unit's one diagram
-    7:  {w: 6.2708333333, h: 2.45}
-    8:  {w: 6.2708333333, h: 2.45}
-    10: {w: 6.2708333333, h: 2.20}
-    11: {w: 6.2708333333, h: 2.45}
-    12: {w: 6.2708333333, h: 2.55}
-    13: {w: 6.2708333333, h: 2.35}
-    14: {w: 6.2708333333, h: 2.45}
-  px_width: 1440
+    1:  {w: 6.2604166667, h: 4.5937500000}     # the unit opener owns the first page
+    4:  {w: 6.2604166667, h: 2.8958333333}     # label-me: the rules must be writable
+    5:  {w: 6.2604166667, h: 2.9479166667}     # the grammar contrast is the unit's one diagram
+    7:  {w: 6.2604166667, h: 2.4479166667}
+    8:  {w: 6.2604166667, h: 2.4479166667}
+    10: {w: 6.2604166667, h: 2.1979166667}
+    11: {w: 6.2604166667, h: 2.4479166667}
+    12: {w: 6.2604166667, h: 2.5416666667}
+    13: {w: 6.2604166667, h: 2.3437500000}
+    14: {w: 6.2604166667, h: 2.4479166667}
+  px_width: 1440            # in-flow canvas
+  px_width_full_page: 2480  # A4 at 300 DPI
+  px_height_full_page: 3508
   px_height: {min: 320, max: 880}
   # the unit opener is a full-width banner the source has no analogue for;
   # its dark masthead costs more bytes than any source figure (max 38 KB).
   max_bytes: 98304
+  # A full page of flat vector art compresses well but not to 96 KB; the
+  # measured covers at this canvas are 155 and 395 KB.
+  max_bytes_full_page: 786432
+  # A portrait title page has margin by design, so the 8% empty-band cap that
+  # suits a cropped in-flow figure would reject every opener.
+  max_empty_band_fraction_full_page: 0.30
   min_glyph_px: 22
   max_empty_band_fraction: 0.08
   min_contrast_ratio: 4.5

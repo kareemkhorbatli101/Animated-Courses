@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         2, 'Home and Neighbourhood',
         'There is, there are, some, any, much, many',
         ['I can name the rooms and parts of a building.',

@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         17, 'How Things Are Made',
         'Active and passive',
         ['I can say what a thing is made of and where.',

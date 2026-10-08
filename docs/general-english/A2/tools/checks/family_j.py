@@ -147,7 +147,8 @@ def j15(units, ctx):
         return ok('SKIP: no book PDF built yet')
     n = len(re.findall(rb'/Type\s*/Page[^s]', open(p, 'rb').read()))
     pv = ctx.typo['departures'].get('pages_per_volume', {'min': 150, 'max': 230})
-    return expect(pv['min'] <= n <= pv['max'], f'{n} pages')
+    return expect(pv['min'] <= n <= pv['max'],
+                  f"{n} pages, want {pv['min']}-{pv['max']}")
 
 @check('J16', 'build', 'File naming follows the convention exactly', scope='book')
 def j16(units, ctx):

@@ -1,13 +1,21 @@
 {
- "total": 212,
- "caught": 212,
+ "total": 214,
+ "caught": 214,
  "escaped": [],
  "deferred": [
   "F08",
   "I10",
   "J13",
-  "J14",
-  "J15"
+  "J14"
  ],
- "broken": []
+ "broken": [
+  {
+   "id": "G26",
+   "why": "check was already red before mutation"
+  },
+  {
+   "id": "H23",
+   "why": "check was already red before mutation"
+  }
+ ]
 }

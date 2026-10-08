@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         18, 'If and When',
         'The first conditional',
         ['I can say what I will do if something happens.',

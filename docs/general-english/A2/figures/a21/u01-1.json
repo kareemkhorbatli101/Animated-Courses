@@ -1,131 +1,155 @@
 {
  "canvas": [
-  1440,
-  812
+  2480,
+  3508
  ],
  "bounds": [
   0,
-  30,
-  1440,
-  782
+  0,
+  2480,
+  3508
  ],
  "texts": [
   {
-   "text": "UNIT 1",
-   "size": 40,
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 52,
    "bbox": [
-    90,
-    104.4,
-    239.9,
-    140.0
+    190,
+    191.8,
+    908.2,
+    237.8
+   ],
+   "fill": "#8FA8C8",
+   "on": "#1F3864"
+  },
+  {
+   "text": "UNIT 1",
+   "size": 96,
+   "bbox": [
+    190,
+    299.8,
+    549.7,
+    383.8
    ],
    "fill": "#E6C78F",
    "on": "#1F3864"
   },
   {
    "text": "People and Routines",
-   "size": 72,
+   "size": 140,
    "bbox": [
-    90,
-    163.7,
-    925.9,
-    226.2
+    190,
+    438.6,
+    1815.2,
+    560.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "GRAMMAR",
-   "size": 26,
+   "text": "THE GRAMMAR",
+   "size": 46,
    "bbox": [
-    106,
-    366.5,
-    259.4,
-    390.2
+    250,
+    1016.5,
+    638.7,
+    1056.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Present simple and",
-   "size": 36,
+   "text": "Present simple and present continuous",
+   "size": 86,
    "bbox": [
-    106,
-    413.5,
-    497.8,
-    445.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "present continuous",
-   "size": 36,
-   "bbox": [
-    106,
-    457.5,
-    499.4,
-    489.4
+    250,
+    1117.6,
+    2155.8,
+    1192.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "IN THIS UNIT",
-   "size": 26,
+   "size": 46,
    "bbox": [
-    786,
-    366.5,
-    973.7,
-    390.2
+    190,
+    1536.5,
+    522.1,
+    1576.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "By the end you can",
-   "size": 30,
+   "text": "By the end of this unit you can",
+   "size": 58,
    "bbox": [
-    70,
-    588.2,
-    394.3,
-    614.8
+    190,
+    2167.9,
+    1196.3,
+    2218.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can name the people around me: neighbour, flatmate, colleague.",
-   "size": 30,
+   "size": 50,
    "bbox": [
-    128,
-    640.2,
-    1248.3,
-    666.8
+    310,
+    2343.3,
+    2177.2,
+    2387.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can use the present simple for routines and the present continuous for now.",
-   "size": 26,
+   "size": 42,
    "bbox": [
-    128,
-    698.5,
-    1269.8,
-    722.2
+    310,
+    2479.6,
+    2154.7,
+    2516.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can describe a person\u2019s day in 50\u201370 words.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    752.2,
-    896.7,
-    778.8
+    310,
+    2599.4,
+    1745.2,
+    2648.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Core track: Warm Up and Parts 1 to 6",
+   "size": 44,
+   "bbox": [
+    190,
+    3146.0,
+    1118.0,
+    3184.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Plus track: Parts 7 to 9, when you are ready",
+   "size": 44,
+   "bbox": [
+    190,
+    3226.0,
+    1283.0,
+    3264.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -137,8 +161,8 @@
  "arrows": 0,
  "alt": "The opening page of Unit 1, People and Routines: the grammar point is the present simple and the present continuous, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  6.270833333333333,
-  3.53125
+  8.268333333333333,
+  11.693055555555556
  ],
- "sha256": "cd969b93a2d7b19daf203c731e9f2112132a6d878b63da597e8a24781b6904af"
+ "sha256": "7166bc116a4bb56bd8552d5a6a84b0fe6b4c2f268b71a4f263e1c78f3292962d"
 }

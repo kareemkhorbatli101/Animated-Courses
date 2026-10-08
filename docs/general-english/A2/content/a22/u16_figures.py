@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         16, 'Then and Now',
         'Present perfect and past simple',
         ['I can say when something finished and when something still runs.',

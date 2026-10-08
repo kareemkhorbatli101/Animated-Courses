@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         11, 'Plans and Arrangements',
         'Going to, and the present continuous for arrangements',
         ['I can talk about arrangements using the present continuous.',

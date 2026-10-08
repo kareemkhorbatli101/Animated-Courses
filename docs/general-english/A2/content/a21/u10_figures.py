@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         10, 'Doing and Making',
         'Imperatives, order words and adverbs',
         ['I can tell somebody how to make or repair something.',

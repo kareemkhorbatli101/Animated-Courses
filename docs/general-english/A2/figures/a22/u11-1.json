@@ -1,131 +1,155 @@
 {
  "canvas": [
-  1440,
-  812
+  2480,
+  3508
  ],
  "bounds": [
   0,
-  30,
-  1440,
-  782
+  0,
+  2480,
+  3508
  ],
  "texts": [
   {
-   "text": "UNIT 11",
-   "size": 40,
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 52,
    "bbox": [
-    90,
-    104.4,
-    267.7,
-    140.0
+    190,
+    191.8,
+    908.2,
+    237.8
+   ],
+   "fill": "#8FA8C8",
+   "on": "#1F3864"
+  },
+  {
+   "text": "UNIT 11",
+   "size": 96,
+   "bbox": [
+    190,
+    299.8,
+    616.5,
+    383.8
    ],
    "fill": "#E6C78F",
    "on": "#1F3864"
   },
   {
    "text": "Plans and Arrangements",
-   "size": 72,
+   "size": 140,
    "bbox": [
-    90,
-    163.7,
-    1091.1,
-    226.2
+    190,
+    438.6,
+    2136.4,
+    560.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "GRAMMAR",
-   "size": 26,
+   "text": "THE GRAMMAR",
+   "size": 46,
    "bbox": [
-    106,
-    366.5,
-    259.4,
-    390.2
+    250,
+    1016.5,
+    638.7,
+    1056.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Going to, and the present",
-   "size": 32,
+   "text": "Going to, and the present continuous for arrangements",
+   "size": 60,
    "bbox": [
-    106,
-    416.6,
-    571.2,
-    444.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "continuous for arrangements",
-   "size": 32,
-   "bbox": [
-    106,
-    456.6,
-    633.7,
-    484.8
+    250,
+    1136.3,
+    2132.5,
+    1189.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "IN THIS UNIT",
-   "size": 26,
+   "size": 46,
    "bbox": [
-    786,
-    366.5,
-    973.7,
-    390.2
+    190,
+    1536.5,
+    522.1,
+    1576.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "By the end you can",
-   "size": 30,
+   "text": "By the end of this unit you can",
+   "size": 58,
    "bbox": [
-    70,
-    588.2,
-    394.3,
-    614.8
+    190,
+    2167.9,
+    1196.3,
+    2218.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can talk about arrangements using the present continuous.",
-   "size": 30,
+   "size": 54,
    "bbox": [
-    128,
-    640.2,
-    1160.5,
-    666.8
+    310,
+    2340.2,
+    2168.5,
+    2387.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can talk about decisions using going to.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    696.2,
-    826.2,
-    722.8
+    310,
+    2469.4,
+    1613.5,
+    2518.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can write an invite in 50\u201370 words.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    752.2,
-    740.9,
-    778.8
+    310,
+    2599.4,
+    1454.2,
+    2648.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Core track: Warm Up and Parts 1 to 6",
+   "size": 44,
+   "bbox": [
+    190,
+    3146.0,
+    1118.0,
+    3184.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Plus track: Parts 7 to 9, when you are ready",
+   "size": 44,
+   "bbox": [
+    190,
+    3226.0,
+    1283.0,
+    3264.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -137,8 +161,8 @@
  "arrows": 0,
  "alt": "The opening page of Unit 11, Plans and Arrangements: the grammar point is going to and the present continuous for arrangements, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  6.270833333333333,
-  3.53125
+  8.268333333333333,
+  11.693055555555556
  ],
- "sha256": "a8415a5c933367976ebd01ab1fcffb345a4376301595cbd331db63d4d1d4335c"
+ "sha256": "9ecb0caf16a91a2019240f861a342268c68e54e226f511a79202ab4fb33ab399"
 }

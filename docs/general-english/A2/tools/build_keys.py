@@ -70,6 +70,7 @@ def build(book='a21'):
 
     lo, hi = min(keys), max(keys)
     tmp = os.path.join(ROOT, 'build', f'.{book}-key.md')
+    srcs = B.img_sources(md)
     open(tmp, 'w', encoding='utf-8').write(md)
     name = (f'EFDL-A2.{vol}-{title.replace(" ", "")}-AnswerKey-'
             f'u{lo:02d}-{hi:02d}.docx')
@@ -84,7 +85,7 @@ def build(book='a21'):
                     '-o', out], check=True)
     os.remove(tmp)
     B.postprocess(out, f'English for Daily Life · A2.{vol} Answer Key: {title}',
-                  f'English for Daily Life · A2.{vol} Answer Key')
+                  f'English for Daily Life · A2.{vol} Answer Key', srcs)
     subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                     '--outdir', os.path.join(ROOT, 'build'), out],
                    capture_output=True, timeout=900)

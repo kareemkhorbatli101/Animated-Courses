@@ -1,131 +1,155 @@
 {
  "canvas": [
-  1440,
-  812
+  2480,
+  3508
  ],
  "bounds": [
   0,
-  30,
-  1440,
-  782
+  0,
+  2480,
+  3508
  ],
  "texts": [
   {
-   "text": "UNIT 9",
-   "size": 40,
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 52,
    "bbox": [
-    90,
-    104.4,
-    239.9,
-    140.0
+    190,
+    191.8,
+    908.2,
+    237.8
+   ],
+   "fill": "#8FA8C8",
+   "on": "#1F3864"
+  },
+  {
+   "text": "UNIT 9",
+   "size": 96,
+   "bbox": [
+    190,
+    299.8,
+    549.7,
+    383.8
    ],
    "fill": "#E6C78F",
    "on": "#1F3864"
   },
   {
    "text": "Finding Your Way",
-   "size": 72,
+   "size": 140,
    "bbox": [
-    90,
-    163.7,
-    796.3,
-    226.2
+    190,
+    438.6,
+    1563.2,
+    560.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "GRAMMAR",
-   "size": 26,
+   "text": "THE GRAMMAR",
+   "size": 46,
    "bbox": [
-    106,
-    366.5,
-    259.4,
-    390.2
+    250,
+    1016.5,
+    638.7,
+    1056.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Prepositions of place, time",
-   "size": 36,
+   "text": "Prepositions of place, time and movement",
+   "size": 80,
    "bbox": [
-    106,
-    413.5,
-    651.5,
-    445.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "and movement",
-   "size": 36,
-   "bbox": [
-    106,
-    457.5,
-    409.1,
-    489.4
+    250,
+    1121.5,
+    2163.8,
+    1191.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "IN THIS UNIT",
-   "size": 26,
+   "size": 46,
    "bbox": [
-    786,
-    366.5,
-    973.7,
-    390.2
+    190,
+    1536.5,
+    522.1,
+    1576.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "By the end you can",
-   "size": 30,
+   "text": "By the end of this unit you can",
+   "size": 58,
    "bbox": [
-    70,
-    588.2,
-    394.3,
-    614.8
+    190,
+    2167.9,
+    1196.3,
+    2218.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can say where places are, using prepositions of place.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    640.2,
-    1067.3,
-    666.8
+    310,
+    2339.4,
+    2063.8,
+    2388.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can give simple directions from one place to another.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    696.2,
-    1052.0,
-    722.8
+    310,
+    2469.4,
+    2035.3,
+    2518.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can write directions to my home in 50\u201370 words.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    752.2,
-    972.4,
-    778.8
+    310,
+    2599.4,
+    1886.5,
+    2648.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Core track: Warm Up and Parts 1 to 6",
+   "size": 44,
+   "bbox": [
+    190,
+    3146.0,
+    1118.0,
+    3184.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Plus track: Parts 7 to 9, when you are ready",
+   "size": 44,
+   "bbox": [
+    190,
+    3226.0,
+    1283.0,
+    3264.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -137,8 +161,8 @@
  "arrows": 0,
  "alt": "The opening page of Unit 9, Finding Your Way: the grammar point is prepositions of place, time and movement, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  6.270833333333333,
-  3.53125
+  8.268333333333333,
+  11.693055555555556
  ],
- "sha256": "554af57b6a5e0697357bf12ddf7e88e4ae159a49a6ba0de1575c84e7c38bc998"
+ "sha256": "b49519b82f551e28fdd8b55c00c31c469242f36e987c032a40f9fffc3ee8ace6"
 }

@@ -262,6 +262,16 @@ Offer help and say when you are usually in — **5**'''),
 'G21': FIG(lambda m: m.update(arrows=0) or m),
 'G22': FIG(lambda m: m['texts'][0].update(fill='#EEF3F9', on='#FFFFFF') or m),
 'G23': FIG(lambda m: m.update(sha256='0' * 64) or m),
+# G25/G26/H23 read the built DOCX. G25 and H23 are book-scoped, so the per-unit
+# docx mutation cannot reach them; both are driven from ctx instead.
+# G25: tell the check the page is a different size from the one the covers
+#      were actually printed at.
+'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
+# G26: rewrite one printed extent in the unit DOCX so it no longer matches the law.
+'G26': DOCX(lambda d: d.replace('<wp:extent cx=', '<wp:extent cx="99999" cy="99999" x=', 1)),
+# H23: claim slot 1 is full-page, so the expected count of zero-margin sections
+#      jumps by one per unit while the document still holds two.
+'H23': ('ctx', lambda c: c.spec['figures'].__setitem__('full_page_slots', [1])),
 'G24': FIG(lambda m: m.update(alt='x') or m),
 
 # ------------------------------------------------------------ H typography
@@ -324,7 +334,8 @@ Offer help and say when you are usually in — **5**'''),
 'J12': ('ctx', lambda c: c.manifest.clear()),
 'J13': ('needs_artefact', 'pdf/git state'),
 'J14': ('needs_artefact', 'pdf/git state'),
-'J15': ('needs_artefact', 'pdf/git state'),
+'J15': ('ctx', lambda c: c.typo['departures'].__setitem__(
+            'pages_per_volume', {'min': 1, 'max': 2})),
 'J16': ('rename', lambda n: 'a21-unit1.md'),
 
 # ------------------------------------------------------------ K regression

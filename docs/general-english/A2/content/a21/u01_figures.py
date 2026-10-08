@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         1, 'People and Routines',
         'Present simple and present continuous',
         ['I can name the people around me: neighbour, flatmate, colleague.',

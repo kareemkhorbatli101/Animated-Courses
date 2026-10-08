@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         4, 'Food and Shopping',
         'Countable and uncountable, a, an, the',
         ['I can name the main things in a food shop.',

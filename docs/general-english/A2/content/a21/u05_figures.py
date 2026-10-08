@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         5, 'Last Weekend',
         'Past simple: was, were and regular verbs',
         ['I can name places outside the city and talk about the weather.',

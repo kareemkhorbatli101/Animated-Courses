@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         9, 'Finding Your Way',
         'Prepositions of place, time and movement',
         ['I can say where places are, using prepositions of place.',

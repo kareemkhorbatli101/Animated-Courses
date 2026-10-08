@@ -1,131 +1,155 @@
 {
  "canvas": [
-  1440,
-  812
+  2480,
+  3508
  ],
  "bounds": [
   0,
-  30,
-  1440,
-  782
+  0,
+  2480,
+  3508
  ],
  "texts": [
   {
-   "text": "UNIT 5",
-   "size": 40,
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 52,
    "bbox": [
-    90,
-    104.4,
-    239.9,
-    140.0
+    190,
+    191.8,
+    908.2,
+    237.8
+   ],
+   "fill": "#8FA8C8",
+   "on": "#1F3864"
+  },
+  {
+   "text": "UNIT 5",
+   "size": 96,
+   "bbox": [
+    190,
+    299.8,
+    549.7,
+    383.8
    ],
    "fill": "#E6C78F",
    "on": "#1F3864"
   },
   {
    "text": "Last Weekend",
-   "size": 72,
+   "size": 140,
    "bbox": [
-    90,
-    163.7,
-    658.9,
-    226.2
+    190,
+    438.6,
+    1296.2,
+    560.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "GRAMMAR",
-   "size": 26,
+   "text": "THE GRAMMAR",
+   "size": 46,
    "bbox": [
-    106,
-    366.5,
-    259.4,
-    390.2
+    250,
+    1016.5,
+    638.7,
+    1056.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Past simple: was, were and",
-   "size": 36,
+   "text": "Past simple: was, were and regular verbs",
+   "size": 82,
    "bbox": [
-    106,
-    413.5,
-    660.9,
-    445.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "regular verbs",
-   "size": 36,
-   "bbox": [
-    106,
-    457.5,
-    379.3,
-    489.4
+    250,
+    1119.9,
+    2165.0,
+    1192.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "IN THIS UNIT",
-   "size": 26,
+   "size": 46,
    "bbox": [
-    786,
-    366.5,
-    973.7,
-    390.2
+    190,
+    1536.5,
+    522.1,
+    1576.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "By the end you can",
-   "size": 30,
+   "text": "By the end of this unit you can",
+   "size": 58,
    "bbox": [
-    70,
-    588.2,
-    394.3,
-    614.8
+    190,
+    2167.9,
+    1196.3,
+    2218.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can name places outside the city and talk about the weather.",
-   "size": 30,
+   "size": 54,
    "bbox": [
-    128,
-    640.2,
-    1187.1,
-    666.8
+    310,
+    2340.2,
+    2216.4,
+    2387.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can use was, were and regular past verbs.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    696.2,
-    867.8,
-    722.8
+    310,
+    2469.4,
+    1691.1,
+    2518.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
    "text": "I can describe my last weekend in 50\u201370 words.",
-   "size": 30,
+   "size": 56,
    "bbox": [
-    128,
-    752.2,
-    934.7,
-    778.8
+    310,
+    2599.4,
+    1816.1,
+    2648.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Core track: Warm Up and Parts 1 to 6",
+   "size": 44,
+   "bbox": [
+    190,
+    3146.0,
+    1118.0,
+    3184.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Plus track: Parts 7 to 9, when you are ready",
+   "size": 44,
+   "bbox": [
+    190,
+    3226.0,
+    1283.0,
+    3264.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -137,8 +161,8 @@
  "arrows": 0,
  "alt": "The opening page of Unit 5, Last Weekend: the grammar point is the past simple with was, were and regular verbs, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  6.270833333333333,
-  3.53125
+  8.268333333333333,
+  11.693055555555556
  ],
- "sha256": "3243636da8960344487255482afc04efc0539a4f2148d4c4f39a8904fcc1e33e"
+ "sha256": "6d10e15ac4373183cfdd0896fa448057ab950db90435f578c19f6d494434564d"
 }

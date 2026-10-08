@@ -1,4 +1,4 @@
-"""G · Figures and visuals — 24 checks.
+"""G · Figures and visuals — 26 checks.
 
 Geometry checks read the sidecar `.json` the renderer emits beside each PNG:
 label boxes, leader segments, drawn bounds, glyph sizes. Pixel checks read the PNG.
@@ -23,6 +23,13 @@ def _meta(ctx, u, n):
 
 def _slots(ctx):
     return sorted(ctx.spec['figures']['slots'])
+
+
+def _full(ctx):
+    """Slots drawn at full-page size. They are a different canvas, a different
+    byte budget and a different empty-band rule from an in-flow figure, so
+    every pixel check has to ask which kind it is looking at."""
+    return set(ctx.spec['figures'].get('full_page_slots') or [])
 
 
 def _present(ctx, u):
@@ -80,21 +87,32 @@ def g05(u, ctx):
 def g06(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    bad = [f'{n}:{_png_size(_figpath(ctx,u,n,"png"))[0]}' for n in _present(ctx, u)
-           if _png_size(_figpath(ctx, u, n, 'png'))[0] != ctx.spec['figures']['px_width']]
+    fg, full = ctx.spec['figures'], _full(ctx)
+    bad = []
+    for n in _present(ctx, u):
+        want = fg['px_width_full_page'] if n in full else fg['px_width']
+        got = _png_size(_figpath(ctx, u, n, 'png'))[0]
+        if got != want:
+            bad.append(f'{n}:{got} want {want}')
     return expect(not bad, f'widths {bad}')
 
 @check('G07', 'golden.figures.px_height', 'PNG height within 320-880 px')
 def g07(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    lo, hi = ctx.spec['figures']['px_height']['min'], ctx.spec['figures']['px_height']['max']
+    fg, full = ctx.spec['figures'], _full(ctx)
     bad = []
     for n in _present(ctx, u):
         h = _png_size(_figpath(ctx, u, n, 'png'))[1]
-        if not lo <= h <= hi:
-            bad.append(f'{n}:{h}')
-    return expect(not bad, f'heights {bad} outside {lo}-{hi}')
+        if n in full:
+            want = fg['px_height_full_page']
+            if h != want:
+                bad.append(f'{n}:{h} want exactly {want}')
+        else:
+            lo, hi = fg['px_height']['min'], fg['px_height']['max']
+            if not lo <= h <= hi:
+                bad.append(f'{n}:{h} outside {lo}-{hi}')
+    return expect(not bad, f'heights {bad}')
 
 @check('G08', 'golden.figures', '8-bit RGB PNG')
 def g08(u, ctx):
@@ -142,16 +160,21 @@ def g09(u, ctx):
             bad.append(f'{n}: {off/tot:.2%} off-palette (limit {limit:.1%})')
     return expect(not bad, '; '.join(bad))
 
-@check('G10', 'golden.figures.max_bytes', 'File size <= 60 KB')
+@check('G10', 'golden.figures.max_bytes', 'File size within the budget for its class')
 def g10(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    lim = ctx.spec['figures']['max_bytes']
-    bad = [f'{n}:{os.path.getsize(_figpath(ctx,u,n,"png"))//1024}KB' for n in _present(ctx, u)
-           if os.path.getsize(_figpath(ctx, u, n, 'png')) > lim]
+    fg, full = ctx.spec['figures'], _full(ctx)
+    bad = []
+    for n in _present(ctx, u):
+        lim = fg['max_bytes_full_page'] if n in full else fg['max_bytes']
+        got = os.path.getsize(_figpath(ctx, u, n, 'png'))
+        if got > lim:
+            bad.append(f'{n}:{got//1024}KB over {lim//1024}KB')
     return expect(not bad, f'{bad}')
 
-@check('G11', 'typography.figure_placement', 'Placement == fit(5.625x1.979in) rounded to whole 96-DPI px')
+@check('G11', 'typography.figure_placement',
+       'Placement == fit(the slot box) rounded to whole 96-DPI px')
 def g11(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
@@ -159,15 +182,26 @@ def g11(u, ctx):
     DPI = fp['round_to_dpi']
     fg = ctx.spec['figures']
     bad = []
+    full = set(fg.get('full_page_slots') or [])
     for n in _present(ctx, u):
-        b = fg.get('box_by_slot', {}).get(n) or fg['box_default']
-        BW, BH = b['w'], b['h']
         pw, ph, _, _ = _png_size(_figpath(ctx, u, n, 'png'))
-        sc = min(BW / pw, BH / ph)
-        w = math.floor(pw * sc * DPI + 0.5) / DPI
-        h = math.floor(ph * sc * DPI + 0.5) / DPI
-        if not (w <= BW + 1e-6 and h <= BH + 1e-6):
-            bad.append(f'{n}: {w:.4f}x{h:.4f} exceeds box')
+        if n in full:
+            # fill_trim: the extent IS the box, so there is no rounding to check
+            b = fg['box_full_page']
+            w, h = b['w'], b['h']
+        else:
+            b = fg.get('box_by_slot', {}).get(n) or fg['box_default']
+            BW, BH = b['w'], b['h']
+            # the box must itself be a whole number of 96-DPI pixels, or the
+            # half-up rounding below can overflow the very box it fits into
+            for side, v in (('w', BW), ('h', BH)):
+                if abs(v * DPI - round(v * DPI)) > 1e-6:
+                    bad.append(f'{n}: box {side}={v} is not a whole 96-DPI pixel')
+            sc = min(BW / pw, BH / ph)
+            w = math.floor(pw * sc * DPI + 0.5) / DPI
+            h = math.floor(ph * sc * DPI + 0.5) / DPI
+            if not (w <= BW + 1e-6 and h <= BH + 1e-6):
+                bad.append(f'{n}: {w:.4f}x{h:.4f} exceeds box {BW}x{BH}')
         m = _meta(ctx, u, n)
         if m and 'placed_in' in m:
             if abs(m['placed_in'][0] - w) > 1e-6 or abs(m['placed_in'][1] - h) > 1e-6:
@@ -264,12 +298,14 @@ def g16(u, ctx):
 def g17(u, ctx):
     s = _skip_if_absent(ctx, u)
     if s: return s
-    lim = ctx.spec['figures']['max_empty_band_fraction']
+    fg, full = ctx.spec['figures'], _full(ctx)
     bad = []
     for n in _present(ctx, u):
         m = _meta(ctx, u, n)
         if not m:
             continue
+        lim = (fg['max_empty_band_fraction_full_page'] if n in full
+               else fg['max_empty_band_fraction'])
         H = m['canvas'][1]
         top, bot = m['bounds'][1] / H, (H - m['bounds'][3]) / H
         if top > lim or bot > lim:
@@ -384,4 +420,78 @@ def g24(u, ctx):
         alt = (m or {}).get('alt', '')
         if len(alt.split()) < 6:
             bad.append(f'{n}: alt is {len(alt.split())} words')
+    return expect(not bad, '; '.join(bad))
+
+
+# --------------------------------------------------------------------------
+# G25 and G26 read the built DOCX rather than the spec. Every other G check
+# asserts the law arithmetically against the PNG, which is why three defects
+# in a row could hide behind a green suite: the DOCX was not printing what
+# the law said. On 2026-10-08 the covers printed 1.40 x 1.98 in on an
+# 8.27 x 11.69 page, every figure fell through to box_default because pandoc
+# renames media to rIdNN.png and the slot could not be parsed, and the
+# box_by_slot table had therefore never been applied at all. Nothing in 230
+# checks looked at a printed extent. These two do.
+# --------------------------------------------------------------------------
+
+EMU = 914400
+
+
+def _docx_extents(path):
+    """Every image in a DOCX as (printed_w_in, printed_h_in), in order."""
+    import zipfile
+    if not os.path.exists(path):
+        return None
+    with zipfile.ZipFile(path) as z:
+        d = z.read('word/document.xml').decode('utf8')
+    out = []
+    for m in re.finditer(r'<w:drawing>.*?</w:drawing>', d, re.S):
+        e = re.search(r'<wp:extent cx="(\d+)" cy="(\d+)"', m.group(0))
+        if e:
+            out.append((int(e.group(1)) / EMU, int(e.group(2)) / EMU))
+    return out
+
+
+def _page_in(ctx):
+    pg = ctx.typo['page']['size_twips']
+    return pg['w'] / 1440, pg['h'] / 1440
+
+
+@check('G25', 'golden.figures.box_full_page',
+       'Covers print at the full page size in the book DOCX', scope='book')
+def g25(units, ctx):
+    path = ctx.docx_for(None)
+    ext = _docx_extents(path)
+    if ext is None:
+        return ok('SKIP: no book DOCX built yet')
+    if not os.path.exists(os.path.join(ctx.root, 'covers', f'{ctx.book}-front.png')):
+        return ok('SKIP: covers not built yet')
+    PW, PH = _page_in(ctx)
+    TOL = 1 / 96          # one 96-DPI pixel
+    bad = []
+    for label, (w, h) in (('front', ext[0]), ('back', ext[-1])):
+        if abs(w - PW) > TOL or abs(h - PH) > TOL:
+            bad.append(f'{label} cover prints {w:.3f}x{h:.3f} in, page is {PW:.3f}x{PH:.3f}')
+    return expect(not bad, '; '.join(bad))
+
+
+@check('G26', 'typography.figure_placement',
+       'Every image in the DOCX prints at the size the placement law gives')
+def g26(u, ctx):
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(ctx.root, 'tools'))
+    import build_docx as B
+    path = ctx.docx_for(u)
+    ext = _docx_extents(path)
+    if ext is None:
+        return ok('SKIP: no unit DOCX built yet')
+    present = _present(ctx, u)
+    if len(ext) != len(present):
+        return fail(f'{len(ext)} images in the DOCX, {len(present)} figures rendered')
+    TOL = 1 / 96 + 1e-9
+    bad = []
+    for n, (w, h) in zip(present, ext):
+        want = B.placed(_figpath(ctx, u, n, 'png'), n)
+        if abs(w - want[0]) > TOL or abs(h - want[1]) > TOL:
+            bad.append(f'{n}: prints {w:.4f}x{h:.4f}, law says {want[0]:.4f}x{want[1]:.4f}')
     return expect(not bad, '; '.join(bad))

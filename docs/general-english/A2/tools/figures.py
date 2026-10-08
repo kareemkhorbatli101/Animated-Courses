@@ -12,7 +12,8 @@ from PIL import ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
-W = 1440
+W = 1440                 # the in-flow canvas: 1440 px printed 6.26 in wide
+WFULL, HFULL = 2480, 3508   # A4 at 300 DPI, for a full-page image
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 FONT_R = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 
@@ -48,13 +49,14 @@ def fit_lines(label: str, maxw: float, size_hi: int = 34, size_lo: int = 22):
 
 
 class Fig:
-    def __init__(self, height: int, alt: str):
+    def __init__(self, height: int, alt: str, width: int = W):
         self.h = height
+        self.w = width
         self.alt = alt
         self.parts: list[str] = []
         self.texts: list[dict] = []
         self.leaders: list[list[float]] = []
-        self.bounds = [W, height, 0, 0]
+        self.bounds = [width, height, 0, 0]
         self.cards = 0
         self.stages = 0
         self.arrows = 0
@@ -115,9 +117,9 @@ class Fig:
         self.leaders.append([round(x0, 1), round(y0, 1), round(x1, 1), round(y1, 1)])
 
     def svg(self) -> str:
-        return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{self.h}" '
-                f'viewBox="0 0 {W} {self.h}">'
-                f'<rect width="{W}" height="{self.h}" fill="{P["bg"]}"/>'
+        return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" '
+                f'viewBox="0 0 {self.w} {self.h}">'
+                f'<rect width="{self.w}" height="{self.h}" fill="{P["bg"]}"/>'
                 + ''.join(self.parts) + '</svg>')
 
 
@@ -649,6 +651,68 @@ def unit_opener(number, title, grammar, can_do, icons, height=760, alt=''):
         f.rect(74, y - 22, 26, 26, fill=P['bg'], stroke=P['accent'], r=5, sw=4)
         f.text(ln[0], 128, y, size=sz2, anchor='start')
         y += 56
+    return f
+
+
+def unit_opener_page(number, title, grammar, can_do, icons, alt=''):
+    """N.1 as a full A4 page, portrait, 2480 x 3508 at 300 DPI.
+
+    Not a rescale of unit_opener: a landscape canvas cannot fill a portrait
+    page without distortion. The elements are the same -- number, title, the
+    one grammar point, the five topic icons, the can-do promises -- laid out
+    for a page a learner meets before any text, at a size that reads at arm's
+    length rather than five small glyphs in a row.
+    """
+    WP, HP = WFULL, HFULL
+    f = Fig(HP, alt, width=WP)
+
+    # masthead
+    f.rect(0, 0, WP, 760, fill=P['ink'], stroke=P['ink'], r=0, sw=0)
+    f.text('ENGLISH FOR DAILY LIFE', 190, 230, size=52, fill=P['blue'],
+           anchor='start', on=P['ink'])
+    f.text(f'UNIT {number}', 190, 370, size=96, fill=P['tanl'],
+           anchor='start', on=P['ink'])
+    tl, tsz = fit_lines(title, WP - 380, size_hi=140, size_lo=74)
+    ty = 540
+    for ln in tl[:2]:
+        f.text(ln, 190, ty, size=tsz, fill=P['bg'], anchor='start', on=P['ink'])
+        ty += tsz + 18
+
+    # the one grammar point
+    f.rect(190, 940, WP - 380, 420, fill=P['card'], stroke='#CED4DD', r=28, sw=4)
+    f.text('THE GRAMMAR', 250, 1050, size=46, fill=P['ink'], anchor='start', on=P['card'])
+    gl, gsz = fit_lines(grammar, WP - 560, size_hi=86, size_lo=54)
+    gy = 1180
+    for ln in gl[:2]:
+        f.text(ln, 250, gy, size=gsz, anchor='start', on=P['card'])
+        gy += gsz + 16
+
+    # the topic, as icons large enough to read across a room
+    f.text('IN THIS UNIT', 190, 1570, size=46, fill=P['ink'], anchor='start')
+    n = max(1, len(icons))
+    span = WP - 460
+    for i, ic in enumerate(icons):
+        icon(f, ic, 230 + span * ((i + 0.5) / n), 1790, s=1.55)
+
+    # what the learner will be able to do
+    f.line(190, 2080, WP - 190, 2080, stroke=P['rule'], sw=5)
+    f.text('By the end of this unit you can', 190, 2210, size=58,
+           fill=P['ink'], anchor='start')
+    y = 2380
+    for line in can_do[:3]:
+        ln, sz2 = fit_lines(line, WP - 560, size_hi=56, size_lo=40)
+        f.rect(196, y - 48, 56, 56, fill=P['bg'], stroke=P['accent'], r=10, sw=7)
+        for j, piece in enumerate(ln[:2]):
+            f.text(piece, 310, y + j * (sz2 + 10), size=sz2, anchor='start')
+        y += 130 + (len(ln[:2]) - 1) * (sz2 + 10)
+
+    # foot rule and the track note, mirroring the cover
+    f.line(190, HP - 430, WP - 190, HP - 430, stroke=P['rule'], sw=5)
+    f.text('Core track: Warm Up and Parts 1 to 6', 190, HP - 330, size=44,
+           fill=P['ink'], anchor='start')
+    f.text('Plus track: Parts 7 to 9, when you are ready', 190, HP - 250, size=44,
+           fill=P['ink'], anchor='start')
+    f.rect(0, HP - 90, WP, 90, fill=P['ink'], stroke=P['ink'], r=0, sw=0)
     return f
 
 
@@ -1400,23 +1464,34 @@ def tighten(f: Fig, margin: int | None = None) -> Fig:
 
 def emit(f: Fig, book: str, unit: int, slot: int):
     import cairosvg, yaml
-    f = tighten(f)
+    _g0 = yaml.safe_load(open(os.path.join(ROOT, 'spec', 'golden.yaml'), encoding='utf-8'))
+    full = slot in set(_g0['figures'].get('full_page_slots') or [])
+    # a full-page image must keep its whole canvas: tighten() crops to the
+    # drawing, which is right for an in-flow figure and would shrink a page
+    if not full:
+        f = tighten(f)
     out = os.path.join(ROOT, 'figures', book)
     os.makedirs(out, exist_ok=True)
     base = os.path.join(out, f'u{unit:02d}-{slot}')
     svg = f.svg()
     open(base + '.svg', 'w', encoding='utf-8').write(svg)
     cairosvg.svg2png(bytestring=svg.encode(), write_to=base + '.png',
-                     output_width=W, output_height=f.h, background_color='#FFFFFF')
+                     output_width=f.w, output_height=f.h, background_color='#FFFFFF')
     png = open(base + '.png', 'rb').read()
     _g = yaml.safe_load(open(os.path.join(ROOT, 'spec', 'golden.yaml'), encoding='utf-8'))
     _fg = _g['figures']
-    _b = _fg.get('box_by_slot', {}).get(slot) or _fg.get(
-        'box_default', {'w': 5.625, 'h': 1.9791666666666667})
-    BW, BH, DPI = _b['w'], _b['h'], 96
-    sc = min(BW / W, BH / f.h)
-    placed = [math.floor(W * sc * DPI + 0.5) / DPI, math.floor(f.h * sc * DPI + 0.5) / DPI]
-    meta = {'canvas': [W, f.h], 'bounds': [round(v, 1) for v in f.bounds],
+    DPI = 96
+    if full:
+        _b = _fg['box_full_page']
+        placed = [_b['w'], _b['h']]          # fill_trim: the extent IS the box
+    else:
+        _b = _fg.get('box_by_slot', {}).get(slot) or _fg.get(
+            'box_default', {'w': 5.625, 'h': 1.9791666666666667})
+        BW, BH = _b['w'], _b['h']
+        sc = min(BW / f.w, BH / f.h)
+        placed = [math.floor(f.w * sc * DPI + 0.5) / DPI,
+                  math.floor(f.h * sc * DPI + 0.5) / DPI]
+    meta = {'canvas': [f.w, f.h], 'bounds': [round(v, 1) for v in f.bounds],
             'texts': f.texts, 'leaders': f.leaders, 'cards': f.cards,
             'stages': f.stages, 'arrows': f.arrows, 'alt': f.alt,
             'placed_in': placed, 'sha256': hashlib.sha256(png).hexdigest()}

@@ -27,10 +27,28 @@ justification:
 figure_placement:
   # The law that reproduces all 40 source placements to the EMU.
   render_px_width: 1440
-  box_in: {w: 5.625, h: 1.9791666666666667}
+  # MEASURED source box, kept for the diff. The shipped box is golden.yaml's
+  # box_default / box_by_slot, raised 2026-10-08 -- see `departures` below.
+  source_box_in: {w: 5.625, h: 1.9791666666666667}
+  box_in: {w: 6.2604166667, h: 3.0937500000}
   fit: contain                           # preserve aspect, fit inside box
   round_to_dpi: 96                       # then round each dimension to a whole 96-DPI px
   rounding: half_up
+  # Because the rounding is half-UP, every box dimension must itself be a whole
+  # number of 96-DPI pixels, or a fitted image can overflow the box it was
+  # fitted into. Check G11 asserts it.
+  box_dims_must_be_whole_px: true
+  full_page:
+    # A cover or a unit opener takes the whole sheet, so it needs its own
+    # section: the body section has 1 in margins and the largest image that
+    # fits inside them is 6.27 x 9.69 in -- a big image on a page, not a page.
+    box_in: {w: 8.268333333333333, h: 11.693055555555556}   # A4 trim
+    fit: fill_trim                       # the extent IS the box; no contain,
+                                         # which would leave a hairline of white
+                                         # where A4 art and A4 page differ by 0.02%
+    section_margins_twips: {top: 0, right: 0, bottom: 0, left: 0}
+    alone_on_page: true                  # enforced by H23
+    footer: false                        # a cover carries no page number
 # ---------------------------------------------------------------------------
 # DECLARED DEPARTURES from the source, approved 2026-10-07 and extended on
 # 2026-10-07 after review: "too crammed ... I want visuals at the beginning of
@@ -43,13 +61,34 @@ figure_placement:
 # ---------------------------------------------------------------------------
 departures:
   page_numbers: true
+  # Approved 2026-10-08: "the front cover and back covers and first image of
+  # each unit must fill a page and every other exercise or so must have a
+  # pedagogically useful diagram or image or visual."
+  #
+  # Phase 1 of 00-VISUAL-PLAN.md, geometry only, no new art:
+  #   - the figure box goes from the source's 5.625 x 1.979 in to the full text
+  #     width, 6.2604 x 3.0938 in. The 1.979 in height cap was squashing every
+  #     figure in the book; two of Unit 16's printed 4.79 and 4.94 in wide
+  #     instead of the full width purely to stay under it.
+  #   - covers print full-page instead of 1.40 x 1.98 in, which is what they
+  #     had been doing since the first build.
+  visual_density_phase: 1
   running_footer: "Unit {unit} · {part}"
   layout: refined
   # 11-17 pages was the source's own density. The refined layout gives every
   # part its own page, 1.15 line spacing, 6pt paragraph spacing, padded cells
   # and 14 figures a unit, and runs 20-32. That is the point of the change.
   pages_per_unit: {min: 20, max: 34}
-  pages_per_volume: {min: 230, max: 380}
+  # Raised 2026-10-08 from max 380 to the measured truth. J15 had never
+  # executed -- Ctx.pdf_for(None) named a file build_book.py has never
+  # written -- so the volumes sat at 386 and 396 pages against a declared
+  # ceiling of 380 and nothing said so. 400 is the current measurement plus
+  # a single page of slack, not a guess; it moves again when the figures do.
+  # 2026-10-08, phase 1: raised again from 400. Un-squashing the figures
+  # (box height cap 1.979 -> 3.094 in) and giving the covers a full page each
+  # took A2.1 from 386 to 392 pages and A2.2 from 396 to 401. 410 is that
+  # measurement plus a page of slack per volume.
+  pages_per_volume: {min: 230, max: 410}
 
 layout:
   body:

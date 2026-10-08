@@ -2,7 +2,7 @@
 import figures as F
 
 FIGURES = {
- 1: lambda: F.unit_opener(
+ 1: lambda: F.unit_opener_page(
         13, 'Rules and Places',
         'Must, have to and mustn’t',
         ['I can say what is necessary, forbidden and not necessary.',

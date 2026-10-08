@@ -1,4 +1,4 @@
-"""H · DOCX and typography — 22 checks. Run against the built .docx/.pdf."""
+"""H · DOCX and typography — 23 checks. Run against the built .docx/.pdf."""
 import os, re, zipfile, math
 from collections import Counter
 from . import check, ok, fail, expect
@@ -273,3 +273,30 @@ def h22(u, ctx):
     txt = ctx.pdf_text(p)
     bad = [c for c in set(txt) if c in '�□']
     return expect(not bad, f'replacement glyphs present: {bad}')
+
+
+@check('H23', 'typography.figure_placement.full_page',
+       'Every full-page image sits alone in a zero-margin section', scope='book')
+def h23(units, ctx):
+    import zipfile
+    path = ctx.docx_for(None)
+    if not os.path.exists(path):
+        return ok('SKIP: no book DOCX built yet')
+    with zipfile.ZipFile(path) as z:
+        d = z.read('word/document.xml').decode('utf8')
+    n_full = len([1 for m in re.finditer(r'<w:pgMar w:top="0" w:right="0"', d)])
+    # one zero-margin section per full-page image, and each such paragraph
+    # carries exactly one drawing and no text run
+    want = 2 + len(units) * len(ctx.spec['figures'].get('full_page_slots') or [])
+    bad = []
+    if n_full != want:
+        bad.append(f'{n_full} zero-margin sections, want {want}')
+    for m in re.finditer(r'<w:p\b[^>]*>(?:(?!</w:p>).)*?'
+                         r'<w:pgMar w:top="0" w:right="0"(?:(?!</w:p>).)*?</w:p>', d, re.S):
+        para = m.group(0)
+        if len(re.findall(r'<w:drawing>', para)) != 1:
+            bad.append('a zero-margin paragraph does not hold exactly one image')
+        txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', para)).strip()
+        if txt:
+            bad.append(f'a full-page image shares its page with text: {txt[:40]!r}')
+    return expect(not bad, '; '.join(sorted(set(bad))))

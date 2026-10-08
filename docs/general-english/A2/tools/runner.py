@@ -42,9 +42,30 @@ class Ctx:
         self.key = self._keys.get(u.num)
         return self
 
+    # The whole-book DOCX is named by build_book.py as
+    # `EFDL-A2.{vol}-{Title}-u{lo}-{hi}.docx`, and the unit span in that name
+    # moves every time a unit is added. Returning a fixed `{book}-book.docx`
+    # named a file that has never existed, so every book-scoped check asking
+    # for it skipped in silence -- J15 (page count per volume) had never
+    # executed once in this project. Resolve the real name off disk instead.
+    BOOK_VOL = {'a21': '1', 'a22': '2'}
+
+    def _book_docx(self):
+        d = os.path.join(self.root, 'build')
+        fallback = os.path.join(d, f'{self.book}-book.docx')
+        if not os.path.isdir(d):
+            return fallback
+        pre = f'EFDL-A2.{self.BOOK_VOL[self.book]}-'
+        hits = sorted(f for f in os.listdir(d)
+                      if f.startswith(pre) and f.endswith('.docx')
+                      and 'AnswerKey' not in f)
+        # one match in practice: build_book removes the previous span on rename
+        return os.path.join(d, hits[-1]) if hits else fallback
+
     def docx_for(self, u):
-        return os.path.join(self.root, 'build',
-                            f'{self.book}-u{u.num:02d}.docx' if u else f'{self.book}-book.docx')
+        if u is None:
+            return self._book_docx()
+        return os.path.join(self.root, 'build', f'{self.book}-u{u.num:02d}.docx')
 
     def pdf_for(self, u):
         return self.docx_for(u)[:-5] + '.pdf'
